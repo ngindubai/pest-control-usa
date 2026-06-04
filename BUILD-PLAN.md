@@ -9,11 +9,11 @@
 - **One "build the next batch" = one block. Never more.**
 - **A block = 25 pages** (or one equivalent non-page unit).
 - Every block runs the full 7-stage pipeline: Geographer, Wordsmith, Interrogator, Chameleon, Optimiser, Auditor, Builder.
-- After commit, deploy is automatic on push. Then post the live URLs of all new and changed pages for review (LIVE LINK REVIEW GATE in CLAUDE.md).
+- After commit, push directly to `main`. deploy.yml fires automatically and the site goes live. Then post the live URLs of all new and changed pages for review (LIVE LINK REVIEW GATE in CLAUDE.md). Never use a working branch.
 - Every block also updates BUILD-PLAN.md, build_state.json, and MEMORY.md in the same commit (MANDATORY DOCS UPDATE).
 - Bulk-generation without the quality gate is banned.
 
-**Where we are:** Phase 1 in progress. Chunk 1 complete: 25 of ~75 T1 city pages built. 50 T1 cities remaining.
+**Where we are:** Phase 1 in progress. Chunk 2 complete: 50 of ~75 T1 city pages built. ~25 T1 cities remaining.
 
 ---
 
@@ -25,7 +25,8 @@
 ### Phase 1 - T1 city pages (IN PROGRESS)
 - Top ~75 metro cities. >= 800 words each. Quality build.
 - Template rotation across A to E.
-- Chunk 1 done: 25 cities built (5 each A to E). 50 remaining.
+- Chunk 1 done: 25 cities built (5 each A to E).
+- Chunk 2 done: 25 more cities built (5 each A to E). Total 50 T1 cities. ~25 remaining.
 - Gate to Phase 2: all T1 cities live and indexed, fingerprint audit passing.
 
 ### Phase 2 - T2 city pages
@@ -47,6 +48,7 @@
 Deterministic by slug hash (see the guide). For hand-built T1 batches, rotate A, B, C, D, E, A, ... across the batch so each block ships a visible mix.
 
 - Chunk 1 shipped a balanced mix (5 each A to E).
+- Chunk 2 shipped a balanced mix (5 each A to E). Running total: 10 each A to E.
 - Next block template lead: **A** (rotation continues across the batch)
 
 ---
@@ -64,4 +66,5 @@ The Librarian maintains the authoritative tiered list in `src/data/cities/index.
 | Date | Block | Work Done | Pages | Notes |
 |------|-------|-----------|-------|-------|
 | 2026-06-04 | Phase 0 | Ported governance and workforce from pet-transport. Created CLAUDE.md, AGENTS.md, MEMORY.md, BUILD-PLAN.md, build_state.json, ERRORS.md, DEPLOY.md, DESIGN.md, TEMPLATE-DIVERSIFICATION-GUIDE.md. 14 worker souls + 5 content souls. Template router + 5 city templates. Seed city data + `[slug]/[city]` route. | 5 seed cities | Architecture. Austin, Houston, Miami, Phoenix, Minneapolis. |
-| 2026-06-04 | Chunk 1 | First 25 T1 city pages through the full 7-stage pipeline. Added 20 metros: New York, Los Angeles, Chicago, Philadelphia, San Antonio, San Diego, Dallas, San Jose, Jacksonville, Columbus, Charlotte, Indianapolis, Seattle, Denver, Nashville, Atlanta, Las Vegas, Portland, Memphis, New Orleans. Balanced template rotation (5 each A to E). Verified regional pest data, local FAQs, internal links, schema. Build green, one H1 each, unique titles, no dashes or banned vocab. | 25 city pages | Live on merge to main. Next: chunk 2, next 25 T1 cities. |
+| 2026-06-04 | Chunk 1 | First 25 T1 city pages through the full 7-stage pipeline. Added 20 metros: New York, Los Angeles, Chicago, Philadelphia, San Antonio, San Diego, Dallas, San Jose, Jacksonville, Columbus, Charlotte, Indianapolis, Seattle, Denver, Nashville, Atlanta, Las Vegas, Portland, Memphis, New Orleans. Balanced template rotation (5 each A to E). Verified regional pest data, local FAQs, internal links, schema. Build green, one H1 each, unique titles, no dashes or banned vocab. | 25 city pages | Live on main. Next: chunk 2. |
+| 2026-06-04 | Chunk 2 | Next 25 T1 city pages. Fort Worth TX (A), San Francisco CA (B), Washington DC (C), Oklahoma City OK (D), El Paso TX (E), Boston MA (A), Baltimore MD (B), Louisville KY (C), Milwaukee WI (D), Albuquerque NM (E), Tucson AZ (A), Fresno CA (B), Sacramento CA (C), Kansas City MO (D), Tampa FL (E), Orlando FL (A), St. Louis MO (B), Raleigh NC (C), Virginia Beach VA (D), Oakland CA (E), Omaha NE (A), Colorado Springs CO (B), Long Beach CA (C), Wichita KS (D), Pittsburgh PA (E). ClimateZone type extended (desert, mediterranean, semi-arid, cold-humid). CLAUDE.md hardcoded push-to-main. Build green, 50 city pages total. | 25 city pages | Live on main. Next: chunk 3, ~25 remaining T1 cities, rotation at A. |

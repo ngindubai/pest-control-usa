@@ -68,7 +68,7 @@ Seven more supporting workers (The Architect, The Scout, The Spider, The Librari
 - **A block = 25 pages** (or one equivalent non-page unit such as a data enrichment pass or a template build).
 - Every block runs the full 7-stage pipeline above.
 - **Bulk-generation without the quality gate is banned.** We never mass-produce thin pages.
-- After commit, deploy is automatic on push to the build branch / main. After deploy, post the live review links (see LIVE LINK REVIEW GATE).
+- After commit, deploy is automatic on push to `main`. After deploy, post the live review links (see LIVE LINK REVIEW GATE).
 
 ---
 
@@ -100,7 +100,8 @@ Each page must be genuinely different, driven by real local data, not a find-and
 
 ## DEPLOY MODEL
 
-- Push to the working branch (currently `claude/pest-control-seo-setup-cpLLm`) or to `main` once merged.
+**HARDCODED RULE: Always push directly to `main`. Never push to a working branch and wait for a merge. Every commit goes to `main` so deploy.yml fires immediately and the site goes live on every push.**
+
 - `.github/workflows/deploy.yml` builds the Next.js static export (`npm run build` then `next-sitemap` postbuild) and publishes `out/` to the `live` branch via peaceiris/actions-gh-pages.
 - Hostinger serves the `live` branch.
 - The `live` branch is compiled output only. Never edit it directly.
@@ -203,7 +204,7 @@ pest-control-usa/
 1. Read MEMORY.md, BUILD-PLAN.md, build_state.json. Find the next chunk, tier, and template in rotation.
 2. Run the 7-stage pipeline for the batch (Geographer to Builder).
 3. Build the static export locally (`npm run build`) to confirm it compiles.
-4. Commit pages plus the three docs updates in one atomic commit to the working branch.
+4. Commit pages plus the three docs updates in one atomic commit and push directly to `main`.
 5. Post the live review links (LIVE LINK REVIEW GATE).
 6. Stop and wait for the next "go".
 
@@ -226,12 +227,12 @@ pest-control-usa/
 
 ## CURRENT STATUS (keep accurate, update on every block commit)
 
-- **Phase:** Phase 1 in progress. Chunk 1 complete 2026-06-04.
-- **City pages built:** 25 of ~75 T1 targets. 50 T1 cities remaining.
+- **Phase:** Phase 1 in progress. Chunk 2 complete 2026-06-04.
+- **City pages built:** 50 of ~75 T1 targets. ~25 T1 cities remaining.
 - **Town pages built:** 0.
-- **Templates:** 5 (A to E), all built. Router in `src/components/templates/`. Rotation balanced at 5 each (20% per template).
-- **Next block:** Chunk 2, the next 25 T1 city pages, rotation continues at A.
-- **Deploy:** Next.js static export to `live` branch (deploy.yml), served by Hostinger.
+- **Templates:** 5 (A to E), all built. Router in `src/components/templates/`. Rotation balanced at 10 each (20% per template).
+- **Next block:** Chunk 3, the final ~25 T1 city pages, rotation continues at A.
+- **Deploy:** Always push directly to `main`. deploy.yml fires automatically. Site goes live on every push.
 
 ---
 

@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-04)
 
-- **Phase:** Phase 1 in progress. Chunk 1 complete.
-- **City pages built:** 25 of ~75 T1 targets. 50 T1 cities remaining.
+- **Phase:** Phase 1 in progress. Chunk 2 complete.
+- **City pages built:** 50 of ~75 T1 targets. 25 T1 cities remaining.
 - **Town pages built:** 0.
-- **Total site pages:** ~106 in the static export (home, services, 50 states, 25 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation balanced at 5 each (20% per template).
-- **Cities built:** Austin, Houston, San Antonio, Dallas, Miami, Jacksonville, Phoenix, Minneapolis, Los Angeles, San Diego, San Jose, New York City, Chicago, Philadelphia, Columbus, Charlotte, Indianapolis, Seattle, Denver, Atlanta, Las Vegas, Portland, New Orleans, Nashville, Memphis.
-- **Next block:** Chunk 2, next 25 T1 cities, rotation continues at A.
-- **Deploy note:** deploy.yml fires on push to main. City pages go live when the working branch merges to main.
+- **Total site pages:** ~131 in the static export (home, services, 50+ states, 50 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation balanced at 10 each (20% per template).
+- **Cities built:** Austin, Houston, San Antonio, Dallas, Fort Worth, El Paso, Miami, Jacksonville, Tampa, Orlando, Phoenix, Tucson, Minneapolis, Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, New York City, Chicago, Philadelphia, Pittsburgh, Columbus, Charlotte, Raleigh, Indianapolis, Seattle, Denver, Colorado Springs, Atlanta, Las Vegas, Portland, New Orleans, Nashville, Memphis, Washington DC, Oklahoma City, Boston, Baltimore, Louisville, Milwaukee, Albuquerque, Kansas City, St. Louis, Virginia Beach, Omaha, Wichita.
+- **Next block:** Chunk 3, next 25 T1 cities (approx 25 remaining), rotation continues at A.
+- **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
 
@@ -71,6 +71,11 @@
 | 2026-06-04 | City data split per state under `src/data/cities/` | Keeps files reviewable and avoids one giant file |
 | 2026-06-04 | Town population floor set at 5,000 | Avoids thin junk pages for tiny places. Adjustable |
 | 2026-06-04 | Chunk 1: first 25 T1 city pages built | One block, full 7-stage pipeline, balanced template rotation (5 each A to E) |
+| 2026-06-04 | Chunk 2: next 25 T1 city pages built | Fort Worth, El Paso, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Washington DC, Oklahoma City, Boston, Baltimore, Louisville, Milwaukee, Albuquerque, Kansas City, St. Louis, Tampa, Orlando, Raleigh, Virginia Beach, Omaha, Colorado Springs, Wichita, Pittsburgh. Rotation continues balanced (10 each A to E). ClimateZone type extended to include desert, mediterranean, semi-arid, cold-humid. CLAUDE.md hardcoded push-to-main rule. |
+
+## ClimateZone Values (extended 2026-06-04)
+
+Valid ClimateZone values (see `src/types/index.ts`): hot-humid, hot-arid, desert, mediterranean, semi-arid, cold-humid, temperate, cold, tropical.
 
 ## Mistakes to Avoid
 - Never bulk-generate pages without the full 7-stage quality gate.

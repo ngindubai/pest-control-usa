@@ -430,4 +430,216 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Dallas pest control for fire ants, mosquitoes, roaches, subterranean termites and roof rats. Clay-soil termite checks, free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "fort-worth",
+    name: "Fort Worth",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T1",
+    population: "~935,000",
+    county: "Tarrant County",
+    climate: "hot-humid",
+    climateDriver:
+      "Fort Worth sits at the western edge of the humid subtropical zone, drier than Houston or Dallas but still hot and humid enough to sustain year-round termite activity and a long mosquito season. The Trinity River and its creeks run through the city, providing consistent mosquito breeding habitat.",
+    topPests: ["Termites", "Fire Ants", "Mosquitoes", "Cockroaches", "Rats"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active most of the year",
+        note: "Fort Worth and the DFW metroplex sit in a high termite pressure zone. The clay soils of North Texas retain moisture and support large subterranean termite colonies. Texas A&M AgriLife Extension identifies the DFW area as one of the highest-risk zones in the state.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Fire ants are widespread across the Fort Worth metro and rebuild mounds quickly after rain. They are a sting hazard in yards, parks, and commercial outdoor areas and are particularly aggressive in the spring.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Trinity River system running through Fort Worth and the many retention ponds across Tarrant County create sustained mosquito breeding habitat. Tarrant County Public Health maintains an active West Nile virus monitoring program, and positive mosquito pools have been confirmed in past seasons.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are common in the basements, crawl spaces, and drainage infrastructure of Fort Worth's older neighborhoods. German cockroaches are the dominant indoor species in apartment buildings and commercial kitchens.",
+      },
+      {
+        name: "Roof rats and Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats, attracted to the mature tree canopy of neighborhoods like Fairmount and Mistletoe Heights, are an increasing concern in Fort Worth. Norway rats are common in the denser commercial areas near the stockyards district.",
+      },
+    ],
+    localHook:
+      "Fort Worth and Dallas share the same high termite pressure zone, and the Trinity River system running through the city adds a long, active mosquito season on top of that. Tarrant County Public Health actively monitors West Nile virus because positive mosquito pools are a regular seasonal feature here.",
+    intro:
+      "Pest control in Fort Worth is shaped by the same forces that make the entire DFW metroplex a high-risk environment for termites: the clay soils retain moisture and support large subterranean colonies, and Texas A&M AgriLife Extension confirms this area is among the highest-risk in Texas. The Trinity River system and the county's many retention ponds add a long, active mosquito season monitored by Tarrant County Public Health for West Nile virus. Fire ants cover the yards, cockroaches are year-round indoors, and the city's mature tree canopy feeds a growing roof rat population.",
+    sections: [
+      {
+        heading: "Clay soils and termite risk in Tarrant County",
+        body: "The expansive clay soils of North Texas are excellent at holding moisture, which is exactly what subterranean termite colonies need. Fort Worth has the same termite profile as Dallas: high pressure, year-round activity beneath the soil, and a spring swarm season that often reveals established colonies inside homes. The typical signs are mud tubes on foundation walls, winged termites near windows in spring, and soft or hollow-sounding wood. Annual inspections are the standard of care here, not an optional extra.",
+      },
+      {
+        heading: "The Trinity River and the mosquito season",
+        body: "The Trinity River and its tributary creeks run through Fort Worth and create natural mosquito habitat that persists through the summer. Tarrant County has a mosquito abatement program and monitors West Nile virus activity through the season. Around the home, removing standing water from gutters, planters, bird baths, and any pooled areas after rain is the first line of defense. Treating the shaded resting spots under decks and in dense vegetation handles the second phase.",
+      },
+    ],
+    prevention: [
+      "Have an annual termite inspection given the DFW clay-soil high-pressure zone.",
+      "Remove standing water from the yard after rain to reduce the Trinity River mosquito season.",
+      "Treat fire ant mounds as they appear and do a yard sweep after significant rain events.",
+      "Keep roof line and attic vents screened to block roof rats from the mature tree canopy neighborhoods.",
+    ],
+    costNote:
+      "Fort Worth pest control is commonly quoted as a general year-round plan with termite protection quoted separately after inspection. Mosquito service is often added seasonally from April through October. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Is Fort Worth in a high termite risk zone?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension identifies the DFW metroplex, including Tarrant County, as one of the highest termite pressure zones in Texas. The expansive clay soils retain moisture and support large subterranean colonies. Annual inspections are strongly recommended.",
+      },
+      {
+        question: "Does Fort Worth have a West Nile virus risk?",
+        answer:
+          "Yes. Tarrant County Public Health maintains an active West Nile virus monitoring program and has confirmed positive mosquito pools in past seasons. The Trinity River system and the many retention ponds across the county provide breeding habitat through the active season from April through October.",
+      },
+      {
+        question: "Are fire ants dangerous in Fort Worth?",
+        answer:
+          "Fire ants are a sting hazard, particularly for children and pets who may not notice a mound before disturbing it. They defend aggressively and can sting multiple times. In Fort Worth's yards and parks, treating mounds as they appear and checking after rain events keeps the risk manageable.",
+      },
+      {
+        question: "Are cockroaches a year-round problem in Fort Worth?",
+        answer:
+          "Yes. The Fort Worth climate stays warm enough to sustain both indoor and outdoor cockroach activity year-round. American roaches are common in crawl spaces and drainage areas; German cockroaches are the primary indoor species in apartments and commercial settings.",
+      },
+      {
+        question: "How do I know if I have roof rats versus Norway rats?",
+        answer:
+          "Roof rats are slender, with large ears and a long tail, and nest high up: in attics, trees, and vine-covered fences. Norway rats are stockier and burrow in the ground. Fort Worth's mature neighborhoods with tall tree canopy tend to see roof rat pressure. Both require professional assessment to treat effectively.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Dallas", slug: "dallas" },
+      { name: "Arlington", slug: "arlington" },
+      { name: "Plano", slug: "plano" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Fort Worth, TX | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Fort Worth pest control for subterranean termites, fire ants, Trinity River mosquitoes, cockroaches and rats. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "el-paso",
+    name: "El Paso",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T1",
+    population: "~680,000",
+    county: "El Paso County",
+    climate: "desert",
+    climateDriver:
+      "El Paso sits in the Chihuahuan Desert at the far western tip of Texas, bordering New Mexico and Mexico. Hot dry summers, mild winters, and very low humidity mean the pest environment is dominated by desert species: scorpions, black widows, and rodents seeking moisture and warmth.",
+    topPests: ["Scorpions", "Black Widows", "Cockroaches", "Mice", "Ants"],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Active spring through fall, seek shelter indoors in peak heat",
+        note: "Bark scorpions are present in the El Paso area and across far west Texas. Their sting is medically significant. Texas A&M AgriLife Extension confirms bark scorpions are found in the Trans-Pecos and El Paso regions. They enter homes seeking moisture and shelter, particularly in summer.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active spring through fall",
+        note: "Black widows are very common across the desert southwest and found regularly in El Paso yards, utility boxes, wood piles, and garage storage areas. The female's bite is medically significant.",
+      },
+      {
+        name: "American and Oriental cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge indoors in hot dry summer seeking moisture",
+        note: "American and Oriental cockroaches enter El Paso homes seeking moisture during the intense summer heat. They are drawn to plumbing areas, under sinks, and basement drains. German cockroaches are the dominant species in commercial kitchens.",
+      },
+      {
+        name: "House mice and pack rats (woodrats)",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Pack rats, also called woodrats, are a distinctive desert pest that builds large stick nests and can damage vehicles and equipment with their nesting material. House mice are also common across the El Paso metro and enter homes in cooler months.",
+      },
+      {
+        name: "Harvester and carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Red harvester ants are common in El Paso yards and bite aggressively when disturbed. Their mounds are a hazard in landscaped areas. Carpenter ants can nest in moist wood and cause structural damage.",
+      },
+    ],
+    localHook:
+      "El Paso's Chihuahuan Desert location means scorpions and black widows are not occasional surprises: they are regular features of the outdoor environment. New residents from wetter climates are often caught off guard by how common bark scorpion encounters are here compared with most of the country.",
+    intro:
+      "Pest control in El Paso is defined by the desert. The Chihuahuan Desert location means bark scorpions and black widows are everyday parts of the outdoor environment, not rare encounters. Texas A&M AgriLife Extension confirms bark scorpions are present in the El Paso region, and their sting is medically significant. The intense summer heat drives American cockroaches indoors seeking moisture, pack rats build nests in vehicles and under porches, and house mice push in when the desert cools each fall.",
+    sections: [
+      {
+        heading: "Scorpions and black widows: daily desert realities",
+        body: "El Paso residents learn quickly that bark scorpions and black widows are simply part of living in this desert environment. Scorpions enter homes seeking moisture and shelter during the hot summer, coming through gaps under doors, around utility lines, and through weep holes in brick construction. They are most active at night. Black widows prefer undisturbed dry spots: utility boxes, wood piles, storage areas, and the corners of outdoor structures. The practical defense is sealing entry points, treating the perimeter regularly, and checking stored items before handling them.",
+      },
+      {
+        heading: "Pack rats: a specifically desert problem",
+        body: "Pack rats, properly called woodrats, are common in the Chihuahuan Desert and create problems that most homeowners in wetter climates never encounter. They build large stick-and-debris nests in protected spots and cache materials in engine compartments, wheel wells, and under porches. A vehicle left parked for even a few weeks can accumulate a substantial pack rat nest. They chew wiring, insulation, and hoses. Regular inspection of vehicles and the areas under structures is worth doing if your property backs up to desert or open land.",
+      },
+    ],
+    prevention: [
+      "Seal gaps under doors, around utility penetrations, and weep holes in brick to reduce scorpion entry.",
+      "Check shoes, gloves, and clothing left in the garage before putting them on.",
+      "Inspect the engine compartment of infrequently used vehicles for pack rat nesting material.",
+      "Remove wood piles, debris, and stored items from against the exterior walls to reduce black widow harborage.",
+    ],
+    costNote:
+      "El Paso pest control is typically quoted as a general plan covering scorpions, spiders, cockroaches, and ants, with rodent exclusion quoted separately. Start with a free inspection to identify what is active.",
+    faqs: [
+      {
+        question: "Are bark scorpions dangerous in El Paso?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension confirms bark scorpions are present in the El Paso region, and their venom is medically significant, particularly for children and elderly individuals. They are not rare in the desert southwest and should be treated as an expected part of the environment here, managed through perimeter treatment and exclusion.",
+      },
+      {
+        question: "What are pack rats and why are they a problem?",
+        answer:
+          "Pack rats are native desert rodents that build large stick nests and cache materials in protected spots. In residential settings they nest in engine compartments, under porches, and in wall voids. They chew through wiring, hoses, and insulation. A vehicle left parked on the edge of desert land can accumulate a substantial pack rat nest quickly.",
+      },
+      {
+        question: "Why do cockroaches come inside so much in El Paso's summer?",
+        answer:
+          "American and Oriental cockroaches enter homes seeking moisture during the intense summer heat. The desert exterior becomes extremely dry, driving them toward air-conditioned, plumbing-adjacent spaces indoors. Fixing leaky pipes, reducing moisture under sinks, and sealing entry points reduces the summer surge.",
+      },
+      {
+        question: "Where do black widows hide in El Paso?",
+        answer:
+          "Black widows prefer dry, undisturbed spots: utility meter boxes, wood piles, under outdoor furniture, behind stored items in garages, and in crawl spaces. They are not aggressive but will bite if pressed. Checking these spots regularly and wearing gloves when reaching into dark enclosed spaces is sensible practice.",
+      },
+      {
+        question: "Is pest control different in the desert compared with other Texas cities?",
+        answer:
+          "Yes. El Paso's Chihuahuan Desert location means the dominant pest concerns are scorpions, black widows, and pack rats rather than the termites, mosquitoes, and fire ants that dominate in humid east Texas. Treatment focus shifts to perimeter sealing, moisture reduction, and desert-adapted species management.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Las Cruces", slug: "las-cruces" },
+      { name: "Ciudad Juarez", slug: "ciudad-juarez" },
+      { name: "Albuquerque", slug: "albuquerque" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in El Paso, TX | Scorpions, Black Widows & Desert Pests",
+    metaDescription:
+      "El Paso pest control for bark scorpions, black widows, American cockroaches, pack rats and harvester ants. Chihuahuan Desert specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

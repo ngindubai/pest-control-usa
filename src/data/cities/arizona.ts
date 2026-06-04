@@ -110,4 +110,116 @@ export const arizonaCities: CityLocation[] = [
     metaDescription:
       "Phoenix pest control for bark scorpions, desert roaches, subterranean termites, black widows and roof rats. Sealing plus treatment, free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "tucson",
+    name: "Tucson",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T1",
+    population: "~545,000",
+    county: "Pima County",
+    climate: "desert",
+    climateDriver:
+      "Tucson sits in the Sonoran Desert at 2,400 feet elevation with a bimodal rainfall pattern: the summer monsoon (July through September) brings intense brief storms, and a gentler winter wet season. The monsoon heat and humidity drive pest activity to its peak, and the bark scorpion density here is among the highest in the United States.",
+    topPests: [
+      "Bark Scorpions",
+      "Black Widows",
+      "Pack Rats",
+      "Termites",
+      "Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Active spring through fall, most aggressive during monsoon, seek shelter year-round",
+        note: "University of Arizona Cooperative Extension confirms Tucson has one of the highest bark scorpion densities in the United States. Bark scorpions are the only North American scorpion with venom considered medically significant. Tucson's Pima County poison control center handles scorpion sting calls regularly. Children and elderly individuals are at highest risk.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active spring through fall",
+        note: "Black widows are very common in Tucson and the surrounding desert, found in utility boxes, under outdoor furniture, in wood piles, in block wall gaps, and in storage areas. The female's bite is medically significant.",
+      },
+      {
+        name: "Pack rats (woodrats)",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note: "Pack rats are native to the Sonoran Desert and are a defining pest challenge in Tucson. They build large stick-and-debris middens under porches, in crawl spaces, and in engine compartments. A pack rat nest under a hood can disable a vehicle. The middens can also harbor bark scorpions.",
+      },
+      {
+        name: "Desert and subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms during and after monsoon rains (July to September), active spring through fall",
+        note: "Tucson has both desert subterranean and Heterotermes termites. Swarming peaks during and after monsoon rain events when warm humid conditions trigger the emergence of winged reproductives. The post-monsoon period is the critical inspection window.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge indoors during monsoon and in summer heat",
+        note: "American cockroaches enter Tucson homes seeking moisture during the intense pre-monsoon heat (May through June) and during monsoon rains. They are drawn to plumbing areas, under sinks, and crawl spaces.",
+      },
+    ],
+    localHook:
+      "Tucson has among the highest bark scorpion densities in the United States. University of Arizona researchers have studied them here for decades. They are not just a desert curiosity: Tucson's Pima County poison control center handles scorpion sting calls regularly throughout the warm season. For families with young children, scorpion management is the top pest priority.",
+    intro:
+      "Pest control in Tucson centers on the bark scorpion, and for good reason. University of Arizona Cooperative Extension confirms Tucson has one of the highest bark scorpion densities in the country. Pima County poison control handles sting calls regularly through the warm season, with children and elderly individuals at the highest risk. Pack rats build middens under porches and in engine compartments, black widows are common in every yard, termites swarm during monsoon rains, and cockroaches push inside when the summer heat peaks.",
+    sections: [
+      {
+        heading: "Bark scorpions: the Tucson priority",
+        body: "Arizona bark scorpions are the only North American scorpion with venom considered medically significant, and Tucson has among the highest densities in the country. University of Arizona researchers have studied them in depth. They climb walls, hide in shoes left on the floor, and enter through gaps around doors and windows, particularly during hot weather when they seek moisture and cooler temperatures. They are most active at night. The practical defense is sealing entry points, regular perimeter treatment, reducing harborage sites in the yard, and checking shoes before putting them on. A black light at night reveals scorpions that are otherwise invisible.",
+      },
+      {
+        heading: "Pack rat middens: a specifically Tucson problem",
+        body: "Pack rats are native desert rodents that build large stick-and-debris midden nests in protected spots. Under a porch, in a crawl space, in a vehicle engine compartment: these are their preferred sites. A pack rat midden under a car hood can fill with sticks, cacti spines, and debris that can damage hoses and wiring. The middens also provide excellent harborage for bark scorpions, so a pack rat nest is often a compounded problem. Managing pack rats in Tucson requires the same consistent attention as managing cockroaches in a humid city.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around doors, windows, and utility penetrations to reduce scorpion entry.",
+      "Shake shoes before putting them on and check bedding in scorpion-active areas.",
+      "Inspect the engine compartment of vehicles that sit outside for pack rat nesting material.",
+      "Remove debris, rock piles, and stored wood from against the exterior walls to reduce scorpion and black widow harborage.",
+    ],
+    costNote:
+      "Tucson pest control is typically quoted as a general desert plan covering scorpions, spiders, cockroaches, and ants, with pack rat removal and termite inspection quoted separately. Monthly or bi-monthly perimeter treatment is standard for homes in Tucson given the scorpion density. Start with a free inspection.",
+    faqs: [
+      {
+        question: "How dangerous are bark scorpions in Tucson?",
+        answer:
+          "Arizona bark scorpions are the only North American scorpion with medically significant venom. University of Arizona Extension confirms Tucson has one of the highest densities in the country. Most stings cause pain and temporary symptoms, but children, elderly individuals, and those with compromised immune systems can have more serious reactions. Tucson's Pima County poison control center handles sting calls regularly. Regular treatment significantly reduces the risk of contact.",
+      },
+      {
+        question: "What are pack rats and why are they common in Tucson?",
+        answer:
+          "Pack rats, properly called woodrats, are native Sonoran Desert rodents that build large stick midden nests in protected spots. They are common across the Tucson metro, particularly on properties backing up to desert or open land. They damage vehicles by nesting in engine compartments and can cause structural damage. Their middens also harbor bark scorpions.",
+      },
+      {
+        question: "When do termites swarm in Tucson?",
+        answer:
+          "Tucson termites swarm primarily during and after monsoon rain events from July through September. The warm humid conditions following a monsoon storm trigger emergence of winged reproductives. If you see a swarm of winged insects around windows or lights after a monsoon, a professional inspection is the right response.",
+      },
+      {
+        question: "How do I find scorpions in my home?",
+        answer:
+          "Bark scorpions fluoresce bright blue-green under ultraviolet light. A black light (UV flashlight) used at night reveals scorpions that are otherwise completely invisible in cracks, on walls, and in the yard. Regular scanning of areas near entry points, under furniture, and around the perimeter helps identify active zones for treatment.",
+      },
+      {
+        question: "Is monthly pest control really necessary in Tucson?",
+        answer:
+          "For most Tucson homes, yes. The bark scorpion density and the year-round mild desert climate mean pest pressure does not pause seasonally. Monthly or bi-monthly perimeter treatment maintains a barrier against scorpions, spiders, and cockroaches year-round. Many pest control companies in Tucson consider this the standard of care.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Phoenix", slug: "phoenix" },
+      { name: "Marana", slug: "marana" },
+      { name: "Sierra Vista", slug: "sierra-vista" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Tucson, AZ | Bark Scorpions, Pack Rats & Termites",
+    metaDescription:
+      "Tucson pest control for Arizona bark scorpions, black widows, pack rats, desert termites and cockroaches. Sonoran Desert specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

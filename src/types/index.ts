@@ -78,6 +78,10 @@ export type CityTier = "T1" | "T2" | "T3";
 export type ClimateZone =
   | "hot-humid"
   | "hot-arid"
+  | "desert"
+  | "mediterranean"
+  | "semi-arid"
+  | "cold-humid"
   | "temperate"
   | "cold"
   | "tropical";
