@@ -1,0 +1,22 @@
+{
+  "last_updated": "2026-06-04",
+  "phase": "0-complete",
+  "cities_built": 0,
+  "towns_built": 0,
+  "total_site_pages": 0,
+  "completed_chunks": 0,
+  "next_chunk": 1,
+  "next_chunk_tier": "T1",
+  "next_chunk_template": "A",
+  "tier_t1_target": 75,
+  "tier_t1_remaining": 75,
+  "tier_t2_target": 300,
+  "tier_t2_remaining": 300,
+  "tier_t3_floor_population": 5000,
+  "tier_t3_remaining": null,
+  "batch_size": 25,
+  "template_rotation": ["A", "B", "C", "D", "E"],
+  "template_distribution_target": { "A": 0.22, "B": 0.20, "C": 0.20, "D": 0.18, "E": 0.20 },
+  "blog_articles": 0,
+  "notes": "Phase 0 complete 2026-06-04. Governance and workforce ported from pet-transport, adapted to pest control. 5 templates (A to E), template A fully worked, B to E scaffolded. Seed city data for a few T1 cities in src/data/cities/. Next chunk 1: first 25 T1 city pages, template rotation starting at A. No city pages built yet."
+}

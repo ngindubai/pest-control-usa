@@ -21,7 +21,7 @@ module.exports = {
   priority: 0.7,
   transform: async (config, path) => {
     // Boost priority for key pages
-    const priorities: Record<string, number> = {
+    const priorities = {
       "/": 1.0,
       "/services": 0.9,
       "/emergency": 0.95,

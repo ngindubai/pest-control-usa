@@ -38,7 +38,10 @@ export type ServiceCategory =
   | "cleanup";
 
 // ─── Location Types ───────────────────────────────────────────────
-export type ContentTemplate = "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H";
+// Template rotation is fixed at 5 variants (A to E). See TEMPLATE-DIVERSIFICATION-GUIDE.md.
+// This is a deliberate hard rule: more variants dilute the design system without indexation benefit.
+export type ContentTemplate = "A" | "B" | "C" | "D" | "E";
+export type ContentSoul = "operator" | "neighbour" | "comparison" | "qa" | "brief";
 
 export interface SeasonalPests {
   spring: string[];
@@ -60,7 +63,7 @@ export interface StateLocation {
   housingNotes: string;
   topCities: CityRef[];
   emergencyAvailable: boolean;
-  contentTemplate: "A" | "B" | "C" | "D" | "E" | "F";
+  contentTemplate: ContentTemplate;
   metaTitle: string;
   metaDescription: string;
 }
@@ -70,22 +73,52 @@ export interface CityRef {
   slug: string;
 }
 
+export type CityTier = "T1" | "T2" | "T3";
+
+export type ClimateZone =
+  | "hot-humid"
+  | "hot-arid"
+  | "temperate"
+  | "cold"
+  | "tropical";
+
+// A single pest's local profile on a city page. The uniqueness backbone.
+export interface CityPest {
+  name: string;
+  serviceSlug?: string; // links to a service page
+  activeSeason: string; // e.g. "Year-round", "Peaks May to September"
+  note: string; // one place-specific sentence about this pest here
+}
+
+// A written body section. The template decides how to arrange and present these.
+export interface CitySection {
+  heading: string;
+  body: string;
+}
+
 export interface CityLocation {
   slug: string;
   name: string;
   state: string;
   stateSlug: string;
   stateAbbr: string;
+  tier: CityTier;
   population: string;
   county: string;
-  climate: "hot-humid" | "hot-arid" | "temperate" | "cold" | "tropical";
-  topPests: string[];
-  localLandmarks: string[];
-  neighbourhoods: string[];
-  housingType: string;
-  contentTemplate: ContentTemplate;
-  emergencyNote: string;
-  nearbyCities: string[];
+  climate: ClimateZone;
+  climateDriver: string; // why this place has the pest pressure it has
+  topPests: string[]; // names, ordered by local prevalence
+  pestProfile: CityPest[]; // the structured per-pest local data (from The Geographer)
+  localHook: string; // one true, specific fact used as the page opener
+  intro: string; // lead paragraph(s), written by The Wordsmith
+  sections: CitySection[]; // body sections, arranged by the template
+  prevention: string[];
+  costNote: string;
+  faqs: FAQ[]; // city-specific, from The Interrogator
+  author: string; // persona name (see CLAUDE.md)
+  nearbyCities: CityRef[]; // for internal links
+  contentTemplate: ContentTemplate; // slug-hash derived, overridable
+  contentSoul: ContentSoul;
   metaTitle: string;
   metaDescription: string;
 }
