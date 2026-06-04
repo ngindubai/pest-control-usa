@@ -13,7 +13,7 @@
 - Every block also updates BUILD-PLAN.md, build_state.json, and MEMORY.md in the same commit (MANDATORY DOCS UPDATE).
 - Bulk-generation without the quality gate is banned.
 
-**Where we are:** Phase 0 complete (architecture set up). Phase 1 (T1 city pages) is next. 0 city pages built.
+**Where we are:** Phase 1 in progress. Chunk 1 complete: 25 of ~75 T1 city pages built. 50 T1 cities remaining.
 
 ---
 
@@ -22,9 +22,10 @@
 ### Phase 0 - Architecture and governance (COMPLETE 2026-06-04)
 - Governance files, 14 worker souls, 5 content souls, template system, seed data, city route scaffold.
 
-### Phase 1 - T1 city pages (NEXT)
+### Phase 1 - T1 city pages (IN PROGRESS)
 - Top ~75 metro cities. >= 800 words each. Quality build.
 - Template rotation across A to E.
+- Chunk 1 done: 25 cities built (5 each A to E). 50 remaining.
 - Gate to Phase 2: all T1 cities live and indexed, fingerprint audit passing.
 
 ### Phase 2 - T2 city pages
@@ -45,7 +46,8 @@
 
 Deterministic by slug hash (see the guide). For hand-built T1 batches, rotate A, B, C, D, E, A, ... across the batch so each block ships a visible mix.
 
-- Next block template lead: **A**
+- Chunk 1 shipped a balanced mix (5 each A to E).
+- Next block template lead: **A** (rotation continues across the batch)
 
 ---
 
@@ -61,4 +63,5 @@ The Librarian maintains the authoritative tiered list in `src/data/cities/index.
 
 | Date | Block | Work Done | Pages | Notes |
 |------|-------|-----------|-------|-------|
-| 2026-06-04 | Phase 0 | Ported governance and workforce from pet-transport. Created CLAUDE.md, AGENTS.md, MEMORY.md, BUILD-PLAN.md, build_state.json, ERRORS.md, DEPLOY.md, DESIGN.md, TEMPLATE-DIVERSIFICATION-GUIDE.md. 14 worker souls + 5 content souls. Template router + 5 city template scaffolds (A fully worked). Seed city data + `[state]/[city]` route. | 0 city pages | Architecture only. First city build is the next block. |
+| 2026-06-04 | Phase 0 | Ported governance and workforce from pet-transport. Created CLAUDE.md, AGENTS.md, MEMORY.md, BUILD-PLAN.md, build_state.json, ERRORS.md, DEPLOY.md, DESIGN.md, TEMPLATE-DIVERSIFICATION-GUIDE.md. 14 worker souls + 5 content souls. Template router + 5 city templates. Seed city data + `[slug]/[city]` route. | 5 seed cities | Architecture. Austin, Houston, Miami, Phoenix, Minneapolis. |
+| 2026-06-04 | Chunk 1 | First 25 T1 city pages through the full 7-stage pipeline. Added 20 metros: New York, Los Angeles, Chicago, Philadelphia, San Antonio, San Diego, Dallas, San Jose, Jacksonville, Columbus, Charlotte, Indianapolis, Seattle, Denver, Nashville, Atlanta, Las Vegas, Portland, Memphis, New Orleans. Balanced template rotation (5 each A to E). Verified regional pest data, local FAQs, internal links, schema. Build green, one H1 each, unique titles, no dashes or banned vocab. | 25 city pages | Live on merge to main. Next: chunk 2, next 25 T1 cities. |

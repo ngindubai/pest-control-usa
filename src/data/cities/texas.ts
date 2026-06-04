@@ -218,4 +218,216 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Houston pest control for mosquitoes, American roaches, Formosan termites, fire ants and roof rats. Licensed technicians, free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "san-antonio",
+    name: "San Antonio",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T1",
+    population: "~1.45 million",
+    county: "Bexar County",
+    climate: "hot-humid",
+    climateDriver:
+      "San Antonio sits at the southern edge of the Hill Country, hot and often dry, with humid spells. That mix gives it both fire ants and mosquitoes from the lowlands and scorpions from the rocky ground to the north and west.",
+    topPests: ["Fire Ants", "Mosquitoes", "Cockroaches", "Scorpions", "Termites"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after rain",
+        note: "Fire ant mounds are a constant across Bexar County lawns and rebuild quickly after rain. Their stings are a real hazard for children and pets.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Standing water and a long warm season keep mosquitoes active most of the year, and West Nile virus is monitored across the county each summer.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Large American roaches breed outdoors and move in during heat, while German roaches breed indoors in kitchens and multi-family housing.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Peaks in summer",
+        note: "On the rocky north and west sides toward the Hill Country, striped bark scorpions slip through weep holes and turn up indoors on warm nights.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring",
+        note: "Eastern subterranean termites are active across the area and swarm on warm, humid spring days after rain.",
+      },
+    ],
+    localHook:
+      "San Antonio gets two pest worlds at once: fire ants and mosquitoes from the warm lowlands, and Hill Country scorpions on the rocky north side. Few Texas cities juggle both the way this one does.",
+    intro:
+      "Pest control in San Antonio reflects its place on the map, right where the coastal plain meets the Hill Country. The long warm season keeps fire ants and mosquitoes busy most of the year, while the rocky terrain to the north brings scorpions that other Texas cities see less of. Cockroaches and subterranean termites round out the list. The practical upshot is that a one-size plan rarely fits: the north side needs scorpion exclusion, while the lowlands lean toward ant and mosquito control.",
+    sections: [
+      {
+        heading: "A pest map that changes across the city",
+        body: "Where you live in San Antonio shapes your pest problem. The rocky north and northwest, closer to the Hill Country, see more scorpions and the exclusion work that controls them. The flatter, wetter south and east lean toward fire ants and mosquitoes. A good inspection reads your specific lot, the soil, the drainage, the rock, rather than assuming one citywide problem.",
+      },
+      {
+        heading: "Fire ants and the rhythm of the rain",
+        body: "Fire ant mounds swell and multiply after every wet spell, then quiet in drought. Treating mounds early, before they spread across a yard, is far easier than chasing a lawn full of colonies in midsummer. For families with young children or pets, keeping on top of fire ants is as much a safety job as a nuisance one.",
+      },
+    ],
+    prevention: [
+      "Treat fire ant mounds early in the season before they spread across the yard.",
+      "Clear standing water after rain to break the mosquito breeding cycle.",
+      "Seal weep holes and foundation gaps on the north side to keep scorpions out.",
+      "Keep mulch and wood away from the slab to reduce roach and termite harborage.",
+    ],
+    costNote:
+      "Because the warm season is long, many San Antonio homes do best on a recurring plan, with scorpion exclusion added on the north side. A free inspection sets the plan to your lot and the pests you actually have.",
+    faqs: [
+      {
+        question: "Are scorpions common in San Antonio?",
+        answer:
+          "On the rocky north and northwest sides toward the Hill Country, yes. The striped bark scorpion is the species here. Its sting hurts but is rarely dangerous to a healthy adult. They enter through weep holes and gaps, so sealing the home matters as much as treatment.",
+      },
+      {
+        question: "How bad is fire ant season in San Antonio?",
+        answer:
+          "Fire ants are active year-round in Bexar County and surge after rain. Their stings are a hazard for children and pets, so treating mounds early, before they multiply across the yard, is worthwhile both for comfort and safety.",
+      },
+      {
+        question: "Do I need mosquito control in San Antonio?",
+        answer:
+          "For homes with poor drainage or standing water, yes. The season runs roughly March through November, and West Nile virus is monitored across the county each summer, so removing standing water and treating resting areas helps.",
+      },
+      {
+        question: "Why do roaches come indoors here in summer?",
+        answer:
+          "The large American roaches breed outdoors and move inside when it gets hot and dry, while German roaches breed indoors year-round. Sealing entry points and reducing outdoor harborage keeps the outdoor type out, while indoor German roaches need targeted treatment.",
+      },
+      {
+        question: "Are termites a risk in San Antonio?",
+        answer:
+          "Yes. Eastern subterranean termites are active across the area and swarm in spring after rain. An annual inspection is sensible, especially for slab homes and any wood in contact with soil.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "New Braunfels", slug: "new-braunfels" },
+      { name: "Austin", slug: "austin" },
+      { name: "Houston", slug: "houston" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in San Antonio, TX | Fire Ants, Scorpions & Mosquitoes",
+    metaDescription:
+      "San Antonio pest control for fire ants, mosquitoes, roaches, Hill Country scorpions and subterranean termites. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "dallas",
+    name: "Dallas",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T1",
+    population: "~1.3 million",
+    county: "Dallas County",
+    climate: "hot-humid",
+    climateDriver:
+      "Dallas runs hot and humid through a long summer, with clay soils that crack in drought and swell after rain. That soil movement opens paths for termites and ants right up against foundations.",
+    topPests: ["Fire Ants", "Mosquitoes", "Cockroaches", "Termites", "Rats"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Fire ants are widespread across North Texas lawns and rebuild mounds fast after rain, posing a sting hazard for kids and pets.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "Dallas County has active West Nile virus surveillance and spraying programs, as standing water and heat drive large summer broods.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed in drains and mulch and push indoors in the heat, while German roaches breed indoors in kitchens.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring",
+        note: "The shifting clay soils common around Dallas open cracks that subterranean termites use to reach foundations and framing.",
+      },
+      {
+        name: "Roof and Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats travel fence lines and trees into attics, while Norway rats burrow near drains and foundations.",
+      },
+    ],
+    localHook:
+      "Dallas sits on shifting clay soil that cracks open every dry summer. Those cracks are an open door for subterranean termites and ants heading straight for your foundation.",
+    intro:
+      "If you own a home in Dallas, the soil is part of the pest story. The clay swells after rain and cracks in drought, and those gaps give termites and ants an easy route to the foundation. Add a long, hot summer and you get persistent fire ants, big summer mosquito broods, and roaches that move indoors in the heat. None of it is dramatic day to day, but it adds up, which is why steady protection works better here than waiting for a problem to appear.",
+    sections: [
+      {
+        heading: "Why North Texas clay soil matters for pests",
+        body: "Dallas clay moves with the weather. It swells when wet and pulls away from foundations as it dries, opening cracks. Subterranean termites use that soil contact and those gaps to reach wood, and ants follow the same paths indoors. It is one reason an annual termite inspection is worth keeping on the calendar here, particularly after a hot, dry stretch.",
+      },
+      {
+        heading: "Fire ants and summer mosquitoes",
+        body: "Fire ants are a year-round North Texas fixture that surges after rain, and their stings make them a safety issue for families. Mosquitoes are the other summer headache, and Dallas County runs active West Nile virus surveillance and spraying because the risk is real. Reducing standing water and treating resting areas takes a noticeable bite out of the season.",
+      },
+    ],
+    prevention: [
+      "Keep an annual termite inspection on the calendar given the clay soils here.",
+      "Treat fire ant mounds early before they spread across the lawn.",
+      "Empty anything holding water within a day of rain to cut mosquito breeding.",
+      "Trim trees and fence-line vegetation back from the roof to block roof rats.",
+    ],
+    costNote:
+      "With year-round fire ants, summer mosquitoes, and clay-soil termite risk, many Dallas homes use a recurring plan plus an annual termite check. A free inspection sets the price to your property.",
+    faqs: [
+      {
+        question: "Why are termites a concern for Dallas foundations?",
+        answer:
+          "The clay soils around Dallas swell and crack with the weather, pulling away from foundations and opening gaps. Subterranean termites use that soil contact to reach wood. An annual inspection, especially after a hot dry spell, helps catch activity early.",
+      },
+      {
+        question: "How serious are mosquitoes in Dallas?",
+        answer:
+          "Serious enough that Dallas County runs active West Nile virus surveillance and spraying each summer. Standing water and heat drive large broods, so removing standing water and treating shaded resting areas around the home makes a real difference.",
+      },
+      {
+        question: "Are fire ants dangerous in North Texas?",
+        answer:
+          "Their stings are painful and can cause allergic reactions, which makes them a genuine safety concern for young children and pets. Fire ants are active year-round here and surge after rain, so treating mounds early is worthwhile.",
+      },
+      {
+        question: "Do roaches in Dallas come from outside?",
+        answer:
+          "The large American roaches breed outdoors in drains and mulch and move inside in the heat, while German roaches breed indoors in kitchens. The outdoor type is controlled by sealing entry points and treating the perimeter, while indoor German roaches need targeted interior work.",
+      },
+      {
+        question: "How do roof rats get into Dallas homes?",
+        answer:
+          "Roof rats climb. They follow fence lines, tree limbs, and utility wires to the roof and enter through gaps and vents. Trimming vegetation back and sealing roofline openings cuts off their access.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Fort Worth", slug: "fort-worth" },
+      { name: "Plano", slug: "plano" },
+      { name: "Houston", slug: "houston" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbour",
+    metaTitle: "Pest Control in Dallas, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Dallas pest control for fire ants, mosquitoes, roaches, subterranean termites and roof rats. Clay-soil termite checks, free inspection. Call 1-800-PEST-USA.",
+  },
 ];

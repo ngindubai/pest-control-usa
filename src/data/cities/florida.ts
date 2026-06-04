@@ -110,4 +110,110 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Miami pest control for termites, Aedes mosquitoes, palmetto bugs, tropical ants and roof rats. Year-round protection, free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "jacksonville",
+    name: "Jacksonville",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T1",
+    population: "~970,000",
+    county: "Duval County",
+    climate: "hot-humid",
+    climateDriver:
+      "Jacksonville sits on the northeast Florida coast, warm and humid with heavy summer rain and the St. Johns River winding through it. The long warm season and standing water keep mosquitoes and termites busy most of the year.",
+    topPests: ["Mosquitoes", "Cockroaches", "Termites", "Fire Ants", "Fleas"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Nearly year-round",
+        note: "The St. Johns River, coastal marshes, and heavy rain give Jacksonville a long mosquito season, and the county runs an active mosquito control district.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The large American roaches, often called palmetto bugs, breed in mulch, drains, and crawl spaces and move indoors in the heat and humidity.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active much of the year",
+        note: "North Florida has heavy subterranean termite pressure, and the warm, humid climate keeps colonies active across much of the year.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Fire ants are widespread across the area and rebuild mounds quickly after rain, a sting hazard for children and pets.",
+      },
+      {
+        name: "Fleas",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round in the warm climate",
+        note: "The mild climate lets fleas stay active all year, a bigger problem here than in places with a real winter freeze.",
+      },
+    ],
+    localHook:
+      "Jacksonville's warm coastal climate barely pauses for winter, so the mosquitoes off the St. Johns River and the termites in the soil keep working through much of the year.",
+    intro:
+      "Pest control in Jacksonville is set by the warm, humid coast. With the St. Johns River, nearby marshes, and heavy summer rain, the city has a long mosquito season, and the county runs an active control district for good reason. Subterranean termites are the quiet, expensive risk in this climate, while palmetto bugs, fire ants, and year-round fleas are the everyday battle. There is no real winter to reset things, so steady, year-round protection works better here than waiting for a problem to appear.",
+    sections: [
+      {
+        heading: "Why is mosquito season so long here?",
+        body: "Jacksonville has water almost everywhere: the river, coastal marshes, retention ponds, and the standing water left by heavy summer rain. That gives mosquitoes a long, active season, and the county runs a mosquito control district to manage it. Around the home, the most effective step is removing standing water, even small amounts in plant trays and gutters, and treating the shaded resting spots under decks and dense planting.",
+      },
+      {
+        heading: "How big a risk are termites in North Florida?",
+        body: "Significant. Subterranean termites are heavy across the Jacksonville area and stay active much of the year in this warm, humid climate. They reach wood through mud tubes from the soil, and the early signs are easy to miss. An annual inspection is the practical defense, especially for homes with crawl spaces or any wood in contact with soil.",
+      },
+    ],
+    prevention: [
+      "Remove standing water and clear gutters to cut the long mosquito season.",
+      "Keep an annual termite inspection on the calendar given North Florida pressure.",
+      "Treat fire ant mounds early before they spread across the yard.",
+      "Treat pets, home, and yard together to break the year-round flea cycle.",
+    ],
+    costNote:
+      "Because the warm season runs most of the year, many Jacksonville homes use a recurring plan with seasonal mosquito service, and termite protection quoted separately after inspection. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Why is mosquito season so long in Jacksonville?",
+        answer:
+          "The St. Johns River, coastal marshes, and heavy summer rain leave standing water across the area, and the warm climate keeps mosquitoes active most of the year. The county runs an active mosquito control district. Removing standing water and treating shaded resting areas around the home reduces the bites.",
+      },
+      {
+        question: "Are termites a big risk in Jacksonville?",
+        answer:
+          "Yes. North Florida has heavy subterranean termite pressure, and the warm, humid climate keeps colonies active much of the year. They reach wood through mud tubes from the soil, and early signs are easy to miss, so an annual inspection is recommended.",
+      },
+      {
+        question: "What are palmetto bugs?",
+        answer:
+          "Palmetto bug is the local name for the large American cockroach. They breed outdoors in mulch, drains, and crawl spaces and move indoors in the heat and humidity. Reducing moisture and mulch against the home and sealing entry points keeps them out.",
+      },
+      {
+        question: "Do fleas stay active all year in Jacksonville?",
+        answer:
+          "Yes. Without a winter freeze to reduce the population, fleas can persist year-round around pets, yards, and crawl spaces. Treating the pet, home, and yard together is the reliable way to stop them coming back.",
+      },
+      {
+        question: "Is year-round pest control necessary here?",
+        answer:
+          "For most homes, yes. The long warm season keeps mosquitoes, termites, roaches, and fleas active across much of the year, so a continuous plan holds them back better than occasional one-time visits.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Orange Park", slug: "orange-park" },
+      { name: "St. Augustine", slug: "st-augustine" },
+      { name: "Miami", slug: "miami" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Jacksonville, FL | Mosquitoes, Termites & Roaches",
+    metaDescription:
+      "Jacksonville pest control for mosquitoes, palmetto bugs, subterranean termites, fire ants and year-round fleas. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -3,6 +3,20 @@ import { texasCities } from "./texas";
 import { floridaCities } from "./florida";
 import { arizonaCities } from "./arizona";
 import { minnesotaCities } from "./minnesota";
+import { californiaCities } from "./california";
+import { newYorkCities } from "./new-york";
+import { illinoisCities } from "./illinois";
+import { pennsylvaniaCities } from "./pennsylvania";
+import { ohioCities } from "./ohio";
+import { northCarolinaCities } from "./north-carolina";
+import { indianaCities } from "./indiana";
+import { washingtonCities } from "./washington";
+import { coloradoCities } from "./colorado";
+import { georgiaCities } from "./georgia";
+import { nevadaCities } from "./nevada";
+import { oregonCities } from "./oregon";
+import { louisianaCities } from "./louisiana";
+import { tennesseeCities } from "./tennessee";
 
 // The authoritative city corpus. The Librarian adds one state file per batch and
 // registers it here. Pages are built incrementally, never all towns at once.
@@ -12,6 +26,20 @@ export const cities: CityLocation[] = [
   ...floridaCities,
   ...arizonaCities,
   ...minnesotaCities,
+  ...californiaCities,
+  ...newYorkCities,
+  ...illinoisCities,
+  ...pennsylvaniaCities,
+  ...ohioCities,
+  ...northCarolinaCities,
+  ...indianaCities,
+  ...washingtonCities,
+  ...coloradoCities,
+  ...georgiaCities,
+  ...nevadaCities,
+  ...oregonCities,
+  ...louisianaCities,
+  ...tennesseeCities,
 ];
 
 export function getCityBySlug(

@@ -226,11 +226,11 @@ pest-control-usa/
 
 ## CURRENT STATUS (keep accurate, update on every block commit)
 
-- **Phase:** Phase 0 complete (architecture and governance set up 2026-06-04). Phase 1 (T1 city pages) is next.
-- **City pages built:** 0 of ~75 T1 targets. Seed data and one fully worked template in place.
+- **Phase:** Phase 1 in progress. Chunk 1 complete 2026-06-04.
+- **City pages built:** 25 of ~75 T1 targets. 50 T1 cities remaining.
 - **Town pages built:** 0.
-- **Templates:** 5 (A to E). Router and scaffolds in `src/components/templates/`. One template fully worked, the rest to be filled in the first build block.
-- **Next block:** Build the first 25 T1 city pages, Template rotation starting at A.
+- **Templates:** 5 (A to E), all built. Router in `src/components/templates/`. Rotation balanced at 5 each (20% per template).
+- **Next block:** Chunk 2, the next 25 T1 city pages, rotation continues at A.
 - **Deploy:** Next.js static export to `live` branch (deploy.yml), served by Hostinger.
 
 ---

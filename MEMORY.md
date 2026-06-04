@@ -10,12 +10,14 @@
 
 ## Current State (2026-06-04)
 
-- **Phase:** Phase 0 complete. Architecture and governance set up. Phase 1 (T1 city pages) is next.
-- **City pages built:** 0 of ~75 T1 targets.
+- **Phase:** Phase 1 in progress. Chunk 1 complete.
+- **City pages built:** 25 of ~75 T1 targets. 50 T1 cities remaining.
 - **Town pages built:** 0.
-- **Total site pages:** existing static and state and service pages only. City and town pages not yet built.
-- **Templates:** 5 (A to E). Router plus scaffolds in `src/components/templates/`. One template fully worked.
-- **Next block:** First 25 T1 city pages, template rotation starting at A.
+- **Total site pages:** ~106 in the static export (home, services, 50 states, 25 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation balanced at 5 each (20% per template).
+- **Cities built:** Austin, Houston, San Antonio, Dallas, Miami, Jacksonville, Phoenix, Minneapolis, Los Angeles, San Diego, San Jose, New York City, Chicago, Philadelphia, Columbus, Charlotte, Indianapolis, Seattle, Denver, Atlanta, Las Vegas, Portland, New Orleans, Nashville, Memphis.
+- **Next block:** Chunk 2, next 25 T1 cities, rotation continues at A.
+- **Deploy note:** deploy.yml fires on push to main. City pages go live when the working branch merges to main.
 
 ## Page Hierarchy and Tiering
 
@@ -68,6 +70,7 @@
 | 2026-06-04 | Template count fixed at 5 (A to E), reconciled from A to H | 5 is a deliberate hard rule in the source method. More variants dilute the design system without indexation benefit |
 | 2026-06-04 | City data split per state under `src/data/cities/` | Keeps files reviewable and avoids one giant file |
 | 2026-06-04 | Town population floor set at 5,000 | Avoids thin junk pages for tiny places. Adjustable |
+| 2026-06-04 | Chunk 1: first 25 T1 city pages built | One block, full 7-stage pipeline, balanced template rotation (5 each A to E) |
 
 ## Mistakes to Avoid
 - Never bulk-generate pages without the full 7-stage quality gate.
