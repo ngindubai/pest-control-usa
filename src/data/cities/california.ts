@@ -105,7 +105,7 @@ export const californiaCities: CityLocation[] = [
       { name: "San Diego", slug: "san-diego" },
     ],
     contentTemplate: "B",
-    contentSoul: "neighbour",
+    contentSoul: "neighbor",
     metaTitle: "Pest Control in Los Angeles, CA | Ants, Roaches & Termites",
     metaDescription:
       "Los Angeles pest control for Argentine ants, German roaches, roof rats, subterranean and drywood termites, and black widows. Free inspection. Call 1-800-PEST-USA.",
@@ -423,7 +423,7 @@ export const californiaCities: CityLocation[] = [
       { name: "Daly City", slug: "daly-city" },
     ],
     contentTemplate: "B",
-    contentSoul: "neighbour",
+    contentSoul: "neighbor",
     metaTitle: "Pest Control in San Francisco, CA | Rats, Argentine Ants & Termites",
     metaDescription:
       "San Francisco pest control for roof rats, Argentine ant supercolony, drywood and subterranean termites, cockroaches and year-round fleas. Free inspection. Call 1-800-PEST-USA.",
@@ -529,7 +529,7 @@ export const californiaCities: CityLocation[] = [
       { name: "Bakersfield", slug: "bakersfield" },
     ],
     contentTemplate: "B",
-    contentSoul: "neighbour",
+    contentSoul: "neighbor",
     metaTitle: "Pest Control in Fresno, CA | Argentine Ants, Termites & Roof Rats",
     metaDescription:
       "Fresno pest control for Argentine ants, drywood and subterranean termites, roof rats, cockroaches and black widows. San Joaquin Valley specialists. Free inspection. Call 1-800-PEST-USA.",

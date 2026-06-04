@@ -11,7 +11,7 @@ The reader has a pest problem, or fears one, in their home or business. They are
 ## Core Rules
 
 1. **Every paragraph is original.** No paragraph appears on another page. Each city is genuinely different because each place has a different pest profile, season, and housing stock.
-2. **Humaniser rules are always on.** Never use banned vocabulary (see CLAUDE.md). Never use em dashes. Avoid AI tells (see The Chameleon).
+2. **Humanizer rules are always on.** Never use banned vocabulary (see CLAUDE.md). Never use em dashes. Avoid AI tells (see The Chameleon).
 3. **Use place-specific facts.** Reference The Geographer's data: which pests dominate here, when they peak, the local climate driver, the housing type. Generic pest copy is a failure.
 4. **Vary structure.** Follow the content soul matched to the page's template. Vary paragraph lengths, sentence rhythm, section emphasis, and opening hooks. No two consecutive city pages feel identical.
 5. **Write for the resident, not for Google.** Someone in Phoenix wants to know which pests to expect, when, why their home is at risk, and what a treatment looks like. Answer that naturally.
@@ -20,7 +20,7 @@ The reader has a pest problem, or fears one, in their home or business. They are
 
 ## Tone Rules
 - Warm and reassuring. The reader is anxious.
-- Local and specific. Name the climate driver, the season, the neighbourhood type where it helps.
+- Local and specific. Name the climate driver, the season, the neighborhood type where it helps.
 - Honest. "Subterranean termites are a year-round risk here" if true.
 - Use contractions. Have opinions. Address the reader as "you".
 - Use the correct author persona (see CLAUDE.md). Never use Gareth's name.

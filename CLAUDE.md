@@ -30,7 +30,7 @@ Use commas, full stops, colons, brackets, or restructure the sentence instead. T
 
 - **Site:** PestRemovalUSA (pestremovalusa.com), config in `src/config/site.ts`
 - **Type:** Programmatic SEO lead-generation site for pest control across the USA
-- **Goal:** Capture local pest control enquiries through organic search, one location at a time
+- **Goal:** Capture local pest control inquiries through organic search, one location at a time
 - **Audience:** Homeowners and businesses with an active or feared pest problem. They want a local, licensed, trustworthy operator who understands their specific pest and region.
 - **Page hierarchy:** State pages, then City pages, then Town pages. Cities first, towns after.
 - **Stack (LOCKED):**
@@ -52,8 +52,8 @@ Every location page is produced by seven workers in sequence. This is the qualit
 1. The Geographer  -> regional pest intelligence (species, seasonality, climate, local factors)
 2. The Wordsmith   -> unique, warm-expert local copy
 3. The Interrogator-> location-specific FAQs
-4. The Chameleon   -> humanise + break cross-page template patterns
-5. The Optimiser   -> titles, meta, schema (LocalBusiness / Service / FAQPage), internal links
+4. The Chameleon   -> humanize + break cross-page template patterns
+5. The Optimizer   -> titles, meta, schema (LocalBusiness / Service / FAQPage), internal links
 6. The Auditor     -> QA gate (uniqueness, word count, banned vocab, schema, factual accuracy)
 7. The Builder     -> write data + page files, build the static export, deploy
 ```
@@ -94,7 +94,7 @@ Each page must be genuinely different, driven by real local data, not a find-and
 2. **Word-count floors.** T1 city >= 800 words unique body. T2 city >= 500. T3 city/town >= 350.
 3. **Duplication ceiling.** Two pages may not share more than 15% of body copy (excluding nav, footer, CTAs).
 4. **Location-specific FAQs.** At least 2 of every FAQ set must name the location and a location-specific fact.
-5. **Humaniser pass.** Every page clears the 24 AI-tell patterns and the statistical targets (burstiness, type-token ratio, trigram repetition under 0.05). See The Chameleon.
+5. **Humanizer pass.** Every page clears the 24 AI-tell patterns and the statistical targets (burstiness, type-token ratio, trigram repetition under 0.05). See The Chameleon.
 
 ---
 
@@ -133,7 +133,7 @@ The CURRENT STATUS section in this file must also be kept accurate when numbers 
 ## ABOUT THE USER
 
 - **Name:** Gareth. Founder.
-- **Technical level:** Non-technical. Does not read code. Use plain English. Number every manual step. Never say "just run X" without the exact command and a one-line explanation. If something fails, diagnose it yourself first. When you finish, summarise in plain English: what changed, what is live, what is next, with the review links.
+- **Technical level:** Non-technical. Does not read code. Use plain English. Number every manual step. Never say "just run X" without the exact command and a one-line explanation. If something fails, diagnose it yourself first. When you finish, summarize in plain English: what changed, what is live, what is next, with the review links.
 
 ---
 
@@ -143,7 +143,7 @@ The CURRENT STATUS section in this file must also be kept accurate when numbers 
 
 | Persona | Name | Title | Use for |
 |---|---|---|---|
-| **The Entomologist** | Dr. Lena Ortiz | Board-Certified Entomologist (BCE), PestRemovalUSA | Species identification, regional pest biology, seasonality, infestation behaviour |
+| **The Entomologist** | Dr. Lena Ortiz | Board-Certified Entomologist (BCE), PestRemovalUSA | Species identification, regional pest biology, seasonality, infestation behavior |
 | **The Field Tech** | Marcus Reed | Lead Pest Control Technician, State-Licensed Applicator | Treatment methods, inspection process, what a visit looks like, costs |
 | **The Safety Adviser** | Sandra Whitfield | Integrated Pest Management & Pesticide Safety Specialist | Family and pet safety, IPM, prevention, eco-friendly options, health risks |
 | **The Operations Lead** | James Cole | Service Operations Manager, PestRemovalUSA | Scheduling, emergency response, commercial accounts, guarantees, local coverage |
@@ -159,7 +159,7 @@ The CURRENT STATUS section in this file must also be kept accurate when numbers 
 5. No banned vocabulary: delve, meticulous, comprehensive, tailored, navigate, leverage, seamless, robust, vital, crucial, utilize, intricate, paramount, pivotal, embark, foster, elevate, unleash, unlock, harness, streamline, holistic, realm, landscape (figurative), testament, tapestry, vibrant, bustling, nestled, cornerstone, myriad, multifaceted.
 6. Vary sentence rhythm. Use contractions. Have opinions.
 7. Use the correct author persona. Never use Gareth's name.
-8. US English throughout.
+8. **US (American) English throughout. ABSOLUTE, NO EXCEPTIONS.** This is an American site for an American audience. Every word of site content, every internal document, every soul file, every data file, every code identifier, and every chat response uses American spelling and vocabulary. Never use British or Commonwealth spellings. Banned British spellings (use the American form): colour (use color), behaviour (behavior), neighbour (neighbor), neighbourhood (neighborhood), favour (favor), centre (center), licence (license), defence (defense), offence (offense), catalogue (catalog), grey (gray), mould (mold), enquiry (inquiry), humanise/humaniser (humanize/humanizer), organise (organize), recognise (recognize), summarise (summarize), optimise (optimize), prioritise (prioritize), analyse (analyze), travelled/travelling (traveled/traveling), labelled (labeled), cancelled (canceled), whilst (while), amongst (among), learnt (learned), spelt (spelled). Also use American vocabulary and date formats. When in doubt, choose the American form. The Auditor checks this on every page.
 
 ---
 
@@ -205,14 +205,14 @@ pest-control-usa/
 2. Run the 7-stage pipeline for the batch (Geographer to Builder).
 3. Build the static export locally (`npm run build`) to confirm it compiles.
 4. Commit pages plus the three docs updates in one atomic commit and push directly to `main`.
-5. **Post every live URL in chat as a clickable markdown hyperlink [City, ST](https://pestremovalusa.com/...), grouped as new vs changed. No exceptions. Never use plain text URLs. This is mandatory and non-negotiable. Do not summarise or truncate the list.**
+5. **Post every live URL in chat as a clickable markdown hyperlink [City, ST](https://pestremovalusa.com/...), grouped as new vs changed. No exceptions. Never use plain text URLs. This is mandatory and non-negotiable. Do not summarize or truncate the list.**
 6. Stop and wait for the next "go".
 
 ### "session end" or "wrap up"
 1. Update BUILD-PLAN.md, build_state.json, MEMORY.md.
 2. Commit and push.
 3. Post the live review links for anything changed this session.
-4. Summarise what was built and what is next.
+4. Summarize what was built and what is next.
 
 ---
 

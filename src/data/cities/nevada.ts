@@ -105,7 +105,7 @@ export const nevadaCities: CityLocation[] = [
       { name: "Summerlin", slug: "summerlin" },
     ],
     contentTemplate: "B",
-    contentSoul: "neighbour",
+    contentSoul: "neighbor",
     metaTitle: "Pest Control in Las Vegas, NV | Scorpions, Roaches & Roof Rats",
     metaDescription:
       "Las Vegas pest control for bark scorpions, desert roaches, crickets, black widows and roof rats. Sealing plus treatment, free inspection. Call 1-800-PEST-USA.",

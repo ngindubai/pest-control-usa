@@ -105,7 +105,7 @@ export const marylandCities: CityLocation[] = [
       { name: "Rockville", slug: "rockville" },
     ],
     contentTemplate: "B",
-    contentSoul: "neighbour",
+    contentSoul: "neighbor",
     metaTitle: "Pest Control in Baltimore, MD | Rats, Cockroaches & Stink Bugs",
     metaDescription:
       "Baltimore pest control for Norway rats, German cockroaches, brown marmorated stink bugs, termites and mosquitoes. Rowhouse specialists. Free inspection. Call 1-800-PEST-USA.",

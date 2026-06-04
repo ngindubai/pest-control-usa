@@ -105,7 +105,7 @@ export const indianaCities: CityLocation[] = [
       { name: "Bloomington", slug: "bloomington-in" },
     ],
     contentTemplate: "B",
-    contentSoul: "neighbour",
+    contentSoul: "neighbor",
     metaTitle: "Pest Control in Indianapolis, IN | Fall Mice, Ants & Wasps",
     metaDescription:
       "Indianapolis pest control for fall mice, carpenter and odorous house ants, German roaches, wasps and spiders. Fall exclusion, free inspection. Call 1-800-PEST-USA.",

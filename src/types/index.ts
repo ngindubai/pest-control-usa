@@ -41,7 +41,7 @@ export type ServiceCategory =
 // Template rotation is fixed at 5 variants (A to E). See TEMPLATE-DIVERSIFICATION-GUIDE.md.
 // This is a deliberate hard rule: more variants dilute the design system without indexation benefit.
 export type ContentTemplate = "A" | "B" | "C" | "D" | "E";
-export type ContentSoul = "operator" | "neighbour" | "comparison" | "qa" | "brief";
+export type ContentSoul = "operator" | "neighbor" | "comparison" | "qa" | "brief";
 
 export interface SeasonalPests {
   spring: string[];

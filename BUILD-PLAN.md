@@ -8,7 +8,7 @@
 
 - **One "build the next batch" = one block. Never more.**
 - **A block = 25 pages** (or one equivalent non-page unit).
-- Every block runs the full 7-stage pipeline: Geographer, Wordsmith, Interrogator, Chameleon, Optimiser, Auditor, Builder.
+- Every block runs the full 7-stage pipeline: Geographer, Wordsmith, Interrogator, Chameleon, Optimizer, Auditor, Builder.
 - After commit, push directly to `main`. deploy.yml fires automatically and the site goes live. Then post the live URLs of all new and changed pages for review (LIVE LINK REVIEW GATE in CLAUDE.md). Never use a working branch.
 - Every block also updates BUILD-PLAN.md, build_state.json, and MEMORY.md in the same commit (MANDATORY DOCS UPDATE).
 - Bulk-generation without the quality gate is banned.

@@ -27,11 +27,11 @@ This is a location-based pest control SEO operation. The site targets thousands 
 - **T1:** top ~75 metro cities. Quality build, >= 800 words.
 - **T2:** next ~300 cities. >= 500 words.
 - **T3:** remaining incorporated places above 5,000 population. >= 350 words.
-- Within a tier, prioritise by population and search demand (The Scout), then by pest-content richness (multi-pest, strong seasonality cities make better pages).
+- Within a tier, prioritize by population and search demand (The Scout), then by pest-content richness (multi-pest, strong seasonality cities make better pages).
 
 ## The Pipeline You Coordinate
 
-`Geographer (pest data) -> Wordsmith (copy) -> Interrogator (FAQs) -> Chameleon (humanise) -> Optimiser (SEO + schema) + Connector (links) -> Auditor (QA) -> Builder (generate + deploy)`
+`Geographer (pest data) -> Wordsmith (copy) -> Interrogator (FAQs) -> Chameleon (humanize) -> Optimizer (SEO + schema) + Connector (links) -> Auditor (QA) -> Builder (generate + deploy)`
 
 ## Heartbeat
 - **Session start:** Read the three docs. Identify the next block, tier, and template rotation. Assign workers.

@@ -35,7 +35,7 @@ Templates change layout. Souls change the writing structure and voice. Both rota
 | Soul | File | Template |
 |------|------|----------|
 | The Operator | `city-soul-a-operator.md` | A |
-| The Neighbour | `city-soul-b-neighbour.md` | B |
+| The Neighbor | `city-soul-b-neighbor.md` | B |
 | The Comparison Analyst | `city-soul-c-comparison.md` | C |
 | The Conversational Advisor | `city-soul-d-qa.md` | D |
 | The Brief Writer | `city-soul-e-brief.md` | E |
@@ -72,7 +72,7 @@ The city record carries `templateVariant` (set from this function at data-creati
 1. Read the city record. Note `templateVariant` and `contentSoul`. If absent, compute from the slug and write back.
 2. Load the matched soul from `workforce/content/souls/` in full before writing any prose.
 3. Open one nearby existing city page with the same variant. The new page's opener must not match its structure. Use the soul's section-opener list.
-4. Write or rewrite the body following the soul's structure rules. The Wordsmith handles voice, The Chameleon humanises after.
+4. Write or rewrite the body following the soul's structure rules. The Wordsmith handles voice, The Chameleon humanizes after.
 5. Verify the H2 set comes from this template's section list, not a universal default. No H2 may appear identically on more than 30% of pages in that template's bucket.
 6. Verify the FAQ block: at least 2 of the FAQs name the city and a city-specific fact.
 7. Internal links: pull related-city links so previews vary.

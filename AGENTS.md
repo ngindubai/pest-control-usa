@@ -29,7 +29,7 @@ The agent will:
 
 Every location page passes through these seven workers in order. This is the quality gate.
 
-`The Geographer -> The Wordsmith -> The Interrogator -> The Chameleon -> The Optimiser -> The Auditor -> The Builder`
+`The Geographer -> The Wordsmith -> The Interrogator -> The Chameleon -> The Optimizer -> The Auditor -> The Builder`
 
 ---
 
@@ -42,14 +42,14 @@ Workers are domain-specific expert roles, each with their own rules, voice, and 
 | The Architect | `workforce/leadership/the-architect.md` | Orchestration, planning, phase gates, batch sequencing |
 | The Auditor | `workforce/leadership/the-auditor.md` | QA gate: uniqueness, factual accuracy, schema, Google compliance |
 | The Wordsmith | `workforce/content/the-wordsmith.md` | Copywriting, warm-expert local voice |
-| The Chameleon | `workforce/content/the-chameleon.md` | Anti-AI humaniser, anti-template (mandatory on all content) |
+| The Chameleon | `workforce/content/the-chameleon.md` | Anti-AI humanizer, anti-template (mandatory on all content) |
 | The Interrogator | `workforce/content/the-interrogator.md` | Location-specific FAQ generation |
 | The Geographer | `workforce/intelligence/the-geographer.md` | Regional pest intelligence (the star role, the uniqueness source) |
 | The Scout | `workforce/intelligence/the-scout.md` | Keyword research, search-demand reconnaissance |
 | The Spider | `workforce/intelligence/the-spider.md` | Competitor and public-data reconnaissance |
 | The Builder | `workforce/development/the-builder.md` | Next.js templates, page generation, static export, deploy |
 | The Librarian | `workforce/development/the-librarian.md` | City and town data assembly, skip-if-exists discipline |
-| The Optimiser | `workforce/seo/the-optimiser.md` | On-page SEO, schema markup, E-E-A-T |
+| The Optimizer | `workforce/seo/the-optimizer.md` | On-page SEO, schema markup, E-E-A-T |
 | The Connector | `workforce/seo/the-connector.md` | Internal linking, link graph |
 | The Analyst | `workforce/monitoring/the-analyst.md` | Performance tracking, indexation monitoring |
 | The Watchdog | `workforce/monitoring/the-watchdog.md` | Site-health monitoring, build verification |
@@ -63,7 +63,7 @@ Templates change the layout. Souls change the writing structure. Both rotate tog
 | Soul | File | Default template |
 |------|------|------------------|
 | The Operator | `workforce/content/souls/city-soul-a-operator.md` | A (Field Manual) |
-| The Neighbour | `workforce/content/souls/city-soul-b-neighbour.md` | B (Visual Journey) |
+| The Neighbor | `workforce/content/souls/city-soul-b-neighbor.md` | B (Visual Journey) |
 | The Comparison Analyst | `workforce/content/souls/city-soul-c-comparison.md` | C (Comparison Brief) |
 | The Conversational Advisor | `workforce/content/souls/city-soul-d-qa.md` | D (Conversational Q&A) |
 | The Brief Writer | `workforce/content/souls/city-soul-e-brief.md` | E (Data-Forward) |

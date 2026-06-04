@@ -224,7 +224,7 @@ export const missouriCities: CityLocation[] = [
       { name: "East St. Louis", slug: "east-st-louis" },
     ],
     contentTemplate: "B",
-    contentSoul: "neighbour",
+    contentSoul: "neighbor",
     metaTitle:
       "Pest Control in St. Louis, MO | Brown Recluse, Termites & Mosquitoes",
     metaDescription:

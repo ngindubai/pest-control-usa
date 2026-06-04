@@ -17,7 +17,7 @@ export function variantForSlug(slug: string): ContentTemplate {
 // (workforce/content/souls/) before writing the body.
 export const soulForTemplate: Record<ContentTemplate, ContentSoul> = {
   A: "operator",
-  B: "neighbour",
+  B: "neighbor",
   C: "comparison",
   D: "qa",
   E: "brief",

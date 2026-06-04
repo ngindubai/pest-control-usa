@@ -213,7 +213,7 @@ export const texasCities: CityLocation[] = [
       { name: "Austin", slug: "austin" },
     ],
     contentTemplate: "B",
-    contentSoul: "neighbour",
+    contentSoul: "neighbor",
     metaTitle: "Pest Control in Houston, TX | Mosquitoes, Roaches & Termites",
     metaDescription:
       "Houston pest control for mosquitoes, American roaches, Formosan termites, fire ants and roof rats. Licensed technicians, free inspection. Call 1-800-PEST-USA.",
@@ -425,7 +425,7 @@ export const texasCities: CityLocation[] = [
       { name: "Houston", slug: "houston" },
     ],
     contentTemplate: "B",
-    contentSoul: "neighbour",
+    contentSoul: "neighbor",
     metaTitle: "Pest Control in Dallas, TX | Fire Ants, Termites & Mosquitoes",
     metaDescription:
       "Dallas pest control for fire ants, mosquitoes, roaches, subterranean termites and roof rats. Clay-soil termite checks, free inspection. Call 1-800-PEST-USA.",

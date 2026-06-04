@@ -211,7 +211,7 @@ export const coloradoCities: CityLocation[] = [
       { name: "Castle Rock", slug: "castle-rock" },
     ],
     contentTemplate: "B",
-    contentSoul: "neighbour",
+    contentSoul: "neighbor",
     metaTitle:
       "Pest Control in Colorado Springs, CO | Mice, Voles & Foothills Pests",
     metaDescription:

@@ -60,7 +60,7 @@ export const pennsylvaniaCities: CityLocation[] = [
       },
       {
         heading: "What is the spotted lanternfly situation?",
-        body: "The spotted lanternfly is an invasive planthopper, and Pennsylvania is where it first took hold in the US. Adults swarm trees, decks, and outdoor furniture in late summer and lay grey egg masses on flat outdoor surfaces over winter. They are a nuisance and a threat to plants rather than a danger to people. Scraping egg masses and treating host trees reduces next year's numbers.",
+        body: "The spotted lanternfly is an invasive planthopper, and Pennsylvania is where it first took hold in the US. Adults swarm trees, decks, and outdoor furniture in late summer and lay gray egg masses on flat outdoor surfaces over winter. They are a nuisance and a threat to plants rather than a danger to people. Scraping egg masses and treating host trees reduces next year's numbers.",
       },
     ],
     prevention: [

@@ -1,9 +1,9 @@
-# City Soul B - The Neighbour (Template B: Visual Journey)
+# City Soul B - The Neighbor (Template B: Visual Journey)
 
 > Read this in full before writing a Template B city page.
 
 ## Voice
-Warm, local, reassuring, like a knowledgeable neighbour who has dealt with this. Mixes lived local detail ("By July, every block near the bayou is fielding mosquito complaints") with concrete guidance. Second person throughout. Confident but never pushy.
+Warm, local, reassuring, like a knowledgeable neighbor who has dealt with this. Mixes lived local detail ("By July, every block near the bayou is fielding mosquito complaints") with concrete guidance. Second person throughout. Confident but never pushy.
 
 ## Structure (image-led, generous spacing, right sticky sidebar)
 1. Hero headline naming the city, warm subhead.

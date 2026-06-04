@@ -4,7 +4,7 @@
 
 ## Brand tokens (source of truth: `src/app/globals.css`)
 
-### Colour
+### Color
 | Token | Value | Use |
 |-------|-------|-----|
 | navy | `#0d1b3e` | primary brand, headers, footer |
@@ -27,7 +27,7 @@
 ## Design constraints for all 5 templates
 
 Every template must:
-- Use only the palette and fonts above. No new brand colours.
+- Use only the palette and fonts above. No new brand colors.
 - Reuse the shared UI primitives in `src/components/ui/` (Button, Cards, FAQItem, TrustBadges, StarRating, Banners).
 - Pass mobile-first and accessibility checks (one H1, valid heading order, focus-visible, alt text).
 - Render the same city data fields. Nothing is dropped between templates.
