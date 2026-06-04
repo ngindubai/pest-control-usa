@@ -334,4 +334,217 @@ export const arizonaCities: CityLocation[] = [
     metaDescription:
       "Mesa pest control for Arizona bark scorpions, black widows, subterranean termites, roof rats and crickets. East Valley desert specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "scottsdale",
+    name: "Scottsdale",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T2",
+    population: "~255,000",
+    county: "Maricopa County",
+    climate: "desert",
+    climateDriver:
+      "Scottsdale sits at the edge of the McDowell Sonoran Preserve, receiving less than eight inches of rain per year. Extreme summer heat, proximity to desert preserves and washes, and a mix of resort neighborhoods and older ranch homes bring scorpions, pack rats, and venomous spiders directly into contact with residential areas.",
+    topPests: ["Bark Scorpions", "Black Widow Spiders", "Pack Rats", "Termites", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "The Arizona bark scorpion is the only scorpion in the United States with medically significant venom. Scottsdale's proximity to the McDowell Sonoran Preserve and its desert washes puts neighborhoods like McCormick Ranch and Gainey Ranch directly in bark scorpion territory. They enter homes through gaps as thin as a credit card and are most active at night.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active April through November",
+        note: "Black widows are widespread across Scottsdale, favoring undisturbed dry spots in garages, under patio furniture, in wood piles, and around irrigation equipment. Annual exterior treatments significantly reduce populations.",
+      },
+      {
+        name: "Pack rats (white-throated wood rats)",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round",
+        note: "Pack rats build large stick-and-debris nests under vehicles, in engine compartments, and in garages near desert washes and preserves. They chew through wiring, hoses, and plastic components. Properties near the McDowell Preserve and Scottsdale's desert washes see the heaviest activity.",
+      },
+      {
+        name: "Desert subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms July through September, active spring through fall",
+        note: "Desert subterranean termites swarm during monsoon season in Scottsdale rather than in spring. The monsoon moisture triggers swarming. They build mud tubes up foundations and can damage wood framing and cabinetry even in dry conditions.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, more active in fall and winter",
+        note: "Roof rats are established across the Phoenix metro and use Scottsdale's citrus trees and mature palms as food sources and nesting sites. They nest in attics and move through palm fronds and tree canopy.",
+      },
+    ],
+    localHook:
+      "Living next to the McDowell Sonoran Preserve sounds ideal until the first bark scorpion appears in the kitchen. Scottsdale homeowners near the preserve and desert washes deal with the full Sonoran Desert wildlife inventory: scorpions, pack rats stripping wiring from parked cars, black widows in every garage corner, and roof rats in the citrus trees.",
+    intro:
+      "Pest control in Scottsdale means managing the Sonoran Desert's full wildlife inventory. Bark scorpions are the headline: Arizona's only medically significant scorpion is common throughout Scottsdale, and neighborhoods near the McDowell Sonoran Preserve see higher activity than landlocked suburbs. Pack rats are equally destructive, nesting under vehicles and in engine compartments and gnawing through wiring. Black widows are present year-round in every garage and outdoor storage area. Desert subterranean termites swarm during monsoon season rather than spring. Roof rats use Scottsdale's citrus trees and palms as food sources and nesting sites.",
+    sections: [
+      {
+        heading: "Bark scorpions and desert preserve proximity",
+        body: "Scottsdale's location bordering the McDowell Sonoran Preserve means bark scorpions are a residential pest rather than an occasional visitor. They are nocturnal hunters that follow crickets and other insects into homes. They squeeze through gaps as small as a credit card, which makes construction gaps around pipes, doors, and window frames the critical entry points. The most effective defense combines exterior barrier treatments, black light inspections at night (scorpions fluoresce under UV light), and sealing entry points including gaps in weatherstripping and door sweeps.",
+      },
+      {
+        heading: "Pack rats and vehicle damage near desert washes",
+        body: "White-throated wood rats, known locally as pack rats, build mound nests of cactus spines, sticks, and debris under vehicles and in engine compartments. They gnaw through electrical wiring, rubber hoses, and plastic components. Cars parked outdoors near desert washes are the highest-risk target. Properties near the McDowell Preserve and Scottsdale's desert washes typically need ongoing management rather than single-event removal.",
+      },
+    ],
+    prevention: [
+      "Install door sweeps and seal gaps around pipes and utility lines to reduce bark scorpion entry.",
+      "Park vehicles in a sealed garage where possible, especially near desert washes, to protect against pack rat nesting.",
+      "Remove fallen citrus fruit promptly to reduce roof rat food sources.",
+      "Clear wood piles, debris, and clutter from garage corners to reduce black widow harborage.",
+      "Schedule an annual termite inspection around monsoon season given desert subterranean termite swarming patterns.",
+    ],
+    costNote:
+      "Scottsdale pest control is usually quoted as a recurring plan covering scorpions, spiders, and cockroaches, with separate quotes for pack rat removal and termite protection. Scorpion exclusion sealing is often a standalone service. Everything starts with a free assessment.",
+    faqs: [
+      {
+        question: "Are bark scorpions in Scottsdale actually dangerous?",
+        answer:
+          "Yes. The Arizona bark scorpion is the only scorpion in the United States with medically significant venom. Its sting is neurotoxic and can cause severe pain, numbness, and difficulty swallowing. Young children, elderly adults, and people with compromised immune systems face greater risk. Regular exterior treatments and sealing entry points significantly reduce indoor encounters.",
+      },
+      {
+        question: "Why are pack rats such a problem in Scottsdale specifically?",
+        answer:
+          "Scottsdale borders Sonoran Desert habitat where white-throated wood rats are native. Suburban development has brought homes directly into their territory. They are attracted to citrus trees, bird feeders, and any sheltered structure. Vehicle engine compartments are a favorite nesting site because of the warmth and the abundance of materials to gnaw.",
+      },
+      {
+        question: "When do termites swarm in Scottsdale?",
+        answer:
+          "Desert subterranean termites, the primary species, swarm during monsoon season, typically July through September. The monsoon moisture triggers emergence of winged reproductives. You may see winged insects near lights or find discarded wings near windows or doors after a monsoon storm.",
+      },
+      {
+        question: "Do roof rats live in palm trees in Scottsdale?",
+        answer:
+          "Yes. Roof rats are established across the Phoenix metro, and Scottsdale's mature palms and citrus trees provide ideal habitat. They nest in palm fronds and move into attics from there. Trimming palm fronds and removing fallen citrus reduces their presence, but established populations need professional removal and exclusion.",
+      },
+      {
+        question: "How do I find scorpions in my Scottsdale home?",
+        answer:
+          "Use a UV flashlight (black light) at night. Scorpions fluoresce bright green-blue under UV light, making them visible in dim areas. Check baseboards, closets, behind appliances, in shoes left on the floor, and in the garage. A pest professional can inspect and treat all likely hiding spots.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Phoenix", slug: "phoenix" },
+      { name: "Mesa", slug: "mesa" },
+      { name: "Chandler", slug: "chandler" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Scottsdale, AZ | Scorpions, Pack Rats & Termites",
+    metaDescription:
+      "Scottsdale pest control for bark scorpions, black widows, pack rats, desert termites and roof rats. McDowell Preserve specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "chandler",
+    name: "Chandler",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T2",
+    population: "~270,000",
+    county: "Maricopa County",
+    climate: "desert",
+    climateDriver:
+      "Chandler sits in the southeast portion of metro Phoenix in Maricopa County. The Sonoran Desert climate, with extreme summer heat, low rainfall, and a summer monsoon, creates the same bark scorpion and desert termite pressure found across the Valley. Chandler's mix of master-planned communities and older agricultural-area neighborhoods creates varied pest exposure.",
+    topPests: ["Bark Scorpions", "Termites", "Black Widow Spiders", "Pack Rats", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round, peak April through October",
+        note: "Chandler is firmly in high bark scorpion territory across the East Valley. The Arizona bark scorpion, the only scorpion in North America with medically significant venom, is common across Chandler's residential neighborhoods. They enter through very small gaps and are active at night.",
+      },
+      {
+        name: "Desert subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms July through September, active spring through fall",
+        note: "Desert subterranean termites are active across Maricopa County including Chandler. They swarm during the summer monsoon and build mud tubes up slab foundations. Chandler's older agricultural-area homes and the irrigated landscaping of master-planned communities both create conditions that sustain termite activity.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active spring through fall",
+        note: "Black widows are common across Chandler, found in the block walls, garages, utility meters, and outdoor storage areas typical of Valley homes. Their bite is medically significant, and regular perimeter treatment reduces contact risk.",
+      },
+      {
+        name: "Pack rats",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round",
+        note: "Pack rats are present across Chandler, particularly on properties backing up to desert washes, undeveloped lots, or areas with mature mesquite and palo verde. They nest in engine compartments and under outdoor structures and can disable vehicles through their gnawing.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge indoors in extreme summer heat",
+        note: "American cockroaches enter Chandler homes seeking moisture during peak summer heat and breed in outdoor drainage and irrigation infrastructure. They are the large outdoor roach species common across the Phoenix metro.",
+      },
+    ],
+    localHook:
+      "Chandler sits in the same East Valley bark scorpion belt as Mesa and Gilbert. For families with young children, the first step in any pest plan here is sealing the home against scorpions: they enter through gaps you cannot see, and the Arizona bark scorpion is the only one in North America whose sting is medically significant.",
+    intro:
+      "Pest control in Chandler follows the East Valley desert pattern. Bark scorpions are the primary concern: the Arizona bark scorpion is common across Chandler and is the only scorpion in North America with medically significant venom. Desert subterranean termites swarm during the summer monsoon, and the irrigated landscapes of Chandler's many master-planned communities provide soil moisture that sustains colonies. Black widows inhabit every garage and block wall. Pack rats target vehicles near desert washes and undeveloped lots, and American cockroaches push inside during the intense summer heat.",
+    sections: [
+      {
+        heading: "Protecting Chandler homes from bark scorpions",
+        body: "Chandler homeowners with young children or elderly family members rank scorpion control as their first pest priority, and for good reason. The Arizona bark scorpion is the only North American scorpion with venom serious enough to require medical attention, and Chandler's East Valley location puts it in high-activity territory. Effective management combines sealing the home (door sweeps, gaps around plumbing, weep holes in brick, gaps in weatherstripping), regular perimeter treatment, and reducing crickets and other insects that scorpions feed on. A black light at night reveals them since they fluoresce.",
+      },
+      {
+        heading: "Monsoon season and desert termites",
+        body: "Unlike the eastern subterranean termites that swarm in spring, desert subterranean termites in Chandler swarm during the summer monsoon, typically from July through September. The monsoon moisture is the trigger. Chandler's irrigated landscaping provides consistent soil moisture around foundations year-round, which supports termite colony activity even outside swarm season. Annual inspections are the practical defense, and homes with wood-to-soil contact or wood near irrigation lines carry higher risk.",
+      },
+    ],
+    prevention: [
+      "Seal gaps under doors, around plumbing, and at weep holes in brick before summer to reduce scorpion entry.",
+      "Reduce crickets with perimeter treatment and by limiting outdoor lighting, since crickets attract scorpions.",
+      "Keep vehicles in a sealed garage when near desert washes or undeveloped lots to deter pack rat nesting.",
+      "Schedule a termite inspection around monsoon season given desert termite swarming patterns.",
+    ],
+    costNote:
+      "Chandler pest control is typically quoted as a recurring perimeter plan covering scorpions, spiders, and cockroaches, with termite protection and pack rat removal quoted separately. Monthly or bi-monthly service is standard for scorpion control. Start with a free inspection.",
+    faqs: [
+      {
+        question: "How serious are bark scorpions in Chandler?",
+        answer:
+          "The Arizona bark scorpion is the only North American scorpion with medically significant venom, and Chandler sits in high-activity territory. Most stings cause intense pain, but children and elderly individuals can have more serious reactions. Regular perimeter treatment, sealing entry points, and reducing harborage significantly lower the risk of indoor encounters.",
+      },
+      {
+        question: "Why do desert termites swarm during the monsoon in Chandler?",
+        answer:
+          "Desert subterranean termites are triggered to swarm by the monsoon moisture rather than spring warming. The warm humid conditions of a monsoon storm prompt emergence of winged reproductives. Seeing winged insects near lights or finding discarded wings near windows after a monsoon storm is the most common first sign.",
+      },
+      {
+        question: "How do block walls affect black widow populations in Chandler?",
+        answer:
+          "The block walls surrounding most Chandler properties provide ideal black widow harborage: dry, undisturbed gaps, weep holes, and sheltered bases. They are also present in utility meter boxes, garages, and outdoor storage. Regular perimeter treatment and keeping the base of block walls clear of debris keeps the population down.",
+      },
+      {
+        question: "What attracts pack rats to Chandler properties?",
+        answer:
+          "Pack rats are attracted by mesquite pods, citrus fruit, dense low vegetation, and any sheltered structure near desert habitat. Properties backing up to desert washes, undeveloped lots, or areas with mature desert vegetation see the most activity. They nest in engine compartments of vehicles left outdoors and can disable vehicles through chewing of wiring and hoses.",
+      },
+      {
+        question: "Do I need monthly pest control in Chandler?",
+        answer:
+          "For most Chandler homes, monthly or bi-monthly perimeter service is the standard given the year-round bark scorpion pressure and the long warm season. The desert climate does not provide a winter pause in activity the way northern climates do. Less frequent service may leave gaps that allow scorpion populations to rebuild.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Phoenix", slug: "phoenix" },
+      { name: "Mesa", slug: "mesa" },
+      { name: "Scottsdale", slug: "scottsdale" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Chandler, AZ | Scorpions, Termites & Black Widows",
+    metaDescription:
+      "Chandler pest control for bark scorpions, desert termites, black widows, pack rats and cockroaches. East Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

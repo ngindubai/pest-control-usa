@@ -1170,4 +1170,322 @@ export const californiaCities: CityLocation[] = [
     metaDescription:
       "Riverside pest control for Argentine ants, roof rats in citrus, drywood and subterranean termites, black widows and cockroaches. Inland Empire specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "stockton",
+    name: "Stockton",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T2",
+    population: "~320,000",
+    county: "San Joaquin County",
+    climate: "mediterranean",
+    climateDriver:
+      "Stockton sits in the San Joaquin Valley with a Mediterranean climate: hot, dry summers that regularly exceed 100 degrees Fahrenheit and mild, wet winters. The Sacramento-San Joaquin Delta and the Stockton Waterway provide moisture in the otherwise arid summer, creating localized mosquito habitat. The heat drives cockroaches and other pests indoors in summer, and the agricultural surroundings bring rodents into residential areas at the edges of the city.",
+    topPests: ["Roof Rats", "German Cockroaches", "Earwigs", "Argentine Ants", "Bed Bugs"],
+    pestProfile: [
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, more active in fall and winter",
+        note: "Roof rats are well established across Stockton and the broader Central Valley. UC Cooperative Extension identifies them as the dominant rat species in California's urban areas. They nest in attics, trees, and the agricultural vegetation at the city's edges and move through fence lines and tree canopy into residential areas.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor pest in Stockton's apartment buildings, restaurants, and older housing. The hot summers accelerate breeding, and the city's multi-family housing stock creates conditions for rapid spread through shared walls.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, most active in spring and early summer",
+        note: "Earwigs are a very common pest in Stockton's residential yards and gardens, thriving in the moist winter soil and moving actively into homes in spring. UC Cooperative Extension identifies earwigs as a frequent nuisance pest in Central Valley gardens and homes.",
+      },
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most aggressive in summer and during rain events",
+        note: "Argentine ants form massive interconnected supercolonies across California urban areas including Stockton. They are the dominant ant pest in the Central Valley, invading kitchens, bathrooms, and outdoor food sources in large trails. UC Cooperative Extension confirms they are the most problematic ant species in California.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a growing concern in Stockton's older apartment stock and the high-density multi-family housing. UC Cooperative Extension identifies bed bugs as a significant urban pest in California cities. Stockton's large rental housing market creates conditions for spread through shared walls and furniture turnover.",
+      },
+    ],
+    localHook:
+      "Stockton's position at the edge of the Sacramento-San Joaquin Delta gives the city a different pest character than inland San Joaquin Valley towns. The delta's moisture meets the hot valley summer, which is ideal for both earwigs in the garden and German cockroaches indoors. Roof rats, which UC Extension confirms are the dominant rat species in California cities, are a persistent year-round presence.",
+    intro:
+      "Pest control in Stockton reflects the Central Valley's hot, dry summers and the moisture influence of the Sacramento-San Joaquin Delta. Roof rats are the most common rodent pest, established throughout the city and the surrounding agricultural areas, with UC Cooperative Extension confirming they are the dominant rat species in California urban settings. German cockroaches are a year-round indoor problem, amplified by the hot summers that accelerate breeding. Argentine ants form massive supercolonies and invade homes in trails during summer and rain events. Earwigs are active in the garden and move indoors in spring, and bed bugs are a growing concern in the rental housing market.",
+    sections: [
+      {
+        heading: "Roof rats in the Central Valley",
+        body: "Roof rats are the dominant rat species in California cities, and Stockton is no exception. They are climbers that travel fence lines, tree canopy, and utility wires into attics and wall voids. The agricultural land at Stockton's edges, with its grain fields and fruit orchards, provides food sources that sustain large rodent populations that press into residential areas year-round. Trimming tree branches back from rooflines, sealing attic vents, and securing any outdoor food source are the most effective preventive steps. An established roof rat population inside an attic typically requires professional removal and exclusion to resolve.",
+      },
+      {
+        heading: "Argentine ants and the California supercolony",
+        body: "Argentine ants are the dominant ant pest across California, and Stockton homeowners deal with the same massive interconnected supercolonies that cause problems across the state. Unlike native ant species, Argentine ants do not fight each other, which allows them to form enormous colonies across entire neighborhoods. They invade in large trails, entering through gaps around pipes and under doors, and are especially prevalent during summer heat and after rain events. The most effective treatment targets the trails and the colony margins with bait products, combined with sealing the most active entry points.",
+      },
+    ],
+    prevention: [
+      "Trim tree branches back from rooflines and seal attic vents to reduce roof rat access.",
+      "Seal foundation gaps and plumbing penetrations to reduce cockroach and ant entry from outdoor populations.",
+      "Reduce moisture in garden beds and against the foundation to limit earwig breeding in spring.",
+      "Keep food in sealed containers and clean up crumbs to reduce Argentine ant foraging targets indoors.",
+    ],
+    costNote:
+      "Stockton pest control is typically quoted as a general recurring plan covering ants, cockroaches, and spiders, with roof rat exclusion and bed bug treatment quoted separately. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Are roof rats common in Stockton?",
+        answer:
+          "Yes. UC Cooperative Extension confirms roof rats are the dominant rat species in California's urban areas. Stockton's proximity to agricultural land and the mature tree canopy across residential neighborhoods sustains large populations. They are climbers that access attics through roofline gaps. Trimming trees back and sealing attic vents is the first preventive step.",
+      },
+      {
+        question: "Why are Argentine ants so hard to control in Stockton?",
+        answer:
+          "Argentine ants form massive interconnected supercolonies that can span entire neighborhoods. Unlike native ant species, they cooperate rather than competing, which allows enormous colony sizes. Spot-treating a single entry point gives only temporary results. Effective management uses bait products that workers carry back to the colony, combined with sealing the main entry points.",
+      },
+      {
+        question: "When do earwigs become a problem in Stockton?",
+        answer:
+          "Earwigs are most active in spring and early summer when soil moisture is highest after winter rain. They breed in garden beds and under mulch and move into homes seeking shelter. Reducing mulch depth against the foundation, fixing drainage, and sealing foundation gaps reduces their entry. They are a nuisance rather than a structural pest.",
+      },
+      {
+        question: "Is the bed bug situation getting worse in Stockton?",
+        answer:
+          "UC Cooperative Extension confirms bed bugs are a significant and growing urban pest in California cities. Stockton's large rental housing market, high population density, and multi-family housing stock create conditions for bed bug spread. Early inspection at any sign of biting is important: small infestations are far less expensive to treat than established ones.",
+      },
+      {
+        question: "How does the Sacramento-San Joaquin Delta affect pest pressure in Stockton?",
+        answer:
+          "The delta provides moisture in the otherwise dry San Joaquin Valley summer, creating localized conditions for earwigs, mosquitoes, and other moisture-dependent pests. Properties near the waterways and delta channels see heavier mosquito pressure. The overall effect is a somewhat more humid microclimate than the interior Central Valley, which sustains a broader range of pest species than truly arid interior locations.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Sacramento", slug: "sacramento" },
+      { name: "Modesto", slug: "modesto" },
+      { name: "Fresno", slug: "fresno" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Stockton, CA | Roof Rats, Ants & Cockroaches",
+    metaDescription:
+      "Stockton pest control for roof rats, Argentine ants, German cockroaches, earwigs and bed bugs. San Joaquin Valley and Delta specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "irvine",
+    name: "Irvine",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T2",
+    population: "~310,000",
+    county: "Orange County",
+    climate: "mediterranean",
+    climateDriver:
+      "Irvine sits in southern Orange County with a mild Mediterranean climate: warm, dry summers and mild, wet winters. As a large planned community, Irvine's uniform landscaping, managed open spaces, and the Irvine Ranch Water District irrigation create consistent conditions for Argentine ants and gophers. The proximity to the Cleveland National Forest and the Irvine Ranch Natural Landmarks brings additional wildlife pressure from the surrounding open land.",
+    topPests: ["Argentine Ants", "Gophers", "German Cockroaches", "Bed Bugs", "Termites"],
+    pestProfile: [
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most aggressive in summer and after rain events",
+        note: "Argentine ants are the dominant ant pest in Irvine and throughout Orange County. They form massive supercolonies that span entire neighborhoods, invading kitchens and bathrooms in large trails. The uniform irrigated landscaping of Irvine's master-planned villages sustains enormous colony networks. UC Cooperative Extension identifies them as the most problematic ant in California.",
+      },
+      {
+        name: "Pocket gophers",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round",
+        note: "Pocket gophers are a significant lawn and garden pest in Irvine, particularly in neighborhoods adjacent to the Irvine Ranch open spaces and the natural landmarks. They tunnel extensively below lawns and gardens, creating mounds and damaging root systems. UC Cooperative Extension identifies pocket gophers as a common pest in southern California irrigated residential areas.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor pest in Irvine apartment complexes, commercial food establishments, and multi-family housing. The large UC Irvine student population sustains an active rental market where cockroaches spread readily through shared walls.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a growing concern in Irvine given the UC Irvine population, the hotel market, and the active turnover in apartment and condo housing. UC Cooperative Extension identifies them as a significant urban pest across California.",
+      },
+      {
+        name: "Subterranean and drywood termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round activity, swarms in spring and early summer",
+        note: "Orange County carries significant termite pressure from both subterranean and drywood species. UC Cooperative Extension confirms southern California is in a heavy termite infestation zone. Irvine's planned community housing, much of it built since the 1970s, has had sufficient time for colony establishment in the surrounding soil.",
+      },
+    ],
+    localHook:
+      "Irvine's master-planned landscape is beautiful and meticulously managed, and that consistent irrigated landscaping is exactly what sustains enormous Argentine ant supercolonies across the planned villages. UC Cooperative Extension confirms Argentine ants are the most problematic ant species in California, and Irvine's uniform turf and irrigation creates some of the best ant habitat in Orange County.",
+    intro:
+      "Pest control in Irvine reflects its character as a large, planned community with extensive irrigation and open space. Argentine ants exploit the uniform irrigated landscaping to form massive supercolonies across the planned villages, invading homes in trails during summer heat and rain events. Pocket gophers work the lawns and gardens adjacent to the Irvine Ranch open spaces. German cockroaches are persistent in apartments and commercial food establishments around UC Irvine. Termites carry year-round pressure across Orange County, and bed bugs are a growing concern in the active rental and hotel market.",
+    sections: [
+      {
+        heading: "Argentine ants and Irvine's planned landscape",
+        body: "Irvine's planned community design includes extensive irrigated landscaping: managed turf, planted medians, common area gardens, and irrigation infrastructure throughout the planned villages. This consistent moisture and ground cover is ideal for Argentine ant supercolonies. UC Cooperative Extension confirms Argentine ants are the most problematic ant species in California, forming interconnected colonies that span entire neighborhoods. The key to managing them in Irvine is targeting the colony perimeter with bait that workers carry back to the colony, combined with sealing the main entry points into individual homes.",
+      },
+      {
+        heading: "Pocket gophers near the open spaces",
+        body: "Irvine's proximity to the Irvine Ranch Natural Landmarks and the Cleveland National Forest means the residential edges of the city deal with wildlife pressure that more urban areas avoid. Pocket gophers tunnel extensively below lawns and gardens, creating raised mounds and damaging plant roots. UC Cooperative Extension identifies them as a common pest in southern California irrigated residential areas. Management typically involves trapping, exclusion barriers for specific garden areas, and ongoing monitoring.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around pipes and under doors to reduce Argentine ant entry from the irrigated landscaping.",
+      "Install gopher exclusion mesh below lawn areas adjacent to open space if gopher pressure is ongoing.",
+      "Keep food in sealed containers to limit ant and cockroach foraging targets indoors.",
+      "Schedule regular termite inspections given the Orange County heavy pressure zone.",
+    ],
+    costNote:
+      "Irvine pest control is typically quoted as a general recurring plan covering ants, cockroaches, and spiders, with gopher management, termite protection, and bed bug treatment quoted separately. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Why are Argentine ants so hard to control in Irvine?",
+        answer:
+          "Argentine ants form massive supercolonies that span entire neighborhoods and share workers cooperatively rather than competing. Irvine's extensive irrigated landscaping sustains enormous colony networks. Spot-treating a single entry point gives temporary results because the colony simply redirects. Effective management uses bait products that workers carry back to the colony from multiple entry points.",
+      },
+      {
+        question: "Are pocket gophers a pest in Irvine or just near the open spaces?",
+        answer:
+          "Primarily near the open spaces and the Irvine Ranch natural areas, where they tunnel from natural terrain into irrigated residential lawns and gardens. Neighborhoods adjacent to open space and undeveloped land see the most pressure. Trapping and exclusion mesh below specific garden areas are the most effective management tools.",
+      },
+      {
+        question: "Is the termite risk high in Irvine?",
+        answer:
+          "Yes. UC Cooperative Extension confirms Orange County is in a heavy termite infestation zone for both subterranean and drywood species. Irvine's housing, most of it built since the 1970s, has had time for colony establishment. Annual inspections are the standard protective step in southern California.",
+      },
+      {
+        question: "Why is bed bug risk elevated near UC Irvine?",
+        answer:
+          "The student population creates frequent furniture turnover, travel, and shared housing, all of which increase bed bug transmission risk. The active hotel market around Irvine adds to this. Early inspection at any sign of biting is the most important step: small infestations are far less expensive to treat than established ones.",
+      },
+      {
+        question: "Do German cockroaches come from outside in Irvine?",
+        answer:
+          "German cockroaches breed entirely indoors in kitchens and bathrooms and are not dependent on outdoor access. They arrive through used appliances, grocery packaging, and building-to-building movement in multi-unit housing. Unlike the large outdoor cockroach species, they do not enter from the garden. Targeted interior baiting and sanitation are the most effective management approach.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Anaheim", slug: "anaheim" },
+      { name: "Santa Ana", slug: "santa-ana" },
+      { name: "Long Beach", slug: "long-beach" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Irvine, CA | Argentine Ants, Gophers & Termites",
+    metaDescription:
+      "Irvine pest control for Argentine ants, pocket gophers, German cockroaches, bed bugs and termites. Orange County planned community specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "chula-vista",
+    name: "Chula Vista",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T2",
+    population: "~275,000",
+    county: "San Diego County",
+    climate: "mediterranean",
+    climateDriver:
+      "Chula Vista sits south of San Diego in the South Bay area, close to the US-Mexico border. The Mediterranean climate delivers mild, dry conditions year-round, tempered by the Pacific Ocean influence. The Sweetwater River and the South Bay's coastal wetlands create some mosquito habitat, and the proximity to the border and the Otay Mountain Wilderness area brings wildlife pressure from the surrounding terrain.",
+    topPests: ["Argentine Ants", "Subterranean Termites", "German Cockroaches", "American Cockroaches", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most aggressive in summer and after rain events",
+        note: "Argentine ants are the dominant ant pest in Chula Vista and across San Diego County. They form massive supercolonies and invade homes in large trails. The mild Mediterranean climate sustains year-round colony activity. UC Cooperative Extension confirms they are the most problematic ant in California.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round activity, swarms in spring",
+        note: "San Diego County is in a heavy subterranean termite pressure zone according to UC Cooperative Extension. Chula Vista's housing, much of it built since the 1970s and 1980s, has had sufficient time for colony establishment in the surrounding soil. Western subterranean termites are the primary species.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary indoor pest in Chula Vista's apartment buildings and commercial food establishments. The city's large multi-family housing stock and proximity to commercial corridors creates conditions for widespread indoor cockroach activity.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches breed in the outdoor drainage and sewer infrastructure common in South Bay communities and move into homes and businesses. They are distinct from German cockroaches: large, outdoor breeders that enter rather than breed inside.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, more active in fall and winter",
+        note: "Roof rats are the dominant rat species in San Diego County urban areas. They nest in attics, mature trees, and dense vegetation and travel along fence lines and utility wires. The Sweetwater River corridor and the residential tree canopy across Chula Vista support established populations.",
+      },
+    ],
+    localHook:
+      "Chula Vista's South Bay location puts it between San Diego's urban infrastructure and the open terrain of the Otay Mountain area. That combination means Argentine ant supercolonies from the irrigated residential neighborhoods meet wildlife pressure from the surrounding open land, including roof rats that move from the Sweetwater River corridor into residential areas.",
+    intro:
+      "Pest control in Chula Vista reflects the South Bay's Mediterranean climate and its position between urban San Diego and the open terrain near the border. Argentine ants are the year-round indoor nuisance, forming massive supercolonies across the residential neighborhoods as they do throughout San Diego County. Subterranean termites carry significant pressure confirmed by UC Cooperative Extension. German and American cockroaches are persistent indoor and outdoor pests respectively, and roof rats are established throughout the city's residential tree canopy.",
+    sections: [
+      {
+        heading: "Argentine ants in South Bay neighborhoods",
+        body: "Argentine ants are the dominant ant pest across San Diego County, and Chula Vista's residential landscaping and the mild Mediterranean climate sustain enormous supercolonies year-round. UC Cooperative Extension confirms they are the most problematic ant in California. They invade in large trails, particularly during summer heat and after rain events when outdoor food sources change. Effective management uses bait products that workers carry to the broader colony, combined with sealing the most active entry points. Spot-treating the trail alone gives temporary results.",
+      },
+      {
+        heading: "Roof rats and the Sweetwater River corridor",
+        body: "The Sweetwater River corridor running through Chula Vista provides habitat for roof rats that press into the surrounding residential neighborhoods. Roof rats are confirmed as the dominant rat species in San Diego County's urban areas by UC Cooperative Extension. They travel along fence lines, utility wires, and tree branches and nest in attics and dense vegetation. Trimming trees back from rooflines, securing outdoor food sources including pet food and fruit trees, and sealing attic vents are the first preventive steps.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around pipes and under doors to reduce Argentine ant entry from the South Bay landscaping.",
+      "Trim tree branches back from rooflines and seal attic vents to limit roof rat access.",
+      "Schedule regular termite inspections given San Diego County's heavy subterranean pressure zone.",
+      "Seal plumbing penetrations and drainage gaps to reduce American cockroach entry from outdoor sewer infrastructure.",
+    ],
+    costNote:
+      "Chula Vista pest control is typically quoted as a general recurring plan covering ants, cockroaches, and spiders, with termite protection and roof rat exclusion quoted separately. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Why are Argentine ants so persistent in Chula Vista homes?",
+        answer:
+          "Argentine ants form massive supercolonies that span entire neighborhoods. The mild Mediterranean climate sustains colony activity year-round with no winter slowdown. UC Cooperative Extension confirms they are the most problematic ant in California. Effective management requires targeting the colony with bait rather than just treating individual entry points.",
+      },
+      {
+        question: "Is the termite risk significant in Chula Vista?",
+        answer:
+          "Yes. UC Cooperative Extension confirms San Diego County is in a heavy subterranean termite pressure zone. The mild Mediterranean climate keeps colony activity high year-round, and Chula Vista's substantial housing stock from the 1970s and 1980s has had time for established colony development. Annual inspections are standard practice in southern California.",
+      },
+      {
+        question: "What is the difference between German and American cockroaches in Chula Vista?",
+        answer:
+          "German cockroaches are small, breed entirely indoors in kitchens and bathrooms, and never need outdoor access. American cockroaches are large, breed outdoors in sewers and drainage infrastructure, and enter homes from outside. In Chula Vista, both are present: German roaches in apartments and restaurants, American roaches in the outdoor drainage infrastructure and around the slab. They require different treatment approaches.",
+      },
+      {
+        question: "Are roof rats worse near the Sweetwater River?",
+        answer:
+          "Yes. The Sweetwater River corridor provides habitat that sustains larger roof rat populations than areas further from riparian terrain. Neighborhoods adjacent to the river and its tree canopy see more pressure. Trimming trees back from rooflines and securing outdoor food sources are the most effective preventive steps.",
+      },
+      {
+        question: "Does the proximity to the border affect pest pressure in Chula Vista?",
+        answer:
+          "Commercial activity at the US-Mexico border crossings does create conditions for pest introduction and transport: cockroaches and other pests travel with goods in vehicles and shipping containers. The broader effect on residential pest pressure is less direct, but the South Bay's mix of commercial corridors and residential areas does sustain higher baseline pest activity than more suburban-only communities.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "San Diego", slug: "san-diego" },
+      { name: "National City", slug: "national-city" },
+      { name: "El Cajon", slug: "el-cajon" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Chula Vista, CA | Argentine Ants, Termites & Roof Rats",
+    metaDescription:
+      "Chula Vista pest control for Argentine ants, subterranean termites, cockroaches and roof rats. San Diego South Bay specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

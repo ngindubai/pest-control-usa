@@ -216,4 +216,216 @@ export const tennesseeCities: CityLocation[] = [
     metaDescription:
       "Memphis pest control for subterranean and Formosan termites, brown recluse spiders, mosquitoes, roaches and rats. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "chattanooga",
+    name: "Chattanooga",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T2",
+    population: "~185,000",
+    county: "Hamilton County",
+    climate: "temperate",
+    climateDriver:
+      "Chattanooga sits in a river valley surrounded by Lookout Mountain, Signal Mountain, and Missionary Ridge. The Tennessee River runs through the city, and the surrounding wooded ridges and the warm, humid valley floor create distinct pest microclimates. The valley humidity and mild winters sustain termites and mosquitoes, while the ridge neighborhoods deal with more rodent and stink bug pressure from proximity to forested terrain.",
+    topPests: ["German Cockroaches", "Bed Bugs", "Termites", "House Mice", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor pest in Chattanooga's older downtown neighborhoods, apartment buildings, and restaurant district. The humid valley climate sustains year-round breeding, and the city's substantial older housing stock provides the gaps and shared walls that allow rapid spread between units.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a growing concern in Chattanooga given the city's active tourism economy, hotel presence, and multi-family housing. UT Extension identifies bed bugs as a significant urban pest in Tennessee. The tourist traffic through the Tennessee Aquarium and Lookout Mountain areas contributes to hotel and rental bed bug exposure.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "UT Extension confirms Hamilton County is in a significant termite pressure zone. Chattanooga's warm valley climate and the humid Tennessee River environment keep subterranean colonies active most of the year. The city's older downtown neighborhoods have had decades of termite exposure.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall, active year-round once inside",
+        note: "Mice push into Chattanooga homes in fall as temperatures drop, particularly in the ridge-adjacent neighborhoods where forested terrain brings additional pressure. The city's older housing stock with its greater number of gaps and entry points sees the heaviest mouse pressure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The Tennessee River and the many drainage areas and low-lying terrain through the Chattanooga valley create sustained mosquito breeding habitat through the warm season. The Asian tiger mosquito is established in Hamilton County and extends biting into daytime hours.",
+      },
+    ],
+    localHook:
+      "Chattanooga's river valley setting gives it one of the more layered pest pictures in Tennessee. The valley floor humidity favors termites, cockroaches, and mosquitoes, while the ridge neighborhoods bordering Lookout Mountain and Signal Mountain deal with higher rodent and stink bug pressure from the adjacent forested terrain.",
+    intro:
+      "Pest control in Chattanooga reflects its geography: a river valley ringed by wooded ridges. The Tennessee River and the valley's natural humidity sustain year-round termite activity and a long mosquito season, with UT Extension confirming Hamilton County is in a significant termite pressure zone. German cockroaches are the persistent indoor pest, year-round in the older downtown housing and restaurant district. Bed bugs are a growing concern given the city's active tourism economy. House mice push in from the forested ridges in fall, and the Asian tiger mosquito extends the mosquito biting season into daytime hours.",
+    sections: [
+      {
+        heading: "Valley humidity and termite risk",
+        body: "The Tennessee River valley creates a consistently warm, humid microclimate that keeps eastern subterranean termite colonies active through most of the year. UT Extension confirms Hamilton County is in a significant pressure zone. Chattanooga's older downtown housing, with more wood-to-soil contact and aging foundations, carries the most exposure. The ridge neighborhoods, while dealing with different pest pressures from the forested terrain, are not exempt from termite activity either. An annual inspection is the standard protective step.",
+      },
+      {
+        heading: "Bed bugs and Chattanooga's tourism economy",
+        body: "Chattanooga has grown significantly as a tourism destination, with the Tennessee Aquarium, Lookout Mountain, and the revitalized waterfront drawing substantial visitor traffic. Hotel and vacation rental turnover creates bed bug transmission opportunities, and the city's active student and transient rental market compounds this. An early inspection at any sign of biting or visible evidence is important: small infestations respond far better to treatment than established ones.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given the Hamilton County pressure zone and the river valley humidity.",
+      "Seal foundation gaps and utility penetrations before fall to limit mouse entry from the ridge terrain.",
+      "Inspect luggage and clothing after hotel stays given Chattanooga's active tourism and bed bug risk.",
+      "Remove standing water from drainage areas and low spots to cut the valley mosquito season.",
+    ],
+    costNote:
+      "Chattanooga pest control is typically quoted as a general recurring plan covering cockroaches, ants, and spiders, with termite protection, bed bug treatment, and mosquito service quoted separately. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Why does Chattanooga's valley location affect the pest picture?",
+        answer:
+          "The Tennessee River valley creates a consistently warm, humid microclimate that sustains termite, cockroach, and mosquito activity longer than the surrounding ridge elevations. The valley floor humidity also means more moisture issues in older foundations and crawl spaces, which increases termite and cockroach risk. The ridge neighborhoods adjacent to forested terrain deal with more rodent and stink bug pressure.",
+      },
+      {
+        question: "Are bed bugs a serious concern in Chattanooga?",
+        answer:
+          "Yes, given the city's active tourism economy and significant hotel presence. UT Extension identifies bed bugs as a priority urban pest in Tennessee. The tourist traffic through Chattanooga's attractions and the active rental market increase the chances of bed bug introduction through luggage and used furniture. Early inspection at any sign of biting is the most effective response.",
+      },
+      {
+        question: "Is the termite risk in Chattanooga high?",
+        answer:
+          "Yes. UT Extension confirms Hamilton County is in a significant pressure zone for eastern subterranean termites. The warm, humid Tennessee River valley climate keeps colonies active most of the year. Annual inspections are the standard protective measure, particularly for older downtown homes with crawl spaces.",
+      },
+      {
+        question: "When do mice become a problem in Chattanooga's ridge neighborhoods?",
+        answer:
+          "The main push indoors starts in October as temperatures drop and forested ridge terrain provides limited alternative shelter. Ridge-adjacent neighborhoods bordering Lookout Mountain and Signal Mountain see heavier mouse pressure than valley neighborhoods. Sealing foundation gaps and utility penetrations in September is the most effective prevention.",
+      },
+      {
+        question: "Do mosquitoes in Chattanooga bite during the day?",
+        answer:
+          "Yes. The Asian tiger mosquito, which is established in Hamilton County, bites throughout the day rather than just at dawn and dusk. It breeds in very small amounts of standing water, including in bottle caps and plant saucers. Removing any standing water container around the property is the most effective first step.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Nashville", slug: "nashville" },
+      { name: "Knoxville", slug: "knoxville" },
+      { name: "Atlanta", slug: "atlanta" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Chattanooga, TN | Cockroaches, Bed Bugs & Termites",
+    metaDescription:
+      "Chattanooga pest control for German cockroaches, bed bugs, subterranean termites, mice and mosquitoes. Hamilton County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "knoxville",
+    name: "Knoxville",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T2",
+    population: "~195,000",
+    county: "Knox County",
+    climate: "temperate",
+    climateDriver:
+      "Knoxville sits in the Great Appalachian Valley between the Smoky Mountains and the Cumberland Plateau. The Tennessee Valley climate is humid subtropical, with hot summers, mild winters, and significant rainfall. The Tennessee River, Fort Loudoun Lake, and the many creeks feeding into the river system create sustained mosquito breeding habitat. The proximity to the Great Smoky Mountains National Park means the surrounding forested terrain brings stink bugs, wildlife, and wood-boring insects into regular contact with residential areas.",
+    topPests: ["Termites", "Stink Bugs", "House Mice", "Mosquitoes", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "UT Extension identifies Knox County as a significant termite pressure zone. The warm, humid Tennessee Valley climate keeps subterranean termite colonies active across most of the year. Knoxville's older neighborhoods near the University of Tennessee and downtown have had decades of termite exposure.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion (September to November), overwinter in walls",
+        note: "Stink bugs are a significant fall pest in Knoxville. East Tennessee is in the established range of the invasive brown marmorated stink bug. The proximity to forested Smoky Mountain terrain amplifies fall aggregation. They push into wall voids and attics to overwinter and emerge on warm winter days.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall, active year-round once inside",
+        note: "Knoxville's proximity to forested terrain brings consistent fall mouse pressure. The University of Tennessee's surrounding neighborhoods and older housing stock across the city provide ample entry points. Mice push firmly indoors once temperatures drop in October.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Fort Loudoun Lake, the Tennessee River corridor, and the many creeks through Knox County create sustained mosquito breeding habitat. The Asian tiger mosquito is established in the area and bites during daytime hours. Knox County runs an active surveillance program for mosquito-borne illness.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Spring through fall, most aggressive August through October",
+        note: "Yellow jackets are a significant late-summer and fall pest in Knoxville. They nest in the ground and in wall voids and become highly aggressive as the season progresses and colony size peaks. The forested terrain around Knoxville supports large yellow jacket populations.",
+      },
+    ],
+    localHook:
+      "Knoxville's location as the gateway to the Great Smoky Mountains means the surrounding forested terrain brings wildlife pressure that most urban areas do not deal with. In fall, stink bugs aggregate on home exteriors as they move from the woods to overwinter in structures, mice arrive from the ridge terrain, and yellow jackets reach their most aggressive phase.",
+    intro:
+      "Pest control in Knoxville is shaped by the Smoky Mountains and the Tennessee Valley. The humid subtropical climate keeps termites active much of the year, with UT Extension confirming Knox County is a significant pressure zone. Fall brings the stink bug aggregation as they move out of the surrounding forests to overwinter in buildings. Mice follow the same pattern, pushing hard into homes from the forested terrain. Fort Loudoun Lake and the Tennessee River drive the mosquito season, and yellow jackets hit their most aggressive phase in late summer as their colonies peak.",
+    sections: [
+      {
+        heading: "Forested terrain and fall pest pressure",
+        body: "Knoxville sits at the edge of the Great Smoky Mountains, and the surrounding forested terrain creates fall pest patterns that differ from more landlocked Tennessee cities. Brown marmorated stink bugs aggregate from the nearby forests onto south-facing building walls in September and October before pushing into wall voids. Mice arrive from the ridge terrain in October as food becomes scarce. Yellow jackets in ground nests throughout the wooded areas reach their largest and most aggressive colony size by August through October. Sealing the home before September and reducing harborage around the foundation addresses all three at once.",
+      },
+      {
+        heading: "Termites and the Knox County pressure zone",
+        body: "UT Extension identifies Knox County as a significant termite pressure zone, and the warm, humid Tennessee Valley climate keeps eastern subterranean colonies active across most of the year. Knoxville's older neighborhoods, particularly those around the University of Tennessee campus and downtown, have had long-term exposure. Annual inspections are the practical defense, and homes with crawl spaces or any wood near the soil carry higher risk. Spring swarms, usually from February through April, are the most visible first sign.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around windows, siding, and utility lines before September to limit stink bug entry from forested terrain.",
+      "Seal foundation gaps and utility penetrations before October to limit mouse entry from ridge terrain.",
+      "Schedule an annual termite inspection given the Knox County pressure zone.",
+      "Check for yellow jacket ground nests in the yard from August through October and treat carefully to avoid stings.",
+    ],
+    costNote:
+      "Knoxville pest control is typically quoted as a general recurring plan covering ants, cockroaches, and spiders, with stink bug seasonal treatment, termite protection, and yellow jacket removal quoted separately. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Why does Knoxville have such a significant stink bug problem?",
+        answer:
+          "Knoxville's proximity to the Great Smoky Mountains and the surrounding forested terrain amplifies stink bug fall aggregation. The invasive brown marmorated stink bug is established across east Tennessee and moves from forested areas into buildings to overwinter each fall. Sealing the home before September and treating the exterior as they begin to aggregate gives the best results.",
+      },
+      {
+        question: "When is yellow jacket season in Knoxville?",
+        answer:
+          "Yellow jackets are present from spring through fall but reach their largest colony size and most aggressive behavior from August through October. Ground nests in the wooded terrain around Knoxville can grow to thousands of individuals. Disturbing a ground nest accidentally is the most common way to get stung. Professional removal is safer than treating yellow jacket ground nests yourself.",
+      },
+      {
+        question: "Is the termite risk high in Knoxville?",
+        answer:
+          "Yes. UT Extension identifies Knox County as a significant pressure zone for eastern subterranean termites. The warm, humid valley climate keeps colonies active most of the year. Annual inspections are the standard protective step, particularly for homes with crawl spaces or wood near the soil.",
+      },
+      {
+        question: "Are mice worse in Knoxville than other Tennessee cities?",
+        answer:
+          "The proximity to forested Smoky Mountain terrain does increase fall mouse pressure compared with more landlocked Tennessee cities. Mice move out of the forested areas as food becomes scarce in October and press hard into buildings. Sealing entry points in September is the most effective prevention.",
+      },
+      {
+        question: "Does Fort Loudoun Lake make the mosquito season worse?",
+        answer:
+          "The lake and the Tennessee River corridor do create sustained breeding habitat through the warm season. The Asian tiger mosquito bites during the day, and Knox County runs surveillance for mosquito-borne illness. Homes near the lake and the river system see heavier pressure than those further inland. Removing standing water on the property and treating shaded resting areas handles the household-level contribution.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Chattanooga", slug: "chattanooga" },
+      { name: "Nashville", slug: "nashville" },
+      { name: "Johnson City", slug: "johnson-city" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Knoxville, TN | Termites, Stink Bugs & Mice",
+    metaDescription:
+      "Knoxville pest control for subterranean termites, stink bugs, house mice, mosquitoes and yellow jackets. Knox County and Smoky Mountain gateway specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
