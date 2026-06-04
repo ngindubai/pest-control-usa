@@ -115,7 +115,7 @@ Deploy is automatic, so the safety gate is review after publish. After every blo
 3. State plainly that they are live and need review.
 4. For a sitewide or template change, name a representative sample of URLs plus the home page.
 
-Skipping the link post is treated as a failed block.
+Skipping the link post is treated as a failed block. **Post the full list every time, without being asked. This is hardcoded and automatic.**
 
 ---
 
@@ -205,7 +205,7 @@ pest-control-usa/
 2. Run the 7-stage pipeline for the batch (Geographer to Builder).
 3. Build the static export locally (`npm run build`) to confirm it compiles.
 4. Commit pages plus the three docs updates in one atomic commit and push directly to `main`.
-5. Post the live review links (LIVE LINK REVIEW GATE).
+5. **Post every live URL in chat, grouped as new vs changed. No exceptions. This is mandatory and non-negotiable. Do not summarise or truncate the list.**
 6. Stop and wait for the next "go".
 
 ### "session end" or "wrap up"
