@@ -44,7 +44,7 @@ export const nebraskaCities: CityLocation[] = [
       },
       {
         name: "Yellow jacket wasps",
-        serviceSlug: "wasp-hornet-control",
+        serviceSlug: "wasp-bee-removal",
         activeSeason: "June through October, most aggressive August and September",
         note: "Yellow jackets are a significant late-summer concern in Omaha, nesting in the ground, wall voids, and under eaves. They become more aggressive and more likely to sting as their colonies reach peak size in August and September.",
       },
@@ -110,5 +110,111 @@ export const nebraskaCities: CityLocation[] = [
       "Pest Control in Omaha, NE | Mice, Termites & Missouri River Pests",
     metaDescription:
       "Omaha pest control for house mice, subterranean termites, odorous house ants, cockroaches and yellow jackets. Missouri River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lincoln",
+    name: "Lincoln",
+    state: "Nebraska",
+    stateSlug: "nebraska",
+    stateAbbr: "NE",
+    tier: "T1",
+    population: "~295,000",
+    county: "Lancaster County",
+    climate: "cold-humid",
+    climateDriver:
+      "Lincoln sits on the eastern Nebraska plains with cold winters, hot humid summers, and the surrounding agricultural land that defines the region. The cold drives rodents indoors each fall, the humid summers support a mosquito season, and the farmland edges bring field rodent pressure into the city.",
+    topPests: ["Mice", "Ants", "Wasps", "Mosquitoes", "Spiders"],
+    pestProfile: [
+      {
+        name: "House mice and field mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge in fall",
+        note: "Lincoln's cold winters drive mice firmly indoors each fall. The surrounding agricultural land and the city's open edges bring additional field mouse pressure beyond the standard urban house mouse.",
+      },
+      {
+        name: "Odorous house and carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Odorous house ants are the common indoor nuisance ant, producing a rotten coconut smell when crushed. Carpenter ants nest in moisture-damaged wood in older homes.",
+      },
+      {
+        name: "Yellow jacket and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note: "Yellow jackets nest in the ground and wall voids and become aggressive in late summer as colonies peak. Paper wasps build nests under eaves and in sheltered outdoor spots.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Salt Creek, the area's lakes and ponds, and the standing water across the surrounding farmland create mosquito breeding habitat through the humid summers. West Nile virus activity has been recorded in Lancaster County.",
+      },
+      {
+        name: "Spiders, including occasional brown recluse",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Common house and cellar spiders are widespread. Nebraska is near the northern edge of the brown recluse range, and they occasionally turn up in undisturbed storage areas and basements.",
+      },
+    ],
+    localHook:
+      "Lincoln sits surrounded by Nebraska farmland, and that agricultural setting shapes the pest year. When the cold arrives, the field mice from the surrounding land join the urban house mice in heading indoors, making the fall rodent surge here stronger than in a purely urban city.",
+    intro:
+      "Pest control in Lincoln is best understood through the contrast between its urban core and its agricultural surroundings. The cold winters versus the humid summers set up two different pest seasons: a fall rodent surge driven by the cold, and a summer mosquito and wasp season driven by the heat and humidity. And the city core versus the farmland edge means homes near open land face field rodent pressure that downtown homes do not. Matching the response to the season and the setting is the key here.",
+    sections: [
+      {
+        heading: "Cold-season rodents versus warm-season insects",
+        body: "Lincoln's pest year splits cleanly by temperature. In the cold months, the story is rodents: mice driven indoors by the falling temperatures, with extra pressure on homes near the surrounding farmland. In the warm months, the story shifts to insects: mosquitoes breeding in Salt Creek and the area ponds, and wasps building toward their aggressive late-summer peak. By contrast with a warm-climate city where pests run year-round, Lincoln's clear seasonal swing means the smart approach is timing the work, rodent exclusion before fall and insect management through summer, rather than constant treatment.",
+      },
+      {
+        heading: "City core versus farmland edge",
+        body: "Where you live in Lincoln changes your pest pressure. Homes in the established core face standard urban pests: house mice, odorous house ants, and the common spiders. Homes on the city's growing edges, where new neighborhoods meet open agricultural land, face additional field mouse and rodent pressure from the surrounding farmland, especially in fall. The difference is meaningful: an edge home benefits from more attention to yard harborage and exterior rodent exclusion than a core home typically needs.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before fall, especially on homes near farmland.",
+      "Remove standing water and treat resting areas to manage the summer mosquito season.",
+      "Treat yellow jacket ground nests in spring when colonies are small and easier to manage.",
+      "Store items in sealed plastic containers to reduce occasional brown recluse harborage in basements.",
+    ],
+    costNote:
+      "Lincoln pest control commonly uses a seasonal approach: fall rodent exclusion, summer mosquito and wasp service, and ant treatment through the warm months. A free inspection sets the schedule to your home and its setting.",
+    faqs: [
+      {
+        question: "Why is the fall mouse surge strong in Lincoln?",
+        answer:
+          "Lincoln is surrounded by Nebraska farmland, and when the cold arrives, field mice from the surrounding agricultural land join the urban house mice in moving toward warm buildings. Homes near open land see the strongest pressure. Sealing entry points before fall, particularly on the city's edges, is the most effective prevention.",
+      },
+      {
+        question: "Is there a mosquito risk in Lincoln?",
+        answer:
+          "Yes. Salt Creek, the area's lakes and ponds, and the standing water across the surrounding farmland create breeding habitat through the humid summers. West Nile virus activity has been recorded in Lancaster County. The active season runs May through September. Removing standing water and treating resting areas reduces exposure.",
+      },
+      {
+        question: "Are brown recluse spiders found in Lincoln?",
+        answer:
+          "Occasionally. Nebraska is near the northern edge of the brown recluse range, so they are less common here than in Oklahoma or Missouri but do turn up in undisturbed storage areas and basements. Storing items in sealed plastic containers and checking undisturbed spaces reduces contact.",
+      },
+      {
+        question: "When are wasps worst in Lincoln?",
+        answer:
+          "Wasp and yellow jacket nests grow through the summer and are largest and most aggressive in late summer, around August and September, near eaves, decks, and trash. Treating ground nests in spring while colonies are small is far easier and safer than dealing with a mature nest.",
+      },
+      {
+        question: "Do I need year-round pest control in Lincoln?",
+        answer:
+          "Many Lincoln homes do well with a seasonal plan given the clear seasonal swing: fall rodent exclusion, summer mosquito and wasp service, and ant treatment through the warm months. Homes on the farmland edge or with recurring indoor pressure may benefit from a continuous plan. A free inspection sets the right schedule.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Omaha", slug: "omaha" },
+      { name: "Bellevue", slug: "bellevue" },
+      { name: "Beatrice", slug: "beatrice" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Lincoln, NE | Mice, Wasps & Mosquitoes",
+    metaDescription:
+      "Lincoln pest control for fall mice and field mice, wasps, mosquitoes, ants and spiders. Plains and farmland-edge specialists. Free inspection. Call 1-800-PEST-USA.",
   },
 ];

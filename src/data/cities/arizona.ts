@@ -144,7 +144,7 @@ export const arizonaCities: CityLocation[] = [
       },
       {
         name: "Pack rats (woodrats)",
-        serviceSlug: "rodent-control",
+        serviceSlug: "rat-control",
         activeSeason: "Year-round",
         note: "Pack rats are native to the Sonoran Desert and are a defining pest challenge in Tucson. They build large stick-and-debris middens under porches, in crawl spaces, and in engine compartments. A pack rat nest under a hood can disable a vehicle. The middens can also harbor bark scorpions.",
       },
@@ -221,5 +221,117 @@ export const arizonaCities: CityLocation[] = [
     metaTitle: "Pest Control in Tucson, AZ | Bark Scorpions, Pack Rats & Termites",
     metaDescription:
       "Tucson pest control for Arizona bark scorpions, black widows, pack rats, desert termites and cockroaches. Sonoran Desert specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mesa",
+    name: "Mesa",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T1",
+    population: "~510,000",
+    county: "Maricopa County",
+    climate: "desert",
+    climateDriver:
+      "Mesa sits in the Sonoran Desert in the East Valley of metro Phoenix. Extreme summer heat above 110 degrees Fahrenheit, mild winters, and the bimodal rainfall with a summer monsoon shape the pest year. The heat drives scorpions and other desert pests into homes seeking moisture and cooler temperatures.",
+    topPests: [
+      "Bark Scorpions",
+      "Black Widows",
+      "Termites",
+      "Roof Rats",
+      "Crickets",
+    ],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Active spring through fall, seek shelter indoors in extreme heat",
+        note: "Mesa and the entire East Valley sit in high bark scorpion territory. The Arizona bark scorpion is the only North American scorpion with medically significant venom. They climb walls, enter through gaps under doors and around plumbing, and are most active at night.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active spring through fall",
+        note: "Black widows are very common across Mesa, favoring block walls, utility boxes, garages, and outdoor storage. The female's bite is medically significant.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms during and after monsoon rains, active spring through fall",
+        note: "Desert subterranean termites are widespread across the East Valley. The irrigated landscapes and slab-on-grade construction common in Mesa create favorable conditions, and swarms follow monsoon rain events.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats have spread across the Phoenix metro including Mesa over the past two decades, nesting in citrus trees, palms, and attics. The mature landscaping and fruit trees in established Mesa neighborhoods support growing populations.",
+      },
+      {
+        name: "Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Surge in late summer and fall",
+        note: "Field crickets surge in large numbers in late summer and fall across the East Valley, gathering around lights and entering homes and garages. They are a nuisance and also a food source that can attract scorpions and spiders.",
+      },
+    ],
+    localHook:
+      "Mesa sits in the same high bark scorpion zone as the rest of the East Valley, and these are not harmless desert curiosities: the Arizona bark scorpion is the only scorpion in North America whose sting is medically significant. For families with young children, scorpion management is the pest priority here.",
+    intro:
+      "Pest control in Mesa is desert pest control. The East Valley sits in high bark scorpion territory, and the Arizona bark scorpion carries the only medically significant scorpion venom in North America. The extreme summer heat drives scorpions, spiders, and rodents toward the moisture and cooler temperatures of homes. Black widows favor the block walls common across Mesa, subterranean termites swarm after monsoon rains, roof rats have spread through the citrus and palm landscaping, and crickets surge each fall.",
+    sections: [
+      {
+        heading: "Why scorpions are the Mesa priority",
+        body: "Mesa homeowners with young children rank scorpion control first, and for good reason. The Arizona bark scorpion is the only North American scorpion with venom serious enough to require medical attention, and the East Valley has high densities. They squeeze through gaps as thin as a credit card, climb walls, and are most active at night. The practical defense combines sealing entry points under doors and around plumbing, regular perimeter treatment, reducing harborage in the yard, and reducing the crickets and other insects scorpions feed on. A black light at night reveals them, since they fluoresce.",
+      },
+      {
+        heading: "Block walls and black widows",
+        body: "The block walls that surround most Mesa properties are functional and attractive, and they are also prime black widow habitat. The hollow gaps, the weep holes, and the bases of the walls give black widows the dry, undisturbed shelter they prefer. Combined with utility boxes, garages, and outdoor storage, this means black widows are a routine find across Mesa. Regular perimeter treatment and clearing harborage near doors, garages, and play areas keeps the population down. Their bite is medically significant, so this is worth steady attention.",
+      },
+    ],
+    prevention: [
+      "Seal gaps under doors, around plumbing, and at weep holes to reduce scorpion entry.",
+      "Shake out shoes and check bedding in scorpion-active areas, and use a black light to find them at night.",
+      "Clear block wall bases, utility boxes, and outdoor storage of clutter to reduce black widow harborage.",
+      "Reduce outdoor lighting and seal garages to limit the fall cricket surge that feeds scorpions.",
+    ],
+    costNote:
+      "Mesa pest control is commonly quoted as a recurring perimeter plan covering scorpions, spiders, and crickets, with termite protection and roof rat work quoted separately. Monthly or bi-monthly service is standard given the scorpion pressure. Start with a free inspection.",
+    faqs: [
+      {
+        question: "How dangerous are bark scorpions in Mesa?",
+        answer:
+          "The Arizona bark scorpion is the only North American scorpion with medically significant venom, and Mesa sits in high bark scorpion territory. Most stings cause intense pain, but children, the elderly, and immunocompromised individuals can have more serious reactions. Regular perimeter treatment, sealing entry points, and reducing harborage significantly lower the risk of indoor encounters.",
+      },
+      {
+        question: "Why are black widows so common around Mesa homes?",
+        answer:
+          "The block walls surrounding most Mesa properties provide ideal black widow habitat: dry, undisturbed gaps, weep holes, and sheltered bases. Combined with utility boxes, garages, and outdoor storage, this makes black widows a routine find. Their bite is medically significant, so regular treatment and clearing harborage near doors and play areas matters.",
+      },
+      {
+        question: "When do termites swarm in Mesa?",
+        answer:
+          "Desert subterranean termites swarm during and after the summer monsoon rains, when warm humid conditions trigger the emergence of winged reproductives. The irrigated landscapes and slab-on-grade construction common in Mesa create favorable conditions. A swarm around lights or windows after a monsoon storm warrants a professional inspection.",
+      },
+      {
+        question: "Are roof rats a problem in Mesa?",
+        answer:
+          "Yes, increasingly. Roof rats have spread across the Phoenix metro including Mesa over the past two decades, nesting in citrus trees, palms, and attics. Established neighborhoods with mature fruit trees and landscaping support growing populations. Trimming trees back from rooflines and sealing attic vents are the first preventive steps.",
+      },
+      {
+        question: "Why do crickets swarm my Mesa home in fall?",
+        answer:
+          "Field crickets surge in large numbers across the East Valley in late summer and fall, gathering around exterior lights and entering homes and garages. Beyond the nuisance, they are a food source that attracts scorpions and spiders, so controlling crickets also reduces the predators that follow them. Reducing outdoor lighting and sealing entry points helps.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Phoenix", slug: "phoenix" },
+      { name: "Tempe", slug: "tempe" },
+      { name: "Chandler", slug: "chandler" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Mesa, AZ | Bark Scorpions, Black Widows & Termites",
+    metaDescription:
+      "Mesa pest control for Arizona bark scorpions, black widows, subterranean termites, roof rats and crickets. East Valley desert specialists. Free inspection. Call 1-800-PEST-USA.",
   },
 ];

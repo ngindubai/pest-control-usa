@@ -110,4 +110,110 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "NYC pest control for bed bugs, Norway rats, German roaches, mice and ants in apartments and buildings. Coordinated treatment, free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "buffalo",
+    name: "Buffalo",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T1",
+    population: "~275,000",
+    county: "Erie County",
+    climate: "cold-humid",
+    climateDriver:
+      "Buffalo sits at the eastern end of Lake Erie, known for heavy lake-effect snow and long, cold winters. The harsh winters suppress outdoor pests for months, but they drive mice and other pests firmly indoors each fall, and the city's older housing stock and the warm humid summers shape the rest of the pest year.",
+    topPests: ["Mice", "Cockroaches", "Carpenter Ants", "Wasps", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge in October and November",
+        note: "Buffalo's cold, snowy winters drive mice firmly indoors each fall. The city's older housing stock, much of it early 20th-century wood-frame and brick, has abundant entry points around foundations and utilities.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor species in Buffalo's apartment buildings and the older multi-family housing. They are unaffected by the cold and spread through shared plumbing and wall voids.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are common in Buffalo's older wood-frame homes and the mature tree canopy of neighborhoods like Elmwood Village and North Buffalo. They nest in moisture-damaged wood and can cause structural damage over time.",
+      },
+      {
+        name: "Yellow jacket and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note: "Yellow jackets nest in the ground and wall voids and become aggressive in late summer as colonies peak. The warm humid summers along Lake Erie support strong colonies.",
+      },
+      {
+        name: "Boxelder bugs and cluster flies",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation, overwintering on and in homes",
+        note: "Boxelder bugs and cluster flies gather on warm, sun-facing walls in fall and work their way indoors to overwinter. They are harmless nuisances, common across Buffalo's older neighborhoods with mature trees.",
+      },
+    ],
+    localHook:
+      "Buffalo's lake-effect winters are legendary, and they keep the outdoor pest season short. The trade-off is a reliable fall rush of mice indoors when the cold and snow arrive, plus the overwintering insects that pile onto sun-facing walls looking for a way inside before the freeze.",
+    intro:
+      "Pest control in Buffalo follows the lake-effect seasons. The long, cold, snowy winters off Lake Erie suppress outdoor pests for months, but they drive mice firmly into heated buildings each fall, and they push overwintering insects like boxelder bugs and cluster flies onto sun-facing walls looking for a way in. German cockroaches run year-round indoors regardless of the cold, carpenter ants work the older wood-frame homes, and wasps peak in the warm humid late summer. The pest calendar here is clearly seasonal.",
+    sections: [
+      {
+        heading: "TL;DR for Buffalo homeowners",
+        body: "Seal the house against mice before fall, because Buffalo winters push them indoors fast and in numbers. Expect boxelder bugs and cluster flies on sun-facing walls in fall, looking for a way inside to overwinter. German cockroaches run year-round indoors and are not affected by the cold. Watch for carpenter ants in older wood-frame homes with moisture issues. Treat wasps early in summer before the late-season peak. The harsh winters keep the outdoor season short, so timing the work matters more than constant treatment.",
+      },
+      {
+        heading: "The fall rush: mice and overwintering insects",
+        body: "Buffalo's defining pest event is the fall rush indoors. As the lake-effect cold and snow arrive, house mice move into heated buildings fast through gaps around foundations, pipes, and utilities, and the city's older housing offers plenty of entry points. At the same time, overwintering insects, boxelder bugs and cluster flies in particular, aggregate on warm, sun-facing exterior walls and search for cracks that lead inside. The single most effective response to both is the same: seal the building envelope before fall. Exclusion work in September addresses the mice and the overwintering insects together.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, pipe gaps, and utility penetrations in September before the fall mouse surge.",
+      "Seal gaps around windows, eaves, and siding before fall to reduce boxelder bug and cluster fly entry.",
+      "Inspect wood around windows and roof lines for moisture damage that attracts carpenter ants.",
+      "Treat yellow jacket ground nests in spring when colonies are small and easier to manage.",
+    ],
+    costNote:
+      "Buffalo pest control commonly uses a seasonal approach: fall rodent and overwintering-insect exclusion, summer wasp service, and carpenter ant treatment as needed. A free inspection sets the schedule to your home.",
+    faqs: [
+      {
+        question: "When do mice get into Buffalo homes?",
+        answer:
+          "The surge arrives in October and November as the lake-effect cold and snow set in, driving mice into heated buildings fast through gaps around foundations, pipes, and utilities. Buffalo's older housing has abundant entry points. Sealing them in September, before the cold, is far more effective than trapping after mice are established.",
+      },
+      {
+        question: "Do cockroaches survive Buffalo winters?",
+        answer:
+          "Yes. German cockroaches live entirely indoors in heated spaces and are not affected by the cold. They maintain populations year-round in kitchens, bathrooms, and wall voids, spreading through shared plumbing in multi-family buildings. The harsh winter has no impact on indoor cockroach colonies.",
+      },
+      {
+        question: "What are the bugs piling up on my Buffalo house in fall?",
+        answer:
+          "Most likely boxelder bugs and cluster flies. They aggregate on warm, sun-facing walls in fall and search for cracks that lead inside to overwinter. They are harmless and do not damage the home, but they can enter in large numbers. Sealing gaps around windows, eaves, and siding before fall reduces how many get in.",
+      },
+      {
+        question: "Are carpenter ants a problem in Buffalo?",
+        answer:
+          "Yes. Carpenter ants are common in Buffalo's older wood-frame homes and mature tree-canopy neighborhoods. They nest in moisture-damaged wood around leaky windows, door frames, and roof lines. They excavate galleries rather than eating wood, but an established colony can cause structural damage over several years. Seeing large black ants indoors in spring suggests a nearby colony.",
+      },
+      {
+        question: "Is year-round pest control necessary in Buffalo?",
+        answer:
+          "Many Buffalo homes do well with a seasonal plan given the harsh winters: fall rodent and overwintering-insect exclusion, summer wasp service, and carpenter ant treatment as needed. Homes with cockroach pressure or recurring rodent activity may benefit from a continuous plan. A free inspection sets the right schedule.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Niagara Falls", slug: "niagara-falls" },
+      { name: "Cheektowaga", slug: "cheektowaga" },
+      { name: "Amherst", slug: "amherst" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Buffalo, NY | Mice, Cockroaches & Carpenter Ants",
+    metaDescription:
+      "Buffalo pest control for fall mice, German cockroaches, carpenter ants, wasps, boxelder bugs and cluster flies. Lake-effect seasonal specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

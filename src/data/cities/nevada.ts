@@ -110,4 +110,116 @@ export const nevadaCities: CityLocation[] = [
     metaDescription:
       "Las Vegas pest control for bark scorpions, desert roaches, crickets, black widows and roof rats. Sealing plus treatment, free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "henderson",
+    name: "Henderson",
+    state: "Nevada",
+    stateSlug: "nevada",
+    stateAbbr: "NV",
+    tier: "T1",
+    population: "~320,000",
+    county: "Clark County",
+    climate: "desert",
+    climateDriver:
+      "Henderson sits in the Mojave Desert just southeast of Las Vegas, sharing the same hot, dry desert climate: extreme summer heat, mild winters, and very low humidity. The heat drives desert pests toward irrigated yards and cool homes, and the master-planned communities with their landscaping and block walls shape where pests concentrate.",
+    topPests: [
+      "Scorpions",
+      "Black Widows",
+      "Crickets",
+      "Roof Rats",
+      "Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Bark scorpions and desert hairy scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Active spring through fall, seek shelter indoors in extreme heat",
+        note: "Henderson shares the Las Vegas valley scorpion pressure. The Arizona bark scorpion, present in the region, has medically significant venom. Scorpions enter homes through gaps seeking moisture and cooler temperatures during the extreme summer heat.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active spring through fall",
+        note: "Black widows are very common in Henderson, favoring the block walls, utility boxes, garages, and landscaping features of the master-planned communities. The female's bite is medically significant.",
+      },
+      {
+        name: "Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Surge in late summer and fall",
+        note: "Field crickets surge in large numbers across the Las Vegas valley in late summer and fall, gathering around lights and entering homes and garages. They are a nuisance and a food source that draws scorpions and spiders.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats have spread across the Las Vegas valley including Henderson over the past two decades, nesting in palms, landscaping, and attics. The irrigated master-planned communities with mature landscaping support growing populations.",
+      },
+      {
+        name: "Ants (including pavement and Argentine ants)",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active in warm months",
+        note: "Ants follow irrigation moisture into Henderson homes during the dry heat. Pavement ants nest under walks and foundations, and Argentine ants appear in the irrigated landscaping.",
+      },
+    ],
+    localHook:
+      "Henderson sits in the same Mojave Desert valley as Las Vegas, so it shares the scorpion pressure, but the city's master-planned communities add their own twist. The block walls and irrigated landscaping that make these neighborhoods attractive are also prime habitat for black widows and a draw for scorpions.",
+    intro:
+      "Pest control in Henderson is desert pest control with a master-planned community character. Sharing the Mojave climate with neighboring Las Vegas, Henderson faces the same scorpion pressure, including the medically significant bark scorpion, set against the everyday nuisance pests. The contrast that defines the city is between the harsh desert exterior and the irrigated, landscaped neighborhoods: that boundary is exactly where black widows shelter, scorpions seek moisture, and roof rats find food. Understanding that edge is the key to managing a Henderson home.",
+    sections: [
+      {
+        heading: "Desert exterior versus irrigated yard: where pests concentrate",
+        body: "Henderson's pest pressure concentrates at a specific boundary. Outside the developed areas, the Mojave Desert is harsh and dry. Inside the master-planned communities, irrigation keeps yards green and block walls provide shelter. Pests follow that gradient. Scorpions and black widows shelter in the block walls and landscaping, while ants and roof rats are drawn to the irrigation moisture and the food the landscaped environment provides. By contrast with a humid city where pests are spread more evenly, Henderson's pests cluster where the desert meets the irrigated neighborhood, which is where treatment focuses.",
+      },
+      {
+        heading: "Scorpions versus the crickets that feed them",
+        body: "Scorpion control in Henderson is partly about the scorpions themselves and partly about their food supply. The bark scorpion, with its medically significant venom, is the priority, and it enters homes through gaps seeking moisture during the extreme summer heat. But scorpions follow their prey, and the field crickets that surge across the valley each fall are a major food source. Reducing crickets through exterior lighting changes and treatment reduces what draws scorpions in. Effective control addresses both the scorpions directly and the prey that sustains them, an approach that differs from simply spraying for one pest.",
+      },
+    ],
+    prevention: [
+      "Seal gaps under doors, around plumbing, and at block wall weep holes to reduce scorpion entry.",
+      "Clear block walls, utility boxes, and landscaping of clutter to reduce black widow and scorpion harborage.",
+      "Reduce outdoor lighting and seal garages to limit the fall cricket surge that feeds scorpions.",
+      "Trim palms and landscaping back from the roofline to reduce roof rat access.",
+    ],
+    costNote:
+      "Henderson pest control is commonly quoted as a recurring perimeter plan covering scorpions, spiders, crickets, and ants, with roof rat work quoted separately. Monthly or bi-monthly service is standard given the scorpion pressure. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Are scorpions as bad in Henderson as in Las Vegas?",
+        answer:
+          "Henderson shares the same Mojave Desert valley and the same scorpion pressure as neighboring Las Vegas, including the Arizona bark scorpion, which has medically significant venom. The master-planned communities with their block walls and irrigated landscaping provide ample harborage. Regular perimeter treatment and sealing entry points are the practical defenses.",
+      },
+      {
+        question: "Why are black widows so common in Henderson's communities?",
+        answer:
+          "The block walls and landscaping features that define Henderson's master-planned communities provide ideal black widow habitat: dry, undisturbed, sheltered spots in wall gaps, weep holes, utility boxes, and garages. Their bite is medically significant, so regular treatment and clearing harborage near doors and play areas matters.",
+      },
+      {
+        question: "How does controlling crickets help with scorpions?",
+        answer:
+          "Scorpions follow their food. The field crickets that surge across the Las Vegas valley each fall are a major food source for scorpions. Reducing crickets through exterior lighting changes and treatment reduces what draws scorpions toward and into homes. Effective scorpion control addresses both the scorpions and the prey that sustains them.",
+      },
+      {
+        question: "Are roof rats a problem in Henderson?",
+        answer:
+          "Yes, increasingly. Roof rats have spread across the Las Vegas valley including Henderson over the past two decades, nesting in palms, landscaping, and attics. The irrigated master-planned communities with mature landscaping support growing populations. Trimming landscaping back from rooflines and sealing attic vents are the first preventive steps.",
+      },
+      {
+        question: "Is monthly pest control necessary in Henderson?",
+        answer:
+          "For most Henderson homes, yes. The bark scorpion pressure and the year-round mild desert climate mean pest pressure does not pause seasonally. Monthly or bi-monthly perimeter treatment maintains a barrier against scorpions, spiders, and crickets year-round, which most pest control providers consider the standard of care in the valley.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Las Vegas", slug: "las-vegas" },
+      { name: "North Las Vegas", slug: "north-las-vegas" },
+      { name: "Boulder City", slug: "boulder-city" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Henderson, NV | Scorpions, Black Widows & Crickets",
+    metaDescription:
+      "Henderson pest control for bark scorpions, black widows, crickets, roof rats and ants. Mojave Desert and master-planned community specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

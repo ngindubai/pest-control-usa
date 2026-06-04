@@ -574,7 +574,7 @@ export const californiaCities: CityLocation[] = [
       },
       {
         name: "Yellow jacket wasps",
-        serviceSlug: "wasp-hornet-control",
+        serviceSlug: "wasp-bee-removal",
         activeSeason: "June through October, most aggressive August through September",
         note: "Yellow jackets peak in late summer as their colonies reach maximum size and natural food sources decline. They nest in the ground, wall voids, and under eaves and are a significant outdoor sting risk in late summer.",
       },
@@ -851,5 +851,323 @@ export const californiaCities: CityLocation[] = [
     metaTitle: "Pest Control in Oakland, CA | Rats, Argentine Ants & Termites",
     metaDescription:
       "Oakland pest control for port and Hills rats, Argentine ant supercolony, drywood and subterranean termites, cockroaches and year-round fleas. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bakersfield",
+    name: "Bakersfield",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T1",
+    population: "~410,000",
+    county: "Kern County",
+    climate: "hot-arid",
+    climateDriver:
+      "Bakersfield sits at the southern end of the San Joaquin Valley in a hot, dry climate with summer temperatures regularly above 100 degrees Fahrenheit and mild winters. The intense heat and the surrounding agriculture drive pests toward irrigated yards and air-conditioned homes, while the dry conditions favor black widows and rodents.",
+    topPests: ["Black Widows", "Ants", "Cockroaches", "Roof Rats", "Termites"],
+    pestProfile: [
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active spring through fall",
+        note: "Black widows are very common in Bakersfield's hot dry climate, favoring block walls, utility boxes, garages, wood piles, and irrigation boxes. The female's bite is medically significant.",
+      },
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active in summer heat",
+        note: "Bakersfield is part of the vast Central Valley Argentine ant supercolony. The extreme summer heat pushes ant columns toward irrigated yards and cool homes. Repellent sprays just redirect the trail; slow-acting bait is needed.",
+      },
+      {
+        name: "German and American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge in summer heat",
+        note: "Cockroaches are driven indoors by the intense summer heat seeking moisture and air conditioning. German cockroaches establish in kitchens and apartments; American cockroaches are common around drainage and in crawl spaces.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are active year-round in Bakersfield's mild climate, nesting in palms, citrus, and attics. The surrounding Kern County agriculture and orchards adjacent to residential areas add pressure beyond purely urban cities.",
+      },
+      {
+        name: "Subterranean and drywood termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Subterranean active spring through fall, drywood swarm late summer",
+        note: "Both termite types are present in Bakersfield. Subterranean termites are sustained by irrigation moisture in the dry climate, and drywood termites infest the wood-frame construction common across the Valley.",
+      },
+    ],
+    localHook:
+      "Bakersfield's heat is the headline: weeks of 100-plus degree summers that drive every moisture-seeking pest toward irrigated yards and air-conditioned homes. And the dry climate suits western black widows, which turn up in block walls, irrigation boxes, and garages across the city.",
+    intro:
+      "Pest control in Bakersfield follows the Valley heat. The southern San Joaquin Valley delivers long, intense summers that push Argentine ants, cockroaches, and rodents toward the cooler, irrigated environments around homes. Western black widows are a constant in the dry climate, favoring the block walls and irrigation boxes common across Bakersfield. Argentine ants are part of the vast Central Valley supercolony, roof rats work the citrus and palm landscaping, and both subterranean and drywood termites are present.",
+    sections: [
+      {
+        heading: "Black widows in a hot dry city",
+        body: "Bakersfield's dry climate is exactly what western black widows prefer. They favor dry, undisturbed, sheltered spots: block wall gaps and weep holes, utility and irrigation boxes, garages, wood piles, and outdoor storage. All of these are common across Bakersfield properties, which makes black widows a routine find rather than a rare event. Their bite is medically significant, so the practical response is regular perimeter treatment, clearing harborage near doors and play areas, and wearing gloves when reaching into dark enclosed spaces like irrigation boxes.",
+      },
+      {
+        heading: "Heat, irrigation, and the ant problem",
+        body: "When Bakersfield summers climb past 100 degrees, the surrounding landscape dries out and the irrigated yards around homes become moisture magnets. Argentine ants, part of the Central Valley supercolony, follow that moisture gradient straight toward and into homes. Because the colony is enormous, surface sprays only redirect the trail. Slow-acting bait that workers carry back to reduce the colony, combined with perimeter treatment at entry points, is the approach that produces lasting results.",
+      },
+    ],
+    prevention: [
+      "Clear block wall bases, irrigation boxes, and garage clutter to reduce black widow harborage.",
+      "Use slow-acting ant bait rather than repellent sprays to address the Argentine ant supercolony.",
+      "Fix leaks and reduce indoor moisture to lessen the summer cockroach surge.",
+      "Trim palms and citrus back from the roofline to reduce roof rat access.",
+    ],
+    costNote:
+      "Bakersfield pest control is commonly quoted as a recurring exterior plan for ants, spiders, and roaches, with termite protection and roof rat work quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Are black widows common in Bakersfield?",
+        answer:
+          "Yes. The hot, dry climate suits western black widows, which favor block walls, utility and irrigation boxes, garages, and wood piles, all common across Bakersfield. Their bite is medically significant. Regular perimeter treatment, clearing harborage, and wearing gloves when reaching into enclosed spaces reduce the risk of contact.",
+      },
+      {
+        question: "Why do Argentine ants keep coming back in Bakersfield?",
+        answer:
+          "Bakersfield is part of the vast Central Valley Argentine ant supercolony. Repellent sprays just redirect the trail without reducing the colony. Slow-acting bait that workers carry back to the source, combined with perimeter treatment, is the effective approach. It is a continuous management program, not a one-time fix.",
+      },
+      {
+        question: "Does the extreme heat make pest pressure worse?",
+        answer:
+          "Yes. The intense summer heat dries out the surrounding landscape and drives moisture-seeking pests, particularly ants, cockroaches, and rodents, toward the cooler irrigated areas around homes and into air-conditioned interiors. Pest pressure in and around the home rises during heat peaks.",
+      },
+      {
+        question: "What termite types are in Bakersfield?",
+        answer:
+          "Both subterranean and drywood. Subterranean termites come from soil through mud tubes and are sustained by irrigation moisture in the dry climate. Drywood termites live inside dry wood and push out small sand-like pellets as evidence. They require different treatments, so an inspection identifies the type first.",
+      },
+      {
+        question: "Are roof rats a problem in Bakersfield?",
+        answer:
+          "Yes. The mild climate supports year-round roof rat activity, and they nest in palms, citrus trees, and attics. The surrounding Kern County agriculture and orchards adjacent to residential areas add pressure. Trimming trees back from rooflines and sealing attic vents are the first preventive steps.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Fresno", slug: "fresno" },
+      { name: "Delano", slug: "delano" },
+      { name: "Visalia", slug: "visalia" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Bakersfield, CA | Black Widows, Ants & Termites",
+    metaDescription:
+      "Bakersfield pest control for western black widows, Argentine ants, cockroaches, roof rats and termites. San Joaquin Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "anaheim",
+    name: "Anaheim",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T1",
+    population: "~345,000",
+    county: "Orange County",
+    climate: "mediterranean",
+    climateDriver:
+      "Anaheim has a mild coastal Mediterranean climate in the heart of Orange County: warm dry summers, mild winters, and very little seasonal variation. The mild climate means pests stay active year-round, with drywood termites and Argentine ants the standout concerns of inland Southern California.",
+    topPests: ["Argentine Ants", "Termites", "Rats", "Cockroaches", "Spiders"],
+    pestProfile: [
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Anaheim is part of the Southern California Argentine ant supercolony. The mild climate means there is no winter reduction in ant activity, and columns follow moisture indoors year-round.",
+      },
+      {
+        name: "Drywood and subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Drywood swarm late summer, subterranean active spring through fall",
+        note: "Drywood termites are particularly prevalent in coastal Southern California, including Anaheim's older neighborhoods and the wood-frame construction common across Orange County. They infest wood directly without soil contact, which is why tenting is a familiar sight here.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are common across Anaheim, nesting in attics, palms, and the fruit trees common in established Orange County neighborhoods, and traveling along fences and power lines.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor species in Anaheim's apartments and the commercial corridors around the city's large tourism and hospitality industry.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more active in warm months",
+        note: "Black widows are common in block walls, garages, meter boxes, and outdoor storage across Anaheim. Their bite is medically significant.",
+      },
+    ],
+    localHook:
+      "Anaheim sits in coastal Orange County, where the mild climate means pests never get a winter break. Drywood termites are the standout: they infest wood directly, high in attics and eaves, which is why the tenting you see around Orange County neighborhoods is still a common sight.",
+    intro:
+      "Pest control in Anaheim reflects mild coastal Orange County. With warm dry summers and mild winters, pests stay active all twelve months. Argentine ants, part of the Southern California supercolony, are the everyday nuisance. Drywood termites are the standout structural concern, prevalent in the coastal climate and infesting wood directly without soil contact. Roof rats work the attics and fruit trees, German cockroaches run the apartments and hospitality corridors, and black widows favor the block walls common across the city.",
+    sections: [
+      {
+        heading: "Why are drywood termites such a concern in Anaheim?",
+        body: "Drywood termites are particularly prevalent in coastal Southern California, and Anaheim's older neighborhoods and wood-frame construction give them ideal conditions. Unlike subterranean termites, they do not need soil contact: they live entirely inside the wood, often high in attics, eaves, and roof timbers, and they can infest furniture too. Their evidence is small sand-like pellets pushed out of tiny holes. A widespread drywood infestation may require fumigation, which is the tenting familiar across Orange County. An inspection confirms the type and extent before any treatment.",
+      },
+      {
+        heading: "Do I really need year-round pest control here?",
+        body: "For ants and most other pests, generally yes. Anaheim's mild coastal climate never gets cold enough to reduce Argentine ant, roof rat, cockroach, or black widow activity. There is no winter reset. Argentine ants in particular, as part of a vast supercolony, require ongoing management rather than one-time treatment because surface sprays only redirect the trail. Many Anaheim homes use a recurring exterior plan to keep pressure down, with termite inspection on a separate annual schedule.",
+      },
+    ],
+    prevention: [
+      "Inspect attic and eave woodwork annually for drywood termite pellets before the late-summer swarm season.",
+      "Use slow-acting ant bait rather than repellent sprays to address the Argentine ant supercolony.",
+      "Trim palms and fruit trees back from the roofline to reduce roof rat access.",
+      "Clear block walls, garages, and meter boxes of clutter to reduce black widow harborage.",
+    ],
+    costNote:
+      "Anaheim pest control is commonly quoted as a recurring exterior plan for ants, roaches, and spiders, with termite inspection and treatment quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Do I need termite tenting in Anaheim?",
+        answer:
+          "Sometimes. Drywood termites, common in coastal Southern California including Anaheim, live inside wood, and a widespread infestation may require fumigation, which is the tenting you see around Orange County. Localized infestations can sometimes be spot-treated. An inspection confirms the type and extent first, since the wrong treatment leaves the colony in place.",
+      },
+      {
+        question: "Why do Argentine ants keep coming back in Anaheim?",
+        answer:
+          "Anaheim is part of the Southern California Argentine ant supercolony, a single interconnected colony spanning much of the region. Surface sprays just redirect the trail. Slow-acting bait that workers carry back to the colony, combined with perimeter treatment, is the effective approach. The mild climate means they stay active year-round.",
+      },
+      {
+        question: "Are black widows common in Anaheim?",
+        answer:
+          "Yes. Black widows favor block walls, garages, meter boxes, and outdoor storage, all common across Anaheim. Their bite is medically significant, so clearing harborage near doors, garages, and play areas, and regular perimeter treatment, are worthwhile.",
+      },
+      {
+        question: "Why are there roof rats in nice Anaheim neighborhoods?",
+        answer:
+          "Roof rats thrive in established neighborhoods with mature landscaping, nesting in attics, palms, and fruit trees rather than just alleys. Fruit trees and pet food make it easier for them. Trimming foliage back from the roofline and sealing attic vents cuts their access.",
+      },
+      {
+        question: "Is pest control needed year-round in Anaheim?",
+        answer:
+          "For ants and most pests, generally yes, because the mild coastal winters never fully stop them. Many homes use a recurring exterior plan to keep numbers down, with a separate annual termite inspection given the drywood termite pressure in the area.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Santa Ana", slug: "santa-ana" },
+      { name: "Long Beach", slug: "long-beach" },
+      { name: "Irvine", slug: "irvine" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Anaheim, CA | Drywood Termites, Ants & Roof Rats",
+    metaDescription:
+      "Anaheim pest control for drywood and subterranean termites, Argentine ants, roof rats, cockroaches and black widows. Orange County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "riverside",
+    name: "Riverside",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T1",
+    population: "~315,000",
+    county: "Riverside County",
+    climate: "mediterranean",
+    climateDriver:
+      "Riverside sits inland in the Inland Empire, hotter and drier than the coast with warm Mediterranean conditions, hot summers, and mild winters. The inland heat, the surrounding citrus heritage and agriculture, and the dry climate shape a pest year dominated by ants, termites, rodents, and black widows.",
+    topPests: ["Argentine Ants", "Termites", "Roof Rats", "Black Widows", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active in summer heat",
+        note: "Riverside is part of the Southern California Argentine ant supercolony. The hotter inland summers drive ant columns toward irrigated yards and cool interiors, and the colony scale makes store-bought products ineffective.",
+      },
+      {
+        name: "Drywood and subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Drywood swarm late summer, subterranean active spring through fall",
+        note: "Both termite types are present in Riverside. Drywood termites infest the wood-frame construction of the older neighborhoods directly, and subterranean termites are sustained by irrigation moisture in the dry inland climate.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Riverside's citrus heritage and the mature fruit trees across the city give roof rats abundant food and harborage. They nest in trees, palms, and attics and travel along fences and power lines.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active spring through fall",
+        note: "Black widows are common in Riverside's dry inland climate, favoring block walls, garages, utility boxes, and outdoor storage. The female's bite is medically significant.",
+      },
+      {
+        name: "German and American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches establish in apartments and commercial kitchens, while American cockroaches are common around drainage and in the irrigated landscaping during the hot dry summers.",
+      },
+    ],
+    localHook:
+      "Riverside is citrus country, and that heritage shows up in the pest list: the fruit trees that line so many neighborhoods give roof rats abundant food and shelter. Combine that with the inland heat driving Argentine ants indoors and you get a busy, year-round pest environment.",
+    intro:
+      "Pest control in Riverside reflects the hot, dry Inland Empire. Hotter than the coast and shaped by the city's citrus heritage, Riverside has a pest year dominated by Argentine ants pushing indoors in the heat, roof rats thriving in the fruit trees, and both drywood and subterranean termites. Black widows favor the block walls and dry storage common across the city, and cockroaches run year-round in the mild climate. There is no winter reset here, so management is a continuous task.",
+    sections: [
+      {
+        heading: "TL;DR for Riverside homeowners",
+        body: "Use slow-acting bait for Argentine ants, not sprays, because Riverside sits in a supercolony. Keep fruit trees and palms trimmed back from the roof to deny roof rats their highway in this citrus-heavy city. Get an annual termite inspection, since both drywood and subterranean termites are present. Watch for black widows in block walls, garages, and utility boxes. The dry inland heat keeps pests active year-round, so a recurring plan beats reacting to each invasion.",
+      },
+      {
+        heading: "Citrus, fruit trees, and the roof rat problem",
+        body: "Riverside's citrus heritage is part of its identity, and the mature fruit trees across the city are a roof rat magnet. Roof rats are excellent climbers that nest in trees, palms, and attics, and a yard with citrus or other fruit gives them a reliable food source right next to the house. They travel along branches, fences, and power lines to reach rooflines. The most effective prevention is keeping tree branches trimmed at least several feet back from the roof, picking up fallen fruit, and sealing attic and roofline vents before they get established indoors.",
+      },
+    ],
+    prevention: [
+      "Use slow-acting ant bait rather than repellent sprays to address the Argentine ant supercolony.",
+      "Trim fruit trees and palms back from the roofline and pick up fallen fruit to reduce roof rats.",
+      "Schedule an annual termite inspection given both drywood and subterranean termite pressure.",
+      "Clear block walls, garages, and utility boxes of clutter to reduce black widow harborage.",
+    ],
+    costNote:
+      "Riverside pest control is commonly quoted as a recurring exterior plan for ants, roaches, and spiders, with termite inspection and roof rat work quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why are roof rats such a problem in Riverside?",
+        answer:
+          "Riverside's citrus heritage and the mature fruit trees across the city give roof rats abundant food and harborage. They nest in trees, palms, and attics, and travel along branches, fences, and power lines to reach rooflines. Trimming trees back from the roof, picking up fallen fruit, and sealing attic vents are the most effective preventive steps.",
+      },
+      {
+        question: "What termite types are present in Riverside?",
+        answer:
+          "Both drywood and subterranean. Drywood termites infest wood directly, common in the older wood-frame neighborhoods, and push out small sand-like pellets. Subterranean termites come from soil and are sustained by irrigation moisture in the dry climate. They require different treatments, so an inspection identifies the type first.",
+      },
+      {
+        question: "Why do Argentine ants keep coming back in Riverside?",
+        answer:
+          "Riverside is part of the Southern California Argentine ant supercolony. Surface sprays just redirect the trail. Slow-acting bait that workers carry back to the colony, combined with perimeter treatment, is the effective approach. The hotter inland summers drive them indoors seeking moisture, making management a year-round task.",
+      },
+      {
+        question: "Are black widows common in Riverside?",
+        answer:
+          "Yes. The dry inland climate suits western black widows, which favor block walls, garages, utility boxes, and outdoor storage. Their bite is medically significant. Clearing harborage near doors and play areas, regular perimeter treatment, and wearing gloves when reaching into dark enclosed spaces reduce the risk.",
+      },
+      {
+        question: "Is year-round pest control necessary in Riverside?",
+        answer:
+          "For most homes, yes. The hot, dry inland climate keeps Argentine ants, roof rats, cockroaches, and black widows active year-round with no winter reset. A recurring exterior plan holds pressure down better than reacting to each invasion, with a separate annual termite inspection.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "San Bernardino", slug: "san-bernardino" },
+      { name: "Moreno Valley", slug: "moreno-valley" },
+      { name: "Ontario", slug: "ontario" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Riverside, CA | Ants, Roof Rats & Termites",
+    metaDescription:
+      "Riverside pest control for Argentine ants, roof rats in citrus, drywood and subterranean termites, black widows and cockroaches. Inland Empire specialists. Free inspection. Call 1-800-PEST-USA.",
   },
 ];

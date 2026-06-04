@@ -28,6 +28,10 @@ import { missouriCities } from "./missouri";
 import { virginiaCities } from "./virginia";
 import { nebraskaCities } from "./nebraska";
 import { kansasCities } from "./kansas";
+import { michiganCities } from "./michigan";
+import { hawaiiCities } from "./hawaii";
+import { newJerseyCities } from "./new-jersey";
+import { idahoCities } from "./idaho";
 
 // The authoritative city corpus. The Librarian adds one state file per batch and
 // registers it here. Pages are built incrementally, never all towns at once.
@@ -62,6 +66,10 @@ export const cities: CityLocation[] = [
   ...virginiaCities,
   ...nebraskaCities,
   ...kansasCities,
+  ...michiganCities,
+  ...hawaiiCities,
+  ...newJerseyCities,
+  ...idahoCities,
 ];
 
 export function getCityBySlug(

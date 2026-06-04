@@ -222,4 +222,110 @@ export const northCarolinaCities: CityLocation[] = [
     metaDescription:
       "Raleigh pest control for subterranean termites, retention pond mosquitoes, fire ants, stink bugs and cockroaches. Wake County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "greensboro",
+    name: "Greensboro",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T1",
+    population: "~300,000",
+    county: "Guilford County",
+    climate: "hot-humid",
+    climateDriver:
+      "Greensboro sits in the Piedmont Triad of north-central North Carolina, with a humid subtropical climate: hot humid summers, mild winters, and the mature hardwood forests and rolling terrain that define the region. The humidity sustains termites and mosquitoes, and the wooded setting brings carpenter ants and fall stink bug invasions.",
+    topPests: ["Termites", "Mosquitoes", "Fire Ants", "Carpenter Ants", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "NC State Extension confirms the Piedmont has significant subterranean termite pressure. North Carolina sits in the heavy termite hazard zone on the USDA map, and Greensboro's mix of older and wooded-lot housing creates real exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Greensboro's lakes (including the city watershed lakes), creeks, and the wooded, shaded yards common across the city create mosquito breeding and resting habitat. The Asian tiger mosquito, a daytime biter, is established in the Piedmont. West Nile virus has been recorded in the region.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Fire ants have expanded into the Piedmont and are established across the Greensboro area, rebuilding mounds quickly after rain. They are a sting hazard in yards and open areas.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The mature hardwood forests around Greensboro give carpenter ants ample habitat. They nest in moisture-damaged wood and the dead limbs of the large trees common in the city's wooded neighborhoods.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion (Sept to Nov), overwintering indoors",
+        note: "The North Carolina Piedmont has significant stink bug pressure. Greensboro homes near wooded areas see notable fall invasions as the insects seek overwintering sites.",
+      },
+    ],
+    localHook:
+      "Greensboro is a city in the woods: mature hardwood forest threads through neighborhood after neighborhood, and those trees shape the pest list. The shaded, wooded yards hold mosquitoes through the day, the hardwoods feed carpenter ants, and the wooded edges drive heavy stink bug invasions each fall.",
+    intro:
+      "Pest control in Greensboro is shaped by the trees. Set in the wooded Piedmont Triad, the city's mature hardwood forest runs through its neighborhoods, and that setting drives much of the pest picture. The humid climate gives subterranean termites significant pressure that NC State Extension documents across the Piedmont. The shaded yards hold mosquitoes, including the daytime-biting Asian tiger mosquito, the hardwoods feed carpenter ants, and the wooded edges bring heavy stink bug invasions each fall. Fire ants round out the warm-season pressure.",
+    sections: [
+      {
+        heading: "Step one: handle the year-round termite risk",
+        body: "Greensboro's most important scheduled pest action is the annual termite inspection. NC State Extension confirms the Piedmont has significant subterranean termite pressure, and North Carolina sits in the heavy termite hazard zone. The humid climate keeps colonies active across the warm season, and homes on wooded lots, with wood near soil or moisture issues, are particularly exposed. A spring swarm of winged termites indoors is the most common first sign. Catching a colony early through annual inspection is far cheaper than repairing established damage.",
+      },
+      {
+        heading: "Step two: manage the wooded-yard mosquito and stink bug pressure",
+        body: "Greensboro's mature tree canopy is part of its appeal and part of its pest challenge. The shaded, wooded yards give mosquitoes cool resting spots through the day, and the Asian tiger mosquito, a daytime biter, breeds in small water-holding containers and tree hollows. Then in fall, those same wooded edges drive heavy brown marmorated stink bug invasions as the insects search for overwintering sites. The practical sequence is treating mosquito resting areas and eliminating standing water through summer, then sealing entry points before September for stink bugs.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given the Piedmont's significant termite pressure.",
+      "Eliminate standing water and treat shaded resting areas to manage mosquitoes, including the daytime tiger mosquito.",
+      "Seal window and eave gaps before September to reduce the wooded-edge stink bug invasion.",
+      "Check wood around windows, roof lines, and tree limbs near the house for carpenter ant activity.",
+    ],
+    costNote:
+      "Greensboro pest control is commonly quoted as a year-round general plan with seasonal mosquito service, and termite protection quoted separately after inspection. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Is termite risk high in Greensboro?",
+        answer:
+          "Yes. NC State Extension confirms the Piedmont has significant subterranean termite pressure, and North Carolina is in the heavy termite hazard zone. The humid climate keeps colonies active across the warm season. Annual inspections are strongly recommended, particularly for homes on wooded lots or with wood near soil.",
+      },
+      {
+        question: "Why are mosquitoes a daytime problem in Greensboro?",
+        answer:
+          "The Asian tiger mosquito, established in the Piedmont, is an aggressive daytime biter that breeds in small water-holding containers and tree hollows. Greensboro's shaded, wooded yards give it cool resting spots through the day. Eliminating standing water in containers and treating shaded resting areas is the most effective control.",
+      },
+      {
+        question: "When do stink bugs invade Greensboro homes?",
+        answer:
+          "The fall invasion typically begins in September and runs through November. Greensboro homes near wooded areas see the heaviest activity as the insects seek overwintering sites. Sealing gaps around windows, eaves, and utility penetrations before September is the most effective prevention.",
+      },
+      {
+        question: "Are carpenter ants a problem in Greensboro?",
+        answer:
+          "Yes. The mature hardwood forests around Greensboro give carpenter ants ample habitat. They nest in moisture-damaged wood and the dead limbs of large trees, and they can move into homes through wood near the roofline or with moisture damage. Seeing large black ants indoors in spring suggests a nearby colony.",
+      },
+      {
+        question: "Do I need year-round pest control in Greensboro?",
+        answer:
+          "For most homes, a year-round general plan with an annual termite inspection works well. Termites, fire ants, and carpenter ants are year-round or recurring concerns, while mosquitoes and stink bugs are seasonal but significant. A continuous plan with seasonal additions is the standard approach.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Winston-Salem", slug: "winston-salem" },
+      { name: "High Point", slug: "high-point" },
+      { name: "Charlotte", slug: "charlotte" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Greensboro, NC | Termites, Mosquitoes & Carpenter Ants",
+    metaDescription:
+      "Greensboro pest control for subterranean termites, tiger mosquitoes, fire ants, carpenter ants and stink bugs. Piedmont Triad specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -168,7 +168,7 @@ export const pennsylvaniaCities: CityLocation[] = [
     sections: [
       {
         heading: "Stink bugs: Pittsburgh's defining fall pest",
-        body: "Pittsburgh's forested hillside neighborhoods, with houses nestled into mature tree canopy on slopes overlooking the three rivers, are among the most stink bug-active environments in the country. The brown marmorated stink bug entered Pennsylvania in the late 1990s and has spread throughout the state. Each fall, as temperatures drop, they begin aggregating on warm, sun-exposed exterior walls and searching for any gap that leads to a warm interior. They do not damage the structure or bite, but they invade in large numbers and produce a distinct odor when handled. The practical defense is sealing gaps around windows, eaves, utility lines, and vents before September.",
+        body: "Pittsburgh's forested hillside neighborhoods, with houses set into mature tree canopy on slopes overlooking the three rivers, are among the most stink bug-active environments in the country. The brown marmorated stink bug entered Pennsylvania in the late 1990s and has spread throughout the state. Each fall, as temperatures drop, they begin aggregating on warm, sun-exposed exterior walls and searching for any gap that leads to a warm interior. They do not damage the structure or bite, but they invade in large numbers and produce a distinct odor when handled. The practical defense is sealing gaps around windows, eaves, utility lines, and vents before September.",
       },
       {
         heading: "River valleys and termite pressure",

@@ -117,4 +117,116 @@ export const oklahomaCities: CityLocation[] = [
     metaDescription:
       "Oklahoma City pest control for brown recluse spiders, subterranean termites, fire ants, cockroaches and mosquitoes. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "tulsa",
+    name: "Tulsa",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T1",
+    population: "~410,000",
+    county: "Tulsa County",
+    climate: "hot-humid",
+    climateDriver:
+      "Tulsa sits in northeastern Oklahoma along the Arkansas River, in a humid subtropical climate with hot summers, mild winters, and significant spring storm activity. The humidity and the river corridor sustain termites and mosquitoes, while the region's position places it firmly in brown recluse territory.",
+    topPests: [
+      "Brown Recluse Spiders",
+      "Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Tulsa is in the core geographic range of the brown recluse. Oklahoma State University Extension confirms they are common household pests across the state, found in garages, attics, closets, and storage areas. This is a routine find here, not a rare event.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active most of the year",
+        note: "Oklahoma is in a high termite hazard zone on the USDA map, and the humid Arkansas River corridor around Tulsa supports active subterranean colonies that can go undetected for years.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Arkansas River, the area's many lakes and ponds, and the standing water left by Oklahoma's significant storms create mosquito breeding habitat. West Nile virus activity has been recorded in Tulsa County.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Fire ants are established across the Tulsa area and rebuild mounds quickly after rain. They are a sting hazard in yards, parks, and recreational areas.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Mice push into Tulsa homes as temperatures drop in fall. Older neighborhoods and homes near the river and agricultural edges see additional pressure.",
+      },
+    ],
+    localHook:
+      "Tulsa sits squarely in brown recluse country, the same as Oklahoma City to the southwest. Oklahoma State University Extension is unambiguous: these spiders are common household pests across the state, not rare finds. That shapes how pest control works here in a way northern cities never have to consider.",
+    intro:
+      "Pest control in Tulsa is best understood through a few sharp contrasts. The headline is the brown recluse, genuinely common here in a way it simply is not in northern states, versus the everyday nuisance pests. Then there is the year-round termite risk from the humid Arkansas River corridor versus the seasonal mosquito and fire ant pressure that peaks in the warm months. Understanding which threats are constant and which are seasonal is the key to managing a Tulsa home efficiently.",
+    sections: [
+      {
+        heading: "Brown recluse versus everyday spiders: the contrast that matters",
+        body: "Most cities have common house and cellar spiders that are harmless nuisances. Tulsa has those too, but it also sits in the core range of the brown recluse, whose bite can cause serious tissue damage in some cases. The difference matters. Oklahoma State University Extension has documented that brown recluses are common here, often present in numbers in undisturbed storage areas, garages, and attics. By contrast with a harmless cellar spider, the brown recluse warrants real, ongoing management: regular treatment, storage in sealed plastic rather than open cardboard, and care when reaching into undisturbed spaces.",
+      },
+      {
+        heading: "Constant termite risk versus seasonal mosquitoes",
+        body: "Two of Tulsa's main pests operate on opposite schedules. Subterranean termites are a near-constant, year-round risk: the humid Arkansas River corridor keeps colonies active beneath the soil most of the year, and the damage accumulates silently. Mosquitoes, by contrast, are sharply seasonal, peaking from April through October around the river, lakes, and storm water. The practical takeaway is different timing for each: an annual termite inspection on a fixed schedule, versus seasonal mosquito management that ramps up in spring and winds down in fall.",
+      },
+    ],
+    prevention: [
+      "Store items in sealed plastic containers rather than cardboard to reduce brown recluse harborage.",
+      "Schedule an annual termite inspection given the Arkansas River corridor's elevated pressure.",
+      "Remove standing water after storms to reduce the seasonal mosquito population.",
+      "Treat fire ant mounds promptly, especially after the heavy rains common in Oklahoma.",
+    ],
+    costNote:
+      "Tulsa pest control is commonly quoted as a recurring general plan covering spiders, roaches, and rodents, with termite protection quoted separately after inspection and mosquito service added seasonally. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really common in Tulsa?",
+        answer:
+          "Yes. Tulsa is in the core geographic range of the brown recluse, and Oklahoma State University Extension confirms they are common household pests across Oklahoma. Finding them in garages, attics, closets, and storage areas is routine. Regular treatment, storing items in sealed containers, and care in undisturbed spaces reduce contact significantly.",
+      },
+      {
+        question: "How serious is the termite risk in Tulsa?",
+        answer:
+          "Significant. Oklahoma sits in a high termite hazard zone on the USDA map, and the humid Arkansas River corridor around Tulsa supports active subterranean colonies year-round. The first sign is often a spring swarm of winged termites indoors. Annual inspections are the practical defense, particularly for homes with crawl spaces.",
+      },
+      {
+        question: "When is mosquito season in Tulsa?",
+        answer:
+          "April through October, peaking in summer. The Arkansas River, the area's lakes and ponds, and the standing water from Oklahoma's significant storms provide breeding habitat. West Nile virus activity has been recorded in Tulsa County. Removing standing water and treating resting areas reduces exposure.",
+      },
+      {
+        question: "Do fire ants come back after treatment in Tulsa?",
+        answer:
+          "They can, particularly after the heavy rains common in Oklahoma, which prompt fire ants to rebuild and relocate mounds. Treating mounds promptly and doing a yard survey after storms keeps the population manageable. They are a sting hazard for children and pets.",
+      },
+      {
+        question: "What is the most important pest concern for a Tulsa homeowner?",
+        answer:
+          "Two stand out: an annual termite inspection given the elevated year-round pressure, and understanding that brown recluse spiders are common and taking sensible precautions around storage areas. Both are manageable with routine attention, but both are more serious here than in most northern cities.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Oklahoma City", slug: "oklahoma-city" },
+      { name: "Broken Arrow", slug: "broken-arrow" },
+      { name: "Owasso", slug: "owasso" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Tulsa, OK | Brown Recluse, Termites & Mosquitoes",
+    metaDescription:
+      "Tulsa pest control for brown recluse spiders, subterranean termites, mosquitoes, fire ants and mice. Arkansas River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

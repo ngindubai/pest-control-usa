@@ -138,13 +138,13 @@ export const coloradoCities: CityLocation[] = [
       },
       {
         name: "Yellow jacket and paper wasps",
-        serviceSlug: "wasp-hornet-control",
+        serviceSlug: "wasp-bee-removal",
         activeSeason: "June through October, most aggressive August through September",
         note: "Yellow jackets are aggressive in late summer and fall in Colorado Springs, nesting in the ground and wall voids. The foothills location also brings bald-faced hornets, which build large paper nests in trees and under eaves.",
       },
       {
         name: "Voles",
-        serviceSlug: "rodent-control",
+        serviceSlug: "rat-control",
         activeSeason: "Year-round, most active spring and fall",
         note: "Voles are a significant pest in Colorado Springs' foothills neighborhoods, tunneling through lawns and damaging the root systems of landscaping plants. They are more common here than in most US cities because of the proximity to open grassland habitat.",
       },
@@ -216,5 +216,111 @@ export const coloradoCities: CityLocation[] = [
       "Pest Control in Colorado Springs, CO | Mice, Voles & Foothills Pests",
     metaDescription:
       "Colorado Springs pest control for mice (including deer mice/hantavirus), voles, yellow jackets, ants and cockroaches. Foothills specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "aurora-co",
+    name: "Aurora",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T1",
+    population: "~390,000",
+    county: "Arapahoe County",
+    climate: "semi-arid",
+    climateDriver:
+      "Aurora sits on the high plains east of Denver at roughly 5,400 feet elevation. The semi-arid climate brings cold winters, dry summers, and low humidity. As on the rest of the Front Range, pests concentrate in spring and fall, with rodents driven indoors by the cold and a distinctive spring miller moth migration.",
+    topPests: ["Mice", "Ants", "Wasps", "Spiders", "Miller Moths"],
+    pestProfile: [
+      {
+        name: "House mice and voles",
+        serviceSlug: "mice-control",
+        activeSeason: "Mice move indoors in fall; voles active outdoors year-round",
+        note: "Aurora's cold winters push mice indoors through small gaps each fall. Voles tunnel through lawns and gardens, particularly in the newer subdivisions bordering open plains on the eastern edge of the city.",
+      },
+      {
+        name: "Pavement and carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Pavement ants nest under walks and foundations across Aurora. Carpenter ants seek out damp wood around leaks, irrigation, and moisture-damaged areas.",
+      },
+      {
+        name: "Yellow jacket and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests peak late summer",
+        note: "The dry Front Range summers suit wasps well, and nests grow large and aggressive around food and trash by late season. They nest in the ground, wall voids, and under eaves.",
+      },
+      {
+        name: "Spiders, including black widows",
+        serviceSlug: "spider-control",
+        activeSeason: "More visible in warm months",
+        note: "Common house spiders are widespread, and black widows turn up in window wells, garages, and woodpiles. Their bite is medically significant.",
+      },
+      {
+        name: "Miller moths",
+        serviceSlug: "moth-control",
+        activeSeason: "Spring migration, peaks May to June",
+        note: "Each spring, miller moths migrate through the Front Range in large numbers and crowd into homes around doors and windows on their way to the mountains.",
+      },
+    ],
+    localHook:
+      "Aurora gets the same Front Range pest calendar as Denver next door: the spring miller moth migration pouring through, and the fall rush of mice indoors when the cold arrives. On the city's growing eastern edge, the open plains also bring voles into newer subdivisions.",
+    intro:
+      "Pest control in Aurora follows the Front Range seasons. The high, dry, semi-arid climate keeps humidity-loving pests low, so the local cast leans toward rodents, ants, wasps, and spiders. Two events stand out: the spring miller moth migration that funnels through the area, and the fall rush of mice indoors when the cold sets in. On Aurora's fast-growing eastern edge, the bordering open plains add vole pressure to the newer subdivisions. Most homes here do well with a plan tuned to the season.",
+    sections: [
+      {
+        heading: "Front Range seasons, Aurora edges",
+        body: "Aurora shares Denver's seasonal pest rhythm: seal the house against mice before fall, handle wasps and spiders through summer, and expect the miller moths in spring. What is a little different is the eastern edge of the city, where rapid growth has put new subdivisions right against open plains. That border brings voles tunneling into lawns and the occasional field mouse pressure that purely urban neighborhoods do not see. Homes on the developing edge benefit from extra attention to yard harborage and rodent exclusion.",
+      },
+      {
+        heading: "What are the moths in spring, and why do mice come in fall?",
+        body: "The spring moths are miller moths, the adult stage of the army cutworm, migrating from the plains up to the mountains through the Front Range each year in large numbers. They are a nuisance, not a danger, and do not breed indoors. Reducing outdoor lighting and sealing gaps limits how many get in. The fall mice are responding to the cold: Aurora winters drive them indoors through gaps as small as a pencil. Sealing entry points before fall is far more effective than trapping after the fact.",
+      },
+    ],
+    prevention: [
+      "Seal foundation, pipe, and door gaps before fall to keep mice out.",
+      "Reduce outdoor lighting in spring to draw fewer miller moths to the house.",
+      "Knock down small wasp nests early in summer before they grow.",
+      "Clear window wells, woodpiles, and yard clutter to limit black widow and vole harborage, especially on the city's open eastern edge.",
+    ],
+    costNote:
+      "Many Aurora homes use a seasonal plan: fall exclusion for rodents, summer treatment for wasps and spiders, and a quick response during the spring moth migration. A free inspection sets the plan to your home.",
+    faqs: [
+      {
+        question: "What are the moths invading my Aurora home in spring?",
+        answer:
+          "Those are miller moths, which migrate through the Front Range each spring on their way to the mountains, often in large numbers. They are a nuisance, not a danger, and do not breed indoors. Reducing outdoor lighting and sealing gaps around doors and windows limits how many get in.",
+      },
+      {
+        question: "When do mice get into Aurora homes?",
+        answer:
+          "Mostly in fall, when the cold pushes them indoors through gaps as small as a pencil width. They nest in walls and basements for winter. Sealing entry points before fall is the most effective defense. Homes on Aurora's open eastern edge may also see field mice from the bordering plains.",
+      },
+      {
+        question: "Why do I have voles tunneling through my Aurora lawn?",
+        answer:
+          "Voles are common in Aurora, particularly in the newer subdivisions on the eastern edge that border open plains. They tunnel just below the surface, eating roots and creating winding runways. Damage often shows up in spring after snow melts. Reducing ground cover and yard clutter and managing the population keeps the damage down.",
+      },
+      {
+        question: "Are black widows found in Aurora?",
+        answer:
+          "Yes, in window wells, garages, woodpiles, and outbuildings. Their bite is medically significant, so clearing clutter and harborage near doors and play areas is sensible. They favor dry, undisturbed, sheltered spots.",
+      },
+      {
+        question: "When are wasps worst in Aurora?",
+        answer:
+          "Wasp and yellow jacket nests grow through the dry summer and are largest and most aggressive in late summer around eaves, decks, and trash. Removing small nests early is far easier and safer than dealing with a mature one.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Denver", slug: "denver" },
+      { name: "Centennial", slug: "centennial" },
+      { name: "Parker", slug: "parker" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Aurora, CO | Mice, Voles, Wasps & Miller Moths",
+    metaDescription:
+      "Aurora pest control for fall mice, voles, wasps, black widows and spring miller moths. Front Range seasonal specialists. Free inspection. Call 1-800-PEST-USA.",
   },
 ];

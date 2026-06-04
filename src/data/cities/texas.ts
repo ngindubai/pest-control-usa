@@ -642,4 +642,216 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "El Paso pest control for bark scorpions, black widows, American cockroaches, pack rats and harvester ants. Chihuahuan Desert specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "corpus-christi",
+    name: "Corpus Christi",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T1",
+    population: "~320,000",
+    county: "Nueces County",
+    climate: "hot-humid",
+    climateDriver:
+      "Corpus Christi sits on the Gulf Coast of South Texas, warm and humid year-round with a long, hot summer and very mild winters. The bay, the coastal marshes, and the subtropical climate keep mosquitoes, termites, and fire ants active across most of the year, with no real cold season to reduce numbers.",
+    topPests: ["Mosquitoes", "Termites", "Fire Ants", "Cockroaches", "Rats"],
+    pestProfile: [
+      {
+        name: "Mosquitoes (including salt marsh species)",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Nearly year-round, peak spring through fall",
+        note: "Corpus Christi's bay, coastal marshes, and subtropical climate produce a long, intense mosquito season. Salt marsh mosquitoes are strong fliers that travel from the marshes into residential areas. West Nile virus has been recorded in Nueces County.",
+      },
+      {
+        name: "Subterranean and Formosan termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring through summer, risk year-round",
+        note: "The warm, humid Gulf Coast climate keeps termite colonies active most of the year. Formosan subterranean termites, an aggressive invasive species, are established along the Texas coast and cause major structural damage.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Fire ants are widespread across the Corpus Christi area and rebuild mounds quickly after the rain and flooding common on the Gulf Coast. They are a sting hazard in yards and parks.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Large American cockroaches thrive in the coastal heat and humidity, breeding outdoors in mulch and drains and flying toward lights on warm evenings before moving indoors.",
+      },
+      {
+        name: "Roof rats and Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "The port, the warm climate, and the coastal vegetation support both roof rats in attics and palms and Norway rats near the waterfront and commercial areas.",
+      },
+    ],
+    localHook:
+      "Corpus Christi's bay and coastal marshes are beautiful, and they are also the reason the mosquito season here runs most of the year. Salt marsh mosquitoes are strong fliers that carry from the marshes deep into neighborhoods, so mosquito management is a near year-round job on the South Texas coast.",
+    intro:
+      "Pest control in Corpus Christi is set by the Gulf Coast. The bay, the coastal marshes, and the subtropical climate give the city a long mosquito season that barely pauses, including salt marsh species that travel far inland from the marshes. Termites stay active nearly year-round in the warm humidity, with aggressive Formosan termites established along the coast. Fire ants cover the yards and rebuild fast after rain, palmetto bugs thrive in the heat, and the port supports both roof and Norway rats.",
+    sections: [
+      {
+        heading: "Step one: manage the long coastal mosquito season",
+        body: "Corpus Christi's mosquito pressure comes from the bay, the surrounding coastal marshes, and the standing water left by Gulf rain and flooding. Salt marsh mosquitoes are particularly challenging because they are strong fliers that travel well inland from the marshes, so even homes away from water get pressure. The practical sequence is removing standing water on your own property, treating shaded resting areas under decks and in dense planting, and using a barrier treatment program through the long warm season. West Nile virus has been recorded in Nueces County, so this is a health matter as well as a comfort one.",
+      },
+      {
+        heading: "Step two: keep termites in check on the coast",
+        body: "The warm, humid Gulf Coast climate keeps termite colonies active most of the year, and Formosan subterranean termites, an aggressive invasive species established along the Texas coast, raise the stakes. Formosan colonies grow very large and cause damage faster than native subterranean termites. The first sign is often a spring or summer swarm. Annual inspections are the practical defense, particularly for homes with any wood near soil or moisture issues around the foundation.",
+      },
+    ],
+    prevention: [
+      "Remove standing water and treat shaded resting areas to manage the long coastal mosquito season.",
+      "Schedule annual termite inspections given the year-round activity and Formosan termite presence on the coast.",
+      "Treat fire ant mounds promptly, especially after the rain and flooding common on the Gulf Coast.",
+      "Screen attic and roofline vents to block roof rats from palms and coastal vegetation.",
+    ],
+    costNote:
+      "Corpus Christi pest control is commonly quoted as a year-round general plan with seasonal mosquito service, and termite protection quoted separately after inspection. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Why is the mosquito season so long in Corpus Christi?",
+        answer:
+          "The bay, the surrounding coastal marshes, the subtropical climate, and the standing water left by Gulf rain produce a near year-round mosquito season. Salt marsh mosquitoes are strong fliers that travel well inland from the marshes, so even homes away from water get pressure. West Nile virus has been recorded in Nueces County, making management a health matter.",
+      },
+      {
+        question: "Are Formosan termites in Corpus Christi?",
+        answer:
+          "Yes. Formosan subterranean termites, an aggressive invasive species, are established along the Texas Gulf Coast including the Corpus Christi area. Their colonies grow very large and cause structural damage faster than native subterranean termites. Annual inspections are strongly recommended given the year-round activity in this climate.",
+      },
+      {
+        question: "Do fire ants come back quickly after treatment here?",
+        answer:
+          "They can, particularly after the rain and flooding common on the Gulf Coast, which prompts fire ants to rebuild and relocate mounds. Treating mounds promptly and doing a yard survey after significant storms keeps the population manageable. They are a sting hazard for children and pets.",
+      },
+      {
+        question: "What are palmetto bugs?",
+        answer:
+          "Palmetto bug is the local term for the large American cockroach. They thrive in the coastal heat and humidity, breed outdoors in mulch and drains, and fly toward lights on warm evenings before moving indoors. Reducing moisture and mulch against the house and sealing entry points keeps them out.",
+      },
+      {
+        question: "Is year-round pest control necessary in Corpus Christi?",
+        answer:
+          "For most homes, yes. The subtropical coastal climate keeps mosquitoes, termites, fire ants, and cockroaches active across most of the year with no real winter reset. A continuous plan holds them back far better than occasional one-time visits.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Portland", slug: "portland-tx" },
+      { name: "Kingsville", slug: "kingsville" },
+      { name: "San Antonio", slug: "san-antonio" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Corpus Christi, TX | Mosquitoes, Termites & Fire Ants",
+    metaDescription:
+      "Corpus Christi pest control for coastal and salt marsh mosquitoes, Formosan termites, fire ants, palmetto bugs and rats. Gulf Coast specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "arlington",
+    name: "Arlington",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T1",
+    population: "~395,000",
+    county: "Tarrant County",
+    climate: "hot-humid",
+    climateDriver:
+      "Arlington sits between Dallas and Fort Worth in the heart of the DFW metroplex. The North Texas clay soils, hot humid summers, and mild winters create high termite pressure and a long mosquito season, the same profile that defines the rest of the metroplex.",
+    topPests: ["Termites", "Fire Ants", "Mosquitoes", "Cockroaches", "Rats"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active most of the year",
+        note: "Arlington sits in the DFW high termite pressure zone identified by Texas A&M AgriLife Extension. The expansive North Texas clay soils retain moisture and support large subterranean colonies that can go undetected in slab-on-grade homes.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Fire ants are widespread across Arlington and rebuild mounds quickly after rain. They are a particular concern around the city's many parks, sports venues, and open recreational areas.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The lakes and creeks across Arlington, including Lake Arlington and the many retention ponds, create mosquito breeding habitat. Tarrant County Public Health monitors West Nile virus and has confirmed positive mosquito pools in past seasons.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are common in crawl spaces and drainage areas; German cockroaches are the dominant indoor species in apartments and commercial settings across the city.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are an increasing concern in Arlington's established neighborhoods with mature tree canopy, nesting in attics and traveling along branches and fence lines.",
+      },
+    ],
+    localHook:
+      "Arlington sits right between Dallas and Fort Worth, which means it shares the metroplex's defining pest problem: clay soils that hold moisture and feed some of the highest termite pressure in Texas. An annual termite inspection is standard practice here, not a luxury.",
+    intro:
+      "Pest control in Arlington mirrors the wider DFW metroplex it sits in the middle of. The expansive North Texas clay soils retain moisture and feed high subterranean termite pressure, which Texas A&M AgriLife Extension flags as among the highest in Texas. Fire ants cover the yards, parks, and sports venues, the lakes and retention ponds drive a long mosquito season that Tarrant County monitors for West Nile virus, cockroaches run year-round indoors, and roof rats work the mature tree canopy.",
+    sections: [
+      {
+        heading: "Why does Arlington have such high termite pressure?",
+        body: "It comes down to the soil. The expansive clay soils of North Texas are excellent at holding moisture, which is exactly what subterranean termite colonies need. Arlington shares this profile with Dallas and Fort Worth, putting it in the DFW high-pressure zone. The slab-on-grade construction common across the city can let termites enter through expansion joints and plumbing penetrations without obvious signs. A spring swarm of winged termites indoors is often the first clue. Annual inspections are the practical defense and are standard practice for Arlington homeowners.",
+      },
+      {
+        heading: "How big a mosquito risk is West Nile here?",
+        body: "Real enough that Tarrant County Public Health runs an active monitoring program and has confirmed positive mosquito pools in past seasons. Arlington's lakes, creeks, and the many retention ponds across the city provide breeding habitat through the warm months. Around the home, the most effective steps are removing standing water from gutters, planters, and low spots after rain, and treating the shaded resting areas where mosquitoes wait out the day under decks and in dense vegetation.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given Arlington's DFW high-pressure clay-soil zone.",
+      "Remove standing water after rain to reduce the lake and retention-pond mosquito season.",
+      "Treat fire ant mounds promptly, especially around yards, parks, and play areas.",
+      "Trim tree branches back from the roofline and screen attic vents to block roof rats.",
+    ],
+    costNote:
+      "Arlington pest control is commonly quoted as a year-round general plan with termite protection quoted separately after inspection and mosquito service added seasonally. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Is Arlington in a high termite risk zone?",
+        answer:
+          "Yes. Arlington sits in the DFW metroplex, which Texas A&M AgriLife Extension identifies as one of the highest termite pressure zones in Texas. The expansive North Texas clay soils retain moisture and support large subterranean colonies. Annual inspections are standard practice and strongly recommended.",
+      },
+      {
+        question: "Does Arlington have a West Nile virus risk?",
+        answer:
+          "Yes. Tarrant County Public Health monitors West Nile virus and has confirmed positive mosquito pools in past seasons. Arlington's lakes, creeks, and retention ponds provide breeding habitat from April through October. Removing standing water and treating resting areas reduces exposure.",
+      },
+      {
+        question: "Why are fire ants a concern around Arlington's parks?",
+        answer:
+          "Fire ants thrive in open, sunny turf areas, which describes Arlington's many parks, sports venues, and recreational spaces. They rebuild mounds quickly after rain and are a sting hazard for children and pets using these areas. Treating mounds promptly and surveying after storms keeps them manageable.",
+      },
+      {
+        question: "Are cockroaches year-round in Arlington?",
+        answer:
+          "Yes. The warm North Texas climate sustains both indoor and outdoor cockroach activity year-round. American roaches are common in crawl spaces and drainage areas, while German cockroaches are the primary indoor species in apartments and commercial settings.",
+      },
+      {
+        question: "Do I need year-round pest control in Arlington?",
+        answer:
+          "For most homes, yes. Termites, fire ants, and cockroaches are year-round concerns, and mosquitoes run a long season from April through October. A continuous plan with an annual termite inspection is the standard approach in the DFW metroplex.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Fort Worth", slug: "fort-worth" },
+      { name: "Dallas", slug: "dallas" },
+      { name: "Grand Prairie", slug: "grand-prairie" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Arlington, TX | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Arlington pest control for subterranean termites, fire ants, West Nile mosquitoes, cockroaches and roof rats. DFW clay-soil specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
