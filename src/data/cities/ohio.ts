@@ -428,4 +428,110 @@ export const ohioCities: CityLocation[] = [
     metaDescription:
       "Toledo pest control for Great Black Swamp mosquitoes, fall mice, cockroaches, carpenter ants and boxelder bugs. Lucas County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "akron",
+    name: "Akron",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T2",
+    population: "~190,000",
+    county: "Summit County",
+    climate: "cold-humid",
+    climateDriver:
+      "Akron sits in northeast Ohio in Summit County, with a humid continental climate influenced by its elevation (higher than most of Ohio) and proximity to Lake Erie. Cold winters, warm humid summers, and significant snowfall create a pest environment where cold-driven fall mouse surges, year-round cockroach pressure, and late-summer stink bug invasions define the seasonal calendar.",
+    topPests: ["German Cockroaches", "House Mice", "Bed Bugs", "Carpenter Ants", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor pest in Akron's apartment buildings, restaurants, and older housing. The Summit County market is dominated by aging housing stock with shared walls and extensive multi-family housing where cockroaches spread readily between units. Ohio State University Extension identifies cockroaches as a year-round priority pest in Ohio cities.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall, active year-round once inside",
+        note: "Akron's cold continental winters drive mice into heated buildings by October. The city's older neighborhoods in areas like Highland Square, Kenmore, and South Akron have more potential entry points than modern construction, and mice establish quickly once inside.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a growing concern in Akron's multi-family housing, given the density of older apartment buildings and the transient rental market associated with the University of Akron. Ohio State Extension confirms bed bugs are a significant urban pest across Ohio cities.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Carpenter ants are common in Akron's older neighborhoods with mature tree canopy. They nest in moist or softened wood around window frames, roof lines, and wood in contact with the ground. Finding carpenter ants indoors in spring often indicates an established colony in the wall structure.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion (September to November), overwinter in walls",
+        note: "Stink bugs are a significant fall pest in northeast Ohio. The invasive brown marmorated stink bug is established across Summit County, and Akron's residential neighborhoods see fall aggregations on building exteriors before the insects push into wall voids to overwinter.",
+      },
+    ],
+    localHook:
+      "Akron's older neighborhoods carry the same cold-driven fall pest dynamic that defines much of northeast Ohio: mice surge in from October, stink bugs aggregate on the exterior in September, and German cockroaches run year-round in the shared walls of the city's abundant older apartment stock. Ohio State Extension confirms cockroaches are a priority pest across Ohio cities.",
+    intro:
+      "Pest control in Akron follows the northeast Ohio seasonal pattern. Cold winters drive a reliable fall mouse surge, and the city's older housing stock amplifies the entry risk with more gaps and aging seals than modern construction. German cockroaches are a year-round indoor presence, sustained by the density of older apartments and shared walls in neighborhoods like Highland Square and Kenmore. Stink bugs arrive on building exteriors each September before pushing into wall voids. Carpenter ants are a structural concern in moisture-affected older wood, and bed bugs are a growing problem in the university rental market.",
+    sections: [
+      {
+        heading: "Older housing and year-round cockroach pressure",
+        body: "Akron's housing stock skews older, and older construction has more gaps, more shared wall voids, and more aged plumbing infrastructure through which German cockroaches travel. Ohio State University Extension identifies cockroaches as a year-round priority pest in Ohio cities, and Akron's apartment density in neighborhoods surrounding the University of Akron means cockroaches move readily between units. Effective treatment in multi-unit buildings needs to cover neighboring units and shared spaces, not just a single apartment.",
+      },
+      {
+        heading: "The fall convergence: mice and stink bugs",
+        body: "October in Akron brings two things at once: mice press into buildings as temperatures drop, and stink bugs that have been aggregating on exterior walls for weeks start finding their way into wall voids. Both are best managed before the cold arrives. For mice, sealing foundation gaps and pipe penetrations in September is the window. For stink bugs, treating the building exterior when they first appear and sealing gaps around windows and utility lines reduces how many get inside for the winter.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and garage door gaps in September before the fall mouse surge.",
+      "Seal gaps around windows, siding, and utility lines before September to reduce stink bug entry.",
+      "Reduce moisture in crawl spaces and around window frames to limit carpenter ant nesting sites.",
+      "Inspect used furniture and luggage given Akron's bed bug risk in the university rental market.",
+    ],
+    costNote:
+      "Akron pest control is typically quoted as a general recurring plan covering cockroaches, ants, and spiders, with bed bug treatment, stink bug seasonal service, and termite protection quoted separately. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Why are cockroaches so hard to eliminate in Akron apartments?",
+        answer:
+          "German cockroaches spread through shared wall voids, plumbing chases, and service corridors in multi-unit buildings. Treating a single apartment in isolation gives temporary results because reinfestation from adjacent units is common. Ohio State Extension confirms cockroaches are a year-round priority pest in Ohio cities. Effective treatment in older Akron apartment buildings needs to cover neighboring units and shared spaces.",
+      },
+      {
+        question: "When does the fall mouse surge happen in Akron?",
+        answer:
+          "The main push indoors starts in October when Akron's continental temperatures drop sharply. The city's older neighborhoods with more construction gaps see the heaviest pressure. Sealing foundation gaps, pipe penetrations, and garage door gaps in September is the most effective prevention before the surge begins.",
+      },
+      {
+        question: "Are stink bugs a significant problem in Akron?",
+        answer:
+          "Yes. The invasive brown marmorated stink bug is established across northeast Ohio including Summit County. In fall, they aggregate on south-facing building walls in significant numbers before pushing into wall voids. Sealing the home before September and treating the exterior when they first appear gives the best results.",
+      },
+      {
+        question: "What are the signs of a carpenter ant problem in an Akron home?",
+        answer:
+          "Carpenter ants in older Akron homes typically appear indoors in spring, when workers from an established wall colony begin foraging. Finding large black ants indoors in winter or early spring usually indicates an established colony in the walls rather than just outdoor foragers. Softened or hollow-sounding wood around window frames and roof lines is another indicator. Professional treatment targets both the interior satellite colony and the outdoor parent colony.",
+      },
+      {
+        question: "Is bed bug risk higher in Akron near the university?",
+        answer:
+          "Yes. The transient rental market, frequent furniture turnover, and shared housing associated with the University of Akron creates more bed bug transmission opportunities than stable residential areas. Ohio State Extension confirms bed bugs are a growing concern across Ohio cities. Early inspection at any sign of biting is important: small infestations are far less expensive to treat than established ones.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Cleveland", slug: "cleveland" },
+      { name: "Canton", slug: "canton" },
+      { name: "Columbus", slug: "columbus" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Akron, OH | Cockroaches, Mice & Stink Bugs",
+    metaDescription:
+      "Akron pest control for German cockroaches, house mice, bed bugs, carpenter ants and stink bugs. Summit County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

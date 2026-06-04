@@ -854,4 +854,428 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Arlington pest control for subterranean termites, fire ants, West Nile mosquitoes, cockroaches and roof rats. DFW clay-soil specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "plano",
+    name: "Plano",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~300,000",
+    county: "Collin County",
+    climate: "hot-humid",
+    climateDriver:
+      "Plano sits in the northern DFW metroplex in Collin County, sharing the same clay soil, hot humid summers, and mild winters as the broader metro. The mix of established 1980s neighborhoods and newer construction creates varied termite exposure, while the long warm season keeps fire ants and mosquitoes active most of the year.",
+    topPests: ["Fire Ants", "Termites", "Mosquitoes", "German Cockroaches", "Paper Wasps"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most aggressive March through October",
+        note: "Fire ants are a year-round presence across Collin County lawns and rebuild mounds quickly after rain. They pose a sting hazard in yards, parks, and commercial outdoor areas and are a particular concern in residential developments with large open turf areas.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms January through April, active year-round in soil",
+        note: "Collin County is in a heavy termite pressure zone identified by Texas A&M AgriLife Extension. Plano's large stock of 1980s and 1990s wood-framed construction has had decades of exposure to subterranean colonies in the surrounding clay soil.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Plano's creeks, drainage channels, and residential water features create breeding habitat after rain events. Collin County runs active West Nile virus surveillance, and the DFW area regularly records positive mosquito pools through the warm season.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary indoor roach in Plano apartment complexes, restaurants, and multi-family housing. They breed entirely indoors in kitchens and bathrooms and do not need outdoor access.",
+      },
+      {
+        name: "Paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "April through October",
+        note: "Paper wasps build open-comb nests under eaves, in soffits, and around outdoor furniture across Plano's residential neighborhoods. They are defensive near the nest and sting repeatedly when disturbed.",
+      },
+    ],
+    localHook:
+      "Plano's fast suburban growth brings one persistent discovery for new homeowners: fire ant mounds can appear overnight in any yard or park after rain. Combined with the heavy termite pressure across Collin County and an active summer mosquito season, Plano rewards a proactive approach.",
+    intro:
+      "Pest control in Plano sits squarely in the DFW suburban pest picture. Fire ants are year-round in lawns and parks and produce new mounds quickly after rain. Subterranean termites are active across Collin County, and Plano's substantial stock of 1980s and 1990s construction is well within the exposure window. Mosquitoes are active from spring through early fall, with Collin County running West Nile virus surveillance. For most Plano households, a recurring general pest plan covering ants, cockroaches, and wasps, paired with a separate annual termite inspection, is the practical approach.",
+    sections: [
+      {
+        heading: "Why do fire ants spread so fast in Plano?",
+        body: "Red imported fire ants thrive in North Texas because the climate suits them almost perfectly. Warm summers, mild winters, and abundant irrigated turf give colonies everything they need. After a rain event, new mounds can appear across a yard overnight. Treating mounds with a bait-based approach is more effective than broadcast granules alone, because it targets the colony from within rather than just the surface workers.",
+      },
+      {
+        heading: "Termite risk in Collin County",
+        body: "Collin County falls in a heavy termite hazard zone. Eastern subterranean termites live in underground colonies and forage up through the soil into wood. Plano's housing stock, dominated by 1980s and 1990s wood-framed construction, means many homes have had decades of proximity to established colonies. Swarms arrive in late winter and early spring after warm rain. Annual inspections are the standard defense, and homes with wood-to-soil contact benefit from a preventive treatment barrier.",
+      },
+    ],
+    prevention: [
+      "Check the yard weekly from March through October for fire ant mounds and treat early before colonies spread.",
+      "Schedule an annual termite inspection given the DFW clay-soil high-pressure zone.",
+      "Empty standing water from plant trays, gutters, and containers weekly to cut mosquito breeding.",
+      "Seal gaps around utility penetrations, dryer vents, and garage doors to slow cockroach entry.",
+    ],
+    costNote:
+      "Pest control in Plano is typically quoted as a recurring general plan covering fire ants, cockroaches, and wasps, with termite protection quoted separately after an inspection. Mosquito treatment is a seasonal add-on. Everything starts with a free assessment.",
+    faqs: [
+      {
+        question: "When are fire ants worst in Plano?",
+        answer:
+          "Fire ants are present year-round in Collin County but are most aggressive from March through October. New mounds appear quickly after rain, and the colonies relocate fast when disturbed. Bait-based treatment that targets the colony from within gives longer results than surface treatments alone.",
+      },
+      {
+        question: "Do I need a termite plan for a newer home in Plano?",
+        answer:
+          "Yes. Even newer construction in Collin County carries termite risk. Texas A&M AgriLife Extension confirms the DFW area is in a heavy termite pressure zone. Annual inspections let you catch activity early, when treatment is simpler and less expensive.",
+      },
+      {
+        question: "Are mosquitoes in Plano a disease risk?",
+        answer:
+          "Collin County mosquito surveillance tracks West Nile virus activity, and the DFW area regularly records positive mosquito pools through summer. The actual risk of illness for any individual is low, but eliminating standing water and using barrier treatments during peak season reduces exposure.",
+      },
+      {
+        question: "What roaches are most common in Plano homes?",
+        answer:
+          "German cockroaches are by far the most common species indoors. They breed inside in kitchens and bathrooms and do not need outdoor contact. American cockroaches are less common indoors but show up in garages and from sewer lines. Both respond well to targeted baiting and exclusion.",
+      },
+      {
+        question: "How do I stop paper wasps from nesting under my eaves?",
+        answer:
+          "Paper wasps return to the same structures each year. Removing old nests in late fall and treating overwintering sites under eaves and in soffits in early spring reduces re-establishment before a new queen starts a large colony.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Dallas", slug: "dallas" },
+      { name: "Garland", slug: "garland" },
+      { name: "Fort Worth", slug: "fort-worth" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Plano, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Plano pest control for fire ants, subterranean termites, mosquitoes, cockroaches and paper wasps. Collin County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "laredo",
+    name: "Laredo",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~270,000",
+    county: "Webb County",
+    climate: "hot-arid",
+    climateDriver:
+      "Laredo sits on the Rio Grande at the Texas-Mexico border in a semi-arid subtropical climate. Summers are extreme, with temperatures regularly topping 100 degrees Fahrenheit. The Rio Grande, the area's irrigation channels, and periodic heavy rain events create mosquito breeding habitat in an otherwise dry landscape. The heat drives cockroaches and rodents indoors seeking moisture and shelter.",
+    topPests: ["American Cockroaches", "Fire Ants", "Termites", "German Cockroaches", "Rats"],
+    pestProfile: [
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge indoors in peak summer heat",
+        note: "American cockroaches are the dominant cockroach species visible in Laredo homes and businesses. The extreme summer heat drives them inside seeking moisture and cooler temperatures, and they breed in sewers, storm drains, and the outdoor plumbing infrastructure common in the border city.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most aggressive after rain events",
+        note: "Fire ants are widespread across Webb County and rebuild mounds rapidly after the rain events that periodically break Laredo's dry stretches. The near year-round warmth means colony activity never fully pauses.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round activity, swarms in spring",
+        note: "Texas A&M AgriLife Extension confirms subterranean termites are active across south Texas including Webb County. The warm climate sustains year-round colony activity, and Laredo's older downtown housing stock has had substantial termite exposure over decades.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary indoor species in Laredo restaurants, grocery stores, and multi-family housing. They breed entirely indoors and maintain populations year-round regardless of outdoor conditions.",
+      },
+      {
+        name: "Roof rats and Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Both roof rats and Norway rats are present across Laredo. The border city's commercial activity and the proximity to the Rio Grande sustain year-round rodent pressure. Roof rats move through the city's mature vegetation; Norway rats work the drainage and commercial infrastructure.",
+      },
+    ],
+    localHook:
+      "Laredo's position on the Rio Grande makes the summer pest picture different from the rest of Texas. The extreme heat drives American cockroaches inside en masse seeking moisture and cooler air, fire ants stay active year-round in the near-tropical warmth, and the river and irrigation canals create mosquito habitat in an otherwise arid landscape.",
+    intro:
+      "Pest control in Laredo works against the extremes of the Texas border climate. American cockroaches are the headline pest: the extreme summer heat drives them inside seeking moisture and relief, and they breed in the outdoor drainage and sewer infrastructure of the border city. Fire ants stay active year-round in the near-tropical warmth and rebuild after each rain. Subterranean termites are an ongoing risk confirmed by Texas A&M AgriLife Extension across south Texas. German cockroaches run year-round indoors, and both roof and Norway rats maintain populations around the commercial and river infrastructure.",
+    sections: [
+      {
+        heading: "American cockroaches and the heat drive",
+        body: "When Laredo's summer temperatures push above 100 degrees Fahrenheit, American cockroaches leave the outdoor sewer and drainage infrastructure and move into air-conditioned buildings seeking moisture and cooler temperatures. This is a predictable seasonal surge that peaks in June and July. The practical defenses are sealing entry points around plumbing penetrations and floor drains, reducing moisture under sinks and in crawl spaces, and exterior perimeter treatment. Trying to treat just indoors misses the source: they breed outside and come in.",
+      },
+      {
+        heading: "Year-round fire ant and termite pressure",
+        body: "Laredo's climate is warm enough that fire ant colonies never fully go dormant and subterranean termite colonies stay productive year-round. Texas A&M AgriLife Extension confirms south Texas carries consistent termite pressure. For property owners, the practical answer is maintaining a perimeter fire ant treatment after any rain event and scheduling an annual termite inspection, particularly for the older downtown housing stock that has had decades of termite exposure.",
+      },
+    ],
+    prevention: [
+      "Seal plumbing penetrations, drain covers, and slab gaps to limit American cockroach entry during the summer heat surge.",
+      "Treat fire ant mounds promptly after rain events, which trigger rapid rebuilding year-round.",
+      "Schedule an annual termite inspection given south Texas year-round colony activity.",
+      "Trim vegetation from building walls and check utility areas for rat activity.",
+    ],
+    costNote:
+      "Laredo pest control is typically quoted as a year-round recurring plan covering cockroaches, ants, and rodents, with termite protection quoted separately after inspection. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Why do cockroaches come inside so much in Laredo's summer?",
+        answer:
+          "American cockroaches breed outdoors in Laredo's sewer and drainage infrastructure and move inside when temperatures exceed their comfort range in summer, seeking moisture and cooler air. The extreme heat of Laredo's summers makes this a predictable seasonal surge. Sealing plumbing penetrations and reducing indoor moisture cuts the entry significantly.",
+      },
+      {
+        question: "Are termites a year-round concern in Laredo?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension confirms that south Texas, including Webb County, has year-round subterranean termite activity. The warm climate means colonies stay productive without the winter slowdown that occurs further north. Annual inspections are strongly recommended, particularly for older properties.",
+      },
+      {
+        question: "Are fire ants active in Laredo during the dry season?",
+        answer:
+          "Yes. The warmth of Laredo's climate keeps fire ant colonies active throughout the year. During dry stretches, mounds may not be visible at the surface but the colony remains active underground. After a rain event, mounds rebuild and reappear quickly. Staying on a perimeter treatment program keeps the population down between rain events.",
+      },
+      {
+        question: "What is the difference between German and American cockroaches?",
+        answer:
+          "American cockroaches are large, reddish-brown, and breed outdoors in sewers, drains, and mulch before coming inside. German cockroaches are smaller, light brown, and breed entirely indoors in kitchens and bathrooms. In Laredo, both species are common. American roaches surge indoors in summer heat; German roaches run year-round regardless of season.",
+      },
+      {
+        question: "Is rat control different in a border city like Laredo?",
+        answer:
+          "The commercial activity and the proximity to the Rio Grande sustain larger and more consistent rat populations than many inland cities of similar size. Both roof rats (which nest high in vegetation and attics) and Norway rats (which burrow near drains and foundations) are present. Effective control requires both exclusion of building entry points and removal of harborage in vegetation and stored materials.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "San Antonio", slug: "san-antonio" },
+      { name: "McAllen", slug: "mcallen" },
+      { name: "Corpus Christi", slug: "corpus-christi" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Laredo, TX | Cockroaches, Termites & Fire Ants",
+    metaDescription:
+      "Laredo pest control for American cockroaches, fire ants, subterranean termites, rats and German cockroaches. Webb County border city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lubbock",
+    name: "Lubbock",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~265,000",
+    county: "Lubbock County",
+    climate: "semi-arid",
+    climateDriver:
+      "Lubbock sits on the Llano Estacado, the high plains of west Texas, at 3,200 feet elevation. The semi-arid climate delivers hot summers, cold winters with occasional heavy snowfall, low humidity, and persistent wind. The dryness limits some humid-climate pests but creates ideal conditions for black widow spiders, mice seeking warm shelter, and German cockroaches in commercial and multi-family settings.",
+    topPests: ["Black Widow Spiders", "House Mice", "German Cockroaches", "Fire Ants", "Termites"],
+    pestProfile: [
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active April through October, sheltered year-round",
+        note: "Black widows are very common across the semi-arid west Texas high plains, including Lubbock. They favor dry, undisturbed spots: garages, storage areas, under outdoor furniture, in window wells, and in wood piles. Texas A&M AgriLife Extension confirms black widows are found throughout the region, and their bite is medically significant.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall, active year-round once established",
+        note: "Lubbock's cold winters and the open high-plains terrain push mice firmly into buildings by late October. University and commercial areas see the heaviest activity, and the city's many older homes and rental properties provide numerous entry points.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor pest in Lubbock's restaurants, apartments, and student housing near Texas Tech University. They breed entirely indoors and maintain populations year-round regardless of the arid outdoor conditions.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, reduced but present in winter",
+        note: "Fire ants are present across Lubbock despite the semi-arid climate, though populations are lower and more seasonal than in humid east Texas. They are still a sting hazard in yards and parks and become more active and aggressive following rain events.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active spring through fall, swarms in spring",
+        note: "Subterranean termites are active in Lubbock, though at lower pressure than humid east Texas. Texas A&M AgriLife Extension confirms they are present in west Texas. Homes with wood-to-soil contact and irrigation-wet soil around the foundation carry the most risk.",
+      },
+    ],
+    localHook:
+      "Lubbock's open, wind-swept high plains location might seem inhospitable to pests, but black widows thrive in exactly this kind of dry, undisturbed environment: garages, utility areas, and the gaps in every stored item. Texas A&M confirms they are common across west Texas, and their bite is medically significant.",
+    intro:
+      "Pest control in Lubbock works against the west Texas high-plains climate. Black widow spiders are the standout: they thrive in the dry, undisturbed conditions of Lubbock's garages, utility areas, and outdoor storage, and Texas A&M AgriLife Extension confirms their widespread presence across the region. Cold winters drive mice firmly indoors by October. German cockroaches are a persistent year-round problem in the city's restaurants and student housing near Texas Tech. Fire ants are present and active, though at lower pressure than east Texas, and subterranean termites carry moderate risk in irrigated yards.",
+    sections: [
+      {
+        heading: "Black widows in Lubbock's dry climate",
+        body: "Black widow spiders favor the dry, undisturbed conditions that Lubbock's semi-arid climate provides. Garages, utility buildings, under outdoor furniture, in window wells, and behind stacked firewood are typical harborage sites. They are not aggressive, but their bite is medically significant and can require medical attention. Texas A&M AgriLife Extension confirms they are found throughout west Texas. The practical defense is clearing harborage sites near the home, wearing gloves when handling stored items or firewood, and treating perimeter areas regularly.",
+      },
+      {
+        heading: "Mice and the west Texas winter",
+        body: "Lubbock's winters are cold enough, and the surrounding high plains are open enough, that mice press hard into buildings by mid-fall. They enter through gaps as small as a quarter inch around pipes, utility lines, and the base of garage doors. The university population and the rental housing stock around Texas Tech see the heaviest pressure. Sealing entry points in September and placing traps at known harborage points inside is the most effective approach before the cold arrival triggers the main surge.",
+      },
+    ],
+    prevention: [
+      "Clear garages, storage areas, and outdoor spaces of clutter to reduce black widow harborage.",
+      "Wear gloves when handling firewood, stored boxes, or any item that has sat undisturbed outdoors.",
+      "Seal foundation gaps, pipe penetrations, and garage door gaps before October to limit mouse entry.",
+      "Keep irrigation away from the foundation to reduce subterranean termite soil moisture near the structure.",
+    ],
+    costNote:
+      "Lubbock pest control is typically quoted as a general plan covering spiders, cockroaches, and ants, with mice and termite work quoted separately based on the findings of a free inspection.",
+    faqs: [
+      {
+        question: "Are black widows really common in Lubbock?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension confirms black widows are found throughout the west Texas region including Lubbock. The dry, semi-arid climate provides ideal harborage in garages, utility buildings, and outdoor storage. Their bite is medically significant. Clearing clutter, wearing gloves, and treating perimeter areas reduces the risk of contact.",
+      },
+      {
+        question: "When do mice become a problem in Lubbock?",
+        answer:
+          "The main push indoors starts in October as temperatures drop on the high plains. Lubbock's winters are cold enough to make heated buildings very attractive, and the open surrounding terrain gives mice little alternative shelter. Sealing gaps around foundations, pipes, and garage doors in September is the most effective prevention.",
+      },
+      {
+        question: "Why are German cockroaches a problem near Texas Tech?",
+        answer:
+          "The high density of restaurants, shared housing, and student apartments near Texas Tech University creates ideal conditions for German cockroaches: lots of food sources, warm interiors, and shared wall voids. They breed entirely indoors and spread through shared plumbing and walls. Effective treatment in multi-unit settings often needs to cover adjacent units.",
+      },
+      {
+        question: "Are fire ants as bad in Lubbock as in east Texas?",
+        answer:
+          "No. Lubbock's semi-arid climate limits fire ant populations compared with humid east Texas. They are still present and active, particularly after rain events, and can still sting, but mound density is generally lower. Treatment after rain events when mounds appear is usually sufficient.",
+      },
+      {
+        question: "Do I need a termite inspection in Lubbock?",
+        answer:
+          "Texas A&M Extension confirms subterranean termites are present in west Texas. Risk in Lubbock is moderate, but homes with irrigation-wet soil around the foundation or wood-to-soil contact carry real exposure. An inspection every few years is sensible, with annual checks for homes with a known history.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Amarillo", slug: "amarillo" },
+      { name: "Abilene", slug: "abilene" },
+      { name: "El Paso", slug: "el-paso" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Lubbock, TX | Black Widows, Mice & Cockroaches",
+    metaDescription:
+      "Lubbock pest control for black widow spiders, house mice, German cockroaches, fire ants and termites. West Texas high plains specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "garland",
+    name: "Garland",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~245,000",
+    county: "Dallas County",
+    climate: "hot-humid",
+    climateDriver:
+      "Garland sits in northeast Dallas County in the heart of the DFW metroplex. The North Texas clay soils, hot humid summers, and long warm season create the same high termite pressure and active mosquito and fire ant seasons that define the broader metro. Garland's many lakes, including Lake Ray Hubbard on the eastern border, add sustained mosquito breeding habitat.",
+    topPests: ["Fire Ants", "Termites", "Mosquitoes", "German Cockroaches", "Rats"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Fire ants are a constant presence across Garland's residential neighborhoods and parks and rebuild mounds quickly after rain. They are a sting hazard in yards and around the many recreational areas bordering Lake Ray Hubbard.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms January through April, active year-round in soil",
+        note: "Garland is in the DFW high termite pressure zone. The North Texas clay soils retain moisture and support large subterranean colonies. Texas A&M AgriLife Extension confirms the area carries some of the highest termite pressure in Texas.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Lake Ray Hubbard and the many creek corridors through Garland create sustained mosquito breeding habitat. Dallas County Health and Human Services monitors West Nile virus activity through the warm season, and the lake-adjacent neighborhoods see some of the heaviest mosquito pressure in the DFW metro.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor roach in Garland's apartment complexes, restaurants, and multi-family housing. They breed entirely indoors and require no outdoor access to maintain populations year-round.",
+      },
+      {
+        name: "Roof rats and Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Garland's established neighborhoods with mature tree canopy support roof rat populations in attics and trees. Norway rats are present near the commercial corridors and older drainage infrastructure.",
+      },
+    ],
+    localHook:
+      "Garland sits right on the edge of Lake Ray Hubbard, and that lakefront location adds a dimension to the mosquito season that inland DFW suburbs do not have. Residents near the lake deal with some of the heaviest mosquito pressure in the metro, on top of the standard North Texas fire ant and termite picture.",
+    intro:
+      "Pest control in Garland is North Texas pest control with the added pressure of Lake Ray Hubbard. The lake and the creek corridors that feed it create sustained mosquito breeding habitat, and neighborhoods bordering the lake deal with heavier mosquito pressure than most of the DFW metro. Underneath that, the standard DFW picture applies: heavy subterranean termite pressure from the clay soils, year-round fire ants, German cockroaches indoors, and rats working the mature tree canopy. Dallas County Health and Human Services tracks West Nile virus through the season.",
+    sections: [
+      {
+        heading: "Lake Ray Hubbard and the mosquito season",
+        body: "Lake Ray Hubbard sits on Garland's eastern border and feeds a network of creeks that run through the city. The standing and slow-moving water along these corridors sustains mosquito breeding from March through November. Dallas County runs active West Nile virus surveillance, and the lake-adjacent neighborhoods see notably higher mosquito pressure than the landlocked parts of the metroplex. Eliminating standing water on the property is the first step; treating the shaded resting areas under decks, in dense vegetation, and along fence lines handles the second.",
+      },
+      {
+        heading: "Clay soils and the DFW termite picture",
+        body: "The expansive clay soils of North Texas are excellent at holding moisture and supporting subterranean termite colonies. Garland shares this risk with the rest of Dallas County, and Texas A&M AgriLife Extension identifies the DFW area as one of the highest termite pressure zones in Texas. The slab-on-grade construction common across Garland's residential neighborhoods lets termites enter through expansion joints and plumbing penetrations without obvious signs until damage is significant. Annual inspections are the standard protective measure.",
+      },
+    ],
+    prevention: [
+      "Remove standing water from the property weekly to reduce mosquito breeding near Lake Ray Hubbard.",
+      "Schedule an annual termite inspection given the North Texas clay-soil high-pressure zone.",
+      "Treat fire ant mounds as they appear, especially after rain when new mounds pop up across the yard.",
+      "Trim tree branches back from the roofline to reduce roof rat access to attics.",
+    ],
+    costNote:
+      "Garland pest control is typically quoted as a year-round general plan with termite protection quoted separately after inspection and mosquito treatment added seasonally. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Is Garland in a high termite risk area?",
+        answer:
+          "Yes. Garland is in Dallas County, which Texas A&M AgriLife Extension identifies as part of the DFW high termite pressure zone. The North Texas clay soils retain moisture and support large subterranean colonies. Annual inspections are the standard protective measure for the area.",
+      },
+      {
+        question: "Why is the mosquito problem worse near Lake Ray Hubbard?",
+        answer:
+          "Lake Ray Hubbard and the creek corridors that feed it provide sustained mosquito breeding habitat from March through November. Neighborhoods bordering the lake see heavier pressure than the landlocked parts of the metro. Dallas County monitors West Nile virus through the season, and eliminating standing water on the property is the most effective first step.",
+      },
+      {
+        question: "Are fire ants dangerous in Garland parks?",
+        answer:
+          "Fire ant mounds appear in open turf and rebuild quickly after rain. They are a sting hazard, particularly for children and pets who may not notice a mound before stepping on it. Treating mounds promptly and surveying parks and yards after rain events keeps the risk manageable.",
+      },
+      {
+        question: "Why do I keep getting cockroaches even after treatment?",
+        answer:
+          "German cockroaches breed entirely indoors and spread through shared walls and plumbing in multi-unit buildings. If you live in an apartment or townhome, reinfestation from adjacent units is common if treatment covers only one unit. Effective management in multi-family settings requires addressing neighboring units and shared spaces at the same time.",
+      },
+      {
+        question: "What are the signs of a roof rat problem in Garland?",
+        answer:
+          "Roof rats leave droppings about half an inch long, chew marks on wood and wiring, and grease marks along their travel routes on fence tops and in attic rafters. You may hear them moving at night in the attic. They enter through gaps at the roofline and travel along branches and utility lines. Trimming trees back and sealing entry points is the first step.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Dallas", slug: "dallas" },
+      { name: "Plano", slug: "plano" },
+      { name: "Mesquite", slug: "mesquite" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Garland, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Garland pest control for fire ants, subterranean termites, Lake Ray Hubbard mosquitoes, cockroaches and rats. Dallas County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

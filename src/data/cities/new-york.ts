@@ -216,4 +216,110 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Buffalo pest control for fall mice, German cockroaches, carpenter ants, wasps, boxelder bugs and cluster flies. Lake-effect seasonal specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "rochester",
+    name: "Rochester",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T2",
+    population: "~210,000",
+    county: "Monroe County",
+    climate: "cold-humid",
+    climateDriver:
+      "Rochester sits on the southern shore of Lake Ontario in Monroe County, with a cold-humid climate strongly influenced by the lake. Long cold winters with heavy lake-effect snowfall, mild springs, and warm humid summers shape the pest calendar. The Genesee River runs through the city, adding moisture and some pest habitat. The cold winters drive mice hard into buildings and create a long, reliable pest season from the first thaw through late fall.",
+    topPests: ["House Mice", "German Cockroaches", "Carpenter Ants", "Earwigs", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall, active year-round once inside",
+        note: "Rochester's cold Lake Ontario winters drive mice firmly into heated buildings by October. Cornell Cooperative Extension identifies mice as the most common rodent pest in upstate New York homes. The city's many older neighborhoods in areas like Park Avenue, the South Wedge, and the 19th Ward have abundant entry points in aging construction.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor pest in Rochester's apartment buildings, restaurants, and older multi-family housing. They breed entirely indoors and do not depend on outdoor conditions, making them a year-round concern in the urban core and the University of Rochester surrounding neighborhoods.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Carpenter ants are a significant structural pest in Rochester's older neighborhoods with mature tree canopy. They nest in moist or decayed wood and are commonly found in homes with moisture issues around windows, rooflines, and wood near the ground. Cornell Cooperative Extension confirms they are a priority pest across upstate New York.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, move indoors during summer heat",
+        note: "Earwigs are a common outdoor-to-indoor pest in Rochester during hot, dry spells. They breed in moist mulch and soil around the foundation and move indoors seeking moisture. They are a nuisance but not a structural pest.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion (September to November), overwinter in walls",
+        note: "Stink bugs are an established fall pest in Monroe County. They aggregate on south-facing building walls in September and October before pushing into wall voids to overwinter. Cornell Extension confirms the invasive species is established across upstate New York.",
+      },
+    ],
+    localHook:
+      "Rochester's Lake Ontario winters are among the coldest in the northeastern US, and that cold drives one of the more reliable fall mouse surges in the state. Cornell Cooperative Extension consistently identifies mice as the most common rodent pest in upstate New York homes, and Rochester's older housing stock amplifies the entry risk with more gaps than modern construction.",
+    intro:
+      "Pest control in Rochester is defined by the Lake Ontario climate. Cold winters with heavy lake-effect snow drive mice into buildings each fall in one of the more reliable seasonal surges in the state. German cockroaches run year-round in the older apartment stock. Carpenter ants are a structural concern in moisture-affected older wood across Rochester's historic neighborhoods. Earwigs move in from garden beds during dry summer spells, and stink bugs arrive on building walls each September before pushing into wall voids for winter.",
+    sections: [
+      {
+        heading: "Rochester winters and the fall mouse surge",
+        body: "Rochester's Lake Ontario winters are genuinely harsh, with heavy lake-effect snowfall and temperatures regularly below freezing from November through March. For mice, the contrast between the cold outside and a heated home is enormous, and they press hard into buildings by October. Cornell Cooperative Extension identifies mice as the most common rodent pest across upstate New York. The city's older housing stock in neighborhoods like the South Wedge, the 19th Ward, and Park Avenue has more gaps around old foundations, utility lines, and aged weatherstripping than modern construction. Sealing these points in September, before temperatures drop, is the most effective prevention step.",
+      },
+      {
+        heading: "Carpenter ants in Rochester's older neighborhoods",
+        body: "Rochester's older residential neighborhoods have mature tree canopy and aging housing, which is a combination that suits carpenter ants well. They nest in moist or softened wood and are common in window frames with old caulking, roof lines with moisture intrusion, and deck framing. Finding carpenter ants indoors in late winter or early spring is usually a sign of an established indoor colony rather than just foraging workers from outside. Treatment targets both the satellite colonies inside and the parent colony in outdoor wood.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and weatherstripping in September before the Lake Ontario winter mouse surge.",
+      "Check window frames and roof lines for moisture damage and softened wood that attracts carpenter ants.",
+      "Seal gaps around windows and siding before September to reduce stink bug entry.",
+      "Keep mulch depth low against the foundation and fix drainage to reduce earwig breeding habitat.",
+    ],
+    costNote:
+      "Rochester pest control is typically quoted as a general plan covering mice, ants, cockroaches, and spiders, with stink bug seasonal service and bed bug treatment quoted separately. Start with a free assessment.",
+    faqs: [
+      {
+        question: "When does the fall mouse surge happen in Rochester?",
+        answer:
+          "The main push indoors starts in October when Lake Ontario temperatures drop sharply and the heating season begins. Cornell Cooperative Extension confirms mice are the most common rodent pest in upstate New York. Rochester's older neighborhoods have more entry points in aging construction. Sealing gaps in September is the most effective prevention.",
+      },
+      {
+        question: "Are carpenter ants a structural risk in older Rochester homes?",
+        answer:
+          "Yes. Carpenter ants excavate galleries in moist or softened wood over time, and Rochester's older housing stock, combined with the moisture from Lake Ontario winters, creates ideal conditions. Finding large black ants indoors in late winter or spring usually indicates an established colony in the structure rather than just outdoor foragers coming in.",
+      },
+      {
+        question: "Why are German cockroaches so persistent in Rochester apartments?",
+        answer:
+          "They breed entirely indoors and spread through shared wall voids, plumbing chases, and service corridors in multi-unit buildings. Rochester's density of older apartment buildings, particularly in neighborhoods surrounding the University of Rochester, means cockroaches move freely between units. Treatment in multi-unit settings needs to cover neighboring units and shared spaces for lasting results.",
+      },
+      {
+        question: "Do stink bugs overwinter in Rochester homes?",
+        answer:
+          "Yes. The invasive brown marmorated stink bug is established in Monroe County, and Rochester's neighborhoods see fall aggregations on south-facing walls before insects push into wall voids and attics to overwinter. They emerge on warm winter days, which is when indoor sightings increase. Sealing the home before September and treating the exterior when they first appear reduces how many get inside.",
+      },
+      {
+        question: "Why do earwigs keep getting into my Rochester home in summer?",
+        answer:
+          "Earwigs breed in moist mulch and soil around the foundation and move indoors when outdoor conditions become hot and dry. They are harmless but startling. Reducing mulch depth against the foundation, fixing drainage issues, and sealing foundation gaps reduces their entry. They are primarily a nuisance pest rather than a structural one.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Buffalo", slug: "buffalo" },
+      { name: "Syracuse", slug: "syracuse" },
+      { name: "Albany", slug: "albany" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Rochester, NY | Mice, Cockroaches & Carpenter Ants",
+    metaDescription:
+      "Rochester pest control for house mice, German cockroaches, carpenter ants, earwigs and stink bugs. Monroe County and Lake Ontario specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

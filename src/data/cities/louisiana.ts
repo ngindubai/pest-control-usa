@@ -110,4 +110,110 @@ export const louisianaCities: CityLocation[] = [
     metaDescription:
       "New Orleans pest control for Formosan termites, year-round mosquitoes, American roaches, fire ants and rats. Termite protection, free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "baton-rouge",
+    name: "Baton Rouge",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T2",
+    population: "~225,000",
+    county: "East Baton Rouge Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Baton Rouge sits on the east bank of the Mississippi River in a subtropical climate with hot, wet summers and very mild winters. The Mississippi River, the Comite River, and the abundant bayous and drainage canals across East Baton Rouge Parish create intense, near year-round mosquito pressure. The warm, wet climate keeps Formosan termites and American cockroaches active most of the year.",
+    topPests: ["Formosan Termites", "American Cockroaches", "Mosquitoes", "Fire Ants", "Rats"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through July, active year-round",
+        note: "Louisiana State University AgCenter confirms Baton Rouge is in one of the heaviest Formosan termite infestation zones in the country. Formosan termites form enormous colonies, cause damage far faster than native subterranean termites, and are established throughout East Baton Rouge Parish. The warm, humid climate keeps colonies active most of the year.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Large American cockroaches are extremely common in Baton Rouge. They breed in the city's drainage infrastructure, outdoor areas, and beneath buildings and move indoors readily. The subtropical climate sustains them year-round, and they are a particular challenge in older downtown properties.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Nearly year-round, peak April through October",
+        note: "The Mississippi River, Comite River, and the network of bayous and drainage canals across East Baton Rouge Parish create sustained mosquito breeding habitat. LSU AgCenter and the East Baton Rouge Parish Mosquito Abatement District run active control programs. West Nile virus and other mosquito-borne illnesses are monitored across the parish.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are a constant presence in Baton Rouge lawns and green spaces. The subtropical climate allows colonies to remain active year-round. LSU AgCenter identifies fire ants as one of the most significant pest challenges across Louisiana.",
+      },
+      {
+        name: "Roof rats and Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Both roof rats and Norway rats are present across Baton Rouge. The Mississippi River corridor, the port activity, and the city's subtropical vegetation sustain year-round populations. Flooding events displace rats from low-lying areas and drive them into residential neighborhoods.",
+      },
+    ],
+    localHook:
+      "Louisiana State University AgCenter has studied Formosan termites in Baton Rouge for decades. These are not the slow, native subterranean termites found elsewhere in the country: Formosan colonies grow enormous and can damage a wood structure far faster. Baton Rouge homeowners without active termite protection are taking a real risk.",
+    intro:
+      "Pest control in Baton Rouge sits at the intersection of the Mississippi River and subtropical Louisiana. The Formosan subterranean termite is the headline threat: LSU AgCenter confirms Baton Rouge is in one of the heaviest infestation zones in the country, and these termites form enormous colonies that cause damage faster than native species. Mosquitoes are a near year-round issue along the bayous and drainage canals, with the parish running an active abatement program. American cockroaches thrive in the subtropical heat, fire ants stay active year-round, and both roof and Norway rats maintain populations along the river corridor.",
+    sections: [
+      {
+        heading: "Formosan termites: Baton Rouge's primary structural threat",
+        body: "Formosan subterranean termites were introduced to the Gulf Coast decades ago and are now firmly established across Louisiana. LSU AgCenter has studied them in Baton Rouge for years and confirms the area carries among the heaviest infestation pressure in the country. What makes them more serious than native subterranean termites is colony size: Formosan colonies can reach several million individuals and forage over a much wider area. They swarm in large numbers in May through July, and the swarm is often the first visible sign of an established colony. Active termite protection, rather than annual inspection alone, is the standard of care in Baton Rouge.",
+      },
+      {
+        heading: "Mosquitoes and the bayou system",
+        body: "East Baton Rouge Parish is crisscrossed by drainage canals, bayous, and the floodplain of the Mississippi and Comite Rivers. This standing and slow-moving water creates intense mosquito breeding habitat that the parish's abatement district works to manage. At the residential level, removing any standing water from the property is the most effective step: flower pot trays, gutters, bird baths, and low spots in the lawn. Treating the shaded resting areas around the home handles the adult mosquitoes that breed elsewhere and come to rest in the vegetation.",
+      },
+    ],
+    prevention: [
+      "Maintain active termite protection rather than relying on inspection alone given the heavy Formosan pressure in Baton Rouge.",
+      "Remove standing water from all containers and drainage areas weekly to cut the near year-round mosquito season.",
+      "Treat fire ant mounds as they appear throughout the year in this subtropical climate.",
+      "Seal utility penetrations and reduce outdoor harborage to limit rat entry from the river corridor.",
+    ],
+    costNote:
+      "Baton Rouge pest control is typically quoted as a year-round general plan with Formosan termite protection quoted separately, usually as a monitored treatment system given the high infestation pressure. Mosquito control is a seasonal add-on. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Why are Formosan termites worse than regular termites in Baton Rouge?",
+        answer:
+          "Formosan subterranean termites form far larger colonies than native subterranean termites and forage over a much wider area. LSU AgCenter confirms Baton Rouge is in one of the heaviest infestation zones in the country. The practical difference is that Formosan colonies cause structural damage faster and are harder to eliminate once established. Active treatment protection is more important here than in most US cities.",
+      },
+      {
+        question: "How bad is the mosquito problem in Baton Rouge?",
+        answer:
+          "The bayous, drainage canals, and the Mississippi and Comite River floodplains create near year-round mosquito breeding habitat. The East Baton Rouge Parish Mosquito Abatement District runs active control programs, and LSU AgCenter and parish health officials monitor for mosquito-borne illness. Removing standing water on your property and treating shaded resting areas through the active season is the most effective approach for individual households.",
+      },
+      {
+        question: "Are American cockroaches and palmetto bugs the same thing?",
+        answer:
+          "Yes. Palmetto bug is the regional name for the large American cockroach. They are very common in Baton Rouge, breeding in outdoor drainage infrastructure and moving indoors freely in the subtropical heat. They are different from German cockroaches, which are smaller and breed entirely indoors. Both species are common in Baton Rouge, but the American roach is the large outdoor type that residents most often encounter.",
+      },
+      {
+        question: "Are fire ants active year-round in Baton Rouge?",
+        answer:
+          "Yes. Baton Rouge's subtropical climate means fire ant colonies remain active throughout the year without the winter suppression that northern climates experience. Mounds appear quickly after rain events and pose a sting hazard in yards and parks. LSU AgCenter identifies fire ants as one of Louisiana's most significant pest challenges.",
+      },
+      {
+        question: "Do floods make the rat problem worse in Baton Rouge?",
+        answer:
+          "Yes. The Mississippi River and Comite River flooding events displace rats from low-lying areas and drive them into residential neighborhoods. Post-flood rat calls increase significantly. Sealing entry points and reducing outdoor harborage before and after flood events is the most effective preventive step.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "New Orleans", slug: "new-orleans" },
+      { name: "Shreveport", slug: "shreveport" },
+      { name: "Lafayette", slug: "lafayette" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Baton Rouge, LA | Formosan Termites & Mosquitoes",
+    metaDescription:
+      "Baton Rouge pest control for Formosan termites, mosquitoes, American cockroaches, fire ants and rats. Mississippi River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

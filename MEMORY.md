@@ -10,13 +10,14 @@
 
 ## Current State (2026-06-04)
 
-- **Phase:** Phase 1 T1 complete. Chunk 3 complete. Ready for Phase 2 (T2).
-- **City pages built:** 75 of ~75 T1 targets. T1 complete.
+- **Phase:** Phase 2 T2 in progress. Chunk 4 complete.
+- **City pages built:** 100 total (75 T1 + 25 T2). 275 T2 cities remaining.
 - **Town pages built:** 0.
-- **Total site pages:** 155 in the static export (home, services, 50+ states, 75 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation balanced at 15 each (20% per template).
-- **Cities built (75):** the original 50 plus chunk 3: Detroit, Mesa, Tulsa, Arlington, Corpus Christi, Cleveland, Cincinnati, Toledo, Bakersfield, Anaheim, Riverside, Aurora, Lexington, Henderson, Saint Paul, Greensboro, Lincoln, Buffalo, Madison, Norfolk, Richmond, Honolulu, Newark, Jersey City, Boise.
-- **Next block:** Chunk 4, first 25 T2 cities, rotation continues at A.
+- **Total site pages:** ~180 in the static export (home, services, 50+ states, 100 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation balanced at 20 each (20% per template, 100 total cities).
+- **Cities built T2 chunk 4 (25):** Plano TX, Scottsdale AZ, Durham NC, Baton Rouge LA, Salt Lake City UT, Stockton CA, Reno NV, Winston-Salem NC, Chattanooga TN, Knoxville TN, Irvine CA, St. Petersburg FL, Laredo TX, Lubbock TX, Des Moines IA, Chandler AZ, Spokane WA, Fort Lauderdale FL, Birmingham AL, Rochester NY, Garland TX, Chula Vista CA, Akron OH, Little Rock AR, Worcester MA.
+- **New state files added chunk 4:** Utah, Iowa, Alabama, Arkansas.
+- **Next block:** Chunk 5, next 25 T2 cities, rotation continues at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
@@ -73,6 +74,7 @@
 | 2026-06-04 | Chunk 1: first 25 T1 city pages built | One block, full 7-stage pipeline, balanced template rotation (5 each A to E) |
 | 2026-06-04 | Chunk 2: next 25 T1 city pages built | Fort Worth, El Paso, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Washington DC, Oklahoma City, Boston, Baltimore, Louisville, Milwaukee, Albuquerque, Kansas City, St. Louis, Tampa, Orlando, Raleigh, Virginia Beach, Omaha, Colorado Springs, Wichita, Pittsburgh. Rotation continues balanced (10 each A to E). ClimateZone type extended to include desert, mediterranean, semi-arid, cold-humid. CLAUDE.md hardcoded push-to-main rule. |
 | 2026-06-04 | Chunk 3: final 25 T1 city pages built, T1 complete | Detroit, Mesa, Tulsa, Arlington, Cleveland, Bakersfield, Aurora, Honolulu, Anaheim, Riverside, Corpus Christi, Lexington, Henderson, Saint Paul, Cincinnati, Greensboro, Newark, Lincoln, Toledo, Buffalo, Jersey City, Madison, Norfolk, Richmond, Boise. New state files: Michigan, Hawaii, New Jersey, Idaho. Rotation balanced at exactly 15 each A to E. Fixed invalid service slugs (rodent-control, wasp-hornet-control). American English pass applied earlier. 75 T1 cities total, 155 site pages. |
+| 2026-06-04 | Chunk 4: first 25 T2 city pages, Phase 2 begins | Plano TX (A), Scottsdale AZ (B), Durham NC (C), Baton Rouge LA (D), Salt Lake City UT (E), Stockton CA (A), Reno NV (B), Winston-Salem NC (C), Chattanooga TN (D), Knoxville TN (E), Irvine CA (A), St. Petersburg FL (B), Laredo TX (C), Lubbock TX (D), Des Moines IA (E), Chandler AZ (A), Spokane WA (B), Fort Lauderdale FL (C), Birmingham AL (D), Rochester NY (E), Garland TX (A), Chula Vista CA (B), Akron OH (C), Little Rock AR (D), Worcester MA (E). New state files: Utah, Iowa, Alabama, Arkansas. Rotation balanced at 20 each A to E. 100 total cities, ~180 site pages. Build green. |
 
 ## ClimateZone Values (extended 2026-06-04)
 

@@ -110,4 +110,110 @@ export const massachusettsCities: CityLocation[] = [
     metaDescription:
       "Boston pest control for Norway rats, house mice, German cockroaches, termites and bed bugs. Older housing specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "worcester",
+    name: "Worcester",
+    state: "Massachusetts",
+    stateSlug: "massachusetts",
+    stateAbbr: "MA",
+    tier: "T2",
+    population: "~185,000",
+    county: "Worcester County",
+    climate: "cold-humid",
+    climateDriver:
+      "Worcester sits inland at 500 feet elevation in central Massachusetts with a cold-humid continental climate. Colder and snowier than Boston, Worcester's winters drive mice into buildings reliably each fall. The city's dense urban center and surrounding industrial history have left a substantial stock of older triple-decker and multi-family housing with the shared walls and aging gaps that cockroaches and mice exploit.",
+    topPests: ["House Mice", "Carpenter Ants", "Bed Bugs", "German Cockroaches", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall, active year-round once inside",
+        note: "Worcester's cold inland winters drive mice firmly into heated buildings by October. UMass Extension identifies mice as the most common rodent pest in Massachusetts homes. The city's abundant older triple-decker and industrial-district housing stock has more potential entry points than modern construction.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Carpenter ants are the dominant structural ant pest in Worcester County. They nest in moist or decayed wood and are common in Worcester's older housing, particularly around window frames, rooflines, and any wood in contact with the ground. UMass Extension confirms they are the most common structural ant pest in Massachusetts.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a growing concern in Worcester's dense multi-family housing and the student population associated with Clark University, WPI, and other area schools. The city's triple-decker housing stock, with shared walls between units, facilitates spread between apartments.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary indoor pest in Worcester's older apartment buildings, restaurants, and commercial food businesses. They breed entirely indoors in kitchens and bathrooms and spread through the shared infrastructure of multi-family housing.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion (September to November), overwinter in walls",
+        note: "Stink bugs are an established fall pest in Worcester County. They aggregate on building exteriors in September and October before pushing into wall voids to overwinter. UMass Extension confirms the invasive species is established across Massachusetts.",
+      },
+    ],
+    localHook:
+      "Worcester's older triple-decker housing is an iconic part of the city's character and a genuine amplifier of urban pest problems. Shared walls between three stacked units, aging plumbing infrastructure, and construction from the early 1900s means cockroaches, mice, and bed bugs move between apartments far more easily than they do in modern buildings.",
+    intro:
+      "Pest control in Worcester is shaped by the city's older housing stock and its cold inland winters. The triple-decker buildings that define Worcester's residential landscape share walls, plumbing, and aging infrastructure across three units, which gives cockroaches, mice, and bed bugs easy paths between apartments. Cold winters drive a reliable fall mouse surge, and UMass Extension confirms mice are the most common rodent pest in Massachusetts homes. Carpenter ants are the structural concern in moisture-affected older wood, and stink bugs arrive each fall on building exteriors before overwintering in wall voids.",
+    sections: [
+      {
+        heading: "Triple-deckers and the shared-wall pest problem",
+        body: "Worcester's triple-decker buildings are three-unit homes stacked vertically, and each shares walls, flooring, and plumbing with the units above and below. This means a cockroach or mouse problem in one unit is almost always a whole-building problem. German cockroaches travel through shared walls and plumbing chases freely, and mice that enter through the basement foundation reach all three floors. Effective treatment in triple-deckers coordinates across all units and addresses the shared entry points and shared walls, not just one apartment at a time.",
+      },
+      {
+        heading: "Carpenter ants in Worcester's older wood",
+        body: "Worcester's older housing stock, much of it from the early to mid-twentieth century, has accumulated moisture damage around windows, rooflines, and anywhere wood has been in contact with the ground. Carpenter ants exploit this softened wood to excavate their colonies. UMass Extension confirms they are the most common structural ant pest in Massachusetts. Finding large black ants indoors in late winter or spring is usually a sign of an established colony in the wall structure rather than just outdoor foragers. Treatment targets both the indoor satellite colonies and the outdoor parent colony.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and the base of exterior doors in September before the fall mouse surge.",
+      "In triple-deckers and multi-unit buildings, coordinate pest control across all units to prevent cockroach and mouse reinfestation.",
+      "Check window frames, roof lines, and deck framing for moisture-softened wood that attracts carpenter ants.",
+      "Inspect used furniture and luggage carefully given Worcester's bed bug risk in the university rental market.",
+    ],
+    costNote:
+      "Worcester pest control is typically quoted as a general plan covering mice, ants, cockroaches, and spiders. Bed bug treatment and stink bug seasonal service are separate. In triple-deckers, coordinating across all units gives significantly better results. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Why is pest control in a Worcester triple-decker so difficult?",
+        answer:
+          "Triple-deckers share walls, plumbing, and aging infrastructure across three stacked units. Cockroaches, mice, and bed bugs all move freely through the shared construction. Treating one unit in isolation gives temporary results because reinfestation from the other units continues. Effective management coordinates treatment across all units and addresses shared entry points and shared spaces.",
+      },
+      {
+        question: "When do mice surge into Worcester homes?",
+        answer:
+          "The main push indoors starts in October when Worcester's cold inland temperatures drop below the comfort threshold for mice. The city is colder than Boston and the surrounding coastal areas, which makes the fall mouse surge earlier and more pronounced. Sealing foundation gaps, pipe penetrations, and exterior door gaps in September is the most effective prevention.",
+      },
+      {
+        question: "Are carpenter ants a structural risk in Worcester?",
+        answer:
+          "Yes. UMass Extension confirms carpenter ants are the most common structural ant pest in Massachusetts. Worcester's older housing stock, with accumulated moisture damage around windows and rooflines, provides the softened wood they need to establish colonies. Finding them indoors in winter or early spring usually indicates an established colony in the walls rather than just outdoor foragers.",
+      },
+      {
+        question: "Is the bed bug risk higher in Worcester near the colleges?",
+        answer:
+          "The student populations associated with Clark University, WPI, and other area schools create more frequent furniture turnover and travel, which increases bed bug transmission risk. The triple-decker housing common in college-adjacent neighborhoods also means bed bugs can spread between units through shared walls. Early inspection at any sign of biting or visible evidence keeps a small infestation manageable.",
+      },
+      {
+        question: "Do stink bugs overwinter in Worcester homes?",
+        answer:
+          "Yes. The invasive brown marmorated stink bug is established across Massachusetts, and Worcester County sees fall aggregations on south-facing building walls before insects push into wall voids to overwinter. Sealing gaps around windows, siding, and utility lines before September and treating the exterior when they first appear reduces how many get inside for winter.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Boston", slug: "boston" },
+      { name: "Springfield", slug: "springfield" },
+      { name: "Providence", slug: "providence" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Worcester, MA | Mice, Carpenter Ants & Cockroaches",
+    metaDescription:
+      "Worcester pest control for house mice, carpenter ants, bed bugs, German cockroaches and stink bugs. Triple-decker and older housing specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

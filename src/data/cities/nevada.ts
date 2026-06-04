@@ -222,4 +222,110 @@ export const nevadaCities: CityLocation[] = [
     metaDescription:
       "Henderson pest control for bark scorpions, black widows, crickets, roof rats and ants. Mojave Desert and master-planned community specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "reno",
+    name: "Reno",
+    state: "Nevada",
+    stateSlug: "nevada",
+    stateAbbr: "NV",
+    tier: "T2",
+    population: "~255,000",
+    county: "Washoe County",
+    climate: "semi-arid",
+    climateDriver:
+      "Reno sits in a high desert basin at 4,500 feet elevation in the rain shadow of the Sierra Nevada. The semi-arid climate delivers hot, dry summers and cold, snowy winters. The Truckee River runs through the city, providing some moisture in an otherwise arid landscape. Pests here are cold-tolerant and drought-adapted, with mice, spiders, and wasps forming the core problem set.",
+    topPests: ["Black Widow Spiders", "House Mice", "Wasps", "German Cockroaches", "Voles"],
+    pestProfile: [
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active April through October, sheltered year-round",
+        note: "Black widows are very common across the Reno-Sparks metro area. The dry, semi-arid climate provides ideal harborage in garages, utility areas, rock walls, under deck boards, and in outdoor storage. University of Nevada Cooperative Extension confirms black widows are widespread across Washoe County. The female's bite is medically significant.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall, active year-round once inside",
+        note: "Reno's cold winters, with temperatures regularly dropping below freezing, drive mice firmly into heated buildings by October. The city's many older neighborhoods and the casino district's supporting commercial areas see consistent mouse pressure. Proximity to the Sierra Nevada foothills amplifies fall rodent pressure.",
+      },
+      {
+        name: "Paper wasps and yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "April through October, most aggressive August through October",
+        note: "Wasps are a significant pest across the Reno metro. Paper wasps build open-comb nests under eaves and in soffits, while yellow jackets nest in the ground and in wall voids. Both become most aggressive in late summer as colony size peaks. The dry climate and abundant sun exposure on the Sierra Nevada facing sides of buildings amplifies wasp activity.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the primary indoor cockroach in Reno's casinos, hotels, restaurants, and apartment buildings. The hospitality industry creates conditions for rapid spread, and multi-family housing in the downtown and gaming areas sees persistent pressure.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Active year-round, most damaging fall through spring under snow",
+        note: "Meadow voles are a lawn and garden pest in Reno's residential neighborhoods, particularly in areas with irrigated lawns and gardens. They tunnel under snow cover and create runways in turf that appear as the snow melts. University of Nevada Extension identifies voles as a common pest in Nevada's irrigated residential areas.",
+      },
+    ],
+    localHook:
+      "Reno's high desert location surprises newcomers from wetter climates: black widows are common in every garage and utility area, mice push hard into buildings when Sierra Nevada winters arrive, and the dry, sun-drenched setting makes for very active wasp seasons. University of Nevada Extension confirms black widows are widespread across Washoe County.",
+    intro:
+      "Pest control in Reno works against the high desert semi-arid baseline. Black widows are a year-round presence in garages, rock walls, and outdoor storage across Washoe County, and University of Nevada Cooperative Extension confirms their widespread distribution. Cold Sierra Nevada winters drive mice firmly into buildings by October. Wasps are a significant summer pest, most aggressive in late summer as colonies peak. German cockroaches are persistent in the hospitality and multi-family housing that supports Reno's gaming economy, and voles cause lawn damage under snow cover through winter.",
+    sections: [
+      {
+        heading: "Black widows in Reno's dry climate",
+        body: "Black widow spiders thrive in the semi-arid conditions of the Reno basin. Every garage, utility building, rock wall, and outdoor storage area across Washoe County provides ideal harborage: dry, undisturbed, and sheltered. University of Nevada Cooperative Extension confirms they are widespread in the area. The female's bite is medically significant and can require medical attention. The practical defense is clearing clutter from garage corners and outdoor storage areas, wearing gloves when handling stored items or firewood, and treating perimeter areas regularly. They are not aggressive but will bite if pressed.",
+      },
+      {
+        heading: "Sierra Nevada winters and the fall mouse surge",
+        body: "Reno's high-desert winters are genuinely cold, and when Sierra Nevada temperatures drop in October, mice press hard into heated buildings. The gap between the comfort of an insulated home and the cold outside is substantial, which makes fall mouse exclusion in Reno more important than in many comparable-sized cities in warmer climates. Sealing foundation gaps, pipe penetrations, and the gap under garage doors in September is the critical preventive step. The Truckee River corridor and the foothills neighborhoods see the heaviest pressure from the adjacent natural terrain.",
+      },
+    ],
+    prevention: [
+      "Clear garage corners, utility areas, and outdoor storage of clutter to reduce black widow harborage.",
+      "Wear gloves when reaching into stored boxes, firewood, or any undisturbed outdoor storage.",
+      "Seal foundation gaps, pipe penetrations, and garage door gaps in September before the Sierra Nevada winter mouse surge.",
+      "Remove paper wasp nests in late fall when they are abandoned and treat eaves and soffits before spring.",
+    ],
+    costNote:
+      "Reno pest control is typically quoted as a general plan covering spiders, cockroaches, and ants, with mice, vole management, and wasp removal quoted separately. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Are black widows really common in Reno?",
+        answer:
+          "Yes. University of Nevada Cooperative Extension confirms black widows are widespread across Washoe County. The dry, semi-arid climate provides ideal harborage in garages, utility areas, rock walls, and outdoor storage. Their bite is medically significant. Clearing clutter, wearing gloves, and regular perimeter treatment reduce the risk of contact.",
+      },
+      {
+        question: "When does the fall mouse surge happen in Reno?",
+        answer:
+          "The main push indoors starts in October when Sierra Nevada temperatures drop sharply. Reno's cold winters make heated buildings very attractive. Neighborhoods near the Truckee River corridor and the Sierra foothills see heavier pressure. Sealing foundation gaps and utility penetrations in September is the most effective prevention.",
+      },
+      {
+        question: "Why are wasps so active in Reno in late summer?",
+        answer:
+          "Paper wasp and yellow jacket colonies grow through the summer and reach their largest size and most aggressive behavior in August and October. The hot, dry Reno summer and the abundant sun exposure on building exteriors amplifies this. Yellow jackets are the most dangerous: they nest in the ground and in wall voids and sting repeatedly when disturbed.",
+      },
+      {
+        question: "Are German cockroaches a problem in Reno's casinos and hotels?",
+        answer:
+          "Yes. The hospitality industry creates conditions for cockroach spread: food availability, shared infrastructure, and high turnover. German cockroaches are the primary indoor species and breed entirely indoors in kitchens and utility areas. The gaming and hotel district sees persistent pressure, and multi-family housing in the surrounding areas carries the same risk.",
+      },
+      {
+        question: "What are voles and how do they damage lawns in Reno?",
+        answer:
+          "Meadow voles are small rodents that tunnel under snow through winter, creating runways in the turf that appear as brown channels when snow melts in spring. They also girdle the bark of young trees and shrubs. University of Nevada Extension confirms they are a common pest in Nevada's irrigated residential areas. Fall bait treatment before snow arrives reduces their populations.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Sparks", slug: "sparks" },
+      { name: "Carson City", slug: "carson-city" },
+      { name: "Las Vegas", slug: "las-vegas" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Reno, NV | Black Widows, Mice & Wasps",
+    metaDescription:
+      "Reno pest control for black widow spiders, house mice, paper wasps, German cockroaches and voles. Washoe County high-desert specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
