@@ -547,4 +547,322 @@ export const arizonaCities: CityLocation[] = [
     metaDescription:
       "Chandler pest control for bark scorpions, desert termites, black widows, pack rats and cockroaches. East Valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "glendale",
+    name: "Glendale",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T2",
+    population: "~250,000",
+    county: "Maricopa County",
+    climate: "desert",
+    climateDriver:
+      "Glendale is in the West Valley of the Phoenix metropolitan area, fully within the Sonoran Desert. The same extreme heat, low humidity, and monsoon-season moisture surge that drive Phoenix's pest profile apply here. The western agricultural fringe of Glendale near the Agua Fria River adds pack rat and vinegaroon pressure from undeveloped desert margins.",
+    topPests: ["Bark Scorpions", "Desert Termites", "Roof Rats", "Black Widow Spiders", "Pigeons"],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Peaks May through September, active when temps above 70 degrees",
+        note: "Bark scorpions are present throughout Glendale and are the most medically significant scorpion in North America. They are excellent climbers, entering homes through weep holes, gaps at the roofline, and around utility penetrations. The West Valley's desert-adjacent development areas near the Agua Fria tend to see higher scorpion activity than the more established central neighborhoods.",
+      },
+      {
+        name: "Desert and western subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in summer monsoon season (July through September)",
+        note: "Glendale has both desert subterranean termites and western subterranean termites. Desert termites forage in dry wood above ground, while western subterranean termites work from the soil through structures. Annual inspections are standard in Maricopa County.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, surge indoors fall through winter",
+        note: "Roof rats are widespread in the Phoenix metro and Glendale's mature citrus and other fruit trees are a major food source and travel route. They enter homes at roof level through gaps in soffits, around vents, and at utility penetrations.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active spring through fall, sheltered year-round",
+        note: "Black widows are common throughout Glendale's block wall corridors, garages, and undisturbed exterior storage areas. The desert climate's dry warmth is ideal harborage. The female's bite is medically significant and warrants professional attention if found in a frequently used space.",
+      },
+      {
+        name: "Pigeons",
+        serviceSlug: "bird-control",
+        activeSeason: "Year-round",
+        note: "Feral pigeons are a persistent nuisance across the Phoenix metro and Glendale is no exception. They roost on commercial buildings, under freeway overpasses, and on residential structures with accessible ledges and eaves. Pigeon droppings create structural damage, health concerns, and cleanup costs.",
+      },
+    ],
+    localHook:
+      "The West Valley's development has pushed residential neighborhoods right to the Sonoran Desert edge along the Agua Fria River corridor. That desert boundary is where bark scorpion pressure is highest: construction disturbs their rock and debris habitat, and they move into the nearest houses. Homes within a mile of the undeveloped desert fringe on Glendale's western edge consistently see higher scorpion counts than the older established neighborhoods closer to downtown.",
+    intro:
+      "Pest control in Glendale operates on the Sonoran Desert calendar. Bark scorpions are the pest that most concerns homeowners: medically significant, common across the entire West Valley, and active from spring through fall. Desert and western subterranean termites work quietly through both soil and dry wood. Roof rats use the city's citrus trees and block walls as highways. Black widows are in garages and undisturbed wall spaces throughout the city. Pigeons claim commercial rooftops and residential eaves with the confidence of an established resident.",
+    sections: [
+      {
+        heading: "Bark scorpion control in the West Valley",
+        body: "The Arizona bark scorpion is a climber and will come in through tiny gaps. Weep holes in brick and block veneer are one of the most common entry points. Professional scorpion treatment covers both perimeter chemical barriers and physical exclusion work: sealing weep holes with fine steel mesh, caulking gaps around utility penetrations, and applying a residual treatment to block walls and the building perimeter. The West Valley's proximity to undeveloped desert land means treatment cannot be a one-time event: ongoing maintenance is the standard.",
+      },
+      {
+        heading: "Roof rat management in a citrus-heavy suburb",
+        body: "Glendale's residential neighborhoods have significant citrus tree coverage, and citrus is one of roof rats' preferred food sources. They travel through the canopy, reach rooflines from overhanging branches, and enter through gaps at the soffit and fascia junction. Removing fallen fruit, trimming trees away from the roofline, and sealing gaps at roof level are the prevention basics. Active trapping removes current residents. Without exclusion work, new rats from the surrounding population will move back in.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes with steel mesh and caulk gaps around pipes to block scorpion entry.",
+      "Trim citrus and other fruit trees at least 3 feet from the roofline to cut roof rat access.",
+      "Clear debris, wood piles, and stored items from garage corners and block wall bases to reduce black widow harborage.",
+      "Schedule annual termite inspections given the dual desert and subterranean termite pressure in Maricopa County.",
+    ],
+    costNote:
+      "Glendale pest control typically includes a quarterly exterior program covering scorpions, spiders, cockroaches, and ants, with termite inspection and treatment quoted separately. Pigeon exclusion is a separate scope. Everything starts with a free inspection.",
+    faqs: [
+      {
+        question: "Are bark scorpions common in Glendale?",
+        answer:
+          "Yes. The Arizona bark scorpion is present throughout Glendale and the entire Phoenix metro. The West Valley neighborhoods near the Agua Fria River corridor and undeveloped desert edges see higher activity than the older established residential areas. Bark scorpions are the only scorpion in the region whose sting is medically significant: it causes intense pain and numbness and may require medical treatment. Children and older adults are at higher risk for serious reactions.",
+      },
+      {
+        question: "What kind of termites does Glendale have?",
+        answer:
+          "Glendale has both desert subterranean termites and western subterranean termites. Desert subterranean termites can forage in dry wood above ground without the soil contact that eastern subterranean species require, which makes them unusual and harder to detect with standard inspection methods. Western subterranean termites work from the soil and require moisture at the colony level. Annual inspections are the standard of care in Maricopa County for both species.",
+      },
+      {
+        question: "How do roof rats get into homes in Glendale?",
+        answer:
+          "Roof rats in Glendale use citrus trees, block walls, and utility lines as travel routes to reach the roofline. They enter through gaps around vent openings, at the soffit-fascia junction, and where pipes penetrate the wall near roof level. Keeping fruit trees trimmed back from the roofline and sealing gaps at the roof level are the most effective exclusion steps.",
+      },
+      {
+        question: "Are black widows dangerous in Glendale?",
+        answer:
+          "The female black widow's bite is medically significant and can cause severe muscle pain and cramping. They are common throughout Glendale in block wall crevices, garages, and undisturbed storage areas. Wearing gloves when working in the garage or garden, clearing clutter from the floor and wall bases, and a regular perimeter spider treatment all reduce the risk of contact.",
+      },
+      {
+        question: "What can I do about pigeons on my Glendale property?",
+        answer:
+          "Pigeon control requires exclusion rather than just chasing them off. Physical deterrents like spikes, netting, and wire systems prevent landing and roosting on ledges, eaves, and AC units. Removing food and water sources on the property helps reduce attractiveness. Professional installation of exclusion hardware lasts significantly longer than DIY approaches and covers gaps that attract nesting.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Phoenix", slug: "phoenix" },
+      { name: "Peoria", slug: "peoria" },
+      { name: "Scottsdale", slug: "scottsdale" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Glendale, AZ | Scorpions, Termites & Roof Rats",
+    metaDescription:
+      "Glendale pest control for bark scorpions, desert termites, roof rats, black widows and pigeons. West Valley Maricopa County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "gilbert",
+    name: "Gilbert",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T2",
+    population: "~250,000",
+    county: "Maricopa County",
+    climate: "desert",
+    climateDriver:
+      "Gilbert is in the East Valley of the Phoenix metro, on land that was agricultural until recent decades. The Sonoran Desert climate delivers scorching summers, the monsoon moisture surge in July and August, and mild dry winters. The transition from farmland to suburbs means Gilbert homes frequently border former agricultural land, and pack rats, scorpions, and desert spiders move in as development continues.",
+    topPests: ["Bark Scorpions", "Western Subterranean Termites", "Black Widow Spiders", "White-throated Woodrats", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "April through October, most active at night",
+        note: "Bark scorpions are the defining pest concern in Gilbert. The East Valley's ongoing development has pushed residential construction into desert land where scorpions already lived, and new-construction homes consistently see higher scorpion pressure than established neighborhoods. Bark scorpions are climbers and are commonly found on walls and ceilings inside homes.",
+      },
+      {
+        name: "Western subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm July through August after monsoon rains, active year-round underground",
+        note: "Western subterranean termites are the primary termite species in Gilbert. They swarm during and after summer monsoon rains. Gilbert's relatively newer housing stock still carries termite risk because western subterranean termites are active throughout Maricopa County's soils.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active spring through fall, sheltered year-round",
+        note: "Black widows are widespread in Gilbert's block wall systems, garages, and exterior storage. The dry Sonoran Desert climate creates ideal sheltered harborage in undisturbed block wall cavities and under patio furniture. Regular perimeter treatment and clearing clutter from outdoor storage reduces risk significantly.",
+      },
+      {
+        name: "White-throated woodrats (Pack rats)",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, most destructive in spring when they gather nesting material",
+        note: "White-throated woodrats build large stick nests in desert shrubs, cactus, and now in vehicles, equipment, and outdoor structures in Gilbert's newer neighborhoods. They chew wiring, collect debris, and their urine and feces carry hantavirus. Gilbert's proximity to the desert edge makes pack rats a genuine concern for any property with covered outdoor storage or vehicles parked outside.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, move indoors in fall",
+        note: "Roof rats are established throughout the Phoenix metro and use Gilbert's citrus trees and ornamental fruit plantings as food sources and travel routes. They are separate from pack rats and are commensal rodents that primarily live near human structures.",
+      },
+    ],
+    localHook:
+      "Gilbert was named the fastest-growing large city in the United States multiple times over the last two decades. That explosive growth has pushed neighborhoods right into the desert, and the same disturbed-land dynamic that affects new development everywhere in the Sonoran Desert applies here: construction displaces scorpions, pack rats, and spiders from their original habitat, and they relocate into the nearest houses.",
+    intro:
+      "Pest control in Gilbert runs on two speeds: the everyday scorpion awareness that comes with living in the East Valley, and the pack rat problem that catches residents from outside Arizona completely off guard. Bark scorpions are present throughout the city but most aggressive in the newer neighborhoods built on former agricultural and desert land on the east and south sides. White-throated woodrats build enormous stick nests in vehicles and under covered equipment in any outdoor space, and they are most common in Gilbert's newer suburban edges. Western subterranean termites work through the soil year-round and swarm during monsoon season.",
+    sections: [
+      {
+        heading: "Pack rats: what new Gilbert residents need to know",
+        body: "White-throated woodrats, called pack rats, are a desert species that adapts quickly to suburban development. They build large stick nests stuffed with cactus joints, debris, and material from anywhere they can find it, including vehicle engine compartments and covered outdoor equipment. A pack rat in a car can destroy ignition wiring, hoses, and insulation before the owner realizes what happened. They cache food and can chew through surprising materials. Removing debris piles and stick nests promptly, using vehicle deterrents, and securing outdoor storage reduces the risk. Active nests require professional removal.",
+      },
+      {
+        heading: "New construction and elevated scorpion pressure",
+        body: "Construction activity in Gilbert's eastern and southern growth zones consistently produces elevated scorpion reports in the surrounding established neighborhoods. When ground is broken for new development, the bark scorpions already living there are displaced and the nearest existing homes become their next shelter. First-year residents in new-construction neighborhoods near desert land should budget for scorpion control from move-in. The standard approach is sealing weep holes with mesh, caulking gaps at utility penetrations, and maintaining a residual perimeter treatment on a consistent schedule.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes and foundation gaps with steel mesh to block scorpion entry.",
+      "Inspect vehicles regularly for pack rat activity if parked outdoors or under a carport near desert land.",
+      "Clear debris piles, old lumber, and cactus joints from around structures to remove pack rat nesting material.",
+      "Schedule a termite inspection annually, especially for newer homes built on former agricultural or desert land.",
+    ],
+    costNote:
+      "Gilbert pest control typically starts with a free inspection. Scorpion programs are quarterly exterior treatments with sealing work recommended as a one-time add-on. Pack rat removal is quoted per event. Termite inspections are usually free; treatment is quoted based on findings.",
+    faqs: [
+      {
+        question: "Why do new Gilbert neighborhoods have more scorpion problems?",
+        answer:
+          "When new construction begins on desert or agricultural land, the bark scorpions already living there are displaced by grading and construction activity. They move into the nearest existing structures. The construction phase and the first few years after development are consistently the period of highest scorpion activity in newly built neighborhoods. Proactive sealing of weep holes and a consistent perimeter treatment program are the right response for new-construction homes near active development.",
+      },
+      {
+        question: "What is a pack rat and are they dangerous in Gilbert?",
+        answer:
+          "White-throated woodrats (pack rats) are native desert rodents that build large stick nests. In suburban Gilbert they adapt by nesting under covered equipment, in vehicle engine compartments, and in unused outdoor structures. They are not aggressive, but their urine and feces can carry hantavirus, and the wiring and material damage they cause in vehicles can be expensive. Removing stick nests promptly and keeping vehicles in enclosed garages significantly reduces the risk.",
+      },
+      {
+        question: "What kind of termites does Gilbert have?",
+        answer:
+          "Western subterranean termites are the primary species in Gilbert. They live in the soil and build mud tubes to reach wood. They swarm in the summer monsoon season, typically July and August. Annual inspections are the standard recommendation for all Maricopa County properties, including newer construction, because the soils across the East Valley are fully populated with western subterranean termite colonies.",
+      },
+      {
+        question: "How do I keep bark scorpions out of my Gilbert home?",
+        answer:
+          "The two most effective steps are physical exclusion and perimeter chemical treatment. For exclusion, seal weep holes in brick and block veneer with fine steel mesh, caulk gaps around utility penetrations at the base of walls, and install door sweeps on all exterior doors. For chemical treatment, a residual application to the exterior perimeter, including block walls, applies a barrier that scorpions crossing it pick up. Bark scorpions are persistent and treatment needs to be maintained on a schedule, not done once.",
+      },
+      {
+        question: "Are black widow spiders common in Gilbert?",
+        answer:
+          "Yes. Black widows are widespread throughout the East Valley and are found regularly in block wall cavities, under patio furniture, in garage corners, and in any undisturbed outdoor storage area in Gilbert. The dry desert climate is good habitat for them. The female's bite is medically significant. Wearing gloves when working in undisturbed outdoor areas and clearing clutter from garage floors and wall bases reduces the chance of contact.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Chandler", slug: "chandler" },
+      { name: "Mesa", slug: "mesa" },
+      { name: "Queen Creek", slug: "queen-creek" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Gilbert, AZ | Scorpions, Pack Rats & Termites",
+    metaDescription:
+      "Gilbert pest control for bark scorpions, pack rats, subterranean termites, black widows and roof rats. East Valley Maricopa County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "tempe",
+    name: "Tempe",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T2",
+    population: "~185,000",
+    county: "Maricopa County",
+    climate: "desert",
+    climateDriver:
+      "Tempe is centrally located in the Phoenix metro, bordered by Tempe Town Lake and the Salt River bed to the north. The Sonoran Desert climate is the primary driver, but the lake and the Salt River riparian corridor add a moisture dimension unusual for a central metro location. Bark scorpions, termites, and cockroaches follow the standard desert pattern, while the lakefront areas see additional tick and mosquito pressure.",
+    topPests: ["Bark Scorpions", "American Cockroaches", "Western Subterranean Termites", "Roof Rats", "Ticks"],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "April through October, peak at night during monsoon season",
+        note: "Bark scorpions are present throughout Tempe and active throughout the warm months. The older neighborhoods near Mill Avenue and the Tempe Butte area see scorpion activity consistent with the rest of the Phoenix metro. The university population and its rental housing turnover means scorpion awareness and prevention is a recurring issue.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge during monsoon season",
+        note: "Tempe has both American cockroaches from the storm drain system and German cockroaches in food service establishments and apartment complexes. The university-adjacent commercial corridor and the high density of food establishments around Arizona State University sustain German cockroach populations that require ongoing management.",
+      },
+      {
+        name: "Western subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm after summer monsoon rains, active year-round",
+        note: "Western subterranean termites are active throughout Tempe. The Salt River floodplain soils and the older housing stock near downtown Tempe carry established termite populations. Annual inspections are standard in Maricopa County.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak movement in fall",
+        note: "Roof rats are common throughout Tempe, particularly in neighborhoods with mature citrus, fig, and palm trees. The university neighborhoods and the older bungalow-style homes near Tempe Town Lake see consistent roof rat activity. They travel along power lines and through tree canopies.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active when host animals are present, spring through fall peak",
+        note: "Ticks are a secondary concern near the Tempe Town Lake riparian corridor and Papago Park, where wildlife populations, including coyotes, javelinas, and deer, carry ticks through the otherwise urban landscape. Brown dog ticks are the species most commonly encountered in Maricopa County.",
+      },
+    ],
+    localHook:
+      "Tempe Town Lake is one of the defining features of the city, and it creates a pest dynamic that most Phoenix-area cities do not have. The riparian corridor along the Salt River brings wildlife, including coyotes and deer, into an otherwise fully urban environment, and with them come ticks and the kind of moisture-dependent pests that the surrounding desert normally lacks. Properties within a few blocks of the lake see pest pressure that does not match the desert suburb experience everywhere else in Tempe.",
+    intro:
+      "Pest control in Tempe follows the Phoenix metro pattern for most of the city: bark scorpions, termites, and roof rats are the recurring concerns. But the Tempe Town Lake corridor and the ASU campus add two layers that other Valley cities do not have. The lakefront and the Salt River riparian area sustain wildlife that carry ticks into the urban core. The high density of commercial kitchens and apartment complexes near Arizona State University creates persistent German cockroach pressure. Both require a different approach than standard suburban desert pest control.",
+    sections: [
+      {
+        heading: "Cockroach control near the ASU campus",
+        body: "The food service density around Arizona State University sustains German cockroach populations in commercial kitchens, food trucks, and apartment buildings that require active ongoing management. German cockroaches spread between units in multi-family buildings through shared walls and utility chases, making single-unit treatment ineffective without addressing adjacent spaces. The American cockroach component comes from the city's drainage system and is managed differently: it is primarily an exclusion problem, sealing plumbing penetrations and drain gaps.",
+      },
+      {
+        heading: "Roof rats and older Tempe neighborhoods",
+        body: "The neighborhoods surrounding the university and along the lake include older bungalow-style homes with mature trees that roof rats use as a travel network. Roof rats are the primary rat species in the Phoenix metro and will enter homes through gaps at the roofline level. The combination of a dense tree canopy, older construction with more entry points, and proximity to the citrus and fig trees common in older Tempe yards sustains a higher roof rat population in central Tempe than in the newer outer-ring suburbs.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes and utility gaps to block scorpion entry; use door sweeps on all exterior doors.",
+      "Keep food stored in sealed containers in apartments and homes near the ASU campus to reduce cockroach foraging incentive.",
+      "Check pets for ticks after walks near Tempe Town Lake, Papago Park, or any Salt River riparian area.",
+      "Trim fruit trees away from the roofline and seal gaps at the fascia and soffit junction to reduce roof rat entry.",
+    ],
+    costNote:
+      "Tempe pest control typically starts with a free inspection. Commercial properties near the ASU campus benefit from monthly cockroach programs. Residential scorpion programs are quarterly. Termite inspections are annual. Properties near the lake may need tick treatment added to the yard program.",
+    faqs: [
+      {
+        question: "Are ticks a concern near Tempe Town Lake?",
+        answer:
+          "Yes, in the riparian corridors along the Salt River and in Papago Park. Wildlife including coyotes and deer move through those corridors and carry ticks into what is otherwise a dense urban area. Brown dog ticks are the most common species in Maricopa County. If you walk dogs near the lake or the river corridor, check them after each visit. Residential properties within a few blocks of the riparian zone can benefit from a yard tick treatment in spring and fall.",
+      },
+      {
+        question: "Why are cockroaches such a persistent problem near ASU?",
+        answer:
+          "The high density of food service establishments, apartment complexes, and student housing around Arizona State University creates ideal German cockroach conditions: abundant food, moisture, warmth, and shared building spaces that allow cockroaches to spread between units without going outside. Commercial properties in the university district typically need monthly treatment programs. Residential properties in the same area see spillover pressure from adjacent commercial establishments.",
+      },
+      {
+        question: "Are bark scorpions common in central Tempe neighborhoods?",
+        answer:
+          "Yes, though Tempe's more established central neighborhoods see lower scorpion activity than the newer desert-edge developments in Gilbert or Queen Creek. The Tempe Butte area and older neighborhoods near downtown can have active scorpion populations. Bark scorpions are climbers and can show up on walls and ceilings inside homes. Sealing weep holes and maintaining a perimeter treatment are the practical prevention steps.",
+      },
+      {
+        question: "What termite species are in Tempe?",
+        answer:
+          "Western subterranean termites are the primary species. They are active throughout Maricopa County's soils and swarm during the summer monsoon season. Tempe's older housing stock near the university and the Salt River floodplain soils carry established termite populations. Annual inspection is the standard recommendation and is often the minimum coverage required by mortgage lenders.",
+      },
+      {
+        question: "How do I manage roof rats in my Tempe home?",
+        answer:
+          "Roof rats in Tempe typically enter through the roofline. Start by trimming any trees or shrubs to at least 3 feet from the building. Then inspect the roofline for gaps around vents, at the soffit-fascia junction, and where pipes or wires enter the wall at roof level. Seal any gaps you find. Trapping removes current residents, but without sealing the entry points, new rats will move in from the surrounding population. Removing fallen fruit and securing outdoor food sources also reduces the attractiveness of the property.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Phoenix", slug: "phoenix" },
+      { name: "Mesa", slug: "mesa" },
+      { name: "Chandler", slug: "chandler" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Tempe, AZ | Scorpions, Cockroaches & Roof Rats",
+    metaDescription:
+      "Tempe pest control for bark scorpions, cockroaches, subterranean termites, roof rats and ticks. Maricopa County near ASU and Tempe Town Lake. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

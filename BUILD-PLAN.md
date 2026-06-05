@@ -15,7 +15,7 @@
 
 **AUTONOMY (5 June 2026):** the build routine runs unattended. One block per run, full 7-stage pipeline as the QA gate, commit to main, deploy auto, post live links to Slack as a record. There is no approval step, no wait-for-go, and no stop condition. Advance through the phases in order; when the city universe is built, the pest x city matrix (Phase 6) is the long-tail engine and runs indefinitely.
 
-**Where we are:** Phase 2 T2 in progress. Chunk 4 complete: 100 total city pages built (75 T1 + 25 T2). 275 T2 cities remaining. Next: chunk 5.
+**Where we are:** Phase 2 T2 in progress. Chunk 5 complete: 125 total city pages built (75 T1 + 50 T2). 250 T2 cities remaining. Next: chunk 6.
 
 ---
 
@@ -88,3 +88,4 @@ build_state.json holds the machine-readable next unit: `next_chunk`, `next_chunk
 | 2026-06-04 | Chunk 3 | Final 25 T1 city pages. T1 COMPLETE (75 cities, 155 site pages). | 25 city pages | Live on main. |
 | 2026-06-04 | Chunk 4 | First 25 T2 city pages. New states: Utah, Iowa, Alabama, Arkansas. 100 city pages, ~180 site pages, rotation balanced 20 each A-E. | 25 city pages | Live on main. Next: chunk 5. |
 | 2026-06-05 | Plan expansion | Defined the T3 town universe (~5,000 incorporated places >5,000 pop, was null), added Phase 6 pest x city matrix as the long-tail engine (25 services x cities, ~10,000 at full build, sized to demand), set blog target (200), documented phase order and per-run build order, added autonomy note. No content built this entry. | 0 | Build plan now sized to thousands of pages. Routine prompt to be set up next. Next: chunk 5, 25 T2 cities, rotation at A. |
+| 2026-06-05 | Chunk 5 | 25 T2 city pages. New states: Mississippi (Jackson), South Carolina (Columbia), Connecticut (Hartford). Existing states expanded: CA (Fremont, Huntington Beach, Moreno Valley, Oxnard, Santa Ana), FL (Hialeah, Cape Coral, Tallahassee), AZ (Glendale, Gilbert, Tempe), WA (Tacoma), TX (McKinney), MI (Grand Rapids), NC (Fayetteville, Cary), NY (Yonkers), GA (Augusta), MO (Springfield), IL (Aurora), NJ (Paterson). Template rotation balanced 25 each A-E. 125 total cities, 208 site pages. Build green. | 25 city pages | Live on main. Next: chunk 6. |

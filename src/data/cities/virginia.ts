@@ -329,4 +329,110 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Richmond pest control for subterranean termites, Asian tiger mosquitoes, Norway rats, stink bugs and cockroaches. Historic-home specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "chesapeake",
+    name: "Chesapeake",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T2",
+    population: "~250,000",
+    county: "Chesapeake City",
+    climate: "hot-humid",
+    climateDriver:
+      "Chesapeake is Virginia's second largest city by land area and encompasses the Great Dismal Swamp National Wildlife Refuge in its southern section. The combination of tidal wetlands along the Elizabeth River, the Dismal Swamp's extensive wetland system, and the humid subtropical climate produces one of the most mosquito-intensive environments in Virginia. Termites work year-round in the moist soils, and stink bugs move through in fall.",
+    topPests: ["Mosquitoes", "Eastern Subterranean Termites", "Stink Bugs", "Ticks", "Copperhead-Adjacent Spiders"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, intense near wetlands",
+        note: "Chesapeake's wetlands, including the Great Dismal Swamp and the tidal marshes along the Southern Branch of the Elizabeth River, create sustained mosquito breeding habitat throughout the city. The City of Chesapeake Mosquito Control program treats priority areas, but residential properties near wetland edges see mosquito pressure that extends well beyond what public programs address.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round underground",
+        note: "Eastern subterranean termites are active throughout Chesapeake's moist soils, particularly near the wetland corridors and tidal areas where soil moisture remains consistently high. Hampton Roads generally has elevated termite pressure compared to inland Virginia.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter indoors",
+        note: "Stink bugs invade Chesapeake homes in fall seeking overwintering sites. The Hampton Roads region sees significant stink bug activity, and the agricultural and wooded areas in Chesapeake's western sections provide high numbers of stink bugs before the fall movement begins.",
+      },
+      {
+        name: "Lone star ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, most aggressive in summer",
+        note: "Lone star ticks are the dominant tick species in the Hampton Roads area, including Chesapeake. They are aggressive host-seekers that actively pursue hosts rather than simply waiting for contact. The Great Dismal Swamp and the city's wooded areas sustain wildlife populations that carry ticks through the landscape.",
+      },
+      {
+        name: "Brown recluse and black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spaces",
+        note: "Both brown recluse and black widow spiders are found in Chesapeake, particularly in the older residential and commercial areas. Chesapeake's southern location and wooded areas make it one of the higher-risk Hampton Roads cities for brown recluse encounters, though they are far less common here than in Missouri and the deeper mid-South.",
+      },
+    ],
+    localHook:
+      "The Great Dismal Swamp covers part of southern Chesapeake and stretches into North Carolina. It is one of the most significant wetland ecosystems on the East Coast. It is also one of the reasons mosquitoes and ticks are a more serious concern in southern Chesapeake than in any other Hampton Roads city. Properties within a few miles of the Swamp boundary see mosquito activity and tick pressure that properties closer to the coast do not.",
+    intro:
+      "Pest control in Chesapeake is shaped by water. The city's tidal wetlands, canal systems, and the Great Dismal Swamp create exceptional mosquito habitat. Eastern subterranean termites are active throughout the moist soils along the water corridors. Ticks, particularly lone star ticks, are present wherever wooded areas and wildlife overlap, which is much of Chesapeake's western and southern sections. Stink bugs arrive each fall in serious numbers from the surrounding agricultural and wooded land. The combination makes year-round pest protection more useful here than in the more suburban Hampton Roads cities.",
+    sections: [
+      {
+        heading: "Mosquito control near the Great Dismal Swamp",
+        body: "The Great Dismal Swamp is a federal wildlife refuge covering more than 100,000 acres. Its extensive wetland system produces mosquitoes that disperse well beyond the refuge boundary. Chesapeake properties within several miles of the Swamp on the city's south side see elevated mosquito pressure that the City's control program cannot fully address. Residential source reduction, removing standing water in the yard, and perimeter barrier treatments significantly reduce activity at the property level. The barrier treatment needs to target resting sites in shrubs and under decks where adult mosquitoes shelter during the day.",
+      },
+      {
+        heading: "Termites in tidal and wetland-adjacent soils",
+        body: "Eastern subterranean termites thrive in the consistently moist soils along Chesapeake's tidal corridors, canal banks, and the wetland edges throughout the southern part of the city. Properties with wood near the soil line, including deck posts, fence boards, and crawl space framing, are at ongoing risk. Annual inspections and a soil treatment or baiting system are the standard of care for Hampton Roads properties. After a wet spring, termite swarming can be visible across the city, which is a reliable reminder that the colonies are active.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water in gutters, plant containers, and any yard low spot to reduce mosquito breeding sites.",
+      "Use tick repellent and check yourself and pets after any time in wooded or brushy areas in southern and western Chesapeake.",
+      "Seal gaps around windows, doors, and utility penetrations before September to limit stink bug entry.",
+      "Keep wood, mulch, and leaf litter away from the foundation to reduce termite access points.",
+    ],
+    costNote:
+      "Chesapeake pest control typically starts with a free inspection. Annual termite protection is strongly recommended given the wetland-adjacent soil conditions. Mosquito programs run April through October. Tick yard treatments are typically spring and fall applications.",
+    faqs: [
+      {
+        question: "Are mosquitoes really worse near the Great Dismal Swamp?",
+        answer:
+          "Yes, meaningfully so for properties within several miles of the Swamp boundary on Chesapeake's south side. The Swamp's permanent wetland provides breeding habitat that sustains mosquito populations throughout the warm season independent of rainfall in any given week. The City's mosquito control program covers public areas, but residential properties at the Swamp's edge need active source reduction and perimeter barrier treatment to keep activity at manageable levels.",
+      },
+      {
+        question: "Are ticks a serious concern in Chesapeake?",
+        answer:
+          "Yes. Lone star ticks are the dominant species in the Hampton Roads area and they are aggressive: they actively move toward hosts rather than just waiting for contact. The wooded western and southern sections of Chesapeake, and any property near the Dismal Swamp corridor, see meaningful tick activity spring through fall. Checking yourself and pets after outdoor activity in wooded or brushy areas, using repellent, and treating the yard perimeter in spring and fall are all practical steps.",
+      },
+      {
+        question: "How serious is termite risk in Chesapeake?",
+        answer:
+          "Significant, particularly for properties near tidal water, canals, and wetlands where soil moisture is consistently high. Hampton Roads as a whole has elevated termite pressure compared to inland Virginia. Annual inspections are standard and should be treated as a recurring maintenance item rather than a one-time check.",
+      },
+      {
+        question: "When do stink bugs enter homes in Chesapeake?",
+        answer:
+          "The main invasion period is September through November as brown marmorated stink bugs seek warm overwintering sites. Chesapeake's agricultural fringe and wooded land provide large populations that move toward heated structures as temperatures drop. Sealing gaps around windows, doors, and utility penetrations before September reduces the number that get in. Once inside wall voids, they are difficult to treat without heating them out, so prevention is by far the more effective strategy.",
+      },
+      {
+        question: "What spiders should I be concerned about in Chesapeake?",
+        answer:
+          "Black widow spiders are present in Chesapeake and are found in garages, under decks, and in undisturbed outdoor storage. Brown recluse spiders are at the northern edge of their range in the Hampton Roads area: they are present but less common than in the deep mid-South. Both species have medically significant bites and warrant care when working in undisturbed storage areas. Regular spider treatment of the perimeter and clearing clutter from garage and storage areas reduces the likelihood of contact.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Virginia Beach", slug: "virginia-beach" },
+      { name: "Norfolk", slug: "norfolk" },
+      { name: "Portsmouth", slug: "portsmouth" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Chesapeake, VA | Mosquitoes, Termites & Ticks",
+    metaDescription:
+      "Chesapeake pest control for mosquitoes near the Great Dismal Swamp, subterranean termites, ticks, stink bugs and spiders. Hampton Roads specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

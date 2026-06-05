@@ -322,4 +322,110 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Rochester pest control for house mice, German cockroaches, carpenter ants, earwigs and stink bugs. Monroe County and Lake Ontario specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "yonkers",
+    name: "Yonkers",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T2",
+    population: "~200,000",
+    county: "Westchester County",
+    climate: "cold-humid",
+    climateDriver:
+      "Yonkers is New York State's fourth-largest city, immediately north of the Bronx on the Hudson River. The cold-humid northeast climate delivers cold winters and hot, humid summers. Yonkers' combination of dense pre-war apartment buildings, active commercial corridors, and proximity to the Bronx creates urban pest pressure comparable to New York City: bed bugs, rodents, and cockroaches are the daily baseline. The Hudson waterfront and Saw Mill River corridors contribute seasonal tick and mosquito pressure.",
+    topPests: ["Bed Bugs", "House Mice", "German Cockroaches", "Norway Rats", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are the top pest concern in Yonkers' multi-family housing stock. The city's dense pre-war apartment buildings, frequent resident turnover, and connections to the New York City transit network all facilitate bed bug spread. Early detection is essential: a small infestation of 20 to 50 bugs is much easier to eliminate than a population of hundreds.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round in urban environments, surge in fall",
+        note: "House mice are a year-round problem in Yonkers' older housing stock. The pre-war apartment buildings and commercial buildings on many of the city's main corridors have enough settled gaps around pipes and utility chases to sustain resident mouse populations in almost any building. Fall brings a new surge as outdoor populations seek warmth.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are present throughout Yonkers' multi-family and commercial buildings. They spread between units through shared plumbing and utility chases. Effective control requires treating all affected units in a building simultaneously and following up within two weeks to address the new generation.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are common along Yonkers' commercial corridors, near the Hudson waterfront, and in older neighborhoods with aging underground infrastructure. They burrow at foundation lines and enter buildings through openings at ground level. The Saw Mill River area and the lower-elevation neighborhoods near the Bronx border see higher rat pressure.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter indoors",
+        note: "Stink bugs are a significant fall nuisance in Yonkers and throughout Westchester County. They invade from the wooded slopes above the Hudson corridor and the suburban greenbelts in the northern parts of the city. Thousands can enter wall voids of large buildings in a single fall season.",
+      },
+    ],
+    localHook:
+      "Yonkers sits at the intersection of New York City's urban pest pressure and Westchester County's suburban landscape. It has the bed bug and rodent challenges of the city to its south and the stink bug and tick issues of the suburban county to its north. That combination means pest management in Yonkers needs to address both urban and suburban threats at the same time.",
+    intro:
+      "Pest control in Yonkers has two registers. The urban one involves bed bugs, mice, cockroaches, and rats in the dense pre-war housing and commercial buildings that make up much of the city. The suburban one involves stink bugs in fall, ticks near the Hudson corridor and the Saw Mill River, and the seasonal ant and wasp activity common to Westchester County. For most Yonkers residents in multi-family housing, the urban pests are the daily concern. For homeowners in the northern and eastern parts of the city near wooded areas, the suburban pests are the seasonal ones to watch.",
+    sections: [
+      {
+        heading: "Bed bug prevention in multi-unit housing",
+        body: "Bed bugs are the hardest urban pest to prevent because they travel with people, not between buildings on their own. In Yonkers' multi-family buildings, they move from unit to unit through shared wall spaces and utility chases after residents bring them in. The practical steps for individuals are: inspect secondhand furniture and mattresses before bringing them into the home, check bedding and mattress seams periodically, and respond immediately if you see signs of activity. For building managers, regular inspections and a swift coordinated response when an infestation is reported significantly reduces the spread to adjacent units.",
+      },
+      {
+        heading: "Rodent management in an older urban environment",
+        body: "Yonkers' older housing and commercial building stock has enough settled cracks, gaps around aging pipes, and deteriorated foundation seals to give mice and rats multiple pathways into any building. Exclusion work in older buildings requires a thorough walk of all utility penetrations, drain connections, and exterior foundation gaps. Expanding foam alone is not adequate for rat exclusion; steel wool or hardware cloth in the gap before sealing is necessary because rats chew through foam. Trapping removes current residents but without sealing entry points, new animals move in from the surrounding urban population.",
+      },
+    ],
+    prevention: [
+      "Inspect mattress seams and box spring fabric periodically for bed bug signs: small reddish-brown spots or actual bugs the size of an apple seed.",
+      "Seal gaps around pipes and utility chases under sinks and in walls to block mouse and cockroach pathways.",
+      "Use sealed garbage containers and remove food waste promptly to reduce rat attractiveness.",
+      "Seal gaps around windows and utility penetrations before September to limit stink bug entry.",
+    ],
+    costNote:
+      "Yonkers pest control pricing depends on building type and infestation scale. Bed bug treatment for multi-unit buildings is quoted by the scope of affected units. Rodent programs include inspection, exclusion, and trapping. Cockroach programs in multi-family buildings are monthly. Everything starts with a free inspection.",
+    faqs: [
+      {
+        question: "How common are bed bugs in Yonkers?",
+        answer:
+          "Bed bugs are a persistent urban pest in Yonkers, particularly in multi-family housing. The city's connections to New York City through transit and its dense, high-turnover apartment stock create ongoing introduction risk. They are not a sign of poor housekeeping: they travel in luggage, on clothing, and in furniture and can appear in any building. Early detection, when the infestation is small, is the key to manageable and affordable treatment.",
+      },
+      {
+        question: "Why are mice so hard to get rid of in older Yonkers buildings?",
+        answer:
+          "Older buildings have more entry points, plain and simple. Decades of settling, pipe replacements, and utility upgrades leave gaps at penetrations throughout pre-war construction that were never properly sealed. A house mouse needs a quarter-inch gap. In an older multi-unit building, those gaps exist throughout the utility chases, and mice travel between units through the same routes. Full exclusion requires identifying and sealing every penetration at the unit level, not just the exterior.",
+      },
+      {
+        question: "Are Norway rats a serious problem in Yonkers?",
+        answer:
+          "Yes, particularly along commercial corridors, near the Hudson waterfront, and in neighborhoods with aging infrastructure. Norway rats burrow at foundation lines and enter through openings at ground level, under porches, and through degraded drain connections. They are persistent and breed quickly. Exclusion work combined with trapping is the effective approach. Removing outdoor food sources (unsecured garbage, pet food left outside) is the most important supporting step.",
+      },
+      {
+        question: "How do stink bugs enter homes in Yonkers?",
+        answer:
+          "Stink bugs aggregate on the sunny south- and west-facing exterior walls of homes in September and October, then work their way in through gaps around windows, utility lines, and siding. Once inside wall voids, they overwinter and emerge on warm winter days, which is when indoor activity is most visible. Sealing gaps before September is the most effective prevention. If they are already inside, avoid crushing them (the odor is significant) and use a vacuum to collect them.",
+      },
+      {
+        question: "What can a resident of a Yonkers apartment do about German cockroaches if the building management is slow to respond?",
+        answer:
+          "Within your own unit, the most effective DIY step is gel bait placement in harborage areas: inside cabinet hinges, under sinks behind the drain, and in the narrow gap between the stove and the counter. These are the spots cockroaches use most. Remove the food and moisture sources that attract them. Document the infestation in writing and report it to building management. In New York, landlords have a legal obligation to address pest infestations in rental housing. If management is unresponsive, tenant reporting to housing code enforcement is an available option.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "New York City", slug: "new-york-city" },
+      { name: "White Plains", slug: "white-plains" },
+      { name: "Mount Vernon", slug: "mount-vernon" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Yonkers, NY | Bed Bugs, Mice & Cockroaches",
+    metaDescription:
+      "Yonkers pest control for bed bugs, house mice, German cockroaches, Norway rats and stink bugs. Westchester County urban specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

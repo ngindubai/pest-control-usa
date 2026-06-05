@@ -110,4 +110,110 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Atlanta pest control for mosquitoes, subterranean termites, fire ants, roaches and roof rats. Seasonal mosquito and termite plans, free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "augusta",
+    name: "Augusta",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T2",
+    population: "~200,000",
+    county: "Richmond County",
+    climate: "hot-humid",
+    climateDriver:
+      "Augusta sits on the fall line between the Georgia Piedmont and the coastal plain, on the Savannah River at the South Carolina border. The hot, humid climate produces long, warm growing seasons and mild winters. The Savannah River corridor and the Canal National Heritage Area create wetland and riparian habitat that sustains mosquitoes and sustained humidity that supports termite activity well into the fall. The city's significant tree canopy adds moisture retention.",
+    topPests: ["Eastern Subterranean Termites", "Mosquitoes", "Fire Ants", "American Cockroaches", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round underground",
+        note: "Eastern subterranean termites are active throughout Richmond County. Augusta's fall-line soils and the consistent humidity from the Savannah River corridor create favorable conditions for termite colonies that are active most of the year. The older housing stock in the Summerville, Olde Town, and Harrisburg neighborhoods carries elevated termite risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Augusta's position on the Savannah River and the Augusta Canal Heritage Area's waterways sustain mosquito breeding habitat throughout the warm season. Standing water in the river bottomlands and the drainage ditches of older neighborhoods extends breeding pressure from early spring to late October.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring through fall",
+        note: "Red imported fire ants are present throughout Augusta's lawns and green spaces. The warm Georgia climate keeps them active much of the year. New development on former agricultural and piedmont land consistently produces elevated fire ant mound density in the first two to three seasons after construction.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge during rain",
+        note: "American cockroaches live in Augusta's drainage system and organic leaf litter and push into homes during heavy rain. The older neighborhoods near downtown and the river have slab construction with more underground access points. Sealing floor drains and plumbing penetrations reduces indoor incursions.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter indoors",
+        note: "Stink bugs are an increasing fall pest in Augusta and across the Central Savannah River Area. The agricultural and wooded land surrounding the city produces growing stink bug populations that move into structures as temperatures drop in fall.",
+      },
+    ],
+    localHook:
+      "Augusta is best known nationally for the Masters golf tournament, but the city's pest control season is shaped by the same Augusta Canal and Savannah River ecosystem that historically powered its mills. The river corridor's permanent wetlands sustain mosquito populations from early spring through October that are more persistent than the surrounding Piedmont cities.",
+    intro:
+      "Pest control in Augusta follows the Savannah River calendar. The river corridor and the Augusta Canal's water features sustain mosquito populations from March through October. Eastern subterranean termites work through the fall-line soils year-round in one of Georgia's historically active termite zones. Fire ants are in every yard. American cockroaches move from the storm drainage system into homes during wet weather. Stink bugs have become a significant fall nuisance across the Central Savannah River Area in recent years as the population has grown.",
+    sections: [
+      {
+        heading: "Termites in Augusta's historic and older neighborhoods",
+        body: "Augusta's older neighborhoods, including Summerville, Olde Town, and the areas around Broad Street, have housing stock that ranges from Victorian-era homes to mid-century construction. In Augusta's climate, older homes near the Savannah River and the Canal waterway system carry elevated termite risk from the moist soils along the riparian corridor. Annual inspections are the standard of care, and homes with crawl spaces or wood near grade should be the priority for proactive treatment. A termite protection plan is a standard part of home maintenance in Georgia's Central Savannah River region.",
+      },
+      {
+        heading: "Mosquito season along the Augusta Canal corridor",
+        body: "The Augusta Canal, a National Heritage Area, runs along the Savannah River and through the northwest part of the city. Its managed water level and the adjacent wetlands provide consistent mosquito breeding habitat through the warm season. Properties within half a mile of the canal and the river corridor see mosquito activity that extends earlier in spring and later in fall than properties in the inland neighborhoods. Perimeter barrier treatments targeting the vegetation around the home, combined with source reduction in the yard, give the best seasonal control.",
+      },
+    ],
+    prevention: [
+      "Maintain annual termite inspections, especially for older properties near the Savannah River corridor.",
+      "Eliminate standing water in yard low spots, clogged gutters, and any container that holds rain.",
+      "Seal plumbing penetrations and floor drain gaps to reduce American cockroach entry during rain.",
+      "Seal window gaps and utility penetrations before September to limit fall stink bug entry.",
+    ],
+    costNote:
+      "Augusta pest control typically starts with a free inspection. Termite programs are annual and strongly recommended. Mosquito programs run March through October. General pest programs for cockroaches, fire ants, ants, and spiders are quarterly.",
+    faqs: [
+      {
+        question: "Are termites a serious concern in Augusta?",
+        answer:
+          "Yes. Augusta is in the Georgia Piedmont-coastal plain transition zone, and the moist soils along the Savannah River corridor sustain active termite populations throughout Richmond County. The warm, humid climate keeps termites active most of the year. Annual inspections are standard, and homes near the river, the canal, or any area with moist soils should have a proactive treatment plan in place.",
+      },
+      {
+        question: "How long is mosquito season in Augusta?",
+        answer:
+          "March through October in most years. The Savannah River corridor and the Augusta Canal Heritage Area's waterways provide breeding habitat that extends the season beyond what yard source reduction alone can address. Properties near the canal or river see earlier spring activity and later fall activity. Perimeter barrier treatments are effective for the warm-season peak.",
+      },
+      {
+        question: "Why are American cockroaches common in Augusta neighborhoods?",
+        answer:
+          "American cockroaches live in Augusta's drainage system, sewer infrastructure, and the moist leaf litter common in older wooded neighborhoods. They are primarily outdoor insects that move inside during rain events through drains, pipe gaps, and poorly sealed doors. The older parts of the city near downtown and the river have slab foundations with more underground access. Sealing floor drains, pipe penetrations, and door gaps significantly reduces indoor incursions.",
+      },
+      {
+        question: "Are fire ants year-round in Augusta?",
+        answer:
+          "Georgia's mild winters do not eliminate fire ant colonies. Activity slows in cold months but rebounds quickly. New development in Augusta's growing outer neighborhoods consistently produces elevated fire ant mound pressure in the first seasons after construction. Broadcast bait treatment of the full lawn in spring and fall is more effective than treating individual mounds.",
+      },
+      {
+        question: "What should I know about stink bugs in Augusta?",
+        answer:
+          "Brown marmorated stink bugs are an increasing fall nuisance across the Central Savannah River Area. They aggregate on exterior walls in September and October seeking warm overwintering sites and work through gaps around windows and utility penetrations. Sealing those gaps before September is the primary prevention. Indoors, do not crush them: the odor is significant. Vacuum them up or place them in soapy water.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Columbia", slug: "columbia" },
+      { name: "Aiken", slug: "aiken" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Augusta, GA | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Augusta pest control for subterranean termites, Savannah River mosquitoes, fire ants, cockroaches and stink bugs. Richmond County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

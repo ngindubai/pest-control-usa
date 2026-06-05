@@ -216,4 +216,110 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Spokane pest control for house mice, boxelder bugs, hobo spiders, carpenter ants and paper wasps. Eastern Washington specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "tacoma",
+    name: "Tacoma",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T2",
+    population: "~225,000",
+    county: "Pierce County",
+    climate: "temperate",
+    climateDriver:
+      "Tacoma sits on Commencement Bay with Puget Sound to the west and the Tacoma Narrows to the southwest. The Pacific Northwest maritime climate delivers mild, wet winters and warm, dry summers. The port and industrial district on the tideflats, the older working-class neighborhoods in the Hilltop and South End, and the proximity to the Puyallup River bottom create pest pressure that is more urban and industrial than Seattle's.",
+    topPests: ["Norway Rats", "Roof Rats", "Yellow Jacket Wasps", "Odorous House Ants", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are the dominant rodent in Tacoma's port and industrial areas and in the older residential neighborhoods. The Tideflats, the industrial waterfront, and the city's extensive storm drain system sustain a substantial Norway rat population. They burrow near foundations and are active in basements and crawl spaces.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, move indoors fall through winter",
+        note: "Roof rats are the other Tacoma rodent. They are more common in the older hillside neighborhoods with mature vegetation and in areas bordering the natural woodlands of Point Defiance Park. They travel overhead and enter homes through gaps at the roofline.",
+      },
+      {
+        name: "Yellow jacket wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October, peak August and September",
+        note: "Yellow jackets are a seasonal but significant pest in Tacoma. They nest in wall voids, under eaves, and in the ground. Population peaks in late summer, and workers become more aggressive as the colony reaches maximum size in August and September.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active indoors spring through fall",
+        note: "Odorous house ants are the primary ant complaint in Tacoma homes. They nest in wall voids and under floors and forage for sweet food. They are small enough to enter through tiny gaps and the Pacific Northwest's wet winters keep them active inside when outdoor temperatures drop.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are present in Tacoma's multi-family housing, restaurant district, and older commercial areas. The port city character and the frequency of commercial food service operations in the city center sustain cockroach populations that require ongoing management.",
+      },
+    ],
+    localHook:
+      "Tacoma's port and industrial history makes its rodent problem different from Seattle's. The Tideflats and the industrial waterfront have sustained Norway rat populations for over a century, and the city's extensive storm drain and sewer infrastructure gives those rats pathways into residential neighborhoods throughout the city. Tacoma's rodent issue is a citywide structural reality, not just a localized property problem.",
+    intro:
+      "Pest control in Tacoma runs on the Pacific Northwest's wet, mild calendar with a port-city overlay. Rodents are the main event: Norway rats from the industrial waterfront and roof rats from the hillside neighborhoods both push into homes as the rain season arrives in October. Yellow jackets are the summer pest to watch, nesting in wall voids and under eaves across the older residential areas. Odorous house ants work through kitchens and bathrooms year-round. German cockroaches are in the commercial district and the multi-family housing stock across the city.",
+    sections: [
+      {
+        heading: "Rodent control in a port city",
+        body: "Tacoma's rat problem has a different character than in most Pacific Northwest cities. The Tideflats industrial zone, the Port of Tacoma, and the older residential neighborhoods of the South End and Hilltop all sustain Norway rat populations that are connected through the storm drain and sewer network. Addressing a rat problem on one property without thinking about the broader context is often insufficient. Exclusion work is critical: Norway rats burrow near foundations and enter through gaps at ground level, under porches, and through drain connections. Trapping removes active animals but the exclusion work keeps new ones from moving in.",
+      },
+      {
+        heading: "Yellow jackets in older Tacoma homes",
+        body: "Yellow jackets in Tacoma frequently nest inside wall voids and under the eaves of older homes with weathered siding and gaps around window frames. The nests can go undetected through spring and early summer as the colony is small, then become noticeable in August when workers start entering interior spaces through gaps around windows or in ceilings. By that point the colony may contain several thousand workers. Treating a wall void nest without the right equipment is hazardous. The safest approach is professional treatment with a residual dust application into the void, followed by sealing the entry points after the colony is eliminated.",
+      },
+    ],
+    prevention: [
+      "Seal gaps at the foundation line, around utility penetrations, and under porch and deck edges to block Norway rat entry.",
+      "Trim tree branches and tall shrubs away from the roofline to cut roof rat travel routes.",
+      "Seal gaps around windows and siding before July to prevent yellow jackets from establishing wall void nests.",
+      "Keep kitchen food stored in sealed containers and fix dripping fixtures to reduce ant foraging incentive.",
+    ],
+    costNote:
+      "Tacoma pest control typically starts with a free inspection. Rodent programs usually include both exclusion and trapping. Ant programs run quarterly. Yellow jacket treatments are typically summer emergency responses quoted per nest. German cockroach programs are monthly for commercial kitchens.",
+    faqs: [
+      {
+        question: "Why is Tacoma's rat problem worse than other cities?",
+        answer:
+          "Tacoma's industrial waterfront, port operations, and older storm drain infrastructure have sustained Norway rat populations at the city level for generations. Rats travel through the drain system and surface in residential neighborhoods throughout the city. Compared to cities without major port and industrial history, Tacoma has a larger baseline rat population that individual property exclusion work must contend with. It is a structural urban issue, not just a localized problem.",
+      },
+      {
+        question: "When are yellow jackets most dangerous in Tacoma?",
+        answer:
+          "August and September are the peak months. Yellow jacket colonies grow all summer and reach their maximum size in late summer, when thousands of workers are defending the nest and competing for food. Nests inside wall voids are particularly hazardous because disturbing the wall surface can trigger a rapid response from inside. If you hear buzzing in a wall or see workers entering through a gap in the siding, avoid the area and call a pest control professional.",
+      },
+      {
+        question: "What kind of ants are most common in Tacoma homes?",
+        answer:
+          "Odorous house ants are the most common ant complaint in Tacoma. They are small, dark-colored, and release a distinctive coconut-like smell when crushed. They nest in wall voids and under floors and forage for sweets and moisture. Carpenter ants are also present in Tacoma, particularly in older homes with wood moisture issues, and they can cause structural damage over time. Carpenter ants are larger and black; seeing large black ants inside warrants a different treatment approach than odorous house ants.",
+      },
+      {
+        question: "Are German cockroaches a problem in residential Tacoma homes?",
+        answer:
+          "German cockroaches are primarily a concern in multi-family housing and commercial food service in Tacoma. Single-family homes occasionally see them after they are brought in through boxes, bags, or secondhand appliances. Once established indoors, they breed rapidly. Treatment requires gel bait applications in harborage areas (under sinks, in cabinet hinges, near appliances) and follow-up to address the next generation. Standard spray treatments are less effective for German cockroaches than targeted bait applications.",
+      },
+      {
+        question: "How do I know if I have Norway rats or roof rats in my Tacoma home?",
+        answer:
+          "Norway rats are larger and heavier (up to a pound) and are found at ground level: basements, crawl spaces, and burrows near the foundation. Roof rats are smaller and slimmer and are found overhead: attics, wall voids, and along rafters. In Tacoma, Norway rats are more common in the lower-elevation and industrial-adjacent neighborhoods, while roof rats are more common in the hillside neighborhoods with mature trees near Point Defiance and the north end of the city. Both species are present in most parts of Tacoma.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Puyallup", slug: "puyallup" },
+      { name: "Lakewood", slug: "lakewood" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Tacoma, WA | Rats, Yellow Jackets & Ants",
+    metaDescription:
+      "Tacoma pest control for Norway rats, roof rats, yellow jackets, odorous house ants and German cockroaches. Pierce County port-city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

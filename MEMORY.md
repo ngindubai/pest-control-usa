@@ -8,16 +8,16 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-04)
+## Current State (2026-06-05)
 
-- **Phase:** Phase 2 T2 in progress. Chunk 4 complete.
-- **City pages built:** 100 total (75 T1 + 25 T2). 275 T2 cities remaining.
+- **Phase:** Phase 2 T2 in progress. Chunk 5 complete.
+- **City pages built:** 125 total (75 T1 + 50 T2). 250 T2 cities remaining.
 - **Town pages built:** 0.
-- **Total site pages:** ~180 in the static export (home, services, 50+ states, 100 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation balanced at 20 each (20% per template, 100 total cities).
-- **Cities built T2 chunk 4 (25):** Plano TX, Scottsdale AZ, Durham NC, Baton Rouge LA, Salt Lake City UT, Stockton CA, Reno NV, Winston-Salem NC, Chattanooga TN, Knoxville TN, Irvine CA, St. Petersburg FL, Laredo TX, Lubbock TX, Des Moines IA, Chandler AZ, Spokane WA, Fort Lauderdale FL, Birmingham AL, Rochester NY, Garland TX, Chula Vista CA, Akron OH, Little Rock AR, Worcester MA.
-- **New state files added chunk 4:** Utah, Iowa, Alabama, Arkansas.
-- **Next block:** Chunk 5, next 25 T2 cities, rotation continues at A.
+- **Total site pages:** 208 in the static export (home, services, 50+ states, 125 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation balanced at 25 each (20% per template, 125 total cities).
+- **Cities built T2 chunk 5 (25):** Fremont CA (A), Hialeah FL (B), Chesapeake VA (C), Glendale AZ (D), Tacoma WA (E), Gilbert AZ (A), Tempe AZ (B), Cape Coral FL (C), McKinney TX (D), Grand Rapids MI (E), Huntington Beach CA (A), Fayetteville NC (B), Jackson MS (C), Columbia SC (D), Tallahassee FL (E), Yonkers NY (A), Augusta GA (B), Moreno Valley CA (C), Springfield MO (D), Aurora IL (E), Oxnard CA (A), Paterson NJ (B), Hartford CT (C), Santa Ana CA (D), Cary NC (E).
+- **New state files added chunk 5:** Mississippi, South Carolina, Connecticut.
+- **Next block:** Chunk 6, next 25 T2 cities, rotation continues at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
@@ -75,6 +75,7 @@
 | 2026-06-04 | Chunk 2: next 25 T1 city pages built | Fort Worth, El Paso, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Washington DC, Oklahoma City, Boston, Baltimore, Louisville, Milwaukee, Albuquerque, Kansas City, St. Louis, Tampa, Orlando, Raleigh, Virginia Beach, Omaha, Colorado Springs, Wichita, Pittsburgh. Rotation continues balanced (10 each A to E). ClimateZone type extended to include desert, mediterranean, semi-arid, cold-humid. CLAUDE.md hardcoded push-to-main rule. |
 | 2026-06-04 | Chunk 3: final 25 T1 city pages built, T1 complete | Detroit, Mesa, Tulsa, Arlington, Cleveland, Bakersfield, Aurora, Honolulu, Anaheim, Riverside, Corpus Christi, Lexington, Henderson, Saint Paul, Cincinnati, Greensboro, Newark, Lincoln, Toledo, Buffalo, Jersey City, Madison, Norfolk, Richmond, Boise. New state files: Michigan, Hawaii, New Jersey, Idaho. Rotation balanced at exactly 15 each A to E. Fixed invalid service slugs (rodent-control, wasp-hornet-control). American English pass applied earlier. 75 T1 cities total, 155 site pages. |
 | 2026-06-04 | Chunk 4: first 25 T2 city pages, Phase 2 begins | Plano TX (A), Scottsdale AZ (B), Durham NC (C), Baton Rouge LA (D), Salt Lake City UT (E), Stockton CA (A), Reno NV (B), Winston-Salem NC (C), Chattanooga TN (D), Knoxville TN (E), Irvine CA (A), St. Petersburg FL (B), Laredo TX (C), Lubbock TX (D), Des Moines IA (E), Chandler AZ (A), Spokane WA (B), Fort Lauderdale FL (C), Birmingham AL (D), Rochester NY (E), Garland TX (A), Chula Vista CA (B), Akron OH (C), Little Rock AR (D), Worcester MA (E). New state files: Utah, Iowa, Alabama, Arkansas. Rotation balanced at 20 each A to E. 100 total cities, ~180 site pages. Build green. |
+| 2026-06-05 | Chunk 5: next 25 T2 city pages | Fremont CA (A), Hialeah FL (B), Chesapeake VA (C), Glendale AZ (D), Tacoma WA (E), Gilbert AZ (A), Tempe AZ (B), Cape Coral FL (C), McKinney TX (D), Grand Rapids MI (E), Huntington Beach CA (A), Fayetteville NC (B), Jackson MS (C), Columbia SC (D), Tallahassee FL (E), Yonkers NY (A), Augusta GA (B), Moreno Valley CA (C), Springfield MO (D), Aurora IL (E), Oxnard CA (A), Paterson NJ (B), Hartford CT (C), Santa Ana CA (D), Cary NC (E). New state files: Mississippi, South Carolina, Connecticut. Rotation balanced at 25 each A to E. 125 total cities, 208 site pages. Build green. |
 
 ## ClimateZone Values (extended 2026-06-04)
 

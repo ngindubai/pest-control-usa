@@ -1278,4 +1278,110 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Garland pest control for fire ants, subterranean termites, Lake Ray Hubbard mosquitoes, cockroaches and rats. Dallas County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "mckinney",
+    name: "McKinney",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~200,000",
+    county: "Collin County",
+    climate: "hot-humid",
+    climateDriver:
+      "McKinney sits in the Blackland Prairie region of North Texas, where dark clay soils retain moisture and the climate oscillates between hot, humid summers and cold, occasionally icy winters. The rapid development of agricultural and prairie land into suburbs has created the disturbed-soil conditions that fire ants colonize first and fastest. The clay soils and alternating wet-dry cycles also create some of the best conditions for subterranean termite activity in the DFW region.",
+    topPests: ["Fire Ants", "Eastern Subterranean Termites", "Mosquitoes", "Striped Bark Scorpions", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible April through October",
+        note: "Fire ants are the defining turf pest of McKinney's Blackland Prairie lawns. The clay soils retain moisture after rain and fire ants move quickly to colonize disturbed ground. New construction sites and recently sodded lawns in McKinney's fast-growing neighborhoods consistently see heavy fire ant mound pressure.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring (March through May), active year-round",
+        note: "Eastern subterranean termites are active throughout Collin County. McKinney's Blackland Prairie clay soils retain moisture well and sustain termite colonies that are active longer each season than in the sandier soils of other Texas regions. Termite swarms after spring rains are a regular occurrence in the city.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "McKinney's clay soils form pools of standing water after rain that persist longer than sandy soils would allow, extending the effective mosquito breeding window. The city's rapid development has created many drainage features and retention ponds that add to the breeding habitat.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "March through October",
+        note: "The striped bark scorpion is present throughout North Texas, including McKinney. It is less common here than in the Hill Country or West Texas, but it is an established species in Collin County. It is the only scorpion species in the area and its sting, while painful, is rarely dangerous to a healthy adult.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spaces, most active spring and fall",
+        note: "Brown recluse spiders are common in North Texas and McKinney is within their range. They shelter in undisturbed spaces: cardboard boxes, stored clothing, in closets and garages. The bite is slow to heal and can cause significant tissue damage. Removing clutter and sealed storage reduces the risk of contact.",
+      },
+    ],
+    localHook:
+      "McKinney's growth from a small historic town to one of the fastest-growing large cities in the United States happened almost entirely on Blackland Prairie. That prairie soil is fire ant country. Every new development in McKinney breaks ground in soil that already has fire ant colonies in it, and those colonies relocate onto the freshly disturbed land and the neighboring yards faster than almost any other Texas pest species.",
+    intro:
+      "Pest control in McKinney is shaped by the Blackland Prairie. Fire ants are the first pest most new residents encounter, appearing in mounds across lawns within weeks of sod installation on any new yard. Eastern subterranean termites work through the clay soils year-round and swarm visibly in spring. Mosquitoes breed in the persistent water that McKinney's clay-heavy landscape holds after every rain. Striped bark scorpions are present and worth noting for families with young children. Brown recluse spiders are common in the garages and storage areas of homes throughout Collin County.",
+    sections: [
+      {
+        heading: "Fire ants and new construction in the Blackland Prairie",
+        body: "Fire ants are uniquely well-suited to disturbed soil, which is exactly what McKinney's construction boom produces. A new neighborhood built on former prairie or agricultural land will see fire ant mounds in the lawns within the first growing season. The black clay soils of Collin County hold moisture and warmth, which are the conditions fire ants prefer. Broadcast bait treatment of the entire property is more effective than treating individual mounds: targeting mounds just moves the colony to a new location nearby. Two broadcast applications per year, one in spring and one in fall, significantly reduces fire ant pressure across the property.",
+      },
+      {
+        heading: "Termite protection in Collin County's clay soils",
+        body: "The Blackland Prairie's clay soils are excellent habitat for eastern subterranean termites. Clay retains moisture even through dry periods, and moisture is what termite colonies need to survive at depth. McKinney's rapid growth means a large proportion of the housing stock is less than 20 years old, but age is not a reliable protection against termites: eastern subterranean termites will attack any accessible wood, new or old. Annual inspections and a soil treatment or baiting system are the standard recommendation for Collin County homeowners.",
+      },
+    ],
+    prevention: [
+      "Treat the entire lawn with broadcast bait in spring and fall rather than targeting individual fire ant mounds.",
+      "Keep mulch and soil away from siding and the wood framing of doors and windows to reduce termite access.",
+      "Eliminate standing water from containers, clogged gutters, and yard low spots to reduce mosquito breeding.",
+      "Store cardboard boxes and clothing in sealed plastic bins to reduce brown recluse harborage in garages.",
+    ],
+    costNote:
+      "McKinney pest control typically starts with a free inspection. Fire ant programs are usually broadcast bait applications twice a year. Termite inspections are free; treatment is quoted based on structure and findings. Mosquito barrier treatments are available on a six- to eight-week schedule through the warm season.",
+    faqs: [
+      {
+        question: "Why are fire ants so bad in McKinney?",
+        answer:
+          "McKinney's location on the Blackland Prairie is the core reason. The dark clay soils retain moisture well after rain, fire ants prefer disturbed ground, and McKinney's rapid development has produced acres of freshly disturbed soil every year for the past two decades. New lawns, new construction, and the general churn of a fast-growing suburb provide exactly the conditions fire ants colonize most aggressively. Once a yard is established, broadcast bait treatment twice a year keeps them manageable.",
+      },
+      {
+        question: "Are termites a serious concern in McKinney?",
+        answer:
+          "Yes. Eastern subterranean termites are active throughout Collin County and the clay soils of the Blackland Prairie sustain colonies that are active longer through dry periods than sandier soils allow. Termite swarms in spring are common across McKinney. New construction is not protected: the soil under a new foundation already has termite colonies in it. Annual inspections and a proactive treatment plan are the standard recommendation.",
+      },
+      {
+        question: "Are brown recluse spiders common in McKinney homes?",
+        answer:
+          "Yes. Brown recluse spiders are well-established in North Texas and McKinney is within the core of their range. They do not seek out humans but they live in the same spaces people store things: garages, closets, cardboard boxes, under furniture. The bite is slow to heal and can cause tissue damage over several weeks. Reducing clutter in storage areas and using sealed plastic bins instead of cardboard significantly reduces the likelihood of encounter.",
+      },
+      {
+        question: "How long is mosquito season in McKinney?",
+        answer:
+          "April through October in most years. McKinney's clay soils retain standing water longer after rain than sandy soils do, which extends the breeding window. The city's newer developments often have retention ponds and engineered drainage features that add to the available breeding habitat. Eliminating standing water on your own property, including in clogged gutters, plant containers, and low spots in the lawn, is the most direct way to reduce the breeding population near the home.",
+      },
+      {
+        question: "Should I be concerned about scorpions in McKinney?",
+        answer:
+          "Striped bark scorpions are present in McKinney and throughout North Texas, but they are far less common than in the Hill Country or West Texas. They do occasionally turn up in homes, particularly in older neighborhoods or those backing onto brushy land. The sting is painful but not medically significant for a healthy adult. The practical concern is for households with young children or family members with venom sensitivity. A perimeter spider and scorpion treatment as part of a general pest program addresses this risk.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Plano", slug: "plano" },
+      { name: "Frisco", slug: "frisco" },
+      { name: "Allen", slug: "allen" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in McKinney, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "McKinney pest control for fire ants, subterranean termites, mosquitoes, scorpions and brown recluse spiders. Collin County Blackland Prairie specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

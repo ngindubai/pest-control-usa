@@ -652,4 +652,322 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Fort Lauderdale pest control for drywood termites, palmetto bugs, German cockroaches, ghost ants and mosquitoes. Broward County tropical specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "hialeah",
+    name: "Hialeah",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~220,000",
+    county: "Miami-Dade County",
+    climate: "tropical",
+    climateDriver:
+      "Hialeah shares Miami-Dade County's true tropical climate: hot, wet summers with afternoon thunderstorms and mild, drier winters with no real frost. The year-round warmth means no pest gets a cold-season break. Termites, cockroaches, and ghost ants are active every month. Proximity to the Miami Canal system and the western Everglades fringe sustains mosquitoes and keeps humidity extremely high.",
+    topPests: ["American Cockroaches", "Formosan Termites", "Ghost Ants", "Mosquitoes", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "American cockroaches (Palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible outdoors in summer",
+        note: "American cockroaches are the dominant outdoor roach species in Hialeah. Locals call them Palmetto bugs. They breed in sewer systems, storm drains, and wet landscape debris and push into homes during heavy rain or when outdoor conditions become too hot and dry. They are regular visitors in kitchens and bathrooms.",
+      },
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June at night, risk year-round",
+        note: "Formosan termites are present throughout Hialeah and are far more destructive than native eastern subterranean termites. A mature Formosan colony can contain several million workers and destroy structural wood faster than most homeowners realize. Miami-Dade is in the heart of Formosan termite territory in the United States.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants (Tapinoma melanocephalum) are one of the most common nuisance ants in Hialeah and across Miami-Dade. They are tiny, nearly transparent, and forage in kitchens and bathrooms seeking sweets and moisture. They nest both indoors in wall voids and outdoors in the landscape and the colony can have multiple queens.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, worst May through October",
+        note: "Hialeah's proximity to the Miami Canal and the western Everglades fringe keeps mosquito populations active most of the year. The Miami-Dade Mosquito Control Division monitors and treats the area, but backyard standing water in dense neighborhoods sustains local populations between treatments.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are common throughout Miami-Dade and Hialeah is no exception. They travel through the city's mature mango, avocado, and citrus trees and enter homes through gaps at roof level. Food sources in and around homes, including unsecured garbage and fruit trees, sustain the population.",
+      },
+    ],
+    localHook:
+      "Ghost ants are a uniquely South Florida problem. They are too small for most general-purpose ant baits to work on them, and their multi-queen colony structure means eliminating one nest just fragments the colony. In Hialeah, where the climate is ideal for them year-round, controlling ghost ants requires products specifically labeled for tiny-ant species and consistent treatment of both indoor nesting sites and the outdoor landscape.",
+    intro:
+      "Pest control in Hialeah operates on the full tropical calendar. American cockroaches move from the city's sewer system and canal corridors into homes during rain events and hot dry spells. Ghost ants are in kitchens and bathrooms year-round in nearly every home in Miami-Dade County. Formosan termites are a serious structural threat across the city, with swarms each spring reminding homeowners how active the colony underneath really is. Mosquitoes are present most months near the western canal fringe, and roof rats move through the mango and avocado trees that are common in the residential neighborhoods.",
+    sections: [
+      {
+        heading: "Termite risk in Miami-Dade: Formosan and native species together",
+        body: "Hialeah homeowners face both Formosan subterranean termites and native eastern subterranean termites, and the two often occur on the same property. Formosan colonies are dramatically larger and more damaging: a mature colony can number in the millions compared to the hundreds of thousands typical of native species. Formosan workers build hardened carton nests inside wall voids and above-ground wood, in addition to the soil-based colony, making them harder to eliminate with standard soil treatments alone. Annual inspections and proactive termite protection plans are the standard of care in Miami-Dade County.",
+      },
+      {
+        heading: "Ghost ants and cockroaches: the indoor baseline",
+        body: "In Hialeah, ghost ants and American cockroaches are facts of life in most homes. Ghost ants are year-round kitchen and bathroom pests, too small to exclude and too fast-reproducing to simply remove. Control requires ant-specific products and treating both indoor harborage and outdoor nesting sites. American cockroaches are primarily outdoor insects that periodically invade, usually through drains, gaps around pipes, and door sweeps. Sealing plumbing penetrations and maintaining door seals significantly reduces the number that get in, and a perimeter treatment addresses the ones living in the landscape and drain system nearby.",
+      },
+    ],
+    prevention: [
+      "Keep annual termite inspections in place and maintain a termite protection plan: Hialeah's termite pressure justifies it.",
+      "Seal plumbing penetrations under sinks and around pipes at floor level to block cockroach entry from drains.",
+      "Remove standing water from plant saucers, clogged gutters, and any container that holds water to reduce mosquito breeding.",
+      "Keep fruit trees trimmed away from the roofline and secure outdoor garbage to reduce roof rat harborage.",
+    ],
+    costNote:
+      "Hialeah pest control typically includes a quarterly general service for roaches, ants, and occasional pests, plus a separate annual termite inspection and treatment plan. Ghost ant control is often an add-on service. Mosquito programs are available seasonally. Start with a free inspection to assess the specific conditions at your property.",
+    faqs: [
+      {
+        question: "Are Formosan termites common in Hialeah?",
+        answer:
+          "Yes. Miami-Dade County is one of the highest-risk areas in the United States for Formosan subterranean termites. Hialeah is fully within that zone. Formosan colonies are much larger and more destructive than native termite species, and they can damage a structure faster than most homeowners expect. Annual inspections and a proactive treatment plan are the standard recommendation for any property in Miami-Dade.",
+      },
+      {
+        question: "What are ghost ants and why are they so hard to control?",
+        answer:
+          "Ghost ants (Tapinoma melanocephalum) are tiny, nearly transparent ants that are extremely common in Miami-Dade homes. Their small size means they access the interior through gaps that most ants cannot use. Their colony structure includes multiple queens and satellite nests both inside and outside the structure, so eliminating one nest just fragments the colony and can actually increase visible activity temporarily. Control requires products specifically formulated for small invasive ant species and treating both the interior nesting areas and the outdoor landscape where the colony originates.",
+      },
+      {
+        question: "Why do I keep seeing Palmetto bugs (American cockroaches) in my Hialeah home?",
+        answer:
+          "American cockroaches in Hialeah live primarily outdoors in the sewer system, storm drains, and wet organic debris. They enter homes through drains, gaps around pipes, and door and window gaps, usually when rain drives them from outdoor harborage or when outdoor conditions become too dry. Sealing plumbing penetrations and maintaining door sweeps are the most effective exclusion steps. A perimeter treatment targeting the exterior also reduces the population pressure near the home.",
+      },
+      {
+        question: "How long is mosquito season in Hialeah?",
+        answer:
+          "Mosquitoes are present in Hialeah essentially year-round, though the peak season is May through October. The Miami Canal corridor and proximity to the western Everglades fringe provide permanent breeding habitat that sustains populations outside the rainy season. Miami-Dade Mosquito Control treats public waterways, but private properties with standing water in containers, clogged gutters, or low spots in the yard need active source reduction to keep residential populations manageable.",
+      },
+      {
+        question: "Do I need pest control year-round in Hialeah?",
+        answer:
+          "Yes. There is no off-season in Miami-Dade's tropical climate. Termites, cockroaches, ghost ants, and mosquitoes are all active every month. A year-round general pest program plus an annual termite inspection is the baseline recommendation for most Hialeah homes. Skipping the termite component is the most common oversight: Formosan damage can accumulate for years before it becomes visible.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Miami", slug: "miami" },
+      { name: "Opa-locka", slug: "opa-locka" },
+      { name: "Miami Gardens", slug: "miami-gardens" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Hialeah, FL | Termites, Cockroaches & Ghost Ants",
+    metaDescription:
+      "Hialeah pest control for Formosan termites, Palmetto bugs, ghost ants, mosquitoes and roof rats. Miami-Dade tropical specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "cape-coral",
+    name: "Cape Coral",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~200,000",
+    county: "Lee County",
+    climate: "tropical",
+    climateDriver:
+      "Cape Coral sits on the southwest Gulf Coast and has more miles of canals than any other city in the world (over 400 miles). The canals create permanent standing water throughout the entire city, making mosquito control a year-round challenge that is fundamentally different from any other Florida city. The tropical climate and direct Gulf influence produce year-round warmth and sustained humidity that keeps termites and cockroaches active every month.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "American Cockroaches", "Fire Ants", "Iguanas"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, most intense May through October",
+        note: "Cape Coral's 400-plus miles of canals are standing water habitat for mosquitoes throughout the city. The Lee County Mosquito Control District treats the canals regularly, but residential canal-front properties and yards with standing water sustain local populations between treatments. The rainy season (June through September) is the most intense period.",
+      },
+      {
+        name: "Subterranean termites (Eastern and Formosan)",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring through summer, risk year-round",
+        note: "Lee County has both eastern subterranean termites and Formosan subterranean termites. Canal-front properties with moist soil conditions and wood in ground contact are at elevated risk. Annual inspections and a proactive liquid or bait treatment program are standard for Cape Coral homeowners.",
+      },
+      {
+        name: "American cockroaches (Palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible during rain events",
+        note: "American cockroaches breed in Cape Coral's drainage system and the wet organic matter near the canals. They push into homes during heavy rain events. Sealing plumbing penetrations and maintaining door seals substantially reduces the number that get inside.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds most visible after rain",
+        note: "Red imported fire ants are widespread across Cape Coral's lawns and canal banks. The abundant rainfall creates the moist soil conditions fire ants prefer, and mounds recover quickly after any disturbance. Cape Coral's rapid development has added more disturbed soil habitat that fire ants colonize readily.",
+      },
+      {
+        name: "Green iguanas",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, most active in warm months",
+        note: "Green iguanas are an invasive species in Southwest Florida and are common in Cape Coral, particularly along the canal banks. They dig burrows that undermine seawalls and sidewalks, eat ornamental plants and garden vegetables, and create a nuisance on docks and pool decks. Florida Fish and Wildlife encourages humane removal from private property.",
+      },
+    ],
+    localHook:
+      "Cape Coral has 400 miles of canals, more than Venice, Italy, and more than any other city in the world. Every one of those miles is potential mosquito breeding habitat. The Lee County Mosquito Control District runs one of the most active control programs in Florida, but residential yards with standing water in containers, low-lying areas, or poor drainage extend the effective breeding season on every block in the city.",
+    intro:
+      "Pest control in Cape Coral is defined by the canals. Mosquitoes are a year-round concern across the entire city because of the permanent standing water in the canal network. Subterranean and Formosan termites work through the moist soils along the canal banks and throughout Lee County's warm, humid landscape. Fire ants are in virtually every lawn. American cockroaches move from the drainage system into homes during rain. And green iguanas are the pest that most surprises people moving here from elsewhere: they dig up seawalls, eat the garden, and bask on the pool deck with complete indifference.",
+    sections: [
+      {
+        heading: "Mosquito control in a canal city",
+        body: "The Lee County Mosquito Control District is one of the most active in Florida and treats Cape Coral's canals and public spaces regularly. That significantly reduces the baseline pressure, but it does not eliminate the problem on private property. Canal-front yards with standing water in plant saucers, clogged gutters, tarps, or any container that holds rain will sustain local mosquito populations between public treatments. Source reduction on your own property is the most effective complement to the county program. Residential barrier treatments can reduce adult mosquito activity on the property during the peak season.",
+      },
+      {
+        heading: "Iguanas, seawalls, and canal property",
+        body: "Green iguanas are an established invasive species in Cape Coral, and canal-front properties see the highest activity. They burrow into the soil behind seawalls, which can undermine the seawall structure over time. They eat ornamental plants, garden vegetables, and fruit. They defecate on docks and pool decks. Florida Fish and Wildlife Commission considers them an invasive pest and allows homeowners to humanely remove them from private property. Exclusion fencing around gardens, removing overhanging plants near water, and professional trapping and removal are the practical options.",
+      },
+    ],
+    prevention: [
+      "Remove standing water from any container in the yard weekly during rainy season to interrupt the mosquito breeding cycle.",
+      "Maintain an annual termite inspection given the moist canal-bank soils and warm year-round temperatures.",
+      "Seal plumbing penetrations and install quality door sweeps to reduce Palmetto bug entry during rain events.",
+      "Remove ornamental plants from canal edges and near seawalls to reduce iguana feeding and burrowing habitat.",
+    ],
+    costNote:
+      "Cape Coral pest control starts with a free inspection. Termite protection plans are strongly recommended and typically quoted as an annual service. Mosquito programs are available in barrier spray and misting system formats. Iguana removal is quoted per animal. General quarterly service covers cockroaches, fire ants, and general pest pressure.",
+    faqs: [
+      {
+        question: "Why is mosquito control so important in Cape Coral?",
+        answer:
+          "Cape Coral has more canals than any city in the world, and each canal is a potential mosquito breeding zone. The Lee County Mosquito Control District treats public waterways, but private yards with standing water in gutters, plant trays, tarps, and low spots sustain local populations between public treatments. In Cape Coral, source reduction on private property is not optional: it is the primary variable you can actually control.",
+      },
+      {
+        question: "Are termites a major problem in Cape Coral?",
+        answer:
+          "Yes. Lee County has both eastern subterranean termites and Formosan subterranean termites, and the warm, humid, canal-influenced soils create favorable conditions throughout the city. Canal-front properties with wood near moist soil are at elevated risk. Annual termite inspections and a proactive treatment program, either a liquid soil treatment or a baiting system, are the standard of care for Cape Coral homeowners.",
+      },
+      {
+        question: "Are iguanas a real pest problem in Cape Coral?",
+        answer:
+          "Yes, and more so than most Florida cities. Green iguanas are an established invasive species in Southwest Florida, and Cape Coral's canals and waterfront properties provide ideal habitat. They damage seawalls by burrowing, destroy gardens and ornamental plants, and create a nuisance on docks and pool areas. Florida Fish and Wildlife encourages humane removal from private property. Professional trapping is the most reliable approach for canal-front properties with ongoing iguana activity.",
+      },
+      {
+        question: "What are the most common ants in Cape Coral?",
+        answer:
+          "Red imported fire ants are the most problematic ant species across Cape Coral's lawns and landscaping. The moist soils near the canals and the city's frequent rainfall create ideal conditions for fire ant mounds, which can appear anywhere in a lawn. Ghost ants and bigheaded ants are also common nuisance species in and around homes. Fire ant treatment in the lawn should be on an annual or semi-annual schedule for most Cape Coral properties.",
+      },
+      {
+        question: "When are American cockroaches (Palmetto bugs) most common in Cape Coral?",
+        answer:
+          "American cockroaches are present year-round in Cape Coral's warm, humid climate, but they are most visible indoors during heavy rain events when they get displaced from the drainage system. They enter through plumbing connections and gaps around pipes. Sealing pipe penetrations under sinks and at the floor level significantly reduces indoor incursions. Perimeter treatment also helps by reducing the outdoor population pressure.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Fort Myers", slug: "fort-myers" },
+      { name: "Lehigh Acres", slug: "lehigh-acres" },
+      { name: "Bonita Springs", slug: "bonita-springs" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Cape Coral, FL | Mosquitoes, Termites & Iguanas",
+    metaDescription:
+      "Cape Coral pest control for mosquitoes, subterranean termites, Palmetto bugs, fire ants and iguanas. Lee County canal-city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "tallahassee",
+    name: "Tallahassee",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~195,000",
+    county: "Leon County",
+    climate: "hot-humid",
+    climateDriver:
+      "Tallahassee is in North Florida, farther from the Gulf than South Florida cities and closer to the continental south. It has a hot, humid climate but with occasional winter freezes that the southern peninsula never sees. The city has the densest tree canopy of any city in Florida, and that combination of heavy shade, high humidity, and ancient oak woodland creates exceptional moisture conditions for termites, roaches, and moisture-related pests.",
+    topPests: ["Eastern Subterranean Termites", "Mosquitoes", "Fire Ants", "American Cockroaches", "Squirrels"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round underground",
+        note: "Eastern subterranean termites are widespread in Leon County's moist, clay-heavy soils and heavily wooded landscape. The moisture retained by Tallahassee's dense oak canopy creates persistently favorable conditions for termite activity that differ from drier coastal Florida environments.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, worst in summer rainy season",
+        note: "Tallahassee's abundant standing water in the natural depression ponds, wetlands, and drainage channels of the Red Hills region sustains one of the longer mosquito seasons of any Florida city. The Leon County Mosquito Control program treats the main water bodies, but residential yards with low spots, clogged gutters, and containers extend the season.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds most active spring through fall",
+        note: "Red imported fire ants are common throughout Tallahassee's lawns and landscape beds. Leon County's clay and loam soils retain moisture well after rain, which fire ants prefer. Mounds recover quickly after any treatment if the surrounding population is not addressed.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge indoors during heavy rain",
+        note: "American cockroaches live in the leaf litter, mulch, and storm drain system that Tallahassee's heavy tree canopy generates. They push into homes through poorly sealed doors and plumbing penetrations, particularly during heavy summer rain events that saturate the organic debris they live in.",
+      },
+      {
+        name: "Squirrels",
+        serviceSlug: "squirrel-removal",
+        activeSeason: "Most active fall through winter for attic entry",
+        note: "Tallahassee's dense urban forest of live oaks, laurel oaks, and longleaf pines sustains one of the highest squirrel densities of any Florida city. Fox squirrels and gray squirrels both enter attics through gaps at roofline level, particularly in fall when nut foraging peaks and squirrels cache food in wall voids.",
+      },
+    ],
+    localHook:
+      "Tallahassee has the heaviest urban tree canopy of any city in Florida, a fact that residents love for the shade but that creates a different pest dynamic than the rest of the state. All those oaks and pines hold moisture, drop organic debris, and provide travel routes for squirrels, rats, and insects right to the roofline. The city's pest mix looks more like a Georgia city than a Miami one.",
+    intro:
+      "Pest control in Tallahassee looks different from the rest of Florida. The dense live oak canopy retains moisture and generates organic debris that feeds cockroaches and termites at rates the palm-tree suburbs of South Florida rarely see. Squirrels use the oak canopy as a highway to every roofline in the city and are a persistent attic pest. Eastern subterranean termites work through the clay soils of Leon County quietly until inspection or visible damage reveals them. Fire ants are in every lawn. Mosquitoes run from March through November in the wetland-influenced Red Hills landscape.",
+    sections: [
+      {
+        heading: "Tallahassee's tree canopy and pest pressure",
+        body: "The oak canopy that makes Tallahassee beautiful also creates pest conditions unique in Florida. Leaf litter accumulates under the trees and stays moist through the humid summers, creating ideal habitat for cockroaches, earwigs, and termites at ground level. The canopy itself gives squirrels continuous overhead travel routes and direct access to rooflines. Fallen branches and moist soil close to the foundation sustain termite foraging activity. Managing the pest population here requires addressing the landscape conditions around the home, not just the interior.",
+      },
+      {
+        heading: "Termite protection in North Florida's clay soils",
+        body: "Tallahassee sits on the clay and sandy loam soils of the Red Hills, and those soils retain moisture differently than the sandy soils of South and Central Florida. Eastern subterranean termites work well in clay, particularly where heavy tree canopy and regular rainfall keep soil moisture consistently high. Tallahassee homeowners should maintain annual termite inspections. Removing wood debris from the yard, keeping mulch away from the foundation, and addressing moisture problems in crawl spaces and basement areas reduces termite risk significantly in Leon County's conditions.",
+      },
+    ],
+    prevention: [
+      "Remove fallen branches and leaf litter from the foundation perimeter to reduce cockroach and termite harborage.",
+      "Keep gutters clear of debris to eliminate standing water and the cockroach breeding material.",
+      "Trim oak and pine branches away from the roofline to cut squirrel entry routes.",
+      "Maintain annual termite inspections given the moist clay soils and year-round warmth of Leon County.",
+    ],
+    costNote:
+      "Tallahassee pest control typically starts with a free inspection. Termite protection plans are annual. Squirrel exclusion is usually a separate scope covering entry point identification, sealing, and trapping. General pest programs run quarterly. Mosquito programs are available for the longer warm season.",
+    faqs: [
+      {
+        question: "Are subterranean termites common in Tallahassee?",
+        answer:
+          "Yes. Eastern subterranean termites are active throughout Leon County. The combination of warm temperatures, high annual rainfall, and clay soils that retain moisture creates favorable conditions across the city. Tallahassee homeowners benefit from annual inspections and proactive protection, particularly older homes with wood near grade or crawl spaces.",
+      },
+      {
+        question: "Why are there so many squirrels in Tallahassee attics?",
+        answer:
+          "Tallahassee has one of the densest urban squirrel populations of any Florida city, supported by the abundant live oak and longleaf pine canopy. Squirrels get into attics through gaps at roofline level, particularly at the soffit and fascia junction, around vent openings, and where roof meets the wall. The problem peaks in fall and early winter. Exclusion work, sealing entry points after removing resident animals, is the permanent solution.",
+      },
+      {
+        question: "Why is the pest season longer in Tallahassee than other Florida cities?",
+        answer:
+          "Tallahassee is farther north than the Florida peninsula and has occasional winter cold snaps, but the pest season still runs roughly March through November because the Red Hills landscape provides standing water and organic debris that sustain mosquitoes, cockroaches, and other species through the full warm period. The tree canopy also moderates temperature extremes, keeping conditions favorable for pests longer than an open suburban landscape would.",
+      },
+      {
+        question: "How do I control fire ants in my Tallahassee lawn?",
+        answer:
+          "Broadcast bait treatment of the entire lawn is more effective than treating individual mounds. Individual mound treatments push fire ants to relocate nearby rather than eliminating the colony. A granular bait applied to the lawn in spring and again in fall covers the full property and is the standard recommendation from University of Florida IFAS Extension for Leon County. Follow the label timing: baits work best in moderate temperatures when fire ants are actively foraging.",
+      },
+      {
+        question: "Are cockroaches in my Tallahassee yard a sign of a problem?",
+        answer:
+          "American cockroaches live outdoors in leaf litter, mulch, and organic debris and are common in every Tallahassee yard with tree canopy. Seeing them outside is normal. The concern is when they enter the home. Sealing gaps around doors and windows, managing dense leaf litter near the foundation, and treating the perimeter reduces the transition from outdoor to indoor. A year-round perimeter program keeps numbers from building.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Thomasville", slug: "thomasville" },
+      { name: "Gainesville", slug: "gainesville" },
+      { name: "Valdosta", slug: "valdosta" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Tallahassee, FL | Termites, Squirrels & Mosquitoes",
+    metaDescription:
+      "Tallahassee pest control for subterranean termites, squirrels, mosquitoes, fire ants and cockroaches. Leon County North Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

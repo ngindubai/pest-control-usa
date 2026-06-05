@@ -216,4 +216,110 @@ export const newJerseyCities: CityLocation[] = [
     metaDescription:
       "Jersey City pest control for Norway rats, German cockroaches, bed bugs, mice and spotted lanternfly. High-rise and brownstone specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "paterson",
+    name: "Paterson",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T2",
+    population: "~160,000",
+    county: "Passaic County",
+    climate: "cold-humid",
+    climateDriver:
+      "Paterson is New Jersey's third-largest city and one of the most densely populated in the state, located in Passaic County along the Passaic River. The cold-humid northeastern climate delivers cold winters and hot, humid summers. The city's dense urban fabric, older housing stock ranging from 19th-century industrial worker housing to mid-century apartment blocks, and the Passaic River's flood history create the conditions for persistent urban pest pressure: bed bugs, rats, cockroaches, and mice are the year-round baseline.",
+    topPests: ["Bed Bugs", "Norway Rats", "German Cockroaches", "House Mice", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a persistent issue throughout Paterson's multi-family housing stock. The city's high residential density, frequent resident turnover, and older apartment buildings create conditions where bed bug introductions are common and spread between units is easy. Paterson's position in the northeastern urban corridor amplifies introduction risk through transit and furniture.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are established throughout Paterson's older commercial corridors, along the Passaic River, and in neighborhoods with aging underground infrastructure. The Great Falls of the Passaic and the industrial history of the city created infrastructure that sustains rat populations in the drainage system. They burrow at foundation lines and enter structures through drain connections and foundation gaps.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a significant concern in Paterson's multi-family housing and commercial food establishments. They spread between units through shared plumbing and utility runs. The density of the city's apartment stock means individual unit treatment without building-wide coordination often fails within weeks.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round in urban environments, surge in fall",
+        note: "House mice are present year-round in Paterson's older residential and commercial buildings. The aging building stock has ample settled gaps, and mice maintain resident populations that are active even in summer. Fall brings a new influx as outdoor populations seek warmth.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter indoors",
+        note: "Stink bugs are a significant fall nuisance in Paterson and across the Passaic Valley. They invade from the wooded slopes of the Watchung Mountains to the east and south, and from the agricultural and suburban land in the broader Passaic County region. Older buildings with more exterior gaps see heavier entry.",
+      },
+    ],
+    localHook:
+      "Paterson was one of the first industrial cities in the United States, and Alexander Hamilton's Society for Establishing Useful Manufactures built its mills at the Great Falls here in the 1790s. That industrial history left behind a dense, old, built environment with aging infrastructure, and aging infrastructure is exactly the environment where Norway rats and house mice establish most successfully.",
+    intro:
+      "Pest control in Paterson is an urban management challenge. The city's dense pre-war and industrial housing stock, older utility infrastructure, and high residential density create conditions where bed bugs, rodents, and cockroaches are present year-round in most neighborhoods. Norway rats use the Passaic River corridor and the aging drainage system as their baseline habitat. Bed bugs move readily through the city's multi-family buildings. German cockroaches sustain themselves in the commercial district and older apartment blocks. Fall stink bug invasions arrive from the wooded areas around the Passaic Valley each September.",
+    sections: [
+      {
+        heading: "Bed bug management in Paterson's dense housing",
+        body: "Bed bugs in Paterson's multi-family buildings present the same challenge as in any dense northeastern city: individual unit treatment without addressing adjacent units usually fails within weeks as bed bugs re-enter from neighboring spaces. Effective management requires coordinated building-wide treatment when an infestation is identified, along with encasements on mattresses and box springs to prevent re-infestation of treated items. Tenants have rights to responsive pest treatment under New Jersey landlord-tenant law. If management is unresponsive, documenting the infestation and reporting it to Passaic County health authorities is an available option.",
+      },
+      {
+        heading: "Rat exclusion in older Paterson buildings",
+        body: "Norway rats in Paterson enter structures through the same routes they have always used: drain connections, gaps at foundation level, and deteriorated masonry joints. Older buildings along the industrial corridor and near the Passaic River have more of these entry points than newer construction. Exclusion work requires a thorough inspection of the foundation perimeter, drain connections, and any point at or below grade where rats could access the building interior. Steel wool or hardware cloth must be used inside gaps before sealing, because rats chew through expanding foam. Trapping removes current animals; exclusion keeps new ones out.",
+      },
+    ],
+    prevention: [
+      "Inspect any secondhand furniture or mattresses for bed bug signs before bringing them into the home.",
+      "Seal gaps at the foundation, around drain connections, and at any below-grade entry point to block Norway rat entry.",
+      "Keep kitchen food in sealed containers and fix leaking fixtures to reduce cockroach foraging incentive.",
+      "Seal gaps around windows and utility penetrations before September to limit stink bug entry.",
+    ],
+    costNote:
+      "Paterson pest control pricing depends on building type and infestation extent. Bed bug treatment in multi-unit buildings is quoted by scope of affected units. Rodent programs include inspection, exclusion, and trapping. Cockroach programs are monthly for multi-family buildings. Everything starts with a free inspection.",
+    faqs: [
+      {
+        question: "Are bed bugs common in Paterson apartments?",
+        answer:
+          "Bed bugs are a persistent pest in Paterson's multi-family housing, driven by the city's density, older building stock, and regular resident turnover. They are introduced through travel, secondhand furniture, and adjacent units. The key is early detection: small infestations are substantially less expensive to treat than large ones. If you see small reddish-brown spots on bedding, or wake with bites in a linear pattern, request an inspection immediately.",
+      },
+      {
+        question: "Why are Norway rats so common near the Passaic River in Paterson?",
+        answer:
+          "The Passaic River corridor and Paterson's 19th-century drainage infrastructure have sustained Norway rat populations for generations. Rats live in burrows near water sources and use the storm drain and sewer system to move through the city. Properties near the river, near Great Falls, and along older commercial corridors have the highest rat activity. Exclusion work at the foundation and drain connection level, combined with trapping, is the effective management approach.",
+      },
+      {
+        question: "What rights do Paterson renters have regarding pest control?",
+        answer:
+          "Under New Jersey's Truth in Renting Act and the Landlord-Tenant Act, landlords are required to maintain rental properties in a habitable condition, which includes addressing pest infestations. If you report a pest problem in writing and the landlord fails to respond within a reasonable timeframe, you can escalate to the Passaic County health department or the New Jersey Department of Community Affairs. Keep documentation of your reports and any management responses.",
+      },
+      {
+        question: "How do I prevent German cockroaches in my Paterson home?",
+        answer:
+          "German cockroaches in multi-unit buildings are primarily managed at the building level. Within your unit, the most effective steps are: keep food in sealed containers, address any moisture issues under sinks and around pipes, and use gel bait in harborage areas rather than sprays. Request coordinated building treatment through management. German cockroaches do not come from outdoors, they spread through shared indoor spaces, so managing them effectively requires treating all infested units together.",
+      },
+      {
+        question: "When are stink bugs most active in Paterson?",
+        answer:
+          "September and October are the peak invasion months. Brown marmorated stink bugs aggregate on exterior walls seeking warm overwintering sites and enter through gaps around windows, utility lines, and siding. Buildings in Paterson with more exterior gaps, particularly older multi-family stock, see heavier entry. Sealing those gaps before September is the primary prevention. Inside, avoid crushing stink bugs: the odor is strong and persistent. Vacuum them up instead.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Newark", slug: "newark" },
+      { name: "Jersey City", slug: "jersey-city" },
+      { name: "Clifton", slug: "clifton" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Paterson, NJ | Bed Bugs, Rats & Cockroaches",
+    metaDescription:
+      "Paterson pest control for bed bugs, Norway rats, German cockroaches, house mice and stink bugs. Passaic County urban specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

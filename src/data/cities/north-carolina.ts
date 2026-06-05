@@ -540,4 +540,216 @@ export const northCarolinaCities: CityLocation[] = [
     metaDescription:
       "Winston-Salem pest control for stink bugs, subterranean termites, mosquitoes, fire ants and cockroaches. Piedmont Triad specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "fayetteville",
+    name: "Fayetteville",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T2",
+    population: "~210,000",
+    county: "Cumberland County",
+    climate: "hot-humid",
+    climateDriver:
+      "Fayetteville sits in the Carolina coastal plain where the sandy, flat topography retains standing water after rain and the humid subtropical climate delivers hot summers and mild winters. The city is adjacent to Fort Liberty (formerly Fort Bragg), the largest military installation by population in the United States, which creates a high-turnover housing market and sustained pest pressure in older rental stock. The longleaf pine flatwoods surrounding the city create exceptional conditions for Eastern subterranean termites.",
+    topPests: ["Eastern Subterranean Termites", "Mosquitoes", "Fire Ants", "American Cockroaches", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring (March through April), active year-round underground",
+        note: "Eastern subterranean termites are present throughout Cumberland County at very high population densities. The sandy, moist soils of the coastal plain combined with Fayetteville's warm humid climate create some of the most favorable termite conditions in North Carolina. Termite damage is one of the leading home repair costs for Fayetteville homeowners.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The flat, sandy coastal plain around Fayetteville holds standing water after rain for days in natural depressions, shallow ponds, and roadside ditches. Mosquito pressure is heavy from spring through fall across Cumberland County. The proximity to large wetland areas south of the city adds sustained breeding habitat beyond what residential areas generate.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible April through October",
+        note: "Red imported fire ants are widespread across Fayetteville's lawns and the sandy soils of the coastal plain provide easy mound construction. Fayetteville's military-adjacent character means high turnover of outdoor spaces, which fire ants colonize quickly.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge during wet weather",
+        note: "American cockroaches live in the leaf litter, mulch, and drainage systems throughout Fayetteville and push into homes during heavy rain. The older rental housing stock adjacent to the military installation sees consistent indoor cockroach pressure. Sealing plumbing penetrations and maintaining door seals reduces entry significantly.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spaces",
+        note: "Brown recluse spiders are present in Fayetteville and throughout the Carolina piedmont and coastal plain. They are most common in undisturbed storage areas: garages, attic spaces, closets, and cardboard boxes. Their bite causes slow-healing tissue damage and warrants prompt medical attention.",
+      },
+    ],
+    localHook:
+      "Fayetteville sits in the heart of the longleaf pine flatwoods region of North Carolina, and those sandy, warm, moist soils support Eastern subterranean termite colony densities that are among the highest in the state. North Carolina Cooperative Extension identifies Cumberland County as one of the higher-termite-risk counties in the state. Annual inspections here are not a precaution, they are a maintenance requirement.",
+    intro:
+      "Pest control in Fayetteville is dominated by two year-round concerns: termites and mosquitoes. Eastern subterranean termites are present across Cumberland County at very high densities, and the sandy, moist soils of the coastal plain sustain colonies that are active most of the year. Mosquitoes breed in the persistent standing water of the flat landscape and run through a long season from April to October. Fire ants are in virtually every lawn. American cockroaches push into homes during wet weather from the drainage system and leaf litter. Brown recluse spiders are a genuine presence in garages and stored materials throughout the city.",
+    sections: [
+      {
+        heading: "Termite risk in the longleaf pine coastal plain",
+        body: "The longleaf pine flatwoods that historically covered Cumberland County are gone, but the sandy, moisture-retaining soils that supported them remain. Eastern subterranean termites thrive in those soils, and the warm, humid climate keeps them active from roughly February through November each year. Fayetteville homeowners, particularly those in older neighborhoods and homes with wood near grade or crawl spaces, should maintain annual termite inspections and a proactive treatment plan as standard practice, not as a response to visible damage. By the time termite damage is visible, a colony has often been active for years.",
+      },
+      {
+        heading: "Mosquito control in the coastal plain landscape",
+        body: "The flat topography of the Cumberland County coastal plain means rain does not drain quickly. Natural depressions, shallow roadside ditches, and low spots in residential yards all hold standing water for days after rain events, giving mosquitoes repeated breeding opportunities through the warm season. Eliminating standing water on the property addresses the local contribution to the breeding population. Perimeter barrier treatments targeting the vegetation where adult mosquitoes rest during the day significantly reduce activity on the property during the April through October season.",
+      },
+    ],
+    prevention: [
+      "Maintain annual termite inspections: Cumberland County's termite pressure makes this a standard maintenance item.",
+      "Eliminate standing water in yard low spots, clogged gutters, and plant containers to reduce mosquito breeding.",
+      "Seal plumbing gaps under sinks and floor-level penetrations to block cockroach entry during rain.",
+      "Store items in sealed plastic bins rather than cardboard boxes in garages to reduce brown recluse harborage.",
+    ],
+    costNote:
+      "Fayetteville pest control typically starts with a free inspection. Termite programs are strongly recommended for all properties and are usually annual. Mosquito barrier programs run April through October. General pest programs for cockroaches, fire ants, and spiders are quarterly.",
+    faqs: [
+      {
+        question: "Is termite pressure really that high in Fayetteville?",
+        answer:
+          "Yes. Cumberland County sits within the high-activity termite zone for North Carolina, and the sandy, moist soils of the coastal plain support Eastern subterranean termite populations at some of the highest densities in the state. Annual inspections and a proactive liquid or bait treatment program are standard for Fayetteville homeowners. The cost of prevention is consistently lower than the cost of repair after an established infestation is discovered.",
+      },
+      {
+        question: "How long is mosquito season in Fayetteville?",
+        answer:
+          "April through October in most years. Fayetteville's flat coastal plain terrain holds standing water longer than hillier regions, extending the effective breeding window. After any significant rain event, water can persist in low spots, ditches, and containers for three to five days, which is enough time for a new generation of mosquitoes to develop. Source reduction on your own property, combined with a perimeter barrier treatment, gives the best results through the season.",
+      },
+      {
+        question: "Are brown recluse spiders common in Fayetteville homes?",
+        answer:
+          "They are present and are found regularly in garages, attic spaces, and undisturbed storage areas throughout the city. North Carolina is within the brown recluse's established range, and Fayetteville's position in the coastal plain is within the zone where they are reliably encountered. The bite causes a slow-healing wound that can involve significant tissue damage. Using sealed plastic storage bins and wearing gloves when working in undisturbed spaces are practical risk-reduction steps.",
+      },
+      {
+        question: "How do I prevent American cockroaches from entering my Fayetteville home?",
+        answer:
+          "American cockroaches live primarily outdoors in the drainage system, mulch, and organic debris. They enter homes during rain events through gaps around pipes and drains, and through poorly sealed doors. Sealing pipe penetrations under sinks and at floor level, installing quality door sweeps, and keeping the foundation perimeter clear of deep mulch and debris are the most effective prevention steps. A perimeter barrier treatment reduces the outdoor population pressure.",
+      },
+      {
+        question: "Are fire ants year-round in Fayetteville?",
+        answer:
+          "Essentially yes. North Carolina's milder coastal plain winters do not kill fire ant colonies. Mound activity drops in cold weather but rebounds quickly in early spring. Broadcast bait treatment of the lawn in spring and fall, covering the whole property rather than targeting individual mounds, is the recommended approach from North Carolina Cooperative Extension. Mound treatment alone is ineffective because it just causes the colony to relocate.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Raleigh", slug: "raleigh" },
+      { name: "Cary", slug: "cary" },
+      { name: "Durham", slug: "durham" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Fayetteville, NC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Fayetteville pest control for subterranean termites, mosquitoes, fire ants, cockroaches and brown recluse spiders. Cumberland County coastal plain specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "cary",
+    name: "Cary",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T2",
+    population: "~180,000",
+    county: "Wake County",
+    climate: "hot-humid",
+    climateDriver:
+      "Cary sits in the Research Triangle region of Wake County, on the Piedmont plateau between the Blue Ridge foothills and the coastal plain. The humid subtropical climate delivers hot, wet summers and mild winters. Rapid development from wooded suburban land into planned neighborhoods has pushed construction right up to forested buffers and stream corridors that sustain termites, mosquitoes, and stink bugs in the surrounding landscape.",
+    topPests: ["Eastern Subterranean Termites", "Mosquitoes", "Fire Ants", "Stink Bugs", "Odorous House Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round",
+        note: "Eastern subterranean termites are active throughout Wake County. Cary's wooded buffers and stream corridors maintain existing termite colonies that continually pressure adjacent structures. Even new construction in Cary is at risk because the soil surrounding it contains established termite populations from the pre-development woodland.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Cary's stream corridors, retention ponds, and the managed wetlands throughout the Research Triangle's planned developments create abundant mosquito breeding habitat. The warm, humid summers of Wake County sustain long mosquito seasons, and residents in neighborhoods adjacent to greenways or stream buffers see extended pressure.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring through fall",
+        note: "Fire ants are present throughout Cary's lawns and landscaping. The city's rapid growth has created continually disturbed soil at construction edges, which fire ants colonize quickly. Newer neighborhoods consistently see fire ant pressure in freshly sodded lawns.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November for entry, overwinter indoors",
+        note: "Stink bugs are a significant fall pest across the Research Triangle region. Cary's wooded areas and the orchards and agricultural land in western Wake County produce large stink bug populations that move into structures in fall. The planned communities with many wooded lots see higher stink bug counts at the forest edge.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, push indoors in rain and cold",
+        note: "Odorous house ants are the most common spring pest call in Cary. They nest in yard mulch, under slabs, and in wall voids and forage for sweets in kitchens. They push indoors readily during rain and cool weather throughout the year.",
+      },
+    ],
+    localHook:
+      "Cary's reputation as a planned, well-maintained community does not protect it from termites. Eastern subterranean termites live in the soil of Wake County regardless of how recently a house was built, and new construction on former woodland land is surrounded by established termite colonies from the first day a family moves in. North Carolina Cooperative Extension recommends proactive termite protection for all new Wake County construction for this reason.",
+    intro:
+      "Pest control in Cary is shaped by the Research Triangle's wooded suburban character. Eastern subterranean termites work through the soil year-round and are present on virtually every wooded lot in Wake County, new construction included. Mosquitoes breed in the greenway stream corridors, retention ponds, and managed wetlands throughout Cary's planned neighborhoods. Fire ants are in every lawn. Stink bugs arrive in fall from the surrounding wooded and agricultural land in numbers that catch residents off guard. Odorous house ants push into kitchens each spring.",
+    sections: [
+      {
+        heading: "Why new Cary homes still need termite protection",
+        body: "Cary's status as a new, planned community can create a false sense of security about termites. The houses may be new, but the soil under them is not. Eastern subterranean termite colonies live in the soil throughout Wake County and have been there for decades. When a new home is built on former woodland in Cary, the surrounding soil already contains established termite colonies. Soil treatments applied at construction time lose their effectiveness over years, and periodic re-treatment and annual inspections are the standard maintenance approach. North Carolina Cooperative Extension recommends proactive termite protection for all Wake County properties, not just older ones.",
+      },
+      {
+        heading: "Mosquitoes in Cary's greenway system",
+        body: "Cary's extensive greenway trail network and the stream corridors it follows are a community asset, and also a source of sustained mosquito breeding habitat. The stream banks, wetland margins, and retention pond edges adjacent to the greenways provide the standing water and vegetation that mosquitoes need. Properties backing onto greenways and stream buffers see more mosquito activity than those in the city's interior. Perimeter barrier treatments, targeting the vegetation where adult mosquitoes rest, are effective for these properties during the April through October season.",
+      },
+    ],
+    prevention: [
+      "Maintain annual termite inspections even for newer Cary homes: the soil surrounding them contains established termite colonies.",
+      "Eliminate standing water in gutters, plant containers, and yard low spots to reduce greenway-adjacent mosquito breeding.",
+      "Seal gaps around windows and utility penetrations before September to limit stink bug entry.",
+      "Treat the full lawn with broadcast fire ant bait in spring and fall rather than targeting individual mounds.",
+    ],
+    costNote:
+      "Cary pest control typically starts with a free inspection. Termite programs are annual and strongly recommended for all properties. Mosquito programs run April through October. General pest programs cover fire ants, ants, cockroaches, and spiders on a quarterly schedule.",
+    faqs: [
+      {
+        question: "Do new homes in Cary need termite protection?",
+        answer:
+          "Yes. New construction is built in soil that already contains Eastern subterranean termite colonies from the surrounding landscape. The pre-treatment applied during construction provides initial protection but degrades over time. Annual inspections and a proactive renewal of termite protection are the standard recommendation from North Carolina Cooperative Extension for all Wake County properties, new and old.",
+      },
+      {
+        question: "Are mosquitoes worse near Cary's greenways?",
+        answer:
+          "Properties adjacent to stream corridors, wetland buffers, and retention ponds along Cary's greenway system see extended mosquito pressure compared to those in the city's interior. The water features along the greenways provide standing water and resting habitat that sustains local populations. Source reduction on private property, combined with a perimeter barrier treatment targeting vegetation, is the most effective approach for greenway-adjacent homes.",
+      },
+      {
+        question: "Are stink bugs a significant problem in Cary?",
+        answer:
+          "Yes, particularly for properties near wooded areas and the western Wake County agricultural land. Brown marmorated stink bugs aggregate in fall at the forest edge and move into structures. The Research Triangle region as a whole sees significant stink bug invasions, and Cary's wooded lots and tree lines concentrate the movement in late September and October. Sealing gaps before the invasion starts is the most effective approach.",
+      },
+      {
+        question: "Why do odorous house ants keep appearing in my Cary kitchen?",
+        answer:
+          "Odorous house ants nest in mulch, under slabs, and in wall voids and forage widely for food and moisture. They push indoors during rain and cool weather events throughout the year. The visible foraging trail in the kitchen is the tip of a much larger colony outside the home. Treating the perimeter to interrupt the colony's foraging outside the structure, while removing indoor attractants, is more effective than targeting the interior trail alone.",
+      },
+      {
+        question: "Are fire ants a year-round concern in Cary?",
+        answer:
+          "North Carolina's mild winters do not eliminate fire ant colonies. Activity slows in cold weather but rebounds fast in early spring. New construction in Cary continually produces disturbed soil that fire ants colonize quickly, so even new neighborhoods see rapid fire ant establishment. Broadcast bait treatment of the full lawn in spring and fall is the University Cooperative Extension recommendation, treating mounds individually just moves the colony.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Raleigh", slug: "raleigh" },
+      { name: "Durham", slug: "durham" },
+      { name: "Fayetteville", slug: "fayetteville" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Cary, NC | Termites, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Cary pest control for subterranean termites, mosquitoes, fire ants, stink bugs and ants. Wake County Research Triangle specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -230,4 +230,110 @@ export const missouriCities: CityLocation[] = [
     metaDescription:
       "St. Louis pest control for brown recluse spiders, subterranean termites, river-season mosquitoes, cockroaches and mice. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "springfield",
+    name: "Springfield",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T2",
+    population: "~170,000",
+    county: "Greene County",
+    climate: "temperate",
+    climateDriver:
+      "Springfield sits in the Ozarks Plateau of southwest Missouri at about 1,300 feet elevation. The temperate climate delivers hot, humid summers and cold winters with occasional ice storms. The rocky Ozark terrain, limestone bedrock, and surrounding woodland create excellent brown recluse habitat. Missouri is nationally recognized as having the highest density of brown recluse spiders in the country, and Springfield is one of the higher-risk cities within the state.",
+    topPests: ["Brown Recluse Spiders", "House Mice", "German Cockroaches", "Odorous House Ants", "Ticks"],
+    pestProfile: [
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spaces, most active spring and fall",
+        note: "Brown recluse spiders are more common in Springfield and the Ozarks than almost anywhere else in the United States. They shelter in undisturbed spaces: cardboard boxes, stored clothing, wall voids, under furniture, in basements and crawl spaces, and in any area that is infrequently disturbed. Missouri State University extension materials note that homes in the Ozarks region can harbor hundreds of brown recluse spiders without obvious infestation signs.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall, active year-round once inside",
+        note: "Springfield's cold winters drive house mice firmly into heated buildings by October. The older housing stock in Springfield's historic neighborhoods and the University district has ample entry points. Mice are especially common in homes that back onto wooded land or creek corridors typical of the Ozark Plateau terrain.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a persistent problem in Springfield's restaurant district, multi-family housing, and older commercial buildings downtown. They spread between units through shared plumbing and utility chases.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, push indoors in rain and cold",
+        note: "Odorous house ants are the most common spring ant nuisance in Springfield homes. They nest in yard mulch and wall voids and forage in kitchens after rain events and during cool weather transitions.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November",
+        note: "The Ozark woodland surrounding Springfield sustains significant populations of lone star ticks, American dog ticks, and deer ticks (black-legged ticks). Properties backing onto wooded land see regular tick pressure, and outdoor activities in the Ozark National Scenic Riverways region carry meaningful tick encounter risk.",
+      },
+    ],
+    localHook:
+      "Missouri is the top state in the United States for brown recluse spider density, and the Ozarks is the highest-density region within Missouri. University of Kansas researchers have documented homes in the Missouri Ozarks with active populations of hundreds of brown recluse spiders: not a sign of an unusual infestation, but a normal outcome of the climate and habitat. Springfield homeowners are in the middle of that zone.",
+    intro:
+      "Pest control in Springfield is inseparable from brown recluse spiders. Missouri's Ozarks region has the highest brown recluse density in the country, and Springfield is one of the cities where they are most common. Nearly every home in the city has some brown recluse presence, particularly in basements, crawl spaces, and garage storage areas. House mice push into heated structures in fall. German cockroaches are a persistent urban problem in the commercial district and older apartment stock. Ticks are a real concern for anyone spending time in the Ozark woodlands surrounding the city.",
+    sections: [
+      {
+        heading: "Brown recluse spiders: Springfield's most important pest",
+        body: "Brown recluse spiders are found in virtually every older home in Springfield. They shelter in undisturbed spaces and are rarely seen because they avoid light and human activity. Most bites happen when people reach into a space where a spider is hiding: a cardboard box, a shoe left in the garage, a pile of clothes, the inside of a glove. The bite is initially painless but causes slow tissue death over days to weeks that can require medical treatment. Reducing clutter in basements, garages, and storage areas, using sealed plastic bins rather than cardboard boxes, and periodic spider treatment of the perimeter and harborage areas are the practical management steps for Springfield homes.",
+      },
+      {
+        heading: "Fall mouse control in the Ozarks",
+        body: "Springfield's cold winters are the primary driver of mouse intrusion. Temperatures drop below 50 degrees by October, and house mice begin actively moving toward heated structures at that point. The Ozark terrain's creek corridors and wooded lots channel rodent movement from natural areas into residential neighborhoods. Exclusion work done before October is far more effective than trapping after an infestation is established. Sealing gaps at the foundation, around utility penetrations, and under door sills before the fall is the right time to act.",
+      },
+    ],
+    prevention: [
+      "Replace cardboard storage boxes in basements and garages with sealed plastic bins to eliminate brown recluse harborage.",
+      "Shake out shoes and clothing that have been stored in the garage or basement before putting them on.",
+      "Seal foundation gaps and utility penetrations in September before mice begin their fall movement indoors.",
+      "Use tick repellent and perform tick checks after any outdoor activity in Ozark wooded areas around Springfield.",
+    ],
+    costNote:
+      "Springfield pest control typically starts with a free inspection. Brown recluse programs involve both perimeter treatment and a harborage-reduction consultation. Mouse programs include exclusion and trapping. Ant and cockroach programs are quarterly. Tick yard treatments are available in spring and fall.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really that common in Springfield?",
+        answer:
+          "Yes, more so than almost anywhere else in the United States. Missouri State University and University of Kansas research confirms that the Missouri Ozarks has the highest brown recluse density in the country. A normal older Springfield home, especially one with a basement, crawl space, or attached garage, likely has resident brown recluse spiders. This is a fact of living in the Ozarks. The practical approach is reducing their access to high-contact human areas through clutter reduction and regular treatment, not expecting to eliminate them entirely.",
+      },
+      {
+        question: "How dangerous is the brown recluse bite?",
+        answer:
+          "A brown recluse bite can be serious. The venom causes local tissue death that progresses over days to weeks, sometimes producing a wound that is slow to heal and may require surgical debridement in severe cases. Most bites cause a painful lesion that heals within a month with medical care. Seek medical attention promptly if you suspect a brown recluse bite, particularly if the wound develops a white center surrounded by red tissue.",
+      },
+      {
+        question: "What is the best way to manage brown recluse spiders in my Springfield home?",
+        answer:
+          "The most impactful steps are reducing clutter and undisturbed harborage. Brown recluse spiders live in places people do not regularly disturb: the inside of cardboard boxes, under stored furniture, in rarely visited basement corners. Switching to sealed plastic storage bins eliminates their preferred harborage. Regular professional treatment of the perimeter, basement perimeter, and known harborage areas reduces populations over time. Complete elimination is not a realistic goal in Springfield's climate, but significant reduction is.",
+      },
+      {
+        question: "When are ticks most active around Springfield?",
+        answer:
+          "The primary tick season runs from March through November in the Ozarks. Lone star ticks are the most aggressive species and are active from late spring through fall. Deer ticks, which carry Lyme disease, are active in fall and early spring as well. Properties backing onto wooded land see ticks throughout the season. Wearing long sleeves and pants treated with permethrin and checking yourself and pets after outdoor activity are the fundamental prevention steps.",
+      },
+      {
+        question: "How do I keep mice out of my Springfield home in winter?",
+        answer:
+          "September exclusion work is the answer. House mice begin moving toward heated structures when outdoor temperatures drop, and that begins in October in Springfield. Finding and sealing the entry points before that month, particularly gaps around foundation utility penetrations, under door sills, and at the junction of different building materials, is the most effective prevention. A mouse needs a gap no larger than a quarter inch. Steel wool pushed into gaps before sealing blocks chewing. Trapping handles the animals already inside, but exclusion keeps new ones from entering.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Kansas City", slug: "kansas-city" },
+      { name: "St. Louis", slug: "st-louis" },
+      { name: "Joplin", slug: "joplin" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Springfield, MO | Brown Recluse Spiders & Mice",
+    metaDescription:
+      "Springfield pest control for brown recluse spiders, house mice, German cockroaches, ants and ticks. Ozarks Greene County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
