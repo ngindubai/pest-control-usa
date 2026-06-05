@@ -970,4 +970,228 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Tallahassee pest control for subterranean termites, squirrels, mosquitoes, fire ants and cockroaches. Leon County North Florida specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "pembroke-pines",
+    name: "Pembroke Pines",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "167,000",
+    county: "Broward County",
+    climate: "hot-humid",
+    climateDriver:
+      "South Florida's subtropical climate delivers year-round heat and humidity with a wet season from June through October. Standing water from the C-11 Canal system and retention ponds maintains mosquito pressure through the warmest months.",
+    topPests: [
+      "Formosan Termites",
+      "German Cockroaches",
+      "Mosquitoes",
+      "Ghost Ants",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round",
+        note: "Broward County is rated Zone 1 Very High by UF IFAS Extension; Pembroke Pines slab construction hides termite entry at plumbing penetrations and expansion joints.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "South Florida heat allows continuous breeding cycles without winter slowdown; multifamily buildings in Pembroke Pines see the highest pressure through shared plumbing walls.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peaks June through October",
+        note: "The C-11 Canal system and detention ponds along the Everglades margin provide persistent larval habitat independent of Broward County Mosquito Control's public-waterway treatments.",
+      },
+      {
+        name: "Ghost Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "A South Florida specialty pest rarely seen north of I-4, ghost ants form multi-queen supercolonies that scatter under contact sprays; UF IFAS Extension recommends slow-acting bait only.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Called palmetto bugs locally, they emerge from Broward County storm drains and sewer lines when heavy rain displaces them from outdoor harborage.",
+      },
+    ],
+    localHook:
+      "Pembroke Pines sits at the urban edge of the Everglades margin in Broward County. Slab construction, a high water table, and year-round subtropical heat combine to make termite and mosquito pressure among the highest in the continental United States.",
+    intro:
+      "Pest control in Pembroke Pines is not a seasonal concern. The Broward County climate keeps termites active, cockroaches breeding, and mosquitoes flying through every month of the year. The city's slab-on-grade construction and proximity to the Everglades margin create conditions that favor high-pressure termite infestations. Knowing what you are dealing with before you call makes the conversation with your technician more productive.",
+    sections: [
+      {
+        heading: "Termite Pressure in Broward County",
+        body: "Pembroke Pines falls inside the Zone 1 Very High termite pressure designation from University of Florida IFAS Extension. The county hosts both Formosan subterranean termites and Asian subterranean termites, two species with different colony behaviors but equally serious damage potential. Formosan colonies can number into the millions and attack structural wood at a rate that outpaces standard subterranean termite treatments. Annual inspections and bait station monitoring are the standard of care for homes in this zone.",
+      },
+      {
+        heading: "Mosquito Control Near the Everglades Edge",
+        body: "The C-11 Canal that forms part of Pembroke Pines' southern boundary drains toward the Everglades protection area. Broward County Mosquito Control monitors traps and conducts larval treatment of public waterways, but private property is the resident's responsibility. Eliminating standing water in plant saucers, bird baths, AC drip trays, and low spots in the yard cuts the breeding load. Larvicide dunks in ornamental ponds handle the water you cannot empty. A licensed applicator can treat the yard perimeter with adulticide when an event is planned.",
+      },
+      {
+        heading: "Ghost Ants and German Cockroaches",
+        body: "Two pests define Pembroke Pines indoor pest control more than any other. Ghost ants move indoors in trails along baseboards and countertops and are resistant to contact sprays because the colony is distributed across multiple satellite locations. Gel bait placed in the trailing paths is the effective method, but it requires patience. German cockroaches reproduce fast enough that a small infestation becomes a large one within weeks. Crack-and-crevice gel bait in the kitchen and bathrooms, combined with IGR (insect growth regulator), is the protocol for South Florida indoor cockroach programs.",
+      },
+    ],
+    prevention: [
+      "Inspect the slab perimeter and plumbing penetrations annually for termite mud tubes",
+      "Remove all standing water from the property weekly during the wet season",
+      "Keep mulch at least 12 inches from the foundation to reduce termite and ant harborage",
+      "Seal gaps around air conditioning lines and plumbing where they enter the building",
+      "Store food in sealed containers and fix any leaking pipes or dripping faucets",
+    ],
+    costNote:
+      "Termite bait station installation in Pembroke Pines typically runs $1,200 to $2,500 for a standard residential footprint, with annual monitoring fees of $300 to $500. Liquid barrier treatments for Formosan termites run higher due to volume and product cost. General pest control programs covering cockroaches, ants, and perimeter treatment run $80 to $120 per quarter.",
+    faqs: [
+      {
+        question: "Do I need a termite contract in Pembroke Pines?",
+        answer:
+          "In Broward County's Zone 1 Very High termite pressure area, a termite contract with annual inspections is standard practice for homeowners and required by most mortgage lenders. Both Formosan and Asian subterranean termites are documented in the county. A bait station system or liquid barrier installation, followed by an annual inspection and renewal, is the accepted standard of care for the area.",
+      },
+      {
+        question: "Why are ghost ants so hard to control with store products?",
+        answer:
+          "Ghost ants form decentralized colonies with multiple queens spread across several nesting sites. Contact sprays kill foragers but do not reach the queens. Over-the-counter ant killers often scatter the colony rather than eliminating it. University of Florida IFAS Extension recommends slow-acting bait that foragers carry back to share with queens. Patience matters: it can take two to three weeks for the bait to work through the colony.",
+      },
+      {
+        question: "When is mosquito season in Pembroke Pines?",
+        answer:
+          "Mosquito pressure in Pembroke Pines peaks from June through October during the wet season, but some activity occurs year-round because of South Florida's warm temperatures. The two weeks following a major rainfall event are typically the worst. Broward County Mosquito Control treats public waterways, but residential properties with standing water generate their own breeding populations independent of county efforts.",
+      },
+      {
+        question: "Are palmetto bugs the same as cockroaches?",
+        answer:
+          "Yes. Palmetto bug is a local Florida term for the American cockroach, one of the largest cockroach species in the United States at up to 1.5 inches long. They live primarily outdoors in South Florida but enter homes during heavy rain or when food sources are available. They are not the same as German cockroaches, which are smaller, breed much faster, and are strictly indoor pests.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Fort Lauderdale", slug: "fort-lauderdale" },
+      { name: "Miramar", slug: "miramar" },
+      { name: "Miami", slug: "miami" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Pembroke Pines, FL | Termites, Mosquitoes & Cockroaches",
+    metaDescription:
+      "Pembroke Pines pest control for Formosan termites, mosquitoes, ghost ants, German cockroaches and palmetto bugs. Broward County South Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hollywood",
+    name: "Hollywood",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "152,000",
+    county: "Broward County",
+    climate: "hot-humid",
+    climateDriver:
+      "Hollywood's coastal position between Fort Lauderdale and Miami gives it year-round subtropical heat with an Atlantic sea breeze that moderates summer highs. The Intracoastal Waterway and tidal canals maintain permanent standing water that sustains mosquito populations and keeps humidity high at the foundation level.",
+    topPests: [
+      "Formosan Termites",
+      "American Cockroaches",
+      "Mosquitoes",
+      "Ghost Ants",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round",
+        note: "Broward County's Zone 1 Very High termite rating applies to Hollywood; the Intracoastal corridor's older wood-frame bungalows are the highest-risk properties in the city.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Hollywood's tidal canal infrastructure keeps storm drain moisture constant, driving American cockroaches to surface into homes after heavy rain events.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peaks June through October",
+        note: "The Hollywood Lakes district and Intracoastal Waterway create permanent larval habitat; residential canals and ornamental ponds are the property owner's responsibility to manage.",
+      },
+      {
+        name: "Ghost Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants trail along baseboards and countertops throughout Broward County; contact sprays scatter the multi-queen colony and require slow-acting bait for elimination.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Restaurant corridors on Hollywood Boulevard and the Beach area sustain high German cockroach pressure that spreads to adjacent residential units through shared plumbing voids.",
+      },
+    ],
+    localHook:
+      "Hollywood's position on the Intracoastal Waterway in Broward County places it squarely in South Florida's Zone 1 Very High termite pressure zone. The coastal canal network provides year-round standing water, and the subtropical climate means pest activity does not drop off in winter.",
+    intro:
+      "Pest control in Hollywood, Florida is a year-round commitment. The city's coastal location between Fort Lauderdale and Miami, its Intracoastal Waterway canals, and Broward County's Zone 1 Very High termite pressure rating mean that residents deal with termites, cockroaches, and mosquitoes in every season. The brief winter temperature drop that slows pest activity in northern Florida does not reach South Florida.",
+    sections: [
+      {
+        heading: "Termite Risk on the Intracoastal",
+        body: "Broward County hosts both Formosan and Asian subterranean termites, and Hollywood's aging housing stock in the Hollywood Hills and Hollywood Beach neighborhoods is particularly exposed. Wood-frame bungalows built before pressure-treated lumber became standard are vulnerable at the sill plate and floor joists. Concrete block construction is not immune: termites enter through mortar cracks, expansion joints, and utility penetrations in the slab. An annual inspection by a licensed Florida pest control operator and a current termite contract are standard practice for any property owner in the county.",
+      },
+      {
+        heading: "Cockroaches and Ants in a Coastal City",
+        body: "American cockroaches and ghost ants are the two most common indoor pest complaints in Hollywood. American cockroaches come from the storm drain and canal system when rainfall pushes them out. Ghost ants are South Florida's persistent nuisance ant, forming multi-queen supercolonies that resist spray treatments. Both require targeted bait programs rather than broadcast sprays. German cockroaches in multifamily housing require crack-and-crevice treatment and follow-up monitoring because they reinfest quickly from neighboring units.",
+      },
+      {
+        heading: "Mosquito Management Near the Waterway",
+        body: "The Intracoastal Waterway and the Hollywood Lakes canal system provide standing water year-round. Broward County Mosquito Control treats public water bodies, but private property needs its own management plan. Empty standing water weekly during wet season. Use larvicide dunks in ornamental ponds and water features that cannot be drained. Yard adulticide treatment before outdoor events reduces adult populations for several days.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection and keep a current termite contract",
+      "Clear plant water dishes and low spots of standing water weekly in summer",
+      "Seal storm drain cleanouts and plumbing access points at ground level",
+      "Keep mulch 12 or more inches from the foundation",
+      "Use sealed containers for pantry storage to reduce cockroach attractants",
+    ],
+    costNote:
+      "Termite bait station installation in Hollywood typically costs $1,200 to $2,500 with annual monitoring fees of $300 to $500. General pest control programs for cockroaches, ants, and mosquitoes run $80 to $120 per quarter for a standard residential home. One-time mosquito yard treatments for events run $150 to $250.",
+    faqs: [
+      {
+        question: "Does Hollywood, FL have Formosan termites?",
+        answer:
+          "Yes. Broward County is rated Zone 1 Very High for termite pressure by University of Florida IFAS Extension, and Formosan subterranean termites are documented throughout the county including Hollywood. Asian subterranean termites are also present in South Florida. Both species are more aggressive than the native eastern subterranean termite and require a bait station or liquid barrier contract for adequate protection.",
+      },
+      {
+        question: "Why do I see palmetto bugs after it rains in Hollywood?",
+        answer:
+          "American cockroaches, called palmetto bugs locally, live in storm drains, sewer lines, and outdoor organic debris. Heavy rain floods their harborage areas and pushes them to the surface and into buildings through gaps around doors, drain covers, and utility penetrations. Sealing entry points at the foundation level and treating the perimeter reduces the post-rain invasion.",
+      },
+      {
+        question: "What are the small translucent ants in my Hollywood kitchen?",
+        answer:
+          "Small, translucent ants in a South Florida kitchen are almost certainly ghost ants, a species specific to tropical and subtropical Florida. They trail in from outdoors or through wall voids in search of sweet or greasy food. They do not bite or sting. Store-bought ant sprays scatter the colony rather than eliminating it. A slow-acting borate or sugar bait shared back to queens is the effective approach.",
+      },
+      {
+        question: "When does mosquito season end in Hollywood?",
+        answer:
+          "Mosquito activity in Hollywood drops significantly by November and reaches its low point in January and February. However, South Florida rarely gets a frost, and some mosquito activity continues year-round along the canal corridors. The wet season from June through October is when biting pressure is highest. Eliminating standing water on the property is the single most effective step a homeowner can take.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Fort Lauderdale", slug: "fort-lauderdale" },
+      { name: "Pembroke Pines", slug: "pembroke-pines" },
+      { name: "Miami", slug: "miami" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Hollywood, FL | Termites, Cockroaches & Mosquitoes",
+    metaDescription:
+      "Hollywood FL pest control for Formosan termites, American cockroaches, ghost ants, mosquitoes and German cockroaches. Broward County coastal specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

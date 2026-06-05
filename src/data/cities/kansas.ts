@@ -117,4 +117,122 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "Wichita pest control for brown recluse spiders, subterranean termites, house mice, cockroaches and ants. Arkansas River valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "overland-park",
+    name: "Overland Park",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T2",
+    population: "~197,000",
+    county: "Johnson County",
+    climate: "temperate",
+    climateDriver:
+      "Overland Park sits in the eastern edge of the Great Plains in Johnson County, the most affluent and densely suburbanized county in Kansas. The temperate continental climate brings hot, humid summers and cold winters. Eastern subterranean termites are present throughout Johnson County and the Kansas City metro. Brown recluse spiders are very common across eastern Kansas, and Johnson County falls squarely within their core range. Moisture from the metro's extensive irrigation and mature tree canopy sustains high mosquito pressure through the summer.",
+    topPests: [
+      "Brown Recluse Spiders",
+      "Subterranean Termites",
+      "House Mice",
+      "Mosquitoes",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active April through October",
+        note:
+          "Brown recluse spiders are common throughout eastern Kansas and Overland Park falls within the densest part of their range. Johnson County's older homes and the abundant cardboard, clutter, and stored goods in suburban garages and basements provide ideal habitat. Kansas State University Research Extension identifies eastern Kansas as core brown recluse territory. Their bite causes necrotic tissue damage that can be serious, particularly for individuals who do not notice the initial bite.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarm March through May",
+        note:
+          "Eastern subterranean termites are present throughout Johnson County and the greater Kansas City metro. Kansas State University Research Extension identifies the eastern two-thirds of Kansas as within the significant termite pressure zone. Swarmer activity in March through May is the most visible sign of an active colony. Overland Park's mature suburban neighborhoods, many with decades-old landscaping in ground contact with structures, carry steady termite risk.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors September through March",
+        note:
+          "House mice move into Overland Park homes in fall as temperatures drop. Johnson County's suburban density means mice in adjacent properties and green spaces have many entry points to test. Exclusion sealing of foundation gaps and utility penetrations before October is the practical prevention window.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "Overland Park's extensive parks, retention ponds, and mature residential landscaping provide mosquito breeding habitat through the warm season. Johnson County's suburban density means breeding pressure from neighboring properties contributes significantly to yard-level mosquito populations. Barrier spray programs from May through October are the standard residential control approach.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are concentrated in Overland Park's multi-family housing and commercial kitchen environments. They spread between units through shared walls and plumbing and require gel bait plus insect growth regulator treatment to stop the breeding cycle rather than just reduce adult numbers.",
+      },
+    ],
+    localHook:
+      "Johnson County is in the core of the brown recluse spider's range in the United States, and Overland Park's suburban homes, with their garages, finished basements, and storage-heavy households, provide exactly the kind of dark, cluttered harborage that brown recluse populations depend on. Kansas State University Research Extension regularly uses the Kansas City metro as a primary reference area for brown recluse distribution and prevalence.",
+    intro:
+      "Pest control in Overland Park has two headline concerns: brown recluse spiders and subterranean termites. Both are common, both can cause real harm, and both require professional management. Beyond those two, mice push in from Johnson County's suburban green spaces each fall, mosquitoes are active through the long warm season, and German cockroaches are the steady indoor problem in rentals and commercial kitchens. Overland Park is a well-maintained city, and its mature landscaping and older housing stock create the specific conditions that sustain all of these pest pressures.",
+    sections: [
+      {
+        heading: "Brown recluse spiders in Overland Park: understanding the real risk",
+        body: "Eastern Kansas is prime brown recluse territory. Johnson County is in the heart of their US range, and Overland Park's mix of older homes, finished basements, attached garages, and storage-heavy suburban households provides exactly the habitat they prefer: dark, undisturbed, and full of cardboard and clutter to hide in. Brown recluse bites often go unnoticed because the initial sting is not always painful. The wound develops over 24 to 72 hours into a necrotic lesion that can be serious. Regular perimeter treatment, reducing clutter in storage areas, and dewebbing garage corners and basement edges are the practical management steps. Killing every spider in a Johnson County home is not realistic, but keeping populations well below the threshold where encounters become frequent is the working goal.",
+      },
+      {
+        heading: "Termite pressure in Johnson County: the mature neighborhood risk",
+        body: "Eastern subterranean termites are active throughout Johnson County and become more likely to cause structural damage the longer they go undetected. Overland Park's older suburban neighborhoods, many with landscaping in direct ground contact with siding or framing, with wood mulch against the foundation, and with older wooden deck and fence posts, provide steady access points. Annual inspections are the standard recommendation. Liquid barrier treatment with Termidor or a bait station program are both effective in Johnson County. The choice depends on the property's construction and the extent of any active infestation.",
+      },
+    ],
+    prevention: [
+      "Reduce cardboard clutter in garages, basements, and storage areas to remove brown recluse harborage.",
+      "Schedule an annual termite inspection: Johnson County is in the active termite zone.",
+      "Seal foundation and utility gaps in September before mice enter for the winter.",
+      "Manage mulch and wood debris at the foundation to reduce both termite and spider harborage.",
+    ],
+    costNote:
+      "Overland Park pest control typically involves a year-round general pest program covering brown recluse, ants, and roaches, with a separate annual termite inspection and protection plan. Seasonal mosquito programs run April through October. Fall exclusion visits address mouse entry points.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really dangerous in Overland Park?",
+        answer:
+          "Yes. Johnson County is in the core of the brown recluse's US range, and encounters in homes here are more common than in most of the country. Their bite causes necrotic tissue damage that develops over days and can require medical treatment. The practical approach is not to try to achieve zero spiders but to keep populations in the home well below the level where encounters become regular. Quarterly perimeter treatment and reducing clutter in storage areas are the primary tools.",
+      },
+      {
+        question: "Do I need a termite inspection in Overland Park?",
+        answer:
+          "Annual inspections are the standard recommendation for Johnson County homeowners. Eastern subterranean termites are present throughout the area, and damage is silent until it is significant. Homes with wood mulch against the foundation, wood-to-soil contact at decks or fences, or moisture issues in crawlspaces have higher exposure. Most termite programs include an annual inspection with retreatment covered under warranty.",
+      },
+      {
+        question: "When do mice come into Overland Park homes?",
+        answer:
+          "Typically September through November as temperatures drop. Johnson County's suburban green spaces, parks, and the Missouri River floodplain all sustain field mice populations that press into residential structures each fall. Exclusion sealing in August or September, ahead of the pressure, is the most cost-effective approach. Snap traps plus exterior bait stations handle any mice that get through.",
+      },
+      {
+        question: "How bad is mosquito season in Overland Park?",
+        answer:
+          "Johnson County's retention ponds, parks, and irrigated landscaping sustain meaningful mosquito populations from late April through October. This is not as intense as Gulf Coast mosquito pressure, but it is consistent enough that outdoor entertaining becomes significantly more comfortable with a seasonal barrier program. Monthly service from May through September is the standard residential program.",
+      },
+      {
+        question: "Can I treat brown recluse spiders myself in Overland Park?",
+        answer:
+          "Over-the-counter insecticides kill brown recluse spiders on direct contact but provide limited residual effect in the dark, cluttered areas where they live. Professional treatment uses residual products applied in the specific voids and edges where brown recluse populations concentrate, combined with systematic dewebbing and physical removal of egg sacs. For an established population in a suburban home, professional treatment is consistently more effective than DIY sprays.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Olathe", slug: "olathe" },
+      { name: "Lenexa", slug: "lenexa" },
+      { name: "Shawnee", slug: "shawnee-ks" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Overland Park, KS | Brown Recluse Spiders & Termites",
+    metaDescription:
+      "Overland Park pest control for brown recluse spiders, subterranean termites, house mice, mosquitoes and German cockroaches. Johnson County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

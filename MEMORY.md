@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-05)
 
-- **Phase:** Phase 2 T2 in progress. Chunk 5 complete.
-- **City pages built:** 125 total (75 T1 + 50 T2). 250 T2 cities remaining.
+- **Phase:** Phase 2 T2 in progress. Chunk 6 complete.
+- **City pages built:** 150 total (75 T1 + 75 T2). 225 T2 cities remaining.
 - **Town pages built:** 0.
-- **Total site pages:** 208 in the static export (home, services, 50+ states, 125 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation balanced at 25 each (20% per template, 125 total cities).
-- **Cities built T2 chunk 5 (25):** Fremont CA (A), Hialeah FL (B), Chesapeake VA (C), Glendale AZ (D), Tacoma WA (E), Gilbert AZ (A), Tempe AZ (B), Cape Coral FL (C), McKinney TX (D), Grand Rapids MI (E), Huntington Beach CA (A), Fayetteville NC (B), Jackson MS (C), Columbia SC (D), Tallahassee FL (E), Yonkers NY (A), Augusta GA (B), Moreno Valley CA (C), Springfield MO (D), Aurora IL (E), Oxnard CA (A), Paterson NJ (B), Hartford CT (C), Santa Ana CA (D), Cary NC (E).
-- **New state files added chunk 5:** Mississippi, South Carolina, Connecticut.
-- **Next block:** Chunk 6, next 25 T2 cities, rotation continues at A.
+- **Total site pages:** 233 in the static export (home, services, 50+ states, 150 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation balanced at 30 each (20% per template, 150 total cities).
+- **Cities built T2 chunk 6 (25):** Sioux Falls SD (A), Fort Wayne IN (A), Fargo ND (C), North Las Vegas NV (C), Overland Park KS (D), Huntsville AL (E), Montgomery AL (E), Dayton OH (A), Peoria AZ (C), Columbus GA (C), Savannah GA (D), Shreveport LA (D), Clarksville TN (D), Newport News VA (E), Hampton VA (E), Salem OR (A), Eugene OR (B), Brownsville TX (B), Pasadena TX (D), Pembroke Pines FL (A), San Bernardino CA (B), Glendale CA (B), Modesto CA (B), Fontana CA (C), Hollywood FL (E).
+- **New state files added chunk 6:** South Dakota, North Dakota.
+- **Next block:** Chunk 7, next 25 T2 cities, rotation continues at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

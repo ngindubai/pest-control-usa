@@ -435,4 +435,240 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Chesapeake pest control for mosquitoes near the Great Dismal Swamp, subterranean termites, ticks, stink bugs and spiders. Hampton Roads specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "newport-news",
+    name: "Newport News",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T2",
+    population: "~180,000",
+    county: "Independent City (no county)",
+    climate: "temperate",
+    climateDriver:
+      "Newport News sits on the Virginia Peninsula between the York River to the north and the James River to the south, with direct Chesapeake Bay access. The mid-Atlantic coastal location delivers humid summers and mild winters. Eastern subterranean termites are active throughout the Hampton Roads area, and Virginia Cooperative Extension identifies the Peninsula as in the high termite pressure zone. Asian tiger mosquitoes are now established throughout Hampton Roads alongside native species, extending the active biting season into daylight hours. Brown marmorated stink bugs are well established across Virginia and are a reliable fall pest.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Stink Bugs",
+      "American Cockroaches",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarm February through April",
+        note:
+          "Newport News is in the high termite pressure zone for Virginia. The Peninsula's coastal humidity, mild winters, and older housing stock carry meaningful termite risk. Virginia Cooperative Extension documents the Hampton Roads area as one of the most termite-active regions in the state. Annual inspections with a proactive protection plan are the standard recommendation.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "Newport News's coastal location between the York and James Rivers creates tidal and wetland habitat that sustains mosquito populations. Asian tiger mosquitoes, now established throughout Hampton Roads per Virginia Cooperative Extension, bite aggressively during daylight hours, extending exposure beyond dawn and dusk. Monthly barrier spray programs from April through October are the standard residential approach.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge in spring",
+        note:
+          "Stink bugs have spread across Virginia and are a predictable fall pest in Newport News. They aggregate on exterior walls in September before entering wall voids and attics to overwinter. Perimeter treatment in early September and sealing exterior gaps prevents the overwintering invasion.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible during rain",
+        note:
+          "American cockroaches are common throughout Newport News's coastal infrastructure and push into buildings during rain events. The Peninsula's high humidity and aging drainage infrastructure sustain large outdoor populations year-round. Sealing plumbing penetrations and maintaining a perimeter treatment reduces indoor incursions.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors September through March",
+        note:
+          "House mice push into Newport News homes in fall as temperatures drop. The Peninsula's older residential neighborhoods and the military housing corridors provide outdoor harborage that sustains mouse populations pressing into structures each fall.",
+      },
+    ],
+    localHook:
+      "Newport News is one of the five cities of Hampton Roads, and the entire Virginia Peninsula between the York and James Rivers has some of the highest termite and mosquito pressure in the state. Virginia Cooperative Extension identifies Hampton Roads as one of the most termite-active regions in Virginia, with coastal humidity and mild winters creating near-optimal conditions for subterranean termite colony development.",
+    intro:
+      "Pest control in Newport News deals with the Peninsula's full coastal pest pressure. Eastern subterranean termites are active throughout the Virginia Peninsula. Mosquitoes run April through October, with Asian tiger mosquitoes adding day-biting pressure. Stink bugs are a reliable fall event. American cockroaches move from aging coastal infrastructure into buildings during rain. Mice press in each fall as temperatures drop.",
+    sections: [
+      {
+        heading: "Termite pressure on the Virginia Peninsula",
+        body: "Newport News sits in the high termite pressure zone identified by Virginia Cooperative Extension for the Hampton Roads area. The combination of coastal humidity, mild winters that rarely see sustained soil freezing, and an older housing stock with many homes showing wood-to-soil contact at foundations, decks, and landscape timbers creates consistent termite exposure. Annual inspections with a proactive protection plan are the standard approach. Termidor liquid barrier treatment and Sentricon bait stations are both effective in the Hampton Roads soil conditions.",
+      },
+      {
+        heading: "Asian tiger mosquitoes and Newport News's extended biting season",
+        body: "Asian tiger mosquitoes, established throughout Hampton Roads, bite aggressively during daylight hours rather than only at dawn and dusk. This extends the practical outdoor exposure window significantly. Virginia Cooperative Extension has documented the Asian tiger mosquito as widespread across the Hampton Roads area. A barrier spray program targeting the resting vegetation on the property is effective against both native and tiger mosquitoes and is the practical approach for Newport News residents who want to use their yards comfortably through the summer.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections: the Virginia Peninsula is in the high termite pressure zone.",
+      "Maintain mosquito barrier spray programs from April through October for both native and day-biting Asian tiger mosquitoes.",
+      "Treat perimeter in early September before stink bugs enter for fall overwintering.",
+      "Seal foundation and utility gaps in September before the fall mouse push.",
+    ],
+    costNote:
+      "Newport News pest control typically involves a year-round program covering cockroaches, mice, and spiders, with a separate annual termite protection plan. Mosquito programs run April through October. Fall exclusion and stink bug treatment are seasonal additions. Free inspections assess the specific pressures on your property.",
+    faqs: [
+      {
+        question: "How serious is the termite risk in Newport News?",
+        answer:
+          "Virginia Cooperative Extension identifies the Hampton Roads area as one of the most termite-active regions in the state. Newport News's coastal humidity and mild winters create near-optimal conditions for subterranean termite colony development. Annual inspections with a proactive protection plan are the standard recommendation for all Peninsula property owners.",
+      },
+      {
+        question: "What are Asian tiger mosquitoes and why are they in Newport News?",
+        answer:
+          "Asian tiger mosquitoes are an introduced species now established throughout Hampton Roads. Unlike native mosquitoes that mainly bite at dawn and dusk, tiger mosquitoes bite aggressively during daylight hours. They breed in small containers of standing water, so eliminating water in pots, saucers, and gutters is important supplementary control alongside barrier spray programs.",
+      },
+      {
+        question: "Are stink bugs a problem every fall in Newport News?",
+        answer:
+          "Yes, for homes with older siding and exterior gaps. Brown marmorated stink bugs aggregate on exterior walls in September before entering wall voids to overwinter. A perimeter spray in early September is the effective prevention window. Once inside, vacuum removal when they emerge in spring is the practical response.",
+      },
+      {
+        question: "Why do cockroaches enter Newport News homes during rain?",
+        answer:
+          "American cockroaches live in Newport News's coastal drainage infrastructure and sewer lines. Rain events flood these outdoor habitats and displace cockroaches into buildings through plumbing and foundation gaps. Sealing entry points and maintaining a perimeter treatment reduces these rain-driven incursions.",
+      },
+      {
+        question: "When should I seal my Newport News home against mice?",
+        answer:
+          "August through September is the best exclusion window ahead of the fall mouse push. Newport News temperatures begin dropping in October and mice start pressing into structures from September onward. Sealing foundation gaps, utility penetrations, and door thresholds before October, combined with exterior bait stations, is the most effective approach.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Hampton", slug: "hampton" },
+      { name: "Williamsburg", slug: "williamsburg" },
+      { name: "Poquoson", slug: "poquoson" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Newport News, VA | Termites, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Newport News pest control for subterranean termites, mosquitoes, stink bugs, American cockroaches and house mice. Virginia Peninsula Hampton Roads specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hampton",
+    name: "Hampton",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T2",
+    population: "~137,000",
+    county: "Independent City (no county)",
+    climate: "temperate",
+    climateDriver:
+      "Hampton occupies the tip of the Virginia Peninsula at the mouth of Hampton Roads harbor, bordered by the James River, the Chesapeake Bay, and Back River. The coastal mid-Atlantic location delivers humid summers, mild winters, and the tidal and wetland habitat that sustains intense mosquito pressure. Eastern subterranean termites are active throughout Hampton, and the coastal humidity creates conditions close to optimal for colony development. Asian tiger mosquitoes are established across Hampton Roads. Brown marmorated stink bugs are a consistent fall pest throughout Virginia.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Stink Bugs",
+      "American Cockroaches",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarm February through April",
+        note:
+          "Hampton is in the high termite pressure zone for the Hampton Roads area. The coastal humidity and mild winters are favorable for subterranean termite colony development. Virginia Cooperative Extension documents the Hampton Roads metro as one of the more termite-active regions in Virginia. Annual inspections with a proactive soil treatment or bait program are the standard recommendation.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "Hampton's coastal position with Back River, the Chesapeake Bay shoreline, and tidal wetlands throughout the city provides extensive breeding habitat. Asian tiger mosquitoes are established throughout Hampton Roads and extend the biting season into daylight hours. Barrier spray programs from April through October are the standard residential approach.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge in spring",
+        note:
+          "Stink bugs are a predictable fall pest in Hampton. They aggregate on warm exterior walls in September before entering wall voids and attics to overwinter. Perimeter treatment in early September and sealing exterior gaps is the prevention approach.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible during rain",
+        note:
+          "American cockroaches are common throughout Hampton's coastal drainage infrastructure and push into buildings during rain events. The Peninsula's coastal humidity sustains large outdoor populations. Sealing plumbing penetrations and maintaining a perimeter treatment reduces indoor incursions.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors September through March",
+        note:
+          "House mice push into Hampton homes in fall as temperatures drop along the Virginia Peninsula. The older residential neighborhoods along the Hampton waterfront and the military housing corridors provide outdoor harborage before mice make the move inside.",
+      },
+    ],
+    localHook:
+      "Hampton is one of the oldest continuously settled English communities in the United States, and its older housing stock, coastal position, and the extensive tidal wetlands around the city make it one of the most complete pest environments on the Virginia Peninsula. Termite pressure, mosquito habitat, and stink bug pressure all arrive on their own calendars and all require attention.",
+    intro:
+      "Pest control in Hampton handles the full Hampton Roads coastal pest suite. Eastern subterranean termites are active throughout the city, and the coastal humidity makes Hampton one of the more termite-active areas in Virginia. Mosquitoes run April through October with Asian tiger mosquitoes extending day-biting pressure. Stink bugs are a reliable September event. American cockroaches move from coastal drainage into homes during rain. Mice press in each fall as temperatures drop along the Peninsula.",
+    sections: [
+      {
+        heading: "The Hampton Roads termite environment",
+        body: "The Hampton Roads metro, and Hampton in particular with its older housing stock, has the combination of coastal humidity, mild winters, and older construction that creates consistent termite exposure. Virginia Cooperative Extension identifies Hampton Roads as one of the most termite-active regions in the state. Hampton's waterfront neighborhoods and the older homes along the Phoebus and Wythe corridors carry particular risk because of older construction practices and proximity to coastal moisture. Annual inspections with a proactive protection plan are the responsible approach for any Hampton property owner.",
+      },
+      {
+        heading: "Mosquitoes and the Hampton waterfront",
+        body: "Hampton's position at the mouth of Hampton Roads harbor means tidal wetlands and Back River shoreline are within or adjacent to the city. This coastal habitat sustains mosquito breeding through the full warm season. Asian tiger mosquitoes, established throughout Hampton Roads, bite during the day and extend the practical exposure window beyond the traditional dawn-and-dusk species. A barrier spray program from April through October that targets the resting vegetation on the property is the practical approach. Source reduction, eliminating standing water in containers and gutters, supplements the spray program for the day-biting tiger mosquito species.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections: Hampton's coastal humidity creates high termite pressure.",
+      "Maintain mosquito barrier spray programs from April through October for both native and tiger mosquitoes.",
+      "Treat perimeter in early September before stink bugs enter for fall overwintering.",
+      "Seal foundation and utility gaps in September before the fall mouse push.",
+    ],
+    costNote:
+      "Hampton pest control typically involves a year-round program covering cockroaches, mice, and spiders, with a separate annual termite protection plan. Mosquito programs run April through October. Fall exclusion and stink bug treatment are seasonal additions. Free inspections assess the specific needs for your property.",
+    faqs: [
+      {
+        question: "Does Hampton have serious termite problems?",
+        answer:
+          "Virginia Cooperative Extension identifies the Hampton Roads area as one of the most termite-active regions in Virginia. Hampton's coastal humidity and mild winters are close to optimal for subterranean termite colony development. Annual inspections with a proactive protection plan are the standard recommendation. The older housing stock in Hampton's historic neighborhoods carries the highest risk.",
+      },
+      {
+        question: "How long is mosquito season in Hampton?",
+        answer:
+          "The practical mosquito season in Hampton runs from April through October. Hampton's coastal location with Back River and tidal areas throughout the city provide breeding habitat that sustains populations through the full warm season. Asian tiger mosquitoes extend pressure into daylight hours. Monthly barrier spray programs from April through October are the standard residential approach.",
+      },
+      {
+        question: "Are stink bugs a regular problem in Hampton?",
+        answer:
+          "Yes, in the fall. Brown marmorated stink bugs aggregate on exterior walls in September before entering wall voids to overwinter. A perimeter spray in early September is the effective prevention window. Once inside, vacuum removal when they emerge in spring is the practical response.",
+      },
+      {
+        question: "Why do American cockroaches push into Hampton homes?",
+        answer:
+          "American cockroaches in Hampton live in the coastal drainage infrastructure and sewer systems. Rain events displace them into buildings through plumbing and foundation gaps. Hampton's coastal humidity sustains large outdoor populations year-round. Sealing entry points and maintaining a perimeter treatment reduces these incursions.",
+      },
+      {
+        question: "Do I need year-round pest control in Hampton?",
+        answer:
+          "For most properties, yes. Termites are active year-round. Mosquitoes run April through October. Stink bugs arrive in fall. Mice press in from September onward. Cockroaches are year-round. A year-round program with seasonal additions for mosquitoes is the practical approach for Hampton homeowners.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Newport News", slug: "newport-news" },
+      { name: "Poquoson", slug: "poquoson" },
+      { name: "Norfolk", slug: "norfolk" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Hampton, VA | Termites, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Hampton pest control for subterranean termites, mosquitoes, stink bugs, American cockroaches and house mice. Hampton Roads Peninsula coastal specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

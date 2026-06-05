@@ -865,4 +865,122 @@ export const arizonaCities: CityLocation[] = [
     metaDescription:
       "Tempe pest control for bark scorpions, cockroaches, subterranean termites, roof rats and ticks. Maricopa County near ASU and Tempe Town Lake. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "peoria",
+    name: "Peoria",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T2",
+    population: "~175,000",
+    county: "Maricopa County",
+    climate: "desert",
+    climateDriver:
+      "Peoria occupies the northwest portion of the Phoenix metro in the Sonoran Desert. Summer temperatures exceed 110 degrees, and the city's position along the New River and Agua Fria River corridors creates wildlife and mosquito habitat among the desert landscaping. Bark scorpions are endemic to the Sonoran Desert and are present throughout Peoria, including newer master-planned communities. White-throated woodrats (pack rats) build nests in desert landscaping and under vehicles. Desert subterranean termites become active after summer monsoon rains. The Arizona Department of Health Services tracks scorpion sting cases statewide, and Maricopa County consistently leads in reported incidents.",
+    topPests: [
+      "Bark Scorpions",
+      "Pack Rats",
+      "American Cockroaches",
+      "Black Widow Spiders",
+      "Desert Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round, peak April through October",
+        note:
+          "The Arizona bark scorpion is the only medically significant scorpion in the US and is common throughout all of Peoria's residential areas, including the planned communities of Vistancia and Lake Pleasant. They climb block walls, enter through gaps at door thresholds and weep holes in brick, and are active at night. Monthly perimeter treatment with specialized scorpion formulations is the standard recommendation for all Peoria households.",
+      },
+      {
+        name: "White-throated woodrats (pack rats)",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round",
+        note:
+          "Pack rats are a distinctive Sonoran Desert pest in Peoria. They build large stick nests in desert landscaping, under vehicles, and in storage areas. They chew through vehicle wiring, HVAC components, and irrigation lines. University of Arizona Cooperative Extension documents pack rat damage to vehicle wiring as a common and expensive problem in the northwest Valley.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, push indoors during peak summer heat",
+        note:
+          "American cockroaches live in Peoria's sewer infrastructure, irrigation system, and outdoor organic debris. During the extreme July and August heat, they migrate from outdoor habitat into air-conditioned structures through plumbing penetrations and under doors. Sealing the transition points between outdoor cockroach habitat and living spaces is the key indoor management step.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round",
+        note:
+          "Black widows are abundant throughout Peoria's residential areas, nesting under eaves, in block wall crevices, in irrigation valve boxes, and in outdoor storage. The Sonoran Desert climate is ideal black widow habitat. Regular exterior dewebbing and residual treatment keeps the population around the home manageable.",
+      },
+      {
+        name: "Desert subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Most active after summer monsoon rains",
+        note:
+          "Desert subterranean termites are present throughout Maricopa County. Unlike eastern subterranean termites, they can forage above ground at night and after rain events. July and August monsoon rains trigger swarmer activity. University of Arizona Cooperative Extension advises annual termite inspections for all Valley homes, particularly those with wood framing near grade.",
+      },
+    ],
+    localHook:
+      "Peoria's northwest Valley location puts it in some of the hottest and driest parts of the Phoenix metro, but it also borders the Agua Fria River and the desert foothills that sustain the wildlife species, scorpion populations, and pack rat colonies that are part of everyday life for homeowners in this part of Arizona.",
+    intro:
+      "Pest control in Peoria deals with the full Sonoran Desert pest suite. Bark scorpions are a year-round medical concern. Pack rats build nests in desert landscaping and chew through vehicle wiring. American cockroaches migrate from sewer and irrigation infrastructure into air-conditioned homes during peak summer heat. Black widows are common in every outdoor crevice. Desert subterranean termites swarm after monsoon rains. Monthly service is the standard in Peoria rather than the exception.",
+    sections: [
+      {
+        heading: "Scorpions and pack rats: Peoria's two most distinctive pest challenges",
+        body: "Bark scorpions and pack rats are the two pests that distinguish the northwest Valley from other pest environments in the country. Bark scorpions are a medical concern unique to the Sonoran Desert region, and Peoria's position against the desert foothills means scorpion pressure here is often higher than in the more central Valley communities. Monthly treatment with specialized formulations, UV flashlight checks at night, and sealing the gaps scorpions use to enter are the consistent tools. Pack rats are a different challenge. They build large stick nests that can be several feet across in desert landscaping, under parked vehicles, and in storage. Nest removal requires protective gear because pack rat urine can carry hantavirus. Trapping should precede nest removal to prevent rats from relocating to a new nest site on the same property.",
+      },
+      {
+        heading: "Monsoon season in Peoria: termites and cockroach surges",
+        body: "July and August in the Phoenix metro bring the desert monsoon, and with it two specific pest events. Desert subterranean termite swarmers emerge after the first significant rain events, which is the most visible sign of termite activity for many homeowners. At the same time, American cockroaches are displaced from sewer infrastructure and irrigation systems by the rain and heat surge, migrating toward air-conditioned structures in greater numbers. A perimeter treatment timed before monsoon season, combined with keeping plumbing penetrations sealed, reduces both pressures significantly.",
+      },
+    ],
+    prevention: [
+      "Schedule monthly scorpion perimeter treatment: Maricopa County is the most scorpion-active county in Arizona.",
+      "Keep desert landscaping trimmed and thinned to reduce pack rat nest sites adjacent to the home.",
+      "Seal plumbing penetrations and weep holes in brick to reduce American cockroach entry.",
+      "Schedule an annual termite inspection, with attention to the post-monsoon period for swarmer activity.",
+    ],
+    costNote:
+      "Peoria pest control is most efficiently structured as a monthly program covering scorpions, cockroaches, and spiders. Pack rat trapping and nest removal are priced separately. Annual termite inspections are a separate protection plan. The year-round Sonoran Desert climate means there is no true off-season.",
+    faqs: [
+      {
+        question: "How serious is the scorpion problem in Peoria?",
+        answer:
+          "Peoria is in full Arizona bark scorpion territory, and Maricopa County leads Arizona in scorpion sting reports. Monthly professional treatment is the standard recommendation, not an upgrade. Bark scorpion stings can cause severe symptoms in young children, elderly individuals, and people with venom sensitivity. The practical precautions are monthly service, UV flashlight checks after dark, shaking out shoes and clothing, and sealing the gaps scorpions use to enter.",
+      },
+      {
+        question: "What do pack rats do to cars in Peoria?",
+        answer:
+          "Pack rats chew through vehicle wiring harnesses, rubber hoses, and HVAC components, causing hundreds or thousands of dollars in repair bills. They are attracted to the warmth of a parked vehicle engine and the materials in wiring. University of Arizona Cooperative Extension documents this as a common problem in the northwest Valley. Vehicle covers, electronic deterrent devices, and eliminating nearby nest sites are practical prevention measures.",
+      },
+      {
+        question: "Are desert termites different from eastern termites?",
+        answer:
+          "Desert subterranean termites can forage above ground at night and after rain, unlike eastern species that rely entirely on soil-to-wood mud tubes. They swarm after summer monsoon rains. They are a genuine structural threat to Peoria homes and warrant annual inspections, particularly for homes with wood framing near grade or in contact with desert soil.",
+      },
+      {
+        question: "Why do cockroaches surge in summer in Peoria?",
+        answer:
+          "American cockroaches surge into Peoria homes during July and August because the monsoon rain displaces them from outdoor irrigation and drainage habitat, and extreme surface temperatures drive them toward air-conditioned spaces. They enter through plumbing penetrations, under doors, and through any foundation gap. Sealing these transition points before monsoon season reduces the summer surge substantially.",
+      },
+      {
+        question: "Do I need pest control year-round in Peoria?",
+        answer:
+          "Yes. The Sonoran Desert climate does not produce an off-season for scorpions, black widows, or cockroaches. Monthly service covering these pests is the practical baseline for Peoria households. Wildlife issues such as pack rats are addressed as needed. Annual termite inspections complete the program.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Glendale", slug: "glendale" },
+      { name: "Surprise", slug: "surprise" },
+      { name: "Goodyear", slug: "goodyear" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Peoria, AZ | Bark Scorpions, Pack Rats & Termites",
+    metaDescription:
+      "Peoria pest control for bark scorpions, pack rats, American cockroaches, black widow spiders and desert subterranean termites. Maricopa County northwest Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

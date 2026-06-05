@@ -534,4 +534,122 @@ export const ohioCities: CityLocation[] = [
     metaDescription:
       "Akron pest control for German cockroaches, house mice, bed bugs, carpenter ants and stink bugs. Summit County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "dayton",
+    name: "Dayton",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T2",
+    population: "~140,000",
+    county: "Montgomery County",
+    climate: "cold-humid",
+    climateDriver:
+      "Dayton sits in the Miami River valley in western Ohio, where the Great Miami and Mad Rivers provide low-lying floodplain habitat that sustains mosquito populations through the warm season. The cold-humid continental climate brings cold winters that drive rodents and overwintering insects indoors. Ohio State University Extension confirms brown recluse spiders are present in southern and western Ohio, and Montgomery County falls within their established range. Stink bugs have spread across Ohio and are a reliable fall pest throughout the Dayton area.",
+    topPests: [
+      "German Cockroaches",
+      "House Mice",
+      "Stink Bugs",
+      "Brown Recluse Spiders",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are the dominant indoor cockroach in Dayton, concentrated in the city's older multi-family housing stock, restaurant kitchens, and commercial food operations. Dayton's older urban core has housing infrastructure that provides German roaches with the warm, moist harborage they require. They spread between units through shared walls and plumbing and require gel bait with IGR treatment to stop the breeding cycle.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors September through March",
+        note:
+          "House mice push into Dayton homes each fall as temperatures drop. Montgomery County's mix of urban, suburban, and agricultural areas surrounding the city provides a large outdoor mouse population that presses into structures from September onward. Exclusion sealing before October and snap trapping for any that get through are the standard approach.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge in spring",
+        note:
+          "Stink bugs have become established throughout Ohio and are a significant fall pest in Dayton. They aggregate on exterior walls in September before entering wall voids and attics to overwinter. Ohio State University Extension documents stink bugs as now common across western Ohio. A perimeter treatment in early September and sealing exterior gaps is the prevention approach.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active April through October",
+        note:
+          "Montgomery County is within the established range of the brown recluse spider in Ohio. Ohio State University Extension confirms brown recluse populations in southwestern and south-central Ohio. They are found in garages, basements, and stored-goods areas throughout Dayton. Their bite causes necrotic tissue damage that can be serious.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note:
+          "The Great Miami and Mad Rivers create floodplain habitat within and around Dayton that sustains mosquito breeding through the warm season. Parks and green spaces along the river corridors are particularly active mosquito zones. The Ohio Department of Health monitors West Nile virus activity statewide and Montgomery County sees activity in most years.",
+      },
+    ],
+    localHook:
+      "The Great Miami River runs through the heart of Dayton, and its floodplain provides productive breeding habitat for mosquitoes through the summer, while the river-adjacent older neighborhoods sustain the carpenter ant and moisture-related pest pressure that Dayton homeowners know well. The Miami Valley's combination of river corridors and older housing makes for a distinctive pest profile.",
+    intro:
+      "Pest control in Dayton handles the full range of Ohio's pest pressures, plus a few regional specialties. German cockroaches are the persistent indoor problem. Mice push in each fall. Stink bugs are now a reliable September event. Brown recluse spiders are present in southwestern Ohio and are a genuine concern in Dayton garages and storage areas. Mosquitoes run from May through September along the Great Miami and Mad River corridors. Year-round general pest management with seasonal additions covers most of what Dayton homes need.",
+    sections: [
+      {
+        heading: "Brown recluse spiders in Dayton: the southwestern Ohio overlap",
+        body: "Dayton sits on the northern edge of the brown recluse's US range, and Ohio State University Extension confirms their presence in southwestern and south-central Ohio. They are not as densely distributed here as in the Midwest's core brown recluse states, but they are present and encounters in homes with garages, finished basements, and stored-goods areas are not unusual. The practical management approach combines quarterly perimeter treatment with systematic reduction of cardboard and clutter in the dark areas of garages and storage rooms. This is not a zero-encounters guarantee, but it keeps population levels well below the threshold where indoor encounters become frequent.",
+      },
+      {
+        heading: "Stink bugs and fall exclusion in Dayton",
+        body: "Stink bugs moved across Ohio over the past decade and are now a predictable fall pest in Dayton. They follow a consistent pattern: aggregate on sunny exterior walls in September, push into wall voids and attics before the first frost, and reemerge from walls in late winter or early spring when interior temperatures warm up. The effective intervention is a perimeter spray in early September when they are still aggregating outside, combined with sealing exterior gaps they use to enter. By October they are already inside, and the practical response shifts to vacuum removal rather than chemical treatment.",
+      },
+    ],
+    prevention: [
+      "Seal foundation and utility gaps in September before the fall mouse and stink bug push.",
+      "Reduce clutter and cardboard in garages and basements to limit brown recluse harborage.",
+      "Treat the perimeter in early September before stink bugs enter wall voids for overwintering.",
+      "Eliminate standing water along the property to reduce mosquito breeding near the home.",
+    ],
+    costNote:
+      "Dayton pest control typically involves a year-round general pest program covering cockroaches, mice, and spiders. Seasonal mosquito programs run May through September. Fall exclusion and stink bug treatment are high-value seasonal additions. A free inspection determines the specific pressures on your property.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really in Dayton?",
+        answer:
+          "Yes. Ohio State University Extension confirms brown recluse populations in southwestern and south-central Ohio, and Montgomery County falls within that range. They are not as densely present as in states further south, but they are established here. Garages, basements, and stored-goods areas in Dayton homes are the primary habitat. Quarterly perimeter treatment and reducing storage clutter are the practical prevention steps.",
+      },
+      {
+        question: "Why do I have stink bugs in my Dayton home every fall?",
+        answer:
+          "Brown marmorated stink bugs entered Ohio over a decade ago and are now well established throughout the state. They seek warm places to overwinter and aggregate on sun-warmed exterior walls in September before pushing into wall voids. Dayton homes with older siding, soffit gaps, and utility penetrations are particularly vulnerable. A perimeter spray in early September is the prevention window. Once they are in the walls, vacuum removal is the practical response when they emerge.",
+      },
+      {
+        question: "When do mice come into Dayton homes?",
+        answer:
+          "Typically September and October, coinciding with the first sustained cold nights in the Miami Valley. House mice press through foundation gaps, utility penetrations, and any gap at the door threshold. Montgomery County's agricultural areas and the river corridor outside the city sustain large outdoor mouse populations. Exclusion sealing before October is the most effective approach.",
+      },
+      {
+        question: "How bad are mosquitoes in Dayton near the rivers?",
+        answer:
+          "Properties adjacent to the Great Miami River, Mad River, and the Stillwater River corridors see meaningful mosquito pressure from May through September. The floodplain habitat along these rivers sustains breeding populations that can affect nearby neighborhoods. Monthly barrier spray programs through the warm season provide consistent yard-level protection.",
+      },
+      {
+        question: "What should I do about German cockroaches in my Dayton apartment?",
+        answer:
+          "German cockroaches in multi-family buildings spread through shared walls and plumbing, so a single-unit treatment often sees them return from adjacent units within weeks. The most effective approach involves coordinated treatment across affected units, gel bait placed in harborage areas like under appliances and in cabinet hinges, and IGR to stop the breeding cycle. A professional inspection determines the scope of infestation before planning treatment.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Kettering", slug: "kettering" },
+      { name: "Springfield", slug: "springfield-oh" },
+      { name: "Cincinnati", slug: "cincinnati" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Dayton, OH | German Cockroaches, Mice & Stink Bugs",
+    metaDescription:
+      "Dayton pest control for German cockroaches, house mice, stink bugs, brown recluse spiders and mosquitoes. Montgomery County Miami River valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

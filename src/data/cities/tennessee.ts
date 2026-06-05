@@ -428,4 +428,122 @@ export const tennesseeCities: CityLocation[] = [
     metaDescription:
       "Knoxville pest control for subterranean termites, stink bugs, house mice, mosquitoes and yellow jackets. Knox County and Smoky Mountain gateway specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "clarksville",
+    name: "Clarksville",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T2",
+    population: "~166,000",
+    county: "Montgomery County",
+    climate: "hot-humid",
+    climateDriver:
+      "Clarksville sits in Montgomery County at the confluence of the Red River and the Cumberland River in northern Tennessee. The hot, humid climate brings long warm seasons and mild winters. The Cumberland River floodplain and the Red River watershed provide extensive mosquito breeding habitat. University of Tennessee Extension identifies middle Tennessee as in the active zone for eastern subterranean termites. Brown recluse spiders are well established across Tennessee, and Montgomery County is within their documented range. Fire ants have been expanding their range northward into Tennessee, and Clarksville is on the leading edge of that expansion.",
+    topPests: [
+      "Mosquitoes",
+      "Eastern Subterranean Termites",
+      "Brown Recluse Spiders",
+      "American Cockroaches",
+      "Fire Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note:
+          "The Cumberland and Red River confluence in Clarksville creates extensive floodplain habitat that sustains mosquito populations through the warm season. Low-lying areas of Montgomery County, including the river parks and greenways popular with Fort Campbell families, see high mosquito activity after rain events. The Tennessee Department of Health monitors West Nile virus statewide and middle Tennessee sees activity annually.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarm February through April",
+        note:
+          "Eastern subterranean termites are active throughout Montgomery County. University of Tennessee Extension identifies the entirety of Tennessee as within the significant termite pressure zone. Clarksville's hot, humid summers and mild winters are favorable for termite colony development. Annual inspections are the standard recommendation, particularly for older homes with wood-to-soil contact.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active March through October",
+        note:
+          "Brown recluse spiders are common across Tennessee. University of Tennessee Extension confirms their presence throughout the state, and Montgomery County is within the core of their distribution in the region. Garages, basements, stored-goods areas, and the many older homes in Clarksville's residential neighborhoods provide ideal habitat. Their bite causes necrotic tissue damage that can require medical treatment.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible during rain and heat",
+        note:
+          "American cockroaches live in Clarksville's outdoor drainage infrastructure, sewer lines, and organic debris. They push into homes during heavy rain and peak summer heat. The Cumberland River valley's humidity keeps outdoor populations large through the warm season. Sealing entry points and treating the perimeter reduce indoor incursions.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note:
+          "Red imported fire ants have been expanding northward into Tennessee over recent decades, and Clarksville, near the Tennessee-Kentucky border, is on the leading edge of this expansion. University of Tennessee Extension documents fire ant presence in middle Tennessee, and they are now a routine pest in Montgomery County lawns. Populations are present but typically less dense than in deep South states.",
+      },
+    ],
+    localHook:
+      "Clarksville is home to Fort Campbell, one of the largest Army installations in the United States, and its location at the confluence of the Cumberland and Red Rivers makes it one of the most mosquito-active metro areas in middle Tennessee. The river floodplains create breeding habitat that sustains populations through a long warm season.",
+    intro:
+      "Pest control in Clarksville handles the middle Tennessee pest pressure along one of the state's most active river corridors. Mosquitoes are the headline concern from March through October along the Cumberland and Red River floodplains. Eastern subterranean termites are active throughout Montgomery County. Brown recluse spiders are established across Tennessee and are common in Clarksville's residential and storage areas. American cockroaches move from outdoor infrastructure into homes during rain events. Fire ants are present in the area, on the leading edge of their northward range expansion.",
+    sections: [
+      {
+        heading: "Mosquito season at the Cumberland and Red River confluence",
+        body: "Clarksville's location at the confluence of two rivers creates floodplain and wetland habitat that sustains mosquito breeding through the full warm season. The river parks and greenways along the Cumberland, popular with Fort Campbell families and local residents, are high-mosquito zones during peak season. Monthly barrier spray programs from March through October provide consistent yard-level protection and reduce the mosquito pressure that comes from the productive breeding habitat in the river corridors.",
+      },
+      {
+        heading: "Brown recluse spiders: the Tennessee standard",
+        body: "Tennessee is one of the core states for brown recluse spider distribution in the US, and Clarksville is fully within their established range. University of Tennessee Extension documents them throughout the state. They concentrate in garages, basements, under stored items, and in closets with cardboard and clutter. Their bite often goes unnoticed initially, and the necrotic wound develops over days. The practical management approach is quarterly perimeter treatment combined with systematic reduction of the cardboard and clutter that create habitat in storage areas. This does not guarantee zero encounters but keeps populations well below the threshold where encounters inside the home become routine.",
+      },
+    ],
+    prevention: [
+      "Maintain mosquito barrier spray programs from March through October along the river corridor.",
+      "Schedule annual termite inspections: Tennessee is in the significant termite pressure zone.",
+      "Reduce cardboard and clutter in garages and storage areas to limit brown recluse harborage.",
+      "Seal plumbing penetrations and foundation gaps to reduce American cockroach entry during rain events.",
+    ],
+    costNote:
+      "Clarksville pest control typically involves a year-round program covering cockroaches, brown recluse spiders, and ants, with a seasonal mosquito program from March through October and a separate annual termite protection plan. Free inspections are available to assess the specific pressures on your property.",
+    faqs: [
+      {
+        question: "How serious is mosquito season in Clarksville?",
+        answer:
+          "Clarksville's position at the Cumberland and Red River confluence makes it one of the more mosquito-active areas in middle Tennessee. The floodplain habitat along both rivers sustains breeding populations from March through October. The Tennessee Department of Health monitors West Nile virus activity, and middle Tennessee sees annual reports. Monthly barrier spray programs provide consistent protection through the season.",
+      },
+      {
+        question: "Are brown recluse spiders common in Clarksville?",
+        answer:
+          "Yes. Tennessee is within the core US range of the brown recluse spider, and Montgomery County is fully in their distribution area. University of Tennessee Extension confirms their presence throughout the state. They are particularly common in garages, basements, and stored-goods areas. Quarterly perimeter treatment and reducing clutter in storage areas are the practical management steps.",
+      },
+      {
+        question: "Do I need termite protection in Clarksville?",
+        answer:
+          "Annual inspections are the standard recommendation. University of Tennessee Extension identifies all of Tennessee as within the significant termite pressure zone for eastern subterranean termites. Montgomery County's warm summers and mild winters are favorable for colony development. A proactive soil treatment or bait station program with an annual inspection is the appropriate level of protection.",
+      },
+      {
+        question: "Are fire ants established in Clarksville?",
+        answer:
+          "Yes, though pressure is lower than in deep South states. Red imported fire ants have been expanding northward into Tennessee over recent decades, and Clarksville near the Kentucky border is on the leading edge of this range expansion. University of Tennessee Extension documents fire ant presence in middle Tennessee. Broadcast bait treatment addresses fire ants as part of a general pest program.",
+      },
+      {
+        question: "Why do cockroaches push into Clarksville homes during rain?",
+        answer:
+          "American cockroaches in Clarksville live primarily in the outdoor drainage infrastructure and organic debris. Rain events and high heat displace them from outdoor habitat and they enter buildings through plumbing penetrations and gaps at the foundation. They are looking for shelter from outdoor conditions, not food inside the home. Sealing the entry points they use and maintaining a perimeter treatment reduces these rain-driven incursions.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Hopkinsville", slug: "hopkinsville" },
+      { name: "Springfield", slug: "springfield-tn" },
+      { name: "Nashville", slug: "nashville" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Clarksville, TN | Mosquitoes, Termites & Brown Recluse",
+    metaDescription:
+      "Clarksville pest control for mosquitoes, subterranean termites, brown recluse spiders, American cockroaches and fire ants. Montgomery County Cumberland River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

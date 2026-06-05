@@ -216,4 +216,240 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Augusta pest control for subterranean termites, Savannah River mosquitoes, fire ants, cockroaches and stink bugs. Richmond County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "columbus",
+    name: "Columbus",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T2",
+    population: "~197,000",
+    county: "Muscogee County",
+    climate: "hot-humid",
+    climateDriver:
+      "Columbus sits at the fall line on the Chattahoochee River in western Georgia, where the Piedmont meets the Gulf Coastal Plain. The hot, humid climate delivers long warm seasons with short, mild winters. The Chattahoochee River and its floodplain sustain year-round mosquito habitat. Eastern subterranean termites are active throughout Muscogee County, and the Georgia Pest Control Association identifies Columbus as in the high termite pressure zone for Georgia. Fire ants are established in every lawn and green space. American cockroaches, known locally as water bugs, are pushed from outdoor habitat into homes by rain and heat.",
+    topPests: [
+      "Fire Ants",
+      "Subterranean Termites",
+      "Mosquitoes",
+      "American Cockroaches",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak March through October",
+        note:
+          "Fire ants are ubiquitous across Muscogee County's lawns and green spaces. Columbus's warm, moist soils along the Chattahoochee River corridor are highly favorable for fire ant colony establishment. The University of Georgia Cooperative Extension recommends broadcast bait treatment of the full lawn twice annually for effective fire ant management.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarm March through May",
+        note:
+          "Columbus is in the high termite pressure zone for Georgia. The Chattahoochee River valley's humidity and soil moisture conditions sustain large termite colonies. Annual inspections are the standard recommendation for all Muscogee County homeowners, particularly those with older housing stock or ground-to-wood contact in landscaping.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note:
+          "The Chattahoochee River, the Oxbow Meadows Wildlife Management Area, and Columbus's extensive park system provide mosquito breeding habitat through the long warm season. The Georgia Department of Public Health monitors West Nile virus and eastern equine encephalitis statewide, and western Georgia sees activity annually.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible during rain and heat",
+        note:
+          "American cockroaches, called water bugs in Columbus, live in the storm drain system, sewer infrastructure, and organic debris throughout the city. They push into homes during rain events and peak summer heat. Sealing the plumbing penetrations and foundation gaps they use for entry, combined with a perimeter treatment, reduces indoor incursions.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are concentrated in Columbus's multi-family housing, restaurants, and commercial food operations. They require interior gel bait and IGR treatment to stop the breeding cycle. Without treating the reproductive rate, surface sprays alone will not eliminate the infestation.",
+      },
+    ],
+    localHook:
+      "Columbus sits at the fall line on the Chattahoochee River, the geographic boundary where the Piedmont uplands drop to the Coastal Plain. That boundary is also where pest pressure intensifies: the Coastal Plain soils and humidity that make the lower half of Georgia so favorable for termites begin right at the Columbus fall line.",
+    intro:
+      "Pest control in Columbus runs year-round at western Georgia's characteristic intensity. Fire ants are in every yard and green space. Eastern subterranean termites are active throughout Muscogee County and carry genuine structural risk for older homes. Mosquitoes run from March through November along the Chattahoochee River floodplain. American cockroaches move from the drainage system into homes during rain and heat. German cockroaches are the year-round indoor concern in apartments and commercial kitchens.",
+    sections: [
+      {
+        heading: "The Chattahoochee River and Columbus's mosquito season",
+        body: "The Chattahoochee River's floodplain within and around Columbus creates extended breeding habitat that sustains mosquito populations from March through November. The Oxbow Meadows area and the river's natural corridors adjacent to residential neighborhoods mean that source reduction on individual properties has limited effectiveness when large-scale breeding habitat is nearby. Barrier spray programs targeting the vegetation where adult mosquitoes shelter provide the most practical yard-level protection and are most effective when maintained consistently through the season.",
+      },
+      {
+        heading: "Termite pressure at the fall line: why Columbus homeowners need annual inspections",
+        body: "Columbus's position at the fall line is significant for termite risk. The Coastal Plain soils and humidity that extend south from Columbus are among the most favorable for subterranean termite colony development in the eastern United States. Columbus sits right at the northern edge of this high-pressure zone. Older homes in Columbus, particularly those with wood mulch against the foundation, wood-to-soil contact at decks or landscape timbers, and moisture issues in crawlspaces, carry the highest risk. Annual inspections with a proactive soil treatment or bait station program are the standard recommendation for Muscogee County homeowners.",
+      },
+    ],
+    prevention: [
+      "Broadcast bait the full lawn for fire ants in spring and fall.",
+      "Schedule an annual termite inspection: Columbus is at the high-pressure termite zone boundary.",
+      "Seal plumbing penetrations and foundation gaps to reduce American cockroach entry from outdoor infrastructure.",
+      "Eliminate standing water from yards, gutters, and low spots to cut mosquito breeding near the home.",
+    ],
+    costNote:
+      "Columbus pest control typically involves a year-round program covering fire ants, cockroaches, and spiders, with a separate annual termite protection plan. Mosquito programs run March through November. Free inspections are available to assess the specific pressures on your property.",
+    faqs: [
+      {
+        question: "Are fire ants dangerous in Columbus?",
+        answer:
+          "Fire ants in Columbus are a genuine hazard, particularly for children, pets, and people with venom allergies. Red imported fire ants are aggressive when disturbed and sting repeatedly. Broadcast bait treatment of the full lawn in spring and fall is more effective than treating individual mounds, which tends to split and relocate colonies rather than eliminate them.",
+      },
+      {
+        question: "How serious is the termite risk in Columbus?",
+        answer:
+          "Columbus is at the boundary of the high termite pressure zone in Georgia. Eastern subterranean termites are active year-round in Muscogee County, and the Chattahoochee River valley humidity creates favorable soil conditions. Annual inspections with a proactive protection plan are the standard recommendation. Waiting for visible damage means the colony has been working for years already.",
+      },
+      {
+        question: "When is mosquito season in Columbus?",
+        answer:
+          "Mosquito season in Columbus runs from approximately March through November. The Chattahoochee River floodplain and the Oxbow Meadows area sustain breeding populations through the full warm season. Monthly barrier spray programs from March through October provide consistent yard-level protection.",
+      },
+      {
+        question: "Why do I keep finding cockroaches in my Columbus home?",
+        answer:
+          "American cockroaches in Columbus, called water bugs locally, live primarily outdoors in the drainage system and under organic debris. They enter homes during heavy rain and peak heat when outdoor conditions are inhospitable. Sealing the plumbing penetrations and foundation gaps they use, combined with a perimeter treatment, reduces these displacement events. They are outdoor insects entering for shelter, not establishing indoor infestations.",
+      },
+      {
+        question: "Do I need year-round pest control in Columbus?",
+        answer:
+          "For most properties, yes. The mild western Georgia climate does not deliver the cold that interrupts pest cycles in northern states. Fire ants, termites, cockroaches, and mosquitoes are all active for most of the year. A year-round general pest program with seasonal mosquito service is the practical approach for most Columbus homeowners.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Phenix City", slug: "phenix-city" },
+      { name: "Auburn", slug: "auburn-al" },
+      { name: "Opelika", slug: "opelika" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Columbus, GA | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Columbus pest control for fire ants, subterranean termites, mosquitoes, American cockroaches and German cockroaches. Muscogee County Chattahoochee River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "savannah",
+    name: "Savannah",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T2",
+    population: "~147,000",
+    county: "Chatham County",
+    climate: "hot-humid",
+    climateDriver:
+      "Savannah sits on the Georgia coast in Chatham County, where the Savannah River meets the Atlantic. The subtropical coastal climate delivers very high humidity, mild winters, and long hot summers. Formosan subterranean termites are documented in the Savannah area, with Chatham County classified as Zone 1 (Very High) for termite risk. The coastal marshes, tidal creeks, and low-lying areas throughout Chatham County sustain intense mosquito populations year-round. Fire ants, American cockroaches, and coastal wildlife pests round out the year-round pressure.",
+    topPests: [
+      "Formosan and Eastern Subterranean Termites",
+      "Mosquitoes",
+      "American Cockroaches",
+      "Fire Ants",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan and eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, Formosan swarms May through June",
+        note:
+          "Chatham County is classified as Zone 1, the highest termite risk classification, for both Formosan and eastern subterranean termites. Formosan termites in Savannah were documented as early as the 1990s and are distributed primarily within 30 miles of the Atlantic coast. Formosan colonies are dramatically larger than native species and can cause structural damage in a fraction of the time. The Historic District's older structures carry particularly significant Formosan termite risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak April through October",
+        note:
+          "Savannah's coastal marsh systems, tidal creeks, and low-lying areas throughout Chatham County provide year-round mosquito breeding habitat. The Georgia Department of Public Health monitors mosquito-borne illness including West Nile virus, and coastal Georgia sees activity annually. The marsh-edge neighborhoods along the Wilmington Island corridor and the Isle of Hope area experience particularly high mosquito pressure.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "American cockroaches, called palmetto bugs in Savannah, are extremely common throughout the city's outdoor infrastructure. They thrive in the coastal humidity, living in storm drains, under palmetto palms, and in mulch beds. They push into buildings during rain events. Savannah's Historic District, with its aging sewer and drainage infrastructure, sees particularly high pressure.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak March through October",
+        note:
+          "Fire ants are established throughout Chatham County's lawns, parks, and green spaces. Savannah's mild winters do not break fire ant colonies, and mounds rebuild rapidly. The University of Georgia Cooperative Extension recommends broadcast bait treatment of the full lawn twice annually for effective control.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are the indoor cockroach concern in Savannah's historic older housing stock, the hospitality industry, and the multi-family housing across the metro. The combination of warm indoor temperatures year-round and the abundant food sources in Savannah's restaurant-dense Historic District makes German cockroach management an ongoing requirement.",
+      },
+    ],
+    localHook:
+      "Savannah's Historic District, with its beautiful 18th and 19th-century architecture, also carries some of the highest Formosan termite risk in Georgia. Chatham County is classified as Zone 1 for termite pressure, and Formosan colonies, with their above-ground carton nests and massive worker populations, have caused serious damage to older structures throughout the city's historic core.",
+    intro:
+      "Pest control in Savannah deals with coastal Georgia's full pest intensity. Chatham County is Zone 1 for termite pressure, and both Formosan and eastern subterranean termites are active here. Mosquitoes are year-round in the coastal marshes and tidal areas. American cockroaches are part of daily life along the coast and in the drainage infrastructure. Fire ants are in every yard. German cockroaches are the persistent indoor concern in the older housing stock and the hospitality industry. This is one of the more challenging pest environments in the Southeast.",
+    sections: [
+      {
+        heading: "Formosan termites in Savannah's Historic District",
+        body: "Formosan subterranean termites were documented in Savannah in the 1990s and are distributed along the Georgia coast within roughly 30 miles of the Atlantic. The Historic District's 18th and 19th-century structures carry particularly high risk because they often have older wooden framing near grade, less effective moisture barriers than modern construction, and sometimes limited crawlspace access for inspection. Formosan colonies are dramatically larger than native eastern subterranean termite colonies and can cause structural damage significantly faster. Chatham County's Zone 1 classification means annual inspections are not optional for any property owner in the Savannah area. A proactive soil treatment or bait station program is the practical defense.",
+      },
+      {
+        heading: "Coastal mosquitoes: the marsh system and Savannah's summer reality",
+        body: "Savannah sits in one of the most productive coastal marsh systems on the East Coast. The tidal creeks, salt marshes, and low-lying areas throughout Chatham County are not just beautiful, they are also significant mosquito breeding habitat that sustains populations through most of the year. Neighborhoods near marsh edges, along the Wilmington Island corridor, and adjacent to tidal infrastructure experience the highest pressure. Barrier spray programs targeting the resting vegetation around the property provide practical relief through the peak season. Source reduction on individual properties has limited impact when large-scale breeding habitat is nearby.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection: Chatham County is Zone 1 termite risk with both Formosan and native species present.",
+      "Maintain barrier spray programs from April through October to manage coastal mosquito pressure.",
+      "Seal plumbing penetrations and foundation gaps to reduce American cockroach entry during rain events.",
+      "Broadcast bait for fire ants in spring and fall rather than treating individual mounds.",
+    ],
+    costNote:
+      "Savannah pest control typically involves a year-round program covering cockroaches, fire ants, and spiders, with a separate termite protection plan that is strongly recommended for all properties. Mosquito programs run April through October. The Historic District's older structures often require more intensive termite monitoring programs.",
+    faqs: [
+      {
+        question: "Are Formosan termites really in Savannah?",
+        answer:
+          "Yes. Formosan subterranean termites were documented in Savannah in the 1990s and are distributed along the Georgia coast within about 30 miles of the Atlantic. Chatham County is classified as Zone 1 for termite risk, the highest category. Formosan colonies are ten or more times larger than native eastern subterranean termite colonies and cause structural damage significantly faster. The Historic District is particularly at risk due to its older wooden construction.",
+      },
+      {
+        question: "How serious is mosquito season in Savannah?",
+        answer:
+          "Very serious. The coastal marsh systems throughout Chatham County provide year-round mosquito breeding habitat. Peak season runs from April through October, but activity is present in all but the coldest weeks. Properties near marsh edges and tidal areas experience the highest pressure. Barrier spray programs are a practical necessity for comfortable outdoor use of your property through the season.",
+      },
+      {
+        question: "Why are cockroaches so common in Savannah?",
+        answer:
+          "American cockroaches thrive in Savannah's coastal humidity and are ubiquitous in the city's drainage infrastructure, storm drains, and palmetto vegetation. The warm, moist coastal climate provides ideal year-round outdoor habitat. They push into buildings during rain events through plumbing and foundation gaps. Savannah's Historic District, with its aging infrastructure, sees particularly high incursion pressure.",
+      },
+      {
+        question: "What makes Chatham County Zone 1 for termite risk?",
+        answer:
+          "Zone 1 is the highest termite risk classification in the US, reflecting the combination of warm year-round soil temperatures, high humidity, and both native eastern subterranean and Formosan termite populations. Chatham County's coastal location, mild winters, and the presence of both species earned it this classification. Essentially, the conditions here are close to optimal for termite colony growth and damage.",
+      },
+      {
+        question: "Do I need termite protection for a newer Savannah home?",
+        answer:
+          "Yes. Even newer construction in Chatham County carries termite risk because the soil conditions that support termite colonies are present regardless of the building's age. New construction treatment and an ongoing annual inspection program are standard practice. Formosan termites can establish above-ground carton nests that do not rely on soil contact, which means even well-sealed modern construction is not immune.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Pooler", slug: "pooler" },
+      { name: "Richmond Hill", slug: "richmond-hill" },
+      { name: "Hinesville", slug: "hinesville" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Savannah, GA | Formosan Termites, Mosquitoes & Cockroaches",
+    metaDescription:
+      "Savannah pest control for Formosan and subterranean termites, mosquitoes, American cockroaches, fire ants and German cockroaches. Chatham County Zone 1 termite risk specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

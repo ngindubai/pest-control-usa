@@ -216,4 +216,122 @@ export const louisianaCities: CityLocation[] = [
     metaDescription:
       "Baton Rouge pest control for Formosan termites, mosquitoes, American cockroaches, fire ants and rats. Mississippi River specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "shreveport",
+    name: "Shreveport",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T2",
+    population: "~187,000",
+    county: "Caddo Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Shreveport sits in northwestern Louisiana at the Red River, where the Gulf Coastal Plain meets the Piney Woods. The hot, humid climate delivers long, warm seasons with mild winters. Formosan subterranean termites extend throughout Louisiana including Caddo Parish, documented by LSU AgCenter as present across the state. The Red River floodplain, Cross Lake, and the numerous bayous and wetlands in and around Shreveport sustain mosquito populations through the long warm season. Fire ants are established throughout the region. The Caddo Parish Health Unit monitors West Nile virus activity, which is reported in most years.",
+    topPests: [
+      "Formosan Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "American Cockroaches",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms late April through June, active year-round underground",
+        note:
+          "Formosan termites are established throughout Louisiana, and LSU AgCenter documents them as present across the state including northwest Louisiana. In Shreveport, they are present alongside native eastern subterranean termites. Formosan colonies are dramatically larger and cause structural damage significantly faster than native species. Annual inspections with a proactive soil treatment or bait program are the standard recommendation for all Caddo Parish homeowners.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note:
+          "The Red River floodplain, Cross Lake, and the numerous bayous, drainage ditches, and seasonal wetlands throughout Caddo Parish provide productive mosquito breeding habitat through the long warm season. The Caddo Parish Health Unit monitors West Nile virus statewide and reports activity in most years. Residential barrier spray programs from March through November are the standard approach.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak March through October",
+        note:
+          "Fire ants are ubiquitous across Caddo Parish's lawns, green spaces, and parks. Northwest Louisiana's warm, moist soils are ideal for fire ant colony establishment. LSU AgCenter recommends broadcast bait treatment of the full lawn twice annually rather than treating individual mounds.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible during rain and heat",
+        note:
+          "American cockroaches are extremely common in Shreveport's outdoor infrastructure, living in storm drains, sewer lines, and organic debris. They push into homes during heavy rain and extreme heat. The Red River valley's humidity keeps outdoor American cockroach populations large year-round.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are concentrated in Shreveport's older apartment stock, restaurant kitchens, and commercial food-service environments. They require gel bait with IGR treatment to stop the breeding cycle rather than surface contact sprays alone.",
+      },
+    ],
+    localHook:
+      "Shreveport is far enough from the Gulf Coast that it does not get the full brunt of the coastal termite and mosquito pressure that New Orleans and Baton Rouge face, but it's solidly in Formosan termite territory nonetheless. LSU AgCenter's statewide termite maps show Formosan populations extending throughout Louisiana, and Shreveport homeowners carry meaningful termite risk year-round.",
+    intro:
+      "Pest control in Shreveport handles the northwest Louisiana pest suite. Formosan and native subterranean termites are both present in Caddo Parish and represent the highest structural risk. Mosquitoes run March through November along the Red River and the numerous wetlands around the city. Fire ants are in every lawn. American cockroaches move from outdoor infrastructure into homes during rain and heat. German cockroaches are the indoor problem in multi-family housing and commercial kitchens. The long warm season means there is no real off-season for most of these pests.",
+    sections: [
+      {
+        heading: "Termites in Shreveport: both species in Caddo Parish",
+        body: "LSU AgCenter documents Formosan subterranean termites as present across Louisiana, including the northwest part of the state. In Shreveport, both Formosan and native eastern subterranean termites are present, which amplifies the structural risk compared to areas with only one species. Formosan colonies are dramatically larger and more aggressive in their wood consumption. The combination of both species in the same soil makes annual termite inspections and a proactive protection plan the responsible standard for any Caddo Parish homeowner. Soil treatment programs with materials like Termidor or in-ground Sentricon bait stations are both effective management approaches in this climate.",
+      },
+      {
+        heading: "Mosquitoes in the Red River watershed",
+        body: "The Red River floodplain and Cross Lake create significant breeding habitat that sustains mosquito populations through Shreveport's long warm season. The extensive drainage infrastructure throughout Caddo Parish, including bayous and seasonal wetland areas, provides additional breeding sites. Residential barrier spray programs targeting the resting vegetation on the property provide the most practical yard-level protection. Monthly service from March through November maintains effective population control and keeps West Nile virus exposure at the home level as low as practical.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections: Caddo Parish has both Formosan and native subterranean termites.",
+      "Maintain barrier spray programs from March through November for mosquito management.",
+      "Broadcast bait for fire ants in spring and fall rather than treating individual mounds.",
+      "Seal plumbing penetrations and foundation gaps to reduce American cockroach entry during rain events.",
+    ],
+    costNote:
+      "Shreveport pest control typically involves a year-round program covering cockroaches, fire ants, and spiders, with a separate annual termite protection plan. Mosquito programs run March through November. Free inspections assess the specific pest pressures on your property.",
+    faqs: [
+      {
+        question: "Are Formosan termites in Shreveport?",
+        answer:
+          "Yes. LSU AgCenter documents Formosan subterranean termites as present across Louisiana including northwest Louisiana. They are present in Caddo Parish alongside native eastern subterranean termites. Annual termite inspections are the standard recommendation for Shreveport homeowners, and a proactive soil treatment or bait program provides the most reliable structural protection.",
+      },
+      {
+        question: "How long is mosquito season in Shreveport?",
+        answer:
+          "Mosquito season in Shreveport runs approximately March through November, driven by the Red River floodplain, Cross Lake, and the numerous drainage areas throughout Caddo Parish. The Caddo Parish Health Unit monitors West Nile virus activity, and the Shreveport area sees annual reports. Monthly barrier spray programs through the warm season provide consistent yard-level protection.",
+      },
+      {
+        question: "Are fire ants dangerous in Shreveport?",
+        answer:
+          "Fire ants in northwest Louisiana are aggressive when disturbed and can cause serious reactions in people with venom sensitivity. They are present year-round in Caddo Parish and mounds rebuild quickly after rain. Broadcast bait treatment of the full lawn in spring and fall is more effective than treating individual mounds. Two treatments per year manages fire ant pressure effectively.",
+      },
+      {
+        question: "Why do cockroaches come into my Shreveport home during rain?",
+        answer:
+          "American cockroaches in Shreveport live primarily in the outdoor drainage system, storm drains, and organic debris. Rain events flood these outdoor habitats and displace cockroaches into buildings through plumbing penetrations and foundation gaps. They are not establishing indoor infestations: they are seeking temporary shelter. Sealing the entry points they use and maintaining a perimeter treatment reduces these displacement events.",
+      },
+      {
+        question: "Do I need year-round pest control in Shreveport?",
+        answer:
+          "For most properties, yes. Northwest Louisiana's mild winters do not deliver the sustained cold that interrupts pest cycles. Fire ants, termites, and cockroaches are active most of the year. A year-round general pest program with seasonal mosquito service layered on top is the practical approach for most Shreveport homeowners.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Bossier City", slug: "bossier-city" },
+      { name: "Minden", slug: "minden" },
+      { name: "Natchitoches", slug: "natchitoches" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Shreveport, LA | Formosan Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Shreveport pest control for Formosan termites, mosquitoes, fire ants, American cockroaches and German cockroaches. Caddo Parish Red River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

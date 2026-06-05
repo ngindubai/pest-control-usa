@@ -1384,4 +1384,240 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "McKinney pest control for fire ants, subterranean termites, mosquitoes, scorpions and brown recluse spiders. Collin County Blackland Prairie specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "brownsville",
+    name: "Brownsville",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~183,000",
+    county: "Cameron County",
+    climate: "hot-humid",
+    climateDriver:
+      "Brownsville sits at the southern tip of Texas on the Rio Grande, in the heart of the Rio Grande Valley. The subtropical climate delivers mild winters, hot and humid summers, and a frost-free growing season. Brownsville is in the highest termite pressure zone in Texas: Texas A&M AgriLife Extension documents Cameron County as having both Formosan and native eastern subterranean termites. The resaca system (oxbow lakes and former river channels) and the Rio Grande floodplain provide year-round mosquito breeding habitat. The city is within the range of Aedes aegypti, the mosquito that vectors dengue, Zika, and chikungunya, which has been reported in the lower Rio Grande Valley.",
+    topPests: [
+      "Formosan Termites",
+      "Mosquitoes",
+      "American Cockroaches",
+      "Fire Ants",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarm May through June",
+        note:
+          "Brownsville is in the highest termite pressure zone in Texas. Texas A&M AgriLife Extension documents both Formosan and eastern subterranean termites in Cameron County. Formosan colonies are dramatically larger than native species and cause structural damage at a much higher rate. The subtropical climate and the aging housing stock in Brownsville's historic downtown and Southmost neighborhoods carry particularly high risk. Annual inspections with a proactive soil treatment or bait program are the standard recommendation.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round",
+        note:
+          "Brownsville's resaca system, the Rio Grande floodplain, and the subtropical climate create mosquito breeding habitat that sustains populations year-round. Aedes aegypti, the primary vector for dengue, Zika, and chikungunya, is documented in the lower Rio Grande Valley. The Texas Department of State Health Services monitors mosquito-borne illness activity in Cameron County. Barrier spray programs are a year-round concern in Brownsville rather than a seasonal service.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "American cockroaches thrive in Brownsville's subtropical climate and are extremely common throughout the city's outdoor infrastructure, vegetation, and drainage systems. They push into homes year-round, not just during rain or heat events, because the ambient temperature rarely makes outdoor conditions inhospitable to them. Sealing entry points and perimeter treatment are year-round management activities here.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note:
+          "Fire ants are established throughout Cameron County and are active year-round in Brownsville's subtropical climate. The mild winters do not suppress colony activity at any point in the year. Broadcast bait treatment twice annually is the effective management approach.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are concentrated in Brownsville's older multi-family housing stock and commercial food-service operations. The subtropical indoor warmth year-round supports continuous German cockroach breeding. Gel bait plus IGR treatment is required to stop the breeding cycle.",
+      },
+    ],
+    localHook:
+      "Brownsville's resaca system, the network of oxbow lakes and former Rio Grande channels that run through the city, is one of the most distinctive geographic features of the Rio Grande Valley and also one of the most productive mosquito breeding systems in Texas. It sustains mosquito populations year-round, and the presence of Aedes aegypti in the lower Valley gives mosquito control here a public health dimension beyond simple nuisance.",
+    intro:
+      "Pest control in Brownsville operates in one of the most intense pest environments in Texas. The subtropical climate, the Rio Grande floodplain, and the resaca system combine to create year-round pressure from termites, mosquitoes, cockroaches, and fire ants that never fully stops. Formosan and native subterranean termites are both present in Cameron County. Mosquitoes, including the Aedes aegypti species that vectors dengue and Zika, are active year-round. American and German cockroaches are year-round indoor and outdoor concerns. Fire ants are active in every season.",
+    sections: [
+      {
+        heading: "Termites in Brownsville: both species in the highest-risk zone",
+        body: "Cameron County is in the highest termite pressure zone in Texas. Texas A&M AgriLife Extension documents both Formosan and eastern subterranean termites in the lower Rio Grande Valley. In Brownsville, the combination of both species, a subtropical climate with minimal soil temperature variation, and an aging housing stock in the historic downtown and Southmost neighborhoods creates some of the most challenging termite management conditions in the state. Annual inspections with a proactive treatment program are the standard approach, not optional maintenance. Formosan termite swarmers in May and June are the most visible annual reminder that protection needs to be in place before damage occurs.",
+      },
+      {
+        heading: "Mosquitoes and the resaca system: a public health dimension",
+        body: "Brownsville's resaca system, the network of former Rio Grande channels and oxbow lakes running through the city, is a productive breeding system that sustains mosquito populations in every season. Beyond the discomfort, the presence of Aedes aegypti in the lower Rio Grande Valley adds a public health dimension: this species is the primary vector for dengue fever, Zika virus, and chikungunya, all of which have been documented in the lower Valley. The Texas Department of State Health Services monitors Cameron County for mosquito-borne illness annually. Residential barrier spray programs targeting the resting vegetation around the property reduce exposure at the home level.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections: Cameron County is in the highest termite pressure zone in Texas.",
+      "Maintain year-round mosquito barrier spray programs: the resaca system sustains populations in every season.",
+      "Broadcast bait for fire ants in spring and fall; Brownsville's mild winters mean colonies are active all year.",
+      "Seal plumbing penetrations and foundation gaps to reduce American cockroach entry.",
+    ],
+    costNote:
+      "Brownsville pest control is most efficiently structured as a year-round program covering termites, cockroaches, fire ants, and mosquitoes, because the subtropical climate does not produce an off-season. Termite protection plans are separate from general pest programs and are strongly recommended for all Cameron County properties.",
+    faqs: [
+      {
+        question: "Are Formosan termites really in Brownsville?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension documents both Formosan and eastern subterranean termites in Cameron County. Brownsville is in the highest termite pressure zone in Texas. Formosan colonies are dramatically larger and more destructive than native species. Annual inspections with a proactive protection plan are the standard recommendation for all properties in the lower Rio Grande Valley.",
+      },
+      {
+        question: "Are the mosquitoes in Brownsville dangerous?",
+        answer:
+          "Aedes aegypti, the mosquito species that vectors dengue fever, Zika virus, and chikungunya, is present in the lower Rio Grande Valley. The Texas Department of State Health Services monitors Cameron County for these diseases and reports activity in the area. This gives mosquito control in Brownsville a public health dimension beyond nuisance. Barrier spray programs reduce exposure at the residential level.",
+      },
+      {
+        question: "Are cockroaches a year-round problem in Brownsville?",
+        answer:
+          "Yes. The subtropical climate in Brownsville means American cockroaches are active outdoors in every month and push into structures year-round. There is no cold weather that suppresses outdoor populations as there is in most of the US. Sealing entry points and maintaining a year-round perimeter treatment is the practical management approach.",
+      },
+      {
+        question: "Are fire ants active year-round in Brownsville?",
+        answer:
+          "Yes. Cameron County's subtropical winters do not suppress fire ant colony activity. Mounds are present and active throughout the year. Two broadcast bait treatments per year, in spring and fall, maintain effective control. Individual mound treatment is less effective than broadcast bait because it tends to relocate colonies rather than eliminate them.",
+      },
+      {
+        question: "What makes Brownsville's pest environment different from other Texas cities?",
+        answer:
+          "The combination of both Formosan and native termites, the resaca mosquito system with Aedes aegypti present, and the year-round subtropical climate that prevents any true pest off-season makes Brownsville's pest environment one of the most intense in Texas. Most Texas cities have a meaningful winter reduction in pest activity. Brownsville essentially does not.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "McAllen", slug: "mcallen" },
+      { name: "Harlingen", slug: "harlingen" },
+      { name: "South Padre Island", slug: "south-padre-island" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Brownsville, TX | Formosan Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Brownsville pest control for Formosan termites, year-round mosquitoes including Aedes aegypti, fire ants, American cockroaches and German cockroaches. Cameron County Rio Grande Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "pasadena",
+    name: "Pasadena",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~154,000",
+    county: "Harris County",
+    climate: "hot-humid",
+    climateDriver:
+      "Pasadena sits in Harris County southeast of Houston, adjacent to the Houston Ship Channel and the Gulf Coast industrial corridor. The hot, humid Gulf Coast climate delivers long warm seasons and mild winters. Harris County is one of the highest termite pressure counties in Texas: Texas A&M AgriLife Extension documents both Formosan and eastern subterranean termites throughout the greater Houston area. The numerous bayous, drainage channels, and industrial water features throughout the Pasadena area sustain mosquito populations through the long warm season. Fire ants are active year-round. American and German cockroaches are year-round pests.",
+    topPests: [
+      "Formosan Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "American Cockroaches",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarm May through June",
+        note:
+          "Harris County is in the high termite pressure zone and Formosan termites are established throughout the greater Houston area including Pasadena. Texas A&M AgriLife Extension documents their distribution throughout southeast Texas. Formosan colonies are dramatically larger than native eastern subterranean termite colonies and cause structural damage at a much faster rate. Annual inspections with a proactive soil treatment or bait program are essential for Pasadena homeowners.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note:
+          "The bayous, drainage channels, and industrial water features throughout the Pasadena area provide extensive mosquito breeding habitat. Harris County Environmental Services monitors mosquito populations and West Nile virus activity regularly. The southeast Houston corridor sees consistent mosquito pressure from March through November, with peak activity through the Gulf Coast summer.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note:
+          "Fire ants are active year-round throughout Harris County. Pasadena's warm Gulf Coast climate sustains colonies through every month. Broadcast bait treatment of the full lawn twice annually is the effective management approach recommended by Texas A&M AgriLife Extension.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "American cockroaches thrive in the warm, humid Gulf Coast climate. In Pasadena, they live in the storm drain system, bayous, and industrial landscape and push into homes year-round, with surges during heavy rain. The older residential neighborhoods along the Ship Channel corridor see particularly high pressure.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are concentrated in Pasadena's multi-family housing and the commercial food operations along the industrial corridor. They breed year-round in the warm indoor temperatures and require gel bait plus IGR treatment to stop the breeding cycle effectively.",
+      },
+    ],
+    localHook:
+      "Pasadena is a Houston suburb that sits directly on the Houston Ship Channel, and the industrial and commercial activity along the channel, combined with the Gulf Coast climate and the bayou system throughout Harris County, creates some of the highest termite and mosquito pressure in the greater Houston metro.",
+    intro:
+      "Pest control in Pasadena operates within one of the highest pest-pressure counties in Texas. Harris County has both Formosan and native subterranean termites active throughout the year. The bayou network and Gulf Coast climate sustain intense mosquito pressure from March through November. Fire ants are active year-round. American cockroaches push from the bayou and drainage system into homes during rain events. German cockroaches are the year-round indoor concern in apartments and commercial kitchens.",
+    sections: [
+      {
+        heading: "Termite pressure in Harris County: Formosan and native species together",
+        body: "Harris County is consistently identified by Texas A&M AgriLife Extension as one of the higher-pressure termite counties in Texas, and Pasadena shares that profile. Both Formosan and eastern subterranean termites are active throughout the county, and the combination of both species on the same property amplifies structural risk. Formosan termites swarm in late May and June, and finding swarmers around the home is the most visible annual indicator. Annual inspections with a proactive soil treatment using a product like Termidor, or an in-ground Sentricon bait system, are the standard recommendations for all Pasadena homeowners.",
+      },
+      {
+        heading: "Bayous and mosquitoes in the east Houston corridor",
+        body: "Pasadena's location in the east Houston corridor means the bayou network that drains the greater Houston metro runs through and around the city. These slow-moving bayous, retention areas, and the industrial water features of the Ship Channel provide breeding habitat that sustains mosquito populations from March through November. Monthly barrier spray programs targeting the resting vegetation on the property provide practical yard-level protection. Source reduction, cleaning gutters, emptying containers, and maintaining drainage, reduces breeding on individual properties.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections: Harris County has both Formosan and native subterranean termites.",
+      "Maintain mosquito barrier spray programs from March through November along the bayou corridor.",
+      "Broadcast bait for fire ants twice annually: year-round colony activity in Pasadena.",
+      "Seal plumbing penetrations and foundation gaps to reduce American cockroach entry during rain events.",
+    ],
+    costNote:
+      "Pasadena pest control typically involves a year-round program covering cockroaches, fire ants, and spiders, with a separate annual termite protection plan. Mosquito programs run March through November. Free inspections assess the specific pest pressures on your property.",
+    faqs: [
+      {
+        question: "Are Formosan termites in Pasadena?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension documents Formosan subterranean termites throughout the greater Houston area including Harris County. They are present in Pasadena alongside native eastern subterranean termites. Annual inspections with a proactive protection plan are the standard recommendation for all Pasadena homeowners.",
+      },
+      {
+        question: "How serious is the mosquito problem in Pasadena?",
+        answer:
+          "Significant. The bayou network throughout Harris County and the industrial water features near the Ship Channel sustain mosquito populations from March through November. Harris County Environmental Services monitors West Nile virus activity. Monthly barrier spray programs provide consistent protection. Source reduction on the property, cleaning gutters and eliminating standing water, supplements spray programs.",
+      },
+      {
+        question: "Are fire ants active all year in Pasadena?",
+        answer:
+          "Yes. Harris County's Gulf Coast climate sustains fire ant colonies year-round. Mounds are active in every season. Broadcast bait treatment of the full lawn in spring and fall is more effective than treating individual mounds, which tends to relocate rather than eliminate colonies.",
+      },
+      {
+        question: "Why do cockroaches enter my Pasadena home during rain?",
+        answer:
+          "American cockroaches in Pasadena live in the bayou system, storm drains, and organic debris. Heavy rain events flood these outdoor habitats and displace cockroaches into structures through plumbing penetrations and foundation gaps. They are displacement events, not indoor infestations. Sealing entry points and maintaining a perimeter treatment reduces the frequency of these incursions.",
+      },
+      {
+        question: "Do I need year-round pest control in Pasadena?",
+        answer:
+          "For most properties, yes. The Gulf Coast climate does not produce the sustained cold that interrupts pest cycles. Fire ants, termites, cockroaches, and mosquitoes are all active most of the year. A year-round general pest program with seasonal mosquito service and a separate termite protection plan is the practical approach for Pasadena homeowners.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Houston", slug: "houston" },
+      { name: "Baytown", slug: "baytown" },
+      { name: "Deer Park", slug: "deer-park" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Pasadena, TX | Formosan Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Pasadena pest control for Formosan termites, mosquitoes, fire ants, American cockroaches and German cockroaches. Harris County Ship Channel specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

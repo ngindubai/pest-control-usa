@@ -2018,4 +2018,452 @@ export const californiaCities: CityLocation[] = [
     metaDescription:
       "Santa Ana pest control for German cockroaches, roof rats, Argentine ants, bed bugs and earwigs. Orange County urban specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "san-bernardino",
+    name: "San Bernardino",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T2",
+    population: "215,000",
+    county: "San Bernardino County",
+    climate: "desert",
+    climateDriver:
+      "San Bernardino sits at the base of the San Gabriel and San Bernardino mountains at roughly 1,000 feet elevation. The Inland Empire heat trap produces summer highs above 100 degrees Fahrenheit with low relative humidity. Hot, dry summers and mild winters allow year-round cockroach and ant activity without winter population die-off.",
+    topPests: [
+      "German Cockroaches",
+      "Argentine Ants",
+      "Black Widows",
+      "Roof Rats",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "San Bernardino's multifamily housing density and shared plumbing walls let German cockroach infestations cycle continuously without the winter slowdown seen in colder climates.",
+      },
+      {
+        name: "Argentine Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peaks in summer drought",
+        note: "UC Riverside Extension has documented Argentine ant supercolony expansion across San Bernardino County; contact sprays disrupt bait foraging and are counterproductive during active trails.",
+      },
+      {
+        name: "Black Widows",
+        serviceSlug: "spider-control",
+        activeSeason: "Peaks spring through fall",
+        note: "San Bernardino's desert-adjacent block wall fencing creates ideal undisturbed harborage for black widows, which are present year-round in the Inland Empire's mild winters.",
+      },
+      {
+        name: "Roof Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "UC ANR documents roof rat pressure across the Inland Empire urban areas; fallen citrus fruit in San Bernardino's older neighborhoods is the primary food source driving attic infestations.",
+      },
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "San Bernardino's hotel corridor and high-density housing stock produce one of the higher bed bug pressure environments in the Inland Empire; heat treatment of the affected room is the most effective single-visit method.",
+      },
+    ],
+    localHook:
+      "San Bernardino sits where the Inland Empire flatland meets the base of the San Bernardino Mountains. The combination of Inland Empire heat, older housing stock in the city's residential neighborhoods, and proximity to the 10 and 215 freeways creates an urban pest environment that is active year-round.",
+    intro:
+      "Pest control in San Bernardino looks different from the coast. There is no marine layer to moderate temperatures and no winter frost to reset pest populations. German cockroaches breed year-round in kitchen walls. Argentine ant supercolonies move in from the yard whenever heat or drought pushes them indoors. Black widows colonize any undisturbed corner of a garage or block wall. Knowing the local pest calendar helps you stay ahead.",
+    sections: [
+      {
+        heading: "German Cockroaches in Inland Empire Housing",
+        body: "San Bernardino has a significant multifamily and older single-family housing stock where German cockroaches are the primary structural pest. They enter on grocery bags, used appliances, and cardboard boxes and establish in wall voids behind the stove and under the refrigerator. Unlike outdoor cockroaches, German cockroaches do not come from outside: every infestation starts with an introduction event. A gel bait program eliminates the active population and an insect growth regulator prevents the next generation from maturing. Crack-and-crevice application keeps bait where cockroaches travel and away from pets and children.",
+      },
+      {
+        heading: "Argentine Ants and the Supercolony Problem",
+        body: "UC Riverside research has documented that Argentine ants in Southern California form a connected supercolony across hundreds of miles. In San Bernardino, this means treating one nest does not solve the problem: the colony simply repopulates from adjacent connected nests. The effective approach is perimeter bait that foragers carry back into the colony, combined with moisture management around the foundation. Reapplication every 30 to 60 days during the active season keeps numbers down. Sprays repel ants temporarily but disrupt bait foraging if applied at the same time.",
+      },
+      {
+        heading: "Rodents, Black Widows, and Block Walls",
+        body: "San Bernardino's older residential areas have aging block wall fencing that creates ideal black widow habitat: undisturbed voids that stay cool and shaded. Regular inspection of the block wall interior, weep holes, and garage corners identifies populations before they become a hazard for children or pets. Roof rats travel the same block walls between properties. Trimming vegetation from the wall top and removing debris piles eliminates the travel corridors rats use. Snap traps placed along wall runs indoors are more effective than poison bait for roof rat control because they avoid secondary poisoning of raptors.",
+      },
+    ],
+    prevention: [
+      "Inspect grocery bags and used appliances before bringing them inside",
+      "Remove fallen citrus fruit from the yard within 24 hours",
+      "Seal block wall weep holes and garage entry points to reduce black widow harborage",
+      "Trim tree branches and shrubs to at least 3 feet from the roofline",
+      "Fix dripping outdoor faucets to reduce ant water sources in summer",
+    ],
+    costNote:
+      "General pest control service in San Bernardino for cockroaches, ants, and spiders runs $60 to $100 per quarter for a standard home. Bed bug heat treatment for a single bedroom runs $600 to $1,200. Roof rat exclusion work ranges from $500 to $1,500 depending on the number of entry points found.",
+    faqs: [
+      {
+        question: "Are the big black ants in my San Bernardino yard carpenter ants?",
+        answer:
+          "Large black ants outdoors in the Inland Empire are most likely California harvester ants or black garden ants, not carpenter ants. Carpenter ants are less common in hot, dry climates like San Bernardino and tend to be a bigger problem in wetter coastal or mountain areas. If you are seeing large ants excavating wood in the structure, have a licensed technician identify them before treating, as the treatment differs significantly.",
+      },
+      {
+        question: "Why do Argentine ants come inside every summer in San Bernardino?",
+        answer:
+          "Argentine ants move indoors during Inland Empire heat waves because they are seeking water, not food. When outdoor temperatures exceed 95 to 100 degrees Fahrenheit and soil moisture drops, forager ants follow water vapor gradients into air-conditioned buildings. The most effective short-term step is eliminating indoor moisture sources: dripping faucets, pet water dishes left sitting, and damp areas under the sink. Perimeter bait handles the colony pressure from outside.",
+      },
+      {
+        question: "How do I know if I have black widows in my garage?",
+        answer:
+          "Black widows build irregular, low-to-the-ground webs with a strong, sticky feel in undisturbed corners. Unlike orb weavers, their webs have no organized pattern. The female is shiny black with a red hourglass marking on the underside of the abdomen and is about the size of a large grape. They are most active in warm months but persist year-round in San Bernardino's mild winters. Check under shelving, inside storage boxes on the floor, and around water heaters and AC equipment.",
+      },
+      {
+        question: "Does San Bernardino have scorpions?",
+        answer:
+          "Scorpions are present in the drier, more desert-like edges of San Bernardino County, particularly in communities closer to the desert floor. The Inland Empire is not considered high scorpion pressure compared to the Coachella Valley or Arizona border areas. The most common scorpion in the region is the desert stripetail, which is less dangerous than the Arizona bark scorpion. If you find scorpions regularly in your home, perimeter and foundation treatment by a licensed applicator reduces their entry.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Riverside", slug: "riverside" },
+      { name: "Fontana", slug: "fontana" },
+      { name: "Ontario", slug: "ontario" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in San Bernardino, CA | Cockroaches, Ants & Rodents",
+    metaDescription:
+      "San Bernardino pest control for German cockroaches, Argentine ants, black widows, roof rats and bed bugs. Inland Empire specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "glendale",
+    name: "Glendale",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T2",
+    population: "196,000",
+    county: "Los Angeles County",
+    climate: "temperate",
+    climateDriver:
+      "Glendale sits in the foothills of the Verdugo Mountains in Los Angeles County, sheltered from direct ocean influence but cooler than the Inland Empire. Mediterranean-pattern winters with occasional rain and dry, warm summers drive both Argentine ant activity and roof rat movement from the chaparral into residential areas.",
+    topPests: [
+      "Argentine Ants",
+      "Roof Rats",
+      "German Cockroaches",
+      "Black Widows",
+      "Western Drywood Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Argentine Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peaks May through October",
+        note: "Los Angeles County's interconnected Argentine ant supercolony makes single-location treatment ineffective; UC Cooperative Extension recommends bait along foraging trails rather than contact sprays.",
+      },
+      {
+        name: "Roof Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peaks fall through spring",
+        note: "The Verdugo Mountains foothills provide a continuous rat corridor into Glendale's residential neighborhoods; Brand Park and the Rossmoyne area see the highest attic infestation rates.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches in Glendale arrive on grocery items and appliances rather than from outside; downtown multifamily housing sees the highest pressure from spread through shared wall voids.",
+      },
+      {
+        name: "Black Widows",
+        serviceSlug: "spider-control",
+        activeSeason: "Peaks spring through fall",
+        note: "The Verdugo Mountains chaparral edge continuously supplies black widows into Glendale's residential garages and block walls; undisturbed corners in older neighborhoods are the primary harborage.",
+      },
+      {
+        name: "Western Drywood Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm August through October",
+        note: "The Rossmoyne and Adams Hill Craftsman homes have original 1920s and 1930s wood framing where drywood termite colonies have had decades to establish without treatment.",
+      },
+    ],
+    localHook:
+      "Glendale's position at the foot of the Verdugo Mountains creates a wildlife corridor from the chaparral into urban neighborhoods. Roof rats travel these corridors into residential attics. The city's mix of older Craftsman homes and dense multifamily housing creates conditions for both drywood termite pressure and German cockroach infestations.",
+    intro:
+      "Pest control in Glendale draws from two worlds: the hillside chaparral edge that sends roof rats and black widows into residential areas, and the dense urban core where German cockroaches and Argentine ants live year-round in walls and garden soil. The Verdugo Mountains foothills neighborhoods deal with different pressure than downtown Glendale, but both need a year-round approach.",
+    sections: [
+      {
+        heading: "Roof Rats in Glendale's Foothills",
+        body: "The Verdugo Mountains provide a continuous source of roof rats that enter residential Glendale from the hillside corridors. They travel along utility lines, fence tops, and dense ornamental shrubs. Lemon, orange, and other citrus trees produce fruit that falls and ferments, drawing rats in from wider territories. An effective roof rat program starts with exclusion: sealing any opening larger than a half inch at the roofline, fascia boards, and utility penetrations. Interior snap traps along wall runs and under the eaves eliminate active rats. Rodenticide bait boxes carry a secondary poisoning risk for raptors and should be considered carefully for properties near the mountains.",
+      },
+      {
+        heading: "Argentine Ants and Glendale's Dry Summer Problem",
+        body: "Los Angeles County sits within a region covered by a documented Argentine ant supercolony. In Glendale, these ants trail along foundations and into kitchens from May through October when soil dries out. The colony has no boundaries: spraying the entry point drives ants to find another route within hours. Bait placed along active trails, including at the exterior foundation, is the recommended approach. UC Cooperative Extension notes that liquid ant bait can be effective when placed near the perimeter during summer dry periods.",
+      },
+      {
+        heading: "Western Drywood Termites in Older Glendale Homes",
+        body: "Western drywood termites swarm in Glendale between August and October, typically on warm evenings following a mild rain. Swarmers are attracted to light and enter through attic vents, ridge vents, and any exposed wood. The Rossmoyne and Adams Hill historic neighborhoods have homes with original 1920s and 1930s wood framing where drywood termite colonies have had decades to establish. Pellet kick-out holes in window frames and door jambs are early warning signs. A licensed inspector can determine whether localized spot treatment or whole-structure fumigation is warranted based on the distribution of colonies found.",
+      },
+    ],
+    prevention: [
+      "Seal all openings at the roofline larger than a half inch before fall rodent season",
+      "Remove fallen citrus and avocado from the yard promptly to reduce rat food sources",
+      "Inspect attic vents and replace damaged screens before drywood termite swarm season",
+      "Place liquid or gel ant bait along the exterior foundation in May to intercept summer trails",
+      "Inspect block wall weep holes and woodpiles for black widow webs seasonally",
+    ],
+    costNote:
+      "General pest control service in Glendale covering ants, cockroaches, and spiders runs $65 to $110 per quarter. Roof rat exclusion and trapping programs range from $400 to $1,200 depending on entry points. Drywood termite spot treatment runs $300 to $800 per location; whole-structure fumigation for a typical Glendale home is $1,800 to $3,500.",
+    faqs: [
+      {
+        question: "Why do rats keep coming back to my Glendale attic every fall?",
+        answer:
+          "Roof rats move from outdoor harborage in the Verdugo Mountains foothills into heated attics as temperatures drop in October and November. If entry points are not sealed after each control program, the same access holes invite new rats every season. The fix is exclusion: a licensed technician identifies all entry points at the roofline and fascia and seals them with hardware cloth and caulk. Trapping without exclusion is a recurring cost; exclusion is a one-time investment.",
+      },
+      {
+        question: "What is the difference between subterranean and drywood termites?",
+        answer:
+          "Subterranean termites live in soil and build mud tubes to reach wood above ground. Western drywood termites have no soil contact: they live entirely inside the wood they eat and get moisture from the wood itself. In Glendale, drywood termites are the more common concern in older homes because they infest dry attic framing, window frames, and door jambs. Subterranean termites are less common in Glendale than in wetter areas but can still be present. An inspection distinguishes the two, which is important because treatment methods differ completely.",
+      },
+      {
+        question: "Are Argentine ants harmful to my Glendale garden?",
+        answer:
+          "Argentine ants are not direct plant pests, but they farm aphids and scale insects: they protect these sap-sucking insects from natural predators and spread them between plants in exchange for the honeydew the insects produce. If your Glendale garden has heavy aphid infestations on roses, citrus, or ornamentals, Argentine ants are likely enabling them. Controlling the ant population around the garden reduces aphid pressure.",
+      },
+      {
+        question: "When do drywood termites swarm in Glendale?",
+        answer:
+          "Western drywood termites in Glendale typically swarm between August and October, often in the evening after the first rain following summer dry season. Swarmers are dark, winged, and about half an inch long. They are attracted to indoor lights and are often found near windows and sliding glass doors. Finding swarmers indoors confirms an active colony somewhere in the structure and should prompt an inspection within the following week.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Pasadena", slug: "pasadena" },
+      { name: "Burbank", slug: "burbank" },
+      { name: "Los Angeles", slug: "los-angeles" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Glendale, CA | Rats, Termites & Argentine Ants",
+    metaDescription:
+      "Glendale CA pest control for roof rats, western drywood termites, Argentine ants, German cockroaches and black widows. Verdugo foothills specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "modesto",
+    name: "Modesto",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T2",
+    population: "219,000",
+    county: "Stanislaus County",
+    climate: "temperate",
+    climateDriver:
+      "Modesto sits in the San Joaquin Valley with hot, dry summers and cool, foggy winters. The tule fog season from December through February holds soil moisture at elevated levels, benefiting subterranean termite and earwig activity. The Tuolumne River and agricultural irrigation canals maintain standing water that sustains summer mosquito populations.",
+    topPests: [
+      "Roof Rats",
+      "German Cockroaches",
+      "Yellow Jackets",
+      "Earwigs",
+      "Western Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Roof Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peaks October through March",
+        note: "UC ANR and the UC Davis IPM Program identify roof rats as a primary urban pest in Central Valley cities; Modesto's dense almond, walnut, and citrus plantings provide both food and overhead travel routes.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "San Joaquin Valley heat keeps German cockroach breeding rates high year-round in Modesto; downtown multifamily housing and food service establishments see the highest pressure.",
+      },
+      {
+        name: "Yellow Jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks August through October",
+        note: "UC Davis IPM documents yellow jacket pressure as highest in the interior valley during late summer; Modesto lawns, wall voids, and attics are common nesting sites when colonies peak.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, extended by tule fog winters",
+        note: "Modesto's irrigated gardens and tule fog winters keep soil moisture elevated, creating ideal earwig harborage under mulch and soaker lines throughout the growing season.",
+      },
+      {
+        name: "Western Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm January through April",
+        note: "The tule fog season raises Stanislaus County soil moisture to levels that trigger early swarming; Modesto homeowners should inspect foundations for mud tubes during swarm season.",
+      },
+    ],
+    localHook:
+      "Modesto's agricultural setting in the San Joaquin Valley and its irrigation infrastructure create year-round pest pressure that differs from coastal California cities. Fruit trees, irrigation canals, and tule fog winters favor roof rats, earwigs, and subterranean termites. The absence of a cool marine layer means summer pests cycle faster.",
+    intro:
+      "Pest control in Modesto reflects the city's Central Valley character. The fruit trees and walnut groves lining residential streets draw roof rats year-round. Tule fog winters keep soil moisture high enough for subterranean termite swarms. The irrigation canals that cross Stanislaus County breed mosquitoes from May through September. Getting ahead of these pests means understanding the valley's seasonal rhythms.",
+    sections: [
+      {
+        heading: "Roof Rats and Modesto's Fruit Tree Problem",
+        body: "Roof rats are documented as a primary urban pest across the San Joaquin Valley by UC ANR and the UC Davis IPM Program. In Modesto, the residential neighborhoods east of downtown and in the Sylvan Park area are densely planted with mature almond, walnut, and fruit trees. These trees provide both food and the elevated travel routes that roof rats use to reach rooflines and attic vents. Controlling roof rats in Modesto requires tree trimming to keep branches away from the structure, removal of fallen fruit within 24 hours, and exclusion of all roofline openings. Trapping without exclusion results in repeated re-infestation from neighboring properties.",
+      },
+      {
+        heading: "Earwigs and Tule Fog Season",
+        body: "Earwigs are nocturnal moisture-seeking insects that are especially common in Modesto during and after the tule fog season. Their preferred habitat is moist organic mulch at depths of one to three inches, which describes most irrigated Modesto residential gardens. They rarely damage plants directly but are a significant nuisance pest indoors. UC ANR recommends reducing mulch depth near foundations to less than two inches, using moisture barriers under wood mulch, and sealing foundation gaps. Yellow light bulbs at exterior entries attract fewer earwigs than white or blue-spectrum lights.",
+      },
+      {
+        heading: "Mosquitoes Near the Tuolumne River and Irrigation Network",
+        body: "Stanislaus County Mosquito and Vector Control District monitors the Tuolumne River corridor and irrigation canals for mosquito larvae from May through October. Residential properties adjacent to the irrigation network have higher larval pressure from standing water in drain channels. The district conducts regular larviciding of public waterways, but private irrigation features, ornamental ponds, and low spots in lawns are the property owner's responsibility. Dunks with Bacillus thuringiensis israelensis in standing water that cannot be drained is the safest approach for households with children and pets.",
+      },
+    ],
+    prevention: [
+      "Trim fruit and nut trees to maintain at least 3 feet of clearance from rooflines",
+      "Remove fallen fruit from the yard every day or two during harvest season",
+      "Reduce landscape mulch depth to under 2 inches near the foundation",
+      "Check the foundation for mud tubes in January through April during termite swarm season",
+      "Empty outdoor standing water weekly from May through September",
+    ],
+    costNote:
+      "General pest control in Modesto covering cockroaches, ants, and earwigs runs $55 to $90 per quarter for a standard home. Roof rat exclusion programs range from $400 to $1,100 depending on access points. Western subterranean termite bait station installation runs $900 to $2,000 with annual monitoring of $250 to $400. Yellow jacket nest removal runs $150 to $350.",
+    faqs: [
+      {
+        question: "Why are roof rats so common in Modesto?",
+        answer:
+          "Modesto's residential neighborhoods have an unusually high density of mature fruit, nut, and ornamental trees that provide both food and elevated travel routes for roof rats. UC ANR research identifies the San Joaquin Valley as one of the highest-pressure roof rat regions in California. The combination of food availability, mild winters that keep populations from crashing, and older housing stock with unsealed rooflines makes roof rats a persistent issue in the city.",
+      },
+      {
+        question: "What is tule fog and how does it affect pests in Modesto?",
+        answer:
+          "Tule fog is a dense ground-level fog that forms in the San Joaquin Valley from December through February when cold air traps moisture above the valley floor. It raises soil moisture and keeps the ground wet for weeks at a time. This extended moisture period drives up activity from earwigs, which need damp soil, and from western subterranean termites, which swarm when soil conditions are right. Modesto's tule fog winters are one reason subterranean termite swarm season starts earlier here than in drier areas of California.",
+      },
+      {
+        question: "Are earwigs harmful in Modesto?",
+        answer:
+          "Earwigs are not dangerous to people or pets. The pincers they carry are used against other insects, not humans, and a pinch from a large earwig is a minor sensation at most. They can chew on soft plant material, which can affect seedlings and delicate ornamentals. Indoors, they are a nuisance pest seeking moisture. The most effective approach is habitat modification: reduce moist mulch near the foundation and seal gaps at ground level.",
+      },
+      {
+        question: "When do subterranean termites swarm in Modesto?",
+        answer:
+          "Western subterranean termites swarm in Modesto from January through April, typically on warm, sunny mornings after a rain. Swarmers are dark-winged, about a quarter inch long, and look similar to flying ants. Finding shed wings near window sills or light fixtures after a swarm indicates that a colony is in or near the structure. An inspection within a few days is recommended to determine whether the swarmers came from inside the building or from nearby soil.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Stockton", slug: "stockton" },
+      { name: "Fresno", slug: "fresno" },
+      { name: "Sacramento", slug: "sacramento" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Modesto, CA | Roof Rats, Termites & Yellow Jackets",
+    metaDescription:
+      "Modesto pest control for roof rats, western subterranean termites, yellow jackets, earwigs and German cockroaches. Stanislaus County Central Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "fontana",
+    name: "Fontana",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T2",
+    population: "214,000",
+    county: "San Bernardino County",
+    climate: "desert",
+    climateDriver:
+      "Fontana sits at the western edge of the Inland Empire, where the Santa Ana Canyon funnels hot, dry desert air westward. Summer highs exceed 100 degrees Fahrenheit with low relative humidity. The combination of extreme summer heat, mild winters, and the 210 and 10 freeway warehousing corridor drives year-round pest activity without meaningful winter interruption.",
+    topPests: [
+      "German Cockroaches",
+      "Argentine Ants",
+      "Black Widows",
+      "Roof Rats",
+      "Western Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Fontana's 210 and 10 freeway warehousing corridor creates a commercial cockroach pathway into adjacent residential areas; German cockroaches spread on packaging and delivery vehicles, not by walking in from outside.",
+      },
+      {
+        name: "Argentine Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peaks June through September",
+        note: "UC Riverside research documents the Inland Empire as an Argentine ant supercolony zone; Fontana foundation perimeters see peak trailing activity as summer drought reduces outdoor soil moisture.",
+      },
+      {
+        name: "Black Widows",
+        serviceSlug: "spider-control",
+        activeSeason: "Peaks spring through fall",
+        note: "East Fontana's desert-interface master-planned communities see elevated black widow pressure when grading clears natural scrub habitat and forces relocation into residential block walls and garages.",
+      },
+      {
+        name: "Roof Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Fontana's older neighborhoods near the historic steel works site have less-sealed rooflines that invite attic entry; citrus and fruit trees in established yards are the primary food source.",
+      },
+      {
+        name: "Western Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm January through April",
+        note: "San Bernardino County subterranean termites enter Fontana slabs at plumbing penetrations and stucco-to-slab interfaces; mud tubes on the foundation perimeter are the key warning sign.",
+      },
+    ],
+    localHook:
+      "Fontana straddles two worlds: the master-planned communities of east Fontana built at the desert interface, and the older residential and industrial west closer to the former steel works. Both environments have distinct pest pressures. The 210 corridor's warehousing sector creates a commercial pest pathway that neighbors residential streets.",
+    intro:
+      "Pest control in Fontana requires understanding which part of the city you are in. East Fontana's newer communities at the desert interface deal with black widows and ground-nesting ants from recently disturbed desert edge. West Fontana's older neighborhoods near the 10 freeway face roof rats and cockroach pressure from aging housing stock and the warehousing corridor. Both share Argentine ant pressure year-round.",
+    sections: [
+      {
+        heading: "Comparing Pest Pressure: East Fontana vs. West Fontana",
+        body: "East Fontana developments built in the 2000s and 2010s sit at the desert interface where chaparral and scrub habitat was recently cleared. New construction disturbs nesting populations of black widows and harvester ants that relocate into yards and garages. Master-planned construction also tends to use consistent block wall fencing that creates ideal black widow harborage. West Fontana's older neighborhoods near Foothill Boulevard have aging wood-frame housing with less-sealed rooflines and more established fruit tree plantings, which favor roof rats.",
+      },
+      {
+        heading: "German Cockroaches and the Warehouse Corridor",
+        body: "Fontana's position along the 210 and 10 freeway corridors makes it a major inland logistics hub. Distribution center loading docks are a known cockroach pressure point, and German cockroaches spread from commercial facilities into adjacent residential areas on packaging, worker vehicles, and foot traffic. This differs from most cities where cockroach pressure is primarily residential in origin. Properties within a mile of the major distribution centers in the industrial zone see higher re-infestation rates and may benefit from quarterly service.",
+      },
+      {
+        heading: "Argentine Ants: No Borders in the Inland Empire",
+        body: "UC Riverside research on Argentine ant distribution across Southern California documents an interconnected supercolony covering the Inland Empire. Treating one nest does not solve the problem: adjacent connected colonies repopulate the treated area within days. The effective strategy in Fontana is perimeter bait that foragers carry back into the colony, combined with eliminating exterior moisture sources near the foundation. Ant pressure peaks in June through September when soil dries out. Applications every 30 to 45 days during this period keep trailing activity at manageable levels.",
+      },
+    ],
+    prevention: [
+      "Inspect block wall weep holes and garage corners for black widow webs monthly",
+      "Seal roofline gaps and attic vents before fall to prevent roof rat entry",
+      "Remove fruit tree drops within 24 hours to eliminate rat food sources",
+      "Apply perimeter ant bait monthly from June through September",
+      "Check the slab perimeter for mud tubes annually in January through April",
+    ],
+    costNote:
+      "General pest control in Fontana for cockroaches, ants, and spiders runs $60 to $100 per quarter. Roof rat exclusion programs range from $500 to $1,200 depending on entry points. Western subterranean termite bait station installation is $900 to $2,000 with annual monitoring fees of $250 to $400.",
+    faqs: [
+      {
+        question: "Why do I have more black widows since a new development was built near my Fontana home?",
+        answer:
+          "Construction activity disturbs existing wildlife habitat and forces displaced animals to relocate. Black widows that were established in undisturbed desert scrub move into residential yards, garages, and block walls when grading removes their natural habitat. This is a documented pattern in Inland Empire communities at the desert interface. The pressure typically stabilizes within one to two years as populations redistribute, but a perimeter treatment and removal of harborage sites during the construction period reduces impact.",
+      },
+      {
+        question: "Do I need termite protection on a newer Fontana home?",
+        answer:
+          "California building code requires new construction in termite-active areas to include preventative treatment at the time of build. However, that protection does not last indefinitely. Western subterranean termites can locate and exploit any gap in the soil chemical barrier, particularly at plumbing penetrations and slab expansion joints. For a home built after 2000, the manufacturer's warranty on the original soil treatment has typically expired. An annual inspection is the minimum standard care for any San Bernardino County property.",
+      },
+      {
+        question: "How do I tell Argentine ants from other ants in my Fontana yard?",
+        answer:
+          "Argentine ants are small, about one sixteenth to one eighth of an inch long, light to medium brown, and they trail in long, obvious lines rather than scattered foraging like many native ant species. They have no noticeable odor when crushed, unlike odorous house ants that smell like coconut. In Fontana, if you see a steady, wide trail of uniform small brown ants moving along baseboards or fence lines, you are almost certainly looking at Argentine ants.",
+      },
+      {
+        question: "Can cockroaches from the warehouses near Fontana infest my home?",
+        answer:
+          "German cockroaches from commercial facilities do spread to nearby residential properties, but not by walking across parking lots. They travel on packaging, employee vehicles, and in food or product boxes. The risk is highest for residents who work in distribution centers or who receive deliveries sourced from facilities with cockroach pressure. Inspect cardboard boxes before bringing them inside, and discard them outside rather than storing them in the garage. A proactive quarterly perimeter and indoor treatment reduces establishment risk.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "San Bernardino", slug: "san-bernardino" },
+      { name: "Rancho Cucamonga", slug: "rancho-cucamonga" },
+      { name: "Ontario", slug: "ontario" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Fontana, CA | Cockroaches, Ants & Termites",
+    metaDescription:
+      "Fontana CA pest control for German cockroaches, Argentine ants, black widows, roof rats and western subterranean termites. Inland Empire specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

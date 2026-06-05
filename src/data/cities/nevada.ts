@@ -328,4 +328,122 @@ export const nevadaCities: CityLocation[] = [
     metaDescription:
       "Reno pest control for black widow spiders, house mice, paper wasps, German cockroaches and voles. Washoe County high-desert specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "north-las-vegas",
+    name: "North Las Vegas",
+    state: "Nevada",
+    stateSlug: "nevada",
+    stateAbbr: "NV",
+    tier: "T2",
+    population: "~251,000",
+    county: "Clark County",
+    climate: "desert",
+    climateDriver:
+      "North Las Vegas sits in the northern section of the Las Vegas Valley in the Mojave Desert at about 1,900 feet elevation. Summers are extreme, with temperatures regularly exceeding 110 degrees. The desert climate sustains year-round bark scorpion and black widow activity. Desert subterranean termites are present throughout Clark County and become more active after summer rain events. The extreme summer heat drives German cockroaches, mice, and American cockroaches into air-conditioned structures. Winter nights regularly drop below freezing, but the pest season never fully stops in the desert.",
+    topPests: [
+      "Bark Scorpions",
+      "Black Widow Spiders",
+      "American Cockroaches",
+      "German Cockroaches",
+      "Desert Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round, peak April through October",
+        note:
+          "The Arizona bark scorpion is the only medically significant scorpion in the United States and is established throughout Clark County, including North Las Vegas. They are nocturnal, expert climbers, and can enter homes through gaps as thin as a credit card. The Nevada Division of Public and Behavioral Health tracks scorpion sting cases annually, and Clark County consistently accounts for the large majority of Nevada stings. Monthly service is the standard recommendation for homes in North Las Vegas.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active in warmer months",
+        note:
+          "Black widow spiders are extremely common in the desert Southwest and are abundant throughout North Las Vegas, nesting in block wall crevices, under eaves, in pool equipment enclosures, and in outdoor furniture. Their venom is neurotoxic and poses real medical risk, particularly to children. Regular exterior dewebbing and residual treatment keeps populations around the home at manageable levels.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, move indoors during peak heat",
+        note:
+          "American cockroaches thrive in North Las Vegas's storm drain infrastructure, sewer lines, and the dense palm tree landscapes common in the Valley. During the peak summer heat when pavement surface temperatures exceed 150 degrees, large numbers migrate into air-conditioned buildings through plumbing penetrations and door gaps. Sealing the transition points between sewer infrastructure and living spaces is a key part of management.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are the primary indoor roach in North Las Vegas apartments, restaurants, and multi-family housing. They are entirely dependent on warm structures and do not move through the extreme desert heat. A single female can produce hundreds of offspring in a year, and the combination of heat and food sources in multi-unit kitchens makes North Las Vegas commercial properties particularly vulnerable.",
+      },
+      {
+        name: "Desert subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active after summer monsoon rains",
+        note:
+          "Desert subterranean termites are the dominant termite species in Clark County and differ from the eastern subterranean species in that they can forage above ground during night hours and after rain events. They are most active following monsoon rains in July and August. University of Nevada Cooperative Extension confirms they are widespread throughout the Las Vegas Valley and are a genuine structural threat to North Las Vegas homes, particularly those with wood framing in ground contact.",
+      },
+    ],
+    localHook:
+      "North Las Vegas is in full bark scorpion territory. Clark County consistently leads Nevada in scorpion sting reports, and the Arizona bark scorpion, the only US scorpion with venom dangerous enough to cause severe symptoms, is common throughout the North Las Vegas residential areas. Monthly scorpion service is the standard here, not optional.",
+    intro:
+      "Pest control in North Las Vegas operates in one of the most demanding environments in the country. Bark scorpions are a year-round medical threat. Black widows are abundant in every outdoor crevice and enclosure. American cockroaches move from the sewer and storm drain system into homes during peak summer heat. German cockroaches are the persistent indoor problem in apartments and restaurant kitchens. Desert subterranean termites become active after summer monsoon rains. The extreme Mojave Desert climate keeps pest pressure elevated in every season.",
+    sections: [
+      {
+        heading: "Bark scorpions in North Las Vegas: the year-round concern",
+        body: "The Arizona bark scorpion is not just a pest in North Las Vegas, it is a genuine medical hazard, particularly for households with young children. It is the only scorpion in the US with venom capable of causing severe systemic reactions. They climb block walls, enter through gaps at door thresholds and plumbing penetrations, and are most active at night. Standard contact sprays have limited effectiveness because scorpions absorb little product through their waxy cuticle. Specialized wettable powder and microencapsulated formulations designed for scorpion control, applied monthly to the foundation perimeter and interior harborage areas, are what actually keeps scorpion encounters inside the home to a minimum.",
+      },
+      {
+        heading: "American cockroaches and North Las Vegas's sewer infrastructure",
+        body: "American cockroaches in North Las Vegas live primarily in the city's sewer lines, storm drains, and the extensive landscape plumbing common in desert communities. During the extreme summer heat in July and August, when outdoor temperatures are fatal to most insects at ground level, cockroaches move from underground infrastructure into air-conditioned structures through floor drains, under-sink penetrations, and gaps around sewer cleanouts. Keeping these transition points sealed is the primary indoor defense. A perimeter treatment creates a secondary barrier around the structure's exterior.",
+      },
+    ],
+    prevention: [
+      "Schedule monthly scorpion perimeter treatment from April through October at minimum, year-round for households with young children.",
+      "Seal all plumbing penetrations, door thresholds, and foundation gaps to block American cockroach entry from sewer infrastructure.",
+      "Check under eaves, in block wall crevices, and in pool equipment enclosures regularly for black widow webs.",
+      "Schedule annual termite inspection, particularly after summer monsoon activity.",
+    ],
+    costNote:
+      "North Las Vegas pest control is most efficiently structured as a monthly program covering scorpions, cockroaches, and spiders as a combined service. Annual termite inspections are a separate program. The year-round desert climate means there is no true off-season for most pests here.",
+    faqs: [
+      {
+        question: "How dangerous are bark scorpions in North Las Vegas?",
+        answer:
+          "The Arizona bark scorpion is the most venomous scorpion in North America and is common throughout Clark County. For healthy adults, a sting causes intense localized pain and numbness. For young children, elderly individuals, and people with venom sensitivity, the reaction can be severe, including muscle spasms, difficulty swallowing, and breathing problems. Anti-venom (Anascorp) is available at Nevada hospitals. Monthly professional treatment and checking shoes and clothing before wearing are the practical precautions.",
+      },
+      {
+        question: "Why are there so many cockroaches in North Las Vegas in summer?",
+        answer:
+          "Both American and German cockroaches peak in summer in North Las Vegas, but for different reasons. American cockroaches come from the sewer infrastructure as extreme heat at ground level drives them into cooled buildings. German cockroaches breed faster in warm temperatures and multiply rapidly in any kitchen or food-handling environment. The most effective summer program addresses outdoor American roach pressure at entry points and interior German roach breeding with gel bait and IGR.",
+      },
+      {
+        question: "Do I have termites if I see swarmers in my yard?",
+        answer:
+          "Possibly, though desert subterranean termite swarmers are most commonly seen after monsoon rains in July and August and do not always indicate an active infestation in your home. They swarm to establish new colonies and may be originating from a neighboring property or an outdoor wood source. A professional inspection will distinguish between a nearby swarm and an active infestation in your structure.",
+      },
+      {
+        question: "Are black widows everywhere in North Las Vegas?",
+        answer:
+          "They are common. Black widows thrive in the desert climate and are found in nearly every property: under eaves, in block wall holes, under outdoor furniture, in pool equipment enclosures, in garages, and under the eaves of sheds. Regular exterior dewebbing combined with a residual residual spray reduces the population around the home significantly. Never reach into any enclosed space outdoors without checking first.",
+      },
+      {
+        question: "How often do I need pest service in North Las Vegas?",
+        answer:
+          "Monthly service is the standard in North Las Vegas, particularly for scorpion control. The year-round desert climate does not produce an off-season, and scorpions, cockroaches, and black widows are active in every month. Homes with active scorpion encounters need monthly service. Homes without current scorpion issues may manage with bi-monthly visits for general pest control, but the peace of mind from monthly coverage is the main reason most North Las Vegas homeowners maintain monthly programs.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Las Vegas", slug: "las-vegas" },
+      { name: "Henderson", slug: "henderson" },
+      { name: "Boulder City", slug: "boulder-city" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in North Las Vegas, NV | Bark Scorpions, Cockroaches & Termites",
+    metaDescription:
+      "North Las Vegas pest control for bark scorpions, black widow spiders, American and German cockroaches and desert subterranean termites. Clark County Mojave Desert specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
