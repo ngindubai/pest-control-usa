@@ -1,6 +1,7 @@
 {
-  "last_updated": "2026-06-04",
+  "last_updated": "2026-06-05",
   "phase": "2-t2-in-progress",
+  "autonomy": "Fully autonomous. One block per run (25 pages), full 7-stage pipeline, commit to main, deploy.yml auto-publishes, post live links to Slack as a record. No approval step, no wait-for-go, no stop condition. Advance through the phases in order; when the city universe is built, the pest x city matrix is the long-tail engine and runs indefinitely.",
   "cities_built": 100,
   "towns_built": 0,
   "total_site_pages": 180,
@@ -13,12 +14,36 @@
   "tier_t2_target": 300,
   "tier_t2_remaining": 275,
   "tier_t3_floor_population": 5000,
-  "tier_t3_remaining": null,
+  "tier_t3_target": 5000,
+  "tier_t3_remaining": 5000,
+  "tier_t3_note": "T3 = every remaining US incorporated place above 5,000 population not already built in T1 or T2. The Census counts roughly 5,000 to 5,300 such places. Build state by state: add one state file per block to src/data/cities/{state}.ts and register it in src/data/cities/index.ts, exactly as T1/T2 were built. 50-state coverage is the target. This was previously null and is now defined as the Phase 3 universe.",
   "batch_size": 25,
   "template_rotation": ["A", "B", "C", "D", "E"],
   "template_distribution_target": { "A": 0.22, "B": 0.20, "C": 0.20, "D": 0.18, "E": 0.20 },
   "template_distribution_actual": { "A": 20, "B": 20, "C": 20, "D": 20, "E": 20 },
   "blog_articles": 0,
+  "services_count": 25,
+  "pest_city_matrix": {
+    "_goal": "THE LONG-TAIL ENGINE. A page for each pest service in each city: '{service} in {city}, {state}' (for example 'Bed Bug Treatment in Austin, TX'). This is exactly how the market searches and is the highest-volume long-tail layer on the site. 25 services x cities. Sized to the priority-city set first, not all 5,000 towns.",
+    "status": "NOT-STARTED",
+    "route_to_build": "New dynamic route, e.g. src/app/locations/[slug]/[city]/[service]/page.tsx (service x city x state), or src/app/[service]/[slug]/[city]/page.tsx. Reuse the 5 city templates A-E and the service data in src/data/services.ts. generateStaticParams crosses services x the chosen city set.",
+    "services": ["ant-control","bed-bug-treatment","cockroach-control","flea-tick-treatment","mosquito-control","termite-treatment","spider-control","wasp-bee-removal","fly-control","moth-control","silverfish-control","earwig-control","cricket-control","stink-bug-control","scorpion-control","boxelder-bug-control","mice-control","rat-control","wildlife-removal","squirrel-removal","raccoon-removal","bat-removal","bird-control"],
+    "rollout": "Phase 6, after the city universe is substantial. Start with the highest-urgency, highest-volume services (bed-bug-treatment, cockroach-control, termite-treatment, mice-control, rat-control, mosquito-control, ant-control, wasp-bee-removal) across the 75 T1 cities, then widen services, then widen cities. One block = one service across the next 25 cities. Skip-check the generated path before building.",
+    "sizing": "25 services x 400 priority cities = ~10,000 pages at full build. Sized to demand: do not build all 25 services for all 5,000 towns. Build the full 25 x T1 (75 cities) = 1,875, then the 8 priority services x T2 (300) = 2,400, then extend by demand."
+  },
+  "blog_plan": {
+    "status": "DEFERRED",
+    "target": 200,
+    "note": "Phase 5. Seasonal and pest-specific articles (e.g. 'when do termites swarm', 'are stink bugs harmful'), built 5 per batch once the city and pest x city engines are running. Non-cannibalising: blog covers questions the service and service-city pages do not."
+  },
+  "phase_order": [
+    "Phase 2: finish T2 (275 cities remaining), 25 per block.",
+    "Phase 3: T3 town universe (~5,000 incorporated places >5,000 pop), state by state, 25 per block.",
+    "Phase 6: pest x city matrix (the long-tail engine), one service x 25 cities per block.",
+    "Phase 5: blog plan (200 articles), 5 per batch, interleaved once the engines run.",
+    "Phase 4: towns below 5,000 population, only if T1-T3 index well and demand justifies it."
+  ],
+  "build_order_each_run": "Default: build the next 25-city block of the current phase (T2 now, then T3). Once T3 is materially complete, the pest x city matrix becomes the default block. Blog batches run only when the next city/matrix block is already committed.",
   "cities_built_list": [
     "texas/austin", "texas/houston", "texas/san-antonio", "texas/dallas",
     "florida/miami", "florida/jacksonville", "arizona/phoenix",
@@ -55,5 +80,5 @@
     "california/chula-vista", "ohio/akron", "arkansas/little-rock",
     "massachusetts/worcester"
   ],
-  "notes": "Chunk 4 complete 2026-06-04. First 25 T2 city pages built through the full 7-stage pipeline. New states added: Utah, Iowa, Alabama, Arkansas. Existing state files extended: Texas (+4), Arizona (+2), North Carolina (+2), Louisiana (+1), Tennessee (+2), Florida (+2), California (+3), Nevada (+1), Washington (+1), Ohio (+1), New York (+1), Massachusetts (+1). Template rotation balanced at exactly 20 each of A to E (20% per template, 100 total cities). Chunk 4 cities: Plano TX (A), Scottsdale AZ (B), Durham NC (C), Baton Rouge LA (D), Salt Lake City UT (E), Stockton CA (A), Reno NV (B), Winston-Salem NC (C), Chattanooga TN (D), Knoxville TN (E), Irvine CA (A), St. Petersburg FL (B), Laredo TX (C), Lubbock TX (D), Des Moines IA (E), Chandler AZ (A), Spokane WA (B), Fort Lauderdale FL (C), Birmingham AL (D), Rochester NY (E), Garland TX (A), Chula Vista CA (B), Akron OH (C), Little Rock AR (D), Worcester MA (E). Build green, 100 total city pages, ~180 total site pages, all metaTitles unique, no em dashes, no banned vocabulary, no British spellings, verified pest facts. Phase 2 T2 in progress. Next: chunk 5, next 25 T2 cities, rotation continues at A."
+  "notes": "Chunk 4 complete 2026-06-04: 100 city pages (75 T1 + 25 T2), 180 site pages, template rotation balanced 20 each A-E, build green. Plan expanded 2026-06-05: T3 town universe defined (~5,000 places, was null), pest x city matrix added as Phase 6 long-tail engine (25 services x cities, ~10,000 at full build, sized to demand), blog plan target set (200). Phase order and per-run build order documented. Next: chunk 5, next 25 T2 cities, rotation at A. US English throughout, no British spellings, no em dashes, no banned vocabulary, verified pest facts."
 }
