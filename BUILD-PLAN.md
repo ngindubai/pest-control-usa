@@ -15,7 +15,7 @@
 
 **AUTONOMY (5 June 2026):** the build routine runs unattended. One block per run, full 7-stage pipeline as the QA gate, commit to main, deploy auto, post live links to Slack as a record. There is no approval step, no wait-for-go, and no stop condition. Advance through the phases in order; when the city universe is built, the pest x city matrix (Phase 6) is the long-tail engine and runs indefinitely.
 
-**Where we are:** Phase 2 T2 in progress. Chunk 6 complete: 150 total city pages built (75 T1 + 75 T2). 225 T2 cities remaining. Next: chunk 7.
+**Where we are:** Phase 2 T2 in progress. Chunk 7 complete: 175 total city pages built (75 T1 + 100 T2). 200 T2 cities remaining. Next: chunk 8.
 
 ---
 
@@ -55,7 +55,7 @@
 
 Deterministic by slug hash (see the guide). For hand-built batches, rotate A, B, C, D, E, A, ... across the batch so each block ships a visible mix.
 
-- Chunks 1-6 each shipped a balanced mix (5 each A to E). Running total: 30 each A to E.
+- Chunks 1-7 each shipped a balanced mix (5 each A to E). Running total: 35 each A to E.
 - Next block template lead: **A** (rotation continues across the batch)
 
 ---
@@ -90,3 +90,4 @@ build_state.json holds the machine-readable next unit: `next_chunk`, `next_chunk
 | 2026-06-05 | Plan expansion | Defined the T3 town universe (~5,000 incorporated places >5,000 pop, was null), added Phase 6 pest x city matrix as the long-tail engine (25 services x cities, ~10,000 at full build, sized to demand), set blog target (200), documented phase order and per-run build order, added autonomy note. No content built this entry. | 0 | Build plan now sized to thousands of pages. Routine prompt to be set up next. Next: chunk 5, 25 T2 cities, rotation at A. |
 | 2026-06-05 | Chunk 5 | 25 T2 city pages. New states: Mississippi (Jackson), South Carolina (Columbia), Connecticut (Hartford). Existing states expanded: CA (Fremont, Huntington Beach, Moreno Valley, Oxnard, Santa Ana), FL (Hialeah, Cape Coral, Tallahassee), AZ (Glendale, Gilbert, Tempe), WA (Tacoma), TX (McKinney), MI (Grand Rapids), NC (Fayetteville, Cary), NY (Yonkers), GA (Augusta), MO (Springfield), IL (Aurora), NJ (Paterson). Template rotation balanced 25 each A-E. 125 total cities, 208 site pages. Build green. | 25 city pages | Live on main. Next: chunk 6. |
 | 2026-06-05 | Chunk 6 | 25 T2 city pages. New states: South Dakota (Sioux Falls), North Dakota (Fargo). Existing states expanded: IN (Fort Wayne), NV (North Las Vegas), KS (Overland Park), AL (Huntsville, Montgomery), OH (Dayton), AZ (Peoria), GA (Columbus, Savannah), LA (Shreveport), TN (Clarksville), VA (Newport News, Hampton), OR (Salem, Eugene), TX (Brownsville, Pasadena), FL (Pembroke Pines, Hollywood), CA (San Bernardino, Glendale, Modesto, Fontana). Template rotation balanced 30 each A-E. 150 total cities, 233 site pages. Build green. | 25 city pages | Live on main. Next: chunk 7. |
+| 2026-06-06 | Chunk 7 | 25 T2 city pages. No new state files. TX: Amarillo, Frisco, McAllen, Killeen, Mesquite. CA: Santa Clarita, Rancho Cucamonga, Ontario, Elk Grove, Hayward, Sunnyvale, Garden Grove. CO: Fort Collins, Lakewood. GA: Macon, Sandy Springs. VA: Alexandria. FL: Coral Springs, Gainesville, Miramar. AZ: Surprise. IL: Naperville. WA: Bellevue. NY: Syracuse. NC: High Point. Template rotation balanced 35 each A-E. 175 total cities, 258 site pages. Build green. | 25 city pages | Live on main. Next: chunk 8. |

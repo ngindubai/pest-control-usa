@@ -1194,4 +1194,322 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Hollywood FL pest control for Formosan termites, American cockroaches, ghost ants, mosquitoes and German cockroaches. Broward County coastal specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "coral-springs",
+    name: "Coral Springs",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~133,000",
+    county: "Broward County",
+    climate: "hot-humid",
+    climateDriver:
+      "Coral Springs sits in northwestern Broward County, where the suburban development backs directly onto the conservation lands of the western Everglades edge. The South Florida subtropical climate sustains year-round pest activity, and the proximity to the Everglades drainage system creates extensive standing water and high humidity that keeps mosquito, termite, and cockroach pressure consistently elevated.",
+    topPests: ["Ghost Ants", "Formosan Termites", "American Cockroaches", "Mosquitoes", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the dominant indoor ant pest in South Florida and are consistently present in Coral Springs homes. They are tiny, pale-legged ants that trail along counters, inside cabinets, and through bathroom tile grout. Their super-colony structure and multiple queens make them persistent through standard perimeter spray.",
+      },
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, large swarms May through June",
+        note: "Formosan termites are well-established throughout Broward County. They form larger colonies than native subterranean species, swarm aggressively on warm humid evenings in late spring, and can establish above-ground carton nests that do not require soil contact. They are the most destructive termite species in South Florida.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in hot summer months",
+        note: "American cockroaches are endemic in South Florida and are common in Coral Springs drainage systems, mulch beds, and slab voids. They push inside during heat events and after heavy rain. The Everglades edge to the west provides a large reservoir population that continuously replenishes urban areas.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peaks June through October",
+        note: "The conservation lands and water management canals at the western edge of Coral Springs create abundant mosquito breeding habitat. The wet season from June through October is the peak pressure period, but mosquito activity in South Florida never fully stops. Aedes and Culex species are both present.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms in spring",
+        note: "Eastern subterranean termites are present alongside Formosan termites in Broward County. Annual inspections should look for both species, as they can be present simultaneously in the same property and may require different treatment approaches.",
+      },
+    ],
+    localHook:
+      "Coral Springs sits at the development edge of the western Everglades drainage system. The conservation lands to the west are a permanent reservoir for wildlife and pest species that move east into residential neighborhoods, including mosquitoes, cockroaches, and rodents.",
+    intro:
+      "Pest control in Coral Springs is a year-round exercise in a subtropical climate with no effective dormant season. Ghost ants are the persistent everyday indoor pest. Formosan termites are the most serious structural threat. American cockroaches come from the drainage and Everglades edge. Mosquitoes are intense during the June through October wet season. The combination of South Florida's climate and the Everglades proximity creates a pest environment that requires ongoing management rather than seasonal treatment.",
+    sections: [
+      {
+        heading: "Formosan termites in South Florida: what Coral Springs homeowners face",
+        body: "Formosan subterranean termites arrived in South Florida in the mid-20th century and have established throughout Broward County. They are more aggressive and more destructive than native eastern subterranean termites because their colonies are dramatically larger and because they can form above-ground carton nests in walls and tree cavities without any soil contact. Swarms occur on humid nights in May and June, and swarmers are strongly attracted to lights. An annual termite inspection that specifically checks for Formosan activity is the minimum protection for a Coral Springs home.",
+      },
+      {
+        heading: "Ghost ants: why standard spray does not work",
+        body: "Ghost ants are the most common ant complaint from Coral Springs homeowners who have tried and failed to control them with over-the-counter perimeter spray. The spray kills the foragers it contacts, but ghost ant colonies have multiple queens distributed across multiple locations, and the remaining population simply reroutes around treated areas. Slow-acting liquid bait that foragers carry back and share is the only approach that reduces the colony at the source. Placement inside cabinets and along active trails, with patience for the bait to work over several weeks, produces results that spray cannot.",
+      },
+    ],
+    prevention: [
+      "Use slow-acting ghost ant bait inside cabinets and along active trails rather than contact spray.",
+      "Schedule an annual Formosan termite inspection given Broward County's documented Formosan pressure.",
+      "Seal slab and utility penetrations to reduce American cockroach entry from drainage and exterior.",
+      "Eliminate standing water in gutters, plant trays, and retention areas to reduce wet-season mosquito breeding.",
+    ],
+    costNote:
+      "Year-round pest programs are the standard in South Florida because pest pressure never pauses. A quarterly program covering ghost ants, cockroaches, and perimeter pests, plus a separate annual termite inspection and protection plan, covers the main risks for Coral Springs homes. Mosquito barrier spray from May through October adds protection through the wet season.",
+    faqs: [
+      {
+        question: "What do ghost ants look like and how do I find them?",
+        answer:
+          "Ghost ants are tiny, about 1.5mm long. Their abdomen and legs are nearly transparent (pale white or cream), while their head and thorax are darker. They trail in thin lines along counters, cabinet edges, and bathroom tile grout. The trails can be easy to miss because the ants are so small. Placing a drop of honey on a small piece of tape near a suspected trail confirms activity within minutes.",
+      },
+      {
+        question: "How serious is the Formosan termite risk in Coral Springs?",
+        answer:
+          "Very serious. Broward County is within the established Formosan termite zone in Florida. Formosan colonies can number in the millions and cause structural damage at a rate far exceeding native subterranean species. They can also infest living trees and electrical utility boxes. Annual inspections and an active soil treatment or monitoring and baiting program are the standard protection for Coral Springs homeowners.",
+      },
+      {
+        question: "Are American cockroaches in Coral Springs a sign of a sanitation problem?",
+        answer:
+          "Not necessarily. American cockroaches in South Florida are wildlife that breed outdoors in drainage and mulch systems and enter structures through plumbing and utility gaps. A well-maintained home can still experience them if the exterior gaps are present. Sealing entry points at slab penetrations and door thresholds is more important than indoor sanitation in controlling this species.",
+      },
+      {
+        question: "When is mosquito season worst in Coral Springs?",
+        answer:
+          "June through October is the South Florida wet season, and that is when mosquito pressure is heaviest. However, the subtropical climate means mosquito activity continues year-round at reduced levels. The conservation lands to the west of Coral Springs sustain breeding populations that affect western neighborhoods more than the eastern parts of the city. Yard-level barrier spray combined with source elimination provides the most practical protection through the wet season.",
+      },
+      {
+        question: "What is the best termite treatment option for a Coral Springs home?",
+        answer:
+          "The two main options are liquid soil treatment (termiticide applied around the foundation perimeter and in soil entry areas) and monitoring and baiting systems (in-ground stations that detect and eliminate colonies over time). Liquid treatment provides immediate protection but must be renewed as it degrades. Baiting systems provide ongoing monitoring with slower colony elimination. Both are appropriate for Florida conditions; the right choice depends on the structure, soil conditions, and whether active termites have already been found.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Pembroke Pines", slug: "pembroke-pines" },
+      { name: "Margate", slug: "margate" },
+      { name: "Coconut Creek", slug: "coconut-creek" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Coral Springs, FL | Ghost Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Coral Springs pest control for ghost ants, Formosan termites, American cockroaches, mosquitoes and subterranean termites. Broward County Everglades edge specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "gainesville",
+    name: "Gainesville",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~133,000",
+    county: "Alachua County",
+    climate: "hot-humid",
+    climateDriver:
+      "Gainesville is the home of the University of Florida in north-central Florida, where the subtropical climate is slightly less intense than South Florida but still delivers warm humid conditions that sustain year-round pest activity. The UF campus, the extensive Paynes Prairie Preserve, and the city's tree canopy create a combination of urban density and natural habitat that drives pest variety well above what comparably sized cities in northern states experience.",
+    topPests: ["German Cockroaches", "Subterranean Termites", "Mosquitoes", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor pest in Gainesville's dense student rental housing, apartment complexes, and commercial kitchens. The high turnover of student housing creates consistent cockroach introduction and spread opportunities. McCall Service, a Gainesville-based pest control company, identifies German cockroaches among the most common pests they treat in Alachua County.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms in spring",
+        note: "Subterranean termites are active year-round in Alachua County. Gainesville's substantial stock of older rental housing, some of it poorly maintained, carries significant unprotected termite exposure. Annual inspections are standard for all properties in North-Central Florida.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peaks May through September",
+        note: "Paynes Prairie Preserve State Park, Newnans Lake, and the numerous sinkholes, retention ponds, and drainage features throughout Alachua County create extensive mosquito breeding habitat. Gainesville experiences significant mosquito pressure from spring through fall. Aedes mosquitoes are present in the area.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible after rain",
+        note: "Fire ants are endemic throughout Alachua County and are active year-round. They are a particular hazard in the outdoor recreational areas near the UF campus and in residential lawns. The subtropical climate provides no winter suppression.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, push inside in hot summer months",
+        note: "American cockroaches are common in Gainesville's older residential areas, breeding in drainage systems, mulch, and outdoor utility infrastructure. They enter structures through plumbing penetrations and door gaps during heat events.",
+      },
+    ],
+    localHook:
+      "The University of Florida's Department of Entomology and Nematology in Gainesville is one of the leading insect research programs in the US. That institutional knowledge means pest identification and management advice in Gainesville is grounded in genuine local research rather than generic guidance.",
+    intro:
+      "Pest control in Gainesville combines the standard North-Central Florida challenges with the specific pressures of a large university town. The high density and turnover of student rental housing makes German cockroach management an ongoing urban challenge. Subterranean termites are active year-round in Alachua County. Fire ants are everywhere outdoors. Mosquitoes are intense near Paynes Prairie and the local water features. American cockroaches move through the drainage system. No part of the pest calendar is particularly slack here.",
+    sections: [
+      {
+        heading: "German cockroaches and student rental housing",
+        body: "Gainesville's rental housing market turns over heavily each August and December as University of Florida students move in and out. German cockroaches spread efficiently through this cycle: an infested apartment or house that is not professionally treated between tenancies passes the infestation to the next occupant. Apartment complexes near the UF campus in neighborhoods like Midtown, University Heights, and 34th Street are disproportionately affected. Landlords have a legal obligation under Florida's landlord-tenant law to maintain pest-free conditions, and building-wide gel bait programs are far more effective than per-unit perimeter spray for managing German cockroaches in multi-family rental buildings.",
+      },
+      {
+        heading: "Subterranean termites and the Gainesville rental market",
+        body: "Gainesville's rental housing includes a substantial number of older properties, some more than 50 years old, that have had inconsistent termite protection program histories. Eastern subterranean termites are active throughout Alachua County year-round, and properties without current soil treatment protection are at ongoing risk. Buyers and renters of older Gainesville properties should request documentation of the most recent termite inspection and treatment date before signing.",
+      },
+    ],
+    prevention: [
+      "Inspect secondhand furniture and moving boxes for German cockroaches before bringing them into a Gainesville rental.",
+      "Request documentation of recent termite treatment when renting or purchasing an older Gainesville property.",
+      "Eliminate standing water in gutters, plant trays, and yard low points to reduce mosquito breeding near the structure.",
+      "Treat fire ant mounds promptly in yards and outdoor areas used by children or pets.",
+    ],
+    costNote:
+      "Year-round pest programs are the most cost-effective approach in Gainesville's subtropical climate. A quarterly general pest program covering cockroaches, ants, and perimeter pests, plus a separate annual termite inspection and protection plan, covers the main risks for most properties. Mosquito barrier spray from May through October is practical for properties near water features.",
+    faqs: [
+      {
+        question: "Are German cockroaches in my Gainesville apartment my responsibility or the landlord's?",
+        answer:
+          "Florida law requires landlords to maintain rental housing in a habitable condition, and German cockroach infestations generally fall under that standard when they are not caused by the tenant's actions. If you notify the landlord in writing and they fail to address the issue, you have remedies under Florida's landlord-tenant statute. In practice, a building-wide bait program coordinated by the property manager is more effective than treating one unit in isolation.",
+      },
+      {
+        question: "Does the University of Florida campus have termite problems?",
+        answer:
+          "The UF campus includes many older buildings that have historically required ongoing termite management. Eastern subterranean termites are present throughout Alachua County. The campus uses professional pest management services, and off-campus housing adjacent to the campus area carries the same termite risk as any older Gainesville property.",
+      },
+      {
+        question: "Are there Formosan termites in Gainesville?",
+        answer:
+          "Formosan termites are primarily established in South Florida, particularly in the urban coastal counties. Their range in North-Central Florida is less well-documented, and they are far less commonly encountered in Gainesville than in Broward or Miami-Dade counties. Eastern subterranean termites are the dominant termite pest in Alachua County.",
+      },
+      {
+        question: "How bad are the mosquitoes near Paynes Prairie in Gainesville?",
+        answer:
+          "Paynes Prairie Preserve State Park south of Gainesville is a large wetland basin that produces significant mosquito populations during the wet season from May through September. Properties near the prairie edge and adjacent neighborhoods see higher mosquito pressure than the rest of the city. Alachua County's mosquito control district runs area-wide larvicide treatments, but yard-level barrier spray provides additional protection for residential properties.",
+      },
+      {
+        question: "What should I do about fire ants near a Gainesville school or park?",
+        answer:
+          "Report active fire ant mounds in public areas to Alachua County or the relevant parks department. For your own property, treat mounds as they appear using a two-step approach: broadcast bait across the full lawn in spring, followed by individual mound contact treatment for any remaining mounds. Fire ants in North-Central Florida are active year-round and re-infest treated areas, so seasonal follow-up is needed.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Ocala", slug: "ocala" },
+      { name: "Newberry", slug: "newberry" },
+      { name: "Alachua", slug: "alachua" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Gainesville, FL | German Cockroaches, Termites & Mosquitoes",
+    metaDescription:
+      "Gainesville pest control for German cockroaches, subterranean termites, mosquitoes, fire ants and American cockroaches. Alachua County University of Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "miramar",
+    name: "Miramar",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~130,000",
+    county: "Broward County",
+    climate: "hot-humid",
+    climateDriver:
+      "Miramar occupies the southwestern section of Broward County, where the city's western boundary meets the conservation areas of the Everglades drainage system. The subtropical South Florida climate sustains year-round pest activity with no effective dormant season, and the western Everglades interface creates ongoing cockroach, mosquito, and wildlife pest pressure that requires consistent management.",
+    topPests: ["American Cockroaches", "Formosan Termites", "Mosquitoes", "Ghost Ants", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active during and after heavy rain",
+        note: "American cockroaches are endemic across South Florida and are the most visible cockroach pest in Miramar's single-family and multi-family housing. They breed in drainage systems, mulch, and slab voids adjacent to the western conservation areas and push inside through plumbing gaps, especially after heavy rain.",
+      },
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, large swarms May through June",
+        note: "Formosan termites are established throughout Broward County and represent the primary termite threat in Miramar. Their large colonies and aggressive feeding behavior make them significantly more destructive than the native eastern subterranean termites also present in the area. Swarms occur on humid nights in May and June.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peaks June through October",
+        note: "Miramar's western boundary with the Everglades drainage system creates substantial mosquito breeding habitat. The wet season from June through October is the peak pressure period, but South Florida's climate means mosquito activity continues year-round at reduced levels. Culex and Aedes species are both present in Broward County.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the dominant indoor ant species in Miramar and throughout South Florida. They trail in kitchen and bathroom areas and are highly persistent through standard perimeter spray because of their super-colony structure. Slow-acting bait is the effective control method.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the primary indoor roach pest in Miramar's apartment complexes and commercial food-service establishments. They spread through shared plumbing in multi-family buildings and are resistant to over-the-counter spray products.",
+      },
+    ],
+    localHook:
+      "Miramar's western edge is among the most direct residential interfaces with the Everglades drainage system in Broward County. That proximity brings both the natural setting that makes the city desirable and a consistent vector for cockroaches, mosquitoes, and wildlife pests moving east from the conservation areas.",
+    intro:
+      "Pest control in Miramar is shaped by two forces: the subtropical South Florida climate and the Everglades edge to the west. American cockroaches and mosquitoes are both sourced partly from the conservation lands that border the western neighborhoods. Formosan termites are the most serious structural pest in the area. Ghost ants are the persistent indoor ant pest. German cockroaches are the dominant pest in multi-family housing and commercial kitchens. None of these problems take a seasonal break.",
+    sections: [
+      {
+        heading: "American cockroaches from the Everglades edge",
+        body: "Miramar's western neighborhoods back directly onto the water management conservation areas that buffer the Everglades. American cockroaches breed prolifically in those environments and move east into residential areas through the drainage system and utility corridors. Properties on the western side of the city, particularly those backing onto canals or conservation land, see higher American cockroach pressure than properties in the eastern neighborhoods. Sealing slab penetrations, maintaining door sweeps, and applying a perimeter spray to the exterior foundation are the practical controls for this outdoor-to-indoor species.",
+      },
+      {
+        heading: "Formosan termite protection in Broward County",
+        body: "Formosan termites are established throughout Broward County and are significantly more destructive than the native subterranean termites also present in the area. Their colonies can number in the millions, and they can form above-ground carton nests in wall cavities and structural members without needing soil contact. Annual inspections are the baseline protection, but properties in Broward County with no active treatment barrier are at ongoing risk. Liquid soil treatment and monitoring and baiting systems are both effective options; the right choice depends on the property construction and history.",
+      },
+    ],
+    prevention: [
+      "Seal slab penetrations, utility entries, and door sweeps to reduce American cockroach entry from drainage and exterior.",
+      "Schedule an annual Formosan termite inspection given Broward County's documented Formosan pressure.",
+      "Use slow-acting ghost ant bait inside cabinets and along active trails rather than contact spray.",
+      "Eliminate standing water in gutters, plant trays, and canal-adjacent areas to reduce wet-season mosquito breeding.",
+    ],
+    costNote:
+      "Year-round pest programs are standard in South Florida. A quarterly general pest program covering cockroaches, ants, and perimeter pests, plus a separate annual termite inspection and protection plan, covers the main risks for most Miramar homes. Mosquito barrier spray from June through October adds protection during the heaviest wet-season pressure.",
+    faqs: [
+      {
+        question: "Why do American cockroaches appear in my Miramar home after rain?",
+        answer:
+          "Heavy rain floods the drainage systems and utility infrastructure where American cockroaches breed outdoors. The flooding drives them upward into structures through any available entry point: floor drain connections, utility penetrations, and gaps at the slab edge. Sealing those entry points provides lasting protection. A perimeter spray to the exterior foundation discourages approach after rain events.",
+      },
+      {
+        question: "How is a Formosan termite infestation different from a regular termite infestation?",
+        answer:
+          "Formosan termite colonies are dramatically larger than native subterranean termite colonies and can cause structural damage much faster. They also form carton nests (a mixture of digested wood pulp, soil, and saliva) within wall cavities and structural voids that allow the colony to exist above ground independently of soil contact. An inspection for Formosan termites looks for carton material in addition to the mud tubes that indicate native subterranean termite activity.",
+      },
+      {
+        question: "Are ghost ants harmful to people or pets?",
+        answer:
+          "Ghost ants are nuisance pests that do not bite humans or pets and do not transmit disease directly. They are, however, unhygienic: they trail through kitchens and across food preparation surfaces. They are also extremely persistent and difficult to control without the right approach. The issue is practical rather than medical.",
+      },
+      {
+        question: "Is year-round mosquito control necessary in Miramar?",
+        answer:
+          "For properties near the western conservation areas and canals, year-round treatment makes sense because mosquito breeding habitat is present continuously. For properties in the eastern parts of the city, the wet season program from June through October covers the peak pressure period. Eliminating all standing water on the property is the most important single step regardless of location.",
+      },
+      {
+        question: "How often should Miramar homes have a termite inspection?",
+        answer:
+          "Annually. Broward County is within the established Formosan termite zone in Florida, and the subtropical climate sustains termite activity year-round. Annual inspections catch new activity before it becomes structural damage. If you are purchasing a Miramar property, a termite inspection (the WDO report) is a standard part of the real estate transaction.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Pembroke Pines", slug: "pembroke-pines" },
+      { name: "Hollywood", slug: "hollywood" },
+      { name: "Weston", slug: "weston" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Miramar, FL | American Cockroaches, Termites & Mosquitoes",
+    metaDescription:
+      "Miramar pest control for American cockroaches, Formosan termites, mosquitoes, ghost ants and German cockroaches. Broward County Everglades edge specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

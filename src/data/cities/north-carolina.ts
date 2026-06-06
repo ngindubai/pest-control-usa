@@ -752,4 +752,110 @@ export const northCarolinaCities: CityLocation[] = [
     metaDescription:
       "Cary pest control for subterranean termites, mosquitoes, fire ants, stink bugs and ants. Wake County Research Triangle specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "high-point",
+    name: "High Point",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T2",
+    population: "~115,000",
+    county: "Guilford County",
+    climate: "temperate",
+    climateDriver:
+      "High Point sits in the North Carolina Piedmont in Guilford County, part of the Research Triangle's western corridor. The temperate Piedmont climate delivers hot humid summers and mild winters with occasional ice storms. That combination sustains subterranean termite, fire ant, and mosquito activity through a long warm season, while cold snaps in fall send rodents and stink bugs into structures. High Point is the furniture manufacturing capital of the US, and the warehousing and distribution activity in the city contributes to German cockroach and rodent pressure in adjacent residential areas.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mosquitoes", "Brown Marmorated Stink Bugs", "Norway Rats"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms in spring",
+        note: "Eastern subterranean termites are among the most destructive structural pests in the Piedmont region. Guilford County falls within the high termite risk zone for North Carolina, and the Piedmont's warm humid summers sustain large, active colonies. High Point's stock of older manufacturing and residential structures carries significant unprotected termite exposure.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through November",
+        note: "Fire ants are endemic in the North Carolina Piedmont and are active in High Point lawns and public green spaces year-round. They are a consistent outdoor hazard in parks, schoolyards, and athletic fields throughout Guilford County.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peaks June through September",
+        note: "High Point's numerous creeks, retention ponds, and the nearby Piedmont Triad lake system create reliable mosquito breeding habitat through a long warm season. Guilford County and nearby Forsyth County both monitor West Nile virus activity most summers.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate September through October, emerge late winter through spring",
+        note: "Stink bugs are well-established throughout the NC Piedmont, including Guilford County. They aggregate on south-facing exterior walls in September and October and push into wall voids to overwinter. When interior heat activates them in late winter and early spring, they emerge through cracks and light fixtures inside the home.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, push indoors fall through winter",
+        note: "Norway rats are present in High Point, particularly near the commercial and industrial corridors in the furniture market district and along the railroad corridors. They burrow under concrete, enter through ground-level foundation gaps, and are most active indoors in the fall and winter.",
+      },
+    ],
+    localHook:
+      "High Point is the furniture capital of the world, hosting the biannual High Point Market, the largest home furnishings trade show in the US. The warehousing, distribution, and manufacturing activity that supports this industry creates rodent and cockroach reservoir populations in the industrial corridors that border the city's residential neighborhoods.",
+    intro:
+      "Pest control in High Point covers the NC Piedmont standard: subterranean termites in the older housing stock, fire ants in every lawn, mosquitoes from the creek and pond network, and stink bugs aggregating on buildings in fall. The city's industrial character adds Norway rat pressure near the furniture market warehousing corridors. The temperate Piedmont climate provides a long warm pest season and a mild enough fall that some pests remain active later into the year than in the northern states.",
+    sections: [
+      {
+        heading: "Termites in High Point's residential and industrial housing",
+        body: "High Point's housing stock includes a large proportion of mid-century and older construction in neighborhoods like Emerywood, College Village, and the historic downtown area. Eastern subterranean termites are active throughout Guilford County and are a consistent structural risk for homes and commercial buildings without current soil treatment protection. The furniture market warehousing and manufacturing buildings, many of which are older wood-frame structures, also carry significant termite exposure. Annual inspections for any High Point property older than ten years are appropriate given the Piedmont's documented termite pressure.",
+      },
+      {
+        heading: "Stink bugs in the NC Piedmont fall",
+        body: "The brown marmorated stink bug arrived in North Carolina in the early 2000s and has established across the Piedmont. High Point, Greensboro, and Winston-Salem all experience the annual September aggregation, when stink bugs gather on sun-warmed south-facing walls before pushing into gaps around window frames, soffits, and utility penetrations. The most effective prevention is sealing those entry points before mid-September. Once they are inside the walls for the winter, the practical response is vacuum removal as they emerge in late winter, without crushing them.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for all High Point properties, particularly pre-1970 construction.",
+      "Seal attic vents, window frames, and exterior wall gaps before mid-September to block stink bug overwintering entry.",
+      "Broadcast fire ant bait across the full lawn in spring before mound density builds.",
+      "Eliminate standing water in gutters, yard drainage low points, and plant trays after rain to reduce mosquito breeding.",
+    ],
+    costNote:
+      "A quarterly general pest program covering fire ants, rodents, and perimeter pests, plus a separate annual termite inspection and protection plan, covers the main risks for most High Point properties. Mosquito barrier spray from April through October is practical for properties near creek corridors and retention ponds.",
+    faqs: [
+      {
+        question: "How serious is the termite risk in High Point?",
+        answer:
+          "Guilford County is within the high termite risk zone for North Carolina. Eastern subterranean termites are active throughout the Piedmont year-round, and the region's humid summers sustain large colonies. Older homes with aging soil treatment barriers or no current protection are at meaningful risk. Annual inspections and an active protection plan are the standard for High Point properties.",
+      },
+      {
+        question: "When do fire ants swarm in High Point?",
+        answer:
+          "Fire ant nuptial flights in the NC Piedmont typically occur in late spring and early summer, most commonly on warm humid days following rain. New queens disperse and establish new colonies wherever they land. Treating existing mounds before nuptial flight season and broadcasting yard bait in late February or March reduces the number of new colonies that establish each season.",
+      },
+      {
+        question: "Are stink bugs harmful inside a High Point home?",
+        answer:
+          "No. Stink bugs do not bite, sting, reproduce indoors, or cause structural damage. The problem is their numbers: large overwinter populations emerge through cracks and fixtures in late winter, creating a nuisance that can last several weeks. Vacuum removal without crushing them is the practical indoor response. Crushing or disturbing them releases a defensive odor that can be difficult to remove from soft furnishings.",
+      },
+      {
+        question: "Are Norway rats near the High Point furniture district a residential concern?",
+        answer:
+          "Yes. Residential neighborhoods adjacent to the furniture market warehousing and commercial corridors see higher Norway rat pressure than other parts of the city. Rats move along drainage channels and utility corridors from commercial areas to residential properties. Exterior bait stations along the foundation perimeter provide ongoing control for affected properties.",
+      },
+      {
+        question: "What mosquito-borne diseases are monitored in Guilford County?",
+        answer:
+          "Guilford County and the broader NC Piedmont region monitor for West Nile virus, which is carried by Culex mosquitoes and is tracked through the mosquito season most years. Eastern equine encephalitis (EEE) is a less common but more severe mosquito-borne illness that is monitored in North Carolina. Eliminating standing water on the property and applying a barrier spray to yard vegetation reduces exposure to both species.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Greensboro", slug: "greensboro" },
+      { name: "Winston-Salem", slug: "winston-salem" },
+      { name: "Burlington", slug: "burlington" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in High Point, NC | Termites, Fire Ants & Stink Bugs",
+    metaDescription:
+      "High Point pest control for subterranean termites, fire ants, mosquitoes, stink bugs and Norway rats. Guilford County NC Piedmont furniture capital specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

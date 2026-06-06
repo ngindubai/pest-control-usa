@@ -322,4 +322,110 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Tacoma pest control for Norway rats, roof rats, yellow jackets, odorous house ants and German cockroaches. Pierce County port-city specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "bellevue",
+    name: "Bellevue",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T2",
+    population: "~141,000",
+    county: "King County",
+    climate: "temperate",
+    climateDriver:
+      "Bellevue sits on the eastern shore of Lake Washington in King County, directly east of Seattle. The Pacific Northwest temperate climate delivers abundant rainfall and mild temperatures that create ideal conditions for carpenter ants, odorous house ants, and dampwood termites year-round. The forested hillside neighborhoods in the Bridle Trails, Somerset, and Lakemont areas bring yellowjacket and giant house spider pressure from the adjacent woodland edges. Bellevue's tech-industry density also means significant commercial cockroach management in the eastern Eastside office corridors.",
+    topPests: ["Odorous House Ants", "Norway Rats", "Carpenter Ants", "Yellowjackets", "Giant House Spiders"],
+    pestProfile: [
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most intense spring and summer",
+        note: "Odorous house ants are the dominant residential ant pest in Bellevue and throughout the Seattle metro. They are small, dark, and emit a faint coconut-like odor when crushed. The Pacific Northwest's mild, wet climate allows their colonies to remain active year-round, and they move indoors readily when outdoor conditions change. Insight Pest Solutions, a Bellevue-based specialist, identifies odorous house ants as the top ant complaint across King County.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, push indoors October through February",
+        note: "Norway rats are well-established in Bellevue, particularly in the commercial and mixed-use areas along Bellevue Way and the 405 corridor. They burrow under concrete, enter structures through ground-level gaps, and are most active indoors during the fall and winter rainy season.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through September, most visible indoors in spring",
+        note: "Carpenter ants are a significant structural pest in Bellevue's forested hillside neighborhoods. The Pacific Northwest's abundant rainfall creates the damp wood conditions that carpenter ants need, and the tall conifers bordering residential lots in areas like Bridle Trails and Somerset provide a constant outdoor colony source. Finding them indoors in spring indicates damp or damaged wood in the structure.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active May through October, most aggressive August through September",
+        note: "Yellowjacket nests in Bellevue's wooded neighborhoods build through summer and are at maximum size and aggression in August and September. Ground nests in the hillside areas and aerial nests in eaves and deck overhangs are both common. The forested edges around Bellevue's residential neighborhoods provide habitat that sustains a large annual yellowjacket population.",
+      },
+      {
+        name: "Giant house spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most visible indoors in late summer and fall",
+        note: "Giant house spiders are native to the Pacific Northwest and are among the largest spiders in Washington State. Males wander indoors in late summer and fall during their mating season. They are not medically significant (they rarely bite and their venom is minor) but their size causes alarm. They are common in basements, garages, and undisturbed corners in Bellevue homes.",
+      },
+    ],
+    localHook:
+      "Bellevue's wooded hillside neighborhoods are among the most desirable residential areas in the Pacific Northwest, and they also create some of the most persistent carpenter ant and yellowjacket pressure in King County. The forested lots that make the neighborhoods beautiful also provide the damp wood and insect habitat that drive ongoing pest management needs.",
+    intro:
+      "Pest control in Bellevue follows the Pacific Northwest pattern: odorous house ants are the year-round indoor pest, carpenter ants are the spring structural concern in the forested neighborhoods, Norway rats are active in the commercial corridor and older residential areas, yellowjackets peak in August in the hillside and wooded zones, and giant house spiders make their annual fall appearance in basements and garages. The mild, wet climate means most of these species never fully disappear between seasons.",
+    sections: [
+      {
+        heading: "Carpenter ants in Bellevue's forested neighborhoods",
+        body: "The hillside neighborhoods in eastern and southern Bellevue, particularly Bridle Trails, Somerset, and Lakemont, include properties bordered by tall Douglas fir and cedar trees that provide a large outdoor carpenter ant colony population. Pacific Northwest rainfall keeps wood moist, and any structural wood with a moisture issue (sills, soffits, deck framing, roof penetrations) is a potential carpenter ant infestation site. Finding them indoors in spring should prompt both treatment and a moisture inspection. Treating the ant colony without fixing the underlying moisture allows re-infestation.",
+      },
+      {
+        heading: "Odorous house ants: the year-round indoor pest",
+        body: "Odorous house ants are active in Bellevue year-round because the Pacific Northwest's mild climate provides no hard freeze to interrupt colony activity. They trail along baseboards, kitchen counters, and bathroom grout in search of food and water. Multiple queens in each colony make them persistent through standard perimeter spray. Slow-acting liquid bait placed along active trails and foundation edges is more effective than contact spray at reducing colony populations over time. Outdoor bait placements combined with sealing foundation gaps address both the foraging ants and the outdoor colonies feeding them.",
+      },
+    ],
+    prevention: [
+      "Inspect and repair wooden sills, soffits, and deck framing for moisture damage to remove carpenter ant harborage.",
+      "Seal foundation gaps and utility penetrations to block Norway rat entry in fall.",
+      "Apply odorous house ant bait along foundation edges in spring and summer to address the outdoor colony.",
+      "Treat yellowjacket nests in eaves or ground locations in August before they reach peak aggression in September.",
+    ],
+    costNote:
+      "A quarterly general pest program covering odorous house ants, spiders, and perimeter pests is the baseline for most Bellevue homes. A spring carpenter ant inspection is a practical add-on for forested hillside properties. Rat management near commercial areas may need monthly exterior bait station service through the fall and winter rainy season.",
+    faqs: [
+      {
+        question: "Why do I get carpenter ants in my Bellevue home every spring?",
+        answer:
+          "Carpenter ants appear indoors in spring when the workers from an established colony in damp wood emerge and begin foraging. The consistent spring recurrence means a colony has established in the structure, not that individual workers are wandering in from outside. Finding and treating the nest site (usually in damp or damaged wood near a moisture source) and fixing the moisture problem is what stops the annual recurrence.",
+      },
+      {
+        question: "Are giant house spiders in Bellevue dangerous?",
+        answer:
+          "Giant house spiders are not considered medically significant in the Pacific Northwest. They have weak venom and rarely bite humans. They are, however, large enough (with leg spans up to 3 to 4 inches) to be alarming when encountered. They are most visible in late August and September when males wander looking for mates. They are beneficial predators of other insects and can be relocated rather than killed if preferred.",
+      },
+      {
+        question: "Are Norway rats different from roof rats in Bellevue?",
+        answer:
+          "Yes. Norway rats are burrowers that live at ground level, enter structures through ground-floor gaps, and prefer grain and meat. Roof rats are climbers that nest in attics, travel along overhead utility lines, and prefer fruit and nuts. Both are present in King County. Norway rats are more common in the commercial and industrial areas of Bellevue; roof rats are more common in the residential neighborhoods with mature trees. A technician can identify which species is present from the droppings, entry points, and evidence.",
+      },
+      {
+        question: "When is yellowjacket season in Bellevue?",
+        answer:
+          "Nests begin building in May after queens emerge from overwintering and establish new colonies. They grow through summer and are at maximum size and aggression in August and September. The September period is when most stinging incidents occur, because colonies are large, food sources are declining, and workers are aggressively foraging. Treating nests in July, before they reach peak size, is safer and more effective than waiting until August.",
+      },
+      {
+        question: "What is the best way to control odorous house ants in a Bellevue home long-term?",
+        answer:
+          "Long-term control requires reducing the outdoor colony population, not just killing indoor foragers. Slow-acting liquid bait placed along foundation edges and active trails provides the most sustained results. Outdoor bait placements in spring and early summer, when foraging activity is highest, reduce colony sizes going into the peak season. Sealing foundation gaps reduces indoor access points. Perimeter spray provides temporary relief but does not reduce the colony size.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Kirkland", slug: "kirkland" },
+      { name: "Redmond", slug: "redmond" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Bellevue, WA | Carpenter Ants, Rats & Yellowjackets",
+    metaDescription:
+      "Bellevue pest control for odorous house ants, Norway rats, carpenter ants, yellowjackets and giant house spiders. King County Eastside Seattle specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

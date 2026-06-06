@@ -216,4 +216,110 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Aurora pest control for house mice, German cockroaches, bed bugs, ants and yellow jacket wasps. Kane County Fox River Valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "naperville",
+    name: "Naperville",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T2",
+    population: "~149,000",
+    county: "DuPage County",
+    climate: "cold-humid",
+    climateDriver:
+      "Naperville is the largest city in DuPage County and one of the most affluent suburbs in the Chicago metro. The cold humid climate delivers harsh winters that push rodents indoors and hot humid summers that sustain mosquito, ant, and termite activity. The DuPage River corridor and the city's extensive park system create consistent mosquito and wildlife pest pressure through the warm season.",
+    topPests: ["House Mice", "Carpenter Ants", "Subterranean Termites", "Mosquitoes", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors September through November, active all winter",
+        note: "House mice are the top residential pest complaint in DuPage County from fall through spring. Naperville's cold, snowy winters drive mice hard into structures, and the large outdoor population sustained by the park and river corridor system makes the fall entry pressure significant. Anderson Pest Solutions, a major Chicago-area pest control company, identifies mice as the primary fall pest call in the Naperville market.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through September, most visible indoors in spring",
+        note: "Carpenter ants are a structural pest in Naperville's older homes, particularly in the historic neighborhoods near the DuPage River where moisture from decades of freeze-thaw cycles has worked into wooden framing, sills, and decking. They tunnel through damp wood and their spring appearance indoors is a reliable indicator of a moisture problem.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active underground year-round, swarms in spring",
+        note: "Eastern subterranean termites are present in DuPage County and are a risk for Naperville homes, particularly older properties with wood in contact with soil or compromised foundation seals. Orkin identifies subterranean termites as among the common pest risks in the Naperville area.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peaks July through August",
+        note: "The DuPage River corridor, the numerous retention ponds in Naperville's residential developments, and the extensive park system create reliable mosquito breeding habitat from late spring through early fall. DuPage County performs area-wide mosquito control but yard-level barrier spray provides additional residential protection.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate September through October, emerge late winter through spring",
+        note: "Stink bugs have established throughout the Chicago suburbs including Naperville. They aggregate on south-facing walls in September and October and push into wall voids and attics to overwinter. When warm interior temperatures in late winter activate them, they emerge through cracks and electrical outlets inside the home.",
+      },
+    ],
+    localHook:
+      "Naperville consistently ranks among the best places to live in the US, but its desirable character (large lots, mature trees, DuPage River corridor, excellent parks) creates significant carpenter ant, termite, mosquito, and rodent pressure that is somewhat higher than the typical Chicago suburb.",
+    intro:
+      "Pest control in Naperville follows the Chicago metro seasonal pattern but with higher-than-average pressure from the natural features that make the city attractive. House mice are the fall and winter priority. Carpenter ants and termites represent the structural risks in the older housing stock. Mosquitoes are active through a long summer season along the DuPage River and retention pond network. Stink bugs are a well-established fall nuisance throughout DuPage County.",
+    sections: [
+      {
+        heading: "Carpenter ants in Naperville's older neighborhoods",
+        body: "Naperville's downtown and near-downtown neighborhoods include homes from the 1900s through the 1960s where decades of Midwest freeze-thaw cycles have introduced moisture into wooden structures. Carpenter ants are among the top structural pest concerns in those areas. Finding them indoors in spring, particularly in numbers, signals a colony established in damp or damaged wood. Treating the ant colony and addressing the moisture problem together is the complete solution. Treating only the ants without finding and fixing the moisture leaves the conditions that will attract the next colony.",
+      },
+      {
+        heading: "Mosquitoes along the DuPage River",
+        body: "Naperville's park and trail system along the DuPage River is one of the city's most valued features and also one of its most consistent mosquito breeding corridors. Properties within several blocks of the river and its associated green spaces, as well as homes adjacent to retention ponds in the residential developments that characterize most of Naperville, experience above-average mosquito pressure from May through September. Monthly barrier spray applied to yard and fence vegetation provides 80 to 90 percent reduction in yard mosquito populations through the season.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and chimney chases in late August before the fall mouse entry season.",
+      "Inspect wooden sills, decking, and soffits for moisture damage that enables carpenter ant infestation.",
+      "Seal attic vents and wall gaps before September to block stink bug overwintering entry.",
+      "Eliminate standing water in gutters, plant trays, and retention pond edges to reduce mosquito breeding.",
+    ],
+    costNote:
+      "A fall rodent exclusion and a spring carpenter ant inspection are the two most important seasonal services for most Naperville homes. A quarterly general pest program handles perimeter pests year-round. Mosquito barrier spray from May through September is practical for properties near the DuPage River and retention ponds.",
+    faqs: [
+      {
+        question: "When is the worst month for mice in Naperville?",
+        answer:
+          "October and November are the peak entry months when the first hard frosts drive mice to seek shelter. Mice are active indoors all winter once they are in. The practical prevention window is September, before the hard freeze arrives. Exclusion sealing of foundation gaps and utility penetrations in September addresses the problem before it starts.",
+      },
+      {
+        question: "How do I tell carpenter ants from termites in my Naperville home?",
+        answer:
+          "Carpenter ant swarmers have elbowed antennae, pinched waists, and unequal wings (front wings larger than back wings). Termite swarmers have straight antennae, broad waists, and equal-length wings. Carpenter ants chew tunnels and push coarse sawdust-like frass out of their galleries. Termites consume wood and leave no frass but may leave mud tubes on foundation walls. Either sighting indoors in spring warrants a professional inspection.",
+      },
+      {
+        question: "Are there termites in Naperville?",
+        answer:
+          "Yes. Eastern subterranean termites are present in DuPage County and are an established pest in the Chicago suburbs. Naperville properties with aging foundation seals, wood in contact with soil, or moisture problems are at elevated risk. Annual inspections for older homes are appropriate given the termite pressure across the northern Illinois region.",
+      },
+      {
+        question: "How bad are mosquitoes near the DuPage River in Naperville?",
+        answer:
+          "Properties within a few blocks of the river corridor and adjacent to retention ponds see significantly higher mosquito pressure than properties further from standing water. DuPage County's mosquito control district runs larvicide treatments over known breeding areas, but that program does not reach every residential yard. Monthly barrier spray from May through September provides strong protection for individual properties.",
+      },
+      {
+        question: "What should I do if stink bugs are coming out of my walls in Naperville in winter?",
+        answer:
+          "Stink bugs that have overwintered in your wall voids emerge when interior heat warms them in late winter. They are looking for a way outside and will typically appear near windows and light fixtures. Vacuum removal (without crushing them) is the practical indoor approach. Do not spray pesticides inside the walls chasing them: it is ineffective and unnecessary. The population decreases through spring as they exit. Next fall, sealing the gaps they used to enter before September prevents the following year's overwintering.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Aurora", slug: "aurora" },
+      { name: "Lisle", slug: "lisle" },
+      { name: "Bolingbrook", slug: "bolingbrook" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Naperville, IL | Mice, Carpenter Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Naperville pest control for house mice, carpenter ants, subterranean termites, mosquitoes and stink bugs. DuPage County Chicago suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

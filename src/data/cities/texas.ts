@@ -1620,4 +1620,534 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Pasadena pest control for Formosan termites, mosquitoes, fire ants, American cockroaches and German cockroaches. Harris County Ship Channel specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "amarillo",
+    name: "Amarillo",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~200,000",
+    county: "Potter County",
+    climate: "semi-arid",
+    climateDriver:
+      "Amarillo sits on the Texas High Plains at roughly 3,600 feet elevation, where low annual rainfall, wide temperature swings between seasons, and persistent wind create dry conditions that favour scorpions and spiders year-round. Cold falls push prairie rodents hard into structures, and the open terrain supplies a large outdoor population. The same gaps that let drafts in let pests in.",
+    topPests: ["Scorpions", "Brown Recluse Spiders", "House Mice", "German Cockroaches", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "The striped bark scorpion ranges throughout the Texas Panhandle and is the most medically significant pest in Potter County homes. They hide under debris, in wall voids, and inside shoes. Hot dry summers concentrate them near any moisture source indoors.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, peak movement March through October",
+        note: "Amarillo sits in the core range of the brown recluse. They live in boxes, closets, stored clothing, and wall voids and are most often found in garages and storage rooms. Their bites cause localized tissue damage in a minority of cases and always warrant medical attention.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors August through November, active all winter",
+        note: "The open High Plains terrain supports large outdoor rodent populations. As October temperatures fall, house mice press into structures through foundation gaps and utility penetrations. The sharp seasonal temperature drops that Amarillo experiences make the late-summer exclusion window especially important.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches do not rely on outdoor conditions. Once established in a kitchen, breakroom, or apartment unit, they breed year-round. They spread quickly in multi-family buildings and are resistant to many over-the-counter products.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, mounds visible after spring rain",
+        note: "Fire ants have extended their range into the Panhandle over the past few decades. Mounds are less common here than in wetter east Texas but appear reliably in lawns and landscaped areas after wet spring weather.",
+      },
+    ],
+    localHook:
+      "Amarillo is one of the windiest cities in the contiguous US, and that constant pressure on building envelopes helps scorpions and spiders find the same gaps that drafts do. Pest exclusion and weatherproofing often solve the same problem at the same time here.",
+    intro:
+      "Pest control in Amarillo is shaped by the High Plains environment: dry, open, and subject to sharp seasonal temperature swings. Scorpions and brown recluse spiders are the two pests residents worry about most, and for good reason. Both live year-round on the Panhandle and hide in exactly the kinds of dark gaps that homes provide. Fall is when mice become urgent as the first cold snaps arrive, and the same exclusion visit that seals out mice also reduces scorpion entry points. German cockroaches are an indoor problem that shows up in kitchens and multi-unit buildings. Fire ants are present but less aggressive here than in wetter parts of Texas.",
+    sections: [
+      {
+        heading: "Scorpions and brown recluse: a two-pest challenge",
+        body: "In most US cities, there is one medically significant spider or stinging pest to manage. In Amarillo, there are two simultaneously: striped bark scorpions and brown recluse spiders. Both hide in wall voids, garages, attic insulation, and stored clothing. Both are year-round residents of Potter County homes. The effective strategy addresses them together: perimeter spray, interior void treatments, and physical exclusion of the gaps both species use to move between outdoor habitat and living spaces. Finding either indoors is a signal to inspect the whole building envelope, not just treat the room.",
+      },
+      {
+        heading: "Fall rodent exclusion on the High Plains",
+        body: "Amarillo's fall temperature drops are faster and more pronounced than in most Texas cities. House mice and deer mice respond to the first cold snaps by pressing hard into any available structure. The outdoor rodent population on the open High Plains is sizeable, so the volume attempting entry is significant. A late August or September exclusion visit seals the typical entry points before the seasonal push. Snap trap and exterior bait station programs handle any mice already present before the heating season locks them in.",
+      },
+    ],
+    prevention: [
+      "Check shoes and gloves before putting them on, particularly after any period of storage in garages.",
+      "Seal foundation cracks, utility penetrations, and pipe chases in late August before the fall rodent push.",
+      "Reduce clutter in garages and storage rooms to remove brown recluse hiding sites.",
+      "Treat fire ant mounds in spring before colonies reach full size and begin nuptial flights.",
+    ],
+    costNote:
+      "Most Amarillo homes benefit from a perimeter spray program covering scorpions, spiders, and ants, plus an annual fall rodent exclusion check. German cockroach infestations in multi-unit buildings require targeted gel bait programs rather than general perimeter spray.",
+    faqs: [
+      {
+        question: "Are scorpions dangerous in Amarillo?",
+        answer:
+          "The striped bark scorpion is the species found in the Panhandle. Its sting is painful and can cause a serious reaction in young children or people with allergies. Healthy adults typically experience localized pain and swelling. Medical attention is a sensible precaution for any sting. Sealing entry points and quarterly perimeter treatments reduce the number that get inside.",
+      },
+      {
+        question: "How do I know if I have brown recluse spiders in my home?",
+        answer:
+          "Brown recluses are secretive and rarely seen in the open. The first sign is often finding one inside a shoe, in stored clothing, in a garage box, or on a wall at night. In Amarillo they are genuinely common, so occasional sightings in older homes or homes with storage clutter are expected. A professional inspection assesses the level of activity and identifies the harbourage points.",
+      },
+      {
+        question: "When is the worst time for mice in Amarillo?",
+        answer:
+          "October through March. The High Plains fall is abrupt, and mice start pushing indoors in September and October. Once inside the walls they stay through the heating season. Exclusion sealing in August or September is the most cost-effective approach. After that, snap traps and exterior bait stations manage any mice already present.",
+      },
+      {
+        question: "Does Amarillo have termites?",
+        answer:
+          "Eastern subterranean termites are present in the Texas Panhandle, though they are less active and less common here than in wetter parts of the state. The dry conditions limit colony size and swarm frequency. Annual inspections are still worthwhile for older homes with ground-to-wood contact or any history of moisture problems.",
+      },
+      {
+        question: "Are fire ants a problem in the Texas Panhandle?",
+        answer:
+          "Yes, though less so than in east Texas. Fire ants have spread into the Panhandle over recent decades and now appear in lawns and landscaped areas, especially after wet spring weather. Individual mound treatments work in low-density situations. A broadcast yard treatment makes more sense when multiple mounds appear each season.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Lubbock", slug: "lubbock" },
+      { name: "Canyon", slug: "canyon" },
+      { name: "Borger", slug: "borger" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Amarillo, TX | Scorpions, Brown Recluse & Mice",
+    metaDescription:
+      "Amarillo pest control for striped bark scorpions, brown recluse spiders, house mice, German cockroaches and fire ants. Potter County High Plains specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "frisco",
+    name: "Frisco",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~222,000",
+    county: "Collin County",
+    climate: "hot-humid",
+    climateDriver:
+      "Frisco sits on the Blackland Prairie in Collin County, north of Dallas. The heavy clay soil retains moisture after rain, which is ideal for subterranean termite colonies. Hot, humid summers with warm nights extend the mosquito and fire ant seasons. Rapid suburban expansion in one of the fastest-growing US metros means soil is constantly being disturbed, which creates fresh fire ant and termite opportunities alongside each new development.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "German Cockroaches", "Rats"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through October",
+        note: "Frisco's Blackland Prairie soils and the constant new grading and landscaping from rapid development keep fire ant populations high. New construction repeatedly disturbs existing colonies, spreading satellite mounds across adjacent lots. Collin County extension records fire ants as the top residential ant complaint.",
+      },
+      {
+        name: "Eastern subterranean and Formosan termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round below ground, swarms in spring",
+        note: "The clay-heavy Blackland Prairie soil provides the moisture retention subterranean termite colonies depend on. Formosan termites, which consume wood far faster than native species, are established in Dallas-area counties including Collin County and should be part of any termite inspection in Frisco.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peaks June through September",
+        note: "Collin County ranks among the highest mosquito-pressure areas in the DFW region. Frisco's many retention ponds, greenbelt drainage corridors, and backyard water features create reliable breeding habitat. West Nile virus is tracked in Collin County most summers.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a recurring problem in Frisco apartment complexes, townhomes, and commercial kitchens. They spread between units through shared plumbing chases and reproduce fast enough that a small infestation becomes a large one within two months.",
+      },
+      {
+        name: "Norway rats and roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, push indoors in fall",
+        note: "Both Norway rats and roof rats are documented in the Frisco metro. Norway rats burrow under slabs and near drainage; roof rats enter through soffits and damaged fascia. New construction backing onto preserved greenbelts gives rats a permanent outdoor population adjacent to residential neighborhoods.",
+      },
+    ],
+    localHook:
+      "Frisco added more than 10,000 new residents in a single recent year, and every wave of new construction disturbs the Blackland Prairie clay that subterranean termites depend on. The growth that makes Frisco exciting also keeps pest pressure high.",
+    intro:
+      "Pest control in Frisco moves fast because the city moves fast. New development constantly turns over the Blackland Prairie clay that subterranean termites love. Retention ponds and drainage infrastructure keep mosquito populations high through a long warm season. Fire ants are everywhere lawns exist, and growth in multi-family housing has brought German cockroach pressure into apartments and townhomes. The pest problems here are well-understood and predictable, and a systematic approach handles them well.",
+    sections: [
+      {
+        heading: "Why Blackland Prairie soil and fast growth make Frisco a termite city",
+        body: "The Blackland Prairie soils running through Collin County hold moisture after rain, which is exactly what subterranean termite colonies require. New construction that grades those soils flat, adds irrigation, and then plants landscaping adjacent to foundations creates near-ideal termite conditions. Eastern subterranean termites are present throughout the area, and Formosan termites have established in Dallas-area counties. An annual termite inspection is standard practice for Frisco homeowners, not an optional extra.",
+      },
+      {
+        heading: "Mosquito season in Collin County",
+        body: "Frisco's retention ponds manage stormwater effectively and also provide reliable mosquito breeding habitat from April through October. Greenbelt corridors connecting developments add to the standing-water inventory after rain. Collin County Mosquito Control runs area-wide larvicide treatments, but that program does not reach every yard. A barrier spray program applied monthly to resting vegetation reduces yard populations by 80 to 90 percent through the season.",
+      },
+    ],
+    prevention: [
+      "Keep mulch at least six inches from the foundation slab to reduce termite access and moisture buildup.",
+      "Eliminate standing water in plant trays, children's play equipment, and drainage low points after every rain.",
+      "Treat fire ant mounds promptly after spring rain before colonies spread further across the lawn.",
+      "Inspect soffits, fascia, and attic vents annually to block roof rat entry.",
+    ],
+    costNote:
+      "Most Frisco homeowners combine a quarterly general pest program for ants and cockroaches with a separate annual termite inspection and protection plan. Mosquito barrier spray runs April through October. Combined programs typically cost less than booking separate service calls.",
+    faqs: [
+      {
+        question: "Do Formosan termites actually live in Frisco?",
+        answer:
+          "Yes. Formosan termites have established in Dallas-area counties including Collin County. They form larger colonies than native subterranean species and consume wood faster. A termite inspection in Frisco should specifically check for Formosan activity, not just eastern subterranean termites.",
+      },
+      {
+        question: "Are mosquitoes bad near Frisco retention ponds?",
+        answer:
+          "Collin County consistently records high mosquito pressure, and properties near retention ponds and drainage greenbelts see the most activity. West Nile virus is monitored in Collin County most summers. Monthly barrier spray to yard vegetation, combined with eliminating standing water on the property, provides strong protection through the April to October season.",
+      },
+      {
+        question: "Why do new builds in Frisco get fire ants so fast?",
+        answer:
+          "New grading and soil disturbance breaks up existing fire ant supercolonies, which then form multiple satellite mounds faster than an undisturbed colony would. Freshly installed irrigation creates the moist soil conditions fire ants prefer. Treating mounds as soon as they appear in a new lawn, before the colony reaches full size, is far easier than managing an established infestation.",
+      },
+      {
+        question: "How do I stop German cockroaches from spreading between units in my Frisco townhome?",
+        answer:
+          "German cockroaches travel through wall voids, plumbing chases, and shared electrical conduit between units. A perimeter spray alone does not stop them. Gel bait applied inside cabinets and at void entry points, combined with treating adjacent units, is the effective approach. Treating one unit without addressing the adjoining ones rarely produces lasting results.",
+      },
+      {
+        question: "What is the difference between Norway rats and roof rats in Frisco?",
+        answer:
+          "Norway rats burrow in the ground, nest under slabs and decks, and typically enter homes at ground level through foundation gaps. Roof rats are climbers that nest in attics, enter through soffits and fascia gaps, and prefer fruit, nuts, and bird seed. Both are present in the Frisco area. A technician can confirm which species is present from the entry points, gnaw marks, and droppings.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Plano", slug: "plano" },
+      { name: "McKinney", slug: "mckinney" },
+      { name: "Allen", slug: "allen" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Frisco, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Frisco TX pest control for fire ants, subterranean and Formosan termites, mosquitoes, German cockroaches and rats. Collin County Blackland Prairie specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mcallen",
+    name: "McAllen",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~142,000",
+    county: "Hidalgo County",
+    climate: "hot-humid",
+    climateDriver:
+      "McAllen sits in the Rio Grande Valley at the southern tip of Texas, close to the US-Mexico border. The subtropical climate means temperatures rarely drop below the mid-40sF, and pest populations never fully collapse between seasons. High summer humidity, agricultural irrigation canals throughout the region, and a year-round growing season keep cockroach, scorpion, and mosquito pressure consistently elevated.",
+    topPests: ["American Cockroaches", "Scorpions", "Mosquitoes", "Fire Ants", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, peaks during hot humid summer",
+        note: "American cockroaches (locally called waterbugs) are one of the most common residential pest complaints in the Rio Grande Valley. McAllen's subtropical climate means they remain active year-round, breeding in drainage, mulch, and slab voids. Indoor infestations typically indicate a gap at a utility penetration or drain that needs sealing.",
+      },
+      {
+        name: "Scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Most active April through October",
+        note: "Scorpions are a documented presence in Hidalgo County homes, particularly during summer nights when they hunt and find their way inside through gaps in doors, window frames, and slab cracks. Esparza Pest Control, a McAllen company in business since 1960, lists scorpions among the top pest concerns they address for local homeowners.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peaks June through September",
+        note: "McAllen's location near agricultural irrigation canals and the Rio Grande floodplain creates abundant mosquito breeding habitat. Aedes aegypti, which transmits dengue fever and Zika, is endemic to the Rio Grande Valley and has been linked to locally acquired dengue transmission in the area. Mosquito pressure here is a public health concern, not just a seasonal nuisance.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants thrive in the subtropical RGV climate. Yards, parks, and landscaped areas in McAllen maintain active fire ant colonies year-round, since temperatures rarely drop low enough to suppress them seasonally. They are a direct hazard for children, pets, and anyone spending time outdoors.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms after spring and fall rains",
+        note: "South Texas is in one of the highest termite-pressure zones in the US. Eastern subterranean termites are active year-round in Hidalgo County, and mild winters mean colonies never go fully dormant. Annual inspections and ongoing soil treatment protection are standard practice for McAllen homeowners.",
+      },
+    ],
+    localHook:
+      "McAllen is in one of the few US counties where Aedes aegypti mosquitoes have been linked to locally acquired dengue fever cases. The Rio Grande Valley's subtropical climate makes mosquito control a public health matter here, not just a comfort issue.",
+    intro:
+      "Pest control in McAllen operates in a subtropical climate that is essentially a year-round pest season. The Rio Grande Valley's warmth, humidity, and agricultural irrigation keep cockroach, mosquito, scorpion, and fire ant populations active even in winter. Termite pressure is also high, with one of the most active subterranean termite zones in the US running through Hidalgo County. Each of these pests requires a different treatment approach.",
+    sections: [
+      {
+        heading: "Why the Rio Grande Valley is a year-round pest zone",
+        body: "Most US cities get a pest break in winter when temperatures drop and breeding slows. McAllen does not. Average January lows here are in the low 50sF, which is not cold enough to suppress cockroach, fire ant, or mosquito populations. Agricultural irrigation canals that grid the valley maintain standing water throughout the year. Combined with subtropical humidity, this creates a pest environment that requires consistent ongoing treatment rather than the spring-to-fall programs that work in cooler climates.",
+      },
+      {
+        heading: "Mosquitoes in the Rio Grande Valley: beyond the nuisance",
+        body: "Aedes aegypti mosquitoes transmit dengue fever, Zika, and chikungunya. They are endemic to the lower Rio Grande Valley and are a daytime biter, unlike the Culex species responsible for West Nile virus. They breed in small containers: flower pots, uncovered rain barrels, and bird baths hold enough water for a full breeding cycle. Eliminating standing water on the property and applying a barrier spray to resting vegetation from late spring through fall is the most practical protection for McAllen homeowners.",
+      },
+    ],
+    prevention: [
+      "Remove all standing water, including container water, bird baths, and clogged gutters, to reduce Aedes mosquito breeding.",
+      "Seal door sweeps, window screen gaps, and slab penetrations to block American cockroach and scorpion entry.",
+      "Schedule an annual termite inspection given the high subterranean termite pressure in Hidalgo County.",
+      "Treat fire ant mounds as they appear to prevent colonies from expanding into adjacent yard areas.",
+    ],
+    costNote:
+      "Year-round pest programs make practical sense in McAllen because pest pressure does not pause in winter. Monthly or bi-monthly general pest programs covering roaches, ants, and scorpions, with a separate mosquito program from spring through fall, provide the most consistent protection for this subtropical climate.",
+    faqs: [
+      {
+        question: "Are dengue fever mosquitoes actually in McAllen?",
+        answer:
+          "Yes. Aedes aegypti, the primary vector for dengue, Zika, and chikungunya, is endemic to the Rio Grande Valley. Locally acquired dengue cases have been documented in Texas border communities. Eliminating standing water in and around the property removes the breeding sites for this daytime-biting species.",
+      },
+      {
+        question: "How do cockroaches get into McAllen homes?",
+        answer:
+          "American cockroaches, the large species most common here, typically enter through plumbing penetrations, gaps under doors, and utility chases in the slab. They breed in mulch beds, drainage, and slab voids and push inside through any gap they find. Sealing those entry points is the most effective step in any McAllen cockroach program.",
+      },
+      {
+        question: "Are scorpions dangerous in the Rio Grande Valley?",
+        answer:
+          "The striped bark scorpion is the most likely species in McAllen. Its sting causes significant pain but is rarely life-threatening to healthy adults. Medical attention is sensible for any sting on a child, elderly person, or someone with underlying health conditions. Perimeter spray and gap sealing reduce the frequency of indoor encounters.",
+      },
+      {
+        question: "Is year-round termite protection necessary in McAllen?",
+        answer:
+          "Yes. Hidalgo County is in one of the highest subterranean termite risk zones in the US. Colonies remain active year-round given the mild winters. Liquid soil treatment around the foundation, renewed on schedule, is standard practice for McAllen homeowners and is much less expensive than the structural repairs an undetected infestation eventually causes.",
+      },
+      {
+        question: "What should I do if fire ants are near my children's play area?",
+        answer:
+          "Treat the specific mound immediately with a mound bait or contact granule labeled for fire ants, then apply a broadcast yard treatment to address satellite colonies without visible mounds. Fire ants in the RGV are active year-round and re-infest treated areas faster than in cooler climates, so follow-up treatments are usually needed within one to two months.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Edinburg", slug: "edinburg" },
+      { name: "Mission", slug: "mission" },
+      { name: "Pharr", slug: "pharr" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in McAllen, TX | Cockroaches, Scorpions & Mosquitoes",
+    metaDescription:
+      "McAllen pest control for American cockroaches, scorpions, Aedes mosquitoes, fire ants and subterranean termites. Hidalgo County Rio Grande Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "killeen",
+    name: "Killeen",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~153,000",
+    county: "Bell County",
+    climate: "hot-humid",
+    climateDriver:
+      "Killeen sits in Bell County in Central Texas, at the southern edge of the Blackland Prairie near Fort Cavazos. Hot, humid summers and mild winters give fire ants and subterranean termites a long active season. The proximity of dense residential development to open rural terrain around the military installation creates persistent rodent and ant pressure along the development edges, and the area's ongoing growth continuously disturbs soil.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Scorpions", "German Cockroaches", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through November",
+        note: "Fire ants are the top outdoor pest complaint in Bell County. Killeen's clay soils and the frequent soil disturbance from ongoing development and military installation maintenance keep fire ant populations consistently high. Mounds appear across lawns and athletic fields and become most aggressive during the late-summer heat.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms in spring",
+        note: "Killeen falls within the high termite pressure zone for Central Texas. Blackland Prairie clay soils retain the moisture that subterranean termite colonies depend on. The large number of slab-on-grade homes in the area creates conditions where termites work along soil-to-concrete interfaces and reach the wood framing above.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "April through October, most active at night",
+        note: "Scorpions are a consistent presence in Central Texas and turn up regularly in Killeen homes, particularly near the limestone outcroppings and brushy land surrounding the city. They enter through weep holes, door gaps, and utility penetrations and are most often found in bathrooms, garages, and on walls after dark.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the primary indoor roach pest in Killeen apartments and military-adjacent housing. They breed rapidly in kitchen and bathroom environments and spread through shared plumbing chases in multi-unit buildings. Targeted gel bait programs are required; standard perimeter spray does not adequately address established infestations.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peaks in summer",
+        note: "Bell County's creek corridors and the retention infrastructure around the Killeen metro keep mosquito pressure consistent from late spring through fall. West Nile virus is monitored in Bell County most years.",
+      },
+    ],
+    localHook:
+      "Killeen is one of the fastest-growing mid-size cities in Texas, driven by Fort Cavazos, the largest active military installation in the US by land area. The constant construction and population turnover that come with that growth create persistent fire ant and pest pressure in new and established neighborhoods alike.",
+    intro:
+      "Pest control in Killeen covers familiar Central Texas ground: fire ants in the lawn, subterranean termites in the slab zone, and scorpions in the walls. What sets Killeen apart is the scale of new development tied to Fort Cavazos, which continually disturbs soil and brings fresh fire ant and rodent activity to established neighborhood edges. German cockroach pressure in multi-family housing is high, and the high rate of household moves around the military installation means pest problems left by one tenant become the next tenant's problem. Mosquitoes run from March through October.",
+    sections: [
+      {
+        heading: "How development near Fort Cavazos drives pest pressure",
+        body: "Fort Cavazos, the largest active US military installation by land area, sits just northwest of Killeen and drives constant construction and population growth. New grading repeatedly disturbs fire ant supercolonies, spreading satellite mounds across adjacent residential properties. The rate of household turnover in military communities also means pest infestations in multi-family housing are common: problems left by one tenant become the next tenant's problem if the building is not treated between occupancies.",
+      },
+      {
+        heading: "Termite risk in Central Texas slab construction",
+        body: "Most Killeen homes are slab-on-grade, the standard for Central Texas construction. Subterranean termites work along the soil-concrete interface, find gaps at pipe penetrations and construction joints, and move into the wooden framing above. Pre-treat chemical barriers applied during construction degrade over time. Annual inspections confirm protection status, and liquid soil reapplication renews it when needed. The Blackland Prairie soils of Bell County sustain large, active termite colonies close to most foundations.",
+      },
+    ],
+    prevention: [
+      "Treat fire ant mounds in spring before they reach full size and before nuptial flights spread new queens.",
+      "Seal weep holes and exterior gaps with wire mesh to block scorpion entry without blocking drainage.",
+      "Schedule an annual termite inspection, particularly for homes more than five years old where pre-treat barriers may have degraded.",
+      "Empty standing water from gutters, plant trays, and low-lying yard areas after rain to reduce mosquito breeding.",
+    ],
+    costNote:
+      "A quarterly general pest program covering ants, roaches, and scorpions, plus a separate annual termite inspection and treatment plan, covers the main risks for most Killeen properties. Mosquito barrier spray added from March through October provides significant reduction in yard and patio pressure.",
+    faqs: [
+      {
+        question: "Why do scorpions keep appearing in my Killeen home?",
+        answer:
+          "Scorpions in Central Texas are largely sourced from the brushy limestone terrain surrounding the city. They follow moisture and prey into structures through weep holes and gaps that are easy to miss. A perimeter spray slows new arrivals, but exclusion work on the foundation and utility gaps is what produces lasting results.",
+      },
+      {
+        question: "How serious is the termite risk for Killeen slab homes?",
+        answer:
+          "Bell County is within the high termite risk zone for Texas. Slab-on-grade homes are not immune: termites find the gaps at pipe penetrations and construction joints and enter the wood framing above. Annual inspections and maintaining an active soil treatment barrier around the foundation are the standard protection measures.",
+      },
+      {
+        question: "What pest problems are most common in Killeen military housing?",
+        answer:
+          "German cockroaches are the most common pest complaint in multi-family military housing in the Killeen area. They spread through shared plumbing chases and breed rapidly. Perimeter spray alone does not control them; gel bait programs applied inside cabinets and at void access points are effective. Bed bugs are a secondary concern given the high rate of household moves in and out of the area.",
+      },
+      {
+        question: "Are rattlesnakes a concern near Killeen?",
+        answer:
+          "Western diamondback rattlesnakes are native to Bell County and occasionally turn up on properties backing onto brushy terrain, particularly after heavy rain pushes them out of cover. Wildlife removal services handle snake calls. Keeping grass mowed short, stacking firewood away from the house, and reducing the outdoor rodent population that snakes feed on all reduce the chance of an encounter.",
+      },
+      {
+        question: "When is fire ant season in Bell County?",
+        answer:
+          "Fire ants are active year-round in Central Texas, but mound building and colony expansion peak in spring and early fall. Treating mounds in late winter before nuptial flights spread new queens is the most cost-effective timing. Broadcasting yard granules in spring covers new colonies before they become visible as surface mounds.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Temple", slug: "temple" },
+      { name: "Waco", slug: "waco" },
+      { name: "Harker Heights", slug: "harker-heights" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Killeen, TX | Fire Ants, Termites & Scorpions",
+    metaDescription:
+      "Killeen pest control for fire ants, subterranean termites, bark scorpions, German cockroaches and mosquitoes. Bell County Fort Cavazos area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mesquite",
+    name: "Mesquite",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~141,000",
+    county: "Dallas County",
+    climate: "hot-humid",
+    climateDriver:
+      "Mesquite is a dense Dallas suburb in eastern Dallas County, where the urban heat island effect from the DFW Metroplex amplifies the hot humid summer climate. The combination of established residential neighborhoods, commercial corridors, drainage channels, and the Trinity River watershed creates year-round pressure from fire ants, cockroaches, termites, and rats.",
+    topPests: ["German Cockroaches", "Fire Ants", "Subterranean Termites", "Norway Rats", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor pest in Mesquite's older apartment complexes and commercial kitchens. They breed in wall voids and cabinet spaces and establish rapidly in buildings where treatment has lapsed. The density of Mesquite's residential and commercial development means cockroach activity in one property can quickly spread to adjacent ones.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible after spring rain",
+        note: "Fire ants are endemic across Dallas County and maintain active colonies in Mesquite lawns, parks, and parking lot landscaping year-round. The hot humid summer climate keeps them active even in dry spells.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round underground, swarms in spring",
+        note: "Eastern subterranean termites are well-established throughout Dallas County and are a consistent risk for Mesquite's large stock of 1960s through 1990s slab-on-grade homes. Many of these properties have not been professionally inspected in years, and infestations can progress unnoticed until structural damage becomes visible.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, push indoors October through February",
+        note: "Norway rats follow the drainage channels and creek systems running through Mesquite toward the Trinity watershed. They burrow near structures, enter through ground-level foundation gaps, and contaminate food storage. Commercial areas with dumpster access are particularly prone to Norway rat activity.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Mesquite's drainage corridors and low-lying areas near Lawson Road Lake and other retention features create consistent mosquito habitat. Dallas County Health and Human Services monitors West Nile virus through mosquito trap results in the area each summer.",
+      },
+    ],
+    localHook:
+      "Mesquite's housing stock includes thousands of slab-on-grade homes from the 1960s through the 1990s that have never had a professional termite inspection. Eastern subterranean termites work slowly and quietly, and the first visible damage often appears only after years of undetected feeding.",
+    intro:
+      "Mesquite is a well-established Dallas suburb where pest pressure runs predictably through the calendar. German cockroaches are the main indoor pest in older apartments and commercial kitchens. Fire ants are everywhere lawns exist. Subterranean termites represent a long-term structural risk in the older housing stock. Norway rats follow the creek drainages and concentrate near commercial areas and dumpster runs. Mosquitoes peak from June through September. None of these are exotic problems, but they all respond to the right tool, not a general spray applied to everything.",
+    sections: [
+      {
+        heading: "Older housing stock and termite exposure in Mesquite",
+        body: "A large portion of Mesquite's residential inventory was built between 1960 and 1995. Pre-treat chemical barriers applied at construction degrade over time, and many of these properties have had gaps in their termite protection program. Eastern subterranean termites are active throughout Dallas County, and homes with ground-to-wood contact, moisture issues, or compromised protection are at measurable risk. An inspection that includes probing the slab perimeter, checking the garage and utility areas, and looking for mud tubes at the foundation is a practical first step for any Mesquite homeowner who cannot confirm when the property was last treated.",
+      },
+      {
+        heading: "Why drainage channels drive rat pressure in Mesquite",
+        body: "The stormwater drainage network running through Mesquite creates ideal Norway rat habitat: underground corridors near food sources, vegetation cover, and ready access to residential areas. Rats move along these channels and establish burrows near structures that offer food and shelter. Exterior bait stations placed along the foundation perimeter and near dumpster areas provide ongoing population control. Interior snap traps handle any rats that have already entered the structure.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection if the property has not been professionally inspected in the past three years.",
+      "Keep dumpsters and trash storage areas clean and use locking lids to reduce Norway rat food access.",
+      "Seal ground-level gaps around pipe chases, utility entries, and the garage door threshold.",
+      "Eliminate standing water in gutters and drainage low points to reduce mosquito breeding near the structure.",
+    ],
+    costNote:
+      "A quarterly general pest program covers fire ants, cockroaches, and perimeter pests for most Mesquite homes. Termite protection is a separate annual contract worth considering given the age of most properties in the area. Rodent management near commercial zones may need exterior bait stations on a monthly service schedule.",
+    faqs: [
+      {
+        question: "How do I know if my Mesquite home has termites?",
+        answer:
+          "The most visible sign of subterranean termite activity is mud tubes running up the exterior foundation or interior concrete block. Hollow-sounding or blistering wood flooring is another indicator. Winged swarmers appearing inside in spring are a direct sign. A professional inspection probes the slab perimeter and checks typical entry areas and will find activity well before the damage becomes obvious from outside.",
+      },
+      {
+        question: "Are German cockroaches in an apartment the tenant's problem or the landlord's?",
+        answer:
+          "Texas law requires landlords to maintain habitable conditions, and German cockroach infestations generally fall under that obligation when they are not caused by the tenant's own conditions. In multi-unit buildings, treating one unit without coordinating adjacent units rarely solves the problem long-term. A building-wide gel bait program is more effective than spot-spraying individual units.",
+      },
+      {
+        question: "What is the best way to control fire ants in a Mesquite lawn?",
+        answer:
+          "A two-step approach works best: broadcast a slow-acting fire ant bait across the entire lawn in spring to reach foragers from satellite colonies you cannot see, then treat individual mounds as they appear with a contact product. The broadcast bait takes two to four weeks to work but significantly reduces the overall colony load. Spot-treating only visible mounds misses the satellite colonies.",
+      },
+      {
+        question: "Do Norway rats in Mesquite drainage areas carry diseases?",
+        answer:
+          "Norway rats can carry leptospirosis, hantavirus, and salmonella, though direct human infection in an urban US setting is relatively uncommon. The main risks in Mesquite are food contamination in homes and commercial kitchens, structural gnawing damage, and the secondary tick and flea populations that rats carry. Controlling the exterior rodent population near drainage infrastructure reduces all of those secondary risks.",
+      },
+      {
+        question: "When is West Nile virus season in Mesquite?",
+        answer:
+          "Dallas County records West Nile virus in mosquito traps most summers from July through September. The risk is highest near drainage corridors and retention areas in and around Mesquite. Eliminating standing water on the property, using repellent with DEET or picaridin during peak evening hours, and applying a barrier spray to yard vegetation from April through October provides practical protection.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Dallas", slug: "dallas" },
+      { name: "Garland", slug: "garland" },
+      { name: "Balch Springs", slug: "balch-springs" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Mesquite, TX | German Cockroaches, Termites & Rats",
+    metaDescription:
+      "Mesquite pest control for German cockroaches, fire ants, subterranean termites, Norway rats and mosquitoes. Dallas County eastern suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

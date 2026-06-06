@@ -452,4 +452,216 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Savannah pest control for Formosan and subterranean termites, mosquitoes, American cockroaches, fire ants and German cockroaches. Chatham County Zone 1 termite risk specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "macon",
+    name: "Macon",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T2",
+    population: "~160,000",
+    county: "Bibb County",
+    climate: "hot-humid",
+    climateDriver:
+      "Macon sits in Central Georgia's Piedmont region, where the warm humid subtropical climate sustains fire ant, termite, cockroach, and mosquito populations across most of the year. The Ocmulgee River corridor and the city's historic tree canopy provide standing water and organic harborage that keep multiple pest species active from early spring through late fall.",
+    topPests: ["Fire Ants", "Subterranean Termites", "German Cockroaches", "Mosquitoes", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through November",
+        note: "Fire ants are the dominant outdoor pest complaint in Bibb County. Macon's warm humid climate keeps colony activity high for most of the year, with mound building most visible after spring and fall rains. They are a hazard in yards, parks, and schoolgrounds throughout the city.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms in spring",
+        note: "Macon's older housing stock, much of it built before modern pre-treat requirements, carries significant subterranean termite exposure. The humid Central Georgia climate sustains large, active termite colonies, and annual swarms on warm spring days are a reliable signal that the local population is well-established. TruNorth Pest Control identifies termites as the most expensive pest risk for Macon homeowners.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the primary indoor roach pest in Macon's multi-family housing and commercial kitchens. They breed in kitchen and bathroom environments and spread rapidly through shared plumbing in older buildings. The year-round warm climate in Central Georgia means there is no seasonal break in German cockroach activity.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peaks June through September",
+        note: "The Ocmulgee River floodplain and the many creeks and drainage corridors in Bibb County create extensive mosquito breeding habitat. Macon's hot summers and high humidity keep the season long. Aedes mosquitoes are present in Central Georgia.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most likely to enter structures in hot weather",
+        note: "American cockroaches (palmetto bugs) are common in Macon's older residential areas, where they breed in sewer systems, mulch beds, and slab voids and push inside during hot, dry stretches of summer. They are large, fast-moving, and alarming to encounter indoors.",
+      },
+    ],
+    localHook:
+      "Macon is in the heart of Georgia's peach country, and the region's agricultural heritage means the pest environment here is genuinely rich. Bibb County has one of the higher fire ant complaint rates in Central Georgia, and every yard in the suburban neighborhoods will likely host at least one active subterranean termite colony.",
+    intro:
+      "Pest control in Macon is a year-round job in a warm, humid climate that gives pests very little time off. Fire ants are active in every lawn from March through November. Subterranean termites represent a serious and often overlooked structural risk in the city's older housing stock. German cockroaches are the main indoor pest in apartments and older homes. Mosquitoes peak in summer along the Ocmulgee corridor. American cockroaches push indoors in the summer heat.",
+    sections: [
+      {
+        heading: "Fire ants and termites: the two outdoor structural threats",
+        body: "Fire ants and subterranean termites are both soil-based pests that cause direct economic harm in Macon. Fire ants damage turf, create mounding hazards in open lawn areas, and pose a real risk to children, pets, and anyone who disturbs a mound. Subterranean termites work silently below the surface, accessing wooden framing through the foundation and often going unnoticed until structural damage is visible. Both pests are endemic across Bibb County, and both need annual management rather than one-time treatment. A spring fire ant broadcast combined with an annual termite inspection covers the two most costly risks for most Macon properties.",
+      },
+      {
+        heading: "Why older Macon housing is at particular termite risk",
+        body: "Macon's historic neighborhoods, including many homes in Wesleyan Drive, Vineville, and the historic districts, include properties built well before modern construction practices required pre-treat chemical barriers. Those older foundations, many with brick pier construction or wood in contact with soil, are at elevated subterranean termite risk. An inspection that includes checking the foundation perimeter, crawl space or slab interface, and garage and utility areas is the appropriate starting point for any older Macon property that cannot confirm recent professional treatment.",
+      },
+    ],
+    prevention: [
+      "Treat fire ant mounds in spring and fall with a broadcast bait to reduce whole-lawn colony density.",
+      "Schedule an annual termite inspection for all properties, particularly those in the historic neighborhoods with older foundations.",
+      "Seal plumbing penetrations and door gaps to block American cockroach entry from outside.",
+      "Eliminate standing water in the yard and gutters after rain to reduce mosquito breeding near the structure.",
+    ],
+    costNote:
+      "A quarterly general pest program covering fire ants, cockroaches, and perimeter pests, plus a separate annual termite inspection and protection plan, covers the main risks for most Macon properties. Mosquito barrier spray from March through October is worth adding for properties near the Ocmulgee corridor.",
+    faqs: [
+      {
+        question: "How serious is the termite risk for older Macon homes?",
+        answer:
+          "Very serious. Bibb County is in the high termite risk zone for Georgia, and older homes with no current protection plan are at meaningful risk. Subterranean termites are present in virtually every yard in the suburban neighborhoods. An annual inspection is the minimum protection; an ongoing soil treatment barrier is the standard for properties with known risk.",
+      },
+      {
+        question: "Are fire ants dangerous to people in Macon?",
+        answer:
+          "Fire ants sting repeatedly and inject venom that causes a burning sensation and, in some cases, a serious allergic reaction called anaphylaxis. Healthy adults experience the characteristic white pustule that forms 24 hours after a sting. Children, the elderly, and people with known venom allergies face a greater risk of severe reaction. Anyone stung by a large number of ants should seek medical attention.",
+      },
+      {
+        question: "What is the difference between German cockroaches and American cockroaches in Macon?",
+        answer:
+          "German cockroaches are small (about half an inch), light brown, indoor species that breed in kitchens and bathrooms and almost never enter from outside. American cockroaches (palmetto bugs) are large (up to two inches), reddish-brown, and primarily outdoor insects that enter structures through drainage and exterior gaps during hot weather. Each requires a different treatment approach: gel bait indoors for German cockroaches, perimeter spray and entry point exclusion for American cockroaches.",
+      },
+      {
+        question: "When is mosquito season in Macon?",
+        answer:
+          "Mosquitoes are active from early March through late October in Central Georgia. Peak pressure runs from June through September when temperatures and humidity are highest. The Ocmulgee River floodplain and local drainage corridors create consistent breeding habitat. Yard-level barrier spray to resting vegetation from March through October provides practical protection through the season.",
+      },
+      {
+        question: "Are there termite swarms in Macon?",
+        answer:
+          "Yes. Eastern subterranean termites typically swarm in Bibb County on warm, still days in spring, often following rain. The winged swarmers emerge in large numbers and are frequently mistaken for flying ants. If you see swarmers inside the house, that is a direct sign that a colony is active within or immediately adjacent to the structure and an inspection should be scheduled without delay.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Warner Robins", slug: "warner-robins" },
+      { name: "Perry", slug: "perry" },
+      { name: "Gray", slug: "gray" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Macon, GA | Fire Ants, Termites & Cockroaches",
+    metaDescription:
+      "Macon pest control for fire ants, subterranean termites, German cockroaches, mosquitoes and American cockroaches. Bibb County Central Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "sandy-springs",
+    name: "Sandy Springs",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T2",
+    population: "~108,000",
+    county: "Fulton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Sandy Springs is an affluent Atlanta suburb in northern Fulton County, bordered by the Chattahoochee River to the west. The hot humid Atlanta climate drives fire ant, termite, and mosquito pressure that matches the rest of the metro, but the Chattahoochee River National Recreation Area corridor and the wooded residential lots that make Sandy Springs attractive also sustain higher wildlife pest pressure, including rats and stink bugs, than the more densely developed inner suburbs.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "Norway Rats", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through November",
+        note: "Fire ants are endemic throughout the Atlanta metro and are consistently active in Sandy Springs lawns and landscape beds. The large wooded lot sizes common in the area provide extensive territory for colony establishment, and new mounds appear rapidly after spring and fall rains.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms in spring",
+        note: "Sandy Springs is in Fulton County, which falls within the high termite risk zone for Georgia. The older homes in the Hammond Drive and Powers Ferry Road corridors, some dating to the 1950s, carry significant unprotected termite exposure. Annual inspections and an active soil treatment program are standard for the area.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Chattahoochee River corridor, the numerous creek drainages, and the wooded lot retention ponds throughout Sandy Springs create reliable mosquito breeding habitat. The National Recreation Area trails are known for mosquito pressure in June and July.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, push indoors in fall",
+        note: "Norway rats are documented in Sandy Springs, particularly along the Chattahoochee River corridor and in the older commercial areas along Roswell Road. Large wooded lot homes with mulched landscape beds and composting provide significant outdoor harborage that sustains rat populations adjacent to structures.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate September through October, overwintering in structures",
+        note: "Stink bugs have established across the Atlanta metro including Sandy Springs. They aggregate on south-facing walls and exterior surfaces in September and October and push into wall voids and attic spaces to overwinter. When interior temperatures warm them in late winter, they emerge through cracks and light fixtures inside the home.",
+      },
+    ],
+    localHook:
+      "Sandy Springs is bordered by the Chattahoochee River National Recreation Area, which brings significant natural habitat directly to the edge of affluent residential neighborhoods. That corridor is both a desirable feature and a vector for mosquitoes, rats, and wildlife that most Atlanta suburbs further from the river do not experience at the same level.",
+    intro:
+      "Pest control in Sandy Springs manages the standard Atlanta metro pest calendar, plus the additional pressure that comes from the Chattahoochee River corridor. Fire ants and subterranean termites are the two most economically significant pests, as in the rest of the Atlanta area. Mosquitoes are more intense here than in drier parts of the metro because of the river and creek system. Norway rats and stink bugs are present in numbers that reflect the heavily wooded character of the area.",
+    sections: [
+      {
+        heading: "Termites in Sandy Springs older housing",
+        body: "Sandy Springs was developed primarily from the 1950s through the 1980s, and a significant share of that housing stock has had interruptions or gaps in termite protection programs over the decades. Eastern subterranean termites are present year-round throughout Fulton County, and homes without an active soil barrier are at ongoing risk. An inspection for older homes that cannot confirm recent professional treatment is a practical starting point. Liquid soil treatment renews protection; baiting systems provide ongoing monitoring.",
+      },
+      {
+        heading: "Mosquitoes along the Chattahoochee corridor",
+        body: "The Chattahoochee River and the network of creeks that feed it from Sandy Springs' residential areas create consistent mosquito breeding habitat that the rest of the Atlanta metro does not share to the same degree. Properties on the west side of Sandy Springs, particularly those backing onto the National Recreation Area, see heavier mosquito pressure from May through September. Monthly barrier spray to yard vegetation from April through October provides sustained protection.",
+      },
+    ],
+    prevention: [
+      "Broadcast a spring fire ant bait treatment across the full lawn before nuptial flights in April.",
+      "Schedule an annual termite inspection given Sandy Springs' position in Georgia's high termite risk zone.",
+      "Eliminate standing water in clogged gutters, retention pond edges, and low landscape areas to reduce mosquito breeding.",
+      "Seal attic vents and wall gaps before September to block stink bug overwintering entry.",
+    ],
+    costNote:
+      "A quarterly general pest program covering ants, spiders, and perimeter pests, plus a separate annual termite inspection and soil treatment, covers the main risks for most Sandy Springs properties. Mosquito barrier spray from April through October is particularly worthwhile for properties near the Chattahoochee corridor.",
+    faqs: [
+      {
+        question: "Are stink bugs a serious problem in Sandy Springs?",
+        answer:
+          "They are a nuisance rather than a structural or health threat. The main issue is the sheer number that accumulate in wall voids and attic spaces when they overwinter, and then emerge indoors in late winter. They do not damage structures or reproduce indoors. Sealing attic vents and exterior gaps before their September aggregation period is the effective prevention. Crushing or disturbing live stink bugs releases their defensive odor, so vacuum removal is preferable to direct contact.",
+      },
+      {
+        question: "How do I know if my Sandy Springs home has subterranean termites?",
+        answer:
+          "Look for mud tubes running up the exterior foundation, in the crawl space if your home has one, or on interior concrete block walls. Hollow-sounding or blistering wood flooring is another indicator. Winged swarmers appearing inside in spring are a direct sign of an active colony. A professional inspection probes the slab perimeter and checks typical entry areas.",
+      },
+      {
+        question: "Are Norway rats common in Sandy Springs wooded lots?",
+        answer:
+          "Yes, particularly along the Chattahoochee corridor and in properties with heavy mulch, compost bins, and fruit trees. Norway rats burrow under foundations and enter through ground-level gaps. Exterior bait stations combined with exclusion of foundation gaps provide ongoing control. Reducing mulch depth against the foundation and securing compost bins removes the primary outdoor food and harborage.",
+      },
+      {
+        question: "When is fire ant season in Sandy Springs?",
+        answer:
+          "Fire ants are active year-round in the Atlanta metro, but colony expansion and mound building peak in spring (March through May) and fall (September through October). Treating mounds in late February or early March, before nuptial flights spread new queens, is the most cost-effective timing. A full broadcast treatment covers the entire lawn population rather than just the visible mounds.",
+      },
+      {
+        question: "Is the Chattahoochee River a significant mosquito source for Sandy Springs properties?",
+        answer:
+          "Yes, for properties on the west side of Sandy Springs adjacent to the river and its tributary creeks. Shallow, slow-moving water in creek edges and flood plain low spots creates ideal mosquito breeding habitat. Monthly barrier spray applied to resting vegetation provides strong protection from April through October for properties in those areas.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Roswell", slug: "roswell" },
+      { name: "Dunwoody", slug: "dunwoody" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Sandy Springs, GA | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Sandy Springs pest control for fire ants, subterranean termites, mosquitoes, Norway rats and stink bugs. Fulton County Chattahoochee corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

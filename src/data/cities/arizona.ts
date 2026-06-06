@@ -983,4 +983,110 @@ export const arizonaCities: CityLocation[] = [
     metaDescription:
       "Peoria pest control for bark scorpions, pack rats, American cockroaches, black widow spiders and desert subterranean termites. Maricopa County northwest Valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "surprise",
+    name: "Surprise",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T2",
+    population: "~144,000",
+    county: "Maricopa County",
+    climate: "desert",
+    climateDriver:
+      "Surprise occupies the far northwest corner of the Phoenix metro in Maricopa County, where the Sonoran Desert transitions from suburban development to open desert and White Tank Mountain Regional Park to the west. The hot desert climate sustains year-round bark scorpion and black widow activity, and the desert edge adjacent to undeveloped land drives pack rat and snake pressure into the western neighborhoods. Summer monsoon rains spike cockroach and termite activity.",
+    topPests: ["Bark Scorpions", "Black Widow Spiders", "Pack Rats", "Desert Subterranean Termites", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "The Arizona bark scorpion is the most venomous scorpion in North America and is the primary scorpion species in the Surprise area. Surprise's position at the desert edge means the source population is consistently large. They hide in any gap, crack, or void and are a year-round indoor risk in the west Valley.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Black widows are common in Surprise, nesting in block walls, under outdoor furniture, in utility enclosures, and in garages. The desert edge community provides a constant source population that replenishes treated areas. They are found year-round in the Phoenix metro.",
+      },
+      {
+        name: "Pack rats (woodrats)",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, most active fall and winter",
+        note: "Pack rats are a significant pest in the western Surprise neighborhoods adjacent to White Tank Mountain Regional Park and the open desert. They build large stick nests in cacti, brush, and any outdoor structure, and they chew through vehicle wiring with surprising speed. The cactus chollas adjacent to new development provide ideal pack rat habitat.",
+      },
+      {
+        name: "Desert subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms after summer monsoon",
+        note: "Desert subterranean termites are active throughout the Phoenix metro, including Surprise. They swarm aggressively after the first monsoon rains in June and July. The monsoon moisture activates colonies and drives swarming, making summer the peak risk window for new termite infestations in Surprise.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surges after monsoon rains",
+        note: "American cockroaches breed in the drainage and sewer infrastructure beneath Surprise and push into homes after monsoon rains flood their outdoor breeding sites. The summer monsoon season triggers significant cockroach entry events in homes throughout the northwest Valley.",
+      },
+    ],
+    localHook:
+      "Surprise grew from fewer than 10,000 residents in 1990 to over 140,000 today, one of the fastest growth rates of any city in the US. That rapid expansion pushed development directly into the Sonoran Desert, creating a scorpion and pack rat interface that older Phoenix suburbs further from the desert edge do not experience at the same intensity.",
+    intro:
+      "Pest control in Surprise is defined by the desert edge. Bark scorpions are the most medically significant pest and the top concern for families with young children. Black widows are present year-round. Pack rats from the adjacent open desert are a destructive nuisance for vehicles and outdoor structures. Desert subterranean termites surge after monsoon rains in summer. American cockroaches push indoors after those same rains. Surprise's rapid growth into the Sonoran Desert means these challenges are sharper here than in more established parts of the Phoenix metro.",
+    sections: [
+      {
+        heading: "Bark scorpions at the desert edge",
+        body: "Surprise's position adjacent to White Tank Mountain Regional Park and the open Sonoran Desert means that bark scorpion populations in the western neighborhoods are sourced directly from undisturbed desert habitat. Unlike the eastern Phoenix suburbs where scorpion pressure has diminished as the urban footprint matured, newer western Surprise developments are still at the maximum interface with wild scorpion populations. Perimeter spray, targeted void and attic treatments, and physical exclusion of gaps around utility penetrations and weep holes are all part of an effective scorpion program in this part of the Valley.",
+      },
+      {
+        heading: "Pack rats and vehicle damage in Surprise",
+        body: "Pack rats (Neotoma species, also called woodrats) are a uniquely disruptive pest in the western Phoenix metro. They are attracted to vehicles parked near desert vegetation and are known to chew through wiring harnesses, hoses, and insulation in engine compartments for nesting material. The chollas and palo verde trees bordering the western Surprise neighborhoods are prime pack rat habitat. Parking garages with enclosed walls and sealed doors provide significant protection; open carports in direct proximity to desert vegetation are highest risk. Exclusion from the garage and removal of pack rat nests from cacti and brush near the property address the source.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes with wire mesh and fill foundation gaps to block bark scorpion entry without blocking drainage.",
+      "Park vehicles in an enclosed garage rather than open carports adjacent to desert vegetation to reduce pack rat wiring damage.",
+      "Clear cactus, brush, and debris piles adjacent to the foundation to remove pack rat nest sites.",
+      "Seal slab penetrations and door thresholds before the June to July monsoon to reduce American cockroach entry.",
+    ],
+    costNote:
+      "Most Surprise homes benefit from a monthly perimeter spray program for scorpions and spiders, which is more intensive than the quarterly programs used in the eastern Valley, reflecting the higher desert-edge source population. Pack rat exclusion and nest removal is typically a one-time or annual service. Termite inspection annually after monsoon season is appropriate.",
+    faqs: [
+      {
+        question: "Are bark scorpion stings dangerous in Surprise?",
+        answer:
+          "The Arizona bark scorpion is the most venomous scorpion in North America. Its sting can cause severe pain, numbness, and in children or sensitive adults, more serious neurological symptoms that may require medical treatment. Any sting on a young child, elderly person, or someone with health conditions should receive medical evaluation promptly. For healthy adults, the sting is extremely painful but rarely life-threatening. Monthly perimeter treatment and exclusion work significantly reduce indoor encounters.",
+      },
+      {
+        question: "How do I protect my vehicle from pack rat damage in Surprise?",
+        answer:
+          "The most reliable protection is parking in an enclosed garage with no entry gaps at ground level. Wire mesh or hardware cloth placed around the underside of parked vehicles (available as commercial deterrent products) provides a physical barrier for open carports. Removing pack rat nests from cacti and brush near the parking area reduces the local population. Peppermint oil-based repellents have mixed effectiveness. If rats have already nested in a vehicle engine compartment, a pest control company can remove the nest and identify the likely entry point.",
+      },
+      {
+        question: "Do I need termite protection in Surprise?",
+        answer:
+          "Yes. Desert subterranean termites are active throughout the Phoenix metro including Surprise. They swarm after the first monsoon rains and are most likely to be found on or near foundations in summer. Annual inspections after the monsoon season are appropriate for all Surprise homes. Pre-treat barriers applied during construction degrade over time, so older homes may need renewal.",
+      },
+      {
+        question: "Why do cockroaches appear inside after monsoon rain in Surprise?",
+        answer:
+          "American cockroaches breed in the drainage and sewer infrastructure below grade. Monsoon rains flood those underground spaces, driving cockroaches upward and into any accessible entry point in the foundation, plumbing stack, or slab penetration. Sealing those entry points before monsoon season begins in June is the most effective prevention. A perimeter spray on the exterior foundation discourages entry immediately following rain events.",
+      },
+      {
+        question: "Is Surprise better or worse than other Phoenix suburbs for scorpions?",
+        answer:
+          "The western Surprise neighborhoods, particularly those built in the last 15 to 20 years adjacent to White Tank Mountain Regional Park and the open desert, experience higher scorpion pressure than most established eastern and central Phoenix suburbs. That difference is directly related to proximity to undisturbed desert habitat. The eastern Valley suburbs have had the benefit of decades of urban development reducing adjacent wild scorpion populations. In Surprise, that process is still underway.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Peoria", slug: "peoria" },
+      { name: "Glendale", slug: "glendale" },
+      { name: "El Mirage", slug: "el-mirage" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Surprise, AZ | Bark Scorpions, Pack Rats & Termites",
+    metaDescription:
+      "Surprise pest control for Arizona bark scorpions, black widow spiders, pack rats, desert subterranean termites and American cockroaches. Maricopa County northwest Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

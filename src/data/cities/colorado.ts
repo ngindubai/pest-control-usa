@@ -323,4 +323,216 @@ export const coloradoCities: CityLocation[] = [
     metaDescription:
       "Aurora pest control for fall mice, voles, wasps, black widows and spring miller moths. Front Range seasonal specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "fort-collins",
+    name: "Fort Collins",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T2",
+    population: "~165,000",
+    county: "Larimer County",
+    climate: "semi-arid",
+    climateDriver:
+      "Fort Collins sits on the northern Front Range in Larimer County, where the semi-arid high-plains climate meets the foothills of the Rocky Mountains. Colorado State University's agricultural research presence means pest documentation here is unusually good. Cold winters send mice and voles into structures in fall, while the Cache la Poudre River corridor and the city's extensive parks system sustain mosquito and yellowjacket populations through the warm months.",
+    topPests: ["House Mice", "Voles", "Carpenter Ants", "Yellowjackets", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors August through November, active all winter",
+        note: "House mice are the top pest call in Fort Collins from September through March. The cold Front Range winter drives them into any gap in a foundation or utility penetration. Colorado State University Extension identifies mice as the dominant residential rodent pest across the northern Front Range.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, most damaging under snow cover",
+        note: "Voles are a serious lawn and garden pest across the Fort Collins metro, particularly in neighborhoods adjacent to CSU's agricultural campus and the Poudre River greenway. They create surface runways through grass, gnaw at tree bases, and cause their worst damage in winter when snow cover hides their activity.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through September",
+        note: "Carpenter ants are a significant structural pest in Fort Collins, particularly in older homes in the Old Town and Westside neighborhoods where decades of moisture have worked into wooden window frames, sills, and decking. Finding them indoors in spring is a prompt to check for moisture damage.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests build May through September, most aggressive August",
+        note: "Yellowjacket nests build through Fort Collins summers and are largest and most aggressive in August. Ground nests near the Cache la Poudre River parks and aerial nests in eaves and deck overhangs are both common. They are particularly aggressive when nest access is disturbed accidentally.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Cache la Poudre River corridor and the city's extensive irrigation canal system create consistent mosquito breeding habitat through the summer. Larimer County tracks West Nile virus in mosquito trap results most summers. Culex mosquitoes are the primary vector.",
+      },
+    ],
+    localHook:
+      "Colorado State University in Fort Collins runs one of the top applied entomology programs in the US. That gives the city unusually good local pest documentation, and it means the pest control industry here is more science-informed than in most mid-size US cities.",
+    intro:
+      "Pest control in Fort Collins follows the Front Range calendar closely. Fall is the mouse and vole window: as temperatures drop toward October, both push into structures from the surrounding agricultural and riparian habitat. Carpenter ants are the spring structural concern, particularly in older homes in the historic neighborhoods. Yellowjackets peak in August. Mosquitoes are active from May through September along the Poudre River corridor. The CSU presence means local pest intelligence is well-documented.",
+    sections: [
+      {
+        heading: "Mice and voles: the fall and winter push",
+        body: "Fort Collins lies on the edge of open agricultural land, and the outdoor rodent population that surrounds the city is large. House mice press into structures through any foundation gap or utility penetration as fall temperatures drop. Voles work underground and through grass runways year-round and are most damaging under snow cover when their surface activity goes undetected. A late August or September exclusion visit seals the main mouse entry points before the seasonal push. Vole control requires a different approach: surface repellents around tree bases and trapping in active runway systems are more effective than exclusion work.",
+      },
+      {
+        heading: "Carpenter ants in Old Town Fort Collins",
+        body: "The historic neighborhoods in central Fort Collins include many homes built in the early to mid-1900s. Decades of Front Range freeze-thaw cycles have worked moisture into wooden window sills, framing, and decking in those older structures. Carpenter ants excavate galleries in damp or damaged wood and their indoor presence in spring is a reliable indicator of a moisture problem worth investigating. Finding and fixing the moisture source stops the infestation from recurring, while treatment addresses the colony already present.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and pipe chases in late August before the fall mouse push.",
+      "Apply vole repellent around tree trunks and shrub bases before the first snow cover of winter.",
+      "Check wooden window sills, decking, and soffits for moisture damage that creates carpenter ant habitat.",
+      "Eliminate standing water in low-lying yard areas and irrigation overflow zones to reduce mosquito breeding.",
+    ],
+    costNote:
+      "A fall exclusion and rodent program is the most important investment for most Fort Collins homes. Quarterly general pest service covers ants, spiders, and perimeter pests year-round. Mosquito barrier spray from May through September adds protection along the Poudre River corridor.",
+    faqs: [
+      {
+        question: "When is the worst time for mice in Fort Collins?",
+        answer:
+          "October through March. Mice push hard into structures as the first cold snaps arrive in September and October. Exclusion sealing in August is the most cost-effective timing. Once mice are inside the walls they are active all winter. Snap traps along runways plus exterior bait stations handle mice already present while exclusion prevents new entry.",
+      },
+      {
+        question: "Do carpenter ants in Fort Collins cause serious structural damage?",
+        answer:
+          "Over multiple seasons, yes. They excavate galleries in damp or damaged wood, and untreated infestations in sills, joists, or framing members can cause meaningful structural weakening. The more important signal is the moisture that allows them to establish in the first place. Treating the ant colony and fixing the moisture source together is the complete solution.",
+      },
+      {
+        question: "Are there ticks in Fort Collins?",
+        answer:
+          "Yes. American dog ticks and Rocky Mountain wood ticks are present in Larimer County, particularly in the foothill areas west of town and along the Poudre River greenway. Rocky Mountain wood ticks can transmit Rocky Mountain spotted fever. Checking after outdoor activity in shrubby or wooded areas, using repellent with DEET, and keeping grass mowed short near the house reduces exposure.",
+      },
+      {
+        question: "How do I find a yellowjacket ground nest in my Fort Collins yard?",
+        answer:
+          "Watch for repeated yellowjacket flight activity converging on a single point in the lawn, particularly in areas where you are stung when mowing or walking nearby. Ground nests are usually in soft soil under a dead or declining plant. Treat after dark when workers have returned to the nest, wearing protective clothing and using a product labeled for ground-nesting yellowjackets.",
+      },
+      {
+        question: "Do voles and moles cause the same type of lawn damage in Fort Collins?",
+        answer:
+          "No. Voles create surface runways (flat, inch-wide channels through grass with small hole entrances) and gnaw at plant bases. Moles create raised, winding tunnel ridges and feed primarily on earthworms and grubs rather than plants. Both are present in Larimer County, but the damage pattern is different and the control methods differ. Voles respond to trapping and repellents; moles respond to trapping and grub management.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Loveland", slug: "loveland" },
+      { name: "Greeley", slug: "greeley" },
+      { name: "Windsor", slug: "windsor" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Fort Collins, CO | Mice, Voles, Carpenter Ants & Yellowjackets",
+    metaDescription:
+      "Fort Collins pest control for house mice, voles, carpenter ants, yellowjackets and mosquitoes. Larimer County Front Range specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lakewood",
+    name: "Lakewood",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T2",
+    population: "~155,000",
+    county: "Jefferson County",
+    climate: "semi-arid",
+    climateDriver:
+      "Lakewood is Jefferson County's largest city, directly west of Denver on the Front Range. The semi-arid climate with cold winters and dry summers drives the same rodent, vole, and yellowjacket seasonal patterns as the rest of the Denver metro, with additional pressure from the Rocky Mountain foothills to the west. Black widow spiders are more common in Lakewood's foothill-adjacent neighborhoods than in the eastern Denver suburbs, and the Green Mountain and Bear Creek corridor sustains wildlife that pushes into residential areas.",
+    topPests: ["Voles", "House Mice", "Black Widow Spiders", "Yellowjackets", "Earwigs"],
+    pestProfile: [
+      {
+        name: "Voles",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, worst damage in winter under snow cover",
+        note: "Voles are a persistent lawn and garden pest across Lakewood, particularly in the neighborhoods adjacent to the Greenbelt Meadows and Bear Creek Park systems. They tunnel under grass, killing turf in broad patches, and gnaw at the base of ornamental trees and shrubs. Winter snow cover hides their activity, and the damage is typically discovered in spring.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors September through November, active all winter",
+        note: "House mice press into Lakewood structures as Front Range temperatures drop in fall. The foothills edge to the west of the city sustains a large outdoor population, and any gap in a foundation or utility penetration becomes an entry point. A pre-fall exclusion visit is the most cost-effective prevention.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Black widows are more common in Lakewood's foothill-adjacent neighborhoods, particularly in the Green Mountain, Belmar, and Solterra areas, than in the eastern Denver suburbs. They nest in garages, under outdoor furniture, and in block wall gaps. The rocky terrain bordering the city provides a constant source population.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests build May through September, most aggressive July through September",
+        note: "Yellowjacket nests in Lakewood grow through summer in eaves, wall voids, and ground locations. They peak in late summer when colony sizes are largest and food competition increases worker aggression. The Green Mountain and Bear Creek open space corridors provide habitat that sustains a large annual population.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, surge after irrigation season begins",
+        note: "Earwigs are a consistent nuisance pest in Lakewood when irrigation seasons are active. They concentrate in mulch, under rocks, and around irrigation heads, and push inside through door gaps and foundation cracks when outdoor conditions are disturbed. They are not harmful but are unsettling to find in bathrooms and kitchens.",
+      },
+    ],
+    localHook:
+      "Lakewood's position between the Denver metro and the Rocky Mountain foothills means residents deal with both urban pests and wildlife-edge species. Green Mountain Park and the Bear Creek corridor bring deer, foxes, and coyotes to backyards, and those same corridors sustain the vole and rodent populations that are Lakewood's most common pest problem.",
+    intro:
+      "Pest control in Lakewood is shaped by its position on the western edge of the Denver metro, where the Front Range foothills begin. Voles are the most damaging landscape pest from fall through spring. House mice push into structures as temperatures drop. Black widow spiders are more prevalent in the foothill neighborhoods here than in comparable Denver suburbs to the east. Yellowjackets peak in late summer. Earwigs surge when irrigation season begins. The seasonal pattern is tight and predictable, which makes timing treatments correctly the most important part of the job.",
+    sections: [
+      {
+        heading: "Voles and mice: the fall and winter pest priority",
+        body: "Both voles and house mice are at their most problematic in Lakewood from October through March. Voles work outdoors through the winter, destroying lawns, gnawing tree bases, and tunneling through gardens under snow cover. House mice push indoors through foundation and utility gaps as temperatures drop. The timing for addressing both is the same: late August and September, before the first hard frosts. Exclusion work seals mouse entry points; vole trapping and repellents protect landscaping. Addressing both in a single fall prevention visit is efficient and cost-effective.",
+      },
+      {
+        heading: "Black widows in the Lakewood foothills",
+        body: "Black widow spiders are common in Lakewood's foothill neighborhoods, where the rocky terrain adjacent to Green Mountain and Bear Creek open space provides ideal natural habitat. They colonize any dark undisturbed gap: block walls, window wells, wood piles, garages, and under outdoor furniture. The foothill edge means the source population is always present, so exclusion work and reducing harborage sites matters as much as direct treatment. A quarterly perimeter spray combined with garage decluttering keeps indoor encounters rare.",
+      },
+    ],
+    prevention: [
+      "Apply vole repellent and tree wraps around shrubs and young trees before the first snow of winter.",
+      "Seal foundation gaps and utility penetrations in late August before the fall mouse push.",
+      "Clear garage clutter and remove wood piles from the foundation to reduce black widow harborage.",
+      "Treat yellowjacket nests in eaves or ground locations in July, before colonies reach peak aggression in August.",
+    ],
+    costNote:
+      "A fall rodent exclusion and a spring vole inspection together cover the most important seasonal risks for most Lakewood homes. A quarterly general pest program handles ants, spiders, and earwigs year-round. Yellowjacket treatment is typically a single service call in late summer when nests are identified.",
+    faqs: [
+      {
+        question: "What is the difference between vole damage and mole damage in a Lakewood lawn?",
+        answer:
+          "Voles create surface runways: shallow, inch-wide channels through grass with small entrance holes. They gnaw plants at the root level, causing brown irregular patches. Moles create raised, winding tunnel ridges and feed primarily on earthworms rather than plant material. Both are present in Jefferson County. Voles respond to trapping and repellents; moles respond to trapping and grub reduction.",
+      },
+      {
+        question: "Are black widows in Lakewood dangerous?",
+        answer:
+          "Black widow venom is medically significant, particularly for children and people with compromised immune systems or heart conditions. Bites are rarely fatal in healthy adults but cause severe muscle cramps and pain that may require medical treatment. They are not aggressive and only bite when disturbed. Reducing harborage sites near doors and play areas and wearing gloves when reaching into undisturbed areas are the practical precautions.",
+      },
+      {
+        question: "When should I be most concerned about mice in Lakewood?",
+        answer:
+          "September through November is the high-risk entry window. The first cold snaps in September begin the seasonal push, and by October, mice are actively seeking any entry point into structures. If you find signs of mice indoors in October or November, the entry point is almost certainly recent. Address it immediately with exclusion and trapping before the population establishes in the walls.",
+      },
+      {
+        question: "How do earwigs get into Lakewood homes?",
+        answer:
+          "Earwigs enter through any gap at grade level: door sweeps, foundation cracks, and gaps around utility entries. They are attracted to moisture and are most likely to appear in bathrooms and kitchens. Outdoors, they concentrate in mulch, under stepping stones, and around irrigation heads. Reducing mulch depth against the foundation and sealing door sweeps eliminates most indoor entry.",
+      },
+      {
+        question: "Do yellowjackets overwinter in Lakewood?",
+        answer:
+          "No. Yellowjacket colonies die out in fall when the first hard freezes kill the workers. Only mated queens overwinter in sheltered locations. Each spring, a new queen establishes a new nest from scratch, so each colony is a new infestation. This is why treatment of this year's nest does not prevent next year's nesting, but does prevent this year's colony from reaching the dangerous peak size it would achieve by September.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Denver", slug: "denver" },
+      { name: "Arvada", slug: "arvada" },
+      { name: "Wheat Ridge", slug: "wheat-ridge" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Lakewood, CO | Voles, Mice, Black Widows & Yellowjackets",
+    metaDescription:
+      "Lakewood pest control for voles, house mice, black widow spiders, yellowjackets and earwigs. Jefferson County Front Range foothills specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

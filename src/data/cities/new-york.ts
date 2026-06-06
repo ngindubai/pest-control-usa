@@ -428,4 +428,110 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Yonkers pest control for bed bugs, house mice, German cockroaches, Norway rats and stink bugs. Westchester County urban specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "syracuse",
+    name: "Syracuse",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T2",
+    population: "~143,000",
+    county: "Onondaga County",
+    climate: "cold-humid",
+    climateDriver:
+      "Syracuse is one of the snowiest large cities in the contiguous US, receiving over 120 inches of annual snowfall on average due to lake-effect snow from Lake Ontario. The cold humid climate with long winters sends rodents and insects into structures for months at a time. The prolonged cold also means pest activity is compressed into a shorter warm season, making spring and summer management windows critical. The salt and moisture from heavy snowfall accelerates structural deterioration, creating more pest entry points in older homes.",
+    topPests: ["House Mice", "Bed Bugs", "Carpenter Ants", "Brown Marmorated Stink Bugs", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through December, active all winter",
+        note: "House mice are the top residential pest complaint in Onondaga County through the winter months. Syracuse's extreme cold winters, often sub-zero for extended periods, drive mice hard into any available structure. The large stock of older housing in neighborhoods like Eastwood, Northside, and Strathmore provides abundant entry points. All Pest of Syracuse, a local specialist, identifies rodents as their most common winter service call.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a documented urban pest in Syracuse, with above-average activity in the city's older multi-family housing and near-campus student rental areas around Syracuse University and SUNY Upstate Medical University. The density and turnover of Syracuse's rental market creates consistent bed bug introduction and spread opportunities.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August, most visible indoors in spring",
+        note: "Carpenter ants are a significant structural pest in Syracuse's older housing stock. Decades of freeze-thaw cycles and heavy snowfall have worked moisture into the wooden framing, window sills, and soffits of many older Onondaga County homes. Finding carpenter ants indoors in spring is a reliable indicator of a moisture problem worth investigating.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate September through October, emerge in late winter",
+        note: "Stink bugs have established throughout upstate New York including the Syracuse area. They aggregate on exterior walls in September and October before entering wall voids to overwinter. They emerge through cracks and electrical outlets in late winter as interior temperatures rise.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor pest in Syracuse's urban core, particularly in older apartment buildings, student housing, and commercial kitchens. The city's older building stock with shared plumbing chases and less-sealed construction provides ideal conditions for cockroach spread between units.",
+      },
+    ],
+    localHook:
+      "Syracuse averages more than 120 inches of snowfall per year, making it one of the snowiest major cities in the US. That extreme winter environment creates two effects: a hard fall rodent push as mice seek warmth, and structural deterioration from salt and moisture that opens new pest entry points in older homes each spring.",
+    intro:
+      "Pest control in Syracuse is shaped by one of the most severe winter climates in the contiguous US. The extreme cold does not prevent pest problems; it concentrates them. Fall is the mouse window, when house mice push hard into structures before the lake-effect snow season arrives. Bed bugs are an ongoing challenge in the city's dense rental market. Carpenter ants represent the spring structural concern in the older housing stock. Stink bugs are a fall nuisance throughout Onondaga County. German cockroaches are the year-round indoor pest in urban buildings.",
+    sections: [
+      {
+        heading: "Mice and the Syracuse winter: why exclusion timing matters",
+        body: "Syracuse's winters are among the harshest in the Northeast, and house mice respond to the approaching cold with urgency. The fall entry push in October and November is faster and more intense here than in milder upstate cities. The older housing stock in Syracuse's residential neighborhoods, where salt-driven freeze-thaw cycles have opened gaps in foundations and utility penetrations over decades, provides ample entry points. A September or early October exclusion visit seals the most common entry paths before the lake-effect snow season begins. Snap trap programs inside and exterior bait stations outside handle the mice already present when exclusion sealing is done.",
+      },
+      {
+        heading: "Carpenter ants in Syracuse's historic neighborhoods",
+        body: "Many of Syracuse's residential neighborhoods, including the historic Park Avenue, Sedgwick, and Strathmore areas, include homes from the early 1900s. These structures have experienced a century of Central New York freeze-thaw cycles and heavy snowfall, conditions that drive moisture into wooden framing, sills, and soffits. Carpenter ants tunnel through that damp wood and their indoor appearance in May is a standard spring pest call. The moisture source driving their establishment is always the more important fix: whether a window sill leak, a gutter overflow point, or a foundation moisture issue, addressing it stops the ants from returning the following season.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe chases, and utility penetrations in September before the fall lake-effect snow season begins.",
+      "Inspect wooden sills, soffits, and window frames after winter for moisture damage that creates carpenter ant habitat.",
+      "Seal attic vents and exterior wall gaps before September to block stink bug overwintering entry.",
+      "Inspect secondhand furniture and luggage for bed bugs before bringing them into the home.",
+    ],
+    costNote:
+      "A fall rodent exclusion is the most important annual investment for most Syracuse homes. A spring carpenter ant inspection adds structural protection, particularly for pre-1960 housing. A quarterly general pest program covers perimeter pests and cockroaches year-round. Bed bug treatment is available as a standalone service.",
+    faqs: [
+      {
+        question: "When should I seal my Syracuse home against mice?",
+        answer:
+          "September is the ideal time, before the first lake-effect snow events and hard frosts arrive. Mice begin looking for entry points as temperatures drop, and in Syracuse that process starts in earnest in October. Exclusion sealing in September closes the entry points before the fall push peaks. If mice are already inside by November, exclusion plus snap trap programs address both the existing population and future entry.",
+      },
+      {
+        question: "How do I find carpenter ant damage in my Syracuse home?",
+        answer:
+          "Look for coarse sawdust-like frass beneath wooden members in the basement, around window sills, or along soffits. Hollow-sounding wood when tapped firmly is another sign. The ants themselves are often found in spring near the moisture source that enables their colony: a leaky window frame, an overflowing gutter line, or a damp basement sill. Probing suspect wood with a thin tool can reveal gallery tunnels.",
+      },
+      {
+        question: "Are bed bugs common in Syracuse student rental housing?",
+        answer:
+          "Yes. The areas surrounding Syracuse University and the Westcott and Marshall Street corridors see above-average bed bug activity due to the high density and rapid turnover of student rental housing. Residents moving into a new rental, particularly one that has not been professionally inspected between tenancies, should inspect the mattress seams and bed frame before settling in.",
+      },
+      {
+        question: "Do stink bugs damage structures in Syracuse?",
+        answer:
+          "No. Stink bugs do not damage structures or reproduce indoors. The problem is the large number that accumulate in wall voids and attic spaces when they overwinter, and then emerge inside when interior heat activates them in late winter. Vacuum removal (without crushing them) is the practical indoor response. Prevention means sealing exterior gaps before September.",
+      },
+      {
+        question: "Are there termites in Syracuse?",
+        answer:
+          "Eastern subterranean termites have a range that extends into central New York. They are less common and less active here than in the Mid-Atlantic or southern states because of the cold winters, but they are documented in Onondaga County. Older homes with wood in contact with soil or with moisture problems are most at risk. Annual inspections are a reasonable precaution for pre-1970 construction.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Rochester", slug: "rochester" },
+      { name: "Utica", slug: "utica" },
+      { name: "Liverpool", slug: "liverpool" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Syracuse, NY | Mice, Bed Bugs & Carpenter Ants",
+    metaDescription:
+      "Syracuse pest control for house mice, bed bugs, carpenter ants, stink bugs and German cockroaches. Onondaga County lake-effect snow city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

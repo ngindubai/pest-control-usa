@@ -671,4 +671,110 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Hampton pest control for subterranean termites, mosquitoes, stink bugs, American cockroaches and house mice. Hampton Roads Peninsula coastal specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "alexandria",
+    name: "Alexandria",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T2",
+    population: "~155,000",
+    county: "Independent City",
+    climate: "temperate",
+    climateDriver:
+      "Alexandria is an independent city in Northern Virginia directly across the Potomac River from Washington, DC. The mid-Atlantic temperate climate delivers cold winters, hot humid summers, and abundant spring rain that sustains a wide pest profile. The Potomac River waterfront, the extensive older housing stock (much of it 18th and 19th century), and the dense urban character of Old Town create a pest environment with high stink bug, bed bug, and carpenter ant pressure alongside the standard mid-Atlantic termite and mosquito risks.",
+    topPests: ["Brown Marmorated Stink Bugs", "Bed Bugs", "Carpenter Ants", "Subterranean Termites", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate September through October, emerge late winter through spring",
+        note: "Stink bugs are among the most common fall complaints in Alexandria. They were first detected in the mid-Atlantic in 1998 and have established large overwintering populations throughout Northern Virginia. They aggregate on south-facing exterior walls in September and October before pushing into wall voids and attics. When interior temperatures warm them in late winter, they emerge through cracks, electrical outlets, and light fixtures.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Alexandria's density, frequent travel population (proximity to Reagan National Airport and DC), and large stock of multi-family housing all contribute to above-average bed bug pressure. The Old Town and Arlandria neighborhoods, with their high residential density and rental turnover, have particularly documented bed bug activity.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through September, most visible indoors in spring",
+        note: "Carpenter ants are a significant structural pest in Alexandria's older housing stock. Homes in Old Town and the Del Ray neighborhood include properties dating to the 1700s and 1800s, where decades of moisture have worked into wooden framing, sills, and soffits. Finding them indoors in spring is a reliable indicator of a moisture problem.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms in spring",
+        note: "Eastern subterranean termites are present throughout Northern Virginia and are an ongoing risk for Alexandria's historic and older residential properties. The combination of very old construction, mature urban trees, and the moisture influence of the Potomac corridor sustains active termite populations close to many foundations.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Potomac River waterfront and the numerous parks, canals, and drainage features throughout Alexandria create reliable mosquito breeding habitat from spring through fall. The city's proximity to the Chesapeake watershed means Culex mosquito populations are sustained at moderate-to-high levels most summers.",
+      },
+    ],
+    localHook:
+      "Alexandria is one of the oldest continuously occupied cities in the US, with an Old Town historic district dating to the 18th century. That age means the housing stock includes some of the most termite-exposed and moisture-compromised structures in the mid-Atlantic, sitting in a climate where stink bugs, bed bugs, carpenter ants, and termites are all year-round management challenges.",
+    intro:
+      "Pest control in Alexandria reflects the city's unusual combination of historic housing stock, dense urban population, and mid-Atlantic climate. Stink bugs are the most visible fall pest, entering every home with any exterior gap. Bed bugs are a documented urban concern in the rental market and near the major travel infrastructure. Carpenter ants represent the most serious structural risk in the older homes of Old Town and Del Ray. Subterranean termites are active throughout Northern Virginia. Mosquitoes run from April through October.",
+    sections: [
+      {
+        heading: "Stink bugs and the mid-Atlantic fall aggregation",
+        body: "The brown marmorated stink bug arrived in the mid-Atlantic from Asia in the 1990s and has become the most recognized fall pest in Northern Virginia. In Alexandria, they aggregate on south-facing walls and sun-warmed exterior surfaces in September and October, looking for entry points to overwinter. They push through gaps around window frames, utility penetrations, and soffit lines. Sealing those gaps before mid-September is the effective prevention. Once inside the walls, vacuum removal (never crushing them) is the practical indoor management. They do not reproduce indoors and leave naturally in spring when temperatures rise.",
+      },
+      {
+        heading: "Carpenter ants in Alexandria's historic housing",
+        body: "Old Town Alexandria includes residential properties that are 200 to 300 years old. Even well-maintained historic homes in that neighborhood carry moisture risk from old wood construction, periodic flooding, and the age of the framing itself. Carpenter ants exploit any damp or damaged wood: window sills, soffits, porch framing, and structural members adjacent to any plumbing or drainage leak. Their presence indoors in spring is a reliable prompt to inspect the structure for moisture damage, not just to treat the ant colony.",
+      },
+    ],
+    prevention: [
+      "Seal window frame gaps, utility penetrations, and soffit lines before mid-September to block stink bug overwintering entry.",
+      "Inspect luggage and secondhand furniture before bringing them into the home to prevent bed bug introduction.",
+      "Check wooden sills, soffits, and porch framing for moisture damage that enables carpenter ant infestation.",
+      "Schedule an annual termite inspection for all Alexandria properties, particularly historic and pre-1970 construction.",
+    ],
+    costNote:
+      "Most Alexandria homeowners benefit from a quarterly general pest program covering ants, stink bugs, and perimeter pests, plus a separate annual termite inspection. Bed bug treatment is available as a standalone service. Mosquito barrier spray from April through October is practical for properties near the Potomac waterfront and parks.",
+    faqs: [
+      {
+        question: "How do I stop stink bugs from getting into my Alexandria home?",
+        answer:
+          "Sealing the exterior before mid-September is the most effective approach. Focus on gaps around window frames, door frames, utility penetrations, and any point where the soffit meets the exterior wall. Screens on attic vents should be in good repair. Once stink bugs are inside the wall voids, the practical response is patience: they leave through the exterior in spring. Vacuum removal addresses the ones that emerge indoors.",
+      },
+      {
+        question: "Are bed bugs common in Alexandria rentals?",
+        answer:
+          "Bed bug activity in Alexandria's dense multi-family housing is above the national average for mid-size cities, driven by the area's frequent travel population and high residential turnover. Renters should inspect secondhand furniture, mattresses, and box springs before bringing them in, and inspect hotel rooms when traveling. Landlords are responsible for treating infestations in Virginia rental properties.",
+      },
+      {
+        question: "Do carpenter ants damage historic homes in Old Town Alexandria?",
+        answer:
+          "Yes, over time. Carpenter ants tunnel through damp or damaged wood, and if the moisture source that enables them is not fixed, they can cause meaningful structural damage over several seasons. Old Town homes are among the most exposed properties in Northern Virginia because of their age and construction. Annual inspections and addressing any moisture issues promptly are the appropriate precautions.",
+      },
+      {
+        question: "Are there termite swarms in Alexandria in spring?",
+        answer:
+          "Yes. Eastern subterranean termites swarm in Northern Virginia on warm still days in spring, typically March through May. If you see winged insects (swarmers) emerging from the ground near your foundation or from within the house, that is a direct sign of an active colony. Swarmers found indoors, especially near windows or light fixtures, indicate the colony is within or immediately adjacent to the structure.",
+      },
+      {
+        question: "What months are mosquitoes most active in Alexandria?",
+        answer:
+          "Mosquitoes are active from April through October in Alexandria, peaking from June through August. The Potomac River, Four Mile Run, and the city's park system sustain breeding populations throughout the season. Applying a barrier spray to yard vegetation from April through October and eliminating standing water on the property provides the most practical protection.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Arlington", slug: "arlington" },
+      { name: "Falls Church", slug: "falls-church" },
+      { name: "Springfield", slug: "springfield" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Alexandria, VA | Stink Bugs, Bed Bugs & Termites",
+    metaDescription:
+      "Alexandria pest control for brown marmorated stink bugs, bed bugs, carpenter ants, subterranean termites and mosquitoes. Northern Virginia Old Town specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
