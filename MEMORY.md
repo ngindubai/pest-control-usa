@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-06)
 
-- **Phase:** Phase 2 T2 in progress. Chunk 7 complete.
-- **City pages built:** 175 total (75 T1 + 100 T2). 200 T2 cities remaining.
+- **Phase:** Phase 2 T2 in progress. Chunk 8 complete.
+- **City pages built:** 200 total (75 T1 + 125 T2). 175 T2 cities remaining.
 - **Town pages built:** 0.
-- **Total site pages:** 258 in the static export (home, services, 50+ states, 175 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation balanced at 35 each (20% per template, 175 total cities).
-- **Cities built T2 chunk 7 (25):** Amarillo TX (A), Frisco TX (B), Santa Clarita CA (C), Rancho Cucamonga CA (D), Ontario CA (E), Fort Collins CO (A), Elk Grove CA (B), Macon GA (C), Alexandria VA (D), Lakewood CO (E), Hayward CA (A), Coral Springs FL (B), Gainesville FL (C), Miramar FL (D), Surprise AZ (E), McAllen TX (A), Killeen TX (B), Naperville IL (C), Bellevue WA (D), Mesquite TX (E), Sunnyvale CA (A), Garden Grove CA (B), Syracuse NY (C), High Point NC (D), Sandy Springs GA (E).
-- **New state files added chunk 7:** None (all states already registered).
-- **Next block:** Chunk 8, next 25 T2 cities, rotation continues at A.
+- **Total site pages:** 283 in the static export (home, services, 50+ states, 200 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=41, B=40, C=40, D=40, E=39 (200 total cities, all within 15-25% range).
+- **Cities built T2 chunk 8 (25):** Grand Prairie TX (A), Vancouver WA (B), Port St. Lucie FL (C), Denton TX (D), Oceanside CA (E), Palmdale CA (A), Waco TX (B), Lansing MI (C), Joliet IL (D), West Palm Beach FL (E), Corona CA (A), Rockford IL (B), Provo UT (C), Charleston SC (D), Salinas CA (E), Roanoke VA (A), Ann Arbor MI (B), Allentown PA (C), Midland TX (D), Clearwater FL (E), Roseville CA (A), Albany NY (B), Athens GA (C), Lancaster CA (D), Green Bay WI (E).
+- **New state files added chunk 8:** None (all states already registered).
+- **Next block:** Chunk 9, next 25 T2 cities, rotation continues at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
@@ -77,6 +77,7 @@
 | 2026-06-04 | Chunk 4: first 25 T2 city pages, Phase 2 begins | Plano TX (A), Scottsdale AZ (B), Durham NC (C), Baton Rouge LA (D), Salt Lake City UT (E), Stockton CA (A), Reno NV (B), Winston-Salem NC (C), Chattanooga TN (D), Knoxville TN (E), Irvine CA (A), St. Petersburg FL (B), Laredo TX (C), Lubbock TX (D), Des Moines IA (E), Chandler AZ (A), Spokane WA (B), Fort Lauderdale FL (C), Birmingham AL (D), Rochester NY (E), Garland TX (A), Chula Vista CA (B), Akron OH (C), Little Rock AR (D), Worcester MA (E). New state files: Utah, Iowa, Alabama, Arkansas. Rotation balanced at 20 each A to E. 100 total cities, ~180 site pages. Build green. |
 | 2026-06-05 | Chunk 5: next 25 T2 city pages | Fremont CA (A), Hialeah FL (B), Chesapeake VA (C), Glendale AZ (D), Tacoma WA (E), Gilbert AZ (A), Tempe AZ (B), Cape Coral FL (C), McKinney TX (D), Grand Rapids MI (E), Huntington Beach CA (A), Fayetteville NC (B), Jackson MS (C), Columbia SC (D), Tallahassee FL (E), Yonkers NY (A), Augusta GA (B), Moreno Valley CA (C), Springfield MO (D), Aurora IL (E), Oxnard CA (A), Paterson NJ (B), Hartford CT (C), Santa Ana CA (D), Cary NC (E). New state files: Mississippi, South Carolina, Connecticut. Rotation balanced at 25 each A to E. 125 total cities, 208 site pages. Build green. |
 | 2026-06-06 | Chunk 7: next 25 T2 city pages | Amarillo TX (A), Frisco TX (B), Santa Clarita CA (C), Rancho Cucamonga CA (D), Ontario CA (E), Fort Collins CO (A), Elk Grove CA (B), Macon GA (C), Alexandria VA (D), Lakewood CO (E), Hayward CA (A), Coral Springs FL (B), Gainesville FL (C), Miramar FL (D), Surprise AZ (E), McAllen TX (A), Killeen TX (B), Naperville IL (C), Bellevue WA (D), Mesquite TX (E), Sunnyvale CA (A), Garden Grove CA (B), Syracuse NY (C), High Point NC (D), Sandy Springs GA (E). No new state files needed. Rotation balanced at 35 each A to E. 175 total cities, 258 site pages. Build green. |
+| 2026-06-06 | Chunk 8: next 25 T2 city pages | Grand Prairie TX (A), Vancouver WA (B), Port St. Lucie FL (C), Denton TX (D), Oceanside CA (E), Palmdale CA (A), Waco TX (B), Lansing MI (C), Joliet IL (D), West Palm Beach FL (E), Corona CA (A), Rockford IL (B), Provo UT (C), Charleston SC (D), Salinas CA (E), Roanoke VA (A), Ann Arbor MI (B), Allentown PA (C), Midland TX (D), Clearwater FL (E), Roseville CA (A), Albany NY (B), Athens GA (C), Lancaster CA (D), Green Bay WI (E). No new state files needed. Rotation A=41 B=40 C=40 D=40 E=39. 200 total cities, 283 site pages. Build green. |
 
 ## ClimateZone Values (extended 2026-06-04)
 

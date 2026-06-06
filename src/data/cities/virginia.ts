@@ -777,4 +777,110 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Alexandria pest control for brown marmorated stink bugs, bed bugs, carpenter ants, subterranean termites and mosquitoes. Northern Virginia Old Town specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "roanoke",
+    name: "Roanoke",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T2",
+    population: "~100,000",
+    county: "Roanoke City (independent city)",
+    climate: "temperate",
+    climateDriver:
+      "Roanoke sits in the Roanoke Valley, ringed by the Blue Ridge Mountains and Appalachian ridgelines. The temperate climate delivers warm, humid summers and cold winters with regular snowfall. The surrounding mountain ridges are significant habitat for brown marmorated stink bugs, which aggregate on south-facing slopes and building faces in fall. The Roanoke River and the forested hillside neighborhoods sustain carpenter ant, rodent, and spider populations that push into residential areas through the wooded edges.",
+    topPests: ["Brown Marmorated Stink Bugs", "Carpenter Ants", "Mice", "Yellowjackets", "Wolf Spiders"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate on structures August through November, emerge indoors in winter and spring",
+        note: "Virginia is one of the most heavily stink bug-affected states in the country. Virginia Tech Extension confirms brown marmorated stink bugs are established throughout the state. The Blue Ridge ridgelines around Roanoke provide ideal overwintering habitat and the surrounding forested slopes sustain large populations that aggregate on the south and west faces of buildings each fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, most visible indoors in spring",
+        note: "Carpenter ants are well-established across the Roanoke Valley, sustained by the forested mountain slopes and the Roanoke River corridor. Homes in the hillside neighborhoods of Southwest Roanoke, Grandin Village, and along the Carvins Cove area see elevated carpenter ant pressure from adjacent woodland.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through March, active year-round once inside",
+        note: "House mice are the top residential pest complaint in Roanoke. The Roanoke Valley's cold winters drive mice firmly into structures by October. The city's older housing stock and the hillside neighborhoods adjacent to natural areas both sustain the pressure.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active May through October, peak August through October",
+        note: "Yellowjackets are a significant late-summer pest in the Roanoke Valley. The forested hillside neighborhoods see ground nest pressure from the adjacent woodland habitat. Aerial nests under eaves and in wall voids of older homes in the valley floor are also common.",
+      },
+      {
+        name: "Wolf spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active spring through fall, seek shelter indoors in fall",
+        note: "Wolf spiders are common across the Roanoke Valley and move into homes in significant numbers in fall as they seek shelter. They are large, fast-moving, and alarming in appearance but are not medically significant.",
+      },
+    ],
+    localHook:
+      "The Blue Ridge Mountains surrounding the Roanoke Valley are among the most productive stink bug habitat in Virginia. Virginia Tech Extension confirms the region is heavily affected by brown marmorated stink bugs, and the combination of the mountain ridgeline habitat and the city's position in the valley creates a stink bug season that runs from August through November, with significant indoor emergence continuing through winter.",
+    intro:
+      "Pest control in Roanoke is shaped by its position in the Blue Ridge Mountain valley. Brown marmorated stink bugs are the defining fall pest: Virginia Tech Extension confirms Virginia is one of the most affected states in the country, and the mountain ridgelines surrounding Roanoke sustain large populations that aggregate on building surfaces each fall. Carpenter ants are a spring structural concern in the wooded hillside neighborhoods. House mice push firmly into structures each October. Yellowjackets peak in late summer, with the forested hillsides providing ground nest habitat. Wolf spiders move into homes in significant numbers each fall.",
+    sections: [
+      {
+        heading: "Stink bugs and the Blue Ridge Mountain effect",
+        body: "The Brown marmorated stink bug arrived in Virginia in the 2000s and has become one of the most recognized fall pests in the state. Virginia Tech Extension confirms Virginia is among the most heavily affected states in the country. The Roanoke Valley's position surrounded by the Blue Ridge and Appalachian ridgelines creates a unique situation: the forested mountain slopes that rim the valley are significant overwintering habitat for stink bugs, and the large fall aggregations on those slopes produce substantial pressure on the buildings of the valley below. Stink bugs begin aggregating on south and west-facing building surfaces in August and work into wall voids and attic spaces through any gap they can find: around window frames, utility lines, soffits, and where siding meets the foundation. They overwinter passively but emerge indoors when interior heat warms them in late winter and early spring. The most effective management is exclusion before the aggregation begins: sealing around windows, siding, and utility penetrations in July and August prevents them from entering.",
+      },
+      {
+        heading: "Carpenter ants in Roanoke's hillside neighborhoods",
+        body: "The forested hillside neighborhoods in southwest Roanoke, Grandin Village, the Raleigh Court area, and the slopes near Carvins Cove provide extensive outdoor carpenter ant habitat. Mature hardwoods with moisture-damaged sections, dead snags, and the Roanoke River corridor all sustain large outdoor colonies. When any moisture-affected wood in an adjacent home provides a nesting site, a satellite colony establishes. Finding large black ants indoors in April or May, consistently emerging from the same location, is the indicator of an established indoor colony rather than occasional wandering foragers from outside. Treatment of the colony paired with fixing the moisture source, typically a leak at a window sill, soffit, or deck ledger, provides lasting control.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around windows, siding, and utility penetrations in July before stink bug aggregation begins in August.",
+      "Inspect window sills, soffits, and deck framing for moisture damage to remove carpenter ant nesting sites.",
+      "Seal foundation gaps and pipe penetrations with metal-based materials before October to exclude mice.",
+      "Treat yellowjacket nests near the forested hillside edges in July before they reach peak size and aggression in August.",
+    ],
+    costNote:
+      "Roanoke pest services start with a free inspection. Quarterly general programs cover mice, ants, spiders, and perimeter pests. Stink bug exclusion is available as a late-summer service before the fall aggregation. Yellowjacket treatment is per nest. Carpenter ant programs include a moisture assessment in spring.",
+    faqs: [
+      {
+        question: "Why are stink bugs so bad around Roanoke compared with other Virginia cities?",
+        answer:
+          "The Blue Ridge and Appalachian ridgelines surrounding the Roanoke Valley provide large-scale overwintering habitat for brown marmorated stink bugs on south-facing slopes. The valley position below those ridges means residential areas receive the stink bugs that aggregate on the slopes and then disperse downward seeking overwintering sites in structures. Virginia Tech Extension confirms the region is among the most heavily affected in the state. Exclusion of building entry points before August is the most effective defense.",
+      },
+      {
+        question: "What is the best way to deal with stink bugs inside my Roanoke home in winter?",
+        answer:
+          "Stink bugs that have already entered wall voids and attic spaces are difficult to remove without causing the odor problem. Vacuuming individuals that emerge indoors is the most practical indoor approach: use a dedicated vacuum bag for them and remove it from the home promptly, or use a vacuum with a bag you can seal before discarding. Do not crush them indoors. The population decreases naturally through spring as they exit to the outdoors. Preventing entry in July and August is the strategy that prevents the problem the following year.",
+      },
+      {
+        question: "Are carpenter ants in Roanoke coming from the wooded hillsides?",
+        answer:
+          "Outdoor colonies in the woodland habitat adjacent to Roanoke's hillside neighborhoods are a source, but if you are finding carpenter ants consistently indoors in spring, it usually means a satellite colony has established in moisture-affected wood in the structure itself. Foragers from that colony are what you see indoors. Finding and treating the colony, combined with fixing the moisture source that made the wood attractive, is what stops the annual recurrence.",
+      },
+      {
+        question: "How cold do Roanoke winters need to be to suppress stink bug populations?",
+        answer:
+          "Extended periods well below freezing can reduce overwintering stink bug survival. Roanoke Valley winters do include cold periods, but the valley's position and the moderate effects of the surrounding mountains mean winters are not consistently cold enough to produce significant stink bug mortality. Populations recover quickly from mild winter mortality. Exclusion of buildings rather than relying on winter cold is the practical management approach.",
+      },
+      {
+        question: "When should I treat for yellowjackets in Roanoke?",
+        answer:
+          "July is the optimal treatment window. Colonies are large enough to locate reliably by July but have not yet reached the peak aggression of August and September. Ground nests near the forested hillside neighborhoods and wall void nests in older homes along the valley floor are both common in Roanoke. Disturbing a ground nest while doing yard work is the most common sting incident. Mark any ground nest you find and schedule professional treatment rather than approaching it yourself.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Richmond", slug: "richmond" },
+      { name: "Lynchburg", slug: "lynchburg" },
+      { name: "Charlottesville", slug: "charlottesville" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Roanoke, VA | Stink Bugs, Carpenter Ants & Mice",
+    metaDescription:
+      "Roanoke pest control for brown marmorated stink bugs, carpenter ants, house mice, yellowjackets and wolf spiders. Blue Ridge Mountain Valley Virginia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

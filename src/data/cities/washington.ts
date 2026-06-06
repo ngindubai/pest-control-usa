@@ -428,4 +428,110 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Bellevue pest control for odorous house ants, Norway rats, carpenter ants, yellowjackets and giant house spiders. King County Eastside Seattle specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "vancouver",
+    name: "Vancouver",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T2",
+    population: "~195,000",
+    county: "Clark County",
+    climate: "temperate",
+    climateDriver:
+      "Vancouver, Washington sits on the north bank of the Columbia River, directly across from Portland, Oregon. The Pacific Northwest maritime climate delivers mild, wet winters and warm, dry summers. The Columbia River bottomland, the city's older residential neighborhoods, and proximity to the Oregon border create a pest environment driven by persistent moisture: carpenter ants in damp wood, Norway rats in the river corridor, and odorous house ants trailing through kitchens year-round. Summers are dry enough to support significant yellowjacket nest growth.",
+    topPests: ["Norway Rats", "Odorous House Ants", "Carpenter Ants", "Yellowjackets", "Silverfish"],
+    pestProfile: [
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, push hard indoors in fall rainy season",
+        note: "Norway rats are well-established along the Columbia River corridor and in Vancouver's older neighborhoods. The river bottomland, the storm drain network, and the older commercial areas downtown provide habitat that sustains a substantial rat population year-round. WSU Extension identifies rats as a priority urban pest across Clark County.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most intense indoors in spring and summer",
+        note: "Odorous house ants are the dominant residential ant complaint across Vancouver. The Pacific Northwest's mild, wet climate allows colonies to remain active year-round. They move indoors readily during wet weather, trailing along baseboards and counters. Their colonies are large, multi-queen, and persistent through standard perimeter spray.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through September, most visible indoors in spring",
+        note: "Carpenter ants are a structural pest in Vancouver's older neighborhoods, where the Pacific Northwest rainfall keeps wood damp enough to support tunneling. The Columbia River bottomland neighborhoods and properties with moisture issues around windows, soffits, and deck framing are the highest-risk areas.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active May through October, most aggressive August and September",
+        note: "Yellowjacket nests build through the warm dry summer and are at maximum size and aggression in August and September. Ground nests in the Fruit Valley and East Vancouver neighborhoods and aerial nests under eaves in older homes are both common complaints.",
+      },
+      {
+        name: "Silverfish and moisture pests",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round in damp areas",
+        note: "Silverfish thrive in Vancouver's humid climate, favoring bathrooms, basement crawl spaces, and laundry areas. The Pacific Northwest's consistently damp conditions give them a year-round foothold that is harder to break than in drier climates.",
+      },
+    ],
+    localHook:
+      "Vancouver's position on the Columbia River gives it a rat problem with a different character than most Pacific Northwest cities. The river corridor, the older commercial waterfront, and the extensive storm drain network connecting downtown to the river sustain a Norway rat population that requires active management throughout the year.",
+    intro:
+      "Pest control in Vancouver, Washington runs on the Pacific Northwest's wet, mild calendar. Norway rats are active along the Columbia River corridor year-round, pushing harder into structures as the fall rains arrive. Odorous house ants are the year-round indoor pest in most residential neighborhoods. Carpenter ants are a spring structural concern in older neighborhoods with moisture issues. Yellowjackets peak in August and September in the summer dry season. Silverfish are a persistent damp-climate nuisance in crawl spaces and bathrooms. The mild winters here mean none of these species fully disappear between seasons.",
+    sections: [
+      {
+        heading: "Norway rats along the Columbia River",
+        body: "Vancouver's Columbia River corridor, the downtown waterfront, and the older commercial and industrial areas sustain a Norway rat population with deep roots in the city's storm drain and sewer infrastructure. Rats move through the drain system and surface in residential neighborhoods well away from the riverfront. On residential properties, Norway rats burrow near foundations, under decks, and adjacent to compost areas. Addressing a rat problem on one property without also sealing the structure against new entry typically produces a cycle of ongoing activity, because new rats from the surrounding drainage network move in after trapping removes the established animals. Exclusion work on the foundation perimeter, the garage, and any ground-level gaps is what breaks that cycle.",
+      },
+      {
+        heading: "Odorous house ants: the Pacific Northwest year-round pest",
+        body: "Odorous house ants are the most common residential pest complaint in Vancouver and throughout the Portland metro area on both sides of the river. They are small, dark, and release a faint coconut-like odor when crushed. The Pacific Northwest climate provides no hard freeze to interrupt colony activity, so they remain active year-round and trail indoors whenever outdoor conditions change. Their colonies are large and have multiple queens, which makes them persistent through standard perimeter spray treatments. Slow-acting liquid bait placed along active trails and foundation edges is more effective at reducing colony populations over time. Outdoor bait placements combined with sealing foundation gaps address both the foraging ants and the outdoor colonies that feed them.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and garage floor gaps to block Norway rat entry before the fall rainy season.",
+      "Place odorous house ant bait along foundation edges and active trails in spring and summer, not just perimeter spray.",
+      "Inspect and repair window sills, soffits, and deck framing for moisture damage to remove carpenter ant harborage.",
+      "Reduce basement and crawl space humidity through improved ventilation to limit silverfish and moisture pest activity.",
+    ],
+    costNote:
+      "Vancouver pest control typically starts with a free inspection. A quarterly general program covering odorous house ants, spiders, and perimeter pests is the baseline for most homes. Rat management near the Columbia River corridor often needs exterior bait stations on a monthly service through the rainy fall and winter. Carpenter ant treatment is a spring priority for older neighborhoods.",
+    faqs: [
+      {
+        question: "Why does Vancouver WA have such a persistent rat problem?",
+        answer:
+          "Vancouver's Columbia River corridor, the older commercial waterfront, and the city's extensive storm drain network provide the habitat and travel routes that sustain a large Norway rat population. Rats move through drains and surface in residential neighborhoods throughout the city. Individual property trapping removes established animals but exclusion work on the structure is what prevents new animals from moving in from the surrounding infrastructure.",
+      },
+      {
+        question: "Are odorous house ants in Vancouver the same as sugar ants?",
+        answer:
+          "They are the same species that people often call sugar ants. The correct name is odorous house ant. They are small and dark and trail indoors following pheromone paths to food and moisture. Standard perimeter spray disrupts trailing foragers but does not reduce the colony size. Slow-acting bait returned to the colony by the foragers is more effective for long-term control in the Pacific Northwest, where colonies remain active year-round.",
+      },
+      {
+        question: "How do I know if I have carpenter ants or just large ants in Vancouver?",
+        answer:
+          "Carpenter ants are the large black ants common in Pacific Northwest homes. They are significantly bigger than odorous house ants. Finding large black ants indoors in spring, particularly coming from a wall void or a damp area near a window or roof, often indicates a carpenter ant colony in moisture-damaged wood. Finding just a few large ants is less concerning than finding a trail of them coming from a consistent location inside the structure.",
+      },
+      {
+        question: "When are yellowjackets most dangerous in Vancouver?",
+        answer:
+          "August and September are the peak months. Yellow jacket colonies grow through the warm dry summer and reach maximum size in late summer, when workers are aggressively defending the nest and competing for food as natural sources decline. Ground nests in lawn areas and wall void nests in older homes are both common in Vancouver. Disturbing a ground nest while mowing is a common sting incident. Treating nests in July, before they reach maximum size, is safer than waiting until August.",
+      },
+      {
+        question: "Why do I have silverfish in my Vancouver home?",
+        answer:
+          "Silverfish thrive in the humidity that characterizes Vancouver and the Pacific Northwest generally. They favor bathrooms, basement crawl spaces, and laundry areas where moisture is consistently available. The mild climate provides no dry season severe enough to suppress their activity. Reducing humidity through improved ventilation in crawl spaces and bathrooms, combined with residual treatment of harborage areas, brings them under control.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Seattle", slug: "seattle" },
+      { name: "Tacoma", slug: "tacoma" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Vancouver, WA | Norway Rats, Ants & Yellowjackets",
+    metaDescription:
+      "Vancouver WA pest control for Norway rats, odorous house ants, carpenter ants, yellowjackets and silverfish. Clark County Columbia River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

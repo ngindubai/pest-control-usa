@@ -534,4 +534,110 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Syracuse pest control for house mice, bed bugs, carpenter ants, stink bugs and German cockroaches. Onondaga County lake-effect snow city specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "albany",
+    name: "Albany",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T2",
+    population: "~100,000",
+    county: "Albany County",
+    climate: "cold-humid",
+    climateDriver:
+      "Albany sits on the Hudson River at the eastern foot of the Helderberg Escarpment and the Catskill foothills. As the state capital, it has a dense older urban core surrounded by suburban neighborhoods. The cold-humid Hudson Valley climate delivers cold, snowy winters and warm, humid summers. The Hudson River corridor and the Helderberg Highlands to the southwest provide wildlife and woodland pest habitat adjacent to residential areas. Brown marmorated stink bugs have spread through the Hudson Valley and are an established fall pest.",
+    topPests: ["House Mice", "Brown Marmorated Stink Bugs", "Carpenter Ants", "German Cockroaches", "Pavement Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through March, active year-round once inside",
+        note: "House mice are the most common residential pest in Albany and across the Capital Region. Cornell Cooperative Extension identifies mice as the top rodent pest in upstate New York. Albany's large stock of older housing and multi-family buildings near the state government campus provides the aging infrastructure gaps that mice use to enter.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate in August through November, emerge indoors in winter and spring",
+        note: "Stink bugs have spread through the Hudson Valley and are now an established fall pest in Albany and the Capital Region. Cornell Cooperative Extension confirms they are well-established across New York State. The Helderberg Highlands and the forested hillsides around Albany provide overwintering habitat from which they spread to building surfaces each fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, most visible indoors in spring",
+        note: "Carpenter ants are a structural pest in Albany, sustained by the Hudson River corridor, the mature tree canopy of the older neighborhoods, and the forested Helderberg foothills adjacent to the western suburbs. Finding them indoors in spring consistently indicates a colony in damp or moisture-damaged wood in the structure.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a persistent concern in Albany's multi-family housing, the state government campus area, and the commercial kitchens of the downtown restaurant district. The state capital's density of office buildings and food service operations sustains a commercial cockroach population that spreads into the adjacent residential areas.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active spring through fall, may appear indoors year-round",
+        note: "Pavement ants are common in Albany's older urban neighborhoods, nesting in the cracks and expansion joints of aging concrete sidewalks, driveways, and foundations. They trail indoors through the same gaps in search of food and moisture.",
+      },
+    ],
+    localHook:
+      "Albany is where New York State government is headquartered, and the state campus with its older buildings, food service operations, and dense office infrastructure sustains a background cockroach and rodent population that older residential neighborhoods near the campus feel directly. For residents in Washington Square Park, Center Square, and the Mansion neighborhood, the proximity to the dense state campus is a factor in the pest pressure they experience.",
+    intro:
+      "Pest control in Albany follows the upstate New York cold-humid pattern. House mice are the most consistent year-round concern, driven hard into heated structures by the Hudson Valley's cold falls and sustained by the city's large stock of older housing. Brown marmorated stink bugs are an established fall pest that aggregate on building surfaces from August through November. Carpenter ants are a spring structural concern in moisture-affected wood. German cockroaches are persistent in multi-family housing and commercial areas near the government campus. Pavement ants are common in the aging concrete of the older neighborhoods.",
+    sections: [
+      {
+        heading: "Mice in Albany's older neighborhoods",
+        body: "Albany has a large stock of older housing, particularly in the Center Square, Washington Square Park, Pine Hills, and Hudson/Park neighborhoods, that was built in the late nineteenth and early twentieth centuries. These older structures have foundation conditions, utility penetrations, and building details that make mouse exclusion challenging: cracked and settled foundation mortar, aging utility sleeve seals, basement windows with deteriorated frames, and garage door thresholds that no longer form a complete seal. Cornell Cooperative Extension identifies mice as the top rodent pest in upstate New York, and Albany's combination of cold winters and older housing makes the fall mouse surge a very consistent annual event. A systematic exclusion survey followed by sealing with steel wool and expanding foam or caulk, combined with snap traps inside for the animals already present, is the most effective approach for these older buildings.",
+      },
+      {
+        heading: "Stink bugs in the Hudson Valley",
+        body: "Brown marmorated stink bugs spread through the Hudson Valley over the past decade and are now an established fall pest in Albany. The Helderberg Highlands and the Catskill foothills provide forested habitat that sustains populations. They aggregate on the south and west faces of buildings in August and September, seeking gaps through which to enter for overwintering. The older building stock in Albany's historic neighborhoods can have numerous entry points that are difficult to seal completely. Cornell Cooperative Extension recommends sealing around windows, siding, utility penetrations, and soffit gaps in late summer before the aggregation peaks. Stink bugs that make it inside emerge indoors during winter and spring warm spells. Vacuuming without crushing is the indoor management approach.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and pipe penetrations with metal-based materials before October to exclude mice from the fall surge.",
+      "Seal building penetrations and window frame gaps in late July before stink bug aggregation begins in August.",
+      "Use German cockroach gel bait in harborage areas for effective control rather than perimeter spray.",
+      "Inspect sills, soffits, and wood near moisture sources in spring for carpenter ant activity.",
+    ],
+    costNote:
+      "Albany pest services start with a free inspection. Quarterly general programs cover mice, ants, and perimeter pests. Stink bug exclusion is available as a late-summer service. German cockroach management requires targeted bait applications with follow-up. Carpenter ant programs are best scheduled in spring with moisture assessment included.",
+    faqs: [
+      {
+        question: "Why are mice such a persistent problem in Albany's older neighborhoods?",
+        answer:
+          "Albany's historic neighborhoods have older building stock with foundation conditions that make mouse exclusion challenging. Cold Hudson Valley winters drive mice hard into heated structures by October. Cornell Cooperative Extension identifies mice as the top rodent pest across upstate New York. Systematic exclusion using steel wool and caulk or foam to seal all gaps larger than a quarter inch, combined with snap traps for the animals already inside, is the approach that breaks the cycle.",
+      },
+      {
+        question: "Are stink bugs bad in Albany compared with downstate New York?",
+        answer:
+          "Albany and the Capital Region have significant stink bug pressure. Cornell Cooperative Extension confirms they are established throughout New York State. The Hudson Valley position with forested foothills adjacent to the city creates substantial habitat. The older building stock in Albany's historic neighborhoods can have numerous entry gaps. Fall aggregations on south and west-facing building surfaces from August through November are common in the area.",
+      },
+      {
+        question: "Why are German cockroaches more common near Albany's state campus?",
+        answer:
+          "The density of food service operations, cafeterias, and commercial kitchens associated with the state government campus sustains a commercial cockroach population that puts pressure on the adjacent residential neighborhoods. The multi-family housing near downtown and the campus also provides the shared-wall conditions where German cockroaches spread between units. Gel bait in harborage areas is significantly more effective than spray for this species.",
+      },
+      {
+        question: "Are carpenter ants from the Helderberg foothills getting into Albany homes?",
+        answer:
+          "Outdoor colonies in the Helderberg foothills and the Hudson River corridor provide a source population, but if carpenter ants are consistently appearing indoors in spring from the same location, it more likely means a satellite colony has established in moisture-affected wood in the structure itself. Fixing the moisture source, typically a leak at a window sill or soffit, is as important as treating the colony for lasting control.",
+      },
+      {
+        question: "What are pavement ants and how do I get rid of them in my Albany home?",
+        answer:
+          "Pavement ants are small brown ants that nest in cracks in concrete, particularly in expansion joints in sidewalks, driveways, and foundations. They are common in Albany's older urban neighborhoods with aging concrete infrastructure. They trail indoors through the same foundation cracks seeking food and moisture. Slow-acting liquid bait placed along active trail points is more effective than spray at reducing the foraging population. Sealing the concrete cracks reduces their access over time.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Buffalo", slug: "buffalo" },
+      { name: "Syracuse", slug: "syracuse" },
+      { name: "Yonkers", slug: "yonkers" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Albany, NY | Mice, Stink Bugs & Carpenter Ants",
+    metaDescription:
+      "Albany pest control for house mice, brown marmorated stink bugs, carpenter ants, German cockroaches and pavement ants. Albany County Capital Region Hudson Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

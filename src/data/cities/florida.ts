@@ -1512,4 +1512,322 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Miramar pest control for American cockroaches, Formosan termites, mosquitoes, ghost ants and German cockroaches. Broward County Everglades edge specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "port-st-lucie",
+    name: "Port St. Lucie",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~225,000",
+    county: "St. Lucie County",
+    climate: "hot-humid",
+    climateDriver:
+      "Port St. Lucie sits on Florida's Treasure Coast, centered on the North Fork of the St. Lucie River. The subtropical climate delivers hot, humid summers with a pronounced wet season from June through September, followed by a mild, drier winter. The St. Lucie River, its canals, and the city's extensive network of waterway-fronting neighborhoods create ideal breeding conditions for mosquitoes and sustain year-round termite and cockroach pressure.",
+    topPests: ["Subterranean Termites", "Cockroaches", "Mosquitoes", "Fire Ants", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean and drywood termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring through early summer, active year-round",
+        note: "Port St. Lucie sees both subterranean and drywood termite pressure. The warm, humid climate keeps subterranean colonies active underground year-round. Drywood termites infest wood directly without ground contact, particularly in attic framing and interior woodwork. The Florida Department of Agriculture confirms St. Lucie County is within the established Formosan termite zone.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in summer wet season",
+        note: "American cockroaches breed in the storm drains, sewer infrastructure, and dense tropical landscaping throughout Port St. Lucie. They are drawn indoors by the air conditioning and moisture during the hot, humid summer. The river canal neighborhoods see the highest outdoor populations.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak June through September",
+        note: "The St. Lucie River, its tributaries, and the extensive canal network throughout Port St. Lucie provide enormous mosquito breeding capacity. St. Lucie County Mosquito Control monitors the county and conducts aerial and ground treatment, but waterfront properties see pressure between public treatment cycles.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Fire ants are pervasive across St. Lucie County. The Treasure Coast's wet season provides regular rainfall that triggers mound rebuilding and colony expansion. Waterfront and lakeside yards tend to see the heaviest fire ant pressure.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, move toward structures in dry season",
+        note: "Roof rats are common in the older neighborhoods and in the residential areas bordering natural areas in Port St. Lucie. They nest in attics and palm trees, travel overhead along utility lines, and are drawn to fruit trees and outdoor food sources.",
+      },
+    ],
+    localHook:
+      "Port St. Lucie has one of the most extensive residential canal networks in Florida, with hundreds of miles of waterways bordering neighborhood lots. That system is both the city's defining feature and the reason its mosquito season is so intense: the canal edges provide ideal breeding habitat within feet of residential properties.",
+    intro:
+      "Pest control in Port St. Lucie is shaped by water. The St. Lucie River, its canals, and the extensive waterway network running through the city's residential neighborhoods create exceptional breeding conditions for mosquitoes and sustain the humid conditions that keep termites, cockroaches, and fire ants active year-round. Both subterranean and drywood termites are present, with the Florida Department of Agriculture confirming St. Lucie County is within the Formosan termite zone. American cockroaches are a constant pressure in the warm, humid environment. Fire ants are dense across lawns and rebuild after every rain. Roof rats are established in the older neighborhoods and in areas near natural vegetation.",
+    sections: [
+      {
+        heading: "Termite risk on the Treasure Coast",
+        body: "Port St. Lucie's subtropical climate and the year-round warmth of the St. Lucie River basin create conditions where both subterranean and drywood termites remain active throughout the year. Subterranean termites keep their colonies underground and build mud tubes to reach wood above the soil. Drywood termites are different: they infest wood directly, without soil contact, and are found in attic framing, interior wood trim, and furniture. Both species swarm to establish new colonies, with peak swarm activity from spring through early summer. Annual termite inspections are the standard recommendation for all Port St. Lucie properties. The WDO (wood-destroying organism) report required for real estate transactions in Florida captures both species, and reviewing this report carefully is worthwhile before purchasing any property in the area.",
+      },
+      {
+        heading: "Canal properties and the mosquito reality",
+        body: "Properties bordering the canal network in Port St. Lucie face a mosquito situation that is structurally different from properties further inland. The canal edges, with their sheltered shallow water and emergent vegetation, produce mosquito larvae continuously through the wet season and in reduced numbers through the dry season. St. Lucie County Mosquito Control conducts aerial and ground treatment but cannot eliminate mosquito pressure along hundreds of miles of canal edge. For canal-front properties, a targeted barrier spray program treating the vegetation along the lot's canal edge and the dense shaded areas around the structure is the most practical suppression approach. Eliminating standing water in pots, gutters, and decorative items on the property removes the mosquito habitat you control directly.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection to check for both subterranean and drywood termite activity.",
+      "Eliminate standing water along the canal edge, in planter trays, and in any containers on the property weekly.",
+      "Treat fire ant mounds promptly after rain events and apply broadcast bait twice per year to reduce overall lawn pressure.",
+      "Trim palm trees and remove overhanging branches to cut roof rat travel routes to the roofline.",
+    ],
+    costNote:
+      "Port St. Lucie pest services start with a free inspection. Quarterly general programs cover cockroaches, fire ants, and perimeter pests. Termite inspections are a separate service and worth scheduling annually. Mosquito barrier programs are available per application or as a wet-season package. Roof rat programs include exclusion work and exterior bait stations.",
+    faqs: [
+      {
+        question: "Does Port St. Lucie have Formosan termites?",
+        answer:
+          "Yes. The Florida Department of Agriculture confirms St. Lucie County is within the established Formosan subterranean termite zone. Formosan termites are an aggressive invasive species with larger colonies than native subterranean termites and can cause significant structural damage more quickly. Annual termite inspections are important for all properties in the county, and any signs of termite activity should be addressed promptly.",
+      },
+      {
+        question: "Why is mosquito pressure so high near the canals in Port St. Lucie?",
+        answer:
+          "The canal network creates miles of sheltered shallow water with emergent vegetation, which is ideal mosquito breeding habitat. The edges are not fully accessible to public mosquito control treatment. Canal-front properties get pressure from mosquitoes breeding within feet of the yard. A targeted barrier spray program treating vegetation along the canal edge and around the structure provides the most practical private-property suppression.",
+      },
+      {
+        question: "Are roof rats different from the rats in other parts of Florida?",
+        answer:
+          "Roof rats are the dominant rat species in Port St. Lucie, as in most of Florida. They are slender, excellent climbers, and prefer to nest in elevated locations: attics, palm trees, and overhead utility lines. They are different from Norway rats, which are larger, heavier, and prefer ground-level burrows. Roof rat exclusion focuses on sealing gaps at the roofline, trimming tree branches from the roof, and securing attic vents.",
+      },
+      {
+        question: "How do I know if I have drywood termites in my Port St. Lucie home?",
+        answer:
+          "Drywood termites leave frass, small pellets of digested wood, in tiny piles near the infested wood. Finding these pellets near window sills, on shelves below attic framing, or near wood trim is a reliable indicator. A professional inspection uses probing and visual assessment to identify drywood infestations. Unlike subterranean termites, drywood termites have no mud tubes because they do not use soil.",
+      },
+      {
+        question: "Are fire ants a problem near the waterways in Port St. Lucie?",
+        answer:
+          "Yes. Yards near the canal edges and St. Lucie River tributaries tend to see heavier fire ant pressure than properties further inland because the consistently moist soil near the water allows colonies to multiply quickly after rain. Treating mounds promptly after wet weather and applying broadcast bait across the lawn twice a year, once in spring and once in fall, is the standard management approach for Treasure Coast properties.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Fort Lauderdale", slug: "fort-lauderdale" },
+      { name: "Miami", slug: "miami" },
+      { name: "Orlando", slug: "orlando" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Port St. Lucie, FL | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Port St. Lucie pest control for subterranean and drywood termites, mosquitoes, fire ants, cockroaches and roof rats. St. Lucie County Treasure Coast specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "west-palm-beach",
+    name: "West Palm Beach",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~120,000",
+    county: "Palm Beach County",
+    climate: "hot-humid",
+    climateDriver:
+      "West Palm Beach sits on the western shore of Lake Worth Lagoon, directly across from Palm Beach. The subtropical climate, the lagoon, and Palm Beach County's extensive waterway network create year-round warmth and humidity that keeps all major Florida pest species active through every season. The Everglades Agricultural Area to the west and the Florida Coastal Lowlands ecology to the east set the broader pest context for the entire county.",
+    topPests: ["Subterranean Termites", "Cockroaches", "Mosquitoes", "Fire Ants", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Subterranean, drywood, and Formosan termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms spring through summer",
+        note: "Palm Beach County has all three major termite groups: native eastern subterranean termites, drywood termites in interior woodwork and attic framing, and Formosan subterranean termites. The Florida Department of Agriculture lists Palm Beach County within the Formosan termite zone. Termite pressure in West Palm Beach is among the highest in Florida.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs) and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches breed in the storm drain infrastructure and tropical landscaping throughout West Palm Beach and move indoors readily. German cockroaches are the dominant species in the dense multi-family housing, restaurants, and commercial kitchens throughout the city.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak June through October",
+        note: "Lake Worth Lagoon, the Intracoastal Waterway, the inland waterways, and the rain-season standing water across Palm Beach County sustain a year-round mosquito season. Palm Beach County Mosquito Control conducts area-wide treatment, but canal-front and lagoon-adjacent properties need supplemental private management.",
+      },
+      {
+        name: "Red imported fire ants and white-footed ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Red imported fire ants are prevalent across Palm Beach County's residential areas. White-footed ants are a tropical species established in South Florida that trails in large numbers along structures and is resistant to standard ant baits.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are the dominant rodent in West Palm Beach, climbing into attics and nesting in palm trees and overhead vegetation. The urban tree canopy along the streets of older neighborhoods provides travel routes from trees to rooflines.",
+      },
+    ],
+    localHook:
+      "West Palm Beach has all three major Florida termite groups present: native subterranean, drywood, and Formosan. The Florida Department of Agriculture places Palm Beach County in the Formosan zone, and the county's warm, humid climate means termite colonies remain active year-round. Annual inspections are not optional here, they are the standard practice.",
+    intro:
+      "Pest control in West Palm Beach is a year-round commitment. The subtropical climate, Lake Worth Lagoon, and the county's extensive waterway network sustain continuous pest activity across every season. All three major Florida termite types are present: native subterranean, drywood, and Formosan, with Palm Beach County confirmed in the Formosan zone. American cockroaches are a year-round indoor and outdoor pest. Mosquitoes remain active through the dry season, not just the wet summer. Fire ants and white-footed ants apply pressure in the landscaping. Roof rats are the dominant rodent, nesting in attics and palm trees throughout the city.",
+    sections: [
+      {
+        heading: "Why termite risk is particularly high in West Palm Beach",
+        body: "West Palm Beach's position in the heart of South Florida's termite zone means homeowners deal with three distinct species at once. Eastern subterranean termites build underground colonies and reach wood through soil contact. Drywood termites enter through unfinished wood surfaces and require no soil contact, infesting attic framing and interior woodwork directly. Formosan subterranean termites are an invasive species with colonies that can be ten times larger than native subterranean termite colonies, enabling them to cause structural damage faster. The Florida Department of Agriculture lists Palm Beach County within the Formosan termite zone. Managing termite risk in West Palm Beach means annual inspections that cover all three species, not just one.",
+      },
+      {
+        heading: "Roof rats and the West Palm Beach tree canopy",
+        body: "Roof rats are the dominant rat species throughout South Florida, and West Palm Beach's mature urban tree canopy creates the overhead travel routes they prefer. They climb from trees onto rooflines and enter attics through gaps at the soffit, around utility lines, and at gable vents. They nest in attic insulation and in palm trees, and they are attracted to fruit trees, outdoor bird feeders, and unsecured garbage. Exclusion work at the roofline, combined with trimming branches away from the roof and removing outdoor food sources, is the foundation of effective roof rat management in West Palm Beach. Trapping inside the attic removes established animals; exclusion prevents new ones from entering.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection that specifically covers subterranean, drywood, and Formosan species.",
+      "Trim tree branches at least six feet from the roofline to remove roof rat travel routes.",
+      "Eliminate standing water after rain events and treat the vegetation around the property perimeter for mosquito control.",
+      "Use a perimeter treatment program for fire ants and maintain it year-round given the subtropical climate.",
+    ],
+    costNote:
+      "West Palm Beach pest services start with a free inspection. Annual termite protection contracts are the standard for all residential properties in Palm Beach County. Quarterly general pest plans cover cockroaches, ants, and perimeter pests. Mosquito barrier programs are available seasonally. Roof rat programs include exclusion and attic trapping.",
+    faqs: [
+      {
+        question: "Are all three types of termites really present in West Palm Beach?",
+        answer:
+          "Yes. Eastern subterranean termites, drywood termites, and Formosan subterranean termites are all present in Palm Beach County. The Florida Department of Agriculture confirms the county is within the Formosan termite zone. Annual inspections that evaluate all three species are the standard recommendation for all West Palm Beach properties.",
+      },
+      {
+        question: "Why are white-footed ants so hard to control in South Florida?",
+        answer:
+          "White-footed ants are a tropical species established in South Florida that has an unusual biology: roughly half the colony workers are capable of reproduction, meaning bait acceptance is limited because the colony can rebuild quickly even when foragers are reduced. Barrier treatment around the foundation and exclusion of their entry routes is more effective than relying on bait alone for this species.",
+      },
+      {
+        question: "Is mosquito season really year-round in West Palm Beach?",
+        answer:
+          "Effectively yes. The warm subtropical climate and the waterway network sustain mosquito activity year-round, though the wet season from June through October is the peak pressure period. Even in the dry season, standing water in planter saucers, blocked gutters, and low-lying areas produces breeding. Palm Beach County Mosquito Control provides area treatment, but waterfront and canal-adjacent properties benefit from supplemental private management.",
+      },
+      {
+        question: "How do roof rats get into West Palm Beach attics?",
+        answer:
+          "Roof rats are excellent climbers and travel overhead through the tree canopy. They access attics through gaps at the soffit, around utility lines, at gable vents, and anywhere the roofline has a gap larger than a half-inch. Trimming tree branches at least six feet from the roof eliminates the primary travel route. Sealing the roofline entry points stops new rats from following the same path. Once inside, snap traps in the attic space remove the established population.",
+      },
+      {
+        question: "What is the WDO report and do I need one in West Palm Beach?",
+        answer:
+          "The WDO (wood-destroying organism) report is a Florida-required inspection report for real estate transactions. A licensed pest control operator inspects the property for termites, wood decay fungi, and other wood-destroying organisms and reports findings. In West Palm Beach, where all three major termite species are present, the WDO report is a critical due-diligence step for any property purchase. Review it carefully before closing.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Fort Lauderdale", slug: "fort-lauderdale" },
+      { name: "Miami", slug: "miami" },
+      { name: "Port St. Lucie", slug: "port-st-lucie" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in West Palm Beach, FL | Termites, Mosquitoes & Roof Rats",
+    metaDescription:
+      "West Palm Beach pest control for subterranean, drywood and Formosan termites, cockroaches, mosquitoes, fire ants and roof rats. Palm Beach County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "clearwater",
+    name: "Clearwater",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~117,000",
+    county: "Pinellas County",
+    climate: "hot-humid",
+    climateDriver:
+      "Clearwater occupies the Gulf coast of Pinellas County, a narrow peninsula between Tampa Bay to the east and the Gulf of Mexico to the west. The warm Gulf waters moderate temperatures year-round and prevent any significant winter pest knockback. The beach tourism economy, dense coastal development, and the Old Tampa Bay waterfront create the humid, warm conditions that sustain Florida's full pest calendar throughout the year.",
+    topPests: ["Subterranean Termites", "Cockroaches", "Mosquitoes", "Fire Ants", "Ghost Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean and drywood termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms spring and summer",
+        note: "Clearwater's warm coastal climate sustains subterranean termite colonies year-round. Drywood termites are established in the area, infesting attic framing and interior woodwork directly. Annual inspections are the standard recommendation across Pinellas County.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge in wet season",
+        note: "American cockroaches thrive in Clearwater's warm, humid coastal climate, breeding in the storm drains and dense tropical landscaping. They are drawn into beach-area hotels and restaurants as well as residential properties. The year-round warmth prevents any seasonal reduction in outdoor populations.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak June through October",
+        note: "Clearwater's coastal location, Old Tampa Bay shoreline, and the rain-season standing water across the peninsula sustain a persistent mosquito season. Pinellas County Mosquito Control provides area treatment, but coastal properties and those near the bay face ongoing pressure between public treatment cycles.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are pervasive across Clearwater's residential neighborhoods and parks. The warm climate keeps them active year-round with no seasonal break. Mounds appear and expand quickly after the heavy rain events of the wet season.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are a tropical species well-established in Clearwater and throughout the Tampa Bay area. Nearly transparent and tiny, they trail through kitchens and bathrooms in large numbers. They are resistant to standard ant baits and require specific treatment approaches for sustained control.",
+      },
+    ],
+    localHook:
+      "Ghost ants are one of the most distinctive Tampa Bay area pest challenges. Tiny, nearly transparent, and heat-loving, they are well-established throughout Clearwater and respond poorly to standard ant baits. Pinellas County's warm coastal climate means ghost ant activity does not pause in winter, making year-round management the practical approach.",
+    intro:
+      "Pest control in Clearwater runs year-round because the warm Gulf coast climate provides no seasonal reset. Subterranean and drywood termites stay active in Pinellas County's warmth through every month. American cockroaches are a persistent indoor and outdoor presence. Mosquitoes peak in the wet season but remain active through the dry winter because the coastal climate prevents the cold that would reduce their numbers. Fire ants are dense across the city's lawns and parks. Ghost ants, a tropical species well-established throughout the Tampa Bay area, are one of the most persistent small ant problems in Clearwater homes and are notably resistant to standard ant bait.",
+    sections: [
+      {
+        heading: "Ghost ants: Clearwater's most persistent small ant",
+        body: "Ghost ants are one of the signature pest challenges of the Tampa Bay coast. They are tiny, nearly translucent, and trail in large numbers through kitchens, bathrooms, and around any moisture source. The colony structure of ghost ants, with multiple queens and a tendency to bud off new satellite colonies when stressed by standard bait or spray, makes them resistant to many of the products that work on other ant species. Effective management combines a sweet liquid bait formulated for ghost ants placed at active trail points, combined with perimeter sealing to reduce the number of ants moving between the outdoor colony and the interior. Spraying alone disperses them temporarily but typically makes the problem worse over time by triggering colony splitting.",
+      },
+      {
+        heading: "Termites and the Clearwater coastal climate",
+        body: "Clearwater's coastal location and the year-round warmth of the Gulf coast mean termite colonies are never as inactive here as they might be in a northern city with cold winters. Subterranean termites keep underground colonies active throughout the year and swarm in spring and early summer. Drywood termites infest wood directly without soil contact, entering through unpainted or unfinished wood surfaces. Both species are confirmed in Pinellas County. An annual termite inspection is the standard recommendation for all Clearwater properties, and for beach-area vacation rentals that may have had years of deferred inspection, a thorough inspection is worth prioritizing.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection that covers both subterranean and drywood species.",
+      "Use specific ghost ant bait rather than standard ant spray, which scatters the colony and makes control harder.",
+      "Eliminate standing water after rain and treat coastal vegetation around the property for mosquito management.",
+      "Keep mulch thin and away from the foundation and trim back tropical landscaping to reduce cockroach harborage.",
+    ],
+    costNote:
+      "Clearwater pest services start with a free inspection. Annual termite protection contracts are standard for all residential properties in Pinellas County. Quarterly general programs cover cockroaches, ants, and perimeter pests. Ghost ant management is often included in the quarterly plan with species-specific bait. Mosquito barrier programs are available seasonally.",
+    faqs: [
+      {
+        question: "What makes ghost ants in Clearwater so hard to control?",
+        answer:
+          "Ghost ants have multiple queens per colony and respond to stress by budding off new satellite colonies rather than dying off. Standard perimeter spray disrupts their trails temporarily but often causes colony splitting that spreads them further. Species-specific sweet liquid bait placed at active trail points, combined with perimeter sealing, provides more sustained results. An IPM approach that avoids broad spraying is the recommended strategy for ghost ant management.",
+      },
+      {
+        question: "Are termites year-round in Clearwater?",
+        answer:
+          "Yes. The Gulf coast climate sustains subterranean and drywood termite colony activity throughout the year, with no winter cold to slow them significantly. Swarms are most common in spring and early summer, but colony activity and feeding continue year-round. Annual inspections are the standard recommendation for all Pinellas County properties.",
+      },
+      {
+        question: "Why are mosquitoes active in Clearwater even in winter?",
+        answer:
+          "Clearwater's mild Gulf coast winters rarely produce temperatures cold enough to suppress mosquito activity meaningfully. Even in the dry season, standing water in planter saucers, blocked gutters, and low spots in the yard produces breeding. The coastal location and proximity to Tampa Bay provide habitat close to most properties year-round. Pinellas County Mosquito Control provides area treatment, but private property management is needed between public treatment cycles.",
+      },
+      {
+        question: "Are fire ants active year-round in Clearwater?",
+        answer:
+          "Yes. The warm Pinellas County climate gives fire ants no significant winter break. Mounds appear and expand throughout the year, with the fastest growth occurring after the heavy rain events of the June through October wet season. Quarterly perimeter treatment combined with broadcast bait applications twice per year keeps fire ant populations manageable in most Clearwater yards.",
+      },
+      {
+        question: "How does the beach tourism economy affect pest pressure in Clearwater?",
+        answer:
+          "Clearwater Beach's hotel and restaurant density, combined with the high foot traffic and food waste generated by tourism, sustains pest populations in the commercial areas that can spread into nearby residential neighborhoods. American cockroach pressure near the beach commercial corridor is higher than in inland residential areas. For homeowners near the beach tourism zone, a more frequent service schedule (monthly rather than quarterly) is often worth considering.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Tampa", slug: "tampa" },
+      { name: "St. Petersburg", slug: "st-petersburg" },
+      { name: "Gainesville", slug: "gainesville" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Clearwater, FL | Termites, Ghost Ants & Mosquitoes",
+    metaDescription:
+      "Clearwater pest control for subterranean and drywood termites, ghost ants, cockroaches, mosquitoes and fire ants. Pinellas County Gulf coast specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

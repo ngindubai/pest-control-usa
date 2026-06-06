@@ -322,4 +322,216 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Naperville pest control for house mice, carpenter ants, subterranean termites, mosquitoes and stink bugs. DuPage County Chicago suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "joliet",
+    name: "Joliet",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T2",
+    population: "~150,000",
+    county: "Will County",
+    climate: "cold-humid",
+    climateDriver:
+      "Joliet sits in Will County, southwest of Chicago, at the Des Plaines River junction. The cold-humid Great Plains climate delivers cold winters and hot, humid summers. The river corridor, the I-80 industrial corridor, and the city's older residential neighborhoods create a mix of urban and river-edge pest pressure. Joliet's industrial history and the proximity to both Chicago's urban pest populations and the surrounding agricultural areas gives it a broader range of pest concerns than purely suburban locations.",
+    topPests: ["House Mice", "Odorous House Ants", "Yellowjackets", "Bed Bugs", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through March, active year-round once inside",
+        note: "House mice are the top residential pest complaint across Will County. The University of Illinois Extension identifies them as the most common rodent pest in northern Illinois. Joliet's older housing stock and the I-80 corridor industrial zones both sustain high mouse pressure that spreads into residential areas.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active year-round indoors, peak foraging spring through fall",
+        note: "Odorous house ants are the dominant indoor ant in Joliet and throughout the Chicago metro area. They nest in wall voids and under floors and trail to food and moisture sources. They are persistent through standard spray and respond better to slow-acting bait that targets the colony.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active June through October, most aggressive August through October",
+        note: "Yellowjackets are a significant late-summer pest in Joliet. They nest in wall voids of older homes and in ground cavities in yards. The I-80 corridor industrial and warehouse areas have elevated yellowjacket pressure from the open ground and debris piles that provide nesting habitat.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round indoors",
+        note: "Joliet's multi-family housing stock, the local hotel and casino industry, and the proximity to Chicago's substantial bed bug population create meaningful bed bug pressure in the city. Bed bugs travel in luggage and secondhand furniture and spread quickly in connected multi-family buildings.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active spring through fall, present year-round indoors",
+        note: "Will County is within the northern edge of the brown recluse spider's natural range. University of Illinois Extension confirms brown recluse spiders are present in northern Illinois, including the Joliet area. They favor dry, undisturbed storage spaces in older homes.",
+      },
+    ],
+    localHook:
+      "Will County sits at the northern edge of the brown recluse spider's natural range, and University of Illinois Extension confirms the species is present in northern Illinois including the Joliet area. Combined with Joliet's older housing stock, which has the undisturbed storage spaces brown recluses prefer, this is a pest concern that residents in the area underestimate.",
+    intro:
+      "Pest control in Joliet reflects its position at the edge of the Chicago metro area, with industrial corridor infrastructure, older housing, and Des Plaines River-edge conditions all contributing to the pest picture. House mice are the most consistent year-round concern. Odorous house ants are the dominant indoor ant. Yellowjackets are a significant late-summer pest. Bed bugs are present across the multi-family housing and the hospitality sector. Brown recluse spiders are at the northern edge of their range in Will County, confirmed by University of Illinois Extension, and the older housing stock provides ideal harborage.",
+    sections: [
+      {
+        heading: "Brown recluse spiders at the northern edge of their range",
+        body: "Will County sits within the documented northern extent of the brown recluse spider's range in Illinois. University of Illinois Extension confirms the species is present in northern Illinois. In Joliet, they are most commonly found in the older residential neighborhoods with substantial undisturbed storage in basements and attics. Brown recluse spiders favor dry, dark, and rarely-disturbed spaces: cardboard boxes in storage, behind stored items in closets, attic insulation, and behind furniture that has been in place for years. They are not aggressive but will bite when pressed against skin. Managing them requires reducing clutter in storage areas and treating harborage spaces with a residual insecticide. Any confirmed bite should be evaluated by a medical professional, as a small percentage cause tissue damage.",
+      },
+      {
+        heading: "Bed bugs and the Joliet hospitality sector",
+        body: "Joliet's casino and hotel industry, combined with its position on the I-80 corridor (a major truck route with rest stops and traveler lodging), means the hospitality sector sees more bed bug introduction events than a comparable city without these features. Bed bugs spread from hotels into homes when travelers unknowingly transport them in luggage. From there, they spread in multi-family housing through shared walls and plumbing chases. The practical personal defense is inspecting hotel rooms before settling in (check the mattress seam and the headboard), isolating luggage from the bed when traveling, and laundering clothes on return. For homes that discover bed bugs, early professional treatment before the infestation spreads to multiple rooms is significantly less costly than treating an established whole-home infestation.",
+      },
+    ],
+    prevention: [
+      "Reduce clutter in storage areas and treat attic and basement harborage zones for brown recluse spiders.",
+      "Seal foundation gaps and utility penetrations before October to exclude mice ahead of the cold season push.",
+      "Inspect for bed bugs after travel by checking luggage and laundry; report any signs to building management immediately.",
+      "Treat yellowjacket nests in wall voids and ground cavities in July before they reach peak aggression in August.",
+    ],
+    costNote:
+      "Joliet pest services start with a free inspection. Quarterly general programs cover mice, ants, and perimeter pests. Brown recluse management includes targeted treatment of storage and attic areas. Bed bug treatment is heat or chemical treatment of affected rooms, quoted per room or per unit. Yellowjacket treatment is per nest.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really in Joliet?",
+        answer:
+          "Yes. Will County is within the documented northern range of brown recluse spiders in Illinois, and University of Illinois Extension confirms their presence in northern Illinois. They are most common in older homes with undisturbed storage in basements and attics. Reducing clutter and treating storage areas with a residual insecticide is the primary management approach.",
+      },
+      {
+        question: "Why does Joliet have bed bug pressure near the casino district?",
+        answer:
+          "The casino and hotel industry near Joliet's riverfront creates the high-volume traveler traffic that generates bed bug introduction events. Travelers from multiple states bring them in luggage, and hotel environments can transfer them between guests if inspections and treatment are not rigorous. From hotels they spread into the multi-family residential housing stock through tenants who have stayed in affected properties. Early identification and treatment is the most cost-effective approach.",
+      },
+      {
+        question: "When do mice push into Joliet homes most aggressively?",
+        answer:
+          "The main push indoors happens in October and November when outdoor temperatures drop. University of Illinois Extension identifies mice as the top rodent pest in northern Illinois. For Joliet's older housing near the I-80 corridor and the Des Plaines River, the seasonal push can be significant because the industrial areas nearby sustain large outdoor mouse populations. Sealing foundation gaps before October is the most effective prevention timing.",
+      },
+      {
+        question: "How do odorous house ants in Joliet differ from other ant types?",
+        answer:
+          "Odorous house ants are small, dark brown to black ants that release a faint rotten-coconut smell when crushed. They are the most common ant in Chicago-area homes. They nest in wall voids and under floors and trail to food and moisture. Unlike carpenter ants, they do not damage wood. Unlike pavement ants, they do not typically nest in concrete cracks. They are persistent through standard spray because multiple queens allow the colony to recover quickly. Slow-acting liquid bait placed along active trails is more effective for lasting control.",
+      },
+      {
+        question: "Is pest pressure in Joliet near the I-80 industrial corridor different from suburban neighborhoods?",
+        answer:
+          "Yes. The industrial corridor along I-80, with its warehouses, distribution centers, and truck stops, sustains higher rodent populations and more commercial cockroach pressure than purely residential areas. Homes near these commercial zones see more Norway rat activity from drainage infrastructure and more pressure from the background pest populations in adjacent commercial buildings. A more frequent service schedule may be worth considering for residential properties within a few blocks of major industrial or commercial zones.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Chicago", slug: "chicago" },
+      { name: "Naperville", slug: "naperville" },
+      { name: "Aurora", slug: "aurora" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Joliet, IL | Mice, Bed Bugs & Brown Recluse Spiders",
+    metaDescription:
+      "Joliet pest control for house mice, bed bugs, brown recluse spiders, odorous house ants and yellowjackets. Will County Chicago metro southwest suburbs specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "rockford",
+    name: "Rockford",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T2",
+    population: "~145,000",
+    county: "Winnebago County",
+    climate: "cold-humid",
+    climateDriver:
+      "Rockford sits in northern Illinois on the Rock River, between Chicago to the east and the Iowa border to the west. The cold-humid Great Plains climate delivers some of the coldest winters of any major Illinois city. The Rock River corridor provides moisture habitat. Rockford's declining industrial economy has left a significant stock of older housing and commercial buildings that create challenging pest environments.",
+    topPests: ["House Mice", "Odorous House Ants", "Brown Marmorated Stink Bugs", "Yellowjackets", "Wolf Spiders"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors September through March, active year-round once inside",
+        note: "House mice are the most common residential pest in Rockford and Winnebago County. The University of Illinois Extension confirms mice as the top rodent pest across northern Illinois. The city's older housing stock, the industrial areas, and the Rock River corridor all sustain a significant background mouse population that pushes into structures with the first fall cold.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round indoors, peak spring through fall",
+        note: "Odorous house ants are the dominant indoor ant across northern Illinois including Rockford. They trail indoors from outdoor colonies along foundation gaps and around utility penetrations, foraging for food and moisture in kitchens and bathrooms year-round.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate on structures in September and October, overwinter in wall voids",
+        note: "Brown marmorated stink bugs have spread into northern Illinois and are now an established fall pest in Rockford. They aggregate on the south and west faces of buildings in September and October seeking overwintering sites, working into wall voids and emerging indoors in winter and early spring.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active June through October, peak August through October",
+        note: "Yellowjackets are a significant late-summer pest in Rockford. The older residential neighborhoods with aging siding and eaves provide frequent wall void nesting sites. Ground nests are common in the Rock River corridor parks and adjacent yards.",
+      },
+      {
+        name: "Wolf spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active spring through fall, seek shelter indoors in fall",
+        note: "Wolf spiders are common across northern Illinois and move into Rockford homes in significant numbers in the fall as they seek overwintering shelter. They are large and fast-moving, which makes them alarming, but they are not medically significant.",
+      },
+    ],
+    localHook:
+      "Rockford's older housing stock and northern Illinois location make it one of the more challenging mouse exclusion environments in the state. The University of Illinois Extension identifies Rockford-area homes as representative of the older industrial city housing that has the most persistent mouse pressure in northern Illinois: aging foundations, failing utility seals, and a background outdoor mouse population sustained by the abandoned and underused industrial properties that remain common in the city.",
+    intro:
+      "Pest control in Rockford is shaped by cold winters, an older housing stock, and the Rock River. House mice are the most consistent year-round concern, driven hard into heated structures by Rockford's cold fall and sustained by the older housing's entry gaps. Odorous house ants trail indoors year-round. Brown marmorated stink bugs have established as a fall pest across northern Illinois and aggregate on Rockford's building exteriors each October. Yellowjackets peak in late summer and nest frequently in the older residential structures. Wolf spiders move into homes in significant numbers in fall as they seek shelter from the dropping temperatures.",
+    sections: [
+      {
+        heading: "Mouse exclusion in Rockford's older housing",
+        body: "Rockford has a larger-than-average share of older housing compared with similarly sized Midwest cities, a legacy of its industrial past. Homes built before 1970 have foundation conditions that make mouse exclusion particularly challenging: cracked and settled concrete block foundations, aging utility penetrations with failed seals, deteriorated garage door thresholds, and sill plates that have shifted over decades. The practical exclusion approach starts with a systematic survey of the foundation perimeter looking for any gap larger than a quarter inch, followed by sealing with steel wool packed into gaps and then sealed with foam or caulk, or metal mesh inserts for larger openings. Foam alone is inadequate because mice can chew through it. Trapping removes the mice already inside; exclusion prevents new animals from entering. For older Rockford homes near abandoned industrial areas, more thorough exclusion work is worth the investment because the background rodent pressure from abandoned structures is higher than in most suburban environments.",
+      },
+      {
+        heading: "Stink bugs arrive in Rockford each October",
+        body: "Brown marmorated stink bugs, an invasive species from Asia that established on the East Coast before spreading westward, have now reached northern Illinois and are a consistent fall pest in Rockford. They aggregate in large numbers on the south and west faces of buildings in September and October, seeking gaps through which to enter and overwinter in wall voids. They do not bite, sting, or damage the structure, but they produce an unpleasant odor when disturbed or crushed, and large indoor aggregations are distressing. The most effective management is exclusion before the fall aggregation: sealing gaps around windows, siding, utility lines, and the junction of siding and foundation in August. Once they are inside the wall voids, removal options are limited to vacuuming individuals that emerge indoors in winter and waiting for them to exit in spring.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations in September using metal-based materials before the fall mouse surge.",
+      "Seal gaps around windows, siding, and utility penetrations in August to exclude stink bugs before their October aggregation.",
+      "Apply odorous house ant bait along foundation edges in spring and summer rather than relying on perimeter spray.",
+      "Treat yellowjacket wall void and ground nests in July before they reach peak size and aggression in August.",
+    ],
+    costNote:
+      "Rockford pest services start with a free inspection. Quarterly general programs cover mice, ants, spiders, and perimeter pests. Stink bug exclusion services are available as a late-summer add-on. Yellowjacket treatment is per nest. Older homes near industrial areas may benefit from more frequent service through the fall and winter.",
+    faqs: [
+      {
+        question: "Why does mouse exclusion feel impossible in older Rockford homes?",
+        answer:
+          "Older homes have many small gaps that mice use and that are hard to find and seal completely. The challenge in Rockford is compounded by the background rodent pressure from abandoned industrial properties and the Rock River corridor, which sustain larger outdoor mouse populations than in most comparable cities. A systematic exclusion survey that identifies and seals every gap larger than a quarter inch using metal-based materials, combined with interior trapping, breaks the cycle. Foam-only sealing is not adequate because mice chew through it.",
+      },
+      {
+        question: "Are stink bugs new to Rockford?",
+        answer:
+          "Relatively. Brown marmorated stink bugs spread from the East Coast westward over the past decade and have now established in northern Illinois. They are an annual fall pest in Rockford, aggregating on buildings in September and October. They do not damage structures or bite, but the odor when crushed or disturbed and the number that can accumulate in wall voids makes them a significant nuisance. Sealing in August before they begin to aggregate is the most effective prevention.",
+      },
+      {
+        question: "What kind of ants are most common in Rockford homes?",
+        answer:
+          "Odorous house ants are the dominant indoor ant in Rockford and throughout northern Illinois. They are small, dark, and release a rotten-coconut odor when crushed. They trail indoors along established paths following pheromones. Pavement ants are also common and nest in cracks in concrete driveways and sidewalks. Carpenter ants are present but less common than in the wetter Pacific Northwest. A technician can identify which species is present from the ant size, color, and nesting location.",
+      },
+      {
+        question: "When do wolf spiders become a problem in Rockford homes?",
+        answer:
+          "Wolf spiders move toward structures in fall, typically September and October, as outdoor temperatures drop. They are large, fast, and ground-dwelling, and their sudden appearance indoors tends to alarm residents. They are not dangerous: they are not web-builders and they do not typically bite unless handled. Reducing clutter in ground-level areas of basements, sealing foundation gaps, and clearing debris from the exterior of the structure reduces fall entry. Interior perimeter treatment in September reduces the number that make it inside.",
+      },
+      {
+        question: "Are Rockford's yellowjacket problems connected to the older commercial buildings downtown?",
+        answer:
+          "Yes. Older commercial and industrial buildings in Rockford's downtown and near-downtown areas provide abundant wall void nesting habitat for yellowjackets. Workers from these nests forage into the surrounding neighborhood, and the size of the commercial structures means nest colonies can grow larger than in typical residential settings. Properties near vacant or underused commercial buildings tend to see more yellowjacket pressure than properties further from older commercial zones.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Chicago", slug: "chicago" },
+      { name: "Aurora", slug: "aurora" },
+      { name: "Joliet", slug: "joliet" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Rockford, IL | Mice, Stink Bugs & Yellowjackets",
+    metaDescription:
+      "Rockford pest control for house mice, brown marmorated stink bugs, odorous house ants, yellowjackets and wolf spiders. Winnebago County northern Illinois specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

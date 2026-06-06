@@ -223,4 +223,110 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaDescription:
       "Pittsburgh pest control for brown marmorated stink bugs, house mice, subterranean termites, carpenter ants and cockroaches. Allegheny County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "allentown",
+    name: "Allentown",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T2",
+    population: "~125,000",
+    county: "Lehigh County",
+    climate: "cold-humid",
+    climateDriver:
+      "Allentown sits in the Lehigh Valley of eastern Pennsylvania, about 60 miles north of Philadelphia. The cold-humid Mid-Atlantic climate delivers cold winters and warm, humid summers. Pennsylvania is one of the most heavily brown marmorated stink bug-affected states in the country, and the Lehigh Valley's position at the edge of the South Mountain ridge creates significant stink bug pressure from the adjacent forested ridgeline habitat. The Jordan Creek and Little Lehigh Creek add moisture that sustains mosquitoes and other water-associated pests.",
+    topPests: ["Brown Marmorated Stink Bugs", "Pavement Ants", "House Mice", "Yellowjackets", "Carpet Beetles"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate on structures August through November, emerge indoors in late winter and spring",
+        note: "Pennsylvania is the state where brown marmorated stink bugs were first detected in the US (Allentown, PA, 2001) and the Lehigh Valley remains one of the most heavily affected areas in the country. Penn State Extension confirms they are well-established throughout the region. They aggregate on the south and west faces of buildings in fall and work into wall voids to overwinter.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active spring through fall, may appear indoors year-round",
+        note: "Pavement ants are the dominant structural ant in Allentown, nesting in cracks in concrete driveways, sidewalks, and foundations and entering homes through expansion joints and foundation gaps. They are common across the Lehigh Valley's older urban neighborhoods.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through March, active year-round once inside",
+        note: "House mice are the top rodent pest in Allentown and across the Lehigh Valley. Penn State Extension identifies mice as the primary residential rodent in Pennsylvania. The city's older housing stock and the fall temperature drops drive mice firmly into structures by October.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active May through October, peak August through October",
+        note: "Yellowjackets are a significant late-summer pest in the Lehigh Valley. They nest in wall voids of older homes and in ground cavities in suburban yards. Nests reach maximum size and aggression in August and September.",
+      },
+      {
+        name: "Carpet beetles",
+        serviceSlug: "moth-control",
+        activeSeason: "Year-round indoors, adults visible in spring",
+        note: "Carpet beetles are a persistent pest in older Allentown homes with wool carpets, natural-fiber rugs, stored woolens, and taxidermy. Adults are visible in spring when they emerge seeking light near windows. Larvae do the actual damage, feeding on natural fibers and protein-based materials.",
+      },
+    ],
+    localHook:
+      "Brown marmorated stink bugs were first detected in the United States in Allentown, Pennsylvania, in 2001. Twenty-plus years later, the Lehigh Valley remains one of the most heavily affected areas in the country. Penn State Extension ranks Pennsylvania among the most impacted states, and the South Mountain ridgeline west of the valley sustains the populations that aggregate on Allentown homes every fall.",
+    intro:
+      "Pest control in Allentown has a distinction: this is where brown marmorated stink bugs were first detected in the United States. Penn State Extension confirms the Lehigh Valley remains one of the most significantly affected areas in the country. Every fall, stink bugs from the surrounding forested ridgelines aggregate on the south and west faces of buildings before working into wall voids to overwinter. Pavement ants are the dominant structural ant. Mice push firmly into structures each October. Yellowjackets peak in late summer. Carpet beetles are a chronic issue in older homes with natural-fiber textiles.",
+    sections: [
+      {
+        heading: "Stink bugs: Allentown's origin story and ongoing reality",
+        body: "Brown marmorated stink bugs were first documented in the US in Allentown in 2001, brought in through international trade. They have since spread to 44 states. In the Lehigh Valley, where they have been established the longest, the fall aggregations can be significant. The South Mountain ridge west of Allentown provides forested habitat that sustains large populations, and the stink bugs that aggregate on those slopes spread to building surfaces as they seek overwintering sites. They work through any gap they can find: around window frames, where siding meets the foundation, around utility penetrations, and through soffit gaps. Once inside wall voids, they overwinter passively but emerge indoors when interior heat activates them in late winter and early spring. Penn State Extension recommends exclusion as the primary management strategy: sealing all building penetrations before the August aggregation begins is more effective than any other single measure.",
+      },
+      {
+        heading: "Pavement ants and older urban Allentown",
+        body: "Pavement ants are the most common structural ant in Allentown. They nest in the cracks and expansion joints of concrete, and in the aging foundations of the city's older neighborhoods. From those nests they trail into homes through the same gaps they use to build. They appear indoors along baseboards and in kitchens following moisture and food trails. Unlike carpenter ants, they do not damage wood. Unlike fire ants, they do not sting. They are a nuisance pest that requires patience to manage because the colony is in the concrete itself, not in an accessible location for direct treatment. Slow-acting bait placed along active trails and foundation edges is more effective than contact spray at reducing the foraging population. Sealing the expansion joints and cracks in the foundation concrete reduces entry points over time.",
+      },
+    ],
+    prevention: [
+      "Seal all building penetrations, window frames, utility lines, and siding-to-foundation gaps in July before stink bug aggregation.",
+      "Seal foundation concrete cracks and expansion joints to reduce pavement ant nesting and entry sites.",
+      "Seal foundation gaps with metal-based materials before October to exclude mice ahead of the cold season.",
+      "Store woolens, natural-fiber rugs, and taxidermy in sealed containers to prevent carpet beetle damage.",
+    ],
+    costNote:
+      "Allentown pest services start with a free inspection. Quarterly general programs cover mice, ants, and perimeter pests. Stink bug exclusion is a late-summer service worth scheduling every August. Yellowjacket treatment is per nest. Carpet beetle management requires a targeted interior treatment of affected areas.",
+    faqs: [
+      {
+        question: "Is Allentown really where stink bugs started in the US?",
+        answer:
+          "Yes. Brown marmorated stink bugs were first documented in the US in Allentown, Pennsylvania, in 2001. They arrived through international shipping and have since spread to 44 states. The Lehigh Valley has had the species established longer than anywhere else in the country, and remains one of the most heavily affected areas. Penn State Extension has done extensive research on the species in the region.",
+      },
+      {
+        question: "When should I seal my Allentown home against stink bugs?",
+        answer:
+          "July and early August. Stink bugs begin aggregating on building surfaces in August and work into gaps and wall voids in September and October. Completing exclusion work before the August aggregation begins prevents them from finding entry points. Once they are inside wall voids, the practical options are limited to vacuuming individuals that emerge indoors. Penn State Extension's primary recommendation is exclusion before aggregation.",
+      },
+      {
+        question: "Why are pavement ants so common in Allentown's older neighborhoods?",
+        answer:
+          "Pavement ants nest in concrete cracks and expansion joints, and older neighborhoods have more aged and cracked concrete than newer construction. The aging foundations and sidewalks in Allentown's older residential areas provide extensive nesting habitat. Slow-acting bait placed at active trail points is more effective than spray at reducing foraging populations from colonies embedded in concrete.",
+      },
+      {
+        question: "How do carpet beetles damage a home?",
+        answer:
+          "Adult carpet beetles are small, oval-shaped beetles that feed on pollen outdoors and are relatively harmless. The larvae do the damage: they feed on natural fibers including wool, silk, leather, fur, and feathers, as well as protein-based materials like taxidermy. In older Allentown homes with wool rugs, stored woolens, and vintage textile items, carpet beetle larvae can cause significant irreversible damage over time if undetected. Adults are visible in spring near windows; larvae are hidden in the fibers of the materials they are consuming.",
+      },
+      {
+        question: "Are there subterranean termites in the Lehigh Valley?",
+        answer:
+          "Yes. Eastern subterranean termites are present throughout Pennsylvania including the Lehigh Valley. They are less of an acute concern in Allentown than stink bugs and mice are, but annual termite inspections are worthwhile for older properties in the area. Mud tubes along the foundation perimeter or in the crawl space are the most visible sign. Penn State Extension recommends annual inspections for Pennsylvania properties as a baseline.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Philadelphia", slug: "philadelphia" },
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Newark", slug: "newark" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Allentown, PA | Stink Bugs, Mice & Pavement Ants",
+    metaDescription:
+      "Allentown pest control for brown marmorated stink bugs, house mice, pavement ants, yellowjackets and carpet beetles. Lehigh Valley PA stink bug ground-zero specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

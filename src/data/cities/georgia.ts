@@ -664,4 +664,110 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Sandy Springs pest control for fire ants, subterranean termites, mosquitoes, Norway rats and stink bugs. Fulton County Chattahoochee corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "athens",
+    name: "Athens",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T2",
+    population: "~130,000",
+    county: "Athens-Clarke County",
+    climate: "hot-humid",
+    climateDriver:
+      "Athens sits in the Georgia Piedmont, about 70 miles northeast of Atlanta. Athens-Clarke County operates as a unified city-county government. The hot, humid Piedmont climate delivers long, warm summers and mild winters with a short cold season. The Oconee River, the North Fork of the Middle Oconee, and the forested Piedmont landscape create moisture and wildlife corridors. The University of Georgia is the city's dominant institution, and the large student population creates a significant multi-family housing stock.",
+    topPests: ["Subterranean Termites", "Cockroaches", "Fire Ants", "Mosquitoes", "Brown Widow Spiders"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active underground year-round",
+        note: "Subterranean termites are well-established across the Georgia Piedmont, and Athens-Clarke County has consistent termite activity. University of Georgia Extension confirms the region's warm, humid climate supports active termite colonies year-round with spring swarming. Older homes near downtown and around the UGA campus have the highest exposure from years of potential termite pressure.",
+      },
+      {
+        name: "American cockroaches (tree roaches)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in summer humidity",
+        note: "American cockroaches breed in the storm drains, mulch, and dense Piedmont vegetation throughout Athens and push indoors during the hot, humid summer. The Oconee River corridor and the older commercial areas near downtown sustain the highest outdoor populations.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after rain",
+        note: "Fire ants are dense across Athens-Clarke County. The warm Georgia Piedmont climate gives them no significant winter break. New development in the growing suburban areas consistently disrupts soil that fire ants recolonize rapidly. UGA Extension identifies fire ants as the dominant outdoor ant pest across the Georgia Piedmont.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The Oconee River and its tributaries, the stormwater retention areas, and the seasonal rainfall across Athens provide sustained mosquito breeding habitat. Georgia's public health agencies monitor West Nile virus and Eastern equine encephalitis through the season.",
+      },
+      {
+        name: "Brown widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active in warm months",
+        note: "Brown widow spiders have expanded their range across the Southeast and are now established in the Georgia Piedmont including the Athens area. They are found in outdoor furniture, shutters, under eaves, and in undisturbed outdoor storage. Their egg sacs have a distinctive spiky appearance. Their venom is more potent than the black widow per volume, but they inject less venom and bites are less commonly serious.",
+      },
+    ],
+    localHook:
+      "Athens is home to the University of Georgia, and the city's combination of warm Piedmont climate, older housing stock near campus, and a dense student population creates elevated German cockroach and termite exposure in the university neighborhood areas. UGA Extension's own pest management resources confirm the region's significant termite and fire ant pressure.",
+    intro:
+      "Pest control in Athens follows the hot-humid Georgia Piedmont calendar. Subterranean termites are active underground year-round across Athens-Clarke County, with swarms in spring. American cockroaches are a year-round outdoor and summer indoor pest. Fire ants are dense across lawns and parks and rebuild after every rain. Mosquitoes are a seasonal health concern from March through October. Brown widow spiders, a range-expanding species in the Southeast, are now established in the Athens area. The University of Georgia's presence creates additional pest considerations in the dense multi-family housing near campus.",
+    sections: [
+      {
+        heading: "Termites and the Athens older housing stock",
+        body: "Athens has a large stock of older housing near the UGA campus, in the Five Points neighborhood, the Boulevard neighborhood, and the downtown area, where buildings dating from the early to mid-twentieth century have had decades of potential termite exposure. University of Georgia Extension confirms that subterranean termites are active across the Georgia Piedmont and that the warm, humid climate keeps colonies active through most of the year. Annual inspections are the standard recommendation for all Athens-Clarke County properties. Older homes where the treatment history is unknown should be inspected promptly. The visible signs of subterranean termites are mud tubes on the exterior foundation, soft or hollow-sounding flooring near the slab perimeter, and spring swarmers emerging indoors from the floor or wall.",
+      },
+      {
+        heading: "Brown widow spiders: the newcomer to the Athens pest list",
+        body: "Brown widow spiders have expanded their range northward through the Southeast over the past two decades and are now established in the Georgia Piedmont including Athens. They are related to the black widow but are brown and tan rather than black, and their egg sacs have a distinctive spiky surface that distinguishes them from black widow egg sacs. They prefer outdoor structures, outdoor furniture, under eaves, shutters, and undisturbed outdoor storage. Their venom is reportedly more potent than the black widow's per unit volume, but they tend to inject less venom and bites are generally less severe. Managing them is similar to black widow management: regular inspection and clearing of outdoor storage and furniture, combined with perimeter treatment that covers the outdoor harborage areas. Wearing gloves when reaching into undisturbed outdoor spaces is sensible in the Athens area.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection, particularly for older Athens homes near campus where treatment history may be unknown.",
+      "Treat fire ant mounds promptly after rain and apply broadcast bait twice per year across the lawn.",
+      "Inspect outdoor furniture, shutters, and storage for brown widow egg sacs and webs seasonally.",
+      "Eliminate standing water near the Oconee River, in planter trays, and in low drainage areas to reduce mosquito breeding.",
+    ],
+    costNote:
+      "Athens pest services start with a free inspection. Annual termite protection contracts are the standard for all Athens-Clarke County properties. Quarterly general programs cover cockroaches, fire ants, and perimeter pests. Brown widow management is included in the general perimeter treatment program. Mosquito barrier programs are available seasonally.",
+    faqs: [
+      {
+        question: "Are subterranean termites active year-round in Athens?",
+        answer:
+          "Yes. University of Georgia Extension confirms that subterranean termites remain active underground through most of the year in the warm, humid Georgia Piedmont. They swarm in spring to establish new colonies, but existing underground colonies continue feeding year-round. Annual inspections are the standard recommendation for all Athens-Clarke County properties.",
+      },
+      {
+        question: "Are brown widow spiders dangerous in Athens?",
+        answer:
+          "Brown widow spiders are established in the Athens area as part of their northward range expansion in the Southeast. Their venom is reportedly more potent than the black widow's per volume, but they tend to inject less venom and bites are generally less severe than black widow bites. They prefer outdoor locations: furniture, shutters, and undisturbed outdoor storage. Wearing gloves when reaching into undisturbed outdoor spaces and inspecting items before use is a sensible practice.",
+      },
+      {
+        question: "How bad are fire ants in Athens-Clarke County?",
+        answer:
+          "Fire ants are dense throughout Athens-Clarke County and the Georgia Piedmont. The warm climate gives them no significant winter break, and the spring and summer rains trigger rapid mound rebuilding. Growing suburban development north and west of Athens consistently encounters elevated fire ant pressure as new construction disturbs soil that colonies recolonize quickly. Broadcast bait treatment twice per year combined with individual mound treatment as needed is the standard management approach.",
+      },
+      {
+        question: "Does the UGA campus affect pest pressure in nearby neighborhoods?",
+        answer:
+          "Yes. The density of student housing, the food service operations, and the large campus green spaces all affect the pest picture in neighborhoods near UGA. German cockroaches are more common in the multi-family housing stock near campus than in single-family neighborhoods. Fire ants are managed on the campus green spaces but rebuild along property lines. The older housing stock near campus also has more termite exposure from decades of potential activity.",
+      },
+      {
+        question: "When is mosquito season in Athens?",
+        answer:
+          "Mosquito season in Athens runs from approximately March through October. The Oconee River and its tributaries, the stormwater infrastructure, and the seasonal rainfall across the Piedmont provide consistent breeding habitat. Georgia public health agencies monitor for West Nile virus and Eastern equine encephalitis through the season. Eliminating standing water on the property and treating shaded resting vegetation under decks and in dense plantings reduces pressure from the mosquitoes that breed on your property.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Augusta", slug: "augusta" },
+      { name: "Columbus", slug: "columbus" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Athens, GA | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Athens pest control for subterranean termites, fire ants, cockroaches, mosquitoes and brown widow spiders. Athens-Clarke County Georgia Piedmont UGA city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -2150,4 +2150,428 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Mesquite pest control for German cockroaches, fire ants, subterranean termites, Norway rats and mosquitoes. Dallas County eastern suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "grand-prairie",
+    name: "Grand Prairie",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~201,000",
+    county: "Dallas and Tarrant counties",
+    climate: "hot-humid",
+    climateDriver:
+      "Grand Prairie sits at the geographic center of the DFW Metroplex, spanning Dallas and Tarrant counties where the Trinity River floodplain and Joe Pool Lake add moisture to an already hot North Texas summer. The mix of industrial corridors, older residential neighborhoods, and lakeside recreation areas creates year-round pest pressure driven by that combination of heat and sustained ground moisture.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Cockroaches", "Mosquitoes", "Rats"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after rain",
+        note: "Fire ants are dense across Grand Prairie's residential and park areas. The Trinity River corridor and the Joe Pool Lake basin keep ground moisture high, letting colonies rebuild fast after rain. Texas A&M AgriLife Extension identifies red imported fire ants as the dominant ant pest across the DFW region.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active underground year-round",
+        note: "Grand Prairie's clay soils retain moisture even during dry stretches, keeping subterranean termite colonies active through summer. Swarms appear on warm, still days in March and April, sometimes emerging near the foundation or from slab expansion joints.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge indoors in summer",
+        note: "Large American cockroaches breed in storm drains and mulch beds and push inside when the summer heat intensifies. The older commercial areas near I-30 and SH 303 maintain an outdoor population that spreads into adjacent neighborhoods.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Joe Pool Lake and the Trinity River floodplain provide sustained mosquito breeding habitat. Dallas County monitors West Nile virus in area traps every summer and issues alerts when counts are elevated. Lakeside neighborhoods see the longest season.",
+      },
+      {
+        name: "Norway and roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, push indoors in fall",
+        note: "Industrial zones near I-20 and SH 360 sustain a rat population that spreads into adjacent residential areas. Norway rats burrow near foundations; roof rats travel through tree canopy and utility lines into attics.",
+      },
+    ],
+    localHook:
+      "Grand Prairie's position in the center of DFW means it gets the full Metroplex pest calendar. Joe Pool Lake adds a mosquito season that lakeside neighborhoods feel from March through November, and the Trinity River corridor keeps fire ant colonies rebuilding all spring and summer.",
+    intro:
+      "Pest control in Grand Prairie follows the North Texas calendar closely. Fire ants are dense across the lawns and parks and rebuild quickly near the moisture provided by Joe Pool Lake and the Trinity River floodplain. Subterranean termites are active underground through most of the year in the clay soils, with visible swarms in spring. American cockroaches move from storm drains and outdoor mulch into homes during the hot summer months. Mosquitoes are a seasonal health concern from March through November, with Dallas County monitoring West Nile virus activity in area traps. The city's industrial corridors sustain a rat population that spreads along drainage corridors into residential zones.",
+    sections: [
+      {
+        heading: "Fire ants and the lake and river moisture effect",
+        body: "The area around Joe Pool Lake and the Trinity River floodplain stays wetter than surrounding upland neighborhoods, giving fire ant colonies the consistent ground moisture they need to expand and recover quickly after treatment. Mounds treated in spring can reappear within weeks in low-lying yards near the water. Texas A&M AgriLife Extension recommends a two-step approach for persistent situations: broadcast slow-acting bait across the entire lawn to reduce overall colony load, then treat visible mounds with a contact product two weeks later. Spot-treating individual mounds alone leaves the satellite colonies, which simply grow to replace what was removed.",
+      },
+      {
+        heading: "Termites in Grand Prairie's clay soil",
+        body: "Expansive clay soils across the DFW area hold moisture long after rain events, and this characteristic is what keeps subterranean termite colonies active during the dry summer stretches that would slow them in sandier ground. The practical result is that termite risk in Grand Prairie is a year-round matter rather than a spring-only concern. Annual inspections are worth scheduling for slab-on-grade construction, and any home where the prior treatment is more than five years old should be assessed. Mud tubes along the exterior foundation, soft flooring near the slab perimeter, and spring swarmers emerging indoors are signs that warrant an immediate inspection.",
+      },
+    ],
+    prevention: [
+      "Apply broadcast fire ant bait in March across the full lawn before colonies multiply after spring rain.",
+      "Schedule an annual termite inspection before the spring swarm season; check the foundation perimeter for mud tubes.",
+      "Empty standing water weekly in plant trays, low drainage spots, and any containers near Joe Pool Lake.",
+      "Seal gaps at utility penetrations, weep holes, and garage door thresholds to block cockroach and rat entry.",
+    ],
+    costNote:
+      "Grand Prairie pest services start with a free inspection. Quarterly general programs cover fire ants, cockroaches, and perimeter pests. Termite protection and rodent exclusion are quoted separately. Mosquito barrier programs are available as seasonal packages.",
+    faqs: [
+      {
+        question: "Why are fire ants so persistent near Joe Pool Lake in Grand Prairie?",
+        answer:
+          "The lake and the Trinity River corridor keep soil moisture consistently higher than in surrounding upland neighborhoods. Fire ant colonies thrive in moist conditions and rebuild from treated areas faster when the ground stays damp. The Texas A&M two-step method, broadcasting bait across the whole yard before treating individual mounds, significantly outperforms spot treatment alone in this environment.",
+      },
+      {
+        question: "When do termites swarm in Grand Prairie?",
+        answer:
+          "Eastern subterranean termites in the DFW area typically swarm in March and April on warm, still days following rain. Swarmers look similar to flying ants but have equal-length wings and a thicker waist. Finding swarmers indoors means an active colony is in or very near the structure and an inspection should be scheduled within days.",
+      },
+      {
+        question: "Are mosquitoes near Joe Pool Lake a health risk?",
+        answer:
+          "Yes. Dallas County monitors West Nile virus in area traps every summer and issues public health alerts when counts are elevated. Lakeside neighborhoods in Grand Prairie see higher mosquito activity than inland parts of the city. Eliminating standing water and treating shaded resting vegetation under decks and in dense plantings reduces pressure on your property.",
+      },
+      {
+        question: "What attracts Norway rats to Grand Prairie residential areas?",
+        answer:
+          "Industrial corridors near I-20 and SH 360 provide food sources and Norway rats spread from those areas into adjacent neighborhoods through drainage corridors. They burrow near foundations where there is cover and food access. Exterior bait stations and ground-level exclusion work on the foundation perimeter are the most effective residential defenses near commercial zones.",
+      },
+      {
+        question: "Is cockroach pressure worse near Grand Prairie's older commercial strips?",
+        answer:
+          "Yes. Homes near older commercial strips along I-30 and SH 303 tend to see more American cockroach pressure because adjacent storm drain infrastructure and commercial food operations maintain a large outdoor population. Perimeter treatment and sealing entry points controls the indoor side, but the ongoing outdoor source means treatment needs to be maintained rather than applied once.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Dallas", slug: "dallas" },
+      { name: "Fort Worth", slug: "fort-worth" },
+      { name: "Arlington", slug: "arlington" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Grand Prairie, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Grand Prairie pest control for fire ants, subterranean termites, cockroaches, mosquitoes and rats. DFW Metroplex Joe Pool Lake area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "waco",
+    name: "Waco",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~140,000",
+    county: "McLennan County",
+    climate: "hot-humid",
+    climateDriver:
+      "Waco sits in the Brazos River Valley at the geographic center of Texas. The Brazos River, the North Bosque River, and Lake Waco keep the surrounding bottomland more humid than the high plains to the west. Long, hot summers and mild winters mean the pest season runs most of the year, with fire ant and mosquito pressure tied directly to the river watershed.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Paper Wasps", "Cockroaches", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds swell after rain",
+        note: "Fire ants are dense throughout McLennan County. The Brazos River bottomland and the Lake Waco shoreline create moist ground conditions that let colonies rebuild fast after treatment. Texas A&M AgriLife Extension identifies Central Texas as one of the highest fire ant density zones in the state.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active underground year-round",
+        note: "Subterranean termites are well-established throughout Central Texas. Waco's older neighborhoods near the historic district and around Baylor University include structures where termite protection has not been renewed in years.",
+      },
+      {
+        name: "Paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "March through October, most aggressive July through September",
+        note: "Paper wasps are one of the most common outdoor pest complaints in Waco. They build open-comb nests under eaves, in soffits, and inside outdoor light fixtures. The long Central Texas summer gives colonies time to grow large before the first cold arrives in November.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge in summer",
+        note: "American cockroaches breed outdoors in storm drains and mulch throughout Waco and move inside during the summer heat. The Brazos River corridor and the older commercial areas near downtown sustain the highest outdoor populations.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Lake Waco and the Brazos River watershed provide extensive breeding habitat around the city. McLennan County records West Nile virus activity in summer traps, with peak risk from June through September.",
+      },
+    ],
+    localHook:
+      "Waco's river-valley location is what makes paper wasps such a prominent seasonal pest here. The long, warm Central Texas summer, combined with the humidity from the Brazos River corridor, gives colonies from March through October to establish and grow under eaves and in outdoor structures across the city.",
+    intro:
+      "Pest control in Waco is shaped by water and heat. The Brazos River, the Bosque River, and Lake Waco keep the city's bottomland more humid than the high-plains towns to the west, and that moisture sustains a full Central Texas pest calendar with above-average mosquito pressure tied to the river watershed. Fire ants are dense in lawns near the rivers and lake. Subterranean termites swarm in spring and remain active underground year-round across McLennan County. Paper wasps are a standout summer pest in Waco, building nests under eaves and in outdoor structures across the city from March through October. American cockroaches breed outdoors and push inside during the hottest months. Mosquitoes are a seasonal health concern from March through October.",
+    sections: [
+      {
+        heading: "Paper wasps in Waco's long warm season",
+        body: "Paper wasps are one of the most consistent seasonal complaints in Waco. They build umbrella-shaped open-comb nests under eaves, in the corners of soffits and porches, inside outdoor light fixtures, and under deck railings. Unlike yellowjackets, they do not live underground, which makes nests easier to find and treat. They are less aggressive than yellowjackets but will sting when they feel the nest is threatened. The long Central Texas summer gives colonies started in March time to grow through spring and early summer, so July nests can house several dozen workers. Treating nests in the early morning or evening when workers are inside, then removing the empty nest to prevent reuse of the spot, is the standard approach. Spraying eaves and outdoor structure surfaces with a residual product in early spring, before queens start building, reduces how many new nests get established each year.",
+      },
+      {
+        heading: "Termites in Waco's older neighborhoods",
+        body: "Waco has a large stock of older homes in the neighborhoods surrounding Baylor University and in the South Waco and Sanger Heights areas, where termite protection applied at construction has aged and may have gaps. Eastern subterranean termites are active across McLennan County, and the Brazos River bottomland soil sustains the moisture that underground colonies need through the dry summer. Swarms appear in spring, typically in March and April on warm, calm days after rain. Termite swarmers and flying ants look similar from a distance: the distinction is that termite swarmers have two pairs of wings of equal length, a straight antennae, and a thick waist, while flying ants have unequal wings and a pinched waist. An annual inspection is the standard recommendation for Waco properties with unknown treatment history.",
+      },
+    ],
+    prevention: [
+      "Spray eaves, soffits, and outdoor structures with a residual insecticide in early spring to prevent paper wasp nest establishment.",
+      "Apply the Texas A&M two-step fire ant treatment in spring: broadcast bait across the full lawn, then treat visible mounds two weeks later.",
+      "Schedule an annual termite inspection for older Waco properties where the prior treatment history is unknown.",
+      "Eliminate standing water near the Brazos and Lake Waco shoreline, and treat shaded resting areas during mosquito season.",
+    ],
+    costNote:
+      "Waco pest control starts with a free inspection. Quarterly general programs cover fire ants, cockroaches, and perimeter pests. Paper wasp treatment is often handled as a seasonal add-on or per-call service. Termite inspection and treatment are a separate annual service worth scheduling for older properties.",
+    faqs: [
+      {
+        question: "Why are paper wasps so common in Waco?",
+        answer:
+          "The long, warm Central Texas season gives paper wasp colonies founded in March through October to grow large before cold weather arrives. Combined with the humidity from the Brazos River valley, conditions are favorable for multiple wasp species across Waco. Treating nesting areas in early spring before colonies establish is the most cost-effective approach.",
+      },
+      {
+        question: "Are subterranean termites active year-round in Waco?",
+        answer:
+          "Yes. Eastern subterranean termites in the Brazos River watershed remain active underground for most of the year because the river bottomland keeps soil moist even during dry stretches. They swarm in spring to form new colonies but existing colonies continue feeding year-round. Annual inspections are the standard recommendation for McLennan County properties.",
+      },
+      {
+        question: "How long is mosquito season near Lake Waco?",
+        answer:
+          "Mosquito season runs from approximately March through October near the lake and river areas. McLennan County records West Nile virus activity in summer traps, with peak risk from June through September. Properties near the lake shoreline and river bottomland see the longest and most intense mosquito pressure in the area.",
+      },
+      {
+        question: "Why do fire ants come back so quickly in Waco after treatment?",
+        answer:
+          "Moist conditions near the Brazos River and Lake Waco allow satellite fire ant colonies to expand quickly when a treated colony is removed. Treating only visible mounds leaves those satellite colonies, which grow to replace the treated one within weeks. Broadcasting bait across the full yard before treating individual mounds reduces the overall colony load and extends the time before new mounds appear.",
+      },
+      {
+        question: "Are the big cockroaches in Waco homes a sign of a sanitation problem?",
+        answer:
+          "Not usually. The large cockroaches seen in Central Texas homes are American cockroaches, sometimes called tree roaches. They breed outdoors in storm drains, mulch, and dense ground cover, and move inside seeking moisture when the summer heat peaks. They are outdoor insects that opportunistically enter, not indicators of unsanitary conditions indoors. Sealing entry points and reducing outdoor harborage near the foundation is more effective than interior spray alone.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Austin", slug: "austin" },
+      { name: "Dallas", slug: "dallas" },
+      { name: "Killeen", slug: "killeen" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Waco, TX | Fire Ants, Termites & Paper Wasps",
+    metaDescription:
+      "Waco pest control for fire ants, subterranean termites, paper wasps, cockroaches and mosquitoes. Brazos River Valley McLennan County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "denton",
+    name: "Denton",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~148,000",
+    county: "Denton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Denton sits at the northern edge of the DFW Metroplex, where Gulf moisture still reaches but winters can drop sharply. Hickory Creek and Pecan Creek drain through the city and create moisture corridors. The presence of two large universities, the University of North Texas and Texas Woman's University, means a large multi-family housing stock with its own pest dynamics.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Cockroaches", "Brown Recluse Spiders", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak after spring and summer rain",
+        note: "Fire ants are pervasive across Denton County lawns and open areas. Texas A&M AgriLife Extension confirms red imported fire ants are established throughout the DFW region including Denton County.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active underground year-round",
+        note: "Subterranean termites are active across North Texas. Denton's older neighborhoods south of the courthouse square include structures where pre-treatment barriers have aged and may be compromised.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in summer",
+        note: "German cockroaches are the primary concern in dense student housing near UNT and TWU. American cockroaches are more common in single-family homes, where they breed outdoors in mulch and storm drains before moving inside.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active spring through fall, present year-round indoors",
+        note: "Texas A&M AgriLife Extension confirms brown recluse spiders are common across North Texas including Denton County. They inhabit undisturbed spaces in closets, attics, and storage areas. Their bite can cause tissue damage in some individuals.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Hickory Creek, Pecan Creek, and the Elm Fork of the Trinity River provide breeding habitat across Denton. Denton County public health monitors West Nile virus activity through summer.",
+      },
+    ],
+    localHook:
+      "Brown recluse spiders are a genuine and under-discussed concern in Denton County. Texas A&M AgriLife Extension confirms the species is common across North Texas, and they turn up frequently in storage closets, attic insulation, and rarely-used garage spaces in the city's older housing stock.",
+    intro:
+      "Pest control in Denton follows the North Texas pattern with a few local factors. Fire ants are everywhere in lawns and rebuild quickly after rain. Subterranean termites are active across the county, with swarms in spring and underground activity year-round. Brown recluse spiders are more common in Denton than many residents expect: Texas A&M AgriLife Extension confirms the species is established throughout the region. The university population creates a large multi-family housing stock where German cockroaches thrive in ways they rarely do in single-family areas. The city's creek drainages maintain a mosquito season from early spring through October.",
+    sections: [
+      {
+        heading: "Brown recluse spiders in North Texas homes",
+        body: "Brown recluse spiders favor dry, dark, and undisturbed spaces: the backs of deep storage closets, cardboard boxes stacked in garages, attic insulation, spaces behind water heaters, and under stored furniture. They are not aggressive and most bites happen when someone reaches into a space without checking first. Texas A&M AgriLife Extension confirms the species is established across North Texas and the DFW area. Managing them in Denton homes means reducing clutter in storage areas, treating harborage spaces with a residual insecticide, and checking items stored in attics and garages before bringing them into living areas. In older homes with substantial storage space and low activity in certain areas, regular perimeter and interior treatment of high-risk zones is the practical approach.",
+      },
+      {
+        heading: "Cockroach management near the Denton campuses",
+        body: "Multi-family housing near UNT's main campus and TWU sees more persistent German cockroach pressure than surrounding single-family areas. German cockroaches spread between units through shared plumbing, wall cavities, and under-door gaps. Standard spray treatments are far less effective for German cockroaches than targeted gel bait applied in harborage areas: inside cabinet hinges, under sinks, near appliances, and behind refrigerators. Treating one unit without coordinating with adjacent units moves the problem rather than solving it. Texas law requires landlords to maintain habitable conditions, and German cockroach infestations generally fall under that obligation when they originate from the building's shared spaces.",
+      },
+    ],
+    prevention: [
+      "Reduce clutter in closets, attics, and garages to remove brown recluse harborage and check stored items before use.",
+      "Use the Texas A&M two-step method in spring: broadcast bait first, then treat visible fire ant mounds two weeks later.",
+      "Seal gaps under apartment doors and around plumbing penetrations to limit cockroach movement between units.",
+      "Eliminate standing water in creek-adjacent drainage areas and treat shaded vegetation during mosquito season.",
+    ],
+    costNote:
+      "Denton pest control starts with a free inspection. Quarterly general programs cover fire ants, cockroaches, and perimeter pests. Brown recluse management includes targeted treatment of attic and storage areas. Termite inspections are a separate annual service worth scheduling for older properties.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really common in Denton?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension confirms brown recluse spiders are common across North Texas including the Denton area. They favor dry, undisturbed storage spaces and are regularly found in closets, attics, and garages. Reducing clutter and treating harborage areas with a residual insecticide is the most effective management approach for homes with persistent brown recluse pressure.",
+      },
+      {
+        question: "Why are German cockroaches difficult to control in Denton apartments?",
+        answer:
+          "Dense multi-family housing with shared walls and frequent resident turnover creates conditions where German cockroaches spread continuously between units through shared plumbing and wall spaces. Standard spray treatments are not effective; gel bait in harborage areas is significantly better. Treating only one unit without addressing adjacent units typically moves rather than eliminates the problem. Building-wide coordination is essential.",
+      },
+      {
+        question: "When do termites swarm in Denton?",
+        answer:
+          "Eastern subterranean termites swarm in March and April across Denton County, typically on warm, still days following rain. Swarmers look similar to flying ants but have equal-length wings and a thick waist. Finding them indoors indicates an active colony is near the structure and an inspection should be scheduled promptly.",
+      },
+      {
+        question: "How long is mosquito season in Denton?",
+        answer:
+          "Mosquito season runs from approximately March through October in Denton. The creek drainages through the city provide consistent breeding habitat near most neighborhoods. Denton County public health monitors West Nile virus through the summer and issues alerts when trap counts are elevated.",
+      },
+      {
+        question: "Is pest pressure different near the UNT campus compared with other Denton neighborhoods?",
+        answer:
+          "Yes. The campus-adjacent neighborhoods and student apartment complexes see more German cockroach and bed bug pressure than single-family residential areas. Frequent resident turnover and the tendency to move in secondhand furniture increase the risk of introduction. Single-family homes in Denton face a more typical North Texas profile: fire ants, termites, tree roaches, and brown recluse spiders.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Dallas", slug: "dallas" },
+      { name: "Fort Worth", slug: "fort-worth" },
+      { name: "Plano", slug: "plano" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Denton, TX | Brown Recluse Spiders, Fire Ants & Termites",
+    metaDescription:
+      "Denton pest control for brown recluse spiders, fire ants, German and American cockroaches, termites and mosquitoes. North Texas university city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "midland",
+    name: "Midland",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~140,000",
+    county: "Midland County",
+    climate: "semi-arid",
+    climateDriver:
+      "Midland sits on the Permian Basin of far west Texas, an elevated semi-arid plateau where rainfall averages under 14 inches per year and summers are hot and dry with no major river or lake nearby to add humidity. The flat, scrubby terrain sustains desert-adapted species, and the oil and gas industry adds rodent pressure near industrial work sites and pipe yards.",
+    topPests: ["Striped Bark Scorpions", "Brown Recluse Spiders", "Cockroaches", "Fire Ants", "Mice"],
+    pestProfile: [
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Active spring through fall, seek shelter indoors in summer",
+        note: "Striped bark scorpions are the most common scorpion in West Texas. Texas A&M AgriLife Extension confirms the species is widespread across the Permian Basin. They enter Midland homes seeking moisture and shelter in summer, using weep holes, foundation gaps, and utility penetrations.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Brown recluse spiders are established across West Texas. Texas A&M AgriLife Extension confirms the species is found throughout the Permian Basin region. They favor dry, undisturbed spaces in closets, stored boxes, and garage areas.",
+      },
+      {
+        name: "American and Oriental cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge indoors in summer seeking moisture",
+        note: "American and Oriental cockroaches move into Midland homes from outdoor areas in summer, seeking moisture when exterior temperatures peak. They concentrate around plumbing, under-sink areas, and basement drains in commercial structures.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, activity tied to rain events",
+        note: "Fire ants are present in Midland but less dense than in humid east Texas because limited annual rainfall restricts colony expansion. They become most active after the heavy rain events that periodically saturate the Permian Basin.",
+      },
+      {
+        name: "House mice and deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, push hard indoors in fall",
+        note: "The open scrubland surrounding Midland sustains a native rodent population including deer mice. The oil and gas industrial zones add secondary rodent pressure from food waste near work sites. Deer mice are confirmed carriers of hantavirus.",
+      },
+    ],
+    localHook:
+      "Midland's Permian Basin location makes scorpions an everyday presence rather than an occasional surprise. Texas A&M AgriLife Extension confirms striped bark scorpions are widespread across the region, and residents near open scrubland encounter them inside regularly, especially in summer when the desert heat drives them toward moisture.",
+    intro:
+      "Pest control in Midland is shaped by the Permian Basin desert environment. This is not humid east Texas: the pests here are driven by heat, dryness, and the proximity to open scrubland. Striped bark scorpions are a regular home encounter, confirmed by Texas A&M AgriLife Extension as widespread across the region. Brown recluse spiders are established in the area and found in storage spaces throughout the city. Cockroaches push inside from outdoor areas in summer seeking moisture. Fire ants are present but thinner on the ground than in wetter parts of the state. Mice, including deer mice from the surrounding scrubland, are a year-round concern that intensifies in fall.",
+    sections: [
+      {
+        heading: "Scorpions and brown recluses: Midland's arid-climate specialties",
+        body: "Striped bark scorpions are the pest that most distinguishes Midland from east Texas cities. Texas A&M AgriLife Extension confirms they are widespread across the Permian Basin. They enter homes seeking moisture during hot summer months, coming through weep holes in brick construction, gaps around utility penetrations, and gaps under garage doors. They are most active at night and most often encountered in bathrooms, on walls near plumbing, and on floors near entry points. Their sting is painful and causes localized symptoms, but is not typically life-threatening for healthy adults. Children and the elderly require more caution. Brown recluse spiders share the preference for dry, undisturbed spaces and are frequently found in storage closets, garages, and attic areas in Midland homes. Both require exclusion combined with perimeter treatment.",
+      },
+      {
+        heading: "Deer mice and the hantavirus consideration",
+        body: "Midland's position at the edge of open Permian Basin scrubland means deer mice are a regular presence around the city. Deer mice are one of the primary carriers of hantavirus in the United States, and the risk is real in areas where people clean out rarely-used structures, sheds, or storage areas where deer mice have been active. The main transmission route is breathing in dust stirred up from contaminated droppings or nesting material, not the bite of the mouse itself. Using a wet cleaning method rather than dry sweeping, wearing an N95 mask, and airing out the space before cleaning are the standard precautions for Midland residents dealing with infested storage areas. Excluding rodents from the home through foundation sealing and snap trapping is the baseline protection.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes with wire mesh and caulk gaps around utility penetrations to block scorpion and cockroach entry.",
+      "Check shoes, gloves, and stored items in garages and storage areas given the scorpion and brown recluse presence.",
+      "Seal foundation gaps and the gap under garage doors in September before the fall mouse push from surrounding scrubland.",
+      "Clear outdoor storage areas of debris to reduce harborage for both scorpions and rodents.",
+    ],
+    costNote:
+      "Midland pest control starts with a free inspection. A general perimeter program covering scorpions, spiders, and cockroaches is the foundation for most homes. Rodent management is quoted as a separate exclusion and trapping service. Quarterly service is the standard given continuous desert pest pressure.",
+    faqs: [
+      {
+        question: "Are striped bark scorpions dangerous in Midland?",
+        answer:
+          "Striped bark scorpions are the species found in West Texas. Texas A&M AgriLife Extension confirms they are widespread across the Permian Basin. Their sting is painful and causes localized symptoms in healthy adults, but is rarely life-threatening. Children and older adults should be monitored more carefully after a sting. The most practical defense is exclusion: sealing weep holes, gaps around pipes, and under garage doors removes their primary entry routes.",
+      },
+      {
+        question: "Do deer mice in Midland carry hantavirus?",
+        answer:
+          "Yes. Deer mice are one of the primary hantavirus carriers in the US and are present in the scrubland surrounding Midland. The main risk comes from stirring up dust where deer mice have been active, particularly in rarely-used storage areas, sheds, and abandoned structures. Using a wet cleaning method, wearing an N95 mask, and airing the space before cleaning reduces the risk significantly. Excluding rodents from the home is the best overall protection.",
+      },
+      {
+        question: "Why do cockroaches surge into Midland homes in summer?",
+        answer:
+          "American and Oriental cockroaches are outdoor insects that survive in debris and protected areas around structures. During Midland's intense summer heat, they seek the moisture and cooler temperatures inside, coming through the same gaps that scorpions use. Reducing exterior moisture, sealing entry points, and maintaining a perimeter treatment barrier reduces the summer surge.",
+      },
+      {
+        question: "Are fire ants as bad in Midland as in east Texas?",
+        answer:
+          "No. Fire ant colonies are less dense in the Permian Basin than in humid east Texas because limited rainfall restricts colony expansion. They are still present and mounds appear after heavy rain events that saturate the soil. Treating mounds after rainfall events and using broadcast bait in spring manages them adequately for most Midland properties.",
+      },
+      {
+        question: "How do I manage scorpions in my Midland home effectively?",
+        answer:
+          "Effective scorpion control in Midland combines exclusion and perimeter treatment. Sealing weep holes with wire mesh, caulking gaps around utility penetrations, and installing door sweeps removes common entry points. A residual perimeter spray around the foundation base, in the garage, and at the exterior-structure interface provides a chemical barrier. Homes near open scrubland need quarterly retreatment because new scorpions move in continuously from the surrounding desert.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Odessa", slug: "odessa" },
+      { name: "Lubbock", slug: "lubbock" },
+      { name: "El Paso", slug: "el-paso" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Midland, TX | Scorpions, Brown Recluse & Desert Pests",
+    metaDescription:
+      "Midland pest control for striped bark scorpions, brown recluse spiders, cockroaches, mice and fire ants. Permian Basin West Texas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
