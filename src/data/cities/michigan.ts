@@ -428,4 +428,121 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Ann Arbor pest control for house mice, carpenter ants, German cockroaches, yellowjackets and cellar spiders. Washtenaw County University of Michigan city specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "sterling-heights",
+    name: "Sterling Heights",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T2",
+    population: "~132,000",
+    county: "Macomb County",
+    climate: "cold-humid",
+    climateDriver:
+      "Sterling Heights is in Macomb County in the northern Detroit metro, a large suburban city between Detroit and the Lake Saint Clair shoreline. The cold-humid Great Lakes climate brings genuine cold winters that suppress outdoor pests for months, hot and humid summers, and a very reliable fall mouse surge. Macomb County's established suburban landscape, with mature trees, older housing stock, and significant mid-century ranch and colonial construction, provides ample habitat for carpenter ants, mice, and yellow jackets. The seasonal pattern here is clearly defined: summer pest activity, hard fall mouse push, and year-round indoor pressure from cockroaches and bed bugs.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "German Cockroaches",
+      "Yellow Jackets",
+      "Brown Marmorated Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge in October and November",
+        note:
+          "House mice are the dominant year-round pest in Sterling Heights and across Macomb County. Michigan State University Extension identifies house mice as one of the most common pest complaints in Michigan. The cold winters drive mice firmly into heated structures by October, and the city's mid-century housing stock, with its aging foundations and utility penetrations, provides abundant entry points.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, most visible indoors in spring",
+        note:
+          "Carpenter ants are the dominant wood pest in Macomb County. Michigan State University Extension confirms that black carpenter ants are the most common wood-destroying insect pest in Michigan. Sterling Heights has mature trees and older wood-frame construction elements in its mid-century ranch homes that provide the moisture-affected wood that carpenter ant colonies require. Finding large black ants emerging indoors in spring is the most common early sign of a colony.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are established in Sterling Heights's apartment complexes, multi-family housing, and commercial food service operations along Van Dyke and Schoenherr corridors. They are entirely indoor insects and spread through shared plumbing and wall infrastructure in multi-unit buildings.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note:
+          "Yellow jackets are a common warm-season pest in Sterling Heights. They nest in the ground, wall voids of older structures, and under eaves. The compressed Michigan summer means colonies grow quickly and reach aggressive peak size in late August. Outdoor entertaining and backyard activity brings residents into contact with foraging yellow jackets at their peak aggression.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate September through October, overwinter in wall voids",
+        note:
+          "Stink bugs have spread into Macomb County and are an established fall nuisance in Sterling Heights. Michigan State University Extension has tracked their expansion into southeast Michigan. They aggregate on south-facing building walls in September and October before entering wall voids for winter, and emerge inside homes through outlets and gaps in late winter and spring.",
+      },
+    ],
+    localHook:
+      "The fall mouse surge in Macomb County is among the most predictable seasonal pest events in Michigan. Michigan State University Extension consistently lists house mice as the top pest complaint in the state. In Sterling Heights, the October surge into mid-century housing is reliable: the aging foundations, the gap-prone utility penetrations of older construction, and the cold Great Lakes autumn create a fast, concentrated entry event that catches homeowners off guard if they have not prepared in September.",
+    intro:
+      "Pest control in Sterling Heights is a Great Lakes suburban story: a clear seasonal pattern defined by the Michigan climate, with year-round indoor pressure from cockroaches and an escalating fall commitment from mice. Carpenter ants are the summer structural pest in the older neighborhoods. Yellow jackets build up through the compressed warm season and peak in late August and September. Stink bugs arrive in fall from the surrounding agricultural land. And then October brings the mice, reliably, every year, through the aging mid-century housing stock that makes Macomb County what it is. Managing that full calendar is the core of pest control in Sterling Heights.",
+    sections: [
+      {
+        heading: "The October mouse surge in mid-century housing",
+        body: "Sterling Heights was largely developed in the 1960s through 1980s, and that housing stock has characteristics that make it particularly vulnerable to fall mouse entry. Aging poured-concrete and block foundations develop cracks and gaps over time. Utility penetrations that were once sealed have often lost their original caulk or foam. Sill plates and door thresholds on mid-century construction tend to have more gaps than newer builds. Michigan State University Extension identifies house mice as the most common pest complaint in the state, and Macomb County's cold-season timing is reliable: October is when temperatures drop fast enough to send mice firmly toward heated structures. The most effective response is exclusion work in September, before the surge begins. A systematic inspection of the foundation perimeter, looking for gaps larger than a quarter inch at utility penetrations, the foundation-sill plate joint, and the base of exterior doors, followed by sealing with steel wool backed by foam or metal mesh, prevents the surge from becoming an established population.",
+      },
+      {
+        heading: "Carpenter ants in Macomb County's older neighborhoods",
+        body: "Michigan State University Extension identifies the black carpenter ant as the most common wood-destroying insect pest in Michigan. Sterling Heights, with its mature tree canopy and mid-century housing stock, provides the two things carpenter ants need: outdoor colony habitat in old, damp wood of mature trees, and moisture-affected wood in structures for indoor nesting. Carpenter ants do not eat wood. They excavate it, creating smooth, clean galleries in soft or damp wood. The most vulnerable areas in Sterling Heights homes are wood around windows and doors with failing seals, roof line areas where branch contact or poor flashing allows moisture in, and deck framing that lacks adequate drainage. The spring emergence of large black ants from inside the home, often accompanied by coarse sawdust-like frass near baseboards or window frames, is the most reliable sign that a colony has established in the structure. Treatment targets the colony, and addressing the moisture source is essential to prevent re-infestation.",
+      },
+    ],
+    prevention: [
+      "Complete mouse exclusion work in September: seal foundation gaps, utility penetrations, and door sills before the October surge.",
+      "Inspect wood around windows, roof lines, and deck framing annually for moisture damage that gives carpenter ants a nesting site.",
+      "Seal exterior gaps around windows, siding, and utility lines before September to limit fall stink bug entry into wall voids.",
+      "Treat yellow jacket ground nests in June or July when colonies are still small and before they reach August peak aggression.",
+    ],
+    costNote:
+      "Sterling Heights pest pricing is standard Macomb County range. Mouse programs include exclusion and trapping after a free inspection. Carpenter ant programs include moisture assessment and colony treatment. Yellow jacket treatment is per nest. Stink bug programs target exclusion plus perimeter treatment in late summer. German cockroach gel bait programs include follow-up visits.",
+    faqs: [
+      {
+        question: "Why do mice always seem to appear in October in Sterling Heights?",
+        answer:
+          "October is when Michigan temperatures drop fast enough that outdoor mice actively seek heated shelter. It is not that they suddenly appear: it is that the cold that month makes your home the most attractive option. Sterling Heights's mid-century housing provides the entry points. September exclusion work, sealing foundation gaps and utility penetrations, prevents the surge from becoming an infestation. Mice that entered in October stay year-round once inside, so catching them before they enter is far simpler than removing an established population in February.",
+      },
+      {
+        question: "Are stink bugs from Michigan farms or from Canada?",
+        answer:
+          "Brown marmorated stink bugs are an invasive species introduced from Asia and are now established across Michigan, including Macomb County. Michigan State University Extension has documented their spread into southeast Michigan. Their populations in the area are sustained by orchards, agricultural fields, and ornamental plantings throughout Macomb County and the surrounding region, not specifically from any one source. They are attracted to south-facing walls of structures in fall, regardless of proximity to agricultural land.",
+      },
+      {
+        question: "How do I tell if I have carpenter ants or termites in my Sterling Heights home?",
+        answer:
+          "Carpenter ants are large (up to half an inch), black, and often seen foraging indoors in spring. Their damage shows clean, smooth galleries in wood. Termites are smaller, cream-colored, and rarely seen except when they swarm in spring. Termite damage is rough and filled with soil-like material. Carpenter ants are far more common in Michigan than termites, but both require professional inspection to confirm and appropriate treatment. Michigan's cold climate suppresses termites relative to southern states, but they are present.",
+      },
+      {
+        question: "When should I have my yellow jacket nest treated?",
+        answer:
+          "Late June or July, before the colony reaches its dangerous August peak. Early in the season, colonies are small and workers are less defensive. By August, a yellow jacket colony can have tens of thousands of workers and becomes highly aggressive around nest disturbance. Ground nests in yard areas are the most common type in Sterling Heights; wall void nests in older homes are the second most common. Treating in July is both safer and more effective than waiting until August.",
+      },
+      {
+        question: "Is year-round pest control worth it in Sterling Heights?",
+        answer:
+          "For homes with German cockroach or persistent mouse pressure, yes. Both are year-round indoor pests that do not respond to seasonal treatment patterns. For general outdoor pests, a seasonal approach, spring carpenter ant and perimeter treatment, summer yellow jacket monitoring, fall stink bug and mouse exclusion, is appropriate for most Sterling Heights homes. A free inspection establishes what the specific priorities are.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Warren", slug: "warren" },
+      { name: "Troy", slug: "troy" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Sterling Heights, MI | Mice, Carpenter Ants & Stink Bugs",
+    metaDescription:
+      "Sterling Heights pest control for house mice, carpenter ants, German cockroaches, yellow jackets and stink bugs. Macomb County Detroit metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

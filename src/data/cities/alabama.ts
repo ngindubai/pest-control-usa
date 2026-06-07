@@ -345,4 +345,121 @@ export const alabamaCities: CityLocation[] = [
     metaDescription:
       "Montgomery pest control for fire ants, subterranean termites, mosquitoes, American cockroaches and German cockroaches. Montgomery County Alabama River specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "mobile",
+    name: "Mobile",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T2",
+    population: "~186,000",
+    county: "Mobile County",
+    climate: "hot-humid",
+    climateDriver:
+      "Mobile sits on the northern shore of Mobile Bay at the mouth of the Mobile-Tensaw Delta, Alabama's only port city and the state's largest city by area. The subtropical Gulf Coast climate delivers year-round warmth, 65 inches of annual rainfall (among the highest in the continental United States), and high humidity in every season. This combination sustains Formosan termites, large outdoor cockroach populations, intense mosquito pressure, and fire ant colonies that remain active through even mild Mobile winters. The delta wetlands and Mobile Bay sustain mosquito breeding habitat at a scale that inland Alabama cities do not experience.",
+    topPests: [
+      "Formosan Termites",
+      "Cockroaches",
+      "Mosquitoes",
+      "Fire Ants",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan and Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Formosan swarms April through June, Eastern swarms February through April, active underground year-round",
+        note:
+          "Mobile County is within the core Gulf Coast Formosan termite zone. Formosan termites were introduced to the United States through Gulf ports and have been established in Mobile for decades. Alabama Cooperative Extension System confirms that both Formosan and eastern subterranean termites are active in Mobile County. The city's older housing stock, particularly wood-frame homes in the historic Midtown and Old Dauphin Way districts, carries significant termite risk without active protection.",
+      },
+      {
+        name: "American, smoky brown, and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in summer",
+        note:
+          "Mobile's subtropical humidity sustains all three major cockroach species year-round. American cockroaches breed in the delta drainage infrastructure and push indoors in heat and rain. Smoky brown cockroaches thrive in the wooded and semi-wooded areas around the bay and delta and are common in exterior harborage. German cockroaches are the dominant indoor species in multi-family housing and commercial kitchens.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "February through November, near year-round in mild winters",
+        note:
+          "Mobile's position near the Mobile-Tensaw Delta, Mobile Bay, and the many tidal wetlands of coastal Alabama sustains mosquito populations at high levels for most of the year. The city averages 65 inches of annual rainfall, providing continuous fresh breeding habitat. The Alabama Department of Public Health monitors for mosquito-borne illness including West Nile virus and Eastern Equine Encephalitis.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak after spring rain",
+        note:
+          "Fire ants are pervasive across Mobile County. The warm Gulf Coast climate keeps them active year-round, unlike areas further north where cold limits their activity. Mounds rebuild rapidly after the city's frequent rainfall events. Alabama Cooperative Extension ranks fire ants among the most significant pest challenges in the state.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note:
+          "Mobile's port economy, convention activity at the Arthur R. Outlaw Mobile Convention Center, and the hotel and hospitality sector sustain ongoing bed bug introduction. Multi-family housing and student rentals near the University of South Alabama add residential bed bug pressure.",
+      },
+    ],
+    localHook:
+      "Mobile's 65 inches of annual rainfall is not a minor detail. It places the city among the wettest in the continental United States, well above Houston or even Miami. That rainfall sustains mosquito populations at a level that a city half the latitude of Mobile rarely matches. It also means Formosan termite colonies never go dry, fire ants rebuild mounds after every storm, and cockroaches have abundant outdoor breeding habitat year-round. Gulf Coast pest control in Mobile is a twelve-month commitment, not a summer program.",
+    intro:
+      "Pest control in Mobile is Gulf Coast pest control at full intensity. The city averages 65 inches of annual rainfall and sits on a bay connected to the Mobile-Tensaw Delta, one of the most biodiverse river delta systems in North America. That combination means mosquitoes for most of the year, Formosan termites well-established in the historic housing stock, three species of cockroaches active year-round, and fire ants rebuilding after every storm. Bed bugs travel through the port economy and hospitality sector. This is not a city where a once-a-year spray handles the pest situation. Active, year-round management is the standard approach among Mobile homeowners who live here long-term.",
+    sections: [
+      {
+        heading: "Formosan termites in Mobile's historic neighborhoods",
+        body: "The historic districts of Mobile, including Midtown, Old Dauphin Way, and the neighborhoods near downtown and the bay, contain some of the city's oldest wood-frame housing stock. That housing, much of it built before 1950, represents significant Formosan termite risk. Formosan termites were introduced through Gulf Coast ports and are thoroughly established in Mobile County. Alabama Cooperative Extension System confirms their presence throughout the area. What distinguishes Formosan termites from native eastern subterranean termites is colony size and damage rate: a mature Formosan colony can contain several million individuals and feeds much faster than a native colony. They also build carton nests in wall voids and attic spaces, allowing them to maintain moisture without returning to the soil, which means they can remain undetected longer in upper-story wood. For historic Mobile homes, an annual termite inspection combined with active protection is not optional: it is fundamental maintenance for a wood-frame structure in a Gulf Coast Formosan zone.",
+      },
+      {
+        heading: "Mosquitoes and the delta wetlands",
+        body: "Mobile's mosquito season is sustained by two overlapping factors: the city's extraordinary rainfall and its proximity to the Mobile-Tensaw Delta wetlands. The delta, one of the most extensive river delta systems in North America outside the Mississippi Delta, provides natural mosquito breeding habitat on a scale that no residential standing water management can address. The 65 inches of annual rainfall continuously replenishes residential and urban breeding sites, including gutters, drainage areas, and low spots that dry out in drier cities but stay wet in Mobile. The Alabama Department of Public Health monitors for Eastern Equine Encephalitis, West Nile virus, and other mosquito-borne illnesses in Mobile County. EEE is a serious concern in coastal Alabama: it has a high fatality rate and is found in the bird and mosquito populations of the delta region. Professional barrier treatment of resting areas around the home and aggressive standing water management address the residential breeding component, which is the part of the problem that is within the homeowner's control.",
+      },
+    ],
+    prevention: [
+      "Maintain active Formosan termite protection with annual inspection, critical for older wood-frame homes in Mobile's historic neighborhoods.",
+      "Eliminate standing water within 48 hours of every rain to reduce residential mosquito breeding.",
+      "Treat fire ant mounds with broadcast bait in spring and spot-treat year-round given the active Gulf Coast season.",
+      "Inspect secondhand furniture and luggage for bed bugs before bringing them into the home, especially after hotel stays in the port city market.",
+    ],
+    costNote:
+      "Mobile pest pricing reflects the Gulf Coast market and the year-round pest pressure of the region. Termite inspection is free and annual protection is strongly recommended. Mosquito service runs most of the year. Quarterly general pest service covers cockroaches, fire ants, and ants. Bed bug treatment is quoted after inspection.",
+    faqs: [
+      {
+        question: "Are Formosan termites common in Mobile's older neighborhoods?",
+        answer:
+          "Yes. Mobile County is within the core Gulf Coast Formosan termite zone. Alabama Cooperative Extension confirms that Formosan termites are established in the area, particularly in older wood-frame construction. The historic neighborhoods near downtown and Mobile Bay are at the highest risk because they have the oldest housing stock with the most wood near grade and the most existing termite pressure. Annual inspection and an active protection program are the standard for well-maintained homes in those areas.",
+      },
+      {
+        question: "Why is the mosquito season so long in Mobile?",
+        answer:
+          "Mobile averages 65 inches of rain per year and sits adjacent to the Mobile-Tensaw Delta, one of the largest river delta wetland systems in North America. Those wetlands produce natural mosquito breeding habitat that is beyond residential management. The rainfall continuously replenishes urban breeding sites like gutters and drainage areas. The result is a mosquito season that runs from February through November, with genuine winter suppression only in cold years.",
+      },
+      {
+        question: "What types of cockroaches are common in Mobile?",
+        answer:
+          "Three species are common. American cockroaches breed in the drainage and sewer infrastructure and push indoors during heat and flooding events. Smoky brown cockroaches live in the wooded and semi-wooded areas around the bay and delta and commonly inhabit exterior harborage like mulch, tree hollows, and outdoor debris. German cockroaches are the indoor species found in kitchens and multi-family housing. Mobile's subtropical humidity sustains all three year-round.",
+      },
+      {
+        question: "Is Eastern Equine Encephalitis a concern in Mobile?",
+        answer:
+          "The Alabama Department of Public Health monitors for EEE in Mobile County and along the Gulf Coast. EEE circulates in the bird and mosquito populations of the delta and coastal wetlands. It is a rare but serious disease with a high fatality rate. The primary prevention is reducing mosquito bites through repellent, protective clothing, and residential barrier treatment, particularly around dusk when the Culex mosquitoes that transmit EEE to humans are most active.",
+      },
+      {
+        question: "How do I know if I have Formosan termites versus regular termites?",
+        answer:
+          "A professional inspection is the only reliable way to distinguish them, because they live underground or in wall voids and are not typically visible. Formosan swarms (winged adults) occur from April through June, later than the February to April swarm window of eastern subterranean termites. Formosan carton nests, hardened brown material made of soil and wood, found in wall voids or attic areas are a distinctive sign. Any suspected termite activity in a Mobile home warrants professional inspection given the Formosan presence in the area.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Birmingham", slug: "birmingham" },
+      { name: "Huntsville", slug: "huntsville" },
+      { name: "Pensacola", slug: "pensacola" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Mobile, AL | Formosan Termites, Cockroaches & Mosquitoes",
+    metaDescription:
+      "Mobile pest control for Formosan termites, cockroaches, mosquitoes, fire ants and bed bugs. Mobile County Gulf Coast Alabama specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

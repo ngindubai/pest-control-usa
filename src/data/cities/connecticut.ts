@@ -109,4 +109,238 @@ export const connecticutCities: CityLocation[] = [
     metaDescription:
       "Hartford pest control for stink bugs, house mice, German cockroaches, odorous house ants and deer ticks. Hartford County Connecticut River Valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "bridgeport",
+    name: "Bridgeport",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T2",
+    population: "~148,000",
+    county: "Fairfield County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bridgeport is Connecticut's largest city, on the Long Island Sound coast in Fairfield County. The maritime influence from the Sound moderates winter temperatures somewhat and keeps coastal humidity high year-round. The cold-humid northeastern climate delivers genuine winters, hot humid summers, and full seasonal pest activity. Connecticut's high Lyme disease rates extend into Fairfield County, and the dense pre-war urban housing stock sustains year-round indoor pest pressure from mice, cockroaches, and bed bugs.",
+    topPests: [
+      "House Mice",
+      "German Cockroaches",
+      "Bed Bugs",
+      "Deer Ticks",
+      "Brown Marmorated Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge in October and November",
+        note:
+          "House mice are the dominant year-round rodent pest in Bridgeport. The city's large inventory of pre-war multi-family buildings, triple-deckers, and older row houses provides extensive entry points through aging foundations and deteriorated sill plates. Connecticut winters drive mice firmly into heated structures from October through April.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are established in Bridgeport's apartment buildings, commercial kitchens, and multi-family housing throughout the South End, East Side, and downtown neighborhoods. Shared utility infrastructure in dense older housing allows rapid spread between units without outdoor exposure.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note:
+          "Bed bugs are a persistent concern in Bridgeport's dense rental housing, particularly in the multi-family buildings with frequent tenant turnover near Housatonic Community College and in the downtown corridor. The city's high density and transit connections sustain ongoing bed bug introduction.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active above freezing, peak May through October",
+        note:
+          "Connecticut consistently records among the highest Lyme disease rates in the United States. Fairfield County, where Bridgeport is located, includes significant wooded, park, and riparian areas that sustain deer tick populations. The Connecticut Department of Public Health confirms meaningful tick risk throughout the county.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter indoors",
+        note:
+          "Stink bugs are a significant fall pest in Bridgeport and throughout Fairfield County. The agricultural land and orchards in the Connecticut interior build large stink bug populations that move into coastal structures as temperatures drop in September. Bridgeport's proximity to suburban and semi-rural Fairfield County sustains stink bug pressure.",
+      },
+    ],
+    localHook:
+      "Bridgeport is Connecticut's largest city, and its urban density creates a specific pest dynamic: mice, cockroaches, and bed bugs move through shared building infrastructure in ways that smaller cities do not experience. A pest problem that begins in one unit of a Bridgeport multi-family building can spread to adjacent units through shared walls and plumbing voids within weeks. This is not a failure of individual housekeeping. It is how pests move through dense urban housing.",
+    intro:
+      "Pest control in Bridgeport runs on two tracks. The urban track is year-round: house mice in the pre-war apartment and row house stock, German cockroaches in kitchens and shared utility spaces, and bed bugs in the high-turnover rental market. The seasonal outdoor track includes deer ticks and Lyme disease risk from Fairfield County's wooded and park areas, stink bugs entering structures in the fall from the surrounding agricultural land, and wasps and ants in the warmer months. Bridgeport's position on Long Island Sound keeps the climate somewhat moderated, but the urban indoor pest pressure does not pause for winter.",
+    sections: [
+      {
+        heading: "Mice and cockroaches in the older building stock",
+        body: "Bridgeport's housing stock includes a large proportion of pre-war construction: triple-deckers, row houses, and early 20th-century apartment buildings that were not built to modern pest exclusion standards. Aging foundations develop gaps that mice exploit. Plumbing that runs through shared walls creates pathways for cockroaches to move between units without outdoor travel. The practical response for multi-family buildings is building-level management rather than unit-level management. Treating one unit while mice or cockroaches continue entering from adjacent units or the exterior provides only temporary relief. A building-level inspection identifies the exterior entry points for mice and the shared infrastructure pathways for cockroaches, and treatment addresses both. For residents in single-family homes, October exclusion work, sealing foundation gaps, utility penetrations, and worn door sills before the cold arrives, is the most cost-effective prevention.",
+      },
+      {
+        heading: "Tick risk in Fairfield County",
+        body: "Bridgeport is an urban city, but Fairfield County contains substantial wooded, riparian, and park areas where deer ticks are established. Connecticut's Lyme disease incidence is among the highest in the United States per capita, and Fairfield County contributes meaningfully to that figure. Residents who use Beardsley Zoo parks, the Pequonnock River Trail, or the wooded areas along the Merritt Parkway corridor face real tick exposure. Tick risk in Connecticut is not limited to the deep woods: nymphal ticks, the most likely stage to transmit Lyme disease because of their small size and long attachment time, are found at trail edges, in leaf litter at the yard margin, and in brushy areas at knee height. Personal protection, repellent with DEET or permethrin on clothing, and tick checks after outdoor activity are the first defense. Yard perimeter treatment in spring and fall reduces tick density at the home boundary.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, door sills, and utility penetrations in September before the October mouse push.",
+      "Remove leaf litter and trim brush at the yard margin to reduce deer tick habitat near the home.",
+      "Seal exterior gaps around windows, siding, and utility lines before September to limit fall stink bug entry.",
+      "Inspect secondhand furniture and mattresses for bed bug signs before they enter the home.",
+    ],
+    costNote:
+      "Bridgeport pest pricing is standard Fairfield County range. Mouse exclusion and trapping programs are quoted after a free inspection, with multi-family buildings quoted at building level. German cockroach gel bait programs include follow-up visits. Tick yard treatment is spring and fall. Bed bug treatment is heat or chemical, quoted after inspection.",
+    faqs: [
+      {
+        question: "Why do cockroaches spread so easily in Bridgeport apartment buildings?",
+        answer:
+          "German cockroaches in Bridgeport's multi-family buildings travel through shared plumbing voids, utility chases, and wall gaps without entering common areas. Treating one unit does not prevent re-entry from adjacent units unless those pathways are addressed. Effective management in multi-family buildings requires inspection of shared infrastructure and treatment that targets harborage areas in wall voids and behind appliances rather than just visible surfaces.",
+      },
+      {
+        question: "When is Lyme disease risk highest in the Bridgeport area?",
+        answer:
+          "Risk is highest from May through October, with a secondary peak in early fall when adult deer ticks are active. The nymphal ticks that are most likely to transmit Lyme disease are active May through July and are poppy-seed sized, making them easy to miss on a tick check. Anyone spending time in wooded or brushy areas in Fairfield County should use DEET or permethrin repellent, wear long pants, and check for ticks after outdoor activity.",
+      },
+      {
+        question: "How do I stop stink bugs from getting into my Bridgeport home every fall?",
+        answer:
+          "The prevention window is August through early September, before stink bugs begin aggregating on south-facing walls. Sealing gaps around windows, where siding meets window frames, around utility penetrations, and under exterior doors at that time significantly limits entry. A perimeter spray on exterior walls as they begin to appear in September captures additional stink bugs. Once they are inside wall voids, removal is mechanical (vacuuming) rather than chemical.",
+      },
+      {
+        question: "Are bed bugs common in Bridgeport rentals?",
+        answer:
+          "Bed bugs are a documented concern in Bridgeport's dense rental market. The city's high density, frequent tenant turnover, and transit connections create conditions for ongoing bed bug introduction. Early detection, checking mattress seams, box spring joints, and headboard crevices, is the key to catching an infestation before it spreads. In multi-family buildings, early reporting to management and prompt professional treatment limits spread to adjacent units.",
+      },
+      {
+        question: "Is year-round pest control necessary for a Bridgeport home?",
+        answer:
+          "For multi-family housing with cockroach or mouse pressure, yes. Both are year-round indoor pests that do not pause for winter in heated buildings. For single-family homes, the need depends on the specific pest situation, but fall mouse prevention work and spring tick treatment are broadly appropriate for most Bridgeport properties. A free inspection establishes what the specific priorities are for a given home.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "New Haven", slug: "new-haven" },
+      { name: "Hartford", slug: "hartford" },
+      { name: "Stamford", slug: "stamford" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Bridgeport, CT | Mice, Cockroaches & Deer Ticks",
+    metaDescription:
+      "Bridgeport pest control for house mice, German cockroaches, bed bugs, deer ticks and stink bugs. Fairfield County Connecticut specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "new-haven",
+    name: "New Haven",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T2",
+    population: "~135,000",
+    county: "New Haven County",
+    climate: "cold-humid",
+    climateDriver:
+      "New Haven sits on New Haven Harbor at the base of East and West Rock ridgelines in New Haven County. The coastal position on Long Island Sound tempers extreme temperatures, while the surrounding traprock ridges and the Mill, West, and Quinnipiac River systems sustain wooded and riparian habitats that support deer tick populations. New Haven's concentration of universities, including Yale, sustains high-density student housing with frequent turnover. The city's older pre-war building stock provides the entry points and shared infrastructure that urban pests require.",
+    topPests: [
+      "House Mice",
+      "Rats",
+      "German Cockroaches",
+      "Deer Ticks",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, concentrated surge October through December",
+        note:
+          "House mice are the most common year-round pest complaint in New Haven. The city's older multi-family buildings, including the dense residential areas around Yale's campus in the Dwight, Edgewood, and Wooster Square neighborhoods, have abundant entry points through aging foundations and utility penetrations. Cold Connecticut winters drive mice firmly into heated structures.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note:
+          "Norway rats are a documented urban pest in New Haven, particularly in the areas near the commercial and restaurant corridors on Chapel, Crown, and Whalley Avenues. They burrow in alley areas, under dumpsters, and in the landscaping of commercial properties, and they enter buildings through foundation gaps and utility access points. The New Haven Health Department monitors rat activity in food service establishments.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are established in New Haven's multi-family housing, student rentals near Yale, and commercial food service. The density of the residential areas surrounding the university, with frequent tenant turnover and shared building infrastructure, sustains ongoing cockroach pressure.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active above freezing, peak risk May through October",
+        note:
+          "Connecticut has among the highest Lyme disease incidence nationally, and New Haven County is consistently among the top Connecticut counties for reported cases. East Rock Park and West Rock Ridge State Park, both within or adjacent to the city, have established deer tick populations. The Connecticut Department of Public Health tracks New Haven County's Lyme disease burden annually.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note:
+          "New Haven's university population sustains consistent bed bug pressure through the student rental market, secondhand furniture, and frequent travel. Bed bugs are a documented concern in student housing, particularly in the residential areas near Yale and Southern Connecticut State University, where turnover is annual and secondhand furniture purchases are common.",
+      },
+    ],
+    localHook:
+      "New Haven County is one of Connecticut's highest-incidence counties for Lyme disease, according to Connecticut Department of Public Health annual case data. East Rock Park and West Rock Ridge, two major green spaces within and adjacent to the city, have established deer tick populations. This is meaningful for New Haven homeowners because the parks are not remote: they are reachable by foot from residential neighborhoods, and anyone using those parks or the trails connecting to them faces real tick exposure during the spring and fall peak periods.",
+    intro:
+      "Pest control in New Haven handles a wide range of problems across a relatively compact city. The urban indoor pressures are mice, rats, cockroaches, and bed bugs, all sustained by the density of the residential stock, the university population, and the commercial corridors. The outdoor pressures include deer ticks in the traprock parks and wooded ridgelines, wasps in the warm months, and the seasonal mouse push as Connecticut winters arrive in October. Yale's presence shapes some of the pest dynamics: high student housing density, frequent turnover, and seasonal vacancy in summer create conditions that bed bugs and cockroaches move through.",
+    sections: [
+      {
+        heading: "Rats and mice in New Haven's neighborhoods",
+        body: "New Haven manages both Norway rat and house mouse pressure in its urban core. Rats are concentrated in the commercial corridors and the blocks surrounding restaurants, commercial kitchens, and dumpster infrastructure in areas like the Whalley Avenue corridor, the downtown food district, and the edges of the Wooster Square neighborhood. They burrow in alley areas and under foundation slabs. House mice are distributed more broadly across residential neighborhoods, with the highest density in the older multi-family housing closest to downtown and the university. The management approaches differ: rat programs focus on baiting, exclusion of commercial dumpster areas, and addressing the burrow sites near commercial properties. Mouse programs focus on exterior exclusion work on residential foundations combined with interior trapping. The fall is the active season for mouse entry, while rats are a year-round urban management concern.",
+      },
+      {
+        heading: "Tick risk at East Rock and West Rock",
+        body: "East Rock Park and West Rock Ridge State Park are two of New Haven's most heavily used outdoor spaces, and both have established deer tick populations. Connecticut's high Lyme disease incidence extends fully into New Haven County. The trails in both parks pass through wooded and brushy habitat at the exact edge types, where forest meets grass or trail, that have the highest tick density. Nymphal ticks, which are active May through July, are the size of a poppy seed and the most common stage responsible for Lyme disease transmission because they are difficult to detect on the skin and feed for several days if not removed. Anyone using the East Rock or West Rock trails, or the residential and suburban areas adjacent to those parks, should apply DEET-based repellent, wear pants treated with permethrin, and perform full tick checks after every outing. Yard perimeter treatment in spring and fall significantly reduces tick activity at the home boundary for properties backing to wooded areas.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and worn door sills in September before the October mouse push.",
+      "Remove leaf litter and trim brush at the yard edge adjacent to East Rock or West Rock corridors each spring to reduce deer tick habitat.",
+      "Inspect and seal dumpster areas and commercial foundation gaps around restaurant and food service properties to limit rat activity.",
+      "Check secondhand furniture and mattresses carefully for bed bug signs before bringing them into student or rental housing.",
+    ],
+    costNote:
+      "New Haven pest pricing is standard Connecticut range. Mouse programs include exclusion and trapping. Rat programs for commercial properties include baiting and infrastructure assessment. Tick yard treatment is spring and fall. German cockroach gel bait programs include follow-up visits. Bed bug heat treatment or chemical programs are quoted after inspection.",
+    faqs: [
+      {
+        question: "Are rats common in New Haven neighborhoods or just downtown?",
+        answer:
+          "Norway rats are primarily concentrated in and around New Haven's commercial corridors, restaurant blocks, and alley infrastructure, but they do spread into adjacent residential areas. Properties near the Whalley Avenue commercial strip, the Chapel Street restaurant corridor, and the edges of commercial districts see higher rat pressure than residential blocks further from commercial activity. Residential rat activity is most common in homes with accessible composting, open garbage storage, or foundation gaps near commercial areas.",
+      },
+      {
+        question: "How serious is Lyme disease risk for New Haven residents who use East Rock Park?",
+        answer:
+          "Meaningful and documented. Connecticut's Lyme disease incidence is among the highest in the United States, and New Haven County is consistently in the top tier for reported cases within the state, per Connecticut Department of Public Health data. East Rock Park has wooded and brushy edge habitat that supports deer tick populations. Using DEET repellent, wearing long pants, and checking for ticks after every park visit significantly reduces risk. Nymphal ticks active from May through July are poppy-seed sized and easy to miss.",
+      },
+      {
+        question: "Why are bed bugs such a persistent problem in New Haven student housing?",
+        answer:
+          "The student rental market has characteristics that favor bed bug establishment and spread: high tenant turnover each August and May, frequent purchase of secondhand furniture, shared housing with multiple occupants, and residents who travel regularly between home and campus. A student apartment can cycle through four or more occupants over two years, and if any of them bring a bed bug in on luggage or secondhand furniture, the infestation can establish before it is detected. Early detection, checking mattress seams and furniture joints before moving in, is the most effective prevention.",
+      },
+      {
+        question: "When is the best time to have my New Haven yard treated for ticks?",
+        answer:
+          "Spring treatment, applied in April or early May, targets the nymphal ticks that are responsible for the majority of Lyme disease cases and are active May through July. A fall treatment in September or October targets adult ticks, which are active in the cooler months and can transmit Lyme disease as well. For properties adjacent to East Rock or West Rock or backing to wooded areas, both spring and fall treatments provide more complete protection than either one alone.",
+      },
+      {
+        question: "What is the fastest way to deal with a German cockroach infestation in a New Haven apartment?",
+        answer:
+          "Gel bait treatment applied to harborage areas behind appliances, under sinks, and along cabinet kick plates is significantly faster and more effective than spray for German cockroaches. Spray kills surface insects but does not reach the colony in the wall void or the cluster behind the refrigerator. Gel bait is carried back to the colony before it acts, reducing the full population. A follow-up inspection two to three weeks later assesses progress and re-treats remaining hotspots. Addressing the shared utility pathways between units is important in multi-family buildings.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Hartford", slug: "hartford" },
+      { name: "Bridgeport", slug: "bridgeport" },
+      { name: "Milford", slug: "milford" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in New Haven, CT | Mice, Rats & Deer Ticks",
+    metaDescription:
+      "New Haven pest control for house mice, rats, German cockroaches, deer ticks and bed bugs. New Haven County Yale University city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

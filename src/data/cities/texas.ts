@@ -2574,4 +2574,355 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Midland pest control for striped bark scorpions, brown recluse spiders, cockroaches, mice and fire ants. Permian Basin West Texas specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "irving",
+    name: "Irving",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~256,000",
+    county: "Dallas County",
+    climate: "hot-humid",
+    climateDriver:
+      "Irving sits in Dallas County in the heart of the DFW Metroplex, bordered by Dallas to the east and Fort Worth to the west, with DFW International Airport spanning the northern edge of the city. The hot humid Dallas climate sustains fire ants, termites, and cockroaches year-round, while mild winters do little to suppress pest populations significantly. The Trinity River floodplain runs through the southern edge of the city, creating mosquito breeding habitat. The Las Colinas corporate corridor and the Mandalay Canal district bring high travel volume through hotels and commercial properties that sustains ongoing bed bug introduction.",
+    topPests: [
+      "Fire Ants",
+      "Formosan and Subterranean Termites",
+      "American Cockroaches",
+      "Mosquitoes",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds swell rapidly after spring and summer rain",
+        note:
+          "Fire ants are pervasive across Irving and all of Dallas County. Texas A&M AgriLife Extension identifies the Blackland Prairie clay soils of the DFW area as prime fire ant habitat. Mounds rebuild within days after every rain, and every yard and green space in Irving carries fire ant sting risk year-round.",
+      },
+      {
+        name: "Formosan and Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active underground year-round",
+        note:
+          "Dallas County is within the active range of both eastern subterranean termites and the invasive Formosan termite. Texas A&M AgriLife Extension has documented Formosan termite populations spreading through the DFW metro. Formosan colonies build much larger than native subterranean colonies and damage wood faster. Irving homes without termite protection are at real structural risk.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in summer heat",
+        note:
+          "American cockroaches breed in Irving's storm drain infrastructure and outdoor organic matter and push into buildings through foundation gaps when summer heat and drought displace them indoors. The commercial and restaurant concentration in Las Colinas and the Heritage District adds cockroach pressure to adjacent residential areas.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note:
+          "The Trinity River floodplain and retention ponds throughout Irving create consistent mosquito breeding habitat. Dallas County Mosquito Control monitors for West Nile virus annually and has documented activity in the county in multiple recent years.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, push into structures in fall and summer heat",
+        note:
+          "House mice are a year-round presence in Irving, particularly in older neighborhoods and around commercial properties. The DFW summer heat drives them toward air-conditioned structures as well as cold weather does in fall.",
+      },
+    ],
+    localHook:
+      "Dallas County is within the active Formosan termite zone, and Irving is fully in that area. Texas A&M AgriLife Extension has documented Formosan termite populations in the DFW metro, and these are not a minor upgrade from native termites. Formosan colonies can contain several million individuals and feed at a rate that causes significant structural damage in months rather than years. A home in Irving without active termite protection is taking a real financial risk.",
+    intro:
+      "Pest control in Irving covers the full DFW suburban and commercial profile. Fire ants are in every yard, sustained by the Blackland Prairie clay soils that rebuild mounds after every rain. Both Formosan and eastern subterranean termites are active in Dallas County, making termite protection a genuine priority. American cockroaches push in from the storm drain infrastructure in summer. The Trinity River floodplain sustains a long mosquito season, and the Las Colinas hotel and corporate corridor sustains ongoing bed bug introduction through heavy travel. The pest calendar here runs twelve months.",
+    sections: [
+      {
+        heading: "Formosan termites in the DFW area",
+        body: "The Formosan subterranean termite has spread from Gulf Coast introduction points into the Dallas-Fort Worth area. Texas A&M AgriLife Extension has documented its presence in Dallas County, and Irving is fully within that zone. What distinguishes Formosan termites from native eastern subterranean termites is colony size and damage rate. A mature Formosan colony can consume roughly a pound of wood per day, compared to the much slower rate of native colonies. They also build carton nests, above-ground structures made of soil and wood debris, in wall voids and attic spaces, allowing them to maintain moisture without returning to the soil. This makes them harder to detect and more expensive to address than native termites. Homes built before the 1990s with wood near grade, crawl spaces, or wood-to-concrete interfaces need active termite protection in Irving. The annual inspection that verifies that protection is current is a fundamental part of home maintenance in Dallas County.",
+      },
+      {
+        heading: "Fire ants on the Blackland Prairie",
+        body: "The Blackland Prairie clay soils underlying Irving and much of Dallas County are especially favorable for fire ant colonies. The clay retains moisture between rains, sustaining colonies during droughts, and supports the rapid mound rebuilding that follows every wet period. Texas A&M AgriLife Extension ranks fire ants among the most significant pest and public health concerns in Texas. In Irving, fire ant pressure is not limited to suburban lawns: commercial landscaping, parks, and any maintained green space carries mound risk. Individual mound treatment is appropriate for immediate threats, but a yard-wide broadcast bait treatment in spring, before populations peak, provides more sustained suppression and prevents the rapid expansion into treated territory that follows spot treatment alone.",
+      },
+    ],
+    prevention: [
+      "Maintain an active termite protection program, bait station monitoring or liquid soil treatment, and renew annually given the Formosan termite risk in Dallas County.",
+      "Apply broadcast fire ant bait across the lawn in spring before mound populations peak.",
+      "Seal plumbing penetrations and foundation gaps to limit American cockroach entry from storm drain infrastructure.",
+      "Remove standing water from low spots, retention areas, and containers after rain to reduce mosquito breeding near the Trinity River floodplain.",
+    ],
+    costNote:
+      "Irving pest pricing is standard DFW range. Termite inspection is free and annual protection is strongly recommended in Dallas County. Quarterly general pest programs cover fire ants, cockroaches, and perimeter pests. Mosquito barrier service is available seasonally from March through November.",
+    faqs: [
+      {
+        question: "Are Formosan termites really worse than regular termites?",
+        answer:
+          "Yes, significantly. Formosan termites build colonies many times larger than native eastern subterranean termites and cause damage at a much faster rate. Texas A&M AgriLife Extension has documented their presence in the DFW area including Dallas County. The practical difference is that Formosan damage can occur faster, is harder to detect because they can maintain moisture in wall voids without returning to the soil, and is more expensive to address once established. Annual inspection and active protection are important in Irving.",
+      },
+      {
+        question: "Why do fire ants keep returning to my Irving yard after treatment?",
+        answer:
+          "When you eliminate one colony, neighboring colonies expand into the vacated territory. Individual mound treatment kills the treated colony but does not address the surrounding population. Broadcast bait treatments applied yard-wide target the broader population by having workers carry the bait back to multiple colonies before it acts. Texas A&M AgriLife Extension recommends broadcast bait as the most cost-effective approach for sustained yard-wide fire ant suppression.",
+      },
+      {
+        question: "Is West Nile virus monitored in Irving?",
+        answer:
+          "Yes. Dallas County Mosquito Control actively monitors and tests for West Nile virus each summer season. Dallas County has had West Nile activity documented in multiple recent years. The mosquito season in Irving runs March through November along the Trinity River floodplain. Removing standing water and treating resting areas around the home reduces personal exposure risk.",
+      },
+      {
+        question: "Why do American cockroaches push into Irving homes in summer?",
+        answer:
+          "American cockroaches live primarily in Irving's outdoor drainage and storm infrastructure and in outdoor organic matter. When the summer heat becomes extreme and the outdoor environment becomes inhospitable, they push toward the cooler, moister conditions inside buildings, entering through plumbing penetrations and foundation gaps. They are different from German cockroaches, which are entirely indoor insects. Sealing foundation entry points and maintaining a perimeter treatment reduces these heat-driven incursions.",
+      },
+      {
+        question: "How do I know if I have termites in my Irving home?",
+        answer:
+          "Eastern subterranean and Formosan termites leave several signs: mud tubes along the foundation exterior or in crawl spaces, hollow-sounding wood when tapped, sagging floors or sticking doors and windows, and the presence of swarmers (winged termites) in spring. Formosan termites may also produce carton material, a hard brownish mass of soil and wood debris, in wall voids. An annual professional inspection is the most reliable way to catch activity before it becomes expensive structural damage in an area with both termite species present.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Dallas", slug: "dallas" },
+      { name: "Fort Worth", slug: "fort-worth" },
+      { name: "Arlington", slug: "arlington" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Irving, TX | Fire Ants, Termites & Cockroaches",
+    metaDescription:
+      "Irving pest control for fire ants, Formosan termites, American cockroaches, mosquitoes and house mice. Dallas County DFW Metroplex specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "beaumont",
+    name: "Beaumont",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~118,000",
+    county: "Jefferson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Beaumont sits in Jefferson County in Southeast Texas, at the western edge of the Big Thicket, near the Gulf Coast. The humid subtropical climate delivers year-round warmth, approximately 55 inches of annual rainfall (among the highest in Texas), and high humidity through every season. This combination sustains cockroach populations at levels few Texas cities match, keeps Formosan termite colonies active year-round, and creates mosquito breeding pressure through ten months of the year. Tropical weather systems from the Gulf regularly bring additional flooding that displaces pests and drives them into structures.",
+    topPests: [
+      "Cockroaches",
+      "Formosan Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "Rats",
+    ],
+    pestProfile: [
+      {
+        name: "American, German, and smoky brown cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in summer",
+        note:
+          "Southeast Texas sustains all three major cockroach species year-round. American cockroaches breed in outdoor drainage and storm infrastructure and push indoors during heat and rain. Smoky brown cockroaches thrive in the wooded Big Thicket edge habitat surrounding Beaumont and are common in exterior harborage. German cockroaches establish indoors in kitchens and multi-family housing. The Gulf Coast humidity amplifies pressure beyond what most Texas cities experience.",
+      },
+      {
+        name: "Formosan termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active underground year-round",
+        note:
+          "Beaumont and Jefferson County are within the core Southeast Texas Formosan termite zone. Formosan termites were first introduced to the United States through Gulf Coast ports and have been established in Southeast Texas for decades. Texas A&M AgriLife Extension considers the Gulf Coast counties some of the highest Formosan termite pressure areas in the state.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "February through November",
+        note:
+          "The Golden Triangle area around Beaumont has among the most intense mosquito pressure of any Texas city. The subtropical heat, 55 inches of annual rainfall, proximity to Big Thicket wetlands, and frequent tropical flooding create abundant, continuously replenished breeding habitat. Jefferson County Vector Control actively monitors for mosquito-borne illness including West Nile virus.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds rebuild rapidly after every rain",
+        note:
+          "Fire ants are pervasive throughout Jefferson County. The warm Gulf Coast climate keeps them active year-round, and the high rainfall sustains large, well-established colonies that rebuild mounds within days of any disturbance or precipitation. They are a consistent sting hazard in all outdoor areas.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note:
+          "Norway and roof rats are established in Beaumont's industrial and commercial infrastructure near the port, rail yards, and older neighborhoods. Flooding events from tropical weather systems regularly displace rat populations from outdoor burrows into structures. The port and industrial district creates sustained rat habitat.",
+      },
+    ],
+    localHook:
+      "Beaumont averages around 55 inches of rain per year, placing it among the wettest major cities in Texas. That rainfall is not a minor atmospheric detail: it is the reason the mosquito season extends to ten months, the reason Formosan termite colonies never face drought stress, the reason fire ants rebuild mounds faster than homeowners can address them, and the reason smoky brown cockroaches thrive in the surrounding landscape. Gulf Coast pest control in Beaumont is a year-round commitment.",
+    intro:
+      "Pest control in Beaumont is Gulf Coast pest control at full subtropical intensity. The city averages around 55 inches of annual rainfall and sits at the edge of the Big Thicket, one of the most biologically diverse forest regions in North America. That combination means mosquitoes for nearly ten months of the year, Formosan termites established in the housing stock, three cockroach species active outdoors and indoors year-round, and fire ants rebuilding after every storm. Flooding from tropical weather systems regularly drives rats and other pests from outdoor harborage into structures. The proximity to the Big Thicket adds smoky brown cockroaches that do not appear in drier Texas cities.",
+    sections: [
+      {
+        heading: "Formosan termites in the Gulf Coast zone",
+        body: "Jefferson County is within the core Southeast Texas Formosan termite zone. Formosan termites were introduced through Gulf Coast ports and are thoroughly established in Beaumont and the surrounding area. Texas A&M AgriLife Extension considers Gulf Coast counties priority termite risk areas. What separates Formosan termites from native eastern subterranean termites is colony size, feeding rate, and the ability to build carton nests in wall voids and attic spaces without returning to the soil. This means Formosan damage can occur faster and go undetected longer. For Beaumont's older housing stock, particularly wood-frame homes built before the 1980s with pier-and-beam construction or wood near grade, an undetected Formosan infestation can cause tens of thousands of dollars in structural damage before visible signs appear. Active termite protection, whether a liquid soil barrier or a bait monitoring system renewed annually, is fundamental home maintenance in this market.",
+      },
+      {
+        heading: "Mosquitoes and Southeast Texas weather",
+        body: "Beaumont's mosquito situation is shaped by factors that are beyond the control of any individual homeowner. The approximately 55 inches of annual rainfall continuously replenishes breeding sites faster than they can dry out. The Big Thicket wetlands to the north and east provide natural breeding habitat on a large scale. Tropical weather systems bring additional flooding that creates new breeding pools. Jefferson County Vector Control manages the public infrastructure, but residential standing water management and professional barrier treatment of resting areas, the shaded vegetation under decks and in dense shrubs where mosquitoes wait out the heat of the day, are the residential-scale defenses. The barrier treatment does not address the natural breeding habitat but reduces the mosquito population using the residential environment as a daytime resting site.",
+      },
+    ],
+    prevention: [
+      "Maintain active Formosan termite protection with annual inspection and treatment renewal.",
+      "Eliminate standing water within 48 hours of every rain event to disrupt the mosquito breeding cycle.",
+      "Treat fire ant colonies with broadcast bait in spring and spot-treat mounds year-round.",
+      "Seal foundation gaps, crawl space vents, and utility penetrations before tropical storm season to limit rat and cockroach entry when flooding displaces outdoor populations.",
+    ],
+    costNote:
+      "Beaumont pest pricing reflects the Gulf Coast market and year-round pest pressure. Termite inspection is free and annual protection is strongly recommended. Mosquito service runs February through November. General pest quarterly programs cover cockroaches, fire ants, and perimeter pests. Rat programs are quoted after inspection.",
+    faqs: [
+      {
+        question: "Is termite protection truly necessary in Beaumont?",
+        answer:
+          "Yes. Jefferson County is within one of the highest Formosan termite pressure zones in Texas. Texas A&M AgriLife Extension considers Gulf Coast counties priority termite risk areas. An undetected Formosan termite colony can cause devastating structural damage before visible signs appear. Annual inspection and an active protection program are basic home maintenance in Beaumont, not an optional service.",
+      },
+      {
+        question: "What cockroach species are most common in Beaumont homes?",
+        answer:
+          "All three major species are active. American cockroaches breed in outdoor drainage and storm infrastructure and enter through plumbing gaps during heat and flooding events. Smoky brown cockroaches are common near the wooded Big Thicket edge and in exterior harborage like mulch and tree hollows. German cockroaches are the indoor species found in kitchens and multi-family housing. Southeast Texas's subtropical humidity sustains all three year-round.",
+      },
+      {
+        question: "Do floods from Gulf storms increase pest problems in Beaumont?",
+        answer:
+          "Yes. Flooding from tropical weather systems displaces rats, cockroaches, and fire ants from outdoor harborage into structures. Fire ant colonies float as a unified mass and relocate to high ground, including indoors. Rats driven from burrows enter buildings through utility penetrations. After a significant flooding event, increased rat and cockroach activity inside structures is common and expected. Post-flood inspection and exclusion work are recommended.",
+      },
+      {
+        question: "Why is mosquito season so much longer in Beaumont than in Dallas or Austin?",
+        answer:
+          "Beaumont's subtropical climate and high annual rainfall create persistent breeding habitat through most of the year. Tropical weather systems regularly add flooding on top of the baseline rainfall. The Big Thicket wetlands provide natural breeding areas that are not addressable at the residential scale. Dallas and Austin receive significantly less rainfall and have cooler winters that suppress mosquito populations for longer. Beaumont's Gulf Coast position and rainfall sustain the season from February through November.",
+      },
+      {
+        question: "Are smoky brown cockroaches common in Beaumont homes?",
+        answer:
+          "Yes, more so than in most Texas cities. Smoky brown cockroaches prefer high humidity and wooded or semi-wooded environments, which Beaumont's subtropical climate and proximity to the Big Thicket provide abundantly. They commonly inhabit exterior harborage like mulch, tree hollows, and outdoor debris and enter homes from there. This species is far more common in Beaumont than in drier Texas cities like Midland or Lubbock.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Houston", slug: "houston" },
+      { name: "Port Arthur", slug: "port-arthur" },
+      { name: "Orange", slug: "orange-tx" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Beaumont, TX | Cockroaches, Termites & Mosquitoes",
+    metaDescription:
+      "Beaumont pest control for cockroaches, Formosan termites, mosquitoes, fire ants and rats. Jefferson County Golden Triangle Southeast Texas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "abilene",
+    name: "Abilene",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~125,000",
+    county: "Taylor County",
+    climate: "semi-arid",
+    climateDriver:
+      "Abilene sits in Taylor County in West Texas, at the edge of the Rolling Plains and Callahan Divide. The semi-arid climate brings hot summers, cold winters by Texas standards, and around 24 inches of annual rainfall. The drier conditions compared to East Texas significantly reduce termite and mosquito pressure but sustain brown recluse spiders, striped bark scorpions, and fire ants in the rock and clay soils surrounding Dyess Air Force Base and the city's established neighborhoods. The region's ranch and oil country character shapes the local pest environment.",
+    topPests: [
+      "Brown Recluse Spiders",
+      "Striped Bark Scorpions",
+      "Fire Ants",
+      "American Cockroaches",
+      "Eastern Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered interior spaces, most active April through October",
+        note:
+          "Texas A&M AgriLife Extension confirms that brown recluse spiders are found across West Texas and are a common pest in Abilene-area homes. They prefer undisturbed spaces: attics, crawl spaces, storage areas, closets, and behind baseboards. Most bites occur when people disturb stored clothing, boxes, or furniture. Bites are rare but can cause tissue damage and warrant medical attention.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Peaks May through September, present year-round in warm interior spaces",
+        note:
+          "Striped bark scorpions are present across West Texas and are found in Abilene and Taylor County. They enter homes through weep holes, gaps around utility penetrations, and open doors. They are nocturnal and hide during the day under debris, in stored boxes, and in wall voids. Their sting is painful but rarely dangerous to a healthy adult.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak in spring after rain",
+        note:
+          "Fire ants are present in Abilene and Taylor County, though at lower density than in East and Central Texas due to the drier climate. They remain a sting hazard in yards and green spaces, and mounds appear in any soil that receives enough moisture. Their presence in the ranch country surrounding Abilene sustains local populations.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, push indoors most aggressively in summer heat",
+        note:
+          "American cockroaches are the dominant cockroach pest in Abilene's residential and commercial buildings. The hot summer drives them toward air-conditioned interiors through gaps around plumbing and poorly sealed exterior doors. Older commercial buildings, restaurants, and multi-family housing near downtown and Dyess AFB see the most consistent pressure.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active underground much of the year",
+        note:
+          "Eastern subterranean termites are active in West Texas including the Abilene area. While at lower levels than Southeast Texas, Taylor County has active termite populations that can damage unprotected wood-frame structures over time. Termite inspection is appropriate for most Abilene homes.",
+      },
+    ],
+    localHook:
+      "Brown recluse spiders are a West Texas reality that Abilene homeowners encounter differently than people in Houston or Austin. Texas A&M AgriLife Extension documents them across the region. Unlike most pests, brown recluses stay hidden in the places people rarely look: the back of closets, cardboard boxes in storage, attic insulation, crawl spaces. Most bites happen when someone reaches into stored clothing or boxes without checking first. That specificity is important because the management approach for a pest you almost never see is different from one you encounter visibly.",
+    intro:
+      "Pest control in Abilene reflects West Texas conditions: less intense than Gulf Coast cities, but with a specific pest set that the semi-arid climate and local geology sustain. Brown recluse spiders are the pest that gets the most local attention, and for good reason: Texas A&M AgriLife Extension confirms their presence across West Texas, and the undisturbed spaces in Abilene's older homes provide exactly what they need. Striped bark scorpions enter through weep holes and utility gaps and are found in living areas. Fire ants are in the yards. American cockroaches push in through the summer heat. Eastern subterranean termites are active in Taylor County and worth monitoring annually.",
+    sections: [
+      {
+        heading: "Brown recluse spiders in Abilene homes",
+        body: "Brown recluse spiders are secretive and stay in undisturbed spaces: attic insulation, cardboard storage boxes, behind baseboards, in wall voids, in seldom-opened closets, and in crawl space areas. They hunt at night and retreat by day. Texas A&M AgriLife Extension notes that brown recluses are commonly found in homes across West Texas and that most bites happen when people put on stored clothing, reach into a cardboard box, or disturb a storage area without checking first. The bite can cause tissue damage in some cases and should be evaluated by a physician. The practical management approach starts with habitat reduction: replacing cardboard storage boxes with sealed plastic bins, keeping storage areas organized and away from walls, and shaking out stored clothing and shoes before wearing them. Professional treatment of attic, crawl space, and wall void areas targets the population in the undisturbed spaces where surface spray cannot reach.",
+      },
+      {
+        heading: "Scorpion entry prevention in Abilene",
+        body: "Striped bark scorpions use the same entry points as other arthropods: weep holes in brick veneer, gaps around plumbing penetrations, deteriorated door sills, and open garage doors. Unlike brown recluses, they forage actively and are more often found in living areas. The common encounter is a scorpion in a bathroom in the morning, having entered from a drain gap or a gap under the vanity. Sealing weep holes with fine wire mesh, caulking utility penetrations, and maintaining a residual perimeter treatment around the foundation exterior reduce entry significantly. Outdoor harborage reduction, moving rock and wood piles away from the foundation and trimming ground-level vegetation away from exterior walls, eliminates the exterior holding population that is the source of home entries.",
+      },
+    ],
+    prevention: [
+      "Replace cardboard storage boxes with sealed plastic bins in attics and closets to remove brown recluse harborage.",
+      "Seal weep holes with fine wire mesh and caulk gaps around utility penetrations to exclude scorpions.",
+      "Shake out stored clothing, shoes, and gloves before putting them on in any area where brown recluses may be present.",
+      "Apply broadcast fire ant bait in spring and spot-treat mounds throughout the year.",
+    ],
+    costNote:
+      "Abilene pest pricing is standard West Texas range. Brown recluse programs include attic, crawl space, and perimeter treatment. Scorpion programs include exclusion work and perimeter spray. Termite inspection is free. Quarterly general pest plans cover fire ants, cockroaches, and perimeter pests.",
+    faqs: [
+      {
+        question: "Are brown recluse bites common in Abilene?",
+        answer:
+          "Bites are relatively uncommon even where spiders are present. Brown recluses avoid contact with humans and bite only when pressed directly against skin. Most bites happen when someone puts on stored clothing, reaches into a cardboard box, or disturbs a storage area without checking. Texas A&M AgriLife Extension confirms that brown recluses are established across West Texas including the Abilene area. Awareness of their habits and reducing storage clutter significantly lowers bite risk.",
+      },
+      {
+        question: "How do scorpions get into Abilene homes?",
+        answer:
+          "Striped bark scorpions enter through weep holes in brick veneer, gaps around pipe penetrations, gaps under exterior doors, and gaps in garage door seals. They follow prey insects into structures at night. Sealing these entry points and maintaining a perimeter treatment are the most effective combination for keeping them out.",
+      },
+      {
+        question: "Why are fire ants less intense in Abilene than in Houston?",
+        answer:
+          "Red imported fire ants reach higher densities in East and Central Texas where rainfall is higher and soils stay moist longer. In the semi-arid conditions of West Texas around Abilene, drier soils support lower fire ant populations. Fire ants are still present and still sting in Abilene yards, but the mound density is typically lower than in Gulf Coast cities.",
+      },
+      {
+        question: "Do I need a termite inspection in Abilene?",
+        answer:
+          "Yes. Eastern subterranean termites are active in Taylor County. While pressure is lower than in Southeast Texas, unprotected wood-frame homes in Abilene can sustain termite damage over time. An annual inspection is appropriate, particularly for older homes with wood near grade or pier-and-beam construction. The inspection is free.",
+      },
+      {
+        question: "What is the best approach to managing brown recluse spiders in storage areas?",
+        answer:
+          "Start with the containers: switch from cardboard boxes to sealed plastic bins. Cardboard boxes offer dark, undisturbed warmth that brown recluses prefer. Keep storage areas organized, away from walls, and check items that have been sitting for more than a few weeks before handling them. Professional treatment of attic and crawl space areas once or twice a year addresses the population in the undisturbed spaces where surface treatment cannot reach effectively.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Lubbock", slug: "lubbock" },
+      { name: "Midland", slug: "midland" },
+      { name: "Wichita Falls", slug: "wichita-falls" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Abilene, TX | Brown Recluse, Scorpions & Fire Ants",
+    metaDescription:
+      "Abilene pest control for brown recluse spiders, striped bark scorpions, fire ants, cockroaches and termites. Taylor County West Texas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

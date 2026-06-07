@@ -535,4 +535,121 @@ export const coloradoCities: CityLocation[] = [
     metaDescription:
       "Lakewood pest control for voles, house mice, black widow spiders, yellowjackets and earwigs. Jefferson County Front Range foothills specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "thornton",
+    name: "Thornton",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T2",
+    population: "~145,000",
+    county: "Adams County",
+    climate: "semi-arid",
+    climateDriver:
+      "Thornton sits in Adams County on the north Denver metro Front Range, east of the Rocky Mountain foothills and on the edge of the High Plains. The semi-arid climate brings hot dry summers, cold winters, low annual humidity, and around 14 inches of rain per year. The dry conditions limit mosquito and termite pressure compared to humid states, but sustain significant populations of black widow spiders, earwigs, boxelder bugs, and voles. The South Platte River runs through the east edge of Thornton, creating a riparian corridor that adds moisture-dependent pest habitat to an otherwise dry suburban landscape.",
+    topPests: [
+      "Black Widow Spiders",
+      "Boxelder Bugs",
+      "Earwigs",
+      "Voles",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most active May through October, present year-round in sheltered spaces",
+        note:
+          "Black widow spiders are common in Thornton and throughout Adams County. Colorado State University Extension identifies the western black widow as found across Colorado's eastern plains and Front Range. They nest in low, dark, undisturbed spaces: under deck boards, in garage corners, in wood piles, around utility meters, and in low landscaping. The female's venom is medically significant, and bites require medical attention.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Aggregation September and October, overwinter in wall voids",
+        note:
+          "Boxelder bugs are a very common fall nuisance in Thornton and across the Denver metro. They aggregate in large numbers on south-facing walls in fall and push into wall voids to overwinter. Adams County has abundant boxelder and maple trees in its street tree canopy, which sustain large boxelder bug populations through summer. They are harmless but aggregate in numbers that can be impressive.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, most prevalent in summer",
+        note:
+          "Earwigs are a common complaint in Thornton's suburban landscape areas. They hide in moist soil under mulch, pavers, and landscaping debris during the day and forage at night. They enter homes through gaps at ground level and are often found in basements, bathrooms, and laundry areas. The South Platte River corridor adds moisture that sustains earwig populations in adjacent neighborhoods.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, most damaging in winter under snow cover",
+        note:
+          "Voles are a significant turf and garden pest in Thornton's residential neighborhoods. They create surface runways through lawns, girdle young trees and shrubs, and feed on bulbs and roots. Their activity can be difficult to detect in summer but becomes very visible in spring after snow cover recedes, revealing tunnels across the lawn.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, concentrated push in October and November",
+        note:
+          "House mice are a year-round concern in Thornton. The cold Colorado winters drive them firmly into heated structures, and the South Platte River corridor sustains outdoor populations in the riparian vegetation that press into adjacent neighborhoods as temperatures drop.",
+      },
+    ],
+    localHook:
+      "Boxelder bugs are a Front Range fact of life, and Thornton's Adams County location gives them exactly what they need: warm south-facing walls in fall and abundant boxelder trees in the street canopy through summer. A large aggregation on the south side of a Thornton home in October is not unusual. The bugs themselves are harmless, but the numbers can be striking, and they get into wall voids and emerge through outlets and baseboards in late winter when the structure warms.",
+    intro:
+      "Pest control in Thornton follows the semi-arid Front Range pattern, which is different from what most people expect from a major metro suburb. Mosquitoes and termites are much less of a concern than in humid states. What the dry climate does sustain is black widow spiders in low, undisturbed outdoor spaces, boxelder bugs that aggregate on warm walls each fall, earwigs in moist landscaping areas, and voles in lawns and gardens. House mice push into structures as Colorado winters arrive in fall. The South Platte River corridor through eastern Thornton adds a riparian layer to an otherwise dry suburban pest profile.",
+    sections: [
+      {
+        heading: "Black widow spiders in Thornton's suburban landscape",
+        body: "Black widow spiders are the pest that Thornton homeowners are most likely to be genuinely concerned about, and with reason. Colorado State University Extension confirms that the western black widow is found throughout Colorado's eastern plains and Front Range, including Adams County. Black widows nest in the specific spaces that suburban homes provide in abundance: under wood decks, in low corners of garages, around utility meters at the foundation, in wood piles adjacent to the house, and in low ornamental shrubs. They are not aggressive and bites are uncommon, but the female's venom is medically significant and bites require medical evaluation. The practical prevention strategy starts with harborage reduction: keeping wood piles away from the house, reducing low dense plantings against the foundation, wearing gloves when working in storage or yard areas, and inspecting with a flashlight before reaching into spaces under deck boards or behind outdoor equipment. A perimeter treatment program reduces the population that establishes near the home.",
+      },
+      {
+        heading: "Boxelder bugs: the Front Range fall spectacle",
+        body: "Few pest events in the Denver metro are as visually striking as a large boxelder bug aggregation on a warm south-facing wall in October. Thornton's Adams County location, with abundant boxelder and maple trees in the street canopy and surrounding landscaping, sustains large boxelder bug populations through the summer feeding season. As temperatures drop in September, the bugs gather on sun-facing walls to absorb heat before pushing into wall voids for winter. They are completely harmless: they do not bite, sting, or damage the structure. But they do aggregate in numbers that can be alarming, and they emerge from wall voids into living spaces in late winter as interior temperatures warm them. The prevention window is before aggregation begins in September: sealing gaps around windows, exterior electrical outlets, utility penetrations, and siding overlaps limits how many get inside. A perimeter treatment on exterior walls as they begin to aggregate in September is effective at reducing the population reaching the wall surface.",
+      },
+    ],
+    prevention: [
+      "Remove wood piles and reduce low dense plantings against the foundation to limit black widow spider harborage.",
+      "Seal exterior gaps around windows, siding, utility penetrations, and exterior outlets before September to limit boxelder bug entry into wall voids.",
+      "Apply earwig perimeter treatment along the foundation where mulch meets the foundation wall to reduce entry.",
+      "Seal foundation gaps and utility penetrations in October before the mouse push that follows first freezes.",
+    ],
+    costNote:
+      "Thornton pest pricing is standard Adams County range. Spider programs include a perimeter treatment targeting harborage areas. Boxelder bug programs are timed to September for exterior treatment. Mouse exclusion and trapping programs are quoted after a free inspection. Vole management programs for lawn protection are available in spring and fall.",
+    faqs: [
+      {
+        question: "Are black widow spiders dangerous in Thornton?",
+        answer:
+          "The female western black widow's venom is medically significant, and bites should be evaluated by a physician. Bites are uncommon because black widows are not aggressive and stay in low, undisturbed spaces. Most bites happen when someone reaches into a harborage area without seeing the spider. Colorado State University Extension confirms that black widows are present throughout Adams County. Wearing gloves when working in outdoor storage, wood piles, and under deck areas reduces bite risk significantly.",
+      },
+      {
+        question: "Why do so many boxelder bugs appear on my Thornton house in fall?",
+        answer:
+          "Boxelder bugs spend summer feeding on seeds in boxelder and maple trees and aggregating. As fall temperatures drop, they seek warm surfaces, and south-facing walls absorb more solar heat than the surrounding air. They are drawn to that warmth and gather in large numbers. Adams County's abundant street-canopy boxelder and maple trees sustain large populations. They are harmless but get into wall voids through gaps around windows and siding and emerge inside through outlets and baseboards in late winter.",
+      },
+      {
+        question: "Do Thornton homes get termites?",
+        answer:
+          "Subterranean termites are present in Colorado, including Adams County, but at much lower pressure than in the humid South or Midwest. Colorado State University Extension notes that termites are active in parts of the state but that the risk is significantly lower than in humid climates. Thornton's semi-arid climate and clay-heavy soils do not favor the termite activity levels seen in Texas or the Gulf Coast. An inspection is appropriate if you see swarming insects in spring or signs of wood damage, but routine annual termite service is less universally necessary than in humid states.",
+      },
+      {
+        question: "What do voles do to my Thornton lawn?",
+        answer:
+          "Voles create surface runways, 1- to 2-inch-wide paths of bare or matted grass that meander across the lawn. They feed on grass roots, bulbs, and the bark of young trees and shrubs, and a significant vole population can thin a lawn rapidly. The damage is most visible in spring after snow melts, revealing the winter runway system. The South Platte River corridor and the adjacent riparian areas sustain higher vole populations in eastern Thornton neighborhoods than in areas further from the river.",
+      },
+      {
+        question: "When should I treat for earwigs in Thornton?",
+        answer:
+          "Earwig perimeter treatment is most effective in late spring and early summer, when they are actively moving from outdoor harborage into structures. The treatment targets the zone where mulch meets the foundation wall, which is the primary entry pathway. Reducing moisture in that zone, by pulling mulch back from the foundation several inches and ensuring gutters and downspouts are directed away from the house, complements the perimeter treatment and reduces the conditions that make the area attractive to earwigs.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Denver", slug: "denver" },
+      { name: "Westminster", slug: "westminster" },
+      { name: "Aurora", slug: "aurora-co" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Thornton, CO | Black Widows, Boxelder Bugs & Earwigs",
+    metaDescription:
+      "Thornton pest control for black widow spiders, boxelder bugs, earwigs, voles and house mice. Adams County Denver metro Front Range specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

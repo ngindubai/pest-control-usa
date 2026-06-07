@@ -546,4 +546,121 @@ export const tennesseeCities: CityLocation[] = [
     metaDescription:
       "Clarksville pest control for mosquitoes, subterranean termites, brown recluse spiders, American cockroaches and fire ants. Montgomery County Cumberland River specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "murfreesboro",
+    name: "Murfreesboro",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T2",
+    population: "~132,000",
+    county: "Rutherford County",
+    climate: "hot-humid",
+    climateDriver:
+      "Murfreesboro sits in Rutherford County in middle Tennessee, about 35 miles southeast of Nashville on the Stones River. The humid subtropical climate brings hot, humid summers, mild winters, and abundant rainfall year-round. The city has been one of the fastest-growing in the United States for more than a decade, creating a mix of new suburban construction pressing against agricultural land and the riparian habitat of the Stones River and its tributaries. That urban-edge mix, combined with the subtropical warmth and moisture, drives strong termite, mosquito, and fire ant pressure.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "American Cockroaches",
+      "Brown Recluse Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active underground most of the year",
+        note:
+          "Rutherford County is in a high termite pressure zone per Tennessee Cooperative Extension pest mapping. The humid subtropical climate and the abundant clay-loam soils of the Stones River basin provide ideal termite habitat. Murfreesboro's rapid growth means many newer homes built in the 2000s and 2010s are reaching the age where termite protection history matters and inspections are warranted.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note:
+          "The Stones River and its many tributaries that run through and around Murfreesboro create consistent mosquito breeding habitat throughout the warm season. The low-lying areas near Barfield Crescent Park and the floodplain areas east of the city sustain large breeding populations. MTSU campus green spaces and the subdivisions near the river corridors see the highest residential mosquito pressure.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds swell after spring rain",
+        note:
+          "Fire ants are established in Rutherford County and throughout middle Tennessee. Tennessee Cooperative Extension has documented their steady spread northward and eastward across the state. Murfreesboro's warm climate keeps them active for most of the year, and mounds rebuild quickly in the clay-loam soils after every rain.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, push indoors most aggressively in summer heat and during rain",
+        note:
+          "American cockroaches are the dominant outdoor cockroach species in Murfreesboro's humid subtropical climate. They breed in storm drains and organic matter in landscaping and push into structures during summer heat and rain events. German cockroaches are the indoor species found in restaurants, multi-family housing near MTSU, and commercial kitchens.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered interior spaces, most active April through October",
+        note:
+          "Brown recluse spiders are common in middle Tennessee and are found in Murfreesboro homes. Tennessee Cooperative Extension confirms their presence across the state. They inhabit undisturbed spaces in storage areas, attics, and behind baseboards. Murfreesboro's rapid growth and the large amount of new construction means many homes have crawl spaces and storage areas that provide ideal recluse habitat.",
+      },
+    ],
+    localHook:
+      "Murfreesboro has been one of the fastest-growing cities in the United States for over a decade. That rapid growth has pushed subdivisions into agricultural land and edge-of-forest areas that are precisely where fire ant mounds multiply, where termite colonies are already established in the soil, and where mosquitoes from the Stones River floodplain have a short distance to travel to reach new backyards. Growth does not reduce pest pressure in a humid subtropical environment: it introduces new homes to existing pest habitat.",
+    intro:
+      "Pest control in Murfreesboro is shaped by the city's rapid growth and its humid subtropical climate. New subdivisions press against agricultural land and the Stones River floodplain, bringing homeowners into proximity with established fire ant colonies, active termite pressure, and river-corridor mosquito populations that the surrounding terrain sustains regardless of development. Eastern subterranean termites are active in Rutherford County year-round and are the pest that demands the most attention in terms of financial risk. Fire ants are in every yard. Mosquitoes from the Stones River system carry through the warm months. Brown recluse spiders inhabit the undisturbed crawl spaces and storage areas of both old and new construction.",
+    sections: [
+      {
+        heading: "Termite pressure in fast-growing Rutherford County",
+        body: "Tennessee Cooperative Extension's termite pressure mapping places Rutherford County in the high-activity zone. The combination of clay-loam soils, high annual rainfall, and warm year-round temperatures sustains subterranean termite colonies in agricultural and residential land throughout the county. Murfreesboro's growth means that many new subdivisions are built on land that previously had established termite colonies. New construction in middle Tennessee is required to have pre-construction soil treatment, but those treatments have a finite effective period. Homes built in the late 1990s through 2010s are entering the period where the original soil treatment is losing effectiveness, and establishing a monitoring or renewal program is appropriate. Termite inspection is free and is the first step in understanding a specific home's current protection status and risk. Any home in Murfreesboro with a crawl space, wood sill plate near grade, or wood-to-concrete contact needs an inspection.",
+      },
+      {
+        heading: "Fire ants in Murfreesboro's new neighborhoods",
+        body: "Fire ant mounds appear in Murfreesboro's residential yards within one to two growing seasons of new subdivision development, carried in through soil, sod, and landscaping materials from infested areas. Tennessee Cooperative Extension has documented red imported fire ants spreading steadily northward through the state, and Rutherford County is within the established range. In Murfreesboro's newer neighborhoods, where the land was recently agricultural, fire ant populations from the surrounding fields press into new yards rapidly. Individual mound treatments address the visible mound but not the surrounding population. Broadcast bait treatment across the entire yard in spring, before populations peak, provides yard-wide suppression and prevents the rapid recolonization that follows single-mound spot treatments.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection, particularly for homes built before 2005 where original pre-construction treatment may be expiring.",
+      "Apply broadcast fire ant bait across the lawn in spring before mound populations peak, especially in newer neighborhoods near agricultural land.",
+      "Remove standing water from Stones River corridor neighborhoods after every rain to reduce mosquito breeding.",
+      "Reduce crawl space clutter and storage area boxes to minimize brown recluse spider harborage.",
+    ],
+    costNote:
+      "Murfreesboro pest pricing is standard middle Tennessee range. Termite inspection is free, and annual termite protection programs are strongly recommended in Rutherford County. Quarterly general pest programs cover cockroaches, fire ants, spiders, and perimeter pests. Mosquito barrier service is available March through October.",
+    faqs: [
+      {
+        question: "Is termite protection necessary for new homes in Murfreesboro?",
+        answer:
+          "Yes, even for new construction. New builds in Tennessee receive pre-construction soil treatment, but those treatments have a finite effective period, typically 5 to 10 years depending on the product used. Additionally, Murfreesboro's rapid growth means new homes are built on land where subterranean termite colonies are already present in the soil. An annual inspection confirms whether the pre-construction treatment is still providing protection and whether any activity has begun. A bait monitoring system provides ongoing surveillance and early detection.",
+      },
+      {
+        question: "Are fire ants worse near the Stones River in Murfreesboro?",
+        answer:
+          "Fire ants prefer the well-drained soils away from the wettest floodplain areas, so properties directly on the floodplain edge may have fewer mounds than properties on drier ground nearby. However, the transition areas between the moist river corridor and higher ground are productive fire ant habitat. Newer neighborhoods on former agricultural land adjacent to the river corridor typically see faster mound development than established neighborhoods further from the edge.",
+      },
+      {
+        question: "Why are American cockroaches common in Murfreesboro?",
+        answer:
+          "American cockroaches thrive in the outdoor environment of a hot, humid subtropical city. They breed in storm drains, leaf litter, and organic matter in mulched landscape beds. Heat drives them into air-conditioned spaces through foundation gaps and plumbing penetrations in summer, and rain events displace them from outdoor harborage. Murfreesboro's rapid growth means a lot of new construction with fresh landscaping that cockroaches colonize as habitat. Perimeter treatment and sealing foundation gaps reduce the indoor incursion.",
+      },
+      {
+        question: "Should I be worried about brown recluse spiders in my Murfreesboro home?",
+        answer:
+          "They are present in middle Tennessee and warrant standard precautions. Tennessee Cooperative Extension confirms brown recluses across the state. They live in undisturbed spaces: crawl spaces, storage boxes, behind baseboards, in piles of firewood or debris. Most bites happen when people reach into stored items without checking. Switching cardboard boxes to sealed plastic bins, organizing storage areas to eliminate undisturbed clutter, and professional treatment of crawl spaces and attics are the practical management steps.",
+      },
+      {
+        question: "Is mosquito season in Murfreesboro as long as in Nashville?",
+        answer:
+          "Yes, roughly the same. Both cities share the middle Tennessee humid subtropical climate, with mosquito season running March through October. Murfreesboro's Stones River corridor does provide significant breeding habitat, which can mean higher localized mosquito pressure in neighborhoods near the river and floodplain areas than in Nashville neighborhoods further from riparian areas. Barrier treatment programs address the resting adult population around the home.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Nashville", slug: "nashville" },
+      { name: "Smyrna", slug: "smyrna" },
+      { name: "Franklin", slug: "franklin" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Murfreesboro, TN | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Murfreesboro pest control for subterranean termites, mosquitoes, fire ants, cockroaches and brown recluse spiders. Rutherford County Stones River middle Tennessee specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

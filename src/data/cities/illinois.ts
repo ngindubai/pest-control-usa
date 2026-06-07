@@ -534,4 +534,238 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Rockford pest control for house mice, brown marmorated stink bugs, odorous house ants, yellowjackets and wolf spiders. Winnebago County northern Illinois specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "peoria",
+    name: "Peoria",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T2",
+    population: "~115,000",
+    county: "Peoria County",
+    climate: "cold-humid",
+    climateDriver:
+      "Peoria sits on bluffs above the Illinois River in central Illinois, in Peoria County. The cold-humid Midwest climate brings cold winters, hot humid summers, and a full four seasons. The Illinois River valley creates riparian habitat that sustains mosquito populations and moisture conditions that amplify pest pressure in the lower-elevation neighborhoods near the river. Peoria has significant older housing stock in neighborhoods like the Heights, Northside, and the South End, with pre-war construction that provides more entry points for mice and cockroaches than newer suburban builds.",
+    topPests: [
+      "House Mice",
+      "German Cockroaches",
+      "Brown Marmorated Stink Bugs",
+      "Carpenter Ants",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge in October and November",
+        note:
+          "House mice are the dominant year-round pest in Peoria. Illinois winters drive mice firmly into heated structures by October, and the city's older pre-war housing stock in the established neighborhoods has more entry points than newer construction. The Illinois River bluffs and adjacent natural areas sustain outdoor mouse populations that press into residential areas as temperatures drop.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are established in Peoria's older apartment buildings, commercial kitchens along University and Main Streets, and the denser residential areas near downtown. Illinois State Extension identifies German cockroaches as the dominant indoor cockroach pest in the state. They spread through shared plumbing voids in older multi-family buildings.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter in wall voids",
+        note:
+          "Stink bugs are an established fall pest in Peoria and Peoria County. University of Illinois Extension has tracked their spread through central Illinois. Agricultural land and orchards in the surrounding Illinois River valley region build large stink bug populations through summer that aggregate on city structures as fall temperatures arrive.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, most visible indoors in spring",
+        note:
+          "Carpenter ants are significant in Peoria, particularly in the older neighborhoods with mature tree canopy along the Illinois River bluffs. The moisture-affected wood in older homes, combined with the mature trees that sustain outdoor colonies, gives carpenter ants ample habitat in established Peoria neighborhoods.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note:
+          "Yellowjackets establish colonies in Peoria yards and older structures each spring and reach peak aggression in late summer. Ground nests and wall void nests in older residential buildings near the river bluffs are the most common. Caterpillar tractor's industrial complex and surrounding commercial land provides wall void habitat as well.",
+      },
+    ],
+    localHook:
+      "Peoria's Illinois River location means the city's lower neighborhoods near the water experience a different pest season than the bluff-top neighborhoods. The river valley sustains moisture conditions and riparian habitat that amplifies mosquito pressure, sustains higher earwig and carpenter ant activity in the moisture-affected wood of older riverside homes, and maintains the damp soil conditions that cockroaches and other moisture-seeking pests prefer. Properties on the bluffs see the same Illinois fall mouse push and stink bug season as the rest of the state, but less of the river-corridor moisture amplification.",
+    intro:
+      "Pest control in Peoria runs on the central Illinois seasonal calendar, with the Illinois River adding a layer of complexity to the neighborhoods along the bluffs and the lower-elevation areas near the water. House mice are the most consistent year-round indoor pest in the city's older housing stock. German cockroaches are established in the older multi-family and commercial buildings. Stink bugs arrive from the agricultural land each fall. Carpenter ants work the older wood-frame homes in the established neighborhoods. And yellowjackets peak in late summer in ground nests and wall voids across the residential areas.",
+    sections: [
+      {
+        heading: "Mice in Peoria's pre-war neighborhoods",
+        body: "Peoria's established neighborhoods, including the Heights, the Northside, Averyville, and the South End, have significant pre-war housing stock built before modern pest exclusion standards. Older block and brick foundations develop gaps over decades that mice exploit. Utility penetrations that were sealed at construction have lost their original caulk. Sill plates and door thresholds in older construction have worn beyond their original tightness. This is the entry point inventory that makes fall mouse prevention particularly important in Peoria's older homes. Illinois winters are cold enough that October brings a fast, concentrated surge of mice toward heated structures. The exclusion window is September: sealing foundation gaps, utility penetrations, and door sills before the cold arrives prevents the surge from establishing as a year-round indoor population. Trapping handles the animals already inside, but exclusion is what stops the reinvasion.",
+      },
+      {
+        heading: "Stink bugs from the Illinois agricultural hinterland",
+        body: "The agricultural land surrounding Peoria in Peoria County and the broader central Illinois region produces substantial stink bug populations by late summer. University of Illinois Extension has tracked stink bug expansion through the state, and central Illinois is well within the established zone. Peoria's position in the center of this agricultural region means the city receives stink bug aggregations from multiple directions each fall. The bugs do not breed in structures: they only shelter there for winter. Sealing the exterior gaps they use to enter, primarily around windows, where siding meets window frames, around utility penetrations, and under exterior doors, before they begin aggregating in September limits how many get inside. Once inside wall voids, they emerge through outlets and gaps in late winter and spring. Treating the exterior with a residual perimeter spray as aggregation begins in September adds another layer of protection.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and door sills in September before the October mouse push.",
+      "Seal exterior window frame gaps, utility lines, and siding overlaps before September to limit stink bug entry.",
+      "Inspect wood around windows and roof lines annually for moisture damage that gives carpenter ants a nesting site.",
+      "Treat yellowjacket ground nests in late June or July before the dangerous August peak.",
+    ],
+    costNote:
+      "Peoria pest pricing is standard central Illinois range. Mouse programs include exclusion and trapping. Stink bug programs are timed to late summer exterior treatment. Carpenter ant programs include moisture assessment. German cockroach programs use gel bait with follow-up visits. Yellowjacket treatment is per nest.",
+    faqs: [
+      {
+        question: "Why are there so many mice in Peoria's older neighborhoods?",
+        answer:
+          "Peoria's pre-war housing stock, in neighborhoods like the Heights, Northside, and South End, has aging foundations and utility penetrations with more gaps than newer construction provides. Illinois winters create strong pressure on mice to find heated shelter, and they find these entry points in October. Sealing foundation gaps and utility penetrations in September, before the seasonal push, is the most effective prevention. The older the house, the more important that exclusion inspection becomes.",
+      },
+      {
+        question: "Are stink bugs worse in Peoria than in Chicago?",
+        answer:
+          "Stink bug pressure in central Illinois is broadly similar to the Chicago metro, though Peoria's more agricultural surrounding land sustains larger rural populations that press into the city each fall. Chicago's lake-effect climate and the urban heat island may affect stink bug timing slightly, but both cities experience significant fall stink bug pressure. University of Illinois Extension confirms that stink bugs are established throughout the state.",
+      },
+      {
+        question: "What is the best treatment for German cockroaches in my Peoria apartment?",
+        answer:
+          "Gel bait applied to harborage areas, specifically behind appliances, under sinks, along cabinet kick plates, and in areas near the refrigerator motor, is significantly more effective than spray for German cockroaches. Spray kills visible insects but does not reach the colony in the wall void or behind appliances. Gel bait is carried back to the colony before it acts. In multi-family buildings, the shared plumbing voids should be treated as well, and adjacent units should be inspected if an infestation is significant.",
+      },
+      {
+        question: "When are yellowjackets most dangerous in Peoria?",
+        answer:
+          "August and September, when colonies reach peak size and workers become highly defensive. Yellow jacket colonies in the ground or in wall voids grow through the compressed Illinois summer and have tens of thousands of workers by late August. At peak size, they are aggressive near the nest and around food sources outdoors. Treating ground nests in June or July, when they are small and colonies are less defensive, is both safer and more effective than waiting until peak season.",
+      },
+      {
+        question: "Do I need a termite inspection for my Peoria home?",
+        answer:
+          "Eastern subterranean termites are present in Illinois, including Peoria County. The risk is lower than in southern humid states but is real. University of Illinois Extension notes that termites are active throughout the state, particularly in older construction with wood near grade or wood-to-soil contact. An inspection is warranted for older homes in Peoria, particularly those with crawl spaces, pier-and-beam elements, or wood near the foundation.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Chicago", slug: "chicago" },
+      { name: "Bloomington", slug: "bloomington-il" },
+      { name: "Rockford", slug: "rockford" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Peoria, IL | Mice, Cockroaches & Stink Bugs",
+    metaDescription:
+      "Peoria pest control for house mice, German cockroaches, brown marmorated stink bugs, carpenter ants and yellowjackets. Peoria County Illinois River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "elgin",
+    name: "Elgin",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T2",
+    population: "~115,000",
+    county: "Kane County",
+    climate: "cold-humid",
+    climateDriver:
+      "Elgin sits in Kane County along the Fox River, about 35 miles northwest of Chicago. The cold-humid Midwest climate brings cold winters, hot humid summers, and reliable seasonal pest patterns. The Fox River corridor running through the center of Elgin sustains riparian habitat with moisture-dependent pest populations, including high mosquito breeding activity in the river floodplain areas and the associated wetlands. The city's older neighborhoods near the river have mature trees and pre-war housing that sustains carpenter ant and mouse pressure, while the newer western suburbs experience the standard Chicago-area seasonal pest calendar.",
+    topPests: [
+      "House Mice",
+      "Brown Marmorated Stink Bugs",
+      "Carpenter Ants",
+      "German Cockroaches",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge in October and November",
+        note:
+          "House mice are the dominant year-round pest complaint in Elgin and Kane County. The cold Illinois winters drive mice into heated structures by October, and the Fox River corridor sustains outdoor populations in the riparian vegetation that press into adjacent neighborhoods. Elgin's older housing near the river has more entry points than the newer western suburbs.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter in wall voids",
+        note:
+          "Stink bugs are an established fall pest in Kane County. University of Illinois Extension has documented their expansion through northeast Illinois. The agricultural land in the Kane County rural areas surrounding Elgin's suburban footprint builds large stink bug populations through summer that aggregate on city structures as fall arrives.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, most visible indoors in spring",
+        note:
+          "Carpenter ants are a significant pest in Elgin's older riverside neighborhoods. The Fox River corridor provides mature tree habitat for outdoor carpenter ant colonies, and the moisture-affected wood in older homes near the river provides nesting sites within structures. Illinois State Extension confirms carpenter ants as a common structural pest in Kane County.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are present in Elgin's multi-family housing and commercial food service areas along the older downtown and near-river corridors. They spread through shared building infrastructure in older multi-unit buildings and do not need outdoor exposure in Illinois's climate.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note:
+          "Yellowjackets establish colonies in Elgin's yard areas and older structures each spring. The Fox River corridor provides additional harborage in natural areas adjacent to residential neighborhoods. Ground nests and wall void nests in older structures along the river and in the established neighborhoods are common.",
+      },
+    ],
+    localHook:
+      "The Fox River running through Elgin is both the city's historic core and a consistent source of mosquito breeding habitat that the neighborhoods along the river experience differently than Elgin's western suburbs. The floodplain areas, the sloughs connected to the river, and the riparian vegetation along the riverbanks sustain mosquito populations through the warm months that residential standing water management cannot address. The Fox River Trail corridor is excellent outdoor space, but it passes directly through prime mosquito and tick habitat.",
+    intro:
+      "Pest control in Elgin combines the standard Chicago-area suburban pest calendar with the Fox River corridor's specific riparian pest pressures. House mice are the most consistent year-round concern, with the fall push into older riverside housing being particularly predictable. Stink bugs arrive from Kane County's agricultural surroundings each fall. Carpenter ants are active in the older neighborhoods with mature tree canopy near the Fox River. German cockroaches are in the older multi-family stock. Yellowjackets build through the Illinois summer and peak in August and September. And the river corridor adds mosquito pressure that the western suburbs simply do not see to the same degree.",
+    sections: [
+      {
+        heading: "The Fox River corridor and mosquito pressure",
+        body: "The Fox River in Elgin is not a narrow creek. It is a significant river system with floodplain areas, backwater sloughs, and extensive riparian vegetation that provides mosquito breeding habitat from late April through September. The neighborhoods along the river, particularly in the Gifford Park, Spring Hill, and South Elgin adjacent areas, experience mosquito pressure from the river system that is not addressable through residential standing water management alone. The river's natural breeding areas sustain populations regardless of what individual homeowners do in their yards. At the residential level, the effective strategy is a combination of aggressive standing water removal from the yard, combined with professional barrier treatment of resting areas: the shaded vegetation, dense shrubs, and moist areas under decks where mosquitoes rest during the day between feeding. The barrier treatment does not eliminate the river's contribution but significantly reduces the population using your property as habitat.",
+      },
+      {
+        heading: "Carpenter ants in the riverside neighborhoods",
+        body: "The Fox River corridor's mature tree canopy and the older wood-frame housing in Elgin's established riverside neighborhoods create the two conditions that carpenter ant populations require. The mature cottonwood, ash, and oak trees along the river corridor provide outdoor colony habitat in old or damp wood, and the aging housing stock near the water has more moisture-affected wood around windows, roof lines, and sill plates than the newer western suburbs. University of Illinois Extension identifies carpenter ants as a common structural pest in Kane County. The spring emergence, large black ants appearing indoors from a consistent location, is the most reliable early sign of an established colony inside the structure. Treatment targets the colony and should be combined with identification and correction of the moisture source that sustains the colony in the structure.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and door sills in September before the October mouse push.",
+      "Seal exterior window frame gaps and utility penetrations before September to limit stink bug entry.",
+      "Apply mosquito barrier treatment to shaded resting areas near the Fox River corridor from May through September.",
+      "Inspect wood around windows and roof lines annually for moisture damage that supports carpenter ant colonies.",
+    ],
+    costNote:
+      "Elgin pest pricing is standard Kane County range. Mouse programs include exclusion and trapping. Stink bug programs are timed to late summer exterior treatment. Mosquito barrier programs run May through September and are particularly relevant for riverside neighborhoods. Carpenter ant programs include moisture assessment. Yellowjacket treatment is per nest.",
+    faqs: [
+      {
+        question: "Is the Fox River the reason mosquitoes are so bad near downtown Elgin?",
+        answer:
+          "Yes, significantly. The Fox River floodplain, the backwater sloughs, and the riparian vegetation along the river corridor provide natural mosquito breeding habitat from late April through September that residential standing water management cannot address. The neighborhoods closest to the river see meaningfully higher mosquito pressure than Elgin's western suburbs. Barrier treatment of resting areas around the home reduces the population using your property, even if it does not address the river's contribution.",
+      },
+      {
+        question: "Why do carpenter ants always seem to come from the older houses near the Fox River?",
+        answer:
+          "The older houses near the Fox River have two things carpenter ants need: proximity to the mature tree canopy along the river corridor, where outdoor colonies are established in old and damp wood, and aging wood-frame construction with more moisture-affected wood than newer builds. The river's moisture also contributes to damp conditions in the sill plates and lower wall areas of older riverside homes. That combination makes those homes more attractive nesting sites than the newer construction further west.",
+      },
+      {
+        question: "When do mice push into Elgin homes?",
+        answer:
+          "October is the primary push month in Elgin. Illinois winters are cold enough to drive mice firmly toward heated structures when temperatures drop. The Fox River corridor sustains outdoor populations that press into adjacent neighborhoods. Older homes near the river have more entry points and see the surge first. Completing exclusion work in September, before the cold arrives, prevents the surge from establishing inside the structure.",
+      },
+      {
+        question: "Are stink bugs worse in agricultural Kane County than in Chicago?",
+        answer:
+          "Stink bug pressure in suburban Kane County can be higher than in the dense urban areas of Chicago because the surrounding agricultural land builds larger stink bug populations by late summer. University of Illinois Extension documents stink bug establishment throughout northeast Illinois. The city boundary does not protect against stink bugs: they travel from agricultural surroundings into suburban and urban structures along the edge.",
+      },
+      {
+        question: "Do I need a termite inspection in Elgin?",
+        answer:
+          "Eastern subterranean termites are present in Illinois including Kane County. The risk is lower than in the humid South but is real, particularly for older construction with wood near grade. An inspection is appropriate for homes with crawl spaces, wood sill plates near grade, or any signs of spring swarming activity. University of Illinois Extension notes that termites are active across the state, with pressure increasing in the warmer southern counties.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Aurora", slug: "aurora" },
+      { name: "Naperville", slug: "naperville" },
+      { name: "Chicago", slug: "chicago" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Elgin, IL | Mice, Stink Bugs & Carpenter Ants",
+    metaDescription:
+      "Elgin pest control for house mice, brown marmorated stink bugs, carpenter ants, German cockroaches and yellowjackets. Kane County Fox River Chicago metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -215,4 +215,121 @@ export const utahCities: CityLocation[] = [
     metaDescription:
       "Provo pest control for hobo spiders, black widow spiders, pavement ants, yellowjackets and earwigs. Utah County Wasatch Front BYU city specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "west-valley-city",
+    name: "West Valley City",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T2",
+    population: "~135,000",
+    county: "Salt Lake County",
+    climate: "semi-arid",
+    climateDriver:
+      "West Valley City is Utah's second-largest city, in Salt Lake County directly west of Salt Lake City. The semi-arid Great Basin climate brings hot dry summers, cold winters with inversion-layer pollution events, and low annual humidity. The Jordan River runs north through the center of the city, providing a riparian corridor with moisture-dependent pest habitat in an otherwise dry landscape. The semi-arid conditions limit mosquito and termite pressure compared to humid states, but sustain black widow spiders, earwigs, ants, and boxelder bugs at levels consistent with the broader Salt Lake Valley.",
+    topPests: [
+      "Black Widow Spiders",
+      "Earwigs",
+      "Pavement Ants",
+      "Boxelder Bugs",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most active May through October, present year-round in sheltered spaces",
+        note:
+          "Black widow spiders are common in West Valley City and throughout the Salt Lake Valley. Utah State University Extension confirms that the western black widow is found across Utah's Wasatch Front. They nest in low, dark, undisturbed spaces: under deck boards, in garage corners, in window wells, and around utility meters. The female's venom is medically significant and bites require medical attention.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, most prevalent in summer",
+        note:
+          "Earwigs are a very common pest in West Valley City's residential landscape areas. They hide in moist soil under mulch, rock landscaping, and pavers during the day and forage at night. The Jordan River corridor adds moisture that sustains earwig populations along its banks. They enter homes through ground-level gaps and are commonly found in basements and bathrooms.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, most active in spring and summer",
+        note:
+          "Pavement ants are the dominant small ant pest in West Valley City and across the Salt Lake Valley. They nest under concrete slabs, sidewalk edges, and pavement and enter homes through foundation cracks and gaps at the floor edge. They forage for sweets and grease in kitchens and are a persistent warm-season pest.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Aggregate September through October, overwinter in wall voids",
+        note:
+          "Boxelder bugs are a consistent fall nuisance in West Valley City. The Salt Lake Valley's street canopy of boxelder and maple trees sustains large boxelder bug populations through summer that aggregate on south-facing walls in fall. They are harmless but can appear in large numbers and overwinter in wall voids.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, concentrated surge in October and November",
+        note:
+          "House mice are a year-round concern in West Valley City. The Jordan River corridor sustains outdoor mouse populations in the riparian vegetation, and the surrounding semi-arid landscape provides habitat for deer mice that also enter structures. Utah winters drive mice firmly into heated buildings as temperatures drop in fall.",
+      },
+    ],
+    localHook:
+      "West Valley City's Jordan River corridor is the city's most significant ecological feature, and it creates a riparian pest dynamic in an otherwise desert-adjacent landscape. The river sustains moisture-loving species like earwigs and mosquitoes in the neighborhoods along its banks, while the surrounding semi-arid landscape sustains black widows and scorpions at levels common throughout the Wasatch Front. The Jordan River Parkway trail and the adjacent wetland areas are excellent habitat, but they connect directly to residential backyards.",
+    intro:
+      "Pest control in West Valley City combines the semi-arid Great Basin pest profile with the specific moisture-driven pest pressure that the Jordan River corridor brings to the city's center. Black widow spiders are the pest that commands the most attention in terms of genuine health concern: they are found throughout the Salt Lake Valley and nest in the undisturbed low spaces that suburban homes provide. Earwigs are the most common warm-season nuisance complaint, sustained by the moist soil along the river and in irrigated landscaping. Pavement ants work the concrete and pavement edges of the city year-round. Boxelder bugs arrive in force each fall. Mice push into structures as Utah winters arrive.",
+    sections: [
+      {
+        heading: "Black widow spiders in the Salt Lake Valley",
+        body: "Utah State University Extension confirms that western black widow spiders are found throughout Utah and are common in residential landscapes across the Wasatch Front, including West Valley City. The key to understanding black widows is their habitat preference: they avoid open, active spaces and nest in low, dark, undisturbed locations. Under deck boards and concrete steps, in window wells with leaf litter, behind utility meters and irrigation control boxes, in seldom-used corners of garages, and in low ornamental shrub plantings against the foundation are all common nesting sites. They are not aggressive and very rarely bite unless disturbed directly. The practical response is habitat management, which reduces available nesting sites and the frequency of accidental contact. A perimeter treatment program targets the population establishing near the home without requiring significant chemical application to living areas.",
+      },
+      {
+        heading: "Earwigs along the Jordan River corridor",
+        body: "The Jordan River runs from Utah Lake northward through Salt Lake County and passes through the center of West Valley City via the Jordan River Parkway. The riparian vegetation, the irrigated park areas along the corridor, and the moist soil in landscaped residential areas near the river sustain earwig populations that the drier areas of West Valley City do not see to the same degree. Earwigs hide under mulch, rocks, pavers, and debris during the day and forage at night. They are drawn to moist soil and organic matter. The most effective management at the residential scale is pulling mulch away from the foundation a few inches, addressing any drainage that leaves the foundation area consistently moist, and applying a perimeter treatment along the foundation line where mulch meets the foundation wall. They enter homes through gaps at grade level and are most often found in basements, utility rooms, and bathrooms.",
+      },
+    ],
+    prevention: [
+      "Reduce low dense plantings and debris at the foundation perimeter to eliminate black widow spider harborage.",
+      "Pull mulch back from the foundation several inches to reduce earwig habitat at the entry zone.",
+      "Seal foundation cracks and floor gaps to limit pavement ant and earwig entry.",
+      "Seal exterior gaps around windows and utility penetrations before September to limit boxelder bug entry into wall voids.",
+    ],
+    costNote:
+      "West Valley City pest pricing is standard Salt Lake County range. Spider programs include perimeter treatment targeting low harborage areas. Earwig programs are timed to spring and summer. Pavement ant programs target exterior colony sites and interior entry points. Mouse exclusion and trapping programs are quoted after a free inspection.",
+    faqs: [
+      {
+        question: "Are black widow spider bites a real risk in West Valley City?",
+        answer:
+          "The risk of a bite is low because black widows avoid contact with humans and bite only when directly disturbed. However, their venom is medically significant and bites require medical evaluation. Utah State University Extension confirms that western black widows are found throughout the Wasatch Front including Salt Lake County. Wearing gloves when working in low storage areas, under decks, and in infrequently used garage corners reduces contact risk. A perimeter treatment reduces the population establishing near the home.",
+      },
+      {
+        question: "Why are earwigs so common near the Jordan River in West Valley City?",
+        answer:
+          "Earwigs prefer moist soil, organic matter, and the sheltered conditions that riparian and irrigated landscapes provide. The Jordan River corridor sustains moisture that the surrounding semi-arid landscape does not have, creating a habitat corridor that sustains higher earwig populations than the drier parts of the city. Neighborhoods adjacent to the Parkway and the river's floodplain edge see more earwig pressure than neighborhoods further from the water.",
+      },
+      {
+        question: "When do boxelder bugs become a problem in West Valley City?",
+        answer:
+          "Boxelder bugs are a predictable fall event in West Valley City and across the Salt Lake Valley. They begin aggregating on south-facing walls in September as temperatures drop, and the aggregation peaks in October. The Salt Lake Valley's street canopy of boxelder and maple trees sustains large populations. They are harmless but aggregate visibly and work into wall voids through gaps around windows and siding. Sealing those gaps before September limits how many enter the structure.",
+      },
+      {
+        question: "Do I need to worry about termites in West Valley City?",
+        answer:
+          "Utah does have subterranean termites, and they are found in the Wasatch Front including Salt Lake County. However, the semi-arid climate and the cold winters significantly limit termite pressure compared to humid southern states. Utah State University Extension notes that termites are present in Utah but are not at the extreme infestation levels common in the Gulf Coast or the humid Southeast. An inspection is appropriate if you see swarming insects in spring or suspect wood damage, but the risk level is meaningfully lower than in humid climates.",
+      },
+      {
+        question: "How do pavement ants get into West Valley City homes?",
+        answer:
+          "Pavement ants nest in the soil under concrete slabs, sidewalk edges, driveway borders, and patio pavers. They enter homes through foundation cracks, gaps around plumbing penetrations at the slab edge, and the gap where the slab meets the wall. In slab-on-grade construction, they can trail from the exterior colony through a hairline crack at the perimeter directly to the kitchen. Exterior perimeter treatment targeting the foundation edge and the soil beneath concrete walks and patios addresses the source colony.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Salt Lake City", slug: "salt-lake-city" },
+      { name: "Provo", slug: "provo" },
+      { name: "Taylorsville", slug: "taylorsville" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in West Valley City, UT | Black Widows, Earwigs & Ants",
+    metaDescription:
+      "West Valley City pest control for black widow spiders, earwigs, pavement ants, boxelder bugs and house mice. Salt Lake County Jordan River Wasatch Front specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
