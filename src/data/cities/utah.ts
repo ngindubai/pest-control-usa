@@ -215,4 +215,110 @@ export const utahCities: CityLocation[] = [
     metaDescription:
       "Provo pest control for hobo spiders, black widow spiders, pavement ants, yellowjackets and earwigs. Utah County Wasatch Front BYU city specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "west-valley-city",
+    name: "West Valley City",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T2",
+    population: "~143,000",
+    county: "Salt Lake County",
+    climate: "semi-arid",
+    climateDriver:
+      "West Valley City sits in Salt Lake County southwest of Salt Lake City in the Salt Lake Valley, with Utah's semi-arid climate: hot, dry summers, cold winters, and very low humidity year-round. The city sits between the Oquirrh Mountains to the west and the urban core of Salt Lake County, at the edge of the Great Salt Lake Desert influence. The dry conditions favor black widow spiders and scorpions in outdoor harborage areas. House mice push hard into structures in fall. The large Magna and Kearns residential areas at the city's edges back onto more agricultural and semi-rural terrain that contributes to vole and cricket pressure.",
+    topPests: ["Black Widow Spiders", "House Mice", "Odorous House Ants", "Voles", "Earwigs"],
+    pestProfile: [
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered outdoor areas, most active May through September",
+        note: "Western black widows are common throughout West Valley City's residential areas. Utah State University Extension identifies black widows as one of the most medically significant pests in Utah. They build webs in undisturbed outdoor locations: under patio furniture, in garage corners, in irrigation valve boxes, in block wall gaps, and in crawl space areas. West Valley City's dry, warm climate is ideal for black widow populations.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors September through November, active year-round once inside",
+        note: "House mice are the most common fall pest complaint in West Valley City's residential neighborhoods. Utah's cold winters drive mice into heated structures as temperatures drop in September and October. The city's housing stock ranges from older construction in the neighborhoods near the Utah Cultural Celebration Center to newer developments at the western edges, and both provide entry opportunities.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October, push indoors in dry weather and after rain",
+        note: "Odorous house ants are the most common ant species in West Valley City's residential properties. They nest in wall voids and under slab edges and forage in kitchens for sweets. The dry summer periods drive them indoors seeking moisture, and the first warm spring days trigger renewed foraging activity after winter dormancy.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Active year-round, lawn damage visible in spring",
+        note: "Meadow voles cause significant lawn damage in West Valley City, particularly in the neighborhoods near the Kearns and Magna areas where residential lawns border semi-rural terrain. They tunnel under the snowpack through winter and create visible runways in spring when snow melts. Tree girdling from winter vole activity kills ornamental plantings each year across the Salt Lake Valley.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, push indoors through ground-level gaps",
+        note: "Earwigs are a nuisance pest in West Valley City that shelter in mulch, irrigated garden beds, and the leaf litter along foundation perimeters. The Salt Lake Valley's irrigation-dependent landscape creates the moist soil conditions earwigs need, and they push indoors through ground-level foundation gaps when conditions outside become too dry or too hot.",
+      },
+    ],
+    localHook:
+      "West Valley City is the second-largest city in Utah and one of the most diverse in the state, with a large residential population that includes substantial immigrant communities from the Pacific Islands, Latin America, and Asia. That diversity is reflected in the residential landscape, including the tropical and subtropical ornamental plants that many residents grow in the Salt Lake Valley's challenging climate. Those plantings, particularly container-grown tropicals overwintered indoors, can introduce and sustain pest populations that standard Utah residential properties do not typically see.",
+    intro:
+      "Pest control in West Valley City covers the semi-arid Salt Lake Valley pest profile at urban scale. Black widow spiders are common in undisturbed outdoor areas throughout the city, and Utah State University Extension identifies them as a genuine medical concern for Utah residents. House mice push into structures in fall as temperatures drop in the Salt Lake Valley. Odorous house ants are the persistent warm-season kitchen ant. Voles tunnel through lawns year-round and reveal their winter work each spring. Earwigs push indoors through ground-level gaps in the warm, dry summer periods.",
+    sections: [
+      {
+        heading: "Black widow spiders in West Valley City's dry landscape",
+        body: "Western black widow spiders are well established throughout West Valley City and the Salt Lake Valley. Utah State University Extension's fact sheet on black widows notes that they are found statewide and are most common in the drier, warmer areas of the state. In West Valley City, the risk is concentrated in undisturbed outdoor storage areas: the back corners of garages, under and behind patio furniture that is not moved through the season, in irrigation valve boxes, in block wall gaps, and in crawl space areas. They do not seek out humans and bites almost always occur when a spider is accidentally trapped or disturbed. The practical precautions are straightforward: do not reach bare-handed into any of those locations, shake out shoes and gloves left in garages or outbuildings, and wear gloves when working in stored areas. A quarterly perimeter treatment targeting harborage areas reduces the population around the structure but does not eliminate black widows from the broader neighborhood environment.",
+      },
+      {
+        heading: "Vole management in the Salt Lake Valley",
+        body: "Meadow voles are a persistent lawn and landscape pest across the Salt Lake Valley, and West Valley City's residential areas see consistent damage each year. Voles are small, stocky rodents that live in grassy areas and tunnel at or just below the soil surface. They do not hibernate: they remain active year-round, tunneling under the snowpack in winter where they are protected from predators and weather. When spring arrives and snow melts, the runways they have created through the winter are revealed as matted, dead-grass channels across lawns. They also girdle bark in a ring at the base of young trees and shrubs during winter, cutting off nutrient transport and killing the plant above the damage ring. In West Valley City, the neighborhoods bordering the more open terrain west toward Magna see heavier vole pressure than the more built-up areas near the city center. Wire mesh trunk guards placed around the base of young ornamental trees before snow falls in October prevent the girdling damage. Population control through baiting in active areas in fall, when voles are close to the surface, reduces the winter tunnel density.",
+      },
+    ],
+    prevention: [
+      "Avoid reaching bare-handed into undisturbed outdoor areas such as garage corners, irrigation valve boxes, and stored items where black widows build webs.",
+      "Install wire mesh trunk guards on young ornamental trees before October to prevent vole girdling damage over winter.",
+      "Seal foundation gaps and utility penetrations in September before Utah's fall temperature drop drives mice indoors.",
+      "Clear mulch and leaf litter from the foundation perimeter to reduce earwig harborage near ground-level entry points.",
+    ],
+    costNote:
+      "West Valley City pest services start with a free inspection. Quarterly general programs cover black widows, ants, earwigs, and perimeter pests year-round. Mouse programs include exclusion and trapping components. Vole programs include population management plus tree protection guidance. Programs are priced after an on-site inspection.",
+    faqs: [
+      {
+        question: "Are black widow spiders really dangerous in West Valley City?",
+        answer:
+          "Yes. Utah State University Extension identifies western black widows as medically significant and present throughout Utah. Their venom causes severe muscle cramping and systemic effects that require medical attention. Bites are not common because black widows are not aggressive, but they do occur when spiders are accidentally disturbed or trapped against skin. Everyday prevention is simple: do not reach bare-handed into undisturbed outdoor storage areas, shake out shoes and gloves left in the garage, and wear gloves for outdoor work involving stored items.",
+      },
+      {
+        question: "Why do my West Valley City lawns have vole runways every spring?",
+        answer:
+          "Meadow voles tunnel under your lawn through winter under the snowpack. They are active year-round and the snowpack hides their activity from you (and from predators). When snow melts in March and April, the matted, dead-grass channels they created become visible. Properties bordering open terrain toward the Oquirrh Mountains and Magna see heavier vole pressure. Wire mesh guards on young trees before snow falls prevent the worst of the girdling damage. Baiting in fall reduces the overwinter population.",
+      },
+      {
+        question: "How do mice get into West Valley City homes in fall?",
+        answer:
+          "House mice begin moving into heated structures in September as Utah temperatures drop. They enter through gaps as small as a quarter inch, including foundation utility penetrations, garage door threshold gaps, and any point where different exterior materials meet with a gap behind them. A professional exclusion inspection in August or September identifies all the entry points before the fall push. Metal-based sealing materials are more durable than foam in Utah's temperature extremes. Trapping handles the mice already inside; exclusion stops new ones from entering.",
+      },
+      {
+        question: "What are odorous house ants and why do they appear in kitchens?",
+        answer:
+          "Odorous house ants are small brown ants that release a rotten-coconut smell when crushed. They nest in wall voids and under slab edges and forage in kitchens seeking sweets and moisture. In West Valley City's dry summers, the moisture available in kitchens, bathrooms, and around leaky fixtures is more attractive than the outdoor environment. They move in during dry periods and after rain events. Slow-acting bait placed along their foraging trails is more effective than spray, which kills foragers but does not reach the nest.",
+      },
+      {
+        question: "Are earwigs harmful in West Valley City homes?",
+        answer:
+          "Earwigs are not harmful to humans or pets. They do not bite under normal circumstances, do not carry disease, and do not damage structures. They are a nuisance pest that looks alarming due to the pincers at the tail end. They push indoors through ground-level gaps in dry or hot weather, seeking cooler, moister conditions. Clearing mulch from the foundation perimeter and sealing ground-level gaps reduces their entry. Diatomaceous earth applied along the foundation base provides an additional barrier.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Salt Lake City", slug: "salt-lake-city" },
+      { name: "Taylorsville", slug: "taylorsville" },
+      { name: "Kearns", slug: "kearns" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in West Valley City, UT | Black Widows, Mice & Voles",
+    metaDescription:
+      "West Valley City pest control for black widow spiders, house mice, odorous house ants, voles and earwigs. Salt Lake County semi-arid Wasatch Front specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

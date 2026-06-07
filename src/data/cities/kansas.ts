@@ -235,4 +235,110 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "Overland Park pest control for brown recluse spiders, subterranean termites, house mice, mosquitoes and German cockroaches. Johnson County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "topeka",
+    name: "Topeka",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T2",
+    population: "~127,000",
+    county: "Shawnee County",
+    climate: "temperate",
+    climateDriver:
+      "Topeka sits in Shawnee County in the Kansas River (Kaw) valley at the transition between the tallgrass prairie and the eastern Kansas woodland edge. The continental temperate climate swings between genuinely cold winters and hot, humid summers. The Kansas River provides an important moisture corridor through the city, sustaining mosquito breeding habitat and a riverside rodent population. The surrounding Shawnee County farmland contributes to the fall mouse push as harvest removes field cover. Kansas has one of the higher termite pressure ratings in the central United States, and Topeka's position in the Kansas River valley creates the moisture conditions that sustain large subterranean termite colonies.",
+    topPests: ["Termites", "House Mice", "Mosquitoes", "German Cockroaches", "Odorous House Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round activity, swarms in spring",
+        note: "Eastern subterranean termites are active across Shawnee County and throughout Topeka. Kansas State University Extension identifies Kansas as a high termite pressure state, and the Kansas River valley's moist soils create especially favorable colony conditions throughout Topeka's residential areas. The USDA's termite probability map places central Kansas, including Shawnee County, in a moderate-to-high-pressure zone.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through March, active year-round once inside",
+        note: "House mice are a consistent fall and winter pest in Topeka. Kansas winters drive mice firmly into heated structures, and the Shawnee County agricultural fringe contributes a fall push as harvest removes field cover. Topeka's older residential neighborhoods along the Kansas River bottom and the established neighborhoods west of downtown have the aging foundations and utility penetrations that provide mice with reliable entry.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak June and July",
+        note: "The Kansas River and its tributaries running through Topeka create significant mosquito breeding habitat. The standing water in the river bottoms, the city's detention basins, and the low-lying residential areas along the Soldier Creek and Shunganunga Creek corridors sustain summer mosquito populations. Kansas Department of Health monitors West Nile virus statewide, and Shawnee County has had confirmed detections.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a consistent concern in Topeka's apartment buildings and the commercial food service operations near the downtown and along major commercial corridors. Topeka's status as the state capital brings a density of government and commercial food service that sustains cockroach pressure in the surrounding multi-family housing.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October, push indoors in dry weather and after rain",
+        note: "Odorous house ants are the most common ant species in Topeka's residential neighborhoods. They nest in wall voids and under slab edges and forage in kitchens for sweets. They move indoors during dry summer periods and after heavy rain events when outdoor foraging conditions change. Their distinctive rotten-coconut odor when crushed identifies them.",
+      },
+    ],
+    localHook:
+      "Topeka's position in the Kansas River valley puts it in one of Kansas's most termite-favorable environments: the river provides year-round soil moisture that keeps subterranean termite colonies viable through the state's variable winters. Kansas State University Extension's pest management data consistently ranks the Kansas River corridor cities among the highest termite pressure areas in the state. An annual termite inspection is the baseline for responsible homeownership in Topeka.",
+    intro:
+      "Pest control in Topeka deals with the pest pressures of a Kansas River valley capital city. Eastern subterranean termites are a year-round structural threat, sustained by the moist soils of the Kansas River corridor that Kansas State University Extension identifies as high-pressure termite territory. House mice push in from the surrounding Shawnee County agricultural land each fall. Mosquitoes breed along the Kansas River and its creek tributaries through the summer. German cockroaches are a year-round concern in the commercial and multi-family stock near downtown. Odorous house ants are the persistent warm-season kitchen pest.",
+    sections: [
+      {
+        heading: "Termites in the Kansas River valley: Topeka's structural risk",
+        body: "Kansas State University Extension's pest management resources identify Kansas as a state with high subterranean termite pressure, particularly in the eastern half of the state where moisture conditions are more favorable. Topeka's position in the Kansas River valley gives it some of the most consistently moist soil conditions in the state, which directly supports larger and more active termite colonies. Eastern subterranean termites swarm in Topeka in April and May on warm, calm days after rain, and homeowners who see swarmers inside or near the home should treat this as an indicator of an active colony nearby rather than a temporary seasonal event. A liquid soil barrier treatment around the foundation perimeter, combined with monitoring stations, is the standard termite protection program for Topeka homes. Annual inspection verifies that the barrier remains intact and that no new activity has penetrated the treated zone.",
+      },
+      {
+        heading: "Mouse control in Topeka's agricultural fringe neighborhoods",
+        body: "Topeka's outer residential neighborhoods, particularly those near the Shawnee County agricultural areas to the north, east, and south of the city, face a fall mouse push driven by two simultaneous events: Kansas's cold winter temperatures making heated buildings attractive, and the corn and soybean harvest across surrounding fields stripping the field-edge cover that outdoor mouse populations rely on. Iowa State University Extension has documented this agricultural driver across the Midwest, and the pattern is similar in Shawnee County. Homes at the rural-urban transition are the first affected as mice move from stripped fields toward any available heated structure. The practical response is a professional exclusion inspection completed in September, before harvest begins, to identify and seal every entry point with metal-based materials that hold through Kansas's temperature extremes. Trapping handles the mice that have already entered; exclusion stops the entry.",
+      },
+    ],
+    prevention: [
+      "Maintain an active termite protection program with annual inspection, given Topeka's position in the Kansas River valley high-pressure zone.",
+      "Schedule mouse exclusion work in September before Kansas corn harvest displaces field mice toward residential areas.",
+      "Eliminate standing water along Soldier Creek and Shunganunga Creek corridors and in low yard areas to reduce mosquito breeding.",
+      "Apply odorous house ant bait along foraging trails during dry summer periods rather than spraying visible ants.",
+    ],
+    costNote:
+      "Topeka pest services start with a free inspection. Termite programs include annual inspection plus monitoring and liquid treatment, priced after a structure assessment. Mouse programs cover exclusion and trapping. Mosquito barrier programs run May through September. German cockroach programs use gel bait with follow-up visits. Ant programs are quarterly.",
+    faqs: [
+      {
+        question: "How serious is termite risk in Topeka?",
+        answer:
+          "Very serious. Kansas State University Extension identifies Kansas as a high termite pressure state, and the Kansas River valley, where Topeka sits, provides the consistent soil moisture that supports large, active subterranean termite colonies. An annual termite inspection is the baseline for Topeka homeowners. If your home does not have an active termite protection agreement, getting one is a sound investment in Topeka's termite environment.",
+      },
+      {
+        question: "When do mice push into Topeka homes?",
+        answer:
+          "October is the main push month, driven by both Kansas winter temperatures making heated structures attractive and the corn and soybean harvest removing field-edge cover from the surrounding Shawnee County agricultural land. Homes near the rural-urban fringe to the north, east, and south of Topeka see the heaviest pressure. A professional exclusion inspection in September identifies and seals entry points before the October push begins.",
+      },
+      {
+        question: "Is West Nile virus a risk in Topeka?",
+        answer:
+          "Kansas Department of Health monitors West Nile virus statewide each summer, and Shawnee County has had confirmed detections in multiple years. The Kansas River and the Soldier Creek and Shunganunga Creek corridors provide standing water breeding habitat. Most infected people have no symptoms, but the risk is real during peak mosquito season from June through August. Eliminating standing water on the property and maintaining a mosquito barrier treatment during those months are sensible protective steps.",
+      },
+      {
+        question: "Why are odorous house ants so common in Topeka kitchens?",
+        answer:
+          "Odorous house ants nest in wall voids and under slab edges throughout Topeka's residential neighborhoods and forage for sweets and moisture in kitchens and bathrooms. During Kansas's dry summer periods, indoor moisture sources become more attractive than the outdoor environment. They move indoors in large numbers during dry spells and after heavy rain events. Slow-acting bait placed along foraging trails reduces the colony more effectively than spray, which kills visible foragers without addressing the nest.",
+      },
+      {
+        question: "Are German cockroaches a problem in Topeka single-family homes?",
+        answer:
+          "German cockroaches are primarily a concern in Topeka's apartment buildings and commercial food service operations near downtown. Single-family homes occasionally encounter them when cockroaches are introduced in boxes or bags from an infested source. Once introduced, they breed rapidly in warm kitchen and bathroom areas. Gel bait treatment in harborage areas is significantly more effective than spray. Single-family home infestations caught early are straightforward to resolve.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Kansas City", slug: "kansas-city" },
+      { name: "Overland Park", slug: "overland-park" },
+      { name: "Lawrence", slug: "lawrence" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Topeka, KS | Termites, Mice & Mosquitoes",
+    metaDescription:
+      "Topeka pest control for eastern subterranean termites, house mice, mosquitoes, German cockroaches and odorous house ants. Shawnee County Kansas River valley state capital specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

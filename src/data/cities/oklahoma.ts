@@ -229,4 +229,110 @@ export const oklahomaCities: CityLocation[] = [
     metaDescription:
       "Tulsa pest control for brown recluse spiders, subterranean termites, mosquitoes, fire ants and mice. Arkansas River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "norman",
+    name: "Norman",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T2",
+    population: "~122,000",
+    county: "Cleveland County",
+    climate: "hot-humid",
+    climateDriver:
+      "Norman sits in Cleveland County south of Oklahoma City on the southern plains of the Cross Timbers region. The climate is continental with hot, humid summers, mild winters, and frequent severe weather including the tornado activity that has given the area its Tornado Alley reputation. Oklahoma State University's National Weather Center is located here. The warm, humid summers drive termite activity and mosquito breeding, and the Cross Timbers woodland edge contributes to brown recluse spider habitat at the residential edges. The Canadian River to the south adds a bottomland pest corridor to the city's southern neighborhoods.",
+    topPests: ["Termites", "Fire Ants", "Mosquitoes", "Brown Recluse Spiders", "House Mice"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round activity, swarms in spring",
+        note: "Oklahoma has one of the highest termite pressure ratings in the United States, and Cleveland County is within the high-risk zone identified by USDA Forest Service maps. Eastern subterranean termites are active year-round in Norman's warm soils. Oklahoma State University Extension identifies subterranean termites as the most economically damaging pest in the state.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds swell after spring and fall rain",
+        note: "Fire ants are well established across Cleveland County and throughout Norman's residential neighborhoods. Oklahoma lies at the northern edge of the red imported fire ant's established range, but populations are active across the southern and central parts of the state. Mounds appear quickly after rain events in Norman's lawns and parks.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peak in June and July",
+        note: "Norman's warm, humid summers and the standing water along the Canadian River corridor and throughout the city's park and retention pond system create consistent mosquito breeding habitat. Oklahoma State Department of Health monitors West Nile virus annually, and Cleveland County has had confirmed detections. Norman's proximity to Lake Thunderbird State Park also contributes to seasonal mosquito pressure.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active year-round indoors, most visible in warm months",
+        note: "Brown recluse spiders are a genuine pest concern in Norman. Oklahoma State University Extension identifies brown recluse as one of the state's most important urban pest spiders, noting that they are common in Oklahoma homes and buildings. The Cross Timbers woodland edge at Norman's eastern and southern margins provides outdoor habitat, and the city's mix of older and newer residential construction offers the undisturbed indoor storage that brown recluse colonies prefer.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through March, active year-round once inside",
+        note: "House mice are a fall pest across Norman's residential neighborhoods. Oklahoma's winter temperatures drive mice into heated structures, and the University of Oklahoma's large student housing stock near the campus sees consistent mouse activity from the combination of older housing and high-turnover occupancy.",
+      },
+    ],
+    localHook:
+      "Oklahoma State University Extension ranks Oklahoma as one of the most termite-pressured states in the country. Norman's position in Cleveland County, with its warm soils and the moisture corridor along the Canadian River, puts it squarely in the high-pressure zone. A Norman home without a termite protection program is unprotected against one of the most economically damaging pests in the state.",
+    intro:
+      "Pest control in Norman is dominated by two year-round threats that rarely make the news but cause more property damage than any storm: termites and fire ants. Oklahoma State University Extension describes Oklahoma as one of the most termite-pressured states in the country, and Cleveland County's warm, moist soils fall within the high-risk zone. Fire ants are active year-round in Norman's lawns. Mosquitoes breed along the Canadian River corridor and near Lake Thunderbird through the summer. Brown recluse spiders are genuinely common in the Cross Timbers edge habitat and throughout older Norman homes. Mice push in from the university-adjacent rental housing each fall.",
+    sections: [
+      {
+        heading: "Oklahoma's termite pressure: what it means for Norman homes",
+        body: "Oklahoma State University Extension's pest management guides consistently identify subterranean termites as the state's most economically damaging urban pest, and Cleveland County sits within the USDA's high termite-pressure zone for the central United States. Norman's warm soils, the moisture corridor along the Canadian River to the south, and the abundance of clay soils that retain ground moisture create sustained termite colony conditions across the city. A Norman home without an active termite protection program is carrying an unmanaged risk. The practical baseline is an annual inspection, a liquid soil barrier treatment or a bait monitoring station system around the perimeter, and a service agreement that covers retreatment if termite activity is detected. Homes built on slab foundations with direct soil contact through foundation cracks are at higher risk than those with poured concrete foundations and maintained chemical barriers.",
+      },
+      {
+        heading: "Brown recluse management in Cross Timbers residential areas",
+        body: "Norman's eastern and southern residential areas border the Cross Timbers region, the mixed post oak and blackjack oak woodland that extends across central Oklahoma. This woodland edge habitat is ideal brown recluse territory, and the spiders have long-established populations in the area. Oklahoma State University Extension's brown recluse fact sheet notes that infestations in Oklahoma buildings are common and that management focuses on harborage reduction rather than chemical treatment alone, because spiders are mobile and resistant to many residual insecticides when compared to crawling insects. The practical steps in Norman are reducing undisturbed storage in crawl spaces, garages, and closets; sealing stored boxes; shaking out shoes and gloves left in the garage; and placing sticky traps along baseboards to monitor activity levels. A perimeter and harborage residual treatment complements those habitat reduction steps.",
+      },
+    ],
+    prevention: [
+      "Maintain an active termite protection program (monitoring stations or liquid barrier), especially for homes with slab foundations near moisture corridors.",
+      "Apply fire ant broadcast bait across the lawn in spring before the summer rainy season accelerates mound activity.",
+      "Reduce brown recluse harborage by decluttering garage and closet storage and placing sticky traps along baseboards.",
+      "Seal foundation gaps and utility penetrations before October to exclude mice ahead of the fall cold-weather push.",
+    ],
+    costNote:
+      "Norman pest services start with a free inspection. Termite programs include annual inspection plus monitoring stations or liquid treatment and are priced after a structure assessment. Fire ant programs are twice-yearly. Mosquito barrier programs run April through October. Brown recluse programs include harborage reduction guidance and residual treatment with monitoring traps.",
+    faqs: [
+      {
+        question: "Why does Oklahoma have such a high termite risk?",
+        answer:
+          "Oklahoma's warm, humid climate, particularly in the southern and central parts of the state including Cleveland County, creates ideal subterranean termite conditions. The soils retain enough warmth to allow year-round colony activity. Oklahoma State University Extension identifies subterranean termites as the most economically damaging pest in the state, and the USDA's termite infestation probability map places Norman in a high-risk zone. Every Norman homeowner should have an active termite protection program.",
+      },
+      {
+        question: "Are brown recluse spiders really common in Norman homes?",
+        answer:
+          "Yes. Oklahoma State University Extension acknowledges that brown recluse infestations in Oklahoma buildings are common. Norman's position adjacent to the Cross Timbers woodland region provides extensive outdoor habitat. The spiders move indoors through foundation gaps and utility penetrations and establish in undisturbed closet shelves, garage storage, and crawl spaces. Most people who live in infested homes never get bitten because brown recluse spiders avoid contact. Managing the risk involves reducing harborage and knowing where to be careful: in stored items, shoes left in the garage, and cluttered closet shelves.",
+      },
+      {
+        question: "When are mosquitoes worst in Norman?",
+        answer:
+          "June and July are the peak months, but the season runs from April through October. The Canadian River corridor to the south and the retention ponds and low-lying areas throughout Norman provide year-round breeding potential in warm weather. The proximity to Lake Thunderbird State Park adds to regional mosquito pressure. West Nile virus has been detected in Cleveland County mosquito populations in multiple years, so protective measures during the peak season are sensible.",
+      },
+      {
+        question: "Do fire ants survive Oklahoma winters in Norman?",
+        answer:
+          "Yes. Norman sits at the northern edge of the red imported fire ant's established range, but the population is active and self-sustaining. Oklahoma winters can slow fire ant surface activity during cold spells, but colonies survive in the deeper soil where temperatures stay above freezing. Mound activity resumes in spring and ramps up after rain events throughout the warm season. The twice-yearly broadcast bait approach recommended by Texas A&M AgriLife Extension is effective across Oklahoma's similar climate.",
+      },
+      {
+        question: "How do mice get into homes in Norman near OU campus?",
+        answer:
+          "The University of Oklahoma campus area has a large stock of older rental housing with aging foundations and utility penetrations that provide mouse entry. The high tenant turnover means entry points are not consistently maintained. Mice enter through gaps as small as a quarter inch. In Norman's campus-adjacent neighborhoods, a fall exclusion inspection before October is the most effective approach. Property managers dealing with recurring mouse complaints in older rental properties typically find that investing in one thorough exclusion season breaks the cycle more cost-effectively than ongoing reactive trapping.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Oklahoma City", slug: "oklahoma-city" },
+      { name: "Midwest City", slug: "midwest-city" },
+      { name: "Moore", slug: "moore" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Norman, OK | Termites, Fire Ants & Brown Recluse",
+    metaDescription:
+      "Norman pest control for subterranean termites, fire ants, mosquitoes, brown recluse spiders and house mice. Cleveland County Cross Timbers University of Oklahoma specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

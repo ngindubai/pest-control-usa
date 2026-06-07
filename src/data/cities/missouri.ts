@@ -336,4 +336,110 @@ export const missouriCities: CityLocation[] = [
     metaDescription:
       "Springfield pest control for brown recluse spiders, house mice, German cockroaches, ants and ticks. Ozarks Greene County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "columbia",
+    name: "Columbia",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T2",
+    population: "~128,000",
+    county: "Boone County",
+    climate: "temperate",
+    climateDriver:
+      "Columbia sits in central Missouri in Boone County, with a continental temperate climate that swings between genuinely cold winters and hot, humid summers. The city sits at the edge of the Missouri Ozarks transition zone, where the forested upland terrain meets the Missouri River valley bottomland to the north. The University of Missouri campus, the city's largest employer, creates dense student housing with its own cockroach and bed bug profile. The surrounding Boone County farmland contributes to fall mouse and agricultural pest pressure at the city's residential edges.",
+    topPests: ["Carpenter Ants", "House Mice", "Mosquitoes", "Yellowjackets", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, visible indoors in spring",
+        note: "Carpenter ants are a consistent structural concern in Columbia. The University of Missouri's campus and the wooded neighborhoods of central Columbia, including areas near Stephens Lake Park and Grindstone Creek, have the combination of mature trees and older wood-frame homes that sustain large carpenter ant colonies. Finding workers indoors in April or May is the primary indicator of an established nearby colony.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through March, active year-round once inside",
+        note: "House mice are a fall and winter pest across Columbia. Missouri's cold winters drive mice into heated structures, and Columbia's large stock of rental housing near the MU campus, with its frequent tenant turnover and varied maintenance quality, sees consistent mouse activity. The Boone County farmland at the city's edges also contributes to fall mouse pressure in the outer residential areas.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak in June and July",
+        note: "Columbia's warm, humid summers and the standing water along Hinkson Creek, Grindstone Creek, and the various retention areas throughout the city create consistent mosquito breeding habitat. Missouri Department of Health monitors West Nile virus in mosquito populations statewide, and Boone County has had confirmed detections in multiple years.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active June through October, peak aggression August and September",
+        note: "Yellowjackets are a consistent late-summer pest in Columbia's residential neighborhoods and the wooded areas around the MU campus and Stephens Lake. Ground nests are the most common type encountered in Columbia yards. August and September are the peak risk period when colony size reaches its maximum and workers are most aggressive.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November entry, overwinter in wall voids",
+        note: "Boxelder bugs aggregate on the south- and west-facing walls of Columbia homes each fall wherever boxelder trees are present in the neighborhood. Central Missouri has abundant boxelder trees, and the annual aggregation events on warm fall walls are a predictable nuisance. They work their way into wall voids through gaps around windows and at utility penetrations.",
+      },
+    ],
+    localHook:
+      "The University of Missouri's campus and the surrounding student neighborhoods create a pest management challenge that is distinct from most college towns: the combination of high-density student housing, frequent resident turnover, and the shared-wall construction of older rental properties near campus sustains German cockroach and bed bug introductions at rates that Columbia's general housing market does not see. Property managers near the MU campus deal with these pests as a routine operational concern rather than an exception.",
+    intro:
+      "Pest control in Columbia reflects the city's dual identity as a university town and a central Missouri city at the edge of the Ozarks. Carpenter ants are a spring structural concern in the wooded neighborhoods that surround the MU campus and throughout the forested residential areas of central Columbia. House mice push in from the Boone County farmland edges in fall and persist through the winter in the rental housing stock near campus. Mosquitoes breed along Hinkson and Grindstone Creeks through the summer. Yellowjackets peak in August. Boxelder bugs aggregate on Columbia homes each September wherever the city's boxelder tree canopy is dense.",
+    sections: [
+      {
+        heading: "Carpenter ants in Columbia's wooded neighborhoods",
+        body: "Columbia's residential neighborhoods adjacent to MU's Francis Quadrangle, the areas around Stephens Lake, and the established suburbs of west Columbia along Old Highway 63 have the combination of mature deciduous tree canopy and older wood-frame construction that makes carpenter ant establishment almost inevitable when a moisture issue goes unaddressed. Carpenter ants do not eat wood; they excavate it. The target is always wood that has been softened by moisture: a sill plate near a leaky window, a soffit with poor drainage, a deck ledger with failing flashing. Finding large black ants indoors in spring, consistently from the same location, indicates a colony established in the structure. Treatment of the colony is the immediate step, but finding and fixing the moisture source is what prevents the colony from re-establishing. In Columbia's wooded neighborhoods, ignoring the moisture issue produces a cycle of annual retreatment without lasting resolution.",
+      },
+      {
+        heading: "Mouse pressure in MU-adjacent rental housing",
+        body: "Columbia's student rental market, concentrated in the neighborhoods between the MU campus and downtown along College Avenue, Providence Road, and Stadium Boulevard, has the combination of high occupancy density, frequent tenant turnover, and older housing stock that creates challenging conditions for mouse control. Mice enter through gaps in aging foundations and utility penetrations. In multi-unit buildings, they move between units through wall chases and shared spaces. Consistent fall exclusion work, done in September before the October push, is the most cost-effective approach for Columbia rental property managers. Trapping handles the mice already inside; exclusion stops new ones from following. Property managers who treat reactively, responding to tenant complaints rather than doing pre-fall exclusion, typically spend more on pest control over the course of a year than those who invest in the preventive exclusion work.",
+      },
+    ],
+    prevention: [
+      "Schedule a spring carpenter ant inspection in May, particularly for homes near wooded areas or with any known moisture issues.",
+      "Seal foundation gaps and utility penetrations in September before the October mouse push, using metal-based materials that hold through Missouri winters.",
+      "Eliminate standing water along Hinkson and Grindstone Creek corridors and in low yard areas before June to reduce mosquito breeding.",
+      "Seal window frame gaps before September to limit boxelder bug entry in fall.",
+    ],
+    costNote:
+      "Columbia pest services start with a free inspection. Carpenter ant programs include moisture assessment and are best scheduled in spring. Mouse programs cover both exclusion and trapping. Mosquito barrier programs run May through September. Yellowjacket treatment is quoted per nest. Boxelder bug treatment is a perimeter application done in late August.",
+    faqs: [
+      {
+        question: "Why are carpenter ants such a problem in Columbia's older neighborhoods?",
+        answer:
+          "The combination of mature trees, older wood-frame construction, and the elevated humidity that comes with Columbia's position in the central Missouri creek corridor creates ideal carpenter ant conditions. Trees provide large outdoor colony habitat, and any structural wood with a moisture problem becomes a potential nest site. The wooded neighborhoods near MU and around Stephens Lake have had established carpenter ant populations for decades. Treatment of the colony addresses the immediate problem; fixing the moisture source prevents recurrence.",
+      },
+      {
+        question: "When do mice push into Columbia homes?",
+        answer:
+          "The main push arrives in October as Missouri temperatures drop. Campus-adjacent rental properties see the heaviest pressure because older construction has more gap types, and the high tenant turnover means entry points are not systematically maintained. A professional exclusion inspection in September identifies all the gaps before mice find them. Metal-based sealing materials hold better than foam through Missouri's freeze-thaw cycles.",
+      },
+      {
+        question: "Is West Nile virus a real risk in Columbia?",
+        answer:
+          "Missouri Department of Health monitors West Nile virus statewide each summer, and Boone County has had confirmed detections in mosquito pools in multiple years. Most infected people have no symptoms, but a small percentage develop serious neurological illness. The risk is highest during peak mosquito season from June through August. Using DEET repellent when outdoors in the evening, eliminating standing water on the property, and maintaining a mosquito barrier treatment in yards near creek corridors reduces exposure.",
+      },
+      {
+        question: "Are boxelder bugs harmful in Columbia homes?",
+        answer:
+          "Boxelder bugs do not bite, do not damage food or structures, and do not reproduce indoors. They are a nuisance pest that overwinters in wall voids and emerges toward light on warm winter days. The practical management is exclusion: sealing the gaps around windows and utility penetrations on south- and west-facing walls before September prevents them from entering. If they are already inside, a vacuum removes them without the odor problem that comes from crushing them.",
+      },
+      {
+        question: "How do yellowjackets nest in Columbia yards?",
+        answer:
+          "The most common yellowjacket nests in Columbia yards are underground, built in abandoned rodent burrows or naturally formed soil cavities. These ground nests are often discovered when lawn mowing or digging disturbs the entrance. Aerial nests under eaves and in wall voids of older homes are also common. Ground nests are best left alone until professional treatment, particularly in August and September when the colony is at maximum size and workers are most aggressive. If you find a ground nest, mark it clearly and keep people and pets away until it can be treated.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Kansas City", slug: "kansas-city" },
+      { name: "Jefferson City", slug: "jefferson-city" },
+      { name: "Springfield", slug: "springfield" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Columbia, MO | Carpenter Ants, Mice & Mosquitoes",
+    metaDescription:
+      "Columbia pest control for carpenter ants, house mice, mosquitoes, yellowjackets and boxelder bugs. Boone County University of Missouri city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

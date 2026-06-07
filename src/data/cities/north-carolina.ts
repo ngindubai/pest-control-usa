@@ -858,4 +858,110 @@ export const northCarolinaCities: CityLocation[] = [
     metaDescription:
       "High Point pest control for subterranean termites, fire ants, mosquitoes, stink bugs and Norway rats. Guilford County NC Piedmont furniture capital specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "concord",
+    name: "Concord",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T2",
+    population: "~106,000",
+    county: "Cabarrus County",
+    climate: "hot-humid",
+    climateDriver:
+      "Concord sits in Cabarrus County northeast of Charlotte in the North Carolina Piedmont, sharing the region's hot, humid climate with long, warm summers and mild winters. The city's position in the Charlotte metropolitan area means rapid residential growth that has pushed development into former agricultural land at the edges of Cabarrus County. That transition creates elevated termite, fire ant, and brown marmorated stink bug pressure. The Rocky River and its tributaries run through the county, providing mosquito breeding habitat. Concord's identity as a NASCAR center, with Charlotte Motor Speedway located in Concord, means significant commercial activity and food service infrastructure.",
+    topPests: ["Termites", "Mosquitoes", "Fire Ants", "Brown Marmorated Stink Bugs", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round activity, swarms in spring",
+        note: "Eastern subterranean termites are active across Cabarrus County and throughout Concord's residential neighborhoods. North Carolina State University Extension identifies the Piedmont as a moderate-to-high termite pressure zone. Concord's rapid growth into former agricultural and wooded land at the edges of Cabarrus County exposes new construction to established termite colonies in the soil.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peak May through August",
+        note: "Mosquitoes are a consistent warm-season pest in Concord, breeding in the Rocky River corridor, the numerous retention ponds in newer subdivisions, and any standing water in residential areas. North Carolina Department of Health and Human Services monitors West Nile virus and Eastern equine encephalitis in mosquito populations across the state, and Cabarrus County has had confirmed detections in multiple years.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds swell after spring and fall rain",
+        note: "Fire ants are well established across Cabarrus County and create aggressive mounds throughout Concord's residential lawns. The newer subdivisions at the edges of Cabarrus County built on former agricultural land see particularly heavy fire ant activity as the soil disturbance from construction and the open lawn environment favor fire ant expansion.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter indoors",
+        note: "Brown marmorated stink bugs arrive in Concord each fall in significant numbers. Cabarrus County's mix of residential and agricultural land, including orchards and row crops to the north and east, produces stink bug populations that move into residential structures as temperatures drop. Concord's position in the Piedmont is within the established stink bug range that has spread south from the Mid-Atlantic over the past two decades.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a consistent concern in Concord's apartment complexes and the commercial food service operations near the Charlotte Motor Speedway corridor and the downtown area. The NASCAR-related event activity and the hospitality infrastructure around the Speedway sustain commercial pest pressure that affects adjacent residential areas.",
+      },
+    ],
+    localHook:
+      "Concord's identity is tied to NASCAR and the Charlotte Motor Speedway, but its pest profile is tied to the North Carolina Piedmont and the agricultural transition zone at Cabarrus County's edges. The newer subdivisions built on former farmland at the county's outer edges sit directly on established termite and fire ant territory. Homeowners in those outer areas are dealing with pests that were there before the subdivision was platted.",
+    intro:
+      "Pest control in Concord covers the full Piedmont pest calendar. Eastern subterranean termites are a year-round structural threat in Cabarrus County's warm, moist soils. Mosquitoes breed along the Rocky River corridor and in the retention ponds of newer subdivisions from April through October. Fire ants are active year-round in residential lawns. Brown marmorated stink bugs arrive in fall from the surrounding agricultural and residential landscape. German cockroaches are a year-round concern in the commercial and multi-family stock near the NASCAR corridor and downtown.",
+    sections: [
+      {
+        heading: "Termites in Concord's growing edge suburbs",
+        body: "Concord's rapid growth as part of the Charlotte metropolitan area has pushed residential development into former agricultural and wooded land at Cabarrus County's outer edges. This growth pattern creates a specific termite risk that North Carolina State University Extension identifies in its guidance on new construction in the Piedmont: the grading and foundation work of subdivision development disturbs established subterranean termite colonies in the soil but does not eliminate them. Eastern subterranean termites in the Piedmont are present throughout the area, and new construction in Concord's outer subdivisions should include pre-treat soil termiticide application as a standard practice. Homeowners buying in newer outer-edge subdivisions should verify the presence and current status of a termite protection plan before closing. Annual inspections are the responsible baseline for all Concord homeowners given the Piedmont's termite pressure.",
+      },
+      {
+        heading: "Stink bugs and the fall entry window",
+        body: "Brown marmorated stink bugs have established broadly across the North Carolina Piedmont, and Concord's position in Cabarrus County brings both the agricultural landscape stink bug populations from the north and east and the general suburban residential population that has built up over the past decade. The fall entry window runs from September through October, when stink bugs aggregate on south- and west-facing walls seeking overwintering sites and then work their way into wall voids through any gap they find. The most effective prevention is completing gap-sealing work in August: window frame gaps, utility penetrations, the junction of siding and foundation, and any gaps at roofline level. A perimeter insecticide application on exterior walls before September complements the exclusion work. Once stink bugs are inside wall voids, they overwinter and emerge toward light on warm winter days. Vacuuming them without crushing is the least odorous removal method.",
+      },
+    ],
+    prevention: [
+      "Verify termite protection plan status when buying in Concord's newer outer-edge subdivisions, and schedule an annual inspection.",
+      "Apply fire ant broadcast bait across the lawn in spring before summer rains accelerate mound building.",
+      "Seal window frame and utility penetration gaps before September to limit stink bug entry during fall aggregation.",
+      "Eliminate standing water in retention ponds, gutters, and low yard areas to reduce mosquito breeding from April through October.",
+    ],
+    costNote:
+      "Concord pest services start with a free inspection. Termite programs include monitoring plus liquid treatment or bait systems and are priced after a structure assessment. Fire ant programs are twice-yearly. Mosquito barrier programs run April through October. Stink bug perimeter treatment is applied in late August. Cockroach programs use gel bait with scheduled follow-ups.",
+    faqs: [
+      {
+        question: "Why do newer homes in Concord's outer subdivisions have termite problems?",
+        answer:
+          "Concord's outer subdivisions are built on former agricultural and wooded land in Cabarrus County where eastern subterranean termite colonies were already established in the soil. The construction process disturbs but does not eliminate those colonies. North Carolina State University Extension recommends pre-treat soil termiticide applications for new construction in the Piedmont. If you are buying a home in a newer outer subdivision, confirm the termite protection status before closing.",
+      },
+      {
+        question: "How bad are stink bugs in Concord?",
+        answer:
+          "Brown marmorated stink bugs have established across the North Carolina Piedmont and are a consistent fall nuisance in Concord. The agricultural landscape north and east of the city contributes agricultural-population stink bugs to the fall invasion. The entry window is September through October. Sealing exterior gaps before mid-September is the most effective prevention. Once inside wall voids, they overwinter until spring. Vacuuming without crushing is the least odorous removal method when they appear indoors.",
+      },
+      {
+        question: "When are mosquitoes worst in Concord?",
+        answer:
+          "May through August are the most intense months, but the season runs April through October. The Rocky River corridor and the retention ponds in newer Cabarrus County subdivisions provide standing water breeding habitat. West Nile virus and Eastern equine encephalitis are monitored by North Carolina health authorities annually, and Cabarrus County has had confirmed detections. Eliminating standing water on the property and maintaining a monthly perimeter barrier treatment are the most effective residential steps.",
+      },
+      {
+        question: "Are fire ants active year-round in Concord?",
+        answer:
+          "Yes. North Carolina's mild Piedmont winters allow fire ant colonies to remain active year-round at a reduced level. Mound-building accelerates after rain events, particularly in spring and fall. The newer subdivisions built on former Cabarrus County farmland have above-average fire ant activity because open lawn environments on converted agricultural soil favor fire ant expansion. Texas A&M's two-step management approach, broadcast bait followed by individual mound treatment, is effective in the Piedmont climate.",
+      },
+      {
+        question: "Why does the NASCAR area of Concord have more cockroach issues?",
+        answer:
+          "The commercial food service infrastructure around Charlotte Motor Speedway and along the US-29 corridor sustains German cockroach populations in the restaurant and hospitality facilities. Those populations expand outward into adjacent residential and multi-family housing through shared pest movement. German cockroaches spread between connected buildings through plumbing chases and wall voids. Properties near dense commercial food service zones in Concord see more persistent cockroach pressure than those in the residential interior.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Charlotte", slug: "charlotte" },
+      { name: "Kannapolis", slug: "kannapolis" },
+      { name: "Salisbury", slug: "salisbury" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Concord, NC | Termites, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Concord pest control for eastern subterranean termites, mosquitoes, fire ants, brown marmorated stink bugs and German cockroaches. Cabarrus County Charlotte suburb NASCAR specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

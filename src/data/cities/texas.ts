@@ -2574,4 +2574,110 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Midland pest control for striped bark scorpions, brown recluse spiders, cockroaches, mice and fire ants. Permian Basin West Texas specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "irving",
+    name: "Irving",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~240,000",
+    county: "Dallas County",
+    climate: "hot-humid",
+    climateDriver:
+      "Irving sits in Dallas County adjacent to the Elm Fork of the Trinity River and DFW International Airport, sharing North Texas's subtropical climate with hot, humid summers, mild winters, and a pest season that runs most of the year. The Trinity River floodplain along Irving's eastern and southern edges creates significant mosquito breeding habitat and sustains the moisture conditions that drive subterranean termite pressure across the city. The corporate and commercial corridor of Las Colinas, with its landscaped corporate campuses and retention ponds, adds to the mosquito breeding surface area.",
+    topPests: ["Fire Ants", "Termites", "Mosquitoes", "American Cockroaches", "Norway Rats"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds swell after spring and fall rain",
+        note: "Fire ants are ubiquitous across Irving's residential lawns and the landscaped grounds of the Las Colinas corporate corridor. Texas A&M AgriLife Extension identifies fire ants as one of the most significant lawn pests in North Texas. Irving's clay-heavy soils hold moisture after rain events, triggering the mound-building activity that marks fire ant expansion into new territories.",
+      },
+      {
+        name: "Subterranean and Formosan termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round activity, swarms in spring",
+        note: "Both Eastern subterranean and Formosan termites are present in the Irving area. The Formosan subterranean termite has established colonies in the Dallas-Fort Worth metroplex and is particularly aggressive in its structural damage potential. Irving's older neighborhoods near the original city core and the areas adjacent to the Trinity River have elevated termite pressure due to the soil moisture conditions.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peak in June and July",
+        note: "The Elm Fork of the Trinity River and the extensive retention pond system throughout Irving's corporate campuses and residential neighborhoods creates substantial standing water that sustains large mosquito populations. Irving's Vector Control program monitors West Nile virus activity each summer, as the virus has been detected regularly in Dallas County mosquito pools.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, push indoors during summer heat and winter cold",
+        note: "American cockroaches, called tree roaches locally, are common throughout Irving. They breed in the storm drain system and the moisture-rich landscape around the Trinity River corridor and push into homes through sewer connections and crawl space gaps during extreme summer heat and winter cold snaps.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak in fall and winter",
+        note: "Norway rats are a consistent concern in Irving's older residential neighborhoods and along the commercial corridors near DFW Airport. The airport infrastructure, the Trinity River corridor, and the dense commercial food service operations in Irving sustain rat populations that move into residential areas. Irving's older neighborhoods west of State Highway 183 see the most consistent residential rat pressure.",
+      },
+    ],
+    localHook:
+      "Irving's position adjacent to DFW International Airport, one of the busiest airports in the world, means a constant flow of goods, food, and people through the city. That same movement sustains pest introductions that a less commercially active city would not see. The corporate campuses of Las Colinas, with their retention ponds and manicured landscapes, also create managed mosquito breeding habitat that requires active management from May through October.",
+    intro:
+      "Pest control in Irving covers a wide range of threats shaped by the city's position in the North Texas Trinity River corridor. Fire ants dominate the outdoor lawn season from spring through fall, mounding aggressively in the clay soils after every rain event. Termites, both Eastern subterranean and the more aggressive Formosan species, are active year-round and swarm in spring. Mosquitoes breed in the Trinity River floodplain and the corporate campus retention ponds of Las Colinas, with West Nile virus monitored by Irving's Vector Control program each summer. American cockroaches work the storm drain system and push indoors during weather extremes. Norway rats are a consistent presence in the older neighborhoods and along the commercial corridors near DFW.",
+    sections: [
+      {
+        heading: "Termite pressure in Irving: two species, one strategy",
+        body: "Irving's termite picture is more complex than most North Texas cities because both the Eastern subterranean termite and the Formosan subterranean termite are present. Eastern subterranean termites are the more common species and are active across the Dallas-Fort Worth metroplex. Formosan termites, which were introduced through port cities and spread inland, have established colonies in the DFW area and are significantly more aggressive in their damage rate: a mature Formosan colony is far larger than an Eastern subterranean colony and can cause detectable structural damage in a fraction of the time. Irving's older neighborhoods near the original downtown core and the areas with mature live oak and Chinese tallow trees are the primary Formosan risk zones. A termite inspection in Irving should always include a species identification step because the treatment approach and monitoring frequency differ between the two.",
+      },
+      {
+        heading: "Mosquito management in the Las Colinas corridor",
+        body: "Las Colinas's corporate campuses were developed with extensive retention ponds, decorative water features, and landscape irrigation systems that create predictable mosquito breeding habitat from April through October. Irving's Vector Control program monitors West Nile virus in mosquito pools each summer, and the virus has been detected in Dallas County regularly. Residents near the corporate campuses and the Trinity River corridors face mosquito pressure from both the city-managed public areas and the private properties adjacent to them. An effective mosquito control program for Irving properties combines elimination of standing water in gutters, plant saucers, and low drainage areas, larvicide treatment of any permanent water features that cannot be drained, and a monthly perimeter barrier application from April through October. Properties bordering the Trinity River greenway or Las Colinas ponds will see more pressure than inland properties and benefit from a longer treatment window.",
+      },
+    ],
+    prevention: [
+      "Treat fire ant mounds immediately after spring rains before they expand and establish additional satellite colonies.",
+      "Schedule an annual termite inspection given the presence of both Eastern subterranean and Formosan termites in Dallas County.",
+      "Eliminate standing water in gutters, plant saucers, and retention pond edges to reduce mosquito breeding from April through October.",
+      "Seal crawl space and sewer penetrations to block American cockroach and Norway rat entry from the storm drain system.",
+    ],
+    costNote:
+      "Irving pest services start with a free inspection. Fire ant programs are typically applied twice yearly, spring and fall. Termite treatment and monitoring contracts include a species assessment. Mosquito barrier programs run April through October. Rat and cockroach programs are assessed after an inspection and quoted by property type and infestation level.",
+    faqs: [
+      {
+        question: "Are Formosan termites really a risk in Irving?",
+        answer:
+          "Yes. The Formosan subterranean termite has established colonies in the Dallas-Fort Worth metroplex, including Irving. They are more aggressive than Eastern subterranean termites and cause structural damage faster due to their larger colony sizes. Irving's older neighborhoods near the city core and areas with mature live oak trees are at elevated risk. A termite inspection should include species identification because Formosan colonies require more aggressive treatment and monitoring than Eastern subterranean termites.",
+      },
+      {
+        question: "Why are fire ants so bad in Irving lawns?",
+        answer:
+          "Irving's clay-heavy soils retain moisture well, and after every significant rain event that moisture triggers fire ant mound-building activity as colonies expand. North Texas's long warm season, roughly ten months without sustained cold, gives fire ant colonies extra breeding cycles. Texas A&M AgriLife Extension recommends a two-step fire ant program: broadcast a fire ant bait across the entire lawn in spring, then treat individual mounds with a contact insecticide. Broadcast bait alone reduces the population significantly but does not eliminate active mounds immediately.",
+      },
+      {
+        question: "How serious is West Nile virus risk in Irving?",
+        answer:
+          "Irving's Vector Control program monitors West Nile virus in mosquito pools each summer, and the virus has been detected regularly in Dallas County. Most people who contract West Nile virus have no symptoms, but a small percentage develop serious neurological illness. The risk is highest during the peak mosquito season of June through August. Using DEET-based repellents when outdoors at dusk and dawn, eliminating standing water on the property, and maintaining a mosquito barrier treatment on yards adjacent to the Trinity River or retention ponds are the most effective protective steps.",
+      },
+      {
+        question: "What are tree roaches and why do they come inside in Irving?",
+        answer:
+          "Tree roaches are American cockroaches, a large cockroach species that primarily lives in the outdoor environment, in storm drains, mulch, leaf litter, and under bark. They push indoors during extreme summer heat and during cold snaps in winter, seeking shelter and moisture. Irving's storm drain system, which ties into the Trinity River, provides an extensive underground habitat that sustains large populations. Sealing crawl space vents, sewer pipe penetrations, and foundation gaps reduces entry. A perimeter treatment applied around the base of the foundation discourages them from approaching the structure.",
+      },
+      {
+        question: "Why are there rats in Irving neighborhoods near DFW Airport?",
+        answer:
+          "The commercial infrastructure around DFW Airport, including food service operations, cargo facilities, and the high volume of goods movement, sustains rat populations that move outward into adjacent residential neighborhoods. Norway rats are the primary species. They follow the drainage corridors and commercial alley systems from high-food-availability areas into residential zones. Eliminating harborage near the property (overgrown vegetation, woodpile storage against the structure, unsealed crawl spaces) and sealing foundation entry points are the key residential steps.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Dallas", slug: "dallas" },
+      { name: "Fort Worth", slug: "fort-worth" },
+      { name: "Grand Prairie", slug: "grand-prairie" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Irving, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Irving pest control for fire ants, subterranean and Formosan termites, mosquitoes, American cockroaches and Norway rats. Dallas County Las Colinas Trinity River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

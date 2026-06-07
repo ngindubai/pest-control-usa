@@ -345,4 +345,110 @@ export const alabamaCities: CityLocation[] = [
     metaDescription:
       "Montgomery pest control for fire ants, subterranean termites, mosquitoes, American cockroaches and German cockroaches. Montgomery County Alabama River specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "mobile",
+    name: "Mobile",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T2",
+    population: "~187,000",
+    county: "Mobile County",
+    climate: "hot-humid",
+    climateDriver:
+      "Mobile sits on Mobile Bay at the northern end of the Gulf of Mexico, with one of the wettest and most humid climates in the continental United States. Mobile averages over 65 inches of rain per year, significantly more than any other major Gulf Coast city, and the subtropical climate allows pest activity year-round with almost no winter suppression. The city's position at the Mobile River delta, where the Alabama and Tombigbee Rivers converge before emptying into Mobile Bay, creates an extensive waterfront and wetland environment that makes Mobile one of the most significant termite cities in the Southeast. The hot, wet climate also drives one of the most intense mosquito seasons on the Gulf Coast.",
+    topPests: ["Formosan Termites", "Fire Ants", "Mosquitoes", "American Cockroaches", "Carpenter Bees"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round activity, swarms in spring and early summer",
+        note: "Formosan subterranean termites are a primary structural pest in Mobile. The Gulf Coast's warm, humid climate and Mobile's exceptional rainfall create ideal Formosan termite conditions. The Alabama Cooperative Extension System places Mobile in one of the highest Formosan termite pressure zones in the United States, second only to the New Orleans area. Formosan termite swarms in Mobile are a recognizable annual event, typically occurring on warm evenings from April through June around lights.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds swell after every significant rain",
+        note: "Fire ants are extraordinarily active in Mobile's wet, warm climate. The high rainfall keeps the soil moist enough for fire ant expansion throughout the year, and mounds appear in lawns, parks, roadsides, and landscaped areas constantly. Mobile's clay-based soils in some neighborhoods and the sandy soils near the bay front both support fire ant colonies, which cover essentially the entire city.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, most intense April through October",
+        note: "Mobile's 65-plus inches of annual rainfall, combined with the Mobile River delta's extensive tidal wetlands and the city's many bayous and drainage ditches, creates one of the most productive mosquito environments on the Gulf Coast. Mobile County Mosquito Control is among the most active in Alabama, treating public water bodies with aerial and ground operations. West Nile virus and Eastern equine encephalitis are monitored annually in Mobile County.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, push indoors during heavy rain events",
+        note: "American cockroaches, called palmetto bugs along the Gulf Coast, are ubiquitous in Mobile. They breed in the extensive storm drain system, the bayou edges, and the damp mulch and organic material common in Mobile's year-round warm landscape. Heavy rain events drive them indoors in large numbers through sewer connections and crawl space gaps.",
+      },
+      {
+        name: "Carpenter bees",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Active March through September, peak April through June",
+        note: "Carpenter bees are a consistent pest in Mobile's older residential neighborhoods. The Gulf Coast's extended warm season gives carpenter bees a longer active period than anywhere further north. They bore into unpainted or weathered wood surfaces, particularly in the older homes of the Midtown, Old Dauphin Way, and Spring Hill neighborhoods. Mobile's high rainfall also accelerates wood weathering, creating attractive nesting surfaces.",
+      },
+    ],
+    localHook:
+      "Mobile's annual rainfall exceeds 65 inches, more than any other major Gulf Coast city and more than Seattle by more than 20 inches. That exceptional rainfall, combined with the subtropical temperature and the Mobile River delta environment, makes Mobile's Formosan termite conditions among the most severe in the United States outside of the New Orleans area. The Alabama Cooperative Extension System has specifically documented Mobile County's Formosan termite pressure as a critical structural risk for the region.",
+    intro:
+      "Pest control in Mobile requires a Gulf Coast subtropical approach to year-round pest management. Formosan subterranean termites are the most serious structural threat in the city, with Alabama Cooperative Extension placing Mobile in one of the highest Formosan termite pressure zones in the country. Fire ants are extraordinarily active in Mobile's wet, warm conditions and mound year-round. Mosquitoes breed in the Mobile River delta, the city's bayous, and the rainfall-charged drainage system, requiring Mobile County Mosquito Control's aerial operations as well as residential management. American cockroaches emerge in large numbers during heavy rain events. Carpenter bees work the older wood-frame homes of Mobile's historic neighborhoods through the extended Gulf Coast warm season.",
+    sections: [
+      {
+        heading: "Formosan termites: Mobile's most serious structural threat",
+        body: "Mobile's Formosan subterranean termite population is one of the most significant in the United States. The Alabama Cooperative Extension System places Mobile County in a critical Formosan termite pressure zone, comparable to the New Orleans area that has historically been considered the epicenter of Formosan termite activity in North America. Formosan termites differ from Eastern subterranean termites in two important ways: their colonies are dramatically larger, typically ten to twenty times the size of an Eastern subterranean colony, and they cause structural damage far more rapidly because of that colony size. A Formosan colony can cause detectable structural damage in as little as six months; an Eastern subterranean colony of the same age would cause a fraction of that damage. Mobile's exceptional rainfall, which averages over 65 inches per year, keeps the soil moisture at levels that sustain very large Formosan colonies throughout the city. Annual termite inspection is the absolute baseline for Mobile homeowners. A liquid soil barrier treatment combined with a bait monitoring system, with annual inspection to verify barrier integrity, is the standard protection program. Given Mobile's pressure level, relying on annual inspections alone without an active treatment barrier is inadequate.",
+      },
+      {
+        heading: "Mosquito management in the Mobile River delta city",
+        body: "Mobile's mosquito environment is shaped by the convergence of the Alabama and Tombigbee Rivers at the Mobile River delta north of the city, the extensive tidal wetlands and bayous of Mobile Bay, and the city's extraordinary rainfall that creates standing water throughout the residential landscape throughout the year. Mobile County Mosquito Control operates one of the more active mosquito management programs in Alabama, including aerial applications over wetland areas and truck-mounted ground applications in residential areas. Despite this public program, residential properties still face significant mosquito pressure because the standing water on private property, in gutters, plant saucers, birdbaths, and low drainage areas, continuously replenishes the breeding capacity. For Mobile properties adjacent to bayous, drainage ditches, or low-lying areas, a year-round mosquito program combining biological larvicide for standing water that cannot be drained and a monthly perimeter barrier treatment from March through November provides the most practical residential relief.",
+      },
+    ],
+    prevention: [
+      "Maintain an active Formosan termite protection program with liquid soil barrier and annual inspection as the absolute baseline.",
+      "Treat fire ant mounds immediately after every significant rain event; Mobile's year-round warm season means mound activity never fully stops.",
+      "Eliminate standing water across the property year-round, not just in summer, given Mobile's 65-plus inches of annual rainfall.",
+      "Apply a penetrating wood preservative or exterior paint to unpainted wood surfaces to reduce carpenter bee boring in older structures.",
+    ],
+    costNote:
+      "Mobile pest services start with a free inspection. Formosan termite programs combine liquid soil barrier with bait monitoring and are priced after a structure assessment. Year-round programs are standard given Mobile's subtropical climate. Mosquito barrier programs run March through November. Fire ant programs are quarterly given year-round mound activity. Carpenter bee treatment includes boring site treatment and harborage reduction.",
+    faqs: [
+      {
+        question: "How serious are Formosan termites in Mobile specifically?",
+        answer:
+          "Very serious. The Alabama Cooperative Extension System places Mobile County in a critical Formosan termite pressure zone, comparable to the New Orleans area. Formosan colonies are ten to twenty times larger than Eastern subterranean colonies and cause structural damage much more rapidly. Mobile's 65-plus inches of annual rainfall creates the sustained soil moisture that supports very large Formosan colonies throughout the city. An annual inspection with an active liquid barrier treatment is the minimum appropriate protection. Relying on inspection alone without an active barrier is inadequate at Mobile's pressure level.",
+      },
+      {
+        question: "Why are fire ants so active in Mobile all year?",
+        answer:
+          "Mobile's subtropical climate with its year-round warmth and exceptional rainfall keeps fire ant colonies active continuously. The high rainfall creates the moist soil conditions that fire ants need to expand and sustain colonies. Mounds appear in Mobile lawns throughout the year, swell after every rain event, and rarely get a winter suppression period. Mobile homeowners typically need quarterly rather than twice-yearly fire ant management to maintain control.",
+      },
+      {
+        question: "How does Mobile County's mosquito control program work?",
+        answer:
+          "Mobile County Mosquito Control operates aerial applications over wetland areas and truck-mounted ground applications in residential areas during the active mosquito season. This public program treats public water bodies and rights-of-way but does not treat private property. Standing water on private property continues to produce mosquitoes regardless of the public program. Residential management focuses on eliminating private standing water and applying biological larvicide to unavoidable water features, complemented by a monthly perimeter barrier treatment.",
+      },
+      {
+        question: "What are palmetto bugs and why do they come inside after rain in Mobile?",
+        answer:
+          "Palmetto bugs are American cockroaches, a large species that primarily lives outdoors in the Gulf Coast's warm, humid environment. They breed in storm drains, bayou edges, and the moist organic material throughout Mobile's landscape. Heavy rain events flood their outdoor habitat and drive them toward any available interior through sewer connections, crawl space gaps, and under door thresholds. Mobile's frequent heavy rain events make this a recurring pattern rather than an occasional event. Sealing entry points and maintaining a perimeter treatment reduces incursion frequency.",
+      },
+      {
+        question: "Why are carpenter bees so active in Mobile's older neighborhoods?",
+        answer:
+          "The Gulf Coast's extended warm season gives carpenter bees more active months than anywhere further north. Mobile's Spring Hill, Midtown, and Old Dauphin Way neighborhoods have older wood-frame homes with unpainted or weathered wood surfaces that are ideal carpenter bee nesting sites. Mobile's exceptional rainfall also accelerates wood weathering, creating soft, attractive surfaces faster than in drier climates. Painting all bare wood surfaces is the most effective prevention. Treating existing bore holes with residual insecticide and plugging them after the resident bees are gone prevents re-use.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Prichard", slug: "prichard" },
+      { name: "Daphne", slug: "daphne" },
+      { name: "Fairhope", slug: "fairhope" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Mobile, AL | Formosan Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Mobile pest control for Formosan termites, fire ants, mosquitoes, American cockroaches and carpenter bees. Mobile County Gulf Coast Mobile Bay specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -216,4 +216,110 @@ export const minnesotaCities: CityLocation[] = [
     metaDescription:
       "Saint Paul pest control for fall mice, carpenter ants, summer mosquitoes, boxelder bugs and wasps. Twin Cities seasonal specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "rochester",
+    name: "Rochester",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T2",
+    population: "~124,000",
+    county: "Olmsted County",
+    climate: "cold-humid",
+    climateDriver:
+      "Rochester sits in Olmsted County in southeastern Minnesota, with a cold-humid continental climate that delivers genuinely cold winters and warm, humid summers. The Zumbro River runs through the city, and the surrounding Olmsted County farmland and the hardwood forests of southeastern Minnesota contribute to the pest profile. Rochester is internationally recognized as home of the Mayo Clinic, and the associated medical tourism and hospitality industry creates bed bug introduction risk comparable to a much larger city. Minnesota winters drive mice hard into structures each fall, and Rochester's position in the bluff country of southeastern Minnesota adds box elder and other woodland species to the urban pest mix.",
+    topPests: ["House Mice", "Carpenter Ants", "Boxelder Bugs", "Yellowjackets", "Earwigs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through December, active year-round once inside",
+        note: "House mice are the most consistent fall pest in Rochester. Minnesota winters are genuinely cold, and the push into heated structures begins in September as temperatures drop. University of Minnesota Extension identifies mice as the top rodent pest concern in Minnesota. Rochester's mix of older residential housing near the Mayo Clinic campus and newer suburban construction at the city's edges provides a range of entry point types.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, visible indoors in spring",
+        note: "Carpenter ants are a structural concern in Rochester. The bluff country forests of southeastern Minnesota extend into the wooded residential areas surrounding the city, and the mature hardwood canopy in neighborhoods near Silver Lake and the Bear Creek corridor provides substantial outdoor colony habitat. Finding large black ants indoors in April or May indicates an established colony in moisture-affected structural wood.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November entry, overwinter in wall voids",
+        note: "Boxelder bugs are a predictable fall nuisance in Rochester. Olmsted County has significant boxelder tree populations in established neighborhoods and along waterways, and the annual aggregation events on south-facing walls in September are consistent year to year. They work into wall voids through window frame gaps and utility penetrations.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active June through October, peak aggression August and September",
+        note: "Yellowjackets are a consistent late-summer pest in Rochester's residential neighborhoods and the wooded parks along the Zumbro River. Ground nests in yards and parks are the most common type encountered. August and September are the peak risk period when colony size reaches its maximum and workers are most aggressive. The bluff country parks around Rochester see above-average yellowjacket activity.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, peak in late spring and early summer",
+        note: "Earwigs are a nuisance pest in Rochester that push through ground-level foundation gaps in the warm season. The moist conditions common along the Zumbro River corridor and in the heavily irrigated residential areas create favorable earwig habitat in garden beds and mulch areas. They shelter under stones, bark, and dense ground cover during the day and forage at night.",
+      },
+    ],
+    localHook:
+      "Rochester's Mayo Clinic draws approximately 1.3 million patients and visitors annually from across the country and around the world. That volume of hospitality activity, including the hotels, extended-stay facilities, and short-term rentals that serve Mayo patients and their families, creates a bed bug introduction rate that far exceeds what a city of 124,000 would otherwise experience. Rochester's pest control community deals with bed bug calls from hospitality properties as a regular part of the business, not an occasional exception.",
+    intro:
+      "Pest control in Rochester follows southeastern Minnesota's cold-humid seasonal pattern with a Mayo Clinic twist. House mice push hard into structures each October as Minnesota winters arrive. Carpenter ants are a spring structural concern in the wooded neighborhoods near Silver Lake and the Zumbro River. Boxelder bugs aggregate on Rochester homes each September. Yellowjackets peak in August in the bluff country parks. Earwigs are a warm-season nuisance in irrigated residential areas. And the Mayo Clinic's hospitality activity introduces bed bug risk at a level unusual for a city of Rochester's size.",
+    sections: [
+      {
+        heading: "The fall mouse push in Rochester's Minnesota winters",
+        body: "Rochester's fall mouse surge is driven by Minnesota's genuinely cold winters. When outdoor temperatures drop below 50 degrees in September, house mice begin their systematic push toward heated structures, probing every gap in foundations, utility penetrations, and garage door seals. University of Minnesota Extension notes that house mice are the most common rodent pest in Minnesota and that the fall entry push is predictable in its timing. Rochester's housing stock ranges from the older homes near the Mayo campus and the Pill Hill neighborhoods to the newer construction in the Northwest Rochester and Cascade Lake areas. Older homes have settled foundations with cracked mortar and deteriorated utility seals. Newer homes have the subtler entry points of inadequate caulking at utility penetrations and garage door thresholds that have never been properly sealed. A professional exclusion inspection in September identifies both types. Metal-based sealing materials hold through Minnesota winters better than foam sealant, which freeze-thaw cycles crack open. Trapping removes the mice that have already entered; exclusion stops new ones.",
+      },
+      {
+        heading: "Bed bugs and the Mayo Clinic hospitality ecosystem",
+        body: "Rochester's Mayo Clinic is one of the busiest medical institutions in the world, drawing over a million visitors annually for medical care. The hotels, extended-stay facilities, AirBnB rentals, and family housing arrangements that support Mayo patients and their families create a hospitality ecosystem with high occupancy, high turnover, and continuous new arrivals from across the country and internationally. Bed bug introductions follow high-turnover hospitality, and Rochester's pest control professionals deal with bed bug calls from hotels, extended-stay facilities, and residential rentals near the Mayo campus as a regular matter. For Rochester residents renting on a short-term basis or hosting Mayo patients, inspecting sleeping areas between guests, encasing mattresses and box springs with bed bug-proof covers, and knowing the early signs of bed bug activity are practical protective steps.",
+      },
+    ],
+    prevention: [
+      "Schedule mouse exclusion work in September before Minnesota temperatures drop in October, using metal-based materials.",
+      "Seal window frame and utility penetration gaps before mid-September to limit boxelder bug entry into wall voids.",
+      "Inspect moisture-prone wood around windows and in the Zumbro River corridor areas for carpenter ant activity each spring.",
+      "For rentals near Mayo Clinic, inspect sleeping areas between guest stays and use bed bug-proof mattress encasements.",
+    ],
+    costNote:
+      "Rochester pest services start with a free inspection. Mouse exclusion and trapping programs are most effective when initiated in September. Carpenter ant programs include moisture assessment. Boxelder bug treatment is a late-August perimeter application. Bed bug programs for hospitality-adjacent properties are quoted by method and room count. Yellowjacket treatment is per nest.",
+    faqs: [
+      {
+        question: "When do mice push into Rochester homes?",
+        answer:
+          "September is the start of the push in Rochester, earlier than in warmer Minnesota cities because southeastern Minnesota's temperatures drop faster than the metro. University of Minnesota Extension identifies mice as the top Minnesota rodent pest, and the fall entry surge is predictable. Sealing entry points in September, before the push arrives, is the most cost-effective approach. Metal-based materials hold better than foam sealant through Minnesota winters.",
+      },
+      {
+        question: "Why does Rochester have more bed bug activity than most cities its size?",
+        answer:
+          "The Mayo Clinic draws over a million visitors annually. The hotels, extended-stay facilities, and rental housing serving those visitors have higher turnover and new arrivals than comparable facilities in cities without that hospitality pull. Bed bugs follow high-turnover hospitality, and Rochester's pest control community deals with bed bug calls from the Mayo ecosystem as a regular part of operations. Rochester residents who host medical visitors or run rentals near the clinic face above-average bed bug introduction risk.",
+      },
+      {
+        question: "Are carpenter ants a structural risk in Rochester?",
+        answer:
+          "Yes. Southeastern Minnesota's hardwood bluff country forests extend into Rochester's residential areas along Silver Lake and the Bear Creek and Zumbro River corridors, providing substantial outdoor carpenter ant colony habitat. The spiders target moisture-damaged structural wood, typically around leaky windows, at soffits with poor drainage, and in crawl spaces with condensation. Seeing large black ants indoors consistently in April or May indicates an established nearby colony. An inspection can identify the colony and the moisture source driving it.",
+      },
+      {
+        question: "How do I stop boxelder bugs from getting into my Rochester home?",
+        answer:
+          "Seal the gaps around window frames, at utility penetrations, and at the junction of siding and foundation before mid-September, which is when boxelder bugs begin aggregating on walls seeking overwintering sites. A perimeter insecticide on south- and west-facing walls before mid-September also discourages aggregation. Once inside wall voids, they are difficult to remove without crushing them, so prevention is the much better approach.",
+      },
+      {
+        question: "When are yellowjackets most aggressive in Rochester?",
+        answer:
+          "August and early September are the peak risk months in Rochester, when colonies reach maximum size and workers compete most aggressively for food. Ground nests in the bluff country parks and wooded residential areas around Rochester are commonly encountered during late-season yard work. Marking any discovered nest clearly and scheduling professional treatment is much safer than attempting self-treatment during the peak August aggression period.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Minneapolis", slug: "minneapolis" },
+      { name: "Saint Paul", slug: "saint-paul" },
+      { name: "Winona", slug: "winona" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Rochester, MN | Mice, Carpenter Ants & Boxelder Bugs",
+    metaDescription:
+      "Rochester pest control for house mice, carpenter ants, boxelder bugs, yellowjackets and earwigs. Olmsted County Mayo Clinic southeastern Minnesota specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

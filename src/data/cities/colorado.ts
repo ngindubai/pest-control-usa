@@ -535,4 +535,110 @@ export const coloradoCities: CityLocation[] = [
     metaDescription:
       "Lakewood pest control for voles, house mice, black widow spiders, yellowjackets and earwigs. Jefferson County Front Range foothills specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "thornton",
+    name: "Thornton",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T2",
+    population: "~148,000",
+    county: "Adams County",
+    climate: "semi-arid",
+    climateDriver:
+      "Thornton sits in Adams County north of Denver on the Front Range, with Colorado's characteristic semi-arid climate of dry, sunny conditions, low humidity, and significant temperature swings between day and night. The city is positioned between the Denver urban area and the open agricultural and grassland terrain of eastern Adams County. The South Platte River runs along Thornton's eastern edge, providing the primary moisture corridor in an otherwise dry landscape. The grassland transition at the eastern edge of the city sustains vole populations that press into residential lawns, and the dry Front Range conditions support black widow spiders and odorous house ants year-round.",
+    topPests: ["House Mice", "Voles", "Odorous House Ants", "Black Widow Spiders", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors September through November, active year-round once inside",
+        note: "House mice are the most consistent fall pest in Thornton's residential neighborhoods. Colorado's cold winters drive mice into heated structures as temperatures drop in September and October. Thornton's mix of established neighborhoods near the Denver border and newer construction in the northern areas near 136th Avenue and beyond provides a range of entry point types, from settled older foundations to the inadequately sealed utility penetrations common in rapid-build construction.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Active year-round, lawn damage most visible in spring",
+        note: "Meadow voles are a significant lawn pest in Thornton and throughout the Adams County Front Range communities. They tunnel under the snowpack through winter, and the runways they create are revealed when snow melts in March and April, showing as matted, dead-grass channels across lawns. Voles also girdle the bark of young ornamental trees and shrubs. Properties adjacent to the South Platte River open space and the grassland corridors at Thornton's eastern edge see the heaviest vole pressure.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October, push indoors during dry weather and after rain",
+        note: "Odorous house ants are the most common ant species in Thornton's residential properties. They nest in wall voids and under slab edges and forage in kitchens for sweets and moisture. The Front Range's frequent dry periods drive them indoors in summer, and the first warm days of spring trigger foraging after the winter. Their rotten-coconut smell when crushed is the identification cue.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered outdoor areas, most active May through September",
+        note: "Western black widow spiders are common throughout Thornton's residential areas. Colorado State University Extension identifies black widows as one of the two medically significant spiders in Colorado. They build webs in undisturbed outdoor locations: under patio furniture, in garage corners, in crawl space voids, in irrigation valve boxes, and in rock walls. Thornton's dry, warm summers provide ideal conditions.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November entry, overwinter in wall voids",
+        note: "Boxelder bugs aggregate on south- and west-facing walls of Thornton homes each fall wherever boxelder trees are present in the neighborhood. They work into wall voids through gaps around windows and utility penetrations. Adams County has significant boxelder tree populations in established neighborhoods and along waterways, and the annual fall aggregation events on sun-warmed walls are predictable.",
+      },
+    ],
+    localHook:
+      "Thornton's eastern edge borders the South Platte River open space and the grassland transition zone of Adams County, and that border is where vole pressure is most intense. Meadow voles do not care that a subdivision replaced a field: they adapt to the grassy lawn environment and continue their tunneling through winter under the snowpack. The spring reveal of vole runways across Thornton lawns is an annual event for a large portion of the city's eastern neighborhoods.",
+    intro:
+      "Pest control in Thornton follows the Front Range semi-arid pattern, with a specific Adams County character. House mice push hard into structures each fall when Colorado's temperature swings make heated buildings essential. Voles work through lawns year-round, leaving their distinctive runways visible each spring. Odorous house ants are the persistent kitchen pest of Thornton's residential neighborhoods. Black widow spiders build webs in undisturbed outdoor storage areas throughout the warm season. Boxelder bugs aggregate on sun-warmed walls each September before working into wall voids.",
+    sections: [
+      {
+        heading: "Vole damage in Thornton's eastern neighborhoods",
+        body: "The meadow vole is a small, stocky rodent that lives in grassy areas and tunnels at or just below the soil surface. In Thornton's eastern neighborhoods along the South Platte River corridor and the grassland margins near 120th Avenue and beyond, vole populations are sustained by the open-space habitat that borders the residential areas. Voles tunnel through grass year-round, and in winter they work under the snowpack, where they are protected from predators and weather. When the snow melts in March, the runways they have created through the winter appear as matted, dead-grass channels winding across lawns. They also girdle bark in a ring at the base of young ornamental trees and shrubs during winter, cutting off the flow of nutrients and killing the plant. The practical response is a combination of population management (trapping or baiting in active areas in fall) and tree protection (wire mesh guards around the base of young trees before snow falls in October). A thorough exclusion program for the home itself is also important, since voles occasionally enter structures along the foundation.",
+      },
+      {
+        heading: "Black widows and outdoor storage in Thornton",
+        body: "Western black widow spiders are genuinely common in Thornton's semi-arid residential environment. Colorado State University Extension's guide to black widow spiders notes that they are found throughout Colorado but are most common in the drier, warmer areas of the state, which includes the Front Range urban corridor. In Thornton, the risk areas are any undisturbed outdoor location where webs can be built without regular disturbance: the backs of garages, under patio furniture that is not moved seasonally, in wood piles and rock walls, inside irrigation valve boxes, and in crawl space areas. A practical daily precaution is to avoid putting unprotected hands into any of those locations, to shake out shoes and gloves left in the garage, and to wear gloves when working in stored areas. A quarterly perimeter treatment that covers harborage areas reduces the black widow population around the structure.",
+      },
+    ],
+    prevention: [
+      "Install wire mesh trunk guards on young ornamental trees before October to prevent vole girdling damage over winter.",
+      "Seal foundation gaps and utility penetrations before September to exclude mice ahead of Colorado's fall temperature drop.",
+      "Avoid putting unprotected hands into garage corners, irrigation valve boxes, and stored outdoor items where black widows build webs.",
+      "Seal window frame gaps and utility line entries on south-facing walls before mid-September to limit boxelder bug entry.",
+    ],
+    costNote:
+      "Thornton pest services start with a free inspection. Vole programs include population management (trapping or baiting) plus tree protection guidance. Mouse programs cover exclusion and trapping. Quarterly perimeter programs cover black widows, ants, spiders, and boxelder bugs. Fall exclusion inspections are most effective when completed in August or September.",
+    faqs: [
+      {
+        question: "Why does my Thornton lawn have so many vole runways in spring?",
+        answer:
+          "Meadow voles tunnel at or just below the soil surface year-round and are most active in winter under the snowpack where they are protected from predators. When snow melts in March and April, the runways they created become visible as matted dead-grass channels across the lawn. Properties adjacent to the South Platte River open space and Adams County grassland areas see the heaviest vole pressure. Population management in fall, when voles are close to the surface, and wire mesh trunk guards on young trees prevent the worst of the spring damage.",
+      },
+      {
+        question: "Are black widow spiders dangerous in Thornton?",
+        answer:
+          "Yes. Colorado State University Extension identifies western black widows as one of the two medically significant spiders in Colorado. Their venom causes severe muscle cramping and systemic effects that require medical attention. Bites are not aggressive and occur almost always when a spider is accidentally disturbed or trapped against skin. The practical daily precaution is simple: do not put bare hands into undisturbed outdoor locations such as garage corners, wood piles, rock walls, or irrigation valve boxes, and shake out shoes and gloves left in the garage before use.",
+      },
+      {
+        question: "When do mice start coming into Thornton homes?",
+        answer:
+          "September and October are the primary entry months as Colorado temperatures begin dropping. Thornton's semi-arid climate means the drop comes faster than in more humid regions. Mice can enter through gaps as small as a quarter inch. A professional exclusion inspection in August or early September, before the push begins, is the most cost-effective approach. Sealing all entry points at that time stops the fall surge before it starts. Trapping handles the mice already inside.",
+      },
+      {
+        question: "What are odorous house ants and why do they come inside in summer?",
+        answer:
+          "Odorous house ants are small brown ants that release a rotten-coconut odor when crushed. They nest in wall voids and under slab edges in Thornton yards and forage in kitchens for sweets and moisture. During Colorado's dry summer periods, indoor moisture sources attract them more strongly than the dry outdoor environment. Slow-acting bait placed along foraging trails reduces the colony more effectively than spray, which kills visible foragers but does not reach the nest.",
+      },
+      {
+        question: "How do I stop boxelder bugs from getting into my Thornton home?",
+        answer:
+          "The prevention window is August through mid-September, before boxelder bugs begin aggregating on walls. Sealing the gaps around window frames, at utility penetrations, at the junction of siding and foundation, and at any openings at the roofline prevents entry into wall voids. A perimeter insecticide application on the south- and west-facing exterior walls before aggregation begins supplements the exclusion work. Once they are inside wall voids, removal without crushing them requires patience and a vacuum.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Denver", slug: "denver" },
+      { name: "Westminster", slug: "westminster" },
+      { name: "Aurora", slug: "aurora-co" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Thornton, CO | Mice, Voles, Black Widows & Ants",
+    metaDescription:
+      "Thornton pest control for house mice, meadow voles, black widow spiders, odorous house ants and boxelder bugs. Adams County Front Range South Platte specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -534,4 +534,216 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Vancouver WA pest control for Norway rats, odorous house ants, carpenter ants, yellowjackets and silverfish. Clark County Columbia River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "everett",
+    name: "Everett",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T2",
+    population: "~117,000",
+    county: "Snohomish County",
+    climate: "temperate",
+    climateDriver:
+      "Everett sits in Snohomish County on Puget Sound north of Seattle, with the Pacific Northwest's temperate maritime climate: mild, wet winters and warm, dry summers. The Snohomish River delta and the Puget Sound waterfront create significant rat habitat and contribute to the moisture conditions that sustain carpenter ant populations throughout the city's established neighborhoods. Boeing's aircraft manufacturing complex is one of Everett's defining features, and the industrial and commercial activity along the Everett waterfront sustains rat populations that press into adjacent residential areas. The heavy winter rainfall keeps the soil and exterior wood moisture-elevated year-round.",
+    topPests: ["Norway Rats", "Carpenter Ants", "Odorous House Ants", "Yellowjackets", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak pressure in fall and winter",
+        note: "Norway rats are a significant pest in Everett, particularly in the neighborhoods adjacent to the Everett waterfront, the Snohomish River delta, and the industrial areas near the Boeing complex. The waterfront environment and the commercial food operations near the Port of Everett sustain large rat populations that press into residential areas along the drainage corridors. WSU Extension's pest management resources identify Norway rats as a priority pest in Washington's coastal urban areas.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, visible indoors in spring",
+        note: "Carpenter ants are a consistent structural pest in Everett. The Pacific Northwest's moisture-rich environment, combined with the mature conifer and deciduous tree canopy throughout Everett's established neighborhoods, creates extensive outdoor carpenter ant colony habitat. The wet winters keep structural wood moisture elevated, and any area with a leak or condensation problem is at risk. Washington State University Extension identifies carpenter ants as one of the most important structural pests in the Pacific Northwest.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active year-round indoors, most visible in spring and after rain",
+        note: "Odorous house ants are the most common ant species in Everett's residential properties. The Pacific Northwest's mild, wet climate keeps them active nearly year-round, and they move indoors in large numbers after heavy rain events when outdoor nesting areas become saturated. WSU Extension notes that odorous house ants are the top ant pest complaint in the greater Puget Sound area.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active May through October, peak aggression August and September",
+        note: "Yellowjackets are a significant late-summer pest in Everett's residential neighborhoods and the wooded parks along the Snohomish River corridor. Ground nests in wooded yards and wall void nests in older homes are both common. August and September are the peak risk period when colonies are at their largest and most aggressive.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter indoors",
+        note: "Brown marmorated stink bugs have established in the greater Puget Sound area and arrive at Everett homes each fall. The agricultural landscape of the Snohomish River valley east of Everett contributes stink bug populations that move into residential structures as temperatures drop in September. WSDA has documented stink bug establishment across western Washington.",
+      },
+    ],
+    localHook:
+      "The Boeing Everett Factory, one of the largest buildings in the world by volume, anchors Everett's industrial identity along Puget Sound. The commercial food service, the waste management, and the scale of activity around the Boeing complex and the Port of Everett sustains rat populations that are among the most persistent in Snohomish County. Residential properties in the Bayside, Port Gardner, and waterfront-adjacent neighborhoods deal with rat pressure as a consistent characteristic of the area, not an occasional event.",
+    intro:
+      "Pest control in Everett reflects the city's industrial waterfront character and its Pacific Northwest temperate climate. Norway rats are sustained by the Snohomish River delta, the Port of Everett, and the Boeing complex food and waste environment, pressing outward into the residential neighborhoods along drainage corridors. Carpenter ants are a spring structural concern throughout the city's established neighborhoods, sustained by the wet winters and mature tree canopy. Odorous house ants move indoors in large numbers after rain events. Yellowjackets peak in late summer. Brown marmorated stink bugs arrive from the Snohomish Valley each fall.",
+    sections: [
+      {
+        heading: "Norway rats and the Everett waterfront",
+        body: "Everett's position on Puget Sound, combined with the Port of Everett's commercial activity and the Boeing manufacturing complex, creates a rat environment that is more persistent than in purely residential suburban cities. Norway rats follow food and water: the waterfront provides both. They move outward from the port and industrial areas along the drainage corridors and alley systems into the Bayside, Port Gardner, and the neighborhoods adjacent to the industrial waterfront. Rat control in Everett's waterfront-adjacent neighborhoods requires a sustained approach because the source population in the industrial environment continuously re-pressures residential properties. Building exclusion (sealing foundation gaps, sewer pipe penetrations, and crawl space entries), harborage reduction (clearing dense vegetation and stored debris from the property), and monitoring with bait stations provide the most durable residential protection. Single-property treatment without exclusion produces temporary results.",
+      },
+      {
+        heading: "Carpenter ants and Pacific Northwest wood moisture",
+        body: "Everett's wet Pacific Northwest climate keeps structural wood moisture elevated throughout the winter and into spring in a way that most other US cities do not experience. Washington State University Extension's guide to Pacific Northwest carpenter ants notes that structural moisture issues are the primary driver of indoor carpenter ant establishment in the region. In Everett, the risk is distributed broadly: the heavy winter rainfall saturates exterior wood, and any detail that fails to drain properly, including clogged gutters, poorly flashed eave connections, leaky window head flashing, and inadequately ventilated crawl spaces, creates potential nesting sites. Carpenter ants in the Pacific Northwest do not need the deeply damaged wood that eastern populations might require: moderately elevated moisture in sound wood can be sufficient for colony establishment in a region where outdoor colony habitat is extensive and the insects can range freely in the mild winters.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, sewer pipe penetrations, and crawl space entries to block Norway rat access from the waterfront drainage corridors.",
+      "Maintain gutters and eave drainage, and inspect crawl spaces annually for elevated moisture that attracts carpenter ants.",
+      "Apply odorous house ant bait along foraging trails after heavy rain events rather than spraying visible ants.",
+      "Seal window frame gaps and utility penetrations before September to limit stink bug entry during fall aggregation.",
+    ],
+    costNote:
+      "Everett pest services start with a free inspection. Rat programs in waterfront-adjacent neighborhoods include exclusion assessment plus bait stations and are priced after an on-site inspection. Carpenter ant programs include moisture assessment. Odorous house ant programs are quarterly. Stink bug perimeter treatment is applied in late August. Yellowjacket treatment is per nest.",
+    faqs: [
+      {
+        question: "Why are rats such a problem near the Everett waterfront?",
+        answer:
+          "The Port of Everett, the Boeing complex, and the commercial food and waste environment of the Everett waterfront sustain Norway rat populations at densities that a purely residential area would not see. Those populations press outward into the residential neighborhoods along drainage corridors and alley systems. Building exclusion, combined with harborage reduction on the property, provides the most durable protection. Treatment without exclusion gives only temporary relief because the waterfront environment continuously re-supplies rats to the surrounding area.",
+      },
+      {
+        question: "Are carpenter ants worse in Everett than in drier Washington cities?",
+        answer:
+          "Yes. Everett's position on Puget Sound gives it a wetter climate than eastern Washington cities, and the wet Pacific Northwest winters keep structural wood moisture elevated in a way that directly supports carpenter ant establishment. WSU Extension identifies moisture as the primary driver of carpenter ant establishment in Pacific Northwest structures. Any drainage deficiency, clogged gutter, or leaky window detail is a potential carpenter ant attraction. Annual inspection of moisture-prone areas is the most practical prevention.",
+      },
+      {
+        question: "How often do odorous house ants push into Everett homes?",
+        answer:
+          "Odorous house ants are active almost year-round in Everett's mild climate. The most pronounced indoor push occurs after heavy rain events when outdoor nesting areas become saturated. In Everett, that means a potential indoor event after any significant winter or spring rain, which is frequent. Bait-based programs placed along foraging trails reduce the colony over time; spray disrupts visible foragers but does not address the nest.",
+      },
+      {
+        question: "When are yellowjackets most dangerous in Everett?",
+        answer:
+          "August and September are the peak risk months. Colonies reach maximum size and workers become most aggressive as food competition increases. The wooded areas along the Snohomish River corridor and in the hillside residential neighborhoods see heavier yellowjacket activity than the flatter waterfront areas. Ground nests in lawns are commonly encountered during late-season yard work. If you find an active nest, mark it and schedule professional treatment rather than attempting to treat it during peak aggression season.",
+      },
+      {
+        question: "Are brown marmorated stink bugs a new problem in Everett?",
+        answer:
+          "Brown marmorated stink bugs have been establishing across western Washington over the past decade and are now a consistent fall pest in the greater Puget Sound area, including Everett. WSDA has documented their presence statewide. The agricultural landscape of the Snohomish River valley east of Everett contributes above-average stink bug populations. Sealing exterior gaps before September and applying a perimeter treatment on south-facing walls are the effective preventive steps.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Marysville", slug: "marysville" },
+      { name: "Mukilteo", slug: "mukilteo" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Everett, WA | Norway Rats, Carpenter Ants & Yellowjackets",
+    metaDescription:
+      "Everett pest control for Norway rats, carpenter ants, odorous house ants, yellowjackets and stink bugs. Snohomish County Boeing waterfront Puget Sound specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kent",
+    name: "Kent",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T2",
+    population: "~130,000",
+    county: "King County",
+    climate: "temperate",
+    climateDriver:
+      "Kent sits in south King County in the Green River valley, with the Pacific Northwest's temperate maritime climate: mild, wet winters and warm, dry summers. The Green River runs through the center of Kent's valley floor, and the logistics and warehouse district that lines the valley on both sides of the river creates one of the most significant industrial pest environments in the Puget Sound area. Kent is one of the largest warehousing and distribution hubs in the Pacific Northwest, and that commercial activity sustains rat populations in the valley that press into the residential areas on the east and west hillsides. The heavy winter rainfall keeps soil and structural wood moisture elevated.",
+    topPests: ["Norway Rats", "Odorous House Ants", "Carpenter Ants", "Yellowjackets", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak pressure in fall and winter",
+        note: "Norway rats are a consistent and significant pest in Kent's Green River valley and in the residential neighborhoods adjacent to the warehouse and logistics district. The warehouses, food distribution centers, and the Green River riparian corridor create an extensive rat harborage and food source environment. King County has documented rat pressure in the Green River valley as an ongoing urban pest management concern.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active year-round, most visible after rain events",
+        note: "Odorous house ants are the most common ant species in Kent's residential neighborhoods, both in the valley floor areas and on the east and west hillside communities. The Pacific Northwest's mild, wet climate keeps them active nearly year-round. They move indoors in large numbers after heavy rain events when outdoor nesting areas flood. WSU Extension identifies odorous house ants as the dominant ant pest in the greater Puget Sound area.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, visible indoors in spring",
+        note: "Carpenter ants are a structural concern in Kent's hillside residential neighborhoods, where the Douglas fir and cedar forest habitat provides abundant outdoor colony sites and the wet winters create elevated structural wood moisture. WSU Extension identifies the Pacific Northwest's moisture-rich climate as the primary driver of carpenter ant establishment in regional structures.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active May through October, peak aggression August and September",
+        note: "Yellowjackets are a consistent late-summer pest in Kent's hillside residential neighborhoods and the wooded areas along the Green River. Ground nests in yards and parks, and wall void nests in older homes, are both common. The heavily wooded hillside neighborhoods east and west of the valley see more yellowjacket activity than the flat warehouse district.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, push into structures in fall",
+        note: "Roof rats are present throughout Kent's hillside neighborhoods and the residential areas adjacent to the Green River. They travel through tree canopy and along utility lines and enter homes at roofline level. The mature landscaping in Kent's established Scenic Hill, Lake Meridian, and Panther Lake neighborhoods provides year-round arboreal habitat.",
+      },
+    ],
+    localHook:
+      "Kent's Green River valley is one of the most concentrated warehouse and logistics districts in the Pacific Northwest, home to distribution centers for major retailers, food distributors, and manufacturing operations. That concentration of commercial activity along both sides of the Green River creates a valley-floor rat population that is among the most dense in King County. The residential neighborhoods on the east hillside (Scenic Hill, Lake Meridian) and west hillside (Panther Lake) sit above the valley and receive constant pressure from the valley-floor rat population moving upward along drainage corridors.",
+    intro:
+      "Pest control in Kent is shaped by the Green River valley's unique combination of industrial logistics and Pacific Northwest residential environment. Norway and roof rats thrive in the warehouse district and the Green River riparian corridor, pressing into hillside residential neighborhoods via drainage corridors. Odorous house ants move indoors in large numbers after the Pacific Northwest's frequent winter rain events. Carpenter ants are a spring structural concern in the hillside neighborhoods' wooded, moisture-rich environment. Yellowjackets peak in August in the wooded parks and residential properties adjacent to the Green River.",
+    sections: [
+      {
+        heading: "Rat control in the Green River valley",
+        body: "Kent's Green River valley warehouse and logistics district is one of the largest in the Pacific Northwest, and the food distribution, manufacturing, and commercial operations along both sides of the river create a concentrated rat environment. Norway rats follow food and water, and the valley floor provides both in abundance. They move outward from the warehouse district into adjacent residential areas along drainage corridors, storm drain systems, and the Green River riparian zones. For Kent hillside residents on Scenic Hill, at Lake Meridian, and in the Panther Lake area, the valley floor rat population is a source that continuously re-pressures properties regardless of what is done at the individual property level. The most durable residential protection combines building exclusion, sealing foundation gaps and crawl space entries, with harborage reduction on the property and monitoring with bait stations. A sustained approach that treats exclusion as maintenance rather than a one-time fix gives the best long-term results in a high-pressure environment like the Green River valley.",
+      },
+      {
+        heading: "Odorous house ants and the Pacific Northwest rain cycle",
+        body: "Odorous house ants are a near-year-round pest in Kent because of the Pacific Northwest's mild climate. They become most visible indoors after significant rain events, particularly in fall and winter, when outdoor nesting areas become saturated and colonies move into the shelter of heated structures. WSU Extension's Pacific Northwest pest management guide notes that odorous house ants are the top ant pest complaint across the greater Puget Sound area. In Kent, the combination of the valley's heavy winter rainfall and the hillside neighborhoods' clay-heavy soils, which drain slowly and stay moist, creates ideal conditions for large outdoor ant populations that push indoors frequently. Bait-based programs placed along foraging trails and at structural entry points reduce the colony progressively over several applications. Spray disrupts visible foragers temporarily but does not address the nest, and the colony simply sends replacement foragers.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, crawl space entries, and sewer pipe penetrations to block Norway rat entry from the Green River valley drainage system.",
+      "Apply odorous house ant bait along interior baseboards and exterior foraging trails after heavy rain events.",
+      "Inspect crawl spaces and moisture-prone wood areas annually in spring for carpenter ant activity given the Pacific Northwest wet season.",
+      "Trim tree branches at least six feet from the roofline to deny roof rats their primary access route.",
+    ],
+    costNote:
+      "Kent pest services start with a free inspection. Rat programs for valley-adjacent properties include exclusion assessment plus bait station monitoring and are priced after an on-site inspection. Odorous house ant programs are quarterly with year-round coverage. Carpenter ant programs include moisture assessment. Roof rat programs include exclusion and trapping. Yellowjacket treatment is per nest.",
+    faqs: [
+      {
+        question: "Why are rats so bad in Kent's Green River valley area?",
+        answer:
+          "The Green River valley's concentration of warehouses, food distribution centers, and commercial operations creates one of the most significant rat environments in King County. Norway rats follow food and water, and the valley floor provides both at scale. They move outward from the commercial core along drainage corridors into adjacent residential neighborhoods. Properties on the hillsides above the valley (Scenic Hill, Lake Meridian, Panther Lake) receive continuous pressure from the valley-floor population. Exclusion combined with monitoring is more durable than bait alone in this high-pressure environment.",
+      },
+      {
+        question: "How often do odorous house ants push indoors in Kent?",
+        answer:
+          "In Kent's Pacific Northwest climate, the most pronounced indoor ant events follow heavy rain, which is frequent in fall and winter. Outdoor nesting areas become saturated and colonies move toward interior shelter. WSU Extension identifies odorous house ants as the top ant pest in the Puget Sound area. They can push indoors multiple times per season. Bait-based programs reduce the colony progressively; reactive spray-only approaches produce only temporary relief.",
+      },
+      {
+        question: "Are roof rats different from Norway rats in Kent?",
+        answer:
+          "Yes. Norway rats are ground dwellers that burrow and are common in the valley floor warehouse and riparian areas. Roof rats are arboreal: they climb trees, fences, and utility lines and enter homes at roofline level. Kent's hillside neighborhoods with their mature landscaping see roof rat activity in addition to Norway rat pressure from the valley. Signs differ: Norway rats leave burrows near foundations; roof rats leave evidence in attics and at roofline entry points.",
+      },
+      {
+        question: "When are yellowjackets most active near Kent's Green River parks?",
+        answer:
+          "August and September are the peak months. The wooded areas along the Green River and in the hillside neighborhood parks sustain ground nest populations that peak in late summer when colony size is maximum and workers are most aggressive. Ground nests near park paths or in frequently used yard areas should be treated professionally rather than approached during peak aggression season. Marking the nest location clearly is the first safe step if you discover one.",
+      },
+      {
+        question: "Are carpenter ants a structural risk on Kent's hillsides?",
+        answer:
+          "Yes. The forested hillside neighborhoods of east and west Kent have the combination of mature conifers and deciduous trees, wet Pacific Northwest winters, and older residential construction that creates significant carpenter ant conditions. WSU Extension identifies moisture as the primary driver, and the Kent hillsides' clay soils and heavy rainfall keep moisture elevated in structural wood through most of the year. Annual inspection of crawl spaces and any moisture-prone wood around windows and soffits is a practical preventive step.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Renton", slug: "renton" },
+      { name: "Auburn", slug: "auburn" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Kent, WA | Norway Rats, Odorous Ants & Carpenter Ants",
+    metaDescription:
+      "Kent pest control for Norway rats, odorous house ants, carpenter ants, yellowjackets and roof rats. King County Green River valley logistics district specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -428,4 +428,216 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Ann Arbor pest control for house mice, carpenter ants, German cockroaches, yellowjackets and cellar spiders. Washtenaw County University of Michigan city specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "sterling-heights",
+    name: "Sterling Heights",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T2",
+    population: "~135,000",
+    county: "Macomb County",
+    climate: "cold-humid",
+    climateDriver:
+      "Sterling Heights sits in Macomb County north of Detroit, with a Great Lakes cold-humid climate that delivers cold, snowy winters and warm, humid summers. As one of Michigan's largest suburbs, Sterling Heights has a mix of residential neighborhoods and industrial corridors that produce a specific pest profile. The cold winters drive house mice and stink bugs firmly into heated structures, while the Macomb County agricultural fringe to the east contributes to heavier stink bug and boxelder bug populations than you see in the more urbanized areas closer to Detroit. The Clinton River flows through the city, adding mosquito breeding habitat along its corridor.",
+    topPests: ["House Mice", "Brown Marmorated Stink Bugs", "German Cockroaches", "Boxelder Bugs", "Odorous House Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March, active year-round once inside",
+        note: "House mice are the most common residential pest complaint in Sterling Heights each fall. Michigan State University Extension identifies mice as the primary rodent pest complaint across southeastern Michigan. The city's mix of newer and established residential construction offers mice a range of entry opportunities, from the settled foundations of older homes near the Van Dyke corridor to the poorly sealed utility penetrations common in homes built through the rapid growth period of the 1980s and 1990s.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter indoors",
+        note: "Stink bugs arrive in Sterling Heights in large numbers each fall from the surrounding Macomb County agricultural and nursery landscape. The orchards, nurseries, and vegetable farms to the north and east of Sterling Heights produce large stink bug populations that move en masse into structures as temperatures drop in September. Sterling Heights residents in the northern neighborhoods adjacent to the more rural areas of Macomb County see the heaviest annual invasions.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a persistent concern in Sterling Heights' apartment complexes and commercial food service establishments along the Van Dyke and Schoenherr corridors. The city's proximity to Detroit, which has significant German cockroach pressure in its multi-family housing, means the suburban apartment stock sees consistent cockroach introductions through tenant movement.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November entry, overwinter in wall voids",
+        note: "Boxelder bugs aggregate on the south- and west-facing walls of Sterling Heights homes each fall, seeking overwintering sites. The city's residential tree canopy includes boxelder trees in many neighborhoods, which sustain local populations. Larger numbers arrive from the agricultural and nursery landscape north of the city.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October, push indoors during cold and rain events",
+        note: "Odorous house ants are the most common ant complaint in Sterling Heights residential properties. They nest in wall voids and under slab edges and forage in kitchens for sweets. Their distinctive rotten-coconut smell when crushed is the identification cue. They move indoors consistently during cold snaps and after heavy summer rain events.",
+      },
+    ],
+    localHook:
+      "Sterling Heights sits directly in the path of the fall stink bug movement from Macomb County's nursery and orchard belt to the north and east. The brown marmorated stink bug's arrival in Michigan in the early 2000s hit the agricultural communities north of Sterling Heights hard first, and those agricultural populations still supply the suburban invasion waves that arrive in September each year. Northern Sterling Heights neighborhoods see heavier stink bug entry than anywhere else in the Detroit metropolitan area.",
+    intro:
+      "Pest control in Sterling Heights follows the Macomb County rhythm of cold-weather invaders and summer pests. October brings the double push: house mice moving into heated structures as outdoor temperatures drop, and stink bugs aggregating on south-facing walls before working their way into wall voids. German cockroaches are a year-round concern in the apartment and commercial food service stock along the major corridors. Boxelder bugs arrive with the stink bugs in September. Odorous house ants are the persistent warm-season ant of Sterling Heights' residential neighborhoods.",
+    sections: [
+      {
+        heading: "The fall double push: mice and stink bugs",
+        body: "Sterling Heights homeowners deal with two simultaneous fall pest events that require different management approaches. House mice begin moving into heated structures in October, entering through gaps in foundations and utility penetrations that are often invisible from the outside. At the same time, brown marmorated stink bugs aggregate on the exterior of homes in September and begin finding their way into wall voids through gaps around windows, utility penetrations, and at the junction of different exterior materials. These two events are biologically unrelated but practically concurrent, meaning fall is the critical action window for both. Mouse exclusion work (sealing foundation gaps with metal-based materials) and stink bug exclusion work (sealing window frame gaps and utility penetrations) overlap significantly in terms of where the gaps are, so a comprehensive fall exclusion inspection addresses both threats in one pass.",
+      },
+      {
+        heading: "Stink bug invasion patterns in northern Sterling Heights",
+        body: "Sterling Heights' northern neighborhoods, the areas closest to the Macomb County agricultural fringe north of 19 Mile Road and toward the communities of Shelby Township and Utica, see heavier stink bug invasions than the more urbanized southern sections of the city. The orchards, nurseries, and vegetable operations in that agricultural belt produce stink bug populations that are orders of magnitude larger than the urban resident population. As temperatures drop in September, those agricultural populations move south and west into Sterling Heights residential structures. The practical window for stink bug prevention is August through mid-September: sealing gaps around window frames, at utility penetrations, and at the junction of siding with the foundation before the bugs begin aggregating. Once they are inside wall voids, removal without crushing them (and releasing the odor that gives them their name) requires specific approaches.",
+      },
+    ],
+    prevention: [
+      "Complete mouse exclusion work in September, sealing foundation gaps and utility penetrations with metal-based materials before the October push.",
+      "Seal window frame gaps and utility line entries on south- and west-facing walls before mid-September to limit stink bug and boxelder bug entry.",
+      "Keep indoor food in sealed containers and address dripping fixtures to remove German cockroach incentives in kitchens and bathrooms.",
+      "Apply odorous house ant bait along foraging trails in spring and after heavy summer rain events.",
+    ],
+    costNote:
+      "Sterling Heights pest services start with a free inspection. Fall exclusion programs cover both mice and stink bug entry points and are most effective when completed in August or September. Mouse programs include exclusion plus trapping. Stink bug treatments are a perimeter application plus sealing work. Cockroach programs in multi-family units require gel bait with follow-up visits. Ant programs are quarterly.",
+    faqs: [
+      {
+        question: "Why are stink bugs so much worse in northern Sterling Heights?",
+        answer:
+          "The northern neighborhoods of Sterling Heights are adjacent to the agricultural and nursery belt of Macomb County, which extends north through Shelby Township and Utica. That agricultural landscape produces stink bug populations at densities far higher than the urban residential population. When fall arrives, those agricultural populations move south into residential structures. Homes within a mile or two of active nurseries and orchards see the heaviest invasions. Sealing exterior gaps before September is the most effective response.",
+      },
+      {
+        question: "How do I tell mice from stink bugs as an entry pest?",
+        answer:
+          "They are different problems with some overlapping solutions. Mice leave droppings, gnaw marks, and nesting material. Stink bugs leave clusters of live bugs in wall voids or near windows and produce a distinctive odor when disturbed or crushed. Both enter through gaps in the building envelope, so a thorough fall exclusion inspection often finds entry points relevant to both. The sealing work for one benefits the other. If you are seeing both, a combined exclusion program addresses the shared entry points efficiently.",
+      },
+      {
+        question: "Are German cockroaches a problem in Sterling Heights single-family homes?",
+        answer:
+          "German cockroaches are primarily a problem in multi-family housing and commercial food service in Sterling Heights. Single-family homes occasionally encounter them when cockroaches are introduced in boxes, used appliances, or bags from an infested source. Once introduced, they breed rapidly in warm, moist kitchen and bathroom areas. Gel bait treatment in harborage areas is far more effective than spray. A single-family home infestation that is caught early is much easier to resolve than a building-wide apartment complex problem.",
+      },
+      {
+        question: "When do mice get into Sterling Heights homes?",
+        answer:
+          "The primary push begins in October when outdoor temperatures consistently drop below 50 degrees. Michigan winters make heated buildings essential for mice, and the push continues through November. Sterling Heights homes built in the 1980s and 1990s growth period often have utility penetrations that were sealed at construction but have since deteriorated. A professional exclusion inspection in September identifies those gaps before the mice do. Trapping removes the mice already inside; exclusion prevents new ones from entering.",
+      },
+      {
+        question: "What are odorous house ants and why do they smell?",
+        answer:
+          "Odorous house ants are a small brown ant species that releases a chemical that smells like rotten coconut when crushed. They are not harmful but are persistent foragers in Sterling Heights kitchens. They nest in wall voids and under slab edges and send workers inside seeking sweets. They move indoors during cold snaps and after heavy rain events when outdoor foraging becomes difficult. Slow-acting bait that workers carry back to the colony is more effective than spray, which kills foragers without addressing the nest.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Warren", slug: "warren" },
+      { name: "Utica", slug: "utica" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Sterling Heights, MI | Mice, Stink Bugs & Cockroaches",
+    metaDescription:
+      "Sterling Heights pest control for house mice, brown marmorated stink bugs, German cockroaches, boxelder bugs and odorous house ants. Macomb County Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "warren",
+    name: "Warren",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T2",
+    population: "~136,000",
+    county: "Macomb County",
+    climate: "cold-humid",
+    climateDriver:
+      "Warren is the largest suburb in Michigan by population, sitting directly north of Detroit in Macomb County with a classic Great Lakes cold-humid climate. Cold winters are genuinely cold, with regular sub-zero periods that drive mice and cockroaches firmly into heated structures. Warm, humid summers activate carpenter ants, yellowjackets, and odorous house ants. Warren's dense industrial and residential mix, anchored by the General Motors Technical Center and extensive manufacturing operations, creates a specific urban pest profile where rodent pressure from commercial and industrial properties spills into the surrounding residential streets.",
+    topPests: ["House Mice", "German Cockroaches", "Brown Marmorated Stink Bugs", "Carpenter Ants", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March, active year-round once inside",
+        note: "House mice are the dominant pest complaint in Warren each fall. The cold Michigan winters make heated buildings essential, and Warren's housing stock, which ranges from post-war bungalows near the Detroit border to newer construction in the northern sections, has the full range of entry vulnerabilities. Michigan State University Extension consistently identifies mice as the top rodent pest in southeastern Michigan.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a persistent concern in Warren's apartment buildings and the commercial food service establishments along the Van Dyke, Dequindre, and 13 Mile Road corridors. Warren's proximity to Detroit, which has significant German cockroach pressure in its multi-family housing, means the suburban apartment stock sees consistent cockroach introductions through tenant and goods movement.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter in wall voids",
+        note: "Stink bugs arrive in Warren each fall, particularly in the northern sections of the city nearer to the Macomb County agricultural fringe. They aggregate on south- and west-facing walls in September before working their way into wall voids through gaps around windows and utility penetrations. Once inside, they overwinter in wall voids and emerge on warm winter days toward light sources.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, visible indoors in spring",
+        note: "Carpenter ants are a consistent structural concern in Warren's older residential neighborhoods near the Detroit border, where the mature street tree canopy and older wood-frame homes with moisture-prone sills and soffits provide ideal colony conditions. Finding large black ants indoors in April or May is the typical indicator of an established nearby colony.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active June through October, peak aggression August and September",
+        note: "Yellowjackets are a consistent late-summer pest in Warren's residential yards. They build ground nests throughout the residential neighborhoods and aerial nests under eaves and in wall voids of older homes along the Warren-Detroit border. The peak risk period is August and September when colony size is largest and workers are most aggressive.",
+      },
+    ],
+    localHook:
+      "Warren's industrial character, anchored by the General Motors Technical Center and extensive manufacturing operations along the Van Dyke corridor, creates a commercial pest environment that differs from a purely residential suburb. Industrial food service, break rooms, and the food-adjacent operations in manufacturing plants sustain cockroach and rodent populations that press into the surrounding residential streets. Residents near the major commercial and industrial corridors see heavier rodent and cockroach pressure than those in the quieter residential sections.",
+    intro:
+      "Pest control in Warren mirrors the industrial-residential character of Michigan's largest suburb. House mice push hard into every structure in the city each October as the Great Lakes winter sets in, entering through the full range of gap types that Warren's varied housing stock provides. German cockroaches are a year-round concern in apartment buildings and commercial kitchens near the major commercial corridors. Stink bugs arrive from the north each September. Carpenter ants are a spring structural concern in the older neighborhoods near Detroit. Yellowjackets peak in August in residential yards throughout the city.",
+    sections: [
+      {
+        heading: "Fall exclusion: the most effective mouse prevention strategy",
+        body: "Warren's fall mouse surge arrives in October and runs through November, driven by Michigan's cold winters making any heated structure attractive to mice. The city's housing stock covers a wide range: the older post-war bungalows in the neighborhoods near the 8 Mile Road Detroit border have settled foundations with cracked mortar and deteriorated utility penetrations, while the newer construction in northern Warren near 19 Mile Road has the subtler entry points of inadequate caulking and garage door seal gaps. Mice need only a gap the diameter of a pencil. The most effective prevention is a professional exclusion inspection in September that identifies and seals every entry point before the cold arrives. Metal-based sealing materials are essential in Warren's climate: standard foam sealant cracks under the freeze-thaw cycles of a Michigan winter, reopening the gaps that were just sealed. Trapping removes the mice that have already entered; exclusion stops new ones from following.",
+      },
+      {
+        heading: "Commercial corridor pest pressure in residential Warren",
+        body: "Warren's major commercial and industrial corridors, particularly along Van Dyke Avenue, Dequindre Road, and the Warren Industrial Park, sustain rodent and cockroach populations at levels that typical residential suburbs do not see. The food service operations, the restaurant density along these corridors, and the industrial food and waste environments in the manufacturing facilities create a year-round food source for rats and German cockroaches. Those populations expand outward along the commercial corridors into the adjacent residential streets. Residents within a block or two of major commercial operations see heavier rodent and cockroach pressure than residents in the quieter residential interior. For these properties, a year-round rodent monitoring program and quarterly perimeter treatment provides the most reliable protection.",
+      },
+    ],
+    prevention: [
+      "Schedule a mouse exclusion inspection in September and seal all gaps with metal-based materials before the October cold-weather push.",
+      "Keep garbage in sealed containers and clear harborage near the property line if you are near commercial or industrial corridors.",
+      "Seal window frame gaps and utility line entries on south-facing walls before September to limit stink bug entry.",
+      "Inspect wood around leaky windows and soffits annually for moisture damage that attracts carpenter ants.",
+    ],
+    costNote:
+      "Warren pest services start with a free inspection. Fall exclusion programs are most cost-effective when completed in August or September. Mouse programs include exclusion and trapping. Cockroach programs in multi-family buildings use gel bait with scheduled follow-ups. Stink bug perimeter treatment is applied in August. Yellowjacket treatment is quoted per nest.",
+    faqs: [
+      {
+        question: "Why do mice keep coming back to my Warren home every fall?",
+        answer:
+          "The annual fall surge is driven by Michigan's cold winters making heated buildings essential. Mice return each fall because the entry points in aging foundations, utility penetrations, and garage door seals are never fully closed. House mice enter through gaps as small as a quarter inch. Standard foam sealant cracks under Warren's freeze-thaw cycles and opens new entries each season. Metal-based sealing materials hold through the winter. A professional exclusion inspection in September that seals every entry point is the most effective way to break the annual cycle.",
+      },
+      {
+        question: "Is my Warren home at higher risk if I live near Van Dyke or Dequindre?",
+        answer:
+          "Yes, to a degree. The major commercial and industrial corridors sustain rodent populations at higher densities than purely residential areas, and those populations press outward into adjacent residential streets. If your property backs onto or is within a block of a major commercial corridor or a restaurant cluster, you will generally see higher rodent and cockroach pressure than properties in the residential interior. A year-round monitoring program with perimeter treatment is the appropriate response for those properties.",
+      },
+      {
+        question: "What should I do when I see stink bugs in my Warren home in winter?",
+        answer:
+          "Stink bugs that appear indoors in winter are overwintering in your wall voids and have found their way toward light or warmth. They are not reproducing indoors. The most important thing is not to crush them, which releases the defensive odor. Vacuum them up with a vacuum cleaner and dispose of the bag outside. The underlying issue is that they found entry points last fall when they first aggregated on the exterior. Sealing those gaps in August or September before they start aggregating is the preventive step for next year.",
+      },
+      {
+        question: "When do carpenter ants become visible in Warren homes?",
+        answer:
+          "April and May are the peak period when carpenter ants emerge and forage indoors. If you see large black ants consistently emerging from the same location indoors in spring, that indicates an established colony nearby, likely in moisture-damaged wood. Occasional ants foraging in from outside in summer are less concerning than a consistent indoor trail in spring. A professional inspection in May can probe the suspect areas and identify whether you have an established structural colony or foragers from an outdoor colony.",
+      },
+      {
+        question: "Are yellowjacket stings dangerous in Warren?",
+        answer:
+          "Yellowjacket stings are painful for everyone and can be life-threatening for people with a venom allergy. Most stings occur when a nest is disturbed unexpectedly, either by lawn work near a ground nest or by reaching near a wall void nest. In Warren, August and September are the highest-risk months because colony size is at its peak and workers are most aggressive. If you discover a ground nest, mark the area clearly and arrange professional treatment. Attempting to treat an active yellowjacket nest yourself in peak season invites a significant defensive response.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Sterling Heights", slug: "sterling-heights" },
+      { name: "Clinton Township", slug: "clinton-township" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Warren, MI | Mice, Cockroaches & Stink Bugs",
+    metaDescription:
+      "Warren pest control for house mice, German cockroaches, brown marmorated stink bugs, carpenter ants and yellowjackets. Macomb County Detroit suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

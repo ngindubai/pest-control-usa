@@ -216,4 +216,110 @@ export const massachusettsCities: CityLocation[] = [
     metaDescription:
       "Worcester pest control for house mice, carpenter ants, bed bugs, German cockroaches and stink bugs. Triple-decker and older housing specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "springfield",
+    name: "Springfield",
+    state: "Massachusetts",
+    stateSlug: "massachusetts",
+    stateAbbr: "MA",
+    tier: "T2",
+    population: "~155,000",
+    county: "Hampden County",
+    climate: "cold-humid",
+    climateDriver:
+      "Springfield sits in the Connecticut River valley in western Massachusetts, with a cold-humid New England climate. The Connecticut River creates a natural corridor through the center of the city and contributes to the mosquito habitat and the riverside rodent pressure that affects downtown and the South End neighborhoods. The city's large stock of older three-decker and multi-family housing, built during the industrial era when Springfield was a manufacturing center, creates ideal conditions for German cockroaches, house mice, and bed bugs. Brown marmorated stink bugs have established strongly in the Connecticut River valley and arrive in large numbers each fall.",
+    topPests: ["Carpenter Ants", "House Mice", "Yellowjackets", "Bed Bugs", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, visible indoors in spring",
+        note: "Carpenter ants are one of the most consistent structural pests in Springfield. The city's older housing stock throughout Forest Park, the South End, and the Indian Orchard neighborhoods has the moisture-prone wood and mature tree canopy that carpenter ant colonies need. The Connecticut River's elevated humidity adds to the moisture conditions that sustain carpenter ant establishment in structural wood throughout these neighborhoods.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through March, active year-round once inside",
+        note: "House mice are a consistent fall pest in Springfield's older residential neighborhoods. New England's cold winters drive mice hard into heated structures, and Springfield's large stock of older multi-family buildings and triple-deckers, with their aging foundations and shared wall penetrations, provides extensive entry and movement opportunities. The downtown and South End neighborhoods near the Connecticut River see year-round pressure from the riverside rodent population.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active June through October, peak aggression August and September",
+        note: "Yellowjackets are a consistent late-summer pest in Springfield's residential neighborhoods and parks. Ground nests in yards and wall void nests in older homes throughout Forest Park and the Hill neighborhoods are the most common types. August and September are the peak risk period when colonies reach maximum size and workers are most aggressive.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bug activity in Springfield is elevated relative to many New England cities, driven by the density of older multi-family rental housing and the frequent tenant turnover in the South End and North End neighborhoods. Springfield's community health programs have identified bed bugs in public housing and shelter facilities as a recurring management concern.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter in wall voids",
+        note: "Brown marmorated stink bugs have established strongly in the Connecticut River valley and arrive at Springfield homes in significant numbers each fall. The fruit orchards and agricultural land in the Pioneer Valley north and south of Springfield contribute to above-average stink bug populations. They aggregate on south-facing walls in September before working into wall voids through gaps around windows and at utility penetrations.",
+      },
+    ],
+    localHook:
+      "Springfield's Connecticut River valley location puts it at the center of the Pioneer Valley's apple and pear orchard country, and that agricultural backdrop drives a stink bug invasion each fall that is noticeably heavier than what most New England cities of comparable size experience. The orchards north toward Northampton and Amherst and south toward Longmeadow produce stink bug populations that move into Springfield residential areas each September.",
+    intro:
+      "Pest control in Springfield reflects both the city's industrial New England housing heritage and its Connecticut River valley agricultural surroundings. Carpenter ants are a spring structural concern in the older housing throughout Forest Park and the South End, where moisture-prone wood and mature tree canopy sustain established colonies. House mice push into structures each fall through the aging foundations and shared wall penetrations of the older multi-family stock. Yellowjackets peak in August. Bed bugs are an elevated concern in the rental housing market. Brown marmorated stink bugs arrive from the Pioneer Valley orchards each September in numbers that consistently surprise new residents.",
+    sections: [
+      {
+        heading: "Carpenter ants in Springfield's Forest Park neighborhoods",
+        body: "Forest Park, Springfield's largest and most established residential neighborhood, has the combination of mature tree canopy, older wood-frame construction, and the moisture conditions common along the Connecticut River valley that makes carpenter ant establishment almost predictable in homes with any ongoing moisture issue. Carpenter ants excavate galleries in wood that has been softened by moisture damage. They do not eat the wood; they use it for nesting. The target areas in Springfield's Forest Park and Sixteen Acres neighborhoods are sills near leaky windows, soffits with poor drainage, deck ledger boards with failing flashing, and framing around plumbing that sweats. Finding large black ants consistently emerging from the same indoor location in April or May is the most reliable indicator of an established colony inside the structure. Treatment addresses the colony; addressing the moisture source prevents recurrence.",
+      },
+      {
+        heading: "Stink bugs and the Pioneer Valley orchard connection",
+        body: "Springfield's stink bug problem is directly connected to the Pioneer Valley's agricultural landscape. The apple, pear, and peach orchards that extend north toward Northampton and Amherst and south through Longmeadow and Agawam produce large stink bug populations by late summer. When temperatures drop in September, those agricultural populations move into structures. Springfield, positioned in the center of the valley, receives pressure from both directions. The Connecticut River corridor also provides a natural movement highway. The prevention window is mid-August through mid-September: sealing gaps around window frames, at utility penetrations, and at the junction of siding with the foundation before stink bugs begin aggregating on walls. A perimeter insecticide application on south- and west-facing walls before September complements the sealing work.",
+      },
+    ],
+    prevention: [
+      "Schedule a spring carpenter ant inspection in May for any home in Forest Park or the South End with older wood-frame construction.",
+      "Seal foundation gaps and utility penetrations in September before the October mouse push, using metal-based materials.",
+      "Seal window and utility gaps before mid-September to limit stink bug entry from the Pioneer Valley orchard population.",
+      "Inspect second-hand furniture carefully before bringing it into the home to prevent bed bug introductions.",
+    ],
+    costNote:
+      "Springfield pest services start with a free inspection. Carpenter ant programs include moisture assessment and are best scheduled in spring. Mouse programs cover exclusion and trapping. Stink bug perimeter treatment is applied in late August. Bed bug programs are quoted by method and property size. Yellowjacket treatment is quoted per nest.",
+    faqs: [
+      {
+        question: "Why are carpenter ants so common in Springfield's older neighborhoods?",
+        answer:
+          "Springfield's older neighborhoods, particularly Forest Park and the South End, have the combination of mature tree canopy, older wood-frame construction, and the elevated humidity of the Connecticut River valley that creates sustained carpenter ant conditions. Any moisture issue in structural wood, from a leaky window to poor drainage at a soffit, creates a nesting opportunity. Treating the colony addresses the immediate problem; finding and fixing the moisture source is what prevents it from recurring the following spring.",
+      },
+      {
+        question: "Why do so many stink bugs get into Springfield homes in fall?",
+        answer:
+          "Springfield sits in the center of the Pioneer Valley, surrounded by the apple, pear, and peach orchards that extend from Northampton through Agawam. Those orchards produce large stink bug populations that move into structures each September when temperatures drop. Springfield receives pressure from both north and south, and the Connecticut River corridor provides a natural movement highway. Sealing exterior gaps before mid-September and applying a perimeter treatment on south-facing walls are the most effective preventive steps.",
+      },
+      {
+        question: "Are bed bugs common in Springfield rentals?",
+        answer:
+          "Yes. Springfield's older multi-family housing in the South End and North End has the combination of high rental density and frequent tenant turnover that sustains bed bug activity at above-average levels for a New England city of its size. Inspecting second-hand furniture before bringing it home and knowing the signs, dark spots on mattress seams and a sweet musty odor, are the most practical preventive steps for renters.",
+      },
+      {
+        question: "When do mice push into Springfield homes?",
+        answer:
+          "October is the main push month. New England winters make heated buildings essential for mice, and Springfield's older multi-family housing has the aging foundations and shared wall penetrations that provide easy entry and movement between units. The Connecticut River corridor also sustains a riverside rodent population that contributes to downtown and South End pressure year-round. A professional exclusion inspection in September is the most effective preventive approach.",
+      },
+      {
+        question: "How dangerous are yellowjacket stings in Springfield?",
+        answer:
+          "Yellowjacket stings are painful and can be life-threatening for people with a venom allergy. Most stings occur when a nest is disturbed unexpectedly. In Springfield, August and September are the highest-risk months because colony size is at its peak and workers are most aggressive. Ground nests in yards are commonly encountered during lawn maintenance. If you discover an active nest near a high-traffic area of the yard, mark it clearly and schedule professional treatment before disturbing the area further.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Worcester", slug: "worcester" },
+      { name: "Hartford", slug: "hartford" },
+      { name: "Providence", slug: "providence" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Springfield, MA | Carpenter Ants, Mice & Stink Bugs",
+    metaDescription:
+      "Springfield pest control for carpenter ants, house mice, yellowjackets, bed bugs and brown marmorated stink bugs. Hampden County Pioneer Valley Connecticut River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

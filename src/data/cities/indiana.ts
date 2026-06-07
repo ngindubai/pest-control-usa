@@ -228,4 +228,110 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "Fort Wayne pest control for house mice, carpenter ants, stink bugs, mosquitoes and German cockroaches. Allen County three-rivers corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "evansville",
+    name: "Evansville",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T2",
+    population: "~117,000",
+    county: "Vanderburgh County",
+    climate: "hot-humid",
+    climateDriver:
+      "Evansville sits in Vanderburgh County in the southwestern corner of Indiana on the Ohio River, with one of Indiana's warmest climates. The city's position at the Ohio River valley floor creates a hot, humid summer environment that is closer to Kentucky's climate than to northern Indiana's. The Ohio River is the most significant ecological influence on Evansville's pest profile: it creates year-round moisture conditions that sustain subterranean termite colonies in the river valley soils, supports mosquito breeding in the floodplain areas, and sustains riverside rat populations that press into the city's residential neighborhoods. The long, warm growing season compared to Indianapolis means pests that are seasonal threats further north are active for longer in Evansville.",
+    topPests: ["Termites", "Mosquitoes", "German Cockroaches", "House Mice", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round activity, swarms in spring",
+        note: "Eastern subterranean termites are active across Vanderburgh County and the Ohio River corridor. Evansville's warm, moist climate, significantly warmer than northern Indiana, allows larger and more active termite colonies than cities in the northern part of the state. Purdue University Extension identifies the Ohio River valley as an elevated termite pressure zone within Indiana.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peak May through August",
+        note: "The Ohio River floodplain and the wetland areas in southwestern Vanderburgh County create significant mosquito breeding habitat near Evansville. The Indiana State Department of Health monitors West Nile virus statewide each summer, and Vanderburgh County has had confirmed detections. The river's backwater areas sustain breeding through dry periods when other standing water dries up.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a consistent concern in Evansville's apartment buildings and commercial food service establishments along the US-41 corridor and downtown. The city's older housing stock and the multi-family rental market near the University of Southern Indiana campus sustain German cockroach populations in the urban core.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through March, active year-round once inside",
+        note: "House mice are a fall pest in Evansville's residential neighborhoods. Indiana winters drive mice into heated structures, though Evansville's warmer Ohio River valley climate means the push is slightly later than in northern Indiana, typically October and November. The city's older neighborhoods near the river bottom have aging foundations with the entry conditions that sustain consistent mouse pressure.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through October, mounds swell after summer rain",
+        note: "Fire ants are present in Vanderburgh County and across the southwestern corner of Indiana. Evansville sits at the northern edge of the established fire ant range in the Midwest, and Purdue University Extension has documented fire ant presence in the Ohio River valley counties of Indiana. Mound activity is most visible during the warm months after rain events.",
+      },
+    ],
+    localHook:
+      "Evansville's position on the Ohio River places it at the northern fringe of the established fire ant range in the Midwest, a fact that surprises many residents who assume fire ants are a southern problem. Purdue University Extension has documented fire ant presence in Vanderburgh County and the other Ohio River counties of Indiana, noting that the warmer Ohio River valley microclimate allows the species to sustain populations at latitudes where it cannot survive inland in the state.",
+    intro:
+      "Pest control in Evansville reflects the city's unique position at the Ohio River valley floor in Indiana's warmest corner. Subterranean termites are active year-round in the river valley's moist soils, at higher pressure than northern Indiana. Mosquitoes breed in the Ohio River floodplain and the southwestern Vanderburgh County wetlands through the summer. German cockroaches are a year-round concern in the older multi-family housing and commercial corridors. House mice push in from October. Fire ants, present at the northern edge of their established Midwest range, are active through the warm months in Vanderburgh County lawns.",
+    sections: [
+      {
+        heading: "Termite risk in the Ohio River valley",
+        body: "The Ohio River valley has a warmer, moister microclimate than the surrounding Indiana landscape, and that climate difference produces termite pressure that is noticeably higher than you find in cities just 50 miles to the north. Purdue University Extension's pest management resources identify the Ohio River valley counties as an elevated termite zone within Indiana. Eastern subterranean termites in the Evansville area can sustain larger colonies and cause damage more rapidly than their counterparts in Fort Wayne or South Bend. Annual termite inspections are the responsible baseline for Evansville homeowners. Homes in the lower-lying neighborhoods near the Ohio River, including the older riverside districts of downtown and the west side neighborhoods near the river bottoms, face above-average termite pressure due to the consistently moist soil conditions. A liquid soil barrier treatment plus annual monitoring provides active protection.",
+      },
+      {
+        heading: "Fire ants at the Indiana frontier",
+        body: "Evansville's Vanderburgh County represents one of the northernmost areas in the Midwest where red imported fire ants have established self-sustaining populations. Purdue University Extension has confirmed fire ant presence in the Ohio River counties of Indiana, attributing the northward push to the warmer microclimate of the river valley. For Evansville homeowners, this means a pest that most Indiana residents consider a southern problem is a genuine concern in their yards. Fire ant colonies are active from May through October, with mound-building most visible after summer rain events. The Texas A&M two-step management approach, broadcast bait across the lawn followed by individual mound treatment, is effective at the Ohio River valley latitude. Mounds that are not treated may persist through mild Evansville winters, though severe cold years can reduce colony viability at this northern fringe.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given Evansville's elevated Ohio River valley termite pressure compared to the rest of Indiana.",
+      "Apply fire ant broadcast bait across the lawn in May before summer rain events trigger mound expansion.",
+      "Eliminate standing water in the Ohio River floodplain-adjacent yards and retention areas to reduce mosquito breeding.",
+      "Seal foundation gaps and utility penetrations before October to exclude mice ahead of Indiana's winter cold.",
+    ],
+    costNote:
+      "Evansville pest services start with a free inspection. Termite programs include annual monitoring plus liquid treatment and are priced after a structure assessment. Fire ant programs are twice-yearly given the Ohio River valley's longer active season. Mosquito barrier programs run April through October. Cockroach and mouse programs are quoted after inspection.",
+    faqs: [
+      {
+        question: "Are termites really that bad in Evansville compared to the rest of Indiana?",
+        answer:
+          "Yes. Purdue University Extension identifies the Ohio River valley counties, including Vanderburgh County, as an elevated termite pressure zone within Indiana. The warmer, moister microclimate of the river valley supports larger termite colonies and more rapid structural damage than the cooler areas of the state. Annual inspections and an active protection program are appropriate for all Evansville homeowners, particularly for those in the older neighborhoods near the river.",
+      },
+      {
+        question: "Are fire ants really present in Evansville?",
+        answer:
+          "Yes. Purdue University Extension has confirmed red imported fire ant presence in Vanderburgh County and the other Ohio River counties of Indiana. The warmer Ohio River valley microclimate allows fire ant populations to persist at latitudes where they cannot survive inland. Evansville homeowners should treat active mounds and apply perimeter bait in spring. Mild winters allow colonies to persist; severe winters may reduce viability, but populations recover quickly in warm springs.",
+      },
+      {
+        question: "When are mosquitoes worst in Evansville?",
+        answer:
+          "May through August are the most intense months, with the Ohio River floodplain and the southwestern Vanderburgh County wetlands providing persistent breeding habitat through dry periods. The Indiana State Department of Health monitors West Nile virus across the state, and Vanderburgh County has had confirmed detections. A monthly perimeter barrier treatment and elimination of standing water on the property are the most effective residential measures from April through October.",
+      },
+      {
+        question: "Why are German cockroaches persistent in Evansville's older apartments?",
+        answer:
+          "German cockroaches spread between units in connected apartment buildings through shared plumbing chases and wall voids. Treating one unit without coordinating adjacent units moves the cockroaches rather than reducing them. A building-wide gel bait program is more effective than spray-based approaches. Evansville's older apartment stock near downtown and the USI campus has the connected building conditions that sustain cockroach populations through tenant turnover.",
+      },
+      {
+        question: "When should I worry about mice in Evansville?",
+        answer:
+          "October and November are the primary entry months as Indiana winters arrive in the Ohio River valley. Evansville's warmer position means the push starts slightly later than in Fort Wayne or Indianapolis. The older riverside neighborhoods have aging foundations with gaps that provide reliable mouse entry year after year. A professional exclusion inspection in September, before the cold arrives, identifies and seals those entry points and breaks the annual cycle.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Owensboro", slug: "owensboro-ky" },
+      { name: "Henderson", slug: "henderson-ky" },
+      { name: "Indianapolis", slug: "indianapolis" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Evansville, IN | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Evansville pest control for subterranean termites, mosquitoes, German cockroaches, house mice and fire ants. Vanderburgh County Ohio River valley Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
