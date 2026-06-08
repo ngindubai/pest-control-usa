@@ -109,4 +109,110 @@ export const iowaCities: CityLocation[] = [
     metaDescription:
       "Des Moines pest control for house mice, boxelder bugs, carpenter ants, cockroaches and earwigs. Polk County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "cedar-rapids",
+    name: "Cedar Rapids",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T2",
+    population: "~137,000",
+    county: "Linn County",
+    climate: "cold-humid",
+    climateDriver:
+      "Cedar Rapids sits along the Cedar River with a continental climate of hot, humid summers and cold winters. The river corridor sustains moisture conditions that favor carpenter ants and earwigs, and the city's major cereal and grain processing facilities attract Norway rats. Hard winters drive house mice firmly indoors by October, and the spring thaw brings carpenter ant swarms to any moisture-damaged wood.",
+    topPests: ["House Mice", "Norway Rats", "Carpenter Ants", "German Cockroaches", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March, active year-round once established",
+        note: "Iowa State University Extension ranks mice as the most common rodent pest in Iowa homes, and the fall surge in Cedar Rapids typically begins in late September. Homes near grain storage and processing facilities see heavier than average pressure each fall.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round near food sources, most visible fall through winter",
+        note: "Cedar Rapids hosts major cereal and corn processing operations. Iowa State University Extension notes rats associated with food facilities spread into nearby residential blocks through storm drains and utility lines, placing nearby neighborhoods at higher risk than most Iowa cities.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "The 2008 Cedar River flood left moisture in many Cedar Rapids homes that pest professionals still find today. Carpenter ants exploit softened wood around foundations, window frames, and rooflines. An established indoor colony can number in the thousands and excavate significant gallery damage over several years.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant cockroach species in Cedar Rapids apartment buildings, restaurants, and food service businesses. Iowa State University Extension identifies them as the most economically significant cockroach species in Iowa, breeding entirely indoors and spreading through shared wall voids.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note: "Boxelder bugs gather on sun-facing exterior walls every fall in Cedar Rapids before pushing into wall voids for winter. Iowa State Extension confirms they are among the most frequently reported fall nuisance pests across central Iowa.",
+      },
+    ],
+    localHook:
+      "Cedar Rapids sits on the Cedar River, and the city's food processing industry combined with flood-affected older housing creates pest pressure beyond the standard Iowa seasonal pattern. Iowa State University Extension ranks mice as the top rodent pest in Iowa homes, and the Cedar Rapids fall surge starts in late September. Norway rats near the city's industrial corridors add a layer of pressure that residential streets close to those areas cannot ignore.",
+    intro:
+      "Pest control in Cedar Rapids follows Iowa's hard seasonal calendar but carries the city's own complications: food industry activity near residential neighborhoods, a Cedar River floodplain with lingering moisture in older homes, and a fall pest surge that Iowa State University Extension consistently marks as one of the most predictable events in Iowa. House mice arrive every October looking for heat. Norway rats move out from grain and cereal processing areas through the storm sewer system. Carpenter ants exploit any moisture-damaged wood left by the city's wet springs and the 2008 flood. German cockroaches maintain year-round indoor colonies in apartment buildings and commercial kitchens, and boxelder bugs deliver the most visible fall spectacle.",
+    sections: [
+      {
+        heading: "Norway rats and the food industry connection",
+        body: "Cedar Rapids is a major food processing hub with cereal and grain facilities operating in the city's industrial corridors. Norway rats near these operations are a persistent population, and Iowa State University Extension notes they spread into residential areas through storm drains and utility lines. Homes within a few blocks of food processing zones or along sewer corridors see rat pressure that most Iowa cities do not. The practical response is the same as with any rodent: seal exterior gaps, eliminate harborage, and address interior access points. In Cedar Rapids, professional monitoring near industrial adjacencies is worth starting before a visible problem appears.",
+      },
+      {
+        heading: "Carpenter ants in flood-affected housing",
+        body: "The 2008 Cedar River flood inundated large parts of the city and left moisture in walls, subfloors, and foundations that has supported carpenter ant activity for years afterward. Carpenter ants excavate galleries in softened or damp wood, and an established colony causes real structural damage over time. The most common signs are coarse sawdust near windowsills, door frames, or baseboards, and large black ants appearing indoors in winter or early spring. Finding carpenter ants indoors in winter almost always means an active colony inside the structure rather than foragers from outside. Treatment needs to locate and target that colony directly.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and garage door sweeps in September before the fall mouse surge.",
+      "Inspect window frames and rooflines for moisture-softened wood that may harbor carpenter ants.",
+      "Seal gaps around siding, utility lines, and eaves before September to limit boxelder bug entry.",
+      "Keep garbage in sealed containers and eliminate standing water near the foundation to cut rat attractants.",
+    ],
+    costNote:
+      "Cedar Rapids pest control is typically quoted as an annual plan covering rodents, ants, spiders, and cockroaches with seasonal boxelder bug treatment added in fall. Homes near river corridors or food processing areas may benefit from quarterly rodent monitoring. A free assessment establishes the correct treatment level for your property.",
+    faqs: [
+      {
+        question: "Are Norway rats a real problem in Cedar Rapids residential areas?",
+        answer:
+          "In neighborhoods close to Cedar Rapids's food processing corridors and the Cedar River storm drain system, Norway rats can be a genuine problem rather than a rare event. Iowa State University Extension notes that rats associated with food industry facilities spread into residential blocks through utility and sewer infrastructure. Homes well away from industrial zones typically see mice rather than rats, but properties near those areas should include rat exclusion in any pest program.",
+      },
+      {
+        question: "Why do I keep finding carpenter ants inside my Cedar Rapids home?",
+        answer:
+          "Finding carpenter ants indoors in winter or spring almost always means there is an established colony inside the building, not just foragers coming in from outside. Carpenter ants need moisture to nest, and Cedar Rapids has many homes with residual moisture from the 2008 flood or from the wet springs the Cedar River climate brings. A licensed technician can locate the colony and treat it directly, which is the only lasting solution.",
+      },
+      {
+        question: "When is the mouse problem worst in Cedar Rapids?",
+        answer:
+          "The fall surge starts in late September and is most intense through October and November. Iowa State University Extension ranks mice as the top rodent complaint in Iowa homes each fall. Sealing foundation gaps, pipe penetrations, and the gap under garage doors before the surge is more cost-effective than dealing with an active infestation after mice are already inside.",
+      },
+      {
+        question: "How do I stop boxelder bugs from getting into my walls in Cedar Rapids?",
+        answer:
+          "Treat the exterior of the building when boxelder bugs first begin to aggregate, usually in September in Cedar Rapids. Spraying sun-facing walls and sealing gaps around siding, utility lines, and eaves before they mass is far more effective than waiting. Once they have pushed into wall voids, they are nearly impossible to remove until spring when warming temperatures drive them out naturally.",
+      },
+      {
+        question: "Do I need a professional exterminator in Cedar Rapids or can I handle pest control myself?",
+        answer:
+          "Many homeowners manage light ant activity and seasonal boxelder bugs without professional help. But Norway rats, established carpenter ant colonies, and German cockroach infestations in multi-unit buildings consistently need professional treatment. Rats are difficult to fully exclude without a thorough building inspection, and cockroaches in shared buildings require coordinated treatment across adjacent units for lasting results.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Des Moines", slug: "des-moines" },
+      { name: "Iowa City", slug: "iowa-city" },
+      { name: "Waterloo", slug: "waterloo" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Cedar Rapids, IA | Mice, Norway Rats & Carpenter Ants",
+    metaDescription:
+      "Cedar Rapids pest control for house mice, Norway rats, carpenter ants, German cockroaches and boxelder bugs. Linn County Cedar River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

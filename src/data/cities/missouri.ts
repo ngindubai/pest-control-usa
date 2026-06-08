@@ -336,4 +336,216 @@ export const missouriCities: CityLocation[] = [
     metaDescription:
       "Springfield pest control for brown recluse spiders, house mice, German cockroaches, ants and ticks. Ozarks Greene County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "columbia",
+    name: "Columbia",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T2",
+    population: "~126,000",
+    county: "Boone County",
+    climate: "cold-humid",
+    climateDriver:
+      "Columbia sits in central Missouri with a humid continental climate of hot, wet summers and cold winters. Missouri's warm summers and wooded areas create conditions that support brown recluse spiders across the state, and Boone County is no exception. Subterranean termites are a consistent structural risk in central Missouri's warm, moist soils, and the University of Missouri campus and surrounding university-district housing create dense multi-unit environments where German cockroaches persist year-round.",
+    topPests: ["Brown Recluse Spiders", "Subterranean Termites", "German Cockroaches", "Mice", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active April through October",
+        note: "The Missouri Department of Conservation identifies brown recluse spiders as common throughout Missouri in undisturbed areas, woodpiles, storage boxes, and seldom-used clothing. In Columbia, they are found in basements, attics, closets, and any storage area with low human activity. Bites are rare but can cause significant necrotic tissue damage in serious cases.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms March through May",
+        note: "University of Missouri Extension places central Missouri in a moderate-to-high termite pressure zone. Columbia's warm summers and periodic wet weather keep soil conditions favorable for Eastern subterranean termite foraging through most of the year. Annual inspections are the standard recommendation for homes without an active prevention program.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "The University of Missouri's campus and the surrounding university district housing create a high concentration of multi-unit buildings where German cockroaches spread readily through shared infrastructure. University of Missouri Extension identifies German cockroaches as the most economically important cockroach pest in Missouri's urban settings.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Columbia's cold winters reliably drive house mice into heated buildings every fall. Missouri Department of Conservation notes that fall mouse pressure is one of the most predictable pest events in central Missouri communities, with the surge typically starting in late September.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Carpenter ants are a consistent spring and summer pest in Columbia's older neighborhoods, where mature trees, deck framing, and wood touching soil provide nesting sites. University of Missouri Extension identifies carpenter ants as a primary structural ant pest in Missouri, noting they can establish large indoor colonies in moisture-damaged wood.",
+      },
+    ],
+    localHook:
+      "Columbia sits in the heart of Missouri, where brown recluse spiders are a genuine local concern rather than a regional exaggeration. The Missouri Department of Conservation identifies brown recluses as common throughout Missouri in undisturbed storage areas, attics, basements, and woodpiles. Combined with a real subterranean termite risk and a fall mouse surge, Columbia homeowners with older homes or storage-heavy spaces typically benefit from year-round pest prevention.",
+    intro:
+      "Pest control in Columbia addresses the full range of central Missouri threats. Brown recluse spiders are the pest that concerns Columbia residents the most, and the Missouri Department of Conservation confirms they are genuinely widespread across the state in undisturbed areas of homes and yards. Subterranean termites are a structural risk that University of Missouri Extension flags for Boone County's soil conditions. German cockroaches are a year-round indoor problem in the university district's dense housing. Mice arrive reliably every fall, and carpenter ants target the moisture-affected wood that Missouri's wet springs create in older homes.",
+    sections: [
+      {
+        heading: "Brown recluse spiders in Columbia homes",
+        body: "Brown recluse spiders are not a media myth in Missouri: the Missouri Department of Conservation identifies them as genuinely common statewide, found in undisturbed storage areas, basements, attics, closets, and woodpiles. In Columbia, they are most often encountered in older homes with basement storage, detached garages, and any area that sees low human activity for extended periods. Their bites are rare because the spider retreats from humans, but when they do bite, some individuals experience serious necrotic reactions requiring medical attention. Practical prevention in Columbia includes reducing clutter in storage areas, sealing cardboard boxes, shaking out clothing and shoes stored in areas the spiders might occupy, and professional perimeter treatment in active areas.",
+      },
+      {
+        heading: "Termite risk in central Missouri",
+        body: "University of Missouri Extension places Boone County in a moderate-to-high termite pressure zone. Columbia's warm summers and frequent summer rainfall keep soil conditions favorable for Eastern subterranean termites longer than in drier climates, and the area's clay-heavy soils retain moisture between rain events. Older homes in Columbia's established neighborhoods, particularly those with crawl spaces or wood-to-soil contact at the foundation, carry higher structural risk. Annual termite inspections are the professional standard here, and homes without a current prevention barrier are genuinely at risk. Mud tubes on foundation walls, hollow-sounding wood, or spring swarmers are the key signs of active termite activity.",
+      },
+    ],
+    prevention: [
+      "Reduce basement and attic clutter and seal storage boxes to limit brown recluse harborage.",
+      "Schedule annual termite inspections for Columbia homes, especially those with crawl spaces or wood near the foundation.",
+      "Seal foundation gaps and utility penetrations in September before the fall mouse surge.",
+      "Address moisture issues around deck framing, window frames, and wood in contact with soil to reduce carpenter ant nesting sites.",
+    ],
+    costNote:
+      "Columbia pest control is typically structured as an annual plan covering spiders, rodents, ants, and cockroaches. Termite prevention is quoted separately based on foundation type and home size. A free assessment establishes the current risk level and recommends a plan suited to your property.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really common in Columbia, Missouri?",
+        answer:
+          "Yes. The Missouri Department of Conservation identifies brown recluse spiders as common throughout Missouri, particularly in undisturbed areas of homes and outbuildings. Columbia is solidly within their natural range. They prefer low-traffic areas: basement storage, attics, closets with rarely moved items, and garages. Bites are uncommon because the spider retreats when disturbed, but they do occur, and some bites cause serious tissue damage. Reducing clutter and treating harborage areas professionally is the most effective prevention.",
+      },
+      {
+        question: "How bad is the termite problem in Columbia?",
+        answer:
+          "University of Missouri Extension places Boone County in a moderate-to-high termite pressure zone. Columbia's warm, moist summer conditions keep termite foraging conditions favorable for much of the year. Homes without an active prevention program, especially those with crawl spaces or older wood-to-soil contact at the foundation, are at genuine risk. Annual inspections are the standard recommendation for any Columbia home without a current termite barrier.",
+      },
+      {
+        question: "When should I worry about mice in Columbia?",
+        answer:
+          "The fall mouse surge in Columbia typically starts in late September. Missouri Department of Conservation confirms fall is the primary entry period as mice seek heated shelter. Sealing foundation gaps, utility penetrations, and the gap under garage doors in September is the most effective prevention. Once mice are inside, professional baiting and exclusion is the most efficient solution.",
+      },
+      {
+        question: "Is German cockroach control different in university-area housing?",
+        answer:
+          "In university-district buildings with high tenant turnover and shared wall voids, German cockroaches spread through plumbing connections and utility chases regardless of individual unit cleanliness. Single-unit treatment controls the visible infestation temporarily but usually leads to re-infestation from adjacent untreated units. Building-wide coordinated treatment is the only approach that produces lasting results. Gel bait in harborage sites is more effective than spray in multi-unit settings.",
+      },
+      {
+        question: "What pest threats are specific to Columbia compared to other Missouri cities?",
+        answer:
+          "Columbia's university setting creates a uniquely high-density housing environment that amplifies German cockroach and bed bug spread compared to smaller Missouri towns. The city's wooded, hilly terrain also produces more brown recluse activity in residential areas than flatter, more urban cities. Subterranean termite pressure is shared with most of central and southern Missouri. The combination of spider, termite, and cockroach pressure in a university city makes a year-round prevention program more cost-effective here than in most Missouri communities.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Kansas City", slug: "kansas-city" },
+      { name: "St. Louis", slug: "st-louis" },
+      { name: "Springfield", slug: "springfield" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Columbia, MO | Brown Recluse Spiders & Termites",
+    metaDescription:
+      "Columbia pest control for brown recluse spiders, subterranean termites, German cockroaches, mice and carpenter ants. Boone County University of Missouri city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "independence",
+    name: "Independence",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T2",
+    population: "~117,000",
+    county: "Jackson County",
+    climate: "cold-humid",
+    climateDriver:
+      "Independence sits in Jackson County just east of Kansas City with a continental climate of hot, humid summers and cold winters. Missouri's warm conditions place the state in moderate-to-high termite pressure territory, and Jackson County's mix of older pre-1970 housing and newer suburban development creates diverse pest conditions. Brown recluse spiders are common in undisturbed areas of older homes, and fall mouse pressure is one of the most predictable seasonal pest events in the area.",
+    topPests: ["Brown Recluse Spiders", "Mice", "Subterranean Termites", "German Cockroaches", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active April through October",
+        note: "The Missouri Department of Conservation identifies brown recluse spiders as common throughout Jackson County in undisturbed storage areas, attics, basements, and woodpiles. Independence's many pre-1970 homes with basement storage and detached garages create the ideal low-traffic conditions that brown recluses seek.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Independence's cold winters drive house mice into heated buildings every fall. Missouri Department of Conservation identifies fall as the primary entry period for mice across central Missouri, with the surge typically beginning in late September in the Kansas City metro area.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms March through May",
+        note: "University of Missouri Extension places Jackson County in a moderate-to-high termite pressure zone. Independence's older housing stock, much of it built before modern soil treatment practices became standard, carries a higher structural risk from Eastern subterranean termites than newer construction.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor cockroach in Independence's apartment buildings, restaurants, and commercial kitchens. They breed entirely indoors and are the most frequently encountered cockroach pest across the Kansas City metro area.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Carpenter ants exploit moisture-damaged wood in Independence's older neighborhoods. The Kansas City metro's wet springs create consistent moisture conditions around window frames, deck framing, and tree stumps close to homes, providing nesting sites for carpenter ant colonies that can eventually find their way into the structure.",
+      },
+    ],
+    localHook:
+      "Independence has a rich historic legacy, including the Truman Home National Historic Site and many pre-1970 properties in established neighborhoods. The Missouri Department of Conservation identifies brown recluse spiders as common throughout Jackson County, and Independence's older homes with basement storage, detached garages, and settled attic spaces create exactly the undisturbed conditions these spiders seek. Combined with Missouri's termite risk and a reliable fall mouse surge, older Independence properties benefit most from year-round pest prevention.",
+    intro:
+      "Pest control in Independence covers the full range of eastern Jackson County threats. Brown recluse spiders are the pest Independence residents most often ask about, and the Missouri Department of Conservation confirms they are genuinely common throughout the county in homes with undisturbed storage, basements, and garages. Subterranean termites are a structural risk University of Missouri Extension flags for Jackson County. German cockroaches maintain year-round indoor populations in apartment buildings and commercial kitchens. Mice arrive every fall, and carpenter ants target moisture-damaged wood in the area's many pre-1970 homes through spring and summer.",
+    sections: [
+      {
+        heading: "Brown recluse spiders in Independence's older homes",
+        body: "Brown recluse spiders are not an exaggerated threat in eastern Missouri: the Missouri Department of Conservation classifies them as common statewide, including Jackson County. In Independence, the highest-risk areas are basement storage rooms with undisturbed boxes, rarely-accessed closets with stored clothing, detached garages with workshop clutter, and attic spaces that go weeks between visits. The Truman historic district and Independence's many pre-1970 properties often have exactly these conditions. Bites happen when spiders are accidentally pressed against skin during clothing or storage handling. Practical steps include storing items in sealed plastic containers rather than cardboard boxes, shaking out clothing and footwear stored in low-traffic areas, and reducing clutter in basement and garage areas. Professional perimeter treatment in active areas reduces populations significantly.",
+      },
+      {
+        heading: "Termite risk in Independence's historic housing stock",
+        body: "Many Independence homes were built before modern soil termite treatment methods became standard construction practice, and University of Missouri Extension identifies Jackson County in a moderate-to-high termite pressure zone. Older slab and crawl space foundations in established Independence neighborhoods can have wood-to-soil contact conditions that make termite access easier than in newer construction. Annual inspections are the standard recommendation for any Independence home without an active prevention program. If you purchase an older property in the Truman-area historic neighborhoods, a termite inspection should be one of the first steps before closing, not an afterthought.",
+      },
+    ],
+    prevention: [
+      "Store basement and garage items in sealed plastic containers rather than cardboard boxes to reduce brown recluse harborage.",
+      "Schedule annual termite inspections for older Independence homes, especially those built before 1980.",
+      "Seal foundation gaps and utility penetrations in September before the fall mouse surge.",
+      "Address moisture around window frames, deck framing, and wood touching soil to reduce carpenter ant nesting.",
+    ],
+    costNote:
+      "Independence pest control is typically structured as an annual plan covering spiders, rodents, ants, and cockroaches. Termite prevention is quoted separately based on foundation type and home age. A free assessment confirms the current risk level at your property.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really common in Independence?",
+        answer:
+          "Yes. The Missouri Department of Conservation classifies them as common throughout Missouri, including Jackson County. Independence's older homes with basement storage, detached garages, and attic spaces see more activity than newer construction because these areas provide the low-traffic, undisturbed conditions brown recluses prefer. Bites are uncommon because the spider retreats, but they can cause serious tissue damage in some cases.",
+      },
+      {
+        question: "What are the signs of termites in an older Independence home?",
+        answer:
+          "Key signs include mud tubes on foundation walls, hollow-sounding wood when knocked near exterior walls, discarded wings near windows or doors in spring, and spring swarmers that look like winged ants. University of Missouri Extension recommends annual inspections for any older Independence home without a current termite prevention program. If you find any of these signs, contact a licensed professional immediately.",
+      },
+      {
+        question: "When do mice become a problem in Independence?",
+        answer:
+          "The fall surge typically starts in late September in the Kansas City metro area. Missouri Department of Conservation confirms fall as the peak entry period for mice in central Missouri. Sealing foundation gaps, utility penetrations, and the gap under garage doors in September is the most effective prevention. Once mice are inside, professional baiting and exclusion is the most efficient resolution.",
+      },
+      {
+        question: "How do I deal with German cockroaches in my Independence rental property?",
+        answer:
+          "In multi-unit buildings, German cockroaches spread through shared wall voids and plumbing connections, so treating individual units without addressing the broader building leads to re-infestation. Coordinate with your property manager for building-wide treatment. Gel bait placed in harborage sites inside cabinets, under appliances, and near plumbing is more effective than spray in shared-wall settings.",
+      },
+      {
+        question: "What pest threats are highest priority for a new homeowner in Independence?",
+        answer:
+          "For an older Independence home, the top three priorities are termite inspection, rodent exclusion, and spider harborage reduction. Many pre-1980 homes have not had current prevention treatments, and discovering a termite infestation after closing is an expensive surprise. Rodent entry points in older homes are often numerous and not obvious. Brown recluse populations in older storage areas are common and worth addressing proactively.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Kansas City", slug: "kansas-city" },
+      { name: "St. Louis", slug: "st-louis" },
+      { name: "Springfield", slug: "springfield" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Independence, MO | Brown Recluse Spiders & Termites",
+    metaDescription:
+      "Independence pest control for brown recluse spiders, subterranean termites, house mice, German cockroaches and carpenter ants. Jackson County Kansas City east metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

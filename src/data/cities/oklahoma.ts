@@ -229,4 +229,216 @@ export const oklahomaCities: CityLocation[] = [
     metaDescription:
       "Tulsa pest control for brown recluse spiders, subterranean termites, mosquitoes, fire ants and mice. Arkansas River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "norman",
+    name: "Norman",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T2",
+    population: "~128,000",
+    county: "Cleveland County",
+    climate: "hot-humid",
+    climateDriver:
+      "Norman sits in central Oklahoma with a humid subtropical climate featuring hot, wet summers and mild winters. Oklahoma's warm, moist soils place the state in a high subterranean termite hazard zone, and Norman's clay-rich soils retain the moisture that Eastern subterranean termites need year-round. Hot summers drive German cockroaches and mosquitoes to peak activity, while scorpions exploit yard debris and rock features common in suburban landscaping.",
+    topPests: ["Subterranean Termites", "German Cockroaches", "Fire Ants", "Striped Bark Scorpions", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms March through May",
+        note: "Oklahoma State University Extension places Cleveland County in a high termite pressure zone. Norman's clay soils retain moisture that Eastern subterranean termites need to forage, and many homes built on slab foundations over that clay show termite activity within a few years without preventive treatment.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors, peak activity in warm months",
+        note: "German cockroaches are the primary indoor cockroach in Norman apartments, restaurants, and university-area housing. Oklahoma State University Extension notes they breed entirely indoors in kitchens and bathrooms and can spread rapidly in multi-unit buildings through shared wall voids and plumbing access.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active April through October",
+        note: "Fire ant mounds are a persistent reality in Norman yards and landscaping. Oklahoma State University Extension confirms fire ants are well-established across central Oklahoma and spread aggressively in warm weather. Their stings cause genuine pain and can trigger serious allergic reactions in sensitive individuals.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Active May through October, shelter-seeking in fall",
+        note: "Oklahoma State University Extension identifies the striped bark scorpion as the most commonly encountered scorpion species in Oklahoma. In Norman, they shelter under landscape rocks, woodpiles, and leaf debris, and occasionally enter homes through gaps near foundations and utility penetrations.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peak April through October",
+        note: "Norman's hot summers and seasonal rainfall create active mosquito conditions from spring through late fall. The City of Norman's drainage system and residential landscaping with standing water sustain breeding populations close to homes throughout the warm season.",
+      },
+    ],
+    localHook:
+      "Norman sits in Cleveland County in central Oklahoma, where the combination of red clay soils and warm, humid summers creates near-perfect conditions for Eastern subterranean termites. Oklahoma State University Extension places Oklahoma in a high termite hazard rating, and Norman homes built on slab foundations over clay soils require active termite prevention rather than a wait-and-see approach. Add fire ants, scorpions, and a long mosquito season, and Norman's pest calendar runs almost year-round.",
+    intro:
+      "Pest control in Norman covers more threats than most Oklahoma homeowners initially expect. Subterranean termites are the structural risk that Oklahoma State University Extension consistently flags for Cleveland County, where clay soils and warm winters keep termite colonies active year-round. Fire ants claim yards from April through October, and striped bark scorpions shelter in landscaping features before occasionally moving indoors. German cockroaches are a persistent indoor concern in Norman's high-density student housing near the University of Oklahoma, and mosquitoes are a seasonal outdoor reality from spring through fall.",
+    sections: [
+      {
+        heading: "Termite pressure on Norman slab foundations",
+        body: "Norman's soil profile creates a challenging termite environment for homeowners. The heavy clay common in Cleveland County retains moisture through dry spells, keeping the soil conditions that Eastern subterranean termites need to forage and build mud tubes close to foundation margins. Oklahoma State University Extension recommends annual termite inspections for Norman homes, particularly those without a current prevention treatment in place. Mud tubes on foundation walls, hollow-sounding wood, or spring swarmers inside the home are all signs that a colony is already active. Liquid barrier and bait station approaches both work in Norman's soil; the right choice depends on foundation type and site conditions.",
+      },
+      {
+        heading: "Fire ants and scorpions in Norman yards",
+        body: "Fire ant mounds appear in Norman lawns, flower beds, and along sidewalk edges from April onward. The mounds collapse when disturbed and the ants swarm to defend them, so accidental contact during yard work or by children playing is the most common incident. Individual mound treatments work for isolated cases, but broadcast bait programs provide longer control across the entire yard. Striped bark scorpions are a separate concern: they shelter under landscape rocks, mulch, and any debris close to the foundation and enter homes through low gaps at night. Clearing debris from foundation margins and sealing entry gaps below siding and utility penetrations reduces entry risk considerably.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for Norman homes on slab foundations, especially those without a current prevention barrier.",
+      "Treat fire ant mounds promptly in spring before colonies expand across the yard.",
+      "Clear landscape rocks, woodpiles, and leaf debris from foundation margins to remove scorpion harborage.",
+      "Eliminate standing water in drainage areas, plant saucers, and low spots to reduce mosquito breeding near the home.",
+    ],
+    costNote:
+      "Norman pest control is typically structured as an annual plan covering cockroaches, ants, spiders, and scorpions with a seasonal mosquito add-on. Termite prevention is quoted separately based on foundation type and home size. A free assessment determines the current risk level at your property.",
+    faqs: [
+      {
+        question: "How bad is the termite problem in Norman, Oklahoma?",
+        answer:
+          "Oklahoma State University Extension rates Cleveland County in a high termite pressure zone. Norman's clay soils retain the moisture Eastern subterranean termites need year-round, and slab foundation homes without a current prevention treatment are genuinely at risk. Annual inspections are the standard recommendation, and professional treatment is far less expensive than repairing termite damage discovered after the fact.",
+      },
+      {
+        question: "Are striped bark scorpions dangerous in Norman?",
+        answer:
+          "Oklahoma State University Extension identifies the striped bark scorpion as the most commonly encountered scorpion in Oklahoma. Their sting causes significant pain and localized swelling, similar to a wasp sting for most people. Serious reactions are rare but possible. In Norman, clearing yard debris from foundation margins, sealing gaps below siding and around utility penetrations, and shaking out shoes left in the garage are the most practical prevention steps.",
+      },
+      {
+        question: "When do termites swarm in Norman?",
+        answer:
+          "Eastern subterranean termites in Norman typically swarm from March through May, often after warm rain events. Swarmers are winged reproductives that look like winged ants and emerge in large numbers near windows, vents, or doors. Finding swarmers indoors strongly suggests an established colony in the structure and warrants an immediate professional inspection.",
+      },
+      {
+        question: "How do I control fire ants in my Norman yard?",
+        answer:
+          "Individual mound treatments with contact insecticide or drenches work for isolated mounds but require treating every mound you can find. Broadcast fire ant bait applied across the lawn provides wider, longer-lasting control by letting foragers carry the bait back to the colony. Texas A&M and Oklahoma State both recommend two-step bait programs for sustained yard-wide control. Results take a few weeks but are more effective than spot treating alone.",
+      },
+      {
+        question: "Is year-round pest control worth it in Norman?",
+        answer:
+          "In Norman's climate, yes. The mild winters mean termite colonies remain active, cockroach populations persist indoors, and scorpions can be active on warm winter days. A year-round program that covers the full threat list is more cost-effective than reactive treatments for each problem as it appears. Most Norman pest control plans include quarterly visits with seasonal adjustments for mosquitoes and fire ants.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Oklahoma City", slug: "oklahoma-city" },
+      { name: "Tulsa", slug: "tulsa" },
+      { name: "Broken Arrow", slug: "broken-arrow" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Norman, OK | Termites, Fire Ants & Scorpions",
+    metaDescription:
+      "Norman pest control for subterranean termites, fire ants, striped bark scorpions, cockroaches and mosquitoes. Cleveland County University of Oklahoma city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "broken-arrow",
+    name: "Broken Arrow",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T2",
+    population: "~111,000",
+    county: "Tulsa County",
+    climate: "hot-humid",
+    climateDriver:
+      "Broken Arrow sits in Tulsa County in northeastern Oklahoma with a humid subtropical climate. Hot, humid summers and mild winters mean termite colonies never fully shut down, and the fertile clay-loam soils common in the area provide ideal moisture conditions for Eastern subterranean termites. The area's expanding development on former tallgrass prairie has displaced scorpion and spider populations into newer suburban neighborhoods.",
+    topPests: ["Subterranean Termites", "Fire Ants", "German Cockroaches", "Striped Bark Scorpions", "Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms March through May",
+        note: "Oklahoma State University Extension places Tulsa County in a high termite pressure zone. Broken Arrow's clay-loam soils retain moisture year-round, and the area's rapid residential development means many homes are built in areas with established termite populations in the soil.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active April through October",
+        note: "Fire ants are well-established across northeastern Oklahoma and spread aggressively in warm weather. In Broken Arrow, their mounds appear regularly in lawns, along sidewalks, and in planting beds. Oklahoma State University Extension notes fire ant stings can cause severe allergic reactions in sensitive individuals.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches thrive in Broken Arrow's warm climate and are the primary cockroach species in apartment buildings, commercial kitchens, and food service establishments. They breed entirely indoors and spread through shared plumbing and wall void connections in multi-unit buildings.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Active April through October, shelter-seeking in cool months",
+        note: "Oklahoma State University Extension identifies the striped bark scorpion as the most common scorpion species in Oklahoma. New construction in Broken Arrow on former prairie land has displaced scorpion populations, and residents in newer neighborhoods near undeveloped land regularly find them inside their homes.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Broken Arrow's cold winters, though milder than northern Oklahoma, still drive house mice into heated buildings every fall. Newer subdivisions adjacent to open land see the heaviest fall pressure as mice move from open fields toward heated structures.",
+      },
+    ],
+    localHook:
+      "Broken Arrow is Tulsa County's largest suburb and one of Oklahoma's fastest-growing cities. Oklahoma State University Extension places eastern Oklahoma in moderate-to-high termite pressure territory, and Broken Arrow's fertile clay-loam soils create exactly the moisture conditions Eastern subterranean termites need. Rapid development on former tallgrass prairie has also displaced scorpion populations into newer neighborhoods, making scorpion encounters inside newer homes a genuine concern rather than a rare event.",
+    intro:
+      "Pest control in Broken Arrow covers the full range of northeastern Oklahoma threats. Subterranean termites are the primary structural risk, with Oklahoma State University Extension flagging Tulsa County as high-pressure territory and Broken Arrow's clay soils providing year-round termite-favorable conditions. Fire ant mounds are a persistent yard reality from April through October. German cockroaches are the dominant indoor cockroach in multi-family and commercial settings. Striped bark scorpions, displaced by the area's rapid development onto former prairie land, enter newer homes with notable frequency. And the fall mouse surge brings mice in from adjacent open fields every October.",
+    sections: [
+      {
+        heading: "Termites in Broken Arrow's newer developments",
+        body: "Broken Arrow has grown rapidly, with many subdivisions built in the last 20 years on land that previously supported native tallgrass prairie. That soil already contained established termite populations before the first foundation was poured. Oklahoma State University Extension recommends pre-construction soil treatments for new homes in Tulsa County, and for existing homes without a prevention program, an annual inspection is the prudent standard. Clay-loam soils hold moisture between rain events, keeping termite foraging conditions favorable even in dry stretches. Mud tubes on foundation walls, hollow-sounding wood near exterior walls, or spring swarmers are the most common early signs.",
+      },
+      {
+        heading: "Scorpions in newer Broken Arrow neighborhoods",
+        body: "The striped bark scorpion is the most commonly encountered scorpion species in Oklahoma, and Broken Arrow residents in neighborhoods built on former prairie land encounter them more than older, more established neighborhoods. Scorpions are nocturnal and hide during the day under rocks, landscape timber, woodpiles, and debris near the foundation. They enter homes through gaps under siding, around utility penetrations, and through weep holes in brick construction. Removing harborage close to the foundation, sealing entry points, and treating the perimeter systematically reduces interior encounters. Checking shoes and gear stored in the garage is a practical daily habit in active scorpion areas.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection if your Broken Arrow home does not have an active prevention program in place.",
+      "Treat fire ant mounds in spring before colonies grow large and spread across the yard.",
+      "Clear landscape rocks, mulch, and debris from foundation margins to remove scorpion harborage.",
+      "Seal foundation gaps and utility penetrations in September before mice begin pressing indoors.",
+    ],
+    costNote:
+      "Broken Arrow pest control is typically quoted as an annual plan covering cockroaches, ants, scorpions, and rodents. Termite prevention is quoted separately based on foundation type and home size. A free assessment identifies the current risk level at your property and recommends the right combination of prevention treatments.",
+    faqs: [
+      {
+        question: "How serious is the termite risk in Broken Arrow?",
+        answer:
+          "Oklahoma State University Extension places Tulsa County in a high termite pressure zone. Broken Arrow's clay-loam soils retain moisture that Eastern subterranean termites forage through year-round. Homes without an active prevention barrier are genuinely at risk, and the damage from an established colony typically costs far more to repair than a prevention program would have. Annual inspections are the standard recommendation.",
+      },
+      {
+        question: "Why do I keep finding scorpions inside my Broken Arrow home?",
+        answer:
+          "Many Broken Arrow neighborhoods are built on former tallgrass prairie that already had established scorpion populations. New construction displaces them, and they move toward lighted homes at night seeking warmth and insects. Removing harborage from foundation margins, sealing gaps under siding and around utility penetrations, and treating the perimeter with a licensed professional reduces entry significantly. Checking shoes and stored gear in the garage is a practical daily habit.",
+      },
+      {
+        question: "Are fire ants a year-round problem in Broken Arrow?",
+        answer:
+          "Fire ants are active in Broken Arrow from April through October and can remain somewhat active on warm winter days. Mounds appear in lawns, planting beds, and along sidewalk edges. Oklahoma State University Extension recommends broadcast bait programs for yard-wide control rather than just treating individual mounds. The two-step approach, broadcast bait followed by individual mound treatment for any survivors, provides the most sustained results.",
+      },
+      {
+        question: "When do termites swarm in Broken Arrow?",
+        answer:
+          "Eastern subterranean termites in Broken Arrow typically swarm from March through May, usually after warm rain events in the afternoon. Swarmers are winged and resemble winged ants. Finding swarmers indoors near windows or doors strongly suggests an established colony in the structure. Do not ignore swarmers indoors; they are a sign that requires an immediate inspection.",
+      },
+      {
+        question: "What pest control plan makes sense for a newer Broken Arrow home?",
+        answer:
+          "Newer Broken Arrow homes near former prairie land should include termite prevention, quarterly general pest treatment, and perimeter scorpion treatment. Fire ant bait programs in spring round out the plan. Many companies offer bundled annual contracts that cover all four threats at a lower combined cost than individual reactive treatments. A free assessment helps size the plan to your specific lot and construction type.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Tulsa", slug: "tulsa" },
+      { name: "Oklahoma City", slug: "oklahoma-city" },
+      { name: "Norman", slug: "norman" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Broken Arrow, OK | Termites, Fire Ants & Scorpions",
+    metaDescription:
+      "Broken Arrow pest control for subterranean termites, fire ants, striped bark scorpions, German cockroaches and mice. Tulsa County suburban prairie-edge specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

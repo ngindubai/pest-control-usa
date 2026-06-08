@@ -216,4 +216,110 @@ export const minnesotaCities: CityLocation[] = [
     metaDescription:
       "Saint Paul pest control for fall mice, carpenter ants, summer mosquitoes, boxelder bugs and wasps. Twin Cities seasonal specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "rochester",
+    name: "Rochester",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T2",
+    population: "~122,000",
+    county: "Olmsted County",
+    climate: "cold",
+    climateDriver:
+      "Rochester sits in southeastern Minnesota with a cold continental climate influenced by both prairie air masses and Lake Superior moisture from the northeast. Winters are harsh, driving mice and other pests firmly into heated buildings. University of Minnesota Extension identifies carpenter ants, mice, boxelder bugs, and Asian lady beetles as the most commonly reported pest complaints in southeastern Minnesota communities. The Mayo Clinic complex and Rochester's medical district create dense institutional and multi-unit housing environments that see unique pest pressure.",
+    topPests: ["House Mice", "Carpenter Ants", "Boxelder Bugs", "Asian Lady Beetles", "Wasps"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through April, active year-round once inside",
+        note: "Rochester's cold winters are severe enough to drive mice into heated buildings starting in early October. University of Minnesota Extension identifies mice as the most common rodent pest in Minnesota, with the fall surge being the most predictable and preventable pest event of the year in southeastern Minnesota communities like Rochester.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "University of Minnesota Extension identifies carpenter ants as one of the most common structural pests in southeastern Minnesota. Rochester's wooded river valleys and the moisture that southeastern Minnesota's frequent spring rain creates provide abundant nesting conditions in older housing around foundations, deck framing, and window sills.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation September through October, overwinter in wall voids",
+        note: "University of Minnesota Extension confirms boxelder bugs are one of the most frequently reported fall nuisance pests in Rochester and Olmsted County. They aggregate on sun-facing building exteriors in September before pushing through gaps to overwinter in wall voids, emerging again on warm winter days to become indoor nuisances.",
+      },
+      {
+        name: "Asian lady beetles",
+        serviceSlug: "spider-control",
+        activeSeason: "Fall aggregation September through October, overwinter indoors",
+        note: "University of Minnesota Extension identifies Asian lady beetles as a primary fall nuisance pest in southeastern Minnesota, with Rochester seeing some of the higher concentrations in the state. They aggregate on building exteriors alongside boxelder bugs in September and enter through any available gap to overwinter. They release a yellow defensive fluid when disturbed that stains surfaces and has a strong odor.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nest building May through September, aggressive late summer",
+        note: "Yellow jackets and paper wasps build nests in wall voids, under overhangs, and in ground sites across Rochester's residential and institutional neighborhoods through summer. Mayo Clinic facilities and the medical district's extensive landscaping create varied nesting habitat. Colony size peaks in late August when wasps are most defensive.",
+      },
+    ],
+    localHook:
+      "Rochester is home to the Mayo Clinic and draws patients and visitors from across the country year-round, but its southeastern Minnesota location means winters are genuinely cold and the full seasonal pest calendar plays out hard. University of Minnesota Extension identifies carpenter ants, mice, boxelder bugs, and Asian lady beetles as the most commonly reported pest complaints in southeastern Minnesota communities like Rochester. The Mayo campus, hotels, and medical housing create diverse pest pressure across multiple property types.",
+    intro:
+      "Pest control in Rochester addresses the southeastern Minnesota seasonal pest calendar in full. House mice are the most widely reported pest concern, arriving reliably in October as University of Minnesota Extension confirms for the region. Carpenter ants target the moisture conditions Rochester's spring-heavy rainfall creates in older neighborhoods. Boxelder bugs and Asian lady beetles deliver a double fall wall invasion that University of Minnesota Extension documents as particularly significant in Olmsted County. Wasps round out the summer pest picture with nests in wall voids, ground sites, and the extensive landscaping of the Mayo medical district.",
+    sections: [
+      {
+        heading: "Boxelder bugs and Asian lady beetles: Rochester's fall double invasion",
+        body: "Rochester experiences both boxelder bugs and Asian lady beetles each fall, and University of Minnesota Extension documents southeastern Minnesota as one of the higher-activity areas in the state for both species. They aggregate on sun-facing building exteriors in September, often mixing together on the same wall, before working through gaps into wall voids to overwinter. On warm winter days, both species emerge and become indoor nuisances. The prevention approach is the same for both: treat the exterior when they first aggregate and seal gaps around siding, utility lines, and eaves before they mass. Asian lady beetles have the added feature of releasing a yellow defensive fluid when disturbed that stains fabric and upholstery. Vacuum them up rather than crushing them.",
+      },
+      {
+        heading: "Mice and cold-weather pest pressure in Rochester",
+        body: "Rochester's winters are cold enough that the fall mouse surge is one of the most reliable pest events of the year. University of Minnesota Extension identifies the prevention window as September through early October, before temperatures drop significantly and mice begin actively searching for heated shelter. The Mayo Clinic campus and Rochester's medical district create a secondary challenge: the high volume of patient housing, hotels, and multi-unit staff housing in the medical district sees year-round rodent pressure that requires professional monitoring rather than seasonal intervention. For residential neighborhoods, September exclusion work, sealing foundation gaps, pipe penetrations, and the gap under garage doors, is the most cost-effective approach.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around siding, utility lines, and eaves in September before boxelder bugs and Asian lady beetles aggregate.",
+      "Seal foundation gaps and the gap under garage doors in September before the fall mouse surge.",
+      "Inspect window frames and foundation areas each spring for moisture-softened wood that may harbor carpenter ants.",
+      "Check under overhangs and in ground cover areas in June for early wasp nest activity.",
+    ],
+    costNote:
+      "Rochester pest control is typically structured as an annual plan covering rodents, ants, and wasps with a fall prevention visit specifically addressing boxelder bug and Asian lady beetle entry. Mayo district commercial and institutional accounts typically require quarterly monitoring. A free assessment establishes the right plan for your property type.",
+    faqs: [
+      {
+        question: "Why do Asian lady beetles invade Rochester homes every fall?",
+        answer:
+          "Asian lady beetles are seeking warm overwintering sites when outdoor temperatures cool in September. They prefer sunny, light-colored building surfaces, which is why they aggregate in large numbers on sun-facing walls before working through any available gap into wall voids or attics. University of Minnesota Extension identifies southeastern Minnesota, including Rochester, as one of the higher-activity areas for this pest in the state. Sealing gaps and exterior treatment before they aggregate is the most effective prevention.",
+      },
+      {
+        question: "When should I start preparing for the fall mouse surge in Rochester?",
+        answer:
+          "September is the prevention window, before temperatures drop and mice begin actively searching for heated shelter. University of Minnesota Extension identifies mice as the most commonly reported rodent pest in Minnesota each fall. Sealing foundation gaps, pipe penetrations, and the gap under garage doors in September is more cost-effective than treating an active infestation. Once mice are inside, professional baiting and exclusion is the most efficient resolution.",
+      },
+      {
+        question: "How do I prevent carpenter ants in my Rochester home?",
+        answer:
+          "Carpenter ants need moisture to nest, so the primary prevention is eliminating moist wood conditions around the home: fix drainage so water does not pool near the foundation, repair or replace moisture-damaged window sills and soffit boards, ensure deck framing is not in ground contact, and reduce mulch depth against the foundation. If you find ants indoors in winter or spring with sawdust-like frass near wood, that indicates an established indoor colony requiring professional treatment.",
+      },
+      {
+        question: "What is the difference between boxelder bugs and Asian lady beetles in Rochester?",
+        answer:
+          "Boxelder bugs are black with red or orange markings on their wings and are slightly larger than lady beetles. Asian lady beetles are dome-shaped and orange with variable black spots. Both invade buildings in fall to overwinter. Asian lady beetles have an additional defensive behavior: when disturbed they release a yellow fluid that stains fabric and smells unpleasant. Both should be vacuumed up rather than crushed indoors.",
+      },
+      {
+        question: "Does the Mayo Clinic create unusual pest pressure in Rochester?",
+        answer:
+          "The Mayo campus, medical housing, and hotels in Rochester's medical district create consistent year-round pest pressure for businesses and multi-unit housing in that area. High occupancy, frequent guest turnover, and institutional food service create conditions that sustain cockroach and rodent populations that require professional monitoring programs rather than seasonal treatment. For residential neighborhoods outside the medical district, a seasonal program with fall emphasis is appropriate for most homes.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Minneapolis", slug: "minneapolis" },
+      { name: "Saint Paul", slug: "saint-paul" },
+      { name: "Duluth", slug: "duluth" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Rochester, MN | Mice, Boxelder Bugs & Carpenter Ants",
+    metaDescription:
+      "Rochester pest control for house mice, carpenter ants, boxelder bugs, Asian lady beetles and wasps. Olmsted County southeastern Minnesota Mayo Clinic city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -343,4 +343,125 @@ export const connecticutCities: CityLocation[] = [
     metaDescription:
       "New Haven pest control for house mice, rats, German cockroaches, deer ticks and bed bugs. New Haven County Yale University city specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "stamford",
+    name: "Stamford",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T2",
+    population: "~135,470",
+    county: "Fairfield County",
+    climate: "cold-humid",
+    climateDriver:
+      "cold-humid continental climate with warm summers, cold winters, and year-round precipitation",
+    topPests: [
+      "Deer Ticks",
+      "Carpenter Ants",
+      "House Mice",
+      "Brown Marmorated Stink Bugs",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "Active April through November, peak nymphal risk May through July",
+        note: "Fairfield County is among Connecticut's highest Lyme disease incidence counties per CT Department of Public Health data. Stamford's Mianus River Gorge preserve and wooded neighborhood parks create continuous tick habitat. Nymphal ticks are the primary transmission risk as they are small enough to go undetected.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Peak activity May through July, foragers seen indoors spring through summer",
+        note: "UConn Extension identifies carpenter ants as Connecticut's primary structural ant pest. Stamford's older housing stock and established tree canopy support colonies that excavate galleries in moisture-damaged wood at roof edges, window frames, and deck support beams.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mouse-control",
+        activeSeason: "Fall entry pressure begins September, peaks October through November",
+        note: "House mice begin moving toward structures in late September as Fairfield County overnight temperatures drop. Stamford's mix of attached row homes and detached single-family properties creates different exclusion challenges, as rodents can move between attached units through shared wall voids.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "general-pest-control",
+        activeSeason: "Aggregate on exteriors September through October, overwinter indoors",
+        note: "Brown marmorated stink bugs established in Fairfield County by the mid-2010s. They aggregate on sun-warmed south and west-facing walls before seeking indoor overwintering sites. They do not bite, sting, or damage structures but produce a strong odor when crushed.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Active June through September",
+        note: "Stamford's proximity to Long Island Sound and the Mianus River estuary creates favorable mosquito breeding habitat. Shoreline parks and low-lying residential areas with standing water sustain activity through late summer.",
+      },
+    ],
+    localHook:
+      "Stamford has one of Connecticut's highest concentrations of Lyme disease risk, driven by the city's wooded parks and the Mianus River Gorge preserve, which provides unbroken tick habitat across a large area. For residents with landscaped properties adjacent to those spaces, tick management is not a seasonal concern but a year-round one.",
+    intro:
+      "Pest control in Stamford, CT addresses a specific local risk profile. Fairfield County's documented Lyme disease rates place tick management at the center of any serious pest program here. Carpenter ants in older Stamford homes cause slow structural damage that homeowners often do not notice until a significant colony is already in place. And the Northeast fall rodent entry window, September through November, is consistent and predictable. PestRemovalUSA works across all three with programs designed for Stamford's specific housing and environment.",
+    sections: [
+      {
+        heading: "Deer Tick Risk in Stamford",
+        body: "The Connecticut Department of Public Health consistently reports Fairfield County among the state's highest Lyme disease incidence counties. Stamford's Mianus River Gorge preserve, Merritt Parkway corridor, and the network of wooded neighborhood parks create continuous tick habitat from spring through late fall. Deer ticks (Ixodes scapularis) are active whenever temperatures are above freezing, but nymphal tick season, May through July, represents the highest transmission period because nymphs are small enough to go undetected. A tick management program that targets the leaf litter and low vegetation at the lawn edge, where deer ticks concentrate, provides meaningful protection for families with outdoor-facing properties.",
+      },
+      {
+        heading: "Carpenter Ants in Older Stamford Homes",
+        body: "Carpenter ants in Stamford excavate galleries in wood that has been softened by moisture, which makes older homes with aging roof edges, wood decks, and basement sill plates particularly vulnerable. UConn Extension identifies carpenter ants as Connecticut's primary structural ant concern. The worker ants seen indoors in spring and summer are foragers from a parent colony that may be in a tree, a wood pile, or inside the structure itself. Frass, which looks like coarse sawdust mixed with insect parts, found near wall voids or window frames is the strongest indicator of an internal colony. Treating the satellite colonies indoors without finding and addressing the parent colony does not resolve the infestation.",
+      },
+      {
+        heading: "Mouse Entry Season in Fairfield County",
+        body: "House mice begin their fall transition from outdoor to indoor harborage in late September, with peak entry pressure in October and November across Stamford. A mouse can pass through a gap the size of a dime, which means the first step in any effective rodent program is a thorough exterior inspection. Entry points typically cluster around utility penetrations, garage door gaps, foundation cracks, and where pipes enter the building. Stamford's mix of attached row homes and detached single-family properties creates different exclusion challenges. In attached housing, rodents can move between units through shared wall voids without re-entering from outside.",
+      },
+      {
+        heading: "Stink Bugs and Fall Overwintering Pests",
+        body: "Brown marmorated stink bugs are now a reliable fall pest in Stamford after spreading through Fairfield County in the mid-2010s. They do not sting, bite, or cause structural damage, but they produce a strong odor when crushed and are a nuisance when populations are large. South and west-facing walls in direct sun attract the largest aggregations in September and October. Sealing gaps around windows, doors, and utility penetrations before the first cool nights in late September is the most effective prevention. Vacuuming and releasing rather than crushing them indoors avoids the smell response.",
+      },
+    ],
+    prevention: [
+      "Apply a tick treatment to the leaf litter and low vegetation at your lawn edge in May to target nymphal deer ticks at peak activity season",
+      "Keep firewood stacked away from the house and off the ground to reduce carpenter ant satellite colony establishment near the foundation",
+      "Seal all exterior gaps over a quarter inch before September 15 to get ahead of mouse entry season in Fairfield County",
+      "Fix roof edge flashing, gutter drip edges, and any fascia board moisture damage to eliminate the softened wood that carpenter ants prefer for colony excavation",
+      "Drain standing water in saucers, birdbaths, and low yard areas after rain events to reduce mosquito breeding through summer",
+    ],
+    costNote:
+      "Pest control in Stamford typically runs $95 to $160 for a general pest inspection and treatment. Tick treatment programs for residential properties, covering the lawn perimeter and brush borders, range from $120 to $250 per application. Carpenter ant programs involving inspection, targeted treatment, and moisture assessment run $150 to $350. Annual general pest plans in Fairfield County average $350 to $550.",
+    faqs: [
+      {
+        question:
+          "How high is the Lyme disease risk in Stamford compared to the rest of Connecticut?",
+        answer:
+          "Fairfield County is among the highest Lyme disease incidence counties in Connecticut, according to CT Department of Public Health surveillance data. Stamford's combination of extensive wooded parks, the Mianus River Gorge, and residential properties that back onto wooded land creates a high-tick-exposure environment for residents. Nymphal tick season from May through July represents the greatest risk period, as nymphs are small and may feed for days before being detected. Tick awareness, protective clothing, and professional perimeter treatment are all appropriate responses to Stamford's documented risk level.",
+      },
+      {
+        question:
+          "Is the sawdust I am finding near my Stamford windowsill a sign of carpenter ants?",
+        answer:
+          "Coarse, fibrous sawdust mixed with insect leg fragments, called frass, found near wood surfaces is a strong indicator of an active carpenter ant colony nearby. Carpenter ants do not eat wood but excavate it to create galleries, pushing the debris out through small kick-out holes. In Stamford homes, this most commonly appears near window frames, sill plates, and roof edges where wood has been softened by moisture. Finding frass indoors indicates a satellite colony inside the structure, which means the parent colony, likely in a tree or log pile outside, needs to be addressed as well.",
+      },
+      {
+        question:
+          "When should I seal my Stamford home to keep mice out?",
+        answer:
+          "The most effective window for mouse exclusion work in Stamford is late August through mid-September, before the fall entry pressure begins in earnest. Mouse populations in Fairfield County start moving toward structures in late September as overnight temperatures drop. Sealing before that migration starts means you are working without active pressure and can confirm the effectiveness of the exclusion before winter. Key entry points to prioritize are garage door gaps, utility pipe penetrations, and foundation cracks above the frost line.",
+      },
+      {
+        question:
+          "Are brown marmorated stink bugs in Stamford harmful or just a nuisance?",
+        answer:
+          "Brown marmorated stink bugs in Stamford are purely a nuisance pest. They do not bite, sting, or damage structures. They produce a strong defensive odor when threatened or crushed, and large overwintering aggregations indoors can be disruptive. They are not a health hazard and do not breed indoors over winter. The most effective response is sealing the exterior in September before they enter, and vacuuming without crushing any that make it inside.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Hartford", slug: "hartford" },
+      { name: "Bridgeport", slug: "bridgeport" },
+      { name: "New Haven", slug: "new-haven" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Stamford, CT | Deer Ticks, Carpenter Ants & Mice",
+    metaDescription:
+      "Stamford pest control for deer ticks, carpenter ants, house mice, stink bugs and mosquitoes. Fairfield County Lyme disease risk specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -768,4 +768,110 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Elgin pest control for house mice, brown marmorated stink bugs, carpenter ants, German cockroaches and yellowjackets. Kane County Fox River Chicago metro specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "springfield",
+    name: "Springfield",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T2",
+    population: "~114,000",
+    county: "Sangamon County",
+    climate: "cold-humid",
+    climateDriver:
+      "Springfield sits in central Illinois with a continental climate of cold winters and hot, humid summers. The Illinois Department of Public Health identifies German cockroaches as the most common cockroach in Illinois urban settings, and Springfield's mix of older state government buildings, apartments, and residential neighborhoods sustains year-round indoor cockroach pressure. Cold winters drive mice hard into buildings each fall, and the warm, humid summers feed carpenter ant and boxelder bug activity in the city's mature-tree neighborhoods.",
+    topPests: ["House Mice", "German Cockroaches", "Carpenter Ants", "Boxelder Bugs", "Earwigs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March, active year-round once inside",
+        note: "University of Illinois Extension identifies mice as the most commonly reported rodent pest in central Illinois homes. Springfield's fall mouse surge starts in late September and peaks through November. The city's mix of older housing and commercial corridors near the state capitol sustains base rodent populations that press into residential areas each fall.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "The Illinois Department of Public Health identifies German cockroaches as the most common and economically significant cockroach species in Illinois. In Springfield, they are persistent in apartment buildings, restaurants, and the older commercial buildings near the state capitol district. They breed entirely indoors and spread through shared infrastructure in multi-unit buildings.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Springfield's many mature trees and older neighborhoods create abundant carpenter ant habitat. University of Illinois Extension identifies carpenter ants as a primary structural ant pest in Illinois, noting that indoor infestations found in winter or spring indicate an established colony inside the structure rather than foragers from outside.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note: "Boxelder bugs aggregate by the hundreds on sun-facing walls in Springfield every fall before pushing into wall voids for winter. University of Illinois Extension confirms they are among the most frequently reported fall nuisance pests in central Illinois communities.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, move indoors during hot, dry spells",
+        note: "Earwigs are a common outdoor-to-indoor nuisance pest in Springfield during hot, dry summer periods. They breed in moist soil and mulch close to the foundation and move indoors seeking moisture. University of Illinois Extension notes earwigs are a frequent complaint pest in Illinois homeowner surveys.",
+      },
+    ],
+    localHook:
+      "Springfield's position in central Illinois means the full seasonal pest calendar plays out here: spring carpenter ants, summer cockroaches, fall boxelder bugs and mice. The state capitol complex and surrounding older neighborhoods have mature trees and aging structures that create the moisture and wood-contact conditions carpenter ants seek. The Illinois Department of Public Health ranks German cockroaches as the most common cockroach in Illinois urban settings, and Springfield's government district housing and multi-family buildings are classic environments for them.",
+    intro:
+      "Pest control in Springfield follows central Illinois's hard seasonal rhythm. House mice are the most widely reported fall pest, with University of Illinois Extension placing the surge in late September through November. German cockroaches are the year-round indoor pest in apartments, restaurants, and older commercial buildings near the state capitol, with the Illinois Department of Public Health identifying them as the most common cockroach in Illinois urban settings. Carpenter ants target the moisture conditions Springfield's mature-tree neighborhoods and wet springs create. Boxelder bugs provide the most visible fall spectacle, and earwigs round out the seasonal complaint list during hot, dry summer spells.",
+    sections: [
+      {
+        heading: "German cockroaches in Springfield's capitol district buildings",
+        body: "Springfield's role as Illinois's capital creates a concentration of older commercial buildings, government facilities, and mixed-use properties that are classic environments for German cockroach activity. The Illinois Department of Public Health identifies German cockroaches as the most economically significant cockroach in Illinois, and they are most persistent in buildings where food service, high occupancy, and older plumbing infrastructure combine. In apartment buildings and older commercial properties, they spread through shared wall voids and plumbing connections regardless of conditions in any individual unit. Gel bait placed in harborage sites inside cabinets, under appliances, and near plumbing connections is more effective in these settings than broadcast spray.",
+      },
+      {
+        heading: "Carpenter ants in Springfield's mature neighborhoods",
+        body: "Springfield's older neighborhoods, including those on the historic near-west and near-east sides, have mature trees with decayed heartwood and aging housing framing that carpenter ants exploit readily. University of Illinois Extension confirms carpenter ants are one of the most common structural ant pests in Illinois, and their indoor presence in winter or spring is a reliable indicator of an established colony inside the walls rather than foragers coming in from outside. The most common signs are coarse frass near windowsills or baseboards and occasional sightings of large black ants in unlikely indoor locations in early spring. Treatment must locate and address the indoor colony; perimeter-only applications do not resolve an established interior infestation.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and the gap under garage doors in September before the fall mouse surge.",
+      "Inspect window frames and tree-adjacent walls each spring for moisture-softened wood that may harbor carpenter ants.",
+      "Seal gaps around siding, utility lines, and eaves before September to limit boxelder bug entry into walls.",
+      "Reduce mulch depth against the foundation and fix drainage issues to reduce earwig breeding near the home.",
+    ],
+    costNote:
+      "Springfield pest control is typically structured as an annual plan covering rodents, ants, spiders, and cockroaches with seasonal boxelder bug treatment added in fall. A free assessment identifies the specific pressure at your property and recommends the appropriate service level.",
+    faqs: [
+      {
+        question: "When is the mouse problem worst in Springfield, Illinois?",
+        answer:
+          "The fall surge in Springfield typically starts in late September and peaks through October and November. University of Illinois Extension confirms mice are the most common rodent complaint across central Illinois each fall. Sealing foundation gaps and the gap under garage doors in September is the most cost-effective prevention step. Once mice are inside, professional baiting and exclusion is the most efficient response.",
+      },
+      {
+        question: "Why are German cockroaches so common in Springfield?",
+        answer:
+          "Springfield's mix of older multi-family housing, commercial food operations, and the high building density of the capitol district creates the warmth, food access, and shared infrastructure that German cockroaches exploit. The Illinois Department of Public Health identifies German cockroaches as the most common and economically significant cockroach in Illinois urban settings. In Springfield's older buildings, they spread through shared wall voids and plumbing connections in ways that require coordinated building-wide treatment for lasting results.",
+      },
+      {
+        question: "How do I know if I have carpenter ants versus regular ants in my Springfield home?",
+        answer:
+          "Carpenter ants are significantly larger than most household ants, typically a quarter inch or more in length, black or black-and-red, and often found near wooden structures or emerging from wall voids rather than trailing from food sources. Coarse frass that looks like fine sawdust near baseboards or window frames is a more reliable indicator than the ants themselves. University of Illinois Extension notes that finding carpenter ants indoors in winter strongly suggests an established indoor colony requiring professional treatment.",
+      },
+      {
+        question: "How do I stop boxelder bugs from entering my Springfield home?",
+        answer:
+          "Treat the exterior when they first begin aggregating in September, and seal gaps around siding, utility lines, and eaves at the same time. Exterior treatment before they mass is more effective than waiting until they push through gaps into the wall voids. Once inside the walls, they cannot be removed until spring when warming temperatures drive them out naturally.",
+      },
+      {
+        question: "Is year-round pest control worth it in Springfield?",
+        answer:
+          "For homes with German cockroach pressure or persistent mouse activity, year-round treatment is more cost-effective than reactive one-time applications. Both pests are effectively active inside year-round and do not respond to seasonal treatment schedules. For outdoor pest management, seasonal visits aligned to carpenter ant spring, summer perimeter, and fall mouse and boxelder bug prevention cover most Springfield homes well.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Chicago", slug: "chicago" },
+      { name: "Peoria", slug: "peoria" },
+      { name: "Rockford", slug: "rockford" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Springfield, IL | Mice, Cockroaches & Carpenter Ants",
+    metaDescription:
+      "Springfield pest control for house mice, German cockroaches, carpenter ants, boxelder bugs and earwigs. Sangamon County Illinois state capital specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

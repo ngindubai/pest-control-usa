@@ -2925,4 +2925,322 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Abilene pest control for brown recluse spiders, striped bark scorpions, fire ants, cockroaches and termites. Taylor County West Texas specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "carrollton",
+    name: "Carrollton",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~136,000",
+    county: "Dallas and Denton Counties",
+    climate: "hot-humid",
+    climateDriver:
+      "Carrollton spans the Dallas and Denton County line in the north DFW metro, where hot, humid summers and mild winters create year-round pest activity. Texas A&M AgriLife Extension estimates fire ant colonies at one to two per acre in DFW suburban lawns, and Carrollton's heavy clay soils retain the moisture that Eastern subterranean termites need year-round. Trinity River tributaries running through the area create mosquito breeding habitat in residential drainages.",
+    topPests: ["Fire Ants", "Subterranean Termites", "German Cockroaches", "Mice", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active March through November, slower in cool winters",
+        note: "Texas A&M AgriLife Extension estimates fire ant colonies at one to two per acre in DFW suburban lawns. In Carrollton, mounds appear in lawns, planting beds, and along sidewalk edges throughout the warm season. Their stings cause real pain and can trigger serious allergic reactions. Broadcast bait programs provide more sustained yard-wide control than spot-treating individual mounds.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms February through April",
+        note: "Texas A&M AgriLife Extension places the DFW area in a high termite pressure zone. Carrollton's expansive clay soils retain moisture that Eastern subterranean termites need, and the mild Dallas winters mean termite colonies remain active year-round. Annual inspections are the standard recommendation for all DFW homes.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor cockroach in Carrollton's apartment buildings, restaurants, and commercial kitchens. They breed entirely indoors and spread through shared plumbing and wall voids in multi-unit buildings. Texas A&M AgriLife Extension identifies them as the most economically significant cockroach in Texas's urban environments.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Carrollton's mild winters do not prevent a fall mouse surge. Texas A&M AgriLife Extension identifies fall as the primary entry period for mice in North Texas as temperatures cool. Properties near Trinity River drainage corridors and open space areas see higher fall rodent pressure than more interior suburban locations.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peak April through October",
+        note: "Carrollton's Trinity River tributary drainage system and residential retention areas create mosquito breeding habitat close to neighborhoods. Texas A&M AgriLife Extension notes the DFW area's mosquito season runs from April through October, with peak pressure in June and July.",
+      },
+    ],
+    localHook:
+      "Carrollton spans both Dallas and Denton counties in the DFW metro's north corridor, where fire ants and subterranean termites are year-round management challenges rather than seasonal inconveniences. Texas A&M AgriLife Extension estimates fire ant colonies at one to two per acre in DFW suburban lawns, and Carrollton's heavy clay soils create year-round termite-favorable conditions. These are not threats to address reactively; they are built into the DFW pest landscape and require consistent prevention.",
+    intro:
+      "Pest control in Carrollton manages the full range of North Texas suburban threats. Fire ants are omnipresent in Carrollton's lawns and landscaping from March through November, with Texas A&M AgriLife Extension estimating one to two colonies per acre in the DFW suburban landscape. Subterranean termites are active year-round in Carrollton's clay soils, and any home without a current prevention program carries genuine structural risk. German cockroaches maintain year-round indoor populations in apartment buildings and restaurants. Mice arrive in fall from open space corridors. And the Trinity River drainage network creates meaningful mosquito pressure from April through October.",
+    sections: [
+      {
+        heading: "Fire ants and termites: Carrollton's two year-round structural threats",
+        body: "Carrollton's DFW clay soils are the common factor behind both fire ant prevalence and termite activity. The clay retains moisture through dry spells, keeping soil conditions that Eastern subterranean termites need for year-round foraging. Fire ants also thrive in the same clay soil, building colonies that can contain 200,000 to 500,000 workers and spreading aggressively across any undisturbed turf area. Texas A&M AgriLife Extension recommends broadcast bait programs for fire ant management across the full yard rather than individual mound treatments, noting that the two-step approach, broadcast bait followed by treatment of any remaining mounds, provides more sustained control than mound-by-mound treatment alone. For termites, annual inspection is the professional standard, and homes without a current prevention barrier should prioritize getting one before swarm season in February.",
+      },
+      {
+        heading: "Cockroaches and mice in Carrollton's residential and commercial corridor",
+        body: "The George Bush Turnpike and I-35E corridor through Carrollton includes a substantial commercial and restaurant cluster that sustains year-round German cockroach activity in adjacent residential neighborhoods through shared utility infrastructure. German cockroaches spread through plumbing and wall voids in multi-unit buildings and cannot be controlled by single-unit treatment alone in a shared-wall setting. Mice arrive each fall when temperatures drop below the point that draws them away from open space into heated structures. Properties near Trinity River Elm Fork drainage corridors in western Carrollton see earlier and heavier fall rodent pressure than properties farther from open space.",
+      },
+    ],
+    prevention: [
+      "Apply broadcast fire ant bait in spring across the full yard for sustained control rather than treating individual mounds.",
+      "Schedule annual termite inspections; Carrollton's clay soils create year-round termite-favorable conditions.",
+      "Seal foundation gaps and the gap under garage doors in September before the fall mouse surge.",
+      "Eliminate standing water in drainage areas and plant saucers weekly during mosquito season.",
+    ],
+    costNote:
+      "Carrollton pest control is typically quoted as an annual plan covering fire ants, cockroaches, spiders, and rodents with termite inspection quoted separately. Mosquito yard treatment is available as a seasonal add-on. A free assessment establishes the current threat level and recommends the right program for your property.",
+    faqs: [
+      {
+        question: "How do I control fire ants in my Carrollton lawn?",
+        answer:
+          "Texas A&M AgriLife Extension recommends the two-step approach: apply broadcast fire ant bait across the full lawn in spring when workers are actively foraging, then follow up by treating individual surviving mounds with a contact insecticide or drench. Broadcast bait is more effective than spot treatment alone because it addresses the full yard rather than just visible mounds. Results from bait take two to four weeks but provide more sustained control.",
+      },
+      {
+        question: "Does my Carrollton home need termite prevention even if I have not seen any?",
+        answer:
+          "Yes. Eastern subterranean termites in Carrollton's clay soils are active year-round, and colonies cause significant damage before they become visible to homeowners. Texas A&M AgriLife Extension recommends annual inspections for all DFW homes. A home without a current prevention barrier in Carrollton's high-pressure termite environment is a structural risk. The inspection is inexpensive relative to the repair cost if an established colony is discovered years later.",
+      },
+      {
+        question: "When does termite swarming season start in Carrollton?",
+        answer:
+          "Eastern subterranean termites in the DFW area typically swarm from late February through April, often after warm rain events. Swarmers are winged and look similar to winged ants. If you find swarmers inside your home near windows or floor vents, that strongly indicates an established colony in or near the structure. Contact a licensed professional immediately for an inspection.",
+      },
+      {
+        question: "Are German cockroaches common in Carrollton apartments?",
+        answer:
+          "Yes. German cockroaches are the dominant cockroach species in the DFW metro's multi-family housing and commercial food operations. In Carrollton's apartment complexes, they spread through shared wall voids and plumbing connections between units regardless of individual unit conditions. Single-unit treatment controls visible populations temporarily but typically leads to re-infestation from untreated adjacent units within weeks. Building-wide coordinated treatment is the only approach that produces lasting results.",
+      },
+      {
+        question: "Is year-round pest control worth it for a Carrollton homeowner?",
+        answer:
+          "For most Carrollton homeowners, yes. Fire ants, subterranean termites, and German cockroaches are effectively year-round management challenges in the DFW climate. A year-round program with quarterly visits and seasonal emphasis on termite inspection in winter, fire ant treatment in spring, mosquito control in summer, and rodent exclusion in fall covers the full Carrollton pest calendar more cost-effectively than reactive treatments.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Dallas", slug: "dallas" },
+      { name: "Plano", slug: "plano" },
+      { name: "Denton", slug: "denton" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Carrollton, TX | Fire Ants, Termites & Cockroaches",
+    metaDescription:
+      "Carrollton pest control for fire ants, subterranean termites, German cockroaches, mice and mosquitoes. Dallas and Denton County DFW north metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "round-rock",
+    name: "Round Rock",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~128,000",
+    county: "Williamson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Round Rock sits in Williamson County north of Austin, where Central Texas's hot summers and mild winters support year-round pest activity. Texas A&M AgriLife Extension notes that new construction in Central Texas frequently disturbs existing scorpion habitat, and Round Rock's rapid growth on former cedar scrub and oak savanna has displaced striped bark scorpions into newly built homes. Fire ants and subterranean termites are year-round management challenges in the DFW-to-Austin corridor.",
+    topPests: ["Striped Bark Scorpions", "Fire Ants", "Subterranean Termites", "German Cockroaches", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Active April through October, most frequent indoor encounters in summer",
+        note: "Texas A&M AgriLife Extension notes that new construction in Central Texas disrupts established scorpion habitat, driving striped bark scorpions into newly built homes. Round Rock's rapid expansion onto former cedar scrub produces consistent scorpion complaints in neighborhoods built in the last 15 years, particularly those adjacent to undeveloped cedar and limestone outcrop areas.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most aggressive March through November",
+        note: "Fire ants are established throughout Williamson County and are among the most reliably encountered outdoor pests in Round Rock. Texas A&M AgriLife Extension estimates one to two fire ant colonies per acre in Central Texas suburban lawns. Broadcast bait programs provide more sustained yard-wide control than treating individual mounds.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms February through April",
+        note: "Texas A&M AgriLife Extension places Williamson County in a high termite pressure zone. Round Rock's clay soils retain moisture year-round, and the warm Central Texas winters mean termite colonies never fully shut down. Annual inspections are the professional standard for all Central Texas homes.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor cockroach in Round Rock's apartment complexes, commercial kitchens, and restaurants. The city's rapid population growth has created a large multi-family housing inventory where German cockroaches spread readily through shared building infrastructure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peak April through October",
+        note: "Round Rock's retention ponds, Brushy Creek corridor, and residential drainage areas create mosquito breeding habitat close to neighborhoods. Texas A&M AgriLife Extension notes the Austin metro's mosquito season runs April through October, with peak pressure in early summer following spring rains.",
+      },
+    ],
+    localHook:
+      "Round Rock has grown from a small farming town to one of Texas's fastest-growing cities, with thousands of homes built on former cedar scrub and oak savanna. Texas A&M AgriLife Extension notes that new construction in Central Texas disrupts established scorpion habitat, driving striped bark scorpions into newly built homes as their native surroundings are cleared. In Round Rock's newest neighborhoods adjacent to undeveloped cedar and limestone areas, scorpion encounters inside the home are a genuine and routine pest issue rather than a rare event.",
+    intro:
+      "Pest control in Round Rock addresses the full range of Williamson County's pest pressure, with the addition of a scorpion challenge that comes directly from the city's rapid growth pattern. Texas A&M AgriLife Extension documents the connection between Central Texas construction activity and displaced scorpion populations, and Round Rock's newest neighborhoods adjacent to cedars and limestone outcrops experience consistent indoor scorpion encounters. Fire ants and subterranean termites are year-round management challenges throughout Williamson County. German cockroaches maintain indoor populations in the city's extensive multi-family housing inventory. And Brushy Creek and residential retention ponds sustain mosquito activity from April through October.",
+    sections: [
+      {
+        heading: "Scorpions in Round Rock's newest neighborhoods",
+        body: "The striped bark scorpion is Central Texas's most commonly encountered scorpion species, and Round Rock's construction pace keeps displacing existing populations as cedar scrub and limestone terrain is cleared for new subdivisions. Texas A&M AgriLife Extension documents this connection consistently: homes built adjacent to undeveloped cedar and limestone areas in fast-growing Austin-area communities see above-average scorpion encounters in the first several years after construction. Scorpions are nocturnal and enter homes through gaps under doors, around utility penetrations, and through weep holes in brick construction. They hide during the day in cool, sheltered spots: under baseboards, in shoes left on the floor, and in storage areas. Removing harborage from foundation margins, sealing entry gaps, and treating the perimeter systematically reduces interior encounters. Checking shoes and gear stored in the garage is a practical daily habit for Round Rock residents in newer neighborhoods near undeveloped land.",
+      },
+      {
+        heading: "Termites and fire ants in Williamson County's clay soils",
+        body: "Round Rock's Williamson County clay soils create conditions that favor both subterranean termites and fire ants year-round. Eastern subterranean termites forage through the moisture-retaining clay even during Central Texas's driest stretches, and Texas A&M AgriLife Extension notes the Austin metro's mild winters mean termite colonies never go dormant. Fire ant colonies at one to two per acre in suburban lawns produce the mound activity that Round Rock homeowners encounter in their yards, along driveways, and around utility box covers every warm month. Annual termite inspections and spring fire ant bait programs are the foundation of any Round Rock pest prevention plan.",
+      },
+    ],
+    prevention: [
+      "Seal gaps under doors, around utility penetrations, and in weep holes to reduce scorpion entry into newer Round Rock homes.",
+      "Check shoes, gear, and clothing stored in garages and on floors as a daily habit in neighborhoods near undeveloped land.",
+      "Apply broadcast fire ant bait in spring for yard-wide sustained control rather than treating individual mounds.",
+      "Schedule annual termite inspections; Williamson County's clay soils and mild winters create year-round termite activity.",
+    ],
+    costNote:
+      "Round Rock pest control is typically structured as an annual plan covering scorpions, fire ants, cockroaches, and general pests. Termite prevention is quoted separately based on foundation type and home size. Mosquito yard treatment is available as a seasonal add-on. A free assessment establishes the right program for your property.",
+    faqs: [
+      {
+        question: "Why do scorpions keep getting into my newer Round Rock home?",
+        answer:
+          "Texas A&M AgriLife Extension documents that new construction in Central Texas disturbs established scorpion habitat, displacing striped bark scorpions toward built structures. If your Round Rock home is adjacent to undeveloped cedar scrub or limestone terrain, scorpion pressure is built into your location and requires ongoing management rather than a one-time treatment. Sealing entry gaps, removing harborage from the foundation margin, and professional perimeter treatment together produce meaningful reduction in encounters.",
+      },
+      {
+        question: "Are striped bark scorpions dangerous in Round Rock?",
+        answer:
+          "The striped bark scorpion is Central Texas's most common scorpion species. Their sting causes significant pain and local swelling, similar to a wasp sting for most adults. Serious systemic reactions are uncommon but possible. For children and individuals with health conditions, prompt medical attention after a sting is the appropriate response. Texas A&M AgriLife Extension recommends checking shoes, gear, and any items left on the floor in homes with active scorpion pressure.",
+      },
+      {
+        question: "When do termites swarm in Round Rock?",
+        answer:
+          "Eastern subterranean termites in the Austin metro typically swarm from February through April, often after warm rain events. Swarmers resemble winged ants and emerge from the soil or from infested wood in groups. Finding swarmers indoors near windows, doors, or floor vents strongly suggests an established colony in or near the structure. Contact a licensed professional immediately for an inspection.",
+      },
+      {
+        question: "How do I control fire ants in my Round Rock yard?",
+        answer:
+          "Texas A&M AgriLife Extension recommends broadcast bait applied across the full yard in spring when foragers are actively feeding. The two-step approach, broadcast bait followed by individual mound treatment for any survivors two weeks later, provides more sustained yard-wide control than spot treating alone. Avoid using contact insecticide before applying bait: contact spray kills the foragers that would otherwise carry bait back to the colony.",
+      },
+      {
+        question: "Is year-round pest control worth it in Round Rock?",
+        answer:
+          "For most Round Rock homeowners, particularly those in newer neighborhoods near undeveloped cedar and limestone terrain, yes. Scorpions, termites, and fire ants are effectively year-round management challenges in Williamson County's climate. A year-round program with quarterly visits and seasonal emphasis on scorpion perimeter treatment in spring, fire ant bait in spring, termite inspection in winter, and mosquito control in summer covers the full Round Rock calendar more cost-effectively than reactive treatments.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Austin", slug: "austin" },
+      { name: "San Antonio", slug: "san-antonio" },
+      { name: "Waco", slug: "waco" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Round Rock, TX | Scorpions, Fire Ants & Termites",
+    metaDescription:
+      "Round Rock pest control for striped bark scorpions, fire ants, subterranean termites, German cockroaches and mosquitoes. Williamson County Central Texas Austin metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lewisville",
+    name: "Lewisville",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~108,000",
+    county: "Denton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Lewisville sits in Denton County north of Dallas, adjacent to Lake Lewisville, which provides significant mosquito breeding habitat along its extensive shoreline and greenbelt parks. The DFW clay soils retain moisture that Eastern subterranean termites need year-round, and Texas A&M AgriLife Extension estimates fire ant colonies at one to two per acre in the DFW suburban landscape. Lewisville's mild winters mean pest activity never fully stops.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "German Cockroaches", "Mice"],
+    pestProfile: [
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most aggressive March through November",
+        note: "Fire ants are a permanent presence in Lewisville's lawns and landscaping, with Texas A&M AgriLife Extension estimating one to two colonies per acre in DFW suburban settings. Lewisville's greenbelt parks and Lake Lewisville shoreline areas provide undisturbed turf habitat that sustains large fire ant populations adjacent to residential streets.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms February through April",
+        note: "Texas A&M AgriLife Extension places Denton County in a high termite pressure zone. Lewisville's DFW clay soils retain moisture that Eastern subterranean termites need year-round, and the mild winters mean colonies remain active between seasons. Annual inspections are the professional standard.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peak April through October",
+        note: "Lake Lewisville's miles of shoreline, coves, and surrounding greenbelt create substantial mosquito breeding habitat adjacent to residential neighborhoods. Texas A&M AgriLife Extension notes that proximity to a major lake increases mosquito pressure compared to inland DFW neighborhoods not adjacent to large water bodies.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor cockroach in Lewisville's apartment complexes, restaurants, and commercial kitchens. They breed entirely indoors and spread through shared plumbing and utility connections in multi-unit buildings.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Lewisville's mild DFW winters still produce a fall mouse surge as temperatures cool. Properties near Lake Lewisville's greenbelt corridors and the Elm Fork Trinity River see higher fall rodent pressure than more interior suburban locations as mice move from open land toward heated structures.",
+      },
+    ],
+    localHook:
+      "Lewisville sits on the south shore of Lake Lewisville, one of North Texas's largest reservoirs. The lake's miles of shoreline, greenbelt parks, and coved inlets create mosquito breeding habitat that gives lakeside Lewisville neighborhoods noticeably higher mosquito pressure than DFW suburbs farther from large water bodies. Add fire ants in every lawn, year-round subterranean termites in the DFW clay soil, and a fall mouse surge from the lake's greenbelt corridors, and Lewisville benefits from a year-round prevention program.",
+    intro:
+      "Pest control in Lewisville manages the standard DFW suburban pest calendar with the added mosquito pressure that Lake Lewisville's shoreline creates. Fire ants are a year-round lawn reality, with Texas A&M AgriLife Extension estimating one to two colonies per acre in Denton County suburban settings. Subterranean termites are an active structural risk in the DFW clay soils. Mosquitoes peak from April through October and are above-average near the lake shoreline and greenbelt parks. German cockroaches maintain year-round indoor populations in multi-family housing and food service. And mice arrive in fall from greenbelt corridors adjacent to the lake.",
+    sections: [
+      {
+        heading: "Lake Lewisville and above-average mosquito pressure",
+        body: "Lake Lewisville is one of Texas's most heavily used recreational reservoirs, with 23,000 surface acres and more than 230 miles of shoreline. The coves, inlets, and greenbelt parks along that shoreline create extensive shallow-water mosquito breeding habitat that sustains activity through October in normal rainfall years. Texas A&M AgriLife Extension notes that proximity to a major reservoir increases neighborhood-level mosquito pressure compared to inland DFW locations. Lewisville residents in neighborhoods bordering the lake parks and shoreline should expect above-average mosquito activity from May through September. Weekly elimination of any standing water near the home reduces close-in breeding. Professional yard treatment provides the most effective protection for outdoor living areas during peak season.",
+      },
+      {
+        heading: "Fire ants and termites in Denton County's clay soils",
+        body: "Lewisville's Denton County clay soils are the common factor behind both fire ant prevalence and subterranean termite activity. Clay retains moisture through dry spells, keeping conditions favorable for Eastern subterranean termite foraging year-round. Fire ants build colonies in the same clay soil and spread aggressively across any undisturbed turf area. Texas A&M AgriLife Extension recommends broadcast bait programs in spring for fire ant management across the full yard, followed by treatment of any surviving mounds two weeks later. For termites, annual inspection and an active prevention barrier are the professional standard in Denton County's high-pressure environment.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water near the home weekly during mosquito season, paying attention to Lake Lewisville greenbelt drainage.",
+      "Apply broadcast fire ant bait in spring across the full lawn before individual mound treatment.",
+      "Schedule annual termite inspections; Lewisville's DFW clay soils create year-round favorable conditions.",
+      "Seal foundation gaps and the gap under garage doors in September before the fall mouse surge from greenbelt corridors.",
+    ],
+    costNote:
+      "Lewisville pest control is typically structured as an annual plan covering fire ants, cockroaches, spiders, and rodents. Termite prevention is quoted separately. Lake proximity mosquito yard treatment is available as a seasonal add-on. A free assessment establishes the current pest pressure and recommends the right program for your specific location.",
+    faqs: [
+      {
+        question: "Are mosquitoes worse in Lewisville because of the lake?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension notes that proximity to a major reservoir increases local mosquito pressure compared to inland DFW neighborhoods. Lake Lewisville's shoreline coves, greenbelt parks, and shallow inlets create extensive breeding habitat that sustains activity through October. Residents in neighborhoods bordering the lake parks experience above-average mosquito activity during peak season.",
+      },
+      {
+        question: "How do I control fire ants in my Lewisville yard?",
+        answer:
+          "Texas A&M AgriLife Extension recommends broadcast bait applied across the full yard in spring. The two-step approach, broadcast bait followed by individual mound treatment for any survivors two weeks later, provides more sustained yard-wide control than spot treating alone. Avoid applying contact insecticide before bait: it kills the foragers that would otherwise carry bait back to the colony.",
+      },
+      {
+        question: "Does my Lewisville home need termite prevention?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension places Denton County in a high termite pressure zone, and Lewisville's DFW clay soils create favorable conditions year-round. Annual inspections are the professional standard. Any home without a current prevention barrier in Lewisville's high-pressure environment carries genuine structural risk. The inspection is inexpensive compared to the cost of discovering an established infestation years later.",
+      },
+      {
+        question: "When does the fall mouse surge start in Lewisville?",
+        answer:
+          "The fall surge typically starts in late September in the DFW area. Properties near Lake Lewisville's greenbelt corridors and the Elm Fork Trinity River see earlier and heavier pressure than properties farther from open space. Sealing foundation gaps and the gap under garage doors in September is the most cost-effective prevention step.",
+      },
+      {
+        question: "What pest control plan makes sense for a Lewisville homeowner near the lake?",
+        answer:
+          "For Lewisville properties adjacent to Lake Lewisville greenbelt parks, the most practical plan includes year-round general pest treatment, seasonal mosquito yard treatment from April through October, annual termite inspection, and spring fire ant broadcast bait. Fall emphasis on rodent exclusion addresses the greenbelt mouse pressure. This combination covers the full Lewisville pest calendar more cost-effectively than reactive treatments for each threat as it appears.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Dallas", slug: "dallas" },
+      { name: "Denton", slug: "denton" },
+      { name: "Carrollton", slug: "carrollton" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Lewisville, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Lewisville pest control for fire ants, subterranean termites, mosquitoes, German cockroaches and mice. Denton County Lake Lewisville DFW north specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

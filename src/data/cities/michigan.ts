@@ -545,4 +545,216 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Sterling Heights pest control for house mice, carpenter ants, German cockroaches, yellow jackets and stink bugs. Macomb County Detroit metro specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "warren",
+    name: "Warren",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T2",
+    population: "~135,000",
+    county: "Macomb County",
+    climate: "cold-humid",
+    climateDriver:
+      "Warren is Michigan's third-largest city and a dense Detroit suburb in Macomb County, with a continental climate of cold winters and humid summers. Hard falls drive house mice firmly into the area's dense mix of postwar single-family homes and commercial industrial corridors. The manufacturing sector brings food and storage facilities that sustain Norway rat populations near commercial areas. Warm, humid summers support carpenter ant activity in older housing stock.",
+    topPests: ["House Mice", "Carpenter Ants", "German Cockroaches", "Stink Bugs", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March, active year-round once inside",
+        note: "The fall mouse surge hits the entire Detroit metro hard, and Warren's mix of older housing and commercial industrial activity makes it one of the more active areas in Macomb County. Michigan State University Extension identifies mice as the most commonly reported rodent pest in Michigan homes, with the fall surge starting as early as September.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Carpenter ants are a consistent problem in Warren's older postwar housing, where moisture around window frames, soffits, and deck framing provides nesting sites. Michigan State University Extension notes that carpenter ants found indoors in winter or spring almost always indicate an established colony inside the structure rather than foraging from outside.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the primary cockroach species in Warren's apartment buildings, restaurants, and commercial food operations. They breed entirely indoors and spread through shared wall voids and plumbing access points in multi-unit buildings, regardless of conditions in any individual unit.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade buildings September through November",
+        note: "Brown marmorated stink bugs aggregate on the sunny exterior walls of Warren homes every fall before pushing through gaps to overwinter inside. Michigan State University Extension tracks stink bug populations across southeast Michigan, where fall invasions have increased significantly since the pest established itself in the Detroit metro region.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nest building May through September, most aggressive in late summer",
+        note: "Yellow jackets build colonies in wall voids, ground nests, and under overhangs throughout Warren's residential neighborhoods during summer. Colony size peaks in late August and September, when they become most defensive. Disturbing an in-wall nest accidentally during home maintenance is the most common trigger for Warren resident calls.",
+      },
+    ],
+    localHook:
+      "Warren is Michigan's third-largest city and one of the Detroit metro's most active areas for fall rodent pressure. Michigan State University Extension identifies mice as the most commonly reported rodent pest in Michigan homes, and Warren's mix of older postwar housing and commercial industrial corridors creates a combination of entry opportunities and attractants that makes early fall exclusion work more important than in suburban areas farther from the city center.",
+    intro:
+      "Pest control in Warren follows the Detroit metro's hard seasonal rhythm with some additional pressure from the city's industrial heritage. House mice arrive reliably every October in Warren's postwar neighborhoods, and Michigan State University Extension ranks them as the most common rodent pest complaint statewide. Carpenter ants exploit the moisture that Warren's older housing stock accumulates around windows, soffits, and deck framing through Michigan's wet springs. German cockroaches are a year-round indoor concern in apartment buildings and commercial kitchens. Stink bugs deliver a predictable fall wall invasion, and yellow jacket colonies peak in late summer in wall voids and ground nests across the city.",
+    sections: [
+      {
+        heading: "Fall mouse pressure in Warren's residential neighborhoods",
+        body: "Warren's fall mouse surge typically starts in late September and is most intense through October and November. The city's mix of older housing with more entry points and commercial activity with food attractants creates a combination that sustains higher rodent pressure than newer, more distant suburbs. The practical prevention window is September, before temperatures drop and mice begin actively pressing in. Sealing foundation gaps, pipe penetrations, utility line entry points, and the gap under garage doors is the primary exclusion work. Inside, snap traps in active travel areas provide quick early detection. Once mice are established in walls and attics, professional baiting and exclusion is the most efficient solution.",
+      },
+      {
+        heading: "Carpenter ants in older Warren housing",
+        body: "Warren's postwar housing stock, much of it built in the 1950s and 1960s, has accumulated moisture issues around original window frames, soffit boards, and any deck or addition framing over the decades. Carpenter ants seek exactly these conditions: soft, moisture-affected wood where they excavate nesting galleries. The most reliable indoor sign is coarse sawdust-like frass near window frames or baseboards, particularly in spring after they have been active inside over winter. Finding carpenter ants indoors in winter always means an established indoor colony. Treatment targets the indoor colony directly, not just perimeter application.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and garage door sweeps in September before the fall mouse surge.",
+      "Inspect window frames and soffits each spring for moisture-softened wood that may harbor carpenter ants.",
+      "Seal gaps around siding and utility penetrations before September to limit stink bug entry.",
+      "Check under overhangs, soffits, and in shrub beds in June for early yellow jacket nest building.",
+    ],
+    costNote:
+      "Warren pest control is typically structured as an annual plan covering rodents, ants, cockroaches, and wasps with seasonal stink bug treatment added in fall. Commercial properties near food operations may benefit from monthly monitoring. A free assessment establishes the right plan for your property.",
+    faqs: [
+      {
+        question: "When does the mouse problem peak in Warren, Michigan?",
+        answer:
+          "The fall surge in Warren typically starts in late September and peaks through October and November. Michigan State University Extension ranks mice as the most common rodent pest in Michigan homes each fall. Sealing foundation gaps and the gap under garage doors in September is more effective than reacting after mice are already inside. Snap traps in active areas are the first indoor response.",
+      },
+      {
+        question: "Why do I keep getting carpenter ants in my Warren home?",
+        answer:
+          "Finding carpenter ants indoors in winter or spring means there is an established colony inside the structure, not just foragers entering from outside. Carpenter ants nest in moisture-affected wood, and Warren's older housing has accumulated moisture issues around windows, soffits, and deck framing over the years. A licensed technician can locate the colony and treat it directly. Perimeter-only treatment does not address an established indoor colony.",
+      },
+      {
+        question: "How do I deal with a yellow jacket nest in my Warren wall?",
+        answer:
+          "Do not seal the entry hole before treating; that traps yellow jackets inside and can force them through wall openings into your living space. A licensed professional applies insecticide to the nest through the existing entry hole at night when the colony is least active. After the colony dies, seal the entry point to prevent reuse in future seasons. Never attempt to seal an active nest without treatment.",
+      },
+      {
+        question: "Are German cockroaches hard to eliminate in Warren apartments?",
+        answer:
+          "In Warren's multi-family buildings, German cockroaches spread through shared wall voids and plumbing connections between units. Single-unit treatment controls the visible infestation but often leads to re-infestation from adjacent untreated units within weeks. Building-wide coordinated treatment is the only approach that produces lasting results in multi-unit settings. Gel bait in harborage sites is more effective than spray in shared-wall buildings.",
+      },
+      {
+        question: "What pests should I expect year-round in Warren?",
+        answer:
+          "German cockroaches and mice are effectively year-round pests in Warren's older housing and commercial buildings. Carpenter ants are active from April through September. Yellow jackets build and peak from May through September. Stink bugs invade in fall. A prevention program that addresses all of these with seasonal adjustment is the most cost-effective approach for most Warren homeowners.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Sterling Heights", slug: "sterling-heights" },
+      { name: "Dearborn", slug: "dearborn" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Warren, MI | Mice, Carpenter Ants & Cockroaches",
+    metaDescription:
+      "Warren pest control for house mice, carpenter ants, German cockroaches, stink bugs and yellow jackets. Macomb County Detroit metro third-largest city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "dearborn",
+    name: "Dearborn",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T2",
+    population: "~109,000",
+    county: "Wayne County",
+    climate: "cold-humid",
+    climateDriver:
+      "Dearborn is a dense Detroit suburb in Wayne County with a continental climate. Cold winters drive house mice and Norway rats into the city's mix of older residential buildings and commercial properties. The city's proximity to major Ford Motor facilities and commercial food corridors sustains rodent populations near industrial areas. Wet Michigan springs create moisture conditions in older housing that support carpenter ants and Oriental cockroaches in basement areas.",
+    topPests: ["House Mice", "German Cockroaches", "Carpenter Ants", "Bed Bugs", "Oriental Cockroaches"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March, year-round in commercial buildings",
+        note: "Dearborn's dense older housing and proximity to Detroit's urban core create significant fall mouse pressure each year. Michigan State University Extension identifies mice as the most commonly reported rodent pest in Michigan, and Dearborn's high-density residential areas see heavy fall pressure as mice seek heated structures.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant cockroach species in Dearborn's apartment buildings, commercial kitchens, and restaurants. They breed entirely indoors and spread through plumbing connections and shared wall voids in Dearborn's dense older building stock. One untreated unit in a shared-wall building can re-infest treated neighbors within weeks.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Carpenter ants exploit the moisture-damaged wood that Dearborn's older housing stock accumulates around windows, soffits, and foundations over decades. Michigan State University Extension notes that carpenter ant swarms or frass found indoors in spring strongly suggest an established indoor colony requiring direct treatment.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bug introductions in Dearborn occur through high tenant turnover in multi-family housing and through secondhand furniture markets. The Detroit metro area, including Dearborn, ranks among Michigan's higher-incidence areas for bed bug exposure according to Michigan Department of Health and Human Services data.",
+      },
+      {
+        name: "Oriental cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in basements and utility areas, more common spring through fall",
+        note: "Oriental cockroaches, sometimes called water bugs, thrive in Dearborn's older basement areas, utility rooms, and crawl spaces where moisture accumulates. They prefer cooler, damper conditions than German cockroaches and are often found near floor drains, sump pumps, and crawl space entries.",
+      },
+    ],
+    localHook:
+      "Dearborn's dense older housing and Wayne County urban setting create pest pressure that mirrors Detroit's but with the added complexity of multi-family buildings where German cockroaches and bed bugs spread between units. Michigan State University Extension identifies mice as the most common rodent pest in Michigan, and Dearborn's fall surge is among the most reliable pest events of the year in Wayne County. Oriental cockroaches in basements and utility areas add a pest that many newer Midwest suburbs rarely see.",
+    intro:
+      "Pest control in Dearborn addresses the full range of a dense, older Wayne County city. House mice arrive every fall and are the most widely reported pest concern, as Michigan State University Extension consistently confirms for southeast Michigan. German cockroaches are the year-round indoor pest in apartments, restaurants, and commercial kitchens, spreading through shared building infrastructure in ways that require coordinated treatment. Carpenter ants exploit the moisture conditions Dearborn's older housing accumulates. Bed bugs move through high-turnover multi-family buildings. And Oriental cockroaches, the damp-basement species less common in newer construction, are a distinct complaint in Dearborn's older residential stock.",
+    sections: [
+      {
+        heading: "German and Oriental cockroaches in Dearborn's older housing",
+        body: "Dearborn's building stock includes a high proportion of pre-1970 multi-family housing and commercial buildings with original plumbing and utility infrastructure. German cockroaches exploit this, spreading through wall voids, plumbing chases, and electrical conduits between units in ways that single-unit treatment cannot stop. But Dearborn also has a notable Oriental cockroach population in basement areas and utility spaces. Oriental cockroaches prefer cooler, damper conditions than German cockroaches and show up near floor drains, sump pumps, and the crawl space entries of older homes. The two species require different treatment approaches: gel bait in harborage sites for German cockroaches, and moisture reduction with perimeter treatment for Oriental cockroaches.",
+      },
+      {
+        heading: "Bed bugs in Dearborn's multi-family buildings",
+        body: "Dearborn's multi-family housing market has active tenant turnover, and bed bugs travel in luggage, secondhand furniture, and clothing. One introduction in a single unit can spread to adjacent units through wall voids and utility conduits. Michigan Department of Health and Human Services data places the Detroit metro, including Dearborn, in the state's higher-incidence areas for bed bug exposure. Early detection is far less expensive than a full building treatment. Mattress encasements make inspection easier and prevent bugs from establishing in mattress seams. If you find evidence, heat treatment is the most reliable elimination approach and avoids the long chemical exposure that spray treatments require.",
+      },
+    ],
+    prevention: [
+      "Use mattress encasements and inspect secondhand furniture before bringing it into your Dearborn home.",
+      "Seal foundation gaps, pipe penetrations, and the gap under garage doors in September before the fall mouse surge.",
+      "Fix basement moisture issues and address floor drain gaps to reduce Oriental cockroach harborage.",
+      "Report cockroach activity to building management immediately; multi-unit treatment is the only lasting solution in shared-wall buildings.",
+    ],
+    costNote:
+      "Dearborn pest control is typically quoted per unit for cockroaches and bed bugs with building-wide pricing available for landlords. Rodent exclusion is assessed per building. A free assessment determines the right combination of treatments for your property type and pest pressure.",
+    faqs: [
+      {
+        question: "What is the difference between German and Oriental cockroaches in Dearborn?",
+        answer:
+          "German cockroaches are small, light brown, and live in kitchens and bathrooms where warmth and moisture are high. Oriental cockroaches are larger, dark brown or black, and prefer cooler, damper areas like basements, crawl spaces, and utility rooms. Dearborn's older housing stock can harbor both species in different parts of the same building. They require different treatment strategies, so identifying which species is present is the first step.",
+      },
+      {
+        question: "How do I prevent bed bugs in my Dearborn apartment?",
+        answer:
+          "Mattress encasements make early detection much easier and prevent bugs from establishing in mattress seams. Inspect secondhand furniture before bringing it home. When traveling, keep luggage off hotel floors and inspect it before unpacking at home. In multi-unit buildings, bed bugs can spread from adjacent units through wall voids regardless of your own precautions. Report any evidence to management immediately so adjacent units can be inspected.",
+      },
+      {
+        question: "When do mice become a problem in Dearborn?",
+        answer:
+          "The fall surge in Dearborn typically starts in late September and peaks through October and November. Michigan State University Extension ranks mice as the most common rodent pest in Michigan. The prevention window is September, before temperatures drop and mice begin pressing actively into heated buildings. Sealing foundation gaps, utility penetrations, and the gap under garage doors is the most effective pre-surge action.",
+      },
+      {
+        question: "Why do carpenter ants appear in my Dearborn home in spring?",
+        answer:
+          "Spring carpenter ant activity indoors almost always means there is an established colony inside the building, not just foragers entering from outside. Carpenter ants nest in moisture-softened wood, and Dearborn's older housing has accumulated moisture damage around windows, soffits, and foundations. A licensed technician locates the colony and treats it directly. Perimeter-only applications do not address an indoor colony.",
+      },
+      {
+        question: "What should I do if I find cockroaches in my Dearborn apartment?",
+        answer:
+          "Contact your landlord or property manager immediately and request a professional inspection. In Dearborn's multi-family buildings, German cockroaches spread through shared infrastructure, so single-unit treatment without addressing adjacent units almost always results in re-infestation. A licensed pest control professional using gel bait in harborage sites is more effective than spray in shared-wall buildings. The sooner the treatment is coordinated building-wide, the better the outcome.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Warren", slug: "warren" },
+      { name: "Ann Arbor", slug: "ann-arbor" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Dearborn, MI | Cockroaches, Mice & Bed Bugs",
+    metaDescription:
+      "Dearborn pest control for German and Oriental cockroaches, house mice, bed bugs and carpenter ants. Wayne County Detroit metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

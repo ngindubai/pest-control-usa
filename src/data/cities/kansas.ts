@@ -235,4 +235,110 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "Overland Park pest control for brown recluse spiders, subterranean termites, house mice, mosquitoes and German cockroaches. Johnson County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "topeka",
+    name: "Topeka",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T2",
+    population: "~126,000",
+    county: "Shawnee County",
+    climate: "cold-humid",
+    climateDriver:
+      "Topeka sits along the Kansas River in Shawnee County with a continental climate of hot summers, cold winters, and variable spring weather. Kansas State University Research and Extension identifies eastern Kansas, including Topeka, in a moderate-to-high subterranean termite pressure zone. Cold winters drive mice hard into heated buildings, and the city's mix of established neighborhoods and commercial corridors sustains cockroach and rodent populations year-round.",
+    topPests: ["House Mice", "Subterranean Termites", "German Cockroaches", "Brown Recluse Spiders", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March, active year-round once inside",
+        note: "Kansas State University Research and Extension identifies mice as one of the most common fall pest complaints across eastern Kansas, with Topeka's hard continental winters driving them into heated structures by October. The Kansas River corridor and commercial food operations sustain higher-than-average base populations in certain city corridors.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms April through June",
+        note: "Kansas State University Research and Extension places Shawnee County in a moderate termite pressure zone. Eastern Kansas's summer heat and periodic moisture keep soil conditions favorable for Eastern subterranean termite activity. Many older Topeka homes were built without modern soil pre-treatment, increasing structural risk.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the most frequently encountered cockroach species in Topeka's apartment buildings, commercial kitchens, and restaurants. Kansas State University Extension identifies German cockroaches as the primary cockroach pest in Kansas's urban settings, breeding entirely indoors through all seasons.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active April through October",
+        note: "Kansas is within the brown recluse's natural range, and Kansas State University Research and Extension confirms they are found throughout eastern and central Kansas in undisturbed home areas. Topeka homes with basement storage, detached garages, and attic clutter see regular activity.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Carpenter ants target moisture-damaged wood in Topeka's older neighborhoods. Kansas's wet springs create moisture around window frames, deck framing, and tree stumps close to foundations, providing nesting opportunities for carpenter ant colonies that can eventually move into the structure.",
+      },
+    ],
+    localHook:
+      "Topeka is Kansas's capital city and sits along the Kansas River in Shawnee County, where Kansas State University Research and Extension confirms both termite pressure and the predictable fall mouse surge that drives mice into heated buildings every October. The city's older neighborhoods have many pre-1970 homes with undisturbed storage areas where brown recluse spiders are genuinely common, adding a third threat that newer Kansas suburbs rarely see at the same frequency.",
+    intro:
+      "Pest control in Topeka addresses the full range of eastern Kansas seasonal threats. House mice arrive every fall as reliably as the cooling temperatures, with Kansas State University Research and Extension ranking them as one of the most common fall complaints across eastern Kansas communities. Subterranean termites are a structural risk for Topeka's older housing stock, where pre-modern soil treatments are the norm rather than the exception. Brown recluse spiders are genuinely common in Kansas, and Topeka's older homes with basement storage provide the conditions they seek. German cockroaches maintain year-round indoor populations, and carpenter ants target the moisture-damaged wood that Kansas's wet springs produce.",
+    sections: [
+      {
+        heading: "Fall mouse surge in Topeka",
+        body: "Topeka's continental climate produces cold falls that drive mice firmly into heated buildings starting in late September. The Kansas River corridor and the city's commercial food sector sustain base rodent populations that press into residential areas when temperatures drop. Kansas State University Research and Extension recommends September as the critical prevention window: sealing foundation gaps, pipe penetrations, utility line entry points, and the gap under garage doors before mice begin actively searching for warmth. Once inside, mice are nocturnal and often establish in wall voids and attics before homeowners realize they are there. Snap traps in active areas and professional exclusion work are the most effective response.",
+      },
+      {
+        heading: "Termites and brown recluses in older Topeka homes",
+        body: "Many Topeka neighborhoods include pre-1970 housing that predates modern soil termite treatment practices. Kansas State University Research and Extension places Shawnee County in a moderate termite pressure zone, and older homes with crawl spaces, wood touching soil, or aging foundation sills carry the highest structural risk. The same older housing creates ideal brown recluse habitat: basement storage areas with boxes that go undisturbed for months, detached garages, and attic spaces. Kansas State University extension confirms brown recluses are present throughout eastern Kansas, and Topeka's older housing stock concentrates their activity. Annual inspections for both termites and spider harborage reduction are the practical prevention approach.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and the gap under garage doors in September before the fall mouse surge begins.",
+      "Schedule annual termite inspections for older Topeka homes, especially those built before 1980.",
+      "Reduce basement and garage clutter; store items in sealed plastic containers to limit brown recluse harborage.",
+      "Address moisture around deck framing and window sills to reduce carpenter ant nesting opportunities.",
+    ],
+    costNote:
+      "Topeka pest control is typically quoted as an annual plan covering rodents, spiders, ants, and cockroaches. Termite prevention is quoted separately based on foundation type and home age. A free assessment confirms the current risk level and identifies the right plan for your property.",
+    faqs: [
+      {
+        question: "How bad is the mouse problem in Topeka each fall?",
+        answer:
+          "Kansas State University Research and Extension ranks mice as one of the most common fall pest complaints across eastern Kansas. In Topeka, the surge starts in late September and peaks through October and November. Sealing foundation gaps, pipe penetrations, and the gap under garage doors in September is more effective than dealing with an active infestation. Once mice are inside, professional baiting and exclusion is the most efficient solution.",
+      },
+      {
+        question: "Are brown recluse spiders really present in Topeka?",
+        answer:
+          "Yes. Kansas State University Research and Extension confirms brown recluse spiders are found throughout eastern and central Kansas. Topeka is solidly within their natural range. They prefer undisturbed areas: basement storage, closets with rarely moved items, detached garages, and attic spaces. Bites are uncommon because the spider retreats from human contact, but when they occur, some cases cause significant tissue damage.",
+      },
+      {
+        question: "Does my older Topeka home need a termite inspection?",
+        answer:
+          "If your Topeka home was built before 1980 and does not have a current termite prevention program, yes. Kansas State University Research and Extension places Shawnee County in a moderate termite pressure zone, and older homes built without modern soil pre-treatment carry higher structural risk. An annual inspection is inexpensive compared to the cost of repairing termite damage discovered years later.",
+      },
+      {
+        question: "What are the first signs of German cockroaches in my Topeka home?",
+        answer:
+          "The first signs are usually small dark specks on cabinet shelves or inside drawers, a faint musty odor, or seeing a small brown cockroach near the sink at night. German cockroaches are nocturnal and populations can be large before they become visible during the day. If you see one during daylight, the infestation is already significant. Contact a licensed professional for treatment, as gel bait in harborage sites is far more effective than spray.",
+      },
+      {
+        question: "Is year-round pest control worth it in Topeka?",
+        answer:
+          "For most Topeka homeowners with older housing, yes. Mice and cockroaches are effectively year-round indoor pests that do not follow seasonal treatment patterns. Brown recluse spiders are active indoors any warm month. A year-round program with seasonal adjustments for termites and ants is more cost-effective than reactive treatments for each problem as it appears. Quarterly visits with a fall emphasis on rodent exclusion cover most Topeka homes well.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Wichita", slug: "wichita" },
+      { name: "Overland Park", slug: "overland-park" },
+      { name: "Lawrence", slug: "lawrence" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Topeka, KS | Mice, Termites & Brown Recluse Spiders",
+    metaDescription:
+      "Topeka pest control for house mice, subterranean termites, brown recluse spiders, German cockroaches and carpenter ants. Shawnee County Kansas River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

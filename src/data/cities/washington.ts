@@ -534,4 +534,110 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Vancouver WA pest control for Norway rats, odorous house ants, carpenter ants, yellowjackets and silverfish. Clark County Columbia River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "kent",
+    name: "Kent",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T2",
+    population: "~136,000",
+    county: "King County",
+    climate: "temperate",
+    climateDriver:
+      "Kent sits in the Green River Valley between Seattle and Tacoma in King County, where a maritime climate brings wet winters, mild summers, and year-round overcast conditions. Washington State University Extension identifies Norway rats as the dominant rodent pest in King County's lowland corridors, and Kent's warehouse districts and Soos Creek greenbelt create sustained rat pressure into residential areas. The wet winters keep odorous house ants active nearly year-round as they forage indoors when outdoor food sources are depleted.",
+    topPests: ["Norway Rats", "Odorous House Ants", "Carpenter Ants", "Yellow Jackets", "House Spiders"],
+    pestProfile: [
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most pressure fall and winter near food sources",
+        note: "Washington State University Extension identifies Norway rats as the dominant rodent pest in King County's lowland corridors. Kent's Green River Valley warehousing and distribution corridor sustains significant rat populations near commercial facilities, and Soos Creek's greenbelt provides habitat that pushes rat pressure into adjacent residential neighborhoods throughout the year.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round indoors during wet season, peak foraging spring through fall",
+        note: "Odorous house ants are the most frequently encountered ant species in Kent homes. WSU Extension notes they forage indoors most aggressively during wet winter months when outdoor food sources are depleted. Their name comes from the rotten-coconut odor released when crushed. They establish satellite colonies inside buildings that persist through summer.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active March through October",
+        note: "King County's wet climate creates the moisture-saturated wood conditions that carpenter ants exploit. Kent's older residential neighborhoods near the Green River and Soos Creek greenbelt have mature trees and older housing framing where carpenter ant activity is common. WSU Extension identifies them as a primary structural ant concern throughout western Washington.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nest building May through September, most aggressive in late summer",
+        note: "Yellow jackets build colonies in wall voids, ground nests, and under overhangs across Kent's residential and commercial areas through summer. WSU Extension notes yellow jackets become significantly more aggressive and defensive in August and September as colony size peaks. Kent's green belt areas create additional in-ground nesting habitat near residential properties.",
+      },
+      {
+        name: "House spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most visible fall as they seek shelter",
+        note: "Giant house spiders and hobo spiders are common in Kent's garages, basements, and crawl spaces. WSU Extension notes hobo spiders are particularly associated with the Pacific Northwest lowlands. They move indoors in late summer and fall as outdoor temperatures cool.",
+      },
+    ],
+    localHook:
+      "Kent sits in the Green River Valley, where the corridor between Seattle and Tacoma brings both urban rat pressure from warehouse and distribution operations and significant greenbelt rodent pressure from Soos Creek. Washington State University Extension identifies Norway rats as the dominant rodent in King County's lowland areas, and Kent's combination of commercial activity and residential green space is one of the most challenging environments in the region for sustained rat management. The wet winters keep odorous house ants active indoors nearly year-round.",
+    intro:
+      "Pest control in Kent addresses the Green River Valley's year-round wet climate and the unique pressure that comes from sitting between Seattle's commercial infrastructure and the Soos Creek greenbelt. Norway rats are the primary rodent concern, with Washington State University Extension identifying them as the dominant rodent pest in King County's lowland corridors. Odorous house ants forage inside through the long wet season. Carpenter ants exploit the moisture conditions the wet Pacific Northwest climate creates in older housing. Yellow jackets peak in late summer, and house spiders occupy garages and basements year-round.",
+    sections: [
+      {
+        heading: "Norway rats in Kent's warehouse and greenbelt corridor",
+        body: "Kent's Green River Valley hosts one of the region's most concentrated warehouse and logistics corridors, and Norway rat populations near food-related commercial operations are a persistent baseline that extends into residential neighborhoods through storm sewer and utility infrastructure. WSU Extension recommends Norway rat management as a year-round program in King County's lowland areas rather than a seasonal one. The Soos Creek greenbelt is an additional source of rodent pressure that gives residential properties in Kent's eastern neighborhoods a different challenge than purely urban areas. Exclusion is the long-term solution: sealing foundation gaps, utility penetrations, and entry points at the foundation and roofline before professional baiting addresses the population inside.",
+      },
+      {
+        heading: "Odorous house ants in Kent's wet climate",
+        body: "Kent's maritime climate keeps the soil wet from October through April, which depletes outdoor food sources for ants and drives them to forage indoors. Odorous house ants in Kent are effectively a year-round indoor problem during the wet season, foraging for food and water in kitchens and bathrooms with the same persistence as during summer dry spells. WSU Extension notes that odorous house ants establish satellite colonies inside walls and under floor insulation that maintain a population presence even after visible foraging trails are treated. Slow-acting bait that workers carry back to satellite colonies is more effective than contact spray treatments that kill foragers without affecting colony population.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and attic vent areas to prevent Norway rat entry from greenbelt and commercial corridors.",
+      "Fix plumbing drips and eliminate interior moisture sources that attract odorous house ants during the wet season.",
+      "Inspect for carpenter ant frass near aging window frames and roof edges each spring after wet winters.",
+      "Check under overhangs and in ground cover areas in June for early yellow jacket nest activity before colonies grow large.",
+    ],
+    costNote:
+      "Kent pest control is typically structured as an annual plan covering rats, ants, spiders, and yellow jackets with seasonal adjustments for the wet winter ant season and late-summer wasp activity. Properties near the warehouse corridor or greenbelt may benefit from more frequent rodent monitoring. A free assessment establishes the right plan for your location and property type.",
+    faqs: [
+      {
+        question: "Are Norway rats more common in Kent than in other Seattle-area cities?",
+        answer:
+          "Kent's combination of a major warehouse and logistics corridor and the Soos Creek greenbelt creates above-average Norway rat pressure compared to purely residential Seattle suburbs. WSU Extension identifies Norway rats as the dominant rodent in King County's lowland areas, and Kent's mix of commercial and green space is one of the most active environments in the region. Year-round professional monitoring is more appropriate here than in drier, more distant suburbs.",
+      },
+      {
+        question: "Why do odorous house ants come inside my Kent home all winter?",
+        answer:
+          "Kent's wet winters deplete outdoor food sources, pushing odorous house ants to forage indoors for food and water. They are most active inside from October through April in the Pacific Northwest, the opposite of what many homeowners expect from ants. WSU Extension notes they establish satellite colonies inside walls and under floor insulation, which is why simply spraying visible trails does not produce lasting results. Slow-acting bait that foragers carry back to satellite colonies is the most effective treatment approach.",
+      },
+      {
+        question: "When are yellow jackets most dangerous in Kent?",
+        answer:
+          "Yellow jacket colonies in Kent peak in size in late August and September, when they are most aggressive and most likely to sting in response to vibration or proximity to the nest. Ground nests near Kent's greenbelt areas are particularly common and easily disturbed during lawn maintenance. Do not attempt to treat or seal a yellow jacket nest yourself. A professional treats the nest at night when the colony is least active.",
+      },
+      {
+        question: "How do I prevent carpenter ants in my Kent home?",
+        answer:
+          "The primary prevention is managing moisture conditions: fix roof and gutter leaks, repair or replace moisture-damaged window sills and soffit boards, ensure deck framing is not in ground contact, and trim vegetation that retains moisture against the siding. King County's wet climate means moisture management requires more active attention than in drier climates. If you find ants indoors in spring with sawdust frass near wood, that is an established indoor colony requiring professional treatment.",
+      },
+      {
+        question: "What pest control plan makes sense for a Kent homeowner near the Soos Creek greenbelt?",
+        answer:
+          "Properties backing up to Soos Creek greenbelt benefit from year-round rat exclusion and monitoring as a baseline, since greenbelt habitat sustains continuous rodent pressure. Adding odorous house ant management for the wet season, carpenter ant treatment in spring, and yellow jacket monitoring in summer covers the full Kent pest calendar for greenbelt properties. A professional assessment of the specific entry points at your property determines the right exclusion scope.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Tacoma", slug: "tacoma" },
+      { name: "Bellevue", slug: "bellevue" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Kent, WA | Norway Rats, Ants & Yellow Jackets",
+    metaDescription:
+      "Kent pest control for Norway rats, odorous house ants, carpenter ants, yellow jackets and house spiders. King County Green River Valley greenbelt specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

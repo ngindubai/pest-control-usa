@@ -346,4 +346,125 @@ export const oregonCities: CityLocation[] = [
     metaDescription:
       "Eugene pest control for carpenter ants, roof and Norway rats, yellow jackets, spiders and German cockroaches. Lane County Willamette Valley moisture specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "gresham",
+    name: "Gresham",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T2",
+    population: "~115,200",
+    county: "Multnomah County",
+    climate: "temperate",
+    climateDriver:
+      "Pacific maritime climate with wet winters, dry summers, and persistent autumn and spring moisture",
+    topPests: [
+      "Odorous House Ants",
+      "Norway Rats",
+      "Yellow Jackets",
+      "Earwigs",
+      "Hobo Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak indoor pressure October through April",
+        note: "Rain drives odorous house ants indoors reliably in Gresham. OSU Extension confirms precipitation triggers this foraging behavior across Willamette Valley homes. Colonies forage inside along foundation gaps and under appliances during the wet season, which runs six months in Multnomah County.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, greatest structural pressure in fall and winter",
+        note: "Norway rats are the dominant commensal rat in the Portland metro including Gresham, sustained by the Sandy River riparian corridor and the city's mature landscaping. They burrow along fence lines and under structures, distinguishing them from the climbing roof rat.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colony builds June through September, peak aggression in August",
+        note: "Yellow jacket colonies in Gresham reach 5,000 to 15,000 workers by August. Ground nests are common in the drier eastern sections of the city near Centennial and Rockwood. Late-season treatment is significantly more hazardous than early removal in June or July.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "general-pest-control",
+        activeSeason: "Outdoors spring through fall, indoors from September onward",
+        note: "Earwigs are a reliable fall pest in Gresham driven by the region's moisture-rich conditions. Damp clay soils and mulched garden beds support large outdoor populations that move indoors when temperatures drop. Numbers in the dozens indoors signals a moisture management issue.",
+      },
+      {
+        name: "Hobo spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most active late August through October",
+        note: "Hobo spiders are ground-level hunters found in Gresham garages, basements, and lower floors. Current toxicology research does not support the necrotic effects historically attributed to their bites. Indoor encounters peak in fall as males search for mates.",
+      },
+    ],
+    localHook:
+      "Gresham's position at the edge of the Portland metro, backing onto the Sandy River basin, means pest pressure here comes from both urban density and genuine wildland interface. Rats from the riverbank, ants from saturated clay soils, yellow jackets from the parks and greenways: this is a city where standard suburban pest assumptions often underperform.",
+    intro:
+      "Pest control in Gresham, OR means working with the city's specific geography. The Sandy River on the eastern edge, the dense tree canopy over older neighborhoods near Rockwood, and the newer subdivisions pushing into the Mt. Hood corridor all create different pest dynamics. At PestRemovalUSA, we treat the pest problems specific to Gresham homes rather than applying a one-size-fits-all Portland metro approach.",
+    sections: [
+      {
+        heading: "Odorous House Ants in Gresham",
+        body: "Odorous house ants are Gresham's most common indoor pest complaint, and the pattern is reliable: they appear indoors when it rains. During Gresham's October-through-April wet season, colonies forage inside along foundation gaps, under appliances, and around moisture sources. The smell they produce when crushed, like rotting coconut, is the giveaway. OSU Extension confirms this species is triggered by precipitation in Willamette Valley homes. Colonies can number in the hundreds of thousands, which is why surface sprays alone rarely resolve an infestation. Baiting the trail, treating the colony, and sealing the entry points is the right sequence.",
+      },
+      {
+        heading: "Norway Rats Near the Sandy River",
+        body: "The Sandy River corridor through Gresham and the adjacent riparian green space support established Norway rat populations that expand into residential areas seasonally. Norway rats burrow, so look for fresh excavation along fence posts, under decks, and at the base of compost bins. Gresham's older neighborhoods near Rockwood and Powell Valley see more rat pressure than newer developments, partly due to aging infrastructure and mature landscaping that provides cover. Once inside a home, Norway rats cause electrical and insulation damage quickly. Exclusion, not just bait, is the long-term solution.",
+      },
+      {
+        heading: "Yellow Jackets Through Summer",
+        body: "Yellow jacket season in Gresham runs June through September, with peak colony size and aggression in August. Ground nests are common in lawn areas, particularly in the drier eastern sections of the city where soil conditions favor burrowing. Aerial nests appear under eaves, in wall voids, and inside soffits. A colony left in place through summer can contain 5,000 to 15,000 workers by August, making late-season treatment significantly more hazardous than early removal. If you find a nest in May or June, treat it then.",
+      },
+      {
+        heading: "Earwigs and Fall Moisture Pests",
+        body: "Earwigs are a consistent fall pest in Gresham, moving indoors as temperatures drop from September onward. They gather in mulched beds, under stepping stones, and in wood piles close to the house during summer, then seek indoor shelter when the first cold nights arrive. The damp, clay-heavy soils around many Gresham homes hold moisture well into autumn, which extends earwig outdoor activity before they make the indoor move. They are nuisance pests rather than structural threats, but populations in the dozens indicate a moisture management issue worth addressing.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before October, when ant and earwig migration toward warmth begins",
+      "Eliminate standing water and fix dripping irrigation around the foundation to reduce moisture-seeking pressure from ants and earwigs",
+      "Keep compost bins sealed and elevated on a hard surface, and clear vegetation within two feet of the foundation to remove rat harborage",
+      "Trim tree branches away from rooflines to cut off rat and squirrel access to the attic",
+      "Remove food and water sources from garages, including pet food bowls and open recycling bins, which attract Norway rats year-round",
+    ],
+    costNote:
+      "Pest control in Gresham typically runs $90 to $150 for a single-visit general pest treatment. Rat exclusion and removal programs, which involve inspection, sealing, and bait placement over multiple visits, range from $250 to $550. Yellow jacket nest removal is $75 to $175 depending on nest location and size. Annual general pest plans run $300 to $500 and cover the full Gresham pest calendar.",
+    faqs: [
+      {
+        question:
+          "Why do ants appear in my Gresham home every time it rains?",
+        answer:
+          "Odorous house ants move indoors when rain saturates their outdoor foraging habitat. Gresham's wet season, running from October through April, triggers this behavior reliably. The ants are not coming from indoors but following scent trails inside to find food and shelter from saturated soil. Treating the colony and its entry points during the first appearance, rather than waiting for the population to grow, reduces how long each rainy season remains a problem.",
+      },
+      {
+        question:
+          "Are the rats I see near my Gresham yard coming from the Sandy River?",
+        answer:
+          "Norway rat populations in the Sandy River riparian zone do contribute to suburban pressure in east Gresham neighborhoods, particularly for properties within a few blocks of the river corridor and its connecting green spaces. However, urban rat populations also establish independent of river proximity, spreading from block to block through sewer systems, garden corridors, and food sources like compost and bird feeders. Whether your rats are riverbank transplants or local urban animals matters less than removing the harborage and food sources that are keeping them there.",
+      },
+      {
+        question:
+          "How do I tell a ground yellow jacket nest from a ground bee nest in my Gresham lawn?",
+        answer:
+          "Yellow jackets entering and exiting a ground hole are more numerous, more frenetic in their movement, and show no pollen loads on their legs. Ground-nesting native bees, such as miner bees and sweat bees, fly in and out more slowly and often carry visible pollen. Yellow jackets also tend to be more aggressive if the area near the hole is disturbed. Gresham lawns in the drier eastern sections near Centennial and Rockwood see the most ground yellow jacket activity in summer.",
+      },
+      {
+        question:
+          "Are hobo spiders in Gresham dangerous to my family?",
+        answer:
+          "The medical significance of hobo spider bites has been significantly revised in recent years. Current toxicology research does not support the previously claimed necrotic effects in humans, and the CDC removed the hobo spider from its list of venomous spiders requiring medical concern. Hobo spiders in Gresham are nuisance pests that startle residents, not a medical threat. If you are seeing large numbers indoors, it typically indicates an abundant prey insect population, which is the underlying problem to address.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Salem", slug: "salem" },
+      { name: "Eugene", slug: "eugene" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Gresham, OR | Ants, Rats & Yellow Jackets",
+    metaDescription:
+      "Gresham pest control for odorous house ants, Norway rats, yellow jackets, earwigs and hobo spiders. Multnomah County Sandy River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

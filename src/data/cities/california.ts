@@ -4897,4 +4897,110 @@ export const californiaCities: CityLocation[] = [
     metaDescription:
       "Thousand Oaks pest control for Argentine ants, roof rats, gophers, drywood termites and ground squirrels. Ventura County Santa Monica Mountains Conejo Valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "escondido",
+    name: "Escondido",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T2",
+    population: "~152,000",
+    county: "San Diego County",
+    climate: "mediterranean",
+    climateDriver:
+      "Escondido sits in north San Diego County's inland valleys, where summer temperatures regularly exceed 95°F and dry Santa Ana wind events create tinder-dry conditions in fall. The University of California Cooperative Extension identifies San Diego County as one of California's most active termite zones, with drywood termites swarming twice yearly in spring and fall. Escondido's Mediterranean climate keeps Argentine ants active nearly year-round, and the warm inland summers extend the outdoor pest season well beyond coastal San Diego's.",
+    topPests: ["Argentine Ants", "Drywood Termites", "Roof Rats", "German Cockroaches", "Black Widow Spiders"],
+    pestProfile: [
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, forage indoors most aggressively in dry summer and wet winter",
+        note: "Argentine ants are the dominant ant species across San Diego County's residential landscapes. UC Cooperative Extension describes them as a supercolony species with no territorial boundaries between nests, making standard colony-targeted treatments ineffective. In Escondido's hot, dry summers, they move indoors seeking water, forming long trails to kitchen sinks and pet water bowls.",
+      },
+      {
+        name: "Drywood termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm events spring and fall, year-round colony activity",
+        note: "UC Cooperative Extension identifies San Diego County as one of California's most active drywood termite zones. Escondido's hot, dry summers accelerate swarming events, and the city's mix of older wood-frame homes and craftsman bungalows provides abundant unprotected wood for new infestations. Fumigation is the most reliable treatment for multi-room infestations.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active fall through spring",
+        note: "Roof rats are the primary rat species in San Diego County, favored by citrus trees, avocado orchards, and dense ornamental vegetation common in Escondido's residential landscapes. UC Cooperative Extension notes roof rats rarely invade from the ground: they travel through tree canopy, utility lines, and along fence tops to access roof areas and attics.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the most common cockroach in Escondido's apartment buildings, restaurants, and commercial food operations. They breed entirely indoors and maintain active populations throughout the year in San Diego County's mild climate.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Black widow spiders are common throughout Escondido's residential areas, particularly in dry, sheltered spots: sprinkler control boxes, under decks, in garages, and around stacked firewood. UC Cooperative Extension identifies black widows as the most medically significant spider in California. Their bite requires prompt medical attention in cases involving children or individuals with health conditions.",
+      },
+    ],
+    localHook:
+      "Escondido sits in north San Diego County's inland valleys, where the combination of drywood termite pressure, Argentine ant activity, and roof rat populations from the area's fruit tree culture creates a year-round pest management challenge. UC Cooperative Extension identifies San Diego County as one of California's most active drywood termite zones, and Escondido's hot summers produce two swarming events per year that create new infestations if wood is left unprotected. Argentine ants are essentially a permanent presence in Escondido landscapes; the question is whether they stay outside or move indoors.",
+    intro:
+      "Pest control in Escondido addresses a year-round pest calendar shaped by San Diego County's Mediterranean climate. Argentine ants are the most persistent nuisance, foraging indoors during Escondido's dry summers and wet winters when outdoor food sources change. Drywood termites are the structural risk, with UC Cooperative Extension flagging San Diego County as among California's most active drywood termite zones, with spring and fall swarming events targeting unprotected wood. Roof rats use Escondido's dense citrus and avocado landscaping as travel routes to attics. German cockroaches maintain indoor populations year-round in commercial settings, and black widow spiders occupy the dry, sheltered spaces that every Escondido property has in abundance.",
+    sections: [
+      {
+        heading: "Drywood termites in Escondido's wood-frame homes",
+        body: "Drywood termites do not need soil contact to establish: they infest dry wood directly, often entering through small gaps in fascia boards, vent screens, and window frames. UC Cooperative Extension notes that San Diego County's dry summers and warm falls create two distinct swarming periods each year when reproductive termites disperse to start new colonies. Escondido's older bungalow neighborhoods, particularly around the downtown core and the historic district, have high proportions of unprotected wood that make drywood termite activity more common than in newer construction with modern wood treatments. A licensed inspector can distinguish drywood from subterranean termite activity, which matters because they require different treatments. Fumigation for the whole structure is the standard for multi-room drywood infestations; localized treatment works for small, isolated infestations.",
+      },
+      {
+        heading: "Argentine ants and roof rats in Escondido's landscaped properties",
+        body: "Escondido's residential properties typically include citrus, avocado, or ornamental trees, and these create the ideal travel network for roof rats and a foraging ground for Argentine ants. Roof rats navigate through tree canopy and along fence tops to reach roof overhangs and attic vents, rarely touching the ground. UC Cooperative Extension recommends trimming tree branches to maintain 18-inch clearance from the roofline as the primary prevention step. Argentine ants track moisture: they move indoors during summer drought and during winter rains in search of stable food and water. Treating the foundation perimeter and entry points with a slow-acting bait that foragers carry back to the supercolony is more effective than contact sprays, which kill foragers but do not affect the colony.",
+      },
+    ],
+    prevention: [
+      "Trim tree branches to 18 inches or more from the roofline to cut roof rat access routes.",
+      "Schedule a drywood termite inspection every two years for older Escondido homes or after any swarming event on your property.",
+      "Seal gaps in fascia boards and attic vent screens to prevent drywood termite entry and roof rat access.",
+      "Fix dripping faucets and eliminate indoor moisture sources that attract Argentine ants during summer drought periods.",
+    ],
+    costNote:
+      "Escondido pest control is typically quoted as an annual plan covering ants, cockroaches, and spiders, with roof rat exclusion and termite inspection quoted separately. Fumigation for drywood termites is quoted per structure. A free assessment determines the current infestation level and recommends the right combination of treatments for your property.",
+    faqs: [
+      {
+        question: "How do I tell the difference between drywood and subterranean termites in Escondido?",
+        answer:
+          "Drywood termites leave dry, pellet-like frass that looks like coarse sawdust near infested wood, and their galleries are clean and dry. Subterranean termites build mud tubes on foundation walls and need soil contact. In Escondido, drywood termites are the more common species: they infest dry wood directly and can be found throughout the structure rather than only near the foundation. A licensed inspector can confirm species and recommend the correct treatment approach.",
+      },
+      {
+        question: "Why do ants keep coming into my Escondido home even after treatment?",
+        answer:
+          "Argentine ants form supercolonies with many interconnected nests and no territorial boundaries. Contact sprays kill individual foragers but do not affect the colony, so re-infestation follows quickly. Slow-acting bait that foragers carry back to the nest produces lasting results. UC Cooperative Extension recommends perimeter bait station programs for Argentine ant management. Entry point sealing and eliminating indoor moisture sources reduce the attractant that brings them inside.",
+      },
+      {
+        question: "Are black widow spiders a serious risk in Escondido?",
+        answer:
+          "UC Cooperative Extension identifies black widows as the most medically significant spider in California. In Escondido, they commonly occupy sprinkler control boxes, under decks, in garages, around stacked firewood, and in any dry sheltered spot with low human activity. Their bites are rarely life-threatening for healthy adults but cause significant pain and can be dangerous for children and individuals with health conditions. Wearing gloves when working in these areas and treating perimeter harborage professionally are the practical prevention steps.",
+      },
+      {
+        question: "How do I stop roof rats from entering my Escondido attic?",
+        answer:
+          "Roof rats navigate through tree canopy and along fences, not across the ground. The most effective prevention is trimming all tree branches to maintain 18-inch clearance from the roofline, sealing attic vent screens with hardware cloth (not standard insect screen), and sealing gaps at the roofline where soffit meets fascia. UC Cooperative Extension recommends these as the primary exclusion steps. Snap traps in the attic after exclusion work clears any remaining rats inside.",
+      },
+      {
+        question: "When do drywood termites swarm in Escondido?",
+        answer:
+          "Drywood termites in San Diego County typically swarm twice a year: in spring, usually May through June, and again in fall, September through November. Swarmers are small, winged, and emerge from infested wood in groups, often settling on window screens and around interior lights. If you find swarmers inside your Escondido home, contact a licensed professional for an inspection: it means a colony is already established in the structure.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "San Diego", slug: "san-diego" },
+      { name: "Chula Vista", slug: "chula-vista" },
+      { name: "Oceanside", slug: "oceanside" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Escondido, CA | Drywood Termites, Ants & Roof Rats",
+    metaDescription:
+      "Escondido pest control for drywood termites, Argentine ants, roof rats, German cockroaches and black widow spiders. San Diego County inland valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

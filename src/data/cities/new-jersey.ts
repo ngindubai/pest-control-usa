@@ -322,4 +322,110 @@ export const newJerseyCities: CityLocation[] = [
     metaDescription:
       "Paterson pest control for bed bugs, Norway rats, German cockroaches, house mice and stink bugs. Passaic County urban specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "elizabeth",
+    name: "Elizabeth",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T2",
+    population: "~137,000",
+    county: "Union County",
+    climate: "temperate",
+    climateDriver:
+      "Elizabeth sits in Union County adjacent to Port Newark and Newark Liberty Airport, with a temperate climate influenced by the New York metropolitan coast. The city's dense multi-family housing, commercial corridors along Routes 1 and 9, and high travel volume create conditions that support year-round German cockroach and rodent activity. Cold winters drive mice hard into buildings by October, and bed bug introductions through travel and commercial activity are a persistent concern.",
+    topPests: ["German Cockroaches", "Mice", "Bed Bugs", "Norway Rats", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the primary pest challenge in Elizabeth's dense multi-family housing and commercial buildings. Rutgers University Cooperative Extension identifies German cockroaches as the most widespread cockroach in New Jersey urban environments. In Elizabeth's older apartment stock they spread through shared wall voids and plumbing access regardless of individual unit cleanliness.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March, year-round in commercial buildings",
+        note: "Elizabeth's cold winters and dense urban building stock create significant fall mouse pressure. The commercial corridors along Routes 1 and 9 and the proximity to Port Newark warehousing mean mice are present in commercial buildings year-round and press into adjacent residential blocks each fall.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bug introductions in Elizabeth occur through high travel volumes connected to Newark Liberty Airport and Port Newark, and through tenant turnover in multi-family housing. Rutgers University extension research consistently identifies dense urban New Jersey municipalities like Elizabeth as among the highest-risk areas for bed bug exposure in the state.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round near food service and port corridors",
+        note: "Norway rats are active in Elizabeth's commercial and port-adjacent areas year-round. Dense older construction with shared utility access and the city's extensive restaurant sector sustain rat populations that periodically press into residential properties through shared infrastructure.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade buildings September through November",
+        note: "Brown marmorated stink bugs invade Elizabeth homes every fall. Rutgers University Cooperative Extension tracks Union County stink bug populations, and fall invasions of multi-family buildings can involve large numbers entering through gaps around windows and utility lines.",
+      },
+    ],
+    localHook:
+      "Elizabeth is one of New Jersey's densest cities, with aging multi-family housing and active commercial corridors along Routes 1 and 9 near Port Newark. Rutgers University Cooperative Extension identifies German cockroaches as the most widespread cockroach in New Jersey's urban environments, and in Elizabeth's shared-wall building stock they spread between units through plumbing and wall void connections regardless of individual housekeeping. The city's port proximity and airport adjacency make bed bug introductions a persistent exposure risk.",
+    intro:
+      "Pest control in Elizabeth covers the full range of northeastern New Jersey urban challenges. German cockroaches dominate the complaint list in Elizabeth's dense apartment buildings and commercial kitchens, spreading through shared infrastructure in ways that require building-wide treatment rather than single-unit approaches. Mice press in from commercial corridors along Routes 1 and 9 every fall. Bed bugs enter through the travel-heavy population connected to Newark Liberty Airport and through tenant turnover. Norway rats sustain near port and food service areas year-round, and stink bugs deliver a predictable fall invasion into every building with exterior gaps.",
+    sections: [
+      {
+        heading: "German cockroaches in Elizabeth's multi-family buildings",
+        body: "Elizabeth's older apartment stock is among the most challenging environments for German cockroach control in New Jersey. Rutgers University Cooperative Extension notes that German cockroaches in multi-family buildings spread through shared wall voids, plumbing chases, and utility access points regardless of conditions in any individual unit. A single untreated unit can re-infest treated units within weeks. Effective treatment in Elizabeth's dense housing requires coordinated access to adjacent units and common areas. Gel baits placed in harborage sites inside cabinets, under appliances, and near plumbing are more effective than broadcast spray in shared-wall settings.",
+      },
+      {
+        heading: "Bed bug risk near Port Newark and Newark Airport",
+        body: "Elizabeth's location adjacent to Port Newark and Newark Liberty Airport creates a higher-than-average bed bug introduction risk compared to most New Jersey municipalities. Rutgers University research has consistently tracked New Jersey's urban northeast corridor as a high-exposure area. Bed bugs travel in luggage, secondhand furniture, and clothing, and in high-turnover apartment buildings one introduction in a single unit can spread to multiple floors through wall voids and electrical conduits. Early detection through mattress encasements and periodic inspection is the most cost-effective prevention. Heat treatment is the most reliable elimination method for established infestations.",
+      },
+    ],
+    prevention: [
+      "Use mattress encasements on all beds and inspect secondhand furniture before bringing it into your Elizabeth home.",
+      "Seal gaps around utility lines, plumbing penetrations, and door sweeps to reduce mouse and cockroach entry from shared spaces.",
+      "Report cockroach activity to building management promptly; effective control in multi-family buildings requires coordinated building-wide access.",
+      "Seal exterior gaps around windows and siding before September to limit fall stink bug entry.",
+    ],
+    costNote:
+      "Elizabeth pest control is typically quoted per unit for cockroaches and bed bugs, with building-wide pricing available for landlords managing multiple units. Rodent exclusion is assessed per building based on the number and location of entry points. A free assessment confirms the correct scope for your property type.",
+    faqs: [
+      {
+        question: "Why do cockroaches keep coming back in my Elizabeth apartment after treatment?",
+        answer:
+          "In Elizabeth's multi-family buildings, German cockroaches spread through shared wall voids and plumbing connections between units. Treating a single unit eliminates the visible infestation temporarily, but re-infestation from adjacent untreated units often follows within weeks. Rutgers University Cooperative Extension recommends coordinated treatment across adjacent units and common areas for lasting results. Talk to your landlord about a building-wide program.",
+      },
+      {
+        question: "How do I know if I have bed bugs in my Elizabeth home?",
+        answer:
+          "Early signs include small rust-colored spots on sheets or mattress seams, shed insect skins, and small welts that appear after sleeping. Elizabeth's high travel volume and apartment turnover rate create above-average exposure risk. Mattress encasements make early detection easier. If you find evidence, contact a licensed professional: heat treatment is the most reliable elimination method and avoids the extensive chemical exposure that spray treatments require.",
+      },
+      {
+        question: "Are Norway rats common in residential Elizabeth neighborhoods?",
+        answer:
+          "Norway rats are most active near Elizabeth's commercial corridors, port-adjacent blocks, and restaurant clusters. Residential streets close to those areas see spillover pressure, particularly in fall when cooler temperatures drive rats to seek reliable shelter. Keeping garbage in sealed containers, eliminating outdoor food sources, and sealing foundation gaps and utility penetrations are the most effective residential prevention steps.",
+      },
+      {
+        question: "When do stink bugs invade Elizabeth homes?",
+        answer:
+          "Stink bug invasions peak in September and October in Elizabeth. They aggregate on sunny exterior walls before pushing through available gaps into wall voids and attics for the winter. Sealing gaps around windows, utility lines, and siding before September is the most effective prevention. Avoid crushing them if they get inside: the smell is persistent. Vacuum them up instead.",
+      },
+      {
+        question: "Do I need a professional exterminator in Elizabeth or can I manage pests myself?",
+        answer:
+          "German cockroach and bed bug infestations in Elizabeth's multi-family housing almost always need professional treatment. Both pests require access to harborage sites that DIY products rarely reach effectively, and in shared-wall buildings, coordinated professional treatment is the only practical way to prevent re-infestation from adjacent units. Light ant or spider activity in a single-family home is more manageable with consumer products, but for cockroaches, bed bugs, or rodents, professional treatment is the right call.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Newark", slug: "newark" },
+      { name: "Jersey City", slug: "jersey-city" },
+      { name: "Paterson", slug: "paterson" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Elizabeth, NJ | Cockroaches, Bed Bugs & Mice",
+    metaDescription:
+      "Elizabeth pest control for German cockroaches, bed bugs, Norway rats, house mice and stink bugs. Union County Port Newark corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

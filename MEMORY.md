@@ -8,16 +8,16 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-07)
+## Current State (2026-06-08)
 
-- **Phase:** Phase 2 T2 in progress. Chunk 9 complete.
-- **City pages built:** 225 total (75 T1 + 150 T2). 150 T2 cities remaining.
+- **Phase:** Phase 2 T2 in progress. Chunk 10 complete.
+- **City pages built:** 250 total (75 T1 + 175 T2). 125 T2 cities remaining.
 - **Town pages built:** 0.
-- **Total site pages:** 308 in the static export (home, services, 50+ states, 225 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=46, B=45, C=45, D=45, E=44 (225 total cities, all within 15-25% range).
-- **Cities built T2 chunk 9 (25):** Anchorage AK (B), Providence RI (C), Manchester NH (E), Mobile AL (D), Bridgeport CT (C), New Haven CT (A), Thornton CO (D), Murfreesboro TN (B), Sterling Heights MI (C), West Valley City UT (E), Peoria IL (B), Elgin IL (D), Springfield MA (A), Irving TX (A), Beaumont TX (A), Abilene TX (B), Santa Rosa CA (E), Pomona CA (B), Torrance CA (E), Pasadena CA (D), Visalia CA (C), Vallejo CA (E), Concord CA (A), Simi Valley CA (C), Thousand Oaks CA (D).
-- **New state files added chunk 9:** alaska.ts (Anchorage), rhode-island.ts (Providence), new-hampshire.ts (Manchester).
-- **Next block:** Chunk 10, next 25 T2 cities, rotation continues at A.
+- **Total site pages:** 333 in the static export (home, services, 50+ states, 250 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=51, B=50, C=50, D=50, E=49 (250 total cities, all within 15-25% range).
+- **Cities built T2 chunk 10 (25):** Cedar Rapids IA (A), Norman OK (B), Broken Arrow OK (A), Elizabeth NJ (C), Warren MI (D), Dearborn MI (E), Columbia MO (A), Independence MO (C), Topeka KS (B), Evansville IN (C), South Bend IN (D), Springfield IL (E), Rochester MN (A), Escondido CA (B), Kent WA (C), Westminster CO (D), Arvada CO (E), Pueblo CO (D), Lakeland FL (A), Palm Bay FL (B), Carrollton TX (C), Round Rock TX (D), Lewisville TX (E), Gresham OR (B), Stamford CT (E).
+- **New state files added chunk 10:** none (all states already have files).
+- **Next block:** Chunk 11, next 25 T2 cities, rotation continues at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
@@ -79,6 +79,7 @@
 | 2026-06-06 | Chunk 7: next 25 T2 city pages | Amarillo TX (A), Frisco TX (B), Santa Clarita CA (C), Rancho Cucamonga CA (D), Ontario CA (E), Fort Collins CO (A), Elk Grove CA (B), Macon GA (C), Alexandria VA (D), Lakewood CO (E), Hayward CA (A), Coral Springs FL (B), Gainesville FL (C), Miramar FL (D), Surprise AZ (E), McAllen TX (A), Killeen TX (B), Naperville IL (C), Bellevue WA (D), Mesquite TX (E), Sunnyvale CA (A), Garden Grove CA (B), Syracuse NY (C), High Point NC (D), Sandy Springs GA (E). No new state files needed. Rotation balanced at 35 each A to E. 175 total cities, 258 site pages. Build green. |
 | 2026-06-06 | Chunk 8: next 25 T2 city pages | Grand Prairie TX (A), Vancouver WA (B), Port St. Lucie FL (C), Denton TX (D), Oceanside CA (E), Palmdale CA (A), Waco TX (B), Lansing MI (C), Joliet IL (D), West Palm Beach FL (E), Corona CA (A), Rockford IL (B), Provo UT (C), Charleston SC (D), Salinas CA (E), Roanoke VA (A), Ann Arbor MI (B), Allentown PA (C), Midland TX (D), Clearwater FL (E), Roseville CA (A), Albany NY (B), Athens GA (C), Lancaster CA (D), Green Bay WI (E). No new state files needed. Rotation A=41 B=40 C=40 D=40 E=39. 200 total cities, 283 site pages. Build green. |
 | 2026-06-07 | Chunk 9: next 25 T2 city pages | Anchorage AK (B), Providence RI (C), Manchester NH (E), Mobile AL (D), Bridgeport CT (C), New Haven CT (A), Thornton CO (D), Murfreesboro TN (B), Sterling Heights MI (C), West Valley City UT (E), Peoria IL (B), Elgin IL (D), Springfield MA (A), Irving TX (A), Beaumont TX (A), Abilene TX (B), Santa Rosa CA (E), Pomona CA (B), Torrance CA (E), Pasadena CA (D), Visalia CA (C), Vallejo CA (E), Concord CA (A), Simi Valley CA (C), Thousand Oaks CA (D). New state files: alaska, rhode-island, new-hampshire. Rotation A=46 B=45 C=45 D=45 E=44. 225 total cities, 308 site pages. Build green. |
+| 2026-06-08 | Chunk 10: next 25 T2 city pages | Cedar Rapids IA (A), Norman OK (B), Broken Arrow OK (A), Elizabeth NJ (C), Warren MI (D), Dearborn MI (E), Columbia MO (A), Independence MO (C), Topeka KS (B), Evansville IN (C), South Bend IN (D), Springfield IL (E), Rochester MN (A), Escondido CA (B), Kent WA (C), Westminster CO (D), Arvada CO (E), Pueblo CO (D), Lakeland FL (A), Palm Bay FL (B), Carrollton TX (C), Round Rock TX (D), Lewisville TX (E), Gresham OR (B), Stamford CT (E). No new state files. Rotation A=51 B=50 C=50 D=50 E=49. 250 total cities, 333 site pages. Build green. |
 
 ## ClimateZone Values (extended 2026-06-04)
 
