@@ -2042,4 +2042,322 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Palm Bay pest control for subterranean termites, American cockroaches, fire ants, mosquitoes and ghost ants. Brevard County Space Coast Indian River Lagoon specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "pompano-beach",
+    name: "Pompano Beach",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~113,000",
+    county: "Broward County",
+    climate: "hot-humid",
+    climateDriver:
+      "Pompano Beach sits on the Atlantic coast in central Broward County with a tropical climate: year-round warmth, high humidity, and a wet season from May through October. The University of Florida IFAS Extension identifies South Florida as one of the highest-termite-activity regions in the United States, with Formosan and Asian subterranean termites established alongside the more widespread Eastern subterranean and drywood species. Pompano Beach's extensive lake and canal system throughout the city provides year-round mosquito breeding habitat, and American cockroaches thrive in the warm sewer infrastructure.",
+    topPests: ["Subterranean Termites", "Drywood Termites", "Mosquitoes", "American Cockroaches", "Argentine Ants"],
+    pestProfile: [
+      {
+        name: "Formosan and drywood termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity; Formosan swarms May through July, drywood swarms fall",
+        note: "University of Florida IFAS Extension identifies Pompano Beach and Broward County as having established Formosan subterranean termite populations. Formosan termites are the most destructive termite species in the US and form colonies up to ten times larger than Eastern subterranean termites. Drywood termites are also active in older Pompano Beach structures, infesting wood framing without any soil contact.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round; peaks May through October during the wet season",
+        note: "Pompano Beach's extensive system of lakes, canals, and retention ponds creates some of the most sustained residential mosquito breeding habitat in Broward County. UF IFAS Extension confirms that South Florida's year-round warm temperatures mean mosquitoes never fully stop breeding, though the wet season from May through October brings peak populations.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, move indoors most frequently spring through fall",
+        note: "American cockroaches are the dominant large cockroach in Pompano Beach and are supported by the city's warm storm sewer infrastructure and canal system. UF IFAS Extension identifies American cockroaches as the most commonly reported cockroach in Broward County outdoor environments, moving into structures through drains, pipe gaps, and crawlspace vents.",
+      },
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round; most active spring through fall",
+        note: "Argentine ant supercolonies are established throughout Broward County and are among the most persistent indoor ant pests in South Florida. UF IFAS Extension notes that Argentine ants form large supercolonies that extend across multiple properties, making individual property treatment less effective than community-level management.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active when fruit trees ripen",
+        note: "Roof rats are common throughout Pompano Beach, where the city's mature tropical landscaping and fruit trees including citrus, avocado, and mango provide the elevated food sources these climbing rodents depend on. UF IFAS Extension identifies roof rats as the dominant rat species in South Florida's urban and suburban environments.",
+      },
+    ],
+    localHook:
+      "University of Florida IFAS Extension identifies Broward County as having established Formosan subterranean termite populations, and Pompano Beach's lake and canal system creates some of the most sustained residential mosquito breeding habitat in South Florida. For a city where termites, mosquitoes, and cockroaches are year-round realities rather than seasonal concerns, professional pest management is the standard practice, not an occasional response.",
+    intro:
+      "Pest control in Pompano Beach operates in the reality of South Florida's year-round tropical climate. University of Florida IFAS Extension confirms Formosan and drywood termites are both established in Broward County, and Pompano Beach's lake and canal network creates sustained mosquito breeding habitat that runs twelve months a year. American cockroaches move through the city's warm sewer and canal infrastructure year-round. Argentine ant supercolonies are a constant outdoor and indoor presence, and roof rats are supported by the city's mature tropical landscaping and fruit trees.",
+    sections: [
+      {
+        heading: "Formosan termites in Pompano Beach",
+        body: "Formosan subterranean termites are established in Broward County, and Pompano Beach is within their confirmed range in South Florida. University of Florida IFAS Extension distinguishes them from Eastern subterranean termites in important ways: Formosan colonies can contain a million or more workers, consume wood significantly faster, and build carton nests inside wood and in trees that allow colonies to sustain moisture independent of the soil. This makes them more difficult to control than Eastern subterranean termites and more dangerous to structures. Annual inspections in Pompano Beach should specifically assess for Formosan termite activity in addition to the more widespread drywood and Eastern subterranean species. Homes with mature trees touching the structure carry Formosan carton nest risk that standard soil termite programs do not fully address.",
+      },
+      {
+        heading: "Mosquitoes and the lake and canal system",
+        body: "Pompano Beach's extensive network of lakes, canals, and retention ponds is both a major amenity and the reason the city has some of the most sustained residential mosquito pressure in Broward County. University of Florida IFAS Extension notes that South Florida's year-round warmth means mosquitoes never fully stop reproducing. During the May through October wet season, standing water accumulates in every yard, planter, and gutter, adding residential breeding sites to the canal system's continuous production. Monthly barrier spray from the foundation perimeter outward, combined with eliminating standing water sources on the property, is the standard residential program. Properties bordering the canal system see heavier pressure than those further from the water and typically need more frequent service during the wet season.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections that specifically check for Formosan termite activity, not just Eastern subterranean.",
+      "Eliminate all standing water sources weekly: gutters, plant saucers, bird baths, and containers that hold water after rain.",
+      "Seal pipe penetrations, floor drains, and crawlspace vents to limit American cockroach entry from the sewer and canal system.",
+      "Trim fruit trees away from the roofline and seal attic vent screens to reduce roof rat access.",
+    ],
+    costNote:
+      "Pompano Beach pest control typically combines a year-round general plan covering cockroaches, ants, and rodents with a separate annual termite inspection and prevention program. Mosquito barrier spray runs year-round with wet season intensification from May through October. A free assessment establishes the full program for your property.",
+    faqs: [
+      {
+        question: "Are Formosan termites really in Pompano Beach?",
+        answer:
+          "Yes. University of Florida IFAS Extension confirms Formosan subterranean termites are established in Broward County, including Pompano Beach. They are far more aggressive than Eastern subterranean termites, forming much larger colonies that can consume wood faster and are harder to control. Annual inspections in Pompano Beach should specifically check for Formosan activity in addition to drywood and Eastern subterranean termites.",
+      },
+      {
+        question: "How do I reduce mosquitoes near the canals in Pompano Beach?",
+        answer:
+          "Eliminate all standing water on your property weekly: clean gutters, empty plant saucers, remove containers that hold water after rain. For the canal-adjacent pressure you cannot control on your own, a monthly barrier spray from the property perimeter reduces biting mosquito populations that bred on the canal or neighboring properties. During the May through October wet season, more frequent service is usually necessary for canal-bordering properties.",
+      },
+      {
+        question: "Why do American cockroaches keep getting in my Pompano Beach home?",
+        answer:
+          "American cockroaches in Pompano Beach have extensive outdoor habitat in the city's warm canal system, storm drains, and utility corridors that stay warm year-round. They move between outdoor infrastructure and indoor spaces through gaps at pipe penetrations, floor drains, and crawlspace vents. Sealing these entry points reduces pressure but the proximity to water infrastructure means this is an ongoing management task.",
+      },
+      {
+        question: "Do I need a termite bond in Pompano Beach?",
+        answer:
+          "A termite bond, or warranty-backed prevention and treatment program, is standard practice in South Florida and particularly important in Broward County where Formosan, drywood, and Eastern subterranean termites are all active. Most licensed companies offer annual inspection coverage with retreatment included. For older homes or those with mature trees adjacent to the structure, the annual cost of a termite bond is typically far less than the cost of repairing termite damage discovered years later.",
+      },
+      {
+        question: "Are roof rats a problem in Pompano Beach?",
+        answer:
+          "Yes. Roof rats are the dominant rat species in South Florida and are common in Pompano Beach wherever there is mature tropical landscaping and fruit trees. UF IFAS Extension identifies citrus, avocado, and mango as primary food sources that sustain roof rat populations in South Florida neighborhoods. Trimming all tree branches to maintain clearance from the roofline and sealing attic vent screens with hardware cloth are the primary prevention steps.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Fort Lauderdale", slug: "fort-lauderdale" },
+      { name: "Hollywood", slug: "hollywood" },
+      { name: "Coral Springs", slug: "coral-springs" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Pompano Beach, FL | Termites, Mosquitoes & Cockroaches",
+    metaDescription:
+      "Pompano Beach pest control for Formosan termites, drywood termites, mosquitoes, American cockroaches and Argentine ants. Broward County lake and canal corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "davie",
+    name: "Davie",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~105,000",
+    county: "Broward County",
+    climate: "hot-humid",
+    climateDriver:
+      "Davie is the largest municipality in Broward County by area, spanning from dense residential development to active horse farms and agricultural land in the western part of the city. The University of Florida IFAS Extension identifies South Florida's tropical climate as one of the highest-pressure pest environments in the United States. Davie's horse farms, equestrian properties, and the agricultural western edge create pest conditions distinct from the rest of Broward County: elevated mosquito and fly pressure from animal operations, Asian and Formosan subterranean termites in all areas, and fire ants colonizing the open sandy soils of horse paddocks and farms.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "American Cockroaches", "Ghost Ants", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Asian and Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity; Asian termites swarm March through June, Formosan May through July",
+        note: "University of Florida IFAS Extension identifies Davie and Broward County as having established populations of multiple subterranean termite species, including the highly destructive Asian and Formosan subterranean termites alongside the more widespread Eastern subterranean species. The tropical climate, high humidity, and irrigated agricultural soils of Davie's equestrian areas provide conditions that support exceptionally active termite colonies.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round; severe during the May through October wet season",
+        note: "Davie's horse properties, agricultural ditches, and retention ponds create sustained mosquito breeding habitat across the city's large footprint. UF IFAS Extension identifies equestrian and agricultural properties as particularly high-pressure mosquito zones in South Florida because the combination of animal activity, standing water in paddocks, and large outdoor areas makes management more complex than standard residential spray programs.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active during warm wet season",
+        note: "American cockroaches are the dominant large cockroach across Broward County and are particularly prevalent in Davie's older residential neighborhoods near the Everglades edge and agricultural areas. They use sewer infrastructure and drainage ditches to move between outdoor and indoor environments year-round.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round; most active spring through fall",
+        note: "Ghost ants are a characteristic indoor ant of South Florida, where UF IFAS Extension confirms they are one of the most common household ant complaints in Broward County. They are nearly translucent, travel in hidden trails inside walls, and are notoriously difficult to control with over-the-counter products because spot-spraying breaks colonies into satellite groups that spread further.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round in South Florida, peak activity during wet season",
+        note: "Red imported fire ants are established throughout Davie and are a particular concern in the city's equestrian and agricultural areas, where disturbing mounds near horses and livestock creates stinging risk for animals. UF IFAS Extension recommends broadcast bait treatment for fire ants in large equestrian properties rather than individual mound treatment.",
+      },
+    ],
+    localHook:
+      "Davie is the largest municipality in Broward County by area, and its western agricultural edge, horse farms, and equestrian properties create pest conditions unlike any other city in the county. University of Florida IFAS Extension identifies equestrian and agricultural properties as high-pressure mosquito zones in South Florida, and Davie's open paddocks, agricultural ditches, and the retention ponds that come with them make the mosquito challenge here more complex than a standard residential spray program can fully address.",
+    intro:
+      "Pest control in Davie blends the standard South Florida pressures with those of an active agricultural and equestrian community. University of Florida IFAS Extension confirms Asian, Formosan, and Eastern subterranean termites are all active in Broward County, and Davie's tropical climate means they operate year-round. Mosquitoes are year-round in South Florida and the city's horse farms, agricultural ditches, and retention ponds create breeding conditions that are more intense than in purely residential parts of Broward. American cockroaches use the warm sewer and drainage infrastructure freely. Ghost ants are the characteristic indoor nuisance ant of South Florida. Fire ants colonize the open soils of paddocks and lawns throughout the city.",
+    sections: [
+      {
+        heading: "Termites in Davie's residential and agricultural areas",
+        body: "Davie sits in one of the highest-termite-pressure environments in the United States. University of Florida IFAS Extension identifies Broward County as having established populations of Asian subterranean termites, Formosan subterranean termites, and Eastern subterranean termites alongside the native drywood species, giving Davie homeowners multiple termite threats simultaneously. Asian subterranean termites are particularly aggressive in moist soils near drainage ditches and the Everglades edge, while Formosan termites infest older structures and mature trees throughout the city. Annual termite inspections are the baseline standard for Davie homeowners. Homes near agricultural canals or with mature oak or palm trees adjacent to the structure carry above-average termite risk.",
+      },
+      {
+        heading: "Ghost ants and the South Florida indoor ant challenge",
+        body: "Ghost ants are a characteristic pest of South Florida that most northern pest control products and approaches struggle to control. University of Florida IFAS Extension is clear on why: ghost ants are structurally different from the nuisance ants of colder climates in that they form multiple satellite colonies that readily split when disturbed by spraying. Standard over-the-counter ant sprays make infestations worse by scattering colonies rather than eliminating them. The effective treatment is gel bait placed in the trails inside walls and cabinets, without disrupting the trail first. Ghost ant colonies in Davie homes typically have multiple entry points and satellite colonies throughout the structure. Professional treatment addresses the colony network rather than the visible trail.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections that cover all three subterranean termite species active in Broward County.",
+      "Eliminate standing water in paddocks, ditches, and containers weekly during the wet season to reduce mosquito breeding.",
+      "Use slow-acting gel bait rather than sprays for ghost ants to avoid scattering colonies.",
+      "Apply broadcast fire ant bait twice yearly in spring and fall for equestrian and large-lot properties.",
+    ],
+    costNote:
+      "Davie pest control typically combines a year-round general plan covering ants, cockroaches, and rodents with a separate termite inspection and warranty program. Mosquito service for equestrian or agricultural properties is quoted based on the property size and water feature layout. A free assessment establishes the full program for your property.",
+    faqs: [
+      {
+        question: "Which termites are most damaging in Davie?",
+        answer:
+          "University of Florida IFAS Extension identifies Asian and Formosan subterranean termites as particularly destructive in Broward County. Both species form larger, more aggressive colonies than Eastern subterranean termites. Asian subterranean termites are associated with moist soils near drainage infrastructure, and Davie's canals and agricultural ditches provide ideal conditions. Annual inspections that specifically check for all three subterranean species plus drywood termites are the baseline standard.",
+      },
+      {
+        question: "Why are ghost ants so hard to eliminate in Davie homes?",
+        answer:
+          "Ghost ants form multiple satellite colonies that split when disturbed by spraying, making infestations worse when you use over-the-counter ant sprays. UF IFAS Extension recommends slow-acting gel bait placed in the trails inside walls and cabinets, without disrupting the trail first, as the effective approach. Professional treatment targets the entire colony network rather than the visible trail, and typically requires multiple visits to address all satellite colonies.",
+      },
+      {
+        question: "How do I manage mosquitoes on an equestrian property in Davie?",
+        answer:
+          "Equestrian and agricultural properties in Davie require a more comprehensive approach than residential spray programs. UF IFAS Extension recommends broadcast larvicide treatment in standing water sources in paddocks and ditches, combined with perimeter barrier spray around living areas. Remove standing water from containers, wheelbarrows, and low spots in paddocks after rain events. Horse properties may also qualify for county mosquito control treatment services through Broward County Mosquito Control.",
+      },
+      {
+        question: "Are fire ants dangerous for horses in Davie?",
+        answer:
+          "Fire ant stings can be serious for young foals and horses that disturb large mounds. UF IFAS Extension recommends broadcast bait treatment for fire ants in equestrian properties rather than individual mound treatment, because individual mound treatment in pastures does not address the overall colony density. A twice-yearly broadcast bait application in spring and fall maintains manageable fire ant pressure in paddocks and pasture areas.",
+      },
+      {
+        question: "Do I need a termite bond for a Davie home?",
+        answer:
+          "Yes. South Florida's termite pressure, particularly with multiple invasive species established in Broward County, makes an annual termite bond standard practice rather than a precaution. The cost of annual inspection and treatment coverage is consistently far less than the cost of structural repairs from undetected termite damage. Davie homes near canals, agricultural ditches, or with mature trees adjacent to the structure have above-average termite exposure and especially benefit from continuous coverage.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Fort Lauderdale", slug: "fort-lauderdale" },
+      { name: "Pembroke Pines", slug: "pembroke-pines" },
+      { name: "Miramar", slug: "miramar" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Davie, FL | Termites, Mosquitoes & Ghost Ants",
+    metaDescription:
+      "Davie pest control for Asian and Formosan subterranean termites, mosquitoes, American cockroaches, ghost ants and fire ants. Broward County equestrian and agricultural area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "boca-raton",
+    name: "Boca Raton",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~99,000",
+    county: "Palm Beach County",
+    climate: "hot-humid",
+    climateDriver:
+      "Boca Raton sits on the Atlantic coast in southern Palm Beach County with a tropical climate that produces warm temperatures year-round, high humidity, and a wet season from May through October. University of Florida IFAS Extension confirms Palm Beach County carries some of the highest termite pressure in Florida, with drywood, Formosan subterranean, Asian subterranean, and Eastern subterranean termites all active in the county. Boca Raton's mature landscaping with royal palms, live oaks, and tropical plantings provides habitat for roof rats and supports the white-footed ant colonies that are a characteristic South Florida residential pest.",
+    topPests: ["Drywood Termites", "Subterranean Termites", "Roof Rats", "Ghost Ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Drywood termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity; swarms fall, typically September through November",
+        note: "Drywood termites are a primary structural concern in Boca Raton, where the city's older and newer housing both carry risk. University of Florida IFAS Extension confirms drywood termites are widespread in South Florida and infest wood without any soil contact, making them harder to prevent than subterranean species. Boca Raton's warm, humid climate allows drywood termite colonies to remain active and expand year-round.",
+      },
+      {
+        name: "Formosan and Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity; Formosan swarms May through July",
+        note: "University of Florida IFAS Extension confirms Formosan subterranean termites are established in Palm Beach County. Combined with the more widespread Eastern subterranean species, Boca Raton homeowners face two subterranean termite threats in addition to drywood termites. Formosan termites form significantly larger colonies and are more destructive per colony than Eastern subterranean termites.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active when fruit and palm trees produce",
+        note: "Roof rats are common in Boca Raton, where the city's mature tropical landscaping with fruit trees, palms, and dense ornamental plantings provides the elevated habitat they prefer. University of Florida IFAS Extension identifies roof rats as the dominant rat species in South Florida coastal cities and notes that attic infestations are common in neighborhoods with heavy tree canopy that bridges to rooflines.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round; most active spring through fall",
+        note: "Ghost ants are one of the most frequently reported indoor ant species in Palm Beach County homes and are particularly persistent in Boca Raton's upscale residential areas, where regular landscape irrigation sustains large outdoor colony populations that readily move inside. UF IFAS Extension confirms they are among the most difficult household ants to control in South Florida.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round; peaks May through October during the wet season",
+        note: "Boca Raton's Intracoastal Waterway, canal system, and golf course water features create year-round mosquito breeding habitat. The coastal canals maintain water year-round regardless of rainfall, sustaining mosquito populations well into the dry season. Palm Beach County Mosquito Control treats public waterways, but residential property management falls to homeowners.",
+      },
+    ],
+    localHook:
+      "University of Florida IFAS Extension confirms Palm Beach County has four active termite species: drywood, Eastern subterranean, Formosan subterranean, and Asian subterranean termites. Boca Raton's warm tropical climate and mature landscaping mean all four are potential threats in any given home, making this one of the more complex termite management environments in the United States. Annual inspections and active prevention programs are not a precaution here, they are the community standard.",
+    intro:
+      "Pest control in Boca Raton takes the full South Florida termite challenge seriously. University of Florida IFAS Extension confirms Palm Beach County has four active termite species, and Boca Raton's mature residential neighborhoods, older and newer alike, carry risk from drywood termites, Formosan subterranean termites, and Eastern subterranean termites simultaneously. Roof rats are common in the city's mature tropical tree canopy. Ghost ants are the characteristic indoor ant of South Florida and are particularly persistent in Boca Raton's irrigated residential areas. Mosquitoes breed year-round in the Intracoastal Waterway and canal system.",
+    sections: [
+      {
+        heading: "Four termite species and what that means for Boca Raton homes",
+        body: "Palm Beach County's tropical climate supports four termite species that are each managed differently. University of Florida IFAS Extension describes the key differences: drywood termites infest wood without soil contact and require fumigation or targeted localized treatment; Eastern and Formosan subterranean termites live in the soil and require liquid barrier or bait station treatment; Formosan termites additionally build carton nests inside wood and trees that can survive independent of the soil. A Boca Raton home may have drywood termites in the attic framing, Eastern subterranean activity at the foundation slab, and Formosan activity in a mature oak adjacent to the structure, all at the same time. Annual inspections that specifically evaluate all four species, conducted by a licensed Florida termite professional, are the only way to know what you are actually dealing with.",
+      },
+      {
+        heading: "Roof rats and the tropical tree canopy",
+        body: "Boca Raton's mature tropical landscaping is one of the city's most valued features and one of the primary reasons roof rat pressure is higher here than in South Florida cities with younger, more recently developed neighborhoods. Roof rats are agile climbers that travel through tree canopy, and when branches extend within 18 inches of a roofline, they have a direct access route to the attic. University of Florida IFAS Extension recommends maintaining branch clearance from the roofline as the most effective single prevention step for roof rats in South Florida. The second step is sealing attic vent screens with hardware cloth rather than standard insect screen, which rats can push through. Once inside the attic, roof rats nest in insulation and chew through wiring. Exclusion and attic cleanup, rather than just trapping, is the complete treatment.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections that assess all four species active in Palm Beach County.",
+      "Maintain 18-inch branch clearance from the roofline and seal attic vents with hardware cloth to exclude roof rats.",
+      "Use slow-acting gel bait for ghost ants rather than sprays, which scatter colonies and worsen infestations.",
+      "Eliminate standing water in the yard weekly during the wet season and use a barrier spray program year-round for mosquitoes.",
+    ],
+    costNote:
+      "Boca Raton pest control typically combines a year-round general plan covering ants, cockroaches, and rodents with a separate annual termite inspection and warranty program covering all active species. Mosquito barrier spray runs year-round with increased service during the May through October wet season. A free assessment establishes the full program for your property.",
+    faqs: [
+      {
+        question: "Do I really need to worry about four different termite species in Boca Raton?",
+        answer:
+          "Yes. University of Florida IFAS Extension confirms Palm Beach County has four active termite species: drywood, Eastern subterranean, Formosan subterranean, and Asian subterranean. Each is managed differently, and a home can have more than one species active at the same time. Annual inspections by a licensed Florida termite professional are the only way to know which species are present and which treatment approach applies.",
+      },
+      {
+        question: "Why are roof rats such a problem in Boca Raton's neighborhoods?",
+        answer:
+          "Boca Raton's mature tropical landscaping with royal palms, live oaks, and fruit trees provides the elevated habitat roof rats prefer, and tree canopy that reaches within 18 inches of rooflines gives them direct access to attics. UF IFAS Extension identifies tree branch proximity as the primary roof rat access route in South Florida. Trimming branches back and sealing attic vent screens with hardware cloth are the most effective prevention steps.",
+      },
+      {
+        question: "Are ghost ants different from regular ants and why are they so hard to treat?",
+        answer:
+          "Ghost ants are nearly translucent and very small, which makes them difficult to spot until a trail is established inside. UF IFAS Extension explains why standard ant sprays make infestations worse: ghost ants form satellite colonies that split when disturbed by spraying, spreading the infestation further. Slow-acting gel bait placed in the trails is far more effective. The bait is taken back to the colony and shared, eliminating the satellite network rather than just the visible trail.",
+      },
+      {
+        question: "How do I manage mosquitoes near the canals in Boca Raton?",
+        answer:
+          "Palm Beach County Mosquito Control treats public waterways, but the canals create persistent breeding pressure that residential barrier spray helps manage. Eliminate all standing water on your property weekly and apply monthly barrier spray from the property perimeter through the vegetation line. Canal-bordering properties see year-round pressure rather than just wet season pressure, and year-round monthly service is the standard for waterfront lots in Boca Raton.",
+      },
+      {
+        question: "Is a termite bond worth it in Boca Raton?",
+        answer:
+          "Strongly yes. The combination of four active termite species, a tropical climate that supports year-round colony growth, and the cost of repairing undetected termite damage makes a warranty-backed termite prevention program one of the most cost-effective investments for a Boca Raton homeowner. The annual cost of coverage is typically less than the cost of a single repair job from termite damage that went undetected for several years.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Pompano Beach", slug: "pompano-beach" },
+      { name: "Coral Springs", slug: "coral-springs" },
+      { name: "West Palm Beach", slug: "west-palm-beach" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Boca Raton, FL | Termites, Roof Rats & Ghost Ants",
+    metaDescription:
+      "Boca Raton pest control for drywood termites, Formosan subterranean termites, roof rats, ghost ants and mosquitoes. Palm Beach County Intracoastal Waterway coastal specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

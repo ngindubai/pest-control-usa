@@ -640,4 +640,216 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Kent pest control for Norway rats, odorous house ants, carpenter ants, yellow jackets and house spiders. King County Green River Valley greenbelt specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "everett",
+    name: "Everett",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T2",
+    population: "~115,000",
+    county: "Snohomish County",
+    climate: "temperate",
+    climateDriver:
+      "Everett sits on Port Gardner Bay at the mouth of the Snohomish River with a cool, wet Pacific Northwest marine climate. Long wet winters and mild summers favor moisture-driven pests: Norway rats exploit the port and waterfront infrastructure, carpenter ants thrive in persistently damp wood, and silverfish reach high populations inside buildings with poor ventilation. The Boeing assembly plant and industrial waterfront also support Norway rat colonies that spread into nearby residential blocks.",
+    topPests: ["Norway Rats", "Carpenter Ants", "Odorous House Ants", "Silverfish", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most visible fall through winter",
+        note: "Everett's Port Gardner waterfront and the Snohomish River corridor sustain large Norway rat populations. WSU Extension identifies waterfront cities and ports as high-pressure zones for Norway rats, which burrow along bank edges and travel through storm drains before entering crawlspaces and garages. Neighborhoods near the port and the Boeing campus see the heaviest pressure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active March through October, swarmers visible May through June",
+        note: "Everett's persistent wet winters give carpenter ants extensive nesting opportunities in moisture-softened wood: older homes with roof leaks, deck framing with standing water, and wood in ground contact near the Snohomish River lowlands. WSU Extension identifies carpenter ants as the most structurally damaging ant species in the Pacific Northwest.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round indoors, peaks May through September",
+        note: "Odorous house ants are among the most common indoor ant complaints in Snohomish County. They move inside seeking warmth and water during rain events, forming trails across kitchen countertops and into stored food. The species produces a rotten coconut odor when crushed, which is the identifying characteristic.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round indoors, most active in humid spaces",
+        note: "Everett's high annual rainfall and cool temperatures sustain indoor humidity levels that support large silverfish populations in basements, bathrooms, and poorly ventilated attics. They feed on paper, glue, and starchy materials and can damage books, wallpaper, and stored documents over time.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colony growth May through September, most aggressive August through October",
+        note: "Yellow jackets build large colonies in Everett's wooded greenbelt areas, under decks, and in wall voids of older homes. Colonies become aggressive in late summer as food sources decrease, and nest disturbance in wall voids is particularly dangerous because workers emerge from inside the structure.",
+      },
+    ],
+    localHook:
+      "Everett's location on Port Gardner Bay and the Snohomish River delta makes it one of the higher-pressure rat cities in Snohomish County. WSU Extension identifies waterfront corridors and industrial ports as primary Norway rat habitat, and populations along Everett's waterfront spread into nearby residential blocks through storm drains and utility infrastructure. The same wet climate that sustains the port also gives carpenter ants the moisture they need to damage wood throughout the city.",
+    intro:
+      "Pest control in Everett runs on the city's waterfront identity and its Pacific Northwest weather. Norway rats are a persistent presence along the Port Gardner waterfront and the Snohomish River corridor, and WSU Extension confirms that port cities carry above-average rat pressure that spreads into residential blocks through underground infrastructure. Carpenter ants are the structural concern: Everett's wet winters keep wood damp long enough for established colonies to do real damage over several years. Odorous house ants come indoors in large numbers during rain events, silverfish thrive in the city's humid basements and attics, and yellow jacket nests grow large in the wooded greenbelt before turning aggressive in late summer.",
+    sections: [
+      {
+        heading: "Norway rats at the port and in the neighborhood",
+        body: "Everett's Port Gardner waterfront and the Snohomish River banks are prime Norway rat habitat. These rats burrow along levees, drainage channels, and port infrastructure, then travel through storm drains into residential crawlspaces and garages. WSU Extension consistently identifies waterfront industrial corridors as primary Norway rat zones, and Everett's situation fits that profile closely. Homes within a half mile of the waterfront and industrial areas see the heaviest pressure. The practical response is not just trapping inside the home but sealing the exterior: foundation vents with secure hardware cloth, gaps at the roofline, and pipe penetrations. An open-access crawlspace is an invitation. Exterior bait station programs maintained by a licensed professional are the standard for ongoing control in higher-pressure areas.",
+      },
+      {
+        heading: "Carpenter ants and the Pacific Northwest moisture cycle",
+        body: "Everett's winters are long and wet, and wood in and around homes absorbs moisture over months of rain. Carpenter ants do not eat wood, but they excavate galleries in softened or damp wood to nest, and over several years an established colony causes real structural damage. The most common sites in Everett are rooflines with inadequate flashing, deck framing that traps water, window frames with failed caulk, and any wood in ground contact. The diagnostic sign is finding large black ants indoors during winter or spring: that almost always indicates a colony is already established inside the structure rather than foragers coming from outside. Treating just the visible ants does not address the problem. Professional treatment locates the colony and targets both the interior satellite and the parent colony outdoors.",
+      },
+    ],
+    prevention: [
+      "Seal foundation vents with hardware cloth and close gaps at pipe penetrations to block Norway rat entry.",
+      "Trim tree branches away from the roofline to remove rat travel routes to the attic.",
+      "Repair roof flashing, gutters, and window caulk to eliminate the moisture conditions carpenter ants need to nest.",
+      "Reduce basement humidity with ventilation or a dehumidifier to limit silverfish populations.",
+    ],
+    costNote:
+      "Everett pest control is typically a year-round program covering rats, ants, spiders, and silverfish, with seasonal yellow jacket treatment added in summer. Properties near the waterfront may benefit from an exterior rat monitoring and bait station program running continuously. A free inspection establishes the right plan for your property.",
+    faqs: [
+      {
+        question: "Why are Norway rats such a problem near Everett's waterfront?",
+        answer:
+          "Everett's Port Gardner waterfront and the Snohomish River delta provide the burrow sites and food sources that sustain large Norway rat populations. WSU Extension identifies waterfront industrial corridors as primary Norway rat zones, and these populations spread into residential blocks through storm drains and utility lines. Homes within several blocks of the waterfront see measurably higher rat pressure than properties further inland.",
+      },
+      {
+        question: "How do I know if carpenter ants have damaged my home in Everett?",
+        answer:
+          "Early signs are coarse, sawdust-like debris near window frames, door frames, or baseboards, and large black ants visible indoors in winter or spring. Winter or spring sightings of carpenter ants inside nearly always mean an established colony is living inside the structure. A licensed professional can probe the suspected areas with a moisture meter and locate the colony for direct treatment.",
+      },
+      {
+        question: "Why do ants invade my Everett home whenever it rains?",
+        answer:
+          "Odorous house ants move indoors during heavy rain events to escape flooding of their outdoor nests and to seek warmth. Everett's wet winters create repeated triggers for these invasions. Sealing gaps around door frames and windows and applying a perimeter treatment before the rainy season significantly reduces how many get inside.",
+      },
+      {
+        question: "Are silverfish a serious pest in Everett?",
+        answer:
+          "More than in most US cities, yes. Everett's high annual rainfall sustains indoor humidity levels that support large silverfish populations in basements, bathrooms, and attic insulation. Over time they damage books, wallpaper, paper products, and clothing with starchy sizing. Reducing humidity with better ventilation and a dehumidifier, combined with perimeter treatment, keeps them from reaching nuisance levels.",
+      },
+      {
+        question: "When should I call about yellow jackets in Everett?",
+        answer:
+          "If the nest is in a wall void, under a deck, or in any area where people regularly pass, call a professional rather than attempting DIY treatment. Wall void nests are the most hazardous: disturbing them causes workers to emerge from inside the structure. Late summer, August through October, is when yellow jacket colonies are at their largest and most defensive. A licensed technician can inject dust directly into the void and seal the entry point.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Bellevue", slug: "bellevue" },
+      { name: "Renton", slug: "renton" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Everett, WA | Norway Rats, Carpenter Ants & Silverfish",
+    metaDescription:
+      "Everett pest control for Norway rats, carpenter ants, odorous house ants, silverfish and yellow jackets. Snohomish County Port Gardner waterfront specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "renton",
+    name: "Renton",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T2",
+    population: "~112,000",
+    county: "King County",
+    climate: "temperate",
+    climateDriver:
+      "Renton sits at the south end of Lake Washington where the Cedar River empties into the lake, creating a wet, temperate environment with year-round moisture. WSU Extension identifies King County's river and lake corridors as prime habitat for moisture ants and carpenter ants. The Cedar River wetlands and the numerous streams feeding Lake Washington sustain mosquito populations well into fall. The city's industrial south end, with its Boeing facilities and aging infrastructure, supports Norway rat populations that spread into residential areas.",
+    topPests: ["Moisture Ants", "Norway Rats", "Carpenter Ants", "Mosquitoes", "Hobo Spiders"],
+    pestProfile: [
+      {
+        name: "Moisture ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round in moist wood, swarmers visible late summer",
+        note: "Renton's lakeside location and Cedar River proximity create the saturated wood conditions moisture ants need to establish colonies. WSU Extension notes that moisture ants (Lasius niger complex and Acanthomyops species) are a particular concern in Pacific Northwest homes built near water, where they colonize wood that has absorbed chronic moisture from inadequate drainage or roof leaks.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most visible fall through winter",
+        note: "Renton's Cedar River corridor and the storm drain network feeding Lake Washington sustain Norway rat populations that spread into residential blocks through underground infrastructure. The city's industrial south end provides the food and harborage that support significant base rat populations near homes.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active March through October",
+        note: "Renton's wet climate and the moisture from the Cedar River floodplain keep wood around foundations and decks persistently damp. WSU Extension identifies carpenter ants as the top structural ant threat in the Pacific Northwest, and Renton's situation, combining high moisture with substantial older housing stock, makes them a consistent concern.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Active May through September, peaks July and August",
+        note: "The Cedar River wetlands, Liberty Park pond, and the numerous small streams feeding Lake Washington provide mosquito breeding habitat that sustains activity well into fall. Renton's residential areas near Springbrook Creek and the Cedar River corridor see the heaviest neighborhood-level mosquito pressure.",
+      },
+      {
+        name: "Hobo spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most active late summer through fall",
+        note: "Hobo spiders are widespread in the Pacific Northwest and common in Renton's garages, basements, and crawlspaces. WSU Extension has published guidance on hobo spiders in Washington state. They build funnel-shaped webs in low, undisturbed areas and are the most frequently encountered ground-level spider in King County homes.",
+      },
+    ],
+    localHook:
+      "Renton sits at the south end of Lake Washington where the Cedar River delivers a steady supply of moisture to the local environment. WSU Extension identifies this type of river-to-lake setting as prime moisture ant territory, and Renton homeowners near the river and the lake edge regularly discover moisture ant colonies in wood that has absorbed chronic dampness from inadequate drainage or aging roof details. The same river corridor feeds a substantial mosquito population through the summer.",
+    intro:
+      "Pest control in Renton follows the Cedar River. The river's wetlands and the south end of Lake Washington create moisture conditions that drive two distinct ant problems: moisture ants colonize wood in perpetually damp conditions, and carpenter ants exploit any softened framing nearby. Norway rats use the Cedar River drainage system to move between the city's industrial south end and residential blocks. Mosquitoes breed in the river's backwater areas and the small streams feeding the lake. Hobo spiders are the common ground-level spider in Pacific Northwest homes, and Renton's garages and crawlspaces provide what they need.",
+    sections: [
+      {
+        heading: "Moisture ants and what they tell you about your home",
+        body: "Moisture ants are not the same as carpenter ants, though both colonize wood. Moisture ants require wood that has been continuously wet, not just damp. Finding them in a Renton home almost always signals a chronic moisture source: a roof leak that has soaked wall framing, subfloor wood in standing water, or wood members in ground contact near the Cedar River lowlands. WSU Extension notes that moisture ants are an important diagnostic pest because their presence points to an underlying moisture problem that will continue to damage the structure even after the ants are treated. Addressing the moisture source, not just the ants, is the complete treatment. A professional inspection includes checking the moisture levels in the affected wood to identify the source.",
+      },
+      {
+        heading: "Norway rats in Renton's river and industrial corridors",
+        body: "Renton's Cedar River corridor and the storm drain network connecting it to Lake Washington sustain established Norway rat populations. The city's industrial south end, with its Boeing facilities and commercial infrastructure, provides the food and harborage that keeps base populations high. Norway rats travel through storm drains and utility lines into residential crawlspaces, garages, and basements. They are burrowing animals and often establish in yard soil before moving into structures. Exterior bait stations, foundation exclusion, and sealing utility penetrations are the standard professional approach. In areas near the river and the industrial corridor, ongoing exterior monitoring is more effective than reactive treatment after an interior problem appears.",
+      },
+    ],
+    prevention: [
+      "Improve drainage at the foundation and repair roof leaks to eliminate the chronic moisture conditions moisture ants require.",
+      "Seal storm drain connections and utility penetrations at the foundation to block Norway rat entry.",
+      "Trim tree branches and shrubs away from the structure to remove travel routes for rats.",
+      "Reduce standing water in the yard and clean gutters regularly to limit mosquito breeding near the Cedar River edge.",
+    ],
+    costNote:
+      "Renton pest control is typically a year-round program covering ants, rats, spiders, and earwigs, with seasonal mosquito treatment added in summer. Properties near the Cedar River or the lake edge may benefit from continuous exterior rat monitoring. A free inspection identifies moisture sources and entry points specific to your property.",
+    faqs: [
+      {
+        question: "What are moisture ants and should I be worried about them in Renton?",
+        answer:
+          "Moisture ants colonize wood that has absorbed chronic dampness, unlike carpenter ants, which will nest in any moist wood. Finding them means there is an ongoing moisture problem in your structure, not just a pest problem. WSU Extension identifies this as an important diagnostic: treating the ants without fixing the moisture source leaves the wood damage continuing. A professional inspection should identify the leak or drainage issue causing the moisture before treatment.",
+      },
+      {
+        question: "Why are Norway rats common in Renton?",
+        answer:
+          "Renton's Cedar River corridor, storm drain network, and industrial south end provide the burrowing habitat, food sources, and travel routes that sustain significant Norway rat populations. These rats move between industrial areas and residential blocks through underground infrastructure. Properties near the river and industrial zones are at the highest risk and benefit from ongoing exterior bait station programs rather than waiting for interior activity to appear.",
+      },
+      {
+        question: "How serious is the mosquito problem near the Cedar River in Renton?",
+        answer:
+          "More significant than in most King County neighborhoods at a similar distance from Seattle. The Cedar River wetlands, Liberty Park pond, and the small streams feeding Lake Washington provide extended breeding habitat that sustains mosquito activity from May well into September. Homes within a few blocks of these water features see noticeably higher pressure than those in drier parts of the city.",
+      },
+      {
+        question: "Are hobo spiders dangerous in Renton?",
+        answer:
+          "Hobo spiders are widespread in King County and common in Renton's garages, crawlspaces, and lower-level spaces. WSU Extension has updated its guidance on hobo spiders: current evidence suggests their medical significance is less severe than previously believed, but they can cause skin irritation in some people. They are large, fast-moving, and startling to encounter. Regular perimeter treatment and dewebbing in crawlspaces and garage edges reduces encounter frequency.",
+      },
+      {
+        question: "Is year-round pest control worth it in Renton?",
+        answer:
+          "For most Renton homes near the Cedar River or south end industrial areas, yes. Norway rats are a year-round concern, moisture and carpenter ants are active through most of the year, and hobo spiders do not have a true dormant season. A year-round program with seasonal mosquito treatment from May through September, and a fall focus on rat exclusion, covers most Renton properties well.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Kent", slug: "kent" },
+      { name: "Bellevue", slug: "bellevue" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Renton, WA | Moisture Ants, Norway Rats & Mosquitoes",
+    metaDescription:
+      "Renton pest control for moisture ants, Norway rats, carpenter ants, mosquitoes and hobo spiders. King County Cedar River Lake Washington corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

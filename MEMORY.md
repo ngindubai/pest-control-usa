@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-08)
 
-- **Phase:** Phase 2 T2 in progress. Chunk 10 complete.
-- **City pages built:** 250 total (75 T1 + 175 T2). 125 T2 cities remaining.
+- **Phase:** Phase 2 T2 in progress. Chunk 11 complete.
+- **City pages built:** 275 total (75 T1 + 200 T2). 100 T2 cities remaining.
 - **Town pages built:** 0.
-- **Total site pages:** 333 in the static export (home, services, 50+ states, 250 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=51, B=50, C=50, D=50, E=49 (250 total cities, all within 15-25% range).
-- **Cities built T2 chunk 10 (25):** Cedar Rapids IA (A), Norman OK (B), Broken Arrow OK (A), Elizabeth NJ (C), Warren MI (D), Dearborn MI (E), Columbia MO (A), Independence MO (C), Topeka KS (B), Evansville IN (C), South Bend IN (D), Springfield IL (E), Rochester MN (A), Escondido CA (B), Kent WA (C), Westminster CO (D), Arvada CO (E), Pueblo CO (D), Lakeland FL (A), Palm Bay FL (B), Carrollton TX (C), Round Rock TX (D), Lewisville TX (E), Gresham OR (B), Stamford CT (E).
-- **New state files added chunk 10:** none (all states already have files).
-- **Next block:** Chunk 11, next 25 T2 cities, rotation continues at A.
+- **Total site pages:** 358 in the static export (home, services, 50+ states, 275 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=56, B=55, C=55, D=55, E=54 (275 total cities, all within 15-25% range).
+- **Cities built T2 chunk 11 (25):** Olathe KS (A), Everett WA (A), Renton WA (D), Waterbury CT (C), Wilmington NC (D), Yuma AZ (C), Flint MI (B), Centennial CO (E), Hillsboro OR (C), Bend OR (D), Pompano Beach FL (E), Davie FL (E), Boca Raton FL (E), Fullerton CA (B), Orange CA (C), Santa Clara CA (D), Clovis CA (E), Murrieta CA (B), Costa Mesa CA (A), Antioch CA (B), El Monte CA (C), Temecula CA (A), Downey CA (B), West Covina CA (D), Inglewood CA (A).
+- **New state files added chunk 11:** none (all states already have files).
+- **Next block:** Chunk 12, next 25 T2 cities, rotation continues at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
@@ -80,6 +80,7 @@
 | 2026-06-06 | Chunk 8: next 25 T2 city pages | Grand Prairie TX (A), Vancouver WA (B), Port St. Lucie FL (C), Denton TX (D), Oceanside CA (E), Palmdale CA (A), Waco TX (B), Lansing MI (C), Joliet IL (D), West Palm Beach FL (E), Corona CA (A), Rockford IL (B), Provo UT (C), Charleston SC (D), Salinas CA (E), Roanoke VA (A), Ann Arbor MI (B), Allentown PA (C), Midland TX (D), Clearwater FL (E), Roseville CA (A), Albany NY (B), Athens GA (C), Lancaster CA (D), Green Bay WI (E). No new state files needed. Rotation A=41 B=40 C=40 D=40 E=39. 200 total cities, 283 site pages. Build green. |
 | 2026-06-07 | Chunk 9: next 25 T2 city pages | Anchorage AK (B), Providence RI (C), Manchester NH (E), Mobile AL (D), Bridgeport CT (C), New Haven CT (A), Thornton CO (D), Murfreesboro TN (B), Sterling Heights MI (C), West Valley City UT (E), Peoria IL (B), Elgin IL (D), Springfield MA (A), Irving TX (A), Beaumont TX (A), Abilene TX (B), Santa Rosa CA (E), Pomona CA (B), Torrance CA (E), Pasadena CA (D), Visalia CA (C), Vallejo CA (E), Concord CA (A), Simi Valley CA (C), Thousand Oaks CA (D). New state files: alaska, rhode-island, new-hampshire. Rotation A=46 B=45 C=45 D=45 E=44. 225 total cities, 308 site pages. Build green. |
 | 2026-06-08 | Chunk 10: next 25 T2 city pages | Cedar Rapids IA (A), Norman OK (B), Broken Arrow OK (A), Elizabeth NJ (C), Warren MI (D), Dearborn MI (E), Columbia MO (A), Independence MO (C), Topeka KS (B), Evansville IN (C), South Bend IN (D), Springfield IL (E), Rochester MN (A), Escondido CA (B), Kent WA (C), Westminster CO (D), Arvada CO (E), Pueblo CO (D), Lakeland FL (A), Palm Bay FL (B), Carrollton TX (C), Round Rock TX (D), Lewisville TX (E), Gresham OR (B), Stamford CT (E). No new state files. Rotation A=51 B=50 C=50 D=50 E=49. 250 total cities, 333 site pages. Build green. |
+| 2026-06-08 | Chunk 11: next 25 T2 city pages | Olathe KS (A), Everett WA (A), Renton WA (D), Waterbury CT (C), Wilmington NC (D), Yuma AZ (C), Flint MI (B), Centennial CO (E), Hillsboro OR (C), Bend OR (D), Pompano Beach FL (E), Davie FL (E), Boca Raton FL (E), Fullerton CA (B), Orange CA (C), Santa Clara CA (D), Clovis CA (E), Murrieta CA (B), Costa Mesa CA (A), Antioch CA (B), El Monte CA (C), Temecula CA (A), Downey CA (B), West Covina CA (D), Inglewood CA (A). No new state files. Rotation A=56 B=55 C=55 D=55 E=54. 275 total cities, 358 site pages. Build green. |
 
 ## ClimateZone Values (extended 2026-06-04)
 

@@ -464,4 +464,110 @@ export const connecticutCities: CityLocation[] = [
     metaDescription:
       "Stamford pest control for deer ticks, carpenter ants, house mice, stink bugs and mosquitoes. Fairfield County Lyme disease risk specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "waterbury",
+    name: "Waterbury",
+    state: "Connecticut",
+    stateSlug: "connecticut",
+    stateAbbr: "CT",
+    tier: "T2",
+    population: "~114,000",
+    county: "New Haven County",
+    climate: "cold-humid",
+    climateDriver:
+      "Waterbury sits in the Naugatuck River valley in New Haven County with a humid continental climate: cold, snowy winters and warm humid summers. Connecticut is one of the highest-incidence states for Lyme disease in the United States, and New Haven County consistently reports among the state's highest case counts. The city's older, densely built housing stock with aging infrastructure creates conditions that sustain house mice and German cockroach populations year-round. Carpenter ants are the dominant structural ant in Connecticut, thriving in the moisture that Waterbury's river valley and wet springs produce.",
+    topPests: ["Deer Ticks", "House Mice", "German Cockroaches", "Carpenter Ants", "Bed Bugs"],
+    pestProfile: [
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphs peak May through July",
+        note: "Connecticut's Department of Public Health reports the state as one of the highest Lyme disease-incidence states in the nation, and New Haven County is consistently among the highest-risk areas within Connecticut. Waterbury's wooded green spaces, the Naugatuck River corridor, and residential properties bordering woodland edge all carry meaningful deer tick populations. The nymph stage, active in late spring and early summer, is the most difficult to detect and responsible for most Lyme transmissions.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March, active year-round once established",
+        note: "Waterbury's dense older housing has many gaps at utility penetrations, aging foundation walls, and deteriorating door seals that mice exploit each fall. The city's commercial corridors and older multi-family housing sustain base mouse populations that spread into adjacent residential blocks through connected wall voids and utility chases.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a persistent indoor pest in Waterbury's older apartment buildings, commercial kitchens, and multi-family housing. They breed entirely indoors and spread through shared wall voids and plumbing in connected buildings, which makes treatment in multi-unit settings more complex than single-family homes.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, swarmers visible May through June",
+        note: "Carpenter ants are the dominant structural ant pest in Connecticut, and UConn Extension identifies them as among the most frequent pest complaints statewide. Waterbury's older housing near the Naugatuck River valley has many homes with moisture-softened wood from decades of wet winters, providing abundant nesting sites in wall framing and rooflines.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round indoors",
+        note: "Waterbury's older multi-family housing and apartment buildings see consistent bed bug activity. The city's density and older building stock create the conditions for spread between units through shared walls, electrical conduit, and plumbing chases. Early detection before populations spread to adjacent units is the critical factor in cost-effective treatment.",
+      },
+    ],
+    localHook:
+      "Connecticut's Department of Public Health places the state among the highest Lyme disease-incidence states in the US, and New Haven County consistently ranks at or near the top within Connecticut. Waterbury's wooded greenways, the Naugatuck River corridor, and residential lots bordering woodland all carry real deer tick pressure from March through November. This is not a rare risk in Waterbury, and tick awareness combined with yard-level management is a practical priority for any homeowner with children, pets, or outdoor space.",
+    intro:
+      "Pest control in Waterbury addresses both the regional Lyme disease risk and the pest pressures of a dense, older New England city. Connecticut's Department of Public Health consistently places the state among the highest Lyme disease-incidence states in the country, and New Haven County is among the highest-risk areas within the state. Waterbury's wooded corridors and properties bordering woodland edge all carry meaningful deer tick populations. Inside the city, house mice use the gaps in older housing stock each fall, German cockroaches maintain year-round populations in apartment buildings, carpenter ants exploit the moisture-softened wood that Connecticut's wet springs produce, and bed bugs move through older multi-family buildings.",
+    sections: [
+      {
+        heading: "Deer ticks and Lyme risk in New Haven County",
+        body: "Connecticut's Department of Public Health reports the state as one of the highest Lyme disease-incidence states in the nation, and Waterbury sits in New Haven County, one of the higher-risk counties within Connecticut. Deer ticks are the primary transmission vector. They are active from late March through November, not just in summer, and the nymph stage in late spring is the most dangerous because the ticks are small enough to be nearly invisible. Wooded greenways, the Naugatuck River corridor, and any residential property with woodland edge or a deer population nearby all carry real tick pressure. Yard-level barrier spray applied in spring and again in fall, combined with reducing leaf litter and brush piles where ticks congregate, are the primary management tools for residential properties.",
+      },
+      {
+        heading: "Mice and cockroaches in Waterbury's older housing",
+        body: "Waterbury's housing stock is predominantly older, and older buildings have more gaps around utility penetrations, aging foundation walls, and failing door and window seals that mice exploit each fall. Once inside, mice nest in wall voids and can move through connected units in multi-family buildings without going outdoors. German cockroaches in the same settings breed entirely indoors and spread through shared plumbing and electrical voids in a way that single-unit treatment does not fully address. In Waterbury's older apartment stock, professional treatment that covers harborage areas in kitchens and bathrooms across adjacent units, rather than a single-apartment treatment, delivers lasting results.",
+      },
+    ],
+    prevention: [
+      "Apply tick barrier spray in the yard in spring and fall, and reduce leaf litter and brush piles that ticks congregate in.",
+      "Seal foundation gaps, pipe penetrations, and failing door seals before October to prevent the fall mouse entry.",
+      "Use sealed plastic containers for food storage and fix dripping pipes to reduce cockroach food and water sources.",
+      "Check window frames, rooflines, and any wood near the Naugatuck River corridor for moisture-softened wood that may harbor carpenter ants.",
+    ],
+    costNote:
+      "Waterbury pest control typically involves a year-round plan covering ticks (yard spray), mice, ants, and cockroaches. Multi-family properties benefit from coordinated treatment across adjacent units for cockroaches and bed bugs. A free assessment identifies the specific risks at your property.",
+    faqs: [
+      {
+        question: "How serious is the Lyme disease risk in Waterbury?",
+        answer:
+          "Significant. Connecticut's Department of Public Health places the state among the highest Lyme disease-incidence states in the US, and New Haven County is among the riskiest areas within Connecticut. Deer ticks are active from late March through November, with nymph activity in late May through July being the hardest to detect. Anyone using wooded areas, the Naugatuck River corridor, or properties with woodland edge should check for ticks after outdoor activity and consider yard-level tick management.",
+      },
+      {
+        question: "Why do mice keep getting into my Waterbury home?",
+        answer:
+          "Waterbury's older housing stock has many entry points: gaps around utility pipes, aging foundation mortar, deteriorating door sweeps, and poorly sealed utility penetrations. House mice need a gap only as small as a dime to enter. Fall is the peak entry season as temperatures drop. A thorough exterior exclusion inspection, sealing every identified gap with steel wool and caulk or hardware cloth, is more effective long-term than repeat trapping without addressing the entries.",
+      },
+      {
+        question: "Are German cockroaches in Waterbury apartments hard to get rid of?",
+        answer:
+          "They are more difficult in multi-unit buildings than in single-family homes because they spread through shared wall voids, plumbing, and electrical conduit. Treating one apartment without coordinating adjacent units leaves the population intact in connected spaces. Professional treatment using gel bait in harborage areas, combined with insect growth regulator to stop the breeding cycle, and ideally covering adjacent units, delivers lasting control in Waterbury's older apartment stock.",
+      },
+      {
+        question: "What do carpenter ants look like and are they dangerous in Waterbury?",
+        answer:
+          "Carpenter ants are large, typically black ants ranging from a quarter inch to over half an inch in length. They do not sting and are not dangerous to people, but they excavate galleries in moist or softened wood that can damage structure over time. In Waterbury's older homes with wet basements or roof leaks, an established colony can do significant damage if left untreated for several years. Finding them indoors in winter or early spring is the key diagnostic sign of an active interior colony.",
+      },
+      {
+        question: "How do I know if I have bed bugs in my Waterbury apartment?",
+        answer:
+          "The first signs are usually small reddish-brown spots on mattress seams and box spring edges (fecal spots), tiny shed exoskeletons near the headboard, or waking up with small itchy welts in a line or cluster. Bed bugs are nocturnal and hide in mattress seams, headboard crevices, and outlet covers during the day. In Waterbury's older apartment buildings, early professional inspection and treatment before the infestation spreads to adjacent units is far less expensive than treating a building-wide problem.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "New Haven", slug: "new-haven" },
+      { name: "Bridgeport", slug: "bridgeport" },
+      { name: "Hartford", slug: "hartford" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Waterbury, CT | Deer Ticks, Mice & German Cockroaches",
+    metaDescription:
+      "Waterbury pest control for deer ticks, house mice, German cockroaches, carpenter ants and bed bugs. New Haven County Naugatuck River valley Lyme disease risk specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

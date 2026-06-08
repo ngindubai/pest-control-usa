@@ -858,4 +858,110 @@ export const northCarolinaCities: CityLocation[] = [
     metaDescription:
       "High Point pest control for subterranean termites, fire ants, mosquitoes, stink bugs and Norway rats. Guilford County NC Piedmont furniture capital specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "wilmington",
+    name: "Wilmington",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T2",
+    population: "~115,000",
+    county: "New Hanover County",
+    climate: "hot-humid",
+    climateDriver:
+      "Wilmington sits on the Cape Fear River near the North Carolina coast with a warm, humid subtropical climate. The USDA places New Hanover County in Termite Infestation Probability Zone 1, the highest-risk category in the nation, and NC State Extension confirms both Eastern and Formosan subterranean termites are established in coastal North Carolina. Coastal humidity, sandy soils, and marsh-adjacent neighborhoods create year-round pest pressure. Mosquitoes are active from March through November, fire ants colonize the sandy open ground throughout the county, and the warm winters keep cockroach pressure elevated year-round.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "American Cockroaches", "Bed Bugs"],
+    pestProfile: [
+      {
+        name: "Eastern and Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms spring and fall",
+        note: "Wilmington is in USDA Termite Zone 1, the highest-risk classification. NC State Extension identifies both Eastern subterranean and Formosan subterranean termites as established on the North Carolina coast. Formosan termites are far more aggressive than Eastern subterranean termites, forming larger colonies that can consume wood faster and are harder to control. The combination of warm temperatures, humidity, and sandy coastal soils creates near-ideal conditions for termite activity year-round.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Active March through November, peaks June through August",
+        note: "Wilmington's coastal position, the Cape Fear River, and the numerous marshes, ponds, and tidal areas of New Hanover County sustain mosquito populations for eight to nine months of the year. NC State Extension confirms coastal North Carolina's long warm season produces one of the most extended mosquito activity windows in the state.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round in New Hanover County, peak activity April through October",
+        note: "Red imported fire ants are firmly established throughout coastal North Carolina and NC State Extension confirms they are one of the most problematic outdoor pests in the region. Wilmington's sandy soils and warm winters allow fire ant colonies to remain active and expand year-round, unlike the cooler NC Piedmont where activity slows in winter.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in coastal climate, most visible spring through fall",
+        note: "American cockroaches are the most common large cockroach species in Wilmington and thrive in the city's warm, humid coastal environment. They use storm drains, utility lines, and crawlspaces to move between outdoor areas and indoor spaces. NC State Extension notes that coastal North Carolina's mild winters allow outdoor cockroach populations to maintain size year-round, increasing indoor pressure.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round indoors",
+        note: "Wilmington's tourism-driven economy, with active short-term rental and hotel markets near the beach, creates consistent bed bug introduction risk compared to inland cities. Once introduced into a rental property or hotel, bed bugs spread to adjacent rooms and units through luggage, furniture, and shared wall voids.",
+      },
+    ],
+    localHook:
+      "Wilmington sits in USDA Termite Zone 1, the nation's highest-risk termite classification, and NC State Extension confirms that both Eastern subterranean and Formosan subterranean termites are established along coastal North Carolina. Formosan termites are significantly more destructive than Eastern subterranean termites and harder to control. For any Wilmington homeowner, annual termite inspections are not a precaution, they are the standard practice in a Zone 1 coastal city.",
+    intro:
+      "Pest control in Wilmington is shaped by the coast. The USDA places New Hanover County in Termite Zone 1, the highest-risk classification in the country, and NC State Extension confirms both Eastern and Formosan subterranean termites are established here. Formosan termites, which are far more aggressive and colony-building than Eastern subterranean termites, raise the structural stakes considerably. Mosquitoes are active for eight to nine months of the year in a climate that stays warm enough to sustain breeding from March through November. Fire ants colonize Wilmington's sandy open soils year-round, American cockroaches move freely through the city's warm sewer infrastructure, and the city's beach-adjacent short-term rental market creates consistent bed bug introduction pressure.",
+    sections: [
+      {
+        heading: "Formosan termites on the North Carolina coast",
+        body: "Formosan subterranean termites are established in coastal North Carolina, and Wilmington is within their confirmed range. NC State Extension distinguishes them clearly from Eastern subterranean termites: Formosan colonies can be ten times larger, contain a million or more workers, and have an in-tree nest structure called a carton that allows them to maintain moisture and live above ground level. They consume wood significantly faster than Eastern subterranean termites and are more difficult to control because their large colonies can bridge bait station and liquid barrier treatments more effectively. Annual inspections and a licensed prevention program are the minimum standard for Wilmington homes, particularly those with mature trees in contact with the structure or with older construction that predates modern termite prevention standards.",
+      },
+      {
+        heading: "Mosquitoes and fire ants on the Cape Fear coast",
+        body: "Wilmington's mosquito season starts in March and does not end until November, driven by the Cape Fear River, marshes, tidal areas, and the numerous ponds and low-lying drainage features throughout New Hanover County. This is one of the most extended mosquito activity windows on the East Coast. NC State Extension notes that fire ants in coastal North Carolina benefit from the mild winters that allow colony activity year-round, unlike the Piedmont where winter slows them. Wilmington's sandy open ground, from construction sites to parks and residential lawns, provides ideal fire ant nesting conditions. A residential yard in Wilmington with both a standing water feature and open sandy ground is likely managing both pests simultaneously.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections; Wilmington is in USDA Zone 1 and Formosan termites are established in the area.",
+      "Eliminate standing water in gutters, bird baths, plant saucers, and containers to reduce the nine-month mosquito season.",
+      "Treat fire ant mounds as they appear in spring using a licensed broadcast bait product covering the whole yard.",
+      "Seal crawlspace vents with secure screens and fix gaps at pipe penetrations to limit American cockroach entry from the storm drain system.",
+    ],
+    costNote:
+      "Wilmington pest control typically combines a year-round general plan covering roaches, ants, and rodents with a separate annual termite inspection and prevention program. Mosquito barrier spray runs March through November. Fire ant program and bed bug services are quoted per need. A free assessment identifies the priority risks at your property.",
+    faqs: [
+      {
+        question: "Why is Wilmington's termite risk so high?",
+        answer:
+          "Wilmington is in USDA Termite Infestation Probability Zone 1, the nation's highest-risk category. The combination of warm year-round temperatures, coastal humidity, and sandy soils creates near-ideal conditions for subterranean termites. NC State Extension confirms that both Eastern and Formosan subterranean termites are established in coastal North Carolina. Formosan termites form larger, more aggressive colonies than Eastern subterranean termites and are harder to eliminate. Annual professional inspections and an active prevention program are the standard for Wilmington homeowners.",
+      },
+      {
+        question: "How long is mosquito season in Wilmington?",
+        answer:
+          "March through November, roughly eight to nine months. Wilmington's warm coastal climate, the Cape Fear River, and the extensive marsh and tidal areas of New Hanover County sustain mosquito populations well beyond the brief summer window that colder inland cities experience. NC State Extension confirms coastal North Carolina has one of the longest mosquito activity windows in the state. Monthly barrier spray from March through November is the standard residential program.",
+      },
+      {
+        question: "Are fire ants a year-round problem in Wilmington?",
+        answer:
+          "Yes. NC State Extension confirms that fire ant colonies in coastal North Carolina remain active through the mild winters, unlike the Piedmont where cold slows them significantly. Wilmington's sandy soils and open ground throughout the city and county provide ideal nesting conditions. Fire ant mounds appear rapidly after rain events and reproduce quickly. Broadcast bait applications in spring and fall, combined with individual mound treatment, is the most effective yard-level management approach.",
+      },
+      {
+        question: "Why do American cockroaches keep getting into my Wilmington home?",
+        answer:
+          "American cockroaches in Wilmington have extensive outdoor habitat in the city's warm storm drain system, utility corridors, and crawlspaces that stay above 50 degrees through the mild winters. They move between outdoor and indoor environments through gaps at pipe penetrations, crawlspace vents, and floor drains. Sealing these entry points and treating the crawlspace reduces indoor pressure, but the proximity to the coast and the city's active sewer infrastructure means this is an ongoing management task rather than a one-time fix.",
+      },
+      {
+        question: "Should I be concerned about bed bugs in Wilmington's short-term rentals?",
+        answer:
+          "Wilmington's active beach tourism and short-term rental market create a higher-than-average bed bug introduction risk for both rental properties and neighboring units. If you operate a short-term rental or vacation property, professional inspections between guest stays catch introductions before they spread. For homeowners near active rental properties, reporting any suspicious marks or insect findings quickly limits the cost of treatment significantly.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Charlotte", slug: "charlotte" },
+      { name: "Raleigh", slug: "raleigh" },
+      { name: "Fayetteville", slug: "fayetteville" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Wilmington, NC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Wilmington pest control for Formosan and Eastern subterranean termites, mosquitoes, fire ants, American cockroaches and bed bugs. New Hanover County Zone 1 coastal specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

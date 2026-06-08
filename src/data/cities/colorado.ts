@@ -970,4 +970,110 @@ export const coloradoCities: CityLocation[] = [
     metaDescription:
       "Pueblo pest control for black widow spiders, house mice, harvester ants, voles and earwigs. Pueblo County Arkansas River southern Colorado specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "centennial",
+    name: "Centennial",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T2",
+    population: "~110,000",
+    county: "Arapahoe County",
+    climate: "cold",
+    climateDriver:
+      "Centennial anchors Arapahoe County south of Denver on the suburban Front Range with a high-altitude semi-arid climate: cold winters, warm dry summers, and wide daily temperature swings. Colorado State University Extension identifies voles and pocket gophers as significant turf pests in the Denver south suburbs where manicured lawns meet natural open space corridors. Cold winters push house mice firmly indoors, and the Front Range's spring miller moth migration passes directly through the Centennial area each year. Pavement and carpenter ants are the dominant ant species in Arapahoe County.",
+    topPests: ["Voles", "House Mice", "Carpenter Ants", "Yellow Jackets", "Black Widow Spiders"],
+    pestProfile: [
+      {
+        name: "Voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round; most damaging in winter under snow cover",
+        note: "Voles are small rodents that tunnel through lawns and gardens, girdling the root systems of trees, shrubs, and ornamental plants. Colorado State University Extension identifies them as one of the most common turf and landscape pests in the Denver south suburbs, where manicured residential lawns meet open space corridors. Under snow cover in winter, voles create extensive runway systems that homeowners only discover after the spring melt.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March, active year-round once inside",
+        note: "Centennial's cold Front Range winters drive house mice into heated buildings each fall. The adjacent open space areas, golf courses, and parks throughout Arapahoe County sustain outdoor mouse populations that press toward residential structures as temperatures drop. Colorado State University Extension identifies mice as a persistent fall pest across the Denver metro.",
+      },
+      {
+        name: "Carpenter and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Pavement ants are among the most common ant pests in Centennial, nesting under concrete walks, driveways, and foundation edges. Carpenter ants are the structural concern, targeting moisture-damaged wood around irrigation systems and aging deck framing. Colorado State University Extension identifies both species as common in Denver south suburban homes.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colony growth May through September, most aggressive August through October",
+        note: "Yellow jackets build large colonies in Centennial's open space edges, under decks, and in wall voids of homes. The Front Range's dry late summers concentrate yellow jackets around outdoor food sources and colonies become aggressive in August and September. Wall void nests are the most dangerous because disturbing them causes workers to emerge from inside the structure.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most active May through October",
+        note: "Black widow spiders are present in Arapahoe County and are commonly found in window wells, utility meter boxes, wood piles, and garage storage. Colorado State University Extension confirms black widows are established in the Denver metro at lower Front Range altitudes, and Centennial's warmer south-facing exposures support resident populations.",
+      },
+    ],
+    localHook:
+      "Colorado State University Extension identifies voles as among the most common turf pests in the Denver south suburbs, and Centennial's combination of manicured residential lawns and adjacent open space corridors creates the exact interface where vole populations thrive. Under snow cover each winter, voles create tunnel networks that homeowners only discover after the spring melt reveals dead grass and girdled root systems. For Centennial landscaping, vole management is as routine as lawn care.",
+    intro:
+      "Pest control in Centennial runs on the Front Range's seasonal calendar. Colorado State University Extension identifies voles as a top turf and landscape pest in the Denver south suburbs, and Centennial's manicured residential lawns bordering open space corridors create the conditions they exploit most effectively. Cold winters drive house mice indoors, and the open space parks and golf courses throughout Arapahoe County sustain the outdoor populations that generate the fall surge. Carpenter and pavement ants are the dominant structural ant species. Yellow jacket nests grow large and aggressive in late summer, and black widow spiders are an established year-round presence in garage and outdoor storage areas.",
+    sections: [
+      {
+        heading: "Voles and lawn damage in Centennial",
+        body: "Voles look like mice but behave differently, tunneling through the root zone and creating surface runways through turf. Colorado State University Extension identifies them as one of the most common turf and landscape pests in the Denver south suburbs, where residential lawns meet open space corridors. Damage is most severe in winter when snow cover conceals the tunnel activity, and the full extent shows only after spring melt: dead grass patches, chewed tree root crowns, and destroyed ornamental plantings. Early spring and late fall are the highest-risk periods. Repellent baiting programs and exclusion around valuable trees and shrubs are the most effective management approaches, along with reducing the ground cover conditions that voles prefer near the foundation.",
+      },
+      {
+        heading: "Mice and the fall exclusion window",
+        body: "Centennial's cold Front Range winters make house mice predictable. They begin pressing toward heated structures in October, and Colorado State University Extension recommends September as the action window for prevention in the Denver metro. Centennial's proximity to Arapahoe County's open space areas, parks, and golf courses means the surrounding outdoor mouse population is substantial. A thorough exterior exclusion before October, sealing foundation gaps, pipe penetrations, and the gap under garage doors, is the most cost-effective protection. Once mice establish inside, they nest in wall insulation and become a year-round indoor problem that trapping alone does not fully resolve.",
+      },
+    ],
+    prevention: [
+      "Apply vole repellent baiting around valuable trees and shrubs in late fall before snow cover begins.",
+      "Seal foundation gaps, utility penetrations, and garage door gaps in September before the fall mouse surge.",
+      "Remove wood piles and clear window wells to reduce black widow harborage near the home.",
+      "Inspect deck boards and landscaping timbers for moisture damage that attracts carpenter ant colonies.",
+    ],
+    costNote:
+      "Centennial pest control typically includes a year-round plan covering mice, ants, spiders, and earwigs, with seasonal yellow jacket treatment in summer and vole management added for properties with significant landscaping or open space adjacency. A free assessment identifies the specific pest pressure at your property.",
+    faqs: [
+      {
+        question: "What are voles and how do I know if I have them in my Centennial yard?",
+        answer:
+          "Voles are small rodents similar in size to mice that tunnel through lawns and girdle the roots of trees and shrubs. In Centennial, the damage is often not discovered until spring when the snow melts and reveals dead grass patches and chewed bark at the base of trees. Colorado State University Extension identifies voles as one of the most common turf and landscape pests in the Denver south suburbs. Irregular dead patches in the lawn and small surface tunnels are the classic vole signs.",
+      },
+      {
+        question: "When do mice become a problem in Centennial?",
+        answer:
+          "October is the peak entry period on the Front Range. Colorado State University Extension recommends September as the action window for mouse prevention in the Denver metro. Centennial's open space and park areas sustain outdoor mouse populations that generate significant fall pressure. Sealing foundation gaps, utility pipes, and garage doors in September is the most effective prevention step.",
+      },
+      {
+        question: "Are black widows common in Centennial?",
+        answer:
+          "They are present and worth taking seriously. Colorado State University Extension confirms black widows are established in the Denver metro at lower Front Range elevations, and Centennial's warmer south-facing exposures support resident populations. The most common locations are window wells, utility meter boxes, firewood piles, and garage storage. Regular perimeter treatment and clearing undisturbed outdoor storage reduces encounter frequency significantly.",
+      },
+      {
+        question: "When should I treat for yellow jackets in Centennial?",
+        answer:
+          "If you find a yellow jacket nest in a wall void, under a deck, or near foot traffic, call a professional rather than attempting DIY treatment. Late summer through October is when colonies are at their largest and most aggressive. Wall void nests are especially hazardous because workers can emerge from inside the structure when disturbed. A licensed technician can inject dust directly into the void and seal the entry point.",
+      },
+      {
+        question: "Do I need year-round pest control in Centennial?",
+        answer:
+          "For mice and spiders, yes. House mice establish inside in fall and stay through winter in Centennial. Black widows are present year-round at Front Range altitudes. Vole management is most effective as a continuous program rather than reactive treatment after damage appears. A year-round plan with fall emphasis on rodent exclusion and spring and fall vole management covers most Centennial properties well.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Denver", slug: "denver" },
+      { name: "Aurora", slug: "aurora-co" },
+      { name: "Pueblo", slug: "pueblo" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Centennial, CO | Voles, Mice & Yellow Jackets",
+    metaDescription:
+      "Centennial pest control for voles, house mice, carpenter ants, yellow jackets and black widow spiders. Arapahoe County Denver south suburb open space corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

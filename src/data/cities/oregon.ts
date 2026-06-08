@@ -467,4 +467,216 @@ export const oregonCities: CityLocation[] = [
     metaDescription:
       "Gresham pest control for odorous house ants, Norway rats, yellow jackets, earwigs and hobo spiders. Multnomah County Sandy River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "hillsboro",
+    name: "Hillsboro",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T2",
+    population: "~106,000",
+    county: "Washington County",
+    climate: "temperate",
+    climateDriver:
+      "Hillsboro sits in the Tualatin Valley on the west side of the Portland metro in Washington County with a cool, wet Pacific Northwest marine climate. The city's rapid growth as the center of Oregon's Silicon Forest tech corridor has brought dense suburban development that borders farmland and wetlands, creating the moisture and food-source conditions that sustain Norway rats, carpenter ants, and earwigs year-round. OSU Extension identifies carpenter ants and rodents as the primary structural pests in wet Pacific Northwest agricultural valleys.",
+    topPests: ["Norway Rats", "Carpenter Ants", "Odorous House Ants", "Earwigs", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most visible fall through winter",
+        note: "Hillsboro's agricultural perimeter and the wetlands and drainage channels of the Tualatin River corridor sustain Norway rat populations that spread into suburban residential areas. OSU Extension identifies agricultural valley edges as high-risk zones for Norway rat pressure in the Pacific Northwest. The city's rapid growth has put new residential subdivisions directly adjacent to farm fields where rats are an ongoing management target.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active March through October, swarmers visible May through June",
+        note: "Hillsboro's persistent wet winters keep wood around foundations, decks, and roof edges consistently moist, creating carpenter ant nesting opportunities in older and newer construction alike. OSU Extension identifies carpenter ants as the most structurally significant ant pest in Oregon, and Washington County's wet agricultural valley climate is particularly favorable for the moisture conditions they require.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round indoors, peaks spring through fall",
+        note: "Odorous house ants are the most commonly reported indoor ant pest in Washington County homes. They move inside during rain events and during dry spells, forming trails toward kitchens and bathrooms. The species is identified by the rotten coconut odor it produces when crushed.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, move indoors during hot dry spells",
+        note: "Earwigs are a common outdoor-to-indoor pest in Hillsboro during warm, dry summer periods. They breed in moist soil and mulch around foundations and move inside seeking moisture. OSU Extension identifies earwigs as a frequent summer nuisance pest in the Willamette Valley, with Hillsboro's agricultural setting and irrigation-heavy landscaping creating abundant outdoor breeding habitat.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colony growth May through September, most aggressive August through October",
+        note: "Yellow jackets build large ground nests and wall void nests in Hillsboro's suburban and agricultural-edge properties. The tech campus corridor along 217 and Sunset Highway has extensive landscaped areas where ground nests develop through summer. Late-season colonies become aggressive and can pose serious risk when disturbed.",
+      },
+    ],
+    localHook:
+      "Hillsboro's rapid transformation from an agricultural town to Oregon's Silicon Forest tech hub has put new residential neighborhoods directly adjacent to farm fields, orchards, and the Tualatin River wetlands. OSU Extension identifies this agricultural valley edge as a high-pressure zone for Norway rats in the Pacific Northwest. Homeowners in Hillsboro's newer subdivisions near the agricultural perimeter are dealing with rat pressure that most suburban neighbors in other Portland-area cities do not face at the same intensity.",
+    intro:
+      "Pest control in Hillsboro is shaped by the city's position at the edge of Oregon's tech corridor and agricultural valley. Norway rats move between the Tualatin Valley farmland and the city's residential neighborhoods, and OSU Extension identifies agricultural valley edges as high-risk rat zones in the Pacific Northwest. Carpenter ants exploit the moisture from Washington County's wet winters throughout the city's older and newer housing alike. Odorous house ants are the most common indoor ant complaint. Earwigs are a consistent summer nuisance from the irrigation-heavy landscaping surrounding Hillsboro's tech campuses. Yellow jackets build large nests in the landscaped agricultural-edge areas through the summer.",
+    sections: [
+      {
+        heading: "Norway rats at the agricultural edge",
+        body: "Hillsboro's Silicon Forest tech boom has pushed residential development to the edge of Washington County's farmland and Tualatin River wetlands, and this agricultural interface is prime Norway rat territory. OSU Extension identifies the edges where suburban development meets farmland as a high-pressure zone for Norway rats, which burrow along field margins, drainage channels, and levee banks before moving into residential crawlspaces and garages when food sources become scarce. Homes in subdivisions built after 2010 on former orchard or farmland see the heaviest pressure. The standard approach is exterior exclusion combined with a bait station program along the property perimeter, rather than waiting for interior activity before acting.",
+      },
+      {
+        heading: "Carpenter ants in the Tualatin Valley's wet climate",
+        body: "Hillsboro's winters are long and wet, and the Tualatin Valley's agricultural irrigation keeps soils moist well into summer. Carpenter ants need moisture to establish nesting colonies, and Washington County's climate provides it consistently: in rooflines with inadequate flashing, in deck framing that collects water, in wood siding that stays wet through the rainy season, and in any wood in ground contact near the foundation. OSU Extension identifies carpenter ants as Oregon's most structurally damaging ant species. A winter or spring sighting of large black ants inside a Hillsboro home almost always means an established indoor colony rather than foragers from outside. Professional treatment locates and eliminates the colony and addresses the moisture source sustaining it.",
+      },
+    ],
+    prevention: [
+      "Install a perimeter bait station program for Norway rats before rats establish in the crawlspace or garage.",
+      "Repair roof flashing, gutters, and window caulk to remove the moisture conditions carpenter ants need.",
+      "Reduce mulch depth against the foundation and fix irrigation runoff to cut earwig breeding habitat.",
+      "Clear ground-level nest sites and keep firewood away from the structure to reduce yellow jacket harborage.",
+    ],
+    costNote:
+      "Hillsboro pest control is typically a year-round program covering rats, ants, spiders, and earwigs, with seasonal yellow jacket treatment in summer. Properties near the agricultural perimeter or Tualatin River wetlands benefit from continuous exterior rat monitoring. A free inspection identifies the priority risks at your property.",
+    faqs: [
+      {
+        question: "Why are Norway rats a bigger problem in newer Hillsboro subdivisions?",
+        answer:
+          "Many of Hillsboro's newer subdivisions were built on former farmland or orchard land at the edge of Washington County's agricultural areas. OSU Extension identifies these agricultural valley edges as high-pressure Norway rat zones in the Pacific Northwest. Rats that lived in the fields move to the new residential structures as development eliminates their original habitat. Homes on the agricultural fringe see rat pressure that established neighborhoods in the center of Hillsboro typically do not.",
+      },
+      {
+        question: "How do carpenter ants get into newer Hillsboro homes?",
+        answer:
+          "Even new construction can develop carpenter ant problems quickly if moisture conditions arise. In Hillsboro, improperly flashed rooflines, deck framing that traps water, and irrigation runoff against the foundation are common moisture sources that soften wood and attract carpenter ants within a few seasons of construction. Finding large black ants indoors in winter or spring, even in a relatively new home, indicates a colony is already established inside the structure.",
+      },
+      {
+        question: "Why do earwigs keep coming inside in summer in Hillsboro?",
+        answer:
+          "Earwigs breed in moist soil and mulch around the foundation and move inside when outdoor conditions become hot and dry. Hillsboro's irrigation-heavy tech campuses and the agricultural landscaping throughout the area create extensive earwig breeding habitat. Reducing mulch depth against the foundation, fixing irrigation runoff, and sealing gaps at door sweeps and foundation edges in spring reduces earwig entry in summer.",
+      },
+      {
+        question: "How do I spot yellow jacket ground nests in my Hillsboro yard?",
+        answer:
+          "Ground nests are typically discovered when mowing or working near the entrance, which is a small hole in the ground often marked by returning workers. They are most common in lawn edges, garden beds, and under low groundcover. In Hillsboro's agricultural-edge properties, open ground near hedgerows and field margins is the most common site. Do not approach or attempt to treat an active ground nest: colonies in August through October can contain thousands of workers and respond aggressively to disturbance.",
+      },
+      {
+        question: "Is year-round pest control necessary in Hillsboro?",
+        answer:
+          "For homes near the agricultural perimeter, yes. Norway rats are a year-round concern at the agricultural edge and do not respond well to seasonal-only programs. Carpenter ants are active through most of the year in Washington County's wet climate. Odorous house ants have no true dormant period in the Pacific Northwest. A year-round program with seasonal adjustments for earwigs and yellow jackets covers most Hillsboro properties well.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Salem", slug: "salem" },
+      { name: "Gresham", slug: "gresham" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Hillsboro, OR | Norway Rats, Carpenter Ants & Earwigs",
+    metaDescription:
+      "Hillsboro pest control for Norway rats, carpenter ants, odorous house ants, earwigs and yellow jackets. Washington County Tualatin Valley Silicon Forest agricultural edge specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bend",
+    name: "Bend",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T2",
+    population: "~99,000",
+    county: "Deschutes County",
+    climate: "cold",
+    climateDriver:
+      "Bend sits at 3,600 feet elevation in the high desert of central Oregon, east of the Cascades, with a semi-arid continental climate: cold snowy winters, warm dry summers, and more sunny days than most of Oregon's west side. OSU Extension identifies carpenter ants and house mice as the primary structural pests in the Central Oregon high desert, where the ponderosa pine forest adjacent to residential areas provides substantial carpenter ant habitat. The Deschutes River and its irrigation canals sustain mosquito populations through summer despite the otherwise dry climate.",
+    topPests: ["Carpenter Ants", "House Mice", "Yellow Jackets", "Black Widow Spiders", "Voles"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, swarmers visible May through July",
+        note: "Carpenter ants are the primary structural ant concern in Bend, where the surrounding ponderosa pine forest provides extensive foraging habitat and the city's irrigated residential landscaping creates the moisture nesting conditions they need. OSU Extension identifies carpenter ants as the most structurally significant ant pest in Oregon. Bend's rapid growth has placed many homes directly adjacent to the forested wildland interface where native carpenter ant populations are dense.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through April, active year-round once inside",
+        note: "Bend's high-altitude winters are cold and long. OSU Extension identifies mice as a persistent fall and winter pest in Central Oregon, with the surrounding high desert providing large open-space mouse populations that press toward heated structures as temperatures drop. The city's rapid growth means many newer homes still have unsealed gaps around utilities.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colony growth May through September, most aggressive August through October",
+        note: "Yellow jackets are one of the most active and aggressive summer pests in Bend, where the dry high desert climate supports large colonies in ground nests and under structures. The wildland-urban interface brings colonies from the ponderosa pine forest into residential yards and decks. Bend's outdoor lifestyle and patio culture means yellow jacket encounters near food are a regular summer experience.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most active May through October",
+        note: "Black widow spiders are common in Bend's dry, rocky conditions and are frequently found in window wells, utility meter boxes, firewood stacks, and garage storage. OSU Extension confirms black widows are present throughout the dry eastern side of Oregon. Bend's semi-arid climate and the rock-and-wood outdoor aesthetics common in the city's newer homes create abundant harborage.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round; most damaging under winter snow cover",
+        note: "Voles are a significant turf and landscaping pest in Bend, where the high desert's short growing season makes lawn and garden damage particularly costly. OSU Extension identifies voles as one of the most complained-about landscape pests in Central Oregon. Under snow cover in winter, voles create extensive runway systems and girdle tree and shrub roots that homeowners only discover in spring.",
+      },
+    ],
+    localHook:
+      "Bend's ponderosa pine forest creates a wildland-urban interface that brings carpenter ant populations directly into residential neighborhoods. OSU Extension identifies carpenter ants as Oregon's most structurally significant ant species, and in Bend, the native forest populations are dense enough that foraging workers enter homes regularly from late April through September. For any Bend home near the forest edge, carpenter ant management is a practical annual priority.",
+    intro:
+      "Pest control in Bend follows the rhythms of the Central Oregon high desert. Carpenter ants are the primary structural concern, supported by the ponderosa pine forest that surrounds much of the city and provides both foraging habitat and the moisture from residential irrigation that they need to nest. Cold, long winters drive house mice from the surrounding high desert into heated structures. Yellow jackets are one of the most active summer pests at Bend's wildland-urban interface. Black widow spiders are common in the dry, rocky conditions of the area, and voles cause significant landscaping damage under snow cover each winter.",
+    sections: [
+      {
+        heading: "Carpenter ants at the ponderosa pine interface",
+        body: "Bend's position at the edge of the ponderosa pine forest is what makes carpenter ants a consistent pest rather than an occasional one. OSU Extension identifies carpenter ants as the most structurally significant ant species in Oregon, and in Bend the native forest populations are dense and active. These ants need moist or softened wood to nest, and while the high desert is dry overall, residential irrigation in Bend's neighborhoods provides the moisture that leads to carpenter ant nesting in deck boards, wooden fence posts, roof eaves, and any wood that stays damp from imperfect drainage. Finding large black ants indoors in spring or summer means an established colony is already inside. Treatment needs to locate and eliminate the colony, not just the visible workers.",
+      },
+      {
+        heading: "Yellow jackets and Bend's outdoor culture",
+        body: "Bend's warm, sunny summers make outdoor living a major part of the local culture, and yellow jackets are the pest that most directly conflicts with that lifestyle. They build large colonies in ground nests in lawn edges and garden beds, and they build in wall voids and under deck framing. By August, colonies can contain thousands of workers that become aggressive around food, especially protein sources like grilled meat. Bend's wildland-urban interface brings colonies in from the forest edge. Ground nests are discovered most often when mowing near the entrance. Do not attempt to treat a ground nest or wall void nest without protective equipment: late-season yellow jacket colonies are large, fast, and defensive. A licensed technician can treat and seal the nest safely.",
+      },
+    ],
+    prevention: [
+      "Repair roof flashing, fix leaking gutters, and address irrigation runoff against the foundation to remove moisture carpenter ants need.",
+      "Seal foundation gaps, utility penetrations, and garage door sweeps in September before the fall mouse surge.",
+      "Wrap or cage young tree trunks before winter to protect against vole girdling under snow cover.",
+      "Clear window wells and firewood piles away from the structure to reduce black widow harborage.",
+    ],
+    costNote:
+      "Bend pest control typically combines a year-round plan covering mice, ants, and spiders with seasonal yellow jacket treatment in summer and a vole management program for properties with significant landscaping. Forest-edge homes benefit from more frequent carpenter ant monitoring. A free inspection establishes the right program for your property.",
+    faqs: [
+      {
+        question: "Why are carpenter ants such a problem in Bend specifically?",
+        answer:
+          "Bend sits at the wildland-urban interface with the ponderosa pine forest, which sustains large native carpenter ant populations that forage into residential areas regularly. OSU Extension identifies carpenter ants as Oregon's most structurally significant ant pest, and in Bend, the combination of forested adjacency and irrigated residential landscaping creates higher pressure than most Oregon cities. Homes near the forest edge see foraging workers regularly from April through September.",
+      },
+      {
+        question: "When should I expect mice to come indoors in Bend?",
+        answer:
+          "October through November is the main entry window in Bend's high-altitude climate. The surrounding high desert sustains substantial open-space mouse populations, and the cold temperatures that arrive in October push them toward heated structures. September is the prevention window: sealing foundation gaps, pipe penetrations, and the gap under garage doors before the surge is more cost-effective than dealing with an established interior infestation.",
+      },
+      {
+        question: "Are black widow spiders common in Bend?",
+        answer:
+          "Yes, more so than on the west side of the Cascades. OSU Extension confirms black widows are present throughout eastern Oregon's drier climate, and Bend's semi-arid conditions suit them well. They are commonly found in window wells, utility meter boxes, firewood stacks, and outdoor storage areas. The rocky and wood-heavy aesthetics common in Bend's newer homes create more harborage than standard suburban landscaping.",
+      },
+      {
+        question: "What is the best way to protect my Bend landscaping from voles?",
+        answer:
+          "Fall is the action window for vole protection in Bend. Before snow arrives, apply repellent bait around the lawn perimeter and place hardware cloth cylinders around the base of valuable trees and shrubs to prevent girdling. OSU Extension recommends wrapping vulnerable tree trunks in fall as the most reliable vole damage prevention in Central Oregon. Reducing dense ground cover and keeping mulch away from the base of plants also reduces the conditions voles prefer.",
+      },
+      {
+        question: "How do I keep yellow jackets away from outdoor dining in Bend?",
+        answer:
+          "Yellow jacket pressure in Bend is highest from August through October when colonies peak and natural food sources decline. Keep food covered, garbage bins sealed, and avoid leaving sweet drinks in open containers. These reduce foraging pressure but do not solve an active nest nearby. If yellow jackets are consistently at your patio, there is likely a ground nest or wall void nest within 50 to 100 feet. Locating and professionally treating that nest is the effective solution rather than deterrents alone.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Salem", slug: "salem" },
+      { name: "Eugene", slug: "eugene" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Bend, OR | Carpenter Ants, Mice & Yellow Jackets",
+    metaDescription:
+      "Bend pest control for carpenter ants, house mice, yellow jackets, black widow spiders and voles. Deschutes County Central Oregon ponderosa pine forest interface specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

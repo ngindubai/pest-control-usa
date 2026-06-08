@@ -1089,4 +1089,110 @@ export const arizonaCities: CityLocation[] = [
     metaDescription:
       "Surprise pest control for Arizona bark scorpions, black widow spiders, pack rats, desert subterranean termites and American cockroaches. Maricopa County northwest Valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "yuma",
+    name: "Yuma",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T2",
+    population: "~97,000",
+    county: "Yuma County",
+    climate: "desert",
+    climateDriver:
+      "Yuma is one of the hottest and driest cities in the United States, averaging over 300 sunny days per year and summer highs routinely exceeding 110 degrees Fahrenheit. The Colorado River and the agricultural irrigation canals that made Yuma one of the nation's top winter vegetable growing regions also sustain pest populations that do not exist at the same intensity in the Sonoran Desert without irrigation. Arizona Cooperative Extension at the University of Arizona identifies bark scorpions, desert subterranean termites, and pack rats as the primary pest concerns for Yuma-area homes. The extreme heat drives cockroaches, ants, and rodents to seek cooler indoor environments through the summer months.",
+    topPests: ["Arizona Bark Scorpions", "Desert Subterranean Termites", "American Cockroaches", "Pack Rats", "Argentine Ants"],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round; most active April through October at night",
+        note: "The Arizona bark scorpion is the only scorpion species in the United States with venom potent enough to cause serious medical harm. Arizona Cooperative Extension at the University of Arizona confirms Yuma County as within the bark scorpion's established range. The extreme Sonoran Desert climate and the irrigation agriculture surrounding Yuma sustain scorpion populations that readily enter homes seeking cooler temperatures and moisture.",
+      },
+      {
+        name: "Desert subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms July through September following monsoon rains, active year-round",
+        note: "Desert subterranean termites in Yuma swarm during the monsoon season, typically after the first significant summer rains in July and August. University of Arizona Cooperative Extension identifies the Colorado River agricultural valleys, including Yuma County, as having high desert subterranean termite pressure. The irrigation infrastructure and moist soils along canal banks create favorable termite conditions in an otherwise dry desert environment.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, move indoors heavily during summer heat",
+        note: "American cockroaches are the dominant large cockroach in Yuma and flourish in the irrigation infrastructure and sewer systems that run throughout the agricultural city. When outdoor temperatures exceed 105 degrees, they move aggressively into air-conditioned spaces through gaps at pipe penetrations and sewer connections. University of Arizona Cooperative Extension identifies American cockroaches as the primary outdoor-to-indoor cockroach pest in the desert Southwest.",
+      },
+      {
+        name: "Pack rats (desert woodrats)",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, most active at night",
+        note: "Desert woodrats, commonly called pack rats, are native to the Sonoran Desert and present throughout Yuma County. They build large nests from sticks, cactus, and debris around vehicles, under structures, and in desert scrub. University of Arizona Cooperative Extension notes they cause significant damage to vehicle wiring harnesses and are the primary rodent pest in Yuma-area homes with desert-adjacent landscaping.",
+      },
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round in irrigated areas, most active when cooler",
+        note: "Argentine ants in Yuma concentrate along irrigation infrastructure and in neighborhoods with regular watering. They move inside when outdoor conditions become too hot or dry. In Yuma's agricultural communities, large supercolonies can establish across multiple properties and are difficult to control with over-the-counter products alone.",
+      },
+    ],
+    localHook:
+      "Yuma averages over 300 sunny days per year and routinely sees summer highs above 110 degrees, making it one of the hottest cities in the United States. University of Arizona Cooperative Extension confirms the Arizona bark scorpion, the only scorpion in the US with medically significant venom, is established in Yuma County. For a city surrounded by Sonoran Desert, pest control is not optional, it is a year-round safety practice.",
+    intro:
+      "Pest control in Yuma operates in one of the most extreme climates in North America. The Arizona bark scorpion, the only scorpion in the United States capable of causing serious medical harm, is confirmed by University of Arizona Cooperative Extension as established throughout Yuma County. Desert subterranean termites swarm during the monsoon and are supported year-round by the Colorado River irrigation infrastructure that makes Yuma one of America's top vegetable-growing regions. American cockroaches move indoors en masse when outdoor temperatures exceed 110 degrees. Pack rats damage vehicle wiring throughout the desert Southwest, and Argentine ants concentrate wherever there is irrigation water.",
+    sections: [
+      {
+        heading: "Arizona bark scorpions in Yuma homes",
+        body: "The Arizona bark scorpion is not a pest to manage casually. University of Arizona Cooperative Extension confirms it is the only scorpion in the United States with venom strong enough to cause serious medical consequences, including severe pain, numbness, and in vulnerable individuals, breathing difficulty requiring medical attention. Yuma County is firmly within its range. Bark scorpions are nocturnal, thin enough to enter gaps as small as a credit card, and capable of climbing vertical surfaces and ceilings. Standard management is monthly exterior perimeter treatment with residual products, sealing gaps at door sweeps and utility penetrations, using a UV blacklight at night to find and remove individuals inside, and removing outdoor debris and wood piles that provide daytime harborage. Year-round treatment is the Yuma standard, not a seasonal program.",
+      },
+      {
+        heading: "Termites and pack rats in the desert",
+        body: "Desert subterranean termites in Yuma follow the monsoon. After the first significant rains in July and August, swarmers emerge in large numbers, and this is when most homeowners first notice them around lights and window frames. The irrigation canal network throughout Yuma keeps soil moisture elevated year-round in agricultural areas, which supports active termite colonies beyond what the surrounding Sonoran Desert would sustain naturally. Annual inspections, particularly before the monsoon season, give homeowners the best chance of catching activity before damage accumulates. Pack rats are a separate desert rodent challenge: their large stick-and-cactus nests appear under vehicles, inside engine compartments, and in the gaps beneath homes. University of Arizona Cooperative Extension documents vehicle wiring damage as one of the most common pack rat complaints in Yuma and other desert communities.",
+      },
+    ],
+    prevention: [
+      "Apply monthly exterior perimeter treatment for bark scorpions and seal door sweeps and utility gaps year-round.",
+      "Remove outdoor wood piles, debris, and stacked materials that provide bark scorpion daytime harborage.",
+      "Schedule a termite inspection before monsoon season, when swarmers signal active colonies.",
+      "Move firewood and debris away from the structure to discourage pack rat nesting beneath the home.",
+    ],
+    costNote:
+      "Yuma pest control is typically a year-round monthly program for bark scorpions, with quarterly general pest coverage for cockroaches, ants, and pack rats. Termite protection is quoted separately after inspection. A free assessment identifies the correct treatment intensity for your location in the Yuma area.",
+    faqs: [
+      {
+        question: "Are Arizona bark scorpion stings dangerous in Yuma?",
+        answer:
+          "The Arizona bark scorpion is the only scorpion in the United States with medically significant venom. University of Arizona Cooperative Extension confirms it is established throughout Yuma County. For healthy adults a sting causes severe local pain, numbness, and tingling that can last hours. For young children, elderly individuals, and people with certain medical conditions, the effects can be serious enough to require medical treatment. Monthly exterior perimeter treatment and sealing gaps at door sweeps reduces interior encounters significantly.",
+      },
+      {
+        question: "When do termites swarm in Yuma?",
+        answer:
+          "Desert subterranean termites in Yuma swarm during the monsoon season, typically after the first significant summer rains in July and August. You may see large numbers of winged termites around outdoor lights or inside near window frames after a monsoon storm. Swarming is a sign that an active colony is nearby. University of Arizona Cooperative Extension recommends annual inspections before monsoon season to identify active colonies before the swarm event.",
+      },
+      {
+        question: "Why do cockroaches seem worse in Yuma during summer?",
+        answer:
+          "When outdoor temperatures regularly exceed 105 to 110 degrees, American cockroaches move aggressively toward cooler indoor spaces. Yuma's extensive irrigation infrastructure and agricultural sewer system sustains large outdoor populations year-round, and the extreme summer heat pushes them into air-conditioned spaces through gaps at pipe penetrations, floor drains, and sewer access points. Sealing these entry points and treating the exterior perimeter reduces the summer surge.",
+      },
+      {
+        question: "What do pack rats do and why are they a problem in Yuma?",
+        answer:
+          "Pack rats are native desert rodents that build large nests from sticks, cactus pads, and debris. In Yuma they are notorious for nesting in vehicles parked near desert scrub, chewing through wire harnesses and creating thousands of dollars in damage. University of Arizona Cooperative Extension documents vehicle wiring damage as one of the most common pack rat complaints in Yuma-area communities. Removing attractants, using exclusion mesh under vehicles, and professional trapping are the most effective management steps.",
+      },
+      {
+        question: "Do I need pest control year-round in Yuma?",
+        answer:
+          "Yes, for bark scorpions and cockroaches particularly. Unlike seasonal pests in colder climates, Yuma's year-round warm temperatures mean bark scorpions, cockroaches, and ants remain active every month. Monthly exterior perimeter treatment for scorpions is the Yuma standard, not a summer-only precaution. Termite activity follows the monsoon pattern but colonies are present year-round. A year-round program is standard for most Yuma properties.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Phoenix", slug: "phoenix" },
+      { name: "Tucson", slug: "tucson" },
+      { name: "Mesa", slug: "mesa" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Yuma, AZ | Bark Scorpions, Termites & Pack Rats",
+    metaDescription:
+      "Yuma pest control for Arizona bark scorpions, desert subterranean termites, American cockroaches, pack rats and Argentine ants. Yuma County Colorado River agricultural valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -757,4 +757,110 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Dearborn pest control for German and Oriental cockroaches, house mice, bed bugs and carpenter ants. Wayne County Detroit metro specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "flint",
+    name: "Flint",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T2",
+    population: "~91,000",
+    county: "Genesee County",
+    climate: "cold-humid",
+    climateDriver:
+      "Flint sits along the Flint River in Genesee County with a cold, humid continental climate: harsh winters with heavy snowfall and warm, humid summers. Michigan State University Extension identifies German cockroaches as the most economically significant indoor pest species in Michigan's urban settings. Flint's older housing stock and the city's urban density create conditions for German cockroach and rodent populations that persist year-round. Cold winters push house mice firmly into heated buildings, and carpenter ants exploit the moisture from spring snowmelt and the city's aging drainage infrastructure.",
+    topPests: ["German Cockroaches", "House Mice", "Norway Rats", "Carpenter Ants", "Bed Bugs"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the most common and most frequently complained-about cockroach in Flint's apartment buildings, commercial kitchens, and multi-family housing. Michigan State University Extension identifies German cockroaches as the primary cockroach pest in Michigan urban settings: they breed entirely indoors, spread through shared wall voids and plumbing in connected buildings, and a single female can produce hundreds of offspring in a year.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March, active year-round once inside",
+        note: "Michigan winters in Flint are severe enough that house mice begin pressing into heated buildings by late September. Michigan State University Extension identifies mice as the most common rodent pest in Michigan homes, with the fall entry period as the critical window for prevention. Flint's older housing stock has more gaps around aging utility penetrations and foundation mortar that provide easy entry.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most visible fall through winter",
+        note: "Norway rats are present in Flint's older urban areas, particularly near the Flint River corridor and commercial districts with food-related businesses. Michigan State University Extension notes that urban Norway rat populations concentrate near food sources and drainage infrastructure and spread into residential blocks through the same underground utility corridors that mice use.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, swarmers visible May through June",
+        note: "Carpenter ants are the dominant structural ant in Michigan, and Michigan State University Extension identifies them as a significant pest in older Michigan homes with moisture issues. Flint's wet springs and the snowmelt that saturates soil around foundations create the moist wood conditions carpenter ant colonies need to establish in wall framing, rooflines, and deck boards.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round indoors",
+        note: "Bed bugs are a consistent concern in Flint's older multi-family housing stock. MSU Extension recognizes that densely occupied older buildings allow bed bugs to spread between units through shared wall voids, electrical conduit, and plumbing, making building-wide treatment coordination essential for lasting control in apartment settings.",
+      },
+    ],
+    localHook:
+      "Michigan State University Extension identifies German cockroaches as the most economically significant cockroach species in Michigan's urban settings, and Flint's older apartment housing and commercial kitchen infrastructure sustain populations that are harder to control than in single-family homes. Add Michigan winters that push house mice firmly indoors by October and a wet spring that gives carpenter ants exactly the moisture they need, and Flint's pest calendar runs year-round.",
+    intro:
+      "Pest control in Flint runs against two simultaneous pressures: the year-round indoor pest cycle and Michigan's hard seasonal calendar. German cockroaches are the primary indoor concern in the city's older apartment buildings and commercial kitchens, where they breed through all seasons in shared wall voids and kitchen harborage. House mice arrive with Michigan's early falls and stay through the long cold winters. Norway rats are present along the Flint River corridor and commercial food districts. Carpenter ants target the moisture-softened wood that Flint's wet springs produce each year. Bed bugs move through older multi-family buildings in a way that requires coordinated treatment beyond a single apartment.",
+    sections: [
+      {
+        heading: "German cockroaches in Flint's older buildings",
+        body: "German cockroaches are particularly difficult to eliminate in Flint's older apartment buildings because the buildings' shared wall voids, aging plumbing, and connected utility chases allow populations to reinfest treated units from adjacent spaces. Michigan State University Extension is clear that German cockroach infestations in multi-unit buildings require coordinated treatment across connected units, not just the unit reporting the problem. Gel bait applied in harborage areas within kitchen cabinets, under appliances, and inside bathroom vanities, combined with insect growth regulator to interrupt the breeding cycle, is far more effective than sprays for German cockroaches. Sprays scatter the population without stopping reproduction. In Flint's connected apartment buildings, working with building management to coordinate treatment across affected floors is the path to lasting control.",
+      },
+      {
+        heading: "House mice and the fall entry window",
+        body: "Flint's winters are hard, and mice know it. Michigan State University Extension identifies the fall mouse entry period as the single most important prevention window for Michigan homeowners. In Flint, that window opens in late September. Older homes have more opportunities: gaps around aging utility pipes, crumbling foundation mortar, deteriorated door sweeps, and gaps under garage doors are the most common entry points. Mice need a gap only as wide as a pencil to enter, and they follow the warmth gradient straight through those gaps into walls and basements. The most effective prevention is a thorough exterior exclusion before the surge: fill every identified gap with hardware cloth or caulk, replace worn door sweeps, and install a bristle strip at the bottom of garage doors. Traps placed inside after exclusion clear any mice already indoors.",
+      },
+    ],
+    prevention: [
+      "Use gel bait in cockroach harborage areas (under appliances, inside cabinet corners) rather than sprays that scatter the population.",
+      "Seal foundation gaps, pipe penetrations, and garage door gaps in September before the fall mouse entry surge.",
+      "Inspect window framing and rooflines for moisture-softened wood that may harbor carpenter ant colonies.",
+      "Report bed bug sightings to building management immediately so treatment can cover adjacent units before the infestation spreads.",
+    ],
+    costNote:
+      "Flint pest control is typically quoted as a year-round program covering cockroaches, rodents, and ants. Multi-family properties should budget for coordinated treatment across adjacent units for cockroaches and bed bugs. A free assessment identifies the current infestation level and the appropriate treatment approach for your property.",
+    faqs: [
+      {
+        question: "Why are German cockroaches so hard to eliminate in Flint apartments?",
+        answer:
+          "German cockroaches in multi-unit buildings spread through shared wall voids, plumbing, and electrical conduit between units. Treating one apartment without coordinating adjacent units leaves the population intact in connected spaces, which then reinfests the treated apartment. Michigan State University Extension recommends coordinated treatment across connected units for lasting control. Gel bait in harborage areas is far more effective than sprays.",
+      },
+      {
+        question: "When should I prepare for mice in my Flint home?",
+        answer:
+          "September is the prevention window in Flint. Michigan winters are hard enough that mice begin pressing toward heated structures in late September, with peak pressure in October and November. A thorough exterior exclusion, sealing every gap at the foundation, utility pipes, and door sweeps, done before the surge is more effective than trapping after mice are already inside.",
+      },
+      {
+        question: "Are Norway rats present in residential areas of Flint?",
+        answer:
+          "Norway rats are present along the Flint River corridor and near commercial food operations in the city. They spread into residential blocks through storm drain and utility infrastructure. Homes close to the river or commercial districts see higher pressure. Professional exterior bait station monitoring, rather than reactive interior treatment, is the most effective approach in higher-pressure areas.",
+      },
+      {
+        question: "Are carpenter ants a structural concern in Flint?",
+        answer:
+          "Yes, particularly in older homes near the Flint River or with chronic moisture issues from aging gutters and drainage. Michigan State University Extension identifies carpenter ants as a significant structural ant pest in older Michigan homes. They do not eat wood, but they excavate galleries in moist, softened wood that can cause real damage over several years. Finding large black ants inside in winter or spring is the most reliable sign of an established interior colony.",
+      },
+      {
+        question: "How does Flint's housing stock affect pest control difficulty?",
+        answer:
+          "Older buildings have more gaps, aging materials, and connected infrastructure that make pest control more complex than in newer construction. More entry points for mice, more harborage for cockroaches, and more connected spaces for bed bug spread all increase both the initial challenge and the need for follow-up treatments. A professional approach that addresses the structural conditions enabling pest access, not just the visible pest population, delivers better long-term results in Flint's housing stock.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Grand Rapids", slug: "grand-rapids" },
+      { name: "Ann Arbor", slug: "ann-arbor" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Flint, MI | German Cockroaches, Mice & Carpenter Ants",
+    metaDescription:
+      "Flint pest control for German cockroaches, house mice, Norway rats, carpenter ants and bed bugs. Genesee County Flint River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

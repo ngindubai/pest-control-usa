@@ -341,4 +341,110 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "Topeka pest control for house mice, subterranean termites, brown recluse spiders, German cockroaches and carpenter ants. Shawnee County Kansas River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "olathe",
+    name: "Olathe",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T2",
+    population: "~141,000",
+    county: "Johnson County",
+    climate: "temperate",
+    climateDriver:
+      "Olathe anchors the southern tier of Johnson County in the Kansas City metro with a continental climate: hot, humid summers and cold winters. Eastern Kansas places Olathe firmly in the brown recluse spider's core range, confirmed by Kansas State University Research and Extension. Kansas sits in USDA Termite Infestation Probability Zone 2, and Johnson County's moisture-retaining clay soils support active subterranean termite colonies. The city's rapid growth has introduced large areas of freshly disturbed soil and new construction that accelerates ant pressure and leaves gaps for mice.",
+    topPests: ["Brown Recluse Spiders", "Subterranean Termites", "Carpenter Ants", "House Mice", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active April through October",
+        note: "Kansas State University Research and Extension confirms eastern Kansas, including Johnson County, is core brown recluse territory. Olathe's abundant garage storage, finished basements, and cardboard boxes in suburban homes provide the undisturbed harborage the species requires. Bites are uncommon but can cause necrotic tissue damage that develops slowly over days.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms March through May",
+        note: "Kansas is in USDA Termite Zone 2 and Johnson County carries moderate-to-high subterranean termite pressure. Olathe's mature neighborhoods and clay-heavy soils retain the moisture that supports active colonies. Spring swarmers appearing near window frames or the foundation are usually the first homeowner alert.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Pest professionals in the Olathe area consistently cite carpenter ants as the top ant service call. Johnson County's heavy suburban irrigation keeps soils and foundation wood moist through the growing season, creating nesting sites in deck boards, landscaping timbers, and moisture-damaged framing around windows and gutters.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors September through March",
+        note: "Kansas winters push house mice firmly into heated buildings. Olathe's fast-growing outer edges border agricultural land, sustaining field mouse populations that press toward residential areas each fall. Fresh utility penetrations in newly built homes are common mouse entry points that builders often leave unsealed.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Olathe's Cedar Lake corridor and numerous retention ponds built into Johnson County subdivisions provide mosquito breeding habitat through the warm season. Suburban density means standing water on neighboring properties contributes to yard-level populations even when one's own yard is well managed.",
+      },
+    ],
+    localHook:
+      "Johnson County is one of the most heavily documented counties in the US for brown recluse spider activity, and Kansas State University Research and Extension consistently cites the Kansas City metro as core territory. Olathe's fast-growing suburban neighborhoods have plenty of garage storage and basement clutter that this species depends on. Add Zone 2 termite pressure and a hard fall mouse season, and Olathe pest control addresses real structural and safety risks year-round.",
+    intro:
+      "Pest control in Olathe puts two structural risks front and center. Brown recluse spiders are common in eastern Kansas, and Kansas State University Research and Extension places Johnson County squarely in their core range. Subterranean termites are the second concern: Kansas is in USDA Termite Zone 2 and the county's clay soils sustain active colonies. Carpenter ants are the most frequent ant service call in the area, driven by the moisture from Johnson County's irrigation-heavy landscaping. Cold winters bring house mice from surrounding agricultural land, and the Cedar Lake corridor delivers a dependable mosquito season from spring through fall.",
+    sections: [
+      {
+        heading: "Brown recluse spiders in Johnson County homes",
+        body: "Brown recluse spiders are not a rare sighting in Olathe. Kansas State University Research and Extension confirms they are a common household pest across eastern Kansas, and Johnson County is in the densest part of their US range. The species gravitates toward dark, undisturbed spaces: garages, basement storage areas, closets, and attic crawlspaces. They are not aggressive and bites are infrequent, but the venom causes necrotic tissue damage that can be serious and develops slowly over 24 to 72 hours after contact. Regular perimeter treatment with residual products applied into the specific voids and edges where populations concentrate, combined with storing items in sealed plastic bins rather than open cardboard, is the practical management approach for Johnson County homes.",
+      },
+      {
+        heading: "Carpenter ants and moisture in Olathe's suburbs",
+        body: "Carpenter ants are the leading structural ant complaint in the Olathe area, and the reason is irrigation. Johnson County's suburban landscapes are heavily watered through the growing season, and that persistent moisture shows up in deck boards, landscaping timbers in ground contact, and framing near poorly flashed windows or gutters that overflow. Unlike termites, carpenter ants do not eat the wood, they excavate galleries in soft or moist wood to nest. Over several years an established colony causes real damage. The practical red flag is finding large black ants inside the home in winter or spring, which almost always indicates an established colony inside the structure rather than foragers coming from outdoors. Treatment needs to find and address that colony directly.",
+      },
+    ],
+    prevention: [
+      "Reduce cardboard storage in garages and basements to limit brown recluse harborage.",
+      "Schedule an annual termite inspection; Johnson County is in a Zone 2 termite pressure area.",
+      "Seal foundation gaps, pipe penetrations, and the gap under garage doors in September before the fall mouse surge.",
+      "Fix dripping irrigation heads and improve drainage around the foundation to reduce the moist soil conditions carpenter ants prefer.",
+    ],
+    costNote:
+      "Olathe pest control is typically a year-round general plan covering brown recluse, ants, roaches, and rodents, with a separate termite inspection and prevention program. Seasonal mosquito barrier treatment runs April through October. A free assessment establishes the specific program for your property.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really common in Olathe?",
+        answer:
+          "Yes. Kansas State University Research and Extension confirms eastern Kansas, including Johnson County, is core brown recluse territory. Finding them in garages, closets, and storage areas is genuinely common. Regular quarterly perimeter treatment and storing items in sealed plastic containers rather than open cardboard boxes reduces contact significantly.",
+      },
+      {
+        question: "Do I need a termite inspection in Olathe?",
+        answer:
+          "Annual inspections are the standard recommendation for Johnson County homeowners. Kansas sits in USDA Termite Zone 2 and the county's clay soils and humid summers support eastern subterranean termites. Homes with wood mulch against the foundation, wood-to-soil contact at decks, or older crawlspace construction are at the greatest risk. Most termite programs include an annual inspection covered under a prevention warranty.",
+      },
+      {
+        question: "Why are carpenter ants the most common ant call in Olathe?",
+        answer:
+          "Johnson County's heavily irrigated suburban landscaping keeps soils and foundation wood moist through the growing season, which is exactly the condition carpenter ants need to nest. They prefer softened or damp wood in deck boards, landscaping timbers, and framing near moisture intrusion. Finding large black ants indoors in winter or spring usually means a colony is already established inside the structure.",
+      },
+      {
+        question: "When do mice become a problem in Olathe?",
+        answer:
+          "The fall surge starts in September and peaks in October and November. Olathe's expanding outer edges border agricultural fields that sustain field mouse populations, which move toward homes as temperatures drop. New construction at the city's edges also leaves fresh gaps around utility penetrations that mice find quickly. Sealing those entry points in September is the most cost-effective prevention step.",
+      },
+      {
+        question: "How bad is mosquito season in Olathe?",
+        answer:
+          "Consistent, from late April through October. Olathe's Cedar Lake corridor and the retention ponds built into Johnson County subdivisions sustain breeding populations through the entire warm season. A monthly barrier spray from May through September covers most residential needs. Properties adjacent to water features or with poor drainage see heavier pressure and may benefit from adding a larvicide program.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Overland Park", slug: "overland-park" },
+      { name: "Topeka", slug: "topeka" },
+      { name: "Wichita", slug: "wichita" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Olathe, KS | Brown Recluse, Termites & Carpenter Ants",
+    metaDescription:
+      "Olathe pest control for brown recluse spiders, subterranean termites, carpenter ants, house mice and mosquitoes. Johnson County Kansas City metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
