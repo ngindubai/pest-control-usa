@@ -15,7 +15,7 @@
 
 **AUTONOMY (5 June 2026):** the build routine runs unattended. One block per run, full 7-stage pipeline as the QA gate, commit to main, deploy auto, post live links to Slack as a record. There is no approval step, no wait-for-go, and no stop condition. Advance through the phases in order; when the city universe is built, the pest x city matrix (Phase 6) is the long-tail engine and runs indefinitely.
 
-**Where we are:** Phase 2 T2 in progress. Chunk 11 complete: 275 total city pages built (75 T1 + 200 T2). 100 T2 cities remaining. Next: chunk 12.
+**Where we are:** Phase 2 T2 in progress. Chunk 12 complete: 300 total city pages built (75 T1 + 225 T2). 75 T2 cities remaining. Next: chunk 13.
 
 ---
 
@@ -63,7 +63,7 @@ Deterministic by slug hash (see the guide). For hand-built batches, rotate A, B,
 ## CITY TIER QUEUE
 
 - T1 (75 metros): COMPLETE. The Librarian maintains the authoritative tiered list in `src/data/cities/index.ts`.
-- T2 (next ~300): in progress, 200 remaining, worked by population.
+- T2 (next ~300): in progress, 75 remaining, worked by population.
 - T3 (~5,000 incorporated places >5,000 pop): the Phase 3 universe, built state by state.
 
 ---
@@ -95,3 +95,4 @@ build_state.json holds the machine-readable next unit: `next_chunk`, `next_chunk
 | 2026-06-07 | Chunk 9 | 25 T2 city pages. New state files: Alaska (Anchorage), Rhode Island (Providence), New Hampshire (Manchester). Existing states expanded: AL (Mobile), CT (Bridgeport, New Haven), CO (Thornton), TN (Murfreesboro), MI (Sterling Heights), UT (West Valley City), IL (Peoria, Elgin), MA (Springfield), TX (Irving, Beaumont, Abilene), CA (Santa Rosa, Pomona, Torrance, Pasadena, Visalia, Vallejo, Concord, Simi Valley, Thousand Oaks). Template rotation A=46 B=45 C=45 D=45 E=44. 225 total cities, 308 site pages. Build green. | 25 city pages | Live on main. Next: chunk 10. |
 | 2026-06-08 | Chunk 10 | 25 T2 city pages. No new state files. IA: Cedar Rapids. OK: Norman, Broken Arrow. NJ: Elizabeth. MI: Warren, Dearborn. MO: Columbia, Independence. KS: Topeka. IN: Evansville, South Bend. IL: Springfield. MN: Rochester. CA: Escondido. WA: Kent. CO: Westminster, Arvada, Pueblo. FL: Lakeland, Palm Bay. TX: Carrollton, Round Rock, Lewisville. OR: Gresham. CT: Stamford. Template rotation A=51 B=50 C=50 D=50 E=49. 250 total cities, 333 site pages. Build green. | 25 city pages | Live on main. Next: chunk 11. |
 | 2026-06-08 | Chunk 11 | 25 T2 city pages. No new state files. KS: Olathe. WA: Everett, Renton. CT: Waterbury. NC: Wilmington. AZ: Yuma. MI: Flint. CO: Centennial. OR: Hillsboro, Bend. FL: Pompano Beach, Davie, Boca Raton. CA: Fullerton, Orange, Santa Clara, Clovis, Murrieta, Costa Mesa, Antioch, El Monte, Temecula, Downey, West Covina, Inglewood. Template rotation A=56 B=55 C=55 D=55 E=54. 275 total cities, 358 site pages. Build green. | 25 city pages | Live on main. Next: chunk 12. |
+| 2026-06-09 | Chunk 12 | 25 T2 city pages. No new state files. TX: Pearland, Sugar Land, Odessa. FL: Fort Myers, Sunrise. UT: West Jordan. NV: Sparks. CO: Boulder. WA: Kirkland. NJ: Trenton. PA: Erie, Reading. IN: Carmel. GA: Roswell. MI: Livonia. OK: Edmond. IL: Waukegan. CA: Victorville, Berkeley, Daly City, Burbank, Fairfield, Norwalk, Jurupa Valley, Richmond. Template rotation A=61 B=60 C=60 D=60 E=59. 300 total cities, 383 site pages. Build green. | 25 city pages | Live on main. Next: chunk 13. |

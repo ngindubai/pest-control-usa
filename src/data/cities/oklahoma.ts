@@ -441,4 +441,117 @@ export const oklahomaCities: CityLocation[] = [
     metaDescription:
       "Broken Arrow pest control for subterranean termites, fire ants, striped bark scorpions, German cockroaches and mice. Tulsa County suburban prairie-edge specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "edmond",
+    name: "Edmond",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T2",
+    population: "~94,000",
+    county: "Oklahoma County",
+    climate: "temperate",
+    climateDriver:
+      "Edmond sits in northern Oklahoma County on the central Oklahoma plains, north of Oklahoma City, with a continental climate of hot summers, cold winters, and unpredictable spring weather including significant tornado risk. Oklahoma Cooperative Extension at Oklahoma State University confirms Oklahoma County sits in a moderate-to-heavy termite pressure zone, with Eastern subterranean termites active throughout the OKC metro area. Oklahoma's red clay soils retain moisture year-round, sustaining termite colony activity. Brown recluse spiders are common across Oklahoma, and Edmond falls within their core range.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Brown Recluse Spiders",
+      "Fire Ants",
+      "German Cockroaches",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms March through May",
+        note: "Oklahoma Cooperative Extension confirms Oklahoma County is in a moderate-to-heavy termite pressure zone. Oklahoma's clay-heavy soils retain moisture year-round, and OSU building code in termite high-risk areas, which includes Edmond, requires pre-construction soil treatment. Annual inspections are the practical standard for existing homes. Spring swarmers emerging around windows or foundation vents are the most visible homeowner alert.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active April through October",
+        note: "Oklahoma is one of the core geographic range states for the brown recluse spider. Oklahoma State University Extension confirms brown recluse spiders are common household pests across central Oklahoma, including Edmond. They prefer undisturbed storage areas: garages, closets, attics, and basement storage with cardboard boxes and rarely moved items. Bites are uncommon but can cause necrotic tissue damage that develops over 24 to 72 hours.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round in southern Edmond, seasonal in northern areas",
+        note: "Red imported fire ants are present throughout much of Oklahoma County, and Edmond's southern sections border areas with established fire ant populations. OSU Extension notes that fire ant range in Oklahoma continues expanding northward, and Edmond is in the transitional zone where fire ant pressure is significant but varies by microclimate.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the primary cockroach pest in Edmond's commercial kitchens, restaurants, and multi-family housing. OSU Extension identifies German cockroaches as Oklahoma's most economically significant urban cockroach pest. They breed entirely indoors and are not affected by seasonal temperature changes.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Oklahoma's winters push house mice into heated buildings. Edmond's suburban fringe borders farmland and natural areas that sustain field mouse populations that press into residential areas each fall. The Canadian River corridor south of Edmond sustains wildlife populations that maintain area-wide rodent pressure.",
+      },
+    ],
+    localHook:
+      "Oklahoma Cooperative Extension confirms Oklahoma County sits in a moderate-to-heavy termite pressure zone, and Edmond's red clay soils retain the moisture that sustains active Eastern subterranean termite colonies year-round. Oklahoma is also core brown recluse spider territory, and OSU Extension confirms they are common household pests across central Oklahoma. These two concerns are the headline pest risks for every Edmond homeowner.",
+    intro:
+      "Pest control in Edmond puts two structural and safety concerns front and center. Eastern subterranean termites are a genuine structural risk: Oklahoma Cooperative Extension confirms Oklahoma County is in a moderate-to-heavy termite pressure zone, and the clay soils retain moisture that keeps colonies active year-round. Brown recluse spiders are common across Oklahoma's central prairie, and OSU Extension confirms they are a typical household pest in Edmond, found in garages, storage areas, and undisturbed closets. Fire ants pressure the southern and newer sections of the city. German cockroaches are year-round in commercial settings. And house mice arrive each fall from the surrounding farmland and the Canadian River corridor.",
+    sections: [
+      {
+        heading: "Termites in Oklahoma County: Edmond's year-round structural risk",
+        body: "Oklahoma Cooperative Extension confirms Oklahoma County sits in a moderate-to-heavy termite pressure zone, and the OKC metro area is one of the more termite-active regions in the central United States. Edmond's red clay soils, which retain moisture year-round even in dry periods, and the city's HOA-mandated irrigation keep the soil conditions around foundations consistently favorable for Eastern subterranean termite colonies. Oklahoma building code in high termite risk areas, which includes Edmond, requires pre-construction soil treatment on new buildings, which reflects the seriousness of the termite risk in the region. For existing homes, annual inspections are the practical standard. Spring swarm events from March through May, when winged reproductive termites emerge around windows and foundation vents, are the most visible homeowner alert. But established colonies cause damage year-round, so waiting for swarmers before investigating is not the recommended approach.",
+      },
+      {
+        heading: "Brown recluse spiders in central Oklahoma: managing a common household pest",
+        body: "Oklahoma is one of the core states for the brown recluse spider's geographic range, and Oklahoma State University Extension confirms they are common household pests throughout central Oklahoma, including Edmond. Finding brown recluse spiders in garages, storage areas, and undisturbed closets is a regular experience for Edmond residents rather than a dramatic exception. The spider is not aggressive: it retreats from human contact and bites are uncommon. When bites do occur, some cases develop a necrotic wound that expands over 24 to 72 hours and may require medical treatment. The practical management approach is regular quarterly perimeter treatment with residual products applied to the specific voids and edges where brown recluse populations concentrate, combined with storing items in sealed plastic containers rather than open cardboard boxes in storage areas. Eliminating box clutter in garages and closets removes the harborage these spiders require.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections: Oklahoma County is in a moderate-to-heavy termite pressure zone and annual checks are the practical standard for Edmond homeowners.",
+      "Reduce cardboard and box clutter in garages and storage areas to eliminate brown recluse harborage.",
+      "Seal foundation gaps and utility penetrations in September before the fall mouse entry season.",
+      "Treat fire ant mounds in the yard in spring and fall using the OSU two-step broadcast bait method for the most effective ongoing control.",
+    ],
+    costNote:
+      "Edmond pest control is typically a year-round plan covering brown recluse spiders, ants, cockroaches, and rodents, with a separate annual termite inspection and protection program. A free assessment establishes the termite risk level and identifies current brown recluse activity.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really that common in Edmond?",
+        answer:
+          "Yes. Oklahoma State University Extension confirms brown recluse spiders are common household pests throughout central Oklahoma, and Edmond is well within their core geographic range. Finding them in garages, storage areas, closets, and attics is a normal experience for Edmond residents. Regular quarterly perimeter treatment and storing items in sealed plastic containers rather than open cardboard boxes reduces populations and contact risk significantly.",
+      },
+      {
+        question: "How serious is the termite risk in Edmond?",
+        answer:
+          "Oklahoma Cooperative Extension confirms Oklahoma County is in a moderate-to-heavy termite pressure zone. The OKC metro, including Edmond, has one of the more active termite environments in the central United States, and Oklahoma building code requires pre-construction soil treatment in high-risk areas. For existing homes, annual inspections are the standard recommendation. Spring swarm events from March through May are the most visible alert, but annual inspection rather than waiting for swarmers is the practical approach.",
+      },
+      {
+        question: "Do fire ants live in Edmond?",
+        answer:
+          "Yes. Fire ants are present throughout much of Oklahoma County, and Edmond's southern and newer sections have established fire ant populations. OSU Extension notes that fire ant range in Oklahoma continues expanding northward, and Edmond falls within the zone where pressure is significant. The two-step method, applying broadcast slow-acting bait followed by direct mound treatment, is the most effective ongoing management approach recommended by OSU Extension.",
+      },
+      {
+        question: "When do mice come into Edmond homes?",
+        answer:
+          "The fall surge typically starts in October as Oklahoma temperatures begin dropping. Edmond's suburban fringe borders farmland and the Canadian River corridor that sustain field mouse populations pressing toward residential areas each fall. Sealing foundation gaps, pipe penetrations, and the gap under garage doors in September, before the temperature drop, is far more effective than managing mice that have already established indoors.",
+      },
+      {
+        question: "Is year-round pest control necessary in Edmond?",
+        answer:
+          "For most Edmond homeowners, yes. Brown recluse spiders are effectively a year-round concern in heated spaces. Termites require annual inspection. Mice need fall exclusion and winter management. German cockroaches in commercial settings are year-round. Fire ants are active year-round in the area. A year-round plan with seasonal adjustments covers the full Edmond pest calendar more effectively and economically than reactive individual treatments.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Oklahoma City", slug: "oklahoma-city" },
+      { name: "Norman", slug: "norman" },
+      { name: "Broken Arrow", slug: "broken-arrow" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Edmond, OK | Termites, Brown Recluse & Fire Ants",
+    metaDescription:
+      "Edmond pest control for Eastern subterranean termites, brown recluse spiders, fire ants, German cockroaches and house mice. Oklahoma County OKC north suburb prairie specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

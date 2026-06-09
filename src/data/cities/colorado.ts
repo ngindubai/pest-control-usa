@@ -1076,4 +1076,117 @@ export const coloradoCities: CityLocation[] = [
     metaDescription:
       "Centennial pest control for voles, house mice, carpenter ants, yellow jackets and black widow spiders. Arapahoe County Denver south suburb open space corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "boulder",
+    name: "Boulder",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T2",
+    population: "~105,000",
+    county: "Boulder County",
+    climate: "semi-arid",
+    climateDriver:
+      "Boulder sits at 5,430 feet elevation on the Colorado Front Range foothills with a semi-arid climate of cold winters, dry summers, and rapid weather changes. The Flatirons and the vast open space system directly west create a wildlife interface that brings deer mice, ground squirrels, and other wildlife-associated pests into adjacent neighborhoods. Colorado State University Extension confirms the Rocky Mountain wood tick is the primary tick concern in the Front Range foothills, and yellowjacket populations at Boulder's elevation are notably aggressive during late summer. The mix of plains and mountain ecosystems creates unusual pest diversity for a city its size.",
+    topPests: [
+      "Yellowjackets and Wasps",
+      "Voles",
+      "House Mice",
+      "Pavement Ants",
+      "Black Widow Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Yellowjackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October, most aggressive August through October",
+        note: "Colorado State University Extension identifies yellowjackets as one of the most significant pest concerns in Boulder County, with late-summer colonies reaching peak size when cooler temperatures make them more defensive. Boulder's high elevation and cooler summer temperatures delay development compared to lower-elevation cities, but by August colonies are large and aggressive. Ground-nesting yellowjackets are the most dangerous, with nests discovered accidentally during yard work.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, most damaging in winter under snow cover",
+        note: "Voles are one of the most commonly reported garden and lawn pests in Boulder County. CSU Extension notes that Boulder's open space corridors and grassy parks sustain high vole populations that press into residential landscaping. They create surface runways and cause extensive root and bark damage to perennials and shrubs, often undetected until spring when snow melts reveal the winter damage.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through April",
+        note: "Boulder's cold winters at elevation push house mice firmly into heated buildings. The open space immediately west of the city also sustains populations of deer mice, which CSU Extension notes can carry hantavirus. Most indoor mouse encounters involve house mice, but any rodent activity near the structure warrants professional identification and management given the hantavirus risk from deer mice in the foothills.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Pavement ants are the most common ant concern in Boulder's residential areas, trailing from cracks in driveways and walkways into kitchens. Boulder's spring snowmelt creates soil disturbance that triggers heavy ant activity from April onward. Carpenter ants are present in older neighborhoods near mature trees with moisture-damaged wood, particularly along Boulder Creek and the city's creek corridors.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered areas, most active May through September",
+        note: "Black widow spiders are present throughout Colorado and Boulder's dry warm summers create suitable conditions in garages, storage sheds, and outdoor structures. CSU Extension confirms black widows are found across the Front Range. They are more common near the south and west sides of Boulder where terrain creates additional dry rocky harborage sites adjacent to the foothills.",
+      },
+    ],
+    localHook:
+      "Boulder sits at the base of the Flatirons with the Rocky Mountain foothills' open space directly to the west, and that interface creates a pest profile unlike most Colorado cities. Colorado State University Extension identifies late-summer yellowjacket colonies in Boulder County as particularly aggressive, deer mice from the foothills can carry hantavirus, and the city's extensive open space system feeds a year-round vole population that damages residential landscaping. CSU Extension also notes the Rocky Mountain wood tick is the primary tick concern in the Front Range foothills, most active in spring.",
+    intro:
+      "Pest control in Boulder reflects the city's unique position at the mountain-plains interface at 5,430 feet. Yellowjackets are the outdoor safety concern, with Colorado State University Extension identifying late-summer colonies in Boulder County as reaching aggressive size when August temperatures begin cooling. Voles are the landscaping pest, sustained by Boulder's open space corridors and capable of extensive winter damage before homeowners notice. House mice push into heated buildings each fall, with the foothills-adjacent open space adding deer mouse risk that CSU Extension associates with hantavirus. Pavement ants are the standard spring and summer ant complaint. Black widows are present in the dry, sheltered areas every Boulder property has.",
+    sections: [
+      {
+        heading: "Yellowjackets in Boulder: understanding the altitude factor",
+        body: "Boulder's high elevation affects yellowjacket colony development in a specific way. Cooler spring temperatures delay the seasonal buildup compared to Denver or Fort Collins, but by late July and August colonies reach their full size and become significantly more defensive as workers forage aggressively before the colony dies in fall. Colorado State University Extension identifies late August and September as the period of maximum yellowjacket aggressiveness across Boulder County. Ground-nesting yellowjackets, which build colonies in old rodent burrows and similar underground voids, are the most dangerous because they are discovered accidentally during lawn mowing, digging, or yard work. Paper wasps build smaller colonies under eaves and deck overhangs but are also highly defensive near the nest. Treatment of established nests is best done at night when the colony is settled. For ground nests, professional treatment with a residual insecticide applied into the nest entrance is more effective and safer than DIY approaches.",
+      },
+      {
+        heading: "Voles, deer mice, and the open space interface",
+        body: "Boulder's open space system directly adjacent to western residential neighborhoods provides continuous habitat for voles and deer mice. Colorado State University Extension identifies voles as one of the most common and damaging garden pests in Boulder County. They create surface runways in lawn grass and gnaw the bark and roots of perennials, shrubs, and young trees, often concentrating their damage under snow cover where it goes unnoticed until spring. Habitat modification is the most effective long-term management: eliminating dense ground cover near the foundation, removing wood mulch piled against tree bases, and installing hardware cloth cylinders around newly planted shrubs and trees removes vole harborage and reduces access to vulnerable plants. Deer mice are a specific concern in foothills-adjacent Boulder properties. CSU Extension associates deer mice with hantavirus, a rare but serious respiratory illness. Any rodent activity in structures should be professionally identified, as deer mice require different handling protocols than house mice.",
+      },
+    ],
+    prevention: [
+      "Inspect yard and eave areas in July for paper wasp nests and yellowjacket ground-nest openings before they reach full late-summer size.",
+      "Install hardware cloth cylinders around the base of newly planted shrubs and small trees in fall to protect them from winter vole bark damage.",
+      "Seal foundation gaps and utility penetrations in September before the October mouse push, and note that deer mice from the foothills may be involved.",
+      "Keep outdoor storage areas organized and regularly dewebbed to reduce black widow harborage in garage corners and under shelving.",
+    ],
+    costNote:
+      "Boulder pest control is typically a seasonal program focused on yellowjacket and wasp removal in summer, vole management in spring and fall, and mouse exclusion in fall. Year-round general pest coverage for ants, spiders, and occasional invaders is available as a quarterly plan. A free assessment identifies current wasp activity and rodent risk.",
+    faqs: [
+      {
+        question: "Why are yellowjackets so aggressive in Boulder in late summer?",
+        answer:
+          "By August, yellowjacket colonies have grown to their maximum size, sometimes housing thousands of workers. Colorado State University Extension notes that late-summer colonies are at peak defensiveness as workers ramp up foraging before the colony dies in fall. At Boulder's elevation, the colony reaches this critical point slightly later than in lower-altitude Colorado cities, making August and September the highest-risk period. Any disturbance near the nest, including mowing over a ground nest accidentally, triggers an aggressive defensive response.",
+      },
+      {
+        question: "How serious is the deer mouse hantavirus risk in Boulder?",
+        answer:
+          "Hantavirus pulmonary syndrome is rare but carries a high fatality rate. CSU Extension confirms deer mice are present in Boulder's foothills-adjacent neighborhoods and are the primary hantavirus vector in the region. Most people are not at risk from occasional outdoor sightings of deer mice. The risk is highest when working in enclosed spaces, like sheds, attics, or campers, where deer mouse droppings have accumulated. Professional identification of any rodent activity in or near the structure, and appropriate handling protocols for cleanup, is the practical approach.",
+      },
+      {
+        question: "What are voles and why do they damage Boulder gardens?",
+        answer:
+          "Voles are small rodents that look like stout mice and live almost entirely underground and in dense ground vegetation. In Boulder, they cause two types of damage: surface runway damage in lawn grass from their travel paths, and bark and root damage to plants, particularly shrubs and small trees, often under snow cover in winter. Habitat modification, including reducing ground cover density near valuable plants and installing hardware cloth cylinders around tree and shrub bases, is more effective than trapping alone for ongoing control.",
+      },
+      {
+        question: "Are Rocky Mountain wood ticks a concern in Boulder?",
+        answer:
+          "Yes, particularly for residents who spend time in brushy or grassy areas adjacent to open space west of the city. Colorado State University Extension identifies the Rocky Mountain wood tick as the primary tick species in the Front Range foothills, active from March through July. Unlike the blacklegged tick that transmits Lyme disease, the Rocky Mountain wood tick can transmit Colorado tick fever and Rocky Mountain spotted fever, both of which are serious illnesses. Tick checks after outdoor time in high-grass or brushy terrain are recommended for Boulder residents who use the open space trail system regularly.",
+      },
+      {
+        question: "Do I need year-round pest control in Boulder?",
+        answer:
+          "A seasonal approach fits Boulder better than a strict year-round program. Yellowjacket management runs June through October. Vole management is most active in spring and fall. Rodent exclusion work is most important in September and October. Ants and general perimeter pests are a spring and summer concern. A quarterly general program with seasonal add-ons for yellowjackets and voles covers the full Boulder pest calendar without unnecessary treatments during the city's cold winter months.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Denver", slug: "denver" },
+      { name: "Fort Collins", slug: "fort-collins" },
+      { name: "Westminster", slug: "westminster" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Boulder, CO | Yellowjackets, Voles & Deer Mice",
+    metaDescription:
+      "Boulder pest control for yellowjackets, voles, house mice, pavement ants and black widow spiders. Boulder County Front Range foothills Flatirons open space interface specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

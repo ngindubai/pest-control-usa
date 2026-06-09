@@ -446,4 +446,117 @@ export const nevadaCities: CityLocation[] = [
     metaDescription:
       "North Las Vegas pest control for bark scorpions, black widow spiders, American and German cockroaches and desert subterranean termites. Clark County Mojave Desert specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "sparks",
+    name: "Sparks",
+    state: "Nevada",
+    stateSlug: "nevada",
+    stateAbbr: "NV",
+    tier: "T2",
+    population: "~105,000",
+    county: "Washoe County",
+    climate: "semi-arid",
+    climateDriver:
+      "Sparks sits in the Truckee Meadows basin at approximately 4,400 feet elevation in Washoe County, with a high-desert semi-arid climate of cold winters, hot dry summers, and very low annual rainfall. The Truckee River runs directly through the city, creating riparian mosquito habitat unusual for a Nevada desert community. University of Nevada Reno (UNR) Extension confirms black widow spiders are common in Washoe County's residential settings, driven indoors by dry summer heat and scarce outdoor moisture. Cold winters push mice firmly into heated buildings.",
+    topPests: [
+      "Black Widow Spiders",
+      "House Mice",
+      "German Cockroaches",
+      "Mosquitoes",
+      "Pavement Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active May through October",
+        note: "UNR Extension confirms black widow spiders are among the most common pest concerns in Washoe County residential settings. The Truckee Meadows's high-desert environment provides the dry, undisturbed harborage they need throughout the city: garages, outdoor storage areas, under deck boards, in irrigation control boxes, and around wood or debris piles. Their bite is medically significant and warrants prompt medical attention.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Sparks's high-desert winters at 4,400 feet are cold enough to drive house mice firmly into heated buildings from October onward. The desert scrub and agricultural areas on the city's eastern edge sustain field mouse populations that press into residential areas each fall. UNR Extension recommends September exclusion work as the practical prevention window.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches maintain year-round indoor populations in Sparks's restaurants, commercial kitchens, multi-family housing, and warehouses. They are not affected by the cold winters because they live entirely in heated buildings. The Truckee Meadows's rapid commercial growth, including distribution facilities and food service operations, has expanded the number of high-density German cockroach environments.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "The Truckee River running through Sparks creates riparian mosquito habitat that is unusual for a Nevada desert city. Northern Nevada Public Health manages area-wide mosquito pressure in the Truckee Meadows, but the river corridor produces localized biting pressure in adjacent residential areas that benefits from property-level barrier treatment during the warm season.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Pavement ants are the most commonly encountered ant species in Sparks, trailing from cracks in driveways and sidewalks into kitchens and bathrooms. They are most active after spring rains and during the summer months when outdoor foraging pressure increases. UNR Extension notes pavement ants and Argentine ants are the primary ant concerns in Washoe County's urban residential settings.",
+      },
+    ],
+    localHook:
+      "The Truckee River running through Sparks gives it a mosquito season that most Nevada cities at this altitude do not face. UNR Extension confirms black widow spiders are a common residential concern throughout Washoe County, found in garages and dry outdoor storage that every Sparks home has. Cold winters bring the predictable October mouse surge from the desert scrub east of the city.",
+    intro:
+      "Pest control in Sparks combines high-desert realities with the specific conditions created by the Truckee River corridor. Black widow spiders are the most consistent pest concern, confirmed by UNR Extension as common in Washoe County garages, storage areas, and under outdoor structures. The Truckee River creates mosquito pressure that most Nevada desert cities this size do not experience. Cold winters push house mice into heated buildings from October through March. German cockroaches maintain year-round indoor populations in commercial and multi-family buildings. Pavement ants are the routine spring and summer ant complaint throughout the city.",
+    sections: [
+      {
+        heading: "Black widows in Sparks: managing the high-desert spider",
+        body: "Black widow spiders are among the most commonly reported pest concerns in Washoe County, and UNR Extension confirms they are found throughout Sparks's residential areas. The high-desert environment actually creates excellent black widow conditions: dry air, warm sheltered spaces, and the abundant insect prey drawn to porch lights, irrigation boxes, and outdoor storage areas. Garages are the most common encounter location. Black widows settle in corners behind boxes, under shelving, and in the low sheltered spaces around the perimeter wall where they are rarely disturbed. Under deck boards, in irrigation control boxes, and around stacked items against the house exterior are equally common locations. Professional quarterly perimeter treatment and dewebbing of specific harborage sites keeps populations well below the level where encounters become regular. Wearing gloves when working in garages and storage areas removes most direct bite risk.",
+      },
+      {
+        heading: "The Truckee River mosquito effect and fall mouse pressure",
+        body: "Most Nevada cities at Sparks's 4,400-foot elevation have minimal mosquito pressure due to the arid climate. The Truckee River changes that equation for Sparks. The river's slow-moving sections and the adjacent riparian vegetation create mosquito breeding habitat from May through October, and residential properties along the river corridor see meaningful biting pressure that suburban properties away from the river do not. Northern Nevada Public Health operates area-wide mosquito management in the Truckee Meadows, but professional barrier spray on vegetation and fence lines near the river provides property-level protection during peak season. The cold snap that typically arrives in October is also the signal for the annual mouse push. Sparks's surrounding desert scrub and the agricultural land to the east sustain field mouse populations that press into residential areas as temperatures drop. September is the right window to seal foundation gaps, pipe penetrations, and under-door gaps before the mice start testing them.",
+      },
+    ],
+    prevention: [
+      "Wear gloves when working in garages, under decks, and around outdoor storage to reduce direct black widow contact.",
+      "Seal foundation gaps, utility penetrations, and the gap under garage doors in September before the fall mouse entry season.",
+      "Eliminate standing water and trim dense vegetation along the property edge adjacent to the Truckee River corridor to reduce local mosquito breeding.",
+      "Remove outdoor harborage: debris piles, stacked wood, and stored items against the foundation reduce both black widow and rodent shelter sites.",
+    ],
+    costNote:
+      "Sparks pest control is typically a quarterly perimeter program covering black widows, ants, and perimeter pests, with fall rodent exclusion added seasonally. Mosquito barrier treatment is available for properties near the Truckee River corridor. A free assessment identifies current spider activity and sets the right treatment frequency.",
+    faqs: [
+      {
+        question: "Are black widows common in Sparks, Nevada?",
+        answer:
+          "Yes. UNR Extension confirms black widow spiders are among the most common pest concerns in Washoe County residential settings. The high-desert climate provides the dry, sheltered harborage they need: garages, under deck boards, irrigation control boxes, and storage areas. Regular quarterly perimeter treatment combined with dewebbing specific harborage areas keeps populations at manageable levels. Wearing gloves in those areas removes most bite risk.",
+      },
+      {
+        question: "Why does Sparks have mosquitoes if it's in the desert?",
+        answer:
+          "The Truckee River runs directly through Sparks, creating riparian mosquito habitat that most Nevada desert cities at this elevation do not have. The river's slow-moving sections and the adjacent vegetation provide breeding sites from May through October. Northern Nevada Public Health manages area-wide pressure, but properties near the river benefit from monthly barrier spray during the warm season for meaningful property-level protection.",
+      },
+      {
+        question: "When do mice come inside in Sparks?",
+        answer:
+          "The fall surge typically starts in October when Truckee Meadows temperatures begin dropping at 4,400 feet elevation. Sparks's desert scrub to the east and agricultural areas sustain field mouse populations that press into residential areas as the weather cools. Sealing foundation gaps, pipe penetrations, and under-door gaps in September, before the temperature drop, is far more effective than dealing with mice that have already established indoors.",
+      },
+      {
+        question: "Do German cockroaches survive Sparks winters?",
+        answer:
+          "German cockroaches survive perfectly well in Sparks because they live entirely inside heated buildings and never experience outdoor temperatures. Cold winters do not reduce indoor cockroach populations. They breed year-round in heated commercial kitchens, apartments, and warehouses. If you have German cockroaches in your home, they established indoors and require gel bait treatment in the specific harborage sites where they breed, not exterior perimeter spray.",
+      },
+      {
+        question: "What ants are most common in Sparks?",
+        answer:
+          "Pavement ants are the most frequently encountered ant species in Sparks. They nest under driveways, sidewalks, and patios and trail into kitchens through foundation cracks. They are most active after spring rains and through the summer months. Argentine ants are also present in the Truckee Meadows. Both species respond well to baiting programs that address the colony rather than just eliminating visible foragers.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Reno", slug: "reno" },
+      { name: "Henderson", slug: "henderson" },
+      { name: "North Las Vegas", slug: "north-las-vegas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Sparks, NV | Black Widows, Mice & Mosquitoes",
+    metaDescription:
+      "Sparks pest control for black widow spiders, house mice, German cockroaches, mosquitoes and pavement ants. Washoe County Truckee River Truckee Meadows high-desert specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

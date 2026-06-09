@@ -770,4 +770,117 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Athens pest control for subterranean termites, fire ants, cockroaches, mosquitoes and brown widow spiders. Athens-Clarke County Georgia Piedmont UGA city specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "roswell",
+    name: "Roswell",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T2",
+    population: "~94,000",
+    county: "Fulton County",
+    climate: "temperate",
+    climateDriver:
+      "Roswell sits in North Fulton County on the Chattahoochee River in the Georgia Piedmont, with a warm temperate climate of hot, humid summers and mild winters. The Chattahoochee River National Recreation Area and the Big Creek Greenway provide natural mosquito habitat and wildlife corridors adjacent to residential neighborhoods. The Georgia state entomologist confirms the Piedmont region carries one of the highest densities of Eastern subterranean termite colonies in the Eastern United States, and Roswell's mature landscaping, heavy mulching, and the moisture from adjacent river corridors sustain high termite pressure.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "German Cockroaches",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms February through April",
+        note: "Georgia's Piedmont region is one of the Eastern United States' most active subterranean termite zones. University of Georgia Cooperative Extension confirms that Georgia's warm, humid climate and long growing season support large, active termite colonies that cause structural damage faster than in more northern states. Roswell's mature neighborhoods, many with wood mulch against the foundation, landscaping timbers, and mature tree stumps, provide consistent termite access to structures.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, most intense June through September",
+        note: "The Chattahoochee River and Big Creek Greenway create significant natural mosquito breeding habitat adjacent to Roswell's residential neighborhoods. UGA Cooperative Extension notes the Chattahoochee River corridor sustains mosquito populations from early spring through fall. Neighborhoods adjacent to the river park system experience notably higher biting pressure than interior suburban areas.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mound construction most visible after rain",
+        note: "Red imported fire ants are endemic throughout North Fulton County and build mounds across Roswell's lawns, parks, and green spaces year-round. UGA Cooperative Extension's fire ant management guidelines note that Georgia's mild winters allow fire ant colonies to remain active through the year with no seasonal dormancy. Mound activity increases noticeably after rain events as workers rebuild flooded galleries.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a year-round concern in Roswell's commercial kitchens, restaurants, and multi-family housing. UGA Cooperative Extension identifies German cockroaches as the primary cockroach pest in Georgia's urban and suburban settings. They breed entirely indoors and are not affected by seasonal temperature changes.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October, most aggressive August and September",
+        note: "Yellowjackets are one of the most commonly called pest control services in North Fulton County each late summer. Roswell's wooded parks, creek corridors, and residential landscaping provide abundant ground-nesting sites for the Eastern yellowjacket. UGA Cooperative Extension notes late-summer colonies in Georgia reach maximum size in August and September, when workers are most aggressive.",
+      },
+    ],
+    localHook:
+      "Roswell sits along the Chattahoochee River in one of the most termite-active regions in the Eastern United States. University of Georgia Cooperative Extension confirms Georgia's Piedmont carries high Eastern subterranean termite density, and Roswell's combination of mature landscaping, river corridor moisture, and wood mulch against foundations sustains steady termite access. The Big Creek Greenway and Chattahoochee River park system add year-round mosquito pressure that sets riverfront neighborhoods apart from the broader Atlanta metro.",
+    intro:
+      "Pest control in Roswell reflects the full intensity of Georgia's Piedmont pest environment. Eastern subterranean termites are the structural foundation of every pest plan in North Fulton County: UGA Cooperative Extension confirms Georgia's warm climate and humid conditions support one of the country's highest termite colony densities. Mosquitoes are the outdoor quality-of-life issue, particularly near the Chattahoochee River and Big Creek corridors. Fire ants are endemic and year-round. Yellowjackets build large, aggressive ground colonies in Roswell's wooded parks and residential yards through late summer. German cockroaches are the year-round indoor pest in commercial settings.",
+    sections: [
+      {
+        heading: "Termite risk in North Fulton County: why Roswell homeowners need annual inspections",
+        body: "Georgia sits in one of the Eastern United States' most active subterranean termite zones, and North Fulton County, including Roswell, is no exception. University of Georgia Cooperative Extension confirms that the state's warm, humid Piedmont climate supports large, active termite colonies that cause structural damage at a faster rate than in more northern states. Termite colonies in Georgia do not have a meaningful winter dormancy period: the mild winters keep colonies active year-round. The practical consequence is that annual inspections are not optional caution but a genuine necessity for Roswell homeowners. Mature neighborhoods with established landscaping, wood mulch against the foundation, landscaping timbers in ground contact, and mature trees near the structure have the highest risk. February through April swarm events, when winged reproductive termites emerge in large numbers near windows and lights, are the most visible homeowner alert, but colony activity and damage occur year-round whether swarmers appear or not.",
+      },
+      {
+        heading: "Mosquitoes along the Chattahoochee and Big Creek corridors",
+        body: "Roswell's position along the Chattahoochee River and the Big Creek Greenway gives it more natural mosquito habitat than most Atlanta suburb cities. The river corridor and adjacent wetland areas produce consistent mosquito breeding populations from March through October. UGA Cooperative Extension notes the Chattahoochee corridor sustains pressure throughout the growing season. Neighborhoods directly adjacent to the river park system or Big Creek see noticeably higher biting pressure than interior Roswell neighborhoods further from the water. Monthly barrier spray programs from March through September protect outdoor spaces effectively. Weekly elimination of small standing water sources in containers, gutters, and yard depressions addresses the daytime-biting tiger mosquito (Aedes albopictus), which breeds in small containers rather than large bodies of water and is active in residential yards regardless of proximity to the river.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections: Georgia's Piedmont region has high Eastern subterranean termite density and annual checks are the practical standard.",
+      "Remove wood mulch from direct contact with the foundation and address any landscaping timbers in ground contact to reduce termite access.",
+      "Run monthly mosquito barrier spray from March through September for properties near the Chattahoochee River or Big Creek Greenway.",
+      "Treat fire ant mounds using the UGA two-step method: broadcast bait plus mound treatment in spring and fall.",
+    ],
+    costNote:
+      "Roswell pest control is typically a year-round program covering fire ants, cockroaches, and perimeter pests, with a separate annual termite inspection and protection plan. Seasonal mosquito barrier treatment from March through September is available for river-adjacent and creek-adjacent properties. A free assessment establishes termite history and current activity.",
+    faqs: [
+      {
+        question: "How serious is the termite risk in Roswell, Georgia?",
+        answer:
+          "Georgia is one of the Eastern United States' most active termite states, and Roswell's Piedmont location means Eastern subterranean termite colonies are common and active year-round. University of Georgia Cooperative Extension confirms the warm climate supports larger, more active colonies than in northern states, with faster damage rates. Annual professional inspections are the standard recommendation for all Roswell homeowners. Properties with wood mulch against the foundation, landscaping timbers, or older construction are at the highest risk.",
+      },
+      {
+        question: "Why are mosquitoes worse near the Chattahoochee River in Roswell?",
+        answer:
+          "The Chattahoochee River and Big Creek create natural mosquito breeding habitat that sustains populations from early spring through fall. Neighborhoods directly adjacent to the river park system and Big Creek Greenway experience consistently higher biting pressure than interior suburban Roswell neighborhoods further from the water. Monthly barrier spray from March through September provides the most effective property-level protection for river-adjacent areas.",
+      },
+      {
+        question: "Do fire ants go dormant in Roswell winters?",
+        answer:
+          "No. North Fulton County's mild winters are not cold enough to cause fire ant colony dormancy. Colonies remain active year-round, though surface mound activity slows slightly in cooler months. The UGA two-step method, applying broadcast slow-acting bait across the yard combined with direct mound treatment for active mounds, is the most effective ongoing management approach. The two-step method is more effective than treating individual mounds alone.",
+      },
+      {
+        question: "When is yellowjacket season in Roswell?",
+        answer:
+          "Yellowjackets are most problematic from August through October in Roswell. By August, ground-nesting colonies in the wooded parks and residential yards around the city have grown to their maximum size, with thousands of workers. Late summer is when they are most aggressive and when accidental ground-nest disturbance during yard work most often results in stings. September and October are the peak period. Professional treatment at night, when the colony is settled, is significantly safer than attempting DIY treatment of an active ground nest.",
+      },
+      {
+        question: "Is year-round pest control necessary in Roswell?",
+        answer:
+          "Yes, for most Roswell properties. Termites are active year-round in Georgia's climate. Fire ants are year-round. German cockroaches in commercial settings do not follow seasonal patterns. Mosquitoes require management from March through September. Yellowjackets are a late-summer concern. A year-round general program with seasonal additions for mosquito treatment and fall wasp removal covers the full Roswell pest calendar.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Sandy Springs", slug: "sandy-springs" },
+      { name: "Athens", slug: "athens" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Roswell, GA | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Roswell pest control for Eastern subterranean termites, mosquitoes, fire ants, German cockroaches and yellowjackets. Fulton County Chattahoochee River Big Creek Georgia Piedmont specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

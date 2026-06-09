@@ -1,18 +1,18 @@
 {
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "phase": "2-t2-in-progress",
   "autonomy": "Fully autonomous. One block per run (25 pages), full 7-stage pipeline, commit to main, deploy.yml auto-publishes, post live links to Slack as a record. No approval step, no wait-for-go, no stop condition. Advance through the phases in order; when the city universe is built, the pest x city matrix is the long-tail engine and runs indefinitely.",
-  "cities_built": 275,
+  "cities_built": 300,
   "towns_built": 0,
-  "total_site_pages": 358,
-  "completed_chunks": 11,
-  "next_chunk": 12,
+  "total_site_pages": 383,
+  "completed_chunks": 12,
+  "next_chunk": 13,
   "next_chunk_tier": "T2",
   "next_chunk_template": "A",
   "tier_t1_target": 75,
   "tier_t1_remaining": 0,
   "tier_t2_target": 300,
-  "tier_t2_remaining": 100,
+  "tier_t2_remaining": 75,
   "tier_t3_floor_population": 5000,
   "tier_t3_target": 5000,
   "tier_t3_remaining": 5000,
@@ -20,7 +20,7 @@
   "batch_size": 25,
   "template_rotation": ["A", "B", "C", "D", "E"],
   "template_distribution_target": { "A": 0.22, "B": 0.20, "C": 0.20, "D": 0.18, "E": 0.20 },
-  "template_distribution_actual": { "A": 56, "B": 55, "C": 55, "D": 55, "E": 54 },
+  "template_distribution_actual": { "A": 61, "B": 60, "C": 60, "D": 60, "E": 59 },
   "blog_articles": 0,
   "services_count": 25,
   "pest_city_matrix": {
@@ -131,7 +131,17 @@
     "california/fullerton", "california/orange", "california/santa-clara",
     "california/clovis", "california/murrieta", "california/costa-mesa",
     "california/antioch", "california/el-monte", "california/temecula",
-    "california/downey", "california/west-covina", "california/inglewood"
+    "california/downey", "california/west-covina", "california/inglewood",
+    "texas/pearland", "texas/sugar-land", "texas/odessa",
+    "florida/fort-myers", "florida/sunrise",
+    "utah/west-jordan", "nevada/sparks", "colorado/boulder",
+    "washington/kirkland", "new-jersey/trenton",
+    "pennsylvania/erie", "pennsylvania/reading",
+    "indiana/carmel", "georgia/roswell", "michigan/livonia",
+    "oklahoma/edmond", "illinois/waukegan",
+    "california/victorville", "california/berkeley", "california/daly-city",
+    "california/burbank", "california/fairfield", "california/norwalk",
+    "california/jurupa-valley", "california/richmond"
   ],
-  "notes": "Chunk 11 complete 2026-06-08: 275 city pages (75 T1 + 200 T2), 358 site pages, template rotation A=56 B=55 C=55 D=55 E=54. 25 new T2 cities: Olathe KS, Everett WA, Renton WA, Waterbury CT, Wilmington NC, Yuma AZ, Flint MI, Centennial CO, Hillsboro OR, Bend OR, Pompano Beach FL, Davie FL, Boca Raton FL, Fullerton CA, Orange CA, Santa Clara CA, Clovis CA, Murrieta CA, Costa Mesa CA, Antioch CA, El Monte CA, Temecula CA, Downey CA, West Covina CA, Inglewood CA. No new state files needed. US English, no em dashes, no banned vocabulary, verified pest facts from state extension sources. Build green. Next: chunk 12, next 25 T2 cities, rotation continues at A."
+  "notes": "Chunk 12 complete 2026-06-09: 300 city pages (75 T1 + 225 T2), 383 site pages, template rotation A=61 B=60 C=60 D=60 E=59. 25 new T2 cities: Pearland TX (A), Sugar Land TX (A), Odessa TX (D), Fort Myers FL (B), Sunrise FL (B), West Jordan UT (D), Sparks NV (E), Boulder CO (A), Kirkland WA (D), Trenton NJ (E), Erie PA (A), Reading PA (B), Carmel IN (B), Roswell GA (C), Livonia MI (C), Edmond OK (E), Waukegan IL (C), Victorville CA (C), Berkeley CA (C), Daly City CA (D), Burbank CA (E), Fairfield CA (B), Norwalk CA (A), Jurupa Valley CA (D), Richmond CA (E). No new state files needed. US English, no em dashes, no banned vocabulary, verified pest facts from extension sources. Build green. Next: chunk 13, next 25 T2 cities, rotation continues at A."
 }

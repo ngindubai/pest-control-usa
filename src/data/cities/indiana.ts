@@ -440,4 +440,117 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "South Bend pest control for house mice, carpenter ants, German cockroaches, bed bugs and wasps. St. Joseph County Lake Michigan border university city specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "carmel",
+    name: "Carmel",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T2",
+    population: "~100,000",
+    county: "Hamilton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Carmel sits in Hamilton County immediately north of Indianapolis, in the center of Indiana's flat glacial lake bed plain with a continental climate of cold winters, hot humid summers, and abundant spring rainfall. Purdue University Extension identifies Hamilton County as having above-average Eastern subterranean termite pressure for central Indiana, driven by the flat glacial soils and the White River corridor's seasonal moisture. Carmel's rapid growth from rural to suburban has disturbed large amounts of soil adjacent to natural areas, introducing construction-phase termite access to new neighborhoods.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "House Mice",
+      "German Cockroaches",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms April through June",
+        note: "Purdue University Extension identifies Hamilton County as having above-average Eastern subterranean termite pressure for central Indiana. Carmel's rapid suburban expansion has disturbed large areas of soil adjacent to the natural White River corridor and surrounding farmland, areas that sustain existing termite colonies. New construction in Carmel's expanding neighborhoods without adequate pre-treatment creates ongoing structural risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "The White River corridor and Hamilton County's numerous retention ponds built into Carmel's newer subdivisions provide mosquito breeding habitat through the warm season. Carmel's rapid residential development has introduced large numbers of retention ponds, and these sustain high mosquito breeding pressure in adjacent neighborhoods. Purdue Extension recommends weekly elimination of standing water in containers and gutters as a practical prevention step.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Indiana's cold winters push house mice firmly into heated buildings. Carmel's suburban fringe borders farmland and natural areas that sustain field mouse populations, and these press into residential areas each fall. New construction in Carmel's expanding neighborhoods may leave fresh utility penetrations unsealed, which are common mouse entry points.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches maintain year-round populations in Carmel's commercial kitchens, restaurants, and multi-family housing. Purdue University Extension identifies German cockroaches as the primary cockroach concern in urban and suburban Indiana. They are not affected by Indiana's cold winters because they live entirely in heated spaces.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, indoor activity in winter from established colonies",
+        note: "Carpenter ants are a structural concern in Carmel's older neighborhoods and in newer construction with landscaping timber or deck boards that retain moisture from Indiana's abundant spring rainfall. Purdue Extension notes that finding large black ants indoors in winter or early spring almost always indicates a colony established inside the structure. Treatment requires locating and addressing the nest directly.",
+      },
+    ],
+    localHook:
+      "Carmel is one of Indiana's fastest-growing cities and one of the most consistently top-ranked small cities in the country. Purdue University Extension identifies Hamilton County as having above-average subterranean termite pressure for central Indiana, and Carmel's rapid expansion across former farmland and natural areas has exposed large amounts of new construction to termite access. The White River corridor and the subdivision retention ponds also deliver meaningful mosquito pressure through the warm season.",
+    intro:
+      "Pest control in Carmel addresses the challenges of a rapidly growing Midwest suburb. Eastern subterranean termites are the structural concern: Purdue University Extension identifies Hamilton County as having above-average termite pressure for central Indiana, and Carmel's expansion across disturbed farmland and natural areas creates ongoing termite exposure for new construction. Mosquitoes are active from May through October, sustained by the White River corridor and the retention ponds in Carmel's newer subdivisions. House mice push in from surrounding farmland each fall. German cockroaches are year-round in commercial kitchens. Carpenter ants are a structural concern in older sections of the city where moisture-damaged decking and landscaping timbers provide nesting sites.",
+    sections: [
+      {
+        heading: "Subterranean termites in Hamilton County's new suburbs",
+        body: "Carmel's transformation from farmland to suburb happened rapidly, and Purdue University Extension's identification of Hamilton County as having above-average subterranean termite pressure for central Indiana is relevant for every homeowner in the city. Carmel's flat glacial soils and the moisture from the White River corridor create conditions that support active Eastern subterranean termite colonies. The city's rapid growth has disturbed large areas of soil adjacent to natural areas, and new construction built into that disturbed soil is exposed to termite access unless pre-treatment was applied during construction. Annual professional inspections are the practical standard for Hamilton County homeowners. Termite swarms, which appear as large numbers of winged insects near windows or lights in April through June, are the most visible alert, but colony damage occurs year-round before swarmers are produced.",
+      },
+      {
+        heading: "Mosquitoes and the retention pond suburb design",
+        body: "Carmel's newer subdivisions were built with retention ponds as a standard flood management and amenity feature. These ponds sustain mosquito breeding populations through the entire warm season, from May through October. Properties adjacent to ponds or the White River corridor experience notably higher biting pressure than drier areas of the city. Monthly barrier spray programs from May through September protect outdoor spaces during the warm season. Purdue University Extension recommends eliminating standing water in containers, gutters, and yard depressions weekly, since Aedes species mosquitoes, which bite during the day, breed in small water volumes and complete their breeding cycle in as few as seven days. Addressing small, on-property water sources reduces daytime mosquito pressure even when large water bodies nearby cannot be managed.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for any Hamilton County home: Purdue Extension identifies the county as having above-average termite pressure for central Indiana.",
+      "Eliminate standing water in containers, gutters, and yard depressions weekly from May through October to reduce mosquito breeding near the home.",
+      "Seal foundation gaps and utility penetrations in September before the fall mouse entry season, particularly in newer construction where utility penetrations may be incompletely sealed.",
+      "Inspect decking and landscaping timbers annually for moisture damage that may be supporting carpenter ant colonies.",
+    ],
+    costNote:
+      "Carmel pest control is typically a year-round program covering ants, roaches, and perimeter pests, with seasonal mosquito barrier treatment and a separate termite inspection and protection program. A free assessment confirms current termite risk level and sets the right plan for your property.",
+    faqs: [
+      {
+        question: "Do I need a termite inspection in Carmel?",
+        answer:
+          "Annual inspections are the practical recommendation for Hamilton County homeowners. Purdue University Extension identifies the county as having above-average Eastern subterranean termite pressure for central Indiana. Carmel's rapid suburban expansion across former farmland and natural areas means many homes were built in soil that may already have active termite colonies nearby. Annual inspections catch activity early, before damage becomes costly.",
+      },
+      {
+        question: "Why are mosquitoes bad in Carmel's newer neighborhoods?",
+        answer:
+          "Carmel's newer subdivisions were designed around retention ponds for flood management and aesthetic value. These ponds create productive mosquito breeding habitat that sustains pressure in adjacent neighborhoods throughout the warm season. The White River corridor adds to the regional mosquito population. Monthly barrier spray from May through September covers most residential needs, combined with weekly elimination of small standing water sources on the property.",
+      },
+      {
+        question: "When do mice become a problem in Carmel?",
+        answer:
+          "The fall surge typically starts in October as Indiana temperatures drop. Carmel's suburban fringe borders farmland and natural areas that sustain field mouse populations, and these press toward residential areas each fall. New construction in expanding neighborhoods may have fresh utility penetrations that mice find quickly. Sealing foundation gaps, pipe penetrations, and under-door gaps in September is the most cost-effective prevention step.",
+      },
+      {
+        question: "How do I know if I have carpenter ants in my Carmel home?",
+        answer:
+          "The most reliable sign is finding large black ants, between half an inch and nearly an inch long, inside the home in winter or early spring when outdoor ants should not be active. Piles of sawdust-like frass near baseboards, window frames, or in the attic are another sign. Carpenter ants do not eat wood: they excavate galleries for nesting and discard the material. Summer sightings outdoors are less certain, but winter or spring indoor sightings almost always indicate an established indoor colony requiring professional treatment.",
+      },
+      {
+        question: "Is year-round pest control worth it in Carmel?",
+        answer:
+          "For most Carmel homeowners, a year-round plan is practical. Termites are a risk through spring, summer, and fall. Mosquitoes require active management from May through October. Mice are a fall and winter concern. German cockroaches and ants are active indoors and outdoors through much of the year. A year-round program with seasonal adjustments covers the full Carmel pest calendar and is typically less expensive than reactive treatments for individual problems as they appear.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis" },
+      { name: "Fort Wayne", slug: "fort-wayne" },
+      { name: "Fishers", slug: "fishers" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Carmel, IN | Termites, Mosquitoes & Carpenter Ants",
+    metaDescription:
+      "Carmel pest control for Eastern subterranean termites, mosquitoes, house mice, German cockroaches and carpenter ants. Hamilton County White River corridor Indianapolis north suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -332,4 +332,117 @@ export const utahCities: CityLocation[] = [
     metaDescription:
       "West Valley City pest control for black widow spiders, earwigs, pavement ants, boxelder bugs and house mice. Salt Lake County Jordan River Wasatch Front specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "west-jordan",
+    name: "West Jordan",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T2",
+    population: "~116,000",
+    county: "Salt Lake County",
+    climate: "semi-arid",
+    climateDriver:
+      "West Jordan occupies the western bench of Salt Lake County between the Jordan River and the Oquirrh Mountains, with a semi-arid high-basin climate of cold winters, hot dry summers, and low annual rainfall. Utah State University Extension confirms subterranean termites are present throughout the Wasatch Front, including Salt Lake County. The Jordan River corridor running through the city creates riparian mosquito habitat unusual for a Utah city. Black widow spiders are common in garages and outdoor storage areas throughout Salt Lake County.",
+    topPests: [
+      "Black Widow Spiders",
+      "Subterranean Termites",
+      "House Mice",
+      "Boxelder Bugs",
+      "Pavement Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active April through October",
+        note: "Black widow spiders are common throughout Salt Lake County and Utah State University Extension identifies them as one of the most frequent spider concerns in residential settings along the Wasatch Front. West Jordan's semi-arid climate and the abundance of garages, outdoor storage areas, irrigation control boxes, and block walls provide ideal black widow habitat. Their bite is medically significant and requires prompt attention.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active spring through fall, swarms April through June",
+        note: "Utah State University Extension confirms subterranean termites are present throughout the Wasatch Front and are a structural risk in Salt Lake County. West Jordan's older northern neighborhoods include homes built without modern termite soil treatment, and the semi-arid climate, while less favorable than Gulf Coast conditions, still supports active Eastern subterranean termite colonies in the Jordan River corridor's more moisture-retaining soils.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "West Jordan's cold winters push house mice firmly into heated buildings. The proximity to the Oquirrh Mountain foothills and the Jordan River bottomland sustains field mouse populations that press into residential areas each fall. USU Extension recommends sealing foundation gaps and utility penetrations before October as the most cost-effective prevention step.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November, overwinter indoors",
+        note: "Boxelder bugs are a significant fall nuisance throughout the Wasatch Front and West Jordan is no exception. They aggregate on sun-warmed walls in fall seeking warmth and enter structures through gaps around windows, utility penetrations, and rooflines. Utah State University Extension notes that box elder trees are common throughout Salt Lake County neighborhoods, sustaining large local populations.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, most active May through August",
+        note: "Pavement ants are the most frequently encountered ant species in West Jordan, trailing from cracks in driveways, sidewalks, and patios into kitchens. They are especially active after spring rains disturb their colony galleries and during summer when outdoor foraging pressure increases. USU Extension identifies pavement ants as the top ant complaint in northern Utah residential settings.",
+      },
+    ],
+    localHook:
+      "West Jordan is one of the largest cities on the Wasatch Front and its position along the Jordan River corridor gives it a distinctive pest profile for a semi-arid Utah city. Utah State University Extension confirms black widows are a common residential concern in Salt Lake County, and subterranean termites are present throughout the Wasatch Front. Add the predictable fall boxelder bug aggregation and the October mouse surge, and West Jordan pest control is a year-round proposition.",
+    intro:
+      "Pest control in West Jordan reflects the semi-arid Wasatch Front environment at its typical intensity. Black widow spiders are common in the garages, sheds, and outdoor storage areas that every West Jordan property has in abundance. Subterranean termites are present throughout Salt Lake County, and the older neighborhoods in West Jordan's northern sections have homes built without modern termite treatment that carry higher structural risk. House mice push hard into heated buildings each October. Boxelder bugs aggregate on sun-warmed south-facing walls each fall and find their way indoors in large numbers. Pavement ants are the everyday spring and summer ant complaint throughout the city.",
+    sections: [
+      {
+        heading: "Black widow spiders in West Jordan: a year-round concern",
+        body: "Black widow spiders are among the most consistently reported spider concerns in Salt Lake County, and Utah State University Extension confirms they are common in residential settings throughout the Wasatch Front. In West Jordan, they occupy the dry, undisturbed spaces that every property provides: garage corners, behind boxes on shelves, under deck boards, in irrigation control boxes, and around stacked firewood or outdoor storage. They are not aggressive and bites are uncommon, but when they occur the venom causes systemic effects that may require medical attention, particularly for children and elderly individuals. The practical management steps are perimeter treatment applied to foundation walls and low sheltered areas where black widows concentrate, combined with regular dewebbing of garage corners, storage areas, and under deck boards. Wearing gloves when working in those areas eliminates most direct contact risk.",
+      },
+      {
+        heading: "Boxelder bugs and the fall aggregation problem in West Jordan",
+        body: "Every fall, boxelder bugs become one of the most common pest complaints along the Wasatch Front. West Jordan's neighborhoods have large numbers of box elder, maple, and similar seed-bearing trees, and the insect populations these trees sustain are impressive. As temperatures drop in September and October, boxelder bugs congregate on sun-warmed south and west-facing walls by the hundreds or thousands, seeking entry points into warm structures. They enter through gaps around windows, door frames, utility penetrations, and attic vents. Inside they are primarily a nuisance pest, causing no structural damage but staining light surfaces when crushed and creating an unpleasant odor. The prevention window is August through early September: sealing gaps around windows, utility penetrations, and the roofline before they begin aggregating stops most entry. Exterior perimeter treatment before aggregation starts reduces populations before they reach the building.",
+      },
+    ],
+    prevention: [
+      "Wear gloves when working in garages, sheds, and outdoor storage areas to reduce black widow contact risk.",
+      "Seal foundation gaps and utility penetrations in September before the fall mouse and boxelder bug entry season.",
+      "Schedule an annual termite inspection for older West Jordan homes, particularly those built before 1980 in the city's northern sections.",
+      "Remove outdoor harborage: stacked firewood, debris piles, and stored items against the exterior wall reduce black widow and spider populations near the structure.",
+    ],
+    costNote:
+      "West Jordan pest control is typically quoted as a year-round quarterly plan covering black widows, ants, and perimeter pests, with a fall emphasis on boxelder bug exclusion and mouse prevention. Termite inspection is quoted separately. A free assessment covers current spider activity and termite risk.",
+    faqs: [
+      {
+        question: "Are black widow spiders really common in West Jordan?",
+        answer:
+          "Yes. Utah State University Extension identifies black widows as a common residential concern throughout Salt Lake County and the Wasatch Front. West Jordan's semi-arid climate and abundance of garages, outdoor storage, and irrigation boxes provide exactly the dry, undisturbed harborage they require. Regular quarterly perimeter treatment and dewebbing storage areas keeps populations well below the level where encounters become frequent.",
+      },
+      {
+        question: "Do I need a termite inspection in West Jordan?",
+        answer:
+          "Yes, particularly for older homes. Utah State University Extension confirms subterranean termites are present throughout the Wasatch Front. West Jordan's northern neighborhoods have many pre-1980 homes built without modern soil termite treatment. Annual inspections identify any activity before it reaches the point of structural damage. The semi-arid climate means termite risk is lower than Gulf Coast cities but real and worth monitoring.",
+      },
+      {
+        question: "How do I stop boxelder bugs from getting into my home each fall?",
+        answer:
+          "The most effective approach is sealing gaps before they start aggregating, which means acting in August or early September. Focus on gaps around window frames, door frames, utility penetrations, and any gaps at the roofline or soffit area. An exterior perimeter treatment on south and west-facing walls before they start gathering keeps populations away from the building. Once they are inside the walls, removing them is more difficult; a vacuum handles any that get into living spaces.",
+      },
+      {
+        question: "When do mice typically come inside in West Jordan?",
+        answer:
+          "The fall surge usually starts in late September or early October as Wasatch Front temperatures begin dropping sharply. West Jordan's proximity to the Oquirrh foothills and the Jordan River bottomland means field mouse populations add to standard house mouse pressure each fall. Sealing foundation gaps, pipe penetrations, and the gap under garage doors before October is significantly more cost-effective than dealing with an established interior infestation.",
+      },
+      {
+        question: "What ants are most common in West Jordan?",
+        answer:
+          "Pavement ants are the most frequently encountered ant species in West Jordan. They nest under sidewalks, driveways, and patios and trail into kitchens through foundation cracks and gaps at door frames. They are most active in spring and summer but can appear year-round in warmer interior spaces. Carpenter ants are less common than on the wetter side of the Wasatch but are present in older areas with moisture-damaged wood. Treatment focuses on finding and addressing the colony rather than just spraying visible foragers.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Salt Lake City", slug: "salt-lake-city" },
+      { name: "West Valley City", slug: "west-valley-city" },
+      { name: "Provo", slug: "provo" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in West Jordan, UT | Black Widows, Termites & Boxelder Bugs",
+    metaDescription:
+      "West Jordan pest control for black widow spiders, subterranean termites, house mice, boxelder bugs and pavement ants. Salt Lake County Jordan River Wasatch Front specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

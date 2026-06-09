@@ -863,4 +863,117 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Flint pest control for German cockroaches, house mice, Norway rats, carpenter ants and bed bugs. Genesee County Flint River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "livonia",
+    name: "Livonia",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T2",
+    population: "~93,000",
+    county: "Wayne County",
+    climate: "cold-humid",
+    climateDriver:
+      "Livonia is a post-World War II suburban development in western Wayne County, built primarily between 1950 and 1975. Michigan State University Extension identifies Wayne County as having significant Eastern subterranean termite activity, and Livonia's era of construction means many homes were built without modern soil termite treatment. Michigan's hard winters drive mice firmly into heated buildings from October through April. Livonia's older housing stock, with its mature landscaping and decades of moisture exposure, creates persistent carpenter ant pressure in the western suburbs.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "House Mice",
+      "Carpenter Ants",
+      "German Cockroaches",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarms April through June",
+        note: "Michigan State University Extension identifies Wayne County as having significant Eastern subterranean termite activity. Livonia's post-WWII housing stock, most of it built between 1950 and 1975, includes many homes built without modern soil termite pre-treatment, which was not standard practice at the time. Mature neighborhoods with aging wood mulch, older landscape timber, and decades of foundation exposure carry the highest structural risk.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through April",
+        note: "Michigan's hard winters push house mice firmly into heated buildings. Livonia's dense older housing stock, with the gaps and settling typical of 50 to 70-year-old construction, provides ample entry points. MSU Extension recommends September exclusion work as the practical prevention window before the October entry surge.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, indoor activity in winter from established colonies",
+        note: "Carpenter ants are a significant structural concern in Livonia's older neighborhoods. The mature landscaping and decades of Michigan moisture have created soft or damaged wood in decking, fence posts, and framing near gutters throughout the city. MSU Extension notes that finding large black ants indoors in winter or early spring almost always indicates an established colony inside the structure, requiring professional inspection to locate and treat.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches maintain year-round populations in Livonia's commercial kitchens, restaurants, and multi-family housing. MSU Extension identifies German cockroaches as the primary cockroach pest in Michigan's urban settings. They are unaffected by Michigan's cold winters because they live entirely in heated spaces.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note: "Yellowjackets are a significant late-summer pest concern throughout Wayne County. Livonia's mature residential neighborhoods with wooded yards and mulched landscaping provide abundant ground-nesting sites. MSU Extension notes that Eastern yellowjacket colonies in Michigan reach maximum size in August and September and are at their most aggressive during this period.",
+      },
+    ],
+    localHook:
+      "Livonia is a post-World War II suburb with a housing stock built primarily in the 1950s through 1970s, before modern soil termite treatment was standard. Michigan State University Extension identifies Wayne County as having significant Eastern subterranean termite activity, and Livonia's older homes without termite treatment history carry higher structural risk than newer construction. Michigan's hard winters add the predictable fall mouse surge to the city's year-round pest calendar.",
+    intro:
+      "Pest control in Livonia reflects the specific challenges of Michigan's most built-out post-WWII suburban communities. Eastern subterranean termites are the structural headline: MSU Extension identifies Wayne County as having significant termite activity, and Livonia's era of housing construction means many homes were built without the soil pre-treatment that is now standard. House mice push hard into the city's older housing stock each October as Michigan temperatures plunge. Carpenter ants are a structural concern in the mature neighborhoods where decades of moisture have created damaged wood in decking and framing. German cockroaches maintain year-round commercial populations. Yellowjackets build large, aggressive colonies in the wooded yards through late summer.",
+    sections: [
+      {
+        heading: "Termites in Livonia's post-WWII housing: what older homeowners need to know",
+        body: "Michigan State University Extension identifies Wayne County as having significant Eastern subterranean termite activity, and Livonia sits at the center of the western Wayne County suburban belt where the termite risk is most concentrated. The critical context for Livonia homeowners is construction era. Homes built between 1950 and 1975, which represents the vast majority of Livonia's housing stock, were constructed before soil termite pre-treatment became standard practice in Michigan. This means most Livonia homes do not have a foundation-level chemical barrier protecting them from termite entry. Annual professional inspections are the standard recommendation for any Wayne County home built in this era. The first visible sign is usually a spring swarm event, with winged termites emerging near windows or light fixtures in April through June. But colonies can be active for several years before producing swarmers, so annual inspection, rather than waiting for swarm events, is the practical approach.",
+      },
+      {
+        heading: "Mice and carpenter ants: Michigan's cold-climate structural pests",
+        body: "Michigan's winters are cold enough to drive house mice aggressively into heated buildings, and Livonia's older housing stock, with its settling cracks, aged foundation sealant, and numerous utility penetrations from decades of additions and renovations, provides more entry points than newer construction. MSU Extension recommends sealing foundation gaps, utility pipe penetrations, and the gap under garage doors in September, before the October cold snap that triggers the fall mouse entry. Carpenter ants are a separate but related structural concern in Livonia. The mature landscaping throughout the city has created decades of moisture exposure in deck boards, fence posts, and framing near gutters. Carpenter ants consistently find nesting opportunities in softened or moist wood in these areas. Finding large black ants indoors in winter, when outdoor ant activity should be zero, is the clearest sign of a colony established inside the structure. Treatment requires locating the nest rather than just spraying visible ants.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for any Livonia home built before 1980: Wayne County has significant termite activity and pre-1975 homes lack modern soil pre-treatment.",
+      "Seal foundation gaps, pipe penetrations, and the gap under garage doors in September before the fall mouse entry surge.",
+      "Inspect decking, fence posts, and framing near gutters annually for moisture damage that may support carpenter ant colonies.",
+      "Treat the property perimeter in July for yellowjacket ground nests before late-summer colonies reach aggressive size.",
+    ],
+    costNote:
+      "Livonia pest control is typically a year-round plan covering mice, ants, and perimeter pests, with a separate annual termite inspection and protection program based on home age and construction. Yellowjacket nest removal is a summer add-on service. A free assessment covers termite history and current activity for older homes.",
+    faqs: [
+      {
+        question: "Do older Livonia homes really have higher termite risk?",
+        answer:
+          "Yes. Michigan State University Extension confirms Wayne County has significant Eastern subterranean termite activity, and homes built before 1975 in Livonia were typically constructed without the soil chemical pre-treatment that is now standard in new construction. Annual inspections identify any activity before it becomes costly damage. The older the home and the longer since any termite treatment was applied, the higher the risk.",
+      },
+      {
+        question: "When do mice typically come inside in Livonia?",
+        answer:
+          "The fall surge in Wayne County usually starts in October when Michigan temperatures begin dropping sharply. Livonia's older housing stock, with the settling cracks and aged penetration seals typical of 50 to 70-year-old construction, provides numerous entry points for mice testing the foundation perimeter. Sealing those points in September, before the temperature drop, is significantly more effective than managing mice that have already established indoors.",
+      },
+      {
+        question: "How do I tell if I have carpenter ants in my Livonia home?",
+        answer:
+          "Finding large black ants, between half an inch and nearly an inch long, inside the home in winter or early spring is the most reliable sign of an established indoor colony. Piles of coarse sawdust-like frass near baseboards, under window frames, or in attic areas are another indicator. Carpenter ants do not eat wood: they excavate galleries for nesting. Summer outdoor sightings are less definitive. A professional inspection locates the colony, which is necessary for effective treatment.",
+      },
+      {
+        question: "Are yellowjackets common in Livonia?",
+        answer:
+          "Yes. Wayne County's mature suburban neighborhoods with wooded yards and mulched landscaping provide abundant ground-nesting sites for Eastern yellowjackets. MSU Extension identifies late August and September as the period of maximum colony size and aggressiveness in Michigan. Ground nests in Livonia yards are often discovered accidentally during lawn mowing or garden work, triggering aggressive defensive responses. Professional treatment at night is significantly safer than DIY attempts on active colonies.",
+      },
+      {
+        question: "Is year-round pest control worth it in Livonia?",
+        answer:
+          "For most Livonia homeowners, a year-round plan makes practical sense given the pest calendar. Mice require fall exclusion and winter management. Termites need annual inspection. Carpenter ants are active spring through fall and require inspection if found indoors in winter. German cockroaches are year-round in commercial settings. Yellowjackets are a late-summer concern. A quarterly general program covering rodents, ants, and perimeter pests, with separate termite inspection, covers most Livonia properties.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Ann Arbor", slug: "ann-arbor" },
+      { name: "Dearborn", slug: "dearborn" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Livonia, MI | Termites, Mice & Carpenter Ants",
+    metaDescription:
+      "Livonia pest control for Eastern subterranean termites, house mice, carpenter ants, German cockroaches and yellowjackets. Wayne County post-WWII suburban Detroit western suburbs specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

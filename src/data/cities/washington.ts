@@ -852,4 +852,117 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Renton pest control for moisture ants, Norway rats, carpenter ants, mosquitoes and hobo spiders. King County Cedar River Lake Washington corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "kirkland",
+    name: "Kirkland",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T2",
+    population: "~90,000",
+    county: "King County",
+    climate: "temperate",
+    climateDriver:
+      "Kirkland sits on the eastern shore of Lake Washington in King County with a cool, wet Pacific Northwest climate of mild winters, warm summers, and persistent rainfall from October through May. Washington State University Extension identifies the wet climate of the Lake Washington shoreline communities as creating above-average carpenter ant pressure. Kirkland's mature tree canopy, frequent rainfall, and wooded hillside neighborhoods create the damp conditions carpenter ants require for nesting, particularly in older homes near mature Douglas firs and alders.",
+    topPests: [
+      "Carpenter Ants",
+      "Norway Rats",
+      "Yellowjackets",
+      "Odorous House Ants",
+      "Moisture Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October, indoor activity visible in winter from established colonies",
+        note: "WSU Extension identifies carpenter ants as one of the most common structural pest concerns in King County. Kirkland's wet climate and mature tree canopy create sustained moisture in decking, fence posts, and wood framing near gutters or windows, providing the softened wood carpenter ants prefer for nesting galleries. Finding large black ants indoors in winter or early spring almost always indicates a colony already established inside the structure.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active in fall and winter",
+        note: "Norway rats are a persistent concern throughout King County's urban and suburban neighborhoods, including Kirkland. The Lake Washington shoreline, Juanita Creek corridor, and the city's dense food waste from residential and commercial areas sustain year-round rat populations. WSU Extension notes Norway rats are burrowers that favor the ground level, nesting under decks, in crawlspaces, and along foundations.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October, most aggressive August and September",
+        note: "Yellowjackets are a significant pest concern in Kirkland every late summer. Ground-nesting yellowjackets build colonies in the soft, moist soil common in Kirkland's wooded yards and are frequently discovered accidentally during garden work. Western yellowjackets also build aerial colonies in wall voids and under eaves of structures. WSU Extension notes late-summer colonies in the Pacific Northwest reach maximum size in August and September.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, push indoors during rain and dry spells",
+        note: "Odorous house ants are the most frequently reported ant species in Kirkland's residential areas. WSU Extension confirms they are one of the Pacific Northwest's most pervasive household pests, nesting in yard mulch, under patio slabs, and in wall voids, and moving indoors readily during the frequent King County rain events or during dry summer periods. They produce a coconut-like smell when crushed.",
+      },
+      {
+        name: "Moisture ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round in damp wood",
+        note: "Moisture ants are a secondary structural concern in Kirkland's older housing. Unlike carpenter ants that excavate healthy or slightly softened wood, moisture ants exclusively colonize severely water-damaged wood and indicate a pre-existing moisture problem in the structure. WSU Extension notes their presence is a diagnostic signal: if moisture ants are found inside a wall void, there is almost certainly active water damage that needs repair.",
+      },
+    ],
+    localHook:
+      "Kirkland's Lake Washington shoreline and wooded hillside neighborhoods create above-average carpenter ant pressure for King County, confirmed by WSU Extension. The city's mature tree canopy and persistent Pacific Northwest rainfall produce the damp wood conditions carpenter ants need year-round. Norway rats, yellowjackets in late summer, and odorous house ants pushing inside during King County's frequent rain complete the city's practical pest calendar.",
+    intro:
+      "Pest control in Kirkland is shaped by the Pacific Northwest's wet, temperate climate and the specific pressures created by the Lake Washington shoreline. Carpenter ants are the headline structural concern: WSU Extension identifies King County's Lake Washington communities as having above-average carpenter ant pressure due to the wet climate, mature trees, and the decking and fence structures that hold moisture in residential yards. Norway rats are a year-round presence throughout King County's urban corridors. Late-summer yellowjackets build large, aggressive colonies in the moist ground and wall voids throughout Kirkland. Odorous house ants push inside during King County's rain events and dry spells alike. Moisture ants in wall voids signal water damage that needs attention beyond the pest treatment.",
+    sections: [
+      {
+        heading: "Carpenter ants in Kirkland: the Pacific Northwest's most common structural pest",
+        body: "Carpenter ants are the Pacific Northwest's most frequently reported structural pest, and Kirkland's combination of mature Douglas fir and alder trees, persistent rainfall, and older residential neighborhoods creates exactly the conditions they require. WSU Extension confirms King County's wet climate means moisture damage to wood framing, decking, and fence posts is widespread, and carpenter ants consistently find nesting sites in the softened wood near gutters that overflow, around window frames with failed caulk, and in deck boards in ground contact. Unlike termites, carpenter ants do not eat wood: they excavate galleries for nesting and discard the material as sawdust-like frass. The key diagnostic sign is finding large black ants, roughly half an inch to nearly an inch long, inside the home in winter or early spring. Foragers seen outdoors in summer may be scouting from a remote colony. Ants indoors in cold months almost always indicate an established colony inside the structure. Treatment requires finding and treating the colony rather than just spraying foragers, which means a professional inspection to locate the nest site.",
+      },
+      {
+        heading: "Norway rats and yellowjackets in Kirkland's residential setting",
+        body: "Norway rats are ground-level animals that thrive in Kirkland's combination of shoreline habitat, dense residential landscaping, and food-waste availability. They burrow under decks, in crawlspaces, and along foundations, making burrow openings visible near dense vegetation or debris. WSU Extension recommends eliminating harborage sites, securing compost and food waste, and sealing foundation gaps as the primary prevention steps. The population is year-round and rat pressure does not follow a seasonal pattern the way it does in colder climates. Yellowjackets are a late-summer problem every year in Kirkland. August and September are the months of maximum colony size and aggressiveness in the Pacific Northwest, and ground-nesting colonies are particularly hazardous because they are discovered by accident. Mowing over a colony entrance triggers a mass defensive response. Professional treatment at night, when the colony is calm, is significantly safer than attempting DIY treatment of an active ground nest.",
+      },
+    ],
+    prevention: [
+      "Inspect decking, fence posts, and wood near gutters annually for soft or discolored wood that may indicate carpenter ant nesting sites.",
+      "Eliminate Norway rat harborage by removing debris piles near the foundation, securing compost in sealed bins, and trimming dense vegetation away from the house base.",
+      "Inspect the yard perimeter in July for ground-nesting yellowjacket openings before colonies reach their peak late-summer size and aggressiveness.",
+      "Seal gaps around windows, utility penetrations, and door frames before the October-November rainy season to reduce odorous house ant and rodent entry.",
+    ],
+    costNote:
+      "Kirkland pest control is typically a year-round program with carpenter ant and rat management as core services, seasonal yellowjacket removal in summer, and perimeter ant treatment. A professional carpenter ant inspection identifies the colony location, which is necessary for effective treatment. Norway rat exclusion work is quoted after a perimeter assessment.",
+    faqs: [
+      {
+        question: "How do I know if carpenter ants have colonized my Kirkland home?",
+        answer:
+          "The most reliable sign is finding large black ants, between half an inch and nearly an inch long, inside your home in winter or early spring when outdoor ants should be inactive. This almost always indicates a colony established inside the structure rather than foragers coming in from outdoors. Piles of sawdust-like frass near baseboards, window frames, or in the attic are another sign. Outdoor sightings alone in summer are less certain. WSU Extension recommends a professional inspection to locate the nest site, because treatment needs to address the colony directly.",
+      },
+      {
+        question: "Are Norway rats common in Kirkland?",
+        answer:
+          "Yes. Norway rats are present year-round throughout King County including Kirkland, sustained by the Lake Washington shoreline habitat, residential food waste, and Kirkland's dense landscaping. They burrow under decks and in crawlspaces. The most effective prevention is reducing harborage: removing debris near the foundation, securing compost, and sealing foundation gaps. A crawlspace inspection confirms whether burrowing is already occurring under the structure.",
+      },
+      {
+        question: "Why do yellowjackets get so aggressive in August in Kirkland?",
+        answer:
+          "By August, Pacific Northwest yellowjacket colonies have grown to their maximum size, sometimes with thousands of workers, and queens have stopped producing new workers. The existing workers focus intensely on foraging and nest defense before the colony dies in fall. WSU Extension identifies August and September as the period of maximum yellowjacket aggressiveness in the region. Ground-nesting colonies in Kirkland's moist soil are particularly dangerous because homeowners often discover them by accident during yard work.",
+      },
+      {
+        question: "What causes odorous house ants to come inside in Kirkland?",
+        answer:
+          "In King County's climate, odorous house ants move indoors both during heavy rain, which floods their outdoor nesting sites, and during dry summer periods when outdoor food sources become scarce. WSU Extension identifies them as one of the Pacific Northwest's most persistent household ant pests. Colonies nest in mulch, under patio slabs, and in wall voids. Slow-acting bait placed at active trail sites reaches the colony more effectively than spray, which kills foragers but does not affect the nest.",
+      },
+      {
+        question: "What are moisture ants and should I be worried about them?",
+        answer:
+          "Moisture ants are yellow or brownish ants that colonize exclusively in severely water-damaged wood. Finding them inside a wall void or in structural wood is a diagnostic signal: there is active water damage in that area. WSU Extension notes moisture ants do not colonize sound wood, so their presence means a moisture problem needs to be found and repaired. Addressing only the ants without fixing the underlying water damage produces temporary results, as the damaged wood continues to support moisture ant activity.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Bellevue", slug: "bellevue" },
+      { name: "Renton", slug: "renton" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Kirkland, WA | Carpenter Ants, Norway Rats & Yellowjackets",
+    metaDescription:
+      "Kirkland pest control for carpenter ants, Norway rats, yellowjackets, odorous house ants and moisture ants. King County Lake Washington eastern shoreline Pacific Northwest specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

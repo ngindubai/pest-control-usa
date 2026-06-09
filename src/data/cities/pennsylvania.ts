@@ -329,4 +329,230 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaDescription:
       "Allentown pest control for brown marmorated stink bugs, house mice, pavement ants, yellowjackets and carpet beetles. Lehigh Valley PA stink bug ground-zero specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "erie",
+    name: "Erie",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T2",
+    population: "~95,000",
+    county: "Erie County",
+    climate: "cold-humid",
+    climateDriver:
+      "Erie sits on the southern shore of Lake Erie in northwestern Pennsylvania, receiving more lake-effect snowfall than virtually any other Pennsylvania city. The Great Lakes climate delivers long, cold winters, heavy snow from November through March, and warm humid summers. Penn State Extension notes that Erie County's prolonged cold season drives house mice into heated buildings earlier and more aggressively than most Pennsylvania cities. The Lake Erie shoreline and the city's creek corridors sustain springtime tick and mosquito activity. Brown marmorated stink bugs are a significant fall nuisance throughout Pennsylvania, including Erie.",
+    topPests: [
+      "House Mice",
+      "German Cockroaches",
+      "Stink Bugs",
+      "Pavement Ants",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors September through April, earlier than most PA cities",
+        note: "Penn State Extension notes that Erie County's extreme Great Lakes winters, with lake-effect snowfall that can bring heavy accumulation from November through March, drive house mice into heated buildings earlier and more aggressively than Pittsburgh or Philadelphia. The entry window starts in September, weeks before mice move into Philadelphia-area homes. Exclusion work before the first cold snap is the most cost-effective approach.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches maintain year-round indoor populations in Erie's older multi-family housing, restaurants, and commercial food operations. They are not affected by Erie's harsh winters because they live entirely in heated structures. Penn State Extension identifies German cockroaches as the primary cockroach concern in Pennsylvania's urban settings.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Entry September through November, overwinter indoors",
+        note: "Pennsylvania is one of the states hardest hit by brown marmorated stink bugs, and Penn State Extension has been a leading research center on stink bug management. Erie sees fall aggregation pressure as stink bugs seek overwintering sites in the city's older housing stock. Sun-warmed south and west-facing walls in September and October are the main aggregation sites.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through October",
+        note: "Pavement ants emerge as one of the first pest complaints in Erie each spring, trailing from foundation cracks and driveway joints into kitchens. Penn State Extension identifies pavement ants as one of the most commonly treated ant species in Pennsylvania. Erie's heavy snowmelt in spring creates soil disturbance that triggers heavy pavement ant activity from May onward.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, indoor activity in winter from established colonies",
+        note: "Carpenter ants are a structural concern in Erie's older residential neighborhoods, where decades of lake-effect moisture have created wood rot in decking, fence posts, and framing near gutters. Penn State Extension notes that finding large black ants indoors in winter or spring indicates an established colony inside the structure, requiring professional inspection to locate and treat the nest.",
+      },
+    ],
+    localHook:
+      "Erie's Great Lakes climate delivers lake-effect snowfall that can put the city under heavy snow cover from November through March, longer than almost any other Pennsylvania city. Penn State Extension notes that Erie County's extreme winters drive house mice into heated buildings earlier than Pittsburgh or Philadelphia, with the September entry window being the practical prevention deadline for Erie homeowners.",
+    intro:
+      "Pest control in Erie is heavily shaped by the Great Lakes climate. House mice are the primary fall and winter concern, and Penn State Extension notes the Erie area has an earlier and more aggressive mouse entry season than most Pennsylvania cities because of the lake-effect cold. German cockroaches maintain year-round populations in the commercial food sector regardless of the outdoor temperature. Stink bugs aggregate on Erie's older housing stock each fall as Penn State Extension's research confirms Pennsylvania remains one of the country's hardest-hit states. Pavement ants emerge each spring as the first warm-weather pest complaint. And carpenter ants are a structural risk in Erie's older neighborhoods where decades of lake-effect moisture have damaged wood framing and decking.",
+    sections: [
+      {
+        heading: "Erie's early and aggressive mouse season",
+        body: "Penn State Extension notes that Erie County's Great Lakes winters start earlier and run colder than most of Pennsylvania, and that house mice in the Erie area begin actively seeking shelter in September, weeks ahead of the typical October entry window in Philadelphia or Pittsburgh. Once inside, mice establish in wall voids, attics, and under kitchen cabinets and can remain undetected for weeks while chewing wiring, contaminating food, and building nests. The prevention window is September, ideally before the first cold snap. Sealing foundation gaps, pipe penetrations, utility line entries, and the gap under garage doors before mice begin testing them is far more cost-effective than removing an established infestation. Snap traps placed in the specific locations where mouse activity is concentrated, combined with exterior bait stations around the perimeter, cover both prevention and active control.",
+      },
+      {
+        heading: "Stink bugs, carpenter ants, and Erie's older housing challenge",
+        body: "Brown marmorated stink bugs are a fall pest challenge for Erie's older housing stock. Penn State Extension has published extensively on stink bug management and identifies Pennsylvania as one of the states with the highest stink bug pressure. In Erie, older homes with gaps around aging window frames, utility penetrations, and roofline areas provide easy entry points for stink bugs aggregating in September and October. Sealing those gaps before September is the practical prevention approach, with exterior perimeter treatment on sun-warmed walls adding protection. Carpenter ants are a separate structural concern in Erie's older neighborhoods. Decades of lake-effect moisture have created soft or damaged wood in decking, fence posts, and framing near gutters throughout many Erie neighborhoods, and carpenter ants consistently find nesting sites in that material. Penn State Extension notes that large black ants found indoors in winter or spring are almost always the sign of an established colony inside the structure rather than outdoor foragers.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and the gap under garage doors in September, weeks before the Erie fall mouse entry season begins.",
+      "Inspect decking, fence posts, and framing near gutters for moisture damage that may be harboring carpenter ant colonies.",
+      "Seal gaps around window frames, utility penetrations, and rooflines in late August before stink bugs begin aggregating on exterior walls.",
+      "Place snap traps along the interior perimeter in September as an early detection system for mice entering before exclusion work is complete.",
+    ],
+    costNote:
+      "Erie pest control is typically a year-round plan with fall emphasis on mouse exclusion and stink bug prevention, spring ant management, and summer wasp and carpenter ant treatment. German cockroach management is quoted for commercial and multi-family settings. A free assessment covers rodent entry points and current activity.",
+    faqs: [
+      {
+        question: "Why do mice come inside so early in Erie?",
+        answer:
+          "Erie County's Great Lakes climate produces cold temperatures and lake-effect snow earlier in fall than most Pennsylvania cities. Penn State Extension notes the mouse entry window in Erie starts in September, while Philadelphia and Pittsburgh homeowners typically deal with October entry. The cold arrives faster and harder, and mice respond by seeking indoor warmth earlier. Exclusion work in September, before the first cold snap, is the practical prevention approach for Erie homes.",
+      },
+      {
+        question: "How bad is the stink bug problem in Erie?",
+        answer:
+          "Pennsylvania as a whole is one of the most stink-bug-affected states in the country, and Penn State Extension has been a primary research center on stink bug management. Erie participates in the statewide fall stink bug season, with sun-warmed older structures seeing significant aggregation pressure in September and October. Sealing gaps around windows, utility penetrations, and rooflines before aggregation starts in early September stops most entry. Exterior treatment on south and west-facing walls adds protection.",
+      },
+      {
+        question: "Do German cockroaches survive Erie winters?",
+        answer:
+          "German cockroaches survive Erie winters perfectly well because they live entirely inside heated buildings and are never exposed to outdoor temperatures. The extreme lake-effect cold outside has no effect on indoor cockroach populations. If German cockroaches are present in your home or business in Erie, they established indoors and require targeted gel bait treatment in the specific harborage sites where they breed. Cold weather does not reduce the problem.",
+      },
+      {
+        question: "How do I know if I have carpenter ants or house mice in my walls in Erie?",
+        answer:
+          "Carpenter ants and house mice produce different evidence. Mice leave dark rod-shaped droppings, gnaw marks on wood and food packaging, and nesting material, and you may hear scratching at night. Carpenter ants produce sawdust-like frass that collects near baseboards or in attic areas, and finding large black ants indoors in winter is the clearest sign. Both require a professional inspection to locate the exact nest site and confirm the species before treatment, since they require different approaches.",
+      },
+      {
+        question: "Is year-round pest control worth it in Erie?",
+        answer:
+          "For most Erie homeowners, a year-round program is practical given the city's pest calendar. Mice and carpenter ants require fall prevention and winter management. Stink bugs need late-summer exclusion work. Pavement ants are active from May through October. German cockroaches in commercial settings and multi-family housing are year-round. A quarterly program covering rodents, ants, and perimeter pests, with a fall emphasis on exclusion and stink bug prevention, covers most Erie properties comprehensively.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Allentown", slug: "allentown" },
+      { name: "Buffalo", slug: "buffalo" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Erie, PA | Mice, Stink Bugs & Carpenter Ants",
+    metaDescription:
+      "Erie pest control for house mice, German cockroaches, stink bugs, pavement ants and carpenter ants. Erie County Great Lakes lake-effect snow Pennsylvania specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "reading",
+    name: "Reading",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T2",
+    population: "~95,000",
+    county: "Berks County",
+    climate: "cold-humid",
+    climateDriver:
+      "Reading sits in the Schuylkill River valley in Berks County, surrounded by the agricultural land and orchard operations of Pennsylvania Dutch Country. Penn State Extension consistently identifies Berks County as among the top Pennsylvania counties for brown marmorated stink bug activity, driven by the surrounding orchard and agricultural land that builds up large populations each summer. The cold-humid northeastern Pennsylvania climate delivers cold winters that push mice and rats into heated structures. Reading's older urban housing stock sustains year-round German cockroach and bed bug populations.",
+    topPests: [
+      "Stink Bugs",
+      "House Mice",
+      "German Cockroaches",
+      "Bed Bugs",
+      "Norway Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Entry September through November, overwinter indoors",
+        note: "Penn State Extension identifies Berks County as consistently among the top Pennsylvania counties for brown marmorated stink bug activity. Reading's position in the Schuylkill River valley, enclosed by the agricultural and orchard operations typical of Berks County's Pennsylvania Dutch Country, means fall stink bug aggregation pressure is intense. Sun-warmed older buildings in the city are particularly attractive overwintering sites.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Reading's cold Berks County winters push house mice firmly into older residential and commercial buildings each fall. The city's older housing stock, with gaps at the foundation and utility penetrations typical of pre-war construction, provides ready entry points. Penn State Extension recommends sealing foundation gaps and utility penetrations before October as the practical prevention window.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a persistent year-round concern in Reading's older multi-family housing, commercial kitchens, and food service operations. Penn State Extension identifies German cockroaches as the primary cockroach pest in Pennsylvania's urban settings. They breed entirely indoors and are unaffected by Berks County winters.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a year-round challenge in Reading's high-density residential areas. Penn State Extension's bed bug research confirms urban Pennsylvania municipalities have significant bed bug incidence in multi-family housing. Professional heat or targeted chemical treatment is required for effective management.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active in fall and winter",
+        note: "Norway rats are present in Reading's urban corridors, particularly near the Schuylkill River waterfront, older commercial districts, and food waste in the city's denser residential areas. They burrow under foundations and in crawlspaces and become more visible when cold weather reduces outdoor food availability.",
+      },
+    ],
+    localHook:
+      "Penn State Extension identifies Berks County as consistently among the top Pennsylvania counties for brown marmorated stink bug reports. Reading's position in the Schuylkill River valley, surrounded by Berks County's Pennsylvania Dutch Country orchards and agricultural land, means the city faces some of the most intense fall stink bug pressure in the state. The practical prevention window is August and early September, before they start aggregating on exterior walls.",
+    intro:
+      "Pest control in Reading deals with the full Pennsylvania seasonal pest calendar at higher-than-average intensity for stink bugs. Penn State Extension research consistently places Berks County among Pennsylvania's top stink bug counties, and Reading's older housing stock and orchard-heavy surroundings make fall aggregation pressure a notable annual challenge. House mice push into older homes each October. German cockroaches and bed bugs are year-round concerns in the city's denser residential areas. Norway rats pressure the urban corridors near the Schuylkill River and older commercial districts.",
+    sections: [
+      {
+        heading: "Stink bugs in Berks County: why Reading's fall problem is larger than average",
+        body: "Penn State Extension has been one of the primary research centers studying brown marmorated stink bugs since they were first documented in Pennsylvania in the late 1990s, and Berks County has been consistently ranked among the highest-pressure counties in the state. Reading sits at the center of Berks County's Pennsylvania Dutch Country, where apple orchards, vineyards, and mixed agricultural operations build up large stink bug populations each summer. These insects move toward structures as temperatures drop in September, aggregating on sun-warmed south and west-facing walls in large numbers before seeking entry points. Older buildings in Reading with gaps around aging window frames, utility penetrations, and roofline areas are particularly attractive overwintering sites. The practical prevention approach is sealing gaps before they start aggregating in late August and applying an exterior perimeter treatment on sun-warmed walls before September. Once stink bugs are inside wall voids, they do minimal harm over winter and typically emerge in spring when heating systems warm the interior. A vacuum handles any that emerge into living spaces.",
+      },
+      {
+        heading: "German cockroaches and bed bugs in Reading's older housing",
+        body: "Reading's older housing stock and its position as a dense urban community in central Pennsylvania mean German cockroaches and bed bugs are year-round concerns rather than seasonal ones. German cockroaches in multi-family buildings spread between units through shared utility runs and wall voids. Penn State Extension recommends gel bait applied in the specific harborage sites where cockroaches breed, combined with insect growth regulator, as the most effective treatment approach. Contact spray alone is significantly less effective in the tight, dark spaces where cockroaches live. Bed bugs in Reading's multi-family housing require professional treatment for effective management. Penn State Extension's bed bug research confirms that urban Pennsylvania municipalities see significant bed bug incidence in older apartment stock. Heat treatment, which raises the temperature of the entire infested space above the kill threshold for all life stages, is the most reliable single-treatment approach for established infestations.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around windows, utility penetrations, and rooflines in late August before stink bugs begin aggregating on Berks County buildings.",
+      "Seal foundation gaps and utility penetrations in September before house mice begin their fall push into heated buildings.",
+      "Use gel bait rather than spray for German cockroaches: gel targets the harborage sites where cockroaches breed and live.",
+      "Secure outdoor food waste and compost to reduce Norway rat attraction to the property perimeter.",
+    ],
+    costNote:
+      "Reading pest control is typically a year-round plan with fall emphasis on stink bug exclusion and mouse prevention, spring treatment for ants, and ongoing management for cockroaches and rats in urban settings. Bed bug treatment is quoted separately based on infestation extent. A free assessment establishes current activity levels.",
+    faqs: [
+      {
+        question: "Why are stink bugs so bad in Reading?",
+        answer:
+          "Penn State Extension consistently ranks Berks County among Pennsylvania's highest-pressure stink bug counties. Reading's position in the Schuylkill River valley surrounded by Berks County's orchards and mixed agricultural land means the city is literally enclosed by the habitat that builds the largest stink bug populations. Fall aggregation pressure here is higher than in Pennsylvania cities surrounded by suburban or urban land rather than agricultural operations.",
+      },
+      {
+        question: "When should I seal my home against stink bugs in Reading?",
+        answer:
+          "The practical window is late August through early September, before stink bugs begin aggregating on exterior walls. Focus on gaps around window frames, utility penetrations where pipes and wires enter the building, roofline gaps, and any cracks in siding. An exterior perimeter treatment applied to sun-warmed south and west-facing walls in late August adds protection. Once they are aggregating in large numbers on the exterior, sealing alone is less effective at preventing entry.",
+      },
+      {
+        question: "Are bed bugs common in Reading?",
+        answer:
+          "Penn State Extension confirms urban Pennsylvania municipalities, including Reading, have significant bed bug incidence in multi-family housing. Bed bugs are not related to cleanliness: they travel in luggage, used furniture, and clothing and can establish quickly in any residential space. Professional inspection confirms their presence, and heat treatment or targeted pesticide treatment is needed for effective management. DIY treatments are rarely sufficient for established infestations.",
+      },
+      {
+        question: "What is the best approach for German cockroach control in a Reading apartment?",
+        answer:
+          "Gel bait applied in the specific harborage sites where cockroaches live and breed is more effective than spray. Cockroaches concentrate in warm, moist, dark spaces: behind the refrigerator, under the stove, inside cabinet hinges and door gaps, and along the lower edge of wall voids near plumbing. Placing bait in those specific locations, combined with insect growth regulator to disrupt the breeding cycle, produces lasting results. In multi-unit buildings, coordinating treatment across adjacent units prevents re-infestation from untreated spaces.",
+      },
+      {
+        question: "How do I keep mice out of my Reading home each fall?",
+        answer:
+          "Seal foundation gaps, pipe penetrations, the gap under garage doors, and any gaps at utility line entry points before October. Reading's older housing stock typically has multiple potential entry points that are worth identifying with a professional inspection. House mice can enter through gaps as small as a dime. Snap traps placed inside along the foundation perimeter provide early detection for any mice that get through before exclusion work is complete.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Allentown", slug: "allentown" },
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Philadelphia", slug: "philadelphia" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Reading, PA | Stink Bugs, Mice & German Cockroaches",
+    metaDescription:
+      "Reading pest control for brown marmorated stink bugs, house mice, German cockroaches, bed bugs and Norway rats. Berks County Schuylkill River Pennsylvania Dutch Country specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -428,4 +428,117 @@ export const newJerseyCities: CityLocation[] = [
     metaDescription:
       "Elizabeth pest control for German cockroaches, bed bugs, Norway rats, house mice and stink bugs. Union County Port Newark corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "trenton",
+    name: "Trenton",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T2",
+    population: "~90,000",
+    county: "Mercer County",
+    climate: "cold-humid",
+    climateDriver:
+      "Trenton sits on the Delaware River in Mercer County, the state capital of New Jersey, with a cold-humid northeastern climate of cold winters, warm humid summers, and a full four seasons. New Jersey has one of the highest Lyme disease rates in the United States, and the Delaware and Raritan Canal State Park corridor through Mercer County sustains deer tick habitat close to the city. The urban environment sustains significant German cockroach and rat pressure year-round. Brown marmorated stink bugs are a major fall nuisance throughout New Jersey, with Trenton's position surrounded by agricultural and orchard land in Mercer County adding to fall aggregation pressure.",
+    topPests: [
+      "German Cockroaches",
+      "Norway Rats",
+      "Stink Bugs",
+      "House Mice",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the primary cockroach concern in Trenton's older multi-family housing stock, restaurants, and commercial kitchens. Trenton's urban density, older building inventory, and shared utility runs between units allow cockroach populations to sustain themselves across buildings. Gel bait treatment targeting the specific harborage sites where cockroaches breed is far more effective than spray.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are a persistent concern in Trenton's urban corridors. The Delaware River waterfront, the city's older sewer infrastructure, and the density of commercial food operations sustain year-round rat populations. NJDEP identifies urban rat pressure in New Jersey's river cities as among the state's highest.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Entry September through November, overwinter indoors",
+        note: "New Jersey is one of the hardest-hit states in the country for brown marmorated stink bugs. Rutgers Cooperative Extension confirms stink bugs aggregate on sun-warmed structures in fall across Mercer County, seeking overwintering sites. Trenton's surrounding agricultural and orchard land in Mercer County sustains large stink bug populations that funnel into the city each fall.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Trenton's cold winters push house mice firmly into older residential and commercial buildings each fall. The city's older housing stock, with its multiple gaps at the foundation and utility penetrations typical of pre-war construction, provides ready entry points. Exclusion work combined with snap trap programs is the practical standard for urban mouse management.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a year-round concern in Trenton's high-density residential areas. Rutgers Cooperative Extension identifies urban New Jersey municipalities as having some of the state's highest bed bug incidence rates, driven by multi-family housing density and frequent movement of residents. Professional heat treatment or targeted pesticide treatment is required for effective management.",
+      },
+    ],
+    localHook:
+      "New Jersey has one of the highest Lyme disease rates in the United States. NJDEP data shows Mercer County, including areas adjacent to the Delaware and Raritan Canal State Park corridor, has documented deer tick activity. For Trenton residents near the canal or any wooded green space in the area, tick awareness is a genuine seasonal health concern alongside the urban pest pressures the city faces year-round.",
+    intro:
+      "Pest control in Trenton addresses both the challenges of a dense urban environment and the specific pest pressures of the Mercer County region. German cockroaches and Norway rats are year-round concerns in the city's older building stock. Stink bugs are a significant fall nuisance, with Rutgers Cooperative Extension confirming New Jersey is among the hardest-hit states and Mercer County's agricultural surroundings adding to the aggregation pressure. House mice push indoors every fall as temperatures drop. Bed bugs are a persistent challenge in the city's high-density residential areas. And for residents near the Delaware and Raritan Canal State Park, deer ticks with Lyme disease risk are a real seasonal consideration.",
+    sections: [
+      {
+        heading: "German cockroaches and rats in Trenton's older building stock",
+        body: "Trenton's older housing and commercial inventory, much of it built in the early and mid-20th century, provides the kind of environment that makes German cockroach and Norway rat management challenging. German cockroaches in multi-family buildings spread between units through shared utility runs and wall voids, making building-level management far more effective than single-unit treatment. Rutgers Cooperative Extension recommends gel bait applied directly in the harborage sites where cockroaches breed, combined with insect growth regulator to break the breeding cycle, rather than contact spray which provides poor residual effect in the tight spaces where cockroaches live. Norway rats in Trenton's urban corridors are sustained by the Delaware River waterfront, the city's older sewer infrastructure, and the food waste from commercial operations. Burrow exclusion at the foundation, securing food waste, and exterior bait stations around the perimeter are the practical components of an effective rat program for Trenton properties.",
+      },
+      {
+        heading: "Stink bugs in the fall and deer ticks in Mercer County",
+        body: "Brown marmorated stink bugs are one of New Jersey's most significant fall pest issues, and Rutgers Cooperative Extension has published extensively on their management across the state. Trenton's position in Mercer County, surrounded by the agricultural and orchard operations typical of central New Jersey, means the city experiences fall stink bug aggregation from large rural populations that move toward structures in September and October. The prevention window is August through early September: sealing gaps around windows, utility penetrations, and rooflines before they begin aggregating stops most entry. Exterior perimeter treatment on sun-warmed south and west-facing walls before aggregation starts reduces the number that reach the building. Separately, the Delaware and Raritan Canal State Park runs through Mercer County and provides wooded, brushy habitat for deer ticks close to the city. NJDEP confirms New Jersey is one of the highest Lyme disease states in the country. For Trenton residents who use the canal park system or have properties adjacent to wooded areas, tick checks after outdoor activity and appropriate tick-preventive clothing in spring and summer are practical precautions.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around windows, utility penetrations, and rooflines in late August before stink bugs begin aggregating on exterior walls.",
+      "Use gel bait rather than spray for German cockroaches: bait targets the harborage sites where cockroaches breed rather than just killing visible individuals.",
+      "Secure outdoor food waste and compost in sealed containers, and maintain exterior rat bait stations to manage Norway rat pressure year-round.",
+      "Seal foundation gaps and under-door gaps in September before house mice begin searching for winter shelter.",
+    ],
+    costNote:
+      "Trenton pest control is typically a year-round plan covering cockroaches, rats, and mice, with seasonal stink bug exclusion work in late summer and bed bug treatment quoted separately based on infestation level. A free assessment establishes the current cockroach and rat activity level and the right treatment plan.",
+    faqs: [
+      {
+        question: "Are German cockroaches hard to eliminate in Trenton apartments?",
+        answer:
+          "In multi-unit buildings, yes. German cockroaches spread between units through shared wall voids and utility runs, and treating a single unit produces temporary results if neighboring units are untreated. Rutgers Cooperative Extension recommends building-level management with gel bait applied in the specific harborage sites where cockroaches breed, combined with insect growth regulator to stop the breeding cycle. Coordinating treatment across multiple units is significantly more effective than unit-by-unit approaches.",
+      },
+      {
+        question: "Why are stink bugs so bad in Trenton each fall?",
+        answer:
+          "New Jersey is one of the hardest-hit states for brown marmorated stink bugs, and Mercer County's surrounding agricultural and orchard land sustains large populations that move toward structures in fall. Stink bugs aggregate on sun-warmed walls in September and October, seeking overwintering sites in wall voids. Sealing gaps around windows, doors, and utility penetrations before they start aggregating, and applying a perimeter treatment to exterior walls in late August, stops most entry. Once they are inside wall voids, removing them is harder and waiting until spring when they emerge is often the most practical approach.",
+      },
+      {
+        question: "Is Lyme disease really a concern in Trenton?",
+        answer:
+          "For residents near the Delaware and Raritan Canal State Park or any wooded green space in Mercer County, yes. New Jersey is consistently one of the highest Lyme disease states in the country, and NJDEP confirms Mercer County has documented deer tick activity in wooded and brushy areas. Tick checks after time outdoors in spring and summer, wearing long pants in brushy terrain, and using tick repellent are the practical precautions for any Trenton resident near wooded areas.",
+      },
+      {
+        question: "How do I deal with rats around my Trenton property?",
+        answer:
+          "Norway rats in Trenton's urban environment are sustained by available food and harborage. The practical approach combines three elements: eliminating outdoor food sources by securing compost and food waste in sealed containers, reducing harborage by removing debris and dense ground cover near the foundation, and installing exterior tamper-resistant bait stations around the perimeter. Professional exclusion work to seal foundation gaps and utility penetrations prevents rats from burrowing under the structure. A single bait station treatment rarely resolves ongoing urban rat pressure, which typically requires a sustained program.",
+      },
+      {
+        question: "What are the signs of bed bugs in a Trenton home?",
+        answer:
+          "The most common signs are small rust-colored stains on mattress seams or bedding from crushed bugs or excrement, small white eggs or shed skins in mattress seams and box spring folds, and itchy welts arranged in lines or clusters on the skin that appear overnight. Bed bugs are nocturnal and hide in seams, crevices, and nearby furniture during the day. A professional inspection with a trained inspector or detection dog confirms the presence and extent of an infestation before treatment. Heat treatment or targeted pesticide treatment is needed for effective management.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Paterson", slug: "paterson" },
+      { name: "Elizabeth", slug: "elizabeth" },
+      { name: "Jersey City", slug: "jersey-city" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Trenton, NJ | Cockroaches, Rats & Stink Bugs",
+    metaDescription:
+      "Trenton pest control for German cockroaches, Norway rats, stink bugs, house mice and bed bugs. Mercer County Delaware River capital city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

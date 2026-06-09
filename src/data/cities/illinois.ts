@@ -874,4 +874,117 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Springfield pest control for house mice, German cockroaches, carpenter ants, boxelder bugs and earwigs. Sangamon County Illinois state capital specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "waukegan",
+    name: "Waukegan",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T2",
+    population: "~88,000",
+    county: "Lake County",
+    climate: "cold-humid",
+    climateDriver:
+      "Waukegan sits on Lake Michigan's western shore in Lake County, northern Illinois, with a cold-humid Great Lakes climate of cold winters, lake-effect snow in early winter, and warm humid summers. Illinois Department of Public Health identifies Lake County as the state's highest-risk county for Lyme disease due to deer tick populations in the Des Plaines River corridor and Lake Michigan shoreline areas. Hard winters push house mice aggressively into heated buildings. Brown marmorated stink bugs are a fall nuisance throughout northern Illinois, and German cockroaches are year-round in the city's commercial sector.",
+    topPests: [
+      "Deer Ticks",
+      "House Mice",
+      "German Cockroaches",
+      "Odorous House Ants",
+      "Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active when temperatures above freezing, peak May through October and again in fall",
+        note: "Illinois Department of Public Health identifies Lake County as Illinois's highest-risk county for Lyme disease. IDPH confirms deer tick (black-legged tick) populations are concentrated in the Des Plaines River corridor and the Lake Michigan shoreline areas in northern Illinois. For Waukegan residents who use the lakefront areas, parks, or Des Plaines River corridor, tick management is a genuine seasonal health concern.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through April",
+        note: "Waukegan's cold Lake County winters push house mice firmly into heated buildings from October onward. The Lake Michigan shoreline creates moisture and vegetation that sustains larger field mouse populations in the lake corridor than in drier inland Lake County communities. University of Illinois Extension recommends September as the critical exclusion window before the fall entry surge.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a year-round challenge in Waukegan's commercial food sector, older multi-family housing, and restaurants. University of Illinois Extension identifies German cockroaches as the primary cockroach pest in Illinois urban settings. They are not affected by Lake County's cold winters because they live entirely in heated spaces.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, push indoors during rain",
+        note: "Odorous house ants emerge each spring in Waukegan as one of the first pest calls of the season. They nest in yard mulch, under patio slabs, and in wall voids, and push readily indoors during the frequent Lake County rain events. University of Illinois Extension identifies odorous house ants as one of northern Illinois's most common nuisance pests.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Entry September through November, overwinter indoors",
+        note: "Brown marmorated stink bugs are a fall nuisance throughout northern Illinois, and Lake County communities including Waukegan experience aggregation pressure each September and October as stink bugs seek overwintering sites in structures. University of Illinois Extension has published on stink bug management as populations have expanded northward through the state.",
+      },
+    ],
+    localHook:
+      "Illinois Department of Public Health identifies Lake County as the state's highest-risk county for Lyme disease, with deer tick populations concentrated in the Des Plaines River corridor and Lake Michigan shoreline areas. For Waukegan residents who use the lakefront parks and trails or live near the Des Plaines River corridor, tick awareness is a genuine seasonal health consideration that most of Illinois does not face.",
+    intro:
+      "Pest control in Waukegan addresses both the urban pressures of a Lake County city and the specific tick risk created by its position on Lake Michigan and the Des Plaines River corridor. Illinois Department of Public Health identifies Lake County as Illinois's highest-risk county for Lyme disease, and Waukegan's lakefront and river-adjacent neighborhoods have meaningful tick exposure from spring through fall. House mice push hard into the city's buildings each October as Lake County temperatures drop sharply. German cockroaches are year-round in commercial settings. Odorous house ants are the spring and summer ant complaint throughout the city. Stink bugs aggregate on Waukegan's structures each fall as they do across northern Illinois.",
+    sections: [
+      {
+        heading: "Deer ticks and Lyme disease risk in Lake County",
+        body: "Illinois Department of Public Health consistently identifies Lake County as the state's highest-risk county for Lyme disease. The deer tick (black-legged tick) populations are concentrated in two main habitat types in the Waukegan area: the Des Plaines River corridor running through western Lake County, and the Lake Michigan shoreline parks and natural areas. These ticks carry Borrelia burgdorferi, the bacterium that causes Lyme disease. Ticks are active whenever temperatures are above freezing, with peak activity from April through October and a second activity period in fall when nymphal and adult ticks seek hosts before winter. For Waukegan residents who use the lakefront parks, the North Shore drainage system, or properties adjacent to natural areas, tick checks after outdoor time in spring and summer are a practical health precaution. Wearing light-colored clothing in brushy or grassy terrain makes ticks easier to spot. Tick tube programs that target white-footed mice, the primary Lyme disease reservoir host, provide longer-term tick population reduction in residential settings near high-risk habitat.",
+      },
+      {
+        heading: "House mice and stink bugs in northern Illinois",
+        body: "Waukegan's position on Lake Michigan means the onset of cold weather in October arrives faster and more sharply than in cities further from the lake, and house mice respond by pushing into heated structures early in the fall. University of Illinois Extension recommends September exclusion work: sealing foundation gaps, utility penetrations, and the gap under garage doors before the temperature drops. Exterior bait stations around the perimeter provide a second line of defense for mice that enter the perimeter zone. Stink bugs are an annual fall nuisance throughout northern Illinois, and Lake County sees aggregation pressure each September and October as brown marmorated stink bugs seek overwintering sites in wall voids and attic spaces. Sealing gaps around windows, utility penetrations, and rooflines before late August prevents most entry. An exterior perimeter treatment on south and west-facing walls before stink bugs begin aggregating reduces the number that reach the building.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after outdoor time in Lake Michigan shoreline parks or the Des Plaines River corridor from April through October.",
+      "Seal foundation gaps, utility penetrations, and the gap under garage doors in September before the fall mouse entry season.",
+      "Seal gaps around windows, utility penetrations, and rooflines in late August before stink bugs begin aggregating on exterior walls.",
+      "Use slow-acting bait rather than spray for odorous house ants: bait reaches the colony rather than just killing foragers.",
+    ],
+    costNote:
+      "Waukegan pest control is typically a year-round plan covering mice, ants, cockroaches, and stink bug exclusion, with a fall emphasis on mouse and stink bug prevention. Tick treatment programs for yards adjacent to tick habitat are available. A free assessment covers current activity and identifies high-risk areas on the property.",
+    faqs: [
+      {
+        question: "Is Lyme disease really a risk in Waukegan?",
+        answer:
+          "Yes. Illinois Department of Public Health identifies Lake County as the state's highest-risk county for Lyme disease. Deer tick populations are concentrated in the Des Plaines River corridor and Lake Michigan shoreline areas. Waukegan residents who use the lakefront parks or live near wooded or brushy natural areas have a real seasonal tick exposure. Tick checks after outdoor time in spring and summer, wearing long pants in brushy areas, and using tick repellent are practical precautions.",
+      },
+      {
+        question: "When do mice come inside in Waukegan?",
+        answer:
+          "The fall surge starts in October for most northern Illinois communities, but Waukegan's position on Lake Michigan means temperatures drop more sharply in early fall than in cities further inland, and mice may begin pushing into structures in late September. Sealing foundation gaps, pipe penetrations, and the gap under garage doors in September is the practical prevention window. Exterior bait stations provide a second defense line.",
+      },
+      {
+        question: "Why are stink bugs a problem in Waukegan in fall?",
+        answer:
+          "Brown marmorated stink bugs have expanded northward through Illinois and Lake County communities now see annual fall aggregation pressure. They aggregate on sun-warmed south and west-facing walls in September and October, seeking entry points into wall voids and attic spaces to overwinter. Sealing gaps around windows, utility penetrations, and rooflines before late August prevents most entry. Once inside wall voids, they are largely harmless over winter and typically emerge in spring.",
+      },
+      {
+        question: "What do I do if I see a deer tick on me after being in Waukegan's parks?",
+        answer:
+          "Remove the tick promptly using fine-tipped tweezers, grasping it as close to the skin surface as possible and pulling upward with steady pressure. Do not twist or jerk the tick, which can cause the mouthparts to break off in the skin. Clean the bite area with rubbing alcohol. Save the tick in a sealed bag if possible for identification. The risk of Lyme disease transmission is very low if the tick has been attached for fewer than 36 hours, but watch for a bull's-eye rash or flu-like symptoms over the following weeks and contact your doctor if they appear.",
+      },
+      {
+        question: "How do I control odorous house ants in my Waukegan home?",
+        answer:
+          "Odorous house ants are one of northern Illinois's most persistent nuisance pests. They nest in mulch, under patio slabs, and in wall voids, and push readily indoors during rain events when their outdoor nests are flooded. Contact spray at trail sites kills foragers but does not affect the colony, so trails re-form quickly. Slow-acting bait placed at active trail sites is carried back to the colony and produces lasting results. Eliminating moisture sources that attract them indoors and sealing gaps at door frames reduces entry.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Chicago", slug: "chicago" },
+      { name: "Elgin", slug: "elgin" },
+      { name: "Naperville", slug: "naperville" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Waukegan, IL | Deer Ticks, Mice & German Cockroaches",
+    metaDescription:
+      "Waukegan pest control for deer ticks, house mice, German cockroaches, odorous house ants and stink bugs. Lake County Lake Michigan shoreline Des Plaines River Lyme disease risk specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

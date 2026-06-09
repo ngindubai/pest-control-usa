@@ -2360,4 +2360,230 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Boca Raton pest control for drywood termites, Formosan subterranean termites, roof rats, ghost ants and mosquitoes. Palm Beach County Intracoastal Waterway coastal specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "fort-myers",
+    name: "Fort Myers",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~93,000",
+    county: "Lee County",
+    climate: "hot-humid",
+    climateDriver:
+      "Fort Myers sits on the Caloosahatchee River in Lee County, Southwest Florida, with a subtropical climate of hot, humid summers, warm winters, and a distinct wet season from June through September. The year-round warmth and moisture sustain subterranean termite colony activity in all seasons, and the Caloosahatchee River estuary and Lee County's extensive canal systems provide mosquito breeding habitat year-round. University of Florida IFAS Extension confirms Lee County is within the active range of both Eastern and Formosan subterranean termites.",
+    topPests: [
+      "Subterranean Termites",
+      "American and Florida Woods Cockroaches",
+      "Ghost Ants",
+      "Roof Rats",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarm events spring and early summer",
+        note: "University of Florida IFAS Extension confirms Lee County has active Eastern and Formosan subterranean termite populations. Fort Myers's subtropical climate supports year-round colony activity, and the city's older housing stock, much of it built before modern termite soil treatment became standard, carries significant risk. Spring swarm events with winged termites around lights are the most visible homeowner alert.",
+      },
+      {
+        name: "American and Florida woods cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in warm wet months",
+        note: "American cockroaches are large, common, and found everywhere in Fort Myers's humid subtropical environment: storm drains, mulched landscaping, utility systems, and outdoor common areas. Florida woods cockroaches are also widespread in Lee County's natural vegetation adjacent to residential areas. Both species move indoors during rain events and temperature extremes. German cockroaches are the indoor kitchen and apartment species.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the most common ant pest in Fort Myers and throughout Southwest Florida. University of Florida IFAS Extension describes them as a subtropical species that thrives in South Florida's year-round warmth, forming multiple-queen colonies that are unusually difficult to eliminate with contact sprays. They are tiny and pale, forage in kitchens and bathrooms, and nest in potted plant soil, wall voids, and outdoor mulch.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak pressure fall through spring",
+        note: "Roof rats are the dominant rat species throughout Southwest Florida, traveling through tree canopy and utility lines to access attic areas. Fort Myers's dense ornamental vegetation, fruit trees, and palm trees provide both food and travel routes. University of Florida IFAS Extension notes roof rats rarely travel on the ground in established suburban areas, making tree trimming and roofline sealing the primary exclusion tools.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, most intense June through October wet season",
+        note: "The Caloosahatchee River estuary, Lee County's canal systems, and Fort Myers's subtropical climate sustain mosquito breeding year-round. The wet season from June through September intensifies pressure dramatically. Lee County Mosquito Control District operates one of Florida's most active county mosquito programs, but residential barrier treatments provide property-level protection beyond what county-level management covers.",
+      },
+    ],
+    localHook:
+      "Fort Myers is one of Florida's fastest-growing cities, and that growth is happening in Lee County's subtropical environment where subterranean termites, roof rats, ghost ants, and year-round mosquitoes are everyday realities. University of Florida IFAS Extension confirms Lee County has active Formosan and Eastern subterranean termite populations. For any homeowner in Fort Myers, understanding the subtropical pest calendar is the starting point for practical management.",
+    intro:
+      "Pest control in Fort Myers is a year-round operation shaped by Lee County's subtropical climate. Subterranean termites are the structural risk: University of Florida IFAS Extension confirms both Eastern and Formosan termites are active in Lee County, and the warm year-round temperatures mean colony activity never slows down the way it does further north. Ghost ants are the most common indoor ant, a South Florida species that handles standard ant treatments poorly because of their colony structure. Roof rats use Fort Myers's dense ornamental landscaping and palm trees as their highway to attics. American and Florida woods cockroaches are everywhere outdoors, pushing indoors during rain. And mosquitoes are a year-round presence along the Caloosahatchee estuary and canal system.",
+    sections: [
+      {
+        heading: "Subterranean termites in Fort Myers: a year-round structural risk",
+        body: "Fort Myers's subtropical climate means subterranean termite colonies are active every month of the year. University of Florida IFAS Extension identifies Lee County as having Eastern subterranean termite pressure across the area, with Formosan subterranean termites also documented in the region. Unlike termites in northern states, which slow their activity in winter, termite colonies in Fort Myers never experience a true dormant period. Spring swarm events, when winged reproductive termites emerge in large numbers around windows and light fixtures, are the most visible homeowner alert, but colony damage happens year-round whether swarmers are visible or not. Annual professional inspections are the minimum practical standard for Fort Myers homes. Homes with wood-to-soil contact in landscaping, wood mulch against the foundation, or older construction without a termite treatment history should be prioritized.",
+      },
+      {
+        heading: "Ghost ants and roof rats: managing Fort Myers's persistent indoor pests",
+        body: "Ghost ants are a South Florida specialty, tiny pale ants with dark heads that form multiple-queen colonies in potted plant soil, wall voids, and outdoor mulched areas. University of Florida IFAS Extension notes that ghost ant colonies are highly mobile and can relocate queens rapidly when disturbed, making them resistant to contact sprays that work for other ant species. Slow-acting gel bait applied in the specific trails and entry points where ghost ants forage is the most effective approach because foragers carry the bait back and share it with queens before the colony detects and avoids the treatment. Roof rats in Fort Myers are climbers: they navigate palm trees, fruit trees, and utility lines to access attic areas. Trimming tree branches to 18-inch clearance from the roofline and sealing attic vents and soffit gaps is the practical two-step exclusion approach that University of Florida IFAS Extension consistently recommends for Southwest Florida roof rat management.",
+      },
+    ],
+    prevention: [
+      "Schedule annual subterranean termite inspections: Lee County's year-round subtropical warmth means termite colonies never slow down and annual checks are the practical minimum.",
+      "Use gel bait rather than spray for ghost ants: contact sprays cause ghost ant colonies to scatter and re-form elsewhere in the structure.",
+      "Trim tree branches to 18 inches from the roofline and seal attic vents to exclude roof rats.",
+      "Eliminate standing water in containers, gutters, and low yard spots weekly during the wet season to reduce tiger mosquito breeding near the home.",
+    ],
+    costNote:
+      "Fort Myers pest control is typically a year-round general plan covering ghost ants, cockroaches, and rodents, with termite inspection and a protection program quoted separately. Mosquito barrier treatments are available for the wet season. A free assessment establishes the termite history of the property and current pest activity.",
+    faqs: [
+      {
+        question: "What types of termites are in Fort Myers?",
+        answer:
+          "University of Florida IFAS Extension confirms Lee County has Eastern and Formosan subterranean termite activity. Both species build colonies in soil below or adjacent to structures and attack wood from the ground up. Formosan termites are more aggressive and build larger colonies. Fort Myers's year-round subtropical warmth means both species remain active in all seasons, unlike termites in states with cold winters. Annual inspections are the standard approach for Lee County homeowners.",
+      },
+      {
+        question: "Why are ghost ants so hard to get rid of in Fort Myers?",
+        answer:
+          "Ghost ants form multiple-queen colonies that can relocate rapidly when disturbed. Contact sprays kill foragers on the spot but signal the colony to move queens to a new location within the structure. University of Florida IFAS Extension recommends slow-acting gel bait applied in the specific trails and around entry points where ghost ants are active. Foragers pick up the bait and share it with queens before the colony detects a threat. This approach reduces the colony rather than just eliminating surface foragers.",
+      },
+      {
+        question: "Are roof rats really that common in Fort Myers?",
+        answer:
+          "Yes. Roof rats are the dominant rat species throughout Southwest Florida, and Fort Myers's dense ornamental vegetation, fruit trees, and palm trees provide both food and an elevated travel network for them to reach roof areas. University of Florida IFAS Extension identifies roof rats as the primary rodent concern for Lee County homes. The key exclusion steps are trimming tree branches at least 18 inches from the roofline and sealing soffit gaps, attic vents, and utility entry points.",
+      },
+      {
+        question: "How bad is the mosquito season in Fort Myers?",
+        answer:
+          "The June through September wet season is intense, with standing water throughout Lee County's canal system and low-lying areas sustaining high breeding populations. Outside that peak, mosquito activity is still present due to Fort Myers's year-round warmth. Lee County Mosquito Control District provides area-wide management, but residential barrier programs protect the specific outdoor spaces where you spend time. Monthly treatments from May through October cover most residential needs.",
+      },
+      {
+        question: "Do termite problems in Fort Myers get worse over time without treatment?",
+        answer:
+          "Yes. Subterranean termite colonies in Fort Myers grow slowly but steadily, and because Fort Myers's climate keeps them active year-round, there is no natural pause in damage accumulation. An established colony that goes undetected for three to five years can cause substantial structural damage. The practical response is annual inspections so any activity is caught early, when treatment is far less expensive than repairs.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Cape Coral", slug: "cape-coral" },
+      { name: "Naples", slug: "naples" },
+      { name: "Port St. Lucie", slug: "port-st-lucie" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Fort Myers, FL | Termites, Ghost Ants & Roof Rats",
+    metaDescription:
+      "Fort Myers pest control for subterranean termites, ghost ants, roof rats, American cockroaches and mosquitoes. Lee County Caloosahatchee River Southwest Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "sunrise",
+    name: "Sunrise",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T2",
+    population: "~97,000",
+    county: "Broward County",
+    climate: "hot-humid",
+    climateDriver:
+      "Sunrise sits in western Broward County, where the city's western edge borders the Everglades Conservation Area, one of the largest wetland complexes in North America. This location gives western Sunrise some of the most intense year-round mosquito pressure in South Florida. University of Florida IFAS Extension identifies Broward County as having among the highest concentrations of Formosan and Eastern subterranean termites in Florida. South Florida's year-round subtropical warmth sustains termite colony activity in all seasons.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Ghost Ants",
+      "American Cockroaches",
+      "Roof Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarm events spring",
+        note: "University of Florida IFAS Extension identifies Broward County as having among the highest concentrations of Formosan and Eastern subterranean termites in Florida. Sunrise's subtropical climate means colonies are active year-round with no dormant season. Spring swarms of winged termites around windows and outdoor lights are the most common homeowner alert.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, most intense June through October",
+        note: "Sunrise's western boundary with the Everglades Conservation Area puts western neighborhoods in direct contact with one of the largest mosquito-breeding wetland systems in North America. Broward County Mosquito Control provides area-wide management, but residential properties near the Everglades edge experience mosquito pressure that significantly exceeds what county management alone controls.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the most common ant pest throughout Broward County, including Sunrise. University of Florida IFAS Extension identifies ghost ants as a subtropical South Florida species with multiple queens and highly mobile colonies that are resistant to contact sprays. They forage in kitchens, bathrooms, and around moisture sources indoors and outdoors.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, push indoors during rain",
+        note: "American cockroaches are ubiquitous in Sunrise's subtropical environment, living in storm drains, utility systems, and mulched outdoor areas. The city's humid climate and dense development keep outdoor populations high, and they move readily indoors during heavy rain events. German cockroaches are the primary kitchen species in Sunrise's apartments and commercial kitchens.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active at night",
+        note: "Roof rats are the dominant rodent species in Sunrise's residential neighborhoods, traveling through the dense ornamental vegetation and palm trees typical of Broward County neighborhoods to reach attic areas. University of Florida IFAS Extension notes roof rats rarely touch the ground in established suburban settings, making overhanging trees and unsealed attic vents the primary entry vulnerabilities.",
+      },
+    ],
+    localHook:
+      "Sunrise's western boundary is the Everglades Conservation Area, which makes the city's western neighborhoods some of the most mosquito-intense in Broward County. Beyond mosquitoes, University of Florida IFAS Extension confirms Broward County has among the highest concentrations of Formosan subterranean termites in Florida, making annual termite inspections a practical necessity for every Sunrise homeowner.",
+    intro:
+      "Pest control in Sunrise deals with the South Florida subtropical pest calendar at full intensity. Subterranean termites are the structural risk: University of Florida IFAS Extension identifies Broward County as having among Florida's highest termite concentrations, and Sunrise's year-round warmth keeps colonies active in all seasons. Mosquitoes are the outdoor quality-of-life issue, with Sunrise's proximity to the Everglades adding natural wetland pressure to the standard suburban breeding sites. Ghost ants are the most common indoor ant, a species that handles contact spray treatment poorly and requires a bait-based approach. American cockroaches and roof rats complete the year-round pest calendar that every Sunrise homeowner needs a plan for.",
+    sections: [
+      {
+        heading: "Termite pressure in Broward County: why Sunrise homeowners need annual inspections",
+        body: "Broward County is one of Florida's most active termite zones, and University of Florida IFAS Extension has documented both Formosan and Eastern subterranean termites throughout the county. Formosan termites build much larger colonies than the Eastern subterranean species and cause structural damage at a faster rate. In Sunrise's subtropical climate, termite colonies are active year-round with no cold-season slowdown. The most common homeowner alert is a spring swarm event, when reproductive termites emerge in large numbers around lights and windows. But swarms indicate an established colony, meaning damage is already occurring. Annual professional inspections allow colonies to be detected before structural damage reaches the point of requiring major repairs. Homes with wood-to-soil contact in decks, fences, or landscaping timbers, or wood mulch placed directly against the foundation, carry the highest risk and benefit most from monitoring station programs.",
+      },
+      {
+        heading: "Mosquitoes along the Everglades edge",
+        body: "Sunrise's western neighborhoods are adjacent to the Everglades Conservation Area, a vast subtropical wetland that produces mosquito populations year-round. Broward County Mosquito Control manages area-wide pressure through aerial and ground applications, but the scale of the Everglades means western Sunrise neighborhoods experience mosquito levels that county management alone does not fully address. During the June through October wet season, outdoor evening activity in western Sunrise can be significantly impacted without property-level barrier treatment. Monthly barrier spray programs from May through October protect yards and outdoor living areas. Eliminating standing water in containers, gutters, bird baths, and low yard spots weekly prevents breeding close to the structure, which matters because the tiger mosquito (Aedes albopictus) breeds in small containers rather than large water bodies.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections: Broward County is one of Florida's highest-termite-pressure counties and annual checks are the practical minimum.",
+      "Use slow-acting gel bait for ghost ants: contact sprays cause colonies to scatter and re-establish elsewhere in the home.",
+      "Trim tree branches 18 inches from the roofline and seal attic vents to exclude roof rats.",
+      "Eliminate standing water in containers and gutters weekly during the wet season to reduce tiger mosquito breeding near the home.",
+    ],
+    costNote:
+      "Sunrise pest control is typically a year-round plan covering ghost ants, cockroaches, and rodents, with termite inspection and protection quoted separately. Mosquito barrier treatments are available May through October. A free assessment confirms termite history and current activity.",
+    faqs: [
+      {
+        question: "How serious is the termite risk in Sunrise?",
+        answer:
+          "Broward County is identified by University of Florida IFAS Extension as having among the highest concentrations of Formosan and Eastern subterranean termites in Florida. Year-round subtropical warmth means colonies are active in all seasons. Annual professional inspections with a monitoring program are the standard approach for Sunrise homeowners, particularly those with older homes or landscaping in contact with the foundation.",
+      },
+      {
+        question: "Why are mosquitoes so bad in western Sunrise?",
+        answer:
+          "Sunrise's western boundary is the Everglades Conservation Area, one of the largest subtropical wetlands in North America. This wetland produces mosquito breeding year-round at a scale that significantly exceeds standard suburban mosquito pressure. Broward County Mosquito Control provides regional management, but western Sunrise residents near the Everglades edge benefit from property-level monthly barrier spray programs from May through October for meaningful protection.",
+      },
+      {
+        question: "Are ghost ants the same as regular ants?",
+        answer:
+          "Ghost ants are a distinct subtropical species common throughout South Florida. University of Florida IFAS Extension describes them as tiny, pale, fast-moving ants with multiple queens per colony. Unlike pavement ants or odorous house ants, ghost ant colonies are highly mobile and can relocate quickly when disturbed, making contact spray treatment counterproductive. Slow-acting gel bait is the most effective approach because it is shared with queens before the colony detects and avoids the treatment.",
+      },
+      {
+        question: "How do I tell if I have termites in my Sunrise home?",
+        answer:
+          "The most common first sign is a spring swarm event: winged reproductive termites emerging in large numbers near windows, lights, or sliding doors. You may also find shed wings, which look like small translucent scales, on window sills after a swarm. Mud tubes on foundation walls or in crawlspaces are another sign. If you find damaged or hollow-sounding wood without visible termites, an established colony may already be present. Annual professional inspection confirms the presence, species, and extent of any termite activity.",
+      },
+      {
+        question: "Is year-round pest control necessary in Sunrise?",
+        answer:
+          "Yes, for most Sunrise properties. The subtropical climate keeps cockroaches, ants, and rodents active year-round with no meaningful winter pause. Termite colonies are active in all seasons. Mosquitoes are present year-round, intensifying during the wet season. A year-round general plan with seasonal mosquito treatment during the wet season covers the full Sunrise pest calendar. Termite inspection and protection should be maintained separately.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Pompano Beach", slug: "pompano-beach" },
+      { name: "Coral Springs", slug: "coral-springs" },
+      { name: "Fort Lauderdale", slug: "fort-lauderdale" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Sunrise, FL | Termites, Mosquitoes & Ghost Ants",
+    metaDescription:
+      "Sunrise pest control for subterranean termites, mosquitoes, ghost ants, American cockroaches and roof rats. Broward County Everglades edge South Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
