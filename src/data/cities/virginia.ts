@@ -883,4 +883,116 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Roanoke pest control for brown marmorated stink bugs, carpenter ants, house mice, yellowjackets and wolf spiders. Blue Ridge Mountain Valley Virginia specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "portsmouth",
+    name: "Portsmouth",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T2",
+    population: "~95,000",
+    county: "Portsmouth City",
+    climate: "hot-humid",
+    climateDriver:
+      "Portsmouth sits directly across the Elizabeth River from Norfolk in the heart of the Hampton Roads region. The tidal waterways, the proximity to the Chesapeake Bay, and the humid subtropical climate keep pest pressure elevated from spring through late fall. Cold snaps are brief, which means termites, mosquitoes, and cockroaches face little winter interruption. The city's dense older housing stock, much of it built before 1960, creates the structural conditions that cockroaches and mice need to thrive year-round. Virginia Tech Extension places the entire Hampton Roads region in the moderate-to-high subterranean termite activity zone.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "German Cockroaches",
+      "House Mice",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm March through May, active year-round underground",
+        note: "Virginia Tech Extension confirms subterranean termites are active throughout the Hampton Roads region, including Portsmouth. The humid coastal climate and the moist soils near the Elizabeth River and the tidal waterways keep colonies working across most of the year. Portsmouth's older housing stock, including many homes with crawl spaces and wood near grade, carries real termite risk. Annual inspections and proactive baiting or liquid protection programs are standard practice across this region.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October, peak July and August",
+        note: "The Elizabeth River, the Craney Island area, and the numerous tidal tributaries throughout Portsmouth sustain substantial mosquito populations through the warm months. Both Culex and Aedes species are present. West Nile virus is monitored annually across Hampton Roads. Properties near the waterfront and the low-lying areas along the tidal creeks see the highest mosquito pressure.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant pest species in Portsmouth's dense multi-family housing, older apartment buildings, and commercial corridors along High Street and Victory Boulevard. They spread through shared walls, plumbing voids, and utility chases, making building-level treatment far more effective than individual unit treatment alone. The humid indoor conditions of older construction give them ideal breeding conditions.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, strong surge in fall",
+        note: "Portsmouth's older housing stock, with its aged foundations, deteriorated sill plates, and accumulated gaps at utilities, gives mice reliable entry points each fall. Pre-war construction in neighborhoods like Olde Towne and Park View has the structural wear that makes exclusion more involved than in newer builds. Once inside, mice establish colonies that persist through mild Hampton Roads winters.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a persistent concern in Portsmouth's dense rental housing and in the multi-family buildings that make up a significant share of the city's housing stock. The military-community presence creates consistent tenant turnover, which is a primary pathway for bed bug introduction. Early detection through mattress and furniture inspection and prompt professional treatment prevents the spread between units.",
+      },
+    ],
+    localHook:
+      "Portsmouth's Olde Towne neighborhood is one of the largest collections of pre-revolutionary to Victorian-era architecture on the East Coast. Those historic homes, many of them wood-framed and on brick pier foundations, sit directly in the subterranean termite activity zone that Virginia Tech Extension identifies across Hampton Roads. Termite protection in Olde Towne is not optional, it is routine maintenance for a historic property.",
+    intro:
+      "Portsmouth is a port city shaped by the Elizabeth River and by decades of military and maritime industry. That heritage left a housing stock that is older, denser, and closer to the waterline than in many neighboring Hampton Roads cities. For pest control professionals, that combination means subterranean termites in crawl spaces and pier foundations, mosquitoes breeding in the tidal waterways from May through October, German cockroaches cycling through multi-family buildings, and mice pushing hard into aging structures every fall. Bed bugs travel with the military community's frequent moves and sustain consistent pressure in the rental market. Portsmouth pest control requires a practical, building-specific approach, not a generic plan. The Elizabeth River waterfront and the Craney Island wetlands create year-round pest habitat that the city's dense neighborhoods sit right alongside.",
+    sections: [
+      {
+        heading: "Termites and aging housing in Portsmouth's historic neighborhoods",
+        body: "Portsmouth's Olde Towne district has genuine historic significance, and it has genuine termite exposure. The combination of brick pier foundations, original wood framing, crawl space construction, and the moist soils near the Elizabeth River creates exactly the conditions that eastern subterranean termites seek. Virginia Tech Extension places Hampton Roads squarely in the active termite zone for the Virginia coastal plain. The termite season here runs from the first warm days in March, when swarmers appear around windows and crawl space vents, through late fall. Baiting systems work well around historic structures where soil injection might disturb foundations. Newer areas of Portsmouth are not exempt. The same coastal humidity affects newer construction near the waterfront, and annual inspection is the standard professional recommendation for any Portsmouth property with wood-framed construction or a crawl space.",
+      },
+      {
+        heading: "Cockroaches and mice in Portsmouth's rental housing",
+        body: "German cockroaches do not care how old or new a building is. They care about warmth, moisture, and access to food, and they spread through shared infrastructure. In Portsmouth's dense multi-family corridors and older apartment buildings, treatment of a single unit without addressing adjacent units and shared plumbing voids produces limited results. Cockroaches recolonize from neighboring units within weeks. Building-wide inspection and coordinated treatment are the effective approach. Mice are a companion problem in the same buildings and in the city's single-family stock. Portsmouth's pre-war construction on its older streets has the foundation gaps, pipe sleeve openings, and utility penetrations that give mice routine entry. A fall exclusion check, sealing foundation penetrations and the gap under garage doors, costs far less than managing an established interior infestation in January.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections: Hampton Roads is in Virginia's active termite zone and Portsmouth's older housing stock raises the stakes.",
+      "Eliminate standing water in yards, gutters, and low spots near the Elizabeth River shoreline to reduce mosquito breeding habitat.",
+      "Inspect mattresses, furniture seams, and baseboards if you have had recent houseguests or moved into a rental property.",
+      "Seal foundation gaps, pipe penetrations, and the gap under garage doors before October to reduce fall mouse entry.",
+    ],
+    costNote:
+      "Portsmouth pest control typically starts with a free inspection. Termite protection plans for older housing are often annual-contract baiting systems. Mosquito barrier treatment programs run May through October. General pest programs for cockroaches and mice are quarterly, with building-level programs recommended for multi-family properties.",
+    faqs: [
+      {
+        question: "How serious is the termite risk in Portsmouth's older Olde Towne homes?",
+        answer:
+          "It is significant and well-documented. Virginia Tech Extension places the entire Hampton Roads coastal plain in the active subterranean termite zone, and Portsmouth's Olde Towne and other pre-war neighborhoods sit on moist coastal soils near the Elizabeth River. Homes with crawl spaces, brick pier foundations, and original wood framing have direct soil-to-wood contact in some cases, which is the primary termite access point. Annual inspection is the minimum standard. Most historic property owners in Olde Towne maintain active protection plans, either a baiting system or a liquid treatment, as ongoing property maintenance.",
+      },
+      {
+        question: "Why do cockroaches keep coming back in my Portsmouth apartment even after treatment?",
+        answer:
+          "German cockroaches survive in the shared infrastructure of multi-family buildings, in the wall voids, plumbing chases, and utility spaces between units. Treating one unit eliminates the visible population in that space, but cockroaches in adjacent units or building-wide harborage recolonize within weeks. Effective control in Portsmouth's denser apartment buildings requires coordinated treatment across units and attention to the shared spaces. Ask your building management whether the treatment is building-wide. Single-unit treatment alone will produce short-term results at best.",
+      },
+      {
+        question: "When is mosquito season in Portsmouth and is it worse near the Elizabeth River?",
+        answer:
+          "Mosquito season in Portsmouth typically runs May through October, with peak pressure in July and August. Yes, proximity to the Elizabeth River waterfront and to the tidal creeks throughout the city does mean higher mosquito pressure. Tidal areas sustain both salt marsh mosquito species and fresh water species. Properties within a few blocks of the waterfront or near the Craney Island area see earlier spring activity and higher peak populations than properties further inland. Barrier treatment programs address the resting adult population around the home.",
+      },
+      {
+        question: "Are bed bugs a significant problem in Portsmouth given the military community housing?",
+        answer:
+          "Bed bugs are a real and consistent concern in Portsmouth's rental market and military-adjacent housing. Frequent military relocation creates a regular stream of household moves, and bed bugs travel in furniture, clothing, and bedding. Dense multi-family housing means one infested unit can spread to adjacent units through wall voids and shared spaces. Early detection is the key. Inspect mattress seams, box spring corners, and furniture joins if you are moving into a rental or have had recent overnight guests. Professional treatment of a small infestation is far less involved than treating an established multi-unit problem.",
+      },
+      {
+        question: "What is the best time of year to schedule pest control in Portsmouth?",
+        answer:
+          "Spring is the highest-priority season: termites swarm March through May, mosquito season opens in May, and any mice that overwintered in the structure are still active. A spring inspection and treatment catches all of those at once. Fall is the second priority, focused on mouse exclusion before October temperatures drive the fall surge. Year-round programs covering cockroaches and ongoing termite protection make sense for Portsmouth's older housing stock given the consistent pressure across all seasons.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Virginia Beach", slug: "virginia-beach" },
+      { name: "Norfolk", slug: "norfolk" },
+      { name: "Chesapeake", slug: "chesapeake" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Portsmouth, VA | Termites, Cockroaches & Mosquitoes",
+    metaDescription:
+      "Portsmouth pest control for subterranean termites, mosquitoes, German cockroaches, house mice and bed bugs. Elizabeth River Hampton Roads historic Olde Towne specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

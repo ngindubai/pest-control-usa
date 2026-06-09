@@ -215,4 +215,228 @@ export const southCarolinaCities: CityLocation[] = [
     metaDescription:
       "Charleston pest control for Formosan termites, Palmetto bugs, mosquitoes, fire ants and roof rats. Charleston County Lowcountry coast specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "north-charleston",
+    name: "North Charleston",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T2",
+    population: "~115,000",
+    county: "Charleston County",
+    climate: "hot-humid",
+    climateDriver:
+      "North Charleston is the most populous city in South Carolina, sitting between the Ashley and Cooper rivers in the Lowcountry coastal plain. The subtropical maritime climate delivers hot, humid summers and mild winters with no sustained cold. The coastal wetlands, tidal creeks, and the river corridors surrounding the city create year-round pest pressure. Clemson University Extension identifies Charleston County as within the established Formosan termite zone, and the post-construction suburban expansion of North Charleston has pushed development into former wetland areas where termite and mosquito pressure are particularly intense.",
+    topPests: [
+      "Formosan Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "American Cockroaches",
+      "Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm May through July, active year-round underground",
+        note: "Clemson University Extension confirms Charleston County is within the established Formosan subterranean termite zone. North Charleston's combination of warm coastal soils, high annual humidity, and the rapid suburban build-out into former wetland areas creates conditions where Formosan colonies are well established. These colonies are significantly larger than native subterranean termite colonies and cause structural damage faster.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round near wetlands, peak April through October",
+        note: "The Ashley and Cooper rivers, the tidal creeks, and the coastal wetlands surrounding North Charleston sustain intense mosquito populations nearly year-round. New residential development that pushed into former wetland areas along the city's edges means many backyards abut high-productivity mosquito breeding habitat. The South Carolina Department of Health and Environmental Control monitors mosquito-borne illness activity in the Charleston metro annually.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, no meaningful winter break in the Lowcountry",
+        note: "Fire ants are established across Charleston County and throughout the Lowcountry. The warm subtropical climate gives them no significant winter suppression, and they rebuild mounds rapidly after rain. New residential development on former agricultural and wetland land consistently produces heavy fire ant pressure on disturbed soils.",
+      },
+      {
+        name: "American cockroaches (Palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round outdoors, surge indoors during rain and heat",
+        note: "American cockroaches are called Palmetto bugs throughout South Carolina. They thrive in North Charleston's year-round warm climate, living in the storm drain infrastructure, mulch, and organic debris throughout the city. They push into homes during heavy rain and peak summer heat, entering through plumbing gaps and under-door thresholds.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Native eastern subterranean termites are present throughout Charleston County alongside the invasive Formosan species. North Charleston's coastal soils sustain active colonies in virtually every residential lot. Any property without current termite protection is accumulating risk with each passing season.",
+      },
+    ],
+    localHook:
+      "North Charleston's rapid post-war and post-Katrina suburban expansion pushed development into former wetland and agricultural areas along the Ashley and Cooper River corridors. That expansion moved homes directly into terrain where Formosan termite colonies were already established in the soil and where coastal wetland mosquito habitat begins at the property line. The city's position as the industrial and commercial spine of the Charleston metro means older commercial structures alongside new residential development, creating a layered termite risk that Clemson University Extension addresses directly in its Charleston County guidance.",
+    intro:
+      "Pest control in North Charleston is shaped by its Lowcountry coast setting and its position as the largest city in South Carolina. Formosan subterranean termites are the most serious structural threat: Clemson University Extension confirms Charleston County is within the established Formosan zone, and North Charleston's suburban expansion into former wetland areas has placed homes on soils where these large, aggressive colonies are already present. Mosquitoes are nearly year-round near the tidal creeks and river corridors. Fire ants are active every month of the year. American cockroaches, known locally as Palmetto bugs, push from outdoor drainage into homes during rain. Native eastern subterranean termites add to the termite pressure on top of the Formosan risk.",
+    sections: [
+      {
+        heading: "Formosan termites and North Charleston's wetland-edge development",
+        body: "Clemson University Extension identifies Charleston County as one of the most significant Formosan subterranean termite zones in the United States. North Charleston's rapid expansion pushed residential development into former wetland and agricultural land, and this land often had established termite colonies in the soil before the first foundation was poured. Pre-construction soil treatment is required for new builds in South Carolina, but those treatments have a finite effective period. Any North Charleston home built more than a decade ago should have its termite protection status reviewed. Formosan colonies are estimated to be ten times larger than native subterranean termite colonies and can cause structural damage in a fraction of the time. They swarm on warm evenings from May through July, typically gathering around outdoor lights. Seeing swarmers indoors near windows or light fixtures is a sign of an active colony in or immediately adjacent to the structure. Active termite protection, either a current liquid treatment or a monitored bait system, is not optional for North Charleston homeowners.",
+      },
+      {
+        heading: "Mosquitoes, Palmetto bugs, and the Lowcountry outdoor environment",
+        body: "North Charleston's tidal creeks, the Ashley and Cooper river margins, and the former wetland areas incorporated into residential neighborhoods create a mosquito breeding environment that extends well into the fall. Properties in neighborhoods developed near the river corridors, including areas along I-26 and the northern expansion zones, see mosquito pressure from April through October and sometimes beyond. Source reduction and barrier spray programs are the practical residential management tools. American cockroaches are a fixture of the Lowcountry outdoor environment: they breed in the city's storm drain infrastructure and organic ground cover, and rain events reliably push them from outdoor harborage into buildings. Sealing plumbing penetrations under sinks and installing door sweeps on exterior doors that show gaps are the most effective indoor prevention steps.",
+      },
+    ],
+    prevention: [
+      "Maintain active termite protection with annual inspections: Formosan and native termites are both established in North Charleston and the pressure is genuine.",
+      "Eliminate standing water from containers, blocked gutters, and drainage low spots near the wetland-edge neighborhoods to reduce mosquito breeding.",
+      "Seal plumbing penetrations and maintain door sweeps to reduce Palmetto bug entry from the outdoor drainage environment.",
+      "Apply broadcast fire ant bait twice a year in the warm Lowcountry climate where mounds rebuild year-round.",
+    ],
+    costNote:
+      "North Charleston pest services start with a free inspection. Annual termite protection contracts are the standard and carry real urgency given the Formosan presence. Quarterly general programs cover cockroaches, fire ants, and perimeter pests. Mosquito barrier programs run April through October and beyond for wetland-edge properties.",
+    faqs: [
+      {
+        question: "Are Formosan termites really a serious risk in North Charleston?",
+        answer:
+          "Yes. Clemson University Extension confirms Charleston County is within the established Formosan subterranean termite zone, and North Charleston's suburban development into former wetland areas means many homes sit on soils where these colonies were present before construction. Formosan termites form colonies estimated to be ten times larger than native subterranean termite colonies and damage wood faster. Annual inspections with active protection, either a current liquid soil treatment or a monitored bait system, are the appropriate standard for all North Charleston properties.",
+      },
+      {
+        question: "How long is mosquito season in North Charleston?",
+        answer:
+          "Near the tidal creeks and river corridors, mosquito pressure can extend nearly year-round in the mild Lowcountry climate. For most residential properties the practical season runs from April through October, with the most intense months from June through September. Properties adjacent to former wetland areas in the city's expansion zones see the longest and most intense seasons. Monthly barrier spray programs provide consistent protection through the season.",
+      },
+      {
+        question: "Why do Palmetto bugs come inside during rain in North Charleston?",
+        answer:
+          "American cockroaches live in North Charleston's outdoor drainage infrastructure, sewer lines, and organic ground cover. Heavy rain events saturate their outdoor habitat and displace them, and they follow plumbing connections and foundation gaps into buildings. North Charleston's semi-industrial and residential mix means a large outdoor Palmetto bug population sustained by the drainage system year-round. Sealing the transition points, particularly pipe penetrations under sinks and gaps at door sills, reduces indoor entry significantly.",
+      },
+      {
+        question: "Are fire ants a year-round problem in North Charleston?",
+        answer:
+          "Yes. The Lowcountry's mild winters give red imported fire ants no meaningful suppression, and they rebuild mounds rapidly after rain events and site disturbance. North Charleston's ongoing construction activity disturbs soil that fire ants recolonize within one to two seasons. Broadcast bait treatment of the lawn twice a year is the Clemson University Extension recommendation for managing fire ants in the Lowcountry. Individual mound treatments address the visible mound but not the surrounding population.",
+      },
+      {
+        question: "Should new construction in North Charleston have termite protection?",
+        answer:
+          "Yes. South Carolina requires pre-construction soil treatment for new builds, but that initial treatment has a finite effective period. North Charleston's Formosan termite pressure means homeowners should establish a monitoring and inspection program before the pre-construction treatment expires. A licensed pest management company can review the original treatment records and recommend the appropriate renewal or supplemental protection approach. Any gap in coverage in Charleston County's Formosan zone carries real structural risk.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Charleston", slug: "charleston" },
+      { name: "Columbia", slug: "columbia" },
+      { name: "Savannah", slug: "savannah" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in North Charleston, SC | Formosan Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "North Charleston pest control for Formosan termites, mosquitoes, fire ants, Palmetto bugs and subterranean termites. Charleston County Lowcountry coast specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mount-pleasant",
+    name: "Mount Pleasant",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T2",
+    population: "~91,000",
+    county: "Charleston County",
+    climate: "hot-humid",
+    climateDriver:
+      "Mount Pleasant is the affluent coastal suburb east of Charleston, sitting across the Cooper River with access to Sullivan's Island and Isle of Palms barrier islands. The subtropical maritime climate delivers year-round warmth and humidity with no hard winter freeze. The tidal creeks, salt marshes, maritime forests, and barrier island habitat surrounding the community create exceptional pest pressure from termites, mosquitoes, and fire ants. Clemson University Extension places Charleston County, including Mount Pleasant, within the established Formosan termite pressure zone.",
+    topPests: [
+      "Formosan Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "American Cockroaches",
+      "Carpenter Bees",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm May through July, active year-round underground",
+        note: "Mount Pleasant shares the same Formosan subterranean termite pressure as the rest of Charleston County, confirmed by Clemson University Extension. The coastal setting, warm soils, and the high humidity keep Formosan colonies active year-round. The many wood-frame homes with cedar and Hardie siding, decks, and dock structures in Mount Pleasant create multiple termite exposure points beyond just the foundation.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Nearly year-round near tidal creeks, peak May through October",
+        note: "Mount Pleasant's tidal creeks, salt marshes, and maritime forest edges create exceptional mosquito breeding habitat. Many neighborhoods, including those in the Hamlin Plantation, Park West, and the older neighborhoods near the Shem Creek waterfront, are directly adjacent to tidal habitat. The variety of mosquito species in the Lowcountry includes both salt marsh and freshwater breeders, extending the active season and the geographic reach.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round in the Lowcountry climate",
+        note: "Fire ants are established across Charleston County and Mount Pleasant's lawns and community green spaces. The mild climate gives them year-round activity, and they are consistently present in the newer communities where development has recently disturbed the soil and fire ants recolonize rapidly.",
+      },
+      {
+        name: "American cockroaches (Palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in the subtropical climate",
+        note: "American cockroaches are year-round outdoor residents in Mount Pleasant's subtropical climate. They breed in the drainage infrastructure, under mulch and vegetation near the tidal edges, and in organic debris. They push into homes during rain events and warm, humid nights. The many elevated homes near the marsh edge have crawl spaces that sustain outdoor cockroach populations.",
+      },
+      {
+        name: "Carpenter bees",
+        serviceSlug: "carpenter-bee-control",
+        activeSeason: "Active March through October, drilling in spring",
+        note: "Carpenter bees are a distinctive pest problem in Mount Pleasant. The coastal lifestyle means cedar siding, wood trim, dock pilings, pergolas, and deck structures are common, and carpenter bees drill into untreated softwood repeatedly. The many coastal-style homes in the area, with their wood decks, dock access, and cedar or unpainted wood trim, are particularly attractive. Without treatment and sealing, the same structures accumulate new holes each spring.",
+      },
+    ],
+    localHook:
+      "Mount Pleasant's Shem Creek waterfront, the tidal creeks threading through communities like Carolina Park and Hamlin Plantation, and the proximity to the barrier islands make it one of the more beautiful coastal suburbs in the Southeast. That same geography, the salt marshes, the tidal creeks, and the maritime forest edges, also creates pest pressure that residents from inland cities rarely experience. The Formosan termite risk is the same here as in downtown Charleston, and the mosquito habitat is arguably more intense because so many residential lots back directly onto tidal marsh.",
+    intro:
+      "Pest control in Mount Pleasant reflects the community's exceptional coastal setting and the pest pressure that comes with it. Formosan subterranean termites are the most consequential structural threat: Clemson University Extension places all of Charleston County within the established Formosan zone, and Mount Pleasant's wood-frame homes, dock structures, and cedar trim give termites multiple access points beyond the standard foundation. Mosquitoes are nearly year-round near the tidal creeks and salt marshes that define so many neighborhoods. Fire ants are active every month. American cockroaches, the local Palmetto bugs, live in the outdoor drainage and marsh-edge environment year-round. Carpenter bees attack the cedar siding and wood dock structures that are part of the coastal character of the community.",
+    sections: [
+      {
+        heading: "Termite protection for coastal homes and dock structures",
+        body: "Clemson University Extension confirms Mount Pleasant is within the Formosan termite pressure zone, and the community's coastal home style creates exposure points that inland homeowners may not think about. Wood decks extending toward tidal water, dock pilings, pergolas over patio areas, and cedar or unpainted wood siding all create access to structural wood at multiple levels, not just the foundation. Formosan colonies can create aerial carton nests that do not require soil contact, which means termites can infest above-ground wood in ways that the standard ground-to-foundation mud tube signs may not reveal. Annual inspections that cover the full structure, including deck framing, crawl space, and any attached structures, are the appropriate protection level. Active termite protection, either a current liquid soil treatment or a monitored bait system, should be maintained at all Mount Pleasant properties.",
+      },
+      {
+        heading: "Carpenter bees and the coastal home exterior",
+        body: "Carpenter bees are a genuine structural concern in Mount Pleasant, where the coastal lifestyle favors cedar siding, wood trim, wood pergolas, and deck structures. Carpenter bees drill perfectly round entry holes into untreated or weathered softwood surfaces in late February and March, excavating galleries for their eggs inside the wood. The same structures accumulate new holes each spring unless the existing galleries are treated and sealed and new drilling is deterred by painting or sealing exposed wood surfaces. Over several seasons, accumulated galleries weaken deck posts, fascia boards, and pergola beams. The most effective management is treating active holes with an insecticidal dust in spring, sealing the holes after the adults have emerged, and painting or sealing any bare wood surfaces that carpenter bees find attractive. The coastal-facing exterior surfaces of homes near the marsh and waterfront see the heaviest carpenter bee pressure in the community.",
+      },
+    ],
+    prevention: [
+      "Maintain active termite protection covering the full structure, including deck framing and dock connections, not just the foundation perimeter.",
+      "Eliminate standing water in tidal-adjacent yards and treat resting vegetation to manage the near-year-round mosquito pressure from the salt marsh habitat.",
+      "Paint or seal exposed wood siding, trim, and deck surfaces to deter carpenter bee drilling each spring.",
+      "Apply broadcast fire ant bait twice a year in the warm Lowcountry climate and treat individual mounds on contact.",
+    ],
+    costNote:
+      "Mount Pleasant pest services start with a free inspection. Annual termite protection contracts are the standard for all properties. Quarterly general programs cover Palmetto bugs, fire ants, and perimeter pests. Mosquito programs are practical year-round for marsh-adjacent properties. Carpenter bee treatment is typically a spring service.",
+    faqs: [
+      {
+        question: "Are Formosan termites as serious a risk in Mount Pleasant as in downtown Charleston?",
+        answer:
+          "Yes. Clemson University Extension places all of Charleston County within the established Formosan termite zone, and Mount Pleasant is fully within that zone. The Formosan termite pressure does not diminish east of the Cooper River. Mount Pleasant's wood-frame construction and the many wood deck, dock, and accessory structures add exposure points beyond the standard foundation risk. Annual inspections and active protection are the appropriate standard for all Mount Pleasant homeowners.",
+      },
+      {
+        question: "Why are mosquitoes so intense in communities like Hamlin Plantation and Carolina Park?",
+        answer:
+          "Many Mount Pleasant communities were developed on or adjacent to tidal marsh and salt marsh habitat, which provides some of the most productive mosquito breeding territory in the Lowcountry. Salt marsh mosquito species are strong fliers that disperse well inland from the breeding habitat. Freshwater species in the tidal creek backwater areas add to the variety. Properties backing directly to tidal habitat face near-year-round mosquito pressure that monthly barrier spray programs significantly reduce.",
+      },
+      {
+        question: "Are carpenter bees damaging the wood on my Mount Pleasant home?",
+        answer:
+          "Over several seasons, yes, they can be. Carpenter bees drill into untreated or weathered softwood, and accumulated galleries weaken structural members over time. The coastal-style homes of Mount Pleasant, with their cedar siding, wood pergolas, and dock structures, are attractive drilling targets. Treating active holes with insecticidal dust in spring, sealing the galleries, and painting or sealing exposed wood deters new drilling and prevents further damage.",
+      },
+      {
+        question: "How long is fire ant season in Mount Pleasant?",
+        answer:
+          "Fire ants are active every month of the year in the Lowcountry climate. There is no meaningful winter suppression in Charleston County. Mounds rebuild rapidly after rain and site disturbance. Broadcast bait treatment across the full lawn twice a year, in spring and again in fall, is the Clemson University Extension recommendation for sustained management. Treating individual mounds keeps the most visible problem in check but does not address the broader population.",
+      },
+      {
+        question: "Do Palmetto bugs in Mount Pleasant actually come from the tidal marsh?",
+        answer:
+          "American cockroaches in coastal South Carolina have well-established outdoor populations in the drainage infrastructure, organic debris, and the warm, moist ground cover near tidal areas. The marsh edge and the tidal creek vegetation provide outdoor habitat that sustains large populations adjacent to residential neighborhoods. They enter homes through foundation gaps, plumbing penetrations, and under exterior doors during rain events and on warm humid nights. Sealing entry points at the plumbing level and maintaining door sweeps on ground-floor exterior doors are the most effective indoor prevention measures.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Charleston", slug: "charleston" },
+      { name: "North Charleston", slug: "north-charleston" },
+      { name: "Columbia", slug: "columbia" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Mount Pleasant, SC | Formosan Termites, Mosquitoes & Carpenter Bees",
+    metaDescription:
+      "Mount Pleasant pest control for Formosan termites, mosquitoes, fire ants, Palmetto bugs and carpenter bees. Charleston County coastal suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

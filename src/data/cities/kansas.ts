@@ -447,4 +447,116 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "Olathe pest control for brown recluse spiders, subterranean termites, carpenter ants, house mice and mosquitoes. Johnson County Kansas City metro specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "kansas-city",
+    name: "Kansas City",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T2",
+    population: "~157,000",
+    county: "Wyandotte County",
+    climate: "temperate",
+    climateDriver:
+      "Kansas City, Kansas sits at the confluence of the Missouri and Kansas (Kaw) Rivers in Wyandotte County, with a humid continental climate delivering hot summers, cold winters, and a full complement of river valley pest pressures. The two rivers create abundant mosquito breeding habitat in their floodplains. The older urban housing stock near the river corridors provides the basement and crawl space conditions that brown recluse spiders and rodents favor year-round.",
+    topPests: [
+      "Mosquitoes",
+      "Subterranean Termites",
+      "Brown Recluse Spiders",
+      "House Mice",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Missouri and Kansas River confluence in Wyandotte County creates extensive floodplain mosquito breeding habitat. The low-lying areas, backwater channels, and drainage corridors throughout KCK sustain mosquito populations through the entire warm season. Flood events on either river can produce temporary population spikes that affect the whole metro area.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Kansas State University Extension confirms subterranean termites are active across eastern Kansas, including Wyandotte County. KCK sits in the heavy termite pressure zone for eastern Kansas. The river valley soils and the high humidity of the convergence zone support active termite colonies, and the city's older housing stock has had decades of exposure without always receiving current prevention treatment.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Kansas State University Extension confirms brown recluse spiders are common household pests throughout eastern Kansas. KCK's older urban housing, with its unfinished basements, crawl spaces, and storage areas, provides ideal harborage. Brown recluse are not rare in Wyandotte County. They are a consistent feature of the local pest environment and require proactive management rather than reactive response.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Kansas winters drive mice firmly into heated buildings. KCK's older urban housing near the rivers has more entry points than modern construction, and the dense older neighborhoods see reliable fall and winter mouse pressure. Exclusion work in late summer is more cost-effective than reactive treatment after mice are established inside.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor cockroach species in KCK's older multi-family housing and commercial properties. They breed entirely indoors and spread through shared walls and plumbing in apartment buildings. Wyandotte County's older urban apartment density creates the building type where German cockroach infestations become entrenched without coordinated building-wide treatment.",
+      },
+    ],
+    localHook:
+      "Kansas City, Kansas is the older, denser half of the metro, and its pest profile reflects that history. The Missouri and Kansas River confluence creates more mosquito habitat than almost anywhere else in eastern Kansas. The pre-war housing stock in the city's established neighborhoods provides the conditions that brown recluse spiders, mice, and cockroaches exploit. Kansas State University Extension confirms both brown recluse spiders and subterranean termites as significant pest concerns across eastern Kansas, and Wyandotte County sits squarely in both pressure zones.",
+    intro:
+      "Kansas City, Kansas occupies the confluence of two major rivers, and that geography defines its pest environment. The Missouri and Kansas Rivers together create more floodplain mosquito breeding habitat than most cities in eastern Kansas have to manage. Kansas State University Extension confirms brown recluse spiders are common household pests throughout Kansas, and KCK's older urban housing, with its unfinished basements, crawl spaces, and decades of accumulated clutter, provides ideal conditions for them. Subterranean termites are active across eastern Kansas per Kansas State Extension, and Wyandotte County's river valley soils support active colonies. German cockroaches are a year-round concern in the older multi-family housing density near downtown and the river corridors. Mice make a reliable fall run at heated buildings as Kansas temperatures drop. The practical approach here is to understand what each pest season brings and act ahead of it. Mosquito management from April, termite inspection in spring, exclusion work in late summer, and brown recluse reduction through clutter and harborage management covers the full KCK pest calendar without reacting to each problem after it arrives.",
+    sections: [
+      {
+        heading: "River Confluence Mosquito Pressure and Termite Risk in Wyandotte County",
+        body: "Few cities in Kansas have as much mosquito habitat concentrated in one place as Kansas City, Kansas. The Missouri and Kansas Rivers converge in Wyandotte County, and their combined floodplain creates backwater channels, low-lying parks, and drainage corridors that sustain mosquito populations from April through October. Flood events on either river, which happen with some regularity given the Missouri's flood history, can temporarily spike mosquito numbers across the entire metro area. Monthly barrier spray treatments on residential vegetation from April through October are the standard approach for KCK homeowners who want to use their outdoor spaces through the warm season. Subterranean termites are a parallel concern in Wyandotte County. Kansas State University Extension places eastern Kansas in the active termite pressure zone, and the river valley soils around the KCK river corridors, with their high organic content and sustained moisture, support productive termite colonies. The city's older housing stock, much of it predating modern pre-treatment standards, has had decades of exposure. A professional termite inspection in spring before the swarm season is the standard baseline for any older KCK home that has not had recent termite work.",
+      },
+      {
+        heading: "Brown Recluse Spiders in Kansas City, Kansas's Older Urban Housing",
+        body: "Brown recluse spiders are not an exotic or rare pest in Kansas City, Kansas. Kansas State University Extension explicitly confirms they are common household pests throughout eastern Kansas, and KCK's older housing inventory provides exactly the conditions they need: unfinished basements, crawl spaces, undisturbed storage areas, and the dark, dry corners behind appliances and inside wall voids. They are active year-round indoors but most noticeable in spring and fall when their activity increases. Brown recluse bites are medically significant. The venom can cause a necrotic reaction in some people, though bites are far less common than the spider's presence suggests, because they are reclusive and bite only when threatened. The practical management approach is to reduce harborage: clear clutter from basements and storage areas, seal cardboard boxes, shake out stored clothing and shoes, and use a professional to apply residual treatment to the areas where they concentrate. Sticky traps placed along baseboards in storage areas also help monitor activity levels. KCK homeowners should treat brown recluse as an ongoing management task rather than a one-time eradication problem.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection every spring if your home has a basement or crawl space and has not had recent termite treatment, particularly in the older neighborhoods near the rivers.",
+      "Reduce brown recluse harborage by clearing clutter from basements and storage areas, using sealed plastic containers instead of cardboard boxes, and checking stored items before handling.",
+      "Manage standing water around the property monthly during mosquito season, including clogged gutters, low spots, and any containers that collect rainwater.",
+      "Seal foundation-level gaps, pipe penetrations, and door gaps before October to reduce mouse entry during the fall surge.",
+    ],
+    costNote:
+      "Kansas City, KS pest control pricing is broadly in line with the Kansas City metro market. A termite inspection is typically free, with treatment options ranging from $600 to $1,800 depending on home size and activity level. Brown recluse treatment, including harborage reduction and residual application, typically runs $200 to $400 for a residential job. Mosquito barrier spray runs $75 to $150 per application. Mouse exclusion and treatment typically costs $175 to $325. German cockroach treatment in multi-unit buildings is generally priced per unit at $100 to $200 with follow-up visits included.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders common in Kansas City, KS?",
+        answer:
+          "Yes. Kansas State University Extension confirms brown recluse spiders are common household pests throughout eastern Kansas, including Wyandotte County. KCK's older urban housing, with its unfinished basements, crawl spaces, and undisturbed storage areas, provides ideal harborage. This is not an unusual finding in Wyandotte County. Treating brown recluse as an ongoing management task, reducing clutter, using sealed containers, and applying residual treatment in harborage areas, is more effective than expecting a single treatment to eliminate them.",
+      },
+      {
+        question: "Why are mosquitoes so bad at the Missouri and Kansas River confluence in KCK?",
+        answer:
+          "Two major rivers converging in one county creates more floodplain habitat than most cities manage. The low-lying areas, backwater channels, and drainage corridors of the Missouri and Kansas River floodplains in Wyandotte County sustain mosquito breeding throughout the warm season. Flood events on either river temporarily spike populations. Properties near the river corridors and low-lying parks see heavier mosquito pressure than higher-ground neighborhoods. Monthly barrier spray from April through October is the standard approach for residential properties near the rivers.",
+      },
+      {
+        question: "How serious is termite risk in Kansas City, KS?",
+        answer:
+          "Significant. Kansas State University Extension confirms subterranean termites are active throughout eastern Kansas, and Wyandotte County's river valley soils and humidity are productive termite habitat. KCK's older housing stock, much of it built before modern pre-treatment standards, has had decades of exposure. A professional spring inspection is standard practice for any older KCK home. Termites can cause serious structural damage before any visible sign appears from inside, so annual inspections are the only reliable way to catch problems early.",
+      },
+      {
+        question: "When do mice become a problem in Kansas City, KS?",
+        answer:
+          "The fall surge typically starts in late September and peaks through October and November as Kansas temperatures drop. KCK's older urban housing near the river corridors has more entry points than newer construction, and those neighborhoods see the most consistent fall and winter mouse pressure. Sealing foundation gaps, pipe penetrations, and door gaps in September is the most cost-effective prevention. Once mice are inside and breeding, professional exclusion and baiting is needed for full resolution.",
+      },
+      {
+        question: "How do I manage German cockroaches in a KCK apartment building?",
+        answer:
+          "German cockroaches in multi-unit buildings require building-wide coordination. They spread through shared wall voids and plumbing connections, so treating one unit without addressing adjacent units leads to re-infestation within weeks. In KCK's older apartment stock, this is a building-level problem. Push your property manager to coordinate treatment across the building. Professional gel bait placed in harborage sites inside cabinets, near plumbing, and under appliances is more effective than aerosol spray. Keeping the unit clean and dry while treatment is underway reduces the harborage that allows populations to rebuild.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Independence", slug: "independence" },
+      { name: "Olathe", slug: "olathe" },
+      { name: "Topeka", slug: "topeka" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Kansas City, KS | Brown Recluse, Termites & Mosquitoes",
+    metaDescription:
+      "Kansas City KS pest control for brown recluse spiders, subterranean termites, mosquitoes, house mice and German cockroaches. Wyandotte County Missouri-Kansas River confluence specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

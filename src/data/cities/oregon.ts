@@ -679,4 +679,116 @@ export const oregonCities: CityLocation[] = [
     metaDescription:
       "Bend pest control for carpenter ants, house mice, yellow jackets, black widow spiders and voles. Deschutes County Central Oregon ponderosa pine forest interface specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "beaverton",
+    name: "Beaverton",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T2",
+    population: "~105,000",
+    county: "Washington County",
+    climate: "temperate",
+    climateDriver:
+      "Beaverton sits in the Tualatin Valley west of Portland, in Washington County's Silicon Forest tech corridor. The Pacific marine climate delivers long, wet winters and dry, mild summers. High annual rainfall and persistent moisture in the soil and in older home structures create ideal conditions for carpenter ants and moisture ants year-round. Norway rats are the dominant rodent in the dense suburban landscaping, and stink bugs have moved into the Portland metro including Washington County.",
+    topPests: [
+      "Carpenter Ants",
+      "Norway Rats",
+      "Yellowjackets",
+      "Moisture Ants",
+      "Odorous House Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Oregon State University Extension confirms carpenter ants are the most damaging structural pest in western Oregon. Beaverton's wet Pacific climate means moisture-affected wood is common in older homes, giving carpenter ants the nesting conditions they need year-round. An active infestation signals a moisture problem worth finding.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are the dominant rodent in Washington County per OSU Extension, sheltering in the dense suburban landscaping, under decks, and around foundation plantings that are common in Beaverton's residential neighborhoods. The mild, wet climate supports year-round activity without the die-offs that colder winters produce.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests peak late summer, aggressive through October",
+        note: "Yellowjackets nest in ground cavities and wall voids in Beaverton's residential areas through the dry Oregon summer. Colony size peaks in August and September, when foragers become aggressive around food and trash. Ground nests in lawns are a sting hazard for children and pets.",
+      },
+      {
+        name: "Moisture ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Moisture ants are a reliable indicator of water damage in western Oregon homes, including Beaverton. They nest exclusively in wood that is already wet and decaying. Finding moisture ants in a wall or under a sink is a signal of an active leak or chronic moisture problem that needs addressing beyond just ant treatment.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge indoors during wet weather",
+        note: "Odorous house ants trail into Beaverton kitchens hunting sweets and moisture, especially during wet winters when outdoor conditions deteriorate. Their trails from the yard into the kitchen are a common early-spring and late-fall complaint in Washington County homes.",
+      },
+    ],
+    localHook:
+      "Beaverton's wet Pacific climate is genuinely good for people who dislike heat. It is also good for carpenter ants. The same moisture that keeps Washington County green also softens wood over time, and carpenter ants do not miss that opportunity. Getting a structural ant inspection before buying or renovating an older Beaverton home is a sound investment.",
+    intro:
+      "Beaverton is Washington County's largest city and one of the primary suburbs of Portland, sitting in the Tualatin Valley with the Tualatin Hills to the east and the broader Silicon Forest tech employment corridor to the west. The Pacific marine climate here delivers reliably wet winters and dry, mild summers. For pest management, that weather pattern is almost entirely about moisture. Oregon State University Extension identifies carpenter ants as the most damaging structural pest in western Oregon, and Beaverton is very much within that zone. The persistent wetness of the Pacific Northwest climate means that moisture-affected wood is common in older homes across the city, and carpenter ants exploit it readily. They are active year-round in heated structures, and finding them in a wall or baseboard in February is not a seasonal aberration. Norway rats are the dominant rodent concern in Washington County, benefiting from the dense suburban landscaping, the year-round mild temperatures, and the food sources available in a densely developed suburb. They do not experience the hard winter die-offs that colder climates produce, so populations stay active through the calendar year. Yellowjackets in Beaverton's residential areas build ground and wall void nests through the dry summer months, becoming notably aggressive in August and September when colonies are at their largest and natural food sources are declining. Moisture ants are an important diagnostic pest in Beaverton, because they only nest in wood that is already wet and decaying, making their presence a reliable signal of an active water problem. And odorous house ants trail into kitchens reliably during wet weather, which in Beaverton means a good portion of the year. This is a wet-climate pest environment that rewards moisture management as much as chemical treatment.",
+    sections: [
+      {
+        heading: "Carpenter Ants and What They Tell You About Your Beaverton Home",
+        body: "Carpenter ants are Oregon State University Extension's named top structural pest for western Oregon, and Beaverton sits squarely in their prime habitat. They do not eat wood the way termites do, but they excavate smooth galleries in wood that is already softened by moisture or decay, and the damage they do over years is real. More importantly, a carpenter ant infestation is almost always pointing at something. The moisture source that softened the wood enough for them to nest is the underlying problem, and it does not go away when the ants are treated. In Beaverton's older homes, common moisture entry points include failing window frames and sill plates, aged roof penetrations with compromised seals, plumbing that has had slow leaks over years, and any area where ground contact wood was used in the original construction. A professional inspection that finds both the colony and the moisture source gives you an actionable repair path. Treating the ants without addressing the moisture leads to re-infestation, because the nesting conditions have not changed. If you are buying an older Beaverton home, a pre-purchase carpenter ant inspection is a sound step. These are one of the more expensive structural pest problems when left to develop over years.",
+      },
+      {
+        heading: "Norway Rats in Beaverton's Suburban Landscaping",
+        body: "Norway rats are the dominant rodent problem across Washington County, and Beaverton's dense suburban character gives them a lot to work with. The typical Beaverton property has mature foundation plantings, often including English ivy, that provide excellent ground-level cover for rats. Under-deck spaces, overgrown compost areas, and the edges of stormwater drainage swales are other common harborage sites. Norway rats are burrowers, so they typically establish at or below ground level, under structures and in dense vegetation, rather than in the attic spaces that roof rats prefer. The mild Pacific Northwest climate means they do not suffer the population reductions that harsh winters cause in colder states, keeping pressure consistent year-round. Effective Norway rat management in Beaverton combines exterior bait stations on a scheduled service program, exclusion to seal foundation entry points at utility penetrations and weep holes in brick, and vegetation management to reduce ground-level cover near the building. Removing English ivy within a few feet of the foundation is one of the single most impactful landscaping changes a Beaverton homeowner can make for rodent management.",
+      },
+    ],
+    prevention: [
+      "Remove English ivy and dense ground cover within several feet of your foundation to eliminate Norway rat harborage in the most common nesting zone for Beaverton properties.",
+      "Inspect wood around window frames, sill plates, and any roof or plumbing penetrations for moisture damage before spring, as these are the primary carpenter ant nesting entry points in western Oregon homes.",
+      "Cap or screen underground yellowjacket nest entrances you find in the lawn in fall after the colony dies, to prevent new queens from reusing the cavity the following year.",
+      "Seal gaps around exterior utility penetrations and weep holes in brick facades before fall to limit Norway rat entry, focusing on any penetration at or below the foundation line.",
+    ],
+    costNote:
+      "Pest control in Beaverton typically runs $120 to $280 for an initial inspection and treatment of common pests like ants or rats. Carpenter ant inspections, which include a structural moisture assessment, are often $100 to $200 and well worth the cost before purchasing an older home. Norway rat service programs run $80 to $160 per quarterly visit with an exterior bait station program. Yellowjacket nest removal is $100 to $250 depending on accessibility and location. Ask about combined service agreements covering ants, rodents, and wasps for the full Washington County pest calendar.",
+    faqs: [
+      {
+        question: "Are carpenter ants in Beaverton a serious structural threat, or more of a nuisance?",
+        answer:
+          "Carpenter ants in western Oregon are a genuine structural threat when left unaddressed, not a nuisance pest. Oregon State University Extension identifies them as the most damaging structural pest in the region. The damage they do is slower than termites, but an active colony excavating in a moisture-affected sill plate or wall cavity over several years removes meaningful structural wood. More importantly, their presence is almost always pointing at an active moisture problem in the structure, which causes its own ongoing damage beyond the ant excavation. A professional inspection that finds both the colony and the water source is the right response. Beaverton's wet Pacific climate means moisture-affected wood is common, and carpenter ants are consistent annual residents in older neighborhoods here.",
+      },
+      {
+        question: "How do I know if I have Norway rats or roof rats in my Beaverton home?",
+        answer:
+          "Norway rats are the dominant rodent in Washington County per OSU Extension, so Beaverton residents are much more likely dealing with Norway rats than roof rats. The practical differences show up in where you find activity: Norway rats are burrowers that establish at or below ground level, under foundations, in dense ground cover, under decks, and in crawl spaces. Roof rats are climbers that prefer attic spaces and upper wall voids. Droppings in the crawl space or near the foundation, burrows in the yard near the foundation, or activity under a deck or shed all point to Norway rats. Droppings in the attic or evidence of activity in upper wall voids point to roof rats. Both species are present in the Portland metro, but Norway rats are the more common finding in Beaverton's suburban residential areas.",
+      },
+      {
+        question: "When are yellowjackets most dangerous in Beaverton, and how should I handle a ground nest?",
+        answer:
+          "Yellowjackets in Beaverton are most dangerous from late August through October, when colonies reach peak size and natural food sources decline, making foragers more aggressive. Ground nests in lawns are a sting hazard that is easy to stumble across when mowing. If you find an active ground nest, do not cover it with soil or attempt to treat it during daylight hours when workers are active. Professional treatment is done at night when the colony is in the nest. After a colony dies in late fall, the nest itself does not persist the following year, but screening or capping an old cavity reduces the chance of a new queen reusing it. Wall void nests in living structures require professional removal to prevent honeycomb and structural moisture problems from a dying colony.",
+      },
+      {
+        question: "What are moisture ants and why are they showing up in my Beaverton home?",
+        answer:
+          "Moisture ants, also called yellow ants or cornfield ants, nest exclusively in wood that is already wet and decaying. If they are appearing inside your Beaverton home, it means there is wet or decayed wood somewhere in the structure, typically at a chronic leak site under a sink, around a failing window seal, at a roof penetration with a compromised flashing, or in a crawl space with standing water or high humidity. Treating the ants alone will not resolve the problem because the nesting conditions remain. A professional inspection that locates the moisture source and the extent of any wood decay is the appropriate response. Moisture ants in Beaverton homes are relatively common given the wet Pacific climate, but they should always be treated as a diagnostic signal rather than just a pest to eliminate.",
+      },
+      {
+        question: "How do I stop odorous house ants from trailing into my Beaverton kitchen?",
+        answer:
+          "Odorous house ants in Beaverton follow moisture and food cues into kitchens, particularly during wet fall and winter weather when outdoor conditions deteriorate. They trail along edges, under door gaps, and through any gap at utility penetrations to reach food sources. Sanitation steps that limit accessible food (sealed containers, no loose crumbs, pet food not left out) reduce the draw. Caulking the gap under the exterior door threshold and the gaps around utility penetrations cuts off common entry routes. Professional perimeter treatment, applied in the fall before the wet season, creates a barrier that turns trailing ants away. Gel bait placed along interior trailing routes is another effective option that does not require broadcast spray indoors.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Hillsboro", slug: "hillsboro" },
+      { name: "Gresham", slug: "gresham" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Beaverton, OR | Carpenter Ants, Rats & Yellowjackets",
+    metaDescription:
+      "Beaverton pest control for carpenter ants, Norway rats, yellowjackets, moisture ants and odorous house ants. Washington County Silicon Forest suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

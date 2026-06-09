@@ -10,14 +10,15 @@
 
 ## Current State (2026-06-09)
 
-- **Phase:** Phase 2 T2 in progress. Chunk 12 complete.
-- **City pages built:** 300 total (75 T1 + 225 T2). 75 T2 cities remaining.
+- **Phase:** Phase 2 T2 in progress. Chunks 13 and 14 complete.
+- **City pages built:** 350 total (75 T1 + 275 T2). 25 T2 cities remaining.
 - **Town pages built:** 0.
-- **Total site pages:** 383 in the static export (home, services, 50+ states, 300 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=61, B=60, C=60, D=60, E=59 (300 total cities, all within 15-25% range).
-- **Cities built T2 chunk 12 (25):** Pearland TX (A), Sugar Land TX (A), Odessa TX (D), Fort Myers FL (B), Sunrise FL (B), West Jordan UT (D), Sparks NV (E), Boulder CO (A), Kirkland WA (D), Trenton NJ (E), Erie PA (A), Reading PA (B), Carmel IN (B), Roswell GA (C), Livonia MI (C), Edmond OK (E), Waukegan IL (C), Victorville CA (C), Berkeley CA (C), Daly City CA (D), Burbank CA (E), Fairfield CA (B), Norwalk CA (A), Jurupa Valley CA (D), Richmond CA (E).
-- **New state files added chunk 12:** none (all states already have files).
-- **Next block:** Chunk 13, next 25 T2 cities, rotation continues at A.
+- **Total site pages:** 430 in the static export (home, services, 50+ states, 350 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=71, B=70, C=70, D=70, E=69 (350 total cities, all within 15-25% range).
+- **Cities built T2 chunk 13 (25):** Lowell MA (A), Beaverton OR (B), Bloomington MN (C), Warner Robins GA (D), Lafayette LA (E), Tuscaloosa AL (A), Greeley CO (B), Concord NC (C), Kenosha WI (D), Orem UT (E), Kansas City KS (A), Fayetteville AR (B), Bloomington IN (C), Portsmouth VA (D), Davenport IA (E), North Charleston SC (A), Asheville NC (B), Longmont CO (C), Goodyear AZ (D), Lee's Summit MO (E), New Bedford MA (A), Spokane Valley WA (B), Jackson TN (C), Sandy UT (D), Lake Charles LA (E).
+- **Cities built T2 chunk 14 (25):** Fort Smith AR (A), Clifton NJ (B), O'Fallon MO (C), St. Joseph MO (D), Gulfport MS (E), Brockton MA (A), Fishers IN (B), Avondale AZ (C), Cambridge MA (D), Franklin TN (E), Las Cruces NM (A), Sioux City IA (B), Lynn MA (C), Rio Rancho NM (D), Camden NJ (E), Ogden UT (A), Lawton OK (B), Racine WI (C), Gastonia NC (D), Hamilton OH (E), St. George UT (A), Mount Pleasant SC (B), Hoover AL (C), Quincy MA (D), Appleton WI (E).
+- **New state files added chunks 13-14:** none (all states already have files).
+- **Next block:** Chunk 15, final 25 T2 cities, rotation continues at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
@@ -82,6 +83,7 @@
 | 2026-06-08 | Chunk 10: next 25 T2 city pages | Cedar Rapids IA (A), Norman OK (B), Broken Arrow OK (A), Elizabeth NJ (C), Warren MI (D), Dearborn MI (E), Columbia MO (A), Independence MO (C), Topeka KS (B), Evansville IN (C), South Bend IN (D), Springfield IL (E), Rochester MN (A), Escondido CA (B), Kent WA (C), Westminster CO (D), Arvada CO (E), Pueblo CO (D), Lakeland FL (A), Palm Bay FL (B), Carrollton TX (C), Round Rock TX (D), Lewisville TX (E), Gresham OR (B), Stamford CT (E). No new state files. Rotation A=51 B=50 C=50 D=50 E=49. 250 total cities, 333 site pages. Build green. |
 | 2026-06-08 | Chunk 11: next 25 T2 city pages | Olathe KS (A), Everett WA (A), Renton WA (D), Waterbury CT (C), Wilmington NC (D), Yuma AZ (C), Flint MI (B), Centennial CO (E), Hillsboro OR (C), Bend OR (D), Pompano Beach FL (E), Davie FL (E), Boca Raton FL (E), Fullerton CA (B), Orange CA (C), Santa Clara CA (D), Clovis CA (E), Murrieta CA (B), Costa Mesa CA (A), Antioch CA (B), El Monte CA (C), Temecula CA (A), Downey CA (B), West Covina CA (D), Inglewood CA (A). No new state files. Rotation A=56 B=55 C=55 D=55 E=54. 275 total cities, 358 site pages. Build green. |
 | 2026-06-09 | Chunk 12: next 25 T2 city pages | Pearland TX (A), Sugar Land TX (A), Odessa TX (D), Fort Myers FL (B), Sunrise FL (B), West Jordan UT (D), Sparks NV (E), Boulder CO (A), Kirkland WA (D), Trenton NJ (E), Erie PA (A), Reading PA (B), Carmel IN (B), Roswell GA (C), Livonia MI (C), Edmond OK (E), Waukegan IL (C), Victorville CA (C), Berkeley CA (C), Daly City CA (D), Burbank CA (E), Fairfield CA (B), Norwalk CA (A), Jurupa Valley CA (D), Richmond CA (E). No new state files. Rotation A=61 B=60 C=60 D=60 E=59. 300 total cities, 383 site pages. Build green. |
+| 2026-06-09 | Chunks 13-14: 50 T2 city pages | Chunk 13: Lowell MA, Beaverton OR, Bloomington MN, Warner Robins GA, Lafayette LA, Tuscaloosa AL, Greeley CO, Concord NC, Kenosha WI, Orem UT, Kansas City KS, Fayetteville AR, Bloomington IN, Portsmouth VA, Davenport IA, North Charleston SC, Asheville NC, Longmont CO, Goodyear AZ, Lee's Summit MO, New Bedford MA, Spokane Valley WA, Jackson TN, Sandy UT, Lake Charles LA. Chunk 14: Fort Smith AR, Clifton NJ, O'Fallon MO, St. Joseph MO, Gulfport MS, Brockton MA, Fishers IN, Avondale AZ, Cambridge MA, Franklin TN, Las Cruces NM, Sioux City IA, Lynn MA, Rio Rancho NM, Camden NJ, Ogden UT, Lawton OK, Racine WI, Gastonia NC, Hamilton OH, St. George UT, Mount Pleasant SC, Hoover AL, Quincy MA, Appleton WI. No new state files. Rotation A=71 B=70 C=70 D=70 E=69. 350 total cities, 430 site pages. Build green. |
 
 ## ClimateZone Values (extended 2026-06-04)
 

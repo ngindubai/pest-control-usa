@@ -1189,4 +1189,228 @@ export const coloradoCities: CityLocation[] = [
     metaDescription:
       "Boulder pest control for yellowjackets, voles, house mice, pavement ants and black widow spiders. Boulder County Front Range foothills Flatirons open space interface specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "greeley",
+    name: "Greeley",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T2",
+    population: "~107,000",
+    county: "Weld County",
+    climate: "semi-arid",
+    climateDriver:
+      "Greeley sits on the northern Colorado plains in Weld County, one of the most agriculturally productive counties in the country. High winds, dry conditions, and wide open farmland on all sides mean that pest pressure here is shaped as much by what comes in from the surrounding fields as by what lives in the city itself.",
+    topPests: [
+      "House Mice",
+      "Black Widow Spiders",
+      "Pavement Ants",
+      "Boxelder Bugs",
+      "Voles",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through April",
+        note: "Greeley's position at the agricultural edge of Weld County means field mice and house mice regularly press into residential and commercial properties from surrounding farmland in fall. Colorado State University Extension confirms mouse populations are high in agricultural border communities throughout northern Colorado.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active May through September",
+        note: "Colorado State University Extension confirms black widow spiders are found statewide and are common in Weld County. They favor outbuildings, crawl spaces, garage corners, and undisturbed debris. The female's bite is medically significant.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Pavement ants are the most common residential ant concern in Greeley, trailing from cracks in driveways and sidewalks into kitchens. Weld County's clay and sandy soils provide good nesting substrate, and spring soil moisture drives visible ant activity from April onward.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Most visible September through November",
+        note: "Boxelder bugs are a reliable fall pest across northern Colorado and Greeley per CSU Extension. They aggregate in large numbers on south-facing walls in September and October, seeking overwintering sites in wall voids and window frames.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "vole-control",
+        activeSeason: "Year-round, most damaging in winter under snow cover",
+        note: "The agricultural interface around Greeley sustains high vole populations that press into residential yards and gardens. Voles tunnel under lawn grass and gnaw the roots and bark of perennials and young trees, with the worst damage occurring under snow cover during winter.",
+      },
+    ],
+    localHook:
+      "Greeley's agricultural setting in Weld County is what separates its pest profile from other northern Colorado cities. Colorado State University Extension is direct about this: pest pressure in farm-border communities is higher and more varied than in purely suburban areas. Field mice push into homes from the surrounding cropland each fall in numbers that are simply not seen in more urban settings. The wide open plains also mean boxelder bug aggregations can be spectacular in September, with hundreds of insects gathering on sun-warmed south walls at once.",
+    intro:
+      "Pest control in Greeley is shaped by the city's location on the northern Colorado plains, surrounded by the agricultural land of Weld County. House mice and voles move in from surrounding farmland each fall in numbers that Colorado State University Extension acknowledges are higher in agricultural-border communities than in purely urban areas. Black widow spiders are present statewide and common in Weld County outbuildings and storage areas. Boxelder bugs are a dependable fall nuisance across northern Colorado, covering south-facing walls each September as colonies aggregate before overwintering. Pavement ants are the standard spring and summer household pest. The semi-arid climate keeps Greeley's pest season shorter than the humid Front Range suburbs, but the agricultural setting adds a layer of rodent pressure that requires consistent management, not just a single fall treatment.",
+    sections: [
+      {
+        heading: "Mice from the fields: why Greeley's agricultural edge matters for rodent control",
+        body: "Greeley is surrounded by Weld County farmland, and that matters for rodent management. Colorado State University Extension confirms that residential communities adjacent to agricultural land experience higher and more sustained mouse pressure than purely suburban areas, because the fields provide year-round habitat and a constant source of new mice moving toward structures as harvest and cold weather reduce outdoor food availability. House mice can squeeze through a gap the size of a dime. A property that is well-sealed in October will resist the fall surge much better than one with unsealed utility penetrations, foundation gaps, and gaps around garage door weatherstripping. Exclusion work done in August and September, before the fall push begins, is the most cost-effective approach. Trapping alone, without sealing the entry points, is a losing battle when there is an agricultural population source nearby. Any signs of deer mice, which look similar but are more rural, should be handled with precautions given the hantavirus risk CSU Extension associates with deer mice in Colorado.",
+      },
+      {
+        heading: "Boxelder bugs and fall overwintering pests in Greeley",
+        body: "Boxelder bugs are one of the most visually striking fall pests in Greeley. In September, as temperatures begin to cool, large aggregations gather on south-facing and west-facing exterior walls, sometimes numbering in the hundreds. They are looking for overwintering sites in wall voids, window frames, attic spaces, and similar protected gaps. Colorado State University Extension identifies boxelder bugs as a significant fall pest across northern Colorado, and Greeley's open, windswept setting with mature boxelder trees in older neighborhoods provides abundant host trees. The bugs themselves do not cause structural damage, and they do not bite or spread disease. The problem is that they enter wall voids and interior spaces and emerge again in spring, sometimes in large numbers inside the home. Sealing gaps in siding, around window frames, and at utility penetrations before September reduces how many get inside. Perimeter treatment in early fall is effective at reducing the aggregating population before they find entry points.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and garage door weatherstripping in August before the fall mouse push from surrounding Weld County farmland.",
+      "Apply a perimeter treatment in early September to reduce boxelder bug aggregations on south-facing walls before they find winter entry points.",
+      "Install hardware cloth cylinders around the base of new shrubs and trees to protect them from vole bark and root damage during winter.",
+      "Keep garage and outbuilding storage in sealed bins and regularly inspect for black widow webs in corners and under shelving.",
+    ],
+    costNote:
+      "Greeley pest control is typically a seasonal program: rodent exclusion in fall, ant and general perimeter treatment in spring and summer, and boxelder bug management in September. Year-round quarterly general pest coverage is available. A free assessment identifies current entry points and activity levels.",
+    faqs: [
+      {
+        question: "Why do I get so many mice in Greeley compared to other Colorado cities?",
+        answer:
+          "Greeley's location at the agricultural edge of Weld County is the main reason. Colorado State University Extension confirms pest pressure is higher in communities adjacent to farmland because the surrounding fields provide a sustained population of field mice and house mice that push into structures each fall. Exclusion, sealing every gap the size of a dime or larger around the foundation and utilities, is the essential first step. Trapping without exclusion produces temporary results when there is a large outdoor population nearby.",
+      },
+      {
+        question: "Are black widows common in Greeley, Colorado?",
+        answer:
+          "Yes. Colorado State University Extension confirms black widow spiders are found statewide and are common in Weld County. In Greeley they turn up in outbuildings, crawl spaces, garage corners, under debris, and around woodpiles. The female's bite is medically significant, causing severe muscle cramping. Wearing gloves when working in storage areas and keeping outdoor areas clear of debris reduces encounter risk significantly.",
+      },
+      {
+        question: "What are the boxelder bugs on my house in Greeley in September?",
+        answer:
+          "Boxelder bugs aggregate on south-facing and west-facing walls each fall across northern Colorado, including Greeley. CSU Extension identifies them as a common fall overwintering pest in the region. They are looking for gaps to enter wall voids and overwinter. They do not bite, sting, or cause structural damage, but can emerge indoors in large numbers in spring. Sealing exterior gaps in August and applying a perimeter treatment in early September before they aggregate reduces indoor overwintering significantly.",
+      },
+      {
+        question: "Do voles damage lawns in Greeley?",
+        answer:
+          "Yes. Voles are common in Greeley's agricultural-edge neighborhoods and cause two main types of damage: surface runways in lawn grass visible as shallow trails, and root and bark gnawing on perennials, shrubs, and young trees, often concentrated under snow cover during winter where it goes unnoticed until spring. Reducing dense ground cover near valuable plants and installing hardware cloth cylinders around tree and shrub bases are the most effective long-term preventive measures.",
+      },
+      {
+        question: "Is the deer mouse hantavirus risk real in Greeley?",
+        answer:
+          "Hantavirus pulmonary syndrome is rare but serious. CSU Extension associates deer mice with hantavirus risk in Colorado. Most Greeley mouse encounters involve house mice rather than deer mice, but any rodent activity in enclosed spaces like outbuildings, crawl spaces, or garages near agricultural land warrants professional identification. If deer mice are involved, proper handling protocols, wetting droppings with disinfectant before cleaning and wearing appropriate respiratory protection, apply. Do not dry-sweep droppings in enclosed spaces.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Fort Collins", slug: "fort-collins" },
+      { name: "Denver", slug: "denver" },
+      { name: "Loveland", slug: "loveland" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Greeley, CO | Mice, Black Widows & Boxelder Bugs",
+    metaDescription:
+      "Greeley pest control for house mice, black widow spiders, pavement ants, boxelder bugs and voles. Weld County agricultural plains northern Colorado specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "longmont",
+    name: "Longmont",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T2",
+    population: "~100,000",
+    county: "Boulder County",
+    climate: "semi-arid",
+    climateDriver:
+      "Longmont sits in the St. Vrain Creek corridor in northern Boulder County, at the intersection of the agricultural plains and the Front Range foothills. The semi-arid climate keeps pest diversity lower than humid-state cities, but the agricultural edge and creek corridor add rodent and seasonal pest pressure that a purely urban setting would not have.",
+    topPests: [
+      "House Mice",
+      "Pavement Ants",
+      "Black Widow Spiders",
+      "Boxelder Bugs",
+      "Voles",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through April",
+        note: "Longmont's agricultural edge along St. Vrain Creek and the surrounding Boulder County farmland sustains rodent populations that push into homes each fall. CSU Extension confirms house mice are the primary residential rodent pest on the northern Front Range, with fall entry a near-annual event for properties with unsealed gaps.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Pavement ants are the most common ant complaint in Longmont, nesting under driveways, patios, and foundations and trailing into kitchens. Spring snowmelt saturates the soil and triggers heavy ant activity from April onward.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active May through September",
+        note: "CSU Extension confirms black widows are present across Colorado's Front Range, including Boulder County. In Longmont they are found in garages, window wells, wood piles, and undisturbed outdoor storage. The female's bite is medically significant.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Most visible September through November",
+        note: "Boxelder bugs are a reliable fall pest in Longmont, aggregating on south-facing walls in September and October. Older neighborhoods with mature boxelder trees near the St. Vrain corridor have the highest fall aggregation pressure.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "vole-control",
+        activeSeason: "Year-round, most damaging in winter under snow cover",
+        note: "Longmont's agricultural edge along St. Vrain Creek provides continuous vole habitat that presses into residential yards. Voles cause surface runway damage in lawn grass and gnaw the roots and bark of plants and young trees, concentrated under snow cover in winter.",
+      },
+    ],
+    localHook:
+      "Longmont's position at the northern Front Range's agricultural-suburban interface gives it a pest profile that Boulder proper does not share. The St. Vrain Creek corridor and the farmland on the city's eastern and northern edges feed a year-round vole and mouse population that presses into residential neighborhoods. Boulder County's deer mouse population, which CSU Extension associates with hantavirus, is a consideration for any rodent activity in outbuildings and garages near the foothills. Boxelder bugs are an October fixture in the older tree-lined neighborhoods near downtown.",
+    intro:
+      "Pest control in Longmont reflects the city's position where Boulder County's suburban development meets working agricultural land along the St. Vrain Creek corridor. House mice and voles move in from the surrounding farmland and creek margins each fall, with Colorado State University Extension confirming that agricultural-edge communities on the northern Front Range experience higher sustained rodent pressure than purely urban areas. Black widow spiders are present across Colorado's Front Range, including Boulder County, and turn up in garages and outdoor structures year-round. Boxelder bugs are a dependable fall nuisance in Longmont's older neighborhoods, covering south-facing walls in September as they aggregate before winter. Pavement ants are the standard spring and summer ant complaint. The Boulder County setting also means occasional encounters with deer mice, which CSU Extension associates with hantavirus, making rodent identification an important first step before cleanup in any enclosed space.",
+    sections: [
+      {
+        heading: "Rodents along the St. Vrain Creek corridor: what Longmont homeowners face each fall",
+        body: "Longmont's position at the edge of agricultural Boulder County, with the St. Vrain Creek running through the city, creates a year-round rodent habitat that many Colorado cities do not have. House mice are the primary concern in most residential areas, pressing into homes each fall as outdoor temperatures drop and the field crop harvest reduces their food supply in adjacent farmland. Colorado State University Extension confirms that mouse entry in fall is a near-annual event for properties with unsealed gaps in the foundation and around utilities. Exclusion, done in August before the fall push begins, is the most effective and cost-efficient approach. A single mouse can produce 30 to 60 offspring per year, so a small entry gap left unaddressed can result in a full infestation by January. The deer mouse question matters in Longmont because the city's proximity to the Front Range foothills means deer mice, rather than house mice, may be present in some situations. CSU Extension associates deer mice with hantavirus in Colorado. Any rodent activity in enclosed spaces like outbuildings, sheds, and crawl spaces warrants professional identification before cleanup begins.",
+      },
+      {
+        heading: "Ants, spiders, and boxelder bugs: Longmont's seasonal pest sequence",
+        body: "Longmont follows a predictable seasonal pest pattern. Pavement ants are the spring concern, emerging from cracks in driveways and walkways in April as soil temperatures rise. They trail into kitchens following water and food sources and establish satellite colonies near the foundation. Standard perimeter treatment in April and May manages the spring surge and prevents indoor colonization. Black widows are present year-round in sheltered outdoor spots, garage corners, window wells, and wood piles. CSU Extension confirms they are found throughout the Front Range and Boulder County. They are most active from May through September but can be found at any time of year in undisturbed areas. Boxelder bugs arrive in September, gathering on south-facing walls in sometimes large aggregations as they prepare to overwinter. Longmont's older neighborhoods near downtown, which have more mature boxelder trees than newer subdivisions, see the highest fall numbers. Perimeter treatment applied in early September, before aggregations peak, and sealing exterior gaps reduces how many enter wall voids for winter.",
+      },
+    ],
+    prevention: [
+      "Seal all gaps the size of a dime or larger around the foundation, utilities, and garage doors in August before the fall rodent push from surrounding Boulder County farmland.",
+      "Apply perimeter ant treatment in April at the first sign of pavement ant trailing to prevent indoor colonization before colonies establish near the foundation.",
+      "Treat south-facing exterior walls with perimeter spray in early September before boxelder bug aggregations peak and they find entry points into wall voids.",
+      "Install hardware cloth cylinders around new shrubs and small trees in fall to protect against vole bark and root gnawing under winter snow cover.",
+    ],
+    costNote:
+      "Longmont pest control is most often structured as a seasonal program: rodent exclusion in fall, ant and perimeter treatment in spring and summer, boxelder bug management in September. Year-round quarterly general pest coverage is available for properties that prefer consistent management. A free assessment identifies current entry points and active pest pressure.",
+    faqs: [
+      {
+        question: "Why are mice a bigger problem in Longmont than in Denver?",
+        answer:
+          "Longmont's location at the agricultural edge of Boulder County, with farmland on the northern and eastern sides of the city and the St. Vrain Creek corridor running through it, provides a sustained source of mice that purely urban Denver does not have. Colorado State University Extension confirms that agricultural-edge communities see higher rodent pressure than urban areas. Exclusion, sealing every gap the size of a dime or larger around the foundation and utilities, is the single most effective action for Longmont homeowners.",
+      },
+      {
+        question: "Is hantavirus a real concern with mice in Longmont?",
+        answer:
+          "Hantavirus pulmonary syndrome is rare but carries a high fatality rate. CSU Extension associates deer mice with hantavirus in Colorado's Front Range foothills. Most Longmont mouse encounters involve house mice, which are not associated with hantavirus. However, properties near the foothills and agricultural edges may have deer mice. Professional identification of any rodent activity in enclosed spaces, like outbuildings and crawl spaces, is the sensible precaution before cleanup. If deer mice are involved, wetting droppings with disinfectant before cleaning and wearing appropriate protection applies.",
+      },
+      {
+        question: "Do black widows live in Longmont garages?",
+        answer:
+          "Yes. Colorado State University Extension confirms black widows are present across the Front Range, including Boulder County. In Longmont they are most commonly found in garage corners, window wells, woodpiles, under outdoor furniture, and in undisturbed storage areas. They prefer dry, sheltered spots and are not aggressive but will bite if pressed against skin. Wearing gloves when reaching into dark storage areas and keeping garages organized with minimal undisturbed debris reduces encounter risk.",
+      },
+      {
+        question: "What are the bugs covering my south-facing wall in Longmont every fall?",
+        answer:
+          "Those are almost certainly boxelder bugs. They aggregate on south-facing and west-facing exterior walls in September and October across northern Colorado, including Longmont, as they seek overwintering sites in wall voids and window frames. CSU Extension identifies them as a common fall overwintering pest on the Front Range. They do not bite or cause structural damage. Applying a perimeter spray in early September and sealing exterior gaps before they aggregate significantly reduces how many get inside for winter.",
+      },
+      {
+        question: "Are pavement ants in Longmont a year-round problem?",
+        answer:
+          "Pavement ants are primarily a spring and summer concern in Longmont, active from April through October as soil temperatures allow foraging. They are the most common residential ant pest in Boulder County. Treating in April at the first sign of trailing, with a perimeter spray at the foundation and cracks in driveways and walks, controls the spring surge before colonies establish close to the home. Fall and winter activity slows significantly at Longmont's northern Front Range elevation.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Boulder", slug: "boulder" },
+      { name: "Fort Collins", slug: "fort-collins" },
+      { name: "Denver", slug: "denver" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Longmont, CO | Mice, Pavement Ants & Black Widows",
+    metaDescription:
+      "Longmont pest control for house mice, pavement ants, black widow spiders, boxelder bugs and voles. Boulder County St. Vrain Creek northern Front Range agricultural interface specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

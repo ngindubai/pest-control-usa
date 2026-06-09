@@ -322,4 +322,121 @@ export const minnesotaCities: CityLocation[] = [
     metaDescription:
       "Rochester pest control for house mice, carpenter ants, boxelder bugs, Asian lady beetles and wasps. Olmsted County southeastern Minnesota Mayo Clinic city specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "bloomington",
+    name: "Bloomington",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T2",
+    population: "~89,000",
+    county: "Hennepin County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bloomington sits at the confluence of the Minnesota River and the Mississippi River corridor in Hennepin County with one of the coldest and most reliably harsh winter climates in the continental United States. The hard freeze that ends the outdoor insect season also drives one of the most predictable fall pest surges in the country as mice, boxelder bugs, and Asian lady beetles press into heated buildings.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "Boxelder Bugs",
+      "Asian Lady Beetles",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall, active all winter inside",
+        note:
+          "Bloomington's cold Minnesota winters drive one of the most reliable fall mouse surges in the country, with the first cold snaps in October pushing mice through foundation gaps and utility penetrations in the city's mature suburban housing stock to seek heated shelter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active spring through summer, visible indoors in spring",
+        note:
+          "University of Minnesota Extension confirms carpenter ants as a key structural pest in Minnesota, and Bloomington's mature suburban tree canopy, with aging oaks, elms, and maples in established neighborhoods, provides both outdoor colony habitat and moisture-affected wood in older homes.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Aggregate on homes in fall, re-emerge in spring",
+        note:
+          "Boxelder bugs are a significant fall pest in Hennepin County, congregating on sun-facing walls of Bloomington homes in September and October before working into wall voids to overwinter, then turning up indoors on the first warm days of winter and spring.",
+      },
+      {
+        name: "Asian lady beetles",
+        serviceSlug: "asian-lady-beetle-control",
+        activeSeason: "Aggregate on homes in fall, re-emerge in spring",
+        note:
+          "Asian lady beetles invade Bloomington homes each fall alongside boxelder bugs, often mixing on the same sun-facing walls, and release a yellow defensive fluid that stains fabric when disturbed indoors, making removal by vacuum the only safe approach.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests build May through September, aggressive late summer",
+        note:
+          "Yellowjackets nest in ground voids and wall cavities throughout Bloomington's residential neighborhoods, with colonies reaching peak size and aggression in August and September when a single disturbance near a nest entrance can produce a large defensive response.",
+      },
+    ],
+    localHook:
+      "Bloomington is home to the Mall of America, the largest shopping mall in the United States, but its pest calendar is shaped by something more elemental: Minnesota winters. University of Minnesota Extension identifies the fall mouse surge as the most widely reported pest event in Hennepin County each year, and Bloomington's location at the Minnesota River confluence, with mature suburban neighborhoods and an established tree canopy, makes the fall boxelder bug and Asian lady beetle double invasion one of the most consistent seasonal pest events in the Twin Cities metro.",
+    intro:
+      "Pest control in Bloomington follows the rhythm of the Minnesota seasons more precisely than almost any other metro suburb. The outdoor pest season ends hard each November when the freeze arrives, but the weeks just before it, from mid-September through October, are the most active period of the pest calendar. Mice push indoors through foundation gaps when the first cold snaps arrive. Boxelder bugs and Asian lady beetles aggregate on sun-facing building walls in their thousands before working into wall voids and attic spaces to overwinter. Yellowjackets reach peak colony size and aggression in September. University of Minnesota Extension documents all of these patterns as characteristic of Hennepin County communities. The preparation window, late summer through early fall, is when the most cost-effective pest prevention happens in Bloomington.\n\nCarpenter ants add a spring and summer dimension. University of Minnesota Extension confirms them as a key structural pest in Minnesota, and Bloomington's mature suburban tree canopy, with large oaks, elms, and maples in neighborhoods like Penn-American, Oxboro, and the older residential areas near the Minnesota River, provides outdoor colony habitat and, when moisture conditions develop in aging wood framing, indoor nesting sites. The Mall of America and Bloomington's extensive hotel and retail complex represent a separate commercial pest management challenge, with year-round occupancy and food service creating conditions that require professional monitoring programs independent of the seasonal residential calendar.",
+    sections: [
+      {
+        heading: "Comparing boxelder bugs and Asian lady beetles in Bloomington",
+        body: "Bloomington homeowners deal with two overwintering invaders each fall, and understanding the difference between them helps set the right expectations and prevention approach. Boxelder bugs are the larger species, roughly half an inch long, black with distinctive red or orange markings on their wings and thorax. They feed on boxelder trees and other maple family species, and Bloomington's mature suburban tree canopy, which includes significant numbers of boxelder and silver maple trees in established neighborhoods and along the Minnesota River corridor, provides an ideal population source. Asian lady beetles are dome-shaped, orange to tan in color with variable black spots, and slightly smaller. Both species aggregate on sun-facing building walls in September and October, often mixing on the same surface, before working through gaps into wall voids and attic spaces. Both become indoor nuisances when they emerge on warm winter days or in early spring. The critical difference is that Asian lady beetles, when disturbed or crushed indoors, release a yellowish defensive fluid with a sharp odor that stains fabric and upholstery. For this reason, both species should be managed by vacuuming, not crushing, when found indoors. The prevention approach is identical for both: seal the exterior gaps they use to enter, treating siding overlaps, utility entries, window frame gaps, and eave vents in August before the fall aggregation builds, and apply an exterior perimeter treatment on south and west-facing walls when they first appear.",
+      },
+      {
+        heading: "Fall exclusion and the September prevention window in Bloomington",
+        body: "University of Minnesota Extension is specific about timing: the prevention window for fall mouse entry in Minnesota is September through early October, before temperatures drop significantly enough to trigger active movement toward heated buildings. In Bloomington's mature suburban neighborhoods, where homes range from 1950s ranch houses to 1970s and 1980s two-story construction, the foundation conditions vary but the principle is the same. Garage doors are the most commonly overlooked entry point: the rubber seal at the bottom of a garage door degrades over years of Minnesota winters, and a gap that develops along one edge is wide enough for a mouse. Foundation penetrations for gas lines, water service, and electrical conduit are the next most common entries. Door sills on older exterior doors that have settled slightly are a third. The September inspection walks the foundation perimeter and these specific access points, identifies gaps, and seals them before the push begins. For newer Bloomington construction with modern building envelope standards, this is a simple review. For older ranch houses and split-levels from the 1950s through the 1970s in the established neighborhoods, it is a more involved check because these homes have had decades to develop settling gaps. Mall of America's retail complex and the surrounding hotel cluster along Interstate 494 require year-round rodent monitoring programs entirely separate from the residential seasonal approach because occupancy, food service, and loading dock access create conditions that operate on a different timeline than a suburban home.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around siding, utility entries, eave vents, and window frames in August before boxelder bugs and Asian lady beetles begin aggregating on south and west-facing Bloomington home exteriors in September.",
+      "Inspect garage door bottom seals, foundation penetrations for utilities, and door sills in September before the first cold snaps drive mice toward heated buildings in Bloomington's suburban neighborhoods.",
+      "Check under deck boards, in ground cover areas, and along foundation edges in June for early yellowjacket nest activity before colonies grow to their aggressive late-summer peak size.",
+      "Inspect window sill framing, soffit boards, and any deck framing touching soil each spring for moisture-softened wood that provides carpenter ant nesting conditions near Bloomington's mature suburban tree canopy.",
+    ],
+    costNote:
+      "Bloomington pest control is often structured as a fall prevention visit, addressing mice exclusion and boxelder bug perimeter treatment together in September, combined with a spring follow-up for carpenter ants and yellowjacket nest inspection. Mall of America and commercial hotel properties require quarterly year-round programs. Residential mouse exclusion is priced per home after inspection. A free assessment establishes the right program for your property type and location in Bloomington.",
+    faqs: [
+      {
+        question: "Why are boxelder bugs such a significant fall problem in Bloomington?",
+        answer:
+          "Bloomington's location at the Minnesota River confluence includes significant numbers of boxelder and silver maple trees in mature neighborhoods and along the river corridor, which are the primary food source for boxelder bug populations. University of Minnesota Extension identifies Hennepin County as one of the higher-activity areas for boxelder bugs in the state. When outdoor temperatures cool in September, the local populations aggregate on sun-facing building walls in large numbers before overwintering in wall voids. Sealing entry gaps and applying a perimeter treatment before the aggregation builds is the most effective prevention.",
+      },
+      {
+        question: "How do Asian lady beetles damage Bloomington homes?",
+        answer:
+          "Asian lady beetles do not cause structural damage. Their impact is the indoor nuisance of mass emergence on warm days and the yellow defensive fluid they release when disturbed or crushed, which stains fabric and upholstery and has a sharp, unpleasant odor. The prevention approach is sealing exterior entry gaps in August through September before they aggregate and enter wall voids. Once inside, vacuum them up rather than crushing them. The staining from crushed beetles can be difficult to remove from light-colored fabrics.",
+      },
+      {
+        question: "When should Bloomington homeowners prepare for the fall mouse surge?",
+        answer:
+          "September is the preparation window, before the first cold snaps trigger active mouse movement toward heated buildings. University of Minnesota Extension identifies mice as the most commonly reported rodent pest in Minnesota each fall. In Bloomington's suburban housing stock, the most important access points to check and seal are the garage door bottom seal, foundation penetrations for utility lines, and exterior door sills that have settled. A professional inspection walks these points and seals the gaps before the push begins, which is more durable and effective than trapping after mice are already inside.",
+      },
+      {
+        question: "Are yellowjackets in Bloomington dangerous, and how should nests be handled?",
+        answer:
+          "Yellowjackets in Bloomington are a genuine stinging hazard, particularly in late August and September when colonies reach peak size and workers become most defensive. Ground-nesting yellowjackets are a particular risk in yards with lawn activity, as disturbing the ground near a nest entrance can trigger an aggressive response from hundreds of workers. Wall void nests in older construction are a risk when walls are disturbed. Yellowjacket nest removal should not be a do-it-yourself project in late summer. A professional treatment targeting the nest entrance, typically at dusk when the colony is settled, is the standard approach.",
+      },
+      {
+        question: "Does the Mall of America create unusual pest pressure for nearby Bloomington properties?",
+        answer:
+          "The Mall of America and the extensive hotel and food service complex along the Interstate 494 corridor create year-round commercial pest pressure that is distinct from the seasonal residential calendar. High visitor volume, large-scale food service operations, and loading dock access create conditions that sustain rodent and cockroach populations requiring professional monitoring programs with regular bait station checks and inspections. For residential properties in Bloomington's suburban neighborhoods away from the commercial corridor, a standard seasonal program with fall emphasis covers the primary pest events.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Minneapolis", slug: "minneapolis" },
+      { name: "Saint Paul", slug: "saint-paul" },
+      { name: "Eden Prairie", slug: "eden-prairie" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Bloomington, MN | Mice, Boxelder Bugs & Carpenter Ants",
+    metaDescription:
+      "Bloomington pest control for house mice, carpenter ants, boxelder bugs, Asian lady beetles and yellowjackets. Hennepin County Mall of America Minneapolis suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

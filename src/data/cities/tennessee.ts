@@ -663,4 +663,228 @@ export const tennesseeCities: CityLocation[] = [
     metaDescription:
       "Murfreesboro pest control for subterranean termites, mosquitoes, fire ants, cockroaches and brown recluse spiders. Rutherford County Stones River middle Tennessee specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "jackson",
+    name: "Jackson",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T2",
+    population: "~67,000",
+    county: "Madison County",
+    climate: "hot-humid",
+    climateDriver:
+      "Jackson sits in west Tennessee's agricultural heartland, midway between Memphis and Nashville along the Forked Deer River corridor. The hot, humid climate is closer to the deep South than to middle Tennessee, with long summers, mild winters, and high annual rainfall. University of Tennessee Extension identifies west Tennessee as a high subterranean termite pressure zone. The Forked Deer River and the numerous agricultural ponds and drainage features across Madison County sustain heavy mosquito populations. Fire ants are year-round. Brown recluse spiders are well established across west Tennessee per UT Extension.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "German Cockroaches",
+      "Brown Recluse Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round underground",
+        note: "University of Tennessee Extension confirms subterranean termites are active across west Tennessee including Madison County, where Jackson sits. The warm, moist soils of the west Tennessee lowlands sustain termite colonies that work most of the year. The early swarm season here, sometimes starting in late February during warm spells, reflects the more southerly climate than middle Tennessee. Annual inspections and proactive protection plans are strongly recommended for all Madison County properties.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peak June through August",
+        note: "The Forked Deer River corridor, the agricultural drainage ditches, and the numerous farm ponds across Madison County create sustained mosquito breeding habitat from early spring through late fall. Jackson's flat west Tennessee terrain holds water readily after the heavy spring rains, extending breeding habitat significantly. Both Aedes and Culex mosquitoes are present, and the Tennessee Department of Health monitors mosquito-borne illness in the Jackson metro area.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring and summer",
+        note: "Red imported fire ants are well established in Madison County and across west Tennessee per UT Extension. The warm, humid climate and the agricultural soils of the Jackson area sustain year-round fire ant activity with little winter suppression. Yards, parks, and road shoulders throughout the city and surrounding county carry fire ant mounds. New construction activity consistently produces heavy fire ant pressure on disturbed soil.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a year-round concern in Jackson's commercial food service district and multi-family housing. They require no outdoor access and spread through shared building infrastructure. The warm, humid west Tennessee climate, combined with the moisture common in older building stock, gives them ideal breeding conditions.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spaces, most active spring and fall",
+        note: "West Tennessee is within the established range of the brown recluse spider, and UT Extension confirms their presence across the region including Madison County. Jackson's mix of older homes, storage buildings, and the agricultural outbuildings throughout the county provides extensive brown recluse habitat. They prefer undisturbed spaces and their bite can cause slow-healing tissue damage. Standard precautions in garages, crawl spaces, and stored-item areas are warranted.",
+      },
+    ],
+    localHook:
+      "The Forked Deer River runs through Madison County and creates a riparian corridor of bottomland hardwood forest, wetlands, and agricultural drainage that sustains some of the highest mosquito and pest pressure in west Tennessee. Properties along the river and within the Forked Deer floodplain see earlier spring pest activity and higher summer populations than the drier upland areas of Jackson.",
+    intro:
+      "Jackson is west Tennessee's regional hub, and the pest environment here is closer to the deep South than to the middle Tennessee cities further east. Subterranean termites swarm earlier here, fire ants are year-round, mosquitoes breed in the Forked Deer River bottomlands from March through October, and brown recluse spiders are established across west Tennessee. University of Tennessee Extension confirms all of these in Madison County. The mix of older housing in the established neighborhoods, newer suburban development at the edges, and the agricultural character of the surrounding county creates a range of pest entry points and harborage conditions. Jackson pest control needs to account for the Forked Deer River's influence on moisture-driven pests and for the warm, early spring that brings termite swarms before Nashville or Knoxville homeowners are even thinking about pest season.",
+    sections: [
+      {
+        heading: "Termites and fire ants: west Tennessee's year-round pair",
+        body: "West Tennessee is warmer and milder than the rest of the state, and that matters for two pests in particular. Eastern subterranean termites start swarming in late February or early March during warm spells, which is weeks ahead of the middle Tennessee schedule. UT Extension places the west Tennessee lowlands, including Madison County, in the high termite pressure zone. The moist soils along the Forked Deer corridor and the flat terrain that holds water after heavy rains create sustained termite habitat. Fire ants are the companion pest. Madison County fire ants face little winter suppression in the mild west Tennessee climate, and they are in yards, parks, and open land throughout the city. Broadcast bait treatment of the full lawn twice a year is the UT Extension recommendation for sustained fire ant management rather than individual mound treatment alone.",
+      },
+      {
+        heading: "Brown recluse spiders in Jackson's homes and outbuildings",
+        body: "Brown recluse spiders are a genuine and well-documented concern in west Tennessee. UT Extension confirms their presence across the region, and Jackson's housing mix, including older homes on the established streets near downtown and the agricultural outbuildings throughout the county, provides exactly the undisturbed harborage they prefer. Brown recluse do not seek confrontation. They shelter in seldom-opened closets, behind boxes in garages, in piles of firewood, and in crawl space areas that rarely get inspected. The bite is slow to heal and can involve significant tissue damage, though most bites occur when a person reaches into a stored item without looking. Standard precautions help: switch cardboard storage boxes to sealed plastic bins, wear gloves when working in undisturbed areas, and consider periodic professional treatment of garage walls, crawl spaces, and attic spaces.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections: west Tennessee's early spring and high moisture conditions make termite protection essential for Madison County properties.",
+      "Eliminate standing water in low yard areas, drainage ditches, and any containers to reduce Forked Deer area mosquito breeding.",
+      "Treat fire ant mounds and apply broadcast lawn bait twice a year, spring and fall, per UT Extension recommendations.",
+      "Store items in sealed plastic bins in garages and outbuildings to reduce brown recluse harborage sites.",
+    ],
+    costNote:
+      "Jackson pest control typically starts with a free inspection. Termite protection plans are recommended for all west Tennessee properties and are usually annual-contract programs. Mosquito barrier treatment runs March through October. General pest programs for cockroaches, fire ants, and spiders are typically quarterly.",
+    faqs: [
+      {
+        question: "Are subterranean termites a serious problem in Jackson, TN?",
+        answer:
+          "Yes, and west Tennessee's earlier spring compared to the rest of the state means the termite season starts sooner. University of Tennessee Extension places west Tennessee including Madison County in the high subterranean termite pressure zone for the state. The warm, moist soils of the Forked Deer River corridor sustain large termite colonies that are active much of the year. Termite swarms can appear in late February during warm spells. Annual inspection is the professional standard for Jackson properties, and proactive protection plans are strongly recommended for homes with crawl spaces or any wood near grade.",
+      },
+      {
+        question: "How serious is the brown recluse spider risk in Jackson compared to other Tennessee cities?",
+        answer:
+          "West Tennessee is within the brown recluse's established native range, and UT Extension confirms their presence throughout the region. Jackson's combination of older residential construction, storage buildings, and the agricultural character of Madison County creates above-average brown recluse harborage conditions. They are not aggressive but they are found in undisturbed spaces throughout the area. The precautions are standard: sealed plastic storage rather than cardboard, gloves when working in storage areas or garages, and periodic professional treatment of high-harborage spaces. The risk is real and consistent, not occasional.",
+      },
+      {
+        question: "Is mosquito season in Jackson longer than in Nashville because of the Forked Deer River?",
+        answer:
+          "Jackson's west Tennessee location is warmer and sees an earlier spring, which does extend the effective mosquito season compared to Nashville. The Forked Deer River corridor and the agricultural drainage features across Madison County provide substantial breeding habitat. March is typically the opening of mosquito season in Jackson. The flat terrain means water drains slowly after heavy spring rains, extending breeding habitat beyond the riverbanks into the broader floodplain. Properties within a half mile of the river or near agricultural drainage features see higher pressure than those on higher ground away from the valley.",
+      },
+      {
+        question: "Are fire ants in Jackson present year-round or do they die back in winter?",
+        answer:
+          "Fire ants face very little winter suppression in west Tennessee's mild climate. Madison County winters are not cold enough to significantly reduce fire ant populations. Mound activity may slow slightly during the coldest weeks, but the colonies do not die back the way they do in genuinely cold climates further north. UT Extension confirms fire ants are active year-round in the region. New construction and disturbed soil consistently produce heavy fire ant pressure as they quickly colonize open ground. Broadcast bait treatment twice a year manages the population better than individual mound treatment alone.",
+      },
+      {
+        question: "What pest problems are most common in the older neighborhoods near downtown Jackson?",
+        answer:
+          "Older housing near downtown Jackson combines several risk factors. Pre-war and mid-century construction on crawl space foundations has the direct soil contact and moisture exposure that termites exploit. German cockroaches are a consistent concern in the older multi-family stock along the commercial corridors. Brown recluse spiders are well established in garages and storage areas throughout the older neighborhoods. Mice push into aging foundations each fall as temperatures drop. A spring inspection that addresses termites, cockroaches, and spiders, followed by a fall mouse exclusion check, covers the primary risks for older downtown Jackson properties.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Memphis", slug: "memphis" },
+      { name: "Nashville", slug: "nashville" },
+      { name: "Knoxville", slug: "knoxville" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Jackson, TN | Termites, Mosquitoes & Brown Recluse Spiders",
+    metaDescription:
+      "Jackson pest control for subterranean termites, mosquitoes, fire ants, German cockroaches and brown recluse spiders. Madison County Forked Deer River west Tennessee specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "franklin",
+    name: "Franklin",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T2",
+    population: "~88,000",
+    county: "Williamson County",
+    climate: "temperate",
+    climateDriver:
+      "Franklin sits in Williamson County south of Nashville, in the rolling hills of the middle Tennessee plateau. The humid subtropical climate delivers hot, humid summers and mild winters with occasional frost. The Harpeth River winds through the county, creating riparian habitat that sustains mosquitoes and moisture-driven pest pressure. Williamson County is one of Tennessee's fastest-growing counties, and the ongoing suburban expansion into wooded and agricultural land keeps termite pressure elevated as eastern subterranean termites from disturbed woodland soil encounter new construction lumber. University of Tennessee Extension confirms subterranean termites and fire ants are active throughout middle Tennessee.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "Carpenter Ants",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "University of Tennessee Extension confirms eastern subterranean termites are active throughout middle Tennessee, including Williamson County. Franklin's rapid growth has pushed new subdivisions into wooded lots where established termite colonies exist in the soil. Construction lumber in contact with disturbed soil is at immediate risk. Both new construction and older farmhouses converted to residential use face termite exposure. Annual inspections are the professional standard, and the new-construction surge makes early protection planning especially important.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Harpeth River winds through Williamson County and sustains mosquito breeding habitat from early spring through late fall. Franklin's newer subdivisions frequently include stormwater retention ponds, which are productive mosquito breeding sites when they are still-water features rather than flowing. Asian tiger mosquitoes, which bite during the day, are present throughout middle Tennessee. Barrier treatment programs address the resting adult population around the home.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November, most active spring and summer",
+        note: "UT Extension confirms fire ants are expanding in Williamson County as the suburban edge grows. Disturbed soil from construction and new lawn installation is rapidly colonized by fire ants. Middle Tennessee's warm summers and mild winters give fire ants a long active season. Franklin's rapid growth means new neighborhoods frequently see heavy fire ant pressure in their first few years.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are a concern in Franklin's older construction and in the wooded areas at the suburban edge of Williamson County. The Harpeth River corridor's mature tree canopy and moisture creates carpenter ant habitat. They nest in moist or softened wood and are often encountered in homes that back up to wooded areas. Seeing large black ants inside in spring is a common first sign of a nearby colony.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a year-round pest in Franklin's commercial food service district and in multi-family housing. They do not require outdoor access and spread through building infrastructure. Franklin's restaurant and retail growth along the Cool Springs corridor and near historic downtown has created concentrated commercial kitchen demand for year-round cockroach management.",
+      },
+    ],
+    localHook:
+      "Franklin's rapid growth puts new subdivisions directly into former agricultural and wooded land where eastern subterranean termite colonies are already established in the soil. The transition from Tennessee woodland to suburban lots does not eliminate the termites. It introduces fresh construction lumber to colonies that have been building for years. UT Extension has documented this pattern across middle Tennessee's growth corridors, and Williamson County's development pace makes it one of the state's most relevant examples.",
+    intro:
+      "Franklin is one of Tennessee's fastest-growing cities, and growth at that pace creates a specific pest dynamic. New subdivisions go in on former farmland and wooded lots where termite colonies are already in the soil, ready to encounter fresh construction lumber. The Harpeth River runs through the county, sustaining mosquitoes from April through October. Fire ants expand into every newly disturbed soil site as construction crews clear land. Carpenter ants are in the wooded buffer areas and older construction at the urban edge. German cockroaches are year-round in the growing commercial strip along Cool Springs. Franklin's upscale suburban character does not make it pest-free. It makes the pest profile specific to the new-construction, wooded-edge, fast-growth pattern that Williamson County is living through right now. University of Tennessee Extension confirms all of these pests are active in middle Tennessee.",
+    sections: [
+      {
+        heading: "Termites and new construction in fast-growing Williamson County",
+        body: "Franklin's growth rate is among the highest in Tennessee, and that pace of development creates sustained termite exposure for new homeowners. Eastern subterranean termites are present in the soil throughout Williamson County per UT Extension, and when construction clears woodland and agricultural land, the disturbed soil does not reduce termite populations. It brings construction lumber into proximity with established colonies. A pre-treatment of the soil before the slab is poured is the standard protection for new construction in this region. Buyers of recently built homes should confirm whether pre-treatment was applied. Older farmhouses converted to residential use in the rural parts of Williamson County face a different version of the same problem: decades of termite exposure without the inspection history of urban properties. Annual inspection is the baseline recommendation for all Franklin and Williamson County properties.",
+      },
+      {
+        heading: "The Harpeth River's effect on Franklin's mosquito and ant season",
+        body: "The Harpeth River is a feature that defines the Williamson County landscape and elevates the pest pressure along its corridor. Mosquitoes breed in the river's slower sections and in the floodplain pools left by spring rains. Properties within a half mile of the river see earlier spring mosquito activity and higher summer populations than those on the upland portions of Franklin's suburban grid. Asian tiger mosquitoes, which bite during the day and breed in small containers, are present throughout the metro area and are not limited to riverside properties. The Harpeth corridor also sustains carpenter ant colonies in the mature trees of the riparian forest. Homes backing up to the wooded river edge see carpenter ant foraging into wall voids and deck wood more often than those in the open suburban interior.",
+      },
+    ],
+    prevention: [
+      "Confirm that new construction had a pre-construction soil treatment applied before purchasing a home built in the last ten years in Williamson County.",
+      "Eliminate standing water in retention ponds, gutters, and low yard spots to reduce Harpeth River area mosquito breeding.",
+      "Inspect wood decks, fascia boards, and window trim near the wooded edge each spring for carpenter ant activity.",
+      "Apply broadcast lawn bait for fire ants in spring and fall to manage new colony establishment on disturbed soil.",
+    ],
+    costNote:
+      "Franklin pest control typically starts with a free inspection. Termite protection plans are recommended for all Williamson County properties and are often annual-contract programs. Mosquito programs run April through October. General pest programs for fire ants, cockroaches, and carpenter ants are typically quarterly.",
+    faqs: [
+      {
+        question: "Do new homes in Franklin, TN still need termite protection?",
+        answer:
+          "Yes. New construction in Williamson County enters a soil environment that already has established eastern subterranean termite colonies. A pre-construction soil treatment reduces risk, but it does not last indefinitely and should be supplemented with a protection plan. UT Extension confirms termites are active throughout middle Tennessee. The growth-edge locations where most new Franklin subdivisions are built, formerly wooded or agricultural land, are exactly where termite pressure is highest. Annual inspection from the first year of occupancy is the professional recommendation.",
+      },
+      {
+        question: "How bad is mosquito season along the Harpeth River in Franklin?",
+        answer:
+          "Properties near the Harpeth River and its floodplain see a longer and more intense mosquito season than Franklin's upland suburban areas. The river corridor provides breeding habitat from the first warm weeks of April through October. Stormwater retention ponds in newer subdivisions add local breeding sites beyond the riverside areas. The Asian tiger mosquito, a day-biting species, is well established in middle Tennessee and is not limited to riverside locations. Barrier treatment programs targeting resting adults around the home run April through October for full-season protection.",
+      },
+      {
+        question: "Are fire ants expanding in Franklin and Williamson County?",
+        answer:
+          "Yes. UT Extension confirms fire ants are expanding in Williamson County, driven by the same suburban growth that brings new construction and disturbed soil. Fire ants colonize disturbed ground quickly, and the pace of development in Franklin keeps creating new sites. Middle Tennessee's climate gives fire ants a long active season, typically March through November. Broadcast bait treatment across the full lawn twice a year, in spring and fall, is more effective at managing the county-wide population than treating individual mounds after they appear.",
+      },
+      {
+        question: "Are carpenter ants a structural risk in the wooded-edge Franklin neighborhoods?",
+        answer:
+          "Carpenter ants can cause real structural damage in Franklin homes that back up to wooded areas near the Harpeth River corridor. They nest in moist or softened wood, and the moisture that sustains the riparian forest edge can also affect wood members in decks, fascia, and crawl spaces of nearby homes. The damage accumulates slowly, which is why it is often caught late. Spring is the highest-visibility season, when foragers from established colonies move inside looking for food. A professional inspection in spring that includes crawl space and deck wood assessment is the best early-detection approach for wooded-edge properties.",
+      },
+      {
+        question: "What pest problems should I expect when moving into a newly built Franklin subdivision?",
+        answer:
+          "New construction in Williamson County typically sees heavy fire ant pressure in the first few years as the disturbed soil is colonized. Subterranean termite exposure depends on whether pre-construction soil treatment was applied. Mosquitoes from nearby stormwater ponds and the Harpeth River corridor are a seasonal reality. German cockroaches can appear in new commercial areas nearby. The most important step for a new Franklin homeowner is to confirm the termite pre-treatment status of the property and schedule a baseline inspection in the first spring of occupancy.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Nashville", slug: "nashville" },
+      { name: "Memphis", slug: "memphis" },
+      { name: "Chattanooga", slug: "chattanooga" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Franklin, TN | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Franklin pest control for subterranean termites, mosquitoes, fire ants, carpenter ants and German cockroaches. Williamson County Harpeth River middle Tennessee growth-corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

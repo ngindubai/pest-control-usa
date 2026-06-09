@@ -462,4 +462,228 @@ export const alabamaCities: CityLocation[] = [
     metaDescription:
       "Mobile pest control for Formosan termites, cockroaches, mosquitoes, fire ants and bed bugs. Mobile County Gulf Coast Alabama specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "tuscaloosa",
+    name: "Tuscaloosa",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T2",
+    population: "~108,000",
+    county: "Tuscaloosa County",
+    climate: "hot-humid",
+    climateDriver:
+      "Tuscaloosa sits in the Alabama Piedmont along the Black Warrior River, where the humid subtropical climate delivers long, hot summers and high year-round humidity. The Black Warrior River and its tributary creeks, along with the University of Alabama campus ponds and drainage areas, create sustained mosquito breeding habitat through the warm season. Auburn University Extension confirms Alabama carries among the highest subterranean termite pressure in the United States, and Tuscaloosa County sits firmly in that zone. The university population of over 35,000 students drives high turnover in rental housing, which creates above-average bed bug transmission risk.",
+    topPests: [
+      "Fire Ants",
+      "Mosquitoes",
+      "Subterranean Termites",
+      "German Cockroaches",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak after spring and summer rain",
+        note: "Fire ants are a constant presence across Tuscaloosa County. Alabama Cooperative Extension ranks them among the state's most significant pest challenges. The warm Alabama Piedmont climate keeps colonies active year-round, and mounds rebuild quickly after every rain event on residential lawns, parks, and the University of Alabama grounds.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peak June through August",
+        note: "The Black Warrior River corridor, campus ponds, and the many creek drainages feeding through Tuscaloosa provide productive mosquito breeding habitat through the long warm season. West Nile virus is monitored in Alabama each summer, and the Asian tiger mosquito, which bites during daylight hours, is established in Tuscaloosa County.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Auburn University Extension identifies Alabama as one of the highest subterranean termite pressure states in the United States. Tuscaloosa County's warm, humid climate and the moist soils of the Black Warrior River watershed keep termite colonies active across most of the calendar year. Swarms in late winter signal established underground colonies that may have been active for years.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor pest in Tuscaloosa's large student rental housing market, restaurants near the University of Alabama campus, and older multi-family buildings. The humid climate sustains year-round breeding, and they spread readily through shared walls and plumbing in multi-unit structures.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "The University of Alabama's 35,000-plus student population drives a high-turnover rental housing market in Tuscaloosa. Students moving in and out of dormitories, off-campus apartments, and houses, often after travel or from other infested environments, create elevated bed bug transmission pressure relative to cities without a large university population.",
+      },
+    ],
+    localHook:
+      "Auburn University Extension ranks Alabama among the highest subterranean termite pressure states in the United States, and Tuscaloosa County sits at the heart of that zone. Combine that with year-round fire ants, a Black Warrior River mosquito season that runs well into fall, and the bed bug pressure that comes with a 35,000-student campus, and you have a genuine four-season pest environment.",
+    intro:
+      "Pest control in Tuscaloosa works against two baseline pressures that never really stop: fire ants and subterranean termites. Auburn University Extension places Alabama among the highest termite pressure states in the country, and Tuscaloosa County's climate, sitting on the Black Warrior River in the Alabama Piedmont, is exactly the warm, humid environment that subterranean termite colonies thrive in. Fire ants are year-round. Mosquitoes run from March through October along the river and campus drainage areas, and West Nile virus is monitored in Alabama each summer. German cockroaches are the steady indoor pest in the city's large student rental housing stock, and the University of Alabama's population creates above-average bed bug transmission risk. Getting ahead of these pests with regular service makes more sense here than reacting once you have a visible problem.",
+    sections: [
+      {
+        heading: "Termite pressure in Tuscaloosa County",
+        body: "Auburn University Extension's termite guidance is pointed: Alabama is one of the highest termite pressure states in the United States. The warm, humid Alabama Piedmont climate, with the Black Warrior River watershed running through Tuscaloosa County, creates soil conditions where eastern subterranean termite colonies establish readily and grow large. Spring swarms, typically visible from February through April, are the most public sign of established colonies. The colony doing the damage has been underground for years before the swarm. Annual inspections with proactive soil treatment or bait station protection are the standard approach for Tuscaloosa homeowners. Waiting for visible structural damage means a significant infestation has been active for a long time.",
+      },
+      {
+        heading: "Bed bugs and the university housing market",
+        body: "Tuscaloosa's character as a university city creates pest dynamics that a comparably sized city without a major campus simply does not face. The University of Alabama enrolls over 35,000 students, and the turnover in dormitories, off-campus apartments, and rental houses is concentrated at the start and end of each semester. Students arrive from cities across the country, stay in hotels, and move used furniture and secondhand goods into housing that is then occupied by the next group. That cycle sustains bed bug transmission at a level that requires awareness from property owners and tenants alike. Early detection through regular inspection of mattress seams, headboards, and upholstered furniture is the most effective management step. A small infestation caught early is far less expensive to treat than an established one.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection: Tuscaloosa County is in Alabama's high termite pressure zone, confirmed by Auburn University Extension.",
+      "Broadcast bait the full lawn for fire ants in spring and fall rather than treating individual mounds after they appear.",
+      "Inspect mattress seams and upholstered furniture for bed bug signs at the start of each semester if you rent near campus.",
+      "Remove standing water from gutters, drainage areas, and containers weekly to reduce the Black Warrior River mosquito population around your home.",
+    ],
+    costNote:
+      "Tuscaloosa pest control is typically quoted as a year-round general program covering fire ants, cockroaches, spiders, and ants, with termite protection quoted separately after inspection. Bed bug treatment is quoted after a separate inspection. Mosquito service runs seasonally from March through October. A free initial assessment determines the right plan for your property.",
+    faqs: [
+      {
+        question: "How serious is termite pressure in Tuscaloosa County?",
+        answer:
+          "Very serious. Auburn University Extension identifies Alabama as one of the highest subterranean termite pressure states in the United States, and Tuscaloosa County's warm, humid climate along the Black Warrior River keeps colonies active most of the year. Spring swarms in February through April signal established underground colonies. Annual inspections with a proactive protection plan are strongly recommended for all Tuscaloosa homeowners.",
+      },
+      {
+        question: "Are fire ants active year-round in Tuscaloosa?",
+        answer:
+          "Essentially yes. The warm Alabama Piedmont climate does not deliver winters cold enough to suppress fire ant colonies the way harsher northern climates do. Mounds rebuild quickly after rain throughout the year. Alabama Cooperative Extension ranks them among the state's most significant pest challenges, and broadcast bait treatment in spring and fall is more effective than treating individual mounds as they appear.",
+      },
+      {
+        question: "Why are bed bugs a bigger issue near the University of Alabama campus?",
+        answer:
+          "The University of Alabama enrolls over 35,000 students, and the rental housing market around campus sees concentrated turnover at the start and end of each semester. Students moving in and out, often after travel or from other infested locations, bring bed bugs into dormitories and off-campus rentals. Property owners who turn over units without inspection between tenants can unknowingly pass infestations from one group of occupants to the next. Early detection and inspection at tenant changeover are the most effective steps.",
+      },
+      {
+        question: "How long is mosquito season in Tuscaloosa?",
+        answer:
+          "Mosquito season in Tuscaloosa typically runs from March through October. The Black Warrior River, campus ponds, and creek drainages throughout the city provide sustained breeding habitat through the warm season. The Asian tiger mosquito is established in Tuscaloosa County and extends the nuisance into daytime hours, unlike most mosquito species that peak at dawn and dusk.",
+      },
+      {
+        question: "Is West Nile virus a risk in Tuscaloosa?",
+        answer:
+          "West Nile virus is monitored across Alabama each summer, and Tuscaloosa County has seen activity in previous years. Most infections cause mild or no symptoms, but a small percentage can cause serious neurological illness. Reducing mosquito bites through repellent use, barrier spray treatment around the home, and eliminating standing water on the property are the practical steps to reduce exposure risk.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Birmingham", slug: "birmingham" },
+      { name: "Montgomery", slug: "montgomery" },
+      { name: "Columbus", slug: "columbus" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Tuscaloosa, AL | Termites, Fire Ants & Bed Bugs",
+    metaDescription:
+      "Tuscaloosa pest control for subterranean termites, fire ants, mosquitoes, German cockroaches and bed bugs. Tuscaloosa County Black Warrior River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hoover",
+    name: "Hoover",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T2",
+    population: "~92,000",
+    county: "Jefferson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Hoover is an affluent Birmingham suburb straddling Jefferson and Shelby Counties in the Alabama Piedmont. The humid subtropical climate delivers long, hot summers and mild winters with high year-round humidity. Hoover's rapid residential development has pushed neighborhoods up against forested land in the Cahaba River watershed, maintaining significant termite and fire ant pressure from undisturbed surrounding soils. The Cahaba River greenway, ponds, and the many retention areas in newer subdivisions sustain mosquito populations through the warm season. Auburn University Extension confirms Alabama's high subterranean termite pressure applies across Jefferson and Shelby Counties.",
+    topPests: [
+      "Fire Ants",
+      "Subterranean Termites",
+      "Mosquitoes",
+      "German Cockroaches",
+      "Carpenter Bees",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak spring through fall",
+        note: "Fire ants are a consistent presence in Hoover's suburban lawns and green spaces. The city's development pattern, with residential lots backing onto wooded land in the Cahaba River watershed, means fire ant colonies from undisturbed surrounding areas continually recolonize treated properties. Alabama Cooperative Extension recommends broadcast bait treatment twice a year over the full lawn for sustained control in this type of setting.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Auburn University Extension identifies Alabama as among the highest subterranean termite pressure states in the country. Hoover's position where suburban development meets forested Cahaba River watershed land means termite colonies from the surrounding woods can move into residential structures. Newer construction is not immune: grade-level wood, foam insulation, and expansion joints are all entry pathways for subterranean termites.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The Cahaba River greenway, subdivision retention ponds, and the many drainage features in Hoover's newer residential neighborhoods provide consistent mosquito breeding habitat through the warm season. The Asian tiger mosquito, which bites during daylight, is established in Jefferson County and extends the nuisance beyond dawn and dusk hours.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "While Hoover's newer housing stock has fewer of the structural entry points common in older buildings, German cockroaches establish readily in kitchens and bathrooms once introduced. They spread through shared walls in the townhome and condominium communities common in Hoover and through the restaurant and retail corridors at the Riverchase Galleria and Patton Creek.",
+      },
+      {
+        name: "Carpenter bees",
+        serviceSlug: "bee-control",
+        activeSeason: "March through September, most active April and May",
+        note: "Carpenter bees are a notable pest in Hoover because the city's newer construction makes frequent use of cedar and redwood trim, fascia, and decorative wood elements. Female carpenter bees drill perfectly round half-inch holes in unpainted or unstained softwood to create nesting galleries. The damage accumulates over seasons as the same sites are reused by new bees each spring.",
+      },
+    ],
+    localHook:
+      "Hoover's development pattern tells most of the pest story. Subdivisions backing up to forested Cahaba River watershed land mean fire ant colonies and subterranean termite pressure from undisturbed surrounding woods are a consistent reality for homeowners. Auburn University Extension's statewide termite data puts all of Jefferson County in the high-pressure zone. Newer construction with cedar trim adds carpenter bees to the list in a way that older Alabama cities simply do not see as often.",
+    intro:
+      "Pest control in Hoover comes with a suburban development wrinkle that changes the equation compared to an older city. The subdivisions along the Cahaba River watershed back directly onto forested land, which means fire ant and termite pressure from undisturbed surrounding areas is a constant. Colonies from the woods recolonize treated residential lots, particularly at the property boundaries where lawn meets tree line. Auburn University Extension places all of Jefferson County in Alabama's high subterranean termite pressure zone, and that applies equally to Hoover's newest construction as to its older neighborhoods. Carpenter bees attack the cedar and redwood trim on newer homes throughout spring and summer. Mosquitoes breed in retention ponds and the Cahaba River greenway. German cockroaches move through the restaurant and retail corridors and into adjacent multi-family housing. Year-round service makes more sense here than reactive treatments.",
+    sections: [
+      {
+        heading: "Newer construction is not termite-proof in Hoover",
+        body: "A common misconception among Hoover homeowners is that newer construction is somehow protected from termites. It is not. Eastern subterranean termites enter structures through expansion joints, foam insulation panels, wood mulch touching the foundation, and direct wood-to-soil contact at grade level. Modern construction methods actually create some pathways that older construction does not have: foam board insulation covering the foundation, for instance, provides a hidden, moisture-retaining channel that termites exploit. Auburn University Extension identifies Alabama as a high termite pressure state, and that pressure does not skip newer subdivisions. An annual inspection for homes in the Cahaba River watershed, where termite colonies from undisturbed forested land maintain nearby populations, is the correct protective step regardless of the age of the structure.",
+      },
+      {
+        heading: "Carpenter bees: a specific Hoover problem",
+        body: "Carpenter bees are not dangerous in the way that stinging insects like yellow jackets or fire ants are. The females rarely sting and the males, which do patrol and dive-bomb people near the nest sites, cannot sting at all. The problem is structural. A female carpenter bee drills a half-inch round entrance hole in softwood, then turns ninety degrees to drill a gallery several inches long where she lays eggs. The same sites are reused each spring by new bees, and after several years the accumulated gallery damage weakens the wood. Cedar fascia, deck supports, pergola beams, and decorative trim are the typical targets in Hoover's newer housing. Treatment in late winter before the bees become active, combined with filling and painting the existing holes to deny access to established galleries, is the most effective management approach.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection: Jefferson County sits in Alabama's high-pressure termite zone and proximity to the Cahaba River forested land adds further risk.",
+      "Broadcast bait the full lawn for fire ants in spring and fall, paying particular attention to the property boundaries where lawn meets the tree line.",
+      "Paint or stain all exposed cedar and redwood trim before spring to reduce carpenter bee drilling on new construction.",
+      "Clear standing water from subdivision retention areas, gutters, and low spots weekly to limit mosquito breeding near the home.",
+    ],
+    costNote:
+      "Hoover pest control is typically quoted as a year-round general program covering fire ants, cockroaches, spiders, and ants, with termite protection quoted separately after inspection. Carpenter bee treatment is seasonal, typically quoted in late winter or early spring. Mosquito service runs from March through October. A free inspection establishes the right starting plan.",
+    faqs: [
+      {
+        question: "Does newer construction in Hoover still need termite protection?",
+        answer:
+          "Yes. Eastern subterranean termites enter newer construction through expansion joints, foam insulation at the foundation, wood mulch touching the slab, and any grade-level wood contact. Auburn University Extension places Jefferson County in Alabama's high termite pressure zone, and Hoover's proximity to forested Cahaba River watershed land means active termite colonies are present in the surrounding soil. Annual inspections are recommended regardless of the age of the structure.",
+      },
+      {
+        question: "Why do fire ants keep coming back in my Hoover yard after treatment?",
+        answer:
+          "If your property backs onto wooded or undeveloped land in the Cahaba River watershed, fire ant colonies from those undisturbed areas will recolonize the edges of your treated lawn. This is not a treatment failure; it is a pressure reality in Hoover's suburban setting. Broadcast bait treatment covering the full lawn twice a year, with attention to the boundaries near the tree line, is the most effective sustained approach in this type of property.",
+      },
+      {
+        question: "Are carpenter bees damaging to Hoover homes?",
+        answer:
+          "Over time, yes. Female carpenter bees drill nesting galleries in cedar, redwood, and other softwood trim elements. A single season causes minor damage, but the same sites are reused each spring and the galleries grow longer year over year. Fascia boards, pergola beams, and decorative trim on newer Hoover construction are the typical targets. Treatment before the spring active season, combined with filling and painting existing holes, prevents the cumulative damage that becomes structurally significant.",
+      },
+      {
+        question: "How serious is mosquito pressure near the Cahaba River greenway in Hoover?",
+        answer:
+          "The Cahaba River greenway, combined with the retention ponds common in Hoover's newer subdivisions, creates consistent mosquito breeding habitat through the March to October warm season. The Asian tiger mosquito is established in Jefferson County and bites throughout the day. Monthly barrier spray programs targeting the shaded resting vegetation around the property provide reliable yard-level protection.",
+      },
+      {
+        question: "Are German cockroaches common in Hoover even in newer homes?",
+        answer:
+          "German cockroaches establish wherever there is warmth, moisture, and food residue, regardless of the age of the building. In Hoover, they are more often introduced through the restaurant and retail corridors near Riverchase Galleria and Patton Creek and spread into adjacent residential areas. In townhome and condominium communities, they move through shared walls. Treatment requires gel bait and insect growth regulator applied to the harboring areas, not just surface contact sprays.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Birmingham", slug: "birmingham" },
+      { name: "Tuscaloosa", slug: "tuscaloosa" },
+      { name: "Pelham", slug: "pelham" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Hoover, AL | Termites, Fire Ants & Carpenter Bees",
+    metaDescription:
+      "Hoover pest control for subterranean termites, fire ants, mosquitoes, German cockroaches and carpenter bees. Jefferson County Cahaba River suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

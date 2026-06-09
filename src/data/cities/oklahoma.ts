@@ -554,4 +554,116 @@ export const oklahomaCities: CityLocation[] = [
     metaDescription:
       "Edmond pest control for Eastern subterranean termites, brown recluse spiders, fire ants, German cockroaches and house mice. Oklahoma County OKC north suburb prairie specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "lawton",
+    name: "Lawton",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T2",
+    population: "~96,000",
+    county: "Comanche County",
+    climate: "semi-arid",
+    climateDriver:
+      "Lawton sits in the semi-arid southwestern corner of Oklahoma near the Wichita Mountains, with hot summers that draw moisture from the Gulf and dry winters influenced by the High Plains. The climate sits at the edge of the humid subtropical zone and supports a wide range of southern pest species including fire ants, subterranean termites, and scorpions. Fort Sill military base is adjacent to the city, creating an unusual mix of military housing and civilian residential pest demands.",
+    topPests: [
+      "Fire Ants",
+      "Subterranean Termites",
+      "Brown Recluse Spiders",
+      "German Cockroaches",
+      "Scorpions",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Oklahoma State University Extension confirms fire ants have colonized much of southwestern Oklahoma, including Comanche County. They rebuild mounds rapidly after rain events and are a sting hazard in yards, parks, and any outdoor area with open turf. Fort Sill grounds and adjacent base housing areas also deal with ongoing fire ant pressure.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active most of the year",
+        note: "Eastern subterranean termites are active across Oklahoma per OSU Extension, and Lawton's warm climate keeps colonies active for more of the year than northern states. Pre-construction soil treatment and annual inspections are the standard protection approach for Comanche County homes.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Oklahoma is in the core geographic range of the brown recluse, and OSU Extension confirms they are genuinely common household pests statewide, including in Lawton. Older housing stock, garages, storage areas, and closets are typical habitat. This is not an occasional finding in southwestern Oklahoma.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a year-round indoor concern in Lawton's residential and commercial buildings. They breed in warm kitchen and bathroom environments and spread through shared spaces in multi-unit housing. Fort Sill base housing and adjacent commercial areas create ongoing cockroach management demand.",
+      },
+      {
+        name: "Scorpions",
+        serviceSlug: "spider-control",
+        activeSeason: "Spring through fall, can be found indoors in winter",
+        note: "Oklahoma sits on the eastern edge of the striped bark scorpion's range, and Lawton's proximity to the Wichita Mountains and the semi-arid western Oklahoma terrain makes scorpion encounters more common here than in eastern parts of the state. They shelter under rocks, wood piles, and in wall voids and can sting if disturbed.",
+      },
+    ],
+    localHook:
+      "Lawton is where Oklahoma's fire ant and termite pressure meets the western edge of scorpion country. Add brown recluse spiders confirmed as common household pests across the state by OSU Extension, and you have a pest environment that genuinely rewards a professional, scheduled approach rather than reactive treatment after a sting or bite.",
+    intro:
+      "Lawton is the largest city in southwestern Oklahoma, sitting near the Wichita Mountains and adjacent to Fort Sill, one of the country's major Army installations. The pest environment here reflects the semi-arid Oklahoma climate at its western edge, with species that are less common in eastern Oklahoma appearing alongside the southern pests that are statewide concerns. Oklahoma State University Extension confirms fire ants have colonized much of southwestern Oklahoma, including Comanche County. They are established in Lawton's residential neighborhoods, the open grounds around Fort Sill, and anywhere with maintained turf where they rebuild mounds quickly after rain. Eastern subterranean termites are active across Oklahoma per OSU Extension, and the warm Lawton climate keeps colonies productive for a long portion of the year. Brown recluse spiders are not a regional rarity here: OSU Extension confirms they are genuinely common household pests across Oklahoma, and Lawton's older housing stock with its garages, storage areas, and closets provides typical habitat for them. Scorpions make the Lawton pest list in a way they do not in eastern Oklahoma, with the striped bark scorpion reaching the eastern edge of its range in southwestern Oklahoma. German cockroaches are a year-round concern in the city's residential buildings and along the commercial corridors. Fort Sill's presence creates an additional layer of pest management complexity, with base housing and the support facilities generating their own service demand that overlaps with the civilian market. This is a demanding pest environment that rewards a planned, year-round approach covering the species that are active across different seasons.",
+    sections: [
+      {
+        heading: "Fire Ants and Scorpions in the Comanche County Landscape",
+        body: "Two of Lawton's more distinctive pest concerns are fire ants and scorpions, and they share some geographic logic. Both are associated with the semi-arid, open terrain of southwestern Oklahoma that Lawton sits within. Oklahoma State University Extension confirms red imported fire ants are established across much of southwestern Oklahoma, including Comanche County, where they create sting hazards in residential yards, parks, and any open turf area. Fire ant mounds rebuild rapidly after rain events, which is why a single broadcast bait treatment rarely produces lasting relief. A two-step treatment approach, applying a broadcast bait to reduce overall colony density followed by individual mound treatment for remaining active mounds, is the standard OSU-recommended method for effective and sustained fire ant management. Scorpions in Lawton are primarily the striped bark scorpion, which is active across southwestern Oklahoma and can be found under rocks, wood piles, in wall voids, and occasionally inside structures, particularly in older buildings. They are not as common as fire ants but they are a real presence in the Lawton area in a way they are not in eastern Oklahoma. Glue boards in garages and storage areas help monitor for scorpion activity. Sealing foundation gaps and removing exterior harborage reduces the risk of encounters indoors.",
+      },
+      {
+        heading: "Termite Risk and Brown Recluse Management Near Fort Sill",
+        body: "Termite and brown recluse spider pressure are the two pest concerns in Lawton that most benefit from professional scheduled management rather than reactive response. Eastern subterranean termites are active across Oklahoma, and Lawton's warm climate extends their productive season well beyond what northern states see. They are a structural risk that works silently through wood, often going undetected for years in crawl spaces and wall voids before visible damage appears. Annual professional inspections are the standard protection approach for Lawton homeowners, and pre-treatment soil barriers around the foundation are worth considering for homes that have not been treated. Brown recluse spiders are an equally important reason for scheduled professional service in Lawton. OSU Extension is explicit that brown recluses are genuinely common household pests across Oklahoma, not an occasional regional curiosity. They are regularly found in garages, attics, closets, and storage boxes, and a bite, while not always serious, can cause significant tissue damage. Regular perimeter and interior treatment, combined with reducing clutter in storage areas, is the standard management approach. For Fort Sill military housing residents, the base has its own pest management program, but civilian homes adjacent to the installation deal with the same species and benefit from the same scheduled professional approach.",
+      },
+    ],
+    prevention: [
+      "Apply a broadcast fire ant bait to your yard in spring and fall to reduce overall colony density, then treat remaining active mounds individually for the most effective and lasting control.",
+      "Schedule an annual termite inspection to catch early activity before it becomes visible structural damage, particularly in crawl spaces and wood near the foundation.",
+      "Reduce clutter in garages, storage areas, and closets and use glue boards to monitor for brown recluse spider activity, which is common in Lawton's older housing stock.",
+      "Seal foundation gaps and exterior wall penetrations to limit scorpion and rodent entry, especially on the western and northern sides of buildings that face toward the more open Wichita Mountains terrain.",
+    ],
+    costNote:
+      "Pest control services in Lawton typically run $120 to $300 for an initial inspection and treatment for common pests like cockroaches or fire ants. Termite inspections are usually $75 to $150 with treatment costs varying significantly by method (liquid barrier, bait system) and home size. Brown recluse treatment programs run $150 to $350 per visit depending on the size of the structure and the extent of activity. Ask about year-round service agreements, which are usually more cost-effective for Lawton's multi-species pest calendar than individual treatments.",
+    faqs: [
+      {
+        question: "Are fire ants as bad in Lawton as in other parts of Oklahoma?",
+        answer:
+          "Oklahoma State University Extension confirms red imported fire ants are established across much of southwestern Oklahoma, including Comanche County, and Lawton residents deal with active mound pressure in yards, parks, and open turf areas throughout the warm months. The semi-arid southwestern Oklahoma climate suits fire ants well, and they rebuild mounds quickly after rain events. A two-step treatment approach is the OSU-recommended method: a broadcast bait application to reduce overall colony pressure across the yard, followed by individual mound treatment for remaining active colonies. This approach is more effective and longer lasting than single-event broadcast spray or individual mound treatments alone.",
+      },
+      {
+        question: "How common are brown recluse spiders in Lawton homes?",
+        answer:
+          "Oklahoma State University Extension is straightforward on this point: brown recluse spiders are genuinely common household pests across Oklahoma, not a rare or occasional finding. Lawton is in the core geographic range of the species. They are regularly found in garages, attics, closets, storage boxes, and any area with low disturbance and available prey. Older homes in Lawton with attic storage and garage clutter are particularly typical habitat. Regular perimeter and interior treatment combined with reducing clutter in storage areas is the standard management approach. A bite can cause significant localized tissue damage in some cases, so taking the presence of brown recluses seriously is reasonable.",
+      },
+      {
+        question: "Do I need to worry about termites in Lawton, and what is the best protection?",
+        answer:
+          "Yes. Eastern subterranean termites are active across Oklahoma, and Lawton's warm climate extends their productive season compared to northern states. They are a genuine structural risk and they work silently over years in crawl spaces and wall voids before damage becomes visible. Annual professional inspections are the baseline protection for Lawton homeowners. Liquid soil barriers around the foundation or bait station systems are the two primary treatment approaches, and a licensed inspector can advise which is appropriate for your home's construction type and the presence of any prior treatment. Homes that have not been treated in several years are worth inspecting promptly.",
+      },
+      {
+        question: "Are scorpions a real concern in Lawton, or just an occasional oddity?",
+        answer:
+          "Scorpions are a real presence in Lawton, more so than in eastern Oklahoma. The striped bark scorpion reaches the eastern edge of its range in southwestern Oklahoma, and Lawton's semi-arid terrain near the Wichita Mountains is consistent with scorpion habitat. They are most commonly found under rocks, wood piles, and debris in the yard, and they shelter in wall voids and can enter structures through foundation gaps. Encounters inside the home are less common than outside, but they occur, particularly in older buildings. Glue boards in garages and storage areas help monitor for activity. Sealing foundation gaps and removing exterior wood piles and rock piles close to the foundation are the most useful prevention steps.",
+      },
+      {
+        question: "How does Fort Sill's presence affect pest control for Lawton civilians?",
+        answer:
+          "Fort Sill has its own integrated pest management program for base housing and installation facilities, but civilian homeowners adjacent to the base deal with the same pest species and pressures as the rest of Lawton. The base's large open grounds and maintained turf areas sustain fire ant and rodent populations that extend into neighboring civilian neighborhoods, so properties near the base perimeter can see elevated fire ant and mouse pressure depending on the season. Civilian residents in adjacent neighborhoods benefit from the same scheduled professional approach as anywhere in Lawton, with particular attention to fire ants in spring and fall, termite inspections annually, and brown recluse management year-round.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Oklahoma City", slug: "oklahoma-city" },
+      { name: "Tulsa", slug: "tulsa" },
+      { name: "Wichita Falls", slug: "wichita-falls" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Lawton, OK | Fire Ants, Termites & Brown Recluse",
+    metaDescription:
+      "Lawton pest control for fire ants, subterranean termites, brown recluse spiders, German cockroaches and scorpions. Comanche County Fort Sill area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

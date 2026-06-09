@@ -965,4 +965,116 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Kirkland pest control for carpenter ants, Norway rats, yellowjackets, odorous house ants and moisture ants. King County Lake Washington eastern shoreline Pacific Northwest specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "spokane-valley",
+    name: "Spokane Valley",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T2",
+    population: "~100,000",
+    county: "Spokane County",
+    climate: "semi-arid",
+    climateDriver:
+      "Spokane Valley sits in the Spokane River valley in eastern Washington, on the dry side of the Cascade Mountains. The climate here is sharply different from western Washington: colder winters, hotter summers, and far less rain. Annual precipitation is around 17 inches, making this semi-arid high-plateau country. Cold winters drive reliable fall rodent surges into heated buildings. The dry summers support large yellowjacket ground nests. Stink bugs, originally an eastern US pest, are now well established in Spokane County. The Spokane River and the valley terrain add moisture corridors that support ant and insect diversity above what the dryland terrain alone would sustain.",
+    topPests: [
+      "House Mice",
+      "Stink Bugs",
+      "Odorous House Ants",
+      "Yellowjackets",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, strong surge September through November",
+        note: "Spokane Valley's cold semi-arid winters produce one of the most reliable fall mouse surges in the Pacific Northwest. As September temperatures drop, mice move from the surrounding dryland and open terrain into heated homes. Newer subdivision construction in the valley backs up to open land on multiple sides, and the field-to-subdivision interface is where most fall invasions start. Washington State University Extension identifies house mice as the primary rodent pest of eastern Washington homes.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering indoors",
+        note: "Washington State University Extension confirms that brown marmorated stink bugs are established in Spokane County and that fall invasions on eastern Washington homes are a consistent and growing issue. Stink bugs aggregate on south- and west-facing walls in September and enter through window frames, attic vents, and siding gaps. Once inside they overwinter in wall voids and emerge in spring, sometimes in significant numbers.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, trailing indoors in dry summers and wet spells",
+        note: "Odorous house ants are the most commonly treated ant in eastern Washington per WSU Extension. They are small, dark, and trail reliably to kitchens. Hot dry summers drive them indoors seeking moisture. Colonies nest in mulch, under patios, and in wall voids. Bait placed at active trail points is more effective than spray, which disrupts foraging but does not reach the colony.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, peak aggression August and September",
+        note: "Spokane Valley's dry terrain is ideal for yellowjacket ground nesting. Colonies build through the dry summer and become aggressive as food sources compete in late August and September. Ground nests near driveways, garden beds, and lawn edges are common. Wall void nests in older homes in the valley's established residential areas are also a seasonal problem. Peak aggression in late summer makes treating colonies earlier in July a much safer approach.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are less prevalent in semi-arid eastern Washington than in the wet Pacific Northwest west of the Cascades, but they are present in Spokane Valley, particularly in older wood-frame homes and structures near the Spokane River corridor where moisture levels are higher. Seeing large black ants foraging indoors in spring is often the first sign of an established colony in moist or softened structural wood.",
+      },
+    ],
+    localHook:
+      "Spokane Valley's position at the edge of the Palouse dryland farming region means the fall mouse pressure here comes in part from open agricultural terrain that borders residential areas on several sides. Field mice move as crops are harvested and ground cover dries. The transition from Palouse farmland to suburban yards happens within a short distance of much of the valley's housing.",
+    intro:
+      "Spokane Valley is eastern Washington's largest suburb, and its semi-arid climate sets it apart from the wet Pacific Northwest most people picture when they think of Washington. Winters are genuinely cold, summers are hot and dry, and the pest calendar reflects that. Mice push into heated homes each fall from the surrounding dryland terrain, reliably and in number. Brown marmorated stink bugs are now established in Spokane County per Washington State University Extension, and they invade valley homes in September just as they do across the eastern states where they originated. Odorous house ants trail into kitchens during dry summer stretches. Yellowjackets build large ground nests in the dry terrain through summer and turn aggressive by August. Carpenter ants appear near the river corridor and in older wood structures. The pest profile here is not the carpenter ants and Norway rats of Seattle. It is a drier, colder-winter mix, and the treatments need to match.",
+    sections: [
+      {
+        heading: "Fall rodent and stink bug invasions in Spokane Valley",
+        body: "Two fall invasions happen in Spokane Valley every September, and homeowners often notice both at once. Mice start moving in from the surrounding terrain as temperatures drop, and stink bugs aggregate on sun-warmed siding before pushing through any gap they can find. The timing overlaps because both are driven by the same cooling temperatures. WSU Extension confirms stink bugs are established in Spokane County, and the fall mouse surge is a well-documented annual pattern in eastern Washington. Prevention requires addressing both at the same time: sealing foundation gaps and pipe penetrations for mice, and sealing window frame gaps, attic vents, and siding seams for stink bugs. Waiting until you see the first invader inside means the prevention window has already closed. Starting exclusion work in late August, before the first cold nights arrive, is the practical approach.",
+      },
+      {
+        heading: "Odorous house ants and yellowjackets through the Spokane Valley summer",
+        body: "The summer pest season in Spokane Valley is dominated by ants and yellowjackets. Odorous house ants are the number one ant call in eastern Washington per WSU Extension, trailing into kitchens from colonies in mulch, patio edges, and wall voids. The dry heat of July and August drives them indoors seeking moisture, and they find it in kitchens and bathrooms. Baiting at active trail points works significantly better than spray for this species because it reaches the colony rather than just the foragers. Yellowjackets build ground nests in the valley's dry terrain through June and July. By August the colonies are large and the workers are actively foraging, and by late August they are aggressive near food. Treating ground nests in July, when colonies are smaller and less defensive, is safer and more effective than waiting. Any ground nest near a high-traffic area of the yard warrants professional treatment.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and the gap under garage doors in late August before the fall mouse and stink bug surge begins.",
+      "Install tight-fitting attic vent screens and check window frame caulking in early September to block stink bug entry.",
+      "Reduce mulch depth at the foundation perimeter to below two inches to remove odorous house ant harborage.",
+      "Locate and treat yellowjacket ground nests in July rather than August, when colonies are smaller and less aggressive.",
+    ],
+    costNote:
+      "Spokane Valley pest control typically starts with a free inspection. Mouse exclusion and trapping programs are common fall-to-winter services. Yellowjacket nest removal is usually a single-visit service. Ant programs typically run spring through fall. Stink bug exclusion is most effective as a preventive fall service.",
+    faqs: [
+      {
+        question: "Why do I get so many mice in my Spokane Valley home every fall?",
+        answer:
+          "Spokane Valley's semi-arid terrain and the adjacent Palouse agricultural land create a large field mouse population that moves toward heated buildings as temperatures drop in September and October. The fall harvest reduces ground cover in surrounding open areas, and mice look for shelter. WSU Extension identifies house mice as the primary rodent pest of eastern Washington homes. Homes backing up to open ground or agricultural edges see the heaviest pressure. Sealing foundation gaps and the gap under garage doors before September's first cold nights is the most effective prevention step.",
+      },
+      {
+        question: "Are stink bugs really a problem in Spokane Valley, or is that more of an eastern US issue?",
+        answer:
+          "Stink bugs have moved well beyond their eastern US origin. Washington State University Extension confirms brown marmorated stink bugs are established in Spokane County. Fall invasions on Spokane Valley homes are documented and growing. They aggregate on south-facing walls in September and enter through window frames, attic vents, roof-line gaps, and siding seams. They do not reproduce indoors but can overwinter in wall voids in significant numbers and emerge in spring. Exclusion before the fall aggregation starts is the practical control method.",
+      },
+      {
+        question: "What is the fastest way to deal with a yellowjacket ground nest near my Spokane Valley driveway?",
+        answer:
+          "Professional treatment is the right call for any ground nest near a high-traffic area. Yellowjackets defend their colonies aggressively, and disturbing a mature nest in August or September can result in a large number of stings very quickly. Treatment is most effective at night when the colony is inside the nest. Do not attempt to cover or flood the nest yourself. Mark the nest location clearly, keep people and pets away from the area, and schedule professional treatment. Treating earlier in the season, in June or July, when the colony is smaller, is significantly safer.",
+      },
+      {
+        question: "Is carpenter ant damage a real concern in Spokane Valley homes?",
+        answer:
+          "Carpenter ants are present in Spokane Valley but are not the dominant pest they are in western Washington's wet climate. They prefer moist or water-damaged wood, so the risk is higher in homes near the Spokane River corridor or with moisture problems in crawl spaces or wall assemblies. Seeing large black ants foraging indoors in spring, particularly in kitchens or bathrooms near plumbing, is the most common sign. An inspection can determine whether there is an active colony in structural wood or whether the ants are foraging in from an exterior nest. Sound, dry wood is largely resistant to carpenter ant damage.",
+      },
+      {
+        question: "How do odorous house ants in Spokane Valley differ from the ants I dealt with living in western Washington?",
+        answer:
+          "Odorous house ants are the same species across Washington, but the eastern Washington summer heat changes their behavior. On the wet west side, they trail indoors most heavily during rain events when outdoor nests flood. In Spokane Valley, the hot dry summers push them indoors seeking moisture even without rain. The management approach is the same on both sides of the Cascades: slow-acting bait at trail points reaches the colony more effectively than spray, which disrupts foragers but does not address the nest. Exterior perimeter bait treatments in spring reduce the outdoor colony that feeds the indoor trails.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Spokane", slug: "spokane" },
+      { name: "Seattle", slug: "seattle" },
+      { name: "Bellevue", slug: "bellevue" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Spokane Valley, WA | Mice, Stink Bugs & Yellowjackets",
+    metaDescription:
+      "Spokane Valley pest control for house mice, stink bugs, odorous house ants, yellowjackets and carpenter ants. Spokane County semi-arid eastern Washington specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

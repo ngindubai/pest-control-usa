@@ -883,4 +883,116 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Roswell pest control for Eastern subterranean termites, mosquitoes, fire ants, German cockroaches and yellowjackets. Fulton County Chattahoochee River Big Creek Georgia Piedmont specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "warner-robins",
+    name: "Warner Robins",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T2",
+    population: "~82,000",
+    county: "Houston County",
+    climate: "hot-humid",
+    climateDriver:
+      "Warner Robins sits on the Piedmont-Coastal Plain fall line in central Georgia, one of the most biologically active transition zones in the Southeast. The humid subtropical climate means mild winters, long hot summers, and year-round pest activity for most species. Robins Air Force Base and the surrounding residential development create dense suburban habitat in the middle of Georgia's agricultural heartland.",
+    topPests: [
+      "Fire Ants",
+      "Mosquitoes",
+      "Subterranean Termites",
+      "American Cockroaches",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mound reconstruction most visible after rain",
+        note: "Fire ants are endemic throughout Houston County and year-round residents of Warner Robins lawns, parks, and green spaces. University of Georgia Extension confirms Georgia's mild winters do not cause fire ant dormancy: colonies remain active year-round and rebuild mounds quickly after rain events.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Active April through October, peak in summer",
+        note: "Mosquitoes are active in Warner Robins from April through October in most years. West Nile virus is monitored in Georgia annually. The city's position in the humid Piedmont-Coastal Plain transition sustains standing water breeding habitat in yards, drainage areas, and landscape features.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms February through April",
+        note: "Warner Robins sits on the Piedmont-Coastal Plain fall line, one of the highest-pressure termite zones in Georgia per University of Georgia Extension. The warm, humid climate supports year-round termite colony activity, and spring swarms near windows and lights are the most visible sign of established colonies.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round outdoors, push indoors in summer heat",
+        note: "American cockroaches (Periplaneta americana) are common outdoors year-round in Warner Robins's warm, humid climate. They live in mulch, sewers, and crawl spaces and push indoors through plumbing penetrations and foundation gaps during peak summer heat.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches breed entirely indoors and are a year-round concern in Warner Robins commercial kitchens, restaurants, and multi-family housing. UGA Cooperative Extension identifies German cockroaches as the primary indoor cockroach pest across Georgia's urban and suburban settings.",
+      },
+    ],
+    localHook:
+      "Warner Robins sits on the fall line that divides Georgia's Piedmont from the Coastal Plain, and University of Georgia Extension identifies this zone as one of the highest-pressure termite areas in the state. Warm, humid conditions sustain year-round subterranean termite colony activity. Fire ants are also year-round residents across Houston County, with mound reconstruction after every significant rain a reliable sign of how established they are here. The combination of the fall line's biology and the density of base housing and suburban development creates consistent, year-round pest management demand.",
+    intro:
+      "Pest control in Warner Robins covers the full range of Georgia's humid subtropical pest suite, intensified by the city's position on the Piedmont-Coastal Plain fall line. University of Georgia Extension identifies this fall line zone as one of the highest-pressure subterranean termite areas in Georgia. Eastern subterranean termite colonies are active year-round in Houston County's warm, humid conditions, and spring swarms are a common sight near windows and lights. Fire ants are endemic and year-round: Georgia's mild winters do not cause dormancy, and colonies rebuild mounds after every significant rain. Mosquitoes are active from April through October, with West Nile virus monitored in the state annually. American cockroaches live outdoors in the landscape year-round and push indoors in summer heat. German cockroaches are a consistent year-round concern in commercial and multi-family settings.",
+    sections: [
+      {
+        heading: "Termites on the fall line: why Warner Robins homeowners need annual inspections",
+        body: "The Piedmont-Coastal Plain fall line that runs through central Georgia, passing directly through Warner Robins, is one of the highest subterranean termite pressure zones in the state. University of Georgia Extension identifies the fall line region as carrying dense Eastern subterranean termite populations, sustained by the transition zone's soil moisture and the long, warm growing season. Warner Robins's climate means termite colonies have no meaningful winter slowdown: activity continues year-round, and damage accumulates without the seasonal pause that gives homeowners in more northern states a natural inspection window. Spring swarm events, when winged reproductives emerge in large numbers near windows and lights, are the most dramatic sign of an established colony. But colony activity, and the damage it causes, occurs throughout the year whether swarmers are visible or not. Annual inspections are the standard recommendation for all Warner Robins homeowners. Properties with wood mulch against the foundation, landscaping timbers in soil contact, or older construction with ground-contact wood components are at elevated risk. A professional inspection identifies mud tubes, damaged wood, and active colony signs before significant structural damage has occurred.",
+      },
+      {
+        heading: "Fire ants and mosquitoes: managing Warner Robins's two outdoor pest threats",
+        body: "Fire ants and mosquitoes are the two outdoor pests that affect quality of life most directly for Warner Robins residents, and both require a consistent management program rather than one-off treatments. Fire ants are year-round in Houston County. Georgia's mild winters do not cause colony dormancy, and colonies rebuild quickly after rain. University of Georgia Cooperative Extension recommends the two-step method for fire ant management: broadcasting slow-acting granular bait across the entire yard in spring and fall, combined with individual mound treatment for any active mounds. The broadcast bait approach works because fire ant workers carry the bait back to the colony, eventually eliminating the queen. Treating only individual mounds is less effective because the surrounding area repopulates from adjacent colonies. Mosquitoes are active in Warner Robins from April through October in most years. The city's humid climate, lawn irrigation, and the standing water that accumulates after summer thunderstorms provide abundant breeding habitat for the Asian tiger mosquito (Aedes albopictus), which breeds in small containers and is active in residential yards. Monthly barrier spray from April through September reduces adult mosquito populations on the property. Weekly elimination of standing water in containers, gutters, and yard depressions addresses breeding at the source.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections: Warner Robins's fall line location is one of the highest termite pressure zones in Georgia, and annual checks are the practical standard.",
+      "Apply the UGA two-step fire ant method each spring and fall: broadcast slow-acting bait across the yard, then treat individual active mounds.",
+      "Run monthly mosquito barrier spray from April through September and eliminate standing water in containers and gutters weekly.",
+      "Seal plumbing penetrations and foundation gaps to reduce American cockroach entry during summer heat.",
+    ],
+    costNote:
+      "Warner Robins pest control is most cost-effective as a year-round program covering fire ants, cockroaches, and perimeter pests, with a separate annual termite inspection and treatment plan. Seasonal mosquito barrier spray from April through September is available as an add-on. A free assessment establishes termite history and current activity on the property.",
+    faqs: [
+      {
+        question: "Is Warner Robins really one of the worst areas in Georgia for termites?",
+        answer:
+          "University of Georgia Extension identifies the Piedmont-Coastal Plain fall line, where Warner Robins sits, as one of the highest-pressure subterranean termite zones in the state. The warm, humid conditions along the fall line support dense Eastern subterranean termite populations that are active year-round without a meaningful winter dormancy. Annual professional inspections are the standard recommendation for all Houston County homeowners, not just those who have seen signs of activity.",
+      },
+      {
+        question: "Do fire ants ever go away in Warner Robins during winter?",
+        answer:
+          "No. Houston County's mild winters do not cause fire ant colony dormancy. UGA Cooperative Extension confirms that fire ant colonies remain active year-round across Georgia's lower Piedmont and Coastal Plain regions. The most noticeable seasonal change is that mound building activity increases after rain events and decreases in very cold weeks, but the colony remains alive and active underground. Year-round management rather than seasonal treatment is the practical approach.",
+      },
+      {
+        question: "When is mosquito season in Warner Robins, GA?",
+        answer:
+          "Mosquitoes are active in Warner Robins from roughly April through October, with the peak running June through August during the hottest, most humid weeks. West Nile virus is monitored in Georgia annually. The Asian tiger mosquito, which is active in residential yards and breeds in small containers like gutters, plant saucers, and tarps, extends the biting season because it does not require large bodies of water to breed. Monthly barrier spray from April through September provides effective property-level protection.",
+      },
+      {
+        question: "What are the large cockroaches I see outside my Warner Robins home?",
+        answer:
+          "Those are almost certainly American cockroaches (Periplaneta americana), sometimes called palmetto bugs in the Southeast. They are common outdoors year-round in Warner Robins's warm, humid climate, living in mulch, leaf litter, sewers, and under outdoor storage. They push indoors through plumbing penetrations and foundation gaps during peak summer heat. They are not the same as the German cockroach, which breeds entirely indoors. Sealing entry points and a perimeter treatment significantly reduces indoor encounters.",
+      },
+      {
+        question: "How close is Robins Air Force Base pest activity to surrounding neighborhoods?",
+        answer:
+          "Robins Air Force Base and the surrounding Houston County suburban development create continuous residential habitat with consistent pest management demand. The base housing and infrastructure do not generate a different pest threat than the broader Warner Robins area: fire ants, termites, mosquitoes, and cockroaches are present throughout the city and the surrounding county. Properties near the base's green buffer areas or adjacent to drainage infrastructure may see slightly higher mosquito and cockroach pressure from the outdoor landscape.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Macon", slug: "macon" },
+      { name: "Columbus", slug: "columbus" },
+      { name: "Atlanta", slug: "atlanta" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Warner Robins, GA | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Warner Robins pest control for Eastern subterranean termites, fire ants, mosquitoes, American cockroaches and German cockroaches. Houston County Piedmont Coastal Plain fall line specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

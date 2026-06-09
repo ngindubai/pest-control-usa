@@ -553,4 +553,228 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "Carmel pest control for Eastern subterranean termites, mosquitoes, house mice, German cockroaches and carpenter ants. Hamilton County White River corridor Indianapolis north suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "bloomington",
+    name: "Bloomington",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T2",
+    population: "~84,000",
+    county: "Monroe County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bloomington sits in the rolling wooded hills of southern Indiana, where the cold-humid continental climate delivers cold winters and warm, humid summers. The forested Monroe County terrain, Lake Monroe to the south, and the many campus ponds at Indiana University create a setting that sustains subterranean termites, mosquitoes, and carpenter ants year after year. The wooded landscape means pest pressure here differs from the flat central Indiana corridor around Indianapolis.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "House Mice",
+      "Stink Bugs",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Purdue University Extension documents eastern subterranean termites as the dominant structural pest across Indiana, and Bloomington's wooded southern Indiana setting provides the moist, organic-rich soil conditions they need. The Monroe County hills with their dense tree canopy and leaf litter maintain soil moisture that supports active termite colonies. Annual inspections are standard practice for Bloomington homeowners.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Lake Monroe and the campus ponds, retention basins, and low-lying areas across Bloomington create sustained mosquito breeding habitat from late spring through early fall. Indiana University's sprawling campus adds dozens of ornamental water features and poorly drained areas that hold standing water. The forested terrain slows drainage and extends the breeding window compared with flat urban settings.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall, active all winter",
+        note: "Indiana winters are cold enough to push mice firmly into heated buildings. Bloomington's large student population and its high volume of off-campus rental housing create the turnover and deferred maintenance conditions where mouse entry points go unaddressed. Indiana University housing and older rental properties near downtown Bloomington see consistent fall and winter mouse pressure.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation (September to November), overwinter indoors",
+        note: "Purdue University Extension confirms that brown marmorated stink bugs are established across Indiana, including Monroe County. They aggregate on the sunny sides of buildings in September and push through gaps around windows, doors, and utility penetrations to overwinter inside. Bloomington's wooded setting provides the tree cover where stink bug populations build before they seek winter shelter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Carpenter ants are a reliable pest in the wooded Monroe County hills. They nest in moist or decayed wood and are common in Bloomington homes with moisture issues around eaves, deck framing, or tree limbs touching the roofline. An established indoor colony can number in the thousands. Finding large black ants inside in winter or early spring is the clearest sign of a colony nesting within the structure.",
+      },
+    ],
+    localHook:
+      "Bloomington's wooded southern Indiana hills and proximity to Lake Monroe create a pest environment that surprises homeowners who move here from flatter parts of the state. Subterranean termites, mosquitoes, and carpenter ants all benefit from the forested terrain and the moisture that comes with it. Indiana University's large student rental market adds a bed bug and mouse dimension that requires year-round attention in the neighborhoods closest to campus.",
+    intro:
+      "Bloomington has a pest environment shaped by two things: the wooded hills of Monroe County and the rhythms of a large college town. Subterranean termites are the top structural threat here, confirmed as a statewide concern by Purdue University Extension, and Bloomington's moist, forested setting gives them ideal soil conditions. Mosquitoes are active from May through October around Lake Monroe and the many ponds and low-lying areas on the Indiana University campus. In fall, brown marmorated stink bugs aggregate on building exteriors and push inside for the winter, and carpenter ants are a persistent pest in any home with damp or aging wood. The student population adds its own layer of pest risk. High turnover in off-campus rentals means mouse entry points often go unnoticed until an infestation is established, and bed bug pressure is higher in neighborhoods with dense rental housing than in typical suburban settings. Knowing these patterns helps Bloomington homeowners and property managers stay ahead of problems rather than react to them after the damage or the infestation is already entrenched.",
+    sections: [
+      {
+        heading: "Termite and Ant Pressure in Monroe County's Wooded Setting",
+        body: "The forested terrain around Bloomington does more than make the area visually appealing. It also creates the conditions that subterranean termites and carpenter ants rely on. Leaf litter, decaying logs, moist soil under a dense canopy, and proximity to wood-framed homes add up to a productive termite environment. Purdue University Extension places all of Indiana in the moderate to heavy termite hazard zone, and the southern Indiana hills, with their higher rainfall and denser tree cover, sit toward the heavier end of that range. Eastern subterranean termites swarm in March through May in Bloomington. The swarmers, winged reproductive termites, emerge from the ground and often appear near windows, on windowsills, or around basement walls. Many homeowners mistake them for flying ants. The key difference is the straight antennae and equal-length wings of termites versus the elbowed antennae and unequal wings of ants. Carpenter ants are a separate but related problem. They do not eat wood, but they excavate it for nesting, and they prefer wood that is already softened by moisture. Homes with damp basements, wood-to-soil contact along the foundation, or branches resting on the roof are at higher risk. Finding carpenter ant frass, a fine sawdust-like material, near baseboards or in the attic is a reliable sign of an active colony.",
+      },
+      {
+        heading: "College Town Pest Patterns: Rentals, Rodents, and Fall Pests",
+        body: "Indiana University draws around 45,000 students to Bloomington, and the off-campus rental market that surrounds the campus creates pest conditions that differ from typical residential neighborhoods. High turnover means residents change every year or two, and property maintenance is often deferred. Mouse entry points that go unrepaired in one tenancy remain open for the next. The fall mouse surge in October and November is consistent in Bloomington, particularly in older rentals and multi-unit buildings closest to campus. Bed bug pressure is another college-town reality. They travel with luggage, used furniture, and shared laundry facilities. Bloomington pest control companies see bed bug calls throughout the year, concentrated in rental properties near campus. The fall brings a different but related challenge in stink bugs. Brown marmorated stink bugs aggregate on south and west-facing building exteriors in September, and the large older homes in Bloomington's student neighborhoods often have enough gaps around window frames and siding to let hundreds of stink bugs inside before winter. Vacuuming them up works for small numbers, but sealing entry points in August and early September is the only real prevention strategy.",
+      },
+    ],
+    prevention: [
+      "Have your home inspected for subterranean termites every year if you have not had a recent inspection, particularly if you have a crawl space, wood-to-soil contact, or live in a wooded area.",
+      "Seal gaps around windows, doors, utility lines, and siding before September to stop stink bugs from entering to overwinter.",
+      "Fix any moisture issues around eaves, decks, or basement walls to reduce carpenter ant nesting sites.",
+      "In rental properties near campus, check secondhand furniture and luggage carefully for bed bugs before bringing them inside.",
+    ],
+    costNote:
+      "Bloomington pest control costs are broadly in line with other Indiana cities. A one-time ant or mouse treatment typically runs $150 to $300. A termite inspection is often free, with treatment options including liquid barrier applications or bait station systems ranging from $500 to $1,500 depending on the size of the home and the extent of activity. Mosquito barrier spray services run $75 to $150 per application. Bed bug treatments, which require more labor-intensive methods, typically range from $400 to $900 per unit. Ask any company you hire about their re-treatment guarantee.",
+    faqs: [
+      {
+        question: "Are subterranean termites common in Bloomington, IN?",
+        answer:
+          "Yes. Purdue University Extension confirms eastern subterranean termites are present throughout Indiana, and Bloomington's wooded Monroe County hills with their moist, organic-rich soils create productive termite habitat. Annual inspections are standard practice for Bloomington homeowners, particularly those with crawl spaces or wood-to-soil contact along the foundation. Many homeowners discover termite activity only during a real estate inspection, by which time damage may already be significant.",
+      },
+      {
+        question: "When is mosquito season in Bloomington, and how bad is it near Lake Monroe?",
+        answer:
+          "Mosquito season in Bloomington runs from May through October. Properties near Lake Monroe and the campus ponds and low-lying areas of Indiana University see heavier pressure than properties on higher ground. The forested terrain slows drainage and holds moisture longer than flat suburban settings, extending the mosquito season. Barrier spray treatments applied monthly from May through September are the most effective residential approach for properties with significant outdoor living areas.",
+      },
+      {
+        question: "Why are stink bugs such a problem in Bloomington in fall?",
+        answer:
+          "Brown marmorated stink bugs aggregate on warm building exteriors in September as temperatures drop and then push inside for the winter. Purdue University Extension confirms they are established statewide across Indiana. Bloomington's wooded setting gives them ample tree habitat where populations build through summer. Older homes near campus with gaps around aging window frames and siding are particularly vulnerable. The only effective prevention is sealing those entry points before the aggregation begins.",
+      },
+      {
+        question: "Is bed bug risk higher in Bloomington because of Indiana University?",
+        answer:
+          "In the rental neighborhoods nearest to campus, yes. High student turnover, shared laundry facilities, and the movement of secondhand furniture create conditions for bed bug spread. Bloomington pest control companies report that bed bug calls are concentrated in off-campus rental properties within a mile or two of the IU campus. If you are renting in Bloomington, inspect your mattress seams and box spring for small rust-colored stains or shed skins before moving in.",
+      },
+      {
+        question: "How do I know if the large ants in my Bloomington home are carpenter ants or termites?",
+        answer:
+          "Carpenter ants are large, black or bicolored insects with elbowed antennae and a pinched waist. They do not eat wood but excavate it, leaving behind fine sawdust-like frass. Termite swarmers have straight antennae, a broad waist, and two pairs of equal-length wings that they shed after swarming. Finding winged insects on windowsills in March through May and small piles of shed wings are classic termite swarm signs. Both need professional evaluation, but the treatment and urgency differ significantly.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis" },
+      { name: "Louisville", slug: "louisville" },
+      { name: "Cincinnati", slug: "cincinnati" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Bloomington, IN | Termites, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Bloomington pest control for eastern subterranean termites, mosquitoes, stink bugs, house mice and carpenter ants. Monroe County Indiana University college town specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "fishers",
+    name: "Fishers",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T2",
+    population: "~108,000",
+    county: "Hamilton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Fishers has the cold-humid continental climate of central Indiana, with cold winters and warm, humid summers. The city's rapid growth has pushed neighborhoods into wooded areas along Geist Reservoir and Fall Creek, creating the wooded lot edges and reservoir shorelines that sustain termite and mosquito populations. The cold winters reliably drive mice and overwintering insects into homes each fall.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "House Mice",
+      "Stink Bugs",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Purdue University Extension confirms subterranean termites are active across central Indiana, including Hamilton County. Fishers' rapid suburban expansion has brought new construction close to wooded areas with established termite populations. Homes on wooded lots, those with wood mulch close to the foundation, and those with crawl spaces see the highest termite pressure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Geist Reservoir is a significant mosquito breeding source for eastern Fishers. The shoreline habitat, coves, and the many retention ponds built into Hamilton County subdivisions sustain mosquito populations through the entire warm season. Properties within a quarter mile of Geist or near Fall Creek see noticeably higher pressure than those on higher ground.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in fall, active all winter",
+        note: "Indiana's cold winters push mice firmly into heated homes by October. Fishers' outer edges border open fields and wooded corridors that sustain field mouse populations. New construction in expanding neighborhoods often leaves fresh utility penetrations that mice find quickly. Sealing foundation gaps and under-door gaps before fall is the most cost-effective approach.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation (September to November), overwinter indoors",
+        note: "Stink bugs are established statewide across Indiana, confirmed by Purdue University Extension. In Fishers, they aggregate on south and west-facing exteriors in September and push into wall voids through gaps around windows, utility lines, and siding. Newer Fishers homes are generally better sealed than older housing, but no home is fully immune.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September",
+        note: "Carpenter ants are a consistent pest in Fishers homes on wooded lots. They are drawn to moist or softened wood and are common in deck framing, fascia boards, and structural wood near plumbing leaks. Finding large black ants inside the home in winter or early spring is a reliable sign that a colony is established within the structure rather than nesting outdoors.",
+      },
+    ],
+    localHook:
+      "Fishers has grown faster than almost any other city in Indiana over the past two decades, and that growth has a pest dimension. New neighborhoods back into wooded corridors and Geist Reservoir shorelines that sustain established termite and mosquito populations. Rapid construction can leave fresh entry points for mice, and the mature trees in older Fishers neighborhoods provide habitat for carpenter ants and stink bugs. Hamilton County pest control is not the same as pest control in the flat, open terrain of central Indianapolis.",
+    intro:
+      "Fishers is one of the fastest-growing cities in Indiana, and with that growth has come a pest environment that mixes the pressures of suburban expansion with the natural features of Geist Reservoir and the wooded Fall Creek corridor. Subterranean termites are a real structural risk across Hamilton County, confirmed by Purdue University Extension as active throughout central Indiana. Geist Reservoir and the retention ponds built into Fishers' newer subdivisions sustain mosquito populations from May through October. In fall, stink bugs aggregate on building exteriors and push indoors for the winter, and mice make their reliable run at heated homes as temperatures drop. Carpenter ants are a consistent presence in wooded lot homes near the reservoir and creek corridors. The good news is that all of these pests follow predictable seasonal patterns, and knowing those patterns makes prevention straightforward. A well-timed inspection in spring, exclusion work in late summer, and perimeter treatment in fall covers most of what Fishers homeowners need to stay ahead of pest problems.",
+    sections: [
+      {
+        heading: "Termite Risk in Hamilton County's Expanding Suburbs",
+        body: "Fishers has grown steadily outward from the original downtown core toward Geist Reservoir and the wooded Fall Creek watershed. That expansion has brought new neighborhoods into areas where established subterranean termite populations already exist in the soil. Purdue University Extension places all of Indiana in the moderate to heavy termite hazard zone, and Hamilton County properties on wooded lots or near creek corridors sit at the heavier end of that range. Eastern subterranean termites swarm in March through May. Homeowners often see the winged swarmers near windows or on windowsills and mistake them for flying ants. The termites shed their wings quickly, and finding a pile of small wings near a window or door is often the first visible sign. Because termite colonies live underground and work within wall cavities and floor joists, damage can accumulate for years before it becomes obvious from the interior. Annual inspections catch problems early, when treatment options are less expensive and structural damage is minimal. New Fishers construction with wood mulch beds close to the foundation and inadequate soil treatment during building is a known termite introduction pathway in rapidly developing suburbs.",
+      },
+      {
+        heading: "Mosquitoes, Mice, and Seasonal Pest Rhythms at Geist Reservoir",
+        body: "Geist Reservoir is what makes eastern Fishers attractive to homeowners and mosquitoes alike. The reservoir's coves, the shallow areas along the shoreline, and the drainage patterns of the subdivisions that back up to the water create abundant standing water habitat throughout the warm season. Mosquito pressure near Geist runs from May through October and is noticeably heavier within a quarter mile of the water. Monthly barrier spray treatments on shrubs and vegetation from May through September provide effective coverage for most residential properties. Farther from the reservoir, retention ponds in newer subdivisions sustain localized populations. The transition to fall brings a different set of concerns. Stink bugs begin aggregating on south and west-facing building exteriors in September. Mice start pushing toward heated buildings as field temperatures drop in October. Both follow the same pattern every year. The preparation steps are simple: seal gaps around windows, utility entries, and siding before September, and check for and close foundation-level gaps in late summer. Waiting until you see pests inside means the prevention window has already closed.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection every spring, particularly if your home backs onto a wooded lot or has wood mulch within a foot of the foundation.",
+      "Treat standing water on your property monthly during mosquito season, and consider a larvicide treatment for retention ponds or low-drainage areas near your home.",
+      "Seal exterior gaps around windows, utility lines, and siding before September to prevent stink bugs from entering to overwinter.",
+      "Check and seal foundation-level gaps and under-door gaps before October to reduce fall mouse entry.",
+    ],
+    costNote:
+      "Fishers pest control costs are consistent with Hamilton County and the broader Indianapolis metro area. Termite inspections are typically free, with treatment options including liquid soil barrier applications and bait station monitoring systems ranging from $600 to $1,800 depending on the home's size and the level of activity. Mosquito barrier spray runs $80 to $160 per application. A one-time mouse treatment with exclusion typically costs $200 to $350. Annual pest control plans covering the full seasonal calendar are common and generally run $400 to $700 per year for a standard residential property.",
+    faqs: [
+      {
+        question: "How serious is the termite risk for a new home in Fishers?",
+        answer:
+          "Real, and worth taking seriously from the first year. Purdue University Extension confirms subterranean termites are active across central Indiana including Hamilton County. New construction in Fishers that backs onto wooded lots introduces termites to homes that have never had treatment. Wood mulch installed close to the foundation, wood-to-soil contact during construction, and inadequate pre-treatment are the most common pathways. A professional inspection before you close on a new home and annually afterward is the standard practice for Hamilton County homeowners.",
+      },
+      {
+        question: "Why are mosquitoes so bad near Geist Reservoir in Fishers?",
+        answer:
+          "Geist Reservoir's coves and shorelines create extensive shallow, warm-water breeding habitat. Mosquitoes lay eggs in standing water, and the reservoir's irregular shoreline provides far more edge habitat than a pond or retention basin. Properties within a quarter mile of the reservoir see significantly heavier mosquito pressure than those farther inland. Barrier spray treatments applied to shrubs and vegetation monthly from May through September are the most effective residential approach for shoreline properties.",
+      },
+      {
+        question: "When do stink bugs become a problem in Fishers?",
+        answer:
+          "The aggregation typically begins in September when temperatures start to drop. Brown marmorated stink bugs are established statewide across Indiana, confirmed by Purdue University Extension, and Fishers' mix of wooded lots and suburban homes gives them both habitat and buildings with plenty of entry points. They push through gaps around windows, siding, and utility lines to overwinter inside. Sealing those gaps before the aggregation begins in late August is more effective than treating once they are inside.",
+      },
+      {
+        question: "Are carpenter ants a problem in Fishers homes near wooded lots?",
+        answer:
+          "Yes, consistently. Carpenter ants are the dominant structural ant pest in Indiana and are common in Fishers properties adjacent to wooded corridors and the Fall Creek greenway. They prefer moist or softened wood and are often found in deck framing, fascia boards, and roof overhangs. Finding large black ants inside the home in January or February is a clear sign of an indoor colony, not just outdoor foragers. That sign warrants professional evaluation because an established colony can number in the thousands and damage wood over several seasons.",
+      },
+      {
+        question: "How do I keep mice out of my Fishers home in fall?",
+        answer:
+          "The most effective step is exclusion work done in late August or September before mice start looking for warm shelter. Check the foundation perimeter for gaps larger than a quarter inch, inspect where utility lines enter the building, and install door sweeps on any exterior door with a gap at the bottom. Steel wool packed into gaps and then covered with caulk or foam is a durable solution. Fishers' outer edges border open fields that sustain field mouse populations, so homes at the suburban-rural edge see heavier pressure and benefit from professional exclusion inspections.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis" },
+      { name: "Carmel", slug: "carmel" },
+      { name: "Noblesville", slug: "noblesville" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Fishers, IN | Termites, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Fishers pest control for eastern subterranean termites, mosquitoes, stink bugs, house mice and carpenter ants. Hamilton County Geist Reservoir Indianapolis suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

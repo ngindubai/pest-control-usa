@@ -652,4 +652,116 @@ export const ohioCities: CityLocation[] = [
     metaDescription:
       "Dayton pest control for German cockroaches, house mice, stink bugs, brown recluse spiders and mosquitoes. Montgomery County Miami River valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "hamilton",
+    name: "Hamilton",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T2",
+    population: "~63,000",
+    county: "Butler County",
+    climate: "cold-humid",
+    climateDriver:
+      "Hamilton sits on the Great Miami River in Butler County, southwest Ohio. Warm, humid summers bring meaningful mosquito pressure from the river corridor, while cold Ohio winters drive mice and overwintering insects firmly indoors each fall. The river valley's moisture, combined with an older housing stock from the city's manufacturing era, creates favorable conditions for carpenter ants and German cockroaches year-round.",
+    topPests: [
+      "House Mice",
+      "German Cockroaches",
+      "Stink Bugs",
+      "Carpenter Ants",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, strong surge in fall",
+        note: "Cold Ohio winters drive mice into Hamilton's heated buildings each October. The city's older manufacturing-era housing stock has abundant entry points at foundations, utility penetrations, and under aging door frames. Once inside, mice establish in wall voids and basements quickly.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a consistent year-round concern in Hamilton's older housing and commercial properties. They breed in warm kitchen and bathroom environments and spread between apartments through shared plumbing and wall voids. Multi-unit buildings require coordinated treatment for lasting results.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion, overwinter indoors",
+        note: "Ohio State University Extension confirms stink bugs are established across Ohio, including Butler County, with fall invasions common across southwestern Ohio. They gather on warm south-facing walls in September and work into attics and wall voids to overwinter, creating a significant nuisance through the cold months.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Hamilton's older wood-frame housing near the Great Miami River corridor is vulnerable to carpenter ants wherever moisture has softened structural wood at sill plates, window frames, or porch structures. An active carpenter ant trail in spring often signals an underlying moisture issue that warrants investigation.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Great Miami River corridor sustains breeding mosquito populations that affect residential neighborhoods along and near the river from late spring through early fall. Properties adjacent to the river floodplain see the highest pressure. Monthly barrier spray programs provide consistent yard-level protection through the warm season.",
+      },
+    ],
+    localHook:
+      "Hamilton's Great Miami River setting is one of the city's best assets, but the river corridor also sustains the mosquito populations that make late-summer evenings uncomfortable. Pair that with cold Ohio winters driving mice into older manufacturing-era homes, and Hamilton residents deal with a full calendar of pest challenges that reward a proactive, seasonal approach.",
+    intro:
+      "Hamilton is a river city with a manufacturing history and a housing stock to match: mostly older homes and multi-family buildings built before 1970, sitting in a warm, humid valley cut by the Great Miami River. That combination produces a pest profile that keeps residents busy across most of the calendar year. Cold Ohio winters are reliable and they drive house mice firmly into heated buildings starting each October. Hamilton's older homes have plenty of gaps at foundation sill plates, utility penetrations, and aging door frames that give mice easy entry. Once in, they establish in wall voids and basement spaces and are difficult to remove without exclusion work combined with trapping. German cockroaches are a year-round concern in the city's older apartment buildings and commercial properties, where the plumbing layouts in aging structures give them the harborage and travel routes they need to spread between units. Ohio State University Extension confirms brown marmorated stink bugs are established across Butler County and other parts of southwestern Ohio, and Hamilton residents see them gathering on south-facing walls each September before working into attics. The Great Miami River corridor generates meaningful mosquito pressure from May through September, with properties near the river floodplain seeing the highest activity. Carpenter ants in moisture-affected older wood near the river are an additional spring-through-fall concern. Managing this range of pests effectively means planning around the seasonal calendar rather than reacting to individual outbreaks.",
+    sections: [
+      {
+        heading: "The Great Miami River and Hamilton's Mosquito Season",
+        body: "Hamilton's position on the Great Miami River is central to the city's mosquito situation. River floodplain habitat provides the standing water and moist vegetation that mosquitoes need to breed, and properties within a few blocks of the river corridor see meaningfully higher mosquito pressure than those further away. The active season runs from May through September, with peak pressure in July and August when temperatures stay warm and rainfall creates fresh breeding opportunities. For homeowners in river-adjacent neighborhoods, a monthly barrier spray program targeting the yard perimeter, foundation plantings, and shaded vegetation creates consistent knockdown of resting adults through the season. Eliminating standing water sources on your property, including gutters that hold water, low spots in the lawn, and any containers that collect rain, reduces the breeding contribution from your immediate surroundings even if you cannot control the river environment. Properties further from the river have a shorter effective season and lighter pressure, but the warm Butler County summers mean mosquitoes are an issue across the city from late spring through early fall.",
+      },
+      {
+        heading: "Mice, Stink Bugs, and Winter Pest Pressure in Hamilton",
+        body: "When Ohio temperatures start dropping in September and October, two pest problems arrive in Hamilton almost simultaneously: house mice looking for warmth and brown marmorated stink bugs looking for overwintering sites. They are distinct issues that share a common prevention strategy, which is sealing the exterior gaps that both use to enter buildings. Stink bugs gather on warm south-facing and west-facing walls starting in late September, and they work their way into attic voids, wall cavities, and window frame gaps as temperatures drop. Ohio State University Extension confirms they are established across Butler County with fall invasions common. Sealing attic vents with fine mesh and caulking window frames before October limits their entry. Mice use many of the same gap types: foundation cracks, pipe penetrations, and the spaces under exterior doors where weather seals have degraded. A fall exclusion walkround of your home's exterior, sealing gaps with steel wool and caulk, is the single most cost-effective pest prevention step a Hamilton homeowner can take. Both pests are far easier to manage before they enter than after they have settled into the warm interior of a house.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water in gutters, low lawn areas, and any containers around the property before May to reduce mosquito breeding in the Great Miami River corridor neighborhood.",
+      "Do a fall exclusion walkround in September to seal foundation gaps, utility penetrations, and degraded door seals before the October mouse migration into heated buildings.",
+      "Seal attic vents with fine mesh and caulk window frames before September to limit the stink bug fall invasion into wall voids and attic spaces.",
+      "Inspect wood near moisture sources, especially around aging window frames and sill plates near the river-facing sides of older homes, for carpenter ant trails in April and May.",
+    ],
+    costNote:
+      "Pest control in Hamilton typically runs $100 to $260 for an initial inspection and treatment of common pests like mice or cockroaches. Mosquito barrier spray programs are generally $60 to $120 per monthly treatment, with discounts for seasonal contracts covering May through September. Stink bug exclusion and sealing services vary by the size and accessibility of the home. Ask about combined seasonal programs that address multiple pest types, as they are usually more economical than separate service agreements.",
+    faqs: [
+      {
+        question: "How bad are mosquitoes in Hamilton near the Great Miami River?",
+        answer:
+          "Mosquito pressure in Hamilton is meaningfully influenced by the Great Miami River corridor, which provides the floodplain habitat and standing water that sustains breeding populations from May through September. Properties within a few blocks of the river typically see higher activity than neighborhoods further away. The peak season runs July through August when temperatures and humidity are highest. A monthly barrier spray program through the season provides consistent yard-level protection for river-adjacent properties. Eliminating standing water sources on your own property (blocked gutters, low lawn areas, containers) reduces the local breeding contribution even when you cannot control the river environment.",
+      },
+      {
+        question: "When do mice become a serious problem in Hamilton, and what should I do?",
+        answer:
+          "The fall mouse migration in Hamilton starts in earnest in October when Ohio temperatures drop. Cold winters push mice hard toward heated buildings, and Hamilton's older manufacturing-era housing has no shortage of entry points. The most effective approach is exterior exclusion before the cold arrives: steel wool and caulk at foundation gaps and utility penetrations, new door sweeps where daylight is visible under exterior doors. Once mice are already inside, snap traps placed in runways along walls combined with exclusion work is the standard approach. Snap traps in active runways will typically produce catches within 48 hours if mice are present. A professional exclusion inspection finds entry points you may have missed and closes the return path.",
+      },
+      {
+        question: "Are stink bugs a serious pest in Butler County, and how do I stop them getting into my home?",
+        answer:
+          "Ohio State University Extension confirms brown marmorated stink bugs are established across Ohio, including Butler County, with fall invasions a regular annual event. In Hamilton, they begin congregating on south-facing and west-facing walls in late September and work into attic voids and wall cavities through any gaps they can find. They are a nuisance pest rather than a structural or health threat, but the numbers can be significant. The most effective prevention is sealing attic vents with fine mesh screening and caulking window frames and exterior gaps before September. Vacuuming them up indoors when they appear is the practical management approach once they are inside.",
+      },
+      {
+        question: "Why do German cockroaches keep appearing in my Hamilton apartment after treatment?",
+        answer:
+          "In Hamilton's older multi-family buildings, German cockroaches move between units through shared plumbing voids, wall cavities, and the spaces under appliances. Treating one unit without inspecting or treating adjacent units leaves active populations nearby that re-colonize the treated space within weeks. For lasting results in an older apartment building, treatment needs to be coordinated across all affected units, not limited to the single unit where cockroaches have been reported. If your building manager is treating individual units repeatedly without lasting results, that is the likely explanation. Ask about a building-wide treatment approach and, if needed, raise the issue through Ohio housing code enforcement channels.",
+      },
+      {
+        question: "Do carpenter ants in Hamilton cause serious structural damage?",
+        answer:
+          "Carpenter ants in Hamilton cause real structural damage, though they work more slowly than termites and always require moisture-softened wood to establish a nest. They do not consume wood but excavate galleries in wood that has already been weakened by moisture or decay, which is common in Hamilton's older housing near the Great Miami River where aging window frames, sill plates, and porch structures often have some moisture history. The useful thing about carpenter ants is the signal they send: an active infestation almost always means there is a water infiltration problem somewhere nearby that is worth finding and fixing. A professional inspection that locates both the colony and the moisture source is the right starting point. Treating the ants without addressing the moisture source leads to re-infestation.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Cincinnati", slug: "cincinnati" },
+      { name: "Dayton", slug: "dayton" },
+      { name: "Columbus", slug: "columbus" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Hamilton, OH | Mice, Cockroaches & Mosquitoes",
+    metaDescription:
+      "Hamilton pest control for house mice, German cockroaches, stink bugs, carpenter ants and mosquitoes. Butler County Great Miami River valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

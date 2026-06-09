@@ -1195,4 +1195,228 @@ export const arizonaCities: CityLocation[] = [
     metaDescription:
       "Yuma pest control for Arizona bark scorpions, desert subterranean termites, American cockroaches, pack rats and Argentine ants. Yuma County Colorado River agricultural valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "goodyear",
+    name: "Goodyear",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T2",
+    population: "~102,000",
+    county: "Maricopa County",
+    climate: "desert",
+    climateDriver:
+      "Goodyear sits in the Sonoran Desert roughly 18 miles west of downtown Phoenix. Rapid residential growth has pushed development into formerly undisturbed desert, and University of Arizona Cooperative Extension confirms that newer subdivisions backing onto desert washes and undisturbed habitat see consistently elevated scorpion pressure. The extreme summer heat, monsoon moisture surge, and year-round mild winters sustain the full Sonoran Desert pest suite.",
+    topPests: [
+      "Arizona Bark Scorpions",
+      "Black Widow Spiders",
+      "Fire Ants",
+      "American Cockroaches",
+      "Roof Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "The Arizona bark scorpion (Centruroides sculpturatus) is the only scorpion in the United States with medically significant venom. University of Arizona Cooperative Extension confirms scorpions are common in Maricopa County's newer residential developments, particularly those backing onto desert washes and undisturbed desert habitat. Goodyear's rapid growth has displaced scorpion populations from their original desert territory directly into new subdivisions.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Black widows are present throughout Goodyear in block wall cavities, under debris, and around pool equipment. The female's bite is medically significant. The Sonoran Desert climate provides ideal dry, sheltered harborage in every residential yard.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Fire ants are present in Maricopa County, including Goodyear. They build mounds in lawns and irrigated landscape areas and sting repeatedly when disturbed. Their mounds rebuild rapidly after rain events.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge indoors during extreme summer heat",
+        note: "American cockroaches live in Goodyear's irrigation infrastructure, drainage systems, and outdoor organic debris. During the peak summer heat, they push into air-conditioned spaces through plumbing penetrations and foundation gaps. They are the large outdoor roach species common across the Phoenix metro.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are established across the Phoenix metro and use citrus trees and mature palms in Goodyear's residential neighborhoods as food sources and nesting sites. They enter attics through gaps at the roofline and travel through tree canopies and block walls.",
+      },
+    ],
+    localHook:
+      "Goodyear is one of the fastest-growing cities in the Phoenix metro, and that growth comes at a cost. Every new subdivision carved out of the Sonoran Desert displaces scorpions from their original habitat. University of Arizona Cooperative Extension is clear on this: newer developments backing onto desert washes and undisturbed desert habitat see the highest scorpion activity. First-year residents in new Goodyear subdivisions are often surprised by just how many bark scorpions show up, and surprised is not the best position to be in with the only medically significant scorpion in the country.",
+    intro:
+      "Pest control in Goodyear is shaped by the city's pace of growth. Development here has pushed residential neighborhoods into desert land that Arizona bark scorpions have occupied for centuries, and the displacement effect is real: University of Arizona Cooperative Extension confirms that newer Maricopa County subdivisions backing onto desert washes see elevated scorpion activity compared to long-established neighborhoods. The Arizona bark scorpion is the only scorpion in the United States whose sting carries medically significant venom, and for families with young children, managing it is the first priority. Black widows are in every block wall and pool equipment box. Fire ants are in the lawns. American cockroaches surge indoors during summer heat. Roof rats use the citrus trees and palms as their highway to your attic.",
+    sections: [
+      {
+        heading: "Why new Goodyear developments see more scorpion activity",
+        body: "Goodyear's growth into the Sonoran Desert creates a predictable pest event. When construction grades raw desert land for new streets and foundations, the Arizona bark scorpions already living there do not disappear. They relocate, and the nearest built structures are where they go. This is the displacement dynamic University of Arizona Cooperative Extension documents in newer Maricopa County residential developments backing onto desert washes. For homeowners in newer Goodyear subdivisions, this means the first few years after a neighborhood is built are consistently the period of highest scorpion activity. The Arizona bark scorpion is particularly troublesome because it is a climber: it does not just crawl along the ground but travels up block walls, up door frames, and across ceilings. It is thin enough to enter through gaps as small as a credit card. The effective response is sealing those entry points, treating the perimeter and block walls with a residual product, and using a UV blacklight at night to locate and remove individuals already inside. Scorpions fluoresce bright blue-green under ultraviolet light, which makes the night inspection far more effective than searching in daylight.",
+      },
+      {
+        heading: "Black widows, pool equipment, and the West Valley routine",
+        body: "Pool ownership is high across the Phoenix metro, and Goodyear is no exception. Pool equipment enclosures, the shadowed gaps behind pump housings, and the undersides of pool decking are consistent black widow habitat. Couple that with the block walls that surround nearly every Goodyear property, and you have an abundance of dark, sheltered, low-traffic spots that black widows prefer. Regular perimeter treatment that covers block wall bases, utility enclosures, and pool equipment keeps the population manageable. The female's bite is medically significant and can cause severe muscle cramping. Checking pool equipment before reaching in, and keeping children away from gaps in block walls, are sensible precautions in any West Valley home.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes in block veneer with fine steel mesh and caulk gaps around utility penetrations to block bark scorpion entry.",
+      "Use a UV flashlight at night to locate scorpions on walls and floors; treat perimeter and block walls on a monthly schedule.",
+      "Clear pool equipment enclosures and block wall bases of debris and vegetation to reduce black widow harborage.",
+      "Trim citrus and palm fronds at least three feet from the roofline to cut roof rat access to the attic.",
+    ],
+    costNote:
+      "Goodyear pest control is typically a monthly perimeter program covering scorpions, spiders, and cockroaches given the year-round Sonoran Desert pressure. Newer neighborhoods near desert wash boundaries often benefit from sealing work as a one-time add-on. Roof rat exclusion and fire ant treatment are quoted separately. A free inspection sets the program to your home's specific exposure.",
+    faqs: [
+      {
+        question: "Why does my new Goodyear home have so many scorpions?",
+        answer:
+          "University of Arizona Cooperative Extension confirms that newer Maricopa County residential developments backing onto desert washes and undisturbed desert habitat see elevated scorpion activity. When construction displaces Arizona bark scorpions from their original desert territory, they relocate into the nearest structures. New-construction Goodyear neighborhoods on the desert edge consistently see higher scorpion counts than established neighborhoods in the same metro area. Proactive sealing of weep holes and a consistent monthly perimeter treatment program are the practical defense.",
+      },
+      {
+        question: "Is the Arizona bark scorpion really dangerous in Goodyear?",
+        answer:
+          "The Arizona bark scorpion (Centruroides sculpturatus) is the only scorpion in the United States with venom considered medically significant. Its sting causes severe pain, tingling, and numbness and can produce more serious neurological effects in young children, elderly individuals, and people with compromised immune systems. It is not typically fatal in healthy adults, but young children stung in Goodyear should be evaluated medically. Monthly perimeter treatment and sealing entry points significantly reduce indoor encounters.",
+      },
+      {
+        question: "Are fire ants a problem in Goodyear?",
+        answer:
+          "Red imported fire ants are present in Maricopa County, including Goodyear, particularly in irrigated lawn and landscape areas. They sting repeatedly and can cause serious allergic reactions in sensitive individuals. Their mounds rebuild quickly after rain. Broadcast bait treatment applied to the full lawn in spring and fall is more effective than treating individual mounds, which can split and relocate a colony rather than eliminating it.",
+      },
+      {
+        question: "How do American cockroaches get inside Goodyear homes during summer?",
+        answer:
+          "American cockroaches live in Goodyear's outdoor irrigation systems, drainage infrastructure, and organic debris. When temperatures push past 110 degrees in July and August, outdoor conditions become inhospitable and they move toward air-conditioned spaces through plumbing penetrations, gaps at floor drains, and foundation cracks. Sealing those transition points before the summer heat peaks and treating the exterior perimeter reduces the seasonal surge significantly.",
+      },
+      {
+        question: "Do I need pest control year-round in Goodyear?",
+        answer:
+          "Yes. The Sonoran Desert climate does not pause: bark scorpions, black widows, and American cockroaches are active in every season in the Goodyear area. Arizona winters are mild enough that scorpion activity does not stop, it only slows slightly during the coldest weeks. Monthly perimeter service is the standard for Goodyear homes, not a seasonal precaution. Newer neighborhoods near the desert edge benefit most from the consistency of a year-round program.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Phoenix", slug: "phoenix" },
+      { name: "Avondale", slug: "avondale" },
+      { name: "Surprise", slug: "surprise" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Goodyear, AZ | Bark Scorpions, Black Widows & Fire Ants",
+    metaDescription:
+      "Goodyear pest control for Arizona bark scorpions, black widows, fire ants, American cockroaches and roof rats. Maricopa County West Valley desert wash interface specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "avondale",
+    name: "Avondale",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T2",
+    population: "~90,000",
+    county: "Maricopa County",
+    climate: "desert",
+    climateDriver:
+      "Avondale sits in western Maricopa County adjacent to Goodyear, fully within the Sonoran Desert. The Agua Fria River corridor and the desert interface at the city's edges sustain the full Sonoran Desert pest pressure. Arizona Cooperative Extension confirms bark scorpions are common in all Maricopa County suburban areas backing onto desert washes, and Avondale's western location places it solidly within that zone.",
+    topPests: [
+      "Arizona Bark Scorpions",
+      "Black Widow Spiders",
+      "American Cockroaches",
+      "Roof Rats",
+      "Argentine Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Arizona bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "Arizona Cooperative Extension confirms bark scorpions are common in all Maricopa County suburban areas backing onto desert washes, and Avondale shares the same Sonoran Desert scorpion pressure as the broader Phoenix metro. The Arizona bark scorpion is the only scorpion in the United States with medically significant venom.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Black widows are common in Avondale block wall cavities, under outdoor debris, and around irrigation equipment. They are present year-round in the Sonoran Desert climate. The female's bite is medically significant.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge indoors during extreme heat and monsoon",
+        note: "American cockroaches live in Avondale's irrigation systems and sewer connections year-round and push indoors during peak summer heat and monsoon rains. They are the dominant large outdoor cockroach across the Phoenix metro.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are established across the Phoenix metro including Avondale, using citrus trees and mature palms as food sources and nesting sites. They enter attics from overhanging branches and through gaps at the roofline.",
+      },
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active in cooler months",
+        note: "University of Arizona research confirms Argentine ants have colonized the Phoenix metro, including Avondale's western suburbs. They form large supercolonies in irrigated areas, forage widely, and are difficult to control with over-the-counter products because their colonies span multiple properties.",
+      },
+    ],
+    localHook:
+      "Avondale sits right against the Sonoran Desert edge in western Maricopa County, and the pest inventory here reflects that. Arizona Cooperative Extension is direct: bark scorpions are common in all Maricopa County suburban areas backing onto desert washes. That describes most of Avondale. Add Argentine ants, which University of Arizona research confirms have colonized the Phoenix metro, and you have a pest list that demands a consistent management program rather than one-off spot treatments.",
+    intro:
+      "Pest control in Avondale covers the full Sonoran Desert pest suite that defines western Maricopa County. Arizona bark scorpions, the only scorpion in the United States with medically significant venom, are present throughout Avondale, and Arizona Cooperative Extension confirms the scorpion pressure in suburban areas backing onto desert washes. Black widows are in the block walls and outdoor structures of every property. American cockroaches shelter in irrigation systems and sewer connections year-round and push indoors in extreme heat. Roof rats use the citrus and palms as their travel routes to attics. Argentine ants form large supercolonies across multiple properties and are a persistent nuisance in irrigated yards.",
+    sections: [
+      {
+        heading: "Bark scorpions and black widows: Avondale's two medically significant pests",
+        body: "Both the Arizona bark scorpion and the black widow spider carry venom that can produce serious symptoms, and both are routine finds in Avondale yards and homes. The bark scorpion, Centruroides sculpturatus, is the only scorpion in the United States with venom considered medically significant. Arizona Cooperative Extension confirms it is common across Maricopa County's suburban areas. It is a climber: it travels up block walls, across ceilings, and enters homes through gaps smaller than a credit card. The most effective defense against scorpions combines physical exclusion, sealing weep holes, door gaps, and utility penetrations, with a residual perimeter treatment on a monthly schedule. Black widows favor the dry, sheltered spots that Avondale properties provide in abundance: hollow block wall gaps, utility meter boxes, pool equipment enclosures, and undisturbed outdoor storage. Regular perimeter treatment and clearing debris from block wall bases significantly reduces the population near the home. Both pests warrant protective gloves when working in undisturbed outdoor areas.",
+      },
+      {
+        heading: "Argentine ants in Avondale: why supercolonies require a different approach",
+        body: "Argentine ants are not native to Arizona but have colonized the Phoenix metro thoroughly, as University of Arizona research documents. Their biology differs from most ant species in a way that matters for control: instead of competing with each other, multiple Argentine ant queens cooperate and share workers across a connected supercolony that can span multiple city blocks. Standard perimeter spray treatments are less effective against them because the colony does not have a single nest to eliminate. Slow-acting bait that workers carry back to the colony and share is the method that works. The bait needs to be placed consistently over time, not as a single application. A professional service that understands Argentine ant biology and rotates bait products to prevent resistance is the most reliable long-term solution for Avondale homeowners dealing with persistent ant trails.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes with fine steel mesh and caulk gaps around utility penetrations before summer to reduce scorpion entry.",
+      "Apply a residual perimeter treatment to block walls and the foundation on a monthly schedule given the year-round Sonoran Desert scorpion pressure.",
+      "Use slow-acting bait rather than contact sprays for Argentine ants: bait shared through the supercolony is more effective than surface treatment.",
+      "Trim citrus and palm fronds away from the roofline to reduce roof rat access to attic vents and soffit gaps.",
+    ],
+    costNote:
+      "Avondale pest control is most cost-effective as a monthly perimeter program covering scorpions, spiders, cockroaches, and ants. Argentine ant management may require a separate bait program. Roof rat exclusion is quoted after a roof inspection. Termite inspection is annual and quoted separately. A free assessment identifies the current pest pressure at your property.",
+    faqs: [
+      {
+        question: "How serious are bark scorpions in Avondale?",
+        answer:
+          "The Arizona bark scorpion is the only scorpion in the United States with medically significant venom. Arizona Cooperative Extension confirms it is common across all Maricopa County suburban areas, including Avondale. Most stings cause severe pain and temporary symptoms, but children, elderly individuals, and people with compromised immune systems face a higher risk of serious reactions. Monthly perimeter treatment and sealing weep holes and door gaps significantly reduce indoor encounters.",
+      },
+      {
+        question: "Why are Argentine ants so hard to control in Avondale?",
+        answer:
+          "University of Arizona research confirms Argentine ants have formed large interconnected supercolonies across the Phoenix metro. Unlike most ant species, Argentine ant colonies share multiple queens and workers across a network that can span several properties. Standard surface sprays kill workers on contact but do not affect the colony. Slow-acting bait that workers carry back and share through the colony is the method that works. Consistent application over several weeks produces the best results.",
+      },
+      {
+        question: "Where do black widows hide in Avondale homes?",
+        answer:
+          "In Avondale, black widows are most commonly found in the hollow cavities of block walls and at the base of those walls, in utility meter enclosures, around pool equipment, in undisturbed garage corners, and in outdoor storage areas. They prefer dry, sheltered, low-traffic spots. The female's bite is medically significant, causing severe muscle cramping. Wearing gloves when working in storage areas and checking outdoor furniture before sitting are practical precautions.",
+      },
+      {
+        question: "Do American cockroaches come from the sewer in Avondale?",
+        answer:
+          "Yes. American cockroaches in Avondale live primarily in the irrigation infrastructure and sewer system and enter homes through plumbing penetrations, floor drain gaps, and foundation cracks, particularly during extreme summer heat and after monsoon rains. They are outdoor insects seeking cooler, moister conditions indoors. Sealing these transition points and maintaining a perimeter treatment significantly reduces the seasonal surge.",
+      },
+      {
+        question: "Are roof rats common in Avondale?",
+        answer:
+          "Roof rats are well-established across the Phoenix metro including Avondale. They nest in citrus trees and mature palms and travel along branches and block walls to reach rooflines. They enter through gaps at soffit-fascia junctions, around vent openings, and where utility lines penetrate the roof. Trimming trees away from the roofline and sealing those gaps removes the primary entry points. An established population inside the attic requires professional trapping and exclusion to resolve.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Phoenix", slug: "phoenix" },
+      { name: "Goodyear", slug: "goodyear" },
+      { name: "Glendale", slug: "glendale" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Avondale, AZ | Bark Scorpions, Argentine Ants & Roof Rats",
+    metaDescription:
+      "Avondale pest control for Arizona bark scorpions, black widows, American cockroaches, roof rats and Argentine ants. Maricopa County West Valley Sonoran Desert specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
