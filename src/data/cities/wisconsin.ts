@@ -659,4 +659,121 @@ export const wisconsinCities: CityLocation[] = [
     metaDescription:
       "Appleton pest control for house mice, carpenter ants, boxelder bugs, yellowjackets and German cockroaches. Outagamie County Fox River valley central Wisconsin specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "eau-claire",
+    name: "Eau Claire",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~70,000",
+    county: "Eau Claire County",
+    climate: "temperate",
+    climateDriver:
+      "Eau Claire sits in western Wisconsin in Eau Claire County, where the Chippewa River and Eau Claire River meet. The continental climate delivers cold winters with significant snowfall and temperatures that regularly drop below zero, warm summers, and a compressed pest season that runs from May through October. The Chippewa River and its tributaries, the bluffs and wooded corridors of western Wisconsin, and the University of Wisconsin-Eau Claire bring a student rental market with the cockroach management challenges that come with high-turnover housing. House mice are the defining fall pest in a climate where winter temperatures make heated structures essential.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "Yellowjackets",
+      "Boxelder Bugs",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, main surge September through November",
+        note:
+          "Eau Claire's severe continental winters make heated structures essential for mice each fall. The fall surge is fast and reliable when September and October temperatures drop. The city's older housing near the Chippewa River and the UW-Eau Claire campus has more aging entry points than newer suburban construction. UW-Extension confirms house mice are a primary fall pest concern across western Wisconsin.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, most visible indoors in spring",
+        note:
+          "Carpenter ants are the dominant wood-destroying pest in Wisconsin. The Chippewa River corridor, the wooded bluffs east and west of the city, and the moisture history in older Eau Claire housing provide the conditions carpenter ant colonies require. UW-Extension identifies carpenter ants as the primary structural pest concern in western Wisconsin.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive late August",
+        note:
+          "Yellowjackets are a consistent warm-season pest in Eau Claire and Eau Claire County, nesting in the ground across residential areas and in wall voids of older structures. Colonies reach maximum size and aggression in August. The wooded bluffs along the Chippewa River and the forested areas east of the city see high yellowjacket density.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation September through October, overwintering in homes",
+        note:
+          "Boxelder bugs aggregate on warm south-facing building walls in September in Eau Claire and work through gaps to overwinter in wall voids and heated spaces. They are harmless nuisance insects but appear in significant numbers in neighborhoods with mature boxelder and maple trees. UW-Extension identifies boxelder bugs as a consistent fall nuisance pest in Wisconsin.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are a year-round concern in Eau Claire's older multi-family housing and the student rental market near UW-Eau Claire. The university rental market creates the same high-turnover cockroach introduction dynamics seen in other Wisconsin college cities. They are entirely indoor insects in Wisconsin's climate.",
+      },
+    ],
+    localHook:
+      "Eau Claire's position on the Chippewa River in western Wisconsin, with a university rental market and the severe continental winters that guarantee a hard fall mouse surge, creates a pest calendar where fall exclusion and year-round cockroach management in the rental sector are the two defining challenges.",
+    intro:
+      "Pest control in Eau Claire runs on the western Wisconsin continental calendar. House mice are the fall anchor pest, surging into homes as September and October cold arrives in one of the more exposed western Wisconsin cities. Carpenter ants in spring signal moisture-damaged wood in the older neighborhoods near the Chippewa River and the university corridor. Yellowjackets are the summer concern. Boxelder bugs stage predictable fall wall aggregations. German cockroaches are year-round in the UW-Eau Claire rental market and older multi-family buildings. The compressed Wisconsin warm season means everything happens in a tight window from May through October.",
+    sections: [
+      {
+        heading: "Fall mouse pressure in western Wisconsin: the cold accelerator",
+        body: "Eau Claire is exposed western Wisconsin, and its fall temperature drop is fast. When September nights start falling below 50 degrees and October brings the first hard frosts, mice move toward heated structures quickly and in numbers. The Chippewa River corridor, the agricultural land east and south of the city, and the open land adjacent to developing residential areas sustain outdoor mouse populations that press toward homes each fall. UW-Extension recommends September as the ideal exclusion month for western Wisconsin homeowners: completing foundation gap sealing, utility penetration caulking, and door sweep replacement before the October push is more effective than trapping an established indoor population in November. The key entry points in Eau Claire's older neighborhoods are gaps at the sill plate where foundation mortar has cracked over decades, around utility pipes that were installed before current sealing standards, and under worn exterior door sills on older housing near the Chippewa River.",
+      },
+      {
+        heading: "Carpenter ants in Eau Claire's older housing",
+        body: "Carpenter ants are the primary wood-destroying pest in western Wisconsin, and Eau Claire's older neighborhoods near the Chippewa River and the UW-Eau Claire campus have the moisture history that makes this a structural management priority. The Chippewa River bluffs, the wooded residential corridors throughout the city, and the moisture that comes with proximity to a river corridor create the damp wood conditions that carpenter ant colonies require to establish. UW-Extension identifies carpenter ants as the primary wood-destroying pest in Wisconsin and recommends that any homeowner who finds them indoors in spring investigate the moisture source driving the wood decay. Common sources in Eau Claire's older housing include flat roof drainage issues, aging window frames, and the sill plate moisture that accumulates in crawl space-foundation construction near water corridors. Treating the ants and fixing the moisture source simultaneously is the only approach that produces lasting results.",
+      },
+    ],
+    prevention: [
+      "Complete foundation exclusion in September before Eau Claire's fast fall temperature drop drives mice into older housing near the Chippewa River corridor.",
+      "Inspect for carpenter ant emergence in spring and investigate the moisture source driving wood decay in addition to treating the colony.",
+      "Treat yellowjacket ground nests in late June when colonies are small and manageable rather than waiting for the dangerous August peak.",
+      "Seal gaps around windows and siding joints before September to reduce boxelder bug entry into wall voids for winter.",
+    ],
+    costNote:
+      "Eau Claire pest pricing is standard western Wisconsin range. Fall rodent exclusion is the most-requested seasonal service. Carpenter ant programs include moisture assessment. Year-round cockroach management for rental properties is common. A free inspection identifies what your property needs.",
+    faqs: [
+      {
+        question: "When do mice become a problem in Eau Claire?",
+        answer:
+          "Late September is when the surge begins in Eau Claire, earlier than in warmer parts of the country. The western Wisconsin fall temperature drop is fast, and mice move toward heated structures quickly when nights fall below 40 degrees. Completing exclusion work in September, before the cold arrives, prevents an established indoor population in October. Older housing near the Chippewa River has more potential entry points than newer construction.",
+      },
+      {
+        question: "Are carpenter ants damaging the wood in my Eau Claire home?",
+        answer:
+          "Carpenter ants excavate galleries in moist or moisture-damaged wood, causing real structural damage over time. But their presence is also a reliable indicator that there is a moisture infiltration problem somewhere in the structure worth finding. In Eau Claire's older housing near the river, the most common moisture sources are roof flashing failures, deteriorating window frames, and crawl space moisture affecting sill plate wood. Treating the ants and fixing the moisture source is the complete solution.",
+      },
+      {
+        question: "Why are boxelder bugs on my Eau Claire house every fall?",
+        answer:
+          "Boxelder bugs are aggregating to absorb heat from warm sun-facing exterior walls before overwintering in wall voids and attics. Eau Claire's neighborhoods have mature boxelder and maple trees that sustain the local population. They are harmless: no biting, no stinging, no structural damage. Sealing exterior gaps before September reduces how many get indoors. Vacuuming up those that appear inside is the safe response.",
+      },
+      {
+        question: "Is year-round pest control worth it in Eau Claire?",
+        answer:
+          "For rental properties and older homes near the Chippewa River, a year-round plan makes sense. Mice require fall exclusion and winter monitoring. Carpenter ants need spring inspection. Boxelder bugs need fall management. German cockroaches in rental properties are year-round. A sustained program with seasonal additions covers the Eau Claire pest calendar cost-effectively.",
+      },
+      {
+        question: "Are German cockroaches common in Eau Claire?",
+        answer:
+          "In the student rental housing near UW-Eau Claire, German cockroaches are a consistent pest management challenge. The high-turnover rental market introduces them regularly through secondhand items and furniture from unknown sources. They do not live outdoors in Wisconsin's climate: they are entirely indoor insects that spread through shared plumbing in apartment buildings. Building-level treatment is required once an infestation has spread through shared plumbing.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Milwaukee", slug: "milwaukee" },
+      { name: "Madison", slug: "madison" },
+      { name: "Green Bay", slug: "green-bay" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Eau Claire, WI | Mice, Carpenter Ants & Yellowjackets",
+    metaDescription:
+      "Eau Claire pest control for house mice, carpenter ants, yellowjackets, boxelder bugs and German cockroaches. Eau Claire County Chippewa River western Wisconsin UW-Eau Claire specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

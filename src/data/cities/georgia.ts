@@ -995,4 +995,238 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Warner Robins pest control for Eastern subterranean termites, fire ants, mosquitoes, American cockroaches and German cockroaches. Houston County Piedmont Coastal Plain fall line specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "alpharetta",
+    name: "Alpharetta",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~68,000",
+    county: "Fulton County",
+    climate: "temperate",
+    climateDriver:
+      "Alpharetta sits in north Fulton County along the Georgia 400 corridor, as one of the Atlanta metro's most affluent and fastest-growing northern suburbs. The humid subtropical climate delivers hot, humid summers, mild winters with occasional freezes, and a long pest season that runs from February through November. The city's rapid high-end residential development borders wooded areas along Crooked Creek and the Big Creek greenway, creating suburban-forest edge conditions that sustain Formosan and Eastern subterranean termite pressure alongside fire ants and mosquitoes in the lush residential landscaping.",
+    topPests: [
+      "Formosan Termites",
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "Mosquitoes",
+      "Kudzu Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan and Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May, active year-round underground",
+        note:
+          "Both Formosan and Eastern subterranean termites are present in north Fulton County. Alpharetta's warm, humid suburban setting and the mixture of newer development and older established neighborhoods creates a layered termite risk. University of Georgia Extension confirms both species are established in the Atlanta metro, with Formosan termites present in warmer urban pockets. Annual inspection is standard for all metro Atlanta homeowners.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-control",
+        activeSeason: "Year-round, most visible spring and fall",
+        note:
+          "Red imported fire ants are established throughout north Fulton County and are a consistent yard management challenge in Alpharetta's residential neighborhoods. They build mound colonies in lawns, at foundation edges, and in electrical junction boxes. UGA Extension confirms fire ants are present statewide in Georgia.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peak June through August",
+        note:
+          "The Big Creek greenway, Crooked Creek, and the retention ponds in Alpharetta's residential development create substantial mosquito breeding habitat through the warm season. The Asian tiger mosquito is established in north Georgia and extends daytime biting pressure beyond evening hours. The lush residential landscaping and irrigation systems of Alpharetta's newer developments provide additional standing water sources.",
+      },
+      {
+        name: "Kudzu bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November, overwinter in structures",
+        note:
+          "The kudzu bug is an invasive pest established across the Southeast, including north Georgia. Like stink bugs, they aggregate on building exteriors in fall before seeking overwintering sites in wall voids. UGA Extension confirms kudzu bugs are present throughout Georgia and are a consistent fall nuisance in north Atlanta suburbs including Alpharetta.",
+      },
+      {
+        name: "Carpenter bees",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "March through September, most active in spring",
+        note:
+          "Carpenter bees are a significant wood-boring pest in Alpharetta's newer high-end residential construction and older homes. They bore into wood eaves, fascia, porch rails, and decking. The newer development in Alpharetta with its substantial wooden architectural details provides abundant carpenter bee nesting sites.",
+      },
+    ],
+    localHook:
+      "Alpharetta's position on the northern edge of the Atlanta metro, where new high-end residential development meets the Big Creek greenway and wooded conservation areas, creates a suburban pest environment with stronger termite and mosquito pressure from the forest-edge setting than many comparable metro suburbs.",
+    intro:
+      "Pest control in Alpharetta covers the north Fulton County suburban pest calendar. Both Formosan and Eastern subterranean termites are present, with the warm Atlanta metro climate sustaining year-round underground activity. Fire ants are a constant yard management challenge. Mosquitoes are heavy through the summer in the Big Creek greenway corridor and the retention pond landscape of newer development. Kudzu bugs are an established fall nuisance across north Georgia, aggregating on building exteriors before overwintering in wall voids. The city's rapid growth and mix of new construction and established older neighborhoods means the pest plan varies meaningfully by property age and setting.",
+    sections: [
+      {
+        heading: "Termites in Alpharetta: two species, one inspection",
+        body: "North Fulton County's warm, humid climate supports both Eastern subterranean termites and Formosan termites. Eastern subterranean termites are the more common species across the Atlanta metro; Formosan termites are particularly established in the warmer, more urban parts of the metro and have been confirmed in Fulton County. Formosan termites are significantly more aggressive than Eastern subterranean termites: their colonies are larger, they consume wood faster, and they can cause substantial structural damage in a shorter time. The practical implication for Alpharetta homeowners is that annual inspection matters, because knowing which species is present determines the appropriate treatment protocol. Both species swarm in spring, with Eastern subterranean termites typically swarming in February through April and Formosans swarming at night in late April through June. Finding any swarmers indoors near windows warrants an immediate professional inspection.",
+      },
+      {
+        heading: "Mosquitoes along the Big Creek greenway",
+        body: "Alpharetta's residential development borders the Big Creek greenway, a conservation corridor running along Big Creek through north Fulton and Forsyth counties. The creek corridor, its adjacent wetlands, and the retention ponds integrated into Alpharetta's newer residential subdivisions create sustained mosquito breeding habitat through the warm season. Properties backing to the greenway or within a few hundred yards of its water features experience significantly higher mosquito pressure than lots without the water corridor proximity. The Asian tiger mosquito is established in north Georgia and is a daytime biter, extending the nuisance period well beyond the traditional evening mosquito window. A monthly barrier spray program from March through October, starting the season before the mosquito population peaks, provides the most effective yard-level management for greenway-adjacent properties.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection for all Alpharetta properties, confirming which species (Eastern subterranean or Formosan) are present, as the treatment protocol differs.",
+      "Apply broadcast fire ant bait in spring and fall across lawns and around the foundation for sustained colony reduction.",
+      "Begin monthly mosquito barrier spray in March before the Big Creek greenway mosquito season peaks for greenway-adjacent and retention pond-adjacent properties.",
+      "Paint or seal exposed wood on eaves, porch rails, and fascia boards in early March before carpenter bees become active.",
+    ],
+    costNote:
+      "Alpharetta pest control commonly includes annual termite inspection and protection, a year-round general pest plan with fire ant treatment, and mosquito barrier service from March through October for appropriate properties. A free inspection scopes the right plan.",
+    faqs: [
+      {
+        question: "Are Formosan termites a real concern in Alpharetta?",
+        answer:
+          "Yes. UGA Extension confirms Formosan termites are established in the Atlanta metro area, including north Fulton County. Alpharetta's warm, humid suburban setting is within the established Formosan range. Formosans are more aggressive than Eastern subterranean termites and cause damage faster. An inspection by a technician experienced with both species determines which are present and the appropriate treatment. Annual inspection is important for this reason.",
+      },
+      {
+        question: "Why are mosquitoes so intense near the Big Creek greenway in Alpharetta?",
+        answer:
+          "The Big Creek greenway is a year-round water corridor with adjacent wetlands and consistent standing water that functions as one of the most significant mosquito breeding sources in north Fulton County. Properties adjacent to the greenway are essentially adjacent to a continuous mosquito production source. The Asian tiger mosquito, which extends biting to daylight hours, adds to the pressure. Monthly barrier spray beginning in March gives the best season-long protection for greenway-adjacent properties.",
+      },
+      {
+        question: "What are kudzu bugs and why are they on my Alpharetta house in fall?",
+        answer:
+          "Kudzu bugs are small, rounded, olive-green invasive insects from Asia that were first detected in Georgia in 2009 and have spread across the Southeast. Like stink bugs, they aggregate on building exteriors in fall in search of overwintering sites, and their numbers can be substantial in north Georgia. They do not bite or damage the structure. Sealing gaps around windows and utility lines before September reduces how many enter wall voids. They emit an unpleasant odor when crushed, so vacuuming up those that appear indoors is the recommended response.",
+      },
+      {
+        question: "When do termites swarm in Alpharetta?",
+        answer:
+          "Eastern subterranean termites in north Fulton County typically swarm from February through April on warm, still days. Formosan termites swarm later, typically in late April through June, and do so at night near lights. Finding swarmers, or their discarded wings near a window, at any time warrants an immediate inspection.",
+      },
+      {
+        question: "Are fire ants in Alpharetta year-round?",
+        answer:
+          "Yes. North Fulton County's mild winters rarely deliver sustained cold enough to suppress fire ant colonies. They are active year-round with the most visible colony-building activity in spring and fall when mounds appear across lawns. Broadcast bait treatment in spring and fall is the most effective year-round management strategy.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Roswell", slug: "roswell" },
+      { name: "Johns Creek", slug: "johns-creek" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Alpharetta, GA | Formosan Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Alpharetta pest control for Formosan termites, Eastern subterranean termites, fire ants, mosquitoes and kudzu bugs. Fulton County Big Creek greenway north Atlanta Georgia 400 corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "albany",
+    name: "Albany",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~73,000",
+    county: "Dougherty County",
+    climate: "temperate",
+    climateDriver:
+      "Albany sits in Dougherty County in southwest Georgia, where the Flint River runs through the city and the warm, humid climate of the deep South delivers a pest season that runs essentially year-round. The subtropical conditions keep subterranean termites, fire ants, and cockroaches active through mild winters, and the Flint River and the surrounding agricultural land of southwest Georgia's peanut and pecan farming region create sustained mosquito and rodent pressure. Albany's older housing stock, including neighborhoods near the Flint River and the historic downtown corridor, carries decades of termite and moisture pest exposure.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "Mosquitoes",
+      "American Cockroaches",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms January through April, active year-round underground",
+        note:
+          "Eastern subterranean termites are well established in Dougherty County and throughout southwest Georgia. Albany's warm climate keeps colonies active year-round, and the city's older housing stock near the Flint River and the historic downtown carries significant structural exposure from decades of activity. UGA Extension confirms termites are a primary structural pest throughout southwest Georgia.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-control",
+        activeSeason: "Year-round",
+        note:
+          "Red imported fire ants are established throughout Dougherty County and are a consistent year-round pest in Albany's residential neighborhoods and commercial landscapes. The warm southwest Georgia climate means fire ant colonies are never truly dormant. UGA Extension confirms fire ants are present statewide and are a primary pest in the southwest Georgia agricultural zone.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peak May through September",
+        note:
+          "The Flint River, its floodplain wetlands, and the southwest Georgia agricultural drainage network create substantial mosquito breeding habitat in and around Albany. The warm climate extends the mosquito season earlier in spring and later in fall than in northern Georgia. The Asian tiger mosquito and several other species are active in Dougherty County through the warm season.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in warm months",
+        note:
+          "American cockroaches are established in Albany's outdoor environment, living in the drainage infrastructure, landscaping, and the warm, humid soil conditions of southwest Georgia. They enter structures through floor drains, plumbing penetrations, and under exterior doors. The Flint River drainage corridor and the city's older sewer infrastructure sustain large outdoor populations.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are a year-round concern in Albany's older multi-family housing, the restaurant corridor along Oglethorpe Boulevard, and commercial food service businesses throughout the city. They spread through shared plumbing in older buildings and thrive in the warm, humid Albany climate.",
+      },
+    ],
+    localHook:
+      "Albany's position on the Flint River in southwest Georgia's peanut and pecan farming region, with year-round termite activity from the subtropical climate and some of the most sustained mosquito pressure of any mid-sized Georgia city, makes it one of the more challenging pest environments in the state.",
+    intro:
+      "Pest control in Albany runs on the southwest Georgia year-round calendar. Eastern subterranean termites are the structural baseline concern, with colonies active year-round and spring swarms beginning as early as January in mild winters. Fire ants are present in every lawn and landscaping area throughout the city with no effective winter suppression. Mosquitoes from the Flint River and the southwest Georgia agricultural drainage network sustain a long, intense season from March through October. American cockroaches are established in the outdoor drainage environment and press into structures through warm weather. German cockroaches are year-round in the restaurant corridor and older apartment buildings. Albany pest management is a continuous annual program.",
+    sections: [
+      {
+        heading: "Termites in Albany's Flint River neighborhoods",
+        body: "Albany's position on the Flint River, with its adjacent floodplain wetlands and the soil moisture that comes with a river-bottom setting, creates favorable conditions for Eastern subterranean termite colony establishment. The city's older neighborhoods, particularly those near the river, the historic downtown, and the established residential streets east and west of the Flint River corridor, have housing that was constructed before modern termite prevention standards and has had decades of cumulative exposure. UGA Extension confirms termites are a primary structural pest throughout southwest Georgia, and Albany's warm, subtropical climate keeps colony activity elevated year-round rather than the spring-and-fall activity pattern seen in northern states. Annual inspection is the standard recommendation for all Albany homeowners. Swarms can occur as early as January in a mild winter.",
+      },
+      {
+        heading: "Mosquitoes and the Flint River agricultural landscape",
+        body: "Albany sits at the heart of southwest Georgia's peanut and pecan agricultural region, and the combination of the Flint River floodplain, drainage ditches through agricultural land, and the warm, humid climate creates a mosquito environment that is among the most sustained in the state. The Flint River itself, its tributary creeks, and the oxbow lakes and wetland areas through the floodplain provide year-round aquatic mosquito breeding habitat. Agricultural drainage ditches through the surrounding farmland add production sources that interact with residential areas. The practical management for Albany homeowners is monthly barrier spray from March through October, which provides consistent yard-level reduction, combined with eliminating any unnecessary standing water on the property. The surrounding landscape sustains the mosquito source, which cannot be eliminated at the residential level.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection in late winter for older Albany homes near the Flint River, noting that swarms can begin in January in the southwest Georgia climate.",
+      "Apply broadcast fire ant bait across lawns in spring and fall for year-round colony management in the warm, fire-ant-active Dougherty County climate.",
+      "Apply monthly mosquito barrier spray from March through October for properties near the Flint River and agricultural drainage areas.",
+      "Seal floor drains, plumbing penetrations, and under-door gaps to limit American cockroach entry from the outdoor drainage infrastructure.",
+    ],
+    costNote:
+      "Albany pest control is typically a year-round program. Annual termite inspection and protection, monthly mosquito service, and a general year-round plan for fire ants, cockroaches, and rodents covers the southwest Georgia pest calendar. A free inspection scopes the right plan.",
+    faqs: [
+      {
+        question: "When do termites swarm in Albany?",
+        answer:
+          "Eastern subterranean termites in southwest Georgia can swarm as early as January during mild winters, earlier than most of the country. The subtropical climate keeps colony activity elevated through the winter, and a few warm, still days in January or February can trigger early swarms. Annual inspection should be scheduled before January for older Albany homes near the river. Any swarm indoors at any time of year warrants an immediate professional inspection.",
+      },
+      {
+        question: "Are fire ants a year-round problem in Albany?",
+        answer:
+          "Yes. Dougherty County's warm climate means fire ant colonies are active year-round with no meaningful winter suppression. The most visible colony-building activity occurs in spring and fall, but colonies are expanding and defending territory in all seasons. Broadcast bait treatment in spring and fall is the most effective approach for sustained yard-wide reduction.",
+      },
+      {
+        question: "Why are mosquitoes so persistent near the Flint River in Albany?",
+        answer:
+          "The Flint River floodplain, with its oxbow wetlands, tributary creeks, and drainage ditches, provides a large, permanent mosquito breeding habitat adjacent to residential areas. Unlike temporary standing water sources that can be eliminated, the river and floodplain features are permanent. The surrounding agricultural drainage adds additional production. This makes the source reduction approach that works in inland suburban areas insufficient on its own: professional yard barrier spray is the necessary complement to property-level source elimination.",
+      },
+      {
+        question: "Do German cockroaches come from the restaurants in Albany?",
+        answer:
+          "Not typically into residential settings. German cockroaches are indoor insects that do not travel outdoors between buildings. Restaurant cockroach infestations do not spread to nearby residential properties through the outdoor environment. Residential German cockroach infestations enter through secondhand appliances, moving items from an infested location, or through shared plumbing in multi-family buildings.",
+      },
+      {
+        question: "Is year-round pest control necessary in Albany?",
+        answer:
+          "Yes, for most Albany properties. The southwest Georgia climate delivers no meaningful winter pest suppression window. Termites, fire ants, cockroaches, and mosquitoes are all active for most or all of the year. A continuous management program is the standard approach and is more cost-effective than reactive treatment for each pest event separately.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Macon", slug: "macon" },
+      { name: "Columbus", slug: "columbus" },
+      { name: "Valdosta", slug: "valdosta" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Albany, GA | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Albany pest control for Eastern subterranean termites, mosquitoes, fire ants, American cockroaches and German cockroaches. Dougherty County Flint River southwest Georgia agricultural specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

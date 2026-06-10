@@ -1035,4 +1035,238 @@ export const massachusettsCities: CityLocation[] = [
     metaDescription:
       "Quincy pest control for house mice, carpenter ants, German cockroaches, stink bugs and bed bugs. Norfolk County Boston Harbor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "fall-river",
+    name: "Fall River",
+    state: "Massachusetts",
+    stateSlug: "massachusetts",
+    stateAbbr: "MA",
+    tier: "T3",
+    population: "~89,000",
+    county: "Bristol County",
+    climate: "cold-humid",
+    climateDriver:
+      "Fall River sits in Bristol County on the Taunton River and Mount Hope Bay, near the Rhode Island border in southeastern Massachusetts. The cold-humid New England coastal climate delivers genuine winters with snowfall, mild springs, warm summers, and a fall that activates the full mid-Atlantic to New England pest calendar. Fall River is a former textile manufacturing center with significant older mill-era housing stock, including the historic Flint neighborhood and the Highlands, which carries the moisture history that carpenter ants and rodents require. Massachusetts is a high-burden Lyme disease state, and Bristol County is in the high-risk tick zone.",
+    topPests: [
+      "Deer Ticks",
+      "House Mice",
+      "Carpenter Ants",
+      "German Cockroaches",
+      "Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (blacklegged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active whenever above freezing, highest risk May through October",
+        note:
+          "Massachusetts is consistently among the top states nationally for reported Lyme disease cases, and Bristol County including Fall River is in the high-risk deer tick zone. The wooded areas adjacent to the Taunton River, the Watuppa Ponds, and the suburban lot edges throughout the city carry meaningful tick risk. Massachusetts DPH monitors tick-borne disease activity across the state annually.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, main surge September through November",
+        note:
+          "Fall River's cold winters and significant older housing stock create strong fall mouse pressure. The city's mill-era housing, including the older triple-decker buildings of the South End and the Flint neighborhood, has more aging construction gaps and utility penetrations than newer suburban housing. Massachusetts DPH identifies house mice as a primary fall pest concern in the state.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, most visible indoors in spring",
+        note:
+          "Carpenter ants are the dominant wood-destroying pest in Massachusetts. Fall River's older mill-era housing, the triple-deckers with decades of moisture history, and the wooded residential edges near the Watuppa Ponds provide the moist, softened wood that carpenter ant colonies require. UMass Extension identifies carpenter ants as a primary structural pest concern in southeastern Massachusetts.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are a consistent year-round pest in Fall River's older multi-family housing, the triple-decker buildings that are a signature of the city's working-class neighborhoods, and the commercial food service corridor along South Main Street. They spread through shared plumbing in older multi-unit buildings.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, emerge in spring",
+        note:
+          "Stink bugs are well established in southeastern Massachusetts, including Bristol County. They aggregate on building exteriors in September and work through gaps at windows and siding to overwinter in wall voids. The older housing stock in Fall River provides more exterior gaps for overwintering entry than modern construction.",
+      },
+    ],
+    localHook:
+      "Fall River's mill-era triple-decker housing, with a century of moisture history and the shared plumbing of multi-unit buildings, creates a pest environment where carpenter ants in spring and German cockroaches year-round are as defining as the deer tick risk from the Bristol County wooded corridors.",
+    intro:
+      "Pest control in Fall River covers the southeastern Massachusetts pest calendar. Deer ticks carry Lyme disease at high rates in Bristol County, and the wooded edges near the Watuppa Ponds and the Taunton River corridor are tick habitat for residents using the city's parks and trail network. House mice surge into older housing each fall. Carpenter ants in spring reveal moisture damage in the city's aging triple-decker and mill-era housing stock. German cockroaches are year-round in the multi-family buildings. Stink bugs are an established fall nuisance. Understanding both the outdoor tick calendar and the indoor pest calendar is what pest management in Fall River requires.",
+    sections: [
+      {
+        heading: "Deer ticks and Lyme disease in Fall River",
+        body: "Massachusetts DPH data consistently places the state among the top nationally for Lyme disease burden, and Bristol County is within the high-risk zone. Fall River's position adjacent to the Watuppa Ponds conservation land, the Taunton River corridor, and the wooded lot edges throughout the city's suburban neighborhoods creates deer tick habitat that is part of daily life for Fall River residents. Nymphal ticks, active May through July and the size of a poppy seed, are responsible for the majority of Lyme transmission cases because they are tiny and easy to miss in a tick check. Professional perimeter spray treatment in spring and fall reduces tick numbers in yard zones. For residents who use the Watuppa Reservation, the Quequechan River Rail Trail, and the wooded parks throughout the city, checking for ticks after every outdoor activity is standard Massachusetts practice and not an overreaction to a low-probability risk.",
+      },
+      {
+        heading: "Carpenter ants in Fall River's triple-decker housing",
+        body: "Fall River's residential neighborhoods include some of the highest concentrations of triple-decker multi-family housing in Massachusetts, a building type that dates to the late 19th and early 20th century textile boom. These structures have a century of moisture history: decades of potential exposure at flat roofs, window frames, porch floors, and the shared plumbing chases that run through all three units. Carpenter ants in Massachusetts require moist or moisture-damaged wood to establish their nests, and Fall River's older housing provides that in abundance. UMass Extension identifies carpenter ants as the primary wood-destroying pest in the state. Finding large black ants indoors in spring, or noticing coarse frass near a window frame or where a wall meets the floor, indicates an established colony and an underlying moisture issue. A professional inspection that locates both the colony and the moisture source is the starting point for a lasting solution.",
+      },
+    ],
+    prevention: [
+      "Remove leaf litter at the yard edge each spring and apply professional tick perimeter spray to reduce deer tick numbers in yard zones near the Watuppa Ponds and Taunton River areas.",
+      "Seal foundation gaps and utility penetrations in August and September before fall cold drives mice into Fall River's older mill-era housing.",
+      "Inspect wood around windows, door frames, roof lines, and porch floors annually for moisture damage that attracts carpenter ants in the triple-decker neighborhoods.",
+      "Treat stink bug exterior aggregations in September and seal window frame gaps and siding joints before they push into wall voids for winter.",
+    ],
+    costNote:
+      "Fall River pest pricing is standard southeastern Massachusetts range. Tick yard treatment is spring and fall. Carpenter ant programs include moisture assessment. Year-round rodent and cockroach management for older multi-family properties is common. A free inspection scopes the right plan.",
+    faqs: [
+      {
+        question: "How serious is deer tick risk in Fall River?",
+        answer:
+          "Significant. Massachusetts DPH data consistently places the state among the top nationally for Lyme disease burden, and Bristol County including Fall River is in the high-risk zone. Properties with wooded or brushy lot edges near the Watuppa Ponds and Taunton River corridor carry meaningful tick exposure risk. Nymphal ticks active May through July are the highest-transmission-risk stage because they are tiny and easy to miss. Professional perimeter spray in spring and fall, combined with personal tick checks after outdoor activities, is the standard approach.",
+      },
+      {
+        question: "Why do carpenter ants appear in my Fall River triple-decker in spring?",
+        answer:
+          "Carpenter ants overwinter in their nests inside wood and become active when spring temperatures rise. In a century-old triple-decker, the most likely nest sites are moisture-damaged wood at the flat roof edges, window frames that have accumulated water over decades, and the sill plate wood near aging plumbing that has had intermittent leaks. Finding them indoors in spring means the colony is already established. A professional inspection locates both the nest and the moisture source driving the wood decay.",
+      },
+      {
+        question: "Are German cockroaches a building-level problem in Fall River triple-deckers?",
+        answer:
+          "In older multi-unit buildings, yes. German cockroaches spread through shared plumbing chases between units in triple-deckers, which means treating one unit while an infestation continues in the others produces only temporary improvement. Building-level gel bait programs that address harborage in shared plumbing and utility spaces across all units are the effective approach. Individual unit spray treatment is not sufficient for building-wide infestations.",
+      },
+      {
+        question: "When do mice become a problem in Fall River?",
+        answer:
+          "September and October are the main entry months. Fall River's cold winters make heated structures essential for mice, and the fall surge into older housing is fast and reliable. The older construction of Fall River's working-class neighborhoods provides more potential entry points than modern suburban housing. Completing exclusion work in August and September, before the surge begins, prevents the problem more cost-effectively than trapping an established population in November.",
+      },
+      {
+        question: "Are stink bugs established in Fall River?",
+        answer:
+          "Yes. Brown marmorated stink bugs are well established in southeastern Massachusetts, and Fall River's Bristol County location is in the stink bug range. The fall aggregation behavior on warm exterior walls in September is a predictable annual event in the city. The older housing stock with more exterior gaps provides more overwintering entry points than modern construction. A September perimeter treatment combined with sealing exterior gaps is the most effective prevention.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Providence", slug: "providence" },
+      { name: "New Bedford", slug: "new-bedford" },
+      { name: "Brockton", slug: "brockton" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Fall River, MA | Deer Ticks, Mice & Carpenter Ants",
+    metaDescription:
+      "Fall River pest control for deer ticks (Lyme disease), house mice, carpenter ants, German cockroaches and stink bugs. Bristol County Taunton River mill-era southeastern Massachusetts specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "newton",
+    name: "Newton",
+    state: "Massachusetts",
+    stateSlug: "massachusetts",
+    stateAbbr: "MA",
+    tier: "T3",
+    population: "~88,000",
+    county: "Middlesex County",
+    climate: "cold-humid",
+    climateDriver:
+      "Newton sits in Middlesex County as an inner western suburb of Boston, where the Charles River runs through the city and its established tree canopy and wooded lot edges sustain deer tick populations at meaningful levels. The cold-humid New England climate delivers genuine winters, warm summers, and a fall that activates both the stink bug aggregation cycle and the house mouse surge in the city's older Victorian and Colonial-era housing stock. Newton's high-value property market and older housing make carpenter ant and termite management significant both for structural integrity and property value.",
+    topPests: [
+      "Deer Ticks",
+      "House Mice",
+      "Carpenter Ants",
+      "Brown Marmorated Stink Bugs",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (blacklegged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active whenever above freezing, highest risk May through October",
+        note:
+          "Massachusetts is a high-burden Lyme disease state, and Middlesex County including Newton is in the high-risk zone. The Charles River corridor, the wooded edges of Hemlock Gorge Reservation, Cold Spring Park, and the many wooded residential lot edges throughout Newton carry deer tick risk. Massachusetts DPH monitors tick-borne disease activity across the state annually.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, main surge September through November",
+        note:
+          "Newton's older housing stock, including the Victorian and Colonial-era homes of Newton Centre, Newtonville, and the Highlands neighborhoods, carries more aging foundation gaps and utility penetrations than modern construction. Cold New England winters drive mice toward heated structures each fall, and the older housing provides more entry opportunities. Massachusetts DPH confirms house mice are a primary fall pest concern statewide.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, most visible indoors in spring",
+        note:
+          "Carpenter ants are the dominant wood-destroying pest in Massachusetts. Newton's older wood-frame housing, the mature trees adjacent to structures throughout the city, and the Charles River moisture corridor create the conditions carpenter ants require. UMass Extension identifies carpenter ants as the primary structural pest in the greater Boston area.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, emerge in spring",
+        note:
+          "Stink bugs are established in Middlesex County and throughout greater Boston. They aggregate on building exteriors in September and push into wall voids and attic spaces for the winter, re-emerging on warm interior days through winter and spring. Newton's older Victorian housing with more exterior gaps provides more overwintering entry points.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note:
+          "Yellowjackets are a consistent warm-season pest in Newton, nesting in the ground across the city's residential lawns and in wall voids of older structures. The older Victorian-era homes with exterior trim gaps and attic void spaces in Newton's established neighborhoods provide wall void nesting opportunities. Colonies peak in August.",
+      },
+    ],
+    localHook:
+      "Newton's older Victorian and Colonial-era housing stock along the Charles River, combined with Massachusetts's Lyme disease burden and the predictable fall stink bug and mouse pressure that every inner Boston suburb deals with, creates a year-round pest management calendar that starts with tick season in May and ends with the final mouse exclusion work in November.",
+    intro:
+      "Pest control in Newton covers the inner Middlesex County pest calendar with a high-value property dimension. Deer ticks carry Lyme disease at high rates across the Boston metro, and Newton's wooded residential edges and Charles River corridor create real tick habitat in yards and parks. House mice are the fall anchor pest, pressing into the city's older Victorian and Colonial-era housing as October cold arrives. Carpenter ants find the moisture-damaged wood in the older structures adjacent to Newton's mature tree canopy and the river. Stink bugs are an established fall nuisance. Yellowjackets are the summer concern in older structures with exterior gaps.",
+    sections: [
+      {
+        heading: "Deer ticks in Newton's suburban woodland setting",
+        body: "Newton's reputation as a leafy inner suburb comes with a tick management dimension that has become increasingly important over the past two decades. Massachusetts DPH data shows the state consistently in the top tier nationally for Lyme disease burden, and Middlesex County is in the high-risk zone. Newton's extensive tree canopy, the wooded edges of Hemlock Gorge Reservation, Cold Spring Park, and Hammond Pond Reservation, and the wooded lot edges throughout the city's older neighborhoods create deer tick habitat that residents encounter when gardening, walking dogs, and using the city's parks. The nymphal tick stage, active May through July and the size of a poppy seed, is the highest-risk period because the small size makes ticks easy to miss in a check. Professional perimeter spray treatment in spring and fall reduces yard-level tick numbers. For Newton residents who use the city's reservations and wooded parks, tick checks after every outdoor activity in the May through October window are standard Massachusetts practice.",
+      },
+      {
+        heading: "Carpenter ants in Newton's older housing",
+        body: "Newton has one of the highest concentrations of Victorian and Colonial-era housing in the greater Boston area, and this housing has had decades to accumulate the moisture history that carpenter ants require. The combination of aging rooflines, mature trees adjacent to structures, and the moisture from the Charles River corridor that permeates Newton's landscape creates extensive carpenter ant habitat in the city's older neighborhoods. UMass Extension identifies carpenter ants as the primary wood-destroying pest in Massachusetts. Finding them indoors in spring, or noticing coarse frass near a window frame, baseboard, or where the sill plate meets the foundation, is a signal to investigate the moisture source, not just treat the pest. In Newton's high-value property market, addressing the underlying moisture damage that carpenter ants reveal is both a pest management and property preservation priority.",
+      },
+    ],
+    prevention: [
+      "Apply professional tick perimeter spray in spring and fall for Newton properties with wooded or brushy edges near the Charles River and the city's reservations.",
+      "Complete foundation exclusion work in August and September before the October mouse surge into Newton's older Victorian and Colonial-era housing.",
+      "Inspect wood around windows, roof edges, and porch structures annually for moisture damage that attracts carpenter ants in the older established neighborhoods.",
+      "Treat stink bug exterior aggregations and seal exterior gaps in September before they push into wall voids in the older housing stock.",
+    ],
+    costNote:
+      "Newton pest pricing reflects the inner Boston suburb range. Tick yard treatment is spring and fall. Carpenter ant programs include moisture assessment and are a spring priority. Year-round rodent and stink bug management are seasonal additions. A free inspection scopes the right plan.",
+    faqs: [
+      {
+        question: "Is Lyme disease risk real in Newton given how suburban it is?",
+        answer:
+          "Yes. Newton's extensive tree canopy, the wooded edges of its multiple conservation reservations, and the Charles River corridor create deer tick habitat that is genuinely present in the city's residential neighborhoods, not just in rural areas. Massachusetts DPH data shows Middlesex County in the high-risk zone, and Newton's wooded setting within that zone means tick exposure is a realistic suburban yard concern, not an exaggerated one.",
+      },
+      {
+        question: "How serious are carpenter ants in Newton homes?",
+        answer:
+          "In Newton's older Victorian and Colonial-era housing, carpenter ants are one of the most common spring pest calls and one of the most important to address promptly. Their presence signals moisture-damaged wood somewhere in the structure, which in a high-value Newton property represents both a pest problem and a structural issue worth investigating. UMass Extension identifies them as the primary wood-destroying pest in Massachusetts. Early spring treatment, combined with identifying and fixing the moisture source, is the complete solution.",
+      },
+      {
+        question: "Why does my Newton Victorian seem to get stink bugs every fall?",
+        answer:
+          "Older Victorian construction has more exterior gaps at window frames, trim details, utility penetrations, and aging caulk lines than modern construction. Stink bugs exploit every available gap to enter wall voids for overwintering. The older the construction and the more exterior wood detail work, the more potential entry points. A September perimeter treatment combined with systematic caulking of exterior gaps gives the best results.",
+      },
+      {
+        question: "When should I do fall rodent exclusion in Newton?",
+        answer:
+          "August and September are the ideal months. The fall mouse surge in the Boston area builds from late September through November. Completing foundation exclusion work before the surge begins prevents the establishment of an indoor mouse population, which is much more cost-effective than trapping mice that are already in the kitchen walls. Older Newton homes near wooded areas should treat this as an annual September maintenance item.",
+      },
+      {
+        question: "Do I need a termite inspection in Newton?",
+        answer:
+          "Yes, particularly for older homes. Eastern subterranean termites are present in Middlesex County, and Newton's older housing, especially homes with crawl spaces or older construction with soil-to-wood contact, warrants annual inspection. Spring swarms of winged termites indoors near windows are the most visible early sign. Finding swarmers in a Newton home warrants an immediate inspection.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Boston", slug: "boston" },
+      { name: "Quincy", slug: "quincy" },
+      { name: "Waltham", slug: "waltham" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Newton, MA | Deer Ticks, Carpenter Ants & Mice",
+    metaDescription:
+      "Newton pest control for deer ticks (Lyme disease), house mice, carpenter ants, stink bugs and yellowjackets. Middlesex County Charles River Boston suburb Victorian housing specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

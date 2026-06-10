@@ -1300,4 +1300,238 @@ export const northCarolinaCities: CityLocation[] = [
     metaDescription:
       "Gastonia pest control for fire ants, subterranean termites, mosquitoes, carpenter ants and German cockroaches. Gaston County Catawba River Piedmont specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "jacksonville",
+    name: "Jacksonville",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~80,000",
+    county: "Onslow County",
+    climate: "temperate",
+    climateDriver:
+      "Jacksonville sits in Onslow County in coastal North Carolina, adjacent to Camp Lejeune Marine Corps Base, where the New River runs through the city and the proximity to the Atlantic Coast creates warm, humid conditions that sustain a long pest season. The humid subtropical coastal climate delivers hot, humid summers, mild winters with occasional freezes, and the termite-favorable conditions found throughout the Carolina Coastal Plain. The military base's large footprint, the New River estuary, and the surrounding longleaf pine and mixed forest create outdoor pest populations that press against the city's predominantly younger residential housing.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "American Cockroaches",
+      "Carpenter Bees",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round underground",
+        note:
+          "Eastern subterranean termites are well established in Onslow County and throughout the coastal North Carolina region. Jacksonville's warm, humid climate and the older housing in established neighborhoods near the New River carry meaningful structural risk. NC State University Extension confirms subterranean termites are a primary structural pest throughout the coastal plain. Annual inspection is standard.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peak June through August",
+        note:
+          "The New River estuary, the tidal wetlands adjacent to the coastal plain, and the numerous retention ponds in Jacksonville's residential development create substantial mosquito breeding habitat through the warm season. The coastal proximity adds salt marsh mosquito species alongside freshwater species. Onslow County Environmental Health monitors vector-borne disease activity.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-control",
+        activeSeason: "Year-round, most active spring and fall",
+        note:
+          "Red imported fire ants are established throughout Onslow County and are a consistent year-round yard management challenge in Jacksonville's residential areas. NC State Extension confirms fire ants are present throughout the coastal plain and are a primary nuisance pest in eastern North Carolina. The military base's open grounds sustain large fire ant populations adjacent to civilian residential areas.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in warm months",
+        note:
+          "American cockroaches are established in Jacksonville's warm coastal environment, living in drainage infrastructure and the warm, humid conditions of the coastal plain. They enter structures through plumbing penetrations and under exterior doors. The New River drainage and the city's older sewer infrastructure sustain outdoor populations that press into buildings through warm weather.",
+      },
+      {
+        name: "Carpenter bees",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "March through September, most active in spring",
+        note:
+          "Carpenter bees are a significant pest in Jacksonville's residential areas, boring into wood eaves, fascia, decking, and porch rails. The combination of outdoor-oriented military family housing, wooden decks and patios, and the warm coastal North Carolina spring creates conditions where carpenter bee activity is significant from March through June.",
+      },
+    ],
+    localHook:
+      "Jacksonville's proximity to Camp Lejeune and the New River estuary creates a pest environment shaped by both the coastal North Carolina wetland landscape and the specific demands of a military family community with high housing turnover and outdoor-intensive use of residential spaces.",
+    intro:
+      "Pest control in Jacksonville covers the Onslow County coastal pest calendar. Eastern subterranean termites are the structural baseline concern in the warm, humid coastal plain environment. Mosquitoes are heavy through the summer from the New River estuary and the tidal and freshwater wetlands of the coastal landscape. Fire ants are a year-round yard management challenge. American cockroaches are present in the outdoor environment and press into structures through warm, humid weather. Carpenter bees attack wood decks and eaves in spring and are a consistent concern for the outdoor-focused housing that characterizes military family neighborhoods.",
+    sections: [
+      {
+        heading: "Termites in coastal Onslow County: what the warm climate means",
+        body: "Jacksonville's coastal North Carolina climate keeps Eastern subterranean termite colonies active year-round with no meaningful winter suppression. The warm, moist soil of the coastal plain provides near-ideal conditions for subterranean termite colony expansion, and the city's housing stock, ranging from older structures near downtown and the New River to the newer housing surrounding Camp Lejeune, has varying levels of termite protection from pre-construction treatment that ages over time. NC State Extension recommends annual termite inspection for all eastern North Carolina homeowners. Spring swarms, appearing as winged insects indoors near windows on warm still days from February through April, are the most common early sign. The high housing turnover in a military community means termite history and treatment status is worth confirming at any property change.",
+      },
+      {
+        heading: "Fire ants around Camp Lejeune: the base boundary effect",
+        body: "Camp Lejeune's large open training grounds, maintained turf areas, and the open land adjacent to its perimeter sustain large fire ant populations that interact continuously with civilian residential neighborhoods on the base perimeter. Residents in the areas surrounding the base, including the residential corridors along Western Boulevard, Piney Green Road, and the New Bridge Road corridor, experience the reinforcing effect of large fire ant populations from the base's open grounds on their residential yard ant pressure. NC State Extension's two-step fire ant management program, broadcast bait treatment for yard-wide colony reduction in spring and fall combined with individual mound drench for priority areas, provides the most effective sustained control for yards adjacent to the base boundary.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection for all Jacksonville homes, confirming pre-construction treatment status and age for properties near Camp Lejeune that may have aging termite protection.",
+      "Apply broadcast fire ant bait in spring and fall across lawns for sustained yard-wide colony reduction, particularly for properties adjacent to the Camp Lejeune perimeter.",
+      "Apply monthly mosquito barrier spray from April through October for properties near the New River estuary and tidal wetland areas.",
+      "Paint or seal exposed wood on eaves, fascia boards, and deck rails in early March before carpenter bees become active in coastal North Carolina.",
+    ],
+    costNote:
+      "Jacksonville pest pricing is standard coastal North Carolina range. Annual termite inspection and protection, mosquito barrier service from April through October, and a year-round general pest plan for fire ants and cockroaches covers the primary pest calendar. A free inspection scopes the right plan.",
+    faqs: [
+      {
+        question: "Do I need to check termite treatment status when buying a home in Jacksonville?",
+        answer:
+          "Yes. Many homes in Jacksonville near Camp Lejeune were built with pre-construction soil treatment that provides initial termite protection but expires or degrades over time, typically 5 to 10 years depending on the product. Annual inspection and renewal of protection is the standard recommendation for coastal North Carolina homes. When buying, ask for the termite treatment history and the date of the most recent inspection.",
+      },
+      {
+        question: "How do fire ants from Camp Lejeune affect my yard?",
+        answer:
+          "The base's large open training areas sustain fire ant populations that are continuously expanding toward adjacent residential neighborhoods. Properties near the base perimeter experience reinforcing pressure from these large adjacent populations: treating fire ants in your yard reduces the colony count, but re-infestation from the surrounding landscape is ongoing. Broadcast bait treatment twice yearly, in spring and fall, is the most cost-effective approach for maintaining manageable fire ant levels.",
+      },
+      {
+        question: "When are mosquitoes worst near the New River in Jacksonville?",
+        answer:
+          "June through August is the peak period, with the warm coastal North Carolina summer sustaining large populations from the New River estuary and the surrounding tidal wetlands. The coastal proximity brings salt marsh mosquito species alongside freshwater species, which extends the biting period beyond the traditional evening hours. Properties adjacent to the river and tidal areas experience significantly higher pressure than inland residential areas.",
+      },
+      {
+        question: "Are carpenter bees damaging my Jacksonville deck?",
+        answer:
+          "If you are seeing perfectly round half-inch holes in the wood of your deck, eaves, or fascia boards, and yellowish staining below the holes, carpenter bees are the cause. Over multiple seasons, the same boards can accumulate dozens of galleries that weaken the wood significantly. Painting or sealing all exposed wood surfaces in early March, before bees become active, is the most effective prevention. Treating existing holes and plugging them after treatment prevents returning females from reusing them.",
+      },
+      {
+        question: "Is a year-round pest plan necessary in Jacksonville?",
+        answer:
+          "For most Jacksonville properties, a year-round plan makes practical sense. Termites require annual inspection. Fire ants are active most of the year. Mosquitoes run April through October. Cockroaches are year-round. A continuous program with seasonal additions for mosquitoes and specific termite inspection timing is more cost-effective than reactive treatment for each pest event.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Wilmington", slug: "wilmington" },
+      { name: "Greenville", slug: "greenville-nc" },
+      { name: "New Bern", slug: "new-bern" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Jacksonville, NC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Jacksonville NC pest control for subterranean termites, mosquitoes, fire ants, American cockroaches and carpenter bees. Onslow County Camp Lejeune New River coastal North Carolina specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "rocky-mount",
+    name: "Rocky Mount",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~56,000",
+    county: "Nash County",
+    climate: "temperate",
+    climateDriver:
+      "Rocky Mount straddles the Nash and Edgecombe County line in eastern North Carolina, where the Tar River runs through the city and the flat coastal plain landscape creates a warm, humid climate year-round. The humid subtropical conditions of the eastern NC coastal plain keep subterranean termites active throughout the year, sustain year-round fire ant colonies, and create a mosquito season that begins in March and runs through October. Rocky Mount's older housing stock, particularly in the historic neighborhoods near the Tar River, carries decades of termite and moisture pest exposure.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "Mosquitoes",
+      "German Cockroaches",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round underground",
+        note:
+          "Eastern subterranean termites are well established in Nash and Edgecombe Counties. Rocky Mount's warm, humid coastal plain climate keeps colonies active year-round, and the city's older neighborhoods near the Tar River carry significant structural exposure from decades of termite activity. NC State University Extension confirms subterranean termites are a primary structural pest throughout eastern North Carolina.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-control",
+        activeSeason: "Year-round, most visible spring and fall",
+        note:
+          "Red imported fire ants are established throughout Nash and Edgecombe Counties and are a consistent year-round yard management challenge in Rocky Mount. The warm, humid eastern NC climate means fire ant colonies are active year-round. NC State Extension confirms fire ants are present across the eastern coastal plain.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peak June through August",
+        note:
+          "The Tar River, its floodplain wetlands, and the flat drainage landscape of eastern Nash County create substantial mosquito breeding habitat. Rocky Mount's low-lying coastal plain setting sustains a long, intense mosquito season. Nash County Health Department monitors vector-borne disease activity through the warm season.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are a year-round concern in Rocky Mount's older multi-family housing, the commercial food service corridor along Sunset Avenue and Wesleyan Boulevard, and older apartment buildings throughout the city. They spread through shared plumbing in multi-unit buildings.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in warm months",
+        note:
+          "American cockroaches are established in Rocky Mount's warm coastal plain environment, living in drainage infrastructure and the humid conditions near the Tar River corridor. They enter structures through plumbing penetrations and under doors during warm weather and rain events.",
+      },
+    ],
+    localHook:
+      "Rocky Mount's Tar River setting in the eastern North Carolina coastal plain, with year-round termite activity from the subtropical climate and a long mosquito season sustained by the river floodplain, makes pest management here a near-year-round continuous program rather than a seasonal task.",
+    intro:
+      "Pest control in Rocky Mount follows the eastern North Carolina coastal plain calendar: year-round termite activity, year-round fire ant management, mosquitoes from March through October sustained by the Tar River and its floodplain, and German and American cockroaches year-round in the older housing and commercial corridors. The warm, humid climate of Nash and Edgecombe Counties provides no winter pest suppression window. A Rocky Mount pest plan is a continuous program, not a seasonal one, with annual termite inspection as the structural anchor.",
+    sections: [
+      {
+        heading: "Year-round termite activity in Rocky Mount",
+        body: "Eastern North Carolina's coastal plain climate keeps Eastern subterranean termite colonies active through the entire year. Unlike northern states where winter temperatures slow colony activity and create a window for inspection and treatment planning, Rocky Mount's mild winters, with temperatures rarely dropping below freezing for extended periods, allow termites to continue feeding and tunneling in all seasons. NC State Extension recommends annual inspection for all eastern NC homeowners, and the older neighborhoods near the Tar River in Rocky Mount, with their older construction details and proximity to the moisture-rich floodplain, carry the highest cumulative termite risk. Swarms typically occur from February through April in Rocky Mount, but the absence of swarmers is not an indication of absence of termite activity: colonies expand and feed underground year-round whether or not a swarm has been observed.",
+      },
+      {
+        heading: "Fire ants and mosquitoes: the warm season double",
+        body: "From March through October, Rocky Mount homeowners deal with the fire ant and mosquito double that characterizes the eastern NC coastal plain. Fire ants build mound colonies in lawns and disturbed soil throughout the warm season, with peak mound-building activity visible in spring and fall after rain events. They are never fully dormant in Nash County's mild winters. The Tar River and its floodplain wetlands, the flat drainage ditches throughout the agricultural land east and west of the city, and the low-lying residential streets near the river create significant mosquito breeding habitat. A two-part warm season approach, broadcast fire ant bait applied in spring and fall for yard-wide colony reduction, and monthly mosquito barrier spray from March through October, addresses both pests at their most effective treatment window.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection in late January or February for older Rocky Mount homes near the Tar River, noting that eastern NC's mild climate enables year-round colony activity.",
+      "Apply broadcast fire ant bait in spring and fall for sustained year-round fire ant management across lawns and foundation borders.",
+      "Apply monthly mosquito barrier spray from March through October for properties near the Tar River floodplain and flat drainage areas.",
+      "Seal floor drain openings, plumbing penetrations, and under-door gaps to limit American cockroach entry from the drainage infrastructure in warm weather.",
+    ],
+    costNote:
+      "Rocky Mount pest pricing is standard eastern North Carolina range. Annual termite inspection and protection, year-round general pest coverage for cockroaches and fire ants, and seasonal mosquito service covers the primary calendar. A free inspection scopes the right plan.",
+    faqs: [
+      {
+        question: "Are termites year-round in Rocky Mount?",
+        answer:
+          "Yes. Eastern North Carolina's mild climate means Eastern subterranean termite colonies remain active year-round without the winter slowdown that occurs in northern states. Swarms occur in spring, but colony feeding and tunneling continues in all seasons. Annual inspection is the standard recommendation for Nash and Edgecombe County homeowners.",
+      },
+      {
+        question: "When should I schedule termite inspection in Rocky Mount?",
+        answer:
+          "Annual inspection should be scheduled in late winter or early spring, before the March through April swarm season, to catch any new colonies and assess the status of any treatment that is in place. For homes near the Tar River floodplain with older construction, an inspection after any significant flooding event is also advisable, as soil disturbance and moisture changes can affect subterranean termite colony activity.",
+      },
+      {
+        question: "Why are fire ants so persistent in my Rocky Mount yard?",
+        answer:
+          "Nash County's mild winters rarely suppress fire ant colonies long enough to give homeowners a meaningful break from fire ant management. The warm coastal plain climate keeps colonies active, and new queens continually establish new colonies in available territory. Broadcast bait treatment in spring and fall maintains the lowest yard-wide colony count over time. Individual mound treatment addresses priority areas but does not prevent new colonies from establishing.",
+      },
+      {
+        question: "Is year-round pest control necessary in Rocky Mount?",
+        answer:
+          "Yes, for most properties. The eastern NC coastal plain delivers no meaningful winter pest suppression window. Termites are active year-round. Fire ants rarely go dormant. Cockroaches are year-round indoors. Mosquitoes run March through October. A continuous management program is the practical approach.",
+      },
+      {
+        question: "How do I reduce American cockroach problems in my Rocky Mount home?",
+        answer:
+          "American cockroaches in Rocky Mount enter primarily through floor drains, plumbing penetrations at the base of the structure, and under poorly sealed exterior doors during warm, humid weather and after rain events. Keeping floor drain covers in place, sealing pipe penetrations at the foundation, and ensuring exterior door sweeps are tight and intact are the most effective prevention measures. They are not an indicator of sanitation issues: they are an outdoor species that makes opportunistic indoor appearances from the drainage infrastructure.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Raleigh", slug: "raleigh" },
+      { name: "Durham", slug: "durham" },
+      { name: "Greenville", slug: "greenville-nc" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Rocky Mount, NC | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Rocky Mount pest control for Eastern subterranean termites, fire ants, mosquitoes, German cockroaches and American cockroaches. Nash Edgecombe County Tar River eastern North Carolina coastal plain specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

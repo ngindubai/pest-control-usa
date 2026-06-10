@@ -666,4 +666,121 @@ export const oklahomaCities: CityLocation[] = [
     metaDescription:
       "Lawton pest control for fire ants, subterranean termites, brown recluse spiders, German cockroaches and scorpions. Comanche County Fort Sill area specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "moore",
+    name: "Moore",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~62,000",
+    county: "Cleveland County",
+    climate: "temperate",
+    climateDriver:
+      "Moore sits in Cleveland County just south of Oklahoma City, in the heart of Tornado Alley where the mid-continent climate delivers hot, humid summers, cold winters that occasionally bring ice storms, and violent spring and fall weather. The May 2013 EF5 tornado that caused extensive damage in Moore led to significant rebuilding, creating a mix of newer storm-rebuilt construction and older established housing in the city's residential neighborhoods. Oklahoma City's southern suburbs sit in the transition zone between the eastern humid climate and the western semi-arid climate, producing a pest calendar that includes both eastern species like subterranean termites and fire ants, and western species like brown recluse spiders.",
+    topPests: [
+      "German Cockroaches",
+      "Fire Ants",
+      "Eastern Subterranean Termites",
+      "Brown Recluse Spiders",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are the primary indoor pest concern in Moore's older apartment buildings, the commercial food service corridor along SW 19th Street, and multi-family housing throughout the city. They are entirely indoor insects that spread through shared plumbing in older buildings. Oklahoma State University Extension identifies German cockroaches as a primary pest in Oklahoma's urban multi-family housing.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-control",
+        activeSeason: "March through November, most active spring and fall",
+        note:
+          "Red imported fire ants are established throughout Cleveland County and are a consistent yard management challenge in Moore's residential neighborhoods. They build mound colonies in lawns, at foundation edges, and in electrical junction boxes. Oklahoma State Extension confirms fire ants are present across the southern half of Oklahoma.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May, active spring through fall",
+        note:
+          "Eastern subterranean termites are well established in Cleveland County. Moore's older housing predating the 2013 tornado, combined with some newer construction where pre-construction treatment may have been inconsistently applied, creates varying termite risk across the city. OSU Extension confirms subterranean termites are a primary structural pest in central and southern Oklahoma.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note:
+          "Brown recluse spiders are common in Moore and throughout the Oklahoma City metro. OSU Extension confirms brown recluses are present statewide in Oklahoma and are regularly found in undisturbed indoor spaces including boxes, closets, and attics. Their bite is medically significant and can cause severe tissue damage.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, main surge October through December",
+        note:
+          "Moore's Oklahoma winters drive mice toward heated structures each fall, with the October temperature drop triggering the surge. The Oklahoma City suburb's mix of older established housing and newer rebuilt construction post-2013 has varying entry point vulnerability. OSU Extension confirms house mice are a primary fall pest concern across central Oklahoma.",
+      },
+    ],
+    localHook:
+      "Moore's post-2013 tornado rebuild created a mix of brand-new construction and retained older housing that changes the pest risk profile block by block. The rebuilt sections have newer construction quality; the older retained sections carry the entry points and moisture history that mice, cockroaches, and brown recluses exploit.",
+    intro:
+      "Pest control in Moore covers the Cleveland County Oklahoma City suburb pest calendar. German cockroaches are year-round in older apartment buildings and the commercial food service corridor. Fire ants are a spring through fall yard management challenge across the southern Oklahoma suburbs. Eastern subterranean termites swarm in spring and are active in the soil year-round. Brown recluse spiders are present in undisturbed indoor spaces throughout the city. House mice surge into older homes each fall. The 2013 tornado and subsequent rebuild created a distinctive block-by-block variation in pest risk: new construction in rebuilt areas, older housing with more entry points in retained sections.",
+    sections: [
+      {
+        heading: "Brown recluse spiders in Moore homes",
+        body: "Brown recluse spiders are one of the most frequently encountered medically significant pests in the Oklahoma City metro, and Moore is well within their established range. OSU Extension confirms brown recluses are common in Oklahoma homes and are regularly found in undisturbed spaces: cardboard boxes stored in closets or attics, behind furniture that is rarely moved, in the gap between the mattress and the box spring, and in wall voids accessible through baseboard gaps. They are not aggressive: they bite when pressed against the skin, which typically happens when someone reaches into a stored item or rolls over onto one in bed. Their bite causes a necrotic skin reaction that can become serious if not treated: any suspected brown recluse bite should prompt a call to a medical professional. Practical management combines interior residual treatment in harborage areas, sticky monitoring traps along baseboards and in closet corners, and the reduction of undisturbed clutter in storage spaces that provide ideal habitat.",
+      },
+      {
+        heading: "Post-tornado construction and pest management in Moore",
+        body: "The May 2013 EF5 tornado caused extensive damage across Moore and led to a significant rebuild across large sections of the city. Newer homes in the rebuilt sections tend to have better construction quality, more thorough foundation sealing, and pre-construction termite treatment. Older homes that were retained and repaired in place may have had construction disturbance that created new pest entry points at the foundation level or damaged pre-construction termite treatment that was not renewed during repair. OSU Extension recommends that Moore homeowners in areas that had tornado damage and reconstruction confirm the termite treatment status and age of their property. An inspection that evaluates both the current foundation sealing and the termite history is especially important for homes in the areas that experienced significant structural repair or full rebuild.",
+      },
+    ],
+    prevention: [
+      "Reduce undisturbed storage in closets, attics, and under beds to eliminate brown recluse harborage, and use sticky monitoring traps along baseboards.",
+      "Confirm termite treatment status and date for any Moore home that underwent significant repair or rebuild after the 2013 tornado.",
+      "Complete foundation exclusion work in September before Oklahoma's October cold drives mice into the older retained housing sections.",
+      "Apply broadcast fire ant bait in spring and fall for sustained yard-wide colony reduction across Cleveland County lawns.",
+    ],
+    costNote:
+      "Moore pest pricing is standard Cleveland County range. Year-round general pest coverage for cockroaches and brown recluse, annual termite inspection, and seasonal fire ant and rodent management covers the primary pest calendar. A free inspection scopes the right plan.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders dangerous in Moore?",
+        answer:
+          "Yes. Brown recluse spiders are present throughout the Oklahoma City metro including Moore, and their bite is medically significant. The venom can cause a necrotic skin lesion that is slow to heal and may require medical treatment. OSU Extension confirms they are common in Oklahoma homes. They are not aggressive and only bite when contacted accidentally. Wearing gloves when reaching into undisturbed stored items and keeping storage areas organized with less clutter reduces the risk of accidental contact.",
+      },
+      {
+        question: "Should I check termite treatment status for my rebuilt Moore home?",
+        answer:
+          "Yes, particularly for homes that had significant structural work after the 2013 tornado. Pre-construction termite treatment on a new build provides initial protection but has a finite service life. Rebuilt or extensively repaired homes should have their termite treatment history documented and renewed if the original treatment has expired. Annual inspection confirms the current status and identifies any areas where termite activity has developed.",
+      },
+      {
+        question: "When do fire ants become a problem in Moore?",
+        answer:
+          "Fire ants build visible mound colonies in lawns and landscaping beds most actively in spring (March through May) and fall (September through October). In Moore's Cleveland County climate, they are never fully dormant: even mild Oklahoma winters allow colony activity to continue below the mound surface. Broadcast bait applied in spring and fall provides the best sustained control.",
+      },
+      {
+        question: "Are termites common in Moore?",
+        answer:
+          "Yes. Eastern subterranean termites are well established in Cleveland County, and OSU Extension confirms they are a primary structural pest in central Oklahoma. Moore's housing, particularly the older sections that predate the 2013 tornado, has had years of termite pressure. Spring swarms of winged reproductives indoors near windows are the most visible early sign. An annual inspection is the standard recommendation.",
+      },
+      {
+        question: "Is year-round pest control needed in Moore?",
+        answer:
+          "For most Moore properties, yes. German cockroaches are year-round. Brown recluse spiders are year-round. Termites require annual inspection. Fire ants are active most of the year. Mice require fall management. A continuous program with seasonal additions is more cost-effective than reactive treatment for each pest event.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Oklahoma City", slug: "oklahoma-city" },
+      { name: "Norman", slug: "norman" },
+      { name: "Lawton", slug: "lawton" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Moore, OK | German Cockroaches, Brown Recluse & Termites",
+    metaDescription:
+      "Moore pest control for German cockroaches, brown recluse spiders, Eastern subterranean termites, fire ants and house mice. Cleveland County Oklahoma City suburb tornado rebuild specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

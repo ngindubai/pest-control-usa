@@ -987,4 +987,238 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Waukegan pest control for deer ticks, house mice, German cockroaches, odorous house ants and stink bugs. Lake County Lake Michigan shoreline Des Plaines River Lyme disease risk specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "champaign",
+    name: "Champaign",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T2",
+    population: "~88,000",
+    county: "Champaign County",
+    climate: "temperate",
+    climateDriver:
+      "Champaign sits in east-central Illinois on the flat corn belt prairie of Champaign County, where a humid continental climate delivers hot, humid summers and cold winters with consistent snowfall. The University of Illinois campus, the Boneyard Creek, and the surrounding agricultural fields create a pest environment defined by German cockroaches in the student housing corridor, Eastern subterranean termites in the city's older neighborhoods, and the mosquito pressure that comes from flat prairie drainage and the Sangamon River watershed. The dense student rental housing market sustains pest populations that would otherwise be seasonal.",
+    topPests: [
+      "German Cockroaches",
+      "House Mice",
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are the dominant pest concern in Champaign's student rental housing market. The high turnover, shared plumbing, and variable sanitation of the rental corridor near the University of Illinois campus create conditions where cockroaches spread between units and are reintroduced each academic year. University of Illinois Extension confirms German cockroaches as a primary pest in central Illinois multi-family housing.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, main surge October through December",
+        note:
+          "Champaign's cold winters and the surrounding flat agricultural fields create strong fall mouse pressure. Corn and soybean fields surrounding the metro sustain large mouse populations that press into residential structures when October temperatures drop. The Champaign-Urbana older housing stock near campus has more entry points than newer suburban construction.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note:
+          "Eastern subterranean termites are well established in Champaign County. University of Illinois Extension confirms termites are present across central Illinois, and the older housing near campus and downtown Champaign, including many homes on crawl space foundations, carries meaningful risk. Spring swarms are the most visible early warning sign.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note:
+          "The flat prairie of Champaign County, with its drainage ditches, retention ponds, and the Boneyard Creek corridor, creates significant mosquito breeding habitat. The standing water that accumulates in flat-terrain drainage is a persistent mosquito source through the summer. Champaign-Urbana Public Health District monitors vector-borne disease activity annually.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note:
+          "Yellowjackets nest in the ground across Champaign's lawns and parks, and in wall voids of older housing near campus. They are a consistent warm-season pest that reaches peak aggression in August. Campus-adjacent older housing with exterior gaps is particularly susceptible to wall void nesting.",
+      },
+    ],
+    localHook:
+      "Champaign's dual identity as a university city and agricultural community creates an unusual pest pressure combination: German cockroach problems driven by high-turnover student rentals, and heavy fall mouse pressure from the surrounding corn and soybean fields that sustain agricultural mouse populations pressing into the metro each October.",
+    intro:
+      "Pest control in Champaign runs on two overlapping calendars. The year-round indoor calendar is defined by German cockroaches in the student rental housing corridor: the University of Illinois campus, the Green Street and First Street rental strips, and the older multi-family housing in north Champaign sustain cockroach populations that are reintroduced and reinforced each fall with the new academic year. The seasonal outdoor calendar brings heavy fall mouse pressure from the surrounding agricultural fields, mosquitoes through the humid prairie summer, and subterranean termite swarms in spring in the older housing near campus. A pest plan for Champaign properties, particularly rental properties, needs to address the year-round cockroach baseline while managing the seasonal exterior pressures.",
+    sections: [
+      {
+        heading: "German cockroaches in Champaign's student rental market",
+        body: "The University of Illinois attracts tens of thousands of students to Champaign each year, and the rental housing market that serves them, ranging from the older brick apartment buildings on Green Street to converted houses throughout the neighborhoods near campus, is one of the more challenging German cockroach environments in central Illinois. High turnover, variable sanitation practices, secondhand furniture arriving from unknown sources, and shared plumbing in older multi-unit buildings are all factors that sustain cockroach populations. University of Illinois Extension notes that multi-family housing turnover is a primary vector for German cockroach spread. Individual unit treatment is insufficient when an infestation has spread through a building's plumbing infrastructure: building-level gel bait programs that treat harborage across multiple units are the effective approach. Property managers dealing with persistent re-infestation should treat the plumbing access points and harborage in the utility spaces, not just the individual units where cockroaches are visible.",
+      },
+      {
+        heading: "Fall mice from the corn belt: the Champaign agricultural edge",
+        body: "Champaign sits at the center of some of the most productive corn and soybean farmland in the world, and this agricultural setting has a direct pest management consequence: the surrounding fields sustain house mouse populations that are vastly larger than what urban settings alone would support. When corn and soybean harvest happens in October, large areas of field habitat are suddenly removed, and the mice that were living in those fields have to go somewhere. Residential areas adjacent to agricultural margins and near the city's edges see the first and heaviest October pressure. But the effect extends citywide as mice move through corridors of vegetation and drainage toward any heated structure they can find. Completing foundation exclusion work in September, before harvest, is the most effective prevention. The timing of Illinois corn harvest, typically mid-October to late October, tracks almost exactly with the period of highest mouse entry pressure in Champaign homes.",
+      },
+    ],
+    prevention: [
+      "Complete foundation exclusion work in September before Illinois corn harvest pushes agricultural mice toward residential structures.",
+      "Use gel bait rather than spray for German cockroach management in Champaign rental properties: spray disrupts trails without affecting colony harborage.",
+      "Schedule annual termite inspection for older Champaign homes near campus, particularly those on crawl space foundations.",
+      "Eliminate standing water in Boneyard Creek-adjacent low yard areas before May to reduce mosquito breeding in the flat prairie drainage.",
+    ],
+    costNote:
+      "Champaign pest pricing includes year-round cockroach management for rental properties, fall rodent exclusion, and annual termite inspection for older housing. Mosquito barrier service is a May through September program. Commercial and multi-unit properties require a site-specific proposal. A free inspection scopes the right plan.",
+    faqs: [
+      {
+        question: "Why do cockroach problems in Champaign rentals seem to start each fall?",
+        answer:
+          "The University of Illinois academic year begins in late August, which brings tens of thousands of students and their belongings, including secondhand furniture, appliances, and moving items from locations with unknown cockroach history, into the rental housing market. Cockroach introduction via used appliances, cardboard boxes from an infested location, and items from another infested apartment is the most common entry pathway in a college rental environment. This reinforcement cycle makes persistent cockroach pressure in Champaign rentals a structural property management issue, not a one-time pest event.",
+      },
+      {
+        question: "Are termites a concern in older Champaign homes near campus?",
+        answer:
+          "Yes. University of Illinois Extension confirms Eastern subterranean termites are present throughout central Illinois including Champaign County. Older housing near the UI campus, particularly homes on crawl space foundations or with soil-to-wood contact at the foundation, carries meaningful termite risk. Spring swarms, when winged reproductives appear indoors near windows on warm days in March through May, are the most visible early sign. Annual inspection is the standard recommendation for older Champaign homes.",
+      },
+      {
+        question: "Why does fall seem to bring mice and cockroaches at the same time in Champaign?",
+        answer:
+          "Fall in Champaign brings two separate but simultaneous pressures. House mice move toward heated structures as October temperatures drop and crop harvest removes field habitat. German cockroaches in rentals are reinforced each fall with the student move-in cycle. They are unrelated problems that happen to peak in the same seasonal window. Managing each requires a different approach: exclusion and trapping for mice, gel bait and building-level treatment for cockroaches.",
+      },
+      {
+        question: "How bad are mosquitoes along the Boneyard Creek?",
+        answer:
+          "The Boneyard Creek and the flat prairie drainage ditches throughout Champaign create significant summer mosquito breeding habitat. Mosquito pressure in properties near the creek and in low-lying areas with standing water after rain is meaningfully higher than in well-drained areas of the city. A monthly barrier spray program from May through September provides consistent yard protection. Eliminating standing water in bird baths, planters, and low yard areas reduces on-property breeding.",
+      },
+      {
+        question: "Is year-round pest control needed in Champaign?",
+        answer:
+          "For rental properties near campus, yes. German cockroaches are year-round. Mice require fall exclusion and winter management. Termites need annual inspection. Mosquitoes are May through September. A sustained program is more cost-effective than reactive treatment for each problem. For owner-occupied homes, a seasonal approach with fall exclusion, annual termite inspection, and summer mosquito service covers most of the Champaign pest calendar.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Springfield", slug: "springfield" },
+      { name: "Peoria", slug: "peoria" },
+      { name: "Decatur", slug: "decatur" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Champaign, IL | German Cockroaches, Mice & Termites",
+    metaDescription:
+      "Champaign pest control for German cockroaches, house mice, Eastern subterranean termites, mosquitoes and yellowjackets. Champaign County University of Illinois agricultural prairie specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "decatur",
+    name: "Decatur",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T2",
+    population: "~71,000",
+    county: "Macon County",
+    climate: "temperate",
+    climateDriver:
+      "Decatur sits in Macon County in central Illinois, on the Sangamon River drainage in the heart of the Illinois corn belt. The humid continental climate delivers cold winters that guarantee a fall mouse surge from the surrounding agricultural landscape, hot and humid summers, and a spring that brings Eastern subterranean termite swarms to older neighborhoods. Lake Decatur, created by a dam on the Sangamon River, provides summer mosquito breeding habitat and recreation space. The city's older housing stock near the Wabash Avenue corridor and the Fairview and Oakland neighborhoods carries decades of termite and carpenter ant exposure.",
+    topPests: [
+      "House Mice",
+      "Eastern Subterranean Termites",
+      "German Cockroaches",
+      "Brown Marmorated Stink Bugs",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, main surge October through December",
+        note:
+          "Decatur's cold winters and surrounding agricultural landscape create strong fall mouse pressure. The corn and soybean fields of Macon County sustain large outdoor mouse populations, and October harvest disrupts field habitat, pushing mice toward residential structures. The older housing in established Decatur neighborhoods has more entry points than newer suburban construction. University of Illinois Extension confirms house mice as a primary fall pest concern across central Illinois.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note:
+          "Eastern subterranean termites are present in Macon County and throughout central Illinois. Decatur's older housing, particularly homes near the Sangamon River and the established neighborhoods east of the downtown core, carries meaningful termite risk from decades of exposure. University of Illinois Extension confirms termites as a primary structural pest concern in the region. Spring swarms are the most visible early sign.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are a year-round concern in Decatur's older multi-family housing, the restaurant corridor near Pershing Road, and commercial food processing areas associated with the city's agricultural industry. They spread through shared plumbing in older buildings and are the primary indoor cockroach pest in central Illinois cities.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, emerge in spring",
+        note:
+          "Stink bugs are well established in Macon County and central Illinois, part of the expanding midwest population of the brown marmorated stink bug. They aggregate on warm building exteriors in September and work into wall voids and attics for the winter. University of Illinois Extension confirms stink bugs are an established fall nuisance pest across the Illinois corn belt.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note:
+          "Yellowjackets nest in the ground across Decatur's residential neighborhoods and in wall voids of older structures. The agricultural landscape surrounding the city sustains large yellowjacket populations that interact with residential areas. Colonies reach maximum size and aggression in August and early September.",
+      },
+    ],
+    localHook:
+      "Decatur's position in the central Illinois corn belt means fall brings a double agricultural pest event: the October corn harvest disrupts field habitat and sends mice toward residential structures in waves, and stink bugs stage their predictable wall aggregations at almost the same time.",
+    intro:
+      "Pest control in Decatur is shaped by the Macon County agricultural landscape. Fall is the busiest pest management season: October corn harvest pushes house mice from field habitat into residential structures, while stink bugs aggregate on building exteriors in September before overwintering in wall voids. Eastern subterranean termites swarm in spring in the older downtown and riverside neighborhoods. German cockroaches are year-round in older multi-family buildings and food industry corridors. Lake Decatur and the Sangamon River drainage create summer mosquito habitat. A Decatur pest plan needs to address the fall exclusion window as the annual priority.",
+    sections: [
+      {
+        heading: "The October harvest effect: mice from Macon County fields",
+        body: "Decatur is surrounded by some of the most productive corn and soybean farmland in Illinois. The Macon County agricultural landscape sustains house mouse populations that are orders of magnitude larger than what the city itself would support. Each October, corn harvest removes the field cover that shelters outdoor mouse populations, creating a displacement event that sends mice toward any heated structure they can find. Homes at the edges of Decatur's residential development, adjacent to agricultural fields or drainage ditches, see the first and most intense pressure, but the effect ripples citywide through corridor vegetation and drainage. University of Illinois Extension recommends that central Illinois homeowners complete foundation exclusion work in September, before harvest, rather than responding to an established mouse population in November. The key entry points in Decatur's older housing are gaps at sill plates where foundation mortar has cracked, around utility pipe penetrations, and under poorly fitting exterior doors.",
+      },
+      {
+        heading: "Termites in Decatur's riverside neighborhoods",
+        body: "Eastern subterranean termites are present throughout Macon County, and Decatur's older neighborhoods near the Sangamon River and Lake Decatur carry particular risk. Subterranean termites require soil moisture and wood contact to establish a colony, and the older housing in the Fairview, Oakland, and downtown adjacent neighborhoods has the combination of older construction details and proximity to the river drainage that creates favorable conditions. University of Illinois Extension confirms that older Illinois housing with crawl spaces and soil-to-wood contact at the foundation is at the highest risk. Spring swarms, when winged reproductives appear near windows indoors on warm still days in March through May, are the most important early warning. Finding swarmers inside your Decatur home means an established colony is nearby and warrants an immediate professional inspection.",
+      },
+    ],
+    prevention: [
+      "Complete foundation exclusion work in September before Macon County corn harvest drives agricultural mice toward Decatur residential structures.",
+      "Schedule an annual spring termite inspection for older Decatur homes near the Sangamon River with crawl space foundations or soil-to-wood contact.",
+      "Treat stink bug exterior aggregations in September and seal window frame and siding gaps before they push into wall voids for winter.",
+      "Treat yellowjacket ground nests in late June before August colony peak when encounters become significantly more dangerous.",
+    ],
+    costNote:
+      "Decatur pest control commonly covers a year-round general plan with seasonal additions: fall rodent exclusion in September and October, annual termite inspection, and stink bug treatment in fall. A free assessment determines the right scope for your property.",
+    faqs: [
+      {
+        question: "Why does harvest time seem to bring more mice to my Decatur neighborhood?",
+        answer:
+          "It is not a coincidence. October corn and soybean harvest in Macon County removes the field cover that shelters large outdoor mouse populations. Displaced from field habitat, mice move toward residential areas through drainage corridors and vegetation edges. Homes adjacent to agricultural fields see this most dramatically, but the effect extends into established urban neighborhoods as mice relocate. Completing exclusion work in September, before harvest, is the most effective prevention strategy.",
+      },
+      {
+        question: "How do I know if I have termites in my older Decatur home?",
+        answer:
+          "The most common early sign is a spring swarm of winged termites indoors near a window or light source on a warm, still day between March and May. The discarded wings left on windowsills after the swarm are a reliable indicator even if you did not see the actual insects. Other signs include mud tubes on foundation walls or floor joists in a crawl space, and hollow-sounding wood when tapped. Any of these signs warrants an immediate professional inspection.",
+      },
+      {
+        question: "Are stink bugs a new problem in Decatur?",
+        answer:
+          "The brown marmorated stink bug has been expanding its Illinois range steadily over the past decade. Macon County populations are now well established, and the fall aggregation behavior is a predictable annual event in Decatur rather than an occasional encounter. University of Illinois Extension has tracked this expansion and confirms stink bugs are a consistent fall nuisance pest across the central Illinois corn belt. The population is not declining.",
+      },
+      {
+        question: "Do German cockroaches come from the agricultural processing facilities near Decatur?",
+        answer:
+          "The agricultural food processing facilities near Decatur, including major grain and food production operations, can be a source for commercial German cockroach pressure, but they are not typically the source for residential infestations. Residential German cockroaches enter through secondhand items and spread through shared plumbing in multi-family buildings. They are not outdoor insects that migrate from industrial facilities into homes. If you have German cockroaches, the introduction came from inside the building or through items brought in.",
+      },
+      {
+        question: "Is year-round pest control necessary in Decatur?",
+        answer:
+          "For most older Decatur homes, a year-round plan makes sense. Mice require fall exclusion and winter monitoring. Termites need annual inspection. Stink bugs need a September perimeter program. German cockroaches in rental and multi-family properties are year-round. A sustained program with seasonal additions is more cost-effective than treating each problem reactively.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Springfield", slug: "springfield" },
+      { name: "Champaign", slug: "champaign" },
+      { name: "Bloomington", slug: "bloomington" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Decatur, IL | House Mice, Termites & Stink Bugs",
+    metaDescription:
+      "Decatur pest control for house mice, Eastern subterranean termites, German cockroaches, stink bugs and yellowjackets. Macon County Sangamon River central Illinois agricultural specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

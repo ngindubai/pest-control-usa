@@ -439,4 +439,121 @@ export const southCarolinaCities: CityLocation[] = [
     metaDescription:
       "Mount Pleasant pest control for Formosan termites, mosquitoes, fire ants, Palmetto bugs and carpenter bees. Charleston County coastal suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "greenville",
+    name: "Greenville",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T2",
+    population: "~72,000",
+    county: "Greenville County",
+    climate: "temperate",
+    climateDriver:
+      "Greenville sits in the northwestern corner of South Carolina in the Blue Ridge foothills, where the Reedy River runs through a revitalized downtown and the climate is slightly cooler and less humid than the coastal Low Country. The humid subtropical climate still delivers hot summers, mild winters, and a long pest season, but the upland setting means termite pressure includes both Eastern subterranean termites and, in the warmer urban core, some Formosan termite activity. The city's mix of historic mill-town neighborhoods, new development along the I-85 corridor, and the Swamp Rabbit Trail waterway corridor creates a layered pest environment across old and new construction.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "Mosquitoes",
+      "German Cockroaches",
+      "Carpenter Bees",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active spring through fall",
+        note:
+          "Eastern subterranean termites are well established across Greenville County. The city's older mill-town neighborhoods including North Main, West Greenville, and the Augusta Road corridor, with their older wood construction, crawl spaces, and decades of exposure, carry high structural risk. Clemson University Extension confirms subterranean termites are a primary structural pest throughout Upstate South Carolina.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-control",
+        activeSeason: "March through October, most aggressive spring and fall",
+        note:
+          "Red imported fire ants are well established in Greenville County and are a consistent yard and structural pest. They build colonies in lawns, landscaping, and at foundation edges. Clemson Extension confirms fire ants are present across the Piedmont region and are most problematic in spring and fall when colony building activity is highest.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "The Reedy River corridor, Conestee Nature Preserve, and the numerous retention ponds in Greenville's suburban development create mosquito breeding habitat throughout the metro. Greenville's warm, humid summers sustain a long mosquito season. The Asian tiger mosquito, a daytime biter, is established in Upstate South Carolina.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are a year-round concern in Greenville's older multi-family housing, the restaurant district along Main Street and Augusta Road, and commercial food service businesses throughout the metro. They spread through shared plumbing in older buildings and are the primary indoor cockroach pest in Upstate South Carolina urban areas.",
+      },
+      {
+        name: "Carpenter bees",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "March through September, most active in spring",
+        note:
+          "Carpenter bees are a significant nuisance pest in Greenville's older historic neighborhoods, where they bore into unpainted or weathered wood eaves, porch rails, fascia boards, and decking. The older mill-town housing stock provides abundant bare wood nesting sites. Clemson Extension identifies carpenter bees as a consistent wood-damaging pest in South Carolina.",
+      },
+    ],
+    localHook:
+      "Greenville's position in the Blue Ridge foothills gives it a pest calendar that is slightly cooler and longer than the coastal Low Country, but the termite pressure is still substantial in the older mill-town neighborhoods, and the Reedy River corridor brings mosquito season hard through the summer.",
+    intro:
+      "Pest control in Greenville covers the full Upstate South Carolina pest calendar, tempered only slightly by the Blue Ridge foothills elevation. Eastern subterranean termites are the structural baseline concern across the city's older neighborhoods, with spring swarms appearing in the mill-town housing corridors in February and March. Fire ants are a year-round yard management challenge throughout Greenville County. Mosquitoes are heavy through the summer along the Reedy River and in the suburban retention pond landscape. German cockroaches are year-round in the restaurant district and older rental housing. Carpenter bees attack the weathered wood of older homes in spring. The Greenville pest calendar starts early and runs late.",
+    sections: [
+      {
+        heading: "Termites in Greenville's historic mill-town neighborhoods",
+        body: "Greenville grew as a textile manufacturing center, and the mill-town neighborhoods that developed around those mills, North Main, West Greenville, Judson, and the Augusta Road corridor, contain significant housing stock from the early and mid 20th century. This housing was built before modern termite prevention standards, and much of it sits on crawl space foundations with older wood details near or in contact with grade. Clemson University Extension identifies Eastern subterranean termites as the primary structural pest in the Upstate region. The combination of older construction, crawl spaces, and the warm, humid Piedmont climate means termite inspection is not optional for Greenville homeowners in older neighborhoods: it is a standard annual practice. Spring swarms, typically appearing in February or March in Greenville, earlier than in northern states, are the most visible alert. Finding winged termites indoors near windows warrants an immediate inspection. Treatment options include liquid soil barriers and bait systems, both of which require licensed professional application.",
+      },
+      {
+        heading: "Fire ants in Greenville: managing a year-round colony builder",
+        body: "Red imported fire ants are established throughout Greenville County and are one of the most persistent yard management challenges in the Upstate region. They build mound colonies in lawns, garden beds, landscaping edges, and at foundation edges where turf meets hardscape. In Greenville's climate, fire ant colonies are never fully dormant: even during mild Upstate winters, the colony may slow but does not die. Spring and fall are the most visible periods of colony expansion, when new mounds appear across lawns after rain events. Treatment using fire ant bait spread across the lawn works over 2 to 4 weeks as workers carry it to the queen. Individual mound drench treatments are effective but only address the targeted colony. Clemson Extension recommends a two-step broadcast bait approach for sustained yard-level fire ant control: broadcast bait in spring and fall for colony reduction, with individual mound treatment for priority areas.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection for older Greenville mill-town homes, particularly those on crawl space foundations, in late winter before spring swarms begin.",
+      "Apply broadcast fire ant bait across lawns in spring and fall for sustained colony reduction across the yard rather than treating individual mounds reactively.",
+      "Apply a monthly mosquito barrier spray from April through October along the Reedy River corridor and near retention ponds.",
+      "Paint or seal exposed wood on eaves, porch rails, and fascia boards in early spring before carpenter bees become active in March.",
+    ],
+    costNote:
+      "Greenville pest control typically includes a year-round general pest plan with fire ant treatment, spring and fall termite inspection, mosquito barrier service from April through October, and carpenter bee treatment as needed in spring. A free assessment determines the right scope.",
+    faqs: [
+      {
+        question: "Why do termites swarm earlier in Greenville than in northern cities?",
+        answer:
+          "Greenville's warmer Upstate South Carolina climate means soil temperatures reach the threshold for termite swarming earlier than in Ohio, Pennsylvania, or the Mid-Atlantic. Eastern subterranean termite swarms in Greenville typically occur in February through April, sometimes as early as late February on warm still days. This is not unusual: it simply reflects the warmer Piedmont climate. Any swarm inside the home, regardless of date, warrants an immediate inspection.",
+      },
+      {
+        question: "Are Formosan termites a concern in Greenville?",
+        answer:
+          "Formosan termites are primarily a coastal Low Country concern in South Carolina, but their range has extended into some warmer urban environments in the Piedmont. The risk in Greenville is much lower than in Charleston or Columbia, but it is not zero for properties in the warmer urban heat island areas of the city. An inspection from a technician familiar with both species determines which, if any, treatment is appropriate.",
+      },
+      {
+        question: "How do I control fire ants in my Greenville lawn without harming bees?",
+        answer:
+          "Broadcast fire ant bait is the most bee-safe approach because the bait is applied at low rates, works slowly, and targets fire ant foragers specifically. Liquid mound drenches applied directly to individual mounds are effective for priority areas without treating the whole lawn. Avoid broadcast insecticide treatments that are toxic to beneficial insects. Clemson Extension's two-step program using broadcast bait plus individual mound treatment gives the best yard-level results with the least environmental impact.",
+      },
+      {
+        question: "What do carpenter bees do to my Greenville porch?",
+        answer:
+          "Carpenter bees bore perfectly round half-inch diameter holes into bare or weathered wood to create nesting galleries. In Greenville's older historic neighborhoods, this means eaves, porch rails, unpainted fascia boards, and the exposed wood framing of older porches and decks. The boring itself is the primary damage: over multiple seasons, the same boards may have dozens of galleries weakening the wood. Yellow staining below the entry holes is a common visual sign. Painting or sealing all exposed wood surfaces in early spring, before bees become active in March, is the most effective prevention.",
+      },
+      {
+        question: "When is mosquito season in Greenville?",
+        answer:
+          "April through October, with July and August the peak months. Greenville's warm, humid summers sustain a long mosquito season, and the Reedy River, Conestee Nature Preserve wetlands, and the numerous retention ponds in suburban development provide year-round breeding habitat when water temperatures allow. The Asian tiger mosquito, a daytime biter, is established in Upstate South Carolina and extends the nuisance period beyond evening hours.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Columbia", slug: "columbia" },
+      { name: "Spartanburg", slug: "spartanburg" },
+      { name: "Anderson", slug: "anderson" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Greenville, SC | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Greenville pest control for Eastern subterranean termites, fire ants, mosquitoes, German cockroaches and carpenter bees. Greenville County Upstate South Carolina Reedy River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

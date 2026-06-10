@@ -8,18 +8,18 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-09)
+## Current State (2026-06-10)
 
-- **Phase:** Phase 2 T2 in progress. Chunks 13 and 14 complete.
-- **City pages built:** 350 total (75 T1 + 275 T2). 25 T2 cities remaining.
+- **Phase:** Phase 3 T3 in progress. Chunks 15 and 16 complete. T2 is COMPLETE (300 cities).
+- **City pages built:** 400 total (75 T1 + 300 T2 + 25 T3). T2 done. T3 underway.
 - **Town pages built:** 0.
-- **Total site pages:** 430 in the static export (home, services, 50+ states, 350 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=71, B=70, C=70, D=70, E=69 (350 total cities, all within 15-25% range).
-- **Cities built T2 chunk 13 (25):** Lowell MA (A), Beaverton OR (B), Bloomington MN (C), Warner Robins GA (D), Lafayette LA (E), Tuscaloosa AL (A), Greeley CO (B), Concord NC (C), Kenosha WI (D), Orem UT (E), Kansas City KS (A), Fayetteville AR (B), Bloomington IN (C), Portsmouth VA (D), Davenport IA (E), North Charleston SC (A), Asheville NC (B), Longmont CO (C), Goodyear AZ (D), Lee's Summit MO (E), New Bedford MA (A), Spokane Valley WA (B), Jackson TN (C), Sandy UT (D), Lake Charles LA (E).
-- **Cities built T2 chunk 14 (25):** Fort Smith AR (A), Clifton NJ (B), O'Fallon MO (C), St. Joseph MO (D), Gulfport MS (E), Brockton MA (A), Fishers IN (B), Avondale AZ (C), Cambridge MA (D), Franklin TN (E), Las Cruces NM (A), Sioux City IA (B), Lynn MA (C), Rio Rancho NM (D), Camden NJ (E), Ogden UT (A), Lawton OK (B), Racine WI (C), Gastonia NC (D), Hamilton OH (E), St. George UT (A), Mount Pleasant SC (B), Hoover AL (C), Quincy MA (D), Appleton WI (E).
-- **New state files added chunks 13-14:** none (all states already have files).
-- **Next block:** Chunk 15, final 25 T2 cities, rotation continues at A.
-- **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
+- **Total site pages:** 483 in the static export (home, services, 50+ states, 400 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=81, B=80, C=80, D=80, E=79 (400 total cities, all within 15-25% range).
+- **Cities built T2 chunk 15 (25, FINAL T2):** Wichita Falls TX (A), Tyler TX (B), Richardson TX (C), League City TX (D), Allen TX (E), Ventura CA (A), El Cajon CA (B), Santa Maria CA (C), Nampa ID (D), Meridian ID (E), Nashua NH (E), Canton OH (A), Youngstown OH (B), Parma OH (E), Champaign IL (C), Decatur IL (D), Greenville SC (A), Jonesboro AR (B), Hendersonville TN (C), Kalamazoo MI (D), Bowling Green KY (E), Billings MT (A), Cheyenne WY (B), Portland ME (C), Wilmington DE (D).
+- **Cities built T3 chunk 16 (25, FIRST T3):** College Station TX (A), Baytown TX (B), Bryan TX (C), New Braunfels TX (D), Edinburg TX (E), Mission TX (A), Vacaville CA (B), Rialto CA (C), Compton CA (D), Hesperia CA (E), Deltona FL (A), Palm Coast FL (B), Federal Way WA (C), Bellingham WA (D), Flagstaff AZ (E), Alpharetta GA (A), Albany GA (B), Fall River MA (C), Newton MA (D), Jacksonville NC (E), Rocky Mount NC (A), Eau Claire WI (B), Moore OK (C), Troy MI (D), Westland MI (E).
+- **New state files added chunks 15-16:** montana, wyoming, maine, delaware (all added in chunk 15 for final T2 cities in those states).
+- **Next block:** Chunk 17, T3, rotation at A.
+- **Deploy note:** Session branch is claude/practical-ramanujan-a5td1v. deploy.yml fires on push to main and the site goes live. Never use a working branch in production.
 
 ## Page Hierarchy and Tiering
 
@@ -84,6 +84,7 @@
 | 2026-06-08 | Chunk 11: next 25 T2 city pages | Olathe KS (A), Everett WA (A), Renton WA (D), Waterbury CT (C), Wilmington NC (D), Yuma AZ (C), Flint MI (B), Centennial CO (E), Hillsboro OR (C), Bend OR (D), Pompano Beach FL (E), Davie FL (E), Boca Raton FL (E), Fullerton CA (B), Orange CA (C), Santa Clara CA (D), Clovis CA (E), Murrieta CA (B), Costa Mesa CA (A), Antioch CA (B), El Monte CA (C), Temecula CA (A), Downey CA (B), West Covina CA (D), Inglewood CA (A). No new state files. Rotation A=56 B=55 C=55 D=55 E=54. 275 total cities, 358 site pages. Build green. |
 | 2026-06-09 | Chunk 12: next 25 T2 city pages | Pearland TX (A), Sugar Land TX (A), Odessa TX (D), Fort Myers FL (B), Sunrise FL (B), West Jordan UT (D), Sparks NV (E), Boulder CO (A), Kirkland WA (D), Trenton NJ (E), Erie PA (A), Reading PA (B), Carmel IN (B), Roswell GA (C), Livonia MI (C), Edmond OK (E), Waukegan IL (C), Victorville CA (C), Berkeley CA (C), Daly City CA (D), Burbank CA (E), Fairfield CA (B), Norwalk CA (A), Jurupa Valley CA (D), Richmond CA (E). No new state files. Rotation A=61 B=60 C=60 D=60 E=59. 300 total cities, 383 site pages. Build green. |
 | 2026-06-09 | Chunks 13-14: 50 T2 city pages | Chunk 13: Lowell MA, Beaverton OR, Bloomington MN, Warner Robins GA, Lafayette LA, Tuscaloosa AL, Greeley CO, Concord NC, Kenosha WI, Orem UT, Kansas City KS, Fayetteville AR, Bloomington IN, Portsmouth VA, Davenport IA, North Charleston SC, Asheville NC, Longmont CO, Goodyear AZ, Lee's Summit MO, New Bedford MA, Spokane Valley WA, Jackson TN, Sandy UT, Lake Charles LA. Chunk 14: Fort Smith AR, Clifton NJ, O'Fallon MO, St. Joseph MO, Gulfport MS, Brockton MA, Fishers IN, Avondale AZ, Cambridge MA, Franklin TN, Las Cruces NM, Sioux City IA, Lynn MA, Rio Rancho NM, Camden NJ, Ogden UT, Lawton OK, Racine WI, Gastonia NC, Hamilton OH, St. George UT, Mount Pleasant SC, Hoover AL, Quincy MA, Appleton WI. No new state files. Rotation A=71 B=70 C=70 D=70 E=69. 350 total cities, 430 site pages. Build green. |
+| 2026-06-10 | Chunks 15-16: 50 city pages (25 T2 final + 25 T3 first) | Chunk 15 (T2 final): Wichita Falls TX, Tyler TX, Richardson TX, League City TX, Allen TX, Ventura CA, El Cajon CA, Santa Maria CA, Nampa ID, Meridian ID, Nashua NH, Canton OH, Youngstown OH, Parma OH, Champaign IL, Decatur IL, Greenville SC, Jonesboro AR, Hendersonville TN, Kalamazoo MI, Bowling Green KY, Billings MT, Cheyenne WY, Portland ME, Wilmington DE. New state files: montana, wyoming, maine, delaware. T2 COMPLETE. Chunk 16 (T3 first): College Station TX, Baytown TX, Bryan TX, New Braunfels TX, Edinburg TX, Mission TX, Vacaville CA, Rialto CA, Compton CA, Hesperia CA, Deltona FL, Palm Coast FL, Federal Way WA, Bellingham WA, Flagstaff AZ, Alpharetta GA, Albany GA, Fall River MA, Newton MA, Jacksonville NC, Rocky Mount NC, Eau Claire WI, Moore OK, Troy MI, Westland MI. No new state files. Rotation A=81 B=80 C=80 D=80 E=79. 400 total cities, 483 site pages. Build green. |
 
 ## ClimateZone Values (extended 2026-06-04)
 

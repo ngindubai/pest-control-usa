@@ -3582,4 +3582,1293 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Odessa pest control for striped bark scorpions, black widow spiders, German cockroaches, house mice and roof rats. Ector County Permian Basin West Texas specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  // Chunk 15 additions
+  {
+    slug: "wichita-falls",
+    name: "Wichita Falls",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~103,000",
+    county: "Wichita County",
+    climate: "semi-arid",
+    climateDriver:
+      "Wichita Falls sits in north Texas near the Oklahoma border on the Rolling Plains, a semi-arid region with hot, dry summers, unpredictable severe weather, and cold-enough winters to push mice and other pests indoors seasonally. The Wichita River and Lake Wichita provide local moisture that sustains mosquito populations through the warm season, while the surrounding rangeland and cropped fields supply the fire ant and rodent pressure that defines the area.",
+    topPests: [
+      "Fire Ants",
+      "Striped Bark Scorpions",
+      "German Cockroaches",
+      "Subterranean Termites",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds most active after spring rain",
+        note:
+          "Fire ants are embedded across Wichita County lawns, parks, and roadsides. Texas A&M AgriLife Extension confirms red imported fire ants are present throughout north Texas. Mounds reappear quickly after every wet spell, and the aggressive stings are a real hazard for children and outdoor workers.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "March through October, most active in summer heat",
+        note:
+          "The striped bark scorpion, the most widespread scorpion in Texas, is a regular resident of homes in Wichita Falls. Texas A&M confirms they are found in north Texas, entering through gaps around foundations and pipes on warm nights. They are the only medically significant scorpion in the region.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are a consistent year-round indoor pest in Wichita Falls apartments, restaurants, and commercial buildings. They breed in warm, humid kitchen and bathroom environments and spread rapidly in multi-family buildings through shared plumbing and wall voids.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active spring through fall",
+        note:
+          "Eastern subterranean termites are established in Wichita County and active across north Texas. Spring swarms signal established colonies, and the clay soils of the Rolling Plains retain moisture that supports termite activity near foundations. Texas A&M AgriLife Extension recommends annual inspections across the region.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "Lake Wichita and the Wichita River corridor sustain mosquito breeding through the long warm season. The Wichita Falls / Wichita County area monitors West Nile virus activity annually, and the lake's shoreline and drainage channels generate significant mosquito habitat in summer.",
+      },
+    ],
+    localHook:
+      "Wichita Falls sits on the Rolling Plains where Oklahoma rangeland meets north Texas, and the pest calendar reflects that: fire ants dominate the lawns year-round, striped bark scorpions show up in homes on warm nights, and a long hot summer drives the season from spring to October.",
+    intro:
+      "Pest control in Wichita Falls runs on the north Texas ranching-country calendar. Fire ants are the year-round ground-level reality, with mounds appearing reliably after every spring rain across lawns and roadside edges. Striped bark scorpions add a nighttime hazard, pressing through foundation gaps on warm evenings. German cockroaches are the main indoor concern in the city's apartments and food service spaces, while subterranean termites quietly work the clay-soil foundations throughout the region. The Wichita River and Lake Wichita keep the mosquito season running from April through October.",
+    sections: [
+      {
+        heading: "Fire ants and scorpions: the outdoor hazard combination",
+        body: "Two outdoor pests define the risk in Wichita Falls yards and properties. Red imported fire ants are embedded everywhere in Wichita County: lawns, parks, pasture edges, and road verges. Their stings are genuinely painful, and for anyone with an allergy, a mound disturbance can be dangerous. Texas A&M AgriLife Extension recommends treating individual mounds as they appear rather than waiting for a mass event. The second hazard is the striped bark scorpion, a north Texas native that is the state's only commonly encountered scorpion species. They enter homes through weep holes, foundation cracks, and gaps around plumbing, and turn up in bathrooms, closets, and on walls on warm nights. Addressing both requires a combination of perimeter treatment and exclusion work rather than indoor spray alone.",
+      },
+      {
+        heading: "Subterranean termites in Wichita County clay soils",
+        body: "The clay-heavy soils of the Rolling Plains retain moisture in ways that sandy or rocky soils do not, and that moisture sustains subterranean termite activity at foundation level year-round. Wichita Falls homeowners who see spring swarms of winged termites inside or near the home should act promptly: a swarm indoors means a colony is already established. Texas A&M AgriLife recommends annual termite inspections for north Texas homeowners, and homes with slab foundations that have soil-to-wood contact at planter beds or landscape timbers carry the highest risk.",
+      },
+    ],
+    prevention: [
+      "Treat fire ant mounds individually as they appear using broadcast granular bait to slow colony spread across the yard.",
+      "Seal weep holes, foundation cracks, and gaps around plumbing with mesh or caulk to block scorpion entry on warm nights.",
+      "Schedule an annual termite inspection given the clay soils and established termite pressure across Wichita County.",
+      "Eliminate standing water near Lake Wichita drainage areas and in yard low spots to reduce mosquito breeding through the long warm season.",
+    ],
+    costNote:
+      "Wichita Falls pest control commonly starts with a free inspection. Many homeowners use a quarterly general plan covering fire ants, scorpions, and cockroaches, with a separate termite protection agreement. Mosquito service is seasonal, April through October.",
+    faqs: [
+      {
+        question: "Are scorpions common in Wichita Falls homes?",
+        answer:
+          "Yes. The striped bark scorpion is present throughout north Texas, and Wichita Falls homes see them regularly, particularly in summer and fall. They enter through weep holes, foundation cracks, and gaps around plumbing. The sting causes significant pain and, in some cases, a more serious systemic reaction. Wearing shoes indoors at night and pulling back bedding before sleeping are practical precautions during active season.",
+      },
+      {
+        question: "When is fire ant season in Wichita Falls?",
+        answer:
+          "Fire ants are active year-round in Wichita County, but mounds grow and multiply most aggressively after spring and early summer rain. Texas A&M confirms they are established throughout north Texas. A broadcast bait treatment across the lawn in spring, combined with individual mound treatments as they appear, gives the best long-term control.",
+      },
+      {
+        question: "Do I need a termite inspection in north Texas?",
+        answer:
+          "Yes. Eastern subterranean termites are established in Wichita County, and the clay soils of the Rolling Plains retain moisture that supports termite activity at foundation level. Texas A&M AgriLife Extension recommends annual inspections for homeowners across north Texas. Spring swarms indoors are the most visible early sign of an established colony.",
+      },
+      {
+        question: "How bad are mosquitoes near Lake Wichita?",
+        answer:
+          "Properties near Lake Wichita and the Wichita River corridor see more mosquito pressure than the rest of the city, because the water and surrounding drainage create breeding habitat through the warm season. West Nile virus is monitored in the area annually. A monthly barrier spray program and eliminating standing water on the property are the practical defenses.",
+      },
+      {
+        question: "What is the best pest control plan for Wichita Falls?",
+        answer:
+          "Most Wichita Falls homeowners do well with a quarterly general plan that covers fire ants, scorpions, cockroaches, and spiders, combined with a separate annual termite inspection. Mosquito service from April through October is worth it for properties near the lake or with standing water. Start with a free inspection to build a plan that matches your property.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Lawton", slug: "lawton" },
+      { name: "Lubbock", slug: "lubbock" },
+      { name: "Abilene", slug: "abilene" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Wichita Falls, TX | Fire Ants, Scorpions & Termites",
+    metaDescription:
+      "Wichita Falls pest control for fire ants, striped bark scorpions, German cockroaches, subterranean termites and mosquitoes. Wichita County Rolling Plains north Texas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "tyler",
+    name: "Tyler",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~105,000",
+    county: "Smith County",
+    climate: "hot-humid",
+    climateDriver:
+      "Tyler sits in the East Texas Pineywoods, a heavily forested region with humid subtropical climate, abundant rainfall, and rich acidic soils. That combination drives some of the highest subterranean and Formosan termite pressure in the state, a very long mosquito season fed by the region's creek and river systems, and year-round fire ant activity through the piney woods understory.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "American Cockroaches",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean and Formosan termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note:
+          "East Texas Pineywoods are among the highest termite pressure zones in the state. Tyler and Smith County carry both Eastern subterranean and, in some areas, Formosan termite populations. The region's clay-rich soils, high humidity, and abundant wood-to-soil contact in older and rural structures make annual inspections essential. Texas A&M AgriLife Extension documents the region's elevated termite risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note:
+          "Tyler's many creek drainages, the Sabine River to the east, Lake Tyler, and Lake Palestine contribute to a long and intense mosquito season. Smith County monitors West Nile virus activity, and the East Texas humidity means breeding habitat is abundant from early spring through late fall.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds most visible after spring rain",
+        note:
+          "Fire ants are deeply established across Tyler's lawns, parks, and surrounding rural land. East Texas's humid conditions and acidic soils favor large fire ant colonies. Texas A&M AgriLife documents fire ants as a year-round concern throughout East Texas.",
+      },
+      {
+        name: "American and smoky brown cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round outdoors and indoors in warm weather",
+        note:
+          "Large cockroach species, including American and smoky brown cockroaches, are common in Tyler's drainage infrastructure and move indoors during the summer heat and after rain events. Smith County's humidity keeps outdoor cockroach populations high and indoor pressure steady.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note:
+          "The East Texas Pineywoods support large carpenter ant populations. They nest in the damp or decayed wood that is common in the region's older homes and in the abundant fallen timber of the surrounding forested landscape. Finding carpenter ants indoors in spring often indicates a colony in moisture-damaged wood near the structure.",
+      },
+    ],
+    localHook:
+      "Tyler is the rose-growing capital of America, set in the East Texas Pineywoods where humidity and rainfall are among the highest in the state. That moisture is exactly what drives the region's extraordinary termite pressure and long mosquito season.",
+    intro:
+      "Pest control in Tyler, Texas, reflects the East Texas Pineywoods: high humidity, abundant rainfall, and the acidic piney soils that make this one of the highest termite pressure regions in the state. Subterranean termites, and Formosan termites in some areas, are the primary structural concern for homeowners. The creek and river drainages around the city feed a mosquito season that runs from March through November. Fire ants are everywhere year-round, large cockroach species are part of the summer environment, and carpenter ants work the damp wood of older and rural structures through the warm season.",
+    sections: [
+      {
+        heading: "Termite risk in the East Texas Pineywoods",
+        body: "Tyler sits in one of the highest termite pressure zones in Texas. The combination of the Pineywoods' humidity, clay-rich soils, and abundant organic material creates ideal conditions for Eastern subterranean termites, and Formosan termite populations are documented in parts of East Texas. Texas A&M AgriLife Extension researchers have studied this region extensively and confirm its elevated risk. For Tyler homeowners, an annual termite inspection is not just a recommendation, it is basic property protection. The most vulnerable homes are those with crawl spaces, original wood framing with soil-to-wood contact, and any structure where mulch, landscape timbers, or wood debris touches the foundation. Spring swarms of winged termites inside the home, typically on warm days after rain in March through May, are the first visible sign of an established colony.",
+      },
+      {
+        heading: "Mosquitoes in Smith County: a long season",
+        body: "The East Texas landscape around Tyler is laced with creek drainages flowing toward the Sabine River system, and the city is flanked by Lake Tyler and Lake Palestine, both large reservoirs that sustain extensive shoreline mosquito habitat. The humid subtropical climate keeps the season open from early March through late November in most years, which is longer than most of Texas. Smith County mosquito monitoring includes West Nile virus surveillance, and the Asian tiger mosquito, a daytime biter, is also established in the region. For properties near any of the creek corridors or the lake edges, a consistent monthly barrier spray program is the effective management approach. Eliminating standing water on the property, including gutters that hold water, old tires, and ornamental containers, removes breeding sites within your control.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given East Texas's elevated termite pressure and the region's clay soils and humidity.",
+      "Apply broadcast fire ant bait across the lawn in spring before colonies spread and mounds multiply after seasonal rain.",
+      "Clear standing water sources near creek drainages and ornamental containers monthly to reduce the long East Texas mosquito season.",
+      "Inspect wood around windows, sill plates, and outdoor structures annually for carpenter ant activity and moisture damage.",
+    ],
+    costNote:
+      "Tyler pest control typically combines a recurring general plan with a separate annual termite inspection. East Texas's pest pressure warrants a proactive approach. A free inspection tailors the plan to your property and the specific species pressure you face.",
+    faqs: [
+      {
+        question: "Why are termites so bad in Tyler and East Texas?",
+        answer:
+          "The East Texas Pineywoods deliver the three things termites need: humidity, clay-rich soils that retain moisture, and abundant organic material. Texas A&M AgriLife Extension documents the region as one of the highest termite pressure zones in the state. Tyler and Smith County carry both Eastern subterranean and, in some areas, Formosan termite pressure. An annual inspection and a treatment barrier are basic property protection here.",
+      },
+      {
+        question: "When is mosquito season in Tyler?",
+        answer:
+          "The season runs from roughly March through November, longer than most of Texas, because the East Texas humidity and the creek drainages around Tyler keep breeding habitat active later into the fall. Smith County monitors West Nile virus, and the Asian tiger mosquito, which bites during the day, is also established in the area. A consistent yard treatment program and eliminating standing water on the property are the practical defenses.",
+      },
+      {
+        question: "Are Formosan termites in Tyler?",
+        answer:
+          "Formosan termites are documented in parts of East Texas, and Tyler area reports have noted their presence. They form much larger colonies and cause faster, more significant damage than Eastern subterranean termites. A professional inspection distinguishes between species. If Formosan termites are identified, a more aggressive treatment approach is warranted given the damage potential.",
+      },
+      {
+        question: "How do I manage fire ants in my Tyler yard?",
+        answer:
+          "Texas A&M AgriLife Extension's two-step method is the most effective approach for East Texas lawns: apply a broadcast granular bait across the entire lawn in spring, which workers carry back to the colony and share, then treat individual problem mounds directly. Bait is most effective when ants are actively foraging, which is when the soil is warm and moist. This approach dramatically reduces colony numbers over a full growing season.",
+      },
+      {
+        question: "Do carpenter ants cause damage in East Texas homes?",
+        answer:
+          "Yes. Carpenter ants are common in the East Texas Pineywoods environment, nesting in moisture-damaged or decayed wood. They do not eat wood but excavate it for galleries, and an established interior colony can cause meaningful structural damage over time. The Pineywoods humidity means moisture-affected wood is common in older Tyler homes. Finding large black ants indoors in spring is the cue for a professional inspection of wood near moisture sources.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Longview", slug: "longview" },
+      { name: "Nacogdoches", slug: "nacogdoches" },
+      { name: "Shreveport", slug: "shreveport" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Tyler, TX | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Tyler pest control for East Texas subterranean termites, mosquitoes, fire ants, American cockroaches and carpenter ants. Smith County Pineywoods humid subtropical specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "richardson",
+    name: "Richardson",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~120,000",
+    county: "Dallas and Collin Counties",
+    climate: "semi-arid",
+    climateDriver:
+      "Richardson is a dense northern suburb of Dallas spanning the Dallas and Collin County line, with a hot semi-arid climate typical of north Texas. Hot summers and mild winters with occasional freezes create a long pest season, while the dense residential development with extensive tree canopy, irrigation, and landscaping concentrated along the DART rail corridors and the Arapaho Road corridor sustains fire ants, mosquitoes, and subterranean termites year-round.",
+    topPests: [
+      "Fire Ants",
+      "Subterranean Termites",
+      "German Cockroaches",
+      "Mosquitoes",
+      "Crickets",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak after spring and summer rain",
+        note:
+          "Fire ants are the dominant outdoor pest in Richardson's lawns, parks, and landscaped medians. Texas A&M AgriLife confirms they are established throughout the DFW Metroplex. Dense suburban irrigation in Richardson keeps soil moist enough to support large colonies well into dry summers.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round below ground",
+        note:
+          "Subterranean termites are active throughout Dallas and Collin Counties. Richardson's clay-heavy soils retain moisture and support termite colonies at foundation level. The Telecom Corridor area has many 1980s-era commercial buildings and mid-century residential homes with elevated termite exposure.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are the primary indoor cockroach pest in Richardson's apartment complexes, commercial kitchens, and the dense residential buildings near the DART stations. They spread through shared plumbing and wall voids in multi-family housing.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note:
+          "Spring Creek, which runs through Richardson, and the city's extensive irrigation create mosquito breeding habitat through the warm season. Dallas County and Collin County both monitor West Nile virus activity, and the DFW Metroplex area sees West Nile cases most years.",
+      },
+      {
+        name: "House crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Summer and fall, most intense August through October",
+        note:
+          "House crickets are a persistent nuisance pest in Richardson and throughout the DFW Metroplex. They congregate at building entrances, in garages, and around exterior lights in late summer and fall, and readily enter structures seeking warmth as temperatures drop. Texas A&M Extension documents crickets as a significant fall nuisance pest across north Texas.",
+      },
+    ],
+    localHook:
+      "Richardson's Telecom Corridor and dense north Dallas suburban landscape create one of the Metroplex's more manicured environments, but that same dense irrigation, established landscaping, and clay-soil neighborhood structure also sustains reliable year-round fire ant, termite, and mosquito pressure.",
+    intro:
+      "Pest control in Richardson is the standard north Dallas suburban picture: fire ants in every yard, subterranean termites in the clay soils, German cockroaches in the denser apartment stock and commercial food service, and a mosquito season that Spring Creek and the city's irrigation extend well into fall. Cricket invasions at building entrances in August and September are a distinctive Richardson nuisance. The city's mature neighborhoods and the newer high-density development near DART rail stations create different pest profiles within the same city, but the foundational pressures are consistent across both.",
+    sections: [
+      {
+        heading: "Fire ants in Richardson's irrigated suburban landscape",
+        body: "Richardson's lawns are well-irrigated, which keeps soils moist enough for fire ant colonies even through dry north Texas summers. Texas A&M AgriLife Extension's two-step control method is the recommended approach for DFW suburbs: broadcast granular bait across the entire lawn in spring, when colonies are most active and workers are foraging, then spot-treat individual mounds that persist. The bait is carried back to the colony by workers and shared through trophallaxis, reducing the colony over several weeks. Spot-treating individual mounds without the broadcast bait step is only temporarily effective because the broader lawn population resupplies those locations quickly.",
+      },
+      {
+        heading: "Crickets in Richardson and the fall nuisance season",
+        body: "House crickets and field crickets are a defining late-summer and fall nuisance in Richardson and across the Telecom Corridor area. They congregate in large numbers at building entrances, loading docks, and around exterior lights, drawn by the warmth and the insects that lights attract. They enter structures through gaps under doors and around ground-floor windows, and can quickly establish in large numbers inside garages and ground-floor spaces. Texas A&M Extension documents crickets as a major fall nuisance pest in north Texas. Perimeter treatment in August and September, before the fall congregation peaks, reduces numbers entering the structure. Adjusting exterior lighting to sodium vapor or yellow-tinted bulbs that are less attractive to insects also helps.",
+      },
+    ],
+    prevention: [
+      "Apply broadcast granular fire ant bait in spring across the full lawn before colonies spread through the irrigated yard.",
+      "Schedule a termite inspection for homes with slab foundations and any soil-to-wood contact at planter beds or landscape timbers.",
+      "Treat the building perimeter in August to reduce cricket congregation at entrances before the peak fall nuisance season.",
+      "Clear Spring Creek drainage areas and standing water in gutters and yard low spots to reduce mosquito breeding through the season.",
+    ],
+    costNote:
+      "Richardson pest control is typically quoted as a year-round general plan covering fire ants, cockroaches, crickets, and spiders, plus a separate annual termite inspection. A free assessment sets the right scope for your home or business.",
+    faqs: [
+      {
+        question: "Are fire ants worse in irrigated Richardson neighborhoods?",
+        answer:
+          "Yes. Fire ant colonies depend on moisture for colony growth and mound building, and Richardson's densely irrigated suburban landscape keeps clay soils moist enough to support large colonies even through dry north Texas summers. Texas A&M AgriLife research documents the relationship between irrigation and fire ant density in DFW suburbs. Broadcast bait applied in spring, when colonies are most active, is the most effective approach for heavily irrigated lawns.",
+      },
+      {
+        question: "Do I need a termite inspection in Richardson?",
+        answer:
+          "Yes. Eastern subterranean termites are active throughout Dallas and Collin Counties, and Richardson's clay soils retain the moisture that supports termite activity at foundation level. Texas A&M recommends annual inspections for DFW homeowners. Richardson's mix of mid-century homes and 1980s construction includes many properties that have had decades of termite exposure.",
+      },
+      {
+        question: "Why are crickets so bad in Richardson in the fall?",
+        answer:
+          "House and field crickets peak in August through October across north Texas when populations reach maximum size and temperatures begin cooling. They congregate around illuminated building entrances and move indoors seeking warmth. Texas A&M Extension confirms they are a major fall nuisance pest in the DFW Metroplex. Perimeter treatment in August and adjusting exterior lighting to less-attractive yellow or sodium vapor bulbs reduces congregation.",
+      },
+      {
+        question: "When is mosquito season in Richardson?",
+        answer:
+          "The active season runs from March through October. Spring Creek and the city's irrigation maintain breeding habitat through the warm season. Dallas and Collin Counties monitor West Nile virus activity, and the DFW area sees cases most years. A monthly barrier spray program and eliminating standing water sources are the practical yard-level defenses.",
+      },
+      {
+        question: "Are German cockroaches common in Richardson apartments?",
+        answer:
+          "Yes, particularly in the denser apartment complexes near the DART rail stations and in commercial food service businesses. German cockroaches spread through shared plumbing and wall voids in multi-family buildings and are difficult to eliminate in a single unit without treating adjacent units. They are entirely indoor insects in north Texas and breed rapidly in warm kitchen and bathroom environments.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Plano", slug: "plano" },
+      { name: "Allen", slug: "allen" },
+      { name: "Garland", slug: "garland" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Richardson, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Richardson pest control for fire ants, subterranean termites, German cockroaches, mosquitoes and crickets. Dallas Collin County DFW Telecom Corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "league-city",
+    name: "League City",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~112,000",
+    county: "Galveston County",
+    climate: "hot-humid",
+    climateDriver:
+      "League City sits on the Gulf Coast Plain in Galveston County between Houston and Galveston Bay. The hot, humid subtropical climate with near year-round warmth, high rainfall, and proximity to tidal water creates one of the most intense pest environments in Texas. Clear Lake, Galveston Bay, and the San Jacinto River watershed sustain exceptional mosquito habitat, while the Gulf Coast's heat and humidity drive the region's high Formosan and subterranean termite pressure.",
+    topPests: [
+      "Mosquitoes",
+      "Formosan Termites",
+      "Fire Ants",
+      "American Cockroaches",
+      "Roof Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, nearly year-round in warm years",
+        note:
+          "League City's proximity to Galveston Bay, Clear Lake, and the network of bayous and tidal channels across Galveston County creates intense mosquito breeding habitat. The Galveston County Mosquito Control District actively treats the region. West Nile virus is monitored each summer, and the sustained Gulf Coast humidity keeps the season very long.",
+      },
+      {
+        name: "Formosan and subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through July, active spring through fall",
+        note:
+          "The Gulf Coast corridor from Houston to Galveston is one of the most heavily Formosan termite-infested areas in the US. Texas A&M AgriLife Extension documents Formosan termites across Galveston County. They form much larger colonies and cause faster structural damage than native subterranean species. League City's new construction as well as older homes near the bay are both at risk.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note:
+          "Fire ants are active year-round in Galveston County's warm, moist environment. Post-flooding events, common in the League City area from heavy Gulf rain and hurricanes, cause fire ant colonies to raft to high points including porches and walls, creating a hazard after every major rain event.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round outdoors, push indoors in summer heat and after rain",
+        note:
+          "American cockroaches breed in the drainage infrastructure and warm, moist ground cover of the Gulf Coast, and move indoors through foundation gaps, drains, and slab penetrations during the summer heat and after rain events. They are the large species locals call palmetto bugs.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note:
+          "Roof rats are established in the Gulf Coast urban corridor and are present in League City's neighborhoods. They travel power lines and fence tops into attics and are difficult to control without both trapping and exclusion work on the structure. Flooding events displace them and drive waves indoors.",
+      },
+    ],
+    localHook:
+      "League City is waterfront Texas in the most literal sense: Galveston Bay, Clear Lake, and the bayou network make this one of the highest mosquito-pressure environments in the state, and the same Gulf Coast conditions drive the region's Formosan termite burden.",
+    intro:
+      "Pest control in League City is Gulf Coast pest management at full intensity. Galveston Bay, Clear Lake, the bayous, and the subtropical humidity sustain mosquitoes through almost the entire year. Formosan termites, among the most destructive structural pests in North America, are established across the Gulf Coast corridor that runs through Galveston County. Fire ants are year-round and can raft during flood events. American cockroaches, known locally as palmetto bugs, are part of the outdoor landscape and move in under pressure. Roof rats are a year-round structural pest that requires exclusion as well as trapping.",
+    sections: [
+      {
+        heading: "Formosan termites in League City: the serious structural risk",
+        body: "Texas A&M AgriLife Extension documents Formosan termites across the Gulf Coast corridor, and Galveston County is in a high-pressure zone. Formosan subterranean termites are not just more common than native subterranean species here, they are structurally more dangerous: they form much larger colonies and can damage wood faster, with mature colonies containing hundreds of thousands to millions of workers. League City's growth means many newer homes, which may assume a lower risk than older structures, but Formosan termites infest both new and old construction in Gulf Coast conditions. An annual inspection and an active treatment barrier are the baseline protection for League City homeowners. Formosan swarms are most visible on warm evenings in May and June, when winged reproductives emerge in large numbers around exterior lights.",
+      },
+      {
+        heading: "Mosquitoes and flooding in the Galveston Bay area",
+        body: "The Galveston County Mosquito Control District runs one of the more active regional mosquito programs in Texas for a reason: the tidal channels, bayous, and proximity to Galveston Bay create breeding habitat that sustains high mosquito populations through most of the year. League City properties near Clear Lake, the Taylor Lake area, and the bayou corridors see the highest pressure. Post-flooding mosquito surges are a known pattern: after major Gulf rain events or hurricane remnants that push water through the area, breeding populations explode and the district responds with aerial and ground treatment. Around your property, eliminating standing water in any container that holds water more than a few days, including bird baths, gutters, and boat covers, is the most effective personal defense alongside a professional barrier program.",
+      },
+    ],
+    prevention: [
+      "Maintain an active termite barrier treatment given the Formosan termite presence across Galveston County and the Gulf Coast corridor.",
+      "Eliminate standing water in all containers, low yard areas, and blocked gutters to reduce the area's intense mosquito breeding habitat.",
+      "Treat fire ant mounds promptly after every significant rain and flooding event, when colonies raft and recolonize new areas.",
+      "Seal foundation gaps, roof line penetrations, and attic access points to reduce roof rat entry year-round.",
+    ],
+    costNote:
+      "League City pest control typically includes a recurring general plan, a separate termite protection agreement, and seasonal mosquito service from March through November. Gulf Coast pest pressure warrants a proactive, year-round approach. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Are Formosan termites really in League City?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension documents Formosan subterranean termites across the Gulf Coast corridor including Galveston County. They are structurally more dangerous than native subterranean termites because they form much larger colonies. League City homeowners should consider an annual termite inspection and an active treatment barrier as baseline property protection, regardless of home age.",
+      },
+      {
+        question: "How long is mosquito season near Clear Lake and Galveston Bay?",
+        answer:
+          "In a typical year, the active season runs from March through November, and in warm years mosquitoes can remain active into December. The Galveston County waterway network creates breeding habitat that the local mosquito control district treats regularly. Properties near tidal channels and bayous see the highest pressure. A monthly barrier program and eliminating standing water on the property are the practical defenses.",
+      },
+      {
+        question: "What happens to fire ants during flooding in League City?",
+        answer:
+          "Fire ant colonies raft to high ground during flooding events, forming floating mats of ants that can attach to any solid surface including porches, walls, furniture, and people. After waters recede, they recolonize new locations, which is why post-flood treatment of the property and surrounding areas is important. Texas A&M AgriLife Extension documents this behavior extensively for Gulf Coast and bottomland areas.",
+      },
+      {
+        question: "Are roof rats a problem in League City?",
+        answer:
+          "Roof rats are established in the Gulf Coast urban corridor including League City. They access attics by traveling power lines and fence tops and are difficult to control without both trapping inside and sealing entry points on the structure. Flooding events displace them and can drive waves into structures as conditions change. A professional exclusion inspection identifies roof line gaps and attic access points.",
+      },
+      {
+        question: "How do I keep American cockroaches out of my League City home?",
+        answer:
+          "American cockroaches in League City breed outdoors in the Gulf Coast drainage infrastructure and move indoors during summer heat and rain events through foundation gaps, drain openings, and slab penetrations. The most effective exclusion approach is sealing gaps at the plumbing level, installing drain covers, and keeping door sweeps on ground-floor exterior doors in good condition. A perimeter treatment around the foundation reduces the outdoor population pressing against the home.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Houston", slug: "houston" },
+      { name: "Pearland", slug: "pearland" },
+      { name: "Galveston", slug: "galveston" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in League City, TX | Mosquitoes, Formosan Termites & Fire Ants",
+    metaDescription:
+      "League City pest control for mosquitoes, Formosan termites, fire ants, American cockroaches and roof rats. Galveston County Clear Lake Gulf Coast specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "allen",
+    name: "Allen",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T2",
+    population: "~109,000",
+    county: "Collin County",
+    climate: "semi-arid",
+    climateDriver:
+      "Allen is one of the fastest-growing cities in Collin County, a dense northern DFW suburb that has developed rapidly from farmland since the 1990s. The hot, semi-arid north Texas climate with heavy clay soils and abundant suburban irrigation supports year-round fire ant colonies, subterranean termites at slab level, and a mosquito season extended by the many ponds, detention basins, and irrigation systems that define newer suburban development.",
+    topPests: [
+      "Fire Ants",
+      "Subterranean Termites",
+      "Mosquitoes",
+      "German Cockroaches",
+      "Striped Bark Scorpions",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak activity after spring and early summer rain",
+        note:
+          "Fire ants are embedded across Allen's lawns, parks, and the new residential developments throughout Collin County. Texas A&M AgriLife confirms year-round activity in north Texas, and Allen's heavily irrigated yards keep soils moist enough to sustain large colonies even through dry summers.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, year-round below ground",
+        note:
+          "Subterranean termites are active across Collin County. Allen's rapid growth means many homes are built on clay soils with soil-to-wood contact at landscape timbers, mulch beds, and garage framing. Texas A&M recommends annual inspections for all DFW Metroplex homeowners.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note:
+          "Allen's newer subdivisions include numerous detention ponds and landscape water features that create substantial mosquito breeding habitat close to homes. Collin County monitors West Nile virus activity annually, and the DFW region consistently sees cases. The ponds in the Watters Creek and Bethany Road corridors sustain particularly active breeding populations.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are the indoor cockroach concern in Allen's apartment complexes and commercial restaurant corridor along US-75. They spread through shared plumbing and wall voids and breed rapidly in warm kitchen environments. New construction can introduce them through infested deliveries and contractor equipment.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "March through October, most active in summer heat",
+        note:
+          "The striped bark scorpion is found throughout north Texas including Collin County. Texas A&M confirms their presence across the DFW Metroplex. They enter homes through weep holes, pipe penetrations, and foundation gaps in newer construction, and are particularly common in homes backing to undeveloped land or older wooded areas.",
+      },
+    ],
+    localHook:
+      "Allen's rapid growth from open farmland to one of the most sought-after Collin County suburbs has produced a distinctive pest picture: new homes on disturbed clay soils with abundant detention ponds, fire ants recolonizing from surrounding agricultural edges, and subterranean termites finding their way to freshly built foundations.",
+    intro:
+      "Pest control in Allen, Texas, is the new-construction north DFW experience. The city has grown from farmland to a substantial suburb in less than 30 years, and that growth pattern brings distinctive pest challenges: fire ants recolonizing lawns as fast as they are treated, clay soils retaining moisture for subterranean termites at the foundation, and the many detention ponds and irrigated landscapes that define Allen's newer subdivisions sustaining mosquitoes through a long season. Scorpions are present, German cockroaches are the indoor risk in denser living spaces, and the transition from agricultural to suburban land means rodent pressure at the city's growing edges.",
+    sections: [
+      {
+        heading: "Detention ponds and mosquitoes in Allen's subdivisions",
+        body: "Allen's planned residential communities were designed with stormwater detention ponds and landscape water features as aesthetic and drainage elements, and those same ponds create excellent mosquito breeding habitat within feet of homes. Ponds that hold water continuously and have shallow, vegetated edges support the highest breeding density. Unlike a yard puddle that dries out in days, a subdivision pond sustains populations through the entire warm season. Collin County monitors West Nile virus, and the DFW Metroplex sees cases annually. For Allen homeowners near detention ponds, a consistent monthly barrier spray program from March through October is the practical approach. Eliminate any standing water sources you do control: clogged gutters, bird baths that are not refreshed, plant saucers, and low spots in the yard.",
+      },
+      {
+        heading: "Scorpions in Allen: a less obvious but real concern",
+        body: "The striped bark scorpion is not the first pest that comes to mind for a Collin County suburb, but Texas A&M AgriLife Extension confirms its presence throughout north Texas. Allen's newer construction, with the weep holes and gaps common in brick veneer homes, provides scorpion entry points. Homes that back to undeveloped land, creek corridors, or older wooded areas have higher scorpion pressure than those surrounded by developed lots. Scorpions are most active at night from March through October, entering through weep holes, pipe penetrations, and foundation gaps. The practical precautions are sealing those gaps and wearing shoes indoors at night during the warm season. A perimeter treatment reduces outdoor scorpion populations, and reducing harborage near the foundation such as firewood, debris piles, and mulch piles helps long-term.",
+      },
+    ],
+    prevention: [
+      "Apply broadcast fire ant bait in spring across the full lawn before colonies spread from surrounding agricultural edges into the yard.",
+      "Seal weep holes and foundation gaps in brick veneer construction to reduce scorpion entry during the warm season.",
+      "Schedule an annual termite inspection, especially for homes with mulch beds or landscape timbers touching the foundation.",
+      "Eliminate standing water in gutters, bird baths, and yard low spots near subdivision detention ponds to reduce mosquito breeding.",
+    ],
+    costNote:
+      "Allen pest control is typically a year-round general plan covering fire ants, scorpions, cockroaches, and spiders, combined with a separate termite inspection agreement. Mosquito service from March through October is a common seasonal add-on. A free inspection tailors the plan to your property.",
+    faqs: [
+      {
+        question: "Do the detention ponds in Allen subdivisions really cause more mosquitoes?",
+        answer:
+          "Yes. Subdivision detention ponds with shallow, vegetated edges sustain mosquito breeding populations through the entire warm season because they hold water continuously, unlike yard puddles that dry out in days. Homes within a few hundred feet of these ponds see meaningfully higher mosquito pressure than those further away. Collin County monitors West Nile virus annually, and the DFW area sees cases in most years. A monthly barrier spray program is the practical yard-level defense for pond-adjacent properties.",
+      },
+      {
+        question: "Are scorpions common in new Allen subdivisions?",
+        answer:
+          "More common than most residents expect. The striped bark scorpion is present throughout north Texas including Collin County. Newer brick-veneer construction has weep holes and foundation gaps that provide easy entry. Homes on the city's edges near undeveloped land or creek corridors see higher scorpion pressure. Sealing entry points and reducing harborage near the foundation are the effective prevention steps.",
+      },
+      {
+        question: "How do I protect a new home in Allen from termites?",
+        answer:
+          "New construction is not immune to termites. Clay soils in Collin County retain moisture that supports subterranean termite activity at foundation level, and disturbed construction soil often relocates termite colonies. Texas A&M recommends pre-treatment of soil during construction and annual inspections after occupancy. Any wood-to-soil contact at landscape timbers, mulch beds, or garage framing elevates risk. An annual inspection is the baseline protection.",
+      },
+      {
+        question: "When is fire ant season in Allen?",
+        answer:
+          "Fire ants are active year-round in Collin County, but mounds grow and multiply most visibly after spring rain. Allen's irrigated suburban landscape keeps fire ant colonies active even through dry summers. Broadcast bait applied in spring is the most effective approach for heavily irrigated lawns. Individual mound treatments manage problem areas between broadcast applications.",
+      },
+      {
+        question: "What pest control plan makes sense for a new Allen home?",
+        answer:
+          "Most Allen homeowners start with a quarterly general plan covering fire ants, scorpions, cockroaches, and spiders, add a mosquito program from March through October, and include an annual termite inspection. New construction is not automatically pest-free: construction soil disturbance and new wood framing can accelerate termite pressure. A free inspection in the first year of ownership is a smart start.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Plano", slug: "plano" },
+      { name: "Richardson", slug: "richardson" },
+      { name: "McKinney", slug: "mckinney" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Allen, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Allen pest control for fire ants, subterranean termites, mosquitoes, German cockroaches and scorpions. Collin County DFW fast-growth suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  // Chunk 16 T3 additions
+  {
+    slug: "college-station",
+    name: "College Station",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~115,000",
+    county: "Brazos County",
+    climate: "hot-humid",
+    climateDriver:
+      "College Station sits in the Brazos Valley in central Texas, where humid Gulf air reaches inland to create hot, humid subtropical conditions. The Brazos River system, the city's many drainage channels, and the surrounding agricultural landscape sustain year-round fire ant activity, a long mosquito season, and high subterranean termite pressure. Texas A&M University, the home of the nation's leading insect pest research programs, is located here.",
+    topPests: [
+      "Fire Ants",
+      "Mosquitoes",
+      "Subterranean Termites",
+      "American Cockroaches",
+      "Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak after spring and fall rain",
+        note:
+          "Texas A&M AgriLife Extension, headquartered in College Station, has produced some of the most thorough research on red imported fire ant biology and control. They are embedded year-round across Brazos County lawns, parks, and the university campus. The Brazos Valley's clay-rich soils and regular rainfall sustain large colony networks.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note:
+          "The Brazos River watershed and the city's drainage channels feed a long, intense mosquito season. Brazos County monitors West Nile virus activity annually. The university campus ponds and drainage greenways sustain breeding habitat within the city center.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note:
+          "Subterranean termites are well established in Brazos County. College Station's mix of older single-family homes, apartment complexes near campus, and commercial buildings across the Texas Avenue corridor all face ongoing termite exposure. Texas A&M AgriLife research documents elevated termite pressure across the Brazos Valley.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round outdoors, pressure indoors in summer heat",
+        note:
+          "American cockroaches are abundant in the Brazos Valley's warm, moist outdoor environment and move indoors through foundation gaps and drainage systems during summer heat and rain events. The large student rental housing stock near campus creates additional indoor German cockroach pressure.",
+      },
+      {
+        name: "Roof rats and Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note:
+          "Roof rats are present in College Station's established neighborhoods, accessing attics via power lines and dense tree canopy. The large student population and associated food waste in the university district sustains Norway rat pressure in the commercial and food service areas near campus.",
+      },
+    ],
+    localHook:
+      "College Station is the home of Texas A&M's world-leading insect pest research, and the Brazos Valley's humid subtropical climate is exactly why that research matters: fire ants, termites, and mosquitoes are year-round presences that reward careful management over reactive treatment.",
+    intro:
+      "Pest control in College Station operates in the Brazos Valley's humid subtropical climate, the same environment that makes the city home to Texas A&M's nationally recognized AgriLife Extension entomology and pest management programs. Fire ants are year-round across the clay-rich soils of Brazos County. Mosquitoes run from March through November along the Brazos watershed. Subterranean termites are a consistent structural concern across the city's mix of older homes, student apartments, and newer developments. American cockroaches move in from the outdoor environment in summer, and rats are a year-round concern in the student housing district and food service areas near campus.",
+    sections: [
+      {
+        heading: "Texas A&M pest research and what it means for College Station homeowners",
+        body: "College Station is uniquely positioned to benefit from proximity to the nation's leading land-grant agricultural university pest research. Texas A&M AgriLife Extension publishes detailed, research-backed recommendations for fire ant control, termite management, and mosquito abatement that are calibrated specifically to the Brazos Valley climate. The fire ant two-step method, broadcast bait plus individual mound treatment, was developed and refined here. The practical takeaway for College Station residents is that the standard recommendations are well-tested for your specific climate and pest species. Annual termite inspections, spring fire ant treatment, and mosquito barrier programs from March through November are the evidence-based baseline.",
+      },
+      {
+        heading: "Student housing density and cockroach pressure near campus",
+        body: "The dense apartment and rental housing stock surrounding the Texas A&M campus creates a specific indoor cockroach environment. German cockroaches, the species that dominates multi-family housing, spread through shared plumbing and wall voids between units and require coordinated building-level treatment to eliminate reliably. American cockroaches, which breed outdoors in the drainage infrastructure, are the additional large-cockroach nuisance that moves indoors through foundation gaps and drain openings during summer heat. German cockroach treatment in student housing requires gel bait placed in harborage areas, IGR to break the breeding cycle, and coordination across adjacent units. A single-apartment treatment in isolation produces temporary results in buildings with active shared-wall populations.",
+      },
+    ],
+    prevention: [
+      "Apply broadcast fire ant bait in spring across the full lawn, following Texas A&M's two-step method developed specifically for the Brazos Valley.",
+      "Schedule an annual termite inspection for all home types, as College Station's clay soils and humidity support established termite populations across the city.",
+      "Run a mosquito barrier program from March through November for properties near the Brazos watershed drainage channels and campus ponds.",
+      "Seal foundation gaps and drain openings to reduce American cockroach movement indoors during summer heat.",
+    ],
+    costNote:
+      "College Station pest control commonly includes a year-round general plan, an annual termite inspection, and seasonal mosquito service. Student rental housing benefits from coordinated building-level cockroach treatment. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why are fire ants so well researched in College Station?",
+        answer:
+          "Texas A&M University's AgriLife Extension program in College Station has been the leading US research center for fire ant biology and control since the imported fire ant's spread across the South. The Brazos Valley's humid subtropical climate supports the same conditions that make fire ants such a successful invasive species, and the university's proximity means control recommendations for this region are among the most rigorously tested in the country. The two-step broadcast bait plus mound treatment method is a direct product of that research.",
+      },
+      {
+        question: "Do I need year-round termite protection in College Station?",
+        answer:
+          "An active termite protection agreement is a sound investment for College Station homeowners. Eastern subterranean termites are well established in Brazos County, and the clay soils and humidity of the Brazos Valley create favorable conditions for termite activity at foundation level year-round. Texas A&M AgriLife research documents elevated termite pressure across the region. An annual inspection and an active soil treatment or bait system are the standard approach.",
+      },
+      {
+        question: "How long is mosquito season in College Station?",
+        answer:
+          "The active season typically runs from March through November, driven by the Brazos River watershed drainage channels and the city's substantial population of detention ponds and campus water features. Brazos County monitors West Nile virus activity annually. A monthly barrier spray program is the practical yard-level defense through the season.",
+      },
+      {
+        question: "Why are there large cockroaches in College Station homes in summer?",
+        answer:
+          "American cockroaches breed outdoors in the drainage infrastructure of the warm, humid Brazos Valley and move indoors through foundation gaps, drain openings, and slab penetrations during the summer heat and after rain events. Sealing entry points at the plumbing level, maintaining door sweeps, and a perimeter treatment around the foundation reduce how many enter the structure.",
+      },
+      {
+        question: "Are rats a problem near the Texas A&M campus?",
+        answer:
+          "The large student population and the food service density near the Texas A&M campus create elevated rat pressure in the university district. Roof rats access homes via trees and power lines. Norway rats are common near commercial food service and dumpster areas. A professional exclusion inspection of the roofline and foundation, combined with trapping and harborage reduction, is the effective management approach.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Bryan", slug: "bryan" },
+      { name: "Waco", slug: "waco" },
+      { name: "Austin", slug: "austin" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in College Station, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "College Station pest control for fire ants, subterranean termites, mosquitoes, cockroaches and rats. Brazos County Texas A&M AgriLife research region specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "baytown",
+    name: "Baytown",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~83,000",
+    county: "Harris County",
+    climate: "hot-humid",
+    climateDriver:
+      "Baytown sits on the San Jacinto River and Galveston Bay shoreline in the eastern reaches of the Houston metropolitan area, surrounded by petrochemical facilities and tidal waterways. The Gulf Coast subtropical climate with near-constant humidity, frequent heavy rain, and hot summers creates one of the highest mosquito-pressure environments in the state. The industrial waterfront and the older residential neighborhoods near the bay also sustain high termite and cockroach pressure year-round.",
+    topPests: [
+      "Mosquitoes",
+      "Formosan Termites",
+      "Fire Ants",
+      "American Cockroaches",
+      "Roof Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, nearly year-round in warm years",
+        note:
+          "Baytown's tidal channels, the San Jacinto River, and the Galveston Bay shoreline create intense mosquito habitat. Harris County Mosquito Control runs one of the largest county mosquito programs in the country. West Nile virus is monitored annually, and the sustained Gulf Coast humidity keeps breeding conditions near-constant through most of the year.",
+      },
+      {
+        name: "Formosan and subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through July, active spring through fall",
+        note:
+          "Baytown's position in the Gulf Coast Formosan termite zone means structural risk is significant, particularly in the older neighborhoods near the waterfront and industrial areas. Texas A&M AgriLife Extension documents Formosan termites across the Harris County Gulf Coast. They form much larger colonies and cause faster damage than native subterranean termites.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note:
+          "Fire ants are year-round in Harris County's moist, warm environment. Flooding events, common in the low-lying Baytown area, cause fire ant colonies to raft, creating hazards after every major storm. Texas A&M documents fire ant rafting behavior in Harris County flood events.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "American cockroaches are abundant in Baytown's drainage infrastructure and move indoors through foundation gaps and drains in the humid Gulf Coast environment. The industrial waterfront and older residential areas near the bay see the highest pressure.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note:
+          "Roof rats are established in Baytown's established neighborhoods and the corridor along the Ship Channel waterfront. Flooding displaces them and drives surges into structures. Dense tree canopy in older neighborhoods provides travel routes to rooflines and attic access points.",
+      },
+    ],
+    localHook:
+      "Baytown is Gulf Coast Texas at its most industrial and wet: the San Jacinto River meets Galveston Bay here, the Harris County Mosquito Control district treats this corridor regularly, and Formosan termites are as much a part of the landscape as the petrochemical plants.",
+    intro:
+      "Pest control in Baytown is Gulf Coast pest management shaped by the industrial waterfront and the tidal channels of the San Jacinto River. Mosquitoes are the year-round outdoor reality, sustained by some of the most productive breeding habitat in Texas. Formosan termites are established in the Gulf Coast corridor, posing serious structural risk to both older and newer construction. Fire ants raft after flooding events. American cockroaches are embedded in the drainage infrastructure, and roof rats are year-round structural pests in the older neighborhoods near the bay.",
+    sections: [
+      {
+        heading: "Flood pests in Baytown: what changes after a major rain event",
+        body: "Baytown's low-lying geography along the San Jacinto River and Galveston Bay means flooding is a regular feature of life here, and every major flood event reshuffles the pest landscape. Fire ant colonies raft, forming floating masses that attach to the first dry surface they reach, including porches and exterior walls. Cockroaches and rats are displaced from drainage and sewer infrastructure and move into structures at higher rates than normal. Mosquito breeding habitat explodes in the days after floodwater recedes, with the standing water that remains creating an immediate population surge. Baytown residents in flood-prone areas benefit from having a pest plan that anticipates post-flood response rather than waiting for problems to develop.",
+      },
+      {
+        heading: "Formosan termites in Baytown's older neighborhoods",
+        body: "Texas A&M AgriLife Extension documents Formosan subterranean termites throughout the Gulf Coast corridor, and Baytown's established neighborhoods near the waterfront are in a high-pressure zone. Older homes in the original Baytown townsite area, with crawl spaces, older framing, and the accumulated termite exposure of decades, are particularly at risk. Formosan termites are more dangerous than native subterranean termites because they form much larger colonies and damage wood faster. A spring swarm of winged Formosan termites, typically in the evening near exterior lights in May and June, is often the first visible indication of a colony. Annual inspection and an active soil treatment or bait barrier are the baseline protection.",
+      },
+    ],
+    prevention: [
+      "Maintain an active termite barrier given the Gulf Coast Formosan termite presence and the older Baytown housing stock near the waterfront.",
+      "Eliminate standing water promptly after rain events and have a professional mosquito treatment scheduled to follow major floods.",
+      "Seal foundation gaps, drain openings, and slab penetrations to reduce American cockroach entry in the humid Gulf Coast environment.",
+      "Seal roofline access points and trim tree limbs away from the roofline to reduce roof rat entry year-round.",
+    ],
+    costNote:
+      "Baytown pest control typically includes a recurring general plan, a termite protection agreement, and seasonal mosquito service. Gulf Coast pest pressure and the flood risk here make proactive management significantly more cost-effective than reactive response. Start with a free inspection.",
+    faqs: [
+      {
+        question: "How bad are mosquitoes in Baytown near Galveston Bay?",
+        answer:
+          "Baytown sees some of the highest mosquito pressure in the Harris County region. The tidal channels, the San Jacinto River, and the bay shoreline create breeding habitat that sustains populations through almost the entire year. Harris County Mosquito Control treats the area regularly, but yard-level protection requires a barrier spray program and elimination of standing water on the property. West Nile virus is monitored in the area annually.",
+      },
+      {
+        question: "Are Formosan termites present in Baytown?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension documents Formosan termites throughout the Gulf Coast corridor including Harris County. Baytown's older neighborhoods near the waterfront are in a high-pressure zone. Formosan termites form much larger colonies and cause faster structural damage than native subterranean species. An annual inspection and active termite protection are essential for Baytown homeowners.",
+      },
+      {
+        question: "What happens to fire ants and cockroaches when Baytown floods?",
+        answer:
+          "Fire ant colonies raft during flooding, forming masses that attach to any elevated surface and create sting hazards wherever they land. Cockroaches and rats are displaced from drainage infrastructure and enter structures at higher rates than normal. Mosquito populations surge in the days after floodwater recedes. A pest plan that includes post-flood response treatment is practical for properties in Baytown's flood zones.",
+      },
+      {
+        question: "Do I need year-round pest control in Baytown?",
+        answer:
+          "Yes, for most Baytown homes. The Gulf Coast climate keeps multiple pest pressures active year-round: termites and cockroaches are continuous concerns, mosquitoes run from March through November, fire ants are year-round, and roof rats don't take a seasonal break. A year-round general plan with a termite protection agreement and seasonal mosquito add-on is the practical baseline.",
+      },
+      {
+        question: "How do I keep American cockroaches out of my Baytown home?",
+        answer:
+          "American cockroaches in Baytown breed in the tidal drainage infrastructure and the moist outdoor environment. They enter through foundation gaps, drain openings, and slab penetrations. The practical exclusion measures are sealing plumbing entry points, installing drain covers in floor drains, maintaining door sweeps on ground-floor exterior doors, and a perimeter spray around the foundation. These measures reduce the continuous pressure from the high-density outdoor population.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Houston", slug: "houston" },
+      { name: "Pasadena", slug: "pasadena" },
+      { name: "League City", slug: "league-city" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Baytown, TX | Mosquitoes, Termites & Fire Ants",
+    metaDescription:
+      "Baytown pest control for mosquitoes, Formosan termites, fire ants, American cockroaches and roof rats. Harris County San Jacinto River Galveston Bay Gulf Coast specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bryan",
+    name: "Bryan",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~83,000",
+    county: "Brazos County",
+    climate: "hot-humid",
+    climateDriver:
+      "Bryan sits in the Brazos Valley adjacent to College Station, sharing the same humid subtropical climate fed by Gulf moisture reaching inland through the coastal prairies. The Brazos River, flowing just west of the city, and the area's network of drainage creeks and resacas sustain a long mosquito season and high subterranean termite activity. Bryan's older housing stock and lower-income residential areas carry more accumulated pest exposure than the newer university-adjacent neighborhoods.",
+    topPests: [
+      "Fire Ants",
+      "Subterranean Termites",
+      "Mosquitoes",
+      "German Cockroaches",
+      "Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note:
+          "Fire ants are year-round in Brazos County's warm, moist clay soils. Bryan's older neighborhoods and the rural edges of the city see dense mound networks. Texas A&M AgriLife's fire ant research program, based in neighboring College Station, documents year-round activity across the Brazos Valley.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note:
+          "Subterranean termites are established throughout Brazos County, and Bryan's older housing stock, including the historically significant neighborhoods south of downtown, has had decades of termite exposure. Texas A&M documents elevated termite pressure across the Brazos Valley.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note:
+          "The Brazos River floodplain west of the city, the drainage creeks through the residential areas, and the standing water common in lower-lying neighborhoods sustain a long, intense mosquito season. Brazos County monitors West Nile virus annually.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are the dominant indoor cockroach in Bryan's apartment complexes, restaurants in the downtown corridor, and multi-family housing. The city's older housing stock near the historic downtown and the Villa Maria area has more plumbing penetrations and shared wall pathways than newer construction.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall and winter",
+        note:
+          "House mice are a consistent year-round pest in Bryan's older residential areas and commercial properties. While Brazos County winters are mild, cool-season temperature drops still drive mice toward heated structures, and the city's older housing has more entry points than newer construction.",
+      },
+    ],
+    localHook:
+      "Bryan and College Station share the Brazos Valley and share the same pest pressures, but Bryan's older neighborhoods and less-uniform housing stock mean more accumulated termite exposure, more cockroach pressure in multi-family housing, and more rodent pressure in the commercial districts.",
+    intro:
+      "Pest control in Bryan operates in the Brazos Valley's humid subtropical climate, identical in character to the better-known College Station next door but with a different residential profile. Bryan's older neighborhoods, historic downtown, and mix of established and lower-income residential areas carry more accumulated pest exposure. Fire ants are year-round across Brazos County's clay soils. Subterranean termites are a consistent structural concern, particularly in older homes. Mosquitoes run from March through November along the Brazos River watershed. German cockroaches are a year-round indoor challenge in the denser residential and restaurant corridors.",
+    sections: [
+      {
+        heading: "Older housing and termite exposure in Bryan",
+        body: "While College Station's housing is largely post-1970, Bryan has many homes and commercial buildings from the early and mid-20th century, some of the oldest housing in the Brazos Valley. That age means more accumulated termite exposure, more wood with prior moisture history, and more original construction details that are vulnerable at foundation level. Texas A&M AgriLife Extension research documents elevated subterranean termite activity across the Brazos Valley. For Bryan homeowners, annual termite inspections are standard practice rather than precaution, and homes with crawl spaces or older slab details deserve particular attention. Signs of termite activity include mud tubes on foundation walls, damaged or hollow-sounding structural wood, and spring swarms of winged termites inside the home.",
+      },
+      {
+        heading: "Mosquitoes along the Brazos River corridor in Bryan",
+        body: "The Brazos River runs along the western edge of the Bryan-College Station metro, and its floodplain provides productive breeding habitat that affects mosquito populations across both cities. Bryan's older neighborhoods with more tree canopy and less consistent drainage also tend to hold water longer after rain events, sustaining local breeding populations. Brazos County monitors West Nile virus activity annually, and the active season from March through November is consistent with the broader Gulf Coast humid subtropical pest calendar. A monthly barrier spray program from March through October and eliminating standing water sources on the property are the practical yard-level defenses.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for Bryan's older housing stock, which has had more exposure than the newer construction common in College Station.",
+      "Apply broadcast fire ant bait in spring before colonies multiply after the Brazos Valley's spring rains.",
+      "Eliminate standing water in gutters, drainage swales, and yard low spots from March onward to reduce the long Brazos Valley mosquito season.",
+      "Check weather seals and foundation gaps in older Bryan homes seasonally to reduce German cockroach and mouse entry.",
+    ],
+    costNote:
+      "Bryan pest control is typically structured around a year-round general plan with an annual termite inspection and seasonal mosquito service. Older homes benefit from a thorough exclusion assessment in addition to standard treatment. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Is termite risk higher in Bryan than in College Station?",
+        answer:
+          "The regional termite pressure is the same, but Bryan's older housing stock carries more accumulated exposure. Many Bryan homes are decades older than typical College Station construction, with more original wood framing, crawl spaces, and foundation details that have had more years of termite proximity. Texas A&M documents elevated termite pressure across the Brazos Valley. Annual inspections are standard for Bryan homeowners, especially those in pre-1970 homes.",
+      },
+      {
+        question: "When is the worst mosquito season in Bryan?",
+        answer:
+          "Peak activity runs from May through September, with the Brazos River floodplain and the city's drainage channels sustaining populations through the entire warm season. March through November is the full active window. Brazos County monitors West Nile virus annually. Eliminating standing water and running a monthly barrier spray from March through October is the practical approach for most Bryan properties.",
+      },
+      {
+        question: "What's the best way to control fire ants in Bryan?",
+        answer:
+          "Texas A&M AgriLife Extension's two-step method, developed for the Brazos Valley climate, is the most effective approach: apply broadcast granular bait across the entire lawn in spring when ants are actively foraging, then treat individual persistent mounds directly. The bait approach reduces the entire lawn population over several weeks rather than just treating visible mounds. Repeat a bait broadcast in fall for properties with heavy pressure.",
+      },
+      {
+        question: "Are German cockroaches hard to eliminate in Bryan apartments?",
+        answer:
+          "In Bryan's older multi-family buildings, German cockroaches spread through shared plumbing and wall voids, which means treating a single unit in isolation gives temporary results. Lasting control in an older apartment building requires coordinated treatment across affected units, gel bait in harborage areas, and IGR to break the breeding cycle. A single spray treatment of one unit without addressing the building population is not effective.",
+      },
+      {
+        question: "Do mice get into Bryan homes in winter?",
+        answer:
+          "Yes, though Brazos County winters are milder than northern Texas. Cool temperatures in November through February still drive mice toward heated structures, and Bryan's older residential housing with more foundation gaps and worn door seals is more vulnerable than newer construction. Sealing entry points in October before the cold season arrives is the most cost-effective prevention.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "College Station", slug: "college-station" },
+      { name: "Waco", slug: "waco" },
+      { name: "Austin", slug: "austin" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Bryan, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Bryan pest control for fire ants, subterranean termites, mosquitoes, German cockroaches and mice. Brazos County Brazos Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "new-braunfels",
+    name: "New Braunfels",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~90,000",
+    county: "Comal and Guadalupe Counties",
+    climate: "semi-arid",
+    climateDriver:
+      "New Braunfels sits at the southern edge of the Texas Hill Country where the Comal and Guadalupe Rivers emerge from the Edwards Plateau into the lower coastal plain. This limestone karst setting with its spring-fed rivers, cedar and live oak vegetation, and hot, semi-arid climate creates the conditions for scorpions, cave crickets, and subterranean termites, while the tourist-heavy river corridors add mosquito pressure through a long outdoor recreation season.",
+    topPests: [
+      "Striped Bark Scorpions",
+      "Fire Ants",
+      "Subterranean Termites",
+      "Mosquitoes",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "March through October, most active in summer heat",
+        note:
+          "The limestone Hill Country terrain of Comal County provides ideal scorpion habitat. Texas A&M AgriLife confirms the striped bark scorpion is the dominant scorpion species across central Texas, and New Braunfels homeowners on the Hill Country side of the city see them more frequently than those in the newer flat-terrain developments. They enter through weep holes and foundation gaps on warm nights.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak after spring and summer rain",
+        note:
+          "Fire ants are embedded across New Braunfels's lawns, riverbank parks, and the tourist areas along the Comal and Guadalupe Rivers. Texas A&M documents year-round fire ant activity across south-central Texas. The river tubing corridors see regular fire ant contact incidents given the traffic near natural areas.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note:
+          "Subterranean termites are active in the transition zone between the Hill Country and the coastal plain, and Comal County carries moderate to high termite pressure. Texas A&M AgriLife confirms termite activity throughout the central Texas corridor. The newer subdivisions spreading across the Gruene and Sattler areas are built on clay soils that support termite activity.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note:
+          "The Comal River, with its spring-fed constant temperature, and the Guadalupe River downstream provide extensive mosquito habitat through a long tourist and recreation season. West Nile virus is monitored in Comal County. The dense vegetation along both river corridors sustains active resting populations.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round outdoors, pressure indoors in summer",
+        note:
+          "American cockroaches are common in New Braunfels's drainage infrastructure and the moist areas near the rivers. They move indoors during summer heat through foundation gaps and under exterior doors. The tourist-heavy river district commercial properties see the highest indoor cockroach pressure.",
+      },
+    ],
+    localHook:
+      "New Braunfels is where the Texas Hill Country meets the coastal plain, and that limestone karst edge brings scorpions into homes more reliably than almost anywhere else in the central Texas corridor.",
+    intro:
+      "Pest control in New Braunfels is shaped by its position at the Hill Country edge, where limestone terrain, spring-fed rivers, and the cedar and live oak vegetation of Comal County create conditions that favor scorpions alongside the standard central Texas pest calendar. Striped bark scorpions are a year-round concern in homes on the Hill Country side of the city. Fire ants are embedded across the lawns and riverbank parks. Subterranean termites work the clay-soil developments spreading across the Gruene and Sattler areas. Mosquitoes run along the Comal and Guadalupe River corridors through the long outdoor recreation season.",
+    sections: [
+      {
+        heading: "Scorpions in New Braunfels Hill Country homes",
+        body: "New Braunfels's position at the limestone Hill Country edge means scorpion pressure is higher than in most central Texas cities. Texas A&M AgriLife Extension confirms the striped bark scorpion across the Hill Country and the Edwards Plateau transition zone, and homes in the older established neighborhoods on the Hill Country side of the city and those backing to the cedar and live oak vegetation of the Comal County landscape encounter them regularly. They enter through weep holes, foundation cracks, and gaps around plumbing and electrical, appearing in bathrooms, on walls, and in beds on warm nights. The practical exclusion strategy seals weep holes with mesh, fills foundation gaps with caulk, and keeps firewood and debris away from the house foundation. A perimeter treatment reduces outdoor populations, but exclusion is the long-term answer.",
+      },
+      {
+        heading: "River corridor mosquitoes during the tubing season",
+        body: "New Braunfels is one of the most visited river tubing destinations in Texas, and the Comal and Guadalupe River corridors see millions of visitors through the summer season. For local residents, the same corridors that draw tourists also sustain abundant mosquito habitat. The dense riparian vegetation along both rivers provides resting habitat for adults, and the river edges and backwater areas provide breeding habitat. Properties backing to either river corridor or within a few blocks see meaningfully higher mosquito pressure than inland neighborhoods. A consistent monthly barrier spray program from March through October and eliminating standing water on the property are the practical defenses.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes, foundation cracks, and pipe penetrations in homes on the Hill Country side of New Braunfels to reduce scorpion entry.",
+      "Apply fire ant broadcast bait in spring along the Comal and Guadalupe River park corridors and across residential lawns.",
+      "Eliminate standing water near river-adjacent drainage areas and run a barrier spray program through the tubing season.",
+      "Schedule a termite inspection for newer developments on clay soils in the Gruene and Sattler areas.",
+    ],
+    costNote:
+      "New Braunfels pest control commonly includes a quarterly general plan covering scorpions, fire ants, and cockroaches, with seasonal mosquito service from March through October and a separate annual termite inspection. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Are scorpions common in New Braunfels homes?",
+        answer:
+          "Yes, particularly in homes on the Hill Country side of the city with limestone terrain and cedar and live oak vegetation nearby. Texas A&M AgriLife confirms the striped bark scorpion across the central Texas Hill Country transition zone. They enter through weep holes and foundation gaps on warm nights. Sealing those entry points, keeping firewood away from the house, and a perimeter treatment together reduce the encounter rate.",
+      },
+      {
+        question: "When are mosquitoes worst near the Comal and Guadalupe Rivers?",
+        answer:
+          "Peak mosquito activity along the river corridors runs from May through September, driven by the river edge and backwater vegetation that provides both breeding and resting habitat. Properties near either river see higher pressure than inland neighborhoods. Comal County monitors West Nile virus activity. A monthly barrier spray program from March through October and standing water elimination are the effective defenses.",
+      },
+      {
+        question: "Do I need a termite inspection in New Braunfels?",
+        answer:
+          "Yes, especially for newer homes in the clay-soil developments spreading through the Gruene and Sattler areas. Texas A&M documents subterranean termite activity throughout the central Texas corridor. New Braunfels's position in the transition zone between the Hill Country and coastal plain creates moderate-to-high termite pressure. Annual inspections are the standard recommendation.",
+      },
+      {
+        question: "What are the cave crickets in my New Braunfels home?",
+        answer:
+          "Cave crickets, also called camel crickets or spider crickets, are common in the basements and crawl spaces of Hill Country homes, particularly those near limestone karst features. They are harmless nuisance insects that seek dark, moist spaces. Reducing moisture in crawl spaces and basements and sealing gaps that lead from exterior to interior reduces their presence. They are not related to the chirping house crickets common in summer.",
+      },
+      {
+        question: "How do I manage fire ants near the river parks in New Braunfels?",
+        answer:
+          "Fire ants along the Comal and Guadalupe River corridors and in New Braunfels parks require the same approach as residential lawn treatment: broadcast bait across the area in spring before colonies build, then individual mound treatment for persistent problems. Texas A&M's two-step method is the standard recommendation. For high-traffic public recreation areas, the city mosquito control district and parks department manage treatment on public land.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "San Antonio", slug: "san-antonio" },
+      { name: "Austin", slug: "austin" },
+      { name: "San Marcos", slug: "san-marcos" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in New Braunfels, TX | Scorpions, Fire Ants & Mosquitoes",
+    metaDescription:
+      "New Braunfels pest control for bark scorpions, fire ants, subterranean termites, mosquitoes and cockroaches. Comal County Hill Country Guadalupe River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "edinburg",
+    name: "Edinburg",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~94,000",
+    county: "Hidalgo County",
+    climate: "semi-arid",
+    climateDriver:
+      "Edinburg sits in the Rio Grande Valley of deep South Texas, a subtropical semi-arid region where irrigation from the Rio Grande sustains agriculture and green spaces in an otherwise dry landscape. The subtropical climate with near-year-round warmth, high humidity from Gulf moisture, and the agricultural irrigation of the Lower Rio Grande Valley creates pest conditions that differ significantly from the rest of Texas: fire ants are year-round and aggressive, cockroaches are abundant, and Africanized honey bees are established in the region.",
+    topPests: [
+      "Fire Ants",
+      "American Cockroaches",
+      "Mosquitoes",
+      "Africanized Honey Bees",
+      "Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, no seasonal reduction in deep South Texas",
+        note:
+          "Fire ants never experience a meaningful cool-season reduction in the Rio Grande Valley. Texas A&M AgriLife Extension documents year-round activity across Hidalgo County, where the subtropical climate and irrigation-maintained soils give colonies optimal conditions across all twelve months.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "American cockroaches are a major outdoor and indoor pest in Edinburg's subtropical climate. They breed in the drainage infrastructure and organic material in irrigated agricultural areas adjacent to the city and move indoors through foundation gaps. The subtropical heat and humidity keep outdoor populations extremely high year-round.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak May through October",
+        note:
+          "The Rio Grande, the irrigation canals throughout Hidalgo County, and the humid subtropical climate create mosquito breeding conditions that are effectively year-round. Texas DSHS monitors the region for dengue fever historically documented in South Texas, West Nile virus, and other mosquito-borne diseases given the proximity to the US-Mexico border.",
+      },
+      {
+        name: "Africanized honey bees",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Year-round",
+        note:
+          "Africanized honey bees, colloquially called killer bees, are established across South Texas including Hidalgo County. Texas A&M AgriLife Extension confirms their presence in the Rio Grande Valley. They are behaviorally identical to European honey bees but significantly more defensive and likely to swarm and sting in larger numbers. Established colonies in wall voids, utility boxes, and abandoned structures require professional removal.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active spring through fall, swarms March through May",
+        note:
+          "Subterranean termites are active in Hidalgo County, supported by the irrigation-maintained soil moisture of the Rio Grande Valley. Texas A&M AgriLife documents termite activity across the region. The area's newer residential construction is as vulnerable as older structures in this termite zone.",
+      },
+    ],
+    localHook:
+      "Edinburg is Rio Grande Valley South Texas, where the subtropical climate never really gives pests a winter break: fire ants are year-round at full intensity, American cockroaches are everywhere outdoors, and Africanized honey bees are an established presence requiring professional handling if they set up in a structure.",
+    intro:
+      "Pest control in Edinburg operates in deep South Texas conditions where most pests simply do not slow down for winter. The subtropical climate of the Rio Grande Valley, maintained by irrigation from the Rio Grande and Gulf humidity, keeps fire ants active year-round, sustains American cockroach populations at high density outdoors, and supports mosquitoes through most of the calendar year. Africanized honey bees are established in Hidalgo County and require professional handling when they colonize structures. Subterranean termites work the irrigation-maintained soils throughout the growing city.",
+    sections: [
+      {
+        heading: "Africanized honey bees in the Rio Grande Valley",
+        body: "Africanized honey bees are established in South Texas and are a documented presence in Hidalgo County. Texas A&M AgriLife Extension has researched and documented their spread across the region. They are not distinguishable from European honey bees by appearance alone, but their behavior is significantly different: they are more defensive, respond to disturbance more quickly, pursue perceived threats farther, and sting in much larger numbers as a colony defense response. A swarm in a wall void, utility box, abandoned vehicle, or tree hollow near a home should be removed professionally. Attempting to treat established Africanized honey bee colonies without professional equipment and protective gear is genuinely dangerous. If you encounter a swarm or aggressive bees near your property, keep people and pets indoors and call a professional.",
+      },
+      {
+        heading: "Year-round fire ants in the irrigated Rio Grande Valley",
+        body: "The Rio Grande Valley is one of the few regions in the US where fire ants experience essentially no seasonal reduction in activity. The subtropical heat and the irrigation-maintained soil moisture of the agricultural landscape give colonies optimal conditions in every month of the year. Edinburg's rapid residential growth into formerly agricultural land means new developments are often built directly into established fire ant territory, with colony networks that extend from the surrounding fields into newly sodded lawns. Texas A&M AgriLife Extension's research-backed two-step control method, broadcast bait plus individual mound treatment, is the most effective approach and is calibrated specifically for the South Texas environment. Broadcast bait in spring and fall, repeated as needed given the year-round activity.",
+      },
+    ],
+    prevention: [
+      "Never attempt to remove or treat a bee colony in a wall or structure without professional help, given the Africanized honey bee presence in Hidalgo County.",
+      "Apply fire ant broadcast bait spring and fall given the year-round activity in the Rio Grande Valley's subtropical climate.",
+      "Run a mosquito barrier program year-round, or at minimum from February through November, for properties near irrigation canals or drainage channels.",
+      "Seal foundation gaps and drain openings to reduce American cockroach entry from the high-density outdoor population.",
+    ],
+    costNote:
+      "Edinburg pest control is typically a year-round general plan covering fire ants, cockroaches, and scorpions, with a year-round or near-year-round mosquito program and a separate termite inspection. A free assessment determines the right scope.",
+    faqs: [
+      {
+        question: "Are killer bees really in Edinburg?",
+        answer:
+          "Yes. Africanized honey bees, often called killer bees in popular usage, are established in South Texas and Hidalgo County. Texas A&M AgriLife Extension confirms their presence across the Rio Grande Valley. They are more defensive than European honey bees and can respond with much larger numbers to perceived threats. If you see a swarm or suspect a colony in a structure near your home, professional removal is the safe approach.",
+      },
+      {
+        question: "Do fire ants slow down in winter in the Rio Grande Valley?",
+        answer:
+          "No. The subtropical Rio Grande Valley climate provides essentially no winter reduction in fire ant activity. They remain at full activity year-round in Edinburg's irrigated, warm conditions. Texas A&M AgriLife documents year-round fire ant activity in Hidalgo County and recommends both spring and fall broadcast bait applications for effective control in the region.",
+      },
+      {
+        question: "How serious is the mosquito risk in the Rio Grande Valley?",
+        answer:
+          "Significant. The irrigation canals throughout Hidalgo County, the Rio Grande, and the subtropical humidity create year-round mosquito breeding conditions. Texas DSHS monitors the region for multiple mosquito-borne diseases given the South Texas location and proximity to the border. A year-round or near-year-round barrier spray program is standard for properties near irrigation infrastructure or drainage channels.",
+      },
+      {
+        question: "Are American cockroaches harder to control in South Texas than other regions?",
+        answer:
+          "The subtropical climate and the agricultural irrigation landscape of the Rio Grande Valley sustain American cockroach outdoor populations at density levels higher than most of the US. Effective control combines a perimeter treatment to reduce the population pressing against the structure, exclusion at foundation gaps and drain openings, and interior gel bait for any that establish indoors. Year-round treatment is standard given the absence of a cooling winter season.",
+      },
+      {
+        question: "Do I need termite protection in Edinburg?",
+        answer:
+          "Yes. Eastern subterranean termites are active in Hidalgo County, supported by the irrigation-maintained soil moisture of the Rio Grande Valley. Annual inspections are standard for Edinburg homeowners, including those in newer construction. The climate does not provide a dormant period that limits termite activity the way cooler regions do.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "McAllen", slug: "mcallen" },
+      { name: "Mission", slug: "mission" },
+      { name: "Harlingen", slug: "harlingen" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Edinburg, TX | Fire Ants, Africanized Bees & Mosquitoes",
+    metaDescription:
+      "Edinburg pest control for fire ants, Africanized honey bees, American cockroaches, mosquitoes and subterranean termites. Hidalgo County Rio Grande Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mission",
+    name: "Mission",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~87,000",
+    county: "Hidalgo County",
+    climate: "semi-arid",
+    climateDriver:
+      "Mission sits in western Hidalgo County on the northern bank of the Rio Grande, surrounded by the irrigated citrus groves and agricultural fields that gave the city its name. The subtropical semi-arid climate, maintained by Rio Grande irrigation across an otherwise dry Lower Rio Grande Valley landscape, sustains year-round pest activity. Mission's position on the river means tidal and floodplain mosquito habitat is accessible, and the agricultural-to-suburban transition of much of the city's land creates persistent fire ant and cockroach pressure.",
+    topPests: [
+      "Fire Ants",
+      "American Cockroaches",
+      "Mosquitoes",
+      "Subterranean Termites",
+      "Africanized Honey Bees",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note:
+          "Fire ants are embedded year-round in Mission's irrigated residential and agricultural landscape. Texas A&M AgriLife documents year-round activity throughout Hidalgo County. The citrus and vegetable-growing edges surrounding Mission sustain large colony networks that press into residential areas continuously.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "American cockroaches are a significant outdoor and indoor pest in Mission's subtropical climate. They breed in the organic material, drainage channels, and irrigation infrastructure of the agricultural landscape adjacent to the city and maintain high outdoor populations year-round.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak April through October",
+        note:
+          "The Rio Grande and its associated resacas (oxbow lakes) in the Mission area, the irrigation canals throughout Hidalgo County, and the subtropical climate create year-round mosquito habitat. Texas DSHS monitors the border region for multiple mosquito-borne diseases, including West Nile virus and historically documented dengue fever activity in South Texas.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active spring through fall, swarms March through May",
+        note:
+          "Subterranean termites are active in Hidalgo County's irrigation-maintained soils. Mission's newer residential developments on formerly agricultural land are built in termite-active territory, and annual inspections are standard practice.",
+      },
+      {
+        name: "Africanized honey bees",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Year-round",
+        note:
+          "Africanized honey bees are established throughout South Texas including Mission. Texas A&M AgriLife Extension confirms their presence in Hidalgo County. Established colonies in structures or near the home require professional removal. The agricultural landscape near Mission provides abundant foraging and nesting habitat.",
+      },
+    ],
+    localHook:
+      "Mission sits in the middle of the Rio Grande Valley's citrus and vegetable production zone, and the agricultural edges pressing against residential areas mean fire ant colonies, American cockroaches, and mosquitoes from the irrigation infrastructure are part of daily life here in a way they are not in most American suburbs.",
+    intro:
+      "Pest control in Mission reflects the Rio Grande Valley's agricultural character. The city grew up in the citrus groves, and the irrigated farmland that still borders many neighborhoods brings the pest pressures of agriculture directly to residential doorsteps. Fire ants are year-round at full intensity in the subtropical climate. American cockroaches from the drainage and irrigation infrastructure are a constant outdoor presence. Mosquitoes from the Rio Grande, its resacas, and the irrigation canals sustain near-year-round pressure. Africanized honey bees are established in the region and require professional handling. Subterranean termites work the irrigation-maintained soils under and around foundations.",
+    sections: [
+      {
+        heading: "Agriculture, fire ants, and the Mission residential boundary",
+        body: "Mission's residential neighborhoods share edges with active citrus groves, vegetable farms, and the Rio Grande floodplain, and the pest dynamic along those edges is distinctly different from a purely suburban environment. Fire ant colonies in irrigated agricultural fields maintain year-round activity at high density, and the transition zones where farms meet residential areas see constant reinfestation pressure. Texas A&M AgriLife Extension documents this agricultural-to-residential edge dynamic as one of the significant fire ant management challenges in the Lower Rio Grande Valley. For Mission homeowners near those edges, a broadcast bait program applied both in spring and fall, rather than the single spring application recommended for purely residential settings, gives the best long-term suppression.",
+      },
+      {
+        heading: "Rio Grande resacas and Mission mosquito habitat",
+        body: "The Rio Grande and its historic oxbow lakes, called resacas, create some of the most productive natural mosquito habitat in the region. The city's Anzalduas Park area and the river corridor carry high breeding populations that sustain pressure across the western Mission area. The irrigation canal network throughout Hidalgo County adds to that habitat, extending the effective breeding range well into residential areas. Texas DSHS monitors the border region for mosquito-borne diseases, including West Nile virus and surveillance for dengue fever activity that has historically been recorded in South Texas counties bordering Mexico. A consistent year-round or near-year-round barrier spray program is the practical defense for Mission properties near resacas or irrigation channels.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant broadcast bait in both spring and fall given the year-round activity and the agricultural edge pressure in Mission.",
+      "Have professional bee removal for any established colonies in structures, utility boxes, or trees given the Africanized honey bee presence.",
+      "Run a mosquito barrier program year-round or from February through November for properties near the Rio Grande resacas or irrigation canals.",
+      "Seal foundation gaps, drain openings, and exterior door gaps to reduce American cockroach entry from the high-density agricultural surrounding.",
+    ],
+    costNote:
+      "Mission pest control is typically a year-round general plan given the subtropical climate, with mosquito service as a year-round or seasonal add-on and a separate termite inspection. A free assessment sets the right scope for your property.",
+    faqs: [
+      {
+        question: "Is pest control different in Mission than in other Texas cities?",
+        answer:
+          "Yes. Mission's Rio Grande Valley location creates a subtropical climate where pests essentially never slow down for winter, and the agricultural edges bring fire ant and cockroach pressure from the surrounding irrigated farmland directly into residential areas. Pest management here is closer to a year-round program than the seasonal approach that works in north or central Texas. Texas A&M AgriLife documents this as a specific management consideration for the Lower Rio Grande Valley.",
+      },
+      {
+        question: "Are Africanized bees really a risk in Mission?",
+        answer:
+          "Yes. Africanized honey bees are established throughout South Texas and Hidalgo County, and Mission's agricultural landscape provides abundant foraging and nesting habitat. Texas A&M AgriLife confirms their presence in the region. An established colony in a wall, utility box, tree hollow, or abandoned structure requires professional removal with proper protective equipment. Do not attempt to treat or disturb an established bee colony without professional help.",
+      },
+      {
+        question: "How long is mosquito season in Mission?",
+        answer:
+          "In the Rio Grande Valley's subtropical climate, mosquitoes are effectively active year-round, though peak pressure runs from April through October. The resacas (oxbow lakes), the Rio Grande, and the irrigation canals of Hidalgo County sustain year-round breeding populations. Texas DSHS monitors the region for multiple mosquito-borne diseases. A barrier spray program from at least February through November is standard for properties near these water features.",
+      },
+      {
+        question: "Do fire ants slow down in winter in Mission?",
+        answer:
+          "Not meaningfully. Mission's subtropical climate, with temperatures that rarely fall below 40 degrees Fahrenheit even in January, gives fire ants essentially year-round conditions. Texas A&M documents continuous fire ant activity across the Rio Grande Valley throughout the year. The agricultural irrigation maintains soil moisture year-round, removing even the seasonal dry-season reduction in activity that some regions experience.",
+      },
+      {
+        question: "What should I do if there is a bee swarm near my Mission home?",
+        answer:
+          "Keep people and pets indoors, clear the area around the swarm, and call a professional bee removal service. Africanized honey bee swarms in the Rio Grande Valley should not be disturbed. A swarm is a temporary resting state for a colony that is looking for a permanent nesting site, and professional removal before they establish in a wall void or tree hollow is the most cost-effective approach. Once established in a structure, removal is more complex and expensive.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "McAllen", slug: "mcallen" },
+      { name: "Edinburg", slug: "edinburg" },
+      { name: "Laredo", slug: "laredo" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Mission, TX | Fire Ants, Mosquitoes & Africanized Bees",
+    metaDescription:
+      "Mission pest control for fire ants, American cockroaches, mosquitoes, subterranean termites and Africanized honey bees. Hidalgo County Rio Grande Valley citrus corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -1077,4 +1077,238 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Spokane Valley pest control for house mice, stink bugs, odorous house ants, yellowjackets and carpenter ants. Spokane County semi-arid eastern Washington specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "federal-way",
+    name: "Federal Way",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~100,000",
+    county: "King County",
+    climate: "cold-humid",
+    climateDriver:
+      "Federal Way sits between Seattle and Tacoma in King County, where the maritime Pacific Northwest climate delivers cool, rainy winters, mild dry summers, and the persistent humidity that sustains carpenter ant populations in moisture-damaged wood year-round. Puget Sound and several lakes, including North Lake, Star Lake, and Steel Lake, create outdoor moisture corridors that support rat, carpenter ant, and slug populations in the city's wooded residential areas. The older housing stock in the established neighborhoods near the Pacific Highway South corridor carries the moisture history that wood-destroying pests require.",
+    topPests: [
+      "Carpenter Ants",
+      "Rats",
+      "Odorous House Ants",
+      "Yellowjackets",
+      "Brown Marmorated Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through October, most visible indoors in spring",
+        note:
+          "Carpenter ants are the primary structural pest in Federal Way and throughout the west King County area. The Pacific Northwest's persistent moisture creates the wood decay conditions that carpenter ant colonies require. WSU Extension identifies carpenter ants as the dominant wood-destroying pest in western Washington. Finding large black ants indoors in spring almost always indicates an established colony in moisture-damaged wood in the structure.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active fall through spring",
+        note:
+          "Norway rats and roof rats are both present in Federal Way. Norway rats are established in the drainage infrastructure and ground-level areas near the commercial corridor and older residential areas. Roof rats use the tree canopy in the wooded residential neighborhoods to access attic spaces. WSU Extension confirms both rat species are present in King County communities.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note:
+          "Odorous house ants are the dominant nuisance ant in Federal Way, trailing indoors heavily during rain events when outdoor nests are flooded. The Pacific Northwest's rainy winters and springs produce multiple indoor surge events each year. They are persistent once a trail is established but do not damage structures.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note:
+          "Yellowjackets are a consistent warm-season pest in Federal Way, nesting in the ground and in wall voids of older structures. King County's wooded neighborhoods with mature landscaping provide both ground and aerial nesting opportunities. Colonies reach maximum size and aggression in August.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, emerge in spring",
+        note:
+          "Stink bugs have established in the Puget Sound corridor including King County communities. They aggregate on building exteriors in September and work into wall voids and attic spaces to overwinter. WSU Extension confirms stink bugs are an established invasive pest in western Washington.",
+      },
+    ],
+    localHook:
+      "Federal Way's King County maritime setting, with the wooded residential neighborhoods, Puget Sound proximity, and the persistent Pacific Northwest moisture, creates a carpenter ant environment that is essentially year-round: the cool, damp conditions produce the moisture-damaged wood that sustains large colonies in older structures.",
+    intro:
+      "Pest control in Federal Way runs on the west King County maritime calendar. Carpenter ants are the defining pest, sustained by the Pacific Northwest's persistent moisture and the moisture-damaged wood it produces in older structures throughout the city. Rats are year-round: Norway rats in the drainage and older commercial areas, roof rats in the wooded residential canopy. Odorous house ants surge indoors with every significant rain event, which means multiple indoor events per fall and winter. Yellowjackets are the summer concern. Stink bugs are an established fall nuisance in the Puget Sound corridor. A Federal Way pest plan needs carpenter ant and moisture management as its structural foundation, with year-round rodent management and seasonal programs for the other pests.",
+    sections: [
+      {
+        heading: "Carpenter ants in Federal Way's moisture-rich landscape",
+        body: "The Pacific Northwest's cool, rainy climate produces exactly the conditions that carpenter ants require: persistent moisture that softens and decays wood in structures over time. In Federal Way, the older housing in neighborhoods near the Pacific Highway South corridor, the wooded residential areas around Star Lake and Steel Lake, and any structure with a history of roof leaks, poorly sealed windows, or crawl space moisture issues is potential carpenter ant territory. WSU Extension identifies carpenter ants as the primary wood-destroying pest in western Washington and notes that infestations almost always point to an existing moisture problem in the structure. The spring appearance of large black ants indoors, or the coarse sawdust-like frass they push from gallery openings, is the most common early sign. Treatment in spring, when the colony becomes active after overwintering in place, is the most effective window because the colony is accessible, the full population is in place, and new satellite colonies have not yet been established from the swarmers that emerge in late spring.",
+      },
+      {
+        heading: "Rats in Federal Way: two species, two habitats",
+        body: "Federal Way deals with two rat species that inhabit different niches in the urban landscape. Norway rats are burrowing animals that live at or below grade: in drainage infrastructure, under concrete slabs, in dense ground vegetation, and along the drainage corridors near the Pacific Highway commercial area. They tend toward the lower zones of a structure when they enter, including crawl spaces and basement areas. Roof rats are arboreal: they nest in the canopy of the wooded residential areas, particularly in Douglas fir and cedar trees, and travel along branches to access rooflines in the neighborhoods surrounding Steel Lake and North Lake. Both species are year-round in Federal Way's mild coastal climate. An inspection identifies which species are present and the entry points they use, which determines the appropriate trapping and exclusion approach.",
+      },
+    ],
+    prevention: [
+      "Inspect the exterior of older Federal Way homes annually for moisture damage at window frames, sill plates, and roof edges that attract carpenter ant colonies.",
+      "Maintain four feet of clearance between all trees and the roofline to block the roof rat travel route from the wooded canopy.",
+      "Place odorous house ant bait at active trail sites near the foundation during fall and winter rain events rather than spraying.",
+      "Treat yellowjacket nests in late June when colonies are still small before they reach the dangerous August size.",
+    ],
+    costNote:
+      "Federal Way pest pricing is standard west King County range. Carpenter ant programs include moisture assessment and are typically a spring-focused service. Rat programs include inspection, exclusion, and trapping. Ant and stink bug service is seasonal. A free inspection identifies what your property needs.",
+    faqs: [
+      {
+        question: "Why do carpenter ants keep coming back to my Federal Way home?",
+        answer:
+          "Recurring carpenter ant infestations in western Washington almost always mean there is an ongoing moisture source in the structure that is maintaining moisture-damaged wood as carpenter ant nesting habitat. Treating the ants without finding and fixing the moisture source produces temporary results at best. Common sources in Federal Way homes include roof flashing failures, leaking window frames that have wet the adjacent framing, and crawl space moisture that is affecting the sill plate wood over time.",
+      },
+      {
+        question: "Are the rats in my Federal Way attic roof rats or Norway rats?",
+        answer:
+          "If activity is in the attic or upper floor areas, roof rats are the most likely species. They are arboreal and prefer high locations, using tree branches as highways to reach rooftops. Norway rats prefer ground-level and below-grade areas. Droppings: roof rat droppings are tapered, about half an inch long; Norway rat droppings are blunt and larger. If the activity is in the crawl space or along the foundation, Norway rats are the more likely species.",
+      },
+      {
+        question: "Why do odorous house ants get worse in my Federal Way home when it rains?",
+        answer:
+          "Odorous house ants in the Pacific Northwest nest in mulch, soil, and ground-level vegetation. When heavy rain floods their outdoor nests, workers move the colony to a dry indoor space, which appears as a sudden surge of ants indoors. This pattern repeats each time significant rain events flood outdoor nesting sites, which in Federal Way means multiple indoor events through fall and winter. Slow-acting bait placed at active trail points is the most effective management: it is carried back to the colony and works on the indoor-moved population.",
+      },
+      {
+        question: "Are stink bugs a new pest in Federal Way?",
+        answer:
+          "Brown marmorated stink bugs have established in the Puget Sound corridor over the past decade. They are not as intense as in the core mid-Atlantic invasion zone, but they are present and the fall aggregation behavior occurs in King County communities including Federal Way. WSU Extension has documented the expanding range in western Washington. The fall invasion and spring re-emergence pattern is the same as in eastern states, just at lower intensity.",
+      },
+      {
+        question: "Is year-round pest control needed in Federal Way?",
+        answer:
+          "For most Federal Way properties, a year-round plan makes sense. Carpenter ants are a year-round structural concern given the persistent Pacific Northwest moisture. Rats are year-round. Odorous house ants surge multiple times per year with rain events. Stink bugs need fall management. A sustained program with a spring carpenter ant focus and year-round rodent management covers the Federal Way pest calendar effectively.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Tacoma", slug: "tacoma" },
+      { name: "Auburn", slug: "auburn" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Federal Way, WA | Carpenter Ants, Rats & Odorous House Ants",
+    metaDescription:
+      "Federal Way pest control for carpenter ants, Norway rats, roof rats, odorous house ants, yellowjackets and stink bugs. King County Puget Sound maritime Washington specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bellingham",
+    name: "Bellingham",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~92,000",
+    county: "Whatcom County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bellingham sits in Whatcom County on Bellingham Bay near the Canadian border, where the maritime Pacific Northwest climate delivers heavy winter rainfall, cool temperatures, and the persistent moisture that defines the region's pest environment. Western Washington University brings a large student population and rental housing market to an older city core with substantial wood-frame housing from the early and mid 20th century. The Nooksack River, Whatcom Lake, Lake Padden, and the surrounding Cascade Mountain foothills create wooded and wetland corridors that sustain the outdoor pest populations adjacent to the city.",
+    topPests: [
+      "Carpenter Ants",
+      "Norway Rats",
+      "Odorous House Ants",
+      "Yellowjackets",
+      "Brown Marmorated Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through October, most visible indoors in spring",
+        note:
+          "Carpenter ants are the primary structural pest in Bellingham, sustained by the heavy Pacific Northwest rainfall that creates persistent moisture in older wood-frame structures. WSU Extension identifies carpenter ants as the dominant wood-destroying pest in western Washington. Bellingham's stock of older craftsman and early 20th-century housing is particularly vulnerable given its moisture history.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active fall through spring",
+        note:
+          "Norway rats are established in Bellingham's older commercial and residential areas, living in drainage infrastructure, under concrete, and in ground vegetation. The city's position near the Canadian border and the Bellingham Bay waterfront creates rodent pressure in the older downtown and Fairhaven neighborhoods. WSU Extension confirms Norway rats are a primary rodent pest in Whatcom County.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surges indoors during rain events",
+        note:
+          "Odorous house ants are the primary nuisance ant in Bellingham, flooding indoor spaces during heavy rain events when outdoor nests are flooded. The Pacific Northwest's rainy winters produce multiple indoor invasion events per year. They do not damage structures but are persistent and difficult to control with spray treatment alone.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note:
+          "Yellowjackets are a consistent warm-season pest in Whatcom County, nesting in the ground and in wall voids of older structures. The wooded foothills of the Cascades adjacent to Bellingham's eastern neighborhoods provide extensive ground-nesting habitat. Colonies reach peak size and aggression in August.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, emerge in spring",
+        note:
+          "Stink bugs are established in Whatcom County as part of the expanding Pacific Northwest invasion. They aggregate on building exteriors in September and push into wall voids and attic spaces for winter. WSU Extension confirms stink bugs are present and spreading in northwestern Washington.",
+      },
+    ],
+    localHook:
+      "Bellingham's position near the Canadian border in rainy Whatcom County, with heavy Pacific moisture, older craftsman housing, and Western Washington University's rental market, creates a carpenter ant and rodent environment defined by the same moisture that makes the region so green.",
+    intro:
+      "Pest control in Bellingham is shaped by water: the heavy rainfall, the bay, the lakes, and the Cascade foothills moisture that keeps Whatcom County green year-round. Carpenter ants are the defining structural pest, finding the moisture-damaged wood in Bellingham's older craftsman and early 20th-century housing stock throughout the Sehome, Lettered Streets, and Fairhaven neighborhoods. Norway rats are established in the older commercial core and waterfront areas. Odorous house ants surge indoors with every significant fall and winter rain event. Yellowjackets are the summer concern in the foothills-adjacent neighborhoods. Stink bugs have established in northwestern Washington and are a fall nuisance. The moisture that makes Bellingham beautiful is the same moisture that drives its pest calendar.",
+    sections: [
+      {
+        heading: "Carpenter ants in Bellingham's historic housing",
+        body: "Bellingham's older neighborhoods, including the Sehome neighborhood near Western Washington University, the Lettered Streets area, and historic Fairhaven, contain a high concentration of craftsman bungalows, Victorian-era homes, and early 20th-century wood-frame construction. This housing has had a century or more of Pacific Northwest moisture exposure, and the accumulated moisture history in rooflines, window frames, porch structures, and sill plates creates extensive carpenter ant territory. WSU Extension identifies carpenter ants as the primary wood-destroying pest in western Washington, and in Bellingham the older housing stock is among the most exposed in the state. Finding large black ants indoors in spring, particularly near windows or emerging from a consistent location along a baseboard, almost always means an established colony is present. The spring appearance window is the best treatment moment: the colony is accessible, the full population is in place, and the technician can identify the specific moisture-entry point that is sustaining the wood decay. A Bellingham carpenter ant program that treats only the ants without assessing and addressing the moisture source will require repeat treatment.",
+      },
+      {
+        heading: "Norway rats in Bellingham's older waterfront and downtown",
+        body: "Bellingham's older commercial district, the Bellingham Bay waterfront, the Whatcom Creek corridor, and the older residential streets flanking the downtown core create the kind of urban rodent habitat that Norway rats have occupied for generations. They live in the drainage infrastructure, in the ground cavities under older sidewalks and building foundations, and in the dense ground vegetation along creek corridors. They are not arboreal: they burrow at grade or below, and when they enter structures it is through ground-level and below-grade openings. The older commercial buildings on Commercial Street, the waterfront warehouses, and the mixed-use blocks adjacent to Bellingham Bay have the most established Norway rat pressure. Exclusion work that seals ground-level gaps, floor drain openings, and foundation penetrations, combined with exterior trapping programs that manage the population around the building perimeter, is the effective commercial approach.",
+      },
+    ],
+    prevention: [
+      "Inspect Bellingham's older craftsman and early 20th-century housing annually for moisture damage at window frames, roof edges, and porch structures that attract carpenter ants.",
+      "Seal ground-level gaps at foundation penetrations and floor drain openings in older downtown and waterfront properties to reduce Norway rat entry.",
+      "Place odorous house ant bait at trail sites near the foundation before fall rain season begins to reduce indoor invasion frequency.",
+      "Treat yellowjacket ground nests in late June before August colony peak when Cascade foothills-adjacent neighborhoods see the most intense pressure.",
+    ],
+    costNote:
+      "Bellingham pest pricing is standard Whatcom County range. Carpenter ant programs include moisture assessment and are the most requested service for older housing. Rat management is year-round for older commercial and waterfront properties. Seasonal services cover ants in fall and yellowjackets in summer. A free inspection scopes the right plan.",
+    faqs: [
+      {
+        question: "Why is my older Bellingham home so prone to carpenter ants?",
+        answer:
+          "Bellingham's craftsman and early 20th-century housing has had decades of Pacific Northwest moisture exposure, and the accumulated wood decay in aging rooflines, window frames, and porch structures provides exactly the moist, softened wood that carpenter ants require for nesting. The combination of old construction and heavy Pacific moisture makes carpenter ant pressure essentially inevitable in Bellingham's historic neighborhoods without active moisture management and regular inspection.",
+      },
+      {
+        question: "Are the rats in Bellingham mostly in the waterfront area?",
+        answer:
+          "Norway rats are most concentrated in the older downtown, waterfront, and Whatcom Creek corridor areas where older infrastructure, drainage systems, and ground-level building voids provide ideal burrowing habitat. But they are present throughout the older residential sections of the city as well. The newer development areas on the city's edges tend to have lower Norway rat pressure unless they are near drainage corridors.",
+      },
+      {
+        question: "How do odorous house ants differ from the carpenter ants in my Bellingham home?",
+        answer:
+          "Odorous house ants are small, about 1/8 inch, uniformly dark brown, and travel in wide trailing lines. They do not damage wood. Carpenter ants are much larger, about 3/8 to 1/2 inch, black or bicolored, and their presence almost always indicates moisture-damaged wood in the structure. If you are seeing small, trailing ants in your kitchen after rain, they are almost certainly odorous house ants. If you are seeing large black ants in spring, particularly near windows or wood, suspect carpenter ants and schedule an inspection.",
+      },
+      {
+        question: "Are stink bugs becoming more common in Bellingham?",
+        answer:
+          "Yes. WSU Extension has documented the expanding range of the brown marmorated stink bug in western Washington, and Whatcom County is within the established invasion zone. The fall aggregation behavior in Bellingham is newer than in the core mid-Atlantic invasion area but follows the same pattern: exterior wall aggregations in September, overwintering in wall voids, and re-emergence indoors in spring. The population is not declining.",
+      },
+      {
+        question: "Is year-round pest control needed in Bellingham?",
+        answer:
+          "For most older Bellingham homes, a year-round plan with a spring carpenter ant focus makes sense. Carpenter ants are a year-round structural concern in the Pacific Northwest moisture environment. Norway rats are year-round in older downtown and waterfront properties. Odorous house ants surge multiple times in fall and winter. Yellowjackets need summer management. A sustained program with seasonal emphasis covers the Bellingham pest calendar effectively.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Spokane", slug: "spokane" },
+      { name: "Tacoma", slug: "tacoma" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Bellingham, WA | Carpenter Ants, Norway Rats & House Ants",
+    metaDescription:
+      "Bellingham pest control for carpenter ants, Norway rats, odorous house ants, yellowjackets and stink bugs. Whatcom County Bellingham Bay Canadian border maritime Washington specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

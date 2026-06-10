@@ -125,4 +125,121 @@ export const newHampshireCities: CityLocation[] = [
     metaDescription:
       "Manchester pest control for deer ticks, house mice, carpenter ants, German cockroaches and yellowjackets. New Hampshire Lyme disease specialists. Merrimack Valley. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "nashua",
+    name: "Nashua",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T2",
+    population: "~90,000",
+    county: "Hillsborough County",
+    climate: "cold-humid",
+    climateDriver:
+      "Nashua sits on the Merrimack River near the Massachusetts border in southern New Hampshire, where a cold-humid New England climate delivers genuine winters with significant snowfall, warm summers, and a fall season defined by rapid temperature drop that drives mice and other pests toward heated structures. New Hampshire CDC surveillance consistently places the state in the high-burden category for Lyme disease, and southern Hillsborough County shares that risk with the wooded corridors along the Nashua River and the forested edges of the city's suburban neighborhoods.",
+    topPests: [
+      "Deer Ticks",
+      "House Mice",
+      "Carpenter Ants",
+      "Stink Bugs",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (blacklegged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active whenever above freezing, highest risk May through October",
+        note:
+          "New Hampshire CDC data places the state among the high-burden Lyme disease states, and Hillsborough County including Nashua is within the high-risk tick zone. The Nashua River corridor, Mine Falls Park, and the wooded suburban edges throughout the city carry meaningful deer tick risk. Nymphal ticks active May through July are tiny, difficult to find in a tick check, and responsible for the majority of Lyme transmission cases.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, main surge September through November",
+        note:
+          "Nashua's cold winters make heated structures essential for mice each fall. The surge into buildings is reliable and fast when temperatures drop in September and October. Nashua's housing stock includes many older homes near the Millyard district and the South End with more foundation gaps and aged utility penetrations than newer suburban construction.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, most visible indoors in spring",
+        note:
+          "Carpenter ants are the dominant wood-destroying pest in New Hampshire. The Nashua River corridor and the wooded suburban lots throughout southern Hillsborough County sustain large outdoor colonies that find their way into moisture-damaged wood in structures. University of New Hampshire Cooperative Extension identifies carpenter ants as a primary structural pest concern in the state.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, emerge in spring",
+        note:
+          "Stink bugs are well established in southern New Hampshire, which sits within the core mid-Atlantic to New England invasion corridor of the brown marmorated stink bug. They aggregate on building exteriors in September and push into wall voids and attic spaces to overwinter, re-emerging indoors on warm winter and spring days.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note:
+          "Yellowjackets are a consistent warm-season pest in Nashua and throughout Hillsborough County. They nest in the ground and in wall voids of older structures. The older Millyard area buildings and the residential neighborhoods near the Nashua River see regular yellowjacket activity. Colonies reach maximum size and aggression in August and September.",
+      },
+    ],
+    localHook:
+      "Nashua's position at the southern New Hampshire border, sharing the Merrimack Valley's deer tick burden and the stink bug pressure of the mid-Atlantic invasion corridor, gives the city a pest calendar that is simultaneously a New England and a mid-Atlantic management challenge. The fall brings both the stink bug aggregation and the mouse surge within weeks of each other.",
+    intro:
+      "Pest control in Nashua runs on two distinct seasonal clocks. The fall clock is the most intense: stink bugs aggregating on sun-facing building walls in September while house mice begin their push into older homes as the same October cold arrives. Spring activates deer ticks and carpenter ants simultaneously. Yellowjackets build through the warm season to an August peak. The Nashua River and Mine Falls Park create tick habitat that is part of daily life for Nashua residents who use the city's parks and trail network. Understanding the seasonal sequence and acting at the right point in each one is what separates pest management that works from reactive treatment that chases problems after they are established.",
+    sections: [
+      {
+        heading: "Deer ticks and Lyme disease in Nashua",
+        body: "New Hampshire is a high-burden Lyme disease state, and Nashua's position at the southern end of the state, with the Nashua River corridor, Mine Falls Park, and wooded suburban lot edges throughout the city, means deer tick exposure is a genuine daily reality for residents. The tick calendar in Nashua mirrors the rest of southern New Hampshire: adult ticks are active in spring and fall whenever temperatures are above freezing. Nymphal ticks, active primarily from May through July, are the highest-transmission-risk stage because they are the size of a poppy seed and easy to miss in a tick check. The practical defenses are yard-level habitat management, a leaf litter clearance and trimmed brush edge, combined with professional perimeter spray treatment in spring and fall that reduces the tick population in yard zones. For residents who use Mine Falls Park, the Nashua River Rail Trail, and the wooded parks throughout the city, tick checks after every outdoor activity are not overcaution, they are standard New Hampshire practice.",
+      },
+      {
+        heading: "Fall in Nashua: stink bugs and mice arrive together",
+        body: "Southern New Hampshire sits in the invasion range of the brown marmorated stink bug, and the fall aggregation in Nashua is a predictable annual event. Stink bugs begin appearing on warm exterior walls in early September, congregating on south-facing and west-facing surfaces before temperatures drop enough to push them into wall voids and attic spaces for overwintering. At almost exactly the same time, house mice begin their fall push into heated structures as October temperatures fall. The two events overlap in September and October, creating the busiest pest management window of the year for Nashua homeowners. The prevention window for both is September: sealing exterior gaps and treating the stink bug perimeter while they are still aggregating outside, combined with completing foundation exclusion work before mice are already inside. Acting in September is far more effective than reacting in November when stink bugs are already in the walls and mice are already in the kitchen.",
+      },
+    ],
+    prevention: [
+      "Seal attic vents with fine mesh, caulk gaps around windows and utility lines, and treat the exterior perimeter in September before stink bugs push into wall voids.",
+      "Complete foundation exclusion work, sealing all gaps at sill plates and utility penetrations, before October to prevent the fall mouse surge into older Nashua homes.",
+      "Remove leaf litter at the yard edge each spring and apply a professional tick perimeter spray to reduce deer tick numbers in yard zones.",
+      "Treat yellowjacket ground nests in late June when colonies are small rather than waiting for the dangerous August peak size.",
+    ],
+    costNote:
+      "Nashua pest pricing is standard southern New Hampshire range. A year-round plan commonly includes tick perimeter spray in spring and fall, stink bug exclusion in September, fall rodent exclusion, and yellowjacket treatment in summer. Carpenter ant programs include moisture assessment. A free inspection sets the right scope.",
+    faqs: [
+      {
+        question: "How serious is the deer tick risk in Nashua?",
+        answer:
+          "Significant. New Hampshire CDC data places the state consistently in the high-burden Lyme disease category, and Hillsborough County including Nashua is within the high-risk zone. Mine Falls Park, the Nashua River corridor, and any wooded or brushy yard edge carry meaningful deer tick risk. The nymphal stage, active May through July and the size of a poppy seed, is the highest-risk stage because it is easy to miss in a tick check. Professional perimeter spray in spring and fall reduces yard-level tick numbers, and checking for ticks after outdoor activities in wooded or grassy areas is standard New Hampshire practice.",
+      },
+      {
+        question: "Why do stink bugs get into Nashua homes every fall?",
+        answer:
+          "Southern New Hampshire is within the established range of the brown marmorated stink bug. They aggregate in large numbers on sun-facing exterior walls in September to absorb heat before seeking overwintering sites in wall voids and attic spaces. Once inside the walls, they emerge on warm winter days and in spring when interior temperatures rise. The prevention window is September: a perimeter treatment and sealing exterior gaps while they are still aggregating outside prevents the indoor overwintering population from establishing.",
+      },
+      {
+        question: "When do mice become a problem in Nashua homes?",
+        answer:
+          "September and October are the main entry months. Nashua's cold winters make heated structures essential for mice, and the fall surge is fast and reliable. Older homes near the Millyard district, the South End, and along the Nashua River corridor have more potential entry points than modern construction. Completing exclusion work in September, before the surge begins, is more effective than trapping an established population in November.",
+      },
+      {
+        question: "Why do carpenter ants appear inside my Nashua home in spring?",
+        answer:
+          "Carpenter ants overwinter in their nests in wood and become active again as spring temperatures rise. Finding them inside in spring means a colony is already established, almost always in moisture-damaged wood somewhere in the structure. Common sites in Nashua homes are window frames with past or current moisture infiltration, sill plates near a plumbing leak, and roof areas with poor flashing. University of New Hampshire Extension identifies carpenter ants as a primary wood-destroying pest in the state. The spring emergence is the best window to find and treat the colony.",
+      },
+      {
+        question: "Are yellowjackets particularly bad near the Nashua River?",
+        answer:
+          "The Nashua River corridor and the wooded residential neighborhoods along the river see higher yellowjacket density than open suburban areas, because the mature landscaping and older structures provide more nesting sites. Ground nests in yard areas and wall void nests in older Millyard-era buildings are both common near the river. The key timing is June: a small June nest is a manageable problem, while the same nest in August has thousands of workers and is genuinely dangerous to disturb.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Manchester", slug: "manchester" },
+      { name: "Concord", slug: "concord-nh" },
+      { name: "Lowell", slug: "lowell" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Nashua, NH | Deer Ticks, Stink Bugs & House Mice",
+    metaDescription:
+      "Nashua pest control for deer ticks (Lyme disease), stink bugs, house mice, carpenter ants and yellowjackets. Hillsborough County Nashua River Merrimack Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

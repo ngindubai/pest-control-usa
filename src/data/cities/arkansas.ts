@@ -333,4 +333,121 @@ export const arkansasCities: CityLocation[] = [
     metaDescription:
       "Fort Smith pest control for subterranean termites, fire ants, mosquitoes, brown recluse spiders and German cockroaches. Sebastian County Arkansas River border specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "jonesboro",
+    name: "Jonesboro",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T2",
+    population: "~80,000",
+    county: "Craighead County",
+    climate: "temperate",
+    climateDriver:
+      "Jonesboro sits in Craighead County in the northeast Arkansas Delta region, where the flat Mississippi Alluvial Plain meets the Crowley's Ridge escarpment. The humid subtropical climate delivers hot, humid summers, mild winters that rarely see sustained cold, and a pest season that runs essentially year-round. The surrounding rice, cotton, and soybean agriculture of northeast Arkansas, the Cache River watershed, and the proximity to the Big Lake National Wildlife Refuge sustain large mosquito populations and the warm, moist conditions that favor subterranean termites, fire ants, and brown recluse spiders throughout the year.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "Mosquitoes",
+      "German Cockroaches",
+      "Brown Recluse Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms January through April, active year-round underground",
+        note:
+          "Eastern subterranean termites are present throughout Craighead County and are one of the most significant structural pest concerns in northeast Arkansas. Jonesboro's warm, humid climate and its housing stock, ranging from older downtown homes to newer development near Arkansas State University, all carry termite risk. University of Arkansas Cooperative Extension confirms termites are a primary pest across the Arkansas Delta region. Swarms can begin as early as January in mild winters.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note:
+          "Red imported fire ants are established throughout Craighead County and build mound colonies in lawns, garden beds, and at foundation edges. Jonesboro's warm winters rarely suppress fire ant colonies, making them a near-year-round management challenge. University of Arkansas Extension confirms fire ants are present across northeast Arkansas.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peak June through August",
+        note:
+          "The northeast Arkansas Delta landscape, with its rice paddies, drainage ditches, sloughs, and the Cache River National Wildlife Refuge, creates some of the most significant mosquito habitat in the region. Jonesboro's summer mosquito pressure is intense, and the warm springs extend the active season earlier and later than in northern states.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are a year-round concern in Jonesboro's older multi-family housing, the student rental market near Arkansas State University, and the commercial food service corridor along East Main Street. They spread through shared plumbing in older buildings and thrive in the warm, humid Jonesboro climate.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note:
+          "Brown recluse spiders are present throughout northeast Arkansas, including Jonesboro and Craighead County. University of Arkansas Extension confirms brown recluses are common in Arkansas and are found in undisturbed indoor locations such as boxes, closets, and stored items in attics and basements. Their bite is medically significant and can cause severe tissue damage.",
+      },
+    ],
+    localHook:
+      "Jonesboro's position in the northeast Arkansas Delta, surrounded by rice paddies, drainage sloughs, and the Cache River watershed, creates mosquito pressure that is among the most intense in the mid-South. Add year-round fire ant and termite activity from the warm, moist climate, and the pest calendar here essentially has no off-season.",
+    intro:
+      "Pest control in Jonesboro runs on the northeast Arkansas Delta calendar, which means year-round pressure rather than distinct seasonal windows. Eastern subterranean termites swarm as early as January in mild winters and are active underground year-round. Fire ants are never truly dormant in Craighead County's warm climate. Mosquitoes begin their season in March and sustain through October with the help of the Delta's extensive wet agriculture and sloughs. German cockroaches are year-round in the university rental corridor and older commercial buildings. Brown recluse spiders occupy the undisturbed corners of homes throughout the city. A Jonesboro pest plan has to be continuous, not seasonal.",
+    sections: [
+      {
+        heading: "Mosquitoes in the Arkansas Delta: what the rice and slough landscape means",
+        body: "Jonesboro is surrounded by one of the largest concentrations of rice-growing acreage in the United States, and rice cultivation produces the most favorable large-scale mosquito breeding environment in agriculture. Flooded rice paddies, drainage ditches, the Cache River National Wildlife Refuge, and the oxbow lakes and sloughs of the Arkansas Delta create a landscape where mosquito populations are not just a residential nuisance but an agricultural reality. Jonesboro residents who live on the city's agricultural edges or near drainage infrastructure face mosquito pressure in summer that is meaningfully higher than in comparable-sized inland cities without this landscape context. A monthly barrier spray program from March through October provides consistent yard protection and significantly reduces the mosquito population in the treated zone. Eliminating any standing water on the property, including in planters, bird baths, and low-lying areas, reduces on-site breeding, but the surrounding landscape means professional yard treatment is the primary management tool.",
+      },
+      {
+        heading: "Termites and brown recluse: year-round structural concerns in Jonesboro",
+        body: "Northeast Arkansas's warm, humid climate keeps Eastern subterranean termite colonies active essentially year-round, with the soil temperatures in Craighead County rarely dropping enough to pause colony activity below the frost line. Swarms can occur as early as January during a warm spell, and the combination of warm winters and high humidity means termite colonies in Jonesboro have more consistent activity than in northern states where true winter suppression occurs. Brown recluse spiders are a parallel year-round structural concern: they live in undisturbed indoor spaces throughout the home, including wall voids, attic spaces, boxes in storage, and behind furniture, and their bite can cause significant tissue damage. University of Arkansas Extension confirms brown recluses are present across the state and are common in older homes with lots of undisturbed storage. Regular interior residual treatment and clutter reduction in storage areas are the most effective management approaches for both pests.",
+      },
+    ],
+    prevention: [
+      "Schedule annual spring termite inspection for Jonesboro homes, noting that swarms can begin as early as January in mild winters in Craighead County.",
+      "Apply broadcast fire ant bait in spring and fall across lawns and garden beds for sustained colony reduction rather than treating individual mounds reactively.",
+      "Maintain a monthly mosquito barrier spray from March through October to manage the intense Delta landscape mosquito pressure.",
+      "Reduce undisturbed indoor storage in attics, closets, and boxes to limit brown recluse harborage throughout the home.",
+    ],
+    costNote:
+      "Jonesboro pest control is typically a year-round program given the Delta climate. Annual termite inspection, monthly mosquito barrier service, and a general year-round plan for fire ants, cockroaches, and brown recluse spiders covers the primary pest calendar. A free inspection scopes the right plan.",
+    faqs: [
+      {
+        question: "Why are mosquitoes so bad in Jonesboro?",
+        answer:
+          "Jonesboro is surrounded by rice agriculture and the Cache River Delta wetlands, which create an unusually large mosquito breeding environment compared to inland cities without this landscape context. Rice paddies, drainage ditches, sloughs, and oxbow lakes provide near-unlimited standing water for mosquito production through the entire warm season. A monthly barrier spray program is the most effective yard-level management tool, but the surrounding agricultural landscape means the mosquito source cannot be eliminated, only managed at the property level.",
+      },
+      {
+        question: "How early do termites swarm in Jonesboro?",
+        answer:
+          "Eastern subterranean termites in northeast Arkansas can swarm as early as January during warm spells, earlier than in most of the country. The combination of Craighead County's warm, humid winters and the established termite populations in older Jonesboro housing means spring inspection should be scheduled before February. Finding swarmer insects, even in January, indoors near windows warrants an immediate professional inspection.",
+      },
+      {
+        question: "Are brown recluse spiders common in Jonesboro homes?",
+        answer:
+          "Yes. University of Arkansas Extension confirms brown recluse spiders are present throughout Arkansas, including the northeast Delta region, and they are regularly found in Jonesboro homes. They live in undisturbed spaces: boxes in attics, closets, stored clothing, and behind furniture. Their bite can cause significant skin necrosis and requires medical attention. Wearing gloves when reaching into undisturbed stored items and reducing clutter in storage areas are the most practical prevention measures.",
+      },
+      {
+        question: "Do fire ants go away in Jonesboro winters?",
+        answer:
+          "Rarely. Craighead County's winters are mild enough that fire ant colonies typically remain active, though at reduced levels, through most of the year. Unlike northern states where sustained freezing temperatures suppress colonies, Jonesboro winters rarely deliver the sustained cold that would kill or fully suppress fire ant colonies. Year-round management with broadcast bait in spring and fall produces better results than seasonal treatment alone.",
+      },
+      {
+        question: "Is a year-round pest plan necessary in Jonesboro?",
+        answer:
+          "Yes, for most Jonesboro properties. The Delta climate does not deliver winters cold enough to give homeowners a meaningful pest-free window. Termites are active year-round. Fire ants are rarely suppressed. Cockroaches are year-round indoors. Mosquitoes run from March through October. Brown recluse spiders are present in all seasons. A continuous management program is the practical approach for Jonesboro homeowners.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Little Rock", slug: "little-rock" },
+      { name: "Memphis", slug: "memphis" },
+      { name: "Fayetteville", slug: "fayetteville" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Jonesboro, AR | Termites, Mosquitoes & Brown Recluse",
+    metaDescription:
+      "Jonesboro pest control for subterranean termites, mosquitoes, fire ants, German cockroaches and brown recluse spiders. Craighead County Cache River northeast Arkansas Delta specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -887,4 +887,121 @@ export const tennesseeCities: CityLocation[] = [
     metaDescription:
       "Franklin pest control for subterranean termites, mosquitoes, fire ants, carpenter ants and German cockroaches. Williamson County Harpeth River middle Tennessee growth-corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "hendersonville",
+    name: "Hendersonville",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T2",
+    population: "~65,000",
+    county: "Sumner County",
+    climate: "temperate",
+    climateDriver:
+      "Hendersonville sits in Sumner County on Old Hickory Lake, a TVA reservoir on the Cumberland River, about 18 miles northeast of Nashville. The humid subtropical to temperate climate delivers hot, humid summers, mild winters with occasional freezes, and a pest season that runs from late February through November. Old Hickory Lake's shoreline and the numerous coves and residential waterfront lots create substantial mosquito breeding habitat throughout the summer. The city's rapid growth as a Nashville suburb has brought new construction development alongside established older neighborhoods, creating a layered pest environment.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "German Cockroaches",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active spring through fall",
+        note:
+          "Eastern subterranean termites are well established in Sumner County. Hendersonville's older residential areas near Old Hickory Lake, including neighborhoods developed in the 1960s through 1980s, carry significant termite risk from decades of exposure. Tennessee State University Cooperative Extension confirms subterranean termites are present throughout middle Tennessee. Spring swarms near windows are the most common early sign.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peak July and August",
+        note:
+          "Old Hickory Lake's 440 miles of shoreline, the numerous coves and residential waterfront lots, and the Cumberland River watershed create substantial mosquito breeding habitat in and around Hendersonville. The Asian tiger mosquito, a daytime biter, is established in middle Tennessee. Tennessee Department of Health monitors West Nile virus activity in Sumner County annually.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-control",
+        activeSeason: "March through November, most active spring and fall",
+        note:
+          "Red imported fire ants are present in Sumner County and are a consistent yard and foundation management challenge. They build mound colonies in lawns and disturbed soil, particularly in the newer development areas along the I-65 and Saundersville Road corridors. Tennessee Cooperative Extension confirms fire ants are well established across middle Tennessee.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are present in Hendersonville's commercial food service corridor along Vietnam Veterans Boulevard and in older multi-family housing throughout the city. They are year-round indoor pests that spread through shared plumbing in buildings. The growing restaurant and retail development in the city sustains commercial cockroach pressure.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, main surge October through December",
+        note:
+          "House mice are a fall-through-spring concern in Hendersonville. Middle Tennessee winters are mild but cold enough to drive mice toward heated structures in October and November. The city's older neighborhoods near Old Hickory Lake have more potential entry points in aging housing than newer suburban construction.",
+      },
+    ],
+    localHook:
+      "Hendersonville's waterfront setting on Old Hickory Lake gives it one of the most significant mosquito environments of any Nashville suburb. The 440-mile shoreline and the residential coves create summer mosquito pressure that is a defining seasonal pest reality for lakefront and lake-adjacent homeowners.",
+    intro:
+      "Pest control in Hendersonville follows the Sumner County seasonal calendar with a significant lake influence. Mosquitoes from Old Hickory Lake dominate the summer pest calendar from April through October, with the lake's coves and residential shoreline creating breeding habitat that sustains pressure well beyond what inland suburbs experience. Eastern subterranean termites are the structural baseline concern across older neighborhoods. Fire ants are a year-round yard management challenge in Sumner County's warm climate. German cockroaches are year-round in the commercial corridor and older rental housing. House mice press into older homes each fall. The lake setting is both Hendersonville's attraction and its primary mosquito amplifier.",
+    sections: [
+      {
+        heading: "Mosquitoes on Old Hickory Lake: the waterfront reality",
+        body: "Old Hickory Lake was created in 1954 by TVA's Old Hickory Dam on the Cumberland River, and its 22,000 acres and 440 miles of shoreline make it one of the larger reservoirs in middle Tennessee. For Hendersonville homeowners with lakefront or lake-adjacent properties, this creates a mosquito environment that is categorically different from inland suburban Nashville neighborhoods. The coves and sheltered shoreline areas, particularly where aquatic vegetation and floating debris accumulate, provide ideal breeding habitat through the entire warm season. The Asian tiger mosquito, established in Tennessee, is a daytime biter that extends the mosquito nuisance period well beyond the traditional evening hours. Tennessee Department of Health monitors West Nile virus activity in Sumner County in most years. A monthly barrier spray program from April through October provides consistent yard protection for lakefront and adjacent properties. Properties directly on the water benefit from addressing vegetation management along the shoreline in addition to yard treatment.",
+      },
+      {
+        heading: "Termites in Hendersonville's lakeside neighborhoods",
+        body: "Hendersonville's older residential areas, particularly the neighborhoods developed from the 1960s through the 1980s along the Old Hickory Lake shoreline and the established streets of the city's original core, carry meaningful Eastern subterranean termite risk. Subterranean termites thrive in warm, moist soil conditions, and middle Tennessee's climate and the soil moisture adjacent to Old Hickory Lake create favorable conditions for colony expansion. The older construction in these neighborhoods, including homes with crawl space foundations, wood siding, and original framing with decades of soil exposure, is at higher structural risk than newer construction with modern termite prevention measures. Tennessee Cooperative Extension recommends annual termite inspection for middle Tennessee homeowners in older housing. Spring swarms, appearing indoors near windows on warm still days from February through April, are the most visible early sign of an established colony.",
+      },
+    ],
+    prevention: [
+      "Apply a monthly mosquito barrier spray from April through October for Old Hickory Lake shoreline and adjacent properties, and manage aquatic vegetation along the shoreline where possible.",
+      "Schedule annual termite inspection for older Hendersonville homes near the lake, particularly those with crawl space foundations or wood-to-soil contact.",
+      "Apply broadcast fire ant bait in spring and fall across lawns, especially in newer development areas where disturbed soil favors colony establishment.",
+      "Complete foundation exclusion work in October, sealing gaps at sill plates and utility penetrations, before house mice push into older Hendersonville homes.",
+    ],
+    costNote:
+      "Hendersonville pest control commonly includes monthly mosquito barrier service from April through October, annual termite inspection, fire ant management, and a general pest plan. A free assessment determines the right scope for your property's lake proximity and construction age.",
+    faqs: [
+      {
+        question: "Is mosquito pressure worse near Old Hickory Lake in Hendersonville?",
+        answer:
+          "Yes, meaningfully so. The lake's 440 miles of shoreline and the numerous coves with aquatic vegetation and sheltered water create far more mosquito breeding habitat than typical suburban areas with no large water body nearby. Properties directly on the lake or within a few hundred yards of the shoreline experience mosquito pressure that is noticeably higher than inland Hendersonville neighborhoods. Monthly barrier spray from April through October is the practical management approach for lakefront and lake-adjacent properties.",
+      },
+      {
+        question: "When do termites swarm in Hendersonville?",
+        answer:
+          "Eastern subterranean termites in Sumner County typically swarm from February through April, with February swarms possible during warm spells even in a mild middle Tennessee winter. Finding winged termites indoors near a window, or discarded wings on a windowsill, is the most common early sign. Any swarm inside the home, at any time of year, warrants an immediate professional inspection.",
+      },
+      {
+        question: "Do fire ants nest near Old Hickory Lake?",
+        answer:
+          "Fire ants nest throughout Hendersonville including in waterfront and lake-adjacent properties. They avoid flooded soil but establish colonies in the well-drained areas of shoreline lots, lawns, and landscaping. Fire ant mounds near the water's edge and in the lawn areas of lakefront properties are common. Broadcast bait treatment is safe for use near water when applied according to label directions and is the most effective yard-wide management approach.",
+      },
+      {
+        question: "Are German cockroaches in Hendersonville restaurants a concern for homeowners?",
+        answer:
+          "Not directly, but the same species present in commercial settings can be introduced into homes through secondhand items, restaurant take-out packaging in unusual cases, and through multi-family housing with shared plumbing. German cockroaches do not live outdoors in Tennessee's climate: they are entirely indoor insects that require specific food, moisture, and harborage conditions. If you have German cockroaches in your home, the introduction came from inside the structure or through items brought in.",
+      },
+      {
+        question: "Is a year-round pest plan needed in Hendersonville?",
+        answer:
+          "For waterfront and lakeside properties, monthly mosquito service from April through October is essentially essential. Year-round general pest coverage for ants, cockroaches, and rodents makes sense for most properties. Termite inspection is annual. A year-round plan is more cost-effective than reactive treatment for the multiple pest pressures the Hendersonville lake environment creates.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Nashville", slug: "nashville" },
+      { name: "Franklin", slug: "franklin" },
+      { name: "Gallatin", slug: "gallatin" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Hendersonville, TN | Mosquitoes, Termites & Fire Ants",
+    metaDescription:
+      "Hendersonville pest control for mosquitoes, Eastern subterranean termites, fire ants, German cockroaches and house mice. Sumner County Old Hickory Lake Cumberland River Nashville suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

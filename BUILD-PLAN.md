@@ -15,7 +15,7 @@
 
 **AUTONOMY (5 June 2026):** the build routine runs unattended. One block per run, full 7-stage pipeline as the QA gate, commit to main, deploy auto, post live links to Slack as a record. There is no approval step, no wait-for-go, and no stop condition. Advance through the phases in order; when the city universe is built, the pest x city matrix (Phase 6) is the long-tail engine and runs indefinitely.
 
-**Where we are:** Phase 2 T2 in progress. Chunk 14 complete: 350 total city pages built (75 T1 + 275 T2). 25 T2 cities remaining. Next: chunk 15.
+**Where we are:** Phase 3 T3 in progress. Chunk 16 complete: 400 total city pages built (75 T1 + 300 T2 + 25 T3). T2 is COMPLETE. Next: chunk 17, T3, rotation at A.
 
 ---
 
@@ -62,9 +62,9 @@ Deterministic by slug hash (see the guide). For hand-built batches, rotate A, B,
 
 ## CITY TIER QUEUE
 
-- T1 (75 metros): COMPLETE. The Librarian maintains the authoritative tiered list in `src/data/cities/index.ts`.
-- T2 (next ~300): in progress, 75 remaining, worked by population.
-- T3 (~5,000 incorporated places >5,000 pop): the Phase 3 universe, built state by state.
+- T1 (75 metros): COMPLETE.
+- T2 (next ~300): COMPLETE. 300 cities built.
+- T3 (~5,000 incorporated places >5,000 pop): IN PROGRESS. 25 built. Built state by state.
 
 ---
 
@@ -98,3 +98,5 @@ build_state.json holds the machine-readable next unit: `next_chunk`, `next_chunk
 | 2026-06-09 | Chunk 12 | 25 T2 city pages. No new state files. TX: Pearland, Sugar Land, Odessa. FL: Fort Myers, Sunrise. UT: West Jordan. NV: Sparks. CO: Boulder. WA: Kirkland. NJ: Trenton. PA: Erie, Reading. IN: Carmel. GA: Roswell. MI: Livonia. OK: Edmond. IL: Waukegan. CA: Victorville, Berkeley, Daly City, Burbank, Fairfield, Norwalk, Jurupa Valley, Richmond. Template rotation A=61 B=60 C=60 D=60 E=59. 300 total cities, 383 site pages. Build green. | 25 city pages | Live on main. Next: chunk 13. |
 | 2026-06-09 | Chunk 13 | 25 T2 city pages. No new state files. MA: Lowell, New Bedford. OR: Beaverton. MN: Bloomington. GA: Warner Robins. LA: Lafayette, Lake Charles. AL: Tuscaloosa. CO: Greeley, Longmont. NC: Concord, Asheville. WI: Kenosha. UT: Orem, Sandy. KS: Kansas City. AR: Fayetteville. IN: Bloomington. VA: Portsmouth. IA: Davenport. SC: North Charleston. AZ: Goodyear. MO: Lee's Summit. WA: Spokane Valley. TN: Jackson. Template rotation A=66 B=65 C=65 D=65 E=64. 325 total cities, ~408 site pages. Build green. | 25 city pages | Live on main. Next: chunk 14. |
 | 2026-06-09 | Chunk 14 | 25 T2 city pages. No new state files. AR: Fort Smith. NJ: Clifton, Camden. MO: O'Fallon, St. Joseph. MS: Gulfport. MA: Brockton, Cambridge, Lynn, Quincy. IN: Fishers. AZ: Avondale. TN: Franklin. NM: Las Cruces, Rio Rancho. IA: Sioux City. UT: Ogden, St. George. OK: Lawton. WI: Racine, Appleton. NC: Gastonia. OH: Hamilton. SC: Mount Pleasant. AL: Hoover. Template rotation A=71 B=70 C=70 D=70 E=69. 350 total cities, 430 site pages. Build green. | 25 city pages | Live on main. Next: chunk 15. |
+| 2026-06-10 | Chunk 15 | 25 T2 city pages (FINAL T2 BATCH). New state files: montana, wyoming, maine, delaware. TX: Wichita Falls (A), Tyler (B), Richardson (C), League City (D), Allen (E). CA: Ventura (A), El Cajon (B), Santa Maria (C). ID: Nampa (D), Meridian (E). NH: Nashua (E). OH: Canton (A), Youngstown (B), Parma (E). IL: Champaign (C), Decatur (D). SC: Greenville (A). AR: Jonesboro (B). TN: Hendersonville (C). MI: Kalamazoo (D). KY: Bowling Green (E). MT: Billings (A). WY: Cheyenne (B). ME: Portland (C). DE: Wilmington (D). T2 COMPLETE (300 cities). Template rotation A=76 B=75 C=75 D=75 E=74. 375 total cities, ~456 site pages. Build green. | 25 city pages | Branch claude/practical-ramanujan-a5td1v. Next: chunk 16, T3. |
+| 2026-06-10 | Chunk 16 | 25 T3 city pages (FIRST T3 BATCH). No new state files. TX: College Station (A), Baytown (B), Bryan (C), New Braunfels (D), Edinburg (E), Mission (A). CA: Vacaville (B), Rialto (C), Compton (D), Hesperia (E). FL: Deltona (A), Palm Coast (B). WA: Federal Way (C), Bellingham (D). AZ: Flagstaff (E). GA: Alpharetta (A), Albany (B). MA: Fall River (C), Newton (D). NC: Jacksonville (E), Rocky Mount (A). WI: Eau Claire (B). OK: Moore (C). MI: Troy (D), Westland (E). Template rotation A=81 B=80 C=80 D=80 E=79. 400 total cities, 483 site pages. Build green. | 25 city pages | Branch claude/practical-ramanujan-a5td1v. Next: chunk 17, T3, rotation at A. |

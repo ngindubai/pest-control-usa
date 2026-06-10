@@ -217,4 +217,121 @@ export const kentuckyCities: CityLocation[] = [
     metaDescription:
       "Lexington pest control for subterranean termites, mosquitoes, mice, ants and brown recluse spiders. Bluegrass region specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "bowling-green",
+    name: "Bowling Green",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T2",
+    population: "~75,000",
+    county: "Warren County",
+    climate: "temperate",
+    climateDriver:
+      "Bowling Green sits in Warren County in south-central Kentucky, where the Lost River Cave system and the Barren River drainage create a karst landscape with sinkholes, underground drainage, and the warm, humid conditions that define the upper South pest calendar. The humid subtropical to temperate climate delivers hot summers, mild winters with occasional freezes, and a long pest season that begins in late February and runs through November. Western Kentucky University brings a student population and rental housing market that sustains German cockroach pressure in the older apartment corridors.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "German Cockroaches",
+      "Brown Recluse Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active spring through fall",
+        note:
+          "Eastern subterranean termites are well established in Warren County and throughout south-central Kentucky. Bowling Green's older neighborhoods, including the historic homes near WKU and the residential areas flanking the Barren River, carry significant termite risk. University of Kentucky Cooperative Extension confirms subterranean termites are present across the state and are a primary structural pest in south-central Kentucky.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "The Barren River, Barren River Lake, and the karst drainage system of Warren County create substantial mosquito breeding habitat. Bowling Green's warm summers sustain a long mosquito season. The Asian tiger mosquito is established in Kentucky and extends the daytime biting pressure beyond the traditional evening hours.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-control",
+        activeSeason: "March through November, most active spring and fall",
+        note:
+          "Red imported fire ants have established a significant presence in south-central Kentucky, and Warren County is within the fire ant zone. University of Kentucky Extension confirms fire ants are present in the southernmost Kentucky counties including Warren County, with colony activity most visible in spring and fall.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are a year-round concern in Bowling Green's student rental housing near Western Kentucky University, the commercial food service corridor along US-31W, and older multi-family housing throughout the city. The WKU rental market has the same high-turnover cockroach introduction dynamics as other university cities.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note:
+          "Brown recluse spiders are present in Warren County and throughout south-central Kentucky. University of Kentucky Cooperative Extension confirms brown recluses are common in Kentucky homes, found in undisturbed indoor locations including closets, boxes, and stored items. Their bite causes significant tissue damage and requires medical attention.",
+      },
+    ],
+    localHook:
+      "Bowling Green's karst landscape, with the Lost River Cave system running under parts of the city, creates an unusual structural pest environment where termite and moisture-related problems can develop from below-grade conditions that are not visible during a standard surface inspection.",
+    intro:
+      "Pest control in Bowling Green covers the full south-central Kentucky pest calendar. Eastern subterranean termites are the structural baseline concern, with spring swarms beginning in February and the karst landscape creating favorable soil moisture conditions for colony activity. Mosquitoes from the Barren River and the karst drainage system dominate the summer outdoor calendar. Fire ants are an established Warren County pest that requires year-round management. German cockroaches are year-round in the WKU rental corridor. Brown recluse spiders are present in undisturbed indoor spaces throughout the city. The combination of the university rental market and the karst landscape makes Bowling Green a city where pest management requires both indoor and outdoor attention.",
+    sections: [
+      {
+        heading: "Termites in Bowling Green's karst landscape",
+        body: "The Warren County karst landscape, shaped by the dissolution of the underlying limestone into caves, sinkholes, and Lost River Cave, also creates the soil moisture conditions that Eastern subterranean termites favor. Soil above karst drainage tends to retain moisture differently than standard soil, and the underground water movement creates zones of persistent moisture that sustain termite colonies. Bowling Green homes built near sinkholes, over fill soil, or adjacent to the Lost River drainage system may have higher-than-average termite risk from below-grade moisture sources that are not visible from the surface. University of Kentucky Cooperative Extension recommends annual termite inspection for Warren County homeowners. The older residential neighborhoods near WKU campus and the historic downtown district have decades of exposure and carry the highest cumulative risk.",
+      },
+      {
+        heading: "Brown recluse spiders in Bowling Green homes",
+        body: "Brown recluse spiders are one of the most frequently asked-about pests in Kentucky, and Warren County is well within their established range. They live in undisturbed indoor spaces: closets, boxes in storage, behind furniture and appliances, and inside wall voids where they are rarely encountered. University of Kentucky Cooperative Extension notes that brown recluses are common in Kentucky and that large numbers can be present in a home without residents being aware of them until a bite occurs. The practical management approach combines interior residual treatment in harborage areas, sticky monitoring traps placed along baseboards and in closet corners, and clutter reduction in storage spaces that would otherwise provide undisturbed habitat. Their bite causes a necrotic skin reaction that typically requires medical treatment: any suspected brown recluse bite warrants a call to a medical professional.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection for Bowling Green homes near the Barren River and the karst drainage system, which creates below-grade moisture conditions favorable for termite colonies.",
+      "Reduce undisturbed indoor storage in closets, attics, and boxes to limit brown recluse harborage and use sticky monitoring traps along baseboards.",
+      "Apply monthly mosquito barrier spray from April through October near the Barren River and the karst drainage areas of the city.",
+      "Apply broadcast fire ant bait in spring and fall for sustained colony reduction across lawns and garden beds.",
+    ],
+    costNote:
+      "Bowling Green pest pricing is standard south-central Kentucky range. Annual termite inspection, year-round general pest coverage, and seasonal mosquito service covers the core pest calendar. Commercial and WKU rental properties require a site-specific proposal. A free inspection starts the process.",
+    faqs: [
+      {
+        question: "Does the Lost River Cave system create unusual pest conditions in Bowling Green?",
+        answer:
+          "The karst landscape beneath Bowling Green creates soil moisture and drainage conditions that differ from areas without underground cave systems. This affects termite and moisture pest risk for homes built over or adjacent to the karst drainage. Homes near sinkholes, over fill material placed in karst depressions, or adjacent to the Lost River drainage corridor may have higher below-grade moisture than their surface conditions would suggest. An annual termite inspection that includes crawl space or foundation assessment is especially important for properties in karst zones.",
+      },
+      {
+        question: "Are brown recluse spiders dangerous in Bowling Green?",
+        answer:
+          "Brown recluse spiders are present throughout Warren County and their bite is genuinely medically significant. The venom causes localized tissue necrosis in many cases, resulting in a slow-healing wound that can become serious if not treated. They are not aggressive and only bite when pressed against the skin, typically when someone reaches into an undisturbed storage area and contacts them accidentally. UK Cooperative Extension advises wearing gloves when reaching into undisturbed stored items in areas where brown recluses may be present.",
+      },
+      {
+        question: "When do termites swarm in Bowling Green?",
+        answer:
+          "Eastern subterranean termites in Warren County typically swarm from February through April, with February swarms possible during warm spells. South-central Kentucky's mild winters mean swarm season begins earlier than in northern states. Finding winged insects or discarded wings near a window indoors in late winter warrants an immediate professional inspection.",
+      },
+      {
+        question: "Are fire ants established in Bowling Green?",
+        answer:
+          "Yes. Warren County is within the fire ant range that UK Extension confirms for the southernmost Kentucky counties. Fire ants have established colonies in lawns, landscaping, and along foundation edges in Bowling Green. They are more established and aggressive in Warren County than in northern Kentucky counties. Spring and fall are the most visible activity periods, but colonies are never fully dormant in south-central Kentucky's mild winters.",
+      },
+      {
+        question: "Is a year-round pest plan needed in Bowling Green?",
+        answer:
+          "For most Bowling Green properties, a year-round plan is practical given the mild winters and long pest season. Termites require annual inspection. Brown recluse spiders are year-round. German cockroaches in rental properties are year-round. Mosquitoes run April through October. Fire ants are active most of the year. A sustained general program with seasonal additions is more cost-effective than reactive treatment.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Louisville", slug: "louisville" },
+      { name: "Lexington", slug: "lexington" },
+      { name: "Nashville", slug: "nashville" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Bowling Green, KY | Termites, Brown Recluse & Mosquitoes",
+    metaDescription:
+      "Bowling Green pest control for Eastern subterranean termites, brown recluse spiders, mosquitoes, fire ants and German cockroaches. Warren County Lost River Cave karst south-central Kentucky specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
