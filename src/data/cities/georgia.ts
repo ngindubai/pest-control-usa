@@ -995,4 +995,214 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Warner Robins pest control for Eastern subterranean termites, fire ants, mosquitoes, American cockroaches and German cockroaches. Houston County Piedmont Coastal Plain fall line specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "marietta",
+    name: "Marietta",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T2",
+    population: "~62,000",
+    county: "Cobb County",
+    climate: "hot-humid",
+    climateDriver:
+      "Marietta is Cobb County's seat and the largest suburb in the northwest Atlanta metro, where the Piedmont plateau's rolling forested terrain meets the suburban development corridor. The Chattahoochee River is just to the south, and Marietta's position in the Atlanta suburban canopy creates tick habitat at the residential woodland edge. University of Georgia Cooperative Extension confirms subterranean and Formosan termite pressure across the Atlanta metro, and Georgia's long warm season sustains year-round fire ant and cockroach activity.",
+    topPests: [
+      "Subterranean termites",
+      "Fire ants",
+      "Mosquitoes",
+      "Deer ticks",
+      "American cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean and Formosan termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colonies, swarms March through May",
+        note: "University of Georgia Cooperative Extension confirms both Eastern subterranean and Formosan termite pressure across the Atlanta metro including Cobb County. Marietta's established neighborhoods with mature tree canopy and older housing stock carry documented termite exposure. Annual inspections are the standard for Cobb County homeowners.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Red imported fire ants are established throughout Georgia and throughout Cobb County. University of Georgia Cooperative Extension confirms they are present in virtually every yard in the Atlanta metro. Marietta's residential lawns, parks, and the right-of-way areas throughout the city sustain fire ant mound activity year-round.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Chattahoochee River corridor, Kennesaw Mountain's drainage, and the retention features throughout Cobb County's suburban development create mosquito breeding habitat close to Marietta's residential areas. The Georgia Department of Public Health monitors for West Nile virus and Eastern Equine Encephalitis in the metro area.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November",
+        note: "The Georgia Department of Public Health identifies Cobb County in the documented deer tick establishment zone with Lyme disease risk. The forested edges throughout Marietta's older neighborhoods, Kennesaw Mountain National Battlefield Park, and the Chattahoochee River corridor provide tick habitat close to residential areas.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches (palmetto bugs) are a fixture of Georgia's warm climate and are common in Marietta's drainage systems, mulch beds, and foundation areas. They enter homes through gaps, garage doors, and utility penetrations. Georgia's long warm season keeps them active year-round at a higher population level than in northern states.",
+      },
+    ],
+    localHook:
+      "Marietta's position in the northwest Atlanta metro, with Kennesaw Mountain to the north and the Chattahoochee River to the south, creates a pest environment shaped by forested terrain. University of Georgia Cooperative Extension documents termite pressure across Cobb County, fire ants are in every yard in the metro, and the Kennesaw Mountain corridor creates year-round deer tick habitat close to residential neighborhoods.",
+    intro:
+      "Pest control in Marietta reflects Cobb County's Atlanta metro suburban position in Georgia's humid Piedmont. University of Georgia Cooperative Extension confirms both Eastern subterranean and Formosan termite pressure across Cobb County. Fire ants are established in virtually every yard in the metro and active year-round. Mosquitoes peak April through October from the Chattahoochee and the retention features in suburban development. Deer ticks are established in the Kennesaw Mountain and Chattahoochee corridor, and American cockroaches are a year-round warm-season staple.",
+    sections: [
+      {
+        heading: "Termites in the Cobb County Piedmont",
+        body: "University of Georgia Cooperative Extension documents both Eastern subterranean and Formosan termite pressure across the Atlanta metro, and Marietta's position in Cobb County places it firmly within that documented zone. Formosan termites are the more aggressive species, with large colonies and higher consumption rates. The mature tree canopy in Marietta's established neighborhoods, the proximity to the Chattahoochee River corridor, and the older housing stock in the historic districts all contribute to real termite exposure. Annual professional inspections are the standard for Cobb County homeowners. Spring swarms from March through May are the most visible sign of active colonies.",
+      },
+      {
+        heading: "Fire ants and deer ticks: Marietta's outdoor pest pair",
+        body: "Two outdoor pests define the Marietta experience in ways that visitors from northern states find notable. Red imported fire ants are present in virtually every Marietta yard, as documented by University of Georgia Cooperative Extension across the entire Atlanta metro. Their distinctive dome-shaped mounds appear in lawns, gardens, and along driveways, and their stings are a painful and occasionally dangerous medical concern for people and pets. Separately, the Kennesaw Mountain National Battlefield Park and the Chattahoochee River corridor create forested edges throughout the Marietta area that are prime deer tick habitat. The Georgia Department of Public Health identifies Cobb County in the documented deer tick establishment zone. Tick checks after time in wooded or brushy areas are a practical ongoing precaution in Marietta.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given UGA Cooperative Extension's documented Formosan and Eastern subterranean termite pressure in Cobb County.",
+      "Treat fire ant mounds in early spring and fall when the brood is near the surface for most effective control.",
+      "Perform tick checks after time in Kennesaw Mountain, Chattahoochee River trails, and any wooded yard edges.",
+      "Eliminate standing water in yard containers weekly during the April through October mosquito season.",
+    ],
+    costNote:
+      "Marietta pest control is typically a year-round general plan covering fire ants, cockroaches, and rodents, with termite inspection and protection priced separately. Mosquito barrier spray programs run April through October. A free inspection establishes current termite and fire ant activity before any plan is proposed.",
+    faqs: [
+      {
+        question: "Are both Formosan and Eastern subterranean termites present in Marietta?",
+        answer:
+          "Yes. University of Georgia Cooperative Extension confirms both species across the Atlanta metro including Cobb County. Formosan termites are the more aggressive, with larger colonies and faster wood consumption. Annual inspections with a monitoring or treatment program are the standard recommendation for Marietta homeowners.",
+      },
+      {
+        question: "Are fire ants really in every yard in Marietta?",
+        answer:
+          "Essentially, yes. University of Georgia Cooperative Extension confirms red imported fire ants are established throughout the Atlanta metro and are present in virtually every yard in Cobb County. Year-round Georgia warmth keeps them active continuously. Mound treatment in spring and fall, when the brood is near the surface, is the most effective approach.",
+      },
+      {
+        question: "Are deer ticks a real concern near Kennesaw Mountain?",
+        answer:
+          "Yes. The Georgia Department of Public Health places Cobb County in the documented deer tick establishment zone for Lyme disease risk. The forested slopes of Kennesaw Mountain National Battlefield Park and the Chattahoochee River corridor provide prime tick habitat. Tick checks after any time on trails or in wooded areas are the most effective personal precaution.",
+      },
+      {
+        question: "When is mosquito season in Marietta?",
+        answer:
+          "April through October, with peak pressure in June through August. The Chattahoochee River corridor, Kennesaw Mountain drainage, and the retention features throughout Cobb County suburban development create breeding habitat. Removing standing water from yard containers and treating yard areas with barrier spray during the peak season are the most effective property-level management approaches.",
+      },
+      {
+        question: "Are American cockroaches in my Marietta home a sign of a dirty house?",
+        answer:
+          "No. American cockroaches (palmetto bugs) are outdoor insects that enter homes through foundation gaps and garage doors, not because of food left out. They are common throughout Georgia's warm climate year-round. Perimeter treatment and sealing ground-level entry points manage them. German cockroaches, which are small and live strictly indoors, would indicate a more serious indoor sanitation or moisture issue.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Roswell", slug: "roswell" },
+      { name: "Kennesaw", slug: "kennesaw" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Marietta, GA | Termites, Fire Ants & Deer Ticks",
+    metaDescription:
+      "Marietta pest control for subterranean termites, fire ants, mosquitoes, deer ticks and American cockroaches. Cobb County Kennesaw Mountain Atlanta metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "albany",
+    name: "Albany",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~73,000",
+    county: "Dougherty County",
+    climate: "hot-humid",
+    climateDriver:
+      "Albany sits on the Flint River in Dougherty County in southwest Georgia, at the transition between the Piedmont Plateau and the Coastal Plain. The Flint River and the extensive agricultural land of the southwest Georgia coastal plain create significant mosquito habitat and sustain fire ant populations year-round. University of Georgia Cooperative Extension documents termite pressure throughout southwest Georgia, and the region's warm climate keeps pest activity continuous through the year.",
+    topPests: [
+      "Fire ants",
+      "Subterranean termites",
+      "Mosquitoes",
+      "American cockroaches",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "Year-round",
+        note: "Red imported fire ants are present throughout southwest Georgia and are a year-round outdoor pest in Albany. University of Georgia Cooperative Extension confirms fire ants are established across Dougherty County and the entire southwest Georgia agricultural corridor. The warm climate and the abundant agricultural land sustain large fire ant populations throughout the year.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colonies, swarms March through May",
+        note: "University of Georgia Cooperative Extension confirms eastern subterranean termite pressure across southwest Georgia including Dougherty County. Albany's older downtown and residential neighborhoods have housing stock with documented termite exposure. Annual inspections are the standard in the region.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The Flint River, the Kinchafoonee and Muckalee Creeks, and the agricultural drainage throughout Dougherty County create significant mosquito breeding habitat. Southwest Georgia's warm climate extends the mosquito season beyond what central and north Georgia experience. The Georgia Department of Public Health monitors for West Nile virus in the region.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are a consistent outdoor-to-indoor pest throughout southwest Georgia's warm climate. They are common in Albany's drainage systems, mulch beds, and utility corridors, and enter homes through foundation gaps and garage doors. The year-round warmth keeps them continuously active at higher population levels than in northern states.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a persistent indoor pest in Albany's apartment buildings and food service establishments. They spread through shared wall voids in multi-family housing and require coordinated building-wide treatment for lasting results.",
+      },
+    ],
+    localHook:
+      "Albany's Flint River location in southwest Georgia means a long, warm pest season and extensive agricultural land that sustains fire ant populations year-round. University of Georgia Cooperative Extension documents termite pressure across Dougherty County, and the Flint River creates mosquito habitat that extends the active season in southwest Georgia beyond what the Atlanta metro experiences.",
+    intro:
+      "Pest control in Albany reflects the Flint River's southwest Georgia agricultural corridor. Fire ants are present year-round in every outdoor space, documented throughout Dougherty County by University of Georgia Cooperative Extension. Eastern subterranean termites are active throughout the region. Mosquitoes have a long season from the Flint River and the agricultural drainage network. American and German cockroaches are both year-round presences in southwest Georgia's continuous warmth.",
+    sections: [
+      {
+        heading: "Fire ants and the southwest Georgia agricultural landscape",
+        body: "Albany sits in the heart of southwest Georgia's agricultural corridor, where the warm climate and the abundant agricultural land create some of the most concentrated fire ant populations in the state. University of Georgia Cooperative Extension confirms red imported fire ants are established throughout Dougherty County and year-round active in the warm southwest Georgia climate. Fire ant mounds appear in lawns, garden beds, and along driveways throughout Albany, and the agricultural field margins around the city sustain the regional population. Effective management combines individual mound treatment with broadcast bait applications that reach the foraging workers before they return to the colony. Early spring and early fall treatments, when the brood is near the surface, produce the best results.",
+      },
+    ],
+    prevention: [
+      "Treat fire ant mounds in spring and fall with individual mound treatment plus broadcast bait for best results in Albany's year-round active population.",
+      "Schedule annual termite inspections given UGA Cooperative Extension-documented termite pressure throughout Dougherty County.",
+      "Eliminate standing water from yard containers and drainage areas to reduce Flint River corridor mosquito breeding.",
+      "Seal foundation gaps and garage door weatherstripping to reduce American cockroach entry.",
+    ],
+    costNote:
+      "Albany GA pest control is typically a year-round general plan covering fire ants, cockroaches, and rodents, with termite inspection priced separately. A free inspection establishes current activity before a plan is proposed.",
+    faqs: [
+      {
+        question: "Are fire ants a year-round problem in Albany, GA?",
+        answer:
+          "Yes. Southwest Georgia's warm climate means fire ants are active year-round without the winter slowdown that northern Georgia experiences. University of Georgia Cooperative Extension confirms they are established throughout Dougherty County. New mounds appear continuously, and regular broadcast bait treatment is more cost-effective than treating individual mounds as they appear.",
+      },
+      {
+        question: "How serious are termites in Albany?",
+        answer:
+          "Real and documented. University of Georgia Cooperative Extension confirms eastern subterranean termite pressure across southwest Georgia including Dougherty County. Albany's older housing stock carries documented exposure. Annual professional inspections are the standard precaution in the region.",
+      },
+      {
+        question: "When is mosquito season in Albany, GA?",
+        answer:
+          "March through October, longer than central or north Georgia because of southwest Georgia's warmer temperatures and the Flint River corridor's extensive breeding habitat. The Kinchafoonee and Muckalee Creek watersheds and agricultural drainage throughout Dougherty County amplify wet season pressure. The Georgia Department of Public Health monitors for West Nile virus in the region.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus" },
+      { name: "Valdosta", slug: "valdosta" },
+      { name: "Macon", slug: "macon" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Albany, GA | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Albany GA pest control for fire ants, subterranean termites, mosquitoes, American cockroaches and German cockroaches. Dougherty County Flint River southwest Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

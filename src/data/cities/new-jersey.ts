@@ -765,4 +765,116 @@ export const newJerseyCities: CityLocation[] = [
     metaDescription:
       "Camden pest control for Norway rats, German cockroaches, house mice, bed bugs and carpenter ants. Camden County Delaware River urban specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "toms-river",
+    name: "Toms River",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~95,000",
+    county: "Ocean County",
+    climate: "cold-humid",
+    climateDriver:
+      "Toms River is the Ocean County seat on the Toms River estuary in the New Jersey Pine Barrens coastal zone, where the Barnegat Bay and the Atlantic coast set the ecological context. The Pine Barrens and the bay's wetland edges are prime deer tick habitat: Rutgers Cooperative Extension identifies Ocean County as one of New Jersey's highest-risk counties for Lyme disease. The stink bug invasion zone extends into the Jersey Shore corridor, and the bayside wetlands create a sustained mosquito season.",
+    topPests: [
+      "Deer ticks",
+      "Stink bugs",
+      "Mosquitoes",
+      "House mice",
+      "Subterranean termites",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, adults persist on mild winter days",
+        note: "Rutgers Cooperative Extension identifies Ocean County as one of New Jersey's highest-risk counties for Lyme disease. The Pine Barrens' extensive wooded terrain, the barrier island scrub, and the Barnegat Bay wetland edges create prime deer tick habitat throughout the Toms River area. The large deer population in Ocean County sustains high tick numbers.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering indoors",
+        note: "Rutgers Cooperative Extension confirms stink bugs are established throughout New Jersey including Ocean County. The mid-Atlantic stink bug invasion zone extends into the Jersey Shore corridor, and Toms River's older residential developments see reliable fall aggregations each September and October.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Barnegat Bay's saltmarsh and tidal wetlands, the Toms River estuary, and the Pine Barrens' numerous cedar swamps and bogs create mosquito breeding habitat on a large scale throughout Ocean County. Ocean County Mosquito Extermination Commission provides regional treatment, but waterway-adjacent properties experience concentrated seasonal pressure. West Nile virus is monitored in Ocean County.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through April",
+        note: "New Jersey winters drive house mice into Toms River's residential stock from September. The Pine Barrens' forest edge and the coastal development throughout Ocean County provide field mouse pressure at the urban-woodland interface.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Rutgers Cooperative Extension confirms eastern subterranean termite pressure throughout New Jersey including Ocean County. The coastal humidity and the older housing stock in Toms River's established neighborhoods create termite exposure. Annual inspections are the standard.",
+      },
+    ],
+    localHook:
+      "Toms River's position at the edge of the Pine Barrens and Barnegat Bay creates one of the most active deer tick environments in New Jersey. Rutgers Cooperative Extension identifies Ocean County as among the state's highest Lyme disease risk counties. The Pine Barrens' forested terrain and the bay's wetland edges create tick habitat throughout the community. The same coastal setting drives a consistent mosquito season from the Barnegat Bay saltmarsh and the Toms River estuary.",
+    intro:
+      "Pest control in Toms River is anchored by its position at the Pine Barrens and Barnegat Bay edge, which creates exceptional deer tick habitat in one of New Jersey's highest Lyme disease risk counties. Rutgers Cooperative Extension documents this. Mosquitoes have a long active season from the bay's saltmarsh and the Pine Barrens wetlands. Stink bugs are established throughout the Jersey Shore corridor and have a reliable fall season. House mice push in from September, and subterranean termites are documented throughout Ocean County.",
+    sections: [
+      {
+        heading: "Deer ticks and Lyme disease in Ocean County",
+        body: "Ocean County's combination of Pine Barrens woodland, Barnegat Bay wetlands, and a large deer population creates conditions that Rutgers Cooperative Extension identifies as making it one of New Jersey's highest Lyme disease risk counties. Deer ticks are present in the wooded edges of every Toms River neighborhood, in the brushy areas along trails, and in the scrub habitat throughout the coastal zone. The nymph stage, active in May and June, is the most frequently responsible for human Lyme infections because the tiny nymphs are difficult to see. Professional yard treatment at woodland edges and along fence lines, combined with regular tick checks after outdoor activity, are the recommended risk-reduction steps for Toms River residents.",
+      },
+      {
+        heading: "Barnegat Bay mosquito season",
+        body: "Barnegat Bay's extensive saltmarsh and tidal wetland system produces mosquitoes on a scale that reflects a major coastal estuary. Ocean County Mosquito Extermination Commission operates one of New Jersey's most active regional programs, but waterway-adjacent and bay-edge properties in Toms River still experience concentrated seasonal pressure during the May through September active season. Properties near the estuary, Barnegat Bay inlets, and the cedar swamp edges in the Pine Barrens benefit from property-level barrier spray programs during peak season in addition to regional treatment.",
+      },
+    ],
+    prevention: [
+      "Perform tick checks after any outdoor activity in Toms River's Pine Barrens wooded edges and Barnegat Bay brushy areas given Ocean County's documented high Lyme disease risk.",
+      "Schedule annual termite inspections given Rutgers-documented subterranean termite pressure throughout Ocean County.",
+      "Seal exterior gaps before September to reduce both stink bug and mouse entry.",
+      "Maintain a mowed buffer zone between the lawn and Pine Barrens wooded edges to reduce tick habitat closest to the home.",
+    ],
+    costNote:
+      "Toms River pest control is typically structured as a year-round general plan for mice, stink bugs, and general pests, with tick treatment and termite inspection quoted separately. Mosquito barrier spray runs May through September. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "How serious is the Lyme disease risk in Toms River?",
+        answer:
+          "Very serious. Rutgers Cooperative Extension identifies Ocean County as one of New Jersey's highest Lyme disease risk counties. The Pine Barrens' wooded terrain and Barnegat Bay's wetland edges create prime deer tick habitat throughout the Toms River area. Annual yard treatment at woodland edges and regular tick checks are the recommended practices for Ocean County residents.",
+      },
+      {
+        question: "When is stink bug season in Toms River?",
+        answer:
+          "September through November, with peak entry in October. Rutgers Cooperative Extension confirms stink bugs are established throughout New Jersey including Ocean County. Fall aggregations on building exteriors are a regular annual event. Sealing exterior gaps before September reduces entry.",
+      },
+      {
+        question: "Why are mosquitoes so bad near Barnegat Bay?",
+        answer:
+          "Barnegat Bay's saltmarsh and tidal wetland system is one of the most productive mosquito breeding environments in New Jersey. Ocean County Mosquito Extermination Commission provides regional treatment, but the scale of the bay's wetlands means bay-edge and estuary-adjacent properties experience concentrated pressure that property-level barrier spray meaningfully reduces during the May through September season.",
+      },
+      {
+        question: "Do Toms River homes need annual termite inspections?",
+        answer:
+          "Yes. Rutgers Cooperative Extension confirms eastern subterranean termite pressure throughout New Jersey including Ocean County. Coastal humidity amplifies risk for older homes with crawl spaces or wood near soil contact. Annual professional inspections are the standard precaution.",
+      },
+      {
+        question: "What is the best time to treat the yard for deer ticks in Toms River?",
+        answer:
+          "Two applications are most effective: one in spring (April to May) to target emerging nymphs, and one in fall (September to October) to target adult ticks before they seek a winter host. Rutgers Cooperative Extension recommends treating the perimeter at the lawn-to-woodland edge, leaf litter areas, and brushy or shrubby zones where ticks concentrate. Tick populations near the Pine Barrens edge in Toms River justify both applications given Ocean County's high-risk designation.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Lakewood", slug: "lakewood" },
+      { name: "Brick", slug: "brick" },
+      { name: "Trenton", slug: "trenton" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Toms River, NJ | Deer Ticks, Stink Bugs & Mosquitoes",
+    metaDescription:
+      "Toms River pest control for deer ticks, stink bugs, mosquitoes, house mice and subterranean termites. Ocean County Pine Barrens Barnegat Bay New Jersey specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

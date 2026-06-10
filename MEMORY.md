@@ -8,17 +8,17 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-09)
+## Current State (2026-06-10)
 
-- **Phase:** Phase 2 T2 in progress. Chunks 13 and 14 complete.
-- **City pages built:** 350 total (75 T1 + 275 T2). 25 T2 cities remaining.
+- **Phase:** Phase 3 T3 in progress. Chunks 15 and 16 complete. T2 COMPLETE.
+- **City pages built:** 400 total (75 T1 + 300 T2 + 25 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 430 in the static export (home, services, 50+ states, 350 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=71, B=70, C=70, D=70, E=69 (350 total cities, all within 15-25% range).
-- **Cities built T2 chunk 13 (25):** Lowell MA (A), Beaverton OR (B), Bloomington MN (C), Warner Robins GA (D), Lafayette LA (E), Tuscaloosa AL (A), Greeley CO (B), Concord NC (C), Kenosha WI (D), Orem UT (E), Kansas City KS (A), Fayetteville AR (B), Bloomington IN (C), Portsmouth VA (D), Davenport IA (E), North Charleston SC (A), Asheville NC (B), Longmont CO (C), Goodyear AZ (D), Lee's Summit MO (E), New Bedford MA (A), Spokane Valley WA (B), Jackson TN (C), Sandy UT (D), Lake Charles LA (E).
-- **Cities built T2 chunk 14 (25):** Fort Smith AR (A), Clifton NJ (B), O'Fallon MO (C), St. Joseph MO (D), Gulfport MS (E), Brockton MA (A), Fishers IN (B), Avondale AZ (C), Cambridge MA (D), Franklin TN (E), Las Cruces NM (A), Sioux City IA (B), Lynn MA (C), Rio Rancho NM (D), Camden NJ (E), Ogden UT (A), Lawton OK (B), Racine WI (C), Gastonia NC (D), Hamilton OH (E), St. George UT (A), Mount Pleasant SC (B), Hoover AL (C), Quincy MA (D), Appleton WI (E).
-- **New state files added chunks 13-14:** none (all states already have files).
-- **Next block:** Chunk 15, final 25 T2 cities, rotation continues at A.
+- **Total site pages:** 480 in the static export (home, services, 50+ states, 400 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=81, B=80, C=80, D=80, E=79 (400 total cities, all within 15-25% range).
+- **Cities built T2 chunk 15 (25):** Delaware/Wilmington (A), Montana/Billings (B), Wyoming/Cheyenne (C), Maine/Portland (D), West Virginia/Charleston (E), Vermont/Burlington (A), Maryland/Frederick (B), Texas/Wichita Falls (C), Texas/Tyler (D), Texas/Edinburg (E), Texas/Richardson (D), Texas/College Station (E), Texas/League City (E), Florida/Kissimmee (A), Florida/Deerfield Beach (B), Florida/Melbourne (C), Pennsylvania/Scranton (A), Pennsylvania/Bethlehem (B), Ohio/Youngstown (C), Michigan/Kalamazoo (D), Illinois/Champaign (E), New York/New Rochelle (A), Georgia/Marietta (B), Kentucky/Owensboro (C), Kentucky/Bowling Green (D).
+- **Cities built T3 chunk 16 (25):** Texas/Allen (A), Texas/San Marcos (B), Texas/Longview (C), Texas/Harlingen (D), Texas/Mission (E), Florida/Daytona Beach (A), Florida/Deltona (B), Florida/Palm Coast (C), Florida/Boynton Beach (D), Florida/North Port (E), Pennsylvania/Harrisburg (D), Pennsylvania/Lancaster (E), Ohio/Parma (D), Ohio/Canton (E), Michigan/Troy (A), Michigan/Westland (B), Illinois/Bloomington (C), New York/Mount Vernon (A), New York/Schenectady (B), Georgia/Albany (C), California/El Cajon (A), California/Santa Maria (B), New Jersey/Toms River (C), Indiana/Hammond (D), North Carolina/Greenville (E).
+- **New state files added chunks 15-16:** delaware, montana, wyoming, maine, west-virginia, vermont (6 new state files).
+- **Next block:** Chunk 17, T3 continues, rotation at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

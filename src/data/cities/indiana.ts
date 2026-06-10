@@ -777,4 +777,112 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "Fishers pest control for eastern subterranean termites, mosquitoes, stink bugs, house mice and carpenter ants. Hamilton County Geist Reservoir Indianapolis suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "hammond",
+    name: "Hammond",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~71,000",
+    county: "Lake County",
+    climate: "cold-humid",
+    climateDriver:
+      "Hammond sits in Lake County at the southern tip of Lake Michigan, directly adjacent to Chicago's south side in the Calumet Region. The lake-effect climate creates cold snowy winters that drive mice aggressively into the older industrial-era housing stock. The Calumet River system and the Wolf Lake and George Lake wetlands create mosquito habitat. Purdue Extension's Lake County office documents subterranean termite pressure throughout the Calumet Region, and the mid-Atlantic stink bug invasion zone reaches into northwestern Indiana through the Chicago metro corridor.",
+    topPests: [
+      "House mice",
+      "Norway rats",
+      "German cockroaches",
+      "Subterranean termites",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through April",
+        note: "Hammond winters are cold with significant lake-effect snow from Lake Michigan. House mice push into the city's older industrial-era housing from October and remain active through the Indiana winter. Hammond's older housing stock, including pre-WWII construction in the central neighborhoods, provides the gaps and settling that give mice ready access.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are a persistent pest in Hammond's commercial corridors and older residential areas. The Calumet River, the industrial-area drainage infrastructure, and the food service establishments in the downtown and along Indianapolis Boulevard sustain urban rat populations. Hammond's adjacency to Chicago's South Side creates a connected urban rat corridor.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a persistent indoor pest in Hammond's multi-family housing and food service establishments. The older apartment stock has the shared plumbing voids and wall infrastructure that allows populations to spread between units. Building-wide treatment coordination is necessary for lasting results.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Purdue Extension documents eastern subterranean termite pressure throughout Lake County and the Calumet Region. Hammond's older housing stock carries documented termite exposure, particularly in homes with crawl spaces or wood near soil contact.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Wolf Lake, George Lake, the Calumet River, and the wetland areas throughout the Calumet Region create mosquito breeding habitat near Hammond's residential areas. West Nile virus has been monitored in Lake County mosquito populations. The season runs May through September with peak pressure in July and August.",
+      },
+    ],
+    localHook:
+      "Hammond's Calumet Region industrial-era character and its adjacency to Chicago's South Side create a pest picture dominated by rodents and cockroaches in the older housing stock. Lake-effect winters from Lake Michigan drive mice into buildings from October, and Norway rats are sustained year-round by the commercial and Calumet River corridor. Purdue Extension documents termite pressure across Lake County.",
+    intro:
+      "Pest control in Hammond reflects the Calumet Region's Lake County industrial-era urban environment. House mice and Norway rats are the dominant pests in the older housing and commercial corridors, sustained by lake-effect winters and the Calumet River infrastructure. German cockroaches are a year-round presence in multi-family housing. Subterranean termites are documented throughout Lake County by Purdue Extension. Mosquitoes are active in the Wolf Lake and Calumet River wetland system through summer.",
+    sections: [
+      {
+        heading: "Rodents in the Calumet Region housing stock",
+        body: "Hammond's older industrial-era housing and its adjacency to Chicago's South Side create a rodent environment that reflects urban density rather than suburban sprawl. House mice push into the pre-WWII homes from October as lake-effect cold arrives. Norway rats are sustained year-round by the Calumet River corridor, the industrial area drainage, and the food service waste in the commercial districts along Indianapolis Boulevard and the downtown. Both require exclusion-first management: sealing the structural gaps that provide access is more effective than baiting alone in a densely built urban environment where population pressure is continuous. Purdue Extension identifies both species as primary urban pest concerns throughout the Calumet Region.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, utility penetrations, and door gaps before October to intercept mice before lake-effect cold arrives.",
+      "Secure commercial garbage containers and maintain clean perimeters to reduce Norway rat food sources in Hammond's commercial corridors.",
+      "Coordinate German cockroach treatment across adjacent apartment units for lasting results in older multi-family buildings.",
+      "Schedule annual termite inspections given Purdue Extension-documented Lake County subterranean termite pressure.",
+    ],
+    costNote:
+      "Hammond pest control is typically a recurring general plan for rodents and cockroaches, with termite inspection quoted separately. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Why are mice such a persistent problem in Hammond homes?",
+        answer:
+          "Lake-effect cold from Lake Michigan drives house mice into heated buildings from October, and Hammond's older pre-WWII housing stock provides the foundation cracks, pipe gaps, and door sill settling that give mice ready access. The proximity to Chicago's urban rat and mouse corridor sustains persistent pressure. Exclusion work sealing these specific entry points before October is the most effective prevention.",
+      },
+      {
+        question: "Are Norway rats common in Hammond?",
+        answer:
+          "Yes. The Calumet River, the industrial area drainage infrastructure, and the food service establishments in Hammond's commercial corridors sustain year-round Norway rat populations. Hammond's adjacency to Chicago creates a connected urban rodent corridor. Structural sealing and secure garbage management are the foundation of effective rat management in the Calumet Region.",
+      },
+      {
+        question: "Are termites present in Hammond?",
+        answer:
+          "Yes. Purdue Extension documents eastern subterranean termite pressure throughout Lake County and the Calumet Region. Hammond's older housing, particularly pre-1950s construction with crawl spaces, carries documented exposure. Annual professional inspections are the standard precaution.",
+      },
+      {
+        question: "When do mosquitoes peak in Hammond?",
+        answer:
+          "July and August are peak months, with the season running from May through September. Wolf Lake, George Lake, and the Calumet River wetland areas create breeding habitat near residential neighborhoods. West Nile virus has been monitored in Lake County. Removing standing water from yard containers and gutters reduces property-level breeding.",
+      },
+      {
+        question: "How do I get rid of German cockroaches in my Hammond apartment?",
+        answer:
+          "Gel bait applied in the specific harborage sites is more effective than spray: behind the refrigerator, under the stove, inside cabinet hinges, and along plumbing voids. In multi-unit buildings, coordinating treatment across adjacent units is necessary to prevent re-infestation from untreated spaces. A building-wide treatment approach with the landlord or property manager produces lasting results in Hammond's older apartment stock.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Gary", slug: "gary" },
+      { name: "East Chicago", slug: "east-chicago" },
+      { name: "Chicago", slug: "chicago" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Hammond, IN | Mice, Rats & Cockroaches",
+    metaDescription:
+      "Hammond pest control for house mice, Norway rats, German cockroaches, subterranean termites and mosquitoes. Lake County Calumet Region northwest Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

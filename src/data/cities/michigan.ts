@@ -976,4 +976,312 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Livonia pest control for Eastern subterranean termites, house mice, carpenter ants, German cockroaches and yellowjackets. Wayne County post-WWII suburban Detroit western suburbs specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "kalamazoo",
+    name: "Kalamazoo",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T2",
+    population: "~72,000",
+    county: "Kalamazoo County",
+    climate: "cold-humid",
+    climateDriver:
+      "Kalamazoo sits in southwestern Michigan in the Kalamazoo River valley, where the moderating influence of Lake Michigan softens winters slightly compared to central Michigan but cold and snow remain a defining seasonal force. The Kalamazoo River, Asylum Lake, and the numerous lakes throughout Kalamazoo County create mosquito habitat and tick corridors at the urban-woodland edge. Michigan State University Extension documents both termite and carpenter ant pressure throughout southwestern Michigan, and house mice are the dominant cold-season pest.",
+    topPests: [
+      "House mice",
+      "Subterranean termites",
+      "Carpenter ants",
+      "Mosquitoes",
+      "Deer ticks",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through April",
+        note: "Kalamazoo winters are cold and long, and house mice push into the city's older housing stock from September. The mix of historic neighborhoods near downtown, older west side homes, and the surrounding agricultural and forested land creates both urban mouse populations and field mouse pressure at residential edges. Michigan State University Extension identifies house mice as the primary urban rodent concern across the state.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Michigan State University Extension confirms eastern subterranean termite pressure throughout southwestern Michigan including Kalamazoo County. The Kalamazoo River valley's humid conditions and the older housing stock in Kalamazoo's established neighborhoods create real termite exposure. Annual inspections are the standard precaution.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoor colonies active year-round",
+        note: "Carpenter ants are a consistent structural pest in Kalamazoo and throughout southwestern Michigan. MSU Extension identifies them as the primary wood-destroying insect in Michigan alongside termites. The older homes in Kalamazoo's Vine Street Corridor, Stuart neighborhood, and other established areas have the moisture-exposed wood that carpenter ants prefer.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Kalamazoo River, Asylum Lake, Gourdneck Lake, and the numerous lakes and drainage areas throughout Kalamazoo County create mosquito breeding habitat close to residential areas. West Nile virus has been documented in Kalamazoo County mosquito populations.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November",
+        note: "The Michigan Department of Health and Human Services identifies Kalamazoo County in the documented deer tick establishment zone with Lyme disease risk. The wooded areas throughout the county, including Asylum Lake Preserve and the Kalamazoo Nature Center, provide tick habitat close to residential areas.",
+      },
+    ],
+    localHook:
+      "Kalamazoo's Kalamazoo River valley position in southwestern Michigan creates a pest picture that combines the cold-season rodent pressure common throughout Michigan with the Lake Michigan-moderated conditions that keep the termite season active longer than in more northern parts of the state. MSU Extension documents both termite and carpenter ant pressure throughout the county, and the Kalamazoo River corridor creates solid mosquito and tick habitat at the city's edges.",
+    intro:
+      "Pest control in Kalamazoo reflects the Kalamazoo River valley's southwestern Michigan environment. House mice are the dominant cold-season pest, pushing into the city's older neighborhoods from September each year. Michigan State University Extension confirms both eastern subterranean termite and carpenter ant pressure throughout Kalamazoo County. Mosquitoes have an active season along the Kalamazoo River and the numerous county lakes, and deer ticks are established in the wooded areas throughout the county with documented Lyme disease risk.",
+    sections: [
+      {
+        heading: "Termites and carpenter ants in Kalamazoo's older housing",
+        body: "Michigan State University Extension identifies both eastern subterranean termites and carpenter ants as structural wood pests throughout southwestern Michigan, and Kalamazoo's older neighborhoods create real exposure to both. Termites consume wood fiber and leave rough, mud-filled galleries; carpenter ants excavate clean, smooth channels in moist or softened wood. They require different treatments, so identifying which is present matters. Annual termite inspections are the standard for Kalamazoo County. Carpenter ants are the more common structural call in Michigan overall, given the older housing stock and the lake-effect moisture that creates wood vulnerabilities. Finding large black ants indoors in spring is the typical early sign; finding them in winter suggests an established indoor colony.",
+      },
+      {
+        heading: "Ticks and mosquitoes in the Kalamazoo River corridor",
+        body: "The Kalamazoo Nature Center, Asylum Lake Preserve, and the wooded and wetland edges throughout the county create tick and mosquito habitat close to Kalamazoo's residential areas. The Michigan Department of Health and Human Services places Kalamazoo County in the documented deer tick establishment zone for Lyme disease risk. The nymph stage, active in May and June, is the most frequently responsible for human infection. Regular tick checks after outdoor time in wooded or brushy areas, and professional yard treatment at lawn-to-woodland edges, reduce exposure. Separately, the Kalamazoo River and county lakes produce mosquitoes through the active season, with West Nile virus monitored in local populations.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given MSU Extension-documented subterranean termite pressure in Kalamazoo County.",
+      "Repair moisture damage around windows, decks, and plumbing to reduce carpenter ant colonization in older Kalamazoo homes.",
+      "Perform regular tick checks after outdoor activity in Kalamazoo's wooded preserves and wooded yard edges.",
+      "Seal foundation gaps and door sills before September to intercept mice during the cold-season push indoors.",
+    ],
+    costNote:
+      "Kalamazoo pest control is typically a seasonal plan covering mice in fall and winter, ants and mosquitoes in summer, and tick treatment in spring and fall. Termite inspection is quoted separately. A free inspection establishes what is present before any plan is proposed.",
+    faqs: [
+      {
+        question: "Are termites a real concern in Kalamazoo?",
+        answer:
+          "Yes. Michigan State University Extension confirms eastern subterranean termite pressure throughout southwestern Michigan including Kalamazoo County. The Kalamazoo River valley's humid conditions and the older housing stock in established neighborhoods create real exposure. Annual professional inspections are the standard precaution.",
+      },
+      {
+        question: "What is the difference between termites and carpenter ants in Kalamazoo?",
+        answer:
+          "Termites consume wood and leave rough mud-filled galleries. Carpenter ants excavate galleries in already-moist wood but do not eat it, leaving smooth clean channels and piles of coarse sawdust called frass. Both can cause structural damage over time. MSU Extension confirms both are present in Kalamazoo County. An inspection identifies which is present and informs the treatment approach, which is different for each.",
+      },
+      {
+        question: "Are deer ticks a concern in Kalamazoo?",
+        answer:
+          "Yes. The Michigan Department of Health and Human Services places Kalamazoo County in the documented deer tick establishment zone with Lyme disease risk. The Kalamazoo Nature Center, Asylum Lake Preserve, and wooded areas throughout the county provide tick habitat. Tick checks after outdoor activity in wooded or brushy areas are the most important personal protection step.",
+      },
+      {
+        question: "When do mice become a problem in Kalamazoo homes?",
+        answer:
+          "September through April is the primary season. Michigan's cold drives house mice into heated buildings from late September. The older housing stock in Kalamazoo's established neighborhoods provides the foundation gaps and pipe penetrations that give mice access. Exclusion work sealing these entry points before October is the most effective prevention.",
+      },
+      {
+        question: "When is mosquito season in Kalamazoo?",
+        answer:
+          "May through September, with peak pressure in June and July. The Kalamazoo River, Asylum Lake, and the numerous county lakes create breeding habitat. West Nile virus has been documented in Kalamazoo County. Removing standing water from yard containers and gutters reduces property-level breeding.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Grand Rapids", slug: "grand-rapids" },
+      { name: "Lansing", slug: "lansing" },
+      { name: "Battle Creek", slug: "battle-creek" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Kalamazoo, MI | Mice, Termites & Carpenter Ants",
+    metaDescription:
+      "Kalamazoo pest control for house mice, subterranean termites, carpenter ants, mosquitoes and deer ticks. Kalamazoo County Kalamazoo River valley southwestern Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "troy",
+    name: "Troy",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~84,000",
+    county: "Oakland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Troy is one of Oakland County's largest suburbs, north of Detroit in southeastern Michigan. The Midwest's cold continental climate drives mice and squirrels into structures from fall. Michigan State University Extension confirms eastern subterranean termite pressure throughout Oakland County, and the numerous retention ponds and the Clinton River tributaries throughout Troy create mosquito habitat during the summer months.",
+    topPests: [
+      "Subterranean termites",
+      "House mice",
+      "German cockroaches",
+      "Mosquitoes",
+      "Carpenter ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Michigan State University Extension confirms eastern subterranean termite pressure throughout Oakland County. Troy's 1960s through 1980s suburban housing stock is now in the age range where first-generation termite treatments have degraded. Annual inspections catch activity before structural damage accumulates.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through April",
+        note: "Michigan's cold winters drive house mice into Troy's suburban housing from September. The mid-century and 1970s-era construction in Troy's established neighborhoods has the settled framing and pipe gaps that provide mouse entry. MSU Extension identifies mice as the primary urban rodent concern statewide.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Troy's apartment complexes and commercial properties. The restaurant and retail corridors along Big Beaver Road and Rochester Road sustain commercial cockroach pressure that can affect adjacent residential areas.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Troy's numerous retention ponds in commercial and residential developments, and the Clinton River tributary areas, create mosquito breeding habitat throughout the city. West Nile virus has been monitored in Oakland County.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoor colonies active year-round",
+        note: "Carpenter ants are a consistent wood pest in Troy. The cold-humid Michigan climate creates moisture vulnerabilities in older decks, window frames, and sill plates in Troy's suburban housing. MSU Extension identifies carpenter ants alongside termites as the primary wood-destroying pests in Michigan.",
+      },
+    ],
+    localHook:
+      "Troy's suburban Oakland County setting and the cold Michigan climate define its pest calendar. House mice push into mid-century and 1970s-era homes every fall, MSU Extension documents termite pressure throughout Oakland County, and the retention ponds in commercial and residential developments across the city create a consistent summer mosquito season.",
+    intro:
+      "Pest control in Troy follows Oakland County's cold-humid Michigan pattern. Michigan State University Extension confirms eastern subterranean termite pressure throughout the county. House mice are the dominant cold-season pest. German cockroaches are present in the commercial corridors. Mosquitoes breed in the extensive retention pond network, and carpenter ants are a consistent structural concern in the aging suburban housing stock.",
+    sections: [
+      {
+        heading: "Termites and the aging Troy housing stock",
+        body: "Much of Troy was developed between the 1960s and 1980s, meaning the housing stock is now old enough for original termite treatment barriers to have degraded. Michigan State University Extension confirms eastern subterranean termite pressure throughout Oakland County, and Troy's age profile places many homes in the window where undetected activity is most likely. Annual professional inspections are the standard precaution, particularly for homes with crawl spaces or wood near soil contact.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for Troy's 1960s-1980s housing stock given MSU Extension-documented Oakland County termite pressure.",
+      "Seal foundation gaps and door sills before September to intercept mice before Michigan's cold season.",
+      "Remove standing water from retention pond edges and yard containers weekly in summer to reduce mosquito breeding.",
+      "Repair moisture damage around decks and window frames to reduce carpenter ant access.",
+    ],
+    costNote:
+      "Troy pest control is typically a year-round general plan with termite inspection quoted separately. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Are termites a concern in Troy's newer suburban homes?",
+        answer:
+          "Yes, particularly for homes built before 1990. Michigan State University Extension confirms termite pressure throughout Oakland County. Original soil treatment barriers degrade over time, and Troy's 1960s-1980s housing stock is in the age range where that degradation makes inspection a practical annual step.",
+      },
+      {
+        question: "When do mice become a problem in Troy homes?",
+        answer:
+          "September through April. Michigan's cold drives house mice into heated buildings from fall. Troy's mid-century and 1970s-era homes have the pipe penetrations and settling that give mice entry. Sealing those points before October is the most effective prevention.",
+      },
+      {
+        question: "Why do I have mosquitoes around my Troy retention pond?",
+        answer:
+          "Retention ponds provide standing water that is ideal for mosquito breeding. Oakland County's residential developments were built with extensive retention infrastructure, and that network creates breeding habitat throughout Troy during the May through September season. Eliminating standing water in yard containers and treating pond edges reduces property-level pressure.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Sterling Heights", slug: "sterling-heights" },
+      { name: "Pontiac", slug: "pontiac" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Troy, MI | Termites, Mice & Mosquitoes",
+    metaDescription:
+      "Troy MI pest control for subterranean termites, house mice, German cockroaches, mosquitoes and carpenter ants. Oakland County suburban Detroit southeastern Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "westland",
+    name: "Westland",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~82,000",
+    county: "Wayne County",
+    climate: "cold-humid",
+    climateDriver:
+      "Westland is a large suburban city in western Wayne County, west of Detroit, where Michigan's cold-humid continental climate drives house mice and carpenter ant activity through the older post-WWII housing stock. Michigan State University Extension confirms eastern subterranean termite pressure throughout Wayne County, and the Tonquish Creek and the Rouge River tributaries that run through the area create mosquito habitat during the summer months.",
+    topPests: [
+      "House mice",
+      "Subterranean termites",
+      "Carpenter ants",
+      "German cockroaches",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through April",
+        note: "Michigan winters drive house mice into Westland's post-WWII housing stock reliably from September. The older ranch and split-level homes in Westland's established neighborhoods have the foundation settling and pipe penetrations that give mice access. MSU Extension identifies house mice as the primary urban rodent concern throughout Wayne County.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Michigan State University Extension confirms eastern subterranean termite pressure throughout Wayne County. Westland's 1950s and 1960s housing stock is in the age range where original termite barriers have degraded. Annual professional inspections are the standard precaution.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoor colonies active year-round",
+        note: "Carpenter ants are a consistent wood pest in Westland and throughout Wayne County. MSU Extension identifies them as the primary wood-destroying pest in Michigan alongside termites. The post-WWII construction in Westland's neighborhoods has aging window frames, decks, and sill plates that have accumulated moisture exposure over decades.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Westland's apartment complexes and older multi-family buildings. The restaurant and commercial corridors along Ford Road and Cherry Hill sustain cockroach pressure that can affect adjacent residential areas.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Tonquish Creek, Rouge River tributaries, and the retention areas throughout Westland create mosquito breeding habitat. West Nile virus has been documented in Wayne County. The season is active through summer with peak pressure in June and July.",
+      },
+    ],
+    localHook:
+      "Westland's post-WWII Wayne County suburban setting means a housing stock that is now 60 to 75 years old, carrying the accumulated moisture vulnerabilities and access gaps that drive its pest picture. Michigan State University Extension documents termite and carpenter ant pressure throughout Wayne County, and Michigan's cold winters reliably push mice into older homes each fall.",
+    intro:
+      "Pest control in Westland follows the Wayne County western Detroit suburb pattern. House mice are the dominant cold-season pest in the post-WWII housing stock. Michigan State University Extension confirms eastern subterranean termite and carpenter ant pressure throughout Wayne County. German cockroaches are active in multi-family housing and commercial corridors, and mosquitoes breed in Tonquish Creek and the Rouge River tributaries through summer.",
+    sections: [
+      {
+        heading: "Post-WWII housing and the pest picture in Westland",
+        body: "Westland's residential development happened primarily in the 1950s and 1960s, and that housing stock is now old enough to show its age in ways that matter for pest management. Original termite treatment barriers have degraded in many homes, carpenter ant colonies have found the moisture-weakened wood around aging window frames and deck ledgers, and the settling framing around foundations and door sills gives mice access each fall. Michigan State University Extension confirms both termite and carpenter ant pressure throughout Wayne County. The practical response is annual termite inspection, moisture control maintenance on the exterior wood, and fall exclusion work to seal mouse entry points before October.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for Westland's 1950s-1960s housing stock given MSU Extension-documented Wayne County termite pressure.",
+      "Repair moisture damage around decks, window frames, and plumbing to reduce carpenter ant access.",
+      "Seal foundation gaps and pipe penetrations before September to intercept mice before Michigan's cold season.",
+      "Remove standing water from yard containers and gutters to reduce mosquito breeding near Tonquish Creek.",
+    ],
+    costNote:
+      "Westland pest control is typically a year-round general plan covering mice, ants, and cockroaches with termite inspection quoted separately. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Why do mice keep getting into my Westland home?",
+        answer:
+          "Westland's post-WWII homes have 60 to 75 years of settling, and that creates gaps that were not there when the homes were built. Foundation cracks, pipe penetrations, door sill gaps, and garage door weatherstripping that has softened over decades are the common entry points. Michigan winters start driving mice indoors in September. A professional exclusion inspection identifies and seals these specific points rather than just setting traps.",
+      },
+      {
+        question: "Are termites a concern in Westland's older homes?",
+        answer:
+          "Yes. Michigan State University Extension confirms eastern subterranean termite pressure throughout Wayne County. Westland's 1950s and 1960s construction is in the age range where original treatment barriers have degraded. Annual professional inspections are the standard precaution for homes in this age bracket.",
+      },
+      {
+        question: "What should I do if I find carpenter ants in my Westland home?",
+        answer:
+          "A professional inspection is the right first step. Carpenter ants always establish near moist or softened wood, so finding them means there is likely a moisture issue somewhere in the structure that is worth identifying. The inspection locates both the colony and the moisture source. Treating just the ants without addressing the moisture leads to re-infestation. MSU Extension identifies carpenter ants as the primary wood-destroying pest in Michigan alongside termites.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Ann Arbor", slug: "ann-arbor" },
+      { name: "Livonia", slug: "livonia" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Westland, MI | Mice, Termites & Carpenter Ants",
+    metaDescription:
+      "Westland pest control for house mice, subterranean termites, carpenter ants, German cockroaches and mosquitoes. Wayne County post-WWII suburban Detroit western Wayne County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

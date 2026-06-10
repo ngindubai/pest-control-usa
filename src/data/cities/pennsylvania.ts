@@ -555,4 +555,423 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaDescription:
       "Reading pest control for brown marmorated stink bugs, house mice, German cockroaches, bed bugs and Norway rats. Berks County Schuylkill River Pennsylvania Dutch Country specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "scranton",
+    name: "Scranton",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T2",
+    population: "~76,000",
+    county: "Lackawanna County",
+    climate: "cold-humid",
+    climateDriver:
+      "Scranton sits in the Lackawanna River valley in northeastern Pennsylvania, where the Pocono Mountains and the Endless Mountains create a cooler, wetter climate than the Philadelphia and Pittsburgh corridors. Winters are cold and snowy, driving mice aggressively indoors from October. The valley's position in the mid-Atlantic stink bug zone means fall invasions are a reliable annual event. Subterranean termite pressure is documented by Penn State Extension throughout northeastern Pennsylvania, and the Lackawanna River creates mosquito habitat near the city.",
+    topPests: [
+      "Stink bugs",
+      "House mice",
+      "Subterranean termites",
+      "German cockroaches",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering indoors",
+        note: "Penn State Extension, which led early research on the brown marmorated stink bug, confirms northeastern Pennsylvania is well within the core mid-Atlantic invasion zone. Scranton's older residential neighborhoods, brick rowhouses, and buildings near the surrounding forested ridges see reliable fall aggregations each year. The insects enter through gaps around windows, soffits, and utility penetrations.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through April",
+        note: "Scranton winters are cold, and house mice push into heated buildings reliably from late September. The city's older housing stock, much of it built before 1950, has the foundation gaps and settled framing that give mice ready access. Penn State Extension identifies house mice as the primary urban rodent concern throughout Pennsylvania.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Penn State Extension confirms eastern subterranean termite pressure throughout northeastern Pennsylvania including Lackawanna County. Scranton's older housing stock, including many pre-1940 rowhouses and Victorian-era homes, is the age bracket where undetected termite activity is most common. Annual inspections are a practical precaution.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a persistent pest in Scranton's older apartment buildings, rowhouses, and food service establishments in the downtown and South Side neighborhoods. They spread between units through shared plumbing voids and wall cavities, making building-wide treatment coordination necessary in multi-family housing.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Lackawanna River, Roaring Brook, and the numerous drainage areas and retention features throughout the valley create mosquito breeding habitat. The season is shorter than in southern states but active through the summer months. West Nile virus has been documented in Lackawanna County mosquito populations.",
+      },
+    ],
+    localHook:
+      "Scranton's older neighborhoods, the Lackawanna River valley, and the surrounding forested ridges of northeastern Pennsylvania create the conditions for one of the most reliable stink bug fall seasons in the state. Penn State Extension's stink bug research confirmed the mid-Atlantic core zone firmly includes the Scranton area. Cold winters mean mice push hard into the city's aging housing stock starting in September.",
+    intro:
+      "Pest control in Scranton reflects the Lackawanna River valley's northeastern Pennsylvania climate. Brown marmorated stink bugs are the fall signature pest, with Penn State Extension confirming the area firmly within the mid-Atlantic core zone. House mice move aggressively into the city's older housing stock as cold weather arrives. Eastern subterranean termites are documented throughout Lackawanna County, and the older Victorian and rowhouse neighborhoods carry real termite exposure. German cockroaches are a persistent challenge in multi-family housing, and mosquitoes have an active June through August season along the Lackawanna River.",
+    sections: [
+      {
+        heading: "Stink bugs and cold-weather mice: Scranton's fall sequence",
+        body: "Scranton has a predictable fall pest sequence that residents in the older neighborhoods come to expect. In September and October, brown marmorated stink bugs begin aggregating on south and west-facing building exteriors and working their way in through gaps around windows, soffits, and utility lines. Penn State Extension's research on the stink bug invasion began in the mid-Atlantic, and northeastern Pennsylvania is firmly in the core zone. Sealing the building envelope in August is the most effective intervention. Once they are inside, vacuuming is the practical response. Simultaneously, house mice begin pushing into buildings as temperatures drop, using the gaps in Scranton's older foundation walls and settled framing. Exclusion work addressing both entry points before September is the combined prevention approach.",
+      },
+      {
+        heading: "Termites in older Scranton neighborhoods",
+        body: "Penn State Extension confirms eastern subterranean termite pressure throughout northeastern Pennsylvania, and Scranton's housing stock creates real exposure. The city's Victorian-era and pre-WWII rowhouses, many with crawl spaces or wood sill plates near soil, are the highest-risk category. Termite colonies work slowly and silently, and the first visible sign, a spring swarm of winged termites indoors, often indicates a colony that has been active for several years. Annual professional inspections are the standard precaution for Scranton's older housing, particularly for homes with crawl spaces or any wood near ground contact.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps around windows, soffits, and utility lines before September to reduce both stink bug and mouse entry.",
+      "Schedule annual termite inspections for Scranton's older Victorian and pre-1950s housing stock given documented Lackawanna County pressure.",
+      "Coordinate German cockroach treatment across adjacent units in rowhouses and apartments to prevent re-infestation from untreated spaces.",
+      "Remove standing water from yard areas after rain to reduce mosquito breeding along the Lackawanna River corridor.",
+    ],
+    costNote:
+      "Scranton pest control is typically structured as a recurring general plan for mice, stink bugs, and cockroaches, with termite inspection and treatment quoted separately. Stink bug exclusion work is most effective in August. A free inspection establishes current activity before any plan is proposed.",
+    faqs: [
+      {
+        question: "Why does Scranton get so many stink bugs in the fall?",
+        answer:
+          "Northeastern Pennsylvania is in the core zone of the brown marmorated stink bug invasion documented by Penn State Extension. The insects aggregate on building exteriors each fall seeking overwintering sites, and Scranton's older housing stock with its gaps around windows, soffits, and utility penetrations provides the access they need. Sealing those gaps before September is the most effective prevention.",
+      },
+      {
+        question: "Are termites a real risk in Scranton's older neighborhoods?",
+        answer:
+          "Yes. Penn State Extension confirms eastern subterranean termite pressure throughout northeastern Pennsylvania including Lackawanna County. The older housing stock in Scranton's Victorian and rowhouse neighborhoods, particularly homes with crawl spaces or wood near soil contact, faces documented risk. Annual professional inspections are the standard precaution.",
+      },
+      {
+        question: "When do mice become a problem in Scranton?",
+        answer:
+          "September through April. House mice push into heated buildings as Scranton's cold weather arrives and remain active throughout the winter. The older housing stock has the foundation cracks, pipe penetrations, and settled framing that give mice access. Exclusion work sealing these entry points before October is the most effective prevention.",
+      },
+      {
+        question: "How do German cockroaches spread in Scranton apartment buildings?",
+        answer:
+          "German cockroaches move through shared plumbing voids, wall cavities, and the spaces around pipes and wiring between adjacent units. Treating a single apartment without coordinating treatment in adjacent units leaves populations that re-colonize the treated space. Effective control in Scranton's rowhouses and multi-family buildings requires treating all connected units simultaneously.",
+      },
+      {
+        question: "When is mosquito season in Scranton?",
+        answer:
+          "May through September, with peak pressure in June and July. The Lackawanna River, Roaring Brook, and the valley's drainage areas create breeding habitat. West Nile virus has been documented in Lackawanna County. Removing standing water from yard containers and gutters reduces property-level breeding.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Wilkes-Barre", slug: "wilkes-barre" },
+      { name: "Allentown", slug: "allentown" },
+      { name: "Philadelphia", slug: "philadelphia" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Scranton, PA | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "Scranton pest control for brown marmorated stink bugs, house mice, eastern subterranean termites, German cockroaches and mosquitoes. Lackawanna County northeastern Pennsylvania specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bethlehem",
+    name: "Bethlehem",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T2",
+    population: "~76,000",
+    county: "Northampton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bethlehem sits in the Lehigh Valley along the Lehigh River in Northampton County, between the Blue Mountain ridge to the north and the Kittatinny Ridge to the south. The valley position and its mid-Atlantic location place it in one of the most active stink bug zones in the country. Penn State Extension conducted early stink bug research in the Lehigh Valley corridor, and the area remains among the highest-impact regions in the US. Subterranean termite pressure is documented throughout the Lehigh Valley, and the Lehigh River creates mosquito habitat through the city.",
+    topPests: [
+      "Stink bugs",
+      "House mice",
+      "Subterranean termites",
+      "German cockroaches",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering indoors",
+        note: "The Lehigh Valley is in the core zone of the mid-Atlantic stink bug invasion. Penn State Extension identified the Lehigh Valley and the South Mountain corridor as among the most heavily impacted areas in Pennsylvania. Bethlehem's position between the ridge lines and the surrounding agricultural land intensifies fall aggregations, and the older housing stock in the South Side and Historic District neighborhoods provides entry points.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through April",
+        note: "House mice push into Bethlehem's older housing from September as temperatures drop. The South Side's historic rowhouses and the older residential neighborhoods throughout the city have the foundation gaps and settled framing that give mice ready access. Penn State Extension identifies mice as the primary urban rodent pest throughout Pennsylvania.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Penn State Extension confirms eastern subterranean termite pressure throughout the Lehigh Valley including Northampton County. Bethlehem's older steel-town housing stock, including pre-war homes with crawl spaces and wood near soil contact, carries real termite exposure. Spring swarms near foundation walls are the typical first visible sign.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a consistent indoor pest in Bethlehem's apartment buildings, rowhouses, and the restaurant district around the SteelStacks cultural campus and the South Side. They move between units through shared plumbing voids, making coordinated building-wide treatment necessary for lasting results in multi-family housing.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Lehigh River, Monocacy Creek, and the numerous drainage areas throughout the Lehigh Valley create mosquito breeding habitat. The season is active through the summer months, and West Nile virus has been documented in Northampton County mosquito populations.",
+      },
+    ],
+    localHook:
+      "Bethlehem's Lehigh Valley position puts it in one of the most intensively studied stink bug impact zones in the country. Penn State Extension identified the Lehigh Valley as one of the hardest-hit corridors, and fall stink bug invasions into the historic South Side rowhouses and the older residential neighborhoods are a reliable annual event. The valley's warm summer evenings come with mosquito pressure from the Lehigh River corridor.",
+    intro:
+      "Pest control in Bethlehem is anchored by the Lehigh Valley's position in the core mid-Atlantic stink bug zone, confirmed by Penn State Extension research that documented the valley as one of the highest-impact areas in Pennsylvania. House mice move into the older steel-town housing stock each fall. Eastern subterranean termites are documented throughout Northampton County, and Bethlehem's pre-war homes carry real exposure. German cockroaches are a year-round challenge in the South Side's multi-family housing, and mosquitoes are active through summer along the Lehigh River.",
+    sections: [
+      {
+        heading: "The Lehigh Valley stink bug impact zone",
+        body: "Penn State Extension's research identified the Lehigh Valley as one of the most heavily impacted corridors in Pennsylvania for brown marmorated stink bug invasion. Bethlehem's position between the Blue Mountain and Kittatinny ridges, with agricultural land to the south and forested slopes to the north, creates the landscape conditions that concentrate fall stink bug movement toward buildings. The insects aggregate on warm south and west-facing exteriors in September and October and enter through gaps around windows, utility penetrations, and soffits. Sealing the building envelope before September is the most effective intervention. For Bethlehem's historic South Side rowhouses, this means paying attention to the brick mortar gaps, window frames, and shared wall penetrations that are common in century-old construction.",
+      },
+      {
+        heading: "Termites in Bethlehem's older housing",
+        body: "Penn State Extension confirms eastern subterranean termite pressure across the Lehigh Valley, and Bethlehem's older housing stock reflects this documented risk. The historic neighborhoods contain many pre-1950s homes with the wood sill plates, crawl spaces, and ground-adjacent framing that create termite exposure. Termite colonies work slowly, and an infestation can be active for years before the first visible sign, typically a spring swarm of winged termites near foundation walls or windows. Annual professional inspections are the most cost-effective way to catch activity before structural damage requires expensive wood replacement.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps around windows, soffits, utility penetrations, and brick mortar gaps before September to reduce stink bug entry during the Lehigh Valley's fall aggregation period.",
+      "Schedule annual termite inspections for Bethlehem's pre-1950s housing stock given Penn State-documented Northampton County termite pressure.",
+      "Seal foundation gaps and pipe penetrations before October to intercept mice before the cold-weather push into buildings begins.",
+      "Coordinate German cockroach treatment across adjacent units in rowhouses and apartment buildings to prevent re-infestation.",
+    ],
+    costNote:
+      "Bethlehem pest control is most commonly structured as a recurring general plan for mice, stink bugs, and cockroaches, with termite inspection and protection quoted separately. Stink bug exclusion is most effective in August. A free inspection confirms current activity before a plan is proposed.",
+    faqs: [
+      {
+        question: "Is the Lehigh Valley really that bad for stink bugs?",
+        answer:
+          "Yes. Penn State Extension identified the Lehigh Valley corridor as one of the most heavily impacted areas in Pennsylvania for the brown marmorated stink bug invasion. Bethlehem's position between the mountain ridges and the surrounding agricultural land creates fall aggregation conditions that are above average even for Pennsylvania. Annual fall invasions into older buildings are a reliable seasonal event in the area.",
+      },
+      {
+        question: "How serious is the termite risk in Bethlehem's South Side?",
+        answer:
+          "Real. Penn State Extension confirms eastern subterranean termite pressure throughout Northampton County. The South Side's historic pre-1950s rowhouses have the wood construction characteristics that create elevated termite exposure: crawl spaces, wood near soil, aging sill plates. Annual professional inspections are the standard precaution.",
+      },
+      {
+        question: "When should I expect stink bugs to invade my Bethlehem home?",
+        answer:
+          "The fall aggregation period runs from late September through November, with peak entry in October. The insects seek overwintering sites as temperatures cool and work their way in through any available gap. Sealing potential entry points in August, before they start looking, is the most effective prevention step.",
+      },
+      {
+        question: "How do mice get into Bethlehem homes?",
+        answer:
+          "Through any gap larger than a dime. Common entry points in Bethlehem's older housing include foundation cracks, gaps around pipe penetrations, garage door weatherstripping, and the settled framing around door sills. House mice push into heated buildings from September as cold weather arrives. A fall exclusion inspection that identifies and seals these entry points is the most effective prevention.",
+      },
+      {
+        question: "Why do German cockroaches keep returning in my Bethlehem apartment?",
+        answer:
+          "In multi-family housing, German cockroaches move between units through shared plumbing voids and wall cavities. Treating a single apartment without coordinating with adjacent units leaves populations nearby that re-colonize the treated space within weeks. Building-wide treatment coordination is necessary for lasting results in Bethlehem's rowhouses and older apartment buildings.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Allentown", slug: "allentown" },
+      { name: "Philadelphia", slug: "philadelphia" },
+      { name: "Reading", slug: "reading" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Bethlehem, PA | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "Bethlehem pest control for brown marmorated stink bugs, house mice, eastern subterranean termites, German cockroaches and mosquitoes. Northampton County Lehigh Valley Pennsylvania specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "harrisburg",
+    name: "Harrisburg",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~50,000",
+    county: "Dauphin County",
+    climate: "cold-humid",
+    climateDriver:
+      "Harrisburg sits on the Susquehanna River in the Cumberland Valley, Pennsylvania's capital city and a point in the mid-Atlantic corridor where stink bugs, termites, and warm-season mosquitoes all converge. The Susquehanna River creates mosquito habitat and the South Mountain to the west creates the forested backdrop for fall stink bug movement. Penn State Extension documents subterranean termite pressure throughout the Cumberland Valley.",
+    topPests: [
+      "Stink bugs",
+      "Subterranean termites",
+      "House mice",
+      "Mosquitoes",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering indoors",
+        note: "The Cumberland Valley and the South Mountain corridor are in the core mid-Atlantic stink bug zone. Penn State Extension confirms fall aggregations are a reliable annual event in the Harrisburg area, with the surrounding farmland and forested ridges driving movement toward buildings each September and October.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Penn State Extension documents subterranean termite pressure throughout the Cumberland Valley including Dauphin County. Harrisburg's older neighborhoods along the Susquehanna, including Midtown and Allison Hill, contain housing stock with real termite exposure.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through April",
+        note: "Harrisburg winters are cold, and house mice push into the older rowhouse and apartment stock from September. The older housing in Harrisburg's established neighborhoods has the gaps and settled construction that give mice ready access.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Susquehanna River, Paxton Creek, and the drainage areas throughout the greater Harrisburg region create mosquito breeding habitat. West Nile virus has been documented in Dauphin County. The riverfront parks and walking trails see peak pressure in July and August.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Harrisburg's older multi-family housing and food service establishments. The Capitol area and Midtown neighborhoods contain older buildings where shared wall and plumbing voids sustain cockroach populations.",
+      },
+    ],
+    localHook:
+      "Harrisburg's position in the Cumberland Valley puts it squarely in the mid-Atlantic stink bug core zone and within Penn State-documented termite territory. The Susquehanna River creates a mosquito season that the riverfront parks amplify in July and August.",
+    intro:
+      "Pest control in Harrisburg reflects the Cumberland Valley's mid-Atlantic position. Stink bugs are the signature fall pest in the documented core zone. Subterranean termites are confirmed throughout Dauphin County by Penn State Extension. House mice push into older housing in fall, mosquitoes are active along the Susquehanna in summer, and German cockroaches persist in the older multi-family housing stock.",
+    sections: [
+      {
+        heading: "The Cumberland Valley stink bug and termite picture",
+        body: "Penn State Extension confirms two pest concerns that Harrisburg homeowners should plan around: the fall stink bug invasion and year-round subterranean termite pressure. The Cumberland Valley and the South Mountain corridor bring reliable fall stink bug aggregations each September and October. Separately, termite pressure documented across Dauphin County means older Harrisburg housing, particularly along the Susquehanna's established neighborhoods, benefits from annual professional inspection. Both are manageable with appropriate prevention and monitoring.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps before September to reduce stink bug and mouse entry in the fall.",
+      "Schedule annual termite inspections given Penn State-documented subterranean termite pressure in the Cumberland Valley.",
+      "Remove standing water from yard areas during summer to reduce mosquito breeding near the Susquehanna River corridor.",
+    ],
+    costNote:
+      "Harrisburg pest control is typically a recurring general plan with termite protection quoted separately. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Is Harrisburg in the stink bug core zone?",
+        answer:
+          "Yes. The Cumberland Valley and South Mountain corridor are confirmed by Penn State Extension as part of the mid-Atlantic core invasion zone. Fall aggregations on building exteriors and entry into structures are a reliable annual event in the Harrisburg area.",
+      },
+      {
+        question: "Do Harrisburg homes get termites?",
+        answer:
+          "Yes. Penn State Extension documents eastern subterranean termite pressure throughout Dauphin County and the Cumberland Valley. Older neighborhoods along the Susquehanna River, where pre-war housing stock is common, carry elevated exposure. Annual professional inspections are the standard precaution.",
+      },
+      {
+        question: "When is the worst time for mosquitoes in Harrisburg?",
+        answer:
+          "July and August, peaking along the Susquehanna River corridor and in the riverfront park areas. The season runs May through September. West Nile virus has been documented in Dauphin County. Removing standing water in yard containers and gutters reduces property-level breeding.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Lancaster", slug: "lancaster" },
+      { name: "York", slug: "york" },
+      { name: "Allentown", slug: "allentown" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Harrisburg, PA | Stink Bugs, Termites & Mice",
+    metaDescription:
+      "Harrisburg pest control for brown marmorated stink bugs, subterranean termites, house mice, mosquitoes and German cockroaches. Dauphin County Cumberland Valley Susquehanna River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lancaster",
+    name: "Lancaster",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~58,000",
+    county: "Lancaster County",
+    climate: "cold-humid",
+    climateDriver:
+      "Lancaster sits in the heart of the Pennsylvania Dutch Country, in the Conestoga River valley of Lancaster County. The agricultural landscape, forested hillsides, and its mid-Atlantic position create strong fall stink bug movement toward buildings. Penn State Extension confirms subterranean termite pressure across Lancaster County, and the older housing stock in Lancaster City carries documented exposure. Deer ticks are established in the county's wooded and agricultural-edge areas.",
+    topPests: [
+      "Stink bugs",
+      "Subterranean termites",
+      "Deer ticks",
+      "House mice",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering indoors",
+        note: "Lancaster County's agricultural landscape and mid-Atlantic position place it in the core stink bug invasion zone. Penn State Extension confirms fall aggregations are a reliable annual event. The orchards and farmland surrounding Lancaster City concentrate stink bug populations that move toward buildings as temperatures cool.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Penn State Extension documents subterranean termite pressure across Lancaster County. The older housing stock in Lancaster City, including the historic district's pre-war rowhouses, carries real termite exposure. Annual professional inspections are the standard.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November",
+        note: "The Pennsylvania Department of Health identifies Lancaster County in the moderate to high-risk zone for Lyme disease. The wooded edges, hedgerows, and agricultural borderlands throughout Lancaster County provide deer tick habitat. The county's rural character and large deer population sustain tick numbers throughout the area.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through April",
+        note: "Lancaster's older rowhouses and farmhouse-influenced housing stock push mice access issues into nearly every fall. Penn State Extension identifies house mice as the primary urban rodent concern statewide. Cold weather from October through March drives mice firmly indoors.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Lancaster's older multi-family housing and the downtown restaurant district. The historic rowhouses' shared walls and plumbing voids allow colonies to spread between units.",
+      },
+    ],
+    localHook:
+      "Lancaster County's agricultural landscape is one of Pennsylvania's most distinctive, and that same farmland creates one of the most active stink bug fall seasons in the state. Penn State Extension's research placed the Pennsylvania Dutch Country corridor firmly in the core invasion zone. The county's wooded hedgerows and rural-urban edge also carry documented deer tick pressure.",
+    intro:
+      "Pest control in Lancaster reflects the Pennsylvania Dutch Country's mid-Atlantic agricultural setting. Stink bugs are the fall signature pest in one of the most active corridors in Pennsylvania. Subterranean termites are documented throughout Lancaster County by Penn State Extension. Deer ticks are established in the wooded and agricultural-edge areas, with the Pennsylvania Department of Health placing the county in the moderate to high Lyme risk zone. House mice arrive with the cold, and German cockroaches are active year-round in the older housing.",
+    sections: [
+      {
+        heading: "Agricultural landscape and the fall pest season",
+        body: "Lancaster County's farmland and orchard landscape is one of the factors that makes it one of the most reliably impacted areas in Pennsylvania for fall stink bug invasions. The insects emerge from orchards and woodland edges in September and aggregate on building exteriors seeking overwintering sites. Penn State Extension's documentation of the core invasion zone includes the Pennsylvania Dutch Country corridor. Separately, the county's hedgerows, wooded farm margins, and large deer population sustain deer tick populations that the Pennsylvania Department of Health places in the moderate to high Lyme risk category. Homeowners on the rural-urban fringe in Lancaster County deal with both fall pests in the same season.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps before September to reduce stink bug entry during the Lancaster County fall aggregation period.",
+      "Perform regular tick checks after time in wooded or agricultural-edge areas in Lancaster County.",
+      "Schedule annual termite inspections for Lancaster's older historic district housing stock.",
+      "Seal foundation gaps before October to intercept mice during the cold-weather push indoors.",
+    ],
+    costNote:
+      "Lancaster pest control is typically a recurring general plan with termite protection and tick treatment quoted separately. A free inspection is the standard starting point.",
+    faqs: [
+      {
+        question: "Why does Lancaster get so many stink bugs in the fall?",
+        answer:
+          "Lancaster County's extensive agricultural landscape, particularly its orchards and farmland, concentrates stink bug populations that move toward buildings each fall. The county is in the core mid-Atlantic invasion zone confirmed by Penn State Extension. Fall aggregations are a reliable annual event.",
+      },
+      {
+        question: "Are deer ticks a concern in Lancaster County?",
+        answer:
+          "Yes. The Pennsylvania Department of Health places Lancaster County in the moderate to high Lyme disease risk zone. The county's wooded hedgerows, farm margins, and large deer population sustain tick populations. Tick checks after outdoor activity in wooded or agricultural-edge areas are the most effective personal precaution.",
+      },
+      {
+        question: "Do Lancaster's historic rowhouses get termites?",
+        answer:
+          "Yes. Penn State Extension documents eastern subterranean termite pressure across Lancaster County. The historic district's older rowhouses, many pre-dating WWII, have the wood construction characteristics, including crawl spaces and aging sill plates, that create elevated termite exposure. Annual professional inspections are the standard precaution.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "York", slug: "york" },
+      { name: "Harrisburg", slug: "harrisburg" },
+      { name: "Reading", slug: "reading" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Lancaster, PA | Stink Bugs, Termites & Deer Ticks",
+    metaDescription:
+      "Lancaster pest control for brown marmorated stink bugs, subterranean termites, deer ticks, house mice and German cockroaches. Lancaster County Pennsylvania Dutch Country specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

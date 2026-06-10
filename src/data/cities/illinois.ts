@@ -987,4 +987,213 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Waukegan pest control for deer ticks, house mice, German cockroaches, odorous house ants and stink bugs. Lake County Lake Michigan shoreline Des Plaines River Lyme disease risk specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "champaign",
+    name: "Champaign",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T2",
+    population: "~88,000",
+    county: "Champaign County",
+    climate: "cold-humid",
+    climateDriver:
+      "Champaign sits on the flat Champaign-Urbana plain in east-central Illinois, where the Embarras River and Kaskaskia River headwaters drain the surrounding agricultural land. The University of Illinois campus, the Boneyard Creek corridor, and the retention features throughout Champaign-Urbana create mosquito habitat. Illinois cold winters drive mice and cockroaches into the large student housing stock. University of Illinois Extension documents termite pressure across central Illinois, and the agricultural landscape surrounding the twin cities sustains strong field mouse pressure at urban edges.",
+    topPests: [
+      "Subterranean termites",
+      "House mice",
+      "German cockroaches",
+      "Mosquitoes",
+      "Odorous house ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "University of Illinois Extension confirms eastern subterranean termite pressure across central Illinois including Champaign County. The Champaign-Urbana area's mix of pre-war housing stock and 1950s through 1970s construction carries documented termite exposure. Annual inspections are the standard precaution.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through April",
+        note: "Illinois winters are cold, and house mice push into the Champaign-Urbana housing stock from September. The large student housing inventory, including older apartment complexes and houses divided for student rental, has the gaps and deferred maintenance that give mice ready access. The surrounding agricultural land also contributes field mouse pressure at the city's edges.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a significant indoor pest in Champaign's student housing, apartment complexes, and food service establishments near campus. The University District and Green Street restaurant corridor sustain commercial cockroach populations. High student turnover in apartments creates introduction risk each fall.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Boneyard Creek, the Embarras River headwaters, and the retention features throughout Champaign-Urbana create mosquito breeding habitat. West Nile virus has been documented in Champaign County mosquito populations. The season is active through summer with peak pressure in July and August.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoor activity during rain",
+        note: "Odorous house ants are the dominant nuisance ant in Champaign and throughout central Illinois. University of Illinois Extension confirms they are the most frequently reported ant indoors in the region. Rain events flood outdoor nests and drive colonies inside, particularly in the flat Champaign-Urbana plain where drainage is slow.",
+      },
+    ],
+    localHook:
+      "Champaign's University of Illinois campus and the large student housing market create a distinct pest dynamic. High tenant turnover each August and September introduces German cockroaches and bed bugs into the rental housing stock on a seasonal cycle. University of Illinois Extension documents termite pressure across Champaign County, and the surrounding corn and soybean fields sustain field mouse pressure at the city's residential edges.",
+    intro:
+      "Pest control in Champaign reflects the Champaign-Urbana twin city's unique combination of a major university town and east-central Illinois agricultural setting. Eastern subterranean termites are documented across Champaign County by University of Illinois Extension. House mice and German cockroaches are amplified by the large student housing market with its annual turnover cycle. Mosquitoes are active along the Boneyard Creek corridor, and odorous house ants push indoors during the rain events common on the flat agricultural plain.",
+    sections: [
+      {
+        heading: "Student housing and the cockroach cycle",
+        body: "Champaign's large student housing market creates an annual pest introduction cycle that affects properties across the University District and adjacent neighborhoods. Each August and September, as new tenants move in and old ones move out, German cockroaches and bed bugs travel with furniture, boxes, and luggage into apartment buildings. German cockroaches spread rapidly through shared plumbing voids and wall cavities in multi-unit buildings. Effective management in student apartment buildings requires coordinated treatment across connected units, not just response to individual complaints. Landlords who wait for tenant reports rather than treating proactively typically deal with persistent populations.",
+      },
+      {
+        heading: "Termites and agricultural field mice",
+        body: "University of Illinois Extension confirms eastern subterranean termite pressure across Champaign County, and the housing stock in established Champaign neighborhoods carries real exposure, particularly in pre-war and 1950s-1960s construction where original treatment barriers have degraded. Separately, the corn and soybean agricultural landscape surrounding Champaign-Urbana drives field mouse pressure at the city's residential edges. Field mice push into homes along the city's margins in fall when harvesting disturbs their habitat. The practical response is annual termite inspection for older homes and fall exclusion work for properties at or near the agricultural edge.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for Champaign's older housing stock given University of Illinois-documented Champaign County termite pressure.",
+      "Seal foundation gaps and pipe penetrations before September to intercept mice before Illinois cold weather arrives.",
+      "Coordinate cockroach treatment across adjacent units in student housing apartments for lasting results.",
+      "Remove standing water from yard areas after rain to reduce mosquito breeding near the Boneyard Creek corridor.",
+    ],
+    costNote:
+      "Champaign pest control is most commonly structured as a recurring general plan for mice, cockroaches, and ants, with termite inspection and protection quoted separately. A free inspection establishes current activity before any plan is proposed.",
+    faqs: [
+      {
+        question: "Why do Champaign apartment buildings have so many cockroach problems?",
+        answer:
+          "The combination of high annual tenant turnover and the multi-unit building stock creates a consistent cockroach introduction and spread cycle. New tenants move in each August bringing German cockroaches in furniture and boxes, and the shared plumbing voids and wall cavities in older buildings spread them between units. Coordinated building-wide treatment is more effective than responding to individual unit complaints.",
+      },
+      {
+        question: "Are termites a concern in Champaign?",
+        answer:
+          "Yes. University of Illinois Extension documents eastern subterranean termite pressure across Champaign County. The older housing stock in established neighborhoods, and properties with crawl spaces or wood near soil, carry documented exposure. Annual professional inspections are the standard precaution.",
+      },
+      {
+        question: "Why do I get so many ants after it rains in Champaign?",
+        answer:
+          "Odorous house ants build their colonies in soil, mulch, and under paving. Rain events flood these outdoor nests and drive the colony to seek dry space inside. Champaign's flat terrain slows drainage and amplifies this effect. The ants are not attracted by food initially; they are escaping the wet. Slow-acting bait at trail sites addresses the colony rather than just the visible foragers.",
+      },
+      {
+        question: "When is mosquito season in Champaign?",
+        answer:
+          "May through September, with peak pressure in July and August. The Boneyard Creek and the retention features throughout Champaign-Urbana create breeding habitat. West Nile virus has been documented in Champaign County. Removing standing water from yard containers and gutters after rain reduces property-level breeding.",
+      },
+      {
+        question: "Are field mice a problem at the edges of Champaign?",
+        answer:
+          "Yes. The corn and soybean fields surrounding Champaign-Urbana sustain field mouse populations that push toward homes in fall when harvest activity disturbs their habitat. Properties at the agricultural edge of the city, particularly on the east and south sides, experience higher fall mouse pressure than established urban neighborhoods.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Bloomington", slug: "bloomington" },
+      { name: "Springfield", slug: "springfield" },
+      { name: "Peoria", slug: "peoria" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Champaign, IL | Termites, Mice & Cockroaches",
+    metaDescription:
+      "Champaign pest control for subterranean termites, house mice, German cockroaches, mosquitoes and odorous house ants. Champaign County University of Illinois central Illinois specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bloomington",
+    name: "Bloomington",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~79,000",
+    county: "McLean County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bloomington-Normal sits in McLean County in central Illinois, at the heart of the Illinois Corn Belt where the agricultural landscape and the Mackinaw River watershed create the pest conditions. Illinois State University and State Farm's corporate presence shape the city's character, but the surrounding prairie-agricultural landscape drives field mouse pressure at residential edges. University of Illinois Extension documents termite pressure across central Illinois, and cold winters push mice and cockroaches into the housing stock.",
+    topPests: [
+      "House mice",
+      "Subterranean termites",
+      "German cockroaches",
+      "Odorous house ants",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through April",
+        note: "Bloomington winters are cold, and house mice push into the housing stock from September. The agricultural landscape surrounding the Bloomington-Normal metro contributes field mouse pressure at residential edges, particularly during fall harvest. University of Illinois Extension identifies house mice as the primary urban rodent concern across central Illinois.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "University of Illinois Extension confirms eastern subterranean termite pressure across McLean County. Bloomington's older neighborhoods, including the historic Evergreen Memorial Cemetery area and the original city plat, have pre-war housing with real termite exposure. Annual inspections are the standard.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Bloomington's apartment stock and the food service establishments near Illinois State University and the Uptown Normal district. The university rental market creates seasonal introduction cycles similar to Champaign.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Odorous house ants push into Bloomington homes during rain events when outdoor nests are flooded. University of Illinois Extension confirms them as the most frequently reported indoor ant across central Illinois.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Mackinaw River, Sugar Creek, and retention features throughout the Bloomington-Normal metro create mosquito breeding habitat. West Nile virus has been documented in McLean County mosquito populations.",
+      },
+    ],
+    localHook:
+      "Bloomington sits in the heart of the Illinois Corn Belt, and the harvest season each September is when field mice push from the surrounding agricultural landscape toward homes on the city's edges. University of Illinois Extension documents termite pressure across McLean County, and Illinois winters reliably push house mice and cockroaches into the housing stock.",
+    intro:
+      "Pest control in Bloomington follows the McLean County central Illinois agricultural pattern. House mice are the primary fall and winter pest, with both urban populations and harvest-displaced field mice contributing. University of Illinois Extension documents termite pressure across the county. German cockroaches are active in the apartment stock near Illinois State University, odorous house ants are the dominant nuisance ant in the region, and mosquitoes are active along the Mackinaw River watershed.",
+    sections: [
+      {
+        heading: "Corn Belt harvest season and the fall mouse picture",
+        body: "Bloomington's position in the heart of the Illinois Corn Belt creates a fall pest dynamic that urban-only cities do not face. When corn and soybean harvest begins in September and October, field mice are displaced from agricultural fields and move toward the nearest available cover, which often means residential properties on the city's edges. Simultaneously, urban house mice push into heated buildings as the Illinois cold arrives. Homes on Bloomington's eastern and western margins, where residential development meets agricultural land, see higher fall mouse pressure than those in the established urban core. Exclusion work sealing foundation gaps and pipe penetrations before September addresses both populations.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and pipe penetrations before September to intercept both urban mice and harvest-displaced field mice.",
+      "Schedule annual termite inspections given University of Illinois-documented McLean County subterranean termite pressure.",
+      "Use slow-acting bait for odorous house ants rather than contact spray when they push inside after rain events.",
+    ],
+    costNote:
+      "Bloomington pest control is typically a recurring general plan with termite inspection quoted separately. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Why do I get more mice in fall near the agricultural edges of Bloomington?",
+        answer:
+          "Harvest activity in September and October displaces field mice from corn and soybean fields in McLean County. Homes at the residential-agricultural edge see elevated fall mouse pressure from displaced field mice in addition to the normal cold-weather push of urban house mice. Sealing foundation gaps before September is the practical response.",
+      },
+      {
+        question: "Are termites a concern in Bloomington?",
+        answer:
+          "Yes. University of Illinois Extension documents eastern subterranean termite pressure across McLean County. The older housing in Bloomington's established neighborhoods carries real exposure. Annual professional inspections are the standard precaution.",
+      },
+      {
+        question: "When is mosquito season in Bloomington?",
+        answer:
+          "May through September, peaking in July and August along the Mackinaw River corridor and drainage retention areas. West Nile virus has been documented in McLean County. Removing standing water from yard containers after rain reduces property-level breeding.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Peoria", slug: "peoria" },
+      { name: "Champaign", slug: "champaign" },
+      { name: "Springfield", slug: "springfield" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Bloomington, IL | Mice, Termites & Cockroaches",
+    metaDescription:
+      "Bloomington IL pest control for house mice, subterranean termites, German cockroaches, odorous house ants and mosquitoes. McLean County Corn Belt central Illinois specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

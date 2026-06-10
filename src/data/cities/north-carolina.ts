@@ -1300,4 +1300,116 @@ export const northCarolinaCities: CityLocation[] = [
     metaDescription:
       "Gastonia pest control for fire ants, subterranean termites, mosquitoes, carpenter ants and German cockroaches. Gaston County Catawba River Piedmont specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "greenville",
+    name: "Greenville",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~93,000",
+    county: "Pitt County",
+    climate: "hot-humid",
+    climateDriver:
+      "Greenville sits on the Tar River in the North Carolina Coastal Plain, the home of East Carolina University and the regional medical center for eastern North Carolina. The Coastal Plain's flat terrain, the Tar River floodplain, and the extensive agricultural land of Pitt County create significant mosquito habitat. North Carolina State University Cooperative Extension documents Formosan and Eastern subterranean termite pressure across the coastal plain, and the warm humid climate sustains year-round fire ant and cockroach activity.",
+    topPests: [
+      "Subterranean termites",
+      "Mosquitoes",
+      "Fire ants",
+      "German cockroaches",
+      "American cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean and Formosan termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colonies, swarms March through May",
+        note: "NC State Cooperative Extension confirms both Eastern subterranean and Formosan termite pressure across the North Carolina Coastal Plain including Pitt County. Greenville's older residential neighborhoods, particularly those with crawl space foundations common in eastern North Carolina construction, carry documented termite exposure. Annual inspections are the standard.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Tar River, Contentnea Creek, and the extensive agricultural drainage ditches throughout Pitt County create mosquito breeding habitat on a large scale. The flat Coastal Plain terrain slows drainage and creates standing water throughout the agricultural margins surrounding Greenville. The North Carolina Division of Public Health monitors for West Nile virus in the eastern NC region.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Red imported fire ants are established throughout eastern North Carolina including Pitt County. NC State Cooperative Extension confirms fire ants are present in virtually every outdoor space in the region. Greenville's lawns, parks, and the ECU campus grounds sustain fire ant mound activity year-round in the warm coastal plain climate.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a year-round indoor pest in Greenville's student housing near East Carolina University, apartment complexes, and the food service establishments in the downtown and Greenville Boulevard corridors. High student housing turnover creates seasonal introduction cycles each August.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches (palmetto bugs) are a fixture of eastern North Carolina's warm climate and are common in Greenville's drainage systems, mulch beds, and crawl spaces. They enter homes through foundation gaps and crawl space vents and are particularly active after rain events that flush them from drainage channels.",
+      },
+    ],
+    localHook:
+      "Greenville's Tar River location in the North Carolina Coastal Plain creates a long and active mosquito season driven by the flat terrain's slow drainage and the extensive agricultural ditch network in Pitt County. NC State Cooperative Extension documents termite pressure throughout the coastal plain, and the ECU student housing market creates a seasonal cockroach introduction cycle that affects the surrounding neighborhoods each fall.",
+    intro:
+      "Pest control in Greenville reflects the Tar River's North Carolina Coastal Plain environment. Eastern subterranean and Formosan termites are documented across Pitt County by NC State Cooperative Extension, and Greenville's crawl space housing stock carries real exposure. Mosquitoes have a long April through October season from the Tar River and the Coastal Plain drainage network. Fire ants are established year-round in every outdoor space. German cockroaches cycle through the student housing market each fall, and American cockroaches are a warm-climate staple.",
+    sections: [
+      {
+        heading: "Termites in eastern North Carolina crawl space homes",
+        body: "Eastern North Carolina has long been identified by NC State Cooperative Extension as a high-pressure termite zone, with both Eastern subterranean and Formosan termites present in the Coastal Plain. Greenville's housing stock reflects the regional building tradition of crawl space construction, which creates the wood-to-soil proximity and the moisture conditions that subterranean termites prefer. Crawl space ventilation that maintains low humidity, combined with annual professional termite inspections and a monitoring or treatment program, are the standard approach for eastern NC homeowners. Formosan termites, which are established in the coastal plain, are more aggressive than Eastern subterranean and warrant particular attention in older construction.",
+      },
+      {
+        heading: "The Tar River and Pitt County mosquito season",
+        body: "The flat terrain of the North Carolina Coastal Plain slows drainage and creates standing water in the agricultural drainage ditches, retention areas, and low spots throughout Pitt County after rain events. The Tar River and Contentnea Creek add riverine wetland breeding habitat close to Greenville's residential areas. The mosquito season runs from April through October in this warm coastal climate, with peak intensity in June through August. The North Carolina Division of Public Health monitors for West Nile virus in eastern North Carolina. Property-level barrier spray programs during the peak season, combined with eliminating standing water from yard containers and gutters, are the most effective residential protection.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for Greenville's crawl space homes given NC State-documented coastal plain termite pressure in Pitt County.",
+      "Eliminate standing water from yard containers, gutters, and low spots to reduce mosquito breeding near the Tar River corridor.",
+      "Treat fire ant mounds in spring and fall when the brood is near the surface for most effective control.",
+      "Coordinate German cockroach treatment across adjacent student housing units each August before new tenants move in.",
+    ],
+    costNote:
+      "Greenville pest control is typically a year-round general plan covering fire ants, cockroaches, and rodents, with termite inspection priced separately. Mosquito barrier spray runs April through October. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Are termites a serious concern in Greenville, NC?",
+        answer:
+          "Yes. NC State Cooperative Extension confirms both Eastern subterranean and Formosan termite pressure across the North Carolina Coastal Plain including Pitt County. Greenville's crawl space housing tradition creates the wood-near-soil conditions that subterranean termites prefer. Annual professional inspections are the standard precaution.",
+      },
+      {
+        question: "Why is the mosquito season so long in Greenville?",
+        answer:
+          "The North Carolina Coastal Plain's flat terrain slows drainage and creates standing water throughout the agricultural land surrounding Greenville after rain events. The Tar River and Contentnea Creek add riverine wetland breeding habitat. The warm coastal climate extends the active season from April through October. Pitt County's flat drainage network amplifies the scale beyond typical inland North Carolina cities.",
+      },
+      {
+        question: "Are fire ants established in Greenville?",
+        answer:
+          "Yes. NC State Cooperative Extension confirms red imported fire ants are established throughout eastern North Carolina including Pitt County. They are present in virtually every outdoor space in the region. Year-round warmth on the coastal plain keeps them active with no winter dormancy. Regular broadcast bait treatment is more cost-effective than treating individual mounds.",
+      },
+      {
+        question: "Why do cockroach problems get worse near ECU each August?",
+        answer:
+          "The high annual student housing turnover in August and September introduces German cockroaches through boxes, furniture, and luggage. The older apartment buildings near campus have the shared wall and plumbing infrastructure that allows populations to spread between units. Proactive treatment at tenant turnover, rather than response to individual complaints, is the approach that keeps buildings manageable.",
+      },
+      {
+        question: "What are the large cockroaches getting into my Greenville home?",
+        answer:
+          "Large cockroaches entering from outside in eastern North Carolina are typically American cockroaches (palmetto bugs). They live primarily outdoors in drainage systems, mulch, and under concrete slabs and enter homes through foundation gaps, crawl space vents, and garage doors. They do not indicate a sanitation problem and are a normal part of the warm coastal plain environment. Perimeter treatment and sealing ground-level entry points manage them effectively.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Durham", slug: "durham" },
+      { name: "Wilson", slug: "wilson" },
+      { name: "Rocky Mount", slug: "rocky-mount" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Greenville, NC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Greenville NC pest control for subterranean termites, mosquitoes, fire ants, German cockroaches and American cockroaches. Pitt County Tar River Coastal Plain eastern North Carolina specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

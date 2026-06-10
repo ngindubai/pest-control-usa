@@ -227,11 +227,11 @@ pest-control-usa/
 
 ## CURRENT STATUS (keep accurate, update on every block commit)
 
-- **Phase:** Phase 2 T2 in progress. Chunks 13-14 complete 2026-06-09. 350 total city pages built (75 T1 + 275 T2).
-- **City pages built:** 350. T1 complete (75). T2 in progress: 275 built of ~300 target, 25 remaining.
+- **Phase:** Phase 3 T3 in progress. Chunks 15-16 complete 2026-06-10. 400 total city pages built (75 T1 + 300 T2 + 25 T3). T2 COMPLETE.
+- **City pages built:** 400. T1 complete (75). T2 complete (300). T3 in progress: 25 built of ~5,000 target.
 - **Town pages built:** 0.
-- **Templates:** 5 (A to E), all built. Router in `src/components/templates/`. Rotation: A=71, B=70, C=70, D=70, E=69 (all within 15-25% target).
-- **Next block:** Chunk 15, the final 25 T2 city pages, rotation continues at A.
+- **Templates:** 5 (A to E), all built. Router in `src/components/templates/`. Rotation: A=81, B=80, C=80, D=80, E=79 (all within 15-25% target).
+- **Next block:** Chunk 17, T3 continues, rotation at A.
 - **Deploy:** Always push directly to `main`. deploy.yml fires automatically. Site goes live on every push.
 
 ---

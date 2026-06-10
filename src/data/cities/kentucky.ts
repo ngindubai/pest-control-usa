@@ -217,4 +217,228 @@ export const kentuckyCities: CityLocation[] = [
     metaDescription:
       "Lexington pest control for subterranean termites, mosquitoes, mice, ants and brown recluse spiders. Bluegrass region specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "owensboro",
+    name: "Owensboro",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T2",
+    population: "~61,000",
+    county: "Daviess County",
+    climate: "hot-humid",
+    climateDriver:
+      "Owensboro sits on the Ohio River in Daviess County in western Kentucky, where the Ohio River floodplain and its tributaries create significant mosquito habitat and the hot-humid Ohio Valley climate sustains year-round termite activity. The Ohio River bottomland forest and the agricultural land of western Kentucky surround the city, sustaining deer tick populations and driving fall mouse pressure into the housing stock. University of Kentucky Extension documents subterranean termite pressure across western Kentucky.",
+    topPests: [
+      "Subterranean termites",
+      "Mosquitoes",
+      "House mice",
+      "German cockroaches",
+      "Deer ticks",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "University of Kentucky Extension confirms eastern subterranean termite pressure across western Kentucky including Daviess County. Owensboro's position in the Ohio River valley, with its humid conditions and older housing stock, creates favorable conditions for termite activity. Annual inspections are the standard precaution.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Ohio River, Yellow Creek, and the extensive floodplain wetlands and drainage areas throughout Daviess County create significant mosquito breeding habitat. The Ohio Valley's warm humid summers sustain peak mosquito pressure from June through August. West Nile virus has been documented in Kentucky mosquito populations.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through April",
+        note: "Kentucky winters are cold enough to drive house mice into heated buildings from October. The agricultural land surrounding Owensboro also contributes field mouse pressure at residential edges. University of Kentucky Extension identifies house mice as the primary urban rodent concern across the state.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a year-round indoor pest in Owensboro's older multi-family housing and the downtown restaurant district along Frederica Street. They spread through shared plumbing voids in multi-unit buildings, requiring coordinated building-wide treatment.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November",
+        note: "The Kentucky Department of Fish and Wildlife and the Kentucky Department for Public Health document deer tick establishment in western Kentucky. The Ohio River bottomland forests and the wooded edges throughout Daviess County provide tick habitat. Lyme disease cases have been reported in the region.",
+      },
+    ],
+    localHook:
+      "Owensboro's Ohio River setting defines both its riverfront character and its pest season. The Ohio River floodplain and its tributaries drive the longest and most consistent mosquito season in western Kentucky. University of Kentucky Extension documents subterranean termite pressure across Daviess County, and the bottomland forests along the Ohio create deer tick habitat that extends from the river to residential yard edges throughout the city.",
+    intro:
+      "Pest control in Owensboro reflects the Ohio River valley's western Kentucky environment. Eastern subterranean termites are documented across Daviess County by University of Kentucky Extension, and Owensboro's older housing stock along the river carries real exposure. Mosquitoes have a long and active season from the Ohio River floodplain and its tributaries. House mice push into buildings as Kentucky cold arrives. German cockroaches are a year-round presence in multi-family housing, and deer ticks are established in the bottomland forests along the Ohio.",
+    sections: [
+      {
+        heading: "The Ohio River and mosquito season in Owensboro",
+        body: "The Ohio River and its floodplain wetlands are Owensboro's most significant mosquito driver. The river corridor's bottomland forest and the drainage tributaries throughout Daviess County create breeding habitat that sustains mosquito pressure from April through October, with peak intensity in June through August during the hot Ohio Valley summer. Kentucky's warm humid summers amplify the active season compared to states to the north. West Nile virus has been documented in Kentucky. Property-level barrier spray programs during the peak season, combined with weekly elimination of standing water in yard containers, provide the most effective residential protection.",
+      },
+      {
+        heading: "Termites and ticks in Owensboro's river valley setting",
+        body: "University of Kentucky Extension confirms eastern subterranean termite pressure throughout western Kentucky including Daviess County. Owensboro's older neighborhoods along the Ohio River, where many homes date to the early and mid-20th century, carry termite exposure, particularly in homes with crawl spaces or wood near soil contact. Spring swarm events in March through May are the most visible sign. Separately, the bottomland forests and wooded edges along the Ohio River provide deer tick habitat that extends into the city's residential areas. The Kentucky Department for Public Health confirms Lyme disease cases in the region. Annual termite inspections and tick checks after outdoor activity near the river corridor are the practical responses to both.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for Owensboro's older river valley housing given UK Extension-documented Daviess County termite pressure.",
+      "Eliminate standing water from yard containers and drainage areas weekly during the April through October mosquito season.",
+      "Seal foundation gaps and pipe penetrations before October to intercept mice before Kentucky cold weather arrives.",
+      "Perform tick checks after time in Owensboro's Ohio River bottomland forests and wooded yard edges.",
+    ],
+    costNote:
+      "Owensboro pest control is typically a year-round general plan covering rodents, cockroaches, and ants, with termite inspection and tick treatment quoted separately. Mosquito barrier spray runs April through October. A free inspection establishes current activity before any plan is proposed.",
+    faqs: [
+      {
+        question: "Are termites a concern in Owensboro?",
+        answer:
+          "Yes. University of Kentucky Extension confirms eastern subterranean termite pressure across western Kentucky including Daviess County. Owensboro's older Ohio River valley housing stock, particularly homes with crawl spaces or wood near soil, carries documented exposure. Annual professional inspections are the standard precaution.",
+      },
+      {
+        question: "When is mosquito season in Owensboro?",
+        answer:
+          "April through October, with peak pressure in June through August. The Ohio River floodplain and its tributaries create breeding habitat on a large scale. West Nile virus has been documented in Kentucky mosquito populations. Removing standing water from yard containers and treating outdoor living areas during peak season are the effective property-level responses.",
+      },
+      {
+        question: "Are deer ticks a concern near the Ohio River in Owensboro?",
+        answer:
+          "Yes. The Ohio River bottomland forests and wooded edges throughout Daviess County provide deer tick habitat. The Kentucky Department for Public Health confirms Lyme disease cases in the region. Tick checks after any outdoor time near the river corridor, wooded parks, or brushy yard edges are the most effective personal precaution.",
+      },
+      {
+        question: "When do mice become a problem in Owensboro homes?",
+        answer:
+          "October through April is the primary season. Kentucky cold drives house mice into heated buildings from fall. The agricultural land surrounding Owensboro also contributes field mouse pressure at residential edges. Sealing foundation gaps and pipe penetrations before October is the most effective prevention.",
+      },
+      {
+        question: "How do German cockroaches spread in Owensboro apartment buildings?",
+        answer:
+          "Through shared plumbing voids and wall cavities between units. Treating a single apartment in an older Owensboro building leaves populations in adjacent units that re-colonize within weeks. Building-wide coordinated treatment using gel bait is the effective approach in multi-unit buildings.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Evansville", slug: "evansville" },
+      { name: "Louisville", slug: "louisville" },
+      { name: "Henderson", slug: "henderson-ky" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Owensboro, KY | Termites, Mosquitoes & Mice",
+    metaDescription:
+      "Owensboro pest control for subterranean termites, mosquitoes, house mice, German cockroaches and deer ticks. Daviess County Ohio River valley western Kentucky specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bowling-green",
+    name: "Bowling Green",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T2",
+    population: "~75,000",
+    county: "Warren County",
+    climate: "hot-humid",
+    climateDriver:
+      "Bowling Green sits in the Barren River valley in Warren County in south-central Kentucky, where the karst terrain of the Mammoth Cave region meets the agricultural landscape of the Pennyroyal Plateau. The Barren River and its tributaries create mosquito habitat, and the karst limestone landscape creates unique pest conditions including occasional cave crickets and moisture infiltration through the porous bedrock. University of Kentucky Extension documents subterranean termite pressure across south-central Kentucky, and the warm Kentucky climate sustains fire ant activity in the southernmost counties.",
+    topPests: [
+      "Subterranean termites",
+      "House mice",
+      "Mosquitoes",
+      "German cockroaches",
+      "Fire ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "University of Kentucky Extension confirms eastern subterranean termite pressure across south-central Kentucky including Warren County. Bowling Green's mix of older downtown housing and the growing Western Kentucky University student housing market creates documented termite exposure in the older construction. Annual inspections are the standard.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through April",
+        note: "Kentucky winters drive house mice into Bowling Green's housing stock from October. The city's rapid residential growth has produced new construction alongside older neighborhoods, and the surrounding agricultural and karst landscape contributes field mouse pressure at suburban edges. UK Extension identifies house mice as the primary urban rodent concern statewide.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Barren River, Jennings Creek, and the retention features in Bowling Green's rapidly expanding suburban development create mosquito breeding habitat. The warm south-central Kentucky climate sustains a long active season. West Nile virus has been documented in Warren County.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a persistent pest in Bowling Green's older apartments, the food service district near Western Kentucky University, and the commercial corridors along Campbell Lane and the US 68 corridor. High student housing turnover creates seasonal introduction cycles similar to other university towns.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "Spring through fall, year-round in mild winters",
+        note: "Red imported fire ants are established in south-central Kentucky and have been documented in Warren County. University of Kentucky Extension confirms fire ants are present in the southernmost Kentucky counties, with Bowling Green near the northern edge of their established range. Mound activity is most visible in spring and fall.",
+      },
+    ],
+    localHook:
+      "Bowling Green's position in the Barren River valley at the edge of the Mammoth Cave karst region creates a pest picture that is slightly different from other Kentucky cities. The porous limestone beneath the city creates moisture infiltration pathways that termites can exploit, and the fire ant range reaches into Warren County from the south. University of Kentucky Extension documents termite pressure across the region, and the Barren River provides a long mosquito season.",
+    intro:
+      "Pest control in Bowling Green reflects Warren County's south-central Kentucky karst environment. University of Kentucky Extension confirms eastern subterranean termite pressure across the region, and the porous limestone landscape beneath the Barren River valley creates moisture conditions that make termite and moisture pest management a consistent concern. House mice are the dominant cold-season pest. Mosquitoes are active along the Barren River from April through October. German cockroaches are amplified by the Western Kentucky University student housing market, and fire ants have reached Warren County from the south.",
+    sections: [
+      {
+        heading: "Karst terrain and termite risk in Bowling Green",
+        body: "The Mammoth Cave karst region underlying Bowling Green creates a unique structural context for termite management. The porous limestone bedrock allows moisture to infiltrate foundations and crawlspaces in ways that solid rock or clay soil does not, creating the moist wood conditions that eastern subterranean termites prefer. University of Kentucky Extension confirms termite pressure across south-central Kentucky, and Bowling Green's karst setting amplifies the practical risk for older homes with crawl spaces. Annual termite inspections that also check for moisture damage at the foundation and sill plate level are the most comprehensive approach in this setting.",
+      },
+      {
+        heading: "Student housing and the cockroach cycle at WKU",
+        body: "Western Kentucky University and the large student housing market around the Hill and the WKU corridors create a pest introduction cycle similar to other university towns in Kentucky. Each August, as new tenants move into apartments and rental houses near campus, German cockroaches travel in boxes, furniture, and luggage. The older apartment buildings in the neighborhoods near WKU have the shared wall and plumbing infrastructure that allows cockroach populations to persist. Landlords who treat proactively at tenant turnover, rather than waiting for complaints, maintain lower cockroach levels in their buildings than those who respond reactively.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given UK Extension-documented termite pressure in the Barren River valley, particularly for homes with crawl spaces in the karst terrain.",
+      "Seal foundation gaps and pipe penetrations before October to intercept mice before Kentucky winter cold arrives.",
+      "Eliminate standing water from yard containers and retention areas to reduce mosquito breeding near the Barren River corridor.",
+      "Treat fire ant mounds in spring and fall for best results in Warren County's established fire ant zone.",
+    ],
+    costNote:
+      "Bowling Green pest control is typically a year-round general plan covering rodents, cockroaches, and ants, with termite inspection and fire ant treatment quoted separately. Mosquito barrier spray runs April through October. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Does the karst landscape affect termite risk in Bowling Green?",
+        answer:
+          "Yes. The porous limestone underlying the Barren River valley allows moisture to infiltrate foundations and crawlspaces, creating the damp wood conditions that subterranean termites prefer. University of Kentucky Extension confirms termite pressure across south-central Kentucky, and Bowling Green's karst setting means moisture management and termite inspection go hand in hand, particularly for older homes with crawl spaces.",
+      },
+      {
+        question: "Are fire ants present in Bowling Green?",
+        answer:
+          "Yes. Red imported fire ants are established in south-central Kentucky and have been documented in Warren County by University of Kentucky Extension. Bowling Green is near the northern edge of their established Kentucky range. Mound activity is most visible in spring and fall. Broadcast bait treatment is more effective than treating individual mounds in an established area.",
+      },
+      {
+        question: "When is mosquito season in Bowling Green?",
+        answer:
+          "April through October, with peak pressure in June through August. The Barren River and Jennings Creek create breeding habitat, and the retention features in Bowling Green's expanding suburban development add to the local pressure. West Nile virus has been documented in Warren County. Eliminating standing water and treating yard areas during peak season are the effective residential responses.",
+      },
+      {
+        question: "Why do WKU-area apartments have persistent cockroach problems?",
+        answer:
+          "High annual tenant turnover in August and September introduces German cockroaches through boxes and furniture, and the older multi-unit apartment buildings near campus have the shared wall and plumbing infrastructure that allows populations to spread between units. Coordinated building-wide treatment at tenant turnover, rather than single-unit response to complaints, is the approach that produces lasting results.",
+      },
+      {
+        question: "Are termites a real concern in Bowling Green?",
+        answer:
+          "Yes. University of Kentucky Extension confirms eastern subterranean termite pressure across south-central Kentucky including Warren County. The karst terrain's moisture conditions amplify risk for older homes with crawl spaces. Annual professional inspections are the standard precaution.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Nashville", slug: "nashville" },
+      { name: "Louisville", slug: "louisville" },
+      { name: "Owensboro", slug: "owensboro" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Bowling Green, KY | Termites, Mosquitoes & Mice",
+    metaDescription:
+      "Bowling Green pest control for subterranean termites, house mice, mosquitoes, German cockroaches and fire ants. Warren County Barren River valley karst terrain western Kentucky specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

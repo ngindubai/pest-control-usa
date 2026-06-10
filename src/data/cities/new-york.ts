@@ -640,4 +640,311 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Albany pest control for house mice, brown marmorated stink bugs, carpenter ants, German cockroaches and pavement ants. Albany County Capital Region Hudson Valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "new-rochelle",
+    name: "New Rochelle",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T2",
+    population: "~79,000",
+    county: "Westchester County",
+    climate: "cold-humid",
+    climateDriver:
+      "New Rochelle sits on Long Island Sound in southern Westchester County, where the salt water shoreline, tidal marshes, and forested parks of the lower Hudson Valley corridor create an environment with significant deer tick, mosquito, and stink bug pressure. The New York State Department of Health consistently ranks Westchester County among the highest-incidence counties for Lyme disease in the state, and the mid-Atlantic stink bug invasion zone extends firmly into the Westchester-Bronx corridor.",
+    topPests: [
+      "Deer ticks",
+      "Stink bugs",
+      "Mosquitoes",
+      "Norway rats",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, adults survive mild winter days",
+        note: "Westchester County is one of the highest Lyme disease incidence counties in New York State. The New York State Department of Health consistently reports Westchester in the top tier for tick-borne illness. New Rochelle's wooded parks, tidal marsh edges along Long Island Sound, and the suburban woodland corridors throughout the city provide prime deer tick habitat close to residential areas.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering indoors",
+        note: "The lower Hudson Valley and Westchester County are in the mid-Atlantic stink bug invasion zone. Cornell Cooperative Extension confirms stink bugs are established throughout the Hudson Valley. New Rochelle's older housing stock and proximity to the wooded parks and forest edges in Westchester County creates reliable fall invasions each September and October.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Long Island Sound's tidal marshes, Five Islands Park, Pelham Bay connections, and the Hudson River estuary corridor create mosquito habitat in and around New Rochelle. Westchester County Mosquito Control provides regional treatment. West Nile virus is monitored throughout Westchester County.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are a persistent pest in New Rochelle's urban core, downtown corridors, and the older residential neighborhoods. The Long Island Sound waterfront, the storm drain system, and food service areas in the commercial districts sustain urban rat populations. Cornell Cooperative Extension identifies Norway rats as the primary urban rat pest throughout the New York City metro suburbs.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in New Rochelle's multi-family housing, older apartment buildings, and restaurant establishments in the downtown and transit-adjacent neighborhoods. They move between units through shared plumbing voids, making building-wide treatment coordination necessary for lasting results.",
+      },
+    ],
+    localHook:
+      "New Rochelle's Long Island Sound shoreline and the wooded Westchester County landscape create one of the most active deer tick environments in the New York metro area. The New York State Department of Health places Westchester County consistently among the state's highest Lyme disease incidence counties. The same wooded character that makes New Rochelle an attractive suburb also makes it a city where tick checks after outdoor time in parks and wooded edges are a real and ongoing precaution.",
+    intro:
+      "Pest control in New Rochelle reflects Westchester County's position as one of New York State's highest Lyme disease counties. Deer ticks are the most significant public health pest concern, with the Long Island Sound shoreline parks, tidal marshes, and woodland corridors throughout the city providing prime habitat. Stink bugs are established in the lower Hudson Valley and have a reliable fall season in New Rochelle's older housing. Norway rats are a year-round urban presence. German cockroaches persist in multi-family housing, and mosquitoes are active near the Sound through summer.",
+    sections: [
+      {
+        heading: "Deer ticks in Westchester: what New Rochelle residents face",
+        body: "Westchester County is one of the most Lyme-disease-affected counties in New York State, and New Rochelle sits within that documented high-risk zone. Deer ticks are present in the wooded parks, tidal marsh edges, and shrubby areas throughout the city. Five Islands Park, Hudson Park, and the wooded residential edges throughout the city's older neighborhoods are all tick habitat. The nymph stage, active in May and June, is the most frequently responsible for human Lyme infection because nymphs are tiny and easily missed during tick checks. Professional yard treatment at lawn-to-woodland edges combined with regular tick checks after outdoor activity are the most effective risk-reduction measures. The New York State Department of Health recommends prompt removal of attached ticks within 36 hours to reduce transmission risk.",
+      },
+      {
+        heading: "Stink bugs and rats: the urban-suburban pest pair",
+        body: "New Rochelle's position in the lower Hudson Valley creates exposure to two distinct pest patterns: the mid-Atlantic stink bug fall invasion and the urban Norway rat presence common throughout the New York metro. Cornell Cooperative Extension confirms stink bugs are established throughout the Hudson Valley, and the fall aggregation period in September and October brings them to building exteriors in New Rochelle's older neighborhoods, where gaps around windows, soffits, and utility lines give them entry. Simultaneously, Norway rats are a year-round urban pest in the downtown corridors and older residential blocks, sustained by the food service industry, the storm drain system, and the waterfront. Both require separate management approaches: stink bugs through building exclusion, rats through structural sealing and baiting.",
+      },
+    ],
+    prevention: [
+      "Perform tick checks after time in New Rochelle's wooded parks, tidal marshes, and yard edges given Westchester County's documented high Lyme disease risk.",
+      "Seal exterior gaps around windows, soffits, and utility lines before September to reduce stink bug entry from the Hudson Valley corridor.",
+      "Secure garbage containers and seal foundation gaps to reduce Norway rat access in older residential and commercial neighborhoods.",
+      "Remove standing water from yard containers and maintain gutters to reduce mosquito breeding near Long Island Sound.",
+    ],
+    costNote:
+      "New Rochelle pest control is typically structured as a year-round general plan for rodents and cockroaches, with tick treatment and stink bug exclusion available seasonally. A free inspection establishes current activity before any plan is proposed.",
+    faqs: [
+      {
+        question: "How serious is the Lyme disease risk in New Rochelle?",
+        answer:
+          "Very serious. The New York State Department of Health consistently ranks Westchester County among the state's highest-incidence counties for Lyme disease. New Rochelle's proximity to tidal marshes, wooded parks, and the Long Island Sound shoreline creates prime deer tick habitat throughout the city. Regular tick checks and professional yard treatment at wooded edges are the recommended practices.",
+      },
+      {
+        question: "When do stink bugs invade homes in New Rochelle?",
+        answer:
+          "The fall aggregation period runs September through November, with peak entry in October. Cornell Cooperative Extension confirms stink bugs are established throughout the Hudson Valley. They aggregate on warm south and west-facing exteriors before entering through gaps. Sealing gaps in August, before they start looking for overwintering sites, is the most effective prevention.",
+      },
+      {
+        question: "Are Norway rats common in New Rochelle?",
+        answer:
+          "Yes, in the urban core and older residential neighborhoods. Norway rats are the primary urban rat throughout the New York metro area, sustained by food service waste, the storm drain system, and the waterfront. Cornell Cooperative Extension identifies them as the primary urban rodent pest throughout the metro suburbs. Effective management combines structural sealing, garbage management, and professional baiting.",
+      },
+      {
+        question: "When is mosquito season near Long Island Sound in New Rochelle?",
+        answer:
+          "May through September, with peak pressure in July and August near the tidal marshes and Sound shoreline. Westchester County Mosquito Control provides regional treatment. West Nile virus is monitored throughout the county. Properties near tidal marsh edges see more concentrated pressure than inland neighborhoods.",
+      },
+      {
+        question: "How do German cockroaches spread in New Rochelle apartment buildings?",
+        answer:
+          "Through shared plumbing voids and wall cavities between units. Treating a single apartment in an older New Rochelle building leaves populations in adjacent units that re-colonize within weeks. Building-wide coordinated treatment is necessary for lasting results. In multi-unit buildings with recurring cockroach problems, a building-wide bait treatment coordinated by the property manager is the effective approach.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Yonkers", slug: "yonkers" },
+      { name: "White Plains", slug: "white-plains" },
+      { name: "New York City", slug: "new-york-city" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in New Rochelle, NY | Deer Ticks, Stink Bugs & Rats",
+    metaDescription:
+      "New Rochelle pest control for deer ticks, stink bugs, mosquitoes, Norway rats and German cockroaches. Westchester County Long Island Sound Lyme disease risk specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mount-vernon",
+    name: "Mount Vernon",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~68,000",
+    county: "Westchester County",
+    climate: "cold-humid",
+    climateDriver:
+      "Mount Vernon is the southernmost city in Westchester County, directly adjacent to the Bronx, where the suburban character of the lower Hudson Valley transitions to the dense urban landscape of New York City. The Hutchinson River and the Bronx River tributaries run through the area. Westchester County's documented high Lyme disease incidence extends into Mount Vernon's wooded edges, and the mid-Atlantic stink bug invasion zone covers the entire lower Hudson Valley.",
+    topPests: [
+      "Norway rats",
+      "German cockroaches",
+      "Deer ticks",
+      "Stink bugs",
+      "Bed bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Mount Vernon's urban density and adjacency to the Bronx create the conditions for persistent Norway rat pressure. The Hutchinson River corridor, the storm drain system, and food waste in commercial areas sustain rat populations year-round. Cornell Cooperative Extension identifies Norway rats as the primary urban rat throughout the New York metro area.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a persistent pest in Mount Vernon's apartment buildings and food service establishments. The dense urban housing stock, with shared walls and plumbing voids, allows populations to spread between units. Multi-unit building-wide treatment coordination is necessary for lasting results.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November",
+        note: "Westchester County's documented high Lyme disease incidence extends into Mount Vernon's wooded parks and brushy edges. The New York State Department of Health places Westchester consistently among the state's highest Lyme incidence counties. The Hutchinson River corridor and the wooded areas in Fleetwood and Eastchester adjacent areas provide tick habitat.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "The lower Hudson Valley and Westchester County are in the established stink bug invasion zone. Cornell Cooperative Extension confirms stink bugs are present throughout the region. Fall entry into older buildings in Mount Vernon is a regular seasonal occurrence.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a documented urban pest in New York metro area cities. Dense housing, high resident turnover, and the movement of people and furniture through public transit corridors create conditions for bed bug spread in Mount Vernon's apartment buildings.",
+      },
+    ],
+    localHook:
+      "Mount Vernon's position at the Westchester-Bronx border creates a pest picture that combines the urban density of New York City with the suburban Westchester County tick and stink bug environment. Norway rats are a year-round urban reality, cockroaches persist in the dense apartment stock, and deer ticks are documented in the wooded edges of Westchester County's highest Lyme incidence zone.",
+    intro:
+      "Pest control in Mount Vernon reflects the transition between urban New York City and suburban Westchester County. Norway rats and German cockroaches are the dominant year-round urban pests in the dense apartment and commercial building stock. Deer ticks are established in the wooded edges of Westchester County, one of New York State's highest Lyme disease counties. Stink bugs invade from the Hudson Valley corridor each fall, and bed bugs are a documented urban housing concern.",
+    sections: [
+      {
+        heading: "Urban rodents and cockroaches at the Westchester-Bronx edge",
+        body: "Mount Vernon's position adjacent to the Bronx means it shares the urban pest pressure common throughout the New York City metro. Norway rats are sustained by the food service industry, storm drain system, and the Hutchinson River corridor. German cockroaches spread through the older apartment stock through shared plumbing voids. Both require coordinated building-level management rather than individual unit responses. Cornell Cooperative Extension identifies Norway rats as the primary urban rodent throughout the New York metro suburbs, and the dense housing characteristic of Mount Vernon provides ideal conditions for both pests to persist.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and secure garbage containers to reduce Norway rat access and food sources.",
+      "Coordinate German cockroach treatment across adjacent apartment units for lasting results in older Mount Vernon buildings.",
+      "Perform tick checks after time in Westchester County's wooded parks and brushy edges given the county's documented high Lyme incidence.",
+      "Seal exterior gaps before September to reduce stink bug entry from the Hudson Valley corridor.",
+    ],
+    costNote:
+      "Mount Vernon pest control is typically a recurring general plan for rodents and cockroaches, with separate pricing for bed bug treatment and tick service. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Are Norway rats common in Mount Vernon?",
+        answer:
+          "Yes. Mount Vernon's urban density, the Hutchinson River corridor, and the food service industry create conditions for persistent Norway rat pressure. Cornell Cooperative Extension identifies Norway rats as the primary urban rodent throughout the New York metro area. Structural sealing and garbage management are the foundation of any effective program.",
+      },
+      {
+        question: "Are deer ticks a concern in Mount Vernon?",
+        answer:
+          "Yes, in the wooded parks and brushy areas. The New York State Department of Health places Westchester County among the state's highest Lyme disease incidence counties, and that risk extends into Mount Vernon's wooded and transitional edges. Tick checks after outdoor activity in wooded or brushy areas are the most effective personal precaution.",
+      },
+      {
+        question: "How do I get rid of German cockroaches in my Mount Vernon apartment?",
+        answer:
+          "Gel bait treatment in the specific harborage points is more effective than spray: behind the refrigerator, under the stove, inside cabinet hinges, and along plumbing voids. In multi-unit buildings, coordinating treatment across adjacent units prevents re-infestation from untreated spaces. If your landlord is only treating individual units without addressing the building, ask about a building-wide approach.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Yonkers", slug: "yonkers" },
+      { name: "New Rochelle", slug: "new-rochelle" },
+      { name: "New York City", slug: "new-york-city" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Mount Vernon, NY | Rats, Cockroaches & Deer Ticks",
+    metaDescription:
+      "Mount Vernon NY pest control for Norway rats, German cockroaches, deer ticks, stink bugs and bed bugs. Westchester County Bronx border New York specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "schenectady",
+    name: "Schenectady",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~66,000",
+    county: "Schenectady County",
+    climate: "cold-humid",
+    climateDriver:
+      "Schenectady sits on the Mohawk River in the Capital Region of upstate New York, west of Albany. The Mohawk River valley's humid conditions support mosquito breeding and moderate termite pressure. The mid-Atlantic stink bug invasion zone extends into the Capital Region, and cold upstate New York winters drive mice into the city's older industrial-era housing. Cornell Cooperative Extension documents both stink bug establishment and rodent pressure throughout the Capital Region.",
+    topPests: [
+      "House mice",
+      "Stink bugs",
+      "German cockroaches",
+      "Subterranean termites",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through April",
+        note: "Schenectady winters are cold with significant snowfall. House mice push into the city's older industrial-era housing from September. The older rowhouses and multi-family buildings in the Stockade Historic District and the adjacent neighborhoods have the foundation gaps and pipe penetrations that give mice ready access.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering indoors",
+        note: "Cornell Cooperative Extension confirms brown marmorated stink bugs are established throughout the Hudson Valley and Capital Region. Schenectady's position in the Capital Region corridor means fall aggregations on building exteriors and entry into structures are a regular seasonal occurrence in the older housing stock.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a persistent pest in Schenectady's multi-family housing and food service establishments. The older building stock in the city's established neighborhoods has the shared wall infrastructure that allows cockroach populations to persist and spread.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Cornell Cooperative Extension confirms eastern subterranean termite pressure is present in the Capital Region including Schenectady County. The Mohawk River valley's humid conditions and Schenectady's older housing stock create exposure, particularly in homes with crawl spaces.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Mohawk River, Binnekill Creek, and the retention areas throughout the Capital Region create mosquito breeding habitat. West Nile virus has been documented in Schenectady County. The season is active through summer with peak pressure in July and August.",
+      },
+    ],
+    localHook:
+      "Schenectady's Mohawk River valley position in the Capital Region brings together several seasonal pest concerns that the city's older industrial housing stock concentrates: mice pushing in from the cold, stink bugs from the Hudson Valley corridor, and cockroaches in the older multi-family buildings. The Mohawk River also creates a solid summer mosquito season.",
+    intro:
+      "Pest control in Schenectady reflects the Mohawk River valley's Capital Region environment. House mice are the dominant cold-season pest in the older industrial-era housing. Stink bugs are documented throughout the region by Cornell Cooperative Extension with fall invasions a regular annual occurrence. German cockroaches persist in the multi-family housing stock. Termites are present in the valley, and mosquitoes are active along the Mohawk River through summer.",
+    sections: [
+      {
+        heading: "Mice and stink bugs in the Mohawk Valley",
+        body: "Schenectady's fall pest season follows a predictable pattern. As temperatures cool in September, brown marmorated stink bugs aggregate on the south and west-facing walls of the older housing stock in the Stockade Historic District and the surrounding neighborhoods, entering through window gaps, utility penetrations, and eaves. Simultaneously, house mice push into heated buildings through the foundation cracks and door gaps common in century-old Schenectady housing. Sealing the building envelope in August addresses both: the same gaps that give mice entry in fall give stink bugs entry too. Cornell Cooperative Extension confirms both pests are established and cause regular annual issues throughout the Capital Region.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps around windows, soffits, foundation cracks, and pipe penetrations before September to reduce both stink bug and mouse entry.",
+      "Schedule annual termite inspections for older Schenectady housing given Capital Region termite pressure documented by Cornell Cooperative Extension.",
+      "Coordinate German cockroach treatment across adjacent units in the older multi-family buildings.",
+    ],
+    costNote:
+      "Schenectady pest control is typically a recurring general plan with termite inspection quoted separately. A free assessment is the starting point.",
+    faqs: [
+      {
+        question: "Are stink bugs a problem in Schenectady?",
+        answer:
+          "Yes. Cornell Cooperative Extension confirms brown marmorated stink bugs are established throughout the Hudson Valley and Capital Region including Schenectady County. Fall aggregations on building exteriors and entry into older structures are a regular annual event. Sealing gaps before September is the most effective prevention.",
+      },
+      {
+        question: "When do mice become a problem in Schenectady homes?",
+        answer:
+          "September through April. Upstate New York cold drives house mice into heated buildings from fall. The older housing in Schenectady's historic neighborhoods has the gaps and settling that provide access. Fall exclusion work sealing these entry points is the most cost-effective prevention.",
+      },
+      {
+        question: "Are termites present in Schenectady?",
+        answer:
+          "Yes. Cornell Cooperative Extension documents eastern subterranean termite pressure in the Capital Region. The Mohawk River valley's humid conditions and older housing stock create exposure. Annual professional inspections are the standard precaution, particularly for older homes with crawl spaces.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Albany", slug: "albany" },
+      { name: "Troy", slug: "troy-ny" },
+      { name: "Saratoga Springs", slug: "saratoga-springs" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Schenectady, NY | Mice, Stink Bugs & Cockroaches",
+    metaDescription:
+      "Schenectady pest control for house mice, stink bugs, German cockroaches, subterranean termites and mosquitoes. Schenectady County Mohawk River Capital Region upstate New York specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

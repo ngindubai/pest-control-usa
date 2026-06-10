@@ -764,4 +764,311 @@ export const ohioCities: CityLocation[] = [
     metaDescription:
       "Hamilton pest control for house mice, German cockroaches, stink bugs, carpenter ants and mosquitoes. Butler County Great Miami River valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "youngstown",
+    name: "Youngstown",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T2",
+    population: "~60,000",
+    county: "Mahoning County",
+    climate: "cold-humid",
+    climateDriver:
+      "Youngstown sits in the Mahoning River valley in northeastern Ohio, in the Rust Belt corridor shared with western Pennsylvania. The city's cold lake-effect winters drive mice into the older housing stock aggressively from October. The Mahoning River valley's humid conditions support termite activity and a reliable stink bug fall season in the mid-Atlantic spillover zone. Youngstown's large stock of aging industrial-era housing creates persistent rodent and cockroach pressure.",
+    topPests: [
+      "House mice",
+      "Norway rats",
+      "Stink bugs",
+      "German cockroaches",
+      "Subterranean termites",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through April",
+        note: "Youngstown winters are cold and long, with lake-effect snow amplifying the cold season. House mice push into the city's older housing stock from October and remain active through the winter. Ohio State University Extension identifies house mice as the primary urban rodent concern throughout northeastern Ohio. Youngstown's large inventory of aging pre-1950s housing provides ready access points.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are a persistent pest in Youngstown's older commercial and residential areas. The Mahoning River corridor and the city's legacy industrial sites provide harborage. Norway rats burrow under foundations and pavements and are drawn to food waste near commercial establishments.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering indoors",
+        note: "The mid-Atlantic stink bug invasion zone extends into northeastern Ohio through the Pennsylvania-Ohio border corridor. Ohio State University Extension confirms stink bugs are established throughout Ohio, and the Youngstown-Mahoning County area experiences fall invasions from the east as the insects seek overwintering sites. The older housing stock provides the gaps they need.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a persistent pest in Youngstown's multi-family housing, food establishments, and commercial buildings. The older building stock, with shared plumbing voids and aging infrastructure, allows colonies to persist and spread between units. Gel bait treatment coordinated across adjacent units is the effective approach.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Ohio State University Extension confirms eastern subterranean termite pressure throughout northeastern Ohio including Mahoning County. Youngstown's older industrial-era housing, much of it built in the early 20th century, carries real termite exposure, particularly homes with crawl spaces or wood near soil contact.",
+      },
+    ],
+    localHook:
+      "Youngstown's older housing stock is part of what shapes its pest picture. The city's inventory of early 20th-century homes provides the gaps and moisture vulnerabilities that rodents and termites need. Lake-effect winters drive mice hard into buildings from October, and the Pennsylvania border corridor brings stink bugs into the Mahoning Valley each fall.",
+    intro:
+      "Pest control in Youngstown reflects the Mahoning River valley's northeastern Ohio industrial-era landscape. House mice and Norway rats are the primary rodent concerns in a city with abundant older housing and a Mahoning River corridor that provides year-round harborage. Brown marmorated stink bugs extend their invasion range into Youngstown from the Pennsylvania border each fall. German cockroaches persist in the older multi-family housing, and subterranean termites are documented throughout Mahoning County by Ohio State University Extension.",
+    sections: [
+      {
+        heading: "Rodents in Youngstown's older housing stock",
+        body: "Youngstown's stock of older pre-1950s housing is the primary factor in the city's rodent picture. House mice push into buildings from October as lake-effect cold arrives, finding access through the foundation cracks, pipe penetrations, and settling around door sills common in early 20th-century construction. Norway rats are a secondary concern in the commercial corridors and near the Mahoning River, where they burrow under paving and foundations. Ohio State University Extension confirms mice as the primary urban rodent throughout northeastern Ohio. Exclusion work, identifying and sealing entry points before October, is the most cost-effective approach for Youngstown's older homes.",
+      },
+      {
+        heading: "Stink bugs from the Pennsylvania border",
+        body: "The brown marmorated stink bug invasion zone extends westward from its Pennsylvania origin point, and Ohio State University Extension confirms that northeastern Ohio, including Mahoning County, sees fall invasions each year. Youngstown's proximity to the Pennsylvania border means the stink bug pressure here is closer to what western Pennsylvania experiences than what central or western Ohio sees. The insects aggregate on south and west-facing building exteriors in September and October before entering through gaps around windows, soffits, and utility lines. Sealing those entry points before September reduces the number that get inside.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and door sills before October to intercept mice during the lake-effect cold season.",
+      "Schedule annual termite inspections for Youngstown's older pre-1950s housing given documented Mahoning County termite pressure.",
+      "Seal exterior gaps around windows and soffits before September to reduce stink bug entry from the Pennsylvania border corridor.",
+      "Coordinate German cockroach treatment across adjacent units in multi-family buildings to prevent re-infestation.",
+    ],
+    costNote:
+      "Youngstown pest control is typically structured as a recurring general plan for rodents and cockroaches, with termite inspection quoted separately. Stink bug exclusion work is most effective done in August. A free inspection establishes current activity before any plan is proposed.",
+    faqs: [
+      {
+        question: "Why do mice get into Youngstown homes every fall?",
+        answer:
+          "Youngstown's older housing stock provides the access points, and lake-effect winters provide the motivation. House mice push into heated buildings from October as temperatures drop. The pre-1950s homes common in Youngstown have the foundation cracks, pipe gaps, and settled framing that give mice ready access. Exclusion work sealing these points before October is the most effective prevention.",
+      },
+      {
+        question: "Are Norway rats different from house mice in Youngstown?",
+        answer:
+          "Yes. Norway rats are significantly larger, burrow under foundations, and prefer ground-level access. They are more common near the Mahoning River corridor and in older commercial areas. House mice are smaller, climb readily, and are the more common residential pest throughout Youngstown's neighborhoods. Both are managed through exclusion and trapping, but the treatment approach differs based on species.",
+      },
+      {
+        question: "Do stink bugs actually invade in Youngstown, or is that a Pennsylvania thing?",
+        answer:
+          "They invade in Youngstown too. Ohio State University Extension confirms brown marmorated stink bugs are established throughout Ohio, and Mahoning County's proximity to the Pennsylvania border means northeastern Ohio experiences fall pressure similar to western Pennsylvania. Annual fall invasions into older buildings are a documented pattern in the Youngstown-Mahoning Valley area.",
+      },
+      {
+        question: "Are termites a concern in Youngstown's older homes?",
+        answer:
+          "Yes. Ohio State University Extension confirms eastern subterranean termite pressure throughout northeastern Ohio including Mahoning County. Youngstown's older housing, particularly pre-1940s construction with crawl spaces or wood near soil, carries documented exposure. Annual professional inspections are the standard precaution.",
+      },
+      {
+        question: "How do I stop German cockroaches from coming back after treatment?",
+        answer:
+          "In Youngstown's older multi-family buildings, German cockroaches spread between units through shared plumbing voids and wall cavities. Treating a single unit leaves populations in adjacent spaces that re-colonize within weeks. Effective control requires coordinating treatment across all connected units simultaneously. If you rent and are dealing with recurring cockroaches, contact your landlord about a building-wide treatment program.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Akron", slug: "akron" },
+      { name: "Cleveland", slug: "cleveland" },
+      { name: "Pittsburgh", slug: "pittsburgh" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Youngstown, OH | Mice, Rats & Stink Bugs",
+    metaDescription:
+      "Youngstown pest control for house mice, Norway rats, stink bugs, German cockroaches and subterranean termites. Mahoning County Rust Belt northeast Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "parma",
+    name: "Parma",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~78,000",
+    county: "Cuyahoga County",
+    climate: "cold-humid",
+    climateDriver:
+      "Parma is a large suburban city just south of Cleveland in Cuyahoga County, sitting in the Lake Erie snow belt where lake-effect winters are cold and persistent. The Big Creek and the Rocky River tributaries flow through the area, creating mosquito habitat in the valley bottoms. Ohio State University Extension confirms stink bug establishment throughout Ohio including the Cleveland-Cuyahoga corridor.",
+    topPests: [
+      "House mice",
+      "Stink bugs",
+      "German cockroaches",
+      "Mosquitoes",
+      "Carpenter ants",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through April",
+        note: "Parma winters are cold with significant lake-effect snow. House mice push into the city's 1950s and 1960s-era ranch and Cape Cod housing from October. The settled construction in Parma's older suburban housing provides foundation gaps and door gaps that give mice access.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Ohio State University Extension confirms stink bugs are established throughout Ohio. Parma's position in the Cleveland-Cuyahoga corridor means fall invasions are a regular seasonal event. The surrounding suburban tree cover provides the overwintering habitat from which stink bugs move toward buildings.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Parma's apartment complexes and multi-family housing. The older 1950s and 1960s construction in Parma's suburban neighborhoods has the shared-wall infrastructure that allows cockroach populations to persist.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Big Creek and the Rocky River watershed create mosquito breeding habitat in Parma's valley areas. The wet lake-effect climate sustains standing water longer than drier regions. West Nile virus is monitored in Cuyahoga County.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoor colonies active year-round",
+        note: "Carpenter ants are a consistent wood pest concern in Parma's older suburban housing. The moisture exposure from lake-effect snow and the aging window frames and decks in mid-century ranch homes create the conditions carpenter ants prefer.",
+      },
+    ],
+    localHook:
+      "Parma's mid-century suburban housing and the lake-effect climate create a predictable pest rhythm. Mice push in every fall as lake-effect cold arrives. Stink bugs are established in the Cuyahoga corridor. The Big Creek valley creates a mosquito season that the surrounding suburban development concentrates.",
+    intro:
+      "Pest control in Parma follows the rhythms of Cleveland's Lake Erie snow belt. House mice are the dominant fall and winter pest in the mid-century suburban housing. Stink bugs are documented throughout Ohio by Ohio State University Extension and have a fall season in the Cuyahoga corridor. German cockroaches persist in multi-family housing, mosquitoes peak in the Big Creek and Rocky River valley areas, and carpenter ants target the moisture-exposed older construction.",
+    sections: [
+      {
+        heading: "Lake-effect cold and the mouse season in Parma",
+        body: "Parma's lake-effect winters start early and last long. House mice push into the mid-century ranch and Cape Cod homes from October, finding access through foundation cracks, gaps around pipe penetrations, and the settling around garage doors that is common in 1950s and 1960s construction. Ohio State University Extension identifies house mice as the primary urban rodent concern throughout the Cleveland-Cuyahoga corridor. A fall exclusion inspection that identifies and seals entry points before cold weather arrives is the most cost-effective prevention. Snap traps placed inside along the foundation perimeter provide early detection for any mice that get through before exclusion work is complete.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and pipe penetrations before October to intercept mice during the lake-effect cold season.",
+      "Seal exterior gaps around windows and soffits before September to reduce stink bug entry.",
+      "Repair moisture damage around windows, decks, and plumbing to reduce carpenter ant access in older ranch-style homes.",
+      "Remove standing water from yard areas after rain to reduce mosquito breeding near Big Creek and Rocky River tributary areas.",
+    ],
+    costNote:
+      "Parma pest control is typically a recurring general plan with carpenter ant treatment quoted after inspection. A free assessment is the starting point.",
+    faqs: [
+      {
+        question: "When do mice become a problem in Parma homes?",
+        answer:
+          "October through April is the peak period. Lake-effect cold drives house mice into heated buildings early in Parma. The mid-century housing stock in the area has the foundation gaps and door sills that give mice access. Sealing entry points before October is the most effective prevention.",
+      },
+      {
+        question: "Are stink bugs a problem in Parma?",
+        answer:
+          "Yes. Ohio State University Extension confirms brown marmorated stink bugs are established throughout Ohio including Cuyahoga County. Fall invasions into suburban homes along the Cleveland corridor are a regular annual event. Sealing window gaps and attic vents before September reduces the number that get inside.",
+      },
+      {
+        question: "Why do I have carpenter ants in my Parma home?",
+        answer:
+          "Carpenter ants colonize moist or softened wood. Parma's lake-effect climate exposes older ranch and Cape Cod homes to sustained moisture through extended snow seasons. Window frames, sill plates, and deck ledgers that have absorbed moisture over years are prime targets. Finding large black ants indoors in spring is the early sign; finding them in winter suggests an established indoor colony. A professional inspection locates both the colony and the moisture source.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Cleveland", slug: "cleveland" },
+      { name: "Akron", slug: "akron" },
+      { name: "Youngstown", slug: "youngstown" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Parma, OH | Mice, Stink Bugs & Carpenter Ants",
+    metaDescription:
+      "Parma OH pest control for house mice, stink bugs, German cockroaches, mosquitoes and carpenter ants. Cuyahoga County Cleveland suburb lake-effect specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "canton",
+    name: "Canton",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~70,000",
+    county: "Stark County",
+    climate: "cold-humid",
+    climateDriver:
+      "Canton sits in Stark County in northeastern Ohio, home of the Pro Football Hall of Fame, in the Tuscarawas River watershed. The area receives lake-effect moisture from Lake Erie to the north, and the Nimishillen Creek and Tuscarawas River drainage create mosquito habitat. Ohio State University Extension documents termite and stink bug pressure throughout northeastern Ohio including Stark County.",
+    topPests: [
+      "House mice",
+      "Subterranean termites",
+      "Stink bugs",
+      "German cockroaches",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through April",
+        note: "Canton's cold winters drive house mice into the older housing stock from October. Stark County's mix of older urban homes and surrounding agricultural land creates both the urban mouse population and field mouse pressure at the residential edges.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Ohio State University Extension confirms eastern subterranean termite pressure throughout northeastern Ohio including Stark County. Canton's older housing stock, with its mix of early 20th-century homes and Rust Belt-era construction, carries termite exposure, particularly in homes with crawl spaces.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Ohio State University Extension confirms stink bugs are established throughout Ohio. Stark County's position in northeastern Ohio, with proximity to the Pennsylvania border and the mid-Atlantic stink bug zone, means fall invasions are a documented annual event.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Canton's apartment stock and food service establishments. Gel bait coordinated across adjacent units is the effective treatment in multi-family housing.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Nimishillen Creek and Tuscarawas River watershed create mosquito breeding habitat throughout the Canton area. West Nile virus has been monitored in Stark County mosquito populations.",
+      },
+    ],
+    localHook:
+      "Canton's northeastern Ohio position brings lake-effect moisture, cold winters that drive mice hard into older housing, and a stink bug fall season that extends from the Pennsylvania border. The Nimishillen Creek and the Tuscarawas watershed create a solid mosquito season through summer.",
+    intro:
+      "Pest control in Canton follows the Stark County northeastern Ohio pattern: house mice push into older housing each fall, stink bugs arrive from the Pennsylvania corridor, termites are documented throughout the county by Ohio State University Extension, and mosquitoes are active along the Nimishillen Creek and Tuscarawas watershed through summer.",
+    sections: [
+      {
+        heading: "Mice, termites, and stink bugs: Canton's pest calendar",
+        body: "Canton's pest season runs in three overlapping rhythms. In fall, house mice push into the older urban housing stock as temperatures drop, and stink bugs aggregate on building exteriors before entering through gaps around windows and soffits. In spring, eastern subterranean termite swarms, documented by Ohio State University Extension throughout Stark County, signal colonies that may have been active for years in the older home inventory. Year-round, German cockroaches persist in multi-family housing. Understanding the sequence helps prioritize: seal the building envelope in August before both the stink bug and mouse seasons arrive, and schedule a termite inspection in spring when swarm activity makes any new activity visible.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps before September to reduce both stink bug and mouse entry in the fall.",
+      "Schedule annual termite inspections for Canton's older housing given Ohio State-documented Stark County termite pressure.",
+      "Remove standing water from yard areas after rain to reduce mosquito breeding near Nimishillen Creek.",
+    ],
+    costNote:
+      "Canton pest control is typically a recurring general plan with termite inspection quoted separately. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Do Canton homes need annual termite inspections?",
+        answer:
+          "Yes, particularly for older homes. Ohio State University Extension confirms eastern subterranean termite pressure throughout Stark County. Canton's inventory of early 20th-century homes with crawl spaces carries real exposure. Annual inspections catch activity before structural damage accumulates.",
+      },
+      {
+        question: "When do stink bugs invade Canton homes?",
+        answer:
+          "September through November, with peak entry in October. Ohio State University Extension confirms stink bugs are established throughout northeastern Ohio. Stark County's proximity to the Pennsylvania border puts it close to the core invasion zone. Sealing gaps around windows, soffits, and utility lines before September reduces entry.",
+      },
+      {
+        question: "Why are mice a bigger problem in some Canton neighborhoods than others?",
+        answer:
+          "Older housing stock creates more access. The pre-1950s homes in Canton's established neighborhoods have foundation cracks, pipe gaps, and door sills that give mice entry points that newer construction typically does not. Agricultural land at the city's edges also contributes field mouse pressure to homes on those margins.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Akron", slug: "akron" },
+      { name: "Youngstown", slug: "youngstown" },
+      { name: "Cleveland", slug: "cleveland" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Canton, OH | Mice, Termites & Stink Bugs",
+    metaDescription:
+      "Canton pest control for house mice, subterranean termites, stink bugs, German cockroaches and mosquitoes. Stark County Tuscarawas River northeast Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

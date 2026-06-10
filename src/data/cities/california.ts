@@ -7179,4 +7179,200 @@ export const californiaCities: CityLocation[] = [
     metaDescription:
       "Richmond pest control for Norway rats, Argentine ants, German cockroaches, fleas and bed bugs. Contra Costa County Port of Richmond San Francisco Bay shoreline specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "el-cajon",
+    name: "El Cajon",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~103,000",
+    county: "San Diego County",
+    climate: "mediterranean",
+    climateDriver:
+      "El Cajon sits in the Cajon Valley about 15 miles east of downtown San Diego, where the coastal marine layer gives way to a hotter, drier inland valley climate. The valley position concentrates heat, creating conditions where scorpions, roof rats, and Argentine ants thrive. UC San Diego's urban landscape research and UC Cooperative Extension confirm that El Cajon's inland valley setting intensifies pest pressure beyond what coastal San Diego neighborhoods experience, with scorpion and roof rat activity particularly notable in the hillside and canyon-edge neighborhoods.",
+    topPests: [
+      "Argentine ants",
+      "Roof rats",
+      "German cockroaches",
+      "Scorpions",
+      "Subterranean termites",
+    ],
+    pestProfile: [
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak summer and after rain",
+        note: "Argentine ants are the dominant outdoor-to-indoor ant throughout San Diego County. UC Cooperative Extension confirms they form supercolonies throughout urban Southern California. El Cajon's warm valley climate keeps colonies continuously active. They push inside during summer heat and after significant rain events.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are the primary rodent pest in El Cajon and throughout urban San Diego County. The mature citrus trees, avocados, and the native vegetation in the canyon edges throughout El Cajon's hillside neighborhoods provide food sources and travel routes to rooflines. UC Cooperative Extension documents roof rats as the primary urban rat in Southern California.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a year-round indoor pest in El Cajon's apartment buildings and food service establishments along the Main Street and Magnolia Avenue corridors. The warm climate keeps them continuously active.",
+      },
+      {
+        name: "Scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Active spring through fall, can be found year-round in warm locations",
+        note: "The striped bark scorpion is present in El Cajon and the eastern San Diego County communities. UC Cooperative Extension documents scorpions in the canyon-edge and hillside neighborhoods throughout the Cajon Valley. El Cajon's hotter inland climate and proximity to native desert habitat makes scorpion encounters more common than in coastal San Diego neighborhoods.",
+      },
+      {
+        name: "Drywood and subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colonies, swarms spring through fall",
+        note: "UC Cooperative Extension confirms both drywood and subterranean termite pressure throughout San Diego County. El Cajon's warm inland valley climate accelerates termite activity. Annual inspections are the standard in the county.",
+      },
+    ],
+    localHook:
+      "El Cajon's inland valley position and hotter climate compared to coastal San Diego intensifies several pest pressures. Scorpions are more commonly encountered in El Cajon's canyon-edge neighborhoods than in the coastal communities. Roof rats use the citrus trees and avocados common in the Cajon Valley as a food source and travel route. Argentine ants are a year-round presence in the warm valley climate.",
+    intro:
+      "Pest control in El Cajon reflects the Cajon Valley's warm inland San Diego County setting. Argentine ants are the dominant year-round indoor nuisance pest. Roof rats are documented throughout the urban Southern California landscape by UC Cooperative Extension and use the mature citrus and canyon vegetation as a food network. Scorpions are a notable concern in the hotter inland valley and canyon-edge neighborhoods. German cockroaches and termites complete the year-round pest picture.",
+    sections: [
+      {
+        heading: "Scorpions and roof rats in El Cajon's canyon neighborhoods",
+        body: "El Cajon's hotter inland valley position and the canyon edges throughout the hillside neighborhoods create conditions for two pests that are more prominent here than in coastal San Diego. Scorpions, particularly the striped bark scorpion documented by UC Cooperative Extension throughout eastern San Diego County, are more commonly encountered near the canyon margins, in older block wall construction, and in wood piles and debris near homes in El Cajon. Sealing entry points at the foundation level and removing harborage near the structure reduces encounters. Roof rats use the mature citrus trees, avocado trees, and the dense native vegetation in the canyon edges as a food source and highway to rooflines. Trimming fruit trees away from the structure and sealing roofline gaps are the foundation of effective exclusion.",
+      },
+    ],
+    prevention: [
+      "Trim citrus and fruit trees away from the roofline and seal attic vents to reduce roof rat access routes.",
+      "Seal foundation gaps and exterior cracks to reduce scorpion entry, particularly in canyon-edge El Cajon neighborhoods.",
+      "Use slow-acting bait for Argentine ants rather than contact spray, which disperses the supercolony without eliminating it.",
+      "Schedule annual termite inspections given UC Cooperative Extension-documented dual-species termite pressure in San Diego County.",
+    ],
+    costNote:
+      "El Cajon pest control is typically a year-round general plan covering ants, cockroaches, and rodents, with termite inspection and scorpion treatment available separately. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Are scorpions common in El Cajon?",
+        answer:
+          "More so than in coastal San Diego. UC Cooperative Extension documents scorpion presence throughout eastern San Diego County, and El Cajon's hotter inland valley climate and proximity to the canyon edges creates more encounters than the marine-influenced coastal communities. Sealing foundation cracks and removing harborage near the structure are the most effective prevention steps.",
+      },
+      {
+        question: "Why do Argentine ants keep coming back in my El Cajon home?",
+        answer:
+          "Argentine ants form supercolonies throughout urban Southern California that are extraordinarily large and persistent. Contact spray kills foragers but does not affect the queens or the colony. Slow-acting bait that workers carry back to the colony is the effective treatment. The warm El Cajon valley climate keeps colonies active year-round, so treatment needs to be maintained rather than applied once.",
+      },
+      {
+        question: "How do roof rats get into El Cajon homes?",
+        answer:
+          "Roof rats are climbers. UC Cooperative Extension confirms they use citrus trees, avocados, live oaks, and overhead utility lines as travel routes to reach rooflines. They enter through gaps in attic vents, damaged soffits, and any roofline opening. Trimming trees 18 inches from the structure and sealing roofline gaps are the primary prevention steps.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "San Diego", slug: "san-diego" },
+      { name: "Santee", slug: "santee" },
+      { name: "Chula Vista", slug: "chula-vista" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in El Cajon, CA | Argentine Ants, Roof Rats & Scorpions",
+    metaDescription:
+      "El Cajon pest control for Argentine ants, roof rats, German cockroaches, scorpions and termites. San Diego County Cajon Valley inland Southern California specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "santa-maria",
+    name: "Santa Maria",
+    state: "California",
+    stateSlug: "california",
+    stateAbbr: "CA",
+    tier: "T3",
+    population: "~108,000",
+    county: "Santa Barbara County",
+    climate: "mediterranean",
+    climateDriver:
+      "Santa Maria sits in the Santa Maria Valley in northern Santa Barbara County, where the transverse valleys that run east-west create a unique climate corridor. The valley floor is warmer and drier than the coast, and the Santa Maria River and the surrounding agricultural land, including extensive strawberry and vegetable fields, create conditions that sustain high gopher, vole, and rodent populations that affect the urban-agricultural edge. UC Cooperative Extension documents Argentine ant and termite pressure throughout the Central Coast region.",
+    topPests: [
+      "Argentine ants",
+      "Subterranean termites",
+      "Roof rats",
+      "German cockroaches",
+      "Gophers",
+    ],
+    pestProfile: [
+      {
+        name: "Argentine ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak summer and after winter rain",
+        note: "Argentine ants are the dominant outdoor-to-indoor ant throughout Santa Barbara County. UC Cooperative Extension confirms their supercolony structure makes contact spray ineffective. Santa Maria's warm valley climate keeps them active year-round, and winter rains drive them inside when outdoor nests flood.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colonies, swarms spring and early summer",
+        note: "UC Cooperative Extension confirms subterranean termite pressure throughout the Central Coast. The Santa Maria Valley's warm temperatures accelerate termite colony activity. Annual inspections are the standard for Santa Barbara County homeowners.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are the primary rodent pest in Santa Maria and throughout the Central Coast urban areas. The mature landscaping in established Santa Maria neighborhoods and the agricultural edge provide food sources and travel routes. UC Cooperative Extension identifies roof rats as the primary urban rat throughout coastal California.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a year-round indoor pest in Santa Maria's apartment buildings and the food service establishments in the Broadway and Main Street corridors. The warm Central Coast climate keeps them active throughout the year.",
+      },
+      {
+        name: "Gophers",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note: "Pocket gophers are a significant lawn and garden pest in Santa Maria and throughout the Santa Maria Valley's urban-agricultural edge. UC Cooperative Extension identifies gophers as one of the most damaging pests for Central Coast landscapes. The agricultural land surrounding Santa Maria sustains large gopher populations that move into residential lawns and gardens at the city's edges.",
+      },
+    ],
+    localHook:
+      "Santa Maria's position at the agricultural edge of the Santa Maria Valley creates a pest picture that includes the gopher and vole pressure from the surrounding strawberry and vegetable fields alongside the typical Central Coast urban pests. UC Cooperative Extension documents Argentine ant and termite pressure throughout Santa Barbara County, and the agricultural edge brings rodent pressure from the field margins into residential yards at the city's borders.",
+    intro:
+      "Pest control in Santa Maria reflects the Santa Maria Valley's position at the Central Coast agricultural edge. Argentine ants are the year-round dominant indoor nuisance pest throughout Santa Barbara County. Subterranean termites are documented throughout the region by UC Cooperative Extension. Roof rats are active in the mature residential areas. German cockroaches persist in multi-family housing and commercial food service, and gophers are an active lawn and garden pest at the agricultural edge.",
+    sections: [
+      {
+        heading: "Argentine ants and the agricultural edge in Santa Maria",
+        body: "Santa Maria's position at the edge of the Santa Maria Valley's strawberry and vegetable agricultural land creates a pest context where the massive Argentine ant supercolonies that UC Cooperative Extension documents throughout urban California are amplified by the high-food-availability agricultural margins. The supercolonies move toward homes during summer heat and after winter rains when outdoor nests flood. Slow-acting bait is the effective treatment, given that contact spray disperses the supercolony rather than eliminating it. Consistent bait maintenance around the property perimeter is more effective than reactive treatment after indoor invasions.",
+      },
+    ],
+    prevention: [
+      "Use slow-acting bait for Argentine ants around the property perimeter rather than contact spray.",
+      "Schedule annual termite inspections given UC Cooperative Extension-documented Central Coast subterranean termite pressure.",
+      "Trim trees and shrubs away from the roofline to reduce roof rat access routes.",
+      "Install underground gopher barriers or apply bait in active runs for gophers at the agricultural edge of Santa Maria.",
+    ],
+    costNote:
+      "Santa Maria pest control is typically a year-round general plan for ants, cockroaches, and rodents, with termite inspection and gopher treatment quoted separately. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Why do Argentine ants keep invading my Santa Maria home?",
+        answer:
+          "Argentine ants form supercolonies that are extraordinarily persistent. UC Cooperative Extension confirms contact spray is not effective: it kills foragers but does not reach the queens or the broader colony. Slow-acting bait that workers carry back to the colony is the effective treatment. The Santa Maria Valley's warm climate and agricultural margins sustain large colonies year-round, so continuous perimeter bait maintenance is more effective than single-event treatment.",
+      },
+      {
+        question: "Are gophers really a pest concern in Santa Maria?",
+        answer:
+          "Yes, particularly at the agricultural edges. UC Cooperative Extension identifies pocket gophers as one of the most damaging pests for Central Coast landscapes. The strawberry and vegetable fields surrounding Santa Maria sustain large gopher populations that move into residential lawns and gardens. Underground exclusion barriers and targeted bait application in active tunnels are the most effective management approaches.",
+      },
+      {
+        question: "When should I get a termite inspection in Santa Maria?",
+        answer:
+          "Annual inspections are the standard recommendation throughout Santa Barbara County. UC Cooperative Extension confirms subterranean termite pressure throughout the Central Coast, and the Santa Maria Valley's warm temperatures accelerate colony activity. Spring is a common swarm period, but an annual inspection regardless of swarm activity is the most reliable protection.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Santa Barbara", slug: "santa-barbara" },
+      { name: "San Luis Obispo", slug: "san-luis-obispo" },
+      { name: "Lompoc", slug: "lompoc" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Santa Maria, CA | Argentine Ants, Termites & Gophers",
+    metaDescription:
+      "Santa Maria pest control for Argentine ants, subterranean termites, roof rats, German cockroaches and gophers. Santa Barbara County Central Coast California specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
