@@ -1284,4 +1284,456 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Westland pest control for house mice, subterranean termites, carpenter ants, German cockroaches and mosquitoes. Wayne County post-WWII suburban Detroit western Wayne County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "farmington-hills",
+    name: "Farmington Hills",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~82,000",
+    county: "Oakland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Farmington Hills is one of the more affluent and wooded cities in Oakland County northwest of Detroit, where the dense hardwood and mature residential tree canopy creates carpenter ant habitat and mosquito breeding pockets in pooled leaf debris. Michigan State University Extension documents subterranean termite activity across southeast Michigan, and the cold-humid continental climate produces a sharp fall surge in house mouse activity as temperatures drop.",
+    topPests: [
+      "Mice",
+      "Carpenter ants",
+      "Subterranean termites",
+      "Stink bugs",
+      "Yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, sharp surge in fall",
+        note: "Michigan State University Extension documents a consistent fall surge in house mouse activity across southeast Michigan as temperatures cool. Farmington Hills's older housing stock and the mature wooded lots with wood debris near foundations provide both harborage and entry routes. A single entry point can result in a winter infestation quickly.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Carpenter ants are a significant pest in Farmington Hills's wooded residential areas. MSU Extension identifies carpenter ant activity as common throughout Oakland County in homes with moisture-damaged wood, rotting stumps, or tree-root-to-foundation soil contact. They do not eat wood but excavate galleries that can weaken structures over time.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "Michigan State University Extension documents subterranean termite activity across southeast Michigan including Oakland County. Farmington Hills's mix of slab and crawl-space construction provides various entry conditions. Spring swarmer flights in April and May are the most visible sign of activity.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering",
+        note: "Brown marmorated stink bugs are well-established in southeast Michigan per MSU Extension. Farmington Hills's wooded residential areas provide excellent summer habitat on shrubs and trees, with fall migration into structures for overwintering occurring in September and October.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall",
+        note: "Yellow jackets build ground nests and wall void nests in Farmington Hills's residential properties, often in the abandoned burrows of other wildlife or in wall cavities accessed through exterior gaps. They are most aggressive in late August and September when colonies reach maximum size.",
+      },
+    ],
+    localHook:
+      "Farmington Hills's mature wooded lots are one of the defining features of the community, and those same wooded lots are the reason carpenter ants are a more significant concern here than in the less-wooded southeastern Detroit suburbs. MSU Extension identifies moisture-damaged wood and wood-to-soil contact in hardwood-rich residential environments as the primary carpenter ant risk factor in Oakland County.",
+    intro:
+      "Pest control in Farmington Hills reflects the wooded Oakland County environment northwest of Detroit. House mice are a sharp fall and winter concern given Michigan's cold-humid climate. Carpenter ants are a consistent spring through fall pest in the mature wooded residential areas. Subterranean termites are documented across southeast Michigan by MSU Extension. Brown marmorated stink bugs invade in fall for overwintering. Yellow jackets build late summer nests in ground and wall void locations through the residential landscape.",
+    sections: [
+      {
+        heading: "Carpenter ants in Oakland County's wooded suburbs",
+        body: "Farmington Hills's mature hardwood landscape creates more carpenter ant habitat than most Michigan suburbs. MSU Extension identifies the key risk factors as moisture-damaged wood in or near the structure, decaying stumps within 50 feet of the home, and wood-to-soil contact at foundation elements. Carpenter ants do not eat wood but excavate galleries, and a large indoor colony can cause structural weakening over several seasons of undetected activity. Indoor carpenter ant sightings in spring, particularly large black ants in kitchens and bathrooms, often indicate that a colony is foraging from a nest somewhere in or near the structure. A professional inspection to locate the nest site, followed by targeted treatment, is more effective than perimeter spray alone.",
+      },
+      {
+        heading: "Fall pest preparation in southeast Michigan",
+        body: "Farmington Hills's cold-humid climate creates a sharp fall transition where both house mice and brown marmorated stink bugs begin seeking overwintering shelter in September and October. MSU Extension documents consistent fall mouse surges across southeast Michigan, and the combination of outdoor cooling and available indoor warmth makes structural entry a predictable seasonal behavior. Pre-season exclusion work in late September, targeting garage door seals, foundation gaps, and utility penetrations, is the most effective prevention approach. Stink bug exclusion focuses on gaps around windows, exterior siding, and attic vents. Addressing both pests in the same pre-season visit reduces total management costs.",
+      },
+    ],
+    prevention: [
+      "Remove decaying stumps within 50 feet of the home and address moisture-damaged wood to reduce carpenter ant harborage near the structure.",
+      "Seal foundation gaps, garage door seals, and utility penetrations in September before the fall mouse and stink bug entry season.",
+      "Schedule annual termite inspections given MSU Extension's documentation of subterranean termite activity across Oakland County.",
+      "Treat yellow jacket ground nests promptly when discovered in summer before colonies reach maximum fall aggression levels.",
+    ],
+    costNote:
+      "Farmington Hills pest control is typically a quarterly program covering mice, ants, and stink bugs, with termite inspection and carpenter ant treatment priced separately based on inspection findings. Fall exclusion work is often recommended as a seasonal add-on. A free assessment is the starting point.",
+    faqs: [
+      {
+        question: "Are carpenter ants in Farmington Hills a structural threat?",
+        answer:
+          "Potentially, over time. Carpenter ants do not eat wood but excavate galleries in moist or damaged wood, and a large established colony can cause meaningful structural weakening over several seasons. The priority is finding and treating the nest, addressing the moisture source that attracted them, and removing any wood-to-soil contact that sustains the problem.",
+      },
+      {
+        question: "How bad are stink bugs in Farmington Hills?",
+        answer:
+          "MSU Extension confirms brown marmorated stink bugs are established across southeast Michigan. Farmington Hills's wooded landscape provides excellent summer habitat on trees and shrubs, so fall invasion numbers can be significant in properties with older exterior sealing. Exclusion work done in September before the entry season is the most effective approach.",
+      },
+      {
+        question: "What signs indicate subterranean termites in a Farmington Hills home?",
+        answer:
+          "The primary signs are mud tubes on foundation walls or crawl space piers, swarmer flights in spring, and hollow or darkened wood. In Michigan's climate, termite swarms occur most commonly in April through June. Annual spring inspections are the practical detection approach for Oakland County homes.",
+      },
+      {
+        question: "When is the peak mouse entry season in Farmington Hills?",
+        answer:
+          "September through November, as outdoor temperatures cool significantly. MSU Extension documents this fall surge consistently across southeast Michigan. The practical response is to schedule exclusion work in late September before the peak entry period, rather than waiting for signs of mice inside the home.",
+      },
+      {
+        question: "How do yellow jackets get into Farmington Hills wall voids?",
+        answer:
+          "Yellow jackets find small exterior gaps around siding, soffit edges, and roofline areas and build nests in the wall cavity. The entry hole is often very small and not obvious from outside. Wall void infestations require a professional with the right equipment to inject dust or foam insecticide into the cavity. Do not seal the entry hole without first treating the nest.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Livonia", slug: "livonia" },
+      { name: "Pontiac", slug: "pontiac" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Farmington Hills, MI | Mice, Carpenter Ants & Termites",
+    metaDescription:
+      "Farmington Hills pest control for house mice, carpenter ants, subterranean termites, stink bugs and yellow jackets. Oakland County wooded suburban Detroit northwest Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "southfield",
+    name: "Southfield",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~71,000",
+    county: "Oakland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Southfield is a major employment center and suburb immediately northwest of Detroit in Oakland County, with a dense mix of commercial office towers, retail corridors, and established residential neighborhoods. The cold-humid continental climate drives house mice indoors in fall and produces subterranean termite swarming in spring. Michigan State University Extension documents termite activity in southeast Michigan, and Southfield's combination of older commercial buildings and mid-century residential housing creates diverse pest pressure year-round.",
+    topPests: [
+      "Mice",
+      "German cockroaches",
+      "Subterranean termites",
+      "Stink bugs",
+      "Carpenter ants",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice are the primary residential pest concern in Southfield as Michigan fall temperatures drop. MSU Extension documents consistent fall mouse pressure across Oakland County. Southfield's mid-century housing stock with accumulated gaps at foundations and utility penetrations provides ample entry routes.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a consistent pest in Southfield's commercial corridors, particularly in the office tower kitchenettes and restaurant facilities along Northwestern Highway and Telegraph Road. Adjacent residential areas experience introduction pressure from commercial neighbors.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "MSU Extension documents subterranean termite activity across southeast Michigan. Southfield's mid-century residential neighborhoods have accumulated conditions including wood-to-soil contact and aging foundation seals that provide termite entry points. Annual spring inspections are the practical approach.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering",
+        note: "Stink bugs are established across southeast Michigan per MSU Extension. Southfield's older residential buildings and office towers with aging exterior seals see consistent fall invasion for overwintering.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Carpenter ants are present in Southfield's residential areas with older trees and moisture-prone structures. MSU Extension identifies Oakland County homes with basement moisture issues as having elevated carpenter ant risk.",
+      },
+    ],
+    localHook:
+      "Southfield is one of the largest employment centers in metro Detroit, and the density of commercial office space along the Northwestern Highway corridor creates German cockroach pressure in commercial kitchenettes and food service areas that the residential neighborhoods immediately adjacent must manage carefully. Commercial pest program lapses in the corridor consistently produce residential cockroach pressure within a few building widths.",
+    intro:
+      "Pest control in Southfield reflects both the residential and commercial character of this Oakland County suburb. House mice are a sharp fall concern as Michigan winters set in. German cockroaches are a consistent commercial pest in the Northwestern Highway office corridor, with adjacent residential properties at risk. Subterranean termites are documented in southeast Michigan by MSU Extension. Brown marmorated stink bugs invade in fall for overwintering. Carpenter ants are active spring through fall in residential areas with older trees.",
+    sections: [
+      {
+        heading: "Commercial pest pressure in Southfield's office corridor",
+        body: "Southfield's concentration of commercial office towers, hotel facilities, and restaurant corridors along Northwestern Highway and Telegraph Road creates a commercial pest management environment where German cockroaches can establish in kitchenettes, break rooms, and food service areas with limited traffic and monitoring. When commercial programs in these buildings lapse, cockroaches spread outward into adjacent structures and nearby residential areas. Residential property managers within a few blocks of the commercial corridor benefit from maintaining consistent quarterly programs even when their own properties appear clear.",
+      },
+      {
+        heading: "Fall rodent and stink bug prevention",
+        body: "Southfield's cold-humid continental climate makes fall exclusion work the single most valuable pest management investment for residential homeowners. House mice enter through gaps as small as a dime at foundation level, around plumbing penetrations, and at garage door edges. Brown marmorated stink bugs enter through larger gaps around windows, exterior siding seams, and attic vents. A pre-season exterior inspection in September that identifies and seals the most common entry points addresses both pests before the peak entry season. MSU Extension recommends combining exclusion with targeted bait station placement for the most durable results in southeast Michigan.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and install quality door sweeps in September before Michigan's fall temperature drop drives mice to seek indoor shelter.",
+      "Seal exterior wall gaps and window frame weatherstripping before October to intercept stink bugs before overwintering entry.",
+      "Schedule annual termite inspections for Southfield homes with crawl spaces or basement moisture issues given MSU documentation of southeast Michigan termite pressure.",
+      "Monitor for German cockroach activity in kitchen areas if your property is adjacent to Northwestern Highway commercial buildings.",
+    ],
+    costNote:
+      "Southfield pest control for residential properties is typically a quarterly program. Commercial properties in the Northwestern Highway corridor benefit from monthly service. Fall exclusion work is a practical add-on before the entry season. A free inspection establishes current pest activity.",
+    faqs: [
+      {
+        question: "Why do I see German cockroaches in my Southfield home if I keep a clean kitchen?",
+        answer:
+          "German cockroaches in urban and suburban commercial corridors often originate from neighboring food service or commercial properties rather than from conditions in the home itself. If your property is near Southfield's commercial corridor, cockroaches entering from neighboring buildings through shared utilities or structural connections may be the source. A professional inspection can trace the introduction point.",
+      },
+      {
+        question: "Is Southfield's older housing stock at higher termite risk?",
+        answer:
+          "Mid-century housing, which is common in Southfield, often has accumulated wood-to-soil contact from landscaping changes, wood debris near foundations, and aging foundation seals. MSU Extension documents termite activity across southeast Michigan. Annual spring inspections are the practical precaution for Southfield's established residential neighborhoods.",
+      },
+      {
+        question: "Do mice in Southfield get in year-round or just in fall?",
+        answer:
+          "Both. House mice are a year-round resident of most Southfield structures, but the sharp fall surge when outdoor temperatures drop is the primary entry period. If mice are present inside in summer, an established breeding population exists that needs both exclusion and elimination treatment. Fall arrivals respond better to pre-season exclusion work.",
+      },
+      {
+        question: "Are stink bugs damaging to homes in Southfield?",
+        answer:
+          "Stink bugs do not damage structures, but large overwintering populations in wall voids and attic spaces are a nuisance and emit a strong defensive odor when disturbed or crushed. They emerge in spring to return outdoors. Pre-season exclusion and perimeter spray in September reduces how many enter.",
+      },
+      {
+        question: "What is the best time to schedule a termite inspection in Southfield?",
+        answer:
+          "Late April through June, when subterranean termite swarmers are active in Michigan and easier to detect during inspection. Annual spring inspections are the standard recommendation. If you see mud tubes or winged insects in the home at any time, schedule an inspection immediately regardless of season.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Farmington Hills", slug: "farmington-hills" },
+      { name: "Troy", slug: "troy" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Southfield, MI | Mice, Cockroaches & Termites",
+    metaDescription:
+      "Southfield pest control for house mice, German cockroaches, subterranean termites, stink bugs and carpenter ants. Oakland County northwest suburban Detroit Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "pontiac",
+    name: "Pontiac",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~60,000",
+    county: "Oakland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Pontiac is a post-industrial city in Oakland County northwest of Detroit, where the Clinton River runs through the urban landscape and the older housing and commercial building stock creates sustained pest pressure. Michigan State University Extension documents subterranean termite activity throughout southeast Michigan, and the combination of older structures, river corridor habitat, and the cold-humid climate creates year-round rodent and cockroach pressure alongside seasonal termite and stink bug activity.",
+    topPests: [
+      "Mice",
+      "Norway rats",
+      "German cockroaches",
+      "Subterranean termites",
+      "Stink bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice are a consistent year-round pest in Pontiac's older residential housing. The cold-humid Michigan climate makes fall entry into structures a predictable behavior, and the older housing stock with accumulated gaps at foundations and plumbing penetrations provides multiple access routes.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Norway rats are present in Pontiac's commercial corridors and areas adjacent to the Clinton River drainage infrastructure. MSU Extension documents Norway rat activity in older Michigan urban areas with sewer and drainage infrastructure that provides burrow habitat. Commercial dumpster areas and alleys are the primary rodent hotspots.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary pest in Pontiac's multi-family residential buildings and commercial food service areas. Older building stock with shared utilities provides extensive dispersal routes. Urban pest research in southeast Michigan identifies Pontiac as having consistent cockroach pressure given the age and density of its housing.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "MSU Extension documents subterranean termite activity across Oakland County including the Pontiac area. Older housing with wood-to-soil contact and the Clinton River's moisture influence near residential neighborhoods create entry conditions. Annual inspections are the practical approach.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering",
+        note: "Stink bugs are established across southeast Michigan per MSU Extension. Pontiac's older structures with exterior gaps and aging building seals experience significant fall invasion for overwintering.",
+      },
+    ],
+    localHook:
+      "The Clinton River runs through Pontiac and creates a wildlife movement corridor that brings rodents, mosquitoes, and wildlife pests from the surrounding wetland and forest areas into the urban landscape. MSU Extension documents Norway rat activity in Oakland County urban areas near drainage infrastructure, and the river corridor in Pontiac is one of the documented movement routes.",
+    intro:
+      "Pest control in Pontiac reflects the post-industrial urban environment and the Clinton River corridor's influence. House mice and Norway rats are year-round concerns in the older housing and commercial stock, with fall surges as Michigan winters set in. German cockroaches are a consistent pest in older multi-family buildings and commercial areas. Subterranean termites are documented across Oakland County by MSU Extension. Brown marmorated stink bugs invade in fall for overwintering in the older building stock.",
+    sections: [
+      {
+        heading: "Clinton River corridor and rodent pressure",
+        body: "The Clinton River, which runs through Pontiac and connects to a wider watershed system across Oakland County, provides year-round movement corridors for Norway rats and wildlife pests. MSU Extension documents Norway rat activity near drainage infrastructure in Oakland County urban areas. Commercial properties adjacent to river corridor drainage systems and alley areas have the highest sustained rodent pressure. Residential properties near the river benefit from maintained exterior exclusion and bait station programs that address the ongoing movement pressure from the corridor, rather than reactive treatment after entry has occurred.",
+      },
+      {
+        heading: "Older housing stock and year-round pest management",
+        body: "Pontiac's housing inventory includes a significant proportion of structures from the mid-twentieth century, some dating earlier. These buildings have accumulated gaps at foundation level, aging plumbing penetrations, and deteriorated door and window seals that provide access routes for multiple pest species simultaneously. German cockroaches, house mice, and subterranean termites all exploit different aspects of this accumulated condition. A comprehensive inspection that identifies the current pest activity and the entry conditions driving it allows a prioritized treatment and exclusion plan rather than reactive product-by-product responses.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations in September before Michigan's fall temperature drop drives mice and rats toward structures.",
+      "Maintain bait station programs year-round for properties adjacent to the Clinton River drainage corridor given documented Norway rat movement.",
+      "Schedule annual termite inspections in spring given MSU Extension documentation of subterranean termite activity across Oakland County.",
+      "Seal exterior wall gaps in September before stink bugs begin seeking overwintering entry points.",
+    ],
+    costNote:
+      "Pontiac pest control for residential properties typically requires monthly or bi-monthly service given the urban density and the Clinton River corridor's ongoing rodent pressure. Multi-family buildings benefit from building-wide programs. Commercial properties need consistent monthly service. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Are Norway rats from the Clinton River a real pest concern in Pontiac?",
+        answer:
+          "Yes. MSU Extension documents Norway rat activity in Oakland County urban areas near drainage and sewer infrastructure. The Clinton River and its associated drainage systems create movement corridors that bring rats from wider watershed areas into the urban environment. Properties near the river and alley-facing commercial properties experience the most sustained pressure.",
+      },
+      {
+        question: "How do German cockroaches spread in Pontiac's multi-family buildings?",
+        answer:
+          "Through shared wall voids, utility chases, and plumbing runs between units. In older Pontiac buildings, these connections are often extensive. Building-wide treatment coordinated by property management is the effective approach. Single-unit treatment in connected older buildings produces temporary results at best.",
+      },
+      {
+        question: "Does Pontiac's older housing need special termite attention?",
+        answer:
+          "Older housing has typically accumulated more wood-to-soil contact, aging foundation seals, and moisture issues that provide termite entry conditions. MSU Extension documents termite activity across Oakland County. Annual spring inspections are the recommended standard, and older homes with crawl spaces or basement moisture issues warrant additional attention.",
+      },
+      {
+        question: "Why are stink bugs so common in Pontiac's older buildings?",
+        answer:
+          "Older buildings have more exterior gaps around aging window frames, siding seams, and utility penetrations than newer construction. These gaps are the primary stink bug entry points for overwintering. Resealing these areas in late summer before the fall entry season significantly reduces overwintering numbers.",
+      },
+      {
+        question: "Is mosquito control relevant in Pontiac given the Clinton River?",
+        answer:
+          "The Clinton River and its associated wetland areas do create mosquito breeding habitat near Pontiac's residential areas. West Nile virus is monitored by the Oakland County Health Division. Properties close to the river and its riparian zones benefit from professional barrier programs during the peak season from May through September.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Troy", slug: "troy" },
+      { name: "Farmington Hills", slug: "farmington-hills" },
+      { name: "Southfield", slug: "southfield" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Pontiac, MI | Mice, Rats & Cockroaches",
+    metaDescription:
+      "Pontiac pest control for house mice, Norway rats, German cockroaches, subterranean termites and stink bugs. Oakland County Clinton River post-industrial Detroit metro Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "novi",
+    name: "Novi",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~63,000",
+    county: "Oakland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Novi is a growing affluent suburb in Oakland County northwest of Detroit, where the combination of newer construction, mature wooded lots, and the proximity to multiple lakes and ponds creates both wildlife pest pressure and standard structural pest challenges. Michigan State University Extension documents house mouse and subterranean termite activity across Oakland County, and Novi's numerous residential lakes and ponds create mosquito breeding habitat through the warm season.",
+    topPests: [
+      "Mice",
+      "Stink bugs",
+      "Subterranean termites",
+      "Carpenter ants",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, sharp surge in fall",
+        note: "MSU Extension documents the fall mouse surge consistently across southeast Michigan. Novi's mix of newer homes with landscaping close to the foundation and older established homes with accumulated gaps both experience fall mouse pressure. Garage door seals and utility penetrations are the most common entry points.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering",
+        note: "Stink bugs are established across southeast Michigan per MSU Extension and are a consistent fall nuisance in Novi's residential neighborhoods. The wooded landscape provides summer habitat and the mature trees adjacent to homes serve as staging areas for fall entry into structures.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "MSU Extension documents subterranean termite activity throughout Oakland County. Novi's newer construction provides wood-to-soil contact at landscaping elements, and the wooded lots with root systems adjacent to foundations create some termite exposure. Annual spring inspections are the practical approach.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Carpenter ants are active in Novi's wooded residential areas. MSU Extension identifies mature hardwood landscapes with moisture-prone stumps or wood debris as the primary risk factor for carpenter ant activity in Oakland County. Homes adjacent to wooded lots or with decaying landscape elements experience the most pressure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Novi's numerous residential lakes and ponds, including the Walled Lake and Twelve Mile Lake corridors, create mosquito breeding habitat throughout the city. Oakland County Health Division monitors West Nile virus, which has been detected in the county in multiple years.",
+      },
+    ],
+    localHook:
+      "Novi's combination of wooded residential lots, multiple lakes and ponds, and a newer housing base being built in former agricultural and woodland areas creates a pest picture that includes both structural pests from the housing stock and wildlife-corridor pests from the natural features. Raccoon, squirrel, and wildlife exclusion are more common service requests in Novi than in fully developed Detroit-area suburbs.",
+    intro:
+      "Pest control in Novi reflects the growing Oakland County suburban environment with its wooded lots and water features. House mice are a sharp fall concern as Michigan winters set in. Brown marmorated stink bugs invade in fall for overwintering in the wooded residential landscape. Subterranean termites and carpenter ants are spring through fall concerns, with MSU Extension documenting activity across Oakland County. Novi's residential lakes and ponds create mosquito breeding habitat with West Nile virus monitored in the county.",
+    sections: [
+      {
+        heading: "Wooded lots and wildlife pest pressure",
+        body: "Novi's residential areas back onto natural features including the Walled Lake area, wooded preserves, and the agricultural land that previous development cycles did not convert. This natural edge brings wildlife pest pressure that is more significant than in fully suburban Detroit-area communities. Squirrels, raccoons, and opossums that use the wooded edge as habitat regularly attempt entry into Novi attic spaces, particularly in fall when natural food sources decline. Professional wildlife exclusion, which seals roofline gaps and attic vents while removing or deterring wildlife, is a more common Novi service request than in densely developed areas. MSU Extension recommends addressing wildlife exclusion and structural pest programs together since wildlife activity creates the entry points that mice and other smaller pests later use.",
+      },
+      {
+        heading: "Residential lakes and the mosquito season",
+        body: "Novi's numerous residential lakes and ponds are a defining characteristic of many of its neighborhoods and a significant driver of the summer mosquito season. The slow-moving and still water edges of these ponds create breeding habitat that sustains mosquito populations from May through October. Oakland County Health Division monitors West Nile virus, which has been documented in the county. Properties adjacent to lakes and ponds experience higher baseline mosquito pressure than inland locations. Professional barrier spray programs targeting yard vegetation during the active season provide the most effective residential control for lakeside properties.",
+      },
+    ],
+    prevention: [
+      "Seal roofline gaps, attic vents, and utility penetrations in fall to address both wildlife exclusion and subsequent mouse entry in Novi's wooded residential areas.",
+      "Seal foundation gaps and door sweeps in September before Michigan's fall temperature drop drives mice to seek indoor shelter.",
+      "Schedule annual termite inspections in spring given MSU Extension documentation of subterranean termite activity across Oakland County.",
+      "Eliminate standing water in yard containers and treat pond edges professionally from May through October if you live adjacent to Novi's residential lakes.",
+    ],
+    costNote:
+      "Novi pest control typically includes a quarterly program covering mice, ants, and stink bugs, with mosquito service, termite inspection, and wildlife exclusion quoted separately. Lake-adjacent properties may benefit from more frequent mosquito treatment during peak season. A free assessment is the right starting point.",
+    faqs: [
+      {
+        question: "Are squirrels and raccoons common in Novi homes?",
+        answer:
+          "Yes. Novi's wooded residential edge creates more wildlife pest pressure than fully developed suburbs. Squirrels enter through roof-to-soffit gaps and attic vents. Raccoons enter larger gaps at rooflines. Both are most active in fall when natural food sources decline. Professional wildlife exclusion that seals entry points after removal is the correct approach rather than trapping alone.",
+      },
+      {
+        question: "How do Novi's residential lakes affect mosquito pressure?",
+        answer:
+          "Residential lakes and ponds create stable mosquito breeding habitat that sustains populations throughout the warm season. Lakeside properties experience higher pressure than inland locations. Oakland County Health Division monitors West Nile virus. Professional barrier spray programs for yard vegetation from May through October are the most effective approach for lakeside properties.",
+      },
+      {
+        question: "Do newer Novi homes have termite risk?",
+        answer:
+          "Yes. MSU Extension documents termite activity across Oakland County, and newer construction introduces wood-to-soil contact at landscaping elements and the disturbed soil around new foundations. Annual spring inspections are the recommended precaution even for newer homes.",
+      },
+      {
+        question: "When do stink bugs start entering Novi homes?",
+        answer:
+          "In September, as outdoor temperatures begin to drop and stink bugs seek overwintering sites. The wooded landscape in Novi provides summer habitat on trees and shrubs, which positions large numbers close to structures when fall arrives. Sealing exterior gaps in August gives the best results. Once stink bugs are inside walls, treatment is limited to preventing their emergence indoors in spring.",
+      },
+      {
+        question: "Are carpenter ants in Novi likely to damage my home significantly?",
+        answer:
+          "Significant structural damage requires a large established colony in moisture-damaged wood over several seasons. For most Novi homeowners, carpenter ants are a nuisance pest managed by addressing their moisture and wood debris harborage rather than an immediate structural emergency. An inspection to locate the nest and any moisture sources is the first step.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Farmington Hills", slug: "farmington-hills" },
+      { name: "Troy", slug: "troy" },
+      { name: "Livonia", slug: "livonia" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Novi, MI | Mice, Stink Bugs & Mosquitoes",
+    metaDescription:
+      "Novi pest control for house mice, stink bugs, subterranean termites, carpenter ants and mosquitoes. Oakland County residential lakes wooded suburban Detroit northwest Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -4825,4 +4825,795 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Mission pest control for fire ants, German cockroaches, mosquitoes, roof rats and subterranean termites. Hidalgo County Rio Grande Valley citrus country specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "new-braunfels",
+    name: "New Braunfels",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~103,000",
+    county: "Comal and Guadalupe Counties",
+    climate: "hot-humid",
+    climateDriver:
+      "New Braunfels sits at the edge of the Texas Hill Country where the Comal and Guadalupe Rivers converge. The rivers create abundant standing and slow-moving water for mosquito breeding, while the surrounding limestone hills bring scorpions and centipedes into residential areas. Texas A&M AgriLife Extension documents year-round fire ant and termite pressure across Comal County, driven by the subtropical climate with warm mild winters.",
+    topPests: [
+      "Scorpions",
+      "Fire ants",
+      "Subterranean termites",
+      "Mosquitoes",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "March through October, peak in summer",
+        note: "Texas A&M Extension identifies the striped bark scorpion as the most common scorpion in central Texas. The Hill Country limestone terrain west and north of New Braunfels is prime habitat. Scorpions follow prey insects into homes through gaps around plumbing and at foundations, and turn up in bathrooms, closets, and on walls at night.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after rain",
+        note: "Fire ants are a constant presence in New Braunfels lawns and parks. Texas A&M Extension identifies Comal and Guadalupe Counties as high-pressure fire ant territory. The warm winters rarely suppress colonies completely, and mounds reappear quickly after spring rains.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round",
+        note: "Texas A&M Extension documents subterranean termite activity throughout the San Antonio metro corridor, which extends into Comal County. The clay-loam soils in the lower elevations retain moisture that supports colony activity, and the rapid residential growth of New Braunfels creates wood-to-soil contact during construction.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Comal River, the Guadalupe River, and the river parks that make New Braunfels a recreation destination also produce significant mosquito pressure. West Nile virus is monitored across Comal County by the Texas Department of State Health Services. Summer river activity extends residents' outdoor exposure.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in humid summer months",
+        note: "German cockroaches are the primary cockroach in New Braunfels restaurants, apartment complexes, and older residential kitchens. The warm subtropical climate accelerates their reproductive rate, which makes early intervention important before populations become established.",
+      },
+    ],
+    localHook:
+      "New Braunfels grew up along some of the clearest spring-fed rivers in Texas, and the same rivers that draw tourists for tubing every summer are among the most productive mosquito habitats in Comal County. Add the Hill Country limestone terrain just west of town and you get scorpions alongside the summer mosquito season, a combination that surprises newcomers from other parts of Texas.",
+    intro:
+      "Pest control in New Braunfels covers a range that reflects both the Hill Country and the river city setting. Scorpions from the limestone terrain north and west of town are a real concern for homeowners near the Balcones Escarpment. Fire ants and subterranean termites are active year-round in the warm central Texas climate. The Comal and Guadalupe River corridors create mosquito breeding habitat that stretches through the city's most popular outdoor areas. West Nile virus is monitored across Comal County.",
+    sections: [
+      {
+        heading: "Scorpions from the Hill Country limestone",
+        body: "The striped bark scorpion is the species documented throughout central Texas by Texas A&M Extension. New Braunfels occupies the transitional zone where the Hill Country limestone hills give way to the river bottomlands, which means scorpion pressure is present across much of the city. They enter homes through weep holes, gaps around pipes, and at foundation cracks, typically appearing in bathrooms, on walls near the ceiling, and in closets. Sealing entry points with mesh or caulk is the first line of defense. Interior treatment along baseboards and harborage areas reduces the population that makes it inside.",
+      },
+      {
+        heading: "Mosquitoes along the river parks",
+        body: "The Comal River and Guadalupe River parks that run through New Braunfels are the primary driver of above-average mosquito pressure in this city. The slow-moving and still water in river backwaters, drainage channels, and tubing entry areas creates breeding habitat close to residential areas. Texas Department of State Health Services monitors West Nile virus across Comal County. Professional mosquito treatment of property vegetation and standing water reduces exposure during the peak summer season, which aligns with the city's heaviest tourist and outdoor activity period.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes and gaps around plumbing penetrations with mesh or caulk to block scorpion entry from the Hill Country limestone terrain.",
+      "Apply fire ant bait in early spring before mounds multiply across the lawn and reach adjacent areas.",
+      "Remove standing water from river-adjacent drainage areas and yard containers weekly during the long mosquito season.",
+      "Schedule annual termite inspections given documented San Antonio metro corridor termite pressure.",
+    ],
+    costNote:
+      "New Braunfels pest control is typically a quarterly exterior program covering fire ants, scorpions, and cockroaches. Termite protection and mosquito service are priced separately. River-adjacent properties may warrant more frequent mosquito treatment during peak season. A free inspection establishes what is present.",
+    faqs: [
+      {
+        question: "Are scorpions common in New Braunfels homes?",
+        answer:
+          "Yes, particularly in neighborhoods near the Hill Country limestone terrain. The striped bark scorpion is the species documented in central Texas by Texas A&M Extension. Entry points include weep holes, plumbing gaps, and foundation cracks. Their sting is painful but rarely dangerous to healthy adults. Exclusion work combined with exterior treatment is the effective approach.",
+      },
+      {
+        question: "Why are mosquitoes so bad near the Comal River parks?",
+        answer:
+          "The Comal and Guadalupe Rivers create slow-moving and still water that is ideal for mosquito breeding, and the summer tubing season keeps residents and visitors at peak exposure during the most active months. West Nile virus is monitored in Comal County. Property-level barrier spray programs reduce personal exposure effectively.",
+      },
+      {
+        question: "Do subterranean termites affect newer homes in New Braunfels?",
+        answer:
+          "Yes. Texas A&M Extension documents termite pressure throughout the San Antonio metro corridor, and New Braunfels's rapid growth means ongoing construction disturbs soil where termite colonies already exist. New construction is not protected by age alone. Preventive soil treatment at construction plus annual inspections is the recommended approach.",
+      },
+      {
+        question: "How do I know if I have a fire ant problem or just a regular ant trail?",
+        answer:
+          "Fire ant mounds are the clearest sign. They appear as dome-shaped soil mounds with no obvious entry hole on top and can be several inches high after rain. If you disturb a mound, fire ants swarm rapidly and sting aggressively. Standard indoor ant baits do not work well on fire ants. A Texas A&M-recommended granular broadcast bait applied to the whole lawn is the most effective management approach.",
+      },
+      {
+        question: "Is termite treatment worth it before buying a home in New Braunfels?",
+        answer:
+          "A pre-purchase wood-destroying organism inspection is strongly worth it. Texas A&M Extension documents active termite pressure in Comal County, and the San Antonio metro corridor is a recognized high-activity zone. An inspection identifies existing damage or active colonies before they become your responsibility.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "San Antonio", slug: "san-antonio" },
+      { name: "Austin", slug: "austin" },
+      { name: "San Marcos", slug: "san-marcos" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in New Braunfels, TX | Scorpions, Fire Ants & Mosquitoes",
+    metaDescription:
+      "New Braunfels pest control for scorpions, fire ants, subterranean termites, mosquitoes and German cockroaches. Comal County Hill Country Guadalupe River Texas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "conroe",
+    name: "Conroe",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~93,000",
+    county: "Montgomery County",
+    climate: "hot-humid",
+    climateDriver:
+      "Conroe sits in the piney woods region of east Texas at the northern edge of the Houston metropolitan area. Lake Conroe to the west and the West Fork of the San Jacinto River create extensive mosquito breeding habitat. The humid subtropical climate, dense pine and hardwood forests, and the warm wet summers sustain year-round pest activity including subterranean termites, fire ants, and a diverse array of woodland pests not common in the treeless Houston suburbs.",
+    topPests: [
+      "Subterranean termites",
+      "Fire ants",
+      "Mosquitoes",
+      "Cockroaches",
+      "Brown recluse spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round",
+        note: "Texas A&M Extension identifies the piney woods region around Conroe as having significant subterranean termite activity, driven by the moisture-retaining soils and abundant wood debris in the surrounding forests. Montgomery County's rapid residential growth has introduced new wood construction into active termite territory throughout the area.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are active throughout Montgomery County and the Conroe area year-round. The warm humid subtropical climate and the relatively mild winters give colonies a long productive season. Texas A&M Extension ranks the greater Houston corridor as a high-pressure fire ant zone.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, peak June through September",
+        note: "Lake Conroe and the San Jacinto River bottomlands create some of the most productive mosquito habitat in the greater Houston region. Montgomery County Precinct 3 operates a mosquito control program, but lakeside and creek-adjacent properties experience significant pressure throughout the warm months. West Nile virus is monitored in the Houston metro.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in summer",
+        note: "Both American cockroaches, which breed in the storm drains and mulch of the piney woods environment, and German cockroaches, which infest kitchens and bathrooms, are consistent pests in Conroe. The humid subtropical climate supports large outdoor populations that push indoors during dry spells.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more active in warm months",
+        note: "Brown recluse spiders are documented throughout east Texas including the Conroe and Montgomery County area by Texas A&M Extension. They establish in attics, garages, and storage areas, particularly in woodpiles and cardboard boxes. Their necrotic bite warrants caution when working in undisturbed storage spaces.",
+      },
+    ],
+    localHook:
+      "Conroe sits at the point where the Houston sprawl meets the east Texas piney woods, and that forest edge changes the pest picture significantly. Brown recluse spiders, which are uncommon in the open Houston suburbs, are documented in Montgomery County's wooded residential areas. The pine and hardwood canopy also provides ideal conditions for roof rat travel, and Lake Conroe's shoreline generates mosquito pressure on a scale the treeless southern suburbs do not experience.",
+    intro:
+      "Pest control in Conroe reflects the piney woods environment at the northern edge of the Houston metro. Subterranean termites are active throughout Montgomery County, and the dense forest soils provide conditions that support year-round colony activity. Fire ants are a year-round lawn challenge. Lake Conroe and the San Jacinto River bottomlands create significant mosquito breeding habitat with West Nile virus monitored in the broader Houston region. Brown recluse spiders are documented in the wooded residential areas throughout the county.",
+    sections: [
+      {
+        heading: "Piney woods pests that Houston suburbs rarely see",
+        body: "The pine and hardwood forest edge that characterizes Conroe and the surrounding Montgomery County communities introduces pest species that are uncommon in the more open southern Houston suburbs. Brown recluse spiders are documented throughout east Texas and establish in attics, garages, and undisturbed storage areas. Wood-boring beetles attack the pine firewood that many Conroe residents keep on site. Roof rats use the pine canopy as a travel network between trees and rooflines. Maintaining a gap between firewood and the home exterior, inspecting attic spaces annually, and trimming overhanging branches are the practical defenses at the forest edge.",
+      },
+      {
+        heading: "Lake Conroe and the mosquito season",
+        body: "Lake Conroe to the west of the city and the San Jacinto River bottomlands surrounding the municipal area create one of the more significant mosquito habitats in the greater Houston region. Montgomery County operates a precinct-level mosquito control program, but lakeside, riverfront, and creek-adjacent properties experience pressure that county treatment only partially addresses. West Nile virus is monitored in Harris and Montgomery Counties by the Texas Department of State Health Services. For properties near the water, professional barrier spray programs applied to vegetation from May through October provide the most effective personal protection.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given documented piney woods moisture and termite pressure across Montgomery County.",
+      "Keep firewood elevated, away from the home exterior, and inspect it before bringing it inside to reduce spider and beetle entry.",
+      "Apply fire ant bait in spring and treat individual mounds as they appear through the summer.",
+      "Trim tree branches from the roofline to block roof rat access from the pine canopy.",
+    ],
+    costNote:
+      "Conroe pest control is typically a quarterly exterior program covering fire ants, cockroaches, and spiders, with termite and mosquito programs priced separately. Lake-adjacent properties warrant more frequent mosquito treatment during peak season. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders actually present in the Conroe area?",
+        answer:
+          "Yes. Texas A&M Extension documents brown recluse spiders throughout east Texas including Montgomery County. They establish in attics, garages, woodpiles, and undisturbed boxes. The necrotic bite is medically significant, so care around storage spaces and firewood is warranted. Professional treatment of harborage areas reduces the population.",
+      },
+      {
+        question: "How bad is the mosquito season near Lake Conroe?",
+        answer:
+          "Significant. Lake Conroe and the San Jacinto bottomlands create large-scale breeding habitat, and the warm humid climate extends the active season from March through November. Montgomery County operates a public mosquito program, but lakeside properties typically see pressure above background levels throughout summer. Professional barrier programs are the effective residential solution.",
+      },
+      {
+        question: "Do termites affect homes in the Conroe piney woods area?",
+        answer:
+          "Yes. Texas A&M Extension identifies the piney woods region as an active termite zone. The forest soils retain moisture and there is abundant wood debris that supports colonies. Montgomery County's growth means new construction continuously enters active termite territory. Annual inspections are the practical response.",
+      },
+      {
+        question: "What makes Conroe's pest picture different from Houston's?",
+        answer:
+          "The forest edge. Brown recluse spiders, wood-boring beetles, and roof rats using the pine canopy are all more common in Conroe than in the open southern Houston suburbs. The piney woods environment also supports larger mosquito populations near the lake and river corridors.",
+      },
+      {
+        question: "How do I deal with fire ant mounds in a large wooded yard?",
+        answer:
+          "Broadcast granular bait applied to the whole lawn in spring is the Texas A&M-recommended approach for large areas. The bait targets the queen through worker activity and reduces colony numbers more effectively than treating individual mounds. Follow up with direct mound treatments where colonies persist. In Montgomery County's warm climate, a second fall application maintains control through the year.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Houston", slug: "houston" },
+      { name: "Pasadena", slug: "pasadena" },
+      { name: "The Woodlands", slug: "the-woodlands" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Conroe, TX | Termites, Mosquitoes & Brown Recluse",
+    metaDescription:
+      "Conroe pest control for subterranean termites, fire ants, mosquitoes, cockroaches and brown recluse spiders. Montgomery County piney woods Lake Conroe Texas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "cedar-park",
+    name: "Cedar Park",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~82,000",
+    county: "Williamson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Cedar Park is one of the fastest-growing cities in the United States, expanding rapidly in Williamson County at the northern edge of Austin's metro area where the Texas Hill Country begins to transition to the Blackland Prairie. The Brushy Creek corridor running through the city creates mosquito breeding habitat, while the limestone terrain to the west introduces scorpions. Texas A&M AgriLife Extension Williamson County documents year-round fire ant and termite pressure driven by the warm humid subtropical climate.",
+    topPests: [
+      "Fire ants",
+      "Scorpions",
+      "Subterranean termites",
+      "Mosquitoes",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are a consistent challenge in Cedar Park's lawns, parks, and sports fields. Texas A&M Extension documents high fire ant pressure across Williamson County's warm subtropical climate. The city's rapid growth and constant soil disturbance from new construction create conditions where colonies reestablish quickly.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "March through October, peak in summer",
+        note: "Texas A&M Extension documents the striped bark scorpion as the primary scorpion species in central Texas. Cedar Park's western neighborhoods near the limestone Hill Country terrain experience higher scorpion pressure. They enter through weep holes, foundation gaps, and gaps around utility penetrations.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active year-round",
+        note: "Subterranean termite pressure is documented throughout the Austin metro corridor by Texas A&M Extension. Cedar Park's rapid expansion places new residential construction adjacent to disturbed soil where existing termite colonies are active. Annual inspections are the standard precaution.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Brushy Creek regional trail and park system running through Cedar Park creates mosquito breeding habitat close to residential areas. West Nile virus is monitored across Williamson County by the Texas Department of State Health Services.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches establish in Cedar Park's commercial corridors and multi-family housing. The warm climate keeps reproductive cycles short and populations building if not addressed with targeted bait programs.",
+      },
+    ],
+    localHook:
+      "Cedar Park consistently ranks as one of the fastest-growing cities in the United States, and that growth pace means a large share of its residential lots were developed on recently disturbed land where fire ant colonies and subterranean termites are already active. New homeowners from other states are sometimes surprised to find scorpions in their garage within weeks of moving in, particularly in the western neighborhoods near the Hill Country limestone.",
+    intro:
+      "Pest control in Cedar Park reflects the rapid growth and Hill Country edge of Williamson County's fastest-expanding city. Fire ants are a year-round presence in the warm climate, and constant construction disturbance keeps new colonies establishing. Scorpions from the limestone terrain to the west are a genuine concern, particularly in newer neighborhoods at the suburban-Hill Country boundary. Subterranean termites are documented throughout the Austin metro corridor. The Brushy Creek corridor creates mosquito habitat close to residential areas.",
+    sections: [
+      {
+        heading: "New construction and displaced pest colonies",
+        body: "The rapid build-out of Cedar Park's residential areas means that on any given street, some homes are being built while others have been occupied for a decade. Construction activity displaces established fire ant colonies and termite galleries, pushing them toward adjacent completed structures. Texas A&M Extension warns that new construction does not protect against termites since colonies displaced from cleared land actively seek new wood sources. Getting a termite inspection before taking occupancy of a new Cedar Park home is a practical step, not just a precaution for older properties.",
+      },
+      {
+        heading: "Scorpion management at the Hill Country edge",
+        body: "Cedar Park's western neighborhoods are at the transition between the Blackland Prairie and the Hill Country limestone terrain, which is where scorpion pressure is highest. The striped bark scorpion documented by Texas A&M Extension follows prey insects into homes through weep holes, gaps at the foundation, and openings around plumbing. Exclusion work, which seals these entry points with mesh or caulk, is as important as exterior treatment because it addresses the entry mechanism rather than just the population outside. Inside the home, checking shoes, towels, and bedding before use is a practical precaution in western Cedar Park neighborhoods.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes and foundation gaps with mesh in western neighborhoods near the Hill Country limestone to reduce scorpion entry.",
+      "Apply fire ant bait in spring when soil temperatures are above 65 degrees for best colony control across the full lawn.",
+      "Reduce standing water in Brushy Creek drainage areas and yard containers to cut mosquito breeding from March through November.",
+      "Schedule a termite inspection for any home adjacent to recently cleared or developed land given Austin metro corridor pressure.",
+    ],
+    costNote:
+      "Cedar Park pest control is typically a quarterly exterior program covering ants, scorpions, and cockroaches, with termite protection priced after inspection. Mosquito service is commonly added from March through November. Newer homes in rapidly developing areas may warrant an additional termite pre-treatment consultation.",
+    faqs: [
+      {
+        question: "Why do Cedar Park homeowners find scorpions so quickly after moving in?",
+        answer:
+          "The Hill Country limestone terrain to the west of Cedar Park is natural scorpion habitat. New construction disturbs their established harborage, and exclusion work on new homes is rarely complete enough to stop them. The striped bark scorpion follows insects inside through weep holes and gaps at the foundation. A professional exclusion and perimeter treatment soon after moving in significantly reduces how many make it indoors.",
+      },
+      {
+        question: "How much of a fire ant problem is there in a brand new Cedar Park yard?",
+        answer:
+          "Often significant. Construction soil disturbance temporarily suppresses colonies, but fire ants recolonize disturbed land quickly once grading is done and landscaping is in. New lawns in Cedar Park often have multiple mounds within months. Texas A&M Extension recommends applying granular broadcast bait across the whole lawn rather than treating individual mounds one by one.",
+      },
+      {
+        question: "Do I need a termite bond for a newly built Cedar Park home?",
+        answer:
+          "It is worth considering. Texas A&M Extension documents termite pressure throughout the Austin metro corridor, and Cedar Park's construction boom places new homes in territory where colonies were already active before the land was cleared. Many Cedar Park builders include soil pre-treatment in their construction, but coverage and warranty terms vary. Review what is included before deciding whether to add independent coverage.",
+      },
+      {
+        question: "Is the Brushy Creek trail area particularly bad for mosquitoes?",
+        answer:
+          "Properties backing directly onto Brushy Creek greenbelt sections experience elevated mosquito pressure during the active season. West Nile virus is monitored in Williamson County. Professional barrier spray programs targeting vegetation along the greenbelt edge are the most effective approach for these properties from March through November.",
+      },
+      {
+        question: "What pests should I expect when moving from another state to Cedar Park?",
+        answer:
+          "Fire ants are the biggest surprise for most newcomers. They sting aggressively and mounds reappear quickly. Scorpions are common in the western neighborhoods near the Hill Country and show up inside even new homes. The warm climate also extends the outdoor pest season significantly compared to northern states, so quarterly exterior programs run most of the year rather than just summer.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Austin", slug: "austin" },
+      { name: "Round Rock", slug: "round-rock" },
+      { name: "Leander", slug: "leander" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Cedar Park, TX | Fire Ants, Scorpions & Termites",
+    metaDescription:
+      "Cedar Park pest control for fire ants, scorpions, subterranean termites, mosquitoes and German cockroaches. Williamson County Austin metro Hill Country edge Texas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "georgetown",
+    name: "Georgetown",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~80,000",
+    county: "Williamson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Georgetown occupies a position at the edge of the Texas Hill Country and the Blackland Prairie in Williamson County, where the San Gabriel River and Lake Georgetown to the northwest create mosquito breeding habitat. The limestone terrain that characterizes the city's western areas brings scorpions into residential neighborhoods. Texas A&M AgriLife Extension Williamson County documents consistent fire ant, termite, and mosquito pressure across the county's warm subtropical climate.",
+    topPests: [
+      "Fire ants",
+      "Scorpions",
+      "Subterranean termites",
+      "Mosquitoes",
+      "Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Texas A&M Extension confirms year-round fire ant activity in Williamson County. Georgetown's rapid population growth has brought large amounts of construction soil disturbance that creates ideal conditions for fire ant colony establishment in new neighborhoods.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "March through October, peak summer",
+        note: "The Hill Country limestone west and northwest of Georgetown supports a significant scorpion population. Texas A&M Extension identifies the striped bark scorpion as the dominant species in central Texas. Georgetown's historic downtown area with its stone construction and older buildings is a known harborage zone.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active year-round",
+        note: "Texas A&M Extension documents termite pressure throughout the Austin metro corridor, including Williamson County. Georgetown's clay and loam soils in the lower areas retain moisture that supports colony activity, and the city's growth places new construction in previously undisturbed termite territory.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Lake Georgetown and the San Gabriel River create mosquito breeding habitat northwest of the city. West Nile virus is monitored in Williamson County. Georgetown's parks and trail systems along the river corridor extend resident exposure during the active season.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice are a consistent fall and winter concern in Georgetown as cooling temperatures drive rodents toward warm structures. Slab construction homes have fewer traditional entry points than crawl-space homes, but gaps at garage doors and utility penetrations remain common entry routes.",
+      },
+    ],
+    localHook:
+      "Georgetown is known as the Red Poppy Capital of Texas, and it is also one of the fastest-growing cities in the United States. That growth rate means new residential developments are being cut from Hill Country limestone terrain and Blackland Prairie where scorpions, termites, and fire ant colonies were already established well before the first foundation was poured.",
+    intro:
+      "Pest control in Georgetown reflects both its rapid growth and its setting at the Hill Country and Blackland Prairie boundary in Williamson County. Fire ants are a constant presence in the warm subtropical climate. Scorpions from the limestone terrain appear in western neighborhoods and in the historic downtown's older stone buildings. Subterranean termites are documented throughout the Austin metro corridor, and Georgetown's expansion puts new homes in active termite territory. Lake Georgetown and the San Gabriel River create mosquito habitat with West Nile virus monitored across the county.",
+    sections: [
+      {
+        heading: "Scorpions in Georgetown's limestone landscape",
+        body: "The Hill Country limestone that gives Georgetown its scenic character is also prime scorpion terrain. The striped bark scorpion, which is the species documented throughout central Texas by Texas A&M Extension, lives under rocks, in limestone crevices, and in the rubble fill that is common in Georgetown's older neighborhoods. New construction that excavates limestone brings colonies to the surface and into contact with new home foundations. Georgetown's historic downtown district, with its old stone storefronts and masonry walls, has persistent scorpion pressure in basements and ground-floor storage areas. Sealing weep holes and foundation gaps is the first step, combined with exterior residual treatment along the foundation and harborage areas.",
+      },
+      {
+        heading: "Lake Georgetown and the San Gabriel River mosquito corridor",
+        body: "Lake Georgetown, operated by the US Army Corps of Engineers, and the San Gabriel River corridor running east through the city create significant mosquito habitat upstream and adjacent to Georgetown's residential areas. West Nile virus has been documented in Williamson County mosquito populations. The parks and trail systems along the river corridor are popular outdoor recreation areas throughout the warm season, extending resident exposure. Professional mosquito barrier spray programs targeting vegetation along creek and river edges, combined with eliminating standing water on the property, provide the most effective residential protection from March through November.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes and limestone foundation gaps in western Georgetown neighborhoods to reduce scorpion entry.",
+      "Apply fire ant broadcast bait in early spring across new lawns before mounds multiply.",
+      "Remove standing water from yard drainage and Lake Georgetown-adjacent areas weekly during the mosquito season.",
+      "Inspect attic and crawl-space access points in fall and seal utility penetrations before mice seek winter shelter.",
+    ],
+    costNote:
+      "Georgetown pest control is typically a quarterly exterior program covering fire ants, scorpions, and cockroaches. Termite protection and mosquito programs are priced separately. Historic downtown properties may need additional scorpion exclusion work. A free inspection is the right first step.",
+    faqs: [
+      {
+        question: "Are scorpions in Georgetown limited to new construction areas?",
+        answer:
+          "No. While new construction in limestone terrain disturbs existing scorpion habitat and can push colonies toward buildings, Georgetown's historic downtown area and established older neighborhoods also have consistent scorpion pressure. The limestone building materials and older stone walls in downtown Georgetown are known harborage zones. Exclusion work and exterior treatment help throughout the city.",
+      },
+      {
+        question: "How does Georgetown's growth affect termite pressure?",
+        answer:
+          "Rapid growth means constant new construction in previously undisturbed land. Texas A&M Extension documents termite activity across Williamson County, and the Blackland Prairie soils and clay-loam areas retain moisture that supports colony activity. New homes are not protected simply by being new. Getting a pre-occupancy inspection and knowing what pre-treatment was applied during construction is the practical step.",
+      },
+      {
+        question: "Is Lake Georgetown a significant mosquito source?",
+        answer:
+          "The lake itself is typically less productive for mosquitoes than the slower-moving and still water in associated creeks and drainage channels. The San Gabriel River corridor downstream creates more consistent breeding habitat. West Nile virus is monitored in the county. Properties along the river trail system benefit from professional barrier programs during peak season.",
+      },
+      {
+        question: "When do fire ants in Georgetown become most active?",
+        answer:
+          "Colonies are active year-round in the warm central Texas climate, but mounds are most visible and populations surge in spring after rains and again in early fall. Texas A&M Extension recommends applying granular broadcast bait when soil temperatures are between 65 and 90 degrees, which in Georgetown is most of the year except the coldest December and January weeks.",
+      },
+      {
+        question: "Should I treat for termites before selling my Georgetown home?",
+        answer:
+          "A wood-destroying organism inspection is typically required in Texas real estate transactions anyway, so having a current inspection is useful before listing. If active termites or damage are found, treating before listing avoids a last-minute negotiation. Texas A&M Extension documents Williamson County as part of the active Austin metro termite corridor.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Austin", slug: "austin" },
+      { name: "Round Rock", slug: "round-rock" },
+      { name: "Cedar Park", slug: "cedar-park" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Georgetown, TX | Fire Ants, Scorpions & Termites",
+    metaDescription:
+      "Georgetown pest control for fire ants, scorpions, subterranean termites, mosquitoes and mice. Williamson County San Gabriel River Hill Country Austin metro Texas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "san-angelo",
+    name: "San Angelo",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~100,000",
+    county: "Tom Green County",
+    climate: "semi-arid",
+    climateDriver:
+      "San Angelo sits at the confluence of the North and South Concho Rivers in the Concho Valley of west-central Texas, where a semi-arid continental climate produces hot dry summers and cool winters with occasional freezes. Texas A&M Extension Tom Green County documents scorpion and brown recluse spider activity as the dominant structural pest concerns in the region, alongside year-round fire ant pressure in irrigated areas.",
+    topPests: [
+      "Scorpions",
+      "Brown recluse spiders",
+      "Fire ants",
+      "German cockroaches",
+      "Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "March through October, peak summer",
+        note: "Texas A&M Extension identifies the striped bark scorpion as the primary scorpion species throughout west-central Texas. The dry rocky terrain of the Concho Valley and the limestone Edwards Plateau to the east support large populations. San Angelo homeowners find scorpions in garages, bathrooms, and closets regularly during the warm months.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, more active in warm months",
+        note: "Brown recluse spiders are documented throughout west Texas including the Concho Valley by Texas A&M Extension. They establish in undisturbed storage, attics, cardboard boxes, and clothing. The necrotic bite is medically significant. San Angelo's dry climate and the older housing stock in established neighborhoods support established indoor populations.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round in irrigated areas, dormant in dry spells",
+        note: "Fire ants are active in San Angelo's irrigated lawns, parks, and landscaped areas throughout the year. The semi-arid climate limits fire ant pressure in unirrigated areas, but the city's parks and residential lawns provide the moisture conditions they need.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary indoor cockroach pest in San Angelo's restaurants, multi-family buildings, and commercial facilities. The dry climate limits outdoor populations but the indoor conditions that support them year-round are consistent.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall and winter",
+        note: "House mice are a consistent pest in San Angelo, driven indoors by the dry summer heat and the cold winter freezes. The semi-arid climate reduces outdoor food sources and forces rodents toward structures for shelter and food more readily than in wetter climates.",
+      },
+    ],
+    localHook:
+      "San Angelo is the commercial hub of the Concho Valley and one of the larger cities in west Texas, and the dry rocky Concho Valley terrain creates a pest picture centered on scorpions, brown recluse spiders, and heat-driven cockroach pressure rather than the fire ant and termite combination that dominates the rest of the state. Texas A&M Extension Tom Green County is among the most active extension offices for scorpion and recluse spider education in the state.",
+    intro:
+      "Pest control in San Angelo reflects the semi-arid Concho Valley environment of west-central Texas. Scorpions are the headline structural pest concern, with the striped bark scorpion documented throughout the region by Texas A&M Extension. Brown recluse spiders establish in storage areas and older homes throughout the city. Fire ants are active in irrigated areas year-round. German cockroaches are the consistent indoor pest in commercial and multi-family settings. House mice surge in fall and winter as the dry cool weather drives them indoors.",
+    sections: [
+      {
+        heading: "Scorpions in the Concho Valley landscape",
+        body: "San Angelo's position in the semi-arid Concho Valley, with its limestone outcrops, rocky terrain, and dry conditions, creates excellent scorpion habitat. The striped bark scorpion is the species documented throughout this region by Texas A&M Extension. They are ground hunters that move indoors in search of prey insects and moisture, typically entering through weep holes in brick homes, gaps around utility penetrations, and at the foundation perimeter. Older homes with more cracks and gaps experience higher scorpion pressure than newer sealed construction. A combination of exclusion work to seal entry points and exterior residual treatment around the foundation is the standard management approach.",
+      },
+      {
+        heading: "Brown recluse spiders in storage and attics",
+        body: "Brown recluse spiders are well-documented in west Texas by Texas A&M Extension and are a genuine concern in San Angelo's established residential areas. They prefer undisturbed, dry spaces: attics, wall voids, cardboard boxes, clothing in closets, and piles of debris or firewood near the home. The spider avoids contact with humans but will bite defensively when pressed against skin. The key management steps are eliminating the undisturbed harborage they prefer, reducing clutter in storage spaces, and scheduling professional treatment of attic and storage areas annually. Storing clothing in sealed containers and inspecting stored items before handling reduces bite risk.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes, foundation gaps, and utility penetrations with mesh or caulk to block scorpion entry.",
+      "Store clothing and bedding in sealed containers and shake shoes before wearing, given the documented brown recluse presence in west Texas homes.",
+      "Treat fire ant mounds in irrigated lawn areas as they appear and apply broadcast bait in spring.",
+      "Seal garage doors and utility entry points in fall to intercept mice before winter temperatures arrive.",
+    ],
+    costNote:
+      "San Angelo pest control typically starts with a quarterly exterior program covering scorpions, cockroaches, and ants. Brown recluse spider treatment involves targeted attic and storage-area applications. Rodent exclusion is often quoted separately in fall. A free inspection establishes what is present before a plan is quoted.",
+    faqs: [
+      {
+        question: "How common are scorpion stings in San Angelo?",
+        answer:
+          "Scorpion encounters are common in San Angelo given the Concho Valley terrain and the striped bark scorpion's preference for structures. Stings from this species are painful but rarely dangerous to healthy adults, though reactions in small children or people with sensitivities warrant medical attention. Texas A&M Extension recommends exclusion work plus exterior treatment as the two-part management approach.",
+      },
+      {
+        question: "Should I worry about brown recluse spiders in my San Angelo home?",
+        answer:
+          "Yes, with some perspective. Brown recluse spiders are present in west Texas and establish in undisturbed indoor spaces, but bites are rare because they avoid humans. The risk is highest when reaching into undisturbed storage, donning clothing that has been stored, or working in attics. Reducing harborage and inspecting storage spaces regularly reduces exposure significantly.",
+      },
+      {
+        question: "Do I need termite protection in San Angelo?",
+        answer:
+          "Termite pressure in the semi-arid Concho Valley is lower than in the humid eastern parts of Texas, but not absent. Subterranean termites are documented in Tom Green County. Irrigated yards and wood-to-soil contact in landscaping create the moisture conditions they need even in a dry climate. A termite inspection every two to three years is a reasonable precaution.",
+      },
+      {
+        question: "Are fire ants in San Angelo as bad as in the rest of Texas?",
+        answer:
+          "Less so in unirrigated natural areas, but comparable in irrigated lawns and parks. The semi-arid climate limits fire ant expansion in dry terrain, but irrigated residential landscapes provide the moisture conditions fire ants need. San Angelo parks and lawns have consistent fire ant mound pressure during the warm months.",
+      },
+      {
+        question: "Why do mice seem worse in San Angelo in summer and winter?",
+        answer:
+          "The semi-arid climate creates extreme temperature stress in both directions. Summer heat reduces outdoor food and water sources, pushing rodents toward structures. Winter cold, including the occasional hard freeze in the Concho Valley, drives them indoors for shelter. Sealing utility penetrations, garage doors, and pipe entry points before each season reduces intrusion.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Midland", slug: "midland" },
+      { name: "Abilene", slug: "abilene" },
+      { name: "Waco", slug: "waco" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in San Angelo, TX | Scorpions, Brown Recluse & Fire Ants",
+    metaDescription:
+      "San Angelo pest control for scorpions, brown recluse spiders, fire ants, German cockroaches and mice. Tom Green County Concho Valley west Texas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "flower-mound",
+    name: "Flower Mound",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~80,000",
+    county: "Denton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Flower Mound occupies an elevated ridge in Denton County between Lake Grapevine to the southeast and Lake Lewisville to the northeast. The two lakes create significant mosquito breeding habitat along their shorelines and in the associated creek corridors. The Blackland Prairie clay soils across much of the city retain moisture that supports subterranean termite activity, and the warm humid subtropical climate gives fire ants an extended year-round season.",
+    topPests: [
+      "Subterranean termites",
+      "Mosquitoes",
+      "Fire ants",
+      "German cockroaches",
+      "Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May, active year-round",
+        note: "Texas A&M Extension documents significant subterranean termite pressure across Denton County's Blackland Prairie. The clay soils in Flower Mound retain moisture that supports year-round termite colony activity. The abundance of slab-on-grade construction common throughout the Dallas-Fort Worth suburbs masks early activity in wall framing.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Lake Grapevine and Lake Lewisville, which border Flower Mound on two sides, create large-scale mosquito breeding habitat along their shorelines and in the drainage channels between the lakes and the city. West Nile virus is monitored across Denton County. The lake-adjacent neighborhoods experience above-average mosquito pressure during the active season.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are a consistent landscape pest throughout Denton County. Flower Mound's established residential neighborhoods, parks, and the lakeside greenbelts all support active fire ant mounds. Texas A&M Extension ranks the Dallas-Fort Worth metro as a sustained high-pressure fire ant zone.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary indoor cockroach in Flower Mound's commercial corridors and multi-family buildings. The warm climate accelerates their reproduction. Restaurant and food service areas in Flower Mound's FM 2499 and FM 3040 commercial corridors have the highest documented pressure.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice surge in Flower Mound in fall as North Texas temperatures begin to cool. The city's slab construction homes have limited traditional entry points but consistent gaps at garage doors and utility penetrations provide access. Fall treatment and sealing work reduces winter infestations.",
+      },
+    ],
+    localHook:
+      "Flower Mound sits between two of the largest lakes in the Dallas-Fort Worth area, and that lakeside position is both the feature that makes the city attractive and the reason its mosquito season is more intense than many of its inland suburban neighbors. West Nile virus is monitored in Denton County, and the lake-adjacent neighborhoods on Flower Mound's perimeter are among the higher-pressure zones in the region.",
+    intro:
+      "Pest control in Flower Mound reflects the Blackland Prairie setting and the dual-lake geography of this Denton County suburb. Subterranean termites are documented throughout the DFW corridor, and the clay soils that underlie much of the city retain the moisture that supports year-round colony activity. Mosquitoes are an above-average concern given Lake Grapevine and Lake Lewisville on two sides of the city. West Nile virus is monitored across Denton County. Fire ants are a constant presence in the warm subtropical climate.",
+    sections: [
+      {
+        heading: "Lake-adjacent mosquito pressure",
+        body: "Lake Grapevine to the southeast and Lake Lewisville to the northeast are among the largest recreational lakes in the Dallas-Fort Worth area, and their shorelines create significant mosquito breeding habitat. The drainage channels and creek corridors connecting the lakes to Flower Mound's residential areas extend that breeding habitat deeper into the city. West Nile virus has been documented in Denton County mosquito populations. The neighborhoods closest to the lake shorelines experience the highest seasonal mosquito pressure. Professional barrier spray programs targeting vegetation from March through November are the most effective residential approach for lakeside properties.",
+      },
+      {
+        heading: "Blackland Prairie soils and termite activity",
+        body: "The Vertisol clay soils of the Blackland Prairie that underlie much of Flower Mound retain moisture in a way that supports subterranean termite colony activity for extended periods. Texas A&M AgriLife Extension documents consistent termite pressure across Denton County and the broader DFW metro corridor. The slab-on-grade construction common in Flower Mound's residential neighborhoods can mask early termite activity in wall framing because exterior mud tubes may not appear on the outer slab face until the infestation is well established. Annual professional inspections are the practical defense.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given the Blackland Prairie clay soils and documented DFW metro corridor termite pressure.",
+      "Apply fire ant bait in early spring across the full lawn before mound numbers increase after spring rains.",
+      "Reduce standing water in lake-adjacent drainage areas and yard containers weekly during the mosquito season.",
+      "Seal utility penetrations and garage door gaps in fall to intercept mice before North Texas temperatures cool.",
+    ],
+    costNote:
+      "Flower Mound pest control is typically a quarterly exterior program covering fire ants, cockroaches, and rodents. Termite protection is priced separately after inspection. Mosquito programs are commonly added from March through November, particularly for lake-adjacent properties. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Why do Flower Mound homes near the lakes have worse mosquito seasons?",
+        answer:
+          "Lake Grapevine and Lake Lewisville create large-scale mosquito breeding habitat along their shorelines and in the drainage corridors connecting to the city. Lake-adjacent neighborhoods are exposed to higher mosquito populations than inland Flower Mound areas. West Nile virus is monitored in Denton County, making professional barrier programs a practical precaution during peak season.",
+      },
+      {
+        question: "Are termites a real concern in Flower Mound's newer subdivisions?",
+        answer:
+          "Yes. Texas A&M Extension documents termite pressure across Denton County's Blackland Prairie. Newer construction disturbs soil and can displace existing colonies toward new wood. The clay soils retain moisture that supports year-round activity. Annual inspections are the practical approach for both new and established Flower Mound homes.",
+      },
+      {
+        question: "How long is fire ant season in Flower Mound?",
+        answer:
+          "Effectively year-round in the DFW climate. Colonies are active from spring through fall and survive winter in reduced form before rebuilding quickly. Texas A&M Extension recommends treating in early spring and again in fall to maintain pressure below the threshold where mounds become a safety concern in lawns and parks.",
+      },
+      {
+        question: "What should I do about German cockroaches in my Flower Mound home?",
+        answer:
+          "German cockroaches require interior treatment with targeted gel baits in their hiding areas along with sanitation measures. Exterior-only programs do not effectively control them since they live and breed indoors. A licensed technician placing bait in kitchen and bathroom harborage zones, combined with addressing moisture sources, is the effective approach.",
+      },
+      {
+        question: "Do mice in Flower Mound need to be trapped or can I just seal entry points?",
+        answer:
+          "Both. Sealing entry points prevents new mice from entering, but an existing population inside will not leave on its own without trapping or baiting. The most effective approach is to seal all entry points at the foundation and roof level first, then deploy bait stations or snap traps inside to eliminate the existing population.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Lewisville", slug: "lewisville" },
+      { name: "Denton", slug: "denton" },
+      { name: "Fort Worth", slug: "fort-worth" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Flower Mound, TX | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Flower Mound pest control for subterranean termites, mosquitoes, fire ants, German cockroaches and mice. Denton County Lake Grapevine Lake Lewisville Dallas-Fort Worth specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "leander",
+    name: "Leander",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~75,000",
+    county: "Williamson and Travis Counties",
+    climate: "hot-humid",
+    climateDriver:
+      "Leander is one of the fastest-growing cities in the United States, expanding rapidly across the edge of the Texas Hill Country and the Blackland Prairie in Williamson and Travis Counties. The Brushy Creek corridor and the Cedar Park-Leander lake system create mosquito breeding habitat, while the Hill Country limestone terrain to the west introduces scorpions into the newer western neighborhoods. Texas A&M Extension documents year-round fire ant and termite pressure across the Austin metro's suburban growth corridor.",
+    topPests: [
+      "Scorpions",
+      "Fire ants",
+      "Subterranean termites",
+      "Mosquitoes",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "March through October, peak summer",
+        note: "Texas A&M Extension documents the striped bark scorpion throughout central Texas. Leander's newest western neighborhoods are being built directly on Hill Country limestone terrain, which is the scorpion's primary natural habitat. Residents in these areas find scorpions indoors within weeks of moving in, entering through weep holes and foundation gaps.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are active year-round in the Austin metro's warm subtropical climate and are documented throughout Williamson County by Texas A&M Extension. Leander's rapid growth continually creates new areas of disturbed soil where fire ant colonies establish quickly.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active year-round",
+        note: "Subterranean termite pressure is documented throughout the Austin metro corridor including Williamson County. Leander's expansion into previously undisturbed land places new residential construction in territory where termite colonies were already active.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Brushy Creek regional park system and the lake areas in the Cedar Park-Leander corridor create mosquito breeding habitat close to Leander's newer neighborhoods. West Nile virus is monitored across Williamson County.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary indoor cockroach pest in Leander's commercial corridors along US 183 and in multi-family residential developments. The warm climate keeps their reproductive cycles short.",
+      },
+    ],
+    localHook:
+      "Leander has been among the fastest-growing cities in the United States for several consecutive years, and that growth rate means its western neighborhoods are being built directly on Hill Country limestone terrain where scorpions have always lived. Homeowners who move from other states are often caught off guard by scorpions appearing in their brand-new home within the first month.",
+    intro:
+      "Pest control in Leander is shaped by two forces working together: the pace of growth and the Hill Country edge. Scorpions from the limestone terrain to the west show up in new construction regularly. Fire ants and subterranean termites are year-round concerns throughout the Austin metro corridor. The Brushy Creek system creates mosquito habitat close to newer residential areas. For homeowners moving from out of state, the combination of scorpions, fire ants, and a 9-month-long pest season is a significant adjustment from the pest calendars they were used to.",
+    sections: [
+      {
+        heading: "Scorpions in Leander's newest neighborhoods",
+        body: "The western expansion of Leander is cutting new subdivisions directly into Hill Country limestone terrain that is natural scorpion habitat. The striped bark scorpion documented throughout central Texas by Texas A&M Extension is ground-dwelling and follows food sources into homes through weep holes, foundation cracks, and gaps at plumbing penetrations. Newly completed homes in Leander's western developments have not had the time to develop the gradual seal-up that older homes acquire through successive repairs and maintenance. A targeted inspection and exclusion treatment in the first few months of occupancy addresses the most common entry points before scorpion pressure becomes an ongoing nuisance.",
+      },
+      {
+        heading: "The long pest season in a fast-growing city",
+        body: "The Austin metro's subtropical climate means fire ants, mosquitoes, and cockroaches are all active for nine or more months of the year. Leander's rapid growth also means constant construction disturbance, which relocates fire ant colonies and termite galleries toward completed structures. Annual termite inspections and a recurring exterior pest program are the practical baseline for most Leander homes. Homeowners relocating from northern states often find the adjustment to year-round pest management the biggest surprise about central Texas property ownership.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes and foundation gaps in western Leander neighborhoods immediately after move-in to block scorpion entry from the Hill Country limestone.",
+      "Apply fire ant broadcast bait in spring when soil temperatures are above 65 degrees across new and established lawns.",
+      "Remove standing water from Brushy Creek drainage areas and yard containers weekly during the extended mosquito season.",
+      "Schedule a termite inspection within the first year of owning a Leander home given the Austin metro corridor pressure.",
+    ],
+    costNote:
+      "Leander pest control is typically a quarterly exterior program covering scorpions, fire ants, and cockroaches. Termite protection and mosquito programs are priced separately. New-construction homes in western Leander may benefit from an exclusion consultation in addition to standard exterior treatment. A free inspection is the first step.",
+    faqs: [
+      {
+        question: "Why do scorpions appear in new Leander homes so quickly?",
+        answer:
+          "Because the western subdivisions are being built on limestone terrain that already had established scorpion populations before construction. The clearing and grading process disturbs their habitat, and the new structure provides new shelter. Weep holes and foundation gaps are the primary entry points. Getting exclusion work done early is the most effective prevention step.",
+      },
+      {
+        question: "Is Leander in a high-termite-pressure area?",
+        answer:
+          "Yes. Texas A&M Extension documents subterranean termite activity throughout the Austin metro corridor and Williamson County. Leander's rapid growth puts new homes in areas where termite colonies were active before construction. Annual inspections are the practical defense.",
+      },
+      {
+        question: "How is pest management different for Leander homeowners moving from out of state?",
+        answer:
+          "The season length and the scorpion factor are the two biggest adjustments. In most northern states, pest activity drops to near zero in winter. In Leander, fire ants, cockroaches, and termites are active for most of the year. Scorpions are not a concern in most of the country but are a real ongoing presence in Hill Country-edge neighborhoods here.",
+      },
+      {
+        question: "Are there mosquitoes near the Brushy Creek trail system in Leander?",
+        answer:
+          "Yes. The Brushy Creek regional system creates mosquito breeding habitat in slower-moving and ponded sections. West Nile virus is monitored in Williamson County. Properties backing directly onto the creek corridor benefit from professional barrier spray programs during the active season.",
+      },
+      {
+        question: "How often should a Leander home be treated for pests?",
+        answer:
+          "Most Leander homes do well on a quarterly exterior program that covers fire ants, scorpions, cockroaches, and spiders. Given the warm climate, the active season is long, and quarterly spacing maintains effective control without gaps. Termite and mosquito programs are added based on property-specific factors.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Cedar Park", slug: "cedar-park" },
+      { name: "Round Rock", slug: "round-rock" },
+      { name: "Austin", slug: "austin" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Leander, TX | Scorpions, Fire Ants & Termites",
+    metaDescription:
+      "Leander pest control for scorpions, fire ants, subterranean termites, mosquitoes and German cockroaches. Williamson County Austin metro Hill Country edge Texas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

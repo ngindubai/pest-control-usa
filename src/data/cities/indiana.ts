@@ -885,4 +885,214 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "Hammond pest control for house mice, Norway rats, German cockroaches, subterranean termites and mosquitoes. Lake County Calumet Region northwest Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "lafayette",
+    name: "Lafayette",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~70,000",
+    county: "Tippecanoe County",
+    climate: "cold-humid",
+    climateDriver:
+      "Lafayette sits on the Wabash River in Tippecanoe County with a cold, humid midwest climate. Cold winters drive mice and stink bugs into structures each fall, while the Wabash River floodplain adds moisture that sustains termite pressure. Purdue University's presence creates a large, high-turnover rental market adjacent to the historic downtown.",
+    topPests: [
+      "House Mice",
+      "Stink Bugs",
+      "Subterranean Termites",
+      "German Cockroaches",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note:
+          "Lafayette's cold Wabash River valley winters drive mice into heated structures hard from October through March. The older housing stock near Purdue and in the historic neighborhoods west of the river accumulates the foundation gaps and aging sill plates that give mice reliable access.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note:
+          "Purdue Extension documents brown marmorated stink bugs as established throughout Tippecanoe County. Lafayette sees reliable September aggregations on building exteriors, with older homes near campus particularly susceptible to wall void entry through aging window frames.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm March through May, active year-round underground",
+        note:
+          "Purdue Extension confirms eastern subterranean termite pressure across Tippecanoe County. The Wabash River corridor's humidity elevates risk for homes with crawl spaces and wood near soil contact in the river corridor neighborhoods.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are a consistent presence in Lafayette's rental housing near Purdue University. High annual tenant turnover creates a regular stream of introductions, and older multi-family buildings with shared plumbing infrastructure allow populations to spread between units.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October, peak July through August",
+        note:
+          "The Wabash River floodplain and the Tippecanoe River confluence area generate significant mosquito breeding habitat. Lafayette properties near the river corridor and Wildcat Creek see higher pressure than inland residential areas.",
+      },
+    ],
+    localHook:
+      "Lafayette's combination of Purdue University's rental market, Wabash River corridor humidity, and cold midwest winters creates a pest environment that includes the stink bug and mouse pressures common to all Indiana cities plus elevated termite risk near the river and cockroach cycling through the student rental housing stock.",
+    intro:
+      "Pest control in Lafayette, Indiana is shaped by two things: the Wabash River corridor and Purdue University. The river adds the moisture pressure that elevates termite and mosquito activity, particularly for older homes with crawl spaces along the river corridor west of downtown. Purdue's large student population creates the high-turnover rental housing market where German cockroaches cycle through apartment buildings near campus.\n\nStink bugs are a fall certainty across Tippecanoe County, aggregating on building exteriors each September. Mice push in from October as cold Wabash River valley temperatures arrive. Subterranean termites are a documented presence that annual inspections address before structural damage develops. Purdue Extension serves as the regional pest intelligence resource, and its data confirms that Lafayette's pest pressures are manageable with the right seasonal approach.",
+    sections: [
+      {
+        heading: "Cockroach management in Lafayette's Purdue rental market",
+        body: "The rental housing near Purdue University experiences the same cockroach dynamics as other university towns: high annual tenant turnover creates a regular stream of new introductions, and older multi-family buildings with shared plumbing chases allow established populations to spread between units. Building-level gel bait programs applied to harborage sites in kitchens and bathrooms across all units simultaneously are more effective than treating individual units as complaints arise. For landlords, scheduling professional treatment at tenant turnover for high-turnover buildings is the most cost-effective management approach. For tenants moving in, inspecting cabinet interiors and appliance gaps before unpacking can catch an existing infestation before it grows.",
+      },
+      {
+        heading: "Termite risk in Lafayette's Wabash River corridor",
+        body: "Eastern subterranean termites are documented throughout Tippecanoe County, and the neighborhoods along the Wabash River west of downtown Lafayette face elevated risk from the floodplain's consistent humidity. Termites enter structures through soil-to-wood contact and mud tubes along foundation walls, working quietly for years before homeowners notice any visible sign. For Lafayette homes in the river corridor with crawl spaces, annual professional inspections are the standard precaution. Spring, from March through May, is the swarming season when winged termites emerge near windows and doors and give homeowners the most common early detection signal.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, utility penetrations, and sill plate gaps in September before the cold October push that drives mice into heated structures.",
+      "Seal gaps around window frames, soffits, and exterior utility lines in August before stink bugs begin aggregating on south-facing building walls.",
+      "Schedule annual termite inspections for homes with crawl spaces in the Wabash River corridor, particularly in the spring swarming season.",
+      "Eliminate standing water near the Wabash River edge, in gutters, and in yard containers before mosquito season opens in May.",
+    ],
+    costNote:
+      "Lafayette pest pricing follows standard central Indiana rates. Building-wide cockroach programs for Purdue-area rental housing are priced per building. Termite inspections are offered at no charge with treatment quoted after assessment. Annual programs covering mice, stink bugs, and termite monitoring are available.",
+    faqs: [
+      {
+        question: "Are cockroaches a big problem in Lafayette apartments near Purdue?",
+        answer:
+          "They are a consistent, managed concern rather than an exceptional problem. High tenant turnover creates regular introduction events, and older apartment buildings near campus have the shared plumbing infrastructure that allows populations to spread. Landlords who run proactive building-wide gel bait programs keep the problem well below complaint level. Tenants who report sightings early rather than trying to manage with over-the-counter sprays get the fastest resolution.",
+      },
+      {
+        question: "Is termite risk higher near the Wabash River?",
+        answer:
+          "Yes, modestly. Subterranean termites are present throughout Tippecanoe County, but the consistent humidity of the Wabash River floodplain creates conditions where soil moisture and wood moisture stay elevated longer, sustaining termite foraging activity at higher levels than drier upland areas. Homes with crawl spaces in the river corridor neighborhoods west of downtown Lafayette represent the higher end of local termite exposure.",
+      },
+      {
+        question: "When do stink bugs invade Lafayette homes?",
+        answer:
+          "September through November, with peak entry in October. Stink bugs aggregate on south and west-facing building exteriors starting in late September as temperatures drop and then work into wall voids through gaps around windows, soffits, and utility lines. Sealing those gaps in August, before the aggregation begins, is far more effective than attempting control after the insects are present on the walls.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis" },
+      { name: "Gary", slug: "gary" },
+      { name: "Hammond", slug: "hammond" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Lafayette, IN | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Lafayette pest control for house mice, stink bugs, subterranean termites, German cockroaches and mosquitoes. Tippecanoe County Wabash River Purdue University specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "noblesville",
+    name: "Noblesville",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~75,000",
+    county: "Hamilton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Noblesville is a fast-growing suburban city north of Indianapolis in Hamilton County with a cold, humid midwest climate. Its large inventory of newer suburban homes still sees consistent stink bug and mouse pressure each fall, while the White River corridor through the city adds mosquito and termite pressure from the floodplain.",
+    topPests: [
+      "Stink Bugs",
+      "House Mice",
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note:
+          "Purdue Extension confirms brown marmorated stink bugs are established throughout Hamilton County. Noblesville's large residential housing inventory, including many newer homes with modern window sealing, still sees annual fall aggregations. Gaps form around utility penetrations and garage connections in even newer construction.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note:
+          "Noblesville's cold midwest winters drive mice into structures from October through March. The city's rapid growth means newer homes in adjacent fields and development corridors face pressure from displaced field mouse populations as land is converted.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm March through May, active year-round underground",
+        note:
+          "Purdue Extension documents eastern subterranean termite pressure across Hamilton County. The White River floodplain through Noblesville elevates moisture and termite risk for riverside properties and older homes with crawl spaces.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October, peak July through August",
+        note:
+          "The White River floodplain and Morse Reservoir area near Noblesville create significant mosquito breeding habitat. Properties near the river corridor and the reservoir edge see higher pressure than inland residential areas.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "Peak July through September",
+        note:
+          "Yellow jackets nest in Noblesville's residential lawn areas, particularly in development-adjacent properties where undisturbed soil provides nesting ground. Colonies reach maximum size in late summer and peak aggression in August and September.",
+      },
+    ],
+    localHook:
+      "Noblesville is one of Indiana's fastest-growing cities, and rapid residential development means pest pressure from displaced field populations in the development corridor alongside the stink bug and mouse pressures common to Hamilton County. The White River's mosquito habitat rounds out the seasonal picture.",
+    intro:
+      "Noblesville sits at the growth edge of the Indianapolis metro in Hamilton County, and its pest picture reflects both its suburban character and its rapid expansion. Stink bugs are the most widely reported fall pest, and their annual September aggregation on residential building exteriors is as reliable in Noblesville's newer housing as in older homes. Mice follow with the October cold push, using garage connections and utility penetrations in newer construction as readily as the aging foundation gaps in older homes.\n\nThe White River corridor adds mosquito pressure from May through October and elevates termite risk for riverside properties. Yellow jackets nest in the residential landscaping through summer, peaking in late August. Purdue Extension confirms all of these as documented pressures throughout Hamilton County, and Noblesville's growth pace means new homes at the development edge face field mouse displacement pressure that established neighborhoods do not.",
+    sections: [
+      {
+        heading: "Field mouse pressure in Noblesville's growth corridors",
+        body: "Noblesville's rapid residential expansion creates a pest dynamic that established neighborhoods do not face at the same level: when agricultural land is converted to residential development, the field mouse populations living in those fields are displaced and actively seek new harborage. New homes adjacent to undeveloped fields or recent construction sites often see higher mouse pressure in their first few years than homes in established subdivisions. This is a documented pattern in high-growth Indiana suburbs, and Noblesville's expansion along US-31 and SR-37 puts new residential phases consistently at this edge. Fall exclusion work sealing garage connections, foundation weep holes, and utility penetrations in September addresses both the normal fall mouse surge and the displacement pressure from adjacent fields.",
+      },
+    ],
+    prevention: [
+      "Seal garage door gaps, utility penetrations, and foundation weep holes in September before the fall mouse surge, particularly for homes adjacent to undeveloped land.",
+      "Seal gaps around window frames, soffits, and exterior utility lines in August before stink bugs begin aggregating on building exteriors.",
+      "Eliminate standing water near the White River corridor, in gutters, and in yard containers before mosquito season opens in May.",
+      "Schedule annual termite inspections for White River corridor properties and older homes with crawl spaces.",
+    ],
+    costNote:
+      "Noblesville pest pricing follows standard central Indiana suburban rates. Termite inspections are offered at no charge with treatment quoted after assessment. Annual programs covering mice, stink bugs, and mosquitoes are available and cost-effective for Noblesville's large single-family home inventory.",
+    faqs: [
+      {
+        question: "Why do new homes in Noblesville get mice when they are newly built?",
+        answer:
+          "New construction adjacent to fields and undeveloped land displaces the mouse populations living in those areas. As land is cleared and built on, field mice actively seek new harborage in the nearest heated structures, which are often the new homes at the development edge. All homes, new or old, have utility penetrations, garage connections, and foundation weep holes that mice can enter through. Fall exclusion work sealing those gaps in September addresses both the normal mouse surge and the displacement pressure from adjacent development.",
+      },
+      {
+        question: "Is mosquito pressure worse near the White River in Noblesville?",
+        answer:
+          "Yes. The White River floodplain creates wetland breeding habitat that generates higher mosquito pressure for properties near the river corridor than for inland residential areas. Morse Reservoir north of the city also contributes. Properties within a half mile of the river corridor see earlier spring activity and higher peak populations from June through August. Property-level barrier spray targeting resting adults in vegetation provides meaningful reduction around outdoor living areas.",
+      },
+      {
+        question: "Do I need a termite inspection for a newer Noblesville home?",
+        answer:
+          "Newer construction carries lower termite risk than pre-WWII homes, but it is not zero risk. Purdue Extension confirms termite pressure throughout Hamilton County, and the White River corridor's moisture elevates activity for riverside properties regardless of home age. For newer homes away from the river, the risk is lower and annual inspections are a precaution rather than a necessity. For homes adjacent to the White River floodplain, annual inspections are a reasonable standard of care.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis" },
+      { name: "Hammond", slug: "hammond" },
+      { name: "Gary", slug: "gary" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Noblesville, IN | Stink Bugs, Mice & Mosquitoes",
+    metaDescription:
+      "Noblesville pest control for stink bugs, house mice, subterranean termites, mosquitoes and yellow jackets. Hamilton County White River Indianapolis suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

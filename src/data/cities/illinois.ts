@@ -1196,4 +1196,456 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Bloomington IL pest control for house mice, subterranean termites, German cockroaches, odorous house ants and mosquitoes. McLean County Corn Belt central Illinois specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "cicero",
+    name: "Cicero",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~84,000",
+    county: "Cook County",
+    climate: "cold-humid",
+    climateDriver:
+      "Cicero is one of the densest municipalities in Illinois, sitting immediately west of Chicago in Cook County. The cold-humid continental climate produces harsh winters that drive rodents into structures, hot summers that accelerate cockroach reproduction, and a peak fall season for stink bugs. The older urban housing stock, the density of connected row homes, and the proximity to Chicago's urban core create sustained cockroach, rodent, and bed bug pressure that urban extension research by the University of Illinois documents throughout Cook County's inner suburbs.",
+    topPests: [
+      "German cockroaches",
+      "Mice",
+      "Norway rats",
+      "Bed bugs",
+      "Stink bugs",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary pest concern in Cicero's dense residential and commercial environment. The hot humid summers accelerate their reproductive cycle, and the density of multi-unit housing with shared utilities provides extensive dispersal routes between units. University of Illinois urban pest research identifies inner Cook County as a high-pressure German cockroach zone.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice surge into Cicero's older housing stock in fall as Chicago's cold-humid continental climate begins to cool. Older row homes with accumulated gaps at foundations, deteriorated plumbing penetrations, and aging door seals provide multiple entry routes. Cold Chicago winters make structures a necessity for mice rather than just a convenience.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Norway rats are a consistent concern in Cicero's commercial and alley-facing residential areas. Chicago's inner suburbs have documented Norway rat pressure in food service alleys, restaurant refuse areas, and older commercial zones. Burrowing along building foundations is the typical entry pattern.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a documented concern in Cicero's multi-family housing. Dense residential conditions and frequent resident movement in the Chicago metropolitan area create conditions for bed bug introduction and spread in multi-unit buildings. Early professional treatment before populations spread between units is the critical management step.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering, summer outdoors",
+        note: "Brown marmorated stink bugs seek overwintering shelter in structures across the Chicago metro in fall. University of Illinois Extension documents their establishment across northeast Illinois. Cicero's dense housing stock with numerous wall gaps provides extensive overwintering habitat.",
+      },
+    ],
+    localHook:
+      "Cicero's density and the age of its housing stock make it one of the more challenging pest management environments in the Chicago metro. Row homes with shared walls, where a cockroach or mouse infestation in one unit has direct access to all connected neighbors through shared wall voids and utility chases, require building-level thinking rather than individual-unit responses.",
+    intro:
+      "Pest control in Cicero reflects the challenges of dense inner-ring Cook County urban housing. German cockroaches thrive in the warm interiors of older multi-unit housing and spread through shared utilities between connected units. Mice and Norway rats surge in fall as Chicago winters set in. Bed bugs are a consistent concern in multi-family buildings given the density and turnover of residents. Brown marmorated stink bugs invade in fall seeking overwintering shelter in the accumulated gaps of older housing.",
+    sections: [
+      {
+        heading: "German cockroaches in connected urban housing",
+        body: "German cockroaches are the primary pest challenge in Cicero's connected row homes and multi-unit apartment buildings. They travel through shared wall voids, utility chases, and plumbing runs between units continuously, meaning effective management requires addressing the whole building rather than individual units in isolation. University of Illinois urban pest extension research confirms that single-unit treatment in connected buildings produces temporary results because the broader population persists in adjacent spaces. Building-level programs with coordinated treatment of multiple units simultaneously, combined with sealing shared utility penetrations, achieve more durable results.",
+      },
+      {
+        heading: "Rodent pressure in the Chicago metro's west side",
+        body: "Cicero's position in Chicago's inner western suburbs places it in a documented rodent management challenge area. Cook County's urban core and inner suburbs have sustained Norway rat and mouse populations in commercial alleys, food service areas, and drainage infrastructure. House mice in Cicero's older housing surge significantly in fall as the cold-humid continental climate makes warmth a survival necessity rather than just a preference. Exclusion work that seals foundation gaps, covers plumbing penetrations, and installs quality door sweeps is the most durable long-term approach. Bait station programs in commercial alley-facing locations maintain pressure on Norway rat populations between exclusion cycles.",
+      },
+    ],
+    prevention: [
+      "Coordinate pest treatment with adjacent units or the property owner when dealing with German cockroaches in connected Cicero row homes or apartment buildings.",
+      "Seal foundation gaps, utility penetrations, and door sweeps before fall when Chicago temperatures drop and mice begin seeking indoor shelter.",
+      "Report bed bug signs to building management immediately to prevent a single-unit infestation from spreading through shared walls.",
+      "Seal exterior wall gaps and attic vents in late September before stink bugs begin overwintering entry.",
+    ],
+    costNote:
+      "Cicero pest control in multi-family buildings is most effective and cost-efficient as a building-wide program. Single-unit service addresses symptoms but not the source in connected housing. Monthly or bi-monthly service is often appropriate in dense urban environments. A free inspection establishes the scope before a plan is quoted.",
+    faqs: [
+      {
+        question: "Why do German cockroaches keep appearing even after I treat my Cicero apartment?",
+        answer:
+          "In connected row homes and apartment buildings, cockroaches travel through shared wall voids and utility chases from adjacent units. Single-unit treatment eliminates the local population but the broader colony in connected spaces recolonizes quickly. Building-wide treatment coordinated by property management is the effective solution.",
+      },
+      {
+        question: "How quickly do mice get into Cicero homes in fall?",
+        answer:
+          "Very quickly once temperatures drop. House mice can enter through gaps as small as a dime, and Cicero's older housing stock has accumulated gaps at foundations, aging plumbing penetrations, and deteriorated door seals. A pre-season exclusion inspection in September or early October, combined with bait stations, prevents most fall infestations.",
+      },
+      {
+        question: "Are Norway rats different from the mice I see in my home?",
+        answer:
+          "Yes. Norway rats are significantly larger, typically 7 to 10 inches long excluding the tail, compared to house mice at 3 to 4 inches. They are burrowing rodents that typically approach buildings from ground level and prefer commercial and alley environments. Mice are better climbers and more likely to be found inside residential spaces. Different management approaches are used for each.",
+      },
+      {
+        question: "What are stink bugs and why do they come into Cicero homes?",
+        answer:
+          "Brown marmorated stink bugs are invasive insects from Asia that were established in northeastern Illinois by the early 2010s. They seek overwintering shelter inside buildings in fall, entering through gaps around windows, doors, and utility penetrations. They do not bite or damage structures, but large numbers in walls and attic spaces are a nuisance and emit a strong odor when disturbed.",
+      },
+      {
+        question: "Is bed bug treatment available for a full apartment building in Cicero?",
+        answer:
+          "Yes, and building-wide treatment is the appropriate approach when multiple units are involved. Heat treatment or chemical treatment of all infested and adjacent units simultaneously is the most effective approach. Individual unit treatment when neighboring units are untreated produces limited results in connected buildings.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Chicago", slug: "chicago" },
+      { name: "Berwyn", slug: "berwyn" },
+      { name: "Oak Park", slug: "oak-park" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Cicero, IL | Cockroaches, Mice & Rats",
+    metaDescription:
+      "Cicero pest control for German cockroaches, house mice, Norway rats, bed bugs and stink bugs. Cook County inner Chicago suburb dense urban housing specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "schaumburg",
+    name: "Schaumburg",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~75,000",
+    county: "Cook County",
+    climate: "cold-humid",
+    climateDriver:
+      "Schaumburg is a major commercial and retail suburb in northwest Cook County, home to Woodfield Mall and one of the most active commercial corridors in the Chicago metropolitan area. The cold-humid continental climate drives rodents indoors in fall and creates a significant stink bug season. University of Illinois Extension documents subterranean termite activity in northeast Illinois, and the mix of older residential neighborhoods and dense commercial areas creates diverse year-round pest pressure.",
+    topPests: [
+      "Stink bugs",
+      "Mice",
+      "German cockroaches",
+      "Subterranean termites",
+      "Yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering, summer outdoors",
+        note: "Brown marmorated stink bugs are well-established across the Chicago metro area per University of Illinois Extension documentation. Schaumburg's established residential neighborhoods with mature trees provide summer habitat, and the older housing stock on the edges of commercial areas has the exterior gaps needed for fall overwintering entry.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice are a consistent fall and winter concern in Schaumburg as Chicago-area temperatures drop. The transition between commercial and residential areas creates rodent pressure from the commercial side as restaurants and food service areas close for winter or reduce activity.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Schaumburg's massive commercial food service corridor along Golf Road, Higgins Road, and the Woodfield Mall area creates sustained German cockroach pressure in commercial kitchens and restaurants. Adjacent residential areas experience pressure when commercial treatments are not maintained.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "University of Illinois Extension documents subterranean termite activity across northeast Illinois, including Cook County. Schaumburg's mix of older residential neighborhoods and properties with tree-root-to-soil wood contact provides entry conditions. Annual inspections are the practical approach.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall, most aggressive in late summer",
+        note: "Yellow jackets are a significant late summer and fall concern in Schaumburg's mixed commercial and residential environment. They build ground nests and wall void nests in structures and become increasingly aggressive in fall. The commercial food service environment attracts yellow jackets from adjacent areas.",
+      },
+    ],
+    localHook:
+      "Schaumburg's Woodfield Mall and its surrounding commercial restaurant corridor generate more German cockroach pressure per square mile than almost any area in the Chicago suburbs. Commercial kitchens that do not maintain consistent pest programs create conditions where cockroaches spread to adjacent residential areas, and property managers in the corridor know that coordinated commercial pest programs are the only effective long-term approach.",
+    intro:
+      "Pest control in Schaumburg reflects the northwest suburban Chicago environment and the influence of one of the region's most active commercial corridors. Brown marmorated stink bugs are well-established in the Chicago metro per University of Illinois Extension, and Schaumburg's residential neighborhoods experience significant fall invasion. Mice surge in fall as Chicago winters set in. German cockroaches are a consistent commercial pest given the Woodfield Mall food service environment, with adjacent residential areas at risk when commercial programs lapse. Subterranean termites are documented in northeast Illinois.",
+    sections: [
+      {
+        heading: "Stink bugs and the Chicago metro fall invasion",
+        body: "Brown marmorated stink bugs were established in northeast Illinois during the early 2010s and are now a consistent fall pest across the Chicago metro area per University of Illinois Extension. In Schaumburg's established residential neighborhoods, they enter structures through gaps around windows, doors, and utility penetrations starting in late September. They overwinter in wall voids and attic spaces and emerge in spring to return outdoors. They do not reproduce indoors, but large overwintering populations in walls and attics are a nuisance and emit a strong defensive odor when disturbed. Sealing exterior gaps in late summer before entry season is the most effective prevention approach.",
+      },
+      {
+        heading: "Commercial pest pressure in a major retail suburb",
+        body: "Schaumburg's Woodfield Mall and the dense restaurant and retail corridor surrounding it represent one of the largest concentrations of commercial food service in the Chicago suburbs. German cockroaches in commercial kitchens that do not maintain consistent pest programs spread through drain pipes, shared delivery areas, and adjacent building connections into neighboring food service and residential areas. Effective pest management in the Schaumburg commercial corridor requires coordinated programs across multiple adjacent businesses rather than individual reactive treatment. Residential properties immediately adjacent to the commercial corridor may experience elevated cockroach and rodent pressure that originates from less well-maintained commercial neighbors.",
+      },
+    ],
+    prevention: [
+      "Seal exterior wall gaps, window frames, and utility penetrations in August and September before stink bugs begin seeking overwintering sites.",
+      "Seal foundation gaps and install door sweeps in fall to intercept mice before Chicago-area temperatures force them indoors.",
+      "Schedule annual termite inspections given University of Illinois documentation of subterranean termite activity in Cook County.",
+      "Coordinate with adjacent food service businesses if German cockroach pressure appears to be originating from a commercial neighbor.",
+    ],
+    costNote:
+      "Schaumburg pest control for residential properties is typically a quarterly program covering ants, cockroaches, and rodents, with stink bug exclusion work and termite inspection priced separately. Commercial properties benefit from monthly service given the food service environment. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Are stink bugs as bad in Schaumburg as they are further east?",
+        answer:
+          "Brown marmorated stink bugs are established and expanding across the Chicago metro area. University of Illinois Extension documents their spread in northeast Illinois. Schaumburg's established neighborhoods with mature trees provide good summer habitat, and the fall invasion season is real and noticeable for many homeowners, particularly in houses with older exterior sealing.",
+      },
+      {
+        question: "Can commercial pest programs in Schaumburg affect my home?",
+        answer:
+          "Commercial pest programs can affect adjacent residential areas in both directions. Well-maintained commercial programs reduce cockroach and rodent pressure that would otherwise spread to neighbors. Poorly maintained commercial kitchens create reservoirs of pressure that spread outward. If you suspect a nearby commercial property is the source of your cockroach problem, a conversation with building management or a call to the local health department is the appropriate step.",
+      },
+      {
+        question: "How do I know if I have subterranean termites in my Schaumburg home?",
+        answer:
+          "The primary signs are mud tubes on foundation walls, swarmer activity in spring, and hollow or damaged wood. In Schaumburg's cold climate, termite swarms typically occur in April through June. University of Illinois Extension documents their activity across Cook County. An annual spring inspection by a licensed professional is the practical detection approach.",
+      },
+      {
+        question: "Why are yellow jackets so aggressive in late summer in Schaumburg?",
+        answer:
+          "Yellow jacket colonies reach peak population size in late summer and early fall. Worker foraging activity intensifies as natural food sources decline and colonies send foragers to human food sources. Their protective instinct around the nest is strongest at peak colony size. They are more likely to sting when foraging near food than when passing through areas away from their nest.",
+      },
+      {
+        question: "How many mice typically enter a Schaumburg home in fall?",
+        answer:
+          "A single pair of mice can establish a household population of 20 to 30 within a season. The presence of one mouse almost always means others have entered or will enter. A snap trap grid combined with exclusion work is more effective than waiting to see how many appear.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Chicago", slug: "chicago" },
+      { name: "Elgin", slug: "elgin" },
+      { name: "Naperville", slug: "naperville" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Schaumburg, IL | Stink Bugs, Mice & Cockroaches",
+    metaDescription:
+      "Schaumburg pest control for stink bugs, house mice, German cockroaches, subterranean termites and yellow jackets. Cook County Woodfield Mall northwest Chicago suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bolingbrook",
+    name: "Bolingbrook",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~74,000",
+    county: "Will and DuPage Counties",
+    climate: "cold-humid",
+    climateDriver:
+      "Bolingbrook spans Will and DuPage Counties in the southwest Chicago suburbs, where the DuPage River and its tributaries create moisture corridors that influence local pest activity. The cold-humid continental climate drives mice indoors in fall and produces significant stink bug overwintering pressure. University of Illinois Extension documents subterranean termite activity in the DuPage River corridor and notes increasing brown marmorated stink bug pressure in northeast Illinois.",
+    topPests: [
+      "Stink bugs",
+      "Mice",
+      "Subterranean termites",
+      "German cockroaches",
+      "Carpenter ants",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering",
+        note: "Brown marmorated stink bugs are established in Will and DuPage Counties per University of Illinois Extension. Bolingbrook's residential neighborhoods see consistent fall invasion as populations seek overwintering sites in structures. Sealing exterior gaps before late September is the most effective prevention.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice are the primary rodent pest in Bolingbrook's residential areas. The cold-humid Chicago area climate makes fall entry into structures a survival behavior. Slab-on-grade construction homes have fewer traditional entry points, but gaps at garage doors and utility penetrations remain consistent access routes.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "University of Illinois Extension documents subterranean termite activity across northeast Illinois, and the DuPage River corridor creates the moisture conditions that support colony activity. Annual inspections are the practical approach for Bolingbrook properties.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary indoor cockroach in Bolingbrook's commercial corridors, particularly along Route 53 and the retail areas near Interstate 55. Adjacent residential areas can experience pressure from poorly maintained commercial properties.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Carpenter ants are a consistent nuisance and occasional structural concern in Bolingbrook's wooded residential areas near the DuPage River corridor. University of Illinois Extension identifies carpenter ant activity in northeast Illinois as significant in homes with moisture damage or wood-to-soil contact.",
+      },
+    ],
+    localHook:
+      "Bolingbrook's DuPage River corridor creates a wildlife and pest movement zone that cuts through established neighborhoods, connecting forest preserve areas to residential backyards. University of Illinois Extension documents that the DuPage River's moisture influence supports subterranean termite activity in the surrounding residential areas, and the wooded edges bring carpenter ants, deer ticks, and wildlife pests that pure suburban settings do not deal with as frequently.",
+    intro:
+      "Pest control in Bolingbrook reflects the southwest Chicago suburban environment and the DuPage River corridor's influence. Brown marmorated stink bugs invade in fall for overwintering, as documented throughout northeast Illinois by University of Illinois Extension. Mice surge in fall as Chicago area temperatures drop. Subterranean termites are active in the moisture-influenced soils along the DuPage River corridor. German cockroaches are the primary commercial pest in the retail corridors. Carpenter ants are a spring through fall concern in properties bordering wooded areas.",
+    sections: [
+      {
+        heading: "DuPage River corridor and termite activity",
+        body: "The DuPage River and its associated forest preserves create a moisture-rich corridor that runs through and around Bolingbrook, influencing subterranean termite activity in the adjacent residential neighborhoods. University of Illinois Extension documents subterranean termite activity across Will and DuPage Counties, and properties close to the river corridor have elevated exposure compared to fully inland locations. Annual professional termite inspections are the practical standard for Bolingbrook homes, particularly those with any wood-to-soil contact, landscaping ties, or moisture issues near the foundation that would be attractive to foraging termite colonies.",
+      },
+      {
+        heading: "Fall stink bug and mouse season in Bolingbrook",
+        body: "Bolingbrook's residential neighborhoods see both stink bugs and house mice seeking overwintering shelter in fall as Chicago-area temperatures begin to drop. Brown marmorated stink bugs enter through gaps around windows, doors, and utility penetrations starting in September. House mice enter through gaps as small as a dime at foundation level and around plumbing penetrations. Addressing both pests before fall requires an exterior inspection in August or early September to identify and seal entry points before the peak entry season. A single pre-season exclusion visit that seals the most common entry routes is more effective than multiple reactive treatments after entry has occurred.",
+      },
+    ],
+    prevention: [
+      "Seal exterior wall gaps, window frames, and utility penetrations in August before stink bug entry season in the Chicago area.",
+      "Seal foundation gaps and install quality door sweeps before October to intercept house mice before Chicago temperatures force them indoors.",
+      "Schedule annual termite inspections for properties near the DuPage River corridor given the moisture-influenced subterranean termite activity.",
+      "Reduce wood-to-soil contact at the foundation and address moisture issues to reduce carpenter ant and termite harborage.",
+    ],
+    costNote:
+      "Bolingbrook pest control is typically a quarterly exterior program covering mice, ants, and cockroaches. Termite inspection and stink bug exclusion are priced separately. DuPage River-adjacent properties may benefit from additional moisture-focused termite prevention. A free inspection establishes what is present.",
+    faqs: [
+      {
+        question: "Are subterranean termites common in Bolingbrook?",
+        answer:
+          "Yes. University of Illinois Extension documents subterranean termite activity across northeast Illinois. Properties near the DuPage River corridor have elevated exposure because the moist soils adjacent to the river support colony activity. Annual inspections are the practical precaution.",
+      },
+      {
+        question: "How do I prevent stink bugs from overwintering in my Bolingbrook home?",
+        answer:
+          "The most effective approach is pre-season exclusion work in August or early September before they begin seeking entry points. Seal gaps around windows, doors, utility penetrations, and siding overlaps with caulk or weatherstripping. Exterior residual spray around entry points applied before the entry season provides an additional deterrent.",
+      },
+      {
+        question: "Are carpenter ants in Bolingbrook a structural threat?",
+        answer:
+          "Carpenter ants excavate wood to create galleries but do not eat it, so structural damage develops slowly compared to termites. The primary concern is moisture-damaged wood near the foundation or around plumbing that is already weakened. Addressing moisture sources and wood-to-soil contact removes the conditions they prefer more durably than chemical treatment alone.",
+      },
+      {
+        question: "How do I know if mice in Bolingbrook are a seasonal problem or year-round?",
+        answer:
+          "In the Chicago area climate, mice are a year-round population but with a sharp fall surge when temperatures drop. If you see mice only in fall and winter, you likely have seasonal migration from outdoors. If mice are present in summer, you may have an established indoor breeding population that needs exclusion plus elimination treatment rather than just fall prevention work.",
+      },
+      {
+        question: "Should I be concerned about deer ticks near the DuPage River forest preserves?",
+        answer:
+          "Properties bordering the DuPage River forest preserves should be aware of deer tick pressure, particularly for families with children who play in wooded edge areas. The Illinois Department of Public Health monitors Lyme disease tick activity statewide. Tick checks after outdoor activities near wooded areas and professional tick treatment for yard edges adjacent to forest preserve property are the practical precautions.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Naperville", slug: "naperville" },
+      { name: "Joliet", slug: "joliet" },
+      { name: "Aurora", slug: "aurora" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Bolingbrook, IL | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "Bolingbrook pest control for stink bugs, house mice, subterranean termites, German cockroaches and carpenter ants. Will DuPage County DuPage River southwest Chicago suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "evanston",
+    name: "Evanston",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~78,000",
+    county: "Cook County",
+    climate: "cold-humid",
+    climateDriver:
+      "Evanston is a lakefront city directly north of Chicago on Lake Michigan, home to Northwestern University and one of the more walkable and densely built first-ring suburbs in the Chicago metro. The cold-humid continental climate with lake effect moderation creates a long cold winter that drives mice and cockroaches into structures, while the high density of older residential buildings with shared walls creates persistent cockroach dispersal conditions. University of Illinois Extension and Chicago-area urban pest research documents significant cockroach and rodent pressure in dense first-ring suburbs.",
+    topPests: [
+      "German cockroaches",
+      "Mice",
+      "Stink bugs",
+      "Subterranean termites",
+      "Yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary pest challenge in Evanston's dense residential housing, apartment buildings, and the commercial areas along Chicago Avenue, Main Street, and Central Street. The density of connected structures and the abundance of food service establishments create ongoing introduction and dispersal pressure.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice are a consistent fall and winter concern in Evanston's older housing stock. The lake effect moderation does not prevent the cold winters that drive rodents indoors. The density of older buildings with accumulated gaps at foundations and utilities provides ample entry routes.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering",
+        note: "Brown marmorated stink bugs are established across the Chicago metro area per University of Illinois Extension. Evanston's older multi-family buildings with exterior siding gaps and aging window seals experience significant fall invasion for overwintering.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active spring through fall",
+        note: "University of Illinois Extension documents subterranean termite activity across Cook County. Evanston's older housing stock, some of which dates to the late 1800s, has accumulated wood-to-soil contact and aging foundation conditions that support termite activity. Annual inspections are the practical precaution.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall",
+        note: "Yellow jackets are a consistent late summer concern in Evanston's residential and commercial environment. They build ground nests and wall void nests in older structures, and peak in aggression in late August through October when colonies are at maximum size.",
+      },
+    ],
+    localHook:
+      "Evanston's dense walkable neighborhoods and older building stock create a pest environment where German cockroaches can travel between connected buildings through shared wall voids and utility systems more effectively than in newer spread-out suburbs. Northwestern University's research presence and the city's engaged homeowner community have produced some of the more active integrated pest management adoption among property owners in the Chicago region.",
+    intro:
+      "Pest control in Evanston reflects both its dense urban character and the older building stock that distinguishes it from newer Chicago suburbs. German cockroaches are the primary pest challenge in connected multi-unit buildings, where shared utilities facilitate movement between structures. House mice surge in fall as Chicago-area winters set in. Brown marmorated stink bugs invade older housing for overwintering in fall. Subterranean termites are documented across Cook County by University of Illinois Extension. Yellow jackets are a late summer and fall nuisance in both residential and commercial settings.",
+    sections: [
+      {
+        heading: "Cockroaches and older urban housing in Evanston",
+        body: "Evanston's housing stock includes a significant proportion of buildings from the early to mid-twentieth century, many of which have accumulated gaps in shared walls, utility chases, and basement connections that provide cockroach dispersal routes between units. German cockroaches exploit these routes to spread through connected buildings rapidly. The concentration of food service establishments on Evanston's commercial streets, particularly in the Five Points intersection and Central Street areas, creates ongoing introduction pressure that reaches adjacent residential buildings. The practical management approach in Evanston's older multi-unit properties treats cockroaches as a building-level challenge rather than a unit-level one.",
+      },
+      {
+        heading: "Fall pest prevention in a lakefront city",
+        body: "Lake Michigan provides thermal moderation that keeps Evanston slightly warmer than inland Cook County communities in early fall, which can delay the peak mouse and stink bug entry season by a few weeks compared to suburbs further west. But the lake does not prevent the cold winters that eventually force both species into structures. Pre-season exclusion work in October is the effective approach for Evanston, targeting the most common entry points around windows, utility penetrations, and aging foundation seals before the coldest temperatures arrive. The University of Illinois Extension recommends a combined approach of exclusion plus targeted treatment for the most durable results in Chicago-area homes.",
+      },
+    ],
+    prevention: [
+      "Coordinate with property management for building-wide German cockroach treatment in connected Evanston multi-unit buildings rather than single-unit treatment.",
+      "Seal foundation gaps and utility penetrations in October before the full Chicago winter forces mice to find indoor shelter.",
+      "Seal exterior wall gaps and window frame weatherstripping before stink bug entry season in September.",
+      "Schedule annual termite inspections for Evanston homes built before 1970 given accumulated wood-to-soil contact and aging foundation conditions.",
+    ],
+    costNote:
+      "Evanston pest control for multi-unit residential buildings is most effective as a building-wide program. Monthly or bi-monthly service is often appropriate for older connected buildings. Single-family homes typically do well on quarterly service with a spring termite inspection. A free assessment starts the process.",
+    faqs: [
+      {
+        question: "Why do German cockroaches spread so fast in Evanston apartment buildings?",
+        answer:
+          "Older Evanston buildings have accumulated gaps in shared walls, utility chases, and plumbing runs from decades of maintenance and renovation. German cockroaches travel through these openings between units continuously. Effective control requires treating the whole building, not just the unit where cockroaches are visible.",
+      },
+      {
+        question: "Does Lake Michigan make Evanston's pest season different from the rest of Cook County?",
+        answer:
+          "The lake provides some thermal moderation in early fall, slightly delaying the peak entry season for mice and stink bugs. But Evanston's winters are fully cold enough to drive both species indoors. The practical effect is that exclusion work done in October is well-timed for Evanston rather than needing to rush to September.",
+      },
+      {
+        question: "Are termites common in Evanston's older homes?",
+        answer:
+          "University of Illinois Extension documents subterranean termite activity across Cook County. Evanston's older housing stock with accumulated wood-to-soil contact, aging foundation seals, and landscaping beds close to wood framing has elevated exposure compared to newer construction. Annual spring inspections are the recommended precaution.",
+      },
+      {
+        question: "How do yellow jackets get into Evanston homes?",
+        answer:
+          "Yellow jackets build wall void nests by entering through exterior cracks, gaps at siding, and openings at rooflines. Once inside a wall cavity, colonies grow through the summer and become very large by fall. They can chew through interior drywall when populations are very large. A licensed professional who can treat the nest inside the wall is required for wall void infestations.",
+      },
+      {
+        question: "Is Northwestern University a source of pest pressure for Evanston homeowners?",
+        answer:
+          "The university's concentration of residential buildings, food service facilities, and high resident turnover creates conditions where cockroach and bed bug pressure can spread outward to adjacent neighborhoods. This is not unique to Northwestern: any large institutional complex in a dense urban area creates some surrounding pest pressure. Evanston homeowners near the campus benefit from consistent quarterly exterior programs.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Chicago", slug: "chicago" },
+      { name: "Skokie", slug: "skokie" },
+      { name: "Waukegan", slug: "waukegan" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Evanston, IL | Cockroaches, Mice & Stink Bugs",
+    metaDescription:
+      "Evanston pest control for German cockroaches, house mice, stink bugs, subterranean termites and yellow jackets. Cook County Lake Michigan Northwestern University Chicago north shore specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

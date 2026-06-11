@@ -947,4 +947,107 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Schenectady pest control for house mice, stink bugs, German cockroaches, subterranean termites and mosquitoes. Schenectady County Mohawk River Capital Region upstate New York specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "utica",
+    name: "Utica",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~60,000",
+    county: "Oneida County",
+    climate: "cold-humid",
+    climateDriver:
+      "Utica sits on the Mohawk River in Oneida County in central New York, one of the snowiest cities in the continental US due to its position in the lake-effect snow belt south of Lake Ontario. Harsh winters drive mice into the city's older housing stock hard from September. The Mohawk River valley's moisture adds to termite and carpenter ant pressure in the older neighborhoods.",
+    topPests: [
+      "House Mice",
+      "Stink Bugs",
+      "Subterranean Termites",
+      "Carpenter Ants",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge September through December",
+        note:
+          "Utica's harsh lake-effect winters drive mice into heated structures earlier and harder than most northeastern cities, beginning in September as temperatures drop. The city's older housing stock, particularly in the established neighborhoods around Cornhill and the West End, has the aging foundation gaps and sill plate cracks that give mice reliable access.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note:
+          "Cornell Cooperative Extension confirms brown marmorated stink bugs are established throughout the Mohawk Valley and Central New York including Oneida County. Utica's older building stock sees annual fall aggregations on building exteriors.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm April through June, active year-round underground",
+        note:
+          "Cornell Cooperative Extension documents eastern subterranean termite pressure throughout central New York including Oneida County. Utica's Mohawk River valley humidity and older housing stock elevate risk for homes with crawl spaces.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, visible indoors in spring",
+        note:
+          "Cornell Cooperative Extension identifies carpenter ants as the most common structural ant pest in New York State. Utica's older wood-frame housing and Mohawk River valley moisture create the conditions that carpenter ants prefer: moisture-affected wood in older sill plates, window frames, and deck framing.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are present in Utica's older multi-family housing and food service corridor in the downtown area, sustained through shared plumbing infrastructure in older apartment buildings.",
+      },
+    ],
+    localHook:
+      "Utica's lake-effect snow belt location is not just a winter inconvenience: it compresses the fall pest calendar. Mice push into structures in September, not October. The harsh winter and abundant moisture from the Mohawk River valley make Utica's older housing some of the most pest-challenged in central New York.",
+    intro:
+      "Pest control in Utica is shaped by two facts: the city is in one of the snowiest places in the continental US, and it has some of the oldest housing stock in central New York. The harsh lake-effect winters that bring heavy snowfall to Oneida County also drive mice into heated structures earlier than most northeastern cities, starting in September as fall temperatures drop fast. The Mohawk River valley's consistent moisture adds to the carpenter ant and termite risk in the older neighborhoods around Cornhill, the West End, and the neighborhoods near Utica College.\n\nStink bugs aggregate on building exteriors each fall as a reliable annual event. German cockroaches are present in the older apartment buildings and food service corridor downtown. Cornell Cooperative Extension data confirms carpenter ants as the most common structural ant pest in New York, and Utica's combination of older housing and valley moisture puts it at the higher end of local pressure.",
+    sections: [
+      {
+        heading: "Carpenter ants and moisture in Utica's older neighborhoods",
+        body: "Cornell Cooperative Extension consistently identifies carpenter ants as New York State's most commonly reported structural ant pest, and Utica gives them a lot to work with. The city's older wood-frame housing, combined with the Mohawk River valley's persistent humidity, creates the moisture-softened wood conditions in sill plates, window frames, basement joists, and deck framing that carpenter ants excavate for nesting. Finding large black ants in the kitchen or bathroom in April or May is a signal worth following up professionally rather than treating with store-bought spray. A professional inspection locates the colony and identifies the moisture source driving it, which is the information you need to actually resolve the problem rather than repeat it. Treating the ants without fixing the moisture source is a temporary fix: the conditions that supported the colony still exist.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, sill plate gaps, and utility penetrations in August before Utica's early September mouse push, which arrives sooner than in warmer upstate cities.",
+      "Inspect window sill flashing, deck framing, and basement sill plates annually for moisture damage that signals carpenter ant risk in the Mohawk River valley climate.",
+      "Seal gaps around window frames, soffits, and exterior utility lines in August before stink bugs begin aggregating on building exteriors.",
+      "Schedule annual termite inspections for older homes with crawl spaces, particularly in the Mohawk River valley neighborhoods with consistent humidity.",
+    ],
+    costNote:
+      "Utica pest pricing follows standard central New York rates. Carpenter ant inspections are quoted per property after identifying the colony and moisture source. Termite inspections are offered at no charge with treatment quoted after assessment. Annual rodent exclusion and stink bug programs are available.",
+    faqs: [
+      {
+        question: "Why do mice invade Utica homes so early in the fall?",
+        answer:
+          "Utica's lake-effect snow belt location in the Mohawk River valley produces earlier and sharper fall temperature drops than most upstate New York cities. Mice begin seeking heated shelter when outdoor temperatures drop, and that happens in September in Utica rather than October. The city's older housing stock adds to the problem because older construction accumulates the foundation cracks and aging sill plate gaps that give mice the entry points they look for. Completing exclusion work before September, rather than waiting until mice are already inside, is the most effective prevention approach for Utica homeowners.",
+      },
+      {
+        question: "Are carpenter ants a serious structural risk in Utica?",
+        answer:
+          "They are a genuine structural concern in Utica's older housing, particularly in homes where moisture intrusion has gone unaddressed. Carpenter ants do not eat wood: they excavate galleries through wood that is already weakened by moisture. In Utica's older neighborhoods, the Mohawk River valley's humidity and older construction details create the moisture conditions that make structural wood vulnerable. Finding carpenter ants indoors in spring is worth a professional inspection to identify both the colony location and the moisture source. Structural damage from carpenter ants, when the moisture source is chronic, can be significant over time.",
+      },
+      {
+        question: "Do Utica homes need termite inspections?",
+        answer:
+          "Yes, particularly for older homes with crawl spaces. Cornell Cooperative Extension confirms eastern subterranean termite pressure in central New York including Oneida County. Utica's Mohawk River valley humidity creates conditions that sustain termite foraging activity, and the city's inventory of pre-WWII homes with crawl spaces carries real exposure. Annual professional inspections are the appropriate standard for homes with crawl spaces in Utica's older neighborhoods.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Albany", slug: "albany" },
+      { name: "Troy", slug: "troy-ny" },
+      { name: "Schenectady", slug: "schenectady" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Utica, NY | Mice, Carpenter Ants & Stink Bugs",
+    metaDescription:
+      "Utica pest control for house mice, carpenter ants, stink bugs, subterranean termites and German cockroaches. Oneida County Mohawk River lake-effect snow belt central New York specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

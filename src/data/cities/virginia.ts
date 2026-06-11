@@ -995,4 +995,214 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Portsmouth pest control for subterranean termites, mosquitoes, German cockroaches, house mice and bed bugs. Elizabeth River Hampton Roads historic Olde Towne specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "lynchburg",
+    name: "Lynchburg",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~82,000",
+    county: "Independent city",
+    climate: "temperate",
+    climateDriver:
+      "Lynchburg is an independent city on the James River in the Virginia Piedmont with a temperate Blue Ridge foothills climate. Warm, humid summers sustain termite and mosquito activity, while cooler winters compared to coastal Virginia drive mice into structures from October through March. The James River corridor adds moisture that amplifies termite risk near the river.",
+    topPests: [
+      "Subterranean Termites",
+      "House Mice",
+      "Mosquitoes",
+      "Stink Bugs",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm February through May, active year-round underground",
+        note:
+          "Virginia Cooperative Extension confirms eastern subterranean termite pressure throughout the Virginia Piedmont including Lynchburg. The James River corridor's humidity and Lynchburg's older housing inventory near downtown and the historic neighborhoods carry elevated exposure.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note:
+          "Lynchburg's Blue Ridge foothills location produces cooler falls than coastal Virginia, driving mice into heated structures from October through March. The city's older historic neighborhoods have the aging housing stock that accumulates foundation gaps and sill plate cracks over decades.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October, peak June through August",
+        note:
+          "The James River floodplain and Blackwater Creek wetland areas provide mosquito breeding habitat. Properties near the river corridor and the Blackwater Creek Natural Area see higher pressure than upland residential areas.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note:
+          "Virginia Cooperative Extension confirms brown marmorated stink bugs are established throughout the Virginia Piedmont. Lynchburg sees reliable September aggregations on building exteriors, with entry into wall voids through gaps in older home exteriors.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, visible indoors in spring",
+        note:
+          "Carpenter ants are a consistent structural concern in Lynchburg's older wooded residential neighborhoods. The James River valley's humidity combined with mature tree canopy keeps wood framing moist and provides the conditions carpenter ants prefer.",
+      },
+    ],
+    localHook:
+      "Lynchburg's James River setting and Blue Ridge foothills character create a pest profile that combines the termite and mosquito pressure of Virginia's humid river corridors with the stink bug and mouse pressures common across the Piedmont region. The city's historic neighborhoods carry the older housing stock that makes termite and carpenter ant risk more concrete than abstract.",
+    intro:
+      "Lynchburg's pest picture is shaped by its position on the James River in the Virginia Piedmont. The James River corridor adds the consistent humidity that sustains termite foraging activity and provides mosquito breeding habitat from May through October. Virginia Cooperative Extension confirms eastern subterranean termite pressure throughout the Piedmont region, and Lynchburg's older historic neighborhoods near downtown and along the riverfront carry the crawl-space housing and aging wood construction that make annual termite inspections a real rather than precautionary need.\n\nStink bugs arrive on building exteriors each September across the region. Mice push into Lynchburg's older homes from October as Blue Ridge foothills temperatures drop faster than coastal Virginia. Carpenter ants are a structural concern in the wooded, shaded neighborhoods where moisture-affected wood is common. A professional inspection identifies which pressures are active at your specific address and the structural conditions contributing to them.",
+    sections: [
+      {
+        heading: "Termite inspections for Lynchburg's historic housing",
+        body: "Lynchburg has one of the most intact collections of historic residential architecture in Virginia, and that architectural character carries real termite risk. Pre-WWII homes with crawl spaces, wood sill plates at grade, and basement areas with limited air circulation create the soil-to-wood contact and moisture conditions that subterranean termites prefer. Virginia Cooperative Extension confirms termite pressure throughout the Piedmont, and the James River corridor's humidity means termite colony foraging continues longer into fall and begins earlier in spring than in drier upland areas. For Lynchburg homeowners, particularly those in the historic neighborhoods around Garland Hill and Daniels Hill, annual professional inspections are the appropriate standard of care. Spring swarming from February through May is the most common detection event, but relying on swarms alone means waiting until a colony is already established.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for older Lynchburg homes with crawl spaces, particularly in the historic neighborhoods and along the James River corridor.",
+      "Seal foundation cracks, sill plate gaps, and utility penetrations in September before the fall mouse surge.",
+      "Seal gaps around window frames, soffits, and exterior utility lines in August before stink bugs begin aggregating on building exteriors.",
+      "Inspect window sill flashing and deck framing annually for moisture damage that attracts carpenter ants in the James River valley's humid climate.",
+    ],
+    costNote:
+      "Lynchburg pest pricing follows standard Virginia Piedmont rates. Termite inspections are offered at no charge with treatment quoted after assessment. Annual programs covering mice, stink bugs, and termite monitoring are available for older housing. Carpenter ant treatments are quoted per property after identifying the colony and moisture source.",
+    faqs: [
+      {
+        question: "Do Lynchburg's historic homes need annual termite inspections?",
+        answer:
+          "Yes. Virginia Cooperative Extension confirms eastern subterranean termite pressure throughout the Virginia Piedmont, and Lynchburg's older historic neighborhoods carry the crawl-space construction and aging wood framing that represent the higher end of local risk. The James River corridor's humidity sustains termite foraging through more of the year than drier inland locations. Annual inspections catch activity before structural damage accumulates, and the cost of an annual inspection is a small fraction of the cost of structural repair.",
+      },
+      {
+        question: "When do mice become a problem in Lynchburg?",
+        answer:
+          "October through March is the peak period. Lynchburg's Blue Ridge foothills location produces falls that cool faster than coastal Virginia, and mice begin seeking heated shelter in October. The city's older housing stock, particularly in the historic neighborhoods, has the aging foundation cracks and sill plate gaps that give mice access. Fall exclusion work sealing those entry points in September, before the surge begins, is the most cost-effective prevention.",
+      },
+      {
+        question: "Are stink bugs a problem in Lynchburg?",
+        answer:
+          "Yes. Virginia Cooperative Extension confirms brown marmorated stink bugs are established throughout the Virginia Piedmont, and Lynchburg sees the characteristic September aggregation on building exteriors each year. Older homes with aging window sill caulk and utility line gaps are the most susceptible to wall void entry. The prevention window is August through early September: sealing gaps before the aggregation builds on south-facing walls is far more effective than responding after stink bugs are present.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Richmond", slug: "richmond" },
+      { name: "Chesapeake", slug: "chesapeake" },
+      { name: "Virginia Beach", slug: "virginia-beach" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Lynchburg, VA | Termites, Mice & Stink Bugs",
+    metaDescription:
+      "Lynchburg pest control for subterranean termites, house mice, mosquitoes, stink bugs and carpenter ants. James River Virginia Piedmont Blue Ridge foothills historic city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "harrisonburg",
+    name: "Harrisonburg",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~52,000",
+    county: "Independent city",
+    climate: "temperate",
+    climateDriver:
+      "Harrisonburg is an independent city in the Shenandoah Valley surrounded by Rockingham County with a temperate mountain valley climate. Cooler temperatures than eastern Virginia drive mice and stink bugs into structures from September. James Madison University creates a large, high-turnover rental market. The valley's agricultural landscape and wooded Massanutten Mountain corridor sustain tick and yellowjacket pressure.",
+    topPests: [
+      "House Mice",
+      "Stink Bugs",
+      "Deer Ticks",
+      "Subterranean Termites",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge September through December",
+        note:
+          "Harrisonburg's Shenandoah Valley location produces earlier and colder falls than eastern Virginia, driving mice into structures from September. The city's older housing near JMU campus and the agricultural setting of the surrounding valley means both urban and field mouse pressure.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note:
+          "Virginia Cooperative Extension confirms stink bugs are established throughout the Shenandoah Valley. Harrisonburg sees some of Virginia's earliest fall aggregations due to the valley's earlier cooling, with building exteriors seeing the characteristic September aggregations before much of eastern Virginia.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "Year-round risk, peak May through July and October through November",
+        note:
+          "Virginia Cooperative Extension places Rockingham County in the high Lyme disease risk zone. Harrisonburg's Shenandoah Valley setting, with wooded Massanutten Mountain to the east and agricultural hedgerows throughout the region, sustains deer tick populations that make tick exposure a routine outdoor concern.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm March through May, active year-round underground",
+        note:
+          "Virginia Cooperative Extension confirms eastern subterranean termite pressure throughout the Shenandoah Valley. Harrisonburg's older housing stock near the historic downtown and university area carries the crawl-space construction that elevates termite exposure.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "Peak July through September",
+        note:
+          "The Shenandoah Valley's agricultural character and wooded corridors support yellow jacket ground nesting throughout the Harrisonburg area. Colonies reach maximum size in August and peak aggression in late summer.",
+      },
+    ],
+    localHook:
+      "Harrisonburg's Shenandoah Valley setting creates a distinct pest calendar: earlier and colder falls than eastern Virginia mean stink bugs and mice arrive sooner. The valley's agricultural and wooded character puts deer tick exposure in the high-risk zone. JMU's student population cycles through the rental housing market, adding bed bug and cockroach considerations.",
+    intro:
+      "Harrisonburg's pest picture is shaped by the Shenandoah Valley's climate and character. The valley cools faster in fall than coastal or Piedmont Virginia, which means stink bugs aggregate on building exteriors earlier in September and mice push into structures from late September rather than October. Virginia Cooperative Extension places Rockingham County in the high deer tick risk zone, and the valley's agricultural landscape and Massanutten Mountain corridor sustain tick populations that make outdoor exposure a routine concern.\n\nJames Madison University's large enrollment creates the high-turnover rental market that sustains consistent pest pressure near campus. Subterranean termites are documented throughout the valley, and Harrisonburg's older housing near the historic downtown carries the crawl-space construction most at risk. Yellow jackets nest through the summer in the agricultural and wooded landscape surrounding the city.",
+    sections: [
+      {
+        heading: "Tick safety in Harrisonburg's Shenandoah Valley setting",
+        body: "Harrisonburg residents face deer tick exposure that is shaped by the valley's geography. The wooded slopes of Massanutten Mountain to the east and the agricultural hedgerow landscape throughout Rockingham County provide the deer habitat and wooded corridor tick populations depend on. Virginia Cooperative Extension consistently places Rockingham County in the high Lyme disease risk tier for Virginia. Deer tick nymphs, active from May through July, are the primary risk because they are small and easily overlooked. Anyone spending time in wooded areas, at the lawn-to-woodland edge, or in leaf litter should check for ticks afterward, including household members who play in wooded residential yards. For properties with consistent wooded-border exposure, professional tick barrier spray targeting the lawn-to-woodland edge and leaf litter zones provides meaningful protection during peak season.",
+      },
+      {
+        heading: "Mouse and stink bug timing in Harrisonburg's early fall",
+        body: "Harrisonburg experiences fall temperature drops earlier than eastern Virginia because of the Shenandoah Valley's elevation and mountain-shadowed character. This means the fall pest calendar runs two to three weeks earlier than coastal Virginia: stink bugs begin aggregating on building exteriors in early September rather than late September, and mice begin seeking heated shelter in late September rather than October. For Harrisonburg homeowners, this shifts the prevention calendar earlier. Gap sealing for both pests should be completed by late August rather than September. The earlier window actually makes prevention more manageable because there is more time before the pressure builds, but it requires being ahead of the schedule rather than responding to it.",
+      },
+    ],
+    prevention: [
+      "Complete gap sealing for both stink bugs and mice by late August, accounting for Harrisonburg's earlier fall temperature drop compared to eastern Virginia.",
+      "Conduct tick checks after all outdoor activity in wooded or agricultural-edge areas, including residential yards with wooded borders.",
+      "Schedule professional tick barrier spray in spring and fall for properties adjacent to wooded corridors or near Massanutten Mountain.",
+      "Schedule annual termite inspections for older homes with crawl spaces in the historic downtown area.",
+    ],
+    costNote:
+      "Harrisonburg pest pricing follows standard Shenandoah Valley rates. Tick barrier spray programs are seasonal. Termite inspections are offered at no charge with treatment quoted after assessment. Annual programs covering mice, stink bugs, and tick management are available.",
+    faqs: [
+      {
+        question: "Why do stink bugs seem to arrive earlier in Harrisonburg than in Richmond?",
+        answer:
+          "The Shenandoah Valley cools faster in fall than the Richmond Piedmont because of the valley's elevation and mountain-influenced climate. Stink bugs move from summer host plants to overwintering sites in response to cooling temperatures, so Harrisonburg's earlier temperature drop triggers the aggregation and building entry behavior two to three weeks earlier than eastern Virginia. Gap sealing and perimeter treatment completed by late August is the appropriate prevention timeline for Harrisonburg.",
+      },
+      {
+        question: "Is tick exposure a serious concern in Harrisonburg?",
+        answer:
+          "Yes. Virginia Cooperative Extension places Rockingham County in the high Lyme disease risk tier. The Shenandoah Valley's agricultural landscape, wooded corridors, and Massanutten Mountain create the deer habitat and wooded edge environments where deer ticks concentrate. Tick checks after outdoor activity in any wooded, brushy, or leaf-litter areas are the most important personal precaution. For properties with consistent wooded-border exposure, professional tick barrier spray during spring and fall peak seasons reduces encounter rates.",
+      },
+      {
+        question: "Do I need termite protection for my JMU-area rental property?",
+        answer:
+          "Yes, particularly for older properties with crawl spaces. Virginia Cooperative Extension confirms eastern subterranean termite pressure throughout the Shenandoah Valley, and Harrisonburg's older housing near the historic downtown and university area carries the construction characteristics most at risk. Annual professional inspections are the standard precaution for properties with crawl spaces. For newer construction away from the historic core, risk is lower but not absent.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Richmond", slug: "richmond" },
+      { name: "Chesapeake", slug: "chesapeake" },
+      { name: "Norfolk", slug: "norfolk" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Harrisonburg, VA | Mice, Stink Bugs & Deer Ticks",
+    metaDescription:
+      "Harrisonburg pest control for house mice, stink bugs, deer ticks, subterranean termites and yellow jackets. Shenandoah Valley JMU Rockingham County Massanutten Mountain specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

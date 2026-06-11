@@ -1071,4 +1071,313 @@ export const ohioCities: CityLocation[] = [
     metaDescription:
       "Canton pest control for house mice, subterranean termites, stink bugs, German cockroaches and mosquitoes. Stark County Tuscarawas River northeast Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "lorain",
+    name: "Lorain",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~62,000",
+    county: "Lorain County",
+    climate: "cold-humid",
+    climateDriver:
+      "Lorain sits on Lake Erie in Lorain County with a cold, lake-effect climate that delivers heavy lake-effect snowfall and a short warm season. Cold winters push mice and cockroaches into the older mill-era and postwar housing stock, while the lakefront location adds moisture that sustains termite and carpenter ant pressure.",
+    topPests: [
+      "House Mice",
+      "Stink Bugs",
+      "Subterranean Termites",
+      "German Cockroaches",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note:
+          "Lorain's cold lake-effect winters drive mice into heated structures hard from October through March. The city's older housing stock, including mill-era neighborhoods near the Black River, has the aging foundation and sill plate gaps that give mice easy access.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note:
+          "Ohio State University Extension confirms brown marmorated stink bugs are established throughout Lorain County and the Lake Erie shoreline. Fall aggregations on building exteriors are a reliable annual event.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm March through May, active year-round underground",
+        note:
+          "Ohio State University Extension documents eastern subterranean termite pressure throughout Lorain County. Lorain's lakefront humidity and older housing stock elevate risk for homes with crawl spaces and wood near soil contact.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are established in Lorain's older apartment buildings and food service corridor. Introduction through normal residential activity sustains populations in multi-family housing with shared plumbing infrastructure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, visible indoors in spring",
+        note:
+          "Carpenter ants are common in Lorain's older wood-frame homes. The lakefront climate adds moisture to wood framing through condensation and humidity, creating the softened wood conditions that carpenter ants exploit.",
+      },
+    ],
+    localHook:
+      "Lorain's Lake Erie location is a genuine pest factor. Lake-effect moisture keeps wood framing damp longer than inland cities, which amplifies carpenter ant and termite risk. Cold lake-effect winters drive the mouse surge harder. The city's mill-era housing stock was built before modern pest exclusion standards.",
+    intro:
+      "Pest control in Lorain is shaped by Lake Erie and the city's older housing. The lake-effect climate delivers cold winters that drive mice into structures hard from October through March, but also adds persistent coastal moisture that softens wood framing faster than in drier inland Ohio cities. That combination creates elevated carpenter ant and termite risk in Lorain's older neighborhoods near the Black River and lakefront.\n\nStink bugs are a fall certainty throughout Lorain County, aggregating on building exteriors each September. German cockroaches run year-round in the older apartment buildings. Mice are the most frequently reported problem across all housing types. Ohio State University Extension documents both termite and carpenter ant pressure as genuine concerns for Lorain's older wood-frame housing stock.",
+    sections: [
+      {
+        heading: "Lake Erie moisture and wood-pest risk in Lorain",
+        body: "Lorain's proximity to Lake Erie adds a moisture dimension to pest control that inland Ohio cities do not face at the same level. The consistent lake humidity keeps wood framing, sill plates, deck structures, and basement areas wetter for longer periods, creating the softened wood conditions that both carpenter ants and subterranean termites prefer. For Lorain homeowners, this means that annual moisture checks around the foundation perimeter, crawl space, and any wood-to-soil contact points matter more than they would in a drier climate. Carpenter ants visible indoors in March or April are often the first signal that moisture-affected wood exists somewhere in the structure. Subterranean termites are quieter but carry more structural risk. Annual professional inspections are the appropriate response for homes with crawl spaces or pre-WWII construction in Lorain's lakefront neighborhoods.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, sill plate gaps, and utility penetrations in September before the lake-effect winter mouse surge begins.",
+      "Inspect crawl spaces and basement sill plates annually for moisture-softened wood, which signals both carpenter ant and termite risk.",
+      "Seal gaps around window frames, soffits, and exterior utility lines in August before stink bugs begin aggregating on building exteriors.",
+      "Keep basement and crawl space areas dry with adequate ventilation to reduce the moisture conditions that amplify wood-pest risk in the lake-effect climate.",
+    ],
+    costNote:
+      "Lorain pest pricing follows standard northeast Ohio rates. Termite inspections are offered at no charge with treatment quoted after assessment. Carpenter ant treatments are quoted per property after inspection identifies the colony and moisture source. Annual rodent exclusion and stink bug programs are available.",
+    faqs: [
+      {
+        question: "Why are carpenter ants a bigger problem in Lorain than in other Ohio cities?",
+        answer:
+          "Lake Erie's moisture influence is the key factor. The persistent lake humidity keeps wood framing wetter for longer periods, creating the moisture-softened wood conditions that carpenter ants prefer to excavate for nesting. Lorain's older wood-frame housing stock amplifies this because older construction has accumulated the small moisture intrusion points that lead to softened wood over decades. Finding carpenter ants indoors in spring is worth a professional inspection that identifies both the colony location and the moisture source driving it.",
+      },
+      {
+        question: "When do mice become a problem in Lorain homes?",
+        answer:
+          "October through March is the peak period, driven by cold lake-effect winters. The mouse surge in October is the most reliable annual event. Lorain's older housing stock carries the foundation cracks and aging sill plates that give mice the entry points they need. Fall exclusion work sealing those gaps before October is the most cost-effective prevention. Once mice are inside during winter, trapping and sealing simultaneously is the standard approach.",
+      },
+      {
+        question: "Do Lorain homes need termite inspections?",
+        answer:
+          "Yes, particularly for older homes near the lakefront and Black River corridor. Ohio State University Extension documents eastern subterranean termite pressure throughout Lorain County, and the lakefront humidity adds to the risk for homes with crawl spaces or wood near soil contact. Annual professional inspections catch activity before structural damage accumulates.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Cleveland", slug: "cleveland" },
+      { name: "Akron", slug: "akron" },
+      { name: "Toledo", slug: "toledo" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Lorain, OH | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Lorain pest control for house mice, stink bugs, subterranean termites, German cockroaches and carpenter ants. Lorain County Lake Erie lakefront northeast Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kettering",
+    name: "Kettering",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~55,000",
+    county: "Montgomery County",
+    climate: "cold-humid",
+    climateDriver:
+      "Kettering is a southern suburb of Dayton in Montgomery County with a cold, humid inland Ohio climate. Cold winters drive mice and stink bugs into structures each fall, while warm summers support mosquito and yellow jacket pressure. The city's postwar suburban housing stock is generally well-maintained but accumulates the entry points and aging infrastructure that rodents and stink bugs exploit.",
+    topPests: [
+      "House Mice",
+      "Stink Bugs",
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note:
+          "Kettering's cold Ohio winters drive mice into heated structures from October through March. The city's postwar suburban ranches and colonials accumulate garage door gaps, utility penetrations, and crawl space entry points over decades that give mice reliable access.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note:
+          "Ohio State University Extension confirms brown marmorated stink bugs are established throughout Montgomery County. Kettering's residential housing sees reliable September aggregations on south and west-facing exteriors each fall.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm March through May, active year-round underground",
+        note:
+          "Ohio State University Extension documents eastern subterranean termite pressure in the Dayton metro area. Annual inspections are the standard precaution for Kettering homes with crawl spaces.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October, peak July through August",
+        note:
+          "The Great Miami River corridor along Kettering's western edge and retention areas in residential developments provide mosquito breeding habitat during the warm season. Property-level barrier spray reduces resting adult populations near decks and outdoor living areas.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "Peak July through September",
+        note:
+          "Yellow jackets nest in ground burrows in Kettering's landscaped residential lots and under decks, with colonies reaching maximum size in August and September. Lawn areas, play spaces, and outdoor dining areas near mature landscapes carry the highest risk.",
+      },
+    ],
+    localHook:
+      "Kettering's well-kept postwar suburban character does not insulate it from the stink bug and mouse pressures that define the Dayton suburb corridor each fall. The Great Miami River nearby adds mosquito pressure in summer. Annual termite inspections are the appropriate standard for the area's crawl-space housing stock.",
+    intro:
+      "Pest control in Kettering follows the Dayton suburban pattern with a few local features. Stink bugs are the annual fall headline pest, aggregating on building exteriors each September and entering through aging window sills and utility gaps in the postwar housing stock that makes up most of the city. Mice follow in October with the cold push that runs through the winter.\n\nThe Great Miami River corridor along Kettering's western edge generates mosquito pressure from May through October. Yellow jackets nest in the residential landscaping through summer, peaking in August when outdoor activity is highest. Subterranean termites are documented throughout Montgomery County, and Kettering's crawl-space homes carry the exposure that annual inspections address. Ohio State University Extension is the regional authority on pest pressure in Montgomery County, and its data consistently confirms all of these as managed rather than exceptional risks.",
+    sections: [
+      {
+        heading: "Stink bug prevention in Kettering's residential housing",
+        body: "Kettering homeowners see the same stink bug cycle every year: aggregations build on south and west-facing walls in late September, then move into wall voids through available gaps as temperatures drop. The prevention window is narrow but effective: sealing gaps around window sills, utility penetrations, and soffit corners in August, before the aggregation arrives, prevents entry far better than attempting removal after stink bugs are inside. Once in wall voids, stink bugs are difficult to treat without creating additional problems. The practical management approach for stink bugs already inside is to vacuum them as they emerge on warm days rather than crushing them, since crushing releases the defensive odor. A perimeter spray applied to south and west building faces in September reduces the number that successfully enter through gaps that were missed during sealing.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around window sills, utility penetrations, and soffits in August before stink bugs aggregate on building exteriors.",
+      "Inspect garage door seals, crawl space vents, and foundation cracks in September before the October mouse surge.",
+      "Eliminate standing water in gutters, yard containers, and low areas before mosquito season opens in May.",
+      "Schedule annual termite inspections for homes with crawl spaces, particularly before the spring swarming season from March through May.",
+    ],
+    costNote:
+      "Kettering pest pricing follows standard southwest Ohio suburban rates. Termite inspections are offered at no charge with treatment quoted after assessment. Yellow jacket nest removal is typically a single-visit service. Annual protection programs covering mice, stink bugs, and mosquitoes are available.",
+    faqs: [
+      {
+        question: "Are stink bugs bad every fall in Kettering?",
+        answer:
+          "Yes, reliably. Ohio State University Extension confirms brown marmorated stink bugs are established throughout Montgomery County, and Kettering sees the characteristic September aggregation on building exteriors each year without exception. The intensity varies somewhat year to year depending on summer host plant conditions and fall temperature timing, but the pattern is consistent. Proactive sealing and perimeter treatment in August is more effective than responding after they have begun entering the structure.",
+      },
+      {
+        question: "When is yellow jacket season in Kettering?",
+        answer:
+          "Yellow jackets are a risk from late June through September, with peak colony size and aggression in August and September. Ground nests in Kettering's residential lawn areas are the most common encounter. Nests near play areas, outdoor dining spaces, or lawn mowing paths warrant professional removal. Treating ground nests with over-the-counter products is most effective in the early morning when foragers are inactive, but professional removal is safer for nests in high-activity areas.",
+      },
+      {
+        question: "Does Kettering's Great Miami River location affect mosquito pressure?",
+        answer:
+          "Yes. The Great Miami River floodplain and adjacent wetland areas along Kettering's western edge provide breeding habitat that generates more mosquito pressure than the drier eastern sections of the city. Properties within a quarter mile of the river corridor or near stormwater retention areas in residential developments see earlier spring activity and higher peak pressure. Eliminating standing water on your property, including clogged gutters, low spots, and containers, reduces breeding on your lot. Property-level barrier spray targeting resting adults in vegetation provides additional reduction around outdoor living areas.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Dayton", slug: "dayton" },
+      { name: "Cincinnati", slug: "cincinnati" },
+      { name: "Hamilton", slug: "hamilton" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Kettering, OH | Mice, Stink Bugs & Mosquitoes",
+    metaDescription:
+      "Kettering pest control for house mice, stink bugs, subterranean termites, mosquitoes and yellow jackets. Montgomery County Dayton suburb Great Miami River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "springfield",
+    name: "Springfield",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~58,000",
+    county: "Clark County",
+    climate: "cold-humid",
+    climateDriver:
+      "Springfield sits on the Mad River in Clark County, roughly midway between Columbus and Dayton, with a cold, humid inland Ohio climate. Cold winters drive rodents and stink bugs into the city's older housing stock each fall, while warm summers sustain mosquito pressure along the Mad River corridor.",
+    topPests: [
+      "House Mice",
+      "Stink Bugs",
+      "Subterranean Termites",
+      "German Cockroaches",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note:
+          "Springfield's cold Ohio winters and older housing stock create consistent mouse pressure from October through March. The city's inventory of pre-WWII and postwar homes accumulates the foundation cracks and entry gaps that mice use reliably each fall.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note:
+          "Ohio State University Extension confirms brown marmorated stink bugs are well established in Clark County. Springfield sees reliable fall aggregations on building exteriors each September.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm March through May, active year-round underground",
+        note:
+          "Ohio State University Extension documents eastern subterranean termite pressure across Clark County. Springfield's older housing stock and the Mad River corridor's humidity elevate risk for homes with crawl spaces.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are present in Springfield's older rental housing stock. The city's older apartment buildings and multi-family housing provide the shared infrastructure conditions where cockroach populations sustain themselves.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October, peak July through August",
+        note:
+          "The Mad River corridor through Springfield and Buck Creek State Park wetland areas create mosquito breeding habitat. Warm summer months from June through August see the highest residential pressure.",
+      },
+    ],
+    localHook:
+      "Springfield's older housing and Mad River location create a pest profile that is distinctly midwestern: reliable fall stink bug and mouse pressure, documented termite risk in the older housing stock, and Mad River mosquito pressure through the summer months.",
+    intro:
+      "Springfield, Ohio's pest control picture is shaped by its older housing and its Mad River setting. The city's inventory of pre-WWII and postwar homes carries the foundation gaps and aging sill plates that give mice reliable entry each October, and the stink bug aggregations that start in September on building exteriors mark the beginning of the fall pest season for most Springfield homeowners.\n\nSubterranean termites are a documented pressure throughout Clark County, and the Mad River corridor's humidity elevates risk for older homes with crawl spaces along the river edge. German cockroaches are present in the older rental housing stock. Mosquitoes from the Mad River wetlands sustain pressure through the summer. Ohio State University Extension resources provide the regional baseline, and professional inspections translate that county-level data into what is specifically relevant at your address.",
+    sections: [
+      {
+        heading: "Comparing stink bug and mouse prevention in Springfield",
+        body: "Stink bugs and mice share a fall timeline in Springfield but require different prevention strategies. Stink bug prevention focuses on the building exterior in August and September: sealing gaps around window frames, soffits, and utility penetrations before the aggregation begins on south-facing walls. Once stink bugs are inside wall voids, exterior prevention work is no longer effective for the current season. Mouse prevention, by contrast, focuses on the foundation and ground-level entry points: sill plate cracks, foundation gaps, garage door seals, and utility pipe penetrations. Both types of prevention work are best done in August or September, before the October temperature drop that triggers both pests' movement into structures. Running them together in a single inspection and sealing pass is the most cost-efficient approach for Springfield homeowners preparing for fall.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, sill plate gaps, and utility penetrations in August to address both mouse entry and stink bug entry before the fall season begins.",
+      "Schedule annual termite inspections for older Springfield homes with crawl spaces, particularly near the Mad River corridor.",
+      "Eliminate standing water sources before mosquito season opens in May: gutters, low yard areas, and any containers that hold water after rain.",
+      "Address moisture issues around basement sill plates and crawl spaces annually to reduce conditions that attract both carpenter ants and termites.",
+    ],
+    costNote:
+      "Springfield pest pricing follows standard central Ohio rates. Termite inspections are offered at no charge with treatment quoted after assessment. Combined stink bug and rodent exclusion programs are available as fall package services. Mosquito barrier spray programs run from May through October.",
+    faqs: [
+      {
+        question: "What pest problems are most common in Springfield, Ohio?",
+        answer:
+          "House mice in fall and winter, stink bugs in September and October, and subterranean termites in older homes with crawl spaces are the three most consistent issues. Mice push into heated structures from October through March. Stink bugs aggregate on building exteriors from September and enter through gaps in aging window sills and utility penetrations. Termites are a managed, documented pressure in Clark County that annual inspections catch before structural damage accumulates. German cockroaches are present in older multi-family housing. Mosquitoes add outdoor pressure along the Mad River corridor from May through October.",
+      },
+      {
+        question: "Are termites worse near the Mad River in Springfield?",
+        answer:
+          "Yes, modestly. Eastern subterranean termites are present across Clark County, but the Mad River corridor's humidity creates conditions that sustain termite foraging colony activity at slightly higher levels than drier inland areas. Older homes with crawl spaces along the river edge, particularly those with any wood near soil contact, carry the highest risk. Annual professional inspections are the appropriate precaution for any Springfield home with a crawl space.",
+      },
+      {
+        question: "When should I seal my Springfield home against stink bugs?",
+        answer:
+          "August through early September is the effective window. Once stink bugs begin aggregating on south and west-facing building exteriors in late September, they are already actively searching for entry points. Sealing gaps around window sills, utility penetrations, soffit corners, and exterior cable entry points before the aggregation begins is far more effective than attempting to seal after the insects are present on the walls. A perimeter spray applied to building faces in September complements the gap sealing for the current season.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Dayton", slug: "dayton" },
+      { name: "Columbus", slug: "columbus" },
+      { name: "Cincinnati", slug: "cincinnati" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Springfield, OH | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Springfield pest control for house mice, stink bugs, subterranean termites, German cockroaches and mosquitoes. Clark County Mad River central Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

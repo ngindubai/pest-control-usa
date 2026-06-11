@@ -1205,4 +1205,343 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Albany GA pest control for fire ants, subterranean termites, mosquitoes, American cockroaches and German cockroaches. Dougherty County Flint River southwest Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "south-fulton",
+    name: "South Fulton",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~110,000",
+    county: "Fulton County",
+    climate: "hot-humid",
+    climateDriver:
+      "South Fulton is a city incorporated in 2017 from southwestern Fulton County, lying southwest of Atlanta in the humid subtropical Georgia climate. The city's mix of older residential areas, newer development, and remaining natural corridors creates conditions for year-round fire ant and subterranean termite activity. The Chattahoochee River corridor nearby and the city's wetland retention areas create mosquito breeding habitat. University of Georgia Cooperative Extension Fulton County documents consistent fire ant and termite pressure throughout the Atlanta metro corridor.",
+    topPests: [
+      "Fire ants",
+      "Subterranean termites",
+      "Mosquitoes",
+      "German cockroaches",
+      "Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak spring and fall",
+        note: "Fire ants are ubiquitous throughout Fulton County and the Atlanta metro area. UGA Extension documents year-round fire ant pressure across Georgia's warm humid subtropical climate. South Fulton's residential lawns, parks, and the undeveloped natural areas within the city all experience consistent mound pressure.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colonies, swarms March through May",
+        note: "UGA Extension confirms subterranean termite pressure throughout Fulton County. South Fulton's position in the Atlanta metro places it in one of the highest termite pressure zones in the southeastern United States. The warm humid climate and the clay soils in the Piedmont region support year-round colony activity.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Chattahoochee River corridor nearby, the city's wetland retention areas, and the significant residential development adjacent to natural areas create mosquito breeding habitat throughout South Fulton. West Nile virus is monitored by the Fulton County Board of Health.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary indoor cockroach in South Fulton's commercial corridors and multi-family housing. The warm climate sustains year-round reproduction and accelerates population growth when treatment lapses.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice are a consistent fall and winter concern in South Fulton's residential areas. Gaps at garage doors and utility penetrations are the most common entry routes in the slab construction common throughout the area.",
+      },
+    ],
+    localHook:
+      "South Fulton was incorporated as a city only in 2017, making it one of Georgia's newest cities, and its rapid development from formerly unincorporated Fulton County territory means many of its neighborhoods were built on land where fire ant colonies and subterranean termites were already established. UGA Extension identifies the entire Atlanta metro as a high-pressure zone for both pests.",
+    intro:
+      "Pest control in South Fulton reflects the Atlanta metro suburban environment and the city's position in one of the highest termite pressure zones in the southeastern United States. Fire ants are active year-round in the warm humid subtropical climate. Subterranean termites are documented throughout Fulton County by UGA Extension. The Chattahoochee corridor and retention areas create mosquito habitat with West Nile virus monitored by the county health department. German cockroaches are a consistent commercial and residential pest.",
+    sections: [
+      {
+        heading: "Fire ants and termites in the Atlanta metro corridor",
+        body: "South Fulton's position in the Atlanta metro corridor places it in territory that UGA Extension identifies as among the highest pressure zones in the southeast for both fire ants and subterranean termites. The warm humid subtropical climate gives fire ant colonies a long, productive season, and the heavy clay soils of the Georgia Piedmont retain the moisture that supports year-round subterranean termite colony activity. South Fulton's development from natural and agricultural land has produced a landscape where these two pests are essentially baseline expectations for every property. Annual termite inspections and a recurring fire ant management program are the practical baseline for South Fulton homeowners.",
+      },
+      {
+        heading: "Mosquitoes near the Chattahoochee and retention areas",
+        body: "South Fulton's location near the Chattahoochee River National Recreation Area and the city's network of retention ponds and drainage wetlands create significant mosquito breeding habitat. West Nile virus is monitored by the Fulton County Board of Health, and Georgia's long warm season extends the active period from March through November. Properties adjacent to retention areas, drainage swales, and the greenway corridors experience higher seasonal pressure than fully developed interior locations. Professional barrier spray programs targeting yard vegetation during peak season are the most effective residential approach for South Fulton properties near natural water features.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant broadcast bait in early spring per UGA Extension recommendations before mound numbers increase after spring rains.",
+      "Schedule annual termite inspections given Fulton County's position in the southeastern United States' high-pressure termite zone.",
+      "Remove standing water from retention area drainage and yard containers weekly during the long Atlanta metro mosquito season.",
+      "Seal utility penetrations and garage door gaps before fall to intercept mice.",
+    ],
+    costNote:
+      "South Fulton pest control is typically a quarterly exterior program covering fire ants, cockroaches, and mice, with termite protection and mosquito service priced separately. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Is South Fulton in a high termite pressure area?",
+        answer:
+          "Yes. UGA Extension identifies the Atlanta metro area as one of the highest subterranean termite pressure zones in the southeastern United States. South Fulton's position in Fulton County, with its warm humid climate and clay-heavy Piedmont soils, places it squarely in high-risk territory. Annual inspections are the recommended precaution.",
+      },
+      {
+        question: "How long is fire ant season in South Fulton?",
+        answer:
+          "Effectively year-round in Georgia's subtropical climate. Colonies are active from spring through late fall with reduced but surviving activity in winter. UGA Extension recommends treating in early spring before mound numbers increase and again in fall to maintain control through the year.",
+      },
+      {
+        question: "What mosquito control programs are available for South Fulton homes near retention ponds?",
+        answer:
+          "Professional barrier spray programs targeting yard vegetation are the primary residential tool. These are typically applied monthly from April through October for properties adjacent to retention areas and drainage features. Eliminating standing water on the property, including containers, tarps, and bird baths, complements the professional program.",
+      },
+      {
+        question: "Do newer homes in South Fulton need termite protection?",
+        answer:
+          "Yes. New construction in the Atlanta metro disturbs soil and can displace existing termite colonies toward new structures. UGA Extension confirms that Georgia builders are required to provide soil pre-treatment, but coverage terms vary and annual inspections after the initial warranty period are still the recommended precaution.",
+      },
+      {
+        question: "Are German cockroaches found outdoors in South Fulton?",
+        answer:
+          "German cockroaches are primarily an indoor pest but can survive outdoors in the warm Georgia climate in protected locations near moisture and food sources. They are almost always the result of indoor establishment rather than outdoor colonization. Commercial kitchens, multi-family buildings, and areas with moisture issues are the primary indoor habitats.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Columbus", slug: "columbus" },
+      { name: "Macon", slug: "macon" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in South Fulton, GA | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "South Fulton GA pest control for fire ants, subterranean termites, mosquitoes, German cockroaches and mice. Fulton County southwest Atlanta metro Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "johns-creek",
+    name: "Johns Creek",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~85,000",
+    county: "Fulton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Johns Creek is an affluent suburb in northern Fulton County, along the Chattahoochee River corridor northeast of Atlanta. The Chattahoochee River forms the city's northern boundary and creates riparian mosquito habitat and wildlife corridors. The warm humid subtropical climate sustains year-round fire ant activity and supports subterranean termite colonies throughout the Piedmont clay soils. University of Georgia Cooperative Extension documents consistent pest pressure across the North Atlanta suburban corridor.",
+    topPests: [
+      "Mosquitoes",
+      "Fire ants",
+      "Subterranean termites",
+      "Yellow jackets",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Chattahoochee River forms the northern boundary of Johns Creek and creates significant riparian mosquito breeding habitat along its banks and associated wetlands. West Nile virus is monitored by the Fulton County Board of Health. The long Atlanta metro warm season extends mosquito activity from March through November.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are a consistent presence in Johns Creek's residential lawns, sports fields, and the natural areas adjacent to the Chattahoochee National Recreation Area. UGA Extension documents year-round fire ant pressure throughout northern Fulton County's warm subtropical climate.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colonies, swarms March through May",
+        note: "UGA Extension confirms subterranean termite pressure throughout Fulton County, and the northern Atlanta corridor is in one of the highest-pressure termite zones in the eastern United States. Annual inspections are the standard precaution for Johns Creek homeowners.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall, most aggressive late summer",
+        note: "Yellow jackets are a significant nuisance and sting risk in Johns Creek's wooded and natural-edge residential areas. They build ground nests and wall void nests throughout the summer and peak in aggression in late August through October when colonies reach maximum size.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Johns Creek's commercial food service areas and multi-family residential buildings. The warm climate supports year-round reproduction.",
+      },
+    ],
+    localHook:
+      "Johns Creek's Chattahoochee River boundary creates one of the more scenic natural edges of any North Atlanta suburb and also one of the most productive mosquito corridors in the region. West Nile virus is monitored in Fulton County, and properties backing onto the river corridor or the associated trail system experience above-average mosquito pressure throughout the long Georgia warm season.",
+    intro:
+      "Pest control in Johns Creek is shaped by both the affluent suburban environment and the Chattahoochee River corridor along the city's northern boundary. Mosquitoes from the river riparian zone are a significant concern for properties near the National Recreation Area trail system. Fire ants and subterranean termites are year-round baseline pests throughout Fulton County's warm humid climate. Yellow jackets build late summer nests in the wooded and natural-edge areas throughout the city. German cockroaches are the primary commercial pest.",
+    sections: [
+      {
+        heading: "Chattahoochee River corridor and mosquito season",
+        body: "The Chattahoochee River National Recreation Area, which borders Johns Creek to the north, creates a riparian wildlife and mosquito corridor that is one of the defining pest management challenges for properties near the river. The slow-moving and still water in river backwaters, the associated wetlands, and the extensive riparian vegetation all provide mosquito breeding habitat throughout the warm season. West Nile virus is monitored by the Fulton County Board of Health. Professional barrier spray programs for yard vegetation from April through October are the most effective tool for Johns Creek properties adjacent to the Chattahoochee corridor. Eliminating standing water on the property, including bird baths, containers, and drainage areas, reduces property-level breeding.",
+      },
+      {
+        heading: "Yellow jacket management in wooded North Atlanta suburbs",
+        body: "Yellow jackets build ground nests in abandoned rodent burrows and in soft soil throughout Johns Creek's wooded residential landscape, and they also enter exterior wall cavities through gaps to build wall void nests. Ground nests are often not discovered until a lawn mower or foot traffic disturbs them. Wall void nests are typically discovered when stinging activity is noticed near an exterior gap in late summer. Both situations warrant professional treatment, as disturbing an active yellow jacket nest without appropriate protection produces immediate aggressive stinging. Yellow jacket aggression peaks in late August and September when colonies reach maximum size and foraging activity intensifies.",
+      },
+    ],
+    prevention: [
+      "Schedule professional mosquito barrier programs for properties adjacent to the Chattahoochee River corridor from April through October.",
+      "Apply fire ant broadcast bait in early spring and fall per UGA Extension recommendations for northern Fulton County's year-round pressure.",
+      "Schedule annual termite inspections given the North Atlanta corridor's position in a high-pressure southeastern termite zone.",
+      "Mark yellow jacket ground nest locations when discovered rather than immediately approaching, and schedule professional treatment rather than DIY removal.",
+    ],
+    costNote:
+      "Johns Creek pest control is typically a quarterly exterior program covering fire ants, cockroaches, and mice, with termite protection and mosquito programs priced separately. River-adjacent properties may benefit from more frequent mosquito treatment. A free inspection establishes what is present.",
+    faqs: [
+      {
+        question: "Why is mosquito control more important in Johns Creek than in some other Atlanta suburbs?",
+        answer:
+          "The Chattahoochee River creates a substantial riparian breeding corridor along Johns Creek's northern boundary that inland suburbs without a river edge do not deal with. Properties near the National Recreation Area trail system are exposed to more mosquitoes than properties in Johns Creek's interior. West Nile virus is monitored in Fulton County, adding to the case for professional barrier treatment.",
+      },
+      {
+        question: "Are yellow jacket stings dangerous in Johns Creek?",
+        answer:
+          "Yellow jacket stings are painful for anyone and potentially life-threatening for people with allergies to bee and wasp venom. Ground nests in lawns are a particular risk during mowing season. Anyone who experiences symptoms beyond localized pain after being stung, including hives, facial swelling, or difficulty breathing, should seek emergency medical care immediately.",
+      },
+      {
+        question: "How does Johns Creek's tree canopy affect pest pressure?",
+        answer:
+          "The wooded suburban landscape increases carpenter ant activity near moisture-damaged wood, provides travel routes for roof rats and squirrels, and supports larger yellow jacket populations during summer. The natural edge created by the Chattahoochee corridor also brings deer pressure, which in Georgia means increased deer tick exposure for families using the trail system.",
+      },
+      {
+        question: "Do I need a termite bond for a Johns Creek home?",
+        answer:
+          "A termite bond, or prevention agreement with annual inspection, is worth considering. UGA Extension identifies the Atlanta metro area as one of the highest subterranean termite pressure zones in the eastern United States. Johns Creek's Fulton County location places it firmly in this zone. A bond provides annual inspection plus coverage for retreatment and sometimes repair.",
+      },
+      {
+        question: "How long are fire ants active in Johns Creek each year?",
+        answer:
+          "Effectively year-round. Georgia's subtropical climate means fire ant colonies survive winter and rebuild quickly. Activity peaks in spring and fall. UGA Extension recommends treating with broadcast bait in early spring when soil temperatures reach 65 degrees and again in fall to maintain control.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Roswell", slug: "roswell" },
+      { name: "Sandy Springs", slug: "sandy-springs" },
+      { name: "Alpharetta", slug: "alpharetta" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Johns Creek, GA | Mosquitoes, Fire Ants & Termites",
+    metaDescription:
+      "Johns Creek pest control for mosquitoes, fire ants, subterranean termites, yellow jackets and German cockroaches. Fulton County Chattahoochee River north Atlanta Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "alpharetta",
+    name: "Alpharetta",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~70,000",
+    county: "Fulton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Alpharetta is a fast-growing tech-industry suburb in northern Fulton County, northeast of Atlanta, where the warm humid subtropical climate sustains year-round fire ant and subterranean termite activity. Big Creek and its tributary system running through the city create mosquito breeding habitat close to residential development. University of Georgia Cooperative Extension Fulton County documents consistent pest pressure throughout the North Atlanta corridor.",
+    topPests: [
+      "Fire ants",
+      "Subterranean termites",
+      "Mosquitoes",
+      "German cockroaches",
+      "Yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are a consistent presence in Alpharetta's residential lawns and the natural edge areas adjacent to the Big Creek greenway. UGA Extension documents year-round fire ant pressure throughout the North Atlanta suburban corridor's warm subtropical climate.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colonies, swarms March through May",
+        note: "UGA Extension confirms subterranean termite pressure throughout Fulton County. Alpharetta's position in the North Atlanta corridor places it in a high-pressure termite zone. Annual inspections are the standard recommendation.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Big Creek and its tributaries, which run through Alpharetta's residential areas, create mosquito breeding habitat close to developed neighborhoods. West Nile virus is monitored by the Fulton County Board of Health. The Atlanta metro's long warm season extends mosquito pressure from March through November.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Alpharetta's active commercial corridor along GA-400 and Haynes Bridge Road, particularly in the restaurant and food service areas. Adjacent residential properties can experience pressure from commercial sources.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall",
+        note: "Yellow jackets build ground and wall void nests throughout Alpharetta's wooded residential landscape. They are most aggressive in late summer and fall when colonies reach maximum size. Ground nests in lawns are common in Alpharetta's established neighborhoods.",
+      },
+    ],
+    localHook:
+      "Alpharetta is known as the Technology City of the South, and beneath all the corporate campuses and new development lies the Big Creek greenway corridor, a natural feature that runs through the heart of the city and creates significant mosquito breeding habitat that residents of newer tech-adjacent neighborhoods experience every spring and summer.",
+    intro:
+      "Pest control in Alpharetta reflects the rapid growth and North Atlanta suburban environment of Fulton County's technology hub. Fire ants and subterranean termites are year-round baseline pests throughout the warm subtropical climate. Big Creek and its tributaries create mosquito breeding habitat close to residential areas, with West Nile virus monitored in Fulton County. Yellow jackets are active summer through fall in the wooded residential landscape. German cockroaches are consistent in the commercial corridor areas.",
+    sections: [
+      {
+        heading: "Big Creek corridor and mosquito season in Alpharetta",
+        body: "The Big Creek greenway system is one of Alpharetta's most valued natural features, providing recreational trail access and green space through the developed urban landscape. The slow-moving and pooled sections of Big Creek and its tributaries create mosquito breeding habitat that generates above-average seasonal pressure for properties within several blocks of the creek. West Nile virus is monitored by the Fulton County Board of Health. Professional mosquito barrier programs for property vegetation from April through October are the most effective residential management tool for Alpharetta properties near the Big Creek corridor. Eliminating standing water in yard containers, plant trays, and drainage low spots reduces on-property breeding.",
+      },
+      {
+        heading: "Rapid growth and termite exposure in northern Fulton County",
+        body: "Alpharetta's position as one of the fastest-growing employment centers in the Atlanta metro has produced continuous new residential and commercial development in northern Fulton County. This construction activity disturbs existing termite colonies in the high-pressure Georgia Piedmont soil environment and can redirect foraging pressure toward new wood construction. UGA Extension confirms that the North Atlanta corridor is in one of the highest subterranean termite pressure zones in the eastern United States. Annual termite inspections are the recommended precaution for both newly built and established Alpharetta homes, and new construction homeowners should verify what soil pre-treatment was applied and what warranty terms cover.",
+      },
+    ],
+    prevention: [
+      "Schedule professional mosquito barrier programs for properties near the Big Creek greenway from April through October.",
+      "Apply fire ant broadcast bait in early spring and fall per UGA Extension recommendations for year-round control.",
+      "Schedule annual termite inspections given Fulton County's high-pressure termite zone classification.",
+      "Mark and schedule professional treatment of yellow jacket ground nests when discovered rather than attempting DIY nest removal.",
+    ],
+    costNote:
+      "Alpharetta pest control is typically a quarterly exterior program covering fire ants, cockroaches, and mice, with termite protection and mosquito programs priced separately. Big Creek-adjacent properties may benefit from monthly mosquito treatment during peak season. A free inspection establishes current pest activity.",
+    faqs: [
+      {
+        question: "Are fire ants in Alpharetta active all year?",
+        answer:
+          "Yes. Georgia's subtropical climate means fire ant colonies survive winter and remain active year-round, with peaks in spring after rains and in early fall. UGA Extension recommends broadcast bait applications in spring and fall for consistent control.",
+      },
+      {
+        question: "Does Alpharetta's tech industry growth affect pest pressure?",
+        answer:
+          "New construction disturbs soil and temporarily elevates fire ant and termite pressure in the areas being developed. Properties adjacent to active construction sites may see increased mound activity and occasional termite swarm events. This is a temporary effect that subsides once construction is complete and the landscape stabilizes.",
+      },
+      {
+        question: "How do I manage mosquitoes near the Big Creek greenway?",
+        answer:
+          "Professional barrier spray programs targeting vegetation along the yard perimeter are the most effective approach for properties near Big Creek. Programs applied monthly from April through October maintain effective coverage. Eliminating standing water on the property reduces on-site breeding. The greenway itself is outside your control, but property-level treatment creates a buffer.",
+      },
+      {
+        question: "Are yellow jacket ground nests common in Alpharetta yards?",
+        answer:
+          "Yes. Alpharetta's wooded residential landscape provides ideal conditions for yellow jacket ground nesting in abandoned animal burrows and soft soil areas. Ground nests are often not discovered until mowing or foot traffic disturbs them. Mark the location when discovered and schedule professional treatment rather than attempting to eliminate the nest yourself.",
+      },
+      {
+        question: "Is termite protection worth it for a newer Alpharetta home?",
+        answer:
+          "Yes. UGA Extension documents high termite pressure throughout the North Atlanta corridor. New construction soil pre-treatment is required in Georgia but provides limited-term coverage. Annual inspections after the initial coverage period and a long-term prevention agreement are worth considering given the documented pressure.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Roswell", slug: "roswell" },
+      { name: "Johns Creek", slug: "johns-creek" },
+      { name: "Sandy Springs", slug: "sandy-springs" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Alpharetta, GA | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Alpharetta pest control for fire ants, subterranean termites, mosquitoes, German cockroaches and yellow jackets. Fulton County Big Creek Technology City north Atlanta Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

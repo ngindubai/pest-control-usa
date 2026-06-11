@@ -1412,4 +1412,218 @@ export const northCarolinaCities: CityLocation[] = [
     metaDescription:
       "Greenville NC pest control for subterranean termites, mosquitoes, fire ants, German cockroaches and American cockroaches. Pitt County Tar River Coastal Plain eastern North Carolina specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "jacksonville",
+    name: "Jacksonville",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~78,000",
+    county: "Onslow County",
+    climate: "hot-humid",
+    climateDriver:
+      "Jacksonville sits on the New River in Onslow County on North Carolina's coastal plain, with a hot, humid coastal climate. Year-round warmth sustains termite and fire ant activity, mosquitoes breed in the abundant wetland habitat, and the Marine Corps Base Camp Lejeune community creates high residential turnover that sustains bed bug pressure.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "American Cockroaches",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm February through May, active year-round underground",
+        note:
+          "NC State Cooperative Extension confirms both eastern subterranean and Formosan termite pressure in Onslow County. Jacksonville's coastal plain humidity and year-round warmth keep termite colonies active continuously, with no winter dormancy. Annual inspections and ongoing monitoring programs are standard for Onslow County homes.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, peak June through September",
+        note:
+          "The New River wetlands, coastal marshes, and retention areas throughout Jacksonville's residential developments create extensive mosquito breeding habitat. The Onslow County Mosquito Control program provides regional treatment, but property-level barrier spray significantly reduces resting adult populations near outdoor living areas.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note:
+          "NC State Cooperative Extension confirms red imported fire ants are established throughout eastern North Carolina including Onslow County. Year-round coastal warmth keeps colonies active with no winter dormancy. Broadcast bait treatment is more cost-effective than treating individual mounds in established fire ant territory.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge in warm months",
+        note:
+          "American cockroaches (palmetto bugs) are a normal part of Jacksonville's coastal plain environment, living primarily in drainage systems, mulch, and under concrete. They enter homes through foundation gaps, crawl space vents, and garage doors, particularly after rain. Perimeter treatment and sealing ground-level entry points manage them effectively.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note:
+          "Camp Lejeune's military community creates among the highest residential turnover rates in North Carolina. Each military relocation is a bed bug introduction risk through furniture, clothing, and bedding, and the dense military housing stock means spread between units is possible once an infestation establishes.",
+      },
+    ],
+    localHook:
+      "Jacksonville's pest landscape is shaped by two forces: the coastal plain environment and Camp Lejeune. Coastal humidity and year-round warmth mean termites never go dormant and mosquitoes run from March through November. The Marine Corps base creates residential turnover rates that make Jacksonville one of the higher bed bug risk markets in North Carolina.",
+    intro:
+      "Jacksonville, NC faces the full coastal plain pest calendar without the break that cooler climates provide. Termites are active year-round in Onslow County's humid coastal conditions, with both eastern subterranean and Formosan species confirmed by NC State Cooperative Extension. Mosquitoes from the New River wetlands and coastal marshes run from March through November. Fire ants are established throughout the area with no winter dormancy.\n\nThe Camp Lejeune military community adds a specific bed bug pressure that distinguishes Jacksonville from other coastal plain cities. Military relocations create consistent furniture and household goods movement, and the dense military housing stock means early detection matters more than in lower-turnover markets. American cockroaches enter from outside year-round in the coastal plain environment. A professional inspection scopes which pressures are active at your specific address and what structural features are contributing.",
+    sections: [
+      {
+        heading: "Termite management in Jacksonville's coastal plain",
+        body: "Jacksonville sits in one of the most active termite zones in North Carolina. NC State Cooperative Extension documents eastern subterranean termite pressure throughout Onslow County, and Formosan termite presence along the North Carolina coast means Jacksonville faces both species. Unlike the northern US where termites largely go dormant in winter, Onslow County's coastal plain warmth keeps termite colonies foraging year-round, which extends their feeding season and the risk window for unprotected structures. For Jacksonville homeowners, the minimum standard is annual professional inspection plus an active termite monitoring program for homes with crawl spaces or any wood near soil contact. Swarming from February through May, when winged termites emerge near windows, is the most common early detection signal, but relying on swarms alone as the detection mechanism means waiting until a colony is already well established.",
+      },
+      {
+        heading: "Bed bug prevention for Jacksonville's military community",
+        body: "Camp Lejeune's relocation cycle creates bed bug risk that is worth understanding. Bed bugs travel in household goods: in furniture, clothing, luggage, and bedding. Military moves involve exactly the kind of high-volume household goods transport that provides vectors for introduction, and the dense military housing near base creates the shared-wall environment where spread from an infested unit to an adjacent one is possible over time. For service members moving into military housing or off-base rentals in Jacksonville, inspecting mattress seams, box spring joints, and headboard crevices before sleeping is the most practical first defense. For property managers and housing coordinators, professional inspections between tenancies are a reasonable standard of care for high-turnover units. Caught early, in one unit before spread, bed bug treatment is straightforward. Caught late, in multiple units after spread, it is considerably more involved.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections plus an active monitoring program for all Onslow County homes, particularly those with crawl spaces or wood near soil contact.",
+      "Inspect mattress seams and box spring corners when moving into any Jacksonville housing, particularly military housing with high turnover.",
+      "Treat the yard for fire ants with broadcast bait in spring and fall, addressing the whole yard rather than individual mounds.",
+      "Eliminate standing water sources before the March mosquito season opens: gutters, yard containers, and low areas that hold water after rain.",
+    ],
+    costNote:
+      "Jacksonville pest pricing reflects the coastal plain environment and military market. Annual termite monitoring programs are available and cost-effective for the area's consistent risk level. Mosquito barrier spray programs run from March through November. Bed bug inspections are quoted separately before treatment. Fire ant broadcast bait programs are a seasonal service.",
+    faqs: [
+      {
+        question: "Are termites active year-round in Jacksonville, NC?",
+        answer:
+          "Yes. Unlike northern states where termite activity slows significantly in winter, Onslow County's coastal plain climate is warm enough to sustain year-round termite foraging. NC State Cooperative Extension confirms both eastern subterranean and Formosan termite pressure in the area. The extended active season means termites can cause more damage per year in Jacksonville than in cooler climates. Annual inspections and active monitoring programs are the appropriate response to that risk level.",
+      },
+      {
+        question: "Why are bed bugs a bigger concern in Jacksonville than in other NC cities?",
+        answer:
+          "Camp Lejeune's military relocation cycle is the key factor. Military moves involve high volumes of household goods transported nationally and internationally, which creates introduction pathways that lower-turnover markets do not face at the same rate. The dense military housing near base also means one introduction can spread before detection if early signs are not caught. This does not mean bed bugs are inevitable, but it does mean that inspection at move-in and early reporting if signs appear are more important in Jacksonville than in cities without a large military community.",
+      },
+      {
+        question: "How do I keep fire ants out of my Jacksonville yard?",
+        answer:
+          "Fire ants in Onslow County are a managed presence, not an eliminable pest. NC State Cooperative Extension recommends broadcast bait programs applied across the entire yard rather than treating individual mounds, because treating mounds forces the colony to relocate rather than eliminating it. Two applications per year, spring and fall, provide the most consistent control. Granular baits applied according to label directions are effective for homeowner use. Professional broadcast programs are more consistent for larger properties or for yards with high ant pressure.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Durham", slug: "durham" },
+      { name: "Wilmington", slug: "wilmington" },
+      { name: "Greenville", slug: "greenville" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Jacksonville, NC | Termites, Mosquitoes & Bed Bugs",
+    metaDescription:
+      "Jacksonville NC pest control for subterranean termites, mosquitoes, fire ants, American cockroaches and bed bugs. Onslow County Camp Lejeune coastal plain North Carolina specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "chapel-hill",
+    name: "Chapel Hill",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~63,000",
+    county: "Orange County",
+    climate: "hot-humid",
+    climateDriver:
+      "Chapel Hill sits in Orange County in the Piedmont region with a hot, humid Carolina climate. Long warm seasons sustain termite and mosquito activity from early spring through late fall. The UNC-Chapel Hill campus creates a large, high-turnover rental market that sustains bed bug pressure, while the wooded residential character of the town supports deer tick populations.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Deer Ticks",
+      "Bed Bugs",
+      "Fire Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm February through May, active year-round underground",
+        note:
+          "NC State Cooperative Extension confirms eastern subterranean termite pressure throughout Orange County. Chapel Hill's wooded residential neighborhoods, high humidity, and older housing stock near the UNC campus carry elevated termite exposure. Annual inspections are the standard precaution.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, peak June through September",
+        note:
+          "Chapel Hill's wooded, shaded residential lots retain moisture and provide resting habitat for mosquitoes through the long Carolina warm season. Property-level barrier spray managing resting adults in vegetation is the most effective residential approach.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "Year-round risk, peak May through July and October through November",
+        note:
+          "NC State Cooperative Extension places Orange County in the high Lyme disease risk zone. Chapel Hill's wooded residential character, large deer population, and proximity to Jordan Lake and Eno River natural areas sustain deer tick populations at levels that make tick exposure a routine concern.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note:
+          "UNC-Chapel Hill's large student enrollment creates the high-turnover rental market conditions that sustain bed bug pressure in campus-adjacent housing. Introduction through furniture, luggage, and secondhand items is the most common pathway.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note:
+          "NC State Cooperative Extension confirms red imported fire ants are established in Orange County. Chapel Hill's warm climate and residential landscaping sustain fire ant populations that are active from early spring through late fall.",
+      },
+    ],
+    localHook:
+      "Chapel Hill's wooded, academic character creates a pest picture that is distinctly different from other NC Piedmont cities. Wooded lots sustain deer ticks at high levels. Termites are active in the humid, shaded housing near campus. The UNC rental market cycles bed bugs through the student housing stock. Fire ants are established throughout the town's landscaping.",
+    intro:
+      "Chapel Hill, NC has a pest profile shaped by its wooded character and its university. The dense tree canopy and shaded residential lots that make the town so appealing also retain the moisture and provide the resting habitat that mosquitoes need through the long Carolina warm season. The wooded corridors near Eno River and Jordan Lake sustain deer tick populations that NC State Cooperative Extension places in the high Lyme disease risk category for Orange County.\n\nSubterranean termites are active in Chapel Hill's humid Piedmont climate, with the wooded older neighborhoods near UNC carrying elevated exposure. The student rental market near campus sustains consistent bed bug pressure through high annual turnover. Fire ants are established throughout the area. A professional inspection identifies which of these pressures are active at your property and what the seasonal prevention calendar should look like.",
+    sections: [
+      {
+        heading: "Deer tick management in Chapel Hill's wooded neighborhoods",
+        body: "Orange County is in NC State's high Lyme disease risk zone, and Chapel Hill's wooded residential character means tick exposure is a routine outdoor concern rather than an exceptional one. Black-legged deer tick nymphs are the highest-risk life stage: they are the size of a poppy seed, active from May through July when outdoor activity peaks, and carry the bacteria that causes Lyme disease at significant rates in this part of North Carolina. Chapel Hill properties with wooded borders, naturalistic landscaping, or proximity to Eno River State Park or Jordan Lake natural areas face higher exposure than properties on open-lawn lots. Tick checks after any outdoor activity in wooded or shrubby areas, including residential yards, are the most effective personal precaution. For properties with consistent wooded-border exposure, professional tick barrier spray targeting the lawn-to-woodland edge and leaf litter areas provides a meaningful reduction in encounter rates during the peak season.",
+      },
+      {
+        heading: "Termites in Chapel Hill's wooded older neighborhoods",
+        body: "The combination of Orange County's documented termite pressure, Chapel Hill's high humidity, and the wooded, shaded character of the older neighborhoods near UNC creates elevated conditions for subterranean termite activity. Shaded structures stay moister, which both sustains termite foraging and creates the wood moisture conditions termites prefer. Older homes near campus with crawl spaces, wood sill plates, or any wood near soil contact carry the highest local risk. The spring swarming season from February through May is the most common time homeowners detect activity, when winged reproductives emerge near windows or doors. Annual professional inspections are the appropriate standard for Chapel Hill homes in the older wooded neighborhoods, particularly those with crawl spaces.",
+      },
+    ],
+    prevention: [
+      "Conduct tick checks after all outdoor activity in wooded or shrubby areas, including your own yard if it has wooded borders or naturalistic landscaping.",
+      "Schedule two professional tick barrier spray applications per year: spring targeting nymphs and fall targeting adults, focusing on the lawn-to-woodland edge.",
+      "Schedule annual termite inspections, particularly for older Chapel Hill homes with crawl spaces in the wooded neighborhoods near UNC.",
+      "Inspect mattress seams and box spring corners when moving into any Chapel Hill rental to detect bed bugs before an infestation establishes.",
+    ],
+    costNote:
+      "Chapel Hill pest pricing reflects the Piedmont university market. Tick barrier spray programs are seasonal. Termite inspections are offered at no charge with treatment quoted after assessment. Bed bug inspections and treatments are quoted after a professional visit.",
+    faqs: [
+      {
+        question: "Is Lyme disease risk high in Chapel Hill?",
+        answer:
+          "Yes. NC State Cooperative Extension places Orange County in the high-risk category for Lyme disease based on deer tick population density and confirmed infection rates. Chapel Hill's wooded residential character and proximity to Eno River State Park and Jordan Lake natural areas sustain deer tick populations at levels that make routine tick checks after outdoor activity a sensible standard practice. Deer tick nymphs, active from May through July, are the most commonly overlooked risk because they are small enough to be missed without deliberate checking.",
+      },
+      {
+        question: "How do termites behave in Chapel Hill's wooded lots?",
+        answer:
+          "Termites in Chapel Hill's wooded residential areas benefit from the consistent moisture that shaded lots retain. Subterranean termites need moisture to survive and prefer wood that is already slightly moist. Shaded structures in humid Orange County provide those conditions more consistently than open, sunnier lots. This does not mean every wooded Chapel Hill home has active termites, but it does mean the conditions are more favorable and annual inspections are a reasonable precaution rather than an abundance of caution.",
+      },
+      {
+        question: "Are bed bugs a common problem in UNC-area housing?",
+        answer:
+          "They are a consistent, managed concern in the high-turnover rental market near UNC. Annual tenant turnover creates regular introduction events through luggage, furniture, and secondhand items. Caught early in one unit, bed bug treatment is a manageable professional service. Caught after spread to multiple units, it is considerably more complex. Inspecting mattress seams and box spring corners when moving in, and reporting any signs immediately, are the most effective tenant-level actions.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Durham", slug: "durham" },
+      { name: "Wilmington", slug: "wilmington" },
+      { name: "Greenville", slug: "greenville" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Chapel Hill, NC | Termites, Deer Ticks & Mosquitoes",
+    metaDescription:
+      "Chapel Hill pest control for subterranean termites, deer ticks, mosquitoes, bed bugs and fire ants. Orange County UNC Eno River wooded Piedmont North Carolina specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

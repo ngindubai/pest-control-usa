@@ -877,4 +877,321 @@ export const newJerseyCities: CityLocation[] = [
     metaDescription:
       "Toms River pest control for deer ticks, stink bugs, mosquitoes, house mice and subterranean termites. Ocean County Pine Barrens Barnegat Bay New Jersey specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "woodbridge",
+    name: "Woodbridge",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~100,000",
+    county: "Middlesex County",
+    climate: "temperate",
+    climateDriver:
+      "Woodbridge Township sits in central Middlesex County with a temperate mid-Atlantic climate. Mild winters compared to New England still drive mice indoors each fall, while warm, humid summers sustain mosquito and stink bug pressure. The Raritan Bay shoreline and extensive wetland areas along the Arthur Kill add coastal moisture that amplifies termite and mosquito activity.",
+    topPests: [
+      "Stink Bugs",
+      "House Mice",
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Deer Ticks",
+    ],
+    pestProfile: [
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note:
+          "Brown marmorated stink bugs are well established throughout central New Jersey. Woodbridge's mix of older residential neighborhoods and commercial corridors sees annual fall aggregations on building exteriors, with entry into homes and office buildings through gaps around windows, soffits, and utility lines.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note:
+          "Woodbridge's temperate climate drives mice into structures from October through March. The township's older neighborhoods, particularly near the historic downtown area, have the aging housing stock that accumulates foundation cracks and pipe gaps over decades.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm March through May, active year-round underground",
+        note:
+          "Rutgers Cooperative Extension confirms eastern subterranean termite pressure throughout Middlesex County. Woodbridge's coastal location along the Arthur Kill adds the humidity that elevates termite activity, particularly for older homes with crawl spaces.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October, peak July through August",
+        note:
+          "Woodbridge's wetland areas along the Arthur Kill, Rahway River, and Raritan Bay corridor create significant mosquito breeding habitat. Middlesex County Mosquito Extermination Commission provides regional control, but property-level barrier spray reduces resting adult populations near residential areas.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "Year-round risk, peak May through July and October through November",
+        note:
+          "Rutgers Cooperative Extension places Middlesex County in the high Lyme disease risk zone. Woodbridge's wooded residential areas and wetland corridors sustain deer tick populations. Tick checks after outdoor activity in wooded or shrubby areas are the most effective personal precaution.",
+      },
+    ],
+    localHook:
+      "Woodbridge's location along the Raritan Bay and Arthur Kill wetland corridor puts it in elevated mosquito and tick territory, while its older residential neighborhoods carry the stink bug and mouse pressure common throughout central New Jersey. The township's size and housing diversity mean pest pressure varies noticeably between the older neighborhoods near the Rahway River and the newer suburban sections.",
+    intro:
+      "Pest control in Woodbridge, NJ reflects the township's position at the meeting point of central New Jersey's older suburban neighborhoods and its Raritan Bay wetland corridor. Stink bugs are the most widely reported pest across Woodbridge, aggregating on building exteriors each September and working into older homes through aging window frames and utility gaps. Mice follow the predictable fall surge as temperatures drop. Subterranean termites are a documented pressure throughout Middlesex County, with Woodbridge's coastal humidity adding to the risk for older crawl-space homes.\n\nMosquitoes from the Arthur Kill and Rahway River wetlands extend the outdoor season pressure from May through October. Deer ticks in the wooded residential corridors place Woodbridge residents in Rutgers' high Lyme disease risk zone. A professional inspection scopes which pests are active at your specific property and identifies the structural conditions driving them.",
+    sections: [
+      {
+        heading: "Stink bug prevention in Woodbridge homes",
+        body: "Brown marmorated stink bugs are the fall pest that gets the most attention in central New Jersey, and Woodbridge homeowners see the pattern reliably each year: aggregations on south and west-facing walls starting in September, followed by entry into wall voids through whatever gaps are available. Older homes with aging window sill caulk, deteriorating soffit seals, and utility line gaps around cable and plumbing provide plenty of access. The prevention window is narrow: August through early September, before the aggregation begins, is when sealing those gaps actually prevents entry rather than just slowing it. Once stink bugs are in wall voids, they are difficult to remove without creating more problems. The practical response is to vacuum them as they emerge on warm days rather than trying to treat the wall voids directly.",
+      },
+      {
+        heading: "Tick management in Woodbridge's wooded areas",
+        body: "Rutgers Cooperative Extension consistently places Middlesex County in the high Lyme disease risk category, and Woodbridge residents with properties adjacent to wooded corridors, wetland edges, or brushy areas face year-round deer tick exposure. Black-legged tick (deer tick) nymphs are the highest-risk life stage because they are small enough to go unnoticed and are most active from May through July. Two treatment applications, one in spring targeting nymphs and one in fall targeting adults before they seek a winter host, provide the most complete seasonal coverage for residential properties. Treating the lawn-to-woodland edge and any leaf litter areas, rather than open lawn, addresses where ticks actually concentrate.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around window sills, soffits, and exterior utility penetrations in August before stink bugs begin aggregating on building exteriors.",
+      "Perform a professional rodent exclusion inspection in September, focusing on foundation cracks, crawl space vents, and garage door gaps before the October mouse surge.",
+      "Schedule two tick treatments per year for properties with wooded or shrubby borders: spring for nymph suppression and fall for adult suppression.",
+      "Eliminate standing water sources before the mosquito season opens in May: gutters, low areas, tarps, and any container that holds water after rain.",
+    ],
+    costNote:
+      "Woodbridge pest pricing follows standard New Jersey central-county rates. Termite inspections are typically offered at no charge with treatment quoted after inspection. Tick barrier spray programs are seasonal. Stink bug perimeter sealing is typically combined with a fall exterior treatment. Annual programs covering mice, stink bugs, and mosquitoes are available and cost-effective for older residential properties.",
+    faqs: [
+      {
+        question: "Why do stink bugs keep getting into my Woodbridge home even after I sealed the windows?",
+        answer:
+          "Stink bugs find entry through gaps that are easy to miss: around utility lines where they pass through the siding, in soffit corners, at the junction between different siding materials, and around attic vents. If you sealed visible window gaps but stink bugs are still appearing indoors, a professional exterior inspection can identify the specific entry points that were missed. The most effective prevention combines thorough gap sealing with an exterior perimeter treatment applied before the September aggregation builds on your south and west-facing walls.",
+      },
+      {
+        question: "Is Lyme disease risk high in Woodbridge?",
+        answer:
+          "Yes. Rutgers Cooperative Extension places Middlesex County in the high Lyme disease risk category based on deer tick population density and infection rates. Woodbridge residents with properties adjacent to wooded or wetland areas should treat tick exposure seriously. Tick checks after any time in wooded, brushy, or leaf-litter areas are the most effective personal precaution. For properties with consistent wooded-border exposure, professional tick barrier spray programs that target the lawn-to-woodland edge reduce encounter risk during the peak season.",
+      },
+      {
+        question: "Do Woodbridge homes near the Arthur Kill need termite inspections?",
+        answer:
+          "Yes. Rutgers Cooperative Extension confirms eastern subterranean termite pressure throughout Middlesex County, and the coastal humidity along Woodbridge's Arthur Kill corridor adds to the risk for older homes with crawl spaces or wood near soil contact. Annual professional inspections are the standard precaution. Spring swarming from March through May, when winged termites emerge near windows or doors, is the most common early detection event.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Newark", slug: "newark" },
+      { name: "Elizabeth", slug: "elizabeth" },
+      { name: "Trenton", slug: "trenton" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Woodbridge, NJ | Stink Bugs, Mice & Deer Ticks",
+    metaDescription:
+      "Woodbridge NJ pest control for stink bugs, house mice, subterranean termites, mosquitoes and deer ticks. Middlesex County Raritan Bay Arthur Kill specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "edison",
+    name: "Edison",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~100,000",
+    county: "Middlesex County",
+    climate: "temperate",
+    climateDriver:
+      "Edison Township occupies a large swath of central Middlesex County with a temperate mid-Atlantic climate. Warm humid summers drive mosquito and stink bug pressure, mild but genuine winters push mice into structures each fall, and the township's mix of suburban residential neighborhoods and industrial corridor creates varied pest environments across its large footprint.",
+    topPests: [
+      "Stink Bugs",
+      "House Mice",
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note:
+          "Brown marmorated stink bugs are established throughout Middlesex County and aggregate on Edison's large residential building stock each fall. The township's diverse housing inventory, from older ranches to newer colonials, all see the same annual September aggregation on south and west-facing exteriors.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note:
+          "Edison's temperate climate drives mice into structures from October through March. The township's large footprint includes older neighborhoods near downtown Edison with aging housing stock and newer suburban sections where garage connections and crawl space vents are common entry points.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm March through May, active year-round underground",
+        note:
+          "Rutgers Cooperative Extension confirms eastern subterranean termite pressure across Middlesex County. Edison's broad housing inventory includes pre-WWII homes with crawl spaces that carry elevated termite exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October, peak July through August",
+        note:
+          "Edison's Raritan River floodplain areas and retention ponds throughout residential developments provide mosquito breeding habitat that sustains pressure from May through October. Property-level barrier spray manages resting adult populations near outdoor living areas.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, visible indoors in spring",
+        note:
+          "Rutgers Cooperative Extension documents carpenter ant activity throughout central New Jersey. Edison's wooded residential corridors and older homes with mature tree canopy and moisture-affected wood provide the conditions carpenter ants prefer.",
+      },
+    ],
+    localHook:
+      "Edison is one of the largest townships in New Jersey by population and land area, and its pest pressures vary across that footprint. Older neighborhoods near the Raritan River corridor see elevated termite and mosquito pressure. The newer suburban sections deal primarily with stink bugs and mice. The industrial corridor adds a rodent management dimension near the commercial zones.",
+    intro:
+      "Edison, NJ covers a lot of ground, and its pest picture varies across the township. The older neighborhoods near the Raritan River floodplain carry elevated termite pressure from Middlesex County's confirmed subterranean termite population and higher mosquito activity from the river corridor's wetland breeding habitat. The large residential suburban sections across the rest of the township deal primarily with the stink bug aggregations that arrive each September and the mouse surge that follows in October.\n\nCarpenter ants are active in Edison's wooded residential areas from May through September, using moisture-affected wood in older homes. Subterranean termites are a year-round documented presence requiring annual inspection for homes with crawl spaces. A professional assessment scopes which pests are active at your specific property and what structural conditions are contributing.",
+    sections: [
+      {
+        heading: "Subterranean termite inspections in Edison",
+        body: "Rutgers Cooperative Extension confirms eastern subterranean termites are present throughout Middlesex County, and Edison's older housing inventory, particularly the pre-WWII and postwar ranches with crawl spaces along the Raritan River corridor, represents the higher end of exposure. Termites work quietly underground, entering structures through soil-to-wood contact and mud tubes built along foundation walls. They can damage structural wood for years before homeowners notice any visible sign. The spring swarming season from March through May, when winged termites emerge near windows or door frames, is the most common detection event for Edison homeowners. If you see winged insects emerging from baseboards or window sills in spring, a same-day inspection is the right response. For homes in the Raritan River corridor with crawl spaces, annual professional inspections are the standard precaution.",
+      },
+      {
+        heading: "Carpenter ant activity in Edison's residential areas",
+        body: "Carpenter ants appear on the pest radar for many Edison homeowners in March and April, when overwintering colonies become active and workers forage into living spaces. Large black ants in the kitchen or bathroom in early spring are a signal worth following up professionally rather than treating with over-the-counter sprays. Carpenter ants nest in wood softened by moisture, so finding them indoors usually means there is a moisture issue in the structure somewhere: a window sill with failing caulk, roof edge flashing with a slow leak, or deck framing in ground contact. Treatment that addresses the colony without identifying the moisture source typically produces a temporary fix. A professional inspection locates both the colony and the conditions driving it.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around window sills, utility penetrations, and soffits in August before the stink bug fall aggregation season begins.",
+      "Inspect crawl space vents, foundation cracks, and garage door seals in September before the October mouse push.",
+      "Schedule annual termite inspections for older Edison homes with crawl spaces, particularly those in the Raritan River floodplain corridor.",
+      "Eliminate standing water in gutters, retention pond edges, and yard containers before mosquito season opens in May.",
+    ],
+    costNote:
+      "Edison pest pricing follows standard Middlesex County rates. Termite inspections are offered at no charge with treatment quoted after assessment. Stink bug and mouse prevention programs are typically seasonal services. Annual protection plans covering multiple pests are available and cost-effective for the township's large single-family home inventory.",
+    faqs: [
+      {
+        question: "When do stink bugs invade Edison homes?",
+        answer:
+          "September through November, with the peak aggregation typically in October. Stink bugs move from summer host plants to overwintering sites on warm late-September days, gathering on south and west-facing building exteriors before working into wall voids through available gaps. The prevention window is August through early September: sealing gaps around window frames, soffits, and utility penetrations before the aggregation arrives is far more effective than attempting removal after they are inside wall voids.",
+      },
+      {
+        question: "Are termites a real risk in Edison or is it overstated?",
+        answer:
+          "The risk is real. Rutgers Cooperative Extension documents eastern subterranean termite pressure as a statewide concern in New Jersey, and Middlesex County including Edison is not exempt. The Raritan River floodplain's humidity amplifies risk for older homes with crawl spaces and wood near soil contact. The reason termite risk is easy to underestimate is that damage accumulates quietly over years before any visible sign appears. Annual professional inspections catch activity at the stage where treatment is least disruptive and least expensive.",
+      },
+      {
+        question: "Is mosquito pressure worse in Edison near the Raritan River?",
+        answer:
+          "Yes. The Raritan River floodplain and wetland areas along Edison's southern edge create more breeding habitat than the drier northern sections of the township. Properties within a half mile of the floodplain or near retention ponds in residential developments see earlier spring activity and higher peak populations. Middlesex County Mosquito Extermination Commission provides regional treatment, but property-level barrier spray that targets resting adults in vegetation around the home provides a meaningful reduction in exposure during the May through October season.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Newark", slug: "newark" },
+      { name: "Trenton", slug: "trenton" },
+      { name: "Elizabeth", slug: "elizabeth" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Edison, NJ | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "Edison NJ pest control for stink bugs, house mice, subterranean termites, mosquitoes and carpenter ants. Middlesex County Raritan River central New Jersey specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "passaic",
+    name: "Passaic",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~71,000",
+    county: "Passaic County",
+    climate: "cold-humid",
+    climateDriver:
+      "Passaic sits on the Passaic River in Passaic County with a cold, humid climate slightly more pronounced than coastal New Jersey locations. Cold winters drive rodents and cockroaches into the dense urban housing stock, while the Passaic River corridor adds moisture that sustains termite and mosquito pressure.",
+    topPests: [
+      "German Cockroaches",
+      "House Mice",
+      "Norway Rats",
+      "Subterranean Termites",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are established in Passaic's dense multi-family housing and food service corridor along Main Avenue. The city's older apartment buildings with shared plumbing infrastructure allow populations to spread between units, making building-wide treatment programs more effective than individual unit responses.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note:
+          "Passaic's older housing stock and cold Passaic River valley winters create consistent mouse pressure from October through April. Dense multi-family buildings mean mice entering through foundation gaps can access multiple units through shared wall cavities.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, surge in fall",
+        note:
+          "Rutgers Cooperative Extension documents Norway rat activity throughout Passaic County's urban centers. Passaic's Passaic River waterfront location, density of food retail, and older sewer infrastructure support urban rat populations in the city core.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm March through May, active year-round underground",
+        note:
+          "Rutgers Cooperative Extension confirms eastern subterranean termite pressure across Passaic County. Passaic's older housing stock and the river corridor's humidity elevate risk for homes with wood near soil contact.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note:
+          "Passaic's dense rental market and multi-family housing sustain consistent bed bug pressure through tenant turnover. Early detection in the unit where introduction occurs is far less expensive than treating an established multi-unit infestation.",
+      },
+    ],
+    localHook:
+      "Passaic is a compact, densely populated city where pest control challenges are driven by the same factors as in other northeastern urban centers: aging multi-family housing with shared infrastructure, a Passaic River corridor that adds moisture pressure, and a dense food service environment that sustains year-round cockroach and rodent activity.",
+    intro:
+      "Pest control in Passaic is primarily an urban multi-family housing challenge. The city's older apartment buildings and tenements, many constructed in the early 20th century, have the shared plumbing chases and wall voids that allow German cockroaches and mice to move between units once introduced. Cold Passaic County winters compress the fall rodent surge into October and November. Norway rats find footing along the Passaic River waterfront and in the food service corridor. Bed bugs cycle through the active rental market.\n\nSubterranean termites are a documented pressure in Passaic County, and the river corridor's humidity adds to the risk for older homes. A professional inspection identifies which pressures are active at your specific property and whether building-level treatment is needed to address the shared-infrastructure component that individual unit treatment cannot reach.",
+    sections: [
+      {
+        heading: "Coordinated cockroach treatment in Passaic's apartment buildings",
+        body: "The case for building-level German cockroach treatment in Passaic's older apartment buildings follows from how these insects move. They spread through shared plumbing chases and gaps in the wall infrastructure connecting kitchens and bathrooms in adjacent units. Treating one unit while leaving adjacent units and shared infrastructure unaddressed results in re-infestation of the treated unit within weeks from the untreated population next door. For property managers, coordinated gel bait applications across all units, targeting harborage sites in kitchen and bathroom infrastructure rather than open-area spray, produce lasting results. For tenants, reporting cockroach sightings to building management promptly rather than attempting unit-level DIY treatment gives the building-wide response the best chance of working.",
+      },
+    ],
+    prevention: [
+      "Report cockroach sightings to building management immediately to enable coordinated building-wide gel bait treatment.",
+      "Seal foundation gaps, sill plate cracks, and utility penetrations in September before the fall rodent surge.",
+      "Keep exterior trash in sealed containers to reduce Norway rat harborage and foraging opportunities near building foundations.",
+      "Inspect mattress seams and box spring corners when moving into any Passaic rental to catch bed bugs before an infestation establishes.",
+    ],
+    costNote:
+      "Passaic pest pricing reflects the multi-family urban housing market. Building-wide cockroach and rodent programs are priced per building and provide better value than per-unit service calls for landlords and property managers. Bed bug treatment is quoted after inspection.",
+    faqs: [
+      {
+        question: "How do I get rid of cockroaches in my Passaic apartment permanently?",
+        answer:
+          "Permanent cockroach elimination in a multi-family building requires a building-wide approach rather than treating your unit alone. German cockroaches spread through shared plumbing chases and wall voids, so they will re-infest a treated unit from adjacent untreated units. The effective path is coordinating with your building manager for a professional gel bait program applied across all units simultaneously. Gel bait in harborage sites, behind appliances and inside cabinet hinges, outperforms spray treatments for long-term control. If your building management is unresponsive, document the problem and follow Passaic's tenant complaint process through the city's code enforcement.",
+      },
+      {
+        question: "Are Norway rats a health risk in Passaic near the river?",
+        answer:
+          "Yes. Norway rats carry pathogens including leptospirosis and salmonella and pose a genuine public health risk, not just a nuisance. The Passaic River corridor and density of food retail in the city core create habitat that sustains urban rat populations. If you see rat burrows near your building foundation, droppings along fence lines, or gnaw marks on exterior structures, that is an active population that warrants professional treatment. Licensed professional baiting with tamper-resistant stations is safer and more effective than over-the-counter products in a dense urban environment with children and pets.",
+      },
+      {
+        question: "Do older homes in Passaic need termite inspections?",
+        answer:
+          "Yes. Rutgers Cooperative Extension confirms eastern subterranean termite pressure across Passaic County. Older homes in Passaic, particularly those with crawl spaces or wood near soil contact, carry documented exposure. Spring swarming from March through May is the most common time homeowners first notice activity. Annual professional inspections catch the problem before structural damage develops.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Paterson", slug: "paterson" },
+      { name: "Newark", slug: "newark" },
+      { name: "Clifton", slug: "clifton" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Passaic, NJ | Cockroaches, Mice & Norway Rats",
+    metaDescription:
+      "Passaic NJ pest control for German cockroaches, house mice, Norway rats, subterranean termites and bed bugs. Passaic County Passaic River urban housing specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

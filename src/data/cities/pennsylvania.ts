@@ -974,4 +974,111 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaDescription:
       "Lancaster pest control for brown marmorated stink bugs, subterranean termites, deer ticks, house mice and German cockroaches. Lancaster County Pennsylvania Dutch Country specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "york",
+    name: "York",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~44,000",
+    county: "York County",
+    climate: "temperate",
+    climateDriver:
+      "York sits in York County in the South Mountain region of central Pennsylvania with a temperate mid-Atlantic climate. Its position east of the South Mountain ridge is within the core stink bug invasion zone, while warm summers sustain mosquito and deer tick pressure. The Codorus Creek corridor through the city adds moisture that elevates termite activity.",
+    topPests: [
+      "Stink Bugs",
+      "House Mice",
+      "Subterranean Termites",
+      "Deer Ticks",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note:
+          "Penn State Extension identifies York County as part of the core mid-Atlantic stink bug invasion zone. York sees among the most intense annual stink bug aggregations in Pennsylvania each fall, with the South Mountain corridor funneling insects toward structures as temperatures drop.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note:
+          "York's older housing inventory, including significant pre-WWII housing stock in the historic rowhouse neighborhoods, accumulates the foundation cracks and aging sill plates that give mice reliable access from October through March.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Swarm March through May, active year-round underground",
+        note:
+          "Penn State Extension confirms eastern subterranean termite pressure throughout York County. The Codorus Creek corridor's moisture and York's older housing stock with crawl spaces elevate termite risk in the downtown and historic neighborhoods.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "Year-round risk, peak May through July and October through November",
+        note:
+          "The Pennsylvania Department of Health places York County in the high Lyme disease risk zone. The South Mountain wooded corridors and agricultural hedgerows throughout York County sustain deer tick populations that make outdoor exposure a routine concern.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October, peak June through August",
+        note:
+          "The Codorus Creek floodplain and retention areas in residential developments provide mosquito breeding habitat. Properties near the Codorus Creek corridor see higher pressure than upland residential areas.",
+      },
+    ],
+    localHook:
+      "York County is in the heart of the mid-Atlantic stink bug invasion zone, and York city homeowners feel that every fall. The South Mountain corridor concentrates stink bug movement toward structures. Older rowhouse neighborhoods add mouse and termite dimensions that newer suburban housing does not face at the same level.",
+    intro:
+      "York, PA sits in one of the most active stink bug zones in the country. Penn State Extension identifies the South Mountain corridor of York County as core stink bug territory, and residents see this firsthand each fall when building exteriors become covered with aggregating stink bugs in September and October. The pressure here runs higher than in many surrounding Pennsylvania cities.\n\nYork's older housing stock, particularly the historic rowhouse neighborhoods in the downtown core, adds the termite and mouse dimensions that come with pre-WWII construction: crawl spaces with termite exposure, aging foundation gaps for mice, and the shared-wall rowhouse character that makes rodent movement between buildings straightforward. Deer ticks in the South Mountain wooded corridors place York County in Pennsylvania's high Lyme disease risk zone. The Codorus Creek corridor adds mosquito pressure near the river from May through October.",
+    sections: [
+      {
+        heading: "Why stink bugs are so intense in York County",
+        body: "Penn State Extension's stink bug research consistently places the South Mountain corridor in the core of the mid-Atlantic invasion zone. The mountains create a geographic funnel: stink bugs moving toward overwintering sites in fall concentrate along the mountain edge rather than dispersing uniformly across the landscape. York, positioned just east of South Mountain, sees this concentration annually. The practical effect for York homeowners is that stink bug pressure here runs higher than in many comparable Pennsylvania cities, and the prevention window before aggregations build on building exteriors is narrow. Sealing gaps around window sills, soffits, and utility penetrations in August, combined with an exterior perimeter treatment on south and west building faces in September, is the most effective combination for reducing the number of stink bugs that successfully enter wall voids.",
+      },
+      {
+        heading: "Termites in York's historic rowhouse districts",
+        body: "York's historic downtown neighborhoods have some of the most intact pre-WWII rowhouse fabric in Pennsylvania, and that architectural character carries real termite risk. Penn State Extension confirms eastern subterranean termite pressure throughout York County, and the Codorus Creek corridor's moisture amplifies activity near the river. Rowhouse construction with party walls, shared foundation elements, and wood sill plates at or near grade creates the soil-to-wood contact conditions subterranean termites exploit. Annual professional inspections are the standard precaution for York's older rowhouse stock. The spring swarming season from March through May, when winged termites emerge near windows or along baseboard lines, is the most common detection event for York homeowners.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around window sills, soffits, and exterior utility penetrations in August to get ahead of York County's intense fall stink bug aggregation season.",
+      "Seal foundation cracks, utility penetrations, and garage door gaps in September before the October mouse surge in older rowhouse and historic housing.",
+      "Schedule annual termite inspections for pre-WWII homes with crawl spaces in the historic downtown area, particularly near the Codorus Creek corridor.",
+      "Schedule two professional tick barrier spray treatments per year for properties with wooded or brushy borders near the South Mountain corridor.",
+    ],
+    costNote:
+      "York pest pricing follows standard central Pennsylvania rates. Termite inspections are offered at no charge with treatment quoted after assessment. Stink bug and rodent exclusion programs are typically combined as fall prevention services. Tick barrier spray programs are seasonal.",
+    faqs: [
+      {
+        question: "Why is stink bug pressure so high in York?",
+        answer:
+          "York's position at the base of the South Mountain ridge puts it in the core mid-Atlantic stink bug invasion zone identified by Penn State Extension researchers. The mountain creates a natural concentration effect as stink bugs move toward overwintering sites in fall: populations that might disperse across a broader area instead funnel along the mountain edge toward structures in York and the surrounding corridor. This is not a perception issue: Penn State data consistently shows York County near the top of documented stink bug pressure in Pennsylvania.",
+      },
+      {
+        question: "Do York's historic rowhouses need termite inspections?",
+        answer:
+          "Yes. Penn State Extension confirms eastern subterranean termite pressure throughout York County, and the historic rowhouse districts represent the highest local risk because of pre-WWII construction with party walls, crawl spaces, and wood sill plates near grade. The Codorus Creek corridor's moisture amplifies activity near downtown. Annual professional inspections are the appropriate standard of care for York's older housing, and they catch termite activity before structural damage accumulates.",
+      },
+      {
+        question: "Is deer tick risk significant in York?",
+        answer:
+          "Yes. The Pennsylvania Department of Health places York County in the high Lyme disease risk zone based on deer tick population density and Lyme disease incidence. The South Mountain wooded corridors and agricultural hedgerow landscape that surround York city sustain large deer tick populations. Tick checks after outdoor activity in any wooded, brushy, or leaf litter areas are the most effective personal precaution. For properties adjacent to wooded areas or naturalistic landscaping, professional tick barrier spray targeting the lawn-to-woodland edge provides meaningful protection during the May through July nymph peak.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Harrisburg", slug: "harrisburg" },
+      { name: "Lancaster", slug: "lancaster" },
+      { name: "Philadelphia", slug: "philadelphia" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in York, PA | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "York PA pest control for stink bugs, house mice, subterranean termites, deer ticks and mosquitoes. York County South Mountain core stink bug zone historic rowhouse specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

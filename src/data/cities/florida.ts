@@ -3410,4 +3410,456 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "North Port pest control for subterranean termites, mosquitoes, ghost ants, deer ticks and roof rats. Sarasota County Myakka River Florida specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "margate",
+    name: "Margate",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~60,000",
+    county: "Broward County",
+    climate: "tropical",
+    climateDriver:
+      "Margate is a suburban city in northern Broward County, where the subtropical South Florida climate creates year-round pest pressure. University of Florida IFAS Extension Broward County documents Asian subterranean termite activity throughout the coastal county, and South Florida's warm wet summers produce intense mosquito seasons. Ghost ants, Formosan termites, and tropical cockroach species are part of the unique South Florida pest complex that differs significantly from central and northern Florida.",
+    topPests: [
+      "Subterranean termites",
+      "Ghost ants",
+      "Mosquitoes",
+      "German cockroaches",
+      "Roof rats",
+    ],
+    pestProfile: [
+      {
+        name: "Asian and Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colonies, swarms spring and summer",
+        note: "University of Florida IFAS Extension confirms both Asian subterranean termites and Formosan subterranean termites are documented in Broward County. Asian subterranean termites are particularly aggressive compared to the eastern subterranean species common in northern Florida, and they form large colonies that cause substantial damage in shorter timeframes.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are identified by UF IFAS Extension as the dominant indoor ant pest throughout South Florida's subtropical coastal communities. They form multiple-queen colonies that are difficult to control with contact sprays. Slow-acting bait is the recommended treatment, allowing workers to carry the product back to all queens.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak June through October",
+        note: "Broward County Mosquito Control operates one of the most active mosquito management programs in Florida given the county's low, wet terrain and proximity to the Everglades. South Florida's warm wet season sustains large mosquito populations including Aedes aegypti, which is the primary dengue and Zika vector. Margate properties with standing water experience significant pressure throughout the warm months.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary indoor cockroach in Margate's commercial corridors and apartment buildings. The tropical climate sustains year-round reproduction, and South Florida's density of commercial food establishments creates ongoing introduction pressure from commercial neighbors.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are the dominant rat species in South Florida per UF IFAS Extension documentation. Margate's suburban tree canopy and its connection to the Everglades edge provide travel routes. They enter structures at the roofline through vents, utility gaps, and overhanging branches.",
+      },
+    ],
+    localHook:
+      "Margate sits in northern Broward County within the South Florida pest zone, where Asian and Formosan subterranean termites coexist with the more common eastern subterranean species documented in the rest of Florida. University of Florida IFAS Extension identifies the Formosan and Asian termite complex in Broward County as one of the more aggressive termite situations in the continental United States.",
+    intro:
+      "Pest control in Margate operates in the South Florida subtropical environment, where the termite complex is more aggressive than anywhere in central or northern Florida. University of Florida IFAS Extension documents both Asian and Formosan subterranean termites in Broward County, and these species form larger colonies and cause damage more quickly than the eastern subterranean termites common elsewhere. Ghost ants are the dominant indoor ant. Broward County's extensive mosquito control program addresses regional pressure, but individual properties with standing water experience concentrated local problems. Roof rats are the primary rodent throughout South Florida.",
+    sections: [
+      {
+        heading: "South Florida's termite complex in Broward County",
+        body: "The termite situation in Margate and Broward County is more complex than most of Florida because the Asian subterranean termite, which UF IFAS Extension identifies as one of the most damaging structural pests in the county, is present alongside the Formosan subterranean termite and the more common eastern subterranean species. Asian subterranean termites form exceptionally large colonies and can cause significant damage in compressed timeframes. Both Formosan and Asian species are established in Broward County's urban and suburban landscape. Annual professional inspections are the minimum precaution, and homeowners should be aware that standard eastern subterranean termite treatments may not be as effective against the more aggressive tropical species without confirmation of the species involved.",
+      },
+      {
+        heading: "Ghost ants and the South Florida ant complex",
+        body: "Ghost ants are named for their nearly transparent coloration, which makes them difficult to see on light surfaces until populations are already established. UF IFAS Extension identifies them as the dominant indoor ant throughout South Florida's coastal communities. They form decentralized colonies with multiple queens distributed across multiple nesting sites, which makes contact spray ineffective since it eliminates workers without reaching all queens. Slow-acting protein and sugar baits that workers carry back to the colony are the recommended treatment. Ghost ants are common in kitchens, bathrooms, and anywhere moisture is accessible inside Margate homes.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections with a licensed Broward County professional who understands the Asian and Formosan species complex, not just eastern subterranean treatment.",
+      "Use slow-acting bait stations for ghost ants rather than spray, which scatters the colony without eliminating queens.",
+      "Remove standing water from yard containers, gutters, and drainage areas weekly to reduce the Broward County mosquito season's impact on your property.",
+      "Trim tree branches from the roofline and seal attic vents to block roof rat access.",
+    ],
+    costNote:
+      "Margate pest control typically involves a quarterly exterior program covering ants, cockroaches, and rodents, with termite protection and mosquito service priced separately. Given the Formosan and Asian termite risk in Broward County, a termite prevention bond is worth considering for newer as well as older homes. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Are Formosan termites present in Margate?",
+        answer:
+          "Yes. University of Florida IFAS Extension confirms Formosan subterranean termites are established in Broward County alongside Asian subterranean and eastern subterranean species. Formosan termites form very large colonies and are among the most damaging structural pests in Florida. Annual inspections by a licensed professional familiar with South Florida's termite complex are the appropriate precaution.",
+      },
+      {
+        question: "How do I know if I have ghost ants in my Margate home?",
+        answer:
+          "Ghost ants are very small and nearly transparent in the body, with a darker head and thorax. They are most visible in kitchens and bathrooms along countertops, baseboards, and near moisture sources. They move in irregular trails rather than the defined columns of fire ants or odorous house ants. A professional identification is useful before treatment since ghost ants require a different approach than most ants.",
+      },
+      {
+        question: "How effective is Broward County Mosquito Control for my property?",
+        answer:
+          "Broward County Mosquito Control operates an active program including aerial and ground treatment across the county. It reduces regional background mosquito populations but does not eliminate mosquitoes from individual properties with standing water. Property-level prevention, including eliminating containers that hold water and professional barrier spray for vegetation, adds a layer the county program does not cover.",
+      },
+      {
+        question: "Should I be worried about dengue or Zika mosquitoes in Margate?",
+        answer:
+          "South Florida, including Broward County, is one of the areas where Aedes aegypti, the primary dengue and Zika vector, is established. The Florida Department of Health monitors for imported and locally transmitted cases. Eliminating standing water and applying personal protection during peak hours are the recommended steps during active transmission periods.",
+      },
+      {
+        question: "How do roof rats get into Margate homes?",
+        answer:
+          "Roof rats are agile climbers that travel along tree branches, utility lines, and fences to reach rooflines. They enter through attic vents, gaps at roofline edges, and utility penetrations. Trimming branches that touch or overhang the structure and installing vent covers are the primary prevention steps.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Coral Springs", slug: "coral-springs" },
+      { name: "Pompano Beach", slug: "pompano-beach" },
+      { name: "Fort Lauderdale", slug: "fort-lauderdale" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Margate, FL | Termites, Ghost Ants & Mosquitoes",
+    metaDescription:
+      "Margate pest control for Asian and Formosan subterranean termites, ghost ants, mosquitoes, German cockroaches and roof rats. Broward County South Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "ocala",
+    name: "Ocala",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~60,000",
+    county: "Marion County",
+    climate: "hot-humid",
+    climateDriver:
+      "Ocala sits in north-central Florida's Marion County, where karst limestone terrain and the Floridan Aquifer System create abundant surface water through springs and wetlands. The subtropical climate drives year-round termite and ant activity, while Silver Springs and the surrounding spring-fed rivers create exceptional mosquito breeding habitat. University of Florida IFAS Extension Marion County is the primary research resource for this region's pest management.",
+    topPests: [
+      "Subterranean termites",
+      "Fire ants",
+      "Mosquitoes",
+      "Ghost ants",
+      "Roof rats",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colonies, swarms March through June",
+        note: "UF IFAS Extension Marion County confirms subterranean termite pressure throughout Ocala and the surrounding region. The karst soils of north-central Florida retain moisture that supports year-round colony activity. Ocala's older residential stock and its many single-family homes with wood-frame construction are consistent termite targets.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are ubiquitous throughout Marion County and the Ocala area. The warm subtropical climate and the abundant open pasture land surrounding the city, which is at the center of Florida's horse country, support large fire ant populations. Ocala's parks, equestrian facilities, and residential yards all experience consistent fire ant mound pressure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak May through October",
+        note: "Silver Springs State Park and the spring-fed rivers, including the Silver and Ocklawaha Rivers, create some of the most productive mosquito breeding habitat in central Florida near Ocala. Marion County Mosquito Control operates a regional program, but properties adjacent to the spring and river corridors experience concentrated local pressure. West Nile virus and Eastern Equine Encephalitis are both monitored in Marion County.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are documented throughout north-central Florida by UF IFAS Extension and are the dominant small ant pest in Ocala's residential areas. Multiple-queen colonies require slow-acting bait treatment rather than contact spray.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are the dominant rat species throughout Florida per UF IFAS Extension. Ocala's mature urban tree canopy and the equestrian properties at the city's edges provide roof rat travel routes and harborage. They enter structures at rooflines through vents and overhanging branches.",
+      },
+    ],
+    localHook:
+      "Ocala is known as the Horse Capital of the World, and the tens of thousands of acres of horse farms and open pasture surrounding the city create one of the most productive fire ant environments in Florida. Marion County Cooperative Extension has published fire ant management guidance specifically for equestrian properties because fire ant mounds in paddocks and pastures are a genuine injury risk for horses.",
+    intro:
+      "Pest control in Ocala reflects north-central Florida's horse country and spring system environment. Subterranean termites are active throughout Marion County year-round per UF IFAS Extension documentation. Fire ants are pervasive in the open pasture and residential landscape surrounding the city. Silver Springs and the Ocklawaha River corridor create significant mosquito breeding habitat close to developed areas, with both West Nile virus and Eastern Equine Encephalitis monitored in the county. Ghost ants are the dominant small indoor ant pest.",
+    sections: [
+      {
+        heading: "Fire ants in Ocala's horse country",
+        body: "Marion County's position as Florida's horse capital means fire ant management extends beyond residential lawns to horse farms, equestrian facilities, and the large open pastures that characterize the Ocala landscape. UF IFAS Extension Marion County has developed specific fire ant management guidance for equestrian properties because fire ant mounds in paddocks are a real risk. Horses and other livestock that step on or near active mounds sustain multiple stings rapidly. The standard broadcast bait approach recommended by UF IFAS Extension is effective for both residential lawns and larger open areas, with the product applied at rates calibrated to the acreage being treated.",
+      },
+      {
+        heading: "Silver Springs and the mosquito corridor",
+        body: "Silver Springs State Park and the spring-fed Silver and Ocklawaha Rivers create some of the clearest and most beautiful water in Florida, and also some of the most productive mosquito habitat in north-central Florida. The constant spring flow maintains water levels year-round regardless of rainfall patterns, providing stable breeding sites that seasonal mosquito programs address only partially. Marion County Mosquito Control monitors and treats the broader region, but properties within a mile of the spring system and river corridors experience elevated pressure. Eastern Equine Encephalitis, a serious mosquito-borne illness, is monitored by the Florida Department of Health in Marion County in addition to West Nile virus. Professional barrier programs for property vegetation and elimination of standing water containers are the most effective residential tools.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given UF IFAS-documented subterranean termite pressure throughout Marion County.",
+      "Apply fire ant broadcast bait in spring and fall per UF IFAS Extension recommendations, treating the full lawn rather than individual mounds.",
+      "Remove standing water from yard containers and paddocks weekly to reduce mosquito breeding near the home and barn.",
+      "Trim tree branches from rooflines and seal attic vents to block roof rat access from the surrounding mature canopy.",
+    ],
+    costNote:
+      "Ocala pest control typically involves a quarterly exterior program covering fire ants, cockroaches, and ants, with termite protection and mosquito service quoted separately. Equestrian properties may benefit from acreage fire ant bait programs rather than standard residential treatment. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Are fire ants in Ocala dangerous to horses?",
+        answer:
+          "Yes. Fire ant mounds in paddocks and pastures are a documented risk to horses, particularly foals that may lie down or graze near mounds. UF IFAS Extension Marion County has published guidance specifically for fire ant management on equestrian properties. Broadcast bait applied to pasture areas at the appropriate rate is the recommended approach.",
+      },
+      {
+        question: "How does Silver Springs affect mosquito pressure near Ocala?",
+        answer:
+          "The spring-fed rivers that originate at Silver Springs maintain stable year-round water levels that support mosquito breeding regardless of seasonal rainfall. Properties near these rivers experience higher baseline mosquito pressure than other Ocala locations. Eastern Equine Encephalitis is monitored by the Florida Department of Health in Marion County, which adds to the concern about mosquito exposure in this area.",
+      },
+      {
+        question: "What is Eastern Equine Encephalitis and should I worry about it in Ocala?",
+        answer:
+          "Eastern Equine Encephalitis is a rare but serious mosquito-borne viral infection monitored by the Florida Department of Health. Cases in humans are uncommon but the fatality rate for confirmed human cases is high. Horses are more commonly affected than humans. Mosquito avoidance measures, eliminating standing water, and professional mosquito treatment during active seasons are the practical precautions.",
+      },
+      {
+        question: "Do I need termite treatment for a newer Ocala home?",
+        answer:
+          "Annual inspections are the recommended approach regardless of home age. UF IFAS Extension confirms subterranean termite pressure throughout Marion County. Newer homes in Ocala are typically required to have soil pre-treatment at construction, but that protection has a limited warranty period. Confirming what coverage exists and scheduling annual inspections after the initial warranty period is practical.",
+      },
+      {
+        question: "Are ghost ants the same as sugar ants?",
+        answer:
+          "Ghost ants are sometimes informally called sugar ants because they are attracted to sweet foods, but they are a distinct species documented specifically in subtropical Florida and other warm regions. They require different treatment than larger ant species. Slow-acting baits are the most effective approach because they allow workers to carry toxicant back to all queens in the decentralized colony.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Gainesville", slug: "gainesville" },
+      { name: "Daytona Beach", slug: "daytona-beach" },
+      { name: "Tampa", slug: "tampa" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Ocala, FL | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Ocala pest control for subterranean termites, fire ants, mosquitoes, ghost ants and roof rats. Marion County Silver Springs Horse Capital Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "sarasota",
+    name: "Sarasota",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~58,000",
+    county: "Sarasota County",
+    climate: "tropical",
+    climateDriver:
+      "Sarasota sits on the Gulf of Mexico coast of Sarasota County, where the warm subtropical climate, Gulf coast humidity, and the city's many bays, estuaries, and water features create ideal conditions for year-round pest pressure. University of Florida IFAS Extension Sarasota County documents both Eastern and Asian subterranean termites in the county, and the coastal location sustains tropical pest species that are less common inland.",
+    topPests: [
+      "Subterranean termites",
+      "Ghost ants",
+      "Mosquitoes",
+      "German cockroaches",
+      "Roof rats",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern and Asian subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colonies, swarms spring through summer",
+        note: "UF IFAS Extension Sarasota County confirms both Eastern and Asian subterranean termite pressure in the county. The coastal humidity and the warm year-round temperatures sustain termite colony activity without a winter break. Sarasota's older residential neighborhoods and its many wood-frame structures represent significant termite exposure.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the dominant indoor ant pest throughout Sarasota County's subtropical coastal corridor per UF IFAS Extension documentation. They form multiple-queen colonies that resist contact spray and require slow-acting bait treatment. Kitchen and bathroom moisture sources are their primary indoor attractants.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak May through October",
+        note: "Sarasota Bay, Sarasota's numerous waterways, canals, and the coastal wetlands create extensive mosquito breeding habitat throughout the city. Sarasota County Mosquito Control operates an active program, but properties with standing water and those adjacent to coastal water features experience concentrated local pressure during the wet season.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a consistent pest in Sarasota's active restaurant district on Main Street and in the city's hospitality and tourism-oriented commercial environment. The tropical climate sustains year-round reproduction and accelerates population growth.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are the dominant rat species in Sarasota per UF IFAS documentation. The city's mature urban tree canopy and the coastal vegetation near Sarasota Bay provide travel routes to residential and commercial rooflines. They are agile climbers that enter through attic vents, utility gaps, and gaps at roof edges.",
+      },
+    ],
+    localHook:
+      "Sarasota is one of the premier arts and cultural destinations on Florida's Gulf Coast, and its waterfront neighborhoods sit directly alongside Sarasota Bay and the coastal waterways that create year-round mosquito habitat. The same Gulf coast position that makes Sarasota beautiful also puts it firmly in the zone where UF IFAS Extension documents Asian subterranean termite presence alongside the eastern species found throughout the state.",
+    intro:
+      "Pest control in Sarasota reflects the Gulf coast subtropical environment and the city's abundance of waterways and coastal features. Subterranean termites are active year-round, with both Eastern and Asian species documented in Sarasota County by UF IFAS Extension. Ghost ants are the dominant indoor ant throughout the subtropical coastal corridor. Sarasota Bay and the city's canals and water features create year-round mosquito breeding habitat. Roof rats use the mature urban tree canopy as a travel network. German cockroaches are a consistent commercial pest in the active downtown restaurant district.",
+    sections: [
+      {
+        heading: "Waterfront pest pressure in a Gulf coast city",
+        body: "Sarasota's position on the Gulf coast gives it a network of bays, estuaries, canals, and coastal wetlands that create mosquito breeding habitat distributed throughout the city's residential and commercial areas. The wet season from May through October produces intense mosquito activity. Sarasota County Mosquito Control addresses regional population levels, but properties adjacent to waterways, canals, and tidal areas experience concentrations that county treatment only partially addresses. West Nile virus is monitored in Sarasota County. Professional barrier spray programs for yard vegetation and elimination of standing containers on the property are the most effective tools for individual properties during peak season.",
+      },
+      {
+        heading: "Termites in Sarasota's coastal neighborhoods",
+        body: "The subtropical Gulf coast climate keeps subterranean termite colonies active throughout the year without the temperature-induced winter break that reduces activity in central and northern Florida. UF IFAS Extension Sarasota County documents both Eastern subterranean and Asian subterranean termites in the county. Asian subterranean termites form larger colonies than eastern species and cause damage more quickly. Sarasota's older bayfront neighborhoods contain wood-frame structures with decades of termite exposure history. Annual professional inspections are the minimum practical standard, and homeowners in older waterfront neighborhoods should consider the inspection a high priority.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given the year-round subtropical termite activity and the presence of aggressive Asian subterranean termites in Sarasota County.",
+      "Use slow-acting bait stations for ghost ants rather than spray, which disperses the colony without eliminating multiple queens.",
+      "Remove standing water from yard containers, plant trays, and boat covers weekly throughout the wet season to reduce mosquito breeding.",
+      "Trim tree branches from the roofline and seal attic vents to block roof rat access from the urban canopy.",
+    ],
+    costNote:
+      "Sarasota pest control is typically a quarterly or year-round exterior program covering ants, cockroaches, and rodents, with termite protection and mosquito service priced separately. Waterfront properties may benefit from more frequent mosquito treatment during peak season. A free inspection is the right starting point.",
+    faqs: [
+      {
+        question: "Are Asian subterranean termites really present in Sarasota?",
+        answer:
+          "Yes. UF IFAS Extension Sarasota County confirms Asian subterranean termites are established in the county. This species forms larger colonies than the eastern subterranean termite and causes damage more quickly. A professional inspection that confirms which species is present is important for selecting appropriate treatment.",
+      },
+      {
+        question: "Why do ghost ants come back after I spray them in my Sarasota home?",
+        answer:
+          "Ghost ant colonies have multiple queens distributed across multiple nesting sites. Contact spray kills the workers present but leaves queens and other workers elsewhere in the colony intact. The colony rebuilds within days. Slow-acting bait that workers carry back to all queens is the effective treatment.",
+      },
+      {
+        question: "Is the mosquito situation worse on Sarasota waterfront properties?",
+        answer:
+          "Yes. Properties adjacent to Sarasota Bay, canals, and coastal waterways are closer to breeding habitat and experience higher seasonal pressure than inland Sarasota locations. Sarasota County Mosquito Control provides regional treatment, but waterfront properties benefit from professional barrier programs during the wet season.",
+      },
+      {
+        question: "What time of year do termites swarm in Sarasota?",
+        answer:
+          "Eastern subterranean termites in Florida typically swarm in spring from February through May. Asian subterranean termites also swarm in spring but may swarm at night and are attracted to lights. Swarmer activity indoors is a clear sign that a colony is established in or near the structure and warrants immediate professional inspection.",
+      },
+      {
+        question: "Are lubber grasshoppers a pest problem in Sarasota?",
+        answer:
+          "Eastern lubber grasshoppers are common in Sarasota's gardens and landscaping. They are large, colorful, and toxic to many predators, and they eat ornamental and vegetable plants in substantial quantities. Populations can be large enough to cause significant plant damage in late spring and summer. Manual removal and targeted insecticide treatment for serious infestations are the management options.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "North Port", slug: "north-port" },
+      { name: "Bradenton", slug: "bradenton" },
+      { name: "Tampa", slug: "tampa" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Sarasota, FL | Termites, Ghost Ants & Mosquitoes",
+    metaDescription:
+      "Sarasota pest control for subterranean termites, ghost ants, mosquitoes, German cockroaches and roof rats. Sarasota County Gulf Coast Sarasota Bay Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bradenton",
+    name: "Bradenton",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~58,000",
+    county: "Manatee County",
+    climate: "tropical",
+    climateDriver:
+      "Bradenton is the county seat of Manatee County, situated on the Manatee River where it approaches Tampa Bay on Florida's Gulf coast. The subtropical climate, the tidal river system, and the proximity to Tampa Bay create year-round pest pressure dominated by subterranean termites, ghost ants, and seasonal mosquitoes. University of Florida IFAS Extension Manatee County documents both Eastern and Formosan subterranean termites in the county, and the coastal location produces tropical pest species not common inland.",
+    topPests: [
+      "Subterranean termites",
+      "Ghost ants",
+      "Mosquitoes",
+      "Roof rats",
+      "No-see-ums",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern and Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colonies, swarms spring",
+        note: "UF IFAS Extension Manatee County confirms both Eastern subterranean and Formosan subterranean termites are present in the county. The Formosan species forms exceptionally large colonies and is considered one of the most destructive structural pests in the southeastern United States. Bradenton's coastal location and the year-round subtropical warmth support continuous colony activity.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the dominant indoor ant pest throughout Manatee County's subtropical coastal communities per UF IFAS Extension. They form decentralized multiple-queen colonies that require slow-acting bait treatment. They are consistently found in kitchens and bathrooms where moisture is accessible.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak June through October",
+        note: "The Manatee River tidal system, the mangrove edges along Tampa Bay, and the retention ponds throughout Bradenton's residential development create extensive mosquito breeding habitat. Manatee County Mosquito Control operates a regional program, but properties adjacent to tidal and freshwater features experience local pressure above background levels. West Nile virus is monitored in the county.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are the dominant rat species throughout Florida per UF IFAS Extension. Bradenton's mature neighborhoods, the riparian vegetation along the Manatee River, and the mangrove edges of Tampa Bay provide extensive roof rat habitat and travel corridors into residential structures.",
+      },
+      {
+        name: "No-see-ums (biting midges)",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, worst at dawn and dusk in coastal areas",
+        note: "No-see-ums, also called biting midges or punkies, are a significant nuisance pest in Bradenton's coastal and waterfront areas. UF IFAS Extension identifies them as one of the most troublesome insect pests along Florida's Gulf coast. They are too small to be blocked by standard mosquito screens and peak in activity at dawn and dusk near tidal water edges.",
+      },
+    ],
+    localHook:
+      "Bradenton's Manatee River setting creates two pest challenges that inland Florida cities rarely deal with simultaneously: Formosan subterranean termites, which UF IFAS Extension confirms in Manatee County, and no-see-ums from the tidal mangrove edges of Tampa Bay, which are too small for window screens and can drive waterfront residents indoors at dawn and dusk during peak season.",
+    intro:
+      "Pest control in Bradenton combines the Gulf coast subtropical pest complex with the specific pressures of a tidal river city. Subterranean termites are active year-round, with both Eastern and Formosan species documented in Manatee County by UF IFAS Extension. Ghost ants are the dominant indoor ant. The Manatee River tidal system and Tampa Bay mangrove edges create intense mosquito and no-see-um pressure for waterfront and near-water properties. Roof rats use the riparian vegetation and mature neighborhoods as travel routes throughout the year.",
+    sections: [
+      {
+        heading: "Formosan termites in Bradenton's coastal neighborhoods",
+        body: "Formosan subterranean termites are one of the most destructive structural pests in Florida, and UF IFAS Extension confirms their presence in Manatee County. Unlike the eastern subterranean species, which builds colonies of several hundred thousand workers, Formosan colonies can reach several million workers, and they forage more aggressively and through a wider range of wood. Bradenton's older neighborhoods near the river and downtown have wood-frame structures with decades of termite exposure history. Annual professional inspections that identify species as well as activity are the appropriate management approach. Treatment protocols for Formosan termites differ from standard eastern subterranean protocols in both product selection and application methods.",
+      },
+      {
+        heading: "No-see-ums along Bradenton's waterfront",
+        body: "No-see-ums, the informal name for biting midges in the family Ceratopogonidae, are documented by UF IFAS Extension as one of the most troublesome insect pests along Florida's Gulf coast. In Bradenton, they are most problematic near the mangrove edges of Tampa Bay and the tidal banks of the Manatee River. They are tiny enough to pass through standard door and window screens and peak in activity around dawn and dusk when winds are calm. Standard mosquito treatment does not effectively target no-see-ums because they breed in moist soil at tidal margins rather than standing water. Fine-mesh screens designed specifically for no-see-ums and personal repellents during peak hours are the practical personal protection steps.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections with a licensed Manatee County professional who can identify Formosan versus Eastern subterranean species.",
+      "Use slow-acting bait for ghost ants in kitchens and bathrooms rather than contact spray, which disperses the colony without eliminating queens.",
+      "Install no-see-um-rated fine mesh screens on windows and doors in waterfront Bradenton properties for dawn and dusk protection.",
+      "Trim Manatee River-adjacent vegetation from rooflines and seal attic access points to reduce roof rat entry.",
+    ],
+    costNote:
+      "Bradenton pest control typically involves a quarterly or year-round program covering ants, cockroaches, and rodents, with termite protection and mosquito service quoted separately. Waterfront properties near Tampa Bay and the Manatee River may benefit from more frequent mosquito and no-see-um treatment. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "How do I know if I have Formosan termites in my Bradenton home?",
+        answer:
+          "Formosan termites produce larger swarms than eastern subterranean species and are attracted to lights in spring. Their swarmers are similar in size to eastern species but a trained inspection can confirm the species through carton material, colony size, and behavioral markers. If you see large swarms in spring near lights, call a licensed professional for species identification. Treatment protocol differs between Formosan and eastern species.",
+      },
+      {
+        question: "What can I do about no-see-ums in my Bradenton waterfront yard?",
+        answer:
+          "No-see-ums are very difficult to eliminate from a waterfront environment because they breed in tidal moist soil that is not treatable in the same way standing water mosquito sites are. Fine-mesh screens designed specifically for no-see-ums on windows and doors provide indoor protection. Fans on outdoor seating areas disrupt their flight. DEET and picaridin-based repellents are effective during peak dawn and dusk hours.",
+      },
+      {
+        question: "Are ghost ants related to fire ants?",
+        answer:
+          "Ghost ants and fire ants are both ant species but belong to different subfamilies and have very different behavior, habitat, and management requirements. Ghost ants are tiny, pale, indoor-focused ants that form multiple-queen colonies. Fire ants are aggressive outdoor ants that build mounds. Ghost ants do not sting. Their management approaches are entirely different.",
+      },
+      {
+        question: "When is mosquito season worst in Bradenton?",
+        answer:
+          "Mosquitoes are present year-round in Bradenton's subtropical climate, but the wet season from June through October produces the most intense pressure. The combination of warm temperatures and heavy rainfall that fills retention ponds and flooding areas creates peak breeding conditions. Properties adjacent to the Manatee River and Tampa Bay experience higher pressure than inland locations.",
+      },
+      {
+        question: "Should older Bradenton homes have termite bonds?",
+        answer:
+          "Yes, it is worth considering. Bradenton's subtropical climate sustains year-round termite activity, and both Eastern and Formosan species are present in Manatee County. A termite bond, also called a termite warranty or prevention agreement, provides annual inspection plus coverage for retreatment and sometimes repair. For older homes with wood-frame construction, the cost of a bond is modest compared to potential repair costs.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Sarasota", slug: "sarasota" },
+      { name: "Tampa", slug: "tampa" },
+      { name: "St. Petersburg", slug: "st-petersburg" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Bradenton, FL | Termites, Ghost Ants & Mosquitoes",
+    metaDescription:
+      "Bradenton pest control for Formosan subterranean termites, ghost ants, mosquitoes, roof rats and no-see-ums. Manatee County Manatee River Tampa Bay Gulf Coast specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
