@@ -75,7 +75,7 @@ export default function ContactPage() {
   async function onSubmit(data: FormData) {
     setServerError("");
     try {
-      await fetch("https://logistics-crm.onrender.com/api/public/leads", {
+      await fetch("https://logistics-crm-tcu4.onrender.com/api/public/leads", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
