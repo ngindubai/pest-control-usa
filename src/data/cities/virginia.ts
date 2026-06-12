@@ -1205,4 +1205,319 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Harrisonburg pest control for house mice, stink bugs, deer ticks, subterranean termites and yellow jackets. Shenandoah Valley JMU Rockingham County Massanutten Mountain specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "suffolk",
+    name: "Suffolk",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3" as const,
+    population: "~92,000",
+    county: "Suffolk (independent city)",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Southeastern Virginia hot-humid climate with warm summers, mild winters, and a long pest-active season from March through November driven by coastal moisture from the Hampton Roads estuary system",
+    topPests: [
+      "subterranean termites",
+      "fire ants",
+      "mosquitoes",
+      "American cockroaches",
+      "deer ticks",
+    ],
+    pestProfile: [
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "VCE confirms eastern subterranean termite activity throughout Suffolk and the Hampton Roads region. Older crawl-space construction near the historic downtown carries meaningful exposure where annual inspections are warranted.",
+      },
+      {
+        name: "fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November peak",
+        note: "VCE confirms red imported fire ants are established in southeastern Virginia including Suffolk. Active mounds are visible in lawns and open turf areas from spring through fall.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October peak",
+        note: "The Great Dismal Swamp's wetland ecosystem creates more sustained mosquito pressure in Suffolk than in comparable Hampton Roads cities. Culex and Aedes species are active from May through October.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are found in Suffolk's older commercial and sewer infrastructure, moving into structures through drains and exterior gaps. The hot-humid climate sustains activity most of the year.",
+      },
+      {
+        name: "deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "May through July nymph peak, year-round adults",
+        note: "VCE places Suffolk in a high deer tick pressure zone given the wooded Great Dismal Swamp corridor. Pennsylvania Department of Health-equivalent VCE data confirms Lyme disease risk throughout Hampton Roads.",
+      },
+    ],
+    localHook:
+      "Suffolk is Virginia's largest city by land area and includes the western portion of the Great Dismal Swamp, one of the largest intact wetland ecosystems on the East Coast. That wetland proximity creates year-round mosquito pressure that is among the most intense in Hampton Roads, and the swamp's wooded edge sustains significant deer tick populations.",
+    intro:
+      "Suffolk's combination of southeastern Virginia's hot-humid climate and its adjacency to the Great Dismal Swamp creates a pest environment unlike anywhere else in the region. The swamp's vast wetland produces mosquito populations that affect Suffolk's western neighborhoods from spring through late fall. Virginia Cooperative Extension confirms eastern subterranean termite activity throughout the city, and Suffolk's older neighborhoods carry meaningful termite exposure. Fire ants are established in southeastern Virginia, and American cockroaches are common in the older commercial and residential areas of the downtown corridor.",
+    sections: [
+      {
+        heading: "Great Dismal Swamp Mosquito Pressure in Suffolk",
+        body: "The Great Dismal Swamp National Wildlife Refuge, which extends into western Suffolk, produces Culex and Aedes mosquito populations that affect Suffolk's residential areas far more intensely than in comparable Hampton Roads cities without wetland proximity. Culex pipiens and Culex restuans, which breed in standing water and are associated with West Nile virus transmission, are the primary summer species. Peak activity runs from May through October. Properties on the western side of Suffolk near the swamp edge experience the most sustained pressure. Professional barrier spray programs applied to yard vegetation every three to four weeks during the active season provide meaningful residential protection.",
+      },
+      {
+        heading: "Subterranean Termites and Fire Ants",
+        body: "Virginia Cooperative Extension confirms eastern subterranean termite activity throughout Suffolk, and the city's older residential areas near the historic downtown carry crawl-space construction that creates consistent termite exposure. Annual professional spring inspections are the standard precaution. Fire ants are established in southeastern Virginia, with VCE confirming their presence in Suffolk and the surrounding Hampton Roads counties. Fire ant mounds appear in lawns, garden beds, and open turf areas from April through October, with peak activity in late spring and early fall. The two-step treatment program, broadcast bait followed by individual mound treatment, is the most effective management approach.",
+      },
+      {
+        heading: "Deer Ticks and American Cockroaches",
+        body: "Virginia Cooperative Extension places Suffolk in a high deer tick pressure zone given the wooded Dismal Swamp corridor and the agricultural landscape throughout the city's rural western areas. Lyme disease risk is genuine and documented in the region. Tick checks after any outdoor activity near wooded, brushy, or wetland-edge areas are the most important personal precaution. Professional tick barrier spray applied to the lawn-to-woodland edge reduces encounter rates during the peak May through July nymph season. American cockroaches are found in Suffolk's older commercial corridors and sewer infrastructure, entering structures through drains and foundation gaps, particularly in older downtown buildings.",
+      },
+    ],
+    prevention: [
+      "Apply professional mosquito barrier spray to yard vegetation every 3 to 4 weeks from May through October for properties near the Great Dismal Swamp corridor",
+      "Eliminate standing water from containers, gutters, and low areas weekly during the wet season to interrupt mosquito breeding near the swamp edge",
+      "Conduct tick checks after outdoor activity in any wooded or wetland-adjacent areas throughout Suffolk",
+      "Schedule annual spring termite inspections for homes with crawl spaces, particularly in older downtown and western Suffolk neighborhoods",
+      "Apply broadcast fire ant bait to lawns in spring when soil temperatures exceed 65 degrees, then treat remaining active mounds individually",
+    ],
+    costNote:
+      "Quarterly pest control programs in Suffolk covering mosquitoes, cockroaches, and fire ants run $110 to $165 per visit. Termite inspections are free with treatment quoted after assessment. Mosquito barrier spray programs for wetland-adjacent properties are typically quoted on a monthly service schedule during the active season.",
+    faqs: [
+      {
+        question:
+          "Is the Great Dismal Swamp a significant source of mosquitoes for Suffolk residential areas?",
+        answer:
+          "Yes. The Great Dismal Swamp National Wildlife Refuge is one of the largest wetland ecosystems on the East Coast, and it produces sustained Culex and Aedes mosquito populations that affect Suffolk's western and central neighborhoods from May through October. Properties near the swamp edge see more intense and longer-lasting pressure than comparable Hampton Roads cities without this wetland proximity. Professional barrier spray programs on yard vegetation every three to four weeks provide the most effective residential protection during the active season.",
+      },
+      {
+        question:
+          "Are fire ants common throughout Suffolk, or only in certain areas?",
+        answer:
+          "Virginia Cooperative Extension confirms red imported fire ants are established in southeastern Virginia, including Suffolk and the surrounding Hampton Roads region. They are found throughout the city in lawns, garden beds, and open turf, with active mounds visible from April through October. Mound density varies by neighborhood, but no part of Suffolk is reliably free of fire ants. Annual broadcast bait treatment in spring reduces overall pressure across the yard.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Chesapeake", slug: "chesapeake" },
+      { name: "Norfolk", slug: "norfolk" },
+      { name: "Hampton", slug: "hampton" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Suffolk, VA | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Suffolk pest control for subterranean termites, fire ants, mosquitoes, American cockroaches and deer ticks. Hampton Roads Great Dismal Swamp Virginia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "charlottesville",
+    name: "Charlottesville",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3" as const,
+    population: "~47,000",
+    county: "Charlottesville (independent city)",
+    climate: "temperate" as const,
+    climateDriver:
+      "Virginia Piedmont temperate climate at the Blue Ridge foothills, with warm humid summers, cold winters, and a fall pest surge triggered by the sharp temperature drop as Blue Ridge air masses move through",
+    topPests: [
+      "house mice",
+      "stink bugs",
+      "deer ticks",
+      "subterranean termites",
+      "yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "VCE confirms house mice as a year-round rodent pest in Virginia. Charlottesville's older housing near the historic downtown and UVA area carries the foundation conditions that provide reliable fall entry.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "VCE places Northern and Central Virginia in the core stink bug invasion zone. Charlottesville's Blue Ridge position means fall aggregation on building faces begins earlier than in eastern Virginia cities.",
+      },
+      {
+        name: "deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "May through July nymph peak, year-round adults",
+        note: "VCE places Albemarle County in Virginia's highest Lyme disease risk tier. The Blue Ridge Mountains and wooded Albemarle County landscape create the deer habitat that sustains large tick populations.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "VCE confirms eastern subterranean termite activity throughout the Charlottesville area. Older homes near the historic downtown and UVA grounds carry crawl-space exposure.",
+      },
+      {
+        name: "yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October peak",
+        note: "Yellow jackets nest in Charlottesville's residential yards and wooded areas from early summer, reaching peak colony size and defensiveness in August and September.",
+      },
+    ],
+    localHook:
+      "Charlottesville sits at the eastern edge of the Blue Ridge Mountains, home to the University of Virginia. The mountain proximity creates a wooded landscape that sustains high deer tick populations, and VCE places Albemarle County in Virginia's highest Lyme disease risk tier. UVA's large student population also creates high residential turnover that sustains cockroach and bed bug pressure in the rental market.",
+    intro:
+      "Charlottesville's pest profile is shaped by its Blue Ridge Mountain proximity and its status as a university city. Deer ticks are the most consequential wildlife-associated pest: Virginia Cooperative Extension places Albemarle County in the high Lyme disease risk zone based on tick population density and disease incidence. Stink bugs and house mice arrive each fall when Blue Ridge air masses push temperatures down quickly. UVA's student rental market adds German cockroach and bed bug considerations. Subterranean termites are documented throughout the Charlottesville area, particularly in older homes near the historic downtown and the university grounds.",
+    sections: [
+      {
+        heading: "Deer Ticks and Blue Ridge Lyme Disease Risk",
+        body: "The wooded Blue Ridge foothills immediately west of Charlottesville, Shenandoah National Park, and the extensive wooded corridor of Albemarle County create the deer habitat and wooded edge environments where deer tick populations concentrate. VCE places Albemarle County in Virginia's highest Lyme disease risk tier. Deer tick nymphs, active from May through July, are the primary transmission risk because they are small and easily missed. Any outdoor activity in wooded areas, at the lawn-to-woodland edge, or in leaf litter warrants a tick check afterward. Professional tick barrier spray targeting the property's woodland edge provides meaningful protection during peak nymph season.",
+      },
+      {
+        heading: "Stink Bugs and House Mice in Charlottesville's Fall",
+        body: "Charlottesville's position at the Blue Ridge foothills means fall temperature drops arrive earlier than in eastern Virginia's coastal cities. Stink bugs begin aggregating on building exteriors in September, and house mice push through foundation gaps and utility penetrations from October. The Blue Ridge Mountains provide summer stink bug host plant habitat that positions large populations close to Charlottesville residential areas when the fall migration begins. VCE recommends completing exterior gap sealing and perimeter treatment before mid-September for Charlottesville's fall prevention window.",
+      },
+      {
+        heading: "Termites and UVA Rental Market Pests",
+        body: "Virginia Cooperative Extension confirms eastern subterranean termite activity throughout the Charlottesville area. The historic residential areas near the downtown mall and UVA Grounds carry older construction with crawl spaces and wood near grade where annual inspections are warranted. The university rental market, which turns over significant numbers of housing units each year, creates consistent cockroach and bed bug pressure in the rental corridors near campus. German cockroaches in older multi-family buildings and bed bugs associated with high-turnover furnished units are routine service calls in Charlottesville.",
+      },
+    ],
+    prevention: [
+      "Conduct tick checks after all outdoor activity in wooded or lawn-to-woodland areas given Albemarle County's high Lyme disease risk designation",
+      "Schedule professional tick barrier spray in spring and late summer for properties adjacent to wooded areas or the Blue Ridge corridor",
+      "Complete exterior gap sealing for stink bugs and mice before mid-September to account for Charlottesville's earlier Blue Ridge-influenced fall temperature drops",
+      "Schedule annual spring termite inspections for older homes with crawl spaces near the historic downtown and UVA area",
+      "Inspect used furniture and second-hand goods carefully for bed bugs before bringing them into Charlottesville rental properties",
+    ],
+    costNote:
+      "Quarterly pest control programs in Charlottesville covering mice, stink bugs, and cockroaches run $90 to $145 per visit. Termite inspections are free with treatment quoted after assessment. Tick barrier spray programs are seasonal and typically offered in spring and fall.",
+    faqs: [
+      {
+        question:
+          "Is Lyme disease risk really significant in Charlottesville and Albemarle County?",
+        answer:
+          "Yes. Virginia Cooperative Extension places Albemarle County in the high Lyme disease risk tier based on deer tick population density and documented disease incidence. The Blue Ridge Mountains and the wooded landscape of Albemarle County create extensive deer habitat and wooded corridors where deer ticks concentrate. This is not a theoretical risk: Charlottesville-area healthcare providers treat genuine Lyme disease cases each year. Tick checks after outdoor activity and professional tick barrier spray at the lawn-to-woodland edge are both warranted.",
+      },
+      {
+        question:
+          "Does the University of Virginia affect pest control for Charlottesville homeowners?",
+        answer:
+          "UVA's large student enrollment and its rental housing market create above-average cockroach and bed bug pressure in the neighborhoods immediately adjacent to the university. German cockroaches move through shared walls in older multi-family buildings near campus. High rental turnover introduces bed bugs as mattresses and furniture move between units and houses. These are most relevant to property owners and renters in the UVA rental corridor rather than to the city as a whole.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Richmond", slug: "richmond" },
+      { name: "Harrisonburg", slug: "harrisonburg" },
+      { name: "Roanoke", slug: "roanoke" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Charlottesville, VA | Deer Ticks, Mice & Stink Bugs",
+    metaDescription:
+      "Charlottesville pest control for house mice, stink bugs, deer ticks, subterranean termites and yellow jackets. Blue Ridge Mountains UVA Albemarle County Virginia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "manassas",
+    name: "Manassas",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3" as const,
+    population: "~41,000",
+    county: "Manassas (independent city)",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Northern Virginia hot-humid climate with warm summers, cold winters, and fall pest pressure among the most intense in the state given Manassas's position at the core of Virginia's stink bug invasion zone",
+    topPests: [
+      "stink bugs",
+      "subterranean termites",
+      "mosquitoes",
+      "house mice",
+      "deer ticks",
+    ],
+    pestProfile: [
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "VCE extension data places Northern Virginia including Prince William County at the core of the mid-Atlantic stink bug invasion zone. Manassas sees some of the highest documented stink bug aggregation numbers in Virginia each fall.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "VCE confirms eastern subterranean termite activity throughout Prince William County and Manassas. Annual spring inspections are the standard precaution for the city's older housing stock.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October peak",
+        note: "Bull Run and its tributaries create Culex mosquito breeding habitat that affects Manassas residential neighborhoods from spring through fall. West Nile virus is monitored in Prince William County.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "VCE identifies house mice as a primary fall rodent pest in Northern Virginia. Manassas' older pre-1990 housing carries more entry opportunities than newer suburban construction.",
+      },
+      {
+        name: "deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "May through July nymph peak, year-round adults",
+        note: "VCE places Prince William County in the high Lyme disease risk zone. Bull Run Mountain and the battlefield wooded corridor create deer habitat and significant tick populations.",
+      },
+    ],
+    localHook:
+      "Manassas is in Prince William County in Northern Virginia, where Penn State and Virginia Cooperative Extension research consistently document some of the highest stink bug densities on record. The Bull Run Mountain and battlefield corridors to the west provide stink bug summer host plant habitat that positions large populations directly adjacent to Manassas residential areas.",
+    intro:
+      "Manassas residents deal with stink bug pressure that is among the most intense documented in Virginia. VCE extension data places Northern Virginia, including Prince William County, at the core of the state's brown marmorated stink bug invasion zone. Bull Run Mountain and the agricultural and wooded landscape west of the city provide summer host plant habitat, and the fall migration delivers large populations to Manassas building faces each September. House mice, subterranean termites, mosquitoes from the Bull Run watershed, and deer ticks from the wooded battlefield corridors round out the city's pest profile.",
+    sections: [
+      {
+        heading: "Stink Bug Prevention in Manassas: A Core-Zone Priority",
+        body: "Northern Virginia is documented by VCE as one of the highest stink bug pressure areas in the state. Manassas's position adjacent to Bull Run Mountain and the wooded battlefield landscape provides summer stink bug host plant habitat that concentrates large populations near the city. When fall temperatures drop in September, these populations move to building faces and seek entry through gaps around windows, soffits, and exterior utility penetrations. Completing exterior gap sealing and applying a residual perimeter treatment to south and west building faces before mid-September is the most effective prevention approach for Manassas homeowners. Once stink bugs are aggregating on the exterior, treatment effectiveness drops sharply.",
+      },
+      {
+        heading: "Subterranean Termites and House Mice",
+        body: "Virginia Cooperative Extension confirms eastern subterranean termite activity throughout Manassas and Prince William County. Manassas has a significant stock of older housing from the 1970s through 1990s where soil-to-wood contact at landscaping beds and crawl spaces creates termite exposure. Annual spring inspections are the standard precaution. House mice push through foundation gaps and utility penetrations from October onward as northern Virginia's fall temperatures drop. Older Manassas neighborhoods with pre-1990 construction carry more entry points than newer suburban development.",
+      },
+      {
+        heading: "Deer Ticks and Mosquitoes Near Bull Run",
+        body: "Manassas National Battlefield Park and the wooded Bull Run corridor create deer habitat and tick populations that affect properties on the western edge of the city. VCE places Prince William County in the high Lyme disease risk zone. Tick checks after outdoor activity in any wooded or brushy area are the primary personal precaution. Mosquitoes peak during the warm months with Bull Run and its tributaries creating breeding habitat for Culex species. Professional barrier spray programs for yard vegetation and eliminating residential standing water are the effective residential strategies.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps around windows, soffits, and utility penetrations before mid-September to get ahead of Manassas's intense Northern Virginia stink bug aggregation season",
+      "Apply a residual perimeter treatment to south and west building faces in early September before the stink bug migration peaks",
+      "Conduct tick checks after outdoor activity in the Bull Run corridor and any wooded or brushy areas in western Manassas",
+      "Schedule annual spring termite inspections for older Manassas homes with crawl spaces or landscaping beds close to the foundation",
+      "Seal foundation cracks and utility penetrations in late September before the fall mouse entry surge",
+    ],
+    costNote:
+      "Quarterly pest control programs in Manassas covering stink bugs, mice, and cockroaches run $90 to $145 per visit. Termite inspections are free with treatment quoted after assessment. Stink bug exclusion and perimeter treatment are often the highest-value fall service in Northern Virginia.",
+    faqs: [
+      {
+        question:
+          "Is stink bug pressure in Manassas really worse than in other Virginia cities?",
+        answer:
+          "Yes, based on documented data. VCE extension research and Penn State research consistently place Northern Virginia, including Prince William County, at the core of the mid-Atlantic stink bug invasion zone. Manassas's adjacency to Bull Run Mountain and the wooded and agricultural landscape to the west provides summer host plant habitat that concentrates large stink bug populations near the city. The pressure here is genuinely above the state average, and the prevention window before the September aggregation season begins is the most important timing consideration.",
+      },
+      {
+        question:
+          "How close to Manassas Battlefield should I be before worrying about deer ticks?",
+        answer:
+          "The tick risk is not confined to the battlefield itself. The wooded and brushy corridors connecting the battlefield to suburban neighborhoods, including stream corridors, wooded backyards, and brushy edges, sustain deer tick populations throughout western Manassas. If your property backs onto woods, has a stream corridor nearby, or has brushy areas where deer pass through, tick exposure is a realistic concern. VCE places Prince William County in the high Lyme disease risk zone based on documented tick density and disease incidence.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Alexandria", slug: "alexandria" },
+      { name: "Chesapeake", slug: "chesapeake" },
+      { name: "Richmond", slug: "richmond" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Manassas, VA | Stink Bugs, Termites & Deer Ticks",
+    metaDescription:
+      "Manassas pest control for stink bugs, subterranean termites, mosquitoes, house mice and deer ticks. Prince William County Northern Virginia Bull Run corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

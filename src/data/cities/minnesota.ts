@@ -439,4 +439,214 @@ export const minnesotaCities: CityLocation[] = [
     metaDescription:
       "Bloomington pest control for house mice, carpenter ants, boxelder bugs, Asian lady beetles and yellowjackets. Hennepin County Mall of America Minneapolis suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "brooklyn-park",
+    name: "Brooklyn Park",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3" as const,
+    population: "~79,000",
+    county: "Hennepin County",
+    climate: "cold" as const,
+    climateDriver:
+      "Minnesota continental climate with cold winters, warm summers, and a concentrated fall pest surge from September through October as boxelder bugs, Asian lady beetles, and house mice all move toward heated structures",
+    topPests: [
+      "house mice",
+      "carpenter ants",
+      "boxelder bugs",
+      "Asian lady beetles",
+      "yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "U of MN Extension identifies house mice as the most commonly reported rodent pest in Minnesota each fall. Brooklyn Park's residential housing carries foundation and utility penetration conditions that provide mice entry from October through March.",
+      },
+      {
+        name: "carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August",
+        note: "Carpenter ants are active in Brooklyn Park's residential neighborhoods near Elm Creek Park Reserve, exploiting moisture-damaged wood and nesting in landscape trees at the park edge.",
+      },
+      {
+        name: "boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "U of MN Extension identifies Hennepin County as a higher-activity area for boxelder bugs. Brooklyn Park's residential tree canopy includes many boxelder and silver maple hosts that sustain local populations.",
+      },
+      {
+        name: "Asian lady beetles",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Asian lady beetles aggregate on Brooklyn Park building faces in fall alongside boxelder bugs, entering wall voids for winter. They release a staining defensive fluid when crushed or disturbed.",
+      },
+      {
+        name: "yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October peak",
+        note: "Yellow jackets build ground and wall void nests in Brooklyn Park's residential yards and along the Elm Creek Park edge, reaching peak colony size and defensiveness in August and September.",
+      },
+    ],
+    localHook:
+      "Brooklyn Park is a diverse northwest Hennepin County suburb with a large residential inventory spanning from 1960s ranch houses to newer development near the Elm Creek corridor. The city's position adjacent to Elm Creek Park Reserve creates the wooded and brushy edge environments where boxelder bugs, carpenter ants, and yellow jackets concentrate before moving into residential areas.",
+    intro:
+      "Brooklyn Park is one of the Twin Cities' most diverse and rapidly growing northwest suburbs. The city's residential character ranges from established 1960s neighborhoods to newer developments near Elm Creek Park Reserve, with a pest profile anchored by fall mouse entry, boxelder bug and Asian lady beetle aggregation, and late-spring carpenter ant activity. University of Minnesota Extension documents house mice as the most commonly reported rodent pest in Minnesota each fall, and the Elm Creek corridor sustains the wooded-edge conditions that feed both carpenter ant and fall aggregation pest populations.",
+    sections: [
+      {
+        heading: "Fall Aggregation Pests: Boxelder Bugs and Asian Lady Beetles",
+        body: "Boxelder bugs and Asian lady beetles are Brooklyn Park's most visible fall nuisance pests. Both aggregate in large numbers on sunny south and west-facing building faces in September and October, seeking entry to heated wall voids for the winter. Brooklyn Park's residential neighborhoods include boxelder and silver maple trees, which are the primary food sources for boxelder bug populations. University of Minnesota Extension recommends completing exterior gap sealing and applying a perimeter treatment to building faces before mid-September to reduce the number of both species that successfully enter wall voids. Once inside, vacuuming is more effective than spraying because crushing or disturbing either pest releases unpleasant odors or staining fluids.",
+      },
+      {
+        heading: "House Mice in Brooklyn Park's Older Neighborhoods",
+        body: "House mice are the year-round rodent concern throughout Brooklyn Park, with fall entry pressure peaking from October through December as Minnesota temperatures drop. U of MN Extension identifies mice as the most commonly reported rodent pest in the state each fall. Brooklyn Park's 1960s ranch house and split-level neighborhoods carry the accumulated foundation gaps, utility penetrations, and garage door seal wear that provide mice reliable entry opportunities. A professional exclusion inspection in September that addresses specific entry points at the foundation perimeter is the most durable prevention approach.",
+      },
+      {
+        heading: "Carpenter Ants and Yellow Jackets Near Elm Creek",
+        body: "Brooklyn Park's proximity to Elm Creek Park Reserve creates above-average carpenter ant and yellow jacket habitat at the residential-park interface. Carpenter ants are active from late spring through summer, exploiting moisture-damaged wood in older construction and nesting in weakened landscape trees at the park edge. Yellow jackets build ground nests in Elm Creek-adjacent yards and wall void nests in older construction, reaching peak defensiveness in August and September. Properties backing onto park edges or wooded corridors see higher pressure from both species than neighborhoods farther from the park.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps in window frames, siding, and soffits by mid-September to get ahead of Brooklyn Park's fall boxelder bug and Asian lady beetle aggregation season",
+      "Complete mouse exclusion work at foundation level, garage doors, and utility penetrations in September before the fall entry surge",
+      "Inspect ground cover and lawn edge areas near Elm Creek corridor properties in June for early yellow jacket ground nest activity",
+      "Address moisture issues in the structure to remove carpenter ant harborage, particularly in homes adjacent to Elm Creek Park Reserve",
+      "Vacuum overwintering boxelder bugs and Asian lady beetles rather than crushing them to avoid staining and odor release",
+    ],
+    costNote:
+      "Quarterly pest control programs in Brooklyn Park covering mice, boxelder bugs, and carpenter ants run $85 to $135 per visit. Fall combined exclusion and perimeter treatment programs addressing mice, boxelder bugs, and Asian lady beetles together are the primary seasonal value. A free inspection establishes the appropriate program for your property and location.",
+    faqs: [
+      {
+        question:
+          "Why are boxelder bugs so visible in Brooklyn Park each fall?",
+        answer:
+          "Boxelder bugs feed on the seeds of boxelder and silver maple trees, which are common in Brooklyn Park's established neighborhoods and along the Elm Creek corridor. University of Minnesota Extension identifies Hennepin County as one of the higher-activity areas in the state for boxelder bugs because of this tree distribution. When outdoor temperatures cool in September, local populations aggregate on sun-facing building walls in large numbers before overwintering. Sealing entry gaps and applying a perimeter treatment before the aggregation builds is the most effective prevention.",
+      },
+      {
+        question:
+          "When should Brooklyn Park homeowners do fall pest prevention?",
+        answer:
+          "September is the target window for Brooklyn Park, matching the University of Minnesota Extension's recommended timing for the Twin Cities metro. Boxelder bugs and Asian lady beetles begin aggregating on building faces in September, and house mice start their fall entry push from early October. Completing exterior gap sealing and perimeter treatment by mid-September addresses both fall aggregation pests and the forthcoming mouse entry season in one prevention pass.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Minneapolis", slug: "minneapolis" },
+      { name: "Saint Paul", slug: "saint-paul" },
+      { name: "Plymouth", slug: "plymouth" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Brooklyn Park, MN | Mice, Boxelder Bugs & Carpenter Ants",
+    metaDescription:
+      "Brooklyn Park pest control for house mice, carpenter ants, boxelder bugs, Asian lady beetles and yellow jackets. Hennepin County Elm Creek northwest Minneapolis suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "plymouth",
+    name: "Plymouth",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3" as const,
+    population: "~80,000",
+    county: "Hennepin County",
+    climate: "cold" as const,
+    climateDriver:
+      "Minnesota continental climate with cold winters, warm summers, and a concentrated fall pest surge from September through October as house mice, boxelder bugs, and Asian lady beetles move toward heated structures",
+    topPests: [
+      "house mice",
+      "carpenter ants",
+      "boxelder bugs",
+      "mosquitoes",
+      "yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "U of MN Extension identifies house mice as the most commonly reported rodent pest in Minnesota each fall. Plymouth's residential housing carries foundation and garage door conditions that provide mice entry from October onward.",
+      },
+      {
+        name: "carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August",
+        note: "Carpenter ants are active in Plymouth's wooded lakeside neighborhoods near Medicine Lake, exploiting moisture-damaged wood and nesting in landscape trees where lake-edge moisture elevates wood moisture content.",
+      },
+      {
+        name: "boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "U of MN Extension notes boxelder bug populations in Hennepin County are sustained by the boxelder and silver maple trees common in Plymouth's established residential areas and along lake corridors.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through September",
+        note: "Medicine Lake and Plymouth's other water features create Culex mosquito breeding habitat from late May through September. Properties near the lake margin see above-average summer pressure.",
+      },
+      {
+        name: "yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October peak",
+        note: "Yellow jackets build ground and wall void nests in Plymouth's residential yards and wooded areas through summer, reaching peak defensiveness in August and September.",
+      },
+    ],
+    localHook:
+      "Plymouth is a west Hennepin County suburb with Medicine Lake and several smaller lakes within its boundaries. The lake corridors create mosquito breeding habitat through the summer and the moisture conditions that sustain carpenter ant activity in the wooded residential areas surrounding the lakes. Plymouth's affluent residential character means many properties have mature landscaping that creates above-average fall aggregation pest harborage.",
+    intro:
+      "Plymouth is one of the Twin Cities metro's most sought-after western suburbs, with a combination of lakeside residential areas, mature wooded neighborhoods, and newer development throughout west Hennepin County. House mice are the year-round rodent concern with fall peak pressure. Boxelder bugs and Asian lady beetles aggregate on building faces each fall. Medicine Lake and Plymouth's other water features sustain mosquito populations through the summer. Carpenter ants are active in the wooded residential areas surrounding the lakes from late spring through summer.",
+    sections: [
+      {
+        heading: "House Mice and Fall Aggregation Pests in Plymouth",
+        body: "House mice push into Plymouth homes from October through December as Minnesota temperatures drop, exploiting foundation gaps, garage door seals, and utility penetrations. University of Minnesota Extension identifies September as the preparation window for effective mouse exclusion in the Twin Cities metro, before the first cold snaps trigger active entry. Boxelder bugs and Asian lady beetles aggregate on Plymouth's sunny building faces in September, entering through window frame gaps and siding seams to overwinter in wall voids. Completing exterior gap sealing and applying a perimeter treatment to building faces before mid-September addresses both the fall aggregation pests and the forthcoming mouse pressure in one coordinated prevention pass.",
+      },
+      {
+        heading: "Medicine Lake and Mosquito Pressure",
+        body: "Medicine Lake and the smaller water features throughout Plymouth create Culex mosquito breeding habitat from May through September. Properties within several hundred feet of lake margins see above-average summer mosquito pressure. Culex pipiens, the northern house mosquito, is the primary species associated with standing water and is monitored by Hennepin County Public Health for West Nile virus. Professional barrier spray programs on yard vegetation from late May through September provide meaningful residential protection for lakeside properties, complemented by larvicide applications to accessible water feature edges.",
+      },
+      {
+        heading: "Carpenter Ants in Plymouth's Wooded Lake Neighborhoods",
+        body: "Plymouth's wooded lakeside neighborhoods create above-average carpenter ant habitat. The combination of mature trees, lake-edge moisture, and the Pacific Northwest's equivalent in terms of Minnesota's wet spring seasons keeps wood moisture content elevated in older properties near the water. Carpenter ants are active from late spring through summer, exploiting moisture-damaged wood and nesting in weakened landscape trees near structures. Addressing moisture sources at the structure, including crawl space conditions, drainage issues, and any wood decay, removes the harborage conditions that draw carpenter ants back.",
+      },
+    ],
+    prevention: [
+      "Complete exterior gap sealing for boxelder bugs and mice by mid-September for Plymouth's fall pest prevention window",
+      "Apply mosquito barrier spray to yard vegetation from late May through September for properties near Medicine Lake and other Plymouth water features",
+      "Address moisture issues in the structure and landscape to reduce carpenter ant harborage in Plymouth's wooded lake neighborhoods",
+      "Seal garage door bottom seals, foundation utility penetrations, and door sills in September before the fall mouse entry push",
+      "Apply perimeter treatment to south and west building faces in early September to reduce boxelder bug and Asian lady beetle entry",
+    ],
+    costNote:
+      "Quarterly pest control programs in Plymouth covering mice, boxelder bugs, and carpenter ants run $85 to $140 per visit. Mosquito barrier spray programs for lakeside properties run $70 to $95 per monthly application from late May through September. Fall combined exclusion programs provide the best seasonal value for Plymouth homeowners.",
+    faqs: [
+      {
+        question:
+          "Does living near Medicine Lake in Plymouth mean more mosquitoes all summer?",
+        answer:
+          "Yes. Medicine Lake creates stable Culex mosquito breeding habitat on its shallower margins, and properties near the lake see sustained summer pressure from May through September. Culex pipiens, the primary species, is associated with West Nile virus and is monitored by Hennepin County Public Health. Eliminating additional residential standing water sources, including gutters, containers, and low areas, reduces breeding near the home. Professional barrier spray programs on yard vegetation provide meaningful protection during the active season for properties close to the lake.",
+      },
+      {
+        question:
+          "Are boxelder bugs as bad in Plymouth as in other Twin Cities suburbs?",
+        answer:
+          "Plymouth's residential character includes mature boxelder and silver maple trees in established neighborhoods, which sustain healthy local boxelder bug populations. University of Minnesota Extension identifies these tree species as the primary food source for boxelder bugs, and their presence in Plymouth's older residential areas directly correlates with the fall aggregation numbers homeowners see on their buildings. The prevention approach is consistent with the rest of the metro: seal exterior gaps and apply a perimeter treatment before mid-September.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Minneapolis", slug: "minneapolis" },
+      { name: "Saint Paul", slug: "saint-paul" },
+      { name: "Brooklyn Park", slug: "brooklyn-park" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Plymouth, MN | Mice, Boxelder Bugs & Mosquitoes",
+    metaDescription:
+      "Plymouth pest control for house mice, carpenter ants, boxelder bugs, mosquitoes and yellow jackets. Hennepin County Medicine Lake west Minneapolis suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

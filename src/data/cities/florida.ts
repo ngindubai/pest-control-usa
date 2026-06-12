@@ -3862,4 +3862,640 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Bradenton pest control for Formosan subterranean termites, ghost ants, mosquitoes, roof rats and no-see-ums. Manatee County Manatee River Tampa Bay Gulf Coast specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "miami-gardens",
+    name: "Miami Gardens",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3" as const,
+    population: "~113,987",
+    county: "Miami-Dade County",
+    climate: "tropical" as const,
+    climateDriver:
+      "South Florida tropical climate with warm winters, a wet season from June through October, and year-round pest activity with no meaningful cold break",
+    topPests: [
+      "Formosan subterranean termites",
+      "ghost ants",
+      "mosquitoes",
+      "roof rats",
+      "American cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round underground",
+        note: "UF/IFAS confirms Formosan subterranean termites are established throughout Miami-Dade County. Miami Gardens' older concrete-block construction with wood roof trusses carries real exposure where original soil treatments have fully expired.",
+      },
+      {
+        name: "ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "UF/IFAS identifies ghost ants as the dominant indoor ant pest in South Florida. They nest in wall voids, cabinet bases, and potted plants in Miami Gardens homes, forming multiple satellite colonies that require professional bait treatment.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through October peak, present year-round",
+        note: "Miami-Dade's wet season creates intense breeding pressure. Aedes aegypti, the dengue and Zika vector, is documented in the county and breeds in small residential containers.",
+      },
+      {
+        name: "roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats travel through Miami Gardens' mature tree canopy to access homes at roof level, entering through soffit gaps and ridge vents. They are the dominant commensal rodent throughout South Florida.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are found in Miami Gardens' sewer infrastructure and move into structures through drains and foundation gaps at night. The tropical climate sustains activity year-round with no winter reduction.",
+      },
+    ],
+    localHook:
+      "Miami Gardens is Miami-Dade's third largest city and home to Hard Rock Stadium. The city's dense concrete-block construction from the 1960s and 1970s still carries timber roof trusses and interior wood framing that Formosan subterranean termite colonies exploit through expansion joints and soil-to-wood contact points.",
+    intro:
+      "Miami Gardens sits at the heart of Miami-Dade County with a year-round tropical climate that sustains pest activity without seasonal interruption. Formosan subterranean termites, documented extensively by UF/IFAS across Miami-Dade, are the primary structural threat. Ghost ants colonize kitchens and bathrooms in virtually every neighborhood. Roof rats move through the mature tree canopy lining residential streets, and American cockroaches use sewer connections and exterior landscape to enter structures at night.",
+    sections: [
+      {
+        heading: "Formosan vs. Eastern Subterranean Termites in Miami Gardens",
+        body: "Both termite species are present in Miami-Dade County, but Formosan subterranean termites are significantly more destructive. Formosan colonies can number in the millions compared to the hundreds of thousands typical of Eastern subterranean colonies, and they consume wood at a faster rate. UF/IFAS extension confirms Formosan termite distribution throughout Miami-Dade. In Miami Gardens neighborhoods with older block construction, termites typically enter through exterior soil in planting beds adjacent to the structure and move up to wood roof trusses. Annual professional inspections and a full soil treatment or baiting program are the effective responses for both species.",
+      },
+      {
+        heading: "Ghost Ants: The Number One Indoor Pest Call",
+        body: "Ghost ants are small, pale-legged ants with dark heads that earned their name from how difficult they are to see on light surfaces. UF/IFAS identifies ghost ants as the dominant indoor ant pest in South Florida. In Miami Gardens, they nest in potted plants, wall voids, cabinet bases, and under kitchen appliances. Colonies are polydomous, splitting into multiple satellite nests readily, which is why over-the-counter ant sprays typically make infestations worse by causing colony fragmentation. Professional treatment uses baits that worker ants carry back to all nest sites including the queens.",
+      },
+      {
+        heading: "Roof Rats and Wet Season Mosquitoes",
+        body: "Roof rats are the dominant commensal rodent across South Florida and throughout Miami Gardens. Unlike Norway rats, roof rats are agile climbers that travel through tree canopy and enter structures at roofline gaps, soffit vents, and utility penetrations. Signs include droppings in attics, gnaw marks on electrical wiring, and movement sounds in ceilings at night. Mosquitoes peak during the June through October wet season. Aedes aegypti, the primary dengue and Zika vector in Miami-Dade, breeds in very small water sources including bottle caps, saucers, and clogged gutters. Eliminating standing water is the first step; professional larviciding and adulticide treatments extend protection for outdoor living areas.",
+      },
+    ],
+    prevention: [
+      "Seal all roofline gaps, soffit vents, and utility penetrations against roof rat entry",
+      "Remove standing water every 3 to 4 days throughout the wet season to interrupt mosquito breeding",
+      "Keep planting beds 6 inches away from the foundation to reduce termite and ghost ant entry points",
+      "Store food in sealed containers and empty kitchen waste bins daily to limit ghost ant foraging",
+      "Schedule annual termite inspections for all structures with wood components",
+    ],
+    costNote:
+      "Termite soil treatments in Miami Gardens typically range from $900 to $2,200 depending on linear footage. Baiting systems run $1,200 to $2,500 with annual renewals. Mosquito barrier spray programs start around $60 to $90 per treatment. General pest control quarterly programs covering ghost ants, cockroaches, and exterior rodent monitoring run $120 to $180 per visit.",
+    faqs: [
+      {
+        question:
+          "Are Formosan termites really more dangerous than regular termites in Miami Gardens?",
+        answer:
+          "Yes. Both species are present in Miami-Dade County, but Formosan subterranean termites form colonies many times larger than Eastern subterranean termites and feed more aggressively. UF/IFAS research documents their destructive capacity across South Florida. A Formosan colony can cause significant structural damage in two to three years without treatment, compared to the slower progression typical of Eastern subterranean colonies. The treatment approach is similar for both, but the urgency of annual inspections is greater where Formosan activity is confirmed.",
+      },
+      {
+        question:
+          "Why do ghost ant treatments from the hardware store keep failing in my Miami Gardens home?",
+        answer:
+          "Ghost ants in Miami Gardens form polydomous colonies with multiple queens spread across several nest sites. Repellent sprays kill foragers on contact but signal the surviving colony to split and relocate, which often increases visible activity in different areas. Professional treatment uses non-repellent bait that foragers carry back undetected to all nest sites. Without reaching the queens, the colony recovers within weeks.",
+      },
+      {
+        question:
+          "What time of year is mosquito pressure worst in Miami Gardens?",
+        answer:
+          "The wet season from June through October is the peak period. Miami-Dade's summer rainfall creates standing water in containers, gutters, and low-lying areas that Aedes aegypti uses for breeding. Activity drops significantly from November through May but does not stop entirely given the subtropical climate. Residents near canals and retention ponds deal with Culex mosquitoes year-round.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Miami", slug: "miami" },
+      { name: "Hialeah", slug: "hialeah" },
+      { name: "Coral Springs", slug: "coral-springs" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Miami Gardens, FL | Termites, Ghost Ants & Mosquitoes",
+    metaDescription:
+      "Miami Gardens pest control for Formosan subterranean termites, ghost ants, mosquitoes, roof rats and American cockroaches. Miami-Dade County Hard Rock Stadium area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "plantation",
+    name: "Plantation",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3" as const,
+    population: "~94,772",
+    county: "Broward County",
+    climate: "tropical" as const,
+    climateDriver:
+      "South Florida tropical climate with warm winters, a June through October wet season, and year-round structural pest activity sustained by high humidity",
+    topPests: [
+      "Formosan subterranean termites",
+      "ghost ants",
+      "mosquitoes",
+      "roof rats",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round underground",
+        note: "UF/IFAS documents Formosan termite presence throughout Broward County. Plantation's 1960s through 1980s housing carries fully expired soil treatments and significant wood roof truss exposure.",
+      },
+      {
+        name: "ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the dominant indoor ant pest throughout Plantation's residential neighborhoods, entering through plumbing gaps and door frames and forming multiple colonies in wall voids.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through October peak",
+        note: "Plantation's network of retention lakes and drainage canals provides year-round Culex mosquito breeding habitat, with peak activity during the June through October wet season.",
+      },
+      {
+        name: "roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Plantation's dense tree canopy, a legacy of its planned community design, gives roof rats uninterrupted aerial pathways to rooftops throughout the city's residential neighborhoods.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches concentrate in Plantation's older multi-unit buildings and commercial food service areas, requiring interior gel bait programs for effective control.",
+      },
+    ],
+    localHook:
+      "Plantation was built as a planned community starting in the 1950s with a heavy residential tree canopy that today gives roof rats an aerial highway through neighborhoods. The city's mature landscaping and retention lake system create continuous mosquito and termite harborage conditions throughout the year.",
+    intro:
+      "Plantation is one of Broward County's largest cities by area, with a residential character built around tree-lined streets and a network of retention lakes. That combination creates persistent pressure from roof rats in the canopy, mosquitoes breeding near the water features, and Formosan termites working through the city's wood-framed structures. Ghost ants are the number one indoor pest complaint across Plantation's residential neighborhoods, consistent with their dominance throughout South Florida.",
+    sections: [
+      {
+        heading: "Plantation's Tree Canopy and Roof Rat Pressure",
+        body: "Plantation's planned community design preserved and planted a dense tree canopy that runs from street to structure throughout most neighborhoods. Roof rats use this canopy to move between properties and access homes at roof level, entering through soffit gaps, ridge vents, and areas where branches overhang the roofline. Signs include gnaw marks on fascia boards, droppings in attics, and scratching sounds in ceilings at night. A perimeter exclusion inspection to identify and seal entry points at the roofline is the most durable fix, combined with an exterior population reduction program.",
+      },
+      {
+        heading: "Ghost Ants and Formosan Termites",
+        body: "Ghost ants move into Plantation homes through gaps around plumbing, foundation cracks, and door frames. They nest in wall voids, cabinet bases, and potted plants. Professional bait treatments outperform spray programs because they reach the multiple nest sites ghost ants maintain inside and outside the structure. Formosan subterranean termites, present throughout Broward County per UF/IFAS extension research, attack wood components from below ground and are the structural pest requiring the most immediate professional attention. Plantation's older residential construction from the 1960s through 1980s is particularly exposed where original soil treatments have fully degraded.",
+      },
+      {
+        heading: "Retention Lakes and Mosquito Control in Plantation",
+        body: "Plantation has dozens of retention lakes and canal corridors that produce Culex mosquitoes throughout the year, with peak activity during the wet season from June through October. Culex quinquefasciatus, the southern house mosquito, is the primary species from standing water sources and is associated with West Nile virus transmission in Florida. Professional mosquito programs address both the larval stage with targeted larvicides applied to water features and the adult stage with barrier treatments to vegetation around yards.",
+      },
+    ],
+    prevention: [
+      "Trim tree branches back at least 6 feet from the roofline to remove roof rat access routes",
+      "Apply mosquito larvicide tablets to retention pond edges and ornamental water features monthly during the wet season",
+      "Replace damaged or missing soffit vents and seal utility penetrations at the roofline",
+      "Store dry goods and pet food in sealed containers to limit ghost ant foraging sources",
+      "Schedule a professional termite inspection every 12 months for all structures with wood components",
+    ],
+    costNote:
+      "General pest control programs in Plantation covering ghost ants, cockroaches, and exterior rodent monitoring run $100 to $160 per quarterly visit. Termite soil barrier treatments range from $900 to $2,100 depending on structure size. Mosquito barrier spray programs start at $60 to $85 per treatment on a monthly or bimonthly schedule during the wet season.",
+    faqs: [
+      {
+        question:
+          "Why does Plantation's tree canopy make roof rat problems worse than in newer South Florida cities?",
+        answer:
+          "Roof rats are agile climbers that travel through tree canopy to reach rooftops. Plantation's planned community design, which preserved a dense canopy throughout residential neighborhoods, gives roof rats uninterrupted aerial pathways between properties and direct access to rooflines where branches overhang. Cutting back branches at least 6 feet from the roof removes the most direct access routes, but professional exclusion work to seal entry points at the roofline is also needed for structures where rats are already entering.",
+      },
+      {
+        question:
+          "Do the retention lakes in Plantation affect mosquito pressure year-round?",
+        answer:
+          "Yes. Plantation's network of retention lakes and drainage canals provides year-round breeding habitat for Culex mosquitoes. Properties within 200 to 300 feet of water features see higher adult mosquito populations, particularly during the June through October wet season. Professional larvicide applications to accessible water edges reduce emerging adults. Barrier spray programs on yard vegetation reduce resting adult populations near the home.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Fort Lauderdale", slug: "fort-lauderdale" },
+      { name: "Pembroke Pines", slug: "pembroke-pines" },
+      { name: "Davie", slug: "davie" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Plantation, FL | Termites, Ghost Ants & Mosquitoes",
+    metaDescription:
+      "Plantation pest control for Formosan subterranean termites, ghost ants, mosquitoes, roof rats and German cockroaches. Broward County planned community retention lake specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "largo",
+    name: "Largo",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3" as const,
+    population: "~84,000",
+    county: "Pinellas County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Pinellas County subtropical climate moderated by the Gulf of Mexico, with warm humid summers, mild winters, and a wet season from June through September that sustains structural pest activity year-round",
+    topPests: [
+      "subterranean termites",
+      "ghost ants",
+      "mosquitoes",
+      "roof rats",
+      "no-see-ums",
+    ],
+    pestProfile: [
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active year-round underground",
+        note: "UF/IFAS confirms both Eastern and Formosan subterranean termites in Pinellas County. Largo's mid-century housing stock carries crawl-space and wood-frame components where original soil treatments have long expired.",
+      },
+      {
+        name: "ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the dominant indoor ant pest across Largo and the rest of Pinellas County, nesting in wall voids and potted plants and requiring professional bait programs for control.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through September peak, present year-round",
+        note: "The wet season drives Culex breeding in standing water throughout Largo, with above-average pressure in neighborhoods near the Intracoastal Waterway.",
+      },
+      {
+        name: "roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are the primary commensal rodent in Largo, using the city's mature residential trees to access rooftops. Entry through soffit gaps and ridge vents is the most common access route.",
+      },
+      {
+        name: "no-see-ums",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peak spring and fall",
+        note: "Largo's position adjacent to the Gulf Intracoastal Waterway and tidal flats creates intense biting midge activity in spring and fall. They pass through standard window screens and are most active at dawn and dusk.",
+      },
+    ],
+    localHook:
+      "Largo is Pinellas County's third largest city, bordered by the Gulf Intracoastal Waterway and dotted with tidal flats that produce intense biting midge activity in spring and fall. The coastal position also accelerates termite pressure in older structures where moisture from Gulf humidity is continuous.",
+    intro:
+      "Largo occupies the central spine of the Pinellas Peninsula between Tampa Bay and the Gulf of Mexico. The coastal position means no-see-um biting midge activity is a real seasonal concern, particularly near the Intracoastal and the tidal flats around Largo Natural Area. Subterranean termites, both Eastern and Formosan species documented by UF/IFAS in Pinellas County, work through wood components in the city's large stock of mid-century residential construction. Ghost ants and roof rats are year-round structural pest concerns across all Largo neighborhoods.",
+    sections: [
+      {
+        heading: "No-See-Ums and Mosquitoes Near the Intracoastal",
+        body: "No-see-ums (Culicoides biting midges) are active in Largo during spring and fall when tidal mudflat conditions favor breeding. They are small enough to pass through standard window screens and bite exposed skin during dawn and dusk hours. Treating the immediate perimeter with residual insecticides provides short-term relief for outdoor areas. Mosquitoes peak during the June through September wet season. Both pests are most severe for properties within a half mile of the Intracoastal Waterway or the tidal flats near Largo Natural Area and the Pinellas County coastal parks.",
+      },
+      {
+        heading: "Subterranean Termites in Largo's Older Housing Stock",
+        body: "Largo's residential neighborhoods include a large number of block and wood-frame homes built between the 1950s and 1980s. Eastern subterranean termites are present throughout Pinellas County, and Formosan subterranean termites are also established in South Pinellas. Moisture from the Gulf Coast climate keeps soil and wood components at humidity levels that favor colony development year-round. Annual inspections and either a full soil treatment or a perimeter bait station program are the standard response for these construction types, particularly where original treatments have long since expired.",
+      },
+      {
+        heading: "Roof Rats and Ghost Ants in Largo Neighborhoods",
+        body: "Roof rats move through the mature trees common in Largo's established neighborhoods and enter homes at roofline gaps, ridge vents, and areas where tree branches provide direct access. Ghost ants are the dominant indoor ant pest throughout Pinellas County, nesting in wall voids, cabinet bases, and potted plants. Their very small size lets them enter through gaps that would stop larger species. Professional bait programs are more effective than sprays for ghost ants because they address the multiple colony segments that repellent products cause to disperse and re-establish in new locations.",
+      },
+    ],
+    prevention: [
+      "Keep outdoor activity near the Intracoastal to midday hours during spring and fall to reduce no-see-um exposure",
+      "Install fine-mesh screen inserts rated 16x16 per inch or finer for porches near tidal areas",
+      "Trim trees back from the roofline and seal soffit gaps against roof rat entry",
+      "Schedule annual termite inspections for properties with wood floors, roof trusses, or original construction from before 1990",
+      "Eliminate standing water weekly during the wet season to interrupt mosquito breeding",
+    ],
+    costNote:
+      "Quarterly pest control programs in Largo covering ghost ants, cockroaches, and exterior rodent monitoring typically run $90 to $150 per visit. Termite treatments for a standard Pinellas County slab home range from $800 to $1,800. Mosquito barrier spray programs run $55 to $85 per monthly application during the active season.",
+    faqs: [
+      {
+        question:
+          "Are no-see-ums worse in Largo than in inland Pinellas County cities?",
+        answer:
+          "Yes. No-see-ums breed in tidal mudflats and salt marsh edges, so coastal and Intracoastal-adjacent areas of Largo see significantly higher activity than inland Pinellas neighborhoods. Properties near Largo Natural Area, the Intracoastal Waterway, and tidal flats are most affected during the peak spring and fall seasons. Fine-mesh screens rated at 16 by 16 weave per inch or finer help reduce indoor intrusion. Perimeter residual treatments provide some relief for outdoor living areas.",
+      },
+      {
+        question:
+          "Do older concrete block homes in Largo still need termite treatment?",
+        answer:
+          "Yes. Concrete block construction eliminates some termite entry paths, but nearly all block homes in Largo have wood roof trusses, interior wall framing, window bucks, and door frames. Subterranean termites find these wood components by moving through soil and up interior walls or through cracks in the block. Properties with original soil treatments from the 1970s and 1980s have very likely lost that chemical barrier entirely, and current UF/IFAS guidance recommends treating or baiting regardless of wall construction type in South Florida.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Clearwater", slug: "clearwater" },
+      { name: "St. Petersburg", slug: "st-petersburg" },
+      { name: "Dunedin", slug: "dunedin" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Largo, FL | Termites, Ghost Ants & No-See-Ums",
+    metaDescription:
+      "Largo pest control for subterranean termites, ghost ants, mosquitoes, roof rats and no-see-ums. Pinellas County Intracoastal Gulf Coast specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "homestead",
+    name: "Homestead",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3" as const,
+    population: "~72,000",
+    county: "Miami-Dade County",
+    climate: "tropical" as const,
+    climateDriver:
+      "Deep South Florida tropical climate at the Everglades edge, with high year-round humidity, a long wet season from May through October, and intense mosquito pressure from proximity to the wetland ecosystem",
+    topPests: [
+      "ghost ants",
+      "Formosan subterranean termites",
+      "mosquitoes",
+      "roof rats",
+      "American cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the dominant indoor ant pest in Homestead, forming polydomous colonies in wall voids and potted plants. Professional bait treatment is required because repellent sprays cause colony fragmentation.",
+      },
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round underground",
+        note: "UF/IFAS documents Formosan termite presence throughout Miami-Dade County. Homestead's tropical climate sustains year-round foraging activity with no winter dieback.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October peak, present year-round",
+        note: "Homestead's proximity to the Everglades produces more sustained mosquito pressure than inland Miami-Dade. Aedes aegypti breeds in small residential containers and is the primary dengue and Zika vector in the county.",
+      },
+      {
+        name: "roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are the dominant commensal rodent in South Florida. Homestead's residential landscaping provides canopy access routes to rooftops throughout the city.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are found in Homestead's sewer infrastructure and move into structures through drains and gaps at the foundation. Activity near the agricultural belt and older commercial areas is elevated.",
+      },
+    ],
+    localHook:
+      "Homestead sits at the gateway to Everglades National Park and Biscayne National Park. The adjacent wetland ecosystem generates persistent mosquito populations that affect residential neighborhoods throughout the wet season, and the city's agricultural belt creates pest conditions not found in more urbanized parts of Miami-Dade.",
+    intro:
+      "Homestead is at the southernmost edge of Miami-Dade County, bordered by the Everglades to the west and Biscayne Bay to the east. Proximity to both wetland ecosystems creates mosquito pressure that is more intense and longer-lasting than in northern parts of the county. Ghost ants and Formosan subterranean termites are year-round structural concerns in the city's residential neighborhoods, while the agricultural areas on the city's periphery contribute to higher American cockroach and roof rat activity near commercial properties.",
+    sections: [
+      {
+        heading: "Everglades-Edge Mosquito Pressure in Homestead",
+        body: "Homestead experiences some of the most sustained mosquito pressure in Miami-Dade County because the Everglades wetland ecosystem to the west produces large populations of Aedes and Culex mosquitoes that extend into the urban edge. The wet season from May through October is the peak period, but Homestead's proximity to permanent wetland means activity rarely drops to the low levels seen in more urban parts of the county. Aedes aegypti, which breeds in small residential containers, is the primary concern for disease transmission including dengue and Zika. Residents benefit from standing water elimination, larvicide applications to ornamental water features, and professional barrier spray programs during the wet season.",
+      },
+      {
+        heading: "Ghost Ants and Formosan Termites",
+        body: "Ghost ants are the dominant indoor ant across Homestead's residential neighborhoods, entering through plumbing gaps, foundation cracks, and gaps around doors and windows. They nest in wall voids and potted plants and require professional bait treatment to address the multiple colony segments that repellent sprays cause to fragment and spread. Formosan subterranean termites are present throughout Miami-Dade County and are particularly damaging to older wood-frame and mixed-construction homes. Annual professional inspections and perimeter soil or bait treatments are the standard defense, with particular urgency for structures built before 1985.",
+      },
+      {
+        heading: "Roof Rats and American Cockroaches",
+        body: "Roof rats are the predominant rodent throughout South Florida, and Homestead's residential landscaping provides the canopy cover they use to access rooftops. They enter through soffit gaps, ridge vents, and loose fascia boards. American cockroaches, the large palmetto bugs common across Florida, are found in sewer systems and move into structures through drains and exterior gaps at night. They are more common near Homestead's older commercial areas and the agricultural-residential interface zones on the city's western edge. Exclusion work at drain connections and exterior foundation gaps is the most effective long-term control approach.",
+      },
+    ],
+    prevention: [
+      "Eliminate all standing water sources on the property every 3 to 4 days throughout the wet season",
+      "Seal around plumbing penetrations and under door thresholds to limit ghost ant and cockroach entry",
+      "Trim tree limbs back from the roofline to reduce roof rat access routes",
+      "Schedule an annual Formosan termite inspection for any structure with wood framing or roof trusses",
+      "Drain and treat ornamental water features during the wet season to reduce on-property mosquito breeding",
+    ],
+    costNote:
+      "General pest control quarterly programs in Homestead run $110 to $170 per visit. Termite soil treatments range from $900 to $2,000 based on structure size. Mosquito barrier spray programs run $65 to $90 per treatment. Emergency cockroach or rodent programs are additional and priced based on scope.",
+    faqs: [
+      {
+        question:
+          "Is mosquito pressure in Homestead really worse than in the rest of Miami-Dade?",
+        answer:
+          "Yes, for most of the wet season. Homestead's position at the Everglades edge means it receives mosquito populations produced by the wetland ecosystem to the west, in addition to the container-breeding Aedes aegypti present throughout Miami-Dade. The Miami-Dade Mosquito Control District services the area, but the scale of the adjacent wetland means residential protection benefits from both personal prevention measures and professional barrier treatments during the May through October peak.",
+      },
+      {
+        question:
+          "Do I need a termite protection plan for my Homestead home?",
+        answer:
+          "An annual inspection program is advisable for all Homestead structures with wood components. The year-round tropical climate in Miami-Dade sustains continuous termite activity with no winter dieback, and both Formosan and Eastern subterranean species are present in the county. A formal termite protection plan provides an annual inspection and usually covers retreatment costs, which is practical given Homestead's climate. UF/IFAS recommends soil treatment or baiting for any structure in South Florida where soil contact with wood exists.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Miami", slug: "miami" },
+      { name: "Hialeah", slug: "hialeah" },
+      { name: "Miami Gardens", slug: "miami-gardens" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Homestead, FL | Mosquitoes, Termites & Ghost Ants",
+    metaDescription:
+      "Homestead pest control for ghost ants, Formosan subterranean termites, mosquitoes, roof rats and American cockroaches. Miami-Dade County Everglades National Park gateway specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lauderhill",
+    name: "Lauderhill",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3" as const,
+    population: "~71,000",
+    county: "Broward County",
+    climate: "tropical" as const,
+    climateDriver:
+      "South Florida tropical climate with warm winters, high year-round humidity, and a June through October wet season that sustains continuous pest activity",
+    topPests: [
+      "ghost ants",
+      "Formosan subterranean termites",
+      "mosquitoes",
+      "roof rats",
+      "American cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the dominant indoor ant pest across Lauderhill's residential neighborhoods. UF/IFAS identifies them as the primary indoor ant throughout South Florida.",
+      },
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round underground",
+        note: "UF/IFAS documents Formosan termite presence throughout Broward County. Lauderhill's large share of pre-1985 housing carries fully expired original soil treatments and significant wood component exposure.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through October peak",
+        note: "South Florida's wet season drives intense mosquito breeding in residential standing water sources. Aedes aegypti is documented in Broward County.",
+      },
+      {
+        name: "roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats use Lauderhill's mature residential tree canopy to access homes at roof level, entering through soffit gaps and other roofline openings.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are found throughout Lauderhill's sewer infrastructure and move into structures through drains and exterior gaps. The tropical climate sustains activity year-round.",
+      },
+    ],
+    localHook:
+      "Lauderhill is a dense inner-Broward city with a large percentage of residential construction from the 1960s through 1980s. This older housing stock carries wood roof trusses, original door frames, and interior wall framing that are now decades past any original soil treatment, making Formosan subterranean termite exposure a consistent concern throughout the city.",
+    intro:
+      "Lauderhill is one of Broward County's older incorporated cities, with neighborhoods characterized by concrete block and wood-frame construction dating primarily from the 1960s through 1980s. The tropical climate sustains year-round pest activity, and the older housing stock carries elevated Formosan subterranean termite exposure because original chemical soil barriers have fully degraded. Ghost ants are the most common interior pest complaint. Roof rats and American cockroaches are year-round concerns throughout the city's residential and commercial areas.",
+    sections: [
+      {
+        heading: "Older Housing Stock and Formosan Termite Risk in Lauderhill",
+        body: "Lauderhill's residential inventory includes a large share of homes built before 1985, many with original concrete slab foundations, block walls, and wood roof trusses. Soil treatments applied during original construction have been ineffective for decades under South Florida's hot, wet conditions. Formosan subterranean termites, present throughout Broward County and documented extensively by UF/IFAS, exploit exposed soil-to-wood contact and move into attic trusses from below-grade access points. An annual professional inspection with a current treatment or bait station program is the appropriate response for these properties.",
+      },
+      {
+        heading: "Ghost Ants and American Cockroaches",
+        body: "Ghost ants are the dominant indoor ant pest across Lauderhill and the rest of South Florida. They enter through plumbing penetrations, foundation cracks, and gaps around windows and doors, establishing multiple satellite nests in wall voids and kitchen areas. Professional bait is the effective treatment approach. American cockroaches, the large species commonly called palmetto bugs, are found throughout Lauderhill's sewer infrastructure and enter structures through drains and gaps at the foundation. They are most common near older commercial corridors and densely landscaped residential areas where exterior harborage is plentiful.",
+      },
+      {
+        heading: "Roof Rats and Wet Season Mosquitoes",
+        body: "Roof rats travel through trees and overhead utility lines to access homes at roof level. Lauderhill's mature canopy in established neighborhoods provides this access, and gnaw damage on soffit boards and fascia is a common finding during inspections. Entry point sealing and exterior population reduction programs address the structural access points. Mosquitoes peak from June through October. Eliminating standing water from containers, gutters, and low areas and applying barrier spray to yard vegetation are the most effective residential mosquito strategies.",
+      },
+    ],
+    prevention: [
+      "Inspect and seal all soffit vents, roofline gaps, and tree branch overhang points to reduce roof rat entry",
+      "Remove standing water from containers, gutters, and low-lying areas every 3 to 4 days during the wet season",
+      "Use professional ant bait rather than over-the-counter sprays for ghost ant infestations",
+      "Schedule a professional termite inspection for any structure more than 20 years old in Lauderhill",
+      "Keep landscaping mulch and soil beds 6 inches back from the foundation to reduce termite and ant access",
+    ],
+    costNote:
+      "Quarterly pest control programs in Lauderhill covering ghost ants, cockroaches, and exterior rodent monitoring run $100 to $155 per visit. Termite treatments range from $850 to $2,000. Mosquito barrier programs run $60 to $85 per monthly application during the wet season.",
+    faqs: [
+      {
+        question:
+          "My Lauderhill home was built in 1972. Does it need a new termite treatment?",
+        answer:
+          "Almost certainly yes. Soil termiticide treatments applied during original construction in the early 1970s have been ineffective for decades under South Florida's hot, wet conditions. Formosan and Eastern subterranean termites are present throughout Broward County, and UF/IFAS extension recommends active treatment or monitoring for all structures in the region. For a 1972 home, a professional inspection to confirm any current activity, followed by a new soil treatment or bait station program around the perimeter, is the appropriate action.",
+      },
+      {
+        question:
+          "Are ghost ant problems in Lauderhill worse during the wet season?",
+        answer:
+          "Ghost ant activity is elevated year-round in Lauderhill's tropical climate but increases during the wet season as outdoor colony activity intensifies and foragers move indoors seeking lower humidity and food sources. Air-conditioned spaces attract ghost ants in summer as outdoor temperatures and humidity peak. Professional bait programs address indoor foraging and the multiple nest sites that ghost ants maintain both inside and outside the structure.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Fort Lauderdale", slug: "fort-lauderdale" },
+      { name: "Plantation", slug: "plantation" },
+      { name: "Sunrise", slug: "sunrise" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Lauderhill, FL | Termites, Ghost Ants & Mosquitoes",
+    metaDescription:
+      "Lauderhill pest control for ghost ants, Formosan subterranean termites, mosquitoes, roof rats and American cockroaches. Broward County older housing stock specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "tamarac",
+    name: "Tamarac",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3" as const,
+    population: "~62,000",
+    county: "Broward County",
+    climate: "tropical" as const,
+    climateDriver:
+      "South Florida tropical climate with year-round warmth, high humidity, and a June through October wet season that sustains active pest populations without seasonal interruption",
+    topPests: [
+      "ghost ants",
+      "Formosan subterranean termites",
+      "mosquitoes",
+      "roof rats",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the most frequent indoor pest complaint across Tamarac's residential neighborhoods. UF/IFAS identifies them as the dominant indoor ant throughout South Florida.",
+      },
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round underground",
+        note: "UF/IFAS confirms Formosan termite distribution throughout Broward County. Tamarac's 1965 through 1985 housing inventory carries fully expired soil treatments and significant wood truss exposure.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through October peak",
+        note: "Tamarac's retention ponds and canal system provide year-round Culex mosquito breeding habitat, with peak wet-season pressure from June through October.",
+      },
+      {
+        name: "roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats use Tamarac's mature street trees to access homes at roof level. Entry through aging soffit vents is the most common access route in the city's older housing stock.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches concentrate in Tamarac's multi-unit buildings and commercial food service areas, requiring gel bait programs rather than exterior spray for effective control.",
+      },
+    ],
+    localHook:
+      "Tamarac developed primarily in the 1970s as a planned community with a large concentration of retirement-age housing. Most of the city's homes were built between 1965 and 1985, putting original soil termiticide treatments well past their effective life and leaving wood roof trusses and framing fully exposed to Formosan subterranean termite pressure.",
+    intro:
+      "Tamarac is a residential city in northwestern Broward County with a community character shaped by its 1970s planned development origins. The bulk of the city's housing was built between 1965 and 1985, which means original soil termiticide treatments are fully expired and Formosan subterranean termites, established throughout Broward County per UF/IFAS, now have unrestricted access to wood components in structures without current treatment. Ghost ants are the most frequent indoor pest complaint. German cockroaches appear in kitchen and bathroom areas of multi-unit buildings. Roof rats use the mature landscape trees common throughout the city to access homes at roof level.",
+    sections: [
+      {
+        heading: "Formosan Termites and Tamarac's 1970s Housing Stock",
+        body: "The bulk of Tamarac's residential construction predates modern termite-resistant building practices and uses wood roof trusses, wood door frames, and wood interior framing. Original soil treatments applied during construction in the late 1960s through early 1980s have long since broken down under South Florida conditions. Formosan subterranean termites form enormous colonies that consume wood significantly faster than Eastern subterranean termites. For Tamarac homeowners, an annual professional inspection and a current soil treatment or bait station program is the standard approach for any structure with wood components.",
+      },
+      {
+        heading: "Ghost Ants: Tamarac's Top Service Request",
+        body: "Ghost ants are very small with pale legs and dark heads, and they are difficult to spot on light-colored countertops and kitchen surfaces. They enter Tamarac homes through plumbing gaps, cracks in door frames, and window screen edges, establishing multiple colony segments in kitchen cabinets, wall voids, and potted plants. Over-the-counter ant sprays make infestations worse by fragmenting colonies. Professional bait programs deliver non-repellent formulations that foragers carry back to all nest sites including the queens. Without eliminating the queens, infestations return within weeks.",
+      },
+      {
+        heading: "Mosquitoes, Roof Rats, and German Cockroaches",
+        body: "Tamarac's retention ponds and canal system provide mosquito breeding habitat year-round, with peak activity from June through October. Eliminating standing water and applying professional barrier spray to yard vegetation are the primary residential controls. Roof rats access homes through tree limbs that overhang the roofline and through soffit vents that have cracked or come loose over the years. German cockroaches concentrate in kitchen and bathroom areas, particularly in multi-unit buildings and commercial food service. They require targeted gel bait treatment inside cabinets rather than exterior spray programs for effective control.",
+      },
+    ],
+    prevention: [
+      "Schedule a professional termite inspection if you have not had one in the past 12 months",
+      "Use professional ant bait products and avoid over-the-counter sprays for ghost ant problems",
+      "Trim trees back from the roofline and inspect soffit vents for gaps or damage",
+      "Remove standing water from containers and low areas every 3 to 4 days during the wet season",
+      "Seal around plumbing penetrations under sinks and at the floor to reduce German cockroach harborage",
+    ],
+    costNote:
+      "Quarterly pest control programs in Tamarac covering ghost ants, cockroaches, and exterior monitoring run $95 to $150 per visit. Termite treatments for standard slab homes range from $850 to $1,900. Mosquito barrier programs run $55 to $80 per monthly application during the wet season.",
+    faqs: [
+      {
+        question:
+          "My Tamarac home is a 1970s block house. Do I still need termite treatment?",
+        answer:
+          "Yes. Block construction reduces but does not eliminate termite risk. Nearly all 1970s block homes in Tamarac have wood roof trusses, window and door bucks, and interior framing vulnerable to subterranean termites, which enter from soil level and move up through block voids or through exterior gaps. The original soil treatment is long expired. UF/IFAS extension recommends active treatment or a bait monitoring program for all South Florida structures, regardless of wall construction type.",
+      },
+      {
+        question:
+          "How do I tell if the tiny ants in my Tamarac kitchen are ghost ants?",
+        answer:
+          "Ghost ants are very small, around 1.5 millimeters, with dark heads and thorax and pale white legs and abdomen. That pale-to-dark contrast is the key identifier. They move in erratic trails and are often first noticed on countertops or near sinks. If you crush one, it releases a faint coconut-like odor. Confirming the species matters because ghost ants require professional bait treatment rather than spray, and misidentification leads to repeated failed control attempts.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Coral Springs", slug: "coral-springs" },
+      { name: "Plantation", slug: "plantation" },
+      { name: "Fort Lauderdale", slug: "fort-lauderdale" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Tamarac, FL | Ghost Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Tamarac pest control for ghost ants, Formosan subterranean termites, mosquitoes, roof rats and German cockroaches. Broward County 1970s residential community specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

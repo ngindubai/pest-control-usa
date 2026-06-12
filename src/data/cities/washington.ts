@@ -1529,4 +1529,214 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Redmond pest control for carpenter ants, house mice, yellow jackets, stink bugs and Norway rats. King County Sammamish River Microsoft Eastside Seattle metro Washington specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "federal-way",
+    name: "Federal Way",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3" as const,
+    population: "~97,000",
+    county: "King County",
+    climate: "temperate" as const,
+    climateDriver:
+      "Pacific Northwest maritime climate with mild wet winters, warm dry summers, and year-round elevated humidity from Puget Sound proximity that sustains carpenter ant and moisture pest activity",
+    topPests: [
+      "carpenter ants",
+      "house mice",
+      "yellow jackets",
+      "Norway rats",
+      "stink bugs",
+    ],
+    pestProfile: [
+      {
+        name: "carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September peak",
+        note: "WSU Extension identifies carpenter ants as the most common wood-destroying insect pest in western Washington. Federal Way's forested residential character and Pacific Northwest wet climate create ideal conditions for carpenter ant activity throughout the city.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "WSU Extension confirms fall mouse pressure throughout King County. Federal Way's residential housing carries foundation and utility penetration conditions that provide mice entry from October through March.",
+      },
+      {
+        name: "yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October peak",
+        note: "Yellow jackets build ground and wall void nests in Federal Way's residential yards through summer, reaching peak colony size and defensiveness in August and September near forested residential edges.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are documented throughout urban King County. Federal Way's commercial corridors and properties near I-5 and Pacific Highway see above-average rat pressure from the adjacent commercial activity.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "WSU Extension documents brown marmorated stink bug establishment throughout King County. Federal Way's residential neighborhoods see annual fall aggregation on building faces seeking overwintering sites.",
+      },
+    ],
+    localHook:
+      "Federal Way sits between Seattle and Tacoma in south King County, with Puget Sound to the west and significant forested residential areas throughout the city. The Pacific Northwest's wet climate and Federal Way's tree-heavy development create ideal conditions for carpenter ants, which are the primary wood-destroying pest concern throughout western Washington.",
+    intro:
+      "Federal Way's Pacific Northwest maritime climate and its forested residential character make carpenter ants the primary structural pest concern. WSU Extension identifies carpenter ants as the most common wood-destroying insect pest in western Washington, and Federal Way's mature conifer and mixed-forest neighborhoods create both the nesting habitat and the moist wood conditions carpenter ants require. House mice and Norway rats are year-round concerns throughout the city. Yellow jackets peak in mid-summer through fall. Brown marmorated stink bugs are now established in King County and arrive on building faces each fall.",
+    sections: [
+      {
+        heading: "Carpenter Ants in Federal Way's Forested Neighborhoods",
+        body: "Federal Way's residential development retains significant tree cover, and the Pacific Northwest's persistent winter rain keeps wood in structures and landscape at elevated moisture content year-round. WSU Extension confirms carpenter ants as the dominant wood-destroying ant pest in western Washington. They require moist wood to excavate galleries, and Federal Way's wet climate combined with any weatherproofing gaps, roof leak history, or wood decay at the roofline creates the harborage conditions they exploit. A carpenter ant inspection that identifies moisture sources alongside the ant activity is more effective than spray treatment alone, because addressing the moisture removes the long-term harborage that draws colonies back.",
+      },
+      {
+        heading: "House Mice and Norway Rats",
+        body: "House mice and Norway rats are year-round concerns in Federal Way. Mice exploit foundation gaps and door sweeps as fall temperatures drop, typically from October through March. Norway rats are more associated with sewer systems and the landscape near commercial waste sources, but they are documented throughout urban King County. Exterior bait station programs and thorough exclusion work at the foundation level are the standard combined approach. Properties near the commercial corridors on Pacific Highway and along I-5 tend to see higher rat activity than fully residential neighborhoods.",
+      },
+      {
+        heading: "Yellow Jackets and Stink Bugs",
+        body: "Yellow jackets build ground nests and wall void nests in Federal Way's residential yards through the summer, peaking in August and September as colonies reach maximum size. Ground nests in lawn and landscaped areas are a genuine outdoor hazard during this period. WSU Extension also documents brown marmorated stink bug establishment in King County, and Federal Way's residential areas see annual fall aggregation on building faces as stink bugs seek overwintering sites. Sealing exterior gaps in window frames and soffits before mid-September reduces entry numbers.",
+      },
+    ],
+    prevention: [
+      "Address moisture sources including roof leaks, drainage issues, and weatherproofing gaps to remove carpenter ant harborage conditions in Federal Way's wet climate",
+      "Seal foundation gaps, door sweeps, and utility penetrations in fall before western Washington temperatures drive mice to seek indoor shelter",
+      "Seal exterior gaps in window frames and siding in late August before stink bugs begin seeking overwintering entry",
+      "Inspect ground cover areas and lawn edges in June for early yellow jacket ground nest activity before colonies grow to late-summer peak",
+      "Maintain exterior rodent bait stations year-round for properties near commercial corridors on Pacific Highway and I-5",
+    ],
+    costNote:
+      "Quarterly pest control programs in Federal Way covering carpenter ants, mice, and exterior monitoring run $85 to $140 per visit. Carpenter ant treatment may include a moisture assessment and targeted interior treatment beyond standard perimeter spray. A free inspection establishes the right program for your property.",
+    faqs: [
+      {
+        question:
+          "Why are carpenter ants such a persistent issue in Federal Way's forested neighborhoods?",
+        answer:
+          "Federal Way's wet Pacific Northwest climate keeps wood in structures at elevated moisture content, particularly in older homes with weatherproofing issues or any history of roof leaks. Carpenter ants require moist wood to excavate their galleries, and Federal Way's combination of wet weather and significant tree cover creates both the nesting habitat in weakened trees and the moist wood conditions in adjacent structures. WSU Extension identifies this as the core driver of the Pacific Northwest's carpenter ant problem. Addressing moisture sources alongside treatment is the key to long-term management.",
+      },
+      {
+        question:
+          "Are stink bugs really a problem in Federal Way given the Pacific Northwest climate?",
+        answer:
+          "Yes. WSU Extension documents brown marmorated stink bug establishment in King County and throughout western Washington. Federal Way sees the same annual fall aggregation on building exteriors that affects most of the Pacific Northwest. The wet climate does not prevent them from using dry wall voids and attic spaces for overwintering. Sealing exterior gaps in window frames and soffits before mid-September is the effective prevention timing for the Seattle metro area including Federal Way.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Tacoma", slug: "tacoma" },
+      { name: "Renton", slug: "renton" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Federal Way, WA | Carpenter Ants, Mice & Yellow Jackets",
+    metaDescription:
+      "Federal Way pest control for carpenter ants, house mice, yellow jackets, Norway rats and stink bugs. King County Puget Sound south Seattle metro Washington specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "auburn-wa",
+    name: "Auburn",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3" as const,
+    population: "~84,000",
+    county: "King County",
+    climate: "temperate" as const,
+    climateDriver:
+      "Pacific Northwest maritime climate in the Green River valley, with mild wet winters, warm dry summers, and valley-floor humidity that sustains carpenter ant and moisture pest activity throughout the year",
+    topPests: [
+      "carpenter ants",
+      "house mice",
+      "yellow jackets",
+      "Norway rats",
+      "stink bugs",
+    ],
+    pestProfile: [
+      {
+        name: "carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September peak",
+        note: "WSU Extension identifies carpenter ants as the primary wood-destroying insect pest in western Washington. Auburn's Green River valley position with elevated moisture creates ideal conditions for carpenter ant activity in both landscape trees and older structures.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "WSU Extension confirms fall mouse pressure throughout King County. Auburn's residential housing carries foundation and utility penetration conditions that provide mice entry during the fall and winter months.",
+      },
+      {
+        name: "yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October peak",
+        note: "Yellow jackets build ground and wall void nests in Auburn's residential areas through summer, with the Green River Gorge corridor sustaining large populations that extend into adjacent neighborhoods.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are sustained by Auburn's Green River valley industrial and commercial corridor. Properties near the valley floor and logistics operations see above-average rat pressure year-round.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "WSU Extension documents brown marmorated stink bug establishment in King County. Auburn sees the same annual fall aggregation on building exteriors seeking overwintering sites as the rest of the Seattle metro.",
+      },
+    ],
+    localHook:
+      "Auburn is a Green River valley city in King County between Seattle and Tacoma. The Green River corridor creates consistent moisture conditions that sustain carpenter ant and Norway rat activity at above-average levels for the region. Auburn's mix of older residential neighborhoods, industrial facilities, and the Green River Gorge State Park corridor to the southeast creates a diverse pest environment.",
+    intro:
+      "Auburn's position in the Green River valley creates pest conditions shaped by the river corridor's persistent moisture and the valley's combination of industrial, residential, and natural areas. Carpenter ants are the primary structural pest concern, as they are throughout western Washington, and the Green River's moisture keeps wood conditions favorable for them year-round. Norway rats are present in Auburn's older commercial and industrial areas near the valley floor. House mice and yellow jackets are seasonal concerns, and brown marmorated stink bugs are established in King County.",
+    sections: [
+      {
+        heading: "Carpenter Ants in the Green River Valley",
+        body: "Auburn's Green River valley position keeps humidity elevated throughout the year compared to higher-elevation areas, and the combination of wet Pacific Northwest winters and valley-floor moisture creates ideal conditions for carpenter ants. WSU Extension confirms carpenter ants as the primary wood-destroying insect pest in western Washington. Properties in Auburn's older residential neighborhoods, where aging weatherproofing and mature landscape trees create both harborage and foraging opportunities, see the most consistent pressure. A professional inspection that identifies moisture entry points in the structure alongside ant activity provides the foundation for effective long-term management.",
+      },
+      {
+        heading: "Norway Rats in Auburn's Industrial and River Corridor",
+        body: "Auburn's Green River valley floor includes a significant industrial and warehouse corridor where Norway rats are sustained by commercial activity, waste sources, and the river itself. Rat populations in the industrial areas extend into adjacent residential neighborhoods, particularly older residential areas near the valley floor. Exterior bait station programs and exclusion work at the foundation level are the standard management approach. Properties near the Green River and the industrial corridor on the valley floor benefit from year-round exterior bait station programs rather than seasonal treatment alone.",
+      },
+      {
+        heading: "Yellow Jackets, Stink Bugs, and House Mice",
+        body: "Yellow jackets build ground and wall void nests in Auburn's residential neighborhoods through the summer, reaching peak colony size in August and September. The Green River Gorge corridor to the southeast sustains large yellow jacket populations that extend into adjacent residential areas. Brown marmorated stink bugs are established in King County and Auburn, arriving on building faces in fall to seek overwintering sites. Sealing exterior gaps before mid-September reduces entry. House mice push through foundation gaps and door sweeps from October through March in western Washington's mild but damp autumn and winter.",
+      },
+    ],
+    prevention: [
+      "Address moisture sources in the structure to remove carpenter ant harborage conditions in Auburn's wet Green River valley climate",
+      "Seal foundation gaps, door sweeps, and utility penetrations before October to address mouse entry timing in western Washington",
+      "Maintain year-round exterior bait stations for Norway rats in properties near the Green River industrial corridor",
+      "Seal exterior gaps in siding and window frames in late August before stink bugs begin their fall aggregation",
+      "Inspect ground cover areas and lawn edges in June for yellow jacket ground nest activity near the Green River corridor",
+    ],
+    costNote:
+      "Quarterly pest control programs in Auburn covering carpenter ants, mice, and exterior monitoring run $85 to $140 per visit. Norway rat programs in the industrial corridor include year-round exterior bait station service. Carpenter ant treatment may include a moisture assessment as part of the inspection process.",
+    faqs: [
+      {
+        question:
+          "Does Auburn's Green River valley position make carpenter ants worse than in other King County cities?",
+        answer:
+          "The valley floor's elevated moisture does create conditions somewhat more favorable for carpenter ants than higher-elevation Eastside suburbs. The combination of Pacific Northwest rain and valley humidity keeps wood moisture content elevated, which is the primary driver of carpenter ant activity. For older residential properties in Auburn's valley neighborhoods, addressing moisture sources at the structure is as important as treating the ants themselves. WSU Extension identifies moisture management as the key to long-term carpenter ant control in western Washington.",
+      },
+      {
+        question:
+          "Why are Norway rats more of a concern in Auburn than in some other South King County cities?",
+        answer:
+          "Auburn's Green River valley position includes a significant industrial and warehouse corridor where commercial activity, loading docks, and the river corridor sustain Norway rat populations. This commercial-to-residential interface creates above-average rat pressure compared to more fully residential South King County cities. Properties adjacent to the industrial areas on the valley floor or near the Green River itself see higher Norway rat pressure than Auburn's residential neighborhoods farther from the valley floor. Exterior bait station programs at the property perimeter are the effective approach for properties in the at-risk corridor.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Tacoma", slug: "tacoma" },
+      { name: "Renton", slug: "renton" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Auburn, WA | Carpenter Ants, Mice & Norway Rats",
+    metaDescription:
+      "Auburn WA pest control for carpenter ants, house mice, yellow jackets, Norway rats and stink bugs. King County Green River valley south Seattle metro Washington specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

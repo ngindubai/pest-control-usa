@@ -1544,4 +1544,499 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Alpharetta pest control for fire ants, subterranean termites, mosquitoes, German cockroaches and yellow jackets. Fulton County Big Creek Technology City north Atlanta Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "valdosta",
+    name: "Valdosta",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~57,000",
+    county: "Lowndes County",
+    climate: "hot-humid",
+    climateDriver:
+      "Valdosta sits in the Coastal Plain of deep south Georgia, roughly 15 miles from the Florida border, with a subtropical climate that delivers mild winters and long, humid summers. That near-Florida location means fire ant colonies survive year-round with no true dormancy, subterranean termites forage continuously, and mosquito season stretches from March through November.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "American Cockroaches", "Pharaoh Ants"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through November",
+        note: "UGA Extension confirms red imported fire ants are established throughout Lowndes County with no meaningful winter dormancy given Valdosta's mild subtropical temperatures. Mounds rebuild rapidly in the sandy coastal plain soils after each rain.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round underground, swarms February through April",
+        note: "Valdosta's mild winters keep soil temperatures above the threshold for year-round termite foraging. UGA Extension documents eastern subterranean termites throughout Lowndes County at high pressure levels, and there is no natural winter break in colony feeding activity here.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Withlacoochee River corridor and drainage ditches throughout Lowndes County provide consistent breeding habitat. Valdosta's proximity to the Florida border gives the city an earlier spring mosquito season and a longer fall season than north Georgia cities experience.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round outdoors, surge indoors in summer",
+        note: "American cockroaches live in Valdosta's storm drains, mulch, and under concrete year-round. They push indoors through foundation gaps during summer heat. UGA Extension notes they are a standard part of south Georgia's warm, humid pest environment.",
+      },
+      {
+        name: "Pharaoh ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round indoors",
+        note: "Pharaoh ants are an indoor pest in Valdosta's multi-family housing, restaurants, and commercial spaces. UGA Extension identifies them as a significant pest in Georgia's coastal plain region. They require slow-acting bait, not perimeter spray, for control.",
+      },
+    ],
+    localHook:
+      "Valdosta's location 15 miles from the Florida state line makes it one of the warmest, most continuously active pest environments in Georgia. Fire ant colonies survive every winter without true dormancy, subterranean termites forage year-round, and mosquito season runs roughly two months longer here than in Atlanta.",
+    intro:
+      "Pest management in Valdosta runs on a different calendar than most of Georgia because the city's subtropical climate delivers a longer active season for nearly every pest. Fire ants are active year-round in Lowndes County's sandy coastal plain soils, subterranean termites forage without winter interruption, and mosquitoes begin their season in March, not May. UGA Extension confirms Lowndes County falls in one of Georgia's highest fire ant pressure zones.\n\nAmerican cockroaches are a standard outdoor pest in this environment, living in storm drains and mulch and pushing inside through foundation gaps in summer heat. German cockroaches are a consistent concern in the commercial corridors along US-41 and on the Valdosta State University campus. The Withlacoochee River corridor adds standing water breeding habitat for mosquitoes through the long warm season.\n\nFor Valdosta homeowners, an annual termite inspection and a year-round fire ant management program are the practical baseline. The mild winters that make Valdosta comfortable also mean pest pressure never fully resets between seasons.",
+    sections: [
+      {
+        heading: "Why Valdosta termites never take a winter break",
+        body: "In northern Georgia, subterranean termite colonies slow significantly in winter as soil temperatures drop. In Valdosta, they do not stop. Lowndes County's mild winters keep soil temperatures above the threshold for continuous foraging, which means an unprotected foundation faces termite pressure every month of the year. UGA Extension confirms eastern subterranean termites are active across south Georgia at persistently high levels. The sandy coastal plain soils drain quickly and conduct heat efficiently, supporting deep colony tunneling close to structures. For Valdosta homeowners, the annual inspection window is not just a spring precaution; it is a year-round management requirement. Properties with crawl spaces, any wood near soil contact, or no documented treatment history carry the highest exposure. Liquid soil barriers and bait monitoring systems are both effective options in the local soil conditions. An active protection program is more economical than remediation after structural damage is found.",
+      },
+      {
+        heading: "Fire ant management in Lowndes County's year-round pressure",
+        body: "Red imported fire ants are endemic across Lowndes County, and Valdosta's climate removes the natural winter reset that slows colonies in north Georgia cities. Colonies that establish in early spring survive the winter in a reduced state and rebuild aggressively when temperatures rise. UGA Extension recommends a two-application annual bait program, once in early spring and once in fall, as the most effective approach for south Georgia's high-pressure fire ant environment. Individual mound treatment is less effective when background colony pressure is high across the yard, because treating visible mounds does not address the satellite and underground colonies generating new mounds through the season. Broadcast bait reduces colony density across the full property. For Valdosta properties near open fields or natural areas, the background pressure is higher and the twice-yearly program is especially important.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections year-round, since Lowndes County's mild winters allow subterranean termites to forage without seasonal break.",
+      "Apply broadcast fire ant bait in early spring and fall per UGA Extension's two-application recommendation for sustained control in south Georgia.",
+      "Seal foundation gaps, plumbing penetrations, and door frames before summer to reduce American cockroach entry during peak heat.",
+      "Eliminate standing water from March through November to reduce mosquito breeding during Valdosta's extended warm season.",
+    ],
+    costNote:
+      "Pest control in Valdosta is typically a quarterly general pest program covering fire ants, cockroaches, and common indoor insects, with termite protection quoted separately. Mosquito barrier spray from March through October is practical for properties near the Withlacoochee River corridor. A free inspection establishes current activity.",
+    faqs: [
+      {
+        question: "Do fire ants go dormant in Valdosta winters?",
+        answer:
+          "Not meaningfully. Valdosta's near-Florida location gives it milder winters than north Georgia cities, and fire ant colonies survive without true dormancy. Colonies reduce activity when temperatures drop below about 50 degrees, but Lowndes County rarely sees prolonged cold at that level. UGA Extension recommends a twice-yearly broadcast bait program for sustained control in south Georgia's high-pressure environment.",
+      },
+      {
+        question: "How active are termites year-round in Valdosta?",
+        answer:
+          "Subterranean termites in Lowndes County forage year-round because soil temperatures stay above the foraging threshold throughout winter. Unlike north Georgia, where cold winters slow termite activity, Valdosta's mild winters provide no seasonal break. UGA Extension confirms eastern subterranean termites are active at high pressure levels throughout south Georgia. Annual professional inspections and an active soil barrier or monitoring system are the standard protection for Valdosta homes.",
+      },
+      {
+        question: "How long is mosquito season in Valdosta compared to the rest of Georgia?",
+        answer:
+          "Roughly two months longer than in Atlanta. Valdosta's season typically runs from early March through late November, while Atlanta's active season is closer to May through October. The Withlacoochee River corridor and the drainage system throughout Lowndes County sustain breeding habitat through that extended period. Monthly barrier spray from March through October provides consistent protection.",
+      },
+      {
+        question: "Are American cockroaches a sign of a dirty home in Valdosta?",
+        answer:
+          "No. American cockroaches (palmetto bugs) live primarily outdoors in drainage systems, mulch, and under concrete and enter homes through foundation gaps during summer heat. They are a normal part of the south Georgia environment. Their presence does not indicate sanitation issues. Perimeter treatment and sealing ground-level entry points are the effective management approach.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Albany", slug: "albany" },
+      { name: "Tallahassee", slug: "tallahassee" },
+      { name: "Warner Robins", slug: "warner-robins" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Valdosta, GA | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Valdosta pest control for fire ants, subterranean termites, mosquitoes, American cockroaches and Pharaoh ants. Lowndes County south Georgia near-Florida subtropical specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "smyrna",
+    name: "Smyrna",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~56,000",
+    county: "Cobb County",
+    climate: "hot-humid",
+    climateDriver:
+      "Smyrna is a densely developed Cobb County suburb northwest of Atlanta, adjacent to Truist Park and the Battery Atlanta mixed-use development. The Atlanta metro hot-humid climate drives the same fire ant, termite, and mosquito pressure found across the north metro, while Smyrna's Silver Comet Trail and Cobb County park system add green corridors that sustain higher wildlife pest activity close to residential neighborhoods.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "Norway Rats", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak activity March through October",
+        note: "UGA Extension confirms fire ants are endemic throughout Cobb County. Smyrna's mix of residential lawns and park corridors gives fire ant colonies abundant territory, and mounds rebuild quickly in the managed turf around the Battery Atlanta development and residential HOA areas.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms spring",
+        note: "UGA Extension places Cobb County in the high termite pressure zone for Georgia. Smyrna's older residential areas in Camp Highland and Belmont Hills carry real exposure in housing stock built before current pre-treatment standards.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Silver Comet Trail corridor, Nickajack Creek, and the various retention ponds throughout Smyrna's residential developments create consistent mosquito breeding habitat. West Nile virus is monitored in Cobb County by the health department.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, push indoors fall",
+        note: "Norway rats are documented in Smyrna along the commercial corridors and near restaurant and retail areas around the Battery Atlanta development. The Silver Comet Trail and park green corridors provide outdoor harborage adjacent to residential neighborhoods.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The concentration of restaurants, sports venues, and commercial food service around Truist Park and the Battery Atlanta creates ongoing German cockroach pressure in the surrounding commercial and residential areas.",
+      },
+    ],
+    localHook:
+      "Smyrna's proximity to Truist Park and the Battery Atlanta development means the city has a concentration of food service, retail, and entertainment venues that creates a specific pest environment around the ballpark corridor. The Silver Comet Trail, which runs through Smyrna, adds green connectivity that sustains rats and wildlife pressure close to residential streets.",
+    intro:
+      "Pest control in Smyrna carries the full Atlanta metro pest calendar, with some site-specific factors that set the city apart from other Cobb County suburbs. Fire ants and subterranean termites are year-round baseline pests throughout the warm, humid climate. UGA Extension confirms Cobb County is in the high termite pressure zone for Georgia, and Smyrna's older residential areas in neighborhoods like Camp Highland and Belmont Hills carry documented exposure in housing built before modern pre-treatment standards.\n\nThe Battery Atlanta mixed-use development and Truist Park create a concentration of food service and retail that sustains German cockroach and Norway rat populations in the surrounding commercial and transitional residential areas. The Silver Comet Trail corridor and Nickajack Creek provide mosquito breeding habitat and green connectivity that brings rats and wildlife closer to residential properties than in more uniformly developed suburbs. West Nile virus is actively monitored in Cobb County.\n\nFor Smyrna homeowners, the combination of older residential housing stock and proximity to the commercial-entertainment corridor creates a pest environment worth managing proactively. A professional inspection identifies what is active at a specific address.",
+    sections: [
+      {
+        heading: "Termite exposure in Smyrna's older Cobb County neighborhoods",
+        body: "Smyrna's residential character spans from postwar neighborhoods built in the 1950s and 1960s to newer infill development adjacent to the Battery Atlanta corridor. The older residential areas carry real termite exposure: UGA Extension places Cobb County in Georgia's high termite pressure zone, and homes built before the 1990s often predate the soil pre-treatment practices now standard in new construction. For Smyrna properties in established neighborhoods with crawl spaces, pier foundations, or any wood near soil contact, an annual professional inspection is a practical baseline. Liquid soil barriers provide renewed protection for homes where original treatments have degraded. Bait monitoring systems provide ongoing detection and colony elimination for properties that prefer a lower-chemical approach. Either option is significantly less expensive than structural remediation after termite damage accumulates undetected.",
+      },
+      {
+        heading: "Norway rats and the Battery Atlanta corridor",
+        body: "The Battery Atlanta, with its concentration of restaurants, retail, and year-round event traffic, creates food and harborage conditions that sustain Norway rat populations in the surrounding area. Rats documented near commercial food service corridors in Smyrna press outward into adjacent residential neighborhoods, particularly where compost bins, unsecured trash, and landscape mulch provide outdoor harborage close to structures. The Silver Comet Trail adds a green corridor that gives rats protected travel routes between the wooded areas and the residential streets alongside it. For Smyrna homeowners in the blocks adjacent to the commercial corridor and trail system, securing trash receptacles, removing landscape debris from foundation areas, and sealing garage doors and foundation gaps are the practical first steps before any professional program. A professional inspection that includes checking under decks, in crawl spaces, and along foundation lines establishes whether rats are actively using the structure.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for older Smyrna homes in Camp Highland and Belmont Hills given Cobb County's high termite pressure zone classification.",
+      "Apply fire ant broadcast bait in spring and fall per UGA Extension recommendations for metro Atlanta's year-round fire ant environment.",
+      "Secure outdoor trash, remove compost and landscape debris from foundation areas to reduce Norway rat harborage near the Battery Atlanta corridor.",
+      "Schedule mosquito barrier spray from April through October for properties adjacent to the Silver Comet Trail corridor or Nickajack Creek.",
+    ],
+    costNote:
+      "Smyrna pest control is typically a quarterly exterior program covering fire ants, cockroaches, and rodent prevention, with termite protection and mosquito programs quoted separately. Properties adjacent to the Battery Atlanta commercial corridor may benefit from more frequent rodent management visits. A free inspection establishes current activity.",
+    faqs: [
+      {
+        question: "How does Truist Park affect pest pressure in nearby Smyrna neighborhoods?",
+        answer:
+          "The Battery Atlanta development's concentration of restaurants and food service creates German cockroach and Norway rat populations in the surrounding commercial zone. Those pressures can extend into adjacent residential areas, particularly in blocks where outdoor dining waste and commercial trash management is imperfect. The trails and green corridors adjacent to residential streets also provide rat travel routes. Homes within several blocks of the commercial corridor benefit from more frequent perimeter monitoring.",
+      },
+      {
+        question: "Are fire ants active year-round in Cobb County?",
+        answer:
+          "Yes. Georgia's subtropical climate means fire ant colonies survive winter and remain active at reduced levels even in the coldest months. Smyrna's location in the Atlanta metro means fire ant pressure is consistent from March through November, with some winter activity in mild years. UGA Extension recommends two broadcast bait applications per year, in spring and fall, for sustained control.",
+      },
+      {
+        question: "Is the Silver Comet Trail a mosquito source for nearby Smyrna homes?",
+        answer:
+          "The trail corridor itself is less a breeding source than an access corridor for wildlife and a collection point for leaf litter that holds moisture. The retention ponds and natural drainage areas along Nickajack Creek adjacent to the trail are more significant breeding sites. For properties backing onto the trail or creek corridor, monthly barrier spray from April through October provides the most practical protection.",
+      },
+      {
+        question: "Do new homes near the Battery Atlanta still need termite protection?",
+        answer:
+          "Yes. New construction in Cobb County receives a required soil pre-treatment, but that protection diminishes over time. UGA Extension confirms high termite pressure throughout the county. Annual inspections after the initial coverage period and a long-term prevention agreement are worth considering given the documented pressure in Georgia's Piedmont zone.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Marietta", slug: "marietta" },
+      { name: "Roswell", slug: "roswell" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Smyrna, GA | Fire Ants, Termites & Norway Rats",
+    metaDescription:
+      "Smyrna pest control for fire ants, subterranean termites, Norway rats, mosquitoes and German cockroaches. Cobb County Battery Atlanta Silver Comet Trail Atlanta suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "dunwoody",
+    name: "Dunwoody",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~51,000",
+    county: "DeKalb County",
+    climate: "hot-humid",
+    climateDriver:
+      "Dunwoody is an affluent DeKalb County suburb at the Perimeter Center business district, with a hot, humid Atlanta metro climate. The city's large wooded residential lots, multiple park corridors including the Nancy Creek greenway, and proximity to the Chattahoochee River to the north create high wildlife pest pressure and elevated mosquito and tick exposure compared to more densely developed Atlanta suburbs.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "Deer Ticks", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "UGA Extension confirms fire ants are endemic throughout DeKalb County. Dunwoody's large residential lots with maintained turf and landscape beds provide extensive fire ant territory, and mounds are a consistent yard management concern from March through November.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms spring",
+        note: "UGA Extension places DeKalb County in Georgia's high termite pressure zone. Dunwoody's established neighborhoods, some with homes dating to the 1960s and 1970s, carry real exposure in properties with crawl spaces or wood near soil.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Nancy Creek greenway, North Fork Peachtree Creek, and the wooded lot edges common in Dunwoody's residential landscape create consistent mosquito breeding habitat from April through October. West Nile virus is monitored in DeKalb County.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active year-round in Georgia's mild climate, peak fall through spring",
+        note: "Deer ticks are documented in Dunwoody's wooded residential corridors and park trails. UGA Extension confirms Georgia's mild winters keep ticks active year-round, not just in warm months. The city's large wooded lots and the Nancy Creek trail system provide tick habitat adjacent to homes.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through October, overwinter in structures",
+        note: "Stink bugs are established in the Atlanta metro including DeKalb County per UGA Extension. They aggregate on south and west building faces in September before entering wall voids and attic spaces. Dunwoody's older homes with more exterior gap opportunities see higher entry rates.",
+      },
+    ],
+    localHook:
+      "Dunwoody's large wooded residential lots and the Nancy Creek greenway corridor create a pest environment closer to the rural-suburban fringe than its Perimeter Center location suggests. Deer ticks active year-round in the trail system, mosquitoes from the creek drainage, and stink bugs in fall make Dunwoody's outdoor pest exposure more like a woodland suburb than a typical DeKalb County neighborhood.",
+    intro:
+      "Pest control in Dunwoody combines the standard Atlanta metro pest calendar with the elevated wildlife and tick pressure that comes from a city built around large wooded residential lots and multiple creek corridors. Fire ants and subterranean termites are year-round baseline concerns throughout DeKalb County, with UGA Extension placing the county in Georgia's high termite pressure zone. The Nancy Creek greenway and North Fork Peachtree Creek drainage system add mosquito breeding habitat and year-round deer tick exposure that other Atlanta suburbs with less green infrastructure do not experience at the same level.\n\nStink bugs are established in the Atlanta metro per UGA Extension, and Dunwoody's older homes in established neighborhoods like Dunwoody Village and the areas east of Chamblee Dunwoody Road have the exterior gaps that allow stink bugs to enter wall voids in fall. German cockroaches are a consistent commercial concern in the Perimeter Mall corridor. Norway rats are documented along the creek greenways.\n\nFor Dunwoody homeowners, the combination of older housing and wooded lot edges creates a pest environment worth managing systematically rather than reactively.",
+    sections: [
+      {
+        heading: "Deer ticks in Dunwoody's wooded residential landscape",
+        body: "Dunwoody's appeal as a residential city comes partly from its wooded character and extensive tree canopy in established neighborhoods. That same wooded character sustains deer tick populations in the leaf litter and tall grass along property edges and the Nancy Creek trail system. UGA Extension confirms deer ticks are active year-round in Georgia's mild climate, which is a meaningful difference from northern states where ticks go dormant in winter. For Dunwoody families using the trail system or spending time in yard edges adjacent to wooded areas, tick checks after outdoor activity are a year-round habit rather than a seasonal precaution. Professional yard perimeter treatment targeting leaf litter and brush at the yard edge, plus reducing deer attractants that bring tick hosts into the yard, provide the most effective property-level management. Pets in tick habitat should be on veterinarian-recommended tick prevention year-round.",
+      },
+      {
+        heading: "Stink bug fall invasions in Dunwoody's established homes",
+        body: "Brown marmorated stink bugs have become an annual fall fixture in Dunwoody. They aggregate on south and west-facing exterior walls in September and October and work into attic voids, wall cavities, and crawl spaces through any available gap. Dunwoody's older housing stock, particularly homes in the Dunwoody Village area and along Mount Vernon Road, has more exterior gaps than newer construction, and the city's many mature trees shade the exterior surfaces where stink bugs gather. The effective prevention window is August through early September, before aggregations form. Sealing gaps around window frames, utility penetrations, soffit corners, and exterior cable entry points before the bugs arrive is far more effective than attempting to block entry once aggregations are on the walls. A perimeter spray applied to the south and west faces in September reduces the number that successfully enter. Once they are inside wall voids, vacuuming as they emerge is the practical management approach through winter.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for Dunwoody's older homes in Dunwoody Village and adjacent established neighborhoods given DeKalb County's high termite pressure zone.",
+      "Apply fire ant broadcast bait in spring and fall per UGA Extension's two-application schedule for Atlanta metro year-round fire ant management.",
+      "Seal exterior gaps around windows, soffits, and utility penetrations in August before stink bugs begin fall aggregation on DeKalb County buildings.",
+      "Use veterinarian-recommended tick prevention for pets year-round and perform tick checks after outdoor activity in the Nancy Creek greenway or wooded yard edges.",
+    ],
+    costNote:
+      "Dunwoody pest control is typically a quarterly exterior program covering fire ants, cockroaches, and rodent prevention, with termite, mosquito, and tick programs priced separately. Trail-adjacent properties may benefit from monthly tick treatment from April through October. A free inspection establishes current pest activity.",
+    faqs: [
+      {
+        question: "Are deer ticks in Dunwoody active year-round?",
+        answer:
+          "Yes. UGA Extension confirms Georgia's mild winters keep deer ticks active year-round rather than going dormant as they do in northern states. The Nancy Creek greenway and the wooded lot edges throughout Dunwoody's residential landscape provide consistent tick habitat adjacent to homes and families. Year-round tick prevention for pets and post-activity tick checks are the practical precautions for Dunwoody residents who use the trail system.",
+      },
+      {
+        question: "Why do stink bugs invade Dunwoody homes every fall?",
+        answer:
+          "Stink bugs aggregate on south and west-facing building exteriors in September and October looking for overwintering sites in wall voids and attic spaces. UGA Extension confirms brown marmorated stink bugs are established in the Atlanta metro including DeKalb County. Dunwoody's older homes in established neighborhoods have more exterior gaps than newer construction, giving stink bugs more entry opportunities. Sealing those gaps in August, before the aggregations form, is the most effective preventive step.",
+      },
+      {
+        question: "Is termite protection important for newer Dunwoody homes?",
+        answer:
+          "Yes. New construction in DeKalb County receives soil pre-treatment, but those barriers degrade over time. UGA Extension places DeKalb County in Georgia's high termite pressure zone. Annual inspections after the initial coverage period and a long-term prevention agreement are worth considering. Dunwoody's older established neighborhoods have homes where original treatments have long since degraded.",
+      },
+      {
+        question: "How does the Nancy Creek corridor affect mosquito pressure in Dunwoody?",
+        answer:
+          "Nancy Creek and North Fork Peachtree Creek create drainage corridors that hold standing water after rain and support mosquito breeding from April through October. Properties backing onto these corridors see earlier spring mosquito activity and higher peak season pressure than those in the interior of Dunwoody neighborhoods. Monthly barrier spray to yard vegetation from April through October provides practical protection for creek-adjacent properties. West Nile virus is monitored in DeKalb County.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Sandy Springs", slug: "sandy-springs" },
+      { name: "Alpharetta", slug: "alpharetta" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Dunwoody, GA | Termites, Deer Ticks & Fire Ants",
+    metaDescription:
+      "Dunwoody pest control for subterranean termites, deer ticks, fire ants, mosquitoes and stink bugs. DeKalb County Perimeter Center Nancy Creek wooded Atlanta suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "gainesville-ga",
+    name: "Gainesville",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~44,000",
+    county: "Hall County",
+    climate: "hot-humid",
+    climateDriver:
+      "Gainesville sits at the southern edge of the Appalachian foothills in Hall County, at the headwaters of Lake Lanier. The elevated terrain is somewhat cooler and drier than the Atlanta Piedmont lowlands, but the city's hot-humid summers, abundant shoreline habitat, and the extensive lake and river system create significant mosquito and aquatic pest pressure that the surrounding mountains alone would not produce.",
+    topPests: ["Mosquitoes", "Fire Ants", "Subterranean Termites", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Lake Lanier's 692 miles of shoreline and the numerous creeks feeding it from Hall County's Appalachian foothills create extensive mosquito breeding habitat directly adjacent to residential and recreational areas. Georgia DNR monitors for mosquito-borne illness in the Lake Lanier corridor each season.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "UGA Extension confirms fire ants are established in Hall County's Piedmont-foothills transition zone. They are somewhat less aggressive here than in deep south Georgia, but active from March through November with mounds common in turf and disturbed ground throughout Gainesville neighborhoods.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active spring through fall, swarms in spring",
+        note: "UGA Extension confirms eastern subterranean termites are active in Hall County. The foothills elevation slows activity somewhat in winter compared to Atlanta, but annual inspection is warranted for any Gainesville home with a crawl space or wood near soil.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through October",
+        note: "Stink bugs are established in northeast Georgia per UGA Extension. Gainesville's position in the Appalachian foothills means it sees earlier and heavier fall aggregations than the Atlanta Piedmont lowlands, as stink bugs move downhill from the mountains in September.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, active indoors year-round in heated structures",
+        note: "Carpenter ants are more prevalent in Gainesville's foothills environment than in lowland Georgia cities. The moisture and wood conditions in properties adjacent to wooded lake lots and creek drainage create the damp wood conditions carpenter ants need for nesting.",
+      },
+    ],
+    localHook:
+      "Gainesville is positioned at the headwaters of Lake Lanier, and the lake's 692 miles of shoreline create mosquito breeding habitat on a scale that few inland Georgia cities deal with. Properties near the lake shore experience extended, intense mosquito seasons that are the defining pest management challenge for Hall County's lakefront communities.",
+    intro:
+      "Pest control in Gainesville is shaped by two forces that make this city different from the Atlanta lowland suburbs: the Appalachian foothills elevation and Lake Lanier. The foothills position moderates some of the intense lowland heat that drives pest activity in Atlanta, but Lake Lanier's enormous shoreline creates mosquito breeding habitat on a scale that makes the lake corridor one of the more demanding mosquito management environments in northeast Georgia. Georgia DNR monitors for mosquito-borne illness in the lake region each season.\n\nFire ants are established throughout Hall County per UGA Extension, and subterranean termites are present and active through the spring and fall season, though somewhat slower in winter than in Atlanta. Stink bugs are established in northeast Georgia and Gainesville sees fall aggregations that move downslope from the Appalachian terrain in September. Carpenter ants are a meaningful structural concern in homes with wooded lake lots and damp wood conditions at foundation edges.\n\nFor Gainesville homeowners, especially those on or near Lake Lanier, mosquito management and annual termite inspection are the practical starting points.",
+    sections: [
+      {
+        heading: "Lake Lanier and Gainesville's mosquito season",
+        body: "Lake Lanier is the dominant mosquito factor in Hall County. The reservoir's 692 miles of shoreline and the dozens of creeks and coves feeding into it from the surrounding foothills create a breeding environment that sustains mosquito populations well beyond what the residential landscape alone would support. Properties within a quarter mile of the lake shore or its tributary creeks see measurably earlier spring activity, higher peak season pressure, and later fall activity than Gainesville's interior neighborhoods. Georgia DNR monitors for West Nile virus and other mosquito-borne illness in the Lake Lanier region. Professional barrier spray programs targeting resting adults in yard vegetation from April through October provide the most practical protection for lakefront and creek-adjacent properties. Eliminating standing water on the property, including in gutters, yard containers, and boat covers, reduces on-site breeding.",
+      },
+      {
+        heading: "Carpenter ants in Gainesville's wooded lake properties",
+        body: "Carpenter ants are a structural concern in Gainesville's wooded residential and lake lot properties in a way they are not in the open suburban neighborhoods of the Atlanta lowlands. The moisture conditions that sustain the foothills forest cover, combined with the humidity from Lake Lanier, create the damp wood environments that carpenter ants prefer for nesting. Homes with wood decks, dock structures, or any wood near the lake shore or creek edge are at elevated risk. Unlike subterranean termites, which are entirely soil-dependent, carpenter ants nest in the wood itself, particularly wood softened by moisture at roof penetrations, sill plates, window sills, and deck framing. A spring professional inspection that includes probing wood surfaces at the foundation perimeter and crawl space is the best early detection approach. Finding and eliminating the moisture source is as important as treating the ants, since the moisture problem that enabled nesting will attract other carpenter ant colonies if left unaddressed.",
+      },
+    ],
+    prevention: [
+      "Schedule monthly mosquito barrier spray from April through October for Lake Lanier shoreline and creek-adjacent properties in Hall County.",
+      "Apply fire ant broadcast bait in spring and fall for year-round management in Hall County's established fire ant territory.",
+      "Inspect deck wood, dock structures, and any wood near the lake shore each spring for carpenter ant trails indicating moisture-damaged nesting wood.",
+      "Schedule annual termite inspections for Gainesville homes with crawl spaces given documented Hall County subterranean termite pressure.",
+    ],
+    costNote:
+      "Gainesville pest control typically includes a quarterly exterior program plus seasonal mosquito treatment for lakefront properties. Termite inspections are offered at no charge with treatment options quoted afterward. Carpenter ant inspections that include a structural moisture assessment are worth scheduling for any Lake Lanier-adjacent property before purchase.",
+    faqs: [
+      {
+        question: "Why is mosquito control a bigger deal in Gainesville than in other northeast Georgia cities?",
+        answer:
+          "Lake Lanier. The reservoir's 692 miles of shoreline and the coves and tributary creeks feeding it create mosquito breeding habitat on a scale that a typical inland city without a large body of water does not experience. Georgia DNR monitors for West Nile virus in the lake corridor each season. Lakefront and creek-adjacent properties in Hall County see significantly heavier pressure than interior residential areas.",
+      },
+      {
+        question: "Do carpenter ants cause structural damage in Gainesville homes?",
+        answer:
+          "Yes, in homes with moisture-affected wood. Carpenter ants do not eat wood the way termites do, but they excavate galleries in wood softened by moisture for nesting. In Gainesville's wooded, lake-adjacent properties where deck structures, dock wood, and foundation-area wood is exposed to consistent humidity and moisture, the nesting damage accumulates. Finding and correcting the moisture source is essential alongside any ant treatment.",
+      },
+      {
+        question: "Are stink bugs worse in Gainesville than in Atlanta?",
+        answer:
+          "Often yes, especially in early fall. Gainesville's position in the Appalachian foothills means stink bugs that move downslope from the mountains in September arrive in the Gainesville area before they reach the Atlanta lowlands. Fall aggregations on south and west building faces can be substantial in Hall County's foothills communities. Sealing exterior gaps in August is the most effective preventive step.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Athens", slug: "athens" },
+      { name: "Alpharetta", slug: "alpharetta" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Gainesville, GA | Mosquitoes, Fire Ants & Termites",
+    metaDescription:
+      "Gainesville GA pest control for mosquitoes, fire ants, subterranean termites, carpenter ants and stink bugs. Hall County Lake Lanier Appalachian foothills northeast Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "rome-ga",
+    name: "Rome",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~36,000",
+    county: "Floyd County",
+    climate: "hot-humid",
+    climateDriver:
+      "Rome sits at the confluence of the Etowah and Oostanaula Rivers, where they form the Coosa River in northwest Georgia. The river confluence location creates abundant standing water and flood-prone terrain that sustains mosquito breeding habitat through the long warm season, while the surrounding ridge-and-valley Appalachian terrain adds wildlife corridors and wooded edges close to residential areas.",
+    topPests: ["Mosquitoes", "Fire Ants", "Subterranean Termites", "German Cockroaches", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Etowah and Oostanaula River confluence and the Coosa River floodplain create extensive mosquito breeding habitat throughout Rome's residential and park areas. Floyd County's river system sustains reliable seasonal pressure from April through October.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "UGA Extension confirms fire ants are established in northwest Georgia including Floyd County. Rome's river bottom soils and managed turf in residential neighborhoods provide fire ant territory, with mounds most active in spring and fall.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active spring through fall, swarms spring",
+        note: "UGA Extension confirms eastern subterranean termites are active in Floyd County. Rome's older downtown and residential housing stock, some dating to the 19th century, carries real termite exposure in properties with crawl spaces and original wood-frame construction.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a consistent pest in Rome's multi-family housing and commercial food service areas near the downtown corridor and the Shorter University and Berry College communities.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoors year-round",
+        note: "The moisture from Rome's river confluence location and the Appalachian ridge-and-valley terrain creates wood moisture conditions that sustain carpenter ant colonies in older homes near the river edge and the wooded residential areas west of downtown.",
+      },
+    ],
+    localHook:
+      "Rome sits at the confluence of the Etowah and Oostanaula Rivers, which merge here to form the Coosa River. That river confluence has shaped Rome's history and it shapes its pest environment: the floodplain mosquito habitat, the damp wood conditions for carpenter ants in historic properties near the river, and the wildlife corridors that run through the wooded ridges surrounding the city.",
+    intro:
+      "Pest control in Rome reflects the northwest Georgia ridge-and-valley environment that surrounds the city and the two rivers that define its geography. Mosquitoes from the Etowah-Oostanaula confluence and the Coosa River floodplain are the dominant seasonal pest from April through October. Fire ants are established throughout Floyd County per UGA Extension. Subterranean termites are active in Rome's older housing stock, particularly in the downtown and near-river neighborhoods where original construction methods predate modern pre-treatment standards.\n\nGerman cockroaches are a consistent commercial and multi-family concern in the areas near Shorter University and the downtown commercial corridor. Carpenter ants are a meaningful structural issue in homes near the river edge where the moisture from flooding and high groundwater levels creates the damp wood conditions they need. Berry College and the surrounding wooded campus area sustain wildlife pressure, including roof rats and squirrels, in nearby residential neighborhoods.\n\nA professional inspection identifies what is active at a specific address and what structural or site conditions are contributing to the pressure.",
+    sections: [
+      {
+        heading: "River confluence mosquitoes: what Rome's seasonal pressure looks like",
+        body: "Rome's location at the Etowah-Oostanaula confluence creates mosquito breeding conditions that most northwest Georgia cities do not experience. The floodplain areas along both rivers, the stormwater system that drains into the river corridor, and the retention and overflow areas created by the Coosa River's management infrastructure all provide standing water that sustains mosquito populations from the first warm weeks of April through October. Floyd County's ridge-and-valley terrain channels drainage toward the river bottom, concentrating breeding habitat in the zones that border Rome's residential and park areas. Professional barrier spray programs targeting resting adults in yard vegetation provide the most practical protection for properties within several blocks of the river corridor. Eliminating standing water in gutters, plant saucers, and yard containers reduces on-property breeding. The river-bottom habitat itself is outside individual homeowner control, which makes the property-level management the relevant intervention.",
+      },
+      {
+        heading: "Historic housing and termite exposure in Floyd County",
+        body: "Rome has a substantial stock of historic housing, including properties in the Myrtle Hill and Thornwood neighborhoods that date to the 19th and early 20th centuries. That older construction predates the soil pre-treatment practices now standard in Georgia new construction, and many of those properties have had gaps or lapses in termite protection programs over the decades. UGA Extension confirms eastern subterranean termites are active throughout Floyd County, and the river-adjacent areas of Rome have the moisture and soil conditions that support large established colonies close to structures. For Rome homeowners in historic neighborhoods, an annual professional inspection is a basic due-diligence step. Homes that cannot document recent professional treatment should be inspected before any purchase and before any major renovation that opens wall and floor cavities.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier spray from April through October for properties within several blocks of the Etowah or Coosa River in Floyd County.",
+      "Apply fire ant broadcast bait in spring and fall per UGA Extension recommendations for northwest Georgia's established fire ant territory.",
+      "Schedule annual termite inspections for Rome's historic downtown and near-river neighborhoods where older construction has the highest termite exposure.",
+      "Inspect wood around foundation sill plates, crawl spaces, and decks each spring for carpenter ant trails signaling moisture-affected structural wood.",
+    ],
+    costNote:
+      "Rome pest control typically starts with a quarterly exterior program for fire ants and cockroaches, with termite inspection and mosquito treatment quoted separately. Historic properties near the river corridor are worth an expanded structural inspection given the age of the construction and the moisture environment. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "How does Rome's river location affect mosquito season?",
+        answer:
+          "The Etowah and Oostanaula River confluence creates floodplain breeding habitat throughout Rome's residential areas that sustains mosquito pressure from April through October. Properties near the river edge experience heavier pressure than those on the ridges above the city. Floyd County's drainage pattern concentrates standing water in the river-bottom zones adjacent to residential development. Professional barrier spray at the property level provides practical management where regional treatment cannot reach.",
+      },
+      {
+        question: "Are older homes in historic Rome neighborhoods at high termite risk?",
+        answer:
+          "Yes. Rome's historic neighborhoods, including areas near downtown and along the river corridors, have housing stock that predates current soil pre-treatment standards. UGA Extension confirms eastern subterranean termites are active throughout Floyd County. Older properties with crawl spaces, original pier foundations, or any wood near soil contact carry documented termite exposure. An annual inspection is the appropriate minimum, and an active protection program is recommended for historic properties without recent documented treatment.",
+      },
+      {
+        question: "Are carpenter ants common in Rome compared to other Georgia cities?",
+        answer:
+          "More so than in drier interior Georgia cities. Rome's river confluence location creates higher soil moisture and more frequent flood events in low-lying areas, which creates the damp wood conditions carpenter ants prefer for nesting. Historic homes near the river edge with aging wood at foundation lines are particularly susceptible. Carpenter ant trails in spring often indicate moisture-affected structural wood worth investigating before damage accumulates.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Marietta", slug: "marietta" },
+      { name: "Columbus", slug: "columbus" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Rome, GA | Mosquitoes, Termites & Fire Ants",
+    metaDescription:
+      "Rome GA pest control for mosquitoes, subterranean termites, fire ants, German cockroaches and carpenter ants. Floyd County Coosa River confluence northwest Georgia Appalachian specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

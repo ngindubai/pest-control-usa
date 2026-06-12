@@ -887,4 +887,489 @@ export const tennesseeCities: CityLocation[] = [
     metaDescription:
       "Franklin pest control for subterranean termites, mosquitoes, fire ants, carpenter ants and German cockroaches. Williamson County Harpeth River middle Tennessee growth-corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "johnson-city",
+    name: "Johnson City",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~72,000",
+    county: "Washington County",
+    climate: "temperate",
+    climateDriver:
+      "Johnson City sits in the Appalachian valley system of Washington County in northeast Tennessee's Tri-Cities area, at an elevation that produces cooler temperatures than lowland Tennessee. The Appalachian climate moderates some of the intense summer pest pressure found in Memphis and Nashville, but the humid conditions and the Watauga River and Boone Lake drainage create significant mosquito pressure, and stink bugs from the Appalachian corridor are a consistent fall concern.",
+    topPests: ["Subterranean Termites", "House Mice", "Mosquitoes", "Stink Bugs", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "UT Extension confirms eastern subterranean termites are active throughout northeast Tennessee including Washington County. Johnson City's Appalachian elevation means the active season is somewhat shorter than in lowland Tennessee, but termites are a real structural risk in older homes with crawl spaces and wood near soil.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, strongest push October through March",
+        note: "Johnson City's Appalachian mountain winters drive mice into heated buildings reliably from October. The city's older housing in the Virginia Avenue and Roan Street corridors has the foundation gaps and aging sill plates that give mice ready access during cold weather.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Boone Lake, the Watauga River, and the numerous drainage corridors throughout Washington County create mosquito breeding habitat. Johnson City's mountain-adjacent location means the active season is about one to two months shorter than lowland Tennessee cities.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through October, overwinter in structures",
+        note: "Stink bugs are abundant in the Appalachian corridor and Johnson City is in one of the higher-pressure zones in Tennessee. UT Extension confirms they are established throughout northeast Tennessee and the Appalachian valleys see some of the most reliable annual fall invasions in the state.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak August through September",
+        note: "Yellow jackets build ground nests in the sloped lawns and wooded edges throughout Washington County's Appalachian terrain. Ground nests in Johnson City yards are a regular late-summer encounter, with colonies reaching maximum aggression in August and September.",
+      },
+    ],
+    localHook:
+      "Johnson City's Appalachian valley location puts it in one of the highest stink bug pressure zones in Tennessee. The Appalachian mountain corridor is the epicenter of the stink bug invasion in the eastern United States, and northeast Tennessee cities like Johnson City see fall aggregations that are more intense than what lowland Tennessee experiences.",
+    intro:
+      "Pest control in Johnson City reflects the Appalachian valley environment of northeast Tennessee. The mountain-adjacent climate moderates some lowland pest pressure but creates its own specific concerns. Stink bugs are a defining fall pest in the Appalachian corridor, and UT Extension confirms the northeast Tennessee region sees some of the highest stink bug aggregation pressure in the state. House mice push into Johnson City's older housing stock reliably from October as mountain winters arrive.\n\nSubterranean termites are active throughout Washington County per UT Extension, with a somewhat shorter active season than lowland Tennessee given the elevation. Mosquitoes from Boone Lake and the Watauga River drainage are active from May through September. Yellow jackets build ground nests in the sloped terrain throughout the city's residential areas.\n\nFor Johnson City homeowners, the fall season is the most demanding pest management period: stink bugs aggregate, mice push inside, and yellow jacket colonies reach peak aggression simultaneously from September through October.",
+    sections: [
+      {
+        heading: "Stink bugs in the Appalachian corridor: Johnson City's fall reality",
+        body: "The Appalachian mountain corridor is where brown marmorated stink bugs established their US population, and northeast Tennessee cities like Johnson City remain in one of the highest fall invasion pressure zones in the country. UT Extension confirms stink bugs are established throughout northeast Tennessee, and the Appalachian valleys see reliable, intense annual fall aggregations that begin in late September when temperatures drop. Stink bugs aggregate on south and west-facing exterior surfaces looking for overwintering sites in wall voids, attics, and crawl spaces. Johnson City's older housing stock in the downtown and residential corridors has the exterior gaps that allow significant entry. The effective prevention window is mid-August through early September, before the aggregations form. Sealing gaps around window frames, utility penetrations, soffit corners, and exterior cable entries reduces the volume of insects entering. A perimeter spray on south and west building faces in September provides additional reduction for the current season. Once inside, vacuuming stink bugs as they emerge on warm winter days is the practical management approach.",
+      },
+      {
+        heading: "House mice in Johnson City's mountain-winter housing",
+        body: "Johnson City's Appalachian winters drive mice into heated buildings from October with more force and consistency than in lowland Tennessee cities. The colder mountain climate creates a more complete and earlier fall mouse migration than Nashville or Memphis experiences. Johnson City's older residential neighborhoods, particularly the historic districts near downtown and the university corridors near East Tennessee State University, have the aging foundation construction that gives mice ready access points. The exclusion window in Washington County is September, before the first cold fronts arrive from the Appalachian highlands. A walkround of the exterior in September, looking for foundation cracks, gaps around pipe penetrations, deteriorated door frames, and crawl space vent openings, identifies the entry points that mice will use. Sealing those points with appropriate materials, steel mesh at larger gaps and caulk at smaller ones, prevents the fall migration into the structure. Once mice are inside, snap traps in active runway areas along walls are the most effective and immediate removal tool.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps around window sills, utility penetrations, and soffit corners in August before stink bug fall aggregations form in Johnson City's Appalachian corridor location.",
+      "Complete the fall exclusion walkround in September, sealing foundation gaps and pipe penetrations before mountain winter drives mice into the structure.",
+      "Schedule annual termite inspections for Johnson City homes with crawl spaces given documented Washington County eastern Tennessee termite pressure.",
+      "Apply yellow jacket ground nest treatment in early morning when discovered in sloped Appalachian yard terrain, or schedule professional removal for high-traffic nest locations.",
+    ],
+    costNote:
+      "Johnson City pest control typically includes a quarterly general program for mice and common insects, with termite inspection quoted separately. Stink bug exclusion sealing is most effective done in August before aggregations form. A free inspection establishes current activity.",
+    faqs: [
+      {
+        question: "Why are stink bugs so bad in Johnson City?",
+        answer:
+          "Johnson City's northeast Tennessee location puts it in the Appalachian mountain corridor where brown marmorated stink bugs originated and remain most densely established in the United States. UT Extension confirms northeast Tennessee sees reliable, intense fall invasions each September. The Appalachian valleys channel insects moving downslope from the higher elevations, and the older homes in Johnson City have more exterior gaps for stink bugs to exploit than newer construction.",
+      },
+      {
+        question: "Do mice get into Johnson City homes earlier in fall than in other parts of Tennessee?",
+        answer:
+          "Yes. Johnson City's Appalachian elevation means colder falls arrive earlier than in lowland Tennessee cities like Nashville or Memphis. House mice begin pressing toward heated structures in September here, compared to October or November in the lowlands. The effective exclusion window is mid-September in Washington County. Older homes near ETSU and in the downtown historic districts have the foundation gaps and aging sill plates that give mice the most access.",
+      },
+      {
+        question: "Are termites a concern in Johnson City's mountain climate?",
+        answer:
+          "Yes. UT Extension confirms eastern subterranean termites are active throughout northeast Tennessee including Washington County. The Appalachian elevation means the active season is somewhat shorter than in Memphis or Nashville, but termites remain a real structural risk for homes with crawl spaces and any wood near soil. Annual inspections are the standard professional recommendation.",
+      },
+      {
+        question: "When are yellow jackets most dangerous in Johnson City yards?",
+        answer:
+          "August and September are the peak danger period. Yellow jacket colonies in Johnson City's sloped Appalachian residential terrain reach maximum size in late summer, and forager aggression peaks in September when natural food sources decline and colonies defend their nests more aggressively. Ground nests discovered during mowing or yard work warrant professional treatment rather than DIY removal, particularly in high-traffic lawn areas.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Kingsport", slug: "kingsport" },
+      { name: "Knoxville", slug: "knoxville" },
+      { name: "Chattanooga", slug: "chattanooga" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Johnson City, TN | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "Johnson City pest control for stink bugs, house mice, subterranean termites, mosquitoes and yellow jackets. Washington County Appalachian valley northeast Tennessee Tri-Cities specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hendersonville",
+    name: "Hendersonville",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~60,000",
+    county: "Sumner County",
+    climate: "hot-humid",
+    climateDriver:
+      "Hendersonville is a Sumner County suburb on Old Hickory Lake northeast of Nashville, with a hot, humid middle Tennessee climate. The lake's 440 miles of shoreline create significant mosquito breeding habitat close to the residential areas that define the city, while the suburban sprawl character and proximity to Nashville drives the standard middle Tennessee fire ant, termite, and cockroach baseline.",
+    topPests: ["Mosquitoes", "Fire Ants", "Subterranean Termites", "German Cockroaches", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Old Hickory Lake's 440 miles of shoreline and the numerous coves and tributary creeks feeding into the lake through Sumner County create consistent, intense mosquito breeding habitat throughout Hendersonville's residential areas. UT Extension monitors West Nile virus in the Old Hickory Lake corridor each season.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak March through November",
+        note: "UT Extension confirms fire ants are expanding in Sumner County, driven in part by Hendersonville's rapid suburban development that creates disturbed soil and turf. New subdivisions adjacent to Old Hickory Lake shoreline areas see elevated fire ant pressure.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "UT Extension confirms eastern subterranean termites are active throughout middle Tennessee including Sumner County. Hendersonville's older established neighborhoods on the east side of the lake carry real exposure in housing built before current pre-treatment standards.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a consistent year-round concern in Hendersonville's commercial corridors along Vietnam Veterans Boulevard and the restaurant and retail areas near the Old Hickory Boulevard corridor.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through October",
+        note: "Stink bugs are established in middle Tennessee per UT Extension. Hendersonville's suburban location northeast of Nashville sees reliable fall aggregations each September before insects work into wall voids to overwinter.",
+      },
+    ],
+    localHook:
+      "Hendersonville is built around Old Hickory Lake, and the lake's 440 miles of shoreline is the defining factor in the city's pest environment. Lakefront and lake-adjacent residential properties here experience mosquito pressure that is significantly more intense than Nashville's inland suburbs, and West Nile virus is actively monitored in the Old Hickory Lake corridor by UT Extension.",
+    intro:
+      "Pest control in Hendersonville is dominated by one geographic feature: Old Hickory Lake. The lake's 440 miles of shoreline create mosquito breeding habitat throughout the city's residential footprint from April through October. UT Extension monitors for West Nile virus in the Old Hickory corridor each season. Lakefront properties in Hendersonville experience some of the most sustained mosquito pressure in the greater Nashville metro.\n\nFire ants are expanding in Sumner County per UT Extension, with Hendersonville's rapid development creating the disturbed soil conditions where colonies establish quickly. Subterranean termites are active throughout the area, and the older residential neighborhoods on the east side of the lake carry real termite exposure. Stink bugs are an annual fall management concern as the established middle Tennessee population aggregates on building exteriors in September.\n\nFor Hendersonville homeowners, a mosquito barrier program from April through October and an annual termite inspection are the most important seasonal services.",
+    sections: [
+      {
+        heading: "Old Hickory Lake and Hendersonville's mosquito season",
+        body: "Old Hickory Lake's 440 miles of shoreline are the primary driver of Hendersonville's mosquito environment. The coves, tributary creeks, and the floodplain areas along the lake's edge create standing water breeding habitat throughout the city from the first warm days of April through October. Residential areas within several blocks of the lake shore experience earlier spring activity and higher peak season pressure than those in the interior of Hendersonville's developed grid. West Nile virus is monitored in the Old Hickory Lake corridor by UT Extension and Sumner County health officials. Monthly barrier spray programs targeting resting mosquito adults in yard vegetation from April through October provide the most effective property-level protection. Eliminating standing water in gutters, downspout extensions, yard containers, and any landscape features that collect rainwater reduces on-property breeding. For lakefront properties, the external breeding habitat from the lake shore sustains background pressure that individual property management alone cannot eliminate, which makes the spray program more important for those addresses.",
+      },
+      {
+        heading: "Fire ants in Hendersonville's growing suburban landscape",
+        body: "Hendersonville has grown rapidly as a Nashville suburb, and UT Extension confirms that fire ant expansion in Sumner County is driven in part by that suburban development. New residential construction creates the disturbed soil and cleared turf where fire ants establish quickly, and new homeowners in recently built subdivisions often encounter heavy mound pressure in their first few seasons. For Hendersonville homeowners, the distinction between individual mound treatment and broadcast yard treatment matters in a high-pressure development environment. Treating individual mounds is reactive management that cannot keep pace with the rate of new mound appearance in active expansion areas. A twice-yearly broadcast bait program, in spring and fall, reduces the colony density across the full yard and provides sustained control. Properties adjacent to undisturbed fields or wooded edges near Old Hickory Lake see the highest ongoing pressure and benefit most from the consistent program.",
+      },
+    ],
+    prevention: [
+      "Schedule monthly mosquito barrier spray from April through October for Old Hickory Lake shoreline and creek-adjacent properties in Hendersonville.",
+      "Apply fire ant broadcast bait in spring and fall per UT Extension recommendations for Sumner County's expanding suburban fire ant territory.",
+      "Schedule annual termite inspections for older Hendersonville neighborhoods on the east side of Old Hickory Lake where pre-treatment-era housing carries the highest exposure.",
+      "Seal exterior wall gaps and soffit corners in August before stink bug aggregations form on building exteriors in middle Tennessee.",
+    ],
+    costNote:
+      "Hendersonville pest control typically includes a quarterly exterior program for fire ants and cockroaches, with separate pricing for mosquito barrier spray and termite protection. Lakefront properties benefit from monthly mosquito treatment from April through October. A free inspection establishes current activity.",
+    faqs: [
+      {
+        question: "How does Old Hickory Lake affect mosquito season in Hendersonville?",
+        answer:
+          "Old Hickory Lake's 440 miles of shoreline create mosquito breeding habitat throughout Hendersonville's residential footprint that Nashville's inland suburbs do not experience. Coves, tributary creeks, and adjacent floodplain areas sustain populations from April through October. West Nile virus is monitored in the corridor. Monthly barrier spray during the season is the most practical management tool for lakefront and creek-adjacent properties.",
+      },
+      {
+        question: "Are fire ants getting worse in Hendersonville?",
+        answer:
+          "UT Extension confirms fire ants are expanding in Sumner County, and Hendersonville's pace of suburban development contributes to that expansion by creating the disturbed soil conditions where colonies establish quickly. New subdivisions see higher fire ant pressure in their first few years than established neighborhoods where the landscape has stabilized. A twice-yearly broadcast bait program is more effective than individual mound treatment in these high-establishment-rate environments.",
+      },
+      {
+        question: "Do I need termite protection for a newer Hendersonville home?",
+        answer:
+          "Yes. UT Extension confirms eastern subterranean termites are active throughout middle Tennessee. Required soil pre-treatment at construction provides initial but not permanent protection. Annual inspections after the initial coverage period and a long-term prevention agreement make sense given the documented pressure in Sumner County. Older homes east of the lake with no recent treatment history carry the highest immediate exposure.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Nashville", slug: "nashville" },
+      { name: "Murfreesboro", slug: "murfreesboro" },
+      { name: "Franklin", slug: "franklin" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Hendersonville, TN | Mosquitoes, Fire Ants & Termites",
+    metaDescription:
+      "Hendersonville pest control for mosquitoes, fire ants, subterranean termites, German cockroaches and stink bugs. Sumner County Old Hickory Lake Nashville suburb middle Tennessee specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kingsport",
+    name: "Kingsport",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~57,000",
+    county: "Sullivan County",
+    climate: "temperate",
+    climateDriver:
+      "Kingsport sits in Sullivan County in the Holston River valley of northeast Tennessee, part of the Tri-Cities metropolitan area with Johnson City and Bristol. The Appalachian ridge-and-valley climate is cooler and wetter than lowland Tennessee, producing a pest calendar shifted about four to six weeks later than Nashville or Memphis. Stink bugs from the Appalachian corridor are a defining fall pest, and Boone Lake and the Holston River create mosquito pressure through the warm season.",
+    topPests: ["Stink Bugs", "House Mice", "Subterranean Termites", "Mosquitoes", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November, overwinter in structures",
+        note: "Kingsport is in the Appalachian corridor that is the highest stink bug pressure zone in the eastern United States. UT Extension confirms reliable, intense fall invasions throughout northeast Tennessee. Sullivan County's elevated terrain concentrates fall movements of stink bugs relocating to lower elevations before winter.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, hard push September through March",
+        note: "Kingsport's Appalachian climate delivers colder falls earlier than lowland Tennessee, and house mice begin pressing into heated structures in September. The city's older housing stock in the downtown and Eastman Road corridors has the foundation gaps and aging infrastructure that give mice ready access.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "UT Extension confirms eastern subterranean termites are active throughout northeast Tennessee including Sullivan County. Kingsport's Holston River valley humidity sustains termite activity through the warm season, and older homes near the river corridor carry real structural exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Boone Lake and the South Fork Holston River create mosquito breeding habitat through Kingsport's warm season. The mountain-adjacent location means the active season is shorter here than in lowland Tennessee cities.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak August through September",
+        note: "Yellow jackets are abundant in Sullivan County's ridge-and-valley terrain. Ground nests in sloped lawns and wooded yard edges are a consistent late-summer encounter in Kingsport neighborhoods, with colonies most aggressive in August and September.",
+      },
+    ],
+    localHook:
+      "Kingsport sits in the Appalachian ridge-and-valley terrain of northeast Tennessee, and that location puts it at the center of the eastern US stink bug invasion zone. The fall aggregations here are more intense than in any Tennessee city outside the Appalachian corridor, and Sullivan County homeowners deal with them as a regular annual event starting in late September.",
+    intro:
+      "Pest management in Kingsport is shaped by the Appalachian ridge-and-valley environment that surrounds the city. Brown marmorated stink bugs are the defining fall pest challenge: the Appalachian corridor where Kingsport sits is the highest stink bug pressure zone in the eastern United States, and UT Extension confirms reliable, intense annual invasions in Sullivan County each September. House mice push into Kingsport's older housing stock from September as mountain falls arrive earlier than in lowland Tennessee.\n\nSubterranean termites are active throughout northeast Tennessee per UT Extension, and the Holston River valley's humidity sustains termite pressure through the warm season. Mosquitoes from Boone Lake and the South Fork Holston River are active from May through September. Yellow jackets build ground nests in the sloped Appalachian terrain throughout the city.\n\nFor Kingsport homeowners, fall is the most demanding pest management season: stink bugs, mice, and yellow jackets all peak in August through October simultaneously.",
+    sections: [
+      {
+        heading: "Fall pest management in Kingsport's Appalachian corridor",
+        body: "September and October are the peak pest season in Kingsport rather than summer, which is the opposite of what lowland Tennessee cities experience. Three separate pest events converge in the fall: stink bugs aggregate on south and west building faces starting in late September as temperatures drop; yellow jacket colonies reach maximum aggression in August and September before winter eliminates them; and house mice begin pressing into heated structures from September as Appalachian cold fronts arrive earlier than in Nashville or Memphis. UT Extension confirms stink bugs are a reliable annual event in Sullivan County, with the Appalachian corridor producing some of the most intense invasion pressure in the country. Managing all three fall events requires different approaches. Stink bugs: seal exterior gaps in August before they aggregate. Yellow jackets: address ground nests professionally before mowing season and early fall. Mice: complete the foundation exclusion walkround in September before cold sets in. Doing these three things in August and September prevents the reactive management scramble that follows if you wait for visible problems to appear.",
+      },
+      {
+        heading: "Older Kingsport housing and termite exposure",
+        body: "Kingsport's history as an industrial city in the Tri-Cities area means a substantial share of the housing stock was built before World War II, in the 1910s through 1940s. This construction era predates soil pre-treatment requirements and has had decades of variable termite protection. UT Extension confirms eastern subterranean termites are active throughout northeast Tennessee including Sullivan County. The Holston River valley's humidity sustains termite colony activity through the spring and fall warm seasons, and older homes in Kingsport's downtown and residential neighborhoods adjacent to the river corridor carry the highest exposure. For these properties, an annual professional inspection is not a precaution; it is the appropriate management response to documented risk. Homes that cannot confirm recent professional treatment should be inspected before any sale and before any renovation that opens wall or floor cavities.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps around window sills, utility penetrations, and soffits in August before stink bug fall aggregations form in Sullivan County's Appalachian corridor location.",
+      "Complete the fall mouse exclusion walkround in September, earlier than in lowland Tennessee, given Kingsport's Appalachian climate.",
+      "Schedule annual termite inspections for older Kingsport homes near the Holston River corridor where pre-treatment-era construction carries elevated Sullivan County termite risk.",
+      "Schedule mosquito barrier spray from May through September for Boone Lake and South Fork Holston River adjacent properties in Kingsport.",
+    ],
+    costNote:
+      "Kingsport pest control typically includes a quarterly general program, with separate pricing for termite inspection, stink bug exclusion work, and seasonal mosquito spray. Stink bug exclusion is most cost-effective done in August as a preventive measure. A free inspection establishes current activity.",
+    faqs: [
+      {
+        question: "Why are stink bugs so much worse in Kingsport than in Nashville?",
+        answer:
+          "Kingsport's Appalachian location puts it in the core of the eastern US stink bug invasion range, while Nashville sits in the lowland interior where pressure is meaningfully lower. The Appalachian mountain corridor is where brown marmorated stink bugs first established in the United States, and they remain most concentrated in the mountain valley systems of northeast Tennessee, western Virginia, and western North Carolina. UT Extension confirms Sullivan County sees some of the most reliable and intense fall aggregations in the state.",
+      },
+      {
+        question: "Do mice get into Kingsport homes in September rather than November like in warmer climates?",
+        answer:
+          "Yes. Kingsport's Appalachian elevation brings cold fronts earlier in fall than lowland Tennessee cities. House mice begin pressing toward heated structures in September here, which is four to six weeks earlier than in Nashville or Memphis. The effective exclusion window for Kingsport is mid-September. Sealing foundation gaps, pipe penetrations, and door frame gaps at that point prevents mice from settling into wall voids before the full cold sets in.",
+      },
+      {
+        question: "Are termites really a problem in cooler Appalachian cities like Kingsport?",
+        answer:
+          "Yes, though the active season is shorter than in lowland Tennessee. UT Extension confirms eastern subterranean termites are present and active throughout northeast Tennessee including Sullivan County. Kingsport's older housing stock near the Holston River corridor carries real structural exposure. The humidity from the river valley sustains termite activity through the warm season even at this elevation. Annual inspections are the appropriate precaution for any Kingsport home with a crawl space.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Johnson City", slug: "johnson-city" },
+      { name: "Knoxville", slug: "knoxville" },
+      { name: "Chattanooga", slug: "chattanooga" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Kingsport, TN | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "Kingsport pest control for stink bugs, house mice, subterranean termites, mosquitoes and yellow jackets. Sullivan County Holston River Appalachian valley northeast Tennessee Tri-Cities specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "smyrna",
+    name: "Smyrna",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~55,000",
+    county: "Rutherford County",
+    climate: "hot-humid",
+    climateDriver:
+      "Smyrna is a fast-growing Rutherford County suburb southeast of Nashville, anchored by the Nissan manufacturing plant and major warehouse and distribution development. The hot, humid middle Tennessee climate delivers the standard fire ant, termite, and mosquito calendar, while the Stones River watershed and the Sam Davis Road corridor's rapid industrial and residential growth create ongoing fire ant pressure in disturbed terrain.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "German Cockroaches", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through November",
+        note: "UT Extension confirms fire ants are established throughout Rutherford County and expanding with suburban development. Smyrna's rapid growth from the Nissan plant and associated industrial and residential construction creates disturbed soil and turf where fire ant colonies establish quickly.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "UT Extension confirms eastern subterranean termites are active throughout middle Tennessee including Rutherford County. Smyrna's new construction at the edge of undisturbed terrain creates termite pressure for edge-zone subdivisions similar to what Murfreesboro experiences.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Stones River and its tributaries through Rutherford County create mosquito breeding habitat through Smyrna's warm season. Stormwater retention ponds standard in new Smyrna development add consistent on-site breeding opportunities.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a year-round concern in Smyrna's growing commercial and restaurant corridor along Sam Davis Road and Enon Springs Road. The large industrial food service facilities associated with the Nissan complex and distribution centers create management demands for commercial accounts.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through October",
+        note: "Stink bugs are established in middle Tennessee per UT Extension. Smyrna's suburban character and the mix of older and newer housing means variable fall invasion intensity depending on the number of exterior gaps available.",
+      },
+    ],
+    localHook:
+      "Smyrna has been one of the fastest-growing cities in Tennessee for two decades, driven by the Nissan manufacturing plant and the industrial and residential development that followed. That rapid growth pattern means a large share of the housing stock is at the woodland edge adjacent to disturbed construction terrain, creating elevated fire ant and termite pressure that slower-growing middle Tennessee cities do not experience.",
+    intro:
+      "Pest control in Smyrna is shaped by the city's rapid growth pattern in Rutherford County. The Nissan manufacturing plant and the industrial corridor along Sam Davis Road have driven significant construction and residential development that creates disturbed soil and edge-zone conditions where fire ants and subterranean termites are consistently elevated. UT Extension confirms both are established throughout Rutherford County.\n\nThe Stones River watershed and the stormwater retention ponds standard in Smyrna's new residential development create mosquito breeding habitat through the April through October season. German cockroaches are a year-round concern in the commercial and food service corridor. Stink bugs aggregate on building exteriors each fall as the established middle Tennessee population seeks overwintering sites.\n\nFor Smyrna homeowners, the edge-zone character of newer subdivisions makes fire ant and termite management more important here than in fully established Nashville suburbs.",
+    sections: [
+      {
+        heading: "Rapid growth and the fire ant edge-zone problem in Smyrna",
+        body: "Smyrna has added residents and businesses faster than almost any Rutherford County community over the past twenty years. That growth means new subdivisions are continually being built at the boundary between developed land and the fields and pine woods where fire ant colonies have been established for decades. UT Extension confirms fire ants are expanding across middle Tennessee, and Smyrna's construction pace creates the disturbed soil and cleared turf that new fire ant colonies colonize aggressively. For Smyrna homeowners in recently built subdivisions, particularly those backing onto open land or adjacent to active construction, fire ant pressure in the first few seasons is often higher than in established neighborhoods where the landscape has stabilized. Broadcast bait applications twice a year, covering the full yard in spring and fall, manage the population at the colony density level rather than chasing individual visible mounds. Individual mound treatment cannot keep pace with new mound formation in high-disturbance-rate edge environments.",
+      },
+      {
+        heading: "Termite protection in Smyrna's growing residential landscape",
+        body: "Smyrna's pace of construction creates ongoing termite exposure for homes built at the edge of undisturbed terrain in Rutherford County. UT Extension confirms eastern subterranean termites are active throughout middle Tennessee. The same wooded and field areas that sustain fire ant colonies also support established subterranean termite populations. New construction disturbs that terrain and brings structures into contact with those populations. Required soil pre-treatment at construction provides initial protection, but that protection diminishes over time and must be maintained. Annual inspections after the initial coverage period catch any gaps. For older Smyrna homes built in the 1980s and 1990s in the established residential corridors near the Nissan plant, original soil treatments have had decades to degrade, and inspection is especially warranted for homes that cannot document recent professional attention.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant broadcast bait in spring and fall for edge-zone subdivisions adjacent to active construction corridors and undisturbed field terrain around the Nissan plant and Sam Davis Road.",
+      "Confirm termite soil pre-treatment status for new Smyrna homes and schedule annual inspections given Rutherford County's documented middle Tennessee termite pressure.",
+      "Eliminate standing water in stormwater retention areas and yard containers from April through October to reduce mosquito breeding along the Stones River drainage corridor.",
+      "Seal exterior gaps in August before stink bug fall aggregations begin in middle Tennessee to prevent overwintering entry into wall voids.",
+    ],
+    costNote:
+      "Smyrna pest control typically runs a quarterly exterior program covering fire ants and cockroaches, with termite protection and mosquito treatment quoted separately. Edge-zone properties adjacent to active construction may benefit from more frequent fire ant program visits. A free inspection establishes current activity.",
+    faqs: [
+      {
+        question: "Why are fire ants so common in Smyrna's newer subdivisions?",
+        answer:
+          "New subdivisions built adjacent to open fields and undisturbed terrain around the Nissan manufacturing corridor put homes in contact with established fire ant populations. UT Extension confirms fire ants are expanding in Rutherford County, and the construction activity creates the disturbed soil where new colonies establish quickly. Broadcast bait across the full yard twice a year is more effective than treating individual mounds in these high-pressure developing environments.",
+      },
+      {
+        question: "Does the Nissan plant affect pest conditions for nearby Smyrna residents?",
+        answer:
+          "The plant itself is not a direct pest source for residential areas, but the surrounding industrial and commercial development has created significant land disturbance that sustains elevated fire ant pressure in the corridors near Sam Davis Road. The large food service operations associated with the plant's cafeteria and industrial food distribution create commercial-level German cockroach management demands that are separate from residential concerns.",
+      },
+      {
+        question: "Are termites a concern in Smyrna's 1990s construction era homes?",
+        answer:
+          "Yes. Homes built in the 1980s and 1990s in Smyrna's established residential areas near the Nissan plant had soil treatments applied at construction that have had 25 to 40 years to degrade. UT Extension confirms eastern subterranean termites are active throughout Rutherford County. For homes without documented recent professional treatment, an inspection is warranted, particularly for those with crawl spaces or any wood near soil contact.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Murfreesboro", slug: "murfreesboro" },
+      { name: "Nashville", slug: "nashville" },
+      { name: "Franklin", slug: "franklin" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Smyrna, TN | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Smyrna TN pest control for fire ants, subterranean termites, mosquitoes, German cockroaches and stink bugs. Rutherford County Nissan corridor Stones River Nashville suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "collierville",
+    name: "Collierville",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~51,000",
+    county: "Shelby County",
+    climate: "hot-humid",
+    climateDriver:
+      "Collierville is an affluent Shelby County suburb east of Memphis, with a hot, humid climate similar to Memphis but with the larger residential lots, wooded buffers, and park corridors that sustain elevated mosquito and wildlife pest pressure relative to the denser urban core. The Wolf River corridor through Collierville creates significant mosquito breeding habitat and adds deer tick exposure in the wooded greenway.",
+    topPests: ["Mosquitoes", "Fire Ants", "Subterranean Termites", "Deer Ticks", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Wolf River corridor, which runs through Collierville's park system, creates consistent mosquito breeding habitat throughout the residential communities adjacent to the greenway. UT Extension confirms West Nile virus is monitored in Shelby County. The Wolf River bottoms sustain breeding habitat through the full warm season.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through November",
+        note: "UT Extension confirms fire ants are established throughout Shelby County. Collierville's large residential lots with maintained turf provide extensive fire ant territory, and mounds are a consistent year-round yard management concern in the warm Memphis-area climate.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active spring through fall",
+        note: "UT Extension confirms eastern subterranean termites are active throughout Shelby County at high pressure levels given the Memphis-area warm climate. Collierville's older established neighborhoods carry real exposure in housing without recent documented treatment.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active year-round in Tennessee's mild climate, peak fall through spring",
+        note: "Deer ticks are present in Collierville's Wolf River greenway and the wooded edges of the residential landscape. UT Extension confirms ticks are active throughout Tennessee year-round in mild winters. The greenway trail system brings families and pets into tick habitat adjacent to residential areas.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a consistent year-round concern in Collierville's commercial corridors along Poplar Avenue and the restaurant and retail areas near the historic town square.",
+      },
+    ],
+    localHook:
+      "Collierville's Wolf River corridor is both the city's most valued natural feature and the primary driver of its elevated mosquito and deer tick exposure compared to other Memphis suburbs. The greenway trail system that makes Collierville attractive for families also brings those families into regular contact with tick habitat and mosquito breeding zones adjacent to residential streets.",
+    intro:
+      "Pest control in Collierville reflects the balance between the city's affluent suburban character and the wildlife corridor created by the Wolf River greenway. Fire ants and subterranean termites are year-round baseline pests throughout Shelby County, and UT Extension confirms the Memphis-area climate keeps these pests active with minimal winter interruption. The Wolf River corridor adds mosquito breeding habitat and deer tick exposure that Memphis's more densely developed urban areas do not experience at the same level.\n\nDeer ticks in Collierville's greenway are a genuine concern for families and pets using the Wolf River trail system. UT Extension confirms ticks are active year-round in Tennessee's mild climate, not just in warm months as in northern states. German cockroaches are a consistent concern in the Poplar Avenue commercial corridor and the historic town square restaurant district.\n\nFor Collierville homeowners, especially those adjacent to the Wolf River greenway, a professional pest program that addresses mosquitoes, ticks, and termites as seasonal priorities makes the most sense for the local environment.",
+    sections: [
+      {
+        heading: "The Wolf River corridor: mosquitoes and ticks in Collierville's greenway",
+        body: "Collierville's Wolf River greenway is one of the defining amenities of the city, providing miles of trail access through forested bottomland habitat adjacent to residential neighborhoods. That same habitat creates the two most distinctive pest management challenges in Collierville: mosquitoes and deer ticks. The Wolf River bottoms provide standing water breeding habitat from April through October, and properties within several blocks of the greenway experience higher and earlier mosquito pressure than those in the interior of the developed residential grid. Deer ticks are present in the leaf litter and woodland edges along the greenway trail system. UT Extension confirms ticks are active year-round in Tennessee, which means year-round precautions rather than just a spring through fall tick season. For families using the Wolf River trails regularly, tick checks after outdoor activity are a year-round habit, and veterinarian-recommended tick prevention for pets is essential. Professional yard perimeter treatment targeting the leaf litter and brush edge at the property boundary provides the most effective residential management layer for greenway-adjacent properties.",
+      },
+      {
+        heading: "Fire ants and termites in Collierville's large-lot residential landscape",
+        body: "Collierville's residential character, with larger lots and more wooded buffers than the denser Memphis urban grid, creates more fire ant and termite territory per property than in compact suburban neighborhoods. UT Extension confirms fire ants are established throughout Shelby County and active through most of the year in the warm Memphis-area climate. Large maintained lawns with established landscape beds provide extensive fire ant colony territory, and a whole-yard broadcast bait program twice a year is more effective than individual mound treatment at the scale of Collierville's residential lot sizes. Subterranean termites are confirmed active throughout Shelby County at high pressure levels, and Collierville's established neighborhoods include homes with crawl spaces and wood construction that requires annual professional inspection to stay ahead of undetected structural feeding. Properties adjacent to wooded buffers and the Wolf River corridor carry elevated termite pressure from the surrounding natural habitat.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier spray from April through October and year-round tick checks for properties adjacent to the Wolf River greenway in Collierville.",
+      "Apply fire ant broadcast bait in spring and fall per UT Extension recommendations for Shelby County's year-round Memphis-area fire ant pressure.",
+      "Schedule annual termite inspections for Collierville homes with crawl spaces or adjacent to wooded buffers given the high Shelby County termite pressure zone.",
+      "Use veterinarian-recommended tick prevention for pets year-round and perform tick checks after outdoor activity in the Wolf River trail system.",
+    ],
+    costNote:
+      "Collierville pest control typically includes a quarterly exterior program for fire ants and cockroaches, with mosquito, tick, and termite programs priced separately. Greenway-adjacent properties benefit from monthly mosquito treatment from April through October. A free inspection establishes current activity.",
+    faqs: [
+      {
+        question: "Are deer ticks in the Wolf River greenway a real health concern in Collierville?",
+        answer:
+          "Yes. Deer ticks transmit Lyme disease and other tick-borne illnesses, and they are present in the wooded bottomland habitat along the Wolf River. UT Extension confirms ticks are active year-round in Tennessee's mild climate, which means year-round precautions rather than a seasonal tick season. Families and pets using the Wolf River trails regularly should perform tick checks after each outing and use veterinarian-recommended prevention for pets throughout the year.",
+      },
+      {
+        question: "How does Collierville's lot size affect fire ant management compared to more urban Memphis neighborhoods?",
+        answer:
+          "Larger lots mean more fire ant territory per property and a greater likelihood that any fire ant population adjacent to the yard can continually re-establish mounds. Treating individual visible mounds cannot keep pace with the background colony pressure on a large lot. A twice-yearly broadcast bait program covering the full lawn is the most effective approach for Collierville's larger residential footprints. UT Extension recommends this approach for large-lawn properties in Shelby County's high-pressure fire ant environment.",
+      },
+      {
+        question: "Are termites active year-round in Collierville's warm Memphis-area climate?",
+        answer:
+          "Yes, substantially. UT Extension confirms eastern subterranean termites are active at high pressure throughout Shelby County, and the warm Memphis-area climate provides limited winter interruption to colony foraging. Collierville homes with crawl spaces or adjacent to wooded buffers carry elevated exposure from surrounding natural habitat. Annual professional inspections are the appropriate precaution, and an active protection program is worth maintaining for properties in high-pressure zones.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Memphis", slug: "memphis" },
+      { name: "Germantown", slug: "germantown" },
+      { name: "Jackson", slug: "jackson" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Collierville, TN | Mosquitoes, Deer Ticks & Fire Ants",
+    metaDescription:
+      "Collierville pest control for mosquitoes, deer ticks, fire ants, subterranean termites and German cockroaches. Shelby County Wolf River greenway Memphis suburb Tennessee specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -1736,4 +1736,424 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Novi pest control for house mice, stink bugs, subterranean termites, carpenter ants and mosquitoes. Oakland County residential lakes wooded suburban Detroit northwest Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "taylor",
+    name: "Taylor",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3" as const,
+    population: "~64,000",
+    county: "Wayne County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Southeast Michigan continental climate with cold winters, warm humid summers, and a well-defined fall pest surge driven by sharp October temperature drops",
+    topPests: [
+      "house mice",
+      "subterranean termites",
+      "stink bugs",
+      "German cockroaches",
+      "yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "MSU Extension identifies house mice as the most commonly reported rodent pest in Michigan's fall season. Taylor's postwar housing carries accumulated foundation conditions providing reliable fall entry from October onward.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "MSU Extension confirms eastern subterranean termite activity throughout Wayne County. Taylor's postwar housing with crawl spaces carries wood sill plate conditions that create meaningful termite exposure.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established in southeastern Michigan. They aggregate on Taylor building faces in September seeking wall void overwintering sites.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Taylor's older multi-family buildings and commercial areas, concentrating in kitchen and bathroom areas where interior gel bait programs are the effective treatment.",
+      },
+      {
+        name: "yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October peak",
+        note: "Yellow jackets build ground and wall void nests in Taylor's residential neighborhoods from early summer, reaching peak defensiveness in August and September.",
+      },
+    ],
+    localHook:
+      "Taylor is a Downriver Wayne County suburb with a large stock of 1950s through 1970s postwar housing. This construction vintage carries the foundation gaps, aging sill plates, and crawl-space conditions that create consistent fall mouse pressure and documented subterranean termite exposure throughout the southern Wayne County corridor.",
+    intro:
+      "Taylor's residential character is shaped by its postwar suburban development, with most of the city built between 1945 and 1975. That housing stock creates reliable pest access: house mice exploit aging foundation and sill plate gaps each fall, stink bugs are well established in southeastern Michigan, and MSU Extension documents eastern subterranean termite activity throughout Wayne County. German cockroaches are present in older multi-unit buildings. Yellow jackets nest in ground cavities and wall voids through the summer, peaking in late August and September.",
+    sections: [
+      {
+        heading: "House Mice and Stink Bugs in Taylor's Fall Season",
+        body: "Taylor's postwar housing inventory carries the construction characteristics that create reliable fall pest entry for both mice and stink bugs. House mice push through foundation cracks, sill plate gaps, and utility penetrations from October onward as outdoor temperatures drop. Stink bugs aggregate on south and west-facing building faces in September as they seek overwintering sites in wall voids and attics. MSU Extension recommends completing exterior gap sealing for both pests in September before the October temperature drop triggers active entry. Addressing both in a single inspection and sealing pass is the most practical approach for Taylor homeowners.",
+      },
+      {
+        heading: "Subterranean Termites in Downriver Wayne County",
+        body: "MSU Extension confirms eastern subterranean termite activity throughout Wayne County, including Taylor's Downriver neighborhoods. The city's postwar housing stock, with crawl-space foundations and wood sill plates that have been in soil contact for 50 to 70 years, carries meaningful termite exposure. Annual professional spring inspections are the standard precaution, and they catch activity before it becomes visible structural damage. Homes with any moisture issues in crawl spaces carry above-average risk because moisture-softened wood creates preferred termite foraging conditions.",
+      },
+      {
+        heading: "Yellow Jackets and German Cockroaches",
+        body: "Yellow jackets build ground nests and wall void nests in Taylor's residential neighborhoods from early summer onward, reaching peak colony size and peak defensiveness in August and September. Ground nests in lawn areas are a particular hazard for outdoor activity. Professional treatment at the nest entrance at dusk is required for established wall void infestations. German cockroaches are present in Taylor's older multi-family buildings and commercial food service areas, concentrating in kitchen and bathroom areas where they require gel bait programs for control.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, sill plate gaps, and utility penetrations in September before the fall mouse entry surge in Downriver Wayne County",
+      "Seal exterior gaps around windows and soffits before mid-September to reduce stink bug overwintering entry",
+      "Schedule annual spring termite inspections for homes with crawl spaces throughout Taylor",
+      "Inspect ground cover areas and lawn edges in June for early yellow jacket ground nest activity before colonies grow to summer peak size",
+      "Address moisture issues in crawl spaces to remove the conditions that accelerate both termite and carpenter ant activity",
+    ],
+    costNote:
+      "Quarterly pest control programs in Taylor covering mice, stink bugs, and cockroaches run $85 to $135 per visit. Termite inspections are free with treatment quoted after assessment. Fall combined mouse and stink bug exclusion programs are the primary seasonal value for Taylor homeowners.",
+    faqs: [
+      {
+        question:
+          "Why do mice seem to come in every October in my Taylor home?",
+        answer:
+          "Taylor's postwar housing stock has accumulated foundation cracks, aging sill plates, and utility penetrations that provide house mice reliable entry points each fall. Mice can compress through gaps as small as a quarter inch, and these openings are common in homes built in the 1950s through 1970s. A professional exclusion inspection in September that identifies and seals specific entry points is the most durable prevention. Without addressing the entry points, trapping manages mice already inside but does not stop the reinvasion pattern.",
+      },
+      {
+        question:
+          "Are termites common in Taylor's Downriver neighborhoods?",
+        answer:
+          "Yes. MSU Extension documents eastern subterranean termite activity throughout Wayne County, and Taylor's postwar housing inventory carries the crawl-space construction and long-established soil-to-wood contact conditions that create meaningful exposure. Annual spring inspections are the standard precaution. Homes with any crawl space moisture or wood debris under the house carry above-average risk.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Dearborn", slug: "dearborn" },
+      { name: "Livonia", slug: "livonia" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Taylor, MI | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Taylor pest control for house mice, subterranean termites, stink bugs, German cockroaches and yellow jackets. Wayne County Downriver Detroit postwar housing specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "royal-oak",
+    name: "Royal Oak",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3" as const,
+    population: "~60,000",
+    county: "Oakland County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Southeast Michigan continental climate with cold winters, warm humid summers, and fall pest pressure from stink bugs and mice alongside above-average carpenter ant activity in the city's mature urban tree canopy",
+    topPests: [
+      "house mice",
+      "stink bugs",
+      "subterranean termites",
+      "carpenter ants",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "MSU Extension confirms fall mouse pressure throughout Oakland County. Royal Oak's pre-WWII bungalows and 1940s construction carry the foundation and sill plate conditions that provide mice reliable fall entry.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established throughout Oakland County. Royal Oak's older housing with aging window frames and soffits provides numerous overwintering entry opportunities each September.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "MSU Extension confirms eastern subterranean termite activity across Oakland County. Royal Oak's pre-WWII bungalows with crawl spaces and long-established sill plates carry above-average exposure.",
+      },
+      {
+        name: "carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August",
+        note: "Royal Oak's mature urban tree canopy creates above-average carpenter ant habitat. MSU Extension identifies carpenter ants as the primary wood-destroying ant pest in Michigan, requiring moist wood to establish galleries.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Royal Oak's older commercial corridors and apartment buildings, requiring building-wide interior bait programs for effective control in connected structures.",
+      },
+    ],
+    localHook:
+      "Royal Oak is a close-in Oakland County suburb with a mix of historic 1920s-1940s bungalows and postwar ranches, all under a mature urban tree canopy that creates above-average carpenter ant pressure. The city's older housing stock carries the foundation and crawl-space conditions that make it one of the more termite-exposed cities in Oakland County.",
+    intro:
+      "Royal Oak's residential character combines the charm of pre-WWII bungalows and 1950s ranch houses with a well-established urban tree canopy. That combination creates real pest pressures: the older construction provides reliable entry for house mice each fall and carries crawl-space termite exposure, and the mature tree canopy creates carpenter ant harborage conditions throughout the city. Stink bugs are well established in Oakland County and aggregate on Royal Oak building faces each September. German cockroaches are present in the city's denser commercial corridors and older apartment buildings.",
+    sections: [
+      {
+        heading: "Royal Oak's Older Housing and Fall Mouse Entry",
+        body: "Royal Oak's housing inventory spans from 1920s bungalows to 1950s ranches, with many homes carrying the accumulated foundation gaps, aging sill plates, and utility penetrations that provide house mice entry each fall. The older bungalow neighborhoods near the historic downtown are particularly affected. MSU Extension recommends completing exclusion work in September before Michigan's October temperature drop triggers active mouse entry. Addressing garage door bottom seals, foundation cracks, and utility penetrations at grade level is the priority for Royal Oak's older construction.",
+      },
+      {
+        heading: "Carpenter Ants and the Urban Tree Canopy",
+        body: "Royal Oak's mature tree canopy, which is a significant part of the city's residential appeal, creates above-average carpenter ant habitat. Carpenter ants require moist wood to excavate galleries, and urban trees weakened by age, storm damage, or disease provide nesting opportunities close to structures. MSU Extension documents carpenter ants as the primary wood-destroying ant pest throughout Michigan. For Royal Oak homeowners, the practical implication is that any moisture issue in the home's wood structure, including roof leaks, drainage problems, and crawl space moisture, creates carpenter ant harborage that should be addressed alongside treatment.",
+      },
+      {
+        heading: "Stink Bugs and Subterranean Termites",
+        body: "Brown marmorated stink bugs are established in Oakland County, and Royal Oak's residential neighborhoods see annual fall aggregation on building faces in September. Sealing gaps around window frames, soffits, and utility penetrations before mid-September reduces the number that successfully enter wall voids. MSU Extension confirms eastern subterranean termite activity across Oakland County, and Royal Oak's older housing with crawl spaces and original wood sill plates carries genuine termite exposure. Annual professional spring inspections are the standard precaution for the city's pre-1970 construction.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, sill plate gaps, and utility penetrations in September for both mouse and stink bug prevention",
+      "Address moisture issues including drainage problems and roof leaks to remove carpenter ant harborage conditions",
+      "Schedule annual spring termite inspections for homes with crawl spaces in Royal Oak's older neighborhoods",
+      "Trim dead or damaged tree limbs close to the structure to reduce carpenter ant entry opportunities from the urban canopy",
+      "Apply exterior gap sealing around windows and soffits before mid-September to reduce stink bug overwintering entry",
+    ],
+    costNote:
+      "Quarterly pest control programs in Royal Oak covering mice, stink bugs, and carpenter ants run $85 to $140 per visit. Termite inspections are free with treatment quoted after assessment. Carpenter ant programs may include a moisture assessment consultation as part of the treatment plan.",
+    faqs: [
+      {
+        question:
+          "Why are carpenter ants such a consistent problem in Royal Oak's older neighborhoods?",
+        answer:
+          "Royal Oak's 1920s and 1930s bungalows and 1940s construction have the combination of mature trees, aging wood structure, and accumulated moisture exposure that carpenter ants target. They require moist wood to establish galleries, and decades-old homes with any crawl space moisture, roof leak history, or wood decay around windows and fascia boards provide these conditions. The mature urban tree canopy also provides nesting sites in weakened trees close to structures, giving ant colonies a base from which they forage into the home.",
+      },
+      {
+        question:
+          "Are termites a genuine risk in Royal Oak given the city's suburban Oakland County character?",
+        answer:
+          "Yes. MSU Extension documents eastern subterranean termite activity across Oakland County, and Royal Oak's older housing stock carries the construction characteristics most at risk. Pre-WWII bungalows with crawl spaces and wood sill plates that have been in soil contact for 70 to 100 years carry above-average exposure. Annual spring inspections are the standard precaution, particularly for homes where moisture conditions in the crawl space are not well controlled.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Troy", slug: "troy" },
+      { name: "Farmington Hills", slug: "farmington-hills" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Royal Oak, MI | Mice, Stink Bugs & Carpenter Ants",
+    metaDescription:
+      "Royal Oak pest control for house mice, stink bugs, subterranean termites, carpenter ants and German cockroaches. Oakland County historic bungalow neighborhoods Detroit metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "saginaw",
+    name: "Saginaw",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3" as const,
+    population: "~44,000",
+    county: "Saginaw County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Central Michigan continental climate with cold winters, warm humid summers, and fall pest pressure concentrated in October as temperatures drop sharply in the Saginaw Valley",
+    topPests: [
+      "house mice",
+      "subterranean termites",
+      "German cockroaches",
+      "stink bugs",
+      "carpenter ants",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "MSU Extension identifies house mice as the primary fall rodent pest in Michigan. Saginaw's late-19th and early-20th century housing carries the accumulated foundation conditions that provide reliable fall entry from October onward.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "MSU Extension confirms eastern subterranean termite activity throughout Saginaw County. The Saginaw River corridor's persistent soil moisture elevates termite foraging activity in adjacent older housing.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Saginaw's older apartment buildings and commercial food service areas, spreading through shared walls in multi-unit construction. Building-wide bait programs are required for effective control.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established in central Michigan. They aggregate on Saginaw building faces each September seeking overwintering sites in wall voids and attics.",
+      },
+      {
+        name: "carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August",
+        note: "Carpenter ants are active in Saginaw's older neighborhoods from late spring through summer, exploiting moisture-damaged wood in older construction and in landscape trees near structures.",
+      },
+    ],
+    localHook:
+      "Saginaw is a central Michigan city on the Saginaw River with a housing stock anchored in older industrial-era construction from the late 19th and early 20th centuries. The Saginaw River corridor creates mosquito and moisture conditions that elevate termite risk in adjacent neighborhoods, and the city's older housing carries the structural characteristics that give house mice consistent fall entry.",
+    intro:
+      "Saginaw's pest profile is shaped by its older housing stock and its Saginaw River setting. The city's late-19th and early-20th century neighborhoods carry the foundation gaps and crawl-space conditions that provide house mice reliable fall entry and documented subterranean termite exposure. German cockroaches are present in the city's older multi-family and commercial buildings. The Saginaw River corridor sustains mosquito populations through summer and creates the moisture conditions that elevate carpenter ant and termite activity in riverside neighborhoods.",
+    sections: [
+      {
+        heading: "House Mice in Saginaw's Older Housing Stock",
+        body: "Saginaw's residential inventory includes a significant share of pre-WWII housing, some of it dating from the late 1800s and early 1900s. These homes have accumulated decades of foundation settling, sill plate degradation, and utility penetration modifications that create the entry points house mice exploit each fall. MSU Extension identifies house mice as the most commonly reported rodent pest in Michigan's fall season. A thorough professional exclusion inspection in September that addresses the full foundation perimeter, garage door seals, and utility penetrations is the most durable prevention for Saginaw's older housing.",
+      },
+      {
+        heading: "Subterranean Termites and the Saginaw River Corridor",
+        body: "MSU Extension confirms eastern subterranean termite activity throughout Saginaw County. The Saginaw River corridor's persistent soil moisture creates conditions that favor year-round termite foraging activity in adjacent properties, elevating risk compared to drier inland areas. Saginaw's older construction, with crawl spaces and wood sill plates that have been in soil contact for 50 to 100 or more years, carries genuine termite exposure. Annual professional spring inspections are the standard precaution, particularly for homes within several blocks of the river corridor.",
+      },
+      {
+        heading: "German Cockroaches and Carpenter Ants",
+        body: "German cockroaches concentrate in Saginaw's older apartment buildings and commercial food service corridors, establishing in kitchen and bathroom areas. They require targeted gel bait programs for effective control. Carpenter ants are active in Saginaw's neighborhoods from late spring through summer, exploiting moisture-damaged wood in older construction and in the landscape trees throughout the city. Addressing moisture sources, including crawl space conditions, drainage problems, and any wood decay around windows, doors, and fascia, removes the harborage conditions that draw carpenter ants.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, utility penetrations, and garage door gaps in September before the fall mouse entry surge",
+      "Schedule annual spring termite inspections for homes with crawl spaces, particularly in neighborhoods near the Saginaw River corridor",
+      "Address crawl space moisture, drainage issues, and any wood decay to reduce both termite and carpenter ant harborage",
+      "Pursue building-wide cockroach treatment in Saginaw's older multi-family buildings rather than unit-by-unit approaches",
+      "Eliminate standing water in gutters and yard containers from June through September to reduce mosquito breeding near the river corridor",
+    ],
+    costNote:
+      "Quarterly pest control programs in Saginaw covering mice, cockroaches, and exterior monitoring run $80 to $130 per visit. Termite inspections are free with treatment quoted after assessment. Spring exclusion and termite inspection combination services are the primary seasonal value for Saginaw homeowners.",
+    faqs: [
+      {
+        question:
+          "Are termites more common near the Saginaw River than in other parts of the city?",
+        answer:
+          "Somewhat, yes. MSU Extension documents eastern subterranean termite activity throughout Saginaw County, but the river corridor's persistent soil moisture creates conditions that favor termite foraging activity in adjacent properties. Homes with crawl spaces within several blocks of the river carry above-average exposure. The river's moisture effect is real but it does not create a sharp boundary. Annual professional inspections are the appropriate precaution for all of Saginaw's older housing.",
+      },
+      {
+        question:
+          "What makes German cockroach control difficult in Saginaw's older apartment buildings?",
+        answer:
+          "Saginaw's older apartment stock has accumulated gaps in shared walls, utility chases, and plumbing runs from decades of maintenance work. German cockroaches move freely between units through these openings. Treating one unit in isolation provides temporary control but does not stop reinfestation from adjacent units. Effective treatment requires building-wide gel bait programs that address the internal harborage points cockroaches use throughout the building.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Flint", slug: "flint" },
+      { name: "Lansing", slug: "lansing" },
+      { name: "Detroit", slug: "detroit" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Saginaw, MI | Mice, Termites & German Cockroaches",
+    metaDescription:
+      "Saginaw pest control for house mice, subterranean termites, German cockroaches, stink bugs and carpenter ants. Saginaw County Saginaw River central Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "dearborn-heights",
+    name: "Dearborn Heights",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3" as const,
+    population: "~57,000",
+    county: "Wayne County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Southeast Michigan continental climate with cold winters, warm humid summers, and fall pest pressure concentrated in October as temperatures drop",
+    topPests: [
+      "house mice",
+      "German cockroaches",
+      "subterranean termites",
+      "stink bugs",
+      "carpenter ants",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "MSU Extension confirms fall mouse pressure throughout Wayne County. Dearborn Heights' postwar housing from the 1950s through 1970s carries foundation and utility penetration conditions providing reliable fall entry.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Dearborn Heights' older multi-family and commercial buildings, concentrating in kitchen and bathroom areas where gel bait programs are the effective treatment.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "MSU Extension confirms eastern subterranean termite activity across Wayne County. Dearborn Heights' crawl-space construction from the postwar era carries meaningful termite exposure.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established in southeastern Michigan. They aggregate on Dearborn Heights building faces in September seeking overwintering sites in wall voids.",
+      },
+      {
+        name: "carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August",
+        note: "Carpenter ants are active in Dearborn Heights' residential neighborhoods from late spring through summer, exploiting moisture-damaged wood in older construction and nearby landscape trees.",
+      },
+    ],
+    localHook:
+      "Dearborn Heights borders Dearborn to the east and is part of the western Wayne County suburban corridor with dense postwar residential development from the 1950s through 1970s. This housing vintage creates consistent fall pest pressure from house mice and stink bugs, and MSU Extension documents subterranean termite activity throughout Wayne County.",
+    intro:
+      "Dearborn Heights is a dense western Wayne County suburb immediately west of Dearborn, with most of its housing built between 1950 and 1975. That postwar construction carries the foundation gaps, aging sill plates, and crawl-space conditions that create consistent fall mouse pressure and documented termite exposure. Stink bugs are well established in southeastern Michigan. German cockroaches are present in older multi-family buildings and commercial areas, and carpenter ants are active through the warmer months in the mature residential neighborhoods.",
+    sections: [
+      {
+        heading: "Fall Mouse Entry in Dearborn Heights' Postwar Housing",
+        body: "The bulk of Dearborn Heights' residential construction dates from the 1950s through the early 1970s, when suburban development spread rapidly through western Wayne County. These homes have now accumulated the foundation settling, utility penetration modifications, and sill plate degradation that give house mice reliable fall entry opportunities. MSU Extension identifies mice as the primary fall rodent pest in Michigan. A professional exclusion inspection in September that seals specific entry points at the foundation perimeter, garage door, and utility penetrations is the most durable prevention for Dearborn Heights homeowners.",
+      },
+      {
+        heading: "Stink Bugs and Subterranean Termites",
+        body: "Brown marmorated stink bugs are established in southeastern Michigan, and Dearborn Heights' residential neighborhoods see annual September aggregation on building faces as stink bugs seek overwintering sites. Sealing gaps around window frames, soffits, and utility penetrations before mid-September reduces entry numbers. MSU Extension confirms eastern subterranean termite activity across Wayne County. Dearborn Heights' crawl-space construction from the postwar era carries genuine termite exposure, and annual spring inspections are the standard precaution for homes with crawl spaces or wood near soil contact.",
+      },
+      {
+        heading: "Carpenter Ants and German Cockroaches",
+        body: "Carpenter ants are active in Dearborn Heights from late spring through summer, exploiting moisture-damaged wood in older construction. The city's mature neighborhood trees provide nesting sites close to structures, and any crawl space moisture or wood decay at the roofline creates harborage conditions. German cockroaches concentrate in older multi-family buildings and the commercial corridors along major roads, establishing in kitchen and bathroom areas where targeted gel bait programs are the effective treatment approach.",
+      },
+    ],
+    prevention: [
+      "Complete exterior gap sealing for mice and stink bugs in September before Michigan's October temperature drop",
+      "Schedule annual spring termite inspections for Dearborn Heights homes with crawl spaces",
+      "Address crawl space moisture and any wood decay around windows, doors, and fascia to reduce carpenter ant harborage",
+      "Seal garage door bottom seals and foundation utility penetrations as a priority in September exclusion work",
+      "Apply exterior perimeter treatment to south and west building faces in early September to reduce stink bug entry",
+    ],
+    costNote:
+      "Quarterly pest control programs in Dearborn Heights covering mice, stink bugs, and cockroaches run $85 to $135 per visit. Termite inspections are free with treatment quoted after assessment. Fall combined mouse exclusion and stink bug perimeter treatment programs are the primary seasonal investment.",
+    faqs: [
+      {
+        question:
+          "How is Dearborn Heights' pest profile different from neighboring Dearborn?",
+        answer:
+          "The residential pest profile is similar: both cities have predominantly postwar housing, both are in Wayne County where MSU Extension documents subterranean termite activity, and both see the same fall stink bug and mouse pressure. Dearborn Heights is more fully residential with less of the industrial and commercial character that affects Dearborn's eastern neighborhoods near the Ford Motor campuses. For residential homeowners, the pest calendar and prevention approach are essentially identical.",
+      },
+      {
+        question:
+          "When is the best time to get stink bugs and mice dealt with together in Dearborn Heights?",
+        answer:
+          "September is the effective window for both. Stink bugs begin aggregating on building faces in September in southeastern Michigan, and mice begin their fall push from October onward. Completing exterior gap sealing and perimeter treatment in September addresses both pests before their entry season peaks. A professional inspection that identifies specific entry points and treats the exterior in a single September visit provides the best seasonal protection.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Dearborn", slug: "dearborn" },
+      { name: "Livonia", slug: "livonia" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Dearborn Heights, MI | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Dearborn Heights pest control for house mice, German cockroaches, subterranean termites, stink bugs and carpenter ants. Wayne County western Detroit suburb postwar housing specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

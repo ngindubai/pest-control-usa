@@ -5616,4 +5616,424 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Leander pest control for scorpions, fire ants, subterranean termites, mosquitoes and German cockroaches. Williamson County Austin metro Hill Country edge Texas specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "pharr",
+    name: "Pharr",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~77,000",
+    county: "Hidalgo County",
+    climate: "hot-arid" as const,
+    climateDriver:
+      "Rio Grande Valley subtropical climate with very warm winters, a hot dry summer, and year-round pest activity sustained by the warm baseline temperature with no meaningful cold break",
+    topPests: [
+      "fire ants",
+      "subterranean termites",
+      "American cockroaches",
+      "scorpions",
+      "mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round in the Rio Grande Valley",
+        note: "Texas A&M AgriLife confirms red imported fire ants are active year-round in Hidalgo County with no winter dormancy period. The subtropical climate sustains continuous mound-building activity throughout Pharr's residential lawns and parks.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms spring through summer",
+        note: "Texas A&M AgriLife documents subterranean termite activity throughout Hidalgo County. The Rio Grande Valley's subtropical climate means year-round foraging activity with no winter break.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are common in Pharr's sewer infrastructure and commercial areas, moving into structures through drains and foundation gaps. The warm subtropical climate sustains activity throughout the year.",
+      },
+      {
+        name: "scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round",
+        note: "Texas A&M AgriLife documents striped bark scorpions throughout Hidalgo County. They enter through weep holes, foundation gaps, and utility penetrations and shelter in wall voids and stored items.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak summer wet season",
+        note: "The Rio Grande Valley's warm climate sustains mosquito activity year-round. Aedes aegypti, the dengue and Zika vector, is documented in the county. Peak pressure follows summer rain events.",
+      },
+    ],
+    localHook:
+      "Pharr is in the heart of the Rio Grande Valley in Hidalgo County, one of the fastest-growing metropolitan areas in Texas. The Valley's subtropical climate means there is no winter dieback for fire ants, termites, or cockroaches. Texas A&M AgriLife Extension also documents Africanized honey bees as an established presence in the Rio Grande Valley, a genuine safety consideration not found in most of the country.",
+    intro:
+      "Pharr's subtropical climate in the Rio Grande Valley creates year-round pest activity unlike most of Texas. Fire ants build mounds continuously throughout the year with no winter dormancy. Subterranean termites, including both Eastern and Formosan species documented by Texas A&M AgriLife in the Valley, are active year-round. American cockroaches are common in both residential and commercial settings. Striped bark scorpions are present throughout Hidalgo County, and mosquitoes peak during the Rio Grande Valley's summer wet periods. Africanized honey bees are also documented in the region and warrant awareness for any outdoor activity near established bee colonies.",
+    sections: [
+      {
+        heading: "Fire Ants and Subterranean Termites: Year-Round in Pharr",
+        body: "The Rio Grande Valley's subtropical climate eliminates the winter cold that slows fire ant and termite activity in most of Texas. Fire ants in Pharr build and maintain mounds year-round with no dormant period, which means the two-step treatment program recommended by Texas A&M AgriLife applies every spring and fall rather than once per season. Broadcast bait reduces overall colony pressure across the yard, followed by individual mound treatment for remaining active colonies. Subterranean termites are equally active year-round, and both Eastern and Formosan species are documented in Hidalgo County. Annual professional inspections and a current soil treatment or baiting program are the standard protection for Pharr's housing.",
+      },
+      {
+        heading: "Scorpions and American Cockroaches in Pharr",
+        body: "Striped bark scorpions are present throughout Hidalgo County and enter structures through foundation gaps, weep holes in masonry, and utility penetrations at night. They shelter in wall voids, under debris, and in shoes and clothing left on the floor. Texas A&M AgriLife recommends sealing foundation-level entry points, reducing exterior debris, and using professional quarterly exterior programs to manage scorpion pressure around structures. American cockroaches are found in Pharr's sewer infrastructure and move into structures through drains and foundation gaps at night, with activity elevated in commercial areas.",
+      },
+      {
+        heading: "Mosquitoes and Africanized Honey Bees in the Valley",
+        body: "Mosquitoes in Pharr and the Rio Grande Valley are active through most of the year, with the peak period during the summer rainy season from June through October. Aedes aegypti, the primary dengue and Zika vector, is documented in the Valley and breeds in small residential containers. Eliminating standing water is the first priority. Professional barrier spray programs provide protection for outdoor living areas. Africanized honey bees are documented in Hidalgo County by Texas A&M AgriLife and TPWD. They are more defensive than European honey bees and should not be approached or disturbed. Any established colony near a structure warrants professional removal.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant broadcast bait to the entire yard twice per year since Pharr's subtropical climate sustains year-round colony activity",
+      "Schedule annual termite inspections given the Rio Grande Valley's year-round termite activity with no winter dieback",
+      "Seal weep holes, foundation gaps, and exterior utility penetrations to reduce scorpion and cockroach entry",
+      "Eliminate all standing water sources every 3 to 4 days year-round to interrupt mosquito breeding in the Valley's warm climate",
+      "Contact a licensed pest professional for any established bee colony near your Pharr property rather than attempting removal yourself",
+    ],
+    costNote:
+      "Quarterly pest control programs in Pharr covering fire ants, scorpions, cockroaches, and exterior monitoring run $100 to $160 per visit. Termite soil treatments range from $800 to $1,800. Mosquito barrier spray programs run $55 to $85 per monthly treatment. Programs covering all seasonal pests in the Valley are often structured as year-round monthly or bimonthly service.",
+    faqs: [
+      {
+        question:
+          "Do fire ants in Pharr ever stop being active given the Rio Grande Valley's warm climate?",
+        answer:
+          "No. Unlike fire ants in north Texas or other states where cold winters reduce activity, fire ants in Pharr and the Rio Grande Valley remain active year-round with no dormant period. Texas A&M AgriLife Extension documents this as a characteristic of the Valley's subtropical climate. The two-step treatment program is effective year-round in the Valley, applied in spring and fall to maintain sustained control rather than as a one-time seasonal treatment.",
+      },
+      {
+        question:
+          "Are Africanized honey bees a real concern in Pharr, or just a precaution?",
+        answer:
+          "They are a real and documented presence. Texas A&M AgriLife and the Texas Parks and Wildlife Department confirm Africanized honey bee establishment throughout the Rio Grande Valley, including Hidalgo County. They are more defensive than European honey bees and respond more aggressively to disturbance near the colony. Any established colony near a structure, in a wall void, under debris, or in a tree hollow, should be handled by a licensed pest professional rather than attempted removal. This is not an occasional curiosity: it is the standard advisory for the Valley region.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "McAllen", slug: "mcallen" },
+      { name: "San Antonio", slug: "san-antonio" },
+      { name: "Corpus Christi", slug: "corpus-christi" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Pharr, TX | Fire Ants, Termites & Scorpions",
+    metaDescription:
+      "Pharr pest control for fire ants, subterranean termites, American cockroaches, scorpions and mosquitoes. Hidalgo County Rio Grande Valley Africanized honey bee aware specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "missouri-city",
+    name: "Missouri City",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~75,000",
+    county: "Fort Bend County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Greater Houston hot-humid subtropical climate with hot summers, mild winters, high year-round humidity, and a long pest-active season sustained by the Gulf moisture influence",
+    topPests: [
+      "fire ants",
+      "subterranean termites",
+      "mosquitoes",
+      "German cockroaches",
+      "American cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November peak",
+        note: "Texas A&M AgriLife confirms fire ants are active throughout Fort Bend County from spring through fall. Missouri City's residential turf areas carry consistent mound pressure that rebuilds quickly after rain events.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through April",
+        note: "Texas A&M AgriLife documents both Eastern and Formosan subterranean termites in Fort Bend County. The hot-humid Houston-area climate sustains year-round foraging activity with no winter break.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through November peak",
+        note: "Missouri City's numerous retention lakes and drainage channels provide sustained Culex mosquito breeding habitat from spring through fall. West Nile virus is monitored in Fort Bend County.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches concentrate in Missouri City's multi-unit residential buildings and commercial food service areas, requiring interior gel bait programs for effective control.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are found in Missouri City's sewer infrastructure and move into structures through drains and foundation gaps. The hot-humid climate sustains activity year-round.",
+      },
+    ],
+    localHook:
+      "Missouri City is a southwest Houston suburb in Fort Bend County, with numerous retention lakes and drainage features that create persistent mosquito breeding habitat throughout the warm season. Fort Bend County's humid subtropical climate and Texas A&M AgriLife-documented Formosan termite presence make Missouri City one of the more termite-exposed cities in the Houston metro area.",
+    intro:
+      "Missouri City's location in Fort Bend County places it in one of the most active pest zones in the Houston metropolitan area. Fire ants are a year-round lawn and landscape concern throughout the city. Texas A&M AgriLife Extension documents both Eastern and Formosan subterranean termites in Fort Bend County, with Formosan colonies reaching sizes capable of causing serious structural damage quickly. The city's network of retention lakes and drainage channels creates sustained mosquito breeding habitat. German and American cockroaches are year-round structural concerns.",
+    sections: [
+      {
+        heading: "Formosan Termites in Fort Bend County",
+        body: "Texas A&M AgriLife Extension documents Formosan subterranean termite establishment in Fort Bend County, placing Missouri City in one of the most termite-active areas of the Houston metro. Formosan colonies are significantly larger and more destructive than Eastern subterranean colonies, and the Houston area's warm humid climate sustains year-round foraging activity with no winter break. Missouri City's residential development, particularly in areas where new construction disturbs existing soil and the established termite population, carries meaningful risk. Annual professional inspections and a current soil treatment or bait station program are the standard protection for all Missouri City structures.",
+      },
+      {
+        heading: "Fire Ants and Retention Lake Mosquitoes",
+        body: "Red imported fire ants are active throughout Missouri City from early spring through late fall, with mound pressure highest after rain events when soil is disturbed and colonies rebuild. The two-step treatment program recommended by Texas A&M AgriLife, broadcast bait followed by individual mound treatment, provides the most durable lawn control. Missouri City's numerous retention lakes and drainage channels create Culex mosquito breeding habitat from April through October. Properties adjacent to retention ponds see above-average mosquito pressure. Professional larvicide applications to accessible water features and barrier spray to yard vegetation are the most effective controls.",
+      },
+      {
+        heading: "Cockroaches: German and American Species",
+        body: "German cockroaches are the primary structural cockroach in Missouri City's commercial and multi-family residential settings, concentrating in kitchen and bathroom areas. They require gel bait programs for effective control. American cockroaches are common in Missouri City's sewer infrastructure and enter structures through drains and foundation gaps. They are more frequently encountered near older commercial areas and properties with sewer access points close to the structure. Exterior perimeter treatments complement interior bait programs for year-round cockroach management.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant broadcast bait to lawns in spring when soil temperatures exceed 65 degrees, then treat remaining active mounds individually",
+      "Schedule annual termite inspections given Fort Bend County's documented Formosan termite presence",
+      "Apply mosquito larvicide tablets to retention pond edges and ornamental water features monthly during the active season",
+      "Eliminate standing water from containers, gutters, and low areas every 3 to 4 days during warm months",
+      "Seal foundation gaps, drain penetrations, and exterior utility entries to reduce American cockroach access to the structure",
+    ],
+    costNote:
+      "Quarterly pest control programs in Missouri City covering fire ants, cockroaches, and exterior monitoring run $100 to $160 per visit. Termite soil treatments range from $900 to $2,000 depending on structure size. Mosquito barrier spray programs run $65 to $90 per monthly treatment during the active season.",
+    faqs: [
+      {
+        question:
+          "Are Formosan termites really present in Missouri City and Fort Bend County?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension documents Formosan subterranean termite establishment in Fort Bend County. Formosan colonies are significantly more destructive than Eastern subterranean colonies because of their much larger size and faster foraging rate. Houston's warm humid climate means both species are active year-round with no winter dormancy period. Missouri City's rapid residential growth has placed many new structures in areas with existing termite populations in the soil. Annual professional inspections are the most important protection step.",
+      },
+      {
+        question:
+          "Do Missouri City's retention lakes create year-round mosquito problems?",
+        answer:
+          "Retention lakes create year-round breeding potential for Culex mosquitoes because they provide permanent standing water. In Missouri City's warm climate, Culex activity continues from April through November, and properties adjacent to retention ponds see significantly higher adult mosquito pressure than inland residential areas. Professional larvicide applications to accessible pond edges and barrier spray programs for yard vegetation provide the most effective residential protection for lakeside properties.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Houston", slug: "houston" },
+      { name: "Sugar Land", slug: "sugar-land" },
+      { name: "Pearland", slug: "pearland" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Missouri City, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Missouri City pest control for fire ants, subterranean termites, mosquitoes, German cockroaches and American cockroaches. Fort Bend County Houston southwest suburb Formosan termite specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mansfield",
+    name: "Mansfield",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~69,000",
+    county: "Tarrant County",
+    climate: "hot-arid" as const,
+    climateDriver:
+      "North Texas semi-arid climate with hot summers, mild winters, and a long pest-active season from March through November sustained by the DFW area's warm baseline temperatures",
+    topPests: [
+      "fire ants",
+      "scorpions",
+      "subterranean termites",
+      "German cockroaches",
+      "mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November peak",
+        note: "Texas A&M AgriLife confirms fire ants are active throughout Tarrant County. Mansfield's fast-growing new subdivisions are built on previously undeveloped terrain where fire ants were already established before construction.",
+      },
+      {
+        name: "scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round",
+        note: "Striped bark scorpions are documented throughout Tarrant County by Texas A&M AgriLife. Mansfield's new subdivisions provide fresh harborage in weep holes and foundation gaps that scorpions exploit quickly after construction.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through April",
+        note: "Texas A&M AgriLife confirms eastern subterranean termite activity throughout Tarrant County. Disturbed soil in Mansfield's new subdivision areas contains existing termite populations that immediately affect new construction.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Mansfield's commercial food service corridors and multi-unit residential buildings, requiring interior gel bait programs for effective control.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October peak",
+        note: "Drainage corridors and retention ponds in Mansfield's new residential development create Culex mosquito breeding habitat from spring through fall.",
+      },
+    ],
+    localHook:
+      "Mansfield is a fast-growing south Tarrant County suburb between Fort Worth and Arlington. The city's rapid residential expansion has placed new subdivisions in areas where fire ants, scorpions, and subterranean termites were already established in the undisturbed soil, creating immediate pest pressure for new homeowners that persists through the building's life.",
+    intro:
+      "Mansfield's growth as a south Tarrant County suburb has been rapid, with significant new residential development moving into terrain where fire ants, striped bark scorpions, and subterranean termites were well established before construction began. Texas A&M AgriLife documents subterranean termite activity throughout Tarrant County, and the striped bark scorpion is common in the Dallas-Fort Worth area. Fire ants are a year-round lawn concern. German cockroaches are present in commercial food service areas, and mosquitoes peak during the warm months near the Johnson Creek and other drainage corridors in the city.",
+    sections: [
+      {
+        heading: "Fire Ants and Scorpions in New Mansfield Subdivisions",
+        body: "Mansfield's new residential subdivisions are often built on undeveloped terrain where fire ants and scorpions already had established populations. The soil disturbance from grading and construction disrupts these populations temporarily, but colonies re-establish quickly once construction is complete and landscaping is installed. New homeowners in Mansfield's growing western and southern subdivisions should expect fire ant pressure in the yard within the first season and scorpion presence in and around the structure as populations reestablish near new buildings. Texas A&M AgriLife recommends beginning a scheduled quarterly exterior program within the first six months of moving into any new Tarrant County home.",
+      },
+      {
+        heading: "Subterranean Termites in Tarrant County",
+        body: "Texas A&M AgriLife confirms eastern subterranean termite activity throughout Tarrant County, including Mansfield's growing residential areas. The disturbed soil around new construction actually introduces more termite-to-structure contact than established neighborhoods because grading and foundation work brings soil into proximity with wood framing. Annual professional inspections starting from the first year of occupancy are the standard protection approach for Mansfield homes. Pre-construction soil treatments applied during the building process provide initial protection, but these treatments have defined effective lifespans and should be followed by monitoring.",
+      },
+      {
+        heading: "German Cockroaches and Mosquitoes",
+        body: "German cockroaches are present in Mansfield's commercial food service corridors and in the multi-family residential developments along major commercial routes. They concentrate in kitchen and bathroom areas and require gel bait programs for control. Mosquitoes peak during the warm months, with the drainage corridors and retention ponds associated with Mansfield's new residential development creating breeding habitat. Eliminating residential standing water and applying barrier spray during the active season are the effective residential strategies.",
+      },
+    ],
+    prevention: [
+      "Begin a quarterly exterior pest program immediately after moving into a new Mansfield home to establish protection before fire ants and scorpions reestablish",
+      "Apply fire ant broadcast bait to the entire yard in spring and fall to reduce overall colony pressure",
+      "Schedule an annual termite inspection starting from year one given Tarrant County's documented termite activity",
+      "Seal weep holes, foundation gaps, and exterior utility penetrations to reduce scorpion entry at the structure",
+      "Eliminate standing water from retention ponds, containers, and drainage areas weekly during the warm season",
+    ],
+    costNote:
+      "Quarterly pest control programs in Mansfield covering fire ants, scorpions, and cockroaches run $95 to $155 per visit. Termite inspections are free with treatment quoted after assessment. Mosquito barrier spray programs run $60 to $85 per monthly application during the active season.",
+    faqs: [
+      {
+        question:
+          "Why are fire ants and scorpions such an immediate issue in new Mansfield subdivisions?",
+        answer:
+          "New Mansfield subdivisions are built on previously undeveloped terrain where fire ant colonies and scorpion populations were already established before construction. The grading and building process displaces them temporarily, but colonies reestablish quickly once the structure is complete and landscaping is installed. The new construction provides fresh harborage opportunities for scorpions in weep holes and foundation gaps. New homeowners should expect both pests to be active from the first season and begin a scheduled professional program promptly.",
+      },
+      {
+        question:
+          "Does Mansfield need termite protection for new construction homes?",
+        answer:
+          "Yes. Texas A&M AgriLife documents eastern subterranean termite activity throughout Tarrant County. New construction in Mansfield typically receives a pre-construction soil treatment, but these treatments have defined effective lifespans. Beginning annual professional inspections from year one lets you verify the treatment is still effective and identifies any early activity before it becomes structural damage. New construction disturbs soil in ways that can actually increase termite-to-wood contact compared to established properties.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Fort Worth", slug: "fort-worth" },
+      { name: "Arlington", slug: "arlington" },
+      { name: "Dallas", slug: "dallas" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Mansfield, TX | Fire Ants, Scorpions & Termites",
+    metaDescription:
+      "Mansfield pest control for fire ants, scorpions, subterranean termites, German cockroaches and mosquitoes. Tarrant County DFW south suburb fast-growth new subdivision specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "baytown",
+    name: "Baytown",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~83,000",
+    county: "Harris County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Gulf Coast hot-humid subtropical climate with hot summers, mild winters, very high year-round humidity from Galveston Bay proximity, and a long pest-active season from February through November",
+    topPests: [
+      "mosquitoes",
+      "fire ants",
+      "subterranean termites",
+      "American cockroaches",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "February through November, peak June through September",
+        note: "Baytown's Galveston Bay shoreline and tidal marsh areas create sustained Culex and Aedes mosquito populations over one of the longest active seasons in the Houston metro. The coastal climate extends activity well beyond inland suburbs.",
+      },
+      {
+        name: "fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November peak",
+        note: "Texas A&M AgriLife confirms fire ants are active throughout Harris County. Baytown's residential lawns and open areas carry consistent fire ant mound pressure that rebuilds quickly after rain events.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through April",
+        note: "Texas A&M AgriLife documents both Eastern and Formosan subterranean termites throughout Harris County. Baytown's hot-humid Gulf Coast climate sustains year-round foraging activity.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are common in Baytown's older commercial and sewer infrastructure adjacent to the Ship Channel, moving into structures through drains and foundation gaps.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches concentrate in Baytown's commercial food service and multi-unit residential areas, requiring interior gel bait programs for effective control.",
+      },
+    ],
+    localHook:
+      "Baytown sits on Galveston Bay adjacent to the Houston Ship Channel, with the petrochemical and industrial complex creating both the city's economic character and a shoreline-edge environment where mosquito pressure is among the most intense in the Houston metro. The bay's extensive tidal marsh and shoreline habitat produces year-round mosquito populations that affect Baytown's residential neighborhoods.",
+    intro:
+      "Baytown's position on Galveston Bay creates pest conditions defined by the bay's influence: intense mosquito pressure from the tidal marshes along the shoreline, the same Formosan and Eastern subterranean termite pressure documented by Texas A&M AgriLife throughout Harris County, and year-round cockroach activity sustained by the Gulf Coast's warm humid climate. Fire ants are active throughout the growing season in Baytown's residential areas. The city's industrial character and the Ship Channel corridor also create elevated rodent and cockroach pressure in commercial areas adjacent to the waterfront.",
+    sections: [
+      {
+        heading: "Galveston Bay Shoreline and Mosquito Pressure in Baytown",
+        body: "Baytown's Galveston Bay shoreline includes tidal marshes and brackish water habitats that produce Aedes and Culex mosquito populations for much of the year. The warm Gulf Coast climate extends the active mosquito season to roughly February through November, significantly longer than further inland. Properties near the bay, the Ship Channel, and the tidal marsh areas face some of the most sustained mosquito pressure in the Houston metro. Mosquito activity peaks from June through September during the wet season, but the Gulf Coast's mild winters mean activity never fully stops. Professional barrier spray programs on yard vegetation and larvicide applications to accessible standing water are the standard residential approach.",
+      },
+      {
+        heading: "Subterranean Termites and Fire Ants",
+        body: "Texas A&M AgriLife Extension documents both Eastern and Formosan subterranean termite activity throughout Harris County. Baytown's hot-humid Gulf Coast climate sustains year-round termite foraging activity with no winter break. Annual professional inspections and a current soil treatment or bait station program are the standard protection for Baytown's residential and commercial structures. Fire ants are active in Baytown from March through November, with mound pressure highest in open turf areas and garden beds. The two-step treatment program recommended by Texas A&M, broadcast bait followed by individual mound treatment, provides the most durable seasonal control.",
+      },
+      {
+        heading: "American and German Cockroaches in the Ship Channel Corridor",
+        body: "American cockroaches are common in Baytown's older commercial areas and sewer infrastructure adjacent to the Ship Channel, moving into structures through drains and foundation gaps at night. The industrial character of the Ship Channel corridor sustains both American and German cockroach populations in the adjacent commercial areas. German cockroaches concentrate in food service and multi-family residential settings, requiring interior gel bait programs. The warm year-round climate means there is no cold season that reduces cockroach pressure, making quarterly exterior programs with interior spot treatments the appropriate year-round strategy.",
+      },
+    ],
+    prevention: [
+      "Apply professional mosquito barrier spray to yard vegetation every 3 to 4 weeks from February through November for properties near Galveston Bay",
+      "Eliminate standing water in containers, gutters, and low areas every 3 to 4 days during the active mosquito season",
+      "Schedule annual termite inspections given Harris County's documented Formosan and Eastern subterranean termite presence",
+      "Apply fire ant broadcast bait to lawns in spring and fall when soil temperatures are above 65 degrees",
+      "Seal around drains, foundation gaps, and exterior utility entries to reduce American cockroach access from the sewer system",
+    ],
+    costNote:
+      "Quarterly pest control programs in Baytown covering fire ants, cockroaches, and exterior monitoring run $100 to $160 per visit. Termite soil treatments range from $900 to $2,000. Mosquito barrier spray programs for bay-adjacent properties are typically quoted monthly at $65 to $95 per application during the extended Gulf Coast season.",
+    faqs: [
+      {
+        question:
+          "Is mosquito pressure in Baytown worse than in inland Houston suburbs?",
+        answer:
+          "Yes. Baytown's Galveston Bay shoreline, tidal marshes, and proximity to the Ship Channel waterways create breeding habitat that sustains mosquito populations over a longer season than inland Harris County suburbs. The Gulf Coast's mild winters also extend the active season to roughly February through November in Baytown, compared to April through October farther inland. Professional barrier spray programs are the standard recommendation for bay-adjacent properties throughout the extended season.",
+      },
+      {
+        question:
+          "Do Formosan termites require different treatment than regular termites in Baytown?",
+        answer:
+          "The treatment methods, soil barriers and bait station systems, are similar for both species, but the urgency of consistent treatment is greater with Formosan termites. Texas A&M AgriLife documents Formosan termite presence in Harris County, and their colonies are significantly larger and more destructive than Eastern subterranean colonies. A Formosan colony can cause structural damage in two to three years without treatment in Houston's warm climate. Annual inspections confirm whether a current treatment is effective, and Baytown's year-round warm temperatures mean there is no seasonal break in foraging activity.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Houston", slug: "houston" },
+      { name: "Pasadena", slug: "pasadena" },
+      { name: "League City", slug: "league-city" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Baytown, TX | Mosquitoes, Termites & Fire Ants",
+    metaDescription:
+      "Baytown pest control for mosquitoes, fire ants, subterranean termites, American cockroaches and German cockroaches. Harris County Galveston Bay Ship Channel Houston Gulf Coast specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

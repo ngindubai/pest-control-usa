@@ -1081,4 +1081,214 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaDescription:
       "York PA pest control for stink bugs, house mice, subterranean termites, deer ticks and mosquitoes. York County South Mountain core stink bug zone historic rowhouse specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "wilkes-barre",
+    name: "Wilkes-Barre",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3" as const,
+    population: "~40,000",
+    county: "Luzerne County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Northeast Pennsylvania continental climate in the Wyoming Valley, with cold winters, warm humid summers, and a fall pest surge as Pocono and Endless Mountain air masses push temperatures down sharply from September",
+    topPests: [
+      "house mice",
+      "stink bugs",
+      "subterranean termites",
+      "German cockroaches",
+      "yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "Penn State Extension identifies house mice as the primary fall rodent pest in Pennsylvania. Wilkes-Barre's older coal-era housing carries accumulated foundation gaps and modified utility penetrations that provide mice reliable fall entry.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Penn State Extension documents brown marmorated stink bugs throughout Pennsylvania including Luzerne County. They aggregate on Wilkes-Barre building faces in September and October seeking overwintering sites.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "Penn State Extension confirms eastern subterranean termite activity throughout Luzerne County. The Susquehanna River corridor's moisture elevates risk for adjacent older housing with crawl spaces.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Wilkes-Barre's older commercial and multi-unit residential buildings, concentrating in kitchen areas where interior gel bait programs are the effective treatment.",
+      },
+      {
+        name: "yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October peak",
+        note: "Yellow jackets build ground and wall void nests in Wilkes-Barre's residential neighborhoods, reaching peak defensiveness in August and September. Older construction provides numerous wall void nesting opportunities.",
+      },
+    ],
+    localHook:
+      "Wilkes-Barre is the seat of Luzerne County in the Wyoming Valley along the Susquehanna River. The city's former anthracite coal mining identity created a dense urban housing stock from the late 19th and early 20th centuries that carries significant pest access in its aging foundations and basement configurations. The Susquehanna River corridor adds mosquito harborage through the summer and occasional flooding that creates post-flood rodent pressure.",
+    intro:
+      "Wilkes-Barre's older housing stock, much of it built during the anthracite era from the 1880s through the 1930s, carries the foundation gaps, basement conditions, and aging sill plates that give house mice reliable fall entry and that create subterranean termite exposure throughout the city. Penn State Extension documents stink bugs throughout Pennsylvania, and Luzerne County sees the same September aggregation that affects the broader northeast and mid-Atlantic region. The Susquehanna River adds mosquito pressure in summer, and the wooded ridgelines of the Pocono and Endless Mountains around the valley create deer tick habitat that reaches into the city's outer neighborhoods.",
+    sections: [
+      {
+        heading: "House Mice and Stink Bugs in the Wyoming Valley's Fall",
+        body: "Both pests peak in fall in Wilkes-Barre, driven by the Wyoming Valley's sharp autumn temperature drops as cold air from the Pocono Plateau pushes down into the valley. House mice begin their entry push from October onward through foundation cracks, sill plate gaps, and utility penetrations. Stink bugs aggregate on south-facing building faces from September, seeking wall void overwintering sites. Penn State Extension recommends completing exterior gap sealing and perimeter treatment on building faces before mid-September for northeast Pennsylvania. Wilkes-Barre's older housing stock carries more entry opportunities than newer construction, making September inspection work particularly important.",
+      },
+      {
+        heading: "Termites and the Susquehanna River Corridor",
+        body: "Penn State Extension documents eastern subterranean termite activity throughout Luzerne County. The Susquehanna River corridor's persistent soil moisture creates conditions that sustain termite foraging activity in adjacent properties at elevated levels compared to drier inland areas. Wilkes-Barre's older construction, with basement and crawl-space configurations and wood near grade, carries meaningful termite exposure. Annual professional spring inspections are the standard precaution, particularly for the city's historic housing stock near the river corridor.",
+      },
+      {
+        heading: "Yellow Jackets and German Cockroaches",
+        body: "Yellow jackets build nests in ground cavities and wall voids in Wilkes-Barre's residential neighborhoods from late spring through summer, reaching peak colony size and peak defensiveness in August and September. Wall void nests in Wilkes-Barre's older housing are a consistent service call because the aged exterior wood and accumulated gaps provide numerous nest entry points. Professional treatment at the nest entrance at dusk is the appropriate response. German cockroaches are present in older commercial food service and multi-unit residential buildings, requiring interior gel bait programs for control.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, sill plate gaps, and utility penetrations in September before the fall mouse entry surge in the Wyoming Valley",
+      "Apply a perimeter treatment to south and west building faces in early September to reduce stink bug overwintering entry",
+      "Schedule annual spring termite inspections for Wilkes-Barre's older housing, particularly properties near the Susquehanna River corridor",
+      "Conduct tick checks after outdoor activity in the wooded ridgeline areas surrounding the Wyoming Valley",
+      "Eliminate standing water in gutters and containers from May through September to reduce Susquehanna corridor mosquito breeding",
+    ],
+    costNote:
+      "Quarterly pest control programs in Wilkes-Barre covering mice, stink bugs, and cockroaches run $80 to $130 per visit. Termite inspections are free with treatment quoted after assessment. Fall combined mouse exclusion and stink bug perimeter treatment programs are the primary seasonal investment.",
+    faqs: [
+      {
+        question:
+          "Why does Wilkes-Barre's old coal-era housing create more pest problems than newer construction?",
+        answer:
+          "The late-19th and early-20th century rowhouses and single-family homes built during Wilkes-Barre's coal era have accumulated foundation settling, modified utility penetrations, and basement configurations with aging wood sill plates that create numerous entry opportunities for house mice and subterranean termites. These homes are also typically in denser urban configurations where shared walls and connected infrastructure allow pest movement between properties. Newer construction with modern foundation sealing and pressure-treated sill plates carries significantly less inherent pest access.",
+      },
+      {
+        question:
+          "Is deer tick pressure significant in Wilkes-Barre given the Wyoming Valley's surrounding ridgelines?",
+        answer:
+          "Yes. The Pocono Plateau and Endless Mountains ridgelines surrounding the Wyoming Valley sustain wooded deer habitats where deer tick populations concentrate. Pennsylvania Department of Health places Luzerne County in an elevated Lyme disease risk category. While the tick pressure is most intense in the wooded ridge areas, the valley's wooded residential edges and stream corridors carry meaningful exposure. Tick checks after any outdoor activity in wooded or brushy areas are the most important personal precaution for Wilkes-Barre residents.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Scranton", slug: "scranton" },
+      { name: "Harrisburg", slug: "harrisburg" },
+      { name: "Philadelphia", slug: "philadelphia" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Wilkes-Barre, PA | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Wilkes-Barre pest control for house mice, stink bugs, subterranean termites, German cockroaches and yellow jackets. Luzerne County Wyoming Valley Susquehanna River anthracite region specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "altoona",
+    name: "Altoona",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3" as const,
+    population: "~44,000",
+    county: "Blair County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Central Pennsylvania continental climate at the Allegheny Front, with cold winters, warm humid summers, and an earlier fall pest surge than eastern Pennsylvania driven by Allegheny Mountain air masses",
+    topPests: [
+      "house mice",
+      "stink bugs",
+      "subterranean termites",
+      "deer ticks",
+      "yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through March peak",
+        note: "Penn State Extension identifies house mice as the primary fall rodent pest in Pennsylvania. Altoona's mountain position means earlier fall temperature drops bring the mouse entry season forward by two to three weeks compared to eastern Pennsylvania.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Late August through November",
+        note: "Penn State Extension identifies the Allegheny Mountain ridge communities as experiencing the stink bug fall migration on an earlier calendar than lowland Pennsylvania cities. Altoona homeowners need to complete prevention work by mid-August.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "Penn State Extension confirms eastern subterranean termite activity throughout Blair County. Altoona's older housing near the historic downtown and railroad corridor carries crawl-space exposure.",
+      },
+      {
+        name: "deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "May through July nymph peak, year-round adults",
+        note: "Pennsylvania Department of Health places Blair County in the high Lyme disease risk zone. The Allegheny Front ridgelines immediately east of Altoona sustain significant deer tick populations in the wooded terrain.",
+      },
+      {
+        name: "yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October peak",
+        note: "Yellow jackets build ground and wall void nests throughout Altoona's residential and wooded areas, reaching peak colony size and defensiveness in August and September.",
+      },
+    ],
+    localHook:
+      "Altoona sits at the eastern foot of the Allegheny Mountains in Blair County, best known for the historic Horseshoe Curve railroad grade. The Allegheny Front ridge immediately east of the city creates a colder, earlier fall than most of central Pennsylvania, which means the stink bug and mouse prevention window here runs earlier than in cities on the eastern side of the mountains. The wooded mountain terrain sustains significant deer tick populations in the adjacent ridgeline areas.",
+    intro:
+      "Altoona's location at the Allegheny Front creates a pest calendar that runs two to three weeks ahead of eastern Pennsylvania's cities. The mountain air masses push fall temperatures down earlier in September, triggering stink bug aggregation and mouse entry pressure before the rest of the state's population is thinking about it. Penn State Extension documents stink bugs throughout Pennsylvania, and Blair County sees peak fall aggregation on the earlier side of the state's timeline. The wooded Allegheny ridgeline immediately east of the city sustains significant deer tick populations, and Penn State Extension confirms eastern subterranean termite activity across central Pennsylvania including Blair County.",
+    sections: [
+      {
+        heading: "Altoona's Mountain Climate and Earlier Fall Pest Timing",
+        body: "Altoona's position at the base of the Allegheny Front means fall temperature drops here arrive two to three weeks earlier than in Harrisburg or Philadelphia. Stink bugs begin aggregating on building faces in late August to early September, and house mice start their entry push from late September rather than mid-October. This earlier timing means Altoona homeowners need to complete exterior gap sealing and perimeter treatment by mid-August to get ahead of the stink bug aggregation. Penn State Extension explicitly notes that the Allegheny Mountain ridge communities experience the mid-Atlantic stink bug invasion's pressure on an earlier calendar than the lowland cities east of the mountains.",
+      },
+      {
+        heading: "Deer Ticks in the Allegheny Mountain Corridor",
+        body: "The Allegheny Front ridge and the wooded ridgelines of Blair County create the deer habitat and wooded edge environments where deer tick populations concentrate. Pennsylvania Department of Health places Blair County in the high Lyme disease risk zone. Altoona's suburban and residential areas that back onto wooded ridge terrain carry real tick exposure during the peak nymph season from May through July. Tick checks after any outdoor activity in wooded, brushy, or leaf-litter areas are the most important personal precaution. Professional tick barrier spray targeting the lawn-to-woodland edge reduces encounter rates during the nymph peak.",
+      },
+      {
+        heading: "Termites and Yellow Jackets",
+        body: "Penn State Extension confirms eastern subterranean termite activity across central Pennsylvania including Blair County. Altoona's older residential stock, particularly the late-19th and early-20th century construction near the downtown and the railroad corridor, carries the crawl-space configuration and wood near grade that creates termite exposure. Annual professional spring inspections are the standard precaution. Yellow jackets nest in ground cavities throughout Altoona's residential yards and in wall voids of older construction, reaching peak defensiveness in August and September as colonies are at maximum size.",
+      },
+    ],
+    prevention: [
+      "Complete exterior gap sealing for stink bugs and mice by mid-August to account for Altoona's earlier Allegheny Mountain fall pest timing",
+      "Conduct tick checks after all outdoor activity near the Allegheny Front ridgelines given Blair County's high Lyme disease risk designation",
+      "Schedule annual spring termite inspections for older Altoona homes with crawl spaces, particularly near the historic downtown and railroad corridor",
+      "Inspect ground cover areas and lawn edges in early June for yellow jacket ground nest activity before colonies grow to late-summer peak size",
+      "Seal foundation cracks and utility penetrations in August before the earlier-than-average mouse entry season for mountain Pennsylvania",
+    ],
+    costNote:
+      "Quarterly pest control programs in Altoona covering mice, stink bugs, and exterior monitoring run $80 to $130 per visit. Termite inspections are free with treatment quoted after assessment. Fall exclusion programs timed to the Allegheny Mountain calendar rather than the eastern Pennsylvania standard provide the best seasonal value.",
+    faqs: [
+      {
+        question:
+          "Why does stink bug season start earlier in Altoona than in other Pennsylvania cities?",
+        answer:
+          "Altoona sits at the base of the Allegheny Front, where cold mountain air masses from the Allegheny Mountains push temperatures down earlier in fall than on the eastern side of the ridge. Penn State Extension research identifies the Allegheny Mountain ridge communities as experiencing the stink bug fall migration on an earlier calendar. The practical result for Altoona homeowners is that the prevention window, exterior gap sealing and perimeter treatment, should be completed by mid-August rather than the September timing that applies to Harrisburg or Lancaster.",
+      },
+      {
+        question:
+          "Are the deer tick populations near Altoona actually dangerous, or just a precaution?",
+        answer:
+          "They are a genuine health concern, not just a precaution. Pennsylvania Department of Health places Blair County in the high Lyme disease risk zone based on documented tick population density and Lyme disease incidence. The Allegheny ridgelines sustain significant white-tailed deer populations and the wooded edge habitat that deer ticks depend on. Anyone spending time in wooded or brushy terrain near the ridgelines should conduct thorough tick checks afterward. This applies to residential properties that back onto wooded ridge terrain within the city limits.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Harrisburg", slug: "harrisburg" },
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Scranton", slug: "scranton" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Altoona, PA | Mice, Stink Bugs & Deer Ticks",
+    metaDescription:
+      "Altoona pest control for house mice, stink bugs, subterranean termites, deer ticks and yellow jackets. Blair County Allegheny Mountains Horseshoe Curve central Pennsylvania specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

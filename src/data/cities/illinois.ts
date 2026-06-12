@@ -1648,4 +1648,425 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Evanston pest control for German cockroaches, house mice, stink bugs, subterranean termites and yellow jackets. Cook County Lake Michigan Northwestern University Chicago north shore specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "arlington-heights",
+    name: "Arlington Heights",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3" as const,
+    population: "~76,000",
+    county: "Cook County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Northeastern Illinois continental climate with cold winters, warm humid summers, and a fall pest surge as sharp October temperature drops drive mice and stink bugs toward heated structures",
+    topPests: [
+      "house mice",
+      "stink bugs",
+      "subterranean termites",
+      "German cockroaches",
+      "carpenter ants",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "U of I Extension confirms house mice as the primary fall rodent pest in northeastern Illinois. Arlington Heights' older postwar housing carries the foundation and sill plate conditions that provide reliable fall entry from October onward.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established throughout northeastern Illinois. They aggregate on Arlington Heights building faces each September seeking overwintering sites in wall voids.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "U of I Extension confirms eastern subterranean termite activity throughout Cook County. Arlington Heights' postwar housing with crawl spaces carries meaningful exposure where landscaping is close to the foundation.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Arlington Heights' older multi-family buildings and commercial corridors, requiring interior gel bait programs for effective control.",
+      },
+      {
+        name: "carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August",
+        note: "Arlington Heights' mature residential tree canopy creates above-average carpenter ant habitat. They exploit moisture-damaged wood in older construction and in weakened landscape trees near structures.",
+      },
+    ],
+    localHook:
+      "Arlington Heights is one of the largest suburbs in northwest Cook County, with a substantial stock of 1950s through 1970s residential construction alongside newer development. The older housing carries the foundation and sill plate conditions that create consistent fall mouse pressure, and the city's mature residential tree canopy sustains above-average carpenter ant activity.",
+    intro:
+      "Arlington Heights' residential character spans from 1950s ranch houses to newer construction, with a large core of postwar homes that carry real pest implications. House mice exploit aging foundation conditions in the older stock each fall. Brown marmorated stink bugs are well established in northeastern Illinois. University of Illinois Extension documents eastern subterranean termite activity across Cook County, and Arlington Heights' older construction with crawl spaces carries meaningful termite exposure. Carpenter ants are a consistent late-spring and summer concern in the city's mature neighborhood tree canopy.",
+    sections: [
+      {
+        heading:
+          "House Mice and Stink Bugs: Arlington Heights' Fall Pest Double",
+        body: "Both pests peak in fall in Arlington Heights, but they need different prevention responses. Stink bugs begin aggregating on south and west-facing building faces in September, seeking wall voids and attic spaces for overwintering. Sealing gaps around window frames, soffits, and utility penetrations before mid-September is the effective prevention. Mice push through foundation-level gaps from October as outdoor food sources decline. Sealing garage door seals, foundation cracks, and sill plate openings in September addresses both pests in a single prevention pass, which University of Illinois Extension recommends for northeast Illinois.",
+      },
+      {
+        heading: "Subterranean Termites in Older Arlington Heights Construction",
+        body: "University of Illinois Extension confirms eastern subterranean termite activity throughout Cook County. Arlington Heights' postwar housing stock, particularly the 1950s and 1960s ranch houses with crawl spaces, carries the wood sill plate and soil contact conditions that give termites access. Annual professional spring inspections are the standard precaution for this construction vintage. Homes where landscaping beds are maintained close to the foundation carry additional risk because planting bed soil moisture sustains termite foraging activity near wood access points.",
+      },
+      {
+        heading: "Carpenter Ants and German Cockroaches",
+        body: "Arlington Heights' established residential tree canopy creates above-average carpenter ant habitat compared to newer, less-treed suburbs. Carpenter ants require moist wood to establish galleries, and mature trees weakened by age or storm damage near structures provide nesting sites close to homes. German cockroaches are present in Arlington Heights' older commercial corridors and multi-unit buildings, concentrating in kitchen and bathroom areas. They require gel bait programs rather than exterior sprays for effective control.",
+      },
+    ],
+    prevention: [
+      "Complete exterior gap sealing for mice and stink bugs before mid-September to match northeast Illinois' fall pest timing",
+      "Apply a perimeter treatment to south and west building faces in early September to reduce stink bug entry",
+      "Schedule annual spring termite inspections for Arlington Heights homes with crawl spaces",
+      "Address tree canopy moisture issues and wood decay around the structure to reduce carpenter ant harborage",
+      "Maintain landscaping beds 6 inches back from the foundation to reduce both termite and ant entry conditions",
+    ],
+    costNote:
+      "Quarterly pest control programs in Arlington Heights covering mice, stink bugs, and exterior monitoring run $90 to $145 per visit. Termite inspections are free with treatment quoted after assessment. Fall exclusion and stink bug perimeter treatment programs are the primary seasonal investment for Arlington Heights homeowners.",
+    faqs: [
+      {
+        question:
+          "Is stink bug pressure in Arlington Heights as bad as in other Cook County suburbs?",
+        answer:
+          "Yes. University of Illinois Extension documents brown marmorated stink bug establishment throughout northeastern Illinois, including Cook County. Arlington Heights sees the same annual September aggregation on building faces as other northwest suburbs. The city's older housing stock creates more overwintering entry opportunities than newer construction because the gaps in aging window frames, soffits, and utility penetrations are more numerous. Completing gap sealing before mid-September is the most important timing consideration.",
+      },
+      {
+        question:
+          "Do Arlington Heights homes with newer construction still need termite inspections?",
+        answer:
+          "Newer homes carry lower termite risk but are not immune. Eastern subterranean termites are documented throughout Cook County, and any structure where landscaping soil or wood mulch comes in contact with wood framing carries some exposure. Annual inspections are most critical for homes built before 1980 with crawl spaces, but a baseline inspection every few years is reasonable for newer construction as well.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Chicago", slug: "chicago" },
+      { name: "Elgin", slug: "elgin" },
+      { name: "Waukegan", slug: "waukegan" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Arlington Heights, IL | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Arlington Heights pest control for house mice, stink bugs, subterranean termites, German cockroaches and carpenter ants. Cook County northwest suburb Chicago specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "decatur",
+    name: "Decatur",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3" as const,
+    population: "~72,000",
+    county: "Macon County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Central Illinois continental climate with cold winters, warm humid summers, and a fall pest surge driven by mouse entry pressure and stink bug aggregation as October temperatures drop",
+    topPests: [
+      "house mice",
+      "subterranean termites",
+      "German cockroaches",
+      "stink bugs",
+      "yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "U of I Extension confirms house mice as the primary fall rodent pest in central Illinois. Decatur's grain industry corridor sustains elevated rodent populations that extend into adjacent residential neighborhoods.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "U of I Extension confirms eastern subterranean termite activity throughout Macon County. Decatur's older housing with crawl spaces carries meaningful exposure, particularly near the Sangamon River corridor.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Decatur's older commercial food service corridors and multi-unit buildings, requiring interior gel bait programs for effective control.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established throughout central Illinois. They aggregate on Decatur building faces in September seeking overwintering sites in wall voids and attics.",
+      },
+      {
+        name: "yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October peak",
+        note: "Yellow jackets build ground and wall void nests in Decatur's residential areas through summer, reaching peak defensiveness in August and September near the Lake Decatur corridor.",
+      },
+    ],
+    localHook:
+      "Decatur is Macon County's seat and home to major grain processing operations including Archer-Daniels-Midland. The grain handling industry creates elevated rodent pressure in the commercial and industrial corridors near processing facilities, and this pressure extends into adjacent residential neighborhoods. Lake Decatur adds mosquito harborage through the summer months.",
+    intro:
+      "Decatur's pest profile is shaped by its central Illinois setting and its grain industry. The city's major grain processing operations along the Sangamon River corridor create elevated rodent populations in nearby commercial and industrial areas, with house mice the most commonly reported residential pest. University of Illinois Extension documents eastern subterranean termite activity throughout Macon County. German cockroaches are present in Decatur's older commercial and multi-unit buildings. Stink bugs arrive each fall as they do throughout central Illinois, and Lake Decatur sustains mosquito pressure through the summer.",
+    sections: [
+      {
+        heading: "Grain Industry and Elevated Rodent Pressure in Decatur",
+        body: "Decatur's large grain processing facilities, including major operations along the Sangamon River, create sustained rodent populations in the commercial and industrial corridor that extend into adjacent residential neighborhoods. House mice are the primary species in residential settings. University of Illinois Extension notes that agricultural and grain-handling operations sustain rodent populations that affect surrounding neighborhoods, with the pressure strongest in areas within a half mile of active grain facilities. For Decatur homeowners in these corridors, exterior bait station programs and thorough exclusion work at the foundation level provide the most durable protection.",
+      },
+      {
+        heading: "Subterranean Termites and Stink Bugs",
+        body: "University of Illinois Extension confirms eastern subterranean termite activity throughout Macon County. Decatur's older housing, with a mix of pre-WWII and postwar construction, carries the crawl-space conditions and wood sill plates that create consistent termite exposure. Annual professional spring inspections are the standard precaution. Brown marmorated stink bugs are established in central Illinois, and Decatur's residential neighborhoods see September aggregation on building faces. Sealing exterior gaps before mid-September and applying a perimeter treatment to building faces reduces entry numbers.",
+      },
+      {
+        heading: "Lake Decatur Mosquitoes and German Cockroaches",
+        body: "Lake Decatur, the reservoir created by damming the Sangamon River, creates Culex mosquito breeding habitat that affects neighborhoods along the lake's southern shore and in the creek corridors feeding into it. Peak activity runs from June through August. Eliminating residential standing water and applying professional barrier spray during the active season are the primary controls. German cockroaches concentrate in Decatur's older commercial food service corridors and older apartment buildings, requiring gel bait programs for control.",
+      },
+    ],
+    prevention: [
+      "Maintain exterior rodent bait stations year-round for properties within a half mile of Decatur's grain processing corridor",
+      "Seal foundation cracks, utility penetrations, and garage door gaps in September before the fall mouse entry surge",
+      "Seal exterior gaps in window frames and soffits before mid-September to reduce stink bug overwintering entry",
+      "Schedule annual spring termite inspections for homes with crawl spaces throughout Macon County",
+      "Eliminate standing water in gutters and yard containers from June through August to reduce Lake Decatur-area mosquito breeding",
+    ],
+    costNote:
+      "Quarterly pest control programs in Decatur covering mice, cockroaches, and stink bugs run $80 to $130 per visit. Termite inspections are free with treatment quoted after assessment. Exterior bait station programs for properties near grain processing areas are typically priced annually.",
+    faqs: [
+      {
+        question:
+          "Does Decatur's grain industry really affect pest pressure for residential neighborhoods?",
+        answer:
+          "Yes. University of Illinois Extension acknowledges that grain storage and processing operations sustain rodent populations that extend into adjacent residential areas. The effect is strongest within a half mile of active grain facilities along Decatur's industrial corridor. House mice are the primary residential concern, exploiting foundation gaps and sill plate openings to shelter in heated structures from October through March. Homes in this corridor benefit from both a thorough exclusion inspection and exterior bait station programs.",
+      },
+      {
+        question:
+          "Are termites common in Decatur's older neighborhoods?",
+        answer:
+          "Yes. University of Illinois Extension documents eastern subterranean termite activity throughout Macon County, and Decatur's older housing stock, particularly the pre-WWII and 1940s-1950s construction common in the historic neighborhoods, carries the crawl-space conditions that create meaningful termite exposure. Annual professional spring inspections are the standard precaution. Homes near the Sangamon River corridor carry slightly elevated risk given the river's moisture effect on adjacent soil conditions.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Springfield", slug: "springfield" },
+      { name: "Champaign", slug: "champaign" },
+      { name: "Peoria", slug: "peoria" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Decatur, IL | Mice, Termites & German Cockroaches",
+    metaDescription:
+      "Decatur pest control for house mice, subterranean termites, German cockroaches, stink bugs and yellow jackets. Macon County ADM grain industry Lake Decatur central Illinois specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "skokie",
+    name: "Skokie",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3" as const,
+    population: "~64,000",
+    county: "Cook County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Northeastern Illinois continental climate with cold winters, warm humid summers, and urban density that sustains year-round cockroach pressure in addition to the standard fall mouse and stink bug surge",
+    topPests: [
+      "German cockroaches",
+      "house mice",
+      "stink bugs",
+      "subterranean termites",
+      "bed bugs",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Skokie's pre-1970 apartment stock has accumulated shared wall gaps and utility chases where German cockroaches spread freely between units. U of I Extension confirms German cockroaches as the primary cockroach pest in urban Cook County.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "U of I Extension confirms fall mouse pressure throughout Cook County. Skokie's older urban housing carries the foundation conditions and sill plate gaps that provide mice reliable fall entry from October onward.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established throughout Cook County. Skokie's dense older housing provides numerous overwintering entry opportunities in aging window frames, soffits, and siding gaps.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "U of I Extension confirms eastern subterranean termite activity throughout Cook County. Skokie's older residential areas with pre-1970 crawl-space construction carry meaningful termite exposure.",
+      },
+      {
+        name: "bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Skokie's high population density, active rental market, and direct CTA connection to Chicago create above-average bed bug pressure. High turnover in buildings near transit lines sustains ongoing infestations.",
+      },
+    ],
+    localHook:
+      "Skokie is a densely developed inner suburb immediately north of Chicago's city line in Cook County. The city's dense mix of older apartments, commercial corridors, and connected multi-family housing creates an urban pest profile anchored by German cockroaches and house mice, with stink bugs adding a fall dimension shared with the rest of northeastern Illinois.",
+    intro:
+      "Skokie's density and its older housing stock create a pest environment anchored by German cockroaches and house mice. The city's concentration of pre-1970 apartments and multi-family buildings creates the shared wall conditions and accumulated utility gaps where German cockroaches establish and spread between units. House mice exploit the older construction's foundation conditions each fall. Stink bugs are well established in Cook County. Bed bugs are an ongoing concern in Skokie's dense rental market, associated with high residential turnover in buildings adjacent to the Chicago transit lines.",
+    sections: [
+      {
+        heading: "German Cockroaches in Skokie's Older Multi-Family Buildings",
+        body: "Skokie's concentration of pre-1970 apartments and connected multi-family construction creates the conditions German cockroaches exploit: shared wall cavities, common pipe chases, and accumulated gaps from decades of maintenance work. Moving through these internal pathways, German cockroaches spread throughout buildings regardless of individual unit cleanliness. University of Illinois Extension confirms German cockroaches as the primary cockroach pest in urban and suburban Cook County. Building-wide gel bait programs applied inside cabinets, under appliances, and at plumbing penetrations are the effective approach, as single-unit treatments provide only temporary relief in connected buildings.",
+      },
+      {
+        heading: "House Mice and Fall Entry Pressure",
+        body: "Skokie's older housing stock carries the foundation gaps and sill plate conditions that provide house mice entry each fall. The city's density means mice also move through the shared infrastructure of connected buildings, making exclusion at the building perimeter level important alongside individual unit sealing. October through March is the peak period. A professional inspection that identifies foundation-level entry points and seals them before mid-October is the most durable prevention for Skokie's older residential construction.",
+      },
+      {
+        heading: "Stink Bugs and Bed Bugs",
+        body: "Brown marmorated stink bugs are established in Cook County, and Skokie's residential neighborhoods see annual September aggregation on building exteriors. Sealing gaps around windows and soffits before mid-September reduces entry. Bed bugs are a consistent concern in Skokie's dense rental market, particularly in buildings adjacent to the Yellow and Purple CTA lines where residential turnover is high. Inspecting used furniture and second-hand goods before bringing them home is the most important personal precaution. Professional heat treatment for established bed bug infestations is the most reliable approach.",
+      },
+    ],
+    prevention: [
+      "Pursue building-wide German cockroach treatment in Skokie's older multi-family buildings rather than unit-by-unit approaches",
+      "Seal foundation gaps, door sills, and utility penetrations in September before the fall mouse entry surge",
+      "Inspect used furniture, mattresses, and clothing carefully for bed bugs before bringing them into Skokie rental properties",
+      "Seal exterior gaps in window frames and soffits before mid-September to reduce stink bug overwintering entry",
+      "Coordinate with property management for building-wide programs where cockroaches or mice affect multiple units",
+    ],
+    costNote:
+      "Pest control in Skokie's multi-unit buildings is most effective as a building-wide program. Monthly or bimonthly service is often appropriate for older connected buildings with German cockroach pressure. Single-family homes typically do well on quarterly service. Bed bug heat treatment for a standard unit runs $1,000 to $1,800 depending on size.",
+    faqs: [
+      {
+        question:
+          "Why is German cockroach treatment in Skokie apartments so persistent?",
+        answer:
+          "German cockroaches in Skokie's older apartment buildings move freely between units through shared walls, pipe chases, and utility conduit pathways. Treating one unit stops visible activity temporarily but does not prevent reinfestation from adjacent units. Building-wide treatment at the same time, with gel bait placed at internal harborage points in every unit, is required to interrupt the reinfestation cycle. Property management buy-in for building-wide programs is the key to effective control in Skokie's older connected buildings.",
+      },
+      {
+        question:
+          "Is bed bug risk higher in Skokie given its proximity to Chicago?",
+        answer:
+          "Yes. Bed bug incidence correlates with population density, residential turnover, and connection to urban transit systems. Skokie's density, its significant rental market, and its direct CTA connection to Chicago create the conditions for above-average bed bug pressure. High turnover rental buildings adjacent to transit lines see the most consistent pressure. Inspecting used goods before bringing them home and reporting any evidence of bed bugs to property management immediately are the most important personal steps.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Chicago", slug: "chicago" },
+      { name: "Evanston", slug: "evanston" },
+      { name: "Waukegan", slug: "waukegan" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Skokie, IL | Cockroaches, Mice & Stink Bugs",
+    metaDescription:
+      "Skokie pest control for German cockroaches, house mice, stink bugs, subterranean termites and bed bugs. Cook County dense inner Chicago suburb CTA corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "des-plaines",
+    name: "Des Plaines",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3" as const,
+    population: "~58,000",
+    county: "Cook County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Northeastern Illinois continental climate with cold winters, warm humid summers, and a fall pest surge driven by the sharp October temperature drop that pushes mice and stink bugs toward heated structures",
+    topPests: [
+      "house mice",
+      "German cockroaches",
+      "stink bugs",
+      "subterranean termites",
+      "yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "U of I Extension confirms fall mouse pressure throughout Cook County. Des Plaines' postwar housing carries foundation and utility penetration gaps that provide mice reliable fall entry from October onward.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Des Plaines' commercial corridors and older multi-unit buildings, concentrating in kitchen areas. The O'Hare adjacent commercial corridor sustains elevated cockroach pressure.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established throughout Cook County. They aggregate on Des Plaines building faces each September seeking overwintering sites in wall voids and attics.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "U of I Extension confirms eastern subterranean termite activity throughout Cook County. Des Plaines' older neighborhoods near the Des Plaines River carry above-average exposure given river corridor soil moisture.",
+      },
+      {
+        name: "yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October peak",
+        note: "Yellow jackets build ground and wall void nests in Des Plaines' residential neighborhoods through summer. Properties near the Des Plaines River corridor see above-average activity due to adjacent wooded terrain.",
+      },
+    ],
+    localHook:
+      "Des Plaines borders O'Hare International Airport on its western edge and is crossed by the Des Plaines River. The river creates mosquito harborage in summer and moisture conditions that elevate carpenter ant and termite risk in adjacent residential areas. O'Hare's massive logistics operations sustain rodent populations in nearby industrial areas that can affect the commercial corridors immediately adjacent to the airport.",
+    intro:
+      "Des Plaines sits at the Cook County northwest boundary, defined by its Des Plaines River corridor and its proximity to O'Hare. The river creates mosquito breeding habitat through summer and adds soil moisture that elevates termite and carpenter ant risk in riverside neighborhoods. O'Hare's surrounding industrial and logistics corridor sustains rodent pressure that extends into the city's commercial areas. House mice and stink bugs dominate the fall pest calendar in Des Plaines as they do throughout northeast Illinois.",
+    sections: [
+      {
+        heading: "House Mice and Stink Bugs in Des Plaines",
+        body: "Des Plaines' residential inventory spans from 1950s ranches and split-levels to newer construction, with the older housing carrying the foundation conditions that provide house mice reliable fall entry. Mice push through foundation cracks, garage door gaps, and utility penetrations from October onward. Stink bugs aggregate on south and west building faces in September. University of Illinois Extension recommends completing exterior gap sealing for both pests before mid-September for northeast Illinois. Addressing both in a single September inspection and sealing pass provides the most practical seasonal protection.",
+      },
+      {
+        heading: "Des Plaines River Corridor: Mosquitoes and Termites",
+        body: "The Des Plaines River and its associated riparian areas create Culex mosquito breeding habitat that affects neighborhoods along the river corridor from late spring through September. Properties adjacent to the river and the North Branch Chicago River trail system see above-average seasonal pressure. University of Illinois Extension also documents eastern subterranean termite activity throughout Cook County, and Des Plaines' older neighborhoods near the river, where soil moisture from the river corridor stays elevated, carry above-average termite exposure. Annual spring inspections are the standard precaution for homes with crawl spaces in these areas.",
+      },
+      {
+        heading: "O'Hare Corridor and Rodent Pressure",
+        body: "The massive logistics and cargo operations at O'Hare International Airport and the surrounding industrial and hotel complex create sustained rodent populations in the airport corridor. Commercial and retail properties on the O'Hare edge of Des Plaines can see elevated mouse and rat pressure from this commercial activity. Residential neighborhoods farther from the airport are less affected, but properties along the major commercial corridors connecting to O'Hare benefit from exterior bait station programs in addition to standard quarterly service.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, utility penetrations, and garage door gaps in September before the fall mouse entry surge",
+      "Apply a perimeter treatment to south and west building faces in early September to reduce stink bug entry",
+      "Eliminate standing water in gutters and yard containers from May through September near the Des Plaines River corridor",
+      "Schedule annual spring termite inspections for homes with crawl spaces in riverside Des Plaines neighborhoods",
+      "Maintain exterior bait stations for properties adjacent to O'Hare's commercial and logistics corridor",
+    ],
+    costNote:
+      "Quarterly pest control programs in Des Plaines covering mice, cockroaches, and stink bugs run $90 to $145 per visit. Termite inspections are free with treatment quoted after assessment. Mosquito barrier spray programs for riverside properties run $65 to $90 per monthly application during the active season.",
+    faqs: [
+      {
+        question:
+          "Does living near O'Hare Airport increase pest pressure in Des Plaines?",
+        answer:
+          "Living near the airport's commercial and logistics corridors does create above-average rodent pressure compared to residential neighborhoods farther from O'Hare. The airport's massive food service operations, cargo handling, and hotel complex sustain mouse and rat populations in the immediate commercial corridor. For homes in the adjacent residential areas, exterior bait station programs and thorough exclusion work at the foundation level provide the most durable protection.",
+      },
+      {
+        question:
+          "Is mosquito pressure near the Des Plaines River significant for residential neighborhoods?",
+        answer:
+          "Yes. The Des Plaines River and its associated riparian areas create Culex mosquito breeding habitat from late spring through early fall. Properties adjacent to the river or North Branch trail corridors see above-average seasonal pressure. West Nile virus is monitored by Cook County Public Health. Eliminating residential standing water sources and applying barrier spray to yard vegetation during the active season are the effective residential strategies.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Chicago", slug: "chicago" },
+      { name: "Arlington Heights", slug: "arlington-heights" },
+      { name: "Elgin", slug: "elgin" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Des Plaines, IL | Mice, Stink Bugs & Mosquitoes",
+    metaDescription:
+      "Des Plaines pest control for house mice, German cockroaches, stink bugs, subterranean termites and yellow jackets. Cook County O'Hare Des Plaines River Chicago suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

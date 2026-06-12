@@ -8,17 +8,17 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-11)
+## Current State (2026-06-12)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-18 complete. T2 COMPLETE.
-- **City pages built:** 450 total (75 T1 + 300 T2 + 75 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-20 complete. T2 COMPLETE.
+- **City pages built:** 500 total (75 T1 + 300 T2 + 125 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 530 in the static export (home, services, 50+ states, 450 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=91, B=90, C=90, D=90, E=89 (450 total cities, all within 15-25% range).
-- **Cities built T3 chunk 17 (25):** Texas/New Braunfels (D), Texas/Conroe (E), Texas/Cedar Park (E), Texas/Georgetown (D), Texas/San Angelo (C), Texas/Flower Mound (E), Texas/Leander (D), California/Vista (A), California/Rialto (C), California/Ventura (C), California/Compton (A), California/South Gate (A), California/Hesperia (C), Florida/Margate (A), Florida/Ocala (E), Florida/Sarasota (A), Florida/Bradenton (B), Illinois/Cicero (E), Illinois/Schaumburg (D), Illinois/Bolingbrook (C), Illinois/Evanston (D), Michigan/Farmington Hills (C), Michigan/Southfield (B), Michigan/Pontiac (D), Michigan/Novi (E).
-- **Cities built T3 chunk 18 (25):** Georgia/South Fulton (B), Georgia/Johns Creek (A), Georgia/Alpharetta (B), Washington/Bellingham (C), Washington/Yakima (B), Washington/Kennewick (D), Washington/Redmond (C), Massachusetts/Fall River (D), Massachusetts/Newton (A), Massachusetts/Lawrence (E), Massachusetts/Somerville (B), New Jersey/Woodbridge (B), New Jersey/Edison (A), New Jersey/Passaic (A), Ohio/Lorain (B), Ohio/Kettering (D), Ohio/Springfield (C), Indiana/Lafayette (C), Indiana/Noblesville (E), North Carolina/Jacksonville (D), North Carolina/Chapel Hill (B), Virginia/Lynchburg (E), Virginia/Harrisonburg (A), New York/Utica (E), Pennsylvania/York (B).
-- **New state files added chunks 17-18:** none (all states already registered in index.ts).
-- **Next block:** Chunk 19, T3 continues, rotation at A.
+- **Total site pages:** 580 in the static export (home, services, 50+ states, 500 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=101, B=100, C=100, D=100, E=99 (500 total cities, all within 15-25% range).
+- **Cities built T3 chunk 19 (25):** Georgia/Valdosta (E), Georgia/Smyrna (D), Georgia/Dunwoody (D), Georgia/Gainesville (D), Georgia/Rome (C), North Carolina/Huntersville (A), North Carolina/Apex (E), North Carolina/Burlington (B), North Carolina/Rocky Mount (D), North Carolina/Wilson (E), North Carolina/Kannapolis (A), Tennessee/Johnson City (B), Tennessee/Hendersonville (A), Tennessee/Kingsport (A), Tennessee/Smyrna (B), Tennessee/Collierville (B), Florida/Miami Gardens (C), Florida/Plantation (B), Florida/Largo (E), Florida/Homestead (B), Florida/Lauderhill (E), Florida/Tamarac (B), Ohio/Elyria (D), Ohio/Cuyahoga Falls (C), Ohio/Lakewood (C).
+- **Cities built T3 chunk 20 (25):** Ohio/Middletown (C), Ohio/Euclid (A), Ohio/Newark (C), Virginia/Suffolk (A), Virginia/Charlottesville (D), Virginia/Manassas (A), Michigan/Taylor (B), Michigan/Royal Oak (C), Michigan/Saginaw (C), Michigan/Dearborn Heights (D), Illinois/Arlington Heights (C), Illinois/Decatur (A), Illinois/Skokie (A), Illinois/Des Plaines (B), Texas/Pharr (D), Texas/Missouri City (B), Texas/Mansfield (A), Texas/Baytown (C), Pennsylvania/Wilkes-Barre (E), Pennsylvania/Altoona (E), Washington/Federal Way (E), Washington/Auburn (E), Minnesota/Brooklyn Park (D), Minnesota/Plymouth (D), Oklahoma/Moore (E).
+- **New state files added chunks 19-20:** none (all states already registered in index.ts).
+- **Next block:** Chunk 21, T3 continues, rotation at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

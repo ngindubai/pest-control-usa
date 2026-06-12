@@ -666,4 +666,115 @@ export const oklahomaCities: CityLocation[] = [
     metaDescription:
       "Lawton pest control for fire ants, subterranean termites, brown recluse spiders, German cockroaches and scorpions. Comanche County Fort Sill area specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "moore",
+    name: "Moore",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3" as const,
+    population: "~60,000",
+    county: "Cleveland County",
+    climate: "semi-arid" as const,
+    climateDriver:
+      "Central Oklahoma semi-arid climate with hot summers, cold winters, significant storm activity, and a pest calendar shaped by warm-season fire ant and termite activity and year-round brown recluse pressure",
+    topPests: [
+      "fire ants",
+      "subterranean termites",
+      "brown recluse spiders",
+      "German cockroaches",
+      "American cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November peak",
+        note: "OSU Extension confirms red imported fire ants are active throughout Cleveland County from spring through fall. Moore's residential lawns carry consistent mound pressure, and post-tornado rebuilding areas see rapid fire ant reestablishment.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "OSU Extension confirms eastern subterranean termite activity throughout Oklahoma, including Cleveland County. Moore's post-tornado reconstruction placed new structures on previously disturbed soil where existing termite colonies were active.",
+      },
+      {
+        name: "brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round",
+        note: "OSU Extension is explicit that brown recluse spiders are genuinely common household pests across Oklahoma, not a rare finding. Moore is squarely in the core geographic range and they are regularly found in garages, attics, closets, and storage areas.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Moore's commercial food service corridors and multi-unit residential buildings, concentrating in kitchen and bathroom areas where interior gel bait programs are the effective treatment.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are found in Moore's sewer infrastructure and move into structures through drains and foundation gaps. The warm Oklahoma climate sustains activity from early spring through late fall.",
+      },
+    ],
+    localHook:
+      "Moore is an Oklahoma City suburb in Cleveland County that has been rebuilt multiple times following severe tornado events, including the historic May 2013 EF5 tornado. The post-tornado rebuilding of large sections of the city introduced new construction on previously disturbed soil, creating immediate termite pressure for structures built after the clearing of established landscapes.",
+    intro:
+      "Moore's suburban Oklahoma City character creates a pest profile anchored by fire ants, eastern subterranean termites, and brown recluse spiders. OSU Extension is explicit that brown recluses are genuine common household pests throughout Oklahoma, not a regional curiosity, and Cleveland County is well within the core geographic range. Fire ants are active throughout the warm season in Moore's residential lawns and parks. The city's post-tornado rebuilding has placed a significant share of its housing stock on recently disturbed soil where termite colonies were active before construction began.",
+    sections: [
+      {
+        heading: "Fire Ants and Subterranean Termites in Moore",
+        body: "Red imported fire ants are present throughout Cleveland County and are active in Moore from spring through fall, with peak mound activity in April through June and again in September and October. Oklahoma State University Extension recommends the two-step treatment program for durable lawn control: broadcast bait applied across the entire yard, followed by individual mound treatment for remaining active colonies. Eastern subterranean termites are active throughout Oklahoma, and Moore's significant post-tornado reconstruction has placed many newer structures on previously disturbed soil where existing termite colonies were present before building. Annual professional inspections from the first year of occupancy are the appropriate baseline for any Moore structure.",
+      },
+      {
+        heading: "Brown Recluse Spiders: A Year-Round Concern in Moore",
+        body: "OSU Extension is direct on this point: brown recluse spiders are common household pests across Oklahoma, not an occasional finding. Moore is squarely in the core geographic range of the species. Brown recluses are regularly found in garages, attics, closets, and storage areas in Moore homes, particularly in areas with low disturbance and available prey. Post-tornado rebuilding brought many homes through the construction and debris-clearing process that disturbs brown recluse populations and can initially concentrate them near new structures. Regular professional perimeter and interior treatment combined with reducing clutter in storage areas is the standard management approach for Moore homeowners.",
+      },
+      {
+        heading: "Cockroaches and Post-Tornado Rebuilding Pest Considerations",
+        body: "German cockroaches are present in Moore's commercial food service and older multi-family buildings, concentrating in kitchen and bathroom areas. American cockroaches are found in the city's sewer infrastructure and move into structures through drains and foundation gaps. Moore's multiple major tornado events and subsequent rebuilding have introduced a significant amount of newer construction, but new structures are not immune to pest pressure from the surrounding established pest populations in the soil and adjacent landscape. A scheduled quarterly exterior program is the foundation for any Moore homeowner's pest management.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant broadcast bait to the entire yard in spring and fall to reduce overall colony pressure in Moore's warm-season fire ant zone",
+      "Schedule an annual termite inspection from the first year of occupancy, especially for post-tornado rebuild homes on previously disturbed soil",
+      "Reduce clutter in garages, storage areas, and closets and use glue boards to monitor for brown recluse spider activity year-round",
+      "Seal foundation gaps, weep holes, and exterior utility penetrations to limit brown recluse and cockroach entry to the structure",
+      "Treat remaining active fire ant mounds individually after broadcast bait application for the most durable seasonal control",
+    ],
+    costNote:
+      "Quarterly pest control programs in Moore covering fire ants, brown recluse spiders, and cockroaches run $100 to $160 per visit. Termite inspections are free with treatment quoted after assessment. Brown recluse programs may involve more frequent visits in the first year until population pressure inside the structure is reduced.",
+    faqs: [
+      {
+        question:
+          "Are brown recluse spiders really common in Moore homes, or is it overstated?",
+        answer:
+          "Oklahoma State University Extension is clear on this: brown recluse spiders are genuinely common household pests throughout Oklahoma, including Cleveland County, and Moore is squarely in their core geographic range. They are regularly found in garages, attics, closets, and storage boxes in Moore homes, not occasionally. A bite can cause significant localized tissue damage in some cases. Taking their presence seriously and maintaining a scheduled professional treatment program is reasonable and appropriate.",
+      },
+      {
+        question:
+          "Does Moore's tornado history affect termite risk for newer homes?",
+        answer:
+          "Yes. The clearing and rebuilding process following major tornado events disturbs soil where existing termite colonies were active before the storm. New construction on previously cleared lots introduces wood framing into contact with soil that may already have active termite populations. Moore homeowners in rebuilt areas benefit from annual inspections starting from year one rather than waiting for visible damage. Oklahoma State University Extension recommends pre-treatment soil barriers for new construction in high-activity zones throughout Oklahoma.",
+      },
+      {
+        question:
+          "When are fire ants most active in Moore, Oklahoma?",
+        answer:
+          "Fire ants in Moore are most visible from April through June in spring and again in September and October in early fall. Summer heat actually slows surface activity temporarily as colonies move deeper into the soil during the hottest weeks, but they remain active underground. The peak mound construction periods are spring and early fall, which are also the most effective windows for broadcast bait application. Oklahoma State University Extension recommends treating in both spring and fall for year-over-year pressure reduction.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Oklahoma City", slug: "oklahoma-city" },
+      { name: "Norman", slug: "norman" },
+      { name: "Lawton", slug: "lawton" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Moore, OK | Fire Ants, Termites & Brown Recluse",
+    metaDescription:
+      "Moore pest control for fire ants, subterranean termites, brown recluse spiders, German cockroaches and American cockroaches. Cleveland County Oklahoma City suburb tornado rebuild specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

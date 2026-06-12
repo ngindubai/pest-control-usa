@@ -1380,4 +1380,633 @@ export const ohioCities: CityLocation[] = [
     metaDescription:
       "Springfield pest control for house mice, stink bugs, subterranean termites, German cockroaches and mosquitoes. Clark County Mad River central Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "elyria",
+    name: "Elyria",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3" as const,
+    population: "~53,757",
+    county: "Lorain County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Northeast Ohio continental climate with cold winters, lake-effect snow influence from Lake Erie, warm humid summers, and a fall pest surge driven by sharp autumn temperature drops",
+    topPests: [
+      "house mice",
+      "stink bugs",
+      "subterranean termites",
+      "German cockroaches",
+      "boxelder bugs",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "OSU Extension identifies house mice as the most commonly reported rodent pest in Ohio's fall season. Elyria's older housing carries accumulated foundation gaps and sill plate degradation that provide reliable fall entry.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established throughout Lorain County. They aggregate on south-facing Elyria building faces in September seeking overwintering sites in wall voids and attics.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "OSU Extension confirms eastern subterranean termites throughout Lorain County. The Black River corridor's moisture elevates risk in adjacent older housing.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Elyria's older multi-family and commercial buildings, concentrating in kitchen and bathroom areas where they require interior gel bait programs.",
+      },
+      {
+        name: "boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Boxelder bugs aggregate on sunny Elyria building faces in September and October before entering wall voids for winter. They are a nuisance pest but cause no structural damage.",
+      },
+    ],
+    localHook:
+      "Elyria sits along the Black River in Lorain County, with a mix of older urban neighborhoods and riverside residential areas. The Black River corridor creates mosquito harborage in summer and moisture conditions that elevate termite and carpenter ant risk in adjacent older housing.",
+    intro:
+      "Elyria is Lorain County's seat and one of the larger cities in northeastern Ohio's industrial corridor west of Cleveland. The city's older housing stock, much of it built before 1960, creates the foundation gaps and aging sill plates that give house mice reliable fall entry. Stink bugs aggregate on building exteriors each September, and the Black River corridor sustains mosquito populations through the summer. Ohio State University Extension documents eastern subterranean termite activity throughout Lorain County, and Elyria's crawl-space-heavy older homes carry meaningful termite risk.",
+    sections: [
+      {
+        heading: "House Mice vs. Stink Bugs: Elyria's Fall Pest Double",
+        body: "House mice and stink bugs both arrive in Elyria's older neighborhoods in fall, but they need different responses. Mice push through foundation cracks, garage door gaps, and sill plate splits from October onward as outdoor temperatures drop. Stink bug prevention centers on the building exterior in late August and September: sealing gaps around windows, soffits, and utility entries before the fall aggregation begins on south-facing walls. Ohio State University Extension recommends completing both exclusion tasks before mid-September in northeast Ohio's early-cooling climate. Addressing them together in a single inspection pass is the most practical approach for Elyria homeowners.",
+      },
+      {
+        heading: "Termites and the Black River Corridor",
+        body: "OSU Extension confirms eastern subterranean termite activity throughout Lorain County, and Elyria's older housing stock in the neighborhoods along the Black River carries elevated risk where soil moisture from the river corridor keeps foraging conditions favorable through the spring and summer. Homes with crawl spaces, wood sill plates near grade, and aging foundation seals carry the highest exposure. Annual professional spring inspections are the standard precaution for Elyria's older construction, and they catch activity before it becomes visible structural damage.",
+      },
+      {
+        heading: "German Cockroaches and Boxelder Bugs",
+        body: "German cockroaches are present in Elyria's older multi-family and commercial buildings, concentrating in kitchen and bathroom areas. They require targeted interior bait treatment rather than exterior spray programs. Boxelder bugs are a fall nuisance pest in Elyria that aggregate in large numbers on sunny building faces in September and October before entering wall voids for the winter. They do not cause structural damage, but their sheer numbers make them a consistent complaint. Sealing entry gaps in August and applying a perimeter treatment to building faces in early September reduces the number that successfully overwinter inside.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, sill plate gaps, and utility penetrations in August before mice and stink bugs begin their fall push",
+      "Apply a perimeter exterior treatment to south and west building faces in September to reduce stink bug and boxelder bug entry",
+      "Schedule annual spring termite inspections for homes with crawl spaces, especially near the Black River corridor",
+      "Address moisture issues in crawl spaces and basements to reduce carpenter ant and termite harborage conditions",
+      "Eliminate standing water in gutters and yard containers from June through September to limit Black River-area mosquito breeding",
+    ],
+    costNote:
+      "Quarterly pest control programs in Elyria covering mice, cockroaches, and stink bug exclusion run $90 to $140 per visit. Termite inspections are typically free with treatment quoted after assessment. Fall combined mouse and stink bug exclusion programs are the most cost-effective seasonal investment for Elyria homeowners.",
+    faqs: [
+      {
+        question:
+          "Why do mice seem to come in every fall in my older Elyria home?",
+        answer:
+          "Older Elyria homes, particularly those built before 1960, have accumulated gaps at the foundation sill plate, around utility penetrations, and at garage door seals over many decades. House mice, which can compress through gaps as small as a quarter-inch, find these openings reliable each fall when temperatures drop. A professional inspection that identifies and seals these specific entry points before October is the most durable prevention. Trapping alone manages mice already inside but does not stop the annual reinvasion.",
+      },
+      {
+        question:
+          "Are termites a serious risk near the Black River in Elyria?",
+        answer:
+          "Yes, modestly more so than in drier inland areas. OSU Extension documents eastern subterranean termite activity throughout Lorain County, and the Black River corridor's moisture creates conditions that favor foraging colony activity in adjacent older homes. Properties with crawl spaces and wood near soil contact carry the most risk. Annual professional inspections are the standard precaution and the most reliable way to detect activity before structural damage accumulates.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Cleveland", slug: "cleveland" },
+      { name: "Lorain", slug: "lorain" },
+      { name: "Akron", slug: "akron" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Elyria, OH | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Elyria pest control for house mice, stink bugs, subterranean termites, German cockroaches and boxelder bugs. Lorain County Black River northeast Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "cuyahoga-falls",
+    name: "Cuyahoga Falls",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3" as const,
+    population: "~49,000",
+    county: "Summit County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Northeast Ohio continental climate with cold winters, warm humid summers, and a fall pest surge marked by stink bug aggregation and mouse entry pressure as temperatures drop",
+    topPests: [
+      "house mice",
+      "stink bugs",
+      "subterranean termites",
+      "carpenter ants",
+      "yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "OSU Extension confirms house mice as the primary fall rodent pest in northeast Ohio. Cuyahoga Falls' postwar housing carries foundation conditions that provide reliable fall entry points.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established in Summit County and aggregate on Cuyahoga Falls building faces each September seeking overwintering wall void sites.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "OSU Extension confirms eastern subterranean termite activity throughout Summit County. The Cuyahoga River corridor's moisture elevates risk for adjacent older homes with crawl spaces.",
+      },
+      {
+        name: "carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August",
+        note: "Cuyahoga Falls' Cuyahoga Gorge corridor and mature neighborhood trees create above-average carpenter ant habitat. They require moist wood to establish galleries in the Pacific Northwest-like valley conditions.",
+      },
+      {
+        name: "yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October peak",
+        note: "Yellow jackets reach peak colony size in August and September in the Cuyahoga Falls area. Ground nests in the Gorge Metro Park corridor are a hazard for outdoor activity near wooded terrain.",
+      },
+    ],
+    localHook:
+      "Cuyahoga Falls sits on the Cuyahoga River immediately north of Akron, with a mix of postwar residential neighborhoods and wooded river valley terrain. The Cuyahoga River corridor and the Gorge Metro Park create the moisture and wooded edge conditions that sustain carpenter ants, yellow jackets, and mosquitoes through the warm season.",
+    intro:
+      "Cuyahoga Falls is one of Summit County's larger residential cities, adjacent to Akron with a character shaped by its Cuyahoga River setting and established postwar neighborhoods. House mice and stink bugs dominate the fall pest calendar here as they do throughout northeast Ohio. The wooded Cuyahoga Gorge creates above-average carpenter ant and yellow jacket pressure for riverside neighborhoods, and OSU Extension documents eastern subterranean termite activity across Summit County.",
+    sections: [
+      {
+        heading: "House Mice vs. Stink Bugs in Cuyahoga Falls",
+        body: "Both pests peak in fall in Cuyahoga Falls, but their entry points and prevention approaches differ. Stink bugs begin aggregating on south-facing building exteriors in September, seeking wall voids and attic spaces for overwintering. Sealing gaps around window frames, soffits, and exterior utility penetrations before September is the most effective prevention. Mice push through foundation-level gaps from October onward as outdoor food sources decline. Sealing garage door seals, foundation cracks, and sill plate gaps in September addresses both pests in one prevention pass.",
+      },
+      {
+        heading: "Cuyahoga River Corridor: Carpenter Ants and Yellow Jackets",
+        body: "Properties along the Cuyahoga River and near the Gorge Metro Park face above-average carpenter ant pressure because the moist wooded terrain creates ideal nesting conditions in both living trees and in wood components of riverside homes where moisture exposure from the valley climate is elevated. Yellow jackets peak in late August and September as colonies reach maximum size, and the wooded terrain around the gorge sustains large populations. Ground nests and wall void nests are both common. Professional treatment at the nest entrance, preferably at dusk, is required for established wall void infestations.",
+      },
+      {
+        heading: "Termites in Cuyahoga Falls' Older Housing Stock",
+        body: "OSU Extension confirms eastern subterranean termite activity across Summit County. Cuyahoga Falls' established neighborhoods, many with homes from the 1940s through 1960s, carry the crawl-space construction and wood sill plates that give termites reliable access. Annual professional spring inspections are the standard precaution, particularly for homes near the river corridor where soil moisture stays elevated through the spring foraging season.",
+      },
+    ],
+    prevention: [
+      "Complete exterior gap sealing for stink bugs and mice in September before the first fall temperature drop in northeast Ohio",
+      "Address moisture issues in crawl spaces and along the foundation to reduce carpenter ant and termite harborage conditions",
+      "Inspect under decks and in ground cover areas near the Cuyahoga corridor in June for early yellow jacket nest activity",
+      "Schedule annual spring termite inspections for homes with crawl spaces, particularly those close to the river valley",
+      "Eliminate standing water in gutters and containers from May through September to reduce mosquito pressure",
+    ],
+    costNote:
+      "Quarterly pest control programs in Cuyahoga Falls covering mice, ants, and stink bug exclusion typically run $85 to $140 per visit. Termite inspections are free with treatment quoted after assessment. Yellow jacket nest removal is best handled as an emergency service call rather than a scheduled treatment.",
+    faqs: [
+      {
+        question:
+          "Are carpenter ants worse in riverside Cuyahoga Falls neighborhoods than in other parts of Summit County?",
+        answer:
+          "Yes. The Cuyahoga River valley's moisture creates wood moisture conditions in adjacent homes that are higher than in more inland suburban areas. Carpenter ants require moist wood to excavate galleries, and riverside properties where wood components stay wetter from valley humidity and mist carry genuinely elevated exposure. Addressing moisture sources, including drainage issues, roof leaks, and weatherproofing gaps, removes the harborage conditions that draw carpenter ants before treating the ants themselves.",
+      },
+      {
+        question:
+          "Is the Gorge Metro Park a significant source of yellow jacket pressure for Cuyahoga Falls residents?",
+        answer:
+          "Forested parks create above-average yellow jacket habitat because they sustain ground-nesting opportunities and tree canopy that the pests use. Properties adjacent to or backing onto the Gorge Metro Park may see elevated yellow jacket activity in late summer, particularly if the yard has ground cover, wood piles, or other ground-nesting opportunities. Peak colony size and peak defensiveness occur in August and September.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Akron", slug: "akron" },
+      { name: "Cleveland", slug: "cleveland" },
+      { name: "Canton", slug: "canton" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Cuyahoga Falls, OH | Mice, Stink Bugs & Carpenter Ants",
+    metaDescription:
+      "Cuyahoga Falls pest control for house mice, stink bugs, subterranean termites, carpenter ants and yellow jackets. Summit County Cuyahoga River Gorge northeast Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lakewood-oh",
+    name: "Lakewood",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3" as const,
+    population: "~50,000",
+    county: "Cuyahoga County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Northeast Ohio continental climate with Lake Erie lake-effect influence, cold winters, warm summers, and high residential pest density driven by the city's dense urban character",
+    topPests: [
+      "German cockroaches",
+      "house mice",
+      "stink bugs",
+      "subterranean termites",
+      "bed bugs",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Lakewood's pre-WWII apartment stock has accumulated shared wall gaps and utility chase openings where German cockroaches spread freely between units. Building-wide treatment is required for effective control in connected buildings.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "OSU Extension confirms fall mouse pressure throughout Cuyahoga County. Lakewood's older urban housing carries the foundation conditions and sill plate gaps that provide reliable fall entry.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established in Cuyahoga County and aggregate on Lakewood building faces each September. The city's older construction provides numerous overwintering entry points.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "OSU Extension confirms eastern subterranean termite activity across Cuyahoga County. Lakewood's pre-WWII housing with wood sill plates near grade carries meaningful termite exposure.",
+      },
+      {
+        name: "bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Lakewood's high population density and active rental market create above-average bed bug pressure. High residential turnover in buildings adjacent to Cleveland transit lines sustains ongoing infestations.",
+      },
+    ],
+    localHook:
+      "Lakewood is one of the most densely populated cities in Ohio, an inner suburb directly west of Cleveland's city line. That density, combined with a large stock of pre-WWII multi-family and apartment construction, creates an urban pest profile closer to Cleveland's core than to Cuyahoga County's outer suburbs.",
+    intro:
+      "Lakewood's density and older housing stock create a pest environment shaped more by urban proximity than rural seasonal patterns. German cockroaches in multi-unit buildings, house mice in the dense rowhouse and apartment blocks, and bed bugs associated with high residential turnover are the dominant concerns. Stink bugs still arrive each fall along with the rest of northeast Ohio, and OSU Extension documents eastern subterranean termite activity across Cuyahoga County, including in Lakewood's older construction.",
+    sections: [
+      {
+        heading: "Lakewood's Density and German Cockroach Pressure",
+        body: "Lakewood's concentration of pre-WWII apartments, multi-family buildings, and connected rowhouses creates the conditions German cockroaches exploit: shared wall cavities, common utility chases, and the accumulated gaps from decades of renovation and maintenance work that allow movement between units. A single-unit treatment in a connected building provides only temporary relief if the building as a whole is not addressed. Building-wide gel bait programs applied inside cabinets, under appliances, and at plumbing penetrations are the effective approach for Lakewood's multi-unit housing stock.",
+      },
+      {
+        heading: "House Mice and Bed Bugs in Urban Lakewood",
+        body: "House mice exploit the foundation gaps and aging sill plates of Lakewood's older housing each fall, with peak entry from October through February. The high residential turnover in Lakewood's rental market also creates consistent bed bug pressure as mattresses, furniture, and belongings move between units and buildings. Bed bug infestations in Lakewood are best treated with heat treatment or professional chemical programs applied to the whole unit, with inspection of adjacent units in connected buildings.",
+      },
+      {
+        heading: "Stink Bugs and Termites in Lakewood",
+        body: "Stink bugs aggregate on Lakewood building exteriors each September, seeking the warm wall voids of older construction for overwintering. The city's dense, aging building stock creates significant overwintering habitat. Sealing exterior gaps before mid-September is the prevention window. Eastern subterranean termites are documented throughout Cuyahoga County. Lakewood's older construction, including homes with wood sill plates near grade, carries meaningful termite exposure that annual spring inspections can detect before structural damage accumulates.",
+      },
+    ],
+    prevention: [
+      "Pursue building-wide German cockroach treatment in Lakewood's multi-unit buildings rather than unit-by-unit approaches",
+      "Seal foundation gaps, door sills, and utility penetrations in September before the fall mouse entry surge",
+      "Inspect used furniture, mattresses, and clothing carefully for bed bugs before bringing them into your Lakewood home",
+      "Seal exterior gaps in window frames and soffits before mid-September to reduce stink bug overwintering entry",
+      "Schedule annual spring termite inspections for Lakewood homes with crawl spaces or wood near grade",
+    ],
+    costNote:
+      "Pest control pricing in Lakewood reflects the city's urban density. German cockroach programs for multi-unit buildings are quoted by unit count and building size. Single-family home quarterly programs run $85 to $130 per visit. Bed bug heat treatment for a standard unit runs $1,000 to $1,800 depending on size.",
+    faqs: [
+      {
+        question:
+          "Why is German cockroach treatment so hard in Lakewood's older apartment buildings?",
+        answer:
+          "Lakewood's pre-WWII apartment stock has accumulated gaps in shared walls, pipe chases, and utility runs from decades of maintenance work. German cockroaches move freely between units through these openings. Treating one unit in isolation controls visible insects temporarily but does not stop reinfestation from adjacent units. Effective treatment requires treating all units in the affected building at the same time with gel bait placed at the internal harborage points these cockroaches use.",
+      },
+      {
+        question:
+          "Is bed bug risk significantly higher in Lakewood than in outer Cuyahoga County suburbs?",
+        answer:
+          "Yes. Bed bug incidence correlates with population density and residential turnover, both of which are high in Lakewood. The city's large stock of rental apartments and its proximity to Cleveland's urban core create the conditions for ongoing bed bug pressure. Inspecting used furniture and second-hand goods before bringing them home is the most important personal precaution for Lakewood renters.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Cleveland", slug: "cleveland" },
+      { name: "Parma", slug: "parma" },
+      { name: "Akron", slug: "akron" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Lakewood, OH | Cockroaches, Mice & Stink Bugs",
+    metaDescription:
+      "Lakewood OH pest control for German cockroaches, house mice, stink bugs, subterranean termites and bed bugs. Cuyahoga County dense urban inner Cleveland suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "middletown",
+    name: "Middletown",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3" as const,
+    population: "~52,000",
+    county: "Butler County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Southwest Ohio continental climate with cold winters, warm humid summers, and fall pest pressure driven by stink bugs and mice as temperatures drop in October",
+    topPests: [
+      "house mice",
+      "stink bugs",
+      "subterranean termites",
+      "German cockroaches",
+      "yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "OSU Extension identifies house mice as the primary fall rodent pest in southwest Ohio. Middletown's older industrial-era housing carries the accumulated foundation gaps that provide reliable fall entry.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established throughout Butler County. They aggregate on south and west Middletown building faces in September seeking overwintering wall void sites.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "OSU Extension confirms eastern subterranean termite activity throughout Butler County. The Great Miami River corridor's moisture elevates risk in adjacent older homes with crawl spaces.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Middletown's older multi-unit and commercial buildings, concentrating in kitchen areas and requiring interior gel bait programs for control.",
+      },
+      {
+        name: "yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October peak",
+        note: "Yellow jackets build ground and wall void nests in Middletown's residential neighborhoods, reaching peak defensiveness in August and September. The Great Miami River wooded corridor sustains large populations.",
+      },
+    ],
+    localHook:
+      "Middletown sits on the Great Miami River between Dayton and Cincinnati on the I-75 corridor. The river creates mosquito habitat in summer and adds moisture that elevates termite risk in older homes near the floodplain. The city's older industrial-era housing stock carries the foundation conditions that give house mice reliable fall entry.",
+    intro:
+      "Middletown is a Butler County city with a history shaped by steel and paper manufacturing, and a residential character defined by older working-class neighborhoods from the early to mid-20th century. That housing stock comes with real pest considerations: aging foundation gaps for mice, crawl spaces with termite exposure, and the older interior construction where German cockroaches establish in kitchen and bathroom areas. Stink bugs arrive each fall as they do throughout southwest Ohio, and the Great Miami River corridor adds mosquito and termite dimensions.",
+    sections: [
+      {
+        heading: "House Mice and Fall Entry in Middletown's Older Neighborhoods",
+        body: "Middletown's housing inventory includes a significant share of pre-WWII and early postwar construction where foundation sill plates, utility penetrations, and garage door seals have accumulated entry gaps over decades. House mice, which can compress through gaps as small as a quarter inch, find these openings each fall as outdoor temperatures drop from October onward. A professional exclusion inspection in September that identifies and seals these entry points is the most durable prevention for Middletown homeowners. Trapping controls mice already inside but does not stop annual reinvasion.",
+      },
+      {
+        heading: "Stink Bugs and the Great Miami River Corridor",
+        body: "Brown marmorated stink bugs are well established in southwest Ohio, and Middletown's position at the edge of Butler County puts it in the documented stink bug zone that OSU Extension tracks across the region. They aggregate on south and west-facing building faces in September before entering through gaps around window frames, soffits, and utility penetrations. Sealing gaps before mid-September and applying a perimeter treatment to building faces in September reduces the number that successfully enter wall voids. The Great Miami River corridor's wooded edge provides summer stink bug host plant habitat close to residential areas.",
+      },
+      {
+        heading: "Termites and German Cockroaches",
+        body: "OSU Extension confirms eastern subterranean termite activity throughout Butler County. Middletown's older residential areas near the Great Miami River carry elevated risk where river-edge moisture keeps soil conditions favorable for foraging colonies through spring. Annual spring inspections are the standard precaution for homes with crawl spaces. German cockroaches concentrate in Middletown's older multi-unit and commercial buildings, particularly in kitchen and bathroom areas, and require interior gel bait programs for effective control.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, utility penetrations, and garage door gaps in September before the fall mouse entry surge",
+      "Apply a perimeter exterior treatment to south and west building faces in early September to reduce stink bug entry",
+      "Schedule annual spring termite inspections for homes with crawl spaces, especially those near the Great Miami River corridor",
+      "Address interior plumbing leaks and under-sink moisture to reduce German cockroach harborage",
+      "Remove standing water from gutters and yard containers from May through September to reduce mosquito breeding",
+    ],
+    costNote:
+      "Quarterly pest control programs in Middletown covering mice, stink bugs, and cockroaches run $85 to $135 per visit. Termite inspections are free with treatment quoted after assessment. Fall combined exclusion programs for mice and stink bugs offer the best seasonal value.",
+    faqs: [
+      {
+        question:
+          "Are termites common near the Great Miami River in Middletown?",
+        answer:
+          "OSU Extension documents eastern subterranean termite activity throughout Butler County, and the Great Miami River corridor's soil moisture creates conditions that sustain foraging colony activity in adjacent properties. Homes with crawl spaces and wood near soil contact in riverside neighborhoods carry above-average exposure. Annual professional spring inspections are the standard precaution and the most reliable way to detect activity before damage becomes visible.",
+      },
+      {
+        question:
+          "Does Middletown's industrial history affect its pest profile?",
+        answer:
+          "The city's older housing stock, a direct legacy of its industrial era, carries the construction characteristics that create real pest access: aging foundation sill plates, pre-WWII basement configurations, and utility penetrations that have been modified over decades. These structural conditions are more relevant to pest risk than any environmental factor from the industrial history itself. Homes in older Middletown neighborhoods simply need more thorough exclusion work than newer suburban construction.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Dayton", slug: "dayton" },
+      { name: "Cincinnati", slug: "cincinnati" },
+      { name: "Columbus", slug: "columbus" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Middletown, OH | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Middletown pest control for house mice, stink bugs, subterranean termites, German cockroaches and yellow jackets. Butler County Great Miami River southwest Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "euclid",
+    name: "Euclid",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3" as const,
+    population: "~47,000",
+    county: "Cuyahoga County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Northeast Ohio continental climate with Lake Erie lake-effect influence on the northern edge, cold winters, and a fall pest surge as temperatures drop sharply from October onward",
+    topPests: [
+      "house mice",
+      "stink bugs",
+      "subterranean termites",
+      "German cockroaches",
+      "carpenter ants",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "OSU Extension confirms fall mouse pressure throughout Cuyahoga County. Euclid's postwar brick housing carries the foundation and utility penetration gaps that provide mice reliable fall entry, with lake-effect drops triggering earlier entry than inland suburbs.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established in Cuyahoga County. Euclid's lake position means fall aggregation on building faces can begin slightly earlier than in inland suburbs as temperatures drop faster.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "OSU Extension confirms eastern subterranean termite activity across Cuyahoga County. Euclid's postwar housing with original wood sill plates carries meaningful termite exposure in crawl-space construction.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Euclid's older multi-family and commercial buildings, concentrating in kitchen areas where gel bait programs are the effective treatment approach.",
+      },
+      {
+        name: "carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August",
+        note: "Euclid's mature residential tree canopy, combined with any moisture-damaged wood in older construction, creates above-average carpenter ant habitat throughout the city's established neighborhoods.",
+      },
+    ],
+    localHook:
+      "Euclid is a Lake Erie shoreline city in northeastern Cuyahoga County, with a large inventory of postwar brick and frame homes from the 1940s through 1960s. The lake shore position means lake-effect weather brings early and heavy snowfall, which affects fall prevention timing, and lakeshore corridors sustain mosquito pressure in summer.",
+    intro:
+      "Euclid's residential character is defined by its postwar brick housing stock and its position on Lake Erie's southern shore. House mice and stink bugs are the dominant fall pest concerns, arriving as northeast Ohio's sharp October temperature drops trigger movement toward heated structures. OSU Extension documents eastern subterranean termite activity across Cuyahoga County, and Euclid's older housing carries meaningful crawl-space termite exposure. The Lake Erie shoreline corridor sustains mosquito populations through the summer months.",
+    sections: [
+      {
+        heading: "Fall Mouse and Stink Bug Prevention in Euclid",
+        body: "Euclid's lake-effect weather pattern means fall temperature drops can come earlier and more abruptly than in more inland parts of Cuyahoga County. OSU Extension recommends completing exterior gap sealing for both mice and stink bugs before mid-September in northeast Ohio, and Euclid's lake position reinforces that urgency. Mice enter through foundation cracks, garage door bottom gaps, and sill plate openings. Stink bugs aggregate on south-facing walls and enter through window frame gaps, soffit openings, and utility penetrations. Addressing both in a single September inspection pass is the most efficient approach.",
+      },
+      {
+        heading: "Termites and Carpenter Ants in Euclid's Postwar Housing",
+        body: "OSU Extension confirms eastern subterranean termite pressure across Cuyahoga County. Euclid's postwar housing includes a large number of homes with crawl spaces and original wood sill plates, both of which create soil-to-wood contact opportunities that termites exploit. Annual spring inspections are the standard precaution. Carpenter ants are most active in late spring and summer, and Euclid's mature tree canopy in established neighborhoods provides nesting opportunities in weakened or moisture-damaged wood. Addressing moisture sources removes the harborage conditions rather than just treating the ants themselves.",
+      },
+      {
+        heading: "Lake Erie Shoreline and Mosquito Pressure",
+        body: "Euclid's northern position along Lake Erie creates above-average mosquito pressure in areas near the shoreline corridors and in neighborhoods adjacent to Euclid Creek. Culex quinquefasciatus, the northern house mosquito, breeds in standing water in gutters, containers, and low-lying areas. Peak activity runs from June through August. Properties near the lake margin and Euclid Creek experience more sustained pressure than neighborhoods farther inland.",
+      },
+    ],
+    prevention: [
+      "Complete exterior gap sealing for mice and stink bugs before mid-September to account for Euclid's earlier lake-effect temperature drops",
+      "Schedule annual spring termite inspections for homes with crawl spaces, focusing on sill plate and beam conditions",
+      "Address wood moisture issues including drainage problems and roof leaks to remove carpenter ant harborage near Euclid's mature trees",
+      "Clear gutters and remove standing water from yard containers weekly from June through August",
+      "Maintain consistent exterior rodent bait stations along the foundation perimeter year-round",
+    ],
+    costNote:
+      "Quarterly pest control programs in Euclid covering mice, ants, stink bugs, and exterior monitoring typically run $85 to $135 per visit. Termite inspections are free with treatment quoted after assessment. Spring carpenter ant programs and fall exclusion visits are the primary seasonal service investments for Euclid homeowners.",
+    faqs: [
+      {
+        question:
+          "Does Euclid's position on Lake Erie affect when I should do fall pest prevention?",
+        answer:
+          "Yes. Lake-effect weather patterns can bring abrupt temperature drops and early cold snaps to Euclid that arrive before the rest of Cuyahoga County feels the same shift. This means the prevention window for both stink bugs and mice runs slightly earlier in Euclid than in more inland suburbs. Completing exterior gap sealing and perimeter treatment by mid-September rather than late September is the practical adjustment for Euclid's lake-effect climate.",
+      },
+      {
+        question:
+          "Are termites a realistic concern in Euclid's 1950s brick homes?",
+        answer:
+          "Yes. OSU Extension documents eastern subterranean termite activity throughout Cuyahoga County, and Euclid's 1950s housing stock, while brick exterior, typically has wood sill plates, floor joists, and crawl space framing that termites access through soil contact and foundation gaps. Brick exterior does not mean the interior wood structure is protected from termites. Annual professional spring inspections are the standard precaution for homes with crawl spaces.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Cleveland", slug: "cleveland" },
+      { name: "Akron", slug: "akron" },
+      { name: "Lorain", slug: "lorain" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Euclid, OH | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Euclid pest control for house mice, stink bugs, subterranean termites, German cockroaches and carpenter ants. Cuyahoga County Lake Erie shoreline northeast Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "newark-oh",
+    name: "Newark",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3" as const,
+    population: "~48,000",
+    county: "Licking County",
+    climate: "cold-humid" as const,
+    climateDriver:
+      "Central Ohio continental climate with cold winters, warm humid summers, and a well-defined fall pest surge as temperatures drop from October onward",
+    topPests: [
+      "house mice",
+      "stink bugs",
+      "subterranean termites",
+      "German cockroaches",
+      "boxelder bugs",
+    ],
+    pestProfile: [
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March peak",
+        note: "OSU Extension identifies house mice as the primary fall rodent pest in central Ohio. Newark's large share of pre-WWII housing carries accumulated foundation gaps and sill plate conditions that provide reliable fall entry.",
+      },
+      {
+        name: "stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs are established in Licking County. They aggregate on Newark building faces in September and October, with the city's mature urban tree canopy sustaining local populations on boxelder and silver maple hosts.",
+      },
+      {
+        name: "subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October, swarms spring",
+        note: "OSU Extension confirms eastern subterranean termite activity throughout Licking County. Newark's older housing with crawl spaces carries meaningful exposure.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Newark's older commercial and multi-unit residential buildings, requiring interior gel bait programs for control.",
+      },
+      {
+        name: "boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Boxelder bugs are a consistent fall nuisance pest in Newark, aggregating on building faces in September and October. Licking County's mature urban tree canopy includes many boxelder and silver maple hosts.",
+      },
+    ],
+    localHook:
+      "Newark is the seat of Licking County, positioned between Columbus and Zanesville on the National Road corridor. The city has a large stock of late-19th and early-20th century housing with the crawl spaces and aging foundations that create consistent fall mouse pressure and documented termite exposure. Buckeye Lake, just south of Newark, adds mosquito harborage for the surrounding area.",
+    intro:
+      "Newark, Ohio's Licking County seat, has a residential character shaped by its older industrial and commercial history, with neighborhoods of older frame and brick homes that carry real pest implications. House mice exploit the aging sill plates and foundation gaps of Newark's older construction each fall. Stink bugs and boxelder bugs aggregate on building exteriors in September. OSU Extension confirms eastern subterranean termite activity throughout Licking County, and Buckeye Lake to the south adds mosquito pressure for Newark's southern neighborhoods.",
+    sections: [
+      {
+        heading: "House Mice in Newark's Older Housing Stock",
+        body: "Newark's residential inventory includes a large share of homes built between 1890 and 1950, with accumulated foundation gaps, aging sill plates, and utility penetrations that provide house mice reliable fall entry points. These older construction types need a more thorough exclusion inspection than newer suburban homes because the entry opportunities are more numerous and less obvious. A professional inspection in September that walks the full foundation perimeter, checks garage door seals, and examines utility penetrations at the sill plate level is the most durable prevention. Trapping alone addresses mice already inside but does not stop the annual reinvasion cycle.",
+      },
+      {
+        heading: "Stink Bugs and Boxelder Bugs in Fall",
+        body: "Both stink bugs and boxelder bugs are fall aggregation pests in Newark. Stink bugs concentrate on south and west building faces in September, entering through window frame gaps and soffit openings to overwinter in wall voids. Boxelder bugs follow a similar timeline, aggregating on sunny building faces in October and entering through the same gap types. OSU Extension recommends completing exterior gap sealing and applying a perimeter treatment to building faces before October for central Ohio. Licking County falls within the documented stink bug zone, and Newark's mature urban tree canopy includes many boxelder and silver maple trees that sustain local boxelder bug populations.",
+      },
+      {
+        heading: "Termites and Buckeye Lake Mosquitoes",
+        body: "OSU Extension documents eastern subterranean termite activity throughout Licking County, and Newark's older housing stock carries the crawl-space construction and wood near grade that create meaningful termite exposure. Annual professional spring inspections are the standard precaution. Buckeye Lake, the state reservoir located just south of Newark, creates Culex mosquito breeding habitat that affects neighborhoods in southern Newark and the county's lake-edge communities through the summer months.",
+      },
+    ],
+    prevention: [
+      "Inspect and seal foundation cracks, utility penetrations, and garage door gaps in September for both mouse and stink bug prevention",
+      "Apply a perimeter exterior treatment to south and west building faces in early September before stink bug and boxelder bug aggregation begins",
+      "Schedule annual spring termite inspections for Newark's older housing stock, particularly homes with crawl spaces",
+      "Eliminate standing water in gutters and yard containers from May through September to reduce Buckeye Lake-area mosquito pressure",
+      "Remove wood piles, debris, and ground cover from foundation perimeters to reduce mouse and carpenter ant harborage",
+    ],
+    costNote:
+      "Quarterly pest control programs in Newark covering mice, stink bugs, and cockroaches run $80 to $130 per visit. Termite inspections are free with treatment quoted after assessment. Fall combined exclusion programs for mice, stink bugs, and boxelder bugs are the most cost-effective seasonal service.",
+    faqs: [
+      {
+        question:
+          "Are boxelder bugs as bad as stink bugs in Newark, Ohio?",
+        answer:
+          "Both are fall nuisance pests that aggregate on buildings in September and October and enter wall voids for the winter. Stink bugs generally get more attention because of their odor when crushed or disturbed, but boxelder bugs can appear in very large numbers on warm building faces and become a significant interior nuisance when they emerge on warm winter days. Licking County's mature tree canopy includes many boxelder and silver maple trees, which sustain healthy local boxelder bug populations. The prevention approach is the same for both: seal gaps before the aggregation season and apply a perimeter treatment to building faces.",
+      },
+      {
+        question:
+          "How does Buckeye Lake affect mosquito pressure for Newark residents?",
+        answer:
+          "Buckeye Lake, located just south of Newark, creates stable Culex mosquito breeding habitat in its shallows and adjacent marshy areas. This affects mosquito pressure in Newark's southern neighborhoods more than in the northern part of the city. Culex quinquefasciatus, the northern house mosquito, is the primary species and is associated with West Nile virus transmission in Ohio. Eliminating residential standing water sources reduces breeding near the home, and professional barrier spray programs for yard vegetation provide meaningful protection during the active season from June through September.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus" },
+      { name: "Zanesville", slug: "zanesville" },
+      { name: "Akron", slug: "akron" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Newark, OH | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Newark OH pest control for house mice, stink bugs, subterranean termites, German cockroaches and boxelder bugs. Licking County Buckeye Lake central Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
