@@ -75,9 +75,53 @@ export default function ContactPage() {
   async function onSubmit(data: FormData) {
     setServerError("");
     try {
-      // Simulate API call — replace with real endpoint
-      await new Promise((r) => setTimeout(r, 1200));
-      console.log("Contact form:", data);
+      await fetch("https://logistics-crm.onrender.com/api/public/leads", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-api-key": "uRc1IHymlMUnYfAB9i79iA3NUARQKFJdRCdo+4VDY/A=",
+        },
+        body: JSON.stringify({
+          company: "pest-control",
+          name: data.name,
+          email: data.email,
+          phone: data.phone,
+          source: "PestRemoval website",
+          landing_page: typeof window !== "undefined" ? window.location.href : undefined,
+          utm_source: typeof window !== "undefined"
+            ? new URLSearchParams(window.location.search).get("utm_source") ?? undefined
+            : undefined,
+          utm_medium: typeof window !== "undefined"
+            ? new URLSearchParams(window.location.search).get("utm_medium") ?? undefined
+            : undefined,
+          utm_campaign: typeof window !== "undefined"
+            ? new URLSearchParams(window.location.search).get("utm_campaign") ?? undefined
+            : undefined,
+          message: [
+            `Service: ${data.serviceType}`,
+            `Pest: ${data.pestType}`,
+            `Urgency: ${data.urgency}`,
+            `ZIP: ${data.zip}`,
+            data.message ?? "",
+          ]
+            .filter(Boolean)
+            .join("
+"),
+          fields: {
+            zip: data.zip,
+            propertyType:
+              data.serviceType.charAt(0).toUpperCase() + data.serviceType.slice(1),
+            pestType: data.pestType,
+            severity:
+              data.urgency === "emergency"
+                ? "Severe"
+                : data.urgency === "within24"
+                ? "Moderate"
+                : "Light",
+            sameDay: data.urgency === "emergency" ? "true" : "false",
+          },
+        }),
+      });
       setSubmitted(true);
     } catch {
       setServerError("Something went wrong. Please try calling us directly.");
