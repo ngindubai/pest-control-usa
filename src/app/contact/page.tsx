@@ -105,8 +105,7 @@ export default function ContactPage() {
             data.message ?? "",
           ]
             .filter(Boolean)
-            .join("
-"),
+            .join(", "),
           fields: {
             zip: data.zip,
             propertyType:
