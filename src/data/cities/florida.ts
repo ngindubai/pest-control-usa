@@ -4498,4 +4498,479 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Tamarac pest control for ghost ants, Formosan subterranean termites, mosquitoes, roof rats and German cockroaches. Broward County 1970s residential community specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "coral-gables",
+    name: "Coral Gables",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~50,000",
+    county: "Miami-Dade County",
+    climate: "tropical",
+    climateDriver:
+      "Coral Gables is a historic Miami-Dade city with a tropical climate where the combination of year-round warmth, heavy summer rainfall, and dense tree canopy creates exceptional conditions for termites and ant species. Formosan termite swarms have been documented in this area by the University of Florida IFAS Extension, and the city's mature banyan trees and historic coral rock construction create harborage that benefits multiple pest species year-round.",
+    topPests: ["Formosan Termites", "Ghost Ants", "American Cockroaches", "Mosquitoes", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, colony activity year-round",
+        note: "Formosan termites have been documented in the Coral Gables area by UF IFAS Extension. Their colonies are significantly larger and more destructive than eastern subterranean colonies, and the city's historic wood-frame structures and mature tree stumps provide ideal nesting habitat.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the dominant small ant species in Miami-Dade residential homes, including Coral Gables. They trail along countertops and windowsills in search of sweet food sources. Professional bait treatment is required because ghost ants avoid repellent sprays and simply relocate their colony.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most numerous in summer",
+        note: "American cockroaches, known locally as palmetto bugs, move freely between Coral Gables' outdoor storm drains, mulch beds, and residential structures. The city's tropical climate keeps them active all year with no cold-weather break.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak May through October",
+        note: "Coral Gables' tree canopy, canal system, and ornamental water features sustain mosquito breeding through most of the year. Aedes aegypti, which can transmit dengue and Zika, is monitored in Miami-Dade County by the Florida Department of Health.",
+      },
+    ],
+    localHook:
+      "Formosan termite swarms have been documented in the Coral Gables area. The city's historic coral rock and wood-frame structures, combined with mature banyan trees, create harborage that makes termite management an ongoing necessity for property owners here.",
+    intro:
+      "Pest control in Coral Gables deals with the full South Florida tropical pest environment, plus some pressures specific to an older, established neighborhood. Formosan termites are documented in the area and pose a greater structural risk than the eastern subterranean species more common further north. Ghost ants trail through kitchens year-round. American cockroaches move freely between the canals, drainage infrastructure, and residential structures. Mosquitoes are active most of the year. A proactive termite monitoring program and year-round general pest management are the foundation of any Coral Gables pest plan.",
+    sections: [
+      {
+        heading: "Termite pressure in Coral Gables' historic properties",
+        body: "Coral Gables has a mix of termite threats. Formosan subterranean termites, documented in the area by the University of Florida IFAS Extension, form colonies far larger than eastern subterranean termites and can cause structural damage within a few years without treatment. Drywood termites infest the wood framing and furniture of historic properties directly, without soil contact, and require either fumigation or spot treatment depending on the extent of the infestation. Asian subterranean termites are also established in South Florida. Annual inspections are the minimum standard for any Coral Gables property. Bait station systems provide ongoing monitoring and colony suppression for subterranean species.",
+      },
+      {
+        heading: "Ghost ants and year-round ant management",
+        body: "Ghost ants are the persistent indoor ant problem in Coral Gables homes. They are tiny, about 1.5 millimeters, with a dark head and pale abdomen, and they trail in from outside following moisture gradients into kitchens and bathrooms. The critical management point is that ghost ants avoid repellent pesticides and will split their colony when disturbed. Professional baiting with a sweet bait product, applied to active trails, is the effective approach. Homeowners can help by keeping food sealed, fixing dripping faucets, and sealing window frame gaps, but professional baiting is the treatment that actually eliminates the colony.",
+      },
+    ],
+    prevention: [
+      "Get an annual termite inspection given Formosan and drywood termite pressure in Miami-Dade.",
+      "Use professional bait treatment for ghost ants rather than repellent sprays.",
+      "Eliminate standing water in plant saucers and ornamental features to reduce mosquito breeding.",
+      "Seal gaps around window frames, door weatherstripping, and utility penetrations to block cockroach entry.",
+    ],
+    costNote:
+      "Coral Gables pest control starts with a free inspection. Year-round general pest programs cover ghost ants, cockroaches, and rodents. Termite treatment and monitoring programs are priced separately based on structure size. Mosquito programs are available monthly.",
+    faqs: [
+      {
+        question: "Are Formosan termites really in Coral Gables?",
+        answer:
+          "Yes. Formosan subterranean termites have been documented in the Coral Gables area by the University of Florida IFAS Extension. They are significantly more destructive than eastern subterranean termites because their colonies are much larger. Annual inspections and a bait station monitoring program are the recommended approach for Coral Gables properties.",
+      },
+      {
+        question: "Why do ghost ants keep coming back after I spray?",
+        answer:
+          "Ghost ants avoid repellent sprays and respond to them by splitting their colony, which temporarily reduces visible numbers but actually spreads the problem. Professional bait treatment applied to active trails is the effective approach. The ants carry the bait back to the colony, which eliminates the source rather than just the foragers.",
+      },
+      {
+        question: "Are mosquitoes bad in Coral Gables year-round?",
+        answer:
+          "They are active year-round, with the highest activity from May through October during the wet season. The city's canal system, ornamental water features, and dense vegetation sustain breeding populations outside the summer peak. Miami-Dade County monitors for Aedes aegypti, which can transmit dengue, throughout the year.",
+      },
+      {
+        question: "How do American cockroaches get into Coral Gables homes?",
+        answer:
+          "Palmetto bugs move between outdoor drainage infrastructure and structures through gaps around plumbing penetrations, garage doors, and weep holes. They breed outdoors and enter structures when it is hot and dry. Perimeter barrier spray and sealing foundation entry points is more effective than interior treatment for this species.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Miami", slug: "miami" },
+      { name: "Hialeah", slug: "hialeah" },
+      { name: "Doral", slug: "doral" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Coral Gables, FL | Termites, Ghost Ants & Mosquitoes",
+    metaDescription:
+      "Coral Gables pest control for Formosan termites, ghost ants, American cockroaches and mosquitoes. Miami-Dade historic neighborhood Biscayne Bay specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "doral",
+    name: "Doral",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~75,000",
+    county: "Miami-Dade County",
+    climate: "tropical",
+    climateDriver:
+      "Doral is a fast-growing Miami-Dade suburb with a predominantly tropical climate. Heavy summer rainfall, year-round warmth, and a mix of commercial logistics facilities and newer residential development create above-average cockroach, rodent, and termite pressure. The proximity to Miami International Airport and major logistics corridors means freight-related pest introduction risk is higher here than in typical residential suburbs.",
+    topPests: ["Subterranean Termites", "German Cockroaches", "Roof Rats", "Ghost Ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Eastern and Asian subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring through early summer, active year-round",
+        note: "Both eastern subterranean and Asian subterranean termites are active across Miami-Dade County including Doral. Asian subterranean termites are uniquely capable of building carton nests above ground, a behavior that makes them more difficult to control than standard subterranean species.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a priority pest in Doral's commercial and multi-family residential properties. The logistics and warehouse sector near Miami International Airport sustains high commercial cockroach pressure, and management in adjacent residential areas requires consistent professional programs.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active fall through spring",
+        note: "Roof rats are established throughout Miami-Dade County. Doral's newer construction and commercial corridors do not provide the gaps that older housing offers, but roof rats access structures through rooflines, attic vents, and gaps at utility penetrations.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the dominant small ant species in Doral homes. They trail indoors from exterior nesting sites in landscaping and mulch, concentrating in kitchens and bathrooms. Professional bait is the effective treatment.",
+      },
+    ],
+    localHook:
+      "Doral's position near Miami International Airport and major freight corridors creates above-average pest introduction risk from commercial goods. The warehousing and logistics sector in the area sustains cockroach and rodent populations that affect adjacent residential neighborhoods.",
+    intro:
+      "Pest control in Doral handles Miami-Dade's tropical pest environment in a setting that mixes newer residential development with significant commercial and logistics activity. Subterranean termites are active year-round. German cockroaches are a priority pest in both commercial and residential properties, partly driven by the city's logistics sector near the airport. Roof rats are established across the county. Ghost ants trail through homes year-round. A year-round integrated program with regular interior service and exterior monitoring is the standard approach for Doral properties.",
+    sections: [
+      {
+        heading: "Cockroaches and rodents in Doral's commercial-residential mix",
+        body: "Doral's combination of warehousing, logistics facilities, and residential neighborhoods creates a pest environment where commercial sources can feed residential pressure. German cockroaches breed readily in commercial kitchen and warehouse settings and spread into adjacent multi-family housing through shared infrastructure. Roof rats use the rooflines of commercial and residential buildings interchangeably. For residential properties near commercial corridors, more frequent exterior inspection and a tighter exclusion standard matter more than in purely residential suburbs. Regular interior gel bait service for German cockroaches and an exterior rodent monitoring program are the foundation of a Doral pest plan.",
+      },
+      {
+        heading: "Termite management in Doral's newer construction",
+        body: "Doral's newer construction typically includes a pre-treatment soil barrier before slab pour, but those barriers degrade over time and require renewal. Miami-Dade County's tropical climate means both eastern and Asian subterranean termites remain active through every month of the year. Annual inspections confirm whether a current pre-treatment is holding. Bait station monitoring programs provide ongoing detection and colony suppression for the subterranean species. Drywood termites are also present in South Florida and require separate treatment if they infest wood framing directly.",
+      },
+    ],
+    prevention: [
+      "Get annual termite inspections and consider a bait station monitoring program for Miami-Dade's year-round termite activity.",
+      "Use professional gel bait programs for German cockroach control in kitchen and utility areas.",
+      "Seal attic vents, roofline gaps, and utility penetrations to block roof rat access.",
+      "Remove standing water and keep gutters clear to reduce mosquito and ghost ant breeding near the structure.",
+    ],
+    costNote:
+      "Doral pest control starts with a free inspection. Year-round general pest programs run $80 to $130 per month for residential properties. Termite monitoring and treatment are quoted separately. Commercial properties may require more frequent service.",
+    faqs: [
+      {
+        question: "Does living near the Doral commercial corridor increase pest pressure?",
+        answer:
+          "Yes, particularly for cockroaches and rodents. The warehousing and logistics facilities near Miami International Airport sustain commercial pest populations that can feed into adjacent residential areas. More frequent professional service and tighter exclusion work are practical investments for residential properties near commercial corridors.",
+      },
+      {
+        question: "Are Asian subterranean termites in Doral more concerning than regular termites?",
+        answer:
+          "Asian subterranean termites are more aggressive and can form above-ground carton nests in trees and structures, which eastern subterranean termites cannot. Both species are active in Miami-Dade County. Annual inspections and a bait station program are the recommended approach for ongoing monitoring and suppression.",
+      },
+      {
+        question: "How do roof rats get into newer Doral homes?",
+        answer:
+          "Roof rats are skilled climbers and access structures through gaps at rooflines, around attic vent screens, at soffit transitions, and where utility lines enter the structure. Newer construction has fewer gaps than older homes but is not immune. A technician inspection identifies the entry points, which are sealed as part of the treatment plan.",
+      },
+      {
+        question: "Why are ghost ants impossible to control with spray in Doral?",
+        answer:
+          "Ghost ants avoid repellent chemicals and split their colony when disturbed by spray treatment. This spreads rather than eliminates the infestation. Professional sweet bait products applied to active trails are carried back to the colony by foraging workers, killing the queens and solving the source rather than just the visible ants.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Miami", slug: "miami" },
+      { name: "Hialeah", slug: "hialeah" },
+      { name: "Coral Gables", slug: "coral-gables" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Doral, FL | Termites, Cockroaches & Roof Rats",
+    metaDescription:
+      "Doral pest control for subterranean termites, German cockroaches, roof rats, ghost ants and mosquitoes. Miami-Dade County logistics corridor airport suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "coconut-creek",
+    name: "Coconut Creek",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~61,000",
+    county: "Broward County",
+    climate: "tropical",
+    climateDriver:
+      "Coconut Creek is a Broward County suburb with a tropical climate, extensive landscaping, and Butterfly World in Tradewinds Park, which draws visitors and sustains ornamental plant communities that harbor ghost ants and whiteflies. The subtropical rainfall and year-round warmth drive continuous pest pressure for subterranean termites, mosquitoes, and ant species.",
+    topPests: ["Ghost Ants", "Formosan Termites", "Mosquitoes", "German Cockroaches", "Whiteflies"],
+    pestProfile: [
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are the dominant small ant species in Coconut Creek homes and are particularly active in kitchens, bathrooms, and near interior water sources. They nest outdoors in landscaping and trail indoors in large numbers. Professional bait treatment is required since repellent sprays cause colony splitting.",
+      },
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round",
+        note: "Formosan termites are established across Broward County. Their large, aggressive colonies cause greater structural damage more quickly than the eastern subterranean species. Coconut Creek's established tree canopy and landscaping provide harborage that sustains colonies near residential structures.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak May through October",
+        note: "Coconut Creek's Tradewinds Park, retention ponds, and canal network create consistent mosquito breeding habitat. The subtropical wet season runs May through October and dramatically increases local breeding activity.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches concentrate in Coconut Creek's multi-family residential buildings and commercial food service establishments. Year-round warmth means no seasonal reduction in breeding activity.",
+      },
+    ],
+    localHook:
+      "Coconut Creek's Tradewinds Park, home to Butterfly World, sustains extensive landscaping and water features that create consistent mosquito and ghost ant breeding habitat adjacent to the city's residential neighborhoods.",
+    intro:
+      "Pest control in Coconut Creek deals with Broward County's tropical pest environment in a community known for its parks and green spaces. Ghost ants trail through kitchens year-round. Formosan termites are established in the county. Mosquitoes breed in Tradewinds Park, the canal network, and residential retention ponds through most of the year. German cockroaches are the main indoor commercial pest. Year-round general pest management with a specific termite monitoring program covers the main threats for Coconut Creek homeowners.",
+    sections: [
+      {
+        heading: "Ghost ants and tropical ant management in Coconut Creek",
+        body: "Ghost ants are the persistent ant problem in Coconut Creek homes. They nest in landscaping mulch, potted plants, and outdoor furniture, then trail indoors through window frames and door weatherstripping in search of moisture and sweet food sources. The key fact about ghost ants is that repellent pesticides cause colony splitting, which spreads the infestation rather than eliminating it. Professional sweet bait applied to active trails is the effective treatment. The bait is carried back to the colony by foraging workers and eliminates the queens, solving the source. Coconut Creek's dense landscaping and warm, wet climate mean year-round ghost ant management is necessary for most properties.",
+      },
+      {
+        heading: "Formosan termites and Coconut Creek's canopy",
+        body: "Broward County's mature tree canopy, including Coconut Creek's established neighborhood planting, provides harborage for Formosan subterranean termites. Formosan colonies form in tree stumps, root systems, and soil near foundations, and their large populations are capable of significant structural damage within a few years of establishment. Annual inspections confirm whether current termite control is working. Bait station systems installed in the ground around a structure provide ongoing monitoring and colony suppression without a chemical soil barrier. Drywood termites are also present in South Florida and require separate treatment if they infest wood framing or furniture.",
+      },
+    ],
+    prevention: [
+      "Use professional bait treatment for ghost ants rather than repellent sprays that cause colony splitting.",
+      "Get annual termite inspections given Broward County's Formosan and drywood termite pressure.",
+      "Eliminate standing water in retention areas and plant saucers to reduce mosquito breeding.",
+      "Seal window frame gaps and door weatherstripping to reduce ghost ant and cockroach entry points.",
+    ],
+    costNote:
+      "Coconut Creek pest control starts with a free inspection. Year-round general pest programs run monthly or quarterly. Termite monitoring programs and treatment are quoted separately by structure. Mosquito programs are available on a monthly schedule.",
+    faqs: [
+      {
+        question: "Are ghost ants the most common pest in Coconut Creek homes?",
+        answer:
+          "For indoor ant problems, yes. Ghost ants are the dominant small ant species in Broward County homes and are particularly prevalent in the city's well-landscaped neighborhoods where outdoor nesting sites are abundant. Year-round warmth means they are active every month.",
+      },
+      {
+        question: "Do Formosan termites pose a higher risk than other termites in Coconut Creek?",
+        answer:
+          "Yes. Formosan termite colonies are far larger than eastern subterranean colonies and cause damage more quickly. They are established across Broward County. Annual inspections and a bait station program are the recommended approach for ongoing protection.",
+      },
+      {
+        question: "Is Tradewinds Park a significant mosquito source for nearby homes?",
+        answer:
+          "Yes. The park's water features, retention areas, and dense vegetation sustain mosquito breeding populations that affect adjacent residential neighborhoods. The subtropical wet season from May through October significantly increases breeding activity in and around the park.",
+      },
+      {
+        question: "What is the most effective German cockroach treatment in Coconut Creek?",
+        answer:
+          "Interior gel bait with an insect growth regulator targets German cockroaches in the kitchen and bathroom areas where they concentrate. Broward County's year-round warmth means German cockroach populations do not decline seasonally, so consistent program maintenance is more important here than in northern states with winter breaks.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Coral Springs", slug: "coral-springs" },
+      { name: "Pompano Beach", slug: "pompano-beach" },
+      { name: "Deerfield Beach", slug: "deerfield-beach" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Coconut Creek, FL | Ghost Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Coconut Creek pest control for ghost ants, Formosan subterranean termites, mosquitoes and German cockroaches. Broward County Tradewinds Park Butterfly World suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "sanford",
+    name: "Sanford",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~63,000",
+    county: "Seminole County",
+    climate: "hot-humid",
+    climateDriver:
+      "Sanford sits on the southern shore of Lake Monroe where the St. Johns River flows through Seminole County, one of Florida's most productive mosquito breeding environments. The lake, river floodplain, and surrounding wetlands sustain year-round mosquito pressure that the University of Florida IFAS Extension has documented as among the highest in Central Florida. The hot, humid summers also sustain year-round subterranean termite and cockroach activity.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "American Cockroaches", "Fire Ants", "Ghost Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, intense May through October",
+        note: "Lake Monroe and the St. Johns River floodplain create exceptional mosquito breeding habitat in and around Sanford. Seminole County mosquito control confirms elevated activity around the lake corridor, and the city's low-lying residential areas near the water face above-average seasonal pressure.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round",
+        note: "Eastern subterranean termites are well-established throughout Seminole County. Sanford's older historic downtown and the residential areas adjacent to the lake have a mix of construction ages, and older homes with wood-to-soil contact are at highest risk.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, more numerous in summer",
+        note: "American cockroaches move freely between Sanford's outdoor drainage infrastructure and residential structures. The city's proximity to Lake Monroe and the river corridor keeps outdoor cockroach populations high year-round.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak after rain",
+        note: "Fire ants are well-established throughout Seminole County. Sanford's combination of lawns, parks, and undeveloped areas near the river provides habitat that keeps fire ant pressure consistent through the year.",
+      },
+    ],
+    localHook:
+      "Sanford's position on Lake Monroe and the St. Johns River floodplain creates some of the most intense mosquito pressure in Central Florida. The lake and its adjacent wetlands sustain breeding populations that Seminole County mosquito control monitors year-round.",
+    intro:
+      "Pest control in Sanford starts with the mosquitoes. The city's location on Lake Monroe and the St. Johns River floodplain creates some of the most intense mosquito pressure in Central Florida. Year-round warmth and wet-season flooding in the river corridor sustain breeding populations that affect homes near the waterfront more than those further inland. Beyond mosquitoes, subterranean termites are active year-round in Seminole County, and American cockroaches move freely between outdoor drainage and indoor structures. Fire ants are active across Sanford's lawns and parks. A year-round pest management plan with monthly mosquito programs for lake-adjacent properties is the practical approach.",
+    sections: [
+      {
+        heading: "Lake Monroe and Sanford's elevated mosquito pressure",
+        body: "Lake Monroe is a widening of the St. Johns River, and its shallow margins, surrounding wetlands, and floodplain areas provide exceptionally productive mosquito breeding habitat. The Seminole County mosquito control program monitors activity here year-round. Properties on the lake's south shore and in the low-lying areas between the lake and downtown Sanford experience the highest pressure. Monthly professional barrier spray from April through October, combined with elimination of standing water in residential yards, is the recommended approach for properties in these areas. Even for homes further from the lake, the regional breeding pressure from the river corridor extends Sanford's mosquito season longer than most inland Seminole County locations.",
+      },
+      {
+        heading: "Termites and cockroaches in Sanford's older neighborhoods",
+        body: "Sanford's historic district and the older residential neighborhoods surrounding it have a range of construction ages, and the oldest properties are the highest-risk for subterranean termites. Eastern subterranean termites are active year-round in Seminole County's warm climate. Annual inspections, particularly for homes with pier-and-beam foundations, wood floor joists, or any wood-to-ground contact, are the standard. American cockroaches in Sanford's older urban areas move between the outdoor storm drain infrastructure and indoor structures through foundation gaps and plumbing penetrations. Perimeter barrier treatment and sealing entry points around pipes and garage doors is the effective exterior management strategy.",
+      },
+    ],
+    prevention: [
+      "Apply professional monthly mosquito barrier spray April through October for Lake Monroe-adjacent properties.",
+      "Eliminate standing water in any container, gutter, or low yard area to reduce local mosquito breeding.",
+      "Get annual termite inspections for Sanford's older construction, particularly around wood-to-soil contact.",
+      "Seal plumbing penetrations and foundation gaps to block American cockroach entry from outdoor drains.",
+    ],
+    costNote:
+      "Sanford pest control starts with a free inspection. Monthly mosquito programs are a practical investment for lakeside and riverside properties. Quarterly general pest programs cover termite monitoring, cockroaches, ants, and spiders. Termite treatment is quoted separately.",
+    faqs: [
+      {
+        question: "Is mosquito pressure in Sanford worse because of Lake Monroe?",
+        answer:
+          "Yes, particularly for properties near the lake and the St. Johns River floodplain. The lake's shallow margins and adjacent wetlands create some of the most productive mosquito breeding habitat in Central Florida. Seminole County mosquito control confirms elevated activity in this corridor year-round.",
+      },
+      {
+        question: "Does Sanford's older housing stock increase termite risk?",
+        answer:
+          "Older construction generally presents higher termite risk because it predates modern pre-treatment practices and may have more wood-to-soil contact. Eastern subterranean termites are active year-round in Seminole County, and the annual inspection becomes especially important for Sanford's historic properties.",
+      },
+      {
+        question: "Are fire ants bad in Sanford?",
+        answer:
+          "Fire ants are well-established throughout Seminole County and are a consistent problem in Sanford's residential lawns and parks. They are active year-round. Mounds rebuild after treatment, particularly in irrigated lawns and areas near the river's moisture influence. Broadcast bait treatment in spring gives the best season-long suppression.",
+      },
+      {
+        question: "What draws American cockroaches into Sanford homes?",
+        answer:
+          "American cockroaches breed outdoors in storm drains, mulch beds, and under debris near water. They move into structures during hot, dry periods or when following moisture. The proximity to Lake Monroe and the river corridor keeps outdoor populations high in Sanford. Perimeter treatment and sealing plumbing penetrations reduces entries significantly.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Orlando", slug: "orlando" },
+      { name: "Deltona", slug: "deltona" },
+      { name: "Daytona Beach", slug: "daytona-beach" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Sanford, FL | Mosquitoes, Termites & Fire Ants",
+    metaDescription:
+      "Sanford pest control for mosquitoes, subterranean termites, American cockroaches and fire ants. Seminole County Lake Monroe St. Johns River floodplain Central Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "north-miami",
+    name: "North Miami",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~62,000",
+    county: "Miami-Dade County",
+    climate: "tropical",
+    climateDriver:
+      "North Miami is a dense urban Miami-Dade community with a tropical climate where year-round warmth, heavy summer rainfall, and older housing stock create sustained termite, cockroach, and rodent pressure. The city's mix of single-family homes, apartments, and commercial buildings in a tight urban grid is typical of the inner Miami-Dade pest environment.",
+    topPests: ["Formosan Termites", "American Cockroaches", "German Cockroaches", "Roof Rats", "Ghost Ants"],
+    pestProfile: [
+      {
+        name: "Formosan and Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring through early summer, active year-round",
+        note: "Both Formosan and Eastern subterranean termites are active in North Miami. The city's older residential construction and mature tree canopy provide the harborage conditions these species need. UF IFAS Extension documents Formosan termites as established in Miami-Dade County.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most numerous after rain",
+        note: "American cockroaches are abundant in North Miami's urban environment, breeding in outdoor drainage infrastructure and moving into structures through gaps at ground level. The tropical climate keeps them active every month without a cold-weather break.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches concentrate in North Miami's older apartment buildings and commercial kitchens. Multi-unit residential structures present specific challenges because colonies spread between units through shared wall voids and plumbing chases.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most active fall through spring",
+        note: "Roof rats are well-established throughout Miami-Dade County. North Miami's older building stock, mature canopy trees, and urban density make roof rat pressure a consistent issue for both residential and commercial properties.",
+      },
+    ],
+    localHook:
+      "North Miami's older urban housing stock and dense multi-family residential development create sustained termite, cockroach, and rodent pressure consistent with the inner Miami-Dade environment, where year-round warmth eliminates any seasonal pest break.",
+    intro:
+      "Pest control in North Miami handles Miami-Dade's full urban tropical pest environment in a dense, older community. Termites are active year-round, with both Formosan and Eastern subterranean species documented in the county. American cockroaches move freely between outdoor drains and residential structures. German cockroaches concentrate in multi-family buildings and commercial food service. Roof rats are a consistent issue in North Miami's older neighborhood tree canopy. Year-round integrated pest management is the standard approach for any North Miami property.",
+    sections: [
+      {
+        heading: "Termites and older construction in North Miami",
+        body: "North Miami has a significant stock of residential construction from the 1950s through 1970s, which predates modern termite pre-treatment standards. Eastern subterranean termites are active year-round in Miami-Dade County's tropical climate. Formosan termites, documented across the county by UF IFAS Extension, form larger and more aggressive colonies that cause damage more quickly. Annual inspections are the minimum standard. Bait station monitoring programs provide ongoing detection and colony suppression without requiring soil disruption around the foundation. Drywood termites are also present in South Florida and may require fumigation for heavily infested structures.",
+      },
+      {
+        heading: "Cockroaches and rodents in North Miami's urban environment",
+        body: "North Miami's urban density creates pest pathways through shared walls, plumbing infrastructure, and outdoor drainage that require consistent professional management. German cockroaches in multi-family buildings spread between units through wall voids and plumbing chases, which means treating a single apartment rarely produces lasting results. A building-level program covering neighboring units and shared spaces is the effective approach. Roof rats access buildings through rooflines, attic vent gaps, and where utility lines enter the structure. The city's mature canopy trees provide highway access to rooflines. Exclusion work sealing the specific access points identified in an inspection is the lasting fix, combined with exterior bait station monitoring.",
+      },
+    ],
+    prevention: [
+      "Get annual termite inspections for North Miami's older construction stock.",
+      "Use building-level programs for German cockroach control in multi-family properties.",
+      "Seal roofline gaps, attic vents, and utility line penetrations to block roof rat access.",
+      "Keep outdoor areas free of standing water and debris that sustains American cockroach and ghost ant breeding.",
+    ],
+    costNote:
+      "North Miami pest control starts with a free inspection. Year-round general pest programs are standard in this tropical climate. Termite monitoring and treatment are quoted separately by structure size. Commercial and multi-family properties require customized service plans.",
+    faqs: [
+      {
+        question: "How serious is the termite risk in older North Miami homes?",
+        answer:
+          "Significant. Homes built before modern pre-treatment standards are common in North Miami, and Miami-Dade County's tropical climate means Eastern subterranean and Formosan termites are active every month. Annual inspections and a bait station monitoring program are the recommended baseline for any property here.",
+      },
+      {
+        question: "Why is German cockroach control harder in North Miami apartments?",
+        answer:
+          "German cockroaches spread through shared wall voids and plumbing chases in multi-unit buildings. Treating a single unit drives cockroaches into adjacent units rather than eliminating them. Effective control requires a building-level program covering neighboring units and shared service spaces simultaneously.",
+      },
+      {
+        question: "Are roof rats common in North Miami?",
+        answer:
+          "Yes. Roof rats are established throughout Miami-Dade County, and North Miami's older building stock and mature canopy trees are ideal habitat. They access rooflines through overhanging branches, soffit gaps, and attic vents. An exclusion inspection identifies and seals the access points the rats are using.",
+      },
+      {
+        question: "Do I need year-round pest control in North Miami?",
+        answer:
+          "For most properties in this tropical climate, yes. Miami-Dade County's year-round warmth means pests do not experience a winter slowdown that provides homeowners with a natural break. German cockroaches, termites, and roof rats are all active every month, and waiting until a problem is visible usually means a larger, more expensive treatment.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Miami", slug: "miami" },
+      { name: "Miami Gardens", slug: "miami-gardens" },
+      { name: "Hialeah", slug: "hialeah" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in North Miami, FL | Termites, Cockroaches & Roof Rats",
+    metaDescription:
+      "North Miami pest control for Formosan termites, American cockroaches, German cockroaches, roof rats and ghost ants. Miami-Dade urban tropical climate older housing specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

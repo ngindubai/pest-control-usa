@@ -1520,4 +1520,307 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Manassas pest control for stink bugs, subterranean termites, mosquitoes, house mice and deer ticks. Prince William County Northern Virginia Bull Run corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "leesburg",
+    name: "Leesburg",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~56,000",
+    county: "Loudoun County",
+    climate: "temperate",
+    climateDriver:
+      "Northern Virginia Piedmont climate with humid summers. Loudoun County's rural-suburban interface, with horse farms, vineyards, and wooded corridors in the western county, creates above-average deer tick exposure compared to more urbanized NoVA suburbs.",
+    topPests: [
+      "Brown marmorated stink bugs",
+      "Deer ticks",
+      "Eastern subterranean termites",
+      "Mosquitoes",
+      "House mice",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through October aggregation",
+        note:
+          "VCE and Penn State research consistently place Northern Virginia at the core of the mid-Atlantic stink bug invasion zone. Loudoun County including Leesburg experiences among the highest stink bug densities documented in the region.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round, peak May through July nymph stage",
+        note:
+          "Loudoun County's western rural landscape, including horse farms, vineyards, and wooded corridors, sustains deer populations that carry tick populations into suburban Leesburg. VCE places Loudoun County in the high Lyme disease risk zone.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, peak March through May",
+        note:
+          "VCE confirms eastern subterranean termites are active throughout Loudoun County. Leesburg's older historic downtown neighborhoods and newer suburban developments both carry standard Northern Virginia termite pressure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note:
+          "Goose Creek and Catoctin Creek drainage corridors create mosquito breeding habitat in Leesburg's residential areas adjacent to those waterways.",
+      },
+    ],
+    localHook:
+      "Leesburg sits at the boundary of Northern Virginia's dense suburban development and Loudoun County's western rural landscape. Horse farms, vineyards, and wooded corridors to the west sustain the deer populations that drive the county's above-average tick pressure. The same rural character that makes western Loudoun County attractive as a destination makes tick management a year-round priority for Leesburg residents near those corridors.",
+    intro:
+      "Leesburg is Loudoun County's seat and one of Northern Virginia's fastest-growing cities, positioned at the edge of suburban development and the rural western county landscape. VCE research places Northern Virginia at the documented core of the mid-Atlantic stink bug invasion zone, and Leesburg's September aggregation events are among the most intense in the state. Loudoun County's rural-suburban interface, with deer-sustaining horse farms and wooded corridors to the west, creates above-average deer tick exposure. Eastern subterranean termites are active throughout Loudoun County, and mosquitoes breed in the Goose Creek and Catoctin Creek drainage corridors.",
+    sections: [
+      {
+        heading: "Stink bugs in Leesburg: Northern Virginia's core invasion zone",
+        body:
+          "VCE and Penn State research place Northern Virginia consistently at the documented center of the mid-Atlantic brown marmorated stink bug invasion. Loudoun County, including Leesburg, experiences stink bug densities that are among the highest in Virginia. The September aggregation event, when stink bugs move from summer host plants to building faces seeking overwintering sites, is a predictable annual occurrence. The prevention window is August: sealing gaps around windows, soffits, utility penetrations, and siding seams before the aggregation begins is far more effective than responding to an active entry event. A residual perimeter treatment applied to south and west building faces in late August or early September adds a chemical barrier to complement physical exclusion. Once stink bugs are in wall voids, management shifts to vacuuming individual bugs as they emerge indoors through winter.",
+      },
+      {
+        heading: "Deer ticks at Loudoun County's rural interface",
+        body:
+          "Leesburg's position adjacent to Loudoun County's western rural landscape creates deer tick exposure that is higher than in more urbanized Northern Virginia suburbs like Arlington or Falls Church. Horse farms, vineyards, and the wooded corridors of the Catoctin and Bull Run mountains to the west sustain large deer populations. Deer carrying ticks move regularly into suburban Leesburg yards through wooded buffers and stream corridors. VCE places Loudoun County in the high Lyme disease risk zone based on documented tick density and disease incidence. Tick checks after any outdoor activity in wooded or brushy areas are year-round precautions in Leesburg. Professional yard perimeter treatment targeting leaf litter and brush edges at property boundaries reduces tick encounter rates near the home.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps in August before the September stink bug aggregation season, prioritizing south and west building faces where aggregations are most intense.",
+      "Perform tick checks after outdoor activity year-round given Loudoun County's high Lyme disease risk zone designation from VCE.",
+      "Schedule annual termite inspections for Leesburg properties given Northern Virginia's documented high termite pressure.",
+      "Apply professional yard perimeter treatment targeting leaf litter and brush edges for properties adjacent to wooded corridors in western Leesburg.",
+    ],
+    costNote:
+      "Leesburg pest control typically includes quarterly exterior programs for stink bug prevention, mice, and cockroaches. Tick and mosquito treatment are seasonal add-ons. Stink bug exclusion and perimeter treatment in late August are the highest-value single-service investment for most Northern Virginia homeowners.",
+    faqs: [
+      {
+        question: "Is stink bug pressure in Leesburg really that different from other Virginia cities?",
+        answer:
+          "Yes, measurably. VCE and Penn State research consistently document Northern Virginia, including Loudoun County, as the core of the mid-Atlantic stink bug invasion zone. Cities in southern Virginia or the Shenandoah Valley see substantially lower densities. Leesburg homeowners who have moved from other Virginia regions often describe the September aggregation as notably more intense than anything they experienced elsewhere. Sealing gaps before mid-September and applying a perimeter treatment is the standard recommended approach.",
+      },
+      {
+        question: "How does Leesburg's location affect deer tick risk compared to more urban Northern Virginia?",
+        answer:
+          "Leesburg's adjacency to Loudoun County's western rural landscape brings deer into suburban neighborhoods through wooded corridors and stream buffers in ways that more densely urbanized suburbs like Alexandria or Tysons do not experience. Deer travel from horse farms and wooded areas to the west into Leesburg residential areas, carrying tick populations with them. VCE's high Lyme disease risk designation for Loudoun County reflects this rural-suburban interface. Tick checks and year-round pet prevention are appropriate year-round precautions.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Alexandria", slug: "alexandria" },
+      { name: "Manassas", slug: "manassas" },
+      { name: "Richmond", slug: "richmond" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Leesburg, VA | Stink Bugs, Deer Ticks & Termites",
+    metaDescription:
+      "Leesburg pest control for stink bugs, deer ticks, subterranean termites and mosquitoes. Loudoun County Northern Virginia rural-suburban interface specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "blacksburg",
+    name: "Blacksburg",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~45,000",
+    county: "Montgomery County",
+    climate: "cold-humid",
+    climateDriver:
+      "Southwest Virginia Appalachian Plateau climate at approximately 2,100 feet elevation. Cooler summers and colder winters than coastal or Piedmont Virginia. VCE confirms subterranean termites are active in Montgomery County at lower pressure than coastal zones. Carpenter ants are the primary structural pest at this elevation.",
+    topPests: [
+      "Carpenter ants",
+      "Eastern subterranean termites",
+      "Yellow jackets",
+      "House mice",
+      "Brown marmorated stink bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note:
+          "VCE confirms carpenter ants as a significant structural pest in Virginia's mountain and Appalachian regions. Blacksburg's elevation, wooded surroundings, and moisture conditions from the New River drainage create favorable carpenter ant conditions.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, reduced winter activity at elevation",
+        note:
+          "VCE confirms subterranean termites are present in Montgomery County, though at lower pressure than coastal Virginia. Virginia Tech campus buildings and older Blacksburg neighborhoods with soil-to-wood contact carry the most exposure.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "stinging-insect-control",
+        activeSeason: "June through October",
+        note:
+          "Yellow jackets build ground nests and wall-void nests in Blacksburg's residential areas. Colony size peaks in August and September, creating the highest sting risk during outdoor activity in late summer.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note:
+          "Blacksburg's cooler mountain climate drives earlier and more persistent mouse entry into structures than in lower-elevation Virginia cities. The large Virginia Tech student housing stock creates additional pressure points.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through October",
+        note:
+          "VCE confirms stink bugs are established across Virginia including the New River Valley region. Blacksburg sees annual fall aggregation on building faces, though at lower density than Northern Virginia's core invasion zone.",
+      },
+    ],
+    localHook:
+      "Blacksburg is home to Virginia Tech, one of the largest universities in the Southeast, and the combination of a large student housing stock, wooded mountain surroundings, and higher elevation creates a pest profile that differs from most Virginia cities. Carpenter ants are the primary structural pest at Blacksburg's elevation, where moisture conditions and wooded proximity favor them over the termite dominance seen in coastal and Piedmont Virginia.",
+    intro:
+      "Blacksburg sits in the New River Valley at roughly 2,100 feet elevation, and that altitude shapes the pest environment in ways that distinguish it from most Virginia cities. VCE confirms carpenter ants are a significant structural pest in Virginia's Appalachian and mountain regions, and Blacksburg's wooded surroundings, moisture from the New River drainage, and cooler climate create favorable conditions for them. Subterranean termites are present in Montgomery County but at lower pressure than coastal Virginia. House mice push indoors earlier and more aggressively in Blacksburg's cooler falls. Yellow jackets and stink bugs are consistent late-summer and fall concerns.",
+    sections: [
+      {
+        heading: "Carpenter ants in Blacksburg's mountain and wooded environment",
+        body:
+          "At Blacksburg's elevation and with the wooded slopes of Brush Mountain and Price Mountain surrounding the city, carpenter ants are a more significant structural concern than in lower-elevation Virginia. VCE confirms carpenter ants are a primary wood-destroying pest in Virginia's mountain regions. They do not eat wood but excavate galleries for nesting in moist or softened wood, and Blacksburg's wet mountain springs and fall rains sustain the moisture conditions they need. Virginia Tech's older building stock and Blacksburg's established residential neighborhoods include structures where aging weatherproofing and wood near soil create harborage. A professional inspection that identifies moisture entry points alongside ant activity is the most effective starting point. Unlike termites, carpenter ant infestations are often visible through frass deposits and structural damage that a trained inspector can identify.",
+      },
+      {
+        heading: "Mice, yellow jackets, and stink bugs in Blacksburg's seasonal pattern",
+        body:
+          "Blacksburg's mountain climate creates an earlier and more aggressive fall mouse entry season than most Virginia cities. The cooling temperatures in September and October drive mice through foundation gaps, door sweeps, and utility penetrations. The large Virginia Tech student housing stock, including off-campus rentals, creates additional pressure points where building maintenance may not address mouse entry systematically. Sealing foundation gaps and installing proper door sweeps before September is the most effective prevention step. Yellow jackets peak in August and September, with ground nests in lawn areas and wall-void nests in siding cavities. Stink bugs are established across Virginia including the New River Valley, with the September and October aggregation annual and predictable, though at lower density than Northern Virginia.",
+      },
+    ],
+    prevention: [
+      "Address moisture sources in the structure and surrounding landscape to reduce carpenter ant harborage in Blacksburg's wet mountain environment.",
+      "Seal foundation gaps, door sweeps, and utility penetrations before September given Blacksburg's early fall mouse entry season at higher elevation.",
+      "Inspect lawn areas for yellow jacket ground nests in June, before colonies reach late-summer maximum size.",
+      "Seal exterior gaps before mid-September ahead of the stink bug aggregation season.",
+    ],
+    costNote:
+      "Blacksburg pest control programs typically include quarterly exterior programs covering mice, carpenter ants, and perimeter pests. Carpenter ant treatment may include a moisture assessment component. Yellow jacket and stink bug services are seasonal. Annual termite inspections are appropriate even at Montgomery County's lower pressure level.",
+    faqs: [
+      {
+        question: "Are carpenter ants or termites a bigger concern in Blacksburg?",
+        answer:
+          "Carpenter ants are the more significant structural pest concern in Blacksburg given the higher elevation, cooler climate, and wooded surroundings. VCE confirms carpenter ants as a primary pest in Virginia's mountain and Appalachian regions. Subterranean termites are present in Montgomery County but at lower pressure than coastal Virginia's high-risk zones. Both warrant annual inspection, but for Blacksburg properties adjacent to wooded areas, carpenter ant management is typically the higher-priority program.",
+      },
+      {
+        question: "Why do mice seem to come inside earlier in Blacksburg than in other Virginia cities?",
+        answer:
+          "Blacksburg's elevation of roughly 2,100 feet means fall temperatures drop earlier and more sharply than in Piedmont or coastal Virginia. Mice start pushing indoors when nighttime temperatures consistently fall below the mid-50s. In Blacksburg that can begin in September, weeks earlier than in Richmond or Virginia Beach. Sealing foundation gaps, door sweeps, and utility penetrations by early September addresses this earlier entry timing.",
+      },
+      {
+        question: "How does Virginia Tech's campus affect pest pressure in surrounding Blacksburg neighborhoods?",
+        answer:
+          "A large student population creates a higher turnover rental housing market, and off-campus rental properties sometimes have deferred maintenance that creates more entry points for mice and cockroaches than owner-occupied homes. The concentration of food service facilities on campus also creates cockroach pressure points in the commercial-residential interface near campus. For homeowners in Blacksburg neighborhoods adjacent to campus housing areas, it is worth maintaining a professional perimeter program year-round.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Richmond", slug: "richmond" },
+      { name: "Chesapeake", slug: "chesapeake" },
+      { name: "Alexandria", slug: "alexandria" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Blacksburg, VA | Carpenter Ants, Mice & Termites",
+    metaDescription:
+      "Blacksburg pest control for carpenter ants, house mice, subterranean termites, yellow jackets and stink bugs. Montgomery County New River Valley Virginia Tech Southwest Virginia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "fredericksburg",
+    name: "Fredericksburg",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~29,000",
+    county: "Independent City",
+    climate: "temperate",
+    climateDriver:
+      "Central Virginia Piedmont/Coastal Plain transition climate with hot humid summers. Rappahannock River creates significant mosquito breeding habitat and shoreline moisture. Fredericksburg sits midway between Northern Virginia and Richmond in the I-95 corridor.",
+    topPests: [
+      "Mosquitoes",
+      "Brown marmorated stink bugs",
+      "Eastern subterranean termites",
+      "Fire ants",
+      "House mice",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "The Rappahannock River and its tributaries including Hazel Run create extensive mosquito breeding habitat adjacent to Fredericksburg's historic districts and residential neighborhoods near the river corridor.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through October",
+        note:
+          "VCE confirms stink bugs are established throughout the I-95 Virginia corridor. Fredericksburg experiences strong fall aggregation events on south and west building faces each September.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, peak March through May",
+        note:
+          "VCE confirms high termite pressure throughout central Virginia. Fredericksburg's historic downtown buildings, some dating to the 18th century, carry significant unprotected termite exposure. The Rappahannock River's moisture elevates subterranean termite activity near the river corridor.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "April through October",
+        note:
+          "VCE confirms fire ants are established in central Virginia including the Fredericksburg area. Maintained residential lawns in the I-95 corridor are fire ant territory through the warm season.",
+      },
+    ],
+    localHook:
+      "Fredericksburg is one of Virginia's most historically significant cities, and that history means a building stock that includes structures dating to the 18th and 19th centuries in the downtown core. These historic buildings carry termite exposure that requires ongoing professional management. The Rappahannock River running through the city adds mosquito pressure that most of the I-95 corridor cities between Northern Virginia and Richmond do not experience at the same level.",
+    intro:
+      "Fredericksburg's position on the Rappahannock River in central Virginia creates a pest environment shaped by both the river and the city's remarkable historical depth. The Rappahannock River corridor creates significant mosquito breeding habitat from April through October, adding a waterfront pest dimension that other I-95 corridor cities between Northern Virginia and Richmond do not share. Fredericksburg's historic downtown includes buildings dating to the colonial era, and VCE confirms high termite pressure throughout central Virginia: older structures carry decades of exposure. Stink bugs aggregate each September across the I-95 corridor, and fire ants are established in central Virginia's maintained lawns.",
+    sections: [
+      {
+        heading: "Rappahannock River mosquitoes and historic downtown termites",
+        body:
+          "The Rappahannock River running through Fredericksburg creates mosquito breeding habitat in its shallows, wetland margins, and drainage tributaries including Hazel Run. Properties near the river corridor experience elevated and longer-season mosquito pressure compared to the inland residential neighborhoods on the city's western side. Professional monthly barrier spray from April through September is the most effective residential management for river-adjacent properties. Fredericksburg's historic downtown is one of the most intact colonial-era streetscapes in Virginia, and those historic buildings carry termite exposure that spans decades or centuries of potential feeding activity. VCE confirms high termite pressure throughout central Virginia year-round. Any historic downtown building without current documented professional coverage warrants an immediate inspection. The Rappahannock's moisture creates elevated termite conditions near the river corridor that go beyond the standard inland Central Virginia baseline.",
+      },
+      {
+        heading: "Stink bugs, fire ants, and mice across Fredericksburg's residential areas",
+        body:
+          "The I-95 corridor through central Virginia experiences annual stink bug aggregations each September, and Fredericksburg's older building stock, with more exterior gaps than newer construction, provides more entry points than modern suburban development. Exterior gap sealing in August and a residual perimeter treatment to south and west faces before mid-September is the most effective prevention approach. Fire ants are established in central Virginia and active in Fredericksburg's residential lawns from April through October. Twice-yearly broadcast bait is more effective than individual mound treatment. House mice push indoors from October through March through foundation gaps and utility penetrations. Older Fredericksburg housing, particularly the downtown historic core, provides more entry points than newer suburban construction on the city's edges.",
+      },
+    ],
+    prevention: [
+      "Start monthly mosquito barrier spray in April for Fredericksburg properties near the Rappahannock River corridor and its drainage tributaries.",
+      "Schedule professional termite inspections for historic downtown Fredericksburg buildings given central Virginia's high termite pressure and the buildings' age and proximity to the Rappahannock River.",
+      "Seal exterior gaps in August and apply perimeter treatment to south and west faces before mid-September ahead of the stink bug aggregation.",
+      "Apply fire ant broadcast bait in spring and fall for maintained Fredericksburg residential lawns.",
+    ],
+    costNote:
+      "Fredericksburg pest control programs typically include quarterly exterior treatment plus seasonal mosquito and tick programs for river-adjacent properties. Historic downtown buildings may require more frequent termite monitoring given their age and the river's moisture conditions. A free inspection establishes current activity.",
+    faqs: [
+      {
+        question: "Do historic downtown Fredericksburg buildings carry higher termite risk?",
+        answer:
+          "Yes. Buildings in Fredericksburg's historic downtown include structures that are 150 to 300 years old. VCE confirms high termite pressure throughout central Virginia year-round, and the Rappahannock River's moisture elevates conditions near the river corridor. A structure of that age without current documented professional coverage has had decades of exposure. An inspection is the starting point, and any building without current protection should establish a professional monitoring and treatment program.",
+      },
+      {
+        question: "How does the Rappahannock River affect mosquito season in Fredericksburg?",
+        answer:
+          "The Rappahannock and its drainage tributaries create shoreline and wetland-margin mosquito breeding habitat that properties farther from the river do not experience. River-adjacent neighborhoods see earlier seasonal activity and higher overall mosquito pressure than inland Fredericksburg. Monthly professional barrier spray from April through September provides the most effective management for properties within a quarter mile of the river corridor. Eliminating residential standing water in gutters and containers reduces breeding near the home but cannot address the river source.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Alexandria", slug: "alexandria" },
+      { name: "Richmond", slug: "richmond" },
+      { name: "Manassas", slug: "manassas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Fredericksburg, VA | Rappahannock Mosquitoes, Termites & Stink Bugs",
+    metaDescription:
+      "Fredericksburg pest control for Rappahannock River mosquitoes, historic building termites, stink bugs and fire ants. Central Virginia I-95 corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

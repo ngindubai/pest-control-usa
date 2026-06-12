@@ -2039,4 +2039,384 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Rome GA pest control for mosquitoes, subterranean termites, fire ants, German cockroaches and carpenter ants. Floyd County Coosa River confluence northwest Georgia Appalachian specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "kennesaw",
+    name: "Kennesaw",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~38,000",
+    county: "Cobb County",
+    climate: "hot-humid",
+    climateDriver:
+      "Kennesaw is in Cobb County in the Atlanta metro's northwest suburbs, where the Piedmont's hot, humid summers drive long fire ant and mosquito seasons. Kennesaw Mountain National Battlefield Park adjoins the city, and its forests sustain carpenter ant colonies and deer ticks that move into nearby neighborhoods throughout the warm season.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "Carpenter Ants", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak spring through fall",
+        note: "Fire ants are established throughout Cobb County including Kennesaw's residential neighborhoods. University of Georgia Cooperative Extension confirms fire ants are a primary pest across the Georgia Piedmont, and the Atlanta metro's warm winters allow colonies to remain active year-round.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "Eastern subterranean termites are well-established throughout Cobb County. Georgia's warm, moist Piedmont climate keeps termite colonies active through most of the year, and annual inspections are standard practice for Kennesaw homeowners.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Mosquitoes are active from early spring through fall in Cobb County. Kennesaw Mountain's stream drainages and the Big Shanty Creek watershed provide breeding habitat that sustains populations throughout the warm season.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active March through October",
+        note: "Carpenter ants are a consistent structural pest in Cobb County homes, particularly those with aging wood at foundation lines, deck boards, or window frames. The forested areas around Kennesaw Mountain sustain the large outdoor colonies that feed into residential structures.",
+      },
+    ],
+    localHook:
+      "Kennesaw Mountain National Battlefield Park adjoins the city's western residential areas, and its forests sustain carpenter ant colonies, deer ticks, and wildlife populations that regularly move into neighboring neighborhoods.",
+    intro:
+      "Pest control in Kennesaw handles the standard Atlanta metro pest calendar with one local factor: Kennesaw Mountain. The national park's forested slopes sustain outdoor carpenter ant colonies, deer tick populations, and wildlife that press into adjacent residential areas. Fire ants and subterranean termites are year-round concerns throughout Cobb County. Mosquitoes run March through October along the creek drainages. For Kennesaw homeowners near the park, carpenter ant management is often as important as the standard fire ant and termite programs.",
+    sections: [
+      {
+        heading: "Kennesaw Mountain and carpenter ant pressure",
+        body: "Kennesaw Mountain's mixed hardwood forest provides ideal habitat for black carpenter ants, which are a common structural pest in Cobb County homes. These ants do not eat wood but excavate galleries in softened or moisture-affected wood to nest. Homes near the park with aging deck boards, wood trim at foundation level, or old window frames are the highest-risk properties. Spring is when carpenter ant swarmers appear indoors, often indicating an established colony already in the wall framing. Professional treatment targets both the interior satellite colony and the exterior parent colony, and moisture-proofing the affected wood is part of a lasting solution.",
+      },
+      {
+        heading: "Fire ants and termites across Cobb County",
+        body: "Fire ant mounds appear predictably in Kennesaw lawns through the long Georgia warm season. The University of Georgia Cooperative Extension recommends broadcast bait treatment in spring before colony populations peak, which gives better season-long results than mound-by-mound treatment. Eastern subterranean termites are active across Cobb County through most of the year, and Kennesaw's suburban mix of older and newer construction means inspection standards should match the structure's age and any wood-to-ground contact. Annual inspections are the baseline for any Kennesaw homeowner.",
+      },
+    ],
+    prevention: [
+      "Treat fire ants with broadcast bait in spring before mound counts peak.",
+      "Get annual termite inspections; Cobb County's warm climate sustains year-round subterranean termite activity.",
+      "Address moisture in deck boards and window frames to reduce carpenter ant harborage near the park.",
+      "Clear standing water from yard drainage and gutters to reduce mosquito breeding.",
+    ],
+    costNote:
+      "Kennesaw pest control starts with a free inspection. Quarterly general pest programs cover fire ants, cockroaches, and exterior spiders. Carpenter ant treatment is often added for homes near Kennesaw Mountain. Termite treatment is quoted separately.",
+    faqs: [
+      {
+        question: "Are carpenter ants more of a problem near Kennesaw Mountain?",
+        answer:
+          "Yes. The forested slopes of Kennesaw Mountain sustain large outdoor carpenter ant colonies that feed into adjacent neighborhoods. Homes backing onto the park or adjacent wooded areas see higher carpenter ant pressure than properties in the interior of the city.",
+      },
+      {
+        question: "When do termites swarm in Kennesaw?",
+        answer:
+          "Eastern subterranean termites typically swarm in Cobb County from February through April on warm, still days after rain. If you see small dark insects with wings emerging near window sills or door frames in early spring, have an inspection before the swarmers are gone and you mistake the signs for a minor issue.",
+      },
+      {
+        question: "Are deer ticks a concern near Kennesaw Mountain?",
+        answer:
+          "Yes. The deer population around Kennesaw Mountain National Battlefield Park sustains deer tick populations that move into adjacent residential areas. Blacklegged ticks, which can transmit Lyme disease, are active in Georgia from early spring through fall. Professional tick treatments for yard edges adjacent to woodland are available.",
+      },
+      {
+        question: "How long does fire ant season last in Kennesaw?",
+        answer:
+          "Fire ant mounds are visible and active from early spring through late fall, and colonies survive Georgia's mild winters below ground. Cobb County's warm climate means fire ants never fully go dormant. A broadcast bait treatment in spring and follow-up in fall covers the main season.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Marietta", slug: "marietta" },
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Smyrna", slug: "smyrna" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Kennesaw, GA | Fire Ants, Termites & Carpenter Ants",
+    metaDescription:
+      "Kennesaw pest control for fire ants, subterranean termites, mosquitoes and carpenter ants. Cobb County Kennesaw Mountain National Battlefield Park Atlanta metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "peachtree-city",
+    name: "Peachtree City",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~38,000",
+    county: "Fayette County",
+    climate: "hot-humid",
+    climateDriver:
+      "Peachtree City is a planned community in Fayette County known for its 100 miles of golf cart paths and extensive greenbelt system. The combination of maintained lawns, wooded buffer strips, and ornamental landscaping throughout the trail network creates consistent fire ant and mosquito pressure across the community.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "German Cockroaches", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak spring through fall",
+        note: "Fire ants are a significant concern in Peachtree City because the city's extensive golf cart path network and greenbelt edges provide ideal ant habitat. Mounds appear on cart paths, in park lawns, and along wooded buffer areas throughout the community.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "Eastern subterranean termites are active throughout Fayette County. Peachtree City's combination of older and newer construction requires annual inspection to confirm that any existing pre-treatment is holding.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Peachtree City's lake system, including Lake Peachtree and Lake McIntosh, and the extensive greenway corridor sustain mosquito breeding populations that affect the residential areas adjoining these features throughout the warm season.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks July through September",
+        note: "Yellow jackets nest in the ground in Fayette County's wooded and grassy areas, including golf cart path edges. Late-summer yellow jacket colonies reach peak aggressiveness in August and September, and ground nests along paths pose a sting risk.",
+      },
+    ],
+    localHook:
+      "Peachtree City's 100 miles of golf cart paths run through greenbelt edges and park areas that are ideal fire ant habitat. Mounds appear regularly on path margins and at the intersections of lawn and woodland buffer areas throughout the community.",
+    intro:
+      "Pest control in Peachtree City has a distinctive character shaped by the community's planned design. The 100-mile golf cart path network runs through greenbelts, park corridors, and wooded buffer areas that are prime fire ant habitat. The city's lake system sustains mosquito pressure from March through October. Eastern subterranean termites are active throughout Fayette County. Yellow jacket ground nests along path edges become a safety concern from late summer through early fall. For residents here, pest management around the outdoor path and park network is as important as the standard residential perimeter program.",
+    sections: [
+      {
+        heading: "Fire ants along Peachtree City's cart path network",
+        body: "The golf cart path system that defines Peachtree City runs through exactly the kind of habitat fire ants prefer: mown grass edges next to wooded buffer strips, with both sun and shade exposure and consistent moisture from the adjacent greenery. Mounds appear regularly at path intersections and along path margins, especially in spring after rain. Broadcast bait treatment for residential lots and, where applicable, shared path corridor edges is the most effective approach. Mound counts along the path network can be high enough to create real sting risk for children and pets. Treating ahead of the season peak in early spring gives the best suppression.",
+      },
+      {
+        heading: "Lakes, mosquitoes, and yellow jackets in the greenbelt",
+        body: "Lake Peachtree and Lake McIntosh, along with the ponds and drainage corridors connecting Peachtree City's greenway sections, create sustained mosquito breeding habitat that affects the residential areas adjoining these features. March through October is the main active window. Monthly barrier spray for properties adjacent to the lakes or greenbelt corridors gives the best seasonal relief. Yellow jackets are a specific concern in Fayette County's greenbelt areas from July through September, when colonies reach peak population and aggressiveness. Ground nests along path edges that are disturbed by foot or cart traffic can result in multiple stings. A professional inspection and treatment in late summer eliminates known nests safely.",
+      },
+    ],
+    prevention: [
+      "Treat fire ants with broadcast bait in spring to suppress mound activity along property edges and cart paths.",
+      "Get annual termite inspections for Fayette County properties.",
+      "Apply monthly mosquito barrier spray April through October for homes adjacent to the lake and greenbelt system.",
+      "Have yellow jacket ground nests treated professionally before August when colonies peak.",
+    ],
+    costNote:
+      "Peachtree City pest control starts with a free inspection. Quarterly general pest programs cover fire ants, cockroaches, and spiders. Mosquito programs run monthly April through October. Termite treatment is quoted separately.",
+    faqs: [
+      {
+        question: "Are fire ants along Peachtree City's golf cart paths a real safety issue?",
+        answer:
+          "Yes, particularly for children and pets who spend time near the greenbelt paths. Fire ant stings in large numbers can cause serious allergic reactions, and the path network runs through ideal mound habitat. Broadcast bait treatment in spring suppresses mound counts across the whole property, including the margins where the lawn meets the cart path.",
+      },
+      {
+        question: "Do the lakes in Peachtree City increase mosquito pressure?",
+        answer:
+          "Yes. Lake Peachtree, Lake McIntosh, and the pond system throughout the greenway corridor sustain mosquito breeding populations that affect the residential areas adjoining them. Homes within a few hundred yards of a lake or drainage corridor see higher pressure than those in the interior of the community.",
+      },
+      {
+        question: "Are yellow jackets a problem in Peachtree City?",
+        answer:
+          "Yes, from about July through October. Ground-nesting yellow jackets establish colonies in the greenbelt areas and cart path edges. Colonies peak in August and September when they are at their most aggressive. Professional ground nest treatment in late summer eliminates them safely.",
+      },
+      {
+        question: "When do termites swarm in Fayette County?",
+        answer:
+          "Eastern subterranean termites in the Peachtree City area typically swarm from February through April on warm, humid days after rain. Swarming usually happens mid-morning. If you see dark-winged insects emerging near window sills or door frames, have an inspection promptly.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Newnan", slug: "newnan" },
+      { name: "Columbus", slug: "columbus" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Peachtree City, GA | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Peachtree City pest control for fire ants, subterranean termites, mosquitoes and yellow jackets. Fayette County golf cart path greenbelt lake community Atlanta metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "woodstock",
+    name: "Woodstock",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~38,000",
+    county: "Cherokee County",
+    climate: "hot-humid",
+    climateDriver:
+      "Woodstock is in Cherokee County on the Etowah River watershed, where the Piedmont transitions toward the Blue Ridge foothills. The higher moisture levels, mixed forest cover, and creek corridors create strong fire ant and carpenter ant pressure, and the warm, humid summers drive long mosquito and termite seasons consistent with the northern Atlanta metro.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "Carpenter Ants", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring and fall",
+        note: "Fire ants are well-established throughout Cherokee County including Woodstock's residential neighborhoods. University of Georgia Cooperative Extension confirms fire ants are a primary pest in the Georgia Piedmont, and Cherokee County's moist soils support large, persistent colonies.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "Eastern subterranean termites are active throughout Cherokee County. The Etowah River watershed's elevated soil moisture sustains termite colonies year-round, and annual inspections are the standard for Woodstock homeowners.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Woodstock's creek corridors and Etowah River tributaries provide consistent mosquito breeding habitat through the warm season. Properties adjacent to wooded areas and creek drainage see the highest pressure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active March through October",
+        note: "Carpenter ants are a structural pest concern in Cherokee County homes with aging wood at foundation lines or in deck and fence boards. The mixed hardwood forests of the Etowah watershed sustain the large outdoor colonies that feed into residential areas.",
+      },
+    ],
+    localHook:
+      "Woodstock's location in the Etowah River watershed places it in a transitional zone between the Piedmont and Blue Ridge foothills, where higher moisture levels amplify both fire ant colony persistence and carpenter ant structural pressure compared to drier metro Atlanta suburbs.",
+    intro:
+      "Pest control in Woodstock handles the northern Atlanta metro pest calendar with the moisture influence of the Etowah River watershed. Fire ants are active throughout Cherokee County's residential areas. Eastern subterranean termites work year-round in the moist Piedmont soils. Carpenter ants are a consistent structural concern in homes backing onto the wooded creek corridors. Mosquitoes run March through October along the drainage network. For most Woodstock homeowners, the standard program covers fire ants, termites, and cockroaches, with carpenter ant inspection added for properties near wooded edges.",
+    sections: [
+      {
+        heading: "Fire ants and termites in Cherokee County",
+        body: "Cherokee County's combination of moist Piedmont soils and a long warm season keeps fire ant colonies large and persistent through most of the year. Broadcast bait treatment in spring, before mound counts peak, gives the best season-long suppression for Woodstock lawns. Mounds rebuild from adjacent undisturbed areas along wooded creek corridors, so yard-wide bait treatment is more effective than mound-by-mound treatment. Eastern subterranean termites are also favored by the watershed's elevated soil moisture. The Etowah River corridor's drainage into Cherokee County's subdivisions creates higher moisture readings near foundations in low-lying areas, which are the highest-risk locations for subterranean termite activity. Annual inspection is the minimum standard.",
+      },
+      {
+        heading: "Carpenter ants near Woodstock's wooded creek corridors",
+        body: "The creek drainages in and around Woodstock connect the Etowah watershed's mixed hardwood forest to residential backyards. Carpenter ants use these corridors to move from outdoor colonies in damp tree stumps and root systems into the moisture-affected wood of residential structures. Spring is when carpenter ant swarmers appear indoors, which is often the first visible sign of an established wall colony. Professional treatment addresses both the indoor satellite colony and the outdoor parent colony. Moisture reduction in affected structural wood, proper drainage around the foundation, and removal of damp wood debris near the structure are the practical prevention steps.",
+      },
+    ],
+    prevention: [
+      "Treat fire ants with broadcast bait in spring before mound counts peak.",
+      "Get annual termite inspections given Cherokee County's moist Piedmont soils and year-round termite activity.",
+      "Inspect and treat carpenter ant entry points for homes backing onto creek corridors or wooded areas.",
+      "Clear standing water in gutters and yard drainage areas to reduce mosquito breeding.",
+    ],
+    costNote:
+      "Woodstock pest control starts with a free inspection. Quarterly general pest programs cover fire ants, cockroaches, and exterior spiders. Carpenter ant treatment is a common add-on for creek-adjacent properties. Termite treatment is quoted separately.",
+    faqs: [
+      {
+        question: "Is Cherokee County's Etowah watershed location relevant to termite risk in Woodstock?",
+        answer:
+          "Yes. The elevated soil moisture in the Etowah watershed's low-lying areas near creek drainages creates favorable conditions for eastern subterranean termite colonies. Annual inspections are the standard throughout Cherokee County, and properties in the lower drainage areas benefit most from consistent monitoring.",
+      },
+      {
+        question: "Are fire ant mounds worse near wooded areas in Woodstock?",
+        answer:
+          "Properties backing onto creek corridors and wooded areas see fire ant mounds rebuild after treatment more quickly because the adjacent undisturbed habitat provides a continuous source of new colonies. Broadcast bait yard-wide suppresses the full lawn population rather than just the visible mounds.",
+      },
+      {
+        question: "Why do carpenter ants appear in spring indoors?",
+        answer:
+          "Spring is when carpenter ant colonies expand and produce swarmers. Indoor swarmers or large black ants appearing indoors in early spring usually indicate an established satellite colony already in the wall framing, typically in moisture-softened wood. A professional inspection identifies the location and the moisture source driving the problem.",
+      },
+      {
+        question: "How long does mosquito season last in Woodstock?",
+        answer:
+          "The main active season runs March through October in Cherokee County. Peak pressure is from May through September. Properties adjacent to creek corridors and Etowah watershed drainage see higher activity than those farther from the water features.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Canton", slug: "canton-ga" },
+      { name: "Marietta", slug: "marietta" },
+      { name: "Atlanta", slug: "atlanta" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Woodstock, GA | Fire Ants, Termites & Carpenter Ants",
+    metaDescription:
+      "Woodstock pest control for fire ants, subterranean termites, mosquitoes and carpenter ants. Cherokee County Etowah River watershed Piedmont Blue Ridge foothills Atlanta metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "canton-ga",
+    name: "Canton",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~30,000",
+    county: "Cherokee County",
+    climate: "hot-humid",
+    climateDriver:
+      "Canton is the Cherokee County seat in the Blue Ridge foothills, where the Etowah River runs through the city and creates floodplain habitat adjacent to residential and commercial areas. The river corridor sustains elevated mosquito and carpenter ant pressure, while the warm Georgia Piedmont climate drives year-round fire ant and termite activity.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "Carpenter Ants", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak spring and fall",
+        note: "Fire ants are established throughout Cherokee County including Canton. The Etowah River corridor and the city's mix of residential lawns and undeveloped land create consistent mound pressure through the long Georgia warm season.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "Eastern subterranean termites are active throughout Cherokee County. Canton's Etowah River floodplain creates elevated soil moisture in low-lying residential areas that sustains larger termite colonies near foundations.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The Etowah River banks and floodplain areas running through Canton create productive mosquito breeding habitat from early spring through fall. Properties near the river or its drainage tributaries see the most intense pressure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active March through October",
+        note: "Carpenter ants are a structural pest concern in Canton homes, particularly those adjacent to the Etowah River corridor's wooded banks and older homes with moisture-affected wood at ground level.",
+      },
+    ],
+    localHook:
+      "The Etowah River flows directly through Canton, and its banks and floodplain create mosquito breeding habitat and carpenter ant colonies that affect the residential neighborhoods on both sides of the river throughout the warm season.",
+    intro:
+      "Pest control in Canton covers Cherokee County's standard pest calendar with the Etowah River as the defining local factor. The river's banks and adjacent floodplain sustain mosquito breeding from March through October. Carpenter ants from the river's wooded corridor move into structures with aging or moisture-affected wood. Fire ants and subterranean termites are year-round concerns across all Cherokee County properties. Canton's rapid growth in recent years has added newer subdivisions to the mix, but the older downtown-area homes near the river are the highest-risk properties for both carpenter ants and termites.",
+    sections: [
+      {
+        heading: "The Etowah River and Canton's mosquito season",
+        body: "The Etowah River's low-gradient floodplain sections through and around Canton create productive standing water after every significant rain event, which feeds mosquito breeding from March through October. Properties nearest to the river or its drainage channels experience the most intense pressure. Monthly barrier spray treatments targeting resting vegetation around fences, decks, and shaded shrub areas reduces adult mosquito numbers significantly for residential outdoor spaces. Eliminating standing water in gutters, plant containers, and any low yard areas shortens the localized breeding season on the property itself.",
+      },
+      {
+        heading: "Fire ants and termites in Cherokee County",
+        body: "Fire ant mounds appear predictably in Canton's residential lawns through the long warm season, rebuilding after treatment from adjacent undisturbed areas. The Cherokee County Extension recommends broadcast bait treatment in spring when ants are actively foraging. For Canton's older downtown-area properties, subterranean termites are the priority structural pest. The Etowah floodplain's elevated soil moisture in low-lying sections creates conditions that favor larger termite colonies. Annual inspections for these properties should focus on foundation edges, crawlspace areas, and any wood framing near grade level.",
+      },
+    ],
+    prevention: [
+      "Apply broadcast fire ant bait to the yard in spring before mound counts peak.",
+      "Get annual termite inspections with focus on foundation edges for properties near the Etowah River floodplain.",
+      "Apply monthly mosquito barrier spray from March through October for river-adjacent properties.",
+      "Reduce moisture in exterior wood framing and remove damp debris near the foundation to limit carpenter ant harborage.",
+    ],
+    costNote:
+      "Canton pest control starts with a free inspection. Quarterly general pest programs cover fire ants, cockroaches, and exterior perimeter pests. Mosquito programs run monthly March through October. Termite treatment is quoted separately by foundation perimeter.",
+    faqs: [
+      {
+        question: "Is mosquito pressure in Canton bad because of the Etowah River?",
+        answer:
+          "Yes, particularly for properties near the river's floodplain. The Etowah's low-gradient sections create standing water after rain events that sustain mosquito breeding from March through October. Properties further from the river see typical Cherokee County pressure, which is still significant through the warm season.",
+      },
+      {
+        question: "Are carpenter ants common in Canton's older homes?",
+        answer:
+          "Yes, particularly in older homes near the Etowah River corridor where wood at foundation level and in deck boards is more likely to have moisture damage. Carpenter ants from the river's wooded banks establish satellite colonies in moisture-affected structural wood. Spring swarmer appearances indoors are a reliable indicator of an established colony.",
+      },
+      {
+        question: "When do termites swarm in Canton?",
+        answer:
+          "Eastern subterranean termites in Cherokee County typically swarm from February through April on warm days after rain. If you see small dark insects with equal-length wings emerging near window sills in early spring, have an inspection promptly. The Etowah floodplain's soil moisture makes the surrounding low-lying properties a higher-priority target for inspection.",
+      },
+      {
+        question: "How persistent are fire ants in Canton yards?",
+        answer:
+          "Very persistent without ongoing treatment. Cherokee County's warm Georgia climate keeps fire ant colonies active through most of the year, and mounds rebuild from adjacent undisturbed land along the river corridor. Broadcast bait treatment annually in spring, with spot follow-up, gives the most consistent yard-level control.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Woodstock", slug: "woodstock" },
+      { name: "Marietta", slug: "marietta" },
+      { name: "Atlanta", slug: "atlanta" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Canton, GA | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Canton GA pest control for fire ants, subterranean termites, mosquitoes and carpenter ants. Cherokee County Etowah River Blue Ridge foothills Atlanta metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

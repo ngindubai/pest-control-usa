@@ -1739,4 +1739,109 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Auburn WA pest control for carpenter ants, house mice, yellow jackets, Norway rats and stink bugs. King County Green River valley south Seattle metro Washington specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "marysville",
+    name: "Marysville",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: "~70,000",
+    county: "Snohomish County",
+    climate: "cold-humid",
+    climateDriver:
+      "Pacific Northwest marine climate in northern Snohomish County. High annual rainfall, mild winters, cool summers. The Snohomish River estuary, Port Susan Bay, and the Quilceda Creek drainage create persistent moisture conditions that favor carpenter ants and Norway rats in Marysville's residential and commercial areas.",
+    topPests: [
+      "Carpenter ants",
+      "House mice",
+      "Norway rats",
+      "Yellow jackets",
+      "Brown marmorated stink bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note:
+          "WSU Extension confirms carpenter ants as the primary wood-destroying insect pest in western Washington. Marysville's high rainfall, proximity to the Snohomish River estuary, and aging residential housing stock create favorable carpenter ant conditions year-round.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note:
+          "House mice push indoors in Marysville's wet Pacific Northwest falls from October through March. Older residential areas with aging weatherproofing and foundation gaps provide multiple entry points.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note:
+          "Norway rats are sustained by Marysville's commercial areas, the Quilceda Creek corridor, and the agricultural land to the east of the city. The commercial-residential interface in central Marysville creates rat pressure in adjacent residential neighborhoods.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "stinging-insect-control",
+        activeSeason: "June through October",
+        note:
+          "Yellow jackets build ground and wall-void nests in Marysville's residential areas through summer, reaching maximum colony size in August and September.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note:
+          "WSU Extension documents brown marmorated stink bug establishment in Snohomish County. Marysville sees annual fall aggregation on building faces each September as stink bugs seek overwintering sites.",
+      },
+    ],
+    localHook:
+      "Marysville has grown rapidly as the northernmost major city in the Seattle metro corridor, with residential development pushing into the agricultural and wetland areas east of the city. The Snohomish River estuary and Quilceda Creek drainage create the moisture conditions that define western Washington carpenter ant pressure, and Marysville's agricultural eastern edge means Norway rat pressure extends further into residential areas than in more fully urbanized Snohomish County cities.",
+    intro:
+      "Marysville is one of the fastest-growing cities in Snohomish County, expanding north and east from its older core toward agricultural and wetland areas at the base of the Cascade foothills. WSU Extension confirms carpenter ants as the primary wood-destroying pest in western Washington, and Marysville's high annual rainfall and proximity to the Snohomish River estuary create the moisture conditions that drive carpenter ant activity. Norway rats are sustained by the commercial corridors and agricultural edges of the city. House mice push indoors in the wet Pacific Northwest fall season. Yellow jackets peak in August, and stink bugs are established across Snohomish County.",
+    sections: [
+      {
+        heading: "Carpenter ants and moisture management in Marysville's wet climate",
+        body:
+          "Marysville receives some of the highest annual rainfall in the greater Seattle metro, and the Snohomish River estuary and Quilceda Creek drainage keep the surrounding terrain consistently moist. WSU Extension identifies carpenter ants as the primary wood-destroying pest in western Washington, and Marysville's climate creates ideal conditions for them in structures with any moisture entry points. Carpenter ants do not eat wood but excavate galleries in softened or moist wood for nesting. In Marysville's older residential neighborhoods, where aging weatherproofing, wood near soil contact, and mature landscape trees provide both moisture entry and forborage access, carpenter ant activity is a persistent management challenge. A professional inspection that identifies moisture sources in the structure alongside ant activity addresses the root cause rather than just the symptom. Treating the ants without addressing the moisture gives only temporary relief in western Washington's high-rainfall environment.",
+      },
+      {
+        heading: "Norway rats, mice, yellow jackets, and stink bugs",
+        body:
+          "Marysville's commercial corridors and the agricultural land to the east of the city sustain Norway rat populations that extend into adjacent residential neighborhoods. The Quilceda Creek corridor connects natural and commercial areas, providing rat travel routes into residential areas. Exterior bait station programs and exclusion work at the foundation level are the standard approach. House mice push indoors from October through March in the wet Pacific Northwest fall and winter. Sealing foundation gaps and door sweeps before October addresses the entry timing. Yellow jackets build ground and wall-void nests in Marysville's residential areas, reaching peak colony size in August and September. Ground nest inspection in June, before colonies are large, allows for safer treatment. Stink bugs are established in Snohomish County and aggregate on building faces in September. Sealing exterior gaps before mid-September is the most effective prevention.",
+      },
+    ],
+    prevention: [
+      "Address moisture sources in structures to remove carpenter ant harborage conditions in Marysville's high-rainfall western Washington climate.",
+      "Seal foundation gaps and door sweeps before October to address house mouse entry timing in the wet Pacific Northwest fall season.",
+      "Maintain exterior bait stations year-round for Norway rat management in Marysville properties near commercial corridors and the Quilceda Creek drainage.",
+      "Inspect lawn areas in June for yellow jacket ground nests before colonies reach August and September maximum size.",
+      "Seal exterior siding and window frame gaps before mid-September to reduce stink bug fall entry.",
+    ],
+    costNote:
+      "Marysville pest control programs typically run as quarterly exterior programs covering carpenter ants, mice, and perimeter pests. Norway rat programs near commercial areas and the creek corridor include year-round exterior bait station service. A moisture assessment may be included with carpenter ant inspection for western Washington properties.",
+    faqs: [
+      {
+        question: "Does Marysville's rainfall make carpenter ant problems worse than in drier Puget Sound cities?",
+        answer:
+          "Yes, in general terms. Marysville's northern Snohomish County position and proximity to the Snohomish River estuary keep annual rainfall and ambient moisture higher than in some more sheltered Puget Sound locations. WSU Extension confirms carpenter ants as the primary wood-destroying pest across western Washington, and moisture is the key driver of their structural activity. The wetter the climate and the more moisture entry points a structure has, the more favorable the conditions for carpenter ants. Marysville properties benefit from a professional inspection that identifies moisture sources alongside ant activity.",
+      },
+      {
+        question: "Why do Norway rats seem to be a problem near Quilceda Creek in Marysville?",
+        answer:
+          "Quilceda Creek runs through Marysville's commercial and residential areas and connects natural habitat with the city's developed areas. Norway rats use waterways and drainage corridors as travel routes, and the creek provides a connection between the agricultural areas east of the city and the commercial and residential neighborhoods along its banks. Commercial activity along the creek corridor adds food and harborage. Properties adjacent to the creek or the nearby commercial areas benefit from year-round exterior bait station programs rather than seasonal treatment alone.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Seattle", slug: "seattle" },
+      { name: "Tacoma", slug: "tacoma" },
+      { name: "Auburn", slug: "auburn-wa" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Marysville, WA | Carpenter Ants, Norway Rats & Mice",
+    metaDescription:
+      "Marysville pest control for carpenter ants, Norway rats, house mice, yellow jackets and stink bugs. Snohomish County north Seattle metro Quilceda Creek Washington specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

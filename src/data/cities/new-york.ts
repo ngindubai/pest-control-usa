@@ -1050,4 +1050,289 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Utica pest control for house mice, carpenter ants, stink bugs, subterranean termites and German cockroaches. Oneida County Mohawk River lake-effect snow belt central New York specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "white-plains",
+    name: "White Plains",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~58,000",
+    county: "Westchester County",
+    climate: "cold-humid",
+    climateDriver:
+      "White Plains is Westchester County's commercial hub, where a mix of older urban buildings, dense residential neighborhoods, and proximity to New York City creates above-average bed bug and rodent pressure. Brown marmorated stink bugs are well-established in Westchester County, and cold continental winters drive both rodents and overwintering insects into structures each fall.",
+    topPests: ["Stink Bugs", "House Mice", "Bed Bugs", "German Cockroaches", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge in spring",
+        note: "Stink bugs are well-established in Westchester County. In White Plains, they aggregate on south-facing exterior walls in September before pushing into wall voids and attics. The city's mix of residential and commercial buildings provides many entry gaps.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors September through March",
+        note: "House mice are a year-round concern in White Plains because of the city's density and proximity to New York City. Older commercial and residential buildings provide abundant harborage, and the high urban mouse population presses into structures persistently through the fall and winter.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "White Plains' high urban density, frequent travel connections to New York City, and transient residential population create above-average bed bug risk. Pest control professionals in Westchester County report bed bugs as one of the most common residential service calls.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches concentrate in White Plains' older multi-family residential buildings and restaurant kitchens. The city's urban density and building age increase transmission between units through shared infrastructure.",
+      },
+    ],
+    localHook:
+      "White Plains is Westchester County's business and commercial center, and its density, transit connections to NYC, and mix of older buildings create above-average bed bug and rodent pressure relative to other Westchester communities.",
+    intro:
+      "Pest control in White Plains handles the pest pressures typical of a dense Westchester County city with strong connections to New York City. Stink bugs are well-established in the county and invade White Plains homes each fall. House mice are a year-round concern in the city's older commercial and residential buildings. Bed bug risk is elevated by the city's urban density and transit connections. German cockroaches concentrate in multi-family housing and commercial kitchens. A year-round integrated pest program is the standard approach for most White Plains properties.",
+    sections: [
+      {
+        heading: "Stink bugs and fall exclusion in Westchester County",
+        body: "Brown marmorated stink bugs are established throughout Westchester County. In White Plains, the September and October invasion period is the critical window. Stink bugs aggregate on south-facing building walls before squeezing through window frame gaps, door weatherstripping failures, and soffit vents to overwinter in wall voids. A perimeter spray in early September while they are still aggregating outside, combined with systematic sealing of exterior gaps, is the effective prevention approach. By October they are already inside, and control shifts to vacuum removal of insects as they emerge on warm days through winter and early spring.",
+      },
+      {
+        heading: "Mice and bed bugs in White Plains' urban environment",
+        body: "White Plains' older building stock and urban density create two specific pest challenges. House mice enter through gaps at foundation level, plumbing penetrations, and around utility conduits. In a dense urban setting, eliminating entry points permanently is the key to lasting mouse control. Trapping inside provides immediate population reduction, but exclusion of the access points prevents reinfestation from the surrounding urban mouse population. Bed bugs in White Plains are best addressed as soon as any evidence of biting is noticed. Early-stage infestations confined to one room are far less expensive to treat than established infestations that have spread through a multi-unit building.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps at windows, doors, and soffit areas before September to block stink bug entry.",
+      "Inspect all used furniture, luggage, and secondhand items carefully before bringing them into your home.",
+      "Seal foundation gaps and utility penetrations to block mouse entry in early fall.",
+      "Call at the first sign of biting or black specks on bedding to catch bed bug infestations early.",
+    ],
+    costNote:
+      "White Plains pest control starts with a free inspection. Year-round general pest programs cover mice, cockroaches, and exterior perimeter pests. Bed bug treatment is quoted per room based on infestation extent. Stink bug exclusion work is a common fall add-on.",
+    faqs: [
+      {
+        question: "Are stink bugs bad in White Plains?",
+        answer:
+          "Yes. Brown marmorated stink bugs are established in Westchester County and are a reliable fall pest in White Plains. Perimeter spray in September plus exterior gap sealing before October is the effective prevention combination. Once inside wall voids, they are difficult to eliminate until they emerge in spring.",
+      },
+      {
+        question: "Is bed bug risk really higher in White Plains than in suburban areas?",
+        answer:
+          "Yes, because of the city's density, transit connections to New York City, and higher proportion of multi-family and transient residential buildings. Bed bugs spread through shared wall voids and on furniture and luggage. The risk is not extreme, but it is meaningfully higher than in less dense Westchester towns.",
+      },
+      {
+        question: "What is the best way to prevent mice in a White Plains apartment?",
+        answer:
+          "The most effective approach is exclusion: identifying and sealing all gaps at floor level, around pipes, and at utility penetrations where mice enter the unit. In a multi-unit building, the building management and all units benefit from a coordinated exclusion program rather than trapping apartment by apartment.",
+      },
+      {
+        question: "How do I know if I have German cockroaches vs American cockroaches?",
+        answer:
+          "German cockroaches are small, about a half inch long, tan to light brown, with two dark stripes behind their head. American cockroaches are much larger, about one and a half to two inches, reddish-brown. German cockroaches breed indoors and indicate an infestation. American cockroaches usually come in from outside. The treatment approach differs for each.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Yonkers", slug: "yonkers" },
+      { name: "New Rochelle", slug: "new-rochelle" },
+      { name: "Mount Vernon", slug: "mount-vernon" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in White Plains, NY | Stink Bugs, Mice & Bed Bugs",
+    metaDescription:
+      "White Plains pest control for stink bugs, house mice, bed bugs, German cockroaches and subterranean termites. Westchester County NYC metro commercial hub specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "troy-ny",
+    name: "Troy",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~50,000",
+    county: "Rensselaer County",
+    climate: "cold-humid",
+    climateDriver:
+      "Troy is an older industrial city on the Hudson River in Rensselaer County where the Capital District's cold winters push mice and stink bugs aggressively into structures each fall. The city's 19th-century brick row houses and factory buildings along the waterfront provide the gaps, aging masonry, and wall voids that mice, carpenter ants, and stink bugs exploit.",
+    topPests: ["House Mice", "Carpenter Ants", "Stink Bugs", "German Cockroaches", "Bed Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round in older buildings, surge September through March",
+        note: "Troy's older housing stock provides more mouse access gaps than modern construction. The Hudson River waterfront's commercial infrastructure and the city's older residential buildings sustain a high urban mouse population that presses into structures from fall through spring.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active March through October",
+        note: "Carpenter ants are a structural pest concern in Troy's older row houses and wood-framed properties. Aging wood at foundation lines, roof edges, and window frames provides nesting sites, and the Hudson River's moisture influence keeps exterior wood damp enough to attract colonies.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge spring",
+        note: "Stink bugs are established in Rensselaer County and are a reliable fall pest in Troy. The city's older buildings with masonry gaps, aging window frames, and soffit areas provide many entry points.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches concentrate in Troy's older multi-family residential buildings, student housing near Rensselaer Polytechnic Institute, and commercial kitchens. The city's dense older building stock facilitates spread through shared infrastructure.",
+      },
+    ],
+    localHook:
+      "Troy's 19th-century brick row houses along the Hudson River waterfront are among the most pest-accessible buildings in the Capital District, providing mice, carpenter ants, and stink bugs with numerous entry points through aging masonry, window frames, and settling foundations.",
+    intro:
+      "Pest control in Troy has to reckon with the city's building age. Troy's historic waterfront district and its streets of 19th-century row houses provide far more mouse entry gaps, carpenter ant harborage sites, and stink bug entry points than modern construction does. House mice are active year-round in the city's older properties, with a major surge each fall when the Hudson Valley's temperature drops. Carpenter ants emerge in spring and often indicate established wall colonies in moisture-affected wood. Stink bugs invade in September through the many gaps in older masonry. A year-round program combining exclusion work with quarterly pest management is the effective standard for older Troy properties.",
+    sections: [
+      {
+        heading: "Older housing and mouse exclusion in Troy",
+        body: "Troy's brick row houses were built before modern construction standards, and settling foundations, aging mortar, and decades of utility modifications have created numerous mouse-sized gaps at ground level and around pipes. House mice are small enough to pass through a gap the size of a dime, and exclusion in older masonry construction requires systematic identification and sealing of every access point. In Troy's densely built neighborhoods, mice move through shared basement areas and utility chases between buildings, which means exclusion of a single unit often requires coordination with adjacent properties. Trapping reduces the indoor population quickly, but exclusion is what prevents reinfestation from the surrounding urban mouse population.",
+      },
+      {
+        heading: "Carpenter ants and spring pest season along the Hudson",
+        body: "Troy's position on the Hudson River means exterior wood in the city stays damp for longer than in drier inland locations. Damp wood at foundation lines, deck boards, and roof edges provides nesting sites for carpenter ants. Spring is when indoor swarmer appearances signal an established wall colony. Carpenter ants do not eat wood but excavate it for nest galleries, and the damage accumulates over years in areas that are not regularly inspected. Treatment targets both the indoor satellite colony and the outdoor parent colony in the adjacent wood or tree. Correcting the moisture source is part of a lasting solution.",
+      },
+    ],
+    prevention: [
+      "Seal foundation mortar gaps, pipe penetrations, and floor-level utility openings to block mouse entry in fall.",
+      "Inspect exterior wood at foundation and roof lines annually for moisture damage that invites carpenter ants.",
+      "Seal window frame and masonry gaps before September to reduce stink bug entry.",
+      "Keep shared basement and utility areas in multi-family properties clear and regularly inspected.",
+    ],
+    costNote:
+      "Troy pest control starts with a free inspection. Year-round programs covering mice, carpenter ants, and cockroaches are common in this older city. Exclusion work is often a significant component of the service cost for older properties. Bed bug treatment is quoted per room.",
+    faqs: [
+      {
+        question: "Why are mice so persistent in Troy's older buildings?",
+        answer:
+          "Troy's 19th-century construction has accumulated decades of settling, mortar deterioration, and utility modifications that create numerous mouse entry gaps that are difficult to find and seal comprehensively. In densely built neighborhoods, mice also move between buildings through shared basement and utility spaces. Systematic exclusion, identifying every access gap and sealing it permanently, is the only lasting solution.",
+      },
+      {
+        question: "Are carpenter ants a bigger problem in older Troy homes?",
+        answer:
+          "Yes. Troy's older housing stock combined with the Hudson River's moisture influence creates more aging, damp exterior wood than modern construction. Carpenter ants target moisture-affected wood for nesting, so the city's older properties are disproportionately affected.",
+      },
+      {
+        question: "When do stink bugs invade in Troy?",
+        answer:
+          "The main invasion period is September and October as temperatures begin to drop in Rensselaer County. They aggregate on south-facing walls before entering through any available gap. Perimeter spray in early September plus gap sealing is the most effective prevention.",
+      },
+      {
+        question: "Is bed bug risk elevated near RPI in Troy?",
+        answer:
+          "Yes. Rensselaer Polytechnic Institute's student housing creates a higher-than-average bed bug transmission environment in certain Troy neighborhoods, with frequent furniture turnover, shared housing, and travel exposure. Inspect any used furniture or bedding before bringing it home.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Albany", slug: "albany" },
+      { name: "Schenectady", slug: "schenectady" },
+      { name: "Utica", slug: "utica" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Troy, NY | Mice, Carpenter Ants & Stink Bugs",
+    metaDescription:
+      "Troy NY pest control for house mice, carpenter ants, stink bugs, German cockroaches and bed bugs. Rensselaer County Hudson River waterfront older housing Capital District specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "binghamton",
+    name: "Binghamton",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~47,000",
+    county: "Broome County",
+    climate: "cold-humid",
+    climateDriver:
+      "Binghamton sits at the confluence of the Susquehanna and Chenango Rivers in Broome County, one of the wettest cities in New York State. The high annual precipitation and river valley humidity drive moisture-related pest pressure, and the cold winters push mice, stink bugs, and overwintering insects aggressively into the city's older industrial housing stock.",
+    topPests: ["House Mice", "German Cockroaches", "Bed Bugs", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through March",
+        note: "Binghamton's older housing stock, many units dating to the early 20th century, provides extensive mouse access gaps. The Susquehanna River valley's high rainfall keeps outdoor mouse populations large and active, and they press into structures as temperatures drop.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches concentrate in Binghamton's older multi-family buildings and commercial kitchens. The University population in the area adds to transient rental housing pressure that facilitates cockroach transmission between units.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Binghamton's college population from Binghamton University and the city's older rental housing market create above-average bed bug transmission risk. Frequent furniture turnover and shared housing are the primary pathways.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge spring",
+        note: "Stink bugs are established in Broome County and are a consistent fall pest in Binghamton. The city's older building stock with masonry gaps and aging window frames provides many entry points for the fall invasion.",
+      },
+    ],
+    localHook:
+      "Binghamton's position at the Susquehanna and Chenango Rivers confluence makes it one of the wettest cities in New York. The river valley humidity amplifies moisture-related pest pressure, and the older housing stock that defines most of the city provides abundant mouse and carpenter ant harborage.",
+    intro:
+      "Pest control in Binghamton deals with a high-moisture, cold-climate city with a lot of old housing. The Susquehanna and Chenango Rivers create a valley microclimate that is wetter than most of upstate New York, and that moisture sustains outdoor pest populations through a longer season. Cold winters push mice and stink bugs into the city's older homes aggressively each fall. German cockroaches and bed bugs are elevated in the rental housing market around Binghamton University. A year-round program addressing mice and cockroaches, with fall exclusion work and bed bug awareness, covers the main threats for most Binghamton households.",
+    sections: [
+      {
+        heading: "High rainfall and moisture pests in Binghamton",
+        body: "Binghamton is one of the cloudiest and wettest cities in the continental US, and that persistent moisture drives pest pressure in a few specific ways. Carpenter ants favor moisture-affected wood for nesting, and the city's older housing with damp basements and aging exterior framing provides ideal conditions. Mice populations in the Susquehanna valley are large and active because the wet climate sustains year-round food and cover. The fall surge into structures is significant, and exclusion work in September, before temperatures drop sharply, is the most cost-effective prevention. Subterranean termites are present in Broome County but less of a priority concern here than the moisture-driven insect and rodent pressure.",
+      },
+      {
+        heading: "Bed bugs and cockroaches in Binghamton's rental market",
+        body: "Binghamton University's student population creates a rental housing dynamic that is a consistent source of bed bug transmission. Frequent furniture turnover, shared apartments, and travel exposure mean that bed bugs move through the student rental market more regularly than in stable residential neighborhoods. The first step when biting is noticed is inspection: a professional inspection confirms bed bugs quickly and sizes the infestation. Early-stage infestations are far less expensive to treat than established ones. German cockroaches in Binghamton's multi-family buildings require building-level programs, since treating one apartment in isolation without addressing adjacent units rarely produces lasting results.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations in September before the fall mouse surge.",
+      "Inspect all used furniture and luggage carefully to prevent bed bug introduction.",
+      "Seal window frame and masonry gaps before October to block stink bug entry.",
+      "Address basement moisture and damp wood framing to reduce carpenter ant harborage.",
+    ],
+    costNote:
+      "Binghamton pest control starts with a free inspection. Year-round programs covering mice, cockroaches, and carpenter ants are the standard for older city properties. Bed bug treatment is quoted per room. Fall exclusion service is a common add-on.",
+    faqs: [
+      {
+        question: "Is Binghamton's rainfall relevant to pest pressure?",
+        answer:
+          "Yes. Binghamton's high annual precipitation sustains large outdoor mouse and carpenter ant populations and keeps the moisture levels in older building foundations and exterior wood elevated. Moisture-softened wood at foundation lines and in basements is more susceptible to carpenter ant nesting than drier inland cities.",
+      },
+      {
+        question: "Is bed bug risk elevated near Binghamton University?",
+        answer:
+          "Yes, in the rental neighborhoods around the university. Student housing has higher bed bug transmission risk from frequent furniture turnover, shared accommodation, and travel. Inspect used furniture before bringing it home and check bedding promptly at any sign of biting.",
+      },
+      {
+        question: "When do mice typically enter Binghamton homes?",
+        answer:
+          "The main entry surge happens in September and October as Broome County's temperatures drop sharply. But Binghamton's older housing stock means mice are present in some properties year-round. Exclusion work, sealing every gap at floor level and around pipes, in early fall is the most effective prevention.",
+      },
+      {
+        question: "Are stink bugs a significant pest in Binghamton?",
+        answer:
+          "Yes. Brown marmorated stink bugs are established in Broome County and are a reliable fall pest here. Binghamton's older buildings with masonry gaps and aging window frames see heavier invasions than newer construction. Perimeter spray in early September combined with gap sealing is the best prevention.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Utica", slug: "utica" },
+      { name: "Albany", slug: "albany" },
+      { name: "Syracuse", slug: "syracuse" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Binghamton, NY | Mice, Cockroaches & Bed Bugs",
+    metaDescription:
+      "Binghamton pest control for house mice, German cockroaches, bed bugs, stink bugs and carpenter ants. Broome County Susquehanna River confluence older housing Binghamton University specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

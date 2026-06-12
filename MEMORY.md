@@ -10,15 +10,14 @@
 
 ## Current State (2026-06-12)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-20 complete. T2 COMPLETE.
-- **City pages built:** 500 total (75 T1 + 300 T2 + 125 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-22 complete. T2 COMPLETE.
+- **City pages built:** 550 total (75 T1 + 300 T2 + 175 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 580 in the static export (home, services, 50+ states, 500 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=101, B=100, C=100, D=100, E=99 (500 total cities, all within 15-25% range).
-- **Cities built T3 chunk 19 (25):** Georgia/Valdosta (E), Georgia/Smyrna (D), Georgia/Dunwoody (D), Georgia/Gainesville (D), Georgia/Rome (C), North Carolina/Huntersville (A), North Carolina/Apex (E), North Carolina/Burlington (B), North Carolina/Rocky Mount (D), North Carolina/Wilson (E), North Carolina/Kannapolis (A), Tennessee/Johnson City (B), Tennessee/Hendersonville (A), Tennessee/Kingsport (A), Tennessee/Smyrna (B), Tennessee/Collierville (B), Florida/Miami Gardens (C), Florida/Plantation (B), Florida/Largo (E), Florida/Homestead (B), Florida/Lauderhill (E), Florida/Tamarac (B), Ohio/Elyria (D), Ohio/Cuyahoga Falls (C), Ohio/Lakewood (C).
-- **Cities built T3 chunk 20 (25):** Ohio/Middletown (C), Ohio/Euclid (A), Ohio/Newark (C), Virginia/Suffolk (A), Virginia/Charlottesville (D), Virginia/Manassas (A), Michigan/Taylor (B), Michigan/Royal Oak (C), Michigan/Saginaw (C), Michigan/Dearborn Heights (D), Illinois/Arlington Heights (C), Illinois/Decatur (A), Illinois/Skokie (A), Illinois/Des Plaines (B), Texas/Pharr (D), Texas/Missouri City (B), Texas/Mansfield (A), Texas/Baytown (C), Pennsylvania/Wilkes-Barre (E), Pennsylvania/Altoona (E), Washington/Federal Way (E), Washington/Auburn (E), Minnesota/Brooklyn Park (D), Minnesota/Plymouth (D), Oklahoma/Moore (E).
-- **New state files added chunks 19-20:** none (all states already registered in index.ts).
-- **Next block:** Chunk 21, T3 continues, rotation at A.
+- **Total site pages:** 630 in the static export (home, services, 50+ states, 550 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=111, B=110, C=110, D=110, E=109 (550 total cities, all at 20%, within 15-25% range).
+- **Cities built T3 chunks 21-22 (50):** Texas: Temple (A), Coppell (B), Rowlett (C), Pflugerville (D), Cedar Hill (E). Florida: Coral Gables (A), Doral (B), Coconut Creek (C), Sanford (D), North Miami (E). Georgia: Kennesaw (A), Peachtree City (B), Woodstock (C), Canton GA (D). New York: White Plains (E), Troy NY (A), Binghamton (B). Pennsylvania: Chester (C), Easton (D). Michigan: Battle Creek (E), Bay City (A), Muskegon (B). Ohio: Lima OH (C), Mansfield OH (D), Mentor (A), Fairfield OH (B), Beavercreek (C), Grove City (D), Hilliard (E). Illinois: Palatine (E), Normal (A), Tinley Park (B), Downers Grove (C), Wheaton (D), Orland Park (E). North Carolina: Mooresville (A), Indian Trail (B), Hickory (C), Monroe (D). Tennessee: Bartlett (E), Germantown (A), Spring Hill (B). Virginia: Leesburg (C), Blacksburg (D), Fredericksburg (E). Arizona: Casa Grande (A), Maricopa (B), Sierra Vista (C), Flagstaff (D). Washington: Marysville (E).
+- **New state files added chunks 21-22:** none (all states already registered in index.ts).
+- **Next block:** Chunk 23, T3 continues, rotation at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

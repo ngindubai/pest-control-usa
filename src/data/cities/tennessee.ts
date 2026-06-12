@@ -1372,4 +1372,300 @@ export const tennesseeCities: CityLocation[] = [
     metaDescription:
       "Collierville pest control for mosquitoes, deer ticks, fire ants, subterranean termites and German cockroaches. Shelby County Wolf River greenway Memphis suburb Tennessee specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "bartlett",
+    name: "Bartlett",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~60,000",
+    county: "Shelby County",
+    climate: "temperate",
+    climateDriver:
+      "Humid subtropical Memphis-area climate with hot summers and mild winters. UT Extension confirms fire ants and subterranean termites are active year-round with minimal winter interruption in Shelby County.",
+    topPests: [
+      "Fire ants",
+      "Eastern subterranean termites",
+      "Mosquitoes",
+      "German cockroaches",
+      "House mice",
+    ],
+    pestProfile: [
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "Year-round in Shelby County",
+        note:
+          "UT Extension confirms fire ants are established throughout Shelby County and active year-round in the warm Memphis climate. Bartlett's maintained suburban lawns are consistent fire ant territory.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, peak March through May",
+        note:
+          "UT Extension confirms high termite pressure throughout Shelby County. Bartlett's established neighborhoods include homes with crawl spaces and mature landscaping where soil-to-wood contact creates ongoing exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "Shelby County's warm humid climate sustains a long mosquito season. Residential standing water, retention ponds, and drainage easements in Bartlett's subdivisions create breeding habitat from April through October.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are a year-round concern in Bartlett's commercial food service corridor along Stage Road and US-70 and in older multi-unit residential buildings.",
+      },
+    ],
+    localHook:
+      "Bartlett is Shelby County's second-largest city after Memphis, with established residential neighborhoods that date back to the 1970s. That housing stock carries the expected Shelby County termite and fire ant exposure at year-round active pressure levels. The warm Memphis climate gives fire ants and cockroaches almost no winter interruption.",
+    intro:
+      "Bartlett is a large established Shelby County suburb with a residential character built around neighborhoods developed through the 1970s and 1990s. UT Extension confirms fire ants and eastern subterranean termites are both active year-round in Shelby County's warm Memphis-area climate, which is warmer than Tennessee's more northern cities and provides minimal winter interruption to pest activity. Mosquitoes are active from April through October in Bartlett's subdivision drainage and retention pond features. German cockroaches are a consistent commercial concern along Bartlett's Stage Road and US-70 corridors.",
+    sections: [
+      {
+        heading: "Year-round fire ant and termite pressure in Bartlett",
+        body:
+          "Shelby County's warm Memphis-area climate means fire ants and subterranean termites operate with minimal winter slowdown compared to mid-Tennessee cities. UT Extension confirms both pests are active year-round in Shelby County. For Bartlett homeowners, this means the effective pest management calendar runs twelve months rather than the eight-to-nine-month season that defines pest activity farther north in Tennessee. A twice-yearly broadcast bait program for fire ants, in spring and fall, manages the sustained year-round pressure more effectively than reactive mound treatment. Annual professional termite inspections are the appropriate precaution for Bartlett's established neighborhoods, where homes with crawl spaces and mature landscaping beds create the soil-to-wood proximity termites exploit.",
+      },
+      {
+        heading: "Mosquitoes and cockroaches in Bartlett's suburban landscape",
+        body:
+          "Bartlett's subdivision-era development includes the retention ponds and drainage easements that are standard in Shelby County's flat suburban landscape. These features create consistent mosquito breeding habitat from April through October. Professional monthly barrier spray targeting yard vegetation is the most effective residential management approach in the warm Memphis climate. German cockroaches are a year-round commercial concern along Stage Road and the US-70 commercial corridor and can migrate into adjacent residential areas from poorly managed commercial kitchen environments. House mice push indoors from October through March. Sealing foundation gaps and door sweeps before fall is the most effective exclusion step.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant broadcast bait in spring and fall for Bartlett's year-round Shelby County fire ant pressure rather than reactive individual mound treatment.",
+      "Schedule annual termite inspections for Bartlett's established 1970s and 1980s neighborhoods with crawl spaces and mature landscaping.",
+      "Start mosquito barrier spray in April targeting vegetation around subdivision retention ponds and drainage easements.",
+      "Seal foundation gaps and door sweeps before October to address house mouse entry in western Tennessee's cooling fall temperatures.",
+    ],
+    costNote:
+      "Bartlett pest control typically runs as a quarterly exterior program covering fire ants, cockroaches, and perimeter pests. Mosquito treatment adds a monthly program from April through October. Annual termite inspections are standard for Bartlett's established neighborhoods.",
+    faqs: [
+      {
+        question: "Are fire ants really active all year in Bartlett?",
+        answer:
+          "Yes, substantially. UT Extension confirms fire ants remain active year-round in Shelby County's warm Memphis-area climate, which provides far less winter interruption than Tennessee cities at higher elevations or farther north. You can see fire ant mounds in Bartlett lawns in December and January during mild stretches. A spring and fall broadcast bait program treats the year-round population more effectively than reactive mound treatment.",
+      },
+      {
+        question: "How does Bartlett's older housing compare to newer Memphis suburbs for termite risk?",
+        answer:
+          "Bartlett's established 1970s and 1980s neighborhoods include homes that predate current soil pre-treatment requirements in some cases. UT Extension confirms high termite pressure throughout Shelby County year-round. Homes with crawl spaces and mature landscaping with beds close to the foundation carry more exposure than newer construction. Annual professional inspections are the appropriate baseline for homes in these established Bartlett neighborhoods.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Memphis", slug: "memphis" },
+      { name: "Germantown", slug: "germantown" },
+      { name: "Jackson", slug: "jackson" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Bartlett, TN | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Bartlett pest control for year-round fire ants, subterranean termites, mosquitoes and German cockroaches. Shelby County Memphis suburb Tennessee specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "germantown",
+    name: "Germantown",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~39,000",
+    county: "Shelby County",
+    climate: "temperate",
+    climateDriver:
+      "Humid subtropical Memphis-area climate. Germantown is Shelby County's most affluent suburb, with the Wolf River greenway creating deer tick and mosquito pressure that mirrors Collierville to the east. UT Extension confirms year-round fire ant and termite activity.",
+    topPests: [
+      "Mosquitoes",
+      "Deer ticks",
+      "Fire ants",
+      "Eastern subterranean termites",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "The Wolf River corridor runs through Germantown, creating shoreline and wooded bottomland mosquito breeding habitat adjacent to residential neighborhoods along the greenway.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round",
+        note:
+          "UT Extension confirms ticks are active year-round in Tennessee's mild climate. The Wolf River greenway sustains deer and tick populations in direct proximity to Germantown's residential areas.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "Year-round in Shelby County",
+        note:
+          "UT Extension confirms fire ants are active year-round in Shelby County. Germantown's large maintained residential lots provide extensive fire ant territory.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, peak March through May",
+        note:
+          "UT Extension confirms high year-round termite pressure throughout Shelby County. Germantown's wooded buffers and large lot sizes create elevated exposure for properties adjacent to the Wolf River corridor.",
+      },
+    ],
+    localHook:
+      "Germantown's Wolf River greenway runs directly through the city's residential neighborhoods, making it Shelby County's most distinctive pest management context. The same greenway trail system that defines Germantown's quality of life delivers deer ticks and elevated mosquito pressure to properties within blocks of the corridor. Unlike most Memphis suburbs, Germantown's greenway adjacency is not peripheral: it is woven through the city.",
+    intro:
+      "Germantown is Shelby County's most affluent residential community, and the Wolf River greenway that defines its landscape character also shapes its pest profile. The Wolf River corridor creates mosquito breeding habitat in its bottomland areas from April through October and sustains deer tick populations that are active year-round in Tennessee's mild climate, as UT Extension confirms. Fire ants are active year-round across all of Shelby County. Eastern subterranean termites are at high pressure throughout the county, with Germantown's wooded buffers and large residential lots adding to the exposure for properties adjacent to the greenway.",
+    sections: [
+      {
+        heading: "Wolf River corridor: deer ticks and mosquitoes in Germantown",
+        body:
+          "The Wolf River runs through the heart of Germantown, and the greenway trail system along it passes through wooded bottomland habitat that sustains deer tick populations and creates mosquito breeding areas in the river's shallow floodplain. UT Extension confirms ticks are active year-round in Tennessee, not just in warm months, which means the tick precaution calendar for Germantown residents using the greenway runs twelve months. Families with pets using the Wolf River trails should use veterinarian-recommended tick prevention year-round and perform tick checks after each outing. For residential mosquito management, properties within several blocks of the Wolf River see elevated and earlier-starting pressure compared to Germantown neighborhoods farther from the greenway. Monthly barrier spray starting in April is the most effective approach for these properties.",
+      },
+      {
+        heading: "Fire ants, termites, and large-lot pest management in Germantown",
+        body:
+          "Germantown's residential lots tend to be larger than in most Shelby County suburbs, which creates more fire ant territory per property. UT Extension confirms fire ants are active year-round in Shelby County's warm climate, and Germantown's maintained large lawns are consistent fire ant territory. A twice-yearly broadcast bait program covering the full lawn is more effective than reactive mound treatment at this lot scale. Subterranean termites are at high pressure throughout Shelby County year-round. Germantown's wooded buffers and properties adjacent to the Wolf River corridor carry elevated termite exposure from the surrounding natural habitat. Annual professional inspections are the appropriate precaution, particularly for homes with crawl spaces or mature landscaping beds near the foundation.",
+      },
+    ],
+    prevention: [
+      "Use veterinarian-recommended tick prevention year-round for pets using the Wolf River greenway and perform tick checks after every outing.",
+      "Start monthly mosquito barrier spray in April for Germantown properties within several blocks of the Wolf River corridor.",
+      "Apply fire ant broadcast bait in spring and fall for large Germantown residential lots given Shelby County's year-round fire ant activity.",
+      "Schedule annual termite inspections for Germantown homes adjacent to wooded buffers and the Wolf River corridor.",
+    ],
+    costNote:
+      "Germantown pest control programs typically include monthly mosquito and tick yard treatment from April through October for greenway-adjacent properties. Annual termite inspections are standard for large-lot properties near wooded buffers. Fire ant broadcast programs are bundled into quarterly lawn programs or priced separately.",
+    faqs: [
+      {
+        question: "How close does my property need to be to the Wolf River to worry about deer ticks in Germantown?",
+        answer:
+          "Ticks travel with deer, and deer move well beyond the immediate river corridor into residential yards throughout Germantown. Properties backing onto wooded buffers, stream corridors, or any brushy edges where deer pass through are realistic tick habitats, not just properties on the Wolf River itself. UT Extension confirms ticks are active year-round in Tennessee. Year-round tick prevention for pets and tick checks after outdoor activity in any wooded or brushy area are sensible precautions throughout Germantown, not just for greenway-adjacent properties.",
+      },
+      {
+        question: "Do larger lots in Germantown mean more fire ant pressure than in compact Memphis neighborhoods?",
+        answer:
+          "More lot area means more fire ant colony territory per property and a larger perimeter adjacent to neighboring properties or wooded areas where background colony pressure continues. UT Extension confirms fire ants are active year-round in Shelby County. A broadcast bait program covering the full lawn twice yearly is the most effective management for Germantown's large residential lots. Individual mound treatment cannot keep pace with new mound establishment across a large maintained lawn.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Memphis", slug: "memphis" },
+      { name: "Collierville", slug: "collierville" },
+      { name: "Bartlett", slug: "bartlett" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Germantown, TN | Wolf River Ticks, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Germantown pest control for Wolf River deer ticks, mosquitoes, fire ants, subterranean termites and German cockroaches. Shelby County Memphis suburb Tennessee specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "spring-hill",
+    name: "Spring Hill",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~50,000",
+    county: "Maury County",
+    climate: "temperate",
+    climateDriver:
+      "Middle Tennessee humid subtropical climate. Spring Hill is one of the fastest-growing cities in Tennessee, with ongoing residential construction creating disturbed soil conditions and elevated fire ant pressure in the Nashville-area suburban corridor.",
+    topPests: [
+      "Fire ants",
+      "Eastern subterranean termites",
+      "Mosquitoes",
+      "Brown marmorated stink bugs",
+      "House mice",
+    ],
+    pestProfile: [
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "March through November",
+        note:
+          "UT Extension confirms fire ants are established across Middle Tennessee including Maury and Williamson counties. Spring Hill's rapid growth creates ongoing disturbed soil conditions where new fire ant colonies establish quickly adjacent to existing neighborhoods.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, peak March through May",
+        note:
+          "UT Extension confirms termite activity throughout Middle Tennessee. Spring Hill's growth brings new construction with required soil pre-treatment, but properties adjacent to wooded lots and creek corridors carry ongoing exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "Duck River tributaries and the numerous retention ponds in Spring Hill's newer subdivisions create mosquito breeding habitat from April through October.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note:
+          "UT Extension documents stink bug establishment in Middle Tennessee including the Nashville corridor. Spring Hill's September and October aggregation on south and west building faces is consistent with the wider region.",
+      },
+    ],
+    localHook:
+      "Spring Hill grew from a small Maury County community to one of Tennessee's fastest-growing cities in under two decades, driven by the GM Spring Hill manufacturing facility and subsequent residential expansion. That growth pace means new construction is continuously adjacent to established neighborhoods, and the disturbed soil from construction creates fire ant colony conditions right at the boundary of finished residential areas.",
+    intro:
+      "Spring Hill has become one of the fastest-growing cities in Tennessee, fueled by the GM Spring Hill manufacturing campus and the wave of residential development that followed it south from Williamson County. That growth creates a specific pest dynamic: active construction is always present somewhere in the city, and it disturbs soil in ways that elevate fire ant pressure in adjacent finished neighborhoods. UT Extension confirms fire ants are established across Middle Tennessee including Maury County. Eastern subterranean termites are active throughout the region. Duck River tributaries and subdivision retention ponds create mosquito breeding habitat through the warm season. Stink bugs are a September and October aggregation concern across Middle Tennessee.",
+    sections: [
+      {
+        heading: "Fire ants and the construction frontier in Spring Hill",
+        body:
+          "Spring Hill's growth rate, consistently among the highest in Tennessee, creates a situation where finished neighborhoods regularly border active construction phases. Construction disturbs soil, removes ground cover, and creates the bare graded terrain where fire ant colonies establish quickly. UT Extension confirms fire ants are established across Middle Tennessee's Maury and Williamson County corridor. For Spring Hill homeowners, especially those in neighborhoods near the active development edge, fire ant pressure can shift season to season as adjacent construction phases begin and complete. A twice-yearly broadcast bait program applied in spring and fall is the most effective management approach. Individual mound treatment cannot keep pace with new colony establishment from adjacent disturbed land, and Spring Hill's ongoing construction pace makes that problem consistent rather than temporary.",
+      },
+      {
+        heading: "Termites, mosquitoes, and stink bugs in Spring Hill's growing neighborhoods",
+        body:
+          "New construction in Tennessee requires termite soil pre-treatment, which provides initial protection for Spring Hill's newer homes. However, that protection is not permanent, and properties adjacent to wooded creek corridors carry ongoing termite exposure from the surrounding natural habitat. UT Extension confirms termite activity throughout Middle Tennessee year-round. Subdivision retention ponds and Duck River drainage tributaries create mosquito breeding habitat from April through October. Monthly barrier spray programs starting in April provide effective seasonal management. Stink bugs are an annual September and October concern in Spring Hill, aggregating on south and west building faces seeking overwintering entry points. Sealing exterior gaps and applying a residual perimeter treatment before mid-September is the most effective prevention approach.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant broadcast bait in spring and fall for Spring Hill properties, especially those adjacent to active construction phases.",
+      "Schedule annual termite inspections for Spring Hill properties near wooded creek corridors even for newer construction given Middle Tennessee termite pressure.",
+      "Start mosquito barrier spray in April for properties near Duck River tributaries and subdivision retention ponds.",
+      "Seal exterior gaps and apply perimeter treatment to south and west faces before mid-September ahead of the stink bug aggregation.",
+    ],
+    costNote:
+      "Spring Hill pest control programs typically run as quarterly exterior programs covering fire ants, cockroaches, and stink bug prevention. Mosquito treatment adds a monthly program from April through October. Annual termite inspections are recommended for all homes, with active protection plans recommended for creek-adjacent properties.",
+    faqs: [
+      {
+        question: "Why do I see so many fire ant mounds when my neighborhood is newly built?",
+        answer:
+          "New construction disturbs soil and creates the bare, graded terrain that fire ants favor for new colony establishment. In a fast-growing city like Spring Hill, the edge between finished neighborhoods and active construction shifts constantly, so fire ant pressure from disturbed adjacent land is a recurring condition rather than a one-time problem. UT Extension confirms fire ants are established throughout the Maury County corridor. A broadcast bait program applied across the full yard in spring and fall is more effective than individual mound treatment for managing this kind of background colony pressure.",
+      },
+      {
+        question: "Does my new Spring Hill home still need termite protection?",
+        answer:
+          "Yes. New construction in Tennessee receives required soil pre-treatment, which provides initial protection. But that protection diminishes over years, and properties adjacent to wooded lots and creek corridors carry ongoing natural termite exposure. UT Extension confirms termite activity throughout Middle Tennessee year-round. Annual professional inspections establish a baseline, and a monitoring program is worth maintaining even for homes built in the last five years in high-exposure locations.",
+      },
+      {
+        question: "When do stink bugs become a problem in Spring Hill?",
+        answer:
+          "September and October are the primary aggregation months, when falling temperatures trigger stink bugs to seek overwintering sites in building interiors. They aggregate on south and west building faces in large numbers before attempting entry through any available gap. UT Extension documents stink bug establishment across Middle Tennessee. The effective prevention window is August through early September: sealing exterior gaps and applying a residual perimeter treatment to south and west faces before the aggregation starts is far more effective than managing an active entry event.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Nashville", slug: "nashville" },
+      { name: "Memphis", slug: "memphis" },
+      { name: "Clarksville", slug: "clarksville" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Spring Hill, TN | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Spring Hill pest control for fire ants, subterranean termites, mosquitoes and stink bugs. Maury County fast-growing Nashville suburb Middle Tennessee specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

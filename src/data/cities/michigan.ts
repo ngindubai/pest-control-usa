@@ -2156,4 +2156,289 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Dearborn Heights pest control for house mice, German cockroaches, subterranean termites, stink bugs and carpenter ants. Wayne County western Detroit suburb postwar housing specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "battle-creek",
+    name: "Battle Creek",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~51,000",
+    county: "Calhoun County",
+    climate: "cold-humid",
+    climateDriver:
+      "Battle Creek sits where the Battle Creek River joins the Kalamazoo River in Calhoun County in western Michigan. The riparian corridors sustain mosquito populations and carpenter ant pressure through the warm season, while cold continental winters drive mice and stink bugs aggressively into structures. MSU Extension confirms carpenter ants as a primary structural pest in Western Michigan.",
+    topPests: ["Carpenter Ants", "House Mice", "Mosquitoes", "Stink Bugs", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active March through October",
+        note: "Carpenter ants are the leading structural pest concern in Battle Creek and throughout western Michigan. MSU Extension confirms they are a primary pest in Calhoun County homes, particularly those with damp wood at foundation lines, deck boards, or aging window frames near the river corridors.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors September through March",
+        note: "Battle Creek's cold continental winters drive mice into homes aggressively from September onward. The Kalamazoo River corridor sustains a large outdoor mouse population, and older residential construction on the city's established east and west sides provides numerous entry gaps.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Battle Creek and Kalamazoo River confluence creates consistent mosquito breeding habitat. Western Michigan's warm, humid summers sustain active mosquito populations from May through September in the river corridor areas.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge spring",
+        note: "Stink bugs are established in western Michigan including Calhoun County. Battle Creek homes see the typical fall invasion pattern, with bugs aggregating on exterior walls in September before entering through gaps in windows, doors, and soffits.",
+      },
+    ],
+    localHook:
+      "Battle Creek's location at the confluence of two river systems creates riparian moisture that keeps carpenter ant pressure elevated throughout western Michigan's warm season. MSU Extension confirms carpenter ants as the leading structural pest concern in this region.",
+    intro:
+      "Pest control in Battle Creek starts with carpenter ants. MSU Extension consistently lists carpenter ants as the leading structural pest in western Michigan, and Battle Creek's riparian setting at the Kalamazoo and Battle Creek River confluence creates the damp wood conditions these ants favor for nesting. Mice push in from the river corridor each fall as temperatures drop. Mosquitoes are active along the rivers from May through September. Stink bugs are established in Calhoun County and stage their fall invasion in September. A year-round program combining carpenter ant monitoring, mouse exclusion, and quarterly pest management covers the main threats for Battle Creek homeowners.",
+    sections: [
+      {
+        heading: "Carpenter ants and moisture management in Battle Creek",
+        body: "Carpenter ants do not eat wood but excavate it to build galleries for nesting. They target moisture-softened or decaying wood, and Battle Creek's riparian location keeps humidity elevated near the river corridors. Deck boards, fence posts, window frames, and fascia boards that retain moisture after rain are prime nesting sites. Spring is when swarmers appear indoors, signaling an established colony already in the structure. Professional treatment targets both the indoor satellite colony and the outdoor parent colony in the adjacent wood or tree stumps. The lasting fix includes correcting the moisture source: repairing drainage, replacing water-damaged wood, and maintaining proper ventilation in crawlspaces and basements.",
+      },
+      {
+        heading: "Fall mouse exclusion and stink bug prevention in Battle Creek",
+        body: "September and October are the critical preparation months for Battle Creek homeowners. House mice begin pressing toward warm structures as outdoor temperatures drop, and the Kalamazoo River corridor's large outdoor population means the pressure is sustained through winter. Exclusion work in early fall, sealing gaps at ground level, around pipes, and at utility entries, is the most effective prevention. Stink bugs follow a similar calendar, aggregating on south-facing walls in September before entering through any available exterior gap. Perimeter spray in early September targets them while they are still outside. Combined with gap sealing, this dramatically reduces the number that overwinter in wall voids.",
+      },
+    ],
+    prevention: [
+      "Inspect and repair damp exterior wood at foundation lines and deck boards annually to reduce carpenter ant harborage.",
+      "Seal foundation gaps, utility penetrations, and door sweeps in September before the fall mouse surge.",
+      "Apply perimeter spray in early September to intercept stink bugs before they enter.",
+      "Eliminate standing water in yards and drainage areas to reduce mosquito breeding near river corridors.",
+    ],
+    costNote:
+      "Battle Creek pest control starts with a free inspection. Year-round programs covering carpenter ants, mice, and exterior pests run quarterly. Mosquito programs are available May through September. Termite inspection is a recommended annual add-on.",
+    faqs: [
+      {
+        question: "Are carpenter ants more common in Battle Creek than other Michigan cities?",
+        answer:
+          "Western Michigan and the river corridor cities like Battle Creek see elevated carpenter ant pressure because the riparian moisture keeps exterior wood damp longer after rain events. MSU Extension confirms carpenter ants are a primary structural pest throughout this region. Homes near the Kalamazoo or Battle Creek River corridors see the highest pressure.",
+      },
+      {
+        question: "When should I do mouse exclusion work in Battle Creek?",
+        answer:
+          "September is the ideal time, before the main mouse entry surge that typically begins in October. Sealing foundation gaps, pipe penetrations, and door sweep failures while temperatures are still mild makes the work easier and prevents the surge before it starts.",
+      },
+      {
+        question: "Are stink bugs bad in Battle Creek?",
+        answer:
+          "Yes. Brown marmorated stink bugs are established in Calhoun County. Battle Creek homes see the typical September and October invasion. Early September perimeter spray combined with exterior gap sealing is the effective prevention approach.",
+      },
+      {
+        question: "Do mosquitoes breed in the Battle Creek and Kalamazoo Rivers?",
+        answer:
+          "The river margins and any standing or slow-moving water along the river corridors sustain mosquito breeding. The main active season is May through September. Properties within a few blocks of the rivers see higher pressure than those further away.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Kalamazoo", slug: "kalamazoo" },
+      { name: "Lansing", slug: "lansing" },
+      { name: "Grand Rapids", slug: "grand-rapids" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Battle Creek, MI | Carpenter Ants, Mice & Stink Bugs",
+    metaDescription:
+      "Battle Creek pest control for carpenter ants, house mice, mosquitoes, stink bugs and German cockroaches. Calhoun County Kalamazoo River western Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bay-city",
+    name: "Bay City",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~31,000",
+    county: "Bay County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bay City sits at the head of Saginaw Bay on Lake Huron where the Saginaw River meets the Great Lakes. The bay's coastal marshlands and Saginaw River delta create some of the highest mosquito pressure in Michigan. Michigan State University Extension confirms that Great Lakes coastal areas experience elevated mosquito activity, and Bay City's cold, snowy winters drive mice and stink bugs aggressively indoors.",
+    topPests: ["Mosquitoes", "Carpenter Ants", "House Mice", "Stink Bugs", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Bay City's location at the head of Saginaw Bay and the Saginaw River delta creates exceptional mosquito breeding habitat. The coastal marshlands and slow-moving river backwaters sustain breeding populations throughout the Great Lakes warm season. MSU Extension confirms elevated mosquito activity in Great Lakes coastal communities.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active April through September",
+        note: "Carpenter ants are a primary structural pest in Bay City, consistent with MSU Extension findings for western and central Michigan. The Saginaw River corridor's moisture influence keeps exterior wood in the city damp enough to attract carpenter ant colonies in aging structures.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through April",
+        note: "Bay City's severe lake-effect winters create strong pressure for mice to seek indoor warmth from October onward. The Saginaw Bay waterfront's industrial and commercial infrastructure sustains a large outdoor mouse population.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge spring",
+        note: "Stink bugs are established in Bay County. Bay City's older housing stock provides the masonry gaps and aging window frames that facilitate fall invasions. The fall perimeter window is September before they enter wall voids.",
+      },
+    ],
+    localHook:
+      "Bay City's position at the head of Saginaw Bay creates some of the highest mosquito pressure in Michigan. The Great Lakes coastal marshlands and Saginaw River delta sustain breeding populations that MSU Extension has documented as above average for inland Michigan cities.",
+    intro:
+      "Pest control in Bay City starts with the lake. The Saginaw Bay coastal location creates mosquito pressure that is consistently higher than inland Michigan cities, with the marshlands and river delta providing breeding habitat from May through September. Carpenter ants are the primary structural pest in this Great Lakes coastal environment. Cold lake-effect winters push mice indoors from October through April. Stink bugs stage their fall invasion in September. A year-round pest program with monthly mosquito service from May through September is the practical standard for Bay City homeowners.",
+    sections: [
+      {
+        heading: "Saginaw Bay and Bay City's elevated mosquito pressure",
+        body: "Saginaw Bay's shallow coastal marshlands and the Saginaw River's delta provide unusually productive mosquito breeding habitat. These water features sustain breeding populations from May through September at levels above most Michigan cities. MSU Extension documents Great Lakes coastal communities as experiencing elevated mosquito pressure compared to inland areas. For Bay City properties near the bay shoreline, river corridor, or any low-lying drainage, monthly barrier spray from May through September gives meaningful relief. Eliminating standing water in residential yards, gutters, and plant containers supplements the professional treatment by removing the localized breeding sources that compound the regional pressure.",
+      },
+      {
+        heading: "Carpenter ants, mice, and fall exclusion in Bay City",
+        body: "Bay City's aging housing stock and the Saginaw River corridor's persistent moisture keep carpenter ant pressure elevated. Homes with damp basements, aging deck boards, and moisture-affected window framing are the highest-risk properties. Annual inspection of exterior wood for moisture damage and carpenter ant galleries catches problems early. Fall exclusion work in September, before lake-effect temperatures drop sharply in October, is the best time to seal mouse entry points at ground level and around pipes. Bay City's lake-effect winters are severe and the outdoor-to-indoor mouse pressure from October through April is significant without thorough exclusion.",
+      },
+    ],
+    prevention: [
+      "Apply monthly mosquito barrier spray May through September for properties near Saginaw Bay or the river corridor.",
+      "Inspect and repair damp exterior wood annually to reduce carpenter ant harborage.",
+      "Seal foundation gaps and utility penetrations in September before lake-effect weather drives mice indoors.",
+      "Seal window frame gaps and soffit areas before September to block fall stink bug entry.",
+    ],
+    costNote:
+      "Bay City pest control starts with a free inspection. Monthly mosquito programs May through September are a practical investment for bay-adjacent properties. Quarterly general pest programs cover carpenter ants, mice, and cockroaches. Termite inspection is an annual add-on.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure so high near Saginaw Bay?",
+        answer:
+          "The coastal marshlands at the head of Saginaw Bay and the Saginaw River delta provide exceptionally productive breeding habitat. MSU Extension documents Great Lakes coastal communities as experiencing above-average mosquito pressure. The main season runs May through September, with peak activity in July and August.",
+      },
+      {
+        question: "Are carpenter ants a bigger problem in Bay City because of the lake?",
+        answer:
+          "Yes. The Saginaw Bay and Saginaw River's moisture influence keeps exterior wood in Bay City damp longer after rain events. This creates more carpenter ant harborage than drier inland cities. Annual inspection of aging exterior wood and moisture correction in affected areas reduces pressure significantly.",
+      },
+      {
+        question: "When do mice typically enter Bay City homes?",
+        answer:
+          "The main entry surge happens in October and November as lake-effect conditions bring sharp temperature drops to Bay County. Exclusion work in September, before this surge, is the most effective timing. Bay City's severe winters mean the pressure continues through April.",
+      },
+      {
+        question: "Are stink bugs established in Bay County?",
+        answer:
+          "Yes. Brown marmorated stink bugs are established in Bay County. Fall invasions in September and October are a consistent annual event. Perimeter spray in early September, when bugs are aggregating on exterior walls, plus gap sealing are the effective prevention steps.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Saginaw", slug: "saginaw" },
+      { name: "Flint", slug: "flint" },
+      { name: "Lansing", slug: "lansing" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Bay City, MI | Mosquitoes, Carpenter Ants & Mice",
+    metaDescription:
+      "Bay City pest control for mosquitoes, carpenter ants, house mice and stink bugs. Bay County Saginaw Bay Lake Huron coastal Great Lakes specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "muskegon",
+    name: "Muskegon",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~38,000",
+    county: "Muskegon County",
+    climate: "cold-humid",
+    climateDriver:
+      "Muskegon sits on Lake Michigan in Muskegon County where lake-effect moisture creates a damp coastal climate ideal for carpenter ants. Washington State University Extension and MSU Extension both document carpenter ants as a leading structural pest in damp Pacific and Great Lakes coastal environments. Cold lake-effect winters drive mice indoors, and the lake's influence extends the mild season but creates persistent wood moisture that sustains pest pressure.",
+    topPests: ["Carpenter Ants", "House Mice", "Mosquitoes", "Yellow Jackets", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active April through October",
+        note: "Carpenter ants are the leading structural pest concern in Muskegon, consistent with MSU Extension findings for Great Lakes coastal communities. Lake Michigan's moisture influence keeps exterior wood in the city damp, creating favorable nesting conditions in aging deck boards, window frames, and fascia.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through April",
+        note: "Cold lake-effect winters from Lake Michigan push mice into Muskegon homes from October through April. The city's older residential neighborhoods and proximity to the lake shoreline's natural areas sustain outdoor mouse populations.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Muskegon Lake, the Muskegon River, and the coastal marshlands provide breeding habitat for mosquitoes through the Great Lakes warm season. Properties near the lake, river, or Muskegon State Park see the highest activity.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks July through September",
+        note: "Yellow jackets are a consistent pest in Muskegon County, establishing ground and wall nests in residential yards and old structures. Colonies peak in late summer and are at their most aggressive in August and September.",
+      },
+    ],
+    localHook:
+      "Muskegon's Lake Michigan shoreline creates a damp coastal climate that is ideal for carpenter ants. MSU Extension confirms carpenter ants are a primary structural pest in Great Lakes coastal communities, and Muskegon's lake-effect moisture keeps exterior wood persistently damp.",
+    intro:
+      "Pest control in Muskegon centers on the Lake Michigan climate effect. The lake's moisture influence keeps exterior wood damp throughout the year, which is exactly what carpenter ants need to establish nesting colonies. MSU Extension consistently identifies carpenter ants as a leading structural pest in this coastal region. Cold lake-effect winters bring strong mouse pressure from October through April. Mosquitoes are active along Muskegon Lake and the river corridor from May through September. Yellow jackets nest in yards and older structures through summer. A year-round program with specific carpenter ant monitoring and fall exclusion work covers the main threats for Muskegon homeowners.",
+    sections: [
+      {
+        heading: "Lake Michigan moisture and carpenter ants in Muskegon",
+        body: "Lake Michigan's moisture influence is the defining environmental factor for pest management in Muskegon. The lake-effect climate keeps exterior wood, including deck boards, window trim, fascia, and fence posts, damp for longer after rain than drier inland cities. Carpenter ants colonize this moisture-softened wood because it requires less excavation effort and stays cooler in summer. Spring is when indoor swarmer appearances reveal established wall colonies. A professional inspection identifies the locations and the moisture source. The lasting fix combines treatment of both the indoor and outdoor colony components with correction of the moisture problem itself, including drainage improvements, wood replacement, and crawlspace ventilation where needed.",
+      },
+      {
+        heading: "Mouse exclusion and yellow jackets in Muskegon",
+        body: "Lake-effect weather in Muskegon County brings sharp temperature drops that accelerate the fall mouse entry period. Exclusion work in September, before the main surge in October and November, gives the best results. Mice enter through gaps as small as a dime at ground level, around pipe penetrations, and where utilities enter the structure. Yellow jacket colonies are active from May onward in Muskegon County but become problematic from July through September when populations peak. Ground nests in yards and nests in wall voids of older structures are the most common situations. Professional treatment in late summer eliminates active nests safely.",
+      },
+    ],
+    prevention: [
+      "Inspect and repair damp exterior wood at foundation lines, deck boards, and fascia annually.",
+      "Seal foundation gaps and utility penetrations in September before lake-effect cold drives mice indoors.",
+      "Apply monthly mosquito barrier spray May through September for properties near Muskegon Lake or the river.",
+      "Have yellow jacket nests in yards and wall voids treated professionally before August.",
+    ],
+    costNote:
+      "Muskegon pest control starts with a free inspection. Year-round programs covering carpenter ants, mice, and cockroaches are the standard. Mosquito programs run May through September. Fall exclusion work is a common seasonal add-on.",
+    faqs: [
+      {
+        question: "Why are carpenter ants such a problem in Muskegon specifically?",
+        answer:
+          "Lake Michigan's moisture influence keeps exterior wood in Muskegon persistently damp, which is the primary condition carpenter ants seek for nesting. MSU Extension confirms carpenter ants as a primary structural pest in Great Lakes coastal communities. Homes with aging exterior wood and poor drainage around foundations are the highest-risk properties.",
+      },
+      {
+        question: "When should I seal my home against mice in Muskegon?",
+        answer:
+          "September is the ideal timing, before lake-effect cold in October and November drives the main mouse entry surge. Identifying and sealing ground-level gaps, pipe penetrations, and door sweep failures while weather is still mild is the most effective approach.",
+      },
+      {
+        question: "Are mosquitoes bad near Muskegon Lake?",
+        answer:
+          "Yes. Muskegon Lake's shoreline and the Muskegon River corridor provide productive breeding habitat. Properties near the lake or river see higher mosquito pressure than those in the interior of the city. Monthly barrier spray from May through September gives meaningful relief for outdoor living areas.",
+      },
+      {
+        question: "How do yellow jackets get into Muskegon walls?",
+        answer:
+          "Yellow jackets enter wall voids through gaps in siding, around utility penetrations, or through weep holes in brick veneer. They build nests inside the wall cavity. The first sign is usually seeing workers entering and exiting a small gap in the siding. A professional treatment in late summer eliminates the colony and the nest.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Grand Rapids", slug: "grand-rapids" },
+      { name: "Holland", slug: "holland" },
+      { name: "Kalamazoo", slug: "kalamazoo" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Muskegon, MI | Carpenter Ants, Mice & Mosquitoes",
+    metaDescription:
+      "Muskegon pest control for carpenter ants, house mice, mosquitoes and yellow jackets. Muskegon County Lake Michigan coastal Great Lakes specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

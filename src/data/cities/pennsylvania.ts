@@ -1291,4 +1291,194 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaDescription:
       "Altoona pest control for house mice, stink bugs, subterranean termites, deer ticks and yellow jackets. Blair County Allegheny Mountains Horseshoe Curve central Pennsylvania specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "chester",
+    name: "Chester",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~34,000",
+    county: "Delaware County",
+    climate: "cold-humid",
+    climateDriver:
+      "Chester is one of Pennsylvania's oldest cities, sitting on the Delaware River in Delaware County. The city's aging housing stock, high urban density, and Delaware River waterfront proximity create sustained German cockroach, rodent, and bed bug pressure. Eastern subterranean termites are active throughout Delaware County, and cold winters push mice aggressively into Chester's older residential buildings each fall.",
+    topPests: ["German Cockroaches", "House Mice", "Bed Bugs", "Subterranean Termites", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor pest in Chester's older multi-family residential buildings and commercial kitchens. The city's older housing stock facilitates spread through shared wall voids and plumbing infrastructure between units.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through March",
+        note: "Chester's older building foundations, aging masonry, and dense urban layout create numerous mouse entry points. The Delaware River waterfront's commercial and industrial infrastructure sustains large outdoor mouse populations that press into structures each fall.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Chester's dense multi-family housing stock creates elevated bed bug transmission risk. High unit turnover and shared building infrastructure facilitate bed bug movement between neighboring apartments.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round",
+        note: "Eastern subterranean termites are active throughout Delaware County. Chester's older construction, much of which predates modern pre-treatment standards, makes annual inspections particularly important.",
+      },
+    ],
+    localHook:
+      "Chester is one of Pennsylvania's oldest cities, and its aging housing stock along the Delaware River waterfront provides the kind of settled foundations, aging masonry, and deteriorated wood framing that mice, cockroaches, and termites exploit most effectively.",
+    intro:
+      "Pest control in Chester deals with the full range of urban pest pressure in an older, dense East Coast city. German cockroaches in multi-family buildings, mice in aging foundations, bed bugs in high-turnover rental housing, and subterranean termites in the older construction stock are the main targets. American cockroaches move between the Delaware River waterfront's drainage infrastructure and indoor spaces. A year-round integrated pest management program that addresses building entry points, interior breeding sites, and termite monitoring is the standard approach for Chester properties.",
+    sections: [
+      {
+        heading: "Cockroaches and rodents in Chester's older urban buildings",
+        body: "Chester's residential buildings range from 19th-century row houses to mid-20th century apartment blocks, and aging construction throughout creates the gaps and shared spaces that make German cockroaches and mice so persistent. German cockroaches spread between apartments through shared wall voids and plumbing chases, which means treating one unit at a time rarely gives lasting results. Building-level programs that treat multiple adjacent units and shared service spaces are the effective approach. House mice enter at ground level through gaps in aging foundations, around pipes, and where utilities enter the building. Systematic exclusion, identifying every entry gap and sealing it permanently, is the key long-term solution.",
+      },
+      {
+        heading: "Termites and older construction in Delaware County",
+        body: "Eastern subterranean termites are active throughout Delaware County year-round in the warmer months. Chester's older housing stock, much of which was built before pre-treatment soil barriers became standard, is the highest-risk segment. Signs to watch for include mud tubes on foundation walls, hollow-sounding wood when tapped, and swarmers emerging near windows in spring. Annual inspections are the reliable way to catch activity before it causes significant structural damage. For properties with crawlspaces or any wood-to-ground contact, inspection frequency should be every year without exception.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and floor-level openings to block mouse entry in fall.",
+      "Get annual termite inspections for Chester's older construction stock.",
+      "Use building-level German cockroach programs in multi-family properties rather than unit-by-unit treatment.",
+      "Inspect used furniture and high-turnover rental units carefully for bed bugs.",
+    ],
+    costNote:
+      "Chester pest control starts with a free inspection. Year-round programs covering cockroaches, mice, and exterior perimeter pests are the standard. Termite treatment is quoted separately. Bed bug treatment is priced per room based on infestation extent.",
+    faqs: [
+      {
+        question: "Why is German cockroach control so difficult in Chester apartments?",
+        answer:
+          "German cockroaches spread through shared wall voids and plumbing chases in multi-family buildings. Treating a single apartment drives cockroaches into adjacent units rather than eliminating them from the building. Effective control requires a coordinated program covering neighboring units and shared spaces simultaneously.",
+      },
+      {
+        question: "Are termites a significant concern in Chester's older homes?",
+        answer:
+          "Yes. Delaware County's eastern subterranean termites are active through most of the year, and Chester's older construction predates modern pre-treatment standards. Annual inspections are especially important for properties with wood-to-soil contact or crawlspaces.",
+      },
+      {
+        question: "Does the Delaware River waterfront affect pest pressure in Chester?",
+        answer:
+          "Yes. The waterfront's commercial and industrial infrastructure sustains large outdoor mouse and American cockroach populations that press into adjacent residential structures. Perimeter treatment and exclusion work for properties nearest the waterfront corridor is more intensive than for properties further inland.",
+      },
+      {
+        question: "When should I treat for mice in Chester?",
+        answer:
+          "Exclusion work is most effective in early fall, September and October, before mice begin actively seeking shelter. Interior trapping can begin at any time there is evidence of mice indoors. In Chester's older buildings, exclusion is an ongoing process because new gaps develop as structures settle.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Philadelphia", slug: "philadelphia" },
+      { name: "Reading", slug: "reading" },
+      { name: "Wilmington", slug: "wilmington" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Chester, PA | Cockroaches, Mice & Termites",
+    metaDescription:
+      "Chester PA pest control for German cockroaches, house mice, bed bugs, subterranean termites and American cockroaches. Delaware County older industrial city Delaware River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "easton",
+    name: "Easton",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~30,000",
+    county: "Northampton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Easton sits at the confluence of the Lehigh and Delaware Rivers in Northampton County, in the heart of the Lehigh Valley. The region's cold-humid continental climate drives strong fall stink bug invasions, and the valley's proximity to Allentown, where brown marmorated stink bugs were first documented in the US, makes Northampton County one of the most established stink bug regions in the country.",
+    topPests: ["Stink Bugs", "House Mice", "Subterranean Termites", "German Cockroaches", "Bed Bugs"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge spring",
+        note: "Stink bugs are exceptionally well-established in the Lehigh Valley. Northampton County, adjacent to Allentown where stink bugs were first documented in the US in the late 1990s, has one of the highest stink bug populations in the country. Fall invasions in Easton can be significant.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "House mice push into Easton's older residential and commercial buildings each fall as Northampton County's temperatures drop sharply. The city's older construction provides more entry gaps than modern buildings.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active into fall",
+        note: "Eastern subterranean termites are active throughout the Lehigh Valley. Easton's older housing stock along the Delaware River waterfront requires annual inspection to catch early termite activity.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches concentrate in Easton's older multi-family buildings and restaurant kitchens. The Lehigh Valley's colder winters do not reduce indoor German cockroach populations, which have no outdoor component.",
+      },
+    ],
+    localHook:
+      "Northampton County is adjacent to Allentown, where brown marmorated stink bugs were first documented in the United States in the late 1990s. This makes Easton's stink bug populations among the longest-established in the country, and fall invasions here can be notably heavy.",
+    intro:
+      "Pest control in Easton starts with stink bugs. Northampton County is in the Lehigh Valley, adjacent to Allentown where the brown marmorated stink bug was first documented in the US, and the region's stink bug populations are among the most established in the country. Fall invasions into Easton's homes can be significant. House mice follow the stink bugs into older buildings as temperatures drop. Subterranean termites are active across the Lehigh Valley, and German cockroaches are the main indoor commercial pest year-round.",
+    sections: [
+      {
+        heading: "Stink bugs in the Lehigh Valley: why Easton sees such heavy invasions",
+        body: "Allentown is where the brown marmorated stink bug was first documented in North America in 1998, and the 25-plus years of population establishment in the Lehigh Valley means Northampton County has one of the densest stink bug populations in the US. In Easton, the September and October invasion window is the critical management period. Stink bugs aggregate on south-facing building walls before squeezing through any available gap: window frame cracks, door weatherstripping failures, soffit vents, and utility entry points. A perimeter spray in early September targets the aggregating bugs before they enter. Combined with systematic gap sealing, this approach reduces the invasion significantly. Once bugs are inside wall voids, vacuum removal as they emerge is the practical response through winter.",
+      },
+      {
+        heading: "Mice, termites, and year-round pest management in Easton",
+        body: "House mice enter Easton's older buildings in October and November as Northampton County's temperatures drop toward freezing. The city's older masonry construction has more ground-level gaps than modern builds, and exclusion work in early fall is the most cost-effective prevention. Eastern subterranean termites are active across the Lehigh Valley and Easton's older Delaware River waterfront construction requires annual inspection. German cockroaches are active year-round indoors in multi-family buildings and food service kitchens, and their indoor-only lifestyle means cold Lehigh Valley winters provide no seasonal break in their activity.",
+      },
+    ],
+    prevention: [
+      "Seal all exterior gaps at window frames, door weatherstripping, and soffit vents before September to reduce stink bug entry.",
+      "Perform fall mouse exclusion work in September before temperatures drop sharply.",
+      "Get annual termite inspections for Easton's older construction, particularly waterfront properties.",
+      "Maintain consistent German cockroach gel bait programs year-round in multi-family and commercial kitchen settings.",
+    ],
+    costNote:
+      "Easton pest control starts with a free inspection. Year-round programs cover mice, cockroaches, and exterior pests on a quarterly basis. Fall stink bug exclusion service is a common seasonal add-on. Termite treatment is quoted separately.",
+    faqs: [
+      {
+        question: "Why does Easton get such heavy stink bug invasions?",
+        answer:
+          "Northampton County is adjacent to Allentown, where stink bugs were first documented in North America in 1998. The region has had over 25 years of population establishment, creating one of the densest stink bug populations in the US. Easton's proximity to this epicenter means fall invasions here are among the heaviest in the country.",
+      },
+      {
+        question: "When is the best time to treat for stink bugs in Easton?",
+        answer:
+          "Early September, before they begin aggregating on building walls to enter. A perimeter spray targets them while they are still outside. Combined with sealing all accessible exterior gaps, this prevents the bulk of the invasion. By October they are typically already inside and vacuum removal becomes the main response.",
+      },
+      {
+        question: "Are mice a fall-only problem in Easton?",
+        answer:
+          "No. Mice can be present year-round in older construction, but the main entry surge happens in October and November when temperatures drop below the comfortable outdoor range. Exclusion work in September, before this surge, is the most effective prevention timing.",
+      },
+      {
+        question: "Do termites swarm in Easton?",
+        answer:
+          "Yes. Eastern subterranean termites in Northampton County typically swarm in spring, on warm days after rain. If you see small dark insects with equal-length wings emerging near window sills, have an inspection promptly. The older construction along the Delaware waterfront is the highest-risk segment in Easton.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Allentown", slug: "allentown" },
+      { name: "Bethlehem", slug: "bethlehem" },
+      { name: "Scranton", slug: "scranton" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Easton, PA | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "Easton pest control for stink bugs, house mice, subterranean termites and German cockroaches. Northampton County Lehigh Valley Delaware River stink bug epicenter specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

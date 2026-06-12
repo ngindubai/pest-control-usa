@@ -2069,4 +2069,574 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Des Plaines pest control for house mice, German cockroaches, stink bugs, subterranean termites and yellow jackets. Cook County O'Hare Des Plaines River Chicago suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "palatine",
+    name: "Palatine",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~68,000",
+    county: "Cook County",
+    climate: "cold-humid",
+    climateDriver:
+      "Palatine is a large Cook County suburb with a mix of older single-family homes and newer development. Deer Grove Forest Preserve lies adjacent to the city, providing wildlife and mouse habitat that sustains pest pressure for nearby properties. Cold Chicago winters drive strong fall mouse and stink bug invasions, and German cockroaches are the year-round indoor pest in multi-family buildings.",
+    topPests: ["House Mice", "Stink Bugs", "German Cockroaches", "Carpenter Ants", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Deer Grove Forest Preserve's wildlife habitat adjacent to Palatine sustains outdoor mouse populations that press into residential structures each fall. Cook County's cold winters create strong indoor shelter pressure from October through March.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge spring",
+        note: "Stink bugs are established throughout the Chicago metro including Cook County. Palatine homes see the standard Illinois fall invasion, with September and October being the primary entry window.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches concentrate in Palatine's multi-family residential buildings, restaurant kitchens, and older commercial properties. Cook County's urban density facilitates spread through shared building infrastructure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active March through October",
+        note: "Carpenter ants are a structural concern in Palatine's older single-family homes, particularly those with aging wood at foundation lines or deck boards. Deer Grove Forest Preserve sustains outdoor colonies adjacent to residential areas.",
+      },
+    ],
+    localHook:
+      "Deer Grove Forest Preserve lies adjacent to Palatine's western residential areas, sustaining wildlife and mouse populations that create above-average fall pest pressure for homes nearest the preserve boundary.",
+    intro:
+      "Pest control in Palatine covers the standard Chicago suburb pest calendar with Deer Grove Forest Preserve as the defining local factor. The preserve's adjacent wildlife habitat sustains mouse and carpenter ant populations that press into neighboring residential areas. Stink bugs stage their fall invasion in September. German cockroaches are the year-round indoor pest. Yellow jackets nest in yards and older structures through summer. A year-round program with fall exclusion focus and carpenter ant monitoring covers the main threats for Palatine homeowners.",
+    sections: [
+      {
+        heading: "Deer Grove and fall pest pressure in Palatine",
+        body: "Deer Grove Forest Preserve provides the kind of undisturbed habitat that sustains larger wildlife and mouse populations than the surrounding suburban areas. Homes adjacent to the preserve's boundary see more consistent fall mouse pressure because the preserve provides a continuous source of outdoor mice as temperatures drop. Exclusion work in September, identifying and sealing every ground-level gap, pipe penetration, and utility entry, prevents the October and November surge before it starts. Carpenter ants from the preserve's forest edge affect the nearest properties in spring when colonies expand. Annual inspection of exterior wood near the preserve boundary keeps structural problems from developing unnoticed.",
+      },
+      {
+        heading: "Stink bugs and Chicago suburb fall pest management",
+        body: "Stink bugs are established throughout the Chicago metro including Cook County. Palatine homes see the September and October invasion that is now a predictable annual event across Illinois. A perimeter spray in early September, before bugs begin aggregating on exterior walls, combined with sealing of window frame corners, door weatherstripping, and soffit vents, is the effective prevention combination. Cold Chicago winters mean the mouse exclusion and stink bug exclusion programs should be treated as a combined fall service, since both threats peak at the same time.",
+      },
+    ],
+    prevention: [
+      "Complete fall exclusion work in September for properties near Deer Grove Forest Preserve before the mouse surge.",
+      "Apply perimeter spray in early September to intercept stink bugs before fall aggregation.",
+      "Inspect exterior wood near the preserve boundary annually for carpenter ant gallery damage.",
+      "Maintain year-round gel bait programs for German cockroach control in multi-family and commercial settings.",
+    ],
+    costNote:
+      "Palatine pest control starts with a free inspection. Year-round programs covering mice, cockroaches, and exterior pests run quarterly. Fall exclusion service is a common seasonal add-on. Carpenter ant treatment is available for forest-edge properties.",
+    faqs: [
+      {
+        question: "Does Deer Grove Forest Preserve make pest control harder in nearby Palatine homes?",
+        answer:
+          "Yes, for properties adjacent to the preserve boundary. The preserve sustains larger mouse and carpenter ant populations than surrounding suburban areas. Homes nearest the preserve see more consistent fall mouse pressure and above-average spring carpenter ant activity.",
+      },
+      {
+        question: "When do stink bugs invade in Palatine?",
+        answer:
+          "September and October are the primary window for the Chicago metro including Palatine. Early September perimeter spray, before stink bugs begin aggregating on exterior walls, combined with gap sealing is the effective prevention approach.",
+      },
+      {
+        question: "Are German cockroaches seasonal in Palatine?",
+        answer:
+          "No. German cockroaches are an exclusively indoor pest that breeds year-round in heated spaces. Chicago's cold winters provide no seasonal break in their activity. Consistent professional gel bait programs throughout the year are the effective control approach.",
+      },
+      {
+        question: "What kind of ants are most common in Palatine?",
+        answer:
+          "Carpenter ants are the primary structural concern, particularly for older homes near wooded edges. Odorous house ants and pavement ants are the most common nuisance species in kitchens and along foundation edges. Each species responds to different bait and barrier treatments.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Schaumburg", slug: "schaumburg" },
+      { name: "Arlington Heights", slug: "arlington-heights" },
+      { name: "Des Plaines", slug: "des-plaines" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Palatine, IL | Mice, Stink Bugs & Cockroaches",
+    metaDescription:
+      "Palatine pest control for house mice, stink bugs, German cockroaches and carpenter ants. Cook County Deer Grove Forest Preserve Chicago northwest suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "normal",
+    name: "Normal",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~52,000",
+    county: "McLean County",
+    climate: "cold-humid",
+    climateDriver:
+      "Normal is twin city to Bloomington in McLean County in central Illinois. The college town setting, home to Illinois State University, creates elevated German cockroach and bed bug pressure in rental housing. Cold continental winters drive the standard Illinois fall pest invasion, and ISU Extension confirms stink bugs and mice are among the top pest concerns across central Illinois.",
+    topPests: ["House Mice", "German Cockroaches", "Stink Bugs", "Bed Bugs", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "McLean County's cold continental winters push mice into Normal's residential and commercial buildings from October through March. The city's mix of student housing and established neighborhoods creates varied entry-point risk across different property ages.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are elevated in Normal because of Illinois State University's rental housing market. High unit turnover, shared housing, and commercial food establishments near campus create the conditions for persistent cockroach pressure.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge spring",
+        note: "Stink bugs are established in central Illinois including McLean County. ISU Extension identifies stink bugs as a growing pest concern across the region. Normal homes see fall invasions in September and October.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Illinois State University's student population creates elevated bed bug transmission risk in Normal's rental housing market. Frequent furniture turnover and shared housing are the primary transmission pathways.",
+      },
+    ],
+    localHook:
+      "Normal's Illinois State University creates a rental housing market where German cockroach and bed bug transmission risk is elevated above the typical small-city baseline. The student housing stock has higher turnover and shared-space characteristics that facilitate both pest types.",
+    intro:
+      "Pest control in Normal combines small central Illinois city pest pressure with a university town dynamic. Illinois State University's rental housing market elevates German cockroach and bed bug risk above what most central Illinois cities experience. Mice push in from McLean County's cold winters starting in October. Stink bugs stage their fall invasion in September. ISU Extension confirms both stink bugs and mice are top pest concerns in the region. A year-round program with fall exclusion focus covers most Normal homeowners, with specific bed bug awareness for rental properties.",
+    sections: [
+      {
+        heading: "University rental housing and cockroach management in Normal",
+        body: "Illinois State University's student population creates a rental housing dynamic in Normal that differs from stable residential neighborhoods. German cockroaches spread through shared wall voids in multi-unit housing, and the higher unit turnover in student rentals creates more opportunities for introduction. Building-level programs that treat neighboring units and shared spaces simultaneously are more effective than unit-by-unit treatment. Bed bugs follow a similar pattern: high furniture turnover, shared accommodation, and travel exposure mean the risk in Normal's rental neighborhoods is meaningfully above the central Illinois baseline. Any sign of biting warrants immediate professional inspection.",
+      },
+      {
+        heading: "Fall pest management in McLean County",
+        body: "Normal's central Illinois location means the standard fall pest season runs September through November. Stink bugs begin aggregating on south-facing walls in September and enter through window frame gaps, door weatherstripping, and soffit vents. Mice follow the first cold front in October. A perimeter spray in early September combined with exclusion work, sealing every identifiable gap at ground level and in the building envelope, addresses both threats with a single fall service. McLean County's flat, agricultural surroundings contribute to fall mouse pressure as field crops are harvested and mice move toward residential structures.",
+      },
+    ],
+    prevention: [
+      "Complete fall perimeter spray and exclusion work in September for both stink bugs and mice.",
+      "Inspect all used furniture before moving into rental housing to prevent bed bug introduction.",
+      "Use building-level cockroach programs in multi-unit properties near campus.",
+      "Seal foundation gaps and utility penetrations in September before the first cold front.",
+    ],
+    costNote:
+      "Normal pest control starts with a free inspection. Year-round programs covering mice, cockroaches, and exterior pests run quarterly. Bed bug treatment is quoted per room. Fall exclusion service is a common seasonal add-on.",
+    faqs: [
+      {
+        question: "Is bed bug risk elevated in Normal because of ISU?",
+        answer:
+          "Yes. The rental housing market around Illinois State University has higher bed bug transmission risk from frequent furniture turnover, shared housing, and student travel. The risk is not extreme, but it is meaningfully above what smaller central Illinois cities without a university typically see.",
+      },
+      {
+        question: "Are stink bugs bad in Normal?",
+        answer:
+          "Yes. Stink bugs are established in McLean County and are a reliable fall pest in Normal. ISU Extension confirms they are a growing pest concern across central Illinois. September and October are the primary invasion window.",
+      },
+      {
+        question: "When do mice typically enter Normal homes?",
+        answer:
+          "The main surge starts in October as McLean County temperatures drop toward winter. Agricultural harvest in surrounding fields also displaces mice toward residential areas. Exclusion work in September gives the best protection before the surge starts.",
+      },
+      {
+        question: "Why do German cockroaches keep coming back in Normal rentals?",
+        answer:
+          "German cockroaches spread through shared building infrastructure between units, so treating one apartment without addressing adjacent units allows reinfestation from neighboring colonies. In Normal's student rental stock, building-level programs covering all affected units are required for lasting control.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Bloomington", slug: "bloomington-il" },
+      { name: "Champaign", slug: "champaign" },
+      { name: "Springfield", slug: "springfield-il" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Normal, IL | Mice, Cockroaches & Stink Bugs",
+    metaDescription:
+      "Normal IL pest control for house mice, German cockroaches, stink bugs and bed bugs. McLean County Illinois State University central Illinois specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "tinley-park",
+    name: "Tinley Park",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~60,000",
+    county: "Cook County",
+    climate: "cold-humid",
+    climateDriver:
+      "Tinley Park is a well-established south suburb of Chicago where many homes date to the 1960s and 1970s. That era of construction has specific gap and settling patterns that make mouse exclusion and stink bug sealing more challenging than in newer builds. Cold Cook County winters drive strong fall pest invasions, and stink bugs are established throughout the Chicago metro.",
+    topPests: ["Stink Bugs", "House Mice", "German Cockroaches", "Carpenter Ants", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge spring",
+        note: "Stink bugs are established in Cook County and are a reliable fall pest throughout the Chicago south suburbs including Tinley Park. September and October are the primary invasion window, with bugs entering through the gaps common in 1960s and 1970s construction.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Cook County's cold winters push mice into Tinley Park homes from October through March. The city's older housing stock has more settled gaps and utility penetration failures than newer construction, providing mice with more entry options.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches concentrate in Tinley Park's older multi-family residential buildings and commercial kitchens. The south suburbs' older housing stock facilitates spread through shared wall voids.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active March through October",
+        note: "Carpenter ants are a structural pest concern in Tinley Park's older homes with aging wood at foundation lines, deck boards, and window frames. The Palos Forest Preserves to the west sustain outdoor carpenter ant populations adjacent to residential areas.",
+      },
+    ],
+    localHook:
+      "Tinley Park's significant stock of homes from the 1960s and 1970s creates above-average fall pest entry opportunities. The settled foundations, aging window frames, and decades of utility modifications in these properties provide more mouse and stink bug entry points than modern construction.",
+    intro:
+      "Pest control in Tinley Park has to account for the age of the housing. Many homes in Tinley Park were built in the 1960s and 1970s, and decades of settling have created more mouse and stink bug entry gaps than newer construction. Stink bugs are established in Cook County and stage reliable fall invasions. Mice follow from October through March. German cockroaches are the year-round indoor pest in multi-family buildings. Carpenter ants are a structural concern for older homes near the Palos Forest Preserves. Systematic fall exclusion combined with year-round pest management is the effective standard for Tinley Park homeowners.",
+    sections: [
+      {
+        heading: "Older construction and fall exclusion in Tinley Park",
+        body: "Homes built in the 1960s and 1970s have settling characteristics that create gap patterns different from newer construction. Mortar joints in brick veneer deteriorate, window frames develop cracks at corners, and decades of utility modifications leave unsealed penetrations in walls and foundations. Systematic fall exclusion work for a Tinley Park home from this era takes more time and identifies more entry points than the same work on a newer build. For stink bugs and mice, which both peak in September through November, the investment in thorough gap sealing pays for itself in the reduction of fall invasion numbers. Annual re-inspection is worthwhile because new gaps develop as structures continue to settle.",
+      },
+      {
+        heading: "Palos Forest Preserves and pest pressure on Tinley Park's western edge",
+        body: "The Palos Forest Preserves lie immediately west of Tinley Park's western neighborhoods. The preserve's extensive forests sustain deer tick and carpenter ant populations that affect homes along the preserve boundary. Deer ticks in the Palos Hills area are a genuine concern from spring through fall, and the adjacent wooded terrain provides the carpenter ant colonies that move into aging exterior wood in residential structures. For homes nearest the preserve, professional tick treatments for yard edges adjoining woodland and annual carpenter ant inspection of exterior wood are practical add-ons to the standard pest program.",
+      },
+    ],
+    prevention: [
+      "Complete thorough fall exclusion in September for older Tinley Park homes, targeting all window frame gaps, masonry cracks, and utility penetrations.",
+      "Apply perimeter spray in early September to intercept stink bugs before fall aggregation.",
+      "Inspect exterior wood annually for carpenter ant galleries, particularly for homes near Palos Forest Preserves.",
+      "Check for deer ticks after yard activity near preserve-adjacent areas from spring through fall.",
+    ],
+    costNote:
+      "Tinley Park pest control starts with a free inspection. Year-round programs cover mice, cockroaches, and exterior pests. Fall exclusion service for older construction requires more thorough gap identification. Tick treatments for preserve-adjacent properties are available seasonally.",
+    faqs: [
+      {
+        question: "Why does fall exclusion take longer in older Tinley Park homes?",
+        answer:
+          "Homes from the 1960s and 1970s have accumulated decades of settling, utility modifications, and construction material deterioration. They have more entry gaps than newer homes, and those gaps are not always obvious from a quick inspection. Thorough exclusion work requires identifying every accessible gap at floor level, around pipes, and in the building envelope.",
+      },
+      {
+        question: "Are stink bugs established in the Chicago south suburbs?",
+        answer:
+          "Yes. Brown marmorated stink bugs are established throughout Cook County and the Chicago metro area. Tinley Park's fall invasions in September and October are consistent. Perimeter spray in early September combined with gap sealing is the effective prevention approach.",
+      },
+      {
+        question: "Are deer ticks a concern near Palos Forest Preserves in Tinley Park?",
+        answer:
+          "Yes. The Palos Forest Preserves' deer population sustains blacklegged tick populations that affect homes along the preserve boundary. Professional tick treatments for yard edges adjoining the preserve, applied in spring and again in fall, reduce exposure.",
+      },
+      {
+        question: "How do carpenter ants get into Tinley Park homes?",
+        answer:
+          "Carpenter ants enter through aging exterior wood that is moisture-damaged or through gaps in the building envelope. The Palos Forest Preserves sustain outdoor colonies that establish satellite colonies in residential structures when they find suitable nesting sites. Spring indoor swarmers are often the first sign.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Orland Park", slug: "orland-park" },
+      { name: "Bolingbrook", slug: "bolingbrook" },
+      { name: "Joliet", slug: "joliet" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Tinley Park, IL | Stink Bugs, Mice & Cockroaches",
+    metaDescription:
+      "Tinley Park pest control for stink bugs, house mice, German cockroaches, carpenter ants and subterranean termites. Cook County Chicago south suburb 1960s-1970s housing Palos Forest Preserves specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "downers-grove",
+    name: "Downers Grove",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~48,000",
+    county: "DuPage County",
+    climate: "cold-humid",
+    climateDriver:
+      "Downers Grove is a DuPage County western Chicago suburb with a mature tree canopy and many homes from the early to mid-20th century. The old-growth elms and oaks sustain large carpenter ant populations, and the homes' older construction provides significant entry points for mice and stink bugs. Cold DuPage County winters create strong fall pest pressure.",
+    topPests: ["House Mice", "Stink Bugs", "Carpenter Ants", "Yellow Jackets", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "Downers Grove's older construction provides numerous mouse entry points through settled foundations, aging masonry, and utility penetrations. DuPage County's cold winters create strong fall shelter pressure from October through March.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge spring",
+        note: "Stink bugs are well-established in DuPage County. DuPage County Extension documents stink bugs as an established pest throughout the county. Downers Grove's fall invasions are consistent and its older housing stock has more entry points than newer suburban construction.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active March through October",
+        note: "Downers Grove's mature canopy trees and older home construction create above-average carpenter ant pressure. Large old trees with hollow sections and moisture-affected wood provide outdoor colony sites adjacent to residential structures.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peaks July through September",
+        note: "Yellow jackets are a consistent pest in DuPage County yards and older wall voids. Downers Grove's mature landscape and older building stock provide nest sites in ground, wall voids, and tree cavities. Colonies peak in August and September.",
+      },
+    ],
+    localHook:
+      "Downers Grove's mature elm and oak canopy supports outdoor carpenter ant populations well above the level seen in newer subdivisions without established trees. The village's early-20th-century homes and their aged exterior wood create prime nesting conditions for these ants each spring.",
+    intro:
+      "Pest control in Downers Grove deals with the pest pressures of an older, established DuPage County community with a mature tree canopy. Carpenter ants are above average here because old-growth elms and oaks provide outdoor colony habitat adjacent to aging residential structures. Mice push in from DuPage County's cold winters through the many gaps in early-20th-century construction. Stink bugs are established in the county and stage reliable fall invasions. Yellow jackets nest in yards and old wall voids through summer. A year-round program with carpenter ant monitoring and fall exclusion covers the main threats.",
+    sections: [
+      {
+        heading: "Mature trees and carpenter ants in Downers Grove",
+        body: "Downers Grove's old-growth tree canopy is one of the village's defining characteristics, and it is also the driver of above-average carpenter ant pressure. Large elms and oaks with hollow sections, root decay, and moisture-affected wood provide the outdoor colony sites that feed into adjacent residential structures. When carpenter ants find moisture-softened wood at the foundation lines, deck boards, or window frames of an adjacent home, they establish satellite colonies in the structure. Spring swarmers appearing indoors in March through May are the reliable indicator. Treatment addresses both the indoor satellite colony and the outdoor parent colony, and the lasting fix includes replacing or waterproofing the moisture-affected structural wood.",
+      },
+      {
+        heading: "Fall pest exclusion in Downers Grove's older homes",
+        body: "Many Downers Grove homes were built in the first half of the 20th century, and decades of settling have created more entry gaps for mice and stink bugs than modern construction. Systematic fall exclusion work identifies and seals ground-level gaps, pipe penetrations, masonry cracks, and window frame failures before September. The stink bug invasion window in DuPage County is September through October, and the mouse entry surge follows in October and November with the first sustained cold snaps. Combining perimeter spray in early September with thorough gap sealing addresses both threats in a single coordinated fall service.",
+      },
+    ],
+    prevention: [
+      "Inspect mature trees near the home annually for carpenter ant colony activity and address moisture-affected exterior wood.",
+      "Complete fall exclusion work in September before the stink bug and mouse entry window.",
+      "Apply perimeter spray in early September to intercept stink bugs at the exterior.",
+      "Have yellow jacket nests in yards and wall voids treated professionally before peak season in August.",
+    ],
+    costNote:
+      "Downers Grove pest control starts with a free inspection. Year-round programs covering carpenter ants, mice, and cockroaches are the standard. Fall exclusion service is a common seasonal add-on. Yellow jacket nest treatment is available as a one-time service.",
+    faqs: [
+      {
+        question: "Why are carpenter ants worse in Downers Grove than in newer suburbs?",
+        answer:
+          "The mature tree canopy provides outdoor colony sites that newer subdivisions without old-growth trees do not have. Large elms and oaks with hollow sections and moisture-affected wood sustain larger carpenter ant populations adjacent to the older residential structures. Both factors, trees and house age, favor carpenter ant pressure in Downers Grove.",
+      },
+      {
+        question: "Are stink bugs bad in DuPage County?",
+        answer:
+          "Yes. DuPage County Extension documents stink bugs as established throughout the county. Downers Grove's older housing stock sees higher invasion numbers than newer homes because there are more entry gaps available. September perimeter spray and gap sealing is the effective combination.",
+      },
+      {
+        question: "When do yellow jackets become a problem in Downers Grove?",
+        answer:
+          "Yellow jacket colonies build from spring through summer and reach peak population and aggressiveness in August and September. Ground nests in yards and wall nests in older structures are the two most common situations in Downers Grove. Professional treatment in late summer eliminates active nests safely.",
+      },
+      {
+        question: "How do I know if my old Downers Grove home has a carpenter ant infestation?",
+        answer:
+          "Indoor swarmers, large winged black ants, in spring are the most reliable sign. Frass, which looks like fine sawdust mixed with insect parts, below wall voids or under decks is another indicator. Soft or hollow-sounding wood at foundation lines and window frames can indicate gallery excavation. A professional inspection confirms the colony location.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Naperville", slug: "naperville" },
+      { name: "Bolingbrook", slug: "bolingbrook" },
+      { name: "Aurora", slug: "aurora" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Downers Grove, IL | Carpenter Ants, Mice & Stink Bugs",
+    metaDescription:
+      "Downers Grove pest control for carpenter ants, house mice, stink bugs and yellow jackets. DuPage County mature tree canopy older housing Chicago western suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "wheaton",
+    name: "Wheaton",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~53,000",
+    county: "DuPage County",
+    climate: "cold-humid",
+    climateDriver:
+      "Wheaton is in DuPage County in the Fox River corridor where the county's invasive brown marmorated stink bug population creates annual fall exclusion pressure. DuPage County Extension records confirm stink bugs are well-established throughout the county, and Wheaton's mix of older and newer suburban construction sees consistent fall invasions. Cold winters drive mice into structures from October through March.",
+    topPests: ["Stink Bugs", "House Mice", "Subterranean Termites", "Carpenter Ants", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge spring",
+        note: "Stink bugs are well-established in DuPage County. DuPage County Extension records confirm stink bug populations throughout the county. Wheaton's fall invasions are consistent, with September and October being the primary entry window.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "DuPage County's cold winters push mice into Wheaton homes from October through March. The Fox River corridor and Wheaton's mature residential landscape sustain outdoor mouse populations that press toward structures each fall.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active into fall",
+        note: "Eastern subterranean termites are active throughout DuPage County. Wheaton's mix of older and newer construction spans different risk levels, and annual inspection is the standard.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active March through October",
+        note: "Carpenter ants are a structural pest concern in Wheaton's older residential areas, particularly homes with mature trees and aging wood at foundation lines or deck boards near the Fox River corridor's moisture influence.",
+      },
+    ],
+    localHook:
+      "DuPage County Extension has documented stink bugs as well-established throughout the county. Wheaton is in the heart of DuPage County's Fox River corridor, and the area's stink bug population makes fall exclusion one of the most requested pest services for homeowners here.",
+    intro:
+      "Pest control in Wheaton puts fall exclusion at the center of the annual pest calendar. DuPage County Extension confirms stink bugs are well-established throughout the county, and Wheaton's location in the Fox River corridor places it in an area with consistent and reliable fall invasions. Mice follow the same calendar in October. Eastern subterranean termites are active across DuPage County, and Wheaton's housing spans enough ages that annual inspection is warranted across the board. A coordinated September exclusion and perimeter spray program addresses the primary fall threats, with year-round pest management for cockroaches and carpenter ants.",
+    sections: [
+      {
+        heading: "DuPage County stink bugs and Wheaton's fall exclusion program",
+        body: "DuPage County Extension's documentation of established stink bug populations throughout the county means Wheaton homeowners can count on the September and October invasion as a recurring event. The effective approach is September perimeter spray while bugs are still aggregating on exterior walls, combined with sealing of window frame corners, door weatherstripping failures, soffit vents, and utility entry gaps before they enter. Homes in Wheaton with south-facing facades and white or light-colored siding see the heaviest aggregations and should prioritize these surfaces when applying spray. Once stink bugs enter wall voids, the practical response shifts to vacuum removal as they emerge from walls on warm winter days.",
+      },
+      {
+        heading: "Mice and termites in the Fox River corridor",
+        body: "The Fox River corridor's wooded riparian areas sustain outdoor mouse populations that press toward residential structures each fall. Wheaton's established tree canopy also provides harborage that keeps rodent populations above a purely built-up suburban baseline. Exclusion work in September, addressing ground-level gaps before the October surge, gives the best protection. Eastern subterranean termites are active throughout DuPage County, and Wheaton's housing stock spans from 20th-century to modern construction. The older properties require annual inspection as a priority, but even newer homes with aging pre-treatment barriers benefit from inspection at the warranty renewal interval.",
+      },
+    ],
+    prevention: [
+      "Apply perimeter spray in early September and seal gaps before the DuPage County stink bug invasion.",
+      "Complete fall mouse exclusion work in September before the Fox River corridor mouse surge.",
+      "Get annual termite inspections for Wheaton's varied construction age profile.",
+      "Inspect exterior wood near mature trees annually for carpenter ant evidence.",
+    ],
+    costNote:
+      "Wheaton pest control starts with a free inspection. Year-round programs covering stink bugs, mice, and cockroaches are standard. Fall exclusion service is a practical seasonal add-on. Termite treatment is quoted separately.",
+    faqs: [
+      {
+        question: "Why are stink bugs such a focus in DuPage County and Wheaton?",
+        answer:
+          "DuPage County Extension records confirm stink bugs are well-established throughout the county, with populations large enough that fall invasions are a reliable annual event rather than an occasional occurrence. Wheaton's location in the Fox River corridor places it in an area where stink bug pressure is consistent from year to year.",
+      },
+      {
+        question: "When should I apply stink bug treatment in Wheaton?",
+        answer:
+          "Early September is the critical window, before stink bugs begin aggregating on exterior walls. A perimeter spray at this point intercepts them while they are still outside. Combined with sealing accessible gaps in windows, doors, and soffits, this prevents the bulk of the fall invasion.",
+      },
+      {
+        question: "Do subterranean termites swarm in Wheaton?",
+        answer:
+          "Yes. Eastern subterranean termites swarm in DuPage County in spring, typically on warm days after rain. Annual inspection is the standard for DuPage County properties across all construction ages.",
+      },
+      {
+        question: "Is the Fox River relevant to pest pressure in Wheaton?",
+        answer:
+          "The Fox River corridor's wooded banks sustain outdoor mouse and carpenter ant populations that affect adjacent residential areas. Properties nearest the river or its wooded banks see somewhat higher fall mouse and spring carpenter ant pressure than properties further from the corridor.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Naperville", slug: "naperville" },
+      { name: "Downers Grove", slug: "downers-grove" },
+      { name: "Aurora", slug: "aurora" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Wheaton, IL | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "Wheaton pest control for stink bugs, house mice, subterranean termites and carpenter ants. DuPage County Fox River corridor Chicago western suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "orland-park",
+    name: "Orland Park",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~58,000",
+    county: "Cook County",
+    climate: "cold-humid",
+    climateDriver:
+      "Orland Park is one of Chicago's largest south suburbs, with residential development extending to the Palos Forest Preserve boundaries. The adjacent preserves sustain deer tick, wildlife, and mouse populations that affect neighboring homes. Cold Cook County winters drive the standard Chicago fall pest invasion.",
+    topPests: ["Stink Bugs", "House Mice", "German Cockroaches", "Carpenter Ants", "Deer Ticks"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Invade September and October, emerge spring",
+        note: "Stink bugs are established in Cook County and are a reliable fall pest throughout the Chicago south suburbs including Orland Park. September and October are the primary invasion window.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "The Palos Forest Preserves adjacent to Orland Park sustain wildlife and mouse populations that press toward residential structures each fall. Cook County's cold winters accelerate the fall surge.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the year-round indoor pest in Orland Park's multi-family buildings and commercial establishments. Cook County's heated building stock maintains breeding activity through the cold winters.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Most active March through October",
+        note: "The Palos Forest Preserves provide outdoor carpenter ant colony habitat adjacent to Orland Park's residential areas. Properties along the preserve boundary see above-average spring carpenter ant pressure.",
+      },
+    ],
+    localHook:
+      "Orland Park's residential development extends to the Palos Forest Preserve boundaries on the west side of the city. The preserves sustain deer ticks, carpenter ants, and wildlife pressure that is distinctively higher for homes nearest the preserve edge.",
+    intro:
+      "Pest control in Orland Park handles Chicago south suburb pest pressure with a significant local factor: the Palos Forest Preserves. The preserves' adjacent forests sustain deer tick, carpenter ant, and wildlife populations that directly affect homes on the western edge of the city. Stink bugs are established throughout Cook County and stage reliable fall invasions in September. Mice push in from October through March. German cockroaches are the year-round indoor pest in multi-family buildings and commercial settings. A year-round program with preserve-edge considerations and fall exclusion covers the main threats.",
+    sections: [
+      {
+        heading: "Palos Forest Preserves and preserve-adjacent pest pressure in Orland Park",
+        body: "The Palos Forest Preserves lie immediately to the west of Orland Park's developed areas, and the preserve's forested terrain sustains deer ticks, carpenter ants, and mouse populations at levels above the surrounding suburban baseline. Homes along the preserve boundary see distinctively higher pressure for these three pests. Professional tick treatments for yard edges adjoining the preserve, applied in spring and fall, reduce exposure risk during the active season. Carpenter ant inspection for homes backing onto wooded preserve edges is a practical annual addition to the standard pest program. Mouse exclusion work in September addresses the fall surge before the preserve's mouse populations begin pressing toward structures.",
+      },
+      {
+        heading: "Stink bugs and fall management for Cook County south suburbs",
+        body: "Cook County's stink bug population is well-established, and Orland Park sees the predictable September and October fall invasion alongside the rest of the Chicago metro. September perimeter spray combined with gap sealing is the effective prevention approach. German cockroaches in Orland Park's multi-family and commercial buildings require year-round professional gel bait programs because the indoor breeding cycle continues through Chicago's cold winters without interruption.",
+      },
+    ],
+    prevention: [
+      "Apply professional tick treatment for yard edges adjacent to Palos Forest Preserve in spring and fall.",
+      "Complete fall exclusion work in September for both stink bugs and mice.",
+      "Apply perimeter spray in early September before stink bug aggregation begins.",
+      "Maintain year-round German cockroach programs in multi-family and commercial kitchen settings.",
+    ],
+    costNote:
+      "Orland Park pest control starts with a free inspection. Year-round programs cover mice, cockroaches, and exterior pests. Tick treatments and carpenter ant programs are add-ons for preserve-adjacent properties. Fall exclusion is a common seasonal service.",
+    faqs: [
+      {
+        question: "Are deer ticks a concern near Palos Forest Preserves in Orland Park?",
+        answer:
+          "Yes. The Palos Forest Preserves' deer population sustains blacklegged tick populations that affect homes along the preserve boundary. Professional yard-edge tick treatments in spring and fall reduce exposure. The main risk period is spring through fall.",
+      },
+      {
+        question: "Are stink bugs bad in Orland Park?",
+        answer:
+          "Yes. Stink bugs are established in Cook County and are a reliable fall pest throughout the Chicago south suburbs. Orland Park's September and October invasions are consistent. September perimeter spray and gap sealing is the effective prevention approach.",
+      },
+      {
+        question: "Does living near the Palos Preserves increase mouse pressure?",
+        answer:
+          "Yes. The preserve's undisturbed forest sustains larger mouse populations than surrounding suburban areas. Homes along the preserve boundary see above-average fall mouse pressure. Exclusion work in September, before the October surge, gives the best protection for these properties.",
+      },
+      {
+        question: "Are German cockroaches affected by Chicago winters in Orland Park?",
+        answer:
+          "No. German cockroaches are exclusively an indoor pest and breed continuously in heated structures regardless of outdoor temperature. Cook County's cold winters provide no seasonal reduction in their activity. Consistent professional bait programs year-round are the effective control approach.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Tinley Park", slug: "tinley-park" },
+      { name: "Joliet", slug: "joliet" },
+      { name: "Bolingbrook", slug: "bolingbrook" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Orland Park, IL | Stink Bugs, Mice & Cockroaches",
+    metaDescription:
+      "Orland Park pest control for stink bugs, house mice, German cockroaches and carpenter ants. Cook County Palos Forest Preserve Chicago south suburb deer ticks specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
