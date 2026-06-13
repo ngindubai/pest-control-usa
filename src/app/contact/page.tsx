@@ -74,56 +74,80 @@ export default function ContactPage() {
 
   async function onSubmit(data: FormData) {
     setServerError("");
-    try {
-      await fetch("https://logistics-crm-tcu4.onrender.com/api/public/leads", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-api-key": "uRc1IHymlMUnYfAB9i79iA3NUARQKFJdRCdo+4VDY/A=",
-        },
-        body: JSON.stringify({
-          company: "pest-control",
-          name: data.name,
-          email: data.email,
-          phone: data.phone,
-          source: "PestRemoval website",
-          landing_page: typeof window !== "undefined" ? window.location.href : undefined,
-          utm_source: typeof window !== "undefined"
-            ? new URLSearchParams(window.location.search).get("utm_source") ?? undefined
-            : undefined,
-          utm_medium: typeof window !== "undefined"
-            ? new URLSearchParams(window.location.search).get("utm_medium") ?? undefined
-            : undefined,
-          utm_campaign: typeof window !== "undefined"
-            ? new URLSearchParams(window.location.search).get("utm_campaign") ?? undefined
-            : undefined,
-          message: [
-            `Service: ${data.serviceType}`,
-            `Pest: ${data.pestType}`,
-            `Urgency: ${data.urgency}`,
-            `ZIP: ${data.zip}`,
-            data.message ?? "",
-          ]
-            .filter(Boolean)
-            .join(", "),
-          fields: {
-            zip: data.zip,
-            propertyType:
-              data.serviceType.charAt(0).toUpperCase() + data.serviceType.slice(1),
-            pestType: data.pestType,
-            severity:
-              data.urgency === "emergency"
-                ? "Severe"
-                : data.urgency === "within24"
-                ? "Moderate"
-                : "Light",
-            sameDay: data.urgency === "emergency" ? "true" : "false",
-          },
-        }),
-      });
+
+    const qs =
+      typeof window !== "undefined"
+        ? new URLSearchParams(window.location.search)
+        : new URLSearchParams();
+
+    const payload = {
+      company: "pest-control",
+      name: data.name,
+      email: data.email,
+      phone: data.phone,
+      source: "PestRemoval website",
+      landing_page: typeof window !== "undefined" ? window.location.href : undefined,
+      utm_source: qs.get("utm_source") ?? undefined,
+      utm_medium: qs.get("utm_medium") ?? undefined,
+      utm_campaign: qs.get("utm_campaign") ?? undefined,
+      message: [
+        `Service: ${data.serviceType}`,
+        `Pest: ${data.pestType}`,
+        `Urgency: ${data.urgency}`,
+        `ZIP: ${data.zip}`,
+        data.message ?? "",
+      ]
+        .filter(Boolean)
+        .join(", "),
+      fields: {
+        zip: data.zip,
+        propertyType:
+          data.serviceType.charAt(0).toUpperCase() + data.serviceType.slice(1),
+        pestType: data.pestType,
+        severity:
+          data.urgency === "emergency"
+            ? "Severe"
+            : data.urgency === "within24"
+            ? "Moderate"
+            : "Light",
+        sameDay: data.urgency === "emergency" ? "true" : "false",
+      },
+    };
+
+    // fetch() does NOT reject on HTTP errors, so we must check res.ok — a
+    // cold-start 502 would otherwise look like success and silently drop the
+    // lead. The CRM is the ONLY delivery path for pest enquiries, so retry a
+    // few times with backoff and never show false success.
+    let delivered = false;
+    for (let attempt = 0; attempt < 3 && !delivered; attempt++) {
+      try {
+        const res = await fetch(
+          "https://logistics-crm-tcu4.onrender.com/api/public/leads",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "x-api-key": "uRc1IHymlMUnYfAB9i79iA3NUARQKFJdRCdo+4VDY/A=",
+            },
+            keepalive: true,
+            body: JSON.stringify(payload),
+          }
+        );
+        delivered = res.ok;
+      } catch {
+        // network error — fall through and retry
+      }
+      if (!delivered && attempt < 2) {
+        await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
+      }
+    }
+
+    if (delivered) {
       setSubmitted(true);
-    } catch {
-      setServerError("Something went wrong. Please try calling us directly.");
+    } else {
+      setServerError(
+        "We couldn't submit your request just now. Please call us directly and we'll help right away."
+      );
     }
   }
 
