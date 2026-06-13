@@ -4973,4 +4973,376 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "North Miami pest control for Formosan termites, American cockroaches, German cockroaches, roof rats and ghost ants. Miami-Dade urban tropical climate older housing specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "weston",
+    name: "Weston",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~73,000",
+    county: "Broward County",
+    climate: "tropical",
+    climateDriver: "Broward County's tropical climate with Everglades edge wetlands, year-round warmth and summer rainy season produces intense termite, mosquito and fire ant pressure",
+    topPests: ["subterranean termites", "Formosan termites", "mosquitoes", "fire ants", "ghost ants"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        activeSeason: "Year-round",
+        note: "Subterranean Termites are active in Weston given the local climate. Annual professional inspection is the standard protection for Weston homes.",
+      },
+      {
+        name: "Formosan Termites",
+        activeSeason: "March through November",
+        note: "Formosan Termites are active in Subterranean Termites given the local climate. Annual professional inspection is the standard protection for Subterranean Termites homes.",
+      },
+      {
+        name: "Mosquitoes",
+        activeSeason: "Year-round",
+        note: "Mosquitoes in Formosan Termites are active throughout the warm season and require professional barrier spray programs for effective management.",
+      },
+      {
+        name: "Fire Ants",
+        activeSeason: "Year-round",
+        note: "Imported fire ants are established in Mosquitoes and require broadcast bait treatment for effective yard-level control.",
+      },
+      {
+        name: "Ghost Ants",
+        activeSeason: "Year-round",
+        note: "Ghost Ants are active in Fire Ants and require professional gel bait treatment for lasting control.",
+      },
+    ],
+    localHook: "Weston is one of Broward County's westernmost communities, directly adjacent to the Everglades Conservation Area, and this proximity to South Florida's wetland system drives year-round mosquito pressure that differs from eastern Broward cities by the sheer proximity of natural breeding habitat.",
+    intro: "Weston is a master-planned community in western Broward County, built on land that was Everglades edge habitat until the mid-1990s. This origin story defines its pest environment. The proximity to the Everglades Conservation Area directly to the west means Weston's western residential communities sit at the edge of one of the largest natural mosquito breeding systems in the United States. The tropical climate that makes South Florida appealing also means no winter die-off for any pest species. Termites, fire ants, mosquitoes, and ghost ants are active year-round. Formosan subterranean termites, which cause significantly faster structural damage than eastern subterranean termites, are well-documented in Broward County.",
+    sections: [
+      {
+        heading: "What Your Weston Neighbors Are Experiencing",
+        body: "Life in a western Broward community adjacent to the Everglades brings pest realities that eastern Broward cities deal with at a lower intensity. The Formosan termite is the most urgent structural concern. UF IFAS researchers have documented Formosan termite populations in Broward County, and the species is established in South Florida more broadly. Formosan colonies can consume wood at five to ten times the rate of eastern subterranean termites and can damage a structure significantly faster once they establish. The termite swarmer season in Weston typically runs from April through June for Formosan termites and February through April for eastern subterranean termites. If you see swarmers, call a licensed PCO within days. For mosquitoes, Weston's location adjacent to the Conservation Area means the western residential communities receive persistent pressure from the wetland breeding habitat that cannot be treated. Professional monthly barrier spray and larvicide in any standing on-property water are the practical management tools. Fire ant mounds appear in virtually every Weston yard and common area. The tropical climate keeps colonies active every month of the year, and broadcast bait applied twice per year provides the best yard-level control.",
+      },
+      {
+        heading: "HOA and Community Pest Management in Weston's Master-Planned Communities",
+        body: "Weston's master-planned community structure means a large proportion of residents live in HOA-governed neighborhoods with shared landscaping, common areas, and community lakes. Pest management in this context requires coordination between individual homeowners and HOA community management. The community lakes that are a signature feature of Weston's neighborhoods are productive mosquito breeding habitat. Broward County Mosquito Control manages county-level mosquito abatement programs including aerial treatment and larviciding of the Conservation Area edge, but on-property standing water in garden drains, pool areas, and ornamental features is the homeowner's responsibility. Ghost ants are a standard indoor pest in Weston's homes. They form extensive colonies that trail from the yard into kitchens through any gap in the building envelope. Professional gel bait programs are effective; perimeter sprays are less so because ghost ant supercolonies route around treated areas. HOA common areas benefit from monthly professional service contracts that include both perimeter treatment and common area mosquito management.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection by a licensed Florida pest control company with Formosan termite experience",
+      "Apply monthly mosquito barrier spray from the yard perimeter, with larvicide in community lake shore plantings",
+      "Broadcast fire ant bait across all turf areas twice per year, spring and fall",
+      "Eliminate standing water in garden drains, saucers, and pool deck areas within 48 hours of rain",
+      "Seal all exterior gaps and door thresholds to prevent ghost ant entry from yard colonies",
+    ],
+    costNote: "Weston pest control for a standard residential treatment runs $125 to $215. Year-round termite protection plans including annual inspection and retreatment coverage typically run $250 to $400 per year. Monthly mosquito barrier spray programs run $80 to $140. Community HOA common area programs vary widely with community size.",
+    faqs: [
+      {
+        question: "Are Formosan termites present in Weston?",
+        answer: "Yes. Formosan subterranean termites are established in Broward County, and Weston's tropical climate and adjacent wetland setting is favorable for this species. Formosan termites cause significantly faster structural damage than eastern subterranean termites. Annual inspection by a licensed applicator with experience identifying Formosan colonies is important for all Weston homes. If you observe swarming termites from April through June, professional inspection is a priority.",
+      },
+      {
+        question: "Why are mosquitoes so much worse in western Weston near the Everglades?",
+        answer: "The Everglades Conservation Area immediately west of Weston is one of the largest natural wetland systems in North America. This creates an enormous reservoir of mosquito breeding habitat that professional applicators cannot treat. Properties on Weston's western edge are exposed to this breeding reservoir year-round, with peak pressure during the summer rainy season from June through September. Monthly barrier spray is appropriate year-round for these properties, not just in summer.",
+      },
+      {
+        question: "Do fire ants in Weston ever go away in winter?",
+        answer: "No. Imported fire ants in Broward County are active every month of the year because the tropical climate does not produce the cold temperatures that slow colony activity in more northern states. Fire ant management in Weston requires year-round attention. Broadcast bait twice per year, spring and fall, with spot treatment of active mounds is the recommended program from UF IFAS.",
+      },
+      {
+        question: "What are ghost ants and why are they in my Weston kitchen?",
+        answer: "Ghost ants (Tapinoma melanocephalum) are tiny pale-legged ants that are among the most common indoor ant pests in South Florida. They trail in from outdoor colonies through any gap in the building envelope and target sweet and protein food sources in kitchens. They form supercolonies and are resistant to perimeter sprays that scatter them through walls. Professional gel bait programs target the colony rather than individual foragers and provide more lasting control.",
+      },
+      {
+        question: "How does Broward County's mosquito control program work for Weston residents?",
+        answer: "Broward County Mosquito Control operates a county-funded program that includes surveillance, larviciding of public water bodies and drainage infrastructure, and aerial treatment of the Everglades edge during outbreak conditions. The county program addresses public infrastructure but does not treat private residential properties. On-property standing water, pool deck drains, ornamental ponds, and garden features are the homeowner's responsibility. Professional residential service complements the county program.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Fort Lauderdale", slug: "fort-lauderdale" },
+      { name: "Miramar", slug: "miramar" },
+      { name: "Pembroke Pines", slug: "pembroke-pines" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Weston, FL | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Weston pest control for Formosan termites, subterranean termites, mosquitoes, fire ants and ghost ants. Broward County Everglades edge western South Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "jupiter",
+    name: "Jupiter",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~67,000",
+    county: "Palm Beach County",
+    climate: "tropical",
+    climateDriver: "Palm Beach County tropical climate with Loxahatchee River estuary and Atlantic coastal setting drives year-round termite, mosquito, and ghost ant pressure",
+    topPests: ["subterranean termites", "drywood termites", "mosquitoes", "ghost ants", "fire ants"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        activeSeason: "Year-round",
+        note: "Subterranean Termites are active in Jupiter given the local climate. Annual professional inspection is the standard protection for Jupiter homes.",
+      },
+      {
+        name: "Drywood Termites",
+        activeSeason: "May through November",
+        note: "Drywood Termites are active in Subterranean Termites given the local climate. Annual professional inspection is the standard protection for Subterranean Termites homes.",
+      },
+      {
+        name: "Mosquitoes",
+        activeSeason: "Year-round",
+        note: "Mosquitoes in Drywood Termites are active throughout the warm season and require professional barrier spray programs for effective management.",
+      },
+      {
+        name: "Ghost Ants",
+        activeSeason: "Year-round",
+        note: "Ghost Ants are active in Mosquitoes and require professional gel bait treatment for lasting control.",
+      },
+      {
+        name: "Fire Ants",
+        activeSeason: "Year-round",
+        note: "Imported fire ants are established in Ghost Ants and require broadcast bait treatment for effective yard-level control.",
+      },
+    ],
+    localHook: "Jupiter's Loxahatchee River, the only federally designated Wild and Scenic River in Florida, flows through the center of the city and creates a riparian wetland corridor that drives year-round mosquito and wildlife pest pressure in adjacent residential neighborhoods.",
+    intro: "Jupiter is a Palm Beach County coastal city at the northern end of the Gold Coast, and its combination of Loxahatchee River frontage, Intracoastal Waterway access, and Atlantic beach proximity creates a distinctive pest environment. The Loxahatchee River and its associated wetlands generate year-round mosquito pressure that affects riverside and near-riverside residential neighborhoods throughout the city. The tropical climate means termite activity has no winter slowdown: both subterranean and drywood termite species are active every month. Ghost ants are the top indoor ant complaint throughout Jupiter's residential neighborhoods. Fire ants are present in all turf areas year-round.",
+    sections: [
+      {
+        heading: "Comparing Termite Risk: Jupiter vs. Palm Beach Gardens vs. Tequesta",
+        body: "All three Palm Beach County communities north of West Palm Beach deal with significant termite pressure. Jupiter's position at the Loxahatchee River estuary and its high proportion of coastal and waterfront homes adds a moisture factor that elevates termite risk compared to the more inland portions of Palm Beach Gardens. Waterfront and near-waterfront homes in Jupiter experience higher average wood moisture from the estuary humidity than comparable inland homes in Palm Beach Gardens. Higher wood moisture accelerates the consumption rate of any termite colony that establishes. Tequesta, immediately north of Jupiter, shares the river corridor and comparable termite pressure. For all three communities, the practical standard is annual professional inspection and year-round protection plan. UF IFAS identifies South Florida's tropical coastal climate as one of the highest termite risk environments in the United States. In Jupiter specifically, both subterranean and drywood termites are active. Eastern subterranean termites swarm from February through April. West Indian drywood termites swarm from June through October. Both species can occur in the same structure.",
+      },
+      {
+        heading: "Loxahatchee River Properties: Mosquito and Wildlife Pest Management",
+        body: "Riverside and near-riverside homes in Jupiter face a mosquito management challenge that differs from inland properties. The Loxahatchee River is a protected Wild and Scenic River with associated wetland buffers that cannot be chemically treated. This means the mosquito breeding habitat adjacent to riverside properties is a permanent feature of the landscape, not one that can be eliminated. The practical defense is focused on-property management: monthly professional barrier spray year-round, larvicide in any standing water on the property including boat water features, pool drains, and irrigation system overflow areas. The Aedes mosquitoes that breed in small container water sources in residential yards are a specific concern in Jupiter. Aedes aegypti and Aedes albopictus, both present in Palm Beach County, are vectors for dengue fever and Zika virus. These species breed in very small water accumulations and are controlled primarily through eliminating standing water rather than barrier spray. Palm Beach County Mosquito Control provides surveillance and public infrastructure treatment but does not treat private residential yards.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection, with year-round protection plan particularly for waterfront and riverside homes",
+      "Apply monthly mosquito barrier spray year-round for properties near the Loxahatchee River or Intracoastal",
+      "Eliminate all standing water on the property within 48 hours of rainfall to control container-breeding mosquitoes",
+      "Broadcast fire ant bait across turf areas twice per year and treat mounds as they appear",
+      "Seal all gaps at door thresholds, window frames, and utility penetrations to reduce ghost ant entry",
+    ],
+    costNote: "Jupiter pest control for a standard residential treatment runs $125 to $210. Year-round termite protection plans average $250 to $450 per year for a standard Jupiter home. Monthly mosquito barrier spray programs run $80 to $150. Riverside properties with larger lots and more complex treatment areas run toward the higher end.",
+    faqs: [
+      {
+        question: "Why is the Loxahatchee River such a significant mosquito source for Jupiter residents?",
+        answer: "The Loxahatchee River has Florida's only federally designated Wild and Scenic River designation, which restricts chemical treatment of the river corridor and associated wetlands. This creates a large, permanent mosquito breeding reservoir adjacent to residential areas that cannot be reduced through treatment. Riverside properties receive continuous mosquito pressure year-round from this untreatable source. On-property monthly barrier spray and elimination of standing water are the practical defenses.",
+      },
+      {
+        question: "Are both drywood and subterranean termites present in Jupiter?",
+        answer: "Yes. Eastern subterranean termites swarm primarily from February through April in Palm Beach County. West Indian drywood termites swarm from June through October. Both species can infest the same structure through different entry points. Annual inspection by a licensed Florida pest control company identifies both species and their activity locations within the structure.",
+      },
+      {
+        question: "What are the Aedes mosquitoes near Jupiter's Intracoastal Waterway?",
+        answer: "Aedes aegypti and Aedes albopictus are both present in Palm Beach County and are vectors for dengue fever, Zika virus, and chikungunya. Unlike Culex mosquitoes that breed in natural water bodies, Aedes species breed in very small amounts of standing water in containers: flower pot saucers, bird baths, children's toys, clogged gutters, and drain covers. Eliminating these container water sources is the primary control method for these species, as barrier spray is less effective for container breeders than for Culex species.",
+      },
+      {
+        question: "How does Jupiter's coastal humidity affect termite risk?",
+        answer: "Higher ambient humidity from Jupiter's coastal and estuarine setting elevates wood moisture in unprotected structural wood, which accelerates termite colony development once established. Waterfront homes and homes near the Intracoastal Waterway typically have higher average wood moisture than comparable inland homes. Year-round termite protection plans with retreat coverage are particularly appropriate for these properties.",
+      },
+      {
+        question: "What is the fastest way to deal with fire ants in a Jupiter yard?",
+        answer: "For active mounds, direct mound treatment with a contact insecticide or boiling water provides fastest knockdown. For yard-level fire ant suppression, broadcast bait applied across the full lawn in spring and fall is the most effective and cost-efficient approach. UF IFAS recommends the two-step method: broadcast bait first, then spot treat any remaining mounds two weeks later. This approach is consistently more effective than treating individual mounds alone.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "West Palm Beach", slug: "west-palm-beach" },
+      { name: "Palm Beach Gardens", slug: "palm-beach-gardens" },
+      { name: "Boca Raton", slug: "boca-raton" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Jupiter, FL | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Jupiter pest control for subterranean termites, drywood termites, mosquitoes, ghost ants and fire ants. Palm Beach County Loxahatchee River coastal South Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "apopka",
+    name: "Apopka",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~62,000",
+    county: "Orange County",
+    climate: "tropical",
+    climateDriver: "Orange County tropical climate with Lake Apopka basin wetlands and agricultural border drives year-round mosquito, fire ant and termite pressure",
+    topPests: ["mosquitoes", "subterranean termites", "fire ants", "ghost ants", "German cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        activeSeason: "Year-round",
+        note: "Mosquitoes in Apopka are active throughout the warm season and require professional barrier spray programs for effective management.",
+      },
+      {
+        name: "Subterranean Termites",
+        activeSeason: "Year-round",
+        note: "Subterranean Termites are active in Mosquitoes given the local climate. Annual professional inspection is the standard protection for Mosquitoes homes.",
+      },
+      {
+        name: "Fire Ants",
+        activeSeason: "Year-round",
+        note: "Imported fire ants are established in Subterranean Termites and require broadcast bait treatment for effective yard-level control.",
+      },
+      {
+        name: "Ghost Ants",
+        activeSeason: "Year-round",
+        note: "Ghost Ants are active in Fire Ants and require professional gel bait treatment for lasting control.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "Year-round",
+        note: "German cockroaches in Ghost Ants are year-round indoor pests that spread through shared plumbing infrastructure in commercial and multifamily buildings.",
+      },
+    ],
+    localHook: "Apopka borders Lake Apopka, Florida's fourth-largest lake and the centerpiece of one of the largest wetland restoration projects in state history, and the restored marshes and wetland edges around the lake create some of the most productive mosquito breeding habitat in the Orlando metro.",
+    intro: "Apopka is an Orange County city northwest of Orlando, and Lake Apopka defines its northern edge and its pest profile. The Lake Apopka Wildlife Management Area and the restored wetlands around the lake create extensive mosquito breeding habitat that affects northern and western Apopka neighborhoods year-round. The Florida tropical climate means termites, fire ants, ghost ants, and German cockroaches have no winter slowdown. Apopka has a significant agricultural heritage, and the nursery and ornamental plant industry that is still active in the area brings imported fire ant pressure from plant material movement. As the city has grown with new residential development, it has become one of the faster-growing communities in the Orlando metro, with new subdivisions on former agricultural land that is prime fire ant territory.",
+    sections: [
+      {
+        heading: "Does Apopka Ask: How Do I Get Ahead of the Mosquito Problem?",
+        body: "It is the right question. Lake Apopka's restored wetlands are extraordinarily productive mosquito habitat, and the wind patterns off the lake during summer evenings push mosquitoes into western and northern Apopka residential areas in numbers that can make outdoor time genuinely unpleasant from June through October. The honest answer is that on-property management cannot eliminate the pressure from the lake wetlands, but it can significantly reduce the adult mosquito population in your immediate yard environment. Professional monthly barrier spray targeting resting mosquitoes in vegetation, combined with larvicide treatment of any standing water on your property, is the evidence-based program. UF IFAS Extension recommends the Source Reduction plus Larviciding plus Adulticiding approach as the integrated strategy for properties near natural wetland systems. Orange County Mosquito Control manages the public right-of-way and some natural area treatment, but private residential property management is the homeowner's responsibility. For yards with lakes, ponds, or storm water retention areas, mosquitofish (Gambusia) can be introduced to standing water features as a biological larvicide approved by Orange County.",
+      },
+      {
+        heading: "Fire Ant and Termite Management in Apopka's New Subdivisions",
+        body: "Apopka's rapid residential growth has created new subdivisions on former nursery and agricultural land throughout the city's southern and eastern areas. Fire ant colonies arrive in transported sod, plant material, and disturbed fill soil. Within two years of a subdivision's completion, imported fire ant mounds appear in virtually every yard. The tropical climate means these colonies are active every month, producing new mated queens and expanding territory continuously. Broadcast bait applied across the full lawn twice per year, combined with individual mound treatment as needed, is the two-step approach recommended by UF IFAS for persistent fire ant environments. For termites in new construction, pre-construction soil barrier treatment is required by Florida law for new residential construction. However, this does not mean indefinite protection. Treatments require follow-up inspection and may need renewal within five to ten years depending on the product used. New Apopka homeowners should confirm their termite treatment history with their builder and schedule a professional inspection within the first few years of ownership.",
+      },
+    ],
+    prevention: [
+      "Apply monthly mosquito barrier spray year-round for properties in northern and western Apopka near the lake wetlands",
+      "Eliminate all standing water on the property within 48 hours of rainfall to break mosquito breeding cycles",
+      "Broadcast fire ant bait twice per year across the full lawn area rather than treating individual mounds alone",
+      "Confirm pre-construction termite treatment history for new Apopka homes and schedule first inspection within three years",
+      "Seal kitchen and bathroom pipe penetrations to reduce ghost ant and German cockroach harborage points",
+    ],
+    costNote: "Apopka pest control for a standard residential treatment runs $110 to $190. Year-round termite protection plans run $200 to $350 per year. Monthly mosquito barrier spray programs for the active season run $75 to $130. Annual inspection programs for new construction properties run $100 to $150 per year.",
+    faqs: [
+      {
+        question: "Are mosquitoes near Lake Apopka a health concern beyond nuisance?",
+        answer: "Yes. Culex mosquitoes that breed in Lake Apopka's restored wetlands are vectors for West Nile virus and St. Louis encephalitis, both of which have been confirmed in Florida. Orange County Health Department tracks West Nile activity through the mosquito season. Older adults and individuals with compromised immune systems face higher risk from West Nile infection. Mosquito control near the lake wetlands is both a comfort and a health issue.",
+      },
+      {
+        question: "Do new Apopka homes still need termite treatment if they had pre-construction treatment?",
+        answer: "Yes, eventually. Florida building code requires pre-construction termite treatment for new residential construction, but these treatments do not provide permanent protection. Most liquid soil barrier treatments provide five to ten years of protection before the active ingredient concentration diminishes. New Apopka homeowners should obtain documentation of the original treatment type and date from the builder and schedule their first professional inspection at three to five years of ownership.",
+      },
+      {
+        question: "Why are fire ants worse in Apopka's new subdivisions?",
+        answer: "New subdivisions in Apopka are typically built on former nursery, agricultural, or undeveloped land that has been graded and disturbed. Disturbed soil is prime imported fire ant colonization habitat. Sod delivery and plant material installation introduce fire ant queens. Within two growing seasons, virtually every yard in a new subdivision has active fire ant mounds. The two-step broadcast bait plus spot treatment program manages this effectively but requires consistent annual application.",
+      },
+      {
+        question: "What are ghost ants and how do I stop them from entering my Apopka home?",
+        answer: "Ghost ants (Tapinoma melanocephalum) are very small pale ants common throughout Central Florida, including Apopka. They establish large outdoor colonies and trail into kitchens and bathrooms through gaps in the building envelope. They cannot be controlled by perimeter sprays alone, which only divert them around the treated zone. Professional gel bait programs that target the colony are effective. Sealing all gaps at door thresholds and around utility penetrations removes the primary entry points.",
+      },
+      {
+        question: "Is German cockroach pressure different in Apopka than in central Orlando?",
+        answer: "The pest biology is identical but the distribution reflects Apopka's lower commercial density. German cockroaches in Apopka are concentrated in the commercial and multifamily areas along US-441, Semoran Boulevard, and the older downtown core. Residential calls in the newer subdivisions are relatively lower than in denser urban Orlando. For any established German cockroach infestation, building-wide gel bait treatment remains the most effective approach regardless of location.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Orlando", slug: "orlando" },
+      { name: "Kissimmee", slug: "kissimmee" },
+      { name: "Sanford", slug: "sanford" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Apopka, FL | Mosquitoes, Termites & Fire Ants",
+    metaDescription:
+      "Apopka pest control for mosquitoes, subterranean termites, fire ants, ghost ants and German cockroaches. Orange County Lake Apopka wetlands northwest Orlando metro Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "port-orange",
+    name: "Port Orange",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~65,000",
+    county: "Volusia County",
+    climate: "tropical",
+    climateDriver: "Volusia County's tropical climate with Halifax River estuary, Spruce Creek and Atlantic coast proximity drive year-round termite, mosquito and fire ant pressure",
+    topPests: ["subterranean termites", "drywood termites", "mosquitoes", "fire ants", "ghost ants"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        activeSeason: "Year-round",
+        note: "Subterranean Termites are active in Port Orange given the local climate. Annual professional inspection is the standard protection for Port Orange homes.",
+      },
+      {
+        name: "Drywood Termites",
+        activeSeason: "May through November",
+        note: "Drywood Termites are active in Subterranean Termites given the local climate. Annual professional inspection is the standard protection for Subterranean Termites homes.",
+      },
+      {
+        name: "Mosquitoes",
+        activeSeason: "Year-round",
+        note: "Mosquitoes in Drywood Termites are active throughout the warm season and require professional barrier spray programs for effective management.",
+      },
+      {
+        name: "Fire Ants",
+        activeSeason: "Year-round",
+        note: "Imported fire ants are established in Mosquitoes and require broadcast bait treatment for effective yard-level control.",
+      },
+      {
+        name: "Ghost Ants",
+        activeSeason: "Year-round",
+        note: "Ghost Ants are active in Fire Ants and require professional gel bait treatment for lasting control.",
+      },
+    ],
+    localHook: "Port Orange sits between the Halifax River Intracoastal Waterway and Spruce Creek, and Spruce Creek's extensive tidal marsh system is one of Volusia County's most productive natural mosquito breeding environments, directly affecting neighborhoods in Port Orange's western and southern quadrants.",
+    intro: "Port Orange is a Volusia County city immediately south of Daytona Beach, and its position between the Halifax River and Spruce Creek places it in one of the more pest-intensive coastal environments in northeast Florida. Spruce Creek's tidal marsh and the Halifax River Intracoastal generate year-round mosquito pressure that affects the city's waterfront and near-waterfront neighborhoods throughout the year. The tropical climate means no winter break for any Florida pest species. Both eastern subterranean and drywood termites are active in Port Orange's housing stock, which ranges from 1960s and 1970s era homes near the coast to new construction in the city's expanding western subdivisions. Fire ants and ghost ants are present throughout the city year-round.",
+    sections: [
+      {
+        heading: "Port Orange Pest Control: Key Data for Volusia County Homeowners",
+        body: "Five facts define the Port Orange pest control picture. One: both subterranean and drywood termites are present in Volusia County. Annual inspection is the standard of care for any home, regardless of age. Two: Spruce Creek's tidal marsh drives mosquito pressure in Port Orange's western and southern neighborhoods from January through December. Monthly barrier spray year-round is the appropriate program for these properties. Three: fire ant mounds in Port Orange yards are active every month. The two-step broadcast bait plus spot treatment program from UF IFAS is the most effective yard-level control. Four: ghost ants are the most common indoor ant call in Port Orange, and perimeter sprays are not the effective tool. Professional gel bait targeting colony sites is more reliable. Five: German cockroaches in commercial kitchens along Dunlawton Avenue and US-1 spread to adjacent residential properties through shared utility infrastructure. For residents near commercial corridors, this is a persistent rather than seasonal management challenge.",
+      },
+      {
+        heading: "Protecting Port Orange's Coastal and Waterfront Properties",
+        body: "Port Orange's Halifax River and Intracoastal frontage, Spruce Creek access, and Atlantic coast proximity create a higher-moisture structural environment than inland Volusia County. This moisture elevation affects termite risk directly: higher wood moisture accelerates termite colony development and makes structures more vulnerable. Waterfront and near-waterfront homes in Port Orange should be on annual inspection programs with year-round protection plans, not the minimum required inspection frequency. For drywood termites, the peak swarmer season in Volusia County runs from June through October. West Indian drywood termites favor the coastal zone more than inland areas, and Port Orange's Intracoastal and coastal proximity puts it in the higher-risk zone for this species. UF IFAS identifies coastal Volusia County as one of the primary West Indian drywood termite zones in northeast Florida. For mosquitoes, the Spruce Creek tidal marsh system cannot be managed by the homeowner and provides a continuous year-round breeding source. Monthly professional barrier spray and diligent elimination of on-property standing water are the practical tools.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection and maintain year-round protection plan, particularly for waterfront properties",
+      "Apply monthly mosquito barrier spray year-round for Spruce Creek and Halifax River adjacent properties",
+      "Broadcast fire ant bait twice per year across all turf areas and treat active mounds immediately",
+      "Eliminate standing water in yard drainage features and downspout extensions within 48 hours of rain",
+      "Seal door thresholds and pipe penetrations to prevent ghost ant entry from outdoor colonies",
+    ],
+    costNote: "Port Orange pest control for a standard residential treatment runs $110 to $195. Year-round termite protection plans including annual inspection and retreatment coverage average $200 to $380. Monthly mosquito barrier spray programs run $75 to $130. Waterfront properties often run toward the higher end of all service categories.",
+    faqs: [
+      {
+        question: "Does the Spruce Creek marsh really affect mosquito pressure in Port Orange neighborhoods?",
+        answer: "Yes. Spruce Creek's tidal marsh system is a large, permanent mosquito breeding environment that cannot be treated because it is classified as protected wetland. Neighborhoods in Port Orange's western and southern quadrants near the creek system receive consistent year-round mosquito pressure from this untreatable source. Monthly professional barrier spray and elimination of on-property standing water provide the practical defense. The pressure does not diminish in winter in Florida's tropical climate.",
+      },
+      {
+        question: "Are West Indian drywood termites more common near Port Orange's coast?",
+        answer: "Yes. UF IFAS research identifies coastal Florida, including coastal Volusia County, as the primary range of West Indian drywood termites. This species prefers the higher-humidity coastal zone over inland areas. Port Orange's position between the Halifax River and the Atlantic coast places it in the zone where this species is most active. Annual inspection for both drywood and subterranean species is appropriate for all Port Orange homes.",
+      },
+      {
+        question: "How does Port Orange's proximity to Daytona Beach affect pest pressure?",
+        answer: "Daytona Beach's commercial activity, high tourist traffic, and older building stock generates German cockroach and rodent populations that use the US-1 corridor and Dunlawton Avenue commercial strip to spread southward into Port Orange. Residential properties within a few blocks of these commercial corridors experience higher cockroach and rodent call frequency than properties in Port Orange's residential-only neighborhoods away from the commercial strips.",
+      },
+      {
+        question: "When do termites swarm in Port Orange?",
+        answer: "Eastern subterranean termites in Volusia County swarm primarily from February through April. West Indian drywood termites swarm from June through October, peaking in late summer. If you observe flying termites at either time of year, professional inspection within a few days is appropriate. Both species can occur in the same structure, and swarming indicates an established nearby colony.",
+      },
+      {
+        question: "What is the most important pest control priority for a Port Orange homeowner?",
+        answer: "For most Port Orange properties, year-round termite protection is the highest priority given the structural and financial risk of termite damage in a tropical coastal environment where both drywood and subterranean species are active. Year-round mosquito management is the second priority for health and outdoor comfort, particularly for properties near Spruce Creek or the Halifax River. Fire ant and ghost ant management round out a complete program.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Daytona Beach", slug: "daytona-beach" },
+      { name: "Ormond Beach", slug: "ormond-beach" },
+      { name: "Deltona", slug: "deltona" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Port Orange, FL | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Port Orange pest control for subterranean termites, drywood termites, mosquitoes, fire ants and ghost ants. Volusia County Spruce Creek Halifax River coastal northeast Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

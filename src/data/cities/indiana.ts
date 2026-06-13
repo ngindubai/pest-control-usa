@@ -1095,4 +1095,539 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "Noblesville pest control for stink bugs, house mice, subterranean termites, mosquitoes and yellow jackets. Hamilton County White River Indianapolis suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "muncie",
+    name: "Muncie",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~67,000",
+    county: "Delaware County",
+    climate: "cold-humid",
+    climateDriver:
+      "Muncie sits along the White River in Delaware County under a cold-humid Midwestern climate with cold winters and warm humid summers. Purdue University Extension documents consistent subterranean termite, carpenter ant, and house mouse pressure throughout east-central Indiana. Muncie's legacy industrial housing stock, built primarily between 1900 and 1955 when the city was a glass manufacturing center, creates more structural pest harborage than newer construction, and the White River corridor sustains mosquito populations through the warm season.",
+    topPests: ["House mice", "German cockroaches", "Subterranean termites", "Carpenter ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge fall and winter",
+        note: "Muncie's pre-1960 housing stock has accumulated the foundation gaps, aging utility penetrations, and deteriorated sealant that house mice exploit each fall. The White River corridor and surrounding Delaware County agricultural land sustain field mouse populations that press toward warm structures as temperatures drop.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Muncie's older inner-city neighborhoods and commercial districts along Walnut Street and McGalliard Road have above-average German cockroach pressure in denser housing. Multi-family properties from the mid-century era carry the shared utility infrastructure that cockroaches spread through between units.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round",
+        note: "Purdue Extension confirms subterranean termites throughout Delaware County. Muncie's older housing stock with wood-to-soil contact in crawl spaces and the White River's soil moisture elevation near the riverbank create above-average termite exposure for the city's established neighborhoods.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Purdue Extension identifies carpenter ants as Indiana's primary wood-destroying ant. Muncie's legacy housing stock with its aging wood siding, softening fascia boards, and old-growth trees in established neighborhoods provides the moisture-damaged wood that carpenter ant colonies prefer for nesting.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The White River runs through Muncie's residential and commercial core, and the floodplain backwaters and drainage channels create mosquito breeding habitat from May through September. Delaware County monitors West Nile virus in the active season, and properties near the river's flood-prone areas see consistent pressure.",
+      },
+    ],
+    localHook:
+      "Muncie's industrial legacy left behind a housing stock built between 1900 and 1955 that gives German cockroaches and subterranean termites structural access points that well-maintained newer construction rarely provides, and the White River running through the city's core creates a mosquito corridor that extends from the downtown to the residential neighborhoods on both banks.",
+    intro:
+      "Pest control in Muncie reflects the city's history and its geography in Delaware County. The older housing stock in the established inner-city neighborhoods carries more German cockroach, carpenter ant, and termite exposure than newer construction on the city's fringe. The White River's floodplain sustains mosquito populations through the warm season and provides a year-round travel corridor for house mice pressing into neighborhoods along the riverbank each fall. Purdue University Extension documents all these species as active pests throughout east-central Indiana, with the warm humid summers providing conditions where most species stay active well into fall.",
+    sections: [
+      {
+        heading: "Older housing and pest pressure in Muncie's established neighborhoods",
+        body: "Muncie built most of its residential housing between 1900 and 1955 during the city's glass and industrial manufacturing peak, and the physical characteristics of that era's construction create more pest access than modern builds provide. Crawl spaces with wood beams near soil contact, plaster walls with settled utility gaps, and brick veneer with deteriorating mortar joints give subterranean termites, carpenter ants, and rodents more entry options. Purdue Extension confirms that older Indiana housing stock with these structural features carries higher termite and carpenter ant exposure than slab construction homes from the past three decades. German cockroaches spread through the shared utility infrastructure in denser older blocks and are not affected by Indiana's cold winters. A comprehensive inspection of Muncie's pre-1960 housing is the essential first step before a treatment plan can address the actual pests present.",
+      },
+      {
+        heading: "White River corridor mosquitoes and seasonal management",
+        body: "The White River runs east-west through Muncie's residential and commercial core, and the floodplain areas along both banks, particularly the backwater sloughs and drainage channels east of downtown near Minnetrista Boulevard, create mosquito breeding habitat from May through September. Delaware County monitors West Nile virus each summer, and the river corridor represents one of the county's more active surveillance zones. Professional mosquito barrier spray programs targeting the vegetation on the riverside edge of residential properties, combined with eliminating any standing water in yard drainage or flower beds, provide the most consistent residential protection. Monthly applications from late May through September are the standard program for river-adjacent homes.",
+      },
+    ],
+    prevention: [
+      "Schedule an inspection of crawl spaces and foundation in Muncie's pre-1960 housing for subterranean termite mud tubes and wood damage.",
+      "Seal foundation gaps, utility penetrations, and aging mortar joints in brick veneer before October to block mouse entry.",
+      "Apply monthly mosquito barrier spray along the White River-facing perimeter of properties from late May through September.",
+      "Inspect aging fascia boards, window trim, and old-growth tree stumps for carpenter ant frass annually.",
+      "Report German cockroach sightings in multi-family housing immediately to allow early treatment.",
+    ],
+    costNote:
+      "Muncie pest control typically starts with a free inspection. Older homes in established neighborhoods often benefit from a full structural assessment before a treatment plan is set. Quarterly exterior programs cover mice, ants, and seasonal insects. Termite protection is priced separately.",
+    faqs: [
+      {
+        question: "Is termite risk higher in Muncie's older neighborhoods?",
+        answer:
+          "Yes. Purdue Extension confirms subterranean termites are active throughout Delaware County, and Muncie's pre-1960 housing carries more exposure because of wood-to-soil contact in crawl spaces, aging foundation sealant, and wood elements that have been in contact with damp soil for decades. Newer construction on the city's fringe has lower but not zero risk. Annual inspections are the practical standard for the city's established neighborhoods.",
+      },
+      {
+        question: "How do German cockroaches spread in Muncie's older apartment buildings?",
+        answer:
+          "Through shared wall voids, plumbing chases, and electrical conduits that older buildings accumulated over decades of maintenance and renovation. Unlike outdoor pests, German cockroaches do not require exterior access to move between units in the same building. A single infested ground-floor unit can seed the floors above through vertical conduits. Gel bait applied at harborage points inside each unit is the effective treatment, not perimeter spray.",
+      },
+      {
+        question: "When is mosquito season along the White River in Muncie?",
+        answer:
+          "May through September, with peak activity in June and July when standing water from spring rainfall persists in the floodplain backwaters. Delaware County monitors West Nile virus each summer. Properties within a few blocks of the river's east bank near Minnetrista Boulevard and the riverside parks see above-average pressure compared to Muncie's higher-elevation interior neighborhoods.",
+      },
+      {
+        question: "Are carpenter ants in Muncie a structural risk?",
+        answer:
+          "They can be in the city's pre-1960 housing, where decades of weather exposure have created the moisture-damaged wood that carpenter ants target for nesting. Purdue Extension identifies carpenter ants as Indiana's primary wood-destroying ant. Early treatment in spring before satellite colonies establish in multiple wood elements is the most effective approach and prevents the structural damage that expensive repairs require.",
+      },
+      {
+        question: "Do mice from Delaware County farmland enter Muncie homes?",
+        answer:
+          "Yes. Delaware County has active agricultural land to the south and east of Muncie, and house mice from those fields move toward warm structures each fall. The White River corridor also sustains year-round mouse habitat adjacent to the city's residential areas. Homes on Muncie's southern and eastern fringe near farmland see the largest fall surges. Exclusion work completed before October is more cost-effective than reactive interior treatment after mice are already inside.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis" },
+      { name: "Anderson", slug: "anderson" },
+      { name: "Fort Wayne", slug: "fort-wayne" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Muncie, IN | Mice, Cockroaches & Termites",
+    metaDescription:
+      "Muncie pest control for house mice, German cockroaches, subterranean termites, carpenter ants and mosquitoes. Delaware County White River east-central Indiana legacy housing specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "terre-haute",
+    name: "Terre Haute",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~62,000",
+    county: "Vigo County",
+    climate: "cold-humid",
+    climateDriver:
+      "Terre Haute sits on the Wabash River in Vigo County on the Illinois border, where the river's floodplain creates significant seasonal mosquito breeding habitat and sustains wildlife populations year-round. Purdue University Extension documents consistent subterranean termite, house mouse, and carpenter ant pressure throughout southwestern Indiana. The city's university population, Indiana State University, and older residential housing stock create conditions for both German cockroach spread and persistent structural pest exposure.",
+    topPests: ["House mice", "Subterranean termites", "Mosquitoes", "Carpenter ants", "German cockroaches"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge fall",
+        note: "Terre Haute's Wabash River floodplain and the surrounding Vigo County agricultural land sustain year-round mouse habitat adjacent to residential neighborhoods. The fall surge is most pronounced in the neighborhoods along the river's east bank where the floodplain wildlife corridor connects directly to residential streets.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round",
+        note: "Purdue Extension confirms subterranean termites throughout Vigo County. The Wabash River's soil moisture and Terre Haute's significant proportion of older housing, including many pre-WWII homes near the Indiana State University campus, create above-average termite exposure in the city's established neighborhoods.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Wabash River floodplain along Terre Haute's western boundary creates some of the most persistent mosquito breeding habitat in southwestern Indiana. Backwater sloughs and flood-detention areas that hold standing water for weeks after spring rain sustain populations well into fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Purdue Extension identifies carpenter ants as Indiana's primary wood-destroying ant. Terre Haute's mature elm and oak canopy in the university and Midtown neighborhoods provides the decaying wood that carpenter ant colonies prefer, and the river's moisture keeps structural wood in adjacent properties damp enough to be vulnerable.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Terre Haute's Indiana State University campus and the dense student rental housing in the neighborhoods adjacent to campus create conditions where German cockroaches cycle through units with each tenant change. Commercial corridors along Wabash Avenue sustain additional pressure in the surrounding residential blocks.",
+      },
+    ],
+    localHook:
+      "The Wabash River runs along Terre Haute's entire western boundary in Vigo County, and the floodplain's backwater sloughs create some of southwestern Indiana's most persistent mosquito breeding habitat, with standing water in low-lying floodplain areas that persists for weeks after spring and early summer rainfall.",
+    intro:
+      "Pest control in Terre Haute is shaped by the Wabash River on its western edge and the Indiana State University campus at its core. The river's floodplain creates significant seasonal mosquito habitat and a year-round wildlife corridor that sustains house mice in the neighborhoods along the east bank. Subterranean termites are active throughout Vigo County, with the river's soil moisture elevating exposure near the floodplain. The ISU campus and its rental housing belt create conditions for German cockroach persistence across tenant changes. Carpenter ants are active in the city's mature tree canopy neighborhoods near the university.",
+    sections: [
+      {
+        heading: "Wabash River floodplain mosquitoes and pest corridor",
+        body: "The Wabash River defines Terre Haute's western boundary from the Vigo County line north through the city's industrial and residential west side, and the floodplain creates both a mosquito breeding zone and a wildlife travel corridor. Backwater sloughs in the floodplain hold standing water for weeks after spring and early summer rains, producing mosquito populations from April through October that are among the most persistent in southwestern Indiana. Properties along the river bluffs near Fort Harrison Road and the Indiana State University natural area see the most consistent mosquito pressure from the floodplain habitat. West Nile virus is monitored in Vigo County each summer. Monthly professional barrier spray programs targeting vegetation on the river-facing perimeter of these properties provide the most effective residential protection during the active season.",
+      },
+      {
+        heading: "Indiana State University campus and German cockroach dynamics",
+        body: "Indiana State University's campus and the student rental neighborhoods around it create a pest management scenario common to university towns: frequent tenant turnover accelerates German cockroach spread between units, and the food service operations on campus sustain commercial populations adjacent to residential blocks. German cockroaches spread through shared utility chases and wall voids in older rental buildings without going outdoors, so cold Indiana winters do not suppress them. Property managers and landlords in the ISU neighborhood who include professional cockroach treatment during tenant transitions catch infestations before they spread between units. For owner-occupied homes adjacent to the campus area, the key is intercepting cockroaches at the utility penetrations and shared wall access points rather than treating the home interior reactively.",
+      },
+    ],
+    prevention: [
+      "Apply monthly mosquito barrier spray along the river-facing perimeter of properties adjacent to the Wabash floodplain from April through September.",
+      "Schedule a termite inspection for properties with crawl spaces or wood elements within the Wabash River floodplain zone.",
+      "Seal utility penetrations in student rental properties between tenancies to limit German cockroach spread.",
+      "Inspect mature elm and oak trees adjacent to the structure annually for carpenter ant galleries in dead wood.",
+      "Seal foundation gaps and aging mortar joints before October to block house mouse entry from the river corridor.",
+    ],
+    costNote:
+      "Terre Haute pest control typically starts with a free inspection. Properties near the Wabash floodplain benefit from monthly mosquito programs from April through September. Quarterly exterior programs cover mice, ants, and general insects. Termite protection for older homes near the river is priced separately.",
+    faqs: [
+      {
+        question: "Is the Wabash River a major mosquito source in Terre Haute?",
+        answer:
+          "Yes. The floodplain backwaters along the river's east bank hold standing water for extended periods after spring rain, which is the primary mosquito breeding scenario in Vigo County. Properties within a half mile of the river's bank see above-average mosquito pressure from April through October. Vigo County monitors West Nile virus each summer, and the river corridor is one of the county's primary surveillance zones.",
+      },
+      {
+        question: "Do termites in Terre Haute require annual inspections?",
+        answer:
+          "Annual inspections are the practical standard for Terre Haute's pre-WWII housing stock, particularly for homes with crawl spaces or wood-to-soil contact near the Wabash floodplain. Purdue Extension confirms subterranean termites are active throughout Vigo County. Newer slab construction on higher ground carries lower but not zero risk. An annual inspection catches activity before structural damage develops.",
+      },
+      {
+        question: "How do German cockroaches affect Terre Haute student rental properties?",
+        answer:
+          "They spread between units through shared utility chases and wall voids, and frequent tenant turnover means infestations can go unreported for months between occupancies. Gel bait treatment during tenant transitions eliminates the active colony before it seeds adjacent units. Property managers who include this as a standard vacancy procedure maintain significantly lower cockroach rates across their portfolios.",
+      },
+      {
+        question: "Are carpenter ants a concern in older Terre Haute neighborhoods?",
+        answer:
+          "Yes, particularly in the Midtown and university neighborhoods where mature elm and oak trees have been in place for decades. Dead wood in old-growth trees, decaying fence posts, and moisture-damaged structural wood in homes with aging siding or fascia are the primary nesting sites. Purdue Extension identifies carpenter ants as Indiana's primary wood-destroying ant, and treatment in spring before satellite colonies expand is the most effective approach.",
+      },
+      {
+        question: "When do mice enter Terre Haute homes from the Wabash River corridor?",
+        answer:
+          "October and November are the peak entry months in Vigo County as agricultural fields are harvested and temperatures drop. Homes along the Wabash bluffs and the neighborhoods adjacent to the floodplain see the earliest and heaviest surges because the river's riparian habitat sustains a larger proximate mouse population than the city's interior areas. Exclusion work completed in September is more cost-effective than reactive interior treatment once mice are established indoors.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis" },
+      { name: "Evansville", slug: "evansville" },
+      { name: "Bloomington", slug: "bloomington" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Terre Haute, IN | Mice, Mosquitoes & Termites",
+    metaDescription:
+      "Terre Haute pest control for house mice, subterranean termites, mosquitoes, carpenter ants and German cockroaches. Vigo County Wabash River Indiana State University Wabash Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "greenwood",
+    name: "Greenwood",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~65,000",
+    county: "Johnson County",
+    climate: "cold-humid",
+    climateDriver:
+      "Greenwood sits immediately south of Indianapolis in Johnson County as one of the Indianapolis metro's fastest-growing communities. Purdue University Extension documents consistent subterranean termite, brown marmorated stink bug, and house mouse pressure throughout the Indianapolis metro area. Greenwood's rapid expansion onto former Johnson County agricultural and natural land means that new residential developments regularly encounter pest populations from the underlying landscape, and White Lick Creek's drainage corridor creates riparian wildlife habitat through the city's western neighborhoods.",
+    topPests: ["House mice", "Brown marmorated stink bugs", "Subterranean termites", "Carpenter ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge fall",
+        note: "Greenwood's rapid growth into agricultural land means fall mouse pressure is particularly pronounced in newer residential developments adjacent to active or recently converted farmland. Johnson County's fall harvest drives field mice toward warm structures on the suburban fringe each October.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November indoors",
+        note: "Purdue Extension documents stink bugs as an established and expanding pest in the Indianapolis metro area. Greenwood's suburban setting with mature ornamental trees produces September aggregations on south-facing home exteriors throughout the city, and the population is increasing as the species expands in Johnson County.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round",
+        note: "Purdue Extension confirms subterranean termites throughout Johnson County. Greenwood's new construction on previously undisturbed land places new foundations directly in active termite territory, and pre-treatment during construction is not always verified by new homeowners.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "White Lick Creek and the older tree cover in Greenwood's established western neighborhoods provide carpenter ant nesting habitat. Purdue Extension identifies carpenter ants as Indiana's primary wood-destroying ant, and the creek's moisture-rich environment keeps wood in adjacent properties vulnerable.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "White Lick Creek and the wetland detention areas throughout Greenwood's newer developments create mosquito breeding habitat from May through September. Johnson County is within the Indianapolis metro area's West Nile virus monitoring zone.",
+      },
+    ],
+    localHook:
+      "Greenwood is one of Indiana's fastest-growing cities, and the pace of new residential construction on former Johnson County farmland means subterranean termite colonies disturbed by site preparation are a documented concern in communities built during the past decade.",
+    intro:
+      "Pest control in Greenwood reflects the city's explosive growth as a southern Indianapolis suburb. New residential developments on the agricultural fringe carry the highest fall mouse pressure as field mice from harvested land move toward warm structures each October. Brown marmorated stink bugs have established across the Indianapolis metro, and Greenwood's suburban tree canopy produces September aggregations on home exteriors. New construction on formerly undisturbed Johnson County land encounters subterranean termites during development. White Lick Creek creates riparian habitat for carpenter ants and mosquitoes through the city's western neighborhoods.",
+    sections: [
+      {
+        heading: "New construction and subterranean termites in Greenwood",
+        body: "Greenwood's rapid growth means a significant share of the housing stock was built in the past 15 years on land that previously had undisturbed termite populations. Purdue Extension documents subterranean termites throughout Johnson County, and site preparation that disturbs the soil does not eliminate the colony. It relocates it toward the nearest new wood source, which is often the new home's treated lumber. New homeowners in Greenwood's growth areas who do not know whether a pre-treatment bond was applied during construction, or who have moved into a home that is several years old and whose original pre-treatment has expired, should schedule an inspection. Pre-treatment soil barriers expire over time and require renewal. The combination of new construction density and active termite territory in Johnson County makes this a practical annual check rather than a theoretical concern.",
+      },
+      {
+        heading: "Stink bugs in the Indianapolis south metro",
+        body: "Purdue Extension documents brown marmorated stink bugs as an established pest in the Indianapolis metropolitan area, with populations expanding in Johnson County. Greenwood's suburban character with mature ornamental landscape trees provides the outdoor feeding habitat stink bugs use during the warm season before they seek winter shelter in homes each fall. The September aggregations on south and west-facing home exteriors in Greenwood are now an annual occurrence, not a rare event. Exterior treatment applied in early September before the aggregation forms, combined with sealing gaps around window frames, soffit vents, and utility penetrations, significantly reduces winter entry into wall voids and attic spaces. Once stink bugs are inside the structure for winter, vacuum removal is the only practical method since interior insecticide treatment is not effective for overwintering adults.",
+      },
+    ],
+    prevention: [
+      "Verify the pre-treatment bond status for new construction in Greenwood and schedule an inspection if it has expired or was not applied.",
+      "Seal south and west-facing exterior gaps before mid-September to block stink bug winter entry.",
+      "Install exterior bait stations on the south and east perimeter of homes adjacent to Johnson County farmland before October.",
+      "Remove standing water from detention pond edges and yard drainage within 48 hours of rain during the active season.",
+      "Inspect White Lick Creek-adjacent deck boards and fence posts annually for carpenter ant frass.",
+    ],
+    costNote:
+      "Greenwood pest control typically starts with a free inspection. New construction homes benefit from a termite inspection within the first five years to verify pre-treatment coverage. Quarterly exterior programs cover mice, stink bugs, and ants. Mosquito barrier programs are available for White Lick Creek-adjacent properties.",
+    faqs: [
+      {
+        question: "Do new homes in Greenwood need termite protection?",
+        answer:
+          "Yes. New construction in Greenwood sits in active Johnson County termite territory, and pre-treatment soil barriers applied at construction expire over time. Purdue Extension recommends annual inspections for Indiana homes with slab construction, and new homeowners who are unsure whether a pre-treatment was applied should schedule an inspection before the first warranty period ends. The cost of an inspection is minimal compared to the cost of discovering active damage.",
+      },
+      {
+        question: "How long has the stink bug problem been growing in the Indianapolis south metro?",
+        answer:
+          "Purdue Extension has documented brown marmorated stink bugs expanding across the Indianapolis metropolitan area over the past decade. They arrived in central Indiana earlier than further-south and -west parts of the state, and Johnson County now has established populations. Greenwood residents should expect annual fall aggregations as a regular part of the pest calendar rather than a periodic event.",
+      },
+      {
+        question: "Are mice from Johnson County farmland entering Greenwood homes?",
+        answer:
+          "Yes, particularly in the newer subdivisions on the city's southern and eastern edges where the residential-agricultural interface is most direct. The fall harvest triggers a mouse movement toward warm structures that is most pronounced in areas within a quarter mile of active or recently converted farmland. A preventive exterior bait program and exclusion work before October provides the most cost-effective protection for these properties.",
+      },
+      {
+        question: "When do mosquitoes peak near White Lick Creek in Greenwood?",
+        answer:
+          "June and July are the peak months, when temperatures are warm and the spring rainfall that fills White Lick Creek's detention areas and drainage features is most recent. Johnson County is in the West Nile virus monitoring zone for the Indianapolis metro. Properties within a few blocks of the creek's residential corridor see above-average pressure. Monthly professional barrier spray from May through September provides the most consistent protection.",
+      },
+      {
+        question: "Is Greenwood's growth affecting pest management compared to older Indianapolis suburbs?",
+        answer:
+          "In the sense that active growth means more new construction adjacent to undisturbed land, yes. Older suburbs like Carmel and Fishers to the north have been built out longer and have stable, mature pest populations rather than the migration-driven surges that new construction in agricultural land produces. The practical difference for Greenwood homeowners is a higher first-few-years risk for mice and termites in new developments near the growth edge.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis" },
+      { name: "Carmel", slug: "carmel" },
+      { name: "Noblesville", slug: "noblesville" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Greenwood, IN | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "Greenwood pest control for stink bugs, house mice, subterranean termites, carpenter ants and mosquitoes. Johnson County White Lick Creek Indianapolis south suburb Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "anderson",
+    name: "Anderson",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~56,000",
+    county: "Madison County",
+    climate: "cold-humid",
+    climateDriver:
+      "Anderson sits along the White River in Madison County, sharing the same cold-humid Midwestern climate as Indianapolis 30 miles to the southwest. Purdue University Extension documents consistent subterranean termite, carpenter ant, and house mouse pressure throughout Madison County. Like Muncie to the northeast, Anderson's history as an automotive manufacturing city left behind a housing stock largely built between 1910 and 1960, creating the structural characteristics that give subterranean termites and carpenter ants persistent harborage in established neighborhoods.",
+    topPests: ["House mice", "Subterranean termites", "Carpenter ants", "German cockroaches", "Boxelder bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge fall",
+        note: "Anderson's White River corridor and the surrounding Madison County agricultural land sustain house mouse populations that surge toward warm structures each fall. The city's pre-1960 housing stock has accumulated the entry gaps that mice exploit when temperatures drop.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round",
+        note: "Purdue Extension confirms subterranean termites throughout Madison County. Anderson's older housing stock with crawl spaces and wood-to-soil contact near the White River's elevated soil moisture carries above-average termite exposure for the city's established central neighborhoods.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "The White River corridor and the mature tree canopy in Anderson's Midtown and West End neighborhoods provide carpenter ant nesting habitat throughout the warm season. Purdue Extension identifies carpenter ants as Indiana's primary wood-destroying ant, and the older wood in Anderson's mid-century homes is particularly vulnerable.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Anderson's commercial corridors along Scatterfield Road and Meridian Street sustain German cockroach pressure in the adjacent residential blocks. Older multi-family housing near the commercial areas carries the shared utility infrastructure that allows spread between units.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November outdoors",
+        note: "Anderson's mature residential tree canopy produces fall boxelder bug aggregations on south-facing home walls. Purdue Extension documents boxelder bugs as a common fall nuisance throughout Indiana, with populations sustained by boxelder and silver maple trees in established neighborhoods.",
+      },
+    ],
+    localHook:
+      "Anderson's role as a former General Motors manufacturing center left behind a housing stock that is largely pre-1970, and those older structures in the city's central and west-side neighborhoods give subterranean termites and carpenter ants more structural access than the newer housing on Madison County's suburban fringe.",
+    intro:
+      "Pest control in Anderson reflects the city's industrial history and its setting along the White River in Madison County. The pre-1960 housing stock in established central neighborhoods carries more termite and carpenter ant exposure than newer construction. House mice from the White River floodplain and surrounding agricultural land surge into homes each fall. German cockroaches persist in the commercial corridors along Scatterfield Road and in adjacent older multi-family housing. Boxelder bugs aggregate on south-facing home walls each September. Purdue Extension documents all of these species as active pests throughout Madison County.",
+    sections: [
+      {
+        heading: "Termites and older housing in Anderson's central neighborhoods",
+        body: "Anderson's central and west-side neighborhoods, developed primarily between 1910 and 1955 during the city's manufacturing peak, contain housing with the structural characteristics that Purdue Extension associates with the highest subterranean termite exposure in Indiana. Crawl spaces with inadequate ventilation accumulate moisture that softens wood beams over time. Brick veneer homes from this era often have wood framing in direct contact with foundation concrete that has aged and cracked. Slab construction homes from the post-WWII era have better initial termite protection but have had decades to accumulate the expansion joint gaps and utility penetration openings that colonies exploit. Annual inspections for Anderson's established neighborhoods are the practical standard of care, not an optional precaution. Finding termite activity early, before structural elements are compromised, keeps repair costs manageable.",
+      },
+      {
+        heading: "White River corridor and fall pest pressure in Anderson",
+        body: "The White River runs through Anderson's western and northern edges, and the floodplain's riparian woodland sustains house mouse populations year-round. The fall pattern is consistent: as Madison County agricultural land is harvested in October, field mice from the surrounding county move toward warm structures at the same time that river-corridor mice are moving toward homes on the urban edge. The double surge is most pronounced for homes in the neighborhoods adjacent to the Mounds State Park and the White River's east bank corridor. The park's 300-plus acres of woodland are a permanent mouse reservoir that replenishes quickly after seasonal knockdown treatment. Year-round exterior bait management for homes adjacent to the park and river is more effective than fall-only programs for this reason.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for Anderson's pre-1960 housing with crawl spaces or wood-to-soil contact.",
+      "Seal White River-facing foundation gaps and utility penetrations before October to block fall mouse entry.",
+      "Inspect aging wood siding, fascia, and old-growth tree stumps for carpenter ant frass in spring.",
+      "Report German cockroach sightings in commercial-adjacent multi-family properties for early bait treatment.",
+      "Seal south-facing exterior gaps before mid-September to reduce boxelder bug winter entry.",
+    ],
+    costNote:
+      "Anderson pest control typically starts with a free inspection. Older homes benefit from a thorough structural assessment before a treatment plan is developed. Quarterly exterior programs cover mice, ants, and seasonal insects. Termite protection is priced separately for the city's established neighborhoods.",
+    faqs: [
+      {
+        question: "How old does a house need to be to have elevated termite risk in Anderson?",
+        answer:
+          "Purdue Extension documents termite pressure throughout Madison County regardless of home age, but pre-1970 construction carries higher exposure because of accumulated wood-to-soil contact, crawl space moisture, and aging foundation sealant. The practical risk threshold in Anderson is any home with a crawl space, wood framing near the soil line, or wood mulch beds against the foundation. Annual inspections are the right standard for these properties.",
+      },
+      {
+        question: "Are carpenter ants in Anderson's older trees a sign they are in my home?",
+        answer:
+          "Not necessarily, but it is a reason to inspect. Carpenter ant colonies in old-growth trees within 50 feet of your home regularly send foragers into the surrounding area, and those foragers will investigate any moisture-damaged wood in your structure. Finding workers inside in spring, or frass below wooden elements, suggests satellite nesting in the structure. A professional inspection confirms whether outdoor colony foragers or an established interior colony are present.",
+      },
+      {
+        question: "Why are German cockroaches common in Anderson's commercial areas?",
+        answer:
+          "Commercial food service operations on Scatterfield Road and Meridian Street provide the food and warmth that sustain German cockroach populations year-round. Cold Indiana winters do not suppress them. They spread from commercial buildings into adjacent residential properties through shared utility chases, drainage lines, and wall penetrations. Residents in the blocks adjacent to these commercial corridors see higher pressure than those in Anderson's residential interior.",
+      },
+      {
+        question: "Is Mounds State Park a significant pest source for adjacent Anderson neighborhoods?",
+        answer:
+          "Yes, primarily for house mice. The park's 300-plus acres of White River woodland are a permanent reservoir of mouse habitat that presses into residential streets adjacent to the park boundary each fall. Year-round exterior bait management for homes on those streets is the practical response, because the park's population replenishes seasonal knockdown quickly.",
+      },
+      {
+        question: "When do boxelder bugs appear in Anderson?",
+        answer:
+          "Late August and September in Indiana, as temperatures begin to cool and boxelder bugs start seeking winter shelter. They aggregate on south and west-facing walls before entering through small exterior gaps. Purdue Extension confirms they do not bite, breed indoors, or damage structures. Sealing exterior gaps before mid-September and applying exterior treatment reduces entry into wall voids for overwintering.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis" },
+      { name: "Muncie", slug: "muncie" },
+      { name: "Fort Wayne", slug: "fort-wayne" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Anderson, IN | Mice, Termites & Carpenter Ants",
+    metaDescription:
+      "Anderson pest control for house mice, subterranean termites, carpenter ants, German cockroaches and boxelder bugs. Madison County White River Mounds State Park east-central Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kokomo",
+    name: "Kokomo",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~58,000",
+    county: "Howard County",
+    climate: "cold-humid",
+    climateDriver:
+      "Kokomo sits in north-central Indiana's Howard County under a cold-humid Midwestern climate where cold winters and warm humid summers create a long pest-active season. Wildcat Creek runs through the city's central and south-side neighborhoods, creating a riparian corridor that connects Howard County's agricultural land to the north with urban residential blocks. Purdue University Extension documents consistent carpenter ant, house mouse, subterranean termite, and stink bug pressure throughout north-central Indiana.",
+    topPests: ["House mice", "Brown marmorated stink bugs", "Subterranean termites", "Carpenter ants", "Yellow jackets"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge fall",
+        note: "Wildcat Creek's riparian corridor provides year-round mouse habitat that connects Howard County's agricultural fields to the north with Kokomo's central residential blocks. The fall surge along the creek corridor is a consistent annual pattern for neighborhoods adjacent to the creek's residential reach.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November indoors",
+        note: "Purdue Extension documents stink bugs as an established and expanding pest in northern Indiana. Kokomo's mature suburban tree canopy produces September aggregations on south-facing home walls throughout the city as the population in Howard County continues to grow.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round",
+        note: "Purdue Extension confirms subterranean termites throughout Howard County. Kokomo's older Chrysler-era housing stock near the manufacturing district has accumulated the wood-to-soil contact and aged slab gaps that expose homes in those areas to higher termite risk.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Wildcat Creek's riparian woodland and the mature tree canopy in Kokomo's established residential neighborhoods provide carpenter ant nesting habitat throughout the warm season. Purdue Extension identifies carpenter ants as Indiana's primary wood-destroying ant.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "July through October",
+        note: "Yellow jacket colonies peak in late summer in Howard County, nesting in ground cavities, wall voids, and under deck boards in residential yards. Kokomo's established residential areas with mature landscaping see the largest late-summer colonies.",
+      },
+    ],
+    localHook:
+      "Wildcat Creek runs from Howard County's agricultural north through Kokomo's residential core and creates a riparian travel corridor that gives house mice and raccoons a year-round route from the county's farm fields directly into the city's central neighborhoods.",
+    intro:
+      "Pest control in Kokomo centers on Wildcat Creek and the city's automotive manufacturing legacy. The creek's riparian corridor is a year-round highway for house mice moving between Howard County's agricultural areas and the city's residential core. Brown marmorated stink bugs have established in northern Indiana and now produce consistent September aggregations on Kokomo home exteriors. Subterranean termites are active throughout Howard County, with elevated exposure in the older neighborhoods near the Chrysler and Haynes International manufacturing history. Carpenter ants use the creek corridor and the city's mature tree canopy as nesting and foraging habitat.",
+    sections: [
+      {
+        heading: "Wildcat Creek and year-round rodent management in Kokomo",
+        body: "Wildcat Creek enters Kokomo from the agricultural north and runs south through the city's residential and commercial core before joining the Kokomo Creek and eventually the Mississinewa River system. The creek's wooded corridor keeps grass and vegetation damp year-round, providing the mouse habitat that Purdue Extension documents as a consistent pest driver in Indiana's agricultural-urban transitions. For neighborhoods adjacent to the Wildcat Creek corridor, particularly in the areas near Kokomo Beach Park and the south-side residential blocks, year-round exterior bait management is more effective than fall-only treatment because the creek sustains a replacement population that quickly replenishes seasonal knockdown. Sealing the primary entry points before October, particularly garage door seals, utility penetrations, and foundation weep holes, combined with ongoing exterior bait stations, gives the most consistent protection for creek-adjacent properties.",
+      },
+      {
+        heading: "Brown marmorated stink bugs in north-central Indiana",
+        body: "Purdue Extension documents the brown marmorated stink bug's steady expansion northward through Indiana over the past decade, and Howard County now has established populations producing the annual fall aggregations that were initially more common in the southern part of the state. Kokomo's mature residential tree cover provides the ornamental and landscape trees that stink bugs feed on during the warm season. The September aggregations on south and west-facing home walls are the most visible sign of the population. Sealing exterior gaps around window frames, soffit vents, and utility penetrations before mid-September significantly reduces winter entry into wall voids. Exterior treatment applied early in the aggregation period, before insects reach the wall in large numbers, is more effective than treating after a large aggregation has formed.",
+      },
+    ],
+    prevention: [
+      "Install exterior bait stations on the creek-facing perimeter of properties adjacent to Wildcat Creek before October for year-round mouse management.",
+      "Apply stink bug exclusion sealant and exterior treatment on south-facing walls before mid-September.",
+      "Schedule a termite inspection for Kokomo homes near the Chrysler-era manufacturing neighborhoods if no recent inspection is on record.",
+      "Inspect Wildcat Creek-adjacent deck boards and fence posts annually for carpenter ant frass and moisture damage.",
+      "Keep garbage sealed in covered containers to reduce yellow jacket food sources in late summer.",
+    ],
+    costNote:
+      "Kokomo pest control typically starts with a free inspection. Creek-adjacent properties benefit from year-round exterior rodent management. Quarterly programs cover mice, stink bugs, and ants across the seasons. Termite protection for the city's manufacturing-era housing is priced separately.",
+    faqs: [
+      {
+        question: "Does Wildcat Creek make mouse control harder in Kokomo?",
+        answer:
+          "For properties adjacent to the creek corridor, yes. The creek's riparian habitat sustains a year-round mouse population that quickly replenishes after seasonal knockdown treatment. Year-round exterior bait station programs positioned on the creek-facing perimeter, combined with exclusion work, provide more durable protection than single-season treatments for these properties.",
+      },
+      {
+        question: "Is stink bug pressure increasing in Kokomo?",
+        answer:
+          "Yes. Purdue Extension documents the brown marmorated stink bug's northward expansion through Indiana, and Howard County now has established populations. Annual September aggregations are becoming a reliable pest calendar event for Kokomo homeowners. The population is expected to continue growing as the species becomes further established in north-central Indiana.",
+      },
+      {
+        question: "What termite risk do homes near Kokomo's manufacturing history carry?",
+        answer:
+          "The older neighborhoods near the Chrysler and Haynes International facilities, built primarily between 1920 and 1960, carry above-average termite exposure because of accumulated wood-to-soil contact and aging foundation sealant. Purdue Extension confirms termites throughout Howard County. Homes in these established neighborhoods without a recent inspection record should schedule one. Newer construction on the city's fringe carries lower but not zero risk.",
+      },
+      {
+        question: "When are yellow jackets most aggressive in Kokomo?",
+        answer:
+          "August and September, when colonies reach their largest size and foragers are most active near food sources. Ground nests in lawn areas along Wildcat Creek and wall void nests in older homes are the two most common situations. A licensed technician can treat nests safely after dark when all foragers have returned to the colony, which prevents defensive swarming during treatment.",
+      },
+      {
+        question: "Are carpenter ants in Kokomo connected to Wildcat Creek?",
+        answer:
+          "Yes. The creek's riparian woodland keeps wood in adjacent yards and fences damp, creating ideal carpenter ant nesting conditions. Foragers from creek-corridor colonies regularly explore the structures on adjacent lots. The most consistent carpenter ant complaints in Kokomo come from the neighborhoods within two blocks of the creek's residential passage. Annual inspection of deck beams and fence posts adjacent to the creek in spring catches infestations before satellite colonies establish inside the structure.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis" },
+      { name: "Muncie", slug: "muncie" },
+      { name: "Anderson", slug: "anderson" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Kokomo, IN | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Kokomo pest control for house mice, brown marmorated stink bugs, subterranean termites, carpenter ants and yellow jackets. Howard County Wildcat Creek north-central Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

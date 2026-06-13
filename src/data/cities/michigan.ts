@@ -2441,4 +2441,432 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Muskegon pest control for carpenter ants, house mice, mosquitoes and yellow jackets. Muskegon County Lake Michigan coastal Great Lakes specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "wyoming-mi",
+    name: "Wyoming",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~77,000",
+    county: "Kent County",
+    climate: "cold-humid",
+    climateDriver:
+      "Wyoming is immediately south and west of Grand Rapids in Kent County, sharing the same cold-humid Great Lakes climate that produces cold snowy winters and warm humid summers. Michigan State University Extension documents consistent carpenter ant, subterranean termite, and house mouse pressure throughout Kent County. Buck Creek runs through the city's southern neighborhoods, creating riparian habitat that sustains rodent and mosquito populations in the warmer months.",
+    topPests: ["Carpenter ants", "House mice", "Subterranean termites", "Yellow jackets", "German cockroaches"],
+    pestProfile: [
+      {
+        name: "Black carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Michigan State University Extension identifies carpenter ants as the state's most frequently reported ant pest. Wyoming's dense mix of older residential housing and commercial corridors along 28th Street provides both the moisture-damaged wood and the landscape wood that carpenter ants prefer as nesting substrate.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Wyoming's commercial activity along Division Avenue and 28th Street creates year-round food sources that sustain mouse populations near the residential blocks to the east. The fall surge as Kent County temperatures drop is the primary reason Wyoming homeowners call for rodent service.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April and May, active year-round",
+        note: "MSU Extension confirms subterranean termites throughout Kent County, with spring swarming in April and May after warm rains. Wyoming's older housing stock in the northern neighborhoods adjacent to Grand Rapids carries more accumulated wood exposure than newer construction to the south.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October",
+        note: "Yellowjacket colonies peak in late summer in Kent County and nest in ground cavities, wall voids, and under eaves. Commercial and residential garbage in Wyoming's commercial corridors provides the food that sustains large late-summer colonies.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are an ongoing concern in Wyoming's denser multi-family housing and commercial food service areas along Division Avenue. They spread through shared wall voids and utility chases and are not affected by Michigan's cold winters.",
+      },
+    ],
+    localHook:
+      "Wyoming sits directly south of Grand Rapids with no natural break between the cities, and the shared commercial infrastructure along 28th Street and Division Avenue means carpenter ants, German cockroaches, and Norway rats treat both cities as a single continuous habitat.",
+    intro:
+      "Pest control in Wyoming, Michigan follows the same Kent County patterns as Grand Rapids to the north, with carpenter ants, house mice, and subterranean termites as the three most consistent concerns. The city's older residential housing in the north near the Grand Rapids border carries higher termite and carpenter ant exposure, while the commercial corridors along 28th Street and Division Avenue contribute German cockroach and rodent pressure to adjacent residential blocks. Buck Creek in the southern neighborhoods sustains mosquito and wildlife populations through the warm season. MSU Extension documents all of these species as established pests throughout Kent County.",
+    sections: [
+      {
+        heading: "Carpenter ants in Wyoming's older housing stock",
+        body: "Michigan State University Extension identifies carpenter ants as the most commonly inquired-about ant pest in Michigan, and Wyoming's housing stock explains why. The city's northern neighborhoods, built largely in the mid-twentieth century, contain the moisture-damaged wood in fence posts, deck beams, and window trim that carpenter ants seek as nesting substrate. A mature carpenter ant colony can contain several thousand workers and satellite colonies in adjacent wood elements. The first sign is often frass, a mix of wood shavings and insect parts, below an infested beam or window frame. Treatment requires finding and treating all satellite colonies, not just the primary nest. Properties adjacent to Buck Creek, where wood stays damp from seasonal flooding, carry persistently higher exposure.",
+      },
+      {
+        heading: "28th Street commercial corridor and German cockroach spread",
+        body: "Wyoming's 28th Street corridor is one of the higher-volume commercial strips in Kent County, with restaurant, food retail, and warehouse activity that sustains German cockroach populations in the commercial buildings. German cockroaches spread from commercial spaces into adjacent residential properties through shared utility chases, drainage lines, and wall voids. They are exclusively indoor pests that cold Michigan winters do not suppress. Multi-family housing within a block of the commercial corridor sees the most consistent pressure. A gel bait program targeting harborage areas inside the structure is far more effective than perimeter spray, which does not address an indoor-only pest. For residential properties adjacent to commercial buildings, inspecting the utility penetration points that connect shared walls is the critical first step.",
+      },
+    ],
+    prevention: [
+      "Inspect deck beams, fence posts, and window trim annually for carpenter ant frass and moisture damage.",
+      "Seal foundation gaps and utility penetrations before October to block house mouse entry as temperatures drop.",
+      "Keep garbage sealed and away from the structure to reduce yellowjacket and rodent food sources near commercial corridors.",
+      "Request a termite inspection if your Wyoming property has wood mulch beds against the foundation or any wood-to-soil contact.",
+      "Clear standing water from Buck Creek-adjacent yards weekly from May through September.",
+    ],
+    costNote:
+      "Wyoming MI pest control typically starts with a free inspection. A quarterly exterior program covers ants, mice, and wasps. Termite protection is priced separately. German cockroach programs in commercial-adjacent properties are often standalone bait services.",
+    faqs: [
+      {
+        question: "Are carpenter ants in Wyoming, MI a structural risk?",
+        answer:
+          "Yes, if infestations go untreated. Michigan State University Extension confirms that black carpenter ants in Michigan prefer moisture-damaged wood and can hollow out structural elements over time. The risk is higher in Wyoming's older northern neighborhoods where decades of weather exposure have created the damp wood conditions carpenter ants favor. Early treatment prevents the secondary structural damage that expensive repairs require.",
+      },
+      {
+        question: "How do I stop German cockroaches from spreading from nearby commercial buildings in Wyoming?",
+        answer:
+          "The key is intercepting them at the point of entry rather than treating the interior as a standalone measure. A technician can identify the utility penetrations and wall voids that connect your property to adjacent commercial spaces and seal or bait those pathways. Gel bait placed at interior harborage points eliminates the colony currently present. Perimeter spray is not effective against German cockroaches because they do not live outdoors.",
+      },
+      {
+        question: "When do termites swarm in Wyoming, Michigan?",
+        answer:
+          "In April and May, typically on warm afternoons after rain. Eastern subterranean termites in Kent County swarm as the soil warms in spring, and winged termite swarmers are sometimes confused with flying ants. Termite swarmers have equal-length wings and a straight waist; flying ants have longer front wings and a pinched waist. Finding wings on windowsills after a warm rain day is a strong indicator of a swarming event nearby.",
+      },
+      {
+        question: "Do mice in Wyoming come from the commercial areas on 28th Street?",
+        answer:
+          "Yes, in part. The restaurant and food retail corridor along 28th Street sustains year-round mouse populations that forage into surrounding residential blocks. But the fall surge is driven more by seasonal cooling and the harvest of agricultural land south of the city than by commercial activity alone. Both sources contribute, which is why year-round exterior bait management is more effective than seasonal-only treatment for homes adjacent to either the commercial corridor or the agricultural fringe.",
+      },
+      {
+        question: "What pest issues come from Buck Creek in Wyoming, MI?",
+        answer:
+          "Mosquitoes, Norway rats, and higher carpenter ant pressure from the damp wood along the creek banks. Buck Creek's seasonal flooding keeps wood in the adjacent yards moist, which accelerates carpenter ant nesting in fence posts and decks. The creek also provides a travel corridor for Norway rats moving between the agricultural areas south of the city and the commercial and residential areas along Division Avenue. Professional mosquito barrier programs and year-round rodent management address both concerns.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Grand Rapids", slug: "grand-rapids" },
+      { name: "Kalamazoo", slug: "kalamazoo" },
+      { name: "Muskegon", slug: "muskegon" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Wyoming, MI | Carpenter Ants, Mice & Termites",
+    metaDescription:
+      "Wyoming MI pest control for carpenter ants, house mice, subterranean termites, yellow jackets and German cockroaches. Kent County Grand Rapids south suburb 28th Street corridor Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "roseville-mi",
+    name: "Roseville",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~48,000",
+    county: "Macomb County",
+    climate: "cold-humid",
+    climateDriver:
+      "Roseville sits in inner Macomb County as part of the dense Detroit metropolitan suburban belt, where Lake St. Clair provides modest temperature moderation and the aging urban housing stock creates consistent pest harborage. Michigan State University Extension documents carpenter ants, house mice, Norway rats, and subterranean termites as primary concerns throughout Macomb County. The Gratiot Avenue commercial corridor through Roseville sustains rodent populations that press into adjacent residential blocks year-round.",
+    topPests: ["German cockroaches", "House mice", "Norway rats", "Carpenter ants", "Brown marmorated stink bugs"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Roseville's inner-ring suburban housing density and Gratiot Avenue commercial activity create the conditions where German cockroaches spread through shared utility infrastructure between commercial and residential properties. Multi-family housing near the commercial corridor sees the most consistent pressure.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge fall and winter",
+        note: "Roseville's mid-century housing stock carries the foundation gaps and utility penetrations that house mice exploit on cold Macomb County nights. The Gratiot Avenue corridor sustains year-round mouse populations from food sources in adjacent commercial operations.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "MSU Extension documents Norway rats as a persistent urban pest in Macomb County's denser suburban areas. Roseville's commercial corridor and storm drainage infrastructure provide both the harborage and food sources that sustain urban rat populations in the densest residential blocks.",
+      },
+      {
+        name: "Black carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Roseville's housing stock, built primarily between 1950 and 1975, has accumulated the moisture damage in decks, window frames, and fascia that carpenter ants in Macomb County seek for nesting. Aging wood elements in older neighborhoods carry the highest risk.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November indoors",
+        note: "Stink bugs have established throughout Macomb County and aggregate on home exteriors in fall seeking winter shelter. Roseville's suburban housing with mature landscape trees provides the seasonal outdoor habitat before September entry attempts begin.",
+      },
+    ],
+    localHook:
+      "Roseville's Gratiot Avenue corridor is one of Macomb County's busiest commercial strips, and the food retail and restaurant activity along that corridor sustains house mouse and Germany cockroach populations in the surrounding residential blocks year-round.",
+    intro:
+      "Pest control in Roseville reflects its position as an inner-ring suburb in Michigan's densest metropolitan county. German cockroaches spread through shared utility infrastructure from commercial buildings along Gratiot Avenue into adjacent multi-family residential properties. House mice and Norway rats are year-round concerns sustained by the commercial food corridor, with a pronounced fall surge as the suburban areas cool and rodents seek shelter. Carpenter ants target the moisture-damaged wood in Roseville's mid-century housing. Brown marmorated stink bugs aggregate on home exteriors each September. MSU Extension documents all of these species throughout Macomb County.",
+    sections: [
+      {
+        heading: "Gratiot Avenue corridor and urban rodent management",
+        body: "Gratiot Avenue runs through the center of Roseville as one of Macomb County's primary commercial arteries, and the restaurant, grocery, and retail activity along the corridor creates a year-round food base for both house mice and Norway rats in the surrounding residential blocks. Urban rodent management along a commercial corridor requires a different approach than rural mouse exclusion. Interior bait stations and exterior perimeter programs on residential properties adjacent to Gratiot Avenue need to account for the continuous replacement population from the commercial side. For homes within one or two blocks of the corridor, a year-round program is more effective than seasonal treatment, because rodent pressure does not diminish in summer the way it does in purely agricultural areas. Sealing the primary entry points, particularly garage door seals, utility penetrations, and foundation gaps, combined with exterior bait stations, provides the most consistent residential protection.",
+      },
+      {
+        heading: "German cockroaches and Roseville's multi-family housing",
+        body: "Roseville has a significant proportion of multi-family housing built in the 1960s and 1970s, and the older construction provides the utility chases, shared wall voids, and drainage connections that German cockroaches exploit to spread between units. Unlike outdoor pests, German cockroaches do not require exterior access and are not affected by Michigan winters. A single infested unit in a building can spread to adjacent units within a few weeks through shared pipe runs and electrical conduits. Effective treatment requires gel bait placed at the harborage areas inside the structure, not perimeter spray. Building managers who use only perimeter treatments typically achieve only partial control, because they are not addressing the interior population. Residents who notice small cockroaches in kitchens and bathrooms should report to building management immediately to allow early-stage treatment before the infestation spreads.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and garage door seals to reduce house mouse entry from the Gratiot Avenue corridor.",
+      "Report cockroach sightings in multi-family housing immediately to allow early treatment before spread between units.",
+      "Inspect deck boards, fascia, and window trim annually for carpenter ant frass and moisture damage.",
+      "Apply stink bug exclusion sealant around window frames and exterior gaps before mid-September.",
+      "Keep garbage sealed in covered containers to reduce Norway rat food sources near commercial corridors.",
+    ],
+    costNote:
+      "Roseville MI pest control typically starts with a free inspection. A quarterly exterior program covers mice, ants, and stink bugs. German cockroach bait programs for multi-family or commercial-adjacent properties are priced separately. Norway rat programs along commercial corridors often include exterior bait stations.",
+    faqs: [
+      {
+        question: "How do German cockroaches spread between apartments in Roseville?",
+        answer:
+          "Through shared wall voids, pipe runs, and electrical conduits in older multi-family buildings. German cockroaches do not need to travel outdoors to move from unit to unit, which is why perimeter spray alone does not eliminate building-wide infestations. Gel bait applied at the harborage points inside each affected unit, combined with sealing the pipe and conduit penetrations between units, provides the most effective building-level control.",
+      },
+      {
+        question: "Is Norway rat pressure different from mouse pressure in Roseville?",
+        answer:
+          "Yes, in behavior and entry point. Norway rats prefer ground-level entry: floor drains, damaged foundation, and gaps at utility entry points at slab level. House mice enter higher up through soffit gaps, utility penetrations, and garage door seals. Both are sustained by the Gratiot Avenue commercial corridor, but they require different management approaches. Seeing large dark droppings or hearing activity at floor level rather than in the attic is a better indicator of rats than mice.",
+      },
+      {
+        question: "When do carpenter ants become active in Roseville, MI?",
+        answer:
+          "MSU Extension documents carpenter ant activity from April through September in Michigan. In Roseville, the most common indicator is sighting large black ants inside the home in spring, which suggests an established colony in wall or roof structure. Frass below a wooden element is the other key indicator. Treatment in spring before the colony produces winged reproductives in June gives the best outcome and prevents satellite colony spread.",
+      },
+      {
+        question: "Are stink bugs a Macomb County problem or just in certain areas?",
+        answer:
+          "MSU Extension confirms brown marmorated stink bugs are now established throughout Macomb County. Roseville's suburban housing with mature ornamental trees and gardens is consistent with the habitat stink bugs use during the warm season. September aggregations on south-facing walls are the most visible sign. Exterior sealing before mid-September significantly reduces winter entry.",
+      },
+      {
+        question: "Does Roseville's older housing need more frequent pest inspections?",
+        answer:
+          "Homes built before 1975 in Roseville have had more years to accumulate the gaps, moisture damage, and aged sealant that pests exploit. Annual inspections are a practical standard for mid-century housing in Macomb County. The combination of German cockroach, carpenter ant, and subterranean termite exposure in older inner-ring suburban properties means that annual professional assessment catches problems before they become expensive repairs.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Warren", slug: "warren" },
+      { name: "Sterling Heights", slug: "sterling-heights" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Roseville, MI | Cockroaches, Mice & Carpenter Ants",
+    metaDescription:
+      "Roseville MI pest control for German cockroaches, house mice, Norway rats, carpenter ants and stink bugs. Macomb County Gratiot Avenue Detroit metro inner suburb Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "st-clair-shores",
+    name: "St. Clair Shores",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~59,000",
+    county: "Macomb County",
+    climate: "cold-humid",
+    climateDriver:
+      "St. Clair Shores sits on the western shore of Lake St. Clair in Macomb County, where the lake's temperature moderating effect produces slightly milder winters than inland metro Detroit but also sustains higher summer humidity. The city's network of residential canals leading to Lake St. Clair creates persistent mosquito breeding habitat in warm months, and Macomb County Mosquito Control manages the main drainage channels. MSU Extension documents carpenter ants, house mice, and subterranean termites throughout Macomb County.",
+    topPests: ["Carpenter ants", "House mice", "Mosquitoes", "Norway rats", "Subterranean termites"],
+    pestProfile: [
+      {
+        name: "Black carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "St. Clair Shores' older residential housing along the canal system carries consistent carpenter ant exposure, particularly in dock structures, deck beams, and fence posts that stay damp from seasonal lake moisture. MSU Extension identifies carpenter ants as the primary wood-destroying ant in Michigan.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge fall and winter",
+        note: "House mice enter St. Clair Shores homes through gaps that are often too small to notice. The city's mid-century housing along Jefferson Avenue and the lakefront has accumulated the utility penetration gaps and aging sealant that mice exploit as temperatures drop in Macomb County each fall.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "St. Clair Shores' residential canal network leading to Lake St. Clair creates standing-water breeding habitat. Macomb County Mosquito Control manages the primary drainage channels, but private canal frontage and boat slip areas on individual properties still produce mosquitoes through the active season.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "The Nautical Mile on Jefferson Avenue and commercial activity along Gratiot Avenue sustain Norway rat populations in the surrounding blocks. Rats use the canal banks as travel corridors between the lake's edge and residential interiors.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April and May, active year-round",
+        note: "MSU Extension confirms subterranean termites throughout Macomb County. The elevated soil moisture in the canal-adjacent neighborhoods of St. Clair Shores creates conditions that support termite colony activity more consistently than drier inland properties.",
+      },
+    ],
+    localHook:
+      "St. Clair Shores' residential canal network is one of Michigan's most distinctive suburban features, and those same canals create persistent mosquito breeding habitat that the county drainage authority manages in the main channels but cannot address on private canal frontage.",
+    intro:
+      "Pest control in St. Clair Shores is shaped by the city's unique lakeside geography. The residential canals leading to Lake St. Clair are what make the city famous, and they are also the source of above-average mosquito pressure from May through September on properties with canal frontage. Carpenter ants target dock structures, deck beams, and fence posts kept damp by the lake environment. House mice and Norway rats are year-round concerns near Jefferson Avenue's commercial Nautical Mile and the residential waterfront. Subterranean termites are active throughout Macomb County, with the canal-adjacent soil moisture elevating activity near the water.",
+    sections: [
+      {
+        heading: "Canal network mosquitoes and professional barrier management",
+        body: "St. Clair Shores' residential canals are tidally influenced by Lake St. Clair, and the still water in canal dead ends, boat slips, and private dock areas creates mosquito breeding habitat that Macomb County Mosquito Control's main channel management does not fully address. Homeowners with canal frontage experience above-average mosquito pressure from late May through September because their private waterfront areas are outside the county's spray program. Professional mosquito barrier spray applied to vegetation along the canal edge, dock areas, and the perimeter of the yard significantly reduces the local breeding population. Monthly applications from May through September provide the most consistent protection for waterfront properties. Larvicide treatments directly in the canal water on private portions of the waterfront are an additional layer used by homeowners who want maximum seasonal control.",
+      },
+      {
+        heading: "Carpenter ants and the lakefront wood environment",
+        body: "Lake St. Clair's moisture environment accelerates wood decay in dock structures, deck beams, and landscape timbers on St. Clair Shores properties, creating ideal carpenter ant nesting substrate throughout the city's waterfront neighborhoods. MSU Extension documents that black carpenter ants prefer moisture-softened wood and will establish satellite colonies in multiple adjacent wood elements once a primary nest is active. Dock and deck inspections for carpenter ant frass are a standard part of annual pest management in waterfront Macomb County communities. Treatment requires addressing all satellite nests, not just the primary colony, because fragmented colonies regenerate quickly from surviving satellite workers. Properties along the Nautical Mile commercial corridor near Jefferson Avenue have additional pressure from the food and waste that sustains foraging populations in the adjacent blocks.",
+      },
+    ],
+    prevention: [
+      "Treat private canal frontage and boat slip areas with larvicide monthly from May through September to reduce mosquito breeding.",
+      "Inspect dock timbers, deck boards, and fence posts adjacent to canals annually for carpenter ant frass and moisture damage.",
+      "Seal foundation gaps and utility penetrations before October to block house mouse entry from the Jefferson Avenue corridor.",
+      "Keep garbage sealed in covered containers near the Nautical Mile commercial area to reduce Norway rat food access.",
+      "Schedule a termite inspection for properties with wood dock elements or wood-to-soil contact near the canal system.",
+    ],
+    costNote:
+      "St. Clair Shores pest control typically starts with a free inspection. Canal frontage properties benefit from monthly mosquito barrier programs from May through September. Quarterly exterior programs cover mice, ants, and wasps. Termite protection is priced separately.",
+    faqs: [
+      {
+        question: "Does having a canal in St. Clair Shores make mosquitoes significantly worse?",
+        answer:
+          "Yes, particularly for properties at canal dead ends where water movement is minimal. Macomb County Mosquito Control manages the primary drainage channels, but private dock and boat slip areas produce mosquitoes that the county program does not reach. Properties with 50 or more feet of private canal frontage benefit substantially from monthly professional barrier spray and larvicide treatments during the active season.",
+      },
+      {
+        question: "Why do carpenter ants in St. Clair Shores target dock structures specifically?",
+        answer:
+          "Carpenter ants need moisture-softened wood as nesting substrate, and dock timbers in regular contact with Lake St. Clair's water are consistently in the ideal moisture range. MSU Extension confirms that waterfront wood elements throughout Macomb County's lakefront communities carry persistently higher carpenter ant exposure than inland wood. Annual inspection of dock beams and deck boards catches infestations before they spread to the connected structure.",
+      },
+      {
+        question: "How do Norway rats get from the canal to my St. Clair Shores home?",
+        answer:
+          "Norway rats are strong swimmers and use canal banks and the storm drainage infrastructure connecting the lake system to inland areas as travel corridors. Commercial food sources along Jefferson Avenue and the Nautical Mile sustain populations near the waterfront that forage inland at night. Gaps at utility entry points at ground level and floor drains are the primary entry routes. A perimeter bait station program and sealing these entry points are the two-part solution.",
+      },
+      {
+        question: "Is termite pressure higher near the St. Clair Shores canals?",
+        answer:
+          "Yes. Subterranean termites need consistent soil moisture to sustain colonies, and the canal-adjacent neighborhoods have higher year-round soil moisture than inland Macomb County properties. MSU Extension confirms eastern subterranean termites throughout the county. Properties with wood dock elements touching or near soil are at particular risk. Annual inspections are the practical standard for lakefront properties.",
+      },
+      {
+        question: "When do carpenter ants swarm in Macomb County?",
+        answer:
+          "Winged reproductive carpenter ants swarm in late spring to early summer in Michigan, typically in May or June. Finding a cluster of large winged ants inside the home in May is a strong indicator of an established colony in the structure. MSU Extension notes that carpenter ant swarmers from indoor colonies emerge in warm spring weather. This is the best time to schedule a professional inspection, because early-season treatment prevents the colony from establishing satellite nests in additional wood elements.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Warren", slug: "warren" },
+      { name: "Roseville", slug: "roseville-mi" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in St. Clair Shores, MI | Mosquitoes, Carpenter Ants & Mice",
+    metaDescription:
+      "St. Clair Shores pest control for mosquitoes, carpenter ants, house mice, Norway rats and termites. Macomb County Lake St. Clair canal waterfront Michigan specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "east-lansing",
+    name: "East Lansing",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~46,000",
+    county: "Ingham County",
+    climate: "cold-humid",
+    climateDriver:
+      "East Lansing sits adjacent to Lansing in Ingham County under a cold-humid Great Lakes climate with cold snowy winters and warm humid summers. Michigan State University is the city's dominant institution, and the Red Cedar River runs through campus and the adjacent neighborhoods. MSU Extension documents house mice, carpenter ants, German cockroaches, and subterranean termites throughout Ingham County. The university's large student population and rental housing stock create conditions where German cockroaches and bed bugs spread more readily between units than in owner-occupied areas.",
+    topPests: ["House mice", "German cockroaches", "Carpenter ants", "Brown marmorated stink bugs", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge fall",
+        note: "East Lansing's mix of student rental housing and older residential neighborhoods near Michigan State University carries significant house mouse pressure each fall. Rental properties with higher tenant turnover accumulate entry gaps over time that mice exploit when temperatures drop in Ingham County.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Michigan State University's student population and the density of rental housing in East Lansing's core neighborhoods create conditions where German cockroaches spread between units. MSU Extension confirms they are a consistent urban pest in Ingham County's denser residential areas.",
+      },
+      {
+        name: "Black carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "The Red Cedar River corridor through Michigan State University campus and adjacent East Lansing neighborhoods provides wooded riparian habitat that sustains carpenter ant colonies. MSU Extension identifies carpenter ants as Michigan's primary wood-destroying ant, and the moisture-rich creek environment accelerates the wood decay they prefer.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November indoors",
+        note: "Stink bugs are established throughout Ingham County and aggregate on home and apartment exteriors in fall. East Lansing's campus-adjacent neighborhoods with mature ornamental trees see consistent September aggregations on south-facing walls.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October",
+        note: "Yellowjacket colonies in Ingham County peak in late summer and are aggressive near food sources on East Lansing's commercial streets and campus perimeter. Ground nests in lawns and wall void nests in older rental housing are the two most common situations.",
+      },
+    ],
+    localHook:
+      "East Lansing's large Michigan State University student population creates high rental housing turnover, and that turnover accumulates the entry gaps and shared infrastructure conditions that let German cockroaches and house mice spread between units more rapidly than in stable owner-occupied neighborhoods.",
+    intro:
+      "Pest control in East Lansing is shaped by two things: Michigan State University and the Red Cedar River. The university's dense rental housing and frequent tenant turnover create conditions where German cockroaches and bed bugs cycle through units faster than in other Ingham County communities. The Red Cedar River corridor through campus and the adjacent Faculty Row and College Heights neighborhoods provides the carpenter ant and mosquito habitat typical of Great Lakes riparian zones. House mice surge each fall as temperatures drop across the county. Stink bugs aggregate on home exteriors in September, and yellowjackets peak near campus food areas in late summer.",
+    sections: [
+      {
+        heading: "German cockroaches in East Lansing's rental housing",
+        body: "German cockroaches thrive in East Lansing's rental housing belt because frequent tenant turnover creates the conditions where infestations go undetected between occupancies. MSU Extension confirms German cockroaches as an established pest in Ingham County's denser residential areas. They spread through shared pipe runs, utility chases, and wall voids between units without ever going outdoors. A single infested unit on the ground floor of a multi-family building can seed the floors above through vertical conduits within weeks. Gel bait applied to harborage points inside the kitchen and bathroom is far more effective than perimeter spray for German cockroaches. Landlords and property managers who include professional cockroach treatment during tenant transitions, rather than waiting for complaints, have significantly lower per-unit infestation rates than those who treat reactively.",
+      },
+      {
+        heading: "Red Cedar River corridor and carpenter ants in East Lansing",
+        body: "The Red Cedar River runs east-west through the Michigan State campus and into the Faculty Row and College Heights neighborhoods of East Lansing, and the riparian habitat along both banks creates continuous carpenter ant habitat in Ingham County. MSU Extension documents carpenter ants as the most commonly reported ant pest in Michigan, and the moisture-rich environment along the river keeps wood in fence posts, deck beams, and tree stumps in the ideal damp condition for carpenter ant nesting. Properties within two blocks of the Red Cedar corridor see more consistent carpenter ant pressure than those farther from the river. Treatment in early May, before the colony produces winged reproductives in late spring, gives the most complete control. Removing moisture-damaged wood and maintaining drainage away from the structure reduces future attractiveness.",
+      },
+    ],
+    prevention: [
+      "Inspect rental properties for German cockroach activity between tenant occupancies and treat before new tenants arrive.",
+      "Seal utility penetrations and shared wall voids in multi-unit buildings to limit cockroach spread between units.",
+      "Inspect deck beams and fence posts adjacent to the Red Cedar River corridor annually for carpenter ant frass.",
+      "Seal foundation gaps and entry points before October to reduce house mouse entry during fall cooling.",
+      "Apply stink bug exclusion sealant on south-facing walls and window frames before mid-September.",
+    ],
+    costNote:
+      "East Lansing pest control for rental properties typically includes between-tenancy inspections and treatments. Quarterly exterior programs cover mice, ants, and wasps. German cockroach bait programs for multi-family properties are a commonly requested standalone service near the MSU campus area.",
+    faqs: [
+      {
+        question: "Are German cockroaches common in East Lansing rental housing?",
+        answer:
+          "Yes. MSU Extension confirms German cockroaches as a consistent pest in Ingham County's denser residential areas, and East Lansing's high rental turnover near Michigan State University accelerates their spread between units. A property that was cockroach-free can become infested within weeks if an adjacent unit is treated and cockroaches migrate rather than being eliminated. Between-tenancy professional treatment is the most effective way to break the cycle.",
+      },
+      {
+        question: "How does the Red Cedar River affect pest pressure in East Lansing?",
+        answer:
+          "The river's riparian habitat sustains carpenter ant colonies in the damp wood along both banks, and the wooded corridor provides travel habitat for Norway rats and raccoons moving between the campus natural areas and residential streets. MSU Extension identifies the river corridor as one of the higher-pressure zones for carpenter ants in Ingham County. Properties on Faculty Row and College Heights adjacent to the corridor benefit from annual carpenter ant inspections.",
+      },
+      {
+        question: "Do house mice get worse in East Lansing when students move out in May?",
+        answer:
+          "May move-out does occasionally create short-term mouse displacement when buildings are vacated and cleaned. But the primary fall surge is driven by seasonal temperature drops in Ingham County, not by campus activity. Mice that inhabited the surrounding landscape all summer press indoors in October and November regardless of tenant status. Year-round exterior bait management on rental properties maintains a lower base population before the fall surge.",
+      },
+      {
+        question: "When do stink bugs appear in East Lansing?",
+        answer:
+          "Late August and September, when stink bugs in Ingham County begin seeking winter shelter. South and west-facing walls of homes near the MSU campus see the most visible aggregations, particularly on warm fall afternoons. Sealing exterior gaps around window frames, utility penetrations, and soffit vents before mid-September significantly reduces the number that enter wall voids and attic spaces for overwintering.",
+      },
+      {
+        question: "Are yellowjackets a particular problem near Michigan State University?",
+        answer:
+          "Yes, in late summer when colony sizes peak. The outdoor dining and waste areas near the campus perimeter provide the food sources that sustain large late-summer colonies. Ground nests in lawn areas near the campus and wall void nests in older rental housing are the two most common situations. A licensed technician can treat nests safely after dark when foragers have returned to the colony, which prevents defensive swarming during treatment.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Lansing", slug: "lansing" },
+      { name: "Grand Rapids", slug: "grand-rapids" },
+      { name: "Ann Arbor", slug: "ann-arbor" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in East Lansing, MI | Mice, Cockroaches & Carpenter Ants",
+    metaDescription:
+      "East Lansing pest control for house mice, German cockroaches, carpenter ants, stink bugs and yellowjackets. Ingham County Michigan State University Red Cedar River rental housing specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

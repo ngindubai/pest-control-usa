@@ -2419,4 +2419,376 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Canton GA pest control for fire ants, subterranean termites, mosquitoes and carpenter ants. Cherokee County Etowah River Blue Ridge foothills Atlanta metro specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "newnan",
+    name: "Newnan",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~42,000",
+    county: "Coweta County",
+    climate: "hot-humid",
+    climateDriver: "Coweta County's hot humid piedmont climate with Chattahoochee River system drainages drive intense termite and fire ant pressure across the growing season",
+    topPests: ["subterranean termites", "fire ants", "mosquitoes", "German cockroaches", "brown recluse spiders"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        activeSeason: "February through November",
+        note: "Subterranean Termites are active in Newnan given the local climate. Annual professional inspection is the standard protection for Newnan homes.",
+      },
+      {
+        name: "Fire Ants",
+        activeSeason: "February through November",
+        note: "Imported fire ants are established in Subterranean Termites and require broadcast bait treatment for effective yard-level control.",
+      },
+      {
+        name: "Mosquitoes",
+        activeSeason: "March through October",
+        note: "Mosquitoes in Fire Ants are active throughout the warm season and require professional barrier spray programs for effective management.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "Year-round",
+        note: "German cockroaches in Mosquitoes are year-round indoor pests that spread through shared plumbing infrastructure in commercial and multifamily buildings.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        activeSeason: "March through November",
+        note: "Brown Recluse Spiders are present in German Cockroaches in undisturbed outdoor storage areas. Wearing gloves when handling outdoor materials reduces encounter risk.",
+      },
+    ],
+    localHook: "Newnan is one of the fastest-growing cities in Georgia, and the constant construction activity across Coweta County means fire ant colonies are continuously arriving in transported sod, nursery stock, and disturbed fill soil.",
+    intro: "Newnan anchors Coweta County southwest of Atlanta and has experienced rapid residential growth that has reshaped its landscape over the past decade. That growth brings a predictable pest pattern. Disturbed construction soil is imported fire ant territory, and every new subdivision generates fresh infestations within one to two seasons of completion. The hot humid climate and clay-loam soils common to Coweta County support some of the most active subterranean termite populations in Georgia, with swarmer season running from February through May. Mosquitoes breed in the seasonal drainages that connect to the Chattahoochee watershed, and German cockroaches are the primary indoor pest in Newnan's restaurant and retail corridors along US-29.",
+    sections: [
+      {
+        heading: "Termite and Mosquito Pressure by the Numbers in Newnan",
+        body: "Georgia has one of the highest rates of subterranean termite activity in the United States, and Coweta County's red clay soils and humid summers create near-ideal conditions. UGA Extension reports that a majority of untreated older structures in Georgia's Piedmont will show termite evidence within 20 years. In Newnan, that pressure is compounded by the rapid construction of new homes on former agricultural and woodland parcels, which disturbs established termite colony territory and can accelerate swarmer emergence near new construction. Subterranean termite swarmers in Newnan typically appear from late February through April on warm, humid mornings following rainfall. If you observe swarmers on your property, get a professional inspection within a few days rather than waiting, as swarming indicates an established colony nearby. For mosquitoes, Newnan's position near Upper Shoal Creek and other Chattahoochee system tributaries places many neighborhoods within range of natural breeding habitat. Professional monthly barrier spray from March through October, combined with larvicide in any standing water on the property, provides the most consistent outdoor protection.",
+      },
+      {
+        heading: "Fire Ant and Indoor Pest Control in Newnan's New Subdivisions",
+        body: "The subdivisions spreading across Coweta County from Newnan's core face a consistent fire ant pressure. Imported fire ants arrive in sod pallets, nursery stock, and fill soil. Once established in a yard, they spread from adjacent untreated areas within months. The standard approach recommended by UGA Extension is a two-step program: broadcast bait across the entire yard in spring, followed by spot mound treatment through summer. Relying on spot treatment alone without broadcast bait allows new colonies to establish faster than individual mound treatment can address. For indoor pest control, German cockroaches are the top call in Newnan's commercial kitchen corridor and in multifamily housing near the downtown core. They are exclusively an indoor pest that spreads through shared plumbing chases and under-door gaps. Professional gel bait programs are more effective than aerosol sprays, which often scatter the population through walls without eliminating the colony.",
+      },
+    ],
+    prevention: [
+      "Apply broadcast fire ant bait across the full lawn in February or March before colony populations peak",
+      "Inspect new construction areas and nursery plant deliveries for fire ant queens before installing in the yard",
+      "Eliminate standing water in yard drainage, bird baths, and downspout extensions within 72 hours of rain",
+      "Schedule a termite inspection for any Newnan home older than 10 years without documented treatment history",
+      "Seal crawl space vents and foundation penetrations to reduce termite moisture access and spider harborage",
+    ],
+    costNote: "Newnan pest control for a standard residential treatment runs $110 to $185. Termite liquid barrier treatment for a Coweta County home averages $900 to $1,500. Mosquito barrier spray programs for the active season run $60 to $100 per monthly visit.",
+    faqs: [
+      {
+        question: "When do termite swarmers appear in Newnan, GA?",
+        answer: "Eastern subterranean termite swarmers in Coweta County typically appear from late February through April. They emerge on warm, humid mornings, usually following rainfall, and are most visible near windows, sliding doors, and exterior foundation vents. If you observe swarmers, professional inspection within a few days is strongly recommended.",
+      },
+      {
+        question: "Are fire ants in Newnan dangerous to children and pets?",
+        answer: "Yes. Imported fire ants in Coweta County are aggressive when disturbed and sting repeatedly. Children playing in infested yards and pets that disturb mounds are at risk for multiple stings, which can cause severe allergic reactions in sensitive individuals. Treating mounds promptly and applying broadcast bait annually are the most effective protective measures.",
+      },
+      {
+        question: "Why is German cockroach control so difficult in Newnan restaurants?",
+        answer: "German cockroaches breed extremely rapidly, with a single female producing hundreds of offspring in her lifetime. In commercial kitchens with continuous food and moisture, populations can grow to thousands in a matter of weeks. Aerosol sprays scatter them into wall voids without eliminating the colony. Professional gel bait programs targeting harboring points such as under equipment, around pipe penetrations, and in drawer channel areas are the only reliable approach for established infestations.",
+      },
+      {
+        question: "How long does a mosquito barrier spray last in Newnan?",
+        answer: "Professional barrier spray treatments in Newnan typically provide 21 to 30 days of knockdown protection against adult mosquitoes. Rain and direct sun gradually degrade the residual. Monthly service from March through October is the standard program for consistent outdoor protection. For properties near Upper Shoal Creek or other drainages, bi-weekly treatment during June and July may be appropriate.",
+      },
+      {
+        question: "Does new construction reduce termite risk in Newnan?",
+        answer: "Not necessarily. While new construction in Georgia typically includes a pre-construction soil barrier treatment, construction disturbances can compromise these barriers around pipe penetrations and additions. Homes built on former woodland or agricultural parcels in Coweta County may also sit near established termite colony territory. Annual inspections remain important for new homes.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Peachtree City", slug: "peachtree-city" },
+      { name: "Marietta", slug: "marietta" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Newnan, GA | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Newnan pest control for subterranean termites, fire ants, mosquitoes, German cockroaches and brown recluse spiders. Coweta County Chattahoochee watershed southwest Atlanta metro Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "peachtree-corners",
+    name: "Peachtree Corners",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~42,000",
+    county: "Gwinnett County",
+    climate: "hot-humid",
+    climateDriver: "Gwinnett County piedmont with Chattahoochee River corridor drives year-round termite activity and intense summer mosquito pressure",
+    topPests: ["subterranean termites", "mosquitoes", "fire ants", "German cockroaches", "house mice"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        activeSeason: "February through November",
+        note: "Subterranean Termites are active in Peachtree Corners given the local climate. Annual professional inspection is the standard protection for Peachtree Corners homes.",
+      },
+      {
+        name: "Mosquitoes",
+        activeSeason: "March through October",
+        note: "Mosquitoes in Subterranean Termites are active throughout the warm season and require professional barrier spray programs for effective management.",
+      },
+      {
+        name: "Fire Ants",
+        activeSeason: "February through November",
+        note: "Imported fire ants are established in Mosquitoes and require broadcast bait treatment for effective yard-level control.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "Year-round",
+        note: "German cockroaches in Fire Ants are year-round indoor pests that spread through shared plumbing infrastructure in commercial and multifamily buildings.",
+      },
+      {
+        name: "House Mice",
+        activeSeason: "January through December",
+        note: "Rodents are a persistent concern in German Cockroaches, where the local environment provides harborage and food sources year-round.",
+      },
+    ],
+    localHook: "Peachtree Corners borders the Chattahoochee River corridor directly, and the river's floodplain and adjacent wetlands create one of the most productive mosquito breeding environments in the Atlanta metro from spring through fall.",
+    intro: "Peachtree Corners occupies Gwinnett County's southwestern corner along the Chattahoochee River, and that geography defines its pest profile more than any other factor. The Chattahoochee River corridor and its adjacent wetlands generate mosquito pressure that begins in March and persists through October. The city's mix of corporate office parks and established residential neighborhoods along Peachtree Corners Circle and surrounding streets means both commercial and residential pest management are active year-round. Subterranean termites are a major concern in Gwinnett County, where the combination of clay soils, heat, and humidity creates near-ideal colony conditions. Fire ants are widespread in open turf areas throughout the city.",
+    sections: [
+      {
+        heading: "Field Manual for Peachtree Corners Pest Management",
+        body: "A complete pest management program for a Peachtree Corners home covers three fronts. The Chattahoochee River corridor means mosquito protection from March through October is not optional for outdoor comfort and health. Gwinnett County has confirmed West Nile virus in local mosquito pools in prior seasons. Monthly professional barrier spray combined with larvicide in any standing yard water is the baseline program. Termite protection is the structural priority. Eastern subterranean termites swarm in Gwinnett County from late February through April, and a colony in a crawl space or slab void can cause significant structural damage before visible signs appear. Annual inspection plus a liquid barrier treatment for homes without documented history is the standard. Fire ant management in turf areas requires broadcast bait in spring, followed by spot mound treatment through summer. This is more effective than spot treatment alone, which cannot keep pace with colony establishment from adjacent untreated areas.",
+      },
+      {
+        heading: "Protecting the Chattahoochee River Corridor Properties",
+        body: "Homes and commercial properties in Peachtree Corners that back up to the Chattahoochee River parkway or its adjacent green space face elevated pest pressure on multiple fronts. The river corridor provides cover and movement routes for Norway rats and house mice, which use the riparian vegetation as protective habitat while foraging into adjacent neighborhoods and office parks. Exterior bait station programs on these properties should be supplemented with foundation exclusion work to prevent rodent entry. Mosquito management along the river corridor requires addressing breeding sources on the property itself, as the river's floodplain pools cannot be treated. Larvicide in ornamental water features, removal of standing water, and professional barrier spray form the practical defense. UGA Extension notes that tick populations, particularly the lone star tick and American dog tick, are elevated in areas with significant deer traffic, and the Chattahoochee parkland supports a resident deer herd that moves into adjacent residential areas.",
+      },
+    ],
+    prevention: [
+      "Apply mosquito barrier spray from March through October for Chattahoochee corridor properties",
+      "Maintain exterior bait station service year-round for Norway rat and mouse pressure from river corridor",
+      "Broadcast fire ant bait in February and again in September for two-season colony suppression",
+      "Confirm termite treatment history and schedule inspection for homes without recent documentation",
+      "Check for tick exposure after walks in Chattahoochee parkland and use repellent with DEET or picaridin",
+    ],
+    costNote: "Peachtree Corners pest control for a standard residential treatment runs $120 to $200. Chattahoochee corridor properties often add a rodent bait station program at $50 to $100 per monthly service. Termite liquid barrier treatments average $1,000 to $1,600 in Gwinnett County.",
+    faqs: [
+      {
+        question: "Are ticks a concern in Peachtree Corners given the Chattahoochee greenway?",
+        answer: "Yes. Lone star ticks and American dog ticks are active in the Chattahoochee River corridor and adjacent residential edges from April through October. Lone star ticks are aggressive biters that will actively pursue hosts. Use DEET or picaridin repellent when walking in greenway areas, perform tick checks after outdoor time, and consider professional perimeter tick treatment for properties that back up to the parkland.",
+      },
+      {
+        question: "When do termites swarm in Gwinnett County?",
+        answer: "Eastern subterranean termite swarmers in Gwinnett County typically appear from late February through April, most often on warm humid mornings following rainfall. If you observe swarmers emerging from wall voids, around window frames, or at foundation vents, professional inspection within a few days is strongly recommended. Do not delay, as swarmers indicate an established nearby colony.",
+      },
+      {
+        question: "Do the Peachtree Corners corporate office parks attract more pests?",
+        answer: "Commercial kitchens, food service areas, and the dumpster corrals in Peachtree Corners office parks do attract German cockroaches and rodents, and these can spread from commercial to adjacent residential areas. Residential properties within a block or two of active commercial kitchens may benefit from more frequent exterior monitoring.",
+      },
+      {
+        question: "How often should I treat for fire ants in Peachtree Corners?",
+        answer: "UGA Extension recommends two broadcast bait applications per year for areas with persistent fire ant pressure: once in late winter or early spring, and again in early fall. For properties near undisturbed land where colonies continuously re-establish, this two-application schedule is more effective than a single annual treatment.",
+      },
+      {
+        question: "Is mosquito control important for commercial properties in Peachtree Corners?",
+        answer: "Yes. Outdoor seating and landscaped common areas in Peachtree Corners office and retail properties generate employee and customer complaints when mosquito pressure is high. Monthly professional barrier spray for outdoor common areas from March through October is a standard amenity for commercial properties near the Chattahoochee corridor.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Duluth", slug: "duluth" },
+      { name: "Norcross", slug: "norcross" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Peachtree Corners, GA | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Peachtree Corners pest control for subterranean termites, mosquitoes, fire ants, German cockroaches and house mice. Gwinnett County Chattahoochee River corridor Atlanta metro Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "milton",
+    name: "Milton",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~42,000",
+    county: "Fulton County",
+    climate: "hot-humid",
+    climateDriver: "North Fulton County's equestrian and wooded rural character brings elevated tick and fire ant pressure alongside the standard Georgia termite and mosquito season",
+    topPests: ["subterranean termites", "fire ants", "mosquitoes", "ticks", "carpenter ants"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        activeSeason: "February through November",
+        note: "Subterranean Termites are active in Milton given the local climate. Annual professional inspection is the standard protection for Milton homes.",
+      },
+      {
+        name: "Fire Ants",
+        activeSeason: "February through November",
+        note: "Imported fire ants are established in Subterranean Termites and require broadcast bait treatment for effective yard-level control.",
+      },
+      {
+        name: "Mosquitoes",
+        activeSeason: "March through October",
+        note: "Mosquitoes in Fire Ants are active throughout the warm season and require professional barrier spray programs for effective management.",
+      },
+      {
+        name: "Ticks",
+        activeSeason: "March through October",
+        note: "Ticks in Mosquitoes are a health concern and require professional perimeter treatment for properties near natural areas.",
+      },
+      {
+        name: "Carpenter Ants",
+        activeSeason: "March through October",
+        note: "Carpenter ants in Ticks establish satellite nests in moisture-damaged wood and require treatment combined with moisture correction.",
+      },
+    ],
+    localHook: "Milton is Georgia's equestrian community, and the combination of horse pastures, wooded property edges, and large lot sizes creates one of the highest deer and tick pressure environments in the Atlanta metro.",
+    intro: "Milton sits in northern Fulton County where the Atlanta suburbs give way to equestrian estates, wooded lots, and open pasture land. This rural character makes Milton one of the most distinctive pest environments in the metro area. Deer traffic is high, which drives elevated lone star tick and black-legged tick populations along property edges and woodland borders. The open pastures are prime fire ant territory. Wooded lots support large carpenter ant colonies that can establish in structural wood if moisture issues are present. And the standard Georgia termite and mosquito pressure applies year-round in Milton's humid piedmont climate.",
+    sections: [
+      {
+        heading: "What Makes Milton's Pest Profile Different from Other Atlanta Suburbs",
+        body: "Most Atlanta suburbs deal with fire ants, termites, and mosquitoes. Milton adds two significant factors that most closer-in suburbs do not face at the same level: tick pressure and carpenter ant activity. The deer population that lives in and moves through Milton's wooded properties and along fence lines is the carrier that deposits lone star tick and black-legged tick larvae throughout the landscape from spring through fall. Lone star ticks are aggressive and will actively pursue hosts. They are a confirmed vector for ehrlichiosis and are associated with the alpha-gal meat allergy reaction. Black-legged ticks in Milton's Fulton County habitat are a potential vector for Lyme disease, though Georgia has lower Lyme risk than the northeastern states. Professional perimeter tick treatment from April through October, combined with personal protective measures when working near woodland edges, is the appropriate response for Milton properties. Carpenter ants are elevated in Milton because the combination of mature trees, wood debris from tree maintenance, and the higher moisture levels in wooded settings provides optimal nesting habitat. Unlike termites, they do not consume wood but excavate it, and an established colony in a wall void or roof structure can cause cosmetic and structural damage.",
+      },
+      {
+        heading: "Termite and Fire Ant Management on Milton's Large Lots",
+        body: "Milton's large lot sizes, often one acre or more, create a different termite and fire ant management challenge than quarter-acre suburban lots. The sheer acreage of open turf means more territory for fire ant colonies to expand, and broadcast bait applied to the full yard is more cost-effective than individual mound treatment alone. UGA Extension recommends broadcast bait in spring and fall for properties with persistent pressure. For termites, large lots with abundant tree coverage and wood debris in contact with soil are higher risk than maintained suburban lots. Milton homeowners should check around old tree stumps, wood landscaping materials, and fence posts for termite activity as part of an annual yard survey. Professional termite inspections for homes on wooded lots should include a full perimeter check of all wood-to-ground contact points, not only the house foundation.",
+      },
+    ],
+    prevention: [
+      "Apply perimeter tick treatment along all woodland and fence-line edges from April through October",
+      "Use personal tick protection (DEET, permethrin-treated clothing) when working near wooded property edges",
+      "Apply broadcast fire ant bait to the full yard in spring and again in fall",
+      "Remove old tree stumps and wood debris from soil contact to reduce termite and carpenter ant harborage",
+      "Keep firewood elevated and away from the house exterior to reduce carpenter ant access to the structure",
+    ],
+    costNote: "Milton pest control for a large lot residential treatment typically runs $150 to $250, reflecting the larger perimeter and additional tick treatment areas. Termite liquid barrier for a larger north Fulton County home averages $1,200 to $2,000. Seasonal tick programs run $80 to $150 per monthly treatment.",
+    faqs: [
+      {
+        question: "Are ticks in Milton a health risk I should take seriously?",
+        answer: "Yes. Lone star ticks, which are common in Milton's wooded and pasture environments, are aggressive biters and vectors for ehrlichiosis, a bacterial infection that causes fever, headache, and muscle aches. They are also associated with the alpha-gal syndrome, which causes an allergic reaction to red meat. Black-legged ticks in this area are potential Lyme disease vectors. Professional perimeter tick management and personal protective measures are appropriate for Milton properties with wooded or pasture edges.",
+      },
+      {
+        question: "What is the difference between carpenter ants and termites in Milton homes?",
+        answer: "Carpenter ants excavate wood to create nesting galleries but do not consume it, so they produce coarse sawdust-like frass. Termites consume wood and produce fine, pellet-like frass or mud tubes. Carpenter ants in Milton are typically associated with moisture-damaged wood, so their presence often indicates an underlying water intrusion issue that should be addressed alongside the ant treatment. Termites in Georgia are typically subterranean species that require soil contact.",
+      },
+      {
+        question: "How do I find fire ant mounds on a large Milton property?",
+        answer: "Fire ant mounds in Milton's pasture and open turf areas are easier to spot than in maintained grass because the mounds are often taller and more visible. After rain events, new mound activity increases. Walk the property perimeter and open areas every few weeks from March through October. Mounds in natural areas near fence lines and along drainage features are common initial establishment points.",
+      },
+      {
+        question: "Do I need professional pest control if I already have horses and farm dogs at my Milton property?",
+        answer: "Having working animals actually increases the need for professional pest management in some ways. Horses and dogs are both high-risk tick hosts that can carry ticks into structures. Horses in pastures are exposed to fire ants and may disturb mounds. Livestock feed storage and barn environments attract rodents. A professional program designed for an equestrian property addresses these specific risks without exposing animals to unsafe chemical applications.",
+      },
+      {
+        question: "When do termites swarm in north Fulton County?",
+        answer: "Eastern subterranean termite swarmers in Fulton County, including Milton, typically emerge from late February through April. They appear on warm humid mornings, often following rain. If you observe swarmers near the foundation, crawl space vents, or windows, contact a licensed pest control company for inspection within a few days.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Alpharetta", slug: "alpharetta" },
+      { name: "Roswell", slug: "roswell" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Milton, GA | Ticks, Termites & Fire Ants",
+    metaDescription:
+      "Milton GA pest control for ticks, subterranean termites, fire ants, mosquitoes and carpenter ants. Fulton County equestrian north Atlanta metro wooded estate Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "stonecrest",
+    name: "Stonecrest",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~55,000",
+    county: "DeKalb County",
+    climate: "hot-humid",
+    climateDriver: "DeKalb County's hot humid piedmont climate with Arabia Mountain greenway drainage drives termite, mosquito and fire ant pressure from February through November",
+    topPests: ["subterranean termites", "fire ants", "mosquitoes", "German cockroaches", "Norway rats"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        activeSeason: "February through November",
+        note: "Subterranean Termites are active in Stonecrest given the local climate. Annual professional inspection is the standard protection for Stonecrest homes.",
+      },
+      {
+        name: "Fire Ants",
+        activeSeason: "February through November",
+        note: "Imported fire ants are established in Subterranean Termites and require broadcast bait treatment for effective yard-level control.",
+      },
+      {
+        name: "Mosquitoes",
+        activeSeason: "March through October",
+        note: "Mosquitoes in Fire Ants are active throughout the warm season and require professional barrier spray programs for effective management.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "Year-round",
+        note: "German cockroaches in Mosquitoes are year-round indoor pests that spread through shared plumbing infrastructure in commercial and multifamily buildings.",
+      },
+      {
+        name: "Norway Rats",
+        activeSeason: "January through December",
+        note: "Rodents are a persistent concern in German Cockroaches, where the local environment provides harborage and food sources year-round.",
+      },
+    ],
+    localHook: "Stonecrest, incorporated in 2017, sits adjacent to the Arabia Mountain National Heritage Area, and the greenway corridor's wetlands and drainage features directly feed mosquito pressure in nearby residential neighborhoods.",
+    intro: "Stonecrest is one of Georgia's newest cities, having incorporated in 2017 from southeastern DeKalb County. Despite being new as a city, it encompasses established residential neighborhoods and the commercial corridor along Panola Road and Stonecrest Mall, an area that has dealt with pest pressure for decades. The Arabia Mountain Heritage Area's wetland drainages directly influence mosquito activity in adjacent residential areas from spring through fall. The hot humid DeKalb County climate keeps subterranean termites and fire ants active for most of the year. The city's older commercial core has persistent German cockroach pressure in restaurant kitchens and retail food service areas.",
+    sections: [
+      {
+        heading: "Comparing Stonecrest's Pest Pressure to Other Southeast DeKalb Neighborhoods",
+        body: "Stonecrest's pest profile is broadly comparable to other southeastern Atlanta suburbs, with a few specific factors that differ. The Arabia Mountain National Heritage Area creates a greenway buffer that, while a valued recreational asset, also functions as a year-round reservoir for mosquitoes, ticks, and fire ants that press into adjacent residential areas along the greenway edge. Neighborhoods that back up to the heritage area's wetland features and seasonal drainages experience higher mosquito and tick pressure than comparable inland DeKalb neighborhoods without a greenway edge. The Stonecrest Mall commercial corridor, with its concentrated food service and high-volume retail, creates rodent and cockroach pressure that can spread from commercial to adjacent residential areas. German cockroach calls are more frequent in residential buildings within a few blocks of active commercial kitchens than in comparable residential areas further from commercial activity.",
+      },
+      {
+        heading: "What Stonecrest Residents Need to Know About Termite Risk",
+        body: "DeKalb County's termite risk is among the highest in Georgia, and Stonecrest's established neighborhoods include a significant proportion of homes built in the 1970s, 1980s, and 1990s that may not have had termite barrier treatments or may have treatments that have exceeded their effective life. Subterranean termite swarmers in this part of DeKalb County emerge from late February through April, most commonly on warm humid mornings following rain. Annual inspection is the standard recommendation for all Stonecrest homes regardless of age. For homes without documented treatment history or with older treatments, a liquid barrier renewal is the appropriate protective step. Homes near the Arabia Mountain area's wooded edges also face carpenter ant pressure from the significant forest cover, which supports large outdoor colonies that can establish satellite nests in moisture-damaged structural wood.",
+      },
+    ],
+    prevention: [
+      "Apply broadcast fire ant bait across the full yard in late February and again in September",
+      "Eliminate standing water in low yard areas within 48 hours of rain to break mosquito breeding cycles",
+      "Schedule a termite inspection for homes built before 2000 that lack recent documented treatment",
+      "Seal foundation penetrations and crawl space vents before October to prevent Norway rat entry",
+      "Store restaurant food deliveries in sealed containers and inspect cardboard packaging for cockroach egg cases",
+    ],
+    costNote: "Stonecrest pest control for a standard residential treatment runs $110 to $185. Commercial accounts in the Stonecrest Mall corridor typically require monthly service at $150 to $400 depending on facility size. Termite liquid barrier treatments in DeKalb County average $950 to $1,600.",
+    faqs: [
+      {
+        question: "How does the Arabia Mountain greenway affect mosquito pressure in Stonecrest neighborhoods?",
+        answer: "The Arabia Mountain National Heritage Area's wetland features, seasonal rock outcrop pools, and drainage corridors create extensive mosquito breeding habitat that cannot be treated. Residential properties along the greenway edge receive persistent mosquito pressure from spring through fall, with peak activity in July and August. Monthly barrier spray and larvicide application in any on-property standing water provide the practical defense for these locations.",
+      },
+      {
+        question: "What termite species are active in Stonecrest?",
+        answer: "Eastern subterranean termites are the primary species in DeKalb County. Formosan subterranean termites have been documented in metro Atlanta and cause significantly faster structural damage than eastern subterranean termites. A licensed pest control company can identify species during an inspection, which is important for choosing the appropriate treatment approach.",
+      },
+      {
+        question: "Are German cockroaches in Stonecrest apartments a building-wide problem?",
+        answer: "Yes. German cockroaches in multifamily buildings spread through shared plumbing chases and gaps around pipes, making building-wide infestation common when individual units are treated in isolation. Property managers in Stonecrest multifamily buildings get the best results from coordinated building-wide gel bait programs rather than unit-by-unit aerosol treatments.",
+      },
+      {
+        question: "Do Norway rats from the Arabia Mountain greenway move into Stonecrest homes?",
+        answer: "Norway rats use riparian corridors and wooded edges as travel routes and can move into adjacent residential structures when outdoor temperatures drop in fall. Homes backing up to the greenway edge should have foundation exclusion work inspected before October, with exterior bait stations maintained year-round on properties with confirmed rodent activity.",
+      },
+      {
+        question: "Is fire ant control different in Stonecrest compared to other parts of DeKalb County?",
+        answer: "The basic treatment approach is the same, but the greenway edge provides a continuous source of new fire ant colonies from undisturbed land. Properties adjacent to the Arabia Mountain area should expect persistent re-infestation and plan for two broadcast bait applications per year rather than one, supplemented with spot mound treatment throughout the season.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Lithonia", slug: "lithonia" },
+      { name: "Decatur", slug: "decatur" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Stonecrest, GA | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Stonecrest pest control for subterranean termites, fire ants, mosquitoes, German cockroaches and Norway rats. DeKalb County Arabia Mountain southeast Atlanta metro Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

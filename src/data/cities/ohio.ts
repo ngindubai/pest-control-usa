@@ -2674,4 +2674,218 @@ export const ohioCities: CityLocation[] = [
     metaDescription:
       "Hilliard OH pest control for house mice, stink bugs, German cockroaches and subterranean termites. Franklin County Columbus suburb northwest Ohio agricultural border specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "dublin",
+    name: "Dublin",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~50,000",
+    county: "Franklin County",
+    climate: "cold-humid",
+    climateDriver:
+      "Dublin sits in northwestern Franklin County along the Scioto River corridor, where the river's floodplain and Big Darby Creek to the west create wetland and agricultural interfaces that sustain rodent and mosquito populations. Ohio State University Extension documents consistent subterranean termite and brown marmorated stink bug pressure throughout Franklin County, with stink bugs a growing fall concern across the Columbus metro area as the population expands north and west.",
+    topPests: ["House mice", "Brown marmorated stink bugs", "Subterranean termites", "Carpenter ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Dublin's mix of commercial corridors along Emerald Parkway and residential neighborhoods adjacent to Scioto River floodplain farmland creates year-round mouse pressure. The fall surge as temperatures drop in Franklin County is the most common reason Dublin homeowners call for rodent service.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November indoors, April through August outdoors",
+        note: "Ohio State University Extension documents brown marmorated stink bugs as an established and expanding pest across the Columbus metro. Dublin's mature suburban trees and wooded creek corridors along the Scioto River provide the outdoor habitat stink bugs use during the warm season before they seek winter shelter inside homes.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round",
+        note: "Ohio State University Extension confirms subterranean termites throughout Franklin County. Dublin's Scioto River corridor provides the soil moisture that supports colony activity, and the city's many established homes with wood landscaping elements carry consistent exposure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Ohio State University Extension identifies the black carpenter ant as the state's most inquired-about ant pest. Dublin's wooded parks and the Scioto Audubon Metro Park corridor provide abundant nesting habitat, and carpenter ants forage into homes along fence lines and overhanging branches.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Scioto River floodplain and the wetland margins of Glacier Ridge Metro Park to the northwest sustain mosquito populations through the warm season. Dublin's parks and trail systems along the river make outdoor recreational areas the primary exposure zone from late May through late August.",
+      },
+    ],
+    localHook:
+      "Dublin's Scioto River corridor and the adjacent wetlands of Glacier Ridge Metro Park create a persistent wildlife and insect corridor on the city's western edge, putting homes near the river among Franklin County's more active zones for both house mice and mosquitoes.",
+    intro:
+      "Pest control in Dublin reflects the city's affluent suburban character and its natural setting along the Scioto River in Franklin County. House mice are the most consistent residential concern, with fall surges as the surrounding agricultural and wooded land cools. Brown marmorated stink bugs have become a significant fall nuisance across the Columbus metro, and Dublin's mature tree cover accelerates the September aggregation on south-facing home exteriors. Subterranean termites are active throughout the county, with the river corridor's soil moisture elevating exposure for properties close to the Scioto. Carpenter ants use the parks and creek corridors as nesting and travel habitat.",
+    sections: [
+      {
+        heading: "Stink bugs and Dublin's fall pest window",
+        body: "Brown marmorated stink bugs are now one of the most commented-on fall pests in the Columbus metro area, and Dublin's wooded setting accelerates the seasonal pattern. Ohio State University Extension has tracked the pest's expansion across Franklin County since its arrival in central Ohio. In late August and September, stink bugs that spent the warm months feeding on Dublin's ornamental trees and garden plants begin searching for winter harborage. South and west-facing walls of homes receive the heaviest aggregations on warm fall afternoons. Sealing exterior gaps, especially around utility penetrations, window frames, and soffit vents, before mid-September significantly reduces the number of bugs that make it inside. Once inside wall voids and attic spaces, stink bugs are very difficult to eliminate without professional treatment.",
+      },
+      {
+        heading: "Scioto River corridor and rodent management in Dublin",
+        body: "The Scioto River runs along Dublin's western boundary through the Scioto Audubon Metro Park system, and the floodplain habitat connecting the river to residential neighborhoods along Indian Run Drive and Muirfield Drive is a reliable travel corridor for house mice and Norway rats. Commercial activity along Bridge Street and Emerald Parkway contributes food sources that sustain rodent populations near the river edge. For Dublin homeowners adjacent to the park system, a year-round exterior bait station program provides more consistent protection than seasonal treatment alone. The city's newer housing stock in bridge developments to the north carries lower exposure than the established neighborhoods closer to the river, but no area of Dublin is immune from fall mouse surges once temperatures drop.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps around utility penetrations, window frames, and soffit vents before mid-September to block stink bug entry.",
+      "Keep grass cut short and remove leaf piles adjacent to the foundation to reduce mouse harborage near the Scioto River corridor.",
+      "Trim tree branches three feet from the roofline to cut carpenter ant access routes.",
+      "Remove standing water from yard drainage and decorative water features weekly from May through September.",
+      "Schedule a termite inspection if your property is within a quarter mile of the Scioto River floodplain.",
+    ],
+    costNote:
+      "Dublin pest control typically starts with a free inspection. A quarterly exterior program covers mice, ants, and stink bugs across the seasons. Termite protection and mosquito barrier programs are priced separately. Stink bug exclusion work is often added in late summer as a standalone service.",
+    faqs: [
+      {
+        question: "Why are stink bugs so bad in Dublin, Ohio in the fall?",
+        answer:
+          "Dublin's mature wooded neighborhoods and the Scioto River park corridor provide the outdoor habitat stink bugs use all summer. Ohio State University Extension confirms that stink bugs are now established throughout Franklin County, and Dublin's tree cover and suburban setting match their preferred warm-season habitat closely. When temperatures drop in September, the aggregations on south-facing home exteriors are the first warning that they are seeking winter shelter. Early exterior sealing before mid-September is the most effective defense.",
+      },
+      {
+        question: "How do I know if my Dublin home has subterranean termites?",
+        answer:
+          "Look for mud tubes on the exterior foundation, especially in the Scioto River corridor neighborhoods where soil moisture is higher. Spring swarming on warm days after rain is another indicator. Inside, tap wooden structural elements for a hollow sound or look for buckling paint on wood trim that is not moisture-related. Ohio State Extension recommends annual inspections for homes in Franklin County, particularly those with any wood-to-soil contact or wood mulch beds against the foundation.",
+      },
+      {
+        question: "Are carpenter ants a structural risk in Dublin?",
+        answer:
+          "Yes, if left untreated. Ohio State University Extension identifies carpenter ants as the primary wood-destroying ant in Ohio. They prefer to nest in wood that is already moisture-damaged, so they are a secondary indicator of a moisture problem as much as a primary pest. Dublin homes adjacent to the creek corridors in the parks system carry more exposure than those in drier interior neighborhoods. Treatment addresses both the ant colony and the moisture issue that attracted them.",
+      },
+      {
+        question: "When is mosquito season in Dublin, OH?",
+        answer:
+          "May through September in Franklin County, with peak activity in June and July. Dublin's proximity to the Scioto River floodplain and the wetland margins of Glacier Ridge Metro Park extends the season at both ends. Properties within a few blocks of the river or park system see higher pressure than interior neighborhoods. Professional barrier spray programs applied monthly from May through September provide the most consistent protection for outdoor living areas.",
+      },
+      {
+        question: "How do mice get into Dublin homes in fall?",
+        answer:
+          "House mice can compress their bodies through any opening larger than a dime, and Dublin's older homes along the river corridor have accumulated gaps at utility penetrations, garage door seals, and foundation weep holes over the years. The Scioto River floodplain provides dense year-round mouse habitat, and the fall cooling drives them toward warmth. A technician can identify and seal the primary entry points during an inspection and set interior stations where needed.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus" },
+      { name: "Hilliard", slug: "hilliard" },
+      { name: "Grove City", slug: "grove-city" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Dublin, OH | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "Dublin OH pest control for brown marmorated stink bugs, house mice, subterranean termites, carpenter ants and mosquitoes. Franklin County Scioto River Columbus suburb Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "strongsville",
+    name: "Strongsville",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~47,000",
+    county: "Cuyahoga County",
+    climate: "cold-humid",
+    climateDriver:
+      "Strongsville sits in southern Cuyahoga County under the influence of Lake Erie's lake-effect snow and moisture patterns, which produce cold humid winters and warm humid summers. Ohio State University Extension documents persistent subterranean termite activity and brown marmorated stink bug pressure across Cuyahoga County, and the agricultural southern fringe of the county adjacent to Strongsville creates consistent house mouse and Norway rat pressure from surrounding fields each fall.",
+    topPests: ["House mice", "Brown marmorated stink bugs", "Subterranean termites", "German cockroaches", "Carpenter ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through November",
+        note: "Strongsville's southern Cuyahoga County position adjacent to the Medina County agricultural border creates a consistent fall mouse influx as fields are harvested and temperatures drop. SouthPark Mall and the Route 82 commercial corridor contribute food sources that sustain rodent populations in the surrounding residential blocks.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November indoors, May through August outdoors",
+        note: "Ohio State University Extension confirms stink bugs are established across Cuyahoga County. Strongsville's mature residential tree cover and the wooded areas along Chippewa Creek provide the warm-season habitat stink bugs use before seeking winter shelter in homes each fall.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms late March through May, active year-round",
+        note: "Ohio State Extension confirms subterranean termite activity throughout Cuyahoga County. Strongsville's older residential neighborhoods in the eastern part of the city carry more exposure from aging wood elements, while newer construction west of I-71 has lower but not zero risk.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Commercial activity along Route 82 and Pearl Road introduces German cockroach pressure into adjacent residential blocks. German cockroaches spread through shared utility infrastructure and are an exclusively indoor pest that cold Ohio winters do not reduce.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Chippewa Creek runs through Strongsville's nature reserve system, and the wooded creek corridor is consistent carpenter ant habitat. Ohio State Extension identifies moisture-damaged wood as the primary nesting substrate, making properties adjacent to the creek parks system more vulnerable.",
+      },
+    ],
+    localHook:
+      "Strongsville's Chippewa Creek runs through the city's nature reserve network and provides a continuous habitat corridor connecting southern Cuyahoga County's agricultural fringe to residential neighborhoods, giving house mice a reliable seasonal travel route into homes along the creek edge.",
+    intro:
+      "Pest control in Strongsville reflects the city's position at the southern edge of Cuyahoga County, where the lake-effect climate and the proximity to Medina County farmland create a distinctive fall pest dynamic. House mice press into homes each October and November as fields are harvested and temperatures drop across the county border. Brown marmorated stink bugs aggregate on south-facing walls in September as Strongsville's mature residential tree cover reaches its seasonal peak. Subterranean termites are active throughout Cuyahoga County, and the Chippewa Creek corridor provides the moisture-rich habitat that sustains both carpenter ant colonies and Germany cockroaches in the commercial areas along Route 82.",
+    sections: [
+      {
+        heading: "Chippewa Creek and fall rodent pressure in Strongsville",
+        body: "Chippewa Creek runs east-west through Strongsville's nature reserve system and connects the Medina County agricultural border to the east to residential neighborhoods near Pearl Road. Norway rats and house mice use the creek's wooded banks as a year-round travel corridor, with population surges pressing into homes along the creek edge each fall. The SouthPark Mall complex and commercial areas along Route 82 contribute ongoing food sources that sustain rodent populations near the creek system. Residential properties within a few blocks of Chippewa Creek Metro Park or the adjacent nature reserve see consistent fall mouse intrusions that require both exclusion work and ongoing bait management. Year-round exterior bait station programs are more effective here than seasonal-only treatment, because the corridor habitat ensures replacement populations move in quickly after a single-season control.",
+      },
+      {
+        heading: "Termites and stink bugs: Strongsville's warm-season pest pairing",
+        body: "Ohio State University Extension documents both subterranean termites and brown marmorated stink bugs as established pests across Cuyahoga County, and Strongsville sees both pests consistently. Termite swarmers appear in late March and April on warm days after rain, and winged ants are a common point of confusion at the same time. A technician can identify swarmers by wing length and waist shape. Stink bugs follow a different calendar: they spend the warm months on Strongsville's ornamental trees and garden plants, then seek winter shelter in August and September. South-facing walls and window frames on the city's suburban homes concentrate the fall aggregations. Sealing exterior gaps before mid-September significantly reduces stink bug entry, while annual termite inspections address the underground threat that is not visible from the outside.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and garage door seals before October to block fall mouse entry from the Chippewa Creek corridor.",
+      "Apply exterior stink bug exclusion sealant on south-facing walls and window frames before mid-September.",
+      "Schedule an annual termite inspection, especially if your Strongsville property has wood landscaping elements or is adjacent to the creek reserve.",
+      "Keep garbage sealed and remove leaf litter from against the foundation to reduce rat harborage near commercial areas.",
+      "Trim tree branches from rooflines and gutters to remove carpenter ant access routes from the creek corridor.",
+    ],
+    costNote:
+      "Strongsville pest control typically starts with a free inspection. A quarterly exterior program covers mice, stink bugs, and ants across the seasons. Termite protection is priced separately, and German cockroach treatment in commercial-adjacent properties is often a standalone service.",
+    faqs: [
+      {
+        question: "Why do mice get worse in Strongsville in the fall?",
+        answer:
+          "Strongsville sits at the Cuyahoga-Medina county border where agricultural fields are harvested in October. House mice and Norway rats that inhabited those fields move toward warm structures as both food and temperatures drop. The Chippewa Creek corridor connects the agricultural fringe directly to residential neighborhoods near Pearl Road, giving rodents a protected travel route into the city each fall.",
+      },
+      {
+        question: "Are stink bugs a real problem in Strongsville or just a nuisance?",
+        answer:
+          "Primarily a nuisance at the household level, though large infestations in wall voids do create a persistent odor problem when the bugs are disturbed. Ohio State University Extension documents them as an established pest throughout Cuyahoga County. They do not bite, spread disease, or damage structures, but their numbers can be significant when aggregating on south-facing walls in September. Professional exterior treatment and exclusion work in late summer gives the most consistent reduction.",
+      },
+      {
+        question: "How do I tell a termite swarmer from a flying ant in Strongsville?",
+        answer:
+          "Both appear in Strongsville in spring, but there are three reliable differences: termite swarmers have equal-length front and rear wings, a straight waist, and straight antennae. Flying ants have longer front wings, a pinched waist, and bent antennae. If you find wings on the windowsill in March or April without the insect, that is almost always termites, which drop their wings quickly after swarming. A technician can confirm the identification and check for soil tubes at the foundation.",
+      },
+      {
+        question: "Do German cockroaches spread from commercial areas into Strongsville homes?",
+        answer:
+          "Yes, this is a documented pattern near commercial corridors like Route 82 and Pearl Road. German cockroaches spread through shared utility infrastructure, drainage lines, and wall voids between adjacent commercial and residential properties. They are an exclusively indoor pest, so outdoor treatment does not address them. Gel bait programs targeting harborage inside the structure are the effective approach.",
+      },
+      {
+        question: "Is termite pressure in Strongsville higher near the creek?",
+        answer:
+          "Yes. Ohio State Extension confirms that subterranean termites need soil moisture to sustain colonies, and the Chippewa Creek corridor provides higher year-round soil moisture than drier interior neighborhoods west of I-71. Homes adjacent to the creek nature reserve with any wood-to-soil contact or wood mulch beds against the foundation carry the most consistent exposure. Annual inspections are the practical standard of care for those properties.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Cleveland", slug: "cleveland" },
+      { name: "Parma", slug: "parma" },
+      { name: "Lakewood", slug: "lakewood-oh" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Strongsville, OH | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Strongsville pest control for house mice, brown marmorated stink bugs, subterranean termites, German cockroaches and carpenter ants. Cuyahoga County Chippewa Creek SouthPark Mall Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
