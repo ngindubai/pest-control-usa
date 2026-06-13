@@ -114,35 +114,78 @@ export default function ContactPage() {
       },
     };
 
-    // fetch() does NOT reject on HTTP errors, so we must check res.ok — a
-    // cold-start 502 would otherwise look like success and silently drop the
-    // lead. The CRM is the ONLY delivery path for pest enquiries, so retry a
-    // few times with backoff and never show false success.
-    let delivered = false;
-    for (let attempt = 0; attempt < 3 && !delivered; attempt++) {
+    // Deliver the enquiry to BOTH destinations in parallel:
+    //   1. the CRM (system of record), and
+    //   2. email via FormSubmit (reliable backstop straight to the inbox).
+    // fetch() does NOT reject on HTTP errors, so we check res.ok / the
+    // FormSubmit success flag and never show false success.
+
+    // 1. CRM — retry a few times with backoff (it can cold-start).
+    const sendToCrm = async (): Promise<boolean> => {
+      for (let attempt = 0; attempt < 3; attempt++) {
+        try {
+          const res = await fetch(
+            "https://logistics-crm-tcu4.onrender.com/api/public/leads",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                "x-api-key": "uRc1IHymlMUnYfAB9i79iA3NUARQKFJdRCdo+4VDY/A=",
+              },
+              keepalive: true,
+              body: JSON.stringify(payload),
+            }
+          );
+          if (res.ok) return true;
+        } catch {
+          // network error — fall through and retry
+        }
+        if (attempt < 2) {
+          await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
+        }
+      }
+      return false;
+    };
+
+    // 2. Email — FormSubmit AJAX endpoint (same address the other sites use,
+    // so it is already activated).
+    const sendToEmail = async (): Promise<boolean> => {
       try {
         const res = await fetch(
-          "https://logistics-crm-tcu4.onrender.com/api/public/leads",
+          "https://formsubmit.co/ajax/garethsomers@outlook.com",
           {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
-              "x-api-key": "uRc1IHymlMUnYfAB9i79iA3NUARQKFJdRCdo+4VDY/A=",
+              Accept: "application/json",
             },
             keepalive: true,
-            body: JSON.stringify(payload),
+            body: JSON.stringify({
+              _subject: `New pest enquiry — ${data.name}`,
+              _template: "table",
+              _captcha: "false",
+              Name: data.name,
+              Email: data.email,
+              Phone: data.phone,
+              ZIP: data.zip,
+              "Service type": data.serviceType,
+              "Pest type": data.pestType,
+              Urgency: data.urgency,
+              Message: data.message || "(none)",
+              "Landing page":
+                typeof window !== "undefined" ? window.location.href : "",
+            }),
           }
         );
-        delivered = res.ok;
+        return res.ok;
       } catch {
-        // network error — fall through and retry
+        return false;
       }
-      if (!delivered && attempt < 2) {
-        await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
-      }
-    }
+    };
 
-    if (delivered) {
+    const [crmOk, emailOk] = await Promise.all([sendToCrm(), sendToEmail()]);
+
+    if (crmOk || emailOk) {
       setSubmitted(true);
     } else {
       setServerError(
