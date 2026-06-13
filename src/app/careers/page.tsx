@@ -280,16 +280,16 @@ export default function CareersPage() {
               <p className="text-green-700">Our HR team will contact you within 24 hours. Thank you for your interest in joining PestRemovalUSA!</p>
             </div>
           ) : (
-            {error && (
-              <div
-                role="alert"
-                className="mb-5 rounded-[var(--radius-btn)] bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-700"
-              >
-                Something went wrong submitting your application. Please try again
-                in a moment, or email us directly.
-              </div>
-            )}
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-5 bg-[var(--color-muted)] p-8 rounded-[var(--radius-card)]" noValidate>
+              {error && (
+                <div
+                  role="alert"
+                  className="rounded-[var(--radius-btn)] bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-700"
+                >
+                  Something went wrong submitting your application. Please try again
+                  in a moment, or email us directly.
+                </div>
+              )}
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-1.5">Full Name *</label>
