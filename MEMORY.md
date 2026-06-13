@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-13)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-24 complete. T2 COMPLETE.
-- **City pages built:** 600 total (75 T1 + 300 T2 + 225 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-26 complete. T2 COMPLETE.
+- **City pages built:** 650 total (75 T1 + 300 T2 + 275 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 683 in the static export (home, services, 50+ states, 600 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=121, B=120, C=120, D=120, E=119 (600 total cities, all within 15-25% range).
-- **Cities built T3 chunks 23-24 (50):** Ohio: Dublin (D), Strongsville (E). Michigan: Wyoming MI (A), Roseville MI (B), St Clair Shores (C), East Lansing (D). Minnesota: Burnsville (A), Eagan (B), Maple Grove (C), Woodbury (D), Coon Rapids (E). Indiana: Muncie (A), Terre Haute (B), Greenwood (C), Anderson (D), Kokomo (E). New Jersey: Union City (A), Bayonne (B), East Orange (C), Vineland (D), Perth Amboy (E). North Carolina: Wake Forest (A), Fuquay-Varina (B), Garner (C), Cornelius (D). Georgia: Newnan (E), Peachtree Corners (A), Milton (B), Stonecrest (C). Illinois: Berwyn (D), Oak Lawn (E), Mount Prospect (A), Hoffman Estates (B), Oak Park (C). Washington: Pasco (A), Richland (B), Sammamish (C), Lakewood WA (D, slug lakewood-wa), Shoreline (E). California: Vacaville (A), Alhambra (B), Whittier (C), San Leandro (D), Lake Forest (E), Chico (E), Rosemead (A). Florida: Weston (B), Jupiter (C), Apopka (D), Port Orange (E).
-- **New state files added chunks 23-24:** none (all states already registered in index.ts).
-- **Next block:** Chunk 25, T3 continues, rotation at A.
+- **Total site pages:** 733 in the static export (home, services, 50+ states, 650 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=131, B=130, C=130, D=130, E=129 (650 total cities, all within 15-25% range).
+- **Cities built T3 chunks 25-26 (50):** Ohio: Westerville (A), Findlay (B), Huber Heights (C), Gahanna (D). Minnesota: Lakeville (E), Blaine (A), Eden Prairie (B), Minnetonka (C), St Cloud (D). Indiana: Elkhart (E), Mishawaka (A), Columbus IN (B, slug columbus-in), Richmond (C), New Albany (D). Georgia: Dalton (E), Tucker (A), Douglasville (B), Statesboro (C), Hinesville (D). Pennsylvania: Norristown (E), Hazleton (A), Williamsport (B), State College (C). New York: Niagara Falls (D), Rome NY (E, slug rome-ny). Washington: Burien (A), Olympia (B), Lacey (C), Bremerton (D). Tennessee: Brentwood (E), Maryville (A), Oak Ridge (B), Cookeville (C), Cleveland TN (D, slug cleveland-tn). North Carolina: Sanford (E), Matthews (A), Salisbury (B), Statesville (C), Goldsboro (D). New Jersey: Linden (E), Plainfield (A), Hackensack (B), Hoboken (C). Wisconsin: Waukesha (D), Oshkosh (E), Eau Claire (A), Janesville (B), La Crosse (C). Colorado: Loveland (D), Castle Rock (E).
+- **New state files added chunks 25-26:** none (all states already registered in index.ts).
+- **Next block:** Chunk 27, T3 continues, rotation at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

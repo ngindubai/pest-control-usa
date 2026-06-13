@@ -659,4 +659,519 @@ export const wisconsinCities: CityLocation[] = [
     metaDescription:
       "Appleton pest control for house mice, carpenter ants, boxelder bugs, yellowjackets and German cockroaches. Outagamie County Fox River valley central Wisconsin specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "waukesha",
+    name: "Waukesha",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~73,000",
+    county: "Waukesha County",
+    climate: "cold",
+    climateDriver:
+      "Waukesha's continental climate delivers cold winters with significant snowfall and warm, humid summers. The Fox River runs through the city and its mineral spring heritage, Waukesha was known as the Saratoga of the West, reflects the city's groundwater-rich character. Cold winters drive mice and boxelder bugs indoors reliably each fall.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "Boxelder Bugs",
+      "Asian Lady Beetles",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "House Mice",
+        activeSeason: "Year-round",
+        note: "Waukesha's cold Wisconsin winters make mice a genuine structural pest, not just a nuisance. Exclusion work completed by September provides the best protection.",
+      },
+      {
+        name: "Carpenter Ants",
+        activeSeason: "Spring through fall",
+        note: "Fox River corridor properties in Waukesha have elevated carpenter ant pressure from the humid microclimate and wooded banks.",
+      },
+      {
+        name: "Boxelder Bugs",
+        activeSeason: "Fall, September through November",
+        note: "Boxelder trees are common along Waukesha's Fox River riparian corridor, sustaining above-average boxelder bug populations.",
+      },
+      {
+        name: "Asian Lady Beetles",
+        activeSeason: "Fall, September through November",
+        note: "Asian lady beetle invasions in Waukesha peak in October. Sealing exterior gaps before mid-September prevents the largest indoor accumulations.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "Year-round",
+        note: "German cockroach programs in Waukesha's downtown multi-family properties require building-level coordination for lasting results.",
+      },
+    ],
+    localHook:
+      "Waukesha is the seat of Waukesha County, Wisconsin's second most populous county and the first suburban ring west of Milwaukee. The Fox River runs through the city, and Waukesha was once known nationally for its mineral spring waters before becoming a bedroom community for Milwaukee's professional class. That transition from resort town to suburb means the city has an older established residential character alongside newer suburban development, and the Fox River corridor sustains the moisture and wooded habitat that drives carpenter ant and boxelder bug pressure.",
+    intro:
+      "Pest control in Waukesha centers on Wisconsin's cold-climate pest calendar: house mice in fall and winter, carpenter ants and boxelder bugs in the warmer seasons, and Asian lady beetles aggregating each October. The Fox River corridor through the city sustains moisture and boxelder tree habitat that elevates ant and bug pressure compared to less riparian Wisconsin cities. German cockroaches require management in the commercial food service businesses in the downtown core. Year-round mouse management with fall exclusion work is the foundation of any effective Waukesha pest program.",
+    sections: [
+      {
+        heading: "Fall pest aggregations in Waukesha",
+        body: "October is Waukesha's most active pest management month. House mice begin pressing into structures as temperatures drop, boxelder bugs aggregate on south-facing walls before seeking entry, and Asian lady beetles arrive on the same warm south-facing surfaces looking for overwintering sites. These three fall invaders often appear at the same time on the same structures, and the management approach for each is similar: seal exterior gaps before they arrive, in late September, and they cannot enter in significant numbers. The prevention window is small. Waukesha's continental climate means the first hard frost can arrive in mid-October, and populations that have not made their entry move by then do so quickly in the days before the freeze. Exclusion work completed in September stays ahead of all three fall invasion species simultaneously.",
+      },
+      {
+        heading: "Carpenter ants along the Fox River corridor in Waukesha",
+        body: "The Fox River's course through central Waukesha creates a humid riparian corridor with abundant wooded banks and mature tree canopy that sustains large carpenter ant populations. Properties within several blocks of the river, particularly those with deck framing, exterior wood near soil contact, or moisture in foundation areas, see higher carpenter ant pressure than properties farther from the river. The mineral spring area of the city, with its older and larger residential properties and established tree canopy, also sees consistent carpenter ant activity. An effective carpenter ant program for a Fox River corridor Waukesha property includes identifying the nest location, treating it directly, and addressing the moisture source that is sustaining the infestation.",
+      },
+    ],
+    prevention: [
+      "Complete mouse exclusion work by September, sealing foundation gaps and utility penetrations before the October fall surge.",
+      "Seal south-facing exterior gaps, window frames, and siding penetrations in mid-September before boxelder bug and Asian lady beetle aggregation.",
+      "Address Fox River corridor moisture in deck framing and exterior wood to reduce carpenter ant nesting sites.",
+      "Implement building-level German cockroach programs in Waukesha's downtown commercial and multi-family properties.",
+      "Store firewood off the ground and away from the foundation to reduce carpenter ant access.",
+    ],
+    costNote:
+      "Waukesha pest control starts with a free inspection. Year-round rodent programs with fall exclusion work are the most commonly needed service. Carpenter ant treatment is quoted per property. Boxelder bug and Asian lady beetle perimeter spray is a fall add-on. Commercial cockroach programs are available for the downtown business district.",
+    faqs: [
+      {
+        question: "Why do mice in Waukesha start entering homes earlier than expected?",
+        answer:
+          "Waukesha's location in Wisconsin's cold continental climate means fall cold fronts arrive earlier and more sharply than in warmer states. Mouse pressure builds in late September and peaks through October in a short window. Combined with the agricultural land at Waukesha County's western edge, which sustains large outdoor field mouse populations, the fall entry surge here is significant and early. Exclusion work completed by mid-September, before the first cold fronts, provides the most effective protection.",
+      },
+      {
+        question: "How do I distinguish boxelder bugs from Asian lady beetles on my Waukesha home?",
+        answer:
+          "Boxelder bugs are about half an inch long, black with red or orange wing markings, and aggregate in loose clusters on exterior surfaces. Asian lady beetles are small rounded beetles in shades of orange to red with variable black spot patterns, and they often enter in larger numbers and are harder to remove from interior surfaces without causing them to release a yellow defensive secretion. Both aggregate on south and west-facing exterior surfaces in late September and October. Sealing the exterior gaps they use before they arrive is the most effective response to both pests.",
+      },
+      {
+        question: "Are carpenter ants near the Fox River in Waukesha more difficult to control?",
+        answer:
+          "Properties along the Fox River corridor see more persistent carpenter ant pressure because the river's riparian environment sustains large source populations in the wooded banks and because the humidity near the river keeps exterior wood on adjacent homes more consistently moist. Treatment is not more difficult, but the pressure is more sustained. Annual spring inspections and moisture management at the foundation are more important for Fox River corridor Waukesha properties than for those in drier inland neighborhoods.",
+      },
+      {
+        question: "What is the best way to prevent Asian lady beetles from entering my Waukesha home?",
+        answer:
+          "Seal all exterior gaps, particularly on south and west-facing walls, in mid-September before the aggregation period. Pay attention to gaps around window frames, where siding meets trim, soffit vents, and utility penetrations. A residual perimeter spray applied to south and west-facing exterior surfaces in early October, before the peak aggregation, reduces the number that stay on the building long enough to find gaps. Vacuuming those that enter without crushing them, which triggers the defensive odor, removes them without damage to surfaces.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Milwaukee", slug: "milwaukee" },
+      { name: "Madison", slug: "madison" },
+      { name: "Racine", slug: "racine" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Waukesha, WI | Mice, Carpenter Ants & Boxelder Bugs",
+    metaDescription:
+      "Waukesha pest control for house mice, carpenter ants, boxelder bugs, Asian lady beetles and German cockroaches. Waukesha County Fox River Milwaukee suburb Wisconsin specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "oshkosh",
+    name: "Oshkosh",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~67,000",
+    county: "Winnebago County",
+    climate: "cold",
+    climateDriver:
+      "Oshkosh sits on the western shore of Lake Winnebago, Wisconsin's largest inland lake. The lake moderates temperatures somewhat but delivers significant moisture and humidity that sustains moisture-loving pests. Winters are cold with lake-effect snow enhancement. The Fox River enters Lake Winnebago at Oshkosh, creating a confluence pest zone.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "Boxelder Bugs",
+      "German Cockroaches",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House Mice",
+        activeSeason: "Year-round",
+        note: "Lake Winnebago shoreline vegetation and the Fox River confluence sustain mouse populations that pressure adjacent residential properties each fall.",
+      },
+      {
+        name: "Carpenter Ants",
+        activeSeason: "Spring through fall",
+        note: "Lake Winnebago shoreline humidity elevates moisture in exterior wood on adjacent properties, increasing carpenter ant nest establishment risk.",
+      },
+      {
+        name: "Boxelder Bugs",
+        activeSeason: "Fall, September through November",
+        note: "Fox River and Lake Winnebago riparian corridors support abundant boxelder tree populations sustaining significant fall bug pressure.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "Year-round",
+        note: "EAA AirVenture week in July brings exceptional food service volume to Oshkosh requiring intensified cockroach management during the event.",
+      },
+      {
+        name: "Yellow Jackets",
+        activeSeason: "Late summer through fall",
+        note: "Lake Winnebago waterfront parks and open green spaces see elevated yellow jacket activity from July through September.",
+      },
+    ],
+    localHook:
+      "Oshkosh is home to EAA AirVenture, the world's largest air show held each July, which brings over 600,000 visitors to Winnebago County for one week and creates a food service and sanitation management challenge that the city's pest control industry plans for annually. Outside that remarkable event, Oshkosh is a Fox River and Lake Winnebago city with the moisture and riparian pest character that defines Wisconsin's water-adjacent communities. The lake's shoreline sustains carpenter ant and mouse populations, and the Fox River confluence adds humidity and boxelder tree habitat.",
+    intro:
+      "Pest control in Oshkosh follows Wisconsin's cold-climate pest calendar with a distinctive EAA AirVenture dimension in July. House mice are the year-round primary pest, with fall entry pressure from Lake Winnebago shoreline and Fox River corridor populations. Carpenter ants are sustained by the lake's humid shoreline environment and the mature tree canopy in the city's older residential areas. Boxelder bugs and yellow jackets are seasonal pests tied to the riparian landscape. German cockroaches require intensified management during EAA AirVenture week when food service volume is extraordinary. Year-round rodent management with fall exclusion work covers the primary residential pest risk in Oshkosh.",
+    sections: [
+      {
+        heading: "Lake Winnebago moisture and pest pressure in Oshkosh",
+        body: "Lake Winnebago, at 137,000 acres the largest inland lake in Wisconsin, creates a persistent humidity corridor along Oshkosh's eastern edge that elevates moisture-related pest pressure. Carpenter ants establish nests more readily in exterior wood that stays moist from lake proximity humidity, and the shoreline vegetation sustains source populations that extend foraging into residential yards in spring and summer. The Fox River confluence at the lake's northern end adds a second moisture corridor from the river drainage. For Oshkosh homeowners within several blocks of the lake shore, moisture management at the foundation and in exterior wood is more important than in drier Wisconsin cities. Annual carpenter ant inspection in spring identifies early structural establishment before it reaches the wall void.",
+      },
+      {
+        heading: "EAA AirVenture and commercial pest management in Oshkosh",
+        body: "EAA AirVenture draws more than 600,000 visitors to Wittman Regional Airport and the surrounding Winnebago County grounds each July, making it the world's largest annual gathering of aviation enthusiasts. For Oshkosh's food service businesses, that week represents an extraordinary volume that typical pest management programs are not calibrated for. Commercial cockroach and fly management programs in Oshkosh restaurants, catering facilities, and event vendors need to be at peak service state before AirVenture week. Pest management providers in Oshkosh who serve the food service sector schedule intensified pre-event inspections and treatments in June and early July to ensure commercial properties are in compliance before the event volume arrives. This is a unique operational dimension that distinguishes Oshkosh commercial pest management from any other Wisconsin city.",
+      },
+    ],
+    prevention: [
+      "Complete mouse exclusion work by September, sealing foundation gaps and utility penetrations before October cold fronts.",
+      "Schedule spring carpenter ant inspection for properties near Lake Winnebago shoreline before the season peaks.",
+      "Seal south-facing exterior gaps in mid-September to prevent boxelder bug entry.",
+      "Schedule commercial pest management intensification in June and early July ahead of EAA AirVenture.",
+      "Treat yellow jacket ground nests in early evening in July and August before colony peak.",
+    ],
+    costNote:
+      "Oshkosh pest control starts with a free inspection. Year-round rodent programs with fall exclusion work are the most common service. Carpenter ant treatment is quoted per property. Commercial cockroach programs include pre-EAA AirVenture intensification scheduling. Yellow jacket treatments are seasonal.",
+    faqs: [
+      {
+        question: "How does Lake Winnebago affect pest pressure in Oshkosh?",
+        answer:
+          "Lake Winnebago's size, 137,000 acres, creates a sustained humidity effect along Oshkosh's eastern shoreline that elevates moisture in exterior wood on lakeside properties and sustains larger mouse and carpenter ant source populations than drier inland Wisconsin cities. Properties within several blocks of the lake see above-average carpenter ant pressure from the shoreline source populations and from the moisture conditions the lake creates in surrounding vegetation and exterior structures.",
+      },
+      {
+        question: "Is EAA AirVenture relevant to residential pest management?",
+        answer:
+          "For most Oshkosh residential properties, EAA AirVenture week is not directly relevant to residential pest management. The commercial and food service dimension is where the event creates significant pest management planning requirements. For residential properties in the immediate vicinity of the airport and event grounds, the temporary food service and crowd management activity that week can displace some Norway rat activity into adjacent areas, but this is a minor and temporary effect for most neighborhoods.",
+      },
+      {
+        question: "When should Oshkosh homeowners prepare for fall mouse entry?",
+        answer:
+          "September is the critical preparation window in Oshkosh. Wisconsin's fall cold fronts arrive in October, and exclusion work completed before those fronts hit provides the best protection. Seal foundation gaps, utility penetrations, basement window frames, and garage door sweeps before the end of September. Properties adjacent to Lake Winnebago shoreline or the Fox River corridor benefit from completing exclusion work by early September, as these areas see earlier mouse movement.",
+      },
+      {
+        question: "Are boxelder bugs worse in Oshkosh than in other Wisconsin cities?",
+        answer:
+          "Oshkosh's boxelder bug pressure is above average for Wisconsin because the Fox River valley and Lake Winnebago shoreline sustain substantial boxelder tree populations. Boxelder trees in the riparian corridors provide the primary host plants for the bug's summer population, and fall aggregation volumes correspond to host tree availability. Cities with significant riparian boxelder tree populations, like Oshkosh, typically see heavier fall boxelder bug pressure than cities with less riparian tree canopy.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Green Bay", slug: "green-bay" },
+      { name: "Appleton", slug: "appleton" },
+      { name: "Milwaukee", slug: "milwaukee" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Oshkosh, WI | Mice, Carpenter Ants & Boxelder Bugs",
+    metaDescription:
+      "Oshkosh pest control for house mice, carpenter ants, boxelder bugs, German cockroaches and yellow jackets. Winnebago County Lake Winnebago Fox River EAA AirVenture Wisconsin specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "eau-claire",
+    name: "Eau Claire",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~70,000",
+    county: "Eau Claire County",
+    climate: "cold",
+    climateDriver:
+      "Eau Claire sits in western Wisconsin at the confluence of the Chippewa and Eau Claire Rivers, with a cold continental climate. Winters are severe, with deep freezes that drive rodents indoors early and forcefully. Summers are warm and humid with a short, intense pest season. The river valleys sustain moisture pests through the warm months.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "German Cockroaches",
+      "Boxelder Bugs",
+      "Asian Lady Beetles",
+    ],
+    pestProfile: [
+      {
+        name: "House Mice",
+        activeSeason: "Year-round",
+        note: "Eau Claire's severe winters mean mice establish indoor populations more completely than in milder Wisconsin cities. Exclusion work must be thorough, not just surface-level.",
+      },
+      {
+        name: "Carpenter Ants",
+        activeSeason: "Spring through fall",
+        note: "Eau Claire's lumber heritage left a residential neighborhood character with older wood-framed homes that carry above-average carpenter ant risk.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "Year-round",
+        note: "UW-Eau Claire campus-adjacent housing has above-average German cockroach exposure from student rental turnover.",
+      },
+      {
+        name: "Boxelder Bugs",
+        activeSeason: "Fall, September through November",
+        note: "Chippewa River valley boxelder trees sustain above-average fall boxelder bug populations in Eau Claire.",
+      },
+      {
+        name: "Asian Lady Beetles",
+        activeSeason: "Fall, September through November",
+        note: "Seal south-facing exterior gaps by mid-September to prevent Asian lady beetle entry before October aggregation.",
+      },
+    ],
+    localHook:
+      "Eau Claire is western Wisconsin's largest city, built on the confluence of the Chippewa and Eau Claire Rivers and shaped by the lumber industry that turned the surrounding forests into the residential and commercial character of today. UW-Eau Claire brings a significant student population that influences the rental housing and food service pest dynamic. The Chippewa Valley's river corridors sustain carpenter ant and boxelder bug populations, and Eau Claire's severe continental winters make mouse exclusion a serious structural investment rather than a seasonal afterthought.",
+    intro:
+      "Pest control in Eau Claire operates in a cold continental climate that makes mouse exclusion a genuine structural priority. The winters here are severe enough that house mice establish indoor populations more thoroughly than in milder Wisconsin cities, pressing in through any structural gap in October and staying until late April. Carpenter ants from the Chippewa Valley forests are a spring and summer structural concern. German cockroaches circulate in the UW-Eau Claire campus housing and commercial food service sector. Boxelder bugs and Asian lady beetles are consistent fall aggregation pests. The Eau Claire program that addresses mice structurally with thorough exclusion work in September is the one that holds through the long western Wisconsin winter.",
+    sections: [
+      {
+        heading: "Mouse exclusion as structural investment in Eau Claire",
+        body: "Eau Claire's continental climate is more severe than southeastern Wisconsin cities: winters are longer, colder, and more consistent in their deep-freeze events. For house mice, that climate means the pressure on structures from outdoor populations is not a few weeks of fall activity but a six-month siege from October through April. Mice that find their way in establish complete indoor populations with nesting, food storage, and reproduction cycles that grow through winter. The economic calculus of exclusion is clear in this climate: a professional exclusion program that seals the structural entry points once costs significantly less than reactive trapping and repeated service calls through a Wisconsin winter. The exclusion work should be comprehensive: foundation sill plates, utility penetrations, basement window frames, garage door frames, and exhaust fan openings are the primary points in Eau Claire's older housing.",
+      },
+      {
+        heading: "Carpenter ants in the Chippewa Valley's older neighborhoods",
+        body: "Eau Claire grew as a lumber mill city in the late 19th century, and the residential neighborhoods built during that period, particularly those in the hills east of the Chippewa River, have century-old wood framing that has absorbed decades of Chippewa Valley moisture cycles. Carpenter ants from the surrounding forests find these older homes attractive for nesting because the accumulated moisture in foundation framing and exterior walls provides the damp wood they prefer. Spring swarms in April, when winged reproductives emerge from established nests, are a common first sign of structural infestation in Eau Claire's older neighborhoods. A professional inspection to locate the nest and assess structural involvement is the starting point. Treating ants on the surface without finding and treating the nest location is a temporary disruption rather than a solution.",
+      },
+    ],
+    prevention: [
+      "Complete thorough mouse exclusion work by September, sealing all foundation, utility, and structural gaps before Eau Claire's October cold season.",
+      "Schedule spring carpenter ant inspection in April for older Chippewa Valley neighborhood homes before colony activity peaks.",
+      "Seal south-facing exterior gaps in mid-September to prevent boxelder bug and Asian lady beetle entry.",
+      "Implement building-level German cockroach programs in UW-Eau Claire campus housing properties.",
+      "Store firewood off the ground and away from the foundation to reduce carpenter ant access to exterior wood.",
+    ],
+    costNote:
+      "Eau Claire pest control starts with a free inspection. Mouse exclusion programs and year-round rodent management are the most commonly needed services. Carpenter ant treatment is quoted per property based on nest location. Boxelder bug and Asian lady beetle perimeter spray is a fall add-on. Commercial and campus-area cockroach programs are available.",
+    faqs: [
+      {
+        question: "How severe is mouse pressure in Eau Claire compared to southern Wisconsin cities?",
+        answer:
+          "Eau Claire's more severe continental winter climate produces higher mouse exclusion pressure than southern Wisconsin cities like Madison or Racine. The longer, colder winter season means mice that find structural entry points establish more complete indoor populations and remain in structures from October through April or later. The exclusion work required in Eau Claire should be more comprehensive than what a Milwaukee or Madison homeowner typically needs, covering all structural gaps at the foundation level, utility penetrations, and roof voids that mice access in very cold climates.",
+      },
+      {
+        question: "Why do carpenter ants seem particularly common in Eau Claire's older neighborhoods?",
+        answer:
+          "Eau Claire's lumber mill heritage produced a stock of older wood-framed homes in the historic neighborhoods east of the river, and those homes have accumulated decades of Chippewa Valley moisture cycling in their foundation and exterior framing. The same forests that built Eau Claire's economy sustain carpenter ant source populations that extend foraging into the city each spring. The combination of aged, moisture-affected wood and large forest source populations makes Eau Claire's older residential areas more consistently affected by carpenter ants than newer construction farther from the river valleys.",
+      },
+      {
+        question: "Is German cockroach pressure elevated near UW-Eau Claire?",
+        answer:
+          "Yes. Campus-adjacent housing in Eau Claire has the same elevated German cockroach exposure common to Wisconsin university cities: frequent occupant turnover in older rental buildings, shared apartment buildings with active student populations, and the food service concentration in the campus commercial area. Student apartments that receive professional treatment without coordinating building-wide programs see faster reinfestation because cockroaches move laterally from untreated units. Building-level programs coordinated with the property management are more effective than individual unit treatments.",
+      },
+      {
+        question: "When do boxelder bugs and Asian lady beetles arrive in Eau Claire?",
+        answer:
+          "Both pests aggregate on south and west-facing exterior surfaces in September and October as temperatures drop. The peak aggregation in Eau Claire typically occurs in the last two weeks of September through the first two weeks of October, earlier than in southern Wisconsin given the more severe fall cold fronts. Sealing exterior gaps on south and west-facing walls by mid-September and applying a residual perimeter spray provides effective prevention before the aggregation arrives.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Madison", slug: "madison" },
+      { name: "Green Bay", slug: "green-bay" },
+      { name: "Appleton", slug: "appleton" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Eau Claire, WI | Mice, Carpenter Ants & Boxelder Bugs",
+    metaDescription:
+      "Eau Claire pest control for house mice, carpenter ants, German cockroaches, boxelder bugs and Asian lady beetles. Eau Claire County Chippewa River valley UW-Eau Claire western Wisconsin specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "janesville",
+    name: "Janesville",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~66,000",
+    county: "Rock County",
+    climate: "cold",
+    climateDriver:
+      "Janesville sits in southern Wisconsin's Rock River valley with a cold continental climate that is somewhat less severe than northern Wisconsin but still delivers cold winters with significant snowfall. The Rock River and its floodplain create moisture corridors through the city. Arctic air masses from the northwest produce periodic deep-freeze events that drive mice aggressively into structures.",
+    topPests: [
+      "House Mice",
+      "German Cockroaches",
+      "Carpenter Ants",
+      "Boxelder Bugs",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House Mice",
+        activeSeason: "Year-round",
+        note: "Rock River corridor mice press into adjacent residential areas from October through March in Janesville's cold winters.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "Year-round",
+        note: "Older commercial and residential buildings in Janesville's post-GM neighborhoods require more intensive cockroach management given reduced maintenance investment.",
+      },
+      {
+        name: "Carpenter Ants",
+        activeSeason: "Spring through fall",
+        note: "Rock River corridor properties in Janesville see elevated carpenter ant pressure from the wooded floodplain source populations.",
+      },
+      {
+        name: "Boxelder Bugs",
+        activeSeason: "Fall, September through November",
+        note: "Rock River floodplain boxelder trees sustain significant fall boxelder bug populations that press toward Janesville structures in September and October.",
+      },
+      {
+        name: "Yellow Jackets",
+        activeSeason: "Late summer through fall",
+        note: "Janesville's Rock River parkway and open green space trail system sees elevated yellow jacket activity from July through September.",
+      },
+    ],
+    localHook:
+      "Janesville is the Rock County seat and the site of the General Motors assembly plant that was one of the last to close in the 2008-2009 automotive crisis. The former GM plant closure reshaped the city's economic character, and the neighborhoods adjacent to the plant footprint have seen the pest pressure that correlates with reduced property investment in transitional areas. The Rock River runs through the city with a wooded floodplain that sustains carpenter ant, boxelder bug, and mouse populations year-round.",
+    intro:
+      "Pest control in Janesville starts with the Rock River and the cold Wisconsin winters. The Rock River floodplain sustains mouse, carpenter ant, and boxelder bug populations that extend into the city's residential neighborhoods each season. Cold winters drive mice into structures aggressively each fall, and the older housing stock in Janesville's established neighborhoods provides more structural entry opportunities than newer construction. German cockroaches require management in the commercial food service sector and the older multi-family housing in the downtown core. Yellow jackets are a late-summer safety concern near the Rock River parkway and open green spaces. Year-round rodent management with fall exclusion work is the foundation of effective pest management in Janesville.",
+    sections: [
+      {
+        heading: "Rock River corridor and pest dynamics in Janesville",
+        body: "The Rock River runs north to south through Janesville with a wooded floodplain that functions as a year-round habitat corridor for mice, carpenter ants, boxelder bugs, and yellow jackets. Properties within several blocks of the river, particularly in the older residential areas near the downtown core and the Rock River Parkway, have above-average exposure to all of these pests from the floodplain source population. Norway rats are occasionally present near the river's commercial and restaurant corridor downtown. The habitat management challenge for Janesville properties near the river is significant: the floodplain itself cannot be modified, so the management focus is on the transition zone between the river habitat and the structure, including habitat reduction in adjacent landscaping, exterior bait programs, and structural exclusion to prevent pest movement from the river environment into occupied spaces.",
+      },
+      {
+        heading: "Mouse exclusion in Janesville's older residential neighborhoods",
+        body: "Janesville's established residential areas near downtown and adjacent to the Rock River corridor were largely built in the mid-20th century, and the housing stock from the 1940s through 1970s has accumulated the structural gaps that mice exploit. Foundation sill plates settle over decades, utility penetrations widen from freeze-thaw cycling, and basement window frames and garage door frames deteriorate in Wisconsin's cold, wet conditions. The exclusion approach in Janesville's older neighborhoods needs to be systematic: a walk-through inspection of all potential entry points at the foundation level, followed by sealing with appropriate materials for each gap type. Steel wool and caulk are appropriate for small gaps; hardware cloth and concrete patching for larger foundation openings. A thorough exclusion program completed in September, before the October cold fronts, holds through the Wisconsin winter far more effectively than reactive trapping after mice are already established indoors.",
+      },
+    ],
+    prevention: [
+      "Complete comprehensive mouse exclusion work by September for Rock River corridor properties before October cold fronts.",
+      "Schedule spring carpenter ant inspection in April for properties near the Rock River floodplain.",
+      "Seal south-facing exterior gaps in mid-September to prevent boxelder bug entry.",
+      "Treat yellow jacket ground nests in early evening in July or August near the Rock River Parkway.",
+      "Implement building-level German cockroach programs for downtown Janesville commercial and multi-family properties.",
+    ],
+    costNote:
+      "Janesville pest control starts with a free inspection. Year-round rodent programs with fall exclusion work are the most common service. Carpenter ant treatment is quoted per property. Boxelder bug and yellow jacket treatments are seasonal. Commercial cockroach programs are available for the downtown business district and multi-family properties.",
+    faqs: [
+      {
+        question: "How does the Rock River affect mouse and carpenter ant pressure in Janesville?",
+        answer:
+          "The Rock River floodplain provides year-round habitat for mouse and carpenter ant source populations that extend into adjacent residential neighborhoods in Janesville. The wooded floodplain, particularly in the Rock River Parkway greenway areas, sustains large populations that pressure structures each fall for mice and each spring for carpenter ants. Properties within a few blocks of the river corridor see above-average pressure from these sources.",
+      },
+      {
+        question: "Has the GM plant closure affected pest pressure in parts of Janesville?",
+        answer:
+          "The closure of the General Motors assembly plant in 2009 contributed to reduced property investment in some adjacent neighborhoods, which correlates with higher pest pressure from reduced maintenance, increased vacancy in some commercial buildings, and older housing stock receiving less regular professional pest management. Older commercial and residential buildings in the transitional neighborhoods near the former plant site benefit from more intensive inspection and management programs than well-maintained suburban properties.",
+      },
+      {
+        question: "When do boxelder bugs peak in Janesville?",
+        answer:
+          "Janesville's boxelder bug aggregation period typically runs from mid-September through mid-October, when falling temperatures trigger movement from summer host trees toward structures. The Rock River corridor's boxelder tree population sustains the source numbers for the fall aggregation. Sealing south-facing exterior gaps before mid-September, combined with a perimeter spray on south and west faces, provides effective prevention before the peak.",
+      },
+      {
+        question: "Are yellow jackets particularly aggressive near the Rock River Parkway in Janesville?",
+        answer:
+          "Yes. The Rock River Parkway's open green spaces, trail system, and undisturbed lawn areas adjacent to wooded riverbank provide excellent yellow jacket nesting territory. Ground nests in the park areas and trail-adjacent lawns are common from June through October, with worker populations and aggression peaking in August. The combination of trail users and active yellow jacket colonies in the parkway zone produces more stinging incidents than in residential lawn areas away from the park system.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Madison", slug: "madison" },
+      { name: "Kenosha", slug: "kenosha" },
+      { name: "Racine", slug: "racine" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Janesville, WI | Mice, Cockroaches & Carpenter Ants",
+    metaDescription:
+      "Janesville pest control for house mice, German cockroaches, carpenter ants, boxelder bugs and yellow jackets. Rock County Rock River southern Wisconsin specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "la-crosse",
+    name: "La Crosse",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~52,000",
+    county: "La Crosse County",
+    climate: "cold",
+    climateDriver:
+      "La Crosse sits at the confluence of the Black, La Crosse, and Mississippi Rivers in the Coulee Region, where dramatic bluffs and river valleys create a unique microclimate. Winters are extremely cold with record low temperatures common from December through February. The Mississippi River floodplain sustains year-round mosquito and moisture pest sources. Extreme temperature swings between seasons are characteristic.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "Mosquitoes",
+      "Boxelder Bugs",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "House Mice",
+        activeSeason: "Year-round",
+        note: "La Crosse's extreme winter temperatures drive the most thorough mouse structural establishment of any Wisconsin city. Exclusion must be comprehensive.",
+      },
+      {
+        name: "Carpenter Ants",
+        activeSeason: "Spring through fall",
+        note: "La Crosse's bluffland forests and river valley humidity create higher carpenter ant source pressure than most Wisconsin cities of comparable size.",
+      },
+      {
+        name: "Mosquitoes",
+        activeSeason: "Spring through fall",
+        note: "La Crosse River Marsh and Mississippi River floodplain make La Crosse one of Wisconsin's highest mosquito burden cities. Property-level control is essential alongside public programs.",
+      },
+      {
+        name: "Boxelder Bugs",
+        activeSeason: "Fall, September through November",
+        note: "Mississippi River valley boxelder tree populations sustain heavy fall boxelder bug aggregations in La Crosse.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "Year-round",
+        note: "UW-La Crosse campus-adjacent housing benefits from building-level cockroach programs rather than individual unit reactive treatment.",
+      },
+    ],
+    localHook:
+      "La Crosse is the Coulee Region's largest city, sitting at the confluence of three rivers at the Mississippi River bluffs in western Wisconsin. The dramatic Mississippi River landscape that makes La Crosse beautiful is also the source of its most significant pest management challenge: the La Crosse River Marsh and the Mississippi River floodplain create one of Wisconsin's heaviest mosquito burdens. The bluffland forests surrounding the city sustain large carpenter ant populations, extreme winter cold drives mice into structures more aggressively than nearly any other Wisconsin city, and boxelder bugs from the river valley are a reliable fall pest.",
+    intro:
+      "Pest control in La Crosse contends with the extremes of the Coulee Region: extreme winter cold that drives mice indoors completely from October through April, heavy mosquito burden from the La Crosse River Marsh and Mississippi River floodplain that makes seasonal mosquito management a health priority, and bluffland forest carpenter ant populations that pressure structures each spring. Boxelder bugs from the river valley are a consistent fall pest, and German cockroaches require management in the commercial food service sector and UW-La Crosse campus housing. La Crosse's pest calendar is intense at both ends: severe winters define the rodent season, and a lush river valley environment drives the summer pest season.",
+    sections: [
+      {
+        heading: "Mississippi River floodplain and mosquito management in La Crosse",
+        body: "La Crosse County has one of the highest documented mosquito burdens in Wisconsin, driven by the La Crosse River Marsh to the south of the city, the Mississippi River backwater areas west of downtown, and the Black River floodplain to the north. These three wetland systems sustain Culex mosquito populations that produce West Nile virus risk, and La Crosse County's health department has historically been among the more proactive in Wisconsin for vector mosquito surveillance. The county's public aerial application program addresses the peak breeding season but cannot provide the residential-level protection that property-specific programs deliver. For La Crosse homeowners with outdoor living areas, a seasonal barrier spray program starting in May and running through October, targeting daytime resting sites in shrubs and ground cover, is the most effective property-level protection. Source elimination on the property, addressing standing water in gutters, containers, and low spots, reduces locally produced adults.",
+      },
+      {
+        heading: "Extreme cold winters and mouse management in La Crosse",
+        body: "La Crosse records some of the coldest winter temperatures in Wisconsin's settled areas. The Mississippi River valley geography creates cold air pooling in severe weather events, and La Crosse's record low temperatures are genuine winter extremes. For house mice, this extreme cold means structural entry is not a seasonal preference but a survival requirement. Mice that cannot access a warm structure in La Crosse's deep winter do not survive it. The result is that fall exclusion work in La Crosse must be comprehensive: every structural gap at the foundation level is a potential winter entry point, and partial exclusion that leaves some gaps unaddressed results in mice finding those gaps specifically because all the easier ones are sealed. A professional exclusion assessment in September, before the October cold season, combined with complete sealing of all identified entry points, is the standard of care for La Crosse properties.",
+      },
+    ],
+    prevention: [
+      "Complete comprehensive mouse exclusion work by September for La Crosse properties before the October deep cold season.",
+      "Implement seasonal mosquito barrier spray programs from May through October given La Crosse's exceptional wetland mosquito burden.",
+      "Schedule spring carpenter ant inspection in April for bluffland-adjacent properties before the season peaks.",
+      "Seal south-facing exterior gaps in mid-September to prevent boxelder bug entry.",
+      "Implement building-level cockroach programs for UW-La Crosse campus-adjacent housing and downtown food service businesses.",
+    ],
+    costNote:
+      "La Crosse pest control starts with a free inspection. Year-round rodent programs with comprehensive fall exclusion work are the most critical service. Seasonal mosquito programs are strongly recommended given La Crosse's exceptional wetland burden. Carpenter ant treatment is quoted per property. Boxelder bug perimeter treatment is a fall add-on.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure so high in La Crosse compared to other Wisconsin cities?",
+        answer:
+          "La Crosse County sits at the convergence of three river systems, the Mississippi, Black, and La Crosse Rivers, with the La Crosse River Marsh being one of Wisconsin's largest freshwater marshes. These wetland environments sustain Culex mosquito breeding at a scale that most inland Wisconsin cities do not face. La Crosse County has historically documented West Nile virus in its Culex mosquito populations, making mosquito management here a public health priority rather than just a comfort measure.",
+      },
+      {
+        question: "How do La Crosse's extreme winters affect mouse management?",
+        answer:
+          "La Crosse's Mississippi River valley winters are among Wisconsin's most severe, with deep-freeze events that make structural entry a survival necessity for house mice. The exclusion requirements in La Crosse are more stringent than for milder Wisconsin cities: partial exclusion that leaves some foundation gaps open means mice find those specific gaps because the others have been sealed. A comprehensive professional exclusion assessment and thorough sealing of all identified entry points in September is the appropriate standard for La Crosse properties.",
+      },
+      {
+        question: "Do the bluffs surrounding La Crosse affect pest pressure?",
+        answer:
+          "Yes, in two ways. The bluffland forests sustain large carpenter ant source populations that extend foraging into La Crosse's residential areas each spring, particularly in the hillside neighborhoods adjacent to the bluffs. The bluffs also create geographic cold air pooling that contributes to La Crosse's severe winter temperatures in valley floor neighborhoods. Properties at the base of the bluffs or adjacent to the forested bluffland see higher carpenter ant pressure than properties in the flat river valley commercial areas.",
+      },
+      {
+        question: "Is La Crosse a high-risk area for West Nile virus from mosquitoes?",
+        answer:
+          "La Crosse County has documented West Nile virus in its Culex mosquito populations in most active surveillance seasons. The county's extensive wetland environment sustains the Culex mosquito populations that are the primary West Nile vector. La Crosse County's public health department conducts annual surveillance and maintains one of the more proactive mosquito vector management programs in Wisconsin. Individual property-level programs provide additional protection beyond what the public program delivers.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Madison", slug: "madison" },
+      { name: "Green Bay", slug: "green-bay" },
+      { name: "Milwaukee", slug: "milwaukee" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in La Crosse, WI | Mice, Mosquitoes & Carpenter Ants",
+    metaDescription:
+      "La Crosse pest control for house mice, carpenter ants, mosquitoes, boxelder bugs and German cockroaches. La Crosse County Mississippi River bluffs Coulee Region La Crosse River Marsh Wisconsin specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

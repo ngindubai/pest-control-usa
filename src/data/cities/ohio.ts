@@ -2888,4 +2888,428 @@ export const ohioCities: CityLocation[] = [
     metaDescription:
       "Strongsville pest control for house mice, brown marmorated stink bugs, subterranean termites, German cockroaches and carpenter ants. Cuyahoga County Chippewa Creek SouthPark Mall Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "westerville",
+    name: "Westerville",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~42,000",
+    county: "Franklin and Delaware Counties",
+    climate: "cold-humid",
+    climateDriver:
+      "Westerville straddles Franklin and Delaware Counties on the northern edge of Columbus, where cold continental winters, warm humid summers, and the Alum Creek corridor create year-round pressure from fall rodents, overwintering stink bugs, and spring termite swarms concentrated in the older Uptown housing stock.",
+    topPests: ["Stink Bugs", "House Mice", "Subterranean Termites", "Carpenter Ants", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November for entry, indoors through March",
+        note: "Westerville's tree-lined streets and Uptown district housing, much of it pre-1960, provide the crevices stink bugs need to overwinter. Sightings peak in September when adults seek warm wall voids and attic spaces.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge October through December",
+        note: "The fall temperature drop in central Ohio sends mice into Westerville homes quickly. Older Uptown homes with exposed pipe chases and deteriorated weather stripping are the most common entry points.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Subterranean termites are active across Franklin County, and Westerville's Alum Creek corridor with its moist bottomland soils supports consistent colony activity. Spring swarms on warm still days after rain are the most visible sign.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, most active May through July",
+        note: "Carpenter ants nest in moisture-softened wood in older Westerville homes, particularly in window frames, deck supports, and anywhere roof or plumbing leaks have gone unaddressed.",
+      },
+      {
+        name: "Yellow jacket wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note: "Yellow jackets nest in ground and wall voids across Westerville neighborhoods and become aggressive in late summer when colonies peak. Ground nests in mulched landscape beds are a frequent source of calls.",
+      },
+    ],
+    localHook:
+      "Westerville's Uptown Historic District, with its pre-World War II housing stock, concentrates stink bug pressure because older construction has more overwintering entry points than modern builds. A single older home can harbor hundreds of stink bugs in its walls through the winter.",
+    intro:
+      "Pest control in Westerville runs on a predictable seasonal rhythm. The fall brings stink bugs and mice, spring brings termite swarms and carpenter ants, and summer peaks with yellow jackets and mosquitoes. What makes Westerville somewhat different from the surrounding Columbus suburbs is the Uptown Historic District: a concentration of pre-1960 housing that gives overwintering stink bugs and fall mice more opportunities to get inside than newer construction provides. If you live in or near the Uptown area, the fall exclusion work pays off in a noticeably quieter winter.",
+    sections: [
+      {
+        heading: "Stink bugs in older Uptown homes",
+        body: "The brown marmorated stink bug is a fall and winter problem across central Ohio, but Westerville's older neighborhoods see it more intensely than newer suburbs because the housing stock gives stink bugs more ways in. Gap-filled window trim, deteriorated caulk around utility penetrations, and older siding with natural seams are the primary entry points. Sealing these in late August, before stink bugs begin their search for overwintering sites in September, is the most cost-effective approach. Vacuuming is the right response to bugs that make it indoors. Crushing them releases the odor, and indoor pesticide applications rarely catch them before they're deep in wall voids.",
+      },
+      {
+        heading: "Fall mouse season along the Alum Creek corridor",
+        body: "House mice move into Westerville homes as October temperatures drop. An exterior inspection in early September, before the entry pressure begins, is the most efficient time to address gap sealing around pipe penetrations, utility conduits, and foundation cracks. Alum Creek's wooded corridor sustains a year-round mouse population, and properties backing onto creek greenways tend to see the first activity of the season. A combination of exclusion and exterior bait stations, rather than snap traps alone inside, gives the most reliable long-season control.",
+      },
+    ],
+    prevention: [
+      "Seal stink bug entry points around windows, utility penetrations, and siding gaps in August before fall aggregation begins.",
+      "Inspect and seal foundation gaps and pipe chase openings in September before the fall mouse surge.",
+      "Schedule an annual termite inspection given Westerville's Alum Creek bottomland and older housing stock.",
+      "Treat yellow jacket ground nests in spring while colonies are small and before late-summer aggression peaks.",
+    ],
+    costNote:
+      "Westerville pest control commonly packages a fall stink bug seal-out with a quarterly perimeter service covering ants, spiders, and general pests. Termite inspections and treatments are quoted separately. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why are stink bugs so bad in Westerville's older neighborhoods?",
+        answer:
+          "Pre-1960 construction common in the Uptown area has more natural gaps than modern builds: older window trim, uninsulated wall cavities, and less thorough caulk around utility penetrations. Stink bugs aggregate at these entry points in fall before moving inside. Sealing the exterior in August significantly reduces how many make it into the living space.",
+      },
+      {
+        question: "When do mice start coming into Westerville homes?",
+        answer:
+          "In most years, the first mouse activity indoors begins in October as night temperatures drop into the 40s. Homes near Alum Creek tend to see it a few weeks earlier. Exclusion work in September, before the pressure begins, is far more effective than reactive trapping after mice have established inside.",
+      },
+      {
+        question: "Do Westerville homes need annual termite inspections?",
+        answer:
+          "Annual inspections make sense for Westerville homes, particularly those in the Uptown area or near the Alum Creek corridor. The moist bottomland soils along the creek support consistent termite colony activity, and older construction often has more wood-to-soil contact opportunities than newer builds. An inspection catches early activity before it becomes expensive.",
+      },
+      {
+        question: "What is the best way to handle yellow jackets in my yard?",
+        answer:
+          "Identify the nest type first. Ground nests should be treated at night when the colony is inside and less active, using a dust or foam application. Wall void nests require a different approach, and opening a wall without proper treatment can send the colony into the living space. In late summer, when colonies are largest, calling a professional reduces the sting risk significantly.",
+      },
+      {
+        question: "Is year-round pest control worth it in Westerville?",
+        answer:
+          "For homes with recurring stink bug pressure, mouse activity, or carpenter ant issues, a quarterly perimeter service tends to pay for itself in reduced individual treatment calls. The fall exclusion element is particularly valuable in older Uptown homes. Homes in newer construction with fewer natural gaps may do fine with seasonal-only service.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus" },
+      { name: "Gahanna", slug: "gahanna" },
+      { name: "Dublin", slug: "dublin" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Westerville, OH | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "Westerville pest control for stink bugs, house mice, subterranean termites, carpenter ants and yellow jackets. Franklin Delaware County Alum Creek Uptown Historic District Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "findlay",
+    name: "Findlay",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~41,000",
+    county: "Hancock County",
+    climate: "cold-humid",
+    climateDriver:
+      "Findlay sits in the Blanchard River watershed of northwest Ohio, where flat agricultural plains produce cold, windy winters and warm humid summers. Surrounding farmland creates a strong fall field mouse surge into town, and the river corridor supports mosquito activity through the warm months.",
+    topPests: ["House Mice", "Stink Bugs", "Subterranean Termites", "Odorous House Ants", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "House mice and field mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge October and November",
+        note: "Findlay's Hancock County farmland amplifies the fall mouse surge: field mice from agricultural land join urban house mice heading indoors when temperatures drop. Homes on the city's edges are most exposed to the combined pressure.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November for entry, indoors through March",
+        note: "Stink bugs are established across northwest Ohio, and Findlay sees consistent overwintering aggregations in homes with aging wall construction and older window caulk.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Subterranean termites are active across Hancock County. Findlay's older downtown housing and the moist soils along the Blanchard River create favorable conditions for colony establishment.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October, most active May through August",
+        note: "Odorous house ants are the most common indoor ant in Findlay, entering kitchens and bathrooms in search of moisture and food. Their rotten coconut odor when crushed makes them easy to identify.",
+      },
+      {
+        name: "Yellow jacket wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note: "Ground-nesting yellow jackets are a consistent late-summer concern in Findlay yards and parks, becoming aggressive as colonies peak in August and September.",
+      },
+    ],
+    localHook:
+      "Findlay's location in the heart of Hancock County farmland means the fall mouse surge includes both standard house mice from the urban environment and field mice displaced from harvested agricultural fields nearby. The convergence makes October and November the most active rodent months by a considerable margin.",
+    intro:
+      "If you want to understand pest control in Findlay, start with the landscape: flat northwest Ohio farmland in every direction, the Blanchard River running through the city, and cold winters that motivate every pest with legs to find a warm building. The mouse season here is strong precisely because the surrounding agriculture amplifies it. When fields are harvested in fall, field mice from the surrounding land join house mice in seeking shelter, and that convergence can make October a very active month for rodent calls. Beyond rodents, Findlay deals with the same stink bugs, termites, and ants that define the central Ohio pest calendar, with the Blanchard River adding mosquito pressure to neighborhoods near its banks.",
+    sections: [
+      {
+        heading: "The farmland edge and Findlay's mouse season",
+        body: "Findlay's strongest pest story is the fall mouse surge, and what makes it distinctive is the farmland contribution. Hancock County agriculture surrounds the city, and when the corn and soybean harvest displaces field mice in October, many of them head toward the nearest structure. Homes on Findlay's perimeter face this field mouse influx on top of standard urban house mouse pressure. The practical response is exclusion before the surge: sealing foundation gaps, checking where utilities enter the building, and addressing deteriorated door sweeps before the first hard frost. Waiting until mice are already inside is costlier and slower to resolve.",
+      },
+      {
+        heading: "Stink bugs and ant season in the warm months",
+        body: "While rodents define the cold season, Findlay's warm months are about ants and the lead-up to stink bug season. Odorous house ants appear in kitchens and bathrooms from April through October. Their large colony size and rapid recolonization mean baiting programs outperform contact spray for lasting control. By August, stink bugs are beginning their pre-overwintering migration, and treating the home's exterior before they aggregate in September significantly reduces the number that make it inside. A late-summer perimeter application plus exterior gap sealing is the most effective combination.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps and utility penetrations in September before field and house mice begin fall entry.",
+      "Apply perimeter ant bait from May onward to address odorous house ant colonies before they establish indoor routes.",
+      "Treat stink bug overwintering entry points in late August before September aggregation starts.",
+      "Schedule a termite inspection for homes near the Blanchard River corridor or with crawl spaces.",
+    ],
+    costNote:
+      "Findlay pest control often uses a seasonal model: fall rodent exclusion, spring ant and perimeter treatment, and targeted stink bug service in late summer. Termite inspections and treatment are quoted separately. A free inspection sets the right schedule.",
+    faqs: [
+      {
+        question: "Why are mice worse in Findlay than in some other Ohio cities?",
+        answer:
+          "The surrounding farmland amplifies the fall mouse surge. When Hancock County fields are harvested in October, field mice from the agricultural land join house mice in moving toward structures. Homes on the city's edges see the combined urban-plus-agricultural pressure. Sealing entry points before the harvest season reduces this significantly.",
+      },
+      {
+        question: "When should I treat for stink bugs in Findlay?",
+        answer:
+          "The best time is late August, before stink bugs begin aggregating on the south and west sides of buildings in September. A perimeter spray combined with caulking around windows, utility penetrations, and soffit gaps reduces entry. Once stink bugs are inside wall voids, indoor treatment is less effective. Vacuuming is the right response to individual bugs found indoors.",
+      },
+      {
+        question: "Are subterranean termites a real risk in Findlay?",
+        answer:
+          "Yes. Eastern subterranean termites are active across Hancock County, and the moist soils along the Blanchard River create favorable conditions for colonies. Spring swarms on warm days in April and May are the most visible sign. Annual inspections, particularly for homes with crawl spaces or wood in contact with the soil, are a sound investment.",
+      },
+      {
+        question: "What is the odorous house ant and why does it smell?",
+        answer:
+          "The odorous house ant produces formic acid compounds when crushed, creating a smell often described as rotten coconut. It is the most common indoor ant across northwest Ohio. Large colonies require baiting rather than contact spray, because killing foragers does not address the colony producing them.",
+      },
+      {
+        question: "Is year-round pest service worth it in Findlay?",
+        answer:
+          "For homes with mouse pressure, recurring ant problems, or stink bug infiltration history, a quarterly service that addresses each season is cost-effective. The fall exclusion component alone is often worth the annual program cost for homes near the farmland edge. Homes with minimal pest history may prefer seasonal-only treatment.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Toledo", slug: "toledo" },
+      { name: "Lima", slug: "lima-oh" },
+      { name: "Bowling Green", slug: "bowling-green-oh" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Findlay, OH | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Findlay pest control for house mice, stink bugs, subterranean termites and odorous house ants. Hancock County Blanchard River northwest Ohio farmland-edge specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "huber-heights",
+    name: "Huber Heights",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~38,000",
+    county: "Montgomery County",
+    climate: "cold-humid",
+    climateDriver:
+      "Huber Heights sits north of Dayton in the Miami River watershed, with cold continental winters and humid summers. Its post-war residential construction from the 1950s through 1970s creates a uniform housing vintage with consistent pest entry patterns for stink bugs, mice, and carpenter ants.",
+    topPests: ["Stink Bugs", "Carpenter Ants", "House Mice", "Subterranean Termites", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November for entry, indoors through March",
+        note: "Huber Heights' uniform 1950s-to-1970s housing means virtually all homes share the same aging construction details and gap locations. When stink bugs aggregate in fall, this consistency produces high numbers across many homes at the same time.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, most active May through July",
+        note: "Carpenter ants are a significant structural pest in Huber Heights, nesting in water-damaged wood where roof or plumbing leaks have gone unaddressed in the aging housing stock.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note: "The consistent construction era across Huber Heights means homes share similar gap points at pipe penetrations and utility entries, making fall mouse exclusion a community-wide concern.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Montgomery County has established termite populations, and Huber Heights' older construction often has aging landscape timbers and debris near foundations that provide direct termite access.",
+      },
+      {
+        name: "Yellow jacket wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive in August",
+        note: "Ground-nesting yellow jackets establish colonies in Huber Heights lawns and become aggressive in late summer. Wall void nests in older siding are also common.",
+      },
+    ],
+    localHook:
+      "Huber Heights is one of the largest communities in America developed by a single builder: Charles Huber constructed virtually all its original housing between 1956 and 1975. That shared construction era means pest vulnerabilities are consistent across thousands of homes, making neighborhood-wide treatment timing especially effective.",
+    intro:
+      "Pest control in Huber Heights has an unusual dimension: the majority of its housing was built in a single 20-year period by one developer, Charles Huber. That shared construction history means pest vulnerabilities are predictable and consistent across neighborhoods. Stink bugs find the same types of gaps in every block; mice enter through the same pipe chase configurations; carpenter ants target the same aging window frames. The pest calendar runs from spring carpenter ant and termite season through a fall stink bug and mouse surge, and timing the response to each season makes the biggest difference in a city where your neighbor's home faces the same challenges yours does.",
+    sections: [
+      {
+        heading: "How shared construction age shapes pest pressure",
+        body: "Most cities have a mix of housing ages that spreads pest vulnerability unevenly. Huber Heights is different. Homes built in the 1950s through 1970s share aging caulk at window seams, similar pipe penetration locations, and comparable attic access points. When stink bugs aggregate in fall or mice look for entry in October, the structural invitation is similar from house to house. This makes exterior exclusion work particularly valuable here: a well-sealed 1960s home performs far better than a neighbor whose gaps remain open. If your neighbors are treating for mice or stink bugs, your home is in the same pressure zone, and proactive timing rewards you more than reactive response.",
+      },
+      {
+        heading: "Carpenter ants and aging wood in the Miami Valley",
+        body: "Huber Heights' position in the Miami River watershed brings carpenter ant pressure from two directions: the moisture the river system puts into local soils, and the aging wood in the housing stock that moisture has been working on for fifty-plus years. Carpenter ants do not eat wood the way termites do; they excavate galleries in wood already softened by moisture. The consequence is that a carpenter ant infestation here is usually a moisture problem first and a pest problem second. Finding where water is getting into the structure, whether from a leaking gutter, failed flashing, or an old plumbing penetration, is the starting point for lasting control. Treatment without the moisture fix is a temporary measure.",
+      },
+    ],
+    prevention: [
+      "Inspect and update exterior caulk at windows, doors, and utility penetrations annually, given the shared construction age of local housing.",
+      "Address moisture sources including gutter drainage, plumbing leaks, and crawl space ventilation to reduce carpenter ant nesting conditions.",
+      "Apply a perimeter treatment and gap sealing in late August for stink bug control before September aggregation.",
+      "Remove landscape timbers and wood debris from foundation contact to reduce termite access.",
+    ],
+    costNote:
+      "Huber Heights pest control works best on a scheduled basis given the consistent housing age and seasonal pest cycle. A quarterly service covering perimeter pests, with a fall rodent exclusion component, is the most common program. Termite treatment and carpenter ant nest elimination are quoted separately.",
+    faqs: [
+      {
+        question: "Why does the shared construction age of Huber Heights matter for pest control?",
+        answer:
+          "When most homes in a city were built in the same 20-year period, their pest vulnerabilities are similar: aging caulk at the same locations, pipe penetrations of similar design, and wood that has had the same number of decades to absorb moisture. Treatments that work in one neighborhood typically work in the next, and proactive timing rewards the whole community.",
+      },
+      {
+        question: "Are carpenter ants a serious problem in Huber Heights?",
+        answer:
+          "Yes. The 1950s-to-1970s housing stock has had decades for moisture to soften wood in basements, window frames, and roof edges. Carpenter ants excavating galleries in this wood can cause significant damage if left untreated. The most important step is finding the moisture source, because the ant follows the moisture.",
+      },
+      {
+        question: "When should I seal my home against stink bugs in Huber Heights?",
+        answer:
+          "The window is August. Stink bugs begin searching for overwintering sites in September, so exterior gap sealing and a perimeter treatment applied in August reduces entry before the pressure begins. A single application of perimeter spray combined with caulking around windows and utility openings makes a measurable difference by October.",
+      },
+      {
+        question: "Do I need a termite inspection in Huber Heights?",
+        answer:
+          "Yes, particularly for homes built before 1980. Older construction may have landscape timbers and foundation plantings installed decades ago that are now in close proximity to structural wood. Montgomery County has established termite populations, and older construction with wood near the soil line warrants annual inspection.",
+      },
+      {
+        question: "Is Huber Heights in a high mouse pressure zone?",
+        answer:
+          "It is a moderately high pressure zone, consistent with the broader Miami Valley area. The convergence of older housing with potential entry points and cold continental winters creates a reliable fall mouse surge from October through December. Fall exclusion work addresses this directly before the surge begins.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Dayton", slug: "dayton" },
+      { name: "Kettering", slug: "kettering" },
+      { name: "Beavercreek", slug: "beavercreek" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Huber Heights, OH | Stink Bugs, Carpenter Ants & Mice",
+    metaDescription:
+      "Huber Heights pest control for stink bugs, carpenter ants, house mice, subterranean termites and yellow jackets. Montgomery County Miami Valley post-war housing stock Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "gahanna",
+    name: "Gahanna",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~36,000",
+    county: "Franklin County",
+    climate: "cold-humid",
+    climateDriver:
+      "Gahanna sits in eastern Franklin County where Blacklick Creek runs through established residential neighborhoods. The creek corridor, proximity to Rickenbacker International Airport's surrounding open land, and cold continental winters create an active rodent and mosquito season alongside standard central Ohio termite and stink bug pressure.",
+    topPests: ["Subterranean Termites", "Stink Bugs", "House Mice", "Mosquitoes", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Gahanna's older neighborhoods near Blacklick Creek have moist bottomland soils that support termite colonies well. Spring swarms near windows and doors on warm days after rain are the most common first indicator.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November for entry, indoors through March",
+        note: "Stink bugs are well established across Franklin County, and Gahanna's mix of older and newer housing creates varied vulnerability, with pre-1990 homes seeing higher overwintering numbers due to more natural gaps.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge October through December",
+        note: "Blacklick Creek's wooded corridor sustains a year-round mouse population, and properties backing onto the greenway tend to see the earliest fall activity. The open land near Rickenbacker adds fall field mouse pressure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, most active June through August",
+        note: "Blacklick Creek and its associated wet areas generate mosquito breeding habitat through the warm months. Franklin County monitors West Nile virus activity annually, and the creek corridor consistently shows mosquito activity.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, most active in early summer",
+        note: "Carpenter ants forage from Gahanna's creek-side trees into adjacent homes, targeting moisture-damaged wood in basements and around windows. Creek-adjacent homes see the most consistent pressure.",
+      },
+    ],
+    localHook:
+      "Gahanna's Blacklick Creek greenway creates a year-round pest corridor that pressures the residential neighborhoods on both sides. Mice, mosquitoes, and carpenter ants all move outward from the creek into adjacent homes, making the greenway the most consistent driver of residential pest calls in the city.",
+    intro:
+      "Pest control in Gahanna is shaped primarily by Blacklick Creek, which runs through the heart of the city and creates the kind of wooded, moist corridor that pest populations exploit. Mice use it as year-round habitat, moving into adjacent homes in fall. Mosquitoes breed in its slow-moving backwaters through summer. Carpenter ants forage from its trees into nearby structures. That creek influence sits on top of the broader Franklin County pest calendar: termites active in spring, stink bugs overwintering in fall, and yellow jackets building through summer. Managing pests in Gahanna well means accounting for that creek-edge pressure, not just the standard suburban Columbus pest list.",
+    sections: [
+      {
+        heading: "Blacklick Creek as a pest corridor",
+        body: "The Blacklick Creek greenway that runs through Gahanna is one of the city's most valued community features. It is also a sustained pest pressure source for the neighborhoods on both sides. Mice live in the wooded creek bank year-round and move into adjacent homes each fall, often earlier than rodent activity begins in neighborhoods further from the water. Mosquitoes breed in the creek's slow-moving sections and associated wet areas from late spring through September. Carpenter ants forage from the mature trees lining the bank. Homes within a few hundred yards of the greenway benefit from a more active perimeter treatment schedule than those further away, because the pest pressure is genuinely higher at that interface.",
+      },
+      {
+        heading: "Termite and stink bug seasons in eastern Franklin County",
+        body: "Beyond the creek-specific pressure, Gahanna deals with the same termite and stink bug calendar as the rest of Franklin County. Eastern subterranean termites swarm in April and May on warm, still days after spring rain, and annual inspections are a practical investment for homes near the moist creek corridor. Stink bugs begin aggregating on south-facing building exteriors in September and stay through the winter in wall voids. Treatment timing is everything: a perimeter spray and gap sealing in August reduces fall entry far more effectively than reactive treatment after the bugs are already inside the walls.",
+      },
+    ],
+    prevention: [
+      "Keep a vegetation-free zone around the foundation to reduce the mouse and ant bridge from creek-adjacent landscape.",
+      "Apply monthly mosquito barrier spray from May through September for properties within a quarter mile of Blacklick Creek.",
+      "Seal foundation gaps, utility penetrations, and door sweeps in September before the fall mouse surge.",
+      "Schedule annual termite inspections for homes near the Blacklick Creek bottomland soils.",
+    ],
+    costNote:
+      "Gahanna pest control for creek-adjacent homes typically includes a mosquito program monthly from May through September, a quarterly perimeter pest service, and a fall rodent exclusion package. Termite inspection and treatment are quoted separately. Free inspection to start.",
+    faqs: [
+      {
+        question: "Does living near Blacklick Creek mean more pests?",
+        answer:
+          "Yes, measurably so for mice, mosquitoes, and carpenter ants. The creek provides year-round habitat, and properties within a few hundred yards see consistent pressure from all three as pests move from the wooded corridor into adjacent homes and yards. Properties further from the creek deal with the standard Franklin County pest calendar without the creek-specific amplification.",
+      },
+      {
+        question: "When should I start mosquito treatment in Gahanna?",
+        answer:
+          "For properties near Blacklick Creek, May is the right time to start a barrier spray program. The creek's backwaters begin producing mosquitoes when water temperatures warm in late spring, and establishing a treated perimeter before mosquito populations peak in June gives the best control through the active season. Monthly applications are more effective than one-time seasonal treatment.",
+      },
+      {
+        question: "How do I know if I have subterranean termites in Gahanna?",
+        answer:
+          "The most common signs are mud tubes on foundation walls, hollow-sounding wood when tapped, and swarmers, which are winged termites that emerge in spring near windows. A professional inspection confirms whether activity is present and whether damage has occurred.",
+      },
+      {
+        question: "Do stink bugs cause damage in Gahanna homes?",
+        answer:
+          "No. Brown marmorated stink bugs do not bite, sting, breed indoors, eat household materials, or damage the structure. The concern is the odor when crushed and the number that can accumulate in wall voids and attic spaces. Vacuum them rather than crush them, and avoid indoor pesticide sprays, as dead stink bugs attract carpet beetles.",
+      },
+      {
+        question: "What is the best timing for mouse prevention in Gahanna?",
+        answer:
+          "September is the window for exclusion work, before the fall temperature drop triggers the entry surge in October. Inspect the foundation perimeter for gaps at pipe entries, utility conduits, and construction joints. Door sweeps on garage and basement doors are a commonly overlooked entry point. Exterior bait station placement before mice establish inside gives the most reliable season-long control.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus" },
+      { name: "Westerville", slug: "westerville" },
+      { name: "Newark", slug: "newark-oh" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Gahanna, OH | Termites, Stink Bugs & Mosquitoes",
+    metaDescription:
+      "Gahanna pest control for subterranean termites, stink bugs, house mice, mosquitoes and carpenter ants. Franklin County Blacklick Creek greenway eastern Columbus suburb Ohio specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -1335,4 +1335,210 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Binghamton pest control for house mice, German cockroaches, bed bugs, stink bugs and carpenter ants. Broome County Susquehanna River confluence older housing Binghamton University specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "niagara-falls",
+    name: "Niagara Falls",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~49,000",
+    county: "Niagara County",
+    climate: "cold-humid",
+    climateDriver:
+      "Lake Ontario and Lake Erie moderate temperatures slightly but deliver significant lake-effect snow. Winters are long and cold, with deep freeze events driving rodents indoors early. Summers are warm and humid, sustaining mosquito and carpenter ant populations.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "Termites",
+      "Stink Bugs",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "House Mice",
+        activeSeason: "Year-round",
+        note: "Exclusion work at the foundation and along utility lines is the single most cost-effective mouse prevention measure in Niagara Falls' older housing stock.",
+      },
+      {
+        name: "Carpenter Ants",
+        activeSeason: "Spring through fall",
+        note: "Addressing moisture at the foundation is essential before ant control will hold.",
+      },
+      {
+        name: "Termites",
+        activeSeason: "Spring through fall",
+        note: "Annual termite inspections are recommended for any home built before 1980 in Niagara County.",
+      },
+      {
+        name: "Stink Bugs",
+        activeSeason: "Fall, September through November",
+        note: "Perimeter spray in early September and sealing window frames and masonry gaps prevents the worst invasions.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "Year-round",
+        note: "Multi-unit buildings require coordinated treatment across all units, not individual apartment interventions.",
+      },
+    ],
+    localHook:
+      "Niagara Falls is a post-industrial border city whose housing stock and commercial base present a distinct pest challenge. The majority of residential structures were built between 1940 and 1975, during the city's industrial peak. Decades of deferred maintenance, basement moisture, and aging structural seals give house mice and carpenter ants an open invitation. The tourist strip along the Niagara River adds a commercial cockroach pressure that inland cities rarely see at the same scale.",
+    intro:
+      "Pest control in Niagara Falls centers on a housing stock that is aging, often damp, and full of entry points that today's newer construction simply does not have. The city's older homes were built for a manufacturing economy that has long since restructured, and many have not had systematic exclusion or inspection work in years. House mice are the most consistent complaint, active year-round and surging in fall. Carpenter ants thrive in the moisture-affected wood that characterizes many basements and exterior frames. German cockroaches are a persistent issue in the tourism and food service corridor along the river and in multi-family housing. A Niagara Falls pest program that does not start with a thorough inspection of the structure is not starting correctly.",
+    sections: [
+      {
+        heading: "Aging housing and mouse pressure in Niagara Falls",
+        body: "The residential core of Niagara Falls is built on a foundation of mid-20th-century homes that have accumulated years of minor structural gaps. Foundation sill plates settle, utility penetrations widen, and basement window frames crack in ways that a house mouse can exploit in hours. The fall surge, when dropping temperatures push mice from outdoor cover into structures, is significant here and typically begins in September. Exclusion is the cornerstone of any effective mouse program in Niagara Falls: trapping without sealing entry points is a temporary measure that will not hold through winter. A professional inspection maps the gaps; a professional exclusion seals them before the first hard frost.",
+      },
+      {
+        heading: "Cockroaches and the tourist corridor",
+        body: "The hospitality and food service businesses along the Niagara River waterfront and the commercial blocks near the falls deal with German cockroach pressure that tracks closely with customer volume and supply chain deliveries. Commercial cockroach programs here require monthly service, inspection of all incoming cardboard and supply deliveries, and attention to grease traps and drain lines where cockroaches breed and harborage. Multi-family residential properties in Niagara Falls face a similar challenge: cockroach populations move between units through shared plumbing and electrical chases, which means treating one apartment without addressing the building level rarely produces lasting results.",
+      },
+    ],
+    prevention: [
+      "Seal all foundation gaps, sill plate openings, and utility penetrations before September to block fall mouse entry.",
+      "Address basement moisture and repair any wet or rotting wood to reduce carpenter ant harborage.",
+      "Schedule a termite inspection for any home built before 1980 in Niagara County.",
+      "Seal window frames and masonry gaps in August to prevent stink bug entry in fall.",
+      "Inspect incoming cardboard deliveries to prevent cockroach introduction in food service businesses.",
+    ],
+    costNote:
+      "Niagara Falls pest control starts with a free inspection. Mouse exclusion and year-round rodent programs are the most common service. Termite inspections and treatments are quoted per property. Commercial cockroach programs are priced by property size and service frequency.",
+    faqs: [
+      {
+        question: "Why are mice such a persistent problem in Niagara Falls?",
+        answer:
+          "The city's older housing stock is the main reason. Homes built in the 1940s through 1970s have had decades to develop structural gaps that mice use for entry. Foundation sill plates, utility penetrations, basement window frames, and exterior wall cracks all accumulate over time. Without systematic exclusion work, mouse trapping alone keeps numbers down but does not eliminate the problem.",
+      },
+      {
+        question: "Are termites a real risk in Niagara Falls?",
+        answer:
+          "Yes. Subterranean termites are present throughout Niagara County and are an underappreciated risk in Niagara Falls' older wood-framed homes. Many properties have never had a professional termite inspection. Given the age of the housing stock and the presence of basement moisture in many homes, annual inspection is the standard recommendation.",
+      },
+      {
+        question: "How serious is stink bug pressure in Niagara Falls?",
+        answer:
+          "Stink bugs are well established in western New York and invade each fall in noticeable numbers. Older masonry buildings and homes with aging window seals and deteriorating frames see heavier infestations. A perimeter spray treatment in early September, before temperatures drop, combined with sealing gaps in window frames and siding, provides the most effective prevention.",
+      },
+      {
+        question: "Does Niagara Falls have elevated cockroach pressure compared to other upstate cities?",
+        answer:
+          "Yes, in the commercial and multi-family areas. The tourism industry sustains food service businesses that attract German cockroaches, and the older apartment housing stock provides conditions where populations persist. Residential neighborhoods away from the commercial core have lower pressure, but multi-family buildings throughout the city benefit from proactive programs.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Buffalo", slug: "buffalo" },
+      { name: "Rochester", slug: "rochester" },
+      { name: "Utica", slug: "utica" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Niagara Falls, NY | Mice, Termites & Cockroaches",
+    metaDescription:
+      "Niagara Falls pest control for house mice, carpenter ants, termites, stink bugs and German cockroaches. Niagara County older housing post-industrial specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "rome-ny",
+    name: "Rome",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~32,000",
+    county: "Oneida County",
+    climate: "cold-humid",
+    climateDriver:
+      "Rome sits in the snow belt east of Lake Ontario. Lake-effect systems deliver heavy snow accumulations and keep winter temperatures persistently low. The deep freeze means rodents move indoors earlier than in most of New York. Summers are warm and short, with Mohawk Valley humidity sustaining summer pest populations.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "Boxelder Bugs",
+      "Yellow Jackets",
+      "Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House Mice",
+        activeSeason: "Year-round",
+        note: "Lake-effect cold fronts in late August are the trigger for early mouse entry in Rome. Exclusion work completed by mid-August provides the best protection.",
+      },
+      {
+        name: "Carpenter Ants",
+        activeSeason: "Spring through fall",
+        note: "Foraging trails from exterior woodlots into structures are a key identification sign in Rome properties.",
+      },
+      {
+        name: "Boxelder Bugs",
+        activeSeason: "Fall, September through November",
+        note: "Sealing entry points in late September prevents mass indoor accumulation of boxelder bugs.",
+      },
+      {
+        name: "Yellow Jackets",
+        activeSeason: "Late summer through fall",
+        note: "Ground nests are most common in Rome's residential yards with adjacent open land. Treat in evening when workers are in the nest.",
+      },
+      {
+        name: "Stink Bugs",
+        activeSeason: "Fall, September through November",
+        note: "Rome's stink bug season typically peaks in October, later than downstate areas.",
+      },
+    ],
+    localHook:
+      "Rome is a central New York city in the lake-effect snow belt where the pest calendar runs ahead of schedule. Mice start seeking indoor harborage in late August, weeks before residents in warmer parts of New York see the same pressure. The Mohawk Valley's forests and the rural land on Rome's edges sustain carpenter ant, yellow jacket, and boxelder bug populations that move into residential properties throughout the active season. Griffiss Business and Technology Park, on the former air force base, and Rome's older residential neighborhoods both present distinct pest management profiles.",
+    intro:
+      "Pest control in Rome, NY follows a calendar shaped by Lake Ontario's snow belt. The city sits far enough east of the lake to catch consistent lake-effect events that arrive early and stay late, and the pest season reflects that. Mice move indoors by late August in bad years, driven by the same cold fronts that bring the first lake-effect flurries. Carpenter ants from the surrounding Mohawk Valley forests are the dominant spring pest. Boxelder bugs and yellow jackets define late summer and fall, and stink bugs have become a reliable fall invader as populations expand through Oneida County. Year-round rodent protection with seasonal insect control covers the main threats for most Rome households.",
+    sections: [
+      {
+        heading: "Lake-effect cold and early mouse season in Rome",
+        body: "Rome's position in the lake-effect corridor from Lake Ontario means the mouse season starts earlier here than in most upstate New York cities. When late-August cold fronts arrive, outdoor mouse populations at the edges of Rome's residential neighborhoods begin seeking warm harborage, and structures with even small foundation gaps become entry targets. The key window for exclusion work is July through mid-August, before the first cold events trigger the movement. Sealing foundation gaps, utility penetrations, and gaps around basement windows at that time is far more effective than reactive trapping after mice are already inside. For properties adjacent to the farmland and woodlots on Rome's outskirts, year-round monitoring is the standard of care.",
+      },
+      {
+        heading: "Carpenter ants and woodland pest pressure in Rome",
+        body: "The Mohawk Valley forests and woodlots surrounding Rome sustain year-round carpenter ant colonies that foragers extend into residential properties each spring. Trails often originate in stumps, wood piles, or moisture-affected exterior wood and reach kitchens and wall voids through foundation gaps. The carpenter ants most commonly active in Rome are large, black, and unmistakable, but the satellite colonies they establish in wall voids can persist for years without treatment. An effective carpenter ant program identifies the main nest, treats it and any satellite colonies, and addresses the moisture source driving the infestation. Treating surface trails without finding the nest rarely produces lasting results.",
+      },
+    ],
+    prevention: [
+      "Complete mouse exclusion work by mid-August, before lake-effect cold fronts trigger the fall entry surge.",
+      "Remove wood piles, stumps, and debris near the foundation to reduce carpenter ant harborage.",
+      "Seal window frames and siding gaps in late September to prevent boxelder bug and stink bug entry.",
+      "Treat yellow jacket ground nests in July and August before colony size peaks.",
+      "Keep gutters clear and address roof soffit gaps to prevent yellow jacket nesting in eaves.",
+    ],
+    costNote:
+      "Rome pest control starts with a free inspection. Year-round rodent programs with fall exclusion work are the most common service. Carpenter ant treatments are quoted per property. Stinging insect and boxelder bug treatments are seasonal. Bed bug inspection is available on request.",
+    faqs: [
+      {
+        question: "Why do mice seem to enter Rome homes earlier than expected?",
+        answer:
+          "Rome sits in New York's lake-effect snow belt, and late-August cold fronts from Lake Ontario chill the area earlier than most of upstate New York. Those early cold events trigger mouse movement from outdoor cover to warm structures weeks ahead of schedule. Exclusion work completed by mid-August is the most effective prevention.",
+      },
+      {
+        question: "Are carpenter ants a serious problem in Rome, NY?",
+        answer:
+          "Yes, particularly on properties with proximity to the Mohawk Valley woodlands or with moisture in the foundation and exterior wood. Carpenter ants from surrounding forests extend foraging trails into Rome's older residential areas each spring. A professional inspection to find the nest location is the necessary first step, since treating trails without treating the nest will not resolve the infestation.",
+      },
+      {
+        question: "What is the boxelder bug situation in Rome?",
+        answer:
+          "Boxelder bugs are a reliable fall nuisance in Rome. Boxelder trees are common throughout central New York, and each fall the bugs aggregate on warm south-facing walls before seeking entry into structures. Sealing gaps in window frames, siding, and utility penetrations in late September prevents mass indoor accumulation. They do not bite or cause structural damage, but large indoor aggregations are distressing.",
+      },
+      {
+        question: "Are stink bugs established in Oneida County?",
+        answer:
+          "Yes. Brown marmorated stink bugs have expanded into Oneida County and are now a consistent fall pest in Rome. The invasion season here peaks in October, which is later than downstate areas. Older homes with masonry gaps and deteriorating window seals see the heaviest invasions. A perimeter treatment in late September and gap sealing provides the best defense.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Utica", slug: "utica" },
+      { name: "Syracuse", slug: "syracuse" },
+      { name: "Albany", slug: "albany" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Rome, NY | Mice, Carpenter Ants & Boxelder Bugs",
+    metaDescription:
+      "Rome NY pest control for house mice, carpenter ants, boxelder bugs, yellow jackets and stink bugs. Oneida County lake-effect snow belt early mouse season specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

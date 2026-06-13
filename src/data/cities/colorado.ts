@@ -1413,4 +1413,210 @@ export const coloradoCities: CityLocation[] = [
     metaDescription:
       "Longmont pest control for house mice, pavement ants, black widow spiders, boxelder bugs and voles. Boulder County St. Vrain Creek northern Front Range agricultural interface specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "loveland",
+    name: "Loveland",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T3",
+    population: "~80,000",
+    county: "Larimer County",
+    climate: "semi-arid",
+    climateDriver:
+      "Loveland sits at the mouth of the Big Thompson Canyon where the Big Thompson River exits the Rocky Mountains onto the Front Range plains. The semi-arid climate delivers approximately 14 inches of annual precipitation. Chinook winds from the mountains create rapid temperature swings that affect pest behavior and activity windows. The Big Thompson River corridor sustains moisture-pest environments not found in the surrounding semi-arid landscape.",
+    topPests: [
+      "House Mice",
+      "Black Widow Spiders",
+      "Voles",
+      "Boxelder Bugs",
+      "Pavement Ants",
+    ],
+    pestProfile: [
+      {
+        name: "House Mice",
+        activeSeason: "Year-round",
+        note: "Chinook-driven fall temperature drops at Loveland trigger fast mouse entry events. Properties must be sealed before the first fall Chinook.",
+      },
+      {
+        name: "Black Widow Spiders",
+        activeSeason: "Spring through fall",
+        note: "Black widows are more common in Loveland's Front Range environment than most homeowners expect. Always wear gloves when handling outdoor stored items.",
+      },
+      {
+        name: "Voles",
+        activeSeason: "Year-round",
+        note: "Loveland's irrigated residential landscaping sustains vole populations at levels not seen in surrounding dry-land areas.",
+      },
+      {
+        name: "Boxelder Bugs",
+        activeSeason: "Fall, September through November",
+        note: "Big Thompson River corridor boxelder trees sustain the primary fall boxelder bug population affecting Loveland.",
+      },
+      {
+        name: "Pavement Ants",
+        activeSeason: "Spring through summer",
+        note: "Pavement ant colonies under Loveland's residential driveways and foundation slabs are the primary source of kitchen ant invasions in spring.",
+      },
+    ],
+    localHook:
+      "Loveland sits at the mouth of the Big Thompson Canyon, made famous by the catastrophic 1976 flash flood that reshaped the canyon and redefined how Larimer County thinks about its relationship with the mountains. The Big Thompson River corridor entering the city from the west sustains a moisture-rich pest environment that contrasts sharply with the surrounding semi-arid Front Range. Rocky Mountain National Park is 30 miles up the canyon, and the mountain-edge location brings wildlife pest pressure from the adjacent foothills. Loveland is also known as the nation's sweetheart city for its Valentine's Day tradition, but for pest management purposes it is the Big Thompson River and the Front Range-plains transition that matter most.",
+    intro:
+      "Pest control in Loveland operates at the intersection of mountain-edge wildlife pressure and Front Range semi-arid pest patterns. House mice are the primary structural pest year-round, with the Big Thompson River corridor and Larimer County's agricultural land sustaining outdoor populations that press into structures in fall. Black widow spiders are genuinely common in the dry Front Range environment and deserve consistent management in garages and outdoor storage areas. Voles damage lawns and garden plantings in the irrigated residential areas. Boxelder bugs from the river corridor are a fall nuisance, and pavement ants are the primary household ant from spring through summer. A Loveland program that covers rodents, spiders, and voles year-round with seasonal adjustments for the ant and bug seasons is the complete approach.",
+    sections: [
+      {
+        heading: "Big Thompson River corridor and mountain-edge pest pressure in Loveland",
+        body: "The Big Thompson River exits the Rocky Mountains at Loveland and runs through the city's northern edge before crossing the Front Range plains. The river corridor creates a linear moisture environment in an otherwise semi-arid landscape, sustaining boxelder trees, riparian vegetation, and the pest populations that depend on them. Mouse populations along the river corridor extend foraging into residential neighborhoods adjacent to the water, and the river provides the harborage and food sources that sustain them year-round. The mountain edge location also means wildlife-associated pests at Loveland's western residential fringe are more common than in the city's eastern areas: field mice from the foothills, deer mice in mountain-adjacent neighborhoods, and the occasional wildlife pest that Front Range cities farther from the mountains rarely encounter.",
+      },
+      {
+        heading: "Black widow and vole management in Loveland's residential areas",
+        body: "Black widow spiders are a real and underappreciated pest in Loveland. The Front Range's warm, dry climate and the abundant insect prey sustained by the irrigated residential landscape provide ideal black widow habitat. They establish in garages, storage sheds, under deck boards, in crawl spaces, and in stacked firewood throughout the city. The risk from black widow bite is genuine, and the management approach is both professional treatment of harborage areas and personal protective measures including gloves for outdoor storage work. Voles cause a different category of damage: the surface runways cut through lawns in winter, root damage to ornamental plants and garden beds, and girdling of young trees and shrubs. Loveland's irrigated residential landscape sustains vole populations at densities that dry-land surrounding areas cannot support. Professional vole management combining bait programs and habitat modification in the lawn and garden borders is effective for persistent infestations.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and garage door frames before fall Chinook events to prevent mouse entry.",
+      "Wear gloves when handling outdoor stored items, firewood, and garden equipment to avoid black widow contact.",
+      "Reduce dense ground cover and vegetation along Big Thompson River-adjacent fence lines to reduce vole harborage.",
+      "Seal south-facing exterior gaps in mid-September to prevent boxelder bug entry.",
+      "Apply perimeter spray at the foundation and driveway cracks in April to address spring pavement ant foraging.",
+    ],
+    costNote:
+      "Loveland pest control starts with a free inspection. Year-round rodent programs with fall exclusion work are the most common service. Black widow and spider perimeter treatment is available year-round. Vole management programs are quoted by property size and infestation level. Boxelder bug and pavement ant treatments are seasonal.",
+    faqs: [
+      {
+        question: "Are black widow spiders common in Loveland?",
+        answer:
+          "Yes. Black widow spiders are more common in Loveland and throughout Larimer County than most residents expect. The Front Range's warm, dry climate provides the low-humidity environments they prefer, and the irrigated residential landscape sustains the insect prey that supports healthy populations. Garages, outdoor storage sheds, under deck boards, and stacked firewood are the most common harborage sites. Wearing gloves when handling any outdoor stored items is a practical safety measure in Larimer County, not an overly cautious one.",
+      },
+      {
+        question: "What causes vole damage in Loveland lawns?",
+        answer:
+          "Voles are small rodents that create runways through lawns and cause root damage to garden plants and ornamental shrubs. Loveland's irrigated residential landscape sustains vole populations at densities that the surrounding dry-land areas cannot support, because the moisture and grass coverage provided by irrigation creates ideal vole habitat. Damage appears in late winter or early spring when snow melts to reveal runways cut through the lawn. Professional vole management combining bait programs with reducing dense ground cover in garden borders is effective for persistent infestations.",
+      },
+      {
+        question: "How do Chinook winds affect pest activity in Loveland?",
+        answer:
+          "Chinook winds from the Rocky Mountains create rapid, dramatic temperature swings in Loveland, sometimes raising temperatures by 30 to 40 degrees in hours. In fall, Chinook events followed by rapid cold snaps accelerate mouse entry behavior, compressing what might be a gradual fall entry process into a short, intense window when temperature drops sharply. Properties without completed exclusion work before the first fall Chinook events can see rapid mouse establishment. Completing exclusion work in September, before Chinook season's most active fall period, is the optimal timing.",
+      },
+      {
+        question: "Are Big Thompson River corridor properties at higher pest risk?",
+        answer:
+          "Yes. The Big Thompson River creates a moisture corridor in an otherwise semi-arid landscape that sustains higher mouse, vole, boxelder bug, and mosquito populations than surrounding dry-land areas. Properties adjacent to the river or within several blocks of the corridor see above-average pressure from these pests. The mountain-edge location also brings occasional wildlife-associated pest pressure at the foothills interface that is specific to western Loveland properties near the canyon mouth.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Fort Collins", slug: "fort-collins" },
+      { name: "Boulder", slug: "boulder" },
+      { name: "Greeley", slug: "greeley" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Loveland, CO | Mice, Black Widows & Voles",
+    metaDescription:
+      "Loveland pest control for house mice, black widow spiders, voles, boxelder bugs and pavement ants. Larimer County Big Thompson Canyon Front Range Chinook wind Colorado specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "castle-rock",
+    name: "Castle Rock",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T3",
+    population: "~80,000",
+    county: "Douglas County",
+    climate: "semi-arid",
+    climateDriver:
+      "Castle Rock sits on the Palmer Divide at approximately 6,200 feet elevation between Denver and Colorado Springs. The semi-arid climate receives approximately 17 inches of annual precipitation, with significant afternoon thunderstorms from June through August. The high elevation produces colder winters than Denver, with more snowfall. Strong winds from the south accelerate fall cooling and early pest entry behavior.",
+    topPests: [
+      "House Mice",
+      "Voles",
+      "Black Widow Spiders",
+      "Boxelder Bugs",
+      "Pavement Ants",
+    ],
+    pestProfile: [
+      {
+        name: "House Mice",
+        activeSeason: "Year-round",
+        note: "Castle Rock's development at the Douglas County grassland edge sustains above-average mouse pressure from adjacent undeveloped land that field mice inhabit year-round.",
+      },
+      {
+        name: "Voles",
+        activeSeason: "Year-round",
+        note: "Castle Rock's high-elevation irrigated properties on former grassland have above-average vole pressure given the proximity to native vole habitat.",
+      },
+      {
+        name: "Black Widow Spiders",
+        activeSeason: "Spring through fall",
+        note: "Castle Rock's newer resident population from out of state may not be familiar with black widow prevalence in semi-arid Colorado. Always wear gloves for outdoor storage tasks.",
+      },
+      {
+        name: "Boxelder Bugs",
+        activeSeason: "Fall, September through November",
+        note: "Residential boxelder trees planted throughout Castle Rock's newer subdivisions sustain the local bug population that aggregates on structures each fall.",
+      },
+      {
+        name: "Pavement Ants",
+        activeSeason: "Spring through summer",
+        note: "Castle Rock's abundance of new construction with extensive hardscaping provides ideal pavement ant colony habitat under slabs and concrete.",
+      },
+    ],
+    localHook:
+      "Castle Rock is the county seat of Douglas County, Colorado's fastest-growing county over recent decades. The city sits on the Palmer Divide between Denver and Colorado Springs, with the iconic butte formation that gives it its name rising above the town. Castle Rock's rapid growth has pushed residential development into former grassland and open space at the Douglas County high plains, and that wildland-urban interface is the defining factor in its pest profile. Field mice and voles from the surrounding grassland are the primary pest source, and black widow spiders are common in a semi-arid Colorado environment that many of the city's newer residents from other states did not expect.",
+    intro:
+      "Pest control in Castle Rock centers on the wildland-urban interface of a fast-growing Palmer Divide city. Douglas County's rapid residential development has placed new homes directly adjacent to Colorado's high plains grassland, and that proximity sustains mouse and vole populations that press into residential developments from surrounding undeveloped land year-round. Black widow spiders are more common here than in lower-elevation or more humid Front Range cities. Boxelder bugs aggregate on new construction each fall, and pavement ants colonize the extensive hardscaping of newer subdivision homes. A Castle Rock pest program built on year-round mouse exclusion, spider management, and vole control in landscaped areas covers the primary pest risks for most properties.",
+    sections: [
+      {
+        heading: "Douglas County grassland edge and wildland pest pressure in Castle Rock",
+        body: "Castle Rock's position on the Palmer Divide at the edge of Douglas County's high plains grassland means residential properties sit adjacent to open land that sustains field mice, voles, prairie dogs, and the predator ecosystem that follows them. When fall temperatures drop at the Palmer Divide's 6,200-foot elevation, field mice from surrounding grassland and open space areas press into residential developments quickly and in numbers that can be significant. New construction, in particular, often has foundation gaps and utility penetrations that were not sealed before handoff, and the first fall after occupancy in a new Castle Rock home frequently brings a mouse encounter that surprises homeowners who expected the new construction seal to protect them. Professional exclusion inspection of new construction homes in Castle Rock during the first fall after occupancy is a practical and cost-effective step.",
+      },
+      {
+        heading: "Black widows and the semi-arid Colorado environment in Castle Rock",
+        body: "Black widow spiders thrive in the semi-arid Colorado climate, and Castle Rock's warm, dry summers with abundant insect prey in the irrigated residential landscape provide ideal conditions. Many Castle Rock residents relocating from the Midwest, East Coast, or Pacific Northwest are surprised to encounter black widows as a routine pest rather than a rare occurrence. Common harborage sites in Castle Rock include garages, especially in the stored plastic storage containers, holiday decoration boxes, and infrequently moved outdoor furniture that accumulate over the years in suburban garages. Outdoor storage sheds, under deck boards, and crawl spaces are the other primary locations. The safety practice of wearing gloves when handling any item that has been undisturbed in outdoor storage for more than a few weeks is genuinely important at Castle Rock's Palmer Divide elevation.",
+      },
+    ],
+    prevention: [
+      "Inspect new construction Castle Rock homes during the first fall after occupancy for foundation gaps and utility penetrations before mouse season.",
+      "Wear gloves when handling outdoor stored items, seasonal decorations, and infrequently used outdoor furniture.",
+      "Reduce dense ground cover and vegetation borders in irrigated landscaping to reduce vole harborage.",
+      "Seal south-facing exterior gaps in mid-September to prevent boxelder bug entry.",
+      "Apply perimeter spray at foundation cracks and hardscaping edges in April to address spring pavement ant foraging.",
+    ],
+    costNote:
+      "Castle Rock pest control starts with a free inspection. Year-round rodent programs with fall exclusion work are the most common service, particularly for properties adjacent to Douglas County open space. Black widow and spider perimeter treatment is available year-round. Vole management programs are quoted by property size. Boxelder bug and pavement ant treatments are seasonal.",
+    faqs: [
+      {
+        question: "Why do new homes in Castle Rock have mouse problems?",
+        answer:
+          "Castle Rock's residential development sits adjacent to Douglas County's high plains grassland, which sustains large field mouse populations that cannot be relocated or eliminated. New construction often has foundation gaps and utility penetrations from the building process that were not sealed before the home was handed over. When fall temperatures drop at the Palmer Divide's 6,200-foot elevation, field mice from the surrounding grassland move toward structures. First-fall mouse encounters in new Castle Rock homes are common and should be addressed with a professional exclusion inspection rather than trapping alone.",
+      },
+      {
+        question: "Are black widow spiders really common in Castle Rock?",
+        answer:
+          "Yes. Black widow spiders are a genuine and common pest in Castle Rock and throughout Douglas County. The semi-arid Colorado climate and Castle Rock's warm, dry summers provide ideal conditions. Many residents relocating to Castle Rock from cooler, more humid states are surprised by the prevalence. They are most commonly found in garages, outdoor storage sheds, under deck boards, and in crawl spaces. Treating these harborage areas annually and wearing gloves for outdoor storage tasks are the practical prevention measures.",
+      },
+      {
+        question: "What is causing the tunnel damage in my Castle Rock lawn?",
+        answer:
+          "Surface runways in lawns are the primary sign of vole activity in Castle Rock. Voles are small rodents that create surface tunnels through lawns, particularly under snow cover in winter, and their tunnels become visible when snow melts in spring. Root damage to garden plants and girdling of young shrubs and trees near the lawn edge are secondary signs. Loveland's irrigated residential landscaping provides ideal vole habitat, and Douglas County's proximity to natural grassland sustains source populations at the residential edge.",
+      },
+      {
+        question: "How is Castle Rock's pest profile different from Denver or Colorado Springs?",
+        answer:
+          "Castle Rock's Palmer Divide elevation at approximately 6,200 feet produces colder winters and more snow than Denver, which shifts the mouse exclusion calendar earlier. The direct adjacency to Douglas County's high plains grassland means wildland-edge pest pressure from field mice and voles is higher than in the more urbanized Denver or Colorado Springs cores. Black widow spider prevalence is similar across the Front Range corridor. The newer construction character of Castle Rock means pavement ants under slabs are a more common complaint than in older Denver neighborhoods where soil has settled.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Denver", slug: "denver" },
+      { name: "Colorado Springs", slug: "colorado-springs" },
+      { name: "Centennial", slug: "centennial" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Castle Rock, CO | Mice, Black Widows & Voles",
+    metaDescription:
+      "Castle Rock pest control for house mice, voles, black widow spiders, boxelder bugs and pavement ants. Douglas County Palmer Divide wildland-urban interface I-25 corridor Colorado specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

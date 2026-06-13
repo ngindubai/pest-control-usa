@@ -1630,4 +1630,534 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "Kokomo pest control for house mice, brown marmorated stink bugs, subterranean termites, carpenter ants and yellow jackets. Howard County Wildcat Creek north-central Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "elkhart",
+    name: "Elkhart",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~52,000",
+    county: "Elkhart County",
+    climate: "cold-humid",
+    climateDriver:
+      "Elkhart sits at the confluence of the Elkhart and St. Joseph Rivers in northern Indiana, where cold lake-effect winters from Lake Michigan, river corridor humidity, and industrial land use create a pest environment combining fall rodent pressure, year-round German cockroach activity, and river-corridor mosquitoes.",
+    topPests: ["House Mice", "German Cockroaches", "Subterranean Termites", "Carpenter Ants", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge October through December",
+        note: "Elkhart's cold northern Indiana winters drive a reliable fall mouse surge. The city's industrial and warehouse facilities adjacent to residential areas provide additional year-round rodent harborage that puts adjacent homes in a higher pressure zone.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor cockroach across Elkhart's commercial and multi-family residential buildings. They are not affected by cold winters and maintain populations year-round in heated kitchens, bathrooms, and wall voids.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Subterranean termites are active across Elkhart County, and the moist river corridor soils support colony activity. Annual inspection is the practical defense for homes with crawl spaces and wood-frame construction.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, most active May through July",
+        note: "Carpenter ants nest in moisture-damaged wood across Elkhart's older residential areas and in the riparian vegetation along the Elkhart River corridor.",
+      },
+      {
+        name: "Yellow jacket wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note: "Ground and wall void yellow jacket nests are a consistent late-summer complaint in Elkhart neighborhoods, peaking in aggression in August when colony populations reach maximum.",
+      },
+    ],
+    localHook:
+      "Elkhart is the RV capital of the world, with the industry employing a large share of the city's workforce in manufacturing and warehouse facilities. Those large industrial spaces have their own pest management challenges, and the adjacent residential neighborhoods experience spillover rodent pressure from facilities where harborage is harder to eliminate than in residential settings.",
+    intro:
+      "Pest control in Elkhart covers a mix of residential and industrial-adjacent pressure that makes this city somewhat different from a typical northern Indiana town. The RV manufacturing industry dominates the local economy, and the large manufacturing and warehouse facilities that come with it are pest harborage environments in their own right. Neighboring residential areas experience some spillover rodent pressure as a result. Layer the standard northern Indiana pest calendar on top of that: fall mice, year-round German cockroaches, spring termite swarms, and summer yellow jackets, and Elkhart pest management rewards consistent, scheduled treatment more than reactive calls.",
+    sections: [
+      {
+        heading: "Industrial facilities and residential pest pressure",
+        body: "Elkhart's identity as the RV manufacturing capital means a large portion of the city's footprint is large industrial and warehouse facilities. These spaces create pest management challenges of their own: rodents find harborage in stored materials, cockroaches establish in break rooms and cafeterias, and wildlife uses the building perimeters. The residential neighborhoods adjacent to industrial areas experience higher rodent pressure than purely residential blocks because the industrial facilities provide additional harborage and food sources for mice and rats. A home on a street backing against an industrial zone benefits from more attention to exterior exclusion and bait station placement than a home in a purely residential neighborhood.",
+      },
+      {
+        heading: "River corridor and seasonal pest patterns",
+        body: "The Elkhart River and St. Joseph River confluence at the center of the city creates a moist bottomland environment that shapes the warm-season pest calendar. Mosquitoes breed in the river margins from late May through September. Carpenter ants nest in the riparian vegetation and forage into adjacent structures through the summer. The river corridor also sustains the year-round mouse population that drives the fall residential surge. Termite colony activity is higher near the bottomland soils of the river corridor than in higher and drier parts of the city. If you live near the river, year-round pest management is a stronger argument than in inland Elkhart neighborhoods.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations in September before the cold-season mouse surge.",
+      "Maintain exterior bait stations year-round for homes adjacent to or near industrial facilities.",
+      "Schedule an annual termite inspection for homes near the Elkhart River bottomland soils.",
+      "Treat yellow jacket ground nests in spring while colonies are small and before late-summer aggression peaks.",
+    ],
+    costNote:
+      "Elkhart pest control commonly uses a year-round program covering rodents and German cockroaches, with seasonal additions for termites and yellow jackets. Industrial-adjacent homes benefit from enhanced exterior bait station programs. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Does living near an RV manufacturing facility in Elkhart increase pest pressure?",
+        answer:
+          "It can, particularly for rodents. Large manufacturing and warehouse facilities provide harborage and food sources that sustain rodent populations, and neighboring residential areas see above-average pressure from that adjacent harborage. Enhanced exterior exclusion and bait station programs are the most effective response for homes near industrial zones.",
+      },
+      {
+        question: "Are German cockroaches affected by Elkhart's cold winters?",
+        answer:
+          "No. German cockroaches are entirely indoor insects and maintain populations year-round in heated buildings regardless of outdoor temperatures. They are the dominant cockroach species in Elkhart's commercial and multi-family residential buildings. Treatment requires gel bait and inspection of all harborage areas, not just visible surfaces.",
+      },
+      {
+        question: "When do termites swarm in Elkhart?",
+        answer:
+          "Eastern subterranean termites swarm in April and May on warm, still days following spring rain. Swarmers near windows and doors are often the first sign that a colony is active. The Elkhart River corridor's moist bottomland soils support termite colony activity at above-average rates for northern Indiana.",
+      },
+      {
+        question: "When should I seal my home against mice in Elkhart?",
+        answer:
+          "September is the target for exclusion work in Elkhart. The cold northern Indiana winters begin earlier here than in southern Indiana, and mice move toward structures in September and October. Industrial-adjacent homes should also maintain exterior bait stations year-round, as harborage from nearby facilities can sustain pressure beyond the typical fall season.",
+      },
+      {
+        question: "How do I handle a yellow jacket ground nest in my Elkhart yard?",
+        answer:
+          "Treat at night when the colony is inside and less active, using a dust or foam product applied at the nest entrance. Avoid the nest entrance during the day. In late summer, when colonies are largest, a professional treatment is safer than DIY. Wall void nests require a different approach than ground nests and should be treated without opening the wall if possible.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "South Bend", slug: "south-bend" },
+      { name: "Mishawaka", slug: "mishawaka" },
+      { name: "Fort Wayne", slug: "fort-wayne" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Elkhart, IN | Mice, Cockroaches & Termites",
+    metaDescription:
+      "Elkhart pest control for house mice, German cockroaches, subterranean termites, carpenter ants and yellow jackets. Elkhart County St. Joseph River RV manufacturing capital northern Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mishawaka",
+    name: "Mishawaka",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~48,000",
+    county: "St. Joseph County",
+    climate: "cold-humid",
+    climateDriver:
+      "Mishawaka sits on the St. Joseph River in St. Joseph County, adjacent to South Bend, where lake-effect winters from Lake Michigan and the river corridor create combined rodent, mosquito, and carpenter ant pressure. The river runs through the center of the city, and riverside neighborhoods see sustained pest pressure tied to the bottomland environment.",
+    topPests: ["House Mice", "Carpenter Ants", "Subterranean Termites", "German Cockroaches", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge October through December",
+        note: "Mishawaka's cold St. Joseph County winters drive a reliable fall mouse surge. The St. Joseph River corridor sustains a year-round mouse population, and river-adjacent properties see earlier fall entry pressure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, most active May through July",
+        note: "The St. Joseph River corridor and Battell Park's mature tree canopy create extensive carpenter ant habitat. Ants forage from riverside trees into adjacent structures, targeting moisture-damaged wood in basements and around windows.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Subterranean termites are active across St. Joseph County, and the river corridor's moist soils support colony activity at above-average rates for northern Indiana.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches maintain year-round populations in Mishawaka's commercial and multi-family residential buildings, unaffected by the cold northern Indiana winters.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, most active June through August",
+        note: "The St. Joseph River and Battell Park's pond create mosquito breeding habitat through the warm months. St. Joseph County monitors for West Nile virus activity annually.",
+      },
+    ],
+    localHook:
+      "Mishawaka's St. Joseph River corridor runs through the center of the city, and Battell Park's pond and riverside habitat create a combined mosquito and carpenter ant pressure for the neighborhoods adjacent to the park. The river is the pest calendar driver for much of residential Mishawaka.",
+    intro:
+      "Pest control in Mishawaka is shaped by the St. Joseph River running through the heart of the city. The river's bottomland creates the moist, wooded conditions that drive mosquito breeding, carpenter ant nesting, and year-round mouse habitat in the neighborhoods on both sides. Battell Park's pond and riverside greenway amplify this effect for the properties nearest to the park. Beyond the river-specific pressure, Mishawaka deals with the northern Indiana pest calendar: cold winters that drive a fall mouse surge, subterranean termites in the river's moist soils, and German cockroaches in commercial and multi-family buildings year-round.",
+    sections: [
+      {
+        heading: "The St. Joseph River corridor as a pest driver",
+        body: "The St. Joseph River running through Mishawaka is the most important context for understanding the city's pest environment. Mice live in the wooded bank year-round and move into adjacent homes each fall. Mosquitoes breed in the river's slower sections and Battell Park's pond from late May through September. Carpenter ants nest in the mature riverside trees and forage into adjacent structures. Termite colonies find favorable conditions in the bottomland soils. For homes within a few blocks of the river or the park, a more active pest management schedule than for purely inland neighborhoods is a practical investment.",
+      },
+      {
+        heading: "Cold-season pests and year-round pressure",
+        body: "Beyond the river-specific pressure, Mishawaka faces the standard northern Indiana cold-season pest calendar. The fall mouse surge begins in October as lake-effect air masses from Lake Michigan bring the first consistent cold to St. Joseph County. German cockroaches in commercial and multi-family buildings are active year-round, unaffected by the cold, and remain the dominant indoor cockroach in Mishawaka's business district and older apartment buildings. Termite swarms in April and May signal active colonies in the area, and annual inspection is the practical defense for wood-frame homes with crawl spaces.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations in September before the cold-season mouse surge, especially for homes near the river.",
+      "Apply monthly mosquito barrier spray from May through September for properties near the St. Joseph River or Battell Park.",
+      "Follow carpenter ant foraging trails back to nests in riverside trees rather than treating only at the structure.",
+      "Schedule annual termite inspections for homes near the river's moist bottomland soils.",
+    ],
+    costNote:
+      "Mishawaka pest control for river-adjacent homes commonly combines a summer mosquito program, spring carpenter ant treatment, and fall rodent exclusion. Year-round cockroach programs are appropriate for commercial buildings. Free inspection to set the right schedule.",
+    faqs: [
+      {
+        question: "Does living near the St. Joseph River or Battell Park increase pest pressure in Mishawaka?",
+        answer:
+          "Yes, measurably. The river corridor and Battell Park's pond sustain mosquito breeding, carpenter ant colonies in riverside trees, and year-round mouse populations. Properties within a few blocks of the river see earlier fall mouse pressure, more carpenter ant foraging, and a longer mosquito season than properties in more inland Mishawaka neighborhoods.",
+      },
+      {
+        question: "When does the mouse season start in Mishawaka?",
+        answer:
+          "The main entry surge begins in October as temperatures drop. River-adjacent properties may see activity starting in September. Exclusion work completed before the end of September, sealing foundation gaps, utility penetrations, and garage door seals, prevents entry before mice establish inside.",
+      },
+      {
+        question: "Are German cockroaches a problem in Mishawaka?",
+        answer:
+          "Yes, in commercial buildings and multi-family housing. German cockroaches are year-round indoor pests unaffected by northern Indiana winters. They concentrate in kitchens, bathrooms, and wall voids. Treatment requires gel bait applied to all harborage areas and monitoring stations, not just visible surfaces.",
+      },
+      {
+        question: "Do subterranean termites swarm in Mishawaka?",
+        answer:
+          "Yes, typically in April and May on warm, still days after rain. The St. Joseph River's bottomland soils support above-average termite colony activity for northern Indiana. Annual inspection is a practical investment for wood-frame homes, particularly those with crawl spaces or wood near the soil.",
+      },
+      {
+        question: "How do I manage carpenter ants from Battell Park trees?",
+        answer:
+          "Treating the structure alone is a temporary measure when the colony is in a nearby yard tree. An inspection that identifies the nest location in the tree or stump is the starting point. Treating the nest directly gives lasting results. Reducing moisture-damaged wood at the structure removes the nesting incentive if ants do get inside.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "South Bend", slug: "south-bend" },
+      { name: "Elkhart", slug: "elkhart" },
+      { name: "Goshen", slug: "goshen" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Mishawaka, IN | Mice, Carpenter Ants & Termites",
+    metaDescription:
+      "Mishawaka pest control for house mice, carpenter ants, subterranean termites, German cockroaches and mosquitoes. St. Joseph County St. Joseph River Battell Park northern Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "columbus-in",
+    name: "Columbus",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~50,000",
+    county: "Bartholomew County",
+    climate: "temperate",
+    climateDriver:
+      "Columbus, Indiana sits in Bartholomew County in south-central Indiana, where a slightly warmer and milder climate than northern Indiana results in a longer pest season and above-average subterranean termite pressure for the state. The Flatrock River corridor and the surrounding agricultural land shape seasonal pest patterns.",
+    topPests: ["Subterranean Termites", "German Cockroaches", "House Mice", "Mosquitoes", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "South-central Indiana has above-average subterranean termite pressure for the state, and Columbus's Flatrock River corridor with its moist soils supports consistent colony activity. Purdue Extension identifies the southern Indiana counties as the highest termite risk zone in the state.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor cockroach in Columbus's commercial buildings and multi-family housing, active year-round regardless of Indiana's seasonal temperature swings.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note: "Columbus's winters are milder than northern Indiana but still drive a fall mouse surge. The surrounding Bartholomew County farmland adds field mouse pressure on the city's edges during harvest season.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, longer season than northern Indiana",
+        note: "Columbus's milder south-central Indiana climate extends the mosquito season relative to northern Indiana. The Flatrock River and surrounding agricultural drainage create breeding habitat that sustains populations from April through October.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Columbus is near the northern fringe of Indiana's fire ant range. The milder south-central Indiana climate puts Bartholomew County closer to documented fire ant territory than northern Indiana cities, and occasional fire ant activity has been recorded in the region.",
+      },
+    ],
+    localHook:
+      "Columbus is internationally known for its concentration of modernist architecture, with buildings by Eero Saarinen, I.M. Pei, and other design luminaries. Less known is its pest context: south-central Indiana has the highest subterranean termite pressure in the state, and Columbus's Flatrock River corridor amplifies that already elevated baseline.",
+    intro:
+      "Columbus, Indiana is known worldwide for its remarkable concentration of modernist architecture. Its pest calendar is shaped by something less celebrated but equally real: its position in south-central Indiana, where Purdue Extension identifies termite pressure as the highest in the state. The moist soils of the Flatrock River corridor amplify this already elevated baseline, making annual termite inspection a genuine practical investment for Columbus homeowners. Beyond termites, the milder south-central Indiana climate extends the active season for mosquitoes and other insects relative to northern Indiana, and fire ants occasionally documented in the region make Columbus something of a northern edge case for that otherwise southern pest.",
+    sections: [
+      {
+        heading: "Termite pressure in south-central Indiana",
+        body: "Purdue Extension identifies the southern Indiana counties as the highest subterranean termite risk zone in the state, and Columbus sits within that elevated zone. The Flatrock River corridor running through Bartholomew County provides the moist bottomland soils that support termite colony establishment and activity. Termites swarm on warm, still days in March through May, and swarmers near windows and foundation vents are often the first resident sign of colony activity. Annual inspection is the practical defense, particularly for homes with crawl spaces, wood near the soil, or older foundation construction. Columbus's architectural heritage includes many older structures where wood framing and soil contact are common.",
+      },
+      {
+        heading: "An extended season at the southern end of Indiana",
+        body: "Columbus's south-central Indiana position means a longer pest season than northern Indiana cities. Mosquitoes are active from April through October here, compared to a May through September window in the northern tier. Fire ants, while not common, have been documented in the region and make Columbus a northern edge case for a pest that is primarily a southern concern. The longer season and the wider pest roster is the practical argument for a full-year pest management program in Columbus, rather than the more compressed seasonal approach that works in Elkhart or South Bend.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given south-central Indiana's elevated termite pressure and the Flatrock River corridor.",
+      "Monitor for fire ant mounds in spring, as Columbus is near the northern range limit for this pest.",
+      "Apply mosquito barrier spray from April through October given the longer season relative to northern Indiana.",
+      "Seal foundation gaps and pipe penetrations before fall to address the seasonal mouse surge.",
+    ],
+    costNote:
+      "Columbus pest control typically includes a spring termite inspection, summer mosquito service, and fall rodent exclusion given the longer season and elevated termite baseline. Fire ant monitoring is worth adding in spring. Free inspection to assess the property.",
+    faqs: [
+      {
+        question: "Is Columbus, Indiana in a high termite risk area?",
+        answer:
+          "Yes. Purdue Extension identifies the southern Indiana counties, including Bartholomew County, as the highest subterranean termite risk zone in the state. The Flatrock River corridor's moist soils amplify this already elevated baseline. Annual inspections are a sound investment for Columbus homeowners, particularly those with older construction or crawl spaces.",
+      },
+      {
+        question: "Are fire ants a real concern in Columbus, Indiana?",
+        answer:
+          "They are at the edge of their documented Indiana range. Columbus is in south-central Indiana, closer to the documented fire ant territory than northern Indiana cities. Occasional fire ant activity has been recorded in the region. Monitor for the characteristic dome-shaped mounds in spring and call a professional if you identify them, as fire ant colonies can be very large and the stings are painful.",
+      },
+      {
+        question: "Is the mosquito season longer in Columbus than in northern Indiana cities?",
+        answer:
+          "Yes. Columbus's milder south-central Indiana position extends the active season from approximately April through October, compared to May through September in northern Indiana. The Flatrock River and surrounding agricultural drainage sustain breeding populations longer than inland or northern areas.",
+      },
+      {
+        question: "Do mice enter Columbus homes in fall?",
+        answer:
+          "Yes, though the milder winters here make the surge slightly less intense than in northern Indiana. Bartholomew County farmland edges add field mouse pressure during the harvest season. Exclusion work before October addresses both house mice from the urban environment and field mice from surrounding agriculture.",
+      },
+      {
+        question: "What are the signs of termite activity in a Columbus home?",
+        answer:
+          "Mud tubes on foundation walls, hollow-sounding wood when tapped, small piles of frass near wood framing, and swarmers emerging near windows in spring are the four key signs. Swarmers look like flying ants but with equal-length wings and a straight waist. If you see swarmers inside, the colony is likely already established. A professional inspection determines the extent of any damage.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis" },
+      { name: "Bloomington", slug: "bloomington" },
+      { name: "Greenwood", slug: "greenwood" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Columbus, IN | Termites, Mosquitoes & Mice",
+    metaDescription:
+      "Columbus Indiana pest control for subterranean termites, German cockroaches, house mice, mosquitoes and fire ants. Bartholomew County Flatrock River south-central Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "richmond",
+    name: "Richmond",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~35,000",
+    county: "Wayne County",
+    climate: "cold-humid",
+    climateDriver:
+      "Richmond sits on the Indiana-Ohio border in Wayne County, where the cold-humid continental climate of the Ohio Valley, Midwest winters, and proximity to the expanding stink bug zone from the east create a pest calendar anchored by fall rodents and overwintering stink bugs alongside standard Indiana termite and ant pressure.",
+    topPests: ["House Mice", "Subterranean Termites", "Stink Bugs", "Carpenter Ants", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge October through December",
+        note: "Richmond's cold Indiana-Ohio border winters drive a reliable fall mouse surge. The city's older housing stock in the historic districts provides the gap points that give fall mice their preferred entry.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Subterranean termites are active across Wayne County, and Richmond's Whitewater River corridor provides moist bottomland soils that support colony activity. Spring swarms are the most visible sign.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November for entry, indoors through March",
+        note: "Richmond's Indiana-Ohio border position places it within the stink bug pressure zone expanding westward from the mid-Atlantic and Appalachian core. Stink bug pressure here is noticeably higher than in western Indiana cities of similar size.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, most active May through July",
+        note: "Carpenter ants are active in Richmond's older residential areas, particularly in homes with moisture-damaged wood near the Whitewater River corridor.",
+      },
+      {
+        name: "Yellow jacket wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note: "Yellow jackets nest in ground and wall voids across Richmond neighborhoods and become aggressive in late summer. Ground nests in residential yards are the most frequent call.",
+      },
+    ],
+    localHook:
+      "Richmond's Indiana-Ohio border location puts it within the stink bug pressure zone that has been expanding westward from the mid-Atlantic states. Stink bug pressure in Richmond is noticeably higher than in western Indiana cities of similar size, because the brown marmorated stink bug continues its range expansion from east to west, and Richmond is ahead of the expansion curve.",
+    intro:
+      "Pest control in Richmond has an east-west dimension that most Indiana cities do not face. Richmond sits on the Indiana-Ohio border, and that border position places it closer to the stink bug pressure zone expanding west from the mid-Atlantic and Ohio Valley than cities further inland. Stink bug overwintering aggregations in Richmond are meaningfully higher than in western Indiana cities of similar size. Combine that with the standard cold-climate Indiana pest calendar: fall mice, spring termites, summer carpenter ants and yellow jackets, and the Whitewater River corridor adding its own pressure: and Richmond homeowners benefit from a full-season pest management approach.",
+    sections: [
+      {
+        heading: "Stink bugs and the Indiana-Ohio border",
+        body: "The brown marmorated stink bug has spread steadily westward from its initial establishment in the mid-Atlantic states, and Richmond's position on the Indiana-Ohio border puts it in the vanguard of that expansion. Ohio has been dealing with stink bug pressure for over a decade, and Richmond residents see the consequences: fall aggregations of stink bugs on south and west-facing building surfaces that exceed what western Indiana cities experience. Exterior gap sealing and a perimeter treatment in August, before September aggregation begins, is the most effective control measure. Once stink bugs are inside wall voids, indoor treatment is largely ineffective. Vacuuming is the right response to individual bugs found indoors.",
+      },
+      {
+        heading: "Whitewater River corridor and seasonal pest pressure",
+        body: "The Whitewater River running through Wayne County is the seasonal pest driver for Richmond's riverside neighborhoods. The moist bottomland soils support subterranean termite colony activity above the county average. Carpenter ants nest in the riparian vegetation and forage into adjacent structures. Mosquitoes breed in the river's slower sections and backwaters from late May through September. The Reid Health campus and the older residential neighborhoods near the downtown core deal with all three of these river-corridor pressures. For homes near the river, a more active seasonal treatment schedule than for inland Richmond neighborhoods is a practical choice.",
+      },
+    ],
+    prevention: [
+      "Apply exterior gap sealing and perimeter spray in August to reduce stink bug entry before September aggregation.",
+      "Seal foundation gaps and utility penetrations in September before the fall mouse surge.",
+      "Schedule annual termite inspections for homes near the Whitewater River bottomland soils.",
+      "Treat yellow jacket ground nests in spring while colonies are small and easier to manage safely.",
+    ],
+    costNote:
+      "Richmond pest control commonly combines a fall stink bug exclusion and mouse program with a spring termite inspection and summer perimeter service. The stink bug pressure here is higher than western Indiana, making the fall exclusion component particularly worth budgeting for. Free inspection to assess the property.",
+    faqs: [
+      {
+        question: "Why are stink bugs worse in Richmond than in other Indiana cities?",
+        answer:
+          "Richmond's Indiana-Ohio border location puts it within the westward expansion zone of the brown marmorated stink bug. Ohio has had significant stink bug pressure for years, and Richmond is ahead of the expansion curve relative to western Indiana cities. Fall overwintering aggregations here are noticeably higher than in cities further west in the state.",
+      },
+      {
+        question: "When should I seal my home against stink bugs in Richmond?",
+        answer:
+          "August is the optimal window. Stink bugs begin searching for overwintering sites in September, so exterior gap sealing and perimeter spray applied in August reduces entry before aggregation begins. Focus on gaps at window trim, utility penetrations, soffit areas, and siding seams. Once stink bugs are in wall voids, indoor treatment is not effective.",
+      },
+      {
+        question: "Does the Whitewater River increase termite risk in Richmond?",
+        answer:
+          "Yes, for homes near the river corridor. The bottomland soils along the Whitewater River support termite colony activity at above-average rates for Wayne County. Annual inspection is a sound investment for homes with crawl spaces, wood near the soil, or older foundation construction near the river.",
+      },
+      {
+        question: "When do mice start entering Richmond homes?",
+        answer:
+          "The main entry surge begins in October as temperatures drop. Richmond's historic district housing stock, with its older construction, provides more natural entry points than newer builds. Exclusion work in September, sealing foundation gaps and utility penetrations before the cold arrives, is more effective than reactive trapping after mice are established.",
+      },
+      {
+        question: "Is year-round pest service worth it in Richmond?",
+        answer:
+          "For homes with recurring stink bug pressure, mouse activity near the river, or history of termite issues, a quarterly service with a fall exclusion component is cost-effective. The stink bug situation here specifically benefits from the fall seal-out being part of a managed program rather than a one-time reactive call.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Muncie", slug: "muncie" },
+      { name: "Anderson", slug: "anderson" },
+      { name: "New Castle", slug: "new-castle" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Richmond, IN | Stink Bugs, Mice & Termites",
+    metaDescription:
+      "Richmond pest control for house mice, stink bugs, subterranean termites, carpenter ants and yellow jackets. Wayne County Whitewater River Indiana-Ohio border specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "new-albany",
+    name: "New Albany",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~37,000",
+    county: "Floyd County",
+    climate: "temperate",
+    climateDriver:
+      "New Albany sits on the Ohio River in Floyd County across from Louisville, Kentucky, where the river valley's warm, humid climate produces a longer pest season than most of Indiana. Purdue Extension identifies the Ohio River valley counties as Indiana's highest subterranean termite risk zone, and the river corridor sustains mosquito populations through an extended season.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "German Cockroaches", "House Mice"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "New Albany's Ohio River valley position places it in Indiana's highest termite risk zone according to Purdue Extension. The river's moist bottomland soils, combined with a warmer microclimate than northern Indiana, support active termite colonies that swarm earlier in the season than the state average.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, extended by Ohio River valley warmth",
+        note: "The Ohio River corridor and Floyd County's drainage network sustain mosquito breeding from April through October, a month longer on each end than northern Indiana's season. The warmth of the river valley accelerates breeding cycle completion.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "New Albany's Ohio River valley warmth places it within documented Indiana fire ant territory. The warmer microclimate supports fire ant populations that are not established in cooler northern Indiana counties.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are year-round pests in New Albany's commercial buildings and older multi-family housing. The city's proximity to Louisville's urban center means cross-border pest pressure is a real factor for commercial facilities near the bridges.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through December",
+        note: "The Ohio River valley's milder winters make the fall mouse surge somewhat less intense than in northern Indiana, but river-adjacent properties still see consistent fall pressure as mice move from the bottomland into nearby structures.",
+      },
+    ],
+    localHook:
+      "New Albany's Ohio River position is the defining pest fact for the city. Purdue Extension identifies the Ohio River valley counties as Indiana's highest subterranean termite risk zone, and the river valley's microclimate also extends the mosquito season and supports fire ant populations that are not established in northern Indiana.",
+    intro:
+      "Pest control in New Albany starts with the Ohio River. The river valley's warm, humid microclimate creates a pest environment that is meaningfully different from most of Indiana, with higher termite pressure, a longer mosquito season, and fire ants that are not established in the cooler north of the state. Purdue Extension is direct about it: the Ohio River valley counties are Indiana's highest termite risk zone. Combine that with the year-round German cockroach pressure common to dense urban commercial areas, and New Albany's proximity to Louisville's urban pest environment across the bridges, and this city warrants year-round pest management more clearly than most Indiana cities its size.",
+    sections: [
+      {
+        heading: "Ohio River valley termite pressure",
+        body: "The Ohio River bottomland soils and warm valley microclimate create the conditions that make New Albany's termite pressure the highest in Indiana. Subterranean termite colonies are active earlier in the spring here than in cooler parts of the state, swarm in March and April rather than April and May, and remain active later in fall. The older neighborhoods near the downtown and the river, with their historic wood-frame construction, present the highest exposure. Annual termite inspection is a practical investment for any New Albany homeowner, and a licensed professional's inspection finds colony activity well before visible damage appears.",
+      },
+      {
+        heading: "Fire ants and the extended pest season",
+        body: "New Albany's Ohio River valley warmth supports fire ant populations that are not established in northern Indiana. If you have moved from further north in Indiana, the dome-shaped fire ant mounds in spring may come as a surprise. Fire ants are a genuine concern for children and pets, as their stings are painful and multiple stings can cause significant reactions in sensitive individuals. Broadcast bait treatment across the yard in spring, before colonies peak, gives the best season-long suppression. Do not disturb the mound before treatment, as the colony will simply relocate. The milder winters also mean fire ant colonies survive more winters here than in northern Indiana.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given New Albany's Ohio River valley position in Indiana's highest termite risk zone.",
+      "Monitor for fire ant mounds in spring and treat with broadcast bait before colonies peak.",
+      "Apply mosquito barrier spray from April through October given the extended Ohio River valley season.",
+      "Seal foundation gaps and utility penetrations before fall for the seasonal mouse surge.",
+    ],
+    costNote:
+      "New Albany pest control typically includes an annual termite inspection, spring fire ant treatment, summer mosquito service from April through October, and fall rodent exclusion. The extended season here relative to northern Indiana makes a year-round program a better fit than purely seasonal service.",
+    faqs: [
+      {
+        question: "Why does New Albany have higher termite risk than the rest of Indiana?",
+        answer:
+          "Purdue Extension identifies the Ohio River valley counties as Indiana's highest subterranean termite risk zone. The river's moist bottomland soils, combined with the valley's warmer microclimate, support termite colony establishment and activity at rates above the state average. Termites also swarm earlier here than in northern Indiana, sometimes in late March rather than April or May.",
+      },
+      {
+        question: "Are fire ants actually established in New Albany?",
+        answer:
+          "They are documented in the Ohio River valley counties of southern Indiana. The valley's warmer microclimate allows fire ant colonies to survive winters that would kill them further north. The dome-shaped mounds in spring are the key identifier. If you find mounds, treat with broadcast bait across the yard rather than individual mound treatment for best results.",
+      },
+      {
+        question: "Is the mosquito season really longer in New Albany?",
+        answer:
+          "Yes. The Ohio River valley's warmth extends the mosquito active season to approximately April through October, a month longer on each end than northern Indiana's May through September window. The river corridor and Floyd County drainage network sustain breeding populations through this extended window. Monthly barrier spray from April through October gives the most consistent control.",
+      },
+      {
+        question: "How does New Albany's proximity to Louisville affect pest pressure?",
+        answer:
+          "The commercial and transit corridors across the Ohio River bridges create cross-border pest movement, particularly for German cockroaches and bed bugs in commercial facilities and hotels near the bridges. Louisville is a larger urban center with more pest pressure per square mile, and facilities near the bridges see that proximity in their treatment frequency and call volume.",
+      },
+      {
+        question: "Do mice still enter homes in New Albany despite the milder winters?",
+        answer:
+          "Yes, though the fall surge is somewhat less intense than in northern Indiana because winters are milder. The Ohio River bottomland still sustains a year-round mouse population, and fall entry is consistent for river-adjacent homes. Exclusion work before October addresses the seasonal surge, and homes near the river benefit from year-round exterior bait station programs.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Jeffersonville", slug: "jeffersonville" },
+      { name: "Bloomington", slug: "bloomington" },
+      { name: "Evansville", slug: "evansville" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in New Albany, IN | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "New Albany pest control for subterranean termites, mosquitoes, fire ants, German cockroaches and house mice. Floyd County Ohio River valley southern Indiana highest termite risk specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
