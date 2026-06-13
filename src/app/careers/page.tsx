@@ -78,6 +78,7 @@ const benefits = [
 
 export default function CareersPage() {
   const [applied, setApplied] = useState(false);
+  const [error, setError] = useState(false);
 
   const {
     register,
@@ -86,9 +87,40 @@ export default function CareersPage() {
   } = useForm<ApplicationData>({ resolver: zodResolver(applicationSchema) });
 
   async function onSubmit(data: ApplicationData) {
-    await new Promise((r) => setTimeout(r, 1200));
-    console.log("Application:", data);
-    setApplied(true);
+    setError(false);
+    // Job applications go to the inbox via FormSubmit (NOT the sales CRM,
+    // which is reserved for customer leads).
+    let ok = false;
+    try {
+      const res = await fetch(
+        "https://formsubmit.co/ajax/garethsomers@outlook.com",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          keepalive: true,
+          body: JSON.stringify({
+            _subject: `Job application — ${data.position} — ${data.name}`,
+            _template: "table",
+            _captcha: "false",
+            Name: data.name,
+            Email: data.email,
+            Phone: data.phone,
+            "City & State": data.location,
+            Position: data.position,
+            Experience: data.experience,
+            Message: data.message || "(none)",
+          }),
+        }
+      );
+      ok = res.ok;
+    } catch {
+      ok = false;
+    }
+    if (ok) setApplied(true);
+    else setError(true);
   }
 
   return (
@@ -248,6 +280,15 @@ export default function CareersPage() {
               <p className="text-green-700">Our HR team will contact you within 24 hours. Thank you for your interest in joining PestRemovalUSA!</p>
             </div>
           ) : (
+            {error && (
+              <div
+                role="alert"
+                className="mb-5 rounded-[var(--radius-btn)] bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-700"
+              >
+                Something went wrong submitting your application. Please try again
+                in a moment, or email us directly.
+              </div>
+            )}
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-5 bg-[var(--color-muted)] p-8 rounded-[var(--radius-card)]" noValidate>
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
