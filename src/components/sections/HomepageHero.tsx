@@ -38,14 +38,102 @@ const heroStats = [
 export function HomepageHero() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      setSubmitted(true);
-    }, 900);
+    setError(false);
+
+    const fd = new FormData(e.currentTarget);
+    const zip = (fd.get("zip") || "").toString().trim();
+    const pestValue = (fd.get("pestType") || "").toString();
+    const pestLabel =
+      pestTypes.find((p) => p.value === pestValue)?.label || pestValue;
+    const name = (fd.get("name") || "").toString().trim();
+    const phone = (fd.get("phone") || "").toString().trim();
+
+    const qs =
+      typeof window !== "undefined"
+        ? new URLSearchParams(window.location.search)
+        : new URLSearchParams();
+
+    // 1. CRM (system of record) — retried, it can cold-start.
+    const sendToCrm = async (): Promise<boolean> => {
+      const payload = {
+        company: "pest-control",
+        name: name || "Website enquiry",
+        phone: phone || undefined,
+        source: "PestRemoval website — hero form",
+        landing_page:
+          typeof window !== "undefined" ? window.location.href : undefined,
+        utm_source: qs.get("utm_source") ?? undefined,
+        utm_medium: qs.get("utm_medium") ?? undefined,
+        utm_campaign: qs.get("utm_campaign") ?? undefined,
+        message: [`Pest: ${pestLabel}`, `ZIP: ${zip}`]
+          .filter(Boolean)
+          .join(", "),
+        fields: { zip, pestType: pestLabel },
+      };
+      for (let attempt = 0; attempt < 3; attempt++) {
+        try {
+          const res = await fetch(
+            "https://logistics-crm-tcu4.onrender.com/api/public/leads",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                "x-api-key": "uRc1IHymlMUnYfAB9i79iA3NUARQKFJdRCdo+4VDY/A=",
+              },
+              keepalive: true,
+              body: JSON.stringify(payload),
+            }
+          );
+          if (res.ok) return true;
+        } catch {
+          // network error — retry
+        }
+        if (attempt < 2)
+          await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
+      }
+      return false;
+    };
+
+    // 2. Email — FormSubmit AJAX (same address as the other forms).
+    const sendToEmail = async (): Promise<boolean> => {
+      try {
+        const res = await fetch(
+          "https://formsubmit.co/ajax/garethsomers@outlook.com",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+            },
+            keepalive: true,
+            body: JSON.stringify({
+              _subject: `New pest enquiry (hero) — ${name}`,
+              _template: "table",
+              _captcha: "false",
+              Name: name,
+              Phone: phone,
+              ZIP: zip,
+              "Pest type": pestLabel,
+              "Landing page":
+                typeof window !== "undefined" ? window.location.href : "",
+            }),
+          }
+        );
+        return res.ok;
+      } catch {
+        return false;
+      }
+    };
+
+    const [crmOk, emailOk] = await Promise.all([sendToCrm(), sendToEmail()]);
+    setLoading(false);
+    if (crmOk || emailOk) setSubmitted(true);
+    else setError(true);
   };
 
   return (
@@ -181,6 +269,23 @@ export function HomepageHero() {
                     </h2>
                   </div>
 
+                  {error && (
+                    <div
+                      role="alert"
+                      className="mb-4 rounded-lg bg-red-50 border border-red-200 px-3 py-2.5 text-sm text-red-700"
+                    >
+                      Something went wrong submitting your request. Please call us
+                      at{" "}
+                      <a
+                        href={siteConfig.phoneTel}
+                        className="font-bold underline"
+                      >
+                        {siteConfig.phoneDisplay}
+                      </a>
+                      .
+                    </div>
+                  )}
+
                   <form
                     onSubmit={handleSubmit}
                     noValidate
@@ -197,7 +302,7 @@ export function HomepageHero() {
                             ZIP Code <span className="text-[var(--color-red)]">*</span>
                           </label>
                           <input
-                            id="hero-zip"
+                            id="hero-zip" name="zip"
                             type="text"
                             inputMode="numeric"
                             maxLength={5}
@@ -217,7 +322,7 @@ export function HomepageHero() {
                           </label>
                           <div className="relative">
                             <select
-                              id="hero-pest"
+                              id="hero-pest" name="pestType"
                               required
                               defaultValue=""
                               className="w-full appearance-none px-3 py-2.5 pr-8 rounded-lg border border-gray-200 text-sm focus:border-[var(--color-red)] focus:outline-none focus:ring-2 focus:ring-[var(--color-red)]/20 text-[var(--color-navy)] bg-white cursor-pointer"
@@ -259,7 +364,7 @@ export function HomepageHero() {
                           Full Name <span className="text-[var(--color-red)]">*</span>
                         </label>
                         <input
-                          id="hero-name"
+                          id="hero-name" name="name"
                           type="text"
                           autoComplete="name"
                           placeholder="First and last name"
@@ -277,7 +382,7 @@ export function HomepageHero() {
                           Phone Number <span className="text-[var(--color-red)]">*</span>
                         </label>
                         <input
-                          id="hero-phone"
+                          id="hero-phone" name="phone"
                           type="tel"
                           autoComplete="tel"
                           inputMode="tel"
