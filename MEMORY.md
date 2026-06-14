@@ -8,16 +8,16 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-13)
+## Current State (2026-06-14)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-26 complete. T2 COMPLETE.
-- **City pages built:** 650 total (75 T1 + 300 T2 + 275 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-28 complete. T2 COMPLETE.
+- **City pages built:** 700 total (75 T1 + 300 T2 + 325 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 733 in the static export (home, services, 50+ states, 650 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=131, B=130, C=130, D=130, E=129 (650 total cities, all within 15-25% range).
-- **Cities built T3 chunks 25-26 (50):** Ohio: Westerville (A), Findlay (B), Huber Heights (C), Gahanna (D). Minnesota: Lakeville (E), Blaine (A), Eden Prairie (B), Minnetonka (C), St Cloud (D). Indiana: Elkhart (E), Mishawaka (A), Columbus IN (B, slug columbus-in), Richmond (C), New Albany (D). Georgia: Dalton (E), Tucker (A), Douglasville (B), Statesboro (C), Hinesville (D). Pennsylvania: Norristown (E), Hazleton (A), Williamsport (B), State College (C). New York: Niagara Falls (D), Rome NY (E, slug rome-ny). Washington: Burien (A), Olympia (B), Lacey (C), Bremerton (D). Tennessee: Brentwood (E), Maryville (A), Oak Ridge (B), Cookeville (C), Cleveland TN (D, slug cleveland-tn). North Carolina: Sanford (E), Matthews (A), Salisbury (B), Statesville (C), Goldsboro (D). New Jersey: Linden (E), Plainfield (A), Hackensack (B), Hoboken (C). Wisconsin: Waukesha (D), Oshkosh (E), Eau Claire (A), Janesville (B), La Crosse (C). Colorado: Loveland (D), Castle Rock (E).
-- **New state files added chunks 25-26:** none (all states already registered in index.ts).
-- **Next block:** Chunk 27, T3 continues, rotation at A.
+- **Total site pages:** 783 in the static export (home, services, 50+ states, 700 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=141, B=140, C=140, D=140, E=139 (700 total cities, all within 15-25% range).
+- **Cities built T3 chunks 27-28 (50):** Colorado: Broomfield (A), Grand Junction (B), Commerce City (C), Littleton (D), Northglenn (E), Brighton (A), Englewood (B), Wheat Ridge (C), Windsor (D), Lafayette (E), Erie (A), Durango (B), Louisville (C), Montrose (D), Frederick (E), Firestone (A), Canon City (B), Castle Pines (C), Woodland Park (D), Glenwood Springs (E), Steamboat Springs (A), Delta (B), Sterling (C), Fruita (D), Alamosa (E). Texas: Bryan (A), Victoria (B), Kyle (C), Port Arthur (D), Galveston (E), Burleson (A), Waxahachie (B), Weslaco (C), Sherman (D), Texarkana (E), Lufkin (A), Weatherford (B), Nacogdoches (C), Del Rio (D), Seguin (E), Cleburne (A), Eagle Pass (B), Hutto (C), Denison (D), Marshall (E), Kerrville (A), Corsicana (B), Stephenville (C), Belton (D), Paris (E).
+- **New state files added chunks 27-28:** none (all states already registered in index.ts).
+- **Next block:** Chunk 29, T3 continues, rotation at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
