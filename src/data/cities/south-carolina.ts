@@ -439,4 +439,340 @@ export const southCarolinaCities: CityLocation[] = [
     metaDescription:
       "Mount Pleasant pest control for Formosan termites, mosquitoes, fire ants, Palmetto bugs and carpenter bees. Charleston County coastal suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "rock-hill",
+    name: "Rock Hill",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~74,000",
+    county: "York County",
+    climate: "hot-humid",
+    climateDriver:
+      "Rock Hill is in York County in the South Carolina Piedmont, about 25 miles south of Charlotte, NC. The hot-humid climate delivers long, hot summers and mild winters with occasional frost but rarely sustained cold. The Catawba River and Lake Wylie to the west create riparian and lake-edge habitat that sustains mosquito populations through the long warm season. Rock Hill's position as part of the Charlotte metro means continued residential growth and the pest pressure that comes with developing land in the Piedmont.",
+    topPests: [
+      "Subterranean Termites",
+      "German Cockroaches",
+      "Mosquitoes",
+      "Fire Ants",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active underground most of the year",
+        note: "Clemson University's Home and Garden Information Center (HGIC) confirms both native Reticulitermes subterranean termites and Formosan subterranean termites (Coptotermes formosanus) are present in the Charlotte-Rock Hill metro corridor. The hot-humid Piedmont climate sustains termite activity for a longer season than states further north. Annual inspections are the standard recommendation.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches maintain year-round indoor populations in Rock Hill's apartment buildings and commercial settings. Winthrop University's housing concentration and the multi-family housing common in a fast-growing Charlotte-area suburb sustain cockroach pressure in the off-campus rental market.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Mosquitoes are active April through October in York County. Lake Wylie, the Catawba River, and the smaller drainage areas and retention ponds throughout Rock Hill's residential development create breeding habitat. The South Carolina Piedmont's warm humid climate sustains the season from early spring through late fall.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring through fall",
+        note: "Fire ants are established throughout York County and the Charlotte-area Piedmont per Clemson HGIC. The warm Piedmont climate sustains year-round fire ant activity, and new residential development in Rock Hill consistently produces heavy fire ant pressure on freshly disturbed land.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall and winter",
+        note: "House mice press into Rock Hill homes in fall as temperatures drop. The Piedmont's mild winters mean the pressure is less severe than in northern states, but mice establish readily in the heating season and can breed through winter if not addressed.",
+      },
+    ],
+    localHook:
+      "Rock Hill is growing as part of the Charlotte metro, and that growth brings a specific pest consequence: new residential development on former Piedmont farmland and woodland creates fire ant and termite pressure that established neighborhoods take years to fully manage. Clemson University HGIC confirms both native and Formosan subterranean termites are present in the Charlotte-Rock Hill corridor, and the hot-humid Piedmont climate sustains a longer termite season than most people expect from a Piedmont city.",
+    intro:
+      "Pest control in Rock Hill is shaped by its position in York County's hot-humid South Carolina Piedmont and its growing role as part of the Charlotte metro. Clemson University HGIC confirms both native Reticulitermes and Formosan subterranean termites are present in the Charlotte-Rock Hill corridor, and the Piedmont's warm, moist conditions sustain termite activity for a longer season than many Piedmont homeowners expect. Mosquitoes are active from April through October, with Lake Wylie and the Catawba River creating breeding habitat to the west. Fire ants are established throughout York County and year-round in the warm Piedmont climate. German cockroaches are a year-round indoor pest in apartment buildings and commercial settings, with Winthrop University adding some student housing pressure. House mice press indoors in fall and can establish through the mild Piedmont winter.",
+    sections: [
+      {
+        heading: "Termites in the Charlotte-Rock Hill corridor: Formosan and native species threat",
+        body: "Clemson University's Home and Garden Information Center is the authoritative source for South Carolina pest management guidance, and their confirmation that both native Reticulitermes subterranean termites and Formosan subterranean termites are present in the Charlotte-Rock Hill metro corridor is significant for Rock Hill homeowners. Formosan termites are larger, more aggressive, and form much bigger colonies than native subterranean termites, which means they cause structural damage faster. They swarm on warm evenings from May through July, typically gathering around lights. Native subterranean termites swarm earlier in the year, typically February through April. Both species are present in York County's warm Piedmont soils. The hot-humid South Carolina Piedmont climate sustains termite activity for a longer season than northern Piedmont states: termite colonies in this region are active from roughly February through November, which is longer than in Virginia or Maryland. Any Rock Hill home without a current termite inspection and active protection plan is accumulating structural risk each season. Homes with crawl spaces, wood near grade, deck posts in soil contact, or older construction with exposed wood components are at elevated risk. An annual inspection identifies whether activity is present and which protection approach, soil treatment or bait monitoring, is appropriate for the property.",
+      },
+      {
+        heading: "Mosquitoes, fire ants, and the South Carolina Piedmont pest calendar",
+        body: "Rock Hill's pest calendar from spring through fall is dominated by two outdoor pests that affect every property in York County: mosquitoes and fire ants. Mosquito season in Rock Hill runs from April through October, sustained by Lake Wylie, the Catawba River corridor, and the many drainage areas and retention ponds throughout the growing residential developments. Properties with yards adjacent to wooded areas, low-lying land, or drainage features see the most intense pressure. Monthly barrier spray service through the active season provides the most consistent yard-level protection, combined with source reduction: eliminating standing water from containers, gutters, and yard low spots within 48 hours of rain removes the breeding sites that are within homeowner control. Fire ants are a year-round concern in York County's warm Piedmont climate, though they are most visible from spring through fall. New residential development in the Rock Hill area consistently produces heavy fire ant pressure on disturbed soils, as fire ants recolonize freshly graded land rapidly. Clemson HGIC recommends broadcast bait treatment of the full lawn twice annually rather than treating individual mounds, which addresses the broader population rather than just the most visible nests. Winthrop University's campus and the surrounding neighborhood also create some German cockroach pressure in student housing and commercial settings near the university.",
+      },
+    ],
+    prevention: [
+      "Maintain annual termite inspections: York County has both native and Formosan subterranean termites and the Piedmont climate sustains a long active season.",
+      "Eliminate standing water from gutters, containers, and yard low spots within 48 hours of rain to reduce mosquito breeding in Lake Wylie and Catawba River adjacent neighborhoods.",
+      "Apply broadcast fire ant bait across the full lawn twice a year rather than treating individual mounds, following Clemson HGIC recommendations.",
+      "Seal plumbing penetrations and foundation gaps to reduce German cockroach and house mouse entry in multi-family and commercial properties.",
+    ],
+    costNote:
+      "Rock Hill pest control typically starts with a free inspection. Annual termite protection is the priority for all York County properties given the Formosan and native species presence. Quarterly general programs cover cockroaches, fire ants, and perimeter pests. Mosquito programs run April through October.",
+    faqs: [
+      {
+        question: "Are Formosan termites really present in the Rock Hill area?",
+        answer:
+          "Yes. Clemson University HGIC confirms both native Reticulitermes subterranean termites and Formosan subterranean termites are present in the Charlotte-Rock Hill metro corridor. York County is within the Formosan termite established zone. Formosan colonies are significantly larger and more destructive than native subterranean termite colonies and cause structural damage faster. Annual inspections with active protection are the appropriate standard for Rock Hill homeowners.",
+      },
+      {
+        question: "How serious is the termite threat in York County, SC?",
+        answer:
+          "Serious enough to warrant annual inspections and active protection for all York County properties. Clemson HGIC identifies South Carolina as a high termite pressure state, and the Charlotte-Rock Hill corridor's hot-humid Piedmont climate sustains termite activity from roughly February through November. The presence of both native and Formosan species in the region means the structural risk is higher than in areas with only one species. Without active protection, termite colonies accumulate damage for years before it becomes visible.",
+      },
+      {
+        question: "When is mosquito season in Rock Hill?",
+        answer:
+          "April through October in most years. Lake Wylie, the Catawba River, and the many drainage areas and retention ponds throughout Rock Hill's residential development sustain mosquito populations from early spring through late fall. The South Carolina Piedmont's warm climate delivers a longer active season than northern Piedmont states. Monthly barrier spray programs from April through October, combined with standing water elimination on the property, provide the most effective yard-level protection.",
+      },
+      {
+        question: "How do I treat a fire ant infestation in my Rock Hill yard?",
+        answer:
+          "Clemson HGIC recommends broadcast bait treatment of the full lawn twice annually, in spring and again in fall, rather than treating individual mounds. Broadcast bait reaches the broader fire ant population rather than just the most visible nests. Individual mound treatments provide faster results for a specific mound but do not address the surrounding population. In a year-round warm climate like York County's, two broadcast applications per year maintain effective population control. New construction lots and recently graded yards may need additional treatment as fire ants recolonize disturbed soil.",
+      },
+      {
+        question: "What pest control plan makes sense for a Rock Hill, SC home?",
+        answer:
+          "The core plan for a Rock Hill home includes: annual termite inspection with active protection given the Formosan and native termite presence in York County; quarterly general pest program covering cockroaches, ants, and spiders; a mosquito program from April through October; and twice-annual broadcast fire ant bait application. Homes near Lake Wylie or the Catawba River corridor should consider a year-round mosquito program given the extended season near the water habitat. The free inspection establishes current pressure levels and the appropriate starting services.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Columbia", slug: "columbia" },
+      { name: "Charlotte", slug: "charlotte" },
+      { name: "Greenville", slug: "greenville" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Rock Hill, SC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Rock Hill pest control for subterranean termites, German cockroaches, mosquitoes, fire ants and house mice. York County South Carolina Piedmont Charlotte metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "greenville",
+    name: "Greenville",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~70,000",
+    county: "Greenville County",
+    climate: "hot-humid",
+    climateDriver:
+      "Greenville is the largest city in Upstate South Carolina, on the Reedy River in Greenville County. The hot-humid Piedmont climate is slightly cooler than the coastal plain and Midlands, but still delivers long, warm summers and mild winters with limited frost. The Reedy River and Liberty Bridge area create mosquito habitat in the urban core, and the growing manufacturing sector, including BMW and Michelin facilities, has driven substantial residential development and fire ant pressure on expanding suburban land.",
+    topPests: [
+      "Subterranean Termites",
+      "German Cockroaches",
+      "Mosquitoes",
+      "Fire Ants",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active underground most of the year",
+        note: "Clemson University HGIC confirms subterranean termites are active throughout the South Carolina Piedmont. The Upstate's warm climate supports a longer termite season than many Piedmont homeowners expect. Both native Reticulitermes subterranean termites and, in the lower-elevation parts of Greenville County, potentially Formosan colonies are a consideration.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor cockroach in Greenville's growing restaurant and commercial kitchen district downtown, as well as in the apartment buildings throughout the city. The downtown entertainment and food service scene creates sustained commercial cockroach pressure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Reedy River running through downtown Greenville and the Liberty Bridge area create mosquito habitat in the urban core. The broader Greenville County watershed and drainage infrastructure sustain populations through the long warm season. Monthly barrier spray programs from April through October provide effective yard-level protection.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most visible spring through fall",
+        note: "Fire ants are well established throughout Upstate South Carolina, confirmed by Clemson HGIC. The expanding suburban and commercial development around Greenville consistently produces elevated fire ant pressure on disturbed land. The warm Piedmont climate sustains colonies year-round.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice press into Greenville homes in fall as temperatures drop. Older downtown neighborhoods with established housing stock and commercial buildings provide ample entry points. The mild Piedmont winters mean mice establish through the heating season.",
+      },
+    ],
+    localHook:
+      "Greenville's downtown renaissance, including the Reedy River Falls park, the Liberty Bridge, and the expanding restaurant and entertainment district, has made it one of the most talked-about small cities in the Southeast. That same urban revival, with its older building stock, active food service scene, and the Reedy River running through the middle of it, also creates the conditions that sustain German cockroaches and mosquitoes in the urban core. Clemson HGIC confirms termites are active throughout the Upstate Piedmont.",
+    intro:
+      "Pest control in Greenville is shaped by the city's position as Upstate South Carolina's largest city and its growing role as a manufacturing and hospitality hub. Clemson University HGIC confirms subterranean termites are active throughout the South Carolina Piedmont, and Greenville County's warm, moist Upstate climate sustains a termite season that runs longer than many Upstate homeowners expect. The Reedy River and Liberty Bridge area create mosquito habitat in the urban core, with the broader Greenville County watershed sustaining populations through the long warm season. German cockroaches are a year-round indoor pest sustained by the downtown restaurant and commercial kitchen district and the apartment buildings throughout the city. Fire ants are well established throughout the Upstate and active year-round. House mice press indoors in fall and establish through the mild Piedmont winter.",
+    sections: [
+      {
+        heading: "Termites in the Upstate SC Piedmont: comparing Greenville's termite risk to other southeastern cities",
+        body: "Clemson University HGIC is the authoritative pest management resource for South Carolina homeowners, and their guidance is consistent: subterranean termites are active throughout the state and the Piedmont's warm climate sustains a longer season than most homeowners expect. The Upstate South Carolina Piedmont, including Greenville County, is cooler than the coastal plain and the Columbia Midlands, which slightly reduces termite pressure compared to those zones. Greenville sits further from the established Formosan termite zone centered on the coastal Lowcountry. However, native Reticulitermes subterranean termites are fully established throughout the Upstate and cause substantial structural damage in the region. They swarm in South Carolina typically from February through April, and colonies are active underground from late winter through late fall. Greenville's historic downtown, with its older commercial buildings and wood-frame housing stock, carries elevated termite risk from long-established colonies that have had decades to work. The city's expanding suburban areas in Simpsonville, Mauldin, and Greer, where new homes are built adjacent to the forested and agricultural land where termites are abundant in the soil, see initial construction pressure that continues in the years after the pre-construction soil treatment's effectiveness period ends. Annual inspections for all Greenville County properties are the Clemson HGIC standard.",
+      },
+      {
+        heading: "Mosquitoes, fire ants, and German cockroaches in Greenville's growing urban core",
+        body: "Greenville's downtown revival has brought restaurants, hotels, apartment buildings, and entertainment venues to a walkable urban core centered on Main Street and the Reedy River corridor. The Reedy River running through downtown and the Falls Park landscape area create mosquito habitat in the middle of the city's most active outdoor spaces. Properties and businesses near the river and Liberty Bridge area see more intense mosquito pressure than those in the elevated residential neighborhoods further from the water. Monthly barrier spray programs from April through October provide consistent protection in yards and outdoor commercial seating areas. German cockroaches are the primary cockroach concern in Greenville's restaurant and commercial kitchen district: the concentration of food service operations, shared ventilation, and the adjacent utility infrastructure create conditions where German cockroach populations can establish and spread between neighboring businesses. Regular professional treatment with gel bait applied at the cockroach aggregation sites, combined with Integrated Pest Management practices including sanitation and structural sealing, is the effective commercial approach. Residential German cockroach pressure is higher in multi-family housing and apartments with high tenant turnover. Fire ants are a consistent outdoor challenge throughout Greenville County, with the warm Piedmont climate sustaining year-round colony activity. Twice-annual broadcast bait treatment of the full lawn, per Clemson HGIC recommendation, is the most effective management approach for residential properties.",
+      },
+    ],
+    prevention: [
+      "Maintain annual termite inspections for all Greenville County properties: native subterranean termites are established throughout the Upstate and Clemson HGIC identifies the Piedmont as an active zone.",
+      "Eliminate standing water near the Reedy River corridor and from yard containers, gutters, and drainage features to reduce mosquito breeding through the April through October season.",
+      "Apply broadcast fire ant bait across the full lawn twice annually in spring and fall rather than treating individual mounds.",
+      "Schedule regular professional German cockroach treatment for commercial kitchens and restaurant properties in the downtown food service district.",
+    ],
+    costNote:
+      "Greenville pest control typically starts with a free inspection. Annual termite protection is strongly recommended for all Greenville County properties. Quarterly general programs cover cockroaches, fire ants, and perimeter pests. Mosquito programs run April through October. Commercial German cockroach programs for downtown food service operations are priced separately based on the scope of the infestation.",
+    faqs: [
+      {
+        question: "How does the termite risk in Greenville, SC compare to coastal South Carolina?",
+        answer:
+          "Greenville's Upstate Piedmont location places it in a lower termite pressure zone than the coastal Lowcountry, primarily because the Formosan subterranean termite, which is the most aggressive and destructive species, is less established in the Upstate than on the coast. However, native Reticulitermes subterranean termites are fully established throughout Greenville County and cause substantial structural damage in the region. Clemson HGIC confirms subterranean termites are active throughout South Carolina. The Upstate's slightly cooler climate compresses the active season compared to the coast, but annual inspections and active protection remain the recommended standard for all Greenville County homeowners.",
+      },
+      {
+        question: "When is fire ant season in Upstate South Carolina?",
+        answer:
+          "Fire ants are technically active year-round in Greenville County, though they are most visible and most active from spring through fall. The Upstate's Piedmont climate delivers mild enough winters that fire ant colonies never fully go dormant. Mounds rebuild rapidly after rain and site disturbance, and the expanding residential and commercial development around Greenville consistently creates new fire ant establishment opportunities on disturbed soil. Clemson HGIC recommends twice-annual broadcast bait treatment, in spring and fall, for effective lawn-wide management.",
+      },
+      {
+        question: "Are mosquitoes a problem near the Reedy River in downtown Greenville?",
+        answer:
+          "Yes, particularly from April through October. The Reedy River and the Falls Park landscape along the river corridor create mosquito breeding habitat in the middle of Greenville's most active outdoor spaces. Properties and businesses near the river face more intense mosquito pressure than those in higher elevation residential neighborhoods away from the water. Monthly barrier spray programs from April through October provide consistent protection for outdoor seating areas, patios, and residential yards near the river.",
+      },
+      {
+        question: "What German cockroach treatment works for Greenville restaurants and commercial buildings?",
+        answer:
+          "The effective treatment for German cockroaches in commercial kitchens and restaurant settings is targeted gel bait applied at the sites where cockroaches aggregate: the motor voids of refrigerators and prep equipment, behind and under cooking equipment, in the gaps along utility lines, and in the areas around floor drains. Surface sprays disperse cockroaches temporarily but do not stop the breeding cycle. Gel bait with insect growth regulator addresses both adult cockroaches and prevents egg cases from producing viable offspring. Monthly professional service is the standard for active commercial infestations in the downtown food service district.",
+      },
+      {
+        question: "How does the Charlotte metro compare to Greenville for overall pest pressure?",
+        answer:
+          "Charlotte and Greenville face broadly similar Piedmont pest profiles: subterranean termites, fire ants, mosquitoes, and German cockroaches are the primary concerns in both markets. Greenville's slightly cooler and less humid Upstate SC climate gives it marginally lower overall pest pressure than Charlotte's Piedmont NC setting in some categories, particularly termites. Both cities are significantly lower pressure than coastal South Carolina for Formosan termites. The practical management approach is nearly identical in both markets: annual termite protection, twice-annual fire ant treatment, seasonal mosquito program, and quarterly general pest service.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Columbia", slug: "columbia" },
+      { name: "Rock Hill", slug: "rock-hill" },
+      { name: "Spartanburg", slug: "spartanburg" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Greenville, SC | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Greenville pest control for subterranean termites, German cockroaches, mosquitoes, fire ants and house mice. Greenville County Reedy River Upstate South Carolina specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "florence",
+    name: "Florence",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~37,000",
+    county: "Florence County",
+    climate: "hot-humid",
+    climateDriver:
+      "Florence is in the Pee Dee region of South Carolina in Florence County, the commercial center of northeastern South Carolina's coastal plain. The hot-humid climate is warmer and more humid than the Piedmont, with long, hot summers and mild winters. The Pee Dee River basin creates significant wetland and riparian habitat that sustains mosquito populations through the extended warm season. Clemson HGIC confirms the coastal plain is one of the highest termite pressure zones in South Carolina.",
+    topPests: [
+      "Subterranean Termites",
+      "German Cockroaches",
+      "Mosquitoes",
+      "Fire Ants",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active underground most of the year",
+        note: "Clemson University HGIC confirms subterranean termites are especially active in the coastal plain region of South Carolina, with the hot-humid climate creating conditions among the most favorable for termite activity in the state. The Pee Dee region's warm, moist soils sustain active termite colonies from late winter through late fall. Annual inspections are essential.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches maintain year-round indoor populations in Florence's residential and commercial buildings. The region's commercial role as the primary service center for northeastern South Carolina's healthcare, retail, and hospitality sectors creates sustained commercial cockroach pressure. American cockroaches are also present in commercial settings.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The Pee Dee River basin creates significant mosquito breeding habitat throughout Florence County. The coastal plain's lower elevation and the basin's wetlands and agricultural drainage infrastructure sustain populations from March through October. The South Carolina coastal plain's long warm season extends mosquito pressure well into fall.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round in the coastal plain climate",
+        note: "Fire ants are well established throughout the Pee Dee coastal plain. Florence County's warm, moist soils are ideal for fire ant colony establishment, and the coastal plain's mild winters give them year-round activity without the winter suppression that the Piedmont experiences.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice press into Florence homes and commercial buildings in fall as temperatures drop. The mild coastal plain winters mean mice establish readily through the heating season and can breed year-round in heated structures.",
+      },
+    ],
+    localHook:
+      "Florence is the Pee Dee region's commercial hub, and the coastal plain's pest picture is more intense than the Piedmont in specific ways. Clemson HGIC is direct about the coastal plain: it is one of the highest termite pressure zones in South Carolina. The Pee Dee River basin's wetlands and drainage create mosquito habitat that runs from March through October. Fire ants are year-round. The climate here has no real off-season for any of these pests.",
+    intro:
+      "Pest control in Florence addresses the full coastal plain pest load of northeastern South Carolina. Clemson University HGIC identifies the coastal plain as one of the highest termite pressure zones in South Carolina, and Florence County's hot-humid climate creates conditions among the most favorable for subterranean termite activity in the state. The Pee Dee River basin creates significant mosquito breeding habitat throughout the county from March through October. Fire ants are active year-round in the coastal plain's mild climate. German cockroaches are a year-round indoor pest in residential and commercial buildings, with American cockroaches also present in commercial settings. House mice press indoors in fall and can establish and breed in heated structures through the mild coastal plain winter.",
+    sections: [
+      {
+        heading: "Coastal plain termites: why Florence County is in one of South Carolina's highest-pressure termite zones",
+        body: "Clemson University HGIC is the authoritative source for South Carolina pest management guidance, and their assessment of the coastal plain termite pressure is direct: the hot-humid coastal plain climate creates conditions among the most favorable for subterranean termite activity in the state. Florence County sits in the northeastern corner of the coastal plain, where the warm, moist soils and high annual rainfall sustain termite colonies that are active from late winter through late fall. This is a longer active season than the Piedmont, and a much longer season than northern states. The combination of warmer baseline temperatures, more consistent soil moisture, and the absence of sustained cold winters that interrupt termite activity creates the conditions Clemson HGIC identifies as highest-pressure. Native Reticulitermes subterranean termites are the primary species throughout the Pee Dee region. They swarm typically from February through April, and seeing swarmers, which are the winged reproductive termites, near windows or light fixtures during this period is a clear sign of an active nearby colony. Annual inspections are not optional in Florence County: they are the responsible minimum standard for any property owner in this climate zone. Properties with crawl spaces, wood near grade, or deck posts in soil contact face elevated risk, and proactive protection through soil treatment or a monitored bait system is the appropriate standard for most Florence homes.",
+      },
+      {
+        heading: "Mosquitoes, fire ants, and year-round pest management in the Pee Dee region",
+        body: "The Pee Dee River basin is one of the larger river systems of the South Carolina coastal plain, and its wetlands, agricultural drainage canals, and riparian areas create mosquito breeding habitat that sustains populations from March through October across Florence County. Properties near the Pee Dee River, its tributaries, and the agricultural drainage areas that crisscross the county see the most intense and longest mosquito seasons. Monthly barrier spray programs from March through October provide the most consistent yard-level protection, targeting the resting vegetation where adult mosquitoes spend their non-breeding time. Standing water elimination, from flower pots, gutters, drainage low spots, and any containers that hold rain, removes the breeding sites that are within homeowner control. Fire ants in the Pee Dee coastal plain face no meaningful winter suppression from the mild Florence County climate, which means they rebuild mounds year-round and maintain active foraging throughout every month. Twice-annual broadcast bait treatment of the full lawn, per Clemson HGIC recommendation, is the appropriate management approach. Individual mound treatments address the most visible hazard but not the broader population. American cockroaches, in addition to German cockroaches, are a commercial pest reality in Florence's healthcare, hospitality, and food service sector: the large commercial footprint that comes from serving as the Pee Dee region's primary commercial center sustains cockroach pressure in commercial kitchens and healthcare facilities.",
+      },
+    ],
+    prevention: [
+      "Maintain annual termite inspections with active protection: Florence County is in one of South Carolina's highest-pressure coastal plain termite zones per Clemson HGIC.",
+      "Apply broadcast fire ant bait across the full lawn twice annually in the Pee Dee's year-round warm climate, where individual mound treatment alone is insufficient.",
+      "Eliminate standing water from the property within 48 hours of rain to reduce mosquito breeding throughout the March through October active season.",
+      "Seal plumbing penetrations and foundation gaps to reduce German and American cockroach entry in commercial and residential properties.",
+    ],
+    costNote:
+      "Florence pest control starts with a free inspection. Annual termite protection is the priority for all Florence County properties given the coastal plain pressure identified by Clemson HGIC. Quarterly general programs cover cockroaches, fire ants, and perimeter pests. Mosquito programs run March through October. Commercial cockroach programs for healthcare and food service properties are priced based on the scope of the infestation.",
+    faqs: [
+      {
+        question: "Is the termite risk in Florence, SC higher than in Upstate South Carolina?",
+        answer:
+          "Yes. Clemson HGIC identifies the coastal plain as one of the highest termite pressure zones in South Carolina, and Florence County is in that zone. The hot-humid coastal plain climate creates conditions more favorable for subterranean termite activity than the slightly cooler and less humid Upstate Piedmont. Both regions have active native subterranean termites, but the coastal plain's longer warm season, warmer soil temperatures, and more consistent moisture sustain more continuous termite activity through the year.",
+      },
+      {
+        question: "How long is termite season in the coastal plain?",
+        answer:
+          "In Florence County, termite colonies are active underground from roughly late January or February through late November in most years. The coastal plain's mild winters do not deliver the sustained cold that interrupts termite activity in northern states. Above ground, the swarm season runs from February through April, when winged reproductives emerge from mature colonies. Annual inspections should be done before the swarm season, or immediately if swarmers are seen indoors, to catch any new or expanding activity before structural damage accumulates.",
+      },
+      {
+        question: "When is mosquito season worst in the Pee Dee region?",
+        answer:
+          "June through September is the most intense period in Florence County, though the active season runs from March through October. The Pee Dee River basin's wetlands and the agricultural drainage canals throughout the county sustain breeding habitat through the extended warm season. Properties near the Pee Dee River, its tributaries, or the agricultural drainage areas see earlier spring activity and later fall activity than properties further from these water features. Monthly barrier spray programs from March through October provide consistent yard-level protection through the full active season.",
+      },
+      {
+        question: "How do I treat fire ants in Florence County?",
+        answer:
+          "Clemson HGIC recommends broadcast bait treatment of the full lawn twice annually, in spring and fall, rather than treating individual mounds. The coastal plain's year-round warm climate means fire ant colonies are never fully dormant, so two annual broadcast treatments maintain effective population control. Individual mound treatments provide faster results for a specific visible mound but do not address the broader population. In Florence County's mild winters, fire ants rebuild mounds continuously, so the twice-annual broadcast approach is more effective than reactive individual treatments.",
+      },
+      {
+        question: "What year-round pest control plan is right for a Florence, SC home?",
+        answer:
+          "The core plan for a Florence County home includes: annual termite inspection with active protection, given the coastal plain's high pressure zone per Clemson HGIC; quarterly general pest program covering cockroaches, ants, and spiders; a mosquito program from March through October; and twice-annual broadcast fire ant bait application across the full lawn. The coastal plain's climate means there is no genuine off-season for any of these pests, and a year-round service plan provides more consistent protection than seasonal-only programs.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Columbia", slug: "columbia" },
+      { name: "Myrtle Beach", slug: "myrtle-beach" },
+      { name: "Greenville", slug: "greenville" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Florence, SC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Florence pest control for subterranean termites, German cockroaches, mosquitoes, fire ants and house mice. Florence County Pee Dee region coastal plain South Carolina specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

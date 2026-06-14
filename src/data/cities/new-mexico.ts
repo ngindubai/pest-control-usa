@@ -341,4 +341,228 @@ export const newMexicoCities: CityLocation[] = [
     metaDescription:
       "Rio Rancho pest control for black widow spiders, house mice, American cockroaches, harvester ants and bark scorpions. Sandoval County West Mesa high desert Albuquerque metro specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "roswell",
+    name: "Roswell",
+    state: "New Mexico",
+    stateSlug: "new-mexico",
+    stateAbbr: "NM",
+    tier: "T3",
+    population: "~47,000",
+    county: "Chaves County",
+    climate: "semi-arid",
+    climateDriver:
+      "Roswell is in the Pecos River valley in southeastern New Mexico in Chaves County. The semi-arid desert climate delivers hot summers, mild winters, and low humidity. New Mexico State University Extension confirms scorpions and black widow spiders are present in southeastern New Mexico, with the warm desert climate sustaining activity in protected areas through most of the year. The Pecos River creates an oasis-like corridor through the surrounding desert.",
+    topPests: [
+      "Scorpions",
+      "Black Widow Spiders",
+      "German Cockroaches",
+      "House Mice",
+      "Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Active spring through fall, shelter indoors in extreme heat",
+        note: "New Mexico State University Extension confirms scorpions, including the striped bark scorpion (Centruroides vittatus), are present in southeastern New Mexico. The warm semi-arid climate of Chaves County sustains scorpion activity from spring through fall. Their sting is painful and warrants medical attention if symptoms progress.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active spring through fall",
+        note: "NMSU Extension confirms black widow spiders are established in southeastern New Mexico. In Roswell they are found in rock, debris, undisturbed storage, garages, and irrigation infrastructure. The semi-arid Pecos Valley climate suits them well. The female's bite is medically significant.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor cockroach in Roswell's apartment buildings and commercial settings. They breed entirely indoors and require gel bait with insect growth regulator for effective treatment.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge into structures in fall",
+        note: "House mice move into heated structures in Roswell as temperatures drop each fall. Deer mice are also present in the surrounding desert and ranching landscape, and New Mexico has documented hantavirus cases from deer mice, which warrants precautions in any rodent cleanup in enclosed spaces.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Harvester ants, pavement ants, and fire ants are all present in Chaves County depending on location and season. Harvester ants are common in the desert scrub areas and build large mounds in undisturbed soils. Fire ants are present in some areas. Both bite aggressively when disturbed.",
+      },
+    ],
+    localHook:
+      "Roswell is famous for very different reasons, but the pest picture in Chaves County is serious business. New Mexico State University Extension confirms scorpions and black widow spiders are established in southeastern New Mexico, and the Pecos River valley's semi-arid climate keeps these species active through most of the warm season. The surrounding ranching and agricultural landscape also means deer mouse populations are substantial, and New Mexico's documented hantavirus case history makes rodent management here more consequential than in many cities.",
+    intro:
+      "Pest control in Roswell is shaped by its position in the semi-arid Pecos River valley in southeastern New Mexico. New Mexico State University Extension confirms scorpions, including the striped bark scorpion, and black widow spiders are present in Chaves County. The warm desert climate keeps these species active from spring through fall and in protected areas year-round. German cockroaches are the dominant indoor cockroach in residential and commercial settings. House mice move indoors each fall, and deer mice in the surrounding desert and ranching landscape carry hantavirus risk that New Mexico's documented case history makes a genuine public health consideration. Harvester ants and fire ants are active in the surrounding desert scrub and developed areas during the warm months.",
+    sections: [
+      {
+        heading: "Scorpions and black widow spiders in southeastern New Mexico: the Roswell homeowner's real-world risk",
+        body: "New Mexico State University Extension confirms scorpions and black widow spiders are present in southeastern New Mexico and Chaves County. Roswell's semi-arid desert climate, with its rock outcroppings, adobe and stucco construction, and the debris and material typical of a city with significant ranching and agricultural infrastructure, provides the undisturbed, dry, sheltered spaces that both species favor. The striped bark scorpion, Centruroides vittatus, is the scorpion species most commonly encountered in southeastern New Mexico. It is not the Arizona bark scorpion, which is the most medically dangerous scorpion in the United States, but its sting is still painful and can cause symptoms beyond the sting site in sensitive individuals. Children and adults with allergies or immune sensitivities warrant medical attention after any sting. Scorpions are nocturnal and move toward moisture, which is why bathrooms, kitchens, and laundry areas are common indoor encounter sites in the hot, dry summer months. The western black widow spider is established throughout southeastern New Mexico and is a concurrent concern in the same undisturbed, dry outdoor spaces that scorpions favor: garages, wood piles, block wall cavities, utility enclosures, and the areas around irrigation valve boxes. The practical management approach for both pests combines monthly perimeter treatment during the spring through fall active season with physical exclusion: sealing weep holes and gaps around doors and windows removes the entry pathways that both species use to enter homes.",
+      },
+      {
+        heading: "German cockroaches, mice, and the year-round pest calendar in the Pecos Valley",
+        body: "Roswell's year-round pest calendar has two distinct seasons. The warm season, roughly April through October, is when scorpions, black widows, harvester ants, and fire ants are most active. The cool season, October through March, sees these outdoor species become less active while the indoor pests, house mice and German cockroaches, maintain or increase their pressure. House mice move into heated structures in fall as the Pecos Valley temperatures drop from the hot summer highs toward freezing nighttime temperatures in November. The surrounding ranching and agricultural landscape sustains substantial outdoor rodent populations. Deer mice are present in the desert scrub and agricultural edges, and New Mexico has documented hantavirus pulmonary syndrome cases from deer mice. If rodent activity is found in an enclosed space, particularly an outbuilding, shed, or vehicle that has been sitting unused, professional identification of the species before cleanup is appropriate. Deer mouse cleanup requires wetting the area with disinfectant before disturbing any droppings or nesting material, wearing appropriate respiratory protection, and ventilating the space thoroughly. German cockroaches are a steady year-round problem in Roswell's apartment buildings and commercial settings. They breed entirely indoors and are unaffected by the outdoor season. Targeted gel bait treatment at the sites where cockroaches aggregate, particularly the motor voids of refrigerators and the gap behind stove burners, is the effective approach.",
+      },
+    ],
+    prevention: [
+      "Apply monthly perimeter treatment from April through October for scorpions and black widow spiders, and seal weep holes and door gaps to reduce entry.",
+      "Wear gloves when reaching into garage storage, irrigation valve boxes, and wood piles where both scorpions and black widows commonly shelter.",
+      "If you find rodent activity in a shed or outbuilding near desert or agricultural edges, wet the area with disinfectant before cleaning and do not dry-sweep, given New Mexico's hantavirus case history.",
+      "Remove debris, loose rock, and undisturbed materials from around the foundation perimeter to reduce scorpion and black widow harborage immediately adjacent to the home.",
+    ],
+    costNote:
+      "Roswell pest control is most cost-effective as a monthly perimeter program from April through October covering scorpions, black widows, and general pests, with rodent exclusion in fall and a year-round German cockroach program for residential and commercial properties. A free inspection identifies the current pressure levels and entry points before a plan is proposed.",
+    faqs: [
+      {
+        question: "Are scorpions really dangerous in Roswell, NM?",
+        answer:
+          "New Mexico State University Extension confirms scorpions, including the striped bark scorpion, are present in Chaves County. The striped bark scorpion is not the Arizona bark scorpion, which is the most medically dangerous scorpion in the United States, but its sting is painful and can produce localized symptoms and systemic reactions in sensitive individuals, children, and elderly people. Medical attention is appropriate if symptoms extend beyond the sting site. Monthly perimeter treatment from April through October and sealing entry points substantially reduces encounter risk inside the home.",
+      },
+      {
+        question: "How do I find and remove scorpions from my Roswell home?",
+        answer:
+          "A UV (blacklight) flashlight is your best tool for night-time scorpion detection: scorpions fluoresce under ultraviolet light and are visible in the dark even when they are otherwise hard to spot. Inspect your yard, perimeter walls, and the ground near the foundation after dark. Indoors, check bathrooms, the laundry area, and anywhere moisture is present. The most effective removal combines sealing weep holes and gaps around doors and windows with monthly perimeter treatment during the active season. A professional can identify the entry points and set up a treatment program that keeps scorpion populations around the perimeter at manageable levels.",
+      },
+      {
+        question: "Are black widow spiders common in Chaves County?",
+        answer:
+          "Yes. NMSU Extension confirms black widow spiders are established in southeastern New Mexico. In Roswell they are found in the dry, undisturbed spaces that are common in a city with significant agricultural and ranching infrastructure: garages, outbuildings, wood piles, irrigation valve boxes, block wall cavities, and utility enclosures. The female's venom is medically significant. Annual professional treatment of these harborage areas and wearing gloves when reaching into them substantially reduces encounter risk.",
+      },
+      {
+        question: "When do mice move inside in the Pecos Valley?",
+        answer:
+          "October and November are the key months as Chaves County nighttime temperatures drop toward freezing. The surrounding ranching and agricultural landscape sustains large outdoor rodent populations that press toward heated structures in fall. Deer mice in the desert scrub edges carry hantavirus risk documented in New Mexico, which makes professional species identification before any rodent cleanup in an enclosed space, particularly an outbuilding or vehicle that has sat unused, the appropriate first step. House mice are addressed through structural exclusion before the fall cold arrives.",
+      },
+      {
+        question: "What year-round pest control plan makes sense for a Roswell home?",
+        answer:
+          "The core annual plan for a Roswell home includes: monthly perimeter treatment from April through October for scorpions, black widows, and general pests; fall rodent exclusion inspection and sealing of identified entry points; and year-round German cockroach monitoring for any property with multi-family housing or commercial food service areas. Homes near agricultural or ranching edges warrant additional attention to deer mouse risk in any enclosed outbuilding or storage structure. A free inspection establishes current pressure levels across all these pest categories.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Albuquerque", slug: "albuquerque" },
+      { name: "Las Cruces", slug: "las-cruces" },
+      { name: "Farmington", slug: "farmington" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Roswell, NM | Scorpions, Black Widow Spiders & Mice",
+    metaDescription:
+      "Roswell pest control for scorpions, black widow spiders, German cockroaches, house mice and ants. Chaves County Pecos River southeastern New Mexico specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "farmington",
+    name: "Farmington",
+    state: "New Mexico",
+    stateSlug: "new-mexico",
+    stateAbbr: "NM",
+    tier: "T3",
+    population: "~47,000",
+    county: "San Juan County",
+    climate: "semi-arid",
+    climateDriver:
+      "Farmington is in the Four Corners region of northwestern New Mexico at the confluence of the San Juan, Animas, and La Plata Rivers in San Juan County. The semi-arid high desert climate at roughly 5,400 feet elevation brings hot summers, cold winters, and low humidity. The river confluence creates an oasis-like setting in an otherwise arid landscape, sustaining moisture-dependent pest species alongside the scorpions and black widows typical of the broader desert region.",
+    topPests: [
+      "Scorpions",
+      "Black Widow Spiders",
+      "German Cockroaches",
+      "House Mice",
+      "Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Active spring through fall, shelter indoors in extreme heat",
+        note: "NMSU Extension confirms scorpions are established in the semi-arid Four Corners desert region of San Juan County. The warm desert conditions around Farmington sustain scorpion populations in rock, debris, and construction materials from spring through fall.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in sheltered spots, most active spring through fall",
+        note: "NMSU Extension confirms black widow spiders are established in northwestern New Mexico. In Farmington they are found in garages, outbuildings, undisturbed storage, and the river corridor vegetation and debris. The female's bite is medically significant.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor cockroach in Farmington's apartment buildings and commercial settings. The energy industry workforce creates commercial building pest pressure in hospitality and food service properties.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge into structures in fall",
+        note: "House mice move into heated Farmington structures as fall temperatures drop. The river confluence creates moisture conditions that sustain some outdoor rodent activity beyond what the purely desert climate would support. New Mexico's documented hantavirus case history from deer mice warrants precautions in any enclosed space rodent cleanup.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Harvester ants and fire ants are active in the San Juan County desert soils during warm months. The river corridor areas also sustain pavement ants and odorous house ants that forage into residential and commercial buildings.",
+      },
+    ],
+    localHook:
+      "Farmington sits at the Four Corners, where Colorado, New Mexico, Utah, and Arizona meet, and the river confluence at the heart of the city creates one of the most interesting pest environments in the Southwest: desert species like scorpions and black widows living alongside the moisture-dependent earwigs, cockroaches, and ants that the San Juan River corridor sustains. NMSU Extension confirms scorpions and black widows are established in San Juan County. The energy industry, which drives Farmington's economy, adds commercial pest pressure from the hospitality and food service sectors that support the workforce.",
+    intro:
+      "Pest control in Farmington reflects the city's unique Four Corners location at the confluence of three rivers in the high desert of northwestern New Mexico. NMSU Extension confirms scorpions and black widow spiders are established in San Juan County's semi-arid desert environment. The San Juan, Animas, and La Plata Rivers create oasis-like conditions at their confluence that sustain moisture-seeking pests alongside the scorpions and black widows of the surrounding desert. German cockroaches maintain year-round indoor populations in apartment buildings and the commercial properties that serve the energy industry workforce. House mice move indoors as fall temperatures drop, and New Mexico's documented hantavirus history means proper precautions apply to any rodent activity in enclosed spaces near desert edges. Desert ants, including harvester ants and fire ants, are active in the surrounding semi-arid soils during warm months.",
+    sections: [
+      {
+        heading: "Scorpions and black widows at the Four Corners: Farmington's desert pest reality",
+        body: "The Four Corners desert region is genuine scorpion and black widow country, and NMSU Extension confirms both species are established in San Juan County. Farmington's semi-arid high desert setting at 5,400 feet provides the dry, rocky, undisturbed conditions both species prefer. Scorpions in the Farmington area are most active from April through October, nocturnal in their movements and attracted to moisture, which makes bathrooms, kitchens, and laundry areas the common indoor encounter sites when scorpions enter structures. A UV flashlight used at night reveals scorpion activity because they fluoresce under ultraviolet light, which is the most effective way to assess how much activity exists in and around a property. Black widow spiders in Farmington are found in garages, outbuildings, irrigation valve boxes, wood piles, and the shaded, undisturbed spaces around river corridor vegetation. The female's venom is medically significant and a bite producing symptoms beyond the immediate area warrants medical attention. The combined management approach for both pests is similar: monthly perimeter treatment from April through October, physical exclusion by sealing weep holes, door gaps, and window frame gaps, and wearing gloves when reaching into dark enclosed spaces such as storage areas and valve boxes. The energy industry's presence means Farmington has more workers spending time outdoors in undeveloped terrain adjacent to the city, which increases scorpion encounter frequency.",
+      },
+      {
+        heading: "River confluence moisture and the pest calendar in San Juan County",
+        body: "The confluence of three rivers in Farmington's urban core creates a moisture-rich zone in an otherwise semi-arid high desert landscape, and that moisture difference matters for pest species that require it. The river corridor vegetation and the irrigated landscape of the city sustain earwig populations that the purely desert areas would not support. Earwigs breed in moist organic matter along the river banks and in irrigated garden areas, entering homes through foundation gaps in spring and fall. The river confluence also sustains a more diverse ant community than the surrounding desert, including pavement ants and odorous house ants in the irrigated urban areas alongside the harvester ants of the drier desert soils. House mice benefit from the river corridor as well: the vegetation and moisture sustain outdoor rodent populations year-round rather than just seasonally, which means the pressure from surrounding habitat is more consistent than in purely arid desert cities. German cockroaches, which breed entirely indoors, are unaffected by the outdoor environment but benefit from the energy industry's commercial building density: restaurants, hotels, and food service operations that support the workforce create the commercial cockroach pressure that sustains populations in the off-season. The fall transition, when scorpions and outdoor pests become less active and mice press indoors, marks the shift from the warm-season perimeter program to the fall rodent exclusion priority.",
+      },
+    ],
+    prevention: [
+      "Apply monthly perimeter treatment from April through October for scorpions and black widow spiders, and seal weep holes, door gaps, and window frame gaps to reduce entry.",
+      "Use a UV flashlight for nighttime scorpion inspection of the yard and foundation perimeter to assess activity levels around your Four Corners property.",
+      "If rodent activity is found in a shed or enclosed space near desert edges, wet the area with disinfectant before cleaning given New Mexico's hantavirus case history.",
+      "Seal foundation gaps and utility penetrations before fall to intercept house mice before San Juan County temperatures drive them into heated structures.",
+    ],
+    costNote:
+      "Farmington pest control is most effective as a monthly perimeter program from April through October for scorpions, black widows, and general desert pests, with fall rodent exclusion and year-round German cockroach monitoring for commercial properties. The river corridor moisture means earwig treatment may be an additional spring and fall service for properties near the river. A free inspection sets the right plan.",
+    faqs: [
+      {
+        question: "What scorpion species are present in the Farmington area?",
+        answer:
+          "NMSU Extension confirms scorpions are established in San Juan County's semi-arid Four Corners desert region. The striped bark scorpion (Centruroides vittatus) is the most commonly encountered species in eastern and central New Mexico. The Four Corners area is at the western edge of its range and the northern range edge of some desert scorpion species. Any scorpion sting producing symptoms beyond the immediate sting site, particularly in children or elderly individuals, warrants medical attention. Monthly perimeter treatment during the active season substantially reduces indoor encounter frequency.",
+      },
+      {
+        question: "How do I keep scorpions out of my Four Corners home?",
+        answer:
+          "The most effective combination is monthly perimeter treatment during the spring through fall active season, sealing weep holes and gaps around doors and windows that scorpions use to enter, and a nighttime UV flashlight inspection of the yard and foundation perimeter to assess where scorpion activity is concentrated. Sealing weep holes with fine steel mesh rather than solid caulk maintains the ventilation function while blocking scorpion entry. Removing rock piles, debris, and undisturbed material from near the foundation eliminates the harborage sites that scorpions use adjacent to the structure.",
+      },
+      {
+        question: "Are black widow spiders active year-round in northwestern New Mexico?",
+        answer:
+          "Black widow spiders in Farmington are most active from spring through fall and shelter in protected spaces year-round. In the mild winters at 5,400 feet, they remain present in garages, outbuildings, and other sheltered structures through the cold months. The year-round presence means annual treatment of harborage areas is appropriate rather than seasonal-only treatment. Wearing gloves when reaching into any dark storage space is a sensible year-round habit in the Four Corners desert environment.",
+      },
+      {
+        question: "When do mice surge in San Juan County?",
+        answer:
+          "October and November are the primary surge months as Farmington temperatures drop from the hot summer highs toward freezing nighttime temperatures. The river confluence creates more year-round outdoor rodent habitat than purely desert settings, so the pressure from surrounding outdoor populations is more consistent. New Mexico's documented hantavirus case history means any rodent activity in an enclosed space, particularly near desert or agricultural edges, warrants professional species identification before cleanup begins. House mice are addressed with fall structural exclusion.",
+      },
+      {
+        question: "What makes the Four Corners river confluence different for pest control?",
+        answer:
+          "The confluence of three rivers in Farmington's urban core creates moisture conditions in the middle of a semi-arid desert that sustain pest species requiring humidity: earwigs, pavement ants, and some moisture-dependent cockroach species that the surrounding desert would not support. This means Farmington's pest list is more diverse than comparably sized desert cities further from major water sources. The management approach has to address both the desert species, scorpions and black widows, and the moisture-favoring species that the river corridor sustains. A perimeter program from April through October covers both, but the moisture pests may require additional attention in the irrigated areas near the river.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Albuquerque", slug: "albuquerque" },
+      { name: "Rio Rancho", slug: "rio-rancho" },
+      { name: "Roswell", slug: "roswell" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Farmington, NM | Scorpions, Black Widow Spiders & Mice",
+    metaDescription:
+      "Farmington pest control for scorpions, black widow spiders, German cockroaches, house mice and ants. San Juan County Four Corners San Juan River northwestern New Mexico specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

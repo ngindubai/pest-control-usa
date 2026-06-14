@@ -558,4 +558,116 @@ export const louisianaCities: CityLocation[] = [
     metaDescription:
       "Lake Charles pest control for Formosan termites, mosquitoes, fire ants, American cockroaches and subterranean termites. Calcasieu Parish Gulf Coast specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "bossier-city",
+    name: "Bossier City",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~68,000",
+    county: "Bossier Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Bossier City is in Bossier Parish on the Red River, directly across from Shreveport and home to Barksdale Air Force Base. The hot-humid climate delivers long, warm seasons with mild winters that provide no meaningful suppression of pest populations. The Red River and the local bayou and drainage network create significant mosquito breeding habitat. LSU AgCenter confirms Formosan subterranean termites are established across Louisiana, and the northwest Louisiana climate sustains their activity through most of the year.",
+    topPests: [
+      "German Cockroaches",
+      "Formosan Subterranean Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor cockroach in Bossier City's residential and commercial settings. The casino and entertainment district concentrated in Bossier City creates sustained commercial cockroach pressure in food service operations. Annual tenant turnover in multi-family housing near Barksdale Air Force Base also creates cockroach pressure.",
+      },
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms late April through June, active year-round underground",
+        note: "LSU AgCenter confirms Formosan subterranean termites (Coptotermes formosanus) are established across Louisiana and are particularly aggressive and destructive compared to native subterranean species. The hot-humid northwest Louisiana climate sustains termite colony activity for most of the year. Annual inspections with a proactive treatment system are the standard recommendation for Bossier Parish.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Red River and local bayous create significant mosquito breeding habitat year-round in Bossier Parish. The long warm season in northwest Louisiana sustains populations from early spring through late fall. The Caddo-Bossier Mosquito Abatement District manages the public-side control program; residential barrier spray complements that protection at the property level.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are well established throughout Bossier Parish. The hot-humid northwest Louisiana climate gives them year-round activity without the winter suppression that northern climates provide. LSU AgCenter identifies fire ants as one of Louisiana's most significant pest challenges.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, increased pressure in fall",
+        note: "House mice press into Bossier City homes and commercial properties in fall as temperatures drop from the summer highs. The mild Louisiana winters mean mice establish readily in heated structures and can breed through the season. The military housing areas near Barksdale also see periodic mouse pressure.",
+      },
+    ],
+    localHook:
+      "Bossier City is the Shreveport-Bossier metro's entertainment and casino hub, and that commercial concentration, casinos, restaurants, hotels, and entertainment venues along the Red River, creates exactly the kind of food service and hospitality environment where German cockroaches establish and spread. LSU AgCenter confirms Formosan termites are established across Louisiana, and the Red River's mosquito breeding habitat runs from March through November. There is no true off-season for any of these pests in northwest Louisiana.",
+    intro:
+      "Pest control in Bossier City is shaped by its position as the Shreveport-Bossier metro's entertainment and military hub. The casino and entertainment district concentrated along the Red River creates sustained German cockroach pressure in the food service and hospitality sector. LSU AgCenter confirms Formosan subterranean termites are established across Louisiana, and Bossier Parish's hot-humid climate sustains their activity through most of the year. The Red River and local bayous create significant mosquito breeding habitat from March through November. Fire ants are year-round in the warm Louisiana climate. The military community around Barksdale Air Force Base adds some additional residential pest dynamics from the housing turnover common to military installations. House mice press into structures in fall and establish readily through the mild Louisiana winters.",
+    sections: [
+      {
+        heading: "Formosan subterranean termites in northwest Louisiana: Bossier City's most destructive pest",
+        body: "LSU AgCenter has studied Formosan subterranean termites in Louisiana for decades and their assessment is consistent: Formosan termites are established across the state and are significantly more destructive than native subterranean termite species. The difference is colony size. Native subterranean termite colonies typically contain several hundred thousand individuals. Formosan colonies can reach several million and forage over a much wider area, which means they consume wood faster and cause structural damage in a fraction of the time. In Bossier Parish's hot-humid climate, termite colonies are active underground from roughly February through November, which is a substantially longer season than northern states experience. Formosan termites swarm on warm evenings from late April through June, often gathering around outdoor lights. Seeing swarmers near your home, particularly near lights in late spring or early June, is a strong indicator of an established nearby colony. All Bossier City homeowners should maintain active termite protection rather than relying on inspection alone. The combination of both Formosan and native eastern subterranean termites in Caddo and Bossier parishes means unprotected structures face pressure from two termite species simultaneously. A proactive approach, whether soil treatment or a monitored bait system, provides year-round structural protection in this high-pressure region.",
+      },
+      {
+        heading: "Red River mosquitoes, fire ants, and the year-round pest calendar in Bossier Parish",
+        body: "The Red River defines the western boundary of Bossier City, and its floodplain, the adjacent bayous, and the drainage infrastructure throughout Bossier Parish create mosquito breeding habitat that sustains populations from March through November in most years. The Caddo-Bossier Mosquito Abatement District manages aerial and ground control programs and monitors for mosquito-borne illness including West Nile virus, which is reported in the region most years. At the residential level, eliminating standing water from the property, including flower pots, blocked gutters, bird baths, and low spots in the lawn, removes the breeding sites that are within homeowner control. Monthly barrier spray treatment of the resting vegetation around the home significantly reduces the adult population that has bred elsewhere and come to rest in yard vegetation. Fire ants in Bossier Parish face no meaningful winter suppression from northwest Louisiana's mild climate, which means they rebuild mounds throughout the year and maintain active foraging in every season. Twice-annual broadcast bait treatment of the full lawn, in spring and fall, is the LSU AgCenter recommendation for effective fire ant management. The casino and entertainment district creates a commercial pest reality that goes beyond the residential context: German cockroaches in restaurant kitchens, food storage areas, and hospitality properties require monthly professional treatment with targeted gel bait to maintain control in the high-activity commercial environment. Residential German cockroach pressure in the military housing areas near Barksdale is managed the same way: targeted treatment at the aggregation sites rather than surface spray alone.",
+      },
+    ],
+    prevention: [
+      "Maintain active Formosan termite protection: Bossier Parish has both Formosan and native subterranean termites and the Louisiana climate keeps them active most of the year.",
+      "Remove standing water from all containers, gutters, and yard low spots weekly to reduce mosquito breeding along the Red River and local bayou drainage.",
+      "Apply broadcast fire ant bait across the full lawn twice a year in the year-round warm Louisiana climate where mounds rebuild continuously.",
+      "Schedule monthly professional German cockroach treatment for casino, restaurant, and hospitality properties in the Bossier City entertainment district.",
+    ],
+    costNote:
+      "Bossier City pest control is typically quoted as a year-round general plan covering fire ants, cockroaches, and spiders, with Formosan termite protection quoted separately as a proactive soil treatment or bait monitoring program. Mosquito control runs March through November. Commercial German cockroach programs for the entertainment district are priced based on the scope and number of properties. Start with a free inspection.",
+    faqs: [
+      {
+        question: "What makes Formosan termites more destructive than native termites in Bossier City?",
+        answer:
+          "LSU AgCenter confirms the key difference: colony size. Formosan subterranean termite colonies can reach several million individuals, compared to the several hundred thousand typical of native subterranean termite colonies. That size advantage translates directly into faster wood consumption and faster structural damage. Formosan colonies can also create aerial carton nests that do not require soil contact, which means they can infest above-ground wood without the mud tubes that alert homeowners to native subterranean termite activity. Both Formosan and native species are present in Bossier Parish, doubling the structural risk for unprotected properties.",
+      },
+      {
+        question: "How do I know if I have Formosan versus native subterranean termites?",
+        answer:
+          "Professional identification is the reliable way to differentiate the two species. Some signs point toward Formosan activity: large swarm events in late April through June on warm evenings, aerial carton nests found in wood that is not in soil contact, and very rapid or extensive structural damage discovered during an inspection. Native subterranean termites swarm earlier in spring, typically February through April. Both leave mud tubes as their primary visible sign when traveling from soil to wood. A licensed pest management professional can identify the species through inspection and advise on the appropriate treatment approach for your property.",
+      },
+      {
+        question: "How long is mosquito season near the Red River?",
+        answer:
+          "March through November in most years in Bossier Parish. The Red River floodplain, local bayous, and the drainage infrastructure throughout the parish sustain breeding habitat through the long warm season. The Caddo-Bossier Mosquito Abatement District runs active control programs and monitors for West Nile virus. Residential barrier spray programs targeting the resting vegetation around the home from March through November provide consistent property-level protection through the full active season.",
+      },
+      {
+        question: "Are fire ants active year-round in Bossier Parish?",
+        answer:
+          "Yes. The hot-humid northwest Louisiana climate gives fire ants no meaningful winter dormancy period, and mounds rebuild after rain events throughout the year. LSU AgCenter identifies fire ants as one of Louisiana's most significant pest challenges. Twice-annual broadcast bait treatment of the full lawn, in spring and fall, is more effective than treating individual mounds, which does not address the broader population. In Bossier Parish's year-round warm climate, the twice-annual broadcast approach maintains effective control.",
+      },
+      {
+        question: "What pest control plan makes sense for a Bossier City home?",
+        answer:
+          "The core annual plan for a Bossier City home includes: active Formosan termite protection with annual inspection, either a current soil treatment or monitored bait system; a year-round general pest program covering fire ants, cockroaches, and spiders; a mosquito program from March through November; and twice-annual broadcast fire ant bait. The mild Louisiana winters mean there is genuinely no off-season for any of these pests, so a year-round plan provides better protection than seasonal-only service. Commercial properties in the entertainment district need additional monthly German cockroach treatment. A free inspection establishes the current pest pressures before a plan is proposed.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Shreveport", slug: "shreveport" },
+      { name: "New Orleans", slug: "new-orleans" },
+      { name: "Baton Rouge", slug: "baton-rouge" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Bossier City, LA | Formosan Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Bossier City pest control for Formosan subterranean termites, German cockroaches, mosquitoes, fire ants and house mice. Bossier Parish Red River Shreveport metro Barksdale specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

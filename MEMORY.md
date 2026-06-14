@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-14)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-28 complete. T2 COMPLETE.
-- **City pages built:** 700 total (75 T1 + 300 T2 + 325 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-30 complete. T2 COMPLETE.
+- **City pages built:** 750 total (75 T1 + 300 T2 + 375 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 783 in the static export (home, services, 50+ states, 700 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=141, B=140, C=140, D=140, E=139 (700 total cities, all within 15-25% range).
-- **Cities built T3 chunks 27-28 (50):** Colorado: Broomfield (A), Grand Junction (B), Commerce City (C), Littleton (D), Northglenn (E), Brighton (A), Englewood (B), Wheat Ridge (C), Windsor (D), Lafayette (E), Erie (A), Durango (B), Louisville (C), Montrose (D), Frederick (E), Firestone (A), Canon City (B), Castle Pines (C), Woodland Park (D), Glenwood Springs (E), Steamboat Springs (A), Delta (B), Sterling (C), Fruita (D), Alamosa (E). Texas: Bryan (A), Victoria (B), Kyle (C), Port Arthur (D), Galveston (E), Burleson (A), Waxahachie (B), Weslaco (C), Sherman (D), Texarkana (E), Lufkin (A), Weatherford (B), Nacogdoches (C), Del Rio (D), Seguin (E), Cleburne (A), Eagle Pass (B), Hutto (C), Denison (D), Marshall (E), Kerrville (A), Corsicana (B), Stephenville (C), Belton (D), Paris (E).
-- **New state files added chunks 27-28:** none (all states already registered in index.ts).
-- **Next block:** Chunk 29, T3 continues, rotation at A.
+- **Total site pages:** 833 in the static export (home, services, 50+ states, 750 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=151, B=150, C=150, D=150, E=149 (750 total cities, all within 15-25% range).
+- **Cities built T3 chunks 29-30 (50):** Chunk 29: Waterloo IA (A), Council Bluffs IA (B), Ankeny IA (C), Iowa City IA (D), Ames IA (E), Bellevue NE (A), Grand Island NE (B), Kearney NE (C), Lawrence KS (D), Manhattan KS (E), Salina KS (A), Lenexa KS (B), Shawnee KS (C), Midwest City OK (D), Stillwater OK (E), Muskogee OK (A), Bartlesville OK (B), Joplin MO (C), Jefferson City MO (D), Florissant MO (E), St. Peters MO (A), Wentzville MO (B), Chesterfield MO (C), Sheboygan WI (D), West Allis WI (E). Chunk 30: Wausau WI (A), Fond du Lac WI (B), Beloit WI (C), Midland MI (D), Jackson MI (E), Port Huron MI (A), Winchester VA (B), Staunton VA (C), Nampa ID (D), Meridian ID (E), Idaho Falls ID (A), Caldwell ID (B), Coeur d'Alene ID (C), Pocatello ID (D), Great Falls MT (E), Missoula MT (A), Bozeman MT (B), Casper WY (C), Laramie WY (D), Roswell NM (E), Farmington NM (A), Rock Hill SC (B), Greenville SC (C), Florence SC (D), Bossier City LA (E).
+- **New state files added chunks 29-30:** none (all states already registered in index.ts).
+- **Next block:** Chunk 31, T3 continues, rotation at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

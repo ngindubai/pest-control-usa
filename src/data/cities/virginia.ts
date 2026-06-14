@@ -1823,4 +1823,230 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Fredericksburg pest control for Rappahannock River mosquitoes, historic building termites, stink bugs and fire ants. Central Virginia I-95 corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "winchester",
+    name: "Winchester",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~28,000",
+    county: "Winchester City (Independent City)",
+    climate: "temperate",
+    climateDriver:
+      "Winchester sits in the northern Shenandoah Valley, flanked by the Blue Ridge Mountains to the east and the Alleghenies to the west. The valley creates a wind corridor that accelerates fall pest migration into buildings, and the surrounding apple orchards of the region provide the summer feeding habitat that sustains some of the highest brown marmorated stink bug populations in the eastern United States. Virginia Cooperative Extension at Virginia Tech documents this region as a high-pressure stink bug zone.",
+    topPests: [
+      "Brown Marmorated Stink Bugs",
+      "House Mice",
+      "Carpenter Ants",
+      "Subterranean Termites",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering indoors",
+        note: "Virginia Cooperative Extension (Virginia Tech) has documented the Shenandoah Valley and northern Virginia apple-growing region as one of the highest-pressure zones for brown marmorated stink bugs (Halyomorpha halys) in the eastern United States. The surrounding apple orchards provide abundant summer feeding habitat, and the insects aggregate on buildings in large numbers each fall seeking overwintering sites.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge in October and November",
+        note: "House mice are consistent fall invaders in the Shenandoah Valley, pressing into heated buildings when temperatures drop. Winchester's older historic downtown housing stock has more entry points than newer construction. The valley's geographic funnel can create local cold air pooling that accelerates the October surge.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October in the temperate Shenandoah Valley climate",
+        note: "Carpenter ants are common in the older wood-frame homes of Winchester's historic downtown. The Blue Ridge and Appalachian forests adjacent to the valley sustain large source populations, and the older construction in the historic district provides the moisture-compromised wood that carpenter ants require for nesting.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Subterranean termites are active across the Shenandoah Valley. Virginia Cooperative Extension identifies northern Virginia and the Shenandoah Valley as an area of elevated termite pressure. Winchester's older wood-frame construction, including structures in the historic downtown that are 100 to 200 years old, is at genuine risk without current professional protection.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor cockroach in Winchester's commercial properties and older multi-family housing. They are entirely unaffected by the Shenandoah Valley winters and spread through shared building systems in the city's commercial corridor.",
+      },
+    ],
+    localHook:
+      "Winchester's position in the northern Shenandoah Valley apple country creates one of the highest brown marmorated stink bug pressures in Virginia. Virginia Cooperative Extension has documented this. The surrounding orchards feed stink bug populations all summer, and every fall those insects aggregate on buildings throughout the Winchester area in large numbers. The historic downtown also carries real termite and carpenter ant risk in its older wood-frame housing.",
+    intro:
+      "Pest control in Winchester, Virginia, is defined by two forces: the apple orchards of the Shenandoah Valley that make stink bug pressure among the highest in the state, and the older historic housing that creates exposure to subterranean termites and carpenter ants. Virginia Cooperative Extension at Virginia Tech has documented the northern Shenandoah Valley as one of the highest stink bug pressure zones in the eastern United States. House mice surge in fall, German cockroaches are year-round in commercial settings, and the Blue Ridge forests adjacent to the valley sustain carpenter ant populations that extend into the older neighborhoods.",
+    sections: [
+      {
+        heading: "Brown marmorated stink bugs: why Winchester has some of the highest stink bug pressure in Virginia",
+        body: "Brown marmorated stink bugs arrived in the mid-Atlantic in the late 1990s and found conditions in the Shenandoah Valley that suit them particularly well. The apple orchards of the northern Shenandoah Valley, which have made the Winchester and Frederick County area one of Virginia's most productive apple-growing regions for over a century, provide exactly the summer feeding habitat stink bugs prefer. They feed on fruit, nuts, and a wide range of crops and ornamental plants through summer, then aggregate on buildings in September and October as temperatures drop, seeking wall voids and attic spaces for overwintering.\n\nVirginia Cooperative Extension at Virginia Tech has documented the Shenandoah Valley and the northern Virginia apple corridor as one of the highest stink bug pressure zones in the eastern United States. For Winchester homeowners, this is not a distant agricultural problem. The insects move from the orchard landscape into residential areas in fall, aggregating on any warm building surface before pressing through gaps around window frames, utility penetrations, soffit vents, and eaves into wall voids and attic spaces. A building with accessible overwintering sites can harbor hundreds to thousands of stink bugs.\n\nThey cause no structural damage and do not bite or sting, but their numbers and the odor they release when handled or disturbed make them a significant seasonal nuisance. The practical prevention approach is sealing exterior gaps before mid-September, when aggregation begins, and applying a perimeter spray treatment when bugs are actively gathering on building surfaces. Once inside the wall void, they are much harder to control: vacuuming visible individuals in living areas and maintaining sealed entry points is the appropriate ongoing management.",
+      },
+      {
+        heading: "Termites and carpenter ants in the Shenandoah Valley's older housing stock",
+        body: "Winchester's historic downtown includes structures built over a period stretching back to the 18th century. Buildings of that age in Virginia's temperate, humid climate carry real subterranean termite risk. Virginia Cooperative Extension identifies the Shenandoah Valley and northern Virginia as areas of elevated termite pressure, and any structure in Winchester without current documented professional termite protection has had decades or centuries of exposure without guaranteed coverage. Annual termite inspection is not a precautionary measure in Winchester: it is a sound maintenance standard for any property with wood-frame construction in the historic area.\n\nSubterranean termites in Winchester are active from March through fall. Swarm season runs from March through May, when the reproductive castes emerge in large numbers on warm, humid days following rain. A termite swarm in or near your home is a clear sign that an active colony is present in the vicinity. Unlike carpenter ants, subterranean termites consume wood rather than simply excavating it, and damage can be substantial before it becomes visible. Professional monitoring and protection programs, using either bait stations or liquid barrier treatments, are the established standard for Winchester properties.\n\nCarpenter ants in the older wood-frame homes of Winchester's historic neighborhoods are a warm-season concern. The Blue Ridge Mountains immediately east of the city and the Appalachian terrain to the west sustain large forested source populations that extend foraging into residential areas each spring. The older homes near the walking districts, the Old Town streetscape, and the residential neighborhoods adjacent to the historic core see higher carpenter ant pressure than newer construction on Winchester's outer edges.",
+      },
+    ],
+    prevention: [
+      "Seal all exterior gaps around window frames, utility penetrations, and eaves before mid-September to reduce stink bug entry into wall voids.",
+      "Maintain annual termite inspection and professional protection coverage on all Winchester structures with wood-frame construction.",
+      "Inspect wood around older windows, gutters, and roof-line assemblies each spring for moisture damage that attracts carpenter ants.",
+      "Seal foundation cracks and utility penetrations in September before house mice begin their fall surge in the Shenandoah Valley.",
+    ],
+    costNote:
+      "Winchester pest control programs typically include a free inspection covering stink bug entry points, termite risk assessment, and carpenter ant activity. Termite protection plans are quoted separately after inspection and are an annual investment appropriate for any older Winchester structure. Stink bug perimeter treatment is often offered as a fall add-on to a general pest program.",
+    faqs: [
+      {
+        question: "Why are stink bugs so bad in Winchester and the Shenandoah Valley?",
+        answer:
+          "The combination of the Shenandoah Valley's agricultural landscape and the regional climate creates ideal conditions for brown marmorated stink bugs. The apple orchards of the northern Shenandoah Valley, which surround Winchester and extend through Frederick County and into Clarke County, provide abundant summer feeding habitat. Stink bugs feed on fruit and a wide range of crops and ornamental plants, and the orchard landscape effectively sustains large regional populations. Virginia Cooperative Extension at Virginia Tech has confirmed this region as one of the highest stink bug pressure zones in the eastern United States. In fall, those populations move toward buildings, and Winchester homeowners near the orchard landscape see the results directly.",
+      },
+      {
+        question: "How do I stop stink bugs from getting into my Winchester home in fall?",
+        answer:
+          "Timing and thoroughness are both required. Stink bugs begin aggregating on building exteriors in Winchester in mid-September. Sealing all gaps around window frames, utility penetrations, soffit vents, eaves, and anywhere different building materials meet before mid-September significantly reduces the number that enter. Caulk and foam seal work well for small gaps. A professional perimeter spray applied to the exterior when stink bugs are actively aggregating in late September provides additional control. The spray does not eliminate all stink bugs but reduces the numbers that reach and enter the building surface. Once stink bugs are inside the wall void, treatment is less effective: maintaining sealed entry points and vacuuming visible bugs in living spaces is the ongoing management approach through winter.",
+      },
+      {
+        question: "Are termites a threat to Winchester homes?",
+        answer:
+          "Yes, and the threat is real and ongoing. Virginia Cooperative Extension documents the Shenandoah Valley and northern Virginia as an area of elevated subterranean termite pressure. Winchester's temperate, humid valley climate sustains termite colonies year-round, with active swarm seasons from March through May. The historic downtown includes structures 100 to 200 or more years old, and any structure of that age in this climate zone without current professional protection has had significant exposure. Annual professional termite inspection and a monitored protection program, either a bait station system or a liquid barrier treatment, is the appropriate standard for Winchester properties.",
+      },
+      {
+        question: "Are carpenter ants common in older Winchester neighborhoods?",
+        answer:
+          "Yes. Winchester's historic neighborhoods, particularly those adjacent to the walking district and the older residential streets near Old Town, have the combination of older wood-frame construction and proximity to the Blue Ridge and Appalachian forests that favors carpenter ant activity. The forests sustain large source populations, and the older homes near the historic core provide the moisture-compromised wood that carpenter ants require for nesting. Homes with wood around aging windows, wood siding in contact with soil, or mature trees near the roofline are the most exposed. Seeing large black ants indoors in spring warrants a professional inspection to locate the colony before structural damage progresses.",
+      },
+      {
+        question: "When do mice move inside in the Shenandoah Valley?",
+        answer:
+          "House mice in the Shenandoah Valley typically surge into buildings in October when temperatures drop in the valley. The valley's geography can create local cold air pooling at lower elevations, which can accelerate the timing of the fall surge slightly compared to surrounding elevated terrain. Winchester's older historic housing stock has more foundation gaps and utility penetrations than newer construction, making it more exposed to the October surge. Sealing identified entry points in September, before the temperature drops, is the most effective preparation. The valley's rural and semi-rural surroundings also sustain larger outdoor mouse populations than purely urban environments, which increases the pressure on buildings during fall.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Harrisonburg", slug: "harrisonburg" },
+      { name: "Fredericksburg", slug: "fredericksburg" },
+      { name: "Leesburg", slug: "leesburg" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in Winchester, VA | Stink Bugs, Termites & Carpenter Ants",
+    metaDescription:
+      "Winchester pest control for brown marmorated stink bugs, subterranean termites, carpenter ants, house mice and German cockroaches. Independent City Shenandoah Valley apple country specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "staunton",
+    name: "Staunton",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~25,000",
+    county: "Staunton City (Independent City)",
+    climate: "temperate",
+    climateDriver:
+      "Staunton is an independent city in Augusta County in the central Shenandoah Valley, near the Blue Ridge Mountains. The valley's temperate climate sustains pest species that require year-round warmth, while the surrounding agricultural and orchard landscape feeds brown marmorated stink bug populations that aggregate on buildings each fall. Virginia Cooperative Extension confirms stink bugs are well established throughout the Shenandoah Valley.",
+    topPests: [
+      "Brown Marmorated Stink Bugs",
+      "House Mice",
+      "Carpenter Ants",
+      "Subterranean Termites",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering indoors",
+        note: "Virginia Cooperative Extension confirms brown marmorated stink bugs are well established throughout the Shenandoah Valley and Appalachian ridge country. The agricultural and orchard landscape of Augusta County provides summer feeding habitat, and buildings throughout the central valley see fall aggregations as insects seek overwintering sites.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge in October and November",
+        note: "House mice surge into Staunton buildings in October when Shenandoah Valley temperatures drop. The historic Victorian-era homes in Staunton's downtown have more foundation entry points than newer construction, and the valley's rural surroundings sustain larger outdoor mouse populations than more urbanized environments.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October in the temperate valley climate",
+        note: "Staunton's historic downtown has Victorian-era wood-frame homes that are susceptible to carpenter ant damage. The Blue Ridge Mountains immediately east of the valley sustain large forested source populations, and the older construction in the historic district provides moisture-compromised wood for nesting.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Subterranean termites are active in the central Shenandoah Valley. Staunton's historic downtown includes Victorian-era structures that are 100 or more years old, and any such structure without current documented termite protection has had extensive exposure. Virginia Cooperative Extension confirms termite pressure across the region.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary indoor cockroach in Staunton's commercial settings and older multi-family housing. They are unaffected by valley winters and spread through shared building systems in older commercial properties.",
+      },
+    ],
+    localHook:
+      "Staunton's Victorian-era historic district and its position in the central Shenandoah Valley agricultural landscape create a specific pest environment. Stink bug aggregations in fall, termite risk in the older historic housing, and carpenter ant activity in the Victorian wood-frame homes are the three defining pest challenges in Staunton. The comparison with other fall invaders, and the factual distinction between stink bugs, mice, and other fall pests, helps Staunton homeowners prioritize their preparation.",
+    intro:
+      "Pest control in Staunton sits at the intersection of agricultural pest pressure and historic housing vulnerability. Virginia Cooperative Extension confirms stink bugs are well established throughout the Shenandoah Valley and Appalachian ridge country, and Staunton's position in the agricultural landscape of Augusta County means fall aggregations on buildings are a consistent seasonal event. The historic Victorian downtown carries real subterranean termite and carpenter ant risk that older wood-frame structures accumulate over decades. House mice surge in October, and German cockroaches are year-round in commercial settings.",
+    sections: [
+      {
+        heading: "Brown marmorated stink bugs versus other fall invaders in Staunton: a factual comparison",
+        body: "Staunton homeowners deal with multiple fall invaders, and understanding the differences between them helps prioritize control efforts. Brown marmorated stink bugs are the most numerous and the most disruptive by sheer volume. They arrive in September and October, aggregate on building exteriors in large numbers, and enter through any unsealed gap seeking overwintering sites in wall voids and attic spaces. They do not bite, sting, reproduce indoors, or damage structures. Their impact is nuisance: their numbers and the odor they release when handled or disturbed are the primary concerns. Virginia Cooperative Extension confirms they are well established throughout the Shenandoah Valley, and the agricultural landscape around Augusta County sustains the populations that hit Staunton each fall.\n\nBoxelder bugs are a smaller-scale version of the same pattern: aggregating on building exteriors in fall, entering through gaps, overwintering indoors, and causing nuisance without structural damage. They are significantly less numerous in Staunton than stink bugs.\n\nHouse mice are the fall invader that requires the most serious response. Unlike stink bugs and boxelder bugs, mice reproduce indoors, contaminate food storage, gnaw wiring and insulation, and carry disease risks. They surge in October when Shenandoah Valley temperatures drop and press into buildings urgently. Staunton's Victorian-era housing has more entry points than newer construction, and the rural surroundings of the valley sustain larger outdoor mouse populations than more urbanized environments. The comparison is important: stink bugs require exterior sealing and perimeter treatment; mice require sealing plus active trapping or baiting and professional monitoring to confirm population control.",
+      },
+      {
+        heading: "Termites and carpenter ants in Staunton's historic Victorian housing stock",
+        body: "Staunton's historic downtown is widely recognized as one of the best-preserved Victorian-era streetscapes in Virginia. The architecture is genuinely impressive. From a pest management perspective, Victorian-era wood-frame construction that is 100 or more years old in Virginia's temperate, humid climate carries accumulated termite and carpenter ant exposure that newer construction does not have.\n\nSubterranean termites are active across the central Shenandoah Valley. Virginia Cooperative Extension documents termite pressure throughout the region. A structure of 100-plus years in Staunton without current documented professional termite protection has had a century of exposure in a climate zone where subterranean termites are established. Annual inspection and a professional monitoring program, using bait stations or liquid barrier treatment, is the appropriate standard for any historic Staunton property. Termite damage is not always visible from the surface: a professional inspection with moisture meter and probing tools identifies activity that a visual inspection misses.\n\nCarpenter ants in Staunton's historic neighborhoods are a warm-season concern. The Blue Ridge Mountains east of the valley and the forested ridges on both sides of the valley sustain large carpenter ant source populations. The Victorian-era wood-frame homes, with their older window assemblies, wood siding, and accumulated moisture in the wall framing, are more attractive to nesting carpenter ants than newer construction. The architectural details of Victorian buildings, with their complex trim, multiple wood-to-wood joints, and sheltered eave assemblies, also provide more potential entry and nesting sites than simpler modern construction.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps around window frames, utility penetrations, and eaves before mid-September to reduce stink bug entry into wall voids.",
+      "Maintain annual termite inspection and professional protection on all historic Staunton structures: the exposure over decades of ownership without coverage is real.",
+      "Inspect Victorian-era wood framing around windows, eaves, and trim annually for moisture damage that attracts carpenter ants.",
+      "Seal foundation cracks and utility penetrations in September before house mice surge in the Shenandoah Valley in October.",
+    ],
+    costNote:
+      "Staunton pest control programs typically include a free inspection covering stink bug entry points, termite risk, and carpenter ant activity. Termite protection is quoted separately after inspection and is an annual investment that is well justified for historic Augusta County structures. Stink bug perimeter treatment is often available as a fall add-on to a general pest program.",
+    faqs: [
+      {
+        question: "How do stink bugs compare to other fall invaders in terms of the nuisance they cause?",
+        answer:
+          "Stink bugs are the most numerous and most disruptive fall invader in Staunton by a significant margin. Virginia Cooperative Extension confirms they are well established throughout the Shenandoah Valley, and the agricultural landscape around Augusta County produces large regional populations. The nuisance comes from their numbers and from the odor they produce when disturbed: a single stink bug is a minor annoyance, but several dozen emerging from a wall void or gathered on a window screen is a different experience entirely. Boxelder bugs aggregate in smaller numbers and produce less odor. House mice are far fewer in number but cause significantly more serious problems: they reproduce indoors, contaminate food storage, and gnaw through wiring and insulation. The control priorities are different for each: stink bugs and boxelder bugs require exterior sealing and perimeter spray; mice require sealing plus active population control and professional confirmation.",
+      },
+      {
+        question: "Are termites active in the central Shenandoah Valley?",
+        answer:
+          "Yes. Subterranean termites are established and active throughout the central Shenandoah Valley, including Staunton and the surrounding Augusta County area. Virginia Cooperative Extension confirms termite pressure across the region. The temperate valley climate and the humid conditions created by the surrounding forested mountains sustain year-round termite colony activity, with swarm season running from March through May. Staunton's historic downtown includes Victorian-era structures that have had a century or more of exposure in this climate. Any structure without current documented professional termite protection should begin with an inspection to assess current activity and establish a protection program.",
+      },
+      {
+        question: "Are carpenter ants a concern in older Victorian homes in Staunton?",
+        answer:
+          "Yes, more so than in newer construction. Victorian-era homes in Staunton's historic district have several characteristics that increase carpenter ant exposure. The older window assemblies, wood siding, and accumulated moisture in the wall framing of 100-plus-year-old buildings provide the moisture-compromised wood that carpenter ants require for nesting. The complex trim work and multiple wood-to-wood joints common in Victorian architecture offer more potential entry and nesting sites than simpler modern construction. The Blue Ridge Mountains east of the valley sustain large forested source populations. An annual spring inspection of wood around older windows, gutters, and roof-line assemblies is the appropriate standard for historic Staunton properties.",
+      },
+      {
+        question: "When do mice move inside in Augusta County?",
+        answer:
+          "House mice in Augusta County surge into buildings in October, when the Shenandoah Valley temperature drops and mice press urgently into heated structures. The valley's rural character means the surrounding landscape sustains larger outdoor mouse populations than more urbanized environments of similar size. Staunton's Victorian-era housing, with its older foundations and accumulated wear around utility penetrations and window assemblies, provides more entry points than newer construction. Sealing identified entry points in September is the appropriate preparation. The narrow prevention window, before the October surge, is important: acting in November after mice are established indoors requires both exclusion and active population control, which is more involved and more costly than prevention.",
+      },
+      {
+        question: "What is the best way to seal a historic Staunton home against fall pests?",
+        answer:
+          "Sealing a historic Staunton home requires attention to materials and methods appropriate for older construction. The priority gaps for both stink bugs and mice are the same: around window frames where the frame meets the exterior siding, at utility penetrations through the foundation and exterior walls, at soffit vents and eave gaps, and at any point where different building materials meet and have separated over time. For historic structures, low-expansion foam and paintable exterior caulk are appropriate for most gaps. Steel wool or copper mesh stuffed into gaps before caulking helps deter mice specifically, as they cannot chew through metal. For larger gaps in older masonry or wood, a licensed contractor may be needed to ensure the repair is appropriate for the building's historic character. The right timing is August through mid-September, before stink bugs begin aggregating and before the October mouse surge.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Harrisonburg", slug: "harrisonburg" },
+      { name: "Winchester", slug: "winchester" },
+      { name: "Roanoke", slug: "roanoke" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in Staunton, VA | Stink Bugs, Termites & Carpenter Ants",
+    metaDescription:
+      "Staunton pest control for brown marmorated stink bugs, subterranean termites, carpenter ants, house mice and German cockroaches. Independent City central Shenandoah Valley Blue Ridge specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
