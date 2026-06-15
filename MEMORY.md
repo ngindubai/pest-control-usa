@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-15)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-32 complete. T2 COMPLETE.
-- **City pages built:** 800 total (75 T1 + 300 T2 + 425 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-34 complete. T2 COMPLETE.
+- **City pages built:** 850 total (75 T1 + 300 T2 + 475 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 883 in the static export (home, services, 50+ states, 800 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=162, B=160, C=160, D=160, E=158 (800 total cities, all 19.75-20.25%, within 15-25% range).
-- **Cities built T3 chunks 31-32 (50):** Chunk 31/32 run 1 (41 cities): Hattiesburg MS (A), Biloxi MS (B), Tupelo MS (C), Southaven MS (D), Meridian MS (E), Olive Branch MS (A), Clinton MS (D), Dover DE (A), Newark DE (B), Middletown DE (C), Bismarck ND (A), Grand Forks ND (B), Minot ND (C), West Fargo ND (C), Mandan ND (E), Rapid City SD (D), Aberdeen SD (E), Huntington WV (D), Parkersburg WV (E), Morgantown WV (A), Wheeling WV (B), Nashua NH (C), Concord NH (D), Dover NH (C), Rochester NH (D), Lewiston ME (E), Bangor ME (A), South Portland ME (E), Cranston RI (B), Warwick RI (C), Pawtucket RI (D), East Providence RI (A), Woonsocket RI (B), Kenner LA (A), Monroe LA (B), New Iberia LA (C), Rock Springs WY (B), Gillette WY (C), Helena MT (D), Butte MT (E), Kalispell MT (A). Run 2 (9 cities): Spartanburg SC (E), Myrtle Beach SC (A), Sumter SC (B), Anderson SC (C), Aiken SC (D), Hilo HI (D), Kailua HI (E), South Burlington VT (A), Rutland VT (B).
-- **New state files added chunks 31-32:** none (all states already registered in index.ts).
-- **Next block:** Chunk 33, T3 continues, rotation at C.
+- **Total site pages:** 933 in the static export (home, services, 50+ states, 850 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=172, B=170, C=170, D=170, E=168 (850 total cities, all within 15-25% range).
+- **Cities built T3 chunks 33-34 (50):** KY: Elizabethtown (C), Hopkinsville (D), Frankfort (E), Richmond KY (A), Florence KY (B). MD: Annapolis (C), Rockville (D), Gaithersburg (E), Bowie (A), Hagerstown (B). NM: Santa Fe (C), Clovis (D), Hobbs (E), Alamogordo (A), Carlsbad (B). IA: West Des Moines (C), Dubuque (D), Bettendorf (E), Marion (A), Urbandale (B). NE: Fremont (C), Hastings (D), Norfolk NE (E), Columbus NE (A), Papillion (B). KS: Hutchinson (C), Garden City (D), Emporia (E), Leavenworth (A), Leawood (B). MN: Duluth (C), Apple Valley (D), Edina (E), Mankato (A), Moorhead (B). NY: Poughkeepsie (C), Middletown NY (D), Newburgh (E), Ithaca (A), Saratoga Springs (B). IN: Gary (C), Jeffersonville (D), Lawrence IN (E), Portage (A), Westfield IN (B). CT: Danbury (D), Norwalk CT (E), New Britain (A), West Hartford (B), Meriden (C).
+- **New state files added chunks 33-34:** none (all states already registered in index.ts).
+- **Next block:** Chunk 35, T3 continues, rotation at C.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

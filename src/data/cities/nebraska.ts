@@ -535,4 +535,534 @@ export const nebraskaCities: CityLocation[] = [
     metaDescription:
       "Kearney pest control for house mice, crickets, German cockroaches, boxelder bugs and earwigs. Buffalo County Platte River University of Nebraska Kearney area specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "fremont",
+    name: "Fremont",
+    state: "Nebraska",
+    stateSlug: "nebraska",
+    stateAbbr: "NE",
+    tier: "T3",
+    population: "26,000",
+    county: "Dodge County",
+    climate: "temperate",
+    climateDriver:
+      "Fremont sits in the Platte River valley of eastern Nebraska, about 30 miles northwest of Omaha. The continental climate brings cold winters and warm, humid summers, and the river valley plus the nearby Fremont Lakes hold the standing water that drives heavy seasonal mosquito pressure.",
+    topPests: ["House Mice", "Subterranean Termites", "Mosquitoes", "German Cockroaches", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "As Dodge County's surrounding cornfields are harvested each fall, displaced house mice move into Fremont homes seeking warm winter shelter.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "University of Nebraska-Lincoln Extension identifies eastern Nebraska, including Dodge County, as a region of meaningful subterranean termite risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Fremont Lakes State Recreation Area and the Platte River backwaters just south of town create extensive mosquito breeding habitat through the warm months.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Fremont's older downtown commercial buildings and multi-family housing sustain year-round German cockroach populations that breed entirely indoors.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Mature box elder and maple trees in Fremont's established neighborhoods support large boxelder bug aggregations on sunny walls each fall.",
+      },
+    ],
+    localHook:
+      "Fremont sits between the Platte River and the sand-pit lakes of Fremont Lakes State Recreation Area. That much standing water on two sides of town makes mosquito pressure here heavier than the dry Nebraska reputation would suggest.",
+    intro:
+      "Fremont's setting in the Platte River valley defines its pest pressure. Compare a typical summer here to a drier town further west, and the difference is the water: the Platte River backwaters and the sand-pit lakes at Fremont Lakes State Recreation Area breed mosquitoes in volume from May through September. Set against that, the cold-weather story is rodents. When Dodge County's cornfields are harvested, house mice press into town for winter shelter. University of Nebraska-Lincoln Extension flags eastern Nebraska, Dodge County included, for real subterranean termite risk, while boxelder bugs and German cockroaches round out the year. Weighing these pressures against your own property is the first step, and licensed treatment built around them is the reliable way to reduce your risk in Fremont.",
+    sections: [
+      {
+        heading: "Water on Two Sides: Fremont's Mosquito Pressure",
+        body: "People picture Nebraska as dry, and much of it is, but Fremont is the exception that proves the point. The town sits with the Platte River and its backwaters to the south and the chain of sand-pit lakes at Fremont Lakes State Recreation Area to the west. Compared with a drier community out on the High Plains, that standing water makes a clear difference in mosquito pressure. From May through September, breeding runs steadily in the slow river margins, the lake edges, and the low spots that hold rainwater around town. The biting is worst on still summer evenings and heaviest for homes near the river bottoms and the recreation area. The contrast with drier parts of the state is the point worth understanding: in Fremont, mosquito control is a genuine seasonal need, not an afterthought. Property-level steps like draining standing water and clearing gutters reduce backyard breeding, while a barrier treatment around the yard handles the mosquitoes drifting in from the larger water bodies that no homeowner can drain.",
+      },
+      {
+        heading: "Fall Rodents and Termite Risk in Dodge County",
+        body: "Once the summer water dries down, Fremont's pest concern shifts to two things that are easy to overlook: rodents in fall and termites year-round. Dodge County is farm country, and when the surrounding corn and soybean fields are harvested in fall, the house mice that lived among them lose cover and head for the nearest warm building. For homes on Fremont's edges, that often means a mouse problem starting in October. Set that against the termite picture, which is quieter but more costly when ignored. University of Nebraska-Lincoln Extension identifies eastern Nebraska, Dodge County included, as a region of real subterranean termite risk. Unlike mice, termites give little warning, working through soil-to-wood contact until structural damage appears. The practical comparison for a Fremont homeowner is simple: mice are an urgent, visible fall problem you fix with sealing and trapping, while termites are a slow, hidden risk best managed with periodic inspections and by keeping soil and wood apart at the foundation.",
+      },
+    ],
+    prevention: [
+      "Drain standing water and clear gutters to cut mosquito breeding near the Platte River and Fremont Lakes.",
+      "Seal foundation gaps and garage door edges in early fall before harvested fields send mice indoors.",
+      "Keep soil, mulch, and firewood away from wood siding to reduce subterranean termite access.",
+      "Treat sun-facing walls before boxelder bugs begin to mass in early fall.",
+    ],
+    costNote:
+      "Pest control in Fremont typically runs $150 to $350 for a standard residential treatment. Termite inspections cost $75 to $150, and many homeowners add summer mosquito service given the area's water bodies, with pricing based on property size.",
+    faqs: [
+      {
+        question: "Why are mosquitoes worse in Fremont than other Nebraska towns?",
+        answer:
+          "Fremont sits between the Platte River backwaters to the south and the sand-pit lakes of Fremont Lakes State Recreation Area to the west. That standing water on two sides breeds mosquitoes in volume from May through September, well above what drier High Plains towns see. Reducing standing water and a summer barrier treatment around the yard both help lower the biting pressure.",
+      },
+      {
+        question: "When do mice become a problem in Fremont?",
+        answer:
+          "The push starts in fall when Dodge County's surrounding cornfields are harvested and displaced house mice head for warm shelter. Homes on Fremont's edges often see problems begin in October. Sealing foundation gaps and garage door edges in early fall, paired with interior trapping, is the most effective way to keep them out.",
+      },
+      {
+        question: "Is termite risk real in eastern Nebraska?",
+        answer:
+          "Yes. University of Nebraska-Lincoln Extension identifies eastern Nebraska, including Dodge County, as a region of meaningful subterranean termite risk. Termites work out of sight through soil-to-wood contact, so damage can be advanced before it shows. Periodic inspections and keeping soil and wood separated at the foundation are the practical defenses.",
+      },
+      {
+        question: "What is the difference between treating mice and treating termites?",
+        answer:
+          "Mice are an urgent, visible fall problem solved with sealing entry points and trapping. Termites are a slow, hidden risk that calls for periodic inspections and soil-to-wood separation, since they give little warning before structural damage appears. The two need different timing and different approaches, which is why a property assessment helps you prioritize.",
+      },
+      {
+        question: "Do I need year-round service in Fremont?",
+        answer:
+          "It depends on your pressure. Mice and German cockroaches are year-round concerns, while mosquitoes and boxelder bugs are seasonal. Many Fremont homes do well with a general plan that adds summer mosquito service. A free assessment identifies what your specific property needs.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Omaha", slug: "omaha" },
+      { name: "Lincoln", slug: "lincoln" },
+      { name: "Grand Island", slug: "grand-island" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Fremont, NE | Mice, Termites & Mosquitoes",
+    metaDescription:
+      "Fremont pest control for mice, termites, mosquitoes, cockroaches and boxelder bugs. Dodge County specialists near the Platte River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hastings",
+    name: "Hastings",
+    state: "Nebraska",
+    stateSlug: "nebraska",
+    stateAbbr: "NE",
+    tier: "T3",
+    population: "25,000",
+    county: "Adams County",
+    climate: "temperate",
+    climateDriver:
+      "Hastings sits in south-central Nebraska within the Republican River watershed. The continental climate brings cold winters and hot summers, with the surrounding farmland and older downtown influencing rodent and structural pest pressure more than standing water.",
+    topPests: ["House Mice", "German Cockroaches", "Subterranean Termites", "Boxelder Bugs", "Wasps and Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "Adams County's surrounding grain farms send house mice into Hastings homes each fall as fields are harvested and cold weather sets in.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Hastings's older downtown commercial buildings, some dating to the city's railroad-era growth, harbor persistent German cockroach populations that breed entirely indoors.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "University of Nebraska-Lincoln Extension identifies subterranean termite risk in south-central Nebraska, including Adams County where Hastings sits.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Mature box elder and maple trees in Hastings's established neighborhoods drive fall boxelder bug aggregations on sun-facing walls.",
+      },
+      {
+        name: "Wasps and Yellow Jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Late summer through early fall",
+        note: "Yellow jacket colonies in Hastings reach their largest size in late summer, nesting in wall voids, ground cavities, and the eaves of older homes.",
+      },
+    ],
+    localHook:
+      "Hastings grew up as a railroad town, and its older downtown still carries the brick commercial buildings from that era. Those aging structures, with their hidden voids and settling cracks, are exactly where German cockroaches and mice find lasting harborage.",
+    intro:
+      "Pest control in Hastings starts with two things: the farmland that surrounds it and the older downtown at its center. When the grain fields of Adams County are harvested each fall, house mice press into town for shelter, and Hastings's aging brick commercial buildings give both mice and German cockroaches the kind of hidden harborage that lasts. University of Nebraska-Lincoln Extension flags subterranean termite risk across south-central Nebraska, Adams County included. Late summer brings yellow jacket colonies to full size, and fall sends boxelder bugs onto sunny walls. For homeowners and business owners in Hastings, the questions that come up most are about these specific pests, and the answers below address them directly. Licensed treatment is the reliable way to reduce your risk.",
+    sections: [
+      {
+        heading: "Why Hastings's Older Buildings Hold Pests",
+        body: "A question that comes up often in Hastings is why some buildings, especially in the older downtown, never seem to fully clear of cockroaches or mice. The answer is in the construction. Hastings grew during the railroad era, and many of its commercial buildings date to that period, built with brick, plaster, and the kind of hidden voids that decades of settling tend to open up. German cockroaches thrive in exactly these conditions. They breed entirely indoors in warm, humid spots near kitchens and plumbing, and the shared walls and chases of older commercial blocks let them move between units. House mice exploit the same gaps, slipping through settling cracks and around old utility penetrations. For these structures, a single treatment rarely holds. What works is a planned cycle of treatment that addresses the harborage built into the building, often coordinated across adjacent units in a shared block. For homeowners in Hastings's older residential neighborhoods, the same principle applies on a smaller scale: sealing the gaps that age has opened is as important as any spray.",
+      },
+      {
+        heading: "Fall Mice and Late-Summer Yellow Jackets in Hastings",
+        body: "Two seasonal questions dominate calls in Hastings. The first is about mice in fall. Adams County is grain country, and when the surrounding fields are harvested, the house mice that lived in them lose their cover and head for warm buildings, often starting in October. Homes on the edges of town feel it first. The fix is the familiar one: seal foundation gaps, vents, and garage door edges before the cold arrives, and pair that with interior trapping. The second question, earlier in the year, is about wasps. Yellow jacket colonies in Hastings grow through the summer and reach their largest, most aggressive size in late summer and early fall, just as people are spending time outdoors. They nest in wall voids, in ground cavities, and in the eaves of older homes, and a colony tucked inside a wall can number in the thousands. Disturbing a hidden nest is how most stings happen. A nest in a structure or near a doorway is worth treating professionally rather than approaching with a store-bought can.",
+      },
+    ],
+    prevention: [
+      "Seal settling cracks and old utility penetrations in Hastings's older homes and downtown buildings to limit mice and cockroaches.",
+      "Seal foundation gaps and garage door edges in early fall before harvested grain fields send mice indoors.",
+      "Watch eaves, wall voids, and ground cavities for yellow jacket activity through late summer.",
+      "Keep soil, mulch, and firewood away from wood siding to reduce subterranean termite access.",
+    ],
+    costNote:
+      "Pest control in Hastings typically runs $150 to $350 for a standard residential treatment, with older downtown commercial buildings often needing planned treatment cycles. Termite inspections cost $75 to $150, and wasp nest removal is priced by nest location and size.",
+    faqs: [
+      {
+        question: "Why do cockroaches keep coming back in older Hastings buildings?",
+        answer:
+          "Hastings grew during the railroad era, and many downtown commercial buildings from that period have hidden voids and settling cracks that give German cockroaches lasting harborage. They breed entirely indoors and move between units through shared walls. A single treatment rarely holds in these structures. A planned treatment cycle, often coordinated across adjacent units, is what works.",
+      },
+      {
+        question: "When do mice get into homes in Hastings?",
+        answer:
+          "The push starts in fall, around October, when Adams County's surrounding grain fields are harvested and displaced house mice head for warm shelter. Homes on the edges of Hastings feel it first. Sealing foundation gaps, vents, and garage door edges before the cold, paired with interior trapping, is the most effective way to keep them out.",
+      },
+      {
+        question: "How dangerous are yellow jackets in late summer?",
+        answer:
+          "Yellow jacket colonies reach their largest and most aggressive size in late summer and early fall, just when people are outdoors. They nest in wall voids, ground cavities, and the eaves of older homes, and a hidden nest can hold thousands of insects. Most stings happen when a nest is disturbed. A nest in a structure or near a doorway is worth professional removal.",
+      },
+      {
+        question: "Are termites a risk in south-central Nebraska?",
+        answer:
+          "Yes. University of Nebraska-Lincoln Extension identifies subterranean termite risk across south-central Nebraska, including Adams County where Hastings sits. Termites work out of sight through soil-to-wood contact, so damage can be advanced before it shows. Periodic inspections and keeping soil and wood separated at the foundation are the practical defenses.",
+      },
+      {
+        question: "Should I treat for boxelder bugs in fall?",
+        answer:
+          "If you have mature box elder or maple trees nearby, yes. These insects gather on sun-facing walls in early fall before pushing into wall voids to overwinter. Sealing exterior gaps and treating walls before they mass is far more effective than dealing with them once they are inside, where they remain until spring.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Grand Island", slug: "grand-island" },
+      { name: "Kearney", slug: "kearney" },
+      { name: "Lincoln", slug: "lincoln" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Hastings, NE | Mice, Cockroaches & Termites",
+    metaDescription:
+      "Hastings pest control for mice, cockroaches, termites, boxelder bugs and yellow jackets. Adams County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "norfolk-ne",
+    name: "Norfolk",
+    state: "Nebraska",
+    stateSlug: "nebraska",
+    stateAbbr: "NE",
+    tier: "T3",
+    population: "24,000",
+    county: "Madison County",
+    climate: "temperate",
+    climateDriver:
+      "Norfolk sits along the Elkhorn River in northeastern Nebraska. The continental climate delivers cold winters and warm, humid summers, and the Elkhorn watershed plus the surrounding farmland drive both summer mosquito activity and heavy fall rodent pressure.",
+    topPests: ["House Mice", "Subterranean Termites", "Mosquitoes", "Boxelder Bugs", "Wasps and Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "As Madison County's surrounding grain fields are harvested each fall, displaced house mice move into Norfolk homes for winter shelter.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "University of Nebraska-Lincoln Extension maps subterranean termite risk into northeastern Nebraska, including Madison County where Norfolk sits.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Elkhorn River and its tributaries running through Norfolk hold standing water that breeds mosquitoes from late spring through early fall.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Mature box elder and maple trees in Norfolk's established neighborhoods support large fall boxelder bug aggregations on sunny walls.",
+      },
+      {
+        name: "Wasps and Yellow Jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Late summer through early fall",
+        note: "Yellow jacket colonies around Norfolk reach peak size in late summer, nesting in eaves, wall voids, and ground cavities near homes.",
+      },
+    ],
+    localHook:
+      "The Elkhorn River runs right through Norfolk, and the agricultural land that surrounds town sets up a clear two-season pattern: mosquitoes from the river in summer, then a wave of mice from the harvested fields each fall.",
+    intro:
+      "Norfolk pest profile, northeastern Nebraska. Two drivers: the Elkhorn River and the surrounding farmland. River and tributaries breed mosquitoes May through September. Fall harvest in Madison County pushes house mice into homes. UNL Extension maps subterranean termite risk into northeastern Nebraska, Madison County included. Boxelder bugs swarm sunny walls in fall; yellow jacket colonies peak in late summer. The pattern is seasonal and predictable. Licensed treatment built around it reduces your risk.",
+    sections: [
+      {
+        heading: "The Elkhorn River and Norfolk's Summer Mosquitoes",
+        body: "The Elkhorn River and its tributaries cut through Norfolk, and they set the summer pest agenda. From late spring through early fall, the slow river margins, the backwaters, and the low spots that hold rainwater around town all become mosquito breeding habitat. The biting runs heaviest on still summer evenings and presses hardest on homes near the river corridor and the wetter sections of the surrounding bottomland. Mosquitoes are more than a nuisance, since they can carry disease, so reducing their numbers is worth the effort. The most effective control combines two layers. The first is property-level work: drain anything that holds water, keep gutters clear, refresh birdbaths and pet bowls often, and grade low spots that pond after rain. The second is a barrier treatment around the yard, which reaches the resting spots where adult mosquitoes shelter during the day and knocks back the population drifting in from the river itself. For Norfolk homes near the Elkhorn, that combination is what makes summer evenings outdoors workable again.",
+      },
+      {
+        heading: "Fall Harvest, Mice, and Other Invaders in Norfolk",
+        body: "Madison County is farm country, and the fall harvest reshapes Norfolk's pest picture every year. When the surrounding corn and soybean fields are cut, the house mice that lived among them lose both food and cover and move toward the nearest warm building. For Norfolk homes, especially those on the edges of town near open ground, that means a rodent problem that typically starts in October and runs through winter. Mice slip through gaps as small as a dime, so sealing foundation cracks, vents, pipe penetrations, and garage door edges before the cold arrives is the most effective step, paired with interior trapping. Fall brings two more invaders. Boxelder bugs gather on warm, sun-facing walls before pushing into wall voids to overwinter, drawn by the mature box elder and maple trees in Norfolk's older neighborhoods. And yellow jacket colonies, which peaked in late summer, can remain active into early fall near eaves and ground nests. Sealing entry points and treating exterior walls in early fall handles the bugs, while an active wasp nest near the house is best left to professional removal.",
+      },
+    ],
+    prevention: [
+      "Drain standing water, clear gutters, and grade low spots to cut mosquito breeding near the Elkhorn River.",
+      "Seal foundation gaps, vents, and garage door edges in early fall before harvested fields send mice indoors.",
+      "Treat sun-facing walls before boxelder bugs begin to mass in early fall.",
+      "Keep soil, mulch, and firewood away from wood siding to reduce subterranean termite access.",
+    ],
+    costNote:
+      "Pest control in Norfolk typically runs $150 to $350 for a standard residential treatment. Termite inspections cost $75 to $150, and many homeowners add summer mosquito service given the Elkhorn River, with pricing based on property size.",
+    faqs: [
+      {
+        question: "How bad are mosquitoes near the Elkhorn River in Norfolk?",
+        answer:
+          "They can be heavy from late spring through early fall, worst on still evenings. The Elkhorn River, its tributaries, and the surrounding bottomland hold standing water that breeds mosquitoes through the warm months. Homes near the river corridor feel it most. Reducing standing water on your property and a barrier treatment around the yard both help lower the biting pressure.",
+      },
+      {
+        question: "When do mice start getting into Norfolk homes?",
+        answer:
+          "The push starts in fall, around October, when Madison County's surrounding grain fields are harvested and displaced house mice head for warm shelter. Homes on the edges of Norfolk near open ground feel it first. Sealing foundation gaps, vents, and garage door edges before the cold, paired with interior trapping, is the most effective prevention.",
+      },
+      {
+        question: "Are termites a concern in northeastern Nebraska?",
+        answer:
+          "Yes. University of Nebraska-Lincoln Extension maps subterranean termite risk into northeastern Nebraska, including Madison County. Termites work out of sight through soil-to-wood contact, so damage can be advanced before it shows. Periodic inspections and keeping soil and wood separated at the foundation are the practical defenses.",
+      },
+      {
+        question: "What should I do about a wasp nest on my house?",
+        answer:
+          "Yellow jacket colonies reach peak size in late summer and can stay active into early fall, nesting in eaves, wall voids, and ground cavities. A hidden nest can hold thousands of insects, and most stings happen when one is disturbed. A nest in a structure or near a doorway is worth professional removal rather than a store-bought spray.",
+      },
+      {
+        question: "Do I need pest service year-round in Norfolk?",
+        answer:
+          "It depends on your pressure. Mice are a fall and winter concern, mosquitoes and wasps are warm-season problems, and termites are a year-round risk. Many Norfolk homes do well with a general plan that adds summer mosquito service. A free assessment identifies what your specific property needs.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus-ne" },
+      { name: "Grand Island", slug: "grand-island" },
+      { name: "Fremont", slug: "fremont" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Norfolk, NE | Mice, Termites & Mosquitoes",
+    metaDescription:
+      "Norfolk pest control for mice, termites, mosquitoes, boxelder bugs and wasps. Madison County specialists near the Elkhorn River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "columbus-ne",
+    name: "Columbus",
+    state: "Nebraska",
+    stateSlug: "nebraska",
+    stateAbbr: "NE",
+    tier: "T3",
+    population: "23,000",
+    county: "Platte County",
+    climate: "temperate",
+    climateDriver:
+      "Columbus sits at the confluence of the Loup and Platte Rivers in central Nebraska. The continental climate brings cold winters and warm, humid summers, and the meeting of two rivers creates extensive wetland and floodplain habitat that drives heavy mosquito and wildlife pressure.",
+    topPests: ["House Mice", "Subterranean Termites", "Mosquitoes", "Boxelder Bugs", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "Platte County's surrounding cropland sends house mice into Columbus homes each fall as fields are harvested and temperatures drop.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "University of Nebraska-Lincoln Extension identifies subterranean termite risk through central Nebraska, including Platte County where Columbus sits.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The confluence of the Loup and Platte Rivers at Columbus creates extensive wetland and backwater habitat, producing heavy mosquito breeding through summer.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Mature box elder and maple trees along Columbus's river corridors support large fall boxelder bug aggregations on sun-facing walls.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Columbus's older commercial buildings and multi-family housing sustain year-round German cockroach populations that breed entirely indoors.",
+      },
+    ],
+    localHook:
+      "Columbus sits where the Loup River meets the Platte, and that confluence creates more wetland and floodplain than almost any town its size in central Nebraska. That standing water drives the mosquitoes, and the wooded river corridors bring raccoons and skunks to the city's edge.",
+    intro:
+      "Here is the situation in Columbus. The city sits at the confluence of the Loup and Platte Rivers, and that meeting of two waterways creates wetland and backwater habitat that breeds mosquitoes in volume from May through September. The wooded river corridors also bring wildlife pressure to properties on the edge of town. When the cropland around Platte County is harvested each fall, house mice press into homes for winter. University of Nebraska-Lincoln Extension flags subterranean termite risk through central Nebraska, Columbus included, and German cockroaches hold steady year-round in older buildings. Licensed treatment built around the river corridors and the seasonal calendar is the reliable way to reduce your risk.",
+    sections: [
+      {
+        heading: "Two Rivers, Mosquitoes, and Wildlife at the Edge",
+        body: "The thing to understand about Columbus is the water. The Loup River joins the Platte right at the city, and that confluence spreads out into more wetland, backwater, and floodplain than most central Nebraska towns of this size ever deal with. The direct result is mosquitoes. From May through September, the slow river margins and the low, wet ground breed them in volume, and the biting is heaviest on still evenings for homes near the river corridors. The same wooded bottomland that holds the water also holds wildlife. Raccoons and skunks move along the river corridors and reach the edges of Columbus neighborhoods, where they find shelter under decks, in sheds, and sometimes in attics or crawl spaces. For both problems, the approach differs. For mosquitoes, drain standing water on your property and add a barrier treatment for the rest. For wildlife, the work is exclusion: seal off the spaces under decks and sheds, cap chimneys, and close foundation gaps before an animal moves in, since removing an established animal is harder than keeping one out.",
+      },
+      {
+        heading: "Fall Mice and Year-Round Pests in Columbus",
+        body: "Once the rivers settle down in fall, the pest concern in Columbus shifts indoors. Platte County is heavy cropland, and when the surrounding fields are harvested, the house mice that lived in them move toward warm buildings. For Columbus homes, that usually means a rodent problem starting around October, worst on the edges of town near open ground. The plan for mice is straightforward: seal foundation gaps, vents, pipe penetrations, and garage door edges before the cold, then back that up with interior trapping. Two other pests run on their own schedules. German cockroaches are a year-round problem in Columbus's older commercial buildings and multi-family housing, breeding entirely indoors near kitchens and plumbing and needing a planned treatment cycle to hold. And every fall, boxelder bugs from the mature trees along the river corridors gather on sun-facing walls before pushing inside to overwinter. The fix there is to seal exterior gaps and treat the walls before they mass, since once they are settled in the wall voids, they stay until spring.",
+      },
+    ],
+    prevention: [
+      "Drain standing water and add a yard barrier treatment to cut mosquito breeding near the Loup and Platte confluence.",
+      "Seal under decks and sheds, cap chimneys, and close foundation gaps to keep raccoons and skunks out.",
+      "Seal foundation gaps, vents, and garage door edges in early fall before harvested fields send mice indoors.",
+      "Treat sun-facing walls before boxelder bugs begin to mass in early fall.",
+    ],
+    costNote:
+      "Pest control in Columbus typically runs $150 to $350 for a standard residential treatment. Termite inspections cost $75 to $150, while wildlife exclusion and mosquito service are priced separately based on property size and the work involved.",
+    faqs: [
+      {
+        question: "Why are mosquitoes so heavy in Columbus?",
+        answer:
+          "Columbus sits at the confluence of the Loup and Platte Rivers, which creates more wetland and backwater habitat than most central Nebraska towns its size. That standing water breeds mosquitoes in volume from May through September, worst on still evenings near the river corridors. Reducing standing water on your property and a barrier treatment around the yard both help lower the biting pressure.",
+      },
+      {
+        question: "Do raccoons and skunks come into Columbus neighborhoods?",
+        answer:
+          "Yes. The wooded river corridors at the Loup and Platte confluence bring raccoons and skunks to the edges of Columbus, where they shelter under decks, in sheds, and sometimes in attics or crawl spaces. Exclusion is the key: sealing those spaces and capping entry points before an animal moves in is far easier than removing an established one.",
+      },
+      {
+        question: "When do mice get into homes in Columbus?",
+        answer:
+          "The push starts in fall, around October, when Platte County's surrounding cropland is harvested and displaced house mice head for warm shelter. Homes on the edges of town near open ground feel it first. Sealing foundation gaps, vents, and garage door edges before the cold, paired with interior trapping, is the most effective prevention.",
+      },
+      {
+        question: "Are termites a risk in central Nebraska?",
+        answer:
+          "Yes. University of Nebraska-Lincoln Extension identifies subterranean termite risk through central Nebraska, including Platte County. Termites work out of sight through soil-to-wood contact, so damage can be advanced before it shows. Periodic inspections and keeping soil and wood separated at the foundation are the practical defenses.",
+      },
+      {
+        question: "Why do cockroaches keep returning in older Columbus buildings?",
+        answer:
+          "German cockroaches breed entirely indoors in warm, humid spots near kitchens and plumbing, and the hidden voids in Columbus's older commercial and multi-family buildings give them lasting harborage. They move between units through shared walls, so a single treatment rarely holds. A planned treatment cycle, often across adjacent units, is what works.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Fremont", slug: "fremont" },
+      { name: "Norfolk", slug: "norfolk-ne" },
+      { name: "Grand Island", slug: "grand-island" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Columbus, NE | Mice, Termites & Mosquitoes",
+    metaDescription:
+      "Columbus pest control for mice, termites, mosquitoes, boxelder bugs and cockroaches. Platte County specialists at the Loup and Platte confluence. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "papillion",
+    name: "Papillion",
+    state: "Nebraska",
+    stateSlug: "nebraska",
+    stateAbbr: "NE",
+    tier: "T3",
+    population: "25,000",
+    county: "Sarpy County",
+    climate: "temperate",
+    climateDriver:
+      "Papillion sits in the Papillion Creek watershed of the Omaha metro's southern edge, in fast-growing Sarpy County. The continental climate brings cold winters and warm, humid summers, and the creek plus the area's many retention ponds hold the standing water that drives strong mosquito pressure.",
+    topPests: ["Subterranean Termites", "House Mice", "Mosquitoes", "Boxelder Bugs", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "University of Nebraska-Lincoln Extension places eastern Nebraska, including Sarpy County, in a subterranean termite risk zone, and Papillion's rapid new construction near wooded creek corridors raises exposure.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "Papillion's mix of new subdivisions and surrounding open ground gives house mice ready access to homes as temperatures drop each fall.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Papillion Creek and the many stormwater retention ponds throughout the city's subdivisions create abundant mosquito breeding habitat through summer.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Box elder and maple trees along Papillion Creek and in established neighborhoods drive fall boxelder bug aggregations on sun-facing walls.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Papillion's growing commercial corridors and multi-family housing sustain year-round German cockroach populations that breed entirely indoors.",
+      },
+    ],
+    localHook:
+      "Papillion has grown fast, and all that new development came with stormwater retention ponds in nearly every subdivision. Add Papillion Creek itself, and you have standing water tucked into neighborhoods all over town, which is exactly what mosquitoes need.",
+    intro:
+      "If you live in Papillion, you have watched the city grow, and that growth shapes the pests you deal with. Nearly every new subdivision came with a stormwater retention pond, and together with Papillion Creek, that means standing water scattered through neighborhoods all over town. Mosquitoes take full advantage from May through September. The new construction has another effect: homes going up near the wooded creek corridors land on soil where University of Nebraska-Lincoln Extension flags real termite risk for eastern Nebraska. Fall sends mice indoors and boxelder bugs onto sunny walls, while cockroaches hold steady in commercial buildings. Licensed treatment built around Papillion's creek, ponds, and new-build patterns is the reliable way to reduce your risk.",
+    sections: [
+      {
+        heading: "Retention Ponds, the Creek, and Papillion's Mosquitoes",
+        body: "Anyone who has spent a summer evening in Papillion knows the mosquitoes can be relentless, and there is a clear reason rooted in how the city grew. As subdivision after subdivision went in, each one came with stormwater retention ponds to handle runoff, and those ponds dot neighborhoods across town. Add Papillion Creek winding through the city, and you end up with standing water close to homes almost everywhere you look. From May through September, all of that water breeds mosquitoes, and the biting is heaviest on still evenings and for homes backing onto a pond or the creek corridor. You cannot drain a retention pond, but you can manage your own property hard. Tip out anything that holds water, keep gutters clear, refresh birdbaths often, and watch for low spots that pond after rain. For the mosquitoes coming off the ponds and creek that you cannot control, a barrier treatment around the yard knocks back the population through the season. In a city this full of water features, that combination is usually what it takes to reclaim a backyard in July.",
+      },
+      {
+        heading: "New Construction and Termite Risk in Papillion",
+        body: "Papillion's rapid growth brings a less obvious pest concern: termites in new homes. It runs counter to what many homeowners expect, since people tend to assume a brand-new house is safe. But University of Nebraska-Lincoln Extension places eastern Nebraska, Sarpy County included, in a subterranean termite risk zone, and new construction near the wooded Papillion Creek corridors can sit right where colonies are already established in the soil. Disturbed construction soil, buried wood scraps and form boards, and fresh framing all give foraging termites a path toward a new home. Termites are quiet workers, traveling through soil-to-wood contact and building mud tubes along foundations, and damage can progress for a long time before it becomes visible inside. For Papillion homeowners in newer subdivisions, the practical steps are keeping soil, mulch, and any wood debris away from the foundation, fixing grading so water drains away from the house, and scheduling periodic inspections. A baseline termite inspection on a newer home near the creek is a sensible move, not an overreaction.",
+      },
+    ],
+    prevention: [
+      "Tip out standing water and clear gutters to cut mosquito breeding near retention ponds and Papillion Creek.",
+      "Keep soil, mulch, and construction wood debris away from foundations, especially on new builds near the creek.",
+      "Fix grading so water drains away from the house to reduce subterranean termite conditions.",
+      "Seal foundation gaps and garage door edges in early fall before mice press indoors for winter.",
+    ],
+    costNote:
+      "Pest control in Papillion typically runs $150 to $350 for a standard residential treatment. Termite inspections, worth scheduling even on newer homes near the creek, cost $75 to $150, and many homeowners add summer mosquito service given the retention ponds.",
+    faqs: [
+      {
+        question: "Why are mosquitoes so bad in Papillion subdivisions?",
+        answer:
+          "As Papillion grew, nearly every subdivision added a stormwater retention pond, and combined with Papillion Creek, that leaves standing water close to homes across town. From May through September, all that water breeds mosquitoes, worst on still evenings and for homes backing onto a pond or the creek. Managing your own property and a barrier treatment around the yard both help lower the biting pressure.",
+      },
+      {
+        question: "Can a brand-new home in Papillion really have termites?",
+        answer:
+          "Yes, which surprises many homeowners. University of Nebraska-Lincoln Extension places Sarpy County in a subterranean termite risk zone, and new construction near the wooded Papillion Creek corridors can sit on soil where colonies already exist. Disturbed soil and buried wood debris give termites a path in. A baseline inspection on a newer home near the creek is a sensible step.",
+      },
+      {
+        question: "When do mice get into Papillion homes?",
+        answer:
+          "The push starts in fall as temperatures drop and mice look for warm shelter, and Papillion's mix of new subdivisions and surrounding open ground gives them ready access. Sealing foundation gaps, vents, and garage door edges in early fall, paired with interior trapping, is the most effective way to keep them out for the winter.",
+      },
+      {
+        question: "How do I keep boxelder bugs out in fall?",
+        answer:
+          "Seal gaps around windows, siding, and utility lines, then treat sun-facing exterior walls before the bugs begin to mass in early fall. The box elder and maple trees along Papillion Creek and in older neighborhoods drive these aggregations. Once they push into wall voids to overwinter, they are difficult to remove until spring.",
+      },
+      {
+        question: "Do I need year-round pest service?",
+        answer:
+          "It depends on your pressure. Mice and German cockroaches are year-round concerns, while mosquitoes and boxelder bugs are seasonal. Many Papillion homes do well with a general plan that adds summer mosquito service given all the retention ponds. A free assessment identifies what your specific property needs.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Bellevue", slug: "bellevue" },
+      { name: "Omaha", slug: "omaha" },
+      { name: "Lincoln", slug: "lincoln" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Papillion, NE | Termites, Mice & Mosquitoes",
+    metaDescription:
+      "Papillion pest control for termites, mice, mosquitoes, boxelder bugs and cockroaches. Sarpy County specialists near Papillion Creek. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

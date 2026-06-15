@@ -969,4 +969,534 @@ export const iowaCities: CityLocation[] = [
     metaDescription:
       "Ames pest control for bed bugs, German cockroaches, house mice, boxelder bugs and carpenter ants. Story County Iowa State University area specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "west-des-moines",
+    name: "West Des Moines",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "71,000",
+    county: "Polk and Dallas Counties",
+    climate: "temperate",
+    climateDriver:
+      "Iowa's continental climate brings cold winters and hot, humid summers to West Des Moines. The Raccoon River and Jordan Creek floodplains add localized moisture that elevates pest pressure across the western suburbs.",
+    topPests: ["Subterranean Termites", "House Mice", "Mosquitoes", "German Cockroaches", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "ISU Extension documents subterranean termite pressure across central Iowa, including Polk and Dallas Counties where West Des Moines sits.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "West Des Moines's mix of retail corridors and residential neighborhoods creates year-round harborage opportunities for house mice moving between commercial and suburban zones.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through early fall",
+        note: "The Raccoon River and Jordan Creek floodplains create significant standing water and mosquito breeding habitat through the western suburbs of the Des Moines metro.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "West Des Moines's dense restaurant and retail corridor along I-235 and Jordan Creek Town Center supports persistent German cockroach populations in commercial buildings.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Iowa State University Extension lists boxelder bugs among the top fall invaders statewide, and the mature box elder trees in West Des Moines neighborhoods drive heavy fall invasions.",
+      },
+    ],
+    localHook:
+      "The Raccoon River's floodplain runs directly through West Des Moines, and when summer rains raise the water table, mosquito populations along the Jordan Creek corridor can spike within days.",
+    intro:
+      "West Des Moines sits at the intersection of rapid suburban growth and two river corridors that keep pest pressure high year-round. Subterranean termites, documented by Iowa State University Extension as active across central Iowa, are a genuine concern in both older neighborhoods and new construction near Raccoon River wetlands. Mosquitoes breed along the Raccoon River and Jordan Creek from late May through September. Fall brings boxelder bug invasions as they congregate on south-facing walls before seeking winter shelter indoors. Mice move from cornfields into suburban homes when temperatures drop. Licensed pest control, backed by local knowledge of the river corridors and seasonal patterns, is the most reliable way to reduce your risk.",
+    sections: [
+      {
+        heading: "What the River Corridors Mean for Your Home",
+        body: "Two waterways shape pest risk in West Des Moines: the Raccoon River along the southern edge and Jordan Creek cutting through the city's commercial core. Both carry floodplains that hold standing water for days after a summer storm, and that water becomes mosquito habitat fast. Homes in neighborhoods like Glen Oaks and the older sections near Valley Junction sit close enough to feel it, with peak biting pressure from late May through September. The same moisture that feeds mosquitoes also helps subterranean termites. These insects need contact with damp soil, and the high water table near the river corridors keeps soil moisture elevated. Iowa State University Extension confirms central Iowa, including Polk and Dallas Counties, carries real termite risk. New construction on former farmland west toward Waukee is not exempt, since disturbed soil and fresh wood framing can attract foraging colonies. A licensed inspection that accounts for your distance from these corridors gives you an honest read on what your specific lot faces.",
+      },
+      {
+        heading: "Boxelder Bugs and Fall Invaders in West Des Moines",
+        body: "When the first cool nights arrive in late September, West Des Moines homeowners start finding boxelder bugs clustered on south-facing and west-facing walls. The city's many mature box elder, maple, and ash trees give these insects their food source and breeding sites, and the warm afternoon sun on light-colored siding draws them in by the hundreds. They do not bite or damage the home, but they push into wall voids and window frames to overwinter, then reappear indoors on warm winter days. Iowa State University Extension ranks boxelder bugs among the top fall invaders across the state. Fall is also when house mice make their move. As harvest clears the cornfields at the metro's western edge, rodents look for warm shelter, and the gaps around utility lines and foundation vents in suburban homes give them an easy path in. The most effective response is to seal entry points in early fall and treat exterior walls before the insects mass, rather than waiting until they are already inside.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around utility penetrations and foundation vents before October.",
+      "Trim back box elder, maple, and ash trees from rooflines and siding to reduce boxelder bug entry points.",
+      "Eliminate standing water in gutters and low areas near Raccoon River-adjacent properties after rain events.",
+      "Store firewood at least 20 feet from the foundation to reduce termite and rodent harborage.",
+    ],
+    costNote:
+      "Pest control in West Des Moines typically runs $150 to $350 for a standard residential treatment. Termite inspections average $75 to $150, with treatment costs depending on infestation size and method.",
+    faqs: [
+      {
+        question: "Why are mosquitoes so bad near the Raccoon River in West Des Moines?",
+        answer:
+          "The Raccoon River and Jordan Creek floodplains hold standing water for days after summer rain, and that water is prime mosquito breeding habitat. Homes in West Des Moines neighborhoods closest to these corridors see the heaviest biting pressure from late May through September. Reducing standing water on your property and a barrier treatment around the yard both help lower the local population.",
+      },
+      {
+        question: "Are termites really a risk in West Des Moines?",
+        answer:
+          "Yes. Iowa State University Extension documents subterranean termite activity across central Iowa, including Polk and Dallas Counties where West Des Moines sits. The high soil moisture near the Raccoon River corridor makes conditions even more favorable. Both older homes and new construction on former farmland can be affected, so a professional inspection is worth scheduling.",
+      },
+      {
+        question: "When do boxelder bugs show up and what should I do?",
+        answer:
+          "They begin clustering on sun-facing walls in late September as nights cool. The best move is to seal gaps around windows, siding, and utility lines before they mass, then treat the exterior when they first appear. Once they have worked into wall voids, they are hard to remove until spring.",
+      },
+      {
+        question: "How do I keep mice out of my home in fall?",
+        answer:
+          "Mice move toward heated buildings in October, often from the cornfields at the western edge of the metro. Seal foundation gaps, pipe penetrations, dryer vents, and the gap under garage doors in September. Combining exclusion with interior trap placement is the standard approach for lasting control.",
+      },
+      {
+        question: "Do I need year-round pest service or just seasonal treatment?",
+        answer:
+          "It depends on your pressure. German cockroaches and mice are year-round concerns, while mosquitoes and boxelder bugs are seasonal. Many West Des Moines homes do well with a general plan that adds mosquito service in summer and a boxelder treatment in fall. A free assessment identifies what your specific property needs.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Des Moines", slug: "des-moines" },
+      { name: "Ankeny", slug: "ankeny" },
+      { name: "Urbandale", slug: "urbandale" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in West Des Moines, IA | Termites, Mice & Mosquitoes",
+    metaDescription:
+      "West Des Moines pest control for termites, mice, mosquitoes, cockroaches and boxelder bugs. Polk and Dallas County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "dubuque",
+    name: "Dubuque",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "60,000",
+    county: "Dubuque County",
+    climate: "cold-humid",
+    climateDriver:
+      "Dubuque's position in the Mississippi River valley of northeastern Iowa produces cold, snowy winters and humid summers. The river valley topography traps moisture and creates locally elevated humidity that accelerates wood decay and pest activity in older structures.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "House Mice", "German Cockroaches", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "ISU Extension's eastern Iowa termite risk maps include Dubuque County, and the city's many 19th-century wood-frame buildings are particularly vulnerable to established termite colonies.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Mississippi River's backwater sloughs and wetlands around Dubuque, including the Mines of Spain Recreation Area, create extensive mosquito breeding habitat through summer.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "Dubuque's historic downtown and bluff neighborhoods contain century-old stone and brick buildings with gaps that mice exploit readily in cold months.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Older commercial structures in Dubuque's historic downtown district create persistent German cockroach harborage that requires professional treatment cycles.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall",
+        note: "Dubuque County sits on Iowa's eastern border with Illinois and Wisconsin, placing it on the documented arrival path for brown marmorated stink bugs spreading westward per Iowa State Extension.",
+      },
+    ],
+    localHook:
+      "Dubuque's bluff-top neighborhoods and the historic downtown below are two different pest environments. The bluffs catch south-facing sun that warms walls and draws overwintering insects. The river valley below holds moisture that feeds termites and mosquitoes.",
+    intro:
+      "Pest control in Dubuque has to account for two very different settings within one city. Down in the Mississippi River valley, the historic downtown holds 19th-century wood-frame and brick buildings where moisture and age open the door to subterranean termites and German cockroaches. Up on the bluffs, sun-warmed walls draw overwintering insects like brown marmorated stink bugs each fall. The river itself, with its backwater sloughs and the wetlands at Mines of Spain, feeds heavy mosquito activity from May through September. When winter sets in, house mice press into the gaps that century-old masonry leaves behind. Iowa State University Extension places Dubuque County within eastern Iowa's termite risk zone and on the documented westward path of the brown marmorated stink bug. Licensed treatment built around your part of town is the dependable way to reduce your risk.",
+    sections: [
+      {
+        heading: "The Mississippi River Valley and Dubuque's Historic Buildings",
+        body: "Dubuque grew up along the Mississippi in the 1800s, and much of that early building stock still stands in the downtown and the riverfront districts. Those wood-frame and brick structures, many over a century old, face two linked problems. First, the river valley traps humidity, and that moisture softens wood and keeps soil damp against foundations, which is exactly what subterranean termites need to thrive. Iowa State University Extension includes Dubuque County in its eastern Iowa termite risk maps. Second, the river's backwater sloughs and the wetlands at Mines of Spain Recreation Area produce mosquitoes in volume from May into September. For owners of older Dubuque homes and commercial buildings, the practical concerns are keeping soil and wood separated at the foundation, watching for the mud tubes termites build, and reducing standing water nearby. A termite inspection on an older downtown property is not a formality here. It is a sensible step given the age of the buildings and the moisture the valley holds.",
+      },
+      {
+        heading: "Fall Invaders and Stink Bugs on the Dubuque Bluffs",
+        body: "The bluffs that give Dubuque its dramatic skyline also create a warm microclimate on south-facing and west-facing walls. In fall, that warmth draws overwintering insects, and the brown marmorated stink bug has become one of the most noticeable. Dubuque County sits on Iowa's border with Illinois and Wisconsin, directly on the path Iowa State University Extension has tracked as this insect spreads westward across the state. Stink bugs cluster on sunny walls in September and October, then slip into attics, wall voids, and window frames to ride out the winter, reappearing indoors on warm days. They do not bite or damage the structure, but they are persistent and release an unpleasant odor when crushed. The same season pushes house mice toward Dubuque's older homes, where gaps in stone foundations and aging masonry make easy entry points. Sealing those gaps and treating exterior walls before the insects mass in early fall is far more effective than fighting them once they are inside.",
+      },
+    ],
+    prevention: [
+      "Seal cracks in stone and brick foundations common to Dubuque's historic homes before cold weather arrives.",
+      "Treat south-facing and west-facing walls in early fall, before stink bugs and other overwintering insects begin to cluster.",
+      "Keep soil and mulch separated from wood siding and foundation framing to reduce termite access.",
+      "Clear standing water in low spots and gutters, especially on properties near the river or Mines of Spain.",
+    ],
+    costNote:
+      "Pest control in Dubuque generally runs $150 to $350 for a standard residential treatment. Termite inspections on the city's older homes typically cost $75 to $150, with treatment priced by the size and type of infestation.",
+    faqs: [
+      {
+        question: "Are termites a real concern for older homes in Dubuque?",
+        answer:
+          "Yes. Iowa State University Extension includes Dubuque County in its eastern Iowa termite risk maps, and the city's many 19th-century wood-frame buildings are especially vulnerable. The humidity trapped in the Mississippi River valley keeps soil and wood moist, which is what subterranean termites need. A professional inspection is a sensible step for any older downtown or riverfront property.",
+      },
+      {
+        question: "Why do I keep finding stink bugs in my house every fall?",
+        answer:
+          "Brown marmorated stink bugs cluster on warm, sun-facing walls in September and October, then move into attics, wall voids, and window frames to overwinter. Dubuque sits on the border with Illinois and Wisconsin, on the path Iowa State Extension has tracked for this insect spreading west. Sealing entry points and treating exterior walls before they mass is the most effective response.",
+      },
+      {
+        question: "How bad are mosquitoes near the Mississippi in Dubuque?",
+        answer:
+          "They can be heavy from May through September. The river's backwater sloughs and the wetlands at Mines of Spain Recreation Area produce mosquitoes in large numbers. Reducing standing water on your property and using a barrier treatment around the yard both help lower the biting pressure during the summer season.",
+      },
+      {
+        question: "Do Dubuque's historic downtown buildings have more pest problems?",
+        answer:
+          "Often, yes. Century-old stone and brick buildings have gaps and settling cracks that mice and cockroaches exploit, and the valley's humidity favors both termites and German cockroaches. Older commercial structures in particular tend to need ongoing treatment cycles rather than a single visit, because the harborage is built into the structure.",
+      },
+      {
+        question: "What is the best time of year to mouse-proof my home?",
+        answer:
+          "Early fall, before the first hard freeze. Mice begin pressing into heated buildings as temperatures drop, and Dubuque's aging masonry foundations give them plenty of entry points. Sealing foundation cracks, pipe penetrations, and gaps under doors in September, paired with interior trapping, is the standard and most reliable approach.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Cedar Rapids", slug: "cedar-rapids" },
+      { name: "Iowa City", slug: "iowa-city" },
+      { name: "Davenport", slug: "davenport" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Dubuque, IA | Termites, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Dubuque pest control for termites, mosquitoes, mice, cockroaches and stink bugs. Specialists for the city's historic Mississippi River homes. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bettendorf",
+    name: "Bettendorf",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "37,000",
+    county: "Scott County",
+    climate: "temperate",
+    climateDriver:
+      "Bettendorf sits in the Quad Cities along the Mississippi River, where Iowa's continental climate meets the moderating effect of a major waterway. Winters are cold and summers are warm and humid. The river corridor holds moisture that keeps termite and mosquito pressure among the highest in the state.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "House Mice", "German Cockroaches", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Iowa State University Extension places Scott County and the Quad Cities in Iowa's highest termite-risk zone, driven by the warm, moist soils of the Mississippi River corridor.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Mississippi River and its backwaters along Bettendorf's riverfront create extensive standing water and heavy mosquito breeding habitat through the warm months.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "Cold Quad Cities winters drive house mice into Bettendorf homes each fall, with older riverfront neighborhoods and homes near wooded ravines seeing the heaviest pressure.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Bettendorf's restaurants and multi-family housing along the I-74 corridor sustain year-round German cockroach populations that breed entirely indoors.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall",
+        note: "Brown marmorated stink bugs reached Scott County from Illinois along the Mississippi River corridor, and Bettendorf's border position puts it among the first Iowa cities to feel fall invasions.",
+      },
+    ],
+    localHook:
+      "Bettendorf sits in the part of Iowa that Iowa State University Extension flags as the state's highest termite-risk zone. The warm, moist soils of the Mississippi River corridor give subterranean termites conditions they rarely find elsewhere in Iowa.",
+    intro:
+      "Bettendorf, the upscale Iowa anchor of the Quad Cities, carries some of the heaviest pest pressure in the state. Iowa State University Extension places Scott County in Iowa's highest termite-risk zone, a direct result of the warm, moist soils along the Mississippi River. The same river drives strong mosquito activity from May through September and serves as the corridor that carried brown marmorated stink bugs across from Illinois. Cold winters push house mice indoors each fall, while German cockroaches hold steady year-round in restaurants and apartments. For Bettendorf homeowners, the river is both the city's defining feature and the engine behind much of its pest activity. Licensed treatment that recognizes the elevated termite risk here is the dependable way to reduce that risk.",
+    sections: [
+      {
+        heading: "Why Bettendorf Faces Iowa's Highest Termite Risk",
+        body: "Most of Iowa carries moderate termite risk, but Scott County and the Quad Cities stand apart. Iowa State University Extension maps the area as the state's highest-risk zone, and the reason is the Mississippi River. The corridor keeps soils warmer and wetter than the rest of the state, and subterranean termites need exactly that combination of warmth and moisture to build large, active colonies. For Bettendorf homeowners, this is not a remote possibility but a documented regional pattern. Termites work out of sight, traveling up through soil-to-wood contact and the mud tubes they build along foundations. By the time damage shows inside, a colony may have been active for years. The practical defenses are keeping soil and mulch away from wood siding, fixing foundation drainage so soil does not stay saturated, and scheduling regular inspections. On an existing home, a professional termite inspection is genuinely worthwhile here. The elevated risk in Bettendorf makes it one of the few Iowa cities where annual monitoring pays off for most properties.",
+      },
+      {
+        heading: "Riverfront Mosquitoes and Fall Stink Bug Invasions",
+        body: "The Mississippi gives Bettendorf its riverfront character and a steady summer mosquito problem. Backwaters, low spots, and the river's slow margins all hold standing water, and mosquitoes breed in volume from May into September. Properties closest to the river and to wooded ravines feel it most, with peak biting on still summer evenings. The same river corridor served as the route that brought brown marmorated stink bugs into Scott County from Illinois. Because Bettendorf sits right on the border, it is among the first Iowa cities to see fall invasions. These insects cluster on warm, sun-facing walls in September and October, then push into attics and wall voids to overwinter, reappearing on mild winter days. They do not damage the home but are a persistent nuisance. Reducing standing water and using a summer barrier treatment cuts mosquito pressure, while sealing exterior gaps and treating walls before stink bugs mass in early fall keeps the overwintering invaders out.",
+      },
+    ],
+    prevention: [
+      "Schedule a professional termite inspection, since Scott County sits in Iowa's highest termite-risk zone.",
+      "Keep soil, mulch, and firewood away from wood siding and foundation framing to limit termite access.",
+      "Eliminate standing water on riverfront and ravine-adjacent properties to reduce summer mosquito breeding.",
+      "Seal exterior gaps and treat sun-facing walls in early fall before stink bugs begin to cluster.",
+    ],
+    costNote:
+      "Pest control in Bettendorf typically runs $150 to $350 for a standard residential treatment. Given Scott County's elevated termite risk, inspections cost $75 to $150 and many homeowners opt for annual monitoring, with treatment priced by infestation size.",
+    faqs: [
+      {
+        question: "Is Bettendorf really at higher termite risk than the rest of Iowa?",
+        answer:
+          "Yes. Iowa State University Extension maps Scott County and the Quad Cities as the state's highest termite-risk zone. The Mississippi River corridor keeps soils warmer and wetter than the rest of Iowa, which is exactly what subterranean termites need. For Bettendorf homeowners, annual inspections and monitoring make more sense here than in most Iowa cities.",
+      },
+      {
+        question: "When are mosquitoes worst along the Bettendorf riverfront?",
+        answer:
+          "From May through September, with peak biting on still summer evenings. The Mississippi River's backwaters and the city's wooded ravines hold standing water that breeds mosquitoes in volume. Homes closest to the river feel it most. Reducing standing water and a summer barrier treatment around the yard both help lower the local population.",
+      },
+      {
+        question: "Why do stink bugs appear in my home every fall?",
+        answer:
+          "Brown marmorated stink bugs cluster on warm walls in September and October, then move into attics and wall voids to overwinter. They reached Scott County from Illinois along the Mississippi River corridor, and Bettendorf's border location puts it among the first Iowa cities affected. Sealing gaps and treating walls before they mass is the best response.",
+      },
+      {
+        question: "Do new homes in Bettendorf need termite protection too?",
+        answer:
+          "They can benefit from it. While newer construction may include some soil treatment, the elevated regional risk means even new homes are not immune, especially those built on disturbed soil near the river. A baseline inspection and ongoing monitoring give you early warning before a colony establishes itself in the structure.",
+      },
+      {
+        question: "How do I keep mice out over the winter?",
+        answer:
+          "Mice press into heated buildings as fall temperatures drop, and older riverfront homes and those near ravines see the most pressure. Seal foundation gaps, pipe penetrations, and the gap under garage doors in September, then pair that exclusion work with interior trapping. Sealing before the cold arrives is the single most effective step.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Davenport", slug: "davenport" },
+      { name: "Iowa City", slug: "iowa-city" },
+      { name: "Dubuque", slug: "dubuque" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Bettendorf, IA | Termites, Mosquitoes & Mice",
+    metaDescription:
+      "Bettendorf pest control for termites, mosquitoes, mice, cockroaches and stink bugs. Scott County is Iowa's top termite-risk zone. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "marion",
+    name: "Marion",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "42,000",
+    county: "Linn County",
+    climate: "temperate",
+    climateDriver:
+      "Marion sits in the Cedar River watershed of eastern Iowa, where cold, snowy winters give way to warm, humid summers. The wooded and agricultural edges around this fast-growing suburb hold moisture and supply the wood debris that drives termite and carpenter ant activity.",
+    topPests: ["Subterranean Termites", "House Mice", "Mosquitoes", "Carpenter Ants", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Iowa State University Extension documents subterranean termite activity in Linn County, and Marion's rapid expansion onto former farmland brings new homes into contact with established soil colonies.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "As cornfields at Marion's growing eastern edge are harvested each fall, displaced house mice push into nearby subdivisions seeking warm shelter for winter.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through early fall",
+        note: "Indian Creek and the Cedar River watershed running through and below Marion hold standing water that breeds mosquitoes from late May through September.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "The wooded lots and mature trees in Marion's older neighborhoods and along its creek corridors give carpenter ants the moist, decayed wood they nest in.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Iowa State University Extension lists boxelder bugs among Iowa's leading fall invaders, and Marion's mature box elder and maple trees support large fall aggregations on sunny walls.",
+      },
+    ],
+    localHook:
+      "Marion is one of eastern Iowa's fastest-growing cities, and that growth pushes new subdivisions straight into former farmland and wooded creek edges. New homes on disturbed soil sit right where subterranean termite colonies were already established.",
+    intro:
+      "Marion's rapid growth on the eastern edge of the Cedar Rapids metro shapes its pest picture. As subdivisions expand onto former farmland and wooded creek corridors, new homes meet soil where subterranean termites, documented by Iowa State University Extension in Linn County, were already at work. Carpenter ants nest in the moist, decayed wood common to the area's older neighborhoods and tree-lined lots. Indian Creek and the Cedar River watershed feed mosquito activity from late spring into fall. When harvest clears the surrounding cornfields, house mice press into nearby homes, and boxelder bugs mass on sunny walls. Licensed treatment grounded in Linn County conditions is the reliable way to reduce your risk in Marion.",
+    sections: [
+      {
+        heading: "How Marion's Growth Changes the Pest Picture",
+        body: "Few Iowa cities have grown as fast as Marion over the past two decades, and that expansion has consequences for pest pressure. New subdivisions on the eastern and northern edges are being built on former farmland and along wooded creek corridors, which means fresh construction is landing directly on soil where subterranean termite colonies were already established. Iowa State University Extension documents termite activity across Linn County, so this is a known regional risk, not a rare event. Disturbed soil, buried construction debris, and fresh wood framing all give foraging termites a path into a new home. The same wooded edges and mature trees in Marion's older neighborhoods supply the moist, decayed wood that carpenter ants nest in, and an established carpenter ant colony can damage structural wood over several years. For Marion homeowners, whether in a new build or an established neighborhood, keeping soil and wood separated, fixing moisture problems early, and scheduling inspections are the practical defenses against both insects.",
+      },
+      {
+        heading: "Fall in Marion: Mice from the Fields and Boxelder Bugs",
+        body: "Fall is the busiest pest season in Marion, and it is driven by the agricultural land that still rings the city's growing edge. When the corn and soybean fields are harvested in September and October, the house mice that lived among them lose their cover and their food, and they move toward the nearest warm shelter. For homes in Marion's newer eastern subdivisions, that shelter is often the house next door to the field. Gaps around utility lines, foundation vents, and garage doors give them an easy way in. At the same time, boxelder bugs reach their fall peak. Iowa State University Extension ranks them among Iowa's leading fall invaders, and Marion's many mature box elder and maple trees give them abundant breeding sites. They gather by the hundreds on south-facing and west-facing walls before slipping into wall voids to overwinter. The fix for both is the same timing: seal entry points and treat exterior walls in early fall, before the rodents and insects push their way inside.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, vents, and garage door edges in September, especially in subdivisions bordering farmland.",
+      "Keep soil, mulch, and construction debris away from wood framing on new and existing homes to limit termites.",
+      "Watch tree-lined and creek-adjacent lots for moist, decayed wood that attracts carpenter ants.",
+      "Treat sun-facing exterior walls before boxelder bugs begin to mass in early fall.",
+    ],
+    costNote:
+      "Pest control in Marion typically runs $150 to $350 for a standard residential treatment. Termite inspections, worth scheduling on both new builds and older homes, average $75 to $150, with treatment priced by infestation size and method.",
+    faqs: [
+      {
+        question: "Does Marion's fast growth increase termite risk for new homes?",
+        answer:
+          "It can. As Marion expands onto former farmland and wooded creek corridors, new homes are built on soil where subterranean termite colonies may already be established. Iowa State University Extension documents termite activity in Linn County. Disturbed soil and fresh wood framing can attract foraging termites, so a baseline inspection on a new build is a sensible precaution.",
+      },
+      {
+        question: "Why do mice show up in Marion subdivisions every fall?",
+        answer:
+          "When the cornfields at Marion's growing edge are harvested in September and October, displaced house mice move toward the nearest warm shelter, which is often a home bordering the field. Sealing foundation gaps, vents, and garage door edges in early fall, paired with interior trapping, is the most effective way to keep them out.",
+      },
+      {
+        question: "How do I know if I have carpenter ants?",
+        answer:
+          "Carpenter ants are large black ants, often a quarter inch or longer, and they favor the moist, decayed wood found in Marion's older neighborhoods and tree-lined lots. Seeing them indoors in winter or early spring usually means an established colony inside the structure, not just foragers from outside. That situation needs professional treatment to reach the nesting sites.",
+      },
+      {
+        question: "When should I treat for boxelder bugs?",
+        answer:
+          "Treat sun-facing exterior walls in early fall, before the bugs begin to mass. Iowa State University Extension ranks boxelder bugs among Iowa's leading fall invaders, and Marion's mature box elder and maple trees support large aggregations. Once they have moved into wall voids to overwinter, they are difficult to remove until spring.",
+      },
+      {
+        question: "Are mosquitoes a problem in Marion?",
+        answer:
+          "Yes, from late May through September. Indian Creek and the broader Cedar River watershed hold standing water that breeds mosquitoes through the warm months. Reducing standing water on your property and a barrier treatment around the yard both help lower the biting pressure during the summer season.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Cedar Rapids", slug: "cedar-rapids" },
+      { name: "Iowa City", slug: "iowa-city" },
+      { name: "Dubuque", slug: "dubuque" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Marion, IA | Termites, Mice & Carpenter Ants",
+    metaDescription:
+      "Marion pest control for termites, mice, mosquitoes, carpenter ants and boxelder bugs. Linn County specialists for this fast-growing suburb. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "urbandale",
+    name: "Urbandale",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "47,000",
+    county: "Polk County",
+    climate: "temperate",
+    climateDriver:
+      "Urbandale sits in the Beaver Creek watershed of the northwestern Des Moines metro, where central Iowa's continental climate brings cold winters and warm, humid summers. The creek corridor and the area's mature trees keep both moisture and fall-invader pressure high.",
+    topPests: ["Subterranean Termites", "House Mice", "Mosquitoes", "Boxelder Bugs", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Iowa State University Extension places Urbandale's Polk County within central Iowa's documented termite zone, putting both older homes and newer construction at risk.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "Urbandale's blend of established residential streets and newer development near Living History Farms gives house mice steady fall harborage as temperatures drop.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through early fall",
+        note: "Beaver Creek and its tributaries wind through Urbandale, holding standing water that breeds mosquitoes from late May through September.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "The mature box elder and maple trees lining Urbandale's established neighborhoods support large fall boxelder bug aggregations, which Iowa State University Extension ranks among the state's top fall invaders.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Urbandale's restaurants and multi-family housing along the Hickman Road and 86th Street corridors sustain year-round German cockroach populations that breed entirely indoors.",
+      },
+    ],
+    localHook:
+      "Beaver Creek winds right through Urbandale, and the mature box elder and maple trees that shade its older neighborhoods set the city up for two predictable seasons: summer mosquitoes from the creek and a wall-covering boxelder bug invasion every fall.",
+    intro:
+      "Living here in Urbandale, you get a real feel for how the seasons drive pests. The Beaver Creek corridor that threads through town keeps mosquitoes busy all summer, breeding in standing water from late May into September. Come fall, the mature box elder and maple trees that make our older streets so shady send boxelder bugs onto sunny walls by the hundreds, and Iowa State University Extension ranks them among the state's top fall invaders. Termites are a quieter concern but a real one, since Polk County sits in central Iowa's documented termite zone. Add the mice that move in each fall and the cockroaches that hold steady year-round in commercial buildings, and you have a clear case for licensed treatment built around Urbandale's seasons to reduce your risk.",
+    sections: [
+      {
+        heading: "Beaver Creek and Our Summer Mosquito Season",
+        body: "If you live near Beaver Creek, you already know what summer brings. The creek and its little tributaries wind through Urbandale, and after a good rain they leave behind the slow water and low, soggy spots that mosquitoes love. From late May through September, the biting picks up, and it is worst on still evenings when you would most like to be out in the yard. Homes backing onto the creek corridor or near the wetter sections of the trail system feel it most, but the pressure spreads well beyond the water's edge. The good news is that a lot of mosquito control comes down to your own property. Tipping out anything that holds water, keeping gutters clear, and changing birdbaths often all cut down on breeding right where you live. For the mosquitoes drifting in from the creek itself, a barrier treatment around the yard knocks back the population through the season. It is the difference between using your deck on a July night and giving it up to the bugs.",
+      },
+      {
+        heading: "The Fall Boxelder Bug Invasion in Urbandale",
+        body: "Every fall, the same call comes in from Urbandale homeowners: the whole south wall is covered in boxelder bugs. There is a straightforward reason. The mature box elder and maple trees that shade our established neighborhoods are exactly what these insects feed and breed on, and when the cool nights of late September arrive, they gather on warm, sun-facing walls by the hundreds. Iowa State University Extension lists them among Iowa's leading fall invaders, so Urbandale is far from alone, but the heavy tree cover here makes the local swarms especially noticeable. They do not bite or hurt the house, but they push into wall voids, window frames, and attics to overwinter, then turn up indoors on warm winter days. The trick is timing. Sealing gaps around windows, siding, and utility lines, then treating those sunny exterior walls when the bugs first start to mass, works far better than waiting. Once they are settled in the walls, you are mostly stuck with them until spring.",
+      },
+    ],
+    prevention: [
+      "Tip out standing water, clear gutters, and refresh birdbaths to cut mosquito breeding near Beaver Creek.",
+      "Seal gaps around windows, siding, and utility lines before boxelder bugs mass in late September.",
+      "Trim box elder and maple branches back from rooflines and walls to reduce boxelder bug staging areas.",
+      "Seal foundation gaps and garage door edges in early fall before mice press indoors for winter.",
+    ],
+    costNote:
+      "Pest control in Urbandale generally runs $150 to $350 for a standard residential treatment. Termite inspections cost $75 to $150, and many homeowners add a fall boxelder bug treatment and summer mosquito service, with pricing based on property size.",
+    faqs: [
+      {
+        question: "Why does my Urbandale home get covered in boxelder bugs every fall?",
+        answer:
+          "The mature box elder and maple trees that shade Urbandale's older neighborhoods are exactly what these insects feed and breed on. When cool nights arrive in late September, they gather on warm, sun-facing walls by the hundreds. Iowa State University Extension ranks them among Iowa's top fall invaders. Sealing exterior gaps and treating walls before they mass is the most effective response.",
+      },
+      {
+        question: "How bad are mosquitoes near Beaver Creek in Urbandale?",
+        answer:
+          "They can be heavy from late May through September, worst on still evenings. Beaver Creek and its tributaries hold the slow, standing water that mosquitoes breed in, and homes near the creek corridor feel it most. Reducing standing water on your property and a barrier treatment around the yard both help lower the biting pressure through summer.",
+      },
+      {
+        question: "Are termites a concern in Urbandale?",
+        answer:
+          "Yes. Iowa State University Extension places Polk County within central Iowa's documented termite zone, so both older homes and newer construction can be affected. Termites work out of sight through soil-to-wood contact, so damage can be advanced before it shows. A professional inspection gives you an honest read on your property's risk.",
+      },
+      {
+        question: "When do mice start getting into Urbandale homes?",
+        answer:
+          "The push begins in fall as temperatures drop and mice look for heated shelter. Sealing foundation gaps, vents, and garage door edges in early fall, before the cold sets in, is the most effective prevention. Pairing that exclusion work with interior trapping is the standard approach for lasting rodent control.",
+      },
+      {
+        question: "Do I need pest service all year or just seasonally?",
+        answer:
+          "It depends on your pressure. Mice and German cockroaches are year-round concerns, while mosquitoes and boxelder bugs are seasonal. Many Urbandale homes do well with a general plan that adds summer mosquito service and a fall boxelder treatment. A free assessment identifies exactly what your property needs.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Des Moines", slug: "des-moines" },
+      { name: "Ankeny", slug: "ankeny" },
+      { name: "West Des Moines", slug: "west-des-moines" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Urbandale, IA | Termites, Mice & Mosquitoes",
+    metaDescription:
+      "Urbandale pest control for termites, mice, mosquitoes, boxelder bugs and cockroaches. Polk County specialists near Beaver Creek. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

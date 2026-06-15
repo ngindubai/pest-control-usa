@@ -1541,4 +1541,528 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Rome NY pest control for house mice, carpenter ants, boxelder bugs, yellow jackets and stink bugs. Oneida County lake-effect snow belt early mouse season specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "poughkeepsie",
+    name: "Poughkeepsie",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "31,000",
+    county: "Dutchess County",
+    climate: "temperate",
+    climateDriver:
+      "Hudson River valley moderates temperatures but channels moisture, sustaining dense vegetation corridors that are ideal tick habitat. Cold winters drive mice and carpenter ants indoors from October through March.",
+    topPests: ["Deer Ticks", "House Mice", "German Cockroaches", "Carpenter Ants", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Deer Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through November",
+        note: "Dutchess County ranks among the highest-risk counties in New York State for Lyme disease by NY DOH surveillance, and the Hudson River greenbelt corridors sustain dense tick populations in suburban neighborhoods.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Older Poughkeepsie building stock with gaps in utility penetrations and deteriorating sill plates gives mice easy fall entry, and populations peak from October through March.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Multi-unit residential buildings in Poughkeepsie's older housing stock sustain German cockroach populations that spread through shared wall voids and plumbing between units.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through September",
+        note: "Carpenter ants forage from Hudson Valley woodland colonies into Poughkeepsie structures with moisture damage, active from late March through early fall.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Subterranean termites are active in Dutchess County, with risk highest in pre-1980 structures near the Hudson River corridor where soil moisture remains elevated.",
+      },
+    ],
+    localHook:
+      "Dutchess County ranks among the highest-risk counties in New York State for Lyme disease, according to the NY Department of Health and Cornell Cooperative Extension. The Hudson River greenbelt and wooded residential neighborhoods around Poughkeepsie create dense tick habitat that puts both outdoor workers and backyard gardeners at genuine risk every season.",
+    intro:
+      "Poughkeepsie sits at the heart of one of the most active Lyme disease zones in the Northeast. The combination of Hudson River woodland corridors, white-tailed deer populations, and the Hudson Valley's mild shoulder seasons keeps deer ticks active from early spring through late fall. Inside, German cockroaches have a foothold in the city's older rental housing stock, and carpenter ants push into homes with moisture from spring through early summer. Subterranean termites are an underappreciated risk in Dutchess County, particularly in structures built before 1980 on soil with high moisture retention near the river.",
+    sections: [
+      {
+        heading: "Deer Ticks and Lyme Disease Risk in Dutchess County",
+        body: "The NY DOH county-level Lyme surveillance data consistently places Dutchess County in the top tier statewide. Deer ticks here are not a woodland edge problem only. They are present in suburban lawns, garden beds, and the weedy margins of city parks wherever deer pass through. The black-legged tick nymph, which is the size of a poppy seed, is the primary transmission risk because it is nearly invisible and stays attached long enough to transmit Borrelia. Peak nymph season runs May through July, but adults remain active in fall until hard frost. Cornell Cooperative Extension recommends treating lawn perimeters and woodland borders, not just wooded areas, to get meaningful population reduction.",
+      },
+      {
+        heading: "Mice, Cockroaches, and Urban Pest Pressure",
+        body: "House mice move into Poughkeepsie's older building stock as temperatures fall in October. The city's dense housing, older construction with gaps around utility penetrations and deteriorating sill plates, gives rodents reliable entry points. German cockroaches are established in multi-unit residential buildings and restaurant corridors, where shared wall voids and plumbing allow rapid spread between units. Treating one apartment without coordinating adjacent units leaves the population intact, which is why professional multi-unit programs outperform DIY treatment in Poughkeepsie's older apartment buildings.",
+      },
+      {
+        heading: "Carpenter Ants and Termites in Older Hudson Valley Homes",
+        body: "Carpenter ants are active in Poughkeepsie from late March through September, foraging from woodland colonies into structures. They exploit moist wood around roof leaks, wet sills, and foundation areas where soil stays damp near the river. Finding large, dark ants indoors in late winter or early spring usually means a satellite colony is already inside. Subterranean termites are active across Dutchess County, with risk highest in pre-1980 structures near the river corridor where soil moisture is elevated. A professional inspection with a moisture meter in the crawl space is the diagnostic starting point for both pests.",
+      },
+    ],
+    prevention: [
+      "Treat lawn perimeters and garden borders for ticks from April through October, not just wooded edges.",
+      "Seal gaps around utility lines, sill plates, and foundation vents before October to block mouse entry.",
+      "Fix any roof or window leaks promptly to remove the moist wood that attracts carpenter ants.",
+      "Schedule a subterranean termite inspection if your home was built before 1980 and has not been treated.",
+    ],
+    costNote:
+      "Pest control in Poughkeepsie runs $120 to $300 for a standard residential treatment. Tick control programs average $75 to $150 per application. Termite inspections are typically $75 to $125, with treatment costs based on foundation size and infestation extent.",
+    faqs: [
+      {
+        question: "How serious is the tick problem in Poughkeepsie compared to the rest of New York?",
+        answer:
+          "Dutchess County is one of the highest-risk counties in the state by NY DOH surveillance data. The Hudson River woodland corridors and high deer density create sustained tick populations in suburban neighborhoods, not just forested areas. Protective tick treatments, tick checks after every outdoor activity, and keeping lawn edges trimmed are the core defenses.",
+      },
+      {
+        question: "Are German cockroaches common in Poughkeepsie apartments?",
+        answer:
+          "Yes, particularly in older multi-unit buildings where shared plumbing and wall voids allow rapid spread. A single untreated unit in a building can re-infest treated neighboring units. Professional programs that coordinate treatment across units and use insect growth regulators to break the breeding cycle are the standard solution.",
+      },
+      {
+        question: "When do carpenter ants become active in the Hudson Valley?",
+        answer:
+          "Carpenter ants begin foraging in late March as temperatures climb and are most active through June. Finding large black ants indoors in winter or early spring typically means a satellite colony is already established inside the structure, often in moist wood around a roof leak or wet sill plate.",
+      },
+      {
+        question: "Do I need a termite inspection in Poughkeepsie?",
+        answer:
+          "If your home was built before 1980 and sits near the Hudson River corridor or has a crawl space with soil moisture, yes. Dutchess County has documented subterranean termite activity, and older construction without prior treatment is the highest-risk category. An inspection takes about an hour and gives you a clear answer.",
+      },
+      {
+        question: "What is the best way to prevent mice from entering my home in fall?",
+        answer:
+          "Seal foundation gaps, utility penetrations, dryer vents, and the base of garage doors in September before the fall surge. Mice can enter through a gap the size of a dime. Combining exclusion work with interior trap placement is the most reliable approach and significantly less expensive than dealing with an established interior population.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Newburgh", slug: "newburgh" },
+      { name: "Albany", slug: "albany" },
+      { name: "Yonkers", slug: "yonkers" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Poughkeepsie, NY | Deer Ticks, Mice & Cockroaches",
+    metaDescription:
+      "Poughkeepsie pest control for deer ticks, house mice, German cockroaches, carpenter ants and termites. Dutchess County Hudson Valley high Lyme risk specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "middletown-ny",
+    name: "Middletown",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "29,000",
+    county: "Orange County",
+    climate: "temperate",
+    climateDriver:
+      "Catskill foothills location brings cooler temperatures than the lower Hudson Valley, but high woodland cover and abundant deer keep tick pressure elevated from spring through fall. Wet springs favor mosquito breeding in low-lying areas.",
+    topPests: ["Deer Ticks", "House Mice", "Bed Bugs", "German Cockroaches", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Deer Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through November",
+        note: "Orange County is among the highest-risk counties in New York for Lyme disease, and Middletown's Catskill foothills location places it in dense deer tick habitat with active nymph-stage risk from May through July.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Middletown's older housing stock with gaps in aging foundations gives mice reliable fall entry; the surge peaks in October as temperatures drop.",
+      },
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Middletown's older rental housing and highway connections to New York City create above-average bed bug introduction risk compared to more isolated upstate towns.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are established in Middletown's food service and older apartment corridors, sustained by shared building infrastructure.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through September",
+        note: "Catskill woodland colonies extend foraging trails into Middletown structures in spring, targeting moist wood from leaking gutters or aged window frames.",
+      },
+    ],
+    localHook:
+      "Orange County is among the highest-risk counties in New York for Lyme disease, and Middletown's position at the base of the Catskills places it squarely in prime deer tick habitat. Cornell Cooperative Extension consistently flags this region for elevated Lyme risk, with tick activity running from March through November in mild years.",
+    intro:
+      "Middletown sits at the edge of the Catskill foothills in Orange County, where wooded ridgelines meet suburban development and tick populations overlap with residential neighborhoods. Deer ticks are the dominant pest concern year-round, with Lyme disease transmission risk from spring nymphs through fall adults. Bed bugs have become a recurring issue in Middletown's older rental housing, and house mice push into structures aggressively each fall. German cockroaches are present in food service corridors and older apartment buildings, while carpenter ants exploit moisture damage in homes near wooded properties.",
+    sections: [
+      {
+        heading: "Deer Tick Pressure at the Catskill Edge",
+        body: "The transition zone between Catskill woodland and Orange County suburbs is prime deer tick territory. White-tailed deer roam freely through residential areas, dropping ticks in lawn edges, garden beds, and wooded backyards. The black-legged tick nymph phase runs May through July and accounts for most Lyme transmissions because the nymphs are nearly invisible. Cornell Cooperative Extension extension materials specifically flag this part of Orange County for dense tick populations. Treating the yard perimeter and the leaf litter border where lawn meets woods gives the most meaningful reduction. Tick activity persists through November in mild autumns, so late-season vigilance matters.",
+      },
+      {
+        heading: "Bed Bugs and Rodents in Middletown Rentals",
+        body: "Bed bugs have established a consistent presence in Middletown's older rental housing, particularly in multi-unit buildings with high tenant turnover. The transit corridors between Middletown and New York City accelerate reinfestation risk. Early detection is the key variable. A small infestation in one or two units treated with professional heat or targeted chemical treatment is a fraction of the cost of a building-wide problem. House mice push into Middletown homes from October through March, exploiting gaps in older foundations and the gaps around utility pipes in pre-1990 construction. Fall exclusion work before the surge is the most cost-effective prevention.",
+      },
+    ],
+    prevention: [
+      "Apply tick repellent and do full-body tick checks after any time spent in yard borders or wooded areas.",
+      "Seal gaps around utility lines and foundation vents in September before the mouse fall surge.",
+      "Inspect secondhand furniture and luggage after travel for bed bug signs before bringing items indoors.",
+      "Keep lawn edges trimmed and remove leaf litter from garden borders to reduce tick harborage near the house.",
+    ],
+    costNote:
+      "Pest control in Middletown typically runs $110 to $280 for standard residential service. Bed bug heat treatments average $1,000 to $2,500 depending on infestation size. Tick control programs run $75 to $140 per application.",
+    faqs: [
+      {
+        question: "Is Middletown really a high-risk area for Lyme disease?",
+        answer:
+          "Yes. Orange County ranks among the top Lyme disease counties in New York State by NY DOH surveillance data, and Middletown's location at the Catskill foothills means active deer tick populations in residential areas, not just in deep woods. Anyone spending time in yards with wooded edges should treat tick prevention as a routine habit, not an occasional concern.",
+      },
+      {
+        question: "How do bed bugs get into Middletown apartments?",
+        answer:
+          "Most bed bug introductions come from travel, purchasing secondhand furniture, or movement between infested units in multi-unit buildings. The highway and transit connections between Middletown and New York City increase exposure compared to more isolated towns. Early professional inspection at the first sign of bites or visible bugs is the most important step.",
+      },
+      {
+        question: "When should I treat my yard for ticks in Middletown?",
+        answer:
+          "The first application should go down in April, before nymph season peaks in May. Follow-up applications every four to six weeks through October give continuous protection. Focus treatments on lawn perimeters, garden bed borders, and the leaf litter zone at the woodland edge rather than the full lawn.",
+      },
+      {
+        question: "Are carpenter ants a problem near wooded properties in Middletown?",
+        answer:
+          "Yes. Carpenter ants forage from Catskill woodland colonies into structures from March through September. They look for moist or softened wood, so any roof leak, wet sill, or moisture in the basement or crawl space is an attractant. Finding large black ants indoors in winter means a colony is already inside, not just foraging from outside.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Newburgh", slug: "newburgh" },
+      { name: "Poughkeepsie", slug: "poughkeepsie" },
+      { name: "Kingston", slug: "kingston" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Middletown, NY | Deer Ticks, Mice & Bed Bugs",
+    metaDescription:
+      "Middletown NY pest control for deer ticks, house mice, bed bugs, German cockroaches and carpenter ants. Orange County Catskill foothills high Lyme risk specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "newburgh",
+    name: "Newburgh",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "29,000",
+    county: "Orange County",
+    climate: "temperate",
+    climateDriver:
+      "Hudson River shoreline location brings river humidity and mild winters that extend pest seasons. Dense historic building stock from the 19th century provides extensive harborage for cockroaches, bed bugs, and mice.",
+    topPests: ["Bed Bugs", "German Cockroaches", "House Mice", "Deer Ticks", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are concentrated in Newburgh's older multi-unit housing near the Hudson River waterfront, where high tenant turnover and dense building stock allow rapid spread between units.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are established in Newburgh's older apartment buildings and restaurant corridors, spreading through shared wall voids and plumbing infrastructure.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "The Hudson River bottomland sustains a year-round mouse population; fall mouse entry into Newburgh's older structures peaks in October and continues through winter.",
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through November",
+        note: "Deer ticks are present in Newburgh's northern and western residential neighborhoods bordering Orange County's wooded terrain, with Lyme disease risk documented in the county.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants enter Newburgh's older structures from Hudson River corridor woodlands in spring, targeting moist wood in aging construction near the waterfront.",
+      },
+    ],
+    localHook:
+      "Newburgh's riverfront historic district and older urban housing stock create conditions that concentrate bed bug and cockroach pressure. The city's dense multi-unit buildings and high rental turnover make professional coordination across units the only reliable path to lasting control.",
+    intro:
+      "Newburgh is a Hudson River city with a rich 19th-century architectural heritage, but older building stock is also pest habitat. Bed bugs are the primary urban pest challenge, driven by dense multi-unit housing and high tenant turnover. German cockroaches thrive in the older apartment buildings and restaurant corridors near the waterfront. House mice exploit gaps in aging foundations and exterior walls. Deer ticks from Orange County's woodland edges are a seasonal risk in residential areas near the city's northern and western borders, and carpenter ants enter from Hudson River corridor woodlands in spring.",
+    sections: [
+      {
+        heading: "Bed Bugs in Newburgh's Urban Housing",
+        body: "Bed bug activity in Newburgh is concentrated in older multi-unit residential buildings where wall voids, shared plumbing, and frequent tenant turnover allow rapid spread between units. A single infested unit can seed neighboring apartments within weeks. The pattern in dense urban housing is that DIY treatment of one unit, even when successful, does not stop reinfestation from untreated adjacent units. Professional heat treatment or targeted chemical application coordinated across multiple units in a building gives lasting results. Early professional inspection at the first sign, which includes small reddish-brown spots on mattress seams, shed exoskeletons near the headboard, or unexplained bite marks, cuts the cost and complexity dramatically compared to treating an established building-wide population.",
+      },
+      {
+        heading: "Cockroaches, Mice, and Seasonal Pest Pressure",
+        body: "German cockroaches are established in Newburgh's food service and older apartment corridors, where they move through shared infrastructure between units and buildings. Mouse pressure peaks from October through March as temperatures fall. The Hudson River bottomland sustains a year-round rodent population, and fall exclusion work on foundations and utility penetrations is the most effective prevention. Deer ticks are present in residential neighborhoods near the city's wooded northern and western edges, with Lyme transmission risk from spring through fall. Carpenter ants become active in April and target moist wood in older structures near the river.",
+      },
+    ],
+    prevention: [
+      "Report bed bug signs to building management immediately and request professional multi-unit inspection.",
+      "Seal foundation gaps, pipe penetrations, and under-door gaps before October to block fall mouse entry.",
+      "Keep kitchen surfaces clean and seal food in containers to reduce cockroach attractants.",
+      "Do tick checks after time in any green space near Newburgh's northern residential neighborhoods.",
+    ],
+    costNote:
+      "Standard pest control in Newburgh runs $100 to $275 for residential service. Bed bug heat treatments range from $900 to $2,400 depending on infestation scope. German cockroach programs in multi-unit buildings are priced per unit, typically $75 to $150 per unit.",
+    faqs: [
+      {
+        question: "Why are bed bugs such a persistent problem in Newburgh?",
+        answer:
+          "The combination of older multi-unit housing, high rental turnover, and the dense building stock near the waterfront creates conditions where bed bugs spread easily between units. Treating one apartment without addressing the building leaves the population intact. Coordinated professional treatment across connected units is the standard approach for lasting control.",
+      },
+      {
+        question: "Are German cockroaches hard to eliminate in older Newburgh buildings?",
+        answer:
+          "They are difficult because they move through shared wall voids and plumbing between units. Gel bait applied in harborage areas, combined with insect growth regulator to stop the breeding cycle, is the most effective treatment. Success depends on treating connected units, not just the reported unit.",
+      },
+      {
+        question: "Do mice come in from the Hudson River area?",
+        answer:
+          "Yes. The Hudson River bottomland sustains a year-round mouse population that presses into structures each fall as temperatures drop. River-adjacent properties and homes near the waterfront historic district see the heaviest pressure. Sealing gaps before October is the most cost-effective defense.",
+      },
+      {
+        question: "Are deer ticks a concern in Newburgh proper, not just in rural areas?",
+        answer:
+          "Deer ticks are present in residential neighborhoods near the city's wooded northern and western edges. Orange County ranks high statewide for Lyme disease, so tick prevention is a real concern for Newburgh residents with yards bordering green space or near wooded areas, not just for rural property owners.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Poughkeepsie", slug: "poughkeepsie" },
+      { name: "Middletown", slug: "middletown-ny" },
+      { name: "Yonkers", slug: "yonkers" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Newburgh, NY | Bed Bugs, Cockroaches & Deer Ticks",
+    metaDescription:
+      "Newburgh NY pest control for bed bugs, German cockroaches, house mice, deer ticks and carpenter ants. Orange County Hudson River historic district specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "ithaca",
+    name: "Ithaca",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "32,000",
+    county: "Tompkins County",
+    climate: "cold-humid",
+    climateDriver:
+      "Cayuga Lake effect and deep gorge ravines create a cold, moist microclimate. High annual precipitation and dense hemlock and hardwood forest along gorge walls produce persistent moisture conditions that favor carpenter ants, termites, and deer ticks year-round.",
+    topPests: ["Carpenter Ants", "Deer Ticks", "House Mice", "German Cockroaches", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through September",
+        note: "Ithaca's gorge ravines and dense hardwood canopy produce persistent moisture that sustains carpenter ant colonies; they are the most common structural pest call in Tompkins County per Cornell Cooperative Extension.",
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through November",
+        note: "Tompkins County has documented Lyme disease transmission; deer move freely through gorge corridors and wooded neighborhood edges throughout Ithaca.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Ithaca's older housing stock near Cornell has sill plate and utility penetration gaps that give mice reliable fall entry; the student rental market creates high turnover and often unaddressed entry points.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are established in the student rental and restaurant corridors near Cornell and State Street, sustained by dense building infrastructure and high population turnover.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Subterranean termites are documented in Tompkins County, with risk highest in structures near gorge bottoms where soil moisture is persistently elevated.",
+      },
+    ],
+    localHook:
+      "Ithaca's network of gorge ravines, including Cascadilla, Fall Creek, and Six Mile Creek, channels moisture into residential neighborhoods and creates the persistent wet conditions that carpenter ants and subterranean termites require. Cornell University's campus and the surrounding Tompkins County forest sustain dense deer populations, keeping Lyme-transmitting tick pressure high across the city.",
+    intro:
+      "Ithaca is one of the more pest-challenging small cities in upstate New York because of its gorge topography and cold, wet climate. Carpenter ants are the dominant structural pest, exploiting the moist wood conditions created by gorge humidity and the old-growth tree canopy over residential neighborhoods. Deer ticks are present throughout the city wherever deer move through from the surrounding Finger Lakes forest. House mice find reliable entry in Ithaca's older housing stock, which includes many pre-1950 structures near Cornell. German cockroaches are established in the student rental corridors and restaurant district. Subterranean termites are present in Tompkins County, particularly in structures near the gorge bottoms where soil moisture is highest.",
+    sections: [
+      {
+        heading: "Carpenter Ants in Ithaca's Gorge Neighborhoods",
+        body: "Ithaca sits in a bowl of gorges, and the moisture those ravines produce is exactly what carpenter ants need. The hemlock and hardwood canopy over neighborhoods like Fall Creek and Collegetown stays wet through much of the year, and homes with wood in contact with that moisture, through foundation sills, deck posts, fence boards, or overhanging branches, are at persistent risk. Carpenter ants do not eat wood the way termites do. They excavate galleries in moist or softened wood to nest, producing sawdust-like frass near their galleries. Finding large, dark ants indoors from March through May usually means a satellite colony has established inside. Locating and treating the interior nest site, not just the trailing ants, is the necessary step for lasting control. Cornell Cooperative Extension resources on carpenter ants note that Tompkins County's moist forest environment makes this the most common structural pest call in the area.",
+      },
+      {
+        heading: "Deer Ticks, Mice, and the University Community",
+        body: "Tompkins County has documented Lyme disease transmission risk, and Ithaca's dense forest edges throughout the city mean tick exposure is not limited to rural hikes. Gorge trail systems and wooded neighborhood borders bring deer and their ticks into contact with residential yards and gardens. The peak nymph season runs May through July for the highest transmission risk, but adults remain active through fall. House mice enter Ithaca's older housing stock aggressively from October onward. The student rental market creates high turnover that often leaves entry points unaddressed. German cockroaches are established in the College Avenue and State Street restaurant and rental corridor, where shared infrastructure allows building-to-building spread.",
+      },
+    ],
+    prevention: [
+      "Fix any moisture source, including roof leaks, wet sills, and basement dampness, to remove the conditions carpenter ants require.",
+      "Trim tree branches away from rooflines and keep firewood off the ground away from the foundation.",
+      "Do tick checks after gorge trail walks and yard work from April through November.",
+      "Seal foundation gaps and pipe penetrations in September before the mouse fall surge.",
+    ],
+    costNote:
+      "Pest control in Ithaca typically runs $130 to $320 for residential service. Carpenter ant nest location and treatment programs average $150 to $400 depending on nest location. Termite inspections run $75 to $125.",
+    faqs: [
+      {
+        question: "Why are carpenter ants such a problem in Ithaca?",
+        answer:
+          "The gorge ravines and dense tree canopy create persistent moisture around homes that carpenter ants require for nesting. Ithaca's cold, wet climate keeps wood moisture high, and homes with any moisture problem, whether from a leaking roof, wet foundation sill, or overhanging branches, are at ongoing risk. Cornell Cooperative Extension identifies this as the most common structural pest issue in Tompkins County.",
+      },
+      {
+        question: "Are deer ticks common in residential Ithaca neighborhoods?",
+        answer:
+          "Yes. Deer move freely through the gorge corridors and wooded neighborhood edges throughout Ithaca, dropping ticks in lawns, garden borders, and trail edges. Tompkins County has documented Lyme disease transmission. Anyone spending time outdoors, including on gorge trails and in residential yards, should do full-body tick checks from April through November.",
+      },
+      {
+        question: "Are German cockroaches a problem near Cornell?",
+        answer:
+          "Yes. The student rental and restaurant corridors near Cornell sustain German cockroach populations because of high building density, shared infrastructure, and the turnover that comes with student housing. They spread through shared plumbing and wall voids between units, making coordinated professional treatment across adjacent units the effective approach.",
+      },
+      {
+        question: "Are termites present in Tompkins County?",
+        answer:
+          "Subterranean termites are documented in Tompkins County, with risk highest in structures near gorge bottoms where soil moisture stays elevated. Older homes without prior termite treatment near Fall Creek and Cascadilla Gorge are the highest-risk category. A professional inspection with a moisture meter in the crawl space is the right starting point.",
+      },
+      {
+        question: "How do I handle mice in an older Ithaca rental house?",
+        answer:
+          "Start with exclusion. Older homes near Cornell have gaps in foundation sills, around utility pipes, and at the base of exterior doors that give mice easy entry. Sealing those in September before the fall surge, combined with interior snap trap placement along walls, is the most reliable approach. Landlords in Tompkins County are required to maintain pest-free conditions under New York warranty of habitability law.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Binghamton", slug: "binghamton" },
+      { name: "Syracuse", slug: "syracuse" },
+      { name: "Rochester", slug: "rochester" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Ithaca, NY | Carpenter Ants, Deer Ticks & Mice",
+    metaDescription:
+      "Ithaca pest control for carpenter ants, deer ticks, house mice, German cockroaches and termites. Tompkins County Finger Lakes gorge moisture specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "saratoga-springs",
+    name: "Saratoga Springs",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "29,000",
+    county: "Saratoga County",
+    climate: "cold-humid",
+    climateDriver:
+      "Adirondack foothills location brings cold winters and cool summers with high annual precipitation. Dense hardwood forest surrounding the city sustains large deer populations and active tick habitat from March through November.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "House Mice", "Wasps", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Deer Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through November",
+        note: "Saratoga County is in the elevated-risk tier by NY DOH Lyme surveillance; the Adirondack foothills and Saratoga Spa State Park sustain dense deer and tick populations in residential neighborhoods.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through September",
+        note: "Adirondack hardwood forest colonies extend foraging trails into Saratoga Springs' Victorian and craftsman-era homes with any moisture damage from aging gutters or window frames.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Older residential construction near Saratoga Springs' town center has the sill plate gaps and utility penetrations that give mice reliable fall entry from surrounding woodland.",
+      },
+      {
+        name: "Wasps",
+        serviceSlug: "wasp-control",
+        activeSeason: "May through October",
+        note: "Yellow jackets and paper wasps nest in eaves, attic vents, and ground burrows throughout Saratoga Springs, with colony sizes peaking in August when they are most defensive.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Subterranean termites are documented in Saratoga County; Victorian-era homes with original wood framing and basement moisture are in the highest-risk category.",
+      },
+    ],
+    localHook:
+      "Saratoga County's forest coverage and abundant white-tailed deer make it one of the more active tick areas in the Capital Region. The racetrack and spa district draw visitors year-round, and the mix of older Victorian homes, wooded residential streets, and Adirondack-edge green space creates a broad range of pest conditions across the city.",
+    intro:
+      "Saratoga Springs is best known for its racetrack and Victorian spa heritage, but its position at the Adirondack foothills also makes it one of the more active tick zones in the Capital Region. Deer ticks are present throughout residential neighborhoods, with Lyme disease a real risk from spring through fall. Carpenter ants are the dominant structural pest, exploiting the moisture that comes with Saratoga's high precipitation and older wooded housing stock. House mice push into Victorian and craftsman-era homes every fall. Yellow jackets and paper wasps are reliable summer nuisances, and subterranean termites are documented across Saratoga County.",
+    sections: [
+      {
+        heading: "Deer Ticks and Lyme Risk in the Adirondack Foothills",
+        body: "Saratoga Springs is surrounded by the kind of forest that sustains large deer populations and the deer tick populations that travel with them. The Saratoga Spa State Park and the residential streets that border the Adirondack Park edge bring tick habitat into direct contact with neighborhoods. NY DOH Lyme surveillance data consistently shows Saratoga County in the elevated-risk tier, and the city's tree-lined residential streets mean that tick exposure is not confined to deep woods. Lawns and garden borders where leaf litter accumulates are sufficient tick habitat when deer have been passing through. The nymph stage in May through July is the highest-transmission period, but adults are active from September through November. Tick control programs applied to lawn perimeters and wooded borders in April, with follow-up through October, give the most consistent protection.",
+      },
+      {
+        heading: "Carpenter Ants, Mice, and Victorian Housing",
+        body: "Saratoga Springs has a large inventory of Victorian and craftsman-era homes, many of which have original wood construction with decades of weather exposure. Carpenter ants enter these structures from surrounding hardwood forest colonies in spring, targeting any wood that has absorbed moisture from leaking gutters, aging window frames, or ground contact. Finding large, dark ants indoors in late winter is the clearest diagnostic sign of a satellite colony already established inside. House mice move into these older structures aggressively in October, using gaps in deteriorating sill plates and utility penetrations. Fall is the right time to address both, with exclusion work on the exterior and carpenter ant nest location services done before winter sets in.",
+      },
+    ],
+    prevention: [
+      "Apply tick control to lawn perimeters and leaf-litter borders from April through October.",
+      "Repair any moisture sources, including gutter leaks, wet window frames, and basement seepage, that attract carpenter ants.",
+      "Seal foundation gaps, utility penetrations, and under-door gaps before October to block fall mouse entry.",
+      "Schedule a wasp nest inspection and treatment in June before yellow jacket colonies reach peak size in August.",
+    ],
+    costNote:
+      "Pest control in Saratoga Springs typically runs $130 to $310 for a standard residential treatment. Tick control programs average $80 to $150 per application. Carpenter ant services range from $150 to $350 depending on nest accessibility.",
+    faqs: [
+      {
+        question: "Is Saratoga Springs a high-risk area for Lyme disease?",
+        answer:
+          "Yes. Saratoga County is in the elevated-risk tier by NY DOH surveillance, and the city's wooded residential streets and proximity to Saratoga Spa State Park and the Adirondack Park edge mean deer tick habitat extends into neighborhoods. Lawn perimeter tick treatments and regular tick checks are practical steps, not overcaution.",
+      },
+      {
+        question: "When do carpenter ants become active in Saratoga Springs?",
+        answer:
+          "They begin foraging in late March and are most active from April through June. The Adirondack hardwood forest surrounding the city sustains large colonies that extend foraging trails into structures. Any moisture source, a leaking gutter, a wet sill plate, or aging window caulk, invites them into older homes. Finding them indoors in February or March typically means a colony is already established inside.",
+      },
+      {
+        question: "How bad are wasps around the racetrack area?",
+        answer:
+          "Yellow jackets and paper wasps are consistent summer pests across Saratoga Springs, with nest sites in eaves, attic vents, ground burrows, and wall voids. The warm summer season and dense residential landscaping give them ample nesting sites. Treat visible nests in June or early July before colonies reach peak size in August and the insects become more defensive.",
+      },
+      {
+        question: "Do older homes in Saratoga Springs need termite inspections?",
+        answer:
+          "Subterranean termites are documented in Saratoga County, and Victorian-era homes with original wood framing that has never been treated are in the highest-risk category. If your home is pre-1950 and has a crawl space or basement with soil moisture, a professional inspection with a moisture meter is a reasonable precaution.",
+      },
+      {
+        question: "What is the most common call you get from Saratoga Springs homeowners?",
+        answer:
+          "Tick treatment inquiries peak every spring, which makes sense given the deer population and proximity to wooded areas. Carpenter ant calls come in from April through June. Mouse calls start in October. Those three, plus wasp nest calls in July and August, account for the large majority of residential service requests in Saratoga Springs.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Albany", slug: "albany" },
+      { name: "Troy", slug: "troy" },
+      { name: "Schenectady", slug: "schenectady" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Saratoga Springs, NY | Deer Ticks, Carpenter Ants & Mice",
+    metaDescription:
+      "Saratoga Springs pest control for deer ticks, carpenter ants, house mice, wasps and termites. Saratoga County Adirondack foothills Lyme risk specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
