@@ -117,4 +117,226 @@ export const hawaiiCities: CityLocation[] = [
     metaDescription:
       "Honolulu pest control for Formosan termites, Hawaiian centipedes, cockroaches, cane spiders and tropical ants. Island specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "hilo",
+    name: "Hilo",
+    state: "Hawaii",
+    stateSlug: "hawaii",
+    stateAbbr: "HI",
+    tier: "T3",
+    population: "~44,000",
+    county: "Hawaii County",
+    climate: "tropical",
+    climateDriver:
+      "Hilo sits on the eastern flank of the Big Island and is one of the wettest cities in the United States, averaging approximately 128 inches of rain per year. The extraordinary rainfall and consistently warm tropical temperatures create near-perfect conditions for drywood termites, giant centipedes, rats, and invasive ant species. There is no dry season and no winter to reduce pest pressure.",
+    topPests: [
+      "Drywood Termites",
+      "Centipedes",
+      "Rats and Mice",
+      "Little Fire Ants",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Drywood Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, peak activity in warm wet months",
+        note: "The Hawaii Department of Agriculture identifies drywood termites (Cryptotermes brevis and Incisitermes immigrans) as the most destructive structural pest in Hawaii. Hilo's warm wet climate averaging 128 inches of rain per year accelerates their activity. Regular inspections are essential for any structure in Hawaii County.",
+      },
+      {
+        name: "Centipedes",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, more active in warm wet periods and during heavy rain",
+        note: "Scolopendra subspinipes, the Vietnamese centipede, reaches 6 to 8 inches in Hilo and delivers a painful venomous bite that is medically significant. Centipedes enter homes during heavy rain events, which in Hilo means they are a frequent concern. They hide in damp areas, under debris, and in ground-level spaces around the home.",
+      },
+      {
+        name: "Rats and Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note: "Roof rats and Polynesian rats are serious structural and agricultural pests on the Big Island. The surrounding tropical vegetation provides abundant habitat and food, and rats enter Hilo buildings regularly. Rat activity in attics, walls, and around fruit trees is a consistent complaint in Hawaii County.",
+      },
+      {
+        name: "Little Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Wasmannia auropunctata, the little fire ant, has been confirmed by the Hawaii Ant Lab in Hawaii County. This invasive species causes harm through painful stings, damage to native ecosystems, and the injury it causes to the eyes of pets and wildlife. Early detection and treatment are important to limit its spread.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American and Surinam cockroaches are year-round pests in Hilo's tropical climate. The warmth and humidity support continuous breeding and large populations outdoors that move indoors readily. German cockroaches are also present inside structures.",
+      },
+    ],
+    localHook:
+      "Hilo is one of the wettest cities in the United States, averaging approximately 128 inches of rain per year on the eastern flank of the Big Island. That rainfall sustains the lush tropical vegetation that makes Hilo beautiful, and it also sustains drywood termites, centipedes, and rats at levels that surprise residents from drier climates. Hawaii County has documented little fire ant infestations, an invasive species that the Hawaii Ant Lab actively monitors.",
+    intro:
+      "Hilo is Hawaii County's main city on the wet, eastern side of the Big Island. The extraordinary rainfall creates a tropical environment ideal for drywood termites, which Hawaii's Department of Agriculture identifies as the most destructive structural pest in the state. Giant centipedes are a daily reality in Hilo homes during wet periods, entering during rain events and delivering a painful venomous bite. Rats from the surrounding tropical vegetation enter structures regularly. Little fire ants are an invasive species present in Hawaii County with ongoing monitoring by the Hawaii Ant Lab. Cockroaches are active year-round in the warm humid climate.",
+    sections: [
+      {
+        heading: "What Hilo residents ask most: are termites and rats as serious as people say?",
+        body: "Yes, and in Hilo those two pests deserve the attention they get. The Hawaii Department of Agriculture does not overstate it: drywood termites are the most destructive structural pest in the state. Hilo's climate makes it one of the most active termite environments anywhere. Cryptotermes brevis and Incisitermes immigrans both infest structural wood directly, meaning they do not need soil contact. They push frass out of small holes in wood, which is often the first sign. With 128 inches of rain per year keeping humidity high year-round, the conditions for termite activity rarely let up. An inspection every year or two is not overcautious in Hawaii County: it is what protects a home.\n\nRats are a different kind of problem. Roof rats are the dominant species in Hilo, and they live in the trees and vegetation surrounding most homes on the Big Island. They are excellent climbers and enter buildings through gaps near rooflines, plumbing penetrations, and overhanging branches. Once inside an attic, they nest, chew wiring, and contaminate insulation. Excluding them means sealing entry points and cutting back vegetation that gives them a path to the roof. Trapping active individuals takes care of what is already inside.",
+      },
+      {
+        heading: "Centipedes and little fire ants: the two pests in Hilo that residents least expect",
+        body: "If you have not lived in Hilo before, the centipedes are the pest that surprises people most. Scolopendra subspinipes reaches 6 to 8 inches here, and its bite is genuinely painful. It is not a death threat, but it is a medical event. They come inside during heavy rain, which in Hilo means they appear frequently through the year. They hide in shoes, under towels left on the floor, and in ground-level spaces around the home. Reducing moisture inside, sealing ground-level entry points, and keeping the area around the foundation clear of debris cuts the odds of indoor encounters significantly.\n\nLittle fire ants are a different type of concern. Wasmannia auropunctata is tiny, and most residents do not realize they have an infestation until the ants are well established. The Hawaii Ant Lab has confirmed their presence in Hawaii County and monitors their spread actively. They sting, they establish in dense colonies in yard vegetation, and they are genuinely invasive in the ecological sense. If you find small ants delivering stings in the yard or trees, report it and treat early. Once established, little fire ants are difficult to eliminate without professional treatment.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections in Hilo given Hawaii County's exceptional drywood termite pressure and the 128-inch annual rainfall that keeps activity elevated year-round.",
+      "Trim tree branches away from rooflines and seal gaps at the roofline and around plumbing penetrations to block roof rat entry from Big Island vegetation.",
+      "Reduce ground-level moisture around the home's perimeter and seal low gaps to limit centipede entry during Hilo's frequent heavy rain events.",
+      "Report any suspicion of little fire ant activity to the Hawaii Ant Lab promptly, as early treatment in Hawaii County limits spread significantly.",
+    ],
+    costNote:
+      "Hilo pest control is commonly structured around a termite inspection and protection plan quoted separately after assessment, plus a year-round general pest plan covering centipedes, cockroaches, and ants. Rat exclusion and removal is quoted based on inspection findings. Start with a free inspection to establish what is active.",
+    faqs: [
+      {
+        question: "Are drywood termites really that serious in Hilo?",
+        answer:
+          "Yes. The Hawaii Department of Agriculture identifies drywood termites as the most destructive structural pest in the state, and Hilo's wet tropical climate keeps activity elevated year-round. Cryptotermes brevis and Incisitermes immigrans both infest wood directly without needing soil contact. In Hawaii County, annual or biennial termite inspections are not excessive. Small piles of frass (powdery pellets) near wood surfaces are the most common early sign.",
+      },
+      {
+        question: "How do I deal with centipedes in my Hilo home?",
+        answer:
+          "Scolopendra subspinipes reaches 6 to 8 inches in Hilo and delivers a genuinely painful venomous bite. They enter during heavy rain, which happens often in Hawaii County. Reducing indoor moisture, sealing ground-level gaps and door sweeps, and removing debris around the foundation are the best preventive steps. Professional perimeter treatment reduces populations around the home. Shake out shoes and floor items left undisturbed. If bitten, seek medical advice for pain management.",
+      },
+      {
+        question: "What are little fire ants and are they in Hilo?",
+        answer:
+          "Wasmannia auropunctata, the little fire ant, is confirmed in Hawaii County and monitored by the Hawaii Ant Lab. They are tiny, about 1/16 inch, and easy to overlook until the stings start. They establish in dense colonies in yard vegetation and can sting eyes, which is a serious concern for pets and wildlife. Early reporting and treatment in Hilo limit their spread. Contact the Hawaii Ant Lab if you suspect an infestation in Hawaii County.",
+      },
+      {
+        question: "Why are rats so common in Hilo?",
+        answer:
+          "The Big Island's tropical vegetation provides abundant food and nesting habitat for roof rats and Polynesian rats year-round. In Hilo, fruit trees, dense plantings, and the warm climate support large populations around most homes. Roof rats are excellent climbers and enter buildings through roofline gaps and overhanging branches. Exclusion, cutting back vegetation from the roofline, and trapping active individuals is the standard approach for Hawaii County homes.",
+      },
+      {
+        question: "Do cockroaches in Hilo come inside from the yard?",
+        answer:
+          "Yes. American and Surinam cockroaches are primarily outdoor species that move inside from yard vegetation, drains, and mulch around Hilo homes. The warm wet tropical climate in Hawaii County supports large outdoor populations that have no winter dieback. Sealing gaps around doors and utility lines and keeping the foundation perimeter clear of mulch and debris reduces indoor pressure. German cockroaches are an indoor species that spreads between structures.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Honolulu", slug: "honolulu" },
+      { name: "Kailua", slug: "kailua" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Hilo, HI | Termites, Centipedes, Rats & Tropical Pests",
+    metaDescription:
+      "Hilo pest control for drywood termites, centipedes, rats, little fire ants and cockroaches. Hawaii County Big Island rainy side specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kailua",
+    name: "Kailua",
+    state: "Hawaii",
+    stateSlug: "hawaii",
+    stateAbbr: "HI",
+    tier: "T3",
+    population: "~50,000",
+    county: "Honolulu County",
+    climate: "tropical",
+    climateDriver:
+      "Kailua sits on the windward side of Oahu in Honolulu County, receiving consistent trade wind-driven rainfall that keeps the area lush and humid year-round. The windward coastal climate is ideal for termite activity, cockroach breeding, and year-round pest pressure with no cold season.",
+    topPests: [
+      "Drywood Termites",
+      "Formosan Subterranean Termites",
+      "American Cockroaches",
+      "Argentine Ants",
+      "Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Drywood Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round",
+        note: "The Hawaii Department of Agriculture confirms drywood termites across Oahu including Kailua's windward side. Kailua's humid windward coastal climate is ideal for termite activity, and both Cryptotermes brevis and Incisitermes immigrans are documented on Oahu. Annual inspections are the standard of care in Honolulu County.",
+      },
+      {
+        name: "Formosan Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms warm humid evenings, active year-round",
+        note: "Formosan subterranean termites (Coptotermes formosanus) are confirmed across Oahu including Kailua. The Hawaii Department of Agriculture identifies Formosan termites as a primary structural threat. They form very large colonies and cause major structural damage faster than drywood termites. Swarming occurs on warm humid evenings, typically spring through summer.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American and German cockroaches are year-round pests in Kailua's tropical windward Oahu climate. The warm humid conditions support continuous breeding with no seasonal pause. American cockroaches are primarily outdoor-origin pests that move indoors from mulch, drains, and yard vegetation.",
+      },
+      {
+        name: "Argentine Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Argentine ants and yellow crazy ants are invasive species present on Oahu causing significant nuisance in Kailua. Argentine ants form massive supercolonies and are highly persistent. Yellow crazy ants are a separate invasive concern that spreads rapidly in tropical environments.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are a structural and agricultural pest in Kailua's vegetated windward Oahu setting. The surrounding tropical vegetation provides continuous food and habitat. Rats enter buildings through roofline gaps and overhanging branches and are a common attic pest throughout windward Oahu.",
+      },
+    ],
+    localHook:
+      "Kailua is on the windward side of Oahu in Honolulu County, known for Kailua Beach, one of the most celebrated beaches in Hawaii. The humid windward climate and the lush tropical vegetation create conditions ideal for both drywood and Formosan subterranean termites. The Coconut Rhinoceros Beetle was first detected on Oahu in 2013 and continues to spread, posing a risk to Kailua's coconut palms and ornamental trees.",
+    intro:
+      "Kailua is a Honolulu County community on windward Oahu, one of the island's most desirable residential areas. Both drywood and Formosan subterranean termites are active here, confirmed by the Hawaii Department of Agriculture across Oahu. The windward climate is ideal for termite activity year-round. Cockroaches are year-round pests in the warm humid conditions. Argentine ants and yellow crazy ants are invasive species causing persistent nuisance in Kailua. Rats from the surrounding tropical vegetation are a consistent structural concern.",
+    sections: [
+      {
+        heading: "Windward Oahu's dual termite threat: what Kailua homeowners are dealing with",
+        body: "Kailua has the pest challenge that most of the mainland does not: two distinct termite species active at the same time, requiring different treatment approaches.\n\nDrywood termites infest wood directly, needing no soil contact. They push frass (small dry pellets) out of tiny holes in wood, and that frass is often the first sign a homeowner notices. The Hawaii Department of Agriculture confirms drywood termites across Oahu including windward areas like Kailua. Treatment depends on the extent of infestation: localized treatment handles contained infestations, while whole-structure fumigation addresses widespread activity.\n\nFormosan subterranean termites are a different category of problem. Coptotermes formosanus forms enormous underground colonies that can number in the millions and cause rapid, severe structural damage. They need soil moisture and forage up from the ground through mud tubes. The Hawaii DOA has confirmed their presence across Oahu. Swarming occurs on warm humid evenings, usually spring through summer, and is the most visible sign of a nearby colony.\n\nThe Coconut Rhinoceros Beetle, first detected on Oahu in 2013, adds a separate threat to Kailua's coconut palms and ornamental trees. It bores into the growing tip of palms and can kill young trees. Residents noticing distinctive V-shaped cuts in palm fronds should report the finding.\n\nFor Kailua homeowners, the practical response is an annual professional inspection that checks for both termite species and assesses treatment options based on findings.",
+      },
+      {
+        heading: "Cockroaches, invasive ants, and rats in Kailua: the numbers behind the nuisance",
+        body: "Cockroaches in Kailua are a year-round population management challenge, not a seasonal one. American cockroaches live in yard mulch, drains, and vegetation outside and move inside readily through gaps around pipes, doors, and utility lines. The warm windward Oahu climate means they breed continuously with no cold pause. German cockroaches are indoor-breeding pests that spread between units in multi-family housing, a relevant concern given Kailua's mix of homes and condominiums.\n\nArgentine ants are one of the world's most successful invasive ant species and they are well established on Oahu. They form supercolonies, meaning multiple nests that cooperate rather than compete, which makes them extremely difficult to control with standard perimeter barriers. Professional bait systems that worker ants carry back to the colony are more effective than contact sprays. Yellow crazy ants are a separate invasive species also present on Oahu, known for their erratic movement and large colony sizes.\n\nRats are a structural concern in Kailua because of the vegetated setting. Roof rats travel through trees and vegetation and enter buildings at the roofline. Overgrown plantings and fruit trees provide both food and a bridge to the structure. Exclusion plus cutting back vegetation from rooflines and walls is the standard approach. Trapping addresses rats already inside.",
+      },
+    ],
+    prevention: [
+      "Schedule annual professional termite inspections in Kailua to check for both drywood and Formosan subterranean termites, as both species are confirmed on windward Oahu.",
+      "Cut back tree branches and vegetation from rooflines and seal roofline gaps to block roof rat access in Kailua's vegetated tropical setting.",
+      "Seal gaps around doors, utility lines, and foundation at ground level to reduce American cockroach entry from yard mulch and drains in Honolulu County.",
+      "Report any suspected Coconut Rhinoceros Beetle damage (V-shaped cuts in palm fronds) promptly, as this invasive pest continues to spread across Oahu.",
+    ],
+    costNote:
+      "Kailua pest control typically covers a year-round general plan for cockroaches, ants, and rats, with termite protection quoted separately after a termite-specific inspection. Given windward Oahu's dual termite exposure, termite inspection and a protection plan are worth prioritizing. A free general pest inspection is the starting point.",
+    faqs: [
+      {
+        question: "Does Kailua have both types of termites?",
+        answer:
+          "Yes. Both drywood termites and Formosan subterranean termites are confirmed on Oahu including Kailua's windward side, according to the Hawaii Department of Agriculture. Drywood termites infest wood directly and push dry pellets out of small holes. Formosan termites build large underground colonies and approach structures through mud tubes. They require different treatments, which is why a professional inspection that identifies which species is present is the necessary first step for any Kailua homeowner.",
+      },
+      {
+        question: "Are the ants in Kailua different from mainland ants?",
+        answer:
+          "In important ways, yes. Argentine ants and yellow crazy ants are invasive species well established on Oahu that behave differently from common mainland species. Argentine ants form supercolonies across multiple nests that cooperate, making standard perimeter sprays less effective. Professional bait systems that worker ants carry back to the colony are the more reliable approach for Kailua homes dealing with persistent Argentine ant activity.",
+      },
+      {
+        question: "Why are rats such a problem in Kailua specifically?",
+        answer:
+          "Kailua's windward Oahu setting means lush tropical vegetation, fruit trees, and dense plantings surrounding most homes. That vegetation provides roof rats with constant food sources and habitat, and their climbing ability means they travel through tree canopies directly to rooflines. Any branch touching or overhanging a roof is a rat highway. Cutting back vegetation from rooflines and sealing gaps at the roofline significantly reduces roof rat entry in Honolulu County.",
+      },
+      {
+        question: "What is the Coconut Rhinoceros Beetle and does it affect Kailua?",
+        answer:
+          "The Coconut Rhinoceros Beetle was first detected on Oahu in 2013 and continues to spread. It bores into the growing tip (the crown) of coconut palms and other palms, causing V-shaped cuts in emerging fronds. Heavy infestations can kill young trees. If you see that distinctive V-cut pattern in palm fronds in Kailua or anywhere on Oahu, report it to the Hawaii Department of Agriculture. Early detection and reporting help contain its spread.",
+      },
+      {
+        question: "Do Kailua homes need year-round pest control or just seasonal treatment?",
+        answer:
+          "Year-round management is the practical approach for Kailua and windward Oahu generally. The tropical climate in Honolulu County means there is no cold season to reduce cockroach breeding, rat activity, or termite pressure. Annual or biennial termite inspections and a year-round general pest plan covering cockroaches, ants, and rodents reflects the reality of pest pressure on the windward side of Oahu.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Honolulu", slug: "honolulu" },
+      { name: "Hilo", slug: "hilo" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Kailua, HI | Termites, Cockroaches & Oahu Pests",
+    metaDescription:
+      "Kailua Oahu pest control for drywood termites, Formosan termites, cockroaches, ants and rats. Honolulu County windward Oahu specialists. Call 1-800-PEST-USA.",
+  },
 ];

@@ -341,4 +341,228 @@ export const wyomingCities: CityLocation[] = [
     metaDescription:
       "Laramie pest control for house mice, black widow spiders, German cockroaches, earwigs and ants. Albany County University of Wyoming high-altitude specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "rock-springs",
+    name: "Rock Springs",
+    state: "Wyoming",
+    stateSlug: "wyoming",
+    stateAbbr: "WY",
+    tier: "T3",
+    population: "~24,000",
+    county: "Sweetwater County",
+    climate: "semi-arid",
+    climateDriver:
+      "Rock Springs sits at approximately 6,300 feet in the high desert of southwest Wyoming, in the heart of the Green River Basin. The semi-arid desert shrub environment, extreme winter temperatures, and surrounding energy and agricultural land create a pest profile built around rodent intrusion and western black widow spiders rather than the humid-climate pests common at lower elevations.",
+    topPests: [
+      "Mice and Voles",
+      "Black Widow Spiders",
+      "Odorous House Ants",
+      "Boxelder Bugs",
+      "House Flies",
+    ],
+    pestProfile: [
+      {
+        name: "Mice and Voles",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, surge October through March",
+        note: "Mice are the dominant indoor pest in winter across Sweetwater County. At 6,300 feet, Wyoming winters are severe, and house mice push aggressively into Rock Springs buildings from the surrounding desert shrub and agricultural land beginning in October. Exclusion before the first cold snap is the most effective approach.",
+      },
+      {
+        name: "Black Widow Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active spring through fall, found year-round in sheltered spaces",
+        note: "Latrodectus hesperus, the western black widow, is common in the high desert of southwest Wyoming. The Wyoming Department of Agriculture confirms significant concern in Sweetwater County. Black widows are found in garages, storage areas, tool sheds, under wood piles, and in rock piles and rubble throughout Rock Springs. Their venom is medically significant.",
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Odorous house ants and pavement ants are common summer pests in Rock Springs, foraging indoors for food and moisture during the warm months.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Fall aggregation August through October",
+        note: "Boxelder bugs aggregate on buildings throughout Rock Springs each fall, seeking warmth before winter. They push inside through gaps around windows and doors and can appear in large numbers on south and west building faces.",
+      },
+      {
+        name: "House Flies",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Spring through fall, peak summer",
+        note: "House flies are abundant through summer in Rock Springs, encouraged by the energy industry and agricultural context of Sweetwater County. They are a warm-season nuisance from late spring through early fall.",
+      },
+    ],
+    localHook:
+      "Rock Springs is the economic hub of Sweetwater County and southwest Wyoming, built around the energy and mining industries along the Green River. The high desert setting at approximately 6,300 feet brings extreme winters that drive house mice aggressively into buildings. Western black widow spiders are a documented concern in Sweetwater County, common in the dry desert habitat around Rock Springs.",
+    intro:
+      "Rock Springs is a high desert energy city in Sweetwater County at about 6,300 feet. The cold winters and dry desert environment create a pest picture dominated by mice and black widow spiders rather than the humid-climate pests common in lower states. Mice push into Rock Springs buildings from October through March with force proportional to the Wyoming cold. Black widows are common in garages, outbuildings, woodpiles, and rock piles throughout the area. Ants and house flies are warm-season nuisances. Boxelder bugs aggregate on buildings each fall.",
+    sections: [
+      {
+        heading: "The two pests Rock Springs homeowners ask about most: black widows and mice",
+        body: "Black widow spiders and house mice are the two pests that come up in almost every Rock Springs conversation about pest control, and both make sense in context. The western black widow is genuinely at home in southwest Wyoming's high desert. Sweetwater County's rocky terrain, dry conditions, and abundance of garages, outbuildings, storage sheds, and woodpiles give them exactly what they need. The Wyoming Department of Agriculture confirms they are a significant concern in this area. You find them in low, sheltered spots: under wood stacks, in the corners of rarely used sheds, behind items stored in the garage. They are not aggressive, but their venom is medically significant, so any bites need medical attention.\n\nMice tell a different story. They are not a desert species in their habits but a survival species, and at 6,300 feet with Wyoming winters regularly pushing below zero, house mice push into Rock Springs buildings from October onward with real force. They come in from the surrounding desert shrub and the agricultural land around Sweetwater County. Gaps around pipes, settling cracks in foundations, and garage doors that do not seal properly are the entry points. Getting ahead of this with exclusion work in September is genuinely the best approach, and it matters for Rock Springs more than it would in a milder climate.",
+      },
+      {
+        heading: "What Rock Springs families see through the year: a seasonal pest guide",
+        body: "Spring brings the ants out. Odorous house ants and pavement ants become active as temperatures warm, and they forage inside homes looking for food and water. They are a nuisance more than a structural concern, but the colonies can be large and persistent without treatment.\n\nSummer is house fly season. The energy industry context of Sweetwater County and the surrounding agricultural land both contribute to fly pressure in Rock Springs through June, July, and August. Keeping garbage sealed, doors closed, and outdoor waste managed helps.\n\nBoxelder bugs show up in fall, reliably and in numbers. They are harmless but can aggregate in the hundreds on the south and west sides of buildings as they look for warmth. The same gaps that let them in will let mice in behind them in another few weeks, so fall sealing addresses both.\n\nMice surge from October through March. This is the longest-running pest challenge for Rock Springs families. A single missed gap can mean months of chewing, contamination, and stress. The pattern is predictable enough that a preventive inspection each September makes real sense.",
+      },
+    ],
+    prevention: [
+      "Seal all foundation gaps, pipe penetrations, and garage door weatherstripping in September before Wyoming's cold drives mice into Rock Springs buildings.",
+      "Keep woodpiles, rock piles, and stored items away from the building to reduce black widow harborage in Sweetwater County's high desert conditions.",
+      "Manage outdoor garbage and waste carefully through summer to reduce house fly breeding pressure in Rock Springs.",
+      "Inspect eaves and south-facing building faces in late August and seal entry points before boxelder bugs begin their fall aggregation.",
+    ],
+    costNote:
+      "Rock Springs pest control is often structured around two primary programs: a rodent exclusion and control plan running fall through spring, and a warm-season perimeter plan covering black widows, ants, and flies. Boxelder bug exclusion work is most effective when done in late summer. A free inspection establishes what is active before any cost is quoted.",
+    faqs: [
+      {
+        question: "Are black widow spiders really common in Rock Springs?",
+        answer:
+          "Yes. The western black widow is well established in Sweetwater County and the high desert of southwest Wyoming. The Wyoming Department of Agriculture confirms they are a significant concern in this area. Rock Springs has plenty of the dry, sheltered habitat they prefer: garages, outbuildings, woodpiles, rock piles, and storage sheds. Annual treatment of these areas reduces populations considerably. Anyone working in a garage or shed in Rock Springs should check corners and low sheltered spots before putting hands near them.",
+      },
+      {
+        question: "Why are mice such a problem in Rock Springs winters?",
+        answer:
+          "At 6,300 feet in southwest Wyoming, winters are severe and extended. House mice from the surrounding desert shrub and agricultural land have strong survival pressure to find heated shelter, and Rock Springs buildings are the most available option. The surge typically starts in October and runs through March. Exclusion, sealing every gap mice can use, is the most effective response. A single inspection before Wyoming winter arrives is worth more than months of reactive trapping.",
+      },
+      {
+        question: "What should I do if I find a black widow spider in my Rock Springs home?",
+        answer:
+          "Do not handle it. Black widow venom is medically significant and can cause significant pain, muscle cramps, and other symptoms requiring treatment. If bitten, seek medical attention promptly. For control, a licensed pest control technician can treat the harborage areas where black widows live in and around your home. Annual treatment of garages, outbuildings, and exterior rock and wood piles is the most effective approach in Sweetwater County.",
+      },
+      {
+        question: "When do boxelder bugs arrive in Rock Springs?",
+        answer:
+          "Boxelder bugs typically begin aggregating on Rock Springs buildings in August and September as daytime temperatures start to drop. They are drawn to south and west-facing walls where the sun warms the surface. They push inside through gaps around windows, doors, and utility lines. They do not bite or cause structural damage, but they appear in large numbers and can stain surfaces with excrement. Sealing the building exterior before August and vacuuming up any that enter are the most practical responses.",
+      },
+      {
+        question: "Does Rock Springs have a termite problem?",
+        answer:
+          "Termites are not a significant pest concern in Rock Springs or the wider Sweetwater County area. The high altitude, cold winters, and semi-arid desert conditions of southwest Wyoming are not favorable for subterranean termite colonies. Mice, black widow spiders, and fall-invading boxelder bugs are the primary pest challenges here, rather than the wood-destroying pests more common in warmer, wetter climates.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Cheyenne", slug: "cheyenne" },
+      { name: "Casper", slug: "casper" },
+      { name: "Gillette", slug: "gillette" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Rock Springs, WY | Mice, Black Widow Spiders & Desert Pests",
+    metaDescription:
+      "Rock Springs pest control for mice, black widow spiders, ants, boxelder bugs and flies. Sweetwater County high desert Wyoming specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "gillette",
+    name: "Gillette",
+    state: "Wyoming",
+    stateSlug: "wyoming",
+    stateAbbr: "WY",
+    tier: "T3",
+    population: "~33,000",
+    county: "Campbell County",
+    climate: "semi-arid",
+    climateDriver:
+      "Gillette sits in the Powder River Basin in northeast Wyoming, surrounded by grassland, rangeland, and coal mining operations. The semi-arid climate brings cold winters and warm dry summers. The agricultural and grassland environment supports significant rodent pressure, and the dry conditions are well suited to yellow jackets, black widows, and cluster flies.",
+    topPests: [
+      "Mice and Voles",
+      "Yellow Jackets and Wasps",
+      "Odorous House Ants",
+      "Black Widow Spiders",
+      "Cluster Flies",
+    ],
+    pestProfile: [
+      {
+        name: "Mice and Voles",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, aggressive surge October through March",
+        note: "Mice and voles enter Gillette buildings from the surrounding Powder River Basin grassland and agricultural areas from October through March. The Wyoming Department of Agriculture extension confirms rodents as the top pest call across Wyoming communities. Cold winters give mice strong pressure to find heated shelter.",
+      },
+      {
+        name: "Yellow Jackets and Wasps",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "May through October, most aggressive August and September",
+        note: "Yellow jackets are common through summer in Gillette, nesting underground and in wall voids in the dry semi-arid conditions. Colonies reach peak size in August and September and are most defensive during those weeks. Paper wasps nest under eaves and in sheltered exterior spaces.",
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Ants are active through the warmer months in Campbell County, with odorous house ants and pavement ants the most common species foraging into Gillette homes through summer.",
+      },
+      {
+        name: "Black Widow Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active spring through fall, sheltered year-round",
+        note: "Black widow spiders are present in Campbell County, where the dry semi-arid conditions are well suited to the western black widow. Garages, storage sheds, woodpiles, and exterior debris piles are the typical harborage areas in the Gillette area.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Fall aggregation September through October",
+        note: "Cluster flies are a reliable fall nuisance in Gillette's agricultural-adjacent Powder River Basin environment. They aggregate on warm building faces in September and October seeking overwintering sites, pushing inside through gaps in the building exterior.",
+      },
+    ],
+    localHook:
+      "Gillette is the coal capital of the United States, with the Powder River Basin supplying a significant portion of the nation's coal. The grassland and agricultural environment surrounding Campbell County drives aggressive mouse pressure each fall. Wyoming Department of Agriculture resources confirm rodents as the most common pest concern across Wyoming communities.",
+    intro:
+      "Gillette is Campbell County's largest city and the heart of Wyoming's coal industry in the Powder River Basin. Mice from the surrounding grassland and ranching land are the primary pest challenge, entering Gillette buildings from October through March. Yellow jackets are common through summer and into early fall. Black widows are present in the dry conditions of Campbell County. Ants are a warm-season nuisance. Cluster flies aggregate in fall in this agricultural-edge environment.",
+    sections: [
+      {
+        heading: "Rodent control options for Gillette homeowners: exclusion, baiting, and trapping compared",
+        body: "Mice from the Powder River Basin grassland put consistent pressure on Gillette buildings every fall, and there are three main approaches homeowners and pest control services use. Understanding the differences helps you ask the right questions.\n\nExclusion is the only method that actually stops mice from entering. It involves sealing every gap, crack, and penetration that mice can use: foundation cracks, pipe entries, garage door weatherstripping, utility line entries. Wyoming Department of Agriculture guidance consistently identifies exclusion as the foundation of any effective rodent program. The challenge is that it requires a thorough inspection to find all the entry points, and even small gaps matter since mice can squeeze through a hole the size of a dime.\n\nBaiting uses rodenticide blocks placed in tamper-resistant stations around the building exterior. It reduces the rodent population actively entering the building. It does not stop new mice from arriving from Campbell County's grassland, so it works best in combination with exclusion rather than instead of it.\n\nTrapping is the preferred method for interior rodents already inside a building. Snap traps placed along walls and behind appliances intercept mice moving through the building. They require regular checking and removal of catches. For Gillette's fall and winter surge, trapping alone is rarely sufficient without exclusion to reduce entry.",
+      },
+      {
+        heading: "Yellow jackets, black widows, cluster flies, and ants: seasonal insect pest options in Campbell County",
+        body: "Yellow jackets are the most urgent summer pest concern in Gillette, and there is a real difference between DIY and professional approaches. DIY sprays from hardware stores can work on small exposed nests but are genuinely dangerous applied to underground nests or wall voids where the colony cannot escape. Yellow jackets defending an underground nest in a Gillette lawn in August can respond with speed that catches homeowners off guard. Professional treatment of active nests, particularly underground ones, is the safer approach when colony size is unknown.\n\nBlack widow spiders in Campbell County live in the dry, sheltered habitat around garages and outbuildings. Annual perimeter treatment of these areas is far more manageable than dealing with an established population. DIY spray cans reach exposed surfaces but miss the sheltered corners where black widows actually live.\n\nCluster flies are primarily an exclusion problem. They push inside in fall seeking warmth, and sealing the building in late August before they begin aggregating is more effective than trying to spray them once they are inside. Vacuuming up interior clusters is the most practical immediate response.\n\nAnts respond well to professional bait systems applied in spring before colonies reach full size.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and garage door weatherstripping in September before Gillette's winter drives mice in from Campbell County's grassland.",
+      "Address yellow jacket nests in spring when colonies are small, before August and September when they are largest and most defensive.",
+      "Keep woodpiles and exterior stored items away from the building to reduce black widow harborage in Campbell County's dry conditions.",
+      "Seal building exterior gaps in late August before cluster flies begin their fall aggregation in Gillette's agricultural-edge environment.",
+    ],
+    costNote:
+      "Gillette pest control is commonly structured around a fall and winter rodent program and a warm-season perimeter plan covering yellow jackets, spiders, and ants. Cluster fly exclusion work is most effective when done in late summer. A free inspection establishes what is active before any cost is quoted.",
+    faqs: [
+      {
+        question: "Why are mice such a consistent problem in Gillette each fall?",
+        answer:
+          "Gillette is surrounded by Powder River Basin grassland and ranching land that support large populations of mice and voles. As Wyoming temperatures drop from October onward, those rodents have strong survival pressure to find heated shelter, and Gillette buildings are the most available option. The Wyoming Department of Agriculture confirms rodents as the top pest call across Wyoming communities. The pattern is reliable enough that a preventive exclusion inspection in September makes real sense for Campbell County homeowners.",
+      },
+      {
+        question: "Are yellow jackets dangerous in Gillette?",
+        answer:
+          "Yes, particularly in August and September when colonies reach peak size. Yellow jackets build underground nests in loose soils common in the Powder River Basin and are most defensive when their nest is disturbed. Accidental encounters during lawn mowing or digging are the typical hazard. Any person with a known bee or wasp allergy should carry an epinephrine auto-injector. Professional removal of underground nests is safer than DIY attempts when the colony's location and size are uncertain.",
+      },
+      {
+        question: "Are black widow spiders present in Campbell County?",
+        answer:
+          "Yes. The western black widow is present in the Gillette area, and the dry semi-arid conditions of Campbell County suit them well. They favor sheltered spots: garage corners, storage sheds, woodpiles, and exterior debris. They are not aggressive, but their venom is medically significant. Annual treatment of garages and outbuildings reduces populations. Shake out gloves, boots, and stored items before using them if they have been sitting undisturbed.",
+      },
+      {
+        question: "What are cluster flies and why do they come into Gillette homes in fall?",
+        answer:
+          "Cluster flies are larger than house flies and move slowly, and they aggregate on warm building faces in September and October seeking overwintering sites. In Gillette's agricultural environment they are a regular fall nuisance. They push inside through gaps and then cluster in wall voids and attic spaces. They do not breed indoors or cause structural damage. The most effective approach is sealing the building in late August before they arrive. Once inside, vacuuming up clusters is the practical response.",
+      },
+      {
+        question: "Do Gillette homes need termite treatment?",
+        answer:
+          "Termites are not a significant pest concern in Gillette or Campbell County. The cold winters and semi-arid conditions of the Powder River Basin are not favorable for subterranean termite colonies. The structural pest concerns in northeast Wyoming are carpenter bees and mice rather than termites. Rodent exclusion and stinging insect management are the practical priorities for Gillette homeowners.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Casper", slug: "casper" },
+      { name: "Cheyenne", slug: "cheyenne" },
+      { name: "Rock Springs", slug: "rock-springs" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Gillette, WY | Mice, Wasps, Spiders & Powder River Pests",
+    metaDescription:
+      "Gillette pest control for mice, yellow jackets, black widow spiders, ants and cluster flies. Campbell County Wyoming coal country specialists. Call 1-800-PEST-USA.",
+  },
 ];

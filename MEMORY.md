@@ -8,16 +8,16 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-14)
+## Current State (2026-06-15)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-30 complete. T2 COMPLETE.
-- **City pages built:** 750 total (75 T1 + 300 T2 + 375 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-32 complete. T2 COMPLETE.
+- **City pages built:** 800 total (75 T1 + 300 T2 + 425 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 833 in the static export (home, services, 50+ states, 750 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=151, B=150, C=150, D=150, E=149 (750 total cities, all within 15-25% range).
-- **Cities built T3 chunks 29-30 (50):** Chunk 29: Waterloo IA (A), Council Bluffs IA (B), Ankeny IA (C), Iowa City IA (D), Ames IA (E), Bellevue NE (A), Grand Island NE (B), Kearney NE (C), Lawrence KS (D), Manhattan KS (E), Salina KS (A), Lenexa KS (B), Shawnee KS (C), Midwest City OK (D), Stillwater OK (E), Muskogee OK (A), Bartlesville OK (B), Joplin MO (C), Jefferson City MO (D), Florissant MO (E), St. Peters MO (A), Wentzville MO (B), Chesterfield MO (C), Sheboygan WI (D), West Allis WI (E). Chunk 30: Wausau WI (A), Fond du Lac WI (B), Beloit WI (C), Midland MI (D), Jackson MI (E), Port Huron MI (A), Winchester VA (B), Staunton VA (C), Nampa ID (D), Meridian ID (E), Idaho Falls ID (A), Caldwell ID (B), Coeur d'Alene ID (C), Pocatello ID (D), Great Falls MT (E), Missoula MT (A), Bozeman MT (B), Casper WY (C), Laramie WY (D), Roswell NM (E), Farmington NM (A), Rock Hill SC (B), Greenville SC (C), Florence SC (D), Bossier City LA (E).
-- **New state files added chunks 29-30:** none (all states already registered in index.ts).
-- **Next block:** Chunk 31, T3 continues, rotation at A.
+- **Total site pages:** 883 in the static export (home, services, 50+ states, 800 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=162, B=160, C=160, D=160, E=158 (800 total cities, all 19.75-20.25%, within 15-25% range).
+- **Cities built T3 chunks 31-32 (50):** Chunk 31/32 run 1 (41 cities): Hattiesburg MS (A), Biloxi MS (B), Tupelo MS (C), Southaven MS (D), Meridian MS (E), Olive Branch MS (A), Clinton MS (D), Dover DE (A), Newark DE (B), Middletown DE (C), Bismarck ND (A), Grand Forks ND (B), Minot ND (C), West Fargo ND (C), Mandan ND (E), Rapid City SD (D), Aberdeen SD (E), Huntington WV (D), Parkersburg WV (E), Morgantown WV (A), Wheeling WV (B), Nashua NH (C), Concord NH (D), Dover NH (C), Rochester NH (D), Lewiston ME (E), Bangor ME (A), South Portland ME (E), Cranston RI (B), Warwick RI (C), Pawtucket RI (D), East Providence RI (A), Woonsocket RI (B), Kenner LA (A), Monroe LA (B), New Iberia LA (C), Rock Springs WY (B), Gillette WY (C), Helena MT (D), Butte MT (E), Kalispell MT (A). Run 2 (9 cities): Spartanburg SC (E), Myrtle Beach SC (A), Sumter SC (B), Anderson SC (C), Aiken SC (D), Hilo HI (D), Kailua HI (E), South Burlington VT (A), Rutland VT (B).
+- **New state files added chunks 31-32:** none (all states already registered in index.ts).
+- **Next block:** Chunk 33, T3 continues, rotation at C.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

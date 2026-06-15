@@ -122,4 +122,235 @@ export const southDakotaCities: CityLocation[] = [
     metaDescription:
       "Sioux Falls pest control for house mice, boxelder bugs, carpenter ants, mosquitoes and German cockroaches. Minnehaha County Big Sioux River specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "rapid-city",
+    name: "Rapid City",
+    state: "South Dakota",
+    stateSlug: "south-dakota",
+    stateAbbr: "SD",
+    tier: "T3",
+    population: "~77,000",
+    county: "Pennington County",
+    climate: "semi-arid",
+    climateDriver:
+      "Rapid City sits at approximately 3,200 feet elevation at the eastern edge of the Black Hills in Pennington County, giving it a semi-arid climate with cold winters, hot dry summers, and dramatic weather swings typical of the northern Great Plains meets mountain foothills zone. The elevation and proximity to the Black Hills create the rocky terrain and open spaces that support both black widow spiders and Rocky Mountain wood ticks. Cold winters drive mice aggressively into structures from October, while dry summer conditions concentrate yellow jacket activity around food and water sources.",
+    topPests: [
+      "Mice and Voles",
+      "Black Widow Spiders",
+      "Rocky Mountain Wood Ticks",
+      "Yellow Jackets",
+      "Boxelder Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Mice and Voles",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note:
+          "Rapid City winters are cold and long, and mice from the surrounding Pennington County range land and Black Hills edge habitat press into city structures from October onward. The rock piles, stone walls, and natural features common to Black Hills properties provide extensive outdoor harborage before mice transition to indoor shelter.",
+      },
+      {
+        name: "Black Widow Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active April through October, sheltered year-round",
+        note:
+          "Black widows (Latrodectus hesperus) are present in Pennington County and documented in Rapid City's garages, storage sheds, rock walls, and under porches. The rocky terrain and dry climate of the Black Hills foothills creates ideal habitat. South Dakota Game Fish and Parks confirms black widow presence in the western SD region.",
+      },
+      {
+        name: "Rocky Mountain Wood Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through August, peak April through June",
+        note:
+          "Rocky Mountain wood ticks (Dermacentor andersoni) carry Rocky Mountain spotted fever and are well established in the Black Hills region, including Pennington County. South Dakota Game Fish and Parks documents tick activity in the Hills, and outdoor recreation near Mount Rushmore and surrounding Black Hills trails brings residents and visitors into direct contact with peak tick habitat.",
+      },
+      {
+        name: "Yellow Jackets",
+        activeSeason: "Nests active May through September",
+        note:
+          "Dry semi-arid summers in Rapid City concentrate yellow jackets around available food and water sources. Ground nests in rocky, well-drained soil are common in the Black Hills foothills, and the dry conditions mean colonies persist close to residential areas where food waste and irrigation attract workers.",
+      },
+      {
+        name: "Boxelder Bugs",
+        activeSeason: "Aggregate September through October",
+        note:
+          "Boxelder trees grow throughout Rapid City's established neighborhoods, and the fall aggregation pattern on south-facing building walls is a familiar seasonal event in Pennington County, consistent with other Great Plains cities.",
+      },
+    ],
+    localHook:
+      "Mount Rushmore is in Pennington County, and the Black Hills backcountry surrounding Rapid City is prime Rocky Mountain wood tick country. South Dakota Game Fish and Parks confirms tick activity in the Hills, and Rocky Mountain spotted fever, carried by the wood tick, is a serious disease that requires prompt medical attention. Residents who hike, camp, or spend time outdoors in the Black Hills need a tick awareness and prevention plan.",
+    intro:
+      "Rapid City sits at the gateway to the Black Hills, and the semi-arid elevation climate here creates a pest picture different from the eastern South Dakota cities. Mice are the dominant fall and winter pest call from October through March. Black widow spiders are a real presence in garages, rock walls, and storage areas given the rocky Black Hills terrain and dry climate. Rocky Mountain wood ticks are active in the surrounding Hills from spring through summer, carrying Rocky Mountain spotted fever. Yellow jackets are aggressive in the dry summer months. Boxelder bugs round out the fall lineup. This is a city where tick awareness matters as much as any structural pest prevention.",
+    sections: [
+      {
+        heading: "Black widows and ticks: the Black Hills outdoor health risks",
+        body: "Rapid City's Black Hills setting brings two pest health risks that are less common in eastern South Dakota cities. Black widow spiders are present in Pennington County, identified in garages, under porches, in woodpiles, and in the rock piles and stone walls that are common features of properties throughout the Black Hills foothills. The western black widow (Latrodectus hesperus) is the relevant species here, and its venom is medically significant. Checking gloves, shoes, and any container that has been stored in a garage or shed before use is a practical and effective precaution. Rocky Mountain wood ticks present a different kind of risk. These ticks are established in the Black Hills and are the vector for Rocky Mountain spotted fever, a bacterial infection that can be serious if not treated promptly. The peak activity period is April through June, when nymphal and adult ticks are questing in vegetation. Anyone hiking, working in brushy areas, or spending time in the Black Hills backcountry near Mount Rushmore should do a full body tick check after outdoor time. South Dakota Game Fish and Parks documents tick activity throughout the Black Hills region, which includes the Pennington County backcountry.",
+      },
+      {
+        heading: "Mice in the Black Hills foothills: the fall structural pest",
+        body: "Mice are the most common structural pest call in Rapid City from October through March. The Black Hills foothills location means properties at the city's edge border natural range land and forest that harbors substantial deer mouse and house mouse populations. When temperatures drop in October, mice push toward warm structures and can enter through gaps as small as a dime in foundations, utility entries, and around pipe chases. Rock walls and stone landscaping features common in Black Hills properties provide excellent outdoor harborage before mice test building foundations. The practical approach is exclusion sealing in September, before the fall pressure peaks, combined with exterior bait stations along fence lines and building perimeters for any mice still approaching from the surrounding range. Snap traps inside address mice that got through during the warm-season gaps. A key difference in Rapid City compared to eastern SD cities: deer mice in the Black Hills area carry hantavirus. While hantavirus is rare, disturbing mouse droppings in enclosed spaces like garages, sheds, and crawl spaces should be done with respiratory protection. This is an additional reason to address rodent problems promptly rather than letting them persist through the winter.",
+      },
+    ],
+    prevention: [
+      "Check gloves, stored shoes, and containers in garages and sheds for black widows before use, especially in properties with rock walls or stone landscaping.",
+      "Do full body tick checks after any outdoor time in the Black Hills, brushy areas, or trails near Rapid City from March through August.",
+      "Seal foundation gaps, utility entries, and door sweeps in September before mice from Pennington County range land push into structures for winter.",
+      "Treat building perimeters in early September when boxelder bugs aggregate on exterior walls and address ground yellow jacket nests before late-season aggression peaks.",
+    ],
+    costNote:
+      "Rapid City pest control typically involves a fall exclusion and perimeter treatment for mice and boxelder bugs, spider treatments for properties with documented black widow activity, and tick programs for properties on the Black Hills edge. Spider and tick treatments are often combined in a single spring outdoor treatment visit. Mouse exclusion is the highest-volume fall service. Yellow jacket nest removal is quoted per nest.",
+    faqs: [
+      {
+        question: "Are black widow spiders really in Rapid City?",
+        answer:
+          "Yes. Black widows are documented in Pennington County and found in Rapid City garages, storage sheds, under porches, in woodpiles, and in the rock walls and stone features common throughout Black Hills foothills properties. The western black widow (Latrodectus hesperus) is the species present. Their venom is medically significant. Checking stored items before handling and wearing gloves in garage and shed environments is a practical precaution. A spider treatment targeting the exterior of the building and rock features reduces their presence around the home.",
+      },
+      {
+        question: "What ticks should I worry about in the Black Hills near Rapid City?",
+        answer:
+          "Rocky Mountain wood ticks (Dermacentor andersoni) are the primary tick concern in the Black Hills and the main vector for Rocky Mountain spotted fever in this region. South Dakota Game Fish and Parks documents their presence throughout the Black Hills, including Pennington County. Peak activity runs April through June. Deer ticks (black-legged ticks) are also present in South Dakota and carry Lyme disease. Full body tick checks after outdoor time in the Hills and brushy areas are the most effective personal protection step.",
+      },
+      {
+        question: "Does Rocky Mountain spotted fever actually occur near Rapid City?",
+        answer:
+          "Rocky Mountain spotted fever cases are reported in South Dakota, and the Black Hills are considered an active tick zone by state health officials. Rocky Mountain wood ticks are the documented vector in the western SD region. The disease is treatable with antibiotics when caught early, but it can be serious if delayed. Any fever, rash, or flu-like symptoms following a tick bite in the Black Hills area should be reported to a physician promptly.",
+      },
+      {
+        question: "When do mice become a problem in Rapid City?",
+        answer:
+          "The fall mouse push in Rapid City begins in October as temperatures drop at the Black Hills elevation and range land surrounding the city loses its ground cover. Properties on Pennington County's western and southern edges, closest to natural range land, tend to see early pressure. Exclusion sealing in September closes the gaps before the push begins. Deer mice in the Black Hills area are a hantavirus concern, so addressing rodent problems promptly and avoiding contact with droppings in enclosed spaces is both a pest control and a health precaution.",
+      },
+      {
+        question: "Are yellow jackets particularly aggressive in Rapid City summers?",
+        answer:
+          "The dry semi-arid summers concentrate yellow jackets around available food and water sources, which can make them more aggressive in Rapid City's outdoor dining and recreation areas than in wetter climates. Ground nests in the rocky, well-drained soil of the Black Hills foothills are common and dangerous to disturb accidentally. Professional treatment at dusk, when workers have returned to the nest, is the safe approach for ground nests. Nests in wall voids or under eaves should also be treated professionally.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Sioux Falls", slug: "sioux-falls" },
+      { name: "Aberdeen", slug: "aberdeen-sd" },
+      { name: "Bismarck", slug: "bismarck" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle:
+      "Pest Control in Rapid City, SD | Mice, Ticks, Spiders & Yellow Jackets",
+    metaDescription:
+      "Rapid City pest control for mice, black widow spiders, Rocky Mountain wood ticks and yellow jackets. Pennington County Black Hills specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "aberdeen-sd",
+    name: "Aberdeen",
+    state: "South Dakota",
+    stateSlug: "south-dakota",
+    stateAbbr: "SD",
+    tier: "T3",
+    population: "~28,000",
+    county: "Brown County",
+    climate: "cold",
+    climateDriver:
+      "Aberdeen sits in the James River Valley in northern South Dakota, where Brown County's agricultural plains and cold continental climate create pest pressure centered on rodents and cluster flies. Very cold winters, regularly reaching -20F, mean any pest that cannot overwinter in a structure dies. Mice from surrounding Brown County cropland enter structures aggressively in October at harvest. Cluster flies from surrounding farm fields are one of the most defining pest characteristics of this heavily agricultural region, breeding in earthworm populations in surrounding fields and overwintering in buildings. The James River provides some summer mosquito habitat.",
+    topPests: [
+      "Mice and Voles",
+      "Cluster Flies",
+      "Boxelder Bugs",
+      "Odorous House Ants",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "Mice and Voles",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through April",
+        note:
+          "Brown County surrounds Aberdeen with productive agricultural land, and harvest season in October simultaneously removes food and cover from field mouse populations. The mice move toward the nearest warm structures, and Aberdeen's position as the regional hub means it draws from a wide agricultural catchment. South Dakota State University Extension identifies rodents as the top pest concern for the northern SD agricultural region.",
+      },
+      {
+        name: "Cluster Flies",
+        activeSeason: "Invade structures September through October, emerge on warm winter days",
+        note:
+          "Cluster flies are arguably the most distinctive pest in Aberdeen given the density of surrounding Brown County agricultural land. They breed in earthworms in farm fields through summer, then converge on building exteriors in September looking for overwintering sites. Aberdeen homes, particularly older structures with uninsulated attics, can harbor large overwintering populations.",
+      },
+      {
+        name: "Boxelder Bugs",
+        activeSeason: "Aggregate September through October",
+        note:
+          "Boxelder trees in Aberdeen's established neighborhoods produce the same fall aggregation event as in other Great Plains cities, with bugs clustering on south-facing building walls in September before pushing into wall voids.",
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August",
+        note:
+          "Odorous house ants are the dominant summer ant call in Aberdeen, active during the compressed warm season and foraging into kitchens and bathrooms from outdoor foundation colonies.",
+      },
+      {
+        name: "Yellow Jackets",
+        activeSeason: "Nests active June through September",
+        note:
+          "Yellow jacket colonies build through Aberdeen's short summer and reach peak size and aggression in late August and September. Ground nests in the surrounding agricultural and residential land are the most common format in this northern plains city.",
+      },
+    ],
+    localHook:
+      "Aberdeen is the regional hub of the James River Valley, surrounded by some of the most productive agricultural land in the northern Great Plains. South Dakota State University Extension specifically identifies rodents and cluster flies as the top pest concerns for the northern South Dakota agricultural region, a direct reflection of what Brown County homeowners and businesses deal with every fall.",
+    intro:
+      "Pest control in Aberdeen follows the agricultural calendar of the Brown County James River Valley. October brings the fall invasion from two directions: field mice displaced from harvested cropland and cluster flies from surrounding farm fields both converge on Aberdeen structures in the same window. These are the two defining pest characteristics of this northern agricultural city. Summer is short but active, with yellow jackets, ants, and occasional mosquito pressure from the James River corridor. Getting the fall exclusion and building gap sealing done in September is the highest-impact pest control investment for most Aberdeen homeowners and businesses.",
+    sections: [
+      {
+        heading: "Cluster flies in Aberdeen: what they are and why they choose your building",
+        body: "Cluster flies are a pest that many Aberdeen residents know well but sometimes misidentify as house flies. The key differences: cluster flies are larger, slower, and arrive in fall rather than summer. They do not breed in garbage or decaying food. They breed in earthworms in the surrounding Brown County agricultural fields during summer months, then seek warm overwintering sites in September and October. Buildings with accessible attics, wall voids, and gaps around window frames and soffits are their preferred roosts. On warm winter days, they emerge from walls and attics in large, disorienting numbers. South Dakota State University Extension identifies cluster flies as a top pest concern for the northern SD agricultural region, directly reflecting Aberdeen's experience. Prevention requires attention to the building envelope in September: soffit vent screening, window frame sealing, and roof line gap inspection before the fall aggregation begins. Once inside, the population is difficult to remove completely without physically accessing the attic and void spaces. A residual insecticide treatment applied to exterior wall surfaces and gap areas in early September, when cluster flies are aggregating on the outside, is the most effective timing.",
+      },
+      {
+        heading: "Mice in Brown County: harvest season and the fall structural pest push",
+        body: "Aberdeen's agricultural setting creates a predictable fall mouse problem. When Brown County farmers harvest their fields in September and October, the mice and voles living in those crops lose both their food source and their cover in a matter of days. The city is the nearest warm destination, and Aberdeen homes and businesses are in the path. The James River Valley's flat terrain means there are few natural barriers between farm fields and residential neighborhoods. A mouse can enter through a gap as small as a dime. Common entry points in Aberdeen include gaps at the foundation where utilities enter, unscreened soffit vents, spaces under garage doors without proper sweeps, and gaps around dryer vents and air conditioning lines. An exclusion inspection in September that addresses all of these before harvest covers the problem proactively. Exterior bait stations along fence lines and building perimeters handle any mice still approaching. Interior snap traps address mice already inside. The cold winters mean mice that get inside in October stay through April, so stopping entry before harvest is consistently more effective than extended winter trapping programs.",
+      },
+    ],
+    prevention: [
+      "Screen all soffit vents and seal roof line, window frame, and gap areas in September before cluster flies begin aggregating on the building exterior.",
+      "Seal foundation gaps, utility entries, and garage door sweeps before October harvest when field mice from Brown County cropland displace toward structures.",
+      "Treat building perimeters in early September when boxelder bugs aggregate on south-facing walls, before they enter wall voids.",
+      "Knock down yellow jacket ground nests in late August before peak colony aggression, addressing nests on the property before fall lawn work.",
+    ],
+    costNote:
+      "Aberdeen pest control is structured around the fall exclusion and building envelope treatment as the primary seasonal service, typically done in September to cover cluster flies, mice, and boxelder bugs simultaneously. This combined approach is more cost-effective than three separate service calls. Summer programs for yellow jackets and ants are shorter-duration given the compressed northern South Dakota warm season.",
+    faqs: [
+      {
+        question: "Why do cluster flies keep coming back in my Aberdeen home every fall?",
+        answer:
+          "Because the agricultural source is permanent. Brown County's farm fields produce earthworm populations that sustain cluster fly breeding every summer, and the same flies seek overwintering sites every fall. If your building has accessible gaps in the attic, soffits, or wall voids, it will continue to attract cluster flies each year until those gaps are sealed. An annual September exclusion treatment, applied to exterior surfaces while flies are still aggregating outside, combined with vent screening and gap sealing, breaks the annual re-infestation cycle.",
+      },
+      {
+        question: "When do mice start entering homes in Aberdeen?",
+        answer:
+          "The fall mouse push in Aberdeen typically begins in late September as crop harvesting removes cover from surrounding Brown County fields. By October, the pressure is well established. Mice can enter through gaps as small as a dime, so exclusion sealing needs to address foundation gaps, utility entries, soffit vents, and garage door sweeps before harvest season. South Dakota State University Extension identifies rodents as the top pest concern for the northern SD agricultural region.",
+      },
+      {
+        question: "Are there any pests that are particularly bad in Aberdeen that other SD cities don't see?",
+        answer:
+          "Cluster flies are more intense in Aberdeen than in Sioux Falls or Rapid City because of the density of surrounding Brown County agricultural land. The more farm fields within range of a city, the more earthworm habitat generating cluster flies in summer. Aberdeen's position as a hub surrounded by productive agricultural land on all sides creates consistently heavy cluster fly pressure each fall. This is a top complaint among Aberdeen homeowners and is directly reflected in South Dakota State University Extension's pest intelligence for the northern region.",
+      },
+      {
+        question: "Is there a mosquito problem in Aberdeen near the James River?",
+        answer:
+          "The James River provides some mosquito breeding habitat, but Aberdeen's mosquito pressure is generally lower than Sioux Falls (Big Sioux River) or the Red River Valley cities. The compressed summer and consistent wind in the James River Valley limit the severity. Properties closest to the river or its adjacent wetland areas see the most mosquito activity from June through August.",
+      },
+      {
+        question: "What is the best time of year to schedule pest control in Aberdeen, SD?",
+        answer:
+          "September is the highest-value timing for most Aberdeen homeowners. A September exclusion and perimeter visit covers cluster fly prevention, mouse exclusion sealing, and boxelder bug perimeter treatment all in one window before the pressure peaks and temperatures make exterior work difficult. Yellow jacket nest removal in late August, before peak aggression, is a separate but similarly time-sensitive service.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Sioux Falls", slug: "sioux-falls" },
+      { name: "Rapid City", slug: "rapid-city" },
+      { name: "Bismarck", slug: "bismarck" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Aberdeen, SD | Mice, Cluster Flies & Winter Pest Control",
+    metaDescription:
+      "Aberdeen pest control for mice, cluster flies, boxelder bugs and ants. Brown County northern South Dakota agricultural region specialists. Call 1-800-PEST-USA.",
+  },
 ];

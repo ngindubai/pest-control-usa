@@ -15,7 +15,7 @@
 
 **AUTONOMY (5 June 2026):** the build routine runs unattended. One block per run, full 7-stage pipeline as the QA gate, commit to main, deploy auto, post live links to Slack as a record. There is no approval step, no wait-for-go, and no stop condition. Advance through the phases in order; when the city universe is built, the pest x city matrix (Phase 6) is the long-tail engine and runs indefinitely.
 
-**Where we are:** Phase 3 T3 in progress. Chunks 15-30 complete: 750 total city pages built (75 T1 + 300 T2 + 375 T3). T2 COMPLETE. Next: chunk 31, T3 continues, rotation at A.
+**Where we are:** Phase 3 T3 in progress. Chunks 15-30 complete, chunks 31-32 partial: 791 total city pages built (75 T1 + 300 T2 + 416 T3). T2 COMPLETE. Next: complete chunks 31-32 with SC (5), HI (2), VT (2) = 9 cities remaining.
 
 ---
 

@@ -670,4 +670,355 @@ export const louisianaCities: CityLocation[] = [
     metaDescription:
       "Bossier City pest control for Formosan subterranean termites, German cockroaches, mosquitoes, fire ants and house mice. Bossier Parish Red River Shreveport metro Barksdale specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "kenner",
+    name: "Kenner",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~65,000",
+    county: "Jefferson Parish",
+    climate: "tropical",
+    climateDriver:
+      "Kenner sits in Jefferson Parish on the southern shore of Lake Pontchartrain, within the Greater New Orleans subtropical zone. The Gulf Coast climate delivers hot, humid summers, mild winters, and year-round rainfall that sustains pest activity without a genuine dormant season. LSU AgCenter identifies Jefferson Parish as one of the most intense Formosan termite infestation zones in the country. Lake Pontchartrain's shoreline and the drainage canal network throughout Kenner create extensive mosquito breeding habitat through the warm season.",
+    topPests: [
+      "Formosan Termites",
+      "Mosquitoes",
+      "American Cockroaches",
+      "Fire Ants",
+      "Eastern Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms late spring (April through June), active year-round",
+        note:
+          "Jefferson Parish is documented by LSU AgCenter as one of the most severe Formosan subterranean termite infestation areas in the country. Kenner's residential neighborhoods experience intense Formosan pressure, with colonies capable of causing significant structural damage well before visible signs appear. Both Formosan and eastern subterranean termites are present in Jefferson Parish, making active termite protection more important than periodic inspection alone.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round",
+        note:
+          "Kenner's proximity to the Lake Pontchartrain shoreline creates extensive mosquito breeding habitat throughout the city. The subtropical climate sustains near year-round mosquito activity, with peak pressure from April through October. Stagnant water in drainage canals, low-lying yards, and areas along the lakefront supports large breeding populations throughout the warm season.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "American cockroaches are active year-round in subtropical Jefferson Parish. Kenner's airport-adjacent commercial areas, older residential neighborhoods, and extensive sewer and drainage infrastructure provide ample harborage. The warm, humid climate gives this species no meaningful winter break, making year-round management the only effective approach.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note:
+          "Fire ants are active year-round throughout Jefferson Parish, with no winter dormancy in the subtropical climate. Kenner's residential lawns, parks, and open spaces support persistent fire ant populations. Mounds rebuild quickly after rain events, and broadcast bait treatment of the full lawn is more effective than treating individual mounds.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms spring",
+        note:
+          "Eastern subterranean termites are present alongside Formosan termites throughout Jefferson Parish. Both species are active year-round in Kenner's warm climate. Eastern subterranean termites typically swarm earlier in spring, February through April, while Formosan swarms peak later in April through June. A professional inspection can identify which species are present and determine the appropriate treatment protocol.",
+      },
+    ],
+    localHook:
+      "Kenner is home to Louis Armstrong New Orleans International Airport (MSY), the major air gateway to the New Orleans metro. Jefferson Parish is documented by LSU AgCenter as one of the most severe Formosan termite infestation areas in the country. The suburban character of Kenner and its position along the Lake Pontchartrain shoreline create diverse pest pressure throughout the city.",
+    intro:
+      "Kenner is a Jefferson Parish suburb of New Orleans, adjacent to Louis Armstrong Airport and the Lake Pontchartrain shoreline. Jefferson Parish carries some of the most severe Formosan termite pressure anywhere in the United States, a designation confirmed by LSU AgCenter, and Kenner's residential neighborhoods sit squarely inside that high-risk zone. Mosquitoes are active near the lake for most of the year, fire ants persist year-round in the subtropical climate, and American cockroaches are a constant presence in both residential and commercial properties. There is no effective pest off-season in this climate, and a year-round protection plan reflects that reality.",
+    sections: [
+      {
+        heading: "Formosan Termite Pressure in Jefferson Parish",
+        body: "Jefferson Parish is one of the most intensively Formosan termite-affected areas in the United States. LSU AgCenter research has consistently confirmed severe Formosan subterranean termite pressure across the parish, and Kenner's residential neighborhoods are no exception. Formosan colonies are larger and more aggressive than native eastern subterranean termite colonies, capable of causing serious structural damage within a few years of establishment. Kenner's older housing stock, many homes built in the mid-twentieth century with wood framing and pier-and-beam foundations, is particularly exposed. Both Formosan and eastern subterranean termites are present in Jefferson Parish. Formosan termites swarm on warm evenings from late April through June, while eastern subterranean termites swarm earlier in spring, typically February through April. Both species leave mud tubes as a primary visible sign. Because Formosan colonies can establish aerial nests in wood that is not in contact with soil, standard soil treatment alone may not be sufficient. A professional inspection of your Kenner property should assess both species, current damage, and which treatment approach, whether soil termiticide, bait system, or a combination, provides the protection your specific structure needs. Annual inspection and active protection matter more here than in most parts of the country.",
+      },
+      {
+        heading: "Year-Round Pest Activity in the Jefferson Parish Suburbs",
+        body: "Kenner's location along the Lake Pontchartrain shoreline creates strong mosquito breeding habitat throughout the city. Drainage canals, low-lying yards, and lakefront areas sustain breeding populations from spring through fall, with some activity even in mild winters. Barrier spray programs targeting resting vegetation provide property-level protection through the active season. Fire ants are a persistent problem across Jefferson Parish's residential lawns and open spaces, with no winter dormancy in the subtropical climate. Mounds are rebuilt quickly after rain events, and twice-annual broadcast bait treatment of the full lawn is more effective than treating individual mounds. American cockroaches are year-round residents in Kenner, particularly in older homes, commercial properties near the airport, and structures with drainage or sewer access. The airport-adjacent commercial corridor along Veterans Memorial Boulevard and Williams Boulevard sees consistent cockroach pressure in food service, hospitality, and warehouse facilities. There is no month in Kenner where pest pressure genuinely subsides. A year-round general pest program, combined with active termite protection and seasonal mosquito treatment, covers the full range of pressures that Jefferson Parish homeowners and businesses face.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual Formosan termite inspection: Jefferson Parish's high-risk designation makes yearly professional assessment the standard, not the exception.",
+      "Eliminate standing water around your property, including drainage ditches, low spots in the yard, and containers that collect rain, to reduce lakefront mosquito breeding habitat.",
+      "Seal plumbing penetrations, crawl space vents, and exterior gaps at the foundation to reduce cockroach and fire ant entry points in Jefferson Parish's subtropical climate.",
+      "Apply broadcast fire ant bait to the full lawn twice a year, spring and fall, rather than treating individual mounds, for more effective long-term control throughout the year-round active season.",
+    ],
+    costNote:
+      "Pest control costs in Kenner and Jefferson Parish reflect the year-round subtropical climate and the elevated Formosan termite risk. General pest control runs $80 to $150 per visit, with quarterly plans offering better rates. Termite treatment costs depend on structure size, foundation type, and whether soil treatment, a bait system, or both are needed; a licensed inspection and written estimate should precede any treatment commitment. Mosquito barrier spray programs typically run $75 to $150 per treatment from spring through fall.",
+    faqs: [
+      {
+        question: "Why is Jefferson Parish considered one of the worst areas for Formosan termites in the US?",
+        answer:
+          "LSU AgCenter research has tracked Formosan subterranean termite pressure across Louisiana for decades, and Jefferson Parish consistently ranks among the highest-intensity areas in the country. The subtropical climate gives colonies near year-round warmth and humidity, supporting large colony sizes. The parish's older housing stock, extensive mature tree canopy, and the availability of moist soil conditions throughout the area all contribute to the severity. Formosan termites were introduced to the Gulf Coast through port activity after World War II and have been established in Jefferson Parish for generations, meaning populations are dense and well-established.",
+      },
+      {
+        question: "Do Formosan termites swarm near Louis Armstrong Airport in Kenner?",
+        answer:
+          "Yes. Formosan termite swarms are a well-documented spring event throughout Kenner and the surrounding Jefferson Parish area. Swarms typically occur on warm, humid evenings from late April through June, often following rain events. The swarmers, winged reproductives, are attracted to light sources. Airport-area commercial properties, street lighting, and residential areas along the lakefront all see swarm activity. The swarm itself does not mean your structure is infested, but it is a strong indicator that colonies are active in the immediate area and that an inspection is warranted.",
+      },
+      {
+        question: "How long is mosquito season in Kenner near Lake Pontchartrain?",
+        answer:
+          "Kenner's proximity to Lake Pontchartrain and the subtropical Jefferson Parish climate means mosquito season runs nearly year-round, with the most intense activity from April through October. Mild winters can see continued activity even in December and January. The lake shoreline, drainage canals, and low-lying areas in Kenner sustain breeding habitat throughout the warm season. Professional barrier spray programs from spring through fall provide consistent property-level control through the active period.",
+      },
+      {
+        question: "Are American cockroaches common in homes near MSY Airport?",
+        answer:
+          "American cockroaches are common throughout Kenner and Jefferson Parish, not just in the airport corridor. They thrive in the subtropical climate year-round, using sewer lines, drainage infrastructure, and exterior gaps to enter structures. Airport-adjacent commercial properties see higher pressure due to food service, warehouse activity, and high foot traffic, but residential homes throughout Kenner experience the same species. Sealing entry points and maintaining a year-round general pest program are the most effective management approaches.",
+      },
+      {
+        question: "What pest control plan makes sense for a Kenner home?",
+        answer:
+          "A practical year-round plan for a Kenner home includes: active Formosan termite protection, either a soil treatment or monitored bait system, with annual inspection given Jefferson Parish's high-risk designation; a year-round general pest program covering cockroaches, fire ants, and spiders; a mosquito barrier spray program from spring through fall given the lakefront proximity; and twice-annual broadcast fire ant bait on the lawn. The subtropical climate means there is no month where all pests are inactive, so year-round coverage is the sensible standard rather than the exception.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "New Orleans", slug: "new-orleans" },
+      { name: "Baton Rouge", slug: "baton-rouge" },
+      { name: "Lafayette", slug: "lafayette" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Kenner, LA | Formosan Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Kenner pest control for Formosan termites, mosquitoes, cockroaches, fire ants near MSY Airport. Jefferson Parish New Orleans suburb specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "monroe-la",
+    name: "Monroe",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~46,000",
+    county: "Ouachita Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Monroe sits in Ouachita Parish in north Louisiana along the Ouachita River. The hot, humid subtropical climate delivers long, hot summers and mild winters that support year-round termite activity. LSU AgCenter confirms both eastern subterranean and Formosan termites are present in north Louisiana. The Ouachita River bottomlands and bayous throughout the parish create mosquito breeding habitat from spring through fall.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Formosan Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through April, active year-round",
+        note:
+          "Eastern subterranean termites are present throughout Ouachita Parish and are the most widely distributed termite species in the Monroe area. Swarms occur in March and April on warm, sunny days. Colonies are active year-round in the warm, humid north Louisiana climate, working through wood in soil contact, pier foundations, and structural framing without visible signs until damage is extensive.",
+      },
+      {
+        name: "Formosan Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round",
+        note:
+          "LSU AgCenter has confirmed that Formosan subterranean termites have expanded north through the Ouachita corridor and are now present in the Monroe area. While south Louisiana carries the highest Formosan pressure, the species has established itself in north Louisiana parishes including Ouachita. Slightly cooler winters slow colony growth compared to the coast, but do not eliminate the threat. Active monitoring and protection are appropriate for Monroe-area homeowners.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note:
+          "The Ouachita River, associated bayous, and oxbow lakes throughout the Monroe area create strong mosquito breeding habitat. Mosquito season runs from March through October in north Louisiana, with peak pressure in the summer months. The river corridor and low-lying areas in and around Monroe sustain breeding populations through the long warm season.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note:
+          "Fire ants are active throughout Ouachita Parish year-round. The hot-humid north Louisiana climate gives fire ants no meaningful winter dormancy, and mounds rebuild persistently after rain events. LSU AgCenter identifies fire ants as one of Louisiana's most significant ongoing pest challenges, and Ouachita Parish is fully within the established fire ant range.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surge in summer",
+        note:
+          "American cockroaches are present year-round in Monroe, with a noticeable surge in summer when heat and humidity peak. The city's older building stock, including historic neighborhoods close to downtown and the university area, provides ample harborage. Sewer and drainage infrastructure throughout Monroe supports persistent cockroach populations that enter structures through plumbing penetrations and exterior gaps.",
+      },
+    ],
+    localHook:
+      "Monroe is home to the University of Louisiana Monroe (ULM) and sits on the Ouachita River in north Louisiana. The Ouachita River and its network of bayous and oxbow lakes create significant mosquito breeding habitat throughout the parish. North Louisiana experiences slightly cooler winters than the coast, but LSU AgCenter confirms Formosan termites have expanded north through the Ouachita corridor and are now present in the Monroe area alongside the native eastern subterranean termite.",
+    intro:
+      "Monroe is an Ouachita Parish city on the Ouachita River, the largest city in north Louisiana. Eastern subterranean termites are present throughout the parish, and LSU AgCenter has confirmed that Formosan termites have now spread north into the Ouachita corridor, giving Monroe-area homeowners two termite species to contend with. The Ouachita River and its associated bayous and oxbow lakes drive significant mosquito pressure from March through October. Fire ants are active year-round, and American cockroaches are common in Monroe's older neighborhoods and downtown buildings. The slightly cooler winters of north Louisiana do not provide any meaningful pest break for these species.",
+    sections: [
+      {
+        heading: "Termite Pressure in North Louisiana and the Monroe Area",
+        body: "Monroe sits in north Louisiana, where eastern subterranean termites have long been the primary structural pest. These termites swarm in March and April, work through wood in soil contact and pier foundations year-round, and cause damage that often goes undetected until it becomes serious. What has changed in recent years is the documented northward expansion of Formosan subterranean termites through the Ouachita corridor. LSU AgCenter research confirms Formosan termites are now present in Monroe-area parishes, having spread from the high-intensity zones of south Louisiana. The slightly cooler winters of north Louisiana slow Formosan colony development compared to New Orleans or Baton Rouge, but do not prevent colony establishment or ongoing structural damage. Formosan termites swarm later in spring than eastern subterranean termites, typically April through June, on warm evenings. Having both species present in Ouachita Parish means Monroe homeowners face a broader termite risk than was the case a generation ago. A professional inspection can identify which species are active on your property, assess any existing damage, and recommend whether a soil treatment, bait system, or combination approach is appropriate. Annual inspection is the standard for any Monroe property with wood framing or pier-and-beam construction.",
+      },
+      {
+        heading: "Mosquitoes, River Corridor Pests, and Year-Round Activity in Monroe",
+        body: "The Ouachita River runs through the heart of Monroe, and the surrounding network of bayous, sloughs, and oxbow lakes creates extensive mosquito breeding habitat throughout the parish. Mosquito season in north Louisiana runs from March through October, with peak activity in June through August when heat and humidity combine to accelerate breeding cycles. Properties along the river, in low-lying neighborhoods, and near standing water experience the heaviest pressure. Barrier spray programs targeting resting vegetation around the home from March through October provide consistent protection through the active season. Fire ants are a year-round problem throughout Ouachita Parish, with no winter dormancy in the hot-humid climate. Mounds are rebuilt quickly after rain and are persistent in Monroe's residential lawns, parks, and open spaces. Twice-annual broadcast bait treatment of the full yard is more effective than treating individual mounds. American cockroaches surge in Monroe during summer months but are present year-round in older homes, commercial buildings near the university, and structures with access to the city's drainage and sewer infrastructure. Sealing plumbing penetrations and exterior gaps reduces entry points significantly.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection annually in Monroe: with both eastern subterranean and Formosan termites now confirmed in Ouachita Parish, yearly professional assessment is the sensible baseline for any home with wood framing.",
+      "Eliminate standing water near the home, including low spots in the yard, clogged gutters, and containers that hold rain, to reduce mosquito breeding habitat along the Ouachita River corridor.",
+      "Apply broadcast fire ant bait to the full lawn twice a year, spring and fall, rather than treating only visible mounds, for more effective year-round control in the Ouachita Parish climate.",
+      "Seal plumbing penetrations, exterior gaps at the foundation, and crawl space vents to reduce cockroach entry points in Monroe's older housing stock, where gaps are more common.",
+    ],
+    costNote:
+      "Pest control costs in Monroe and Ouachita Parish are generally in line with north Louisiana averages. General pest control runs $70 to $130 per visit, with quarterly plans typically offering better rates than single-visit pricing. Termite treatment costs depend on structure size, foundation type, and species present; a licensed inspection and written estimate should precede any treatment commitment. Mosquito barrier spray programs typically run $65 to $120 per treatment through the March to October active season.",
+    faqs: [
+      {
+        question: "Are Formosan termites really in Monroe, or is that just a south Louisiana problem?",
+        answer:
+          "Formosan subterranean termites have been confirmed in north Louisiana including the Ouachita Parish area by LSU AgCenter research. The species has spread northward through the Ouachita corridor over recent decades. South Louisiana still carries the highest intensity of Formosan pressure, and Monroe's cooler winters slow colony development compared to the coast. But established Formosan colonies are present in the Monroe area, and the risk is real enough that annual termite inspection and active protection are appropriate for Ouachita Parish homeowners.",
+      },
+      {
+        question: "When does mosquito season start and end in Monroe?",
+        answer:
+          "Mosquito season in Monroe and the surrounding Ouachita Parish area typically runs from March through October. The Ouachita River, bayous, and oxbow lakes in the area create substantial breeding habitat throughout the warm season. Peak activity occurs June through August. North Louisiana winters are cooler than the coast, which does provide a genuine off-season from roughly November through February in most years. Barrier spray programs from March through October cover the full active period and are the most practical approach for residential properties near the river corridor.",
+      },
+      {
+        question: "What termite species should Monroe homeowners be most concerned about?",
+        answer:
+          "Both eastern subterranean termites and Formosan subterranean termites are present in the Monroe area, and both cause structural damage. Eastern subterranean termites are more widely distributed in Ouachita Parish and have been present longer. Formosan termites are newer to north Louisiana but are capable of more rapid and extensive damage due to their larger colony sizes. A licensed pest management professional can identify which species are active on your property through inspection and recommend the appropriate treatment approach. Annual inspection is the right starting point for any Monroe home with wood framing.",
+      },
+      {
+        question: "How do I deal with fire ants in my Monroe yard year-round?",
+        answer:
+          "Twice-annual broadcast bait treatment of the full lawn, applied in spring and fall, is more effective than treating individual fire ant mounds. Treating only visible mounds does not address foraging workers or satellite mounds, and the broader population rebuilds quickly. In Monroe's hot-humid climate, fire ants are active year-round with no winter dormancy. The spring treatment should go down in March or April before populations peak, and the fall treatment in September or October before cooler weather slows activity. A licensed pest management professional can also apply contact insecticides to mounds for immediate knockdown alongside the broadcast bait program.",
+      },
+      {
+        question: "Is pest control near ULM different from the rest of Monroe?",
+        answer:
+          "The University of Louisiana Monroe area has the same pest pressures as the rest of the city: termites, mosquitoes, fire ants, and cockroaches. What differs is the density and age of the housing stock around the university, which tends to include older homes with pier-and-beam foundations and more gaps in the building envelope, both of which increase termite and cockroach exposure. Student rental properties and older commercial buildings near campus may have deferred maintenance that increases pest access. The pest species and management approaches are the same; the inspection of older structures simply requires more attention to the structural conditions that increase vulnerability.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Baton Rouge", slug: "baton-rouge" },
+      { name: "Shreveport", slug: "shreveport" },
+      { name: "Bossier City", slug: "bossier-city" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Monroe, LA | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Monroe LA pest control for termites, mosquitoes, fire ants and cockroaches. Ouachita Parish north Louisiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "new-iberia",
+    name: "New Iberia",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~30,000",
+    county: "Iberia Parish",
+    climate: "tropical",
+    climateDriver:
+      "New Iberia is in Iberia Parish in the Acadiana region of south Louisiana, located along Bayou Teche. The subtropical Gulf Coast climate delivers hot, humid summers and mild winters. LSU AgCenter confirms Formosan and eastern subterranean termites are active throughout the Acadiana region. Bayou Teche, the Atchafalaya Basin to the east, and the low-lying rice and sugarcane agricultural landscape of Iberia Parish create extensive mosquito breeding habitat through the warm season.",
+    topPests: [
+      "Formosan Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "American Cockroaches",
+      "Eastern Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round",
+        note:
+          "LSU AgCenter identifies Iberia Parish as high-risk for Formosan subterranean termites. The hot, humid Acadiana climate gives colonies very little winter interruption, with activity continuing through most of the year. New Iberia's older historic homes, many with wood framing and crawl space foundations, are particularly exposed. Formosan colonies can establish aerial nests in wood that is not in soil contact, making thorough professional inspection important.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Nearly year-round, peak April through October",
+        note:
+          "Bayou Teche runs through New Iberia, and the extensive Atchafalaya Basin marshes and wetlands to the east create some of the most productive mosquito breeding habitat in Louisiana. Mosquito season runs nearly year-round in the subtropical Acadiana climate, with peak pressure from April through October. Properties near the bayou and low-lying areas throughout Iberia Parish experience heavy seasonal pressure.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note:
+          "Fire ants are active throughout Iberia Parish year-round. The subtropical Acadiana climate sustains fire ant colonies without winter dormancy, and mounds rebuild persistently after rain events. Residential lawns, parks, and commercial properties throughout New Iberia experience ongoing fire ant pressure.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "American cockroaches are active year-round in Iberia Parish's subtropical climate. New Iberia's older building stock, historic downtown, and the city's extensive drainage infrastructure provide harborage and entry points. The warm, humid climate gives this species no meaningful winter break, and year-round management is the effective approach.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round",
+        note:
+          "Eastern subterranean termites are present throughout Iberia Parish alongside Formosan termites. Both species are active year-round in the subtropical climate. Eastern subterranean termites typically swarm earlier in spring than Formosan termites, with swarms in February through April. A professional inspection can identify which species are present and guide the appropriate treatment strategy.",
+      },
+    ],
+    localHook:
+      "New Iberia is in the heart of Acadiana on Bayou Teche, just 8 miles from Avery Island, where the McIlhenny Company has produced Tabasco sauce since 1868. The Atchafalaya Basin, one of the largest river swamp systems in the United States, lies just east of New Iberia and sustains extraordinary mosquito breeding habitat throughout Iberia Parish. LSU AgCenter identifies Iberia Parish as high-risk for Formosan termite activity, and the hot, humid subtropical climate gives pest populations very little winter interruption.",
+    intro:
+      "New Iberia is an Acadiana city on Bayou Teche in Iberia Parish, known for its sugarcane fields, historic downtown, and proximity to the Atchafalaya Basin. Formosan termites are the primary structural pest concern in this hot, humid subtropical climate, and LSU AgCenter's high-risk designation for Iberia Parish reflects the severity of that pressure. The Atchafalaya Basin to the east creates some of the most intense mosquito breeding conditions in Louisiana, with near year-round activity along the bayou corridor. Fire ants, American cockroaches, and eastern subterranean termites round out the year-round pest picture. There is no meaningful winter pest break in the Acadiana climate.",
+    sections: [
+      {
+        heading: "Formosan vs Eastern Subterranean Termites in Iberia Parish",
+        body: "Both Formosan subterranean termites and eastern subterranean termites are present in Iberia Parish, but they are not equal threats. LSU AgCenter designates Iberia Parish as high-risk for Formosan termites, and the comparison between the two species matters for treatment planning. Eastern subterranean termites are the native species, present throughout Louisiana and most of the eastern United States. They are a serious pest, but their colonies are smaller and their damage progresses more slowly than Formosan termites. Formosan subterranean termites were introduced to the Gulf Coast and have expanded throughout Louisiana's subtropical parishes. Formosan colonies can be dramatically larger than native subterranean termite colonies, and Formosan termites are capable of establishing aerial carton nests in moist wood that is not in contact with soil, something eastern subterranean termites do not do. This means standard soil treatment strategies developed primarily for eastern subterranean termites may not fully protect against Formosan infestations. The hot, humid Acadiana climate in New Iberia gives Formosan colonies very little winter interruption compared to areas further north. Both species swarm in spring: eastern subterranean termites from February through April, Formosan termites from April through June on warm evenings. A licensed inspection of your New Iberia property should identify which species are present, assess any damage, and determine whether a soil termiticide, bait system, or combination approach provides appropriate protection.",
+      },
+      {
+        heading: "Mosquitoes, the Atchafalaya Basin, and Year-Round Pest Activity",
+        body: "New Iberia's location between Bayou Teche to the west and the Atchafalaya Basin to the east places it in one of the most mosquito-intensive environments in Louisiana. The Atchafalaya Basin is one of the largest river swamp systems in the United States, and the vast wetlands, marshes, and flooded timber east of New Iberia provide mosquito breeding habitat on a scale that few other locations in the country can match. Mosquito season in the subtropical Acadiana climate runs nearly year-round, with meaningful activity beginning in March and persisting through October or beyond in mild winters. Barrier spray programs targeting resting vegetation around the home are practical for residential properties in New Iberia, and eliminating standing water in the immediate yard reduces breeding habitat at the property level. Fire ants are active year-round throughout Iberia Parish with no winter dormancy. Broadcast bait treatment of the full yard twice annually, spring and fall, provides more durable control than treating individual mounds. American cockroaches are year-round residents in New Iberia, particularly in older structures in the historic downtown and in homes with access to the drainage and sewer infrastructure. An integrated pest management approach, addressing the home's exterior environment as well as entry points and interior harborage, is well suited to a bayou community where the pest environment is driven heavily by water and wetlands.",
+      },
+    ],
+    prevention: [
+      "Schedule annual Formosan termite inspection: LSU AgCenter's high-risk designation for Iberia Parish makes yearly professional inspection the standard for any New Iberia home with wood framing or older construction.",
+      "Eliminate standing water close to the home, including low yard areas, clogged gutters, and containers, to reduce mosquito breeding near Bayou Teche and in a parish bordered by Atchafalaya Basin wetlands.",
+      "Apply broadcast fire ant bait to the full lawn twice a year, spring and fall, for year-round control in Iberia Parish's subtropical climate where fire ants have no winter dormancy period.",
+      "Seal plumbing penetrations, foundation gaps, and crawl space vents to reduce cockroach and subterranean termite access in New Iberia's older housing stock along the bayou corridor.",
+    ],
+    costNote:
+      "Pest control costs in New Iberia and Iberia Parish reflect the subtropical climate and the high-risk Formosan termite designation. General pest control runs $75 to $140 per visit, with quarterly plans typically providing better value than single-visit pricing. Termite treatment costs depend on structure size, foundation type, and species present; a professional inspection and written estimate should precede any treatment commitment. Mosquito barrier spray programs typically run $70 to $130 per treatment through the near year-round active season.",
+    faqs: [
+      {
+        question: "Does New Iberia have a severe Formosan termite problem?",
+        answer:
+          "Yes. LSU AgCenter identifies Iberia Parish as high-risk for Formosan subterranean termites. The hot, humid Acadiana climate gives Formosan colonies very little winter interruption, supporting large colony sizes and near year-round activity. New Iberia's older historic homes and bayou-adjacent properties are particularly exposed. Annual professional inspection and active termite protection, whether a soil treatment, bait system, or combination, are appropriate for most properties in the New Iberia area given the high-risk designation.",
+      },
+      {
+        question: "Why are mosquitoes so bad in Iberia Parish?",
+        answer:
+          "Iberia Parish sits between Bayou Teche and the Atchafalaya Basin, one of the largest river swamp systems in the United States. The extensive wetlands, marshes, and flooded areas east of New Iberia create mosquito breeding habitat on a large scale. The subtropical Acadiana climate sustains breeding populations from March through October and beyond in mild years. Properties near Bayou Teche, low-lying neighborhoods, and areas with poor drainage experience the heaviest pressure. Residential barrier spray programs and standing water elimination at the property level are the most practical approaches for New Iberia homeowners.",
+      },
+      {
+        question: "Are both Formosan and eastern subterranean termites present in New Iberia?",
+        answer:
+          "Yes, both species are present in Iberia Parish. Formosan termites are the higher-risk species in this area based on LSU AgCenter's high-risk designation for the parish. Eastern subterranean termites are the native species and are more widely distributed, but Formosan colonies are larger and capable of more rapid structural damage. A professional inspection of your New Iberia property can identify which species are active and determine the appropriate treatment strategy. The treatment approaches differ enough between the two species that professional identification is worthwhile before committing to a program.",
+      },
+      {
+        question: "What is the best mosquito control approach near Bayou Teche?",
+        answer:
+          "For residential properties near Bayou Teche in New Iberia, a combination of professional barrier spray and source reduction is the most effective approach. Barrier spray programs target resting mosquitoes in vegetation around the home, providing protection through the active season. Source reduction, eliminating standing water in the yard, gutters, and containers, reduces breeding at the property level. Given the proximity to the Atchafalaya Basin, professional treatment through the active season, typically March through October, is more effective than seasonal one-time applications. The scale of surrounding wetlands means that source reduction alone cannot control the mosquito population in this location.",
+      },
+      {
+        question: "How does the Acadiana climate affect pest control costs in New Iberia?",
+        answer:
+          "The subtropical Acadiana climate means that most pests in New Iberia are active year-round or for a longer season than in northern states. There is no pest off-season to rely on. This means that year-round general pest programs, active termite protection rather than inspection-only, and mosquito control from March through October are the standard rather than optional add-ons. The upfront cost of year-round coverage is higher than seasonal-only programs, but the ongoing pest pressure in the Acadiana climate makes seasonal-only approaches less effective. A licensed pest management professional can assess your specific property and pest pressures and propose a plan appropriate for the New Iberia environment.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Lafayette", slug: "lafayette" },
+      { name: "Baton Rouge", slug: "baton-rouge" },
+      { name: "Lake Charles", slug: "lake-charles" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in New Iberia, LA | Formosan Termites & Bayou Mosquitoes",
+    metaDescription:
+      "New Iberia pest control for Formosan termites, mosquitoes, fire ants and cockroaches. Iberia Parish Bayou Teche Acadiana specialists. Call 1-800-PEST-USA.",
+  },
 ];
