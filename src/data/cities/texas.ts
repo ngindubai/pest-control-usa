@@ -9162,4 +9162,976 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Paris TX pest control for subterranean termites, fire ants, mosquitoes and ticks. Lamar County Red River Pat Mayse Lake Northeast Texas specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "wylie",
+    name: "Wylie",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~55,000",
+    county: "Collin County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Wylie sits in Collin County northeast of Dallas in the rapidly growing DFW suburbs, with hot humid summers, mild winters, and a pest environment driven by the city's position between Lake Lavon and the older suburban landscape of the greater Dallas corridor. The heavy clay soils of North Texas support active subterranean termite colonies, and the warm climate keeps fire ants productive year-round.",
+    topPests: [
+      "fire ants",
+      "subterranean termites",
+      "German cockroaches",
+      "rodents",
+      "mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after spring rain",
+        note: "Fire ants are established throughout Collin County and are the most visible lawn pest in Wylie. Mounds surge after spring rains and Wylie's rapidly developing new subdivisions create the disturbed soil conditions where fire ants colonize quickly.",
+      },
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May",
+        note: "Eastern subterranean termites are active throughout North Texas. Wylie's older established neighborhoods near Lake Lavon carry meaningful risk, and newer construction in the most recently developed sections benefits from verifying soil pre-treatment status.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are present in Wylie's older apartment complexes and commercial kitchens, spreading through shared plumbing penetrations in multi-unit buildings.",
+      },
+      {
+        name: "Norway rats and house mice",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak fall and winter",
+        note: "Rodents are common in Wylie's rapid-growth suburban edge, where construction disturbance moves Norway rats and house mice from undeveloped land into established neighborhoods. House mice push into structures as fall temperatures drop.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Lake Lavon east of Wylie creates mosquito breeding habitat that sustains a longer season than purely inland areas. West Nile virus is monitored annually in Collin County.",
+      },
+    ],
+    localHook:
+      "Wylie is one of the fastest-growing cities in Collin County, and rapid residential development in previously undeveloped land means fire ant colonies and rodents displaced from construction sites regularly colonize adjacent finished neighborhoods.",
+    intro:
+      "Pest control in Wylie reflects the Northeast DFW suburban growth experience. The city is expanding quickly across previously undeveloped Collin County land, which displaces fire ants, rodents, and other pests from construction corridors into established neighborhoods. Eastern subterranean termites are documented throughout North Texas. German cockroaches maintain colonies in older multi-family buildings. Mosquitoes from Lake Lavon extend the season for this lakeside city. A Wylie pest plan addresses both the immediate pressure from ongoing construction at the city's edges and the structural risks in the established neighborhoods near downtown.",
+    sections: [
+      {
+        heading: "New Construction and Pest Displacement in Wylie",
+        body: "Wylie's fast growth means construction is constant on the city's expanding edges. Land clearing and grading displaces fire ant colonies and rodent populations that were established in undeveloped fields. Those displaced colonies move into the nearest finished neighborhoods, which is why residents of older Wylie streets often see a surge in fire ant mound density and mouse activity when new development starts nearby. Managing fire ants proactively with broadcast bait before spring peak and maintaining exclusion on established homes against rodent entry reduces the impact of this construction-driven pest movement.",
+      },
+      {
+        heading: "Termites and the North Texas Clay Soil",
+        body: "The heavy black clay soils of Collin County are ideal for eastern subterranean termite colonies. These soils retain moisture during dry spells, which sustains foraging activity even in Texas summer drought conditions. Older Wylie homes, particularly those in the established neighborhoods near the downtown and Lake Lavon, carry crawl space and slab edge termite risk consistent with the broader North Texas pattern. Texas A&M AgriLife Extension documents eastern subterranean termites as the primary structural pest throughout the DFW metroplex. Annual spring inspections are the practical standard for any Wylie home older than ten years.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant broadcast bait in spring before mounds peak and in fall to reduce colony density in lawn and landscape areas",
+      "Seal foundation cracks and gaps around utility penetrations in fall to prevent house mice from entering as temperatures drop",
+      "Schedule annual termite inspections for older Wylie homes, particularly those with slab foundations and expansion joints that provide termite entry",
+      "Eliminate standing water in gutters and low-lying yard areas weekly during mosquito season from March through October",
+      "Report fire ant mound surges in new construction zones to the city and treat affected areas promptly before colonies establish in finished neighborhoods",
+    ],
+    costNote:
+      "Wylie pest control pricing reflects the Collin County DFW market. Quarterly maintenance programs covering fire ants, termite monitoring, and general pest control are the standard service format. Free termite inspections are standard practice.",
+    faqs: [
+      {
+        question: "Why are there so many fire ant mounds in Wylie?",
+        answer:
+          "Fire ants are established throughout Collin County and thrive in the disturbed soils that come with rapid residential development. Wylie's ongoing growth means construction is constantly disturbing established ant colonies in undeveloped land, which relocate into adjacent finished neighborhoods. Spring rains trigger mound surge across the city. Broadcast bait applied to lawn areas in spring and fall is the most cost-effective management for large-scale fire ant pressure, while targeted mound treatments address individual colonies near high-traffic areas.",
+      },
+      {
+        question: "Do I need a termite inspection for a new Wylie home?",
+        answer:
+          "New Texas construction typically includes soil pre-treatment for subterranean termites before the slab is poured. That treatment is effective for several years but degrades over time. For homes more than five years old, an annual spring inspection is a reasonable precaution given the active termite population throughout Collin County. Slab construction in North Texas has specific entry points at expansion joints and plumbing penetrations that inspectors check specifically. Verifying that pre-treatment documentation exists for a new home purchase is also a worthwhile step.",
+      },
+      {
+        question: "Are mosquitoes worse in Wylie because of Lake Lavon?",
+        answer:
+          "Yes, modestly. Properties near Lake Lavon and the Spring Creek wetlands east of Wylie face somewhat higher mosquito pressure than purely inland Dallas suburbs because of the lake and creek breeding habitat. The difference is most noticeable from June through September when rainfall keeps water levels high. Monthly barrier spray programs for yard perimeters are effective for properties near the lake edge and wetland corridors. Eliminating standing water in gutters and yard areas removes the breeding sites that can be managed at the property level.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Garland", slug: "garland" },
+      { name: "Allen", slug: "allen" },
+      { name: "McKinney", slug: "mckinney" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Wylie, TX | Fire Ants, Termites & DFW Northeast Pests",
+    metaDescription:
+      "Wylie TX pest control for fire ants, subterranean termites, German cockroaches, rodents and mosquitoes. Collin County Lake Lavon Northeast Dallas DFW specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "desoto-tx",
+    name: "DeSoto",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~58,000",
+    county: "Dallas County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "DeSoto sits in southern Dallas County between Dallas and the cedar elm and mesquite brush terrain of southern Texas, with hot humid summers, mild winters, and heavy clay soils that sustain subterranean termite colonies throughout the year. The city's older housing stock and its position between I-35E and US-67 create a pest environment shaped by both urban density and proximity to open land corridors.",
+    topPests: [
+      "fire ants",
+      "subterranean termites",
+      "German cockroaches",
+      "house mice",
+      "mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds most prominent spring through fall",
+        note: "Fire ants are well established in Dallas County and are the most consistent lawn pest complaint in DeSoto. They colonize disturbed soils and lawn areas and mounds surge reliably after spring rains along the creek corridors through the city.",
+      },
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May",
+        note: "Eastern subterranean termites are active throughout Dallas County. DeSoto's heavy clay soils retain moisture that sustains foraging year-round, and the city's housing stock from the 1970s through the 1990s carries meaningful slab-edge and crawl space risk.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are present in DeSoto's older apartment complexes and restaurant corridor along Pleasant Run Road. They spread through shared plumbing penetrations and require interior bait programs rather than spray for lasting control.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak fall and winter",
+        note: "House mice push into DeSoto structures through gaps around utility penetrations and door thresholds as fall temperatures drop. Older housing along the city's central streets carries the most accumulated entry points.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Bear Creek and the creek corridors through DeSoto create mosquito breeding habitat that sustains seasonal pressure from spring through fall. West Nile virus is monitored annually in Dallas County.",
+      },
+    ],
+    localHook:
+      "DeSoto's southern Dallas County location places it at the edge of the heavy clay soils and creek drainages that sustain some of the highest subterranean termite foraging pressure in the DFW metroplex.",
+    intro:
+      "Pest control in DeSoto reflects the southern Dallas suburban experience: established neighborhoods from the 1970s through the 1990s with the accumulated pest pressure that comes with aging housing and mature landscaping. Fire ants dominate the outdoor pest story year-round. Eastern subterranean termites are a consistent structural risk in the clay soil environment. German cockroaches are a steady indoor problem in older rental housing. House mice push in each fall. A complete DeSoto program addresses perimeter fire ant management, termite monitoring, and rodent exclusion as a coordinated annual effort rather than reactive individual treatments.",
+    sections: [
+      {
+        heading: "Heavy Clay Soils and Termite Foraging in DeSoto",
+        body: "The heavy black clay soils of southern Dallas County are among the most favorable termite environments in North Texas. Clay soils hold moisture even during prolonged dry periods, which sustains subterranean termite foraging long after the soil surface appears dry. Texas A&M AgriLife Extension documents eastern subterranean termites as active throughout Dallas County, with particular concentration in areas with older housing and mature landscaping. DeSoto's 1970s through 1990s housing often predates the current generation of termiticide soil treatments, and slab construction in this area carries specific risk at expansion joints and plumbing stub-up penetrations where termites enter from below. Annual spring inspections focused on slab perimeters and any wood-frame elements of the structure are the appropriate precaution.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant broadcast bait to lawn areas in spring and fall to manage colony density throughout the yard",
+      "Schedule annual termite inspections for any DeSoto home from the 1970s through 1990s, checking slab perimeter and utility penetrations specifically",
+      "Seal gaps around door thresholds and utility penetrations in fall before house mouse pressure peaks",
+      "Eliminate standing water in gutters and yard areas from March through October to reduce mosquito breeding in the creek corridor",
+      "Use interior gel bait in kitchen and bathroom areas to address German cockroach colonies in older multi-family buildings",
+    ],
+    costNote:
+      "DeSoto pest control pricing reflects the Dallas County southern suburban market. Annual service programs covering fire ant maintenance, termite monitoring, and general pest management are the standard format. Free termite inspections are offered by licensed operators.",
+    faqs: [
+      {
+        question: "Why do fire ants keep coming back in my DeSoto yard?",
+        answer:
+          "Fire ant colonies in Dallas County are not isolated: they are connected networks across neighborhoods, and treating individual mounds only removes the visible colony surface. Within weeks, workers from adjacent colonies or satellite nests re-colonize the same area. Broadcast bait applied across the entire lawn, where workers carry slow-acting bait back to the queen, reduces the underlying colony population more durably than mound treatments alone. Applying broadcast bait in spring before mound surge and in fall before winter establishes a pattern that keeps colony density significantly lower than reactive mound-only treatment.",
+      },
+      {
+        question: "Are termites a serious problem in DeSoto's clay soil neighborhoods?",
+        answer:
+          "Yes. The heavy clay soils of southern Dallas County are particularly favorable for eastern subterranean termite foraging because they retain moisture even during summer drought, keeping foraging conditions active through the dry months. DeSoto's housing stock from the 1970s through 1990s often predates current soil treatment standards. Annual spring inspections, particularly checking slab perimeters and expansion joint areas where termites enter from below grade, are the standard precaution for this housing. A termite inspection at the time of any significant home purchase or renovation is also advisable.",
+      },
+      {
+        question: "When do house mice become a problem in DeSoto?",
+        answer:
+          "House mice in DeSoto become most active as an indoor pest in October and November when outdoor temperatures begin to drop. They push through gaps at door thresholds, gaps around utility conduit penetrations, and weep holes in brick veneer. Older DeSoto homes have accumulated entry points that make annual exclusion review before fall worthwhile. Inside, snap traps in cabinet backs, behind appliances, and in garage corners are more effective and safer than rodenticide bait in homes with children or pets. Sealing the entry points is the only durable long-term solution.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Lancaster", slug: "lancaster-tx" },
+      { name: "Cedar Hill", slug: "cedar-hill" },
+      { name: "Dallas", slug: "dallas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in DeSoto, TX | Fire Ants, Termites & South Dallas Pests",
+    metaDescription:
+      "DeSoto TX pest control for fire ants, subterranean termites, German cockroaches, house mice and mosquitoes. Dallas County south Dallas DFW suburbs specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "texas-city",
+    name: "Texas City",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~52,000",
+    county: "Galveston County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Texas City sits on Galveston Bay in Galveston County between the Port of Texas City and the Gulf Coast barrier island system. The coastal hot-humid climate brings high year-round humidity, a long mosquito season driven by bay and marsh habitat, and the structural pest conditions of a Gulf Coast port environment with extensive industrial and older residential housing.",
+    topPests: [
+      "mosquitoes",
+      "subterranean termites",
+      "fire ants",
+      "American cockroaches",
+      "rodents",
+    ],
+    pestProfile: [
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, year-round near the bay",
+        note: "Texas City's position on Galveston Bay and proximity to the coastal salt marsh habitat creates mosquito pressure among the most intense in the greater Houston area. West Nile virus and other mosquito-borne concerns are monitored annually in Galveston County.",
+      },
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through April",
+        note: "Eastern subterranean termites are active throughout Galveston County and forage year-round in the coastal climate. Texas City's older residential and industrial neighborhoods carry meaningful termite risk, and the bay proximity creates sustained high humidity that favors termite activity.",
+      },
+      {
+        name: "fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Red imported fire ants are established throughout Galveston County. Texas City's lawn and recreational areas see consistent mound pressure, and the waterfront parks and green spaces along the bay are active fire ant habitat.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are prevalent in Texas City's older industrial corridor and residential neighborhoods near the port, breeding in the moist drainage infrastructure and entering structures through floor drains and exterior gaps.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are common in Texas City's port and industrial areas and move into adjacent residential neighborhoods along Galveston Bay. Port and waterfront environments consistently sustain larger Norway rat populations than inland Texas cities.",
+      },
+    ],
+    localHook:
+      "Texas City's industrial port history and its position on Galveston Bay mean the city deals with the pest profile of a coastal Gulf port: intense mosquito pressure from bay and marsh habitat, Norway rats from the port corridor, and American cockroaches from the drainage infrastructure of an older industrial city.",
+    intro:
+      "Pest control in Texas City carries a distinct Gulf Coast port character. The city was the site of the 1947 Texas City Disaster and has rebuilt around its industrial port identity, with older residential neighborhoods adjacent to the waterfront and port facilities. That environment creates the pest profile of a coastal port city: intense mosquito pressure from Galveston Bay and marsh habitat, Norway rats from the port corridor, American cockroaches from the drainage system, and persistent subterranean termite activity in older housing. Fire ants are a year-round outdoor concern. A Texas City pest plan starts with the perimeter and the structural risks before addressing indoor issues.",
+    sections: [
+      {
+        heading: "Gulf Coast Mosquito Pressure on Galveston Bay",
+        body: "Texas City's mosquito season is among the longest and most intense in the Houston area because of the bay and salt marsh habitat immediately adjacent to the city. Galveston Bay to the east and the coastal prairie and retention infrastructure throughout the city create breeding habitat that sustains mosquito populations from March through November. Salt marsh species that bite during daylight hours, not just at dusk, are part of the Texas City mosquito population. Galveston County Mosquito Control operates regional programs, but residential barrier spray programs applied monthly from April through October are the most effective property-level management for Texas City homeowners, particularly those near Moses Lake, the Galveston Bay shoreline, and the barge canal corridors.",
+      },
+      {
+        heading: "Port Rats and Older Neighborhood Rodent Pressure",
+        body: "Norway rats are closely associated with port environments, and Texas City's industrial waterfront sustains a larger Norway rat population than most comparable inland Texas cities. Rats from the port corridor move into adjacent residential neighborhoods, particularly older streets with aging infrastructure, through sewer line gaps, foundation cracks, and deteriorated utility access points. Norway rats burrow at ground level rather than climbing to rooflines, so their entry patterns differ from the roof rat exclusion work done in other Texas cities. Sealing foundation penetrations and addressing any gaps in utility access points in older Texas City homes reduces the pressure from port-adjacent Norway rat populations.",
+      },
+    ],
+    prevention: [
+      "Run monthly mosquito barrier spray programs from April through October for properties near Galveston Bay, Moses Lake, or the barge canal corridors",
+      "Eliminate standing water in gutters, buckets, and low-lying areas after every rain to remove the mosquito breeding sites within the property",
+      "Seal foundation gaps and utility access points to reduce Norway rat entry from the port corridor into adjacent residential neighborhoods",
+      "Schedule annual termite inspections for older Texas City homes, particularly those near the bay where humidity sustains year-round foraging",
+      "Apply fire ant broadcast bait twice per year, in spring and fall, to manage mound density in lawn and waterfront park areas",
+    ],
+    costNote:
+      "Texas City pest control pricing reflects the Galveston County Gulf Coast market. Mosquito barrier programs and quarterly maintenance contracts are the standard service formats for waterfront and port-adjacent properties. Free termite inspections are standard.",
+    faqs: [
+      {
+        question: "Why are mosquitoes so severe in Texas City?",
+        answer:
+          "Texas City borders Galveston Bay and the coastal salt marsh habitat that sustains several mosquito species, including some that bite during the day rather than only at dusk. The bay, Moses Lake, the barge canal system, and the coastal prairie drainage infrastructure all provide breeding habitat that supports a longer and more intense season than inland Texas cities. Galveston County Mosquito Control operates regional programs, but the volume of habitat means individual properties near the water need their own monthly barrier spray program from April through October for adequate control.",
+      },
+      {
+        question: "Are Norway rats different from regular house rats?",
+        answer:
+          "Norway rats are larger than roof rats, brown rather than gray or black, and burrow at ground level rather than climbing to attics. They are the dominant rat species in port environments and waterfront industrial areas. In Texas City, Norway rats from the port corridor enter residences through sewer line gaps, foundation cracks, and ground-level utility penetrations rather than through roofline gaps as roof rats do. The exclusion and trapping approach differs accordingly: sealing ground-level entry points and setting snap traps at floor level rather than in attic spaces.",
+      },
+      {
+        question: "How bad is termite risk in Texas City?",
+        answer:
+          "Termite risk in Texas City is meaningful, particularly for older homes near the bay. Eastern subterranean termites are active throughout Galveston County and the high year-round humidity of the coastal environment creates favorable foraging conditions without the seasonal slowdown that drier Texas cities experience. Older residential neighborhoods near the port and waterfront carry the highest risk, particularly homes with wood-frame construction and any wood near soil contact. Annual spring inspections are the appropriate precaution for Texas City homes older than 15 years.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Galveston", slug: "galveston" },
+      { name: "Pearland", slug: "pearland" },
+      { name: "League City", slug: "league-city" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Texas City, TX | Mosquitoes, Termites & Gulf Coast Pests",
+    metaDescription:
+      "Texas City pest control for mosquitoes, subterranean termites, fire ants, American cockroaches and Norway rats. Galveston County Galveston Bay Gulf Coast port city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "euless",
+    name: "Euless",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~60,000",
+    county: "Tarrant County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Euless occupies the heart of the DFW Metroplex in Tarrant County, positioned between Dallas and Fort Worth near DFW International Airport in the mid-cities corridor. The hot humid summers, mild winters, and active clay soil conditions of North Texas create the standard DFW pest environment: fire ants, subterranean termites, and German cockroaches year-round, with rodents pushing indoors in fall.",
+    topPests: [
+      "fire ants",
+      "subterranean termites",
+      "German cockroaches",
+      "house mice",
+      "mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds most prominent spring and fall",
+        note: "Fire ants are established throughout Tarrant County and are the most consistent outdoor pest in Euless. Mounds surge along the Trinity River tributaries and in lawn and park areas after spring rains.",
+      },
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May",
+        note: "Eastern subterranean termites are active throughout North Texas and are documented by Texas A&M AgriLife Extension as the primary structural pest in Tarrant County. Euless's mix of 1970s through 1990s housing carries meaningful slab-edge termite risk.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a consistent presence in Euless's older apartment complexes and the International District restaurant corridor on Euless Main Street, spreading through shared plumbing in multi-unit buildings.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peak fall and winter",
+        note: "House mice push into Euless structures in fall through gaps around utility penetrations and door thresholds. The airport corridor creates additional rodent pressure from the infrastructure and landscaping of DFW International Airport adjacent to the city.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Bear Creek and the Trinity River tributaries through Euless create mosquito breeding habitat. West Nile virus is monitored annually in Tarrant County.",
+      },
+    ],
+    localHook:
+      "Euless is home to one of the most culturally diverse communities in Texas, including the largest Tongan community in the United States, and its International District on Euless Main Street creates the restaurant and food service density that sustains German cockroach colonies in the mid-cities corridor.",
+    intro:
+      "Pest control in Euless reflects the mid-cities DFW suburban experience, with the added complexity of an International District restaurant corridor that requires ongoing commercial pest management. Fire ants are year-round in Tarrant County lawns. Eastern subterranean termites work through the city's 1970s through 1990s housing stock. German cockroaches are a consistent commercial and multi-family building problem. House mice push into structures each fall. Mosquitoes are active along Bear Creek and the Trinity River tributaries through spring and fall. A complete Euless program covers both residential and commercial pest needs with the same annual discipline.",
+    sections: [
+      {
+        heading: "The Mid-Cities Pest Environment",
+        body: "Euless shares the pest environment of the broader DFW mid-cities corridor, positioned between the Trinity River floodplain and the urban density of the airport corridor. Eastern subterranean termites are active throughout Tarrant County and are the most economically significant structural pest for Euless homeowners. Texas A&M AgriLife Extension confirms active termite populations in all Tarrant County soil types, with the heavy clay soils of the mid-cities retaining the moisture that sustains foraging year-round. Annual spring inspections are the practical standard for any Euless home older than ten years, focused on slab edge and expansion joint areas where subterranean termites enter from below.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant broadcast bait to lawns in spring and fall to manage colony density in yard and creek corridor areas",
+      "Schedule annual termite inspections for Euless homes from the 1970s through 1990s, focusing on slab edge and plumbing penetration areas",
+      "Seal gaps around door thresholds and utility conduit penetrations before fall to prevent house mouse entry",
+      "Install monthly mosquito barrier spray programs for properties near Bear Creek or Trinity River tributaries from April through October",
+      "Use interior gel bait in kitchen and bathroom areas for German cockroach control in multi-family and commercial buildings",
+    ],
+    costNote:
+      "Euless pest control pricing reflects the Tarrant County DFW market. Annual maintenance programs covering fire ants, termite monitoring, and general pest control are the standard service format. Free termite inspections are standard.",
+    faqs: [
+      {
+        question: "What pests are most common in Euless homes?",
+        answer:
+          "Fire ants in the lawn, eastern subterranean termites in older housing, and house mice in fall are the three most consistent pest concerns for Euless homeowners. German cockroaches are a problem in older multi-family buildings. Mosquitoes are active from spring through fall along the creek corridors. Managing all five with a coordinated annual program, including termite inspection, fire ant broadcast bait twice per year, mouse exclusion before fall, and mosquito barrier spray from spring through fall for creek-adjacent properties, is the practical standard for Euless residential accounts.",
+      },
+      {
+        question: "Are termites more active near the airport in Euless?",
+        answer:
+          "Not specifically near the airport. Termite activity in Euless is driven by soil type and housing age rather than proximity to DFW International Airport. The heavy clay soils of Tarrant County retain moisture year-round, which sustains subterranean termite foraging through the dry summer months. Older housing in the central Euless neighborhoods from the 1970s and 1980s carries the highest infestation risk because those homes predate current soil pre-treatment standards. Annual spring inspections are the appropriate precaution for that housing.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Bedford", slug: "bedford-tx" },
+      { name: "Hurst", slug: "hurst" },
+      { name: "Grand Prairie", slug: "grand-prairie" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Euless, TX | Fire Ants, Termites & Mid-Cities DFW Pests",
+    metaDescription:
+      "Euless TX pest control for fire ants, subterranean termites, German cockroaches, house mice and mosquitoes. Tarrant County DFW mid-cities airport corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lancaster-tx",
+    name: "Lancaster",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~40,000",
+    county: "Dallas County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Lancaster sits in southern Dallas County between Dallas and Waxahachie with the heavy clay soils and hot humid summers characteristic of North Texas. The city is in the Ten Mile Creek and Mountain Creek drainage corridor, and its mix of older established neighborhoods and newer commercial development creates pest conditions shaped by both aging housing stock and actively disturbed growth-edge soils.",
+    topPests: [
+      "fire ants",
+      "subterranean termites",
+      "German cockroaches",
+      "house mice",
+      "mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after rain",
+        note: "Fire ants are established throughout Dallas County and are the most visible outdoor pest in Lancaster. The Ten Mile Creek corridor sustains particularly active fire ant habitat, and mounds appear throughout residential lawns after spring rains.",
+      },
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May",
+        note: "Eastern subterranean termites are active throughout Dallas County's heavy clay soils. Lancaster's housing stock from the 1960s through the 1980s carries meaningful termite risk from accumulated slab-edge and crawl space vulnerability.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are present in Lancaster's older apartment complexes and the restaurant corridor along the interstate. They require interior bait programs for lasting control in multi-unit and commercial settings.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peak fall and winter",
+        note: "House mice are common in Lancaster's older housing and push indoors in fall through gaps around utility penetrations, door thresholds, and foundation cracks accumulated in aging construction.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Ten Mile Creek and Mountain Creek through Lancaster create mosquito breeding habitat. The city's low-lying areas near the creek drainages are the highest-pressure zones through the summer season.",
+      },
+    ],
+    localHook:
+      "Lancaster is one of the older suburban communities in southern Dallas County, and its housing stock from the 1960s through the 1980s carries the accumulated entry points and termite exposure that come with aging North Texas construction.",
+    intro:
+      "Pest control in Lancaster addresses the southern Dallas County suburban experience with an emphasis on older housing pest risks. The city's 1960s through 1980s housing stock has decades of accumulated gaps for mice and termite exposure at slab edges. Fire ants are a year-round lawn presence in the Ten Mile Creek and Mountain Creek corridors. German cockroaches maintain colonies in older commercial and multi-family buildings. A Lancaster pest plan addresses the structural risks specific to older North Texas housing, not just the seasonal outdoor pests.",
+    sections: [
+      {
+        heading: "Older Housing and Structural Pest Risks in Lancaster",
+        body: "Lancaster's housing stock from the 1960s through the 1980s predates the current generation of subterranean termite soil treatment standards used in new Texas construction. Eastern subterranean termites in Dallas County's heavy clay soils forage year-round and have had decades to work through these older structures. Slab-edge entry at expansion joints, plumbing stub-up penetrations, and brick ledge drain holes are the most common entry points in Lancaster's slab-on-grade construction. An annual spring inspection that specifically checks these entry points provides the early detection that avoids expensive structural repair. House mice in older Lancaster housing push through the gaps that accumulate in aging door sweeps, utility conduit penetrations, and weep holes in brick veneer. Addressing both the termite and the rodent exclusion needs together in a fall inspection is a practical approach for older Lancaster homes.",
+      },
+    ],
+    prevention: [
+      "Schedule annual spring termite inspections for any Lancaster home built before 1990, checking slab edge and expansion joint areas specifically",
+      "Replace worn door sweeps and seal utility conduit penetrations before fall to prevent house mouse entry",
+      "Apply fire ant broadcast bait to lawn areas in spring and fall to manage the Ten Mile Creek and Mountain Creek corridor populations",
+      "Eliminate standing water near the creek drainage corridors from March through October to reduce mosquito breeding habitat",
+      "Use interior gel bait for German cockroaches in older apartment and commercial buildings rather than spray, which scatters without eliminating the colony",
+    ],
+    costNote:
+      "Lancaster pest control pricing reflects the Dallas County southern suburban market. Annual maintenance contracts covering fire ant management, termite monitoring, and general pest control are the standard service format. Free termite inspections are offered by licensed operators.",
+    faqs: [
+      {
+        question: "Is Lancaster's older housing at high termite risk?",
+        answer:
+          "Yes. Lancaster's housing from the 1960s through the 1980s predates current soil pre-treatment standards and has been exposed to eastern subterranean termite foraging for decades. The heavy clay soils of Dallas County retain moisture that sustains termite activity year-round. Annual spring inspections are the appropriate standard for any Lancaster home in this age range. Look for mud tubes along the exterior foundation wall, inside closets near the slab edge, and around water heater and plumbing utility areas as early warning signs.",
+      },
+      {
+        question: "What is the best time to treat for fire ants in Lancaster?",
+        answer:
+          "Fire ant treatment in Lancaster is most effective when applied in spring before the mound surge following April rains, and again in fall before winter. Broadcast bait applied to the entire lawn in these two windows, combined with targeted mound treatments near high-traffic areas like playsets and garden beds, maintains lower colony density through the year than reactive mound-only treatment. The Ten Mile Creek and Mountain Creek corridors through Lancaster sustain active fire ant populations that recolonize treated lawns from adjacent creek-edge habitat.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "DeSoto", slug: "desoto-tx" },
+      { name: "Cedar Hill", slug: "cedar-hill" },
+      { name: "Waxahachie", slug: "waxahachie" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Lancaster, TX | Fire Ants, Termites & South Dallas Pests",
+    metaDescription:
+      "Lancaster TX pest control for fire ants, subterranean termites, German cockroaches, house mice and mosquitoes. Dallas County Ten Mile Creek south Dallas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "grapevine",
+    name: "Grapevine",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~52,000",
+    county: "Tarrant County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Grapevine sits at the intersection of Tarrant and Dallas counties adjacent to Lake Grapevine and DFW International Airport in the heart of the DFW Metroplex. The hot humid summers, the lake and creek corridors, and the city's mix of historic downtown housing and newer lakeside development create a pest environment shaped by both the suburban North Texas standard and the waterfront conditions of Lake Grapevine.",
+    topPests: [
+      "fire ants",
+      "subterranean termites",
+      "German cockroaches",
+      "mosquitoes",
+      "house mice",
+    ],
+    pestProfile: [
+      {
+        name: "red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after spring rain",
+        note: "Fire ants are established throughout Tarrant County and are a consistent lawn pest throughout Grapevine. The Lake Grapevine shoreline and the creek corridors feeding the lake create the moist disturbed soil conditions where fire ant colonies expand rapidly after rain.",
+      },
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May",
+        note: "Eastern subterranean termites are active throughout the DFW Metroplex. Grapevine's older historic downtown housing carries meaningful crawl space and slab-edge termite risk, and properties adjacent to Lake Grapevine face elevated moisture conditions that sustain year-round foraging.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are present in Grapevine's historic Main Street restaurant corridor and in older multi-family housing throughout the city. They spread through shared plumbing penetrations.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, elevated near Lake Grapevine",
+        note: "Lake Grapevine and the creek tributaries feeding it create mosquito breeding habitat that elevates seasonal pressure compared to the purely inland DFW suburbs. Properties near the lake edge, Dove Creek, and Big Bear Creek corridors see the most intense activity.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peak fall and winter",
+        note: "House mice push into Grapevine's older downtown and residential housing in fall through gaps around utility penetrations. The historic Main Street corridor's older buildings carry the most accumulated entry points.",
+      },
+    ],
+    localHook:
+      "Grapevine's historic downtown on Main Street is one of the best-preserved historic commercial districts in North Texas, and the older buildings along that corridor carry the accumulated pest entry points that come with century-old construction near Lake Grapevine.",
+    intro:
+      "Pest control in Grapevine serves a city with two distinct characters: a historic downtown with Victorian-era buildings along Main Street, and newer lakeside residential development along Lake Grapevine. Both need pest management, but the risks are different. Older downtown and residential properties carry accumulated termite and rodent entry points. Lakeside properties face elevated mosquito pressure and moisture conditions that sustain termite foraging. Fire ants are a consistent lawn concern throughout Tarrant County. A Grapevine pest plan accounts for both the structural risks of the city's historic building stock and the seasonal outdoor pressure from the lake and creek corridors.",
+    sections: [
+      {
+        heading: "Historic Downtown vs. Lakeside Pest Risks",
+        body: "Grapevine's Main Street historic district and the older residential neighborhoods behind it carry the pest vulnerability profile of century-old North Texas construction: wood framing, accumulated gaps in mortar and sill plates, and decades of exposure to eastern subterranean termite foraging. Annual spring termite inspections in these properties are a standard precaution. Lakeside residential properties along Lake Grapevine face a different risk profile: elevated moisture from the lake shoreline sustains termite foraging and creates conditions that attract rodents seeking water. Mosquito pressure near the lake shoreline, Dove Creek, and Big Bear Creek corridors is significantly higher than in the inland portions of the city. A professional inspection that addresses both the structural risks of the property's construction age and the environmental risks of its location near the lake provides a complete picture.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for historic downtown properties and older residential housing near Main Street",
+      "Run monthly mosquito barrier spray programs from April through October for properties within a quarter mile of Lake Grapevine, Dove Creek, or Big Bear Creek",
+      "Apply fire ant broadcast bait to lawns in spring and fall to manage colony density in yard and lakeside park areas",
+      "Seal gaps around door thresholds and utility penetrations in older buildings before fall to reduce house mouse entry",
+      "Use interior gel bait in Main Street corridor restaurant and retail kitchens for German cockroach control",
+    ],
+    costNote:
+      "Grapevine pest control pricing reflects the Tarrant County DFW market with a modest premium for historic building and lakeside accounts that require more detailed inspection work. Free termite inspections are standard.",
+    faqs: [
+      {
+        question: "Are mosquitoes worse near Lake Grapevine?",
+        answer:
+          "Yes. Properties within a quarter mile of the Lake Grapevine shoreline, along Dove Creek, and along Big Bear Creek experience meaningfully higher mosquito pressure than the inland portions of Grapevine. The lake shoreline and creek banks provide breeding habitat that sustains mosquito populations through the warm season. Monthly barrier spray programs from April through October significantly reduce biting pressure in treated yard areas for lakeside properties. Inland Grapevine properties face the standard Tarrant County season without the lake elevation.",
+      },
+      {
+        question: "Do older Main Street buildings in Grapevine have termite problems?",
+        answer:
+          "Historic buildings along Main Street and in the surrounding older residential neighborhoods carry meaningful termite risk from decades of exposure. Eastern subterranean termites are documented throughout Tarrant County, and Grapevine's older construction, which includes wood framing, crawl space foundations, and aging mortar in older commercial buildings, carries higher risk than newer construction. Annual spring termite inspections are the appropriate precaution for any Grapevine property older than 25 years, particularly those with wood-frame construction near the historic district.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Euless", slug: "euless" },
+      { name: "Southlake", slug: "southlake" },
+      { name: "Coppell", slug: "coppell" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Grapevine, TX | Fire Ants, Termites & Lake Grapevine Pests",
+    metaDescription:
+      "Grapevine TX pest control for fire ants, subterranean termites, mosquitoes, German cockroaches and house mice. Tarrant County Lake Grapevine DFW airport corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "haltom-city",
+    name: "Haltom City",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~44,000",
+    county: "Tarrant County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Haltom City sits in northeastern Tarrant County directly adjacent to Fort Worth, between the city's established urban core and the suburban growth corridors along Loop 820. The hot humid climate, heavy clay soils, and older housing stock of the Northeast Fort Worth corridor create a pest environment driven primarily by fire ants, subterranean termites, and rodents in aging structures.",
+    topPests: [
+      "fire ants",
+      "subterranean termites",
+      "German cockroaches",
+      "house mice",
+      "mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after rain",
+        note: "Fire ants are established throughout Tarrant County. Haltom City's older developed neighborhoods and the creek corridors of Fossil Creek and Big Fossil Creek through the city create active fire ant habitat.",
+      },
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May",
+        note: "Eastern subterranean termites are active throughout Tarrant County. Haltom City's housing stock from the 1950s through the 1970s predates modern soil treatment standards and carries meaningful slab-edge and crawl space termite risk.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are present in Haltom City's older commercial corridor along Denton Highway and in older multi-family housing throughout the city. They spread through shared plumbing penetrations in older buildings.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peak fall and winter",
+        note: "House mice are a consistent fall and winter pest in Haltom City's older housing stock, which has accumulated the gaps at door thresholds, utility penetrations, and brick weep holes that give mice reliable entry.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Fossil Creek and Big Fossil Creek through Haltom City create mosquito breeding habitat along the creek corridors. West Nile virus is monitored annually in Tarrant County.",
+      },
+    ],
+    localHook:
+      "Haltom City's housing from the post-World War II era through the 1970s is some of the oldest suburban stock in Tarrant County, and that older construction carries the accumulated pest entry points and termite exposure that define the northeast Fort Worth pest challenge.",
+    intro:
+      "Pest control in Haltom City addresses the distinctive challenges of northeast Tarrant County's older suburban housing. The city's post-war housing stock from the 1950s through the 1970s predates modern termite soil treatment standards and has decades of accumulated gaps for rodents and cockroaches. Fire ants are a year-round outdoor concern along the Fossil Creek corridors. A Haltom City pest plan starts with a structural assessment of the property's construction age and then addresses the seasonal outdoor pests.",
+    sections: [
+      {
+        heading: "Northeast Fort Worth's Older Housing and Pest History",
+        body: "Haltom City grew rapidly after World War II as a bedroom community for Fort Worth's defense and manufacturing industry. The slab-on-grade and pier-and-beam houses built in that era predated modern subterranean termite soil treatment protocols and have been exposed to eastern subterranean termite foraging in Tarrant County's heavy clay soils for 50 to 70 years. Pier-and-beam foundations, which are common in Haltom City's oldest neighborhoods, carry a different inspection profile than slab construction: the crawl space allows direct visual inspection for mud tubes and damaged wood, but it also provides the moist, undisturbed environment where termites can operate undisturbed for years. Annual spring inspections of both the crawl space and any slab extensions on these properties are the practical standard. House mice in the same older housing push through gaps in aging door seals, utility conduit penetrations at the foundation, and deteriorated brick weep holes.",
+      },
+    ],
+    prevention: [
+      "Schedule annual spring termite inspections for older Haltom City homes, with specific attention to pier-and-beam crawl spaces and any slab extensions",
+      "Replace deteriorated door sweeps and seal brick weep holes and utility penetrations in fall to block house mouse entry",
+      "Apply fire ant broadcast bait to lawns in spring and fall to manage the Fossil Creek corridor fire ant populations",
+      "Eliminate standing water near the creek corridors from March through October to reduce mosquito breeding habitat",
+      "Use interior gel bait in older commercial and apartment kitchens for German cockroach control",
+    ],
+    costNote:
+      "Haltom City pest control pricing reflects the Tarrant County northeast Fort Worth market. Annual maintenance programs are the standard format. Free termite inspections are standard, and pier-and-beam crawl space inspections are typically included in a standard termite assessment.",
+    faqs: [
+      {
+        question: "Are pier-and-beam foundations in Haltom City at higher termite risk?",
+        answer:
+          "Pier-and-beam foundations are at meaningful termite risk in Tarrant County because the crawl space environment, which is dark, somewhat humid, and undisturbed, provides ideal conditions for subterranean termite foraging and mud tube construction. The advantage over slab construction is that crawl space mud tubes and damaged wood are often visible during a professional inspection before damage becomes structural. The disadvantage is that the crawl space can harbor termite activity for years without any surface signs inside the living area. Annual crawl space inspections are the appropriate precaution for Haltom City homes with this foundation type.",
+      },
+      {
+        question: "What should I do about house mice in an older Haltom City home?",
+        answer:
+          "Start with a professional entry point audit before fall. House mice in older Haltom City homes typically enter through three main points: gaps at door thresholds where the sweep has deteriorated, gaps where utility conduit passes through the foundation, and uncapped brick weep holes. Sealing all three categories before October prevents the fall push inside. Inside, snap traps placed in cabinet backs, behind the refrigerator, and in the garage along wall edges are more effective and safer than rodenticide bait in occupied homes. Replacing entry point seals annually is the most durable long-term prevention.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Fort Worth", slug: "fort-worth" },
+      { name: "Euless", slug: "euless" },
+      { name: "North Richland Hills", slug: "north-richland-hills" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Haltom City, TX | Fire Ants, Termites & Northeast Fort Worth Pests",
+    metaDescription:
+      "Haltom City TX pest control for fire ants, subterranean termites, German cockroaches, house mice and mosquitoes. Tarrant County northeast Fort Worth Fossil Creek specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bedford-tx",
+    name: "Bedford",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~49,000",
+    county: "Tarrant County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Bedford sits in the heart of the DFW mid-cities corridor in Tarrant County as part of the HEB area, between Hurst, Euless, and Bedford. The hot humid Texas summers, heavy clay soils, and established suburban housing stock create the standard North Texas pest environment with year-round fire ant pressure, active subterranean termites, and seasonal rodent incursion in older residential housing.",
+    topPests: [
+      "fire ants",
+      "subterranean termites",
+      "German cockroaches",
+      "house mice",
+      "mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after rain",
+        note: "Fire ants are established throughout Tarrant County. Bedford's established suburban neighborhoods see consistent mound pressure in lawn and landscape areas, with surges after spring and early summer rains.",
+      },
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May",
+        note: "Eastern subterranean termites are documented throughout the DFW Metroplex. Bedford's 1960s through 1980s housing stock predates current soil treatment standards and carries slab-edge termite risk typical of mid-cities North Texas construction.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a steady presence in Bedford's older apartment complexes and in restaurant corridors along Airport Freeway and Central Drive. They require interior bait management in multi-unit and commercial settings.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peak fall and winter",
+        note: "House mice push into Bedford's established housing in fall through gaps at door thresholds, utility penetrations, and other entry points common in 1960s through 1980s North Texas construction.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Bear Creek and the Trinity River tributary system through the HEB area create mosquito breeding habitat. West Nile virus is monitored annually in Tarrant County.",
+      },
+    ],
+    localHook:
+      "Bedford is part of the HEB mid-cities corridor, one of the most established suburban areas in Tarrant County, where the housing from the 1960s through the 1980s carries the accumulated pest exposure that comes with decades of North Texas construction aging.",
+    intro:
+      "Pest control in Bedford addresses the mid-cities HEB area pest environment with a focus on the structural risks of established North Texas housing. Fire ants are a consistent outdoor concern in Tarrant County lawns. Eastern subterranean termites work through the city's 1960s through 1980s housing stock. German cockroaches maintain colonies in older commercial and multi-family buildings. House mice push in each fall. A complete Bedford program combines fire ant broadcast bait, annual termite inspection, rodent exclusion before fall, and mosquito management for creek-adjacent properties.",
+    sections: [
+      {
+        heading: "The HEB Mid-Cities Pest Standard",
+        body: "Bedford, Hurst, and Euless share a pest environment shaped by their position as established 1960s through 1980s DFW suburban communities. The housing in this corridor is old enough to carry meaningful termite exposure, accumulated rodent entry points, and the commercial kitchen pest pressure of a dense suburban retail and restaurant corridor. Eastern subterranean termites are the most economically significant structural pest, and annual spring inspections are the appropriate standard for any HEB area home built before 1990. House mouse exclusion is best addressed proactively in August and September before fall temperatures begin to drive the push indoors. Fire ant broadcast bait applied to lawns in April and October maintains lower colony density than reactive mound-only treatment throughout the Tarrant County climate.",
+      },
+    ],
+    prevention: [
+      "Schedule annual spring termite inspections for Bedford homes built before 1990, with specific attention to slab perimeter and expansion joint areas",
+      "Complete mouse exclusion work in August before fall temperatures trigger the push indoors",
+      "Apply fire ant broadcast bait in April and October to maintain lower fire ant density year-round",
+      "Eliminate standing water in gutters and low-lying yard areas from March through October to reduce mosquito breeding",
+      "Use interior gel bait programs in older apartment complexes and Airport Freeway restaurant corridors for German cockroach control",
+    ],
+    costNote:
+      "Bedford pest control pricing reflects the Tarrant County DFW mid-cities market. Annual maintenance programs are standard. Free termite inspections are offered by licensed operators.",
+    faqs: [
+      {
+        question: "What makes older HEB area homes different for pest control?",
+        answer:
+          "Bedford and the HEB area have a large stock of homes from the 1960s through the 1980s that predate current subterranean termite soil treatment standards. These homes have also had 40 to 60 years to accumulate the gaps in door sweeps, utility penetrations, and brick weep holes that give house mice reliable fall entry. The commercial corridor along Airport Freeway sustains German cockroach populations in older restaurant and retail kitchens. A professional inspection of an older Bedford home typically identifies all three categories of structural pest risk in a single visit.",
+      },
+      {
+        question: "Do I need monthly or quarterly pest service in Bedford?",
+        answer:
+          "For most Bedford homes, quarterly service combined with annual termite inspections and targeted pre-fall mouse exclusion provides adequate control. Monthly service is recommended for properties that have active cockroach infestations in multi-unit buildings, for accounts near Bear Creek with high mosquito pressure that benefit from monthly barrier applications, or for commercial kitchen accounts that face regulatory inspection standards. Most residential accounts in Bedford do well with a quarterly maintenance format that includes fire ant bait treatment in appropriate seasons.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Euless", slug: "euless" },
+      { name: "Haltom City", slug: "haltom-city" },
+      { name: "Hurst", slug: "hurst" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Bedford, TX | Fire Ants, Termites & HEB Mid-Cities Pests",
+    metaDescription:
+      "Bedford TX pest control for fire ants, subterranean termites, German cockroaches, house mice and mosquitoes. Tarrant County HEB mid-cities DFW airport corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "copperas-cove",
+    name: "Copperas Cove",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~35,000",
+    county: "Coryell County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Copperas Cove sits in Coryell County in Central Texas adjacent to Fort Cavazos (formerly Fort Hood), at the transition zone between the Edwards Plateau limestone terrain and the Blackland Prairie. This position gives the city a pest environment that includes both the fire ants and termites of the Blackland Prairie and the scorpions and bark scorpions of the limestone Hill Country to the west.",
+    topPests: [
+      "fire ants",
+      "subterranean termites",
+      "scorpions",
+      "German cockroaches",
+      "house mice",
+    ],
+    pestProfile: [
+      {
+        name: "red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after rain",
+        note: "Fire ants are established throughout Coryell County. Copperas Cove's position on the Blackland Prairie edge creates the disturbed soil and grassland conditions where fire ant colonies establish and expand rapidly, particularly in the residential areas adjacent to the Fort Cavazos military installation.",
+      },
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May",
+        note: "Eastern subterranean termites are active throughout Coryell County. Copperas Cove's mix of military housing and older civilian residential construction carries meaningful slab-edge and crawl space termite risk. Texas A&M AgriLife Extension documents active termite populations throughout the Central Texas belt.",
+      },
+      {
+        name: "striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Spring through fall, most active May through September",
+        note: "Striped bark scorpions are common in Copperas Cove and throughout Coryell County's limestone terrain. The city's proximity to the Edwards Plateau and the cedar and live oak scrub of the Hill Country transition zone brings scorpions into residential areas, particularly in older neighborhoods near the rocky terrain west of downtown.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are present in Copperas Cove's older commercial and multi-family housing, particularly in the restaurant corridor along Business 190 and in older apartment complexes.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peak fall and winter",
+        note: "House mice push into Copperas Cove's older residential housing in fall through accumulated gaps in aging construction. Military housing turnover also creates frequent pest introduction and reinfestation cycles.",
+      },
+    ],
+    localHook:
+      "Copperas Cove sits at the edge of the Edwards Plateau limestone terrain, and that position brings striped bark scorpions into residential neighborhoods from the rocky cedar scrub west of the city, creating a pest profile that Central Texas city residents to the east do not typically face.",
+    intro:
+      "Pest control in Copperas Cove combines the standard Central Texas suburban pest set with the scorpion pressure that comes with the city's position at the Hill Country transition zone. Fire ants are a year-round outdoor concern in Coryell County. Eastern subterranean termites work through the mix of civilian and military housing. Scorpions from the limestone and cedar scrub terrain west of the city enter residential areas year-round in the mild Central Texas climate. German cockroaches maintain colonies in older commercial buildings. A complete Copperas Cove program addresses all of these rather than treating one pest at a time.",
+    sections: [
+      {
+        heading: "Scorpions and the Hill Country Edge",
+        body: "Striped bark scorpions are found throughout the Hill Country and extend into the eastern limestone margins of Coryell County. Copperas Cove's location at this edge brings scorpions into residential areas, particularly in older neighborhoods near the rocky cedar and live oak terrain west of downtown. Scorpions enter homes through weep holes in brick veneer, gaps around ground-level plumbing penetrations, and cracks in older stucco and mortar. They are nocturnal and hide in undisturbed areas during the day: inside shoes, under stored cardboard in garages, in wall voids, and under bathroom vanity bases. A perimeter barrier treatment combined with sealing weep holes and utility penetrations reduces the number that successfully enter. Keeping garage floors clear of stored items removes the daytime harborage that scorpions rely on inside structures.",
+      },
+      {
+        heading: "Fort Cavazos Adjacent: Military Housing Turnover and Pest Cycles",
+        body: "Copperas Cove's proximity to Fort Cavazos creates a unique pest dynamic: high housing turnover from military family relocations introduces German cockroaches, bed bugs, and other transportable pests into otherwise clean structures. Rental and former-military housing in the city's apartment corridors has higher background pest pressure than comparable civilian suburban markets. German cockroaches spread between units through shared plumbing, and a single infested unit in a multi-unit building will reinfest treated neighbors within weeks. Building-wide interior bait programs coordinated by property management produce more lasting results than individual unit treatments in the high-turnover housing stock common in military gateway cities.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes, utility penetrations, and foundation cracks to block scorpion entry, particularly in older homes near the limestone terrain west of downtown",
+      "Keep garage floors clear of stored cardboard boxes, shoes on the floor, and other clutter that scorpions use as daytime harborage",
+      "Apply fire ant broadcast bait in spring and fall to manage the Blackland Prairie edge fire ant populations",
+      "Schedule annual termite inspections for any Copperas Cove home with a slab or crawl space foundation, given active Central Texas termite populations",
+      "Coordinate building-wide German cockroach bait programs in multi-unit housing rather than treating individual units",
+    ],
+    costNote:
+      "Copperas Cove pest control pricing reflects the Coryell County Central Texas market, which is generally below the major metro rates. Scorpion perimeter programs run monthly or bi-monthly through the warm season. Free termite inspections are offered by licensed operators.",
+    faqs: [
+      {
+        question: "Are scorpions common inside homes in Copperas Cove?",
+        answer:
+          "Yes, particularly in neighborhoods near the limestone and cedar scrub terrain west of the city and in older homes with accumulated gaps in the building envelope. Striped bark scorpions are the most common scorpion species in Coryell County and are found throughout Central Texas. Their sting causes immediate pain and discomfort but is rarely medically serious for healthy adults. They hide in shoes, under stored items, and in undisturbed wall voids during the day and are active at night. Perimeter barrier treatments combined with sealing weep holes and utility penetrations is the effective prevention approach.",
+      },
+      {
+        question: "Why is pest control turnover a problem in Copperas Cove rental housing?",
+        answer:
+          "Copperas Cove's proximity to Fort Cavazos means rental housing near the installation has higher turnover than typical civilian markets. Military families moving in from different regions occasionally introduce cockroaches, bed bugs, or other pests via furniture and household goods. In multi-unit buildings, a single introduction can spread to adjacent units through shared plumbing penetrations before anyone notices. Landlords and property managers in the Fort Cavazos corridor benefit from proactive move-out and move-in inspections and from building-wide bait programs rather than unit-by-unit reactive treatment.",
+      },
+      {
+        question: "Do I need termite protection in Central Texas?",
+        answer:
+          "Yes. Texas A&M AgriLife Extension documents eastern subterranean termites as active throughout the Central Texas belt that includes Coryell County. The limestone and clay soils of the Copperas Cove area sustain foraging year-round. Annual spring inspections are the appropriate precaution for any home in the area, particularly those with slab construction where expansion joints and plumbing stub-up penetrations are the primary termite entry points.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Killeen", slug: "killeen" },
+      { name: "Belton", slug: "belton" },
+      { name: "Temple", slug: "temple" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Copperas Cove, TX | Scorpions, Fire Ants & Central Texas Pests",
+    metaDescription:
+      "Copperas Cove TX pest control for fire ants, subterranean termites, scorpions, German cockroaches and house mice. Coryell County Fort Cavazos Hill Country edge Central Texas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "midlothian-tx",
+    name: "Midlothian",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3" as const,
+    population: "~37,000",
+    county: "Ellis County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Midlothian sits in Ellis County southwest of Dallas in the Blackland Prairie, where hot humid summers, heavy clay soils, and rapid residential development in previously agricultural land create the conditions for fire ant colonization of disturbed soils and subterranean termite activity in both new and older housing. The city is one of the fastest-growing in the DFW southwest corridor.",
+    topPests: [
+      "fire ants",
+      "subterranean termites",
+      "German cockroaches",
+      "house mice",
+      "mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Fire ants colonize the disturbed Blackland Prairie soils of Ellis County rapidly as Midlothian's development expands. New construction and active grading sites are the primary sources of colony relocation that pushes fire ants into adjacent finished neighborhoods.",
+      },
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through May",
+        note: "Eastern subterranean termites are active throughout Ellis County. Midlothian's heavy Blackland Prairie clay soils retain moisture that sustains foraging through the dry summer months. Both new construction and older housing in the city's established central neighborhoods carry termite risk.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are present in Midlothian's older commercial and multi-family buildings along Highway 287 and in the downtown corridor. They require interior bait programs for control in multi-unit settings.",
+      },
+      {
+        name: "house mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peak fall and winter",
+        note: "House mice push into Midlothian structures in fall as outdoor temperatures begin to drop. New construction homes carry fewer accumulated entry points than older housing, but gaps around utility penetrations and unfinished garage details are common in rapidly built subdivisions.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Joe Pool Lake to the north and the creek drainage corridors through Ellis County create mosquito breeding habitat through the spring and summer. Midlothian's rapid development creates retention ponds and drainage features that add to local breeding capacity.",
+      },
+    ],
+    localHook:
+      "Midlothian's rapid growth in Ellis County means residential development is constantly clearing Blackland Prairie farmland, which displaces established fire ant colonies into adjacent finished neighborhoods in waves that track the construction frontier.",
+    intro:
+      "Pest control in Midlothian reflects the Ellis County fast-growth suburban experience. Fire ants from the Blackland Prairie farmland being cleared for new development regularly push into established neighborhoods adjacent to construction. Eastern subterranean termites are active in the heavy clay soils year-round. German cockroaches maintain colonies in older commercial buildings. House mice are a fall concern in both new and older housing. A complete Midlothian pest program addresses the fire ant pressure from active development at the city's edges and the structural pest risks specific to each property's construction age.",
+    sections: [
+      {
+        heading: "Growth-Edge Fire Ants and the Blackland Prairie",
+        body: "Midlothian's position as one of the fastest-growing cities in the DFW southwest corridor means land is being cleared and graded continuously on the city's expanding edges. Blackland Prairie farmland typically carries high fire ant colony density because the deep clay soils and open grass cover are ideal fire ant habitat. Clearing that land for subdivision development displaces established colonies that relocate to the nearest finished residential areas. Residents of older Midlothian neighborhoods near active construction often see an increase in fire ant mound density that tracks the adjacent building activity. Broadcast bait applied to lawn areas in spring and fall, and targeted mound treatment near high-traffic areas, manages the pressure that development displacement creates.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant broadcast bait in spring and fall, especially in neighborhoods adjacent to active construction and land clearing",
+      "Schedule annual termite inspections for older Midlothian homes with Blackland Prairie clay soil, focusing on slab perimeter and expansion joint areas",
+      "Seal utility penetration gaps and install quality door sweeps on new construction homes before fall to prevent house mouse entry",
+      "Eliminate standing water in subdivision retention ponds perimeters and gutters from March through October to reduce mosquito breeding",
+      "Use interior gel bait for German cockroach control in older commercial buildings along Highway 287",
+    ],
+    costNote:
+      "Midlothian pest control pricing reflects the Ellis County DFW southwest market. New construction home packages focused on fire ant prevention and termite monitoring are a common service format for Midlothian's rapidly growing residential market. Free termite inspections are standard.",
+    faqs: [
+      {
+        question: "Why are fire ants worse near new construction in Midlothian?",
+        answer:
+          "Land clearing and grading for new Midlothian subdivisions displaces established fire ant colonies from the Blackland Prairie farmland being developed. Those displaced colonies relocate to the nearest available habitat, which is often the finished lawns of adjacent established neighborhoods. The effect is most visible in spring when mound activity peaks after rains. Broadcast bait applied across entire lawn areas before the spring surge reduces the impact of this construction-driven fire ant movement more effectively than individual mound treatments.",
+      },
+      {
+        question: "Do new Midlothian homes need termite protection right away?",
+        answer:
+          "New Texas construction typically includes soil pre-treatment for subterranean termites before the slab is poured, which provides protection for several years. However, verifying that pre-treatment documentation exists at the time of home purchase is worthwhile, as not all builders apply treatment consistently. For new Midlothian homes in their first five years, a termite inspection at year three is a reasonable verification point. The heavy Blackland Prairie clay soils of Ellis County sustain high moisture levels that keep termite foraging conditions favorable year-round, making early monitoring a sound precaution.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Waxahachie", slug: "waxahachie" },
+      { name: "Cedar Hill", slug: "cedar-hill" },
+      { name: "Lancaster", slug: "lancaster-tx" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Midlothian, TX | Fire Ants, Termites & Ellis County Pests",
+    metaDescription:
+      "Midlothian TX pest control for fire ants, subterranean termites, German cockroaches, house mice and mosquitoes. Ellis County Blackland Prairie southwest DFW specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

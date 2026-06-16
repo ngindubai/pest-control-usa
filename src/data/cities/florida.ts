@@ -5345,4 +5345,519 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Port Orange pest control for subterranean termites, drywood termites, mosquitoes, fire ants and ghost ants. Volusia County Spruce Creek Halifax River coastal northeast Florida specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "pensacola",
+    name: "Pensacola",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3" as const,
+    population: "~55,000",
+    county: "Escambia County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Pensacola sits at the western end of the Florida Panhandle on Pensacola Bay and the Gulf of Mexico. The climate is hot-humid with long, wet summers and mild winters. The city receives significant rainfall from Gulf weather systems, the Escambia River and bay create extensive wetland habitat for mosquitoes, and the warm winters mean termites and cockroaches stay active year-round without a meaningful cold-season break.",
+    topPests: [
+      "Formosan subterranean termites",
+      "fire ants",
+      "American cockroaches",
+      "mosquitoes",
+      "rodents",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round foraging, swarms April through June",
+        note: "Formosan subterranean termites are established in Pensacola and throughout the Florida Panhandle. They are more aggressive and destructive than eastern subterranean termites, building large colonies that can consume structural wood faster. April through June swarms after warm rains are the most visible sign of established colonies.",
+      },
+      {
+        name: "fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds most visible spring through fall",
+        note: "Red imported fire ants are established throughout Escambia County and are a consistent pressure in Pensacola lawns and recreational areas. Mounds surge after rain events and fire ants are a genuine medical risk, particularly for young children and pets.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in warm months",
+        note: "American cockroaches, called palmetto bugs locally, are a common nuisance in Pensacola's older housing and commercial buildings. They breed in the storm drainage and sewer systems and move indoors through floor drains and pipe gaps.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, peak June through September",
+        note: "The Escambia River floodplain, Pensacola Bay marshes, and wetland areas throughout Escambia County create extensive mosquito breeding habitat. Several mosquito species capable of carrying West Nile virus are monitored annually in the county.",
+      },
+      {
+        name: "Norway rats and roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Both Norway rats and roof rats are present in Pensacola. Norway rats use the port and waterfront areas while roof rats inhabit the older downtown neighborhoods and residential areas with mature trees.",
+      },
+    ],
+    localHook:
+      "Pensacola's position on the Gulf Coast and the Escambia River estuary means the city deals with Formosan termites, one of the most destructive termite species in North America, alongside extensive mosquito habitat from the surrounding bay and wetland system.",
+    intro:
+      "Pest control in Pensacola carries the character of a Gulf Coast port city with a long military history and a mix of historic downtown housing and newer suburban development. Formosan subterranean termites are the most serious structural threat, and the warm climate keeps them foraging year-round. Fire ants are everywhere in Escambia County lawns and cause real medical risk. American cockroaches from the storm drainage system are a consistent nuisance in older buildings. Mosquitoes from the Escambia River floodplain and Pensacola Bay marshes make the outdoor season uncomfortable without management. A Pensacola pest plan starts with termite protection and extends through mosquito season.",
+    sections: [
+      {
+        heading: "Formosan Termites vs. Eastern Subterranean Termites in Pensacola",
+        body: "Pensacola deals with both Formosan subterranean termites and eastern subterranean termites, but Formosan termites are the more significant structural threat. Formosan colonies are larger, more aggressive, and capable of causing structural damage faster than eastern subterranean colonies. They swarm in warm, humid evenings from April through June and are drawn to light. Eastern subterranean termites swarm earlier, from February through April. When inspecting a Pensacola property, identifying which species is present matters for treatment planning because Formosan colonies require a different response than eastern subterranean infestations. Both species build mud tubes along foundation walls and enter through soil contact with wood framing. Annual inspections that can identify both species are the appropriate standard for Pensacola homeowners.",
+      },
+      {
+        heading: "Mosquitoes and the Bay Corridor",
+        body: "Pensacola Bay, the Escambia River delta, and the surrounding marsh and wetland corridors create more mosquito breeding habitat per square mile than most inland Florida cities. Escambia County Mosquito Control operates a documented monitoring program, but residential properties near the bay, the river, and low-lying areas need their own perimeter management to reduce the mosquito pressure that county programs cannot fully address. Eliminating standing water in gutters, plant trays, birdbaths, and low-lying yard areas removes the breeding sites within reach of residential management. Barrier spray programs for the yard perimeter, applied monthly from March through November, significantly reduce the active mosquito population in treated areas.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections that cover both Formosan and eastern subterranean species given both are present in Escambia County",
+      "Apply fire ant mound treatments in spring before population peaks and use broadcast bait for large lawn areas",
+      "Eliminate standing water weekly in plant trays, gutters, birdbaths, and low spots from March through November to cut mosquito breeding habitat",
+      "Seal floor drain gaps and pipe penetrations in older Pensacola buildings to reduce American cockroach entry from the drainage system",
+      "Install door sweeps and weatherstripping on ground-floor doors that show gaps, as cockroaches enter at ground level",
+    ],
+    costNote:
+      "Pensacola pest control pricing reflects the Gulf Coast Florida market. Termite inspections and treatment quotations are standard free-of-charge services. Monthly mosquito barrier programs run from March through November. Fire ant broadcast bait programs are typically included in quarterly pest maintenance contracts.",
+    faqs: [
+      {
+        question: "Are Formosan termites really worse than regular termites?",
+        answer:
+          "Yes, significantly. Formosan subterranean termites build much larger colonies than eastern subterranean termites, and a mature Formosan colony can consume structural wood faster. They also swarm more dramatically in late spring evenings and are more likely to establish aerial colonies in moist wood without soil contact. Pensacola and the Florida Panhandle are within the established Formosan range, and the species is present in the city. Annual inspections that specifically check for Formosan mud tube patterns and colony signs are the appropriate precaution.",
+      },
+      {
+        question: "When is mosquito season in Pensacola?",
+        answer:
+          "Mosquitoes are active from March through November in Pensacola, with peak activity from June through September. The Escambia River delta and Pensacola Bay marshes create significant breeding habitat that sustains a longer, more intense season than many inland Florida cities. The county operates mosquito control programs but residential barrier spray programs applied monthly from March through November are the most effective way to reduce the pressure on specific properties, particularly those near the bay or river corridors.",
+      },
+      {
+        question: "Why do American cockroaches keep appearing in my Pensacola home?",
+        answer:
+          "American cockroaches in Pensacola use the city's storm drainage and sewer system as their primary habitat and move indoors through floor drain gaps, pipe penetrations under sinks, and gaps at the base of exterior walls. Sealing those entry points, particularly the gaps around floor drains and under sink pipes, is the most important step. Gel bait placed in the areas where cockroaches are seen is more effective than spray for interior control. They are persistent because the drainage system sustains an ongoing population that replaces any individuals that are eliminated indoors.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Fort Walton Beach", slug: "fort-walton-beach" },
+      { name: "Mobile", slug: "mobile" },
+      { name: "Tallahassee", slug: "tallahassee" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Pensacola, FL | Formosan Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Pensacola pest control for Formosan termites, fire ants, American cockroaches, mosquitoes and rodents. Escambia County Gulf Coast Florida Panhandle specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "titusville",
+    name: "Titusville",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3" as const,
+    population: "~48,000",
+    county: "Brevard County",
+    climate: "tropical" as const,
+    climateDriver:
+      "Titusville sits on the Indian River Lagoon across from Merritt Island and Kennedy Space Center on Florida's Space Coast. The tropical climate brings year-round warmth, significant summer rainfall, and proximity to one of Florida's richest estuarine ecosystems, which creates some of the most intense mosquito habitat in the state alongside persistent termite and fire ant pressure.",
+    topPests: [
+      "subterranean termites",
+      "mosquitoes",
+      "fire ants",
+      "ghost ants",
+      "American cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through April",
+        note: "Eastern subterranean termites are documented throughout Brevard County and forage year-round in Titusville's warm climate. Older Space Coast housing near the Indian River has elevated risk from the consistently high moisture levels in the waterfront corridor.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November peak, some activity year-round",
+        note: "Titusville sits adjacent to the Merritt Island National Wildlife Refuge and Indian River Lagoon, creating mosquito habitat that ranks among the most significant in Florida. Salt marsh mosquitoes along the lagoon edge are a documented pest species monitored by Brevard Mosquito Control.",
+      },
+      {
+        name: "fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds most visible spring through fall",
+        note: "Red imported fire ants are established throughout Brevard County and are a consistent presence in Titusville lawns, parks, and recreational areas along the Indian River. Mounds appear quickly after rain and fire ants pose a medical risk in areas with outdoor activity.",
+      },
+      {
+        name: "ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are a distinctive Florida nuisance pest in Titusville and throughout Brevard County. Tiny and nearly transparent, they trail indoors through the smallest gaps and infest kitchen and bathroom areas year-round in the tropical climate.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in warm months",
+        note: "American cockroaches are common in Titusville's older neighborhoods and commercial buildings, entering through floor drains and outdoor gaps around pipes. They breed in the moist conditions near the Indian River lagoon corridor.",
+      },
+    ],
+    localHook:
+      "Titusville borders the Merritt Island National Wildlife Refuge, one of the largest undeveloped estuarine ecosystems on the East Coast, which creates mosquito, wildlife, and pest pressure that Space Coast residents manage year-round.",
+    intro:
+      "Pest control in Titusville is shaped by the city's position on the Indian River Lagoon opposite Kennedy Space Center and Merritt Island. The wetland and wildlife refuge immediately east of the city create exceptional mosquito pressure, particularly in neighborhoods near the lagoon edge and the causeway. Eastern subterranean termites work through older Space Coast housing. Fire ants are a consistent lawn and outdoor safety concern. Ghost ants are a year-round indoor nuisance in the tropical climate. A Titusville pest plan addresses the outdoor mosquito and fire ant pressure alongside the structural termite risk and the indoor ant and cockroach issues.",
+    sections: [
+      {
+        heading: "Mosquitoes and the Merritt Island Lagoon Edge",
+        body: "Few Florida communities face mosquito pressure as intense as Titusville. The Indian River Lagoon and Merritt Island National Wildlife Refuge create extensive salt marsh habitat that sustains several mosquito species monitored by Brevard County Mosquito Control. Residential neighborhoods near the lagoon edge, along the causeways, and in the low-lying areas west of US-1 experience peak mosquito activity from late May through October. Eliminating standing water on residential properties removes breeding sites within property boundaries, but the surrounding wildlife refuge habitat cannot be managed at the property level. Monthly yard barrier spray programs reduce the active mosquito population in treated areas and are the most practical management tool for Space Coast homeowners near the lagoon.",
+      },
+      {
+        heading: "Termites and Older Space Coast Housing",
+        body: "Titusville has a significant inventory of housing built from the 1950s through the 1970s, when the Space Coast grew rapidly around Kennedy Space Center. This older housing stock, particularly homes with wood-frame construction near the Indian River, carries elevated eastern subterranean termite risk from the combination of older construction and the consistently high humidity of the lagoon environment. Termite foraging is year-round in Brevard County's warm climate. Annual spring inspections are the standard precaution for Titusville homes older than 20 years, and homes near the water benefit from more frequent monitoring given the elevated moisture conditions.",
+      },
+    ],
+    prevention: [
+      "Eliminate all standing water on the property weekly from March through November, including gutters, plant trays, and low-lying yard areas near the lagoon edge",
+      "Install monthly mosquito barrier spray programs in yards near the Indian River Lagoon from May through October",
+      "Schedule annual termite inspections for older Titusville homes, particularly those with wood framing near the waterfront",
+      "Treat fire ant mounds in spring with targeted mound treatments and broadcast bait for large lawn areas",
+      "Seal floor drain gaps and pipe penetrations in older buildings to reduce American cockroach entry from the drainage system",
+    ],
+    costNote:
+      "Titusville pest control pricing reflects the Brevard County Space Coast market. Mosquito barrier programs and fire ant maintenance are frequently included in quarterly service contracts. Termite inspections are typically free and recommended annually for older homes.",
+    faqs: [
+      {
+        question: "Are mosquitoes as bad in Titusville as people say?",
+        answer:
+          "Mosquito pressure near the Indian River Lagoon and Merritt Island is genuinely intense. The salt marsh habitat of the lagoon and wildlife refuge sustains several mosquito species including salt marsh mosquitoes that bite aggressively during the day. Brevard County Mosquito Control operates regional programs, but they cannot eliminate the breeding habitat in the wildlife refuge. For residential properties near the lagoon or causeway, a monthly yard barrier spray program from May through October significantly reduces biting pressure in treated areas. Eliminating all standing water on the property is the most important step within the homeowner's direct control.",
+      },
+      {
+        question: "What are ghost ants and why are they in my Titusville home?",
+        answer:
+          "Ghost ants are a small, nearly transparent ant species that is very common throughout Brevard County and Florida. They are called ghost ants because their light-colored legs and abdomen make them nearly invisible on light surfaces. They trail indoors through tiny gaps around window frames, door thresholds, and utility penetrations and infest kitchen and bathroom areas in search of moisture and sweet food. Florida's tropical climate supports year-round ghost ant activity. Bait-based treatments targeting the colony are more effective than spray for ghost ants, as spraying only scatters them to new entry points.",
+      },
+      {
+        question: "Should I be concerned about termites near the Indian River?",
+        answer:
+          "Yes. The consistently high humidity of the lagoon environment near the Indian River increases the conditions that sustain subterranean termite foraging. Older Space Coast homes with wood-frame construction and any wood near soil contact carry elevated risk. Annual professional spring inspections are the standard precaution for Titusville homes older than 20 years. Homes within a block of the lagoon or causeway benefit from more frequent monitoring given the higher sustained moisture levels.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Cocoa", slug: "cocoa" },
+      { name: "Palm Bay", slug: "palm-bay" },
+      { name: "Melbourne", slug: "melbourne" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Titusville, FL | Termites, Mosquitoes & Space Coast Pests",
+    metaDescription:
+      "Titusville pest control for subterranean termites, mosquitoes, fire ants, ghost ants and American cockroaches. Brevard County Indian River Lagoon Space Coast Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bonita-springs",
+    name: "Bonita Springs",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3" as const,
+    population: "~70,000",
+    county: "Lee County",
+    climate: "tropical" as const,
+    climateDriver:
+      "Bonita Springs sits in southwest Florida in Lee County between Fort Myers and Naples, with a true tropical climate: hot, very wet summers, warm dry winters, and extensive wetland, mangrove, and coastal habitat surrounding the city. The summer wet season brings intense mosquito pressure from the surrounding mangrove marshes, and the warm year-round temperatures keep termites, fire ants, and cockroaches active without interruption.",
+    topPests: [
+      "subterranean termites",
+      "drywood termites",
+      "fire ants",
+      "ghost ants",
+      "mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through April",
+        note: "Eastern subterranean termites are active throughout Lee County and forage year-round in Bonita Springs' tropical climate. The city's mix of older and newer construction carries risk at different levels depending on soil pre-treatment history.",
+      },
+      {
+        name: "drywood termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through September",
+        note: "Drywood termites are present in Bonita Springs and throughout coastal southwest Florida. They infest attic framing, eave trim, and other dry wood without soil contact, and are common in older Gulf Coast homes and condominiums.",
+      },
+      {
+        name: "fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after rain",
+        note: "Red imported fire ants are established throughout Lee County and are a genuine medical concern in Bonita Springs park areas, golf courses, and residential lawns. Mounds re-appear quickly after rain and fire ants can pose serious risk to young children and elderly residents.",
+      },
+      {
+        name: "ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are one of the most common indoor ant pests throughout southwest Florida and trail indoors through tiny gaps, infesting kitchens and bathrooms in tropical climate homes year-round.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October peak",
+        note: "The mangrove marshes, estuaries, and wetlands surrounding Bonita Springs create intense mosquito breeding habitat. Peak activity from May through October coincides with the rainy season and makes outdoor activity in unprotected areas uncomfortable without management.",
+      },
+    ],
+    localHook:
+      "Bonita Springs borders some of southwest Florida's most productive mangrove and estuarine habitat, and the mosquito pressure from those coastal wetlands is one of the most consistent pest concerns for residents and seasonal visitors throughout the summer wet season.",
+    intro:
+      "Pest control in Bonita Springs is shaped by the city's position between the coastal wetlands of Southwest Florida and the growing suburban corridor linking Fort Myers and Naples. The surrounding mangrove marshes and estuaries create intense mosquito pressure from May through October. Both eastern subterranean and drywood termites are present in the area, making termite inspections that cover both species the appropriate standard. Fire ants are a year-round lawn pest. Ghost ants are an indoor nuisance throughout the tropical year. Snowbird and seasonal residents returning to Bonita Springs properties in the fall often find pest activity has established during the summer, so inspection and treatment at property opening is a standard precaution in this market.",
+    sections: [
+      {
+        heading: "Seasonal Properties and Summer Pest Accumulation",
+        body: "A significant portion of Bonita Springs' housing stock is occupied seasonally, with properties sitting empty during the summer wet season. That is exactly when pest activity peaks. Eastern subterranean termites swarm in the spring and expand colonies through the summer. German and American cockroaches establish in vacant structures. Ghost ant colonies move into kitchen and bathroom areas. Moisture intrusion in unoccupied homes accelerates termite and mold conditions. Seasonal residents who return in October or November often find pest evidence accumulated over the summer months. A professional inspection at property opening, combined with pre-departure treatment in May before summer, reduces the amount of remediation needed at return.",
+      },
+      {
+        heading: "Mangrove Corridors and Mosquito Management",
+        body: "The coastal mangrove habitat west of Bonita Springs along Estero Bay and the Imperial River estuaries creates breeding habitat that sustains year-round mosquito populations that peak in summer. Lee County Mosquito Control operates regional programs, but residential properties near the water need their own perimeter management. Monthly barrier spray programs from May through October reduce the active mosquito population in treated yard areas significantly. Eliminating standing water in gutters, plant trays, and low-lying yard areas after rain removes breeding sites within the property boundary. Properties near Estero Bay, the Imperial River, and Bonita Bay wetlands are in the highest-pressure zones.",
+      },
+    ],
+    prevention: [
+      "Schedule termite inspections that cover both eastern subterranean and drywood species before returning to a seasonal Bonita Springs property",
+      "Run monthly mosquito barrier spray programs from May through October, particularly for properties near Estero Bay or the Imperial River",
+      "Eliminate standing water in plant trays, gutters, and low-lying areas weekly during the wet season",
+      "Apply fire ant broadcast bait to lawns and common areas twice per year, in spring and fall",
+      "Seal ghost ant entry gaps around window frames, door thresholds, and plumbing penetrations before returning to a vacant property",
+    ],
+    costNote:
+      "Bonita Springs pest control pricing reflects the southwest Florida resort and snowbird market. Seasonal opening inspections and pre-departure treatments are common service formats here. Termite inspections are standard free services. Mosquito barrier programs are offered monthly through the rainy season.",
+    faqs: [
+      {
+        question: "Do I need pest control if my Bonita Springs property sits empty all summer?",
+        answer:
+          "Yes, a vacant property is more vulnerable, not less. Termites continue to forage without any deterrent. Ghost ants and cockroaches establish in the kitchen and bathroom areas. Moisture intrusion in summer storms accelerates mold and termite conditions without anyone there to notice. Scheduling a pre-departure treatment in April or May before leaving for summer, and a property opening inspection in October or November on return, is the standard approach for Bonita Springs seasonal properties. It is much less expensive to prevent establishment than to remediate a summer's worth of pest activity.",
+      },
+      {
+        question: "Are there two types of termites in Bonita Springs?",
+        answer:
+          "Yes. Eastern subterranean termites attack from underground through soil contact and build mud tubes along foundation walls. Drywood termites infest dry wood directly, including attic framing and eave trim, without any soil contact. Both species are present in Lee County. An inspection that covers both is the appropriate standard for Bonita Springs homeowners, since the two require different treatments and inspecting for only one can miss an active infestation of the other.",
+      },
+      {
+        question: "When are mosquitoes worst near Bonita Springs?",
+        answer:
+          "Mosquito activity peaks from May through October, coinciding with the Florida rainy season when breeding habitat in the surrounding mangrove marshes and estuaries is at maximum capacity. Evening outdoor activity near Estero Bay, the Imperial River, and the Bonita Bay waterways is most affected. Lee County Mosquito Control operates regional programs, but monthly barrier spray on residential properties significantly reduces the pressure on specific outdoor spaces during peak season.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Fort Myers", slug: "fort-myers" },
+      { name: "Naples", slug: "naples" },
+      { name: "Cape Coral", slug: "cape-coral" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Bonita Springs, FL | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Bonita Springs pest control for subterranean termites, drywood termites, fire ants, ghost ants and mosquitoes. Lee County Estero Bay southwest Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "altamonte-springs",
+    name: "Altamonte Springs",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3" as const,
+    population: "~43,000",
+    county: "Seminole County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Altamonte Springs sits in Seminole County just north of Orlando in central Florida, with a subtropical climate of hot, wet summers and mild winters. The city borders Cranes Roost Park and Lake Orienta in a dense suburban corridor where the warm year-round temperatures keep termites, fire ants, and cockroaches continuously active and the summer rainy season produces significant mosquito pressure from the lake and wetland system.",
+    topPests: [
+      "subterranean termites",
+      "fire ants",
+      "ghost ants",
+      "German cockroaches",
+      "mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through April",
+        note: "Eastern subterranean termites are active throughout Seminole County and forage year-round. Altamonte Springs' mix of 1970s and 1980s housing with wood-frame construction carries meaningful crawl space risk, and termite foraging near the Lake Orienta and Cranes Roost wetland corridors is elevated by the consistently high moisture levels.",
+      },
+      {
+        name: "fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after rain",
+        note: "Red imported fire ants are a persistent presence in Altamonte Springs lawns and the Cranes Roost Park greenway. Mounds appear rapidly after rain and fire ants pose a medical risk for young children playing in parks and recreational areas throughout Seminole County.",
+      },
+      {
+        name: "ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are one of the most common indoor ant complaints from Altamonte Springs homeowners. They trail indoors through tiny gaps and infest kitchen and bathroom areas year-round, particularly in ground-floor units of older condominiums and townhomes.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are present in Altamonte Springs' older apartment complexes, restaurants along Douglas Avenue, and commercial kitchens. They spread between units through shared plumbing penetrations and require interior bait programs for effective control.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through November peak",
+        note: "Mosquitoes are active around Lake Orienta, Cranes Roost Park, and the wetland areas throughout Seminole County. The summer rainy season from June through September produces the highest breeding activity in low-lying areas and retention ponds throughout the city.",
+      },
+    ],
+    localHook:
+      "Altamonte Springs is built around a series of lakes and parks including Cranes Roost Park and Lake Orienta, and the wetland edges of these water features create the mosquito breeding habitat and elevated termite moisture conditions that define the pest environment for lakeside and park-adjacent properties.",
+    intro:
+      "Pest control in Altamonte Springs reflects the central Florida suburban experience: dense neighborhoods, an active outdoor lifestyle in the parks and lakefront, and the persistent pest pressure that comes with year-round warmth and a wet summer season. Eastern subterranean termites work through older housing near the lake corridors. Fire ants are a lawn and park nuisance throughout the year. Ghost ants are a consistent indoor complaint. German cockroaches maintain colonies in older commercial and rental buildings. Mosquitoes are a significant outdoor concern around the lake and park system from spring through fall. A complete Altamonte Springs pest plan addresses all of these rather than treating one pest at a time.",
+    sections: [
+      {
+        heading: "Termites and Lake-Adjacent Housing",
+        body: "Altamonte Springs' many lakes and retention ponds create microclimates of sustained high moisture that make adjacent housing more susceptible to subterranean termite activity than drier inland properties. Eastern subterranean termites forage through soil and build mud tubes along foundation walls wherever consistent moisture is present. Older housing in the 1970s and 1980s developments near Lake Orienta, Lake Lotus, and the Cranes Roost corridor often has wood-frame construction with crawl spaces that represent the highest termite risk category in Seminole County. Annual spring inspections are the standard precaution for this housing. Homes with raised foundation construction or crawl spaces that collect moisture should also address ventilation as a companion measure to termite management.",
+      },
+      {
+        heading: "Fire Ants, Ghost Ants, and the Indoor-Outdoor Divide",
+        body: "Altamonte Springs residents deal with two distinct ant challenges. Fire ants are the outdoor problem: they colonize lawns, park areas, and the retention pond edges throughout the city and are a medical concern for children and pets. Ghost ants are the indoor problem: tiny, nearly transparent, and persistent in kitchen and bathroom areas. Fire ant management focuses on lawn and outdoor treatment, using mound treatments for individual colonies and broadcast bait for large lawn areas twice per year. Ghost ant management requires interior bait treatment rather than spray, as spray scatters ghost ant colonies to new entry points rather than eliminating them. Treating both at the same time prevents outdoor fire ant pressure from driving additional ant species indoors during peak activity.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for any older Altamonte Springs home near the lake or wetland corridors, where elevated moisture increases termite foraging",
+      "Apply fire ant broadcast bait to lawns twice per year, in spring and fall, before mound populations peak",
+      "Seal gaps around window frames, door thresholds, and plumbing penetrations to reduce ghost ant indoor entry",
+      "Eliminate standing water in plant trays, gutters, and low-lying yard areas weekly during the summer rainy season to reduce mosquito breeding",
+      "Seal kitchen and bathroom plumbing penetrations in multi-unit buildings to reduce German cockroach spread between units",
+    ],
+    costNote:
+      "Altamonte Springs pest control pricing reflects the Seminole County Orlando-area market. Quarterly maintenance programs covering termite monitoring, fire ant management, and general pest control are the standard service format for Altamonte Springs homeowners. Free termite inspections are standard.",
+    faqs: [
+      {
+        question: "Why do ghost ants keep appearing in my Altamonte Springs home?",
+        answer:
+          "Ghost ants are a persistent Florida pest that trail indoors through gaps too small to see easily, including gaps around window frames, under door thresholds, and at plumbing penetrations. They infest kitchens and bathrooms in search of moisture and sweet food. They are nearly transparent and hard to spot until a trail is established. Interior bait treatment, where workers carry slow-acting bait back to the colony, is significantly more effective than spray, which only displaces the trail rather than eliminating the colony. In older Altamonte Springs condominiums and townhomes, the colony may be in the wall void of an adjacent unit, making building-wide coordination more effective than single-unit treatment.",
+      },
+      {
+        question: "Are fire ants dangerous in Altamonte Springs parks?",
+        answer:
+          "Fire ants in Seminole County are a genuine medical risk for young children and elderly residents who may not react quickly enough to a mound disturbance. Their stings cause immediate burning pain followed by raised pustules, and multiple stings from a disturbed mound can cause serious reactions. Cranes Roost Park and the residential park system are actively maintained, but fire ant mounds re-establish quickly after rain events. Homeowners with young children should treat lawn mounds in spring and fall and check park areas before allowing unsupervised play near grass.",
+      },
+      {
+        question: "How do I reduce mosquitoes near the Altamonte Springs lakes?",
+        answer:
+          "Properties near Lake Orienta, Lake Lotus, and other water features in Altamonte Springs face ongoing mosquito pressure from breeding habitat in the wetland margins. Eliminating standing water on the property, including gutters, plant trays, and low-lying depressions, removes nearby breeding sites. Monthly barrier spray programs applied to the yard and shrub perimeter reduce the active adult mosquito population in treated areas. The most intense pressure from June through September coincides with the Florida rainy season, when professional monthly applications are most valuable.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Orlando", slug: "orlando" },
+      { name: "Sanford", slug: "sanford" },
+      { name: "Casselberry", slug: "casselberry" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Altamonte Springs, FL | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Altamonte Springs pest control for subterranean termites, fire ants, ghost ants, German cockroaches and mosquitoes. Seminole County Lake Orienta Cranes Roost central Florida specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "ormond-beach",
+    name: "Ormond Beach",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3" as const,
+    population: "~45,000",
+    county: "Volusia County",
+    climate: "hot-humid" as const,
+    climateDriver:
+      "Ormond Beach sits in northern Volusia County on Florida's northeast coast, bordered by the Halifax River to the west and the Atlantic Ocean to the east. The coastal climate is hot and humid in summer with mild winters, and the city's position between the river and the ocean creates the wetland and estuarine habitat that supports significant mosquito populations and the elevated humidity that sustains year-round termite activity.",
+    topPests: [
+      "drywood termites",
+      "subterranean termites",
+      "mosquitoes",
+      "fire ants",
+      "American cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "drywood termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms June through October",
+        note: "West Indian drywood termites are established throughout coastal northeast Florida and are present in Ormond Beach. They infest attic framing, eave trim, and wood furniture without soil contact and are common in older coastal homes with wood construction.",
+      },
+      {
+        name: "eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms February through April",
+        note: "Eastern subterranean termites are active throughout Volusia County. Ormond Beach's older housing near the Halifax River corridor carries elevated risk from the consistent moisture of the riverfront environment.",
+      },
+      {
+        name: "mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through November, peak June through September",
+        note: "The Halifax River, coastal marshes, and the Tomoka State Park wetlands adjacent to Ormond Beach create significant mosquito breeding habitat. Volusia County Mosquito Control operates regional programs, but residential properties near the river and state park need their own perimeter management through the wet season.",
+      },
+      {
+        name: "fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds most visible after rain",
+        note: "Red imported fire ants are established throughout Volusia County and are a consistent lawn pest in Ormond Beach. Mounds appear quickly after rain events in lawns, garden beds, and recreational areas.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, peak in warm months",
+        note: "American cockroaches are common in Ormond Beach's older beach-adjacent neighborhoods and commercial buildings. They breed in coastal drainage systems and move indoors through floor drains and gaps around exterior pipes.",
+      },
+    ],
+    localHook:
+      "Ormond Beach is historically known as the birthplace of American auto racing and was a winter retreat for John D. Rockefeller, but today the city's pest environment is defined by its position between the Halifax River and the Atlantic, which sustains both drywood termites in oceanfront homes and mosquitoes from the coastal wetlands.",
+    intro:
+      "Pest control in Ormond Beach addresses a coastal northeast Florida pest profile with a strong emphasis on termites. The city has both drywood and eastern subterranean termites, making annual inspections that cover both species the appropriate standard for any older coastal home. Mosquito pressure from the Halifax River corridor and the Tomoka State Park wetlands is significant from April through November. Fire ants are a year-round lawn concern. American cockroaches from the coastal drainage system are a consistent nuisance in older buildings near the beach. A complete Ormond Beach pest plan addresses the structural termite risks first, then the outdoor seasonal pests.",
+    sections: [
+      {
+        heading: "Two Termite Species at the Halifax River Edge",
+        body: "Ormond Beach is one of the northeast Florida coastal cities where both drywood and eastern subterranean termites are present in meaningful numbers. Eastern subterranean termites attack from underground and are active year-round along the Halifax River corridor, where the consistent soil moisture keeps foraging conditions favorable through the winter. Drywood termites infest dry wood from above, entering through attic vents and eave cracks, and are more common in the oceanfront and river-view homes with wood construction. The two species require different inspections: subterranean infestations show mud tubes along foundation walls, while drywood infestations are identified through kick-out holes, frass pellets, and sounding of attic framing. An inspection that checks for both species provides a complete picture for Ormond Beach homeowners.",
+      },
+      {
+        heading: "Coastal Mosquitoes and the Tomoka Corridor",
+        body: "The Tomoka State Park wetlands north of Ormond Beach and the Halifax River saltmarsh and tidal habitat west of the city create mosquito breeding conditions that sustain a longer and more intense season than many inland Florida cities. Volusia County Mosquito Control monitors and treats regionally, but the wetland habitat adjacent to residential areas provides a continuous source of adult mosquitoes that county programs cannot fully address at the property level. Monthly barrier spray programs applied to the yard perimeter from May through October significantly reduce the active mosquito population around outdoor living areas. Clearing gutters and eliminating standing water removes the breeding sites closest to the structure.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections covering both drywood and subterranean species for any Ormond Beach home older than 20 years",
+      "Clear gutters after each rain and eliminate standing water in yard depressions weekly to reduce mosquito breeding near the Halifax River corridor",
+      "Apply fire ant mound treatments in spring and broadcast bait over lawn areas in fall",
+      "Seal floor drain gaps and pipe penetrations in older coastal buildings to block American cockroach entry from drainage systems",
+      "Install fine wire mesh on attic vents to prevent drywood termite swarmers from entering the attic framing in summer",
+    ],
+    costNote:
+      "Ormond Beach pest control pricing reflects the Volusia County Daytona Beach-area market. Termite inspections covering both species are offered at no charge by licensed operators. Monthly mosquito barrier programs run from May through October. Quarterly maintenance programs are the standard format for year-round pest management on the northeast Florida coast.",
+    faqs: [
+      {
+        question: "Do both types of termites occur in Ormond Beach?",
+        answer:
+          "Yes. Eastern subterranean termites are active throughout Volusia County and are the more common species in older inland Ormond Beach neighborhoods. West Indian drywood termites are established throughout coastal northeast Florida and are found in older oceanfront and riverfront homes with wood construction. An inspection that checks for both species is the appropriate standard for Ormond Beach homeowners, as the two require different treatments and one inspection can miss the other species.",
+      },
+      {
+        question: "Why are mosquitoes so bad near the Halifax River?",
+        answer:
+          "The Halifax River saltmarsh and tidal habitat provides extensive breeding habitat for salt marsh mosquitoes that can bite during the day and are particularly aggressive in early morning and evening. The adjacent Tomoka State Park wetlands add additional breeding capacity that supports high adult mosquito populations throughout the warm season. Volusia County Mosquito Control treats regionally, but the proximity of saltmarsh habitat means residential areas near the river face continuous pressure. Monthly barrier spray programs for the yard are the most practical property-level management for homeowners near the river.",
+      },
+      {
+        question: "Are American cockroaches common in Ormond Beach?",
+        answer:
+          "Yes, particularly in older neighborhoods near the beach and river where aging drainage infrastructure provides the moist, dark conditions American cockroaches prefer. They breed in storm drains and sewer systems and move indoors through floor drain gaps, gaps under sinks, and exterior pipe penetrations at ground level. Sealing those entry points reduces indoor incursion significantly. Interior gel bait placed where cockroaches are observed is more effective than spray for control once they are inside. They are persistent because the drainage system sustains an ongoing population that replaces individuals removed indoors.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Daytona Beach", slug: "daytona-beach" },
+      { name: "Port Orange", slug: "port-orange" },
+      { name: "Deltona", slug: "deltona" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Ormond Beach, FL | Termites, Mosquitoes & Coastal Pests",
+    metaDescription:
+      "Ormond Beach pest control for drywood termites, subterranean termites, mosquitoes, fire ants and American cockroaches. Volusia County Halifax River northeast Florida Atlantic Coast specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-16)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-36 complete. T2 COMPLETE.
-- **City pages built:** 900 total (75 T1 + 300 T2 + 525 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-38 complete. T2 COMPLETE.
+- **City pages built:** 950 total (75 T1 + 300 T2 + 575 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 983 in the static export (home, services, 50+ states, 900 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=182, B=180, C=180, D=180, E=178 (900 total cities, all within 15-25% range).
-- **Cities built T3 chunks 35-36 (50):** AR retroactive: Springdale, Conway, Jonesboro, North Little Rock, Rogers. AL: Auburn (C), Dothan (D), Prattville (E), Madison (A), Vestavia Hills (B). NV: Carson City (C), Elko (D), Mesquite (E), Fernley (A), Boulder City (B). LA: Alexandria (C), Slidell (D), Houma (E), Hammond (A), Ruston (B). UT: Layton (C), South Jordan (D), Lehi (E), Taylorsville (A), Draper (B). OR: Medford (C), Springfield (D), Corvallis (E), Albany (A), Tigard (B). OH: Warren (C), Zanesville (D), Delaware (E), Stow (A), Medina (B). MI: Holland (C), Kentwood (D), Auburn Hills (E), Rochester Hills (A), Ypsilanti (B). VA: Danville (C), Salem (D), Waynesboro (E), Colonial Heights (A), Radford (B). PA: Johnstown (C), New Castle (D), Bethel Park (E), Greensburg (A), Monroeville (B).
-- **New state files added chunks 35-36:** none (all states already registered in index.ts).
-- **Next block:** Chunk 37, T3 continues, rotation at C.
+- **Total site pages:** 1033 in the static export (home, services, 50+ states, 950 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=192, B=190, C=190, D=190, E=188 (950 total cities, all within 15-25% range).
+- **Cities built T3 chunks 37-38 (50):** CA: Redding (C), Napa (D), Hemet (E), Santa Barbara (A), Folsom (B), Citrus Heights (E), Turlock (A), Manteca (B), Livermore (C), San Mateo (D). FL: Pensacola (C), Titusville (D), Bonita Springs (E), Altamonte Springs (A), Ormond Beach (B). TX: Wylie (C), DeSoto (D), Texas City (E), Euless (A), Lancaster (B), Grapevine (E), Haltom City (A), Bedford (B), Copperas Cove (C), Midlothian (D). IL: Plainfield (C), Buffalo Grove (D), Bartlett (E), Carol Stream (A), Glenview (B), Romeoville (E), Wheeling (A), Mundelein (B). OH: Reynoldsburg (C), Mason (D), Brunswick (E), Wooster (A), Kent (B). MI: Portage (C), Marquette (D), Traverse City (E). GA: Lawrenceville (A), East Point (B), Brunswick GA (C), Carrollton GA (D). NY: Elmira (E), Jamestown (A), Watertown (B), Kingston (C), Auburn (D).
+- **New state files added chunks 37-38:** none (all states already registered in index.ts).
+- **Next block:** Chunk 39, T3 continues, rotation at C.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
