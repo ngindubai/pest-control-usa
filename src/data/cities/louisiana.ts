@@ -1021,4 +1021,484 @@ export const louisianaCities: CityLocation[] = [
     metaDescription:
       "New Iberia pest control for Formosan termites, mosquitoes, fire ants and cockroaches. Iberia Parish Bayou Teche Acadiana specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "alexandria-la",
+    name: "Alexandria",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~45,000",
+    county: "Rapides Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Alexandria sits in Rapides Parish in central Louisiana on the Red River, where the Gulf Coastal Plain meets the Piney Woods. The hot, humid subtropical climate delivers long warm seasons and mild winters that sustain year-round termite and cockroach activity. The Red River, Bayou Boeuf, and the many backwater lakes and drainage channels throughout the central Louisiana landscape create mosquito breeding habitat from March through November. LSU AgCenter confirms Formosan termites are established throughout Louisiana including central Louisiana parishes.",
+    topPests: ["Formosan Termites", "Fire Ants", "Mosquitoes", "American Cockroaches", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through July, active year-round underground",
+        note: "LSU AgCenter confirms Formosan subterranean termites are established throughout Louisiana including Rapides Parish. The hot, humid central Louisiana climate sustains colony activity most of the year. Both Formosan and native eastern subterranean termites are present in the Alexandria area, amplifying structural risk for unprotected homes.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are a year-round presence in Rapides Parish. The subtropical central Louisiana climate provides no meaningful winter suppression. Mounds rebuild after every significant rain event. LSU AgCenter identifies fire ants as one of Louisiana's most persistent pest challenges and recommends broadcast bait treatment twice annually.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Red River, Bayou Boeuf, and the extensive drainage network throughout Rapides Parish sustain mosquito populations through the long warm season. The Rapides Parish Police Jury monitors mosquito-borne illness. The central Louisiana climate extends the active season from March through November in most years.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round outdoors and indoors",
+        note: "American cockroaches are active year-round in the central Louisiana subtropical climate. Alexandria's older building stock, downtown infrastructure, and the drainage systems throughout the city provide outdoor breeding habitat. They enter homes through plumbing penetrations and exterior gaps during rain and heat events.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Brown recluse spiders are well established in central Louisiana and Rapides Parish. LSU AgCenter confirms they are common throughout the state. The Piney Woods setting of central Louisiana, with wooded areas adjacent to residential neighborhoods, provides ample outdoor harborage. Garages, attic spaces, and storage areas are the primary indoor concentration sites.",
+      },
+    ],
+    localHook:
+      "Alexandria sits at the heart of central Louisiana, where the Piney Woods meet the Red River. LSU AgCenter confirms Formosan termites are established throughout the state, and the central Louisiana climate keeps termite colonies active for most of the year. The Red River and the surrounding bayou landscape make mosquito pressure one of the most consistent warm-season pest concerns for Rapides Parish residents.",
+    intro:
+      "Pest control in Alexandria addresses the full central Louisiana pest spectrum. Formosan and native subterranean termites are both present in Rapides Parish, and LSU AgCenter confirms the central Louisiana climate keeps colonies active through most of the year. Fire ants are year-round in every residential lawn and green space. Mosquitoes run from March through November along the Red River and the bayou drainage network. American cockroaches are a year-round outdoor pest that pushes indoors during rain and heat. Brown recluse spiders are well established throughout the Piney Woods region of central Louisiana.",
+    sections: [
+      {
+        heading: "Termites in central Louisiana: Formosan and native species both present",
+        body: "Rapides Parish carries termite pressure from two species. Native eastern subterranean termites swarm in early spring and have been established across the central Louisiana landscape for generations. Formosan subterranean termites have expanded throughout Louisiana and LSU AgCenter confirms they are present in central Louisiana parishes. Formosan colonies are significantly larger and cause structural damage at a faster rate than native subterranean colonies. Both species require soil access to reach structural wood through mud tubes, though Formosan termites can also establish aerial nests in moist wood not connected to soil. For Alexandria homeowners, annual inspection and a proactive treatment system provide the most reliable protection against both species. The subtropical climate means termite season here is longer than in northern states.",
+      },
+      {
+        heading: "Brown recluse spiders and the Piney Woods setting",
+        body: "Central Louisiana's Piney Woods character brings brown recluse spiders into residential contact in ways that purely urban settings do not. These spiders are well established throughout Louisiana, and Alexandria's wooded residential fringe and the forested Rapides Parish landscape sustain populations that move into garages, storage buildings, and undisturbed indoor areas. They are nocturnal and seek dark, undisturbed spaces. Their bite causes necrotic tissue damage that develops slowly and can be medically significant. Quarterly perimeter treatment, sticky trap monitoring in garages and storage areas, and reducing cardboard and clutter in dark corners are the effective management steps for Alexandria homes.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections: Rapides Parish has both Formosan and native subterranean termites and the central Louisiana climate keeps them active through most of the year.",
+      "Broadcast bait fire ant lawns in spring and fall rather than treating individual mounds for effective year-round control in the subtropical Louisiana climate.",
+      "Reduce cardboard and clutter in garages and storage areas to limit brown recluse spider harborage in the Piney Woods setting of central Louisiana.",
+      "Remove standing water from the property weekly from March through November to reduce the Red River corridor mosquito pressure.",
+    ],
+    costNote:
+      "Alexandria pest control is typically quoted as a year-round program covering fire ants, cockroaches, spiders, and ants, with Formosan termite protection quoted separately. Mosquito service runs March through November. Free inspection included.",
+    faqs: [
+      {
+        question: "Are Formosan termites a real concern in Alexandria?",
+        answer:
+          "Yes. LSU AgCenter confirms Formosan subterranean termites are established throughout Louisiana including central Louisiana parishes. They form larger colonies and cause damage faster than native subterranean termites. Both species are present in Rapides Parish. Annual inspection with a proactive treatment system is the recommended standard for Alexandria homeowners.",
+      },
+      {
+        question: "Are brown recluse spiders common in Alexandria?",
+        answer:
+          "Yes. Brown recluse spiders are well established throughout Louisiana and central Louisiana's Piney Woods setting sustains populations adjacent to residential areas. Garages, storage buildings, and undisturbed indoor spaces are their primary harborage sites. Quarterly perimeter treatment and reducing dark, cluttered storage areas are the practical management steps.",
+      },
+      {
+        question: "How long is mosquito season in Alexandria?",
+        answer:
+          "Mosquito season in Alexandria runs approximately March through November. The Red River, Bayou Boeuf, and the drainage network throughout Rapides Parish sustain breeding habitat through the long warm season. Monthly residential barrier spray programs through the active season provide consistent property-level protection.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Shreveport", slug: "shreveport" },
+      { name: "Baton Rouge", slug: "baton-rouge" },
+      { name: "Monroe", slug: "monroe-la" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Alexandria, LA | Formosan Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Alexandria LA pest control for Formosan termites, fire ants, mosquitoes, cockroaches and brown recluse spiders. Rapides Parish central Louisiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "slidell",
+    name: "Slidell",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~28,000",
+    county: "St. Tammany Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Slidell sits in St. Tammany Parish on the north shore of Lake Pontchartrain, the fastest-growing parish in Louisiana. The Gulf-influenced subtropical climate is hot and humid with mild winters that provide no meaningful pest suppression. Lake Pontchartrain's northern shore, the Tchefuncte River, the Bogue Falaya, and the extensive Honey Island Swamp wetlands to the east create some of the most productive mosquito breeding habitat in Louisiana. LSU AgCenter confirms Formosan termites are established throughout Louisiana, and St. Tammany Parish carries high Formosan pressure as part of the Greater New Orleans metro termite zone.",
+    topPests: ["Formosan Termites", "Mosquitoes", "Fire Ants", "American Cockroaches", "Rodents"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through June, active year-round underground",
+        note: "St. Tammany Parish is within the Greater New Orleans Formosan termite high-risk zone. LSU AgCenter confirms Formosan termites are present throughout Louisiana, and the north shore parishes carry significant infestation pressure. Slidell's newer suburban growth into forested north shore terrain does not exempt new construction from termite risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, near year-round in mild years",
+        note: "Lake Pontchartrain, the Tchefuncte River, the Bogue Falaya, and Honey Island Swamp create extensive mosquito breeding habitat throughout St. Tammany Parish. The St. Tammany Parish Mosquito Abatement District runs active programs. West Nile virus is monitored annually across the parish. Residential barrier spray programs from March through November are the standard approach.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are year-round in the subtropical St. Tammany climate. Mounds rebuild rapidly after the frequent Gulf storm rainfall events. LSU AgCenter identifies fire ants as one of Louisiana's most significant and persistent pest management challenges.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are active year-round in Slidell's subtropical climate, breeding outdoors in drainage infrastructure and moving indoors readily. The warm, humid north shore climate sustains populations through all seasons without winter interruption.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, increased pressure in fall",
+        note: "House mice and rats are present in Slidell year-round. The north shore's rapid suburban growth has pushed development into forested terrain that sustains outdoor rodent populations. Roof rats access attics via the mature tree canopy common in established Slidell neighborhoods.",
+      },
+    ],
+    localHook:
+      "Slidell sits on the north shore of Lake Pontchartrain, connected to New Orleans by the Lake Pontchartrain Causeway. St. Tammany Parish has been the fastest-growing in Louisiana for years, and that growth has pushed subdivisions into north shore forest and wetland terrain where Formosan termites and mosquitoes are fully established. Honey Island Swamp, one of the most pristine wetland environments in Louisiana, is just east of Slidell and it creates mosquito pressure at a scale that the surrounding residential growth cannot reduce.",
+    intro:
+      "Pest control in Slidell operates within the Greater New Orleans Formosan termite high-risk zone and adjacent to some of Louisiana's most productive mosquito-breeding wetlands. Formosan subterranean termites are established throughout St. Tammany Parish and LSU AgCenter confirms their presence across Louisiana. Honey Island Swamp and the Lake Pontchartrain shoreline drive mosquito pressure from March through November. Fire ants are year-round in every residential lawn and park. American cockroaches are a year-round outdoor pest that enters homes through plumbing and exterior gaps. Rodents are sustained by the forested north shore terrain surrounding Slidell's growing subdivisions.",
+    sections: [
+      {
+        heading: "Formosan termites on the north shore",
+        body: "St. Tammany Parish's position in the Greater New Orleans metropolitan area places it within the Formosan subterranean termite high-risk zone documented by LSU AgCenter. The north shore's rapid growth and the construction of new subdivisions into forested terrain does not reduce termite risk: new construction is often built over soil where Formosan termite colonies are already established. Formosan termites swarm on warm, humid evenings from late May through June. A swarm near your Slidell home is a strong signal that an established colony is nearby. Annual inspection with a proactive soil treatment or bait monitoring program is the responsible standard for all St. Tammany Parish homeowners.",
+      },
+      {
+        heading: "Honey Island Swamp and the mosquito reality",
+        body: "Honey Island Swamp, one of Louisiana's least-disturbed wetland environments, lies just east of Slidell across the Pearl River. Its thousands of acres of cypress swamp, marsh, and waterway create mosquito breeding habitat at a scale that no residential management program can address regionally. What residential barrier spray addresses is the population of adult mosquitoes that come to rest in the vegetation around your specific property. That targeted approach delivers meaningful protection even when the broader wetland is producing mosquitoes throughout the season. Monthly service from March through November, combined with standing water elimination on the lot, provides consistent yard-level protection for Slidell homeowners.",
+      },
+    ],
+    prevention: [
+      "Maintain active Formosan termite protection: St. Tammany Parish is in the Greater New Orleans high-risk zone and annual inspection alone is not sufficient.",
+      "Run residential barrier spray from March through November to manage the adult mosquito population from Honey Island Swamp and the Lake Pontchartrain shore.",
+      "Broadcast bait fire ant lawns twice annually rather than treating individual mounds in the year-round subtropical Louisiana climate.",
+      "Trim tree branches away from rooflines and seal roof vents to block roof rat entry from the north shore's mature tree canopy.",
+    ],
+    costNote:
+      "Slidell pest control is typically quoted as a year-round program covering fire ants, cockroaches, and rodents, with Formosan termite protection quoted separately. Mosquito service runs March through November. Free inspection included.",
+    faqs: [
+      {
+        question: "Are Formosan termites established in Slidell?",
+        answer:
+          "Yes. St. Tammany Parish is within the Greater New Orleans Formosan termite high-risk zone confirmed by LSU AgCenter. Formosan colonies are larger and cause faster structural damage than native subterranean termites. Both Formosan and native species are present in the parish. Annual professional inspection and active protection are the recommended standard.",
+      },
+      {
+        question: "Why is mosquito pressure so intense near Honey Island Swamp?",
+        answer:
+          "Honey Island Swamp is one of Louisiana's largest and least-disturbed wetland environments, with thousands of acres of cypress swamp and marsh east of Slidell. It produces mosquitoes at a scale that residential management cannot address at the source. Barrier spray programs target the adult mosquitoes that come to rest around your property, providing practical yard-level protection through the active season.",
+      },
+      {
+        question: "Do I need year-round pest control in Slidell?",
+        answer:
+          "For most Slidell properties, yes. St. Tammany Parish's mild subtropical winters do not interrupt Formosan termites, fire ants, or cockroaches in any meaningful way. Mosquito pressure runs most of the year. A year-round program with active termite protection and seasonal mosquito service reflects the actual pest calendar in this climate.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "New Orleans", slug: "new-orleans" },
+      { name: "Baton Rouge", slug: "baton-rouge" },
+      { name: "Kenner", slug: "kenner" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Slidell, LA | Formosan Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Slidell pest control for Formosan termites, mosquitoes, fire ants, cockroaches and rodents. St. Tammany Parish north shore Lake Pontchartrain specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "houma",
+    name: "Houma",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~32,000",
+    county: "Terrebonne Parish",
+    climate: "tropical",
+    climateDriver:
+      "Houma sits in Terrebonne Parish in the coastal Louisiana wetlands, approximately 60 miles southwest of New Orleans. The subtropical Gulf Coast climate is hot, humid, and subject to intense rainfall and periodic tropical weather. Terrebonne Parish's extensive coastal marshes, bayous, and the Atchafalaya Basin drainage create some of the most productive mosquito-breeding wetland environments in the southeastern United States. LSU AgCenter identifies coastal Louisiana as having the highest Formosan termite pressure in the country. Houma's location in the coastal zone means pest activity runs near year-round.",
+    topPests: ["Formosan Termites", "Mosquitoes", "American Cockroaches", "Fire Ants", "Bed Bugs"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through June, active year-round underground",
+        note: "Coastal Louisiana carries the highest Formosan termite pressure in the United States. LSU AgCenter confirms Terrebonne Parish is within this high-intensity zone. The near year-round warmth and humidity of the coastal climate keeps Formosan colonies active without meaningful winter interruption. Houma's extensive older housing stock and the petroleum industry infrastructure carry long-established termite exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Nearly year-round, peak April through October",
+        note: "Terrebonne Parish's coastal marshes, bayous, and the Atchafalaya Basin drainage create mosquito breeding habitat on a scale matched by few locations in the United States. The Terrebonne Parish Consolidated Government runs mosquito abatement programs. The subtropical coastal climate sustains mosquito activity from February or March through November or December in most years.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches thrive in Houma's coastal subtropical climate, breeding in the drainage infrastructure, outdoor areas, and the moist coastal environment. They are active year-round with no meaningful winter reduction. The combination of the climate, the extensive drainage systems, and the city's older building stock sustains large outdoor cockroach populations.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are active year-round in Terrebonne Parish's tropical climate. They are notorious in coastal Louisiana for rafting during flood events and recolonizing rapidly once water recedes. LSU AgCenter identifies fire ants as a significant pest management challenge across all Louisiana coastal parishes.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a growing concern in Houma's rental housing and the hospitality properties serving the petroleum industry workforce. The rotating workforce cycle of the offshore oil industry creates more frequent occupant turnover in Houma hotels and rental housing than comparably sized inland cities typically experience.",
+      },
+    ],
+    localHook:
+      "Houma is the service hub for Louisiana's offshore petroleum industry, which means hotel and rental housing turnover from the rotating workforce that supports offshore platforms. LSU AgCenter identifies coastal Louisiana as having the highest Formosan termite pressure in the United States. The coastal marsh environment of Terrebonne Parish sustains mosquito pressure that runs for most of the year, and there is genuinely no true pest off-season in this climate.",
+    intro:
+      "Pest control in Houma operates against the full coastal Louisiana pest load. LSU AgCenter identifies coastal Louisiana as having the highest Formosan termite pressure in the country, and Terrebonne Parish's subtropical climate keeps colonies active near year-round. The coastal marsh environment creates mosquito breeding habitat that sustains populations from late winter through late fall. American cockroaches are active year-round in the warm, moist coastal environment. Fire ants raft during flood events and recolonize quickly. Bed bugs are a concern in the hotel and rental housing sector connected to the offshore petroleum workforce.",
+    sections: [
+      {
+        heading: "Coastal termite pressure in Terrebonne Parish",
+        body: "LSU AgCenter's research on Formosan subterranean termites consistently identifies coastal Louisiana as the highest-pressure zone in the United States. Terrebonne Parish sits squarely within that zone. Formosan termite colonies in coastal Louisiana can contain millions of individuals and have been established in the region for generations. The near year-round subtropical warmth and humidity means colonies stay active and productive without the winter interruption that reduces activity in northern states. Houma's older housing stock carries long-established exposure, and the petroleum industry infrastructure and older commercial buildings in the city have the same elevated risk. Active termite protection, through soil treatment or a monitored bait system, provides year-round structural protection. Annual inspection is the minimum responsible standard for any Houma property with wood framing.",
+      },
+      {
+        heading: "Bed bugs in the offshore workforce housing cycle",
+        body: "Houma's role as the onshore service hub for Louisiana's offshore petroleum industry creates a specific bed bug transmission context that most cities of comparable size do not face. The rotating offshore workforce, crews working two-week or one-month rotations on offshore platforms and returning to Houma hotels and rental housing, moves through accommodation in compressed cycles with frequent turnover. This pattern resembles the hotel guest cycle in a resort city but with a more consistent, year-round workforce driving the turnover. Professional inspection and mattress encasements at tenant changeover, combined with active prevention protocols in commercial accommodations, are the appropriate steps for property owners in Houma's petroleum-adjacent rental and hospitality sectors.",
+      },
+    ],
+    prevention: [
+      "Maintain active Formosan termite protection: Terrebonne Parish is in the highest-pressure Formosan termite zone in the United States.",
+      "Run mosquito barrier spray from March through November in the coastal marsh environment where residential management cannot address the breeding source.",
+      "Apply broadcast fire ant bait to the full lawn twice annually: fire ants in coastal Louisiana raft during flood events and recolonize aggressively when water recedes.",
+      "Inspect mattresses and upholstered furniture in rental and hospitality properties at each occupant changeover given the offshore workforce housing cycle.",
+    ],
+    costNote:
+      "Houma pest control is typically quoted as a year-round program covering fire ants, cockroaches, and ants, with Formosan termite protection quoted separately. Mosquito service runs near year-round. Bed bug inspection and treatment in the hospitality and rental sector is quoted after assessment. Free inspection included.",
+    faqs: [
+      {
+        question: "Is coastal Louisiana really the worst area for Formosan termites in the US?",
+        answer:
+          "LSU AgCenter's long-term research identifies coastal Louisiana as the highest-intensity Formosan subterranean termite zone in the United States. Terrebonne Parish and the surrounding coastal parishes fall within this zone. The near year-round subtropical warmth, the density of established colonies, and the age of affected structures all contribute to the severity. Active termite protection is the responsible standard for Houma homeowners.",
+      },
+      {
+        question: "Why is the mosquito season so long in Houma?",
+        answer:
+          "Terrebonne Parish's coastal marshes and the Atchafalaya Basin drainage create mosquito breeding habitat on a very large scale. The subtropical coastal climate sustains breeding populations from late winter through late fall, giving Houma one of the longest effective mosquito seasons in the country. The Terrebonne Parish Consolidated Government runs abatement programs. Residential barrier spray through the active season addresses the adult mosquitoes resting around your property.",
+      },
+      {
+        question: "What makes bed bug risk elevated in Houma specifically?",
+        answer:
+          "Houma is the onshore service hub for offshore petroleum platforms in the Gulf of Mexico. The rotating workforce cycle, with crews returning from weeks offshore to hotels and rental housing before returning to the platforms, creates frequent occupant turnover in commercial accommodations. This pattern drives higher bed bug introduction risk than standard residential or tourist patterns. Professional inspection at occupant changeover is the most effective preventive step for properties in Houma's rental and hospitality sector.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "New Orleans", slug: "new-orleans" },
+      { name: "Baton Rouge", slug: "baton-rouge" },
+      { name: "Lafayette", slug: "lafayette" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Houma, LA | Formosan Termites, Mosquitoes & Cockroaches",
+    metaDescription:
+      "Houma pest control for Formosan termites, mosquitoes, American cockroaches, fire ants and bed bugs. Terrebonne Parish coastal Louisiana offshore hub specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hammond",
+    name: "Hammond",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~19,000",
+    county: "Tangipahoa Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Hammond sits in Tangipahoa Parish in southeast Louisiana, the agricultural hub of the north shore strawberry-growing region. The humid subtropical climate delivers hot summers and mild winters that sustain near year-round pest activity. The Tangipahoa River and the numerous bayous and drainage channels throughout the parish create sustained mosquito breeding habitat. Southeastern University is the largest employer, creating a rental housing market with above-average student turnover. LSU AgCenter confirms Formosan termites are established throughout Louisiana including the Tangipahoa corridor.",
+    topPests: ["Formosan Termites", "Fire Ants", "Mosquitoes", "American Cockroaches", "Bed Bugs"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through June, active year-round underground",
+        note: "Tangipahoa Parish is within the Louisiana Formosan termite infestation zone documented by LSU AgCenter. Hammond's position in the I-12 corridor between Baton Rouge and the Gulf Coast places it in established Formosan termite territory. Annual inspection with a proactive treatment system is the standard recommendation for all Tangipahoa Parish homeowners.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are active year-round in Tangipahoa Parish. The subtropical climate provides no winter suppression, and the agricultural and rural landscape surrounding Hammond sustains large fire ant populations that maintain pressure in residential areas throughout the year. LSU AgCenter recommends broadcast bait treatment of the full lawn twice annually.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Tangipahoa River, parish drainage channels, and the low-lying agricultural landscape surrounding Hammond sustain mosquito populations through the long warm season. The Tangipahoa Parish Mosquito Control unit runs abatement programs. Residential barrier spray from March through November is the practical property-level approach.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are active year-round in Hammond's subtropical climate. They breed in outdoor drainage and sewer infrastructure and push into homes and commercial properties during rain and heat events. The mild Louisiana winters give outdoor cockroach populations no meaningful seasonal reduction.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Southeastern Louisiana University's campus creates rental housing turnover that elevates bed bug transmission risk in Hammond's student housing sector. University rental market turnover at the start and end of semesters concentrates the highest-risk introduction events for bed bugs in student housing.",
+      },
+    ],
+    localHook:
+      "Hammond is home to Southeastern Louisiana University and serves as the commercial center of Tangipahoa Parish's strawberry-growing region. LSU AgCenter confirms Formosan termites are established in the Louisiana I-12 corridor, and Hammond's position on that corridor puts it in established termite territory. The student housing market connected to SLU creates a bed bug risk profile similar to other Louisiana university towns.",
+    intro:
+      "Pest control in Hammond covers the southeast Louisiana pest load in a university and agricultural town context. Formosan subterranean termites are established in Tangipahoa Parish, confirmed by LSU AgCenter, and the subtropical climate keeps colonies active through most of the year. Fire ants are year-round in every residential lawn and agricultural area. Mosquitoes run from March through November along the Tangipahoa River and the parish drainage network. American cockroaches are a year-round outdoor pest in the warm Louisiana climate. Bed bugs are a concern in the student rental housing sector near Southeastern Louisiana University.",
+    sections: [
+      {
+        heading: "Formosan termites in the I-12 corridor",
+        body: "Hammond sits on the I-12 corridor between Baton Rouge and Slidell, within the Formosan subterranean termite infestation zone that extends across southeast Louisiana. LSU AgCenter's statewide termite mapping confirms Formosan termites are established in the Tangipahoa Parish area. Both Formosan and native eastern subterranean termites are present in the corridor, and the subtropical climate sustains activity through most of the calendar year. Hammond's older housing stock near downtown and the university carries long-established termite exposure, and the newer subdivisions built on the outskirts of town are not exempt from a soil-based pest that is already established throughout the region. Annual inspection combined with a proactive soil treatment or bait monitoring program provides the most reliable protection.",
+      },
+      {
+        heading: "Student housing and bed bug risk near Southeastern Louisiana University",
+        body: "Southeastern Louisiana University's campus in Hammond creates a rental housing market with concentrated semester-end turnover similar to other Louisiana university towns like Conway and Lafayette. Students moving in from various origins, the use of secondhand furniture, and the shared housing arrangements common in student rentals all create above-average bed bug introduction and spread risk. Property managers and landlords in Hammond's university district who do not conduct professional inspections between tenant groups risk passing infestations between successive occupants. Mattress encasements, visual inspection of bed frames and upholstered furniture at changeover, and professional inspection at the start of each semester are the most practical preventive steps.",
+      },
+    ],
+    prevention: [
+      "Maintain active Formosan termite protection: Tangipahoa Parish is within the Louisiana Formosan termite infestation zone and the subtropical climate keeps colonies active most of the year.",
+      "Broadcast bait fire ant lawns in spring and fall: Tangipahoa Parish's subtropical climate sustains year-round fire ant activity with no winter dormancy.",
+      "Inspect mattresses and furniture at each tenant changeover in student rental housing near Southeastern Louisiana University.",
+      "Remove standing water from the property weekly from March through November to reduce mosquito breeding along the Tangipahoa River corridor.",
+    ],
+    costNote:
+      "Hammond pest control is typically quoted as a year-round program covering fire ants, cockroaches, and ants, with Formosan termite protection quoted separately. Mosquito service runs March through November. Bed bug inspection near campus is quoted after assessment. Free inspection included.",
+    faqs: [
+      {
+        question: "Are Formosan termites in Hammond?",
+        answer:
+          "Yes. LSU AgCenter confirms Formosan subterranean termites are established in southeast Louisiana including the I-12 corridor through Tangipahoa Parish. Both Formosan and native subterranean termites are present in the Hammond area. Annual inspection with a proactive treatment system is the standard recommendation for Tangipahoa Parish homeowners.",
+      },
+      {
+        question: "Why are fire ants year-round in Hammond?",
+        answer:
+          "Hammond's subtropical climate delivers no meaningful winter cold to suppress fire ant colonies. The warm, moist Louisiana winters allow fire ants to remain active year-round, rebuilding mounds after every rain event. The agricultural landscape surrounding Hammond also sustains large fire ant populations that maintain pressure on residential areas continuously. Broadcast bait treatment of the full lawn twice annually is more effective than treating individual mounds.",
+      },
+      {
+        question: "How does Southeastern Louisiana University affect Hammond pest control?",
+        answer:
+          "The university's enrollment creates a rental housing market with concentrated turnover at semester transitions, which elevates bed bug introduction risk in the student housing sector. Students arriving from various locations and using secondhand furniture increase the likelihood of bed bug introduction into shared housing. Property managers in Hammond's university district should inspect at each tenant changeover and implement mattress encasements as standard practice.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Baton Rouge", slug: "baton-rouge" },
+      { name: "New Orleans", slug: "new-orleans" },
+      { name: "Slidell", slug: "slidell" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Hammond, LA | Formosan Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Hammond pest control for Formosan termites, fire ants, mosquitoes, cockroaches and bed bugs. Tangipahoa Parish Southeastern Louisiana University corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "ruston",
+    name: "Ruston",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~23,000",
+    county: "Lincoln Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Ruston sits in Lincoln Parish in the Piney Woods region of north Louisiana, home to Louisiana Tech University and Grambling State University. The humid subtropical climate delivers hot summers and cool but mild winters that allow pest activity to continue through most of the year. The Saline Bayou watershed and the forested Piney Woods landscape of north Louisiana sustain brown recluse spider populations and provide mosquito breeding habitat through the warm season. LSU AgCenter confirms eastern subterranean termites are active throughout Louisiana, and Formosan termites have expanded north into the Louisiana Piney Woods region.",
+    topPests: ["Eastern Subterranean Termites", "Brown Recluse Spiders", "Fire Ants", "Mosquitoes", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Eastern subterranean termites are the primary termite species in north Louisiana and Lincoln Parish. They swarm in early spring and work through wood in soil contact and structural framing year-round in the warm Louisiana climate. LSU AgCenter confirms termites are a priority pest management concern throughout Louisiana.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Brown recluse spiders are well established in north Louisiana's Piney Woods region. The forested landscape surrounding Ruston sustains populations that move into residential garages, storage buildings, and undisturbed indoor spaces. LSU AgCenter confirms brown recluse spiders are a common pest concern throughout Louisiana. Their bite causes necrotic tissue damage that can be slow to heal.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak March through October",
+        note: "Fire ants are well established throughout Lincoln Parish. The north Louisiana climate is cooler than the coastal zone but still warm enough to sustain fire ant colonies through most of the year without meaningful winter dormancy. LSU AgCenter recommends broadcast bait treatment for effective management.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The Saline Bayou watershed and the forested landscape of Lincoln Parish sustain mosquito populations through the warm season. Mosquito season in north Louisiana runs from March through October, with peak pressure in the summer months. The forested setting of Ruston creates more outdoor mosquito resting habitat than open suburban environments.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the dominant indoor cockroach in Ruston's student rental housing and campus-adjacent food service operations. Louisiana Tech University and Grambling State University both contribute student housing market turnover that sustains German cockroach pressure in multi-family and commercial settings.",
+      },
+    ],
+    localHook:
+      "Ruston is a north Louisiana university town in the Piney Woods, home to both Louisiana Tech University and Grambling State University. The forested north Louisiana setting brings brown recluse spiders into contact with residential and commercial properties in ways that coastal cities do not experience. LSU AgCenter confirms brown recluse spiders are common in Louisiana and the Piney Woods region of north Louisiana has established populations.",
+    intro:
+      "Pest control in Ruston addresses the north Louisiana Piney Woods pest profile. Eastern subterranean termites are active throughout Lincoln Parish and the warm Louisiana climate keeps them productive through most of the year. Brown recluse spiders are well established in the forested north Louisiana setting and are a genuine concern in garages, storage buildings, and undisturbed indoor areas throughout the Ruston area. Fire ants are year-round across Lincoln Parish. Mosquitoes run from March through October along the Saline Bayou watershed. German cockroaches are the steady indoor pest in the student rental housing market connected to two universities.",
+    sections: [
+      {
+        heading: "Brown recluse spiders in the Piney Woods",
+        body: "North Louisiana's Piney Woods setting distinguishes Ruston's pest profile from coastal Louisiana cities. The forested landscape surrounding the city sustains brown recluse spider populations that move into residential and commercial structures through ground-level gaps, door thresholds, and utility penetrations. LSU AgCenter confirms brown recluse spiders are common throughout Louisiana. They prefer dark, undisturbed spaces: garages, storage rooms, attic corners, and behind boxes in closets and utility areas. Their bite causes a necrotic wound that develops slowly and can require medical attention. The practical management approach treats them as a year-round resident of undisturbed storage spaces, implementing quarterly perimeter treatment, sticky trap monitoring in garages and storage areas, and systematic reduction of cardboard and clutter in dark corners.",
+      },
+      {
+        heading: "Two universities, two student housing markets, one pest calendar",
+        body: "Ruston hosts both Louisiana Tech University and Grambling State University, which together create a student housing market with semester-cycle turnover that is larger relative to the city's population than most comparable-sized Louisiana cities. That turnover creates above-average German cockroach introduction and spread risk in the rental housing sector. Both universities draw students from across Louisiana and neighboring states, and the student housing cycle repeats the pattern of new occupants in multi-unit housing multiple times per academic year. Property managers in Ruston's student rental district who conduct professional treatment between tenant groups rather than only when infestations are reported manage the problem before it becomes entrenched in building infrastructure.",
+      },
+    ],
+    prevention: [
+      "Reduce cardboard and clutter in garages and storage areas year-round to limit brown recluse spider harborage in the Piney Woods setting of north Louisiana.",
+      "Schedule annual termite inspections: Lincoln Parish has active eastern subterranean termite pressure and the Louisiana climate keeps colonies productive through most of the year.",
+      "Broadcast bait fire ant lawns in spring and fall for sustained management in Lincoln Parish's year-round subtropical climate.",
+      "Treat German cockroaches in student rental housing professionally between tenant groups rather than only after infestation is reported.",
+    ],
+    costNote:
+      "Ruston pest control is typically quoted as a year-round program covering cockroaches, spiders, and ants, with termite protection quoted separately. Mosquito service runs March through October. Free inspection included.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders common in Ruston?",
+        answer:
+          "Yes. LSU AgCenter confirms brown recluse spiders are common throughout Louisiana, and north Louisiana's Piney Woods setting sustains established populations adjacent to Ruston's residential and commercial areas. Garages, storage buildings, and undisturbed indoor spaces are their primary concentration sites. Quarterly perimeter treatment and reducing clutter in dark storage areas are the practical management steps.",
+      },
+      {
+        question: "Are termites a concern in north Louisiana?",
+        answer:
+          "Yes. Eastern subterranean termites are active throughout Lincoln Parish and the north Louisiana climate keeps them productive through most of the year. LSU AgCenter confirms termites are a priority pest management concern across Louisiana. The slightly cooler winters of north Louisiana provide less annual activity than the coastal zone, but do not eliminate the structural risk. Annual inspection is the standard recommendation for Lincoln Parish homeowners.",
+      },
+      {
+        question: "How does having two universities affect pest control in Ruston?",
+        answer:
+          "Louisiana Tech and Grambling State together create a larger-than-typical student rental housing market for a city of Ruston's size. The semester turnover cycle concentrates bed bug and German cockroach introduction risk in the student housing sector. Property managers who treat between tenants rather than only after infestation is detected prevent the buildup that makes multi-family cockroach problems difficult to resolve. The universities themselves are not the problem: the rapid turnover of the rental housing market creates the transmission pathway.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Shreveport", slug: "shreveport" },
+      { name: "Monroe", slug: "monroe-la" },
+      { name: "Alexandria", slug: "alexandria-la" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Ruston, LA | Termites, Brown Recluse & Fire Ants",
+    metaDescription:
+      "Ruston pest control for eastern subterranean termites, brown recluse spiders, fire ants, mosquitoes and German cockroaches. Lincoln Parish Piney Woods north Louisiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

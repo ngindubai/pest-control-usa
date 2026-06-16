@@ -1905,4 +1905,536 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaDescription:
       "State College pest control for stink bugs, bed bugs, house mice, deer ticks and carpenter ants. Centre County Penn State University Happy Valley ridge-and-valley Pennsylvania specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  {
+    slug: "johnstown",
+    name: "Johnstown",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~18,000",
+    county: "Cambria County",
+    climate: "cold-humid",
+    climateDriver:
+      "Johnstown sits in a bowl-shaped valley at the confluence of the Conemaugh River and Stony Creek in Cambria County, western Pennsylvania. The valley geography and humid continental climate deliver cold winters, significant snowfall, and high annual precipitation that creates persistent moisture in the older housing stock. Penn State Extension documents subterranean termite pressure throughout western Pennsylvania. The valley's flood history and the older construction that surrounds the rivers create wood-moisture conditions that carpenter ants and termites exploit. Brown marmorated stink bugs are well-established across Pennsylvania.",
+    topPests: ["House Mice", "Stink Bugs", "Carpenter Ants", "German Cockroaches", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, hard push October through April",
+        note: "House mice are the primary pest concern in Johnstown through the cold season. The city's older housing stock, built on the slopes and valley floor through the industrial era, has the accumulated foundation wear and utility penetrations that give mice reliable fall access. Penn State Extension identifies house mice as the primary urban rodent concern throughout western Pennsylvania.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November, overwintering in structures",
+        note: "Penn State Extension confirms Pennsylvania is one of the most heavily stink bug-affected states in the country. Johnstown's position in the Laurel Highlands foothills brings consistent fall stink bug pressure from the surrounding wooded terrain. The city's older housing stock provides the entry points stink bugs exploit in September and October.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, spring indoor activity from established colonies",
+        note: "Johnstown's valley geography and high precipitation history create the moisture conditions that carpenter ants require. The Conemaugh and Stony Creek corridors sustain riparian habitat for outdoor colonies, and the older housing stock near the rivers, with its accumulated moisture vulnerability, carries real satellite colony risk.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a persistent concern in Johnstown's older multi-family housing and food service establishments. They are unaffected by the valley's cold winters and maintain year-round indoor populations in heated structures. Penn State Extension identifies German cockroaches as the primary cockroach pest in Pennsylvania's urban settings.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active June through October, peak August through October",
+        note: "Yellowjackets nest in wall voids of older Johnstown homes and in ground cavities on the residential slopes surrounding the valley floor. The wooded Laurel Highlands terrain above the city sustains populations that produce consistent late-summer pressure in the neighborhoods at the valley edges.",
+      },
+    ],
+    localHook:
+      "Johnstown is famous for its floods, and the valley geography that made them possible also shapes the city's pest picture. The Conemaugh River and Stony Creek converge here, and the moisture that comes with that convergence, in the soils, in the older construction, and in the valley's high annual rainfall, is the background condition for carpenter ant, termite, and mouse pressure throughout the city.",
+    intro:
+      "Pest control in Johnstown reflects the Conemaugh Valley's geography and the age of the city's housing stock. House mice are the primary fall and winter pest, pressing into the older construction as Cambria County cold arrives. Brown marmorated stink bugs arrive from the Laurel Highlands foothills each fall, well-established across Pennsylvania. Carpenter ants are sustained by the river corridor moisture and the older building stock near the water. German cockroaches are a year-round indoor challenge, and yellowjackets peak in late summer from the wooded slope habitat.",
+    sections: [
+      {
+        heading: "Valley moisture and the structural pest picture",
+        body: "Johnstown's bowl-shaped valley geography concentrates moisture in a way that creates consistent structural pest conditions. The Conemaugh River and Stony Creek running through the valley bottom sustain riparian moisture that elevates both termite and carpenter ant activity in the older neighborhoods near the water. Penn State Extension documents subterranean termite pressure throughout western Pennsylvania, and the valley's soil moisture conditions are favorable for termite colony development. Older homes near the rivers, with crawl spaces and wood near the soil line, carry real termite exposure. Carpenter ants compound the picture: the river corridors sustain large outdoor colonies, and the moisture-affected wood in the aging housing stock adjacent to those corridors provides satellite colony sites. Penn State Extension identifies carpenter ants as a structural concern in western Pennsylvania and recommends annual spring inspections of at-risk wood as the standard precaution for older housing in areas like the Conemaugh Valley. A spring inspection that covers both crawl space termite evidence and exterior wood moisture assessment addresses both concerns in one visit.",
+      },
+      {
+        heading: "Stink bugs and the Laurel Highlands foothills",
+        body: "Johnstown sits at the base of the Laurel Highlands, where the Allegheny Mountains begin rising steeply from the western Pennsylvania plateau. Penn State Extension, the leading research institution on brown marmorated stink bugs in the US, confirms Pennsylvania is one of the most heavily affected states. The Laurel Highlands' forested terrain sustains large stink bug populations that aggregate on structures in the valley each fall. Johnstown's older housing stock, with its aged window assemblies and soffits, provides the entry points these insects exploit in September and October. The prevention approach is completing exclusion work before August: sealing gaps around window frames, utility penetrations, soffit areas, and anywhere exterior materials have separated. Exterior perimeter treatment on sun-warmed south and west-facing walls in late August provides an additional layer. Once inside the wall void, stink bugs overwinter passively and emerge through ceiling fixtures and electrical outlets when indoor heat activates them in late winter. Vacuum rather than crush any that emerge indoors.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations in September before the cold-weather mouse entry surge in Cambria County.",
+      "Complete stink bug exclusion work on window frames, soffits, and utility penetrations in August before Laurel Highlands fall aggregation.",
+      "Inspect wood near the Conemaugh River and Stony Creek corridors annually in spring for moisture damage and carpenter ant or termite evidence.",
+      "Treat yellowjacket nests on the valley slopes in July before August peak aggression.",
+    ],
+    costNote:
+      "Johnstown pest control typically starts with a free inspection. A quarterly general plan covers mice, stink bugs, cockroaches, and ants. Termite protection is quoted separately. Yellowjacket treatment is per nest.",
+    faqs: [
+      {
+        question: "Why are carpenter ant risks higher near the rivers in Johnstown?",
+        answer:
+          "The Conemaugh River and Stony Creek create persistent moisture conditions in the valley, and older homes near the water have accumulated wood-moisture vulnerability over decades. Penn State Extension notes that carpenter ants require moisture-damaged wood for nesting, and the valley's high annual rainfall accelerates wood deterioration in older structures. A spring inspection of wood near the water is the appropriate precaution.",
+      },
+      {
+        question: "When do stink bugs arrive in Johnstown?",
+        answer:
+          "September is the start of the fall aggregation, with the Laurel Highlands foothills providing the wooded habitat that builds large stink bug populations. Penn State Extension confirms Pennsylvania is among the most affected states in the country. Sealing the building envelope in August is the most effective prevention window, before aggregation on exterior walls begins.",
+      },
+      {
+        question: "How do mice get into Johnstown homes?",
+        answer:
+          "Through any gap larger than a dime. Johnstown's older housing stock has accumulated foundation cracks, pipe penetrations, settling gaps around utility conduits, and door threshold wear that give mice ready access in October. Sealing these entry points in September, before the cold push, is the most effective and least expensive approach. Penn State Extension recommends exclusion as the primary mouse control strategy for Pennsylvania homes.",
+      },
+      {
+        question: "Are termites documented in Cambria County?",
+        answer:
+          "Yes. Penn State Extension confirms eastern subterranean termite pressure throughout western Pennsylvania including Cambria County. The valley moisture conditions near the rivers elevate the risk for properties with older crawl space construction and wood near grade. Annual inspections are the appropriate standard.",
+      },
+      {
+        question: "Do German cockroaches survive Johnstown winters?",
+        answer:
+          "German cockroaches live entirely in heated structures and are not affected by outdoor temperatures. Penn State Extension identifies them as the primary cockroach pest in Pennsylvania's urban settings. If they are present in a Johnstown home or business, they established indoors and require targeted gel bait treatment in the specific harborage sites where they breed. Cold weather outside has no effect on the indoor population.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Altoona", slug: "altoona" },
+      { name: "Greensburg", slug: "greensburg" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Johnstown, PA | Mice, Stink Bugs & Carpenter Ants",
+    metaDescription:
+      "Johnstown pest control for house mice, brown marmorated stink bugs, carpenter ants, German cockroaches and yellowjackets. Cambria County Conemaugh Valley Laurel Highlands western Pennsylvania specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "new-castle-pa",
+    name: "New Castle",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~20,000",
+    county: "Lawrence County",
+    climate: "cold-humid",
+    climateDriver:
+      "New Castle sits on the Shenango River in Lawrence County in western Pennsylvania, near the Ohio border. The cold-humid continental climate delivers cold winters, significant snowfall, and lake-effect influence from Lake Erie to the north. Cold winters push mice aggressively into structures from September. Brown marmorated stink bugs are well-established across western Pennsylvania. The Shenango River and its tributaries create riparian moisture that sustains carpenter ant and pest pressure in the older housing stock of the former steel city. Penn State Extension documents subterranean termite pressure throughout Lawrence County.",
+    topPests: ["House Mice", "German Cockroaches", "Stink Bugs", "Carpenter Ants", "Bed Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge September through April",
+        note: "House mice are the dominant pest concern in New Castle through the cold season. The city's older housing stock, built across the steel era and the decades following, has the accumulated foundation wear that gives mice ready access from September onward. Penn State Extension identifies house mice as the primary residential rodent throughout western Pennsylvania. New Castle's position near the Ohio border and the lake-effect influence means cold arrives early.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a persistent challenge in New Castle's older multi-family housing and food service operations. Penn State Extension identifies German cockroaches as the primary cockroach pest in Pennsylvania's urban settings. They maintain year-round indoor populations in heated structures regardless of Lawrence County's cold winters.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November, overwintering in structures",
+        note: "Pennsylvania is one of the most heavily stink bug-affected states, per Penn State Extension. New Castle's older residential housing, with aged window assemblies and accumulated gaps in soffits, gives stink bugs ready entry points each fall. The forested Allegheny foothills east of the city sustain the populations that move toward structures in September.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, spring indoor activity from established colonies",
+        note: "The Shenango River and its riparian corridor sustain outdoor carpenter ant populations in New Castle's older neighborhoods near the water. Penn State Extension notes that finding large black ants indoors in spring consistently from one location is a reliable indicator of an established satellite colony in moisture-damaged structural wood.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a concern in New Castle's older rental housing market and in the multi-family buildings throughout the city. Penn State Extension's bed bug research confirms significant incidence in western Pennsylvania urban settings. Early detection and professional treatment are the appropriate response.",
+      },
+    ],
+    localHook:
+      "New Castle was one of western Pennsylvania's steel industry centers, and the housing stock it built through that era is what gives mice, carpenter ants, and stink bugs the opportunities they exploit today. The Shenango River adds the moisture dimension, and the lake-effect influence from the north means the mouse entry season starts earlier here than in eastern Pennsylvania cities.",
+    intro:
+      "Pest control in New Castle reflects Lawrence County's cold-humid western Pennsylvania climate and older housing stock. House mice are the primary fall and winter pest, with lake-effect influence pushing the entry season earlier than eastern Pennsylvania. German cockroaches are a year-round indoor concern in the multi-family and commercial buildings. Brown marmorated stink bugs are a reliable fall pest well-established across the state. Carpenter ants are sustained by the Shenango River corridor, and bed bugs are a year-round challenge in the older rental housing.",
+    sections: [
+      {
+        heading: "The early mouse season near Lake Erie influence",
+        body: "New Castle's proximity to the Ohio border and the lake-effect influence from Lake Erie to the north means cold weather arrives earlier here than in Philadelphia or central Pennsylvania. Penn State Extension notes that this lake-effect pattern, common across northwest and western Pennsylvania, pushes the mouse entry season to September in some years, a full month ahead of the mid-October push typical in the Philadelphia corridor. For New Castle homeowners, this means the exclusion preparation window is August: sealing foundation cracks, pipe penetrations, utility conduit entries, the gap under garage doors, and door threshold gaps before mice begin actively testing the building. The city's older housing stock, with accumulated wear at utility penetrations and aging sill plate construction, has more potential entry points than newer construction and benefits from a professional inspection to identify the current gaps. Exterior bait stations placed in August and September provide an interception layer for mice approaching the building perimeter.",
+      },
+      {
+        heading: "Stink bugs and bed bugs: two very different fall challenges",
+        body: "New Castle homeowners deal with two fall pest concerns that share the same September-to-November window but require entirely different management approaches. Brown marmorated stink bugs are an outdoor-origin pest that enters from the surrounding landscape, aggregating on building surfaces in September and working into gaps to overwinter. Penn State Extension confirms Pennsylvania is one of the most stink bug-affected states, and the Allegheny foothills east of New Castle sustain the source populations. Sealing the building envelope in August, with exterior treatment on sun-warmed south and west-facing walls, is the prevention approach. Bed bugs, by contrast, have no outdoor origin. They travel with people, in luggage, in secondhand furniture, and in clothing, and establish in mattress seams and furniture crevices indoors. Penn State Extension's bed bug research confirms significant incidence in western Pennsylvania urban housing. The detection approach is direct inspection of mattress seams, furniture seams, and baseboards. The treatment approach is professional heat or chemical treatment: no outdoor action makes any difference.",
+      },
+    ],
+    prevention: [
+      "Complete foundation exclusion in August, the window before lake-effect influence makes New Castle's mouse season start in September.",
+      "Seal window frames, utility penetrations, and soffits in August before stink bug fall aggregation.",
+      "Inspect mattress seams and furniture when moving into any New Castle rental to detect bed bugs before they establish.",
+      "Coordinate German cockroach treatment across adjacent units in connected housing to prevent re-infestation.",
+    ],
+    costNote:
+      "New Castle pest control typically starts with a free inspection. A quarterly general plan covers mice, stink bugs, cockroaches, and ants year-round. Bed bug treatment is a standalone service. Yellowjacket treatment is per nest.",
+    faqs: [
+      {
+        question: "Why does the mouse season start earlier in New Castle than in Philadelphia?",
+        answer:
+          "New Castle's location in northwest Pennsylvania within the lake-effect influence zone from Lake Erie means cold weather arrives earlier in fall than in Philadelphia or central Pennsylvania. Penn State Extension notes this pattern means the mouse entry window starts in September in western Pennsylvania, compared to October further east. August is the preparation window for New Castle exclusion work.",
+      },
+      {
+        question: "How do German cockroaches get into New Castle apartment buildings?",
+        answer:
+          "German cockroaches move between units through shared plumbing voids, utility chases, and wall cavities. In New Castle's older multi-family housing, treating one apartment without coordinating across adjacent units leaves populations that re-colonize quickly. Building-wide treatment coordination is the effective approach. Penn State Extension recommends gel bait in harborage sites rather than spray for lasting German cockroach control.",
+      },
+      {
+        question: "Are bed bugs common in New Castle rentals?",
+        answer:
+          "Penn State Extension confirms significant bed bug incidence in western Pennsylvania urban housing. New Castle's older rental market has the housing characteristics where bed bugs spread more readily: multi-family buildings with shared walls, older stock with more wall void access, and higher tenant turnover. Inspecting mattress seams when moving in is the practical detection step.",
+      },
+      {
+        question: "When should I seal my New Castle home against stink bugs?",
+        answer:
+          "August is the preparation window, before September aggregation begins. Focus on window frames, utility penetrations, soffit areas, and any exterior material gaps. Penn State Extension's primary recommendation is exclusion before fall aggregation. An exterior perimeter treatment on sun-warmed south and west-facing walls in late August provides additional protection.",
+      },
+      {
+        question: "Are there termites in Lawrence County?",
+        answer:
+          "Yes. Penn State Extension documents eastern subterranean termite pressure throughout western Pennsylvania including Lawrence County. Older homes with crawl spaces and wood near grade are at greatest risk. Annual inspections are the standard precaution. The Shenango River corridor's soil moisture can elevate termite activity for properties near the water.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Youngstown", slug: "youngstown" },
+      { name: "Sharon", slug: "sharon" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in New Castle, PA | Mice, Cockroaches & Stink Bugs",
+    metaDescription:
+      "New Castle Pennsylvania pest control for house mice, German cockroaches, stink bugs, carpenter ants and bed bugs. Lawrence County Shenango River western Pennsylvania Ohio border specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bethel-park",
+    name: "Bethel Park",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~32,000",
+    county: "Allegheny County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bethel Park is a suburb on the south hills of Pittsburgh in Allegheny County, developed primarily through the 1950s through 1980s in a series of planned residential communities. The cold-humid Allegheny Mountain climate delivers cold winters, significant snowfall, and the fall conditions that drive both stink bugs and mice toward residential structures. Pennsylvania is one of the most stink bug-affected states in the country per Penn State Extension. The wooded south hills terrain sustains carpenter ant and yellowjacket pressure in the residential neighborhoods adjacent to natural areas.",
+    topPests: ["Stink Bugs", "House Mice", "Carpenter Ants", "Yellowjackets", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November, overwintering in structures",
+        note: "Pennsylvania is one of the most heavily stink bug-affected states, confirmed by Penn State Extension. Bethel Park's south hills position, with wooded terrain adjacent to residential neighborhoods, creates consistent fall stink bug pressure. The surrounding Allegheny foothills build large fall populations that aggregate on building surfaces in September.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through March",
+        note: "House mice are the primary fall and winter pest in Bethel Park. Allegheny County's cold winters drive mice firmly into structures from October. The mid-century residential construction of Bethel Park's established neighborhoods develops gaps at utility penetrations and foundation seals over time that give mice access. Penn State Extension identifies house mice as the primary residential rodent in Pennsylvania.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, spring indoor activity from established colonies",
+        note: "The wooded south hills terrain adjacent to Bethel Park's residential neighborhoods sustains large outdoor carpenter ant populations. Penn State Extension identifies carpenter ants as a structural concern in western Pennsylvania, and homes in Bethel Park near the wooded edges see consistent satellite colony risk in moisture-damaged structural wood.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active June through October, peak August through October",
+        note: "Yellowjackets are a late-summer pest in Bethel Park's south hills neighborhoods. Ground nests near the wooded edges and wall void nests in older construction produce consistent August and September treatment requests. Penn State Extension identifies yellowjackets as a significant late-season pest across western Pennsylvania.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a concern in Bethel Park's multi-family housing and the commercial food service operations in the business corridors. Penn State Extension identifies German cockroaches as the primary cockroach pest in Pennsylvania's urban settings. They maintain year-round populations regardless of outdoor conditions.",
+      },
+    ],
+    localHook:
+      "Bethel Park's south hills position above Pittsburgh gives residents views of the city and access to wooded terrain that makes the neighborhoods distinctive. Those same wooded south hills are what produce the fall stink bug pressure, the carpenter ant populations, and the yellowjacket nests that make pest management in this Pittsburgh suburb more active than in a fully developed urban neighborhood.",
+    intro:
+      "Pest control in Bethel Park reflects the south Pittsburgh hills' suburban-wooded character. Brown marmorated stink bugs are the defining fall pest, well-established across Pennsylvania and sustained by the forested south hills terrain adjacent to the residential areas. House mice push into the mid-century housing stock each October under Allegheny County cold. Carpenter ants are a spring structural concern in the neighborhoods near the wooded south hills edges. Yellowjackets peak in late summer, and German cockroaches are a year-round indoor challenge.",
+    sections: [
+      {
+        heading: "South hills stink bugs and the fall pest calendar",
+        body: "Bethel Park's wooded south hills setting is one of the factors that makes stink bug fall pressure here more consistent than in fully urbanized Allegheny County neighborhoods. Penn State Extension, which has led stink bug research in Pennsylvania since the species arrived in the late 1990s, confirms that wooded and agricultural terrain adjacent to residential areas builds larger stink bug populations than fully developed urban land. The south hills' forested character provides the habitat. When fall temperatures drop in September, those populations aggregate on sun-warmed south and west-facing building surfaces and work through any available gap. Bethel Park's mid-century residential construction, while generally tighter than pre-war housing, develops gaps at utility penetrations and siding-to-foundation junctions over decades that provide stink bug entry points. Completing exclusion work in August, before the September aggregation begins, is the most effective single prevention step. Exterior perimeter treatment on south and west-facing walls in late August adds a protective layer before the insects reach the building surface.",
+      },
+      {
+        heading: "Carpenter ants from the wooded south hills edges",
+        body: "The forested terrain of the south hills provides extensive outdoor habitat for large carpenter ant colonies, and Bethel Park's residential streets that back onto those wooded areas see the most consistent indoor pressure. Penn State Extension identifies carpenter ants as a structural pest concern in western Pennsylvania, sustained by the region's moist, forested conditions. The pest sequence in south hills neighborhoods is predictable: outdoor colonies in the adjacent woodland establish satellite nesting groups in any moisture-damaged structural wood in adjacent homes. The tell is finding large, dark-colored ants indoors in April or May from the same location, sometimes with fine sawdust-like frass nearby. This pattern indicates an established indoor colony, not occasional outdoor foragers. Treatment of the indoor satellite colony combined with locating and repairing the moisture source in the wood, whether a leaking window, soffit, or deck ledger, provides lasting control. Penn State Extension recommends annual spring inspections of wood around older windows and roof-line assemblies as the standard for properties adjacent to wooded terrain.",
+      },
+    ],
+    prevention: [
+      "Complete stink bug exclusion work in August on window frames, soffits, and utility penetrations before the south hills fall aggregation.",
+      "Seal foundation gaps and utility penetrations in September before the October mouse entry surge in Bethel Park's mid-century housing.",
+      "Inspect wood near the wooded south hills edges annually in spring for moisture damage enabling carpenter ant satellite colonies.",
+      "Treat yellowjacket nests on the wooded south hills edges in July before August peak aggression.",
+    ],
+    costNote:
+      "Bethel Park pest control is typically a quarterly general plan with fall emphasis on stink bug exclusion and mouse prevention. Carpenter ant programs include a spring moisture assessment. Yellowjacket treatment is per nest. Free inspections are the starting point.",
+    faqs: [
+      {
+        question: "Are stink bugs worse in Bethel Park than in more urban Pittsburgh neighborhoods?",
+        answer:
+          "Generally yes, for properties adjacent to the wooded south hills terrain. Penn State Extension confirms that wooded and semi-rural land builds larger stink bug source populations than fully developed urban areas. Bethel Park's south hills setting means more stink bug habitat adjacent to the residential neighborhoods, resulting in higher fall aggregation numbers on building surfaces.",
+      },
+      {
+        question: "When do mice enter Bethel Park homes?",
+        answer:
+          "October is the primary entry period, when Allegheny County temperatures drop and mice press into heated buildings. Penn State Extension recommends September as the preparation window: sealing foundation gaps, pipe penetrations, and door threshold gaps before the cold push. Bethel Park's mid-century housing develops the gaps that give mice access over time, so a professional inspection to identify current entry points is valuable.",
+      },
+      {
+        question: "How do I know if carpenter ants are established inside my Bethel Park home?",
+        answer:
+          "The reliable indicator is finding large black ants consistently indoors in April or May from a specific location, possibly accompanied by fine sawdust-like frass near a baseboard or in the attic. This pattern means a satellite colony is active in moisture-damaged wood in the structure. Penn State Extension notes that indoor carpenter ant sightings in spring almost always indicate an established indoor colony, not outdoor foragers passing through.",
+      },
+      {
+        question: "Are yellowjackets dangerous near Bethel Park's wooded edges?",
+        answer:
+          "Ground nests near the wooded south hills edges are common and are the most frequent sting encounter during lawn work in August and September when colonies reach peak aggression. Mark any ground nest from a safe distance and schedule professional treatment. July treatment, before August peak size, is the most effective and lowest-risk window.",
+      },
+      {
+        question: "Is year-round pest control useful in Bethel Park?",
+        answer:
+          "For most homes, yes, particularly those adjacent to the wooded south hills edges. Mice require fall prevention and winter monitoring. Carpenter ants are a spring concern. Stink bugs need late-summer exclusion. Yellowjackets run through summer. German cockroaches are year-round. A quarterly program with fall emphasis on exclusion covers the full pest calendar for Bethel Park properties.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Mt. Lebanon", slug: "mt-lebanon" },
+      { name: "Upper St. Clair", slug: "upper-st-clair" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Bethel Park, PA | Stink Bugs, Mice & Carpenter Ants",
+    metaDescription:
+      "Bethel Park pest control for brown marmorated stink bugs, house mice, carpenter ants, yellowjackets and German cockroaches. Allegheny County south hills Pittsburgh suburb Pennsylvania specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "greensburg",
+    name: "Greensburg",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~14,000",
+    county: "Westmoreland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Greensburg is the county seat of Westmoreland County, situated east of Pittsburgh in the Laurel Highlands foothills of western Pennsylvania. The cold-humid continental climate delivers cold winters, significant precipitation, and the conditions that sustain stink bug, mouse, and termite pressure. Westmoreland County is within the established range of the spotted lanternfly, an invasive planthopper that Penn State Extension has been monitoring closely as it spreads west from its original Berks County introduction. Brown marmorated stink bugs are well-established across western Pennsylvania.",
+    topPests: ["Stink Bugs", "House Mice", "Spotted Lanternfly", "Carpenter Ants", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November, overwintering in structures",
+        note: "Penn State Extension confirms Pennsylvania is one of the most heavily stink bug-affected states in the US. Greensburg's Laurel Highlands foothill setting and the forested terrain surrounding Westmoreland County build large stink bug populations that aggregate on building surfaces each fall. The older downtown and residential construction provides the entry points they exploit in September.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, hard push October through March",
+        note: "House mice are the primary fall and winter pest in Greensburg. Westmoreland County's cold Allegheny winter climate drives mice firmly into structures from October. Greensburg's older downtown housing stock and the surrounding residential neighborhoods have the accumulated foundation wear and utility gaps that give mice reliable fall access.",
+      },
+      {
+        name: "Spotted lanternfly",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Adults visible late summer through fall, egg masses overwinter on surfaces",
+        note: "Penn State Extension documents spotted lanternfly presence across Westmoreland County. The species arrived in Pennsylvania from Asia in 2014 and has spread steadily westward from Berks County. Adults swarm host trees, grape vines, and outdoor surfaces in late summer and fall. Egg masses are laid on flat outdoor surfaces, including furniture, vehicles, and building exteriors, and overwinter. Scraping egg masses in winter and treating host trees reduces next-season populations.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, spring indoor activity from established colonies",
+        note: "The Laurel Highlands foothills terrain surrounding Greensburg sustains outdoor carpenter ant populations. Penn State Extension identifies carpenter ants as a structural concern throughout western Pennsylvania, and Greensburg's older residential and commercial construction carries real satellite colony risk when moisture-damaged wood provides nesting sites.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a persistent concern in Greensburg's older multi-family housing and food service establishments in the downtown commercial district. Penn State Extension identifies German cockroaches as the primary cockroach pest in Pennsylvania's urban settings.",
+      },
+    ],
+    localHook:
+      "Greensburg is where two of the most newsworthy Pennsylvania pest stories converge: the long-established stink bug invasion that Penn State has been researching since the late 1990s, and the newer spotted lanternfly spread that is now documented in Westmoreland County. Both arrived from Asia, both concern Penn State Extension, and both require active management from Greensburg property owners.",
+    intro:
+      "Pest control in Greensburg deals with a pest roster that includes both Pennsylvania's most established fall invader and its newest. Brown marmorated stink bugs are well-documented across the state and a reliable September through November event at Greensburg buildings. The spotted lanternfly, confirmed in Westmoreland County by Penn State Extension, adds a late-summer outdoor pest dimension. House mice push into the older housing each October. Carpenter ants are a spring structural concern from the Laurel Highlands foothills terrain, and German cockroaches are a year-round indoor challenge.",
+    sections: [
+      {
+        heading: "Stink bugs and spotted lanternfly: two Pennsylvania invasives",
+        body: "Greensburg deals with two invasive insect pests that both originated in Asia, both concern Penn State Extension, and both affect properties in a seasonal way but through entirely different mechanisms. Brown marmorated stink bugs, established in Pennsylvania since the late 1990s, aggregate on building surfaces in September and enter homes to overwinter, creating an indoor nuisance from fall through spring. Penn State Extension confirms Pennsylvania is one of the most heavily affected states. The spotted lanternfly, which Penn State Extension began monitoring after its 2014 arrival in Berks County, has spread steadily westward and is now documented in Westmoreland County. Adults swarm host trees, particularly tree of heaven, grape vines, and fruit trees, in late summer and fall, and lay distinctive gray egg masses on flat outdoor surfaces over winter. They are a nuisance and an agricultural concern rather than a structural one: they do not enter homes or damage wood. Scraping spotted lanternfly egg masses from outdoor furniture, vehicles, and the sides of buildings in winter reduces next-season populations. Treating infested host trees and removing tree of heaven from the property where practical also reduces pressure.",
+      },
+      {
+        heading: "Mice and the Laurel Highlands foothill effect",
+        body: "Greensburg's position in the Laurel Highlands foothills means cold weather arrives with the force of the Allegheny Mountain climate, and house mice respond by pressing hard into buildings in October. Penn State Extension identifies house mice as the primary residential rodent concern throughout Pennsylvania, and the October surge in Westmoreland County is consistent and predictable. Greensburg's older downtown housing and residential neighborhoods have the foundation wear and utility gaps that give mice the access points they exploit. The preparation window is September: sealing foundation cracks, pipe penetrations, utility conduit entries, and door threshold gaps before the cold push is the most cost-effective approach. Exterior bait stations placed in September intercept mice approaching the building. Penn State Extension recommends exclusion as the primary mouse management strategy, because managing an established interior mouse population after October requires both exclusion and active trapping simultaneously, which costs more than prevention alone. Snap traps placed inside along the foundation perimeter in September add a detection layer for any mice that enter before exclusion work is complete.",
+      },
+    ],
+    prevention: [
+      "Seal window frames, utility penetrations, and soffit gaps in August before stink bug fall aggregation from the Laurel Highlands foothills.",
+      "Seal foundation gaps and pipe penetrations in September before the October mouse entry surge in Westmoreland County.",
+      "Scrape spotted lanternfly egg masses from outdoor surfaces, furniture, and vehicles in winter to reduce next-season populations.",
+      "Inspect wood around older windows and roof-line assemblies in spring for moisture damage enabling carpenter ant satellite colonies.",
+    ],
+    costNote:
+      "Greensburg pest control typically starts with a free inspection. A quarterly general plan covers mice, stink bugs, cockroaches, and ants. Spotted lanternfly management is a seasonal service. Carpenter ant programs include a spring moisture assessment.",
+    faqs: [
+      {
+        question: "Is spotted lanternfly established in the Greensburg area?",
+        answer:
+          "Yes. Penn State Extension documents spotted lanternfly presence across Westmoreland County. The species has spread steadily westward from its 2014 Berks County introduction. In Greensburg, adults swarm host trees in late summer and fall, and egg masses appear on outdoor surfaces over winter. Scraping egg masses and treating host trees reduces next-season populations.",
+      },
+      {
+        question: "Is spotted lanternfly dangerous to my home or family?",
+        answer:
+          "No. Spotted lanternflies do not bite, sting, or enter homes to damage structure. They are a nuisance when swarming and a significant concern for grapes, fruit trees, and certain ornamental plants. The agricultural damage they cause is the primary concern. For homeowners, scraping egg masses from outdoor surfaces in winter is the most practical management step.",
+      },
+      {
+        question: "Why are stink bugs and spotted lanternfly both problems in Greensburg?",
+        answer:
+          "Both are Asian invasives that established in Pennsylvania and have spread across the state. Penn State Extension has been at the forefront of research on both species. Westmoreland County is in the established range of both. Stink bugs affect homes directly through fall overwintering entry. Spotted lanternfly affects outdoor plants and trees, not the structure itself.",
+      },
+      {
+        question: "When do mice enter Greensburg homes?",
+        answer:
+          "October is the primary entry period in Westmoreland County, when Allegheny Mountain cold arrives and mice press into heated buildings. September is the exclusion window: sealing foundation gaps and utility penetrations before the cold push. Penn State Extension recommends exclusion as the primary strategy, as preventing entry is less expensive than managing an established infestation.",
+      },
+      {
+        question: "How do stink bugs get into Greensburg homes in fall?",
+        answer:
+          "Through gaps around window frames, utility penetrations, soffit areas, and anywhere exterior building materials have separated over time. Stink bugs aggregate on sun-warmed south and west-facing walls in September and work through any available opening. Sealing those gaps in August, before the September aggregation begins, is the most effective prevention. Penn State Extension's primary recommendation is exclusion before fall aggregation.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Johnstown", slug: "johnstown" },
+      { name: "Latrobe", slug: "latrobe" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Greensburg, PA | Stink Bugs, Spotted Lanternfly & Mice",
+    metaDescription:
+      "Greensburg pest control for brown marmorated stink bugs, spotted lanternfly, house mice, carpenter ants and German cockroaches. Westmoreland County Laurel Highlands Pittsburgh area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "monroeville",
+    name: "Monroeville",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~29,000",
+    county: "Allegheny County",
+    climate: "cold-humid",
+    climateDriver:
+      "Monroeville is a suburban municipality east of Pittsburgh in Allegheny County, developed primarily through the 1960s and 1970s as a major commercial and residential suburb. The cold-humid Allegheny Mountain climate delivers cold winters and the fall conditions that make stink bugs and mice the two primary seasonal pest challenges. Penn State Extension documents spotted lanternfly presence across Allegheny County as the species continues its westward spread. Brown marmorated stink bugs are well-established across western Pennsylvania. The forested Turtle Creek watershed terrain east of the municipality sustains carpenter ant and yellowjacket pressure.",
+    topPests: ["Stink Bugs", "House Mice", "Spotted Lanternfly", "Carpenter Ants", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November, overwintering in structures",
+        note: "Pennsylvania is one of the most stink bug-affected states per Penn State Extension, which has been studying the species since its arrival in the late 1990s. Monroeville's position in the Pittsburgh's eastern suburbs, adjacent to forested Turtle Creek watershed terrain, means fall stink bug pressure from the surrounding wooded landscape is consistent each September and October.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through March",
+        note: "House mice are the primary fall and winter pest in Monroeville. Allegheny County's cold winters drive mice firmly into structures from October. Monroeville's 1960s and 1970s residential construction, while generally tighter than pre-war housing, develops gaps at utility penetrations and foundation seals over decades. Penn State Extension identifies house mice as the primary residential rodent throughout Pennsylvania.",
+      },
+      {
+        name: "Spotted lanternfly",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Adults visible late summer through fall, egg masses overwinter outdoors",
+        note: "Penn State Extension documents spotted lanternfly presence in Allegheny County. Adults swarm host trees, grape vines, and outdoor surfaces in late summer and fall. Egg masses are laid on flat outdoor surfaces and vehicles in fall and overwinter. Scraping egg masses in winter reduces next-season populations. Treating infested host trees is the most effective property-level management.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through September, spring indoor activity from established colonies",
+        note: "The Turtle Creek watershed terrain east of Monroeville sustains outdoor carpenter ant populations. Penn State Extension identifies carpenter ants as a structural concern in western Pennsylvania, and Monroeville properties adjacent to the wooded watershed edges see consistent satellite colony risk when moisture-damaged structural wood provides nesting sites.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a concern in Monroeville's multi-family housing and the extensive commercial food service operations in the Monroeville Mall corridor and surrounding business district. Penn State Extension identifies German cockroaches as the primary cockroach pest in Pennsylvania's urban settings.",
+      },
+    ],
+    localHook:
+      "Monroeville's commercial corridor along William Penn Highway is one of the most recognizable suburban retail strips in western Pennsylvania, and the residential neighborhoods behind it deal with the same fall pest pressures that the Pittsburgh region's suburban character creates. Stink bugs from the adjacent wooded terrain, mice from October, and spotted lanternfly now confirmed across Allegheny County are the three headlines for Monroeville pest management.",
+    intro:
+      "Pest control in Monroeville deals with the Pittsburgh eastern suburb's full fall pest calendar. Brown marmorated stink bugs are the seasonal constant, well-established across Allegheny County and arriving from the Turtle Creek watershed woodland in September. Spotted lanternfly is now confirmed in the county per Penn State Extension. House mice push into the 1960s and 1970s residential construction each October. Carpenter ants are a spring structural concern near the watershed edges, and German cockroaches are a year-round challenge in the commercial food service district.",
+    sections: [
+      {
+        heading: "Stink bugs, spotted lanternfly, and the fall pest window",
+        body: "Monroeville's fall pest calendar now includes two Pennsylvania invasives that both require action but in different directions. Brown marmorated stink bugs, established across western Pennsylvania since the late 1990s, aggregate on building surfaces in September and work into wall voids and attic spaces to overwinter. Penn State Extension's research confirms they are well-established throughout Allegheny County. The prevention approach is sealing the building envelope in August: window frames, utility penetrations, soffit areas, and any exterior material gaps. Exterior perimeter treatment on sun-warmed south and west-facing walls in late August provides additional protection. Spotted lanternfly, now documented in Allegheny County per Penn State Extension, takes a different approach to fall: adults swarm outdoors on host trees and outdoor surfaces rather than entering structures. Their impact is on plants and trees rather than the building itself. Egg masses laid on outdoor furniture, vehicles, deck boards, and exterior walls over winter are what homeowners need to address: scraping them off with a credit card or putty knife in late winter before they hatch in spring reduces next-season populations. Treating infested tree of heaven and grape vines, the primary host plants, reduces the pressure on the property.",
+      },
+      {
+        heading: "Carpenter ants and the Turtle Creek watershed edges",
+        body: "Monroeville's eastern residential neighborhoods back up against the Turtle Creek watershed's forested terrain, and this adjacency is what drives the carpenter ant pressure that properties at those edges deal with more actively than interior neighborhoods. Penn State Extension identifies carpenter ants as the primary wood-destroying insect across western Pennsylvania, and the moist, forested watershed conditions provide extensive outdoor habitat for large colonies. The path from outdoor colony to indoor satellite colony runs through moisture-damaged structural wood in the adjacent home. The typical sequence: outdoor colonies in the watershed woodland establish satellite nesting groups in aging window assemblies, failing soffits, deck ledger boards with moisture damage, or any other section of the structure where the wood has lost integrity. Finding large, dark-colored ants indoors in spring from a consistent location is the reliable indicator. A professional inspection in April or May identifies the indoor colony location and the moisture source that enabled it. Treatment of the colony combined with moisture source repair gives lasting results. Penn State Extension recommends annual spring wood inspections for properties adjacent to wooded areas throughout Allegheny County.",
+      },
+    ],
+    prevention: [
+      "Seal window frames, soffits, and utility penetrations in August before stink bug fall aggregation from the Turtle Creek watershed woodland.",
+      "Seal foundation gaps and pipe penetrations in September before the October mouse entry surge in Monroeville's mid-century housing.",
+      "Scrape spotted lanternfly egg masses from outdoor surfaces, furniture, and vehicles in late winter before spring hatch.",
+      "Inspect wood at the watershed-adjacent edges of the property annually in spring for carpenter ant evidence and moisture damage.",
+    ],
+    costNote:
+      "Monroeville pest control typically starts with a free inspection. A quarterly general plan covers mice, stink bugs, cockroaches, and ants. Spotted lanternfly management is a seasonal outdoor service. Carpenter ant programs include a spring moisture assessment.",
+    faqs: [
+      {
+        question: "Is spotted lanternfly a real concern in Monroeville?",
+        answer:
+          "Yes. Penn State Extension documents spotted lanternfly presence across Allegheny County, and Monroeville is within that zone. Adults swarm host trees and outdoor surfaces in late summer and fall. They do not enter homes or damage structural materials, but they are a nuisance and a concern for grape vines and ornamental trees. Scraping egg masses in late winter and treating host trees are the practical management steps.",
+      },
+      {
+        question: "How do stink bugs get into Monroeville homes?",
+        answer:
+          "Through gaps around window frames, utility penetrations, soffits, and anywhere exterior building materials have separated. Stink bugs aggregate on sun-warmed south and west-facing walls in September and work through any available opening. Sealing those gaps in August, before the September aggregation begins, is the most effective prevention. Penn State Extension's primary stink bug management recommendation is exclusion before fall aggregation.",
+      },
+      {
+        question: "When do mice enter Monroeville homes?",
+        answer:
+          "October is the primary entry period, when Allegheny County temperatures drop and mice press into heated structures. Monroeville's 1960s and 1970s construction develops gaps at utility penetrations and foundation seals over time. September is the exclusion window: sealing those gaps before the cold push is more effective than managing an established infestation after October.",
+      },
+      {
+        question: "Are carpenter ants a structural threat in properties near the Turtle Creek watershed?",
+        answer:
+          "Yes, for properties where moisture-damaged wood provides a nesting site. The watershed woodland sustains large outdoor colonies, and satellite nests in adjacent structures form when any section of structural wood loses moisture resistance. Penn State Extension identifies carpenter ants as the primary wood-destroying insect in western Pennsylvania. Annual spring inspections of wood around windows and roof-line assemblies near the watershed edges are the appropriate precaution.",
+      },
+      {
+        question: "Do I need year-round pest control in Monroeville?",
+        answer:
+          "For most homes, a year-round program is practical. Mice require fall prevention through winter monitoring. Carpenter ants are a spring concern. Stink bugs need late-summer exclusion. Spotted lanternfly management runs from late summer through winter egg mass removal. German cockroaches are year-round in commercial settings. A quarterly program with fall emphasis covers the full Allegheny County pest calendar.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Bethel Park", slug: "bethel-park" },
+      { name: "Murrysville", slug: "murrysville" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Monroeville, PA | Stink Bugs, Spotted Lanternfly & Mice",
+    metaDescription:
+      "Monroeville pest control for brown marmorated stink bugs, spotted lanternfly, house mice, carpenter ants and German cockroaches. Allegheny County eastern Pittsburgh suburb Pennsylvania specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+
 ];

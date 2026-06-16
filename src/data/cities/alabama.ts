@@ -686,4 +686,494 @@ export const alabamaCities: CityLocation[] = [
     metaDescription:
       "Hoover pest control for subterranean termites, fire ants, mosquitoes, German cockroaches and carpenter bees. Jefferson County Cahaba River suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "auburn",
+    name: "Auburn",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~82,000",
+    county: "Lee County",
+    climate: "hot-humid",
+    climateDriver:
+      "Auburn sits in Lee County in east-central Alabama at the edge of the Piedmont, where the Red Hills meet the Coastal Plain. The humid subtropical climate delivers long, hot summers and mild winters with abundant rainfall, keeping fire ant colonies, termite populations, and mosquito habitat active for most of the year. Auburn University's campus ponds, wetlands, and extensive irrigated turf sustain mosquito breeding through the warm season. Rapid residential growth has pushed neighborhoods into previously wooded terrain, increasing brown recluse spider and subterranean termite pressure.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Brown Recluse Spiders", "Mosquitoes", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak after spring and summer rain",
+        note: "Fire ants are ubiquitous across Lee County. The Alabama Cooperative Extension System, headquartered at Auburn University, recommends broadcast bait treatment of the full lawn in spring and fall for sustained control. Individual mound treatment alone is less effective because it misses satellite colonies that quickly rebuild pressure.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Lee County sits within Alabama's high-pressure termite zone. The Alabama Cooperative Extension System identifies eastern subterranean termites as one of the most destructive structural pests in the state. The humid climate and moist Lee County soils keep colonies active well beyond the spring swarm season.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active April through October",
+        note: "Brown recluse spiders are well established in Lee County. Auburn's expanding residential footprint, pushing into previously wooded areas, creates abundant harborage at property boundaries. Garages, attic spaces, and storage areas in homes near campus are the most common harborage sites. A bite can cause significant necrotic tissue damage.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Campus ponds, the wetlands at Chewacla State Park, and retention areas in Auburn's newer subdivisions create sustained mosquito breeding habitat. The Asian tiger mosquito, which bites during daylight hours, is established throughout Lee County and extends the nuisance beyond morning and evening.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "Auburn's large student rental market and the restaurant corridor along Magnolia Avenue sustain German cockroach pressure in multi-unit housing. The humid climate supports year-round indoor breeding, and they spread through shared walls and plumbing in high-density housing near campus.",
+      },
+    ],
+    localHook:
+      "Auburn University's Alabama Cooperative Extension System is the Southeast's leading authority on fire ant management, and its own guidance places Lee County firmly in the high-pressure zone for both fire ants and subterranean termites. The city that trains the pest controllers faces the same sustained pest environment as every other Alabama community.",
+    intro:
+      "Pest control in Auburn operates against the same southeastern baseline that Alabama Cooperative Extension documents for Lee County: high fire ant density, significant subterranean termite risk, and a growing brown recluse spider population in the garages and wooded backyards of rapidly expanding residential neighborhoods. Mosquitoes breed on campus and in subdivision retention ponds through the long warm season. German cockroaches are a steady problem in the student rental market near the university. Auburn's growth over the past decade has brought fire ant and termite colonies from formerly wooded land into direct contact with new construction.",
+    sections: [
+      {
+        heading: "Broadcast bait versus mound treatment: the Auburn fire ant comparison",
+        body: "Alabama Cooperative Extension publishes the most widely used fire ant management guidance in the Southeast, and the data is consistent: broadcast bait treatment of the full lawn outperforms individual mound treatment in residential settings. Treating visible mounds produces fast results but misses satellite colonies that quickly rebuild population pressure. Broadcast bait is carried back to all active colonies in the treatment area, killing queens and collapsing multiple colonies at once. The two-step approach, spring broadcast followed by a fall application, keeps annual fire ant pressure consistently low across Lee County properties.",
+      },
+      {
+        heading: "Brown recluse spiders: a genuine Auburn risk worth addressing",
+        body: "Brown recluse spiders are common throughout Lee County and Auburn's active construction zones keep fresh harborage available at property boundaries where lawns meet former woodlands. They concentrate in undisturbed dark spaces: boxes stored in garages, attic insulation, seldom-moved furniture, and clothing left in closets for extended periods. A brown recluse bite can cause a necrotic wound that takes weeks to heal and sometimes requires medical intervention. Reducing clutter in storage areas, quarterly perimeter treatment, and sticky traps in garages are the practical combination that keeps population pressure manageable.",
+      },
+    ],
+    prevention: [
+      "Broadcast bait the lawn for fire ants in spring and fall: Alabama Cooperative Extension recommends this over individual mound treatment for Lee County conditions.",
+      "Schedule an annual termite inspection given the heavy termite pressure across Lee County and spring swarm activity that signals established underground colonies.",
+      "Reduce cardboard and box clutter in garages and attic spaces to eliminate brown recluse harborage near Auburn's residential growth zone.",
+      "Clear standing water from gutters and retention pond edges weekly to reduce mosquito breeding through the long warm season.",
+    ],
+    costNote:
+      "Auburn pest control is typically quoted as a year-round program covering fire ants, cockroaches, and spiders, with termite protection quoted separately after inspection. Student rental bed bug inspections and treatment near campus are quoted after assessment. Free initial inspection included.",
+    faqs: [
+      {
+        question: "Does the high fire ant pressure in Auburn apply to campus neighborhoods?",
+        answer:
+          "Yes. Fire ants are active across Lee County, including the Auburn University campus and surrounding residential areas. Alabama Cooperative Extension recommends broadcast bait over the full property twice a year rather than treating visible mounds individually. That covers the satellite colonies that mound-only treatment leaves active.",
+      },
+      {
+        question: "Are brown recluse spiders actually dangerous in Auburn homes?",
+        answer:
+          "They are a genuine concern. Brown recluse spiders are well established in Lee County. Their bite can cause necrotic tissue damage that requires medical care. Garages, attic spaces, and storage areas in Auburn's growing residential neighborhoods are the most common harborage sites. Quarterly perimeter treatment combined with systematic clutter reduction keeps population pressure manageable.",
+      },
+      {
+        question: "How serious is the termite risk for Auburn homes, including newer construction?",
+        answer:
+          "Lee County is in Alabama's high-pressure termite zone confirmed by the Alabama Cooperative Extension System. Newer construction is not immune: termites enter through expansion joints, foam insulation touching the soil, and wood mulch at the foundation. Annual inspections are the standard recommendation regardless of the age of the structure.",
+      },
+      {
+        question: "How long is mosquito season near the Auburn University campus?",
+        answer:
+          "Effectively March through October. Campus ponds, Chewacla State Park wetlands, and retention areas in Auburn's newer subdivisions provide consistent breeding habitat through the warm season. The Asian tiger mosquito, established throughout Lee County, bites during daylight and extends the nuisance beyond dawn and dusk. Monthly barrier spray programs from March through September address the residential portion of the problem.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Montgomery", slug: "montgomery" },
+      { name: "Birmingham", slug: "birmingham" },
+      { name: "Tuscaloosa", slug: "tuscaloosa" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Auburn, AL | Fire Ants, Termites & Brown Recluse",
+    metaDescription:
+      "Auburn pest control for fire ants, subterranean termites, brown recluse spiders, mosquitoes and German cockroaches. Lee County Alabama Cooperative Extension specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "dothan",
+    name: "Dothan",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~72,000",
+    county: "Houston County",
+    climate: "hot-humid",
+    climateDriver:
+      "Dothan sits in the Wiregrass region of southeastern Alabama at the intersection of Houston, Henry, and Dale Counties. The humid subtropical climate is influenced by proximity to the Florida Panhandle, delivering long hot summers, mild winters, and rainfall patterns that sustain mosquito, fire ant, and termite activity through most of the year. The flat Coastal Plain topography means standing water accumulates readily after rain, sustaining mosquito breeding habitat across the metro area. Alabama Cooperative Extension confirms southeastern Alabama carries high pressure for both subterranean termites and fire ants.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "Brown Recluse Spiders", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds most numerous after spring and summer rain",
+        note: "Fire ants are widespread across Houston County and the Dothan metro. The flat, moist Coastal Plain soils of the Wiregrass region are ideal for fire ant colony establishment. Mounds rebuild quickly after rain or disturbance, and the mild winters rarely suppress colony activity to the extent seen further north. Alabama Cooperative Extension ranks fire ants among the state's most significant pest challenges.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Southeastern Alabama carries heavy subterranean termite pressure. Dothan's humid subtropical climate, the flat Coastal Plain soils, and the older housing stock in established neighborhoods create conditions where termite colonies establish readily and damage accumulates silently. Annual inspections are the standard protective step for Houston County homeowners.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The flat terrain of the Wiregrass region means standing water accumulates after rain across residential yards, agricultural areas, and the retention basins of Dothan's commercial corridors. This topography creates productive mosquito breeding habitat that sustains populations through the long warm season. West Nile virus is monitored in Alabama each summer.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Brown recluse spiders are well established in southeastern Alabama and Houston County. They concentrate in dark, undisturbed storage areas, attic spaces, and the seldom-moved boxes and clothing in residential garages. Their bite can cause necrotic tissue damage. Reducing garage clutter and quarterly perimeter treatment are the effective management steps.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible indoors during rain and heat",
+        note: "American cockroaches, commonly called palmetto bugs in southeastern Alabama, live in Dothan's outdoor infrastructure and push into buildings during heat and rainfall. The city's flat drainage infrastructure and high summer temperatures make American cockroach intrusion a recurring issue in homes and commercial buildings throughout Houston County.",
+      },
+    ],
+    localHook:
+      "Dothan is called the Peanut Capital of the World, which tells you something useful about its pest environment: flat, agricultural, humid, and warm across most of the calendar year. Those conditions are exactly right for fire ants, termites, and mosquitoes. Houston County has no natural barriers to reset the pest season the way mountain terrain or northern winters do in other parts of the country.",
+    intro:
+      "Pest control in Dothan addresses a Wiregrass region pest environment that runs nearly year-round. Fire ants are established across Houston County and mounds rebuild quickly on the flat, moist Coastal Plain soils after every rain. Eastern subterranean termites are active most of the year, and Alabama Cooperative Extension confirms southeastern Alabama carries significant termite pressure. Mosquitoes breed in the standing water that accumulates on the flat terrain after Dothan's warm-season rains. Brown recluse spiders are common in storage areas throughout the county. American cockroaches push into buildings from outdoor infrastructure during heat and flooding events.",
+    sections: [
+      {
+        heading: "Why Dothan's terrain makes pest control different",
+        body: "The flat Coastal Plain topography of the Wiregrass region creates a pest dynamic that hilly or elevated Alabama cities do not face to the same degree. Standing water after rain has nowhere to drain quickly on flat terrain, so it sits and breeds mosquitoes. Fire ant colonies on flat, open ground are more visible and more accessible to the foraging workers that spread them across property lines. Termite colonies in the moist Coastal Plain soils under Dothan's older housing stock establish readily because the soil stays damp between rains. Understanding this terrain factor is the starting point for a treatment plan that actually fits the property.",
+      },
+      {
+        heading: "American cockroaches in Dothan: an outdoor pest that moves indoors",
+        body: "The distinction between German cockroaches and American cockroaches matters for how you treat them. German cockroaches are an indoor species that breeds entirely inside the structure. American cockroaches, the large palmetto bugs common in Dothan's outdoor drainage infrastructure, are primarily outdoor insects that invade during displacement events: heavy rain, peak summer heat, and flooding. Treating the interior for American cockroaches with the same approach used for German cockroaches does not address the root cause. Sealing the entry points at the foundation and plumbing penetrations, treating the perimeter granularly, and managing the outdoor population in mulch and drainage areas cuts the indoor encounters at their source.",
+      },
+    ],
+    prevention: [
+      "Treat fire ant mounds and broadcast bait the full lawn twice a year: the flat Houston County terrain allows colonies to spread across property lines quickly.",
+      "Schedule an annual termite inspection given southeastern Alabama's confirmed high termite pressure and the older housing stock in established Dothan neighborhoods.",
+      "Clear standing water from the flat yard and drainage areas within 48 hours of rain to reduce mosquito breeding.",
+      "Seal plumbing penetrations and door gaps to cut American cockroach entry during heat and rain displacement events.",
+    ],
+    costNote:
+      "Dothan pest pricing is typical of the southeastern Alabama market, with year-round general pest programs covering fire ants, cockroaches, and spiders. Termite protection is quoted separately after inspection. Mosquito service runs seasonally. Free assessment included.",
+    faqs: [
+      {
+        question: "Are fire ants year-round in Dothan?",
+        answer:
+          "Essentially yes. Houston County's mild winters, typical of the Wiregrass region close to the Florida Panhandle, do not suppress fire ant colonies the way colder Alabama climates do in the north. Mounds are visible and active most of the year and rebuild quickly after rain or treatment. Broadcast bait treatment twice a year is the Alabama Cooperative Extension recommendation for sustained management.",
+      },
+      {
+        question: "How serious is the termite risk in Dothan?",
+        answer:
+          "Southeastern Alabama, including Houston County, carries significant subterranean termite pressure confirmed by Alabama Cooperative Extension. The flat, moist Coastal Plain soils create favorable conditions for eastern subterranean termite colony establishment, and Dothan's older housing stock is at elevated risk. Annual inspections are strongly recommended. Termite damage is silent until it is structural, so waiting for visible signs means the colony has been active for years.",
+      },
+      {
+        question: "Why are there American cockroaches in my Dothan home even when it is clean?",
+        answer:
+          "American cockroaches in Dothan live primarily outdoors in storm drains, sewer lines, and under mulch and organic debris. They enter homes during heavy rain and peak heat as displacement events, not because the interior offers a specific food source. A clean home is not a deterrent for this species. Sealing the plumbing penetrations and foundation gaps they use, and treating the perimeter to intercept them before entry, is the effective approach.",
+      },
+      {
+        question: "How long is mosquito season in Dothan?",
+        answer:
+          "Dothan's mosquito season runs from March through November in most years. The flat Wiregrass terrain allows standing water to accumulate after rain, creating breeding habitat across residential yards and the city's drainage infrastructure. The Alabama Department of Public Health monitors for West Nile virus and other mosquito-borne illnesses statewide through the warm season.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Montgomery", slug: "montgomery" },
+      { name: "Mobile", slug: "mobile" },
+      { name: "Auburn", slug: "auburn" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Dothan, AL | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Dothan pest control for fire ants, subterranean termites, mosquitoes, brown recluse spiders and American cockroaches. Houston County Wiregrass Alabama specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "prattville",
+    name: "Prattville",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~38,000",
+    county: "Autauga County",
+    climate: "hot-humid",
+    climateDriver:
+      "Prattville is the Autauga County seat and one of the fastest-growing cities in the Montgomery metro. Sitting on Autauga Creek in central Alabama's humid subtropical zone, the city gets the full range of southeastern pest pressure: year-round fire ants in the flat residential lawns, active subterranean termite colonies in the creek drainage soils, and a mosquito season that runs from early spring through fall. New construction pushing into undeveloped land along the creek corridor brings additional termite and ant pressure from undisturbed surrounding soils.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "Stinging Insects", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak spring through fall",
+        note: "Fire ants are a constant presence in Prattville's residential yards and green spaces. The central Alabama climate keeps colonies active year-round, and the city's rapid growth means new construction lots regularly back onto undeveloped land where fire ant populations are undisturbed. Alabama Cooperative Extension recommends broadcast bait treatment of the full lawn twice yearly for properties where colonies rebuild quickly from adjacent areas.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Autauga County sits in Alabama's high-pressure termite zone. The moist soils along Autauga Creek and the humidity typical of central Alabama's humid subtropical climate sustain year-round termite colony activity. Prattville's growing number of new construction homes are not immune: grade-level wood, foam insulation panels, and wood mulch at the foundation are all entry pathways.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Autauga Creek and the retention and drainage areas throughout Prattville's newer subdivisions provide consistent mosquito breeding habitat through the warm season. The Asian tiger mosquito, which bites during daylight, is established across central Alabama and extends the biting nuisance beyond the dawn and dusk window.",
+      },
+      {
+        name: "Yellowjackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "April through October, most aggressive August through October",
+        note: "Yellowjacket and paper wasp colonies are common in Prattville's newer residential construction, nesting in wall voids, eave overhangs, and ground burrows in landscaped areas. Colonies reach peak size and aggression in late summer and early fall just as outdoor activity around homes is highest. Nests in wall voids require professional treatment to prevent comb decomposition and secondary pest problems.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most visible during rain and heat",
+        note: "American cockroaches are common in Prattville's outdoor drainage infrastructure and push into homes during heavy rain and summer heat. Central Alabama's warm climate keeps the outdoor population active most of the year, and displacement events after significant rain can send large numbers into structures through plumbing penetrations and foundation gaps.",
+      },
+    ],
+    localHook:
+      "Prattville's location on Autauga Creek in the central Alabama humid subtropical zone gives it year-round fire ant populations, active termite colonies in the creek bottomland soils, and a mosquito season that begins in March and runs through October. The city's rapid growth adds the complication of new construction butting up against undeveloped fire ant and termite territory.",
+    intro:
+      "Pest control in Prattville covers the full range of central Alabama pest pressure. Fire ants are in every yard and green space across Autauga County, and the city's expansion into undeveloped areas means colonies from surrounding land continually recolonize property edges. Eastern subterranean termites are active in the creek drainage soils most of the year. Mosquitoes breed in Autauga Creek and the retention ponds of newer subdivisions from March through October. Yellowjackets and paper wasps are a significant late-summer hazard in wall voids and eave structures. American cockroaches push indoors from drainage infrastructure during rain and heat.",
+    sections: [
+      {
+        heading: "New construction in Prattville is not pest-free",
+        body: "A common assumption among homeowners in Prattville's newer subdivisions is that modern construction provides protection from termites and fire ants. It does not. Eastern subterranean termites enter newer structures through expansion joints, foam insulation panels touching the soil, and grade-level wood that makes soil contact during construction. Alabama Cooperative Extension places Autauga County in the high-pressure termite zone, and that applies equally to a two-year-old house as to a forty-year-old one. Fire ant colonies from adjacent undeveloped land colonize new construction lots quickly, particularly at the property boundaries where landscaping meets graded soil. Getting ahead of both with annual inspection and broadcast bait treatment early in the home's life is more cost-effective than treating established infestations later.",
+      },
+      {
+        heading: "Wasp season in Prattville: late summer is when it gets serious",
+        body: "Yellowjacket and paper wasp activity peaks in late summer and early fall, when colonies that started in spring have reached their largest size. A yellowjacket colony in a wall void or ground burrow near a patio or play area in August or September carries real sting risk. Colonies at peak size are aggressive when disturbed, and stinging insects in or near the structure warrant professional treatment rather than DIY sprays, which often scatter workers and trigger defensive stinging. After the colony is eliminated, filling nest entry points in wall voids prevents the decomposing comb from attracting secondary pest pressure from beetles and rodents.",
+      },
+    ],
+    prevention: [
+      "Broadcast bait fire ant lawns in spring and fall, particularly along the boundary where landscaping meets undeveloped land in Prattville's newer subdivisions.",
+      "Schedule an annual termite inspection: Autauga County is in Alabama's high-pressure termite zone and new construction is not exempt.",
+      "Empty standing water from gutters, drainage areas, and any containers within 48 hours of rain to reduce Autauga Creek area mosquito breeding.",
+      "Inspect eaves and wall voids for wasp nest activity in late summer and treat early before colonies reach peak size in September.",
+    ],
+    costNote:
+      "Prattville pest control is typically quoted as a year-round program covering fire ants, cockroaches, spiders, and ants, with termite protection and wasp removal quoted separately. Mosquito service runs seasonally March through October. Free initial inspection included.",
+    faqs: [
+      {
+        question: "Do new homes in Prattville need termite protection?",
+        answer:
+          "Yes. Autauga County is in Alabama's high-pressure termite zone, and eastern subterranean termites enter newer construction through expansion joints, foam insulation at the foundation, and wood mulch contact. Alabama Cooperative Extension's guidance is clear: all Alabama homeowners in the humid subtropical zone should have annual termite inspections and active protection in place, regardless of when the structure was built.",
+      },
+      {
+        question: "Why do fire ants keep recolonizing my Prattville yard after treatment?",
+        answer:
+          "If your property backs onto undeveloped land, fire ant colonies from those undisturbed areas will continuously recolonize the edges of your treated lawn. Broadcast bait treatment covering the full property twice a year, with extra attention to the boundaries near undeveloped land, is the approach Alabama Cooperative Extension recommends in exactly this setting. It covers the satellite colonies that mound-only treatment misses.",
+      },
+      {
+        question: "When are yellowjackets most dangerous in Prattville?",
+        answer:
+          "Late summer through early fall, typically August through October. Yellowjacket colonies started in spring reach their largest size in this window, and larger colonies are more defensive when disturbed. Ground-nesting yellowjackets in yard areas and wall-nesting colonies near eaves are both common in Prattville's residential neighborhoods. Professional treatment is the safe option for colonies near occupied areas.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Montgomery", slug: "montgomery" },
+      { name: "Birmingham", slug: "birmingham" },
+      { name: "Hoover", slug: "hoover" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Prattville, AL | Fire Ants, Termites & Wasps",
+    metaDescription:
+      "Prattville pest control for fire ants, subterranean termites, mosquitoes, yellowjackets and American cockroaches. Autauga County central Alabama Montgomery metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "madison-al",
+    name: "Madison",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~52,000",
+    county: "Madison County",
+    climate: "hot-humid",
+    climateDriver:
+      "Madison is one of Alabama's fastest-growing cities, sitting in Madison County just west of Huntsville in the Tennessee Valley. The humid subtropical climate is moderated slightly by the Tennessee Valley topography, but the area still delivers long hot summers, mild winters, and the year-round pest pressure that characterizes northern Alabama. Wheeler Lake and the Tennessee River to the west create significant mosquito breeding habitat. The rapid residential development pushing into the former farmland and wooded areas of western Madison County maintains fire ant and termite pressure from undisturbed surrounding soils.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "Brown Recluse Spiders", "Carpenter Bees"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak spring through fall",
+        note: "Fire ants are established throughout Madison County and Madison's rapidly expanding residential footprint. The warm Tennessee Valley climate keeps colonies active year-round. Madison's growth pattern, converting farmland and wooded areas to subdivisions, means fire ant colonies from undisturbed surrounding agricultural land consistently recolonize residential property edges.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active most of the year",
+        note: "The Alabama Cooperative Extension System places Madison County in the high-pressure termite zone. Madison's new construction developments are not protected by age: subterranean termites enter through foam insulation panels, expansion joints, and any grade-level wood contact. Annual inspections are the standard protective step across all of Madison County.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Wheeler Lake and the Tennessee River to the west of Madison sustain large natural mosquito breeding populations through the warm season. The retention and drainage areas in Madison's newer subdivisions add residential breeding habitat. West Nile virus is monitored in Madison County each summer by the Madison County Health Department.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Brown recluse spiders are within their established range throughout northern Alabama and Madison County. The transition from farmland and woodland to residential development in western Madison County creates abundant harborage at the boundaries of new construction. Garages, storage sheds, and box-filled closets are the most common indoor harborage sites.",
+      },
+      {
+        name: "Carpenter bees",
+        serviceSlug: "bee-control",
+        activeSeason: "March through September, most active April and May",
+        note: "Madison's newer residential construction makes frequent use of cedar and redwood trim and fascia, which are the preferred drilling targets for female carpenter bees. The city's rapid growth means a large proportion of the housing stock is the softwood construction that carpenter bees favor. Nesting galleries accumulate over seasons and weaken fascia boards, pergola beams, and decorative trim.",
+      },
+    ],
+    localHook:
+      "Madison has been one of Alabama's fastest-growing cities for a decade, and rapid residential growth creates a specific pest pattern: new construction sitting directly adjacent to former farmland and woodland means fire ant colonies and termite pressure from undisturbed surrounding soils are a built-in feature of the landscape for new homeowners.",
+    intro:
+      "Pest control in Madison works against a Tennessee Valley pest environment shaped by fast growth and adjacent farmland and woodland. Fire ant colonies from undisturbed surrounding agricultural land continuously recolonize the edges of residential lots as new subdivisions replace former fields. Eastern subterranean termites are active in Madison County's high-pressure zone, and the newer construction is not exempt from that risk. Wheeler Lake and the Tennessee River sustain mosquito populations through the long warm season. Brown recluse spiders move into new construction from adjacent former woodlands. Carpenter bees target the cedar and redwood trim common on Madison's newer homes each spring.",
+    sections: [
+      {
+        heading: "Fire ant management in Madison's expanding subdivisions",
+        body: "The pest management challenge specific to Madison's growth pattern is that fire ant colonies from the surrounding former farmland recolonize the edges of residential properties as subdivisions are built. Individual mound treatment addresses the visible mounds but does not stop recolonization from adjacent areas. Broadcast bait treatment of the full property, covering all active areas and the boundary zones where residential lawn meets former agricultural land, is the approach Alabama Cooperative Extension recommends in exactly this suburban growth setting. Two applications per year, spring and fall, keep annual pressure consistently manageable.",
+      },
+      {
+        heading: "Termite risk in Madison's newer housing",
+        body: "Madison County's high termite pressure zone applies to new construction as much as to older homes. Eastern subterranean termites enter newer structures through several pathways that modern construction actually makes more accessible: foam insulation panels covering the foundation provide a hidden, moisture-retaining channel along the slab edge; expansion joints in concrete provide direct soil access; and wood mulch within twelve inches of the foundation creates a bridge from soil termite activity to the structure. Getting a pre-construction soil treatment and establishing a post-construction bait station or liquid barrier system in the first year of occupancy costs far less than treating an established termite infestation years later.",
+      },
+    ],
+    prevention: [
+      "Broadcast bait the full property for fire ants twice a year, including boundary areas where residential lawn meets former farmland or woodland.",
+      "Establish termite protection in the first year of a new Madison construction: the high-pressure zone applies from day one.",
+      "Clear retention pond edges and drainage areas in subdivisions weekly during warm months to reduce mosquito breeding near Wheeler Lake.",
+      "Paint or stain exposed cedar and redwood trim before spring to reduce carpenter bee drilling on new construction.",
+    ],
+    costNote:
+      "Madison pest control is typically quoted as a year-round general program covering fire ants, cockroaches, and spiders, with termite protection and carpenter bee treatment quoted separately. Mosquito barrier service runs from March through November. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do fire ants keep coming back in my new Madison subdivision?",
+        answer:
+          "New subdivisions in Madison sit adjacent to former farmland where fire ant colonies are well established in undisturbed soil. Those colonies continuously recolonize the boundary areas of new residential lots. Broadcast bait treatment of the full property twice a year, with attention to boundary zones, is the approach that addresses this specific pressure. Individual mound treatment alone misses the recolonization source.",
+      },
+      {
+        question: "Do new homes in Madison need termite protection?",
+        answer:
+          "Yes. Madison County is in Alabama's high termite pressure zone and newer construction has its own specific termite entry pathways: foam insulation at the foundation, expansion joints, and wood mulch contact. Getting a bait station or liquid barrier system in place in the first year is more effective and less expensive than treating an infestation once it develops. Annual inspections are the standard recommendation.",
+      },
+      {
+        question: "How serious is the mosquito problem near the Wheeler Lake area in Madison?",
+        answer:
+          "Wheeler Lake and the Tennessee River to the west of Madison sustain significant natural mosquito breeding populations through the warm season. Combined with the retention ponds in newer residential subdivisions, this makes Madison's mosquito season one of the longer and more intense in northern Alabama. The Madison County Health Department monitors for West Nile virus through the summer. Monthly barrier spray programs from March through October address the residential-level problem.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Huntsville", slug: "huntsville" },
+      { name: "Birmingham", slug: "birmingham" },
+      { name: "Montgomery", slug: "montgomery" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Madison, AL | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Madison pest control for fire ants, subterranean termites, mosquitoes, brown recluse spiders and carpenter bees. Madison County Tennessee Valley fast-growth Alabama specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "vestavia-hills",
+    name: "Vestavia Hills",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~38,000",
+    county: "Jefferson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Vestavia Hills is a hillside suburb of Birmingham straddling Jefferson and Shelby Counties, built across a series of forested ridges in the Appalachian foothills. The elevated, wooded terrain that defines the city's character also shapes its pest profile: wooded lots and the abundant moisture from the humid subtropical climate sustain subterranean termite colonies, support brown recluse and black widow spider populations in shaded storage areas, and create the kind of environment where carpenter bees attack exposed softwood trim year after year. The Cahaba River and its tributary drainages running below the ridgelines create mosquito breeding habitat through the warm season.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mosquitoes", "Brown Recluse Spiders", "Carpenter Bees"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Auburn University Extension places Jefferson County in Alabama's high-pressure termite zone. Vestavia Hills' wooded lots and forested ridge terrain mean termite colonies in the surrounding woodland soils maintain constant pressure on structures. Older wood-frame homes in established neighborhoods and newer construction both require active protection.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak spring through fall",
+        note: "Fire ants are present throughout Vestavia Hills' residential areas, including the wooded hillside lots and the open lawn areas of parks and schools. The Alabama Cooperative Extension's guidance applies fully to Jefferson County: broadcast bait treatment of the full lawn twice yearly is more effective than treating individual mounds.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The Cahaba River corridor and the many creek drainages running below Vestavia Hills' ridgelines provide natural mosquito breeding habitat. The shaded, moist conditions in wooded hillside yards create ideal resting habitat for adult mosquitoes during the day, making barrier spray treatment particularly effective in this setting.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active spring through fall",
+        note: "Brown recluse spiders are well established in northern Alabama and Jefferson County. The wooded, shaded nature of Vestavia Hills' hillside lots provides additional outdoor harborage. Attics, basements, and garages in the city's older homes are common indoor concentration areas.",
+      },
+      {
+        name: "Carpenter bees",
+        serviceSlug: "bee-control",
+        activeSeason: "March through September",
+        note: "Vestavia Hills' wooded, hillside character makes it a particularly active market for carpenter bee control. Many homes in established neighborhoods have cedar and hardwood trim, deck structures, and pergolas that accumulate carpenter bee gallery damage over years. Female carpenter bees drill into unpainted or unstained softwood and reuse the same sites annually.",
+      },
+    ],
+    localHook:
+      "Vestavia Hills is built on the Appalachian foothills ridges south of Birmingham, and the wooded hillside setting that makes it one of Alabama's most desirable addresses also makes it one of the more active pest environments in Jefferson County. Forested lots sustain termite colony pressure from the surrounding woodland soils, and the shaded, moist hillside conditions are exactly what brown recluse spiders prefer.",
+    intro:
+      "Pest control in Vestavia Hills works against a hillside woodland setting that keeps several pest pressures elevated year-round. The wooded lots and forested ridges that define the city's character sustain termite colonies in surrounding soils, create shaded conditions that brown recluse spiders favor, and provide the sheltered resting habitat that mosquitoes seek during daylight hours. Jefferson County sits in Alabama's high termite pressure zone and the confirmation from Auburn University Extension applies equally to Vestavia Hills' hillside homes. Fire ants are present across residential yards throughout the city. Carpenter bees attack the cedar and hardwood trim and deck structures that are common in the city's well-maintained older homes.",
+    sections: [
+      {
+        heading: "Termites in the Vestavia Hills hillside setting",
+        body: "The forested ridges and wooded lots of Vestavia Hills create a specific termite dynamic. Termite colonies in the surrounding woodland soils maintain pressure on residential structures from multiple directions, not just from below the foundation. Wooded backyards with fallen timber, mulch, and organic debris close to the structure provide above-grade termite harborage that connects to underground colonies. Auburn University Extension's termite pressure data for Jefferson County reflects this and applies fully to hillside Vestavia Hills properties. Annual inspections with active protection, whether liquid barrier or bait stations, are the standard recommendation for this setting.",
+      },
+      {
+        heading: "Mosquitoes and the hillside advantage",
+        body: "The hillside setting of Vestavia Hills creates one mosquito management advantage that flat-terrain Birmingham suburbs do not have: standing water drains more readily on sloped lots. But the wooded, shaded conditions in yards below the ridge canopy provide excellent adult mosquito resting habitat during the day, and the Cahaba River and its tributary drainages below the ridgelines create natural breeding sites that no amount of residential drainage management eliminates. Barrier spray treatment targeting the shaded understory vegetation around the home addresses the adult resting population directly and delivers the most reliable yard-level protection through the March to October season.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection: Jefferson County is in Alabama's high-pressure termite zone and the wooded hillside terrain keeps colony pressure elevated around Vestavia Hills structures.",
+      "Broadcast bait fire ant lawns in spring and fall across the full residential footprint, including hillside slope areas where mounds are less visible.",
+      "Apply barrier spray to shaded understory vegetation around the home from March through October to address the adult mosquito resting population.",
+      "Treat carpenter bee galleries in late winter and fill and paint existing holes before spring to prevent the same sites being reused.",
+    ],
+    costNote:
+      "Vestavia Hills pest control is typically quoted as a year-round general program covering fire ants, cockroaches, spiders, and ants. Termite protection and carpenter bee treatment are quoted separately. Mosquito barrier service runs March through October. Free inspection included.",
+    faqs: [
+      {
+        question: "Are wooded hillside lots in Vestavia Hills at higher termite risk?",
+        answer:
+          "Yes. The wooded lots and forested ridge terrain of Vestavia Hills sustain termite colonies in surrounding soils that maintain pressure on structures from multiple directions. Fallen timber, mulch, and organic debris close to the home provide above-grade harborage that connects to underground colonies. Auburn University Extension places Jefferson County in the high-pressure termite zone, and annual inspections with active protection are the recommended approach for hillside properties in this setting.",
+      },
+      {
+        question: "Are brown recluse spiders common in Vestavia Hills?",
+        answer:
+          "Yes. Brown recluse spiders are established throughout Jefferson County and northern Alabama. The shaded, wooded conditions in Vestavia Hills hillside yards provide additional outdoor harborage. Attics, basements, and cluttered storage areas in the city's older homes are the most common indoor concentration sites. Quarterly perimeter treatment and systematic reduction of garage and attic clutter keep population pressure manageable.",
+      },
+      {
+        question: "Why do mosquitoes seem worse in shaded yards in Vestavia Hills?",
+        answer:
+          "Adult mosquitoes rest in shaded vegetation during daylight hours and emerge to bite at dawn, dusk, and on cloudy days. The heavily shaded understory of Vestavia Hills' wooded hillside yards provides ideal adult resting habitat, which is why the mosquito problem can feel more intense in wooded residential settings than in open suburban neighborhoods. Barrier spray targeting the shaded vegetation where mosquitoes rest is effective because it reduces the adult resting population rather than just breeding sites.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Birmingham", slug: "birmingham" },
+      { name: "Hoover", slug: "hoover" },
+      { name: "Tuscaloosa", slug: "tuscaloosa" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Vestavia Hills, AL | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Vestavia Hills pest control for subterranean termites, fire ants, mosquitoes, brown recluse spiders and carpenter bees. Jefferson County Birmingham hillside suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

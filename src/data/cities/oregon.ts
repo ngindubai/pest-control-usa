@@ -791,4 +791,484 @@ export const oregonCities: CityLocation[] = [
     metaDescription:
       "Beaverton pest control for carpenter ants, Norway rats, yellowjackets, moisture ants and odorous house ants. Washington County Silicon Forest suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "medford",
+    name: "Medford",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~86,000",
+    county: "Jackson County",
+    climate: "mediterranean",
+    climateDriver:
+      "Medford sits in the Rogue Valley of southern Oregon with a mediterranean-like climate quite different from the wet Pacific Northwest coast. Warm dry summers and mild winters with some rainfall. The drier summers mean less moisture in structures than Portland or Eugene, but enough warmth to sustain yellowjacket nests and carpenter ant activity in the surrounding forested terrain. Oregon State University Extension identifies carpenter ants and yellowjackets as the primary structural pest concerns in the Rogue Valley. The warmer, drier Medford climate also creates conditions for black widow spiders more typical of California than of the Oregon coast.",
+    topPests: ["Carpenter Ants", "Yellowjackets", "House Mice", "Rats", "Black Widow Spiders"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, peak April through June",
+        note: "Carpenter ants are the primary structural pest in Medford and throughout the Rogue Valley. Oregon State University Extension confirms they are active throughout Jackson County. The surrounding Cascade and Siskiyou foothills terrain sustains large native carpenter ant populations that forage into residential areas. Despite the drier summer climate, moisture from winter rains accumulates in wooden sills and framing, creating nesting conditions by spring.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colony builds May through September, most aggressive August through October",
+        note: "Yellowjackets are one of the most commonly reported summer pest concerns in the Rogue Valley. Medford's warm, dry summers are ideal for large yellowjacket colony development in ground nests and wall voids. Colonies reach peak size and aggression in August and September. OSU Extension confirms yellowjackets are a priority stinging insect pest in southern Oregon.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors October through March",
+        note: "The Rogue Valley's winter rainy season and cooler temperatures push mice toward heated structures. Medford's proximity to forested terrain sustains rural and suburban mouse populations that press indoors as fall arrives. Exclusion before October is the most effective prevention step.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most visible fall through winter",
+        note: "Roof rats and Norway rats are present in Medford and the Rogue Valley. The mild valley climate supports year-round populations. The Bear Creek riparian corridor and the agricultural areas surrounding the valley sustain Norway rat populations that spread into residential areas.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Most active April through October",
+        note: "Black widows are present in southern Oregon and the Rogue Valley, more so than in the wetter northern Oregon coast. Medford's warmer, drier mediterranean climate is more hospitable to black widows than Portland or Eugene. OSU Extension confirms they are present in Jackson County. They concentrate in window wells, garages, and outdoor utility areas.",
+      },
+    ],
+    localHook:
+      "Medford's Rogue Valley location gives it a pest profile distinct from the wet Oregon coast. The dry, warm summers create ideal yellowjacket colony conditions and bring black widow pressure more typical of California's Central Valley than of Portland. Oregon State University Extension identifies carpenter ants and yellowjackets as the Rogue Valley's primary structural and stinging insect pest concerns.",
+    intro:
+      "Pest control in Medford follows the Rogue Valley's mediterranean climate rather than the wet Pacific Northwest model that applies to Portland and Eugene. Carpenter ants are the primary structural pest throughout Jackson County per Oregon State University Extension, exploiting the winter moisture that accumulates in wooden structures even in the drier Rogue Valley climate. Yellowjackets are a significant summer concern, with the warm dry summers supporting large colony development in ground nests and wall voids. House mice and rats press indoors in fall. Black widows are more prevalent here than in wetter northern Oregon, reflecting the warmer, drier southern Oregon climate.",
+    sections: [
+      {
+        heading: "Carpenter ants and yellowjackets: Rogue Valley's two primary pest threats",
+        body: "Oregon State University Extension's pest management guidance for the Rogue Valley identifies carpenter ants and yellowjackets as the primary structural and stinging insect concerns in Jackson County. Carpenter ants in Medford follow the same winter-moisture pattern as in wetter Oregon cities: winter rains introduce moisture into wooden sills, frames, and roof edges, and carpenter ants find that damp wood and establish nests. Yellowjackets in the Rogue Valley are particularly aggressive in August and September when colonies reach peak size. The warm, dry summers ideal for outdoor dining and recreational activities in Medford are also ideal for yellowjacket colony development. Ground nests in lawns and wall void nests under eaves are the most common locations. Early removal in June or July is significantly safer than treating a mature August nest.",
+      },
+      {
+        heading: "Black widows in southern Oregon: the Rogue Valley difference",
+        body: "Black widow spiders are more prevalent in the southern Oregon Rogue Valley than in the wetter, cooler coastal and Willamette Valley regions. Medford's warmer, drier mediterranean climate is more hospitable to black widows than Portland or Salem, and they are a genuine residential pest concern in Jackson County. OSU Extension confirms their presence throughout southern Oregon. They concentrate in the dry, undisturbed spaces around Medford homes: window wells, garage corners, outdoor utility meter boxes, and under deck structures. Spring-through-fall perimeter treatment of foundations and these harborage areas, combined with dewebbing storage areas, keeps populations below the level where accidental contact becomes likely.",
+      },
+    ],
+    prevention: [
+      "Address moisture in wooden sills, frames, and crawlspaces to remove the carpenter ant harborage that Rogue Valley winter rains create even in the drier southern Oregon climate.",
+      "Treat yellowjacket ground nests in June or July before colonies reach peak size and aggression in August.",
+      "Seal foundation gaps, utility penetrations, and garage door sweeps in September before the fall mouse surge.",
+      "Treat black widow harborage areas, window wells, garage corners, and outdoor utility areas each spring given southern Oregon's above-average spider pressure.",
+    ],
+    costNote:
+      "Medford pest control is typically a year-round program covering carpenter ants, rodents, and spiders, with seasonal yellowjacket treatment in summer. Free inspection included.",
+    faqs: [
+      {
+        question: "Why are yellowjackets such a problem in Medford?",
+        answer:
+          "Medford's warm, dry Rogue Valley summers are ideal for yellowjacket colony development. OSU Extension confirms yellowjackets are a priority stinging insect pest in southern Oregon. Colonies build through summer and reach peak size and aggression in August and September. The outdoor lifestyle that Medford's climate supports, patios, grilling, outdoor dining, brings residents into contact with foraging workers near food. Treating ground nests in June or July when colonies are small is significantly safer than attempting treatment of a mature August nest.",
+      },
+      {
+        question: "Are black widows common in Medford?",
+        answer:
+          "More so than in the wetter parts of Oregon. Medford's warmer, drier mediterranean climate is more hospitable to black widows than Portland or Eugene. OSU Extension confirms their presence in Jackson County. They concentrate in window wells, garage corners, and outdoor utility areas. Spring perimeter treatment and clearing harborage from these areas reduces contact risk through the active season.",
+      },
+      {
+        question: "Do I still need carpenter ant protection in Medford's drier climate?",
+        answer:
+          "Yes. Even in the drier Rogue Valley, winter rains introduce enough moisture into wooden construction to create carpenter ant nesting conditions by spring. OSU Extension identifies carpenter ants as the primary structural pest throughout Jackson County. Finding large black ants indoors in spring indicates an established nest, not just foragers from outside. The treatment must locate and eliminate the colony, not just the visible workers.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Eugene", slug: "eugene" },
+      { name: "Bend", slug: "bend" },
+      { name: "Salem", slug: "salem" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Medford, OR | Carpenter Ants, Yellowjackets & Black Widows",
+    metaDescription:
+      "Medford pest control for carpenter ants, yellowjackets, house mice, rats and black widow spiders. Jackson County Rogue Valley southern Oregon specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "springfield-or",
+    name: "Springfield",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~62,000",
+    county: "Lane County",
+    climate: "temperate",
+    climateDriver:
+      "Springfield sits directly east of Eugene in Lane County, at the confluence of the Willamette and McKenzie rivers. The Pacific temperate climate matches Eugene's very wet winters and warm, dry summers. Oregon State University Extension identifies Lane County as within the highest carpenter ant pressure zone in western Oregon. The McKenzie River corridor and the Springfield's many creek drainages create rat habitat and seasonal flooding that amplifies certain pest pressures. Springfield's significant industrial character, including the Weyerhaeuser and Rosboro timber operations, creates pest dynamics around large commercial facilities.",
+    topPests: ["Carpenter Ants", "Rats", "Yellowjackets", "Earwigs", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, peak April through June",
+        note: "Carpenter ants are the primary structural pest in Springfield and throughout Lane County. Oregon State University Extension identifies Lane County as within the highest carpenter ant pressure zone in western Oregon. Springfield's heavy winter rainfall and the high proportion of older wooden housing create ideal conditions. Spring sightings of large black ants emerging from walls or soffits indicate an established indoor colony.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, press indoors in fall and winter",
+        note: "Both Norway rats and roof rats are established throughout Lane County. The McKenzie River corridor, the industrial areas of Springfield, and the agricultural land to the east sustain large rat populations. Roof rats access attics via overhanging trees. Norway rats burrow at foundations. Fall and winter drive both species into structures.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colony builds May through September, peak August",
+        note: "Yellowjackets are a significant summer pest in Springfield. Ground nests are common in the lawns and green spaces throughout the city. Wall void nests under eaves and in soffits are found in older residential neighborhoods. Colonies reach peak size and aggression in August. Early removal in June or July is much safer.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, move indoors in late summer",
+        note: "Earwigs are a common outdoor-to-indoor pest in Springfield during late summer. The wet winters create the moist soil conditions earwigs need, and the transition to drier summers pushes them toward indoor moisture sources. They are most commonly found in basements and lower-floor bathrooms.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are the indoor cockroach concern in Springfield, concentrated in older apartment buildings and the restaurant and food service industry. The University of Oregon and Lane Community College student populations in the Eugene-Springfield metro create rental housing turnover that sustains German cockroach pressure in multi-family settings.",
+      },
+    ],
+    localHook:
+      "Springfield and Eugene form the Lane County metro, sharing the same very wet Pacific Northwest climate that puts Lane County in the highest carpenter ant pressure zone in western Oregon according to OSU Extension. The McKenzie River runs through Springfield's northern edge, sustaining rat populations along the riparian corridor. Springfield's industrial character and older residential core make it a high-pressure carpenter ant and rat environment.",
+    intro:
+      "Pest control in Springfield addresses Lane County's high carpenter ant pressure in the context of an industrial mid-valley city. Oregon State University Extension places Lane County in the highest carpenter ant pressure zone in western Oregon, and Springfield's wet winters and older housing create ideal conditions. Rats are year-round along the McKenzie River corridor and the industrial areas. Yellowjackets are a significant summer concern. Earwigs are a consistent late-summer indoor complaint. German cockroaches are the indoor pest in older apartments and commercial kitchens.",
+    sections: [
+      {
+        heading: "Carpenter ants in Springfield's industrial and residential mix",
+        body: "Springfield's character, a mix of older residential neighborhoods, timber industry operations, and commercial development along the Willamette, creates diverse carpenter ant exposure. OSU Extension's designation of Lane County as a high-pressure carpenter ant zone reflects the wet winters that introduce moisture into wooden construction throughout the Willamette Valley. In Springfield, older housing in the core neighborhoods near downtown and the residential areas east of the McKenzie River corridor has the most accumulated moisture history in structural wood. Finding carpenter ants indoors in spring reliably indicates an established colony somewhere in or near the structure, and it typically also indicates a moisture issue in the wood that the colony is exploiting. Lasting treatment addresses both.",
+      },
+      {
+        heading: "Rats along the McKenzie River corridor",
+        body: "The McKenzie River runs along Springfield's northern boundary before joining the Willamette. The riparian corridor, the associated parks and greenways, and the industrial properties along the river sustain Norway and roof rat populations year-round. Norway rats burrow at foundations and in dense riverside vegetation. Roof rats access structures from the tree canopy overhanging homes near the river corridor. Fall drives both species into warmer buildings. A comprehensive rat program for Springfield properties near the McKenzie combines exterior snap trapping and bait stations with exclusion sealing of roof vents, soffits, and foundation gaps. Trimming trees away from the roofline eliminates the primary access point for roof rats.",
+      },
+    ],
+    prevention: [
+      "Address moisture in wooden sills, frames, and crawlspaces to remove the carpenter ant harborage that Lane County's heavy winter rains create in Springfield's older housing stock.",
+      "Trim trees back from the roofline and seal roof vents to block roof rat access from the McKenzie River corridor tree canopy.",
+      "Treat yellowjacket ground nests in June or July before colonies reach peak August aggression.",
+      "Reduce mulch against the foundation and fix drainage issues to cut earwig breeding habitat near entry points.",
+    ],
+    costNote:
+      "Springfield pest control typically includes moisture assessment as part of any carpenter ant program. Rat programs combine trapping, exclusion, and exterior bait stations. Year-round general pest programs for cockroaches are available. Free inspection included.",
+    faqs: [
+      {
+        question: "Why are carpenter ants so common in Springfield?",
+        answer:
+          "Oregon State University Extension places Lane County in the highest carpenter ant pressure zone in western Oregon, and Springfield shares that same wet Pacific Northwest climate that makes Eugene a high-pressure carpenter ant city. The heavy winter rainfall introduces moisture into wooden construction, and carpenter ants find that damp wood and establish nests. Managing the moisture source alongside the ant treatment produces lasting results.",
+      },
+      {
+        question: "Are the rats near the McKenzie River a concern for Springfield homes?",
+        answer:
+          "The McKenzie River corridor sustains Norway and roof rat populations that spread into residential neighborhoods adjacent to the river. Norway rats burrow at foundations and in dense vegetation near the water. Roof rats access structures from overhanging trees. Fall drives both toward heated buildings. Properties within several blocks of the river corridor see above-average rat pressure compared to neighborhoods further from the water.",
+      },
+      {
+        question: "When are yellowjackets most dangerous in Springfield?",
+        answer:
+          "August and September, when colonies reach peak size and aggressiveness. Yellowjackets become more defensive around food as the season peaks and natural food sources decline. Ground nests in lawns are discovered when mowing near the entrance. Do not attempt to treat an active ground nest during daylight hours. Professional night treatment, when workers are in the nest, is safer and more effective. Early removal in June or July, when colonies are small, is the best strategy.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Eugene", slug: "eugene" },
+      { name: "Salem", slug: "salem" },
+      { name: "Corvallis", slug: "corvallis" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Springfield, OR | Carpenter Ants, Rats & Yellowjackets",
+    metaDescription:
+      "Springfield OR pest control for carpenter ants, rats, yellowjackets, earwigs and German cockroaches. Lane County McKenzie River Willamette Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "corvallis",
+    name: "Corvallis",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~58,000",
+    county: "Benton County",
+    climate: "temperate",
+    climateDriver:
+      "Corvallis sits in Benton County in the Willamette Valley, home to Oregon State University. The Pacific temperate climate delivers very wet winters and warm, dry summers. OSU Extension's headquarters here means local pest research is grounded in direct Willamette Valley conditions. Carpenter ants are the primary structural pest in Benton County. Rats are present along the Willamette River riparian corridor. The student and research population creates rental housing turnover dynamics. The Willamette River, Mary's River, and the Corvallis wetlands create seasonal mosquito habitat through the warm months.",
+    topPests: ["Carpenter Ants", "Rats", "Odorous House Ants", "Yellowjackets", "Earwigs"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, peak April through June",
+        note: "Oregon State University Extension research is conducted in Benton County, and carpenter ants are the dominant structural pest in the Willamette Valley research that OSU produces. Corvallis's wet Pacific winters create the moisture in wooden sills, frames, and soffits that carpenter ants require for nesting. University-adjacent older housing is particularly exposed.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, press indoors in fall and winter",
+        note: "Norway and roof rats are established along the Willamette River and Mary's River corridors in Benton County. OSU's campus, the food service operations, and the surrounding residential neighborhoods create diverse rat habitat. Roof rats access attics via overhanging trees in Corvallis's mature residential canopy.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge indoors during rain",
+        note: "Odorous house ants are the most common indoor ant complaint in Corvallis, trailing in from saturated outdoor soils during the wet season. OSU Extension confirms precipitation triggers this indoor foraging behavior consistently across Willamette Valley homes. They are identified by the rotten coconut odor when crushed.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colony builds May through September, most aggressive August",
+        note: "Yellowjackets are a consistent summer pest in Corvallis, building large nests in ground cavities, wall voids, and under eaves. The OSU campus and Corvallis's many parks create abundant nest sites. Colonies are largest and most aggressive in August and September.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, most prevalent in summer",
+        note: "Earwigs are a common outdoor-to-indoor pest in Corvallis, sustained by the Willamette Valley's wet winters and the irrigated landscaping of the university town. They shelter under mulch and debris near foundations and move indoors through ground-level gaps in summer.",
+      },
+    ],
+    localHook:
+      "Corvallis is home to Oregon State University, where the OSU Extension Service conducts the state's primary pest management research. The pest guidance OSU publishes for western Oregon, on carpenter ants, rats, and Willamette Valley moisture pests, is based on research conducted right here in Benton County. The university context creates a student rental housing market with above-average German cockroach and bed bug transmission risk alongside the standard carpenter ant and rodent pressures.",
+    intro:
+      "Pest control in Corvallis operates in the same environment that OSU Extension uses as its primary research setting for western Oregon pest management. Carpenter ants are the dominant structural pest in Benton County, driven by the heavy Pacific winter rains that introduce moisture into wooden construction throughout the valley. Rats are year-round along the Willamette and Mary's River corridors. Odorous house ants trail in from saturated soils during rain events. Yellowjackets are a consistent summer concern. Earwigs are common in the irrigated university-town landscaping.",
+    sections: [
+      {
+        heading: "OSU Extension research and the Corvallis pest environment",
+        body: "Oregon State University Extension conducts pest management research from Benton County, and Corvallis is the practical test case for western Oregon pest management recommendations. The guidance OSU publishes on carpenter ants as the primary structural pest in western Oregon, on Norway and roof rat management in Willamette Valley settings, and on the role of moisture in driving pest problems in Pacific Northwest homes is based on what they see in this specific climate. Carpenter ant management in Corvallis reflects the standard western Oregon approach: the winter rains introduce moisture into wooden construction, carpenter ants find the damp wood and nest in it, and spring emergence is the homeowner's signal that an established colony is already inside. Treatment pairs elimination of the colony with identification of the moisture source. The student population adds a German cockroach and bed bug dimension through the rental housing market that OSU's enrollment creates.",
+      },
+      {
+        heading: "Rats in the Willamette and Mary's River corridors",
+        body: "The Willamette River runs along Corvallis's western edge, and Mary's River flows through the city from the east before joining the Willamette at the south end of town. These riparian corridors sustain Norway and roof rat populations year-round. Norway rats burrow in the dense riparian vegetation and in landscaped areas near food sources throughout the city. Roof rats access attics and wall voids from the overhanging trees of Corvallis's mature residential neighborhoods. Fall is the primary movement period into structures, but Corvallis's mild climate means rat activity continues through winter without a hard seasonal break. A rat management program combines exterior trapping and bait stations with exclusion sealing of roof vents, soffits, and foundation gaps.",
+      },
+    ],
+    prevention: [
+      "Address moisture in wooden sills, frames, and crawlspaces to remove the carpenter ant nesting conditions that Benton County's heavy winters create.",
+      "Trim overhanging trees from the roofline and seal roof vents to block roof rat access from the Willamette corridor tree canopy.",
+      "Treat yellowjacket ground nests in June or July before colonies reach peak August aggression in Corvallis's parks and residential areas.",
+      "Seal foundation gaps and threshold gaps before fall to limit both mouse and earwig entry as summer gives way to the wet season.",
+    ],
+    costNote:
+      "Corvallis pest control typically includes moisture assessment as part of any carpenter ant program given the OSU Extension guidance. Rat programs combine trapping, exclusion, and exterior bait stations. Year-round general pest programs are available. Free inspection included.",
+    faqs: [
+      {
+        question: "Does living near OSU make pest problems different in Corvallis?",
+        answer:
+          "The university creates a student rental housing market with above-average German cockroach and bed bug transmission risk from tenant turnover. The campus food service operations and the general density of the university district also sustain rat populations in the immediate campus area. For single-family homes in Corvallis's residential neighborhoods, the pest profile is typical of the Willamette Valley: carpenter ants, rats, odorous house ants, and yellowjackets.",
+      },
+      {
+        question: "How long is rat season in Corvallis?",
+        answer:
+          "Rat activity in Corvallis is year-round. The Willamette River and Mary's River corridors sustain populations regardless of season, and the mild Willamette Valley climate means there is no hard winter break that reduces populations the way a severe freeze would. Fall is the primary migration into structures as conditions cool. A year-round exterior bait station program and exclusion sealing of the structure provides the most consistent protection.",
+      },
+      {
+        question: "Why do ants appear in my Corvallis home every time it rains?",
+        answer:
+          "Odorous house ants move indoors when rain saturates their outdoor foraging habitat. OSU Extension confirms precipitation triggers this behavior reliably across Willamette Valley homes. Corvallis's wet season, which runs from October through April, produces this pattern multiple times per month. Treating the colony and sealing entry points during the first appearance is more effective than responding to each new rain event.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Salem", slug: "salem" },
+      { name: "Eugene", slug: "eugene" },
+      { name: "Albany", slug: "albany-or" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Corvallis, OR | Carpenter Ants, Rats & Yellowjackets",
+    metaDescription:
+      "Corvallis pest control for carpenter ants, rats, odorous house ants, yellowjackets and earwigs. Benton County Willamette Valley OSU specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "albany-or",
+    name: "Albany",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~57,000",
+    county: "Linn County",
+    climate: "temperate",
+    climateDriver:
+      "Albany sits in Linn County at the confluence of the Willamette and Calapooia rivers, in the agricultural heart of the mid-Willamette Valley. The Pacific temperate climate delivers wet winters and dry summers. The Willamette River and Calapooia River corridors create rat habitat and seasonal flooding pressure. Linn County's grass seed and ryegrass farming creates an agricultural context that sustains rodent populations. Oregon State University Extension identifies carpenter ants and rodents as the primary pest concerns in the mid-Willamette Valley agricultural corridor.",
+    topPests: ["Carpenter Ants", "Rats", "Odorous House Ants", "Yellowjackets", "Earwigs"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, peak April through June",
+        note: "Carpenter ants are the primary structural pest in Albany and throughout Linn County. Oregon State University Extension confirms the mid-Willamette Valley carries significant carpenter ant pressure. The wet winters introduce moisture into wooden construction throughout the valley, and Albany's position at the river confluence means soils near the city are particularly moist.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, press indoors in fall and winter",
+        note: "Norway and roof rats are established along the Willamette and Calapooia river corridors in Albany. The surrounding Linn County agricultural land sustains large rural rat populations that spread into suburban neighborhoods. OSU Extension identifies rodents as a significant pest management challenge in the mid-valley agricultural corridor.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge indoors during rain",
+        note: "Odorous house ants are the most common indoor ant pest in Albany homes. OSU Extension confirms precipitation drives these ants indoors across the Willamette Valley. Albany's wet season runs October through April, producing consistent indoor foraging pressure throughout the winter months.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colony builds May through September, peak August",
+        note: "Yellowjackets build large ground and aerial nests in Albany's residential and agricultural-edge properties. The agricultural context, with fields and hedgerows providing undisturbed ground nest habitat, sustains particularly large local populations. Colonies reach peak size in August. Early removal in June or July is much safer.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, most prevalent in summer",
+        note: "Earwigs are common in Albany, sustained by the Willamette Valley's wet winters and the irrigated residential landscaping. They breed in mulch and moist soil near foundations and move indoors through ground-level gaps. Albany's river-adjacent location and the moist soils of the valley floor create more sustained earwig habitat than drier Pacific Northwest settings.",
+      },
+    ],
+    localHook:
+      "Albany sits at the junction of the Willamette and Calapooia rivers in Linn County, the center of Oregon's grass seed farming region. Oregon State University Extension identifies rodents as a significant pest challenge in the mid-Willamette Valley agricultural corridor, and Albany's position at the edge of Linn County farmland puts it squarely in that zone. The agricultural rat populations that sustain on field margins move into residential Albany at the same time the Willamette River sustains its own riparian rodent populations.",
+    intro:
+      "Pest control in Albany addresses the mid-Willamette Valley pest profile in an agricultural river city. Carpenter ants are the primary structural pest throughout Linn County per Oregon State University Extension. Rats are sustained by both the Willamette and Calapooia river corridors and the surrounding agricultural landscape. Odorous house ants trail indoors reliably during rain throughout the long wet season. Yellowjackets build large nests in both the residential areas and the agricultural-edge terrain around the city. Earwigs are common in Albany's moist valley floor setting.",
+    sections: [
+      {
+        heading: "Agricultural rats and river corridor rodents in Albany",
+        body: "Albany is surrounded by two rat source populations that most Willamette Valley cities do not face simultaneously. The Willamette and Calapooia rivers sustain riparian Norway and roof rat populations along the waterways. The Linn County grass seed farming operations and the associated grain storage, field margins, and hedgerows sustain agricultural rat populations that expand into residential neighborhoods when field conditions change. OSU Extension identifies the mid-valley agricultural corridor as a significant rodent pressure zone. Albany homes on the agricultural fringe, particularly those in neighborhoods that border open farmland or that back up to ditches or field margins, see higher rat pressure than those in the denser central residential areas. A comprehensive rat program for agricultural-edge Albany properties combines exterior bait stations with perimeter exclusion and vegetation management to remove ground-level harborage near the structure.",
+      },
+      {
+        heading: "Carpenter ants and the Calapooia River moisture factor",
+        body: "Albany's position at the confluence of the Willamette and Calapooia rivers means soils throughout much of the city are more moisture-retaining than in upland valley settings. That additional soil moisture, combined with the Willamette Valley's heavy winter rains, creates above-average carpenter ant nesting conditions in the structural wood of Albany homes. OSU Extension is clear that carpenter ants nest in wood that is already damp or moisture-damaged, not in dry wood. The winter and spring moisture that accumulates in Albany's wooden sills, roof edges, and crawl space framing from both rainfall and the river-influence moisture provides the nesting conditions that make Albany a higher-pressure carpenter ant environment than upland valley cities like Corvallis or Junction City.",
+      },
+    ],
+    prevention: [
+      "Install perimeter bait stations for Norway rats before agricultural-edge Albany properties see rat establishment in the crawlspace or garage.",
+      "Address roof flashing, gutter performance, and moisture in wooden sills to remove the carpenter ant nesting conditions that Albany's river-confluence moisture creates.",
+      "Clear ground-level cover and debris within 2 feet of the foundation to eliminate rat harborage at the transition between agricultural and residential land.",
+      "Treat yellowjacket ground nests in June or July before colonies reach peak August aggression in Albany's agricultural-edge properties.",
+    ],
+    costNote:
+      "Albany pest control typically includes moisture assessment as part of any carpenter ant program. Rat programs for agricultural-edge properties combine exterior bait stations with exclusion and vegetation management. Year-round general pest programs for ants and earwigs are available. Free inspection included.",
+    faqs: [
+      {
+        question: "Why are rats a bigger concern in Albany than in other Willamette Valley cities?",
+        answer:
+          "Albany faces two rat source populations that most valley cities do not have simultaneously. The Willamette and Calapooia rivers sustain riparian rat populations along the waterways. The surrounding Linn County grass seed farming operations sustain agricultural rat populations in the field margins and grain storage areas. OSU Extension identifies the mid-valley agricultural corridor as a significant rodent pressure zone. Albany properties at the agricultural fringe have above-average rat exposure compared to similar-sized cities without farm-field adjacency.",
+      },
+      {
+        question: "How do carpenter ants get into Albany homes?",
+        answer:
+          "Carpenter ants find damp or moisture-damaged wood in which to nest. Albany's position at the river confluence means soils throughout much of the city retain more moisture than upland settings, and the Willamette Valley's heavy winter rains introduce moisture into wooden sills, roof edges, and crawl space framing. They enter through any wood near grade level, around utility penetrations, and through any gap in the building envelope. Finding them indoors in spring means a colony is already established inside the structure.",
+      },
+      {
+        question: "When are yellowjackets worst in Albany?",
+        answer:
+          "August and September, when colonies reach their maximum size and become most aggressive. Albany's agricultural context, with field margins and hedgerows providing ground nest habitat, supports particularly large local yellowjacket populations. Colonies discovered in June or July should be treated promptly: early-season treatment of a small nest is much safer than treating a mature August colony that can contain thousands of aggressive workers.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Corvallis", slug: "corvallis" },
+      { name: "Salem", slug: "salem" },
+      { name: "Eugene", slug: "eugene" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Albany, OR | Carpenter Ants, Rats & Yellowjackets",
+    metaDescription:
+      "Albany OR pest control for carpenter ants, rats, odorous house ants, yellowjackets and earwigs. Linn County Willamette River agricultural edge Willamette Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "tigard",
+    name: "Tigard",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~54,000",
+    county: "Washington County",
+    climate: "temperate",
+    climateDriver:
+      "Tigard sits in Washington County south of Beaverton in the Tualatin Valley, a dense Portland suburb at the intersection of Highway 217 and Interstate 5. The Pacific marine climate delivers long wet winters and dry mild summers. Oregon State University Extension identifies carpenter ants and Norway rats as the primary structural pests in Washington County's wet Pacific Northwest climate. The Fanno Creek and Tualatin River corridors create riparian pest habitat through the city. Tigard's dense suburban character with significant commercial development along the 217 corridor creates diverse pest pressure.",
+    topPests: ["Norway Rats", "Carpenter Ants", "Odorous House Ants", "Yellowjackets", "Earwigs"],
+    pestProfile: [
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, most visible fall through winter",
+        note: "Norway rats are the dominant rodent in Washington County per OSU Extension. Tigard's Fanno Creek corridor, the Tualatin River to the south, and the commercial food service density along the 217 corridor sustain significant rat populations. Norway rats burrow at foundations and in dense vegetation. The mild Pacific Northwest climate means no seasonal population die-off.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round in heated structures, active outdoors March through October",
+        note: "Carpenter ants are Oregon's primary structural ant pest per OSU Extension. Tigard's wet Pacific winters create the moisture in wooden construction that carpenter ants require for nesting. Finding them indoors in spring or winter in Tigard's older residential areas indicates an established colony, not just outdoor foragers.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge indoors during wet weather",
+        note: "Odorous house ants are the most common indoor ant complaint in Tigard homes. Rain drives them indoors reliably throughout Washington County's long wet season. OSU Extension confirms precipitation triggers indoor foraging across the Willamette Valley. They are identified by the rotten coconut smell when crushed.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colony builds May through September, peak August through October",
+        note: "Yellowjackets nest in ground cavities and wall voids in Tigard's residential neighborhoods through the dry Oregon summer. The commercial corridor along 217 and the open green spaces in Tigard's parks and creek corridors provide ground nest habitat. Colonies are largest and most aggressive in August and September.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "Spring through fall, move indoors in late summer",
+        note: "Earwigs are a consistent outdoor-to-indoor pest in Tigard during the late summer transition. They breed in the moist soil of Washington County's wet winters and move toward indoor moisture when summer dries the soil. Fanno Creek and the Tualatin River edge sustain higher earwig populations in the adjacent neighborhoods.",
+      },
+    ],
+    localHook:
+      "Tigard is one of the core Portland metro suburbs, positioned at the busy Highway 217 and I-5 interchange with dense commercial development alongside residential neighborhoods and Fanno Creek's natural corridor. Oregon State University Extension identifies Norway rats as the dominant rodent in Washington County, and the Fanno Creek riparian habitat running through Tigard sustains rat populations that spread into adjacent residential and commercial areas. The wet Pacific Northwest climate keeps carpenter ant pressure active through most of the year.",
+    intro:
+      "Pest control in Tigard covers the core Washington County suburban pest profile. Norway rats are the dominant rodent in the county per Oregon State University Extension, and Fanno Creek, the Tualatin River, and the commercial food service density along 217 sustain significant populations. Carpenter ants are Oregon's primary structural ant pest and Tigard's wet Pacific winters create the moisture conditions they require. Odorous house ants trail indoors with reliable rain-driven behavior throughout the long wet season. Yellowjackets are a summer concern. Earwigs are common in the creek-adjacent neighborhoods.",
+    sections: [
+      {
+        heading: "Norway rats in the Fanno Creek corridor and commercial density",
+        body: "Tigard's Fanno Creek runs through the city's center, creating a riparian corridor that sustains Norway rat populations adjacent to dense residential and commercial development. OSU Extension identifies Norway rats as the dominant rodent in Washington County and notes that commercial food service density, open food waste, and dumpster areas along commercial corridors attract and sustain larger urban rat populations than would otherwise establish. Tigard's Highway 217 commercial corridor combines both of these drivers: riparian habitat from Fanno Creek and food service density from the restaurant and retail strip. Properties near the creek corridor and those adjacent to commercial food service areas see the highest rat pressure. A perimeter bait station program on a scheduled service visit provides the most consistent exterior rat management, combined with exclusion sealing of foundation gaps, weep holes, and utility penetrations.",
+      },
+      {
+        heading: "Carpenter ants in Tigard's wet Pacific climate",
+        body: "OSU Extension identifies carpenter ants as Oregon's most structurally significant ant species. In Tigard, the wet Pacific winters that bring months of rain between October and April introduce moisture into every vulnerable point in wooden construction: failing window sill plates, improperly flashed roof penetrations, aging deck boards, and any wood with direct ground contact. Carpenter ants find that damp wood and establish nests. An indoor sighting of large black ants in winter or spring in a Tigard home reliably indicates an established colony inside, not just a forager that wandered in from outside. The typical Tigard carpenter ant treatment identifies the colony location, eliminates it, and finds the moisture source sustaining it. Treating the ants without addressing the moisture produces temporary results because the nesting conditions remain in place.",
+      },
+    ],
+    prevention: [
+      "Install exterior perimeter bait stations for Norway rats near Fanno Creek and the 217 commercial corridor in Tigard's high-pressure riparian and commercial-adjacent zones.",
+      "Inspect roof flashing, window sills, and deck boards for moisture damage each fall as the Pacific wet season begins, addressing issues before they create carpenter ant nesting conditions.",
+      "Seal foundation gaps, weep holes in brick, and utility penetrations to block Norway rat entry from the creek corridor and commercial areas.",
+      "Remove English ivy and dense ground cover within several feet of the foundation to eliminate Norway rat harborage in Washington County's most common invasive ground cover.",
+    ],
+    costNote:
+      "Tigard pest control is typically a year-round program covering rats, carpenter ants, odorous house ants, and earwigs, with seasonal yellowjacket treatment in summer. Properties near Fanno Creek benefit from continuous exterior rat monitoring. Free inspection included.",
+    faqs: [
+      {
+        question: "Why are Norway rats such a problem near Fanno Creek in Tigard?",
+        answer:
+          "The Fanno Creek riparian corridor provides the burrow habitat, cover, and water access that Norway rats prefer. Combined with the food waste from the commercial density along 217, the creek corridor creates a sustained Norway rat environment through Tigard's center. OSU Extension identifies Norway rats as the dominant rodent in Washington County. Properties within several blocks of the creek see above-average rat pressure. Exterior bait stations on a scheduled service program and exclusion sealing of the foundation perimeter provide the most consistent management.",
+      },
+      {
+        question: "How do I know if I have carpenter ants or just regular ants in my Tigard home?",
+        answer:
+          "Carpenter ants are significantly larger than pavement ants or odorous house ants, typically a quarter inch to over half an inch in length, often black or red-and-black, and they may have wings in swarm season from May through June. Carpenter ants in Oregon nest in moist or damaged wood rather than in the soil or under pavement. Finding large ants inside a Tigard home in winter or spring is a strong indicator of carpenter ants rather than pavement or odorous house ants, which overwinter outside in dormant colonies. OSU Extension confirms carpenter ants are Oregon's primary structural ant pest.",
+      },
+      {
+        question: "Are earwigs a sign of a bigger problem in Tigard?",
+        answer:
+          "Earwigs themselves are nuisance pests rather than structural threats. However, significant numbers coming indoors can indicate moist soil conditions against the foundation, mulch that is too thick against the structure, or drainage issues keeping the foundation perimeter consistently wet. These moisture conditions also attract carpenter ants and moisture ants that do cause structural damage. Addressing the moisture and drainage issues that allow earwig populations to build near entry points is the practical first step and also reduces the conditions favorable to more damaging moisture-associated pests.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Beaverton", slug: "beaverton" },
+      { name: "Hillsboro", slug: "hillsboro" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Tigard, OR | Norway Rats, Carpenter Ants & Yellowjackets",
+    metaDescription:
+      "Tigard pest control for Norway rats, carpenter ants, odorous house ants, yellowjackets and earwigs. Washington County Fanno Creek Portland metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

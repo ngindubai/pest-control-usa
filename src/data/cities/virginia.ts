@@ -2049,4 +2049,536 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Staunton pest control for brown marmorated stink bugs, subterranean termites, carpenter ants, house mice and German cockroaches. Independent City central Shenandoah Valley Blue Ridge specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  {
+    slug: "danville-va",
+    name: "Danville",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~40,000",
+    county: "City of Danville (independent city)",
+    climate: "hot-humid",
+    climateDriver:
+      "Danville is an independent city on the Dan River in southside Virginia, near the North Carolina border. The hot-humid climate, with long warm summers and mild winters, creates near-optimal conditions for subterranean termite activity and an extended mosquito season. The Dan River and its tributaries add moisture that sustains termite pressure in the older housing stock throughout the city. Brown marmorated stink bugs are established across Virginia and are a reliable fall pest in the southside region.",
+    topPests: ["Subterranean Termites", "Stink Bugs", "Mosquitoes", "German Cockroaches", "House Mice"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round underground",
+        note: "Danville's hot-humid climate and proximity to the North Carolina border place it in an elevated termite hazard zone. Virginia Cooperative Extension documents the southside Virginia region as having significant subterranean termite pressure. Danville's older housing stock, including many pre-war homes with crawl spaces, carries real termite exposure that warrants annual professional inspection.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering in structures",
+        note: "Virginia Tech Extension confirms stink bugs are established throughout Virginia including the southside region. Danville's older residential and commercial buildings give stink bugs the entry points they exploit during the fall aggregation each September and October.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peak June through September",
+        note: "The Dan River, the Banister River, and the numerous drainage features throughout Danville create mosquito breeding habitat that sustains a long season. The hot-humid climate near the NC border extends mosquito activity later into fall than in northern Virginia. West Nile virus has been documented in Pittsylvania County and neighboring jurisdictions.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a persistent challenge in Danville's older multi-family housing and commercial food service operations. The hot-humid climate keeps ambient building temperatures favorable for cockroach development year-round, and the city's older building stock sustains consistent pressure.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, primary surge October through March",
+        note: "House mice are a recurring pest in Danville's older residential neighborhoods, pressing into buildings as temperatures drop in fall. The city's pre-war and mid-century housing stock has accumulated the gaps that give mice reliable access points each October.",
+      },
+    ],
+    localHook:
+      "Danville sits at the edge where Virginia's temperate interior transitions toward the warmer, longer seasons of the Carolina coastal plain. That southward lean means termite pressure here starts earlier in the year and stays later than in northern Virginia, and the mosquito season is among the longest in the state. The Dan River corridor adds the moisture that ties these warm-season pests together.",
+    intro:
+      "Pest control in Danville reflects the city's southside Virginia position near the North Carolina border, where the hot-humid climate sustains pest pressure across a longer season than most of the state. Subterranean termites are the year-round structural concern, with Virginia Cooperative Extension documenting elevated southside pressure. Mosquitoes run from April through October along the Dan River and Banister River corridors. Stink bugs arrive reliably in fall. German cockroaches are a year-round indoor challenge, and mice push into the older housing stock each October.",
+    sections: [
+      {
+        heading: "Termite risk in southside Virginia",
+        body: "Danville's position near the Virginia-North Carolina border puts it in one of the more termite-active zones in the state. Virginia Cooperative Extension documents the southside Virginia region as having significant subterranean termite pressure, driven by the hot-humid climate and the moist soils near the Dan River corridor. Termite colonies work year-round in this climate, unlike the more northern regions of Virginia where cold winters interrupt activity for longer periods. Danville's older housing stock, including the pre-war neighborhoods with crawl spaces and wood sill plates near grade, carries the highest exposure. The first sign homeowners typically encounter is a spring swarm of winged termites emerging near foundation walls or windows, which is a reliable indicator of an established colony that has been active for at least several years. Annual professional inspections are the standard response in southside Virginia. Both baiting systems and liquid soil treatments are effective in the region's soil conditions, and the choice between them depends on the specific construction type and access points around the home.",
+      },
+      {
+        heading: "Mosquitoes along the Dan River corridor",
+        body: "The Dan River and the Banister River create riparian breeding habitat that sustains Danville's mosquito season from April through October. The hot-humid climate near the North Carolina border extends the active season later into fall than northern Virginia experiences. Both Culex and Aedes mosquito species are present. Culex mosquitoes, the species most associated with West Nile virus transmission, are active from dusk through the night. West Nile virus has been documented in the southside Virginia and adjacent North Carolina region. Properties within a few blocks of the rivers and the low-lying drainage areas throughout the city see higher mosquito pressure than upland residential areas. A barrier spray program targeting resting vegetation in shrubs and under decks runs from April through October and is the standard residential approach. Eliminating standing water in containers, gutters, and yard low spots removes the breeding sites that supplement the river-based population.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given southside Virginia's elevated subterranean termite pressure and Danville's older housing stock.",
+      "Maintain mosquito barrier spray programs from April through October along the Dan River and Banister River corridors.",
+      "Seal window frames, utility penetrations, and soffit gaps in August before stink bug fall aggregation begins.",
+      "Seal foundation gaps in September before the October mouse entry surge in Danville's older residential neighborhoods.",
+    ],
+    costNote:
+      "Danville pest control is typically a year-round general plan with seasonal mosquito service and termite protection quoted separately after inspection. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Is termite risk in Danville higher than in northern Virginia?",
+        answer:
+          "Yes, generally. Danville's southside Virginia location near the North Carolina border is closer to the higher-hazard termite zones that extend through the Carolinas. Virginia Cooperative Extension documents the southside region as having significant subterranean termite pressure. The hot-humid climate keeps colonies active for a longer portion of the year than in northern Virginia. Annual inspections are the standard precaution.",
+      },
+      {
+        question: "How long is mosquito season in Danville?",
+        answer:
+          "April through October, with peak pressure in June through September. The Dan River and Banister River corridors sustain breeding populations through the full warm season. The hot-humid climate near the NC border extends the season later into fall than most of Virginia. Barrier spray programs from April through October are the standard residential approach.",
+      },
+      {
+        question: "Are stink bugs a problem in Danville?",
+        answer:
+          "Yes. Virginia Tech Extension confirms stink bugs are established throughout Virginia including the southside region. The fall invasion runs September through November, with stink bugs seeking overwintering sites in buildings through any available gap. Sealing window frames and utility penetrations in August is the most effective prevention.",
+      },
+      {
+        question: "What is the best way to prevent mice in Danville's older homes?",
+        answer:
+          "September is the exclusion window, ahead of the October temperature drop that drives mice into structures. Sealing foundation cracks, pipe penetrations, utility conduit entries, and door threshold gaps before October is the most cost-effective approach. Exterior bait stations placed in September add an interception layer for mice approaching the building.",
+      },
+      {
+        question: "Do German cockroaches stay active through Danville winters?",
+        answer:
+          "Yes. German cockroaches live entirely indoors in heated structures and are not affected by outdoor temperatures. Danville's mild southside Virginia winters make no difference to indoor cockroach populations. If German cockroaches are present, they established indoors and require targeted treatment in the specific harborage sites where they breed, not seasonal control.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Roanoke", slug: "roanoke" },
+      { name: "Lynchburg", slug: "lynchburg" },
+      { name: "Richmond", slug: "richmond" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Danville, VA | Termites, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Danville pest control for subterranean termites, mosquitoes, stink bugs, German cockroaches and house mice. Southside Virginia Dan River North Carolina border specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "salem-va",
+    name: "Salem",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~25,000",
+    county: "City of Salem (independent city)",
+    climate: "temperate",
+    climateDriver:
+      "Salem is an independent city in the Roanoke Valley, adjacent to Roanoke and surrounded by the Blue Ridge Mountains and Appalachian ridgelines to the south and north. The temperate Blue Ridge foothills climate delivers warm, humid summers and cold winters with regular snowfall. The same mountain ridgelines that define the valley are significant brown marmorated stink bug habitat, and Virginia Tech Extension identifies the region as heavily affected. Subterranean termites are active across the Roanoke Valley. The surrounding forested slopes sustain yellowjacket and carpenter ant pressure.",
+    topPests: ["Stink Bugs", "Subterranean Termites", "House Mice", "Yellowjackets", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate on structures August through November, emerge indoors in winter and spring",
+        note: "Virginia Tech Extension confirms Virginia is one of the most heavily stink bug-affected states in the country, and the Blue Ridge ridgelines surrounding the Roanoke Valley are significant overwintering habitat. Salem's position in the valley means buildings receive stink bugs aggregating off the adjacent mountain slopes each fall. Properties on the south and west sides of the valley see the most concentrated activity.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Subterranean termites are active throughout the Roanoke Valley including the City of Salem. Virginia Cooperative Extension documents the region as having significant termite pressure. Salem's older housing stock carries real exposure, particularly homes with crawl spaces and wood near the soil line.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge October through March",
+        note: "Salem's Blue Ridge foothills climate delivers cold winters that drive house mice firmly into structures each October. The city's mix of older established homes and mid-century residential construction has the accumulated gaps that give mice reliable access. The forested mountain slopes sustain outdoor populations that press toward buildings as temperatures drop.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active May through October, peak August through October",
+        note: "The forested mountain slopes surrounding the Roanoke Valley sustain yellowjacket ground nest populations that produce reliable late-summer pressure in Salem's residential areas. Wall void nests in older homes throughout the city are also a recurring issue in August and September.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor activity from established colonies",
+        note: "Carpenter ants are well-established in the Roanoke Valley, sustained by the forested mountain slopes and the wooded residential neighborhoods throughout Salem. Homes near the Blue Ridge and Appalachian ridgelines see the most consistent pressure from outdoor colonies establishing satellite nests in moisture-affected structural wood.",
+      },
+    ],
+    localHook:
+      "Salem is bounded by the Blue Ridge ridgelines that make the Roanoke Valley one of the most visually striking settings in Virginia. Those same ridgelines are significant stink bug overwintering habitat, and the fall aggregation that builds on the south-facing mountain slopes above the valley produces some of the most concentrated building-surface stink bug activity in the state each September.",
+    intro:
+      "Pest control in Salem reflects the city's Blue Ridge Mountain valley position. Brown marmorated stink bugs are the defining fall pest, with the surrounding ridgelines sustaining large populations that aggregate on building surfaces each September. Subterranean termites are active across the Roanoke Valley and present a year-round structural concern. House mice push hard into Salem's residential buildings each October as Blue Ridge cold arrives. Yellowjackets are a significant late-summer pest near the forested slopes, and carpenter ants are a spring structural concern throughout the wooded neighborhoods.",
+    sections: [
+      {
+        heading: "The Blue Ridge effect on stink bug pressure",
+        body: "Virginia Tech Extension confirms Virginia is one of the most stink bug-affected states in the country, and the Roanoke Valley's position surrounded by the Blue Ridge and Appalachian ridgelines creates conditions that intensify the fall pest season for Salem homeowners. The forested mountain slopes that rim the valley on both sides are the primary overwintering habitat for large stink bug populations. When fall temperatures begin to drop in August, these insects start moving off the ridgelines toward the valley floor and the warm structures there. They aggregate on south and west-facing building surfaces in September and October, working through any available gap: around window frames, at utility penetrations, through soffit areas, and where siding meets the foundation. Salem's established residential neighborhoods include many homes with the aged window assemblies and accumulated exterior gaps that make overwintering entry easy. The practical defense is sealing the building envelope before August when aggregation begins: gaps around window frames, at utility lines, in soffits, and anywhere exterior materials have separated. Exterior perimeter treatment on sun-warmed walls in late August provides an additional protective layer.",
+      },
+      {
+        heading: "Termites and the Roanoke Valley housing stock",
+        body: "Subterranean termites are a documented concern across the Roanoke Valley, and Salem's housing stock reflects the exposure that comes with age and construction type. Virginia Cooperative Extension documents significant termite pressure throughout the region. Salem's older neighborhoods, many with pre-war and mid-century construction and the crawl spaces and wood-near-grade elements that create termite access points, carry the highest individual property risk. Termites swarm in the valley on warm still days in March and April, and the first visible sign of an active colony is often winged swarmers emerging near windows or foundation walls. This indicates a colony that has typically been active for three to five years already. Annual professional inspections are the appropriate standard for Salem's older housing. The spring inspection season, after swarmers become active, is a natural prompt. Baiting systems and liquid barrier treatments are both effective in the valley's soil conditions.",
+      },
+    ],
+    prevention: [
+      "Seal window frames, utility penetrations, and soffit gaps in August, before stink bug aggregation intensifies from the Blue Ridge slopes.",
+      "Schedule annual termite inspections given Roanoke Valley termite pressure and Salem's older housing stock.",
+      "Seal foundation gaps and pipe penetrations in September before the Blue Ridge cold drives mice into Salem homes in October.",
+      "Treat yellowjacket nests near the forested slope edges in July before August peak aggression.",
+    ],
+    costNote:
+      "Salem pest control is typically a year-round general plan with termite protection quoted separately. Stink bug exclusion work in August is the single most cost-effective fall prevention step. Start with a free inspection.",
+    faqs: [
+      {
+        question: "Why are stink bugs so bad in Salem compared to some other Virginia cities?",
+        answer:
+          "Salem's position in the Roanoke Valley, ringed by the Blue Ridge and Appalachian ridgelines, concentrates stink bug fall movement. The mountain slopes are significant overwintering habitat, and when fall arrives, the insects move off the ridgelines toward the valley buildings below. Virginia Tech Extension confirms the Roanoke Valley is among the most heavily stink bug-affected areas in the state. Exclusion before August is the most effective defense.",
+      },
+      {
+        question: "Do Salem homes need termite protection?",
+        answer:
+          "Yes. Virginia Cooperative Extension documents subterranean termite pressure across the Roanoke Valley including Salem. Older homes with crawl spaces and wood near the soil line carry the highest individual risk. Annual inspections are the standard precaution. The spring swarm season, March through May, is when termite activity is most visible.",
+      },
+      {
+        question: "When do mice get into Salem homes?",
+        answer:
+          "October is the primary entry period, when Blue Ridge cold arrives and house mice press into heated structures. The forested mountain slopes above the valley sustain large outdoor mouse populations that move toward buildings as temperatures drop. September exclusion work, sealing foundation gaps and utility penetrations, is the most effective prevention window.",
+      },
+      {
+        question: "Are yellowjackets a real problem near Salem's forested neighborhoods?",
+        answer:
+          "Yes. The forested mountain slopes surrounding the Roanoke Valley sustain yellowjacket populations that produce ground nests throughout Salem's residential yards adjacent to wooded edges. Wall void nests in older homes are also common. July is the best treatment window before August peak aggression. Mark any ground nest you find and schedule professional treatment rather than approaching it.",
+      },
+      {
+        question: "Are carpenter ants a structural risk in Salem?",
+        answer:
+          "Yes, in homes with moisture-damaged wood. The forested slopes sustain large outdoor carpenter ant populations, and satellite colonies establish in any moisture-affected structural wood in adjacent buildings. Consistently finding large black ants indoors in spring from a specific location is the indicator of an established indoor colony. Finding and treating the colony and fixing the moisture source provides lasting control.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Roanoke", slug: "roanoke" },
+      { name: "Lynchburg", slug: "lynchburg" },
+      { name: "Blacksburg", slug: "blacksburg" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Salem, VA | Stink Bugs, Termites & Mice",
+    metaDescription:
+      "Salem Virginia pest control for brown marmorated stink bugs, subterranean termites, house mice, yellowjackets and carpenter ants. Roanoke Valley Blue Ridge Mountain independent city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "waynesboro",
+    name: "Waynesboro",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~23,000",
+    county: "City of Waynesboro (independent city)",
+    climate: "temperate",
+    climateDriver:
+      "Waynesboro is an independent city at the eastern entrance to the Shenandoah Valley, where the Blue Ridge Parkway crosses over the mountains and Skyline Drive begins. The city sits at the junction of the Shenandoah Valley and the Blue Ridge, creating a unique position where the mountain ridgeline stink bug habitat is directly adjacent to the urban area. Virginia Tech Extension identifies the Shenandoah Valley and Blue Ridge corridor as among the most heavily stink bug-affected areas in Virginia. Subterranean termites are active in the Shenandoah Valley, and the South River running through the city sustains moisture that elevates structural pest pressure.",
+    topPests: ["Stink Bugs", "House Mice", "Subterranean Termites", "Yellowjackets", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate August through November, emerge from structures in late winter",
+        note: "Waynesboro's position at the Blue Ridge ridge line entrance to the Shenandoah Valley places it directly adjacent to some of the most significant stink bug overwintering habitat in Virginia. Virginia Tech Extension confirms the Shenandoah Valley and Blue Ridge corridor as a heavily affected area. Buildings on the eastern edge of the city facing the mountain slopes see the most concentrated fall aggregation.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, hard push October through March",
+        note: "Waynesboro's Shenandoah Valley position delivers cold winters that push mice firmly into structures. The city's older residential construction, particularly near the South River corridor, has the foundation wear that gives mice reliable access in fall. The surrounding mountains sustain outdoor populations that move toward buildings as temperatures drop.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Subterranean termites are present across the Shenandoah Valley and active in Waynesboro's soil conditions. Virginia Cooperative Extension documents the region's termite pressure. The South River corridor's moisture and Waynesboro's older housing stock create real termite exposure, particularly for homes with crawl spaces.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active May through October, peak August through October",
+        note: "The Blue Ridge slope habitat directly adjacent to Waynesboro sustains yellowjacket populations that produce both ground nests near the city's edge properties and wall void nests in older downtown buildings. Late-summer colonies reach maximum size and aggression in August and September.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor activity from established colonies",
+        note: "Carpenter ants are sustained by the Blue Ridge slope woodland adjacent to Waynesboro and the South River riparian corridor through the city. Older homes near the river and the wooded mountain edge carry the most consistent carpenter ant exposure, particularly where moisture-damaged wood is present.",
+      },
+    ],
+    localHook:
+      "Waynesboro sits where the Shenandoah Valley opens at the Blue Ridge, and the mountain ridgeline that makes this location so scenic is also one of the most significant stink bug overwintering sites in Virginia. The insects that aggregate on those south-facing mountain slopes in September have the city's buildings directly in front of them as the nearest available overwintering structures.",
+    intro:
+      "Pest control in Waynesboro is shaped by the city's position at the Blue Ridge entrance to the Shenandoah Valley. Brown marmorated stink bugs are the defining fall pest: the mountain ridgeline directly adjacent to the city is significant overwintering habitat, and the fall aggregation pressure on Waynesboro buildings is among the most direct in Virginia. House mice push into the city's older housing from October as valley cold arrives. Subterranean termites are active across the Shenandoah Valley. Yellowjackets and carpenter ants are sustained by the adjacent Blue Ridge slope woodland.",
+    sections: [
+      {
+        heading: "Blue Ridge slope stink bugs and Waynesboro's direct exposure",
+        body: "Most Virginia cities deal with stink bugs aggregating from agricultural land and wooded areas at some distance. Waynesboro deals with stink bugs coming off the Blue Ridge slope that is immediately east of the city. Virginia Tech Extension confirms the Shenandoah Valley and Blue Ridge corridor as one of the most heavily affected zones in Virginia. When fall temperatures drop and the mountain populations begin moving, the buildings of Waynesboro are the nearest structures. Properties on the city's eastern edge, closest to the ridge, see the earliest and most concentrated fall aggregations. The practical defense requires acting in August, before the mountain movement begins in earnest. Sealing all gaps around window frames, utility penetrations, soffit areas, and anywhere exterior materials have separated on the south and east-facing walls is the priority. An exterior perimeter treatment on those walls in late August adds a contact-kill layer before the insects enter. Once inside, stink bugs overwinter passively in wall voids and attic spaces and emerge through ceiling fixtures and electrical outlets when heating activates them in late winter.",
+      },
+      {
+        heading: "The South River, termites, and older Waynesboro housing",
+        body: "The South River running through Waynesboro creates a riparian moisture corridor that elevates structural pest pressure in the older neighborhoods near the water. Subterranean termites are present across the Shenandoah Valley, and Virginia Cooperative Extension documents the region's termite activity. The combination of river corridor moisture and Waynesboro's older pre-war housing stock, with crawl spaces, wood near the soil line, and the accumulated moisture vulnerability of older construction, creates real termite exposure in the neighborhoods along and near the South River. Annual inspections are the practical standard. Carpenter ants are a companion concern along the same corridor: the riparian moisture and the forested Blue Ridge slope above the city both sustain outdoor populations that establish satellite colonies in moisture-affected structural wood in adjacent homes. The spring inspection that covers termites in the crawl space also covers the wood around windows and soffits for carpenter ant evidence.",
+      },
+    ],
+    prevention: [
+      "Seal window frames, utility penetrations, and soffit gaps in August on the south and east faces of buildings most exposed to Blue Ridge slope stink bug movement.",
+      "Schedule annual termite inspections given Shenandoah Valley pressure, South River corridor moisture, and Waynesboro's older housing stock.",
+      "Seal foundation gaps and pipe penetrations in September before the October mouse entry push in the valley.",
+      "Treat yellowjacket nests on the Blue Ridge slope edges in July before August peak aggression.",
+    ],
+    costNote:
+      "Waynesboro pest control is typically a year-round general plan with termite protection quoted separately. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Why does Waynesboro have such direct stink bug exposure from the Blue Ridge?",
+        answer:
+          "Waynesboro sits at the eastern entrance to the Shenandoah Valley directly below the Blue Ridge ridge line, which is significant stink bug overwintering habitat. When fall temperatures drop and mountain populations begin moving toward structures, Waynesboro's buildings are the nearest available option. Virginia Tech Extension confirms the Blue Ridge corridor is among the most heavily affected areas in Virginia. Properties on the city's eastern edge see the earliest and most concentrated aggregation.",
+      },
+      {
+        question: "Is termite risk elevated near the South River in Waynesboro?",
+        answer:
+          "Yes. The South River corridor creates persistent moisture in the surrounding soil, which is favorable for subterranean termite activity. Virginia Cooperative Extension documents the Shenandoah Valley's termite pressure, and the river corridor amplifies it for properties near the water. Older homes with crawl spaces and wood near grade carry the highest individual risk.",
+      },
+      {
+        question: "When do mice enter Waynesboro homes?",
+        answer:
+          "October is the primary entry period, when Shenandoah Valley temperatures drop and the surrounding mountain slopes release mouse pressure toward valley structures. September exclusion work, sealing foundation gaps and utility penetrations, is the most effective prevention. The older residential neighborhoods near the South River tend to have more access points than newer construction.",
+      },
+      {
+        question: "Are carpenter ants worse near the Blue Ridge in Waynesboro?",
+        answer:
+          "Yes, for properties adjacent to the forested slope or the South River corridor. Both provide outdoor habitat for large carpenter ant populations. When moisture-damaged wood in an adjacent structure offers a nesting site, a satellite colony establishes. A spring inspection that checks wood around windows, soffits, and deck framing identifies active risk areas.",
+      },
+      {
+        question: "Do yellowjackets from the Blue Ridge slope affect Waynesboro neighborhoods?",
+        answer:
+          "The forested Blue Ridge slope directly east of the city sustains yellowjacket populations that produce ground nests on the wooded hillside edges and in the yards of properties adjacent to the slope. July is the most effective treatment window. Ground nests near lawn edges are the most common sting encounter during summer yard work in those edge neighborhoods.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Staunton", slug: "staunton" },
+      { name: "Harrisonburg", slug: "harrisonburg" },
+      { name: "Charlottesville", slug: "charlottesville" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Waynesboro, VA | Stink Bugs, Termites & Mice",
+    metaDescription:
+      "Waynesboro pest control for stink bugs, house mice, subterranean termites, yellowjackets and carpenter ants. City of Waynesboro Shenandoah Valley Blue Ridge entrance Virginia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "colonial-heights",
+    name: "Colonial Heights",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~18,000",
+    county: "City of Colonial Heights (independent city)",
+    climate: "hot-humid",
+    climateDriver:
+      "Colonial Heights is an independent city south of Richmond on the Appomattox River, adjacent to Petersburg. The hot-humid Virginia Piedmont climate delivers long warm summers, mild winters, and the moisture conditions that sustain elevated subterranean termite activity. The Appomattox River corridor adds riparian moisture that increases termite and mosquito pressure. Virginia is among the mid-Atlantic states most affected by stink bugs, and the Richmond metro area experiences reliable fall invasions.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Stink Bugs", "German Cockroaches", "House Mice"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active year-round underground",
+        note: "Colonial Heights sits in the hot-humid Virginia Piedmont, where subterranean termite activity is documented throughout the region by Virginia Cooperative Extension. The Appomattox River corridor and the city's older housing stock, with crawl space construction and wood near the soil line, create real termite exposure that warrants annual professional inspection.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peak June through September",
+        note: "The Appomattox River and the low-lying areas throughout Colonial Heights and adjacent Petersburg create mosquito breeding habitat that sustains a long season. The Asian tiger mosquito is established throughout the Richmond metro area and extends biting pressure into daylight hours. West Nile virus has been documented in the greater Richmond region.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November, overwintering in structures",
+        note: "Virginia Tech Extension confirms stink bugs are established throughout Virginia. Colonial Heights homes, particularly older properties near the Appomattox River corridor and the wooded edges, see reliable fall stink bug aggregation each September as the insects seek overwintering sites.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are a year-round concern in Colonial Heights's multi-family housing and food service establishments. The hot-humid climate keeps ambient building temperatures favorable for cockroach activity, and the older building stock in the city's residential and commercial areas sustains consistent populations.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through March",
+        note: "House mice are a recurring pest in Colonial Heights, pressing into the older residential and commercial buildings each fall. The city's position adjacent to the Appomattox River adds outdoor pressure from the riparian habitat that sustains wildlife populations.",
+      },
+    ],
+    localHook:
+      "Colonial Heights sits on the Appomattox River south of Richmond, directly adjacent to the historic city of Petersburg. The Appomattox River corridor and the hot-humid Virginia Piedmont climate combine to create the moisture and temperature conditions where subterranean termites work year-round and mosquitoes run for six months. That combination makes seasonal pest management here more consistent than in higher-elevation or more northern parts of the state.",
+    intro:
+      "Pest control in Colonial Heights reflects the hot-humid Virginia Piedmont's sustained pest season. Subterranean termites are the year-round structural concern, active throughout the Appomattox River corridor and documented by Virginia Cooperative Extension across the greater Richmond metro. Mosquitoes run from April through October, with the Asian tiger mosquito extending day-biting pressure. Stink bugs are a reliable fall pest across Virginia. German cockroaches are a year-round indoor challenge, and mice push into the older residential buildings each October.",
+    sections: [
+      {
+        heading: "Termites in the Appomattox River corridor",
+        body: "Colonial Heights's position on the Appomattox River places it in an area where the combination of hot-humid climate and river corridor moisture creates favorable conditions for subterranean termite activity through most of the year. Virginia Cooperative Extension documents the greater Richmond metro as having significant subterranean termite pressure. Colonial Heights's housing stock includes a mix of older construction along the river corridor and mid-century residential development on the upland areas. Homes with crawl spaces, wood sill plates near grade, and any structural wood within a few inches of moist soil carry the highest individual risk. The spring swarm season, typically March through May on warm still days, is when visible termite activity is most apparent: winged swarmers emerging near foundation walls or windows indicate an established colony that has been active for several years. Annual professional inspections are the appropriate standard. Both liquid soil treatments and baiting systems are effective in the Piedmont clay soils common to the region.",
+      },
+      {
+        heading: "Mosquitoes and the Asian tiger mosquito in the Richmond area",
+        body: "Colonial Heights's mosquito season runs from April through October, sustained by the Appomattox River, the low-lying drainage areas throughout the city and adjacent Petersburg, and the tidal influence of the James River watershed nearby. Two mosquito species drive most of the residential concern. Culex mosquitoes are the primary West Nile virus vector and are most active from dusk through the night. The Asian tiger mosquito, established throughout the Richmond metro area, bites aggressively during daylight hours and extends the practical exposure window significantly beyond the traditional dawn-and-dusk period. Asian tiger mosquitoes breed in small containers of standing water, birdbaths, plant saucers, and clogged gutters, rather than in large bodies of water. This means source reduction at the property level, eliminating those small water sources, is especially important for controlling this species. A barrier spray program from April through October that targets the resting vegetation in shrubs and under decks handles the adult population on the property. West Nile virus has been documented in the greater Richmond region including the Appomattox River corridor.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given the Appomattox River corridor's moisture and Virginia Cooperative Extension-documented subterranean termite pressure.",
+      "Maintain mosquito barrier spray programs from April through October and eliminate standing water in containers for the Asian tiger mosquito.",
+      "Seal window frames, utility penetrations, and foundation gaps in August before stink bug fall aggregation and the October mouse entry surge.",
+      "Keep German cockroach treatment coordinated across adjacent units in multi-family housing to prevent re-infestation.",
+    ],
+    costNote:
+      "Colonial Heights pest control is typically a year-round general plan with seasonal mosquito service and termite protection quoted separately. Free inspections are the standard starting point.",
+    faqs: [
+      {
+        question: "Are termites a year-round concern in Colonial Heights?",
+        answer:
+          "Yes, essentially. The hot-humid Virginia Piedmont climate and the Appomattox River corridor moisture keep termite colonies active for most of the year, with only brief interruptions during the coldest periods. Virginia Cooperative Extension documents the greater Richmond metro as having significant subterranean termite pressure. Annual inspections are the appropriate standard for all Colonial Heights properties with older construction or crawl spaces.",
+      },
+      {
+        question: "What is the Asian tiger mosquito and why is it in Colonial Heights?",
+        answer:
+          "The Asian tiger mosquito is an introduced species now established throughout the Richmond metro area. Unlike Culex mosquitoes that bite mainly at dawn and dusk, the tiger mosquito bites aggressively during the day and breeds in small containers of standing water, not large water bodies. Eliminating water in plant saucers, birdbaths, clogged gutters, and containers is particularly important for controlling this species alongside a barrier spray program.",
+      },
+      {
+        question: "How long is mosquito season in Colonial Heights?",
+        answer:
+          "April through October, with peak pressure in June through September. The Appomattox River and the low-lying drainage areas throughout the city sustain breeding populations through the full warm season. The Asian tiger mosquito extends biting pressure into daylight hours. Monthly barrier spray from April through October is the standard residential approach.",
+      },
+      {
+        question: "When should I seal my Colonial Heights home against stink bugs?",
+        answer:
+          "August is the preparation window, before the September fall aggregation begins. Focus on gaps around window frames, utility penetrations, and soffit areas. Virginia Tech Extension confirms stink bugs are established throughout Virginia. Exterior perimeter treatment on south and west-facing walls in late August provides additional protection.",
+      },
+      {
+        question: "Do mice become a year-round problem in Colonial Heights?",
+        answer:
+          "The hot-humid climate means mild winters that do not eliminate mice the way hard northern winters do, so indoor mouse populations can persist longer than in colder regions. The main entry surge is October when temperatures drop, but mice established inside structures may remain active through winter without the cold pressure that would otherwise limit them. Year-round monitoring combined with fall exclusion work is the practical approach.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Petersburg", slug: "petersburg" },
+      { name: "Richmond", slug: "richmond" },
+      { name: "Hopewell", slug: "hopewell" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Colonial Heights, VA | Termites, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Colonial Heights pest control for subterranean termites, mosquitoes, stink bugs, German cockroaches and house mice. City of Colonial Heights Appomattox River Richmond metro Virginia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "radford",
+    name: "Radford",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~17,000",
+    county: "City of Radford (independent city)",
+    climate: "temperate",
+    climateDriver:
+      "Radford is an independent city on the New River in the New River Valley of southwest Virginia, home to Radford University. The temperate Appalachian mountain valley climate delivers warm, humid summers and cold winters with some snowfall. The Blue Ridge and Appalachian ridgelines surrounding the New River Valley are significant stink bug habitat, and Virginia Tech Extension identifies the region as heavily affected. The New River's riparian corridor sustains moisture that drives termite and carpenter ant pressure near the water. Cold winters push mice firmly into the city's older housing stock.",
+    topPests: ["House Mice", "Stink Bugs", "Subterranean Termites", "Yellowjackets", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, hard push October through March",
+        note: "House mice are the primary fall and winter pest concern in Radford. The city's older housing stock, including the residential neighborhoods around Radford University, has the accumulated foundation wear and utility gaps that give mice reliable fall access. The surrounding Appalachian slopes sustain outdoor populations that press toward valley buildings as cold arrives.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate August through November, emerge from structures in late winter",
+        note: "Virginia Tech Extension, located nearby in Blacksburg, confirms the New River Valley region is heavily affected by stink bugs. The Appalachian ridgelines surrounding the valley provide significant overwintering habitat, and buildings in Radford receive the fall movement of populations off those slopes each September.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Subterranean termites are present in the New River Valley and active in Radford's soil conditions. Virginia Cooperative Extension documents termite pressure across southwest Virginia. The New River corridor's moisture and Radford's older housing stock create termite exposure, particularly for homes with crawl spaces near the river.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests active May through October, peak August through October",
+        note: "Yellowjackets are sustained by the forested Appalachian slopes surrounding the New River Valley. Both ground nests near residential yards at the wooded edges and wall void nests in older buildings around Radford University produce reliable late-summer treatment requests.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor activity from established colonies",
+        note: "The New River riparian corridor and the forested mountain slopes surrounding Radford sustain large outdoor carpenter ant populations. Older residential buildings near the river carry real satellite colony risk in moisture-affected structural wood. Virginia Tech Extension confirms carpenter ant activity across the New River Valley region.",
+      },
+    ],
+    localHook:
+      "Radford is a university city in the New River Valley, and Virginia Tech is a 30-minute drive up the road in Blacksburg. The research on stink bugs that Virginia Tech Extension publishes is particularly relevant here: the New River Valley's Appalachian ridgelines are among the most documented stink bug habitat in Virginia, and residents feel that research in a direct and seasonal way every fall.",
+    intro:
+      "Pest control in Radford reflects the New River Valley's Appalachian mountain setting. House mice are the primary fall and winter concern in the city's older university-adjacent housing stock. Brown marmorated stink bugs arrive from the surrounding ridgelines each September, with Virginia Tech Extension confirming the region as heavily affected. Subterranean termites are active along the New River corridor. Yellowjackets peak in late summer from the forested slope habitat, and carpenter ants are a spring structural concern in the older buildings near the river.",
+    sections: [
+      {
+        heading: "Stink bugs and the New River Valley ridgelines",
+        body: "Radford's position in the New River Valley, ringed by Appalachian ridgelines, places it in one of the most documented stink bug zones in Virginia. Virginia Tech Extension has confirmed the New River Valley region as heavily affected, and the fall aggregation on building surfaces here is a reliable annual event. The forested mountain slopes surrounding the valley provide overwintering habitat for large stink bug populations, and when temperatures drop in August and September, those populations move toward the valley floor and the heated structures it contains. The university housing near Radford University, older residential construction with accumulated gaps in window assemblies and soffits, provides the easiest entry points. The prevention window is August: sealing window frames, utility penetrations, soffit gaps, and any exterior material separations before the mountain aggregation reaches building surfaces. Exterior perimeter treatment on south and west-facing walls in late August provides additional protection. Properties on the edges of the valley, adjacent to the wooded slopes, see the earliest and most concentrated aggregations.",
+      },
+      {
+        heading: "New River corridor and the mouse and termite picture",
+        body: "The New River running through Radford creates two pest conditions that homeowners in the older neighborhoods near the water deal with more actively than those on the upland sections. The riparian moisture near the river sustains subterranean termite activity in the soil adjacent to foundations, particularly for older homes with crawl spaces and wood near grade. Virginia Cooperative Extension documents subterranean termite pressure across southwest Virginia including the New River Valley. The same river corridor sustains outdoor mouse populations that press toward buildings each October. Radford's cold Appalachian valley winters drive mice urgently into heated structures, and the older housing near Radford University, with its accumulated foundation wear and utility gaps, provides the access points they exploit. The fall management approach addresses both: a fall termite inspection checks the crawl space and foundation for termite evidence before winter, while September exclusion work seals the entry points mice use before the October cold push begins.",
+      },
+    ],
+    prevention: [
+      "Seal window frames, utility penetrations, and soffit gaps in August before the Appalachian ridgeline stink bug movement toward Radford buildings.",
+      "Seal foundation gaps and pipe penetrations in September before the October mouse entry surge in the older Radford housing stock.",
+      "Schedule annual termite inspections given New River corridor moisture and Virginia Cooperative Extension-documented southwest Virginia termite pressure.",
+      "Treat yellowjacket nests on forested slope edges in July before August peak aggression.",
+    ],
+    costNote:
+      "Radford pest control is typically a year-round general plan with termite protection quoted separately. Stink bug exclusion work in August is the highest-value single fall intervention. Free inspections are the starting point.",
+    faqs: [
+      {
+        question: "Does the Virginia Tech stink bug research apply to Radford?",
+        answer:
+          "Directly. Virginia Tech Extension's stink bug research confirms the New River Valley as a heavily affected region. Radford is in that zone. The Appalachian ridgelines surrounding the valley are documented overwintering habitat, and the fall aggregation on Radford buildings each September is a predictable annual event. The August exclusion approach Virginia Tech recommends applies here.",
+      },
+      {
+        question: "Are termites active near the New River in Radford?",
+        answer:
+          "Yes. The river corridor's moisture and the southwest Virginia climate create conditions where subterranean termites are active across the Radford area. Virginia Cooperative Extension documents the region's pressure. Older homes near the river with crawl spaces carry the highest individual risk. Annual inspections are the appropriate precaution.",
+      },
+      {
+        question: "When do mice enter Radford homes?",
+        answer:
+          "October is the primary entry period, when the New River Valley's cold arrives and outdoor mice press into heated buildings. The surrounding Appalachian slopes sustain large populations that move toward the valley. September exclusion work, sealing foundation gaps and utility penetrations, is the most effective prevention window for Radford's older housing stock.",
+      },
+      {
+        question: "Are yellowjackets from the mountain slopes a problem in Radford?",
+        answer:
+          "Yes, particularly for properties near the forested slope edges. The Appalachian hillsides surrounding the New River Valley sustain yellowjacket ground nest populations that produce late-summer pressure in Radford's edge neighborhoods. Wall void nests in the older university-adjacent housing are also common. July treatment before August peak aggression is the recommended window.",
+      },
+      {
+        question: "Is carpenter ant risk higher near the New River in Radford?",
+        answer:
+          "Yes. The river corridor sustains outdoor carpenter ant populations, and the older buildings near the water carry accumulated wood-moisture vulnerability. Finding large ants consistently indoors in spring from a specific location is the indicator of an established satellite colony in the structure. A spring inspection of wood around windows, soffits, and deck framing near the river corridor identifies active risk areas.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Blacksburg", slug: "blacksburg" },
+      { name: "Christiansburg", slug: "christiansburg" },
+      { name: "Roanoke", slug: "roanoke" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Radford, VA | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Radford pest control for house mice, brown marmorated stink bugs, subterranean termites, yellowjackets and carpenter ants. City of Radford New River Valley Appalachian southwest Virginia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+
 ];
