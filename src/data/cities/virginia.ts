@@ -2687,7 +2687,7 @@ export const virginiaCities: CityLocation[] = [
     nearbyCities: [
       { name: "Richmond", slug: "richmond" },
       { name: "Colonial Heights", slug: "colonial-heights" },
-      { name: "Hopewell", slug: "hopewell-va" },
+      { name: "Hopewell", slug: "hopewell" },
     ],
     contentTemplate: "C",
     contentSoul: "comparison",
