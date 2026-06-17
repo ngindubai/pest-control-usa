@@ -8,16 +8,17 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-17)
+## Current State (2026-06-18)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-44 complete. T2 COMPLETE.
-- **City pages built:** 1053 total (75 T1 + 300 T2 + 678 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-46 complete. T2 COMPLETE.
+- **City pages built:** 1103 total (75 T1 + 300 T2 + 728 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1136 in the static export (home, services, 50+ states, 1053 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=213, B=211, C=211, D=210, E=208 (1053 total cities, all within 15-25% range).
-- **Cities built T3 chunk 44 (30):** CT: Torrington, Shelton, East Hartford, Glastonbury, Stratford (C). ID: Twin Falls, Lewiston, Rexburg, Post Falls, Moscow (E). AL: Gadsden, Homewood, Florence, Decatur, Opelika (C). AR: Bentonville, Hot Springs, Russellville, Pine Bluff, Searcy (D). MS: Columbus, Vicksburg, Pascagoula, Horn Lake, Pearl (D). LA: Natchitoches, Opelousas, Sulphur, Morgan City, Crowley (E).
-- **New state files added chunk 44:** none (CT, ID, AL, AR, MS, LA already registered in index.ts).
-- **Next block:** Chunk 45, T3 continues, rotation at A.
+- **Total site pages:** 1186 in the static export (home, services, 50+ states, 1103 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=223, B=221, C=221, D=220, E=218 (1103 total cities, all within 15-25% range).
+- **Cities built T3 chunk 45 (25):** WI: Brookfield, Greenfield, West Bend, Manitowoc, Menomonee Falls (A-E). IN: Valparaiso, Merrillville, Goshen, Michigan City, Marion (A-E). TN: Bristol, Dyersburg, Crossville, Greeneville, Alcoa (A-E). OH: Pickerington, Twinsburg, Barberton, Avon, Avon Lake (A-E). MN: Fridley, Andover, Savage, Cottage Grove, Elk River (A-E).
+- **Cities built T3 chunk 46 (25):** MO: Wildwood, Liberty, Hazelwood, Raytown, University City (A-E). NC: Thomasville, Asheboro, Lumberton, Kernersville, Shelby (A-E). WA: Puyallup, Lynnwood, Edmonds, Bothell, Mount Vernon (A-E). TX: North Richland Hills, Hurst, Keller, Southlake, Watauga (A-E). GA: Pooler, McDonough, Acworth, Sugar Hill, Loganville (A-E).
+- **New state files added chunks 45-46:** none (WI, IN, TN, OH, MN, MO, NC, WA, TX, GA all already registered in index.ts).
+- **Next block:** Chunk 47, T3 continues, rotation at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

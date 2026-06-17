@@ -2754,4 +2754,474 @@ export const minnesotaCities: CityLocation[] = [
     metaDescription:
       "Richfield pest control for house mice, German cockroaches, carpenter ants, bed bugs and boxelder bugs. Hennepin County Minneapolis south first-ring suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  
+  {
+    slug: "fridley",
+    name: "Fridley",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~28,000",
+    county: "Anoka County",
+    climate: "cold-humid",
+    climateDriver: "Continental climate with sub-zero winters, warm humid summers, and a sharp fall pest surge in October as temperatures drop and pests seek shelter.",
+    topPests: ["House Mice", "Carpenter Ants", "Mosquitoes", "Boxelder Bugs", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "The 1950s-1960s housing stock in Fridley has foundation gaps and utility penetrations that give mice easy entry when temperatures fall in October. The fall surge is fast and predictable."
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through August",
+        note: "Mature trees along the Mississippi River corridor and in Fridley's older residential neighborhoods provide carpenter ant foraging and nesting territory throughout the summer."
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through August",
+        note: "The Mississippi River flood bottoms and Moore Lake create standing water that supports heavy mosquito populations in Fridley's river-adjacent neighborhoods."
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Boxelder bugs aggregate on south-facing walls throughout Anoka County in September, often entering homes in large numbers as temperatures fall."
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note: "Yellowjackets build aerial and ground nests in Fridley's parks and older residential lots, becoming aggressive in late summer when colonies reach peak size."
+      }
+    ],
+    localHook: "Fridley sits on the west bank of the Mississippi River in Anoka County, and that river corridor is the defining factor for pest pressure here. The flood bottoms create mosquito habitat that inland suburbs don't deal with, Moore Lake and the chain-of-lakes parks support deer tick populations in the northeast neighborhoods, and the older housing stock throughout the city gives mice a lot of ways in when October arrives.",
+    intro: "Fridley homeowners deal with a pest calendar that reflects both the city's river setting and its mid-century housing stock. Mosquitoes peak from June through August in the river-bottom neighborhoods near the Mississippi. Carpenter ants work through the mature tree canopy from April onward. Then fall arrives fast in Anoka County, boxelder bugs pile onto south-facing walls in September, and mice start looking for ways into 1950s and 1960s foundations in October. A licensed pest control technician who knows Fridley's specific pressure points can help you get ahead of each of these before they become a serious problem inside your home.",
+    sections: [
+      {
+        heading: "River Corridor Pests in Fridley",
+        body: "The Mississippi River does a lot of good things for Fridley. It also does some inconvenient things for pest control. The flood-prone areas along the river's west bank hold standing water through most of June, July, and August, which is everything mosquitoes need to breed in quantity. Residents in the river-bottom neighborhoods and near the chain-of-lakes parks report noticeably heavier mosquito pressure than homeowners a mile or two inland. That same corridor supports deer tick habitat in the northeast neighborhoods around Moore Lake and the city's parks. Deer ticks require a humid woodland or brushy-edge environment, and the river-corridor parks provide exactly that. Adult ticks are active in spring and fall, with nymphs active from May through July. If you or your family spend time in Fridley's parks near the river, tick checks after outdoor time are a reasonable precaution. Mosquito control in the river neighborhoods often requires a combination of source reduction (eliminating standing water on your property) and barrier treatments applied to the vegetation and lawn areas where mosquitoes rest during the day. One treatment typically lasts three to four weeks, and a seasonal program of three to four applications covers the full Minnesota mosquito season from late May through August."
+      },
+      {
+        heading: "Fall Pest Surge in Fridley's Older Neighborhoods",
+        body: "Fridley was built out primarily in the 1950s and 1960s, and that housing stock has had seventy-plus years to develop the small gaps, settling cracks, and utility penetrations that mice look for in October. Minnesota's fall temperature drop is sharp. When nighttime lows start falling through the forties in late September and October, house mice move from the lawn and garden areas directly into wall voids through gaps as small as a dime. The speed of that surge is what catches homeowners off guard. By the time you hear scratching in the walls, the colony is already established and breeding. The solution is exclusion first, then control. A thorough exterior inspection identifies the most common entry points: the base of the foundation where it meets the soil grade, gaps around utility pipes and cables, and the junction between the sill plate and the foundation wall. Sealing these with appropriate materials is the core of long-term mouse control. Carpenter ants run parallel to the mouse problem in a different season. They become active in April, foraging through Fridley's mature tree canopy and into homes where moisture-softened wood gives them easy nesting sites. Checking for moisture sources in the basement, around windows, and in the roof soffit is part of a good spring ant inspection. Boxelder bugs are an October annoyance that falls between the fall ant fade-out and the peak of the mouse season. They don't cause structural damage, but large aggregations on walls and windows are unpleasant, and individuals entering the home through gaps are common. Sealing window and door frames before boxelder bug season overlaps well with mouse exclusion work."
+      }
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations with steel wool and caulk before October to block fall mouse entry.",
+      "Eliminate standing water in low areas of your yard after rain to reduce mosquito breeding near the river corridor.",
+      "Keep firewood stacked away from the house and off the ground to reduce carpenter ant and mouse harborage near the structure.",
+      "Trim tree branches that overhang or touch the roofline to cut off carpenter ant access to the structure from the canopy.",
+      "Do tick checks after time in Fridley's river-corridor parks, especially from May through July when nymphal ticks are active."
+    ],
+    costNote: "Pest control costs in Fridley vary by service. A single mouse exclusion and bait service typically runs $150 to $350 depending on the size of the home and the number of entry points found. Seasonal mosquito programs range from $300 to $600 for four to six applications. Carpenter ant treatments start around $175. Ask about bundled programs that cover the full Fridley pest calendar at a reduced per-service rate.",
+    faqs: [
+      {
+        question: "Why are there so many mosquitoes near the Mississippi River in Fridley?",
+        answer: "The flood-prone areas along the river's west bank hold standing water through much of the summer, providing breeding habitat. Mosquitoes can breed in as little as half an inch of water, and the natural low areas in the river-corridor neighborhoods in Fridley create exactly those conditions. Barrier treatments on your property vegetation, combined with eliminating any standing water you control, significantly reduce the population around your home."
+      },
+      {
+        question: "When do mice typically start entering homes in Fridley?",
+        answer: "In Fridley and the rest of Anoka County, the fall mouse surge typically begins in late September and accelerates through October as nighttime temperatures drop into the forties. Homes with older foundations from the 1950s and 1960s are especially vulnerable because the settling and material degradation over those decades creates more entry points than newer construction."
+      },
+      {
+        question: "Are deer ticks a real concern in Fridley, or just a rural problem?",
+        answer: "Deer ticks are present in Fridley, particularly in the northeast neighborhoods around Moore Lake and the river-corridor parks. They are not as dense as in more heavily wooded rural areas, but the habitat near the parks is sufficient to support populations. Nymphal ticks are active May through July and are small enough to be easy to miss. Tick checks after outdoor time in those areas are a reasonable precaution."
+      },
+      {
+        question: "What makes carpenter ants worse in Fridley than in newer suburbs?",
+        answer: "The mature tree canopy throughout Fridley's older neighborhoods gives carpenter ants established foraging routes and nesting sites close to homes. They don't eat wood the way termites do, but they excavate galleries in moisture-softened wood, which is often found in older homes with less-than-perfect moisture management at the foundation, windows, and roof edge. Addressing the moisture source is as important as treating the ants themselves."
+      }
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Minneapolis", slug: "minneapolis" },
+      { name: "Coon Rapids", slug: "coon-rapids" },
+      { name: "Brooklyn Park", slug: "brooklyn-park" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Fridley, MN | Mice, Carpenter Ants & Mosquitoes",
+    metaDescription: "Fridley pest control for house mice, carpenter ants, mosquitoes, and boxelder bugs in Anoka County. River-corridor specialists. Free inspection. Call 1-800-PEST-USA."
+  },
+  
+  {
+    slug: "andover",
+    name: "Andover",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~33,000",
+    county: "Anoka County",
+    climate: "cold-humid",
+    climateDriver: "Continental climate with severe winters, warm summers, and a sharp fall pest surge. The rural-residential character of outer Anoka County amplifies tick, mouse, and yellowjacket pressure compared to inner-ring suburbs.",
+    topPests: ["Deer Ticks", "House Mice", "Carpenter Ants", "Yellowjackets", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through November",
+        note: "Andover's wooded residential lots and proximity to agricultural edges create strong deer tick habitat. Nymphal ticks are active May through July; adults are active spring and fall."
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "Field mice from adjacent open agricultural land join the standard house mouse fall surge in Andover, creating heavier fall pressure than in more built-out suburbs."
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through August",
+        note: "Wooded residential lots throughout Andover support large carpenter ant colonies that forage into homes, especially where moisture is present in older decking or siding."
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note: "Naturalized wooded edges and large-lot buffers in Andover provide ground-nesting habitat. Colonies reach peak size and aggression in August and September."
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Boxelder bugs aggregate on south-facing walls throughout Anoka County in September, with Andover's older homes and large lots seeing significant populations."
+      }
+    ],
+    localHook: "Andover is one of the outer Anoka County suburbs where the residential character is still genuinely rural in feel: large lots, wooded edges, and open land nearby. That character is one of Andover's biggest selling points. It also means the pest calendar here looks more like a rural Minnesota community than a first-ring suburb. Deer ticks, field mice from adjacent agricultural land, yellowjackets in naturalized edges, and carpenter ants in wooded lots all require a more thorough approach than you'd need a few miles closer to the city.",
+    intro: "Living on a larger lot in Andover comes with genuine advantages and a pest calendar that reflects the outdoor environment you chose. Deer ticks are active in the wooded areas and brushy edges from April through November, with the highest risk for nymphal ticks in May through July. House mice and field mice both surge in October when temperatures fall. Carpenter ants work through the wooded lots from April through August. Yellowjackets build ground nests in naturalized yard edges and become aggressive in late summer. A systematic approach to each of these, timed to their seasonal pattern, is far less expensive and stressful than dealing with them after they're established inside your home.",
+    sections: [
+      {
+        heading: "Tick and Wildlife Pest Pressure in Andover",
+        body: "Andover's location on the outer edge of the Twin Cities metro, with significant open land, agricultural fields, and woodland adjacent to residential neighborhoods, creates tick pressure that inner-ring suburbs don't face at the same level. Deer ticks require white-tailed deer or other large mammals as hosts for their adult stage, and the deer population in outer Anoka County is substantial. That population sustains the tick life cycle in the wooded edges and brushy buffers that are common features of Andover's larger-lot neighborhoods. Adult deer ticks are active in spring (April through May) and again in fall (October through November). Nymphal ticks, which are more dangerous because they're harder to see and spot, are active from May through July. The nymphs are roughly the size of a poppy seed. Effective tick management in Andover starts with habitat modification in your own yard: keeping grass mowed at the lawn-woodland interface, removing brush and leaf litter from the yard perimeter, and creating a wood chip or gravel barrier between the lawn and any wooded edge. Barrier sprays applied to the lawn and vegetation perimeter in May and again in late summer significantly reduce the tick population on your property. The active ingredient matters for effectiveness and safety around pets and children, and a licensed applicator will select the right product and application rate for your specific yard. Wildlife control is a related concern in Andover's larger-lot setting. Raccoons, squirrels, and groundhogs are common and can damage structures, create entry points for mice, and in the case of raccoons, create other health concerns. If you're dealing with both tick pressure and wildlife activity on your property, a comprehensive inspection addresses both at the same time."
+      },
+      {
+        heading: "Fall Mouse Surge and Yellowjacket Season in Andover",
+        body: "October in Andover brings two pest situations that often overlap and both benefit from professional attention. The house mouse fall surge is a Minnesota-wide pattern, but in Andover it's amplified by the adjacent agricultural and open land. Field mice, which spend the summer in crop fields and tall grass, begin moving toward structures as fall temperatures drop and harvest disrupts their habitat. They join the standard house mouse population that overwinters in suburban homes. The result is a heavier fall mouse pressure than you'd see in a more densely built suburb where there's less open land nearby. Mouse exclusion in Andover requires a thorough exterior inspection that covers the foundation perimeter, crawlspace vents, garage door sweeps, and any utility penetrations. Gaps as small as a quarter inch are enough for a mouse to enter. Steel wool, copper mesh, and expanding foam are all appropriate materials depending on the location and size of the gap. Bait stations placed strategically at the perimeter manage the population while exclusion work is in progress. Yellowjackets follow a different but equally predictable fall pattern. In Andover, the abundance of naturalized yard edges, wooded buffers, and undisturbed ground along property lines provides prime ground-nesting habitat. Colonies grow through summer and reach peak size in August and September, which is also when workers become more aggressive, especially around outdoor dining areas and garbage. Locating and treating the nest is the effective solution. Treating a yellowjacket nest is one of the pest control tasks where DIY attempts can result in stings to multiple family members. A licensed technician locates the nest, treats at the appropriate time of day, and can do so safely with the right protective equipment and products."
+      }
+    ],
+    prevention: [
+      "Create a wood chip or gravel barrier at the edge of lawn and wooded areas to reduce deer tick migration into the yard.",
+      "Seal all foundation gaps, crawlspace vents, and utility penetrations before October to block both house mice and field mice.",
+      "Remove brush piles, leaf litter, and low-growing vegetation from the yard perimeter to reduce tick harborage near the home.",
+      "Inspect outdoor furniture, play equipment, and gear for yellowjacket nest activity in late summer before disturbing those items.",
+      "Keep bird feeders away from the house in fall and winter as spilled seed draws mice to the foundation perimeter."
+    ],
+    costNote: "Mouse exclusion and control in Andover typically runs $175 to $400 depending on home size and the number of entry points found. Tick barrier treatments average $125 to $200 per application, with a spring-plus-fall program covering the full season. Yellowjacket nest removal is $100 to $175 for a single nest. Ask about a fall perimeter package that combines mouse exclusion with exterior pest barrier treatment.",
+    faqs: [
+      {
+        question: "Why is the mouse problem worse in Andover than in closer-in suburbs?",
+        answer: "Andover's proximity to agricultural land and open fields means field mice as well as house mice move toward structures in October. When harvest disrupts their summer habitat, field mice travel toward homes. The larger lots and more naturalized yard edges in Andover also provide more harborage near the foundation than you'd find in a densely built neighborhood."
+      },
+      {
+        question: "What time of year are deer ticks most active in Andover?",
+        answer: "Adult deer ticks are active in spring (April through May) and fall (October through November). Nymphal ticks, which are harder to see and account for most human tick bites, are active May through July. Both life stages are present in Andover's wooded residential areas and woodland edges. Barrier treatments in May and late summer cover both peak periods."
+      },
+      {
+        question: "Are the yellowjackets in my yard ground-nesting or aerial-nesting in Andover?",
+        answer: "In Andover's naturalized yard settings, ground nesting is the more common yellowjacket pattern. They build in undisturbed soil along fence lines, in wood piles, and in naturalized yard edges. Aerial nests under eaves and in structures do occur, but if you're finding yellowjackets coming from a spot in the ground, it's a ground nest, and the colony can be substantial by August."
+      },
+      {
+        question: "Do I need to treat my whole property for ticks, or just the yard edge?",
+        answer: "Targeted treatment at the lawn-woodland interface and vegetation perimeter is the most effective approach and reduces unnecessary chemical use. The greatest tick exposure risk is at the transition zone between mowed lawn and naturalized or wooded areas. A licensed applicator will identify the specific zones on your property that need treatment and can apply a targeted barrier rather than treating the entire lawn."
+      }
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Coon Rapids", slug: "coon-rapids" },
+      { name: "Blaine", slug: "blaine" },
+      { name: "Brooklyn Park", slug: "brooklyn-park" }
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Andover, MN | Ticks, Mice & Carpenter Ants",
+    metaDescription: "Andover pest control for deer ticks, house mice, carpenter ants, and yellowjackets in Anoka County. Large-lot specialists. Free inspection. Call 1-800-PEST-USA."
+  },
+  
+  {
+    slug: "savage",
+    name: "Savage",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~33,000",
+    county: "Scott County",
+    climate: "cold-humid",
+    climateDriver: "Continental climate with cold winters, warm humid summers, and a sharp October pest surge. Scott County's rapid residential expansion on former agricultural land creates distinct yellowjacket and mouse conditions.",
+    topPests: ["House Mice", "Mosquitoes", "Yellowjackets", "Deer Ticks", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "Savage's rapid residential growth on former agricultural land means many homes are near or on former crop fields. Field mice join the standard house mouse fall surge, arriving quickly with October's temperature drops."
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through August",
+        note: "Murphy Creek and Prior Lake's drainage network create riparian wetlands that amplify mosquito pressure across southern Scott County in summer."
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note: "Disturbed soil from ongoing residential construction in southern Savage and Scott County creates prime yellowjacket ground-nesting conditions."
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through November",
+        note: "Naturalized creek corridors and wooded edges in Scott County support deer tick populations, particularly in the Murphy Creek drainage area."
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through August",
+        note: "Mature trees along the creek corridors and in established Savage neighborhoods provide carpenter ant foraging and nesting territory."
+      }
+    ],
+    localHook: "Savage has grown fast. Scott County has added housing at a pace that's left some of southern Savage with the combination of new homes, recently disturbed soil, and proximity to agricultural land that creates a specific set of pest conditions. Yellowjackets love disturbed ground. Field mice move toward new homes fast when harvest arrives. Murphy Creek and the Prior Lake drainage keep mosquito pressure elevated through summer. It's worth knowing which pests are most likely in your specific part of Savage.",
+    intro: "Savage's location in Scott County, between Burnsville and Shakopee with Murphy Creek and the Prior Lake drainage network running through it, puts mosquito pressure at the top of the summer pest calendar. The fast residential growth in southern Savage has created yellowjacket ground-nesting conditions in disturbed construction soil. October brings a mouse surge amplified by the agricultural land that still borders some of the newer subdivisions. And deer ticks are present in the creek corridors and wooded edges throughout Scott County. Each of these has a specific season and a specific response. Getting the timing right is what separates a good outcome from a frustrating one.",
+    sections: [
+      {
+        heading: "Mosquitoes, Ticks, and the Creek Corridors in Savage",
+        body: "Murphy Creek runs through a significant portion of Savage, and the drainage network connecting it to Prior Lake and the broader Scott County watershed creates a chain of riparian wetlands and low-lying areas that hold water through most of the summer. Mosquitoes breed in standing water. Even shallow temporary pools in low spots, clogged gutters, or ornamental water features can support breeding populations. But the natural wetland areas along the creek corridor generate the bulk of the mosquito pressure in Savage's river-adjacent neighborhoods. The active mosquito season in Scott County runs from late May through August, with the peak in July. A seasonal barrier spray program applied to lawn and vegetation areas reduces the resting population near your home between three and four weeks per application. A program of three to four applications covers the core season. The creek corridors that create mosquito habitat also support deer tick populations. Deer ticks require a humid, brushy, or wooded environment with sufficient large-mammal hosts to complete their life cycle. The wooded and brushy edges along Murphy Creek and in Scott County's naturalized areas provide that environment. Nymphal ticks, active May through July, are the life stage most likely to go unnoticed because they're very small. Adult ticks are active in spring and again in the fall. If your property backs up to a creek corridor, a naturalized edge, or a wooded buffer, tick barrier treatment at the yard perimeter in May is a high-value service. It significantly reduces the tick population in the zone immediately adjacent to your lawn and living areas without treating the entire property."
+      },
+      {
+        heading: "Yellowjackets and Fall Mice in Savage's Newer Subdivisions",
+        body: "Savage has grown rapidly, and that growth leaves behind a specific pest condition that established neighborhoods don't have: disturbed soil. Yellowjackets are opportunistic ground nesters. They prefer to establish in undisturbed soil, and construction-graded land that's been seeded but not yet fully established as dense lawn is exactly what they look for. New subdivisions in southern Savage and the Scott County growth areas consistently see higher yellowjacket ground-nesting rates in the first several years after development. Locating a ground nest is sometimes straightforward (you see workers entering and exiting a hole) and sometimes not (the entrance is hidden in mulch, long grass, or at a fence line). Either way, treating a yellowjacket nest is a task best handled by a licensed technician. The colony can contain several thousand workers by late summer, and disturbing the nest without the right products and protective equipment typically results in stings to anyone nearby. October is when the yellowjacket problem fades out and the mouse problem begins. Savage's location adjacent to agricultural land in Scott County means field mice are part of the fall equation. When corn and soybean fields are harvested in September and October, the mice that spent summer in those fields need somewhere to go. New construction and established homes alike are targets, but newer homes on recently converted agricultural land can see heavier pressure because the transition from field to suburb is still happening nearby. Exclusion work sealing the foundation perimeter, garage doors, and utility entries before mid-October is the most effective and least expensive mouse control strategy."
+      }
+    ],
+    prevention: [
+      "Empty and clean bird baths, pet water dishes, and any low spots that hold water to reduce mosquito breeding on your property.",
+      "Seal foundation gaps, utility penetrations, and garage door sweeps before October to block field mice and house mice.",
+      "Inspect undisturbed soil areas, mulched beds, and naturalized yard edges for yellowjacket ground nest activity in July and August.",
+      "Apply tick barrier spray at the lawn-creek corridor or lawn-wooded edge interface in May before nymphal ticks become active.",
+      "Keep grass mowed and trim back brushy growth along the yard perimeter to reduce tick harborage near the home."
+    ],
+    costNote: "Pest control costs in Savage are in line with the broader Scott County metro market. Mosquito season programs run $275 to $550 for three to five applications. A single yellowjacket nest removal is $100 to $175. Mouse exclusion and control starts at $150 to $350 for a typical home. Ask about a spring-and-fall perimeter package that bundles tick and mouse control in a single seasonal visit.",
+    faqs: [
+      {
+        question: "Why are there more yellowjackets in newer Savage subdivisions?",
+        answer: "Yellowjackets prefer to ground-nest in disturbed soil that hasn't yet developed a dense turf. Construction-graded land in Savage's newer subdivisions, especially where the grass isn't fully established, offers exactly the loose, partly disturbed soil yellowjackets look for. This tends to normalize over several years as turf densifies, but newer properties in developing parts of Scott County see this pattern regularly."
+      },
+      {
+        question: "Does Murphy Creek actually affect mosquito pressure in Savage neighborhoods?",
+        answer: "Yes. The riparian wetlands and low-lying drainage areas along Murphy Creek and the Prior Lake drainage network hold standing water through much of the summer mosquito season. Neighborhoods adjacent to the creek corridor tend to see heavier mosquito pressure than those further from the drainage. Barrier treatments on your property vegetation reduce the resting population near your home, even when the breeding source is off your property."
+      },
+      {
+        question: "When do fall mice typically start entering homes in Savage?",
+        answer: "In Scott County, the fall mouse surge typically begins in late September and accelerates through October as nighttime temperatures fall into the forties. In Savage, field mice from adjacent agricultural land can move earlier in September when crop harvests disrupt their summer habitat. Exclusion work completed by mid-September provides the best protection against both the early field mouse movement and the main October surge."
+      },
+      {
+        question: "Are deer ticks common in Savage's residential neighborhoods?",
+        answer: "Deer ticks are present along the creek corridors and naturalized edges in Scott County, including in Savage. They're not dense throughout the entire suburb, but properties backing onto the Murphy Creek corridor, wooded edges, or naturalized park areas have meaningful exposure. Nymphal ticks from May through July are the highest-risk life stage in terms of disease transmission, so early-season tick checks and barrier treatment matter most."
+      }
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Burnsville", slug: "burnsville" },
+      { name: "Shakopee", slug: "shakopee" },
+      { name: "Eden Prairie", slug: "eden-prairie" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Savage, MN | Mice, Mosquitoes & Yellowjackets",
+    metaDescription: "Savage pest control for house mice, mosquitoes, yellowjackets, and deer ticks in Scott County. Creek-corridor specialists. Free inspection. Call 1-800-PEST-USA."
+  },
+  
+  {
+    slug: "cottage-grove",
+    name: "Cottage Grove",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~40,000",
+    county: "Washington County",
+    climate: "cold-humid",
+    climateDriver: "Continental climate with cold winters and warm humid summers. The Mississippi River and St. Croix River watershed proximity create elevated mosquito and tick pressure in the river-corridor neighborhoods.",
+    topPests: ["House Mice", "Mosquitoes", "Deer Ticks", "Carpenter Ants", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "Washington County's sharp October temperature drops trigger the fall mouse surge. The southern portions of Cottage Grove with wooded lots also see field mouse pressure."
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through August",
+        note: "The Mississippi River corridor and the city's extensive parks system hold standing water through summer, supporting mosquito populations in the river-adjacent neighborhoods."
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through November",
+        note: "The Mississippi National River corridor and the wooded parks system in Cottage Grove support deer tick populations that Washington County residents take seriously."
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through August",
+        note: "Wooded lots and mature trees throughout Cottage Grove provide carpenter ant foraging routes and nesting sites from April through August."
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Boxelder bugs aggregate on south-facing walls and windows throughout Washington County in September, entering homes through gaps in window frames and siding."
+      }
+    ],
+    localHook: "Cottage Grove is on the Mississippi River in Washington County, south of St. Paul, and that river setting defines a lot of what homeowners deal with on the pest side. The river-corridor neighborhoods and the city's extensive parks system create mosquito and deer tick habitat that the more inland Washington County suburbs don't have at the same level. Fall brings a reliable mouse surge, and the wooded residential lots in southern Cottage Grove add carpenter ant pressure through summer.",
+    intro: "Cottage Grove homeowners deal with a pest calendar shaped by the Mississippi River corridor and the city's parks system. Mosquitoes are the main summer concern in the river-adjacent neighborhoods, with peak pressure from June through August. Deer ticks are present in the wooded parks and river-corridor areas throughout the spring and fall seasons. The October mouse surge is reliable and fast, especially in homes with wooded lots or proximity to open land in southern Cottage Grove. Carpenter ants work through the mature tree canopy from April onward. Knowing which pest is most likely in your specific location in Cottage Grove is the first step to effective control.",
+    sections: [
+      {
+        heading: "Mosquitoes and Deer Ticks Along Cottage Grove's River Corridor",
+        body: "The Mississippi River forms the eastern boundary of Cottage Grove, and the river-corridor neighborhoods and parks system create conditions that push mosquito and tick pressure above what you'd typically see in a Washington County suburb this size. The river's floodplain creates natural low areas that hold standing water after rain events through most of the summer season. Mosquito breeding happens fast in that environment, and the populations built in the floodplain areas migrate into adjacent residential neighborhoods. Peak mosquito season in this part of Washington County runs from late June through late August. A seasonal barrier program of three to four applications, spaced three to four weeks apart, keeps the resting population near your home reduced through the season. Deer ticks use the same river-corridor habitat. They require a wooded or brushy environment with white-tailed deer or other large mammals to complete their life cycle, and the forested areas along the Mississippi National River corridor and in Cottage Grove's larger parks provide exactly that. Adult ticks are active in spring and again in fall. Nymphal ticks, which are considerably smaller and harder to spot, are active from May through July and account for the majority of tick bites. The parks in Cottage Grove see regular use for hiking, running, and family activities, and those are the highest-exposure settings. Tick barrier treatment at your property perimeter reduces the population in the immediate zone around your home. For families who spend time in the parks, checking for ticks after outdoor time from May through July is a practical precaution that requires no product at all."
+      },
+      {
+        heading: "Fall Mouse Control and Year-Round Pests in Cottage Grove",
+        body: "Washington County's fall temperature drop is predictable and fast. By mid-October, nighttime lows are consistently in the forties, and mice that have spent the summer in yard and garden areas start moving toward structures. In Cottage Grove, the southern portions of the city where wooded lots and open land are more common tend to see this surge a week or two earlier than the denser northern neighborhoods, partly because field mice from open areas are part of the population moving. The mouse exclusion approach works regardless of the source. A thorough exterior inspection identifies the most common entry points: foundation gaps where settling has created space, utility pipe and cable penetrations that weren't properly sealed, and the gap between the sill plate and the foundation that is common in homes built before the 1990s. A licensed technician seals the most critical points with appropriate materials and places bait stations at the exterior perimeter to manage the population. Carpenter ants run on a different seasonal clock. They emerge in April and forage through May, June, July, and August in Cottage Grove's wooded neighborhoods. They don't cause damage at the speed termites do (and termites are not a significant concern in Washington County), but a mature carpenter ant colony excavating galleries in moisture-softened wood in a sill plate or roof soffit can cause real damage over a few seasons. The treatment usually combines a perimeter spray with direct treatment of any satellite nesting sites found in the structure. Boxelder bugs are the fall pest that gets the most complaints per actual damage caused, which is very little. They don't bite, don't eat wood, and don't spread disease. What they do is aggregate on south-facing walls and windows in September in large numbers, and enter through any gap they can find. Sealing window frames and entry gaps before September reduces the number that make it inside."
+      }
+    ],
+    prevention: [
+      "Schedule exterior mouse exclusion work in September, before the October surge begins, to seal gaps before mice arrive.",
+      "Apply tick barrier treatment at the yard perimeter in May to cover the peak nymphal tick season from May through July.",
+      "Eliminate standing water in low areas of your yard within 48 hours of rain to reduce mosquito breeding near the river corridor.",
+      "Inspect the roofline, window frames, and foundation perimeter for carpenter ant moisture damage in early spring before colonies become active.",
+      "Seal window frames and door thresholds before September to limit boxelder bug entry during the fall aggregation period."
+    ],
+    costNote: "Pest control in Cottage Grove is priced in line with the Washington County market. Seasonal mosquito programs run $300 to $575 for four to five applications. Mouse exclusion and control is $150 to $375 depending on home size and entry points found. Tick barrier treatment is $125 to $195 per application. Carpenter ant treatment starts at $175. Ask about combined perimeter programs that cover multiple pests in a single visit.",
+    faqs: [
+      {
+        question: "Are mosquitoes noticeably worse in Cottage Grove than in other Washington County suburbs?",
+        answer: "In the river-corridor neighborhoods specifically, yes. The Mississippi River floodplain creates natural low areas that hold standing water through the summer, amplifying mosquito breeding in the eastern portions of the city and near the parks system along the river. Neighborhoods in the western and northern parts of Cottage Grove are closer to the county average."
+      },
+      {
+        question: "How serious is the deer tick risk in Cottage Grove's parks?",
+        answer: "Deer ticks are established in the wooded areas along the Mississippi River corridor and in Cottage Grove's larger parks. The risk isn't as high as in heavily wooded rural areas of Washington County, but it's real, especially from May through July when nymphal ticks are active. Tick checks after outdoor time in the parks are a simple and effective precaution during that window."
+      },
+      {
+        question: "What's the most important thing I can do before fall to protect my home from mice?",
+        answer: "Seal the entry points before they arrive. A licensed technician doing a perimeter inspection in September will find the specific gaps in your foundation, utility penetrations, and sill plate areas that mice are most likely to use. Sealing those points with steel wool, copper mesh, and caulk before mid-October, when the surge typically starts, is far more effective than reactive bait station control after mice are already inside."
+      },
+      {
+        question: "Do I need to worry about termites in Cottage Grove?",
+        answer: "Subterranean termites are not a significant concern in Washington County or elsewhere in Minnesota. The severe Minnesota winters limit their range significantly. Carpenter ants are the wood-damaging insect that Cottage Grove homeowners need to watch for, particularly in homes with moisture issues in the foundation, siding, or roofline. They're a different problem with a different treatment."
+      }
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Woodbury", slug: "woodbury" },
+      { name: "Inver Grove Heights", slug: "inver-grove-heights" },
+      { name: "Maplewood", slug: "maplewood" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Cottage Grove, MN | Mice, Mosquitoes & Ticks",
+    metaDescription: "Cottage Grove pest control for house mice, mosquitoes, deer ticks, and carpenter ants in Washington County. River-corridor specialists. Free inspection. Call 1-800-PEST-USA."
+  },
+  
+  {
+    slug: "elk-river",
+    name: "Elk River",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~26,000",
+    county: "Sherburne County",
+    climate: "cold-humid",
+    climateDriver: "Continental climate with severe winters, warm humid summers, and a sharp fall pest surge. Sherburne County's rural-suburban character and river confluences create above-average tick, mouse, and mosquito pressure.",
+    topPests: ["Deer Ticks", "House Mice", "Carpenter Ants", "Mosquitoes", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through November",
+        note: "Elk River's woodland and agricultural surroundings in Sherburne County support substantial deer tick habitat, particularly along the Elk River and Mississippi River corridors."
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "Sherburne County's combination of agricultural land and woodland surrounding Elk River means field mice join the standard house mouse fall surge, creating elevated October pressure."
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through August",
+        note: "Wooded residential areas along the Elk River and Mississippi River corridors provide extensive carpenter ant foraging and nesting habitat through the summer season."
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "June through August",
+        note: "The Elk River confluence with the Mississippi and the surrounding floodplain wetlands create mosquito habitat that is more significant than in comparable Twin Cities suburbs of the same size."
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note: "Naturalized edges and wooded buffers throughout Elk River's residential areas provide ground-nesting habitat, with colonies peaking in size and aggression in August and September."
+      }
+    ],
+    localHook: "Elk River is the Sherburne County seat, sitting at the confluence of the Elk River and the Mississippi, about 35 miles northwest of Minneapolis. That location matters for pest control because two river floodplains converge here. The mosquito habitat in Elk River is more significant than in most comparable-sized suburbs further into the metro. The woodland and agricultural character of Sherburne County surrounding the city puts deer tick and field mouse pressure at a rural level. And the wooded river corridors through the residential areas give carpenter ants extensive territory.",
+    intro: "Elk River's pest calendar is shaped by its geography: a river-confluence city on the edge of the Twin Cities metro, surrounded by Sherburne County's woodland and agricultural land. Deer ticks are the year-round concern in the wooded areas, with nymphal tick season running May through July. Mosquitoes peak June through August in the floodplain-adjacent neighborhoods. Carpenter ants work through the wooded residential areas from April onward. October brings the fastest and most predictable pest surge of the year, as field mice from surrounding agricultural land combine with house mice to create a heavy fall pressure on structures.",
+    sections: [
+      {
+        heading: "Key Pest Pressures in Elk River",
+        body: "Elk River's location at the Elk River and Mississippi River confluence creates wetland and floodplain habitat that amplifies mosquito pressure beyond what most comparable suburbs experience. The floodplain areas hold standing water through much of the summer, and the natural low terrain along both river corridors extends mosquito habitat well into the residential areas adjacent to the water. Peak mosquito season runs June through August. Barrier treatments on lawn and vegetation areas are effective at reducing the resting population near your home, though the breeding source in the floodplain areas is off most homeowners' property and outside their control. A seasonal program covers the core summer window. Deer ticks use the same wooded and brushy corridor habitat that runs through Elk River's residential neighborhoods and parks. Sherburne County's deer population is substantial, and that population sustains the tick life cycle in the river-corridor woodland. Adults are active in spring and fall. Nymphal ticks are active May through July and are the life stage most associated with disease transmission. Tick barrier treatment at the yard perimeter in May is the most effective single service for reducing exposure on your property. Carpenter ants are the other consistent summer pest in Elk River's wooded neighborhoods. They're common wherever there are mature trees and any moisture issue in the structure. The river-corridor neighborhoods in particular have the mature canopy and the proximity to natural wood debris that supports large carpenter ant colonies. A spring inspection that identifies any moisture-softened wood at the foundation, deck, or roofline is the starting point for effective carpenter ant management."
+      },
+      {
+        heading: "Fall Mice and Yellowjackets in Sherburne County",
+        body: "October is the month that defines fall pest control in Elk River. The temperature drop in Sherburne County is fast, and when it arrives, two things happen simultaneously: house mice move toward structures, and field mice from the surrounding agricultural land are disrupted by fall harvest and also move toward structures. In Elk River, that combination creates a heavier fall mouse surge than most Twin Cities suburbs see. Homes on the southern and western edges of the city, closest to agricultural and open land, tend to feel this first. But it reaches throughout the city by mid-October. The case for exclusion work before October is straightforward. Bait stations and traps manage the mice that are already inside or already entering. Exclusion, which means sealing the gaps and penetrations that give mice access, prevents the problem from starting. A thorough exterior inspection in late September covers the foundation perimeter, crawlspace vents, sill plate gaps, utility penetrations, and garage door seals. Gaps found at that inspection are sealed before the surge begins. Yellowjackets in Elk River follow the same season as elsewhere in Minnesota, but the abundance of naturalized edges, wooded buffers, and undisturbed ground throughout the city's residential fabric means ground-nesting opportunities are plentiful. Colonies build through summer and reach their aggressive peak in August and September. After the first hard frost, yellowjacket colonies collapse, and workers do not survive the Minnesota winter. The nest itself is abandoned. But a colony in an active location, under a deck, along a fence line, or near an outdoor dining area, needs to be managed before the peak-aggression late-summer period if you want to use your outdoor space comfortably."
+      }
+    ],
+    prevention: [
+      "Schedule fall mouse exclusion in late September, before the October surge, to seal foundation and utility entry points proactively.",
+      "Apply tick barrier treatment at the yard's wooded or naturalized edge in May to reduce nymphal tick exposure from May through July.",
+      "Eliminate standing water in low areas within 48 hours of rain to reduce mosquito breeding in the floodplain-adjacent neighborhoods.",
+      "Inspect naturalized yard edges and undisturbed ground areas in July for signs of yellowjacket ground-nest activity.",
+      "Keep firewood stacked on a rack away from the foundation and off the ground to reduce both mouse and carpenter ant harborage."
+    ],
+    costNote: "Pest control costs in Elk River reflect the Sherburne County market and the range of services the local pest calendar requires. Mouse exclusion and control runs $175 to $400. Tick barrier programs are $125 to $200 per application, typically two per season (spring and late summer). Mosquito season programs run $275 to $550. Carpenter ant treatment starts at $175. Combined perimeter packages that cover multiple seasonal pests often offer better value than individual service calls.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure worse in Elk River than in other suburbs 35 miles from Minneapolis?",
+        answer: "Two rivers converge in Elk River, and both create floodplain wetlands that hold standing water through the summer mosquito season. The Elk River floodplain and the Mississippi River corridor together create more natural mosquito breeding habitat than comparable suburbs located further from major waterways. The population built in those floodplain areas moves into adjacent residential neighborhoods, making Elk River's mosquito pressure higher than its population size would otherwise suggest."
+      },
+      {
+        question: "When do field mice typically show up in Elk River homes?",
+        answer: "Field mice in Sherburne County begin moving toward structures when fall crop harvests disrupt their summer habitat, which in most years is September. They combine with the standard house mouse fall surge that typically peaks in October when temperatures fall. In Elk River, the two populations arriving in sequence mean fall mouse pressure can start a few weeks earlier than in suburbs without adjacent agricultural land."
+      },
+      {
+        question: "Are deer ticks common in Elk River's residential neighborhoods?",
+        answer: "Yes, particularly along the Elk River and Mississippi River corridors and in the wooded residential areas adjacent to those corridors. Sherburne County's woodland character and deer population support meaningful tick populations throughout the city. Nymphal ticks are active May through July and are small enough to be easy to miss. Tick checks after outdoor time in wooded or brushy areas are a practical precaution during that window."
+      },
+      {
+        question: "How do I know if I have a yellowjacket ground nest or a bumblebee nest?",
+        answer: "Yellowjackets entering and exiting a ground hole are typically fast-moving, uniform in size, and will respond aggressively if the area is disturbed. Bumblebee nests are also in the ground but the bees are larger, slower-moving, and generally non-aggressive unless directly threatened. If you're unsure, don't disturb the area and contact a licensed technician who can identify the species and recommend the right response. Yellowjackets in a high-traffic area warrant prompt treatment."
+      }
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Coon Rapids", slug: "coon-rapids" },
+      { name: "Blaine", slug: "blaine" },
+      { name: "St. Cloud", slug: "st-cloud" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Elk River, MN | Ticks, Mice & Carpenter Ants",
+    metaDescription: "Elk River pest control for deer ticks, house mice, carpenter ants, and mosquitoes in Sherburne County. River-corridor specialists. Free inspection. Call 1-800-PEST-USA."
+  },
 ];

@@ -2072,4 +2072,474 @@ export const missouriCities: CityLocation[] = [
     metaDescription:
       "Kirkwood pest control for subterranean termites, brown recluse spiders, carpenter ants, house mice and ants. St. Louis County historic inner suburb Victorian housing specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  
+  {
+    slug: "wildwood",
+    name: "Wildwood",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~36,000",
+    county: "St. Louis County",
+    climate: "cold-humid",
+    climateDriver: "Four-season continental climate with cold winters, hot humid summers, and reliable fall pest surges. St. Louis County sits in Missouri's heavy subterranean termite hazard zone, and the wooded character of Wildwood amplifies tick and carpenter ant pressure.",
+    topPests: ["Brown Recluse Spiders", "Deer Ticks", "Subterranean Termites", "Carpenter Ants", "House Mice"],
+    pestProfile: [
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "University of Missouri Extension confirms brown recluse spiders are established throughout St. Louis County. Wildwood's wooded lots, outbuildings, wood piles, and naturalized edges provide prime harborage."
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "April through November",
+        note: "Wildwood's heavily wooded residential character and the Meramec River corridor create significant deer tick habitat in St. Louis County's outer western suburbs."
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note: "St. Louis County is in Missouri's heavy subterranean termite hazard zone. Wildwood's wooded lots with moisture-holding soil and wood debris increase structural exposure."
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through August",
+        note: "The extensive wooded lots and mature tree canopy throughout Wildwood give carpenter ants foraging routes and nesting sites close to structures."
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "Missouri's sharp October temperature drops drive the fall mouse surge. Wildwood's wooded character means field mouse pressure is part of the equation in areas adjacent to open land."
+      }
+    ],
+    localHook: "Wildwood is different from most St. Louis County suburbs. The large lots, wooded buffers, outbuildings, and the rural character of Missouri's outer western suburbs create a pest environment that looks more like rural Missouri than a suburb. Brown recluse spiders are established throughout St. Louis County, and in Wildwood the wood piles, naturalized edges, and structures with crawl spaces or basements give them more harborage than they'd find in a denser neighborhood. Add termite pressure from Missouri's heavy hazard zone and deer ticks along the Meramec corridor, and Wildwood's pest calendar requires real attention.",
+    intro: "Wildwood homeowners deal with a pest profile that reflects the wooded, large-lot character of this outer St. Louis County suburb. Brown recluse spiders are established throughout St. Louis County, per University of Missouri Extension, and Wildwood's abundance of wood piles, outbuildings, naturalized edges, and basement storage areas gives them exactly the dark, undisturbed harborage they need year-round. Subterranean termites are active in Missouri's heavy hazard zone and can damage structures for years before they're detected. Deer ticks are present along the Meramec River corridor and in the wooded residential areas. Fall brings a reliable mouse surge. Each of these benefits from a different response, and a licensed technician who knows Wildwood's specific conditions is the starting point.",
+    sections: [
+      {
+        heading: "Brown Recluse Spiders and Termites in Wildwood",
+        body: "Brown recluse spiders are the pest that catches most Wildwood homeowners off guard the first time they find one. University of Missouri Extension is clear that brown recluse spiders are established throughout Missouri, including St. Louis County, and are commonly found in homes and outbuildings. They are not aggressive and do not seek out human contact, but their bite can cause a serious wound in some individuals, particularly if left untreated. The conditions in Wildwood are about as favorable for brown recluse habitation as you'll find in a residential setting. Large lots with wood piles, garden sheds, detached garages, naturalized yard edges, and homes with crawl spaces, basements, and unfinished storage areas all provide the dark, undisturbed, low-humidity spaces brown recluse spiders prefer. They are found year-round but are most active from spring through fall when they actively hunt. The practical implication for Wildwood homeowners is that inspecting storage areas, shaking out gear stored in garages or sheds, and wearing gloves when moving wood are sensible habits. A licensed pest control program that includes perimeter and interior brown recluse treatment, combined with sticky traps to monitor activity levels, is the most effective management approach. Subterranean termites are a separate and more structurally serious concern. Missouri's heavy hazard zone covers St. Louis County, and termites are active throughout the county. Wildwood's wooded lots with moisture-retaining soil, leaf debris, and wood-to-soil contact in older landscaping and structures create conditions that increase termite risk. Termite swarmers, which are the winged reproductive forms, typically emerge in March through May in Missouri and are often the first sign homeowners notice. A thorough inspection by a licensed termite control professional, followed by a soil treatment or bait system if activity is found, is the standard management approach."
+      },
+      {
+        heading: "Deer Ticks, Mice, and Seasonal Pests in Wildwood",
+        body: "Deer ticks are a genuine concern in Wildwood, more so than in the inner St. Louis County suburbs. The Meramec River corridor runs through the southern part of St. Louis County, and the wooded, rural character of Wildwood's residential lots is the kind of habitat that sustains tick populations in significant numbers. White-tailed deer are common in Wildwood's wooded neighborhoods, and the deer-to-tick life cycle is well established here. Adult ticks are active in spring and fall. Nymphal ticks are active May through July and are the life stage most often associated with disease transmission because they're small enough to go unnoticed during a skin check. Tick barrier treatment at the lawn-woodland interface in May covers the nymphal peak season. For properties with substantial wooded areas, a second application in late summer covers the fall adult tick season. The fall mouse surge follows Missouri's reliable October temperature pattern. Wildwood's wooded character means field mice can be part of the population moving toward structures in fall, alongside house mice. A perimeter inspection in September identifies the entry points before the surge arrives. Carpenter ants are the other warm-season pest that Wildwood's wooded lots invite. They forage through the mature canopy from April through August, and the wooded residential character here provides far more territory and nesting options than you'd find in a less-wooded suburb. Any moisture-softened wood at the foundation, deck, or roof edge is a candidate for satellite nesting. Spring inspection covers both carpenter ant entry points and any early termite indicators, making it a high-value service for Wildwood homeowners."
+      }
+    ],
+    prevention: [
+      "Move wood piles away from the house and keep them stacked off the ground to reduce brown recluse spider and mouse harborage near the structure.",
+      "Schedule a termite inspection every one to two years given St. Louis County's heavy hazard zone designation.",
+      "Apply tick barrier treatment at the yard's woodland interface in May to reduce nymphal tick exposure through July.",
+      "Inspect and seal foundation gaps, crawlspace vents, and utility penetrations in September before the fall mouse surge.",
+      "Use gloves and shake out gear stored in the garage or outbuildings before use to avoid accidental brown recluse contact."
+    ],
+    costNote: "Pest control costs in Wildwood reflect the outer St. Louis County market and the range of services the pest calendar requires. Brown recluse management programs start around $175 to $350 per visit depending on home size and treatment scope. Termite inspections are often free; treatment costs vary by method ($800 to $2,500 for a typical home). Tick barrier treatment is $125 to $200 per application. Mouse exclusion and control runs $175 to $400. Ask about an annual protection plan that bundles termite monitoring with seasonal perimeter pest control.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really common in Wildwood, or is that overstated?",
+        answer: "Brown recluse spiders are genuinely established throughout St. Louis County, including Wildwood. University of Missouri Extension confirms their presence across Missouri. In Wildwood specifically, the wooded lots, outbuildings, wood piles, and homes with crawl spaces and unfinished basements provide the dark, undisturbed harborage conditions they prefer. Finding one in a garage, basement, or storage area is not unusual. A professional inspection and management program is the most reliable way to reduce their presence."
+      },
+      {
+        question: "How do I know if I have a termite problem in my Wildwood home?",
+        answer: "Termite swarmers (winged reproductive termites) appearing near windows or door frames in March through May are often the first sign. Mud tubes running along the foundation, piers, or floor joists are a more definitive indicator. Wood that sounds hollow when tapped, or that shows blistering or discoloration in the paint, can also indicate termite damage. Because termites can be active for years before detection, annual or biennial inspections by a licensed termite professional are the most reliable early-warning approach in St. Louis County's heavy hazard zone."
+      },
+      {
+        question: "What time of year should I worry most about deer ticks in Wildwood?",
+        answer: "Nymphal ticks are the highest-concern life stage, active May through July. They're very small, and bites often go unnoticed until the tick has been attached for a significant time. Adult ticks are larger and easier to spot, and they're active in spring (April through May) and fall (October through November). If your property has a woodland edge or backs to the Meramec corridor area, May through July is the window to be most careful with tick checks after outdoor time."
+      },
+      {
+        question: "Do I need professional pest control if I already try to keep a clean home?",
+        answer: "Brown recluse spiders and subterranean termites are two pests that can be established in a well-maintained home with no housekeeping issue involved. Brown recluse spiders enter from outside and can live in wall voids, crawl spaces, and attic areas without any visible clue until you encounter one. Termites are underground and attack the structure, not food or clutter. Neither is a reflection of how clean or maintained your home is. Both benefit from professional inspection and targeted treatment."
+      }
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Chesterfield", slug: "chesterfield" },
+      { name: "Ballwin", slug: "ballwin" },
+      { name: "Kirkwood", slug: "kirkwood" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Wildwood, MO | Brown Recluse, Termites & Ticks",
+    metaDescription: "Wildwood pest control for brown recluse spiders, termites, deer ticks, and mice in St. Louis County. Wooded-lot specialists. Free inspection. Call 1-800-PEST-USA."
+  },
+  
+  {
+    slug: "liberty",
+    name: "Liberty",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~31,000",
+    county: "Clay County",
+    climate: "cold-humid",
+    climateDriver: "Four-season continental climate with cold winters, hot humid summers, and reliable fall pest surges. Clay County is in Missouri's heavy subterranean termite hazard zone, and brown recluse spiders are confirmed throughout the Kansas City metro area.",
+    topPests: ["Brown Recluse Spiders", "Subterranean Termites", "House Mice", "German Cockroaches", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "University of Missouri Extension confirms brown recluse spiders are established throughout Clay County and the Kansas City metro. Liberty's older residential neighborhoods and wooded creek corridors provide favorable harborage."
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note: "Clay County is in Missouri's heavy subterranean termite hazard zone. Termite swarmers are commonly reported in Liberty's established residential neighborhoods in spring."
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "Missouri's sharp October temperature drops trigger a reliable fall mouse surge in Liberty. Older housing stock in the established neighborhoods has the accumulated entry vulnerabilities that mice exploit."
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a year-round pressure in Liberty's older multi-family buildings, restaurant district, and homes with moisture issues. They reproduce quickly and require professional treatment."
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Boxelder bugs aggregate on south-facing walls and window frames throughout Clay County in fall, entering homes through gaps in significant numbers."
+      }
+    ],
+    localHook: "Liberty is the Clay County seat, a community north of Kansas City with a mix of older established neighborhoods, newer subdivisions, and the wooded creek corridors of the Missouri River watershed's tributary system. Brown recluse spiders are confirmed throughout Clay County and the Kansas City metro by University of Missouri Extension. Termite pressure is heavy throughout Missouri. And Liberty's older residential fabric has the kind of settled, moisture-exposed foundations that mice and cockroaches find accessible. It's a pest calendar that rewards a proactive annual approach.",
+    intro: "Liberty homeowners deal with a pest profile typical of the Kansas City metro's established suburbs: brown recluse spiders confirmed throughout Clay County, subterranean termites active in Missouri's heavy hazard zone, fall mice entering through older foundation gaps, and German cockroaches requiring consistent management in older structures. Each of these requires a different approach and different timing. Brown recluse management is a year-round program. Termite protection is a long-term investment. Mouse exclusion has a narrow seasonal window in September and October. German cockroach control is most effective with professional gel bait and crack-and-crevice treatment. Understanding the timing makes the control far more effective.",
+    sections: [
+      {
+        heading: "Brown Recluse and Termite Pressure in Liberty",
+        body: "Brown recluse spiders are the pest that generates the most concern among Liberty homeowners, and that concern is well-founded. University of Missouri Extension confirms that brown recluse spiders are established throughout Missouri, with populations throughout Clay County and the Kansas City metro. They're not a regional curiosity. They're a year-round resident of older homes, garages, basements, and crawl spaces throughout Liberty's established neighborhoods. Brown recluse spiders are shy and non-aggressive. They hide in dark, undisturbed spaces: behind stored items in basements, inside wall voids, in the gap between a box spring and the mattress, in closets with stored clothing. Most bites occur when a spider is disturbed or accidentally pressed against skin. The wound from a brown recluse bite can range from minor to significant, and medical attention is appropriate if a bite is suspected. Management begins with a thorough inspection to identify the locations where they're active, followed by perimeter and interior treatment with appropriate residual products, and ongoing sticky trap monitoring to track population levels. Liberty's older residential neighborhoods also carry meaningful termite exposure. Clay County is in Missouri's heavy subterranean termite hazard zone. Termite swarmers, the winged reproductive form, typically emerge in spring (March through May) in Missouri and are often the first sign a homeowner notices. But swarmers emerging inside the home indicate that a colony is already established in the structure. Annual termite inspections in Liberty are a prudent investment given the county's hazard zone classification. If activity is found, the choice between soil liquid treatment and bait station monitoring systems depends on the construction type, the extent of activity, and the homeowner's preferences."
+      },
+      {
+        heading: "Fall Mice, Cockroaches, and Boxelder Bugs in Liberty",
+        body: "Liberty's fall pest calendar is predictable and arrives fast when Missouri's October temperatures fall. House mice begin moving toward structures when nighttime temperatures drop into the forties, which typically happens in the last two weeks of October. Liberty's older residential neighborhoods, particularly those with housing from the 1960s and earlier, have the accumulated foundation settling, sill plate gaps, and utility penetrations that give mice straightforward access to wall voids and living spaces. The fall mouse surge in Liberty is rarely a subtle problem. Homeowners often report hearing scratching in walls within days of the first cold snap. Exclusion work in September, before the surge begins, is the most cost-effective approach. A licensed technician identifies and seals the primary entry points before mice are actively looking for them. Bait station programs at the exterior perimeter manage the population during the fall and winter months. German cockroaches in Liberty are a separate and year-round concern, most common in older multi-family buildings, in restaurant and commercial kitchen areas, and in residential properties with any ongoing moisture issue in the kitchen or bathrooms. They do not tolerate cold the way outdoor pests do, so they don't die back in winter. They breed rapidly, with a single female producing hundreds of offspring in her lifetime. Professional gel bait treatment, applied by a licensed technician to the cracks and crevices where cockroaches harborage, is far more effective than spray products alone. Boxelder bugs round out the fall calendar. They don't damage structures or bite people, but the aggregations on south-facing walls in September and October are large and conspicuous, and individuals entering through window frame gaps are common. Sealing those gaps in late summer overlaps well with fall mouse exclusion work."
+      }
+    ],
+    prevention: [
+      "Reduce clutter in basements, garages, and storage areas to limit dark, undisturbed brown recluse harborage sites near living areas.",
+      "Schedule a termite inspection every one to two years given Clay County's heavy hazard zone designation.",
+      "Seal foundation gaps, sill plate gaps, and utility penetrations in September to block fall mouse entry before the October surge.",
+      "Fix any kitchen or bathroom moisture issues promptly, as German cockroaches establish first where moisture is consistently available.",
+      "Seal window frames and door thresholds in late summer before boxelder bug aggregation season begins in September."
+    ],
+    costNote: "Pest control costs in Liberty are in line with the Clay County and Kansas City metro market. Brown recluse management programs start at $150 to $325 per visit. Termite inspections are typically free; treatment costs vary by method ($800 to $2,200 for a typical home). Mouse exclusion and control runs $150 to $350. German cockroach treatment starts at $125 to $250 and typically requires two to three visits for full control. Ask about annual protection plans that bundle termite monitoring with seasonal pest control.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders actually common in Liberty homes, or are people overestimating the risk?",
+        answer: "Brown recluse spiders are genuinely common in Liberty and throughout Clay County. University of Missouri Extension documents them throughout Missouri, and the Kansas City metro area has well-established populations. They're found in older homes, basements, garages, and crawl spaces throughout Liberty's residential neighborhoods. Most homeowners who've lived here for a few years have seen at least one."
+      },
+      {
+        question: "How do termite swarmers in spring tell me if I have a termite problem?",
+        answer: "Termite swarmers emerging outdoors near your foundation or in your yard may simply mean a colony is active somewhere in the soil nearby. Swarmers emerging inside your home, near windows, or from walls are a stronger indicator that a colony is already established within the structure. Either situation warrants a professional inspection. Swarmers themselves don't damage wood. They're looking to start new colonies. The workers already in the soil are the ones causing structural damage."
+      },
+      {
+        question: "Why does the fall mouse surge happen so fast in Liberty?",
+        answer: "Missouri's October temperature drop is fast and reliable. When nighttime temperatures fall through the forties, mice move quickly toward warm structures. The speed of the surge, from outdoor pest to in-wall scratching, can be a matter of days for homes with existing entry gaps. Older housing stock in Liberty's established neighborhoods has had decades to develop those gaps through settling and material degradation, which is why the fall surge hits harder in older homes than in newer construction."
+      },
+      {
+        question: "Can I treat German cockroaches with over-the-counter sprays?",
+        answer: "Over-the-counter spray products tend to scatter cockroaches rather than eliminate them. They're also repellent, which means cockroaches move away from treated surfaces rather than contacting the product. Professional gel bait treatments work differently: cockroaches are attracted to them, consume them, and transfer the active ingredient to other cockroaches through contact. For German cockroaches, which reproduce rapidly and establish quickly in wall voids and under appliances, professional gel bait treatment is significantly more effective than spray products."
+      }
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Kansas City", slug: "kansas-city" },
+      { name: "Independence", slug: "independence" },
+      { name: "Lee's Summit", slug: "lees-summit" }
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Liberty, MO | Brown Recluse, Termites & Mice",
+    metaDescription: "Liberty pest control for brown recluse spiders, termites, house mice, and cockroaches in Clay County. Kansas City metro specialists. Free inspection. Call 1-800-PEST-USA."
+  },
+  
+  {
+    slug: "hazelwood",
+    name: "Hazelwood",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~25,000",
+    county: "St. Louis County",
+    climate: "cold-humid",
+    climateDriver: "Four-season continental climate with cold winters, hot humid summers, and reliable fall pest surges. St. Louis County is in Missouri's heavy subterranean termite hazard zone, and brown recluse spiders are confirmed throughout the county.",
+    topPests: ["Brown Recluse Spiders", "German Cockroaches", "Subterranean Termites", "House Mice", "Norway Rats"],
+    pestProfile: [
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "University of Missouri Extension confirms brown recluse spiders are established throughout St. Louis County. Hazelwood's residential areas see them in homes with basements, crawl spaces, and attached garages."
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Hazelwood's mix of industrial, commercial, and residential areas creates German cockroach pressure, particularly near the freight and manufacturing corridors and in older residential structures."
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note: "St. Louis County is in Missouri's heavy subterranean termite hazard zone. Spring termite swarmers are a regular occurrence in Hazelwood's established residential neighborhoods."
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "The fall mouse surge is reliable in Hazelwood, with Missouri's October temperature drops driving mice toward residential structures through established entry points."
+      },
+      {
+        name: "Norway Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, more pressure October through April",
+        note: "Norway rats are associated with the industrial and commercial areas in Hazelwood's freight and manufacturing corridors. Residential areas adjacent to those zones see spillover pressure."
+      }
+    ],
+    localHook: "Hazelwood is a northwest St. Louis County suburb with a mixed character: established residential neighborhoods alongside Boeing's defense manufacturing facility and a significant freight corridor. That industrial and commercial presence creates pest pressure that adjacent purely residential suburbs don't experience at the same level. German cockroaches and Norway rats are more common near manufacturing and freight areas. Brown recluse spiders are established throughout St. Louis County. And termite pressure is heavy in Missouri's hazard zone.",
+    intro: "Hazelwood's pest profile reflects the city's mix of established residential neighborhoods, industrial facilities, and commercial corridors. Brown recluse spiders are confirmed throughout St. Louis County by University of Missouri Extension and are routinely found in Hazelwood homes with basements, crawl spaces, and attached garages. German cockroaches and Norway rats are more active in Hazelwood than in comparable suburban settings because of the industrial and freight activity near residential neighborhoods. Subterranean termites are active in St. Louis County's heavy hazard zone. The fall mouse surge is reliable and follows Missouri's October temperature pattern. Each of these requires a different management approach.",
+    sections: [
+      {
+        heading: "Brown Recluse Spiders and Termites in Hazelwood",
+        body: "Brown recluse spiders are established throughout St. Louis County, and Hazelwood's residential neighborhoods are no exception. University of Missouri Extension documents brown recluse populations throughout Missouri, with St. Louis County in their confirmed range. They're found most often in homes with basements, crawl spaces, attached garages, and attic storage areas, where the dark, undisturbed, low-humidity conditions they prefer are available year-round. The first encounter most Hazelwood homeowners have with a brown recluse is finding one in the basement, in a garage storage area, or occasionally in a bedroom closet. They're not aggressive but their bite can cause a notable wound in some individuals. A management program that includes interior and perimeter treatment with appropriate residual products, combined with sticky trap monitoring in basement and garage areas, is the most effective approach. Subterranean termites are a more serious structural concern. St. Louis County is in Missouri's heavy subterranean termite hazard zone, meaning the combination of soil conditions, climate, and moisture creates conditions that support active termite colonies throughout the county. In Hazelwood's established neighborhoods, where homes from the 1960s and 1970s have the wood-to-soil contact and foundation moisture conditions that termites prefer, the risk is real. Termite swarmers emerging in spring (March through May in Missouri) are often the first sign a homeowner notices. But swarmers inside the home, near windows or emerging from wall joints, indicate that a colony is already established in the structure rather than just in the nearby soil. Annual or biennial termite inspections are a practical investment for Hazelwood homeowners given the county's hazard zone."
+      },
+      {
+        heading: "Cockroaches, Rats, and Fall Mice in Hazelwood",
+        body: "Hazelwood's proximity to Boeing's manufacturing facility and the commercial freight corridors in northwest St. Louis County creates pest conditions that are different from what you'd find in a purely residential suburb. German cockroaches are opportunistic and move between commercial and residential settings. They don't need structural connection, just proximity and access through shared drainage, utility corridors, or the simple foot traffic of workers and suppliers moving between properties. Hazelwood's older multi-family residential buildings near the commercial zones are particularly susceptible. German cockroaches breed rapidly and require professional intervention. Gel bait treatments applied to the harborage locations where cockroaches congregate, including under appliances, in cabinet hinges, and in utility chases, are far more effective than spray products, which scatter rather than eliminate populations. Norway rats follow a similar pattern, concentrated in the areas with industrial activity and commercial food handling but spilling into adjacent residential neighborhoods. They're larger than house mice and more cautious, which makes them harder to manage with standard mouse-bait protocols. Rat bait and exclusion approaches are more involved, and a licensed technician who can identify the specific entry points and harborage conditions in your specific property is the starting point. The fall mouse surge in October is a separate and more widespread event. House mice throughout Hazelwood move toward residential structures when October temperatures fall. This is not primarily driven by the industrial activity. It's a Missouri-wide pattern that affects every neighborhood. Exclusion work in September, sealing the foundation gaps and utility penetrations that mice use, is the most effective prevention. Bait station programs at the exterior perimeter manage the population through the fall and winter season."
+      }
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given St. Louis County's heavy hazard zone designation, especially for homes with crawl spaces or basement moisture.",
+      "Seal foundation gaps, utility penetrations, and garage entry gaps in September before the October mouse surge begins.",
+      "Reduce basement and garage clutter to limit brown recluse harborage and make sticky trap monitoring more effective.",
+      "Address kitchen and bathroom moisture issues promptly to reduce conditions favorable to German cockroach establishment.",
+      "Keep garbage in sealed bins and address any food waste or compost near the structure to reduce Norway rat attraction near the property."
+    ],
+    costNote: "Pest control costs in Hazelwood are in line with the northwest St. Louis County market. Brown recluse management programs run $150 to $325 per visit. Termite inspections are typically free; treatment ranges from $800 to $2,200 for a typical home depending on method. German cockroach treatment starts at $125 to $250 and usually requires two to three follow-up visits. Mouse exclusion and control is $150 to $350. Norway rat programs start at $200 to $450 depending on extent and entry point count.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders more common near Hazelwood's industrial areas than in the residential neighborhoods?",
+        answer: "Brown recluse spiders are distributed throughout Hazelwood's residential neighborhoods, not concentrated near industrial areas. They're established throughout St. Louis County in residential settings regardless of proximity to commercial or industrial activity. The industrial character of parts of Hazelwood is more relevant to cockroach and rat pressure than to brown recluse distribution."
+      },
+      {
+        question: "How did German cockroaches get from the commercial areas into residential homes in Hazelwood?",
+        answer: "German cockroaches don't require a structural connection to move between settings. They travel through shared drainage and utility corridors, via infested packages or appliances, and through the ordinary movement of people between commercial and residential settings. Multi-family residential buildings near commercial areas in Hazelwood have seen this pattern consistently. Once established in a residential building, they spread unit to unit through shared wall voids and utility chases."
+      },
+      {
+        question: "What is the difference between a Norway rat and a house mouse, and why does it matter for control?",
+        answer: "Norway rats are substantially larger than house mice, with an adult rat weighing roughly ten to twenty times what a house mouse weighs. They're also more neophobic, meaning they're more cautious about new objects in their environment, which makes bait stations less immediately effective. Entry points for rats are also larger, which means a different exclusion approach. A licensed technician who can identify which rodent species is active in your property will design the right control program for the situation."
+      },
+      {
+        question: "Do I need a termite inspection if my Hazelwood home is newer construction from the 1980s?",
+        answer: "Yes. Subterranean termites are active throughout St. Louis County regardless of home age. Newer construction from the 1980s is now 40-plus years old, and the chemical soil treatments applied during construction have long since degraded in effectiveness. The heavy hazard zone designation for St. Louis County applies to all properties regardless of construction date. An inspection is the only way to know whether a colony is active in or near the structure."
+      }
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Florissant", slug: "florissant" },
+      { name: "St. Peters", slug: "st-peters" },
+      { name: "St. Louis", slug: "st-louis" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Hazelwood, MO | Brown Recluse, Roaches & Termites",
+    metaDescription: "Hazelwood pest control for brown recluse spiders, cockroaches, termites, and mice in St. Louis County. Industrial-corridor specialists. Free inspection. Call 1-800-PEST-USA."
+  },
+  
+  {
+    slug: "raytown",
+    name: "Raytown",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~29,000",
+    county: "Jackson County",
+    climate: "cold-humid",
+    climateDriver: "Four-season continental climate with cold winters, hot humid summers, and reliable fall pest surges. Jackson County is in Missouri's heavy subterranean termite hazard zone, and brown recluse spiders are confirmed throughout the Kansas City metro area.",
+    topPests: ["Brown Recluse Spiders", "House Mice", "German Cockroaches", "Subterranean Termites", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "University of Missouri Extension confirms brown recluse spiders are well established throughout the Kansas City metro area, including Jackson County. Raytown's older housing stock provides extensive harborage."
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "Raytown's 1950s to 1970s housing stock has settled foundations and accumulated entry vulnerabilities that mice exploit in October when Missouri temperatures drop."
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Older residential structures with moisture issues in kitchens and bathrooms, combined with Jackson County's year-round cockroach pressure, create consistent German cockroach exposure in Raytown."
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note: "Jackson County is in Missouri's heavy subterranean termite hazard zone. Raytown's older construction on settled foundations creates the wood-to-soil contact conditions termites prefer."
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Boxelder bugs aggregate on south-facing walls and window frames throughout Jackson County in fall, entering Raytown homes through aging window seals and siding gaps."
+      }
+    ],
+    localHook: "Raytown is a Jackson County suburb southeast of Kansas City with a housing stock primarily from the 1950s through 1970s. That mid-century construction is the defining factor for Raytown's pest profile. Older foundations have had decades to settle and develop the gaps mice need. Older kitchens and bathrooms have the accumulated moisture vulnerabilities German cockroaches exploit. Older basement and crawl space areas provide the dark, undisturbed harborage brown recluse spiders need. And the subterranean termite hazard is heavy throughout Jackson County. Raytown's pest calendar is as much about the age of the housing stock as anything else.",
+    intro: "Raytown's mid-century housing is what makes its pest profile different from newer Kansas City area suburbs. Homes built in the 1950s through 1970s carry different vulnerabilities than new construction: settled foundations with gaps, original kitchen and bathroom plumbing with recurring moisture issues, basements and crawl spaces with decades of accumulated storage and undisturbed spaces. Brown recluse spiders are well established throughout the Kansas City metro including Jackson County, per University of Missouri Extension. Subterranean termites are active in Missouri's heavy hazard zone. The fall mouse surge and year-round cockroach pressure complete the picture. Each requires a specific approach, and knowing where to start depends on which pest is already active in your home.",
+    sections: [
+      {
+        heading: "Brown Recluse and Termite Management in Raytown",
+        body: "Raytown's older residential fabric is nearly ideal for brown recluse spiders. University of Missouri Extension confirms that brown recluse spiders are established throughout Missouri, and the Kansas City metro area, including Jackson County, is well within their confirmed range. In Raytown, the combination of mid-century homes with full basements, attached or detached garages, and decades of accumulated storage provides the extensive dark, undisturbed, low-humidity habitat that brown recluse spiders prefer. They don't need a pest problem to enter a home. They enter from outside through gaps in the foundation and wall penetrations, establish in wall voids, basement storage areas, and crawl spaces, and can be present in significant numbers without any obvious sign until one is encountered. A professional management program uses interior and perimeter treatment with appropriate residual products, combined with sticky trap monitoring in basement and garage areas to track activity levels and evaluate treatment effectiveness over time. Subterranean termites represent the more significant structural risk. Jackson County is in Missouri's heavy termite hazard zone, and the older construction in Raytown introduces additional exposure factors. Homes from the 1950s and 1960s may have original untreated wood at the foundation, wood-to-soil contact in older landscaping and porch construction, and basement moisture conditions that termites find favorable. The chemical treatments applied during original construction in that era have long since degraded. Spring termite swarmers (March through May in Missouri) are often the first sign of an established colony. But swarming inside the home means a colony is already in the structure. Annual inspection by a licensed termite professional is a practical investment given Raytown's combination of older construction and heavy-hazard-zone location."
+      },
+      {
+        heading: "Fall Mice, Cockroaches, and Seasonal Pests in Raytown",
+        body: "The fall mouse surge in Raytown follows Missouri's reliable October pattern, but Raytown's housing stock amplifies the entry problem. Homes from the 1950s through 1970s have had fifty to seventy years to develop the settling cracks, sill plate gaps, and utility penetrations that mice use. What was a hairline crack in the foundation when the home was built in 1962 may be a quarter-inch gap today. A thorough perimeter inspection in September, by a licensed technician with the right tools for checking these areas, identifies the specific entry points in your home before the fall surge begins. Sealing those points with steel wool, copper mesh, and caulk is the foundation of effective mouse control. Bait station programs at the exterior perimeter manage the population during fall and winter. German cockroaches don't have a seasonal surge in the same way. They're active year-round in structures with suitable conditions, which in Raytown means primarily older kitchens and bathrooms with recurring moisture from aging plumbing and less-than-perfect ventilation. They move through wall voids and utility chases between adjacent units in multi-family buildings, and between appliances and cabinets in single-family homes. The most effective management combines professional gel bait applied at harborage sites with addressing the underlying moisture conditions. Without moisture management, gel bait programs require repeated service to stay ahead of reinfestation. Boxelder bugs are the fall seasonal pest that generates complaints disproportionate to the actual harm they cause. They aggregate on south-facing walls and window frames in September and October in large numbers, and they enter through aging window seals and siding gaps that are common in Raytown's older homes. Sealing those gaps in late summer, which overlaps with fall mouse exclusion work, is the most practical prevention."
+      }
+    ],
+    prevention: [
+      "Inspect basement storage areas, the crawl space, and attached garage with a flashlight annually and place sticky traps to monitor brown recluse activity.",
+      "Schedule a termite inspection every one to two years, especially for Raytown homes built before 1980 with original construction details.",
+      "Seal foundation gaps, sill plate gaps, and utility penetrations in September before the October mouse surge.",
+      "Fix kitchen and bathroom moisture issues, including slow drains, condensation under appliances, and imperfect sink seals, to reduce German cockroach harborage.",
+      "Seal aging window frames and siding gaps in late summer to limit both boxelder bug and mouse entry in fall."
+    ],
+    costNote: "Pest control in Raytown is priced in line with the Jackson County and Kansas City metro market. Brown recluse management programs start at $150 to $300 per visit. Termite inspections are typically free; treatment costs vary by method ($800 to $2,100 for a typical Raytown home). Mouse exclusion and control is $150 to $325. German cockroach treatment starts at $125 to $225 and typically requires two to three service visits. Ask about an annual protection plan that bundles termite monitoring with seasonal perimeter pest control.",
+    faqs: [
+      {
+        question: "Why are brown recluse spiders so common in Raytown's older homes?",
+        answer: "Mid-century homes from the 1950s through 1970s have had decades to develop the structural characteristics that brown recluse spiders need: gaps in the foundation and siding that allow entry, full basements with undisturbed storage areas, crawl spaces with limited light and traffic, and wall voids that provide year-round shelter. The housing stock in Raytown is almost ideal for brown recluse harborage, which is why they're consistently present in a greater proportion of older homes than in newer construction."
+      },
+      {
+        question: "How much does a termite problem typically cost to treat in a Raytown home?",
+        answer: "The cost depends on which treatment method is used and the extent of the infestation. Liquid soil treatments, which create a chemical barrier in the soil around the foundation, typically run $800 to $2,000 for a Raytown home of average size. Bait station monitoring and treatment systems run $1,000 to $2,500 installed, with annual monitoring fees. Structural repair costs, if termites have damaged wood members, are separate and depend on the extent of the damage found during inspection."
+      },
+      {
+        question: "I have cockroaches in my Raytown home. Can I handle it myself with store-bought products?",
+        answer: "Store-bought spray products are typically repellent, meaning cockroaches move away from treated surfaces rather than contacting the product. They scatter the population without eliminating it and often drive cockroaches deeper into wall voids where they're harder to reach. Professional gel bait is non-repellent: cockroaches are attracted to it and carry the active ingredient back to the harborage. For German cockroaches in a Raytown home, professional treatment is significantly more effective and usually faster than repeated DIY attempts."
+      },
+      {
+        question: "What is the Blue River corridor, and does it affect pest pressure in Raytown?",
+        answer: "The Blue River runs through Jackson County, and the riparian areas along the corridor create some mosquito habitat and naturalized vegetation that supports boxelder bug and occasional wildlife pest activity. For most Raytown homeowners, the Blue River corridor's impact on pest pressure is modest compared to the more significant factors of housing age and Missouri's statewide termite and brown recluse presence. The fall mouse surge and year-round cockroach and brown recluse pressure are the primary pest concerns for most Raytown residents."
+      }
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Kansas City", slug: "kansas-city" },
+      { name: "Independence", slug: "independence" },
+      { name: "Blue Springs", slug: "blue-springs" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Raytown, MO | Brown Recluse, Mice & Cockroaches",
+    metaDescription: "Raytown pest control for brown recluse spiders, house mice, cockroaches, and termites in Jackson County. Mid-century home specialists. Free inspection. Call 1-800-PEST-USA."
+  },
+  
+  {
+    slug: "university-city",
+    name: "University City",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~35,000",
+    county: "St. Louis County",
+    climate: "cold-humid",
+    climateDriver: "Four-season continental climate with cold winters, hot humid summers, and reliable fall pest surges. St. Louis County is in Missouri's heavy subterranean termite hazard zone, and brown recluse spiders are confirmed throughout the county.",
+    topPests: ["Brown Recluse Spiders", "German Cockroaches", "Subterranean Termites", "House Mice", "Silverfish"],
+    pestProfile: [
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "University of Missouri Extension confirms brown recluse spiders are established throughout St. Louis County. The 1920s-1940s housing stock in University City provides extensive basement and crawl space harborage."
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Washington University's density, the Delmar Loop commercial district, and the older multi-family housing stock create consistent German cockroach pressure throughout University City."
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note: "St. Louis County's heavy termite hazard zone designation applies throughout University City. Homes from the 1920s through 1940s may have original construction vulnerabilities that increase exposure."
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note: "The dense urban residential fabric and older construction in University City creates the entry vulnerabilities mice exploit in October. The fall surge is fast and often arrives through shared walls in multi-unit buildings."
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round",
+        note: "Older basements and crawl spaces in University City's 1920s-1940s homes provide the cool, damp, dark conditions silverfish need. They're common in basement storage areas and in older bathroom tile and plumbing spaces."
+      }
+    ],
+    localHook: "University City is an inner St. Louis County suburb directly adjacent to the St. Louis city limits. Washington University in St. Louis and the Delmar Loop give the city a density and commercial activity that most St. Louis County suburbs don't have. The housing stock is among the oldest in the county, primarily 1920s through 1940s construction. That combination: dense residential fabric, older construction, university population, and active commercial corridors, creates a pest profile that includes pests more typical of urban environments alongside the county-wide termite and brown recluse pressure.",
+    intro: "University City's pest profile reflects its character as a dense, older inner suburb with a university presence and an active commercial district. Brown recluse spiders are established throughout St. Louis County, per University of Missouri Extension, and the 1920s through 1940s housing stock in University City provides extensive basement and crawl space harborage. Subterranean termites are active in St. Louis County's heavy hazard zone. German cockroaches are more common in the commercial and multi-family residential areas near Washington University and the Delmar Loop. Silverfish are a year-round nuisance in the older basements and crawl spaces. And the October mouse surge arrives fast through the dense residential fabric.",
+    sections: [
+      {
+        heading: "Brown Recluse, Termites, and Older-Home Pests in University City",
+        body: "University City's housing stock is the oldest in St. Louis County's inner suburbs, with a significant portion of the residential fabric dating to the 1920s through 1940s. That age matters for pest control in specific ways. Brown recluse spiders are established throughout St. Louis County (University of Missouri Extension), and the older homes in University City provide the kind of basement and crawl space environments they need: undisturbed, low-humidity spaces with limited foot traffic and ample harborage in structural gaps, behind stored items, and in the original plaster and lathe wall cavities that predate modern drywall. Brown recluse populations in older University City homes can be substantial, and sticky trap monitoring in basement and storage areas gives homeowners an accurate picture of activity levels. Professional interior and perimeter treatment with appropriate residual products, on a scheduled maintenance basis, is the most effective management approach. Subterranean termites are active throughout St. Louis County's heavy hazard zone, and the oldest homes in University City have the additional risk factor of original construction from an era before modern termite prevention standards and soil treatments. Wood-to-soil contact in original porch construction, basement window wells, and foundation landscaping from the mid-twentieth century creates the access conditions subterranean termites prefer. Spring termite swarmers in March through May are the most visible indicator. Annual inspections by a licensed termite professional are a strong recommendation for University City's pre-1950 housing stock. Silverfish are a less alarming but consistent nuisance in the older homes throughout University City. They require cool, damp environments with a food source of starches and cellulose, and the original basements of 1920s and 1930s construction provide that environment reliably. They damage paper, book bindings, wallpaper, and some natural fabrics. Targeted treatment in basement and crawl space areas, combined with reducing basement moisture levels through ventilation or dehumidification, is the effective approach."
+      },
+      {
+        heading: "Cockroaches, Mice, and Urban Pests in University City",
+        body: "Washington University in St. Louis and the Delmar Loop commercial district create pest pressure dynamics that are distinct from what you'd find in a quiet residential suburb. University-adjacent commercial properties generate consistent German cockroach activity through food service operations, shared delivery and waste handling, and the transient residential population that can introduce cockroaches through infested furniture and belongings. Multi-family residential buildings near the university and Loop, particularly those with older construction from the 1940s through 1970s, can develop persistent German cockroach populations that move between units through shared utility chases and wall voids. German cockroaches are a year-round pest. They don't have a seasonal surge. They establish where moisture and food sources are consistently available and breed rapidly, with a single female producing hundreds of offspring in her lifetime. Professional gel bait treatment applied at harborage sites, combined with addressing underlying moisture issues in kitchens and bathrooms, is the established effective approach. Spray products are repellent and scatter populations without eliminating them. The October mouse surge in University City is a fast event that moves through the dense residential fabric quickly. Mice in a row of 1930s urban homes find more connected pathways through shared foundation walls, utility penetrations, and roof spaces than mice in isolated suburban houses. A perimeter inspection in September that identifies the specific entry points for your property, followed by exclusion work and exterior bait station placement, is the most effective response. Bed bugs are a separate concern in the university area and the Loop's rental housing market. While not included in the top five pests above, they're worth mentioning as a known University City pressure point given the transient residential population. If you're dealing with what appears to be bed bug activity, professional heat treatment or chemical treatment by a licensed technician is the appropriate response."
+      }
+    ],
+    prevention: [
+      "Place sticky traps in basement and crawl space areas annually to monitor brown recluse activity levels and evaluate whether treatment is needed.",
+      "Schedule a termite inspection every one to two years for University City's pre-1960 housing stock given St. Louis County's heavy hazard zone.",
+      "Reduce basement moisture through ventilation or a dehumidifier to make the environment less suitable for silverfish and discourage moisture pest activity.",
+      "Seal kitchen and bathroom moisture sources including slow drains, condensation under refrigerators, and imperfect sink seals to reduce German cockroach harborage.",
+      "Inspect foundation and utility penetrations in September and seal gaps before the fall mouse surge in October."
+    ],
+    costNote: "Pest control costs in University City reflect the inner St. Louis County market. Brown recluse programs start at $150 to $325 per visit, with maintenance programs offering better per-visit rates. Termite inspections are typically free; treatment costs range from $800 to $2,200 depending on method and home size. German cockroach treatment starts at $125 to $250 and requires two to three visits. Silverfish treatment starts at $125. Mouse exclusion and control runs $150 to $350. Ask about an annual protection plan that covers multiple pest categories.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders more common in University City's older homes than in newer St. Louis County suburbs?",
+        answer: "Yes, generally. The older construction from the 1920s through 1940s in University City's residential neighborhoods provides more extensive harborage than newer homes. Original full basements with plaster and lathe walls, crawl spaces with original rubble foundations, and structural gaps from nearly a century of settling all create the kind of undisturbed environment brown recluse spiders need. Newer construction with poured concrete basements and modern framing provides far less opportunity for brown recluse establishment."
+      },
+      {
+        question: "Do German cockroaches in the Delmar Loop area affect residential homes nearby?",
+        answer: "Yes, this is a documented spillover pattern. Commercial food service operations near the Loop can develop cockroach pressure that moves into adjacent residential properties, particularly in multi-family buildings where shared utility spaces connect units and buildings. This is a reason University City residents near the Loop and the university area see cockroach pressure at rates higher than in quieter suburban settings further from commercial density."
+      },
+      {
+        question: "What are silverfish doing in my University City home, and are they harmful?",
+        answer: "Silverfish in University City's older homes are feeding on starches and cellulose: the paper in stored books and documents, wallpaper paste, natural fiber clothing, and the starch in cardboard storage boxes. They don't bite, carry disease, or damage structural components. The harm they cause is to stored paper goods, books, and some fabrics. Reducing basement moisture and treating the harborage areas where they concentrate is the effective response."
+      },
+      {
+        question: "How does the university student population affect pest pressure in University City?",
+        answer: "Transient residential populations moving into and out of apartments each academic year create higher rates of pest introduction through used furniture and belongings than you'd find in stable owner-occupied residential areas. Bed bugs in particular move with furniture and stored items. German cockroaches also travel in used appliances, and mice can be inadvertently disturbed from one location and enter adjacent properties. The rental housing market near Washington University and the Loop sees these patterns more consistently than the owner-occupied residential areas further from campus."
+      }
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "St. Louis", slug: "st-louis" },
+      { name: "Kirkwood", slug: "kirkwood" },
+      { name: "Chesterfield", slug: "chesterfield" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in University City, MO | Brown Recluse & Cockroaches",
+    metaDescription: "University City pest control for brown recluse spiders, cockroaches, termites, and silverfish in St. Louis County. Older-home specialists. Free inspection. Call 1-800-PEST-USA."
+  },
 ];
