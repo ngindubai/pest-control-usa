@@ -1176,4 +1176,514 @@ export const alabamaCities: CityLocation[] = [
     metaDescription:
       "Vestavia Hills pest control for subterranean termites, fire ants, mosquitoes, brown recluse spiders and carpenter bees. Jefferson County Birmingham hillside suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "gadsden",
+    name: "Gadsden",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~33,000",
+    county: "Etowah County",
+    climate: "hot-humid",
+    climateDriver:
+      "Gadsden's northeast Alabama location in the Coosa River valley and the surrounding Appalachian foothills gives it a hot, humid climate with a long pest season from March through November. The river corridor and the foothills moisture sustain mosquito and termite activity at rates consistent with the broader Alabama subtropical zone.",
+    topPests: [
+      "Subterranean termites",
+      "Mosquitoes",
+      "Brown recluse spiders",
+      "Fire ants",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Gadsden's older industrial-era housing stock carries significant subterranean termite risk. The Coosa River corridor's humidity sustains termite colony activity through the long Alabama warm season, and pre-1950 construction in the city's core neighborhoods is the highest-risk category.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peak June through August",
+        note: "The Coosa River and the Appalachian foothills drainage channels create extensive mosquito breeding habitat in and around Gadsden. The Alabama climate sustains mosquito pressure from early spring through October, and the river corridor is one of the most productive mosquito breeding environments in Etowah County.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors",
+        note: "Northeast Alabama is within the brown recluse core range. Gadsden's older homes with basements, crawl spaces, and storage areas provide consistent brown recluse harborage. The spiders are non-aggressive but their venom is medically significant, and older properties with undisturbed storage areas typically have populations present.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "Year-round in Alabama, most active March through October",
+        note: "Fire ants are pervasive throughout Etowah County and build mounds in lawns, gardens, and at the edges of paved areas throughout Gadsden. The Coosa River valley terrain with its warm, moist soil is excellent fire ant habitat. Disturbing a mound triggers an immediate and painful multi-sting response.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are established in Gadsden's food service operations and older multi-family housing near the downtown commercial corridor. The older building stock with shared plumbing provides cockroach movement infrastructure between units and buildings.",
+      },
+    ],
+    localHook:
+      "Gadsden is a northeast Alabama city on the Coosa River, historically a steel and rubber manufacturing center. The river corridor and the surrounding Appalachian foothills create significant mosquito habitat, and the city's older industrial-era housing stock carries subterranean termite risk. Brown recluse spiders are a consistent concern in Gadsden's older homes with basements and outbuildings.",
+    intro:
+      "Pest control in Gadsden combines the standard Alabama hot-humid pest calendar with the specific pressures of a Coosa River valley city with significant older industrial-era housing. Subterranean termites are the most serious structural concern, active throughout the long Alabama warm season and threatening in the pre-1950 construction common in the city's core neighborhoods. Mosquitoes are active from March through October in the river corridor and the Appalachian foothills drainage areas. Brown recluse spiders inhabit the older homes, garages, and outbuildings throughout the city. Fire ants are pervasive in Etowah County's residential areas. German cockroaches are present in the food service and older multi-family stock near downtown.",
+    sections: [
+      {
+        heading: "Coosa River corridor and mosquito pressure in Gadsden",
+        body: "The Coosa River and the foothills drainage channels that flow into it around Gadsden create one of the more intense mosquito environments in northeast Alabama. The river's slow-water bank areas and the numerous seasonal drainage channels through the city's lower terrain provide sustained mosquito breeding habitat from March through October. The Alabama climate's early spring warming means mosquito activity begins well before it does in more northern states, and the long warm season sustains populations through most of October.\n\nFor Gadsden homeowners near the Coosa River corridor, professional mosquito barrier spray programs starting in April are the most effective seasonal management tool. The river-source mosquito population is too large for individual yard measures alone to address, but a treated perimeter significantly reduces adult counts in the yard. Eliminating standing water in bird baths, low spots, and drainage containers in the yard reduces the local contribution. Properties within a quarter mile of the river see the highest pressure.",
+      },
+      {
+        heading: "Older Gadsden housing and structural pest risk: termites and brown recluse",
+        body: "Gadsden's industrial history has left a residential landscape of older housing built during the steel and rubber manufacturing era of the early to mid-20th century. This housing stock carries two significant pest risks that are less prominent in newer Alabama construction: subterranean termites and brown recluse spiders.\n\nSubterranean termites in Alabama's northeast are active from March through November and swarm in spring when new colonies are established. Pre-1950 construction in Gadsden with crawl spaces, wood near soil, and older foundation styles has had over 70 years of exposure in Alabama's active termite zone. Annual professional inspection and an active protection plan are appropriate for all such properties.\n\nBrown recluse spiders in Etowah County are present in most older properties with undisturbed storage areas. The crawl spaces, detached garages, and outbuildings common in the older industrial-era neighborhoods of Gadsden provide exactly the harborage these non-aggressive but medically significant spiders prefer. Professional inspection targeting these areas identifies population levels and allows targeted harborage reduction.",
+      },
+    ],
+    prevention: [
+      "Ensure subterranean termite protection is current for all Gadsden properties over 20 years old: Etowah County is an active Alabama termite zone.",
+      "Apply mosquito barrier spray to the yard perimeter in April for properties near the Coosa River corridor, repeating every four to six weeks through September.",
+      "Inspect and reduce clutter in garages, crawl spaces, and outbuildings annually for brown recluse spider harborage.",
+      "Treat fire ant mounds in Gadsden residential yards in spring when mound activity increases after winter dormancy.",
+    ],
+    costNote:
+      "Gadsden pest control programs start with a free inspection. Termite treatment and annual protection plans, mosquito barrier programs, and brown recluse spider management are priced separately from general recurring pest programs.",
+    faqs: [
+      {
+        question: "Is termite pressure serious in Gadsden?",
+        answer:
+          "Yes. Gadsden and Etowah County are within Alabama's active subterranean termite zone, where the warm climate and the Coosa River valley's humidity sustain termite colony activity through a long season from spring through late fall. The older industrial-era housing stock in Gadsden's core neighborhoods carries elevated risk because these structures were built before modern termite-resistant standards and any original treatment has long expired. Any Gadsden property over 20 years old without documented current termite protection should have a professional inspection.",
+      },
+      {
+        question: "Are brown recluse spiders common in Gadsden?",
+        answer:
+          "Yes. Northeast Alabama is within the brown recluse core range, and Gadsden's older housing with crawl spaces, detached garages, and outbuildings provides the undisturbed harborage these spiders prefer. Most older Gadsden properties have brown recluse present in the storage and utility areas without the homeowner being aware, because the spiders are non-aggressive and avoid human contact. Bites are uncommon, but the venom is medically significant when contact does occur. Professional inspection and harborage reduction in the crawl space and garage areas is the appropriate management approach.",
+      },
+      {
+        question: "How long is fire ant season in Gadsden?",
+        answer:
+          "Fire ants in Alabama are active year-round, though their surface mound activity slows during the coldest winter months when they move deeper underground. In Gadsden and Etowah County, meaningful fire ant mound activity begins in March and continues through November. The peak period of mound building and colony expansion is spring through summer. Fire ant mounds are found throughout Gadsden's residential lawns, garden areas, and at the edges of paved surfaces. Disturbing a mound at any time of year triggers an immediate multi-sting defensive response. Professional fire ant treatment programs applied in spring provide season-long mound suppression.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Birmingham", slug: "birmingham" },
+      { name: "Huntsville", slug: "huntsville" },
+      { name: "Tuscaloosa", slug: "tuscaloosa" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Gadsden, AL | Termites, Mosquitoes & Brown Recluse",
+    metaDescription:
+      "Gadsden pest control for subterranean termites, mosquitoes, brown recluse spiders, fire ants and cockroaches. Etowah County Coosa River northeast Alabama specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "homewood",
+    name: "Homewood",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~25,000",
+    county: "Jefferson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Homewood's Jefferson County location in the greater Birmingham metro gives it the full Alabama hot-humid climate, with a pest season running from February through November. The city's Shades Creek drainage corridor creates mosquito habitat and provides wildlife movement routes through the residential landscape.",
+    topPests: [
+      "Subterranean termites",
+      "Fire ants",
+      "Mosquitoes",
+      "Carpenter ants",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Homewood's Craftsman and bungalow housing from the 1920s through 1950s carries genuine subterranean termite risk. Jefferson County is an active Alabama termite zone, and the older wood-frame homes near Shades Creek and in the established Homewood neighborhoods without current treatment protection are most vulnerable.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "Year-round in Alabama, most active March through October",
+        note: "Fire ants are a consistent yard pest throughout Homewood. The Shades Creek corridor and the adjacent residential areas with maintained turf are excellent fire ant habitat. Mounds appear in lawns, garden beds, and along sidewalk edges throughout the warm season.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peak June through August",
+        note: "Shades Creek and its tributary drainage corridors through Homewood create mosquito breeding habitat through the warm season. The Alabama climate sustains mosquito pressure from March through October, and properties near the creek drainage areas see higher pressure than upland Homewood neighborhoods.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Carpenter ants are active in Homewood's older residential neighborhoods where the mature tree canopy and the Shades Creek moisture create nesting conditions. Older Craftsman homes with accumulated moisture in foundation wood are particularly vulnerable to carpenter ant colonization.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Homewood's active restaurant and food service corridor along 18th Street South sustains German cockroach pressure in commercial facilities. The older multi-family housing in the denser neighborhoods provides cockroach spread infrastructure through shared plumbing and wall voids.",
+      },
+    ],
+    localHook:
+      "Homewood is a small, dense inner suburb of Birmingham with an active retail and restaurant corridor along 18th Street South. The community's mix of 1920s-1950s bungalows and Craftsman homes is attractive but carries genuine subterranean termite risk in older wood framing. Fire ants are a consistent yard pest throughout Jefferson County, and mosquitoes are active from April through October in the creek drainage areas that run through the residential neighborhoods.",
+    intro:
+      "Pest control in Homewood is inner-suburb pest management in the Alabama hot-humid climate, where the warm season is long and the pest calendar is dense. Subterranean termites are the most significant structural concern for the Craftsman and bungalow homes that define Homewood's residential character, and any property in this era of construction without current treatment protection is at genuine risk. Fire ants are a pervasive yard pest throughout Jefferson County. Mosquitoes are active from March through October along the Shades Creek drainage corridors. German cockroaches are a commercial pressure on 18th Street South. Carpenter ants work the older trees and foundation wood throughout the warm season.",
+    sections: [
+      {
+        heading: "Craftsman homes and termite risk in Homewood's established neighborhoods",
+        body: "Homewood's 1920s through 1950s Craftsman bungalows are among the most architecturally desirable homes in the Birmingham metro, and they are also among the most susceptible to subterranean termite damage. The construction styles common in this era, including pier and beam foundations, crawl spaces with limited ventilation, and wood sills close to or in contact with soil, are exactly the features that create termite access points. A Craftsman home built in 1935 in Homewood has been in Jefferson County's termite zone for nearly 90 years: the question is not whether termites have been present, but whether active colonies are currently in the structure.\n\nProfessional termite inspection of Homewood's older homes involves probing accessible wood in the crawl space and basement, looking for mud tubes on foundation walls, and checking the soil line around the foundation exterior. Treatment with liquid soil barrier or bait station monitoring programs provides long-term protection. Annual inspection and maintenance of an active protection program is the appropriate management standard for any Homewood property built before 1960.",
+      },
+      {
+        heading: "18th Street South and fire ants: Homewood's two outdoor pest pressures",
+        body: "Homewood's 18th Street South restaurant corridor and the fire ant population in the city's residential turf create two distinct outdoor pest environments that affect property owners differently. The restaurant corridor is a commercial German cockroach environment: food service operations along the street sustain cockroach populations that can spread to adjacent residential buildings through shared plumbing and back-alley infrastructure. Residential properties within a block of active food service operations have modestly higher cockroach exposure than inland Homewood neighborhoods.\n\nFire ants are a different challenge: they are present throughout Homewood's residential turf and are not concentrated in any particular corridor. Jefferson County's warm, moist soil is excellent fire ant habitat, and mounds appear throughout lawns, garden beds, and turf edges from spring through fall. The sting response from a disturbed mound is immediate and painful, and children and pets are most at risk from incidental contact. Spring fire ant treatment programs applied to the entire yard provide the most effective season-long mound suppression.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection for all Homewood Craftsman and bungalow era properties, particularly those with crawl spaces or pier and beam foundations.",
+      "Apply fire ant broadcast treatment to Homewood residential lawns in spring when mound activity increases after winter.",
+      "Apply mosquito barrier spray to the yard perimeter starting in April for properties near Shades Creek drainage corridors.",
+      "Inspect crawl spaces and older foundation areas for carpenter ant activity annually in Homewood's established bungalow neighborhoods.",
+    ],
+    costNote:
+      "Homewood pest control programs start with a free inspection. Termite treatment and annual protection plans, fire ant treatment, and mosquito barrier programs are priced separately from general recurring pest programs.",
+    faqs: [
+      {
+        question: "Are the Craftsman homes in Homewood at high termite risk?",
+        answer:
+          "Yes. Homewood's 1920s through 1950s Craftsman and bungalow construction is among the most termite-vulnerable housing type in the Birmingham metro. The pier and beam foundations, crawl spaces with limited ventilation, and wood construction details common in this era create termite access points that modern construction typically avoids. Jefferson County is an active Alabama termite zone, and any Homewood Craftsman property without current documented termite protection should have a professional inspection. Annual inspection and an active protection plan are the appropriate management standard for properties of this era.",
+      },
+      {
+        question: "Are fire ants dangerous in Homewood residential areas?",
+        answer:
+          "Fire ants in Homewood's residential areas are a genuine sting risk, particularly for children and pets. The ants defend their mounds aggressively when disturbed and deliver multiple stings rapidly. For most people the stings cause localized pain, itching, and pustule formation. In individuals with fire ant venom allergies, the stings can cause anaphylactic reactions that require immediate medical attention. Mounds appear throughout Homewood's lawns and garden beds from spring through fall. Professional broadcast treatment of the lawn in spring is the most effective season-long suppression approach.",
+      },
+      {
+        question: "How long is mosquito season in Homewood?",
+        answer:
+          "Mosquito season in Homewood runs from approximately March through October, reflecting Alabama's warm climate and the Jefferson County pest calendar. The Shades Creek corridor and the tributary drainage channels through Homewood's residential neighborhoods create sustained breeding habitat through the warm season. Peak pressure is June through August. Properties near the creek drainage areas see measurably higher mosquito pressure than upland Homewood neighborhoods farther from the water. Professional barrier spray programs starting in April and applied every four to six weeks through September are the most effective management approach.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Birmingham", slug: "birmingham" },
+      { name: "Tuscaloosa", slug: "tuscaloosa" },
+      { name: "Hoover", slug: "hoover" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Homewood, AL | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Homewood pest control for subterranean termites, fire ants, mosquitoes, carpenter ants and cockroaches. Jefferson County Birmingham inner suburb 1920s Craftsman bungalow specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "florence",
+    name: "Florence",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~41,000",
+    county: "Lauderdale County",
+    climate: "hot-humid",
+    climateDriver:
+      "Florence's Tennessee River valley location in northwest Alabama gives it a warm, humid climate with a long pest season from February through November. The Tennessee River and Wilson Lake create extensive mosquito habitat, and the valley's warm winters compared to more northern Tennessee Valley cities sustain pest activity through mild spells even in winter.",
+    topPests: [
+      "Subterranean termites",
+      "Mosquitoes",
+      "Fire ants",
+      "Brown recluse spiders",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Northwest Alabama is within the state's active termite zone, and Florence's older neighborhoods near the University of North Alabama campus and the downtown historic district carry genuine structural termite risk. The Tennessee River valley's humidity sustains termite activity through the long Alabama warm season.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peak June through August",
+        note: "The Tennessee River and Wilson Lake create extensive mosquito breeding habitat in and around Florence. The Shoals area's warm climate sustains mosquito pressure from early spring through October, and the river and lake margins are among the most productive mosquito environments in Lauderdale County.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "Year-round in Alabama, most active March through October",
+        note: "Fire ants are pervasive throughout Lauderdale County's residential areas. Florence's warm Tennessee Valley climate sustains fire ant mound activity through most of the year, with peak mound building and expansion from March through October.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors",
+        note: "Northwest Alabama is within the brown recluse core range. Florence's older homes near the university campus and in the historic residential neighborhoods carry consistent brown recluse populations in the crawl spaces, basements, and storage areas.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are established in Florence's food service operations near the University of North Alabama campus and in the older multi-family housing in the downtown commercial area. The older building stock sustains cockroach spread through shared plumbing and wall infrastructure.",
+      },
+    ],
+    localHook:
+      "Florence anchors the Quad Cities area (with Sheffield, Tuscumbia, and Muscle Shoals) in the Tennessee River valley of northwest Alabama. The Tennessee River and Wilson Lake create considerable mosquito habitat through the warm season, and the area's hot, humid summers drive fire ant and subterranean termite activity year-round. Florence's older neighborhoods near the University of North Alabama campus carry more structural termite risk than the newer residential development on the city's outskirts.",
+    intro:
+      "Pest control in Florence serves a Tennessee River valley city where the warm climate and the extensive waterfront create pest pressures that continue through a longer season than in cities to the north. Subterranean termites are the most significant structural threat, particularly in the older neighborhoods near the university and in the historic downtown residential areas. Mosquitoes are active along the Tennessee River and Wilson Lake from March through October. Fire ants are pervasive throughout Lauderdale County's residential areas. Brown recluse spiders inhabit the older homes and outbuildings. German cockroaches are present in the food service and older multi-family stock near the campus.",
+    sections: [
+      {
+        heading: "Tennessee River and Wilson Lake: mosquito management in the Shoals area",
+        body: "The Tennessee River and Wilson Lake together create one of the largest and most sustained freshwater mosquito habitats in northwest Alabama. The slow-water lake margins, the emergent vegetation at the lake's edge, and the river bank areas all produce consistent mosquito populations from March through October. Florence's residential areas nearest the river and lake see the highest mosquito pressure, but the river valley topography means that mosquito populations from the water source range broadly through the surrounding residential landscape.\n\nFor Florence homeowners, professional mosquito barrier spray programs applied to the yard perimeter starting in April are the most effective seasonal management tool. The river and lake mosquito source cannot be individually managed, but a treated yard perimeter reduces adult counts significantly through the warm season. Eliminating standing water in bird baths, drainage containers, and low areas in the yard removes the local breeding contribution. Repeat applications every four to six weeks maintain the treated zone through the peak summer months.",
+      },
+      {
+        heading: "University area housing and pest management near the UNA campus",
+        body: "The older residential neighborhoods surrounding the University of North Alabama campus create a specific pest management context in Florence. The student rental housing stock, with its high annual turnover and older building construction, sustains both German cockroach and subterranean termite pressure at rates above the Florence average. Pre-1960 construction near the campus has had decades of exposure in Alabama's active termite zone, and the shared building systems of older rental properties sustain cockroach populations that unit-by-unit treatment cannot effectively address.\n\nFor Florence landlords and property managers near the UNA campus, building-wide pest management programs are more effective and ultimately less expensive than responding to established infestations unit by unit. Annual termite inspection, quarterly cockroach monitoring, and the building-wide approach to any identified infestation provide the management framework that older campus-area properties require.",
+      },
+    ],
+    prevention: [
+      "Ensure termite protection is current for all Florence properties over 20 years old: northwest Alabama is an active termite zone and the older campus-area housing is most vulnerable.",
+      "Apply mosquito barrier spray to the yard perimeter starting in April for properties near the Tennessee River and Wilson Lake.",
+      "Treat fire ant mounds in Lauderdale County residential lawns in spring before summer colony expansion.",
+      "Inspect older Florence housing for brown recluse spider activity annually, particularly in crawl spaces and basement storage areas.",
+    ],
+    costNote:
+      "Florence pest control programs start with a free inspection. Termite treatment and annual protection plans, mosquito barrier programs, and fire ant treatment are priced separately from general recurring pest programs.",
+    faqs: [
+      {
+        question: "How long is mosquito season near the Tennessee River in Florence?",
+        answer:
+          "Mosquito season near the Tennessee River and Wilson Lake in Florence runs from approximately March through October, one of the longer mosquito seasons in northwest Alabama. The warm Tennessee Valley climate allows mosquito breeding to begin earlier in spring than in cities to the north, and the extensive lake margins and river bank vegetation sustain populations through most of October. Peak pressure is June through August. Properties within a quarter mile of the river or lake shore see measurably higher mosquito activity. Professional barrier spray programs starting in April and repeated every four to six weeks through September are the most effective management approach.",
+      },
+      {
+        question: "Are older homes near UNA at higher termite risk?",
+        answer:
+          "Yes. The residential neighborhoods surrounding the University of North Alabama campus in Florence include some of the city's oldest housing, and this older construction carries the highest termite risk in the city. Pre-1960 wood-frame homes with crawl spaces, pier and beam foundations, and wood near soil in this part of Alabama have had extended exposure in an active termite zone. Any older campus-area property without documented current termite protection should have a professional inspection. Annual inspection and active treatment or monitoring plans are the appropriate management standard.",
+      },
+      {
+        question: "Are brown recluse spiders common in Florence?",
+        answer:
+          "Yes. Northwest Alabama is within the brown recluse core range, and Florence's older housing stock with crawl spaces, basements, and outbuildings provides the undisturbed harborage these non-aggressive spiders prefer. Most older Florence properties have brown recluse present in low-traffic storage areas without the homeowner being aware. The venom is medically significant when a bite does occur, though bites are uncommon given the spider's avoidance behavior. Professional inspection and harborage reduction in crawl spaces, garages, and basement storage is the appropriate management approach for older Florence homes.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Huntsville", slug: "huntsville" },
+      { name: "Birmingham", slug: "birmingham" },
+      { name: "Tuscaloosa", slug: "tuscaloosa" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Florence, AL | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Florence pest control for subterranean termites, mosquitoes, fire ants, brown recluse spiders and cockroaches. Lauderdale County Tennessee River Shoals area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "decatur",
+    name: "Decatur",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~54,000",
+    county: "Morgan County",
+    climate: "hot-humid",
+    climateDriver:
+      "Decatur's Tennessee River position in Morgan County gives it the warm, humid Alabama climate with a pest season running from February through November. The Wheeler National Wildlife Refuge wetlands upstream create extensive mosquito habitat, and the river valley's warm winters sustain pest activity through mild spells well into the year.",
+    topPests: [
+      "Subterranean termites",
+      "Fire ants",
+      "Mosquitoes",
+      "German cockroaches",
+      "House mice",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Morgan County is within Alabama's active termite zone. Decatur's mix of older industrial-era housing and newer residential development presents different levels of termite risk: the older downtown neighborhoods carry the highest risk, while newer construction without current treatment is still vulnerable in this climate.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "Year-round in Alabama, most active March through October",
+        note: "Fire ants are pervasive throughout Morgan County's residential areas. Decatur's Tennessee Valley climate sustains year-round fire ant activity, with peak mound building and colony expansion from March through October. The ants build mounds in lawns, garden beds, and at the edges of driveways and sidewalks throughout the city.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peak June through August",
+        note: "The Wheeler National Wildlife Refuge wetlands upstream of Decatur and the Tennessee River itself create significant mosquito breeding habitat. The refuge wetlands are some of the most productive waterfowl and wildlife habitat in the Southeast, and the same slow-water wetland environment produces large mosquito populations that range into Decatur's adjacent residential areas.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are established in Decatur's older multi-family housing and the food service operations along the commercial corridors. The city's industrial history has left a stock of older buildings with the shared infrastructure that sustains cockroach spread between commercial and residential uses.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge in fall and winter",
+        note: "House mice are a consistent fall and winter pest in Decatur's older residential neighborhoods. The Morgan County winters, while milder than more northern states, still drive mice firmly into heated structures from November through March. Older housing near the industrial corridors has more accumulated entry points than newer construction.",
+      },
+    ],
+    localHook:
+      "Decatur sits on a bend of the Tennessee River in Morgan County, a city with chemical, steel, and food manufacturing history. The Wheeler National Wildlife Refuge wetlands upstream of Decatur create extensive mosquito habitat, and the city's mix of older industrial-era housing and newer residential development presents a range of termite and rodent risk levels. Fire ants are pervasive throughout Morgan County's residential areas.",
+    intro:
+      "Pest control in Decatur operates in the context of a Tennessee River industrial city with significant older housing and the Wheeler Wildlife Refuge wetland complex upstream creating intense mosquito habitat. Subterranean termites are the most serious structural concern for the city's older housing stock, active throughout Morgan County's long warm season. Fire ants are present year-round in residential lawns and gardens. Mosquitoes from the Wheeler Refuge wetlands and the Tennessee River create seasonal pressure from March through October. German cockroaches are present in the older commercial and multi-family stock. House mice surge in fall.",
+    sections: [
+      {
+        heading: "Wheeler Wildlife Refuge and mosquito pressure in Decatur",
+        body: "The Wheeler National Wildlife Refuge upstream of Decatur is one of the more significant waterfowl and migratory bird habitats in the Southeast, and the extensive wetland complex that supports that wildlife also produces large mosquito populations during the warm season. The slow-water marsh and wetland areas of the refuge create sustained breeding habitat from late winter through fall, and the mosquito population from this source ranges into Decatur's adjacent residential areas on both sides of the Tennessee River.\n\nFor Decatur homeowners in the neighborhoods nearest the river and the refuge complex, professional mosquito barrier spray programs starting in April are the most effective management tool. The refuge's mosquito source population is too large for individual yard management to address independently, but a professional barrier treatment of the yard vegetation significantly reduces adult counts within the treated zone. Properties within a quarter mile of the Tennessee River or the refuge boundary experience the highest seasonal mosquito pressure.",
+      },
+      {
+        heading: "Older industrial housing and termite management in Decatur neighborhoods",
+        body: "Decatur's industrial history has left a residential landscape that spans nearly a century of construction eras. The oldest neighborhoods near the Tennessee River waterfront and the downtown industrial corridor include housing from the early to mid-20th century that carries the highest termite risk in Morgan County: pre-1950 construction with crawl spaces, wood near soil, and foundation styles that predate modern termite-resistant standards. These properties have had 70 or more years of exposure in an active Alabama termite zone.\n\nNewer construction on the outskirts of Decatur is not immune to termite risk, but it starts from a different baseline. Modern construction with concrete slab foundations, pressure-treated wood, and soil pretreatment provides more inherent resistance than older construction, though it is not zero-risk in Morgan County's climate. Annual professional termite inspection is the appropriate standard for all Decatur properties, with the intensity of treatment depending on the age and construction type of the structure.",
+      },
+    ],
+    prevention: [
+      "Apply mosquito barrier spray to the yard perimeter in April for properties near the Tennessee River and Wheeler National Wildlife Refuge, repeating every four to six weeks through September.",
+      "Ensure termite protection is current for all older Decatur properties: Morgan County is an active Alabama termite zone and older waterfront construction is highest risk.",
+      "Apply fire ant broadcast treatment to Decatur residential lawns in spring when mound activity increases.",
+      "Seal foundation gaps and utility penetrations in fall before the Morgan County mouse surge in November.",
+    ],
+    costNote:
+      "Decatur pest control programs start with a free inspection. Termite treatment and annual protection plans, mosquito barrier programs, and fire ant treatment are priced separately from general recurring pest programs.",
+    faqs: [
+      {
+        question: "Does Wheeler Wildlife Refuge affect mosquito pressure in Decatur?",
+        answer:
+          "Yes, significantly. The Wheeler National Wildlife Refuge's extensive wetland complex upstream of Decatur is one of the largest slow-water wetland systems in the Southeast, and the same marsh habitat that attracts migratory waterfowl also produces large mosquito populations during the warm season. Decatur residents in the neighborhoods nearest the river and the refuge boundary experience higher seasonal mosquito pressure than those farther inland. Professional mosquito barrier programs starting in April provide effective management for residential yards in these areas.",
+      },
+      {
+        question: "Is termite risk higher in Decatur's older neighborhoods?",
+        answer:
+          "Yes. Decatur's older industrial-era neighborhoods near the Tennessee River waterfront and the downtown corridor contain housing stock from the early to mid-20th century that carries significantly higher termite risk than newer construction. These pre-1950 structures have accumulated decades of exposure in an active Alabama termite zone, and any without current documented protection should be inspected. The high moisture environment of the Tennessee River valley also supports termite colony activity at rates above what drier Alabama locations experience.",
+      },
+      {
+        question: "How severe are fire ants in Morgan County?",
+        answer:
+          "Fire ants are pervasive throughout Morgan County and present a consistent sting risk in Decatur's residential areas from March through October, with reduced but not absent activity in winter. The ants build mounds throughout lawns, garden beds, and at the edges of driveways and sidewalks. A disturbed mound triggers an immediate defensive response with multiple stings. For most people this causes localized pain and pustule formation. For individuals with fire ant venom allergies, the response can be anaphylactic. Professional broadcast fire ant treatment applied to the yard in spring provides the most effective season-long mound suppression.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Huntsville", slug: "huntsville" },
+      { name: "Birmingham", slug: "birmingham" },
+      { name: "Tuscaloosa", slug: "tuscaloosa" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Decatur, AL | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Decatur pest control for subterranean termites, fire ants, mosquitoes, German cockroaches and house mice. Morgan County Tennessee River Wheeler Wildlife Refuge specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "opelika",
+    name: "Opelika",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~30,000",
+    county: "Lee County",
+    climate: "hot-humid",
+    climateDriver:
+      "Opelika's Lee County location in east Alabama gives it the full Alabama subtropical hot-humid climate, with a pest season running from February through November and minimal winter suppression. The Piedmont terrain and the warm, humid summers drive termite, fire ant, and mosquito activity at consistently high rates.",
+    topPests: [
+      "Subterranean termites",
+      "Fire ants",
+      "Mosquitoes",
+      "German cockroaches",
+      "Brown recluse spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Lee County is in the heart of Alabama's subterranean termite belt. Opelika's older downtown housing and the newer residential development on former timber land both carry meaningful termite risk. Alabama termite activity is among the most intense in the US, and properties without active protection are genuinely at risk.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "fire-ant-treatment",
+        activeSeason: "Year-round in Alabama, most active March through October",
+        note: "Fire ants are a pervasive yard and turf pest throughout Lee County. Opelika's warm, humid climate sustains fire ant mound activity year-round, with peak expansion and aggression from March through October. Mounds appear in lawns, garden beds, and along paved edges throughout the city.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peak June through August",
+        note: "Mosquito pressure in Opelika is sustained from March through October by the Lee County climate and the drainage channels and low-lying areas throughout the city. The combined Opelika-Auburn metro area's warm, humid climate keeps mosquito season long.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Opelika's commercial food service operations and in the older multi-family housing. The Auburn University adjacent market creates student rental housing pressure and food service density that sustains commercial cockroach populations.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors",
+        note: "East Alabama is within the brown recluse range. Opelika's older homes with garages, crawl spaces, and outbuildings provide brown recluse harborage. The spiders are non-aggressive and most residents with populations are never bitten, but the venom is medically significant.",
+      },
+    ],
+    localHook:
+      "Opelika is Lee County's seat and sits immediately north of Auburn, creating a combined metro area anchored by Auburn University. The city and surrounding Lee County are in the heart of Alabama's subterranean termite belt, and Opelika's older downtown housing stock and newer residential development on former timber land both carry meaningful termite risk. Fire ants are a consistent yard and turf pest, and mosquito pressure is heavy from April through October.",
+    intro:
+      "Pest control in Opelika operates in the Alabama subterranean termite belt, where the warm, humid Lee County climate sustains termite activity at some of the higher rates in the state. No property in this area without active termite protection should be considered low-risk. Fire ants are a pervasive year-round yard pest throughout the combined Opelika-Auburn metro. Mosquitoes are active from March through October in the Lee County drainage channels and low-lying areas. German cockroaches are present in the commercial food service and older rental housing stock near Auburn University. Brown recluse spiders inhabit the older homes, garages, and outbuildings throughout the area.",
+    sections: [
+      {
+        heading: "Alabama's termite belt: why Opelika and Lee County have serious termite risk",
+        body: "Alabama is one of the highest-risk states for subterranean termite activity in the US, and Lee County sits in the middle of the state's most active termite zone. The combination of the warm, humid Piedmont climate, the long frost-free season, and the soil conditions of east Alabama creates sustained termite colony activity that can cause significant structural damage over years if not managed. Termite populations in this zone swarm in March through May when winged reproductives emerge from existing colonies, and any structure with accessible wood near soil can be colonized by new swarmers each spring.\n\nFor Opelika homeowners and property managers, the practical implication is that termite protection is not optional in this location. Every property without current documented protection should be inspected, and every property with a structure more than a few years old should have an annual professional inspection to verify that the protection is holding and that no new activity has occurred. The older downtown properties and the newer construction on former timber land at the city's edges are both genuine risk environments, though for different reasons.",
+      },
+      {
+        heading: "Auburn University proximity and commercial pest pressure in Opelika",
+        body: "Opelika's position immediately north of Auburn University creates a specific commercial pest environment in the city. The student population and the retail, restaurant, and food service corridor connecting the two cities sustain German cockroach and rodent pressure in the commercial and older rental housing areas. The annual academic cycle of student move-in and move-out creates high-turnover housing conditions that favor bed bug and cockroach introduction and spread.\n\nFor Opelika commercial operators and property managers near the Auburn adjacent market, proactive integrated pest management programs are more cost-effective than responding to established infestations. Regular professional inspection and treatment of food service operations catches cockroach activity at the early stage, when it can be eliminated with minimal disruption, rather than at the established infestation stage, where remediation is expensive and disruptive.",
+      },
+    ],
+    prevention: [
+      "Ensure termite protection is current for all Opelika properties: Lee County is in Alabama's most active termite zone and no untreated property is low-risk.",
+      "Apply fire ant broadcast treatment to residential lawns in spring before summer colony expansion across Lee County.",
+      "Apply mosquito barrier spray to the yard perimeter in April for Opelika properties near drainage channels or low-lying areas.",
+      "Inspect crawl spaces and garages annually for brown recluse spider activity in Opelika's older residential properties.",
+    ],
+    costNote:
+      "Opelika pest control programs start with a free inspection. Termite treatment and annual protection plans are strongly recommended and quoted separately. Fire ant treatment, mosquito barrier programs, and general pest control are available individually or as bundled programs.",
+    faqs: [
+      {
+        question: "Why is termite risk so serious in Opelika and Lee County?",
+        answer:
+          "Lee County is in the core of Alabama's subterranean termite belt, one of the highest-activity termite zones in the United States. The combination of Alabama's warm climate, the long frost-free season, and the Piedmont soil conditions creates ideal conditions for sustained termite colony activity. Alabama termite populations are more active and more damaging over time than termite populations in more northern states. In Lee County, the question for any property owner is not whether termites are present in the region (they are, year-round), but whether the specific structure has active protection preventing colonization. Any Opelika property without current documented termite protection should be inspected promptly.",
+      },
+      {
+        question: "Are fire ants a problem in Opelika year-round?",
+        answer:
+          "Fire ants in Opelika and Lee County are active year-round, with reduced surface mound activity during the coolest winter weeks but persistent colony presence below ground. From March through October, fire ant mounds are visible throughout residential lawns, garden beds, and turf edges across the city. The warm Alabama climate sustains fire ant populations at high densities compared to more northern states where cold winters limit colony survival. Disturbing a mound at any time of year triggers a rapid, painful multi-sting defensive response. Professional broadcast treatment of the yard in spring is the most effective season-long approach for mound suppression in Lee County residential properties.",
+      },
+      {
+        question: "Do newer homes in Opelika need termite protection?",
+        answer:
+          "Yes. While newer construction in Opelika typically starts with more termite-resistant building details than older housing, no new construction in Lee County is inherently safe from termites over time. Concrete slab construction reduces some risk categories, but termite colonies can still find access points through expansion joints, utility penetrations, and any contact between wooden framing and the soil or concrete. Alabama building code requires soil pretreatment for new construction, but that protection has a limited service life. Annual professional inspection and a current protection plan are the appropriate long-term management approach for all Opelika properties, new and old.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Auburn", slug: "auburn" },
+      { name: "Birmingham", slug: "birmingham" },
+      { name: "Montgomery", slug: "montgomery" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Opelika, AL | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Opelika pest control for subterranean termites, fire ants, mosquitoes, cockroaches and brown recluse spiders. Lee County Auburn University adjacent east Alabama specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

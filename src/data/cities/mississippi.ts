@@ -1005,4 +1005,464 @@ export const mississippiCities: CityLocation[] = [
     metaDescription:
       "Clinton MS pest control for Formosan termites, mosquitoes, fire ants and cockroaches. Hinds County Jackson suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "columbus-ms",
+    name: "Columbus",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~23,000",
+    county: "Lowndes County",
+    climate: "hot-humid",
+    climateDriver: "Tombigbee River corridor with high humidity and hot summers; river bottomlands maintain soil moisture that drives termite and mosquito activity year-round",
+    topPests: ["Formosan Termite", "Mosquito", "Fire Ant", "German Cockroach", "Brown Recluse Spider"],
+    pestProfile: [
+      {
+        name: "Formosan Termite",
+        activeSeason: "spring-fall",
+        note: "Tombigbee River corridor provides optimal moist soil conditions; Lowndes County structures see aggressive Formosan colony activity",
+      },
+      {
+        name: "Mosquito",
+        activeSeason: "spring-fall",
+        note: "Tombigbee River bottomlands and low-lying Lowndes County yards generate significant mosquito breeding habitat April through October",
+      },
+      {
+        name: "Fire Ant",
+        activeSeason: "spring-fall",
+        note: "Red imported fire ants heavily established in Columbus lawns; floodplain areas near the river support large mound complexes",
+      },
+      {
+        name: "German Cockroach",
+        activeSeason: "year-round",
+        note: "Established in older downtown commercial structures and multi-family residential; older food service facilities see persistent pressure",
+      },
+      {
+        name: "Brown Recluse Spider",
+        activeSeason: "year-round",
+        note: "Common in attics and storage rooms of older Lowndes County housing stock; older construction provides extensive undisturbed harborage",
+      },
+    ],
+    localHook: "Columbus sits along the Tombigbee River in Lowndes County, and the river corridor creates the warm, wet conditions that Formosan termites and mosquitoes need to reach serious population levels. Formosan termite colonies in older wood-frame structures near the river bottom are the most urgent structural concern for Columbus homeowners.",
+    intro: "Columbus has the kind of pest environment you get in a river town: persistent moisture from the Tombigbee corridor, hot summers that keep mosquitoes active from April through October, and Formosan termite colonies that have been working through the older housing stock for decades. German cockroaches have a foothold in older downtown structures. Brown recluse spiders are a consistent finding in attics and storage areas across Lowndes County.",
+    sections: [
+      {
+        heading: "Formosan Termite Risk Along the Tombigbee River",
+        body: "The Tombigbee River corridor that defines Columbus's eastern edge creates consistently moist soil conditions ideal for Formosan subterranean termite colony development. Formosan colonies are significantly larger than eastern subterranean colonies, consume wood faster, and are more capable of attacking living trees and structural lumber simultaneously. Older wood-frame homes near the river bottom and in established downtown-adjacent neighborhoods carry the highest risk. Columbus homeowners should not rely on visible damage as the trigger for inspection; annual professional inspections with moisture meter readings are the standard approach for any Lowndes County property in the river influence zone.",
+      },
+      {
+        heading: "Mosquito Season in Columbus",
+        body: "Columbus mosquito pressure runs from late March through October, with peak activity in June through August when heat and humidity sustain rapid breeding cycles. The Tombigbee River floodplain, low-lying yards in Lowndes County that hold water after summer rain events, and drainage ditches near agricultural land all provide breeding habitat that extends the active season. Monthly barrier spray treatments on vegetation around the property's perimeter combined with larviciding any standing water on the property gives the most effective seasonal control. Eliminating standing water sources, including gutters, saucers, ornamental features, and low spots, addresses what homeowners can directly control.",
+      },
+      {
+        heading: "Fire Ants in Columbus Lawns and Open Spaces",
+        body: "Red imported fire ants are fully established across Columbus and Lowndes County, including the open spaces and recreational areas along the Tombigbee. Mounds near the river bottom tend to be larger because the moist soil supports larger colony populations. Broadcast bait treatment across the full lawn in spring, before colony populations peak, reduces overall mound density more effectively than individual mound treatments. Spring plus fall bait applications maintain the lowest colony densities through the year.",
+      },
+      {
+        heading: "German Cockroaches in Older Columbus Structures",
+        body: "German cockroaches are primarily indoor insects that establish in warm, moist areas near food and water. In Columbus, the older downtown commercial buildings and multi-family residential structures provide the most favorable habitat: aged plumbing with moisture around pipe connections, kitchen areas with accumulated grease, and structural voids where populations can build without early detection. Professional gel bait programs placed in harborage zones, combined with crack-and-crevice treatment, are the standard approach. Repellent sprays can cause colony fragmentation that spreads the infestation to new rooms.",
+      },
+    ],
+    prevention: [
+      "Schedule annual Formosan termite inspections for all Lowndes County properties, especially those within the Tombigbee River influence zone",
+      "Begin mosquito barrier spray in late March before population buildup peaks in June",
+      "Apply broadcast fire ant bait to the full lawn in spring rather than treating individual mounds",
+      "Fix plumbing leaks and seal pipe gaps to eliminate German cockroach moisture sources",
+    ],
+    costNote: "Typical Columbus pest control costs: termite inspection and treatment $1,100-$2,500 for Formosan-capable treatment, quarterly pest plan $100-$175/quarter, mosquito barrier spray $80-$145 per treatment, fire ant broadcast bait $85-$150 per lawn application.",
+    faqs: [
+      {
+        question: "Are Formosan termites worse in Columbus than in other Mississippi cities?",
+        answer: "Columbus and the Tombigbee River corridor see elevated Formosan termite activity because of the consistently moist soil conditions and warm temperatures near the waterway. Older wood-frame structures in Lowndes County that lack modern vapor barriers are particularly vulnerable. The combination of river corridor moisture and warm winters means colonies can maintain activity longer than in areas without significant water influence. Annual inspections and a maintained bait system are the most reliable long-term protection.",
+      },
+      {
+        question: "When does mosquito season peak in Columbus, MS?",
+        answer: "In Columbus, meaningful mosquito activity typically begins in late March and remains active through October. Peak pressure runs June through August when temperatures consistently exceed 85 degrees and standing water from summer rain events creates optimal breeding conditions throughout Lowndes County. The Tombigbee River floodplain extends the effective breeding season compared to inland areas without significant water features. Monthly barrier treatments starting in April are the most effective way to stay ahead of population buildup.",
+      },
+      {
+        question: "What should I do if I find brown recluse spiders in my Columbus home?",
+        answer: "Brown recluse spiders in Columbus homes are a manageable problem when addressed with professional treatment and harborage reduction. A professional inspection identifies the areas of highest activity, typically storage rooms, attics, and undisturbed closets. Interior glue board monitoring tracks population levels. Residual treatment to wall voids, attic spaces, and storage areas combined with sealing structural entry points reduces populations over successive treatment visits. Storing items in sealed plastic bins rather than open cardboard boxes significantly reduces harborage and bite risk.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Tupelo", slug: "tupelo" },
+      { name: "Jackson", slug: "jackson" },
+      { name: "Meridian", slug: "meridian" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Columbus, MS | Formosan Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Columbus MS pest control for Formosan termites, mosquitoes, fire ants, German cockroaches and brown recluse. Lowndes County Tombigbee River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "vicksburg",
+    name: "Vicksburg",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~22,000",
+    county: "Warren County",
+    climate: "hot-humid",
+    climateDriver: "Mississippi River bluff location with high humidity from the river valley; warm winters and long summers drive subtropical pest pressure",
+    topPests: ["Formosan Termite", "American Cockroach", "Mosquito", "Fire Ant", "Norway Rat"],
+    pestProfile: [
+      {
+        name: "Formosan Termite",
+        activeSeason: "spring-fall",
+        note: "Mississippi River corridor and Warren County's high humidity create ideal Formosan termite colony conditions; historic structures especially vulnerable",
+      },
+      {
+        name: "American Cockroach",
+        activeSeason: "year-round",
+        note: "Warm winters and historic downtown infrastructure provide year-round outdoor harborage with frequent indoor incursions",
+      },
+      {
+        name: "Mosquito",
+        activeSeason: "spring-fall",
+        note: "Mississippi River oxbows, backwater lakes, and low-lying floodplain areas create extensive breeding habitat April through October",
+      },
+      {
+        name: "Fire Ant",
+        activeSeason: "spring-fall",
+        note: "Red imported fire ants established across Warren County lawns and floodplain open spaces",
+      },
+      {
+        name: "Norway Rat",
+        activeSeason: "year-round",
+        note: "Mississippi River port area supports established rat populations; older downtown residential areas see spillover from commercial zones",
+      },
+    ],
+    localHook: "Vicksburg sits on the bluffs above the Mississippi River, and the river corridor pushes the pest profile toward the extreme end of what Mississippi homeowners deal with. Formosan termites are deeply established in the historic district's antebellum and Victorian-era structures. The river oxbows and backwater lakes that define Warren County's geography produce mosquito pressure that runs from April through October.",
+    intro: "Vicksburg is where the Mississippi River and Warren County's history create an unusual pest environment. The historic district's aging structures, some over 150 years old, have hosted Formosan termite colonies for generations. American cockroaches thrive in the warm, humid conditions year-round. The river oxbows and backwater lakes generate mosquito breeding habitat on a landscape scale. And the port area's rat population spills over into adjacent residential neighborhoods.",
+    sections: [
+      {
+        heading: "Formosan Termites in Vicksburg's Historic Structures",
+        body: "Vicksburg's antebellum and Victorian-era residential structures represent some of the highest-value and highest-risk properties for Formosan termite damage in Mississippi. These structures often have features that increase termite vulnerability: aged wood framing with high moisture absorption, foundation systems that allow soil contact, and construction methods that predate modern vapor barriers. Formosan colonies in mature historic structures can be very large, with foraging territory that extends well beyond the visible structure into surrounding soil and even root systems of adjacent trees. Annual inspection and a maintained termite bait system are the baseline standard for any historic Vicksburg property.",
+      },
+      {
+        heading: "Mosquito Pressure From the River System",
+        body: "The Mississippi River oxbows, old river lakes, and backwater areas that surround Vicksburg generate mosquito breeding habitat on a scale that extends well beyond what any individual property treatment can address. Homes within a mile of the river system, the oxbow lakes along the old river channel, and the associated wetland margins face a mosquito season that runs from early April through mid-October. Seasonal barrier spray programs create a treated perimeter around the property. Addressing standing water on the property including gutters, ornamental features, and low spots manages the breeding that homeowners can directly control.",
+      },
+      {
+        heading: "Cockroach and Rat Pressure Near the Waterfront",
+        body: "Vicksburg's port and commercial waterfront areas support established Norway rat populations that move into adjacent residential neighborhoods, especially in the older downtown grid. American cockroaches, which live primarily in outdoor drain systems and subsurface infrastructure, are pushed indoors by seasonal flooding events and heavy rain that displaces their underground harborage. The combination of river proximity, aging infrastructure, and warm winters creates cockroach and rat pressure conditions more typical of coastal cities than inland Mississippi towns. Perimeter sealing and regular exterior treatment reduce the interior incursion rate.",
+      },
+      {
+        heading: "Warren County Fire Ant Season",
+        body: "Red imported fire ants are fully established throughout Warren County, including the open spaces and parks along the river bluffs and the residential areas throughout Vicksburg. Mounds in floodplain-adjacent lawns tend to be repositioned by flood events and reestablish quickly in the same areas when waters recede. The most effective control approach is broadcast bait applied to the entire lawn in spring before population peaks, with follow-up treatment in fall. Individual mound treatments eliminate visible mounds but don't address the overall colony density across the property.",
+      },
+    ],
+    prevention: [
+      "Maintain annual termite inspections with bait system monitoring for all Vicksburg properties, especially in the historic district",
+      "Seal foundation gaps and utility penetrations to reduce cockroach and rat entry from the downtown waterfront area",
+      "Begin mosquito barrier spray in late March before the river system's peak breeding season",
+      "Apply broadcast fire ant bait in spring before mound populations peak in summer heat",
+    ],
+    costNote: "Typical Vicksburg pest control costs: termite inspection and treatment $1,200-$2,800 for historic structures, quarterly pest plan $100-$180/quarter, mosquito barrier spray $80-$150 per treatment, rodent exclusion program $200-$450.",
+    faqs: [
+      {
+        question: "How serious is Formosan termite damage in Vicksburg's historic district?",
+        answer: "Formosan termites represent a significant ongoing threat to Vicksburg's historic structures. Some of the district's oldest buildings have had active termite pressure for decades or longer. Formosan colonies in mature structures can be extremely large and difficult to eliminate completely without aggressive treatment. The combination of aged wood framing, high ambient moisture from the river, and the established Formosan population in Warren County means that historic property owners should maintain continuous bait system monitoring rather than treating reactively after damage is detected.",
+      },
+      {
+        question: "Why does Vicksburg seem to have so many cockroaches?",
+        answer: "Vicksburg's combination of a historic waterfront, aging drainage infrastructure, warm winters, and high humidity creates cockroach conditions similar to coastal Gulf Coast cities. American cockroaches that live in the subsurface drain systems are pushed into structures during heavy rainfall and flooding events that displace them from underground harborage. The warm winters allow populations to maintain larger size year-round than in northern Mississippi. Older downtown structures with settling foundations and aged pipe connections give cockroaches more access points than newer construction.",
+      },
+      {
+        question: "When is mosquito season worst near the Vicksburg waterfront?",
+        answer: "Mosquito pressure near Vicksburg's Mississippi River waterfront typically peaks in June through August but remains active from April through October. The river oxbows and backwater lakes can sustain breeding populations even during drier periods because they hold water year-round. After seasonal river flooding events, additional breeding habitat is created in low-lying areas as waters recede. Barrier spray programs are most effective when started in early April before the season builds.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Jackson", slug: "jackson" },
+      { name: "Clinton", slug: "clinton-ms" },
+      { name: "Hattiesburg", slug: "hattiesburg" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Vicksburg, MS | Formosan Termites, Mosquitoes & Cockroaches",
+    metaDescription:
+      "Vicksburg pest control for Formosan termites, American cockroaches, mosquitoes, fire ants and Norway rats. Warren County Mississippi River bluff specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "pascagoula",
+    name: "Pascagoula",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~21,000",
+    county: "Jackson County",
+    climate: "hot-humid",
+    climateDriver: "Gulf Coast location with year-round high humidity, warm winters, and tropical moisture influence; sea breezes moderate summer temperatures but sustain pest activity into November",
+    topPests: ["Formosan Termite", "American Cockroach", "Mosquito", "Fire Ant", "Norway Rat"],
+    pestProfile: [
+      {
+        name: "Formosan Termite",
+        activeSeason: "year-round",
+        note: "Jackson County Gulf Coast location sees some of the highest Formosan termite pressure in Mississippi; shipyard and industrial structures also affected",
+      },
+      {
+        name: "American Cockroach",
+        activeSeason: "year-round",
+        note: "Warm coastal winters mean cockroach populations stay active year-round; waterfront and industrial areas provide extensive outdoor harborage",
+      },
+      {
+        name: "Mosquito",
+        activeSeason: "spring-fall",
+        note: "Pascagoula River estuary, coastal marshes, and tidal wetlands create breeding habitat that extends mosquito season to ten months per year",
+      },
+      {
+        name: "Fire Ant",
+        activeSeason: "year-round",
+        note: "Red imported fire ants maintain year-round activity in Jackson County's coastal climate; mounds reestablish rapidly after flooding events",
+      },
+      {
+        name: "Norway Rat",
+        activeSeason: "year-round",
+        note: "Ingalls Shipbuilding and waterfront industrial areas support established rat populations; adjacent residential neighborhoods see ongoing pressure",
+      },
+    ],
+    localHook: "Pascagoula is a Gulf Coast industrial city, home to Ingalls Shipbuilding, and the combination of waterfront infrastructure, coastal marshland, and year-round warmth creates one of the most active pest environments in Mississippi. Formosan termites are well established across Jackson County, and the coastal marsh system pushes mosquito season to nearly ten months per year.",
+    intro: "Pascagoula sits where the Pascagoula River meets the Mississippi Sound, and that coastal position defines everything about the pest profile here. Formosan termites are active in structures across Jackson County for most of the year. American cockroaches stay active year-round in the warm coastal climate. Mosquito season runs from February through November on the marsh edges. And the industrial waterfront creates rat pressure that spreads into adjacent neighborhoods.",
+    sections: [
+      {
+        heading: "Formosan Termites in Jackson County's Coastal Climate",
+        body: "Jackson County's Gulf Coast position means Formosan termites experience near-ideal conditions year-round: high humidity, warm soil temperatures, and abundant moisture from coastal rainfall and marsh drainage. Unlike in northern Mississippi where cold winters reduce Formosan colony activity, Pascagoula properties face active Formosan pressure through most of the year. Older residential structures in established Pascagoula neighborhoods, some dating to the early and mid-twentieth century shipbuilding era, have been subject to decades of Formosan pressure. Annual inspections with bait system monitoring are the standard minimum for any Jackson County coastal property.",
+      },
+      {
+        heading: "Mosquito Season Near the Pascagoula River Estuary",
+        body: "The Pascagoula River estuary, tidal wetlands, and coastal marsh system around Pascagoula sustain mosquito breeding habitat on a scale that creates one of the longest mosquito seasons in Mississippi. In warm years, meaningful mosquito activity can begin in February and continue through November. The marsh edges, tidal creek margins, and backwater areas of the estuary generate continuous breeding pressure that no individual property program can fully eliminate. Barrier spray on vegetation around the home creates a treated zone that reduces landing and resting pressure. Eliminating standing water on the property removes the breeding sites homeowners can directly control.",
+      },
+      {
+        heading: "Cockroach Pressure in Pascagoula's Waterfront Areas",
+        body: "American cockroaches thrive in Pascagoula's warm coastal climate and industrial waterfront environment. The subsurface drainage and sewer infrastructure in the older industrial and residential areas of the city provides year-round outdoor harborage. Unlike inland Mississippi where winter temperatures suppress outdoor cockroach populations, Pascagoula's winters are mild enough for American cockroaches to remain active and maintain large population sizes. Heavy coastal rainfall events push them from underground harborage into structures. Perimeter treatment and sealing structural entry points reduces interior incursion frequency.",
+      },
+      {
+        heading: "Fire Ants in Pascagoula's Coastal Lawns",
+        body: "Red imported fire ants in Jackson County maintain year-round activity because coastal winters rarely bring temperatures cold enough to significantly reduce colony mass. Mounds near marsh edges and tidal areas are periodically displaced by flooding and reestablish quickly in the same locations after waters recede. Broadcast bait treatment of residential lawns in spring reduces overall mound density more effectively than individual mound treatments. Because colonies reestablish from surrounding areas, seasonal retreatment in fall maintains control through the year.",
+      },
+    ],
+    prevention: [
+      "Maintain continuous termite bait system monitoring for all Pascagoula properties given year-round Formosan activity",
+      "Start mosquito barrier spray in February for properties near the estuary and marsh edges",
+      "Seal waterfront-facing structural gaps and utility penetrations to limit cockroach and rat entry",
+      "Apply fire ant broadcast bait in spring and fall to maintain low colony density year-round",
+    ],
+    costNote: "Typical Pascagoula pest control costs: termite bait system monitoring $350-$600/year, quarterly pest plan $110-$190/quarter, mosquito barrier spray $85-$150 per treatment, rodent exclusion $220-$500.",
+    faqs: [
+      {
+        question: "Is Pascagoula at higher termite risk than inland Mississippi cities?",
+        answer: "Yes. Jackson County's coastal position puts Pascagoula at the high end of the Formosan termite risk range for Mississippi. The near-constant warmth and humidity means termite colony activity continues through more of the year than in inland counties where winter provides meaningful suppression. Older structures in established Pascagoula neighborhoods, built during and before the mid-twentieth century shipbuilding expansion, may have decades of accumulated damage if termite monitoring has been inconsistent.",
+      },
+      {
+        question: "How long is mosquito season in Pascagoula?",
+        answer: "In most years, Pascagoula residents near the Pascagoula River estuary and coastal marshes experience meaningful mosquito pressure from late February through November, giving the area one of the longest mosquito seasons in Mississippi. The tidal and marsh system provides breeding habitat that persists even in drier periods. Properties further from the marsh edges in higher terrain see a shorter effective season, typically April through October, but the Gulf Coast position still means an extended season compared to northern Mississippi.",
+      },
+      {
+        question: "Why does the Ingalls Shipbuilding area affect pest pressure in nearby neighborhoods?",
+        answer: "Large industrial waterfront operations like Ingalls Shipbuilding maintain extensive dock infrastructure, warehousing, and break areas that support established Norway rat populations. These rat populations spill over into adjacent residential neighborhoods when industrial areas are disturbed for construction or maintenance, or when seasonal flooding events displace them from their primary harborage. Residential areas within a quarter to half mile of the industrial waterfront see the highest rat pressure. Sealing structural entry points and maintaining rodent exclusion on residential properties is more effective than trapping alone.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Biloxi", slug: "biloxi" },
+      { name: "Gulfport", slug: "gulfport" },
+      { name: "Hattiesburg", slug: "hattiesburg" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Pascagoula, MS | Formosan Termites, Mosquitoes & Cockroaches",
+    metaDescription:
+      "Pascagoula pest control for Formosan termites, American cockroaches, mosquitoes, fire ants and Norway rats. Jackson County Gulf Coast specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "horn-lake",
+    name: "Horn Lake",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~27,000",
+    county: "DeSoto County",
+    climate: "hot-humid",
+    climateDriver: "Memphis metro area suburban climate with hot summers and mild winters; DeSoto County's position at the northern edge of the deep south pest zone drives year-round activity",
+    topPests: ["Eastern Subterranean Termite", "Mosquito", "Fire Ant", "German Cockroach", "Odorous House Ant"],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termite",
+        activeSeason: "spring-fall",
+        note: "DeSoto County termite pressure is significant; Horn Lake's suburban sprawl and older housing stock in established areas carry regular termite pressure",
+      },
+      {
+        name: "Mosquito",
+        activeSeason: "spring-fall",
+        note: "Horn Lake reservoir, retention ponds in suburban developments, and low-lying DeSoto County terrain generate significant mosquito breeding habitat",
+      },
+      {
+        name: "Fire Ant",
+        activeSeason: "spring-fall",
+        note: "Red imported fire ants well established in DeSoto County; Horn Lake's suburban lawns and open spaces see consistent mound activity spring through fall",
+      },
+      {
+        name: "German Cockroach",
+        activeSeason: "year-round",
+        note: "Common in older apartment complexes and food-adjacent structures; Memphis metro area's multi-family housing stock carries ongoing German cockroach pressure",
+      },
+      {
+        name: "Odorous House Ant",
+        activeSeason: "spring-fall",
+        note: "Common suburban invader in DeSoto County homes; enters through slab cracks and utility penetrations seeking food and moisture",
+      },
+    ],
+    localHook: "Horn Lake is DeSoto County's most densely populated city, sitting just south of Memphis in Mississippi's suburban fringe. The suburban landscape, with its retention ponds, maintained lawns, and mix of older and newer construction, supports high pest activity. The city's Horn Lake reservoir creates year-round mosquito pressure in adjacent neighborhoods.",
+    intro: "Horn Lake is part of the Memphis metro area's Mississippi suburban fringe, and the pest environment here reflects that geography. Eastern subterranean termites are active throughout DeSoto County. The Horn Lake reservoir and the retention ponds that come with suburban development create significant mosquito breeding habitat. Fire ants cover the lawns spring through fall. And the mix of older apartment stock and newer construction keeps German cockroaches and odorous house ants circulating.",
+    sections: [
+      {
+        heading: "Eastern Subterranean Termites in DeSoto County",
+        body: "DeSoto County is in the established high-pressure eastern subterranean termite zone for northern Mississippi. Horn Lake's suburban development, with its mix of pre-1990 established neighborhoods and more recent construction, includes housing stock at varying stages of potential termite exposure. Older homes in established Horn Lake neighborhoods may have had termite pressure building for decades before being detected. Annual inspections with moisture readings and wood probe testing identify problems before structural repair becomes necessary. DeSoto County's mild winters compared to areas north of Memphis mean termite colonies maintain activity for more of the year than neighboring Tennessee counties.",
+      },
+      {
+        heading: "Mosquito Breeding in Horn Lake's Suburban Landscape",
+        body: "Horn Lake's namesake reservoir, retention ponds built into suburban developments, and the low-lying terrain throughout DeSoto County's suburban fringe create significant mosquito breeding habitat. The reservoir and its associated marshy inlet areas sustain mosquito populations through the warm season, and retention ponds that impound stormwater from suburban impervious surfaces are especially productive breeding sites when water turnover is low. Seasonal barrier spray programs create a treated perimeter around the home's immediate vegetation. Eliminating standing water in gutters, low spots, saucers, and ornamental features addresses what homeowners can directly control.",
+      },
+      {
+        heading: "Fire Ant Management in DeSoto County Lawns",
+        body: "Red imported fire ants are fully established throughout DeSoto County and are a consistent stinging hazard in Horn Lake's residential lawns, parks, and common areas. The suburban lawn environment provides ideal fire ant habitat: maintained turf with low vegetative competition and sufficient soil moisture. Broadcast bait treatment applied to the full lawn in spring, before colony populations peak in summer, reduces mound density more effectively than individual mound treatments. A follow-up bait application in fall maintains low colony populations entering the cooler season.",
+      },
+      {
+        heading: "German Cockroach Control in Multi-Family Housing",
+        body: "German cockroaches are the dominant indoor cockroach in Horn Lake's older apartment complexes and multi-family housing near the commercial corridors. They establish in kitchen areas, bathroom vanity spaces, and wall voids near plumbing, and populations can grow rapidly in buildings where treatment is reactive rather than preventive. Gel bait programs placed in harborage zones are the most effective control method; repellent sprays cause colony fragmentation that spreads the infestation rather than eliminating it. Buildings with persistent German cockroach pressure need unit-by-unit treatment programs rather than common-area-only approaches.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for Horn Lake properties, especially pre-1990 construction in established neighborhoods",
+      "Start mosquito barrier spray in late March before Horn Lake reservoir breeding season peaks",
+      "Apply broadcast fire ant bait to the full lawn in April before summer mound populations build",
+      "Address kitchen plumbing leaks and seal pipe gaps to reduce German cockroach harborage in older structures",
+    ],
+    costNote: "Typical Horn Lake pest control costs: quarterly pest plan $90-$165/quarter, termite treatment (liquid perimeter) $850-$1,800 depending on linear footage, mosquito barrier spray $75-$145 per treatment, fire ant broadcast bait $80-$145 per lawn application.",
+    faqs: [
+      {
+        question: "Does the Horn Lake reservoir increase pest pressure in nearby neighborhoods?",
+        answer: "Yes, properties within a half mile of the Horn Lake reservoir and its associated marshy inlet areas see higher mosquito pressure and earlier seasonal onset compared to properties further from the reservoir. The reservoir's edges and slow-water areas provide breeding habitat that sustains populations through dry periods when other breeding sites dry up. Barrier spray programs are most cost-effective for these properties when started in early April before the season peaks.",
+      },
+      {
+        question: "Is DeSoto County at high termite risk?",
+        answer: "DeSoto County is in the high-pressure eastern subterranean termite zone for Mississippi. Horn Lake's suburban development includes significant pre-1990 housing where termite exposure history may be incomplete. The mild DeSoto County winters mean colonies maintain activity for more of the year than in areas north of Memphis, and annual inspections are the recommended standard for any DeSoto County property regardless of construction age.",
+      },
+      {
+        question: "How do I control fire ants in my Horn Lake yard?",
+        answer: "The most effective approach for Horn Lake lawns is broadcast bait treatment of the entire lawn in spring, before fire ant populations peak in June and July. Products containing spinosad or hydramethylnon as slow-acting bait ingredients are carried back to the queen and eliminate the colony from the source. Individual mound drenches eliminate visible mounds but don't address the overall colony density. A fall application maintains suppression through the winter. Perimeter spray around the home's foundation reduces fire ant foraging inside the structure.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Southaven", slug: "southaven" },
+      { name: "Olive Branch", slug: "olive-branch" },
+      { name: "Jackson", slug: "jackson" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Horn Lake, MS | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Horn Lake pest control for eastern subterranean termites, mosquitoes, fire ants, German cockroaches and odorous house ants. DeSoto County Memphis metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "pearl",
+    name: "Pearl",
+    state: "Mississippi",
+    stateSlug: "mississippi",
+    stateAbbr: "MS",
+    tier: "T3",
+    population: "~30,000",
+    county: "Rankin County",
+    climate: "hot-humid",
+    climateDriver: "Suburban Jackson metro position with Pearl River influence; hot summers and mild winters drive consistent pest activity with river bottomland moisture amplifying termite and mosquito pressure",
+    topPests: ["Eastern Subterranean Termite", "Mosquito", "Fire Ant", "American Cockroach", "House Mouse"],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termite",
+        activeSeason: "spring-fall",
+        note: "Rankin County is in the high termite pressure zone; Pearl River bottomland influence and older suburban housing stock create favorable termite conditions",
+      },
+      {
+        name: "Mosquito",
+        activeSeason: "spring-fall",
+        note: "Pearl River and associated Rankin County wetlands create significant breeding habitat; suburban retention ponds add additional pressure",
+      },
+      {
+        name: "Fire Ant",
+        activeSeason: "spring-fall",
+        note: "Red imported fire ants well established across Rankin County; Pearl's suburban lawns see consistent spring through fall mound activity",
+      },
+      {
+        name: "American Cockroach",
+        activeSeason: "spring-fall",
+        note: "Older infrastructure and Pearl River moisture contribute to outdoor American cockroach populations that push indoors during wet and cold periods",
+      },
+      {
+        name: "House Mouse",
+        activeSeason: "fall-winter",
+        note: "Agricultural and rural land on Rankin County's eastern edge drives rodent movement into suburban areas as temperatures drop in fall",
+      },
+    ],
+    localHook: "Pearl is Rankin County's largest city, sitting directly east of Jackson across the Pearl River. The river corridor creates termite and mosquito pressure that pushes into Pearl's suburban neighborhoods from the west, while the agricultural land on Rankin County's eastern edge contributes fall rodent pressure. Fire ants are active across Pearl's maintained residential lawns from spring through October.",
+    intro: "Pearl occupies a location that creates pest pressure from two directions: the Pearl River corridor to the west brings termite and mosquito influence, while the rural and agricultural land on Rankin County's eastern fringe drives fall rodent movement. Eastern subterranean termites are the most significant property threat in Pearl's established neighborhoods. Fire ants cover the lawns from April through October. And the river's influence extends mosquito season well into fall.",
+    sections: [
+      {
+        heading: "Termite Pressure in Rankin County's Suburban Neighborhoods",
+        body: "Rankin County's high eastern subterranean termite pressure reflects the Pearl River's influence on soil moisture throughout the county. Pearl's established older neighborhoods, developed from the 1960s through the 1980s, include housing stock where termite history may be incomplete and where the original builder treatments have long expired. The combination of aging construction and Pearl River corridor moisture creates favorable conditions for termite colony establishment and expansion. Annual professional inspections with moisture meter readings and structural probe testing identify colony activity before visible damage requires costly repair.",
+      },
+      {
+        heading: "Pearl River and Mosquito Season",
+        body: "The Pearl River's floodplain wetlands, oxbow areas, and associated marshy terrain create mosquito breeding habitat that pushes seasonal pressure into Pearl's western neighborhoods from late March through October. Suburban retention ponds built into Pearl's residential developments add additional local breeding sites within the city itself. Monthly barrier spray programs on vegetation around the home's perimeter combined with larviciding standing water sources on the property provide the most effective combined control. Gutters, ornamental water features, low spots, and saucers under containers are the priority standing water sources for homeowners to address.",
+      },
+      {
+        heading: "Fire Ant Management in Pearl's Residential Areas",
+        body: "Red imported fire ants are fully established across Rankin County, and Pearl's maintained residential lawns provide favorable habitat throughout the suburban landscape. The spring through October fire ant season in Pearl's climate creates stinging hazards in lawns, parks, and common areas throughout the city. Broadcast bait treatment applied across the full lawn in April or May, before mound counts peak in summer, reduces overall colony density more effectively than individual mound treatments. Individual mound treatments eliminate visible mounds but don't address the overall property-wide colony pressure.",
+      },
+      {
+        heading: "Rodent Control in Rankin County's Suburban Fringe",
+        body: "Pearl's position at the edge of Rankin County's suburban development means the eastern residential areas border agricultural and rural land that supports significant house mouse and deer mouse populations through the growing season. As temperatures drop in October and November, these populations seek warm interior harborage and find entry into homes through gaps around utility penetrations, under garage doors, and along foundation cracks. Sealing structural entry points before October, the standard rodent exclusion practice, is more effective than trapping after mice have already established interior routes.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for Rankin County properties, particularly pre-1990 construction in Pearl's established neighborhoods",
+      "Begin mosquito barrier spray in late March to stay ahead of Pearl River corridor population buildup",
+      "Apply broadcast fire ant bait to the full lawn in April before mound populations peak in June",
+      "Seal utility penetrations and garage door gaps before October to reduce fall rodent entry",
+    ],
+    costNote: "Typical Pearl pest control costs: quarterly pest plan $90-$165/quarter, termite treatment (liquid perimeter) $850-$1,900 depending on linear footage, mosquito barrier spray $75-$145 per treatment, rodent exclusion $200-$400.",
+    faqs: [
+      {
+        question: "Does the Pearl River affect termite risk in my neighborhood?",
+        answer: "The Pearl River's influence on soil moisture is most direct for properties in Pearl's western neighborhoods nearest the river corridor, but the elevated moisture conditions extend across much of Rankin County's suburban terrain. Eastern subterranean termite pressure across Pearl is higher than the state average because of the river's long-term influence on the county's soil moisture profile. Annual inspections are the recommended standard for all Pearl properties regardless of distance from the river.",
+      },
+      {
+        question: "When is mosquito season in Pearl, MS?",
+        answer: "In Pearl, meaningful mosquito activity typically begins in late March and remains active through October, with peak pressure in June through August. The Pearl River corridor extends the season slightly compared to areas without river influence. Suburban retention ponds within Pearl's residential developments can sustain local breeding throughout the season. Monthly barrier spray starting in April effectively suppresses population buildup through the peak months.",
+      },
+      {
+        question: "Why do mice show up in Pearl every fall?",
+        answer: "The agricultural and rural land on Rankin County's eastern edge supports large house mouse populations through the summer growing season. When temperatures drop in October and November, these populations move from outdoor harborage toward warmer interior shelter and often find access into suburban homes through small gaps around utility pipes, weep holes in brick construction, under garage doors, and along foundation cracks. Sealing these access points in September or early October, before the pressure begins, is more effective and less disruptive than responding after mice have already entered.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Jackson", slug: "jackson" },
+      { name: "Clinton", slug: "clinton-ms" },
+      { name: "Southaven", slug: "southaven" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Pearl, MS | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Pearl MS pest control for eastern subterranean termites, mosquitoes, fire ants, cockroaches and rodents. Rankin County Jackson metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

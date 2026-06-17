@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-17)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-43 complete. T2 COMPLETE.
-- **City pages built:** 1023 total (75 T1 + 300 T2 + 648 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-44 complete. T2 COMPLETE.
+- **City pages built:** 1053 total (75 T1 + 300 T2 + 678 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1106 in the static export (home, services, 50+ states, 1023 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=213, B=211, C=201, D=200, E=198 (1023 total cities, all within 15-25% range).
-- **Cities built T3 chunks 41-43 (20):** MA: Malden, Medford, Haverhill, Waltham, Pittsfield (A). WI: Superior, Sun Prairie, Oak Creek, New Berlin, Fitchburg (A). MN: Maplewood, Shakopee, Inver Grove Heights, Roseville, Richfield (B). MO: Blue Springs, Cape Girardeau, Sedalia, Ballwin, Kirkwood (B).
-- **New state files added chunks 41-43:** none (all states already registered in index.ts).
-- **Next block:** Chunk 44, T3 continues, rotation at C.
+- **Total site pages:** 1136 in the static export (home, services, 50+ states, 1053 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=213, B=211, C=211, D=210, E=208 (1053 total cities, all within 15-25% range).
+- **Cities built T3 chunk 44 (30):** CT: Torrington, Shelton, East Hartford, Glastonbury, Stratford (C). ID: Twin Falls, Lewiston, Rexburg, Post Falls, Moscow (E). AL: Gadsden, Homewood, Florence, Decatur, Opelika (C). AR: Bentonville, Hot Springs, Russellville, Pine Bluff, Searcy (D). MS: Columbus, Vicksburg, Pascagoula, Horn Lake, Pearl (D). LA: Natchitoches, Opelousas, Sulphur, Morgan City, Crowley (E).
+- **New state files added chunk 44:** none (CT, ID, AL, AR, MS, LA already registered in index.ts).
+- **Next block:** Chunk 45, T3 continues, rotation at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

@@ -782,4 +782,484 @@ export const idahoCities: CityLocation[] = [
     metaDescription:
       "Pocatello pest control for black widow spiders, house mice, German cockroaches, ants and earwigs. Bannock County Portneuf River Idaho State University area specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "twin-falls",
+    name: "Twin Falls",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~51,000",
+    county: "Twin Falls County",
+    climate: "semi-arid",
+    climateDriver:
+      "Twin Falls sits in the high desert of south-central Idaho above the Snake River Canyon, with hot dry summers and cold winters that create a distinct pest season. Black widow spiders thrive in the warm, dry conditions, and the winter mouse surge into heated buildings is sharp when temperatures drop. The agricultural surroundings bring voles and field mice to residential edges year-round.",
+    topPests: ["Black widow spiders", "House mice", "Odorous house ants", "Voles", "German cockroaches"],
+    pestProfile: [
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "April through October, peak in summer",
+        note: "Black widow spiders are common throughout south-central Idaho's high desert terrain, and Twin Falls has consistent black widow pressure in garages, basements, outbuildings, and anywhere with undisturbed storage. Their venom is medically significant and requires prompt attention.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall and winter",
+        note: "Twin Falls' cold winters drive mice into heated buildings predictably each fall. The agricultural surroundings mean established field mouse populations are in close proximity to the city's residential edges, increasing fall pressure.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Odorous house ants are the most common indoor ant pest in Twin Falls, entering homes through foundation cracks and utility penetrations in search of food and water. Their populations are active through the warm season.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, most visible in early spring",
+        note: "Voles are a consistent lawn and garden pest in Twin Falls, creating surface runway systems through turf and gnawing the bark from young trees and shrubs at ground level. Damage is most visible after snow melts in spring.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are present in Twin Falls' commercial food service corridor and in multi-family housing. They spread through shared plumbing and do not require outdoor access to maintain indoor populations.",
+      },
+    ],
+    localHook:
+      "Twin Falls is the largest city in south-central Idaho, positioned on the rim of Snake River Canyon with the famous Shoshone Falls and the I-84 corridor as its defining geography. The high desert climate means black widow spiders, ants, and voles are more significant pest pressures than in wetter parts of the country. The agricultural fringe brings field mice into residential areas at the city's suburban edges each fall.",
+    intro:
+      "Pest control in Twin Falls reflects the Snake River Plain's high desert character. Black widow spiders are a genuine safety concern in garages and outbuildings across the city, requiring routine inspection and treatment rather than just reactive response. The fall mouse surge is sharp when the high desert cold arrives in October. Odorous house ants are the most common indoor ant pest through the warm months. Voles damage lawns and young trees in the residential neighborhoods at the agricultural edge. German cockroaches maintain pressure in the commercial food service corridor year-round.",
+    sections: [
+      {
+        heading: "Black widow spiders in Twin Falls garages and outbuildings",
+        body: "Black widow spiders are a consistent and medically significant pest concern in Twin Falls. The high desert climate suits them well, and they are reliably found in garages, sheds, water meter boxes, window wells, and anywhere with undisturbed storage and low traffic. The female black widow's venom causes severe muscle pain and cramps and requires medical attention. The practical response is routine inspection of outbuildings and storage areas, keeping floors and shelving organized to reduce undisturbed harborage, and annual professional treatment covering the corners, shelving edges, and utility connections in garages and basements.",
+      },
+      {
+        heading: "Agricultural edges and the fall mouse surge",
+        body: "Twin Falls is surrounded by some of the most productive agricultural land in Idaho, and the established field mouse and vole populations in those fields are in close proximity to the city's residential neighborhoods. When fall temperatures drop in October, mice move from outdoor harborage into the nearest heated shelter. Homes at the agricultural edge of the city see this surge most intensely. Sealing foundation cracks, utility penetrations, and garage door gaps before October is the most effective preventive step for Twin Falls residents on the city's outer edges.",
+      },
+    ],
+    prevention: [
+      "Inspect garages and outbuildings routinely for black widow webs in corners, shelving, and near ground-level openings.",
+      "Seal foundation cracks, pipe entries, and garage door perimeters before October to block the fall mouse surge.",
+      "Organize storage in plastic sealed bins rather than open cardboard boxes to reduce black widow harborage.",
+      "Check lawn areas in early spring for vole runways and tree base damage before planting season begins.",
+    ],
+    costNote:
+      "Twin Falls pest pricing reflects the south-central Idaho regional market, generally lower than the Boise metro. Black widow treatment, rodent exclusion, and ant control are each quoted separately. Free inspections are available to assess current pest pressure.",
+    faqs: [
+      {
+        question: "How common are black widow spiders in Twin Falls homes and garages?",
+        answer:
+          "Black widow spiders are consistently present throughout Twin Falls in garages, sheds, and outbuildings. The high desert climate of the Snake River Plain suits them well, and they are found in virtually every neighborhood where outbuildings, window wells, and cluttered storage areas provide harborage. The risk is not that every garage has a dangerous infestation, but that black widows are common enough that routine inspection and preventive treatment is more practical than waiting for an encounter to prompt action. Their venom is medically significant and bites can require hospitalization.",
+      },
+      {
+        question: "Why do Twin Falls homes on the city's agricultural edge get more mice than homes closer to downtown?",
+        answer:
+          "Homes at the agricultural edge of Twin Falls are adjacent to fields and pasture where field mice and voles maintain established populations year-round. When fall temperatures drop, those populations look for heated shelter, and the nearest available structures are the homes on the city's outer ring. Established mouse populations in adjacent fields mean the fall surge pressure is higher than for homes surrounded by other residential buildings. Exclusion work before October is particularly important for these edge-of-city properties.",
+      },
+      {
+        question: "What is the difference between vole damage and other lawn problems in Twin Falls?",
+        answer:
+          "Vole damage is most visible in early spring after snow melts and reveals the surface runways voles created through the turf during winter. These are narrow matted channels through the grass, about two inches wide, where voles traveled under the snow cover. Voles also gnaw the bark from the base of young trees and shrubs at ground level, which can girdle and kill a young tree if the gnawing goes all the way around. This is different from mole damage, which creates raised tunnel ridges or pushed-up mounds, and different from grub damage, which causes turf to lift in sheets without surface runways.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Boise", slug: "boise" },
+      { name: "Caldwell", slug: "caldwell" },
+      { name: "Nampa", slug: "nampa" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Twin Falls, ID | Black Widows, Mice & Ants",
+    metaDescription:
+      "Twin Falls pest control for black widow spiders, house mice, odorous house ants, voles and German cockroaches. Twin Falls County Snake River Canyon high desert south-central Idaho specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lewiston",
+    name: "Lewiston",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~34,000",
+    county: "Nez Perce County",
+    climate: "temperate",
+    climateDriver:
+      "Lewiston sits at the confluence of the Snake and Clearwater Rivers at one of Idaho's lowest elevations, giving it a notably milder climate than most of the state. The canyon terrain moderates winter temperatures, producing a longer warm season than surrounding areas. Yellow jacket populations are robust through the late summer canyon months, and the mild climate extends the active pest season at both ends.",
+    topPests: ["Yellow jacket wasps", "House mice", "Black widow spiders", "Odorous house ants", "German cockroaches"],
+    pestProfile: [
+      {
+        name: "Yellow jacket wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August through September",
+        note: "Yellow jacket wasps are a significant late-summer pest in Lewiston's canyon terrain. They nest in the ground, wall voids, and under decks, and are at their most aggressive in August and September when colonies reach peak size. The canyon walls and rocky slopes around Lewiston provide abundant ground-nesting habitat.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Lewiston's older downtown structures and the residential neighborhoods on the lower canyon benches have the entry-point density that gives mice easy access when fall temperatures arrive. The mild climate means the fall mouse surge is slightly later here than in colder parts of Idaho.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "April through October",
+        note: "Black widow spiders are common in the Hells Canyon region, and Lewiston's warm canyon climate suits them well. Garages, basements, and outbuildings throughout the city are consistent habitat.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Odorous house ants are the primary indoor ant pest in Lewiston, entering homes through foundation gaps in search of food and water through the warm season. The mild winters mean they remain active longer than in colder Idaho cities.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are present in Lewiston's commercial food service and restaurant corridor, particularly in the older downtown buildings with shared utilities. They do not require outdoor access to maintain populations.",
+      },
+    ],
+    localHook:
+      "Lewiston is one of the lowest-elevation cities in Idaho, sitting at the confluence of the Snake and Clearwater Rivers in the Hells Canyon region. The mild, temperate climate means pest seasons are longer here than in the rest of the state. Yellow jacket wasps are a significant late-summer pest in the canyon terrain, and black widow spiders are consistently present in garages and outbuildings throughout the city.",
+    intro:
+      "Pest control in Lewiston has a character shaped by the canyon. The mild climate at the bottom of Hells Canyon means a longer active pest season than most Idaho cities. Yellow jackets are an aggressive late-summer presence in the canyon terrain and rock slopes. Black widow spiders are common in garages and outbuildings. The fall mouse surge hits the older downtown structures when canyon temperatures finally drop. Odorous house ants are the primary indoor ant pest from March through October. German cockroaches maintain pressure in the commercial food service corridor year-round.",
+    sections: [
+      {
+        heading: "Yellow jackets in the canyon terrain",
+        body: "Lewiston's canyon location and warm late summers produce large yellow jacket colonies that are at their most aggressive in August and September. The rocky slopes and canyon walls around the city provide abundant ground-nesting habitat, and yellow jackets also nest in wall voids and under deck structures in the residential neighborhoods. At peak colony size, yellow jacket workers defend their nests aggressively, and colonies near outdoor dining areas, trash receptacles, or play areas are a sting risk. Ground nests treated in spring when colonies are small are significantly easier to manage than established August colonies.",
+      },
+      {
+        heading: "Black widows in Lewiston garages and outbuildings",
+        body: "Black widow spiders are consistently present throughout the Hells Canyon region, and Lewiston's warm canyon climate is well suited to them. They are found in garages, under decks, in window wells, and in storage areas throughout the city. The female's venom causes severe muscle pain and cramping and requires medical evaluation. Routine inspection of garages and storage areas, organized storage that minimizes undisturbed corners, and annual professional web removal and residual treatment are the most effective management approach for Lewiston properties.",
+      },
+    ],
+    prevention: [
+      "Treat yellow jacket ground nests in spring when colonies are small, before the aggressive August peak.",
+      "Inspect garages and outbuildings routinely for black widow webs near corners and ground-level openings.",
+      "Seal foundation gaps and utility entries before fall to block the mouse surge in older downtown structures.",
+      "Keep food waste in sealed containers to reduce yellow jacket attraction near outdoor gathering areas.",
+    ],
+    costNote:
+      "Lewiston pest pricing is generally in line with the north Idaho regional market. Yellow jacket treatment, black widow spider service, and rodent exclusion are each quoted separately. Free inspections are available.",
+    faqs: [
+      {
+        question: "Why are yellow jackets so aggressive in Lewiston during late summer?",
+        answer:
+          "Yellow jacket colonies grow throughout the summer and reach peak population in August and September. At that size, the workers are highly territorial and will defend the nest aggressively. In Lewiston's canyon terrain, ground nests are common in the rocky slopes and embankments around residential properties. The warm, dry late summers here favor large colony development. Late summer is also when yellow jackets shift toward scavenging for protein and carbohydrates, making them more likely to investigate food and outdoor dining areas. Ground nests found in spring should be treated early before the colony reaches this aggressive peak.",
+      },
+      {
+        question: "Is the mild Lewiston climate more hospitable to pests than the rest of Idaho?",
+        answer:
+          "Yes, to a meaningful degree. Lewiston's position at the bottom of the Snake River Canyon gives it some of the mildest winter temperatures in Idaho, and that extended warmth translates to longer active pest seasons. Yellow jackets build larger colonies here because the warm summer extends through September. Black widow spiders remain active longer. Odorous house ants are active earlier in spring and later into fall. The trade-off is that pest season in Lewiston genuinely starts earlier and ends later than in Boise, Pocatello, or the northern cities.",
+      },
+      {
+        question: "How do I find a yellow jacket ground nest in my Lewiston yard?",
+        answer:
+          "Yellow jacket ground nests are usually identified by watching worker traffic: the yellow jackets fly in and out of a specific hole in the ground or an opening in a rock slope or embankment. The entry hole is typically small, about the diameter of a pencil, and easy to overlook in the grass or gravel. Watching for flying workers returning to a single point in late afternoon is the most reliable location method. Do not probe the area with a stick or disturb the nest entrance before treatment, as the colony will respond aggressively. Mark the location and call for professional treatment rather than attempting to treat an active ground nest yourself.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Coeur d'Alene", slug: "coeur-d-alene" },
+      { name: "Nampa", slug: "nampa" },
+      { name: "Boise", slug: "boise" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Lewiston, ID | Yellow Jackets, Mice & Black Widows",
+    metaDescription:
+      "Lewiston pest control for yellow jacket wasps, house mice, black widow spiders, ants and cockroaches. Nez Perce County Snake River Clearwater confluence mild climate specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "rexburg",
+    name: "Rexburg",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~28,000",
+    county: "Madison County",
+    climate: "cold",
+    climateDriver:
+      "Rexburg sits on the Upper Snake River Plain in eastern Idaho at an elevation of nearly 5,000 feet, giving it one of the colder climates among Idaho's cities. Winters are long and hard, suppressing outdoor pest activity from October through April. The student rental housing around BYU-Idaho creates year-round indoor pest pressure from cockroaches and bed bugs regardless of outdoor temperatures.",
+    topPests: ["House mice", "German cockroaches", "Bed bugs", "Odorous house ants", "Voles"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through November",
+        note: "Rexburg's hard winters drive mice into heated buildings early and sharply. The surrounding agricultural land means established field mouse populations are close to residential areas, increasing the fall surge pressure significantly.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "BYU-Idaho's student rental housing generates the apartment turnover and shared living conditions that sustain German cockroach populations in multi-family buildings year-round, entirely independent of outdoor temperatures.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Student housing around BYU-Idaho sees consistent bed bug introductions through the August and September move-in period. Used furniture purchased before moving and infested travel items are the primary introduction vectors.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through September",
+        note: "Odorous house ants are active through Rexburg's shorter warm season from May through September, entering homes through foundation gaps. The cold winters limit their active period compared to warmer Idaho cities.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round, most visible after snow melt",
+        note: "Voles are a common lawn pest in Madison County, creating surface runways through turf under snow cover through winter and gnawing bark from young trees and shrubs at ground level.",
+      },
+    ],
+    localHook:
+      "Rexburg is home to BYU-Idaho and sits in the Upper Snake River Plain of eastern Idaho, one of the colder city climates in the state. The harsh winters suppress outdoor pest activity significantly from October through April. The student rental housing around the university campus creates consistent German cockroach and bed bug pressure year-round, and the surrounding agricultural land brings field mice into residential areas at the city's edges during the fall surge.",
+    intro:
+      "Pest control in Rexburg is shaped by two contrasting forces: the long, harsh winters that suppress outdoor pests for six months, and the BYU-Idaho student housing market that sustains indoor pest pressure year-round regardless of temperature. The fall mouse surge is sharp when high desert cold arrives in October. German cockroaches and bed bugs move through student apartments via shared spaces and move-in turnover. Odorous house ants are active through the shorter warm season. Voles are a consistent lawn pest in Madison County's agricultural environment.",
+    sections: [
+      {
+        heading: "BYU-Idaho student housing and indoor pest pressure",
+        body: "Rexburg's character is defined by BYU-Idaho, and the university's enrollment cycle creates a concentrated apartment turnover period in August and September when thousands of students move in with belongings that can introduce bed bugs and cockroaches. Student housing typically has higher-than-average turnover and shared living conditions that allow pests to spread between units. Bed bug inspections before move-in and prompt reporting of any cockroach sightings to property managers are the most effective steps for student renters. Property managers in the university rental market benefit from regular scheduled treatments, not just reactive calls.",
+      },
+      {
+        heading: "Fall mouse pressure from agricultural surroundings",
+        body: "Rexburg sits in the middle of Idaho's potato and grain country, surrounded by agricultural land with established field mouse populations. When October arrives and temperatures drop sharply at nearly 5,000 feet elevation, those mice move rapidly toward the nearest heated buildings. Rexburg's residential neighborhoods, particularly those at the city's agricultural edge, see fast and concentrated fall mouse events. The combination of severe cold and close proximity to agricultural mouse populations makes exclusion before October the most critical preventive step for Rexburg homeowners.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, utility entries, and garage door seals before October when the fall mouse surge begins.",
+      "Inspect used furniture carefully for bed bug signs before bringing it into a student apartment.",
+      "Report cockroach sightings in multi-unit housing immediately so coordinated treatment can address all affected units.",
+      "Check lawns in spring for vole surface runways and tree base damage to assess the season's vole pressure.",
+    ],
+    costNote:
+      "Rexburg pest pricing is generally lower than the Boise metro, reflecting the east Idaho regional market. Bed bug treatment, rodent exclusion, and recurring pest service are each quoted separately. Free inspections are available.",
+    faqs: [
+      {
+        question: "Why does student housing near BYU-Idaho have persistent pest problems?",
+        answer:
+          "Student rental housing has several characteristics that create ongoing pest pressure: frequent tenant turnover, shared living situations, varied personal hygiene standards among occupants, and a high rate of used furniture purchases before and after move-in. The August and September move-in period is particularly high-risk for bed bug introductions, as students arriving from across the country may bring infested items without knowing it. Cockroaches spread through shared walls and plumbing in multi-unit buildings. Property managers who invest in proactive scheduled treatments rather than waiting for complaints see better long-term outcomes.",
+      },
+      {
+        question: "How early does the fall mouse surge hit Rexburg compared to other Idaho cities?",
+        answer:
+          "Rexburg sits at nearly 5,000 feet elevation on the Upper Snake River Plain, which means temperatures drop earlier and more sharply than in lower-elevation Idaho cities like Lewiston or even Boise. October in Rexburg regularly brings below-freezing overnight temperatures that trigger mice to move indoors. This is typically a week to two weeks earlier than the fall surge in the Treasure Valley. Residents should complete exclusion work by the end of September rather than waiting until mid-October as might be sufficient in warmer parts of the state.",
+      },
+      {
+        question: "Are voles a real problem in Rexburg lawns, or just a minor nuisance?",
+        answer:
+          "Voles are a genuine lawn and landscape pest in Madison County. Their surface runways through turf, visible after snow melt, are unsightly but the turf usually recovers. The more serious damage is to young trees and shrubs: voles gnaw the bark from the base of young plants at ground level, and if gnawing goes all the way around the stem (girdling), the plant will die because water and nutrients cannot move past the damage. Established trees are rarely killed by voles, but young plantings in the first three to five years of growth are at real risk. Wire mesh guards around young tree bases provide effective protection.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Idaho Falls", slug: "idaho-falls" },
+      { name: "Pocatello", slug: "pocatello" },
+      { name: "Boise", slug: "boise" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Rexburg, ID | Mice, Cockroaches & Bed Bugs",
+    metaDescription:
+      "Rexburg pest control for house mice, German cockroaches, bed bugs, ants and voles. Madison County BYU-Idaho Upper Snake River Plain east Idaho specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "post-falls",
+    name: "Post Falls",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~37,000",
+    county: "Kootenai County",
+    climate: "cold-humid",
+    climateDriver:
+      "Post Falls sits in the Idaho Panhandle along the Spokane River, sharing the Pacific Northwest's cold-humid climate with occasional heavy snowfall. Winters suppress outdoor pests from November through March. The Spokane River corridor and the surrounding forests create carpenter ant and tick habitat close to the rapidly growing residential neighborhoods.",
+    topPests: ["Carpenter ants", "Black widow spiders", "House mice", "Yellow jacket wasps", "Odorous house ants"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "The Spokane River corridor and the conifer forests of the Idaho Panhandle provide extensive carpenter ant habitat. Post Falls' rapid residential growth has pushed new construction into formerly forested areas, bringing carpenter ant pressure into contact with new building stock.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "April through October",
+        note: "Black widow spiders are present throughout Kootenai County, including Post Falls, in garages, outbuildings, and areas with undisturbed storage. Their venom is medically significant, making routine inspection and treatment of outbuildings important.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Post Falls' rapid growth means new residential construction frequently sits adjacent to forested land with established mouse populations. Fall mouse pressure in newer subdivisions near the forest edge is significant.",
+      },
+      {
+        name: "Yellow jacket wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note: "Yellow jackets are a consistent late-summer pest in the Panhandle. Ground nests in the forested areas adjacent to Post Falls neighborhoods are common, and workers become aggressive as colony size peaks in late summer.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Odorous house ants enter Post Falls homes through foundation cracks and utility penetrations throughout the warm season, seeking food and water. They are the most common indoor ant complaint in Kootenai County.",
+      },
+    ],
+    localHook:
+      "Post Falls is a fast-growing Kootenai County city west of Coeur d'Alene along the Spokane River corridor. The city has grown rapidly as a bedroom community for the Spokane metro, and that growth means new residential construction regularly encounters the carpenter ant and mouse populations established in the adjacent forested land. The Spokane River and the surrounding forests of the Idaho Panhandle create consistent pest pressure that the Spokane Valley's suburban character does not fully prepare new residents for.",
+    intro:
+      "Pest control in Post Falls is shaped by its position at the edge of the Idaho Panhandle's forests. Carpenter ants are a serious structural pest here because of the surrounding conifer habitat. Black widow spiders are present in garages and outbuildings throughout the city. The fall mouse surge is intensified by the forest edge proximity. Yellow jackets are a late-summer pest in the wooded areas adjacent to residential neighborhoods. Odorous house ants are the most common indoor ant from April through October. Winter suppresses outdoor pests from November through March, but the forest-edge pressure resumes quickly in spring.",
+    sections: [
+      {
+        heading: "Carpenter ants and the Panhandle forest edge",
+        body: "Post Falls has expanded rapidly into the conifer forests that define the Idaho Panhandle, and that expansion puts new residential construction in direct contact with established carpenter ant populations. Carpenter ants nest in large decaying logs, tree stumps, and moist wood, and foraging workers from outdoor colonies regularly enter homes in search of food and water. When workers establish an indoor satellite colony in moist or water-damaged wood within the structure, the problem escalates from nuisance to structural damage. A spring inspection to assess indoor ant activity and identify any moisture-damaged wood is the most effective preventive step.",
+      },
+      {
+        heading: "Fall mouse pressure at the forest edge",
+        body: "Post Falls' newest subdivisions are frequently built on land that was forested until recently, and the established mouse populations in those forests do not disappear when land clearing begins. They shift to the nearest available shelter, and new homes are the most attractive option. The fall pressure in Post Falls' outer neighborhoods is intensified by the density of forest mouse populations immediately adjacent to residential lots. Pre-October exclusion work at identified entry points is particularly important for homes at the forest edge in Kootenai County.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, utility entries, and garage gaps before October to block the fall mouse surge from the forest edge.",
+      "Inspect outbuildings and garages routinely for black widow webs in corners and undisturbed storage areas.",
+      "Inspect rooflines and any wood near moisture sources annually for carpenter ant activity in spring.",
+      "Treat yellow jacket ground nests in spring when colonies are small, before the aggressive August peak.",
+    ],
+    costNote:
+      "Post Falls pest pricing is consistent with the Kootenai County and north Idaho market. Carpenter ant service, rodent exclusion, and black widow treatment are each quoted separately. Free inspections are available.",
+    faqs: [
+      {
+        question: "Why do new Post Falls homes near the forest get carpenter ants so quickly?",
+        answer:
+          "Carpenter ants in the Idaho Panhandle's conifer forests maintain large, established colonies in decaying logs, stumps, and moist wood. When residential development replaces forested land, the main colony may remain in adjacent undisturbed forest while foraging workers range into new homes in search of food and water. New construction in forested terrain often has uncured caulk, rough framing near the foundation, and construction debris that provides easy access. It is not unusual for a new Post Falls home on a former forest lot to have carpenter ant activity in its first or second year.",
+      },
+      {
+        question: "Are black widow spiders common in Post Falls, or is the risk overestimated?",
+        answer:
+          "Black widows are genuinely present in Kootenai County and Post Falls is within their range. They prefer dry, undisturbed areas with low human traffic, which means garages, storage sheds, wood piles, and basements are the most common harborage sites. They are not aggressive and bites are uncommon, but the venom is medically significant when bites do occur. Routine inspection of outbuildings and organized storage that minimizes undisturbed corners are the most practical prevention steps for Post Falls property owners.",
+      },
+      {
+        question: "Is the fall mouse surge in Post Falls worse than in Coeur d'Alene?",
+        answer:
+          "Post Falls' fall mouse pressure can be higher than Coeur d'Alene's in neighborhoods at the forest edge, because the adjacent conifer forest habitat supports denser mouse populations than the more developed surrounding areas of the larger city. For homes in Post Falls' inner neighborhoods, the pressure is similar. For homes at the newest suburban edge of Post Falls, particularly those on former forested lots or adjacent to undeveloped timber land, the fall surge can be more pronounced than in equivalent Coeur d'Alene neighborhoods.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Coeur d'Alene", slug: "coeur-d-alene" },
+      { name: "Nampa", slug: "nampa" },
+      { name: "Boise", slug: "boise" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Post Falls, ID | Carpenter Ants, Black Widows & Mice",
+    metaDescription:
+      "Post Falls pest control for carpenter ants, black widow spiders, house mice, yellow jacket wasps and ants. Kootenai County Spokane River Idaho Panhandle growth corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "moscow",
+    name: "Moscow",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~26,000",
+    county: "Latah County",
+    climate: "cold-humid",
+    climateDriver:
+      "Moscow sits in the Palouse Hills of northern Idaho, a rolling agricultural landscape that produces some of the most fertile dryland wheat-growing country in the world. The cold-humid climate brings genuine winters from November through March. The University of Idaho generates student housing that sustains year-round indoor pest pressure independent of the outdoor temperature cycle.",
+    topPests: ["House mice", "German cockroaches", "Bed bugs", "Carpenter ants", "Odorous house ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "Moscow's Palouse agricultural surroundings have established field mouse populations close to the city's residential and commercial buildings. The fall surge into heated buildings each October is pronounced, particularly for properties at the agricultural edge.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "University of Idaho student housing and the commercial food service corridor along Main Street sustain German cockroach populations year-round. Shared living situations and apartment turnover provide the conditions cockroaches need to spread.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "University of Idaho enrollment creates concentrated apartment turnover in August and September when thousands of students arrive with belongings that can introduce bed bugs. The student rental market is the primary bed bug risk environment in Moscow.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "The wooded residential areas on Moscow's western edge near Paradise Ridge have carpenter ant habitat in mature trees and moist wood. Homes adjacent to the ridge see more carpenter ant activity than those in the more open central neighborhoods.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Odorous house ants are a consistent indoor ant pest in Moscow, entering homes through foundation cracks in search of food. They are active through most of the warm season despite the Palouse's cooler climate.",
+      },
+    ],
+    localHook:
+      "Moscow is home to the University of Idaho and Washington State University is just three miles away in Pullman, making this a genuine college town at the southern edge of the Idaho Panhandle. The student rental housing stock creates consistent German cockroach and bed bug pressure. The Palouse Hills agricultural landscape surrounding the city brings field mice into residential and commercial buildings at the edges each fall, and carpenter ants are active in the wooded neighborhoods near Paradise Ridge.",
+    intro:
+      "Pest control in Moscow is defined as much by the university as by the landscape. The University of Idaho drives the apartment rental market that sustains German cockroach and bed bug pressure year-round. The Palouse Hills' agricultural surroundings bring field mice into the city's edges each fall in concentrated surges. Carpenter ants are active in the wooded western neighborhoods near Paradise Ridge from April through September. Odorous house ants are the most common indoor ant pest through the warm season. Cold winters suppress outdoor pests from November through March, but the indoor pest calendar here never fully pauses.",
+    sections: [
+      {
+        heading: "University of Idaho housing and year-round pest pressure",
+        body: "Moscow's rental housing market is driven by the University of Idaho's enrollment cycle, and that creates the conditions for persistent cockroach and bed bug pressure. The August and September move-in period sees thousands of students arriving with possessions from across the country and occasionally internationally. A single infested item can introduce bed bugs to a building that then spreads through shared hallways and wall gaps. German cockroaches establish in shared kitchen and bathroom areas and spread through plumbing. Property managers who maintain proactive treatment schedules, rather than responding only to complaints, see dramatically better long-term pest outcomes.",
+      },
+      {
+        heading: "Palouse agricultural edge and the fall mouse surge",
+        body: "Moscow is surrounded by the Palouse Hills, an agricultural landscape of dryland wheat and legume farming with established field mouse populations. When October arrives and temperatures drop on the Palouse, those field mice look for heated shelter, and Moscow's residential and commercial buildings are the closest option for the populations at the city's edge. Fall mouse events in Moscow's outer neighborhoods can be fast and concentrated. Homes and commercial buildings at the agricultural edge benefit from exclusion work completed by the end of September, before the cold triggers the surge.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, utility entries, and building perimeters before October to block field mice from the Palouse edge.",
+      "Inspect used furniture thoroughly for bed bug signs before moving it into a student apartment.",
+      "Report cockroach sightings in apartments immediately so building management can coordinate treatment across affected units.",
+      "Inspect the roofline and any moist wood near the Paradise Ridge neighborhoods for carpenter ant activity each spring.",
+    ],
+    costNote:
+      "Moscow pest pricing reflects the north Idaho and Palouse regional market, generally moderate and consistent with other university towns of similar size. Bed bug remediation, rodent exclusion, and recurring cockroach service are each quoted separately. Free inspections are available.",
+    faqs: [
+      {
+        question: "How does the University of Idaho's enrollment cycle affect pest control in Moscow?",
+        answer:
+          "The enrollment cycle creates two high-risk periods: August and September, when students move in with potentially infested items, and May and June, when they move out and leave behind items that may be infested. Bed bug introductions are most common in the fall move-in period. German cockroach spread is a year-round risk in buildings with consistent occupancy. Property managers who schedule professional inspections in late July before move-in and again in October after settling are better positioned to catch introductions before they become building-wide infestations.",
+      },
+      {
+        question: "Why does the Palouse agricultural landscape create more fall mouse pressure in Moscow than in urban colleges?",
+        answer:
+          "The Palouse Hills around Moscow support large field mouse populations in the agricultural areas outside the city boundary. When fall temperatures drop, those populations seek heated shelter, and the nearest buildings are at Moscow's residential and commercial edge. Urban colleges in denser metropolitan areas are surrounded by other urban uses that do not harbor field mouse populations in the same way. Moscow's agricultural surroundings mean the fall surge sources are close, dense, and predictable. Pre-October exclusion work at identified entry points is the most effective response for properties at the agricultural edge of the city.",
+      },
+      {
+        question: "Are carpenter ants a problem throughout Moscow or only in certain neighborhoods?",
+        answer:
+          "Carpenter ant pressure is concentrated in Moscow's western neighborhoods nearest to Paradise Ridge and the Latah Creek corridor, where mature trees and wooded terrain provide nesting habitat and the humid micro-climate created by the ridge supports moist wood conditions. The more open, eastern neighborhoods with newer construction and less tree canopy see fewer carpenter ant issues. Homes adjacent to wooded properties, creek corridors, or those with mature deciduous trees near the roofline are at the highest risk. A spring inspection in April or May, when forager ants first become active, is the best way to catch activity before a satellite colony establishes indoors.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Coeur d'Alene", slug: "coeur-d-alene" },
+      { name: "Nampa", slug: "nampa" },
+      { name: "Boise", slug: "boise" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Moscow, ID | Mice, Cockroaches & Bed Bugs",
+    metaDescription:
+      "Moscow pest control for house mice, German cockroaches, bed bugs, carpenter ants and ants. Latah County University of Idaho Palouse Hills north Idaho specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
