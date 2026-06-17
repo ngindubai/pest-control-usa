@@ -3338,4 +3338,604 @@ export const tennesseeCities: CityLocation[] = [
     metaDescription:
       "Dickson TN pest control for subterranean termites, carpenter ants, fire ants and yellowjackets. Dickson County Montgomery Bell State Park Highland Rim specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  // Bristol, TN
+  {
+    slug: "bristol",
+    name: "Bristol",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~27,000",
+    county: "Sullivan County",
+    climate: "temperate",
+    climateDriver:
+      "Bristol sits in the Appalachian ridge-and-valley system of Sullivan County on the Virginia-Tennessee state line, at an elevation that produces cooler summers and colder winters than lowland Tennessee. The South Holston Lake watershed and the Tennessee River headwaters create mosquito-generating water features within the metro area. The Appalachian mountain corridor is the core establishment zone for brown marmorated stink bugs in the eastern United States, and Bristol sees some of the state's highest fall stink bug aggregation densities as a result.",
+    topPests: [
+      "Brown marmorated stink bugs",
+      "Eastern subterranean termites",
+      "Carpenter ants",
+      "Mosquitoes",
+      "House mice",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate September through November, overwinter in wall voids",
+        note:
+          "Bristol sits in the Appalachian corridor where stink bug populations are dense and well-established. Fall aggregations on south- and west-facing walls of Sullivan County homes can number in the hundreds before the insects find their way into wall voids for winter.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active spring through fall",
+        note:
+          "Sullivan County has consistent eastern subterranean termite pressure in the valley soils. Bristol's older neighborhoods, many built in the mid-20th century, carry elevated exposure from decades of ground contact.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note:
+          "The wooded residential lots throughout the Tri-Cities area sustain large carpenter ant populations. Bristol's mix of older homes and hardwood-heavy lots is a near-ideal environment for carpenter ant nesting in moisture-damaged wood.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note:
+          "South Holston Lake and the headwater creek systems of the Tennessee River watershed create sustained mosquito breeding habitat throughout the Bristol area. The Appalachian elevation shortens the season compared to lowland Tennessee but does not eliminate pressure through the warm months.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in October, active through winter",
+        note:
+          "The colder Appalachian winters in Sullivan County push mice indoors earlier and more reliably than in Middle or West Tennessee. The older residential housing stock in Bristol has accumulated the foundation gaps and utility openings that make entry easy.",
+      },
+    ],
+    localHook:
+      "Bristol sits on the state line, with Tennessee on one side and Virginia on the other, but the pest that defines fall here does not care about the boundary. Brown marmorated stink bugs from the Appalachian corridor descend on Bristol homes in large numbers every September, and getting ahead of them before they find the wall voids is the move.",
+    intro:
+      "Pest control in Bristol is shaped by the Appalachian setting and the Tennessee-Virginia state line location. The mountain corridor makes this city one of Tennessee's stink bug hotspots: fall aggregations on south-facing walls run into the hundreds, and the insects that make it into wall voids stay there all winter. Eastern subterranean termites work Sullivan County's valley soils year-round with the regularity you find across East Tennessee, and carpenter ants are a consistent presence in the wooded residential lots that define the Tri-Cities character. South Holston Lake and the creek systems running into the Tennessee River headwaters create meaningful mosquito habitat through the warm months. House mice push in hard when the Appalachian cold arrives in October. This is a city where fall preparation matters more than almost anywhere else in the state.",
+    sections: [
+      {
+        heading: "The stink bug problem in Bristol's Appalachian corridor",
+        body: "Brown marmorated stink bugs established in the Appalachian mountains before spreading across the eastern United States, and the mountains around Bristol remain core habitat. Every fall, populations aggregate on warm exterior surfaces, particularly south- and west-facing walls, looking for gaps that lead to overwintering space in wall voids. Bristol homes can see hundreds on an exterior wall in a single afternoon in late September. The insects are not dangerous, but their numbers are genuinely startling, and the ones that get into the wall spend the winter there and emerge into living spaces on warm days through March. The window for prevention is tight: sealing gaps around windows, utility penetrations, soffit vents, and fascia boards before the aggregation starts in early September dramatically reduces how many make it inside. Treatment of the exterior in late August targets staging populations before they find entry points.",
+      },
+      {
+        heading: "Termites and carpenter ants: the structural pest double in Sullivan County",
+        body: "Eastern subterranean termites are active throughout Sullivan County, reaching wood through mud tubes from the soil. Spring swarms of winged termites are the most visible sign, but damage happens quietly well before that. Bristol's older neighborhoods have had decades of termite exposure, and homes with crawl spaces, wood close to the soil, and moisture in the foundation are at the highest risk. Carpenter ants add a second wood-pest concern. They do not eat wood the way termites do; they tunnel to nest, and they prefer wood that is already damp or degraded. Finding large black ants inside in spring often means a satellite colony is already working a moisture-damaged beam or window frame somewhere in the home. An annual spring inspection covers both pests and is the most practical way to stay ahead of damage that develops slowly and without obvious early warning.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around windows, soffit vents, utility penetrations, and fascia boards before early September to block the stink bug fall entry.",
+      "Schedule an annual termite inspection given consistent Sullivan County pressure and Bristol's older housing stock.",
+      "Check wood around leaky roof lines and window frames for carpenter ant activity, which signals a moisture problem as much as an ant problem.",
+      "Remove standing water from low spots and containers near South Holston Lake feeders to reduce the mosquito season.",
+      "Seal foundation gaps and utility openings before October to get ahead of the Appalachian mouse push.",
+    ],
+    costNote:
+      "Most Bristol homes benefit from a fall exclusion focus for mice and stink bugs combined with an annual termite inspection. Mosquito treatment is seasonal. A free inspection sets the right plan for your property and construction type.",
+    faqs: [
+      {
+        question: "Why does Bristol have so many stink bugs in the fall?",
+        answer:
+          "Bristol sits in the Appalachian corridor, where brown marmorated stink bugs first established in the eastern United States and where populations remain dense. Every fall they aggregate on warm exterior walls looking for overwintering sites, and Bristol homes see some of the highest aggregation numbers in Tennessee. Sealing exterior gaps before early September and treating exterior surfaces in late August significantly reduces how many enter the wall voids.",
+      },
+      {
+        question: "Are termites active year-round in Sullivan County?",
+        answer:
+          "Eastern subterranean termites are active throughout Sullivan County's valley soils, with peak swarming in spring. The temperate Appalachian climate keeps colonies slower than lowland Tennessee, but they remain active through the warm season and cause the same long-term structural damage. An annual inspection is the practical standard for Bristol homes, especially those with crawl spaces or wood near the soil line.",
+      },
+      {
+        question: "When do carpenter ants show up in Bristol homes?",
+        answer:
+          "Carpenter ants in Bristol's wooded lots typically become visible indoors in spring, when overwintering colonies activate and workers begin foraging. They tunnel through wood to nest rather than eating it, and they prefer damp or damaged wood. Seeing large black ants inside in March or April suggests a satellite colony is already established in moisture-damaged wood somewhere in the structure.",
+      },
+      {
+        question: "How long is mosquito season in Bristol compared to the rest of Tennessee?",
+        answer:
+          "The Appalachian elevation shortens the season somewhat, running roughly May through September versus the April-October window in Nashville and Memphis. South Holston Lake and the creek systems feeding the Tennessee River headwaters provide the breeding habitat that keeps pressure consistent through the warm months. Removing standing water and treating shaded resting areas reduces bites significantly.",
+      },
+      {
+        question: "Do mice in Bristol come in earlier than in other Tennessee cities?",
+        answer:
+          "Yes. The colder Appalachian winters in Sullivan County drive mice indoors in October, which is earlier than the Middle Tennessee pattern. Bristol's older housing has accumulated the entry points that make this easy. Sealing foundation gaps, door sweeps, and utility penetrations in September, before the cold arrives, is the most effective prevention.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Kingsport", slug: "kingsport" },
+      { name: "Johnson City", slug: "johnson-city" },
+      { name: "Morristown", slug: "morristown-tn" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Bristol, TN | Stink Bugs, Termites & Carpenter Ants",
+    metaDescription:
+      "Bristol TN pest control for brown marmorated stink bugs, subterranean termites, carpenter ants and mice. Sullivan County Appalachian specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+
+  // Dyersburg, TN
+  {
+    slug: "dyersburg",
+    name: "Dyersburg",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~17,000",
+    county: "Dyer County",
+    climate: "hot-humid",
+    climateDriver:
+      "Dyersburg sits in the Mississippi River lowlands of Dyer County in West Tennessee, with a hot, humid climate that ranks among the most pest-productive in the state. The Forked Deer River system, which flows through and around Dyer County, creates extensive low-lying floodplain terrain that holds water and generates intense mosquito breeding habitat from spring through fall. The agricultural character of the surrounding county means fire ants are in disturbed soils county-wide, and the row-crop environment sustains significant Norway rat populations near grain storage facilities.",
+    topPests: [
+      "Mosquitoes",
+      "Fire ants",
+      "Eastern subterranean termites",
+      "American cockroaches",
+      "Norway rats",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peaks June through August",
+        note:
+          "The Forked Deer River floodplain and the flat agricultural terrain of Dyer County create exceptional mosquito breeding habitat that makes the season here longer and more intense than at higher-elevation Tennessee cities.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round pressure, most aggressive March through October",
+        note:
+          "Fire ants are firmly established in Dyer County and throughout West Tennessee. Disturbed soil from agricultural activity around Dyersburg creates ideal conditions for new mound formation, and residential lawns bordering farm fields see heavy pressure each spring.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active spring through fall",
+        note:
+          "West Tennessee's warm, humid climate keeps eastern subterranean termite colonies active across a long season. Dyer County's moisture-retaining lowland soils sustain established populations, and the older residential housing in Dyersburg carries significant accumulated exposure.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, surges indoors in hot weather",
+        note:
+          "American cockroaches breed in drains, crawl spaces, and damp outdoor environments in Dyersburg and move indoors during summer heat. The older housing stock in the city's established neighborhoods has the crawl space and foundation conditions that support large breeding populations.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note:
+          "The agricultural economy around Dyersburg, particularly grain storage and row-crop operations in Dyer County, sustains Norway rat populations that press into commercial and residential areas along the city's agricultural fringe.",
+      },
+    ],
+    localHook:
+      "Dyersburg is West Tennessee's agricultural heartland, and the Forked Deer River floodplain that runs through Dyer County is one of the best mosquito factories in the state. From April to October, that combination of flat terrain, standing water, and summer heat makes mosquito pressure here genuinely intense.",
+    intro:
+      "Pest control in Dyersburg is defined by West Tennessee's heat, humidity, and the Forked Deer River system that runs through Dyer County. The floodplain terrain creates intense mosquito breeding habitat that runs from April through October. Fire ants are established county-wide, showing up reliably in disturbed soils and agricultural margins each spring. Eastern subterranean termites are active across the region's warm, moist lowland soils. American cockroaches breed in crawl spaces and drains and push indoors when the summer heat peaks. Norway rats follow the grain storage operations around the county fringe. Dyersburg is a city where a continuous pest protection plan makes more sense than seasonal one-off visits, because the climate rarely fully shuts pest activity down.",
+    sections: [
+      {
+        heading: "Mosquitoes and the Forked Deer River system",
+        body: "The Forked Deer River and its tributary network spread across Dyer County in a pattern of backwater sloughs, agricultural drainage ditches, and flood-prone lowland terrain that retains standing water long after rain events. That geography makes the mosquito season here more intense than at higher-elevation cities in Middle and East Tennessee. Dyersburg's long, flat summer with consistent heat accelerates mosquito development cycles, producing multiple generations from spring through fall. The Asian tiger mosquito, which breeds in small containers and bites during the day, is established in West Tennessee and extends the exposure window beyond dawn and dusk. Treatment targeting standing water on the property and resting vegetation around the yard reduces the bites, but the surrounding agricultural terrain means reinfestation from county-wide sources is constant, so recurring treatment through the season holds pressure better than a single application.",
+      },
+      {
+        heading: "Fire ants and termites: West Tennessee's soil pest pair",
+        body: "Dyer County's agricultural landscape is fire ant territory. The insects are established throughout West Tennessee, and the disturbed soils from farming activity around Dyersburg create ideal conditions for fire ant mound formation each spring. Residential lawns bordering agricultural fields face the heaviest pressure. Fire ant mounds can appear quickly in disturbed or freshly laid sod, and the sting is genuinely painful, with allergic reaction risk for a subset of people. Broadcast baiting across the full lawn in spring and fall is the most effective management approach for Dyersburg properties, rather than spot-treating individual mounds. Eastern subterranean termites share the soil with fire ants throughout Dyer County, working from established colonies in the warm, moisture-retaining lowland soils. Spring swarms of winged termites are the visible signal, but an annual inspection catches activity before the swarming stage and before visible damage appears.",
+      },
+    ],
+    prevention: [
+      "Remove standing water from containers, low spots, and drainage areas weekly during the April-October mosquito season.",
+      "Broadcast fire ant bait across the full lawn in spring and again in fall rather than treating individual mounds.",
+      "Schedule an annual spring termite inspection given Dyer County's warm, moist lowland soils.",
+      "Reduce mulch and moisture accumulation against the foundation to limit American cockroach breeding near the home.",
+      "Keep grain storage, compost, and food waste in sealed containers to reduce Norway rat pressure on the agricultural fringe.",
+    ],
+    costNote:
+      "Dyersburg pest control is typically best handled as a year-round general plan covering cockroaches, ants, and rodents, with mosquito service added seasonally and termite protection quoted after inspection. Start with a free assessment.",
+    faqs: [
+      {
+        question: "Why is the mosquito season so long and intense in Dyersburg?",
+        answer:
+          "The Forked Deer River floodplain and Dyer County's flat agricultural terrain create extensive standing water that persists between rain events, giving mosquitoes ideal breeding habitat from April through October. The heat that builds through the West Tennessee summer accelerates mosquito development cycles, and the Asian tiger mosquito, which bites during the day and breeds in small containers, is established in the region. Recurring treatment through the season manages the pressure better than single applications.",
+      },
+      {
+        question: "Are fire ants a year-round problem in Dyersburg?",
+        answer:
+          "Fire ants are established throughout Dyer County and remain active year-round in West Tennessee, with their most aggressive surface activity from March through October. The agricultural landscape around Dyersburg creates ideal conditions for new mound formation each spring. Broadcast baiting across the full lawn in spring and fall is more effective than treating individual mounds, because mounds relocate readily.",
+      },
+      {
+        question: "What makes American cockroaches common in Dyersburg homes?",
+        answer:
+          "American cockroaches breed outdoors in drains, crawl spaces, and damp mulch and move indoors during hot weather. Dyersburg's older housing stock has the crawl space and foundation conditions that support outdoor breeding populations close to the home. Reducing moisture and mulch against the foundation, sealing entry points, and treating crawl spaces significantly reduces indoor pressure.",
+      },
+      {
+        question: "Do Norway rats come from the farms around Dyersburg?",
+        answer:
+          "Yes. The grain storage and row-crop operations in Dyer County sustain large Norway rat populations. Rats range from farm and storage areas into residential and commercial zones, particularly along the agricultural fringe of the city. Keeping food waste and storage in sealed containers, removing harborage near buildings, and sealing entry points reduces the pressure.",
+      },
+      {
+        question: "Is year-round pest control worth it in Dyersburg?",
+        answer:
+          "For most homes, yes. West Tennessee's warm, humid climate keeps termites, cockroaches, fire ants, and rodents active across much of the year, and the Forked Deer River mosquito pressure runs a long season. A continuous plan holds pests back more consistently than seasonal one-off visits in this climate.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Jackson", slug: "jackson" },
+      { name: "Collierville", slug: "collierville" },
+      { name: "Bartlett", slug: "bartlett" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Dyersburg, TN | Mosquitoes, Fire Ants & Termites",
+    metaDescription:
+      "Dyersburg pest control for mosquitoes, fire ants, subterranean termites, cockroaches and Norway rats. Dyer County Forked Deer River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+
+  // Crossville, TN
+  {
+    slug: "crossville",
+    name: "Crossville",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~12,000",
+    county: "Cumberland County",
+    climate: "temperate",
+    climateDriver:
+      "Crossville sits on the Cumberland Plateau at approximately 1,900 feet elevation in Cumberland County, which gives it a notably cooler and drier climate than both Middle and East Tennessee lowlands. Summers are mild enough to reduce mosquito pressure meaningfully compared to Nashville, but the elevated terrain and dense mixed forest sustain tick populations, stink bug overwintering habitat, and carpenter ant colonies in the abundant wooded residential lots. Cold winters push mice indoors reliably and are cold enough to eliminate fire ant pressure, making this a different pest environment than any other Tennessee community of comparable size.",
+    topPests: [
+      "Eastern subterranean termites",
+      "Carpenter ants",
+      "Brown marmorated stink bugs",
+      "Yellowjackets",
+      "Deer ticks",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm April through May, active spring through early fall",
+        note:
+          "Eastern subterranean termites are present in Cumberland County despite the plateau elevation. The shorter warm season means colonies are less active than in lowland Tennessee, but the damp woodland soils on and around the plateau support established populations that cause real structural damage over time.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note:
+          "The heavily wooded residential lots on the Cumberland Plateau sustain large carpenter ant populations. Crossville's retirement-community character means many homes have established landscaping with mature trees and decaying stumps, which are prime nesting sites that supply satellite colonies into the home.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate August through October, overwinter in wall voids",
+        note:
+          "Stink bugs are firmly established in Cumberland County. The plateau's cooler temperatures mean the fall aggregation begins slightly earlier than in lowland Tennessee, and the wooded setting means more overwintering habitat in wall voids and attic spaces of Crossville homes.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests build May through September, most aggressive August and September",
+        note:
+          "Yellowjackets are the dominant stinging insect pest on the Cumberland Plateau, building ground nests in the wooded residential lots throughout Crossville. By August, colonies are large and aggressive, and hidden ground nests are a significant sting risk for homeowners maintaining wooded or brushy lots.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active spring through fall, nymphs most dangerous May through July",
+        note:
+          "The forested terrain of Cumberland County creates substantial deer tick habitat. Crossville's residential lots bordering woodland edges and the presence of deer in residential areas make tick exposure a real concern, particularly in the nymph stage when ticks are tiny and most likely to transmit Lyme disease.",
+      },
+    ],
+    localHook:
+      "Crossville is Tennessee's plateau retirement destination, and the wooded lots that make it attractive bring a distinct pest set. No fire ants, lighter mosquito pressure than the lowlands, but yellowjacket ground nests in the brush, carpenter ants in the mature trees, stink bugs in the fall, and deer ticks year-round at the woodland edge. The elevation changes the pest calendar here more than you might expect.",
+    intro:
+      "Pest control in Crossville is genuinely different from the rest of Tennessee because the Cumberland Plateau elevation changes almost everything. The cooler summers mean lighter mosquito pressure than Nashville or Memphis. There are no fire ants this far up. Eastern subterranean termites are present but slower-moving than at lower elevations. What you do get: carpenter ants in the abundant wooded lots, yellowjacket ground nests that turn aggressive in August, stink bugs aggregating on homes each fall, and deer ticks at the woodland edges where Cumberland County's forested terrain meets the residential areas that draw Crossville's retirement community. This is a pest picture defined by the plateau forest, not by Mississippi lowland heat.",
+    sections: [
+      {
+        heading: "Carpenter ants versus yellowjackets: the warm-season pest pair",
+        body: "Carpenter ants and yellowjackets are the two warm-season pests that matter most in Crossville. Carpenter ants work the wooded lots throughout the growing season, tunneling into moisture-damaged wood to nest. The retirement community character of much of Crossville means established landscapes with mature trees, old stumps, and accumulated damp wood that supply carpenter ants with prime habitat. They do not eat wood the way termites do, but they excavate galleries over years and can cause real structural damage, particularly in older homes with any moisture issues in the framing. Finding large black ants inside in spring points to a nearby colony worth locating and treating. Yellowjackets build ground nests in the brushy, wooded lots common across Crossville. Through summer the nests grow quietly, but by August and September colonies reach maximum size and turn aggressive near food sources, yards, and hidden nest entrances. Most Crossville stings come from accidentally disturbing a hidden ground nest during lawn work. Treating nests while they are still small in June and July is considerably safer than dealing with a full-sized late-summer colony.",
+      },
+      {
+        heading: "Stink bugs and ticks: the fall and woodland edge concerns",
+        body: "Fall in Crossville brings two distinct pest concerns. Brown marmorated stink bugs establish well in Cumberland County, and the plateau's cooler early fall temperatures trigger aggregation on warm exterior surfaces a bit earlier than in lowland Tennessee. By mid-September, south-facing walls can carry significant numbers, and any exterior gap is a potential entry point to wall voids for winter. Sealing soffit vents, utility penetrations, and window gaps before September limits how many make it inside. Deer ticks are the second plateau-specific concern. The forested terrain of Cumberland County and the deer that move through residential areas on the plateau's edge create tick habitat directly adjacent to Crossville homes and gardens. Tick exposure is year-round in the warm months, but the nymph stage, tiny and hard to spot, is most active from May through July and carries the highest Lyme disease transmission risk. Regular tick checks after outdoor time in the wooded areas around Crossville properties are essential.",
+      },
+    ],
+    prevention: [
+      "Seal soffit vents, utility penetrations, and window gaps before mid-September to block stink bug entry to wall voids.",
+      "Remove decaying stumps and damp wood from wooded lots to reduce carpenter ant nesting habitat near the home.",
+      "Treat yellowjacket ground nests in June or July while colonies are still small and manageable.",
+      "Do tick checks after walking wooded areas or lot edges, particularly from May through July when nymphs are active.",
+      "Schedule an annual spring termite inspection; Cumberland County's damp woodland soils support established subterranean colonies.",
+    ],
+    costNote:
+      "Crossville pest control is most efficiently structured around a warm-season general plan covering carpenter ants, yellowjackets, and stink bug exclusion in late summer, with termite inspection quoted separately. A free assessment identifies the right plan for your lot and home type.",
+    faqs: [
+      {
+        question: "Why is the pest profile in Crossville different from the rest of Tennessee?",
+        answer:
+          "The Cumberland Plateau elevation, around 1,900 feet, changes the climate enough to eliminate fire ants, reduce mosquito pressure significantly, and shift the timing of all remaining pests. What you get instead are the forest-associated pests: carpenter ants, yellowjackets, stink bugs, and deer ticks. It is a genuinely different pest picture from Nashville or Memphis, shaped by elevation and woodland rather than by lowland heat and humidity.",
+      },
+      {
+        question: "Are yellowjacket ground nests in Crossville dangerous?",
+        answer:
+          "Yes, particularly by August and September when colonies are at maximum size. Hidden ground nests in Crossville's wooded lots are easy to disturb accidentally during lawn mowing or trimming. Treating nests in June or July when colonies are smaller is far safer than dealing with a mature late-summer nest. For structural nests in wall voids or decks, professional treatment is the right call.",
+      },
+      {
+        question: "Is Lyme disease a real concern in Cumberland County?",
+        answer:
+          "Deer ticks, the primary carrier of Lyme disease, are present in Cumberland County's forested terrain. The plateau's wooded character and the deer population that moves through residential areas on the lot edges create genuine exposure risk. The nymph stage, active May through July, is hardest to spot and carries the highest transmission risk. Regular tick checks after outdoor activity in wooded areas is the most effective personal protection.",
+      },
+      {
+        question: "Do termites reach homes at Crossville's elevation?",
+        answer:
+          "Eastern subterranean termites are present in Cumberland County. The plateau's shorter warm season means colonies are less aggressive than in lowland Tennessee, but they still cause real structural damage over time in damp woodland soils. Annual inspection is the standard recommendation, particularly for homes with crawl spaces or wood close to the soil.",
+      },
+      {
+        question: "When do stink bugs become a problem in Crossville?",
+        answer:
+          "Stink bugs begin aggregating on warm exterior surfaces in late August and September in Cumberland County, slightly earlier than in lowland Tennessee because the plateau cools faster. Sealing exterior gaps before mid-September is the most effective prevention. The wooded setting means more potential overwintering harborage in wall voids than in more open suburban environments.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Cookeville", slug: "cookeville" },
+      { name: "Knoxville", slug: "knoxville" },
+      { name: "Morristown", slug: "morristown-tn" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Crossville, TN | Termites, Carpenter Ants & Stink Bugs",
+    metaDescription:
+      "Crossville pest control for subterranean termites, carpenter ants, stink bugs, yellowjackets and deer ticks. Cumberland County Cumberland Plateau specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+
+  // Greeneville, TN
+  {
+    slug: "greeneville",
+    name: "Greeneville",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~15,000",
+    county: "Greene County",
+    climate: "temperate",
+    climateDriver:
+      "Greeneville sits in the Nolichucky River valley of Greene County in East Tennessee, surrounded by the agricultural terrain of one of Tennessee's primary apple-growing regions. The temperate Appalachian climate is cooler than Middle Tennessee but warm and humid enough to sustain termite activity and a meaningful mosquito season. The agricultural setting, particularly the apple orchards and row crops across the valley, creates some of the highest brown marmorated stink bug populations in the state, as the insects build in orchard habitat before moving into residential structures each fall.",
+    topPests: [
+      "Brown marmorated stink bugs",
+      "Eastern subterranean termites",
+      "Carpenter ants",
+      "Yellowjackets",
+      "House mice",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Build in orchards through summer, aggregate on structures September through November",
+        note:
+          "The apple orchards of Greene County are a stink bug amplifier. Populations build through the summer in orchard habitat, then move into residential structures at the valley's edge in fall, producing aggregation densities that significantly exceed those in non-agricultural Tennessee communities.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active spring through fall",
+        note:
+          "Subterranean termites are active in Greene County's valley soils. The Nolichucky River watershed's moist terrain supports established colonies, and the older housing in Greeneville's historic downtown has had significant long-term exposure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note:
+          "The hardwood hollows and wooded residential lots throughout Greene County sustain carpenter ant populations. Greeneville's mix of historic homes and rural-edge lots creates frequent carpenter ant pressure where moisture-damaged wood and wooded surroundings combine.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests build May through September, most aggressive August and September",
+        note:
+          "Ground-nesting and aerial-nesting yellowjackets are consistent pests in Greeneville's residential yards, particularly where wooded and orchard terrain adjoins homes. Late-summer colonies are large and aggressive near nest sites.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in October, active through winter",
+        note:
+          "The agricultural fringe around Greeneville creates a significant field mouse population that presses into residential areas each fall as crops are harvested and field habitat is disrupted. The older housing in Greene County has abundant entry points.",
+      },
+    ],
+    localHook:
+      "Greeneville is Tennessee apple country, and the orchards that define Greene County's agricultural character also make this one of the state's highest-density stink bug locations. The same insects that damage the apple crop build in the orchards all summer and then move into homes at the valley edge come September in numbers that can genuinely surprise people who have never seen a stink bug season before.",
+    intro:
+      "Pest control in Greeneville carries a feature unique to Tennessee's orchard belt: the apple-growing terrain of Greene County acts as a stink bug amplifier, building populations through summer that shift into residential structures each fall at densities higher than most East Tennessee cities see. That is the standout local fact. Alongside it, eastern subterranean termites are active in the Nolichucky River valley soils, carpenter ants work the hardwood hollows and wooded lots, yellowjackets build aggressively through the summer, and field mice from the agricultural fringe push into homes each October when the crop harvest disrupts their habitat. The Appalachian valley climate is warm enough to sustain all of these through the season, making a full-year pest plan more practical than a series of reactive calls.",
+    sections: [
+      {
+        heading: "Apple orchards and the fall stink bug surge",
+        body: "Brown marmorated stink bugs were first documented in the eastern United States in the late 1990s, and they established rapidly in agricultural areas where fruit and row crops are abundant. Greene County's apple orchards provide exactly the conditions they need: shelter, warmth, and abundant food through the summer. Populations build through July and August in and around the orchards, then begin their fall migration into overwintering sites as temperatures drop. Homes at the orchard edge and throughout the Greeneville valley floor are in the direct path of this migration. South-facing walls can accumulate large numbers in a single afternoon in late September. The insects themselves are harmless, but the quantities are striking and the ones that make it into wall voids will emerge intermittently on warm winter days into living spaces. Prevention is a late-August exterior treatment combined with thorough sealing of entry points before the September aggregation begins. Acting after large numbers have already appeared on the walls is catching the problem late.",
+      },
+      {
+        heading: "Termites and carpenter ants in the Nolichucky River valley",
+        body: "Eastern subterranean termites are active throughout the Nolichucky River valley and Greene County's moist agricultural soils. The historic housing in Greeneville's downtown, much of it pre-1960, has had decades of termite exposure. Spring swarms of winged termites are the most visible sign, but a professional inspection catches the mud tubes and structural damage that develop before swarming. Carpenter ants are the second wood pest concern, particularly in the wooded and rural-edge lots around Greeneville. They prefer damp or damaged wood and nest in log piles, decaying stumps, and any moisture-compromised wood in the home's structure. Finding large black ants inside in spring suggests a satellite colony is already present. The practical approach is an annual spring inspection covering both termites and carpenter ants, treating any active populations and addressing the moisture issues that draw carpenter ants in the first place.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps, soffit vents, and utility penetrations before late August to block the orchard-fueled stink bug migration.",
+      "Schedule an annual spring termite inspection given Greene County's Nolichucky River valley soils and older housing stock.",
+      "Remove log piles, decaying stumps, and moisture-damaged wood from the lot to reduce carpenter ant nesting near the home.",
+      "Treat yellowjacket nests in June or July before they reach the aggressive late-summer size.",
+      "Seal foundation gaps and door sweeps in September before field mice push in from the harvest-disrupted agricultural terrain.",
+    ],
+    costNote:
+      "Greeneville pest plans typically combine a warm-season general service with a late-August stink bug exclusion focus and annual termite inspection. Yellowjacket and rodent treatment are quoted per situation. A free inspection starts the conversation.",
+    faqs: [
+      {
+        question: "Why does Greeneville have worse stink bug problems than other Tennessee towns?",
+        answer:
+          "The apple orchards of Greene County are a stink bug amplifier. The insects build in agricultural habitat through summer and migrate into structures at the valley edge each fall. Orchard-adjacent communities in the Appalachian corridor consistently see higher fall aggregation densities than non-agricultural Tennessee cities. Sealing exterior gaps and treating the home's exterior in late August before the migration peaks is the most effective response.",
+      },
+      {
+        question: "Are subterranean termites active in Greeneville?",
+        answer:
+          "Yes. Greene County's moist Nolichucky River valley soils support established eastern subterranean termite populations. The older historic housing in Greeneville has had long-term exposure. Spring swarms are the most visible sign, but an annual inspection catches activity earlier. Homes with crawl spaces, original wood, or any wood-to-soil contact carry the highest risk.",
+      },
+      {
+        question: "How do I handle carpenter ants in a Greeneville home with wooded lots?",
+        answer:
+          "The first step is identifying the moisture source, because carpenter ants nest in damp or damaged wood rather than sound wood. On wooded Greene County lots, check log piles, stumps, and any wood touching damp soil. Inside the home, look for moisture around windows, roof lines, and plumbing. Treatment targets the nest and the entry points, but addressing the moisture issue is what prevents reinfestation.",
+      },
+      {
+        question: "When should I be worried about yellowjackets in Greeneville?",
+        answer:
+          "By August, yellowjacket colonies in Greene County are near maximum size and become aggressive around nest sites and food sources. Hidden ground nests are the biggest risk for Greeneville homeowners with wooded or brushy lots. Treating nests in June or early July, when colonies are smaller and less defensive, is much safer. For any nest near a structure or in a wall void, professional treatment avoids the risk of provoking a large colony.",
+      },
+      {
+        question: "Why do mice come in from Greeneville's agricultural areas in fall?",
+        answer:
+          "Harvest season in Greene County's agricultural fields displaces field mice that have been living in crop cover through summer. As fields are cleared in September and October, mice press toward nearby residential areas. The older housing throughout Greene County has accumulated the entry points in foundations, door gaps, and utility penetrations that make entry easy. Sealing those points before October is the most effective prevention.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Johnson City", slug: "johnson-city" },
+      { name: "Kingsport", slug: "kingsport" },
+      { name: "Morristown", slug: "morristown-tn" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Greeneville, TN | Stink Bugs, Termites & Carpenter Ants",
+    metaDescription:
+      "Greeneville pest control for stink bugs, subterranean termites, carpenter ants and yellowjackets. Greene County apple orchard corridor East Tennessee specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+
+  // Alcoa, TN
+  {
+    slug: "alcoa",
+    name: "Alcoa",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~10,000",
+    county: "Blount County",
+    climate: "temperate",
+    climateDriver:
+      "Alcoa sits in Blount County at the foot of the Great Smoky Mountains foothills, adjacent to McGhee Tyson Airport and the city of Maryville. The Tennessee River is within the broader watershed and creates moisture-rich conditions in the floodplain areas south and west of the city. The Smoky Mountains proximity sustains significant carpenter ant and stink bug populations in the surrounding wooded terrain, while Blount County's warm, humid valley climate maintains consistent eastern subterranean termite pressure and a meaningful mosquito season.",
+    topPests: [
+      "Eastern subterranean termites",
+      "Carpenter ants",
+      "Mosquitoes",
+      "Brown marmorated stink bugs",
+      "House mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarm in spring, active spring through fall",
+        note:
+          "Blount County has consistent eastern subterranean termite pressure in the valley soils. Alcoa's proximity to the Tennessee River watershed creates the moist soil conditions that subterranean termite colonies depend on, and the city's industrial-era and postwar residential construction carries accumulated exposure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note:
+          "The Great Smoky Mountains foothills terrain surrounding Alcoa sustains large carpenter ant populations. The wooded buffers between Alcoa's residential neighborhoods and the airport corridor provide abundant nesting habitat in mature and decaying trees.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note:
+          "The Tennessee River floodplain areas and the creek systems draining the Smoky Mountain foothills around Blount County create consistent mosquito breeding habitat through the warm months. Alcoa's low-lying areas near the airport are particularly affected.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Aggregate September through October, overwinter in wall voids",
+        note:
+          "The Appalachian foothills terrain of Blount County is within the established stink bug corridor. Alcoa homes see meaningful fall aggregations on south-facing walls, with the airport-adjacent wooded buffers providing source population habitat.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors in October, active through winter",
+        note:
+          "The colder Blount County winters and the proximity of wooded foothills terrain drive mice into Alcoa's residential neighborhoods each fall. The industrial heritage of the area means some older buildings have the foundation characteristics that make mouse entry easy.",
+      },
+    ],
+    localHook:
+      "Alcoa's identity is tied to the aluminum industry that gave the city its name, but the pest picture here is shaped by the Great Smoky Mountains foothills to the south and east, and the Tennessee River watershed to the west. Blount County carries consistent termite pressure in its valley soils, and the foothills terrain produces carpenter ants and stink bugs that the surrounding urban areas simply do not deal with at the same density.",
+    intro:
+      "Pest control in Alcoa reflects the city's geography more than its industrial character. Blount County sits between the Tennessee River and the Smoky Mountains foothills, and both of those features shape the local pest pressure. Eastern subterranean termites are active in the valley soils county-wide. Carpenter ants come out of the foothills woodlands. Mosquitoes breed in the creek and floodplain systems around the airport corridor. Brown marmorated stink bugs aggregate on homes in fall from the Appalachian source population. House mice push in from the wooded terrain when the Blount County winters arrive in October. It is a layered pest picture for a small city, but one that follows a clear seasonal rhythm.",
+    sections: [
+      {
+        heading: "Termites and carpenter ants in Blount County's valley and foothills",
+        body: "Eastern subterranean termites are a consistent structural threat throughout Blount County. The moist valley soils between the Tennessee River watershed and the Smoky Mountains foothills support established colonies that reach wood through mud tubes from the ground. Alcoa's residential stock includes both older industrial-era homes and newer construction, and both carry risk, though older homes with crawl spaces and original wood typically have more accumulated exposure. Spring swarms of winged termites are often the first sign homeowners notice, but an annual inspection catches active infestations before visible damage appears. Carpenter ants are the complementary wood pest concern. The foothills terrain around Alcoa provides abundant habitat in mature and decaying trees, and carpenter ants move from those source populations into residential structures where they find moisture-damaged wood. Seeing large black ants inside in spring or summer suggests a nearby colony that warrants a professional inspection rather than a DIY bait or spray.",
+      },
+      {
+        heading: "Stink bugs, mosquitoes, and the fall pest push in Alcoa",
+        body: "The Appalachian foothills around Alcoa place Blount County within the established brown marmorated stink bug range. Fall aggregations on south-facing exterior walls typically begin in September, with insects seeking wall voids and attic spaces to overwinter. Alcoa homes near the wooded airport buffers and foothills neighborhoods see higher fall aggregation than homes in more open settings. Sealing soffit vents, utility penetrations, and window gaps before September makes a measurable difference. The mosquito season runs May through September in Alcoa, driven by the creek and floodplain systems in and around the airport corridor and the Tennessee River watershed. The low-lying areas of Alcoa are the most affected. Removing standing water from containers and treating shaded resting vegetation reduces bites, though the surrounding creek habitat means reinfestation from off-property sources is a constant factor through the season.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given consistent Blount County valley soil pressure and the Tennessee River watershed moisture.",
+      "Seal exterior gaps, soffit vents, and utility penetrations before September to limit stink bug overwintering entry.",
+      "Check wood around moisture sources and the foothills-adjacent wooded buffers for carpenter ant activity each spring.",
+      "Remove standing water from containers and low-lying yard areas to manage mosquito breeding in the airport corridor floodplain.",
+      "Seal foundation gaps and door sweeps in September to get ahead of the October mouse push from the foothills terrain.",
+    ],
+    costNote:
+      "Alcoa pest control works well as a year-round plan covering termites and general pests, with mosquito service added seasonally and stink bug exclusion work timed for late August. A free inspection sets the plan to your home and lot.",
+    faqs: [
+      {
+        question: "Are termites a significant concern in Alcoa and Blount County?",
+        answer:
+          "Yes. Blount County's moist valley soils and the Tennessee River watershed create consistent eastern subterranean termite pressure. Alcoa homes, particularly older construction with crawl spaces and wood close to soil, carry real long-term risk. An annual inspection is the standard recommendation, and spring swarms of winged termites are the most common first sign that colonies are already established near a structure.",
+      },
+      {
+        question: "Why do carpenter ants come from the Smoky Mountains foothills into Alcoa homes?",
+        answer:
+          "The forested terrain of the Smoky Mountains foothills sustains large carpenter ant populations in mature and decaying trees. These source populations extend their foraging range into adjacent residential areas, particularly where moisture-damaged wood in homes or decaying landscape wood provides nesting opportunities. Carpenter ants tunnel to nest rather than eating wood, and finding them indoors in spring points to a colony worth locating and treating.",
+      },
+      {
+        question: "How does the airport corridor affect mosquito pressure in Alcoa?",
+        answer:
+          "The low-lying floodplain areas around McGhee Tyson Airport and the creek systems draining the foothills create sustained mosquito breeding habitat through the warm season. Standing water in the low terrain persists between rain events and supports multiple generations of mosquitoes from May through September. Removing containers of standing water on the property reduces local breeding, though the surrounding terrain means pressure from off-property sources continues through the season.",
+      },
+      {
+        question: "Do stink bugs overwinter in Alcoa homes?",
+        answer:
+          "Yes. Blount County is within the established stink bug range, and the Appalachian foothills terrain around Alcoa sustains source populations that move into structures each fall. Insects that find their way into wall voids and attic spaces through unsealed gaps in September and October stay there through winter and emerge into living spaces on warm days. Sealing entry points before September is the most effective prevention.",
+      },
+      {
+        question: "When do mice typically enter Alcoa homes?",
+        answer:
+          "The main push happens in October when Blount County temperatures drop and the foothills terrain provides limited outdoor shelter. Mice seek warmth and enter through gaps around foundations, utilities, and door sweeps. Sealing these entry points in September, before the cold arrives, is more effective than reactive trapping after mice are already in the walls.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Knoxville", slug: "knoxville" },
+      { name: "Maryville", slug: "maryville" },
+      { name: "Oak Ridge", slug: "oak-ridge" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Alcoa, TN | Termites, Carpenter Ants & Stink Bugs",
+    metaDescription:
+      "Alcoa pest control for subterranean termites, carpenter ants, mosquitoes, stink bugs and mice. Blount County Great Smoky Mountains foothills specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
