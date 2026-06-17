@@ -1739,4 +1739,514 @@ export const wisconsinCities: CityLocation[] = [
     metaDescription:
       "Beloit pest control for house mice, German cockroaches, carpenter ants, boxelder bugs and earwigs. Rock County Rock River Wisconsin-Illinois border specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "superior",
+    name: "Superior",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~26,000",
+    county: "Douglas County",
+    climate: "cold-humid",
+    climateDriver:
+      "Superior's position at the western tip of Lake Superior creates one of Wisconsin's harshest urban climates. The lake moderates summer temperatures but extends cold weather well into spring, compresses the outdoor pest season, and drives rodents and insects into heated buildings with intensity during October and November.",
+    topPests: [
+      "House mice",
+      "Carpenter ants",
+      "Boxelder bugs",
+      "Cluster flies",
+      "Silverfish",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge in October and November",
+        note: "The lake climate and long hard winters make Superior one of the more aggressive mouse-pressure cities in Wisconsin. The port district's older warehouses and the older residential neighborhoods near Barkers Island have accumulated decades of entry points that mice use reliably each fall. Once inside, they remain through winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are consistent in Superior's older wood-frame housing. The city's significant snowfall creates prolonged wood moisture contact at foundations, and the tree canopy in residential neighborhoods provides both foraging corridors and nesting sites. Ant activity indoors in spring typically signals an established exterior colony.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November, overwintering in wall voids",
+        note: "Boxelder bugs are a recurring fall nuisance in Superior, aggregating on south-facing walls and entering through utility penetrations and window frames. They do not cause structural damage but appear in large numbers and stain surfaces if crushed.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "cluster-fly-control",
+        activeSeason: "September through October, active indoors on warm winter days",
+        note: "Cluster flies overwinter in wall voids and attic spaces in Superior's older homes. They emerge on warm days through late fall and winter, crawling to windows and creating a nuisance that homeowners often confuse with a new infestation when it is actually an overwintering population already inside the structure.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round indoors",
+        note: "Silverfish are present year-round in Superior's older housing stock, particularly in basements and attic spaces where moisture from Lake Superior's climate creates humid microclimates. They feed on paper, cardboard, and starchy materials in undisturbed storage areas.",
+      },
+    ],
+    localHook:
+      "Superior sits at the western tip of Lake Superior and shares a border with Duluth, Minnesota. The lake creates prolonged cold and significant snow, which drives mice aggressively into buildings in fall. The port district's older warehouses and the residential neighborhoods near Barkers Island all have older construction that mice exploit heavily.",
+    intro:
+      "Pest control in Superior is shaped almost entirely by the Lake Superior climate. The lake keeps summers cool and winter cold exceptionally deep, which compresses the outdoor pest season and then drives everything indoors with force when temperatures drop in October. House mice are the dominant year-round pest in Douglas County, and Superior's older housing stock near the port and the established residential areas closer to the lake create more entry opportunities than newer construction. Carpenter ants work the moisture-damaged wood in older homes through spring and summer. Boxelder bugs and cluster flies aggregate on the building exteriors each fall before retreating into wall voids for the winter. Silverfish are a quiet year-round presence in basements and attic spaces throughout the city.",
+    sections: [
+      {
+        heading: "Port district and lakeside neighborhoods: mouse pressure in Superior's older housing",
+        body: "The older construction in Superior's port district and the neighborhoods closest to Lake Superior carries the highest mouse pressure in Douglas County. Buildings in this area were constructed for a cold climate but not with modern rodent exclusion in mind. Foundation gaps, aging utility penetrations, and deteriorated weather-stripping around doors and windows all create reliable entry points for mice when October temperatures signal the shift indoors. A single mouse entry point in a warehouse or residential building allows a population to establish quickly: mice breed fast indoors once sheltered and can produce six to eight litters per year under favorable conditions. The practical approach for Superior homeowners is a September inspection to identify and seal entry points before the surge arrives, not a response after mice are established through the winter.",
+      },
+      {
+        heading: "Overwintering pests in Superior: boxelder bugs, cluster flies, and silverfish",
+        body: "Three overwintering pest species create a late-season nuisance pattern that Superior homeowners encounter annually. Boxelder bugs aggregate on south-facing walls and masonry from September onward, entering wall voids and appearing indoors through fall and winter. Cluster flies follow a similar pattern, arriving from fields in late summer and packing into attic spaces where they remain dormant until warm days trigger emergence at windows. Silverfish require no seasonal trigger: they live year-round in the humid basements and storage areas that Superior's lake climate sustains. The most effective approach for all three is exterior treatment of aggregation areas in September before entry, combined with sealing of penetration points around the foundation perimeter.",
+      },
+    ],
+    prevention: [
+      "Inspect and seal foundation penetrations, utility entry points, and weather-stripping on doors and windows in September before the fall mouse surge.",
+      "Apply perimeter treatment to south-facing walls and masonry in early September to reduce boxelder bug and cluster fly entry.",
+      "Control basement and attic humidity in older homes to reduce silverfish habitat: dehumidify storage areas and repair any water infiltration.",
+      "Inspect mature trees near the structure annually for carpenter ant foraging activity, particularly along branches that contact the roof or siding.",
+    ],
+    costNote:
+      "Superior pest control programs typically begin with a free inspection. Mouse exclusion work and overwintering pest treatments are priced separately from ongoing general pest programs, and older port-area properties often require more thorough foundation work.",
+    faqs: [
+      {
+        question: "Why do mice get so bad in Superior every October?",
+        answer:
+          "The Lake Superior climate drives one of the more reliable fall mouse surges in Wisconsin. The shift from the lake's moderating summer influence to the sharp cold of a Douglas County October triggers mice to seek shelter quickly. Superior's older housing stock, particularly near the port district and the established residential areas along the lake, has accumulated entry points over decades that make the transition indoors easy for mice. By November, populations can be well established in wall voids and ceiling spaces. The effective approach is to seal identified entry points in September, before the temperature drops that trigger the surge.",
+      },
+      {
+        question: "Are cluster flies a seasonal problem in Superior homes?",
+        answer:
+          "Yes, cluster flies are a consistent seasonal pest in Superior and throughout Douglas County. They breed outdoors in earthworm populations during summer and migrate to structures in late summer, entering attic spaces and wall voids where they overwinter. On warm winter days they become active and crawl to windows, which homeowners sometimes mistake for a new infestation. The flies are already inside the structure at that point. Treatment involves exterior application at aggregation sites in late August and sealing of soffit and attic ventilation gaps before they enter.",
+      },
+      {
+        question: "Do carpenter ants damage homes near the Lake Superior shoreline in Superior?",
+        answer:
+          "Carpenter ants are a genuine structural risk in Superior's older wood-frame homes, particularly those near the lakefront where the combination of wind, moisture, and age has degraded wood framing around foundations, windows, and roof lines. They do not eat wood but excavate galleries in moisture-softened material, and the damage accumulates over seasons. The earliest sign is typically large black ants foraging indoors in April or May, often near kitchens or bathrooms. Annual inspection of the foundation perimeter and any exterior wood showing signs of moisture damage is the appropriate approach for Superior homeowners with older homes near the port or lake.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Eau Claire", slug: "eau-claire" },
+      { name: "Wausau", slug: "wausau" },
+      { name: "La Crosse", slug: "la-crosse" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Superior, WI | Mice, Carpenter Ants & Boxelder Bugs",
+    metaDescription:
+      "Superior pest control for house mice, carpenter ants, boxelder bugs, cluster flies and silverfish. Douglas County Lake Superior port city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "sun-prairie",
+    name: "Sun Prairie",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~36,000",
+    county: "Dane County",
+    climate: "cold-humid",
+    climateDriver:
+      "Sun Prairie shares the cold-humid continental climate of the greater Madison area, with cold winters that suppress outdoor pests from November through March and a concentrated warm season that drives ant, wasp, and rodent pressure. The agricultural fringe at the city's edges introduces field species into residential areas at higher rates than in established urban neighborhoods.",
+    topPests: [
+      "House mice",
+      "Yellowjackets",
+      "Carpenter ants",
+      "Voles",
+      "Boxelder bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge in October",
+        note: "Sun Prairie's rapid residential growth means a mix of older farmland-edge homes and new construction, and both types are vulnerable to October mouse pressure. Homes at the edge of subdivisions that abut former agricultural fields tend to see higher initial mouse pressure as field populations seek winter shelter.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note: "Ground-nesting yellowjackets are a significant hazard in Sun Prairie, particularly in the transitional areas between residential lots and former agricultural fields. Disturbing a ground nest during mowing or landscaping work is a common cause of stings in Dane County. Colonies reach peak size and aggression in late summer.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are active in Sun Prairie's wooded lots and in older construction near the original village center. Trees that contact roof lines or siding are common entry points, and moisture-softened wood around older windows and foundations provides nesting sites.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "vole-control",
+        activeSeason: "Year-round, most visible damage in early spring",
+        note: "Voles cause turf and garden damage in Sun Prairie's residential neighborhoods, particularly in properties adjacent to former agricultural fields. Their runways through lawn grass become visible in early spring after snow melt. Snap trap programs in active runway systems are the most effective management approach.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November",
+        note: "Boxelder bugs are a consistent fall nuisance in Dane County and appear each year on the south-facing walls of Sun Prairie homes. They congregate in significant numbers and enter wall voids and window frames, creating an indoor nuisance through winter on warm days.",
+      },
+    ],
+    localHook:
+      "Sun Prairie has grown fast as Madison's eastern bedroom community, and that growth means a mix of older farmland-edge housing and new subdivisions expanding into former agricultural fields. The agricultural fringe brings field mice, voles, and ground-nesting yellowjackets into contact with new homes at a rate that surprises many residents who moved from more urban areas.",
+    intro:
+      "Pest control in Sun Prairie reflects both the Madison metro's baseline cold-humid pest calendar and the unique pressures that come with a fast-growing community still surrounded by active and former agricultural land. House mice are the dominant pest concern each fall, as they are across Dane County, but Sun Prairie's farmland-edge neighborhoods see field mice and voles arriving from former crop fields at rates higher than in established suburban neighborhoods. Ground-nesting yellowjackets are a genuine sting risk in areas where residential lots back up to undeveloped field edges. Carpenter ants are active in older construction near the original village center, and boxelder bugs aggregate on building exteriors each fall across the city.",
+    sections: [
+      {
+        heading: "Agricultural fringe pressure: mice, voles, and yellowjackets in new Sun Prairie subdivisions",
+        body: "Sun Prairie's growth pattern creates a specific pest risk at the edges of new subdivisions: the boundary between finished residential lots and former agricultural fields or undeveloped ground is where mouse, vole, and ground-nesting wasp pressure is highest. Field mice and voles that lived in the crop fields simply move into the nearest warm buildings as construction is completed and the field is no longer available to them. New construction with uncured gaps around utility penetrations and foundation plates is more vulnerable than older housing to this initial surge, not less, because the sealing work has not been done and field populations are immediately adjacent.\n\nGround-nesting yellowjackets are the other significant farmland-fringe pest. They nest in abandoned rodent burrows and soil disturbances throughout former agricultural areas, and their colonies can be triggered by landscaping equipment or foot traffic. In late summer, when colonies reach their peak population, a disturbed nest can produce hundreds of stings very quickly. New subdivision lots that back to field edges should be inspected for ground nest activity in July and August before the late-summer peak.",
+      },
+      {
+        heading: "Dane County pest calendar for Sun Prairie homeowners",
+        body: "Sun Prairie follows the standard Dane County pest calendar with some edge adjustments. Carpenter ant foraging begins in April and is most active through June. Yellowjacket colony growth peaks in August and September when sting risk is highest. The mouse surge arrives in October as temperatures drop consistently below 50 degrees Fahrenheit at night. Boxelder bugs begin aggregating on south-facing walls in late September and are most active through October. Vole damage is year-round but becomes most visible in March when snow melts reveal winter runway systems in lawns.\n\nFor Sun Prairie homeowners at the agricultural edge, the practical adjustments are: start watching for ground nests in July rather than August, because the transition-zone ground is disturbed more frequently and nests are harder to spot in taller field-edge vegetation. Seal mouse entry points in September. Apply boxelder bug exterior treatment in late September before mass aggregation on the building surface. Check lawns in early spring and set vole snap traps in active runways before populations expand through the growing season.",
+      },
+    ],
+    prevention: [
+      "Inspect new construction foundation plates, utility penetrations, and garage door seals in September: new builds often have uncured entry points that mice exploit in the first fall.",
+      "Walk field-edge lot lines in July and August each year to locate and treat ground yellowjacket nests before they reach peak late-summer aggression.",
+      "Set vole snap traps in active lawn runway systems in March as snow melts, before population expansion through spring.",
+      "Apply exterior boxelder bug treatment to south-facing masonry and siding in late September, before mass aggregation begins.",
+    ],
+    costNote:
+      "Sun Prairie pest control programs start with a free inspection. Mouse exclusion, yellowjacket nest treatment, and vole management are typically priced as individual service calls, while recurring general pest programs cover the seasonal perimeter treatments.",
+    faqs: [
+      {
+        question: "Why are yellowjackets particularly bad in Sun Prairie's newer neighborhoods?",
+        answer:
+          "Sun Prairie's newer neighborhoods are often built on former agricultural or open land where ground-nesting yellowjackets are already established. Construction disturbs the soil and creates new burrow opportunities, and the transition from field to residential use does not eliminate yellowjacket colonies already in the ground. By late summer, these colonies reach peak population sizes of several thousand workers and become highly aggressive when disturbed. Properties backing to field edges or undeveloped ground are most exposed. A professional nest inspection in July, before the August peak, is the most effective preventive step.",
+      },
+      {
+        question: "Are voles a problem in Sun Prairie's residential yards?",
+        answer:
+          "Yes. Voles are a consistent lawn and garden pest in Sun Prairie, particularly in properties adjacent to former agricultural fields or open ground. They create surface runway systems through turf grass that become visible after snow melts each spring. Voles gnaw on the root systems of ornamental plants and the bark of young trees at the base, causing damage that can kill plants over a season. Snap traps placed in active runway systems are the most effective control method. A population that goes unmanaged through winter can cause significant spring lawn damage.",
+      },
+      {
+        question: "When does the fall mouse surge happen in Sun Prairie?",
+        answer:
+          "The fall mouse surge in Sun Prairie, as across Dane County, is triggered by sustained October nighttime temperatures below 50 degrees Fahrenheit. Mice begin seeking heated shelter and find their way into homes, garages, and commercial buildings through gaps in the foundation, utility penetrations, and around doors. Sun Prairie's farmland-edge neighborhoods tend to see the surge earlier and at higher intensity than more established suburban areas, because field mouse populations adjacent to residential lots are larger. Sealing entry points in September, before the temperature drop that triggers the surge, is the most effective approach.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE)",
+    nearbyCities: [
+      { name: "Madison", slug: "madison" },
+      { name: "Milwaukee", slug: "milwaukee" },
+      { name: "Green Bay", slug: "green-bay" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Sun Prairie, WI | Mice, Yellowjackets & Voles",
+    metaDescription:
+      "Sun Prairie pest control for house mice, yellowjackets, carpenter ants, voles and boxelder bugs. Dane County Madison suburb agricultural fringe specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "oak-creek",
+    name: "Oak Creek",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~37,000",
+    county: "Milwaukee County",
+    climate: "cold-humid",
+    climateDriver:
+      "Oak Creek's Lake Michigan position moderates temperatures somewhat compared to inland Wisconsin cities, but winters remain genuinely cold and drive pests firmly indoors from November through March. The wooded ravines draining to the lake create humid microclimates year-round that sustain tick and ant habitat close to residential areas.",
+    topPests: [
+      "House mice",
+      "German cockroaches",
+      "Deer ticks",
+      "Carpenter ants",
+      "Skunks",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge in October and November",
+        note: "Oak Creek's mix of residential and commercial development along South 27th Street creates multiple mouse pressure points. The residential areas adjacent to wooded ravines see field mouse pressure in addition to the standard fall surge of house mice. Older residential construction near the lake corridor has more entry points than newer development.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The commercial strip along South 27th Street and the food service concentration in Oak Creek's commercial corridors sustain German cockroach pressure in restaurant and food handling facilities. German cockroaches spread from commercial buildings to adjacent residential structures through shared utility infrastructure.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, peak May to June and October",
+        note: "The wooded ravines draining from Oak Creek's residential neighborhoods to Lake Michigan are established deer tick habitat. The ravine corridors support deer populations that maintain tick loads, and residents who walk or landscape near the ravine edges are regularly exposed. Oak Creek's southern Milwaukee County location is within Wisconsin's high-incidence Lyme disease area.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are active in Oak Creek's wooded ravine corridors and the residential neighborhoods that abut them. Mature trees that have accumulated moisture damage from years of ravine humidity are common nesting sites, and ants forage from these into adjacent homes.",
+      },
+      {
+        name: "Skunks",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "March through November, peak in spring denning season",
+        note: "Skunks are a consistent nuisance in Oak Creek's ravine-adjacent neighborhoods. They den under decks, sheds, and porches and spray in residential yards when startled, particularly during the March through May denning season when they are establishing territory.",
+      },
+    ],
+    localHook:
+      "Oak Creek occupies the southern edge of Milwaukee County along Lake Michigan. The community mixes industrial corridors, including We Energies' Oak Creek Power Plant site, with residential neighborhoods that abut wooded ravines draining to the lake. Those ravines are permanent deer tick and skunk habitat, and the commercial strip along South 27th Street sustains German cockroach pressure in food service buildings.",
+    intro:
+      "Pest control in Oak Creek combines the standard Milwaukee County pest calendar with the specific pressure that comes from wooded ravines, lake proximity, and a significant commercial corridor. House mice are the dominant fall pest, arriving in October as temperatures drop and finding entry into both residential and commercial buildings. The ravine corridors that drain through Oak Creek's residential areas are established deer tick habitat, meaning tick exposure is a genuine risk for homeowners and families who landscape near those corridors. German cockroaches are a consistent commercial pest along South 27th Street. Skunks den in the ravine-adjacent neighborhoods and create spray incidents in residential yards through the spring and early summer. Carpenter ants work the moisture-softened trees in the ravine areas and adjacent properties.",
+    sections: [
+      {
+        heading: "Ravine corridors and tick exposure in Oak Creek neighborhoods",
+        body: "The wooded ravines that cut through Oak Creek's residential areas from the upland neighborhoods down to the Lake Michigan corridor are not just scenic features: they are established deer tick habitat that creates real Lyme disease exposure for Oak Creek families. The ravines support deer populations year-round, and where deer are present, deer ticks are present. The peak exposure windows are May through June, when nymphal ticks are active in leaf litter and low vegetation, and October, when adult ticks are active and searching for large animal hosts.\n\nFor Oak Creek homeowners, the practical risk zone is the 100 to 200 feet of vegetation immediately adjacent to the ravine edge. This is where deer regularly travel and where tick populations are densest. Children and pets who play near the ravine edge have the highest exposure. Tick checks after time outdoors, appropriate tick-repellent clothing, and annual perimeter treatment of the ravine-facing yard edge are the most effective prevention measures.",
+      },
+      {
+        heading: "South 27th Street commercial corridor: German cockroach management in Oak Creek food service",
+        body: "Oak Creek's commercial concentration along South 27th Street and the surrounding business corridors creates a predictable German cockroach environment in food service buildings. German cockroaches infest restaurant kitchens, food storage areas, and food processing facilities, and once established they spread through shared utility infrastructure and occasional movement of infested equipment. The commercial density means that a cockroach population in one building can easily reach adjacent properties through shared plumbing walls or delivery equipment.\n\nFor commercial operations in Oak Creek, a proactive integrated pest management program is more cost-effective than responding to an active infestation. Regular professional inspection and gel bait maintenance in harborage areas prevents populations from reaching levels that trigger complaints or inspection citations. German cockroaches are resistant to many over-the-counter products and require professional gel bait, growth regulator, and monitoring programs to eliminate and prevent reinfestation.",
+      },
+    ],
+    prevention: [
+      "Create a treated buffer zone at the ravine-facing yard edge each spring to reduce deer tick populations before the May nymphal tick peak.",
+      "Seal foundation penetrations, garage doors, and utility entry points in September before the fall mouse surge in Milwaukee County.",
+      "Inspect under decks, porches, and sheds in February for skunk denning activity and exclude entry points before spring denning season begins.",
+      "Schedule commercial kitchen inspections quarterly to catch German cockroach activity before populations reach infestation levels.",
+    ],
+    costNote:
+      "Oak Creek pest control programs start with a free inspection. Tick perimeter treatment, mouse exclusion, and skunk trapping are quoted separately, and commercial cockroach programs are priced by facility size and visit frequency.",
+    faqs: [
+      {
+        question: "Are deer ticks common near the ravines in Oak Creek?",
+        answer:
+          "Yes, deer ticks are well established in the wooded ravines that run through Oak Creek's residential areas toward Lake Michigan. The ravines support deer populations year-round, and deer ticks are carried by deer into every area where deer travel. The risk to Oak Creek homeowners is highest in the yards and landscaped areas that directly border the ravine corridors, particularly during the nymphal peak in May and June and the adult peak in October. Wisconsin's deer tick population is the primary Lyme disease vector in the state, and Oak Creek's Milwaukee County location is within the high-incidence zone.",
+      },
+      {
+        question: "Why do German cockroaches spread between businesses on South 27th Street in Oak Creek?",
+        answer:
+          "German cockroaches spread through commercial corridors via shared building infrastructure. Adjacent food service buildings typically share plumbing walls, utility chases, and sometimes crawl space access, all of which give cockroaches movement paths between units without ever going outdoors. Delivery equipment, cardboard boxes, and food supply containers are also common vectors that bring cockroaches from one facility to another. In dense commercial strips like South 27th Street, a cockroach infestation in one restaurant can seed an adjacent building within weeks if neither is on a professional monitoring program.",
+      },
+      {
+        question: "How do I keep skunks out from under my deck in Oak Creek?",
+        answer:
+          "Skunks den under decks, porches, and sheds in Oak Creek's ravine-adjacent neighborhoods throughout spring and summer. The most effective prevention is exclusion: installing hardware cloth or a steel mesh skirt buried at least six inches below grade around the perimeter of the deck or shed before the February through March denning season when skunks begin establishing territory. If a skunk is already denning under a structure, professional live trapping and relocation by a licensed wildlife operator is the safest approach. Attempting to disturb a denning skunk without professional assistance carries significant spray risk.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Milwaukee", slug: "milwaukee" },
+      { name: "Racine", slug: "racine" },
+      { name: "Kenosha", slug: "kenosha" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Oak Creek, WI | Mice, Cockroaches & Deer Ticks",
+    metaDescription:
+      "Oak Creek pest control for house mice, German cockroaches, deer ticks, carpenter ants and skunks. Milwaukee County Lake Michigan ravine corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "new-berlin",
+    name: "New Berlin",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~40,000",
+    county: "Waukesha County",
+    climate: "cold-humid",
+    climateDriver:
+      "New Berlin's inland Waukesha County location gives it colder winters and a shorter warm season than the Lake Michigan shore communities to the east. The suburban tree canopy and creek corridors sustain carpenter ant and mosquito habitat through the warm months, and the hard fall temperature drop drives mice firmly indoors each October.",
+    topPests: [
+      "Carpenter ants",
+      "Stink bugs",
+      "Boxelder bugs",
+      "Mosquitoes",
+      "House mice",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "New Berlin's wooded subdivisions and creek corridors sustain significant carpenter ant activity. Mature trees with moisture damage provide nesting sites, and leaf litter accumulation along the creek banks creates ideal ground-level harborage. Ants forage from wooded areas into adjacent homes, particularly in properties with wood mulch beds against the foundation.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November for entry, March through April for emergence",
+        note: "Brown marmorated stink bugs have established across Waukesha County and aggregate on south-facing walls in New Berlin each fall. Properties with significant south-facing surfaces, and older homes with gaps around window frames, see the highest stink bug entry numbers. Once inside, they are difficult to manage until spring emergence.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November",
+        note: "Boxelder bugs appear on south-facing walls and masonry each fall in New Berlin, often in company with stink bugs. They enter through similar gaps and create a combined overwintering pest pressure that New Berlin homeowners deal with annually.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak July and August",
+        note: "The creek corridors running through New Berlin's residential neighborhoods create seasonal mosquito breeding habitat. Spring rains fill low-lying areas and the drainage vegetation along creek banks, sustaining mosquito populations through mid-summer. Yards adjacent to creek corridors see more mosquito pressure than properties on higher, drier ground.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge in October",
+        note: "House mice surge in New Berlin each October as temperatures drop, seeking entry into heated structures. Waukesha County's colder inland winters make the fall mouse surge one of the most predictable pest events in the area, and older homes with foundation gaps or deteriorated utility seals are most vulnerable.",
+      },
+    ],
+    localHook:
+      "New Berlin is a large suburban city in Waukesha County where wooded subdivisions back up to creek corridors. The tree canopy and leaf litter that make the neighborhoods attractive also create ideal carpenter ant habitat, and the creeks bring mosquito pressure in spring and summer. Stink bugs and boxelder bugs mass on the south-facing walls of houses in fall at numbers that catch residents off guard.",
+    intro:
+      "Pest control in New Berlin revolves around the interplay between the city's wooded suburban character and Waukesha County's genuinely cold winters. Carpenter ants are the most significant structural pest, active in the mature trees and creek-side vegetation throughout the warm season and foraging into homes from spring through summer. Mosquitoes use the creek corridors for breeding habitat and create backyard pressure through summer. Stink bugs and boxelder bugs aggregate on the south-facing walls of New Berlin homes each fall and find their way into wall voids before winter. House mice surge in October as the temperature drops, completing the annual pest cycle that affects nearly every New Berlin property at some point.",
+    sections: [
+      {
+        heading: "Creek corridors and wooded lots: why carpenter ants are New Berlin's most common structural pest",
+        body: "New Berlin's appeal as a suburban community comes largely from its tree canopy and the creek corridors that wind through its residential neighborhoods. Those same features create the best carpenter ant environment in Waukesha County. Mature trees provide both nesting sites and foraging corridors, and the moisture that collects in leaf litter along creek banks creates a ground-level harborage environment that satellite colonies exploit. The critical connection point between an outdoor colony and a home is typically a branch that contacts the roof, a wood mulch bed pushed against the foundation, or moisture-softened wood around a basement window.\n\nCarpenter ant infestations in New Berlin homes often go unnoticed for a full season before a homeowner sees the first sawdust-like frass or a line of ants moving through the kitchen in spring. By the time foraging ants are visible indoors, the colony is typically well established either in the structure or immediately adjacent to it. Professional treatment targets both the foraging workers and the colony itself through direct nest treatment or perimeter bait programs that eliminate the source.",
+      },
+      {
+        heading: "Fall pest surge in New Berlin: stink bugs, boxelder bugs, and mice in October",
+        body: "New Berlin homeowners deal with a predictable three-species fall pest surge each year beginning in late September. Brown marmorated stink bugs are the most numerous: they aggregate in large groups on south-facing siding and brick surfaces, entering through gaps around window frames, pipe penetrations, and under siding panels. Boxelder bugs appear at the same time on the same surfaces. Both species are seeking sheltered overwintering sites in wall voids and attic spaces where they can remain dormant until spring.\n\nHouse mice arrive on a slightly different timeline. The mouse surge in Waukesha County is triggered by sustained October nights below 50 degrees Fahrenheit. Mice find entry through foundation gaps, weep holes, utility penetrations, and gaps around garage doors that were not present as problems through the summer but become access points when mice are actively seeking warmth. The combined effect is that October in New Berlin typically brings the most pest service calls of the year: stink bugs at the front of the house, mice in the garage or kitchen, and boxelder bugs collecting at the attic vents.",
+      },
+    ],
+    prevention: [
+      "Inspect and seal gaps around window frames, pipe penetrations, and under siding panels in late September to reduce stink bug and boxelder bug entry before mass aggregation.",
+      "Keep wood mulch beds at least six inches away from the foundation perimeter to remove the primary bridge point for carpenter ant foraging from the yard into the structure.",
+      "Treat the creek-facing yard edge with perimeter pest control in April to reduce carpenter ant foraging pressure before the warm-season peak.",
+      "Seal mouse entry points in September, focusing on foundation weep holes, utility penetrations, and gaps around garage door bottoms.",
+    ],
+    costNote:
+      "New Berlin pest control programs start with a free inspection. Carpenter ant treatment, stink bug exclusion, and mouse exclusion work are quoted separately from recurring general pest programs. Creek-adjacent properties may require more comprehensive ant baiting and perimeter treatment.",
+    faqs: [
+      {
+        question: "Why do stink bugs come to New Berlin homes in such large numbers every fall?",
+        answer:
+          "Brown marmorated stink bugs aggregate in large numbers on south-facing building surfaces each fall because they are seeking warmth and shelter for overwintering. New Berlin's Waukesha County location puts it squarely in the established stink bug range, and the suburban homes with significant south-facing siding or brick surface area attract the largest aggregations. Older homes with gaps around window frames, pipe penetrations, and under siding panels provide the entry points that allow them into wall voids. The numbers can appear suddenly because aggregation behavior is triggered by temperature and daylight cues, and many individuals respond simultaneously. Exterior treatment of surfaces in late September and sealing of entry points is the most effective approach before they enter.",
+      },
+      {
+        question: "Are carpenter ants dangerous to homes near the creek corridors in New Berlin?",
+        answer:
+          "Carpenter ants in New Berlin's creek-adjacent neighborhoods are a genuine structural threat that worsens over time if not addressed. They excavate galleries in moisture-softened wood, typically targeting areas like roof eaves, window sills, and foundation plates where water has repeatedly contacted the wood over years. The structural damage accumulates season by season and can become significant in older homes near the creek corridors where moisture has been affecting wood framing for decades. The first visible sign is often large black ants foraging indoors in April or May, or small piles of sawdust-like frass near baseboards or window frames. Professional treatment should follow promptly.",
+      },
+      {
+        question: "When should I seal my house against mice in New Berlin?",
+        answer:
+          "September is the right month to seal mouse entry points in New Berlin and throughout Waukesha County. The mouse surge is triggered by the October temperature drop, and sealing before that trigger arrives is far more effective than responding after mice are already established indoors. Focus on foundation weep holes, utility pipe penetrations, gaps around garage doors, and areas where the house meets the foundation. Older homes in New Berlin's established neighborhoods are more likely to have accumulated gaps over years of settling and weathering than newer construction. A professional inspection can identify all significant entry points and prioritize the ones most likely to be used.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Milwaukee", slug: "milwaukee" },
+      { name: "Waukesha", slug: "waukesha" },
+      { name: "West Allis", slug: "west-allis" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in New Berlin, WI | Carpenter Ants, Stink Bugs & Mice",
+    metaDescription:
+      "New Berlin pest control for carpenter ants, stink bugs, boxelder bugs, mosquitoes and house mice. Waukesha County wooded creek corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "fitchburg",
+    name: "Fitchburg",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~32,000",
+    county: "Dane County",
+    climate: "cold-humid",
+    climateDriver:
+      "Fitchburg shares Dane County's cold-humid continental climate, with winters that drive pest populations indoors from November through March and a concentrated warm season that sees rapid ant, mosquito, and wasp activity. The agricultural land still converting to residential use at the city's south edge introduces field pest species into new neighborhoods at rates above the Dane County average.",
+    topPests: [
+      "House mice",
+      "Voles",
+      "Deer ticks",
+      "Carpenter ants",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, major surge in October",
+        note: "Fitchburg's mix of older farmland-edge housing and newer research and tech sector development creates diverse mouse pressure. Properties at the south edge of the city near active agricultural land see field mice arriving in fall in addition to the standard house mouse surge across Dane County.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "vole-control",
+        activeSeason: "Year-round, most visible spring and fall",
+        note: "Voles are a consistent turf and garden pest in Fitchburg, particularly in properties that border or were recently converted from agricultural land. The runway systems they create through lawn grass are visible after spring snow melt, and root and bark damage to ornamental plants can be significant over a single winter.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, peak May to June and October",
+        note: "The Capital City State Trail corridor and the wooded areas along Nine Springs Creek and McKee Road corridors create deer tick habitat close to Fitchburg's residential neighborhoods. The trail is a popular recreation corridor, and tick exposure is consistent for residents and trail users in adjacent neighborhoods.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are active in Fitchburg's wooded residential areas, particularly in the established neighborhoods near the Madison border where mature tree canopy provides both nesting sites and foraging corridors. Older homes in the northern parts of Fitchburg have accumulated enough moisture damage to attract nesting activity.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August and September",
+        note: "Ground-nesting yellowjackets are a significant sting risk in Fitchburg's transitional areas between residential development and former agricultural fields. Abandoned rodent burrows and undisturbed soil on lot edges provide nesting sites, and colonies peak in late summer when they are most aggressive.",
+      },
+    ],
+    localHook:
+      "Fitchburg sits immediately south of Madison and has absorbed significant research and tech sector growth alongside older dairy farmland that is still being converted to residential use. The farmland fringe means field mice, voles, and ground-nesting insects reach new subdivisions regularly. The proximity to the Capital City State Trail corridor also brings deer tick habitat close to residential areas.",
+    intro:
+      "Pest control in Fitchburg reflects the transition the city is going through: part established Madison suburb, part active development zone pushing into former dairy farmland. The farmland fringe creates pest pressure that purely urban Dane County communities do not see at the same intensity. Field mice and voles arrive in fall from adjacent agricultural land, ground-nesting yellowjackets establish in disturbed soil at the edges of new subdivisions, and deer ticks are present in the wooded corridors along the Capital City State Trail. Carpenter ants work the mature trees in Fitchburg's established northern neighborhoods. The October mouse surge is consistent across all parts of the city, as it is throughout Dane County.",
+    sections: [
+      {
+        heading: "Capital City State Trail and tick exposure in Fitchburg neighborhoods",
+        body: "The Capital City State Trail runs through Fitchburg's residential landscape, and the wooded sections along the trail corridor and adjacent creek drainage areas are established deer tick habitat. The trail is well maintained and heavily used, but the vegetation immediately off the path provides the leaf litter and low shrub layer that nymphal ticks inhabit during the May and June peak period. Residents who walk dogs along the trail or who live in properties abutting the wooded sections are regularly exposed during the nymphal season, when ticks are small enough to be missed on routine checks.\n\nThe practical risk reduction steps for Fitchburg trail users and adjacent homeowners are straightforward: use DEET or permethrin-treated clothing when walking in vegetation, do thorough tick checks after outdoor time, and consider annual perimeter treatment of the yard edge that faces the trail corridor. The October adult tick peak is also a genuine risk for Fitchburg residents doing fall yard work in areas with deer movement.",
+      },
+      {
+        heading: "Farmland conversion and pest pressure in Fitchburg's south side",
+        body: "Fitchburg's south side is where the agricultural-to-residential transition is most active, and this edge is where pest pressure from field species is highest. Former crop fields that have been graded and platted for new residential development often have established mouse, vole, and ground-nesting insect populations that simply migrate into the nearest available structure or landscaped yard. New construction homeowners in these areas frequently experience a first-fall mouse event that surprises them, along with vole runway damage in their first spring and yellowjacket nests in the yard that they did not expect in a suburban setting.\n\nThe solution for new Fitchburg homeowners on the south side is to treat the property boundary facing open or developing land as an active pest interface. Inspect for ground nests in July before the late-summer wasp peak. Set vole snap traps in active runway systems in March before population growth begins. Seal every identifiable foundation entry point before October. These steps reduce the farmland-fringe pest impact that catches new subdivision residents off guard in the first seasons they own their home.",
+      },
+    ],
+    prevention: [
+      "Apply DEET or permethrin-treated clothing when using the Capital City State Trail corridor in May through June and again in October, the two peak deer tick activity windows.",
+      "Inspect new construction foundation plates and utility entry points in September: south-side Fitchburg homes adjacent to active development are vulnerable to first-fall mouse entry.",
+      "Walk the property boundary facing agricultural or developing land in July to locate yellowjacket ground nests before the late-summer aggression peak.",
+      "Set vole snap traps in active runway systems in March to control populations before the spring breeding season expands them.",
+    ],
+    costNote:
+      "Fitchburg pest control programs start with a free inspection. Deer tick perimeter treatment, mouse exclusion, and vole management are typically priced as individual service calls. New construction properties on the south side may need more comprehensive first-season exclusion work.",
+    faqs: [
+      {
+        question: "Is Lyme disease risk real for Fitchburg residents near the Capital City State Trail?",
+        answer:
+          "Yes. Dane County has a well-documented deer tick population, and the wooded sections of the Capital City State Trail corridor in Fitchburg are genuine tick habitat. The nymphal tick peak in May and June is the period of highest Lyme disease transmission risk because nymphal ticks are small and often missed on post-outdoor checks. Residents who walk in vegetation along the trail or who live adjacent to the wooded sections should treat tick exposure as a real risk, not a remote one. Using tick-repellent measures and performing thorough tick checks after outdoor time are the most effective individual prevention steps.",
+      },
+      {
+        question: "Why do new homes on Fitchburg's south side get mice so quickly?",
+        answer:
+          "New construction on Fitchburg's south side is often built on former agricultural land where mouse populations are already established in the soil and surrounding vegetation. When the field is converted to residential lots, the existing mouse population does not disappear: it simply shifts to the nearest available shelter, which is frequently the new homes being constructed. New construction also has uncured gaps around foundation plates, utility penetrations, and garage doors that provide easy entry. The combination of an adjacent mouse population and entry-point-rich new construction means first-fall mouse events in south Fitchburg new builds are common. Sealing identified entry points in September is the key preventive step.",
+      },
+      {
+        question: "How do I tell vole damage from other lawn damage in Fitchburg?",
+        answer:
+          "Vole damage in Fitchburg lawns is most visible in early spring after snow melts. Voles create distinct surface runway systems through lawn grass, which appear as narrow, matted channels about two inches wide running across the lawn surface. These are the travel paths voles use under snow cover through winter. Voles also gnaw the bark from the base of young trees and the roots of ornamental plants, causing damage that may not be apparent until the plant fails to leaf out in spring. This damage pattern is different from mole damage, which creates raised tunnel ridges or pushed-up soil mounds, and different from grub damage, which causes turf to lift in sheets without surface runways.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Madison", slug: "madison" },
+      { name: "Janesville", slug: "janesville" },
+      { name: "Beloit", slug: "beloit" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Fitchburg, WI | Mice, Voles & Deer Ticks",
+    metaDescription:
+      "Fitchburg pest control for house mice, voles, deer ticks, carpenter ants and yellowjackets. Dane County Madison south suburb agricultural edge specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
