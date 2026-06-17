@@ -543,7 +543,7 @@ export const virginiaCities: CityLocation[] = [
     author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
     nearbyCities: [
       { name: "Hampton", slug: "hampton" },
-      { name: "Williamsburg", slug: "williamsburg" },
+      { name: "Williamsburg", slug: "williamsburg-va" },
       { name: "Poquoson", slug: "poquoson" },
     ],
     contentTemplate: "E",
@@ -768,7 +768,7 @@ export const virginiaCities: CityLocation[] = [
     author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
     nearbyCities: [
       { name: "Arlington", slug: "arlington" },
-      { name: "Falls Church", slug: "falls-church" },
+      { name: "Falls Church", slug: "falls-church-va" },
       { name: "Springfield", slug: "springfield" },
     ],
     contentTemplate: "D",
@@ -2464,7 +2464,7 @@ export const virginiaCities: CityLocation[] = [
     ],
     author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
     nearbyCities: [
-      { name: "Petersburg", slug: "petersburg" },
+      { name: "Petersburg", slug: "petersburg-va" },
       { name: "Richmond", slug: "richmond" },
       { name: "Hopewell", slug: "hopewell" },
     ],
@@ -2580,5 +2580,579 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Radford pest control for house mice, brown marmorated stink bugs, subterranean termites, yellowjackets and carpenter ants. City of Radford New River Valley Appalachian southwest Virginia specialists. Free inspection. Call 1-800-PEST-USA.",
   },
-
+  {
+    slug: "petersburg-va",
+    name: "Petersburg",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~33,000",
+    county: "Independent City",
+    climate: "hot-humid",
+    climateDriver:
+      "Petersburg's climate reflects its position in Virginia's Tidewater region, with hot and humid summers, mild winters, and rainfall averaging over 45 inches annually. The Appomattox River and its associated wetlands maintain high moisture levels year-round, sustaining subterranean termite activity and mosquito breeding through the long warm season.",
+    topPests: [
+      "Subterranean termites",
+      "American cockroaches",
+      "Mosquitoes",
+      "Norway rats",
+      "House mice",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note:
+          "Petersburg's Tidewater position and the Appomattox River's moisture influence place the city in Virginia's high-pressure termite zone. Old Towne Petersburg's 19th-century wood-frame commercial and residential structures carry the greatest exposure. Swarming is common from March through May.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "American cockroaches are documented in Petersburg's older urban infrastructure, entering structures through storm drains, utility lines, and basement openings. They thrive in the city's older commercial corridors and multi-unit residential buildings.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "The Appomattox River's wetland margins and tidal backwaters near Petersburg create substantial mosquito breeding habitat. The city's humid Tidewater climate sustains the season from April through October, with peak pressure in July and August.",
+      },
+      {
+        name: "Norway Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note:
+          "Norway rats are documented in older sections of Petersburg, particularly in the historic commercial district and near storm drainage infrastructure. Older buildings with foundation access and alley-adjacent trash storage are most affected.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note:
+          "House mice are a consistent fall and winter pest in Petersburg's older residential neighborhoods. Gaps in aging foundations and utility entries are the most common access routes.",
+      },
+    ],
+    localHook:
+      "Petersburg's Old Towne district contains some of the oldest continuously occupied commercial and residential buildings in Virginia, many of them 19th-century wood structures that have never received modern termite protection. The Appomattox River's proximity keeps the surrounding soil consistently moist, and active termite swarms in Old Towne are not unusual each spring.",
+    intro:
+      "Petersburg's pest challenges are shaped by two things: its age and its location along the Appomattox River. As an independent city in Virginia's Tidewater region, Petersburg has an older building stock that predates modern pest control standards by a century or more. Old Towne's 19th-century wood structures are highly exposed to subterranean termites, which are active year-round in the moist Tidewater soil. The Appomattox River's wetland margins generate mosquito habitat from April through October. American cockroaches are present in Petersburg's older urban infrastructure, entering through storm drains and utility systems. Norway rats are documented in the older commercial district, where aging drainage infrastructure and dense development create the habitat they prefer. House mice make their fall move indoors as temperatures drop each October. Petersburg is an independent city, not part of any county, and its dense urban character means pest pressure is concentrated and consistent across the calendar.",
+    sections: [
+      {
+        heading: "Termites and Cockroaches in Petersburg's Historic Urban Core",
+        body:
+          "Petersburg's Old Towne district is one of Virginia's most intact historic commercial areas, and those well-preserved 19th-century structures come with significant pest exposure. Subterranean termites thrive in the Appomattox River's moist soil, and the wood-frame construction common in Old Towne's older buildings, much of it untreated, is highly vulnerable. Annual termite inspections for properties in this district are not precautionary but genuinely necessary. Liquid soil treatments and perimeter bait systems provide the most practical protection for structures in dense urban settings where yard access is limited. Bait systems installed at regular intervals around the foundation perimeter offer ongoing monitoring and colony suppression without requiring extensive soil disruption near neighboring structures. American cockroaches are a year-round challenge in Petersburg's older building stock. They travel through storm drain systems and utility conduits and enter structures at basement-level openings, floor drains, and pipe penetrations. They're large, visible, and alarming, but they're also controllable with a perimeter exclusion and treatment program. Interior bait gel in utility areas and basement spaces addresses the areas where they establish most easily.",
+      },
+      {
+        heading: "Mosquitoes, Rats, and Seasonal Pests Along the Appomattox River",
+        body:
+          "The Appomattox River runs directly through Petersburg's urban geography, and its wetland margins and backwater areas create sustained mosquito breeding habitat from spring through fall. The season is long in Virginia's Tidewater climate, beginning in April and continuing through October, with peak pressure in the July and August humidity window. Barrier spray programs targeting shaded landscape areas in residential neighborhoods reduce adult populations during the active season. Standing water in gutters, low yard areas, and commercial drainage infrastructure feeds the problem, and eliminating those sources cuts breeding directly. Norway rats are documented in Petersburg's older commercial corridors and drainage infrastructure. The dense urban setting, aging building stock, and alley-level trash storage characteristic of parts of the old city create the conditions rats exploit. Rodent management in urban cores requires a combination of bait station installation in exterior harborage areas, exclusion at building entry points, and consistent monitoring. House mice follow the standard fall pattern, moving into residential structures from October onward. Foundation exclusion work done before fall prevents most entries.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for Old Towne and any Petersburg property built before 1970, particularly wood-frame commercial and residential structures",
+      "Seal floor drains, basement openings, and utility pipe penetrations to reduce American cockroach entry from storm drain systems",
+      "Eliminate standing water near Appomattox River tributaries and in gutters before April to reduce the mosquito breeding season",
+      "Install rodent bait stations in exterior storage and alley-adjacent areas to reduce Norway rat pressure in older commercial corridors",
+      "Inspect and seal foundation gaps and worn door sweeps before October to prevent fall mouse entry in older residential neighborhoods",
+    ],
+    costNote:
+      "Termite inspections in Petersburg are typically free. Annual termite protection programs for older structures start around $350 and scale with perimeter size. Cockroach control, rodent management, and mosquito programs are available as one-time or recurring services. Contact us for an assessment of older or historic Petersburg properties.",
+    faqs: [
+      {
+        question: "Are Petersburg's historic buildings at high risk for termites?",
+        answer:
+          "Yes. Old Towne's 19th-century wood-frame structures and the Appomattox River's moist soil create a high-risk combination for subterranean termites. Many of these buildings have never received modern termite protection. Annual inspections are the minimum standard, and perimeter bait systems or liquid treatments provide ongoing protection appropriate for the dense urban setting.",
+      },
+      {
+        question: "Why do American cockroaches keep appearing in my Petersburg building?",
+        answer:
+          "American cockroaches in older Petersburg buildings typically travel through storm drain and utility systems before entering at floor drains, basement openings, or pipe penetrations. Sealing these entry points is the primary exclusion step. Interior bait gel in basement utility areas addresses the cockroaches that get through, and a perimeter spray program reduces exterior populations.",
+      },
+      {
+        question: "How bad are mosquitoes near the Appomattox River in Petersburg?",
+        answer:
+          "The Appomattox River's wetland margins and backwaters generate significant mosquito habitat for the city's residential and commercial areas. The season runs April through October in Virginia's Tidewater climate. Properties within a few blocks of the river feel the pressure earliest and longest. Barrier spray programs and standing water elimination are the most effective combined approach.",
+      },
+      {
+        question: "Does Petersburg have a Norway rat problem?",
+        answer:
+          "Norway rats are documented in Petersburg's older commercial corridors and near aging storm drainage infrastructure. Dense urban development, older buildings, and alley-level storage conditions create the harborage they prefer. Professional rodent management with exterior bait stations, exclusion at building entry points, and ongoing monitoring addresses the problem more effectively than DIY measures.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Richmond", slug: "richmond" },
+      { name: "Colonial Heights", slug: "colonial-heights" },
+      { name: "Hopewell", slug: "hopewell-va" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Petersburg, VA | Termites & Cockroaches",
+    metaDescription:
+      "Petersburg VA pest control for subterranean termites, cockroaches, mosquitoes and rats. Old Towne Appomattox River Tidewater specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "williamsburg-va",
+    name: "Williamsburg",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~15,000",
+    county: "Independent City",
+    climate: "hot-humid",
+    climateDriver:
+      "Williamsburg sits in Virginia's Tidewater, with a hot-humid climate driven by proximity to the James and York Rivers. Summers are long and humid, winters mild, and the city's extensive historic and campus greenspace maintains high moisture levels that sustain termites year-round and mosquitoes from spring through fall.",
+    topPests: [
+      "Subterranean termites",
+      "Bed bugs",
+      "Mosquitoes",
+      "Carpenter bees",
+      "House mice",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note:
+          "The Colonial Williamsburg Historic Area's 18th-century wood structures, much of it antique timber without modern treatment, are in Virginia's highest termite pressure zone. Tidewater's moist soil and warm climate sustain active subterranean colonies. Protecting historically significant wooden structures requires specialized inspection approaches.",
+      },
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note:
+          "William & Mary's large student population creates significant bed bug pressure from annual August move-in and move-out turnover. The city's hotel stock, serving Colonial Williamsburg's millions of annual visitors, also faces persistent bed bug introduction risk from high guest volume.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "Williamsburg's creek systems and the Tidewater wetlands on the city's margins create mosquito breeding habitat that sustains the season from April through October. The Colonial Williamsburg grounds and its wooded buffers provide extensive shaded resting habitat for adult mosquitoes.",
+      },
+      {
+        name: "Carpenter Bees",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "March through September",
+        note:
+          "Carpenter bees are a documented pest in Williamsburg's colonial-era wood trim, unpainted fence rails, and wooden outbuildings. The Colonial Williamsburg restoration's extensive use of period-appropriate wood materials provides abundant nesting sites for boring insects.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note:
+          "House mice enter Williamsburg's older residential structures and historic buildings each fall through foundation gaps and utility entries. The city's mix of student housing and older residential neighborhoods creates consistent fall mouse pressure.",
+      },
+    ],
+    localHook:
+      "Colonial Williamsburg is one of America's most extensive historic restorations, with over 500 restored or reconstructed 18th-century buildings. Protecting those structures from subterranean termites, which are active in Virginia's Tidewater soil year-round, is one of the most consequential pest management challenges in the country.",
+    intro:
+      "Pest management in Williamsburg carries a weight that few cities share. The Colonial Williamsburg Historic Area contains over 500 restored and reconstructed 18th-century buildings, many of them built with antique timber and period-appropriate materials. Subterranean termites are active in Tidewater Virginia's soil year-round, and those historically significant wooden structures require ongoing, expert-level protection. Beyond the historic district, Williamsburg's College of William and Mary creates substantial bed bug pressure through its annual student turnover cycle, and the city's hotel inventory, serving millions of Colonial Williamsburg visitors annually, faces continuous bed bug introduction from high guest volume. Mosquitoes breed in the city's creek systems and Tidewater wetland margins from April through October. Carpenter bees bore into period-appropriate wood materials throughout the historic area and in residential wooden structures across the city. House mice enter older buildings each fall as temperatures drop. Williamsburg's pest picture is shaped by its unique combination of historic significance, active campus, and high tourism volume.",
+    sections: [
+      {
+        heading: "Termites and Carpenter Bees in Williamsburg's Historic Structures",
+        body:
+          "Colonial Williamsburg's commitment to period-authentic restoration means its buildings use materials and construction methods that are highly vulnerable to wood-destroying insects. Subterranean termites in Tidewater Virginia's moist soil are a continuous threat to these antique timber structures. The Historic Area's approach to pest management must balance protection of irreplaceable materials with the preservation philosophy that governs every aspect of the restoration. For residential properties and newer commercial structures in Williamsburg, the approach is more straightforward: annual inspections, perimeter bait monitoring systems, and prompt response to any swarm activity in spring. William and Mary's campus buildings also warrant regular inspection, as their age and the moist soil conditions around the historic campus buildings create real exposure. Carpenter bees are an equally visible structural pest in Williamsburg. They bore into unfinished or softwood materials, creating entrance holes about a half-inch in diameter in porch columns, fence rails, and wooden siding. The colonial-era aesthetic that defines much of Williamsburg's architectural identity, with its painted and unpainted wood surfaces, provides abundant nesting material. Treatment at active bore sites followed by wood putty filling and paint sealing reduces re-infestation significantly.",
+      },
+      {
+        heading: "Bed Bugs, Mosquitoes, and Campus-Driven Pest Pressures",
+        body:
+          "William and Mary's student population creates one of Williamsburg's most specific and recurring pest pressures. The August move-in and May move-out cycle brings thousands of students with their furniture and belongings, and bed bug introduction through second-hand furniture or infested off-campus housing spreads quickly in dense student living arrangements. Campus and off-campus student housing managers in Williamsburg should have proactive inspection schedules and rapid response protocols. Hotels serving Colonial Williamsburg's visitor base face similar bed bug introduction risk from high guest volume year-round. The city's millions of annual hotel stays create continuous introduction pathways, and regular professional inspections keep lodging properties ahead of establishment. Mosquitoes breed in Williamsburg's creek systems and Tidewater wetland buffers from April through October. The Colonial Williamsburg grounds, with their extensive wooded buffers and shaded garden areas, provide ideal adult mosquito resting habitat. Barrier spray programs targeting shaded landscape areas combined with standing water management in residential neighborhoods provide the most effective seasonal reduction.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for all Williamsburg properties, with particular attention to homes with antique lumber or older post-and-beam construction near the historic district",
+      "Inspect student rental furniture for bed bug evidence before August move-in and establish an inspection protocol for William and Mary off-campus housing",
+      "Seal or paint exposed wood surfaces on porches, fence rails, and outbuildings to reduce carpenter bee boring sites",
+      "Eliminate standing water in gutters and low yard areas before April to reduce mosquito breeding in the creek and wetland corridor",
+      "Inspect and seal foundation gaps and door sweeps before October to prevent fall mouse entry in older Williamsburg residential buildings",
+    ],
+    costNote:
+      "Termite inspections in Williamsburg are typically free. Annual termite protection programs for older structures start around $350. Bed bug inspections for student housing and hotel properties are available on scheduled and emergency timelines. Carpenter bee treatment, mosquito programs, and general pest plans are priced individually or in combination.",
+    faqs: [
+      {
+        question: "How are Colonial Williamsburg buildings protected from termites?",
+        answer:
+          "Subterranean termite protection for the Colonial Williamsburg Historic Area is a specialized undertaking given the buildings' historical significance. For residential and commercial properties in Williamsburg, annual inspections and perimeter bait monitoring systems are the standard approach. Properties near the historic district should consider enhanced monitoring given the area's documented termite activity.",
+      },
+      {
+        question: "Why do William and Mary students deal with bed bugs so often?",
+        answer:
+          "The annual August move-in cycle brings thousands of students with used furniture, items from storage, and belongings that may have been in infested environments. Dense off-campus housing with high turnover allows bed bugs to spread between units. Inspection at move-in, mattress encasements, and immediate professional response to confirmed cases are the most effective controls.",
+      },
+      {
+        question: "Are carpenter bees damaging wooden structures in Williamsburg?",
+        answer:
+          "Yes. Carpenter bees bore into softwood and unfinished wood surfaces, and Williamsburg's historic aesthetic and older residential building stock provide abundant nesting material. They target porch columns, fence rails, roof overhangs, and wooden siding. Treatment at active bore holes followed by painting or sealing the wood surfaces reduces reinfestation significantly.",
+      },
+      {
+        question: "How long is mosquito season in Williamsburg's Tidewater setting?",
+        answer:
+          "Mosquito season in Williamsburg runs from April through October, longer than in more northern Virginia cities. The Tidewater wetland margins and creek systems near the city provide extended breeding habitat. Colonial Williamsburg's wooded buffers provide excellent adult resting areas, making barrier spray programs particularly effective for residential and commercial properties adjacent to the historic grounds.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Newport News", slug: "newport-news" },
+      { name: "Hampton", slug: "hampton" },
+      { name: "Richmond", slug: "richmond" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Williamsburg, VA | Termites & Bed Bugs",
+    metaDescription:
+      "Williamsburg VA pest control for subterranean termites, bed bugs, mosquitoes and carpenter bees. Colonial Williamsburg William and Mary Tidewater specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "martinsville-va",
+    name: "Martinsville",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~13,000",
+    county: "Independent City",
+    climate: "temperate",
+    climateDriver:
+      "Martinsville sits in Virginia's Southside Piedmont at the base of the Blue Ridge foothills, with a temperate climate that is cooler than the Tidewater but warmer than the Appalachian zone. The Smith River corridor maintains moisture through the city. Summers are warm and humid enough to sustain termite and mosquito pressure; winters are cold enough to drive reliable mouse entry each fall.",
+    topPests: [
+      "Subterranean termites",
+      "Carpenter ants",
+      "Yellowjackets",
+      "Stink bugs",
+      "House mice",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note:
+          "Subterranean termites are documented across the Virginia Piedmont foothills region, including the Martinsville area. The Smith River's moisture influence and the city's older wood-frame housing stock from the textile manufacturing era create real exposure. Annual inspections are recommended.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note:
+          "Carpenter ants are active in Martinsville's older residential neighborhoods and near the wooded Blue Ridge foothills terrain surrounding Henry County. They exploit moisture-damaged wood in older structures and forage into homes from established outdoor colonies in wooded yards.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October",
+        note:
+          "Yellowjackets nest in ground burrows and structural voids in Martinsville's residential and wooded-edge neighborhoods. They're most aggressive in late summer when colony populations peak. The wooded foothills terrain surrounding the city provides abundant nesting habitat.",
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note:
+          "Brown marmorated stink bugs arrived in the Southside Virginia corridor and are established in the Martinsville and Henry County area. They aggregate on exterior walls in fall and enter structures through gaps around windows and doors.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note:
+          "Mouse pressure builds each fall in Martinsville's older residential neighborhoods. Aging foundations and utility entries in the city's former mill-era housing stock provide multiple access points as temperatures drop.",
+      },
+    ],
+    localHook:
+      "Martinsville was once the furniture manufacturing capital of Virginia, and the city still has substantial older wood-frame residential housing stock from that manufacturing era. Those mid-20th century homes, many with aging foundations and deferred exterior maintenance, are well-exposed to both carpenter ants from the surrounding Blue Ridge foothills terrain and subterranean termites in the Smith River corridor's moist soil.",
+    intro:
+      "Martinsville's pest profile reflects its geography and its industrial history. The city's older housing stock, built during the furniture and textile manufacturing era, includes a large share of wood-frame structures with aging foundations and maintenance needs that create real pest exposure. Subterranean termites are documented across the Piedmont foothills region, and the Smith River's moisture influence sustains colony activity in Martinsville's soil year-round. Carpenter ants are a particular concern because the Blue Ridge foothills surrounding Henry County harbor large outdoor colonies that forage readily into older structures near wooded lots. Yellowjackets nest in ground burrows and wall voids in residential and wooded-edge settings, becoming most aggressive in late summer when their colonies peak. Stink bugs have arrived in the Southside Virginia corridor and are now a familiar fall nuisance in Martinsville. House mice enter older homes reliably each October through the gaps that aging construction creates. Addressing these pressures through the seasonal calendar, from spring termite inspection through fall exclusion, keeps Martinsville properties protected.",
+    sections: [
+      {
+        heading: "Termites and Carpenter Ants in Martinsville's Older Housing",
+        body:
+          "Martinsville's former manufacturing economy built a substantial inventory of mid-20th century wood-frame homes, and many of those structures now face pest challenges directly related to their age and construction. Subterranean termites in the Virginia Piedmont soil are active year-round, with visible swarming most common from March through May. Homes in Martinsville's established neighborhoods near the Smith River corridor, where soil moisture stays elevated, are most exposed. Annual professional inspections and perimeter bait monitoring systems provide the detection and protection these structures need. Carpenter ants are a closely related structural concern in Martinsville. The Blue Ridge foothills terrain surrounding Henry County provides ideal habitat for large outdoor carpenter ant colonies, and those colonies forage into residential structures when moisture-damaged wood is accessible. Older wood soffits, deck boards in contact with soil, and wall voids near any moisture source are the most common infestation sites. Treatment addresses both the foragers visible inside and any satellite colonies established in the wall structure. For Martinsville homes that have both carpenter ant and termite exposure, a combined spring inspection covers both.",
+      },
+      {
+        heading: "Yellowjackets, Stink Bugs, and Fall Pest Patterns in Henry County",
+        body:
+          "Yellowjackets are a notable warm-season pest in Martinsville's residential areas, particularly those near the wooded terrain of Henry County's foothills. They ground-nest in residential yards and build colonies in structural wall voids in older buildings. The late-summer aggression spike, when colonies reach peak populations in August and September, makes yellowjacket nests near high-traffic areas a genuine hazard. Professional treatment is the recommended approach for ground nests near walkways and structural infestations. Stink bugs began moving into the Southside Virginia corridor and are now established in the Martinsville area. Their fall aggregation on south-facing exterior walls is a visible and reliable seasonal event. They enter through gaps around windows, door frames, and utility penetrations. Sealing these gaps before September, combined with vacuuming any that get inside rather than squashing them, is the most practical management approach. House mice follow the predictable fall pattern in Martinsville. October through December sees the most active movement toward structures as Henry County's agricultural and wooded perimeter cools. The aging housing stock creates multiple potential entry routes, so exclusion work done before October pays dividends through the winter.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for older Martinsville homes, particularly those with wood-frame construction near the Smith River corridor",
+      "Inspect exterior soffits, deck boards, and wooded-edge yard structures for carpenter ant activity each spring",
+      "Check residential yards for yellowjacket ground nests in July and treat before colonies reach late-summer peak populations",
+      "Seal gaps around windows, utility penetrations, and door frames before September to block fall stink bug and mouse entry",
+      "Replace worn door sweeps and inspect foundation gaps before October to prevent fall mouse entry in older Henry County housing",
+    ],
+    costNote:
+      "Termite inspections in Martinsville are typically free. Annual termite plans start around $250. Carpenter ant treatment, yellowjacket removal, stink bug exclusion, and general pest control are available as one-time or recurring services. Contact us for a combined spring inspection covering termites and carpenter ants.",
+    faqs: [
+      {
+        question: "Do the older homes in Martinsville have higher termite risk?",
+        answer:
+          "Yes. Martinsville's mid-20th century wood-frame housing stock, combined with the Smith River corridor's moist soil conditions, creates real subterranean termite exposure. Older structures with untreated lumber and aging foundations are most vulnerable. Annual inspections are the minimum standard for any Martinsville home over 20 years old.",
+      },
+      {
+        question: "Why are carpenter ants so common near the Blue Ridge foothills in Martinsville?",
+        answer:
+          "The forested terrain surrounding Henry County harbors large outdoor carpenter ant colonies that forage into structures seeking moisture and nesting sites. Older wood-frame homes near wooded lots are most exposed. They're particularly drawn to moisture-damaged soffits, decks, and wall voids. Spring inspection and treatment addresses the problem before colonies expand.",
+      },
+      {
+        question: "Are stink bugs an established pest in Martinsville?",
+        answer:
+          "Yes. Brown marmorated stink bugs have arrived in the Southside Virginia corridor and are now present in the Martinsville area. They aggregate on exterior walls in fall and enter structures through small gaps. Sealing gaps before September and vacuuming any that get inside are the most practical controls. They don't reproduce indoors and cause no structural damage.",
+      },
+      {
+        question: "When are yellowjackets most dangerous in Henry County?",
+        answer:
+          "Yellowjacket colonies reach peak size in late August and September, and that's when they're most aggressive when disturbed. Ground nests in residential yards and structural nests in wall voids are both hazardous near this time. Treat ground nests promptly in July before colonies peak. Call a professional for any structural infestation.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Roanoke", slug: "roanoke" },
+      { name: "Danville", slug: "danville-va" },
+      { name: "Lynchburg", slug: "lynchburg" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Martinsville, VA | Termites & Carpenter Ants",
+    metaDescription:
+      "Martinsville VA pest control for subterranean termites, carpenter ants, yellowjackets and stink bugs. Henry County Southside Virginia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "herndon-va",
+    name: "Herndon",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~24,000",
+    county: "Fairfax County",
+    climate: "temperate",
+    climateDriver:
+      "Herndon's climate is temperate with strong humidity influence from the mid-Atlantic region. Summers are hot and humid, winters cold with periodic freezes. The Dulles corridor's combination of urban development and suburban greenspace maintains the stink bug populations that colonized Northern Virginia, and Sugarland Run's wetland buffer creates local mosquito habitat.",
+    topPests: [
+      "Stink bugs",
+      "Mosquitoes",
+      "Deer ticks",
+      "House mice",
+      "Subterranean termites",
+    ],
+    pestProfile: [
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November (entry), spring (exit)",
+        note:
+          "Brown marmorated stink bugs colonized Northern Virginia over a decade ago and Fairfax County has some of the most established populations in Virginia. Herndon's suburban mix of newer townhomes and established single-family housing creates abundant overwintering sites. Stink bugs aggregate on sun-facing walls before pushing through any available gap.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "Sugarland Run's wetland buffer corridor and the Dulles area's drainage retention features create local mosquito breeding habitat for Herndon neighborhoods. The town's wooded linear park along W&OD Trail provides adult resting habitat adjacent to residential areas.",
+      },
+      {
+        name: "Deer Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, year-round in mild winters",
+        note:
+          "Fairfax County is in a Lyme disease-endemic area per Virginia Department of Health data. Herndon's W&OD Trail linear park and the wooded suburban edges along Sugarland Run create consistent deer tick habitat adjacent to residential properties and active trail users.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note:
+          "House mice enter Herndon's suburban housing each fall through foundation gaps and utility penetrations. Townhome communities with shared party walls can see mice travel between units once one point of entry is established.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note:
+          "Subterranean termites are documented throughout Northern Virginia and Fairfax County. Herndon's established residential neighborhoods, particularly older housing near Sugarland Run's moisture corridor, warrant annual inspection.",
+      },
+    ],
+    localHook:
+      "Herndon's W&OD Trail cuts through the town as a popular linear park for cyclists and walkers, and the wooded edges along Sugarland Run create excellent deer tick habitat directly adjacent to the trail corridor. Fairfax County is in Virginia's Lyme disease-endemic zone, and Herndon trail users and residents with wooded lots face genuine tick exposure from spring through fall.",
+    intro:
+      "Herndon is a Northern Virginia town within Fairfax County, positioned near Dulles International Airport and at the center of the Dulles Technology Corridor. Its pest challenges reflect both the Northern Virginia region's well-documented stink bug problem and its specific local geography. Stink bugs colonized Fairfax County over a decade ago and are now a firmly established fall nuisance, aggregating on the sun-facing walls of Herndon's suburban housing before pushing inside for the winter. The W&OD Trail and Sugarland Run's wooded margins create tick habitat adjacent to residential areas, and Fairfax County's Lyme disease-endemic status means deer tick exposure is a genuine seasonal concern for trail users and homeowners with wooded lots. Sugarland Run also creates mosquito breeding habitat that sustains the season from April through October. House mice enter townhome and single-family housing each fall, and the shared walls of Herndon's dense townhome communities mean one entry point can become many units' problem. Termites are active throughout Northern Virginia, and Herndon's established neighborhoods warrant annual inspection.",
+    sections: [
+      {
+        heading: "Stink Bugs and Tick Management in the Dulles Corridor",
+        body:
+          "Brown marmorated stink bugs arrived in Northern Virginia in the early 2000s and have had over two decades to establish in Fairfax County. Herndon's suburban development pattern, with its south-facing walls on attached and detached homes, gives stink bugs plenty of surfaces to aggregate on as temperatures drop in September. They press through gaps around window frames, door thresholds, utility penetrations, and behind shutters. The most effective control is sealing those gaps before September. Once stink bugs are inside, remove them by vacuuming rather than squashing, which triggers the odor release the species is named for. Deer ticks are a meaningful concern for Herndon residents and the thousands of trail users who use the W&OD Trail through the town. Fairfax County is included in Virginia's Lyme disease-endemic zone, and the trail's wooded margins along Sugarland Run create the moist leaf-litter habitat that deer ticks prefer. Tick awareness, protective clothing, and thorough post-activity tick checks are the most important personal prevention measures. Tick barrier treatments applied to the wooded lawn edges adjacent to the trail reduce tick populations in the treated zone during the active season.",
+      },
+      {
+        heading: "Mosquitoes, Mice, and Year-Round Pest Management in Herndon",
+        body:
+          "Sugarland Run flows through Herndon's W&OD Trail corridor, and its wetland buffer and the drainage retention features associated with Dulles-area development create local mosquito breeding habitat. The season runs from April through October in the Northern Virginia climate. Barrier spray programs targeting shaded resting areas in residential landscapes, along fence lines and shrub undersides, reduce adult populations through the active season. Standing water elimination in gutters and yard containers cuts off breeding sites at the source. House mice are a fall pest in Herndon's suburban housing, including the town's significant townhome and condominium inventory. Shared party walls in attached housing allow mice to move between units once a single entry point is established, which means one unit's mouse problem can become a building-wide issue if exclusion work is delayed. Foundation gaps, utility penetrations, and worn door sweeps are the standard entry points. Exclusion work done before October is the most cost-effective investment. Subterranean termites are active in Fairfax County, and Herndon's older neighborhoods near Sugarland Run's moisture corridor warrant annual inspection. Perimeter bait monitoring systems provide ongoing protection and early detection.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around window frames, door thresholds, and utility penetrations before September to block fall stink bug entry",
+      "Wear protective clothing and check thoroughly for deer ticks after using the W&OD Trail or spending time in Sugarland Run's wooded margins",
+      "Eliminate standing water in gutters and yard containers before April to reduce Sugarland Run area mosquito breeding",
+      "Inspect party walls, utility chase openings, and foundation gaps in townhomes before October to prevent fall mouse spread between units",
+      "Schedule annual termite inspections for established Herndon neighborhoods near Sugarland Run's moisture corridor",
+    ],
+    costNote:
+      "Termite inspections in Herndon are typically free. Annual termite programs start around $300. Stink bug exclusion services, tick barrier treatments, mosquito programs, and general pest control plans are available individually or in combination. Townhome and condominium building programs are available for HOA-coordinated treatment.",
+    faqs: [
+      {
+        question: "Why are stink bugs so bad in Herndon and Fairfax County?",
+        answer:
+          "Brown marmorated stink bugs colonized Northern Virginia over a decade ago and have established large populations throughout Fairfax County. Herndon's suburban development mix gives them abundant south-facing walls to aggregate on in fall before pressing inside. Sealing gaps before September is the most effective prevention. Once inside, vacuum to remove rather than crushing.",
+      },
+      {
+        question: "Is Lyme disease risk real for Herndon W&OD Trail users?",
+        answer:
+          "Yes. Fairfax County is in Virginia's Lyme disease-endemic zone per VDH data. The W&OD Trail's wooded margins along Sugarland Run create deer tick habitat directly adjacent to the trail. Wearing long sleeves and pants, using repellent, and checking carefully for ticks after use are the most important protections. Tick barrier treatments at wooded lawn edges reduce local tick populations.",
+      },
+      {
+        question: "Do townhomes in Herndon have a worse mouse problem than single-family homes?",
+        answer:
+          "Townhomes and attached housing can be more difficult to manage because mice can travel through shared party walls and utility chases once a single entry point is established. What starts as one unit's problem can spread. Coordinated exclusion work for the whole building, done before October, is more effective than individual unit treatments. Contact us about HOA-coordinated programs.",
+      },
+      {
+        question: "How bad are mosquitoes near Sugarland Run in Herndon?",
+        answer:
+          "Sugarland Run and the W&OD Trail wetland buffer create local mosquito breeding habitat for adjacent neighborhoods. The season runs April through October. Properties nearest the creek corridor feel the pressure most. Barrier spray programs targeting shaded resting areas and standing water elimination in gutters and yard containers provide the most effective combined reduction.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Reston", slug: "reston-va" },
+      { name: "Sterling", slug: "sterling-va" },
+      { name: "Alexandria", slug: "alexandria" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Herndon, VA | Stink Bugs, Ticks & Mosquitoes",
+    metaDescription:
+      "Herndon VA pest control for stink bugs, deer ticks, mosquitoes and mice. Fairfax County Dulles corridor W&OD Trail specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "falls-church-va",
+    name: "Falls Church",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~14,000",
+    county: "Independent City",
+    climate: "temperate",
+    climateDriver:
+      "Falls Church has a temperate mid-Atlantic climate with hot, humid summers and cold winters. As one of the smallest independent cities in the US, it's entirely surrounded by Fairfax County's urban development. The Northern Virginia climate sustains strong stink bug populations and seasonal mosquito pressure, while Metro accessibility drives dense residential development and associated pest pressures.",
+    topPests: [
+      "Stink bugs",
+      "German cockroaches",
+      "Mosquitoes",
+      "House mice",
+      "Bed bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November (entry), spring (exit)",
+        note:
+          "Brown marmorated stink bugs are among the most documented nuisance pests in Northern Virginia, and Falls Church's dense residential mix of apartments, condominiums, and townhomes creates abundant overwintering sites. They aggregate on exterior walls in fall and enter through any available gap.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "Falls Church's high-density apartment and condominium stock creates conditions favorable to German cockroach establishment and spread. Shared utility chases and walls between units allow infestations to spread once established. Restaurant-dense commercial areas along Broad Street also carry consistent cockroach pressure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "Mosquitoes breed in Falls Church's drainage features, wooded stream buffers, and any standing water in the dense urban environment. The season runs April through October in the Northern Virginia climate.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note:
+          "House mice are consistent fall pests in Falls Church's older apartment and condominium buildings. Shared walls and utility chases allow them to move between units. The city's older housing stock, dating from mid-20th century construction, has multiple potential entry routes.",
+      },
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note:
+          "Falls Church's density, Metro accessibility, and large rental housing inventory create conditions for bed bug introduction and spread. The East Falls Church Metro station connects the city to the broader DC Metro area, and resident travel patterns create continuous introduction pathways.",
+      },
+    ],
+    localHook:
+      "Falls Church is one of the smallest independent cities in the United States, covering just 2.2 square miles and entirely surrounded by Fairfax County. That density means pest pressure in one building or block can spread quickly to neighboring properties. German cockroaches and bed bugs in particular move readily through the shared infrastructure of Falls Church's dense apartment and condominium communities.",
+    intro:
+      "Falls Church is a distinctive place: a self-governing independent city of 2.2 square miles in the heart of Northern Virginia, entirely surrounded by Fairfax County and served by two Metro lines. Its density and its Metro connectivity shape its pest picture in specific ways. German cockroaches are a year-round concern in the city's dense apartment and condominium stock, where shared utility chases and walls create pathways for infestations to spread between units. Bed bugs are introduced continuously through the Metro-connected population's travel patterns and the high turnover of the rental housing market. Stink bugs are firmly established throughout Northern Virginia and Falls Church sees their annual fall aggregation on residential and commercial buildings alike. Mosquitoes breed in the city's drainage features and wooded stream buffers from April through October. House mice enter older residential buildings each fall through the gaps that aging mid-20th century construction creates. A pest management approach for Falls Church needs to account for the building-to-building spread dynamics that density creates.",
+    sections: [
+      {
+        heading: "German Cockroaches and Bed Bugs in Falls Church's Dense Housing",
+        body:
+          "German cockroaches are the apartment cockroach, and Falls Church's concentration of multi-unit residential buildings makes them a consistent management challenge. They establish in kitchen and bathroom areas, move through shared plumbing chases and wall voids, and can spread from one unit to several floors without the occupants of the initial infested unit being aware. Effective German cockroach management in multi-unit settings requires building-level treatment rather than single-unit approaches, targeting the foraging and nesting areas in utility spaces as well as individual apartments. Gel bait applied in cracks and crevices, combined with insect growth regulator treatment, provides the most durable control in these settings. Bed bugs follow a similar spread dynamic in dense housing. Falls Church's Metro connectivity means residents travel frequently to the broader DC Metro area, and each trip is a potential introduction event. High rental turnover in the city's apartment market also means infested furniture moves in and out of buildings regularly. Proactive inspection programs, mattress encasements in rental properties, and rapid professional response to confirmed cases keep infestations from establishing at the building level.",
+      },
+      {
+        heading: "Stink Bugs, Mice, and Mosquitoes in the Little City",
+        body:
+          "Stink bugs are one of Northern Virginia's most widely documented nuisance pests, and Falls Church is no exception despite its urban character. Their fall aggregation on south-facing building exteriors in September and October is visible across the city's residential and commercial buildings. They enter through gaps that are particularly common in older construction, around window frames, door seals, and utility penetrations. Sealing those gaps before September is the most effective prevention for both stink bugs and house mice, which use the same entry routes for different reasons. Mice enter Falls Church's older residential buildings each fall through foundation gaps, worn door sweeps, and utility penetrations. In multi-unit buildings, exclusion work must address the whole building perimeter rather than a single unit. Once inside, mice travel through wall voids and utility spaces between floors and units. Coordinated building-level treatment is more effective than unit-by-unit responses. Mosquitoes breed in Falls Church's stream buffers and drainage features during the warm season, with the season running from April through October. Eliminating standing water in gutters and drainage areas reduces breeding near residential buildings.",
+      },
+    ],
+    prevention: [
+      "Establish building-level German cockroach treatment protocols for multi-unit buildings in Falls Church rather than individual unit responses",
+      "Use mattress encasements in rental units and inspect between tenants to detect bed bug introduction early",
+      "Seal gaps around window frames, door thresholds, and utility penetrations building-wide before September to block stink bugs and mice",
+      "Eliminate standing water in gutters, drainage features, and low-lying yard areas to reduce mosquito breeding from April onward",
+      "Coordinate exclusion work across entire buildings rather than individual units to address the shared-wall spread dynamics of Falls Church's dense housing",
+    ],
+    costNote:
+      "German cockroach programs for multi-unit buildings in Falls Church are priced by building size and unit count. Bed bug inspections and heat treatment are available on residential and commercial timelines. Stink bug exclusion, general pest control, and mosquito programs are priced individually or in combination. Contact us about building-level programs for HOAs and property managers.",
+    faqs: [
+      {
+        question: "Why are German cockroaches so hard to control in Falls Church apartments?",
+        answer:
+          "German cockroaches spread through shared utility chases, plumbing walls, and structural voids between apartment units. Treating a single unit addresses the visible infestation but not the population traveling through shared spaces. Building-level treatment, including utility chases and common areas, combined with gel bait and insect growth regulator in individual units, provides much more durable control.",
+      },
+      {
+        question: "How do bed bugs spread in Falls Church's dense housing?",
+        answer:
+          "Falls Church's Metro connectivity and high rental turnover create continuous bed bug introduction pathways. They spread between units through wall voids, electrical outlets, and shared furniture. Proactive inspection programs, mattress encasements in rental units, and immediate professional heat treatment of confirmed cases are the most effective building-level controls.",
+      },
+      {
+        question: "Are stink bugs a problem in Falls Church despite its urban density?",
+        answer:
+          "Yes. Brown marmorated stink bugs are documented throughout Northern Virginia and don't require suburban or rural settings to be a nuisance. Falls Church's older residential buildings with gaps around windows and door frames see stink bugs aggregating on south-facing walls in fall. Sealing those gaps before September is the most effective prevention.",
+      },
+      {
+        question: "Do mice spread between units in Falls Church apartment buildings?",
+        answer:
+          "Yes. Once mice enter through a single point in the building envelope, they travel through shared wall voids, utility chases, and floor-ceiling spaces. This makes Falls Church's multi-unit buildings prone to mouse spread beyond the initial entry unit. Building-level exclusion work before October, combined with interior trapping, is more effective than unit-by-unit responses.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Alexandria", slug: "alexandria" },
+      { name: "Arlington", slug: "arlington" },
+      { name: "Herndon", slug: "herndon-va" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Falls Church, VA | Stink Bugs & Cockroaches",
+    metaDescription:
+      "Falls Church VA pest control for stink bugs, German cockroaches, bed bugs and mice. Northern Virginia independent city Metro corridor specialists. Call 1-800-PEST-USA.",
+  },
 ];
