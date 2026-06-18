@@ -4124,4 +4124,98 @@ export const tennesseeCities: CityLocation[] = [
     metaTitle: "Pest Control in Elizabethton, TN | Stink Bugs, Yellow Jackets & Mice",
     metaDescription: "Elizabethton TN pest control for stink bugs, yellow jackets, carpenter ants and white-footed mice. Carter County Watauga River Southern Appalachian specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "millington",
+    name: "Millington",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "11,000",
+    county: "Shelby County",
+    climate: "hot-humid",
+    climateDriver:
+      "Millington is a Shelby County city north of Memphis, home to Naval Support Activity Mid-South, with a hot-humid subtropical climate. The Wolf River flows through Shelby County adjacent to Millington. Warm, humid conditions sustain subterranean termite, mosquito, and American cockroach activity for most of the year, and the military installation creates a distinct pest exposure profile through large food service, warehousing, and logistics operations.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "American Cockroaches", "Fire Ants", "House Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note: "Shelby County has some of Tennessee's highest subterranean termite pressure. Millington's hot-humid subtropical climate sustains termite activity for nine to ten months annually.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Wolf River and its tributaries provide extensive mosquito breeding habitat adjacent to Millington's residential areas. Shelby County's warm climate sustains mosquito activity for most of the year.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are active year-round in Millington's subtropical climate, entering from below-grade spaces and drainage systems. Naval Support Activity Mid-South's food service operations create additional commercial cockroach pressure.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round",
+        note: "Red imported fire ants are established throughout Shelby County and colonize Millington's residential yards, parks, and open spaces year-round.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through Spring",
+        note: "House mice are present in Millington's residential areas during cooler months from October through March, with some year-round activity in the commercial and warehouse facilities adjacent to the naval installation.",
+      },
+    ],
+    localHook:
+      "Millington is home to Naval Support Activity Mid-South, the only surviving naval installation in the greater Memphis area after base realignment, and the large military food service facilities and warehousing operations create a year-round commercial cockroach and rodent management challenge for the city's surrounding residential neighborhoods.",
+    intro:
+      "Millington's identity is shaped by Naval Support Activity Mid-South, the consolidated naval installation that survived base realignment and continues to be the dominant employer and community presence north of Memphis. The installation's large food service facilities, logistics warehouses, and support buildings create the commercial pest pressure that characterizes any large military base: cockroaches in food service environments, rodents in warehousing, and the general pest pressure that comes from large-scale food handling and storage operations concentrated in a relatively small geographic area.\n\nBeyond the installation, Millington shares the pest environment of the broader Shelby County area: some of Tennessee's highest subterranean termite pressure, year-round mosquito habitat from the Wolf River corridor, and the American cockroach activity that is a year-round fact of life in the Memphis area's hot-humid subtropical climate. Fire ants are established throughout Shelby County and are an ongoing yard management issue for Millington homeowners. The warm climate sustains pest activity for most of the year with relatively little winter interruption.\n\nFor Millington homeowners, termite protection is the most financially significant pest management decision, as Shelby County's termite pressure requires ongoing monitoring rather than a one-time treatment. Mosquito barrier programs are a practical investment for yards adjacent to the Wolf River corridor. American cockroach perimeter treatment and fire ant yard management complete the practical year-round pest program for a Millington residential property.",
+    sections: [
+      {
+        heading: "Subterranean Termites and Memphis Area Pest Pressure",
+        body: "Shelby County ranks among Tennessee's highest-pressure termite counties, and Millington's hot-humid subtropical climate sustains active termite foraging from early spring through late fall, with reduced but not eliminated activity in the mild Memphis area winters. Eastern subterranean termites (Reticulitermes flavipes) are the dominant termite species in Millington, with forager populations active in the soil surrounding every structure in the area. Swarming season in Shelby County runs from late February through May, when mature colonies produce winged reproductives that emerge to establish new colonies.\n\nFor Millington homeowners, the practical response to Shelby County's termite environment is an active monitoring program, not a one-time treatment. Soil barrier treatments applied during construction degrade over time, and Millington's active termite pressure means that monitoring through a bait station network around the foundation perimeter is the most reliable long-term approach. Annual professional inspections that assess crawl space moisture, identify any wood-to-soil contact at piers or foundation walls, and check bait station activity provide the early detection that prevents active foraging from becoming structural damage. If you see termite swarmers inside your Millington home, schedule an inspection immediately, as indoor swarming indicates an established colony near or in the structure.",
+      },
+      {
+        heading: "Mosquitoes, Cockroaches, and the Military Installation Effect",
+        body: "The Wolf River is the dominant mosquito habitat source in Millington's immediate area. The river flows through Shelby County with extensive riparian and wetland margins that sustain Culex and Aedes mosquito populations from March through November. Residential neighborhoods adjacent to the Wolf River corridor and its tributaries experience measurably higher mosquito pressure than inland Millington areas at similar density. West Nile virus has been documented in Tennessee mosquito surveillance programs, and Culex mosquitoes, the primary vector, are active in the Wolf River watershed.\n\nNaval Support Activity Mid-South's large food service facilities create a significant commercial cockroach management environment within the installation. The civilian community around the base does not have direct access to the installation's pest management operations, but the proximity of large food service and warehousing operations creates a commercial pest pressure gradient that extends into the surrounding residential neighborhoods. American cockroaches, in particular, enter from below-grade spaces and drainage systems throughout Millington's residential areas, sustained by the warm subtropical climate that allows year-round activity. Fire ants are established throughout Shelby County and require year-round management in Millington's residential yards, as the mild climate prevents the colony die-off that colder climates create in winter.",
+      },
+    ],
+    prevention: [
+      "Maintain an active termite monitoring program on your Millington home with annual professional inspection, given Shelby County's position among Tennessee's highest-pressure termite counties and the year-round foraging activity of the local climate.",
+      "Eliminate standing water in your Millington yard within 48 hours of rain, and coordinate with neighbors near the Wolf River corridor to address shared drainage features that create mosquito breeding habitat adjacent to residential properties.",
+      "Apply a mosquito barrier spray to yard vegetation on a 21-day cycle from March through November in Millington properties near the Wolf River, as the river corridor creates sustained mosquito breeding habitat that persists between rainfall events.",
+      "Seal floor drains and pipe penetrations through concrete slabs in your Millington home to reduce American cockroach entry from below-grade plumbing systems, and apply exterior perimeter treatment to reduce entry from foundation gaps.",
+      "Apply fire ant broadcast bait to your Millington yard twice annually, in early spring and fall, to maintain year-round suppression in Shelby County's warm climate where fire ant colonies remain active through most of the year.",
+    ],
+    costNote:
+      "Subterranean termite treatment in Millington typically runs $900 to $1,800 for soil barrier treatment, with annual monitoring programs around $250 to $400. Mosquito barrier spray programs cost $70 to $120 per treatment on a 21-day cycle from March through November. American cockroach perimeter treatment averages $120 to $200 per visit. Fire ant broadcast bait treatment runs $80 to $150 per application for a residential yard.",
+    faqs: [
+      {
+        question: "Does Naval Support Activity Mid-South in Millington affect pest pressure in the surrounding neighborhoods?",
+        answer: "Yes, indirectly. The large food service facilities, warehousing, and logistics operations on the installation create a concentrated commercial pest environment that includes cockroaches, rodents, and flies. The surrounding residential neighborhoods are adjacent to this pressure gradient, and American cockroaches in particular can move through the drainage and utility infrastructure connecting the installation area to the surrounding community. Millington pest professionals who serve neighborhoods near the base consistently include the installation's commercial pest environment as a background pressure factor in their residential treatment programs.",
+      },
+      {
+        question: "How serious is the termite risk in Millington and Shelby County?",
+        answer: "Shelby County is among Tennessee's most termite-active counties, and Millington's hot-humid subtropical climate sustains termite foraging activity for nine to ten months annually. This is a genuine and financially significant risk. Subterranean termite damage to structural wood in Shelby County homes is well documented and can accumulate over years of undetected foraging activity. An active monitoring program with annual inspection is the appropriate baseline for any Millington property, regardless of construction age or prior treatment history.",
+      },
+      {
+        question: "Are mosquitoes near Millington's Wolf River corridor a West Nile concern?",
+        answer: "Yes. Tennessee's mosquito surveillance program has documented West Nile virus in Culex mosquito populations in Shelby County in multiple surveillance seasons. The Wolf River and its wetland margins create extensive Culex breeding habitat adjacent to Millington's residential areas. Culex mosquitoes are most active from dusk through dawn and breed in slow-moving or stagnant water. A barrier spray program combined with eliminating standing water on your property significantly reduces your household's exposure to Culex mosquitoes during the March through November season.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Memphis", slug: "memphis" },
+      { name: "Bartlett", slug: "bartlett" },
+      { name: "Germantown", slug: "germantown" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Millington, TN | Termites, Mosquitoes & Cockroaches",
+    metaDescription:
+      "Millington TN pest control for subterranean termites, mosquitoes, American cockroaches, fire ants and mice near Naval Support Activity Mid-South. Shelby County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

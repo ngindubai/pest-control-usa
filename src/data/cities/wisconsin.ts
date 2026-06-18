@@ -2941,4 +2941,192 @@ export const wisconsinCities: CityLocation[] = [
     metaTitle: "Pest Control in Neenah, WI | Mice, Boxelder Bugs & Cluster Flies",
     metaDescription: "Neenah WI pest control for house mice, boxelder bugs, cluster flies, yellow jackets and cockroaches. Winnebago County Fox River Lake Winnebago specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "de-pere",
+    name: "De Pere",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "26,000",
+    county: "Brown County",
+    climate: "cold-humid",
+    climateDriver:
+      "De Pere is a Brown County city on the Fox River immediately south of Green Bay, with a cold-humid continental climate. Wisconsin winters are severe, with temperatures below 0 degrees for extended periods from December through February, creating extreme indoor rodent and cluster fly pressure. The Fox River creates moisture and occasional flooding conditions adjacent to the older riverside neighborhoods, and the city has both historic downtown buildings and newer suburban development.",
+    topPests: ["House Mice", "Cluster Flies", "Norway Rats", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through Spring",
+        note: "Brown County's severe winters push mice into structures extremely aggressively from October through April. De Pere's mix of older riverside housing and newer suburban development creates varied entry risk across the city.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall and Spring",
+        note: "Cluster flies overwinter by the thousands in De Pere's older riverside structures and mid-century housing stock, emerging in large numbers on warm late-winter and spring days throughout Brown County.",
+      },
+      {
+        name: "Norway Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are documented in the Fox River riparian area adjacent to De Pere's older downtown, with populations sustained by the river corridor and the aging commercial and residential infrastructure near the water.",
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall",
+        note: "Brown marmorated stink bugs have established in the Green Bay metro area including De Pere, overwintering in residential wall voids each fall and emerging in late winter and spring.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through Fall",
+        note: "Carpenter ants are active along the Fox River corridor and in older De Pere structures with moisture-damaged wood from spring through fall.",
+      },
+    ],
+    localHook:
+      "De Pere sits on the Fox River, and the downtown riverside area, which has some of Brown County's oldest commercial and residential buildings, sustains Norway rat populations from the river corridor that have been documented in the city's older blocks since the river's industrial era, creating a baseline rodent pressure in historic downtown De Pere that newer suburban neighborhoods do not share.",
+    intro:
+      "De Pere is a Brown County city with two distinct faces: a historic downtown riverfront on the Fox River with commercial and residential buildings dating to the 19th century, and newer suburban residential development extending south and east from the river corridor. The pest environment in each area differs substantially, and the Fox River is the dividing factor. The downtown riverfront area has Norway rat populations sustained by the river corridor and the aging infrastructure of the older blocks. The newer suburban development faces the standard Wisconsin winter rodent and overwintering insect pressures without the river corridor's additional factor.\n\nBrown County's location in northeast Wisconsin creates some of the most severe winters in the contiguous United States. Temperatures below zero for days at a time from December through February create intense survival pressure on outdoor mice, and the outdoor cluster fly populations that have been living in Wisconsin's agricultural fields move toward any heated structure with accessible wall voids in September and October. De Pere's older housing stock, particularly the riverside buildings in the historic downtown area, has accumulated the gaps and entry points that make this pressure particularly noticeable.\n\nFor De Pere homeowners and business owners, the combination of a Wisconsin winter's rodent pressure, the Fox River corridor's Norway rat influence in the historic downtown, and the predictable cluster fly and stink bug overwintering cycle creates a pest calendar that rewards proactive September exclusion and exterior treatment over reactive winter responses.",
+    sections: [
+      {
+        heading: "The Fox River Corridor and Norway Rat Pressure in Historic De Pere",
+        body: "The Fox River has been central to De Pere's economy since the city's founding, and its historic downtown riverfront reflects this in its building stock: commercial buildings dating to the late 19th and early 20th century, riverside residential structures from the same era, and the accumulated infrastructure of a working river city. Norway rats have inhabited the Fox River corridor in Brown County for as long as the city has had industrial river activity, and the current rat populations in De Pere's older downtown riverside blocks are the modern expression of this historical association.\n\nNorway rats in the Fox River corridor sustain themselves through the river's riparian habitat, the organic material available in the urban drainage infrastructure, and the aging commercial buildings near the water that provide shelter. They spread from the riverfront area into adjacent older residential blocks through drainage systems, alley networks, and utility corridors. Properties within a few blocks of the Fox River in De Pere's historic downtown are more likely to experience Norway rat activity than those in the newer residential areas further from the river. A professional rat exclusion and bait station program for riverside properties in De Pere differs from a standard house mouse program in its emphasis on exterior foundation security, dock or riparian area management where applicable, and the heavier-duty bait station and exclusion hardware that Norway rat management requires.",
+      },
+      {
+        heading: "Wisconsin Winter and the Cluster Fly and Mouse Cycle",
+        body: "Brown County winters are genuinely extreme. Temperatures regularly drop to minus 10 to minus 20 degrees for multiple consecutive days during cold snaps from December through February, and the sustained cold creates the most intense indoor mouse pressure in the continental United States outside of Alaska. House mice that fail to find heated shelter in a Wisconsin winter do not survive, and this creates an annual October through November wave of mouse entry attempts at every structure in De Pere with accessible gaps.\n\nCluster flies are a distinct seasonal pest that overlaps with the mouse pressure in timing but differs in character. Cluster flies are parasites of earthworms during warm months and gather in large numbers on the south and west-facing walls of structures in September and October, seeking entry into wall voids and attic spaces for winter shelter. In De Pere's older riverside housing and historic commercial buildings, which have many penetrations and gaps in their aged exterior envelopes, cluster fly overwintering populations can number in the thousands. They emerge individually on warm days in February and March, appearing sluggishly on windows and walls in numbers that often alarm homeowners who did not realize the scale of the overwintering population. Pre-fall exterior treatment of south and west-facing walls in late August and systematic sealing of soffit and attic access points in September provides the most effective control for both cluster flies and the stink bugs that are also overwintering in De Pere's residential structures each fall.",
+      },
+    ],
+    prevention: [
+      "Schedule a professional exclusion inspection for your De Pere home in September, before Wisconsin's severe winter cold drives mice and rats indoors, with specific attention to foundation gaps and soffit deterioration in the city's older housing stock near the Fox River.",
+      "If your De Pere property is near the historic downtown Fox River corridor, install heavy-duty exterior rodent bait stations at the foundation perimeter in fall, as Norway rat pressure from the river corridor adds a secondary rodent risk beyond the standard house mouse migration.",
+      "Apply a residual exterior spray to south and west-facing walls of your De Pere home in late August, before cluster flies and stink bugs begin their fall wall aggregation, to reduce the number that successfully establish in wall voids for winter.",
+      "Seal soffit gaps, attic vents, and utility penetrations on your De Pere home before October, as Wisconsin's extreme cold creates such intense mouse pressure from October through February that even small gaps that might be tolerable in milder climates become active entry points.",
+      "Maintain adequate crawl space ventilation and vapor barriers under older De Pere riverfront structures to reduce the moisture conditions that sustain Fox River corridor carpenter ant satellite colonies in structural wood from spring through fall.",
+    ],
+    costNote:
+      "Mouse exclusion and bait station programs in De Pere typically run $180 to $320 for a full season. Norway rat control for riverside properties averages $250 to $450 for exclusion, bait station setup, and monitoring. Cluster fly exterior treatment and sealing runs $130 to $220 per application. Stink bug exterior treatment costs $120 to $200 per visit in late summer.",
+    faqs: [
+      {
+        question: "Why does the Fox River area of historic downtown De Pere have Norway rat problems that the newer neighborhoods do not?",
+        answer: "Norway rats in De Pere's historic downtown area are sustained by the Fox River riparian habitat and the aging commercial and residential infrastructure of the older riverside blocks. The river provides the food and water sources that sustain rat populations through the year, and the old buildings near the water have the basement gaps, deteriorating foundations, and aging dock infrastructure that provide shelter. Newer suburban De Pere neighborhoods further from the river do not share this riparian corridor influence and experience primarily house mouse rather than Norway rat pressure.",
+      },
+      {
+        question: "How cold does it get in De Pere and why does this matter for mice?",
+        answer: "Brown County winters regularly reach minus 10 to minus 20 degrees during cold snaps from December through February. At these temperatures, outdoor mice face rapid death without heated shelter, and this creates survival pressure so intense that mice will exploit any gap they can detect in a De Pere structure. Wisconsin's extreme cold is the single most important factor in the state's indoor rodent pressure, and it is why fall exclusion work in September and October is more critical here than in states with moderate winters. A gap that a mouse might pass by in a mild October is urgently sought in a February cold snap.",
+      },
+      {
+        question: "Are the flies coming out of my De Pere walls in February dangerous or harmful?",
+        answer: "These are almost certainly cluster flies (Pollenia rudis), not house flies or any disease-associated species. Cluster flies overwintered in your wall voids in fall and are emerging on warm days as indoor temperatures rise. They do not breed inside your home, they do not bite, and they are not a food contamination risk. They are a nuisance because of their numbers and their sluggish behavior when emerging from cold wall voids. Vacuuming without crushing removes them without releasing the musty odor they produce when crushed. Exterior treatment and sealing before next fall prevents a repeat.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Green Bay", slug: "green-bay" },
+      { name: "Appleton", slug: "appleton" },
+      { name: "Oshkosh", slug: "oshkosh" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in De Pere, WI | Mice, Norway Rats & Cluster Flies",
+    metaDescription:
+      "De Pere WI pest control for house mice, Norway rats, cluster flies, stink bugs and carpenter ants. Brown County Fox River historic downtown specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "stevens-point",
+    name: "Stevens Point",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "26,000",
+    county: "Portage County",
+    climate: "cold-humid",
+    climateDriver:
+      "Stevens Point is the county seat of Portage County in central Wisconsin, home to the University of Wisconsin-Stevens Point, with a cold-humid continental climate and severe winters. The Wisconsin River flows through the city. UW-Stevens Point's student population creates concentrated German cockroach and bed bug risk in student housing, while agricultural land surrounding the city sustains mouse populations that migrate into structures each fall. Cold winters from October through April create intense indoor rodent pressure.",
+    topPests: ["House Mice", "Cluster Flies", "German Cockroaches", "Bed Bugs", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through Spring",
+        note: "Portage County's agricultural surroundings create significant fall mouse migration pressure into Stevens Point. Wisconsin winters create some of the country's most intense indoor rodent pressure from October through April.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall and Spring",
+        note: "Cluster flies overwinter in large numbers in Stevens Point's residential housing stock, emerging on warm winter and spring days throughout central Wisconsin.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "UW-Stevens Point campus housing and campus food service create concentrated German cockroach pressure that extends into the broader Stevens Point rental market through student movement.",
+      },
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "UW-Stevens Point's student population creates bed bug and German cockroach introduction cycles through semester move-in and move-out periods that Portage County pest professionals identify as the primary driver of peak service call periods.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Boxelder bugs aggregate in large numbers on south-facing structures throughout central Wisconsin in fall, seeking wall void overwintering sites before the severe Wisconsin winter.",
+      },
+    ],
+    localHook:
+      "Stevens Point's University of Wisconsin campus creates a bed bug and German cockroach introduction cycle through student move-in and move-out periods that Portage County pest professionals identify as the primary driver of peak service call periods in the city, with each fall semester start creating a predictable spike in multi-family housing pest calls.",
+    intro:
+      "Stevens Point is a central Wisconsin college town shaped by the University of Wisconsin-Stevens Point, and the university's student population defines the city's pest environment in the same way that WSU defines Pullman's: semester move-in and move-out periods create predictable spikes in bed bug and German cockroach service calls that Portage County pest professionals plan their schedules around. The university enrolls roughly 6,000 to 8,000 students, and the concentration of these students in the campus-adjacent rental housing market creates a continuous bed bug and cockroach introduction cycle through the housing turnover that every college town experiences.\n\nBeyond the university-driven pest dynamics, Stevens Point's central Wisconsin location creates the cold-humid climate pressures that define pest management throughout the state. Cold winters from October through April, with temperatures regularly below minus 10 degrees in Portage County, create the most intense indoor rodent pressure of any region in the contiguous United States. Agricultural land surrounding the city sustains large mouse populations that migrate into Stevens Point structures each fall as harvest ends and temperatures drop. Cluster flies overwinter in central Wisconsin homes in large numbers. Boxelder bugs are a predictable fall pest throughout the area.\n\nFor Stevens Point landlords and homeowners, the university's seasonal pest introduction cycle and the Wisconsin winter's rodent pressure are the two most important annual events to plan around. A fall exclusion inspection combined with a between-tenant inspection discipline for rental housing covers both.",
+    sections: [
+      {
+        heading: "University Housing and the Semester-Driven Pest Cycle",
+        body: "University of Wisconsin-Stevens Point's student population creates a pest introduction and redistribution cycle that follows the academic calendar with predictable timing. Fall semester move-in, typically in late August and early September, is the highest-risk period for bed bug and German cockroach introduction into the Stevens Point rental market. Students arrive from their summer locations, which may include infested housing, travel in hotels, or family homes where pests were present. They move into campus-adjacent apartments with their belongings, luggage, and furniture, and any infested items introduce pests into previously unaffected units.\n\nGerman cockroaches are the more rapidly spreading pest in this environment: they travel in moving boxes and kitchen appliances, and once introduced into a multi-unit building in Stevens Point's campus housing district, they can spread through shared utility chases and gaps between units within weeks. Bed bugs spread more slowly but are harder to detect until populations have grown, and a student who moves out of an infested unit at semester end may leave bed bugs behind in the unit for the next tenant. Portage County pest professionals describe the campus-adjacent rental market as the most active bed bug and cockroach environment in Stevens Point by a significant margin, and the seasonal spike at fall move-in is the most predictable high-volume period of their service year.",
+      },
+      {
+        heading: "Wisconsin Winter and Central Wisconsin Agricultural Pest Pressure",
+        body: "Portage County winters are severe in a way that creates genuinely extreme indoor rodent pressure. Temperatures below minus 10 to minus 20 degrees occur in most winters in central Wisconsin, and the sustained cold from November through February creates a survival imperative for outdoor house mice that translates into aggressive indoor entry attempts at any structure with accessible gaps. Agricultural land surrounding Stevens Point sustains large mouse populations through the growing season, and when harvest ends in fall, these populations move toward heated structures. The combination of agricultural source populations and extreme winter cold creates a mouse migration event in Stevens Point each fall that experienced homeowners and landlords treat as a scheduled maintenance task rather than a surprise.\n\nCluster flies are a fall and spring nuisance pest in central Wisconsin homes that parallels the mouse cycle in timing but differs in mechanism: they are earthworm parasites that gather in large numbers on sun-facing exterior walls in September and October, seeking entry into wall voids for winter shelter. In Stevens Point homes with accessible soffit gaps or attic penetrations, they establish overwintering populations that emerge in quantity on warm winter and spring days. Boxelder bugs follow the same fall aggregation pattern, gathering on south-facing walls before seeking wall void entry. Pre-fall exterior treatment of south and west-facing walls in late August and systematic sealing of major entry points in September reduces the winter populations of all three of these seasonal pests.",
+      },
+    ],
+    prevention: [
+      "If you are a Stevens Point landlord with campus-adjacent rental property, conduct a bed bug and German cockroach inspection of every unit immediately after student move-out at the end of each semester, treating confirmed infestations before the next tenant arrives.",
+      "Schedule a professional mouse exclusion inspection for your Stevens Point home in September, before Portage County's severe winter drives mice from surrounding agricultural land into structures, targeting foundation gaps, soffit access, and utility penetrations.",
+      "Apply a residual exterior spray to south and west-facing walls of your Stevens Point home in late August, before cluster flies and boxelder bugs begin their fall wall aggregation, to reduce overwintering populations in wall voids.",
+      "Install exterior rodent bait stations at your Stevens Point home's foundation perimeter in October, particularly for properties adjacent to agricultural land on the city's fringe where direct fall mouse migration from Portage County's harvested fields is strongest.",
+      "If you are a UW-Stevens Point student moving into a campus-adjacent apartment, inspect the unit's mattress seams, cabinet interiors, and kitchen appliances before moving your belongings in, as the high housing turnover in the campus market creates ongoing bed bug and cockroach introduction risk.",
+    ],
+    costNote:
+      "Bed bug treatment in Stevens Point runs $250 to $450 per unit for chemical treatment, with heat treatment at $800 to $1,500. Mouse exclusion and bait station programs cost $180 to $320 for a full season. German cockroach treatment for a rental unit averages $150 to $250. Cluster fly and boxelder bug exterior treatment runs $120 to $200 per application.",
+    faqs: [
+      {
+        question: "Why do pest calls spike in Stevens Point at the start of each UW-Stevens Point semester?",
+        answer: "UW-Stevens Point's fall semester move-in, typically in late August and early September, involves thousands of students moving into campus-adjacent apartments from a wide range of summer locations. Some of those students arrive from infested housing or hotels, and their belongings or furniture introduce bed bugs and German cockroaches into previously unaffected units. Portage County pest professionals who serve the Stevens Point market consistently identify this fall move-in period as the most reliable predictor of pest call volume, with each new semester creating a measurable spike in bed bug and cockroach service requests from the campus housing district.",
+      },
+      {
+        question: "How does Portage County's agricultural land contribute to the Stevens Point mouse problem?",
+        answer: "Agricultural fields surrounding Stevens Point sustain large house mouse populations through the growing season. When harvest ends in fall and Portage County temperatures begin dropping toward the extreme cold of a Wisconsin winter, these populations move toward heated structures. Stevens Point's position as a city in the middle of central Wisconsin agricultural land means there is less urban buffer between the fields and the residential edge than in larger cities. Properties at the city's agricultural fringe experience direct migration pressure; those in the urban interior experience population spread through the established urban rodent community.",
+      },
+      {
+        question: "Are cluster flies or house flies in my Stevens Point home in February?",
+        answer: "In February in central Wisconsin, sluggish flies appearing in groups on windows and walls are almost certainly cluster flies, not house flies. Cluster flies are larger than house flies, have a golden sheen on their thorax, and move slowly, especially when emerging from a cold wall void. They do not breed inside your home; they overwintered there after entering in September or October. House flies, by contrast, are fast-moving and do not appear in Wisconsin homes in winter from wall voids. Vacuuming cluster flies without crushing (to avoid the distinctive musty odor) removes individual flies. Exterior treatment in late August prevents next year's overwintering population.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Wausau", slug: "wausau" },
+      { name: "Eau Claire", slug: "eau-claire" },
+      { name: "Appleton", slug: "appleton" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Stevens Point, WI | Mice, Bed Bugs & Cluster Flies",
+    metaDescription:
+      "Stevens Point WI pest control for house mice, cluster flies, bed bugs, German cockroaches and boxelder bugs near UW-Stevens Point. Portage County Wisconsin River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -1298,4 +1298,192 @@ export const oklahomaCities: CityLocation[] = [
     metaDescription:
       "Owasso pest control for eastern subterranean termites, brown recluse spiders, fire ants and German cockroaches. Tulsa County northeast Oklahoma creek-corridor specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "enid",
+    name: "Enid",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "50,000",
+    county: "Garfield County",
+    climate: "semi-arid",
+    climateDriver:
+      "Enid is the county seat of Garfield County in north-central Oklahoma, the third-largest city in the state and a major agricultural and oil hub with a semi-arid Great Plains climate. Cold winters, hot summers, and variable precipitation create strong seasonal pest pressure swings. The surrounding wheat farming region sustains large rodent populations that migrate into the city in winter, while oil field industry infrastructure creates rat and cockroach pressure in the commercial district.",
+    topPests: ["House Mice", "Norway Rats", "German Cockroaches", "Brown Recluse Spiders", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through Spring",
+        note: "Garfield County's extensive wheat farming surroundings create large rodent populations that migrate into Enid's residential and commercial areas each fall, particularly after the June wheat harvest displaces field mice.",
+      },
+      {
+        name: "Norway Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are present in Enid's commercial and industrial districts, sustained by the oil field support industry infrastructure and grain handling facilities in Garfield County.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Concentrated in Enid's commercial food service district, with the most consistent activity in restaurants and food handling operations in the central business area.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Spring through Fall, present year-round indoors",
+        note: "Oklahoma is within the primary range of the brown recluse spider, and Oklahoma State University Extension confirms this species is common in structures throughout the state including Garfield County.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Boxelder bugs aggregate on sun-facing structures throughout Garfield County in fall, seeking overwintering sites in residential wall voids before the semi-arid winter.",
+      },
+    ],
+    localHook:
+      "Enid sits at the center of one of Oklahoma's major winter wheat producing regions, and the harvest season each June creates large displaced rodent populations from the cut fields that migrate into Enid's city limits, making post-harvest a predictable annual peak for house mouse calls in Garfield County.",
+    intro:
+      "Enid is north-central Oklahoma's dominant city, shaped by two industries that directly create its pest environment: wheat farming and oil production. Garfield County is one of Oklahoma's major winter wheat regions, and the harvest cycle that defines the local agricultural economy also defines the local rodent cycle. When wheat harvest ends each June, the large mouse populations that lived in the standing crop are displaced from their habitat and move toward the nearest alternative cover, which in many cases is Enid's residential and commercial districts. Oklahoma State University Extension has documented this post-harvest rodent migration pattern throughout the Oklahoma wheat belt, and Garfield County pest professionals treat it as a predictable annual event.\n\nOklahoma's position in the primary range of the brown recluse spider means that Enid homeowners share the challenge that all central Oklahoma communities face: a species that is native, common in structures throughout the state, and medically significant. Oklahoma State University Extension is explicit that brown recluse spiders are present in Oklahoma structures in all counties, and Garfield County is no exception. The semi-arid Great Plains climate of north-central Oklahoma, with cold winters and hot dry summers, creates additional conditions for Norway rats in the commercial district and German cockroaches in the city's food service sector.\n\nFor Enid property owners, the post-harvest June through September period is the most important time to assess rodent pressure and seal entry points before the migration from the surrounding wheat fields translates into interior mouse activity. Brown recluse management in residential storage areas and crawl spaces is a year-round discipline in central Oklahoma.",
+    sections: [
+      {
+        heading: "Wheat Harvest and Rodent Migration in Garfield County",
+        body: "The connection between wheat harvest and rodent pressure in Enid is one of the most directly documented pest-agriculture relationships in Oklahoma. Winter wheat is planted in fall, grows through winter, and is harvested in late May through June. During the growing season, the standing wheat provides food, cover, and habitat for large house mouse populations. These populations grow through the winter and spring, sustained by the abundant food source. When harvest combines cut the crop to ground level, the field habitat that sustained these populations is eliminated in a matter of days. The mice move, and the nearest concentrations of alternative habitat are Enid's residential neighborhoods and commercial areas.\n\nGarfield County pest professionals note that post-harvest is consistently the period with the highest new mouse call volume in Enid, and the pattern repeats annually with the reliability of the harvest season itself. The practical response for Enid property owners is to treat June through September as a proactive exclusion and baiting period, sealing entry points and establishing exterior bait station programs before the migrating mouse population reaches structure-level density. Properties on the western and northern edges of Enid, adjacent to active agricultural land, experience the strongest post-harvest pressure. Properties in established central neighborhoods experience pressure from population spread through the urban rodent community rather than direct agricultural migration, but still benefit from proactive fall exclusion.",
+      },
+      {
+        heading: "Brown Recluse Spiders and Commercial Pest Pressure in Enid",
+        body: "Oklahoma's position in the primary range of the brown recluse spider (Loxosceles reclusa) means that every Garfield County homeowner and business owner manages this species as a background condition rather than an exceptional event. Oklahoma State University Extension is explicit about this: brown recluse spiders are native and common in Oklahoma structures statewide. They live in undisturbed areas of homes, particularly in boxes, storage areas, closets, and crawl spaces, where they feed on other insects and wait for contact with prey. They do not seek out humans, but bites occur when people inadvertently compress a spider against skin, most commonly when putting on clothing or shoes that have been stored, reaching into a dark storage area, or moving boxes.\n\nIn Enid's commercial district, the city's role as a regional oil industry hub creates concentrations of warehousing, equipment storage, and industrial buildings that sustain both Norway rat and German cockroach populations. Oil field equipment with organic debris in sheltered areas provides both rat harborage and cockroach habitat. German cockroaches are documented in Enid's food service sector, where the standard commercial kitchen and restaurant environment provides ideal conditions. Commercial properties in Enid's central business district benefit from monthly professional perimeter and interior treatment programs rather than the seasonal approaches more common in residential settings.",
+      },
+    ],
+    prevention: [
+      "Schedule professional mouse exclusion and exterior bait station installation in June each year in Enid, immediately following Garfield County's wheat harvest, to intercept the annual post-harvest rodent migration from displaced field populations before they establish inside structures.",
+      "Clear storage areas, cardboard boxes, and undisturbed harborage in your Enid home's garage and basement storage areas annually, and inspect these areas for brown recluse activity, as Oklahoma's primary brown recluse range makes this a year-round concern in Garfield County.",
+      "Wear gloves when handling stored items in undisturbed areas of your Enid home, and shake out shoes and clothing that have been stored, as brown recluse spiders shelter in exactly these environments throughout central Oklahoma.",
+      "Apply exterior rodent bait stations at the foundation perimeter of commercial properties in Enid's business district, particularly those in the oil field supply and equipment sector where Norway rat pressure from industrial areas is documented.",
+      "Keep Enid food service operations on monthly professional German cockroach treatment schedules rather than seasonal approaches, as the commercial food service environment in central Oklahoma sustains year-round cockroach activity that does not diminish significantly in winter.",
+    ],
+    costNote:
+      "Mouse exclusion and seasonal bait station programs in Enid run $180 to $320 for a full season. Norway rat control for commercial properties averages $300 to $500 for initial setup and monthly monitoring. German cockroach treatment for commercial food service operations costs $200 to $400 per monthly service visit. Brown recluse treatment for a residential property averages $150 to $280 per visit, with quarterly programs recommended in Garfield County.",
+    faqs: [
+      {
+        question: "Why does Enid have a predictable mouse problem every summer after wheat harvest?",
+        answer: "Garfield County's winter wheat fields sustain large house mouse populations during the growing season. When harvest combines cut the crop to ground level each June, the mice that lived in the standing wheat are suddenly without habitat and food source, and they move toward the nearest alternative: Enid's residential and commercial areas. Oklahoma State University Extension has documented this post-harvest rodent migration pattern throughout the wheat belt. It is predictable enough that Enid pest professionals prepare for it annually, and Enid property owners can get ahead of it by scheduling exclusion and bait station installation in June.",
+      },
+      {
+        question: "Are brown recluse spiders really common in Enid homes, or is that overstated?",
+        answer: "Oklahoma State University Extension states clearly that brown recluse spiders are native and common in Oklahoma structures statewide, including Garfield County. This is not an overstated risk; it is a normal condition of living in central Oklahoma. Most Enid homes with undisturbed storage areas, cardboard boxes, and accessible crawl spaces have some brown recluse presence. The appropriate response is to manage that presence through regular inspection, reduction of undisturbed harborage, and professional treatment of areas where spiders are confirmed, rather than assuming the home is free of them.",
+      },
+      {
+        question: "What time of year is most important for pest control in Enid?",
+        answer: "In Enid, June is the most important month to act on rodent prevention, because the wheat harvest creates the annual displacement of Garfield County's field mouse population. September is the second most important period, for sealing the remaining entry points before winter cold drives any remaining exterior mice indoors. Brown recluse management is year-round. German cockroach management in food service is continuous. The semi-arid climate of north-central Oklahoma means there is no winter dormancy period that resets pest populations; the cold slows activity but does not eliminate populations.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Oklahoma City", slug: "oklahoma-city" },
+      { name: "Tulsa", slug: "tulsa" },
+      { name: "Stillwater", slug: "stillwater" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Enid, OK | Mice, Brown Recluse & Cockroaches",
+    metaDescription:
+      "Enid OK pest control for house mice, Norway rats, German cockroaches and brown recluse spiders. Garfield County wheat belt rodent migration specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "yukon",
+    name: "Yukon",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "26,000",
+    county: "Canadian County",
+    climate: "semi-arid",
+    climateDriver:
+      "Yukon is a fast-growing Canadian County suburb west of Oklahoma City with a semi-arid Oklahoma climate featuring hot summers, cold winters, and severe spring storm potential. The city's rapid residential growth has pushed development into the red clay soil terrain of western Oklahoma, where subterranean termites are active and fire ant populations are well-established. Oklahoma's central US location means extreme weather drives pest behavior indoors during cold periods.",
+    topPests: ["Subterranean Termites", "Fire Ants", "House Mice", "German Cockroaches", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note: "Oklahoma's red clay soils retain moisture that sustains subterranean termite activity. Oklahoma State University Extension identifies the Oklahoma City metro's western suburbs including Yukon as experiencing above-average termite activity due to moisture-retentive clay soils.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round",
+        note: "Red imported fire ants are established across Canadian County and colonize Yukon's residential yards, landscaped areas, and new construction sites throughout the year.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through Spring",
+        note: "Cold Oklahoma winters drive house mice into Yukon's residential structures from October through March. The city's rapid growth adjacent to Canadian County agricultural land creates post-harvest migration pressure.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Yukon's commercial food service areas, with some spread into adjacent multi-family residential properties through standard dispersal mechanisms.",
+      },
+      {
+        name: "Brown Recluse Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Spring through Fall, present year-round indoors",
+        note: "Brown recluse spiders are native throughout Oklahoma, and Canadian County is within the primary range confirmed by Oklahoma State University Extension. New construction adjacent to undisturbed terrain disturbs established populations.",
+      },
+    ],
+    localHook:
+      "Yukon's rapid growth into Canadian County's red clay terrain has placed a large number of slab-on-grade homes in direct contact with active subterranean termite foraging zones, and Oklahoma State University Extension identifies the Oklahoma City metro's western suburbs including Yukon as experiencing above-average termite activity due to the moisture-retentive clay soils.",
+    intro:
+      "Yukon is one of the fastest-growing communities in the Oklahoma City metro area, with new residential subdivisions expanding steadily into Canadian County's red clay terrain west of the city. That growth creates the same encounter that fast-growing suburbs across the southern plains face: new homes built directly on soils with active pest populations, without the buffer of established urban ecology between the structure and the field. In Yukon's case, the critical pest in those soils is the subterranean termite, and Oklahoma State University Extension has specifically identified the Oklahoma City metro's western suburbs, including Canadian County, as an above-average termite pressure zone because of the area's moisture-retentive red clay soil profile.\n\nRed clay soils hold moisture more effectively than sandy or loam soils, and that moisture retention creates favorable conditions for subterranean termite colonies to maintain activity through longer periods of the year than in drier soil types. Slab-on-grade construction, which is the dominant building type in Yukon's newer subdivisions, places the structure's concrete directly on or very near active termite foraging zones. When soil treatment from the construction phase ages and loses effectiveness, active termite colonies in the surrounding clay soil resume foraging toward the structure.\n\nFire ants, house mice during colder months, brown recluse spiders, and German cockroaches round out the active pest community in Yukon. Each has a distinct management approach, and a licensed Canadian County pest professional can build a year-round program that addresses the city's specific combination of agricultural-edge, red clay, and fast-growth pest pressures.",
+    sections: [
+      {
+        heading: "Termite Risk in Canadian County's Red Clay Terrain",
+        body: "The subterranean termite risk in Yukon is specific and well-documented. Eastern subterranean termites (Reticulitermes flavipes) are active throughout central Oklahoma, and the Oklahoma Department of Agriculture, Food and Forestry confirms termites as a significant structural pest throughout the state. What makes Yukon's situation more acute than some other Oklahoma communities is the combination of moisture-retentive red clay soil and the pace of slab-on-grade residential construction. Red clay soil holds moisture significantly longer than sandy or lighter loam soils after rain events, and this moisture retention means that termite colonies in Yukon's Canadian County soils can maintain active foraging for longer periods and in conditions that would temporarily slow termite activity in drier soil types.\n\nSlab-on-grade construction, common in Yukon's newer subdivisions, places the concrete foundation at grade level with the surrounding soil. Subterranean termites forage through the soil and can enter slab homes through expansion joints, utility penetrations through the slab, and any crack or gap where the slab contacts grade. Pre-construction soil treatment is standard, but this treatment has a finite lifespan, typically degrading meaningfully over five to seven years. For Yukon homeowners in recently built subdivisions, maintaining an active termite monitoring program that detects early foraging activity before structural damage occurs is the appropriate long-term approach. Annual professional inspections and a bait station network around the foundation perimeter provide the ongoing protection that a one-time pre-construction soil treatment cannot sustain indefinitely.",
+      },
+      {
+        heading: "Fire Ants, Brown Recluse Spiders, and Seasonal Pressures",
+        body: "Fire ants are a year-round management challenge in Canadian County. Red imported fire ants (Solenopsis invicta) are established throughout the Oklahoma City metro area and colonize every undisturbed soil area in Yukon's residential landscapes, new construction zones, and roadside margins. The fire ant's ability to colonize newly disturbed soils immediately makes it a constant companion to Yukon's ongoing residential construction: new lots are graded, fire ant queens colonize the fresh soil within weeks, and mounds appear in new yards before the landscaping has fully established. Broadcast bait treatment twice annually, in early spring and again in fall, provides the most durable season-long suppression. Individual mound treatment addresses specific high-traffic problem mounds between broadcast applications.\n\nBrown recluse spiders are native throughout Oklahoma, and Oklahoma State University Extension confirms their presence in structures statewide. In Yukon's context, the rapid residential growth into previously undisturbed Canadian County terrain creates the same encounter documented in other fast-growing Oklahoma suburbs: construction disturbs established spider populations, and the new structures built on that land become the alternative habitat the displaced spiders seek. Brown recluse management in Yukon's newer subdivisions involves reducing outdoor harborage near the foundation, treating indoor storage areas and crawl spaces where spiders concentrate, and establishing a monitoring program that tracks population levels over time. Cold Oklahoma winters drive house mice into Yukon structures from October through March, and a fall exclusion inspection and exterior bait station program is the appropriate seasonal response.",
+      },
+    ],
+    prevention: [
+      "Maintain an active termite monitoring and inspection program on your Yukon home, recognizing that Canadian County's red clay soils create above-average termite pressure and that pre-construction soil treatments have a finite lifespan.",
+      "Apply a fire ant broadcast bait to your Yukon yard in early March and again in September, before the spring activity peak and before fall colony expansion, to maintain year-round fire ant suppression in Canadian County's active fire ant environment.",
+      "Clear storage areas, cardboard boxes, and undisturbed harborage in your Yukon garage and storage rooms to reduce brown recluse harborage, and wear gloves when reaching into undisturbed areas where spiders may be sheltering.",
+      "Seal foundation gaps and utility penetrations in your Yukon home before October to block fall mouse entry, and establish exterior bait stations at the foundation perimeter before cold Canadian County winters begin.",
+      "If you are purchasing a new Yukon home in a recently developed Canadian County subdivision, request documentation of the pre-construction termite treatment and its application date, and establish an active monitoring program before the treatment's effective period expires.",
+    ],
+    costNote:
+      "Subterranean termite treatment in Yukon typically runs $900 to $2,000 for soil barrier treatment, with annual monitoring programs around $250 to $400. Fire ant broadcast bait treatment averages $80 to $150 per application for a residential yard. Brown recluse treatment runs $150 to $280 per visit, with quarterly programs recommended for properties adjacent to undisturbed Canadian County terrain. Mouse exclusion and bait station programs cost $180 to $320 for a full season.",
+    faqs: [
+      {
+        question: "Why does Canadian County's red clay soil create higher termite pressure for Yukon homes?",
+        answer: "Red clay soils retain moisture more effectively than sandy or loam soils, holding water after rain events for longer periods. Subterranean termites require soil moisture for colony health and foraging activity, and the moisture-retentive red clay of western Oklahoma allows termite colonies to maintain active foraging for longer periods than in drier soil types. Oklahoma State University Extension specifically identifies the Oklahoma City metro's western suburbs, including Yukon and Canadian County, as an area of above-average termite activity for this reason. Slab-on-grade construction common in Yukon's newer developments places the foundation in direct contact with these active termite soils.",
+      },
+      {
+        question: "Are fire ants in Yukon a year-round problem or just a warm-season pest?",
+        answer: "Fire ants are a year-round pest in Canadian County, though their activity slows somewhat during cold Oklahoma winters. Colony activity resumes aggressively in early spring as temperatures warm, and new mounds appear throughout Yukon's residential yards from March through November. The Oklahoma City metro area does not experience winters cold enough to eliminate fire ant colonies, only to slow them temporarily. Broadcast bait treatment in early March, before the spring activity peak, is the most cost-effective intervention for season-long suppression.",
+      },
+      {
+        question: "I just bought a new Yukon home. Do I really need a termite program if it just had pre-construction treatment?",
+        answer: "Yes. Pre-construction soil treatments are effective when applied but have a finite lifespan, typically losing significant potency within five to seven years as the chemical concentration degrades. Yukon's above-average termite pressure environment, documented by Oklahoma State University Extension due to the moisture-retentive red clay soil, means that as the initial treatment fades, active termite colonies in the surrounding soil resume foraging toward your structure. An active monitoring program with annual professional inspection, started when the home is new, provides the ongoing detection that a one-time pre-construction application cannot sustain indefinitely.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Oklahoma City", slug: "oklahoma-city" },
+      { name: "Edmond", slug: "edmond" },
+      { name: "Norman", slug: "norman" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Yukon, OK | Termites, Fire Ants & Brown Recluse",
+    metaDescription:
+      "Yukon OK pest control for subterranean termites, fire ants, brown recluse spiders, house mice and German cockroaches. Canadian County red clay suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

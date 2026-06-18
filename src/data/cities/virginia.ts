@@ -3341,4 +3341,98 @@ export const virginiaCities: CityLocation[] = [
     metaTitle: "Pest Control in Hopewell, VA | Termites, Cockroaches & Mosquitoes",
     metaDescription: "Hopewell VA pest control for subterranean termites, American cockroaches, mosquitoes and mice. James River Tidewater waterfront independent city specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "manassas-park",
+    name: "Manassas Park",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "18,000",
+    county: "Independent city (Prince William County area)",
+    climate: "temperate",
+    climateDriver:
+      "Manassas Park is an independent Virginia city adjacent to Manassas, fully surrounded by Prince William County, with a temperate climate featuring cold winters, warm humid summers, and significant fall stink bug activity. Cold winters drive mice indoors from October through March, while brown marmorated stink bugs have established at high population levels throughout the Northern Virginia corridor and overwinter in residential structures each fall.",
+    topPests: ["House Mice", "Stink Bugs", "German Cockroaches", "Bed Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through Spring",
+        note: "Cold Northern Virginia winters from October through March drive house mice into Manassas Park's dense residential housing. The city's compact character means mice disperse through the established urban environment rather than from agricultural sources.",
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall",
+        note: "The Northern Virginia corridor including Prince William County has some of the highest brown marmorated stink bug populations on the East Coast. The Virginia Department of Agriculture and Consumer Services confirms stink bugs as a significant pest throughout Northern Virginia.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Manassas Park's commercial areas and multi-family housing, spreading through shared utility infrastructure in the city's dense residential character.",
+      },
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "High military and government worker turnover in the Northern Virginia area creates bed bug introduction risk in the rental housing market surrounding the region's major installations and agencies.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through Fall",
+        note: "Carpenter ants are active from spring through fall in Manassas Park's residential areas, foraging from moisture-damaged wood in aging structures and from trees adjacent to residential properties.",
+      },
+    ],
+    localHook:
+      "Manassas Park is one of the smallest independent cities in Virginia, fully surrounded by Prince William County but governing itself, and its dense residential character places it in the Northern Virginia stink bug epicenter where the brown marmorated stink bug, first detected in the region in the early 2000s, has established some of the highest per-household population densities on the East Coast.",
+    intro:
+      "Manassas Park holds an unusual distinction: it is one of the smallest independent cities in Virginia, fully surrounded by Prince William County but maintaining its own city government and identity. This geographic situation places the entire city within the Northern Virginia corridor that has become one of the most affected regions in the United States for brown marmorated stink bugs. The Virginia Department of Agriculture and Consumer Services has documented stink bugs as a significant pest throughout Northern Virginia, and the Prince William County area, including Manassas Park, is consistently among the most affected localities in a state that is itself among the most affected in the country.\n\nThe brown marmorated stink bug (Halyomorpha halys) was first detected in North America in the Allentown, Pennsylvania area in the late 1990s and spread rapidly southward through the Mid-Atlantic states. Northern Virginia, with its suburban character, abundant tree cover, and temperate climate, proved to be ideal expansion territory, and by the early 2010s the species had established at high population density throughout the region. For Manassas Park homeowners, fall stink bug management is not optional; it is an annual requirement, and the window for effective intervention is August through mid-September before the bugs establish in wall voids for winter.\n\nBeyond stink bugs, Manassas Park shares the pest pressures of the broader Northern Virginia region: cold winters that drive mice into structures from October through March, the government and military worker population that elevates bed bug introduction risk in the rental housing market, and the spring and summer carpenter ant activity that is predictable in any established suburban community with mature trees.",
+    sections: [
+      {
+        heading: "Stink Bugs and Northern Virginia's Established Population",
+        body: "The brown marmorated stink bug's establishment in Northern Virginia is one of the more significant invasive pest events in the Mid-Atlantic region in the past 20 years. The species found the suburban landscape of Northern Virginia, with its mix of residential areas, mature trees, and a temperate climate similar to its native eastern Asian range, to be highly suitable for population growth. The Virginia Department of Agriculture and Consumer Services has tracked the species' expansion and documents Northern Virginia as one of the highest-density populations in the state, which is itself one of the highest-density populations on the East Coast.\n\nFor Manassas Park homeowners, the practical consequence is that fall stink bug pressure is not a minor nuisance but a significant and predictable annual event. Brown marmorated stink bugs aggregate in large numbers on south and west-facing exterior walls from late August through October, triggered by shortening day length. They actively probe for gaps around window frames, utility penetrations, and soffit joints, and they enter wall voids where they remain dormant through winter before emerging into living spaces in late February and March as indoor temperatures warm. The effective prevention window is late August through mid-September: apply a residual exterior treatment to aggregation surfaces and systematically seal the most significant entry points before the aggregation behavior peaks. Post-October intervention treats the symptom rather than preventing the infestation.",
+      },
+      {
+        heading: "Mice, Bed Bugs, and Year-Round Pest Management",
+        body: "Cold Northern Virginia winters from October through March drive house mice into Manassas Park's compact residential housing with the predictability that applies throughout the Mid-Atlantic region. Manassas Park's dense residential character means the mouse pressure comes from the established urban rodent community rather than from agricultural migration, as the city's fully developed footprint surrounded by Prince William County provides little direct agricultural interface. Urban house mice disperse through alley systems, drainage infrastructure, and the residential fabric, exploiting any gap in a home's exterior envelope that connects the cold outdoors to the heated interior. A September exclusion inspection identifies and seals the most actively used entry points before the October through February peak pressure period.\n\nThe Northern Virginia region's high concentration of military and federal government workers creates a specific bed bug introduction dynamic in the rental housing market. Workers relocating from other installations, agencies, or regions bring with them the pest history of every residence they have previously occupied. The rental housing market in and around Manassas Park and the broader Prince William County area sees this turnover continuously. Carpenter ants are an additional spring and summer pest in Manassas Park's established residential areas, foraging from moisture-damaged structural wood and from trees adjacent to residential structures. A spring perimeter treatment in April combined with a fall exclusion and stink bug exterior treatment in September creates a practical annual two-intervention program for Manassas Park homes.",
+      },
+    ],
+    prevention: [
+      "Apply a residual exterior treatment to south and west-facing walls of your Manassas Park home in late August, before brown marmorated stink bugs begin their fall aggregation, as Northern Virginia is one of the East Coast's highest-density stink bug populations.",
+      "Seal gaps around window frames, utility penetrations, and soffit joints on your Manassas Park home before mid-September, as these are the entry points that Northern Virginia stink bugs use most consistently to establish overwintering populations in wall voids.",
+      "Schedule a professional exclusion inspection for your Manassas Park home in September, targeting foundation gaps and utility penetrations for mouse entry before the October through March Northern Virginia winter mouse pressure peaks.",
+      "If you are a landlord or renter in Manassas Park's rental market, inspect between tenants and report bed bug sightings immediately, as the Northern Virginia military and government worker population creates a documented turnover-driven bed bug introduction cycle.",
+      "Apply a carpenter ant perimeter treatment to your Manassas Park home in April, before the spring emergence, and inspect soffits and structural wood for moisture damage that sustains satellite colonies adjacent to residential structures.",
+    ],
+    costNote:
+      "Stink bug exterior treatment in Manassas Park runs $120 to $200 per visit in late summer. Mouse exclusion and bait station programs cost $180 to $320 for a full season. Bed bug treatment averages $250 to $450 per room for chemical treatment. Carpenter ant perimeter treatment runs $150 to $280 per visit in spring.",
+    faqs: [
+      {
+        question: "Why are stink bugs so much worse in Northern Virginia, including Manassas Park, than in most of the US?",
+        answer: "The brown marmorated stink bug spread from its initial introduction in Pennsylvania southward through the Mid-Atlantic region, and the Northern Virginia suburbs, with abundant tree cover, residential density, and a temperate climate matching the species' native Asian range, proved highly suitable for population growth. The region has had over 20 years to build up population density since the species established, and the Virginia Department of Agriculture and Consumer Services documents Northern Virginia as one of the highest stink bug population zones in the state. The per-household population entering for winter in Manassas Park and the surrounding Prince William County area is among the highest on the East Coast.",
+      },
+      {
+        question: "What is the best time to treat for stink bugs in Manassas Park?",
+        answer: "Late August through mid-September is the effective treatment window for stink bugs in Manassas Park. Stink bugs begin aggregating on exterior walls in early September, triggered by shortening day length, and they actively probe for entry points for two to four weeks before settling into wall voids. A residual exterior treatment applied in late August provides maximum residual effect during the peak aggregation period. Systematic sealing of major entry points around utility penetrations and window frames in September stops entry from overwintering in wall voids. After October, most stink bugs have already established inside, and treatment at that point removes those present but does not prevent the winter population already in wall voids.",
+      },
+      {
+        question: "Are house mice in Manassas Park a seasonal problem or year-round?",
+        answer: "House mice in Manassas Park are primarily a fall through spring concern, with the highest pressure from October through February when cold Northern Virginia winters create the strongest survival incentive for mice to seek heated indoor environments. Mouse populations in Manassas Park's fully developed urban character persist year-round in the alley and drainage infrastructure but are less likely to enter structures during warm months when outdoor conditions are comfortable. A September exclusion inspection before the fall pressure peaks is the most cost-effective intervention timing for Manassas Park homeowners.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Manassas", slug: "manassas" },
+      { name: "Fredericksburg", slug: "fredericksburg" },
+      { name: "Leesburg", slug: "leesburg" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Manassas Park, VA | Stink Bugs, Mice & Bed Bugs",
+    metaDescription:
+      "Manassas Park VA pest control for brown marmorated stink bugs, house mice, bed bugs, German cockroaches and carpenter ants. Northern Virginia Prince William County epicenter specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

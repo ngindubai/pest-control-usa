@@ -3639,4 +3639,98 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaTitle: "Pest Control in Pottstown, PA | Stink Bugs, Mice & Lanternfly",
     metaDescription: "Pottstown PA pest control for stink bugs, house mice, termites, carpenter ants and spotted lanternfly. Montgomery County Schuylkill River mill-town specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "coatesville",
+    name: "Coatesville",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "13,000",
+    county: "Chester County",
+    climate: "cold-humid",
+    climateDriver:
+      "Coatesville is a Chester County city in southeastern Pennsylvania's Brandywine Valley, with a cold-humid continental climate. The city has a historic steelmaking heritage and aging 19th and early 20th-century housing stock with significant deferred maintenance. The Brandywine Creek flows through the area. Cold Pennsylvania winters drive mice into structures from October through April, while the aging housing stock creates elevated bed bug and German cockroach risk in multi-family buildings.",
+    topPests: ["House Mice", "Bed Bugs", "German Cockroaches", "Cluster Flies", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through Spring",
+        note: "Coatesville's steel-era housing stock with aging foundations, weathered sill plates, and deteriorated utility seals creates extensive mouse entry opportunities. Cold Chester County winters sustain pressure from October through April.",
+      },
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are concentrated in Coatesville's multi-family housing stock, where shared wall construction from the steel era allows spread between adjacent units through electrical and plumbing chases.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Coatesville's multi-family housing and commercial areas, spreading through the standard mechanisms of shared utilities and secondhand appliances.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall and Spring",
+        note: "Cluster flies overwinter in large numbers in Coatesville's older housing stock, where aging soffits and exterior envelopes provide abundant access to wall voids.",
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall",
+        note: "Brown marmorated stink bugs are established throughout southeastern Pennsylvania and overwinter in Coatesville's residential structures each fall, emerging in late winter and spring.",
+      },
+    ],
+    localHook:
+      "Coatesville's steel-era housing stock, with many rowhouses and rental units dating to the early 20th century, creates bed bug conditions in the higher-density residential areas that Chester County pest professionals describe as among the more persistent in the county, because the shared wall construction of this era allows bed bugs to spread between units through electrical and plumbing chases.",
+    intro:
+      "Coatesville carries the physical heritage of its steel industry past in its housing stock. The city was built to house the workers of Lukens Steel, one of the oldest steel manufacturers in the United States, and the rowhouses, multi-family buildings, and worker housing of that era remain the dominant residential character of many Coatesville neighborhoods today. That housing stock, now 80 to 120 years old in many blocks, defines the city's pest environment in specific and predictable ways.\n\nSteam-era rowhouse construction, with shared walls, shared utility chases, and a century of accumulated gaps in aging brick and mortar, creates ideal conditions for bed bug spread between adjacent units. When one unit in a Coatesville rowhouse becomes infested, the bed bugs can move through shared wall gaps and electrical outlet boxes into neighboring units within weeks. Chester County pest professionals who work in Coatesville's denser residential areas describe the bed bug environment in the older multi-family stock as one of the more persistent in the county precisely because the shared construction allows spread that isolated single-family homes do not experience in the same way.\n\nBeyond bed bugs, Coatesville's cold-humid Chester County climate drives house mice into structures from October through April, and the aging housing stock gives them many entry points. Brown marmorated stink bugs are established throughout southeastern Pennsylvania and overwinter in residential structures each fall. Cluster flies are a seasonal nuisance in the older buildings with accessible soffit and attic spaces. A proactive September exclusion inspection and fall exterior treatment covers the most predictable of these pressures.",
+    sections: [
+      {
+        heading: "Bed Bugs in Coatesville's Steel-Era Multi-Family Housing",
+        body: "The architectural character that makes Coatesville historically interesting, its rowhouses and multi-family worker housing from the late 19th and early 20th centuries, creates a pest management challenge that is specific to this building type. Rowhouses built in the 1890s through 1930s share structural walls between units, and these walls contain the electrical conduit, plumbing pipes, and general gaps that accumulate over a century of weathering and renovation. Bed bugs, small and flat, move through these shared infrastructure gaps with ease, traveling between adjacent units without any assistance from human carriers.\n\nThis means that bed bug management in Coatesville's multi-family rowhouse stock cannot be effectively accomplished by treating a single unit in isolation. When one unit is confirmed infested, adjacent units should be inspected simultaneously, and any confirmed adjacent infestations must be treated at the same time. Treating only the primary unit while adjacent units remain untreated results in reinfestation from the neighboring units within weeks. Chester County pest professionals who work in Coatesville describe this as one of the most common treatment failures in multi-family settings: the single-unit approach that leaves the surrounding units untreated and allows the cycle to continue. For Coatesville landlords, a building-wide approach to bed bug detection and treatment is the only operationally effective response in the shared-wall housing stock.",
+      },
+      {
+        heading: "Mouse Exclusion and Seasonal Pest Management in Chester County",
+        body: "The same aging construction that creates Coatesville's bed bug challenge also creates its mouse challenge. Steel-era brick and masonry construction develops mortar gaps over decades of weathering, and utility penetrations sealed with materials from the 1920s have long since failed. Cold Chester County winters, with temperatures regularly below freezing from November through February, create the survival pressure that drives mice to exploit every accessible gap in a structure's exterior envelope. Coatesville's housing, with a density and age that is unusual for a Chester County community, provides mice with ample entry opportunities throughout the older residential areas.\n\nA professional exclusion inspection in September identifies the current season's most actively used mouse entry points before winter pressure peaks. This inspection is particularly valuable in Coatesville's older brick housing because the specific gaps in this construction type require experienced identification: deteriorated mortar joints at the foundation level, gaps at the intersection of masonry walls and wood window frames, and utility penetrations through century-old masonry walls are the primary entry points in steel-era construction. Brown marmorated stink bugs are established throughout Chester County and aggregate on Coatesville's south-facing exterior walls each fall. Cluster flies overwinter in the older buildings' wall voids and emerge on warm late-winter days. Pre-fall exterior treatment of both pests in late August significantly reduces the winter interior population of both species.",
+      },
+    ],
+    prevention: [
+      "If you own or rent in Coatesville's rowhouse or multi-family housing stock, inspect for bed bugs after any new tenant moves in and report confirmed activity immediately, requesting that adjacent units be inspected simultaneously rather than treating a single unit in isolation.",
+      "Schedule a professional exclusion inspection on your Coatesville home in September, specifically requesting assessment of masonry foundation mortar gaps and steel-era utility penetrations that are common mouse entry points in the city's older housing stock.",
+      "Apply a residual exterior treatment to south and west-facing walls of your Coatesville home in late August to reduce cluster fly and stink bug overwintering entry before the September aggregation season begins.",
+      "Seal gaps around window frames and utility penetrations in Coatesville's older brick construction with appropriate masonry-compatible caulk or expanding foam, as these are the most common mouse and stink bug entry points in steel-era housing.",
+      "Inspect secondhand furniture carefully before bringing items into your Coatesville home, as bed bugs travel readily in upholstered furniture and Chester County pest professionals identify secondhand furniture as a primary introduction source in the city's denser housing areas.",
+    ],
+    costNote:
+      "Bed bug treatment in Coatesville typically runs $250 to $450 per unit for chemical treatment, with whole-building treatment in rowhouse stock often more cost-effective than single-unit approaches when adjacent units are also affected. Mouse exclusion and bait station programs cost $180 to $320 for a full season. Cluster fly and stink bug exterior treatment runs $120 to $200 per application. German cockroach treatment for a residential unit averages $150 to $250 for initial treatment and follow-up.",
+    faqs: [
+      {
+        question: "Why do bed bugs keep coming back in my Coatesville rowhouse unit despite treatment?",
+        answer: "In Coatesville's steel-era rowhouse construction, bed bugs in an adjacent unit can reinfest your treated unit through shared wall gaps, electrical outlet boxes, and plumbing chases within a few weeks of treatment. If your unit has been treated but neighboring units have not been inspected and treated, the cycle will continue. Effective bed bug management in Coatesville's shared-wall housing requires simultaneous inspection and treatment of all confirmed and likely-affected units in the building, not single-unit treatment repeated until the budget runs out.",
+      },
+      {
+        question: "How do mice get into the older brick homes in Coatesville?",
+        answer: "In Coatesville's 19th and early 20th-century brick and masonry housing, mice enter most commonly through deteriorated mortar joints in the foundation and lower walls, gaps at the intersection of masonry and wood window frames, utility penetrations (water, gas, electric) that were sealed decades ago with materials that have since crumbled, and under deteriorated door threshold seals. A professional exclusion inspection in September identifies which of these entry types are actively used in your specific Coatesville home and prioritizes the sealing work by risk before winter pressure peaks.",
+      },
+      {
+        question: "Are stink bugs in Coatesville just a fall problem or year-round?",
+        answer: "Brown marmorated stink bugs in Coatesville are primarily a fall nuisance when they aggregate on exterior walls and seek overwintering entry, and again a late-winter and spring nuisance when they emerge from wall voids into living spaces as indoor temperatures warm. They are not active pests in summer; you will rarely notice them from June through August. The fall (August through October) pre-treatment window and the spring emergence period are the two times of year when stink bug management has the most impact in Chester County homes.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Chester", slug: "chester" },
+      { name: "West Chester", slug: "west-chester-pa" },
+      { name: "Pottstown", slug: "pottstown" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Coatesville, PA | Mice, Bed Bugs & Stink Bugs",
+    metaDescription:
+      "Coatesville PA pest control for house mice, bed bugs, German cockroaches, cluster flies and stink bugs. Chester County Brandywine Valley steel-era housing specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

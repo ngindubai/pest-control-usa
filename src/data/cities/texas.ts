@@ -10790,4 +10790,286 @@ export const texasCities: CityLocation[] = [
     metaTitle: "Pest Control in Greenville, TX | Termites, Fire Ants & Mosquitoes",
     metaDescription: "Greenville TX pest control for subterranean termites, fire ants, mosquitoes and cockroaches. Hunt County Blackland Prairie clay soil specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "the-colony",
+    name: "The Colony",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "46,000",
+    county: "Denton County",
+    climate: "hot-humid",
+    climateDriver:
+      "The Colony is a Denton County city on the north shore of Lewisville Lake, part of the Dallas-Fort Worth metroplex, with a hot-humid subtropical climate featuring hot summers, mild winters, and significant thunderstorm activity. Lewisville Lake creates extensive mosquito breeding habitat along the shoreline neighborhoods, and Denton County's clay soils retain moisture that sustains subterranean termite activity throughout the year.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "American Cockroaches", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note: "Denton County's clay soils retain moisture that sustains subterranean termite activity throughout the year. Texas A&M AgriLife Extension confirms termites are active throughout north Texas, with the DFW metro area in a high-activity zone.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Lewisville Lake's shoreline creates significant mosquito breeding habitat adjacent to The Colony's lakefront and near-lake residential neighborhoods. Lake coves and wetland margins sustain mosquito populations from spring through fall.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round",
+        note: "Red imported fire ants colonize The Colony's residential yards, landscaped subdivision common areas, and any disturbed soil throughout the Denton County community.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are active year-round in north Texas's warm climate, entering from below-grade spaces, drains, and foundation gaps in The Colony's residential and commercial areas.",
+      },
+      {
+        name: "Roof Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are established in the DFW metroplex and enter structures through upper-level gaps in rooflines and aging soffits in The Colony's residential areas.",
+      },
+    ],
+    localHook:
+      "The Colony borders Lewisville Lake along several miles of its northern shore, and the lake's shallow coves and wetland margins create mosquito breeding conditions that make lakefront and near-lakefront neighborhoods measurably more affected by mosquitoes than inland Denton County communities of similar density.",
+    intro:
+      "The Colony's location along the north shore of Lewisville Lake gives it one of the more distinctive pest environments in the Dallas-Fort Worth metroplex: the lake's shallow coves, wetland margins, and extended shoreline create mosquito breeding conditions that make the lakefront and near-lake neighborhoods significantly more mosquito-affected than comparable-density inland DFW communities. Lewisville Lake is one of the larger reservoirs in north Texas, and its shoreline character, with extensive shallow water and aquatic vegetation, provides exactly the standing-water habitat that Culex and Aedes mosquito species need for breeding through the long north Texas warm season.\n\nBeyond the lake-driven mosquito pressure, The Colony shares the pest environment of the broader DFW metroplex. Denton County's clay soils sustain subterranean termite activity throughout the year, and Texas A&M AgriLife Extension confirms that north Texas is an active termite zone. Fire ants colonize every disturbed soil area in The Colony's subdivisions and common areas. American cockroaches are year-round in north Texas's climate. Roof rats have established in the DFW area and enter structures through upper-level roofline gaps.\n\nFor The Colony homeowners, particularly those in lakefront or near-lake neighborhoods, the mosquito pressure from Lewisville Lake warrants a more active response than inland DFW communities might require. A barrier spray program from March through November, combined with annual termite inspection and fire ant yard management, covers the three most consistent pest pressures for The Colony residential property owners.",
+    sections: [
+      {
+        heading: "Lewisville Lake and Mosquito Pressure in The Colony",
+        body: "Lewisville Lake's north shore, which runs along much of The Colony's southern boundary, creates a mosquito breeding environment that is sustained independently of rainfall because the lake itself provides the standing water that mosquitoes need. The shallow coves and wetland margins along the lake's northern shoreline in The Colony area create particularly favorable conditions for Culex mosquitoes, which breed in slow-moving or stagnant shallow water and are the primary vectors for West Nile virus in Texas. Denton County mosquito surveillance has documented West Nile virus activity in local mosquito populations in multiple seasons.\n\nNeighborhoods closest to the lake experience the most direct mosquito pressure, but the lake's influence extends further than just the immediate shoreline. Prevailing winds from the south and southeast carry adult mosquitoes from the lake shore into neighborhoods further inland during peak breeding periods. A mosquito barrier spray program that treats yard vegetation on a 21-day treatment cycle from March through November reduces adult populations around individual properties and creates a buffer between the lake's breeding habitat and your home's outdoor living areas. Eliminating any standing water on your property within 48 hours of rain addresses secondary breeding sources in addition to the lake's primary contribution.",
+      },
+      {
+        heading: "Termites, Fire Ants, and Year-Round DFW Pest Pressure",
+        body: "The Colony's location in Denton County's clay soil environment places it in the termite zone that Texas A&M AgriLife Extension identifies as active throughout north Texas. Clay soils retain moisture more effectively than lighter soil types, and this moisture retention sustains subterranean termite colony activity for longer periods than in drier soil environments. Slab-on-grade construction, the dominant building type in The Colony's suburban subdivisions, places the concrete foundation in direct contact with termite-active soil. Pre-construction soil treatment provides initial protection, but this treatment degrades over years, and an active monitoring program with annual professional inspection provides the ongoing detection that a one-time treatment cannot sustain.\n\nFire ants are a constant presence in The Colony's maintained residential landscapes, colonizing every grass area, landscaped bed, and hardscape edge in the community. New colonies appear regularly in disturbed soil, and established colonies expand aggressively through the long warm season. Broadcast bait treatment twice annually reduces colony density across the entire yard rather than treating individual mounds in isolation. American cockroaches enter The Colony's residential structures from below-grade spaces and drainage systems, sustained by north Texas's mild winters. Roof rats, well-established in the DFW metroplex, enter through roofline gaps in The Colony's residential structures and require exclusion of upper-level access points in addition to baiting.",
+      },
+    ],
+    prevention: [
+      "Apply mosquito barrier spray to your The Colony yard vegetation on a 21-day cycle from March through November, with higher frequency during peak breeding periods if your property is in one of the lakefront or near-lake neighborhoods with direct Lewisville Lake shoreline exposure.",
+      "Eliminate standing water in your The Colony yard within 48 hours of rain, including checking boat covers, plant saucers, low spots in lawn areas, and any decorative water features that are not circulated.",
+      "Maintain an active termite monitoring program on your The Colony home with annual professional inspection, given Denton County's clay soil termite environment and the finite lifespan of pre-construction soil treatments in DFW's active termite zone.",
+      "Apply fire ant broadcast bait to your The Colony yard in early March and September, before the spring and fall activity peaks, to maintain season-long suppression in the community's residential landscapes and common areas.",
+      "Inspect roofline, soffit, and gable vent conditions on your The Colony home annually and seal any gaps that could accommodate roof rat entry, as this species is established throughout the DFW metroplex and enters structures through upper-level access points.",
+    ],
+    costNote:
+      "Mosquito barrier spray programs in The Colony run $75 to $125 per treatment on a 21-day cycle. Subterranean termite treatment averages $900 to $2,000 for soil barrier treatment, with annual monitoring around $250 to $400. Fire ant broadcast bait treatment costs $80 to $150 per application. Roof rat exclusion and bait station setup averages $250 to $450 for residential properties.",
+    faqs: [
+      {
+        question: "Is mosquito pressure in lakefront Colony neighborhoods really worse than in other DFW suburbs?",
+        answer: "Yes, measurably. Lewisville Lake's shoreline along The Colony's southern boundary provides persistent mosquito breeding habitat that is independent of rainfall, because the lake's shallow coves and wetland margins sustain standing water conditions continuously. Inland DFW suburbs of similar density depend on post-rain standing water for mosquito breeding, which is temporary. The Colony's lakefront and near-lake neighborhoods have a permanent breeding source within a short flight distance of residential yards, creating a sustained mosquito pressure level that inland communities do not experience.",
+      },
+      {
+        question: "Does the clay soil in Denton County really make termites worse in The Colony?",
+        answer: "Yes. Denton County's clay soils retain moisture after rain events for significantly longer than sandy or loam soils, and soil moisture is critical for subterranean termite colony health and foraging activity. Texas A&M AgriLife Extension confirms that north Texas's clay soil profile contributes to the region's high termite activity. The Colony's slab-on-grade construction places the foundation in direct contact with this termite-active clay soil, making ongoing termite monitoring more important than in communities with well-drained sandy soils.",
+      },
+      {
+        question: "What are the signs of roof rats in a Colony home?",
+        answer: "Roof rats are arboreal, so they tend to enter through upper-level gaps and leave evidence in attic spaces and above drop ceilings rather than at floor level. Signs include gnaw marks on electrical wiring in the attic, nesting material in attic insulation, dark grease marks along attic rafters and pipes where rats travel consistent routes, and droppings that are smaller and more pointed than Norway rat droppings. If you hear scurrying sounds in your ceiling or attic at night, contact a licensed DFW pest professional for an inspection rather than assuming it is squirrels.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Plano", slug: "plano" },
+      { name: "Frisco", slug: "frisco" },
+      { name: "Denton", slug: "denton" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in The Colony, TX | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "The Colony TX pest control for subterranean termites, mosquitoes, fire ants, American cockroaches and roof rats near Lewisville Lake. Denton County DFW specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "deer-park",
+    name: "Deer Park",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "35,000",
+    county: "Harris County",
+    climate: "hot-humid",
+    climateDriver:
+      "Deer Park is a Harris County city in the Houston Ship Channel industrial corridor on the east side of Houston, with a hot-humid subtropical climate and very high humidity from the Gulf of Mexico and the Ship Channel. The petrochemical industry along the Ship Channel creates an industrial environment with rat, cockroach, and fly pressure that extends into residential areas. Houston's extreme heat and humidity sustain year-round termite, mosquito, and cockroach activity.",
+    topPests: ["Subterranean Termites", "American Cockroaches", "Mosquitoes", "Roof Rats", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round",
+        note: "Harris County has some of the highest subterranean termite pressure in Texas. Texas A&M AgriLife Extension confirms the Houston area as a highest-pressure termite zone, with year-round foraging activity.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are active year-round in Deer Park's extreme heat and humidity, entering from sewer and drainage systems. The Ship Channel industrial corridor creates additional commercial cockroach pressure adjacent to residential areas.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round",
+        note: "Houston's extreme humidity and the Ship Channel's waterfront create year-round mosquito habitat. West Nile virus is documented in Harris County mosquito populations annually.",
+      },
+      {
+        name: "Roof Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are well-established in the Houston Ship Channel corridor, with industrial warehouse and chemical plant facilities providing habitat that spills into Deer Park's residential areas.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round",
+        note: "Red imported fire ants are established throughout Harris County and colonize Deer Park's residential yards and common areas year-round in the Gulf Coast climate.",
+      },
+    ],
+    localHook:
+      "Deer Park sits in the Houston Ship Channel petrochemical corridor, one of the largest industrial concentrations in the United States, and the pest pressure from rodents, cockroaches, and flies in the adjacent industrial facilities creates a baseline commercial-to-residential pest migration that is measurably higher than in Houston suburbs without adjacent heavy industry.",
+    intro:
+      "Deer Park's position in the Houston Ship Channel corridor defines its pest environment in a way that distinguishes it from most suburban Houston communities. The Ship Channel petrochemical complex east of Houston is one of the largest concentrations of chemical plants, refineries, and industrial facilities in the United States, and the pest pressure generated by these operations, including roof rats in warehouse facilities, American cockroaches in drainage systems, and flies around organic material handling areas, creates a background commercial-to-residential pest migration pressure that Deer Park pest professionals describe as consistently higher than in comparable-sized Houston suburbs without adjacent heavy industry.\n\nBeyond the industrial corridor's influence, Deer Park shares Houston's baseline pest environment, which is one of the most active in the United States. Harris County has some of the highest subterranean termite pressure in Texas, sustained by the area's extreme heat, humidity, and the moisture-retentive clay soils of the Gulf Coast prairie. American cockroaches are a year-round fact of life in Houston's climate. Mosquitoes are active for essentially the entire calendar year in the Gulf Coast region. West Nile virus is documented in Harris County mosquito surveillance annually.\n\nFor Deer Park homeowners, the combination of the industrial corridor's elevated commercial pest pressure and Houston's baseline high-intensity pest environment creates a pest management situation that benefits from a proactive year-round program rather than reactive seasonal treatment.",
+    sections: [
+      {
+        heading: "The Industrial Corridor Effect on Residential Pest Pressure",
+        body: "The Houston Ship Channel petrochemical corridor is one of the most productive industrial environments in the United States, and that productivity creates a significant pest management challenge. Large industrial facilities generate organic waste streams, have extensive below-grade drainage infrastructure, and maintain large warehouse and storage areas that are ideal habitat for roof rats, Norway rats, and American cockroaches. These pest populations are managed within the facilities by industrial pest control operators, but no facility management program eliminates 100 percent of the population. Rats and cockroaches from the industrial areas spread through drainage infrastructure, utility corridors, and surface travel into adjacent residential areas.\n\nDeer Park's residential neighborhoods sit adjacent to or within a few miles of active Ship Channel industrial facilities, and pest professionals who serve the Deer Park market consistently note that the baseline pest pressure in neighborhoods on the industrial side of the city is higher than in comparable density residential areas in suburban Houston communities without adjacent heavy industry. This is not a crisis; it is a known and manageable characteristic of Deer Park's location. Professional monthly perimeter treatment for cockroaches, exterior bait station programs for rodents, and ongoing termite monitoring are the practical components of pest management for Deer Park residential properties near the industrial corridor.",
+      },
+      {
+        heading: "Houston Termites, Mosquitoes, and Year-Round Gulf Coast Pests",
+        body: "Harris County's position in Texas A&M AgriLife Extension's highest-pressure termite zone means that every Deer Park structure is in an active termite environment regardless of the industrial corridor factor. Subterranean termites are active throughout the year in Houston's climate, with the most visible activity during spring swarming from late February through May. The clay soils of the Gulf Coast prairie retain moisture that sustains termite colony activity during dry periods that would slow termite foraging in sandier soil types. For Deer Park homeowners, an annual professional termite inspection and an active monitoring program are the correct baseline responses.\n\nMosquitoes are active in Deer Park for most of the calendar year. The Gulf of Mexico's proximity keeps humidity high enough to sustain mosquito activity even in mild winter periods. The Ship Channel's extensive waterfront and industrial pond infrastructure creates mosquito breeding habitat that sustains populations between rainfall events. West Nile virus is documented in Harris County mosquito surveillance annually, and the Culex mosquitoes that carry it are active in the Ship Channel corridor's waterfront environment. A barrier spray program from March through November reduces adult populations around individual residential properties. Fire ants are a year-round management challenge in Harris County, requiring broadcast bait treatment twice annually to maintain yard-level suppression.",
+      },
+    ],
+    prevention: [
+      "Maintain monthly professional perimeter cockroach treatment for your Deer Park home if you are near the Ship Channel industrial corridor, as the adjacent industrial facilities create a baseline commercial cockroach pressure that is higher than in non-industrial suburban Houston areas.",
+      "Install exterior rodent bait stations at your Deer Park home's foundation perimeter and monitor them monthly, recognizing that the Ship Channel warehouse environment sustains roof rat and Norway rat populations that spread into adjacent residential areas.",
+      "Maintain an active termite monitoring program with annual professional inspection on your Deer Park home, given Harris County's position in Texas A&M AgriLife Extension's highest-pressure termite zone and the year-round foraging activity of the Gulf Coast climate.",
+      "Apply mosquito barrier spray to your Deer Park yard vegetation on a 21-day cycle from March through November, as the Ship Channel's waterfront creates sustained mosquito breeding habitat that is independent of rainfall.",
+      "Apply fire ant broadcast bait to your Deer Park yard twice annually, in early spring and fall, to maintain year-round suppression in Harris County's Gulf Coast climate where fire ant colonies remain active throughout the year.",
+    ],
+    costNote:
+      "Monthly cockroach perimeter treatment in Deer Park runs $80 to $150 per visit. Subterranean termite treatment averages $1,200 to $2,500 for soil barrier treatment, with annual monitoring around $300 to $500. Mosquito barrier spray programs cost $75 to $130 per treatment on a 21-day cycle. Rodent bait station setup and monthly monitoring runs $200 to $400 per month for residential properties.",
+    faqs: [
+      {
+        question: "Does the Ship Channel industrial corridor really make pest problems worse for Deer Park homes?",
+        answer: "Yes. The large industrial facilities along the Ship Channel, including chemical plants, refineries, and warehouses, sustain roof rat, Norway rat, American cockroach, and fly populations that spread through drainage infrastructure and utility corridors into adjacent residential areas. Deer Park pest professionals consistently note that neighborhoods adjacent to the industrial corridor have a higher baseline pest pressure for these species than comparable-density residential areas in non-industrial suburban Houston. This is a known characteristic of Deer Park's industrial setting, and monthly professional treatment rather than seasonal treatment is the appropriate response.",
+      },
+      {
+        question: "How serious is the termite risk in Deer Park and Harris County?",
+        answer: "Very serious. Texas A&M AgriLife Extension identifies Harris County as one of Texas's highest-pressure termite zones, with the Houston area ranking among the most termite-active regions in the United States. Subterranean termites are active in Harris County soils for essentially the entire year in the Gulf Coast climate, and the area's moisture-retentive clay soils sustain termite colony activity through dry periods. Every Deer Park structure should be under an active termite monitoring program with annual professional inspection.",
+      },
+      {
+        question: "Are mosquitoes really active year-round in Deer Park?",
+        answer: "Yes, though peak activity runs from March through November. Harris County's Gulf Coast climate, with humidity sustained by Gulf of Mexico moisture and temperatures rarely dropping below freezing, allows reduced but ongoing mosquito activity even in December and January in mild winters. The Ship Channel's extensive waterfront infrastructure provides breeding habitat independent of rainfall. West Nile virus is detected in Harris County mosquito surveillance annually. A barrier spray program from March through November addresses the peak season; homeowners near Ship Channel waterfront areas may choose to extend the program into the winter months in mild years.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Pasadena", slug: "pasadena" },
+      { name: "Baytown", slug: "baytown" },
+      { name: "Houston", slug: "houston" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Deer Park, TX | Termites, Cockroaches & Mosquitoes",
+    metaDescription:
+      "Deer Park TX pest control for subterranean termites, American cockroaches, mosquitoes and roof rats near the Houston Ship Channel. Harris County industrial corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "harker-heights",
+    name: "Harker Heights",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "35,000",
+    county: "Bell County",
+    climate: "hot-humid",
+    climateDriver:
+      "Harker Heights is a Bell County city adjacent to Fort Cavazos in central Texas, with a hot-humid subtropical climate in the Texas Hill Country transition zone. The city's strong connection to the military community creates high residential turnover that elevates bed bug introduction risk. Subterranean termites are active throughout Bell County, and fire ants and American cockroaches are year-round pests in this central Texas climate.",
+    topPests: ["Subterranean Termites", "Fire Ants", "American Cockroaches", "Bed Bugs", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note: "Bell County is in a high-pressure termite zone per Texas A&M AgriLife Extension. Central Texas's warm climate and clay soils sustain year-round subterranean termite activity in Harker Heights.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round",
+        note: "Red imported fire ants colonize the clay and limestone soils of central Texas year-round, establishing mounds throughout Harker Heights' residential yards and common areas.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are active year-round in Harker Heights' central Texas climate, entering from below-grade spaces, drainage systems, and foundation gaps.",
+      },
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Fort Cavazos generates substantial military family turnover in Harker Heights, creating bed bug introduction cycles in the rental housing market that Bell County pest professionals identify as the primary driver of residential bed bug calls in the Killeen-Temple area.",
+      },
+      {
+        name: "Roof Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats are present in central Texas communities and enter Harker Heights structures through upper-level roofline gaps. The high rental housing turnover from military families creates conditions where roof rat exclusion work is frequently needed between tenants.",
+      },
+    ],
+    localHook:
+      "Harker Heights sits immediately adjacent to Fort Cavazos, one of the world's largest military bases, and the high rate of military family relocation through the city creates a documented bed bug introduction and redistribution cycle in the rental housing market that Bell County pest professionals identify as the primary driver of residential bed bug calls in the Killeen-Temple area.",
+    intro:
+      "Harker Heights is inseparable from Fort Cavazos (formerly Fort Hood), the massive US Army installation that borders the city and defines its economy, its demographic character, and its pest environment. Fort Cavazos is one of the largest active-duty military installations in the world by land area, with a population that cycles constantly as soldiers and their families arrive on permanent change of station orders and depart on new assignments. This cycle of arrival and departure, of families moving in and out of Harker Heights rental housing every one to three years, creates the bed bug introduction and redistribution cycle that Bell County pest professionals describe as the dominant driver of residential bed bug calls in the Killeen-Temple metro area.\n\nBed bugs travel with people. Military families who have lived in housing near other installations, who have stayed in hotels during transit, or who have acquired infested secondhand furniture bring bed bugs into Harker Heights' rental housing stock. When that same family departs on new orders, they may leave bed bugs behind in the unit or transport them to the next installation. This constant cycling of tenants is the mechanism through which bed bugs establish and persist in military community rental markets.\n\nBeyond the military-driven bed bug dynamic, Harker Heights shares the central Texas pest environment of Bell County: high-pressure subterranean termite activity per Texas A&M AgriLife Extension, year-round fire ants in the clay and limestone soils, year-round American cockroach activity, and the general warm-season pest pressure of the Texas Hill Country transition zone.",
+    sections: [
+      {
+        heading: "Military Turnover and Bed Bug Risk in Harker Heights",
+        body: "The relationship between military community housing turnover and bed bug prevalence is well-documented by pest professionals who serve communities adjacent to large installations. Fort Cavazos processes thousands of permanent change of station moves annually, with soldiers and families arriving from every installation in the US military system and departing to others. Each arrival family brings with it the pest history of every residence they have lived in. Each departure creates a vacancy in the rental market that is filled by another arrival family with its own history.\n\nBell County pest professionals who serve the Killeen-Temple area consistently identify Harker Heights' rental housing market as the most active bed bug environment in the county, driven by this turnover cycle. The practical response for Harker Heights landlords is a between-tenant inspection protocol for every unit and treatment at first confirmed detection, before the next tenant moves in. Treating only after a new tenant reports a problem means the infestation has had weeks to expand and the new tenant's belongings may already be infested. For Harker Heights renters who are PCS families, inspecting a rental unit before moving furniture in, particularly inspecting mattress seams, box spring fabric, and upholstered furniture seams, is the most effective personal prevention measure.",
+      },
+      {
+        heading: "Termites, Fire Ants, and Central Texas Year-Round Pressures",
+        body: "Bell County's position in Texas A&M AgriLife Extension's high-pressure termite zone means that subterranean termite management is a baseline requirement for every Harker Heights homeowner and landlord, not an occasional concern. Central Texas's warm climate sustains termite foraging activity for most of the year, and the clay and limestone soil profile of the area retains enough moisture to support active colonies through dry summer periods. Slab-on-grade construction, common in Harker Heights' residential subdivisions, places concrete directly in contact with termite-active soil, making the interface between the slab and the surrounding soil the primary zone of risk.\n\nFire ants are established throughout Bell County and colonize Harker Heights' residential landscapes year-round. The central Texas climate does not provide the extended cold periods that reduce fire ant colony activity in northern states, so fire ant management in Harker Heights is a year-round rather than seasonal discipline. Broadcast bait treatment twice annually, in early spring and fall, provides the most durable season-long suppression. American cockroaches are active year-round in central Texas's warm climate, entering from below-grade spaces and drainage systems. The high rental housing turnover in Harker Heights, while primarily a bed bug risk factor, also means that residential properties may see cockroach introductions through tenant moves if units are not cleaned and treated between occupants.",
+      },
+    ],
+    prevention: [
+      "If you are a Harker Heights landlord serving Fort Cavazos military families, implement a between-tenant bed bug inspection protocol for every unit, treating any confirmed infestation before the next military family moves in rather than after they report a problem.",
+      "As a PCS family moving into Harker Heights rental housing near Fort Cavazos, inspect mattress seams, box spring fabric, and upholstered furniture seams with a flashlight before moving your belongings in, as bed bugs from a prior tenant may be present in the unit.",
+      "Maintain an active termite monitoring program on your Harker Heights property, with annual professional inspection, given Bell County's high-pressure termite environment and the year-round foraging activity that central Texas's warm climate sustains.",
+      "Apply fire ant broadcast bait to your Harker Heights yard in early March and September to maintain year-round suppression, as Bell County's climate does not provide the extended winter cold that temporarily reduces fire ant colony activity in northern states.",
+      "Seal floor drains, pipe penetrations through the slab, and exterior foundation gaps in your Harker Heights home to reduce American cockroach entry from below-grade spaces and drainage systems year-round.",
+    ],
+    costNote:
+      "Bed bug treatment in Harker Heights typically runs $250 to $500 per unit for chemical treatment, with heat treatment at $800 to $1,500. Subterranean termite treatment averages $900 to $2,000 for soil barrier treatment, with annual monitoring around $250 to $400. Fire ant broadcast bait treatment costs $80 to $150 per application. American cockroach monthly perimeter treatment runs $80 to $140 per visit.",
+    faqs: [
+      {
+        question: "Why is bed bug risk higher in Harker Heights than in most Texas cities of similar size?",
+        answer: "Harker Heights sits adjacent to Fort Cavazos, one of the world's largest military installations, and the constant flow of military families arriving on PCS orders from installations throughout the US military system creates a bed bug introduction cycle that is unique to military communities. Families moving from installations with established bed bug problems introduce them into Harker Heights' rental housing market. Bell County pest professionals consistently identify this military turnover cycle as the primary driver of residential bed bug calls in the Killeen-Temple area.",
+      },
+      {
+        question: "As a military family PCSing to Harker Heights, how do I check for bed bugs before moving in?",
+        answer: "Before moving furniture into your Harker Heights rental, use a flashlight to inspect the mattress seams, box spring fabric, and any upholstered furniture left in the unit. Look for small reddish-brown bugs, tiny white eggs in seams, dark fecal spots on fabric, or shed skins. Check behind the headboard and in the gap between the headboard and wall. If you find any of these signs, notify your landlord immediately and request professional inspection and treatment before you move in. This is your right as a tenant and the appropriate response before your belongings are at risk.",
+      },
+      {
+        question: "Do subterranean termites swarm in the spring in Harker Heights?",
+        answer: "Yes. Subterranean termites in Bell County swarm primarily from late February through May, with the most intense swarming activity on warm, still days following rain. Swarmers are winged reproductives that emerge from established colonies in large numbers, lose their wings quickly, and mate to start new colonies. Finding swarmers indoors in your Harker Heights home is a strong indicator of an established colony near or in the structure. Schedule a professional inspection immediately rather than assuming the swarmers are a one-time event, as they indicate active colony presence nearby.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Killeen", slug: "killeen" },
+      { name: "Temple", slug: "temple" },
+      { name: "Waco", slug: "waco" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Harker Heights, TX | Bed Bugs, Termites & Fire Ants",
+    metaDescription:
+      "Harker Heights TX pest control for bed bugs, subterranean termites, fire ants, American cockroaches and roof rats near Fort Cavazos. Bell County military community specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
