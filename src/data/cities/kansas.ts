@@ -1688,4 +1688,102 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "Dodge City pest control for black widow spiders, house flies, brown recluse spiders and house mice. Ford County High Plains cattle country specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "derby",
+    name: "Derby",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "26,000",
+    county: "Sedgwick County",
+    climate: "cold-humid",
+    climateDriver:
+      "Derby is a fast-growing Sedgwick County suburb directly south of Wichita, with a Great Plains continental climate featuring cold winters, hot summers, and variable humidity. The Arkansas River valley nearby adds seasonal moisture. Severe winter cold from October through March drives mice and rats aggressively into structures, while late spring and summer thunderstorm flooding creates temporary mosquito habitat in new subdivision drainage features.",
+    topPests: ["House Mice", "German Cockroaches", "Mosquitoes", "Boxelder Bugs", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through Spring",
+        note: "Sedgwick County's surrounding agricultural land sustains high mouse populations that migrate into Derby's residential areas and new construction each fall, especially as development expands onto former cropland.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Concentrated in Derby's commercial food service district near Rock Road, with some spread into residential apartments and multi-family units.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late Spring through Summer",
+        note: "Storm drainage features in Derby's newer subdivisions create standing water that supports mosquito breeding from May through September.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Common in Sedgwick County suburbs in fall, when large aggregations form on sun-facing walls before entering wall voids for winter.",
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall",
+        note: "Brown marmorated stink bugs have established in the Wichita metro area and seek overwintering shelter in Derby homes in September and October.",
+      },
+    ],
+    localHook:
+      "Derby is one of the fastest-growing cities in Kansas, with new residential subdivisions frequently adjacent to Sedgwick County cropland where house mouse populations routinely migrate into new construction at the beginning of each winter.",
+    intro:
+      "Derby has grown from a quiet Wichita satellite into one of the most active residential construction zones in Sedgwick County, and that growth comes with a specific pest challenge: new homes built on the edge of agricultural land are immediately adjacent to the mouse and insect populations that have been living in those fields for decades. When harvest ends and temperatures drop, those populations move toward the nearest heated structure, and in Derby, the nearest heated structure is often a house built in the last five years.\n\nThe Great Plains continental climate shapes every pest season in Derby. Winters are cold enough to drive mice and German cockroaches deep into building interiors from October through March. Late spring and early summer thunderstorms are intense and frequent, and the storm drainage infrastructure in Derby's newer subdivisions, while functionally necessary, creates the standing water that mosquitoes require for breeding. Boxelder bugs and stink bugs are fall seasonal pests that appear in large numbers on sun-warmed walls before seeking overwintering sites in wall voids.\n\nDerby homeowners who treat pest management as a seasonal event rather than a year-round discipline tend to spend more money reacting to established infestations than their neighbors who maintain perimeter programs and seal entry points proactively. A licensed Sedgwick County pest professional can assess your property's specific risk profile, including the distance to the nearest agricultural edge, and build a program that keeps each season's pressure manageable.",
+    sections: [
+      {
+        heading: "Mouse and Rodent Pressure in a Growing Suburb",
+        body: "The connection between agricultural land and residential mouse pressure is direct and well documented in Sedgwick County. House mice live in crop fields in large numbers during the growing season, feeding on grain and taking shelter in ground cover. When Kansas harvest ends in late summer and fall, and when temperatures begin dropping in October, these populations move. In an established urban area, this migration is absorbed by the existing rodent community and dampened by natural predation. In a new subdivision built on former cropland, there is no such buffer. The mice encounter fresh construction where gaps around plumbing penetrations, HVAC sleeves, and garage door thresholds have not yet been fully sealed or weathered tight, and they enter.\n\nDerby's rapid residential growth means a steady supply of these fresh-construction conditions at the suburban edge. Even homes that are not on the immediate agricultural boundary can experience rodent pressure, because mice established in newly built homes disperse into adjacent finished neighborhoods. A professional exclusion inspection in September, before the first cold snap, is the most cost-effective time to identify and seal the specific entry points in your Derby home. Exterior bait stations installed at the foundation perimeter intercept migrating mice before they reach the structure. Interior snap traps in the utility room and kitchen provide a secondary line.",
+      },
+      {
+        heading: "Mosquitoes, Seasonal Insects, and Derby's New Infrastructure",
+        body: "Derby's growth has required substantial new storm drainage infrastructure, and that infrastructure, well-designed as it is, creates the standing water that mosquitoes need to breed. Detention ponds, bioswales, and slow-drainage features in subdivision landscaping all hold water after the intense Kansas thunderstorms that are common from May through July. Aedes and Culex mosquito species find these features ideal breeding sites, and neighborhoods adjacent to newer subdivision drainage systems often see measurably higher mosquito pressure than older Derby neighborhoods with more established drainage patterns.\n\nBoxelder bugs and brown marmorated stink bugs are fall-seasonal pests that have become annual predictable events in the Wichita metro area. Both species aggregate on sun-facing exterior walls in September and October before moving into wall voids for winter. Neither is destructive, but both create significant nuisance when they emerge into living spaces during warm late-winter and spring days. Pre-fall exterior treatment of walls and sealing of known entry points, particularly around utility penetrations and window frames, significantly reduces how many of these insects establish inside Derby homes each season. German cockroaches in the commercial district near Rock Road are a year-round management issue for food service operators and represent a low-level residential risk in adjacent multi-family housing.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around plumbing, HVAC, and electrical penetrations in your Derby home's foundation and sill plate before October to block the fall mouse migration from Sedgwick County cropland.",
+      "Inspect subdivision detention pond and bioswale areas near your Derby property and eliminate any standing water on your lot within 72 hours of heavy rain to reduce mosquito breeding.",
+      "Apply exterior perimeter spray or residual treatment to sun-facing walls in late August, before boxelder bugs and stink bugs begin their fall aggregation on Derby homes.",
+      "Keep garage door weather seals and thresholds in good repair, as these are among the most-used mouse entry points in Derby's newer residential construction.",
+      "If your Derby home is near the Rock Road commercial corridor, inspect secondhand appliances before bringing them inside, as German cockroaches travel in appliances from infested commercial operations.",
+    ],
+    costNote:
+      "Mouse exclusion and bait station programs in Derby typically run $180 to $320 for a full-season program, depending on the size of the structure and the number of exterior bait stations required. Mosquito barrier spray programs cost $75 to $120 per treatment on a 21-day cycle from May through September. One-time boxelder bug or stink bug exterior treatment runs $120 to $200. German cockroach treatment for a residential unit in Derby averages $150 to $250 for initial treatment and follow-up.",
+    faqs: [
+      {
+        question: "Why are house mice such a problem in new Derby subdivisions built on former farmland?",
+        answer: "New Derby construction adjacent to Sedgwick County agricultural land sits directly in the path of the fall mouse migration from harvested crop fields. New construction has gaps and fresh penetrations that have not yet been sealed or weathered tight, making them easier to enter than established homes. The combination of an active agricultural mouse population and fresh construction with incomplete sealing creates above-average rodent pressure in Derby's newest neighborhoods each fall.",
+      },
+      {
+        question: "Do the detention ponds in Derby subdivisions really create a mosquito problem?",
+        answer: "Yes. Stormwater detention ponds and slow-drainage bioswales in Derby's newer subdivisions hold water after heavy rain for 48 to 96 hours or longer. That is enough time for mosquito eggs already in the area to hatch and for adults to begin breeding. Neighborhoods adjacent to these features consistently see higher mosquito pressure from late May through August than Derby areas with older, faster-draining infrastructure. Barrier spray on your yard's vegetation reduces adult populations around your home regardless of what the HOA does with shared water features.",
+      },
+      {
+        question: "Are stink bugs in Derby just a nuisance or do they cause any damage?",
+        answer: "Brown marmorated stink bugs in Derby are a nuisance pest, not a structural threat. They do not bite, sting, or damage wood. The problem is their numbers: an untreated Derby home can host dozens or hundreds of stink bugs that emerge from wall voids on warm late-winter days. The obvious solution is not to crush them. Vacuum them up and dispose of the bag outdoors. Pre-fall exterior treatment and sealing is the most effective way to reduce how many establish inside each season.",
+      },
+      {
+        question: "How much does professional mouse control in Derby cost and what does it include?",
+        answer: "A typical residential mouse control program in Derby from a Sedgwick County pest professional includes an entry-point inspection, sealing of key gaps, exterior bait station installation, and interior trap placement. Full-season programs run $180 to $320. One-time treatment visits without exclusion work cost less initially but are less durable. Because Derby's new construction sits close to active agricultural land, a season-long program with monthly monitoring provides more reliable protection than a single-visit approach.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Wichita", slug: "wichita" },
+      { name: "Olathe", slug: "olathe" },
+      { name: "Topeka", slug: "topeka" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Derby, KS | Mice, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Derby KS pest control for house mice, mosquitoes, German cockroaches, boxelder bugs and stink bugs. Sedgwick County fast-growing suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -4269,4 +4269,92 @@ export const coloradoCities: CityLocation[] = [
     metaDescription:
       "Alamosa pest control for house mice, deer mice, ants, spiders and voles. Alamosa County San Luis Valley high-altitude extreme cold 7,544-ft elevation specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "fountain",
+    name: "Fountain",
+    state: "Colorado",
+    stateSlug: "colorado",
+    stateAbbr: "CO",
+    tier: "T3",
+    population: "30,000",
+    county: "El Paso County",
+    climate: "semi-arid",
+    climateDriver: "Fountain is a growing suburb south of Colorado Springs in El Paso County, with a semi-arid climate, cold winters with occasional heavy snowfall, and hot dry summers. The city sits directly adjacent to Fort Carson, one of the largest US Army installations in the country. Semi-arid high plains conditions support black widow spiders, ground beetles, and earwigs, while cold winters drive mice and voles into structures.",
+    topPests: ["House Mice", "Black Widow Spiders", "Earwigs", "Boxelder Bugs", "Ground Beetles"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        activeSeason: "fall through spring",
+        note: "Cold El Paso County winters drive mice aggressively into structures from October through March; Fort Carson's adjacent grassland sustains foraging populations.",
+      },
+      {
+        name: "Black Widow Spiders",
+        activeSeason: "spring through fall",
+        note: "Common in undisturbed outdoor areas in Colorado's semi-arid front range communities; garage and storage areas are primary harborage.",
+      },
+      {
+        name: "Earwigs",
+        activeSeason: "spring through fall",
+        note: "Present in irrigated garden areas and move indoors during dry periods throughout El Paso County.",
+      },
+      {
+        name: "Boxelder Bugs",
+        activeSeason: "fall",
+        note: "Aggregate in large numbers on south-facing structures in El Paso County fall, seeking overwintering sites.",
+      },
+      {
+        name: "Ground Beetles",
+        activeSeason: "spring through fall",
+        note: "Common in semi-arid Colorado communities; move indoors occasionally from adjacent high plains habitat.",
+      },
+    ],
+    localHook: "Fountain sits directly south of Fort Carson, one of the Army's largest installations, and the undisturbed grassland terrain of the military reservation sustains rodent populations that forage into adjacent Fountain residential areas during El Paso County's cold winter months.",
+    intro: "Fountain's location matters a lot when you are thinking about pests. The city sits in a gap between Colorado Springs to the north and the high semi-arid plains extending south, with Fort Carson's expansive military reservation immediately to the east. Fort Carson covers over 130,000 acres of land that remains largely undisturbed by residential development, and that undisturbed grassland terrain is prime habitat for the rodents and ground-dwelling insects that forage outward into Fountain neighborhoods when El Paso County winters arrive.\n\nHouse mice are the primary pest concern for Fountain homeowners. When temperatures drop below freezing and outdoor food sources disappear under snow, mice push hard into any available warm structure. Fountain's housing stock includes a mix of older homes and newer construction, and both have entry vulnerabilities that mice find and exploit in fall. October through March is the active indoor rodent season, and exclusion work done before October makes a decisive difference.\n\nBlack widow spiders are present throughout El Paso County's semi-arid front range communities, and they establish in the undisturbed garage corners, storage areas, and outdoor spaces that Fountain homes offer. Boxelder bugs and earwigs round out the seasonal pest calendar, with boxelders staging their characteristic fall aggregations on south-facing walls before seeking wall void shelter.",
+    sections: [
+      {
+        heading: "House Mice and Fort Carson's Grassland Interface",
+        body: "Fort Carson's 130,000-plus acres of high plains grassland to the east of Fountain is not a pest management concern in the way that a municipal park or greenway might be. The scale of undisturbed terrain means it sustains large, stable rodent populations that have no natural management. When El Paso County temperatures drop in fall, those populations push outward along the grassland-residential interface, and Fountain homes are the nearest warm structures. This is a seasonal pattern that repeats every year regardless of what individual homeowners do in isolation. The effective response is property-level exclusion, sealing every opening larger than a quarter inch at the foundation, utility penetrations, garage door gaps, and roof-wall interfaces before October. Bait stations placed along the perimeter intercept mice before they reach the structure.",
+      },
+      {
+        heading: "Black Widow Spiders in El Paso County",
+        body: "Black widow spiders are common throughout Colorado's semi-arid front range, and Fountain's climate and housing mix support established populations in undisturbed outdoor areas. The primary harborage sites are garage interiors, outdoor storage structures, woodpiles, and any protected space with low human traffic. Female black widows are identifiable by the red hourglass marking on the underside of the black abdomen. They do not seek out contact with people, but unaware contact with webs or egg sacs in a garage or storage area is how bites occur. A seasonal inspection program that locates and removes webs, combined with targeted pesticide application to harborage areas, reduces black widow presence substantially.",
+      },
+      {
+        heading: "Boxelder Bugs: Fall Aggregation and Winter Intrusion",
+        body: "Boxelder bugs in El Paso County follow the same fall pattern seen across Colorado. As temperatures drop in September and October, large numbers of adults aggregate on south-facing and west-facing walls to absorb heat before seeking protected overwintering sites. They enter structures through any gap in the building envelope and overwinter inside wall voids in a dormant state. In warm late-winter days they can become active indoors, appearing at windows and in living areas before the weather is consistently warm enough for them to exit. Prevention is far more effective than interior treatment: sealing gaps around windows, doors, utility penetrations, and the roofline before aggregation begins in September is the recommended approach for Fountain homeowners.",
+      },
+    ],
+    prevention: [
+      "Inspect the foundation perimeter, garage door seal, and all utility penetrations in September and seal any opening larger than a quarter inch before mice begin their fall push indoors.",
+      "Wear gloves when working in garages, woodpiles, and outdoor storage to avoid contact with black widow spiders.",
+      "Seal gaps around windows, doors, and utility penetrations in early September before boxelder bugs begin their fall aggregation.",
+      "Stack firewood away from the house foundation and elevate it off the ground to reduce rodent and spider harborage.",
+      "Keep garage floors clear of stored material that creates undisturbed harborage for spiders and overwintering insects.",
+    ],
+    costNote: "Pest control in Fountain generally runs $70 to $110 for a single-visit inspection and treatment. A seasonal rodent exclusion program, with fall exclusion work and exterior bait stations maintained through winter, costs $300 to $600 depending on home size and the number of entry points found. Black widow spider treatments for garage and outdoor areas run $100 to $180 per visit. Boxelder bug exterior treatments applied in fall before aggregation cost $80 to $130.",
+    faqs: [
+      {
+        question: "Does living near Fort Carson mean my Fountain home will always have a mouse problem?",
+        answer: "Living near Fort Carson does create a persistent source population that puts pressure on Fountain homes each fall and winter. This does not mean your home will always have mice inside. It means that exclusion, the physical sealing of entry points, is more important in Fountain than in cities without that adjacent grassland interface. A home that is properly sealed against rodent entry, with exterior bait stations as a perimeter defense, can remain mouse-free year after year even with Fort Carson's population next door. The challenge requires consistent attention to the building envelope, not acceptance of mice as inevitable.",
+      },
+      {
+        question: "Are black widow spiders in Fountain a serious risk for children and pets?",
+        answer: "Black widow venom is a genuine medical concern, particularly for children, small dogs, and cats, whose smaller body mass makes them more vulnerable to the neurological effects of the venom. In Fountain, the most important prevention measure is teaching children not to reach into corners, under outdoor furniture, or into storage areas without looking first, and keeping dogs and cats away from garage corners and woodpiles where black widows typically establish. If a bite is suspected, contact Poison Control (1-800-222-1222) and seek medical evaluation promptly. Most healthy adults recover from black widow bites with medical care, but children and pets require immediate attention.",
+      },
+      {
+        question: "What is the best time to treat for boxelder bugs in Fountain before they get inside?",
+        answer: "The most effective treatment window for boxelder bugs in El Paso County is late September through early October, before they begin their primary aggregation on south-facing walls. Exterior perimeter treatments applied during this window interrupt the aggregation behavior before large numbers of bugs concentrate near the structure. Once boxelder bugs are already aggregating on the wall, treatment is still effective but less complete. Treating wall voids after they have entered in winter is largely ineffective because the dormant bugs are inaccessible and dispersed. September exclusion and treatment is the correct timing.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Colorado Springs", slug: "colorado-springs" },
+      { name: "Pueblo", slug: "pueblo" },
+      { name: "Canon City", slug: "canon-city" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Fountain, CO | Mice, Black Widows & Boxelders",
+    metaDescription: "Fountain CO pest control for house mice, black widow spiders, boxelder bugs and earwigs. El Paso County Fort Carson semi-arid high plains specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
