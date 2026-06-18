@@ -4429,4 +4429,180 @@ export const georgiaCities: CityLocation[] = [
     metaTitle: "Pest Control in Buford, GA | Termites, Mosquitoes & Fire Ants",
     metaDescription: "Buford GA pest control for subterranean termites, mosquitoes, fire ants and kudzu bugs near Lake Lanier. Gwinnett County very heavy hazard specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "lagrange",
+    name: "LaGrange",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "30,000",
+    county: "Troup County",
+    climate: "hot-humid",
+    climateDriver: "LaGrange is in Troup County in western Georgia near the Alabama border, with a hot-humid subtropical climate. The city is home to a major Kia automotive manufacturing plant and borders Lake West Point, a 25,900-acre Army Corps of Engineers reservoir on the Chattahoochee River. The warm humid climate sustains year-round termite and mosquito activity, and the Chattahoochee River watershed creates significant mosquito habitat adjacent to residential areas.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "American Cockroaches", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        activeSeason: "year-round",
+        note: "Georgia has some of the highest subterranean termite activity in the US per University of Georgia Extension; Troup County is fully within the high-pressure zone.",
+      },
+      {
+        name: "Mosquitoes",
+        activeSeason: "spring through fall",
+        note: "Lake West Point and Chattahoochee tributary wetlands create significant mosquito breeding habitat adjacent to LaGrange neighborhoods.",
+      },
+      {
+        name: "Fire Ants",
+        activeSeason: "year-round",
+        note: "Ubiquitous throughout western Georgia and Troup County; colonize lawns, parks, and disturbed soil areas.",
+      },
+      {
+        name: "American Cockroaches",
+        activeSeason: "year-round",
+        note: "Thrive in the humid subtropical climate; common in commercial areas and industrial corridors near the Kia plant.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "year-round",
+        note: "Established in food service and commercial operations in the LaGrange commercial district.",
+      },
+    ],
+    localHook: "LaGrange borders Lake West Point, a 25,900-acre Army Corps of Engineers reservoir on the Chattahoochee River, and the lake's shoreline and tributary wetlands create mosquito pressure that extends measurably into city neighborhoods throughout the warm season.",
+    intro: "LaGrange sits at the intersection of two significant geographic factors for pest management. To the north, Lake West Point is one of western Georgia's major recreational lakes, a 25,900-acre Army Corps reservoir on the Chattahoochee River with extensive wetland margins and drainage tributaries that extend toward the city. Those wetlands and quiet backwater areas of the lake are productive mosquito breeding habitat from spring through October. To the south and east, the city's industrial and commercial base, anchored by the Kia manufacturing plant, creates the high-traffic commercial and industrial land use that American cockroaches thrive in.\n\nSubterranean termites are a year-round reality throughout all of western Georgia. The University of Georgia Extension Service rates Georgia among the highest-risk states for subterranean termite activity, and Troup County is fully within that high-pressure classification. The warm humid subtropical climate provides the soil moisture and temperature conditions that termites prefer for foraging, and there is no meaningful cold season in LaGrange that provides property owners a natural respite from termite pressure.\n\nFire ants are ubiquitous throughout the area, colonizing every lawn, park, and disturbed soil area with equal efficiency. They are as common in LaGrange as anywhere in western Georgia.",
+    sections: [
+      {
+        heading: "Lake West Point Mosquito Pressure",
+        body: "Lake West Point's 25,900 acres create a mosquito source that extends into LaGrange neighborhoods through a network of drainage tributaries and wetland corridors. The lake's quiet coves and shallow margins, combined with the Chattahoochee River floodplain south of the dam, provide breeding habitat for Culex mosquitoes throughout the warm season. LaGrange neighborhoods on the northern side of the city, closest to the lake watershed, experience the highest mosquito pressure. A professional barrier spray program applied monthly to resting vegetation from April through October provides the most effective protection for properties in these areas. Container elimination on each property reduces Aedes mosquito breeding separately from the lake source.",
+      },
+      {
+        heading: "Subterranean Termites in High-Risk Western Georgia",
+        body: "Georgia's subterranean termite risk is among the highest in the continental United States, and Troup County is entirely within the high-hazard classification area defined by pest management researchers. LaGrange's warm humid subtropical climate, with summer temperatures regularly reaching the 90-degree range and humidity levels that keep soil moisture consistently elevated, provides ideal termite foraging conditions across most of the year. Property owners in LaGrange should maintain annual termite inspections as a baseline requirement rather than an optional service. Homes with any accumulated moisture damage, crawl space moisture issues, or wood-to-soil contact at the foundation are at elevated immediate risk and should be evaluated without delay.",
+      },
+      {
+        heading: "Fire Ants and Cockroaches in Troup County",
+        body: "Fire ants in LaGrange are a consistent outdoor living and safety concern rather than an occasional nuisance. They colonize lawn areas, garden beds, and any disturbed soil with multiple queens and workers that respond to disturbance by stinging immediately and repeatedly. The stings cause burning pain and pustule formation within 24 hours. For LaGrange yards with active fire ant pressure, broadcast bait applied in spring and fall provides more durable reduction than individual mound treatment. American cockroaches thrive in the humid subtropical environment and are common in the commercial and industrial corridors of the city, particularly in areas near food service and manufacturing operations. Perimeter treatment at the residential foundation and kitchen area monitoring address residential cockroach pressure.",
+      },
+    ],
+    prevention: [
+      "Remove standing water in containers, low yard areas, and any object that holds water weekly to reduce mosquito breeding near Lake West Point tributaries.",
+      "Schedule annual termite inspections with a licensed Georgia pest control operator as a baseline requirement for any Troup County property.",
+      "Use fire ant broadcast bait products distributed across the full lawn in April and October for durable colony reduction.",
+      "Seal gaps around plumbing penetrations and the base of exterior doors to block American cockroach entry from drain systems.",
+      "Address any crawl space moisture issues or wood-to-soil contact at the foundation promptly to reduce termite vulnerability.",
+    ],
+    costNote: "Pest control in LaGrange generally runs $75 to $120 for a general inspection and treatment. Termite bait station installation with annual monitoring costs $275 to $550 for a typical Troup County home. Monthly mosquito barrier spray programs from April through October run $65 to $100 per visit. Fire ant broadcast bait applications cost $55 to $85 per lawn treatment. American cockroach perimeter programs run $65 to $95 per quarterly visit.",
+    faqs: [
+      {
+        question: "How does Lake West Point affect mosquito risk in LaGrange neighborhoods?",
+        answer: "Lake West Point is a significant regional mosquito source. The lake's 25,900 acres include quiet coves, shallow margins, and wetland areas that provide ideal Culex mosquito breeding habitat from spring through fall. Drainage tributaries from the lake watershed extend toward LaGrange and sustain mosquito pressure in the northern parts of the city throughout the warm season. Culex mosquitoes can fly up to a mile from their breeding site, so the lake's influence extends across a wide area of the surrounding community. For LaGrange residents near these drainage corridors, professional monthly barrier spray is a more effective approach than property-level container management alone.",
+      },
+      {
+        question: "Is the termite risk in LaGrange higher than in Atlanta or other Georgia cities?",
+        answer: "Georgia's termite risk is high throughout the state, and Troup County in western Georgia is fully within the high-hazard classification. The University of Georgia Extension Service rates the entire state as high to very high risk. LaGrange's warmer average temperatures compared to the Atlanta metro, combined with higher average humidity from the Chattahoochee River watershed, suggest conditions that are if anything slightly more favorable for termite activity than in northern Georgia. The practical implication is the same for all Georgia property owners: annual inspections and an active perimeter treatment program are the appropriate response to a genuine year-round risk.",
+      },
+      {
+        question: "Are the fire ants near the Kia plant area more aggressive than typical LaGrange yard ants?",
+        answer: "Fire ant behavior does not vary based on proximity to industrial operations. What does change near the Kia plant corridor and other LaGrange industrial and commercial areas is the frequency of disturbed soil from construction, grading, and heavy traffic, which fire ants colonize rapidly. Newly disturbed soil with no established ant competition allows fire ant queens to establish new colonies quickly and at higher densities. If you are seeing unusual fire ant mound density in areas near recent construction or grading activity, this is the expected pattern rather than an unusual event.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus" },
+      { name: "Macon", slug: "macon" },
+      { name: "Auburn", slug: "auburn" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in LaGrange, GA | Termites, Mosquitoes & Fire Ants",
+    metaDescription: "LaGrange GA pest control for subterranean termites, mosquitoes and fire ants. Troup County Lake West Point Chattahoochee River western Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "griffin",
+    name: "Griffin",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "23,000",
+    county: "Spalding County",
+    climate: "hot-humid",
+    climateDriver: "Griffin is the county seat of Spalding County in central Georgia, with a hot-humid subtropical climate. The city is a historic textile and manufacturing hub south of Atlanta, with older industrial and residential structures that create elevated termite and cockroach risk. The warm Georgia climate sustains fire ant, termite, and mosquito activity through most of the year.",
+    topPests: ["Subterranean Termites", "Fire Ants", "American Cockroaches", "Mosquitoes", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        activeSeason: "year-round",
+        note: "Spalding County aging housing stock has elevated termite risk; high-hazard Georgia classification applies across the county.",
+      },
+      {
+        name: "Fire Ants",
+        activeSeason: "year-round",
+        note: "Well-established across central Georgia; colonize residential lawns, parks, and commercial landscapes throughout Griffin.",
+      },
+      {
+        name: "American Cockroaches",
+        activeSeason: "year-round",
+        note: "Thrive in the humid subtropical climate; common in the older commercial and industrial structures of Griffin's historic district.",
+      },
+      {
+        name: "Mosquitoes",
+        activeSeason: "spring through fall",
+        note: "Flint River tributaries and stormwater features create mosquito breeding habitat adjacent to Griffin neighborhoods.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "year-round",
+        note: "Present in food service and commercial operations throughout Griffin's commercial districts.",
+      },
+    ],
+    localHook: "Griffin's historic textile mill district includes numerous early 20th-century commercial and residential structures with wood elements that have decades of accumulated moisture exposure, creating subterranean termite conditions that pest professionals in Spalding County describe as among the more challenging in the Atlanta metro periphery.",
+    intro: "Griffin's character is shaped by its history as a textile manufacturing center, and that history left a built environment that creates specific pest challenges in the present. The historic mill district and surrounding residential neighborhoods have a high proportion of structures built in the late 19th and early 20th centuries, when wood was the primary structural material and moisture management in building construction was far less controlled than modern standards require. Decades of accumulated moisture exposure in crawl spaces, basement sills, and wood-frame construction creates the conditions that subterranean termites find most accessible.\n\nSpalding County sits within Georgia's high-hazard termite classification, the same as much of the state south of the Atlanta metro. The warm humid subtropical climate, with summers in the 90-degree range and adequate year-round moisture from central Georgia's rainfall patterns, sustains termite foraging activity across most of the year. For Griffin property owners in historic structures, the combination of high environmental pressure and vulnerable construction creates above-average termite risk that warrants consistent professional attention.\n\nFire ants are as ubiquitous in central Georgia as anywhere in the state. American cockroaches thrive in the warm humid environment and are particularly common in the older commercial and industrial structures of the city's historic core. Mosquitoes breed in Flint River tributaries and stormwater features that extend through the city during warm months.",
+    sections: [
+      {
+        heading: "Historic Structures and Subterranean Termite Risk",
+        body: "The core issue for Griffin's historic housing stock is accumulated moisture damage in wood framing that subterranean termites find far easier to penetrate than sound, dry wood. Early 20th-century construction frequently included no vapor barrier in crawl spaces, no pressure-treated sill plates at the foundation, and limited overhangs that allowed rainwater to wet exterior wood over many decades. This does not mean every historic Griffin home is actively infested, but it does mean the population of structures with meaningful termite risk is substantially higher than in cities built predominantly with post-1970 construction standards. Annual termite inspections for any Griffin property built before 1960 are not excessive caution. They are appropriate risk management for the actual conditions present.",
+      },
+      {
+        heading: "Fire Ants in Central Georgia",
+        body: "Fire ants in Spalding County and throughout central Georgia are a year-round pest concern rather than a seasonal one. The warm subtropical climate does not produce the cold winters that temporarily suppress fire ant foraging in northern Georgia. Griffin yards see fire ant pressure across all four seasons, with peak colony activity in the warmer months when queens produce new workers most rapidly. The most durable fire ant management approach for Griffin homeowners is broadcast bait distribution across the full lawn in spring and fall, combined with individual mound treatment for active mounds near high-traffic areas. This addresses both the established colonies and the new queens establishing in spring.",
+      },
+      {
+        heading: "American Cockroaches in Griffin's Commercial Districts",
+        body: "American cockroaches are common throughout central Georgia's humid climate, and Griffin's older commercial buildings provide them with the warm, moisture-rich environments they prefer. The historic downtown commercial district, the industrial corridor remnants from the textile era, and the food service operations in the city's commercial areas all sustain cockroach populations that extend into adjacent residential areas through shared plumbing and utility infrastructure. For residential properties near Griffin's commercial districts, quarterly perimeter treatment and kitchen area monitoring provide early detection and ongoing protection. American cockroaches entering from storm drains during heavy rain are a separate recurring issue that perimeter treatment around the foundation addresses.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for any Griffin property built before 1970, and address any crawl space moisture or wood-to-soil contact issues immediately.",
+      "Use fire ant broadcast bait across the full lawn in spring and fall rather than individual mound treatment for more comprehensive colony reduction.",
+      "Seal gaps around plumbing penetrations and the base of exterior doors to block American cockroach entry from storm drain systems.",
+      "Eliminate standing water in any container, gutter, or low yard area weekly to reduce mosquito breeding during warm months.",
+      "Consider a licensed termite professional's crawl space moisture assessment for any historic Griffin structure as a starting point for termite prevention.",
+    ],
+    costNote: "Pest control in Griffin generally runs $70 to $110 for a general inspection and treatment. Termite bait station installation with annual monitoring costs $275 to $525 for a typical Spalding County home. Historic structure termite assessments may involve additional inspection time and cost $150 to $250 for a thorough crawl space and attic evaluation. Fire ant broadcast bait applications cost $50 to $80 per lawn treatment. American cockroach perimeter programs run $60 to $90 per quarterly visit.",
+    faqs: [
+      {
+        question: "Are historic Griffin homes significantly more vulnerable to termites than newer construction?",
+        answer: "Yes, in a meaningful and practical way. Historic Griffin structures built before modern building codes required pressure-treated lumber, continuous vapor barriers, and controlled crawl space ventilation have accumulated decades of moisture exposure in structural wood. Subterranean termites forage most readily into wood that has begun to soften from moisture exposure, because it requires less energy to excavate. This does not mean all historic Griffin homes have termites, but it does mean the risk profile is elevated relative to comparable homes built after 1980. Annual inspections and a proactive moisture management program in the crawl space are the most important protective measures for Griffin's older housing stock.",
+      },
+      {
+        question: "How do I know if the fire ant mounds in my Griffin yard are red imported fire ants?",
+        answer: "Red imported fire ants (Solenopsis invicta) are the dominant fire ant species throughout central Georgia, and they are almost certainly what you are seeing in your Griffin yard. Their mounds are dome-shaped, typically 12 to 18 inches across, with no visible center hole on top. The ants exit from the mound's sides when disturbed and sting immediately and repeatedly. The sting causes burning pain and raises a welt that develops into a fluid-filled pustule within 24 hours. If you are seeing these mound characteristics and experiencing that sting response, those are red imported fire ants. Native fire ant species are far less common in Spalding County.",
+      },
+      {
+        question: "How often should I treat for termites if I own a historic building in downtown Griffin?",
+        answer: "For any commercial or residential historic structure in Griffin's older building stock, annual professional inspections are the minimum, and an active treatment program, either a bait station system or a renewable liquid perimeter treatment, should be maintained continuously rather than reactively. The inspection confirms treatment continuity and looks for new activity. Historic structures with known past moisture damage or previous termite activity warrant semi-annual inspections. The cost of consistent preventive treatment is a small fraction of the cost of repairing termite damage in irreplaceable historic wood framing.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Macon", slug: "macon" },
+      { name: "Columbus", slug: "columbus" },
+      { name: "Atlanta", slug: "atlanta" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Griffin, GA | Termites, Fire Ants & Cockroaches",
+    metaDescription: "Griffin GA pest control for subterranean termites, fire ants and American cockroaches. Spalding County historic mill district central Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

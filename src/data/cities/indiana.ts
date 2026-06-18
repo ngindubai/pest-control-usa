@@ -3441,4 +3441,92 @@ export const indianaCities: CityLocation[] = [
     metaTitle: "Pest Control in Crown Point, IN | Mice, Stink Bugs & Yellow Jackets",
     metaDescription: "Crown Point IN pest control for house mice, stink bugs, carpenter ants and yellow jackets. Lake County Northwest Indiana Lake Michigan cold-weather specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "east-chicago",
+    name: "East Chicago",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "29,000",
+    county: "Lake County",
+    climate: "cold-humid",
+    climateDriver: "East Chicago is an industrial Lake County city on the southern shore of Lake Michigan, with a cold-humid continental climate moderated slightly by Lake Michigan's proximity. The city has a significant heavy industrial base including steel production. The industrial heritage left older residential housing stock. Lake Michigan proximity creates lake-effect snow and high humidity year-round. Cold winters push mice and rats indoors from October through April.",
+    topPests: ["House Mice", "Norway Rats", "German Cockroaches", "Bed Bugs", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        activeSeason: "fall through spring",
+        note: "Cold Lake County winters and Lake Michigan lake-effect conditions drive mice aggressively into older East Chicago structures.",
+      },
+      {
+        name: "Norway Rats",
+        activeSeason: "year-round",
+        note: "Dense older residential and industrial areas with aging infrastructure sustain Norway rat populations in East Chicago.",
+      },
+      {
+        name: "German Cockroaches",
+        activeSeason: "year-round",
+        note: "Established in commercial food service areas near the Port of Indiana; spread through shared building infrastructure.",
+      },
+      {
+        name: "Bed Bugs",
+        activeSeason: "year-round",
+        note: "Multi-family housing in East Chicago's densest residential areas experiences concentrated bed bug pressure.",
+      },
+      {
+        name: "Stink Bugs",
+        activeSeason: "fall through spring",
+        note: "Brown marmorated stink bugs seek overwintering shelter in Lake County structures beginning in September.",
+      },
+    ],
+    localHook: "East Chicago's working-class residential neighborhoods are some of the oldest in Lake County, with housing stock dating to the early 20th-century steel boom era. These aging structures have the gaps, pipe chases, and moisture-compromised wood that support sustained rodent and German cockroach populations regardless of season.",
+    intro: "East Chicago's pest environment is shaped by two factors that are inseparable from the city's history: the industrial heritage that built the housing stock in the early 20th century, and the Lake Michigan location that determines the climate. The city grew rapidly during the steel industry boom of the early 1900s, and the residential housing built for steel workers during that period is now 80 to 120 years old. That age means accumulated gaps in the building envelope, settled foundations with cracks, aging utility penetrations, and pipe chases that have been modified dozens of times over the decades. All of those conditions create the entry routes that house mice, Norway rats, and German cockroaches exploit.\n\nLake Michigan's proximity moderates East Chicago's temperatures relative to inland Lake County cities, but it does not eliminate the cold-season rodent pressure that drives mice and rats indoors from October through April. Lake-effect snow events from Lake Michigan create additional moisture challenges for older structures that already have limited weatherproofing. The high year-round humidity from Lake Michigan's proximity also sustains German cockroach populations in the commercial food service corridor near the Port of Indiana.\n\nBed bugs are a documented concern in East Chicago's multi-family housing stock, where dense residential occupancy and the challenges of treating older building structures create conditions where bed bug populations persist longer than in single-family residential neighborhoods.",
+    sections: [
+      {
+        heading: "Rodent Pressure in Early 20th-Century Housing",
+        body: "The key characteristic of East Chicago's rodent challenge is the age and accumulated condition of the residential housing stock. Structures built between 1900 and 1940 for steel industry workers were built to the construction standards of that era, which did not include the sealed utility penetrations, continuous vapor barriers, or tight foundation construction that modern buildings have. Decades of settlement, repair, and modification have added additional gaps and penetrations that were not always sealed after work was completed. House mice can enter through a gap as small as a quarter inch, and Norway rats through an opening larger than a half inch. A professional exclusion inspection of an older East Chicago home finds many more entry points than a comparable inspection of a modern structure, and the sealing work takes longer. That investment in thorough exclusion is the most effective rodent management approach for East Chicago's older housing.",
+      },
+      {
+        heading: "German Cockroaches and the Commercial Corridor",
+        body: "German cockroaches are established in the commercial and food service operations near the Port of Indiana and along East Chicago's commercial streets. They spread from these commercial sources into adjacent residential properties through shared plumbing infrastructure and utility chases. In older East Chicago buildings where plumbing and utility systems have been modified over many decades, the connection between commercial and residential units is often more extensive than in modern construction. Gel bait treatment in kitchen areas, combined with perimeter treatment and monitoring traps, provides early detection and ongoing protection for residential properties near commercial corridors. Any daytime sighting of a cockroach in an East Chicago home warrants professional inspection, as daytime activity indicates a large established population.",
+      },
+      {
+        heading: "Bed Bugs in East Chicago Multi-Family Housing",
+        body: "Bed bugs in East Chicago are concentrated in the multi-family housing areas of the city, where shared walls, shared utility systems, and the challenges of coordinating treatment across multiple units allow infestations to persist and spread. A bed bug infestation in one unit of a multi-unit building puts adjacent units at risk through wall penetrations and shared spaces. Effective bed bug treatment in multi-family settings requires coordination across all units, including those not yet showing evidence of infestation, to prevent re-infestation from adjacent untreated units. Professional heat treatment or integrated pesticide treatment are both effective; the key is treating the full scope of the infestation rather than only the unit where bed bugs were first found.",
+      },
+    ],
+    prevention: [
+      "Schedule a professional exclusion inspection of older East Chicago structures in September, before cold temperatures drive mice and rats indoors at peak pressure.",
+      "Address any gaps around pipe chases, utility penetrations, and modified foundation areas promptly as these are the primary entry points in older housing.",
+      "Install door sweeps on all exterior doors and maintain them in good condition year-round to block the most common low-level entry point.",
+      "Report suspected bed bug activity in multi-family housing to management immediately and request coordinated treatment across adjacent units.",
+      "Keep kitchen areas clean of food debris and check under appliances and in cabinets with sticky traps to detect German cockroach activity early.",
+    ],
+    costNote: "Pest control in East Chicago generally runs $70 to $110 for a general inspection and treatment. A fall rodent exclusion inspection and sealing program for an older structure costs $300 to $700 depending on the number of entry points found. Norway rat control programs with perimeter bait stations run $100 to $250 per month. Bed bug heat treatment for a two-bedroom unit costs $1,200 to $2,500. German cockroach treatments for residential infestations run $150 to $350 for initial treatment.",
+    faqs: [
+      {
+        question: "Why do older East Chicago homes have more rodent problems than newer Lake County construction?",
+        answer: "Older East Chicago homes built during the steel boom era have accumulated decades of gaps, settled foundation cracks, modified utility penetrations, and weathered construction that create far more entry opportunities for mice and rats than modern homes with tighter construction standards. Modern homes are built with sealed utility penetrations, continuous foundation waterproofing, and tighter framing tolerances. A professional exclusion inspection of a home built in 1920 finds many more entry points than an identical inspection of a home built in 2000. This is not about maintenance neglect; it is about the accumulated effect of 80 to 100 years of settlement and modification on any structure, regardless of how well it was maintained.",
+      },
+      {
+        question: "Does Lake Michigan's proximity affect pest management in East Chicago differently than in inland Indiana cities?",
+        answer: "Lake Michigan's influence on East Chicago creates higher year-round humidity than inland Lake County cities like Crown Point or Merrillville experience. That higher humidity benefits German cockroaches, which prefer moist environments, and can accelerate moisture damage in older structures that makes them more attractive to rodents seeking harborage and to carpenter insects. Lake-effect snow events create moisture stress on older building envelopes that inland cities without lake exposure do not face. The overall effect is that East Chicago's pest environment is somewhat more challenging in the winter moisture dimension than comparable inland industrial cities.",
+      },
+      {
+        question: "How should I handle a suspected bed bug situation in my East Chicago apartment?",
+        answer: "If you suspect bed bugs in an East Chicago apartment, document the evidence: take clear photographs of bugs, shed skins, or fecal spots on mattress seams and bed frames. Report to your landlord or property manager in writing immediately, as Indiana tenant law requires landlords to address pest infestations. Do not move furniture between rooms or to other units, as this spreads the infestation. Do not apply store-purchased pesticides yourself, as improper application scatters bed bugs without eliminating them and complicates professional treatment. A professional heat treatment or integrated pesticide program coordinated across adjacent units is the effective approach for East Chicago multi-family structures.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Gary", slug: "gary" },
+      { name: "Hammond", slug: "hammond" },
+      { name: "Valparaiso", slug: "valparaiso" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in East Chicago, IN | Mice, Rats & Bed Bugs",
+    metaDescription: "East Chicago IN pest control for house mice, Norway rats, German cockroaches and bed bugs. Lake County Lake Michigan industrial-era housing specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

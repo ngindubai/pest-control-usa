@@ -1568,4 +1568,92 @@ export const iowaCities: CityLocation[] = [
     metaDescription:
       "Waukee pest control for eastern subterranean termites, house mice, boxelder bugs and mosquitoes. Dallas County farm-edge new-construction Des Moines metro specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "mason-city",
+    name: "Mason City",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "28,000",
+    county: "Cerro Gordo County",
+    climate: "cold-humid",
+    climateDriver: "Mason City is the county seat of Cerro Gordo County in north-central Iowa, with a cold-humid continental climate. Winters are severe with frequent temperatures below 0 degrees and significant snowfall. The Winnebago River runs through the city. The city is known for its Prairie School architecture, including the only surviving Frank Lloyd Wright-designed hotel in the world. Cold winters create extreme indoor rodent pressure from October through March.",
+    topPests: ["House Mice", "Norway Rats", "Cluster Flies", "Boxelder Bugs", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        activeSeason: "fall through spring",
+        note: "Cerro Gordo County winters are among the coldest in Iowa, creating extreme indoor rodent pressure from October through March.",
+      },
+      {
+        name: "Norway Rats",
+        activeSeason: "year-round",
+        note: "Winnebago River corridor provides rodent habitat adjacent to downtown Mason City commercial and residential areas.",
+      },
+      {
+        name: "Cluster Flies",
+        activeSeason: "fall through spring",
+        note: "Significant overwintering pest in north-central Iowa's older structures; emerge in large numbers on warm late-winter days.",
+      },
+      {
+        name: "Boxelder Bugs",
+        activeSeason: "fall",
+        note: "Aggregate in large numbers on south-facing walls in Cerro Gordo County fall before seeking wall void overwintering sites.",
+      },
+      {
+        name: "Stink Bugs",
+        activeSeason: "fall through spring",
+        note: "Brown marmorated stink bugs overwinter in wall voids throughout north-central Iowa structures.",
+      },
+    ],
+    localHook: "Mason City's collection of Prairie School and Frank Lloyd Wright-influenced architecture, including the only remaining Wright-designed hotel in the world, means the city has an unusually high proportion of historic buildings where cluster flies and house mice find the complex wall void structures ideal for overwintering.",
+    intro: "Mason City occupies a distinctive position in north-central Iowa, both architecturally and in terms of pest management. The city's Prairie School architectural heritage, anchored by the Historic Park Inn Hotel designed by Frank Lloyd Wright and a broader collection of Prairie-influenced commercial and residential buildings, gives Mason City an unusually high proportion of historic structures for a city of its size. Those historic buildings, with their complex wall void systems, original wood elements, and accumulated construction gaps, are particularly attractive overwintering sites for cluster flies, house mice, and boxelder bugs.\n\nThe climate in Cerro Gordo County is among the most severe in Iowa. North-central Iowa winters bring sustained temperatures below 0 degrees in January and February, with windchill values that push effective temperatures far lower. This severity is what makes house mouse pressure in Mason City so significant: when outdoor temperatures drop to that extreme, any warm structure becomes a critical survival resource for mice, and the exploratory pressure to find entry points is intense. October exclusion work is the most important annual pest management task for Mason City property owners.\n\nThe Winnebago River running through the city provides Norway rat habitat in the riparian corridor adjacent to downtown, and the river also creates summer mosquito habitat when temperatures finally rise from June through August.",
+    sections: [
+      {
+        heading: "Historic Architecture and Overwintering Pests",
+        body: "The Prairie School buildings that define Mason City's architectural character, from the Historic Park Inn to the residential neighborhoods designed in Wright's influence, have complex wall assemblies and original wood framing that create the protected, thermally stable void spaces that cluster flies, mice, and boxelder bugs seek in fall. Cluster flies in particular are drawn to these complex wall systems because the multiple cavities, varying thermal gradients, and protected interior spaces allow them to find the specific microclimate conditions they need for dormancy. Preventing cluster fly entry into a historic building requires meticulous attention to every gap around window frames, at soffit transitions, and at utility penetrations, because cluster flies can enter through openings as small as those mice use. Exterior sealing completed before September provides the most effective protection.",
+      },
+      {
+        heading: "House Mice in North-Central Iowa's Severe Winters",
+        body: "The cold severity in Cerro Gordo County is the controlling factor in Mason City's rodent pressure. When January temperatures drop to 0 degrees and below, house mice are not moderately inconvenienced by the cold: they are in genuine survival stress. Every available warm structure represents a potential survival resource, and the exploratory behavior that leads mice to identify entry points in building envelopes intensifies proportionally with the cold. A professional exclusion inspection completed in September, identifying and sealing all openings larger than a quarter inch, is the most effective rodent management investment a Mason City property owner can make. The cost of thorough exclusion work in September is a fraction of the cost of trapping and cleanup after an established mouse population has spent six months inside a structure.",
+      },
+      {
+        heading: "Norway Rats and the Winnebago River Corridor",
+        body: "The Winnebago River running through Mason City provides the riparian habitat that Norway rats prefer, and the downtown area adjacent to the river has sustained rat populations connected to this habitat. Norway rats in downtown Mason City are concentrated in the underground infrastructure beneath older commercial blocks, where they access the storm drain system and utility voids. This is less of a residential concern for Mason City than for riverside cities with more extensive industrial history, but commercial properties in the downtown core near the river should maintain exterior bait station programs and address any ground-level structural gaps that provide access to underground rat harborage. The river also creates summer mosquito habitat during the brief warm season from June through August.",
+      },
+    ],
+    prevention: [
+      "Complete a professional fall exclusion inspection in September as the single most important annual pest prevention step for any Mason City property.",
+      "Seal gaps around all window frames, soffit transitions, and utility penetrations before September to block cluster fly overwintering entry.",
+      "Stack firewood well away from the structure and elevated off the ground to reduce Norway rat harborage near the foundation.",
+      "Install door sweeps on all exterior doors and inspect them annually for gaps that accumulate as doors settle.",
+      "Empty gutters and ensure downspouts direct water away from the foundation to reduce moisture that attracts rodents and overwintering insects.",
+    ],
+    costNote: "Pest control in Mason City generally runs $65 to $105 for a general inspection and treatment. A fall exclusion inspection and sealing program costs $270 to $575 depending on home size and the complexity of historic construction entry points. Cluster fly exterior treatments before fall aggregation run $70 to $120. Norway rat bait station programs for downtown commercial properties cost $120 to $240 per month. Annual rodent monitoring programs with exterior stations run $180 to $350 per year.",
+    faqs: [
+      {
+        question: "Why do the Prairie School buildings in Mason City have such significant cluster fly problems?",
+        answer: "Prairie School architecture is characterized by horizontal emphasis, overhanging eaves, and complex transitions between roof planes and wall surfaces. These architectural features create the types of sheltered, protected gaps and voids at soffit lines, at roof-wall junctions, and around the original wood windows that cluster flies actively seek for overwintering sites. The original wood windows in many Mason City Prairie School buildings also tend to have seasonal gaps that open as wood moves with temperature and humidity changes. These buildings are not poorly maintained; they simply have architectural characteristics that create more overwintering opportunity than a simple modern construction with standard soffit details.",
+      },
+      {
+        question: "How does Mason City's cold compare to other Iowa cities for house mouse pressure?",
+        answer: "Mason City is at a higher latitude and elevation in the Iowa landscape than Des Moines, Cedar Rapids, or Waterloo, and its north-central location makes it one of the colder Iowa cities in winter. Average January temperatures in Mason City are several degrees colder than in central Iowa, and the frequency of extended periods below 0 degrees is higher. This translates directly to higher mouse pressure intensity: the colder the winter, the greater the survival stress driving mice to find warm shelter, and the more aggressively they seek entry into structures. The pest management response is the same across Iowa, fall exclusion, but the stakes for getting it right before October are higher in Mason City than in warmer Iowa cities.",
+      },
+      {
+        question: "Are the Norway rats near the Winnebago River a concern for Mason City residential neighborhoods away from downtown?",
+        answer: "Norway rat pressure from the Winnebago River corridor is concentrated in the downtown commercial area nearest the river rather than spreading across the full residential footprint of Mason City. Residential neighborhoods more than several blocks from the river deal primarily with house mice, which is the universal cold-climate rodent concern throughout Cerro Gordo County. If you live in a residential neighborhood in Mason City away from the downtown riverfront, house mice are your primary rodent concern. The Norway rat population in Mason City is smaller and more localized than in cities with larger rivers or more extensive industrial waterfront development.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Waterloo", slug: "waterloo" },
+      { name: "Des Moines", slug: "des-moines" },
+      { name: "Cedar Rapids", slug: "cedar-rapids" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Mason City, IA | Mice, Cluster Flies & Rats",
+    metaDescription: "Mason City IA pest control for house mice, cluster flies, Norway rats and boxelder bugs. Cerro Gordo County north-central Iowa Prairie School architecture specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
