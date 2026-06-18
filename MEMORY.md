@@ -10,15 +10,14 @@
 
 ## Current State (2026-06-18)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-46 complete. T2 COMPLETE.
-- **City pages built:** 1103 total (75 T1 + 300 T2 + 728 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-48 complete. T2 COMPLETE.
+- **City pages built:** 1153 total (75 T1 + 300 T2 + 778 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1186 in the static export (home, services, 50+ states, 1103 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=223, B=221, C=221, D=220, E=218 (1103 total cities, all within 15-25% range).
-- **Cities built T3 chunk 45 (25):** WI: Brookfield, Greenfield, West Bend, Manitowoc, Menomonee Falls (A-E). IN: Valparaiso, Merrillville, Goshen, Michigan City, Marion (A-E). TN: Bristol, Dyersburg, Crossville, Greeneville, Alcoa (A-E). OH: Pickerington, Twinsburg, Barberton, Avon, Avon Lake (A-E). MN: Fridley, Andover, Savage, Cottage Grove, Elk River (A-E).
-- **Cities built T3 chunk 46 (25):** MO: Wildwood, Liberty, Hazelwood, Raytown, University City (A-E). NC: Thomasville, Asheboro, Lumberton, Kernersville, Shelby (A-E). WA: Puyallup, Lynnwood, Edmonds, Bothell, Mount Vernon (A-E). TX: North Richland Hills, Hurst, Keller, Southlake, Watauga (A-E). GA: Pooler, McDonough, Acworth, Sugar Hill, Loganville (A-E).
-- **New state files added chunks 45-46:** none (WI, IN, TN, OH, MN, MO, NC, WA, TX, GA all already registered in index.ts).
-- **Next block:** Chunk 47, T3 continues, rotation at A.
+- **Total site pages:** 1236 in the static export (home, services, 50+ states, 1153 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=233, B=231, C=231, D=230, E=228 (1153 total cities, all within 15-25% range).
+- **Cities built T3 chunks 47-48 (50):** FL: Winter Garden (A), Winter Haven (A). GA: Stockbridge (B), Buford (B). OH: Chillicothe (C), Xenia (C). MI: Southgate (D), Garden City (D). TX: Duncanville (E), Greenville (E). NC: Hendersonville (A), Morganton (A). IL: Belleville (B), Moline (B). VA: Christiansburg (C), Hopewell (C). PA: West Chester (D), Pottstown (D). NJ: Atlantic City (E), New Brunswick (E). WI: Wauwatosa (A), Neenah (A). MN: Chanhassen (B), Prior Lake (B). IN: Plainfield (C), Crown Point (C). CA: Carson (D), Perris (D). WA: Walla Walla (E), Longview (E). TN: Goodlettsville (A), Elizabethton (A). NY: North Tonawanda (B), Cortland (B). OR: Grants Pass (C), Oregon City (C). UT: Murray (D), Logan (D). AZ: Buckeye (E), Prescott (E). KY: Winchester (A). AR: Benton (B). MD: Takoma Park (C). IA: Waukee (D). KS: Dodge City (E). MO: Gladstone (A). LA: Thibodaux (B). NE: North Platte (C). OK: Owasso (D). SC: Summerville (E).
+- **New state files added chunks 47-48:** none (all 28 states already registered in index.ts).
+- **Next block:** Chunk 49, T3 continues, rotation at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

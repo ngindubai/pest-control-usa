@@ -1229,4 +1229,73 @@ export const oklahomaCities: CityLocation[] = [
     metaDescription:
       "Bartlesville pest control for subterranean termites, brown recluse spiders, German cockroaches, house mice and carpenter ants. Washington County northeast Oklahoma Caney River specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "owasso",
+    name: "Owasso",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "38000",
+    county: "Tulsa County",
+    climate: "hot-humid",
+    climateDriver: "Humid subtropical Green Country Oklahoma climate north of Tulsa with hot summers and mild winters drives eastern subterranean termite activity from March through November, brown recluse spider pressure in older structures, and fire ant colonization in residential yards.",
+    topPests: ["eastern subterranean termites", "brown recluse spiders", "fire ants", "German cockroaches", "house mice"],
+    pestProfile: [
+      { name: "Eastern Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Peaks March through May; active most of year", note: "Eastern subterranean termites swarm on warm Owasso days from late March through May; Bird Creek's wooded corridors adjacent to subdivisions sustain active colonies." },
+      { name: "Brown Recluse Spiders", serviceSlug: "spider-control", activeSeason: "Year-round", note: "Brown recluse spiders are well established in Tulsa County and throughout northeast Oklahoma; Owasso's older homes near downtown have prime undisturbed harborage." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "Peaks April through October", note: "Red imported fire ants build mounds overnight in Owasso lawns, parks, and athletic fields from April; the two-step method gives the best season-long suppression in Tulsa County." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Peaks May through September", note: "Bird Creek and its tributaries through Owasso create peak mosquito pressure from late May through September in the city's creek-corridor neighborhoods." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "German cockroaches are established in multi-family buildings and food-service areas along US-169 in Owasso, maintaining populations in kitchen environments year-round." },
+    ],
+    localHook: "Owasso has grown rapidly north of Tulsa along US-169, and its mix of new subdivisions, mature creek corridors, and older neighborhoods near downtown creates the full range of northeast Oklahoma pest pressure in a single city.",
+    intro: "Owasso is one of the fastest-growing cities in Oklahoma, sitting north of Tulsa in Tulsa County where development spreads into rolling wooded terrain crossed by Bird Creek and its tributaries. That growth pattern brings suburban homes directly adjacent to the wooded creek corridors where termites, brown recluse spiders, and other pest species have lived undisturbed. Eastern subterranean termites are active across the county from early spring through late fall. Brown recluse spiders are among the most frequently encountered spiders in northeast Oklahoma. Fire ants have established across Tulsa County. A licensed Tulsa County technician working in Owasso knows when each pest peaks and how to address each property's specific risk factors.",
+    sections: [
+      {
+        heading: "Termite Protection in Tulsa County",
+        body: "Eastern subterranean termites swarm in Owasso from late March through May, typically on warm, sunny days following rain. They target the sill plates, floor joists, and below-grade wood in the city's mix of slab-on-grade new construction and older pier-and-beam homes. Mud tubes on foundation walls or crawl space piers, hollow-sounding wood, and spring swarmers at windows are the warning signs. A warranty-backed treatment, either a liquid termiticide barrier or a bait station network with annual monitoring, is the standard approach for Tulsa County homeowners. New construction pre-treatment significantly reduces lifetime termite risk."
+      },
+      {
+        heading: "Brown Recluse Spider Management",
+        body: "Brown recluse spiders (Loxosceles reclusa) are well established in Tulsa County and throughout northeast Oklahoma. They are nocturnal hunters that hide in undisturbed spaces during the day: behind stored items in closets, in basement storage, in attic insulation, and inside wall voids. Bites occur when people disturb these spaces without checking first. Professional management uses residual dust in attic and crawl space areas, sticky traps near baseboards to monitor population levels, and a thorough clutter reduction recommendation. A recurring quarterly service keeps populations suppressed in known high-pressure homes."
+      },
+      {
+        heading: "Fire Ant and Mosquito Control",
+        body: "Red imported fire ants are established across Owasso from April through October, building mounds overnight in lawns, parks, athletic fields, and roadside areas. They are aggressive defenders and sting repeatedly when a mound is disturbed. The two-step method gives the best season-long suppression: broadcast slow-acting bait across the entire yard in spring to reduce overall colony count, then treat individual active mounds with a contact drench. Mosquitoes peak from late May through September in Owasso's creek corridors. Barrier spray on resting vegetation every 21 days, combined with larvae treatment of standing water, keeps activity tolerable through summer."
+      }
+    ],
+    prevention: [
+      "Schedule an annual termite inspection, especially for homes near wooded creek corridors",
+      "Reduce attic, basement, and closet clutter to eliminate brown recluse undisturbed harborage",
+      "Check shoes and unworn clothing for brown recluse before wearing after storage",
+      "Apply fire ant bait across the full yard in April and September for season-long suppression",
+      "Empty standing water containers weekly from May through September for mosquito control"
+    ],
+    costNote: "Termite treatment in Owasso runs $800 to $1,600 for a liquid barrier or bait station installation with annual monitoring around $275. Brown recluse quarterly service programs average $120 to $220 per visit. Fire ant two-step yard treatment costs $90 to $170 per application. Mosquito barrier spray programs start at $75 per 21-day cycle.",
+    faqs: [
+      {
+        question: "How do I know if I have brown recluse spiders in my Owasso home?",
+        answer: "Brown recluse spiders have a distinctive violin-shaped marking on the upper body and six eyes arranged in pairs rather than the eight-eye pattern of most spiders. They hide during the day and forage at night. Sticky traps placed near baseboards and behind storage items provide the most reliable way to detect and monitor their presence. A single trap with multiple spiders indicates a significant population."
+      },
+      {
+        question: "Are fire ants dangerous in Tulsa County?",
+        answer: "Red imported fire ants sting repeatedly and inject venom that causes a burning sensation followed by a fluid-filled pustule. For most people, stings are painful but not dangerous. For individuals with venom allergies, multiple stings can cause anaphylaxis. Keep an epinephrine auto-injector accessible if you have known insect venom allergy, and treat your yard early in spring before colonies build up."
+      },
+      {
+        question: "When is the best time to schedule termite inspection in Owasso?",
+        answer: "Spring, specifically March through May, is the best time because termite swarmers are visible and evidence of new activity is fresh. However, termite damage occurs year-round and an inspection is worthwhile at any time. If you are buying or selling a home in Tulsa County, a Wood Destroying Insect (WDI) inspection is standard practice and often required by lenders."
+      }
+    ],
+    author: "Marcus Reed",
+    nearbyCities: [
+      { name: "Tulsa", slug: "tulsa" },
+      { name: "Bartlesville", slug: "bartlesville" },
+      { name: "Broken Arrow", slug: "broken-arrow" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Owasso, OK | Termites, Brown Recluse & Fire Ants",
+    metaDescription:
+      "Owasso pest control for eastern subterranean termites, brown recluse spiders, fire ants and German cockroaches. Tulsa County northeast Oklahoma creek-corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

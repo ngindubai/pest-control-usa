@@ -1065,4 +1065,73 @@ export const nebraskaCities: CityLocation[] = [
     metaDescription:
       "Papillion pest control for termites, mice, mosquitoes, boxelder bugs and cockroaches. Sarpy County specialists near Papillion Creek. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "north-platte",
+    name: "North Platte",
+    state: "Nebraska",
+    stateSlug: "nebraska",
+    stateAbbr: "NE",
+    tier: "T3",
+    population: "24000",
+    county: "Lincoln County",
+    climate: "semi-arid",
+    climateDriver: "Semi-arid High Plains climate in central Nebraska with cold winters, hot dry summers, and strong westerly winds drives house mouse entry in fall, brown recluse spider pressure in older structures, and cluster fly overwintering from surrounding farmland.",
+    topPests: ["house mice", "brown recluse spiders", "cluster flies", "black widow spiders", "odorous house ants"],
+    pestProfile: [
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Peaks October through March", note: "Corn and grain harvest in October pushes mice from surrounding North Platte cropland toward the city's older railroad-corridor housing stock." },
+      { name: "Brown Recluse Spiders", serviceSlug: "spider-control", activeSeason: "Year-round", note: "Brown recluse spiders are documented in Lincoln County structures, particularly in older downtown commercial buildings and residential basement storage near the Union Pacific corridor." },
+      { name: "Cluster Flies", activeSeason: "Peaks September through October", note: "Cluster flies from Lincoln County's surrounding farmland overwinter in North Platte's attic spaces; hundreds can accumulate in older homes with deteriorated soffits." },
+      { name: "Black Widow Spiders", serviceSlug: "spider-control", activeSeason: "Year-round; peaks May through September", note: "Black widows are present across central Nebraska in undisturbed dry harborage: window wells, garages, and behind stacked materials in North Platte properties." },
+      { name: "Odorous House Ants", serviceSlug: "ant-control", activeSeason: "Peaks April through August", note: "Odorous house ants trail along North Platte foundations and into kitchens from spring through summer on the central Great Plains." },
+    ],
+    localHook: "North Platte sits at the confluence of the North and South Platte Rivers in Lincoln County, and its position as the largest city for 200 miles in any direction on the High Plains means pest pressure from surrounding agricultural land, grassland, and river corridors converges here.",
+    intro: "North Platte, Nebraska is a railroad city and regional hub for a vast stretch of the central Great Plains. Its position at the heart of Nebraska's agricultural belt means pests from surrounding corn fields, rangeland, and riparian corridors all converge on the city's residential and commercial properties. House mice enter in October when corn harvest strips field cover, following the Platte River corridors into neighborhoods. Cluster flies from surrounding cropland overwinter in older homes each fall. Brown recluse spiders are a year-round presence in the older structures along the downtown railroad corridor. Black widows shelter in dry undisturbed spaces across the region. A licensed Lincoln County technician who works this part of Nebraska understands each pest's seasonal timing.",
+    sections: [
+      {
+        heading: "Mouse Control in a Plains City",
+        body: "House mice in North Platte follow a reliable agricultural calendar. Corn and grain harvest in October removes their field habitat and pushes them toward heated structures. The city's older housing stock along the Union Pacific corridor and in the residential neighborhoods north of downtown has gaps, deteriorated sill plates, and utility penetrations that mice exploit easily. A licensed technician installs tamper-resistant exterior bait stations along the foundation perimeter, seals priority entry points with steel wool and caulk, and places interior snap traps in the kitchen and utility areas. A 30 and 60-day follow-up confirms the population is controlled before deep winter sets in across the High Plains."
+      },
+      {
+        heading: "Cluster Fly Overwintering",
+        body: "Cluster flies breed in the soil and turf of Lincoln County's surrounding farmland all summer as larvae parasitizing earthworms. In September they seek the warmth of south and west-facing building walls, entering through gaps around windows, soffits, and eave vents to overwinter in attic spaces. In older North Platte homes with aging caulk and poorly sealed soffits, hundreds or thousands of cluster flies can accumulate in the attic. They are not a sanitation issue but emerge at windows on warm winter days. Exterior treatment in September before aggregation begins, combined with attic dust application, gives the most complete control."
+      },
+      {
+        heading: "Brown Recluse and Black Widow Management",
+        body: "Brown recluse spiders are documented in Lincoln County structures, particularly in older commercial buildings and basement-heavy residential homes downtown. They prefer undisturbed storage areas, old clothing piles, and crawl spaces. Sticky trap monitoring near baseboards gives a population picture. Residual dust in attic and crawl space areas, combined with clutter reduction, is the professional standard. Black widows are present across the central Nebraska region in undisturbed dry harborage: window wells, garages, and behind stacked materials. Annual exterior treatment in May targets them before summer breeding peaks."
+      }
+    ],
+    prevention: [
+      "Seal foundation utility penetrations and garage door seals before October for mouse prevention",
+      "Apply exterior caulk to window frames, soffit vents, and eave gaps by September for cluster fly exclusion",
+      "Reduce basement and storage area clutter to deny brown recluse undisturbed harborage",
+      "Install window well covers to reduce black widow shelter and block cluster fly entry near windows",
+      "Keep firewood elevated and away from the foundation as harborage for mice and spiders"
+    ],
+    costNote: "Mouse exclusion and trapping programs in North Platte typically run $200 to $380 for a full-season service cycle. Cluster fly exterior treatment averages $140 to $250 per application. Brown recluse management programs start at $130 per visit with quarterly follow-up. Black widow treatments run $110 to $190 per visit. Many North Platte companies offer a bundled fall pest prevention service combining rodent and overwintering pest treatments.",
+    faqs: [
+      {
+        question: "Why are cluster flies such a problem in older North Platte homes?",
+        answer: "Cluster flies breed in the turf and soil of the surrounding farmland all summer. When temperatures cool in September, they move toward building warmth in large numbers. Older homes in North Platte with deteriorated caulk and poor soffit sealing provide easy access to attic spaces where they overwinter. The sheer number that can accumulate, sometimes in the hundreds per room, makes them one of the most complained-about overwintering pests in central Nebraska."
+      },
+      {
+        question: "Are brown recluse spiders dangerous in Lincoln County, NE?",
+        answer: "Brown recluse spiders are documented in Lincoln County and are medically significant. Their venom can cause a necrotic (tissue-killing) wound that heals slowly. They are not aggressive and avoid contact, but bites occur when the spider is pressed against skin in clothing, shoes, or bedding. Reducing clutter and treating infested spaces professionally greatly reduces bite risk."
+      },
+      {
+        question: "When should I schedule pest control in North Platte?",
+        answer: "Fall (September to October) is the highest-priority window for North Platte pest control. Cluster fly exterior treatment should be applied in September before aggregation begins. Rodent exclusion and bait station installation should be completed before October corn harvest. Black widow and spider exterior treatment is best done in May before summer activity peaks."
+      }
+    ],
+    author: "James Cole",
+    nearbyCities: [
+      { name: "Omaha", slug: "omaha" },
+      { name: "Lincoln", slug: "lincoln" },
+      { name: "Papillion", slug: "papillion" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in North Platte, NE | Mice, Cluster Flies & Brown Recluse",
+    metaDescription:
+      "North Platte pest control for house mice, cluster flies, brown recluse spiders and black widows. Lincoln County High Plains Nebraska central hub specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

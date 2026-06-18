@@ -2018,4 +2018,73 @@ export const kentuckyCities: CityLocation[] = [
     metaDescription:
       "Danville KY pest control for termites, carpenter ants, yellowjackets and mice. Boyle County Centre College Bluegrass Dick River specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "winchester-ky",
+    name: "Winchester",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "19000",
+    county: "Clark County",
+    climate: "hot-humid",
+    climateDriver: "Humid subtropical Bluegrass Region climate with hot summers and mild winters drives eastern subterranean termite activity, mosquito breeding in the Kentucky River floodplain, and year-round cockroach pressure in older downtown buildings.",
+    topPests: ["eastern subterranean termites", "mosquitoes", "German cockroaches", "odorous house ants", "house mice"],
+    pestProfile: [
+      { name: "Eastern Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Peaks March through October", note: "Eastern subterranean termites are active across Clark County's Bluegrass Region; older wood-frame construction along Winchester's Main Street is at highest risk." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Peaks May through September", note: "The Kentucky River floodplain below Winchester generates a steady supply of mosquitoes; backyard standing water amplifies the local population through August." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "Older commercial kitchens and multi-unit buildings in downtown Winchester maintain German cockroach populations where warmth, moisture, and food access combine." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Peaks October through March", note: "House mice enter Winchester homes through gaps in older housing stock in the Clark County seat each fall." },
+      { name: "Odorous House Ants", serviceSlug: "ant-control", activeSeason: "Peaks March through September", note: "Odorous house ants trail into Winchester kitchens from spring through summer; non-repellent perimeter bait resolves infestations faster than repellent spray." },
+    ],
+    localHook: "Winchester anchors Clark County in the heart of Kentucky Bluegrass horse country, and its location just above the Kentucky River gorge means summer mosquito pressure from floodplain breeding is a genuine seasonal challenge for backyard enjoyment.",
+    intro: "Winchester is a small Kentucky city with a distinct character: it is the seat of Clark County, sits on the edge of the Kentucky River gorge, and carries the agricultural and residential mix of the inner Bluegrass Region. That setting creates a pest year built around three seasonal peaks. Spring activates eastern subterranean termite swarmers from March through May, especially in the older wood-frame construction along Main Street and nearby neighborhoods. Summer mosquitoes breed in standing water along the Kentucky River floodplain and in yard containers, making June through September uncomfortable without control. German cockroaches maintain populations in kitchen environments year-round. A licensed Clark County technician can address all three.",
+    sections: [
+      {
+        heading: "Termite Protection in Clark County Homes",
+        body: "Eastern subterranean termites swarm on warm days from March through early May in Winchester. They are the most economically destructive pest in Kentucky, and Clark County's humid climate supports large colonies. Mud tubes along foundation walls, hollow-sounding wood, and spring swarmers at windows are the key warning signs. A licensed inspector performs a detailed moisture and access-point assessment, then recommends either a liquid termiticide barrier applied to the soil around the foundation or a bait station network with annual monitoring. Both methods carry multi-year warranties. New-construction pre-treatments dramatically reduce lifetime termite risk."
+      },
+      {
+        heading: "Mosquito Control Along the Kentucky River",
+        body: "Winchester's location above the Kentucky River gorge means the floodplain below town generates a steady supply of mosquitoes from late May through September. Backyard standing water in gutters, bird baths, low spots, and ornamental containers amplifies the local population. Licensed applicators treat breeding sites with larvicide dunks and apply barrier spray to resting vegetation around yard perimeters. Treatments every 21 days maintain mosquito suppression through the season. Evening events are dramatically more comfortable with a pre-event treatment applied 24 hours ahead."
+      },
+      {
+        heading: "Cockroach and Ant Management Year-Round",
+        body: "German cockroaches thrive in the food-service and older residential blocks of Winchester's downtown and near-campus neighborhoods. They require warmth, moisture, and food access, all of which older kitchen plumbing and restaurant spaces supply readily. Gel bait applied to harborage points behind refrigerators and under sinks works faster than repellent spray, which disperses the colony without eliminating it. Odorous house ants trail into kitchens in spring and summer; non-repellent perimeter bait and targeted indoor gel programs resolve infestations within two weeks of application."
+      }
+    ],
+    prevention: [
+      "Schedule an annual termite inspection, especially for homes built before 1980 in Clark County",
+      "Empty standing water containers weekly during June through September mosquito season",
+      "Keep gutters clean and downspout extensions directed away from the foundation",
+      "Seal pipe penetrations, wall cracks, and door gaps to deny cockroaches indoor entry",
+      "Fix dripping faucets and under-sink leaks that provide cockroaches with water access"
+    ],
+    costNote: "Termite bait station programs in Winchester typically run $800 to $1,400 for installation plus $250 to $400 annually for monitoring. Liquid termiticide treatments average $900 to $1,800 depending on foundation perimeter. Mosquito barrier spray programs start at $75 per treatment on a 21-day cycle. German cockroach gel-bait programs cost $120 to $200 per visit.",
+    faqs: [
+      {
+        question: "How do I know if I have termites in my Winchester home?",
+        answer: "Look for pencil-diameter mud tubes along foundation walls, crawl space piers, and concrete block. Hollow-sounding wood when tapped, small piles of sawdust-like frass, or winged swarmers at windows in March through May all indicate active termites. An annual licensed inspection is the most reliable early detection method."
+      },
+      {
+        question: "When is mosquito season worst in the Winchester, KY area?",
+        answer: "Mosquito activity in Clark County typically peaks in June and July after spring rains fill natural breeding sites. The Kentucky River floodplain sustains populations through August and into September. A combination of larval source reduction (eliminating standing water) and adult barrier spray gives the most relief during peak season."
+      },
+      {
+        question: "Can I treat German cockroaches myself in my Winchester home?",
+        answer: "Over-the-counter sprays often disperse cockroach colonies without eliminating them, making infestations harder to treat later. Gel baits available at hardware stores can work for minor problems, but an established infestation typically requires professional-grade baits at multiple harborage points and a follow-up visit to confirm elimination."
+      }
+    ],
+    author: "Marcus Reed",
+    nearbyCities: [
+      { name: "Lexington", slug: "lexington" },
+      { name: "Richmond", slug: "richmond-ky" },
+      { name: "Georgetown", slug: "georgetown-ky" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Winchester, KY | Termites, Mosquitoes & Cockroaches",
+    metaDescription:
+      "Winchester pest control for eastern subterranean termites, mosquitoes, German cockroaches and odorous house ants. Clark County Kentucky River Bluegrass specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

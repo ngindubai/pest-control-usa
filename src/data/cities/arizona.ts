@@ -1840,4 +1840,142 @@ export const arizonaCities: CityLocation[] = [
     metaDescription:
       "Flagstaff pest control for deer mice, hantavirus risk, house mice, carpenter ants, yellow jackets and black widows. Coconino County ponderosa pine forest high-elevation northern Arizona specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "buckeye-az",
+    name: "Buckeye",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T3",
+    population: "105000",
+    county: "Maricopa County",
+    climate: "desert",
+    climateDriver: "Sonoran Desert extreme heat with summer highs above 110 degrees drives scorpion, bark scorpion, and black widow activity in newer suburban homes; monsoon moisture from July through September creates cockroach and ant surges.",
+    topPests: ["bark scorpions", "black widow spiders", "German cockroaches", "fire ants", "roof rats"],
+    pestProfile: [
+      { name: "Bark Scorpions", activeSeason: "Peaks April through October", note: "Buckeye's explosive desert development constantly disturbs Sonoran Desert floor where bark scorpions live; they follow displaced soil into new homes through weep holes and plumbing gaps." },
+      { name: "Black Widow Spiders", serviceSlug: "spider-control", activeSeason: "Peaks May through October", note: "Black widows shelter in Buckeye's block walls, weep holes, and garage storage; activity increases after monsoon rains provide prey." },
+      { name: "Roof Rats", serviceSlug: "rodent-control", activeSeason: "Year-round", note: "Roof rats use palm trees and citrus as travel highways through Buckeye neighborhoods, entering attics at roofline gaps and unscreened vents." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "Peaks July through September", note: "Monsoon rains from July through September trigger fire ant mound-building overnight in Buckeye lawns and playground areas." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Peaks July through September", note: "Monsoon moisture enters sewer lines and exterior walls in Buckeye, driving German cockroach infiltration into apartment complexes and commercial kitchens." },
+    ],
+    localHook: "Buckeye's explosive growth into raw Sonoran Desert means new subdivisions constantly border undisturbed desert floor where bark scorpions, black widows, and other desert species live, making scorpion control a top priority for homeowners in Maricopa County's western edge.",
+    intro: "Buckeye is a Phoenix-area city that grew from 6,000 residents in 2000 to over 100,000 today, and nearly every new subdivision was built directly on Sonoran Desert floor. That growth means bark scorpions are neighbors to new construction. Arizona bark scorpions (Centruroides sculpturatus) are the most venomous scorpion in North America and a real medical concern for households with small children and pets. Black widows shelter in block walls, weep holes, and storage areas. Roof rats use palm trees and citrus as food and travel corridors. Monsoon rains from July through September bring cockroach and fire ant surges. Buckeye homeowners need a pest management plan that starts at the building envelope.",
+    sections: [
+      {
+        heading: "Bark Scorpion Control in New Buckeye Developments",
+        body: "Arizona bark scorpions are thin, pale, and semi-translucent, reaching about 3 inches in length. They sting when trapped against skin, pressed into shoes, or disturbed in gloves. In Buckeye new developments, they enter through weep holes in block walls, gaps around plumbing penetrations, construction debris piles, and under-slab voids. Treatment involves applying residual insecticide to all exterior entry points, cracks in the foundation, and the lower 12 inches of interior walls, combined with exclusion work on weep holes using steel mesh. UV black-light inspections at night can locate scorpions before treatment and confirm post-treatment effectiveness."
+      },
+      {
+        heading: "Roof Rat Management Along Citrus and Palm Trees",
+        body: "Roof rats (Rattus rattus) are aerial rodents that use palm trees, citrus, and block walls as travel corridors through Buckeye neighborhoods. They enter homes at roofline gaps, plumbing vents, and unscreened attic vents. Signs include greasy rub marks along rafters, gnawed citrus on the tree, and noise in attic spaces at night. Control requires trimming palm fronds and citrus branches away from rooflines, sealing attic vents with hardware cloth, and placing roof-line snap traps at entry points. Exterior bait stations supplement but do not replace exclusion in roof rat management."
+      },
+      {
+        heading: "Fire Ants and Monsoon Pest Surges",
+        body: "Monsoon season (July through September) is the most active pest period in Buckeye. Fire ants build new mounds overnight after rain events, creating a hazard in lawns, playground areas, and along sidewalks. Two-step treatment (broadcast bait to reduce colony count, then mound drench for individual mounds) is the most effective approach. German cockroaches infiltrate commercial kitchens and apartment complexes after monsoon moisture enters through sewer lines and exterior walls. Black widow activity also increases as insects emerge after rain provide them with prey."
+      }
+    ],
+    prevention: [
+      "Seal weep holes in block walls with fine steel mesh to block bark scorpion entry",
+      "Trim palm fronds and citrus branches to 4 feet from the roofline to deny roof rats access",
+      "Install weather stripping and door sweeps on all exterior doors to block scorpion crawl-under entry",
+      "Remove rock piles, construction debris, and cardboard from near the foundation as scorpion harborage",
+      "Shake out shoes and check folded towels before use during scorpion season (April through October)"
+    ],
+    costNote: "Bark scorpion treatments in Buckeye typically run $120 to $200 per monthly or bi-monthly visit on an ongoing plan. Roof rat exclusion and removal programs average $350 to $600 for a full exclusion. Fire ant two-step programs cost $80 to $150 per application. Most Buckeye companies offer bundled desert pest plans starting around $60 per month for scorpion, cockroach, and ant coverage.",
+    faqs: [
+      {
+        question: "Are bark scorpion stings in Buckeye dangerous?",
+        answer: "Arizona bark scorpions have a venom that causes intense pain, numbness, and in young children or individuals with compromised immune systems, can cause more serious neurological symptoms requiring antivenom. Adults generally recover with rest and pain management. If a small child or elderly person is stung, seek medical attention immediately."
+      },
+      {
+        question: "How do roof rats get into my Buckeye attic?",
+        answer: "Roof rats are excellent climbers. They travel palm trees and block walls to reach rooflines, then enter through gaps at gable vents, loose soffit boards, roof tiles, and plumbing vents. Citrus trees against the house are a primary entry highway. Trimming all vegetation 4 feet from the roofline and capping vents is the first line of defense."
+      },
+      {
+        question: "Do I need year-round pest control in Buckeye?",
+        answer: "Yes. The Sonoran Desert does not have a true dormant pest season. Bark scorpions are active most of the year except during the coldest December and January nights. Roof rats are year-round. Cockroaches and fire ants peak in monsoon season but maintain populations all year. Monthly or bi-monthly service is the standard recommendation for Maricopa County West Valley homes near undeveloped desert."
+      }
+    ],
+    author: "Sandra Whitfield",
+    nearbyCities: [
+      { name: "Goodyear", slug: "goodyear" },
+      { name: "Avondale", slug: "avondale" },
+      { name: "Peoria", slug: "peoria" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Buckeye, AZ | Bark Scorpions, Black Widows & Roof Rats",
+    metaDescription:
+      "Buckeye pest control for bark scorpions, black widows, roof rats and fire ants. Maricopa County West Valley new-development desert specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "prescott",
+    name: "Prescott",
+    state: "Arizona",
+    stateSlug: "arizona",
+    stateAbbr: "AZ",
+    tier: "T3",
+    population: "46000",
+    county: "Yavapai County",
+    climate: "semi-arid",
+    climateDriver: "Prescott's mile-high elevation in the Bradshaw Mountains creates a cooler, semi-arid climate distinct from Phoenix, with four seasons, occasional snow, and a monsoon season that drives rodent entry in fall and bark scorpion activity in summer.",
+    topPests: ["bark scorpions", "black widow spiders", "house mice", "deer mice", "yellowjackets"],
+    pestProfile: [
+      { name: "Bark Scorpions", activeSeason: "Peaks May through September", note: "Prescott's Granite Dells rock formations and stone landscaping provide prime bark scorpion harborage; they enter homes through weep holes and expansion joints." },
+      { name: "Black Widow Spiders", serviceSlug: "spider-control", activeSeason: "Peaks May through September", note: "Black widows love the rockery walls, stacked stone, and woodpiles common in Prescott's mountain-town neighborhoods, sheltering in window wells and garage corners." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Peaks October through February", note: "House mice enter Prescott homes from the surrounding ponderosa pine forest as fall cools the Bradshaw Mountain air." },
+      { name: "Deer Mice", serviceSlug: "rodent-control", activeSeason: "Peaks October through March", note: "Deer mice are more common in rural Yavapai County outbuildings; they can carry the Sin Nombre hantavirus strain in this region." },
+      { name: "Yellowjackets", activeSeason: "Peaks June through September", note: "Granite rock formations and rocky outcrops throughout Yavapai County provide excellent yellowjacket ground-nest habitat near Prescott residential areas." },
+    ],
+    localHook: "Prescott calls itself Everybody's Hometown, and its historic Whiskey Row district, Granite Dells rockeries, and proximity to Prescott National Forest create a pest environment that combines mountain-town rodent pressure with Sonoran Desert scorpion and spider concerns.",
+    intro: "Prescott, at over a mile above sea level in Yavapai County, occupies a comfortable middle ground between the extreme Phoenix desert heat and the cold of the Colorado Plateau. That position makes it attractive to people and to pests. Bark scorpions are present in rocky terrain around the Granite Dells and in neighborhoods that border forest land. Black widows love the rockery walls, stacked stone landscaping, and woodpiles that are common in Prescott's mountain-town aesthetic. House mice and deer mice enter from the surrounding ponderosa forest as fall cools the air. Yellowjackets nest in rock crevices and ground burrows from June through September. Knowing which species you are dealing with shapes the right treatment.",
+    sections: [
+      {
+        heading: "Bark Scorpion and Black Widow Control in Prescott",
+        body: "Prescott's granite rock formations and stone landscaping create natural harborage for bark scorpions and black widows. Bark scorpions shelter under rocks, in wood piles, and behind dry-stacked stone walls common in Prescott's older neighborhoods. They enter homes through weep holes, expansion joints, and gaps around window frames. Annual exterior residual treatment combined with black-light night inspections keeps populations managed. Black widows build webs in rock crevices, window wells, and undisturbed garage corners. Target treatment to known harborage with a residual dust or spray."
+      },
+      {
+        heading: "Rodent Management at the Forest Edge",
+        body: "Prescott neighborhoods that border Prescott National Forest see both house mice and deer mice entering structures from October through February as temperatures drop. Deer mice are more common in rural outbuildings and cabins in Yavapai County; they can carry the hantavirus Sin Nombre strain. Cabins opened after winter, or storage buildings not visited regularly, should be ventilated thoroughly before cleaning. Do not sweep dry rodent droppings. Licensed technicians use exclusion at foundation level, tamper-resistant exterior bait stations, and snap traps in key interior zones to manage rodent populations through winter."
+      },
+      {
+        heading: "Yellowjacket Nests in Rocky Terrain",
+        body: "Prescott's Granite Dells and the rocky outcrops throughout Yavapai County provide excellent yellowjacket ground-nest habitat. Colonies grow through summer and peak in August and September. Workers forage up to 1,000 feet from the nest and become most defensive at peak colony size. Nests in residential yards that are near driveways, play areas, or garden paths should be treated professionally. After-dark dust treatment at the nest entrance eliminates the colony without leaving a visible exposed nest during the day."
+      }
+    ],
+    prevention: [
+      "Seal weep holes and expansion joints in block or stone walls with fine mesh to block scorpion entry",
+      "Keep wood piles and stacked stone away from the foundation or entry points as scorpion and black widow habitat",
+      "Seal foundation penetrations and utility runs with steel wool before October for rodent prevention",
+      "Wear gloves when moving rocks, firewood, or stored equipment in the yard or garage",
+      "Install door sweeps and tightly fitted window screens on all exterior openings"
+    ],
+    costNote: "Bark scorpion exterior treatments in Prescott run $120 to $200 per visit on a bi-monthly or quarterly plan. Black widow spot treatments average $80 to $150. Rodent exclusion programs cost $200 to $400 depending on entry-point count. Yellowjacket nest removal runs $140 to $220 per nest. Bundled annual pest plans for Prescott properties typically start at $65 per month.",
+    faqs: [
+      {
+        question: "Are bark scorpions in Prescott as dangerous as those in Phoenix?",
+        answer: "Arizona bark scorpions are the same species throughout the state (Centruroides sculpturatus) and the venom is equally potent regardless of elevation. The medical risk is the same. The difference in Prescott is that scorpion density can be lower in cooler, higher-elevation areas than in the Phoenix metro, but rocky terrain around the Granite Dells can support high local populations."
+      },
+      {
+        question: "Should I be worried about hantavirus from mice in Prescott?",
+        answer: "Deer mice in Yavapai County can carry the Sin Nombre strain of hantavirus, which causes hantavirus pulmonary syndrome. Risk is higher in rural cabins, storage buildings, and structures not opened regularly. Always ventilate enclosed spaces before cleaning rodent droppings, and use wet cleaning methods. A licensed technician can safely remove and dispose of rodent-contaminated materials."
+      },
+      {
+        question: "What time of year should I schedule pest control in Prescott?",
+        answer: "Spring (April to May) is ideal for scorpion and black widow exterior treatment before their active season. Fall (September to October) is best for rodent exclusion before mice begin entering for winter. Yellowjacket nests should be treated in July through August when colonies are established but before peak aggression in September."
+      }
+    ],
+    author: "Dr. Lena Ortiz",
+    nearbyCities: [
+      { name: "Buckeye", slug: "buckeye-az" },
+      { name: "Casa Grande", slug: "casa-grande" },
+      { name: "Flagstaff", slug: "flagstaff" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Prescott, AZ | Bark Scorpions, Mice & Black Widows",
+    metaDescription:
+      "Prescott pest control for bark scorpions, black widows, house mice and yellowjackets. Yavapai County mile-high Bradshaw Mountains forest-edge specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

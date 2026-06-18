@@ -3749,4 +3749,142 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Corning NY pest control for stink bugs, house mice, cluster flies and carpenter ants. Steuben County Finger Lakes orchard corridor specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "north-tonawanda",
+    name: "North Tonawanda",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "30000",
+    county: "Niagara County",
+    climate: "cold-humid",
+    climateDriver: "Lake Erie and Lake Ontario moisture combined with long cold winters drives heavy overwintering pest pressure, rodent entry from October through April, and spring ant activity.",
+    topPests: ["house mice", "Norway rats", "German cockroaches", "pavement ants", "yellowjackets"],
+    pestProfile: [
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Peaks October through March", note: "North Tonawanda's canal-side housing stock and deteriorating foundation sills provide easy entry as temps drop; mice follow the Erie Canal corridor into older homes." },
+      { name: "Norway Rats", serviceSlug: "rodent-control", activeSeason: "Peaks September through April", note: "Moisture and harborage along the canal corridor draw Norway rats to den in crawl spaces and under concrete slabs throughout the city." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "Multi-family buildings in central North Tonawanda see German cockroach populations travel between units through shared plumbing chases." },
+      { name: "Yellowjackets", activeSeason: "Peaks June through August", note: "Yellowjackets build large paper nests in attic eaves and deck boards across North Tonawanda; a colony can reach 4,000 workers by mid-August." },
+      { name: "Pavement Ants", serviceSlug: "ant-control", activeSeason: "Peaks April through June", note: "Pavement ants crack through sidewalks and driveways throughout Niagara County neighborhoods each spring." },
+    ],
+    localHook: "North Tonawanda's canal-side neighborhoods and post-war housing stock along the Erie Canal and Niagara River offer rodents easy entry points through deteriorating foundation sills and utility chases.",
+    intro: "North Tonawanda homeowners in Niagara County deal with a straightforward but persistent pest lineup shaped by cold Lake Erie winters and the city's older housing stock. When temperatures drop below 40 degrees in October, house mice and Norway rats start probing every gap larger than a dime along foundation walls and utility runs. The canal corridor adds moisture that draws cockroaches in commercial kitchens and apartment buildings year-round. Yellowjackets claim deck railings and attic vents from June through August. Knowing the seasonal pattern is half the battle.",
+    sections: [
+      {
+        heading: "Rodent Control Along the Erie Canal",
+        body: "House mice and Norway rats are the top call driver in North Tonawanda from October through March. Older homes near the canal and along Oliver Street have foundation stone gaps and deteriorated sill plates that rodents exploit as temperatures fall. A licensed technician will seal entry points with steel wool and hardware cloth, place tamper-resistant bait stations along the perimeter, and set interior snap traps in void spaces. Norway rats typically den in crawl spaces and under concrete slabs; mice favor wall voids between the kitchen and exterior. Both species breed fast, so early-season exclusion is cheaper than a late-winter infestation."
+      },
+      {
+        heading: "Yellowjacket and Wasp Season",
+        body: "From late June through late August, yellowjackets build large paper nests in attic eaves, wall cavities, and under deck boards across North Tonawanda. A colony can reach 4,000 workers by mid-August, making DIY removal risky. Licensed applicators treat nests after dark when workers are inside, using dust insecticides that eliminate the colony at the source. Bald-faced hornets sometimes nest in ornamental shrubs in the older residential neighborhoods near Gratwick Park."
+      },
+      {
+        heading: "Cockroach Management in Multi-Family Buildings",
+        body: "German cockroaches thrive in the multi-family buildings and apartment complexes scattered through central North Tonawanda. They travel between units through plumbing chases, and a single untreated unit can reinfest the rest. Gel baits placed at harborage points behind refrigerators, under sinks, and inside electrical outlet boxes outperform sprays because they do not disperse the colony. A 90-day follow-up visit confirms elimination."
+      }
+    ],
+    prevention: [
+      "Seal foundation cracks and pipe penetrations with caulk or steel wool before October",
+      "Keep firewood stacked 20 feet from the foundation and elevated off the ground",
+      "Fix dripping faucets and roof gutter leaks that create moisture near the structure",
+      "Install door sweeps on all exterior doors, especially garage and basement entries",
+      "Store pantry food in sealed hard-sided containers to remove rodent attractants"
+    ],
+    costNote: "Rodent exclusion and trapping in North Tonawanda typically runs $200 to $450 depending on the number of entry points. Yellowjacket nest treatments average $150 to $250 per nest. German cockroach programs in multi-unit buildings start around $180 per unit for the first visit. Most licensed companies include a 30-day service guarantee.",
+    faqs: [
+      {
+        question: "How do I know if I have mice or rats in my North Tonawanda home?",
+        answer: "Mice leave small rice-grain droppings and gnaw marks on wood and food packaging. Norway rats leave larger capsule-shaped droppings and often burrow along foundation walls or under slabs. Both are more active at night. If you see a rodent during daylight, the population is already large."
+      },
+      {
+        question: "When do yellowjackets become a problem in Niagara County?",
+        answer: "Yellowjacket colonies in North Tonawanda grow largest from July through September. Queens overwinter in protected spots and start new colonies each May. By August a mature nest can hold several thousand workers, which is when accidental disturbance risks multiple stings."
+      },
+      {
+        question: "Can German cockroaches spread from one apartment to another in my building?",
+        answer: "Yes. German cockroaches move through shared wall voids, plumbing chases, and under-door gaps. Treating only one unit rarely solves a building-wide infestation. A coordinated treatment of all affected units on the same day gives the best outcome."
+      }
+    ],
+    author: "Marcus Reed",
+    nearbyCities: [
+      { name: "Buffalo", slug: "buffalo" },
+      { name: "Lockport", slug: "lockport-ny" },
+      { name: "Niagara Falls", slug: "niagara-falls" }
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in North Tonawanda, NY | Mice, Rats & Yellowjackets",
+    metaDescription:
+      "North Tonawanda pest control for house mice, Norway rats, German cockroaches and yellowjackets. Niagara County Erie Canal corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "cortland-ny",
+    name: "Cortland",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "18000",
+    county: "Cortland County",
+    climate: "cold-humid",
+    climateDriver: "Elevated Finger Lakes plateau location at 1,100 feet brings heavy lake-effect snow, long cold winters, and high summer humidity that together drive overwintering rodent pressure and summer yellowjacket activity.",
+    topPests: ["house mice", "cluster flies", "pavement ants", "yellowjackets", "stink bugs"],
+    pestProfile: [
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Peaks October through March", note: "Surrounding cornfields and dairy farms in Cortland County push mice toward older homes as harvest removes field cover each fall." },
+      { name: "Cluster Flies", activeSeason: "Peaks late September through November", note: "Cluster flies from Cortland County agricultural soil aggregate on south-facing Victorian homes near SUNY Cortland before squeezing into attic spaces to overwinter." },
+      { name: "Yellowjackets", activeSeason: "Peaks July through September", note: "Yellowjackets nest in underground burrows and wall voids of older Cortland structures; the short warm season means colonies build quickly." },
+      { name: "Pavement Ants", serviceSlug: "ant-control", activeSeason: "Peaks April through May", note: "Pavement ants emerge along sidewalks and driveways near the SUNY Cortland campus each spring, foraging into kitchens for grease and sweet crumbs." },
+      { name: "Stink Bugs", activeSeason: "Peaks September through November", note: "Brown marmorated stink bugs gather on Cortland building exteriors in fall before entering wall voids for the winter." },
+    ],
+    localHook: "Cortland sits in a valley surrounded by dairy farms and woodlots in Cortland County, and the combination of agricultural land and aging Victorian-era housing stock makes cluster fly overwintering and rodent entry facts of life for most homeowners.",
+    intro: "Cortland, NY is a small city that punches above its weight in pest pressure thanks to its location on the Finger Lakes plateau. Cluster flies arrive reliably in late September, crawling into attic insulation and wall voids in Victorian homes near the SUNY Cortland campus to spend the winter. House mice follow from surrounding cornfields and wooded lots as harvest removes their cover. Pavement ants crack through driveways and sidewalks each spring. Yellowjackets round out a busy summer season. A licensed Cortland County technician who knows the local patterns can address each problem at the right time of year.",
+    sections: [
+      {
+        heading: "Cluster Fly Overwintering in Older Cortland Homes",
+        body: "Cluster flies (Pollenia rudis) are parasitic on earthworms and breed in agricultural soil around Cortland all summer. In late September they seek the warmth of south and west-facing walls, squeezing through gaps around window frames, soffits, and eave vents. Once inside they cluster in hundreds in attic spaces and appear at windows on warm winter days. Treatment involves applying residual insecticide to exterior entry points in mid-September before flies begin to aggregate, combined with attic dust treatments for existing populations. Sealing gaps with caulk and weather stripping reduces re-entry the following year."
+      },
+      {
+        heading: "Mouse Control Near Agricultural Land",
+        body: "Cortland's surrounding cornfields and dairy farms mean house mice have abundant summer habitat. As crop harvest strips that cover in October and November, mice pressure existing structures hard. Older homes downtown and near campus often have unpointed stone foundations and deteriorated door sills that provide easy entry. A licensed technician installs tamper-resistant bait stations along the perimeter, seals priority entry points, and sets interior traps in high-activity zones like the kitchen and utility rooms."
+      },
+      {
+        heading: "Spring Ant and Summer Wasp Management",
+        body: "Pavement ants emerge along Cortland sidewalks and driveways by April, foraging into kitchens for grease and sweet crumbs. Granular perimeter baits applied in early spring intercept foraging columns before they establish indoor trails. Yellowjackets become the dominant wasp species by July, nesting in underground burrows in lawns and in wall voids of older structures. Nest treatment after dark with dust insecticide eliminates the colony safely."
+      }
+    ],
+    prevention: [
+      "Apply exterior caulk to gaps around window frames, soffits and roof eave vents by mid-September",
+      "Seal foundation openings and utility penetrations with steel wool and expanding foam",
+      "Keep grass cut short near the foundation to reduce pavement ant and yellowjacket habitat",
+      "Use tight-fitting window screens and door sweeps to block late-summer cluster fly entry",
+      "Store birdseed and pet food in sealed containers to avoid attracting mice"
+    ],
+    costNote: "Cluster fly exterior treatments in Cortland typically cost $150 to $280 per application. Mouse exclusion and trapping programs run $200 to $400 depending on entry-point count. Yellowjacket nest treatments average $140 to $220. Most companies offer a combined overwintering pest package for homes with recurring cluster fly issues.",
+    faqs: [
+      {
+        question: "Why do cluster flies only appear in my Cortland home in winter?",
+        answer: "Cluster flies breed in lawns and fields all summer as larvae parasitizing earthworms. In fall they seek the warmth of building walls to overwinter and become inactive in cool attic spaces. They appear at windows on sunny winter days when interior warmth draws them toward light. They are not a hygiene problem but can be overwhelming in numbers."
+      },
+      {
+        question: "How can I tell if mice are entering from the fields near my property?",
+        answer: "Field-origin mice typically arrive in October after harvest. Look for fresh droppings in the kitchen, garage, or basement, gnaw marks on food packaging, and nesting material in undisturbed storage areas. A technician can identify entry points along the foundation and utility runs."
+      },
+      {
+        question: "Are pavement ants in Cortland dangerous?",
+        answer: "Pavement ants are nuisance ants rather than a health risk. They do not bite aggressively or damage structures. However, a colony inside a wall void can number in the thousands and they contaminate food. Gel baits and perimeter granules applied in spring before colonies grow large keep them manageable."
+      }
+    ],
+    author: "Dr. Lena Ortiz",
+    nearbyCities: [
+      { name: "Ithaca", slug: "ithaca" },
+      { name: "Syracuse", slug: "syracuse" },
+      { name: "Auburn", slug: "auburn-ny" }
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Cortland, NY | Cluster Flies, Mice & Yellowjackets",
+    metaDescription:
+      "Cortland NY pest control for cluster flies, house mice, pavement ants and yellowjackets. Cortland County Finger Lakes plateau agricultural-edge specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -1373,4 +1373,142 @@ export const utahCities: CityLocation[] = [
     metaDescription:
       "Draper pest control for black widow spiders, pavement ants, house mice, voles and boxelder bugs. Salt Lake County Utah County point of the mountain Wasatch Front specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "murray-ut",
+    name: "Murray",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "50000",
+    county: "Salt Lake County",
+    climate: "semi-arid",
+    climateDriver: "High-desert semi-arid climate with hot dry summers and cold winters in the Salt Lake Valley drives black widow spider activity in summer, vole damage in spring, and boxelder bug invasions in fall.",
+    topPests: ["black widow spiders", "voles", "boxelder bugs", "pavement ants", "house mice"],
+    pestProfile: [
+      { name: "Black Widow Spiders", serviceSlug: "spider-control", activeSeason: "Peaks May through September", note: "Black widows shelter in window wells, garages, and rockery walls throughout Murray's dense mid-century Salt Lake Valley neighborhoods." },
+      { name: "Voles", activeSeason: "Peaks March through May", note: "Voles tunnel under Murray lawns through winter and cause visible surface runway damage and girdled shrub bases when snowmelt arrives in March." },
+      { name: "Boxelder Bugs", activeSeason: "Peaks September through October", note: "Boxelder bugs aggregate by the thousands on Murray's south-facing walls each October, entering wall voids through window frame gaps." },
+      { name: "Pavement Ants", serviceSlug: "ant-control", activeSeason: "Peaks July through September", note: "Pavement ants crack through concrete expansion joints across Murray in late summer, trailing into kitchens seeking moisture." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round", note: "House mice stay active in Murray attics and wall cavities through the Salt Lake Valley's cold winters, exploiting gaps in mid-century housing." },
+    ],
+    localHook: "Murray is a full-service Salt Lake County city with established mid-century neighborhoods along State Street and Fashion Place, and its dense housing creates the classic Wasatch Front pest calendar of black widows in summer, voles in spring, and boxelder bugs in fall.",
+    intro: "Murray homeowners in Salt Lake County face a pest year that tracks the valley's distinct seasons closely. Spring means voles surfacing from snow tunnels to damage lawn and garden roots. Summer brings black widow spiders into window wells, garages, and rockery walls. August and September trigger pavement ant activity as colonies seek moisture. October sends boxelder bugs to warm south-facing walls and into wall voids through window frame gaps. Winter keeps house mice active in attics and wall cavities. A licensed Murray technician knows when each pest peaks and treats before the problem becomes expensive.",
+    sections: [
+      {
+        heading: "Black Widow Control in Murray Garages and Window Wells",
+        body: "Black widow spiders are the most medically significant pest in Murray and across the Wasatch Front. They prefer undisturbed, dry harborage: window wells, behind storage shelving in garages, under deck boards, and in rockery gaps. Females rarely venture indoors but bites occur when people reach into infested spaces without checking first. Treatment involves targeted residual insecticide applied to harborage sites, with a focus on window wells and garage perimeters. Annual applications in May before breeding activity peaks are more cost-effective than emergency calls after someone is bitten."
+      },
+      {
+        heading: "Vole Damage to Murray Lawns and Gardens",
+        body: "Voles are small rodents that tunnel under snow through winter, creating surface runways visible in March when snow melts. In Murray's landscaped neighborhoods, they girdle tree and shrub bases, damage lawn roots, and destroy garden bulbs. They are not black widows but they cause real financial harm. Protective tree guards on young trees and shrubs, combined with landscape repellents or bait stations placed at active runways, keep vole populations from compounding across multiple seasons."
+      },
+      {
+        heading: "Boxelder Bug and Ant Management",
+        body: "Boxelder bugs are harmless but become a nuisance in Murray every October when they aggregate by the thousands on south and west-facing walls seeking warmth. They enter through window frame gaps, soffits, and attic vents to overwinter in wall cavities, then emerge at windows in winter during warm spells. Exterior perimeter spray in late September before aggregation begins greatly reduces entry. Pavement ants crack through concrete expansion joints in August and September, trailing into kitchens. Gel bait at interior entry points eliminates colony foragers without dispersing the colony."
+      }
+    ],
+    prevention: [
+      "Wear gloves when reaching into window wells, behind garage shelving, or under deck boards",
+      "Install window well covers to reduce black widow habitat and block boxelder bug entry",
+      "Place tree guards on young tree and shrub bases before November to protect against vole girdling",
+      "Seal window frame gaps and soffit vents with caulk before October to block boxelder bug entry",
+      "Keep firewood elevated and 20 feet from the foundation to deny mice and spiders harborage"
+    ],
+    costNote: "Black widow perimeter treatments in Murray run $120 to $220 per visit. Vole management programs including bait stations or repellents average $180 to $320 per season. Boxelder bug exterior spray before aggregation costs $130 to $210. Most licensed companies offer an annual pest plan combining spring and fall treatments at a bundled rate.",
+    faqs: [
+      {
+        question: "How dangerous are black widow bites in Murray?",
+        answer: "Black widow venom is a neurotoxin that causes muscle pain, cramping, and in rare cases more serious symptoms. Most adults recover fully, but bites in small children or elderly individuals warrant immediate medical attention. The risk in Murray is real because black widows are common in window wells and garages. Annual treatment reduces encounter risk significantly."
+      },
+      {
+        question: "When do voles become active in Salt Lake County?",
+        answer: "Voles remain active under snow all winter. The damage they cause (surface tunnels, girdled bark) becomes visible in March and April when snow melts. Spring is also when they breed most rapidly. Starting a management program in late winter before snow melts gives the best protection for landscaping."
+      },
+      {
+        question: "Can I just vacuum up boxelder bugs in my Murray home?",
+        answer: "Yes, vacuuming is safe and effective for individual boxelder bugs inside the home. However, it does not prevent more from entering through wall voids and emerging throughout winter. Exterior perimeter spray in late September stops the main wave before they enter. Sealing window frame gaps is the most lasting structural fix."
+      }
+    ],
+    author: "Sandra Whitfield",
+    nearbyCities: [
+      { name: "Salt Lake City", slug: "salt-lake-city" },
+      { name: "Sandy", slug: "sandy" },
+      { name: "Taylorsville", slug: "taylorsville" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Murray, UT | Black Widows, Voles & Boxelder Bugs",
+    metaDescription:
+      "Murray pest control for black widow spiders, voles, boxelder bugs, pavement ants and house mice. Salt Lake County Wasatch Front mid-valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "logan-ut",
+    name: "Logan",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "52000",
+    county: "Cache County",
+    climate: "cold",
+    climateDriver: "Cache Valley sits at 4,500 feet in a mountain basin that traps cold air in winter, creating strong temperature inversions, heavy snowfall, and a short warm season that concentrates rodent entry in fall and black widow activity into a brief summer window.",
+    topPests: ["house mice", "black widow spiders", "voles", "yellowjackets", "boxelder bugs"],
+    pestProfile: [
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Peaks September through March", note: "Cache Valley's high elevation and cold-air pooling mean mice start probing Logan homes as early as September, two to four weeks earlier than in the Salt Lake Valley." },
+      { name: "Black Widow Spiders", serviceSlug: "spider-control", activeSeason: "Peaks June through August", note: "Black widows survive Cache Valley winters in Logan's basement window wells and under porch steps; the cold merely compresses their active season." },
+      { name: "Yellowjackets", activeSeason: "Peaks July through September", note: "Logan's brief warm season means yellowjacket colonies build quickly in ground burrows; nest treatment in early August is optimal before peak aggression." },
+      { name: "Voles", activeSeason: "Peaks March through May", note: "Cache Valley's heavy snowpack supports large vole populations; surface tunnels and girdled shrub bases appear in Logan lawns when the snowpack melts in March." },
+      { name: "Boxelder Bugs", activeSeason: "Peaks September through November", note: "Boxelder bugs enter Logan homes through window frame gaps in fall and emerge throughout the long mountain-basin winter during warm spells." },
+    ],
+    localHook: "Logan is the largest city in Cache Valley and home to Utah State University, and its cold mountain-basin location means a concentrated pest season where rodents, spiders, and wasps all peak within a few months of each other.",
+    intro: "Logan, Utah sits at the narrow head of Cache Valley, surrounded by the Bear River Range to the east and the Wellsville Mountains to the west. The valley's geography traps cold air in winter, making it one of the colder inhabited valleys in the Intermountain West. Pests adapt to that constraint by concentrating activity into the brief warm season, then seeking shelter in Logan's older homes and student housing through a long winter. House mice are the top pest year in and year out. Black widows claim basement window wells and rockery from June through August. Voles emerge after snowmelt to damage lawns and garden borders. A licensed Cache County technician knows the valley's rhythms.",
+    sections: [
+      {
+        heading: "Mouse Control Through Logan's Long Winter",
+        body: "Cache Valley's cold mountain climate means Logan houses face mouse pressure for six or more months of the year, from October through March at minimum. Older homes near the Utah State University campus and the historic downtown district have gaps around water pipes, foundation sills, and utility penetrations that mice exploit readily. A licensed technician seals priority entry points with steel wool and hardware cloth, installs tamper-resistant exterior bait stations, and sets interior snap traps in active zones. Follow-up visits at 30 and 60 days confirm elimination before the next cold season begins."
+      },
+      {
+        heading: "Black Widow Management in Logan Basements",
+        body: "Black widow spiders are present throughout Cache Valley in summer, sheltering in window wells, under porch steps, and behind items stored in garages and basements. They do not actively pursue people but bites occur when the spider is accidentally disturbed. In Logan's older basement-heavy housing stock, window wells that are not covered or regularly inspected are the highest-risk zone. Annual treatment in May, before breeding peaks, combined with window well covers, significantly reduces encounter risk for Cache County residents."
+      },
+      {
+        heading: "Voles and Yellowjackets in the Spring and Summer Season",
+        body: "Cache Valley's heavy snowpack supports large vole populations through winter. When snow melts in March and April, homeowners in Logan's residential areas often discover networks of surface tunnels crossing lawns, with girdled shrub bases and damaged bulbs underneath. Bait stations placed at active runways before snow falls in October are more effective than post-damage reactive treatment. Yellowjackets nest in ground burrows and wall voids from June through September. Logan's brief warm season means colonies reach peak size quickly; nest treatment in early August is optimal timing."
+      }
+    ],
+    prevention: [
+      "Seal all foundation penetrations and utility runs with steel wool before October for rodent prevention",
+      "Install window well covers to protect against black widows and block boxelder bug entry",
+      "Place vole protection sleeves around young trees and shrubs before first snowfall",
+      "Keep basement storage areas organized so black widows cannot build undisturbed in clutter",
+      "Trim grass short near the foundation to reduce vole runway habitat and yellowjacket nesting"
+    ],
+    costNote: "Mouse exclusion and trapping in Logan typically costs $200 to $420 depending on entry-point count and structure size. Black widow treatments run $120 to $210 per visit. Vole management programs average $160 to $300 per season. Yellowjacket nest treatments cost $140 to $220. Many Logan companies offer a bundled fall-entry prevention service before the cold season.",
+    faqs: [
+      {
+        question: "Why do mice enter Logan homes so much earlier than in warmer Utah cities?",
+        answer: "Cache Valley's high elevation and mountain-basin cold-air pooling means temperatures drop below mouse comfort thresholds earlier than in the Salt Lake Valley. Mice start probing for entry points when exterior temps fall below about 35 degrees. In Logan, that can happen in September, two to four weeks earlier than in Salt Lake City or Murray."
+      },
+      {
+        question: "Are black widows common in Logan despite the cold winters?",
+        answer: "Yes. Black widows survive Cache Valley winters by sheltering in protected dry spots like basement window wells, under porch steps, and behind garage clutter. They become active in summer and lay egg sacs in July and August. The cold winter does not eliminate them; it just compresses their active season. Annual spring treatment keeps populations low."
+      },
+      {
+        question: "How can I tell vole damage from mole damage in my Logan lawn?",
+        answer: "Voles create surface runways, flat paths about 1.5 inches wide, through grass and leave small entrance holes about the size of a quarter. Moles create raised soil ridges and mounds. In Cache Valley, vole damage is far more common than mole damage. Voles also girdle plant stems at soil level, which moles do not do."
+      }
+    ],
+    author: "Dr. Lena Ortiz",
+    nearbyCities: [
+      { name: "Murray", slug: "murray-ut" },
+      { name: "Ogden", slug: "ogden" },
+      { name: "Layton", slug: "layton" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Logan, UT | Mice, Black Widows & Voles",
+    metaDescription:
+      "Logan pest control for house mice, black widow spiders, voles and yellowjackets. Cache County Cache Valley mountain basin specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -2542,4 +2542,73 @@ export const missouriCities: CityLocation[] = [
     metaTitle: "Pest Control in University City, MO | Brown Recluse & Cockroaches",
     metaDescription: "University City pest control for brown recluse spiders, cockroaches, termites, and silverfish in St. Louis County. Older-home specialists. Free inspection. Call 1-800-PEST-USA."
   },
+  {
+    slug: "gladstone-mo",
+    name: "Gladstone",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "27000",
+    county: "Clay County",
+    climate: "hot-humid",
+    climateDriver: "Humid continental Missouri River valley climate north of Kansas City with hot humid summers and cold winters drives eastern subterranean termite activity, brown recluse spider pressure in older homes, and house mouse entry from October through March.",
+    topPests: ["eastern subterranean termites", "brown recluse spiders", "house mice", "German cockroaches", "odorous house ants"],
+    pestProfile: [
+      { name: "Eastern Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Peaks March through May; active most of year", note: "Gladstone's 1950s and 1960s post-war bungalows with pier-and-beam foundations in Clay County are entering the compounding-damage window for subterranean termite colonies." },
+      { name: "Brown Recluse Spiders", serviceSlug: "spider-control", activeSeason: "Year-round", note: "Brown recluse spiders are very common in Clay County's older housing stock; Gladstone's crawl spaces, attic insulation, and basement storage are prime undisturbed harborage." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Peaks October through March", note: "Creek and greenway corridors in Gladstone's residential neighborhoods provide mouse travel routes; mice enter from October through March." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "Multi-family buildings and commercial strip along Gladstone's North Oak Trafficway maintain established German cockroach populations in food-service and kitchen environments." },
+      { name: "Odorous House Ants", serviceSlug: "ant-control", activeSeason: "Peaks April through September", note: "Odorous house ants trail into Gladstone kitchens from spring through summer; non-repellent gel bait placed at entry points resolves infestations without dispersing the colony." },
+    ],
+    localHook: "Gladstone is part of Kansas City's Northland, and its post-war bungalows and split-level homes along Barry Road and North Oak Trafficway were built at exactly the wood species and construction quality that eastern subterranean termites and brown recluse spiders favor.",
+    intro: "Gladstone is a Clay County city that functions as a suburban anchor for the Kansas City Northland, and its housing stock reflects the post-war building boom of the 1950s and 1960s. Those homes are now aging into the window where termite damage compounds and brown recluse spiders accumulate undisturbed in crawl spaces and basements. Eastern subterranean termites are active across Clay County, making annual inspection the most cost-effective decision for Northland homeowners. German cockroaches are persistent in apartment buildings along the North Oak corridor. House mice enter from the creek and woodland corridors that wind through Gladstone's neighborhoods each fall.",
+    sections: [
+      {
+        heading: "Termite Protection for Northland Homes",
+        body: "Eastern subterranean termites work silently for years before visible damage appears. In Gladstone's older housing stock, the combination of pier-and-beam foundations, older pressure-treated lumber at soil contact, and mature landscaping that holds moisture against the foundation creates ideal conditions. Spring swarmers in March through May are the visible alert. An annual inspection assesses mud tubes, moisture intrusion, and wood condition. Treatment options include liquid termiticide barrier applied to the soil around the foundation or a bait station network with quarterly monitoring. A warranty-backed treatment protects resale value in a competitive Kansas City market."
+      },
+      {
+        heading: "Brown Recluse Spider Management",
+        body: "Brown recluse spiders are one of the most frequently encountered medically significant spiders in Missouri, and Clay County is well within their established range. Gladstone's older homes provide exactly the undisturbed harborage they require: crawl spaces, attic insulation, basement storage areas, and inside wall voids. They bite defensively when pressed against skin in clothing, shoes, or bedding. Professional management focuses on reducing clutter, applying residual dust insecticide to attic and crawl space areas, and using sticky traps near baseboards to monitor population levels over time."
+      },
+      {
+        heading: "Mouse and Cockroach Control Year-Round",
+        body: "House mice enter Gladstone homes from October through March, exploiting the creek and greenway corridors that run through residential neighborhoods as travel routes. Exterior bait stations at the foundation and interior snap traps in the kitchen and garage manage populations through winter. German cockroaches are established in the multi-family buildings and commercial strip along North Oak Trafficway. They require gel bait at harborage points and follow-up visits at 30 days to confirm elimination. Repellent spray alone drives cockroaches deeper into wall voids without reducing the population."
+      }
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for any Gladstone home built before 1985",
+      "Reduce basement and crawl space clutter to eliminate brown recluse harborage",
+      "Check shoes and unworn clothing for brown recluse spiders before putting them on",
+      "Seal foundation penetrations and crawl space vents before October for mouse prevention",
+      "Fix under-sink drips and bathroom moisture to deny German cockroaches water access"
+    ],
+    costNote: "Termite treatment in Gladstone runs $800 to $1,600 for a liquid barrier or bait station installation. Brown recluse management programs average $130 to $250 per visit with quarterly follow-up. Mouse exclusion and trapping programs cost $200 to $380 per service cycle. German cockroach programs in multi-family buildings start at $160 per unit per visit.",
+    faqs: [
+      {
+        question: "How common are brown recluse spiders in Clay County, MO?",
+        answer: "Very common. Brown recluse spiders are established throughout Missouri, and Clay County is in the heart of their range. Research in Missouri has found them in a large majority of homes surveyed. Most people coexist with brown recluses without incident because the spiders are non-aggressive and avoid contact. Bites occur when the spider is pressed against skin. Reducing clutter minimizes risk."
+      },
+      {
+        question: "When do eastern subterranean termites swarm in Gladstone?",
+        answer: "Termite swarmers in Clay County typically appear on warm, still days from late March through early May, often following rain. They emerge in large numbers, shed their wings, and are often mistaken for flying ants. Presence of swarmers indoors is a strong indicator of an active colony nearby. Schedule an inspection promptly if you see swarmers inside."
+      },
+      {
+        question: "Are mice in my Gladstone home a health concern?",
+        answer: "House mice can carry hantavirus, salmonella, and leptospirosis. Mouse droppings in food preparation areas contaminate surfaces and food. They also gnaw electrical wiring, which creates fire risk. An active mouse infestation warrants prompt professional treatment, not a wait-and-see approach."
+      }
+    ],
+    author: "James Cole",
+    nearbyCities: [
+      { name: "Kansas City", slug: "kansas-city" },
+      { name: "St. Joseph", slug: "st-joseph" },
+      { name: "Lees Summit", slug: "lees-summit" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Gladstone, MO | Termites, Brown Recluse & Mice",
+    metaDescription:
+      "Gladstone pest control for eastern subterranean termites, brown recluse spiders, house mice and German cockroaches. Clay County Kansas City Northland specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

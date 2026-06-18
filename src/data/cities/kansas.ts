@@ -1619,4 +1619,73 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "Leawood pest control for termites, mice, brown recluse spiders, stink bugs and cockroaches. Johnson County specialists for mid-century homes. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "dodge-city",
+    name: "Dodge City",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "28000",
+    county: "Ford County",
+    climate: "semi-arid",
+    climateDriver: "High Plains semi-arid climate with hot summers, cold winters, and limited annual rainfall in southwest Kansas drives black widow spider activity, house fly and gnats from cattle operations, and house mouse entry from October through March.",
+    topPests: ["black widow spiders", "house flies", "house mice", "brown recluse spiders", "odorous house ants"],
+    pestProfile: [
+      { name: "Black Widow Spiders", serviceSlug: "spider-control", activeSeason: "Peaks May through September", note: "Black widows are abundant in undisturbed spaces across southwest Kansas; Ford County's drier High Plains climate favors them in garages, window wells, and wood piles." },
+      { name: "House Flies", activeSeason: "Peaks April through October", note: "Nearby feedlot operations in Ford County produce fly breeding material at scale; prevailing winds can carry flies several miles into Dodge City residential areas." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Peaks October through March", note: "House mice move from short-grass prairie and the cottonwood-lined Arkansas River corridor into Dodge City homes as High Plains temperatures fall below freezing." },
+      { name: "Brown Recluse Spiders", serviceSlug: "spider-control", activeSeason: "Year-round", note: "Brown recluse spiders are documented in Ford County structures, particularly in older downtown commercial buildings and residential basement storage areas." },
+      { name: "Odorous House Ants", serviceSlug: "ant-control", activeSeason: "Peaks April through August", note: "Odorous house ants trail through Dodge City foundations seeking moisture during the semi-arid summer; gel bait at entry points outperforms spray." },
+    ],
+    localHook: "Dodge City sits at the center of southwest Kansas cattle country, and the combination of nearby feedlot operations, expansive grassland, and the Arkansas River corridor creates a pest environment that most other Kansas cities simply do not deal with.",
+    intro: "Dodge City, Kansas carries a famous historical identity from the cattle drive era, and the cattle industry is still a major economic fact of life in Ford County today. That industry connection has a direct pest implication: large feedlot operations near the city produce fly pressure from late April through September that exceeds what most Kansas cities experience. Black widow spiders are abundant in undisturbed spaces across southwest Kansas, including in residential garages and storage buildings. Brown recluse spiders are year-round residents in older structures. House mice move from the surrounding short-grass prairie and field edges into homes each fall. A licensed Ford County technician understands the local conditions.",
+    sections: [
+      {
+        heading: "Fly Management in a Cattle Country City",
+        body: "House flies and stable flies near feedlot-adjacent areas of Dodge City are a genuine seasonal public health concern from May through October. They breed in manure and organic waste and can carry more than 60 pathogens. For residential properties near the outskirts of town, fly control combines perimeter bait stations with granular fly bait placed in bait stations (not open-cast), exclusion with tight-fitting window screens and door sweeps, and UV light traps for indoor management. Commercial food establishments near the meat-packing district need more intensive programs with weekly service."
+      },
+      {
+        heading: "Black Widow and Brown Recluse Control",
+        body: "Black widows in Ford County shelter in dry, undisturbed spaces: window wells, behind stored items in garages, in wood piles, and under concrete slabs. Annual exterior treatment in May targets harborage before summer activity peaks. Brown recluse spiders are year-round residents in older Dodge City homes, particularly in the undisturbed wall voids, attic insulation, and basements of structures built before 1970. Sticky traps near baseboards provide monitoring data. Professional residual treatments to attic and crawl space areas, combined with clutter reduction, are the most effective combination."
+      },
+      {
+        heading: "Rodent Control in a Plains City",
+        body: "House mice in Dodge City enter from surrounding short-grass prairie and from the cottonwood-lined Arkansas River corridor as temperatures fall below freezing in October. Older downtown commercial buildings and residential neighborhoods on the city's edges face the highest pressure. Tamper-resistant exterior bait stations, steel wool exclusion at foundation penetrations, and interior snap traps in the kitchen and utility areas give a complete rodent management program. Norway rats are less common in Dodge City than in wetter Kansas cities but appear near grain storage and commercial waste areas."
+      }
+    ],
+    prevention: [
+      "Install tight-fitting window screens and door sweeps to reduce fly entry during feedlot season",
+      "Seal foundation penetrations, pipe chases, and garage door seals before October for mouse prevention",
+      "Wear gloves and inspect window wells and behind storage shelving for black widows before reaching in",
+      "Keep wood piles and debris away from the foundation as black widow and brown recluse harborage",
+      "Remove clutter from basements, attics, and closets to reduce brown recluse shelter"
+    ],
+    costNote: "Fly management programs for residential properties near the Dodge City outskirts run $100 to $200 per month during fly season. Black widow and brown recluse treatment programs average $150 to $280 per visit. Mouse exclusion and bait station programs run $200 to $380 for a full season. Commercial food-service properties near downtown typically need more comprehensive programs starting at $250 per visit.",
+    faqs: [
+      {
+        question: "Why are there so many flies in Dodge City compared to other Kansas cities?",
+        answer: "Ford County is one of the leading cattle-feeding counties in the United States. Large-scale feedlot operations produce the organic material that house flies and stable flies need to breed. Prevailing southwest winds can carry flies several miles from source to residential areas. Effective fly control in Dodge City requires both exclusion and active management, not just a window screen."
+      },
+      {
+        question: "Are black widows common in southwest Kansas?",
+        answer: "Yes. Black widow spiders are well documented in Ford County and across southwest Kansas. The drier, hotter climate of the High Plains favors them over the wetter eastern Kansas environment. They prefer dry, undisturbed harborage in garages, window wells, and wood piles. Annual treatment in May before breeding season peaks keeps residential populations low."
+      },
+      {
+        question: "How do I protect my Dodge City home from mice in winter?",
+        answer: "Seal gaps in the foundation, around pipe penetrations, and at the garage door weather seal before October. Install exterior bait stations at the foundation perimeter. Set snap traps in the kitchen and utility room as a secondary line of defense. A professional exclusion inspection can identify entry points you would miss during a DIY walk-around."
+      }
+    ],
+    author: "Marcus Reed",
+    nearbyCities: [
+      { name: "Wichita", slug: "wichita" },
+      { name: "Garden City", slug: "garden-city" },
+      { name: "Salina", slug: "salina" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Dodge City, KS | Black Widows, Flies & Mice",
+    metaDescription:
+      "Dodge City pest control for black widow spiders, house flies, brown recluse spiders and house mice. Ford County High Plains cattle country specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

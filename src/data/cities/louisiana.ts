@@ -1941,4 +1941,73 @@ export const louisianaCities: CityLocation[] = [
     metaDescription:
       "Crowley pest control for Formosan termites, mosquitoes, fire ants and cockroaches. Acadia Parish rice capital of Louisiana specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "thibodaux",
+    name: "Thibodaux",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "15000",
+    county: "Lafourche Parish",
+    climate: "hot-humid",
+    climateDriver: "Bayou Lafourche subtropical climate at near-sea-level elevation with year-round warmth, high humidity, and proximity to the Gulf of Mexico drives Formosan termite and Coptotermes colony activity, year-round mosquito breeding, and American cockroach pressure in below-grade structures.",
+    topPests: ["Formosan subterranean termites", "American cockroaches", "mosquitoes", "fire ants", "German cockroaches"],
+    pestProfile: [
+      { name: "Formosan Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Peaks April through June; active most of year", note: "Formosan termites are heavily established in south Louisiana; Thibodaux's historic wood-frame Creole cottages along Bayou Lafourche have faced decades of colony pressure." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Year-round; peaks April through November", note: "Bayou Lafourche's drainage and Thibodaux's subtropical climate mean there is no true mosquito-free season; yellow fever and Asian tiger mosquitoes are both documented in Lafourche Parish." },
+      { name: "American Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "American cockroaches colonize below-grade spaces and utility drainage systems across Thibodaux, entering homes through floor drains and pipe penetrations." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "German cockroaches thrive in Thibodaux's warm commercial kitchen environments and apartment complexes near Nicholls State University." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "Peaks March through November", note: "Red imported fire ants colonize yards and public spaces throughout Lafourche Parish; mound counts spike after spring and fall rains." },
+    ],
+    localHook: "Thibodaux is an old bayou community along Bayou Lafourche where the combination of year-round subtropical heat, high humidity, and the drainage system of the Atchafalaya Basin creates some of the most intense Formosan termite and mosquito pressure in Louisiana.",
+    intro: "Thibodaux is the seat of Lafourche Parish, a bayou community with historic roots in the sugarcane industry and a modern identity built on oil-field services and Nicholls State University. The natural environment is lush, warm, and wet year-round, which is exactly what pests want. Formosan subterranean termites are the biggest structural threat in south Louisiana, and Thibodaux's older downtown district and bayou-side neighborhoods have the historic wood-frame buildings that termite colonies have been exploiting for decades. Mosquitoes breed in the bayou drainage twelve months of the year. American cockroaches colonize below-grade spaces, basements, and crawl spaces across the parish. A licensed Lafourche Parish technician knows these conditions.",
+    sections: [
+      {
+        heading: "Formosan Termite Control in Lafourche Parish",
+        body: "Formosan subterranean termites (Coptotermes formosanus) are more destructive than native eastern subterranean termites because their colonies can be 10 to 100 times larger, with millions of workers foraging through soil and inside structures simultaneously. In Thibodaux, they attack the historic wood-frame Creole cottages and shotgun houses that line older streets near downtown and along the bayou. Damage can be extensive before surface signs appear. Treatment requires a dual approach: soil liquid barrier or bait stations around the foundation and inspection of the above-slab wood. Formosan termite programs in south Louisiana require annual reapplication inspections to confirm continued protection."
+      },
+      {
+        heading: "Year-Round Mosquito Management",
+        body: "Thibodaux's subtropical climate means there is no true mosquito-free season. Winter populations are lower but not absent in a mild year. Peak pressure runs from April through November. The bayou drainage, sugarcane fields, and residential standing water in saucers, gutters, and containers all serve as breeding habitat. A licensed technician applies larvicide to standing water features and barrier spray to resting vegetation every 21 days. Source reduction, eliminating standing water in the yard, cuts breeding habitat before it becomes a problem. Yellow fever mosquitoes (Aedes aegypti) and Asian tiger mosquitoes (Aedes albopictus) are both documented in Lafourche Parish."
+      },
+      {
+        heading: "American Cockroach and Fire Ant Control",
+        body: "American cockroaches (Periplaneta americana, also called palmetto bugs) thrive in Thibodaux's warm, moist below-grade spaces: crawl spaces, storm drains, slab gaps, and utility tunnels. They enter homes from underground, emerging through floor drains and gaps at pipe penetrations. Treatment targets these entry zones with residual spray and gel bait. Fire ants colonize yards, public spaces, and road shoulders throughout Lafourche Parish from March through November. Two-step treatment, broadcast bait followed by individual mound drenching, provides the most effective seasonal suppression."
+      }
+    ],
+    prevention: [
+      "Schedule a Formosan termite inspection every year for any structure in Lafourche Parish, new or old",
+      "Eliminate standing water in saucers, gutters, and low yard areas year-round for mosquito control",
+      "Seal floor drain gaps and pipe penetrations with caulk to block American cockroach entry",
+      "Apply fire ant bait to the full yard in spring and fall rather than treating mounds reactively",
+      "Repair roof leaks and reduce crawl space moisture to deny Formosan termites a favorable wood moisture level"
+    ],
+    costNote: "Formosan termite treatment in Thibodaux typically runs $1,200 to $2,500 for a soil barrier combined with above-slab wood treatment, with annual monitoring around $400. Mosquito barrier spray programs cost $75 to $140 per treatment on a 21-day cycle. American cockroach perimeter treatment starts at $120 per visit. Fire ant two-step programs average $90 to $160 per application.",
+    faqs: [
+      {
+        question: "How are Formosan termites different from regular termites in Thibodaux?",
+        answer: "Formosan subterranean termites are an invasive species first established in south Louisiana in the 1960s. Their colonies are dramatically larger than native termite species, sometimes reaching several million workers compared to a few hundred thousand in native colonies. They can consume wood faster and cause structural damage in months that would take native termites years. Any structure in Lafourche Parish should be under an active termite management program."
+      },
+      {
+        question: "Do mosquitoes in Thibodaux carry disease?",
+        answer: "Louisiana mosquitoes can carry West Nile virus, St. Louis encephalitis, and eastern equine encephalitis. The Asian tiger mosquito (Aedes albopictus), which is established in Lafourche Parish, is a potential vector for dengue and Zika in travel-imported cases. West Nile is the most common mosquito-borne illness in Louisiana. Reducing breeding habitat and applying barrier spray significantly lowers your family's exposure risk."
+      },
+      {
+        question: "What is the big cockroach in my Thibodaux bathroom and how do I get rid of it?",
+        answer: "The large reddish-brown cockroach common in Louisiana bathrooms is the American cockroach (Periplaneta americana), often called a palmetto bug. They enter from below-grade spaces and drains, not from infested food. Sealing floor drain gaps, applying gel bait at entry points, and treating crawl space areas with residual spray addresses the source. They are not a sign of an unclean home; they are a tropical species adapted to bayou-region basements and drainage systems."
+      }
+    ],
+    author: "Dr. Lena Ortiz",
+    nearbyCities: [
+      { name: "Houma", slug: "houma" },
+      { name: "New Iberia", slug: "new-iberia" },
+      { name: "Crowley", slug: "crowley" }
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Thibodaux, LA | Formosan Termites, Mosquitoes & Cockroaches",
+    metaDescription:
+      "Thibodaux pest control for Formosan termites, mosquitoes, American cockroaches and fire ants. Lafourche Parish Bayou Lafourche south Louisiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

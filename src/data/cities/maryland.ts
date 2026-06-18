@@ -1933,4 +1933,73 @@ export const marylandCities: CityLocation[] = [
     metaDescription:
       "Havre de Grace MD pest control for mosquitoes, subterranean termites, stink bugs and cluster flies. Harford County Susquehanna Flats Chesapeake Bay waterfront specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "takoma-park",
+    name: "Takoma Park",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "18000",
+    county: "Montgomery County",
+    climate: "hot-humid",
+    climateDriver: "Mid-Atlantic humid subtropical climate with hot summers and mild winters in the Washington DC metro creates year-round termite pressure, peak mosquito activity from May through September, and brown marmorated stink bug invasions every fall.",
+    topPests: ["eastern subterranean termites", "brown marmorated stink bugs", "mosquitoes", "carpenter ants", "German cockroaches"],
+    pestProfile: [
+      { name: "Eastern Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Peaks March through May; active most of year", note: "Takoma Park's pre-1950 housing stock with crawl spaces and wood-on-soil contact is prime eastern subterranean termite territory in Montgomery County." },
+      { name: "Brown Marmorated Stink Bugs", activeSeason: "Peaks September through October", note: "Takoma Park sits in the densest range of brown marmorated stink bugs in the mid-Atlantic; they aggregate on south-facing walls and enter through any gap." },
+      { name: "Carpenter Ants", activeSeason: "Peaks April through September", note: "Takoma Park's mature urban tree canopy provides carpenter ant foraging access to older homes where moisture-damaged wood in crawl spaces and window frames is common." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Peaks May through September", note: "Shaded moist conditions under Takoma Park's tree canopy keep adult mosquitoes alive longer; Asian tiger mosquitoes bite through the day in residential yards." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "Older multi-family buildings and food-service areas near the DC border in Takoma Park maintain German cockroach populations in kitchen environments." },
+    ],
+    localHook: "Takoma Park is one of Maryland's older inner suburbs, with Victorian and craftsman homes on tree-lined streets that make it charming and also make it prime habitat for carpenter ants, termites, and the stink bug invasions that plague the entire DC metro each October.",
+    intro: "Takoma Park, nestled between Washington DC and Silver Spring, has one of the highest proportions of pre-war housing stock of any Maryland city. That history means termites and carpenter ants have had decades to exploit older wood in crawl spaces, sill plates, and structural timbers. Brown marmorated stink bugs arrive in fall on south-facing walls across the DC metro and have become one of the most complained-about nuisance pests in Montgomery County. Mosquitoes are aggressive from May through September in the city's mature urban tree canopy and yard drainage. A licensed Maryland technician with DC metro experience knows the full picture.",
+    sections: [
+      {
+        heading: "Termite and Carpenter Ant Protection in Older Homes",
+        body: "Takoma Park's pre-1950 housing stock is prime territory for both eastern subterranean termites and carpenter ants. Termites attack sill plates, floor joists, and any wood in contact with soil or moisture. Carpenter ants hollow galleries in moist, often moisture-damaged wood in crawl spaces, window frames, and deck structural members. The two pests are often found in the same structure. An annual inspection that covers both is essential for older Takoma Park homes. Termite treatment options include liquid barrier applications and bait station networks. Carpenter ant control requires locating the parent colony, treating foraging trails, and correcting moisture issues."
+      },
+      {
+        heading: "Brown Marmorated Stink Bug Management",
+        body: "Brown marmorated stink bugs have been established in the DC metro area since the late 1990s and Takoma Park is squarely in their densest range. They aggregate on exterior walls in September and October, seeking warmth before winter. They enter through any gap: around window air conditioning units, through soffit vents, at attic gable vents, and around window frames. Exterior perimeter spray in early September before aggregation begins significantly reduces entry. Sealing gaps with caulk and weather stripping is the most permanent fix. Once inside, they overwinter in wall voids and emerge at windows on warm winter days."
+      },
+      {
+        heading: "Mosquito Season in a Tree-Canopy City",
+        body: "Takoma Park's mature urban tree canopy creates shaded, moist conditions that mosquitoes favor for daytime resting. The city's topography directs yard drainage into low spots and rain gardens that can serve as breeding habitat. Licensed applicators treat resting vegetation with barrier spray, apply larvicide to standing water features, and recommend source reduction for yard containers. Treatments on a 21-day cycle maintain suppression through September."
+      }
+    ],
+    prevention: [
+      "Seal gaps around window air conditioner units and window frames before September to block stink bugs",
+      "Schedule an annual termite inspection for any home in Takoma Park built before 1980",
+      "Trim tree branches touching the roof to block carpenter ant travel from canopy to structure",
+      "Empty birdbaths, saucers, and rain garden standing water weekly during mosquito season",
+      "Install door sweeps and repair window screen gaps to reduce all pest entry points"
+    ],
+    costNote: "Termite treatment in Takoma Park runs $900 to $1,800 for liquid barrier or $1,000 to $1,700 for a bait station network with annual monitoring. Stink bug exterior perimeter spray costs $130 to $210 per application. Carpenter ant programs average $250 to $450 per visit. Mosquito barrier spray starts at $75 per treatment on a 21-day cycle.",
+    faqs: [
+      {
+        question: "Are brown marmorated stink bugs harmful in my Takoma Park home?",
+        answer: "Stink bugs do not bite, sting, or damage structures. They are a nuisance pest whose primary harm is their unpleasant odor when crushed and the sheer number of them that can accumulate in wall voids and attics over winter. Vacuum them individually rather than crushing them to avoid the smell."
+      },
+      {
+        question: "How do I know if my older Takoma Park home has termites?",
+        answer: "Look for pencil-diameter mud tubes along foundation walls or crawl space piers, hollow-sounding wood when tapped, and spring swarmers at windows in March through May. Pre-1950 homes with crawl spaces or wood-on-soil contact are at highest risk. An annual licensed inspection is the most reliable detection method."
+      },
+      {
+        question: "What makes mosquitoes so bad in urban areas like Takoma Park?",
+        answer: "Urban tree canopy provides shaded resting sites that keep adult mosquitoes alive longer. Dense residential areas have many small water sources such as gutters, saucers, and rain barrels that serve as breeding habitat. The Asian tiger mosquito (Aedes albopictus), which is established throughout the DC metro, bites during the day and breeds in small containers, making urban yard management especially important."
+      }
+    ],
+    author: "Sandra Whitfield",
+    nearbyCities: [
+      { name: "Silver Spring", slug: "silver-spring" },
+      { name: "Gaithersburg", slug: "gaithersburg" },
+      { name: "Rockville", slug: "rockville" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Takoma Park, MD | Termites, Stink Bugs & Mosquitoes",
+    metaDescription:
+      "Takoma Park pest control for eastern subterranean termites, stink bugs, mosquitoes and carpenter ants. Montgomery County DC inner suburb pre-war home specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

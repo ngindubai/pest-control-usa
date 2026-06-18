@@ -1271,4 +1271,142 @@ export const oregonCities: CityLocation[] = [
     metaDescription:
       "Tigard pest control for Norway rats, carpenter ants, odorous house ants, yellowjackets and earwigs. Washington County Fanno Creek Portland metro specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "grants-pass",
+    name: "Grants Pass",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "38000",
+    county: "Josephine County",
+    climate: "mediterranean",
+    climateDriver: "Inland Rogue River Valley location brings hot, dry summers and mild wet winters unlike the wet western Oregon coast, creating strong carpenter ant and yellowjacket pressure in summer and rodent entry in the cooler rainy season.",
+    topPests: ["carpenter ants", "yellowjackets", "odorous house ants", "house mice", "brown widow spiders"],
+    pestProfile: [
+      { name: "Carpenter Ants", activeSeason: "Peaks May through September", note: "Grants Pass's warm Rogue Valley dry-summer climate accelerates carpenter ant colony growth in moisture-damaged Douglas fir timbers in older craftsman homes." },
+      { name: "Yellowjackets", activeSeason: "Peaks June through October", note: "Yellowjackets nest in rock walls and ground burrows along the Rogue River corridor; the longer warm season compared to western Oregon allows large colonies to form." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Peaks November through February", note: "Mice enter Grants Pass structures as winter rains arrive, exploiting gaps along foundation walls and behind stucco cladding in the rainy season." },
+      { name: "Odorous House Ants", serviceSlug: "ant-control", activeSeason: "Peaks March through June", note: "Odorous house ants trail into Josephine County kitchens through expansion joints in late spring; non-repellent gel bait outperforms spray." },
+      { name: "Brown Widow Spiders", serviceSlug: "spider-control", activeSeason: "Peaks June through September", note: "Brown widow spiders are documented in Josephine County, sheltering in undisturbed garages and storage areas across Grants Pass." },
+    ],
+    localHook: "Grants Pass lies where the Rogue River cuts through the Klamath Mountains, and the valley's Mediterranean dry-summer climate means carpenter ants and yellowjackets thrive in conditions that differ sharply from Portland or Eugene.",
+    intro: "Grants Pass homeowners in Josephine County encounter a pest lineup shaped by the Rogue River Valley's warm, dry summers and mild winters. Carpenter ants are the most destructive: they exploit moisture-damaged wood in older craftsman homes and deck framing, hollowing galleries that weaken structures over years. Yellowjackets build enormous colonies in rock walls along the river and in ground burrows in residential yards from June through September. House mice enter year-round but pressure increases in the rainy season from November through February. The valley's geography and climate require treatment approaches that differ from western Oregon norms.",
+    sections: [
+      {
+        heading: "Carpenter Ant Control in the Rogue Valley",
+        body: "Carpenter ants in Grants Pass favor Douglas fir and cedar structural wood that has absorbed moisture from roof leaks, improperly flashed decks, or crawl spaces without vapor barriers. A mature colony can hold 10,000 workers by mid-summer. The tell-tale sign is frass, coarse sawdust-like material mixed with insect parts, near baseboards or in window frames. Treatment requires identifying the parent colony location, applying non-repellent residual insecticide to foraging trails, and treating void spaces with dust. Moisture correction is essential: without it, ants return."
+      },
+      {
+        heading: "Yellowjacket Season Along the Rogue River",
+        body: "Yellowjackets in Grants Pass are active from early June through October in a valley that stays warm longer than western Oregon. They nest underground in disturbed soil near rockeries and along the river banks, and in wall voids of older homes. A colony peaks at 5,000 or more workers by August. Nest treatment after dark with dust insecticide poured or blown into the entrance is most effective. Do not seal the entrance before treatment or the colony will open a second exit into the living space."
+      },
+      {
+        heading: "Rodent and Ant Management Year-Round",
+        body: "House mice in Grants Pass enter structures as winter rains arrive in November, exploiting gaps along the foundation and behind stucco cladding. Exclusion with steel mesh at utility penetrations and foundation vents combined with exterior bait stations keeps populations low. Odorous house ants (the small, coconut-scented species) trail into kitchens through expansion joints in late spring. Non-repellent gel baits applied to foraging trails at entry points are more effective than perimeter sprays, which scatter the colony."
+      }
+    ],
+    prevention: [
+      "Repair roof leaks and deck flashing promptly to deny carpenter ants moist wood",
+      "Install a 6-mil vapor barrier in the crawl space and maintain ventilation to keep wood dry",
+      "Seal foundation penetrations and utility entries with steel wool and caulk before November",
+      "Cut back tree branches touching the roofline to block carpenter ant highway access",
+      "Remove old stumps and firewood from near the foundation as carpenter ant satellite-colony sites"
+    ],
+    costNote: "Carpenter ant treatment in Grants Pass typically runs $250 to $500 for a full inspection, trail treatment, and void dust application. Yellowjacket nest elimination averages $150 to $280 per nest. Rodent exclusion programs start around $220. Most companies provide a 90-day service guarantee on ant and rodent work.",
+    faqs: [
+      {
+        question: "How are carpenter ants different from termites in a Grants Pass home?",
+        answer: "Carpenter ants excavate galleries in already-soft or moist wood but do not eat wood. They push frass, a mixture of coarse wood particles and insect parts, out of galleries. Termites consume wood and leave mud tubes on surfaces. If you see large black ants or coarse sawdust near structural wood, call for a carpenter ant inspection. Both cause serious structural damage if ignored."
+      },
+      {
+        question: "Are yellowjackets in Josephine County aggressive?",
+        answer: "Western yellowjackets in the Rogue Valley are among the most defensive stinging insects in Oregon. Ground nests disturbed by lawn mowing produce mass stinging events. Wall-void nests that are partially sealed can send workers through gaps into living areas. Professional treatment after dark is far safer than DIY methods."
+      },
+      {
+        question: "Do house mice in Grants Pass carry disease?",
+        answer: "House mice can carry hantavirus, salmonella, and leptospirosis. The Rogue Valley does have deer mice in rural and edge-of-town areas, which carry the Sin Nombre strain of hantavirus. If you find rodent droppings in a confined space like a cabin or storage unit, ventilate thoroughly and use wet-cleaning methods before disturbing debris."
+      }
+    ],
+    author: "Dr. Lena Ortiz",
+    nearbyCities: [
+      { name: "Medford", slug: "medford" },
+      { name: "Corvallis", slug: "corvallis" },
+      { name: "Eugene", slug: "eugene" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Grants Pass, OR | Carpenter Ants, Yellowjackets & Mice",
+    metaDescription:
+      "Grants Pass pest control for carpenter ants, yellowjackets, odorous house ants and house mice. Josephine County Rogue Valley dry-summer specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "oregon-city",
+    name: "Oregon City",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "37000",
+    county: "Clackamas County",
+    climate: "temperate",
+    climateDriver: "Willamette Valley marine climate with cool, wet winters lasting from October through May provides year-round moisture that supports Norway rat and carpenter ant pressure in the bluff-top and river-level neighborhoods.",
+    topPests: ["Norway rats", "carpenter ants", "odorous house ants", "yellowjackets", "earwigs"],
+    pestProfile: [
+      { name: "Norway Rats", serviceSlug: "rodent-control", activeSeason: "Year-round", note: "Norway rats maintain permanent colonies in the earthen banks near Willamette Falls, replenishing riverside Oregon City neighborhoods year-round from riparian habitat." },
+      { name: "Carpenter Ants", activeSeason: "Peaks April through September", note: "The historic bluff-top district's century-old homes have had decades of rain cycles, leaving structural members at elevated moisture content that carpenter ants exploit." },
+      { name: "Odorous House Ants", serviceSlug: "ant-control", activeSeason: "Peaks February through October", note: "Odorous house ants trail into Oregon City foundations and kitchens from late February, spiking after rain events that flood shallow ground nests." },
+      { name: "Yellowjackets", activeSeason: "Peaks July through September", note: "Dense blackberry thickets on the Oregon City bluff face and ground burrows in residential lawns provide prime yellowjacket nesting habitat each summer." },
+      { name: "Earwigs", activeSeason: "Peaks May through August", note: "Oregon City's wet Willamette Valley climate and moist landscaping create favorable earwig conditions in garden beds and under debris near foundations." },
+    ],
+    localHook: "Oregon City sits at Willamette Falls, the end of the Oregon Trail, and its layered neighborhoods from the Promenade bluff down to the river create varied pest conditions that a single treatment approach rarely addresses effectively.",
+    intro: "Oregon City, Clackamas County's seat, is a city of two elevations and two very different pest environments. Bluff-top homes in the historic district deal with carpenter ants that travel from the wooded slope edges and moisture problems in century-old construction. The lower riverside and industrial areas see Norway rat pressure from the Willamette waterfront year-round. Odorous house ants (the tiny, coconut-smelling species) are a persistent nuisance across the city from March through October. Yellowjackets nest in the bramble-covered bluff faces and in ground burrows in residential lawns every summer. Knowing your neighborhood's specific risk helps you catch problems early.",
+    sections: [
+      {
+        heading: "Norway Rat Control Near the Willamette",
+        body: "Norway rats are burrowers and excellent swimmers. In Oregon City they maintain colonies in the earthen banks near Willamette Falls and forage into riverside properties and industrial sites nightly. Residential properties on the lower levels near McLoughlin Boulevard see the most activity. A licensed technician places tamper-resistant bait stations along the building perimeter and at fence lines, identifies and seals entry points in the foundation, and installs door sweeps on loading areas and garage entries. Population suppression typically requires a 90-day program with monthly service visits."
+      },
+      {
+        heading: "Carpenter Ant Damage in the Historic District",
+        body: "The bluff-top neighborhood, platted in the 1840s, contains some of the oldest residential construction in Oregon. These homes have had decades of rain and roof leak cycles, meaning many structural members contain softwood at higher moisture content. Carpenter ants exploit exactly this condition, nesting in wall cavities and floor joists. Frass around baseboards or window frames in historic homes is an early warning. Non-repellent perimeter spray combined with targeted void dust treatment addresses established colonies. Fixing the underlying moisture source is essential for lasting control."
+      },
+      {
+        heading: "Odorous House Ant and Yellowjacket Season",
+        body: "Odorous house ants trail along Oregon City foundations and through kitchen expansion joints from late February through October, spiking after rain events that flood shallow ground nests. Gel bait at interior entry points outperforms repellent sprays that split colonies and multiply trail origins. Yellowjackets nest in the dense blackberry thickets on the bluff face and in ground burrows in residential yards. Nest treatment in late evening with dust insecticide is the safest approach. Avoid mowing near suspected ground nests without first having them treated."
+      }
+    ],
+    prevention: [
+      "Seal pipe penetrations and foundation vents with hardware cloth and caulk to block rat entry",
+      "Keep gutters clear and repair roof leaks promptly to deny carpenter ants moist wood",
+      "Trim blackberry and bramble patches away from the foundation to reduce yellowjacket nesting sites",
+      "Store garbage in metal or heavy-duty bins with latching lids to remove rat attractants",
+      "Apply door sweeps on all exterior doors in riverside and lower-elevation properties"
+    ],
+    costNote: "Norway rat programs in Oregon City typically run $250 to $500 for a 90-day service cycle. Carpenter ant treatments average $275 to $475 per treatment visit. Odorous house ant interior gel-bait programs start around $150. Yellowjacket nest elimination averages $140 to $240. Most licensed companies offer a 30-day service guarantee.",
+    faqs: [
+      {
+        question: "Why do I keep getting Norway rats near the Willamette in Oregon City?",
+        answer: "Willamette Falls and the riverside earthen banks provide permanent Norway rat habitat. Populations replenish from riparian areas even after successful interior treatment. Ongoing exterior bait station maintenance is the most effective long-term strategy for riverside properties in Oregon City."
+      },
+      {
+        question: "How do I know if carpenter ants are damaging my historic Oregon City home?",
+        answer: "Look for coarse frass, which resembles pencil shavings mixed with small insect parts, near walls, window frames, or along baseboards. You may also hear faint rustling in walls on quiet evenings. A licensed technician can probe suspected wood with a probe tool to check for hollow galleries."
+      },
+      {
+        question: "Are odorous house ants harmful?",
+        answer: "Odorous house ants do not bite or sting. Their primary harm is contaminating food and being persistently difficult to eliminate with over-the-counter sprays. Professional gel baits carried back to the colony are far more effective. A professional treatment typically resolves a kitchen infestation within two weeks."
+      }
+    ],
+    author: "Marcus Reed",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Salem", slug: "salem" },
+      { name: "Tigard", slug: "tigard" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Oregon City, OR | Norway Rats, Carpenter Ants & Odorous Ants",
+    metaDescription:
+      "Oregon City pest control for Norway rats, carpenter ants, odorous house ants and yellowjackets. Clackamas County Willamette Falls bluff and riverside specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

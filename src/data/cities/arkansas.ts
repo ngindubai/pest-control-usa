@@ -1273,4 +1273,73 @@ export const arkansasCities: CityLocation[] = [
     metaDescription:
       "Searcy pest control for eastern subterranean termites, brown recluse spiders, fire ants, mosquitoes and odorous house ants. White County Little Red River central Arkansas specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "benton-ar",
+    name: "Benton",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "36000",
+    county: "Saline County",
+    climate: "hot-humid",
+    climateDriver: "Humid subtropical Arkansas River valley climate with hot summers and mild winters creates year-round termite activity, peak mosquito breeding from May through September, and fire ant mound establishment in open lawns and parks.",
+    topPests: ["eastern subterranean termites", "fire ants", "mosquitoes", "brown recluse spiders", "German cockroaches"],
+    pestProfile: [
+      { name: "Eastern Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Peaks March through May; active nearly year-round", note: "Eastern subterranean termites are present across Saline County; Benton's pier-and-beam and crawl-space foundations in older neighborhoods face the highest risk." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "Peaks April through October", note: "Red imported fire ants colonize Benton yards and roadsides aggressively; the I-30 corridor's disturbed development soil creates new mound sites constantly." },
+      { name: "Brown Recluse Spiders", serviceSlug: "spider-control", activeSeason: "Year-round", note: "Brown recluse spiders are documented throughout central Arkansas and Saline County structures, sheltering in undisturbed basements and attic insulation." },
+      { name: "German Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "Older commercial buildings and apartment complexes in central Benton host German cockroach populations in kitchen environments where warmth and moisture persist." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Peaks May through September", note: "Standing water near the Saline River drainage in Benton supports mosquito breeding; yard containers spike populations through summer." },
+    ],
+    localHook: "Benton is one of the fastest-growing cities in Arkansas, straddling the I-30 corridor between Little Rock and Hot Springs, and its mix of new suburban tracts and older Saline County neighborhoods makes it a high-activity zone for both termites and fire ants.",
+    intro: "Benton, Arkansas is a city that has seen rapid growth along the I-30 corridor, bringing new construction into land that was previously woodland or pasture. That development disrupts fire ant colonies and disturbs subterranean termite foraging territories, often driving pests directly into new homes during the construction process. Existing neighborhoods in central Benton have the older wood-frame structures that eastern subterranean termites target most readily. Brown recluse spiders are a year-round presence in Saline County, sheltering in clutter and undisturbed storage. Mosquitoes peak from late May through September in yards with standing water near the Saline River drainage.",
+    sections: [
+      {
+        heading: "Termite Protection in Saline County",
+        body: "Eastern subterranean termites are found across Saline County and remain active nearly year-round given Arkansas's mild winters. Older neighborhoods in central Benton, where pier-and-beam and crawl-space foundations are common, face higher termite risk than new slab construction. Spring swarmers from March through May are the most visible sign. Annual inspections are the cheapest insurance. A licensed inspector will check for mud tubes, moisture damage, and wood contact with soil, then recommend a liquid barrier, bait station network, or combination approach. Multi-year renewable warranties are standard with professional treatment."
+      },
+      {
+        heading: "Fire Ant Control in Benton Yards",
+        body: "Red imported fire ants (Solenopsis invicta) are aggressive and will sting repeatedly when a mound is disturbed. In Benton, they colonize yards, playgrounds, roadsides, and any open lawn area from April through October. Mound counts spike after spring rain. The two-step method is most effective: broadcast a slow-acting bait across the entire yard to reduce colony numbers, then treat individual active mounds with a contact drench. One-step mound-only treatment leaves satellite colonies intact and the problem returns within weeks."
+      },
+      {
+        heading: "Brown Recluse Management in Saline County Homes",
+        body: "Brown recluse spiders (Loxosceles reclusa) are resident in most structures in Saline County and throughout central Arkansas. They are not aggressive but bite when pressed against skin, especially in undisturbed clothing, shoes, and bedding. The necrotic wound a brown recluse bite causes can be slow to heal. Control focuses on reducing clutter and harborage, applying residual dust insecticide to attic and crawl space areas, and using sticky traps to monitor populations in living areas. Glue traps near baseboards provide an early-detection tool and population measure."
+      }
+    ],
+    prevention: [
+      "Schedule an annual termite inspection, especially for older homes with wood-on-soil contact",
+      "Apply fire ant bait across the full yard in April and again in September for season-long suppression",
+      "Shake out shoes and check folded laundry for brown recluse spiders before putting them on",
+      "Eliminate clutter in attics, basements, and closets to reduce brown recluse harborage",
+      "Empty standing water containers and clean gutters weekly from May through September for mosquito control"
+    ],
+    costNote: "Termite treatment in Benton typically runs $700 to $1,500 for liquid barrier treatment or $900 to $1,600 for a bait station installation, with annual monitoring around $300. Fire ant yard treatments cost $80 to $180 per application. Brown recluse interior programs start at $150 per visit with follow-up. Most companies offer bundled annual plans combining all three for better value.",
+    faqs: [
+      {
+        question: "How quickly do fire ants return after treatment in Benton?",
+        answer: "A properly applied two-step fire ant program (broadcast bait plus mound treatment) can suppress 80 to 90 percent of colonies within three to six weeks. However, new queens can fly in from untreated adjacent properties and re-establish colonies within months. Twice-yearly applications in April and September maintain suppression through Arkansas's long fire ant season."
+      },
+      {
+        question: "Are brown recluse spiders common in Benton, AR homes?",
+        answer: "Yes. Brown recluse spiders are very common in Saline County and throughout central Arkansas. Studies in the region have found them in a majority of surveyed structures. Most people share a home with brown recluses without ever being bitten. The risk is highest when disturbing undisturbed storage areas, old clothing, or cluttered basements."
+      },
+      {
+        question: "Do I need termite protection on a new-construction home in Benton?",
+        answer: "Yes. New construction in Arkansas is required to receive a pre-construction soil treatment, but that protection degrades over time and may not cover the full foundation perimeter. An annual inspection and a renewable bait station warranty give new-construction homeowners long-term protection against eastern subterranean termites in Saline County."
+      }
+    ],
+    author: "Dr. Lena Ortiz",
+    nearbyCities: [
+      { name: "Little Rock", slug: "little-rock" },
+      { name: "Hot Springs", slug: "hot-springs" },
+      { name: "Searcy", slug: "searcy" }
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Benton, AR | Termites, Fire Ants & Brown Recluse",
+    metaDescription:
+      "Benton pest control for eastern subterranean termites, fire ants, brown recluse spiders and mosquitoes. Saline County I-30 corridor Arkansas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -1335,5 +1335,74 @@ export const southCarolinaCities: CityLocation[] = [
     metaDescription:
       "Aiken SC pest control for termites, fire ants, mosquitoes, ticks and cockroaches. Aiken County Savannah River equestrian community specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "summerville-sc",
+    name: "Summerville",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "55000",
+    county: "Dorchester County",
+    climate: "hot-humid",
+    climateDriver: "Coastal plain humid subtropical climate northwest of Charleston with hot summers, mild winters, and abundant rainfall in the Ashley River drainage creates year-round Formosan and eastern subterranean termite pressure, intense mosquito activity from April through October, and fire ant establishment across residential lawns.",
+    topPests: ["Formosan subterranean termites", "eastern subterranean termites", "mosquitoes", "fire ants", "American cockroaches"],
+    pestProfile: [
+      { name: "Formosan Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Peaks April through June; active most of year", note: "Formosan termites are established in Dorchester County's sandy coastal plain; their dramatically larger colonies can cause structural damage faster than native species in Summerville." },
+      { name: "Eastern Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Year-round; peaks March through May", note: "Native eastern subterranean termites are active year-round in Summerville's Lowcountry warmth; annual inspection is the minimum responsible approach for any property." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Peaks April through October", note: "Summerville's Ashley River watershed, Sawmill Branch, and residential drainage swales create dense mosquito breeding habitat; Asian tiger mosquitoes bite aggressively during the day." },
+      { name: "Fire Ants", serviceSlug: "ant-control", activeSeason: "Peaks March through November", note: "Red imported fire ants colonize Summerville's new construction sites and residential lawns within weeks of sod installation; Dorchester County's Lowcountry is prime fire ant territory." },
+      { name: "American Cockroaches", serviceSlug: "cockroach-control", activeSeason: "Year-round", note: "American cockroaches enter Summerville homes from below-grade spaces and storm drains, emerging through floor drain gaps in this warm coastal plain environment." },
+    ],
+    localHook: "Summerville is the Flower Town of the South, known for azaleas in spring, and its Lowcountry coastal plain location in Dorchester County makes it one of the higher-risk termite and mosquito zones in South Carolina.",
+    intro: "Summerville has grown from a quiet Lowcountry town to one of the Charleston metro's fastest-growing suburban cities, and that growth is happening in terrain that has been prime pest habitat for centuries. Formosan and eastern subterranean termites are both established in Dorchester County's sandy coastal plain soils, and the Lowcountry's warmth and moisture mean termite activity runs nearly year-round. Mosquitoes are intense from April through October in the creek and drainage corridors that cross the city. Fire ants colonize new construction sites as they are graded and establish in residential lawns within weeks of sod installation. A licensed Dorchester County technician knows Summerville's specific risk profile.",
+    sections: [
+      {
+        heading: "Termite Protection in the Lowcountry",
+        body: "Both Formosan subterranean termites and native eastern subterranean termites are active in Dorchester County. Formosan colonies are dramatically larger and more destructive, capable of consuming structural wood faster than insurance adjusters have seen in other regions. For new construction in Summerville, soil pre-treatment is standard, but its protection degrades and an active warranty is essential. For existing homes, an annual inspection is the minimum responsible approach. Bait station networks that intercept foragers before they reach the structure are popular in the Lowcountry because they avoid chemical application near the dense landscaping that defines Summerville neighborhoods."
+      },
+      {
+        heading: "Mosquito Control in Dorchester County",
+        body: "Summerville's Ashley River watershed, Sawmill Branch, and the network of drainage swales through residential areas create extensive mosquito breeding habitat. The season runs from April through October at peak intensity. Barrier spray applied to resting vegetation every 21 days dramatically reduces adult populations on residential properties. Larvicide treatments on standing water features break the breeding cycle at the source. Asian tiger mosquitoes (Aedes albopictus) are well established in Summerville and bite aggressively during the day, unlike the more familiar dusk-active species."
+      },
+      {
+        heading: "Fire Ant Management in a Growing City",
+        body: "Red imported fire ants are a permanent fixture of South Carolina's Lowcountry, and Summerville's rapid development constantly creates disturbed soil that they colonize first. New lawns, fresh sod, and recently graded sites get colonized within weeks. Fire ants in Summerville pose a real risk for children and outdoor workers. Two-step treatment, broadcast slow-acting bait across the yard followed by targeted mound drench, is the professional standard for season-long suppression. Application in April and again in September gives the best year-round protection in Dorchester County."
+      }
+    ],
+    prevention: [
+      "Maintain an active termite warranty on any Summerville property, new or existing",
+      "Empty standing water containers, clean gutters, and address yard drainage from April through October",
+      "Apply fire ant bait broadcast across the full yard in spring and fall rather than mound-only treatment",
+      "Seal floor drain gaps and pipe penetrations to deny American cockroaches below-grade access",
+      "Keep landscape mulch 6 inches from the foundation to reduce termite moisture and harborage"
+    ],
+    costNote: "Termite bait station programs in Summerville run $900 to $1,700 for installation with annual monitoring at $275 to $425. Mosquito barrier spray costs $75 to $130 per 21-day treatment. Fire ant two-step yard treatment averages $90 to $160 per application. American cockroach perimeter treatment starts at $110 per visit. Many Lowcountry companies offer bundled termite and pest plans starting at $70 per month.",
+    faqs: [
+      {
+        question: "Do I need a termite bond on my Summerville, SC home?",
+        answer: "Yes. A termite bond (renewable service contract) is standard practice and often required by mortgage lenders for homes in Dorchester County. Both Formosan and eastern subterranean termites are active in Summerville's coastal plain soils, and the cost of termite bond coverage is far less than the cost of structural repair after an undetected infestation. Annual inspection visits under the bond keep coverage current."
+      },
+      {
+        question: "Why are mosquitoes so bad in Summerville compared to inland South Carolina cities?",
+        answer: "Summerville's location in the Lowcountry coastal plain means it sits within a network of tidal-influenced drainages, Ashley River tributaries, and drainage swales that hold standing water for extended periods after rain. This creates breeding habitat at a density not found in the Piedmont or Upstate. The Asian tiger mosquito, which breeds in small containers and bites during the day, adds to pressure in residential yards."
+      },
+      {
+        question: "How quickly do fire ants re-establish after treatment in my Summerville yard?",
+        answer: "With single mound treatment only, fire ants can re-establish from neighboring properties within four to eight weeks. The two-step broadcast bait method suppresses the entire yard population, reducing re-establishment dramatically. Spring and fall two-step applications provide the most complete protection through Summerville's long fire ant season."
+      }
+    ],
+    author: "Sandra Whitfield",
+    nearbyCities: [
+      { name: "Charleston", slug: "charleston" },
+      { name: "Anderson", slug: "anderson-sc" },
+      { name: "Aiken", slug: "aiken" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Summerville, SC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Summerville pest control for Formosan termites, mosquitoes, fire ants and American cockroaches. Dorchester County Lowcountry Charleston metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
 

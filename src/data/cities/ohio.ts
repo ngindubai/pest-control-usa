@@ -5008,5 +5008,191 @@ export const ohioCities: CityLocation[] = [
     metaDescription:
       "Avon Lake pest control for house mice, earwigs, carpenter ants, stink bugs and yellowjackets. Lorain County Lake Erie shoreline specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "chillicothe-oh",
+    name: "Chillicothe",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~22,000",
+    county: "Ross County",
+    climate: "temperate",
+    climateDriver: "Chillicothe sits in the Scioto River valley at the southwestern edge of Ohio's Appalachian foothills, where agricultural land and forested ridges create a layered pest environment. The valley setting concentrates moisture and produces mild microclimatic conditions that sustain pest populations through shoulder seasons. Ross County's surrounding pasture and farmland drives cluster fly invasions each fall, and the city's older Victorian-era housing stock gives rodents and overwintering insects many entry points.",
+    topPests: ["Cluster Flies", "House Mice", "Brown Marmorated Stink Bugs", "Carpenter Ants", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall entry September through November, emergence March through April",
+        note: "Ross County's surrounding pasture and agricultural land produces large cluster fly populations each fall. Cluster flies spend their larval stage as parasites of earthworms in pasture soil and emerge as adults in September, seeking warm overwintering sites. Chillicothe's Scioto River valley location, ringed by Ross County farmland, makes it one of the highest cluster fly pressure areas in Southern Ohio.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak entry October through February",
+        note: "House mice enter Chillicothe's older housing stock through gaps that develop in aging construction. The city's position at the edge of the Appalachian foothills means homes on the urban-rural fringe have direct access corridors from agricultural fields. Mouse populations in Ross County peak in late fall as temperatures drop and outdoor food sources diminish.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note: "Stink bugs have established across Ohio, and the Appalachian foothills terrain surrounding Chillicothe provides ideal forest habitat. They migrate from wooded ridges and agricultural edges into homes each fall. Ross County's mix of forest and farmland creates higher stink bug densities than in more urbanized Ohio counties.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, most active May through August",
+        note: "Carpenter ants are common in Chillicothe's older housing stock and in wooded properties along the Scioto River corridor. Moisture-damaged wood in homes, sheds, and landscape timber provides nesting opportunities. The forested Appalachian foothills on Ross County's eastern edge sustain large carpenter ant populations that forage into residential areas.",
+      },
+      {
+        name: "Yellow Jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October, most aggressive August through October",
+        note: "Yellow jacket colonies grow throughout the summer in Ross County and reach their largest and most aggressive stage in August and September. Ground nests in Chillicothe's older residential properties and in the wooded areas along Paint Creek are common. Aerial nests under eaves and in wall voids are reported regularly in the Victorian-era housing in the city's historic districts.",
+      },
+    ],
+    localHook: "Chillicothe's Scioto River valley is ringed by Ross County pasture and farmland that produces some of the highest cluster fly populations in Southern Ohio. Each September, thousands of cluster flies emerge from agricultural soil and seek warm overwintering sites in the city's older structures, a pest dynamic unique to this Appalachian foothills setting.",
+    intro: "Chillicothe, Ohio is the Ross County seat in the Scioto River valley, where Appalachian foothills terrain meets Ohio's agricultural heartland. That setting creates a pest profile driven by the surrounding farmland: cluster flies that parasitize earthworms in pasture soil invade the city's older structures each fall, and brown marmorated stink bugs migrate down from the wooded ridges seeking overwintering warmth. House mice exploit the many entry points in Chillicothe's Victorian-era housing stock, and carpenter ants nest in moisture-damaged wood throughout the Scioto River corridor.\n\nChillicothe's position as a historic city with a dense core of older housing creates structural vulnerabilities that newer suburban construction does not have. Gaps in 19th-century foundations, deteriorating window frames, and aging rooflines give cluster flies, stink bugs, and mice direct access to heated interior spaces. The surrounding Ross County landscape guarantees a constant supply of pests looking for winter warmth. Managing these populations requires both structural exclusion and targeted treatments timed to the fall invasion window.",
+    sections: [
+      {
+        heading: "Cluster Flies and Stink Bugs: Chillicothe's Fall Invasion from Ross County Farmland",
+        body: "No pest season in Chillicothe is more distinctive than the fall invasion of cluster flies and stink bugs. Cluster flies are not a major urban pest in most of Ohio, but Ross County's extensive pasture land surrounding Chillicothe creates exceptional populations. The larval stage of cluster flies requires living earthworms as hosts, and Ross County's pasture and hayfield soils are ideal. Adults emerge from September onward and enter the warmest structures they can find, which in Chillicothe means the older Victorian homes in the Paint Street and Courthouse Square neighborhoods.\n\nBrown marmorated stink bugs add a second wave of fall invaders from the forested ridges of the Appalachian foothills east and south of Ross County. Both pests are best managed through a combination of structural exclusion, caulking gaps in the building envelope before September, and insecticide treatment of exterior walls and entry points. Once inside the walls, both pests are difficult to remove without releasing their characteristic odors. Prevention before the September window is far more effective than attempting remediation after they have entered.",
+      },
+      {
+        heading: "House Mice and Carpenter Ants in Chillicothe's Historic Housing Stock",
+        body: "Chillicothe's historic residential neighborhoods along Yoctangee Park and the Scioto River corridor feature some of the oldest housing stock in Southern Ohio. That architecture is beautiful, but aging Victorian and early 20th-century homes develop structural gaps that make rodent exclusion difficult without professional attention. House mice need a gap of only a quarter inch to enter, and the deteriorating mortar joints, cracked foundations, and aging utility penetrations common in Chillicothe's older homes provide numerous access points. Mouse populations in Ross County are elevated by the agricultural fringe bordering the residential areas on the city's west and south sides.\n\nCarpenter ants are a consistent problem in properties along the Scioto River and Paint Creek corridors, where moisture from the waterways creates conditions that accelerate wood decay in decks, landscape timbers, and crawl space framing. Carpenter ants excavate wood to build galleries, weakening structural members over time. A perimeter inspection each April identifies satellite colonies before they expand into the home's framing.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around your Chillicothe home's windows, doors, and foundation before September to block cluster fly and stink bug entry from the surrounding Ross County farmland.",
+      "Inspect your Chillicothe home's crawl space and basement each spring for moisture damage and wood decay, which attract carpenter ants from the Scioto River corridor.",
+      "Set snap traps along interior walls in fall as the first line of defense against house mice entering from Ross County's agricultural fringe.",
+      "Treat yellow jacket ground nests in your Chillicothe yard at dusk in July and August when colonies are expanding and workers are less active.",
+      "Keep firewood stored away from exterior walls and off the ground to reduce overwintering pest shelter near your Chillicothe structure.",
+    ],
+    costNote: "General pest control in Chillicothe and Ross County runs $40 to $65 per month for a standard perimeter program. Fall cluster fly and stink bug exclusion treatments average $150 to $300 per visit. Rodent exclusion programs for older Victorian homes in the city core typically run $250 to $500 for a professional seal-and-trap program.",
+    faqs: [
+      {
+        question: "Why are cluster flies so much worse in Chillicothe than in Columbus or Dayton?",
+        answer: "Cluster flies require pasture earthworms as larval hosts, so their populations are tied directly to farmland, not urban areas. Ross County's extensive pasture and hayfield land surrounding Chillicothe produces far more cluster flies than comparable Ohio cities surrounded by suburban development. The Scioto River valley concentrates their fall migration toward the city's older heated structures.",
+      },
+      {
+        question: "What is the best time to treat for stink bugs in a Chillicothe home?",
+        answer: "The most effective window is late August through early September, before stink bugs begin actively seeking entry points from the surrounding Appalachian foothills forest. Exterior perimeter treatment of south- and west-facing walls, combined with caulking of gaps around windows and utility penetrations, provides the best protection before the September migration begins.",
+      },
+      {
+        question: "Are house mice in Chillicothe's older homes a health concern?",
+        answer: "Yes. House mice can carry hantavirus, salmonella, and leptospirosis, and their droppings, urine, and nesting material can contaminate insulation and food surfaces. In Chillicothe's older crawl spaces, accumulations of rodent waste are a health concern beyond just structural damage. Professional exclusion and cleanup is recommended when mice have been active in the insulation or ductwork.",
+      },
+      {
+        question: "How do I find and treat a yellow jacket ground nest in my Chillicothe yard?",
+        answer: "Watch for worker yellow jackets entering and exiting a specific spot in the lawn or landscape, typically a small hole about the size of a golf ball. Treat at dusk with a wasp freeze or dust insecticide applied directly into the opening when workers are inside the nest. Do not mow over a known nest during the day, particularly in August and September when colonies in Ross County are at maximum size and aggression.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus" },
+      { name: "Zanesville", slug: "zanesville" },
+      { name: "Dayton", slug: "dayton" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Chillicothe, OH | Cluster Flies, Mice & Stink Bugs",
+    metaDescription: "Chillicothe OH pest control for cluster flies, house mice, stink bugs, carpenter ants and yellow jackets. Ross County Scioto River valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "xenia",
+    name: "Xenia",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~27,000",
+    county: "Greene County",
+    climate: "temperate",
+    climateDriver: "Xenia is the Greene County seat in southwestern Ohio, positioned between Dayton and the Little Miami River corridor. The city's proximity to John Bryan State Park and the forested Little Miami River valley sustains significant populations of stink bugs, carpenter ants, and wildlife that forage into residential neighborhoods. Ohio's continental climate drives mice and overwintering insects into structures from October through March.",
+    topPests: ["Brown Marmorated Stink Bugs", "House Mice", "Carpenter Ants", "Yellow Jackets", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note: "Brown marmorated stink bugs are well established across Greene County. The Little Miami River corridor and John Bryan State Park's forest habitat provide large population reservoirs that migrate into Xenia homes each fall. The city's proximity to the Ohio Appalachian fringe keeps stink bug pressure higher than in comparable flat-terrain Ohio cities.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak entry October through February",
+        note: "House mice are a consistent pest in Xenia's housing stock, which includes a mix of rebuilt mid-century homes after the 1974 and 2000 tornadoes and older surviving structures. The agricultural fringe on Greene County's eastern and southern edges provides rodent population reservoirs that enter homes as temperatures drop in fall.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, most active May through August",
+        note: "Carpenter ants from the John Bryan State Park woodland and Little Miami River corridor forage into Xenia's residential areas. Properties bordering the park or the river bottomland are most affected. Moisture-damaged wood in older homes provides nesting opportunities for satellite colonies.",
+      },
+      {
+        name: "Yellow Jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October, peak aggression August and September",
+        note: "Yellow jacket ground nests are common in Xenia's residential yards and in the wooded edges around John Bryan State Park and the Little Miami River. Colonies reach maximum size in August and September and become highly aggressive when disturbed by mowing or yard work in Greene County neighborhoods.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Xenia's commercial food service establishments and in multi-family housing along the US-35 corridor. They travel between units in apartment buildings and require targeted gel bait treatment in kitchen and bathroom areas.",
+      },
+    ],
+    localHook: "Xenia is one of the few American cities to have been largely rebuilt after two major tornadoes, in 1974 and 2000, leaving a unique housing stock with mixed construction ages. Some properties have older surviving structures with significant pest entry vulnerabilities alongside newer construction that borders the Little Miami River's wooded corridor near John Bryan State Park.",
+    intro: "Xenia, Ohio is the Greene County seat in southwestern Ohio, a city that has rebuilt twice following devastating tornadoes in 1974 and 2000. That rebuilding history has left Xenia with a mixed housing stock: older surviving structures with the entry vulnerabilities of age and newer mid-century replacement homes that border the Little Miami River corridor and John Bryan State Park. That park boundary is where the city's most distinctive pest pressure originates, with stink bugs, carpenter ants, and yellow jackets moving from the wooded river habitat into residential properties each season.\n\nGreene County's temperate continental climate drives house mice indoors from October through February, and the agricultural fringe on the county's eastern edge provides a constant rodent population reservoir. Yellow jackets reach their most aggressive stage in August and September just as outdoor activity peaks in Xenia's parks and neighborhoods. Managing pest pressure here means addressing both the structural vulnerabilities in the city's older buildings and the natural pest population pressure from the Little Miami corridor.",
+    sections: [
+      {
+        heading: "Stink Bugs and Carpenter Ants from John Bryan State Park and the Little Miami Corridor",
+        body: "Xenia's eastern edge borders John Bryan State Park, one of Ohio's most scenic gorge parks along the Little Miami River. That forested habitat sustains large populations of brown marmorated stink bugs and carpenter ants that forage into the city each season. Stink bugs spend the summer feeding in the park's forest canopy and agricultural edges before moving to warm overwintering sites in September. Homes along Bickett Road and the east side of Xenia that back up to the park or the river corridor see the heaviest fall stink bug aggregations in Greene County.\n\nCarpenter ants nest in the dead wood and moisture-damaged trees of the Little Miami River bottomland and send foraging workers into residential properties in spring and summer. They are particularly active on properties with mature trees, older wood decks, and crawl space construction with moisture intrusion. Carpenter ant damage is slow and often hidden inside walls and structural members, making early detection through a spring inspection important for Xenia homeowners near the park boundary.",
+      },
+      {
+        heading: "House Mice and Yellow Jackets in Xenia's Post-Tornado Neighborhoods",
+        body: "House mice are a seasonal certainty in Xenia. The agricultural land on Greene County's eastern and southern edges produces large rodent populations, and as field crops are harvested in fall, mice move from the fields into the nearest heated structures. Xenia's rebuilding history means some homes have older foundations and wall penetrations that are difficult to seal completely without professional exclusion work. Lasting control requires identifying and sealing the entry points, typically under kitchen cabinets, around water heater connections, and through gaps in the foundation sill plate.\n\nYellow jacket colonies grow throughout Xenia's summer and become a significant hazard in August and September. Ground nests hidden in the turf of lawns and wooded yard edges are encountered when mowing, and aerial nests under the eaves of older Greene County homes can go unnoticed until they are large and aggressive. Treatment of ground nests at dusk, when workers are inside, provides the most effective control with minimal exposure risk. Xenia's mix of older surviving structures and rebuilt homes means both ground nests and wall void nests should be inspected annually.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around your Xenia home's foundation, windows, and utility penetrations before September to block stink bugs migrating from the John Bryan State Park forest.",
+      "Inspect crawl space framing and wood decking each spring for carpenter ant galleries if your property borders the Little Miami River corridor in Greene County.",
+      "Set snap traps along interior walls in October before mice from Greene County's agricultural fringe begin their fall entry push.",
+      "Treat yellow jacket ground nests in your Xenia lawn after dark in July and August, before colonies reach maximum size and aggression in September.",
+      "Keep exterior doors and garage doors sealed with intact sweeps and weatherstripping to reduce mouse and overwintering insect entry during Ohio's fall invasion window.",
+    ],
+    costNote: "Pest control in Xenia and Greene County runs $40 to $65 per month for a standard perimeter program. Rodent exclusion for older homes near the Little Miami River corridor averages $300 to $600. Stink bug perimeter treatments in fall run $100 to $200 per application.",
+    faqs: [
+      {
+        question: "Why are stink bugs worse on the east side of Xenia near John Bryan State Park?",
+        answer: "John Bryan State Park's forested gorge provides ideal summer habitat for brown marmorated stink bugs. They feed in the forest canopy through summer and then migrate to warm structures in fall. Homes on Xenia's east side that border the park or the Little Miami River corridor are directly in the migration path and see significantly more fall aggregation than homes in the city's western neighborhoods.",
+      },
+      {
+        question: "How do the two tornado rebuilds affect pest pressure in Xenia homes?",
+        answer: "Xenia's unique rebuilding history created a patchwork of housing ages. Some older pre-tornado structures have accumulated foundation cracks, deteriorating window frames, and aging utility penetrations that give mice and overwintering insects easy entry. Newer rebuilt homes border the Little Miami corridor and face carpenter ant and stink bug pressure from that woodland edge. Both situations require professional assessment.",
+      },
+      {
+        question: "When is the best time to treat for house mice in Xenia?",
+        answer: "The best time is proactively in September, before mice from Greene County's harvested fields start moving indoors. A professional inspection in September identifies entry points and installs exclusion materials and traps before populations build. Waiting until you see mice in the kitchen means the infestation has been active for weeks.",
+      },
+      {
+        question: "Are German cockroaches a problem in Xenia residential homes?",
+        answer: "German cockroaches primarily affect commercial and multi-family housing in Xenia. Single-family homes occasionally see them when brought in on secondhand appliances or in moving boxes. If you see small, light-brown cockroaches with two dark stripes behind their heads in your kitchen, that is a German cockroach. Targeted gel bait treatment in kitchens and bathrooms is more effective than spray-based approaches for this species.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Dayton", slug: "dayton" },
+      { name: "Beavercreek", slug: "beavercreek" },
+      { name: "Springfield", slug: "springfield" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Xenia, OH | Stink Bugs, Mice & Carpenter Ants",
+    metaDescription: "Xenia OH pest control for stink bugs, house mice, carpenter ants and yellow jackets near John Bryan State Park. Greene County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 
 ];

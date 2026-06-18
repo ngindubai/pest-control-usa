@@ -1499,4 +1499,73 @@ export const iowaCities: CityLocation[] = [
     metaDescription:
       "Urbandale pest control for termites, mice, mosquitoes, boxelder bugs and cockroaches. Polk County specialists near Beaver Creek. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "waukee",
+    name: "Waukee",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "26000",
+    county: "Dallas County",
+    climate: "cold-humid",
+    climateDriver: "Iowa continental climate with cold winters and humid summers in the Des Moines metro drives eastern subterranean termite activity in summer, house mouse entry from October through March, and boxelder bug invasions each fall in new residential construction.",
+    topPests: ["eastern subterranean termites", "house mice", "boxelder bugs", "mosquitoes", "odorous house ants"],
+    pestProfile: [
+      { name: "Eastern Subterranean Termites", serviceSlug: "termite-treatment", activeSeason: "Peaks April through September", note: "Waukee's new subdivisions are built directly on former Dallas County cornfield soil where subterranean termite colonies have lived for decades before construction." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Peaks October through March", note: "Corn harvest in October strips Waukee's adjacent fields of food and cover, pushing mice toward the nearest heated structure in large numbers." },
+      { name: "Boxelder Bugs", activeSeason: "Peaks September through October", note: "Boxelder bugs aggregate on south and west walls of Waukee's new homes in late September, squeezing through window frame gaps and brick weep holes." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "Peaks May through September", note: "Standing water in Waukee's developing neighborhoods and yard drainage containers supports mosquito populations through the Iowa summer." },
+      { name: "Odorous House Ants", serviceSlug: "ant-control", activeSeason: "Peaks April through September", note: "Odorous house ants trail along Waukee foundations into kitchens from April through September, peaking after rain events that flood shallow ground nests." },
+    ],
+    localHook: "Waukee has grown from a small town to one of Iowa's fastest-growing cities in under two decades, and building new subdivisions directly on former farm ground means termites and field mice are present before the drywall is even in.",
+    intro: "Waukee sits in Dallas County west of Des Moines, and its rapid growth has placed new subdivisions directly on what was cornfield just a few years ago. That transition matters for pest control. Eastern subterranean termites are soil-dwelling insects that have been living in that ground for decades. Construction disrupts their foraging territory and often routes them directly into new foundations. Field mice lose their crop-cover habitat during fall harvest and probe nearby homes hard from October through March. Boxelder bugs aggregate on south-facing walls in September. A licensed Dallas County technician familiar with Waukee's new-build density can help you get ahead of these patterns before they become expensive problems.",
+    sections: [
+      {
+        heading: "Termite Risk in New Waukee Construction",
+        body: "Eastern subterranean termites (Reticulitermes flavipes) are the most destructive insect in Iowa and are present in the soil of Dallas County. New construction does not come with permanent termite protection. Pre-treatment soil applications at construction are required in some municipalities but degrade over years. A bait station network or liquid barrier application at the foundation provides ongoing protection with annual monitoring to confirm no activity. New Waukee homeowners who skip termite protection often discover an active colony only at resale inspection or after cosmetic wall damage appears, both expensive timing."
+      },
+      {
+        heading: "Mouse Entry in Fall and Winter",
+        body: "House mice in Waukee's farm-edge neighborhoods have a reliable seasonal pattern: corn harvest in October strips the fields of cover and food, pushing mice toward heated structures. They need a gap no larger than a dime to enter. Typical entry points include gaps around utility pipes, unscreened foundation vents, and garage door weather seal gaps. A technician installs tamper-resistant exterior bait stations, seals priority entry points with steel wool and caulk, and sets interior snap traps in the garage and kitchen perimeter. Service visits at 30 and 60 days confirm the population is controlled before deep winter."
+      },
+      {
+        heading: "Boxelder Bugs and Odorous Ants",
+        body: "Boxelder bugs arrive in late September on the south and west walls of Waukee homes, aggregating by the hundreds before squeezing through gaps around window frames, soffits, and brick weep holes. They overwinter in wall voids and emerge at windows on warm winter days. Exterior perimeter spray before aggregation begins, combined with caulking window frame gaps, is the most effective control strategy. Odorous house ants trail along Waukee foundations and into kitchens from April through September, peaking after rain events. Non-repellent gel bait placed at entry points eliminates colony foragers without dispersing the population."
+      }
+    ],
+    prevention: [
+      "Ask your builder for termite pre-treatment documentation and schedule a year-two inspection",
+      "Seal foundation utility penetrations and garage door weather seals before October for mouse prevention",
+      "Apply exterior caulk to window frame gaps and soffit vents before September for boxelder bug exclusion",
+      "Empty yard water containers weekly from late May through September for mosquito control",
+      "Keep grass cut and maintain a vegetation-free zone along the foundation perimeter"
+    ],
+    costNote: "Termite bait station programs in Waukee run $700 to $1,300 for installation plus $225 to $375 annually for monitoring. Mouse exclusion and trapping programs average $200 to $400 per service cycle. Boxelder bug exterior spray costs $120 to $200 per application. Odorous ant gel-bait programs start at $140 per visit.",
+    faqs: [
+      {
+        question: "Do new homes in Waukee need termite protection?",
+        answer: "Yes. New construction soil treatments are often applied but provide diminishing protection over time. New homes built on former farm ground in Dallas County are at real risk because the soil was already home to subterranean termite colonies before construction. An annual inspection and a bait station warranty is the most reliable long-term protection."
+      },
+      {
+        question: "Why do mice come into my Waukee home specifically in October?",
+        answer: "Corn and soybean harvest removes the food and shelter that field mice rely on through summer. When fields are cleared, mice move toward the nearest warm structure. October is the highest-risk month for mouse entry in farm-adjacent Iowa cities like Waukee. Installing exterior bait stations and sealing entry points before harvest reduces pressure significantly."
+      },
+      {
+        question: "Are boxelder bugs harmful to my Waukee home?",
+        answer: "Boxelder bugs do not bite, sting, or damage structures. They can stain light-colored surfaces with reddish-orange excrement when present in large numbers inside wall voids. Their main harm is being a nuisance pest that is difficult to eliminate once inside. Exterior prevention before aggregation in September is far more effective than interior removal after they have entered."
+      }
+    ],
+    author: "James Cole",
+    nearbyCities: [
+      { name: "Des Moines", slug: "des-moines" },
+      { name: "Ames", slug: "ames" },
+      { name: "Urbandale", slug: "urbandale" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Waukee, IA | Termites, Mice & Boxelder Bugs",
+    metaDescription:
+      "Waukee pest control for eastern subterranean termites, house mice, boxelder bugs and mosquitoes. Dallas County farm-edge new-construction Des Moines metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
