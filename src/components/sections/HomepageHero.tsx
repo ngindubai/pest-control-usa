@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Phone, ArrowRight, CheckCircle2, Shield, Star, Clock, Leaf, AlertTriangle } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
+import { trackFormSubmit, trackPhoneCall } from "@/lib/gtag";
 
 const pestTypes = [
   { value: "", label: "Select pest type..." },
@@ -132,8 +133,13 @@ export function HomepageHero() {
 
     const [crmOk, emailOk] = await Promise.all([sendToCrm(), sendToEmail()]);
     setLoading(false);
-    if (crmOk || emailOk) setSubmitted(true);
-    else setError(true);
+    if (crmOk || emailOk) {
+      // ✅ Fire GA4 lead event on success
+      trackFormSubmit("hero_form", pestLabel);
+      setSubmitted(true);
+    } else {
+      setError(true);
+    }
   };
 
   return (
@@ -208,6 +214,7 @@ export function HomepageHero() {
                 href={siteConfig.phoneTel}
                 className="inline-flex items-center gap-2.5 bg-[var(--color-red)] hover:bg-[var(--color-red-light)] text-white font-black text-lg px-6 py-4 rounded-[var(--radius-btn)] shadow-[var(--shadow-cta)] transition-colors"
                 aria-label={`Call ${siteConfig.phoneDisplay} for emergency pest removal`}
+                onClick={() => trackPhoneCall("hero_cta")}
               >
                 <Phone size={20} aria-hidden="true" />
                 {siteConfig.phoneDisplay}
@@ -248,6 +255,7 @@ export function HomepageHero() {
                   <a
                     href={siteConfig.phoneTel}
                     className="inline-flex items-center gap-2 bg-[var(--color-red)] text-white font-bold px-5 py-3 rounded-[var(--radius-btn)] hover:bg-[var(--color-red-light)] transition-colors text-sm"
+                    onClick={() => trackPhoneCall("hero_form_success_cta")}
                   >
                     <Phone size={14} aria-hidden="true" />
                     Call Now Instead: {siteConfig.phoneDisplay}
@@ -279,6 +287,7 @@ export function HomepageHero() {
                       <a
                         href={siteConfig.phoneTel}
                         className="font-bold underline"
+                        onClick={() => trackPhoneCall("hero_form_error_fallback")}
                       >
                         {siteConfig.phoneDisplay}
                       </a>

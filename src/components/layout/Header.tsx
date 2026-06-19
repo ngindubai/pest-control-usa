@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 import { siteConfig } from "@/config/site";
+import { trackPhoneCall } from "@/lib/gtag";
 import {
   Phone,
   Menu,
@@ -139,6 +140,7 @@ function TopBar() {
             href={siteConfig.phoneTel}
             className="text-white font-semibold flex items-center gap-1 hover:text-[var(--color-red)] transition-colors"
             aria-label={`Call ${siteConfig.phoneDisplay}`}
+            onClick={() => trackPhoneCall("header_topbar")}
           >
             <Phone size={11} aria-hidden="true" />
             {siteConfig.phoneDisplay}
@@ -374,7 +376,7 @@ function MobileDrawer({
         {/* Emergency call strip */}
         <a
           href={siteConfig.phoneTel}
-          onClick={onClose}
+          onClick={() => { onClose(); trackPhoneCall("mobile_drawer_emergency"); }}
           className="flex items-center justify-center gap-2 bg-[var(--color-red)] text-white py-3 font-bold text-sm"
           aria-label={`Call emergency line ${siteConfig.phoneDisplay}`}
         >
@@ -637,6 +639,7 @@ export function Header() {
                 href={siteConfig.phoneTel}
                 className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-[var(--color-navy)] bg-[var(--color-muted)] rounded-lg hover:bg-gray-200 transition-colors"
                 aria-label={`Call ${siteConfig.phoneDisplay}`}
+                onClick={() => trackPhoneCall("header_desktop_cta")}
               >
                 <Phone size={13} aria-hidden="true" />
                 {siteConfig.phoneDisplay}
@@ -656,6 +659,7 @@ export function Header() {
                 href={siteConfig.phoneTel}
                 className="flex items-center justify-center w-9 h-9 bg-[var(--color-red)] rounded-lg text-white"
                 aria-label={`Call ${siteConfig.phoneDisplay}`}
+                onClick={() => trackPhoneCall("header_mobile_icon")}
               >
                 <Phone size={16} aria-hidden="true" />
               </a>

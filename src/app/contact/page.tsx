@@ -7,6 +7,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { Phone, Mail, Clock, MapPin, CheckCircle, AlertCircle } from "lucide-react";
 import { siteConfig } from "@/config/site";
+import { trackFormSubmit, trackPhoneCall } from "@/lib/gtag";
 
 const schema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
@@ -70,6 +71,7 @@ export default function ContactPage() {
     register,
     handleSubmit,
     formState: { errors, isSubmitting },
+    getValues,
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
   async function onSubmit(data: FormData) {
@@ -114,13 +116,6 @@ export default function ContactPage() {
       },
     };
 
-    // Deliver the enquiry to BOTH destinations in parallel:
-    //   1. the CRM (system of record), and
-    //   2. email via FormSubmit (reliable backstop straight to the inbox).
-    // fetch() does NOT reject on HTTP errors, so we check res.ok / the
-    // FormSubmit success flag and never show false success.
-
-    // 1. CRM — retry a few times with backoff (it can cold-start).
     const sendToCrm = async (): Promise<boolean> => {
       for (let attempt = 0; attempt < 3; attempt++) {
         try {
@@ -147,8 +142,6 @@ export default function ContactPage() {
       return false;
     };
 
-    // 2. Email — FormSubmit AJAX endpoint (same address the other sites use,
-    // so it is already activated).
     const sendToEmail = async (): Promise<boolean> => {
       try {
         const res = await fetch(
@@ -186,6 +179,8 @@ export default function ContactPage() {
     const [crmOk, emailOk] = await Promise.all([sendToCrm(), sendToEmail()]);
 
     if (crmOk || emailOk) {
+      // ✅ Fire GA4 lead event on success
+      trackFormSubmit("contact_page", data.pestType);
       setSubmitted(true);
     } else {
       setServerError(
@@ -228,6 +223,7 @@ export default function ContactPage() {
                   <Link
                     href={item.href}
                     className="font-bold text-[var(--color-navy)] hover:text-[var(--color-red)] transition-colors text-sm"
+                    onClick={item.href === siteConfig.phoneTel ? () => trackPhoneCall("contact_page_info_bar") : undefined}
                   >
                     {item.value}
                   </Link>
@@ -272,6 +268,7 @@ export default function ContactPage() {
                 <Link
                   href={siteConfig.phoneTel}
                   className="inline-flex items-center gap-2 bg-[var(--color-red)] text-white font-bold px-8 py-4 rounded-[var(--radius-btn)]"
+                  onClick={() => trackPhoneCall("contact_page_success_cta")}
                 >
                   <Phone className="w-5 h-5" />
                   Call {siteConfig.phoneDisplay}
@@ -452,6 +449,7 @@ export default function ContactPage() {
               <Link
                 href={siteConfig.phoneTel}
                 className="flex items-center gap-2 bg-white text-[var(--color-red)] font-bold px-6 py-3 rounded-[var(--radius-btn)] hover:bg-red-50 transition-colors w-full justify-center"
+                onClick={() => trackPhoneCall("contact_page_sidebar_emergency")}
               >
                 <Phone className="w-5 h-5" />
                 Call Now: {siteConfig.phoneDisplay}

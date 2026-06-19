@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
+import { trackPhoneCall } from "@/lib/gtag";
 import { Phone, Mail, MapPin, Shield } from "lucide-react";
 import { Divider } from "@/components/ui/Layout";
 
@@ -268,6 +269,7 @@ export function Footer() {
                 href={siteConfig.phoneTel}
                 className="flex items-center gap-2 text-sm font-bold text-white hover:text-[var(--color-red)] transition-colors"
                 aria-label={`Call ${siteConfig.phoneDisplay}`}
+                onClick={() => trackPhoneCall("footer")}
               >
                 <Phone size={14} className="text-[var(--color-red)] shrink-0" aria-hidden="true" />
                 {siteConfig.phoneDisplay}

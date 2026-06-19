@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { siteConfig } from "@/config/site";
 import { Phone, ArrowRight, AlertTriangle } from "lucide-react";
 import { type ButtonHTMLAttributes, forwardRef } from "react";
+import { trackPhoneCall, trackWhatsAppClick } from "@/lib/gtag";
 
 // ─── Base Button ─────────────────────────────────────────────────
 
@@ -104,6 +105,8 @@ export interface CallButtonProps {
   fullWidth?: boolean;
   className?: string;
   label?: string;
+  /** Passed to GA so you know where in the page the click came from. */
+  trackingLocation?: string;
 }
 
 export function CallButton({
@@ -112,11 +115,13 @@ export function CallButton({
   fullWidth = false,
   className,
   label,
+  trackingLocation = "call_button",
 }: CallButtonProps) {
   return (
     <a
       href={siteConfig.phoneTel}
       aria-label={`Call ${siteConfig.phoneDisplay}`}
+      onClick={() => trackPhoneCall(trackingLocation)}
       className={cn(
         "inline-flex items-center justify-center font-semibold rounded-[var(--radius-btn)] transition-all duration-200 cursor-pointer select-none focus-visible:outline-2 focus-visible:outline-offset-2",
         variantClasses[variant],
@@ -182,6 +187,7 @@ export function EmergencyButton({
     <a
       href={siteConfig.phoneTel}
       aria-label="Emergency pest removal — call now"
+      onClick={() => trackPhoneCall("emergency_button")}
       className={cn(
         "inline-flex items-center justify-center font-bold rounded-[var(--radius-btn)] transition-all duration-200 cursor-pointer select-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-[var(--color-red)] text-white ring-2 ring-[var(--color-red)] ring-offset-2 shadow-[var(--shadow-cta)] hover:bg-[var(--color-red-dark)] active:scale-[0.98]",
         sizeClasses[size],
@@ -195,3 +201,8 @@ export function EmergencyButton({
     </a>
   );
 }
+
+// ─── WhatsApp Button ──────────────────────────────────────────────
+// Re-exported utility so any component can fire the WhatsApp GA event
+// without importing from two places.
+export { trackWhatsAppClick };
