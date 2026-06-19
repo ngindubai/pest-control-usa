@@ -4580,4 +4580,101 @@ export const northCarolinaCities: CityLocation[] = [
     metaDescription:
       "Morrisville NC pest control for subterranean termites, mosquitoes, stink bugs, fire ants and bed bugs near RDU. Wake County Research Triangle specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  {
+    slug: "knightdale",
+    name: "Knightdale",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~19,000",
+    county: "Wake County",
+    climate: "hot-humid",
+    climateDriver: "Knightdale sits in east Wake County on the Neuse River basin, where the hot, humid Carolina Piedmont climate creates year-round termite pressure and an extended mosquito season. The Neuse River watershed keeps groundwater levels elevated and creates drainage corridors that sustain mosquito breeding well into October, while the heat and humidity accelerate termite colony activity.",
+    topPests: ["Subterranean termites", "Mosquitoes", "Fire ants", "Carpenter ants", "Stink bugs"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, swarms March-May",
+        note: "East Wake County is within one of North Carolina's highest-risk termite zones. Knightdale's rapid growth has brought many new homes onto former agricultural land where termite populations were already established.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April-October",
+        note: "The Neuse River basin creates a network of drainage corridors and low-lying areas throughout Knightdale that support Aedes and Culex mosquito breeding through the long warm season.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March-October",
+        note: "Red imported fire ants are well established across Wake County. They thrive in Knightdale's open residential lawns and spread quickly into newly sodded areas.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring-Summer",
+        note: "Carpenter ants find entry points through moisture-damaged wood in soffits, window frames, and crawlspace sills. Knightdale's newer construction is not immune if moisture management fails.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September-November",
+        note: "Brown marmorated stink bugs are established in the Triangle region of North Carolina. They push into wall voids and attics in fall as outdoor temperatures cool.",
+      },
+    ],
+    localHook: "Knightdale is one of the fastest-growing suburbs in the Triangle, and east Wake County falls within one of North Carolina's highest-risk termite pressure zones as documented by pest management industry mapping. The combination of rapid new construction on former agricultural land and the Neuse River basin's moisture means both termite and mosquito pressure are elevated compared to more established, inland communities.",
+    intro: "Knightdale has grown quickly, and pest pressure has grown with it. East Wake County sits in one of North Carolina's highest-risk termite zones, and Knightdale's rapid expansion onto former agricultural and woodland areas means many new homes were built on ground where termite colonies were already active. The Neuse River basin creates drainage corridors throughout the city that keep mosquito season long and productive. Fire ants claim sunny lawns, carpenter ants probe moisture-damaged wood, and stink bugs arrive in force each fall. Whether your home is five years old or fifteen, the pest risks here are real and require a clear approach.",
+    sections: [
+      {
+        heading: "Comparing Termite Risk in New vs. Established Knightdale Neighborhoods",
+        body: "Newer Knightdale homes built with modern soil pre-treatment and physical barriers have meaningful termite protection at the time of construction, but that protection is not permanent. Liquid barrier treatments degrade over time, and physical barriers can be breached by renovation work or soil disturbance. Homes in established neighborhoods built before pre-treatment was standard have even less protection. In either case, annual inspections are the practical standard for east Wake County, where termite pressure is high enough that the risk of going unmonitored outweighs the cost of inspection.",
+      },
+      {
+        heading: "Mosquito Season Along Knightdale's Neuse River Drainage",
+        body: "The Neuse River watershed creates a network of drainage swales, retention ponds, and low-lying wet areas throughout Knightdale that sustain mosquito populations from April through October. Aedes albopictus, the Asian tiger mosquito, is a daytime biter that breeds in small containers and low spots, and is common throughout the Triangle. Culex mosquitoes, which can carry West Nile virus, breed in stagnant water. Eliminating standing water on your property and using a barrier spray program around the yard perimeter gives the most practical level of seasonal control.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection before buying or before your current bond expires, as east Wake County's high termite pressure makes continuous protection the standard.",
+      "Empty and clean any container that holds water, including gutters, birdbaths, low spots in the lawn, and toys, weekly during mosquito season.",
+      "Treat fire ant mounds as soon as they appear in spring, before the colony splits and sends out new queens to establish satellite colonies across the lawn.",
+      "Seal gaps around all exterior utility penetrations and window frames before September to limit stink bug entry during fall aggregation.",
+    ],
+    costNote: "Termite inspections in Knightdale typically run $75 to $150. Annual termite bonds or service agreements average $250 to $500 for a standard home. Mosquito barrier spray programs cost $60 to $100 per visit. Fire ant broadcast treatments for a residential lot average $100 to $200.",
+    faqs: [
+      {
+        question: "Is Knightdale really in one of North Carolina's highest termite risk zones?",
+        answer: "Yes. East Wake County falls within a high termite pressure zone based on industry mapping and historical service data. The Neuse River basin's moist soil conditions and the Triangle's warm climate support large subterranean termite populations. Rapid development in Knightdale has placed many new homes directly on former agricultural and woodland land where colonies were already established.",
+      },
+      {
+        question: "How does the Neuse River basin affect mosquito season in Knightdale?",
+        answer: "The Neuse River watershed creates a network of drainage corridors, retention ponds, and low-lying wet areas throughout Knightdale that provide continuous mosquito breeding habitat from spring through fall. The Asian tiger mosquito, a daytime biter common in the Triangle region of North Carolina, breeds in very small containers and is difficult to eliminate entirely. Barrier spray programs around yard perimeters significantly reduce adult populations through the season.",
+      },
+      {
+        question: "Does a new construction home in Knightdale need termite protection?",
+        answer: "Yes. New construction in North Carolina requires termite pre-treatment, and most lenders require a termite inspection at closing. However, pre-treatment is not permanent. Most liquid soil barriers are effective for five to eight years under typical conditions. After that window, or after significant soil disturbance from landscaping or renovation, the protection needs to be renewed. An annual inspection catches any gap in coverage early.",
+      },
+      {
+        question: "What is the difference between fire ants and carpenter ants in Knightdale?",
+        answer: "Fire ants are reddish-brown, small to medium in size, and build mounded colonies in open sunny ground. They are aggressive and sting. Carpenter ants are much larger, typically black or black and red, and nest in wood rather than soil. They do not sting but can bite if handled. Both are common in Wake County, but the treatment approach differs: fire ants require lawn baiting and mound treatments, while carpenter ants require finding and correcting the moisture source that is drawing them in.",
+      },
+      {
+        question: "When do stink bugs become a problem in Knightdale each fall?",
+        answer: "Brown marmorated stink bugs typically begin aggregating on exterior walls in Knightdale in September, with peak activity through mid-October. The Triangle region of North Carolina sees significant stink bug pressure, and Knightdale's location in east Wake County is within that range. The key intervention point is sealing entry points before September, when insects are already looking for overwintering sites.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Raleigh", slug: "raleigh" },
+      { name: "Garner", slug: "garner" },
+      { name: "Wake Forest", slug: "wake-forest" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Knightdale, NC | Termites, Mosquitoes & Fire Ants",
+    metaDescription: "Pest control in Knightdale, NC. Local service for subterranean termites in one of NC's highest-risk zones, mosquitoes near the Neuse River basin, fire ants, and stink bugs in Wake County.",
+  },
 ];

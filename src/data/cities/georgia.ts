@@ -4605,4 +4605,483 @@ export const georgiaCities: CityLocation[] = [
     metaTitle: "Pest Control in Griffin, GA | Termites, Fire Ants & Cockroaches",
     metaDescription: "Griffin GA pest control for subterranean termites, fire ants and American cockroaches. Spalding County historic mill district central Georgia specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  {
+    slug: "conyers",
+    name: "Conyers",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~22,000",
+    county: "Rockdale County",
+    climate: "hot-humid",
+    climateDriver: "Conyers sits in Georgia's Piedmont zone, where hot summers with high humidity and mild winters create near-ideal breeding conditions for termites and mosquitoes year-round. The South River corridor holds standing water long after rain, which extends mosquito season well into October.",
+    topPests: ["Subterranean termites", "Mosquitoes", "Fire ants", "Carpenter ants", "Stink bugs"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, peak swarms March-May",
+        note: "Georgia's warm soil temperatures keep termite colonies active through most of the year. Older wood-frame homes in Conyers are especially exposed.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April-October",
+        note: "The South River floodplain and low-lying yards hold standing water that supports large Aedes and Culex populations through summer.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring-Fall",
+        note: "Red imported fire ants are established across Rockdale County. Mounds appear quickly after rain in open lawns and garden beds.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring-Summer",
+        note: "Moisture-damaged wood in crawlspaces is a common entry point. Satellite colonies often appear indoors in kitchen walls or window frames.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September-November",
+        note: "Brown marmorated stink bugs move indoors as temperatures drop in fall, gathering in wall voids and attic spaces.",
+      },
+    ],
+    localHook: "Conyers sits on the I-20 corridor 25 miles east of Atlanta, and its mix of 1970s and 1980s ranch-style homes with crawlspace foundations makes it one of Rockdale County's higher-risk areas for subterranean termite damage.",
+    intro: "Pest pressure in Conyers runs high for most of the year. The hot, humid summers along the South River corridor give mosquitoes a long breeding season, while Georgia's warm soil keeps subterranean termite colonies active well past the first cool snap. Fire ant mounds pop up in lawns and parks after every rain, and come fall, stink bugs look for any gap in a wall or roofline to squeeze through. Whether you're dealing with a current infestation or trying to stay ahead of one, knowing what's active in your neighborhood makes a real difference.",
+    sections: [
+      {
+        heading: "Termite Risk in Conyers Homes",
+        body: "Rockdale County falls inside Georgia's highest termite pressure zone. Subterranean termites travel through soil and enter homes through cracks in foundations or untreated wood in contact with the ground. Ranch homes and split-levels built in the 1970s and 1980s, common throughout Conyers, often have crawlspace construction that makes early detection difficult. Annual inspections are the most reliable way to catch activity before it becomes structural damage.",
+      },
+      {
+        heading: "Mosquito Season Along the South River",
+        body: "The South River watershed creates pockets of standing water that persist through Georgia's wet spring and summer months. Culex mosquitoes, which can transmit West Nile virus, breed in these pools. Eliminating standing water in gutters, birdbaths, and low spots in the yard cuts the local population significantly. Barrier treatments applied around peak breeding areas extend protection through the season.",
+      },
+    ],
+    prevention: [
+      "Fix leaking gutters and downspouts so water drains away from the foundation.",
+      "Stack firewood at least 20 feet from the house and off the ground to remove termite harborage.",
+      "Seal gaps around pipes, utility lines, and crawlspace vents before stink bug season begins in September.",
+      "Keep lawn edges trimmed and treat fire ant mounds as soon as they appear, before the colony splits and spreads.",
+    ],
+    costNote: "A one-time pest inspection in Conyers typically runs $75 to $150. Termite treatment costs vary by method and home size but commonly fall between $400 and $1,200. Mosquito barrier spray programs are usually $50 to $100 per treatment.",
+    faqs: [
+      {
+        question: "Are subterranean termites really that common in Conyers?",
+        answer: "Yes. Conyers and all of Rockdale County fall within Georgia's highest termite pressure zone as mapped by pest industry data. The warm, moist soil conditions here are close to ideal for Reticulitermes species, the most destructive subterranean termite in the eastern US.",
+      },
+      {
+        question: "When is mosquito season worst in Conyers?",
+        answer: "July and August are typically the worst months. The South River floodplain holds water well after storms, which creates continuous breeding habitat. Mosquito activity begins to drop noticeably after the first hard frost, usually in late October or early November.",
+      },
+      {
+        question: "How do I tell a carpenter ant from a fire ant?",
+        answer: "Carpenter ants are much larger, usually black or dark red, and they nest in wood rather than soil. Fire ants are smaller, reddish-brown, and build mounded colonies in open ground. Both are common in Conyers, but the treatment approach is different for each.",
+      },
+      {
+        question: "Why are stink bugs entering my Conyers home every fall?",
+        answer: "Brown marmorated stink bugs seek warm overwintering sites when outdoor temperatures drop. They detect gaps around window frames, soffit vents, and utility penetrations. Sealing those entry points before late September is the most effective way to keep them out.",
+      },
+      {
+        question: "Is a DIY approach enough for fire ants in my Conyers yard?",
+        answer: "Broadcast bait products available at hardware stores can reduce colonies over several weeks, but re-infestation from neighboring properties is common in Rockdale County. A licensed applicator can treat the full perimeter and monitor for new mounds through the season.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Covington", slug: "covington-ga" },
+      { name: "Lawrenceville", slug: "lawrenceville-ga" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Conyers, GA | Termites, Mosquitoes & Fire Ants",
+    metaDescription: "Pest control in Conyers, GA. Local experts tackle subterranean termites, mosquitoes along the South River, fire ants, and stink bugs in Rockdale County homes.",
+  },
+
+  {
+    slug: "cartersville",
+    name: "Cartersville",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~23,000",
+    county: "Bartow County",
+    climate: "hot-humid",
+    climateDriver: "Cartersville's position in the Ridge and Valley section of northwest Georgia brings hot, humid summers and cool but rarely freezing winters. The Etowah River and its tributaries create moist lowland pockets that support mosquito breeding and accelerate wood decay, which raises termite risk in older structures.",
+    topPests: ["Subterranean termites", "Fire ants", "Mosquitoes", "Carpenter ants", "Stink bugs"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, swarm season February-April",
+        note: "Bartow County's red clay soils retain moisture that supports large termite colonies. Swarms on warm late-winter days are the most visible sign of an established infestation.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March-October",
+        note: "Red imported fire ants are well established in Bartow County. They prefer open, sunny areas and move mounds after heavy rain on the Etowah River plain.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April-October",
+        note: "Floodplains along the Etowah River and low-lying neighborhoods create standing water that sustains large mosquito populations through the warm season.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring-Summer",
+        note: "Moisture intrusion in soffits and crawlspaces is a common starting point for carpenter ant colonies in Cartersville's older downtown homes.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September-November",
+        note: "Brown marmorated stink bugs aggregate on sun-warmed south-facing walls before pushing into wall voids for the winter.",
+      },
+    ],
+    localHook: "Cartersville sits 45 miles northwest of Atlanta along the I-75 corridor, and its proximity to the Etowah River, one of the Southeast's more flood-prone waterways, means residents deal with recurring mosquito pressure and accelerated wood decay that feeds subterranean termite colonies.",
+    intro: "Living in Cartersville means sharing the landscape with a steady rotation of pests. Subterranean termites are active in Bartow County soil for most of the year, and the red clay holds moisture that keeps colonies large and close to the surface. The Etowah River floodplain fuels mosquito season from April through October. Fire ants colonize yards and roadsides quickly, especially after wet periods. When fall arrives, stink bugs look for any warm gap in your walls or roofline. Getting ahead of these problems before they become expensive is the goal.",
+    sections: [
+      {
+        heading: "Comparing Termite Treatment Options in Cartersville",
+        body: "Homeowners in Cartersville typically choose between liquid soil barrier treatments and termite bait systems. Liquid barriers create an immediate chemical zone around the foundation. Bait systems work more slowly but let technicians monitor colony activity over time. Both are effective when installed correctly. The right choice depends on construction type, soil conditions, and whether active termites have already been detected in the structure.",
+      },
+      {
+        heading: "Fire Ant Management in Bartow County",
+        body: "Red imported fire ants spread rapidly in Cartersville's open lawns and sunny garden borders. Individual mound treatments knock down a visible colony, but broadcast bait programs are more effective at reducing the overall population across a property. Timing the application after a dry spell, when ants are foraging actively, improves bait uptake. A licensed applicator can assess the infestation level and recommend the right program.",
+      },
+    ],
+    prevention: [
+      "Grade soil away from your foundation so rainwater drains outward rather than pooling against the slab or crawlspace walls.",
+      "Remove dead stumps and wood debris from the yard, as these are prime termite harborage points near the Etowah lowlands.",
+      "Empty outdoor containers and clean gutters after every significant rain to cut off mosquito breeding sites.",
+      "Install door sweeps and seal utility penetrations before September to limit stink bug entry points.",
+    ],
+    costNote: "Pest inspections in Cartersville average $75 to $150. Liquid termite barrier treatments typically run $500 to $1,500 depending on linear footage. Fire ant broadcast treatments for a standard yard start around $100 to $200 per application.",
+    faqs: [
+      {
+        question: "How serious is the termite risk in Cartersville specifically?",
+        answer: "Cartersville and Bartow County are in a high-risk zone for subterranean termite activity. Georgia's warm climate and the moisture retained in local red clay soils support large Reticulitermes colonies. Homes without a current termite bond or recent inspection are at meaningful risk of undetected damage.",
+      },
+      {
+        question: "Does the Etowah River affect mosquito pressure in my neighborhood?",
+        answer: "Yes, it can. Properties within a mile of the Etowah River floodplain tend to see heavier mosquito pressure because floodwater events leave behind standing pools that serve as breeding sites for several weeks. Barrier spray programs around the yard perimeter are especially useful for homes in those lower-elevation areas.",
+      },
+      {
+        question: "What attracts carpenter ants to Cartersville homes?",
+        answer: "Moisture-damaged wood is the primary attractant. Leaking gutters, damaged fascia boards, and damp crawlspace framing give carpenter ants the soft, wet wood they prefer for nesting. The issue is usually the moisture source, not just the ants.",
+      },
+      {
+        question: "Can I treat fire ants in my yard myself?",
+        answer: "Over-the-counter mound treatments and broadcast baits are available and can reduce visible colonies. The limitation in Cartersville is that fire ant pressure from neighboring properties and adjacent open land means re-infestation is common without a sustained perimeter program.",
+      },
+      {
+        question: "When should I schedule a termite inspection in Cartersville?",
+        answer: "The best time is late winter or early spring, before swarm season begins. Termites in Bartow County typically swarm on warm days between February and April. Scheduling an inspection before that window means any activity can be treated before new colonies establish.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Rome", slug: "rome-ga" },
+      { name: "Kennesaw", slug: "kennesaw" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Cartersville, GA | Termites, Fire Ants & Mosquitoes",
+    metaDescription: "Pest control in Cartersville, GA. Licensed technicians handle subterranean termites, fire ants, mosquitoes near the Etowah River, and stink bugs in Bartow County.",
+  },
+
+  {
+    slug: "covington-ga",
+    name: "Covington",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~16,000",
+    county: "Newton County",
+    climate: "hot-humid",
+    climateDriver: "Covington's location in the Georgia Piedmont, 35 miles east of Atlanta, produces hot, sticky summers and mild winters that allow subterranean termites to remain active throughout most of the year. The Yellow River corridor adds additional moisture, extending mosquito breeding season and keeping soil humidity high near the city center.",
+    topPests: ["Subterranean termites", "Fire ants", "Mosquitoes", "Carpenter ants"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, swarms March-April",
+        note: "Newton County's moist Piedmont soils support dense termite colonies. Covington's historic district has many older wood-frame structures with untreated sills that are particularly exposed.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March-November",
+        note: "Red imported fire ants dominate open lawns and utility corridors. Mounds multiply after rain and appear quickly in newly disturbed soil.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April-October",
+        note: "The Yellow River and its tributary drainage channels create standing water habitats throughout the city, supporting Aedes and Culex mosquito populations.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring-Summer",
+        note: "Damp crawlspaces and moisture-compromised wood in older Covington homes attract carpenter ant colonies that can tunnel extensively before being detected.",
+      },
+    ],
+    localHook: "Covington is the Newton County seat and one of Georgia's most-filmed small cities. Its historic district, featuring antebellum homes and older wood-frame structures, creates concentrated termite risk where aged sill plates and crawlspace framing often lack modern treatment protection.",
+    intro: "Covington carries the pest profile you'd expect from a Georgia Piedmont city with a strong historic core. Subterranean termites are the biggest structural concern, especially in the older neighborhoods around the courthouse square where homes predate modern treatment standards. The Yellow River adds consistent moisture pressure that keeps mosquito season long and fire ant colonies active well into fall. Carpenter ants find plenty of moisture-damaged wood to work with in crawlspaces across the city. A clear service plan, built around what's actually present in your home, is the most practical way to manage these issues.",
+    sections: [
+      {
+        heading: "Termite Protection for Covington's Older Homes",
+        body: "Many homes in Covington's historic neighborhoods were built before termite pre-treatment was standard practice. Wood sills in direct contact with soil, old brick piers, and unventilated crawlspaces create conditions where termite activity can go undetected for years. A professional inspection establishes a baseline, and a termite bond or monitoring system keeps protection current. This is not optional for homes in the affected age range.",
+      },
+      {
+        heading: "Managing Fire Ants in Newton County Yards",
+        body: "Red imported fire ants spread through Newton County in all directions from established colonies. Individual mound treatments provide quick local relief but do not stop re-infestation from adjacent properties. A broadcast bait program, applied across the whole yard when ants are foraging, reduces the overall population more effectively. Your technician can identify high-pressure zones on the property and prioritize treatment there.",
+      },
+    ],
+    prevention: [
+      "Inspect your crawlspace annually for moisture intrusion, wood-to-soil contact, and signs of termite mud tubes.",
+      "Trim shrubs and tree limbs away from the house so that leaf litter does not hold moisture against the siding.",
+      "Dump and refill birdbaths weekly during mosquito season, and check gutters for debris that holds standing water.",
+      "Treat fire ant mounds promptly and apply a perimeter granule barrier in spring before colony expansion peaks.",
+    ],
+    costNote: "Termite inspections in Covington typically cost $75 to $125. Annual termite service agreements run $200 to $400 per year for a standard home. One-time fire ant treatments for a residential lot average $100 to $175.",
+    faqs: [
+      {
+        question: "Why are so many Covington homes at higher termite risk than newer construction?",
+        answer: "Homes built before the 1980s were rarely pre-treated during construction, and many in Covington's historic district have wood elements in direct contact with soil. Subterranean termites exploit this easily. Modern construction requires soil pre-treatment and physical barriers, but older homes have neither unless they've been retrofitted.",
+      },
+      {
+        question: "Does the Yellow River near Covington affect mosquito season?",
+        answer: "Yes. The Yellow River and its smaller drainage channels hold water after rain events and provide standing water habitat for mosquito breeding throughout the warm season. Neighborhoods adjacent to that corridor, particularly those in lower-lying areas near the river, typically see more mosquito pressure than hillside parts of the city.",
+      },
+      {
+        question: "How do I know if carpenter ants are in my walls and not just foraging from outside?",
+        answer: "Frass, a mix of sawdust and insect debris, near baseboards or window frames is one sign. Hearing faint rustling in walls at night is another. A technician can probe suspected areas and use moisture meters to find the wet wood that's likely drawing them in.",
+      },
+      {
+        question: "Are fire ants in Covington a health risk?",
+        answer: "For most people a fire ant sting causes a painful welt and temporary swelling. However, people with allergies to insect venom can experience severe systemic reactions. Children and pets are also at greater risk from multiple simultaneous stings. Active colonies near play areas or pet runs should be treated promptly.",
+      },
+      {
+        question: "What is the best time of year to schedule a full pest inspection in Covington?",
+        answer: "Late winter to early spring is the most practical window. Termites swarm in March and April in Newton County, mosquito season has not yet started, and fire ant colonies are beginning their expansion phase. Addressing all three before peak season gives you the best lead time.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Conyers", slug: "conyers" },
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "Lawrenceville", slug: "lawrenceville-ga" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Covington, GA | Termites, Mosquitoes & Fire Ants",
+    metaDescription: "Pest control in Covington, GA. Local service for subterranean termites in historic homes, fire ants, mosquitoes near the Yellow River, and carpenter ants in Newton County.",
+  },
+
+  {
+    slug: "milledgeville",
+    name: "Milledgeville",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~17,000",
+    county: "Baldwin County",
+    climate: "hot-humid",
+    climateDriver: "Milledgeville sits in central Georgia where the fall-line transition from Piedmont to Coastal Plain produces long, hot summers and mild winters. The Oconee River and the shore of Lake Sinclair keep humidity elevated through the season, which extends the active period for termites, mosquitoes, and American cockroaches.",
+    topPests: ["Subterranean termites", "Mosquitoes", "Fire ants", "American cockroaches", "Carpenter bees"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, peak swarms March-May",
+        note: "Baldwin County's moist, sandy-clay soils at the fall line support large Reticulitermes colonies. Older structures near Georgia College campus are particularly exposed.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April-October",
+        note: "Lake Sinclair's shoreline and the Oconee River backwaters provide extensive standing water that sustains heavy mosquito populations throughout the warm season.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March-October",
+        note: "Red imported fire ants are established across Baldwin County lawns and roadsides, with mound activity peaking in late spring and early fall.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active May-September",
+        note: "American cockroaches, called palmetto bugs locally, thrive in Milledgeville's warm, humid conditions. They enter homes through drains, utility gaps, and poorly sealed crawlspace vents.",
+      },
+      {
+        name: "Carpenter bees",
+        serviceSlug: "bee-control",
+        activeSeason: "March-June",
+        note: "Carpenter bees tunnel into unpainted or weathered wood trim and eaves. Porch railings, fascia boards, and deck lumber on older Milledgeville homes are common targets.",
+      },
+    ],
+    localHook: "Milledgeville served as Georgia's state capital for over 60 years before the Civil War, and much of its housing stock reflects that era. Structures near the Georgia College campus and along antebellum streets often have unprotected wood elements that have been exposed to termites for generations.",
+    intro: "Milledgeville is a city with real history and real pest pressure to match. Central Georgia's climate, softened slightly by Lake Sinclair's proximity, keeps subterranean termites in the soil and mosquitoes on the wing from April through October. American cockroaches are a fact of life in older buildings here, finding their way through aging utility penetrations and poorly sealed foundations. Carpenter bees go to work on unpainted wood each spring, and fire ants claim yards and garden borders as soon as temperatures rise. None of this is unusual for this part of Georgia. It just needs steady attention.",
+    sections: [
+      {
+        heading: "Cockroach Control Around Georgia College",
+        body: "American cockroaches are common in the older rental properties and historic homes around the Georgia College campus. They prefer warm, moist conditions and enter buildings through floor drains, sewer gaps, and crawlspace vents. Exclusion work, sealing gaps around pipes and utility entries, reduces entry points significantly. Interior bait programs then deal with what's already inside. This combination is more reliable than spray treatments alone for long-term control.",
+      },
+      {
+        heading: "Carpenter Bees and Milledgeville's Wood-Heavy Architecture",
+        body: "The antebellum and Victorian homes that define much of Milledgeville's streetscape have extensive wood trim, porch columns, and exposed fascia that attract carpenter bees each spring. Female bees bore half-inch round holes to lay eggs. The structural damage from a single season is minor, but repeated use of the same entry points over years weakens wood significantly. Painting or sealing all exposed wood is the most effective preventive measure.",
+      },
+    ],
+    prevention: [
+      "Apply a coat of exterior paint or wood sealant to all exposed trim and porch wood before March to deter carpenter bees.",
+      "Check crawlspace vents and foundation gaps for openings large enough to admit cockroaches and seal them with appropriate mesh or foam.",
+      "Remove leaf litter and decaying wood from around the foundation, as both attract termites and give cockroaches a staging area.",
+      "Empty containers, check gutters, and treat ornamental water features near Lake Sinclair access points to reduce mosquito breeding.",
+    ],
+    costNote: "A standard pest inspection in Milledgeville runs $75 to $125. Cockroach treatment programs for a residential property typically cost $150 to $300 depending on severity. Termite service agreements average $250 to $450 annually.",
+    faqs: [
+      {
+        question: "Are the cockroaches in Milledgeville the same as the ones in restaurants up north?",
+        answer: "Probably not. Milledgeville sees mostly American cockroaches, which are much larger than the German cockroach common in commercial kitchens. American cockroaches prefer sewers, drains, and outdoor environments. They wander indoors rather than establishing dense indoor colonies the way German cockroaches do.",
+      },
+      {
+        question: "Does Lake Sinclair make mosquito problems worse in Milledgeville?",
+        answer: "Lake Sinclair and the Oconee River backwaters provide extensive standing water habitat near Milledgeville that supports large mosquito populations through the warm months. Properties within a few blocks of the lake shore or river access typically see more activity than those further inland.",
+      },
+      {
+        question: "How do I know if my porch has carpenter bee damage?",
+        answer: "Look for perfectly round, half-inch diameter holes in the wood surface. You may also see sawdust-like frass below the entry point and yellow staining on the wood from bee waste. Male bees hover aggressively near entry points in spring, though they cannot sting.",
+      },
+      {
+        question: "Is Milledgeville at high risk for subterranean termites?",
+        answer: "Yes. Baldwin County sits near the fall line between Georgia's Piedmont and Coastal Plain, and both soil types support large subterranean termite populations. The mixture of older housing stock and warm, moist conditions means the risk is real for most residential properties in the city.",
+      },
+      {
+        question: "What keeps fire ants coming back to my Milledgeville yard after treatment?",
+        answer: "Re-infestation from neighboring properties is the most common reason. Individual mound treatments eliminate the visible colony but do not prevent new queens from flying in and establishing nearby. A broadcast bait program applied across the whole yard each spring offers more sustained control.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Macon", slug: "macon" },
+      { name: "Warner Robins", slug: "warner-robins" },
+      { name: "Athens", slug: "athens" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Milledgeville, GA | Termites, Cockroaches & Mosquitoes",
+    metaDescription: "Pest control in Milledgeville, GA. Local experts handle subterranean termites, American cockroaches, mosquitoes near Lake Sinclair, and carpenter bees in Baldwin County.",
+  },
+
+  {
+    slug: "thomasville-ga",
+    name: "Thomasville",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~19,000",
+    county: "Thomas County",
+    climate: "hot-humid",
+    climateDriver: "Thomasville sits in southwest Georgia just 35 miles from the Florida state line, producing a long, humid growing season with mild winters that rarely dip below freezing. This near-subtropical climate allows many pest species, including American cockroaches, subterranean termites, and brown recluse spiders, to remain active or at least viable throughout the year.",
+    topPests: ["American cockroaches", "Subterranean termites", "Fire ants", "Mosquitoes", "Brown recluse spiders"],
+    pestProfile: [
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Called palmetto bugs in this part of Georgia, American cockroaches are pervasive in Thomasville's warm, humid conditions. They enter through drains, vents, and unsealed crawlspaces.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, swarms February-April",
+        note: "Thomas County's sandy, well-drained soils in the Coastal Plain support large Reticulitermes and Formosan termite populations. Swarms can begin as early as February in warm years.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round in this climate",
+        note: "Southwest Georgia's mild winters mean fire ant colonies do not fully suppress in winter. Mounds remain active and can expand even in January during warm spells.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March-November",
+        note: "Thomasville's extended warm season stretches mosquito activity several weeks longer than areas further north in Georgia. Low-lying yards with drainage issues see pressure well into November.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active May-October",
+        note: "Brown recluse spiders are present across southwest Georgia. They favor undisturbed indoor spaces such as boxes, stored clothing, and wall voids in closets and garages.",
+      },
+    ],
+    localHook: "Thomasville is known as the City of Roses and draws visitors to its famous rose garden each spring. But the same mild, humid climate that makes roses thrive also keeps pest pressure active for more months than anywhere further north in Georgia, including potential Formosan termite activity.",
+    intro: "Thomasville's climate works against you when it comes to pests. The proximity to the Florida border means winters are short and rarely cold enough to reset insect populations significantly. American cockroaches are essentially year-round residents here. Subterranean termites in Thomas County can swarm as early as February. Fire ant colonies stay viable through winter. And the long warm season gives brown recluse spiders ample time to establish in quiet corners of garages, sheds, and closets. Understanding what you're dealing with is the first step to keeping it under control.",
+    sections: [
+      {
+        heading: "Brown Recluse Spider Risk in Thomasville",
+        body: "Brown recluse spiders are genuine residents of southwest Georgia, not just passing visitors. They avoid activity and stay in undisturbed spaces, which is what makes them dangerous. A bite, though rare, can cause significant tissue damage in some individuals. Reducing clutter in storage areas, shaking out stored clothing before wearing, and sealing wall voids reduces encounters. A technician can treat likely harborage areas and advise on exclusion measures.",
+      },
+      {
+        heading: "Year-Round Fire Ant Pressure in Thomas County",
+        body: "Unlike areas further north where cold winters suppress fire ant colonies for months, Thomasville's climate allows colonies to remain active nearly year-round. This makes one-time treatments less durable here. A program that combines broadcast bait applications in spring and fall with perimeter monitoring gives more sustained results. Even small colonies should be treated before they expand into foot-traffic areas.",
+      },
+    ],
+    prevention: [
+      "Shake out clothing, shoes, and boxes stored in garages or closets before use, as brown recluse spiders favor undisturbed items.",
+      "Seal crawlspace vents, pipe penetrations, and foundation gaps with fine mesh or foam to block American cockroach entry points.",
+      "Keep firewood stacked well away from the house and inspect it before bringing it inside to avoid introducing termite-infested wood.",
+      "Apply a fire ant broadcast bait program in both spring and fall rather than relying on single-season treatments.",
+    ],
+    costNote: "Pest control inspections in Thomasville run $75 to $150. Cockroach control programs average $125 to $275 depending on property size. Termite bonds in Thomas County typically cost $300 to $600 annually for a standard residential home.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders actually common in Thomasville?",
+        answer: "Brown recluse spiders have an established range across the Southeast, and southwest Georgia falls within it. They are present in Thomas County, though encounters are infrequent because they actively avoid people. Storage areas, boxes, and wall voids in older homes are the most common places to find them.",
+      },
+      {
+        question: "Why do fire ants in Thomasville seem worse in winter than they should be?",
+        answer: "Southwest Georgia's mild winters do not suppress fire ant colonies the way colder climates do. Colonies in Thomas County stay active and can even expand during warm January and February days. This is a genuine difference from areas further north in Georgia and means year-round management is more important here.",
+      },
+      {
+        question: "What is a palmetto bug and is it the same as a cockroach?",
+        answer: "Yes, palmetto bug is a regional name for the American cockroach, which is common throughout the Southeast. They are large, reddish-brown insects that prefer warm, moist environments. In Thomasville, they thrive outdoors and enter homes through drains, vents, and foundation gaps, particularly in summer.",
+      },
+      {
+        question: "Can Formosan termites reach Thomasville?",
+        answer: "Formosan subterranean termites have expanded their range steadily through the Gulf Coast states and are documented in southern Georgia. Thomas County's proximity to the Florida border places it within the potential range. Any termite inspection in Thomasville should specifically check for Formosan activity, as their colonies can be significantly larger and more destructive than native species.",
+      },
+      {
+        question: "When does mosquito season actually end in Thomasville?",
+        answer: "Mosquito activity in Thomasville typically extends through October and into early November, several weeks later than communities further north in Georgia. The first hard frost that suppresses activity reliably usually does not arrive until November. In mild years, light mosquito activity can persist even longer.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Valdosta", slug: "valdosta" },
+      { name: "Albany", slug: "albany" },
+      { name: "Savannah", slug: "savannah" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Thomasville, GA | Cockroaches, Termites & Spiders",
+    metaDescription: "Pest control in Thomasville, GA. Year-round service for American cockroaches, subterranean termites, fire ants, mosquitoes, and brown recluse spiders in Thomas County.",
+  },
 ];

@@ -3529,4 +3529,343 @@ export const indianaCities: CityLocation[] = [
     metaTitle: "Pest Control in East Chicago, IN | Mice, Rats & Bed Bugs",
     metaDescription: "East Chicago IN pest control for house mice, Norway rats, German cockroaches and bed bugs. Lake County Lake Michigan industrial-era housing specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  {
+    slug: "seymour-in",
+    name: "Seymour",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~20,000",
+    county: "Jackson County",
+    climate: "cold-humid",
+    climateDriver:
+      "Seymour sits at the I-65 and US-50 crossroads in south-central Indiana, where the Muscatatuck River watershed and the surrounding agricultural landscape shape the pest calendar. Purdue Extension documents eastern subterranean termite pressure as high across south-central Indiana, including Jackson County. The cold-humid climate drives mice indoors in fall, and the industrial and agricultural character of the region adds rodent harborage from grain storage and warehousing on the city's outskirts.",
+    topPests: [
+      "Eastern subterranean termites",
+      "House mice",
+      "Odorous house ants",
+      "Yellowjackets",
+      "Brown marmorated stink bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Purdue Extension documents eastern subterranean termite pressure as significant across south-central Indiana. Jackson County's clay-heavy soils and the agricultural landscape provide ideal termite habitat. Older homes in Seymour's established neighborhoods carry real exposure, and annual inspections are the standard preventive approach in the region.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice are the primary rodent pest in Seymour. The cold-humid Indiana climate drives fall entry into structures from September onward. The city's position at a major interstate crossroads means commercial activity, truck traffic, and warehousing on the outskirts contribute to rodent populations that can extend into adjacent residential areas.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Odorous house ants are the dominant nuisance ant in Jackson County. They nest under Seymour's sidewalks, driveways, and foundation edges and push indoors after rain. Purdue Extension confirms odorous house ants as the most commonly reported indoor ant across south-central Indiana.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall, peak aggression in August and September",
+        note: "Yellowjackets are a consistent late summer problem in Seymour. They nest in the ground and in wall voids of structures. The agricultural landscape and open turf areas around Seymour's residential edges provide abundant ground-nesting habitat. Colony populations peak in August.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering",
+        note: "Brown marmorated stink bugs are established in south-central Indiana and are documented by Purdue Extension. Fall overwintering entry through siding gaps and window frames is consistent in Seymour's residential neighborhoods. Their range has expanded steadily across Indiana since initial documentation in the northern counties.",
+      },
+    ],
+    localHook:
+      "Purdue Extension identifies eastern subterranean termite pressure as significant across south-central Indiana, including Jackson County, and Seymour's combination of clay-heavy soils, older housing, and the Muscatatuck River watershed creates the soil moisture conditions termites favor. I-65 traffic also brings consistent bed bug and cockroach introduction risk through commercial trucking stops.",
+    intro:
+      "Seymour's pest profile is defined by its position in south-central Indiana. Purdue Extension documents high termite pressure across Jackson County, and the older residential neighborhoods carry real exposure. House mice push indoors in fall as Indiana temperatures drop, with some pressure from commercial-adjacent areas near the I-65 corridor. Odorous house ants are the dominant warm-season ant. Yellowjackets build ground nests in the agricultural landscape at the city's edges. Stink bugs are established across the region. Termites deserve regular attention here more than in northern parts of the state.",
+    sections: [
+      {
+        heading: "Termite pressure in south-central Indiana",
+        body: "Seymour is in the higher termite pressure zone of Indiana. Purdue Extension documents eastern subterranean termite activity across south-central Indiana as significant, a step above the lower pressure found in northern parts of the state. Jackson County's clay soils retain the moisture that subterranean termites need for colony survival, and the Muscatatuck River watershed adds to the soil moisture picture. Eastern subterranean termites in Seymour typically swarm in March, April, and May when temperatures warm and colony populations trigger swarmer production. Swarmers are the most visible sign of an established colony. They are small, winged, and appear in large numbers, often near windows and lights. They are not fliers that have come in from outside in most cases. They emerge from within the structure or from the soil immediately adjacent to it. A spring inspection by a Purdue Extension-trained or licensed professional is the practical annual response for Seymour homeowners in older neighborhoods.",
+      },
+      {
+        heading: "The I-65 corridor and commercial pest pressure",
+        body: "Seymour's location at the intersection of I-65 and US-50 gives the city a significant commercial and trucking character. Warehouse and distribution operations, truck stops, and commercial food service along the interstate corridors create rodent and cockroach harborage that can extend into adjacent residential areas. House mice and Norway rats that establish in commercial warehouse areas move outward when pressured or when food availability shifts. Residential streets immediately adjacent to the commercial corridors on Seymour's edges see more consistent rodent pressure than neighborhoods farther from those areas. A professional assessment can determine whether rodent activity on a specific residential property is self-contained or is part of a pattern originating from nearby commercial operations.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual spring termite inspection given Purdue Extension documentation of significant eastern subterranean termite pressure in Jackson County.",
+      "Seal foundation gaps and utility penetrations before September to stop mice from entering as Indiana temperatures fall.",
+      "Apply slow-acting bait on odorous house ant trails after rain events to reach colonies at their foundation and sidewalk nesting sites.",
+      "Walk turf areas in June and July to identify yellowjacket ground nests before peak colony size in late summer.",
+    ],
+    costNote:
+      "Seymour pest control is typically a recurring quarterly program with termite inspection and treatment quoted separately. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Are termites really that common in Seymour?",
+        answer:
+          "Yes. Purdue Extension identifies south-central Indiana, including Jackson County, as a zone of significant eastern subterranean termite pressure. The clay soils and the Muscatatuck River watershed create the soil moisture conditions the species prefers. Annual spring inspections are the standard precaution for Seymour homeowners, particularly in neighborhoods with pre-1970 housing.",
+      },
+      {
+        question: "How do I know if I have a termite swarm or just flying ants in Seymour?",
+        answer:
+          "Eastern subterranean termite swarmers have straight antennae, two pairs of equal-length wings, and a uniform waist. Flying ants have bent antennae, unequal wing pairs, and a pinched waist. Both swarm in spring, but termite swarmers near foundation walls, window sills, or soil adjacent to the structure strongly suggest an active colony. A professional inspection should follow any indoor swarmer sighting.",
+      },
+      {
+        question: "When is termite swarm season in Seymour?",
+        answer:
+          "Eastern subterranean termites in south-central Indiana typically swarm from mid-March through May, with peak activity in April on warm days after rain. They are most visible in the early afternoon. Swarmers inside a structure mean the colony is established within or directly adjacent to the building, not that insects flew in from outside.",
+      },
+      {
+        question: "Can I-65 commercial activity increase pest pressure in my Seymour neighborhood?",
+        answer:
+          "Yes, if your property is adjacent to the commercial and warehouse corridors near the interstate. Norway rats and mice that establish in warehouse and trucking areas can move outward into residential areas. Cockroach introductions via commercial vehicles are also a documented pathway. A professional can assess whether pest activity on your property is consistent with a commercial-origin pressure pattern.",
+      },
+      {
+        question: "When do yellowjackets become aggressive in Seymour?",
+        answer:
+          "Mid-August through September is the peak aggression window in Jackson County. Colony populations are at their largest, and natural food declines send workers foraging toward human food sources. Yellowjacket ground nests in Seymour's agricultural-edge turf areas can be large and hard to see. Early June or July nest identification and treatment is the safest and most effective timing.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus-in" },
+      { name: "Bloomington", slug: "bloomington" },
+      { name: "Jeffersonville", slug: "jeffersonville" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Seymour, IN | Termites, Mice & Yellowjackets",
+    metaDescription:
+      "Seymour IN pest control for eastern subterranean termites, house mice, odorous house ants, yellowjackets and stink bugs. Jackson County south-central Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+
+  {
+    slug: "clarksville-in",
+    name: "Clarksville",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~43,000",
+    county: "Clark County",
+    climate: "cold-humid",
+    climateDriver:
+      "Clarksville sits on the north bank of the Ohio River in Clark County, directly across from Louisville, Kentucky. The Ohio River valley location pushes termite pressure to among the highest in Indiana, and Purdue Extension notes Clark County as a high-activity zone for eastern subterranean termites. The Ohio River floodplain and low-lying areas create significant mosquito breeding habitat. Clark County temperatures are somewhat warmer in winter than northern Indiana, moderating the cold season but still driving mice and stink bugs indoors in fall.",
+    topPests: [
+      "Eastern subterranean termites",
+      "Mosquitoes",
+      "House mice",
+      "Odorous house ants",
+      "Brown marmorated stink bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active spring through fall",
+        note: "Purdue Extension identifies Clark County as one of the higher eastern subterranean termite pressure zones in Indiana. The Ohio River valley location, warmer winter temperatures, and the moisture-retaining alluvial soils of the floodplain create favorable termite habitat. In Clarksville, termite swarms can begin as early as late February, weeks earlier than in northern Indiana.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Ohio River floodplain and the low-lying areas of Clarksville and Clark County create significant mosquito breeding habitat. The season begins earlier in Clarksville than in northern Indiana due to the warmer Ohio River valley climate. Clark County Environmental Health monitors mosquito-borne disease risk in the area.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice are a consistent residential pest in Clarksville. Although Clark County winters are milder than northern Indiana, cold snaps still drive mice into structures from October through March. Clarksville's mix of older and newer housing provides varying levels of natural entry point exposure.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Odorous house ants are the dominant nuisance ant in Clark County. The Ohio River valley's longer warm season extends their active period relative to northern Indiana. They nest under Clarksville's driveways, landscape mulch, and foundation edges and trail indoors after rain events.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering",
+        note: "Brown marmorated stink bugs are established in Clark County. The Ohio River valley location has contributed to the species' early and strong establishment in southern Indiana, as stink bug populations in the adjacent Louisville, Kentucky metro are well documented. Fall overwintering entry in Clarksville begins in September.",
+      },
+    ],
+    localHook:
+      "Clark County sits in the Ohio River valley, and Purdue Extension notes it as one of the higher eastern subterranean termite pressure zones in Indiana. Termite swarms in Clarksville can begin as early as late February, weeks earlier than in Indianapolis, because the Ohio River valley moderates winter temperatures enough to trigger earlier swarmer production.",
+    intro:
+      "Clarksville's Ohio River valley location puts it in a different pest category than most of Indiana. Termite pressure is among the highest in the state, with Purdue Extension noting Clark County as a high-activity zone and swarms beginning as early as February. Mosquitoes are active from April through October along the Ohio River floodplain. House mice push indoors in fall. Odorous house ants are the primary warm-season ant, with a longer active window than in northern Indiana. Stink bugs overwinter in fall across Clark County. If you own an older home in Clarksville, annual termite inspection is not optional.",
+    sections: [
+      {
+        heading: "Ohio River valley termite pressure",
+        body: "Clarksville's position directly on the Ohio River, across from Louisville, Kentucky, puts it in one of the higher termite pressure zones in Indiana. The alluvial soils of the Ohio River valley retain moisture that eastern subterranean termite colonies need for survival. Clark County's warmer winter temperatures, moderated by the Ohio River valley microclimate, allow termite colonies to remain active longer in the year than in northern Indiana. Termite swarms in Clark County can begin in late February or early March, which is several weeks earlier than the April peak swarm window typical of central Indiana. Purdue Extension's termite distribution maps identify the Ohio River valley counties, including Clark, as high-activity zones. For Clarksville homeowners, this translates to annual professional inspection as a standard maintenance practice, not just a response to visible damage or swarmers. Eastern subterranean termites cause damage before signs are obvious, and by the time mud tubes or hollow wood are visible, a colony has often been present for several years.",
+      },
+      {
+        heading: "Mosquitoes and the Ohio River floodplain",
+        body: "Clarksville's low-lying areas adjacent to the Ohio River floodplain are among the most productive mosquito breeding zones in Clark County. The floodplain's seasonal flooding and slow-draining areas provide extended breeding periods that allow multiple mosquito generations each season. The mosquito season in Clarksville begins in April, roughly a month earlier than in northern Indiana, and extends through October. Clark County Environmental Health monitors the area for mosquito-borne disease risk. Property-level mosquito reduction requires eliminating all standing water from yard features: gutters, bird baths, buckets, low landscape areas, and unused containers. A licensed residential mosquito program that treats resting vegetation provides additional protection for outdoor living areas through the long Ohio River valley mosquito season.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual spring termite inspection given Purdue Extension documentation of high eastern subterranean termite pressure in Clark County and the Ohio River valley.",
+      "Clear gutters and remove all standing water from yard containers by April, when the Ohio River valley mosquito season begins earlier than in northern Indiana.",
+      "Seal foundation gaps and utility penetrations in September to intercept mice before Clark County's fall cold snaps drive them indoors.",
+      "Seal exterior siding gaps and attic vents in August to reduce brown marmorated stink bug overwintering entry in fall.",
+    ],
+    costNote:
+      "Clarksville pest control is typically a quarterly program. Termite treatment and mosquito treatment are separate services. Annual termite inspection is strongly recommended given Clark County's high-pressure classification by Purdue Extension. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Is termite pressure really that much worse in Clarksville than the rest of Indiana?",
+        answer:
+          "Yes. Purdue Extension identifies the Ohio River valley counties, including Clark County, as higher termite pressure zones compared to central and northern Indiana. The combination of alluvial soils, Ohio River moisture, and a longer warm season creates favorable conditions for eastern subterranean termite colonies. Clarksville homeowners with older structures should treat annual inspection as a standard maintenance item, not an optional one.",
+      },
+      {
+        question: "When do termites swarm in Clarksville?",
+        answer:
+          "Eastern subterranean termites in Clark County can swarm as early as late February in mild springs, and the peak window runs through April. This is several weeks earlier than the typical April to May peak in central Indiana, driven by the Ohio River valley's warmer microclimate. Swarmers emerging indoors mean the colony is established within or immediately adjacent to the structure.",
+      },
+      {
+        question: "Are mosquitoes worse near the Ohio River in Clarksville?",
+        answer:
+          "Yes, particularly for properties in low-lying areas adjacent to the Ohio River floodplain. The floodplain's seasonal flooding creates extended breeding periods. Clark County Environmental Health monitors mosquito-borne disease risk in the area. The Clarksville mosquito season begins in April and runs through October, longer than in northern Indiana.",
+      },
+      {
+        question: "What are the signs of eastern subterranean termites in a Clarksville home?",
+        answer:
+          "The primary visible signs are mud tubes on foundation walls, sill plates, or floor joists, swarmer activity in late winter and spring, and wood that sounds hollow when tapped. Swarmers inside the home are the clearest signal that a colony is established within the structure. Annual inspection is more reliable than waiting for symptoms, because colonies can cause significant damage before any visible signs appear.",
+      },
+      {
+        question: "Do I need a mosquito program if I live near the Ohio River in Clarksville?",
+        answer:
+          "It's worth considering, particularly if you use outdoor areas in spring through fall. The Ohio River floodplain creates breeding pressure that is higher than most residential areas in Clark County. County health monitoring addresses public water bodies, not private property. A residential mosquito treatment program targeting resting vegetation complements property-level water elimination and extends the outdoor living season.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Jeffersonville", slug: "jeffersonville" },
+      { name: "New Albany", slug: "new-albany" },
+      { name: "Louisville", slug: "louisville" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Clarksville, IN | Termites, Mosquitoes & Mice",
+    metaDescription:
+      "Clarksville IN pest control for eastern subterranean termites, mosquitoes, house mice, odorous house ants and stink bugs. Clark County Ohio River valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+
+  {
+    slug: "new-castle-in",
+    name: "New Castle",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~18,000",
+    county: "Henry County",
+    climate: "cold-humid",
+    climateDriver:
+      "New Castle is the Henry County seat in east-central Indiana, where the Blue River watershed and the surrounding agricultural landscape shape the pest calendar. The cold-humid Indiana climate drives mice into structures in fall. Purdue Extension documents eastern subterranean termites as present across central Indiana, including Henry County. The agricultural landscape surrounding New Castle contributes to fall field mouse pressure at residential edges, and the county's creek systems create localized mosquito breeding habitat.",
+    topPests: [
+      "House mice",
+      "Eastern subterranean termites",
+      "Odorous house ants",
+      "Yellowjackets",
+      "Brown marmorated stink bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through April",
+        note: "House mice are the primary residential pest in New Castle. The agricultural landscape surrounding the city contributes fall field mouse pressure at residential edges during harvest season. Henry County winters are cold, and mice push into structures through foundation gaps as early as September.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Purdue Extension documents eastern subterranean termites as present across central Indiana, including Henry County. New Castle's older neighborhoods, including the historic areas near the Henry County Courthouse, carry real termite exposure. Annual inspections are the practical preventive standard for older housing in the county.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Odorous house ants are the dominant nuisance ant in Henry County. They nest under driveways, sidewalk joints, and foundation edges and push indoors after rain. Purdue Extension confirms them as the most frequently reported indoor ant across east-central Indiana.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall, peak August and September",
+        note: "Yellowjackets are a consistent late summer problem in New Castle. The agricultural landscape and open turf at residential edges provide ample ground-nesting habitat. Colony populations peak in August, and sting incidents are most common in late summer when foragers become aggressive near outdoor food sources.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering",
+        note: "Brown marmorated stink bugs are established in east-central Indiana and are documented by Purdue Extension as present in Henry County. Fall overwintering entry through gaps in siding and window frames is consistent in New Castle's residential neighborhoods, particularly in older homes with less-maintained exterior sealing.",
+      },
+    ],
+    localHook:
+      "New Castle is home to the Indiana Basketball Hall of Fame, and it's also in the heart of Henry County's agricultural landscape. When corn and soybean harvest starts in September, field mice displaced from surrounding farmland move toward the nearest heated structures. Homes on New Castle's residential edges, where neighborhoods meet agricultural fields, see more fall mouse pressure than the established urban core.",
+    intro:
+      "New Castle's pest profile follows the east-central Indiana agricultural pattern with a few Henry County specifics. House mice are the primary fall and winter pest, with harvest-displaced field mice adding pressure at the residential-agricultural edges in September and October. Purdue Extension documents termite presence across central Indiana, and New Castle's older neighborhoods carry real exposure. Odorous house ants are the dominant warm-season pest. Yellowjackets build ground nests in the open turf at the city's agricultural edges. Stink bugs overwinter in fall across the region. It's a straightforward Midwest pest calendar, with the farm-edge dynamic as the defining local feature.",
+    sections: [
+      {
+        heading: "Harvest season and the fall mouse picture in Henry County",
+        body: "New Castle's position at the center of Henry County's agricultural landscape means the fall mouse picture has two components. Urban house mice are the standard cold-weather pest, entering through foundation gaps as Indiana temperatures drop in September and October. Field mice are the agricultural-edge component. When corn and soybean harvest begins in September and October, farm equipment disrupts the field habitat that meadow voles and deer mice have lived in all season. Displaced field mice move toward the nearest available cover, and for homes on New Castle's eastern, western, and southern edges where residential development meets agricultural land, that cover is often a foundation gap or garage door seal. The practical response is the same for both species: physical exclusion of foundation-level gaps before September, a snap trap grid in areas with evidence of activity, and monitoring through the winter. Bait stations outdoors can supplement interior trapping but should be placed carefully in areas with children or pets.",
+      },
+      {
+        heading: "Termites and older homes in New Castle",
+        body: "Purdue Extension's termite distribution documentation places Henry County in the zone of eastern subterranean termite presence across central Indiana. The species is well established across the state south of the glacial boundary, and the Blue River watershed's soil moisture conditions support colony survival in the New Castle area. New Castle's historic downtown neighborhoods and the residential blocks surrounding the Henry County Courthouse have a mix of pre-1950 housing with real termite exposure. The signs of an active colony are subtle in most cases: mud tubes on foundation walls are the clearest, but damaged wood and spring swarmers are often the first things homeowners notice. An annual inspection by a licensed professional in spring is the practical precaution for older Henry County homes. Inspection costs are a small fraction of the cost of addressing structural damage discovered after years of undetected activity.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, garage door bottom seals, and pipe penetrations before September to intercept both urban house mice and harvest-displaced field mice from adjacent Henry County farmland.",
+      "Schedule an annual spring termite inspection given Purdue Extension documentation of eastern subterranean termite presence across central Indiana.",
+      "Apply slow-acting ant bait at odorous house ant trails after rain events to reach foundation and pavement nesting colonies at their source.",
+      "Identify and treat yellowjacket ground nests in June or July before late-summer peak colony size and peak aggression.",
+    ],
+    costNote:
+      "New Castle pest control is typically a recurring quarterly program with termite inspection and treatment quoted separately. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Why do I get more mice on the edges of New Castle near farmland?",
+        answer:
+          "Fall harvest in Henry County displaces field mice from corn and soybean fields in September and October. Homes at the residential-agricultural edge in New Castle see elevated fall mouse pressure from displaced field mice on top of the standard cold-weather push of urban house mice. Sealing foundation gaps and garage door seals before September addresses both populations.",
+      },
+      {
+        question: "Are termites a documented problem in New Castle?",
+        answer:
+          "Yes. Purdue Extension documents eastern subterranean termites as present across central Indiana, including Henry County. New Castle's older neighborhoods with pre-1950 housing carry real exposure. Annual professional inspection is the standard precaution, especially for homes with crawl spaces or older wood-to-soil contact at the foundation.",
+      },
+      {
+        question: "When do termites swarm in New Castle?",
+        answer:
+          "Eastern subterranean termites in Henry County typically swarm in April and May, on warm days after rain. Swarmers are small, dark-colored, and appear in large numbers near windows and lights. Finding swarmers indoors is a strong indicator that a colony is established within the structure or immediately adjacent to the foundation. An inspection should follow any indoor swarmer sighting.",
+      },
+      {
+        question: "What's the best approach for yellowjackets in a New Castle yard?",
+        answer:
+          "Locate ground nests in June or July by watching for low-flying workers repeatedly entering and exiting a ground hole in the lawn. Have nests treated by a licensed professional before August, when colony populations and worker aggression peak in Henry County. Nests in wall voids of structures require professional treatment with appropriate equipment. Do not attempt to treat a mature yellowjacket nest without protection.",
+      },
+      {
+        question: "How do I reduce stink bug problems in my New Castle home?",
+        answer:
+          "Seal exterior gaps around window frames, siding edges, utility penetrations, and attic vents in August, before the fall overwintering migration begins. Pay attention to south and west-facing walls, where stink bugs aggregate in warm afternoon sun before entering. Purdue Extension documents stink bugs as established in east-central Indiana. Once they are in wall voids, removal is difficult and usually involves waiting for spring emergence and sealing before the following fall.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Muncie", slug: "muncie" },
+      { name: "Anderson", slug: "anderson" },
+      { name: "Richmond", slug: "richmond" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in New Castle, IN | Mice, Termites & Yellowjackets",
+    metaDescription:
+      "New Castle IN pest control for house mice, eastern subterranean termites, odorous house ants, yellowjackets and stink bugs. Henry County east-central Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

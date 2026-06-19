@@ -11072,4 +11072,640 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Harker Heights TX pest control for bed bugs, subterranean termites, fire ants, American cockroaches and roof rats near Fort Cavazos. Bell County military community specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "schertz",
+    name: "Schertz",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~47,000",
+    county: "Guadalupe County",
+    climate: "semi-arid",
+    climateDriver:
+      "Schertz sits at the edge where Hill Country limestone meets the San Antonio humid corridor, creating both scorpion habitat on rocky terrain and year-round fire ant pressure in the expanding suburban yards.",
+    topPests: ["Fire Ants", "Scorpions", "Cockroaches", "Termites", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worst after spring rain",
+        note: "Guadalupe County lawns are heavily impacted by fire ant colonies that multiply fast after wet spells, and Schertz's newer subdivisions give them plenty of disturbed ground to colonize.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Late spring through summer",
+        note: "The limestone caliche soil beneath Schertz neighborhoods is prime scorpion habitat, and they slip inside through weep holes and expansion gaps when temperatures spike.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, peak in summer",
+        note: "American cockroaches breed in storm drains and mulch beds along Schertz's newer streetscapes and move indoors when outdoor conditions get hot and dry.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring",
+        note: "Subterranean termites swarm on warm still days in March and April across Guadalupe County, and homes built on the clay-caliche mix here are vulnerable to below-slab tunneling.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Drainage swales near the Cibolo Creek watershed hold standing water through the long warm season, extending mosquito pressure well into fall across Schertz.",
+      },
+    ],
+    localHook:
+      "Schertz straddles two very different pest worlds: the limestone geology that harbors scorpions and the Gulf-influenced humidity that drives fire ants and termite swarms each spring.",
+    intro:
+      "Pest control in Schertz handles a range of pressures that many Texans do not expect from a suburban city. The rocky caliche soil beneath the newer subdivisions is genuine scorpion country, and the warm-season humidity that rolls in from the Gulf keeps fire ant colonies expanding from February through November. Add the subterranean termites that swarm across Guadalupe County every spring and the American cockroaches that push inside when summer gets hot and dry, and you have a pest calendar that demands year-round attention rather than a single annual treatment.",
+    sections: [
+      {
+        heading: "Why Schertz has scorpions in suburban neighborhoods",
+        body: "Most residents are surprised to find scorpions in a city this size, but Schertz sits on limestone caliche that naturally harbors striped bark scorpions. When builders grade lots they disturb the habitat, and the scorpions relocate into the nearest structure. Sealing weep holes and foundation gaps is a practical first step before any spray treatment.",
+      },
+      {
+        heading: "Spring termite swarms in Guadalupe County",
+        body: "Eastern subterranean termites swarm on warm, calm spring afternoons across Schertz and the wider Guadalupe County area. Homeowners often mistake winged swarmers for flying ants. An annual inspection matters here, especially for homes with wood-soil contact and the area's expansive clay soils that crack and give termites a route to the foundation.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes with steel mesh and caulk expansion gaps to block scorpion entry.",
+      "Treat fire ant mounds in early spring before colonies multiply across the yard.",
+      "Keep mulch away from foundation contact to reduce termite access and cockroach harborage.",
+      "Clear standing water in drainage swales and plant trays after each rainfall.",
+    ],
+    costNote:
+      "Most Schertz homes start with a free inspection. A quarterly plan covering scorpions, fire ants, and perimeter pests typically costs less long-term than a reactive termite remediation.",
+    faqs: [
+      {
+        question: "Are scorpions common in Schertz homes?",
+        answer:
+          "Yes. The limestone caliche soil under Schertz's subdivisions is prime striped bark scorpion habitat. Grading during construction disturbs their burrows and drives them into structures. Sealing weep holes and foundation penetrations is the most effective first line of defense.",
+      },
+      {
+        question: "When do fire ants peak in Schertz?",
+        answer:
+          "Fire ant mounds in Guadalupe County stay active year-round but expand most rapidly after spring rain. The best time to treat is early spring before the first heavy rainfall triggers colony spread. Bait treatments across the whole yard are more effective than mound-by-mound contact treatment.",
+      },
+      {
+        question: "Do I need a termite inspection in Schertz?",
+        answer:
+          "Yes. Eastern subterranean termites are active throughout Guadalupe County and swarm in spring. Homes with slab foundations and any wood-soil contact should have an annual inspection, particularly given the area's expansive clay soils that crack and create entry points.",
+      },
+      {
+        question: "Why are cockroaches so bad in summer here?",
+        answer:
+          "American cockroaches breed outdoors in mulch and storm drainage year-round but move inside when summer heat dries out their outdoor harborage. Reducing mulch depth near the foundation and sealing door gaps produces a real reduction in entry numbers.",
+      },
+      {
+        question: "What do I do if I find a scorpion inside my home?",
+        answer:
+          "Capture it safely under a glass and contact a pest professional for an inspection. Scorpions are usually solitary, but finding one inside suggests unsealed entry points. A UV flashlight inspection at night can reveal harborage areas in garages and bathrooms.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "San Antonio", slug: "san-antonio" },
+      { name: "New Braunfels", slug: "new-braunfels" },
+      { name: "Converse", slug: "converse" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Schertz, TX | Scorpions, Fire Ants & Termites",
+    metaDescription:
+      "Schertz TX pest control for scorpions, fire ants, subterranean termites and cockroaches. Free inspection, quarterly plans. Guadalupe County specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "friendswood",
+    name: "Friendswood",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~43,000",
+    county: "Galveston County",
+    climate: "hot-humid",
+    climateDriver:
+      "Friendswood sits in the Southeast Houston metro along Clear Creek, where Gulf humidity and frequent flooding cycles create one of the most active mosquito and termite environments in Texas.",
+    topPests: ["Mosquitoes", "Termites", "Fire Ants", "Cockroaches", "Rats"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Clear Creek and its drainage network flood regularly, and Galveston County Mosquito Control operates active treatment programs precisely because Friendswood neighborhoods sit in standing-water corridors that sustain dense mosquito populations.",
+      },
+      {
+        name: "Formosan and eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round",
+        note: "Southeast Texas has documented Formosan termite colonies, and Friendswood homes on slab foundations in the Clear Creek floodplain see elevated termite pressure from both Formosan and eastern subterranean species.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are a constant in Galveston County, and the wet clay soils in Friendswood neighborhoods allow colonies to expand rapidly after each rain event.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in summer",
+        note: "American cockroaches thrive in the warm, humid conditions along Clear Creek and push into Friendswood homes when outdoor temperatures become extreme.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, more visible in fall",
+        note: "Norway rats establish burrows along drainage ditches and storm infrastructure throughout Friendswood and move into structures and attic spaces as fall arrives.",
+      },
+    ],
+    localHook:
+      "Galveston County Mosquito Control actively treats the Clear Creek watershed running through Friendswood because standing water after storms creates dense mosquito populations that need professional-level management.",
+    intro:
+      "Pest control in Friendswood is shaped almost entirely by water. Clear Creek and its drainage network mean the city floods, and flooding brings waves of mosquitoes, displaces fire ant colonies, and keeps the soil moisture that subterranean termites need to thrive. The Southeast Texas termite zone includes both eastern subterranean and Formosan species, making annual inspections worthwhile for every Friendswood homeowner. Add the Norway rats that burrow along drainage ditches and the American cockroaches that are at home year-round in this climate, and you have a pest pressure profile that calls for consistent, quarterly attention.",
+    sections: [
+      {
+        heading: "Flooding and pest pressure in Friendswood",
+        body: "Every flood event in Friendswood temporarily displaces fire ant colonies and pushes cockroaches and rodents into structures. After the water recedes, ant populations rebuild fast in the saturated soil. The Clear Creek corridor also creates the standing water that sustains mosquito populations through most of the year. A plan that works here addresses both the post-flood surge and the baseline year-round pressure.",
+      },
+      {
+        heading: "Termite risk in Southeast Texas",
+        body: "Friendswood sits in one of the most active termite zones in the country. Formosan termites, which can consume wood far faster than native subterranean species, have been documented in Galveston County. Annual inspections and a maintained liquid or bait treatment system give homeowners a real defense against damage that can be expensive to repair if it goes undetected.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water in drainage swales, gutters, and containers within 48 hours of rain.",
+      "Grade soil away from the foundation and maintain termite treatment continuity.",
+      "Seal slab cracks, pipe penetrations, and door sweeps before fall rodent season.",
+      "Keep outdoor trash bins sealed and clear debris from storm drainage near the property line.",
+    ],
+    costNote:
+      "Friendswood homes benefit from a year-round plan that pairs mosquito control with perimeter pest management. A free inspection scopes termite risk separately since Formosan treatment often requires a different protocol than standard subterranean treatment.",
+    faqs: [
+      {
+        question: "Why are mosquitoes so bad in Friendswood?",
+        answer:
+          "Friendswood sits along Clear Creek, which floods regularly and creates the standing water mosquitoes need to breed. Galveston County Mosquito Control runs active treatment programs in the city precisely because drainage corridors sustain populations through most of the warm season. Backyard treatment of resting sites and elimination of standing containers adds an important second layer.",
+      },
+      {
+        question: "Are Formosan termites present in Friendswood?",
+        answer:
+          "Formosan termites have been documented in Galveston County and the broader Southeast Texas corridor. They are more destructive than native eastern subterranean termites and can cause significant structural damage before they are detected. Annual inspections and a maintained treatment system are the practical response for Friendswood homeowners.",
+      },
+      {
+        question: "When do fire ants peak in Galveston County?",
+        answer:
+          "Fire ants stay active year-round in Galveston County's warm climate, but mound-building surges after rain. After flooding events, colonies can relocate across a yard very quickly. Broadcast bait treatments cover the whole yard and are more effective than treating individual mounds.",
+      },
+      {
+        question: "Do floods bring more pests into Friendswood homes?",
+        answer:
+          "Yes. Flooding displaces fire ant colonies, pushes cockroaches and rodents out of drainage infrastructure, and leaves residual moisture that boosts mosquito breeding. Most pest activity spikes in the two to four weeks following a major flood event as displaced populations seek shelter and new colony sites.",
+      },
+      {
+        question: "What is the best way to control rats in Friendswood?",
+        answer:
+          "Norway rats burrow along drainage ditches throughout Friendswood. Effective control starts with sealing entry points into structures and removing harborage around the property perimeter. Exterior bait stations maintained by a licensed applicator address populations in the yard before they reach the structure.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Pearland", slug: "pearland" },
+      { name: "League City", slug: "league-city" },
+      { name: "Houston", slug: "houston" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Friendswood, TX | Mosquitoes, Termites & Fire Ants",
+    metaDescription:
+      "Friendswood TX pest control for mosquitoes, Formosan termites, fire ants, cockroaches and Norway rats. Clear Creek Galveston County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "rosenberg",
+    name: "Rosenberg",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~40,000",
+    county: "Fort Bend County",
+    climate: "hot-humid",
+    climateDriver:
+      "Rosenberg's position along the Brazos River in Fort Bend County creates year-round humidity and regular flooding, sustaining active mosquito, fire ant, and termite populations.",
+    topPests: ["Fire Ants", "Mosquitoes", "Termites", "Cockroaches", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fort Bend County is one of Texas's most fire-ant-active counties, and Rosenberg's flat clay soils allow colonies to expand rapidly after rain, particularly in newer residential developments.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Brazos River floodplain adjacent to Rosenberg creates standing water that sustains mosquito populations through the long warm season, with peak pressure after spring and summer storms.",
+      },
+      {
+        name: "Formosan and eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms in spring",
+        note: "Fort Bend County's high humidity and warm soils support both Formosan and native subterranean termite colonies, making annual inspections practical for every Rosenberg homeowner.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are abundant in Rosenberg's warm climate and move freely between outdoor drains and indoor spaces when summer temperatures spike.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, more active in fall",
+        note: "Roof rats are common in Fort Bend County's maturing tree canopy neighborhoods and access homes through gaps near rooflines and around utility penetrations.",
+      },
+    ],
+    localHook:
+      "The Brazos River floodplain that runs beside Rosenberg is not just a scenic corridor; it is a year-round mosquito breeding zone that extends pest pressure deep into surrounding neighborhoods.",
+    intro:
+      "Rosenberg handles the full set of Southeast Texas pest pressures that come with a warm climate and proximity to the Brazos River. Fire ants populate the Fort Bend County clay soils year-round. Mosquitoes breed in the floodplain and in poorly draining backyard areas through most of the year. Termites, both Formosan and eastern subterranean, are active in this high-pressure zone. Roof rats work through the maturing tree canopy into attic spaces. A good plan here covers the perimeter and interior, keeps the inspection schedule, and treats the yard before populations build rather than after.",
+    sections: [
+      {
+        heading: "Fort Bend County termite pressure",
+        body: "Rosenberg sits in one of Southeast Texas's most active termite zones. The combination of warm soil, high humidity, and the Brazos River corridor creates conditions that both Formosan and eastern subterranean termites find ideal. Formosan colonies are larger and more destructive than native species. Annual inspections with a maintained liquid or bait system give the best protection against structural damage.",
+      },
+      {
+        heading: "Fire ants and mosquitoes through the warm season",
+        body: "Fort Bend County's flat terrain and clay soils hold water after rain, which is exactly what fire ants and mosquitoes need to reproduce quickly. Treating the yard early in spring cuts fire ant pressure before summer. Eliminating standing containers and drainage low spots reduces mosquito breeding sites by a meaningful percentage. For serious mosquito pressure near the floodplain, a recurring treatment plan adds real protection.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant bait across the whole yard in early spring before the first hot weather.",
+      "Keep gutters clear and address any drainage areas that hold water for more than 48 hours.",
+      "Schedule an annual termite inspection, especially for homes with slab foundations.",
+      "Seal roofline gaps and trim branches away from the structure to limit roof rat access.",
+    ],
+    costNote:
+      "Free inspections are the starting point in Rosenberg. Ongoing quarterly pest plans make financial sense in Fort Bend County's year-round pest climate, and termite coverage is priced separately after inspection.",
+    faqs: [
+      {
+        question: "Are fire ants a serious problem in Rosenberg?",
+        answer:
+          "Yes. Fort Bend County is among Texas's most fire-ant-active counties, and Rosenberg's flat clay soils allow colonies to spread quickly after rain. Broadcast bait treatment across the entire yard in early spring is more effective than treating mounds one at a time.",
+      },
+      {
+        question: "How bad is the mosquito season near the Brazos River in Rosenberg?",
+        answer:
+          "The Brazos River floodplain adjacent to Rosenberg creates standing water that extends mosquito season from March through November in most years. Removing standing water from the property is essential, and a recurring yard treatment program is worthwhile for homes near the floodplain.",
+      },
+      {
+        question: "Are Formosan termites present in Rosenberg?",
+        answer:
+          "Formosan termites are documented in Fort Bend County and the broader Houston metro. They consume wood significantly faster than native subterranean species and can cause structural damage before it becomes visible. Annual professional inspections are the minimum for Rosenberg homeowners.",
+      },
+      {
+        question: "What attracts roof rats to Rosenberg homes?",
+        answer:
+          "Roof rats are attracted by fruit trees, bird feeders, and outdoor pet food, then enter structures through gaps near rooflines, around utility pipes, and through gaps in soffits. Trimming branches that overhang the roof and sealing penetrations removes their main entry paths.",
+      },
+      {
+        question: "How often should I treat for pests in Fort Bend County?",
+        answer:
+          "Quarterly is the practical minimum for Fort Bend County's climate. The warm season is long, pests are active almost year-round, and the high-humidity environment means populations rebuild quickly after a one-time treatment. A quarterly plan is also more cost-effective than repeated reactive treatments.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Sugar Land", slug: "sugar-land" },
+      { name: "League City", slug: "league-city" },
+      { name: "Houston", slug: "houston" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Rosenberg, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Rosenberg TX pest control for fire ants, Formosan termites, mosquitoes and roof rats. Fort Bend County Brazos River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "saginaw-tx",
+    name: "Saginaw",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~24,000",
+    county: "Tarrant County",
+    climate: "hot-arid",
+    climateDriver:
+      "Saginaw sits in north Tarrant County where hot, dry summers and mild winters create a long pest season dominated by fire ants and paper wasps, with fall mouse pressure as temperatures drop.",
+    topPests: ["Fire Ants", "Wasps", "Cockroaches", "Termites", "Mice"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Saginaw's established residential lawns and parkway strips are active fire ant territory, with mounds appearing rapidly after any significant rain in Tarrant County's clay-loam soil.",
+      },
+      {
+        name: "Paper wasps and yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "April through October",
+        note: "Paper wasps build nests under eaves and in covered outdoor spaces throughout north Tarrant County suburbs, with colony activity peaking in late summer before first frost.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, peak in summer",
+        note: "American cockroaches breed in Saginaw's storm drainage and mulch beds and push inside when the North Texas summer reaches its peak heat.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring",
+        note: "Eastern subterranean termites are active across Tarrant County and swarm in March and April, with slab-foundation homes in Saginaw's older subdivisions at particular risk.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "House mice press into Saginaw structures in fall as North Texas temperatures cool, fitting through gaps around utility lines and garage door frames.",
+      },
+    ],
+    localHook:
+      "Saginaw sits where the DFW urban core meets agricultural Tarrant County, giving the city fire ants from the open-ground edge and fall rodent pressure as mice seek winter warmth.",
+    intro:
+      "Pest control in Saginaw runs on the same North Texas calendar as the wider Fort Worth area: fire ants through the warm months, wasps building under eaves in summer, and house mice pressing in when October cools things down. The city's mix of older and newer residential neighborhoods means termite risk varies block to block, with slab-foundation homes built before modern pre-treat standards needing closer attention. A perimeter spray program paired with a spring bait treatment for fire ants handles most of the annual pressure.",
+    sections: [
+      {
+        heading: "North Texas wasp season in Saginaw",
+        body: "Paper wasps are the most common summertime pest call in north Tarrant County suburbs like Saginaw. They build papery nests under roof overhangs, in covered patios, and inside enclosed spaces like outdoor electrical boxes. Treatment is straightforward when caught early, but late-season nests can hold several hundred workers. Knocking down nests in spring before they grow prevents most summer problems.",
+      },
+      {
+        heading: "Fall mouse invasion timing in Saginaw",
+        body: "House mice in Saginaw follow a reliable fall pattern: as October temperatures drop toward the 50s, they start looking for warm entry points. Garage doors that do not fully seal, gaps around utility penetrations, and spaces under exterior doors are the main entry routes. Sealing these in September, before the migration starts, is far more effective than trapping mice that have already settled inside walls.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant bait in early spring across the full yard, not just on visible mounds.",
+      "Check eaves and patio structures monthly in summer and remove paper wasp nests while small.",
+      "Seal garage door frames, utility penetrations, and foundation gaps before October.",
+      "Keep mulch depth under three inches and away from the foundation to limit cockroach harborage.",
+    ],
+    costNote:
+      "Saginaw homes benefit from a quarterly plan timed to the North Texas season: spring for fire ants, summer for wasps, fall for mouse exclusion. Free inspections set the starting point.",
+    faqs: [
+      {
+        question: "Are fire ants a problem in Saginaw neighborhoods?",
+        answer:
+          "Yes. Saginaw's clay-loam Tarrant County soil is ideal for fire ant colonies, and mounds appear quickly after rain throughout established subdivisions. Broadcast bait treatment in spring gives the most cost-effective seasonal control.",
+      },
+      {
+        question: "Why do wasps build nests under Saginaw eaves every summer?",
+        answer:
+          "Paper wasps prefer covered, sheltered sites to build their papery nests, and the eaves and covered patios of North Texas homes are exactly what they look for. Early-season removal of small nests prevents the August peak when colonies are at their largest and most defensive.",
+      },
+      {
+        question: "Do I need termite coverage in Saginaw?",
+        answer:
+          "Eastern subterranean termites swarm across Tarrant County in spring, and older Saginaw homes without modern pre-treat barriers are at greater risk. An annual inspection is worthwhile, and homes with previous termite history should maintain an active treatment system.",
+      },
+      {
+        question: "When do mice start getting into Saginaw homes?",
+        answer:
+          "The main mouse migration in Saginaw happens in October as temperatures drop. Sealing entry points, particularly garage door gaps and utility penetrations, in September keeps them from establishing inside walls before winter.",
+      },
+      {
+        question: "What is the best pest control schedule for Saginaw?",
+        answer:
+          "A quarterly schedule works well in north Tarrant County: spring treatment targets fire ants and perimeter insects, summer coverage handles wasps and cockroaches, fall service focuses on exclusion and mouse prevention, and winter checks maintain perimeter protection.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Fort Worth", slug: "fort-worth" },
+      { name: "Keller", slug: "keller" },
+      { name: "North Richland Hills", slug: "north-richland-hills" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Saginaw, TX | Fire Ants, Wasps & Mice",
+    metaDescription:
+      "Saginaw TX pest control for fire ants, paper wasps, subterranean termites and fall mice. North Tarrant County Fort Worth metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "converse",
+    name: "Converse",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~30,000",
+    county: "Bexar County",
+    climate: "semi-arid",
+    climateDriver:
+      "Converse is a northeast San Antonio suburb in Bexar County where semi-arid conditions meet suburban sprawl, creating year-round fire ant pressure and occasional scorpion encounters from the caliche edges.",
+    topPests: ["Fire Ants", "Cockroaches", "Termites", "Scorpions", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are the most consistent pest complaint in Converse and throughout northeast Bexar County, colonizing lawns and green spaces and expanding sharply after spring rains.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, peak in summer",
+        note: "American cockroaches (tree roaches) are widespread in Converse and move into homes during hot dry spells, breeding in outdoor drainage and mulch areas.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring",
+        note: "Eastern subterranean termites swarm across Bexar County in March and April, and Converse slab-foundation homes near tree lines are at typical South Texas risk levels.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Spring through summer",
+        note: "Scorpions are less frequent in Converse than in the Hill Country-edge cities, but caliche pockets in older areas and the rocky fill under newer construction create occasional harborage.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Converse's drainage ditches and low-lying areas in northeast Bexar County hold standing water after storms, sustaining mosquito breeding through the long warm season.",
+      },
+    ],
+    localHook:
+      "Converse is one of the fastest-growing cities in Bexar County, and the rapid new construction that comes with that growth creates disturbed soil conditions that fire ants and scorpions are quick to exploit.",
+    intro:
+      "Pest control in Converse covers the standard northeast San Antonio suburban palette: fire ants in the lawn, American cockroaches pushing inside when summer gets intense, and subterranean termites swarming in spring across Bexar County. The city's rapid growth means lots of fresh-graded soil, which both fire ants and scorpions treat as prime new territory. Mosquitoes use the drainage corridors that come with suburban density. A quarterly perimeter plan with spring fire ant treatment covers the core pressure for most Converse households.",
+    sections: [
+      {
+        heading: "Fire ants in Converse's expanding neighborhoods",
+        body: "Northeast Bexar County's soil and rainfall pattern give fire ant colonies almost ideal year-round conditions. New subdivisions are particularly vulnerable because site preparation disrupts existing colonies, which then reestablish across fresh turf. Broadcast bait applied in spring before the first big rain treats the whole yard at once, which is more effective than individual mound treatment and covers the ground fire ants will colonize next.",
+      },
+      {
+        heading: "Termite season in Bexar County",
+        body: "Eastern subterranean termites swarm across the San Antonio metro every spring, and Converse is no exception. Homeowners often notice swarmers on window sills or near light fixtures in March and April. An annual inspection checks for the mud tubes, soft wood, and frass that indicate active colonies, giving you early warning before structural damage becomes expensive.",
+      },
+    ],
+    prevention: [
+      "Broadcast fire ant bait in early spring before the first major rain of the season.",
+      "Reduce mulch near the foundation and keep wood-soil contact to a minimum.",
+      "Check window sills and doors for winged termite swarmers each spring and schedule an inspection if found.",
+      "Remove standing water from low-lying drainage areas within 48 hours of rain.",
+    ],
+    costNote:
+      "Converse starts with a free inspection. A quarterly plan in Bexar County's climate makes practical sense given the year-round fire ant and cockroach pressure, with termite coverage quoted separately.",
+    faqs: [
+      {
+        question: "Are fire ants bad in Converse neighborhoods?",
+        answer:
+          "Yes, they are one of the most common pest concerns throughout northeast Bexar County. Converse's suburban lawns and the clay-loam soil around newer construction give fire ants ideal conditions. Broadcast bait in spring is the most effective yard-wide approach.",
+      },
+      {
+        question: "Do scorpions get into Converse homes?",
+        answer:
+          "Less frequently than in Hill Country-edge suburbs, but scorpions are present in Bexar County and occasionally appear in Converse, particularly in older areas with caliche soil patches or near construction zones. Sealing weep holes and foundation gaps is a good preventive step.",
+      },
+      {
+        question: "When should I expect termite swarmers in Converse?",
+        answer:
+          "Eastern subterranean termites typically swarm on warm, still days in March and April across Bexar County. If you see winged insects emerging from the soil near your foundation or from window frames, that is a sign of an active colony nearby. Contact a pest professional for an inspection rather than waiting to see if it resolves.",
+      },
+      {
+        question: "What pest problems come with new construction in Converse?",
+        answer:
+          "Fresh grading during construction disrupts established colonies and creates disturbed soil that fire ants, scorpions, and cockroaches move into quickly. New builds also often have gaps around utility penetrations and under doors that remain unsealed until the punch-out phase, giving pests easy entry points during the first year of occupancy.",
+      },
+      {
+        question: "How do I keep cockroaches out of my Converse home in summer?",
+        answer:
+          "American cockroaches breed outdoors in mulch, compost, and drainage areas. Reducing mulch depth near the foundation, sealing door gaps, and keeping outdoor spaces free of standing water and food waste cuts the outdoor population that pushes inside during peak heat.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "San Antonio", slug: "san-antonio" },
+      { name: "Schertz", slug: "schertz" },
+      { name: "New Braunfels", slug: "new-braunfels" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Converse, TX | Fire Ants, Cockroaches & Termites",
+    metaDescription:
+      "Converse TX pest control for fire ants, American cockroaches, subterranean termites and scorpions. Northeast Bexar County San Antonio metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "live-oak",
+    name: "Live Oak",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~16,000",
+    county: "Bexar County",
+    climate: "semi-arid",
+    climateDriver:
+      "Live Oak is a small incorporated city within Bexar County northeast of San Antonio, where semi-arid conditions and dense residential development create concentrated fire ant and cockroach pressure with occasional scorpion activity.",
+    topPests: ["Fire Ants", "Cockroaches", "Scorpions", "Termites", "Roof Rats"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are endemic to Bexar County and are active throughout the year in Live Oak's residential lots, expanding after spring and summer rains.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches breed in Live Oak's drainage infrastructure and move inside during summer heat, while German cockroaches establish in kitchen and bathroom areas of multi-unit housing.",
+      },
+      {
+        name: "Striped bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Spring through summer",
+        note: "Striped bark scorpions are documented throughout Bexar County and appear periodically in Live Oak homes, particularly near areas with limestone rock or construction fill.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring",
+        note: "Subterranean termites swarm across northeast Bexar County in spring, and Live Oak's compact residential lots mean infested trees or stumps are often close to structures.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak in fall",
+        note: "Roof rats use the mature tree canopy in Live Oak's older neighborhoods to access rooflines and attic spaces, particularly as fall temperatures cool.",
+      },
+    ],
+    localHook:
+      "Live Oak sits within Bexar County's urban core, making it one of the few Texas cities small enough to know by name but dense enough to have the full range of urban pest pressures.",
+    intro:
+      "Pest control in Live Oak deals with the concentrated pest pressure that comes with a small, dense city inside a large metro county. Fire ants colonize lawns year-round. American cockroaches are a consistent warm-season presence. Scorpions turn up in homes near limestone fill, and roof rats work through the older tree canopy into attic spaces. Because the city is compact, pest populations from neighboring properties affect individual homes, making a consistent perimeter program more important than it might be in a more spread-out suburban setting.",
+    sections: [
+      {
+        heading: "Urban pest pressure in a compact city",
+        body: "Live Oak's density means pest activity on one property quickly influences adjacent homes. Norway and roof rats move through shared alley spaces and mature tree canopy. Cockroaches travel through shared drainage. A perimeter treatment that holds a chemical barrier around your home's slab and entry points is the practical approach in a city where you cannot control what happens on the next lot.",
+      },
+      {
+        heading: "Termites and scorpions in northeast Bexar County",
+        body: "Eastern subterranean termites swarm in spring across the San Antonio metro, and Live Oak properties with nearby dead trees or stumps see elevated risk. Scorpions are less common than in Hill Country suburbs but do appear in areas with rocky fill or concrete block construction. Annual inspections catch termite activity early and identify scorpion harborage before they become a recurring problem.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes, pipe penetrations, and door gaps to block both scorpion and cockroach entry.",
+      "Trim tree branches that overhang or touch the roofline to cut roof rat access.",
+      "Treat fire ant mounds and surrounding turf in spring before populations peak.",
+      "Schedule an annual termite inspection and remove dead stumps or wood near the foundation.",
+    ],
+    costNote:
+      "Live Oak inspections are free. Given the city's density and shared urban pest pressure, a quarterly perimeter plan typically provides better long-term value than reactive treatments.",
+    faqs: [
+      {
+        question: "Are scorpions common in Live Oak homes?",
+        answer:
+          "Scorpions appear periodically throughout Bexar County, including in Live Oak. They tend to turn up in homes near limestone caliche fill or rocky construction material. Sealing weep holes and foundation gaps is the most effective prevention, and a professional inspection can identify specific harborage points.",
+      },
+      {
+        question: "Why do cockroaches keep coming back in my Live Oak home?",
+        answer:
+          "American cockroaches breed in outdoor drainage and move indoors during heat and dry spells. In a dense city like Live Oak, the outdoor population is maintained by neighboring properties, drainage corridors, and shared green spaces. A perimeter spray that creates a barrier around your home is more effective than treating just the interior.",
+      },
+      {
+        question: "Do I need to worry about termites in Live Oak?",
+        answer:
+          "Eastern subterranean termites swarm in spring across northeast Bexar County. Live Oak properties with mature trees, stumps, or wood near the foundation carry higher risk. An annual professional inspection is the most cost-effective way to catch activity before it causes structural damage.",
+      },
+      {
+        question: "How do roof rats get into homes in Live Oak?",
+        answer:
+          "Roof rats climb trees and travel along branches that overhang or touch the roofline. They enter through gaps around rooftop utility penetrations, open gable vents, and deteriorating soffit material. Trimming branches away from the structure and sealing attic entry points removes their main access routes.",
+      },
+      {
+        question: "What is the best fire ant treatment for a small yard in Live Oak?",
+        answer:
+          "For compact Live Oak lots, a combination of individual mound treatment for visible colonies and a broadcast bait application across the lawn addresses both current and forming mounds. Bait-based treatments work more slowly than contact insecticides but prevent the colony from simply relocating a few feet away after treatment.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "San Antonio", slug: "san-antonio" },
+      { name: "Converse", slug: "converse" },
+      { name: "Schertz", slug: "schertz" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Live Oak, TX | Fire Ants, Scorpions & Cockroaches",
+    metaDescription:
+      "Live Oak TX pest control for fire ants, scorpions, American cockroaches and subterranean termites. Northeast Bexar County San Antonio metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

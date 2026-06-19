@@ -3733,4 +3733,105 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaDescription:
       "Coatesville PA pest control for house mice, bed bugs, German cockroaches, cluster flies and stink bugs. Chester County Brandywine Valley steel-era housing specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  {
+    slug: "hanover-pa",
+    name: "Hanover",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~15,000",
+    county: "York County",
+    climate: "cold-humid",
+    climateDriver: "South-central Pennsylvania's humid continental climate near the Maryland border, with proximity to the Blue Ridge and documented heavy brown marmorated stink bug pressure across York County.",
+    topPests: ["brown marmorated stink bugs", "house mice", "odorous house ants", "eastern subterranean termites", "yellowjackets"],
+    pestProfile: [
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November (entry), March through April (emergence)",
+        note: "Penn State Extension documents heavy BMSB pressure in York County, and Hanover's position near the Blue Ridge places it at the epicenter of Pennsylvania's stink bug problem."
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note: "York County's rural-edge communities including Hanover see fall mouse pressure from surrounding agricultural land as crop fields are harvested."
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through August",
+        note: "Ants are a consistent spring presence in Hanover's older neighborhoods and in newer construction near the county's agricultural edge."
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-control",
+        activeSeason: "March through May (swarming), year-round (active)",
+        note: "York County carries documented termite pressure, and Hanover's location near the Maryland border places it in a zone where termite activity is meaningfully above northern Pennsylvania averages."
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "July through October",
+        note: "Ground-nesting and void-nesting yellowjackets are common in Hanover and York County through summer, reaching maximum colony aggression in August and September."
+      }
+    ],
+    localHook: "Penn State Extension specifically identifies York County near the Blue Ridge as one of Pennsylvania's highest-pressure zones for brown marmorated stink bugs, and Hanover homeowners know it every September.",
+    intro: "Hanover sits in York County's southwest corner, barely north of the Maryland border and close to the Blue Ridge foothills that Penn State Extension has identified as the epicenter of Pennsylvania's brown marmorated stink bug problem. Ask any Hanover homeowner what pest they dread most and stink bugs come up immediately, often with a specific number from last fall that sounds implausible until you see it for yourself. Beyond BMSB, Hanover's agricultural surroundings bring mice in fall, York County carries documented termite pressure, and yellowjackets are active through summer. South-central Pennsylvania has an honest pest environment.",
+    sections: [
+      {
+        heading: "Brown Marmorated Stink Bugs: Penn State's York County Warning",
+        body: "Penn State Extension has specifically documented heavy brown marmorated stink bug pressure in York County, and Hanover's position near the Blue Ridge makes it one of the more BMSB-active communities in the state. The insects have multiple host plants, which means populations build through the growing season before turning toward structures in September. They enter through every gap in the building envelope: window frame gaps, utility penetrations, soffit vents, exhaust vents, and any crack in exterior materials. Exclusion work done in August, before the aggregation season begins, is the single most effective intervention."
+      },
+      {
+        heading: "Termite Risk Near the Maryland Border",
+        body: "York County's position near the Maryland border puts it in a zone with meaningfully higher termite activity than northern Pennsylvania. Eastern subterranean termites are documented across the county, with swarming events in March and April being the most visible sign. Hanover's housing stock includes both older construction with accumulated entry points and newer construction that occasionally has wood debris left in fill soils. Any wood-frame property in York County should be inspected every two to three years at minimum."
+      },
+      {
+        heading: "Fall Mouse and Yellowjacket Season",
+        body: "October in Hanover brings two pest pressures converging. Agricultural fields to the south and east of town are harvested, pushing mice toward residential structures. Yellowjacket colonies, which have been building all summer, reach maximum size and aggression in August and September. Yellowjackets at this size will pursue perceived threats aggressively. Ground nests near walkways or void nests inside wall cavities should be treated professionally, not with consumer sprays that agitate without resolving the colony."
+      }
+    ],
+    prevention: [
+      "Complete a full exterior sealing inspection in August, specifically targeting window frame gaps, utility penetrations, soffit vents, and weep holes before stink bug aggregation season begins in Hanover.",
+      "Schedule a termite inspection if it has been more than two years since the last one, given York County's documented pressure and Hanover's position near the Maryland border zone.",
+      "Walk your yard and property perimeter in July looking for yellowjacket ground nest entrances near concrete, landscape rock, and foundation plantings, when colonies are still smaller and treatment is less dangerous.",
+      "Seal garage door bottom seals and add door sweeps to exterior entry doors before October to block the two most common mouse entry points in Hanover's residential neighborhoods."
+    ],
+    costNote: "Stink bug exclusion and treatment programs in Hanover typically run $200 to $450 depending on property size and the extent of sealing work needed. Termite treatment in York County ranges from $500 to $1,400 depending on structure size and treatment method. Yellowjacket colony treatment runs $100 to $250 per nest.",
+    faqs: [
+      {
+        question: "Why does Hanover have such a severe stink bug problem compared to other Pennsylvania towns?",
+        answer: "Penn State Extension has documented this directly. York County near the Blue Ridge sits in Pennsylvania's heaviest BMSB pressure zone. The Blue Ridge corridor provides year-round habitat and overwintering sites in the rocky terrain, sustaining large regional populations that move into nearby communities each fall. Hanover's position near that terrain edge means local stink bug populations are consistently higher than in communities farther from the ridge. This is a regional geography issue, not anything specific about individual properties."
+      },
+      {
+        question: "How do I stop stink bugs from getting into my Hanover home in September?",
+        answer: "Timing is everything. Begin exterior sealing in August, before populations start congregating on warm walls in September. Focus on window frame perimeters where old caulk has cracked, gaps around any penetration where a pipe or wire enters exterior walls, soffit vents without fine screening, and the junction between the foundation and the first course of siding. A licensed technician can apply a residual exterior treatment to aggregation surfaces in late August that reduces how many reach the wall in the first place."
+      },
+      {
+        question: "My Hanover home was built in the 1940s. How serious is the termite risk?",
+        answer: "Serious enough to warrant regular inspection. York County has documented termite pressure, and a 1940s home has had eight decades to accumulate the wood-to-soil contact, settling cracks, and moisture infiltration that eastern subterranean termites exploit. Homes of that era frequently have unfinished crawl spaces with wood debris on soil, original wood sill plates close to grade, and basement windows that collect moisture. A professional inspection will tell you specifically what risk factors your property has."
+      },
+      {
+        question: "Are the yellowjackets in Hanover the same as the ones stinging people at outdoor events?",
+        answer: "Almost certainly. The species most responsible for late-summer human stings is Vespula squamosa or Vespula germanica, both of which are common in York County. By August, a single ground nest can contain 1,500 to 5,000 workers. They are protective of the colony within about 10 feet of the nest entrance. Most stings happen when someone unknowingly steps on or near a ground nest. If you find a nest on your Hanover property, mark the area and have it treated professionally rather than disturbing it."
+      },
+      {
+        question: "Should I tell my Hanover neighbors if I am treating for stink bugs or termites?",
+        answer: "For stink bugs, coordination with neighbors makes a real difference. Stink bugs that cannot enter one sealed house will aggregate on the next nearest warm surface, so a block where multiple households seal and treat simultaneously sees better results than individual homes acting alone. For termites, letting adjacent property owners know is courteous but not operationally necessary, since subterranean termite colonies are soil-based and treatment on your property does not directly affect your neighbor's."
+      }
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "York", slug: "york" },
+      { name: "Harrisburg", slug: "harrisburg" },
+      { name: "Chambersburg", slug: "chambersburg-pa" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Hanover, PA | York County Stink Bugs",
+    metaDescription: "Penn State-documented stink bug epicenter in York County, PA. Expert pest control in Hanover for BMSB, termites, mice, and yellowjackets near Maryland border."
+  },
 ];

@@ -4641,4 +4641,343 @@ export const michiganCities: CityLocation[] = [
       "Romulus MI pest control for bed bugs, house mice, Norway rats, German cockroaches and cluster flies near Detroit Metropolitan Airport. Wayne County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
 
+
+  {
+    slug: "monroe-mi",
+    name: "Monroe",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~20,000",
+    county: "Monroe County",
+    climate: "cold-humid",
+    climateDriver:
+      "Monroe sits at the western end of Lake Erie in southeast Michigan, where the River Raisin meets the lake. The cold-humid Great Lakes climate drives mice and rodents indoors in fall, but Monroe's position as a historic lake port with grain handling history and its Lake Erie wetland and River Raisin corridor create elevated rodent and mosquito pressure beyond what inland towns of similar size face. Brown marmorated stink bugs are documented in Monroe County per Michigan State University Extension.",
+    topPests: [
+      "House mice",
+      "Norway rats",
+      "Brown marmorated stink bugs",
+      "Mosquitoes",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice are the primary residential rodent pest in Monroe. The cold-humid Lake Erie climate drives fall entry through foundation gaps as temperatures drop. Monroe's older housing stock, including the historic districts near the River Raisin, has more entry points than newer construction.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Monroe's history as a lake port and grain handling center created Norway rat populations in the waterfront and commercial areas that persist today. Rats burrow along the River Raisin corridor and in areas with accessible food near the commercial waterfront. They move into residential areas adjacent to commercial zones.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering",
+        note: "Michigan State University Extension documents brown marmorated stink bugs as well established across Monroe County. Monroe's residential neighborhoods experience fall overwintering pressure as the insects aggregate on south-facing exterior walls before entering through gaps in siding and window frames.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Monroe's Lake Erie shoreline, River Raisin wetlands, and the low-lying areas of Monroe County create significant mosquito breeding habitat. Michigan Department of Health and Human Services conducts West Nile virus mosquito surveillance in Monroe County. Peak mosquito activity in Monroe is in July and August along the river and wetland corridors.",
+      },
+      {
+        name: "Bald-faced hornets and yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall",
+        note: "Yellowjackets and bald-faced hornets are common stinging insects in Monroe County. Yellowjackets nest in the ground and in wall voids. Bald-faced hornets build large paper nests in trees and on structures. Both peak in late summer when colonies reach maximum size.",
+      },
+    ],
+    localHook:
+      "Monroe's position on the River Raisin at the edge of Lake Erie creates a dual pest dynamic that inland Michigan cities do not share: a historic port-area rodent pressure from the waterfront commercial corridor, and a genuine mosquito season driven by Lake Erie wetlands and the River Raisin floodplain. Michigan State University Extension also notes Monroe County as in the established range of the brown marmorated stink bug.",
+    intro:
+      "Monroe's pest profile is shaped by its geography. Lake Erie, the River Raisin, and the city's history as a port and grain handling community all leave their mark on the local pest picture. Norway rats are documented in waterfront commercial areas. House mice push into the older residential and historic districts each fall. Mosquitoes are active along the River Raisin wetland corridor from May through September. Brown marmorated stink bugs are established across Monroe County per Michigan State University Extension. Late summer brings bald-faced hornets and yellowjackets to peak aggression.",
+    sections: [
+      {
+        heading: "Waterfront rodents and the River Raisin corridor",
+        body: "Monroe's commercial waterfront and the River Raisin corridor are the two areas where rodent pressure is most concentrated. Norway rats have been established in waterfront communities along Lake Erie for well over a century, and Monroe's port history means rat populations in the commercial waterfront area are persistent rather than sporadic. They burrow along the river banks, under concrete near the waterfront, and in areas with accessible refuse or stored material. From those waterfront locations, they can move into adjacent residential neighborhoods. Homeowners in the areas closest to the River Raisin and the commercial waterfront should treat rodent pressure from outside in as well as from inside out. A professional assessment can identify whether Norway rats are part of the picture or whether mice alone are the issue, since the two require different approaches.",
+      },
+      {
+        heading: "Lake Erie wetlands and the mosquito season",
+        body: "Monroe sits where the River Raisin empties into Lake Erie, and the surrounding wetlands are among the most productive mosquito breeding habitats in southeast Michigan. The Lake Erie coastal wetlands and the River Raisin floodplain provide standing water for breeding for a sustained period each summer. Michigan Department of Health and Human Services monitors West Nile virus in Monroe County mosquito populations. Peak mosquito activity in Monroe is concentrated from late June through August. Eliminating standing water from yards, maintaining gutters, and using a licensed mosquito treatment program for the outdoor living season are the practical approaches for Monroe residential properties.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before October, particularly in homes close to the River Raisin and commercial waterfront areas where rodent pressure is highest.",
+      "Eliminate standing water from yard containers, bird baths, and clogged gutters before June to reduce mosquito breeding ahead of peak season.",
+      "Seal exterior siding gaps and window frame edges in early September before brown marmorated stink bugs begin their fall overwintering migration.",
+      "Inspect the yard for yellowjacket ground nests in June and treat early before colonies reach late-summer peak size.",
+    ],
+    costNote:
+      "Monroe pest control is typically a seasonal or quarterly program. Mosquito treatment is priced separately and runs May through September. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Are Norway rats common in Monroe near the waterfront?",
+        answer:
+          "Norway rats are a documented pest in Monroe's waterfront and commercial areas. The city's history as a port and grain handling community created persistent rat populations that are still present in the River Raisin corridor and the commercial waterfront zone. Residential properties adjacent to those areas can experience rat pressure. A licensed professional can determine whether burrowing activity around your property is Norway rat related.",
+      },
+      {
+        question: "Are mosquitoes worse in Monroe than in inland Michigan cities?",
+        answer:
+          "Yes, generally. Monroe's location at the Lake Erie shoreline and the River Raisin wetland corridor provides significantly more mosquito breeding habitat than inland communities of similar size. Michigan Department of Health and Human Services has conducted West Nile virus surveillance in Monroe County. Properties within a half-mile of the River Raisin floodplain and low-lying wetland areas see the most mosquito activity in July and August.",
+      },
+      {
+        question: "When do stink bugs become a problem in Monroe homes?",
+        answer:
+          "Late September through October is the primary overwintering entry window in Monroe County. Stink bugs aggregate on the south and west-facing exterior walls of homes during warm fall afternoons, then move through gaps in siding, window frames, and attic vents. Michigan State University Extension documents them as well established across Monroe County. Sealing those gaps in August gives the best chance of reducing entry.",
+      },
+      {
+        question: "What should I do about bald-faced hornet nests on my Monroe property?",
+        answer:
+          "Bald-faced hornet nests are the large, papery gray structures you see hanging from tree branches, under eaves, or on structures in late summer. They are aggressive defenders and can sting repeatedly. Professional removal with appropriate protective equipment is the right approach, particularly for nests on structures. Do not attempt removal of a mature nest without protection.",
+      },
+      {
+        question: "What time of year should I schedule a pest inspection in Monroe?",
+        answer:
+          "Spring is the best time to assess termite and overwintering pest activity. Fall, specifically September, is the right time to address rodent exclusion and stink bug sealing before the entry season begins. For mosquitoes, scheduling a treatment program in May before peak season gives the best result. A year-round recurring program covers the full Monroe pest calendar.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Toledo", slug: "toledo" },
+      { name: "Ann Arbor", slug: "ann-arbor" },
+      { name: "Ypsilanti", slug: "ypsilanti" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Monroe, MI | Mice, Rats & Mosquitoes",
+    metaDescription:
+      "Monroe MI pest control for house mice, Norway rats, brown marmorated stink bugs, mosquitoes and yellowjackets. Monroe County Lake Erie River Raisin area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+
+  {
+    slug: "ferndale-mi",
+    name: "Ferndale",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~19,000",
+    county: "Oakland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Ferndale is one of the densest municipalities in Oakland County, sitting immediately north of Detroit's city limits. The cold-humid Great Lakes climate drives rodents and cockroaches into structures in fall. The urban density, aging infrastructure, high-turnover rental housing, and mix of single-family homes and multi-unit buildings create a pest environment more similar to Detroit's inner neighborhoods than to the broader Oakland County suburban norm.",
+    topPests: [
+      "Norway rats",
+      "House mice",
+      "German cockroaches",
+      "Bed bugs",
+      "Odorous house ants",
+    ],
+    pestProfile: [
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are documented in Ferndale's urban residential environment. The city's density, older utility infrastructure, and the proximity to Detroit's rat-pressured corridors create year-round rat activity in alley systems, under concrete, and in older building foundations. Oakland County Health Division tracks rodent complaints in the area.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "House mice are present year-round in Ferndale's older housing stock. The cold-humid climate pushes mice firmly into heated structures each fall. Ferndale's 1920s and 1930s brick bungalows and two-family homes have the foundation gaps, pipe openings, and sill plate deterioration that make effective exclusion challenging.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Ferndale's rental apartments, restaurants, and older multi-unit buildings. They breed in heated kitchen and bathroom spaces year-round and spread through shared plumbing between units. Coordinated building-wide treatment programs are the only effective long-term approach.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a significant concern in Ferndale's high-turnover rental housing. The combination of frequent tenant turnover, shared laundry facilities, and proximity to the broader Detroit metro creates ongoing introduction risk. Ferndale's active entertainment district generates additional hotel and short-term rental exposure.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Odorous house ants are the primary nuisance ant in Ferndale's residential neighborhoods. They nest under sidewalk joints, foundation edges, and tree root zones and trail indoors after rain. Michigan State University Extension documents them as the most commonly encountered indoor ant in Oakland County.",
+      },
+    ],
+    localHook:
+      "Ferndale packs a lot of housing and commercial activity into a very small geographic footprint, about 2.8 square miles. That density creates the kind of shared-infrastructure pest pressure where a rodent burrow in an alley affects multiple adjacent properties, and a cockroach population in one apartment unit can reinfest a treated neighbor within weeks through shared plumbing.",
+    intro:
+      "Ferndale is small, dense, and diverse, and its pest picture reflects all three. Norway rats are year-round in the alley systems and older infrastructure. House mice push into brick bungalows and two-family homes each fall as Oakland County temperatures drop. German cockroaches persist in the apartment and restaurant stock. Bed bugs are a consistent concern in high-turnover rentals. Odorous house ants trail in from foundation and sidewalk nests through spring and summer. Managing pests in Ferndale means thinking at the building level, not just the unit level.",
+    sections: [
+      {
+        heading: "Urban density and the rodent problem",
+        body: "At 2.8 square miles and around 19,000 residents, Ferndale is one of Oakland County's densest communities. That density means the alley system, shared waste handling, and older brick infrastructure that characterizes Ferndale's residential neighborhoods create connected rodent habitat. Norway rats burrow in alleys, under concrete pads, and along utility trenches. A burrow in the alley between two streets can have tunnel systems that extend under multiple adjacent properties. When a neighboring property treats without simultaneously sealing their structure, displaced rats can move into untreated neighbors. House mice in Ferndale's 1920s and 1930s bungalows have an advantage that newer homes do not provide: original sill plates, foundation cracks, and pipe penetrations that are nearly impossible to seal completely without a professional exclusion inspection. Partial exclusion work often moves mice within the structure rather than removing them.",
+      },
+      {
+        heading: "Bed bugs in a high-turnover rental market",
+        body: "Ferndale's reputation as a lively entertainment destination means short-term rentals, high tenant turnover, and frequent hotel stays create bed bug introduction risk throughout the year. Bed bugs do not come from poor housekeeping. They are carried in luggage, clothing, and used furniture. In Ferndale's denser apartment buildings, a bed bug introduction in one unit can spread to adjacent units through outlet boxes, conduit paths, and under door gaps if not treated promptly. The key is early detection. A professional inspection with a trained bed bug protocol can confirm or rule out an infestation before it spreads. Waiting to see if they go away on their own is not an effective strategy.",
+      },
+    ],
+    prevention: [
+      "Inspect and seal sill plate gaps, foundation cracks, and pipe penetrations in Ferndale's older brick homes before October, when mice begin active fall entry.",
+      "Keep refuse in sealed containers and address alley-side waste areas to reduce Norway rat harborage in the shared alley system.",
+      "Report bed bug suspicions early and request a coordinated building-level inspection rather than treating a single unit in isolation.",
+      "Apply slow-acting ant bait at trails in spring to reach odorous house ant colonies before they establish large indoor forager networks.",
+    ],
+    costNote:
+      "Ferndale pest control for residential properties is typically a recurring program. Multi-unit buildings are priced on a coordinated building program. Bed bug treatment is a separate service. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Why are Norway rats so common in Ferndale?",
+        answer:
+          "Ferndale's density, older utility infrastructure, and shared alley systems create ideal Norway rat conditions. The city's proximity to Detroit's urban rat corridors adds to local pressure. Rats burrow under concrete in alleys and along utility trenches, and a single connected burrow system can span multiple adjacent properties. Oakland County Health Division tracks rodent activity in the area. Professional exclusion and a monitored bait program are the practical response.",
+      },
+      {
+        question: "Can my Ferndale apartment have bed bugs even in a newer building?",
+        answer:
+          "Yes. Building age is not the primary factor. Bed bug introductions happen through people, luggage, and used items, regardless of building condition. High-turnover rental properties in Ferndale have the most frequent introductions because more people cycle through them. A professional inspection is the most reliable detection method.",
+      },
+      {
+        question: "How do cockroaches spread between units in Ferndale apartment buildings?",
+        answer:
+          "German cockroaches in multi-unit buildings spread primarily through shared plumbing and wall voids: under sink cabinets, along pipe chases, and through electrical outlet boxes. They move where warmth, moisture, and food accessibility guide them. Treating a single unit without a coordinated building program usually results in reinfestation from adjacent units within weeks. Building management coordinating a whole-building program is the only lasting solution.",
+      },
+      {
+        question: "When do odorous house ants appear in Ferndale?",
+        answer:
+          "April and May when consistent warm temperatures return, with flare-ups after heavy rain events throughout summer. They nest under Ferndale's sidewalk joints, tree root zones, and foundation edges. When rain floods outdoor nests, workers trail into the nearest dry interior space. Bait placed at the trail line outdoors is more effective than spray at the indoor entry point.",
+      },
+      {
+        question: "What are the signs of Norway rats versus house mice in Ferndale?",
+        answer:
+          "Norway rat droppings are capsule-shaped and about 3/4 inch long. House mouse droppings are smaller, roughly 1/4 inch. Rat burrow entrance holes in soil are baseball-sized. Rats produce grease smears along walls from repeated travel on established routes. Mice produce smaller smears and are more likely to be found in attic and wall spaces than in alley-side burrows. Both require professional exclusion work to resolve, but the specific approach differs.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Royal Oak", slug: "royal-oak" },
+      { name: "Southfield", slug: "southfield" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Ferndale, MI | Rats, Mice & Bed Bugs",
+    metaDescription:
+      "Ferndale MI pest control for Norway rats, house mice, German cockroaches, bed bugs and odorous house ants. Oakland County inner Detroit suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+
+  {
+    slug: "mount-clemens",
+    name: "Mount Clemens",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~16,000",
+    county: "Macomb County",
+    climate: "cold-humid",
+    climateDriver:
+      "Mount Clemens is the Macomb County seat, located on the Clinton River in southeast Michigan. The cold-humid Great Lakes climate drives rodents and overwintering pests into structures each fall. The Clinton River corridor and the surrounding Macomb County wetlands provide mosquito breeding habitat, and Macomb County has an active mosquito abatement program in recognition of the consistent local pressure. Brown marmorated stink bugs are established in Macomb County per Michigan State University Extension.",
+    topPests: [
+      "House mice",
+      "Norway rats",
+      "Brown marmorated stink bugs",
+      "Mosquitoes",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through April",
+        note: "House mice are the dominant rodent pest in Mount Clemens. The city's older housing stock along the Clinton River corridor has the gaps and aged infrastructure that make exclusion challenging. Macomb County winters are cold enough that fall entry behavior begins in September and continues through the season.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are present in Mount Clemens in areas with older infrastructure and accessible food sources. The Clinton River corridor and the downtown commercial area are the zones with the most consistent rat activity. They burrow in riverbank areas and under concrete near refuse and food waste.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through spring for overwintering",
+        note: "Brown marmorated stink bugs are established in Macomb County per Michigan State University Extension. Mount Clemens' residential neighborhoods see consistent fall overwintering entry through siding gaps and window frame openings. They do not reproduce indoors but can accumulate in large numbers in attic spaces.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Clinton River and surrounding Macomb County wetlands create significant mosquito breeding habitat in and around Mount Clemens. Macomb County has maintained an active mosquito abatement program for decades in recognition of the area's sustained mosquito pressure. West Nile virus has been documented in Macomb County mosquito populations.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Summer through fall, peak in August and September",
+        note: "Yellowjackets are a significant late summer pest in Mount Clemens. Ground-nesting colonies in turf and garden areas become aggressive in late August as colony populations peak. Wall void nests in older structures are also common. Sting incidents peak from mid-August through September.",
+      },
+    ],
+    localHook:
+      "Macomb County maintains one of the most active mosquito abatement programs in southeast Michigan, which is a direct reflection of the mosquito pressure created by the Clinton River wetlands and the low-lying areas around Mount Clemens. That abatement program reduces but does not eliminate mosquito activity for residential properties near the river corridor.",
+    intro:
+      "Mount Clemens sits on the Clinton River, and the river shapes the pest calendar. Mosquitoes are active from May through September along the Clinton River corridor, and Macomb County's active abatement program reflects the seriousness of the local pressure. House mice and Norway rats are year-round in the city's older infrastructure and riverfront areas. Brown marmorated stink bugs are established in Macomb County. Yellowjackets peak in late summer in lawns and older wall voids. It's a classic southeast Michigan cold-humid pest picture, with the river adding a dimension that most inland Macomb County towns do not share.",
+    sections: [
+      {
+        heading: "The Clinton River corridor and mosquito season",
+        body: "The Clinton River runs through Mount Clemens, and the floodplain wetlands along the river provide sustained mosquito breeding habitat throughout the summer season. Macomb County has maintained an active mosquito abatement program for decades, one of the more developed county-level programs in southeast Michigan, and it operates specifically because the Clinton River and surrounding wetlands generate mosquito pressure that warrants ongoing intervention. The abatement program treats county-managed waterways and wetlands. It significantly reduces mosquito populations in the broader area but does not eliminate breeding from private property features like uncleaned gutters, bird baths, and landscape water features. Residential mosquito programs for outdoor living areas are a complement to county abatement, targeting activity on the property level. Properties within a few blocks of the Clinton River corridor tend to see the heaviest local pressure.",
+      },
+      {
+        heading: "Older housing and the fall rodent picture",
+        body: "Mount Clemens has a stock of older homes and commercial buildings along the Clinton River and in the historic downtown that were built in the early and mid-twentieth century. These properties have the aged sill plates, foundation cracks, pipe penetrations, and deteriorated weather sealing that make effective mouse exclusion genuinely difficult. House mice in Macomb County begin their fall push into heated structures in September. In Mount Clemens' older neighborhoods, where gaps are abundant and hard to seal completely, a snap trap grid in combination with professional exclusion work is the most practical approach. Norway rats in the riverfront and commercial areas add a second rodent dimension in some parts of the city. A professional assessment can determine whether the activity on a specific property involves mice, rats, or both.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water from gutters, bird baths, and yard containers by late May to reduce mosquito breeding ahead of the Clinton River corridor's peak pressure period.",
+      "Seal foundation gaps, pipe penetrations, and sill plate openings in Macomb County's older housing before September to intercept mice before fall entry begins.",
+      "Seal exterior siding gaps and attic vents in August to prevent brown marmorated stink bug overwintering in wall voids.",
+      "Walk lawn areas in June and July to locate yellowjacket ground nests and treat before late-summer peak colony size.",
+    ],
+    costNote:
+      "Mount Clemens pest control is typically a quarterly program. Mosquito treatment is a separate seasonal service running May through September. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Does living near the Clinton River in Mount Clemens mean worse mosquitoes?",
+        answer:
+          "Yes, notably. The Clinton River floodplain wetlands in and around Mount Clemens create more mosquito breeding habitat than most Macomb County residential areas. Macomb County operates one of southeast Michigan's more active abatement programs specifically because of this river-corridor pressure. Residential properties within several blocks of the river see elevated activity from late June through August, even with county abatement efforts.",
+      },
+      {
+        question: "Are stink bugs as bad in Mount Clemens as in other parts of Macomb County?",
+        answer:
+          "The brown marmorated stink bug is well established across Macomb County per Michigan State University Extension, and Mount Clemens residents experience the same fall overwintering pressure as neighboring communities. Homes with older exterior sealing or gaps around window frames see the most entry. Sealing those gaps in August before the late September migration window is the most effective preventive step.",
+      },
+      {
+        question: "What are the signs of Norway rats near the Mount Clemens riverfront?",
+        answer:
+          "The typical signs are baseball-sized burrow entrances in soil or under concrete slabs, grease marks along foundation walls, large droppings about 3/4 inch long, and runways through vegetation near the river corridor. Norway rats are more likely in areas with accessible refuse or food storage near the Clinton River. A licensed professional can confirm whether burrowing activity on or near your property is Norway rat related.",
+      },
+      {
+        question: "When do yellowjackets become a problem in Mount Clemens?",
+        answer:
+          "Yellowjacket ground nests in Macomb County reach peak population in August and September, which is when sting incidents are most common. Workers are most aggressive at peak colony size and when foraging near outdoor food. The safest approach is to locate ground nests in June or July and have them treated before peak size. Nests in wall voids of older homes require a professional to treat safely.",
+      },
+      {
+        question: "What's the most effective way to deal with mice in Mount Clemens' older homes?",
+        answer:
+          "A combination of professional exclusion and a trap grid. In Mount Clemens' older housing stock, mice enter through gaps that are hard to find and seal without a professional inspection. A professional can identify the primary entry points, seal them with appropriate materials, and set a monitored trap grid in areas where activity is documented. Exclusion without trapping leaves mice already inside. Trapping without exclusion allows new mice to replace those caught.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Detroit", slug: "detroit" },
+      { name: "Sterling Heights", slug: "sterling-heights" },
+      { name: "Warren", slug: "warren" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Mount Clemens, MI | Mice, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Mount Clemens MI pest control for house mice, Norway rats, mosquitoes, brown marmorated stink bugs and yellowjackets. Macomb County Clinton River area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

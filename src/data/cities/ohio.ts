@@ -5571,4 +5571,683 @@ export const ohioCities: CityLocation[] = [
       "Solon OH pest control for carpenter ants, house mice, stink bugs, squirrels and cluster flies. Cuyahoga County mature-canopy suburban forest specialists. Free inspection. Call 1-800-PEST-USA.",
   },
 
+
+  {
+    slug: "fairborn",
+    name: "Fairborn",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~34,000",
+    county: "Greene County",
+    climate: "cold-humid",
+    climateDriver: "Fairborn sits in the Dayton-Springfield corridor of western Ohio, where humid continental conditions bring cold winters and warm, moderately humid summers. Fall temperature swings in September and October trigger large-scale stink bug migration into structures, and mild springs allow paper wasp and ant colonies to establish early.",
+    topPests: ["House mice", "Stink bugs", "Paper wasps", "Odorous house ants", "Cellar spiders"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October-March, year-round in some structures",
+        note: "House mice move indoors as temperatures drop in fall. The mix of residential neighborhoods and commercial corridors near Wright-Patterson AFB provides abundant harborage and food sources.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September-November (entry), March-May (exit)",
+        note: "Brown marmorated stink bugs are heavily established in Ohio. Greene County sees significant fall aggregations on sun-exposed walls before insects push into attics and wall voids.",
+      },
+      {
+        name: "Paper wasps",
+        serviceSlug: "wasp-control",
+        activeSeason: "April-October",
+        note: "Paper wasps build open-comb nests under eaves, in soffits, and inside gutter ends. Nests expand rapidly through summer and become aggressive when disturbed in August and September.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March-October",
+        note: "Odorous house ants are one of Ohio's most common structural pests. They enter through tiny cracks seeking moisture and sweet food sources, and colonies are difficult to eliminate without baiting.",
+      },
+      {
+        name: "Cellar spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors",
+        note: "Cellar spiders, also called daddy long-legs, build loose webs in basements, crawlspaces, and garages. They are harmless to people but indicate other insect activity they are feeding on.",
+      },
+    ],
+    localHook: "Fairborn is home to Wright-Patterson Air Force Base, the largest single-site employer in Ohio, and the surrounding residential neighborhoods include many mid-century ranch homes with crawlspaces and attics that provide ideal overwintering sites for stink bugs and nesting sites for house mice.",
+    intro: "Pest control in Fairborn has a clear seasonal rhythm. Late summer through fall is stink bug and wasp season, with insects looking for overwintering sites before the cold sets in. When temperatures drop, house mice start looking for the same thing inside your walls and crawlspaces. Spring brings odorous house ants back into kitchens and bathrooms. Cellar spiders are a year-round presence in basements throughout Greene County. None of these are emergencies on their own, but each one gets more expensive to deal with the longer it's left.",
+    sections: [
+      {
+        heading: "Why Fairborn Has Such Heavy Stink Bug Pressure",
+        body: "Ohio is one of the states most heavily impacted by brown marmorated stink bugs, and Greene County is no exception. Stink bugs arrived in the US from Asia and have spread throughout the Midwest. In Fairborn, the combination of residential neighborhoods near open agricultural land and the thermal mass of mid-century homes makes them particularly attractive targets in fall. Sealing entry points before September is the most effective defense.",
+      },
+      {
+        heading: "House Mouse Season in Greene County",
+        body: "House mice start their push indoors when nighttime temperatures consistently drop below 50 degrees, usually in October in Fairborn. They enter through gaps as small as a dime around utility lines, dryer vents, and weep holes in brick veneer. Once inside, a pair can produce dozens of offspring before winter ends. Early exclusion work and interior bait stations are the standard response. Snap traps placed along walls in active areas provide quick knock-down.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around all utility penetrations, dryer vents, and weep holes with steel wool and caulk before October to block mouse entry.",
+      "Inspect window screens and door sweeps in August to close stink bug entry points before the fall migration begins.",
+      "Knock down paper wasp nests in spring when they are small and the colony is just the founding queen, rather than waiting until summer when nests are large and the wasps are defensive.",
+      "Fix leaking pipes under sinks and around appliances to remove the moisture that odorous house ants are seeking when they enter kitchens.",
+    ],
+    costNote: "Rodent exclusion and bait programs in Fairborn typically run $150 to $350 for an initial service. Stink bug treatments average $100 to $200 per visit. Wasp nest removal is usually $75 to $150 depending on nest size and location.",
+    faqs: [
+      {
+        question: "Why do I get so many stink bugs in my Fairborn home every fall?",
+        answer: "Brown marmorated stink bugs are heavily established throughout Ohio, and Greene County is a high-pressure area. They aggregate on warm, sun-exposed walls in September and October before pushing through any available gap into your home. The thermal mass of older ranch homes near Wright-Patterson AFB makes them particularly attractive targets.",
+      },
+      {
+        question: "How do I know if house mice are in my walls and not just outside?",
+        answer: "Gnaw marks on food packaging, small dark droppings along walls and in cabinet corners, and scratching sounds in walls at night are the most reliable signs. Mice follow the same routes repeatedly, so droppings tend to cluster in lines along baseboards and behind appliances.",
+      },
+      {
+        question: "Are cellar spiders in Fairborn basements harmful?",
+        answer: "No. Cellar spiders, sometimes called daddy long-legs, are harmless to people and pets. Their loose, irregular webs in basements and garages are messy but not dangerous. Their presence does indicate that other insects are active in the space, since they rely on live prey to survive.",
+      },
+      {
+        question: "When should I schedule wasp nest removal in Fairborn?",
+        answer: "The safest and most effective time is early spring, when the founding queen has just started a nest that is still golf-ball sized and contains only a few wasps. By August, nests can contain hundreds of workers who become very defensive when the colony is disturbed. Large nests are best handled by a licensed technician with protective equipment.",
+      },
+      {
+        question: "Do odorous house ants in Fairborn bite or sting?",
+        answer: "Odorous house ants do not bite or sting in any meaningful way. The real problem is their persistence in kitchens and bathrooms, where they contaminate food and surfaces. Their name comes from the smell they release when crushed, which is often described as rotten coconut. Bait-based treatments are generally more effective than sprays for long-term control.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Dayton", slug: "dayton" },
+      { name: "Beavercreek", slug: "beavercreek" },
+      { name: "Springfield", slug: "springfield" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Fairborn, OH | Mice, Stink Bugs & Wasps | Greene County",
+    metaDescription: "Pest control in Fairborn, OH near Wright-Patterson AFB. Local service for house mice, stink bugs, paper wasps, and odorous house ants in Greene County.",
+  },
+
+  {
+    slug: "lancaster-oh",
+    name: "Lancaster",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~40,000",
+    county: "Fairfield County",
+    climate: "cold-humid",
+    climateDriver: "Lancaster sits southeast of Columbus along the Hocking River in Fairfield County, where the humid continental climate produces cold winters and warm, humid summers. The Hocking River corridor creates a moisture channel that keeps rodent populations active near older downtown structures and draws yellowjackets to riverside vegetation through late summer.",
+    topPests: ["House mice", "Norway rats", "Stink bugs", "Odorous house ants", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October-March",
+        note: "House mice are the most common structural pest in Lancaster's older residential neighborhoods. They enter through foundation cracks and utility gaps as temperatures drop in fall.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, most pressure October-April",
+        note: "Norway rats burrow near the Hocking River banks and along older sewer infrastructure in Lancaster's downtown area. They move into basements and crawlspaces in cold weather.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September-November",
+        note: "Brown marmorated stink bugs are established throughout Fairfield County. They aggregate on exterior walls in fall and enter through any available gap to overwinter.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March-October",
+        note: "Odorous house ants are a persistent issue in Lancaster's older homes, where moisture in crawlspaces and basements provides nesting conditions close to food sources.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "June-October",
+        note: "Yellowjackets nest in ground burrows and wall voids throughout Fairfield County. They become highly defensive from August through October when colonies are at their largest.",
+      },
+    ],
+    localHook: "Lancaster is the birthplace of General William Tecumseh Sherman and has one of the most intact Victorian-era commercial districts in central Ohio. Those older structures, combined with the city's proximity to the Hocking River, create concentrated Norway rat pressure in the downtown core and elevated moisture conditions that affect the whole city.",
+    intro: "Lancaster's pest picture is shaped by two things: its older housing stock and the Hocking River. The river creates moisture conditions that sustain Norway rat populations near the downtown area and contribute to the dampness that draws house mice and odorous house ants into basements and crawlspaces across the city. Stink bugs are a fall fixture across all of Fairfield County. Yellowjackets nest in ground burrows and wall voids and turn aggressive late in the season. Knowing what you're dealing with, and when, makes treatment more effective and less disruptive.",
+    sections: [
+      {
+        heading: "Rodent Pressure in Lancaster's Downtown and Near the Hocking River",
+        body: "Norway rats are established along the Hocking River corridor and in older sewer infrastructure in Lancaster's downtown. They burrow near water and move into basements when outdoor temperatures drop. House mice are more widely distributed across all of Fairfield County. Both enter through gaps that are smaller than most homeowners expect. Exclusion, blocking every entry point larger than a quarter-inch, is the first step in any effective rodent program.",
+      },
+      {
+        heading: "Yellowjacket Season in Lancaster",
+        body: "Yellowjackets in Fairfield County build nests in abandoned rodent burrows, wall cavities, and under concrete slabs from June onward. Colonies grow steadily through summer, reaching their peak size in August and September when foragers are most aggressive. Ground nests are easy to disturb accidentally while mowing. Wall void nests are more dangerous because they are completely concealed until yellowjackets start emerging from a small exterior gap. Treatment should be done at night, when the colony is least active.",
+      },
+    ],
+    prevention: [
+      "Check the foundation, utility entry points, and crawlspace vents for gaps larger than a quarter-inch before October and seal them with hardware cloth or copper mesh.",
+      "Keep trash cans sealed with lids that lock to avoid attracting Norway rats, which are strongly associated with food waste near older Lancaster properties.",
+      "Cut back vegetation and mulch beds away from the foundation to remove harborage for mice and yellowjacket ground nesters.",
+      "Seal window screen edges and door frames before September to limit stink bug entry points during the fall aggregation period.",
+    ],
+    costNote: "Rodent inspections and initial treatment in Lancaster typically run $150 to $350. Yellowjacket nest removal averages $75 to $200 depending on nest location. Annual stink bug prevention services run $100 to $200 per treatment.",
+    faqs: [
+      {
+        question: "Why does the Hocking River area in Lancaster have more rat activity than the rest of the city?",
+        answer: "Norway rats favor areas near water and established burrowing sites. The Hocking River banks and adjacent older sewer infrastructure in Lancaster's downtown provide both. Rats burrow into river banks and move into basements and crawlspaces nearby when temperatures drop. Properties within a few blocks of the river corridor typically see higher rodent pressure than those further inland.",
+      },
+      {
+        question: "How do I tell the difference between a house mouse and a Norway rat in my Lancaster home?",
+        answer: "Size is the clearest indicator. House mice are small, typically 5 to 7 inches from nose to tail, with large ears and a thin tail. Norway rats are considerably larger, 13 to 18 inches total, with a blunt snout and a thick, scaly tail shorter than their body. Their droppings are also much larger, roughly three-quarters of an inch compared to the mouse's smaller, rod-shaped droppings.",
+      },
+      {
+        question: "When are yellowjackets most dangerous in Lancaster?",
+        answer: "August through early October is the highest-risk period. Fairfield County yellowjacket colonies reach their maximum size in late summer, when tens of thousands of workers are defending the nest. Foragers are also more aggressive in fall as natural food sources decline. Ground nests are particularly hazardous because they can be disturbed accidentally during lawn maintenance.",
+      },
+      {
+        question: "Do stink bugs in Lancaster actually damage anything in my home?",
+        answer: "No. Brown marmorated stink bugs do not breed indoors, bite, sting, or damage structures. The problem is the sheer number of them and the defensive odor they release when disturbed or crushed. A large overwintering aggregation in a wall void can mean hundreds of insects emerging indoors on warm winter days.",
+      },
+      {
+        question: "Why do odorous house ants keep coming back inside my Lancaster home even after treatment?",
+        answer: "Odorous house ant colonies can be very large, and multiple satellite colonies often exist around a single property. Spray treatments at entry points kill foragers but rarely reach the queen, so the colony simply sends more workers. Bait-based programs, where foragers carry toxic bait back to the colony, are more effective at long-term suppression.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus" },
+      { name: "Newark", slug: "newark-oh" },
+      { name: "Chillicothe", slug: "chillicothe-oh" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Lancaster, OH | Rodents, Stink Bugs & Yellowjackets",
+    metaDescription: "Pest control in Lancaster, OH. Local service for house mice, Norway rats near the Hocking River, stink bugs, and yellowjackets in Fairfield County.",
+  },
+
+  {
+    slug: "troy-oh",
+    name: "Troy",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~26,000",
+    county: "Miami County",
+    climate: "cold-humid",
+    climateDriver: "Troy sits along the Great Miami River in Miami County, where the humid continental climate delivers cold winters and warm, humid summers. The river corridor raises local humidity and provides standing water habitat for mosquitoes through the warm season, while the temperature swings of fall push stink bugs and rodents toward warm structures.",
+    topPests: ["House mice", "Stink bugs", "Odorous house ants", "Paper wasps", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October-March",
+        note: "House mice are the primary rodent pest in Troy's residential areas. They enter through small gaps in foundations and siding as temperatures drop and can establish quickly in wall voids.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September-November",
+        note: "Brown marmorated stink bugs are a significant fall pest throughout Miami County. They gather on exterior walls and push into wall voids and attics before winter.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March-October",
+        note: "Odorous house ants forage in kitchens and bathrooms from spring through fall, drawn by moisture and food sources. They are difficult to eliminate without targeted bait programs.",
+      },
+      {
+        name: "Paper wasps",
+        serviceSlug: "wasp-control",
+        activeSeason: "April-October",
+        note: "Paper wasps build nests under eaves, in soffits, and inside gutter ends throughout Troy. Colonies are docile early in the season but become defensive by late summer.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May-September",
+        note: "The Great Miami River floodplain and low-lying areas of Troy create standing water that supports mosquito breeding from late spring through early fall.",
+      },
+    ],
+    localHook: "Troy is the Miami County seat and sits directly on the Great Miami River, a waterway that contributes both to the city's character and to its mosquito pressure. The river's floodplain creates seasonal standing water that gives Aedes and Culex mosquitoes breeding habitat within walking distance of most Troy neighborhoods.",
+    intro: "Troy's pest season follows a predictable pattern. Mosquitoes from the Great Miami River floodplain make outdoor evenings uncomfortable from May through September. Paper wasps claim eaves and soffits in spring and grow steadily more defensive as summer progresses. In fall, stink bugs pile up on south-facing walls before finding their way into attics and wall voids. Then house mice follow, looking for warm spaces as temperatures drop. Odorous house ants are the year-round wildcard, appearing in kitchens whenever moisture is available. Staying ahead of this rotation is what good pest management in Miami County looks like.",
+    sections: [
+      {
+        heading: "Mosquito Pressure from the Great Miami River in Troy",
+        body: "The Great Miami River and its associated low-lying areas produce standing water after every significant rain event in Troy. This provides consistent breeding habitat for Culex mosquitoes, which can carry West Nile virus, and Aedes species. Properties in lower-elevation neighborhoods near the river tend to see more pressure. Barrier spray treatments around yard perimeters, combined with standing water elimination, provide the most practical level of control through the season.",
+      },
+      {
+        heading: "Managing Stink Bugs and Mice in Fall",
+        body: "September and October bring a double wave of pest pressure in Troy. Stink bugs aggregate on warm walls looking for overwintering sites, and house mice begin their push indoors. Both enter through the same types of gaps: utility penetrations, weep holes, gaps around window frames, and poorly sealed crawlspace vents. Addressing these entry points before September is more effective than reacting after insects and rodents are already inside.",
+      },
+    ],
+    prevention: [
+      "Check eaves, soffits, and gutter ends for early paper wasp nests in April, when nests are small and easy to remove.",
+      "Seal gaps around all utility pipes, dryer vents, and crawlspace openings before October to prevent house mouse entry.",
+      "Remove standing water from low spots in the yard and clean gutters after rain to cut off mosquito breeding sites near the Great Miami River corridor.",
+      "Apply weather stripping to door bottoms and seal window screen gaps before fall stink bug aggregation begins in September.",
+    ],
+    costNote: "Pest inspections in Troy typically run $75 to $125. Paper wasp nest removal averages $75 to $150. Mosquito barrier spray services cost $50 to $100 per application. Mouse exclusion programs start around $150 to $300 for initial treatment.",
+    faqs: [
+      {
+        question: "Does the Great Miami River actually affect mosquito numbers in Troy neighborhoods?",
+        answer: "Yes. The river's floodplain creates pockets of standing water after rain that persist for days or weeks, which gives mosquitoes the breeding habitat they need. Lower-elevation neighborhoods adjacent to the river corridor, particularly those east of downtown Troy, typically see more mosquito pressure than hillside areas.",
+      },
+      {
+        question: "How early should I look for paper wasp nests in Troy?",
+        answer: "April is the right time to look. Founding queens emerge in spring and begin building small, open-comb nests under eaves, in soffits, and inside gutter ends. At that stage, nests are the size of a golf ball and contain only a handful of wasps. Removing them then is far safer than dealing with a full colony of several hundred workers in August.",
+      },
+      {
+        question: "What is the best way to keep house mice out of my Troy home this fall?",
+        answer: "Exclusion is the most effective approach. House mice enter through gaps as small as a dime. Walk the exterior of your home in September, before temperatures drop, and seal any gap around pipes, utility lines, dryer vents, and crawlspace access points with copper mesh or caulk. Interior bait stations placed along walls in the garage, basement, and crawlspace catch any mice that do get in.",
+      },
+      {
+        question: "Are the stink bugs in Troy Miami County damaging my home?",
+        answer: "No. Brown marmorated stink bugs do not bite, breed indoors, or damage structures. They are a nuisance pest. The real problem is the quantity of them and the odor they produce when disturbed. Large aggregations in wall voids can mean dozens of insects emerging on warm winter days.",
+      },
+      {
+        question: "Why do odorous house ants appear in my Troy kitchen even in winter?",
+        answer: "Odorous house ants establish satellite colonies inside heated structures. If a colony has access to warmth and moisture, which is often the case near kitchen plumbing or in crawlspaces under heated floors, workers will forage year-round. A bait program that reaches the colony itself is more effective than surface spray treatments for long-term control.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Dayton", slug: "dayton" },
+      { name: "Piqua", slug: "piqua" },
+      { name: "Miamisburg", slug: "miamisburg" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Troy, OH | Mice, Stink Bugs & Mosquitoes | Miami County",
+    metaDescription: "Pest control in Troy, OH. Service for house mice, stink bugs, mosquitoes near the Great Miami River, paper wasps, and odorous house ants in Miami County.",
+  },
+
+  {
+    slug: "piqua",
+    name: "Piqua",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~21,000",
+    county: "Miami County",
+    climate: "cold-humid",
+    climateDriver: "Piqua sits on the Great Miami River north of Troy in Miami County, where Ohio's humid continental climate produces cold winters and warm, humid summers. The river corridor keeps local humidity elevated and creates standing water that supports mosquito breeding. Fall temperature drops trigger stink bug and cluster fly migration into heated structures.",
+    topPests: ["House mice", "Stink bugs", "Odorous house ants", "Paper wasps", "Cluster flies"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October-March",
+        note: "House mice move into Piqua's residential structures as temperatures fall in October. Older homes with crawlspaces and gaps in aging foundations are most susceptible.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September-November",
+        note: "Brown marmorated stink bugs are well established in Miami County. They congregate on exterior walls in fall and enter through utility gaps and window screen edges.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March-October",
+        note: "Odorous house ants forage indoors through the warm season. In Piqua, moisture around older plumbing in historic downtown structures creates persistent harborage.",
+      },
+      {
+        name: "Paper wasps",
+        serviceSlug: "wasp-control",
+        activeSeason: "April-October",
+        note: "Paper wasps nest under eaves and in soffits across Piqua neighborhoods. They increase foraging activity significantly in August as the colony reaches its seasonal peak.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September-April",
+        note: "Cluster flies overwinter in attics and wall voids in large numbers. They emerge on warm winter days and appear confused indoors at windows. In Ohio, they are a common but underappreciated fall pest.",
+      },
+    ],
+    localHook: "Piqua's historic downtown and the Ohio-Erie Canal heritage corridor include several older commercial and residential buildings with aging construction that gives cluster flies, house mice, and stink bugs easy access to overwintering spaces. The Great Miami River north of town adds moisture pressure through the warm season.",
+    intro: "Piqua sits right on the Great Miami River, and the city's pest season reflects that. Mosquitoes from low-lying areas along the river extend the outdoor nuisance season into September. When fall arrives, it brings a wave of insects looking for warm overwintering spaces: stink bugs pushing through any gap they can find, cluster flies packing into attics by the hundreds, and house mice slipping through foundation cracks. Odorous house ants are a spring and summer fixture in kitchens across the city. Tackling each of these at the right time in the season makes a real difference in how much you're dealing with by winter.",
+    sections: [
+      {
+        heading: "Cluster Flies in Piqua Homes and Attics",
+        body: "Cluster flies are one of the less-known fall pest problems in Ohio. Unlike house flies, they overwinter as adults in large numbers in attics and wall voids. In Piqua, the older housing stock along the canal corridor and in established residential neighborhoods gives them plenty of access. They emerge on warm sunny days in winter and appear at windows indoors. The solution involves sealing attic entry points before fall and, if they're already inside, using appropriately placed treatments in the overwintering space.",
+      },
+      {
+        heading: "Why House Mice Are a Year-Round Risk in Piqua",
+        body: "House mice are technically seasonal in their push to enter structures, but in Piqua's older homes they often establish year-round indoor colonies once they're in. A structure with gaps in the foundation, damaged crawlspace vents, or holes around plumbing can sustain a mouse population through all four seasons. Exclusion, blocking every entry point, is the only durable solution. Bait programs without exclusion reduce numbers temporarily but rarely eliminate the problem.",
+      },
+    ],
+    prevention: [
+      "Seal attic vents with fine mesh hardware cloth before September to prevent cluster flies from entering overwintering sites.",
+      "Inspect your crawlspace and foundation in early fall for gaps around pipes and utility lines, and seal them before mice move in.",
+      "Remove paper wasp nests in April while they are small, before the colony develops a full complement of defensive workers.",
+      "Check for moisture around basement pipes and under-sink areas, as odorous house ants track water sources as reliably as food.",
+    ],
+    costNote: "A pest inspection in Piqua typically costs $75 to $125. Cluster fly treatments for attics run $100 to $250 depending on attic size and access. Mouse exclusion and initial treatment programs average $150 to $300 for a standard home.",
+    faqs: [
+      {
+        question: "What exactly are cluster flies and why do they appear in my Piqua home in winter?",
+        answer: "Cluster flies are slightly larger than house flies, with a dark gray abdomen and golden hairs on the thorax. They overwinter as adults in large groups inside attic spaces and wall voids. On warm winter days they become active and drift toward light, which brings them to interior windows. They are parasites of earthworms as larvae, so homes near lawn and garden areas in Piqua are more likely to see them.",
+      },
+      {
+        question: "How do house mice get into Piqua homes built decades ago?",
+        answer: "Older homes in Piqua typically have more entry points than modern construction. Foundation cracks, gaps around utility pipes, deteriorated crawlspace vents, and weep holes in brick veneer are all common entry points. A mouse can compress its body to fit through a gap the size of a dime, which means even small defects in aging construction are usable entry points.",
+      },
+      {
+        question: "Why do I have so many stink bugs on my south-facing Piqua wall every September?",
+        answer: "Brown marmorated stink bugs are strongly attracted to warm surfaces before they seek overwintering sites. South-facing exterior walls heat up significantly in the afternoon sun, and stink bugs aggregate there by the dozens or hundreds in September and October. They are looking for gaps that lead to the warm interior of the wall or attic. Sealing those gaps in August prevents the entry even when the insects are aggregating on the surface.",
+      },
+      {
+        question: "Can odorous house ants damage my home structure?",
+        answer: "No. Unlike carpenter ants, odorous house ants do not damage wood or other structural materials. They are a sanitation and nuisance issue. Their name comes from the coconut-like odor they release when crushed. The problem in Piqua homes is their persistence in kitchens and bathrooms, where they contaminate food and surfaces.",
+      },
+      {
+        question: "Is it worth treating for paper wasps if the nest is under a high eave I can't easily reach?",
+        answer: "Yes, because late-season wasps near high eaves are often the ones that become a bigger problem. Colonies continue growing through August, and paper wasps become significantly more defensive in September. A technician with appropriate equipment can treat the nest safely. If left in place, the nest itself does not survive winter, but the fertilized queens overwinter nearby and often rebuild in the same location the following spring.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Troy", slug: "troy-oh" },
+      { name: "Dayton", slug: "dayton" },
+      { name: "Fairborn", slug: "fairborn" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Piqua, OH | Cluster Flies, Mice & Stink Bugs | Miami County",
+    metaDescription: "Pest control in Piqua, OH. Local service for cluster flies, house mice, stink bugs, paper wasps, and odorous house ants in Miami County homes.",
+  },
+
+  {
+    slug: "marysville-oh",
+    name: "Marysville",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~26,000",
+    county: "Union County",
+    climate: "cold-humid",
+    climateDriver: "Marysville sits in Union County northwest of Columbus, where the humid continental climate brings cold winters and warm, moderately humid summers. The mix of residential growth around the Honda Manufacturing plant and adjacent agricultural land creates edge habitat that sustains rodent populations and supports yellowjacket nesting through the warm season.",
+    topPests: ["House mice", "Norway rats", "Stink bugs", "Odorous house ants", "Yellowjackets"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October-March",
+        note: "House mice are the dominant rodent pest in Marysville's growing residential neighborhoods. Rapid development on former agricultural land pushes mice toward structures as their field habitat is removed.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, peak October-April",
+        note: "Norway rats follow agricultural and warehouse corridors in Union County. They burrow in fields adjacent to residential development and move into structures and compost areas in winter.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September-November",
+        note: "Brown marmorated stink bugs are present throughout Union County. Newer construction with larger unobstructed wall areas provides extensive overwintering sites.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March-October",
+        note: "Odorous house ants move indoors in spring and can be difficult to control without bait programs. They are common across Marysville's residential subdivisions.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "June-October",
+        note: "Yellowjackets nest in ground burrows in open lawn areas and in wall voids of structures. They are aggressive near nests from August through October as colonies reach peak size.",
+      },
+    ],
+    localHook: "Marysville is one of the fastest-growing cities in Ohio, anchored by the Honda of America Manufacturing plant, Union County's largest employer. The rapid residential expansion into former agricultural land regularly displaces field rodents, pushing house mice and Norway rats toward newly built neighborhoods and into landscaped areas adjacent to the development edge.",
+    intro: "Marysville is growing fast, and pest pressure grows with it. When agricultural fields get converted to residential subdivisions, the field mice and rats that lived there do not disappear. They move into adjacent yards, garages, and new home foundations. This is a known pattern in Union County, and it makes rodent management a regular concern for newer Marysville neighborhoods. Stink bugs are a fall fixture throughout Ohio. Yellowjackets nest in ground burrows across open lawns and become defensive in August. Odorous house ants show up in kitchens from spring through fall. Getting ahead of the seasonal rotation is simpler than reacting to each one as it arrives.",
+    sections: [
+      {
+        heading: "Rodent Pressure Around Marysville's Development Edge",
+        body: "As new subdivisions expand outward from Marysville's core, the disturbed land on the development edge creates a consistent source of rodent pressure. House mice and Norway rats displaced from agricultural habitat move toward structures. The problem is most acute in neighborhoods built within the last ten years, where landscaping is still sparse and the transition zone between field and subdivision is close. Exclusion on new construction and perimeter bait programs are the most practical controls.",
+      },
+      {
+        heading: "Yellowjacket Management in Union County Lawns",
+        body: "Yellowjackets frequently nest in the ground burrows left by moles or other animals in Marysville's open residential lawns. They can also establish colonies in wall voids of structures, which makes detection harder. Ground nests are particularly dangerous because a homeowner can disturb them accidentally while mowing without any visible warning. Nests identified in July or earlier can often be treated safely with appropriate products. August and September nests should be handled by a licensed technician.",
+      },
+    ],
+    prevention: [
+      "Walk the perimeter of new construction in fall and seal every gap around foundation plates, utility entries, and garage door frames before mouse season begins in October.",
+      "Do not place compost bins or bird feeders adjacent to the house, as both are strong attractants for Norway rats moving in from adjacent agricultural land.",
+      "Inspect the lawn in July for pencil-sized entry holes that indicate active yellowjacket ground nests and address them before colonies grow to peak size.",
+      "Seal window screen edges and utility penetrations in August to limit stink bug entry as fall aggregation begins.",
+    ],
+    costNote: "Rodent exclusion and treatment in Marysville typically costs $150 to $350 for initial service. Yellowjacket ground nest removal runs $75 to $175. Annual stink bug prevention treatments average $100 to $200. Ongoing pest management programs with quarterly visits start around $300 per year.",
+    faqs: [
+      {
+        question: "Why are newer Marysville subdivisions seeing so many mice?",
+        answer: "Rapid residential development in Union County converts agricultural fields where mice have lived in large populations. When that habitat is removed, the mice move outward toward adjacent yards and new construction. Newly built homes in Marysville's outer subdivisions sit directly adjacent to that disturbed land, which creates a sustained source of pressure that older, established neighborhoods do not face to the same degree.",
+      },
+      {
+        question: "Are Norway rats common in residential Marysville neighborhoods?",
+        answer: "They are more common in Marysville than in many comparable Ohio cities because of the agricultural land that surrounds the development edge. Norway rats follow grain corridors and will move into residential areas when field habitat is disturbed or when compost, bird feeders, or unsecured trash creates food sources nearby. Ground-floor gaps in structures and crawlspace entries are their typical access points.",
+      },
+      {
+        question: "How do I find a yellowjacket ground nest in my Marysville yard?",
+        answer: "Look for a steady stream of yellowjackets flying low and entering the ground at the same point, usually a hole about the diameter of a quarter. This is most visible on warm days from July through September when foragers are active. Avoid the area and do not attempt to treat the nest yourself during daylight hours, as yellowjackets will emerge aggressively from a disturbed ground nest.",
+      },
+      {
+        question: "Do stink bugs in Marysville enter newer homes as easily as older ones?",
+        answer: "In some ways, yes. Newer construction often has larger, unobstructed exterior wall surfaces that heat up significantly in fall sun and attract aggregating stink bugs. The construction joints in newer siding systems can also have small gaps that provide entry points. The difference is that newer homes have fewer incidental gaps, so sealing the known entry points, utility penetrations and window frames, is often sufficient.",
+      },
+      {
+        question: "What eco-friendly options exist for pest control in Marysville?",
+        answer: "Integrated Pest Management approaches prioritize exclusion, physical trapping, and targeted low-toxicity products over broad pesticide application. For rodents, this means sealing entry points first and using snap traps or enclosed bait stations rather than broadcast rodenticides. For yellowjackets, it means identifying and treating individual nests rather than area spraying. A licensed IPM practitioner can build a program around your specific concerns.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus" },
+      { name: "Delaware", slug: "delaware-oh" },
+      { name: "Dublin", slug: "dublin" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Marysville, OH | Rodents, Stink Bugs & Yellowjackets",
+    metaDescription: "Pest control in Marysville, OH. Local service for house mice, Norway rats, stink bugs, yellowjackets, and odorous house ants in Union County near Columbus.",
+  },
+
+  {
+    slug: "perrysburg",
+    name: "Perrysburg",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~24,000",
+    county: "Wood County",
+    climate: "cold-humid",
+    climateDriver: "Perrysburg sits south of Toledo on the Maumee River in Wood County, where the humid continental climate brings cold winters, significant lake-effect precipitation from Lake Erie, and warm, humid summers. The Maumee River corridor creates seasonal flooding and standing water that sustains mosquito populations, while the cold winters drive rodents and stink bugs toward heated structures each fall.",
+    topPests: ["House mice", "Stink bugs", "Norway rats", "Subterranean termites", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October-March",
+        note: "House mice are the most common fall and winter pest in Perrysburg's established residential neighborhoods. They enter through gaps in aging foundations and around utility penetrations as temperatures drop.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September-November",
+        note: "Brown marmorated stink bugs are well established in Wood County. They aggregate in large numbers on sun-exposed walls in fall and enter through any available gap to overwinter.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, peak October-April",
+        note: "Norway rats are associated with older sewer infrastructure near the Maumee River and can move into basements and crawlspaces in Perrysburg's older downtown and riverside neighborhoods.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-control",
+        activeSeason: "April-October, swarms April-June",
+        note: "Subterranean termites are present in Wood County, though pressure is lower than in southern Ohio. Older structures with wood-to-soil contact near the river are most exposed.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May-September",
+        note: "Maumee River flooding and low-lying areas in Perrysburg create standing water habitat for mosquitoes through the warm season. Lake Erie's proximity keeps humidity elevated and extends the breeding window.",
+      },
+    ],
+    localHook: "Perrysburg is the Wood County seat and one of the most desirable suburbs south of Toledo, known for its historic downtown near the Maumee River. The river is the city's defining geographic feature and the primary driver of its mosquito pressure, creating seasonal standing water in low-elevation neighborhoods each spring.",
+    intro: "Perrysburg is a well-established community with a pest profile shaped by the Maumee River and Lake Erie's climate influence. Mosquitoes are the warm-season frustration, with the river's floodplain creating standing water that breeds Culex and Aedes populations through summer. When fall arrives, stink bugs aggregate on exterior walls before pushing into wall voids, and house mice begin their annual search for warmth. Norway rats are a concern near the river corridor and older sewer infrastructure. Subterranean termites are present, particularly in older structures along the historic waterfront. A systematic approach to each of these, timed to the season, keeps them manageable.",
+    sections: [
+      {
+        heading: "Maumee River Flooding and Mosquito Season in Perrysburg",
+        body: "The Maumee River is the direct source of Perrysburg's most persistent warm-season pest issue. Seasonal flooding and post-rain pooling in low-elevation neighborhoods create standing water that supports mosquito breeding from May through September. Properties within a quarter mile of the river or its drainage channels are most affected. Barrier spray programs around the yard perimeter, combined with standing water elimination, provide the most practical level of seasonal control for residential properties.",
+      },
+      {
+        heading: "Fall Rodent Entry Points in Perrysburg Homes",
+        body: "House mice begin their push indoors when nighttime temperatures drop consistently below 50 degrees, typically in October in Wood County. They enter through gaps as small as a dime. In Perrysburg's older downtown neighborhoods and river-adjacent properties, Norway rats can also move from sewer corridors into basements. A proper exclusion survey identifies every entry point and addresses them with hardware cloth, copper mesh, or caulk. Interior monitoring stations then catch any mice that do enter before they establish a breeding population.",
+      },
+    ],
+    prevention: [
+      "Inspect the foundation, crawlspace vents, and utility entry points in September and seal gaps larger than a quarter-inch before rodents and stink bugs move in for fall.",
+      "Clear leaf debris from gutters and remove standing water in low-lying yard areas after every rain to reduce mosquito breeding near the Maumee River corridor.",
+      "Stack firewood at least 20 feet from the house and raised off the ground to reduce termite and rodent harborage near the structure.",
+      "Apply weather stripping to all exterior doors and seal the gap between the bottom of garage doors and the floor before October.",
+    ],
+    costNote: "Pest inspections in Perrysburg typically run $75 to $125. Rodent exclusion programs start at $150 to $350 for initial service. Mosquito barrier spray applications average $60 to $100 per visit. Termite inspections are often included with general pest inspections or run separately at $75 to $150.",
+    faqs: [
+      {
+        question: "How does the Maumee River affect pest pressure in Perrysburg specifically?",
+        answer: "The Maumee River creates two main pest effects in Perrysburg. First, seasonal flooding and persistent low-lying drainage create standing water habitat for mosquitoes through the warm season, affecting neighborhoods at lower elevations near the river. Second, the older sewer infrastructure near the historic riverfront provides harborage for Norway rats, which can move into adjacent basements and crawlspaces.",
+      },
+      {
+        question: "Are subterranean termites a real risk in Perrysburg or mainly a southern Ohio problem?",
+        answer: "Subterranean termites are present in Wood County, though the risk is lower than in southern Ohio. Perrysburg's older downtown structures and any home with wood-to-soil contact near the Maumee River corridor are the most exposed. Annual inspections are advisable for any home built before 1980 without a current termite bond.",
+      },
+      {
+        question: "What should I do if I find stink bugs already inside my Perrysburg walls this winter?",
+        answer: "Avoid disturbing or crushing them, as this releases the defensive odor. Use a vacuum to collect visible individuals and immediately empty the bag or canister outdoors. If stink bugs are emerging in large numbers from a specific wall or ceiling area, a technician can assess whether a void treatment is appropriate. The main intervention for next fall is sealing the entry points they used this year.",
+      },
+      {
+        question: "How serious is Norway rat risk in residential Perrysburg neighborhoods?",
+        answer: "In most of Perrysburg's residential areas, Norway rats are less common than house mice. The higher-risk areas are properties adjacent to the Maumee River corridor and those near older downtown infrastructure. Properties that have compost bins, bird feeders, or unsecured trash close to the structure are also at elevated risk regardless of location.",
+      },
+      {
+        question: "Does Lake Erie's proximity affect pest season length in Perrysburg?",
+        answer: "Yes, in a modest way. Lake Erie moderates temperatures in the Toledo area, which can extend the warm season slightly into fall and delay the first hard frost. This can give mosquitoes a few additional weeks of breeding time compared to inland Ohio locations at the same latitude. It also means fall pest activity, including stink bug migration, can stretch a bit later than in more inland communities.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Toledo", slug: "toledo" },
+      { name: "Findlay", slug: "findlay" },
+      { name: "Delaware", slug: "delaware-oh" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Perrysburg, OH | Rodents, Mosquitoes & Stink Bugs",
+    metaDescription: "Pest control in Perrysburg, OH. Local service for house mice, Norway rats, mosquitoes near the Maumee River, stink bugs, and termites in Wood County.",
+  },
+
+  {
+    slug: "miamisburg",
+    name: "Miamisburg",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~21,000",
+    county: "Montgomery County",
+    climate: "cold-humid",
+    climateDriver: "Miamisburg sits south of Dayton along the Great Miami River in Montgomery County, where the humid continental climate produces cold winters and warm, humid summers. Montgomery County is one of Ohio's heaviest areas for brown marmorated stink bug pressure. The Great Miami River corridor adds moisture and creates low-lying areas that support mosquito breeding and wolf spider habitat.",
+    topPests: ["House mice", "Stink bugs", "Odorous house ants", "Yellowjackets", "Wolf spiders"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October-March",
+        note: "House mice are the primary fall and winter pest in Miamisburg's established residential neighborhoods. They enter through gaps in siding, utility penetrations, and crawlspace vents.",
+      },
+      {
+        name: "Stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September-November",
+        note: "Montgomery County sees some of Ohio's heaviest brown marmorated stink bug pressure. Large aggregations form on exterior walls in September and October before insects push into attics and wall voids.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March-October",
+        note: "Odorous house ants are a persistent nuisance in Miamisburg kitchens and bathrooms, drawn by moisture and food sources. Bait programs are more effective than spray treatments for long-term control.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "June-October",
+        note: "Yellowjackets nest in ground burrows in open lawn areas across Miamisburg. They also establish wall void nests in structures. Colonies peak in August and September, when workers become defensive.",
+      },
+      {
+        name: "Wolf spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Spring-Fall, moving indoors in October",
+        note: "Wolf spiders are large, fast-moving ground hunters common in the Great Miami River lowlands. They move into basements and garages in fall seeking warmth. They do not spin webs but hunt actively.",
+      },
+    ],
+    localHook: "Miamisburg is home to the Miamisburg Mound, one of the largest conical effigy mounds in North America, built by the Adena culture more than 2,000 years ago. The mound sits on a wooded bluff above the Great Miami River, and the river corridor directly below it contributes to the wolf spider and mosquito pressure that residents in the lower neighborhoods experience each season.",
+    intro: "Pest pressure in Miamisburg tracks two patterns: what the Great Miami River brings and what Ohio's fall brings. The river corridor creates moist, low-lying habitat for wolf spiders and mosquitoes through the warm season. Montgomery County is consistently ranked among Ohio's worst areas for brown marmorated stink bugs, which begin massing on exterior walls in September. House mice follow the temperature drop, slipping into wall voids and crawlspaces. Yellowjackets nest quietly in ground burrows through summer and turn aggressive in August. Odorous house ants are the year-round kitchen problem. Each one has a clear treatment window. Missing it makes the job harder.",
+    sections: [
+      {
+        heading: "Why Miamisburg Has Such Heavy Stink Bug Pressure",
+        body: "Brown marmorated stink bugs are a statewide problem in Ohio, but Montgomery County consistently sees higher pressure than many other areas. The mix of agricultural land on the urban fringe, residential neighborhoods with large south-facing wall areas, and mature tree cover near the Great Miami River creates conditions that attract large aggregations in fall. Miamisburg homes with south-facing or west-facing exterior surfaces see the most insect activity. Sealing entry points before the end of August is the most effective intervention.",
+      },
+      {
+        heading: "Wolf Spider Season in Miamisburg Basements",
+        body: "Wolf spiders are ground hunters, not web spinners, and the Great Miami River lowlands near Miamisburg provide ideal habitat: moist soil, leaf litter, and abundant prey. They are large spiders, sometimes exceeding an inch in body length, which makes them alarming to encounter. In October they move toward warm structures and are commonly found in basements, garages, and crawlspaces. They are not medically significant in Ohio but bite defensively when cornered. Reducing clutter, sealing entry points, and sticky traps along baseboards are effective controls.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around utility penetrations, window frames, and crawlspace vents before September to limit both stink bug and mouse entry points.",
+      "Check the lawn in July for pencil-sized holes indicating yellowjacket ground nests, and treat them early before colonies reach peak size.",
+      "Reduce leaf litter and ground-level clutter in the garage and crawlspace to limit wolf spider harborage, especially near the river-adjacent low ground.",
+      "Fix dripping faucets and repair moisture around basement pipes to remove the conditions that draw odorous house ants indoors.",
+    ],
+    costNote: "Pest inspections in Miamisburg typically run $75 to $125. Stink bug prevention treatments average $100 to $200. Rodent exclusion and initial treatment programs cost $150 to $350. Yellowjacket nest removal is typically $75 to $175 depending on nest location.",
+    faqs: [
+      {
+        question: "Is the stink bug problem in Miamisburg really worse than in other Ohio cities?",
+        answer: "Montgomery County is consistently among Ohio's highest-pressure areas for brown marmorated stink bugs based on aggregation reports and monitoring data. The combination of agricultural edge habitat, mature residential neighborhoods with large wall surfaces, and the river corridor near Miamisburg contributes to that pressure. Residents near the river or adjacent to open land tend to see the most severe fall aggregations.",
+      },
+      {
+        question: "Are the wolf spiders I am finding in my Miamisburg basement dangerous?",
+        answer: "Wolf spiders in Ohio are not medically significant. They can bite defensively if handled or cornered, producing a minor reaction similar to a bee sting for most people. They do not have venom that causes systemic effects in healthy adults. The concern is usually their size and speed, which makes them alarming to encounter. They are most commonly found in basements and garages in Miamisburg in October and November as they move indoors.",
+      },
+      {
+        question: "Why do I get so many stink bugs inside my Miamisburg home even though I sealed the windows?",
+        answer: "Window frames are one entry point, but stink bugs also enter through gaps around utility pipes, attic vents, soffits, weep holes in brick veneer, and gaps at the top of foundation walls. A thorough exclusion survey looks at all exterior penetrations, not just windows. Even small gaps in soffit material or ridge vents give stink bugs access to the attic space.",
+      },
+      {
+        question: "How do I safely deal with a yellowjacket ground nest I found while mowing in Miamisburg?",
+        answer: "Stop mowing immediately and back away slowly. Mark the area and keep people and pets away during daylight hours. Ground nest treatment is safest done at night, when yellowjackets are inside the nest and less active. Use a product labeled for yellowjacket ground nests, applied directly into the opening. A licensed technician can handle the treatment safely if the nest is in a high-traffic area.",
+      },
+      {
+        question: "What is the connection between the Miamisburg Mound area and local wolf spider populations?",
+        answer: "The Miamisburg Mound sits on a wooded bluff above the Great Miami River, and the river lowlands below it provide exactly the habitat wolf spiders prefer: moist soil, leaf litter, decaying wood, and plentiful prey. Neighborhoods that back up against the river corridor or the wooded bluff area see more wolf spider activity than those in the developed flatlands. This is not a pesticide situation so much as a habitat situation, managed by exclusion and reducing ground-level harborage near the house.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Dayton", slug: "dayton" },
+      { name: "Beavercreek", slug: "beavercreek" },
+      { name: "Fairborn", slug: "fairborn" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Miamisburg, OH | Stink Bugs, Mice & Wolf Spiders",
+    metaDescription: "Pest control in Miamisburg, OH. Service for heavy stink bug pressure, house mice, yellowjackets, wolf spiders, and odorous house ants in Montgomery County.",
+  },
 ];

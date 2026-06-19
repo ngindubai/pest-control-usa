@@ -3129,4 +3129,408 @@ export const wisconsinCities: CityLocation[] = [
     metaDescription:
       "Stevens Point WI pest control for house mice, cluster flies, bed bugs, German cockroaches and boxelder bugs near UW-Stevens Point. Portage County Wisconsin River specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  {
+    slug: "middleton-wi",
+    name: "Middleton",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~21,000",
+    county: "Dane County",
+    climate: "cold",
+    climateDriver: "Western Dane County's cold continental climate with Lake Mendota watershed influence, creating consistent seasonal pest cycles driven by hard winters and warm humid summers.",
+    topPests: ["house mice", "odorous house ants", "mosquitoes", "boxelder bugs", "paper wasps"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through April",
+        note: "Middleton's hard Wisconsin winters push mice indoors earlier than in warmer states, with fall activity beginning in late September in many neighborhoods."
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through August",
+        note: "Ants trail reliably through Middleton's residential neighborhoods from spring thaw through late summer, particularly in areas with moist soils near retention features."
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through August",
+        note: "Lake Mendota watershed retention areas and stormwater features in western Dane County sustain mosquito populations through the summer months in Middleton neighborhoods."
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Fall boxelder bug aggregations are a predictable autumn event in Middleton, particularly on homes near mature boxelder and maple trees."
+      },
+      {
+        name: "Paper Wasps",
+        serviceSlug: "wasp-control",
+        activeSeason: "June through September",
+        note: "Paper wasps build colonies on Middleton eaves, deck railings, and outdoor structures each summer, with colonies reaching maximum size in August."
+      }
+    ],
+    localHook: "Lake Mendota's western watershed runs through Middleton's stormwater system, sustaining mosquito breeding habitat well into summer across the city's retention areas.",
+    intro: "Middleton sits just west of Madison on the Lake Mendota watershed, a Dane County suburb with a strong community identity, good schools, and a pest calendar that follows Wisconsin's seasons closely. Hard winters mean mice are motivated to come indoors by October. The Lake Mendota watershed's drainage features feed Middleton's stormwater retention areas, which sustain mosquitoes into August. Boxelder bugs arrive with September's first cold nights. This is a well-understood seasonal pest environment, and staying ahead of each phase rather than reacting to it makes a real difference in what homeowners deal with.",
+    sections: [
+      {
+        heading: "Mouse Prevention Before Wisconsin Winters",
+        body: "Middleton's cold winters are serious, and mice know it. House mice begin scouting for entry points into heated structures in late September, well before the first hard freeze. Foundation gaps, garage door seals, and utility penetrations are the primary targets. An exclusion inspection in September, before pressure peaks, catches entry points at the optimal time. Once mice are established inside during winter, active trapping and interior bait programs are needed alongside exclusion to resolve the problem."
+      },
+      {
+        heading: "Mosquitoes in the Lake Mendota Watershed",
+        body: "Middleton drains into the Lake Mendota watershed, and the stormwater retention ponds and low drainage areas distributed through the city's residential and commercial zones provide consistent mosquito breeding habitat. The spring melt fills these features early, and standing water persists in lower areas through June and July. Barrier treatments targeting vegetation where mosquitoes rest during daylight hours reduce active populations significantly, even when breeding sources are not all controllable."
+      },
+      {
+        heading: "Odorous House Ants in Western Dane County",
+        body: "Odorous house ants appear in Middleton kitchens and bathrooms reliably from spring thaw through August, trailing along edges and plumbing gaps. They establish colonies in wall voids and mulched planting beds around foundations. Consumer sprays disrupt trails but rarely reach colonies, which is why ant problems recur through the season after home treatment. A professional gel bait program placed along trailing paths transfers effectively to the colony and produces lasting results."
+      }
+    ],
+    prevention: [
+      "Inspect and seal your Middleton home's foundation perimeter in late September, paying particular attention to where utilities enter the foundation wall, which is the most commonly overlooked entry point.",
+      "Pull landscape mulch back from the foundation and ensure downspouts from your home drain at least 4 feet from the base to reduce the moisture that supports odorous house ant colonies.",
+      "Check eave lines and deck structures for early paper wasp nest starts in May and June, when removing a small nest takes seconds and requires no protective equipment.",
+      "Eliminate any standing water in yard features, low spots, or clogged gutters each week during June and July to reduce mosquito breeding near your Middleton home."
+    ],
+    costNote: "Residential pest control in Middleton runs $130 to $280 for a single-visit treatment. Seasonal mosquito programs for homes near Lake Mendota watershed features are typically $220 to $380 for three applications through the summer.",
+    faqs: [
+      {
+        question: "Why are there mosquitoes in my Middleton yard even though I am not close to Lake Mendota?",
+        answer: "Lake Mendota's watershed extends well west of the lake itself, and Middleton's stormwater system includes numerous retention ponds and low-drainage areas that fill from that watershed's runoff. These features exist throughout the city, not just near the lake. Even a quarter-acre retention pond near your neighborhood produces thousands of mosquitoes per week during peak season. You do not need to be near the lake to benefit from barrier treatments targeting the resting sites in your own yard."
+      },
+      {
+        question: "My Middleton neighbors use professional mosquito treatment and it seems to work. How does it actually reduce mosquitoes?",
+        answer: "Barrier treatments apply a residual product to the foliage, tall grass, and shaded areas where mosquitoes rest during daylight hours. Mosquitoes are not flying around constantly, they rest in protected spots between feeding activities. Treating those resting sites kills adults and disrupts the breeding cycle. It does not eliminate the source, but it dramatically reduces the active population in your immediate yard area, which is where exposure happens."
+      },
+      {
+        question: "Can I prevent ants in my Middleton kitchen without using chemical sprays?",
+        answer: "Yes, partly. Keep counters and sinks free of food residue, store dry goods in sealed containers, and fix any dripping faucets or moisture issues that attract ants. Diatomaceous earth placed along known entry paths provides physical control without chemical residue. For an established ant problem with multiple trails, gel baits placed along trailing paths by a professional are more effective than any spray approach and avoid the disruption that sprays cause."
+      },
+      {
+        question: "Are the boxelder bugs on my Middleton siding getting inside?",
+        answer: "Some will. Boxelder bugs exploring south-facing walls in September are actively seeking gaps to overwinter in. They will test every crack, caulk failure, and weep hole they find. If your exterior has any gaps around windows, under siding at the foundation line, or around utility entries, some will find them. Checking those specific areas with caulk or foam sealant in late August stops most of them. Those already inside will emerge individually on warm winter days and can simply be vacuumed up."
+      },
+      {
+        question: "What is the right time to call a pest control company in Middleton rather than trying to handle a problem myself?",
+        answer: "Call a professional when the same problem has returned after two or more self-treatment attempts, when you find evidence in multiple rooms or multiple seasons, when the pest involved poses health risks (rodents with evidence of nesting, stinging insects inside walls), or when you cannot identify the pest or how it is getting in. Many problems that seem solvable with a store product are actually entry-point issues that only exclusion resolves, and a professional inspection identifies those efficiently."
+      }
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Madison", slug: "madison" },
+      { name: "Sun Prairie", slug: "sun-prairie" },
+      { name: "Fitchburg", slug: "fitchburg" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Middleton, WI | Dane County",
+    metaDescription: "Lake Mendota watershed mosquitoes, fall mice, and boxelder bugs in Middleton, WI. Licensed pest control for Dane County's western suburbs."
+  },
+
+  {
+    slug: "marshfield",
+    name: "Marshfield",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~19,000",
+    county: "Wood County",
+    climate: "cold",
+    climateDriver: "Central Wisconsin's severe cold continental climate drives hard winters and strong rodent pressure, with rural-edge location adding deer mice and cluster fly concerns documented by UW Extension.",
+    topPests: ["house mice", "deer mice", "paper wasps", "odorous house ants", "cluster flies"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through April",
+        note: "Marshfield's hard central Wisconsin winters push house mice indoors in substantial numbers, with older residential neighborhoods near the city's edges seeing the earliest fall pressure."
+      },
+      {
+        name: "Deer Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Fall through spring",
+        note: "UW Extension has documented deer mouse presence and associated hantavirus concern in rural-edge Wood County neighborhoods, making professional identification important when rodent evidence is found."
+      },
+      {
+        name: "Paper Wasps",
+        serviceSlug: "wasp-control",
+        activeSeason: "June through September",
+        note: "Paper wasp colonies build throughout Marshfield's residential areas each summer, with outbuildings, garages, and Marshfield Clinic parking structures among common nesting sites."
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August",
+        note: "Ant activity begins later in Marshfield than in warmer parts of Wisconsin but is consistent through the summer, with kitchen and bathroom entries the most common complaint."
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October (entry), March through April (emergence)",
+        note: "Cluster flies are a documented overwintering pest in farm-adjacent Marshfield homes, gathering in attics and wall voids by the thousands and emerging in spring."
+      }
+    ],
+    localHook: "Central Wisconsin's severe winters and Marshfield's position near active farmland make cluster flies and deer mice two pest concerns that set this city apart from softer-climate Wisconsin communities.",
+    intro: "Marshfield is central Wisconsin's medical hub, home to Marshfield Clinic and a community built around healthcare, agriculture, and the realities of living in one of the colder parts of the state. Those realities include pest pressure that is directly tied to the climate and the land. Hard winters motivate mice to come indoors earlier and more aggressively than in milder states. Deer mice at the rural-suburban edge warrant attention because UW Extension has documented hantavirus concerns in Wood County farm-adjacent neighborhoods. Cluster flies, largely unknown in warmer regions, are a consistent fall challenge in homes near agricultural areas.",
+    sections: [
+      {
+        heading: "Deer Mice and Hantavirus Awareness in Wood County",
+        body: "UW Extension has specifically noted deer mouse presence and hantavirus concerns in central Wisconsin communities, particularly in homes that border agricultural land or woodlands. Deer mice differ from house mice in appearance (white belly, larger ears, bi-colored tail) and in the health risks they carry. If you find rodent evidence in a cabin, garage, or basement that has been closed up, do not sweep or vacuum dry droppings. Dampen them with a dilute bleach solution first, then clean while wearing a respirator. Professional identification of the rodent species is worth doing when deer mouse presence is possible."
+      },
+      {
+        heading: "Cluster Flies in Farm-Adjacent Marshfield Homes",
+        body: "Cluster flies are parasites of earthworms in their larval stage, which means agricultural soils near Marshfield support large populations each season. In fall, adult flies seek overwintering shelter in wall voids and attics of nearby homes, sometimes in enormous numbers that alarm homeowners when they emerge in spring warmth. They are harmless but deeply unpleasant in large groups. Exclusion in September is the prevention; insecticidal dust in attic spaces manages existing populations without heavy chemical exposure in living areas."
+      },
+      {
+        heading: "Winter Mouse Pressure in Marshfield",
+        body: "Central Wisconsin winters are not gentle, and house mice respond to falling temperatures by actively seeking entry into heated structures. Marshfield homes begin seeing increased mouse pressure in late September, a full month ahead of what warmer-state homeowners experience. Exclusion materials fail in cold weather because sealants contract and gaps reopen, so professional-grade metal flashing and hardware cloth on critical openings is more durable than caulk alone. Interior trapping alone without exclusion work will not resolve an active mouse problem in a Wood County winter."
+      }
+    ],
+    prevention: [
+      "Have a pest professional identify any rodent you find evidence of in a Marshfield rural-edge property, since deer mice and house mice require different management and deer mice carry hantavirus risk.",
+      "Seal attic vents with fine-gauge hardware cloth in August, before cluster flies begin their fall search for overwintering sites in September.",
+      "Use metal flashing and hardware cloth rather than foam sealant alone at foundation and utility entry points, since foam contracts in central Wisconsin's hard winters and reopens gaps mice can exploit.",
+      "Check for paper wasp nests in outbuildings and garages in May and June when colonies are small, since early-season removal is quick and safe compared to addressing a mature August colony."
+    ],
+    costNote: "Rodent control in Marshfield, including exclusion work appropriate for central Wisconsin winters, typically runs $200 to $400 for a residential property. Cluster fly attic treatments run $150 to $350 depending on attic access and volume of pest activity.",
+    faqs: [
+      {
+        question: "How do I know if the mice in my Marshfield property are deer mice or house mice?",
+        answer: "Look at the belly: deer mice have a distinctly white belly against a brown or grayish-brown back, and their tail is clearly two-toned, dark on top and white underneath. House mice are uniformly grayish-brown with a nearly hairless, scaly tail. Deer mice also have noticeably larger eyes and ears relative to their head size. If you are unsure, a professional can identify from droppings or a captured specimen. Given UW Extension's documentation of deer mouse and hantavirus concerns in Wood County, correct identification matters."
+      },
+      {
+        question: "Are cluster flies in my Marshfield attic dangerous to my family?",
+        answer: "No direct health risk. Cluster flies do not breed indoors, bite, or spread disease. The concern is comfort and numbers. A large cluster fly emergence in spring, when thousands wake from overwintering and pour into living spaces through attic hatches and light fixtures, is genuinely disorienting. Dead flies also accumulate and attract dermestid beetles over time. Exclusion and attic treatment before they enter in fall is the solution that makes the following spring manageable."
+      },
+      {
+        question: "Why does Marshfield seem to have such a severe mouse problem every fall compared to where I used to live?",
+        answer: "Two factors combine here. Central Wisconsin's winters are severe, which creates strong biological pressure for mice to find shelter. And Marshfield sits at the edge of active agricultural land, which means field mouse populations are substantial and nearby. When crops come off in October and field cover thins out, those populations move toward structures. This is a real and predictable pattern in Wood County communities, not a sign that anything is wrong with your home specifically."
+      },
+      {
+        question: "Should I be worried about hantavirus when cleaning up a Marshfield cabin that has been closed for the winter?",
+        answer: "Take precautions, yes. If deer mice have been present (look for bi-colored tails, white bellies), their droppings and nesting material can carry hantavirus. Do not sweep or vacuum dry material. Open windows and air the space for 30 minutes first. Dampen droppings with a 10 percent bleach solution, then wipe up wearing disposable gloves and an N95 respirator. Seal rodent entry points before the next closure period. UW Extension publishes a hantavirus cleanup guidance document that is worth reviewing."
+      },
+      {
+        question: "How do paper wasps get into the Marshfield Clinic parking garage area and should I avoid it?",
+        answer: "Paper wasps nest in any sheltered overhang, beam, or structural cavity, and parking garages offer ideal conditions: protected from rain, with plenty of elevated attachment points. They are not aggressive away from the nest and will not sting unless the nest is disturbed directly. The risk is inadvertently bumping a nest while reaching into a corner or overhead area. Property management is responsible for treating nests in commercial facilities. For your own home, check any garage ceiling and beam areas in May and June."
+      }
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Wausau", slug: "wausau" },
+      { name: "Stevens Point", slug: "stevens-point" },
+      { name: "Wisconsin Rapids", slug: "wisconsin-rapids" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Marshfield, WI | Wood County",
+    metaDescription: "Deer mice, cluster flies, and hard-winter rodent pressure in Marshfield, WI. Local pest control for Wood County homes near farm and woodland edges."
+  },
+
+  {
+    slug: "onalaska",
+    name: "Onalaska",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~20,000",
+    county: "La Crosse County",
+    climate: "cold",
+    climateDriver: "Mississippi River and La Crosse River marsh location in La Crosse County drives elevated mosquito pressure and fall rodent migration from surrounding agricultural areas.",
+    topPests: ["house mice", "mosquitoes", "boxelder bugs", "odorous house ants", "cluster flies"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note: "Onalaska's position between the Mississippi River edge and surrounding agricultural areas creates strong fall mouse migration pressure toward residential neighborhoods."
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through August",
+        note: "The Mississippi River backwaters and La Crosse River marsh provide extensive standing water habitat, making La Crosse County communities including Onalaska consistently mosquito-active."
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "The La Crosse area is known for abundant boxelder and silver maple trees, sustaining large local boxelder bug populations with reliable fall aggregations."
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August",
+        note: "Ant activity is consistent throughout the La Crosse area and enters Onalaska homes reliably through foundation and plumbing gaps from spring through summer."
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October (entry), spring (emergence)",
+        note: "Farm-adjacent Onalaska neighborhoods see cluster fly overwintering pressure similar to other La Crosse County communities near agricultural land."
+      }
+    ],
+    localHook: "The La Crosse River marsh immediately adjacent to Onalaska is one of the largest inland marsh complexes in western Wisconsin and a reliable mosquito production zone through July and August.",
+    intro: "Onalaska is the La Crosse County suburb immediately north of La Crosse city, sitting where the Mississippi River backwaters meet the upper end of the La Crosse River marsh. That geography defines the pest environment here more than anything else. The marsh and the Mississippi backwaters are among the most productive mosquito breeding habitats in western Wisconsin. Add the boxelder tree abundance that the La Crosse area is known for and a fall migration of mice from surrounding agricultural fields, and Onalaska's seasonal pest calendar writes itself. It is a genuinely beautiful place to live, and the pest situation is manageable when you know what is coming.",
+    sections: [
+      {
+        heading: "La Crosse River Marsh Mosquitoes in Onalaska",
+        body: "The La Crosse River marsh is one of western Wisconsin's most significant inland marsh complexes, and it sits directly adjacent to Onalaska's southern neighborhoods. The Mississippi River backwaters to the west add a second extensive water source. Both systems produce multiple generations of mosquitoes through the summer. Onalaska residents near the marsh edge or the river consistently report heavier pressure than those farther north and east in the community. Seasonal barrier programs make a measurable difference, but source proximity means ongoing management works better than any single treatment."
+      },
+      {
+        heading: "Fall Mouse Migration from Agricultural Areas",
+        body: "Onalaska's eastern and northern edges transition toward La Crosse County's agricultural land, and when crop fields are harvested in October, field mouse populations shift toward the nearest structures. Neighborhoods along the agricultural fringe report the first and heaviest mouse pressure each fall. Beyond harvest timing, cold snaps in late September reliably trigger movement even before harvest, so preparation before October is the right timeline. Exclusion inspections in September, identifying and sealing entry points before the main push begins, are the most cost-effective approach."
+      },
+      {
+        heading: "Boxelder Bugs in the La Crosse Area",
+        body: "The La Crosse area has a particularly strong boxelder bug culture, meaning local residents have largely made their peace with the annual fall aggregation, but that does not make it less real. South- and west-facing walls of Onalaska homes collect hundreds to thousands of the insects each September as they seek overwintering sites. Perimeter treatments in early September and sealing of exterior gaps are the intervention points that reduce how many make it inside. What is already on the wall in October is largely past the point of effective outdoor treatment."
+      }
+    ],
+    prevention: [
+      "Treat resting sites, which are shaded vegetation areas, not just open water, for mosquitoes near the La Crosse River marsh or Mississippi River edge in late May for best seasonal results.",
+      "Apply perimeter spray and seal exterior gaps in early September, before boxelder bug aggregations form on your Onalaska siding, since treatments after mass formation are far less effective.",
+      "Walk the foundation line of any La Crosse County farm-adjacent home in September with foam sealant and a flashlight, closing every gap larger than a pencil eraser before fall mouse migration begins.",
+      "Address any standing water in yard depressions, clogged gutters, or decorative water features weekly through June and July to avoid adding to the mosquito pressure from the marsh and river."
+    ],
+    costNote: "Mosquito barrier treatments in Onalaska near the marsh and river corridors typically run $90 to $160 per application. Seasonal programs of four applications are standard for homes with significant water proximity. Rodent control starts at $175 for single-family homes.",
+    faqs: [
+      {
+        question: "Is the mosquito problem in Onalaska really worse because of the La Crosse River marsh?",
+        answer: "Yes, meaningfully so. The La Crosse River marsh is one of western Wisconsin's larger inland wetland complexes, and it sits directly adjacent to Onalaska's southern neighborhoods. Combined with the Mississippi River backwaters to the west, Onalaska has two large standing-water systems producing mosquitoes through the summer. Homes near the marsh edge or the river report noticeably more pressure than those on the higher ground to the north and east."
+      },
+      {
+        question: "My Onalaska house backs up to farm fields. When exactly does mouse pressure start each fall?",
+        answer: "Two triggers matter: cold nights and harvest. When overnight temperatures drop into the 40s in late September, mice begin actively looking for warm shelter even before harvest. Then when corn and soybean fields come off in October, the field cover disappears and mice move more aggressively toward structures. For La Crosse County farm-adjacent properties, September is the right time to complete exclusion work, not October. By the time you hear mice in the walls, the entry points are already established."
+      },
+      {
+        question: "Can I do anything to reduce cluster flies in my Onalaska home without spraying pesticide in my attic?",
+        answer: "Exclusion is the primary alternative. Cluster flies enter through ridge vents, soffit gaps, and other attic openings in September. Screening or caulking those entry points before they begin aggregating in fall stops the population from establishing inside. Fly traps designed for cluster flies, placed in the attic, also reduce numbers without spray. If you have an existing large population, a professional application of insecticidal dust in the attic void is more targeted than a liquid spray and degrades before any living space exposure."
+      },
+      {
+        question: "Are the boxelder bugs in Onalaska the same as boxelder bugs elsewhere, or is the La Crosse area different somehow?",
+        answer: "Same species everywhere, but the La Crosse area and Onalaska specifically have an unusually high density of mature boxelder and silver maple trees, which are the host trees. More host trees equals a larger local population each season, which means the fall aggregations here can be larger than in communities with fewer of those tree species. The behavior is identical, but the scale can be more dramatic than what someone transplanted from a drier or less maple-heavy region has experienced before."
+      },
+      {
+        question: "Should I be concerned about the odorous house ants in my Onalaska kitchen this spring?",
+        answer: "Odorous house ants are a nuisance, not a health risk, but they do indicate that the colony has found both food and a path inside. If you are seeing a trail, there is an established route and a likely colony in a wall void or exterior planting bed nearby. Do not spray the trail, as this causes the colony to split and spread. Gel bait placed along the trail without disrupting it is the most effective approach. A professional program resolves most odorous house ant infestations in two to three weeks."
+      }
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "La Crosse", slug: "la-crosse" },
+      { name: "Janesville", slug: "janesville" },
+      { name: "Madison", slug: "madison" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Onalaska, WI | La Crosse County",
+    metaDescription: "La Crosse River marsh mosquitoes, fall mice, and boxelder bugs in Onalaska, WI. Local pest control for La Crosse County homes on the Mississippi corridor."
+  },
+
+  {
+    slug: "wisconsin-rapids",
+    name: "Wisconsin Rapids",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~18,000",
+    county: "Wood County",
+    climate: "cold",
+    climateDriver: "Central Wisconsin's cold continental climate with Wisconsin River corridor humidity and rural-agricultural surroundings driving strong rodent and overwintering pest pressure.",
+    topPests: ["house mice", "deer mice", "cluster flies", "odorous house ants", "paper wasps"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through April",
+        note: "Wisconsin Rapids' cold winters and rural-suburban edge create consistent fall mouse pressure, with paper mill district and river-adjacent properties seeing earlier activity."
+      },
+      {
+        name: "Deer Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Fall through spring",
+        note: "Wood County's rural-edge neighborhoods and properties near agricultural land may encounter deer mice, which UW Extension has documented in central Wisconsin farm regions as hantavirus carriers."
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October (entry), spring (emergence)",
+        note: "Central Wisconsin farm regions are documented cluster fly territory per UW Extension, and Wisconsin Rapids' proximity to agricultural land makes this a recurring overwintering pest in older buildings."
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "May through August",
+        note: "Ant activity is a consistent spring and summer presence in Wisconsin Rapids neighborhoods, entering through foundation gaps and kitchen plumbing penetrations."
+      },
+      {
+        name: "Paper Wasps",
+        serviceSlug: "wasp-control",
+        activeSeason: "June through September",
+        note: "Paper wasps build colonies on eaves, decks, and outbuildings throughout Wisconsin Rapids' residential areas each summer season."
+      }
+    ],
+    localHook: "Wisconsin Rapids' paper mill heritage left a riverfront of industrial-era buildings where cluster flies and mice have overwintered for generations, and older residential neighborhoods nearby share that legacy.",
+    intro: "Wisconsin Rapids is Wood County's Wisconsin River city, built around the paper industry and now a smaller community with a strong sense of its own history. The Wisconsin River runs right through the city, and the mill heritage is still visible in the older building stock along the riverfront. That history matters for pest control because older structures accumulate entry points that rodents and overwintering insects have been using for decades. Cluster flies are a Wood County tradition in farm-adjacent neighborhoods, deer mice are a UW Extension-documented concern on the rural edge, and mice come indoors reliably when central Wisconsin winters hit.",
+    sections: [
+      {
+        heading: "Cluster Flies in Wisconsin Rapids Farm-Adjacent Neighborhoods",
+        body: "UW Extension identifies cluster flies as a common overwintering pest in central Wisconsin farm regions, and Wisconsin Rapids sits squarely in that territory. Cluster fly larvae parasitize earthworms in agricultural soils, meaning farm-adjacent neighborhoods are downwind of large adult populations each fall. The flies enter attics and wall voids in September through ridge vents and any gap in the building envelope, sometimes in staggering numbers. They are harmless but unpleasant, and the key intervention is exclusion of attic venting in August before they begin aggregating."
+      },
+      {
+        heading: "Rodent Management Along the Wisconsin River Corridor",
+        body: "Wisconsin Rapids' Wisconsin River corridor includes older industrial and commercial infrastructure that has historically supported both house mice and Norway rats. Residential neighborhoods near the riverfront and older mill-era properties carry more potential entry points than newer construction. On the rural-suburban edge to the east and north, deer mice are a realistic possibility and a reason to treat rodent evidence in closed structures with caution. Species identification matters, since deer mice carry hantavirus risk and cleanup procedures differ."
+      },
+      {
+        heading: "Seasonal Ant and Wasp Activity in Central Wisconsin",
+        body: "Odorous house ants follow spring thaw into Wisconsin Rapids homes reliably from May onward. The city's older housing stock offers ample entry points through settled foundations and aging plumbing penetrations. Paper wasps build actively on eaves and deck structures through June and July, reaching maximum colony size in August. Both pests are best addressed early in the season, before populations peak, which is the consistent finding of professional pest managers working in Wood County."
+      }
+    ],
+    prevention: [
+      "Screen and seal attic ridge vents and soffit openings in August to prevent cluster fly entry before their September aggregation period begins in central Wisconsin.",
+      "If you find rodent evidence in a Wisconsin Rapids rural-edge property or a closed cabin, do not sweep or vacuum dry droppings before dampening with diluted bleach and wearing a respirator, in case deer mice are involved.",
+      "Check around the Wisconsin River corridor properties for gaps at the foundation level in early fall, as older riverfront-area buildings accumulate entry points that mice have learned to exploit.",
+      "Remove paper wasp nest starts from eaves in May or early June when they are thumbnail-sized and colonies are still small enough to handle without protective equipment."
+    ],
+    costNote: "Rodent control in Wisconsin Rapids runs $175 to $375 depending on property age, size, and the extent of exclusion work needed. Cluster fly attic treatments typically cost $150 to $300. Annual pest management programs combining rodent and insect services are available from local providers.",
+    faqs: [
+      {
+        question: "Why do I get so many flies in my Wisconsin Rapids home every spring, even though I keep it clean?",
+        answer: "Those are almost certainly cluster flies, not house flies. Cluster flies overwinter in wall voids and attic spaces by the thousands, entering in fall, and emerge when interior warmth increases in late winter and early spring. They have nothing to do with sanitation, they are simply seeking warmth. They come from agricultural earthworm habitat outside, not from anything inside your home. Exclusion of attic venting in August prevents next year's population. A vacuum handles those already emerging this spring."
+      },
+      {
+        question: "Is the Wisconsin River near Wisconsin Rapids connected to the rodent pressure my neighborhood sees?",
+        answer: "Yes, in the sense that the Wisconsin River corridor includes older infrastructure, riprap, and industrial heritage that has historically supported rodent populations. The riverfront and mill-era properties adjacent to the water are the highest-pressure areas. Residential neighborhoods near those areas can see mice that range in from river-corridor populations. Neighborhoods farther from the river and from commercial areas typically see more standard fall-pressure mice from surrounding agricultural land rather than river-associated rodents."
+      },
+      {
+        question: "How do I tell a cluster fly from a regular house fly in my Wisconsin Rapids home?",
+        answer: "Cluster flies are larger than house flies, moving sluggishly, especially in cool conditions. They have a golden or grayish-gold tinge to their thorax and tend to cluster together on sunlit windows or in groups rather than dispersing around the room like house flies. House flies are active and reactive, cluster flies are lethargic. If you find dozens to hundreds of slow-moving flies concentrated near windows or light sources in spring, they are cluster flies overwintering that have emerged from wall voids or attic spaces."
+      },
+      {
+        question: "Should I be concerned about hantavirus from mice in rural-edge Wisconsin Rapids neighborhoods?",
+        answer: "The concern is real but specific to deer mice rather than house mice. In Wood County farm-adjacent areas, deer mice may be present alongside the more common house mice. If you find evidence in a structure that has been closed (a garage, shed, or infrequently used room) and you are not certain which species is involved, treat the cleanup with deer mouse protocol: air the space for 30 minutes, wet droppings with dilute bleach before handling, wear gloves and an N95 respirator. UW Extension guidance is worth reading before any significant rodent cleanup in central Wisconsin."
+      },
+      {
+        question: "What is a reasonable pest control budget for a Wisconsin Rapids home near the river district?",
+        answer: "For a standard riverfront-area property with fall rodent pressure and cluster fly concerns, a reasonable annual budget is $350 to $650. This covers one or two professional rodent exclusion inspections, seasonal insect treatments, and the attic cluster fly work. Properties with more entry points due to age or construction may fall toward the higher end initially, with costs decreasing once major exclusion work is complete. Quarterly programs provide the most consistent coverage and are often priced at a discount versus individual service calls."
+      }
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Marshfield", slug: "marshfield" },
+      { name: "Stevens Point", slug: "stevens-point" },
+      { name: "Wausau", slug: "wausau" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Wisconsin Rapids, WI | Wood County",
+    metaDescription: "Cluster flies, deer mice, and cold-winter rodent pressure in Wisconsin Rapids, WI. Local pest control for Wood County homes near the Wisconsin River."
+  },
 ];

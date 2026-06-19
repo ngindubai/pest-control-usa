@@ -2705,4 +2705,307 @@ export const missouriCities: CityLocation[] = [
     metaDescription:
       "Nixa MO pest control for brown recluse spiders, house mice, mosquitoes, black widow spiders and German cockroaches. Christian County Ozark suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  {
+    slug: "rolla",
+    name: "Rolla",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~20,000",
+    county: "Phelps County",
+    climate: "cold-humid",
+    climateDriver: "Ozark plateau edge location with cold winters and humid summers, combined with significant rainfall, supports active termite and insect populations through the warm season.",
+    topPests: ["house mice", "odorous house ants", "yellowjackets", "stink bugs", "eastern subterranean termites"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note: "Rolla's position at the edge of the Ozark plateau means wooded, rocky terrain surrounds much of the city, providing mouse cover that transitions directly into residential yards."
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through September",
+        note: "Ants are a consistent spring and summer presence in Rolla, with colonies commonly established in the moist soils around the Missouri S&T campus and surrounding older neighborhoods."
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "June through October",
+        note: "Ground-nesting yellowjackets are particularly common in Phelps County, building large colonies in soil cavities and under concrete slabs through late summer."
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs invade Rolla homes in fall seeking overwintering sites, entering through any gap in the building envelope."
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-control",
+        activeSeason: "March through May (swarming), year-round (active)",
+        note: "Termite pressure is real across southern Missouri, and Phelps County properties, especially those with wood-to-soil contact or moisture issues, carry meaningful risk."
+      }
+    ],
+    localHook: "Missouri S&T's campus and Rolla's older neighborhoods sit on Ozark plateau edge terrain where rocky, wooded surroundings push yellowjackets and mice toward homes at the urban-woodland transition.",
+    intro: "Rolla is a university city with Ozark character: rocky hillsides, dense second-growth timber right at the edges of residential streets, and a campus community at Missouri University of Science and Technology that keeps the downtown lively year-round. The Ozark setting is beautiful and also honest about pest pressure. Wooded slopes around town mean yellowjackets nest in the ground readily and mice are never far from the back door. Southern Missouri's termite belt reaches Phelps County, and older campus-area properties deserve at least a periodic termite inspection. Rolla's pest environment reflects the Ozarks plainly.",
+    sections: [
+      {
+        heading: "Yellowjackets in Phelps County's Rocky Terrain",
+        body: "Ground-nesting yellowjackets thrive in the rocky, well-drained soils of the Ozark plateau edge, and Phelps County has no shortage of suitable terrain. Rolla homeowners frequently encounter colonies in lawn cavities, under concrete steps, and around landscape retaining walls. Colonies reach peak size in August and September, exactly when outdoor activity peaks, which creates real sting risk. Treatment should be done at night with a licensed applicator, as disturbed yellowjacket colonies are aggressive."
+      },
+      {
+        heading: "Termite Risk in the Southern Missouri Belt",
+        body: "Eastern subterranean termites are active across southern Missouri, and Phelps County falls within documented pressure zones. Rolla's older housing stock, particularly properties near the Missouri S&T campus with older construction and occasional deferred maintenance, carries elevated risk. Swarm events in March and April are the most visible sign. Annual inspections by a licensed termite professional are the minimum standard for wood-frame properties in this part of the state."
+      },
+      {
+        heading: "Fall Stink Bug and Mouse Invasion Season",
+        body: "September and October bring a one-two combination in Rolla: brown marmorated stink bugs seeking overwintering sites in wall voids and attics, followed closely by mice doing the same thing. Stink bugs enter through window frames, utility penetrations, and roof vents. Mice use foundation gaps, garage door seals, and any opening larger than a dime. Addressing both in a single pre-winter exclusion inspection is efficient and addresses the same root cause, which is gaps in the building envelope."
+      }
+    ],
+    prevention: [
+      "Have a licensed professional inspect for termite mud tubes at the foundation perimeter and in any crawl space at least every two years, given Phelps County's documented termite pressure.",
+      "Walk your yard in July and look for small soil mounds or irregular cavities near concrete edges, as these are early indicators of ground-nesting yellowjacket colonies before they reach dangerous size.",
+      "Install door sweeps and weatherstripping on all exterior doors before September, targeting both stink bugs and mice, which both exploit the same gap under an ill-fitting door.",
+      "Move any firewood stacks, debris piles, or landscape timbers away from the foundation and off direct soil contact, as these provide termite bridging and mouse cover simultaneously."
+    ],
+    costNote: "Termite treatment in Rolla ranges from $400 to $1,200 depending on property size and treatment method, with baiting systems on the lower end and liquid barrier treatments higher. Yellowjacket ground colony treatment typically runs $125 to $250 per colony.",
+    faqs: [
+      {
+        question: "Do properties near Missouri S&T in Rolla have higher termite risk than newer parts of town?",
+        answer: "Older properties in any location carry elevated termite risk because aging construction is more likely to have wood-to-soil contact, settled foundations, and moisture infiltration points that attract colonies. The campus-area neighborhoods in Rolla tend to have older housing stock, which correlates with higher inspection frequency recommendations. That said, termite risk across Phelps County is real regardless of building age, and any property with wood framing merits periodic inspection."
+      },
+      {
+        question: "Why are yellowjackets so much worse in Rolla than in the cities I have lived in before?",
+        answer: "The Ozark plateau edge terrain around Rolla offers exactly what ground-nesting yellowjackets prefer: rocky, well-drained soil with good cavity structure. Urban areas with compacted soils and more pavement simply have fewer suitable nesting sites. Phelps County's combination of wooded lots, landscape rock work, and older concrete structures creates prime habitat. The population density per acre of suitable suburban lot is genuinely higher here than in flat, heavily developed suburban areas."
+      },
+      {
+        question: "I found what looks like mud tubes on my Rolla foundation. Is that termites?",
+        answer: "Likely yes. Eastern subterranean termites build pencil-width mud tubes along foundation walls to travel between the soil colony and wood food sources while staying protected from open air. If you can break one open and see small, pale, soft-bodied insects inside, that confirms active termite presence. Even an empty tube warrants an inspection, as termites abandon and rebuild tubes and presence may be active nearby."
+      },
+      {
+        question: "Are stink bugs that get into my Rolla home over the winter actually doing damage?",
+        answer: "No structural or food damage, but they are a genuine nuisance. Brown marmorated stink bugs congregate in attics and wall voids over winter and emerge into living spaces on warm winter days, which startles homeowners and releases their unpleasant odor if disturbed. Large populations also attract predatory insects. Exclusion in September and October is the preventive solution; vacuuming without crushing is the management strategy for those already inside."
+      },
+      {
+        question: "Is it safe to treat for mice myself near the Missouri S&T area of Rolla where I have cats?",
+        answer: "Standard snap traps are safe around cats when placed in locations cats cannot access, such as behind appliances or inside bait stations that exclude larger animals. Anticoagulant rodenticides pose a secondary poisoning risk to cats if they eat a poisoned mouse. A licensed technician can design a program using tamper-resistant stations and placement strategies that protect your pets while addressing the mouse problem."
+      }
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Springfield", slug: "springfield" },
+      { name: "Jefferson City", slug: "jefferson-city" },
+      { name: "Columbia", slug: "columbia" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Rolla, MO | Phelps County Experts",
+    metaDescription: "Termites, yellowjackets, and fall stink bugs in Rolla, MO. Local pest control near Missouri S&T that knows Phelps County's Ozark edge pest pressure."
+  },
+
+  {
+    slug: "hannibal",
+    name: "Hannibal",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~17,000",
+    county: "Marion County",
+    climate: "cold-humid",
+    climateDriver: "Northeast Missouri's humid continental climate with Mississippi River floodplain humidity amplifying mosquito and rodent pressure along the historic waterfront.",
+    topPests: ["house mice", "Norway rats", "odorous house ants", "stink bugs", "yellowjackets"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note: "Hannibal's old downtown structures and riverfront properties have accumulated entry points over decades, making mice a persistent challenge in historic building stock."
+      },
+      {
+        name: "Norway Rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, peak fall through spring",
+        note: "Hannibal's Mississippi River port history and remaining riverfront infrastructure support Norway rat populations that are part of the city's long-term urban ecology."
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Older foundation construction in Hannibal's historic neighborhoods provides ample harborage and entry points for ant colonies through the spring and summer months."
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Brown marmorated stink bugs invade Hannibal's older homes each fall, with historic properties offering the most entry opportunities through aging window frames and stone foundations."
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "July through October",
+        note: "Yellowjackets nest in wall voids of older downtown structures and in the ground along Hannibal's limestone bluff terrain surrounding the historic district."
+      }
+    ],
+    localHook: "Hannibal's Mississippi River port heritage left a downtown of 19th-century buildings that are genuinely beautiful and also among the most mouse-accessible structures in northeast Missouri.",
+    intro: "Hannibal has a lot going for it: the Mississippi River, Mark Twain, a historic downtown with limestone bluffs rising behind it, and a small-city pride that is easy to appreciate. It also has a rodent situation that goes back as far as the port's history itself. Norway rats have lived along working riversides since the first warehouses went up, and the older building stock downtown offers those populations more entry opportunities than almost any modern suburb. Seasonal mosquitoes along the river backwaters and fall stink bug invasions round out a pest environment that is as historic as the city itself.",
+    sections: [
+      {
+        heading: "Rodents in Hannibal's Historic Downtown",
+        body: "The Mississippi River waterfront and the 19th-century commercial and residential buildings lining Hannibal's historic district have been providing Norway rat and house mouse habitat for well over a century. Stone foundations, aging mortar joints, cellar access points, and the proximity to the river's natural rat population create conditions that require active, ongoing management rather than a single treatment and done approach. Any business or residence in the historic core should budget for a quarterly rodent monitoring and exclusion program."
+      },
+      {
+        heading: "Mississippi River Mosquitoes and Backwater Habitat",
+        body: "Hannibal sits directly on the Mississippi, and the river's backwater areas and connected wetlands upstream and downstream of the city produce reliable mosquito populations through July and August. Properties on the river's edge or near the low-lying areas along Hannibal's northern waterfront see the heaviest pressure. River mosquitoes include species capable of long flights inland, so homes several blocks from the water can still see significant activity during peak season."
+      },
+      {
+        heading: "Stink Bugs and Yellowjackets in Aging Structures",
+        body: "Hannibal's older building inventory is a stink bug magnet in September. Brown marmorated stink bugs exploit every gap in aging window glazing, stone masonry, and wood trim that historic preservation hasn't yet addressed. Yellowjackets, meanwhile, nest readily in the void spaces within old walls and under limestone outcroppings along the bluffs above downtown. Both problems are manageable with a focused pre-fall inspection and sealing program."
+      }
+    ],
+    prevention: [
+      "Prioritize caulking and repointing mortar joints in any stone or brick structure before fall, as these are the primary entry points for both mice and stink bugs in Hannibal's historic building stock.",
+      "Ensure exterior trash and compost are in sealed, heavy-gauge containers, since Hannibal's Norway rat population is sustained partly by accessible food waste near the waterfront commercial area.",
+      "Install tight-fitting chimney caps and roof vent screens, which historic downtown properties often lack, to block stink bug and mouse access from above.",
+      "Check under concrete steps, around foundation plantings, and along retaining walls in July for signs of yellowjacket ground nesting before colonies reach maximum late-summer size."
+    ],
+    costNote: "Historic property rodent control in Hannibal often requires more extensive exclusion work than newer construction, with initial programs running $250 to $500 or more depending on the number of entry points. Mosquito treatments along the river corridor run $80 to $140 per application.",
+    faqs: [
+      {
+        question: "Is the rat problem in downtown Hannibal connected to the Mississippi River waterfront?",
+        answer: "Directly. Norway rats have inhabited working riverside environments since humans built ports along rivers, and Hannibal's waterfront heritage includes that history. The river's edge, storm sewer outfalls, and remaining warehouse infrastructure along the downtown waterfront support an established rat population. Control in historic Hannibal requires a combination of professional exterior bait stations, building exclusion work, and coordination between adjacent property owners, since rats range widely across shared infrastructure."
+      },
+      {
+        question: "Are the mosquitoes near the Mark Twain Lake and Hannibal's river edge worse than in inland Missouri towns?",
+        answer: "Yes, noticeably. The Mississippi River backwaters north and south of Hannibal hold standing water through summer that landlocked communities simply do not have. The river also attracts migratory bird species that some mosquito species follow. Hannibal residents living within a few blocks of the river or near the low-lying northern waterfront areas consistently deal with heavier pressure than those in the bluff neighborhoods above town."
+      },
+      {
+        question: "My Hannibal home is a historic property. Will pest control treatments damage the original materials?",
+        answer: "Licensed technicians are experienced with historic structures and use targeted, low-volume treatments that protect original materials. The bigger concern with historic properties is usually the exclusion work: sealing gaps in original windows, repointing masonry, and addressing areas where historic fabric is degraded. A technician familiar with older construction can identify the least intrusive sealing approach. We recommend discussing the historic designation with your technician before any exterior work."
+      },
+      {
+        question: "How do stink bugs get into old houses like mine in Hannibal?",
+        answer: "Through every small gap that decades of settling, weathering, and deferred maintenance have created. Original wood window frames that have shrunk away from their casings, mortar joints that have cracked or lost material, gaps around pipe penetrations in stone or brick walls, and aging door frames all provide entry. Brown marmorated stink bugs are persistent seekers and will probe a wall repeatedly. A thorough pre-fall inspection with targeted sealing dramatically reduces how many get in."
+      },
+      {
+        question: "What is the fastest way to deal with a yellowjacket nest in my Hannibal home's wall void?",
+        answer: "Call a professional. Yellowjackets nesting inside wall voids, which is common in Hannibal's older structures, are harder to treat than exterior nests. Spraying a consumer product into the void entrance usually agitates the colony without eliminating it and can drive them deeper into the wall. A licensed applicator will use dust formulations delivered directly into the void, which reach the colony more effectively. Evening treatment, when yellowjackets are clustered at the nest, gives the best outcome."
+      }
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "St. Louis", slug: "st-louis" },
+      { name: "Columbia", slug: "columbia" },
+      { name: "Jefferson City", slug: "jefferson-city" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Hannibal, MO | Marion County",
+    metaDescription: "Norway rats, Mississippi River mosquitoes, and stink bugs in historic Hannibal, MO. Local pest control for Marion County's riverfront buildings and homes."
+  },
+
+  {
+    slug: "arnold",
+    name: "Arnold",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~22,000",
+    county: "Jefferson County",
+    climate: "cold-humid",
+    climateDriver: "South St. Louis metro location with Meramec River floodplain humidity, warm summers, and documented termite and rodent pressure across Jefferson County's suburban edge.",
+    topPests: ["house mice", "Norway rats", "stink bugs", "odorous house ants", "eastern subterranean termites"],
+    pestProfile: [
+      {
+        name: "House Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note: "Arnold's Meramec River corridor and commercial strip development support house mouse populations that push into residential neighborhoods each fall."
+      },
+      {
+        name: "Norway Rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, peak fall",
+        note: "Commercial areas along Arnold's major corridors and proximity to Meramec River infrastructure create Norway rat habitat that borders residential neighborhoods."
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Jefferson County's suburban fringe position places Arnold homeowners squarely in the fall stink bug invasion zone across south St. Louis metro communities."
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Ants are active early in Arnold's warm spring conditions, entering through gaps in foundations and plumbing chases throughout residential neighborhoods."
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-control",
+        activeSeason: "March through May (swarming), year-round (active)",
+        note: "Jefferson County carries documented termite pressure, and Arnold's mix of older and mid-century housing along the Meramec corridor is at measurable risk without regular inspections."
+      }
+    ],
+    localHook: "The Meramec River corridor through Jefferson County has documented termite activity and rodent pressure that makes Arnold's suburban neighborhoods more pest-active than their tidy appearance suggests.",
+    intro: "Arnold is a solid Jefferson County suburb south of St. Louis, the kind of community that has a lot of mid-century ranch homes, newer subdivisions, and commercial development along the main corridors. The Meramec River runs along its northern edge, and that river history has a direct bearing on pest reality here. Termite pressure across Jefferson County is documented, and the Meramec corridor adds rodent habitat that pushes into residential areas come fall. Stink bugs hit every Jefferson County suburb hard in September. Arnold's pest environment is shaped by its position at the suburban edge of a major metro river system.",
+    sections: [
+      {
+        heading: "Termite Risk in Jefferson County",
+        body: "Eastern subterranean termites are an established presence across Jefferson County, and Arnold's housing stock, which includes a significant number of mid-century wood-frame homes, is at meaningful risk without regular inspections. The moist soils along the Meramec River corridor create favorable conditions for subterranean colonies. Homeowners who have not had a termite inspection in the past three years should schedule one, particularly if the property has any wood-to-soil contact, moisture issues, or mulched foundation plantings."
+      },
+      {
+        heading: "Meramec River Rodent Pressure in Arnold",
+        body: "The Meramec River corridor along Arnold's northern boundary supports Norway rat populations in river infrastructure and commercial areas, while house mice range more broadly through residential neighborhoods in fall. Homes backing up to undeveloped land or commercial properties along the main corridors see the most consistent pressure. Professional exclusion work identifies and seals the specific entry points each property has, rather than relying solely on interior traps or bait."
+      },
+      {
+        heading: "Stink Bug Season in Jefferson County's Suburbs",
+        body: "Brown marmorated stink bugs are a consistent September through November problem across the south St. Louis metro, and Arnold is fully in that zone. They enter through gaps around window frames, utility penetrations, and exterior light fixtures, aggregating in attics and wall voids over winter. The most effective prevention window is late August through mid-September, before the main invasion begins. Targeted exterior treatments and sealing work during that window produce noticeably fewer bugs inside through the winter."
+      }
+    ],
+    prevention: [
+      "Schedule a termite inspection if it has been more than two years since the last one, particularly for any Jefferson County property with wood framing, moisture issues, or soil contact at the foundation.",
+      "Clear mulch away from the foundation perimeter by at least 4 inches and extend downspouts to drain water well away from the base of the structure to reduce termite and ant attractants.",
+      "Seal gaps around exterior utility penetrations, cable entries, and HVAC lines in late August before stink bugs begin their fall search for overwintering sites.",
+      "Keep dumpsters and outdoor food waste tightly sealed and positioned away from the building, as food odors along Arnold's commercial corridors sustain the Norway rat populations that range into neighborhoods."
+    ],
+    costNote: "Termite treatments in Arnold run $500 to $1,500 depending on property size and treatment type. Rodent control programs start at $200 for a single-family home and vary based on the exclusion work required. Annual termite monitoring contracts are available from around $150 to $250 per year.",
+    faqs: [
+      {
+        question: "How do I know if my Arnold home has termites or just wood rot?",
+        answer: "Termite damage and wood rot can look similar on the surface, but there are differences. Termite damage produces a honeycomb or gallery pattern inside the wood, often with soil material or frass packed into channels. The wood will feel soft but may look intact from outside. Wood rot produces a crumbling, stringy texture and is usually obviously discolored. Mud tubes on foundation walls are conclusive for termites. A licensed termite inspector can tell you definitively and document what they find."
+      },
+      {
+        question: "Is the Meramec River edge of Arnold more at risk for Norway rats than neighborhoods farther south?",
+        answer: "Yes. Norway rats are associated with river infrastructure, commercial waste generation, and the storm sewer systems that connect to river outfalls. The neighborhoods closest to the Meramec corridor and adjacent commercial development along Arnold's main arteries see more rat activity than the residential streets farther south and west. If you live within a few blocks of commercial areas or the river edge, exterior bait stations maintained by a licensed applicator are a reasonable standard precaution."
+      },
+      {
+        question: "What should I do about the stink bugs already inside my Arnold home?",
+        answer: "Vacuum them up without crushing, using a vacuum you can immediately empty outside or a bag you can seal and remove. Crushing releases the odor, which is genuinely unpleasant in an enclosed space. Do not spray them, as dead stink bugs inside walls attract secondary beetles. For the ones you cannot reach, wait for them to emerge naturally on warm days and vacuum then. Prevention next August and September is the answer for future winters."
+      },
+      {
+        question: "My Arnold home was built in the 1960s. Should I be more concerned about termites?",
+        answer: "Yes, for a few reasons. Mid-century construction often used construction methods that left more wood-to-soil contact than current code requires. Sixty-year-old homes have also had more time to develop moisture infiltration, settling cracks, and deferred maintenance that creates termite entry points. Jefferson County's documented termite pressure makes regular inspections the responsible approach for any older wood-frame property. It does not mean you have termites, but it means you should know."
+      },
+      {
+        question: "Can I do my own ant control in my Arnold home, or should I call a professional?",
+        answer: "For a small ant trail in one location, consumer gel baits can work if applied correctly along the trail without disturbing it. The mistake most homeowners make is spraying, which kills foraging workers but does not reach the colony and often causes the colony to split and expand. If you have ants in multiple rooms, in multiple seasons, or if your efforts have not worked after two weeks, call a professional. Licensed applicators use formulations that transfer through the colony more effectively than consumer products."
+      }
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "St. Louis", slug: "st-louis" },
+      { name: "Kirkwood", slug: "kirkwood" },
+      { name: "Wildwood", slug: "wildwood" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Arnold, MO | Jefferson County",
+    metaDescription: "Termites, Meramec River rodents, and fall stink bugs in Arnold, MO. Local pest control for Jefferson County homes with licensed, experienced technicians."
+  },
 ];

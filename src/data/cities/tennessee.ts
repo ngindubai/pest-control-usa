@@ -4218,4 +4218,206 @@ export const tennesseeCities: CityLocation[] = [
     metaDescription:
       "Millington TN pest control for subterranean termites, mosquitoes, American cockroaches, fire ants and mice near Naval Support Activity Mid-South. Shelby County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  {
+    slug: "east-ridge",
+    name: "East Ridge",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~21,000",
+    county: "Hamilton County",
+    climate: "hot-humid",
+    climateDriver: "East Tennessee's hot, humid summers and mild winters in Hamilton County create year-round pest activity, with Chickamauga Creek watershed adding mosquito pressure and UT Extension documenting active termite swarming.",
+    topPests: ["eastern subterranean termites", "mosquitoes", "fire ants", "German cockroaches", "house mice"],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-control",
+        activeSeason: "March through May (swarming), year-round (active)",
+        note: "UT Extension documents active termite swarming in Hamilton County each spring, and East Ridge's position immediately east of Chattanooga places it in a high-pressure zone."
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Chickamauga Creek watershed running through and adjacent to East Ridge provides consistent mosquito habitat through the long Tennessee warm season."
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "fire-ant-control",
+        activeSeason: "April through October",
+        note: "Fire ants are well-established in Hamilton County and continue expanding northward in Tennessee, with East Ridge neighborhoods seeing active mound development through the warmer months."
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "East Ridge's dense residential and commercial development along I-75 supports German cockroach pressure in multi-family housing and food service establishments."
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note: "Mice move indoors during East Ridge's cooler months, with older residential construction offering more entry opportunities than newer builds."
+      }
+    ],
+    localHook: "Chickamauga Creek's watershed cuts through and around East Ridge, sustaining mosquito populations through Tennessee's long warm season from April well into October.",
+    intro: "East Ridge is Hamilton County's tight suburb immediately east of Chattanooga, connected by I-75 and sharing the urban pest environment that comes with that proximity. UT Extension is clear about Hamilton County termites: swarm events happen each spring and the pressure is real across the county. Chickamauga Creek's watershed keeps mosquito season long, running from April through October in most years. Fire ants have established firmly in Hamilton County and are still expanding north. This is a year-round pest management environment, not a seasonal one, and the warm-humid Tennessee climate means pest populations do not fully reset over winter the way they do in colder states.",
+    sections: [
+      {
+        heading: "Termite Pressure in Hamilton County",
+        body: "UT Extension specifically documents active termite swarming events in Hamilton County each spring, and East Ridge homeowners should treat this as a standing risk rather than a one-time concern. Eastern subterranean termites swarm when conditions are right in March through May, typically on warm days following rain. Seeing swarmers (winged termites) near windows or light sources inside a structure is a strong indicator of an active colony nearby. Annual inspections by a licensed termite professional and a monitoring or baiting system are the professional standard for any wood-frame property in Hamilton County."
+      },
+      {
+        heading: "Fire Ants in East Ridge Neighborhoods",
+        body: "Fire ants are fully established in Hamilton County and are documented as continuing their northward expansion in Tennessee. East Ridge yards see active mound development through the warm season, and fire ant stings are a genuine medical concern, particularly for children and pets. Mounds appear in open sunny areas: lawns, driveways, athletic fields. Individual mound treatments using liquid drench or granular bait are effective short-term, but broadcast treatment of the full yard is more durable. A licensed technician can recommend the appropriate scale of treatment for your property."
+      },
+      {
+        heading: "Mosquitoes and Cockroaches: Year-Round Pressure",
+        body: "Tennessee's long warm season gives mosquitoes an April through October window in most years, and the Chickamauga Creek watershed provides the standing water that sustains those populations through summer. German cockroaches are a year-round concern in East Ridge's multi-family housing and commercial corridor along I-75. Unlike outdoor pests that reduce in winter, German cockroaches maintain populations indoors through all seasons and require a different, more persistent treatment strategy than a single-visit spray."
+      }
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for any East Ridge property, given UT Extension's documentation of active swarming in Hamilton County, and ask about monitoring stations if your home lacks active protection.",
+      "Inspect your East Ridge lawn for fire ant mounds after any period of warm, wet weather, and treat new mounds immediately before colonies reach the size where stings become a regular risk.",
+      "Remove standing water sources weekly from April through October to reduce Chickamauga Creek watershed mosquito pressure in your immediate yard.",
+      "If you live in an East Ridge apartment complex, report cockroach sightings to management promptly, since German cockroach infestations in multi-unit buildings spread through shared plumbing and require building-wide coordination to resolve."
+    ],
+    costNote: "Termite treatment in Hamilton County ranges from $500 to $1,500 depending on structure size and method, with annual monitoring contracts available from $150 to $275. Mosquito seasonal programs run $250 to $450. Fire ant broadcast treatment for a standard lot runs $80 to $200.",
+    faqs: [
+      {
+        question: "When do termites typically swarm in East Ridge?",
+        answer: "UT Extension documents Hamilton County termite swarming peaking in March through May, typically on warm, humid days after rain events. The swarm itself is brief, often over in 30 to 40 minutes, but the presence of swarmers indicates a mature colony nearby. If you find discarded wings or live swarmers near windows, foundation walls, or inside the structure, treat it as an active sign and schedule an inspection promptly. Swarmers themselves do not eat wood, but they indicate a colony that does."
+      },
+      {
+        question: "Are the fire ants in my East Ridge yard dangerous to my children?",
+        answer: "Fire ant stings are genuinely painful and, in cases of allergy, potentially serious. Fire ants sting repeatedly, unlike bees that sting once, and a disturbed mound will result in multiple stings quickly. Children who step on or play near a mound are most at risk. The venom produces an immediate burning sensation and typically a white pustule forms within 24 hours. For children or adults with known insect sting allergies, the presence of fire ant mounds in a frequently used yard is a reason to treat promptly and carry an epinephrine auto-injector as a precaution."
+      },
+      {
+        question: "Why does Chickamauga Creek increase mosquito pressure in East Ridge?",
+        answer: "Chickamauga Creek and its watershed collect and hold water through the wet Tennessee spring and summer, creating reliable standing water habitat in low-lying areas adjacent to and downstream from the creek. Mosquito species including Aedes albopictus (the Asian tiger mosquito, which bites aggressively in daylight) breed in any standing water volume as small as a bottle cap. Creek corridor neighborhoods see more pressure because they are closer to productive breeding sites. Barrier treatments target resting adults in shaded vegetation, reducing the active population even when source water cannot be eliminated."
+      },
+      {
+        question: "I saw what I think were termite swarmers in my East Ridge home in April. What do I do now?",
+        answer: "Call a licensed pest professional for an inspection within the week. Do not spray the swarmers, as that does not address the colony and makes it harder to assess the situation. Save a few of the insects or photograph them clearly so the inspector can confirm the species. If they are eastern subterranean termites, the inspector will look for mud tubes, damaged wood, and moisture conditions that explain the colony's location. The swarm event is over by the time you call, but the colony is still active."
+      },
+      {
+        question: "Is East Ridge's German cockroach problem related to being next to Chattanooga?",
+        answer: "Proximity to a larger urban area does correlate with German cockroach pressure, since cockroach populations move through shared infrastructure and are sustained by the food waste and warm building environments that commercial activity generates. East Ridge's position along the I-75 commercial corridor means it shares some of that pressure pattern with Chattanooga. In multi-family housing specifically, cockroach populations are mobile between connected units regardless of what municipality the building is in. Building-wide treatment programs, not single-unit approaches, are the effective standard."
+      }
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Chattanooga", slug: "chattanooga" },
+      { name: "Cleveland", slug: "cleveland-tn" },
+      { name: "Kingsport", slug: "kingsport" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in East Ridge, TN | Hamilton County",
+    metaDescription: "Termites, Chickamauga Creek mosquitoes, and fire ants in East Ridge, TN. UT Extension-aligned pest control for Hamilton County homeowners east of Chattanooga."
+  },
+
+  {
+    slug: "mcminnville",
+    name: "McMinnville",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~14,000",
+    county: "Warren County",
+    climate: "hot-humid",
+    climateDriver: "Upper Cumberland Tennessee's hot, humid summers and mild winters in Warren County, with Collins River and Barren Fork Creek floodplains sustaining mosquitoes and supporting active termite populations.",
+    topPests: ["eastern subterranean termites", "mosquitoes", "fire ants", "house mice", "carpenter ants"],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-control",
+        activeSeason: "March through May (swarming), year-round (active)",
+        note: "UT Extension highlights termite pressure across Middle Tennessee including Warren County, and McMinnville's wooden nursery infrastructure and older housing stock both carry meaningful risk."
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Collins River and Barren Fork Creek floodplains around McMinnville provide extensive standing water habitat through Tennessee's long warm season."
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "fire-ant-control",
+        activeSeason: "April through October",
+        note: "Fire ants are established in Warren County and are a consistent concern in McMinnville's residential lawns, nursery operations, and public green spaces."
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note: "McMinnville's cooler months bring mice indoors, with older residential properties and nursery-adjacent areas seeing the most consistent pressure."
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are a structural concern in wood-rich McMinnville, particularly in older homes and in any structure near the nursery district's abundant wood debris and mulch."
+      }
+    ],
+    localHook: "McMinnville's status as the nursery capital of the world means the city is surrounded by greenhouse operations and wholesale nursery acreage, and that wood-rich, mulch-heavy environment is a direct driver of local carpenter ant and termite pressure.",
+    intro: "McMinnville is the Warren County seat and holds a distinction few American cities can claim: it is the wholesale nursery capital of the United States. Tennessee's wholesale nursery industry centers on Warren County, and McMinnville's surrounding landscape is greenhouse operations, nursery fields, and container yards as far as you can see in every direction. That industry is the economic backbone and also a meaningful factor in local pest pressure. Wood, mulch, and organic material throughout the nursery district create conditions that termites and carpenter ants find favorable. The Collins River and Barren Fork Creek add mosquito habitat. This is a city where pest biology and local industry overlap in interesting ways.",
+    sections: [
+      {
+        heading: "Termites and Carpenter Ants in the Nursery Capital",
+        body: "McMinnville's wholesale nursery industry surrounds the city with wood materials, mulch, and organic debris that eastern subterranean termites and carpenter ants both exploit. UT Extension documents termite pressure across Middle Tennessee including Warren County, and McMinnville's proximity to the nursery industry's abundant wood infrastructure elevates that risk for residential properties near nursery operations. Carpenter ants are a separate but related concern, excavating galleries in moist or decaying wood and causing structural damage over time. Any McMinnville homeowner near nursery operations should schedule regular inspections for both."
+      },
+      {
+        heading: "Collins River and Barren Fork Creek Mosquito Season",
+        body: "The Collins River and Barren Fork Creek both have active floodplains that fill during spring rains and hold water through early summer, providing reliable mosquito breeding habitat from April onward. Tennessee's long warm season means mosquito activity continues into October in most years. Properties near either waterway or in the lower-elevation areas between them see extended and elevated pressure. Barrier treatments targeting resting vegetation around the property significantly reduce active populations even when nearby breeding sites cannot be eliminated."
+      },
+      {
+        heading: "Fire Ants in Warren County's Residential and Nursery Areas",
+        body: "Fire ants are well-established in Warren County and are an active concern both in residential McMinnville yards and in the nursery operations surrounding the city. Mounds appear in open, sunny areas, including lawns, driveways, and landscape edges. The nursery industry's frequent soil movement and container operations can inadvertently movefire ant colonies between sites. For residential yards, broadcast bait treatment applied in spring and fall gives more lasting control than individual mound treatments, which address symptoms without reducing the overall yard population."
+      }
+    ],
+    prevention: [
+      "Schedule a termite and carpenter ant inspection annually if your McMinnville property is near nursery operations, given Warren County's documented termite pressure and the wood-rich nursery environment.",
+      "Treat fire ant mounds as soon as they appear in your McMinnville yard in spring, and consider a full broadcast bait application in April and again in September for lasting yard-wide control.",
+      "Clear mulch from direct foundation contact and keep any wood debris, nursery containers, or landscape timbers well away from the house to reduce termite and carpenter ant bridging to your structure.",
+      "Eliminate standing water in low yard areas and check gutters weekly from April through October to reduce mosquito breeding pressure from the Collins River and Barren Fork Creek watershed drainage."
+    ],
+    costNote: "Termite treatment in McMinnville runs $500 to $1,400 depending on structure size and treatment method. Annual monitoring contracts start around $150. Mosquito seasonal programs near the Collins River corridor typically run $250 to $425 for the season.",
+    faqs: [
+      {
+        question: "Does McMinnville's nursery industry make termite risk worse for nearby homeowners?",
+        answer: "It is a contributing factor. The wholesale nursery operations surrounding McMinnville involve large volumes of wood materials, mulch, and organic debris that sustain termite populations in the surrounding soil. Properties adjacent to nursery operations have more consistent termite pressure in the immediate environment. UT Extension documents termite pressure across Middle Tennessee including Warren County regardless of nursery proximity, but homes near the nursery district are at the higher end of local risk and benefit from more frequent inspection."
+      },
+      {
+        question: "When do termites swarm in McMinnville and what should I do if I see them?",
+        answer: "Eastern subterranean termites in Warren County typically swarm from late March through May, on warm days with high humidity following rain events. The swarm is brief, usually 20 to 40 minutes. If you see winged insects emerging from the soil, from wood structures, or from inside your home near windows or light fixtures, collect a few in a sealed bag and call a licensed pest professional the same day. Finding discarded wings in window sills is a common post-swarm indicator. Either way, schedule an inspection promptly."
+      },
+      {
+        question: "How do carpenter ants differ from termites, and are they in McMinnville homes?",
+        answer: "Carpenter ants excavate wood to nest but do not eat it, leaving clean sawdust-like frass outside galleries. Termites consume wood, leaving galleries packed with soil material. Carpenter ants in McMinnville are attracted to moist or softened wood, often indicating a moisture problem in the structure. Both are structural concerns, but they need different treatment approaches. If you find large black ants inside your home in spring, particularly near windows or in the bathroom, have a professional identify whether the source is an interior colony in wood or foragers from an exterior nest."
+      },
+      {
+        question: "Are fire ants near the Collins River area of McMinnville more aggressive than elsewhere?",
+        answer: "Fire ant aggression is consistent across colonies regardless of location. What varies is density and mound visibility. The Collins River floodplain and adjacent low-lying areas create disturbed soil conditions after flooding events, which fire ants colonize quickly. After a high-water event, new mound development in riverside areas of McMinnville can appear faster than in stable upland yards. Flooded mounds do not die, they float as a raft and re-establish immediately when water recedes, which surprises people who assume flooding kills fire ant colonies."
+      },
+      {
+        question: "Is mosquito season really as long in McMinnville as people say?",
+        answer: "Yes. Warren County's Upper Cumberland location and McMinnville's elevation moderate the extremes somewhat, but Tennessee's overall climate gives mosquitoes an active window from April through October in most years. The Collins River and Barren Fork Creek floodplains extend that season by providing standing water well into summer. A seasonal barrier program in McMinnville realistically covers five to six months of meaningful pressure, compared to two to three months in northern states. Many McMinnville residents treat in May, July, and September as a three-treatment seasonal program."
+      }
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Murfreesboro", slug: "murfreesboro" },
+      { name: "Cookeville", slug: "cookeville" },
+      { name: "Tullahoma", slug: "tullahoma-tn" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in McMinnville, TN | Warren County",
+    metaDescription: "Termites, Collins River mosquitoes, and fire ants in McMinnville, TN. Local pest control for Warren County's nursery capital and surrounding communities."
+  },
 ];
