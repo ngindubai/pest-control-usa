@@ -1,10 +1,13 @@
+"use client";
+
 import Script from "next/script";
 import { GA_MEASUREMENT_ID } from "@/lib/gtag";
 
 /**
  * Injects the Google Analytics 4 gtag.js snippet.
- * Rendered once in the root layout — fires after the page becomes interactive
- * so it never blocks first paint.
+ *
+ * MUST be a Client Component — next/script with strategy="afterInteractive"
+ * is silently dropped when rendered from a Server Component (Next.js 15+).
  */
 export function GoogleAnalytics() {
   return (
