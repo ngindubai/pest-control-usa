@@ -3834,4 +3834,228 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaTitle: "Pest Control in Hanover, PA | York County Stink Bugs",
     metaDescription: "Penn State-documented stink bug epicenter in York County, PA. Expert pest control in Hanover for BMSB, termites, mice, and yellowjackets near Maryland border."
   },
+  {
+    slug: "washington-pa",
+    name: "Washington",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~14,000",
+    county: "Washington County",
+    climate: "temperate",
+    climateDriver:
+      "Washington sits in southwest Pennsylvania's Appalachian foothills, where the temperate climate delivers cold winters and warm, humid summers. The area is heavily affected by the brown marmorated stink bug, which is well established across Pennsylvania. Eastern subterranean termites are documented in Washington County. Natural gas and shale development has brought new infrastructure that can influence rodent and pest movement through disturbed land.",
+    topPests: [
+      "Brown Marmorated Stink Bugs",
+      "Eastern Subterranean Termites",
+      "House Mice",
+      "Carpenter Ants",
+      "Spotted Lanternfly",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter indoors",
+        note: "Pennsylvania has been one of the most severely affected states for brown marmorated stink bugs since the species established in the state in the 1990s. Washington County in southwest Pennsylvania experiences significant fall overwintering pressure, with stink bugs entering wall voids and attics through any exterior gap.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active seasonally",
+        note: "Eastern subterranean termites are documented throughout Washington County. Washington's Appalachian foothills setting, with its moist soils and forested areas, supports active termite populations. Washington and Jefferson College's older campus buildings and the surrounding residential historic districts carry elevated risk.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through March",
+        note: "Southwest Pennsylvania's cold winters drive mice into Washington's older residential and commercial buildings from October through March. The city's proximity to wooded and agricultural areas on its edges amplifies fall pressure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are active in Washington's wooded residential areas through the warm season, nesting in moisture-damaged wood in older homes and in the mature trees common in established neighborhoods.",
+      },
+      {
+        name: "Spotted lanternfly",
+        serviceSlug: "pest-control",
+        activeSeason: "Nymphs May through July, adults August through November",
+        note: "Spotted lanternfly is now established in southwest Pennsylvania including Washington County. While primarily an agricultural and nuisance pest, it can accumulate in large numbers on residential vegetation and structures.",
+      },
+    ],
+    localHook:
+      "Washington is home to Washington and Jefferson College, one of the oldest liberal arts colleges west of the Allegheny Mountains, and the city's historic neighborhoods reflect its role as a center of southwest Pennsylvania since the 1700s. Those same historic homes are now in one of Pennsylvania's established stink bug zones, with fall overwintering pressure that is among the most intense in the state.",
+    intro:
+      "Washington, PA has a straightforward pest environment driven by three things: stink bugs in fall, termites in the soil, and mice in winter. Pennsylvania is one of the states most severely affected by brown marmorated stink bugs, and Washington County experiences the fall overwintering pressure that defines pest control for many homeowners here. Eastern subterranean termites are active in the Appalachian foothills soils around Washington. Cold southwest Pennsylvania winters drive mice into older buildings from October through March with the reliability of the season. Carpenter ants work the warm months. Spotted lanternfly has now established in the county and represents a new nuisance particularly on grapevines and ornamental trees.",
+    sections: [
+      {
+        heading: "Stink Bugs in Southwest Pennsylvania",
+        body: "The brown marmorated stink bug established in Pennsylvania in the late 1990s and spread rapidly across the state. Southwest Pennsylvania, including Washington County, has had more than two decades to build up population density. Stink bugs aggregate on exterior walls in September, triggered by shorter days, and actively probe for gaps around window frames, utility penetrations, soffit vents, and any crack in the building envelope. The effective intervention window is late August through mid-September: apply a residual exterior treatment to south and west-facing walls and seal the most significant entry points before peak aggregation. Post-October intervention addresses the symptom rather than preventing the fall population from establishing in wall voids for winter.",
+      },
+      {
+        heading: "Termites, Mice, and Spotted Lanternfly in Washington County",
+        body: "Eastern subterranean termites in Washington County are a real risk for the older construction that defines much of the city. The Appalachian foothills setting keeps soils moist, which sustains termite activity through the warm season. Annual inspections are appropriate for any Washington property that has not had recent coverage. House mice from the surrounding wooded and agricultural areas push into heated structures in October with predictable force. A September exclusion inspection seals the primary entry points before the main fall push. Spotted lanternfly is now established in southwest Pennsylvania and while it does not damage structures, it can be a significant nuisance in yards with tree-of-heaven or grapevines and is worth managing to reduce populations on the property.",
+      },
+    ],
+    prevention: [
+      "Apply a residual exterior treatment to south and west-facing walls in late August and seal window frame and utility gaps before September to prevent stink bug overwintering in Washington County.",
+      "Schedule a termite inspection if it has been more than two years, given eastern subterranean termite activity in Washington County's moist Appalachian foothills soils.",
+      "Complete foundation exclusion work in September to intercept mice before southwest Pennsylvania's fall cold pushes them into heated structures.",
+      "Remove tree-of-heaven plants from the property where possible, as they are spotted lanternfly's preferred host and attract population concentrations.",
+    ],
+    costNote:
+      "Pest control in Washington, PA starts with a free inspection. Stink bug exterior treatment is a late summer annual service. Termite protection plans are recommended for older properties. Mouse exclusion is an annual fall priority. Spotted lanternfly management on residential properties is an emerging seasonal service.",
+    faqs: [
+      {
+        question: "How bad are stink bugs in Washington, PA?",
+        answer:
+          "Pennsylvania is one of the most severely affected states in the country for brown marmorated stink bugs, and southwest Pennsylvania including Washington County has had over 20 years to build up population density since the species established here. Homeowners in Washington County routinely experience significant fall entry events. The key is the timing of treatment and exclusion: late August through mid-September is the window that prevents the overwintering population from establishing in wall voids.",
+      },
+      {
+        question: "Is spotted lanternfly a serious pest for Washington homeowners?",
+        answer:
+          "Spotted lanternfly is now established in Washington County. It is not a structural pest and does not directly damage homes. However, it can accumulate in large numbers on ornamental trees and grapevines, produces honeydew that promotes mold growth on surfaces below, and is a significant nuisance in outdoor living areas. Removing tree-of-heaven from the property reduces attractant habitat. Licensed applicators can treat infested trees with appropriate products.",
+      },
+      {
+        question: "Are termites active in Washington County?",
+        answer:
+          "Yes. Eastern subterranean termites are documented throughout southwest Pennsylvania including Washington County. The Appalachian foothills' moist soils and the area's older housing stock create real risk. Any property in Washington that has not had a recent termite inspection should have one, particularly if there is older construction, crawlspaces, or wood near grade.",
+      },
+      {
+        question: "When do mice become a problem in Washington, PA?",
+        answer:
+          "Mice in Washington begin their fall push into structures in October as temperatures drop and field cover thins. Southwest Pennsylvania's cold winters make this a serious annual concern. A September exclusion inspection, sealing foundation gaps and utility penetrations, is the most cost-effective approach for limiting fall entry.",
+      },
+      {
+        question: "Does Washington and Jefferson College's campus create pest pressure in the surrounding neighborhoods?",
+        answer:
+          "College campuses and the dense surrounding residential areas they create can sustain rodent populations through food waste, dumpster management, and frequent tenant turnover in nearby rentals. Mice and German cockroaches are the primary concerns in dense college-adjacent neighborhoods. The historic buildings on the W&J campus also carry elevated termite risk given their age and construction.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Greensburg", slug: "greensburg-pa" },
+      { name: "Uniontown", slug: "uniontown-pa" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Washington, PA | Stink Bugs, Termites & Mice",
+    metaDescription:
+      "Pest control in Washington, PA. Southwest Pennsylvania service for brown marmorated stink bugs, termites, mice, carpenter ants, and spotted lanternfly in Washington County. Free inspection.",
+  },
+  {
+    slug: "indiana-pa",
+    name: "Indiana",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~14,000",
+    county: "Indiana County",
+    climate: "cold-humid",
+    climateDriver:
+      "Indiana sits in western Pennsylvania's Appalachian setting at around 1,300 feet elevation, surrounded by forested land in Indiana County. The cold-humid climate delivers significant snowfall, cold winters, and warm, humid summers. Indiana University of Pennsylvania generates food waste and high residential turnover that sustains rodent populations. The forested surroundings support carpenter ants and bring mice in from wooded edges in fall.",
+    topPests: [
+      "House Mice",
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+      "Brown Marmorated Stink Bugs",
+      "Rats",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through March",
+        note: "Indiana's forested Appalachian surroundings provide extensive mouse habitat. The IUP campus and surrounding student rental district generate food waste that sustains year-round populations, and cold winters push mice into structures hard in fall.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active seasonally",
+        note: "Eastern subterranean termites are documented in Indiana County and present a real risk for older buildings in Indiana, including the historic residential stock surrounding the IUP campus and older commercial buildings downtown.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "The heavily forested character of Indiana County sustains large outdoor carpenter ant populations. Indiana Borough's older homes, with their accumulated moisture damage and mature tree canopy, see consistent carpenter ant pressure through the warm season.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November, overwinter indoors",
+        note: "Stink bugs are established throughout western Pennsylvania including Indiana County. The fall overwintering surge is a predictable annual event, with insects entering wall voids through any unsealed gap in the building envelope.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "IUP's campus and the high-density student rental housing surrounding it generate food waste and dumpster opportunities that sustain Norway rat populations in Indiana Borough. Older commercial areas downtown also provide rat harborage.",
+      },
+    ],
+    localHook:
+      "Indiana, Pennsylvania is the hometown of Jimmy Stewart and the county seat of Indiana County, surrounded by the forested Appalachian hills that define western Pennsylvania's interior. Indiana University of Pennsylvania brings a significant population to a small city, and the combination of a college town's food waste and an Appalachian forest setting creates a pest environment worth understanding.",
+    intro:
+      "Indiana, PA combines two things that make pest control genuinely interesting: a college town's food and housing turnover, and an Appalachian forest setting. IUP's campus and the dense student rental district around it generate food waste and high tenant turnover that sustain Norway rat and house mouse populations year-round. The surrounding forest brings carpenter ants into older homes through the warm season. Termites are documented in Indiana County. Cold western Pennsylvania winters drive mice into structures with real force from October through March. Stink bugs are established across the region and enter every fall. It's a full pest picture that benefits from a coordinated approach rather than one-at-a-time reactive treatment.",
+    sections: [
+      {
+        heading: "Comparing Rodent Pressure in a College Town Setting",
+        body: "Indiana's rodent picture involves two species with different biology and different control approaches. Norway rats are sustained by the food waste of IUP's campus, dining areas, dumpsters, and the high-density student housing around the university. They burrow near dumpster areas and under slabs and are more common in the commercial and high-density rental zones. House mice are the dominant rodent in the residential areas surrounding the campus, entering structures in fall as cold weather arrives. Control approaches differ significantly: Norway rats require dumpster management, bait stations at harborage sites, and structural exclusion of commercial buildings. House mice in residential areas require foundation exclusion, door sweep installation, and a trap grid. A professional assessment determines which rodent is present at each location and sets the appropriate program.",
+      },
+      {
+        heading: "Carpenter Ants and Termites in Indiana County's Forest Setting",
+        body: "Indiana County's heavily forested character sustains large carpenter ant populations in the surrounding woodland, and those populations extend into Indiana Borough through the mature trees and wooded areas throughout the city's residential neighborhoods. Carpenter ants nest in moisture-damaged wood, so older homes with accumulated issues in soffits, window frames, and crawlspace framing are the most vulnerable. An April perimeter treatment intercepts foraging workers before trails establish inside. Eastern subterranean termites are documented in Indiana County and represent a real risk for older construction. The moist Appalachian soils support termite colonies through the warm season. Any older Indiana property without recent termite coverage should have an inspection.",
+      },
+    ],
+    prevention: [
+      "Ensure dumpster lids are sealed near IUP-adjacent properties and eliminate Norway rat harborage in the student housing zone through structural exclusion and bait station programs.",
+      "Seal foundation gaps and utility penetrations in September before cold western Pennsylvania weather drives mice into older Indiana Borough structures.",
+      "Apply a spring perimeter treatment for carpenter ants in April targeting foundation areas and wood near moisture damage in Indiana County's forest-edge homes.",
+      "Schedule a termite inspection if it has been more than two years, given eastern subterranean termite documentation in Indiana County.",
+    ],
+    costNote:
+      "Indiana, PA pest control starts with a free inspection. Rodent control for a college town environment may require both a residential exclusion program and a commercial Norway rat program for high-density areas. Carpenter ant and stink bug treatment are seasonal. Termite protection is annual. A recurring quarterly program covers general pest management.",
+    faqs: [
+      {
+        question: "Does IUP make the rodent problem worse in Indiana, PA?",
+        answer:
+          "Yes, in the immediate campus and student housing areas. IUP generates food waste from dining operations and large volumes of dumpster-accessible waste from high-density student housing. This sustains Norway rat populations at higher densities in the campus perimeter than you would find in a comparable Appalachian community without a university. The residential areas farther from campus deal primarily with house mice from the surrounding forest, which is a different problem requiring different solutions.",
+      },
+      {
+        question: "Are termites common in Indiana County's Appalachian setting?",
+        answer:
+          "Eastern subterranean termites are documented in Indiana County and are present in the moist Appalachian soils throughout the region. Indiana Borough's older housing stock, some of which dates to the early twentieth century, has had generations of potential exposure. Annual inspections are the appropriate minimum for any older Indiana property.",
+      },
+      {
+        question: "How long is stink bug season in Indiana, PA?",
+        answer:
+          "Brown marmorated stink bugs in Indiana, PA begin aggregating on exterior walls in September and actively enter structures through October. The effective prevention window is late August through mid-September, when a residual exterior treatment and gap sealing gives the best results. Once stink bugs are inside wall voids, they remain dormant through winter and emerge in late February and March.",
+      },
+      {
+        question: "Are carpenter ants a structural risk in Indiana Borough's older homes?",
+        answer:
+          "Yes. Indiana County's forested character sustains large carpenter ant populations, and the older homes in Indiana Borough with accumulated moisture damage in soffits, window frames, and crawlspace framing provide nesting sites. Multiple seasons of active carpenter ant colonies in structural wood can cause meaningful damage. Annual spring inspections catch new satellite colony establishment before damage accumulates.",
+      },
+      {
+        question: "What pest problems should I expect in a rental near IUP?",
+        answer:
+          "The primary concerns are mice in fall, German cockroaches if the building has had prior infestations, and potentially Norway rats if the property is near the high-density campus zone. High tenant turnover in student rentals means each new tenant brings unknown pest history. A professional inspection between tenants, especially in older buildings, identifies active problems before they establish. German cockroaches spread through shared plumbing walls and are difficult to control without treating the whole building.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Altoona", slug: "altoona" },
+      { name: "Johnstown", slug: "johnstown" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Indiana, PA | College Town Rodents & Termites",
+    metaDescription:
+      "Pest control in Indiana, PA. Indiana County service for mice and Norway rats near IUP, carpenter ants, eastern subterranean termites, and stink bugs in western Pennsylvania. Free inspection.",
+  },
 ];

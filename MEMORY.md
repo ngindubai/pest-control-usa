@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-20)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-54 complete. T2 COMPLETE.
-- **City pages built:** 1303 total (75 T1 + 300 T2 + 928 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-56 complete. T2 COMPLETE.
+- **City pages built:** 1353 total (75 T1 + 300 T2 + 978 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1386 in the static export (home, services, 50+ states, 1303 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=263, B=261, C=261, D=260, E=258 (1303 total cities, all within 15-25% range).
-- **Cities built T3 chunks 53-54 (50):** Chunk 53: IA: Cedar Falls, Ottumwa, Fort Dodge, Marshalltown, Clinton. OK: Shawnee, Ponca City, Ardmore, Bixby, Claremore. AR: Sherwood, Cabot, Jacksonville, Paragould, Bryant. MS: Starkville, Ridgeland, Ocean Springs, Hernando, Natchez. LA: Mandeville, Gonzales, West Monroe, Baker, Covington. Chunk 54: AK: Fairbanks, Juneau. MT: Havre, Livingston, Whitefish. WY: Sheridan, Evanston. SD: Brookings, Watertown. ND: Dickinson, Williston. ME: Auburn, Biddeford. VT: Barre, Montpelier. RI: Newport, North Providence. NH: Keene, Derry. CT: Middletown, Milford, Manchester, Bristol, Enfield. AL: Phenix City.
-- **New state files added chunks 53-54:** none (all states already registered).
-- **Next block:** Chunk 55, T3 continues, rotation at A.
+- **Total site pages:** 1436 in the static export (home, services, 50+ states, 1353 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=273, B=271, C=271, D=270, E=268 (1353 total cities, all within 15-25% range).
+- **Cities built T3 chunks 55-56 (50):** Chunk 55: GA: Decatur, Tifton, Perry, Monroe, Waycross. IN: Marion, Vincennes, Logansport. MO: Poplar Bluff, Warrensburg, Ozark. KS: Junction City, Hays. AR: El Dorado, West Memphis. IA: Burlington, Muscatine. OK: Mustang, Jenks, Sapulpa. WI: Muskego, Oconomowoc, Watertown. TN: Athens, Springfield. Chunk 56: MI: Norton Shores, Sault Ste. Marie. MN: Oakdale, Rosemount, Stillwater. NC: Eden, Albemarle, Boone. PA: Washington, Indiana. SC: Hilton Head Island, Greenwood, Cayce, Conway, Goose Creek. NY: Beacon, Johnson City. VA: Bristol. GA: Calhoun, Americus, Moultrie, Dublin, Bainbridge, Toccoa, Jesup.
+- **New state files added chunks 55-56:** none (all states already registered).
+- **Next block:** Chunk 57, T3 continues, rotation at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

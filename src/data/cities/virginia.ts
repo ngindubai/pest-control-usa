@@ -3435,4 +3435,116 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Manassas Park VA pest control for brown marmorated stink bugs, house mice, bed bugs, German cockroaches and carpenter ants. Northern Virginia Prince William County epicenter specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "bristol-va",
+    name: "Bristol",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~17,000",
+    county: "Bristol City",
+    climate: "temperate",
+    climateDriver:
+      "Bristol is an independent city on the Virginia-Tennessee border in the Appalachian foothills, where State Street literally sits on the state line. The temperate mountain climate has cold winters and warm, humid summers. Subterranean termites are active in the region through the warm season. Brown marmorated stink bugs are established across southwest Virginia. Cold winters drive mice into structures from October through March. The historic downtown's older building stock carries accumulated pest risk.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "House Mice",
+      "Carpenter Ants",
+      "Brown Marmorated Stink Bugs",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Eastern subterranean termites are documented throughout the Bristol City and Washington County area. The Appalachian foothills setting with moist soils and warm summers supports active termite populations. Bristol's older downtown and residential buildings carry accumulated exposure.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Cold southwest Virginia winters drive mice into Bristol's older residential and commercial buildings from October through March. The older building stock in the historic downtown and the surrounding residential areas provides many structural entry points.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are active throughout the Bristol area in the warm season, nesting in moisture-damaged wood in older homes and foraging from the wooded areas around the city's residential edges.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November entry, overwinter indoors",
+        note: "Stink bugs are established across southwest Virginia and the broader Appalachian region. Bristol homeowners experience predictable fall overwintering pressure, with insects entering wall voids through any unsealed gap in September and October.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, peak August through September",
+        note: "Yellowjackets nest in ground burrows and wall voids in Bristol's residential areas, reaching maximum colony size and aggression in August and September. The Appalachian foothills terrain sustains large yellowjacket populations through summer.",
+      },
+    ],
+    localHook:
+      "Bristol is known as the Birthplace of Country Music, and the state line running down the center of State Street has made it a shared city between Virginia and Tennessee for generations. That same border character means Bristol's residents deal with pest pressures from two state regulatory environments, but the biological reality is simply the Appalachian foothills: termites in warm months, mice in cold months, stink bugs in fall, and carpenter ants and yellowjackets through summer.",
+    intro:
+      "Bristol's dual identity on the Virginia-Tennessee state line makes it genuinely unique, but its pest environment is straightforwardly Appalachian. Eastern subterranean termites are active through the warm season in southwest Virginia, and the city's older residential and commercial buildings have had decades of exposure. Cold winters drive mice into structures from October through March. Brown marmorated stink bugs are established across the region and make their annual fall run at wall voids and attics in September. Carpenter ants work the moisture-prone wood of older homes through summer. Yellowjackets peak in August in lawns and wall voids. Each of these responds well to the right treatment at the right time.",
+    sections: [
+      {
+        heading: "Termites and Mice in Bristol's Historic Building Stock",
+        body: "Eastern subterranean termites in southwest Virginia are active from spring through fall, and Bristol's older buildings on both sides of State Street have had long exposure in a climate where termite colonies can work for many months of the year. The Appalachian foothills' moist soils sustain colonies through warm months. Annual inspections are the appropriate standard for any Bristol property with crawlspaces or older foundation systems. House mice present the complementary cold-season problem. Bristol's older downtown buildings, with their settled foundations and aging plumbing penetrations, provide easy entry during October through March. A September exclusion inspection, sealing the most actively used entry points before cold arrives, is the most cost-effective mouse prevention approach. Exclusion and trapping together address both current and future entry.",
+      },
+      {
+        heading: "Stink Bugs, Carpenter Ants, and Yellowjackets Through the Year",
+        body: "Three seasonal pest pressures that follow a predictable calendar in Bristol. Carpenter ants become active in April and forage through September, nesting in the moisture-damaged soffits, window frames, and crawlspace framing common in Bristol's older construction. A spring perimeter treatment in April intercepts foraging workers before trails establish inside. Yellowjackets in the Appalachian foothills terrain build ground nests and wall void nests through summer, reaching maximum colony size in August. Finding and treating nests before they peak gives safer access and more complete elimination. Stink bugs are a fall event: the late August through mid-September window for exterior treatment and gap sealing is the intervention that prevents the overwintering population from establishing in wall voids for winter.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for older Bristol properties, as southwest Virginia's warm months support active subterranean termite colonies that can work undetected for years.",
+      "Complete mouse exclusion work in September, sealing foundation gaps and utility penetrations before October cold drives mice into Bristol's older structures.",
+      "Apply exterior residual treatment to south and west-facing walls in late August and seal window frame and utility gaps before September to prevent stink bug overwintering.",
+      "Walk lawn areas in June and July to locate yellowjacket ground nests and treat before August's peak colony size and aggression.",
+    ],
+    costNote:
+      "Bristol, VA pest control starts with a free inspection. Termite protection plans and annual inspections are recommended for older construction. Mouse exclusion is an annual fall service. Stink bug exterior treatment is a late summer annual service. Carpenter ant and yellowjacket treatment are warm-season services.",
+    faqs: [
+      {
+        question: "Do pests cross the Virginia-Tennessee state line in Bristol?",
+        answer:
+          "The state line is a regulatory boundary, not a biological one. Termites, mice, stink bugs, and carpenter ants operate throughout the Bristol metro area regardless of which side of State Street they are on. Our service covers the Virginia side of Bristol. The pest profile is consistent across the Appalachian foothills environment on both sides.",
+      },
+      {
+        question: "Are stink bugs as bad in southwest Virginia as in northern Virginia?",
+        answer:
+          "Southwest Virginia including Bristol has established brown marmorated stink bug populations, though at somewhat lower density than the Northern Virginia epicenter where the species first established in the state. Bristol homeowners still experience significant fall overwintering events, with stink bugs entering wall voids in September and October. The intervention timing is the same: late August through mid-September for exterior treatment and exclusion work.",
+      },
+      {
+        question: "How serious are termites in the Bristol area?",
+        answer:
+          "Eastern subterranean termites are documented throughout the Bristol City and surrounding Washington County area. The Appalachian foothills' moist soils and the area's warm summers support active termite colonies through much of the year. Bristol's older buildings, including downtown commercial structures and older residential construction, carry accumulated risk. Annual inspections are the appropriate minimum.",
+      },
+      {
+        question: "When do yellowjackets become dangerous in Bristol?",
+        answer:
+          "Yellowjacket colonies in the Bristol area reach maximum size and aggression in August and September. By August, a single ground nest can contain thousands of workers. They are most dangerous when the nest is disturbed, which often happens accidentally. Walking the yard in June or July to locate ground nests and treating them before August peak is the safest approach. Wall void nests require a licensed technician.",
+      },
+      {
+        question: "Does Bristol's Birthplace of Country Music history have any relevance to its pest environment?",
+        answer:
+          "Indirectly. The 1927 Bristol Sessions that gave the city its musical identity happened in buildings that are now part of the historic downtown. That older building stock, preserved and celebrated for its cultural significance, carries the accumulated pest risk of its age. Any older Bristol building, whether historically significant or not, is worth a professional pest assessment given the decades of potential termite and rodent exposure in southwest Virginia's climate.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Roanoke", slug: "roanoke" },
+      { name: "Lynchburg", slug: "lynchburg" },
+      { name: "Charlottesville", slug: "charlottesville" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Bristol, VA | Termites, Mice & Stink Bugs",
+    metaDescription:
+      "Pest control in Bristol, VA. Southwest Virginia Appalachian foothills service for subterranean termites, mice, stink bugs, carpenter ants, and yellowjackets near the Tennessee border. Free inspection.",
+  },
 ];

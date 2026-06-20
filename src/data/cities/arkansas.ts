@@ -1763,4 +1763,255 @@ export const arkansasCities: CityLocation[] = [
     metaTitle: "Pest Control in Bryant, AR | Fire Ants, Termites & Mosquitoes",
     metaDescription: "Bryant AR pest control for fire ants, subterranean termites, brown recluse spiders, cockroaches and mosquitoes. Saline County fast-growing Little Rock suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  {
+    slug: "el-dorado-ar",
+    name: "El Dorado",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~17,000",
+    county: "Union County",
+    climate: "hot-humid",
+    climateDriver:
+      "El Dorado sits in south Arkansas near the Louisiana border in a hot, humid climate that accelerates pest activity compared to central or northern Arkansas. The warm winters keep fire ant colonies active year-round and allow eastern subterranean termite colonies to forage through more of the calendar year. The high annual humidity and frequent warm temperatures mean that American cockroaches, which require warmth and moisture, are far more common here than in Missouri or Kansas. The mosquito season runs from February through November in a normal year.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "American Cockroaches",
+      "Mosquitoes",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round with peak swarms in spring",
+        note:
+          "The hot, humid south Arkansas climate supports year-round termite activity in El Dorado. The city's historic bungalows and early commercial buildings carry significant accumulated termite pressure from decades of minimal inspection.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "pest-control",
+        activeSeason: "Year-round",
+        note:
+          "Fire ants are established throughout Union County and remain active year-round thanks to the warm south Arkansas winters. Yards, parks, and disturbed soil areas around El Dorado see consistent mound construction through every season.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in heated structures, most visible summer",
+        note:
+          "American cockroaches, sometimes called palmetto bugs, are very common in El Dorado given the subtropical-adjacent climate. Older commercial buildings, restaurant kitchens, and sewer-connected structures see the highest pressure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "February through November",
+        note:
+          "The low-lying areas of Union County provide extensive mosquito breeding habitat across a very long season. El Dorado residents can see biting mosquitoes in February during warm spells and as late as mid-November.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March",
+        note:
+          "While south Arkansas winters are mild, mice still push indoors during the cooler months. Older commercial and residential buildings in El Dorado are the primary mouse habitat.",
+      },
+    ],
+    localHook:
+      "El Dorado is one of south Arkansas's most historic cities, and that history comes with a pest context. The early 20th century bungalows and commercial buildings that define the downtown and surrounding neighborhoods have had generations to accumulate termite pressure, cockroach harborage, and rodent access points. The warm, near-subtropical climate near the Louisiana border means termites and fire ants are active year-round, not just in summer. This is a pest environment that rewards regular professional monitoring over reactive treatments.",
+    intro:
+      "Pest control in El Dorado takes on a different character than most Arkansas cities because Union County's climate is closer to Louisiana than to central Arkansas. Termites are active nearly year-round. Fire ants are established and persistent across residential properties. American cockroaches are common in the older building stock downtown and in river-adjacent structures. The long mosquito season runs from February through November. Local licensed professionals understand how south Arkansas's climate compresses the window between seasonal pest activity and year-round infestation.",
+    sections: [
+      {
+        heading: "Termites and Historic Buildings in Union County",
+        body:
+          "El Dorado's historic character is also its biggest termite liability. The early 20th century boom that built the city's bungalows, commercial blocks, and civic buildings created wood-frame structures that are now 80 to 100 years old. Decades of cumulative termite foraging in the warm, humid Union County soils mean many of these buildings carry more structural termite damage than their owners realize. Eastern subterranean termites in south Arkansas are active through more of the year than their northern counterparts, and the soil moisture levels in El Dorado's older neighborhoods give colonies the consistent environment they need to thrive. Annual inspections for any pre-1960 structure in Union County are not optional; they are the responsible minimum. The oil and industrial history of El Dorado also means some areas have disturbed, graded soils that are particularly favorable to termite colony expansion.",
+      },
+      {
+        heading: "Fire Ants, Cockroaches, and the Long Mosquito Season",
+        body:
+          "Fire ants are a year-round management challenge in El Dorado in a way that northern Arkansas homeowners rarely experience. The mild south Arkansas winters do not kill fire ant queens, and colonies continue recruiting and expanding through December and January. Residential yards, parks, and any disturbed soil area in Union County is potential fire ant habitat in every season. American cockroaches, the large reddish-brown species sometimes called palmetto bugs, are common throughout El Dorado because the warm, moist climate is close to the conditions they evolved in further south. They enter structures through sewer connections, crawlspace vents, and any gap at or near grade level. The mosquito season starting in February and running through November means that any standing water on a Union County property is a breeding site for nine months of the year, and barrier treatment programs need to reflect that extended window.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for any El Dorado home built before 1970, as Union County's humid climate and the city's historic housing stock carry above-average accumulated termite risk.",
+      "Apply broadcast fire ant bait treatments in spring and fall across your entire Union County yard rather than treating individual mounds, which only disperses colonies temporarily.",
+      "Keep crawlspace vents properly screened and repair any sewer or drain pipe cracks to block American cockroach entry points into El Dorado homes and businesses.",
+      "Eliminate all standing water on your property weekly from February through November, as the long south Arkansas mosquito season means any still water is a breeding opportunity for nine months of the year.",
+    ],
+    costNote:
+      "Termite protection in El Dorado for older Union County structures typically runs $300 to $600 per year for a liquid treatment and monitoring contract, with Sentricon-type baiting systems priced comparably. Fire ant yard treatment with broadcast bait runs $80 to $150 per application for a residential lot. Mosquito barrier programs for the long south Arkansas season average $65 to $95 per application across a full contract.",
+    faqs: [
+      {
+        question:
+          "Are termites really a year-round problem in El Dorado, or is that an exaggeration?",
+        answer:
+          "It is not an exaggeration. The warm, humid climate of Union County keeps eastern subterranean termite colonies active through more of the year than in central or northern Arkansas. Swarms are most visible in spring, which is when most homeowners first become aware of termite activity, but the colony is foraging and consuming wood year-round. El Dorado's historic buildings carry decades of accumulated risk. If your home has not had a professional termite inspection in the past two years, getting one is a practical step rather than a precaution.",
+      },
+      {
+        question:
+          "Why are fire ants so persistent in my El Dorado yard when I keep treating them?",
+        answer:
+          "Treating individual mounds pushes fire ant colonies to relocate rather than eliminating them. The queens and workers move away from treated mounds and establish new ones nearby. Broadcast bait applications that cover the entire yard work more effectively because they get picked up by foraging workers and carried back to the colony, reaching the queen. In Union County's mild climate, two broadcast applications per year, in spring and fall, are more effective than responding to individual mounds as they appear.",
+      },
+      {
+        question:
+          "Are those large brown cockroaches I see in El Dorado a sign of a dirty home?",
+        answer:
+          "No. American cockroaches, which are the large reddish-brown species common in south Arkansas, are associated with warmth, moisture, and sewer connections rather than with housekeeping. They enter homes through sewer vents, floor drains, crawlspace gaps, and utility penetrations. A spotless home in El Dorado can have American cockroaches entering from the sewer system. They are a structural and plumbing issue more than a sanitation one. Sealing sewer connections, maintaining crawlspace ventilation, and caulking utility penetrations are more effective than cleaning alone.",
+      },
+      {
+        question:
+          "How long is the mosquito season actually in El Dorado?",
+        answer:
+          "In a typical year in Union County, mosquito activity begins in February during warm spells and continues through November. That is a nine-to-ten-month season, which is substantially longer than what residents of central or northern Arkansas experience. The low-lying areas of south Arkansas, including parts of El Dorado, accumulate standing water after rainfall that persists long enough to support full breeding cycles. If you run a barrier treatment program, starting in early March and running through October covers most of the active season.",
+      },
+      {
+        question:
+          "Are American cockroaches in El Dorado the same as German cockroaches?",
+        answer:
+          "No, they are two different species with different habits. American cockroaches are the large reddish-brown ones, about an inch and a half long, common in south Arkansas's warm climate. They live primarily in sewers, crawlspaces, and outdoor areas and migrate indoors through plumbing connections. German cockroaches are smaller, tan, and live almost exclusively indoors in kitchen and bathroom environments. El Dorado has both, but American cockroaches are the more common household complaint given the subtropical-adjacent climate. German cockroaches are concentrated in food service facilities rather than in typical residential homes.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Pine Bluff", slug: "pine-bluff" },
+      { name: "Texarkana", slug: "texarkana" },
+      { name: "Camden", slug: "camden-ar" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle:
+      "Pest Control in El Dorado, AR | Termites, Fire Ants & Palmetto Bugs",
+    metaDescription:
+      "El Dorado AR pest control for subterranean termites, fire ants, American cockroaches and mosquitoes. Union County south Arkansas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "west-memphis",
+    name: "West Memphis",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~24,000",
+    county: "Crittenden County",
+    climate: "hot-humid",
+    climateDriver:
+      "West Memphis occupies the Mississippi River floodplain in Crittenden County, a setting that makes it one of the most pest-active environments in Arkansas. The alluvial Delta soils stay moist year-round, which is ideal for subterranean termite colonies and for the standing water that breeds mosquitoes across most of the calendar year. The warm, humid climate keeps fire ants established year-round and makes American cockroaches common in older structures. The river corridor and commercial warehouse areas contribute to Norway rat populations that are higher than in most Arkansas cities of comparable size.",
+    topPests: [
+      "Mosquitoes",
+      "Eastern Subterranean Termites",
+      "Norway Rats",
+      "Fire Ants",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "February through November",
+        note:
+          "The Mississippi River floodplain and Delta wetland system surrounding West Memphis creates some of the most severe mosquito breeding habitat in Arkansas. Standing water in the levee system and low-lying areas breeds mosquitoes across a very long season.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round with peak swarms in spring",
+        note:
+          "The moist alluvial soils of the Crittenden County floodplain support highly active termite colonies. Older structures throughout West Memphis carry significant accumulated termite risk.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round",
+        note:
+          "Norway rats are common along the Mississippi River corridor, in commercial warehouse areas near I-40, and in older commercial buildings throughout West Memphis. The river and truck route infrastructure supports persistent rat populations.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "pest-control",
+        activeSeason: "Year-round",
+        note:
+          "Fire ants are established throughout Crittenden County and remain active year-round in the warm Delta climate. Open lots, parks, and disturbed soil areas in West Memphis see consistent mound construction.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in heated structures, most visible summer",
+        note:
+          "American cockroaches are very common in West Memphis given the moisture levels and older commercial infrastructure near the river. Sewer-connected structures and older buildings see the most persistent activity.",
+      },
+    ],
+    localHook:
+      "West Memphis is the Arkansas gateway to Memphis, and the pest environment reflects its location: right on the Mississippi River, at a major I-40 truck interchange, in a warm Delta climate where mosquitoes breed nearly year-round and termites never really stop. Norway rats near the river corridor and warehouse districts are a more significant issue here than in most Arkansas cities. The combination of river geography, commercial traffic volume, and alluvial soil conditions makes West Memphis one of the more challenging pest environments in the state.",
+    intro:
+      "Pest control in West Memphis contends with one of Arkansas's most active pest environments. The Mississippi River floodplain creates year-round termite conditions, a nine-month mosquito season, and Norway rat pressure along the commercial corridor. Fire ants are established year-round. American cockroaches are common in the city's older commercial buildings and sewer-connected structures. The I-40 truck traffic and warehouse infrastructure add a German cockroach commercial pest layer that is distinct from the residential pest picture. Licensed Crittenden County pest professionals understand the specific pressures the Delta setting creates.",
+    sections: [
+      {
+        heading: "Mississippi Delta Mosquitoes and Termites in Crittenden County",
+        body:
+          "The Mississippi River floodplain setting of West Memphis creates pest conditions that are among the most severe in Arkansas. For mosquitoes, the standing water in the levee system, the low-lying Delta wetlands, and any yard depression that holds water after rain all serve as breeding sites. The season starts in February in warm years and runs through November, meaning a standard summer-only barrier treatment program misses significant portions of the active period. For termites, the alluvial soils of Crittenden County are ideal: consistently moist, rich in organic matter, and covering a vast area of contiguous habitat for subterranean colonies. Older structures in West Memphis, particularly those built before 1970, carry the most accumulated risk, but any wood-frame building on the floodplain warrants regular inspection. Pre-construction soil treatment helps on new construction but degrades over time.",
+      },
+      {
+        heading: "Norway Rats, Fire Ants, and the Commercial Pest Corridor",
+        body:
+          "West Memphis's position at the I-40 river crossing makes it a significant commercial freight hub, and that commercial infrastructure contributes to a Norway rat population that is higher than in most Arkansas cities. Rats follow the river corridor, the storm sewer system, and the food waste streams from commercial operations along the interstate. Warehouse districts, older commercial buildings near the river, and any food-related business near the truck route are the primary rat pressure zones. The entire city's pest picture is also shaped by fire ants that remain active year-round in the warm Delta climate, and by American cockroaches that move through sewer connections into older structures. For commercial operations in West Memphis, monthly professional monitoring is the standard of care, not an upgrade.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water on your West Memphis property weekly from February through November to address the near-year-round mosquito breeding season in the Crittenden County floodplain.",
+      "Apply broadcast fire ant bait across your entire yard in spring and fall rather than treating individual mounds, which only relocates the colonies temporarily in the Delta climate.",
+      "Inspect sewer connections, floor drains, and crawlspace vents in older West Memphis structures for gaps that allow American cockroaches to enter from the sewer system.",
+      "Store waste in sealed containers and maintain clean loading dock areas in commercial operations near the I-40 corridor to reduce Norway rat harborage and food sources.",
+    ],
+    costNote:
+      "Termite protection in West Memphis for older Crittenden County structures typically runs $350 to $650 per year for a treatment and monitoring contract. Mosquito barrier programs covering the long Delta season average $70 to $100 per application across a March through October contract. Norway rat control for commercial properties near the river corridor generally runs $200 to $400 per month for a maintained exterior bait station program.",
+    faqs: [
+      {
+        question:
+          "Are mosquitoes really worse in West Memphis than in other Arkansas cities?",
+        answer:
+          "Measurably so, yes. The Mississippi River floodplain, the Delta levee and drainage system, and the low-lying topography of Crittenden County create more standing water habitat per square mile than most of Arkansas. The warm climate also extends the season at both ends. While a city in north-central Arkansas might see its first biting mosquitoes in April, West Memphis residents often encounter them in February during warm spells. A control program that starts in early March and runs through October addresses the full season for most Crittenden County properties.",
+      },
+      {
+        question:
+          "Why are Norway rats more common in West Memphis than in smaller Arkansas cities?",
+        answer:
+          "Three factors combine in West Memphis that are not present in most smaller Arkansas cities. First, the Mississippi River corridor provides extensive rat habitat: riverbanks, levees, storm sewer outfalls, and the food waste from commercial activity along the water. Second, the I-40 interchange makes West Memphis a major freight hub, and commercial freight operations generate the kind of food storage and waste streams that sustain rat populations. Third, the older commercial building stock near the river provides the structural harborage that Norway rats prefer. River cities with heavy commercial traffic consistently see higher rat pressure than inland residential communities.",
+      },
+      {
+        question:
+          "How active are termites in West Memphis compared to interior Arkansas cities?",
+        answer:
+          "West Memphis is at the high end of termite activity for Arkansas. The alluvial soils of the Mississippi floodplain are consistently moist and organically rich, which provides ideal conditions for eastern subterranean termite colonies. The warm Crittenden County climate means colonies are active through more of the year than in the cooler highlands of central or northern Arkansas. If you are buying an older home in West Memphis, a thorough termite inspection is not optional. The combination of soil conditions, climate, and building age makes this one of the higher-risk environments in the state.",
+      },
+      {
+        question:
+          "Are German cockroaches a problem in West Memphis homes, or just in commercial buildings?",
+        answer:
+          "Primarily commercial. German cockroaches in West Memphis are concentrated in the restaurant, food service, and warehouse facilities near the I-40 corridor and commercial districts. They are almost exclusively an indoor commercial pest and do not typically establish in residential homes the way American cockroaches, which move through sewer systems, do. If you are seeing large reddish-brown cockroaches in your West Memphis home, those are American cockroaches entering through plumbing connections. If you are seeing small tan cockroaches in a kitchen, that is a German cockroach situation requiring immediate professional treatment.",
+      },
+      {
+        question:
+          "What is the best time of year to start mosquito treatment in West Memphis?",
+        answer:
+          "Earlier than most people expect. The Mississippi River floodplain setting means mosquito activity in West Memphis begins in February during warm spells, well before residents in higher-elevation Arkansas cities notice any activity. A treatment program starting in early to mid-March covers the practical start of the breeding season for Crittenden County. Running through October addresses the full active period. A program that starts in May, which is typical for central Arkansas, misses four to six weeks of active mosquito season in West Memphis.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Jonesboro", slug: "jonesboro" },
+      { name: "Forrest City", slug: "forrest-city" },
+      { name: "Paragould", slug: "paragould" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle:
+      "Pest Control in West Memphis, AR | Mosquitoes, Termites & Rats",
+    metaDescription:
+      "West Memphis AR pest control for mosquitoes, subterranean termites, Norway rats, fire ants and American cockroaches. Crittenden County Mississippi Delta specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -1786,4 +1786,255 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "Derby KS pest control for house mice, mosquitoes, German cockroaches, boxelder bugs and stink bugs. Sedgwick County fast-growing suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  {
+    slug: "junction-city",
+    name: "Junction City",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~23,000",
+    county: "Geary County",
+    climate: "semi-arid",
+    climateDriver:
+      "Junction City sits at the confluence of the Smoky Hill and Republican rivers in Geary County, a setting that creates more moisture in the local environment than the surrounding high plains. Summers are hot with moderate humidity near the rivers, and winters are cold with enough temperature swings to drive mice and rodents indoors for months at a time. The proximity to Fort Riley and the transient military population creates pest exposure pathways that are specific to communities adjacent to large military installations.",
+    topPests: [
+      "House Mice",
+      "Brown Recluse Spiders",
+      "German Cockroaches",
+      "Bed Bugs",
+      "Eastern Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through April",
+        note:
+          "Military housing, older base-adjacent residential buildings, and the commercial areas near Fort Riley see consistent mouse pressure. Cold Kansas winters drive mice indoors from October onward across Geary County.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active May through October",
+        note:
+          "Brown recluse are present in storage areas and older structures throughout Junction City. Military families moving into older housing stock should treat undisturbed storage with caution.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in heated structures",
+        note:
+          "Barracks-adjacent commercial areas, food service facilities, and older residential buildings near the post see recurring German cockroach pressure in Junction City.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note:
+          "The frequent relocations and temporary housing associated with the Fort Riley military population create higher bed bug introduction risk than most Kansas cities of comparable size experience.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "April through October, swarms in spring",
+        note:
+          "Termites are active in the moister river valley zones along the Smoky Hill and Republican rivers in Geary County. Older wood-frame homes in Junction City carry the most accumulated risk.",
+      },
+    ],
+    localHook:
+      "Junction City is defined by Fort Riley, and Fort Riley shapes the pest picture in ways that most Kansas towns do not see. A large transient population moving through military housing, barracks, and temporary accommodations pushes bed bug and German cockroach risk higher than the city's size would otherwise suggest. Combined with cold winters that drive mice indoors and brown recluse in older storage areas, Geary County requires a pest strategy that accounts for the specific pressures a military-adjacent community faces.",
+    intro:
+      "Pest control in Junction City means working with a population that moves frequently and lives in housing that ranges from new construction on post to older off-post residential buildings that have hosted multiple generations of tenants. The Fort Riley connection drives bed bug risk, German cockroach pressure in commercial areas, and a cycle of pest introduction that requires consistent monitoring rather than one-time treatments. Mice are a cold-season certainty, and termites are active in the river valley zones of Geary County.",
+    sections: [
+      {
+        heading: "Fort Riley and the Pest Risks of Military-Adjacent Communities",
+        body:
+          "Fort Riley is one of the largest Army installations in the country, and the constant rotation of service members and families creates pest introduction pathways that are specific to communities like Junction City. Bed bugs are the most significant example: a family moving from a duty station with an undetected infestation, unpacking into base housing or an off-post rental, can introduce bed bugs into a building that was clean the week before. The same dynamic applies to German cockroaches in kitchen areas and communal living spaces. Licensed Junction City pest professionals who work near the post understand this cycle and offer monitoring programs designed for high-turnover housing situations rather than stable homeowner accounts.",
+      },
+      {
+        heading: "Rodents, Brown Recluse, and Termites in Geary County",
+        body:
+          "Cold Kansas winters mean mice are an annual problem in Junction City from October through April. Homes near the agricultural fields on the edges of Geary County see pressure first as harvest removes cover and drives mice toward heated structures. Brown recluse spiders are present throughout the area, particularly in older homes and storage facilities that have had long periods of undisturbed use. They are a common finding in crawlspaces, attics, and garages in Junction City residential neighborhoods. Subterranean termites are active in the moister zones along the Smoky Hill and Republican river valleys. Properties closest to the river corridors carry the highest termite risk, and older homes in the city's established neighborhoods warrant regular inspection.",
+      },
+    ],
+    prevention: [
+      "Inspect all furniture, mattresses, and box springs before moving them into any Junction City rental or military housing unit: bed bugs are the highest-risk introduction pest in Fort Riley-adjacent housing.",
+      "Seal foundation gaps, utility entries, and garage door seals before October to prevent mice from entering Geary County homes as winter temperatures arrive.",
+      "Wear gloves when accessing undisturbed storage in older Junction City homes, as brown recluse spiders are present in crawlspaces, garages, and attics throughout the area.",
+      "Request a termite inspection before purchasing any older Junction City home, particularly properties within a few blocks of the Smoky Hill or Republican river corridors.",
+    ],
+    costNote:
+      "Bed bug treatment in Junction City rental units runs $275 to $650 depending on size and method, with heat treatment priced higher than chemical approaches. Mouse control programs with exclusion work average $160 to $300 per season. Termite inspections are typically free from licensed Geary County applicators, with annual protection contracts in the $250 to $450 range.",
+    faqs: [
+      {
+        question:
+          "Why is Junction City's bed bug risk higher than other Kansas towns of similar size?",
+        answer:
+          "Fort Riley is the primary driver. The base has one of the highest population turnover rates of any military installation in the country, with units rotating in and out on deployment cycles. Each move is a potential bed bug introduction event. Service members returning from deployment may stay in temporary lodging before moving into permanent housing. Off-post landlords who rent to military families deal with a higher frequency of tenant turnover than typical residential landlords, which compounds the risk. Professional monitoring between tenants is the most effective mitigation.",
+      },
+      {
+        question:
+          "Are there termites in Junction City, or is the climate too dry for them?",
+        answer:
+          "Termites are present in Junction City, particularly in the areas closest to the Smoky Hill and Republican river valleys where soil moisture is higher than the surrounding plains. The semi-arid classification covers most of Geary County, but the river corridor creates microenvironments where eastern subterranean termite colonies are viable and active. Older homes in Junction City's established neighborhoods, especially those built before 1980, warrant regular inspection. The risk is not as severe as in southeast Kansas or Missouri, but it is real.",
+      },
+      {
+        question:
+          "How do I check for brown recluse in my Junction City storage areas?",
+        answer:
+          "Sticky glue boards placed in corners of crawlspaces, along basement walls, inside garage cabinets, and under items that sit undisturbed for weeks are the most reliable detection method. Check them every two to four weeks. Brown recluse are nocturnal and avoid open areas, so you are more likely to catch evidence in traps than to see them in daylight. Any box that has been in an undisturbed basement or storage room for more than six months should be opened with gloves. A professional spider inspection can give you an accurate picture of current population levels.",
+      },
+      {
+        question:
+          "When do mice typically start coming inside in Junction City?",
+        answer:
+          "October is the typical start, when the first sustained cold nights arrive across Geary County. Homes near the agricultural boundary on the outskirts of Junction City may see early September pressure if grain harvest removes the food and cover those populations rely on. The Fort Riley housing areas and older off-post residential neighborhoods near downtown see consistent mouse pressure from October through March, sometimes into April if spring is cold.",
+      },
+      {
+        question:
+          "Are mosquitoes a significant problem near the river confluence in Junction City?",
+        answer:
+          "They are present and active near the Smoky Hill and Republican river confluence from late spring through early fall, but Junction City's semi-arid climate limits population sizes compared to more humid Kansas cities like Lawrence or Kansas City. Neighborhoods and parks adjacent to the rivers and any low-lying areas that hold water after rain will see the most activity. Barrier spray programs for residential yards starting in late May cover the primary season for most Geary County properties.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Manhattan", slug: "manhattan-ks" },
+      { name: "Salina", slug: "salina" },
+      { name: "Abilene", slug: "abilene-ks" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle:
+      "Pest Control in Junction City, KS | Mice, Brown Recluse & Termites",
+    metaDescription:
+      "Junction City KS pest control for mice, brown recluse spiders, German cockroaches, bed bugs and termites. Geary County Fort Riley area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hays-ks",
+    name: "Hays",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~21,000",
+    county: "Ellis County",
+    climate: "semi-arid",
+    climateDriver:
+      "Hays is the economic center of western Kansas, sitting in the semi-arid high plains where Ellis County averages roughly 22 inches of precipitation per year. The climate sharply limits pest diversity compared to eastern Kansas, but the species that do thrive here are persistent and well-adapted to the extremes. Cold winters drive mice indoors for months at a time. Summer heat and dry conditions concentrate pest activity near any available moisture source, and the Fort Hays State University campus adds food service and student housing pest pressure to the mix.",
+    topPests: [
+      "House Mice",
+      "Brown Recluse Spiders",
+      "German Cockroaches",
+      "Cluster Flies",
+      "Harvest Mites (Chiggers)",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through April",
+        note:
+          "House mice are the dominant indoor pest in Hays. The cold Ellis County winters mean a long, consistent pressure period from October through April, with older structures and buildings near grain storage seeing the most activity.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round indoors, most active May through October",
+        note:
+          "Brown recluse are present in Hays in older structures and any undisturbed storage areas. Though western Kansas is toward the edge of their range, established populations exist in Ellis County homes.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in heated structures",
+        note:
+          "Food service areas near Fort Hays State University and downtown Hays see recurring German cockroach pressure. This is almost exclusively a commercial food service problem in western Kansas.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "pest-control",
+        activeSeason: "September through April in walls and attics",
+        note:
+          "Cluster flies are a significant overwintering pest in rural and semi-rural Hays residential areas. They enter wall voids and attics in fall and emerge on warm days in late winter, sometimes in very large numbers.",
+      },
+      {
+        name: "Harvest mites (chiggers)",
+        serviceSlug: "pest-control",
+        activeSeason: "July through September",
+        note:
+          "Chiggers are problematic in late summer in grassy areas throughout Ellis County. They are the primary outdoor pest complaint for Hays residents who spend time in unmowed fields, creek margins, or parks.",
+      },
+    ],
+    localHook:
+      "Hays gets overlooked in Kansas pest conversations because the high plains climate keeps pest diversity low. What that framing misses is that the pests present in Ellis County are persistent, well-adapted, and not going anywhere. Cluster flies in wall voids number in the thousands. Mice in western Kansas buildings are as reliable as winter itself. And brown recluse, while less dense than in eastern Kansas, are still present in older Hays homes. Understanding the western Kansas pest profile is different from understanding Wichita's, and that local knowledge matters.",
+    intro:
+      "Pest control in Hays covers a smaller roster of pests than eastern Kansas, but the ones that thrive here do so reliably. House mice are the dominant indoor pest, active from October through April in a climate that genuinely forces them indoors. Cluster flies are a rural residential problem throughout Ellis County that surprises homeowners new to western Kansas. Brown recluse are present in older structures. The Fort Hays State University food service corridor drives German cockroach pressure in a way the rest of the city does not see.",
+    sections: [
+      {
+        heading: "Cluster Flies and Mice: The Western Kansas Overwintering Challenge",
+        body:
+          "Two pests define the overwintering pest season in Hays more than any others: cluster flies and house mice. Cluster flies are parasites of earthworms during their larval stage and are abundant in the agricultural soils surrounding Hays. In late summer, they move toward structures and enter through gaps around windows, rooflines, and utility penetrations to overwinter in wall voids and attics. On warm late-winter days, they emerge in living spaces in numbers that can be alarming. Unlike most flies, they do not breed indoors, and they do not contaminate food. The problem is scale: a single wall void can hold thousands. Mice follow a similar pattern, pushing indoors as temperatures drop in October and establishing in wall voids, kitchen areas, and storage spaces throughout the winter. Both problems are best addressed by sealing entry points in September before they establish.",
+      },
+      {
+        heading: "University Food Service, Chiggers, and Brown Recluse in Ellis County",
+        body:
+          "Fort Hays State University brings food service operations to Hays at a scale that supports German cockroach populations in dining halls, bars, and off-campus food establishments. This is primarily a commercial pest management challenge, but it affects the broader community because poorly managed facilities create reservoir populations that spread. Brown recluse spiders in Hays are concentrated in older homes, outbuildings, and any structure with long-undisturbed storage areas. They are at the western edge of their range in Ellis County, meaning populations are lower than in eastern Kansas, but they are present and warrant caution. Chiggers are the main outdoor pest concern in late summer, particularly in grassy areas near Big Creek and in any unmowed field or park. They are a significant nuisance pest with no structural component, managed primarily through clothing, repellent, and treatment of high-risk outdoor areas.",
+      },
+    ],
+    prevention: [
+      "Seal all attic vents, roofline gaps, and utility penetrations before September 1 in Hays to block cluster flies before they begin aggregating on warm exterior walls.",
+      "Seal foundation gaps and the garage door sweep by October 1 to keep house mice out of your Ellis County home through the long western Kansas winter.",
+      "Wear long pants tucked into socks and use insect repellent with DEET when spending time in grassy areas near Big Creek or open fields in Hays from July through September.",
+      "Store all bulk food items and grain in sealed containers, as mouse pressure in Hays is driven significantly by accessible food sources in kitchen and storage areas.",
+    ],
+    costNote:
+      "Mouse control programs in Hays typically run $140 to $260 for a full season including entry-point inspection and exterior bait station maintenance. Cluster fly treatment involves exterior perimeter application in fall and is generally priced at $80 to $150 for a standard western Kansas home. Brown recluse inspection and treatment in older Hays homes averages $110 to $200 for initial service.",
+    faqs: [
+      {
+        question:
+          "Are cluster flies a big problem in Hays and what can I actually do about them?",
+        answer:
+          "Cluster flies are a significant overwintering pest in Hays and throughout Ellis County, particularly in older homes and rural residential properties near agricultural land. They enter structures in late summer and are often not noticed until warm days in February and March, when they emerge from wall voids in large numbers. The two most effective steps are sealing entry points around rooflines, window frames, and utility penetrations before late August, and applying an exterior perimeter treatment in mid-September. Once they are inside the walls, the options are limited to vacuuming the ones that emerge and committing to better exclusion the following fall.",
+      },
+      {
+        question:
+          "How bad are house mice in Hays compared to eastern Kansas?",
+        answer:
+          "The cold Ellis County winters make mouse pressure in Hays persistent and long-lasting, but the surrounding landscape is different from eastern Kansas. Hays sits closer to grain storage, feed operations, and agricultural infrastructure that supports larger mouse populations year-round. The cold season runs from October through April, meaning mice are actively seeking indoor shelter for six months of the year. Homes near grain elevators, feed stores, or any agricultural storage on the edges of Hays should treat exterior bait station maintenance as an annual necessity rather than a reaction to seeing a mouse.",
+      },
+      {
+        question:
+          "Do brown recluse spiders live in Hays, or is western Kansas too dry for them?",
+        answer:
+          "Brown recluse are present in Hays, though at lower densities than in eastern Kansas cities like Wichita or Kansas City. They are toward the western edge of their range in Ellis County but are established in older structures, particularly those with crawlspaces, unfinished basements, or long-undisturbed attic storage. If your Hays home was built before 1970 and has areas that have not been thoroughly cleaned or inspected in years, a professional spider inspection is a reasonable precaution.",
+      },
+      {
+        question:
+          "What should I know about chiggers in the Hays area?",
+        answer:
+          "Chiggers are active in Hays from July through September, with peak activity in August. They are most common in areas with tall grass, thick ground cover, or leaf litter, including the margins of Big Creek, unmowed parks, and the edges of any agricultural field. They attach to skin and cause intensely itchy red welts that last several days. Prevention is straightforward: wear long pants tucked into socks, apply DEET-based repellent to legs and ankles before entering grassy areas, and shower promptly after outdoor activity. Chigger larvae are nearly invisible to the naked eye and cannot be seen on clothing.",
+      },
+      {
+        question:
+          "Why do I see so many flies emerging from my Hays walls in February when it has been cold all winter?",
+        answer:
+          "Those are almost certainly cluster flies, and what you are seeing is a warm-day emergence from an overwintering colony in your wall voids or attic. Cluster flies do not breed indoors: they entered your home in September or October and have been dormant in the walls through the cold months. A warm day in late winter raises the wall cavity temperature enough to trigger movement, and they head toward light, which means interior windows and ceiling fixtures. Vacuuming them as they appear is the immediate solution. Sealing the entry points they used the previous fall is the permanent one.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Salina", slug: "salina" },
+      { name: "Dodge City", slug: "dodge-city" },
+      { name: "Great Bend", slug: "great-bend" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle:
+      "Pest Control in Hays, KS | Mice, Brown Recluse & Cluster Flies",
+    metaDescription:
+      "Hays KS pest control for house mice, brown recluse spiders, German cockroaches, cluster flies and chiggers. Ellis County western Kansas specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

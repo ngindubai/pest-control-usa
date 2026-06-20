@@ -2090,4 +2090,228 @@ export const iowaCities: CityLocation[] = [
     metaTitle: "Pest Control in Clinton, IA | Mice, Rats, Mosquitoes & Cluster Flies",
     metaDescription: "Clinton IA pest control for house mice, Norway rats, mosquitoes, cluster flies and boxelder bugs. Clinton County Mississippi River valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "burlington-ia",
+    name: "Burlington",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~24,000",
+    county: "Des Moines County",
+    climate: "cold-humid",
+    climateDriver:
+      "Burlington sits on the Mississippi River bluffs in Des Moines County, where the cold, humid Iowa climate creates a strong seasonal pest cycle. Cold winters push mice and rats indoors from October through April, while the Mississippi River bottomlands generate summer mosquito pressure and sustain elevated termite activity in river-adjacent soils.",
+    topPests: [
+      "House Mice",
+      "Norway Rats",
+      "Cluster Flies",
+      "Boxelder Bugs",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through April, peak November through February",
+        note: "House mice move indoors aggressively as Burlington's Mississippi River bluff temperatures drop in fall. The city's older residential neighborhoods, historic Snake Alley district, and rail-adjacent commercial areas provide extensive harborage in wall voids, basements, and crawlspaces. Seal foundation gaps and utility penetrations before October.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, more active indoors October through April",
+        note: "Norway rats are present along the Burlington riverfront, rail yards, and older commercial districts adjacent to the Mississippi. They burrow in earthen banks, travel along storm drain corridors, and enter structures through gaps at or below grade. Commercial properties near the river should include exterior bait stations in any ongoing service plan.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "pest-control",
+        activeSeason: "September through October invasion, dormant November through March",
+        note: "Cluster flies are one of the most frequently reported fall pests in Burlington. They gather in massive numbers on sun-warmed south and west exterior walls in September before pushing into wall voids and attics to overwinter. Homes along the river bluffs and older two-story structures are most affected. Sealing exterior gaps before September reduces winter populations indoors.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "pest-control",
+        activeSeason: "September through October invasion, warm winter days",
+        note: "Boxelder bugs emerge in large numbers from seed-bearing boxelder and silver maple trees in Burlington each fall. They congregate on south-facing walls, enter through window frames and siding gaps, and overwinter in wall voids. They do not reproduce indoors but become a nuisance when warm days in winter cause them to emerge inside the home.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Mississippi River bottomlands and low-lying drainage areas in Des Moines County create productive mosquito breeding habitat through the summer months. Burlington properties near the river floodplain see heavier mosquito pressure than upland areas, with peak activity in June and July following spring high water.",
+      },
+    ],
+    localHook:
+      "Burlington's Snake Alley, billed as the crookedest street in the world, anchors a historic downtown district full of Victorian-era homes and older commercial buildings. That aged housing stock, combined with the Mississippi River corridor, creates the specific pest pressures Des Moines County homeowners deal with every fall and winter.",
+    intro:
+      "Burlington's location on the Mississippi River bluffs defines its pest calendar. House mice and Norway rats move indoors when temperatures fall, following the same river corridors and rail infrastructure that shaped the city's commercial history. Cluster flies and boxelder bugs invade by the thousands each September, filling wall voids in the older homes along the bluffs. The Mississippi bottomlands produce mosquitoes through the warm months. Eastern subterranean termites are active in the river-adjacent soils. A Burlington pest plan accounts for all of this, not just the most visible species.",
+    sections: [
+      {
+        heading: "Mice and Rats Along Burlington's River Corridor",
+        body: "The Mississippi River corridor and the older commercial and rail infrastructure near downtown Burlington create year-round rodent pressure. House mice are the most common indoor pest from October through April, exploiting every gap in older foundations and utility lines. Norway rats are less common indoors but are present along the riverfront, storm drain system, and older commercial blocks. Both species require exclusion work, not just trapping and baiting, to achieve lasting control. Start with a thorough inspection of the foundation, crawlspace access points, and utility penetrations before setting interior devices.",
+      },
+      {
+        heading: "Fall Invaders and Summer Mosquitoes in Des Moines County",
+        body: "Burlington's fall pest season begins in September when cluster flies and boxelder bugs appear on exterior walls in large numbers before entering the structure. Cluster flies are parasites of earthworms and spend summer outdoors before seeking warm wall voids for winter. Boxelder bugs use seed-bearing trees as their summer host and move to structures in early fall. Both are best controlled with exterior perimeter treatments in late August and September before the invasion begins, combined with sealing of gaps where they enter. Summer mosquito pressure from the Mississippi bottomlands calls for barrier spray programs targeting resting vegetation, starting in May and running through September.",
+      },
+    ],
+    prevention: [
+      "Seal all gaps at the foundation, utility penetrations, and siding joints before October to prevent mice and rats from entering Burlington homes as temperatures drop.",
+      "Apply exterior perimeter treatments for cluster flies and boxelder bugs in late August and early September before populations move onto walls.",
+      "Eliminate standing water in low-lying yard areas and drainage features by early May to reduce mosquito breeding near the Mississippi River bottomlands.",
+      "Keep firewood stacked away from exterior walls and maintain clear space around the foundation to reduce mouse and rat harborage near the structure.",
+    ],
+    costNote:
+      "Pest control in Burlington is priced in line with southeast Iowa's market. Rodent exclusion and control programs start with a free inspection and are typically quoted per project based on structure size and entry points. Cluster fly and boxelder bug perimeter treatments run in late summer. Mosquito barrier service covers May through September.",
+    faqs: [
+      {
+        question: "Why do cluster flies appear in such large numbers in Burlington each fall?",
+        answer:
+          "Burlington's mix of older homes, river bluff setting, and surrounding agricultural land creates ideal cluster fly conditions. Cluster flies spend summer as parasites of earthworms in the surrounding fields and lawns, then move to structures in September seeking warmth for winter. South-facing exterior walls on older homes with gaps in siding and window frames provide easy entry into wall voids. Burlington's older housing stock means many homes have accumulated entry points over decades. An exterior perimeter treatment applied in late August, before the invasion starts, is the most effective intervention.",
+      },
+      {
+        question: "Are Norway rats common near Burlington's riverfront?",
+        answer:
+          "Norway rats are present along the Burlington riverfront and in older commercial areas adjacent to the Mississippi. They are burrowers and prefer earthen banks, storm drain corridors, and areas with consistent food sources such as restaurant dumpsters and riverside commercial operations. They are less likely to be found in upland residential areas unless harborage and food sources bring them there. Commercial properties near the river should maintain exterior rodent stations as part of ongoing pest management.",
+      },
+      {
+        question: "How long is mosquito season in Burlington near the Mississippi?",
+        answer:
+          "Mosquito season in Burlington runs from approximately May through September, with peak pressure in June and July following the spring flood cycle on the Mississippi. The river bottomlands hold standing water well after spring high water recedes, providing extended breeding habitat. Properties on the lower bluffs and in flood-adjacent neighborhoods see heavier pressure than those on the upland ridges. Barrier spray programs targeting shrub and vegetation resting sites give the best results when started by the first week of May.",
+      },
+      {
+        question: "Are eastern subterranean termites active in Burlington?",
+        answer:
+          "Yes. Eastern subterranean termites are active in Burlington and Des Moines County. The moist soils in the Mississippi River valley create favorable conditions for termite colonies, and Burlington's older housing stock includes structures with original wood components that have never had soil barrier treatment. Annual inspections are the standard baseline for Burlington properties, and homes near the river or with crawlspaces should be prioritized for active protection plans.",
+      },
+      {
+        question: "What is the best way to control boxelder bugs in a Burlington home?",
+        answer:
+          "Boxelder bugs in Burlington are best controlled before they enter the structure. An exterior perimeter treatment applied in September, targeting the walls and entry points where bugs congregate, kills them before they move inside. Sealing gaps in window frames, siding joints, and utility penetrations removes entry routes for those that survive the exterior treatment. Removing seed-bearing boxelder and silver maple trees from the immediate yard reduces the source population, though this is a longer-term measure. Once inside, vacuuming is the most practical removal method, as killing them indoors can attract carpet beetles to the dried carcasses.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Davenport", slug: "davenport" },
+      { name: "Clinton", slug: "clinton-ia" },
+      { name: "Keokuk", slug: "keokuk" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Burlington, IA | Mice, Cluster Flies & Mosquitoes",
+    metaDescription:
+      "Burlington IA pest control for house mice, Norway rats, cluster flies, boxelder bugs and mosquitoes. Des Moines County Mississippi River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "muscatine",
+    name: "Muscatine",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~22,000",
+    county: "Muscatine County",
+    climate: "cold-humid",
+    climateDriver:
+      "Muscatine sits on the Mississippi River in southeast Iowa, where the river-influenced humid climate creates cold winters and warm, humid summers. The cold-humid conditions drive strong seasonal pest cycles, with mice and overwintering insects the dominant cold-season pests and mosquitoes active near the river from May through September.",
+    topPests: [
+      "House Mice",
+      "Cluster Flies",
+      "Boxelder Bugs",
+      "Mosquitoes",
+      "Eastern Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through April",
+        note: "House mice are the primary indoor pest in Muscatine from fall through early spring. The city's older industrial and residential buildings along the Mississippi provide extensive wall void and crawlspace harborage. Properties near the grain handling and processing facilities in Muscatine County see year-round pressure as food sources sustain populations through the warm season.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "pest-control",
+        activeSeason: "September through October invasion, overwinter in walls",
+        note: "Cluster flies are a significant fall nuisance in Muscatine, particularly in older two-story homes. They enter wall voids and attics in September before cold sets in and emerge on warm winter and early spring days, sometimes in large numbers. Muscatine's older housing stock along the river bluffs is especially susceptible. Perimeter treatments in late August are the most effective preventive measure.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "pest-control",
+        activeSeason: "September through October, warm winter days",
+        note: "Boxelder bugs from seed-bearing trees in Muscatine residential neighborhoods move to south-facing walls and enter structures in fall. They overwinter in wall voids and emerge on warm days, creating indoor nuisance problems through the cold months.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Mississippi River bottomlands and Muscatine sloughs create productive mosquito breeding habitat near the city. Properties on the lower ground near the river see heavier summer pressure than those in upland residential areas. Peak season runs June through August, with activity extending into September in warm years.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "April through October, swarms in spring",
+        note: "Subterranean termites are active in Muscatine County, particularly in the moist alluvial soils near the Mississippi. The older industrial and commercial buildings along the river, including former button manufacturing facilities and riverfront warehouses, carry accumulated termite pressure. Annual inspections are warranted for any older structure in Muscatine.",
+      },
+    ],
+    localHook:
+      "Muscatine was once the pearl button capital of the world, harvesting freshwater mussels from the Mississippi to manufacture buttons for global markets. The older waterfront industrial buildings and historic residential districts that remain from that era carry the pest pressures that come with age and river proximity.",
+    intro:
+      "Muscatine's Mississippi River setting and older building stock create a pest profile centered on rodents, overwintering insects, and summer mosquitoes. House mice move into wall voids and crawlspaces in October. Cluster flies and boxelder bugs gather on exterior walls in September and push indoors before winter. Mosquitoes are productive near the river sloughs through summer. Subterranean termites are active in the river-adjacent soils. Muscatine homeowners benefit from a seasonal plan that addresses each of these in sequence rather than reacting to one at a time.",
+    sections: [
+      {
+        heading: "House Mice and the Fall Rodent Invasion in Muscatine",
+        body: "Muscatine's older residential and commercial buildings provide abundant entry points for house mice as temperatures drop in October. Foundations with gaps, utility penetrations with inadequate sealing, and crawlspaces with deteriorating access covers are the most common entry routes. Properties near grain handling or food processing operations face year-round pressure. A mouse exclusion program begins with a systematic inspection to identify all entry points, followed by sealing and interior device placement. Traps and bait stations without exclusion give only temporary relief in a river-adjacent city with as much older infrastructure as Muscatine.",
+      },
+      {
+        heading: "Cluster Flies, Boxelder Bugs, and Mosquitoes in Muscatine County",
+        body: "The fall invasion calendar in Muscatine follows a consistent pattern each year. Boxelder bugs appear first, emerging from trees in late August and congregating on south and west exterior walls before finding entry points. Cluster flies follow in September, seeking attic and wall void access as they prepare to overwinter. Both are best treated with an exterior perimeter spray in late August before numbers peak. Mosquito season from the Mississippi sloughs runs May through September and calls for barrier spray targeting resting vegetation in shaded areas of the yard. Eliminating standing water in low spots, gutters, and containers by early May reduces breeding sites before the season peaks.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks, utility gaps, and siding joints before October to block house mouse entry into Muscatine homes as cold weather arrives.",
+      "Schedule a late-August exterior perimeter treatment to intercept cluster flies and boxelder bugs before they enter wall voids for winter.",
+      "Remove standing water from low-lying yard areas, gutters, and containers by early May to limit mosquito breeding near the Mississippi River sloughs.",
+      "Request an annual termite inspection for any Muscatine property near the river corridor, particularly older structures with crawlspaces.",
+    ],
+    costNote:
+      "Pest control in Muscatine is priced in line with the southeast Iowa market. Rodent exclusion programs are quoted by project. Cluster fly and boxelder bug perimeter treatments run in late summer. Mosquito barrier service covers May through September. Termite inspections are typically free.",
+    faqs: [
+      {
+        question: "What is the best time to treat for cluster flies in Muscatine?",
+        answer:
+          "The best time to treat for cluster flies in Muscatine is late August, before the mass migration to exterior walls begins in September. An exterior perimeter treatment applied to the south and west sides of the structure, targeting gaps in siding, window frames, and eaves, kills flies before they enter. Once cluster flies are inside wall voids, removal becomes difficult and spring emergence is the result. Sealing the entry points they use in combination with the exterior treatment gives the best long-term outcome.",
+      },
+      {
+        question: "Are termites a concern in Muscatine near the Mississippi?",
+        answer:
+          "Yes. Subterranean termites are active in Muscatine County, and the moist alluvial soils near the Mississippi River sustain larger colonies than the drier upland areas. Muscatine's older industrial and residential buildings, some dating to the pearl button manufacturing era in the late 1800s and early 1900s, have accumulated decades of termite exposure. Any older Muscatine structure, particularly those with crawlspaces and wood near grade, should have annual termite inspections.",
+      },
+      {
+        question: "Why are mosquitoes so active near Muscatine's river areas?",
+        answer:
+          "The Mississippi River creates sloughs, backwater areas, and low-lying ground near Muscatine that hold standing water through the warm season. These provide breeding habitat that extends the effective mosquito season well beyond what a drier inland location would see. Properties on lower ground near the river experience heavier and longer pressure than those in upland neighborhoods. A barrier spray program starting in early May, targeting shaded resting vegetation, makes the biggest practical difference for outdoor use of river-adjacent properties.",
+      },
+      {
+        question: "How do I know if I have a house mouse problem in Muscatine?",
+        answer:
+          "The most common signs of house mice in Muscatine are droppings along walls and in cabinet corners, gnaw marks on food packaging or insulation, and rustling sounds in walls or ceilings at night. Mice are most active from October through April in Iowa, and new activity is often noticed shortly after the first cold nights in October. A licensed technician can identify entry points and distinguish mouse activity from rat activity, which requires a different control approach. Do not wait to address signs of mice, as populations double quickly in heated structures.",
+      },
+      {
+        question: "How are boxelder bugs different from cluster flies in Muscatine homes?",
+        answer:
+          "Boxelder bugs and cluster flies both invade Muscatine homes in fall but come from different sources and behave differently indoors. Boxelder bugs are black and red insects that feed on boxelder and silver maple seeds during summer, then move to structures in September. They do not bite or reproduce indoors but stain surfaces when crushed. Cluster flies are slightly larger than houseflies, move slowly, and spend summer as earthworm parasites before invading structures. Both overwinter in wall voids and emerge on warm winter days. The control approach is similar: exterior perimeter treatment in late August followed by sealing of entry points.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Davenport", slug: "davenport" },
+      { name: "Iowa City", slug: "iowa-city" },
+      { name: "Burlington", slug: "burlington-ia" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Muscatine, IA | Mice, Cluster Flies & Boxelder Bugs",
+    metaDescription:
+      "Muscatine IA pest control for house mice, cluster flies, boxelder bugs, mosquitoes and termites. Muscatine County Mississippi River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

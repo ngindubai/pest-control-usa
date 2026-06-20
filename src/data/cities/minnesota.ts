@@ -4009,4 +4009,340 @@ export const minnesotaCities: CityLocation[] = [
     metaTitle: "Pest Control in Champlin, MN | Mississippi River Area",
     metaDescription: "Mississippi River floodplain and Elm Creek drive heavy mosquito pressure in Champlin, MN. Local pest control for mice, boxelder bugs, and more."
   },
+  {
+    slug: "oakdale-mn",
+    name: "Oakdale",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~28,000",
+    county: "Washington County",
+    climate: "cold-humid",
+    climateDriver:
+      "Oakdale sits in Washington County east of St. Paul, in a rapidly growing suburban area transitioning from agricultural and woodland land to dense residential development. Cold Minnesota winters drive mice and voles indoors aggressively. The summer mosquito season is driven by the area's numerous wetlands and drainage features. Boxelder bugs are a reliable fall pest given the abundance of boxelder trees in established residential areas.",
+    topPests: [
+      "House Mice",
+      "Mosquitoes",
+      "Carpenter Ants",
+      "Boxelder Bugs",
+      "Voles",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through February",
+        note: "Washington County's cold winters drive mice into Oakdale structures in force starting in October. Rapidly developing suburban areas have wooded edges and field margins that sustain large mouse populations adjacent to residential neighborhoods.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through August",
+        note: "Oakdale's numerous retention ponds, wetland areas, and the drainage corridors of Washington County create consistent mosquito breeding habitat from late May through August.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Older wooded areas in established Oakdale neighborhoods and the wooded edges of newer developments sustain carpenter ant populations. They nest in moisture-damaged wood and are a common spring complaint as colonies become active.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "pest-control",
+        activeSeason: "September through October entry",
+        note: "Boxelder and silver maple trees are common in Oakdale's established residential areas and along drainage corridors. The fall overwintering aggregation on south-facing exterior walls is a predictable annual event.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, damage most visible in spring",
+        note: "Voles tunnel through Oakdale lawns under winter snow, creating visible runway damage that becomes apparent in spring. They can also girdle young trees and shrubs at or below the snow line.",
+      },
+    ],
+    localHook:
+      "Oakdale is one of Washington County's fastest-growing suburbs, and that growth means a constant interface between new residential construction and the wooded and wetland land that previously surrounded the area. That edge creates elevated pest pressure: mice from field margins, mosquitoes from wetland retention features, and carpenter ants from mature woodland remnants.",
+    intro:
+      "Oakdale's rapid growth east of St. Paul puts it squarely in Washington County's growing-suburb pest pattern. New residential development sits at the edge of former woodland and agricultural land, which means mice, carpenter ants, and mosquitoes all have abundant habitat close to homes. Cold Minnesota winters drive mice indoors with force starting in October. The area's retention ponds and wetland corridors feed a summer mosquito season that runs from late May through August. Boxelder bugs arrive in fall with the predictability of the season change itself. Voles damage lawns under winter snow and become visible as a surprise problem in spring. Understanding which problem requires which approach makes a significant difference.",
+    sections: [
+      {
+        heading: "Comparing Mouse Control and Vole Control in Oakdale",
+        body: "House mice and voles are both small rodents that cause problems in Oakdale, but they are very different pests requiring different responses. House mice are indoor pests that enter structures through gaps in the foundation, pipe penetrations, and door seals. They nest inside and require exclusion plus trapping. Voles are outdoor pests that tunnel through lawns under winter snow, damaging grass roots and girdling young trees. Vole control focuses on habitat modification, reducing dense ground cover near plantings, and where appropriate, bait station programs placed in runways. Treating for one without addressing the other leaves half the problem unsolved. A spring inspection identifies which rodent is active and what the appropriate response looks like for each.",
+      },
+      {
+        heading: "Mosquito Season and Carpenter Ant Timing in Washington County",
+        body: "Oakdale's wetland and retention pond features, common in Washington County's planned suburban development, provide consistent mosquito breeding habitat from late May through August. Barrier spray programs targeting resting vegetation in the yard reduce adult populations significantly during the peak weeks of June and July. Carpenter ants follow a different timeline: they become active in late April as temperatures rise and are active through September. An April perimeter treatment intercepts foraging workers before trails establish inside the home. Any indication of carpenter ant activity in wood, such as sawdust-like frass, warrants a professional inspection to find the nesting site, which is always in moisture-damaged wood somewhere.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before October to intercept mice before Washington County's cold winter drives them into Oakdale structures.",
+      "Reduce dense ground cover and mulch near tree bases by fall to limit vole runway habitat and reduce snow-covered girdling damage.",
+      "Treat yard wetland and retention pond edges with source reduction measures by mid-May to get ahead of the main Oakdale mosquito season.",
+      "Apply a perimeter treatment in late April for carpenter ants before trails establish inside, targeting wood-framed soffits and foundation areas.",
+    ],
+    costNote:
+      "Oakdale pest control starts with a free inspection. Rodent exclusion for mice and a spring vole assessment are often addressed together. Summer mosquito programs run late May through August. Carpenter ant treatment is spring and early summer. Boxelder bug exterior treatment is an early October one-time service.",
+    faqs: [
+      {
+        question: "What is the difference between voles and mice in Oakdale?",
+        answer:
+          "Voles are outdoor lawn pests that tunnel under snow and damage grass, tree roots, and shrubs. They rarely enter structures. House mice are indoor pests that enter through structural gaps and nest inside. In Oakdale, many homeowners deal with both: mice entering the home in fall and voles damaging the lawn under winter snow. They require completely different control approaches.",
+      },
+      {
+        question: "Why does Oakdale have so many mosquitoes?",
+        answer:
+          "Washington County's planned suburban development in Oakdale includes numerous retention ponds and wetland features that serve as stormwater management but also as mosquito breeding habitat. The area's rapid growth has created many new water features close to residential areas. Barrier spray programs around the yard perimeter significantly reduce adult populations during the June through August peak.",
+      },
+      {
+        question: "Are carpenter ants a serious concern in newer Oakdale homes?",
+        answer:
+          "Newer construction can still develop carpenter ant problems if moisture management fails. Soffits, window frames, and wood near grade that develop moisture damage attract carpenter ants regardless of the home's age. Oakdale's wooded edges near developing areas also sustain large outdoor carpenter ant populations that forage into new homes. A spring perimeter treatment and annual inspection address the risk.",
+      },
+      {
+        question: "When should I expect boxelder bugs in my Oakdale home?",
+        answer:
+          "Boxelder bugs typically begin aggregating on south and west-facing exterior walls in mid-September in Washington County. Entry into wall voids and attics peaks in late September through October. Exterior sealing and a residual treatment applied to exterior surfaces in early September is the most effective preventive step. Once they are inside wall voids, treatment is more difficult.",
+      },
+      {
+        question: "How cold does it need to get before mice start entering Oakdale homes?",
+        answer:
+          "Mice in Oakdale typically start moving into structures when overnight temperatures consistently drop below 40 degrees Fahrenheit, which in Washington County usually happens in October. The surge continues through November. Getting exclusion work done in September, before that temperature threshold, gives you the best chance of intercepting the entry before mice are established inside.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Saint Paul", slug: "saint-paul" },
+      { name: "Woodbury", slug: "woodbury" },
+      { name: "Maplewood", slug: "maplewood" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Oakdale, MN | Mice, Mosquitoes & Boxelder Bugs",
+    metaDescription:
+      "Pest control in Oakdale, MN. Washington County service for house mice, voles, summer mosquitoes, carpenter ants, and boxelder bugs in Washington County's growing east suburbs. Free inspection.",
+  },
+  {
+    slug: "rosemount-mn",
+    name: "Rosemount",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~25,000",
+    county: "Dakota County",
+    climate: "cold-humid",
+    climateDriver:
+      "Rosemount sits in southern Dakota County southeast of Minneapolis, at the transition between suburban development and agricultural land. Cold Minnesota winters drive mice and voles toward structures. The agricultural-suburban interface creates elevated pest pressure. Summer mosquitoes are sustained by the area's numerous wetland and drainage features, and boxelder bugs are a fall fixture in established residential areas.",
+    topPests: [
+      "House Mice",
+      "Voles",
+      "Mosquitoes",
+      "Carpenter Ants",
+      "Boxelder Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through February",
+        note: "Rosemount's agricultural edge provides large field mouse populations that pressure residential structures hard in fall as crops are harvested and field cover disappears. Dakota County's cold winters make this a serious and predictable annual concern.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, damage visible in spring",
+        note: "Voles are common in Rosemount's residential lawns, particularly near natural areas and the agricultural margins at the south edge of town. They create visible runway damage under winter snow that surprises homeowners each spring.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through August",
+        note: "Wetland features, stormwater ponds, and the drainage corridors throughout southern Dakota County create consistent summer mosquito pressure. Rosemount's transition from agricultural land to suburban development has added numerous retention features that serve as breeding habitat.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are a spring and summer pest in Rosemount's established neighborhoods. Older wooded areas and mature trees near moisture-vulnerable wood are the primary nesting sites.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "pest-control",
+        activeSeason: "September through October",
+        note: "Boxelder and silver maple trees are present in Rosemount's residential areas, and the fall aggregation of boxelder bugs on warm exterior walls is a predictable annual event in neighborhoods with mature plantings.",
+      },
+    ],
+    localHook:
+      "Rosemount is developing fast along the southern edge of the Twin Cities metro, and its position at the agricultural-suburban transition in Dakota County gives it elevated fall mouse pressure compared to fully developed suburbs. When fields around Rosemount are harvested in October, mice move toward residential structures with urgency.",
+    intro:
+      "Rosemount's position at the edge of Dakota County's agricultural land gives it a fall pest surge that fully urbanized suburbs don't experience. Field mice displaced by October's crop harvest push toward any available heated structure, and Rosemount homes near the southern and eastern edges of town are in the direct path. Voles operate quietly under winter snow in residential lawns and reveal their network of runways each spring. Summer mosquitoes are sustained by the area's wetlands and retention features. Carpenter ants are active in established wooded areas through the warm season, and boxelder bugs aggregate on exterior walls in fall with the reliability of the changing leaves.",
+    sections: [
+      {
+        heading: "Comparing Field Mouse and Vole Pressure at Rosemount's Agricultural Edge",
+        body: "Two rodent problems operate on overlapping but different timelines in Rosemount. Field mice (house mice) seek indoor shelter as October crop harvest eliminates their field cover. The agricultural edge along Rosemount's south and east perimeter amplifies this pressure compared to more developed Dakota County communities. Exclusion work in September, sealing foundation gaps and utility penetrations, intercepts mice before they establish inside. Voles operate mostly outdoors, tunneling through lawns under snow and damaging grass root systems and shrub bases. Vole populations peak in fall and the damage becomes visible in spring when snow melts. Habitat reduction near shrubs and young trees, combined with bait station placement in active runways, addresses voles without the exclusion approach that controls mice. These are genuinely different problems.",
+      },
+      {
+        heading: "Mosquito Control and Seasonal Timing in Southern Dakota County",
+        body: "Rosemount's late May through August mosquito season is driven by the wetland and stormwater features that come with suburban development. Retention ponds and drainage swales throughout Dakota County provide breeding habitat that sustains populations from late spring through summer. Barrier spray programs targeting resting vegetation in the yard reduce adult populations significantly. The timing of the first application matters: waiting until mosquitoes are at peak numbers in July means tolerating the early season. A first application in late May, before populations peak, and follow-up treatments every three to four weeks through August, gives the best seasonal control for active outdoor spaces.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations in September, before October harvest pushes field mice from agricultural areas toward Rosemount residential structures.",
+      "Reduce dense ground cover and mulch piles near tree bases to limit vole runway habitat through winter.",
+      "Schedule the first mosquito barrier treatment for late May to get ahead of southern Dakota County's peak season before it peaks in July.",
+      "Apply a spring perimeter carpenter ant treatment in late April targeting foundation and soffit areas in Rosemount's established wooded neighborhoods.",
+    ],
+    costNote:
+      "Rosemount pest control starts with a free inspection. Mouse exclusion is an annual fall priority given the agricultural edge. Vole assessment can be combined with the spring follow-up. Mosquito programs run late May through August. Carpenter ant and boxelder bug treatment are seasonal. A recurring quarterly program covers year-round pest management.",
+    faqs: [
+      {
+        question: "Is agricultural land near Rosemount a real factor in mouse pressure?",
+        answer:
+          "Yes. Farms and crop fields around Rosemount's south and east edges support large mouse populations through summer. When fields are harvested in October, that cover disappears suddenly and mice move toward any available heated structure. Homes within a quarter mile of agricultural land see earlier and heavier fall mouse pressure than those in fully developed parts of Dakota County.",
+      },
+      {
+        question: "How do I know if my lawn has voles?",
+        answer:
+          "The clearest sign is the surface runways that become visible in spring after snow melts: shallow, winding channels about an inch wide through the grass, typically connected to burrow openings at intervals. If you find young trees or shrubs with bark gnawed in a ring around the base at or just above ground level, that is vole girdling. Lawn runways alone do not usually kill grass but look alarming. A professional assessment determines how active the population is.",
+      },
+      {
+        question: "What is the mosquito season timeline in Rosemount?",
+        answer:
+          "Mosquito pressure in Rosemount typically starts in late May with the first significant hatches, peaks in late June and July, and tapers through August. The first hard frost in October ends the season. The retention ponds and wetland features in southern Dakota County keep the breeding habitat productive through the full summer. Starting barrier treatments in late May rather than waiting for July gives more complete seasonal control.",
+      },
+      {
+        question: "Are boxelder bugs a structural pest or just a nuisance?",
+        answer:
+          "Primarily a nuisance. Boxelder bugs do not eat wood, breed indoors, or carry disease. However, when they die inside walls in large numbers, they can attract dermestid beetles that damage natural fiber items. Their feces can stain light-colored surfaces. The main reason to prevent them is the discomfort of having hundreds of insects inside walls and at windows through winter. Sealing entry points in September is the most effective approach.",
+      },
+      {
+        question: "Do carpenter ants in Rosemount ever go away without treatment?",
+        answer:
+          "No. Carpenter ant colonies in Rosemount's established neighborhoods are perennial and will continue to expand if nesting sites remain available. The outdoor colony in a tree or stump is the parent colony, and satellite colonies in structural wood are where damage happens. Without removing the moisture-damaged wood that is attracting them or treating the colony directly, they return each spring.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Apple Valley", slug: "apple-valley" },
+      { name: "Burnsville", slug: "burnsville" },
+      { name: "Eagan", slug: "eagan" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Rosemount, MN | Mice, Mosquitoes & Voles",
+    metaDescription:
+      "Pest control in Rosemount, MN. Dakota County specialists for field mice, voles, summer mosquitoes, carpenter ants, and boxelder bugs at the agricultural-suburban edge. Free inspection.",
+  },
+  {
+    slug: "stillwater-mn",
+    name: "Stillwater",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~20,000",
+    county: "Washington County",
+    climate: "cold-humid",
+    climateDriver:
+      "Stillwater sits on the St. Croix River in Washington County, one of Minnesota's most scenic and historic communities. The river valley creates a distinctive microclimate with high humidity and moisture that supports exceptional carpenter ant activity in the Victorian-era homes lining the bluffs. Cold winters drive mice indoors, and the St. Croix River bottomlands produce a significant summer mosquito season.",
+    topPests: [
+      "Carpenter Ants",
+      "House Mice",
+      "Mosquitoes",
+      "Boxelder Bugs",
+      "Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Stillwater's Victorian-era homes on the St. Croix River bluffs are among the most carpenter ant-vulnerable housing stock in Washington County. High humidity from the river valley, decades of accumulated moisture damage, and mature tree canopy create exceptional nesting conditions for large carpenter ant colonies.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through February",
+        note: "Cold Minnesota winters and the forested river valley give mice excellent habitat and a strong incentive to move into Stillwater's older structures in fall. The many settled foundations and aging utility systems in historic homes provide abundant entry points.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late May through August",
+        note: "The St. Croix River creates extensive riparian wetland habitat that sustains mosquito populations through Washington County's summer. Properties near the river valley see a heavier and longer season than those on the upland plateau.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "pest-control",
+        activeSeason: "September through October",
+        note: "Boxelder trees are common along Stillwater's river corridor and in residential areas. Fall aggregations on the Victorian homes' large south-facing facades are a predictable annual event that requires exterior treatment before entry.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active seasonally",
+        note: "Eastern subterranean termites are present in Washington County and represent a real risk for Stillwater's Victorian-era homes. The high humidity of the river valley and the accumulation of moisture in old construction create conditions that support termite activity.",
+      },
+    ],
+    localHook:
+      "Stillwater is the oldest city in Minnesota, incorporated in 1854, and the Victorian-era homes along the St. Croix River bluffs are some of the most historically significant residential structures in the Twin Cities region. They are also some of the most carpenter ant-vulnerable homes in Washington County, where river valley humidity and over a century of wood aging combine to create near-ideal nesting conditions.",
+    intro:
+      "Stillwater's Victorian homes are genuinely beautiful and genuinely pest-vulnerable. The high humidity of the St. Croix River valley, combined with over a century of settling, accumulated moisture damage, and the mature tree canopy that shades these historic homes, creates excellent conditions for carpenter ants year after year. Mice find easy access in the many settled gaps of older foundations. The river bottomlands push mosquito season from late May through August with real intensity near the water. Boxelder bugs aggregate on those large Victorian facades in fall with impressive numbers. Termites are a real risk in older construction in Washington County's river valley. Knowing your home's specific vulnerability makes the difference.",
+    sections: [
+      {
+        heading: "Carpenter Ants in Stillwater's Victorian-Era Homes",
+        body: "Carpenter ants are the defining pest challenge in Stillwater's historic neighborhoods. A Victorian-era home on the bluffs above the St. Croix has everything a large carpenter ant colony needs: high ambient humidity from the river valley, decades of accumulated moisture damage in soffits, window frames, porch framing, and sub-floor areas, and a mature tree canopy that connects outdoor colonies to the structure. Carpenter ant damage in Stillwater's older homes can be significant if left unaddressed for multiple seasons. The professional approach starts with identifying the satellite colony inside the structure, finding the moisture source that is sustaining it, correcting that moisture condition where possible, and then treating the affected wood. A spring perimeter treatment in April intercepts foraging workers. An annual inspection keeps ahead of new satellite colony establishment.",
+      },
+      {
+        heading: "Mice and Mosquitoes Along the St. Croix",
+        body: "Mice in Stillwater's old homes enter through the same settled gaps and aging utility penetrations that make historic preservation challenging. A September exclusion inspection, before Minnesota's fall cold sets in hard, identifies the most actively used entry points. The St. Croix River and its bottomlands sustain mosquito populations through Washington County's summer, and properties on the lower bluffs near the river see heavier pressure than those on the upper plateau. Barrier spray programs targeting resting vegetation in the yard significantly reduce adult populations during the peak late-June through July period. The combination of river humidity, mature trees, and older construction means Stillwater properties are worth inspecting thoroughly for the full range of pest risks.",
+      },
+    ],
+    prevention: [
+      "Inspect soffits, window frames, and porch framing in spring for moisture damage that sustains carpenter ant satellite colonies in Stillwater's older homes.",
+      "Seal foundation gaps, door sweeps, and utility penetrations in September before fall cold drives mice into the settled openings of historic construction.",
+      "Apply a May perimeter treatment for carpenter ants before foraging trails establish inside the home during the active Washington County season.",
+      "Remove standing water from gutters and yard features by late May to reduce mosquito breeding near the St. Croix River corridor.",
+    ],
+    costNote:
+      "Stillwater pest control for historic homes typically starts with a thorough inspection that identifies carpenter ant activity, moisture damage, and rodent entry points. Carpenter ant treatment and annual inspection are the highest-priority services. Mouse exclusion and seasonal mosquito programs are available. A termite inspection is recommended given the age of housing stock and Washington County's documented termite presence.",
+    faqs: [
+      {
+        question: "Why are carpenter ants such a problem in Stillwater's historic homes?",
+        answer:
+          "Three factors combine: the St. Croix River valley's high humidity, the age of the construction with its accumulated moisture damage, and the mature tree canopy that provides colony connectivity. Victorian-era homes have soffits, window frames, porch framing, and sub-floor areas that have had over a century to develop the moisture damage that carpenter ants need for nesting. The river valley microclimate keeps humidity higher than in inland Washington County communities.",
+      },
+      {
+        question: "Are termites a real concern in Stillwater?",
+        answer:
+          "Eastern subterranean termites are present in Washington County and represent a genuine risk for Stillwater's older construction. The river valley's humidity and the moisture-prone character of Victorian-era buildings create favorable conditions. Any historic Stillwater property that has not had a recent termite inspection should have one, as the age and construction style of these homes make them more vulnerable than modern construction.",
+      },
+      {
+        question: "How intense is mosquito season near the St. Croix River in Stillwater?",
+        answer:
+          "Properties near the river bottomlands see a notably heavier mosquito season than those on the upland plateau. The St. Croix's riparian wetlands provide sustained breeding habitat from late May through August. The peak weeks are late June and July. Barrier spray programs targeting resting vegetation in yards near the river provide significant relief during those months.",
+      },
+      {
+        question: "Do boxelder bugs cause any damage to Stillwater's Victorian homes?",
+        answer:
+          "No structural damage. Boxelder bugs enter wall voids through gaps in Victorian-era exterior cladding and can accumulate in large numbers. Their feces can stain light-colored historic paint. The primary concern is preventing the overwintering population inside walls, which can be substantial given the large, complex exterior surfaces of Victorian homes. Exterior treatment in late September and sealing primary entry points is the best approach.",
+      },
+      {
+        question: "Is it worth getting a thorough pest inspection on a Stillwater Victorian home before purchasing?",
+        answer:
+          "Absolutely, and it should cover termites, carpenter ants, and rodents specifically. The age and construction style of historic Stillwater homes means pest vulnerabilities can be significant and may not be visible without a professional inspection. A home that has had active carpenter ant colonies for several seasons may have meaningful structural wood damage. A pre-purchase inspection provides the information needed to negotiate repair costs or treatment requirements.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Saint Paul", slug: "saint-paul" },
+      { name: "Woodbury", slug: "woodbury" },
+      { name: "Oakdale", slug: "oakdale-mn" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Stillwater, MN | Carpenter Ants in Victorian Homes",
+    metaDescription:
+      "Pest control in Stillwater, MN. St. Croix River Valley specialists for carpenter ants in Victorian homes, mouse exclusion, summer mosquitoes, and boxelder bugs in Washington County. Free inspection.",
+  },
 ];

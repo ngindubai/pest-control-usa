@@ -4677,4 +4677,340 @@ export const northCarolinaCities: CityLocation[] = [
     metaTitle: "Pest Control in Knightdale, NC | Termites, Mosquitoes & Fire Ants",
     metaDescription: "Pest control in Knightdale, NC. Local service for subterranean termites in one of NC's highest-risk zones, mosquitoes near the Neuse River basin, fire ants, and stink bugs in Wake County.",
   },
+  {
+    slug: "eden-nc",
+    name: "Eden",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~15,000",
+    county: "Rockingham County",
+    climate: "temperate",
+    climateDriver:
+      "Eden sits in northern North Carolina's Piedmont, at the confluence of the Smith and Dan rivers, near the Virginia border. The temperate climate with warm, humid summers and cold but not severe winters supports active subterranean termites through the warm season and drives mice into structures in fall and winter. The river systems create standing water for mosquitoes. The former textile mill buildings in Eden's historic downtown create pest harborage in aging industrial structures.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "German Cockroaches",
+      "Mosquitoes",
+      "House Mice",
+      "Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Subterranean termites are documented throughout Rockingham County. Eden's older residential stock and the aging former mill buildings present elevated termite risk from decades of exposure in a warm, humid Piedmont environment.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are an ongoing concern in Eden's older commercial buildings, restaurant district, and multi-family housing. They spread through shared plumbing in older structures and are difficult to control without treating the whole building.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through September",
+        note: "The Smith and Dan rivers at Eden's confluence create low-lying floodplain areas that sustain mosquito breeding habitat through the warm season. Properties near the river confluence see more intense pressure than upland areas of Rockingham County.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Cold northern Piedmont winters drive mice into Eden's older buildings from October through March. The forested areas along the river corridors provide summer habitat that pushes mice toward structures in fall.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs are established across the North Carolina Piedmont. Eden's proximity to the Virginia border places it in the zone of highest regional stink bug pressure, as populations are denser in the Mid-Atlantic states to the north.",
+      },
+    ],
+    localHook:
+      "Eden formed in 1967 from the merger of three mill towns: Leaksville, Spray, and Draper. The legacy of textile mill industry left Eden with significant older building stock along the Smith and Dan rivers, and those aging structures, many with wood-frame construction dating to the early twentieth century, carry genuine termite and rodent risk. The river confluence that powered the mills now drives Eden's mosquito season.",
+    intro:
+      "Eden's pest calendar is shaped by its rivers and its history. The Smith and Dan rivers at the city's confluence create floodplain areas that sustain mosquito populations from April through September, with heavier pressure near the water. The former textile mill buildings and older residential construction in Rockingham County carry genuine termite risk from decades in a warm, humid Piedmont environment. German cockroaches are a consistent concern in older commercial and multi-family buildings. Mice push into structures from October through March. Stink bugs arrive each fall from their established range across the North Carolina Piedmont and into Virginia.",
+    sections: [
+      {
+        heading: "Termites and Cockroaches in Eden's Historic Building Stock",
+        body: "Eden's origin as three merged mill towns left it with significant older building stock, including early twentieth-century residential construction and commercial buildings that have been through decades of use. Eastern subterranean termites are active in Rockingham County's Piedmont soils and represent a real risk for properties with crawlspaces, wood near grade, and aging foundation systems. Annual inspections are the appropriate standard. German cockroaches are a separate concern in commercial buildings and multi-family housing. They spread through shared plumbing in older structures and can be difficult to eliminate without treating the entire building. A single-unit treatment that leaves adjacent units untreated allows re-infestation through wall voids and plumbing penetrations.",
+      },
+      {
+        heading: "River Confluence Mosquitoes and Fall Stink Bugs",
+        body: "The Smith and Dan rivers join at Eden, creating the Dan River, and the floodplain at that confluence provides consistent mosquito breeding habitat through the warm season. Properties near the river are the most affected, but the broader Rockingham County area sees active mosquito pressure from April through September. Barrier spray programs targeting resting vegetation around the home significantly reduce adult populations. Stink bugs are a fall nuisance across the North Carolina Piedmont, and Eden's proximity to the Virginia border puts it in the zone where the established Mid-Atlantic population is densest. Exterior sealing and treatment in September is the most effective prevention.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for any Eden property with older construction or crawlspace framing given Rockingham County's documented termite presence.",
+      "Seal plumbing penetrations and utility gaps in commercial buildings to limit German cockroach spread between units and floors.",
+      "Remove standing water from river floodplain edges and property drainage features by early April to reduce mosquito breeding near the Smith-Dan confluence.",
+      "Seal exterior gaps and apply residual treatment to exterior walls in September before stink bugs begin aggregating on structures near the Virginia border.",
+    ],
+    costNote:
+      "Eden pest control starts with a free inspection. Termite protection plans are annual. German cockroach treatment in multi-family or commercial settings often requires a multi-unit program. Mosquito service runs April through September. Stink bug exclusion and treatment is a late summer annual service.",
+    faqs: [
+      {
+        question: "Do the Smith and Dan rivers make mosquitoes worse in Eden?",
+        answer:
+          "Yes. The confluence of the Smith and Dan rivers at Eden creates floodplain areas that hold standing water after rain events, providing sustained mosquito breeding habitat from April through September. Properties near the river see heavier pressure and an earlier start to the season than upland areas of Rockingham County.",
+      },
+      {
+        question: "Why are German cockroaches such a problem in older buildings?",
+        answer:
+          "German cockroaches spread through the shared plumbing systems and wall voids in older multi-family and commercial buildings. A treatment that addresses only visible populations without treating the full building typically results in re-infestation from untreated units within weeks. Effective control in an older Eden building requires a coordinated program covering all units and common spaces.",
+      },
+      {
+        question: "Are termites active in Rockingham County's Piedmont soils?",
+        answer:
+          "Eastern subterranean termites are documented throughout Rockingham County. Eden's Piedmont soils and warm, humid summers support active termite populations through the warm season. Older construction with crawlspaces and wood near grade carries the highest risk. Annual inspections are the appropriate minimum for any property in this climate.",
+      },
+      {
+        question: "When should I prepare for stink bugs near the Virginia border?",
+        answer:
+          "The effective treatment window for stink bugs in Eden is late August through mid-September. Stink bugs begin aggregating on south and west-facing walls in September and enter through any unsealed gap. A residual exterior treatment applied in late August and systematic sealing of window frames, utility penetrations, and soffit vents gives the best protection before peak entry occurs.",
+      },
+      {
+        question: "What is the history of Eden's pest challenges related to its mill buildings?",
+        answer:
+          "Eden formed from three former textile mill towns whose mills ran on the Dan River's water power. Those mills brought large wood-frame buildings, worker housing, and older commercial infrastructure that has accumulated pest vulnerability over generations. The legacy buildings that remain have had decades of potential termite exposure in a region with active subterranean termite populations. Any historic or former commercial building in Eden is worth a professional termite assessment.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Greensboro", slug: "greensboro" },
+      { name: "Winston-Salem", slug: "winston-salem" },
+      { name: "Durham", slug: "durham" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Eden, NC | Termites, Cockroaches & River Mosquitoes",
+    metaDescription:
+      "Pest control in Eden, NC. Rockingham County service for subterranean termites, German cockroaches, Dan River mosquitoes, mice, and stink bugs near the Virginia border. Free inspection.",
+  },
+  {
+    slug: "albemarle-nc",
+    name: "Albemarle",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~16,000",
+    county: "Stanly County",
+    climate: "hot-humid",
+    climateDriver:
+      "Albemarle sits in the central North Carolina Piedmont in Stanly County, in the Yadkin River watershed. The hot, humid climate with long, warm summers and mild winters supports active subterranean termites year-round and a long mosquito season. The former textile industry left an older urban core with aging construction that carries accumulated termite and rodent risk.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "German Cockroaches",
+      "House Mice",
+      "Fire Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms in spring",
+        note: "Stanly County's Piedmont soils and hot, humid climate support active subterranean termite populations. Albemarle's older residential and commercial construction carries accumulated termite risk. Annual inspections are the appropriate standard here.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Yadkin River watershed and the low-lying areas throughout Stanly County create mosquito breeding habitat that sustains an active season from April through October in Albemarle's warm Piedmont climate.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are a consistent indoor pest in Albemarle's older commercial and multi-family buildings. They breed indoors and are unaffected by outdoor temperature, requiring an interior treatment program rather than perimeter control.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Mice push into Albemarle's older buildings from October through March as central North Carolina temperatures drop. The older construction in downtown Albemarle and the surrounding residential areas provides many entry points.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Red imported fire ants are established across the central North Carolina Piedmont including Stanly County. They are a consistent warm-season pest in Albemarle's residential lawns and open spaces.",
+      },
+    ],
+    localHook:
+      "Albemarle is the county seat of Stanly County and sits in the geographic center of the North Carolina Piedmont. The city's former textile industry left a downtown with significant older building stock, and the Yadkin River watershed that surrounds the area creates the moist soil conditions that sustain subterranean termites through an extended warm season.",
+    intro:
+      "Albemarle's central Piedmont location and its legacy of textile manufacturing have combined to create an older urban core with real pest vulnerabilities. Subterranean termites are active in Stanly County's warm, humid soils through most of the year, and older construction downtown and in the surrounding neighborhoods has had decades of exposure. German cockroaches are a year-round concern in older commercial and multi-family buildings. Mosquitoes are productive from April through October in the Yadkin River watershed. Mice push into structures from October through March. Fire ants are in every lawn from spring through fall.",
+    sections: [
+      {
+        heading: "Termite Risk and German Cockroaches in Albemarle's Older Construction",
+        body: "Stanly County's hot, humid Piedmont climate keeps eastern subterranean termites active through most of the warm season, and Albemarle's older downtown construction and mid-twentieth-century residential neighborhoods have had long exposure. Crawlspaces with wood debris, original sill plates close to grade, and aging foundation systems all increase termite vulnerability. Annual inspections are the appropriate minimum. German cockroaches in Albemarle's older commercial and multi-family buildings present a different but equally persistent challenge. They breed entirely indoors, spread through shared plumbing, and require interior gel bait and crack and crevice treatment rather than perimeter spraying. Coordinated whole-building treatment is more effective than single-unit treatment in older structures.",
+      },
+      {
+        heading: "Mosquito Season and Fire Ants in Stanly County",
+        body: "The Yadkin River watershed creates drainage corridors and low-lying areas throughout Stanly County that sustain mosquito breeding habitat from April through October. Albemarle's warm Piedmont climate extends the season well into fall. Barrier spray programs targeting resting vegetation around the home significantly reduce adult populations during peak months. Fire ants are a consistent warm-season presence in Albemarle's residential areas. The central Piedmont's climate allows fire ant colonies to establish quickly and rebuild fast after rain. Broadcast bait programs applied in spring and fall give more sustained control than treating individual mounds.",
+      },
+    ],
+    prevention: [
+      "Maintain annual termite inspections for Albemarle properties with crawlspaces or older construction given Stanly County's warm, humid climate and documented termite presence.",
+      "Use interior gel bait programs for German cockroach control in older buildings rather than relying on perimeter spray, which does not address indoor breeding populations.",
+      "Remove standing water from drainage features, containers, and gutters by early April to reduce mosquito breeding through Albemarle's long Yadkin watershed season.",
+      "Apply fire ant broadcast bait in spring and fall rather than treating individual mounds for more sustained seasonal control.",
+    ],
+    costNote:
+      "Albemarle pest control starts with a free inspection. Termite protection plans are annual. German cockroach treatment in older buildings may require a multi-unit coordination. Mosquito service runs April through October. Fire ant and general pest programs are quarterly.",
+    faqs: [
+      {
+        question: "Are termites a serious concern in Albemarle's older downtown buildings?",
+        answer:
+          "Yes. Stanly County's hot, humid Piedmont climate keeps eastern subterranean termites active through most of the warm season, and Albemarle's older downtown and residential construction has had long exposure. Original wood framing, crawlspaces, and wood near grade in older buildings carry the highest risk. Annual inspections are the appropriate minimum.",
+      },
+      {
+        question: "What is the Yadkin River watershed and how does it affect mosquito season?",
+        answer:
+          "The Yadkin River and its tributaries run through Stanly County and create drainage corridors and low-lying areas that hold standing water after rain events. These areas sustain mosquito breeding habitat from April through October. Properties near any of the Yadkin watershed's drainage features see heavier mosquito pressure than drier, more elevated areas of Albemarle.",
+      },
+      {
+        question: "Why do German cockroaches keep coming back after treatment?",
+        answer:
+          "German cockroaches breed entirely indoors and spread through shared plumbing and wall voids in multi-family and commercial buildings. If only one unit or area is treated, roaches from untreated adjacent spaces re-infest through the shared structure within weeks. Effective long-term control in Albemarle's older buildings requires coordinated treatment of all units and common areas, not just visible infestations.",
+      },
+      {
+        question: "Are fire ants a year-round problem in Albemarle?",
+        answer:
+          "Fire ants in central North Carolina's Piedmont are active from spring through fall and reduce activity but don't fully disappear in winter. Stanly County's climate allows colonies to stay partially active through mild winters. Broadcast bait applications in spring and fall, covering the full yard, give more sustained suppression than one-time mound treatments.",
+      },
+      {
+        question: "When is the best time to address mice in Albemarle?",
+        answer:
+          "September is the right time to inspect and seal entry points before the fall push. Mice in Albemarle move into structures as October temperatures drop. Older buildings downtown and in the residential areas have more entry points that require professional assessment. Getting exclusion work done before October is more effective than trapping after mice are established inside.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Charlotte", slug: "charlotte" },
+      { name: "Concord", slug: "concord" },
+      { name: "Salisbury", slug: "salisbury-nc" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Albemarle, NC | Termites, Cockroaches & Yadkin Mosquitoes",
+    metaDescription:
+      "Pest control in Albemarle, NC. Stanly County Piedmont service for subterranean termites, German cockroaches, mosquitoes, fire ants, and mice in the Yadkin River watershed. Free inspection.",
+  },
+  {
+    slug: "boone-nc",
+    name: "Boone",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~19,000",
+    county: "Watauga County",
+    climate: "cold-humid",
+    climateDriver:
+      "Boone sits at 3,300 feet elevation in the Blue Ridge Mountains of northwestern North Carolina, making it one of the highest-elevation cities in the eastern United States. Appalachian State University anchors a college town with cold, snowy winters and cool summers. The mountain climate creates a pest profile meaningfully different from lowland North Carolina: fewer fire ants, no Formosan termites, but intense mice and vole pressure, active carpenter ants in summer, cluster flies, and large yellowjacket populations.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "Yellowjackets",
+      "Cluster Flies",
+      "Voles",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge September through March",
+        note: "Boone's elevation and cold winters give mice an extreme incentive to seek heated shelter. The surrounding mountain forest and agricultural land provide abundant summer habitat. AppState's student housing and older downtown buildings see consistent year-round pressure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are the dominant warm-season pest in Boone and throughout Watauga County. The heavily forested mountain setting sustains large outdoor populations, and moisture-damaged wood in Boone's older homes and rental housing is a common nesting target.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, peak August through September",
+        note: "Yellowjackets are very active in the Watauga County mountains and reach maximum colony size and aggression in August and September. Ground nests in lawns and wall voids in older structures are common and can contain thousands of workers at peak.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "pest-control",
+        activeSeason: "September through October entry, overwinter",
+        note: "Cluster flies breed in the rich soils and lawns surrounding Boone through summer. They aggregate on south-facing exterior walls in early fall and enter through gaps to overwinter in wall voids and attic spaces. The mountain setting with its earthworm-rich soil is ideal cluster fly habitat.",
+      },
+      {
+        name: "Voles",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, damage visible in spring",
+        note: "Voles are common in Watauga County's residential lawns and the grounds of Appalachian State. They tunnel under snow through winter and damage grass, garden plants, and shrub bases. Spring snowmelt reveals the runway networks.",
+      },
+    ],
+    localHook:
+      "Boone is home to Appalachian State University and sits at 3,300 feet in the Blue Ridge Mountains. At that elevation, Boone's pest profile is closer to the Appalachian highlands than to Piedmont North Carolina: fewer fire ants, subterranean termites present but less severe than at lower elevations, and a dominant pattern of mice, carpenter ants, cluster flies, and yellowjackets that matches the mountain forest environment.",
+    intro:
+      "Boone's mountain location changes the pest picture compared to what most of North Carolina deals with. At 3,300 feet, the climate is genuinely cool: cold winters, cool summers, and a shorter warm season that compresses pest activity into a few intense months. Mice are the year-round concern, given that cold mountain winters and a college town's food sources create pressure from both directions. Carpenter ants are the dominant summer structural pest in the heavily forested Watauga County setting. Yellowjackets are very active through summer and become aggressive in August. Cluster flies from the mountain's earthworm-rich soils enter homes each fall. Termites are present but less severe at this elevation than in the lowlands.",
+    sections: [
+      {
+        heading: "Mountain Pest Profile: What Boone Has and What It Doesn't",
+        body: "Boone's elevation creates a pest environment that surprises people who expect the same pressures as lowland North Carolina. Red imported fire ants are present in Watauga County but are less abundant and less aggressive than at lower elevations, as the cold winters suppress them more effectively. Subterranean termites are documented in the county but are not as severe as in the coastal plain or warm Piedmont. What Boone has in abundance is the full set of mountain pest pressures: mice and voles from the surrounding forest, carpenter ants nesting in moisture-damaged wood throughout the town's older housing stock, yellowjackets at colony densities that make late summer genuinely hazardous, and cluster flies in the fall that come from the earthworm-rich mountain soils. Understanding this specific profile helps you prepare for what Boone actually faces rather than what the rest of the state does.",
+      },
+      {
+        heading: "College Town Mice and Summer Yellowjackets",
+        body: "Boone has two pest pressures that require different timing and approaches. AppState's campus and the dense student rental housing around it generate food sources that sustain year-round mouse pressure in downtown and campus-adjacent areas, while the surrounding forest sustains field mouse populations that push into residential structures when cold arrives in October. A September exclusion inspection addresses the structural gaps before the main fall surge. Yellowjackets in Watauga County reach peak colony size in August, and ground nests in lawns near campus and residential areas, as well as wall void nests in older buildings, present a real sting hazard during peak activity. Finding and treating nests in late June or July, when colonies are smaller, is safer and more effective than treating maximum-size August colonies.",
+      },
+    ],
+    prevention: [
+      "Complete mouse exclusion work in September before Boone's cold mountain winters drive mice hard into older structures and college-adjacent rental housing.",
+      "Walk lawn areas in late June and July looking for yellowjacket ground nests to find and treat before August's peak colony size and aggression.",
+      "Apply exterior residual treatment to south-facing walls in early September to intercept cluster flies before fall aggregation begins on Boone's older homes.",
+      "Inspect soffits, window frames, and wood near moisture sources in April for carpenter ant satellite colonies before warm-season foraging establishes indoor trails.",
+    ],
+    costNote:
+      "Boone pest control starts with a free inspection. Mouse exclusion and monitoring is the year-round priority. Carpenter ant and yellowjacket treatment are warm-season services. Cluster fly exterior treatment is a September one-time service. A recurring program addresses the full calendar of Watauga County's mountain pest environment.",
+    faqs: [
+      {
+        question: "Are fire ants as bad in Boone as in the rest of North Carolina?",
+        answer:
+          "No. Boone's elevation and cold winters suppress fire ant colonies more than in the lowlands. Red imported fire ants are present in Watauga County, but they are less abundant and rebuild more slowly than in coastal or Piedmont areas. The dominant ant pest in Boone is carpenter ants, not fire ants.",
+      },
+      {
+        question: "Why are yellowjackets so active in Boone's mountain setting?",
+        answer:
+          "The heavily forested mountain terrain of Watauga County provides excellent habitat for ground-nesting yellowjackets. The short warm season means colonies build quickly from spring through summer, reaching maximum size and aggression in August. The forested residential character of Boone means ground nests are common in lawns and gardens, and wall void nests are common in older structures. August and September are the highest-risk months for sting incidents.",
+      },
+      {
+        question: "What are cluster flies and why are they common in Boone?",
+        answer:
+          "Cluster flies are parasitic on earthworms and breed in the rich organic soils of Boone's mountain lawns and surrounding fields through summer. In early fall they seek the warmth of building walls and enter through gaps to spend the winter in wall voids and attics. They do not reproduce indoors or damage food but can accumulate in large numbers. The earthworm-rich mountain soils around Boone sustain high cluster fly populations. Exterior treatment in September intercepts them before entry.",
+      },
+      {
+        question: "Is mouse pressure worse in Boone because of AppState?",
+        answer:
+          "The college town environment adds a dimension that a mountain town without a university would not have. AppState's campus, dining operations, and the dense student rental housing around it generate food waste and high tenant turnover that sustain mouse populations in central Boone year-round. The surrounding mountain forest sustains field mouse populations that push into residential structures in fall. Both pressures operate simultaneously in many parts of the city.",
+      },
+      {
+        question: "Are subterranean termites less of a concern in Boone?",
+        answer:
+          "Yes, relatively speaking. Eastern subterranean termites are present in Watauga County, but the cold mountain winters and cooler overall temperatures reduce colony activity compared to lower elevations. Termites are still worth monitoring in older Boone construction, particularly in crawlspaces with moisture issues, but the risk level is meaningfully lower than in the coastal plain or warm Piedmont.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Asheville", slug: "asheville" },
+      { name: "Winston-Salem", slug: "winston-salem" },
+      { name: "Greensboro", slug: "greensboro" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Boone, NC | Mountain Mice, Yellowjackets & Carpenter Ants",
+    metaDescription:
+      "Pest control in Boone, NC. Watauga County Blue Ridge Mountain specialists for mice, carpenter ants, yellowjackets, cluster flies, and voles at 3,300 feet elevation. Free inspection.",
+  },
 ];

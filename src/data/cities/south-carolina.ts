@@ -1404,5 +1404,568 @@ export const southCarolinaCities: CityLocation[] = [
     metaDescription:
       "Summerville pest control for Formosan termites, mosquitoes, fire ants and American cockroaches. Dorchester County Lowcountry Charleston metro specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "hilton-head-island-sc",
+    name: "Hilton Head Island",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~40,000",
+    county: "Beaufort County",
+    climate: "hot-humid",
+    climateDriver:
+      "Hilton Head Island is a barrier island on the South Carolina Atlantic coast, with high humidity, salt air, maritime forest, and near-subtropical temperatures that are among the warmest in the state. The combination of sandy barrier island soils, abundant moisture from the marsh and estuarine systems, and year-round warmth creates some of the most severe termite conditions in the country. Formosan subterranean termites are established on the island alongside native species.",
+    topPests: [
+      "Subterranean Termites",
+      "American Cockroaches",
+      "Fire Ants",
+      "Mosquitoes",
+      "Ghost Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms April through June",
+        note: "Hilton Head Island carries some of the most severe termite pressure on the East Coast. Both Reticulitermes species (native eastern subterranean) and Coptotermes formosanus (Formosan) are established. The island's sandy soils, year-round warmth, and maritime moisture create conditions where termite activity is essentially continuous.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Called palmetto bugs on the island, American cockroaches are abundant in Hilton Head's warm, humid maritime environment. They live in the salt marsh edges, drainage systems, and under palm fronds and push into structures readily through any unsealed gap.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are active year-round on Hilton Head Island. The warm barrier island climate allows colonies to stay fully active through what passes for winter, and the island's golf courses and open green spaces sustain high mound densities.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round essentially, peaks April through October",
+        note: "Hilton Head's salt marsh system, estuaries, and the Intracoastal Waterway create extensive coastal mosquito habitat. Both salt marsh mosquitoes and container-breeding species are active. The season is effectively year-round with the most intense period from April through October.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are an invasive tropical ant species that have established in South Carolina's coastal zone, including Hilton Head. They infest newer construction and are very difficult to control with traditional perimeter spraying, requiring targeted gel bait treatment.",
+      },
+    ],
+    localHook:
+      "Hilton Head Island is one of the most significant coastal resort destinations in the Southeast, and its barrier island ecosystem is also one of the most termite-active environments on the East Coast. Beaufort County pest control professionals describe Hilton Head as one of their highest-pressure service areas for termites, with Formosan subterranean termites established alongside native species in an environment that supports nearly continuous colony activity.",
+    intro:
+      "Hilton Head Island's environment is exceptional in many ways, including its pest pressure. The barrier island's maritime climate, sandy soils, and year-round warmth create some of the most severe termite conditions on the East Coast. Formosan subterranean termites are established on the island and their colonies can be dramatically larger and more destructive than native species. American cockroaches (palmetto bugs) are part of daily outdoor life. Fire ants are year-round. Mosquitoes from the salt marsh and estuarine system are active most of the year. Ghost ants have established in newer construction. An active termite protection plan is not optional here.",
+    sections: [
+      {
+        heading: "Formosan and Native Subterranean Termites on the Island",
+        body: "Hilton Head Island's termite pressure is genuinely severe by any regional standard. Both Reticulitermes species (native eastern subterranean termites) and Coptotermes formosanus (Formosan subterranean termites) are established in Beaufort County. Formosan colonies can be significantly larger than native species, sometimes containing millions of workers compared to the hundreds of thousands in a typical Reticulitermes colony. The maritime environment of the barrier island provides the warm temperatures, high soil moisture, and woody debris from the maritime forest that sustain continuous colony activity. On Hilton Head, termite protection is not a precaution but an ongoing maintenance requirement. Annual inspections are the minimum, and an active baiting or liquid treatment system is the appropriate standard for any structure on the island.",
+      },
+      {
+        heading: "Year-Round Pest Management for Coastal Living",
+        body: "Fire ants on Hilton Head Island do not experience the winter suppression that affects colonies in northern South Carolina. The barrier island's warmth allows fire ant colonies to remain fully active and expand through every month. Golf course margins, residential lawns, and park areas see consistent high mound density. Palmetto bugs (American cockroaches) are part of the barrier island's warm, moist environment and push into structures from the drainage system, mulch, and salt marsh edges. Ghost ants in newer construction require a targeted interior gel bait program, as they are not effectively controlled by exterior perimeter spraying. Mosquitoes from the salt marsh system are active most of the year with peak pressure from April through October.",
+      },
+    ],
+    prevention: [
+      "Maintain an active termite protection plan on any Hilton Head structure, given the island's exceptional termite pressure from both native and Formosan species.",
+      "Seal all plumbing penetrations, floor drain gaps, and foundation vents to reduce palmetto bug entry from the island's drainage and marsh edge environment.",
+      "Apply fire ant broadcast bait twice yearly given the year-round colony activity in Beaufort County's warm barrier island climate.",
+      "Use targeted interior gel bait programs for ghost ants rather than exterior perimeter spray, which is not effective against this species.",
+      "Start mosquito service in April and extend through October given Hilton Head's coastal marsh mosquito system and the essentially year-round pressure near the water.",
+    ],
+    costNote:
+      "Hilton Head Island pest control is typically more thorough and layered than inland South Carolina. An active termite bond with annual inspection is standard and often required by property management companies. Termite bait station programs run $1,200 to $2,500 for installation. Mosquito service, fire ant treatment, and general pest programs for palmetto bugs and ghost ants are available on recurring schedules. A free inspection is the starting point.",
+    faqs: [
+      {
+        question: "Are Formosan termites really present on Hilton Head Island?",
+        answer:
+          "Yes. Formosan subterranean termites are established in Beaufort County and on Hilton Head Island. Their colonies are significantly larger than native Reticulitermes species and can cause structural damage at a faster rate. Any active swarm event on the island should be professionally identified, as the species matters for determining the appropriate treatment approach.",
+      },
+      {
+        question: "Is a termite bond required for homes on Hilton Head Island?",
+        answer:
+          "Not legally required, but widely expected. Many property management companies and rental programs require an active termite bond or service agreement. The island's severe termite pressure makes a bond the rational choice regardless of whether it is required: the annual cost of coverage is a fraction of the repair cost for undetected termite damage in a high-pressure maritime environment.",
+      },
+      {
+        question: "Why is mosquito season so long near Hilton Head's salt marshes?",
+        answer:
+          "Hilton Head's salt marsh system and the Intracoastal Waterway create extensive coastal mosquito habitat that produces breeding populations throughout the warm season and beyond. Salt marsh mosquitoes are different from container-breeding species and breed in the tidal marsh edges. The barrier island's mild winters mean mosquito activity persists at low levels through what would normally be the off-season for inland areas.",
+      },
+      {
+        question: "What are ghost ants and why are they hard to control?",
+        answer:
+          "Ghost ants are a tiny tropical ant species, named for their nearly transparent bodies, that have established along the South Carolina coast including Hilton Head. They nest in small, diffuse colonies inside wall voids and new construction and are not effectively controlled by exterior perimeter spraying. Targeted interior gel bait programs that workers carry back to the colony are the most effective treatment approach. Standard exterior perimeter treatment alone will not eliminate them.",
+      },
+      {
+        question: "Do fire ants really stay active in Hilton Head winters?",
+        answer:
+          "Yes. Hilton Head Island's barrier island climate is among the warmest in South Carolina, and fire ant colonies on the island remain active and can expand even during the mild winter months. Year-round management, including a fall broadcast bait application, is appropriate here. The lack of meaningful winter suppression means spring populations are larger than in inland counties.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Beaufort", slug: "beaufort-sc" },
+      { name: "Bluffton", slug: "bluffton" },
+      { name: "Charleston", slug: "charleston" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Hilton Head Island, SC | Formosan Termites & Coastal Pests",
+    metaDescription:
+      "Pest control on Hilton Head Island, SC. Beaufort County barrier island specialists for Formosan termites, palmetto bugs, fire ants, mosquitoes, and ghost ants. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "greenwood-sc",
+    name: "Greenwood",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~22,000",
+    county: "Greenwood County",
+    climate: "hot-humid",
+    climateDriver:
+      "Greenwood sits in South Carolina's Piedmont at the headwaters of the Saluda River system, with Lake Greenwood on its eastern edge. The hot, humid climate with long warm summers and mild winters supports active subterranean termites through most of the year. Lake Greenwood's shoreline creates mosquito breeding habitat. The Piedmont's clay soils hold moisture that sustains termite colonies.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "American Cockroaches",
+      "Mosquitoes",
+      "Brown Recluse Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms in spring",
+        note: "Greenwood County's Piedmont clay soils and hot, humid climate sustain active eastern subterranean termite populations. Annual inspections are the standard of care, and Lander University's older campus buildings and the surrounding residential historic districts carry elevated risk.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Fire ants are established throughout Greenwood County's lawns, parks, and developed areas. South Carolina's Piedmont climate allows year-round colony activity with the most visible pressure in warm months.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are called palmetto bugs across South Carolina. They live in Greenwood's drainage system and organic debris and push into buildings through drains and plumbing gaps during rain events and hot weather.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Lake Greenwood's shoreline and the Saluda River tributaries throughout the county create mosquito breeding habitat from March through October. Properties near the lake or its tributary streams see heavier pressure than those farther inland.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active spring and fall",
+        note: "Brown recluse spiders are present in South Carolina as confirmed by Clemson University Extension. They shelter in undisturbed storage areas, garages, and closets in Greenwood homes. The bite can cause significant tissue damage in some individuals.",
+      },
+    ],
+    localHook:
+      "Greenwood is the county seat of Greenwood County and home to Lander University. Lake Greenwood, a reservoir on the Saluda River just east of the city, gives the area its defining recreation character and sustains mosquito populations from March through October along its extensive shoreline.",
+    intro:
+      "Greenwood's Piedmont location and Lake Greenwood's shoreline shape its pest calendar in specific ways. Eastern subterranean termites are active in Greenwood County's clay soils through most of the year, and the city's older residential areas near Lander University and downtown carry accumulated termite risk from decades in a hot, humid environment. Fire ants are a year-round fixture in every lawn. American cockroaches (palmetto bugs) push in from the drainage system during rain and heat. Lake Greenwood and the Saluda River tributaries sustain mosquitoes from March through October. Brown recluse spiders are present statewide and worth knowing about in storage areas.",
+    sections: [
+      {
+        heading: "Comparing Termite Risk in Older vs. Newer Greenwood Construction",
+        body: "Eastern subterranean termites are active throughout Greenwood County, but the risk profile differs meaningfully between older and newer construction. Greenwood's older residential areas, particularly those near Lander University's campus and the historic downtown, have wood framing with decades of accumulated exposure, crawlspaces that may have wood debris or inadequate moisture control, and original sill plates that may be close to grade. Newer construction built with soil pre-treatment has initial protection, but that protection degrades over time. In Greenwood County's hot, humid climate, the standard from Clemson University Extension is annual inspections for all residential properties. An older home should have a continuous protection plan; a newer home should have regular inspections to confirm the pre-treatment remains effective.",
+      },
+      {
+        heading: "Lake Greenwood Mosquitoes and Year-Round Fire Ants",
+        body: "Lake Greenwood is a reservoir formed by the Buzzard Roost Dam on the Saluda River. The lake's 200 miles of shoreline create extensive edge habitat that sustains mosquito populations from March through October. Properties near the lake and its tributary coves see a longer and heavier season than those farther from the water. Barrier spray programs targeting resting vegetation around the home reduce adult populations during peak months. Fire ants in Greenwood County's Piedmont climate are active most of the year and do not get the winter suppression that occurs in northern states. A broadcast bait program in spring and fall addresses the whole-lawn population rather than individual mounds and gives more sustained control through the year.",
+      },
+    ],
+    prevention: [
+      "Maintain annual termite inspections for all Greenwood properties, with a continuous protection plan for older construction near Lander University and historic downtown.",
+      "Apply fire ant broadcast bait in spring and fall to manage whole-lawn populations in Greenwood County's year-round fire ant environment.",
+      "Seal plumbing penetrations, floor drain covers, and foundation vents to reduce American cockroach entry during rain events.",
+      "Start mosquito barrier service by late March if you are near Lake Greenwood's shoreline, as the season starts earlier near the water than in upland areas of the county.",
+      "Store items in sealed plastic containers rather than open cardboard boxes in garages and closets to reduce brown recluse spider harborage.",
+    ],
+    costNote:
+      "Greenwood pest control starts with a free inspection. Termite protection plans and annual inspections are the primary recommendation. Mosquito programs run March through October with more sessions needed for lake-adjacent properties. Fire ant and general pest programs are quarterly. Clemson University Extension is a good additional resource for South Carolina pest management guidance.",
+    faqs: [
+      {
+        question: "Does Lake Greenwood really make mosquitoes worse for nearby homes?",
+        answer:
+          "Yes. Lake Greenwood's 200-mile shoreline creates extensive breeding habitat that sustains mosquito populations from March through October. Properties near the lake or its tributary coves see an earlier start to the season and heavier peak-month pressure than upland Greenwood County neighborhoods. Barrier spray programs around the yard perimeter make a measurable difference for homes near the water.",
+      },
+      {
+        question: "Are brown recluse spiders common in Greenwood?",
+        answer:
+          "Brown recluse spiders are present throughout South Carolina as documented by Clemson University Extension. They prefer undisturbed, dark spaces including garages, closets, and storage areas. Encounters are infrequent because they actively avoid people, but the bite can cause serious tissue damage in some individuals. Reducing clutter, storing items in sealed containers, and shaking out stored clothing before wearing reduces encounter risk.",
+      },
+      {
+        question: "What is the termite risk for older homes near Lander University?",
+        answer:
+          "The older residential areas surrounding Lander University's campus represent elevated termite risk. The housing stock near campus ranges from mid-twentieth century to older construction with crawlspaces and original framing that has had decades of exposure in Greenwood County's hot, humid climate. Annual inspections are the appropriate minimum, and an active protection plan is the recommended standard.",
+      },
+      {
+        question: "How do I know if I have a fire ant problem worth treating in Greenwood?",
+        answer:
+          "Fire ants in South Carolina's Piedmont are not optional residents; they colonize any disturbed soil and every established lawn. The question is not whether you have them but how densely and whether they are in high-traffic areas. More than a few mounds per 1,000 square feet in active lawn or play areas warrants treatment. Treating before late spring, when colonies are smaller, gives a longer season of relief from a single broadcast application.",
+      },
+      {
+        question: "Is a termite bond worth it in Greenwood?",
+        answer:
+          "Yes. South Carolina is a high termite-pressure state, and Greenwood County's Piedmont climate keeps colonies active most of the year. The annual cost of a termite bond is a small fraction of the structural repair cost for an undetected infestation. Clemson University Extension recommends annual inspections for all South Carolina properties, and a bond formalizes that inspection schedule while providing repair coverage if damage occurs.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Columbia", slug: "columbia" },
+      { name: "Greenville", slug: "greenville" },
+      { name: "Aiken", slug: "aiken" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Greenwood, SC | Termites, Fire Ants & Lake Greenwood Mosquitoes",
+    metaDescription:
+      "Pest control in Greenwood, SC. Greenwood County Piedmont service for subterranean termites, fire ants, palmetto bugs, Lake Greenwood mosquitoes, and brown recluse spiders. Free inspection.",
+  },
+  {
+    slug: "cayce-sc",
+    name: "Cayce",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~13,000",
+    county: "Lexington County",
+    climate: "hot-humid",
+    climateDriver:
+      "Cayce sits on the west bank of the Congaree River, directly adjacent to Columbia in Lexington County. The hot, humid South Carolina Midlands climate, combined with the Congaree River's influence, creates excellent conditions for subterranean termites, mosquitoes, and palmetto bugs. Cayce's industrial character and older infrastructure add rodent pressure to the pest profile.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "American Cockroaches",
+      "Fire Ants",
+      "Mosquitoes",
+      "Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms in spring",
+        note: "Lexington County is within South Carolina's high termite-pressure zone. Cayce's Congaree River proximity keeps soils moist, and the city's older industrial and residential construction carries accumulated termite risk. Annual inspections are the Clemson University Extension standard for all Midlands properties.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Palmetto bugs are a persistent indoor pest in Cayce, particularly in the older commercial and industrial areas near the Congaree River. They enter through floor drains, pipe penetrations, and foundation gaps, especially during rain events.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Fire ants are present throughout Lexington County and in Cayce's residential and commercial green spaces. Year-round colony activity in the South Carolina Midlands makes spring and fall broadcast bait programs more effective than mound-only treatment.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The Congaree River on Cayce's eastern boundary creates sustained mosquito breeding habitat. Properties near the river see a longer and heavier mosquito season than upland Lexington County areas.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "Cayce's industrial and commercial character along the Congaree River corridor sustains rodent populations. Mice push into structures from October through March in the Midlands' colder months.",
+      },
+    ],
+    localHook:
+      "Cayce is Lexington County's oldest city, sitting on the west bank of the Congaree River directly across from Columbia. The city has a strong industrial identity, and the Congaree's floodplain on its eastern edge creates consistent mosquito and termite pressure that Cayce residents have learned to manage as part of living near the river.",
+    intro:
+      "Cayce's identity as Lexington County's river city comes with a specific pest profile. The Congaree River on the eastern edge creates standing water and moist soils that sustain both subterranean termites and mosquitoes through the warm season. Palmetto bugs (American cockroaches) are a year-round presence in the drainage system and the older commercial and industrial areas near the waterfront. Fire ants are in every residential lawn. Mice push into structures from October through March. Understanding which problem needs which approach and which time of year matters makes pest control in Cayce more manageable.",
+    sections: [
+      {
+        heading: "Congaree River Termite and Mosquito Pressure in Cayce",
+        body: "The Congaree River creates two overlapping pest conditions for Cayce properties. Below grade, the moist floodplain soils sustain active subterranean termite colonies through most of the year. Lexington County is identified by Clemson University Extension as a high-activity zone for termites, and Cayce's river-edge location places it among the more active areas within the county. Annual inspections are the standard recommendation, and older properties near the river should have an active protection plan rather than inspection only. Above grade, the Congaree's floodplain creates standing water habitat that sustains mosquito populations from March through October. Properties near the river see heavier and longer pressure than those farther west in Lexington County.",
+      },
+      {
+        heading: "Palmetto Bugs, Fire Ants, and Fall Mice",
+        body: "Three pest pressures in Cayce that affect most properties. American cockroaches (palmetto bugs) enter through the plumbing system and floor drains, particularly during heavy rain when their outdoor habitat is saturated. Sealing floor drains, pipe penetrations, and foundation vents addresses the primary entry routes. Fire ants are in every Cayce lawn and are active most of the year given the Midlands' climate. A broadcast bait program in spring and fall, covering the full lawn, suppresses the whole colony population rather than just visible mounds. Fall brings mice from the Congaree River bottomlands and surrounding wooded areas toward heated structures. A September exclusion inspection identifies and seals the primary entry points before the October push.",
+      },
+    ],
+    prevention: [
+      "Maintain an annual termite inspection for all Cayce properties and an active protection plan for older construction near the Congaree River corridor.",
+      "Seal floor drains, plumbing penetrations, and foundation vents to reduce palmetto bug entry, which is a year-round pressure in Lexington County's humid climate.",
+      "Apply fire ant broadcast bait in spring and fall rather than mound-only treatment for more sustained whole-lawn control.",
+      "Schedule a mouse exclusion inspection in September to seal entry points before October's fall push from Congaree River bottomland areas.",
+    ],
+    costNote:
+      "Cayce pest control starts with a free inspection. Annual termite inspections and protection plans are the primary recommendation for all Lexington County properties. Mosquito service runs March through October. General pest programs for palmetto bugs and fire ants are quarterly. Fall mouse exclusion is available as a seasonal service.",
+    faqs: [
+      {
+        question: "How does the Congaree River affect pest pressure in Cayce?",
+        answer:
+          "The Congaree's floodplain on Cayce's eastern edge creates two direct pest effects. The moist soils near the river sustain active subterranean termite colonies through most of the year, making annual termite inspections especially important for river-adjacent properties. The floodplain also provides standing water that sustains mosquito breeding from March through October, with heavier pressure near the river than in the upland parts of Cayce.",
+      },
+      {
+        question: "What is the best way to keep palmetto bugs out of my Cayce home?",
+        answer:
+          "Palmetto bugs (American cockroaches) enter primarily through the plumbing system, floor drains, and foundation gaps. The most effective structural prevention is sealing floor drain covers, installing door sweeps on exterior doors, and closing any gap where pipes enter exterior walls. A perimeter treatment reduces outdoor population pressure, and interior service addresses roaches already inside. The warm, humid climate means persistent pressure, so a recurring quarterly program gives better long-term results than one-time treatment.",
+      },
+      {
+        question: "Is Cayce in a high termite risk zone?",
+        answer:
+          "Yes. Lexington County is within South Carolina's high termite-activity zone as identified by Clemson University Extension, and Cayce's Congaree River location keeps soils moist, which sustains termite colonies. Annual inspections are the recommended minimum for any Lexington County property. Older Cayce construction near the river should have an active protection plan.",
+      },
+      {
+        question: "When do mosquitoes get bad near the Congaree in Cayce?",
+        answer:
+          "Mosquito season along the Congaree River corridor in Cayce runs from March through October. The floodplain provides breeding habitat through the full warm season, and properties near the river see an earlier spring start and later fall activity than upland Lexington County areas. A barrier spray program starting in late March addresses the early season before populations peak.",
+      },
+      {
+        question: "Are mice a significant problem in Cayce's industrial areas?",
+        answer:
+          "Yes. Cayce's industrial character, with loading docks, warehouses, and older commercial buildings near the Congaree River corridor, creates harborage and food opportunities that sustain rodent populations. Mice are the more common species in residential areas, while the industrial zone can also see Norway rat pressure near dumpster areas and older infrastructure. A professional inspection identifies which species is present and sets the appropriate control program.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Columbia", slug: "columbia" },
+      { name: "Aiken", slug: "aiken" },
+      { name: "Sumter", slug: "sumter" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Cayce, SC | Congaree River Termites & Palmetto Bugs",
+    metaDescription:
+      "Pest control in Cayce, SC. Lexington County Congaree River specialists for subterranean termites, palmetto bugs, fire ants, mosquitoes, and mice. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "conway-sc",
+    name: "Conway",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~25,000",
+    county: "Horry County",
+    climate: "hot-humid",
+    climateDriver:
+      "Conway sits on the Waccamaw River in Horry County, the county seat of one of the fastest-growing counties in the country. The hot, humid coastal plain climate, river bottomlands, and hurricane flood-prone low-lying topography create conditions for intense termite, mosquito, and cockroach pressure. Conway is slightly inland from the Myrtle Beach resort coast but shares the same Lowcountry pest environment.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "American Cockroaches",
+      "Fire Ants",
+      "Mosquitoes",
+      "Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms in spring",
+        note: "Horry County's hot, humid coastal plain is a high termite-pressure zone. Conway's older residential and commercial construction and the Waccamaw River's persistent moisture create conditions where subterranean termite activity is essentially year-round.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches (palmetto bugs) are abundant in Conway's warm, humid environment. They breed in the Waccamaw River drainage system and the organic debris in low-lying areas and push into buildings readily through any gap in the plumbing or foundation.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants in Horry County are active year-round given the coastal climate. Conway's open lawns, parks, and the river corridor green spaces all support consistent fire ant populations.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The Waccamaw River and its extensive lowland areas create major mosquito breeding habitat in and around Conway. Low-lying flood-prone areas hold standing water well after rain events, extending both the breeding season and the peak pressure period.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through spring",
+        note: "Mice from the Waccamaw River bottomlands and wooded areas surrounding Conway push into structures from October through March. Older residential areas near downtown and the river see more consistent pressure.",
+      },
+    ],
+    localHook:
+      "Conway is the county seat of Horry County, one of the fastest-growing counties in the South Carolina, driven by Myrtle Beach's expansion and the inland development it generates. The Waccamaw River runs through Conway's historic downtown, and the river's lowland flooding character gives the city a genuine vulnerability to both termite and mosquito pressure that is a direct function of its geography.",
+    intro:
+      "Conway's position on the Waccamaw River defines its pest environment. The river and its low-lying, flood-prone bottomlands create standing water for mosquitoes from March through October, and the persistent moisture in Horry County's coastal plain soils sustains subterranean termite activity through most of the year. American cockroaches (palmetto bugs) are as common in Conway as anywhere in coastal South Carolina. Fire ants are year-round. Mice from the bottomlands push into structures in fall and winter. Horry County's rapid growth means new construction is happening on previously wooded and wetland land, where termite colonies are already established in the soil.",
+    sections: [
+      {
+        heading: "Waccamaw River Flooding and Pest Pressure in Conway",
+        body: "The Waccamaw River is central to Conway's identity and to its pest challenges. The river's flood-prone bottomlands hold standing water for extended periods after major rain events, creating the most productive mosquito habitat in Horry County. Properties near the river or in any of Conway's low-lying areas see heavier and longer mosquito seasons than those on higher ground. The persistent soil moisture from the river bottomlands also sustains subterranean termite populations through essentially the full year. Termite swarms in Horry County begin as early as March, and colonies remain active underground through November. An annual inspection is the appropriate minimum for any Conway property.",
+      },
+      {
+        heading: "Palmetto Bugs, Fire Ants, and Fall Mice",
+        body: "Three pest pressures that virtually every Conway property deals with. Palmetto bugs (American cockroaches) enter through plumbing penetrations, floor drains, and foundation vents, and the warm, moist coastal climate means the outdoor population is large year-round. Sealing those entry points and maintaining a perimeter treatment is the practical approach. Fire ants are in every lawn in Horry County and rebuild quickly after rain events. Broadcast bait programs in spring and fall give more sustained whole-yard control than mound-only treatment. October brings mice from the Waccamaw bottomlands toward heated structures. A September exclusion inspection identifies and seals primary entry points before the fall push.",
+      },
+    ],
+    prevention: [
+      "Maintain an annual termite inspection given Horry County's high-pressure coastal plain environment and the Waccamaw River's moisture influence on Conway soils.",
+      "Seal plumbing penetrations, floor drains, and foundation gaps to reduce palmetto bug entry in Conway's warm, moist river corridor environment.",
+      "Apply fire ant broadcast bait in spring and fall for sustained whole-lawn control in Horry County's year-round fire ant zone.",
+      "Schedule a mouse exclusion inspection in September to seal Waccamaw River bottomland entry routes before October's fall push.",
+    ],
+    costNote:
+      "Conway pest control starts with a free inspection. Annual termite inspections and protection plans are strongly recommended for all Horry County properties. Mosquito programs run March through October with extended service near the Waccamaw bottomlands. General pest programs for palmetto bugs and fire ants are quarterly. Fall mouse exclusion is available seasonally.",
+    faqs: [
+      {
+        question: "Is Conway in a high termite-pressure zone in South Carolina?",
+        answer:
+          "Yes. Horry County is in South Carolina's coastal plain, which is a high termite-pressure zone. The Waccamaw River's moisture influence on the soils around Conway keeps subterranean termite colonies active through most of the year. Annual inspections are the appropriate minimum, and an active protection plan is recommended for older construction or properties near the river.",
+      },
+      {
+        question: "How does Conway's flooding risk relate to pest pressure?",
+        answer:
+          "Conway's low-lying topography and the Waccamaw River's flooding character create standing water that sustains mosquito breeding populations for extended periods after major rain events. The same flood-prone areas also keep soil moisture high, which sustains subterranean termite colonies. Properties in flood-prone areas near the river see the most concentrated pest pressure from both species.",
+      },
+      {
+        question: "Are palmetto bugs the same everywhere in South Carolina?",
+        answer:
+          "Palmetto bug is the regional name for American cockroach throughout South Carolina. The species is consistent statewide, but the intensity of the problem varies with climate and habitat. Conway's position on the Waccamaw River, with its drainage system and moist bottomlands, creates more outdoor cockroach habitat than drier, more inland areas. The result is higher outdoor populations and more frequent indoor entry events.",
+      },
+      {
+        question: "How do fire ants rebuild so fast in Conway after treatment?",
+        answer:
+          "Fire ants in Horry County's coastal climate do not go through meaningful winter suppression, so the regional population is large year-round. After mound treatment, fire ants from adjacent untreated areas recolonize treated yards within weeks to months. Broadcast bait treatment of the full lawn suppresses the local colony structure more broadly and slows recolonization. Spring and fall applications give the best sustained control.",
+      },
+      {
+        question: "Should I worry about termites in new Conway construction?",
+        answer:
+          "Yes. New construction in Horry County is required to have soil pre-treatment, but that protection is not permanent. Liquid barrier treatments degrade over time, and physical barriers can be compromised by landscaping or renovation. New homes built on previously wooded or wetland land in Conway's expanding areas may also have pre-existing termite pressure in the soil. Annual inspections confirm that protection is still intact.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Myrtle Beach", slug: "myrtle-beach" },
+      { name: "Florence", slug: "florence" },
+      { name: "Columbia", slug: "columbia" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Conway, SC | Waccamaw River Termites & Palmetto Bugs",
+    metaDescription:
+      "Pest control in Conway, SC. Horry County Waccamaw River specialists for subterranean termites, palmetto bugs, fire ants, mosquitoes, and mice. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "goose-creek-sc",
+    name: "Goose Creek",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~46,000",
+    county: "Berkeley County",
+    climate: "hot-humid",
+    climateDriver:
+      "Goose Creek sits in Berkeley County northwest of Charleston, in one of the fastest-growing suburban corridors in the South Carolina Lowcountry. The hot, humid coastal plain climate with mild winters and abundant rainfall supports essentially year-round termite activity. Berkeley County is one of South Carolina's highest-pressure counties for both native and Formosan subterranean termites. Tawcaw Creek and the area's drainage features create mosquito habitat.",
+    topPests: [
+      "Subterranean Termites",
+      "Fire Ants",
+      "American Cockroaches",
+      "Mosquitoes",
+      "Ghost Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms spring through early summer",
+        note: "Both eastern subterranean and Formosan termites are established in Berkeley County, and Goose Creek's proximity to Charleston places it in one of the state's highest-pressure termite zones. An active termite protection plan is the appropriate standard for any Goose Creek structure.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants in Berkeley County's coastal climate are active year-round. Goose Creek's rapid suburban growth on formerly wooded and agricultural land creates disturbed soil conditions that fire ants colonize immediately.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are abundant throughout Berkeley County's warm, humid Lowcountry. Goose Creek's newer construction is not immune: they enter through any plumbing penetration, floor drain, or foundation gap in the drainage-influenced landscape.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Tawcaw Creek and the drainage features of Goose Creek's developing suburban landscape create mosquito breeding habitat from March through October. Berkeley County's proximity to the coastal marsh system adds salt marsh mosquito pressure for areas nearest the tidal influence.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants have established in South Carolina's coastal zone and are increasingly common in newer Goose Creek construction. They are tiny, pale ants with multiple colony sites and are not effectively controlled by standard exterior perimeter treatment.",
+      },
+    ],
+    localHook:
+      "Goose Creek is Berkeley County's largest city and has grown rapidly as a suburb of Charleston. Crowfield Plantation and the developing neighborhoods of Goose Creek sit in terrain that is classically Lowcountry: flat, warm, moist, and in one of South Carolina's highest-pressure zones for both Formosan and native subterranean termites.",
+    intro:
+      "Goose Creek's growth as a Charleston suburb puts residents in a pest environment that Berkeley County takes seriously. The Lowcountry's hot, humid climate and the county's position near Charleston means both native eastern subterranean and Formosan termites are established here, and the combination represents some of the most severe termite pressure in South Carolina. Fire ants colonize new construction sites as soon as soil is disturbed and are year-round in Goose Creek's warm climate. American cockroaches (palmetto bugs) are a consistent indoor pest. Mosquitoes from Tawcaw Creek and the area's drainage system are active from March through October. Ghost ants have arrived in newer construction and require targeted treatment.",
+    sections: [
+      {
+        heading: "Berkeley County Termite Pressure in Goose Creek",
+        body: "Berkeley County ranks among South Carolina's higher-pressure counties for subterranean termites, and Goose Creek's proximity to Charleston places it in the core of that zone. Both Reticulitermes species (native eastern subterranean) and Coptotermes formosanus (Formosan) are present in Berkeley County. Formosan colonies are dramatically larger than native species and can cause structural damage at a faster rate. For any Goose Creek property, whether established or newly built, an active termite protection plan is the appropriate standard, not just an annual inspection. New construction in the Lowcountry is required to have soil pre-treatment, but that protection degrades, and an active renewable service agreement maintains coverage. Older homes should have both an inspection and an active treatment program.",
+      },
+      {
+        heading: "Ghost Ants, Palmetto Bugs, and Year-Round Fire Ants",
+        body: "Three ant and cockroach pests that affect virtually every Goose Creek property. Ghost ants are a particular challenge in newer construction: tiny, pale insects with multiple colony sites that nest in wall voids and around plumbing, and are not effectively controlled by standard exterior perimeter spray. Targeted interior gel bait is the appropriate treatment approach. Palmetto bugs (American cockroaches) enter through the plumbing system and floor drains, especially during rain events. Sealing those access points and maintaining a perimeter treatment addresses the most common entry routes. Fire ants colonize Goose Creek's disturbed suburban soils year-round, and broadcast bait programs applied in spring and fall give more sustained control than treating individual mounds.",
+      },
+    ],
+    prevention: [
+      "Maintain an active termite protection plan for all Goose Creek structures given Berkeley County's high-pressure position near Charleston and the Formosan termite presence in the county.",
+      "Use targeted interior gel bait for ghost ant control in newer construction rather than exterior perimeter spray, which does not reach interior colony sites.",
+      "Seal plumbing penetrations and floor drain covers to reduce American cockroach entry from Goose Creek's warm, drainage-rich Lowcountry environment.",
+      "Apply fire ant broadcast bait in spring and fall to manage year-round colony activity in Berkeley County's coastal climate.",
+      "Schedule the first mosquito barrier treatment by late March to get ahead of Tawcaw Creek's early season mosquito activity near the water features.",
+    ],
+    costNote:
+      "Goose Creek pest control starts with a free inspection. An active termite bond or service agreement is strongly recommended given Berkeley County's high-pressure environment near Charleston. Termite bait station programs run $900 to $1,800. Mosquito barrier spray runs $75 to $130 per 21-day treatment. General pest and fire ant programs are quarterly.",
+    faqs: [
+      {
+        question: "Are Formosan termites actually present in Goose Creek?",
+        answer:
+          "Yes. Formosan subterranean termites are established in Berkeley County, and the Charleston metro area including Goose Creek is within their documented range in South Carolina. Their colonies can be several times larger than native subterranean species and can cause structural damage at a faster rate. Any swarm event in Goose Creek should be professionally identified to determine the species.",
+      },
+      {
+        question: "Is a termite bond necessary in Goose Creek?",
+        answer:
+          "Given Berkeley County's position as one of South Carolina's higher-pressure termite counties near Charleston, a termite bond or active service agreement is strongly recommended. Many mortgage lenders and property management companies require it for Lowcountry properties. The annual cost is a small fraction of what structural termite damage costs to repair.",
+      },
+      {
+        question: "What are ghost ants and how do you treat them in newer construction?",
+        answer:
+          "Ghost ants are a small, pale tropical ant species established along South Carolina's coastal zone. They establish multiple colony sites in wall voids and around plumbing in new construction and are not effectively controlled by exterior perimeter spraying. Targeted interior gel bait placed where workers forage is the primary treatment method. A licensed technician places bait in specific locations that workers carry back to colony sites. Standard perimeter spray will not eliminate an interior ghost ant colony.",
+      },
+      {
+        question: "How long does mosquito season last in Goose Creek?",
+        answer:
+          "Mosquito season in Goose Creek runs from March through October, with peak pressure in June and July. Tawcaw Creek and the drainage features throughout the developing suburban landscape provide breeding habitat that sustains populations through the full warm season. Properties near any standing water feature see heavier and earlier activity than those on drier ground.",
+      },
+      {
+        question: "Are fire ants worse in areas where Goose Creek is still developing?",
+        answer:
+          "Yes. Disturbed soil from grading and construction is fire ant preferred habitat. New development in Goose Creek consistently sees elevated fire ant mound density in the first few seasons as colonies establish in freshly turned earth. As development matures and lawns establish, mound density typically stabilizes, but year-round management remains necessary given Berkeley County's coastal climate.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Charleston", slug: "charleston" },
+      { name: "Summerville", slug: "summerville-sc" },
+      { name: "Columbia", slug: "columbia" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Goose Creek, SC | Termites, Fire Ants & Ghost Ants",
+    metaDescription:
+      "Pest control in Goose Creek, SC. Berkeley County Charleston metro specialists for Formosan termites, fire ants, palmetto bugs, mosquitoes, and ghost ants. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
 

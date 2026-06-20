@@ -3887,4 +3887,228 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Cortland NY pest control for cluster flies, house mice, pavement ants and yellowjackets. Cortland County Finger Lakes plateau agricultural-edge specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "beacon-ny",
+    name: "Beacon",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~16,000",
+    county: "Dutchess County",
+    climate: "temperate",
+    climateDriver:
+      "Beacon sits on the Hudson River in Dutchess County, about 60 miles north of New York City. The Hudson Valley's temperate climate with cold winters and warm, humid summers supports eastern subterranean termites, a substantial mosquito season from the Hudson River corridor, and a predictable fall push of mice and overwintering pests. Beacon's ongoing urban revival has brought significant renovation of older housing stock, which often disturbs and exposes established pest activity.",
+    topPests: [
+      "House Mice",
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+      "Spotted Lanternfly",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through March",
+        note: "Beacon's older housing stock, with its settled foundations and aging utility penetrations, provides abundant mouse entry points. The Hudson River corridor wooded areas sustain mouse populations that push into structures hard when cold arrives in October.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Eastern subterranean termites are documented throughout Dutchess County. Beacon's older residential and commercial buildings, many dating to the nineteenth and early twentieth century, carry accumulated termite risk that renovation work often reveals.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are common in Beacon's older wood-frame buildings and in the mature tree canopy of the Hudson Valley. Moisture-damaged structural wood in renovating buildings is a frequent nesting site.",
+      },
+      {
+        name: "Spotted lanternfly",
+        serviceSlug: "pest-control",
+        activeSeason: "Nymphs May through July, adults August through November",
+        note: "Spotted lanternfly is established throughout the Hudson Valley including Dutchess County. Beacon's tree-of-heaven trees, common in disturbed urban areas, are a primary host. Swarms on structures in late summer and fall are a significant nuisance.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Beacon's proximity to New York City via Metro-North, its active short-term rental market driven by tourism, and its older multi-family housing stock all contribute to elevated bed bug introduction risk. Regular Metro-North commuter travel creates ongoing exposure for residents.",
+      },
+    ],
+    localHook:
+      "Beacon has experienced a genuine arts and cultural revival over the past two decades, driven by Dia:Beacon and a wave of creative community migration from New York City. That revival has brought extensive renovation of older housing stock, and renovation of older Beacon buildings consistently uncovers the pest history the buildings accumulated over their decades: termites in crawlspaces, carpenter ant galleries in soffits, and mice in walls.",
+    intro:
+      "Beacon's renovation wave has a pest dimension that first-time Hudson Valley homeowners often discover the hard way. The older buildings along Main Street and in the residential neighborhoods above the waterfront have accumulated decades of pest history, and renovation work frequently reveals it. Termites are documented throughout Dutchess County, and older Beacon buildings are among the most vulnerable. Carpenter ants work the moisture-prone wood of buildings that have been through generations of renovation and deferred maintenance. Mice are a year-round concern in a city with settled old foundations. Spotted lanternfly is established in the Hudson Valley. And Beacon's proximity to New York City via Metro-North elevates bed bug introduction risk through transit and short-term rental activity.",
+    sections: [
+      {
+        heading: "Renovation and Pest Discovery in Beacon's Older Buildings",
+        body: "The renovation activity that defines Beacon's revival decade is also the most common way local pest histories get exposed. Opening walls in a hundred-year-old building frequently reveals carpenter ant galleries in moisture-damaged sill plates, termite mud tubes in crawlspace framing, and mouse runways in wall insulation. These discoveries do not mean the renovation caused the problem. They mean the building had been accumulating it, often for decades. The practical approach before beginning any renovation on a Beacon property is a professional pest inspection that identifies what is already present. Discovering termite damage after framing is opened is less disruptive than discovering it after new finishes are installed.",
+      },
+      {
+        heading: "Spotted Lanternfly and Bed Bugs in the Hudson Valley",
+        body: "Two newer pest concerns in Beacon reflect its connections to the broader region. Spotted lanternfly is established in Dutchess County and throughout the Hudson Valley. The insect's preferred host, tree-of-heaven, is common in Beacon's disturbed urban areas, and late-summer swarms of lanternfly adults on buildings and trees are a genuine nuisance. Removing tree-of-heaven from the property reduces attractant habitat. Bed bugs reflect Beacon's transit connection to New York City and its active short-term rental market. Metro-North brings Beacon residents into regular contact with one of the country's highest bed bug markets. Any second-hand furniture or short-term rental should be inspected. A professional inspection between rental guests gives property owners early detection before an infestation establishes.",
+      },
+    ],
+    prevention: [
+      "Commission a pest inspection before beginning any renovation of an older Beacon property to identify termites, carpenter ants, and rodents before framing is opened.",
+      "Seal foundation gaps, pipe penetrations, and door sweeps in September before Hudson Valley cold drives mice hard into older Beacon structures in October.",
+      "Remove tree-of-heaven from your Beacon property to reduce spotted lanternfly attractant habitat and the late-summer swarms they produce.",
+      "Inspect any second-hand furniture for bed bugs before bringing it into a Beacon home, and conduct inspections between guests if you have a short-term rental property.",
+    ],
+    costNote:
+      "Beacon pest control starts with a free inspection. Pre-renovation pest assessments are strongly recommended for any older Dutchess County property. Termite inspections and protection plans are annual. Bed bug inspections and treatments are quoted by room or by property. Mouse exclusion work varies based on the number and type of entry points in older construction.",
+    faqs: [
+      {
+        question: "Is spotted lanternfly a serious pest in Beacon and the Hudson Valley?",
+        answer:
+          "Spotted lanternfly is established throughout Dutchess County and the broader Hudson Valley. It does not damage homes structurally but produces honeydew that promotes mold growth on surfaces below, and late-summer swarms of adults can be a significant nuisance on buildings and outdoor spaces. Tree-of-heaven is the primary host and its removal from properties reduces local lanternfly populations. Licensed applicators can treat infested trees.",
+      },
+      {
+        question: "Why does Beacon's renovation activity reveal so much pest history?",
+        answer:
+          "Older buildings accumulate pest activity over their lifespan in ways that are not visible without opening walls or crawlspaces. Termite damage, carpenter ant galleries, and mouse runways all develop inside structural cavities over years. When renovation opens those spaces, what has been present for a long time becomes visible. A pre-renovation professional inspection gives you a clear picture of what the building holds before construction begins.",
+      },
+      {
+        question: "Are bed bugs a real concern for Beacon residents who commute to New York City?",
+        answer:
+          "Yes, practically speaking. Metro-North commuters are in regular contact with the transit environment of one of the highest bed bug markets in the country. The risk is not extreme for any individual trip, but frequent commuters have ongoing exposure. Awareness of bed bug signs at home and inspection of any second-hand furniture or used clothing are the most practical ongoing preventive steps.",
+      },
+      {
+        question: "Are termites active in Dutchess County?",
+        answer:
+          "Eastern subterranean termites are documented throughout Dutchess County. The Hudson Valley's temperate climate supports active termite populations through the warm season. Beacon's older construction, with its crawlspaces, aging sill plates, and wood near grade, carries real risk. Annual inspections are appropriate for older Dutchess County properties.",
+      },
+      {
+        question: "When should I get mouse exclusion work done in Beacon?",
+        answer:
+          "September is the right timing for Beacon. Hudson Valley temperatures drop in October and mice push hard into heated structures through October and November. Older Beacon buildings with settled foundations and aging utility penetrations have many potential entry points. A September inspection and exclusion visit gives you the best chance of getting ahead of the fall entry before mice establish inside.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Poughkeepsie", slug: "poughkeepsie" },
+      { name: "Newburgh", slug: "newburgh" },
+      { name: "Albany", slug: "albany" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Beacon, NY | Hudson Valley Termites, Mice & Lanternfly",
+    metaDescription:
+      "Pest control in Beacon, NY. Dutchess County Hudson Valley service for termites, mice, carpenter ants, spotted lanternfly, and bed bugs in a historic riverfront city. Free inspection.",
+  },
+  {
+    slug: "johnson-city-ny",
+    name: "Johnson City",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~15,000",
+    county: "Broome County",
+    climate: "cold-humid",
+    climateDriver:
+      "Johnson City is part of the Binghamton-Johnson City-Endicott Triple Cities area in Broome County's Susquehanna River valley. The cold-humid climate, with significant snowfall and cold winters, drives mice and rats into older industrial and residential buildings in fall. The Susquehanna River creates mosquito habitat and flooding that has shaped the city's built environment. Spotted lanternfly is expanding into New York's Southern Tier from its established Mid-Atlantic base.",
+    topPests: [
+      "House Mice",
+      "Norway Rats",
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+      "Spotted Lanternfly",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge October through March",
+        note: "Johnson City's older industrial neighborhoods and dense residential areas adjacent to downtown Binghamton sustain year-round mouse populations. Cold Susquehanna Valley winters drive strong fall entry into structures with the predictability of the season.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "The older commercial and industrial areas of Johnson City, with their aging infrastructure and dumpster-accessible food waste, sustain Norway rat populations in the Triple Cities corridor. The Susquehanna River's waterfront areas also provide rat harborage.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active through fall",
+        note: "Eastern subterranean termites are present in Broome County. Johnson City's older building stock, including the former Endicott Johnson shoe manufacturing buildings and mid-century residential construction, carries accumulated termite risk.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are active in Johnson City's older wood-frame residential areas and the tree canopy of established neighborhoods. Moisture-damaged wood in older construction is the primary nesting target.",
+      },
+      {
+        name: "Spotted lanternfly",
+        serviceSlug: "pest-control",
+        activeSeason: "Nymphs May through July, adults August through November",
+        note: "Spotted lanternfly has been confirmed in Broome County as it expands northward into New York's Southern Tier. The Susquehanna River corridor is a likely pathway for continued spread, and Johnson City residents are seeing the early stages of local establishment.",
+      },
+    ],
+    localHook:
+      "Johnson City was the home of Endicott Johnson, the shoe manufacturer that defined the Triple Cities for most of the twentieth century. The legacy of that industrial era is a city of older housing stock, former manufacturing buildings, and aging commercial infrastructure that creates exactly the conditions Norway rats and house mice need for year-round harborage. The Susquehanna River that powered the valley's industry now creates mosquito habitat and periodic flooding.",
+    intro:
+      "Johnson City shares its pest environment with the broader Triple Cities corridor: an older built landscape shaped by twentieth-century industry, cold Susquehanna Valley winters, and the river's influence on local ecology. Mice are the dominant year-round concern in the older residential neighborhoods around downtown. Norway rats are present in the commercial and industrial zones where food waste and aging infrastructure provide harborage. Eastern subterranean termites are documented in Broome County and present real risk for older construction. Carpenter ants work the warm months in wood-frame neighborhoods. Spotted lanternfly has arrived in the county and is establishing in the Southern Tier.",
+    sections: [
+      {
+        heading: "Comparing Mice and Rats in Johnson City's Industrial Legacy Neighborhoods",
+        body: "Johnson City's two rodent species have different habitats and require different control approaches. House mice are the dominant rodent in the residential neighborhoods around the former E-J campus and throughout the older housing stock of the Triple Cities. They enter through structural gaps and nest inside, requiring exclusion plus trapping. Norway rats are more common in the commercial and industrial zones, where loading docks, dumpsters, and aging below-grade infrastructure provide harborage and food. Rat control requires bait stations at harborage sites, structural exclusion of commercial buildings, and dumpster management coordination. Treating for one without addressing the other leaves part of the problem unsolved, and a professional inspection identifies which species is present at each location.",
+      },
+      {
+        heading: "Termites and Spotted Lanternfly in Broome County",
+        body: "Eastern subterranean termites are documented in Broome County and present a real risk for Johnson City's older building stock. The mid-twentieth-century construction that characterizes much of the city has had decades of potential exposure in Broome County's moist valley soils. Annual inspections are appropriate for any older Johnson City property. Spotted lanternfly has been confirmed in Broome County and represents a new nuisance for Johnson City residents. The Susquehanna River corridor is a likely pathway for its continued expansion into the Southern Tier. While it is not a structural pest, spotted lanternfly produces honeydew that fosters mold on exterior surfaces, and fall swarms on buildings and trees are a genuine nuisance. Removing tree-of-heaven from the property reduces attractant habitat.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and utility entries in September before Susquehanna Valley cold drives mice into Johnson City's older residential buildings.",
+      "Manage dumpster access and harborage areas in commercial zones to reduce Norway rat pressure in Johnson City's older industrial neighborhood corridors.",
+      "Schedule a termite inspection if older Johnson City construction has not been assessed recently, given Broome County's documented termite presence.",
+      "Remove tree-of-heaven from property where possible to reduce spotted lanternfly attractant habitat as the insect establishes in Broome County.",
+    ],
+    costNote:
+      "Johnson City pest control starts with a free inspection. Rodent control for older residential buildings and commercial zones may require separate programs for mice and rats. Termite protection is annual. Carpenter ant treatment is a spring and summer service. Spotted lanternfly management is an emerging seasonal service for Broome County properties.",
+    faqs: [
+      {
+        question: "Is there really a rat problem in Johnson City?",
+        answer:
+          "Norway rats are present in Johnson City's older commercial and industrial zones, particularly near dumpster areas, loading docks, and the aging infrastructure of the former Endicott Johnson manufacturing corridor. They are less common in the residential neighborhoods, where house mice are the dominant rodent. A professional inspection determines which species is present at a specific location and what control approach is appropriate.",
+      },
+      {
+        question: "How serious is the spotted lanternfly situation in Broome County?",
+        answer:
+          "Spotted lanternfly has been confirmed in Broome County and is in the early stages of establishment in the Triple Cities area. It is not a structural pest but can be a serious nuisance and causes economic damage to vineyards and fruit trees. The Susquehanna River corridor is a likely pathway for continued spread from the established Mid-Atlantic population. Removing tree-of-heaven from your property reduces the local attractant habitat.",
+      },
+      {
+        question: "Are termites a concern in Johnson City's older buildings?",
+        answer:
+          "Eastern subterranean termites are documented in Broome County and represent a real risk for Johnson City's mid-twentieth-century housing stock. Broome County's moist valley soils and the Susquehanna River's proximity keep soil moisture elevated in many parts of the city. Any older Johnson City property that has not had a recent termite inspection should have one.",
+      },
+      {
+        question: "When is the worst time for mice in Johnson City?",
+        answer:
+          "October and November, when Susquehanna Valley temperatures drop and field cover thins. Mice push into heated structures with intensity during those weeks and are then established for the full winter. A September exclusion inspection and gap sealing is the most effective intervention timing. Once mice are inside and established by November, control requires a trap grid in addition to exclusion.",
+      },
+      {
+        question: "Does the Susquehanna River flooding affect pest populations in Johnson City?",
+        answer:
+          "Yes. Major flooding events in the Susquehanna Valley, like the flooding from Tropical Storm Lee in 2011, can displace rodent populations from their established harborage sites and push them toward residential structures. The flooding also creates standing water that sustains mosquito populations for weeks after the event. Properties in flood-prone areas of Johnson City should be alert to rodent displacement following any major flood event.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Binghamton", slug: "binghamton" },
+      { name: "Ithaca", slug: "ithaca" },
+      { name: "Elmira", slug: "elmira" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Johnson City, NY | Triple Cities Mice, Rats & Termites",
+    metaDescription:
+      "Pest control in Johnson City, NY. Broome County Triple Cities service for house mice, Norway rats, termites, carpenter ants, and spotted lanternfly in the Susquehanna Valley. Free inspection.",
+  },
 ];
