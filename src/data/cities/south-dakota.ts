@@ -353,4 +353,218 @@ export const southDakotaCities: CityLocation[] = [
     metaDescription:
       "Aberdeen pest control for mice, cluster flies, boxelder bugs and ants. Brown County northern South Dakota agricultural region specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "brookings",
+    name: "Brookings",
+    state: "South Dakota",
+    stateSlug: "south-dakota",
+    stateAbbr: "SD",
+    tier: "T3",
+    population: "~24,000",
+    county: "Brookings County",
+    climate: "cold-humid",
+    climateDriver:
+      "Brookings is home to South Dakota State University (SDSU) in eastern South Dakota's agricultural plains. The cold-humid Great Plains climate delivers cold winters, warm humid summers, and significant seasonal pest pressure. SDSU Extension, one of the leading agricultural extension programs in the Northern Plains, documents pest activity throughout Brookings County. The agricultural setting sustains large outdoor mouse, boxelder bug, and cluster fly populations that surge toward structures each fall.",
+    topPests: [
+      "House Mice",
+      "Boxelder Bugs",
+      "Cluster Flies",
+      "German Cockroaches",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, intensive surge September through December",
+        note:
+          "House mice are the primary structural pest in Brookings and throughout Brookings County. The surrounding agricultural fields and crop storage sustain large outdoor mouse populations that surge toward structures each fall. SDSU Extension identifies rodents as a priority pest management concern in South Dakota communities. Cold winters below zero make heated buildings essential for mouse survival.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "general-pest-control",
+        activeSeason: "September through October entry, emerge on warm winter days",
+        note:
+          "Boxelder bugs are among the most frequently complained-about fall pests in Brookings. The eastern South Dakota agricultural plains have substantial boxelder tree populations in shelter belts and residential areas, sustaining large boxelder bug populations that aggregate on buildings each fall. They enter wall voids by the thousands and emerge on warm winter days.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October entry, emerge indoors on warm winter days",
+        note:
+          "Cluster flies are a consistent fall and winter nuisance in Brookings, sustained by the agricultural land and earthworm populations throughout Brookings County. They overwinter in wall voids and attic spaces and emerge on warm days throughout the winter, gathering on south-facing windows.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are present in Brookings' commercial food service operations and in the student rental housing near the SDSU campus. The university population and the restaurant and food service corridor near campus sustains cockroach pressure in the commercial and rental housing sector.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive late August",
+        note:
+          "Yellow jackets build ground and aerial nests throughout Brookings' residential areas and the surrounding agricultural land each summer. They reach peak colony size and maximum defensiveness in late August and September, coinciding with the start of the SDSU academic year and peak outdoor activity.",
+      },
+    ],
+    localHook:
+      "Brookings is a university city in eastern South Dakota's agricultural plains, home to South Dakota State University and one of the region's leading agricultural research programs. That agricultural setting drives pest pressure in specific ways: the crop fields, shelter belt trees, and grain storage in and around the city sustain boxelder bug, cluster fly, and mouse populations that push into residential and campus buildings each fall at levels that cities without surrounding agriculture do not experience.",
+    intro:
+      "Pest control in Brookings covers the pest calendar of an eastern South Dakota university city. House mice are the year-round structural constant, with the surrounding agricultural fields and crop storage sustaining large outdoor populations that surge into buildings each fall. Boxelder bugs and cluster flies are reliable and often overwhelming fall nuisances, entering wall voids in large numbers from the shelter belts and agricultural land around the city. German cockroaches are a commercial and campus housing concern. Yellow jackets build large colonies through summer and peak in aggression in late August. SDSU Extension documents pest activity throughout Brookings County.",
+    sections: [
+      {
+        heading: "Boxelder bugs and cluster flies: the eastern South Dakota fall swarm",
+        body: "Brookings homeowners face two separate fall swarms that enter buildings through different pathways but through the same general gap: boxelder bugs and cluster flies. Both enter in September and October through gaps in window frames, siding, and utility penetrations to overwinter in wall voids and attic spaces. Both emerge on warm winter days in frustrating numbers.\n\nThe differences matter for prevention. Boxelder bugs are attracted to the warmth of south-facing and west-facing walls and the female boxelder and silver maple trees that produce their seed food. Reducing these trees near the home or applying perimeter spray before they aggregate in September reduces entry. Cluster flies are sustained by the earthworms in the surrounding agricultural soil and are less influenced by specific plants. They are simply responsive to temperature and seek any building for overwintering. For both species, a barrier treatment applied to south-facing exterior walls in mid-August and sealing of identified gap points in window frames and siding is the most effective prevention approach before the populations aggregate.",
+      },
+      {
+        heading: "Mouse pressure near the SDSU campus and agricultural land",
+        body: "Brookings faces mouse pressure from two directions simultaneously: from the surrounding crop fields and shelter belt trees of the agricultural plains, and from the student rental housing and food service corridor near the SDSU campus. The agricultural pressure affects the full city: any home within a half mile of cropland or grain storage faces intensified fall mouse entry. The campus corridor creates a secondary German cockroach pressure in the food service and rental housing sector that a comparably sized city without a university would not experience.\n\nFor residential properties, the fall exclusion window in September is the high-priority time. For commercial properties and student housing near campus, year-round monitoring and quarterly professional treatment for German cockroaches addresses the ongoing cockroach pressure from the food service corridor.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and garage door gaps in September before the mouse surge from the surrounding Brookings County agricultural land.",
+      "Apply boxelder bug and cluster fly barrier treatment to south-facing exterior walls in mid-August and seal gaps in window frames and siding before they aggregate.",
+      "Schedule quarterly professional cockroach monitoring and treatment for commercial food service operations near the SDSU campus corridor.",
+      "Treat yellow jacket ground nests in June when colonies are small, before the late August aggression peak that coincides with the start of the SDSU academic year.",
+    ],
+    costNote:
+      "Brookings pest control is typical of the eastern South Dakota market. Mouse exclusion and trapping programs start with a free inspection. Boxelder bug and cluster fly barrier treatment is a fall service. German cockroach programs for commercial and campus housing are quoted quarterly. Yellow jacket removal quoted after assessment.",
+    faqs: [
+      {
+        question: "Why do I get so many boxelder bugs in my Brookings home every fall?",
+        answer:
+          "Brookings County's agricultural shelter belts and residential areas have substantial boxelder and silver maple tree populations, which are the primary food source for boxelder bugs. The bugs aggregate in enormous numbers on south-facing walls in September seeking overwintering sites in wall voids. The eastern South Dakota plains provide no terrain barrier to limit the populations that build up in the surrounding tree shelter belts through summer. A barrier spray on exterior walls in mid-August and gap sealing in window frames significantly reduces how many enter your home.",
+      },
+      {
+        question: "Are German cockroaches common in Brookings outside the restaurant corridor?",
+        answer:
+          "German cockroaches in Brookings are primarily concentrated in the commercial food service operations and the student rental housing near the SDSU campus. They spread to adjacent residential properties through shared building systems in multi-family housing. Single-family homes away from the campus corridor are less frequently affected, but cockroaches can be introduced through infested secondhand appliances or furniture. SDSU Extension documents German cockroach as a priority urban pest in South Dakota cities with university populations.",
+      },
+      {
+        question: "When is the best time to seal my Brookings home against mice?",
+        answer:
+          "September is the most effective month. The agricultural fields surrounding Brookings produce large outdoor mouse populations that begin moving toward heated structures as temperatures drop. Completing exclusion work, sealing foundation gaps, utility penetrations, and worn door sweeps, before that September movement begins limits the size of the fall invasion. A professional inspection identifies the specific entry points for your structure.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Sioux Falls", slug: "sioux-falls" },
+      { name: "Rapid City", slug: "rapid-city" },
+      { name: "Aberdeen", slug: "aberdeen" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Brookings, SD | Mice, Boxelder Bugs & University City Pests",
+    metaDescription:
+      "Brookings pest control for house mice, boxelder bugs, cluster flies, cockroaches and yellow jackets. Brookings County SDSU South Dakota agricultural plains specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "watertown-sd",
+    name: "Watertown",
+    state: "South Dakota",
+    stateSlug: "south-dakota",
+    stateAbbr: "SD",
+    tier: "T3",
+    population: "~22,000",
+    county: "Codington County",
+    climate: "cold-humid",
+    climateDriver:
+      "Watertown sits in northeastern South Dakota's lake country, where Codington County's numerous glacial lakes and wetlands create mosquito breeding habitat through the warm season. The South Dakota Department of Health monitors West Nile virus activity in Codington County each summer. Cold Great Plains winters drive mice and overwintering insects into structures from October through April.",
+    topPests: [
+      "House Mice",
+      "Mosquitoes",
+      "Boxelder Bugs",
+      "Cluster Flies",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, intensive surge October through March",
+        note:
+          "House mice are the primary structural pest in Watertown and throughout Codington County. The surrounding agricultural land and the grain storage operations in the Watertown area sustain large outdoor mouse populations that surge toward structures each fall. South Dakota winters below zero make heated buildings essential for mouse survival.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak June through August",
+        note:
+          "Codington County's numerous glacial lakes and wetlands create significant mosquito breeding habitat through the warm season. The South Dakota Department of Health monitors West Nile virus activity in northeastern South Dakota each summer. Standing water in the lake district's low-lying areas sustains mosquito populations well into September.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "general-pest-control",
+        activeSeason: "September through October entry, emerge on warm winter days",
+        note:
+          "Boxelder bugs are a consistent fall nuisance in Watertown wherever boxelder and silver maple trees are present. They aggregate on sun-facing walls in September and push into wall voids to overwinter, emerging in large numbers on warm winter days.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October entry, emerge indoors on warm winter days",
+        note:
+          "Cluster flies are a persistent fall and winter pest in Watertown, sustained by the agricultural and rural land in Codington County. They overwinter in wall voids and attic spaces and emerge on warm days, gathering on south-facing windows throughout the winter.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive late August",
+        note:
+          "Yellow jackets build ground and aerial nests throughout Watertown's residential areas each summer. The surrounding agricultural and rural land provides abundant nesting habitat. Colonies reach peak size and defensiveness in late August and September.",
+      },
+    ],
+    localHook:
+      "Watertown sits in northeastern South Dakota's glacial lake country, where Codington County's lakes and wetlands create a summer pest environment that flatland agricultural cities do not face. The South Dakota Department of Health monitors West Nile virus in Codington County each summer, and the lake district mosquito pressure runs well into September. The cold Great Plains winters that follow drive mice, boxelder bugs, and cluster flies into buildings for the extended indoor season.",
+    intro:
+      "Pest control in Watertown addresses a northeastern South Dakota pest calendar shaped by two contrasting seasons. Summer brings mosquito pressure from Codington County's glacial lake wetlands, with the South Dakota Department of Health monitoring West Nile virus activity through the warm season. Fall and winter bring the agricultural plains pest surge: house mice from the surrounding cropland, boxelder bugs and cluster flies overwintering in wall voids, and yellow jackets at peak aggression before the cold ends the season. The cold Great Plains winters are severe enough to drive all these pressures indoors for an extended period.",
+    sections: [
+      {
+        heading: "Codington County lake district and mosquito pressure",
+        body: "Watertown's location in Codington County's glacial lake district creates a mosquito environment that is more sustained than in the surrounding agricultural plains communities. The numerous lakes, wetlands, and low-lying areas throughout the county provide productive mosquito breeding habitat from late May through early September. The South Dakota Department of Health monitors West Nile virus activity across the state each summer, and northeastern South Dakota's lake country is within the monitored zone.\n\nFor Watertown residents, the practical mosquito management steps are eliminating any standing water in the yard that is not a natural lake feature, including bird baths, drainage containers, low spots, and gutters, and considering professional barrier spray treatment of yard vegetation for properties where mosquito pressure is severe. The lake source population is too large for individual yard management to eliminate, but a treated yard perimeter significantly reduces adult mosquito counts at the home.",
+      },
+      {
+        heading: "Fall overwintering pests: a two-wave problem in Watertown",
+        body: "Watertown's fall pest calendar involves two overlapping waves that require attention in the same September window. The first wave is mice, which begin moving from the surrounding agricultural fields and grain operations toward heated structures in late September and peak in October. Exclusion work sealing foundation gaps, utility penetrations, and door sills needs to be completed before this movement peaks.\n\nThe second wave is boxelder bugs and cluster flies, which aggregate on south-facing exterior walls in September and push into wall voids through any gap they can find. These are nuisance pests that cause no structural damage but emerge on warm winter days in frustrating numbers from deep within wall voids. Barrier treatment of exterior walls in mid-September and sealing of gap points in window frames and siding addresses both. The timing of the mouse and overwintering insect waves overlaps, making September the highest-priority month for pest prevention work in Watertown.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water in gutters, drainage containers, and low yard areas through the summer to reduce mosquito breeding near Codington County's lake district.",
+      "Complete mouse exclusion work in September, sealing foundation gaps, utility penetrations, and door sills before peak October entry from the surrounding agricultural land.",
+      "Apply boxelder bug and cluster fly barrier treatment to south-facing exterior walls in mid-September and seal gaps in window frames and siding.",
+      "Treat yellow jacket ground nests in June when colonies are small and before the late August aggression peak.",
+    ],
+    costNote:
+      "Watertown pest control is typical of the northeastern South Dakota market. Mouse exclusion and trapping programs start with a free inspection. Mosquito barrier programs run seasonally. Boxelder bug and cluster fly treatment is a fall service. Yellow jacket removal is quoted after assessment.",
+    faqs: [
+      {
+        question: "Is West Nile virus a risk in the Watertown area?",
+        answer:
+          "The South Dakota Department of Health monitors West Nile virus activity across the state each summer, and northeastern South Dakota's lake country, including Codington County, is within the monitored zone. Most West Nile infections cause mild or no symptoms, but a small percentage cause serious neurological illness. Reducing mosquito bites through repellent use, avoiding peak mosquito hours (dusk and dawn), and eliminating standing water in the yard are the practical steps to reduce exposure risk.",
+      },
+      {
+        question: "Why are there so many mosquitoes in Watertown compared to other South Dakota cities?",
+        answer:
+          "Codington County's numerous glacial lakes and wetlands create significantly more mosquito breeding habitat than is typical in the agricultural plains communities of eastern South Dakota. The slow-draining low areas, marsh edges, and wetland vegetation throughout the county provide sustained breeding through the summer. This is not a residential standing water problem alone: the lake district source population is large and ranges broadly. Barrier spray programs starting in May address the residential-level problem.",
+      },
+      {
+        question: "When should I treat for mice in my Watertown home?",
+        answer:
+          "September is the most effective month. Agricultural land surrounding Watertown produces large outdoor mouse populations that begin moving toward heated structures as temperatures drop. Completing exclusion work, sealing foundation gaps, utility penetrations, and worn door sweeps, before the October peak movement limits the invasion. A professional inspection identifies your structure's specific entry points before that window closes.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Sioux Falls", slug: "sioux-falls" },
+      { name: "Rapid City", slug: "rapid-city" },
+      { name: "Brookings", slug: "brookings" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Watertown, SD | Mice, Mosquitoes & Lake Country Pests",
+    metaDescription:
+      "Watertown pest control for house mice, mosquitoes, boxelder bugs, cluster flies and yellow jackets. Codington County northeastern South Dakota glacial lake district specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

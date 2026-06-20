@@ -450,4 +450,218 @@ export const maineCities: CityLocation[] = [
     metaDescription:
       "South Portland ME pest control for deer ticks, carpenter ants, mice, mosquitoes and stink bugs. Cumberland County Casco Bay specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "auburn-me",
+    name: "Auburn",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~24,000",
+    county: "Androscoggin County",
+    climate: "cold-humid",
+    climateDriver:
+      "Auburn sits on the west bank of the Androscoggin River in Androscoggin County, forming the twin-city pair with Lewiston that anchors central Maine's largest urban area. The Androscoggin River floodplain creates riparian wetland corridors that sustain deer tick and mosquito populations at the edges of Auburn's residential neighborhoods. Maine CDC tracks Androscoggin County as a moderate-to-high Lyme disease risk zone, and the mix of urban density and wooded residential edges means pest pressure runs across both structural and outdoor categories year-round.",
+    topPests: [
+      "House Mice",
+      "Deer Ticks",
+      "Carpenter Ants",
+      "German Cockroaches",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "Maine winters are long enough that house mice in Auburn begin pushing into structures as early as late August. Auburn's older residential housing, much of it built during the textile mill era of the early-to-mid 20th century, has the foundation gaps and worn weatherstripping that give mice routine access. The dense twin-city urban character means that exclusion work on one building can shift mouse pressure to adjacent structures if not coordinated.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, peak risk April through June and September through October",
+        note: "Maine CDC documents Androscoggin County as carrying moderate-to-high Lyme disease risk. The Androscoggin River corridor and the wooded residential edges in Auburn's outer neighborhoods sustain the deer and white-footed mouse populations that support deer tick reproduction. Auburn residents who use the riverside trails or have properties backing onto wooded edges face consistent spring and fall tick exposure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, interior activity in spring signals established colony",
+        note: "Auburn's older wood-frame buildings and the humidity from the Androscoggin River valley create the moisture conditions that allow carpenter ant infestations to develop in structural wood. Mature trees throughout the residential neighborhoods provide exterior harborage. Large black ants appearing inside in spring are the most common first sign of an established colony in the structure.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches concentrate in Auburn's older multi-family housing and food service areas in the city core. The restaurant and commercial corridor downtown and the density of older rental units in the inner neighborhoods create the kitchen and bathroom harborage conditions that German cockroaches exploit. Multi-unit buildings require coordinated treatment rather than single-unit response to prevent spread.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Auburn's rental housing stock, secondhand furniture market, and proximity to Lewiston's larger commercial district create multiple bed bug introduction routes. Multi-family buildings in the older urban neighborhoods are the highest-risk category. Once established in a building, bed bugs spread between units through wall voids and shared infrastructure, making building-level detection and treatment the standard response.",
+      },
+    ],
+    localHook:
+      "The Androscoggin River valley connects Auburn and Lewiston into one urban pest zone where river corridor ticks, older housing mice and cockroaches, and multi-family bed bug pressure all require local knowledge to manage well.",
+    intro:
+      "Pest control in Auburn covers a range of pressures that reflect the city's twin-city character and its river valley location. The Androscoggin River brings riparian tick and mosquito habitat right to the edge of Auburn's residential neighborhoods. The older housing stock, built when Auburn was a mill city, carries the structural vulnerabilities that give mice, carpenter ants, and cockroaches easy access. The mix of older rental housing and a dense urban core creates the bed bug introduction and spread risks typical of a New England mill city. These are manageable problems, but they require treatment plans that account for Auburn's specific buildings and landscape rather than generic pest control.",
+    sections: [
+      {
+        heading: "The Androscoggin River corridor and tick pressure in Auburn",
+        body: "The Androscoggin River runs along Auburn's eastern boundary and creates the riparian habitat that sustains deer tick populations in the heart of an otherwise urban landscape. The floodplain vegetation, the riverside parks, and the wooded edges that follow the river through the city are all established deer tick territory. Maine CDC tracks Androscoggin County for Lyme disease, and the river corridor is one of the primary reasons tick exposure in Auburn is higher than the urban setting alone would suggest.\n\nAuburn residents who use the Great Falls Walking Trail, access the riverside parks, or live in neighborhoods backing onto the wooded river edge should treat tick checks as a regular warm-season habit from late March through November. The nymphal stage, active in May and June, is the most commonly missed because nymphs are smaller than a poppy seed and attach in areas that go unchecked. Professional tick treatment of the yard perimeter and wooded edges provides a reliable layer of protection through the most active months.",
+      },
+      {
+        heading: "Older housing and structural pests in Auburn's neighborhoods",
+        body: "Auburn's residential character reflects its mill city history. The neighborhoods closest to the downtown core have housing stock dating to the late 19th and early 20th century, and this older construction carries structural vulnerabilities that newer homes do not share. Foundation gaps from settling, worn door and window weatherstripping, and utility penetrations without proper sealing give house mice routine access every fall. Mice can enter through gaps as small as a dime, and Auburn's older homes have no shortage of candidate entry points.\n\nCarpenter ants follow the same patterns. Moisture accumulation in older structural wood, combined with the humidity from the Androscoggin River valley, creates favorable conditions for carpenter ants to establish galleries in framing and trim. Spotting large black ants inside in spring, particularly in kitchens and bathrooms, is the most reliable early sign. German cockroaches are more concentrated in the multi-family and commercial buildings in the city core, where kitchen infrastructure and building density create the conditions they prefer. Treating these three pests effectively in Auburn means inspecting the building envelope first and addressing the structural conditions that allow them access before relying on chemical treatment alone.",
+      },
+    ],
+    prevention: [
+      "Perform exterior tick checks and shower promptly after spending time near the Androscoggin River corridor, riverside trails, or wooded neighborhood edges from April through November.",
+      "Complete fall mouse exclusion work on Auburn's older homes in August, sealing foundation gaps, utility penetrations, and worn weatherstripping before mice begin their September push indoors.",
+      "Schedule a carpenter ant inspection for older wood-frame Auburn homes showing spring ant activity, particularly in kitchens, bathrooms, or near plumbing walls.",
+      "In Auburn's older multi-family buildings, use interceptor monitors under beds and in closets as early bed bug detection, especially in units near high-turnover neighbors.",
+    ],
+    costNote:
+      "Auburn pest control programs start with a free inspection. Tick perimeter treatment, ongoing rodent exclusion, and cockroach or bed bug treatment in multi-family buildings are priced separately based on property size and infestation extent.",
+    faqs: [
+      {
+        question: "Are deer ticks common in Auburn's urban neighborhoods?",
+        answer:
+          "More common than residents often expect. The Androscoggin River corridor brings riparian wildlife habitat right into the middle of the city, and deer ticks are well established in the riverside vegetation, the wooded residential edges, and the parks along the river. Maine CDC tracks Androscoggin County as a moderate-to-high Lyme disease risk zone. Auburn residents who walk near the river or have yards backing onto wooded edges face real tick exposure from April through November.",
+      },
+      {
+        question: "When do mice become a problem in Auburn homes?",
+        answer:
+          "September is when the fall push starts in Auburn. Maine winters motivate house mice to seek heated shelter early, and Auburn's older housing stock gives them multiple entry options. Foundation settling, worn weatherstripping, and utility line gaps are the most common entry points. Completing exterior exclusion work in August, before the push begins, is more effective and less expensive than reactive trapping after mice are already inside.",
+      },
+      {
+        question: "Are cockroaches common in Auburn?",
+        answer:
+          "German cockroaches are a real issue in Auburn's older multi-family housing and food service environments in the city core. They are not common in newer suburban construction. If you live in an older multi-unit building in the inner neighborhoods and see cockroaches, the infestation is likely in multiple units in the building, not just yours. Building-level treatment, coordinated with the landlord, produces better outcomes than treating a single unit in isolation.",
+      },
+      {
+        question: "What is the bed bug risk in Auburn rental housing?",
+        answer:
+          "Bed bugs are a persistent risk in any older multi-family rental building, and Auburn's housing stock is primarily older multi-family. Introduction routes include tenants moving in with infested belongings, secondhand furniture, and prior occupant harborage that was not properly treated. Early detection with interceptor monitors and prompt response limit the spread. Waiting until an infestation is large enough to see visually allows bed bugs to reach adjacent units through shared infrastructure.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Bangor", slug: "bangor" },
+      { name: "Lewiston", slug: "lewiston-me" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Auburn, ME | Mice, Ticks, Carpenter Ants & Cockroaches",
+    metaDescription:
+      "Auburn ME pest control for house mice, deer ticks, carpenter ants, German cockroaches and bed bugs. Androscoggin County Androscoggin River valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "biddeford",
+    name: "Biddeford",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~22,000",
+    county: "York County",
+    climate: "cold-humid",
+    climateDriver:
+      "Biddeford sits at the mouth of the Saco River in York County, southern coastal Maine, where the river estuary and the Atlantic coastline create a pest environment defined by coastal Maine conditions. Maine CDC consistently reports York County among Maine's highest Lyme disease incidence counties, driven by the wooded suburban corridors and agricultural edges that border Biddeford's residential areas. The coastal climate moderates temperatures compared to inland Maine, extending the active pest season slightly.",
+    topPests: [
+      "House Mice",
+      "Deer Ticks",
+      "German Cockroaches",
+      "Carpenter Ants",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round indoors, peak September through November",
+        note: "House mice push into Biddeford homes starting in September as Maine temperatures drop. Biddeford's mix of older mill-era housing in the downtown core and suburban construction on the city's edges provides both structural access points and nearby source populations. The Saco River corridor and surrounding wooded areas sustain mouse populations close to residential neighborhoods.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Maine CDC reports York County as one of Maine's highest Lyme disease incidence counties. Biddeford's wooded suburban corridors, the Saco River natural areas, and the brushy edges between residential neighborhoods and the coast all provide deer tick habitat. The coastal moisture environment is favorable for tick survival, and the active tick season in York County is among the longest in Maine.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are established in Biddeford's older multi-family housing and commercial food service buildings. The city's downtown core, with its older building stock and restaurant density, creates the harborage conditions cockroaches need. University of New England students in nearby Biddeford buildings add a secondary introduction and spread pathway through shared living situations.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor activity signals established colony",
+        note: "Biddeford's older wood-frame housing and the moisture from the Saco River estuary and coastal humidity create conditions favorable for carpenter ant infestations. Spring ant activity inside the home is the most common first indicator. Older properties near the river corridor and the downtown core are the highest-risk category.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Biddeford's older rental housing stock and the presence of University of New England create the high-turnover tenant conditions associated with elevated bed bug introduction risk. Older multi-family buildings in the downtown and riverside neighborhoods are the most vulnerable. Coordinated building-level response is more effective than single-unit treatment when bed bugs are detected in a multi-family property.",
+      },
+    ],
+    localHook:
+      "Biddeford's Saco River estuary location and York County's status as one of Maine's highest Lyme disease counties make professional tick management a necessity rather than an option for property owners in southern Maine's coastal corridor.",
+    intro:
+      "Pest control in Biddeford is shaped by the Saco River estuary, York County's tick density, and the city's older urban housing stock. Deer tick exposure in Biddeford is not a suburban edge concern, it is a documented public health priority for York County, which Maine CDC consistently reports among the state's highest Lyme disease incidence counties. The older housing in Biddeford's downtown and riverside neighborhoods gives mice, cockroaches, and carpenter ants the structural access they need. University of New England's presence adds a bed bug introduction pathway through student housing turnover. The combination of high tick exposure and active structural pest pressure makes Biddeford one of the southern Maine communities where professional pest management pays clear dividends.",
+    sections: [
+      {
+        heading: "York County tick pressure and Biddeford's Saco River corridor",
+        body: "Biddeford sits within one of Maine's most active Lyme disease zones. Maine CDC data consistently places York County among the highest Lyme disease incidence counties in the state, and Biddeford's specific geography helps explain why. The Saco River corridor, with its wooded floodplain and riparian vegetation, brings deer tick habitat into residential areas. The wooded edges between Biddeford's suburban neighborhoods and the surrounding agricultural and forested land provide additional tick territory.\n\nDeer ticks in York County are active from March through November, with nymphal activity peaking in May and June. The nymphal stage is the most commonly missed because nymphs are smaller than a sesame seed and attach in locations that standard clothing checks do not reach. Properties backing onto the Saco River floodplain, the wooded neighborhood edges, or the brushy corridors near the coast carry the highest exposure. Professional tick treatment of yard perimeters and wooded borders in April provides effective reduction through the spring and early summer nymphal season.",
+      },
+      {
+        heading: "Structural pests in Biddeford's older housing: mice, cockroaches, and carpenter ants",
+        body: "Biddeford's older housing stock, particularly the mill-era buildings in the downtown core and the older residential neighborhoods along the river, carries the structural vulnerabilities that make mice, cockroaches, and carpenter ants persistent problems in the city. House mice exploit foundation settling, worn weatherstripping, and utility penetrations that older buildings accumulate over decades. The fall push starts in September and continues through November as Maine temperatures drop.\n\nGerman cockroaches concentrate in the older multi-family buildings and food service establishments in Biddeford's commercial core. The building density and shared infrastructure in older apartment buildings provide the spread pathways that cockroaches need to move between units. Carpenter ants follow the moisture gradients in older wood-frame structures, and Biddeford's coastal humidity adds to the moisture load in structural wood. Treating all three of these pests effectively in Biddeford requires inspecting the building envelope for entry points and moisture conditions before applying treatment, which is what separates a durable result from a temporary one.",
+      },
+    ],
+    prevention: [
+      "Apply tick treatment to yard perimeters and wooded borders in April, before the nymphal tick season begins in York County, which has among the highest Lyme disease rates in Maine.",
+      "Complete exterior mouse exclusion on older Biddeford properties in August, sealing foundation gaps, utility penetrations, and door weatherstripping before the September push starts.",
+      "In Biddeford's older multi-family buildings, use bed bug interceptors under beds and prompt landlord notification if any evidence of cockroaches or bed bugs appears, to allow coordinated building response.",
+      "Schedule a carpenter ant inspection for Biddeford properties showing spring ant activity inside, particularly in kitchens, bathrooms, or near plumbing runs in older wood-frame construction.",
+    ],
+    costNote:
+      "Biddeford pest control programs start with a free inspection. Tick perimeter treatment, fall mouse exclusion, and cockroach or bed bug treatment in multi-family buildings are quoted separately based on property size and pest category.",
+    faqs: [
+      {
+        question: "Is Lyme disease risk genuinely high in Biddeford?",
+        answer:
+          "Yes. Maine CDC consistently lists York County among Maine's highest Lyme disease incidence counties, and Biddeford sits in the heart of that county. The Saco River corridor and the wooded residential edges throughout the city provide the habitat that sustains deer tick populations. Biddeford is not a borderline tick risk area. It is in one of southern Maine's most active Lyme zones, and professional tick management in the yard is a reasonable prevention measure for properties near wooded or riverside edges.",
+      },
+      {
+        question: "Do mice get into Biddeford homes every fall?",
+        answer:
+          "Yes, reliably. House mice begin their fall push into Biddeford homes in September, accelerating through October as temperatures drop. Older homes in the downtown and riverside neighborhoods have more entry points than newer suburban construction. The most effective approach is exterior exclusion work completed in August, before the push starts. Gaps in foundation sills, utility line penetrations, and worn door weatherstripping are the priority areas to address.",
+      },
+      {
+        question: "Are cockroaches a problem in Biddeford?",
+        answer:
+          "German cockroaches are a real issue in Biddeford's older multi-family housing and commercial buildings, particularly in the downtown and riverside neighborhoods. They are not common in newer suburban construction. If cockroaches appear in an older multi-unit building, the infestation is typically present in multiple units, and building-level treatment coordinated with the property owner is more effective than single-unit response.",
+      },
+      {
+        question: "What pest risks do older Biddeford homes have for carpenter ants?",
+        answer:
+          "Significant ones. Biddeford's older wood-frame housing combined with the coastal moisture from the Saco River estuary creates favorable conditions for carpenter ants to establish in structural wood. Carpenter ants do not eat wood, but they excavate galleries in wood that is already moisture-damaged or softened, and a colony left untreated for several years causes progressive structural damage. Large black ants appearing inside in spring are the most reliable indicator of an established colony inside the structure rather than foraging from an outdoor nest.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "South Portland", slug: "south-portland" },
+      { name: "Auburn", slug: "auburn-me" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Biddeford, ME | Ticks, Mice, Cockroaches & Carpenter Ants",
+    metaDescription:
+      "Biddeford pest control for house mice, deer ticks, German cockroaches, carpenter ants and bed bugs. York County Saco River estuary specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

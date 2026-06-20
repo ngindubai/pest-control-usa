@@ -1686,4 +1686,111 @@ export const alabamaCities: CityLocation[] = [
     metaDescription:
       "Opelika pest control for subterranean termites, fire ants, mosquitoes, cockroaches and brown recluse spiders. Lee County Auburn University adjacent east Alabama specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "phenix-city",
+    name: "Phenix City",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~36,000",
+    county: "Russell County",
+    climate: "hot-humid",
+    climateDriver:
+      "Phenix City sits on the Chattahoochee River in Russell County, directly across from Columbus, Georgia, in eastern Alabama. The hot-humid climate creates year-round pest activity, with no sustained winter cold to suppress termite, fire ant, or cockroach populations. Alabama Cooperative Extension documents Russell County as high pressure for subterranean termites and fire ants, consistent with the broader Alabama Coastal Plain and Piedmont termite belt. The Chattahoochee River floodplain and the urban adjacency to Columbus create mosquito and rodent habitat that runs through the residential landscape.",
+    topPests: [
+      "Fire Ants",
+      "Subterranean Termites",
+      "Mosquitoes",
+      "German Cockroaches",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak mound activity March through October",
+        note: "Fire ants in Phenix City and Russell County are active year-round, with surface mound activity reduced only during the coldest December and January weeks. Alabama Cooperative Extension documents Russell County within the fire ant's continuous population zone, where the warm climate sustains high colony density in lawns, gardens, and turf areas. Disturbing a mound at any time triggers a rapid, painful multi-sting response. Broadcast yard treatment in spring is the most effective season-long approach.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity, swarming February through May",
+        note: "Russell County sits in the core of Alabama's subterranean termite belt, one of the highest termite activity zones in the United States. Alabama Cooperative Extension notes that the combination of the hot-humid climate, the long frost-free season, and the Piedmont soil conditions creates year-round termite colony activity. Phenix City properties without current documented termite protection face ongoing colonization risk. Annual professional inspection is appropriate for all properties, new and old.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Active March through October, peak June through August",
+        note: "The Chattahoochee River floodplain, the storm drainage network shared with the Columbus metro area, and the residential landscaping throughout Phenix City create extensive mosquito breeding habitat. The long hot-humid season supports multiple generations of mosquitoes per year. Standing water in containers, low areas of yards, and the floodplain vegetation are the primary breeding sites. Professional barrier spray programs and elimination of standing water are the effective prevention combination.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are established in Phenix City's multi-family housing and food service establishments. The hot-humid climate allows cockroach populations to build rapidly, and the density of the Columbus-Phenix City metro area creates multiple introduction pathways through food deliveries, tenant moves, and shared building infrastructure. Multi-unit buildings require building-level treatment for effective control.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, peak activity spring through fall",
+        note: "American cockroaches (Palmetto bugs) are a significant pest in Phenix City's sewer and storm drain infrastructure and in older commercial buildings. Russell County's hot-humid climate and the Chattahoochee River corridor create the environmental conditions that sustain large American cockroach populations in the built environment. They enter from drains and utility penetrations and are most visible in spring when populations peak.",
+      },
+    ],
+    localHook:
+      "Phenix City's position in Russell County on the Chattahoochee River places it squarely in Alabama's core termite and fire ant belt, where year-round subtropical conditions mean these pests never go fully dormant and require consistent professional management.",
+    intro:
+      "Pest control in Phenix City addresses the full range of Alabama's subtropical pest pressures, amplified by the city's Chattahoochee River location and its position in Russell County's documented termite and fire ant zone. Fire ants are active year-round in Phenix City's residential yards. Subterranean termites operate continuously in Russell County's warm soil, and Alabama Cooperative Extension identifies the region as high-risk for termite damage. Mosquitoes from the river floodplain and storm drainage network create health concerns through the long warm season. Cockroaches of both the German and American species are persistent in the urban environment. None of these pests take a meaningful winter break in Phenix City's hot-humid climate.",
+    sections: [
+      {
+        heading: "Russell County's termite and fire ant pressure in Phenix City",
+        body: "Phenix City sits in one of the most pest-active environments in the eastern United States. The hot-humid Alabama climate eliminates the winter kill that reduces pest populations in more northern states, meaning subterranean termites, fire ants, and cockroaches maintain active colonies year-round. Alabama Cooperative Extension documents Russell County within the high-pressure zones for both termites and fire ants.\n\nSubterranean termites in Russell County swarm from February through May, the annual event when mature colonies send winged reproductives to start new colonies. In Phenix City's older residential neighborhoods and any structure with wood-to-soil contact, colonization risk is ongoing. Annual termite inspection provides the early detection that limits damage. For fire ants, the question in Phenix City is not if they are present in the yard but how many mounds are active and what the broadcast treatment schedule is. Spring broadcast treatment is the foundation of effective fire ant management in Russell County.",
+      },
+      {
+        heading: "Mosquitoes and cockroaches in Phenix City's river corridor",
+        body: "The Chattahoochee River creates the backdrop for Phenix City's outdoor pest environment. The river floodplain, with its tidal and seasonal flooding patterns, provides extensive mosquito breeding habitat from March through October. The Columbus-Phenix City metro's combined storm drainage network adds additional breeding sites throughout the residential landscape. The long Alabama warm season supports multiple mosquito generations per year, and Phenix City's proximity to Georgia means that West Nile virus and other mosquito-borne concerns monitored across the Columbus metro area apply equally to the Phenix City side.\n\nCockroaches in Phenix City operate year-round. German cockroaches are the dominant indoor species in multi-family housing and food service, while American cockroaches use the city's sewer and storm drainage infrastructure as harborage and enter structures from below through drains and utility penetrations. The hot-humid climate allows cockroach populations to build rapidly when building sanitation and structural exclusion are not maintained.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for all Phenix City properties, particularly those with crawl spaces, wood siding near soil, or any wood-to-soil contact in Russell County's active termite zone.",
+      "Apply broadcast fire ant treatment to Phenix City residential yards in March or April before the spring mound expansion, and follow up in fall for year-round suppression.",
+      "Eliminate standing water in containers, birdbaths, and low yard areas weekly through the March to October mosquito season to remove the breeding sites that sustain local population pressure.",
+      "Maintain drain covers and plumbing penetration seals in Phenix City properties to limit American cockroach entry from the sewer and storm drain infrastructure.",
+    ],
+    costNote:
+      "Phenix City pest control programs start with a free inspection. Termite inspection and protection, fire ant broadcast treatment, and mosquito barrier programs are priced separately. Annual termite protection plans provide the most cost-effective long-term coverage for Russell County properties.",
+    faqs: [
+      {
+        question: "Why is termite risk so high in Phenix City?",
+        answer:
+          "Russell County sits in the core of Alabama's subterranean termite belt, where the hot-humid climate creates year-round termite colony activity. There is no sustained winter cold in Phenix City to slow termite populations, meaning colonies feed and expand twelve months of the year. Alabama Cooperative Extension identifies the region as high-risk for termite damage. Any Phenix City property without current documented termite protection is at ongoing colonization risk. Annual inspection is the appropriate baseline for all properties in the county.",
+      },
+      {
+        question: "Are fire ants dangerous in Phenix City?",
+        answer:
+          "Yes, particularly for young children, the elderly, and anyone with a known insect allergy. Fire ants in Phenix City and Russell County are active year-round, with surface mound activity visible from spring through fall. Disturbing a mound during lawn care, gardening, or outdoor play triggers a rapid multi-sting defensive response from hundreds of workers. People with known fire ant allergies should carry an epinephrine auto-injector outdoors. Professional broadcast treatment in spring provides the most effective season-long mound suppression for residential properties.",
+      },
+      {
+        question: "Are mosquitoes a year-round problem in Phenix City?",
+        answer:
+          "Mosquitoes are a practical concern from March through October in Phenix City, with peak activity in June through August. The Chattahoochee River floodplain and the metro area's combined storm drainage network create extensive breeding habitat. The long hot-humid season allows multiple generations per year. Eliminating standing water on the property and applying professional barrier spray to the yard perimeter provides effective residential relief through the active season.",
+      },
+      {
+        question: "What is the difference between German and American cockroaches in Phenix City?",
+        answer:
+          "German cockroaches are smaller, light brown, and live almost entirely indoors in kitchens and bathrooms. They are the species associated with multi-family housing infestations and food service environments. American cockroaches are much larger, reddish-brown, and primarily live in sewers, drains, and outdoor environments, entering buildings from below through drains and utility penetrations. Both are present in Phenix City, and both require professional treatment. German cockroaches need interior bait and building-level coordination. American cockroaches need drain management and exterior perimeter treatment.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Auburn", slug: "auburn" },
+      { name: "Montgomery", slug: "montgomery" },
+      { name: "Birmingham", slug: "birmingham" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Phenix City, AL | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Phenix City pest control for fire ants, subterranean termites, mosquitoes, German cockroaches and American cockroaches. Russell County Chattahoochee River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

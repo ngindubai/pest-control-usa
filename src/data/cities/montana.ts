@@ -789,4 +789,325 @@ export const montanaCities: CityLocation[] = [
     metaDescription:
       "Kalispell pest control for mice, carpenter ants, stink bugs, wasps and ticks. Flathead County Glacier National Park gateway specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "havre-mt",
+    name: "Havre",
+    state: "Montana",
+    stateSlug: "montana",
+    stateAbbr: "MT",
+    tier: "T3",
+    population: "~9,000",
+    county: "Hill County",
+    climate: "cold-humid",
+    climateDriver:
+      "Havre sits on the Montana Hi-Line along the Milk River near the Bear Paw Mountains in Hill County. The northern plains climate delivers bitterly cold winters, hot dry summers, and relentless wind. Montana State University Extension documents the northward expansion of deer tick populations into the Milk River valley and the Bear Paw Mountain foothills as white-tailed deer populations expand. Cold winters drive mice and cluster flies aggressively into structures from September through April.",
+    topPests: [
+      "House Mice",
+      "Cluster Flies",
+      "Deer Ticks",
+      "Boxelder Bugs",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, most intensive September through March",
+        note:
+          "House mice are the dominant pest concern in Havre and throughout Hill County. Montana State University Extension confirms that rodents are the most frequently reported structural pest in rural and small-city Montana. Havre's northern plains winters, regularly below zero, make heated buildings essential for mice, and the surrounding agricultural setting sustains large outdoor populations that surge toward structures each fall.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October entry, emerge indoors on warm winter days",
+        note:
+          "Cluster flies are a persistent fall and winter pest in Havre's homes and commercial buildings. They overwinter in wall voids and attic spaces, emerging on warm winter days to gather on south-facing windows. The surrounding agricultural land, which provides earthworm hosts for cluster fly larvae, sustains large outdoor populations that push into buildings each September.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active when temperatures rise above freezing, peak May through October",
+        note:
+          "Montana State University Extension has documented the northward expansion of deer tick populations in Montana, including the Milk River valley and the Bear Paw Mountain foothills south of Havre. As white-tailed deer populations have expanded into Hill County habitat, the tick populations that travel with them have followed. Tick awareness is appropriate for outdoor activities in the brushy Milk River corridor and Bear Paw foothills.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "general-pest-control",
+        activeSeason: "September through October entry, emerge on warm winter and spring days",
+        note:
+          "Boxelder bugs are a reliable fall nuisance in Havre wherever female boxelder or silver maple trees are present. They aggregate on sun-facing exterior walls in September and push into wall voids to overwinter. They do not bite or cause structural damage but emerge in large numbers on warm winter days.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive late August",
+        note:
+          "Yellow jackets build ground and aerial nests throughout Havre's residential areas and the surrounding agricultural margin each summer. They reach peak colony size and maximum defensiveness in late August. Ground nests disturbed accidentally during lawn work are the most common sting events in Hill County.",
+      },
+    ],
+    localHook:
+      "Havre is the commercial center of the Montana Hi-Line, a region defined by grain agriculture, cattle, and some of the coldest winters in the contiguous United States. That agricultural setting drives pest pressure in specific ways: enormous outdoor mouse populations surge into structures each fall, cluster flies from surrounding farmland overwinter in buildings by the thousands, and the expanding deer populations in the Milk River valley and Bear Paw foothills have brought deer ticks into a region where they were rarely seen a generation ago.",
+    intro:
+      "Pest control in Havre addresses the pest calendar of a northern Montana agricultural city. House mice are the dominant concern year-round, with the coldest winters in the contiguous United States driving intensive fall entry. Cluster flies from the surrounding farmland push into wall voids and attic spaces each September and emerge through the winter on warm days. Deer ticks have expanded into the Milk River valley and Bear Paw foothills as white-tailed deer populations grow. Boxelder bugs and yellow jackets are reliable seasonal nuisances.",
+    sections: [
+      {
+        heading: "Mice versus cluster flies: two fall pests, two different responses",
+        body: "Havre homeowners face two distinct fall pest entry challenges that require different responses. House mice are a structural problem that needs active exclusion and trapping: they damage insulation, chew wiring, and contaminate food storage, and they stay inside all winter once the cold sets in. Montana State University Extension confirms that rodent pressure from the surrounding agricultural land is the most significant pest concern in Hill County.\n\nCluster flies are a nuisance problem rather than a structural one. They do not bite, breed indoors, or cause damage. They overwinter in wall voids in large numbers and emerge on warm winter days to gather on south-facing windows. The effective response for cluster flies is barrier treatment of exterior walls in late August before entry, combined with sealing gaps in window frames and siding. Treating them with spray once they are inside is less effective than preventing entry, because the population in the wall voids is larger than what is visible. Understanding the difference between these two pests is the starting point for managing Havre's fall pest season.",
+      },
+      {
+        heading: "Deer ticks in the Milk River valley and Bear Paw foothills",
+        body: "Hill County was not historically considered prime tick habitat, but the northward expansion of white-tailed deer populations into the Milk River valley and the Bear Paw Mountains has changed that. Montana State University Extension has documented the expanding deer tick range in north-central Montana, tracking populations into areas where they were largely absent two decades ago.\n\nFor Havre residents, outdoor activities in the brushy riverbank areas along the Milk River, the foothill terrain south of the city, and anywhere that deer travel should be approached with tick awareness from May through October. Personal protection with DEET repellent, long pants, and post-outdoor tick checks are the practical first steps. Yard perimeter treatment reduces tick activity at the home boundary for properties near deer corridors.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and garage door gaps in September before the mouse surge from the surrounding agricultural land.",
+      "Apply cluster fly barrier treatment to south-facing exterior walls in late August before they begin aggregating, and seal gaps in window frames and siding.",
+      "Use tick repellent and perform post-outdoor tick checks when hiking or working in the Milk River corridor or Bear Paw foothills from May through October.",
+      "Treat yellow jacket ground nests in June when colonies are small rather than waiting until the late August aggression peak.",
+    ],
+    costNote:
+      "Havre pest control is typical of the northern Montana market. Mouse exclusion and trapping programs start with a free inspection. Cluster fly perimeter treatment is a one-time fall service. Yellow jacket nest removal is quoted after inspection.",
+    faqs: [
+      {
+        question: "Why do I get so many cluster flies in my Havre home?",
+        answer:
+          "Cluster flies lay their eggs in soil where earthworms are present, and the earthworm-rich agricultural land surrounding Havre sustains very large cluster fly populations each summer. In fall, when temperatures drop, these flies seek overwintering sites in wall voids and attic spaces of buildings. A south-facing wall warmed by the sun is the preferred aggregation site before entry. The numbers inside a wall void can reach into the thousands. The most effective prevention is a barrier treatment on exterior walls in late August and sealing of the gaps in window frames and siding they use to enter.",
+      },
+      {
+        question: "Are deer ticks actually present near Havre?",
+        answer:
+          "Yes, in the specific habitat where white-tailed deer range: the brushy Milk River corridor, the foothill terrain in the Bear Paw Mountains south of Havre, and the woodland and scrubland where deer travel. Montana State University Extension documents the northward expansion of deer ticks in Montana as deer populations grow. Outdoor activities in the riparian and foothill terrain around Havre warrant tick awareness from May through October.",
+      },
+      {
+        question: "How bad is mouse pressure in Havre compared to other Montana cities?",
+        answer:
+          "Significantly higher than in urban Montana. Havre's agricultural setting, with cropland, grain storage, and cattle operations in and around the city, sustains outdoor mouse populations at levels that urban areas do not see. Those populations surge toward heated structures each fall. Any home within a quarter mile of grain storage, crop fields, or livestock operations faces particularly intense fall pressure. Exclusion work in September is critical here.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Great Falls", slug: "great-falls" },
+      { name: "Billings", slug: "billings" },
+      { name: "Missoula", slug: "missoula" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Havre, MT | Mice, Cluster Flies & Hi-Line Pests",
+    metaDescription:
+      "Havre pest control for house mice, cluster flies, deer ticks, boxelder bugs and yellow jackets. Hill County Montana Hi-Line Milk River Bear Paw Mountains specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "livingston-mt",
+    name: "Livingston",
+    state: "Montana",
+    stateSlug: "montana",
+    stateAbbr: "MT",
+    tier: "T3",
+    population: "~7,700",
+    county: "Park County",
+    climate: "semi-arid",
+    climateDriver:
+      "Livingston sits in the Yellowstone River valley in Park County, at the northern edge of Yellowstone country. Chinook winds create dramatic temperature swings that can raise winter temperatures by 50 degrees in hours. The Yellowstone River corridor and the brushy riparian terrain south of the city toward Yellowstone National Park sustain deer tick populations. Black widow spiders inhabit the dry, rocky terrain common throughout Park County. Montana State University Extension documents tick activity in Montana river valleys.",
+    topPests: [
+      "House Mice",
+      "Deer Ticks",
+      "Black Widow Spiders",
+      "Yellow Jackets",
+      "Cluster Flies",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge September through November",
+        note:
+          "House mice are the primary pest concern in Livingston, as in most of Montana. Park County winters regularly reach below zero despite the Chinook moderation, and mice move aggressively into heated structures in fall. Livingston's older residential neighborhoods near the historic downtown and the rail yards have housing stock with significant entry points.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active when above freezing, peak May through October",
+        note:
+          "Montana State University Extension documents deer tick activity in Park County, particularly in the brushy Yellowstone River corridor and the riparian areas south of Livingston toward Yellowstone National Park. As white-tailed deer populations have expanded in the Yellowstone valley, the tick populations they carry have expanded with them. Outdoor activities near the river corridor warrant tick awareness.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active April through October, most visible summer",
+        note:
+          "Black widow spiders are present in Park County and documented throughout the Yellowstone River valley. The dry, rocky outcrops, stone retaining walls, and undisturbed storage areas common in Livingston's older properties provide ideal black widow harborage. Montana State University Extension identifies black widows as a medically significant spider in Montana.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive late August",
+        note:
+          "Yellow jackets build ground and aerial nests throughout Livingston's residential areas each summer. Park County's semi-arid terrain with abundant dry soil and brush provides nesting sites. Colonies reach peak size and defensiveness in late August, coinciding with the peak outdoor recreation season in the Yellowstone gateway area.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October entry, emerge indoors on warm days",
+        note:
+          "Cluster flies are a consistent fall and winter nuisance in Livingston, sustained by the agricultural land and earthworm habitat in the Yellowstone valley. They overwinter in wall voids and attic spaces, emerging on warm winter and spring days on south-facing windows.",
+      },
+    ],
+    localHook:
+      "Livingston serves as the gateway to Yellowstone National Park for visitors coming from the north, and it sits in one of Montana's most scenic river valleys. The Yellowstone River corridor that makes Livingston attractive is also prime deer tick habitat. The dry, rocky terrain common in Park County provides black widow spider harborage in outbuildings and stone walls throughout the area. And Chinook winds that can change temperatures by 50 degrees in a day create pest activity patterns that are less predictable than in most Montana cities.",
+    intro:
+      "Pest control in Livingston covers a Park County pest environment shaped by the Yellowstone River valley and the gateway-to-Yellowstone character of the city. House mice are the year-round constant, surging into heated structures as Park County winters arrive. Deer ticks are present in the brushy Yellowstone River corridor and the riparian terrain south toward the park. Black widow spiders inhabit the dry, rocky outcrops and undisturbed storage areas common in older Livingston properties. Yellow jackets are a significant late-summer hazard in the outdoor recreation environment. Cluster flies push into buildings each fall from the surrounding agricultural land.",
+    sections: [
+      {
+        heading: "Deer ticks and black widows: two outdoor pest risks in Park County",
+        body: "Livingston faces two outdoor pest risks that require different awareness and management approaches. Deer ticks in the Yellowstone River corridor are a Lyme disease concern for residents and the many outdoor recreation users who pass through the area. Montana State University Extension documents tick expansion in Park County as deer populations grow in the Yellowstone valley. The brushy riparian areas along the river, the willows and scrub vegetation in the floodplain, and any property that deer use as a travel corridor carry real tick exposure risk from May through October. Personal protection and post-outdoor tick checks are the practical first line of defense.\n\nBlack widow spiders are a different kind of outdoor pest risk: one that is concentrated in specific harborage rather than distributed across the landscape. The dry stone outcrops, rock retaining walls, old wood piles, and undisturbed outbuilding corners throughout Park County provide classic black widow habitat. Montana State University Extension identifies black widows as medically significant in Montana. Bites are uncommon because the spiders are non-aggressive, but the venom is serious, particularly for children and elderly individuals. Professional inspection and treatment of harborage areas in older properties is the appropriate management step.",
+      },
+      {
+        heading: "Mouse exclusion in a Chinook climate",
+        body: "Chinook winds in Livingston create temperature swings that complicate the standard fall mouse exclusion timing used in other Montana cities. When a Chinook raises temperatures by 50 degrees in December, mice that would normally be committed to indoor overwintering may become temporarily active at the building exterior. This does not change the fundamental advice: complete mouse exclusion work in September before the first consistent cold, because even in a Chinook climate the Park County winters eventually require mice to be inside. But it does mean that exclusion gaps that seem sealed in November can be found by mice exploiting a January Chinook before the gap is fully addressed. Post-winter inspection of the foundation perimeter in March verifies that no new gaps have been exploited during the season.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and door sills in September before the mouse surge, and re-inspect in March after winter for any Chinook-season gap exploitation.",
+      "Use tick repellent and perform post-outdoor tick checks when using the Yellowstone River corridor, riparian areas, or any terrain where deer are present from May through October.",
+      "Inspect outbuildings, rock walls, wood piles, and storage areas for black widow spider harborage and treat in spring before the active season.",
+      "Treat yellow jacket ground nests in June when colonies are small and before peak late August aggression.",
+    ],
+    costNote:
+      "Livingston pest control is priced for the Park County market. Mouse exclusion and trapping programs start with a free inspection. Black widow spider treatment and yellow jacket removal are quoted after assessment. Tick perimeter treatment is a seasonal service.",
+    faqs: [
+      {
+        question: "Are black widow spiders common in Livingston?",
+        answer:
+          "Black widows are present throughout Park County and documented in the Yellowstone River valley. The dry, rocky terrain and the abundance of stone walls, old wood piles, and outbuildings in Livingston's older properties provide excellent harborage. Montana State University Extension identifies black widows as medically significant in Montana. They are non-aggressive and bites are uncommon, but the venom is serious, particularly for children and older adults. Professional inspection and treatment of harborage areas is the appropriate step for older properties with likely nesting sites.",
+      },
+      {
+        question: "Are deer ticks common near Livingston?",
+        answer:
+          "Yes, in the brushy riparian terrain of the Yellowstone River corridor and the areas south toward Yellowstone National Park where deer range. Montana State University Extension documents tick expansion in Park County as deer populations have grown in the Yellowstone valley. Outdoor activities in the riverbank vegetation, willows, and scrub terrain near the river warrant tick awareness and personal protection from May through October.",
+      },
+      {
+        question: "How do Chinook winds affect pest control timing in Livingston?",
+        answer:
+          "Chinook winds can raise temperatures by 50 degrees in a matter of hours, which temporarily activates insects and rodents that would otherwise be dormant in winter. For pest management, this primarily means that mouse exclusion work should be completed in September before consistent cold arrives, and that a post-winter foundation inspection in March is a good practice to check for any gaps exploited during a midwinter warm spell. Yellow jackets confirmed dead in November may have a new colony started by a surviving queen by April, so annual monitoring is appropriate.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Billings", slug: "billings" },
+      { name: "Bozeman", slug: "bozeman" },
+      { name: "Helena", slug: "helena-mt" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Livingston, MT | Mice, Deer Ticks & Black Widows",
+    metaDescription:
+      "Livingston pest control for house mice, deer ticks, black widow spiders, yellow jackets and cluster flies. Park County Yellowstone River valley gateway specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "whitefish",
+    name: "Whitefish",
+    state: "Montana",
+    stateSlug: "montana",
+    stateAbbr: "MT",
+    tier: "T3",
+    population: "~8,500",
+    county: "Flathead County",
+    climate: "cold-humid",
+    climateDriver:
+      "Whitefish sits at the foot of Whitefish Mountain Resort in Flathead County, adjacent to Glacier National Park. The Rocky Mountain foothills location delivers significant snowfall, high moisture from the Pacific maritime influence, and a pest environment dominated by the cold-humid conditions of the northwest Montana mountains. Carpenter ants thrive in the abundant moisture-rich wood-frame structures throughout the city. The resort and tourism economy creates seasonal bed bug pressure in the hotel and rental market.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "Yellow Jackets",
+      "Deer Ticks",
+      "Cluster Flies",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, surge September through November",
+        note:
+          "House mice are the primary structural pest in Whitefish, as in all of Flathead County. The surrounding national forest and mountain terrain sustains large deer mouse and house mouse populations that surge toward heated structures as the Flathead County winters arrive. Montana State University Extension confirms rodent pressure is the most significant pest concern in northwest Montana.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October, foragers seen indoors spring through summer",
+        note:
+          "Carpenter ants are a significant structural pest in Whitefish due to the high moisture in the northwest Montana climate. The abundant snowfall, rain, and cool temperatures keep wood-frame structures damp in ways that support carpenter ant nesting. Older chalets and cabins in the Whitefish area with moisture-damaged wood in roof edges and foundation sills are particularly vulnerable. Montana State University Extension documents carpenter ant activity throughout Flathead County.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive August",
+        note:
+          "Yellow jackets build ground and aerial nests throughout Whitefish's residential and resort areas each summer. The abundance of outdoor dining, summer recreation, and outdoor events in the Whitefish resort environment creates significant yellow jacket encounter risk at peak colony size in August.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active when above freezing, peak May through October",
+        note:
+          "Flathead County is within the expanding deer tick range documented by Montana State University Extension. The dense brush, riparian areas along Whitefish Lake and the Whitefish River, and the trails connecting the resort area to national forest land provide deer tick habitat. Tick awareness is appropriate for trail users and property owners near wooded terrain.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October entry, emerge indoors on warm days",
+        note:
+          "Cluster flies push into Whitefish's homes and resort structures each fall to overwinter in wall voids and attic spaces. They emerge on warm winter and spring days on south-facing windows. The agricultural and rural land in the broader Flathead Valley sustains the earthworm host populations that cluster fly larvae require.",
+      },
+    ],
+    localHook:
+      "Whitefish is one of Montana's premier resort towns, home to Whitefish Mountain Resort and a gateway to Glacier National Park. The resort economy creates a specific pest dynamic: high-turnover vacation rentals and hotels during ski season and summer introduce bed bugs at above-average rates, and the outdoor dining and recreation environment creates consistent yellow jacket conflict at peak summer. The cold-humid northwest Montana climate also sustains carpenter ant pressure in wood-frame resort buildings year-round.",
+    intro:
+      "Pest control in Whitefish combines the standard northwest Montana pest calendar with the specific pressures of a resort and tourism economy. House mice are the year-round structural concern, surging into buildings as Flathead County winters arrive each fall. Carpenter ants are sustained by the cold-humid climate that keeps moisture in wood-frame buildings throughout the area. Yellow jackets build large colonies in the summer and become a significant hazard in the outdoor dining and recreation environment at peak season. Deer ticks are present in the brushy terrain around Whitefish Lake and on the trails into the national forest. Cluster flies push into buildings each fall from the surrounding valley agricultural land.",
+    sections: [
+      {
+        heading: "Resort economy and bed bug pressure in Whitefish",
+        body: "Whitefish Mountain Resort, the Glacier National Park gateway traffic, and the large vacation rental and short-term stay market create bed bug introduction risk that a Montana town of this size would not otherwise experience. Bed bugs travel in luggage and establish in hotels, vacation rentals, and short-term accommodation. The high seasonal turnover at ski season properties and summer vacation rentals means that a single infested guest can establish a bed bug population that affects subsequent guests before detection. Professional inspection of hospitality properties and vacation rentals at the transition between ski season and summer, and again at the end of summer, is a reasonable precautionary practice for operators in the Whitefish resort market.",
+      },
+      {
+        heading: "Carpenter ants in northwest Montana's wet mountain climate",
+        body: "Carpenter ants in Whitefish are sustained by the same moisture conditions that make the area beautiful: significant snowfall that keeps ground moisture high through June, rain that continues through summer, and the cool temperatures that slow wood drying. Older cabins and chalets in the Whitefish area, particularly those that have had roof or gutter issues over the years, are at consistent risk. The forager ants seen inside in spring and summer represent a colony that is almost certainly in moisture-damaged wood outside or in the structure itself. Montana State University Extension identifies carpenter ants as a significant structural pest throughout Flathead County. Professional inspection that identifies the moisture source driving the infestation delivers lasting results; surface treatment alone does not.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations in September before the fall mouse surge from the surrounding national forest terrain.",
+      "Address any roof, gutter, or crawl space moisture issues to reduce the damp wood conditions that sustain carpenter ant colonies in Whitefish's wet climate.",
+      "Inspect vacation rental and hotel units for bed bug signs between seasonal tenant transitions, particularly between ski and summer seasons.",
+      "Keep outdoor dining and recreation areas clean of food waste in August when yellow jacket colonies reach peak size and defensiveness.",
+    ],
+    costNote:
+      "Whitefish pest control is priced for the Flathead County resort market. Mouse exclusion and trapping, carpenter ant inspection and treatment, and bed bug programs are all available. Yellow jacket removal and cluster fly barrier treatment are quoted seasonally. Free inspection included.",
+    faqs: [
+      {
+        question: "Are bed bugs common in Whitefish vacation rentals?",
+        answer:
+          "The resort economy creates above-average bed bug introduction risk for Whitefish's vacation rental and hotel market. High seasonal turnover and guests traveling from multiple origins mean that a single infested guest can establish a population before detection. Professional inspection at seasonal transitions, checking mattress seams, headboards, and upholstered furniture, is the most cost-effective preventive practice for property operators.",
+      },
+      {
+        question: "Why are carpenter ants a problem in Whitefish resort buildings?",
+        answer:
+          "The cold-humid northwest Montana climate keeps moisture levels in wood-frame buildings higher than in drier climates, and the significant snowfall and rain in the Whitefish area creates consistent damp wood conditions in roof edges, window frames, and crawl spaces that carpenter ants prefer for nesting. Older cabins and chalets that have experienced roof or moisture issues over the years are at the highest risk. Montana State University Extension identifies carpenter ants as a significant structural pest throughout Flathead County.",
+      },
+      {
+        question: "Are deer ticks common on Whitefish Mountain trails?",
+        answer:
+          "Deer ticks are documented in Flathead County, and the brushy terrain around Whitefish Lake, the trails connecting to Glacier National Park, and the riparian areas along the Whitefish River are the most likely exposure sites. Montana State University Extension tracks the northward expansion of deer ticks in Montana as deer populations grow. Trail users and hikers in the Whitefish area should use tick repellent and perform post-hike tick checks from May through October.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Kalispell", slug: "kalispell" },
+      { name: "Missoula", slug: "missoula" },
+      { name: "Billings", slug: "billings" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Whitefish, MT | Mice, Carpenter Ants & Resort Pests",
+    metaDescription:
+      "Whitefish pest control for house mice, carpenter ants, yellow jackets, deer ticks and cluster flies. Flathead County Glacier National Park gateway resort specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

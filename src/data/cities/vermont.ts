@@ -339,4 +339,218 @@ export const vermontCities: CityLocation[] = [
     metaDescription:
       "Rutland pest control for carpenter ants, mice, deer ticks, yellow jackets and cluster flies. Rutland County Vermont specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "barre-vt",
+    name: "Barre",
+    state: "Vermont",
+    stateSlug: "vermont",
+    stateAbbr: "VT",
+    tier: "T3",
+    population: "~8,600",
+    county: "Washington County",
+    climate: "cold-humid",
+    climateDriver:
+      "Barre sits in Washington County in central Vermont, known as the Granite Capital of the World, surrounded by the granite quarrying operations and forest of the Vermont granite belt. The cold-humid climate, with winters regularly below zero, creates strong fall mouse pressure as temperatures drop. Vermont Department of Health tracks Washington County for deer tick activity and Lyme disease risk. The granite quarrying landscape, with its mix of rocky outcrops, disturbed land, and wooded edges, creates varied pest habitat immediately adjacent to the city.",
+    topPests: [
+      "House Mice",
+      "Deer Ticks",
+      "Carpenter Ants",
+      "German Cockroaches",
+      "Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "Vermont winters in Barre can drop well below zero, creating strong motivation for house mice to seek heated shelter in late August and September. Barre's older housing stock, including both granite-era working-class housing and older commercial buildings, provides structural entry points mice exploit readily. The surrounding granite quarrying and forested landscape sustains large mouse populations adjacent to residential areas.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, peak spring and early fall",
+        note: "Vermont DOH tracks deer tick activity statewide and documents increasing Lyme disease incidence, including in Washington County. The forested edges around Barre and the wooded corridors running through the granite quarrying landscape provide tick habitat at the edge of residential areas. Vermont's deer tick population has expanded significantly in recent decades as deer populations have grown.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor activity most common",
+        note: "Carpenter ants are a persistent pest in Barre's older wood-frame housing. Vermont's cold-humid climate creates the moisture accumulation in structural wood that allows carpenter ant infestations to develop. Spring is the most visible period for indoor activity, but finding large black ants inside in winter indicates an established colony within the heated structure.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches in Barre concentrate in the older multi-family housing and commercial food service buildings in the city core. Barre's working-class residential character includes older apartment buildings with the kitchen and bathroom infrastructure that cockroaches exploit. Multi-unit buildings require building-level treatment for effective control.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November, occasional spring emergence",
+        note: "Stink bugs have established across Vermont and are a consistent fall nuisance in Barre. They aggregate on south-facing building surfaces in September seeking warmth, then push through gaps into attic spaces and wall voids to overwinter. They do not breed indoors or cause structural damage, but large aggregations inside a home are unpleasant. Sealing building gaps in August is the most effective prevention.",
+      },
+    ],
+    localHook:
+      "Barre's identity as the Granite Capital of the World comes with a pest environment shaped by the rocky granite landscape, the cold Vermont winters that drive mice and stink bugs inside, and deer tick pressure from Washington County's forested edges.",
+    intro:
+      "Pest control in Barre covers the full range of central Vermont pest pressures, shaped by granite quarrying country and cold Green Mountain winters. House mice begin their fall push into Barre homes in September, motivated by Vermont winters that regularly drop well below zero. Deer ticks in Washington County have increased in range and density over recent decades, per Vermont DOH surveillance, and the forested edges around Barre bring tick habitat close to residential yards. Stink bugs are a reliable fall nuisance in every Barre neighborhood, and the older housing stock creates the conditions for carpenter ant and cockroach problems in structures with moisture accumulation or multi-unit density. These are predictable seasonal pressures that respond well to professional management.",
+    sections: [
+      {
+        heading: "Deer tick expansion in Washington County and Barre",
+        body: "Vermont's deer tick population has grown significantly over the past two decades, and Washington County reflects that statewide trend. Vermont DOH monitors Lyme disease incidence across the state and documents increasing case counts in central Vermont counties including Washington. The forested edges and granite quarrying corridors around Barre provide the habitat and the wildlife host populations that sustain deer ticks at the boundary of residential areas.\n\nFor Barre residents, the practical implication is that tick exposure at wooded yard edges and in natural areas around the city is a seasonal reality from late March through November. The nymphal stage in May and June carries the highest transmission risk and is the most difficult to detect because of its small size. Applying perimeter tick treatment to the yard in April and performing tick checks after outdoor activity are the two most effective individual prevention steps.",
+      },
+      {
+        heading: "Mouse and stink bug pressure in Barre's older housing",
+        body: "Barre's housing stock reflects the city's early 20th-century granite industry peak, and older construction in any Vermont city means mouse exclusion challenges. Foundation settling, worn sills, and the utility penetrations that accumulate in older buildings give house mice multiple entry points to exploit when temperatures drop in September. The surrounding granite landscape and forested areas sustain large mouse populations close to the city. Completing exterior exclusion work in August is the key: sealing the gaps before the fall push starts is far more effective than reactive trapping after mice are already inside.\n\nStink bugs are a consistent fall presence throughout Barre, aggregating on south-facing walls in September and pushing inside through any gaps they find. They do not breed indoors or cause damage, but a large aggregation in an attic or wall void is a nuisance that persists until spring. Sealing exterior gaps in August, the same work that stops mice, also limits stink bug entry. Once inside, vacuuming them up is the practical solution; crushing or disturbing them releases the odor they are named for.",
+      },
+    ],
+    prevention: [
+      "Apply deer tick perimeter treatment to wooded yard edges and brushy borders in Barre in April, before the nymphal tick season begins in Washington County.",
+      "Complete exterior mouse exclusion on Barre properties in August, sealing foundation gaps, worn sills, utility penetrations, and garage door weatherstripping before the September push.",
+      "Seal south-facing window frame gaps and exterior penetrations in August to limit both stink bug fall aggregation entry and mouse access simultaneously.",
+      "Schedule a carpenter ant inspection for Barre's older wood-frame homes showing spring ant activity inside, particularly near kitchens, bathrooms, or moisture-prone areas.",
+    ],
+    costNote:
+      "Barre pest control programs start with a free inspection. Tick perimeter treatment, mouse exclusion, and stink bug or carpenter ant treatment are priced based on property size and the specific pest category. Multi-family cockroach treatment is quoted separately.",
+    faqs: [
+      {
+        question: "Are deer ticks a real concern in Barre?",
+        answer:
+          "Yes. Vermont DOH documents increasing deer tick activity and Lyme disease incidence statewide, and Washington County is in the affected zone. The forested edges around Barre and the wooded corridors in the granite quarrying landscape bring tick habitat close to residential areas. Vermont's deer tick population has expanded significantly over the past two decades. Residents with wooded yard edges or who spend time in natural areas near Barre should treat tick checks as a routine warm-season habit.",
+      },
+      {
+        question: "When do mice push into Barre homes?",
+        answer:
+          "September is when mouse pressure starts in Barre, driven by the approach of Vermont's cold winters. Barre's older housing stock has more structural entry points than newer construction, and the surrounding granite and forested landscape sustains large mouse populations close to residential neighborhoods. The most effective prevention is exterior exclusion work completed in August. Gaps as small as a dime are large enough for a mouse to pass through, and foundation sills, utility penetrations, and door weatherstripping are the priority areas to seal.",
+      },
+      {
+        question: "What are stink bugs and why do they come into Barre homes?",
+        answer:
+          "Brown marmorated stink bugs are invasive shield-shaped insects that overwinter inside structures. They aggregate on south and west-facing building surfaces in September seeking warmth, then enter through gaps around windows, siding, and utility penetrations. They do not breed indoors, bite people, or damage structures, but large aggregations inside an attic or living space are a nuisance. Sealing exterior gaps in August is the most effective prevention. Avoid crushing them, since they release an odor when disturbed. Vacuuming them up is the practical indoor response.",
+      },
+      {
+        question: "Are cockroaches common in Barre homes?",
+        answer:
+          "German cockroaches are a real issue in Barre's older multi-family buildings and commercial food service environments, but they are not common in single-family homes with standard sanitation. If cockroaches appear in an older multi-unit building, the infestation is typically spread across multiple units, and building-level treatment coordinated with the property owner produces much better outcomes than single-unit treatment alone.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Burlington", slug: "burlington" },
+      { name: "South Burlington", slug: "south-burlington" },
+      { name: "Montpelier", slug: "montpelier" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Barre, VT | Mice, Ticks, Carpenter Ants & Stink Bugs",
+    metaDescription:
+      "Barre pest control for house mice, deer ticks, carpenter ants, German cockroaches and stink bugs. Washington County Granite Capital of Vermont specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "montpelier",
+    name: "Montpelier",
+    state: "Vermont",
+    stateSlug: "vermont",
+    stateAbbr: "VT",
+    tier: "T3",
+    population: "~8,000",
+    county: "Washington County",
+    climate: "cold-humid",
+    climateDriver:
+      "Montpelier sits in the Winooski River valley in Washington County, Vermont, as the smallest state capital in the United States by population. The cold-humid Vermont climate creates predictable fall mouse and stink bug pressure as temperatures drop toward zero in winter. Vermont DOH monitors deer tick activity statewide, and Washington County carries documented Lyme disease risk. The state government character of the city means older institutional and commercial buildings share the pest environment with residential neighborhoods.",
+    topPests: [
+      "House Mice",
+      "Deer Ticks",
+      "Carpenter Ants",
+      "Stink Bugs",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "Montpelier's cold Vermont winters drive house mice into structures starting in September. The older state capital building stock, including institutional and government buildings as well as the older residential neighborhoods, has the structural gaps that mice exploit. The Winooski River valley brings wooded habitat close to the downtown core, sustaining mouse source populations near residential areas.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "Vermont DOH documents deer tick activity across Washington County and statewide Lyme disease surveillance. The forested slopes of the Winooski River valley and the wooded corridors around Montpelier's residential neighborhoods bring tick habitat to the edge of suburban properties. Vermont's deer tick population has expanded in recent decades.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor activity most visible",
+        note: "Carpenter ants are common in Montpelier's older wood-frame buildings, where Vermont's cold-humid climate creates the moisture accumulation in structural wood that allows infestations to develop. State government and institutional buildings with older wood elements carry similar risk to residential properties.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note: "Stink bugs aggregate on Montpelier building surfaces in September and push inside through window gaps and exterior penetrations to overwinter. They do not breed indoors or cause structural damage but are a consistent fall nuisance. Sealing exterior gaps in August is the most effective prevention.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Active June through October, peak aggression August and September",
+        note: "Yellow jackets build ground nests and wall void nests in Montpelier properties and reach peak colony size in August, when they are most defensive. The state capital's mix of older buildings, landscaped government grounds, and residential neighborhoods provides nesting sites throughout the city. Disturbing a ground nest accidentally is the most common sting incident.",
+      },
+    ],
+    localHook:
+      "Montpelier is the smallest state capital in the United States by population, and its location in the Winooski River valley means forested wildlife habitat brings deer tick and mouse pressure right into the city's residential and government core.",
+    intro:
+      "Pest control in Montpelier covers the pest pressures of a small Vermont capital city where the Winooski River valley brings forested wildlife habitat close to residential and institutional buildings. House mice push into Montpelier's older housing stock starting in September, motivated by Vermont's cold winters. Deer ticks from Washington County's documented Lyme disease zone are present in the wooded edges around the city. Stink bugs are a reliable fall nuisance in every Montpelier neighborhood. Carpenter ants affect older wood-frame properties throughout the city. These are predictable seasonal pests that respond well to professional management when addressed before they become established.",
+    sections: [
+      {
+        heading: "Winooski River valley pest habitat and Montpelier's tick exposure",
+        body: "Montpelier's location in the Winooski River valley means that the forested slopes and riparian vegetation of a functioning river corridor come right to the edges of the city's residential neighborhoods. Vermont DOH tracks deer tick activity statewide, and Washington County has documented Lyme disease incidence that reflects the statewide expansion of deer tick populations over recent decades.\n\nFor Montpelier residents, tick exposure at wooded yard edges, on the network of hiking trails around the state capital, and along the river corridor is a warm-season reality from March through November. The nymphal stage in May and June is the highest transmission risk period and the hardest to detect without deliberate checking. Professional perimeter treatment in April and routine post-outdoor tick checks are the most effective prevention combination.",
+      },
+      {
+        heading: "Fall pest pressure in Montpelier: mice, stink bugs, and yellow jackets",
+        body: "Montpelier's seasonal pest calendar is predictable. Yellow jackets build through summer and reach peak colony size and aggression in August and September, when disturbing a ground nest in the lawn or a wall void nest in an older building can trigger a significant sting incident. Treating ground nests in June or early July, when colonies are small, is both safer and more effective than waiting until late summer.\n\nStink bugs begin aggregating on Montpelier's south-facing building surfaces in September. They push inside through gaps around windows and utility penetrations to overwinter in attic and wall void spaces. They are a nuisance, not a structural risk, and sealing the exterior gaps they use for entry is the most effective prevention. September is also when mice begin their fall push into Montpelier's older homes in earnest. Vermont's cold winters create strong motivation for mice to find heated shelter early, and the forested river valley provides large source populations close to the city.",
+      },
+    ],
+    prevention: [
+      "Apply deer tick perimeter treatment to wooded yard edges in April before the nymphal tick season begins, and perform post-outdoor tick checks throughout the warm season.",
+      "Treat yellow jacket ground nests in Montpelier lawns and gardens in June or early July when colonies are small and easier to eliminate safely.",
+      "Complete exterior mouse exclusion work in August, sealing foundation gaps, utility penetrations, and weatherstripping before the September push starts.",
+      "Seal south-facing exterior gaps in August to limit both stink bug entry and mouse access before fall aggregation season.",
+    ],
+    costNote:
+      "Montpelier pest control programs start with a free inspection. Tick treatment, mouse exclusion, yellow jacket nest removal, and stink bug prevention are priced based on property size and current infestation status.",
+    faqs: [
+      {
+        question: "Are deer ticks common in Montpelier?",
+        answer:
+          "Yes. Vermont DOH documents deer tick activity and Lyme disease incidence across Washington County, and Montpelier's location in the Winooski River valley means wooded tick habitat is close to residential neighborhoods. Vermont's deer tick population has expanded significantly in recent decades. Residents with wooded yard borders or who use the trail network around the state capital should treat tick prevention as a routine warm-season practice.",
+      },
+      {
+        question: "When do mice become a problem in Montpelier?",
+        answer:
+          "September is when house mice start pushing into Montpelier homes. Vermont winters can drop well below zero, and mice are strongly motivated to find heated shelter early. The Winooski River valley's forested habitat sustains large mouse populations close to the city. Completing exterior exclusion work in August, before the push begins, is the most cost-effective approach. Reactive trapping after mice are established inside costs more and takes longer to resolve.",
+      },
+      {
+        question: "What should I do about yellow jackets in my Montpelier yard?",
+        answer:
+          "Treat nests early. Yellow jacket colonies in Montpelier build through the summer and reach their maximum size and aggression level in August and September. A nest that seems small in June may contain several thousand workers by late summer. Ground nests disturbed during lawn mowing and wall void nests in older buildings are the two most common sting incidents. Treating in June or early July, when colonies are small, is safer and more effective than approaching a large colony in late summer.",
+      },
+      {
+        question: "Are stink bugs a problem in Montpelier?",
+        answer:
+          "Yes, reliably each fall. Brown marmorated stink bugs aggregate on Montpelier building surfaces in September seeking warmth, then push inside through gaps around windows, siding, and utility lines. They are a nuisance but do not breed indoors, bite people, or cause structural damage. The most effective prevention is sealing exterior gaps in August before they begin aggregating. If they get inside, vacuum them up without crushing them, which releases the odor they are named for.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Burlington", slug: "burlington" },
+      { name: "South Burlington", slug: "south-burlington" },
+      { name: "Barre", slug: "barre-vt" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Montpelier, VT | Mice, Ticks, Stink Bugs & Yellow Jackets",
+    metaDescription:
+      "Montpelier pest control for house mice, deer ticks, carpenter ants, stink bugs and yellow jackets. Washington County Vermont state capital specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

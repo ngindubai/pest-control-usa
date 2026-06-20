@@ -683,4 +683,218 @@ export const rhodeIslandCities: CityLocation[] = [
     metaDescription:
       "Woonsocket pest control for cockroaches, mice, bed bugs, ticks and termites. Providence County northern RI mill city specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "newport-ri",
+    name: "Newport",
+    state: "Rhode Island",
+    stateSlug: "rhode-island",
+    stateAbbr: "RI",
+    tier: "T3",
+    population: "~27,000",
+    county: "Newport County",
+    climate: "cold-humid",
+    climateDriver:
+      "Newport sits on Aquidneck Island in Narragansett Bay, a coastal location that moderates temperatures while sustaining the humidity and wildlife habitat that support a year-round pest environment. Rhode Island DEM documents one of New England's highest Lyme disease rates statewide, and Newport County's coastal and island character sustains deer tick populations in both the wooded residential areas and the natural open spaces of the island. Newport's year-round tourism and Gilded Age mansion economy create bed bug introduction pressure through the hospitality sector that inland New England cities do not face at the same level.",
+    topPests: [
+      "Deer Ticks",
+      "House Mice",
+      "Carpenter Ants",
+      "German Cockroaches",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, adults active on warm winter days",
+        note: "Rhode Island DEM reports Rhode Island has some of New England's highest Lyme disease incidence rates, and Newport County's island and coastal character does not reduce tick risk. Aquidneck Island's wooded corridors, the Norman Bird Sanctuary, and the coastal vegetation around Ocean Drive sustain deer tick populations throughout the island. Newport's mild coastal climate means deer ticks remain active longer than in inland New England locations.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "House mice are common in Newport's older residential and commercial building stock throughout the year. Newport's historic district includes properties from the 17th through 19th centuries, and older construction has the structural gaps and deteriorated exclusion points that give mice routine access. The island's bird and rodent populations sustain indoor mouse pressure through all seasons.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor activity signals established colony",
+        note: "Carpenter ants are common in Newport's extensive inventory of older wood-frame buildings. The coastal humidity, combined with the moisture that accumulates in historic properties over decades, creates favorable conditions for carpenter ant infestations in structural wood. Newport's historic mansions and older residential properties are particularly susceptible.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are established in Newport's restaurant district, older hotels, and multi-family housing. The density of food service establishments in the downtown commercial area and the year-round hospitality economy create consistent cockroach harborage conditions. Newport's older commercial buildings have the kitchen infrastructure and wall void access that allows cockroach populations to establish and persist.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Newport's year-round tourism industry, its Gilded Age mansion tour economy, and the America's Cup yacht racing heritage create a hospitality sector that introduces bed bugs through high guest turnover. Hotels, inns, and bed-and-breakfast properties in the historic district face consistent bed bug introduction pressure. The residential population that works in hospitality and the year-round rental market add residential introduction risk.",
+      },
+    ],
+    localHook:
+      "Newport's Gilded Age tourism economy and Aquidneck Island's coastal location create a pest environment where bed bug pressure from year-round hospitality, deer tick exposure from island wildlife habitat, and historic building structural pests all require professional management.",
+    intro:
+      "Pest control in Newport is shaped by the city's island location, its historic building inventory, and its year-round tourism economy. Deer tick exposure in Newport County is not a peripheral concern. Rhode Island has among New England's highest Lyme disease rates, and Aquidneck Island's coastal habitat sustains tick populations throughout the island's wooded and natural areas. The historic building stock, ranging from 17th-century colonial structures to Gilded Age mansions, creates persistent structural pest pressure from mice and carpenter ants. Newport's hospitality sector, with its year-round hotels, inns, and B&Bs serving the mansion tours and the yacht racing economy, generates consistent bed bug introduction pressure that inland New England communities do not face at the same level.",
+    sections: [
+      {
+        heading: "Aquidneck Island tick exposure and Newport County Lyme disease risk",
+        body: "Newport County's island and coastal character does not reduce its deer tick burden. Rhode Island DEM reports Rhode Island has some of New England's highest Lyme disease incidence rates, and Aquidneck Island's wooded corridors and natural areas are well-established deer tick territory. The Norman Bird Sanctuary on the island's eastern side, the wooded residential neighborhoods in the northern part of Newport, and the coastal vegetation along Ocean Drive and Fort Adams State Park all sustain deer tick populations.\n\nFor Newport residents and visitors, tick exposure is a warm-season concern from March through November, with the coastal climate extending the active season compared to inland Rhode Island. The nymphal stage, peaking in May and June, is the highest-risk period and the hardest to detect without deliberate checking. Professional yard perimeter treatment and routine post-outdoor tick checks are the standard prevention approach for Newport properties with wooded or natural area exposure.",
+      },
+      {
+        heading: "Newport's historic building inventory and structural pest pressure",
+        body: "Newport's pest profile is inseparable from its building history. The city has one of the largest inventories of historic residential and commercial buildings in New England, and older construction carries the structural vulnerabilities that allow mice and carpenter ants to establish inside in ways that newer buildings resist. Foundation settling over decades, original wood window frames that have lost their seals, and the utility penetrations added to historic buildings over generations create entry points for mice and harborage for carpenter ants that are difficult to eliminate without deliberate exclusion work.\n\nNewport's hospitality economy adds a layer of pest pressure specific to a tourism city. The year-round hotel, inn, and B&B sector facing the mansions and the Cliff Walk sees consistent bed bug introduction through guest turnover. Newport's restaurant density in the waterfront and downtown commercial districts creates the food service environment where German cockroaches establish most readily. Managing pest pressure in Newport's historic district requires approaches that respect the historic building fabric while still achieving effective control.",
+      },
+    ],
+    prevention: [
+      "Apply tick perimeter treatment to wooded yard edges and natural area borders in Newport in April, before the nymphal tick season begins in this high-incidence Rhode Island county.",
+      "Complete exterior mouse exclusion on older Newport properties in September, focusing on foundation sill gaps, original wood window frames, and utility penetrations in historic construction.",
+      "For Newport hospitality properties, implement a bed bug monitoring protocol with interceptor devices and regular professional inspections given the year-round guest turnover.",
+      "Schedule a carpenter ant inspection for older Newport wood-frame properties showing spring ant activity, particularly near kitchens, bathrooms, or moisture-exposed historic framing.",
+    ],
+    costNote:
+      "Newport pest control programs start with a free inspection. Tick treatment, bed bug monitoring programs for hospitality properties, and mouse exclusion in historic buildings are priced based on property size and building type.",
+    faqs: [
+      {
+        question: "Is Lyme disease risk high in Newport?",
+        answer:
+          "Yes. Rhode Island has some of New England's highest Lyme disease rates, and Newport County's island location does not reduce that risk. Aquidneck Island has wooded corridors, the Norman Bird Sanctuary, and coastal vegetation that sustain deer tick populations throughout the island. Newport's mild coastal climate also means deer ticks remain active longer into fall and emerge earlier in spring than they do in inland New England locations.",
+      },
+      {
+        question: "Why does Newport have higher bed bug risk than inland New England cities?",
+        answer:
+          "Newport's year-round hospitality economy: hotels, inns, B&Bs, and vacation rentals serving the Gilded Age mansion tours, the Cliff Walk, and the America's Cup racing heritage see high guest turnover year-round. Each guest arrival is a potential bed bug introduction event, and with year-round occupancy across dozens of lodging properties, the overall introduction rate is higher than in a city without a significant tourism economy.",
+      },
+      {
+        question: "Do older Newport homes have worse pest problems than newer homes?",
+        answer:
+          "For mice and carpenter ants, yes. Newport's historic and older housing stock has accumulated structural gaps, deteriorated seals, and moisture vulnerabilities that newer construction avoids with better materials and building techniques. A 19th-century wood-frame home in the historic district has decades of foundation settling, original window frames that have lost their weatherstripping, and utility penetrations that were added without proper sealing. These are the entry points mice and carpenter ants exploit.",
+      },
+      {
+        question: "Are cockroaches common in Newport restaurants?",
+        answer:
+          "German cockroaches are a recognized pest in the food service industry, and Newport's high restaurant density, particularly in the waterfront and downtown historic district, means that cockroach pressure in commercial food service is real. German cockroaches spread through shared kitchen infrastructure, drain systems, and supply deliveries. Commercial food service establishments in Newport should maintain ongoing professional cockroach monitoring as part of their food safety program.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Providence", slug: "providence" },
+      { name: "Cranston", slug: "cranston" },
+      { name: "Warwick", slug: "warwick" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Newport, RI | Ticks, Bed Bugs, Mice & Cockroaches",
+    metaDescription:
+      "Newport pest control for deer ticks, bed bugs, house mice, carpenter ants and German cockroaches. Newport County Aquidneck Island Narragansett Bay specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "north-providence",
+    name: "North Providence",
+    state: "Rhode Island",
+    stateSlug: "rhode-island",
+    stateAbbr: "RI",
+    tier: "T3",
+    population: "~35,000",
+    county: "Providence County",
+    climate: "cold-humid",
+    climateDriver:
+      "North Providence is a dense inner suburb of Providence in Providence County, Rhode Island, with a character shaped by older multi-family housing, commercial strips, and the wooded residential edges of a developed suburban community. Rhode Island DEM documents deer tick pressure throughout Providence County, and North Providence's suburban wooded corridors bring tick habitat into the residential landscape. The older housing stock creates the structural conditions for mice and cockroaches, while the density of multi-family buildings creates bed bug spread pathways typical of inner-ring suburban Rhode Island.",
+    topPests: [
+      "House Mice",
+      "German Cockroaches",
+      "Deer Ticks",
+      "Carpenter Ants",
+      "Bed Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "House mice are a year-round concern in North Providence's older housing stock, with a predictable fall push in September as Rhode Island temperatures drop. The older multi-family and single-family homes in North Providence's established neighborhoods have the foundation gaps and structural entry points that mice exploit readily. The suburban wooded edges and proximity to Providence's urban green spaces sustain mouse source populations close to residential areas.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are established in North Providence's older multi-family buildings and food service environments. The density of older apartment buildings and the commercial strips along North Providence's main corridors create the harborage conditions cockroaches need. Multi-unit buildings face the challenge of cockroach spread between units through shared infrastructure, requiring building-level treatment for effective control.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, peak May through June and September",
+        note: "Rhode Island DEM documents deer tick pressure throughout Providence County. North Providence's suburban wooded corridors and the wooded parks within and around the community sustain deer tick populations at the edges of residential neighborhoods. Rhode Island has some of New England's highest Lyme disease rates, and Providence County is within the high-incidence zone.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor activity most common",
+        note: "Carpenter ants are common in North Providence's older wood-frame single-family homes and older commercial structures. The moisture accumulation in older buildings and the mature trees throughout the established neighborhoods create favorable conditions for carpenter ant infestations. Spring is the most visible indoor period.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Bed bugs are a persistent risk in North Providence's older multi-family rental housing. High tenant turnover, secondhand furniture purchases, and the density of multi-unit buildings create both introduction pathways and spread conditions. Once established in a building, bed bugs spread between units through shared wall voids and plumbing penetrations, making building-level detection and coordinated treatment the effective response.",
+      },
+    ],
+    localHook:
+      "North Providence's dense multi-family housing stock and inner suburban character create the cockroach, bed bug, and mouse conditions typical of older Providence County communities, while the wooded residential edges bring deer tick pressure from Rhode Island's high-Lyme-incidence landscape.",
+    intro:
+      "Pest control in North Providence reflects the pest environment of a dense inner suburb with older housing, high rental density, and Providence County's documented deer tick pressure. House mice are a year-round resident of North Providence's older housing stock, with a predictable fall push when Rhode Island temperatures drop in September. German cockroaches are established in the older multi-family buildings throughout the community. Rhode Island's high Lyme disease rates mean deer tick exposure at wooded residential edges is a real seasonal concern. And North Providence's older rental housing inventory creates the bed bug introduction and spread conditions that all high-density older suburban communities manage. None of these are unusual for northern Rhode Island, but they are better managed with professional help than without it.",
+    sections: [
+      {
+        heading: "Providence County tick pressure in North Providence's wooded corridors",
+        body: "Rhode Island has some of New England's highest Lyme disease incidence rates, and that statewide reality applies fully to North Providence. RI DEM documents deer tick activity throughout Providence County, and North Providence's wooded residential corridors, its suburban parks, and the wooded edges between neighborhoods provide tick habitat at the margin of residential areas throughout the community.\n\nNorth Providence residents with yards backing onto wooded areas, who use the local parks and green spaces, or whose children play in areas with brushy edges should treat tick checks as a warm-season routine from April through November. The nymphal stage, active in May and June, is the most dangerous and the hardest to spot. Applying perimeter tick treatment to wooded yard edges in April and performing post-outdoor tick checks are the two most effective individual prevention steps.",
+      },
+      {
+        heading: "Mice, cockroaches, and bed bugs in North Providence's housing stock",
+        body: "North Providence's older housing inventory is where the structural pest pressures concentrate. Older multi-family buildings, whether two-family homes or larger apartment complexes, accumulate the structural gaps, worn weatherstripping, and shared infrastructure conditions that allow mice and cockroaches to spread between units and resist single-unit treatment approaches.\n\nHouse mice push into North Providence homes in September as Rhode Island temperatures begin to drop, exploiting foundation settling and utility gaps in older construction. German cockroaches in multi-family buildings spread through shared kitchen drain stacks, plumbing penetrations, and wall voids, meaning a cockroach problem in one unit is usually a building problem in disguise. Bed bugs follow the same logic: introduction through one unit or tenant move reaches adjacent units through shared infrastructure. Building-wide detection using interceptor monitors and coordinated treatment with property management is the standard approach in North Providence's rental housing context.",
+      },
+    ],
+    prevention: [
+      "Apply tick perimeter treatment to wooded yard edges in North Providence in April before the nymphal tick season begins in this high-incidence Rhode Island county.",
+      "Complete fall mouse exclusion on older North Providence properties in September, sealing foundation gaps, utility penetrations, and worn weatherstripping before the cold push.",
+      "In North Providence's older multi-family buildings, use bed bug interceptor monitors under beds and prompt notification to property management if evidence appears, to enable building-level response.",
+      "Schedule a cockroach inspection for older North Providence multi-family properties if any cockroach activity is observed, recognizing that building-level treatment produces far better outcomes than single-unit response.",
+    ],
+    costNote:
+      "North Providence pest control programs start with a free inspection. Tick perimeter treatment, mouse exclusion, and coordinated cockroach or bed bug treatment in multi-family buildings are priced based on property size and pest category.",
+    faqs: [
+      {
+        question: "Are deer ticks common in North Providence?",
+        answer:
+          "Yes. Rhode Island has some of New England's highest Lyme disease rates, and Providence County is within the high-incidence zone. North Providence's wooded residential corridors and suburban parks sustain deer tick populations at the edges of residential areas. Residents with wooded yard borders or who use the local parks and green spaces should treat tick checks as a warm-season routine from April through November.",
+      },
+      {
+        question: "Why do cockroaches spread between units in North Providence apartments?",
+        answer:
+          "German cockroaches in multi-family buildings spread through shared infrastructure: kitchen drain stacks that run vertically between floors, plumbing penetrations between units, and electrical wall voids that connect adjacent apartments. A cockroach infestation in one unit in an older North Providence building is almost always present in surrounding units as well. Building-level treatment, coordinated with the property owner, is the only approach that produces lasting results.",
+      },
+      {
+        question: "When do mice push into North Providence homes?",
+        answer:
+          "September is when house mice begin pushing into North Providence homes in significant numbers. Rhode Island winters are cold enough to motivate mice strongly, and North Providence's older housing stock has the foundation gaps and structural entry points they exploit. The wooded edges of suburban North Providence sustain mouse source populations close to residential neighborhoods. Exterior exclusion work completed in August is more effective and less expensive than reactive trapping after mice are already inside.",
+      },
+      {
+        question: "Is bed bug risk high in North Providence rental housing?",
+        answer:
+          "Elevated, yes, particularly in the older multi-family inventory. High tenant turnover, secondhand furniture purchases, and building density are the three main factors, and North Providence's older rental housing has all three. Once bed bugs are introduced into a building, they spread between units through shared infrastructure faster than most residents realize. Early detection using interceptors and prompt reporting to property management limits the spread.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Providence", slug: "providence" },
+      { name: "Pawtucket", slug: "pawtucket" },
+      { name: "Woonsocket", slug: "woonsocket" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in North Providence, RI | Mice, Cockroaches, Ticks & Bed Bugs",
+    metaDescription:
+      "North Providence pest control for house mice, German cockroaches, deer ticks, carpenter ants and bed bugs. Providence County inner suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

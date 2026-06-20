@@ -565,4 +565,218 @@ export const wyomingCities: CityLocation[] = [
     metaDescription:
       "Gillette pest control for mice, yellow jackets, black widow spiders, ants and cluster flies. Campbell County Wyoming coal country specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "sheridan-wy",
+    name: "Sheridan",
+    state: "Wyoming",
+    stateSlug: "wyoming",
+    stateAbbr: "WY",
+    tier: "T3",
+    population: "~18,000",
+    county: "Sheridan County",
+    climate: "semi-arid",
+    climateDriver:
+      "Sheridan sits in the foothills of the Bighorn Mountains in northern Wyoming, where Goose Creek and Little Goose Creek drainage create riparian habitat. University of Wyoming Extension documents deer tick activity in Sheridan County, where the brushy Bighorn Mountain foothills and wooded stream corridors provide habitat for the white-tailed deer that carry ticks. Cold semi-arid winters drive mice aggressively into structures from September through April.",
+    topPests: [
+      "House Mice",
+      "Deer Ticks",
+      "Yellow Jackets",
+      "Boxelder Bugs",
+      "Black Widow Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, most intensive September through March",
+        note:
+          "House mice are the primary structural pest in Sheridan and throughout Sheridan County. The surrounding foothills and agricultural land sustains large outdoor mouse populations that surge toward heated structures each fall as northern Wyoming temperatures drop. University of Wyoming Extension identifies rodents as the most commonly reported structural pest in rural Wyoming communities.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active above freezing, peak May through October",
+        note:
+          "University of Wyoming Extension documents deer tick populations in Sheridan County, particularly in the brushy Bighorn Mountain foothills and the riparian corridors along Goose Creek and Little Goose Creek. As white-tailed deer populations have expanded in northern Wyoming, the tick populations they carry have followed. Outdoor activities near the mountain foothills and creek corridors warrant tick awareness.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive late August",
+        note:
+          "Yellow jackets build ground and aerial nests throughout Sheridan's residential areas and the surrounding foothills terrain each summer. They reach peak colony size and maximum defensiveness in late August. Ground nests in lawn and garden areas and aerial nests in wall voids and eave overhangs are both common in Sheridan County.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "general-pest-control",
+        activeSeason: "September through October entry, emerge on warm winter days",
+        note:
+          "Boxelder bugs are a consistent fall nuisance in Sheridan wherever boxelder and silver maple trees are present. They aggregate on sun-facing walls in September and push into wall voids to overwinter, emerging on warm winter days. They cause no structural damage but appear in large numbers.",
+      },
+      {
+        name: "Black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active April through October, most visible summer",
+        note:
+          "Black widow spiders are present in Sheridan County and throughout northern Wyoming. The dry, rocky terrain, outbuildings, and undisturbed storage areas common in the Bighorn Mountain foothills provide harborage. University of Wyoming Extension identifies black widows as medically significant spiders in Wyoming.",
+      },
+    ],
+    localHook:
+      "Sheridan sits at the base of the Bighorn Mountains in northern Wyoming, a city with significant ranching and agricultural heritage and a growing reputation as a mountain town destination. The Bighorn Mountain foothills and the stream corridors running through the area provide deer tick habitat that University of Wyoming Extension documents in Sheridan County. The dry, rocky foothill terrain also provides black widow spider habitat in outbuildings and storage areas throughout the area.",
+    intro:
+      "Pest control in Sheridan addresses the pest calendar of a northern Wyoming foothill city. House mice are the dominant year-round concern, with the surrounding agricultural and foothill terrain sustaining large outdoor populations that surge into structures each fall. Deer ticks are present in the brushy Bighorn Mountain foothills and the Goose Creek riparian corridor, with University of Wyoming Extension documenting tick activity in Sheridan County. Yellow jackets build large colonies through summer and become hazardous at peak size in late August. Boxelder bugs are a reliable fall nuisance, and black widow spiders inhabit the rocky foothill terrain and outbuildings throughout the area.",
+    sections: [
+      {
+        heading: "Fall pest entry in Sheridan: mice and yellow jackets at the same time",
+        body: "Sheridan homeowners face overlapping pest challenges in August and September that require attention at the same time. House mice begin their push toward heated structures in August as northern Wyoming temperatures begin dropping. The effective prevention window, sealing foundation gaps, utility penetrations, and door sills, is August through mid-September before mice are actively seeking entry in large numbers.\n\nYellow jackets reach their peak colony size and maximum aggression in exactly the same period, late August through September. Ground nests in lawns and garden areas that were small and inconspicuous through summer are now large and highly defensive. Professional nest treatment in late August before colony size peaks is the safer approach, particularly for nests near occupied outdoor areas, patios, and play spaces. The combination of exclusion work for mice and yellow jacket nest management in August is the high-priority window for Sheridan homeowners.",
+      },
+      {
+        heading: "Deer ticks in the Bighorn Mountain foothills",
+        body: "Sheridan's proximity to the Bighorn Mountains creates tick exposure risk that is more substantial than in Wyoming's open plains communities. University of Wyoming Extension documents tick activity in Sheridan County, with the brushy mountain foothills, the wooded creek corridors along Goose Creek and Little Goose Creek, and any terrain where white-tailed deer range carrying the highest tick densities. The peak nymphal tick season from May through July represents the highest Lyme disease transmission risk, but adult ticks are active whenever temperatures are above freezing.\n\nFor Sheridan residents who use the Bighorn Mountain trails, fish the creek corridors, or have properties backing onto foothills terrain, tick awareness and personal protection from May through October are appropriate habits. Yard perimeter treatment reduces tick activity at the home boundary for properties adjacent to deer corridors.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and garage door gaps in August before the fall mouse surge from the Bighorn Mountain foothills and surrounding agricultural land.",
+      "Treat yellow jacket ground nests in June when colonies are small, rather than waiting until the late August peak when they are large and defensive.",
+      "Use DEET repellent and perform post-outdoor tick checks when using the Bighorn Mountain trails or Goose Creek corridors from May through October.",
+      "Inspect outbuildings, rock walls, and storage areas for black widow spider harborage in spring before the active season begins.",
+    ],
+    costNote:
+      "Sheridan pest control is typical of the northern Wyoming market. Mouse exclusion and trapping programs start with a free inspection. Yellow jacket nest removal and black widow treatment are quoted after assessment. Tick perimeter treatment is available as a seasonal service.",
+    faqs: [
+      {
+        question: "Are deer ticks common in Sheridan?",
+        answer:
+          "Yes, in the brushy Bighorn Mountain foothills and the riparian corridors along Goose Creek and Little Goose Creek where white-tailed deer range. University of Wyoming Extension documents tick activity in Sheridan County. Outdoor activities near the mountain terrain and creek corridors warrant tick repellent and post-outdoor tick checks from May through October.",
+      },
+      {
+        question: "When is the best time to seal my Sheridan home against mice?",
+        answer:
+          "August through mid-September is the most effective window. House mice begin moving toward heated structures as northern Wyoming temperatures drop in late summer, and completing exclusion work before that pressure peaks limits the size of the fall invasion. Focus on foundation gaps, utility penetrations where pipes enter the building, and the gap under exterior doors. A professional inspection identifies the entry points specific to your structure.",
+      },
+      {
+        question: "Are black widow spiders dangerous in Sheridan?",
+        answer:
+          "Black widows are present in Sheridan County and throughout the Bighorn Mountain foothill terrain. University of Wyoming Extension identifies them as medically significant. Their venom causes serious neurological symptoms and is particularly dangerous for children and older adults. Bites are uncommon because black widows are non-aggressive, but properties with rock walls, outbuildings, wood piles, and undisturbed storage areas have elevated black widow presence. Professional inspection and treatment of harborage areas is the appropriate preventive step.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Casper", slug: "casper" },
+      { name: "Gillette", slug: "gillette" },
+      { name: "Laramie", slug: "laramie" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Sheridan, WY | Mice, Deer Ticks & Bighorn Pests",
+    metaDescription:
+      "Sheridan pest control for house mice, deer ticks, yellow jackets, boxelder bugs and black widow spiders. Sheridan County Wyoming Bighorn Mountain foothills specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "evanston-wy",
+    name: "Evanston",
+    state: "Wyoming",
+    stateSlug: "wyoming",
+    stateAbbr: "WY",
+    tier: "T3",
+    population: "~11,000",
+    county: "Uinta County",
+    climate: "semi-arid",
+    climateDriver:
+      "Evanston sits in the Bear River valley in Uinta County at an elevation over 6,700 feet, near the Utah border. The high-elevation semi-arid climate delivers cold winters, dry summers, and dramatic temperature swings. University of Wyoming Extension documents hobo spider activity in western Wyoming; the hobo spider is a medically significant spider that is more common in the Intermountain West than in the eastern US and is frequently found in homes and outbuildings throughout Uinta County. Cold winters drive mice aggressively into structures for extended periods.",
+    topPests: [
+      "House Mice",
+      "Hobo Spiders",
+      "Boxelder Bugs",
+      "Cluster Flies",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, most intensive September through April",
+        note:
+          "House mice are the dominant pest concern in Evanston. The high elevation means cold arrives early and stays late, and mice push into heated structures by September, often remaining inside until May or later. University of Wyoming Extension confirms rodents as the most commonly reported structural pest in Wyoming communities.",
+      },
+      {
+        name: "Hobo spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Active April through October, males most visible September and October",
+        note:
+          "Hobo spiders are documented in western Wyoming, including Uinta County. University of Wyoming Extension identifies the hobo spider as the most commonly encountered medically significant spider in this region. Hobo spiders build funnel webs in low vegetation, ground level harborage, and basement areas. Male hobo spiders are most visible in September and October when they actively search for mates and are frequently encountered in homes.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "general-pest-control",
+        activeSeason: "September through October entry, emerge on warm winter days",
+        note:
+          "Boxelder bugs are a consistent fall nuisance in Evanston wherever boxelder and silver maple trees are present. They aggregate on sun-facing walls in September and October before pushing into wall voids to overwinter. They emerge on warm winter days and again in spring, appearing in large numbers on south-facing windows.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October entry, emerge indoors on warm winter days",
+        note:
+          "Cluster flies are a persistent fall and winter nuisance in Evanston's homes and commercial buildings, sustained by the agricultural and ranching land in the Bear River valley. They overwinter in wall voids in large numbers and emerge on warm days throughout winter.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive late August",
+        note:
+          "Yellow jackets build ground and aerial nests throughout Evanston's residential areas each summer. The dry semi-arid terrain provides abundant nesting sites in the soil. Colonies reach peak size in August and September, coinciding with outdoor activities before the early Uinta County fall.",
+      },
+    ],
+    localHook:
+      "Evanston's Bear River valley position at over 6,700 feet elevation in Uinta County puts it among the colder and more isolated communities in western Wyoming. The high-elevation semi-arid climate compresses the pest season into fewer warm months but makes mouse pressure during those cold months among the most intense in the region. The hobo spider, a funnel-web spider documented by University of Wyoming Extension as medically significant in this region, is more commonly encountered in western Wyoming communities than in most of the country.",
+    intro:
+      "Pest control in Evanston covers the pest calendar of a high-elevation Bear River valley community near the Utah border. House mice are the dominant year-round concern, with the cold high-elevation winters driving intensive and extended fall entry that lasts from September through April. The hobo spider is a medically significant funnel-web spider documented throughout Uinta County, most frequently encountered in homes in September and October when males search for mates. Boxelder bugs and cluster flies are reliable fall nuisances that push into wall voids to overwinter. Yellow jackets build colonies through summer and become hazardous in late August.",
+    sections: [
+      {
+        heading: "Hobo spiders in Uinta County: what residents need to know",
+        body: "The hobo spider is less well-known than the brown recluse or black widow but is more commonly encountered in western Wyoming communities. University of Wyoming Extension documents the hobo spider in the Intermountain West region, including Uinta County. Hobo spiders build funnel-shaped webs at ground level in vegetation, wood piles, and building perimeters, and inside in basements, crawl spaces, and ground-level storage areas. The male hobo spider is the one typically found inside homes: it leaves its web in September and October to actively search for mates and is mobile and fast-moving, which leads to the surprising indoor encounters that Evanston residents report.\n\nHobo spider bites can cause localized tissue damage and have historically been considered medically significant, though research continues on the specific risk level. The practical management approach is to reduce the ground-level harborage around the home's perimeter (wood piles, debris, ground-covering vegetation against the foundation) and apply a perimeter treatment in late summer before the September male dispersal. Sticky traps in basements and ground-level areas are useful for monitoring population levels.",
+      },
+      {
+        heading: "Extended mouse season at high elevation",
+        body: "Evanston's elevation above 6,700 feet means that the mouse exclusion window is shorter and the indoor season is longer than in lower-elevation Wyoming communities. Cold weather arrives in September and can last until May, giving mice a full seven or eight months of indoor conditions that are essentially year-round in the coldest years. The Bear River valley's agricultural and ranching operations sustain large outdoor mouse populations that amplify fall entry pressure.\n\nThe most cost-effective approach is thorough exclusion work in August before the cold arrives, combined with interior trapping for any mice that enter despite the exclusion. A professional exclusion inspection identifies the specific entry points for each structure: the gaps around utility penetrations, the gap under garage doors, the foundation vent screens if present, and the worn door sweeps that are the most common mouse entry routes. In Evanston, getting this right in August is more important than the same work done in October after the cold has already committed mice to indoors.",
+      },
+    ],
+    prevention: [
+      "Complete mouse exclusion work in August, sealing foundation gaps, utility penetrations, and door sills before the September cold drives mice aggressively toward structures.",
+      "Apply perimeter treatment in late summer and reduce ground-level harborage near the foundation to limit hobo spider indoor encounters in September and October.",
+      "Apply cluster fly and boxelder bug barrier treatment to south-facing exterior walls in late August before they begin aggregating for winter entry.",
+      "Treat yellow jacket ground nests in June when colonies are small and before peak August aggression.",
+    ],
+    costNote:
+      "Evanston pest control is priced for the Uinta County market. Mouse exclusion and trapping programs start with a free inspection. Hobo spider perimeter treatment and yellow jacket removal are quoted after assessment. Fall barrier treatment for cluster flies and boxelder bugs is a seasonal service.",
+    faqs: [
+      {
+        question: "What is a hobo spider and is it dangerous in Evanston?",
+        answer:
+          "The hobo spider is a funnel-web spider documented by University of Wyoming Extension throughout the Intermountain West, including Uinta County. It is more commonly encountered in western Wyoming homes than the brown recluse. Males are active and visible in September and October when they search for mates. The bite has historically been considered capable of causing localized tissue damage, though the severity is debated in current research. The practical approach is to reduce ground-level harborage around the home's foundation and apply a perimeter treatment before the fall dispersal season.",
+      },
+      {
+        question: "How long does mouse season last in Evanston?",
+        answer:
+          "At Evanston's elevation over 6,700 feet, cold conditions arrive in September and can persist through April or May, meaning mice may be actively trying to enter and maintain indoor residence for seven to eight months. That is longer than most Wyoming communities at lower elevations. Thorough exclusion work in August is the most important preventive step. Interior trapping through the winter manages any population that establishes despite the exclusion.",
+      },
+      {
+        question: "What can I do about boxelder bugs in my Evanston home?",
+        answer:
+          "Boxelder bugs overwinter in wall voids in large numbers and emerge on warm winter days in frustrating quantities. The most effective response is prevention: apply a perimeter spray treatment to south-facing and west-facing exterior walls in late August before they begin aggregating, and seal any gaps in window frames and siding they use to enter. Vacuuming without crushing them inside avoids triggering their defensive odor response. Once they are inside wall voids, removal is difficult until they naturally exit in spring.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Casper", slug: "casper" },
+      { name: "Rock Springs", slug: "rock-springs" },
+      { name: "Laramie", slug: "laramie" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Evanston, WY | Mice, Hobo Spiders & High-Elevation Pests",
+    metaDescription:
+      "Evanston pest control for house mice, hobo spiders, boxelder bugs, cluster flies and yellow jackets. Uinta County Bear River valley high-elevation Wyoming specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

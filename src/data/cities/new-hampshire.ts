@@ -571,4 +571,218 @@ export const newHampshireCities: CityLocation[] = [
     metaDescription:
       "Rochester NH pest control for deer ticks, carpenter ants, mice, wasps and mosquitoes. Strafford County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "keene",
+    name: "Keene",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~23,000",
+    county: "Cheshire County",
+    climate: "cold-humid",
+    climateDriver:
+      "Keene sits in the Ashuelot River valley in Cheshire County, southwestern New Hampshire, where the forested hills of the Monadnock region create a cold-humid climate with long winters and a moderate summer pest season. NH DHHS tracks deer tick activity statewide and places southwestern NH counties including Cheshire in the active tick risk zone for Lyme disease. Keene State College brings a student population that creates cockroach and bed bug pressure in the campus-adjacent rental housing market, while the surrounding forest sustains mouse and carpenter ant populations close to residential areas.",
+    topPests: [
+      "House Mice",
+      "Deer Ticks",
+      "Carpenter Ants",
+      "German Cockroaches",
+      "Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "House mice are the dominant structural pest in Keene, with a predictable fall push starting in September as New Hampshire temperatures drop. Keene's older downtown and campus-area housing, combined with the forested Monadnock region surrounding the city, creates both the structural entry points and the source populations that sustain year-round mouse pressure. Keene State College student housing adds multi-unit transmission pathways.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "NH DHHS monitors deer tick activity statewide and places Cheshire County in the active tick risk zone. The forested hills of the Monadnock region surrounding Keene and the Ashuelot River corridor provide established deer tick habitat close to the city. New Hampshire's deer tick population has expanded southward into Cheshire County in recent decades.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor activity signals established colony",
+        note: "Carpenter ants are common in Keene's older wood-frame housing and in the mature trees throughout residential neighborhoods. New Hampshire's cold-humid climate creates moisture accumulation in structural wood that allows carpenter ant infestations to develop. Older properties near the forested edges of the Monadnock region carry the highest risk.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches are established in Keene's campus-area student housing and older downtown commercial buildings. Keene State College creates student housing rental density where cockroach spread between units is common. Food service establishments in the downtown corridor are the commercial category most affected.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note: "Stink bugs are a consistent fall nuisance in Keene, aggregating on building surfaces in September and pushing inside through exterior gaps to overwinter. The Monadnock region's agricultural edges and apple orchard landscape near Keene sustain stink bug populations. Sealing exterior gaps in August is the most effective prevention.",
+      },
+    ],
+    localHook:
+      "Keene's position at the edge of the Monadnock region, combined with Keene State College's student population, creates pest pressure where forest-edge mice and ticks meet campus cockroach and bed bug introduction pathways in a single small city.",
+    intro:
+      "Pest control in Keene manages the intersection of two pest environments: the forested Monadnock region with its deer ticks, mice, and carpenter ant pressure, and the Keene State College campus area with its student housing cockroach and bed bug risks. NH DHHS places Cheshire County in the active deer tick risk zone, and the surrounding forest brings tick habitat close to residential areas throughout the city. House mice push into Keene's older homes starting in September, motivated by New Hampshire's cold winters. Stink bugs aggregate on Keene buildings each fall. And in the rental housing market around the campus, cockroaches and bed bugs find the introduction pathways and spread conditions that student housing creates. These require different strategies, but both are manageable with professional help.",
+    sections: [
+      {
+        heading: "Cheshire County deer ticks and the Monadnock region pest environment",
+        body: "Keene's surrounding landscape is the forested Monadnock region, with Mount Monadnock and the surrounding hills creating the habitat that sustains deer tick populations close to the city. NH DHHS has expanded its deer tick risk zone into southwestern New Hampshire counties including Cheshire as the state's tick population has moved northward and westward over the past two decades. The Ashuelot River corridor running through Keene brings riparian wildlife habitat into the city's residential landscape.\n\nFor Keene residents, the tick season runs from March through November, with the nymphal stage in May and June representing the highest transmission risk. Properties with wooded yard borders or backing onto the green spaces and parks throughout Keene face consistent tick exposure. Professional perimeter treatment in April, before the nymphal season begins, is the most effective prevention approach for residential properties in Cheshire County.",
+      },
+      {
+        heading: "Keene State College campus area: cockroaches, bed bugs, and student housing pressures",
+        body: "Keene State College's residential population creates the high-turnover rental housing environment where cockroaches and bed bugs introduce and spread most readily. German cockroaches in student housing spread through shared kitchen infrastructure and the plumbing penetrations between units in older campus-area apartment buildings. Each new academic year brings a fresh cycle of tenant moves that can reintroduce cockroaches even after treatment.\n\nBed bugs follow the same introduction pattern. Student moves, secondhand furniture, and high-traffic shared living situations create multiple introduction events per building per year. Keene's older campus-area rental housing has the shared infrastructure and building density that allows bed bugs to spread between units efficiently. For property owners in the campus area, ongoing monitoring with interceptor devices and responsive treatment when evidence appears is the standard protocol.",
+      },
+    ],
+    prevention: [
+      "Apply deer tick perimeter treatment to wooded yard edges in Keene in April before the nymphal tick season begins in Cheshire County.",
+      "Complete exterior mouse exclusion on older Keene properties in August, sealing foundation gaps, utility penetrations, and weatherstripping before the September push.",
+      "For Keene State College campus-area rental properties, use bed bug interceptors under beds year-round and conduct professional inspections at tenant turnover.",
+      "Seal exterior gaps on south-facing walls in August to limit stink bug entry, which is particularly heavy near the apple orchard and agricultural edges of the Monadnock region.",
+    ],
+    costNote:
+      "Keene pest control programs start with a free inspection. Tick treatment, mouse exclusion, and cockroach or bed bug treatment in campus-area rental properties are priced based on property size and pest category. Multi-unit building programs are available.",
+    faqs: [
+      {
+        question: "Are deer ticks a real concern in Keene?",
+        answer:
+          "Yes. NH DHHS has expanded its deer tick risk zone into Cheshire County as New Hampshire's tick population has moved northward and westward over recent decades. The Monadnock region's forested landscape surrounding Keene sustains deer tick populations close to the city. Properties with wooded yard borders and residents who use the trail networks and green spaces around Keene face real tick exposure from March through November.",
+      },
+      {
+        question: "Why is cockroach risk higher near Keene State College?",
+        answer:
+          "Student housing creates the introduction and spread conditions cockroaches need. High tenant turnover at the start of each academic year, shared kitchen infrastructure in older apartment buildings, and the density of multi-unit buildings in the campus area all contribute. A cockroach problem in one campus-area unit is rarely limited to that unit. Shared drain stacks and plumbing penetrations between floors spread infestations through buildings quickly.",
+      },
+      {
+        question: "When do mice push into Keene homes?",
+        answer:
+          "September is when house mice begin entering Keene homes in significant numbers. New Hampshire winters are cold enough to strongly motivate mice to seek heated shelter, and Keene's older housing stock provides the structural entry points they need. The forested Monadnock region surrounding the city sustains large mouse populations close to residential areas. Exterior exclusion work completed in August, before the fall push starts, is the most effective prevention.",
+      },
+      {
+        question: "What makes stink bugs worse in Keene than in some other NH cities?",
+        answer:
+          "The apple orchards and agricultural land in the Monadnock region surrounding Keene sustain higher stink bug populations than purely forested or urban areas, because stink bugs are an orchard pest that thrives in the fruit-growing landscape. Keene properties near the agricultural edges of the region tend to see heavier fall aggregations than properties in the urban core. Sealing exterior gaps in August is the most effective prevention before they begin aggregating in September.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Manchester", slug: "manchester" },
+      { name: "Nashua", slug: "nashua" },
+      { name: "Concord", slug: "concord-nh" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Keene, NH | Mice, Ticks, Carpenter Ants & Cockroaches",
+    metaDescription:
+      "Keene pest control for house mice, deer ticks, carpenter ants, German cockroaches and stink bugs. Cheshire County Monadnock region specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "derry",
+    name: "Derry",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~34,000",
+    county: "Rockingham County",
+    climate: "cold-humid",
+    climateDriver:
+      "Derry is a suburban town in Rockingham County, southeastern New Hampshire, with a residential character defined by wooded neighborhoods and the rural-suburban fringe typical of southern NH. NH DHHS reports Rockingham County as New Hampshire's highest Lyme disease risk county, making deer tick management a priority for Derry property owners. The forested wooded character of Derry's residential landscape, with mature trees throughout the neighborhoods and large wooded lot borders, creates persistent tick exposure at the suburban edge throughout the growing season.",
+    topPests: [
+      "House Mice",
+      "Deer Ticks",
+      "Carpenter Ants",
+      "German Cockroaches",
+      "Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round indoors, fall push September through November",
+        note: "House mice push into Derry homes starting in September, driven by New Hampshire's cold winters. Derry's wooded suburban character provides large mouse source populations close to residential neighborhoods, and the older housing stock in many Derry neighborhoods has the structural gaps that mice exploit. Excluding mice before they enter in September is substantially more effective than reactive trapping after they are established inside.",
+      },
+      {
+        name: "Deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Active March through November, nymphal peak May through June",
+        note: "NH DHHS reports Rockingham County as New Hampshire's highest-risk county for Lyme disease, and Derry's wooded suburban landscape reflects that designation. The mature trees, wooded lot borders, and brushy edges that define Derry neighborhoods create deer tick habitat throughout the residential landscape. Tick checks and professional yard treatment are standard practice for Derry property owners.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through September, spring indoor activity most visible",
+        note: "Carpenter ants are common in Derry's older and newer wood-frame homes alike, where the moisture from New Hampshire's cold-humid climate and the abundant mature trees create harborage conditions. Derry's wooded character means carpenter ants have extensive outdoor nesting sites that can expand into structures. Spring indoor activity is the most common indicator of an established colony inside a Derry home.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches in Derry concentrate in multi-family housing and commercial food service environments rather than in the single-family suburban character that defines much of the town. Derry's commercial corridors and older apartment buildings are where cockroach issues are most common. Introduction through grocery deliveries and restaurant supply chains is the primary pathway in Derry's commercial sector.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November",
+        note: "Stink bugs are a consistent fall nuisance in Derry's suburban neighborhoods, aggregating on building surfaces in September and entering through exterior gaps to overwinter in wall voids and attic spaces. Derry's wooded suburban character and the agricultural edges of southern New Hampshire sustain stink bug populations. Sealing exterior gaps in August limits entry.",
+      },
+    ],
+    localHook:
+      "Rockingham County carries the highest deer tick risk in New Hampshire according to NH DHHS, and Derry's wooded suburban residential character means tick exposure at yard borders is a genuine seasonal health concern for residents throughout the warm months.",
+    intro:
+      "Pest control in Derry starts with deer ticks. NH DHHS designates Rockingham County as New Hampshire's highest Lyme disease risk county, and Derry's wooded suburban landscape means tick exposure at yard borders is a real warm-season health concern for residents with outdoor exposure. House mice push into Derry homes starting in September when New Hampshire temperatures drop, exploiting the structural gaps in the town's older housing stock. Carpenter ants are common throughout the wooded neighborhoods. Stink bugs are a reliable fall nuisance. German cockroaches are present in multi-family and commercial contexts. Derry's pest profile is a reliable expression of southern New Hampshire suburban pest pressure, and it responds well to professional management that addresses the wooded suburban environment specifically.",
+    sections: [
+      {
+        heading: "Rockingham County's Lyme disease designation and deer tick management in Derry",
+        body: "New Hampshire DHHS tracks deer tick activity and Lyme disease incidence by county, and Rockingham County consistently registers as the state's highest-risk county. Derry sits in the middle of that high-risk designation. The town's defining character is wooded suburban residential: mature trees, large lot sizes with wooded borders, and the brushy edges between neighborhoods and undeveloped land that deer ticks need to survive and reproduce.\n\nFor Derry homeowners, tick exposure in the yard is not a remote forest concern; it is a lawn and garden edge concern that affects residents throughout the warm season from late March through November. Children playing near wooded borders and adults gardening in brushy areas are the two most common exposure scenarios. Professional perimeter treatment applied to the wooded lot borders in April, before the nymphal season peaks in May and June, provides the most effective protection through the primary risk period.",
+      },
+      {
+        heading: "Mice, carpenter ants, and stink bugs in Derry's wooded neighborhoods",
+        body: "Derry's wooded suburban character that creates tick exposure also sustains large populations of mice and carpenter ants close to residential structures. House mice push into Derry homes every September, motivated by New Hampshire winters that regularly drop below zero. The forested lot borders and the mature trees throughout the neighborhoods provide source populations within yards of most Derry homes. The older housing stock in established Derry neighborhoods has the foundation gaps and worn weatherstripping that give mice routine access.\n\nCarpenter ants follow the moisture in Derry's abundant mature trees and wooded lot features into structural wood, where they excavate galleries that cause progressive damage over years if untreated. Finding large black ants inside a Derry home in spring is the most reliable indicator of an established indoor colony. Stink bugs are the fall nuisance: they aggregate on south-facing walls in September and push inside through any unsealed exterior gap. Sealing those gaps in August addresses both stink bugs and mice simultaneously, making it the most efficient fall prevention investment for a Derry property.",
+      },
+    ],
+    prevention: [
+      "Apply tick perimeter treatment to wooded yard borders and brushy edges in Derry in April before nymphal tick season begins in Rockingham County, NH's highest-risk Lyme disease county.",
+      "Complete exterior mouse exclusion on Derry properties in August, focusing on foundation sills, utility penetrations, and garage door weatherstripping before the September push.",
+      "Seal south-facing exterior gaps in August to block both stink bug fall entry and mouse access simultaneously, since both exploit the same exterior penetration points.",
+      "Monitor for carpenter ant activity in Derry's older wood-frame homes by checking for large black ants near moisture-prone areas in kitchens and bathrooms in spring.",
+    ],
+    costNote:
+      "Derry pest control programs start with a free inspection. Tick perimeter treatment, mouse exclusion, and carpenter ant or stink bug treatment are priced based on property size and pest category.",
+    faqs: [
+      {
+        question: "Is Derry really in New Hampshire's highest tick risk zone?",
+        answer:
+          "Yes. NH DHHS identifies Rockingham County as New Hampshire's highest-risk county for Lyme disease, and that designation applies directly to Derry. Derry's wooded suburban landscape, with its mature trees, large wooded lot borders, and brushy edges, provides excellent deer tick habitat throughout residential neighborhoods. Tick exposure in Derry is not a fringe concern limited to properties near forests; it is a year-round warm-season reality for most Derry households.",
+      },
+      {
+        question: "When do mice become a problem in Derry?",
+        answer:
+          "September is when the fall push starts in Derry. New Hampshire winters strongly motivate house mice to seek heated shelter, and Derry's wooded suburban landscape sustains large mouse populations close to residential structures. Older homes in the established Derry neighborhoods have more structural entry points than newer construction. The most effective prevention is exterior exclusion work completed in August, before the push starts. Gaps as small as a dime are large enough for a mouse.",
+      },
+      {
+        question: "Do carpenter ants cause real damage in Derry homes?",
+        answer:
+          "Over time, yes. Carpenter ants do not eat wood, but they excavate galleries in wood that is already softened by moisture, and a colony left untreated for several years causes progressive structural damage. Derry's wooded character means carpenter ants have abundant outdoor harborage that can expand into structures at any moisture entry point. Finding large black ants inside in spring, particularly near kitchens, bathrooms, or plumbing walls, is the sign that warrants a professional inspection.",
+      },
+      {
+        question: "What can I do about stink bugs in my Derry home?",
+        answer:
+          "The most effective approach is preventing their entry in August, before they begin aggregating in September. Stink bugs enter through gaps around windows, siding, and utility penetrations. Sealing those gaps in August is the same work that prevents mouse entry, making it the most efficient fall prevention investment for a Derry property. If stink bugs are already inside, vacuum them up without crushing them, which releases the odor they are named for. They do not breed indoors and will leave naturally in spring.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Manchester", slug: "manchester" },
+      { name: "Nashua", slug: "nashua" },
+      { name: "Rochester", slug: "rochester-nh" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Derry, NH | Ticks, Mice, Carpenter Ants & Stink Bugs",
+    metaDescription:
+      "Derry pest control for house mice, deer ticks, carpenter ants, German cockroaches and stink bugs. Rockingham County NH highest Lyme disease risk county specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

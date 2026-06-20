@@ -8,16 +8,16 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-19)
+## Current State (2026-06-20)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-52 complete. T2 COMPLETE.
-- **City pages built:** 1253 total (75 T1 + 300 T2 + 878 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-54 complete. T2 COMPLETE.
+- **City pages built:** 1303 total (75 T1 + 300 T2 + 928 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1336 in the static export (home, services, 50+ states, 1253 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=253, B=251, C=251, D=250, E=248 (1253 total cities, all within 15-25% range).
-- **Cities built T3 chunks 51-52 (50):** TX: Schertz, Friendswood, Rosenberg, Saginaw, Converse, Live Oak. FL: Wellington (B), Ocoee (B), Haines City (D), Plant City (B), Greenacres (B), Clermont (B). GA: Conyers (C), Cartersville (C), Covington (A), Milledgeville (B), Thomasville (E). OH: Fairborn (D), Lancaster (D), Troy (D), Piqua (D), Marysville (D), Perrysburg (A), Miamisburg (D). NC: Knightdale (C). IL: Elmhurst (E), Streamwood (E), Addison (E), Lisle (C). MI: Monroe (A), Ferndale (E), Mount Clemens (B). IN: Seymour (C), Clarksville (A), New Castle (C). MN: Shoreview (B), Owatonna (B), Brooklyn Center (A), Chaska (D), Champlin (A). MO: Rolla (C), Hannibal (C), Arnold (C). WI: Middleton (E), Marshfield (E), Onalaska (E), Wisconsin Rapids (E). PA: Hanover (A). TN: East Ridge (D), McMinnville (C).
-- **New state files added chunks 51-52:** none (all states already registered).
-- **Next block:** Chunk 53, T3 continues, rotation at A.
+- **Total site pages:** 1386 in the static export (home, services, 50+ states, 1303 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=263, B=261, C=261, D=260, E=258 (1303 total cities, all within 15-25% range).
+- **Cities built T3 chunks 53-54 (50):** Chunk 53: IA: Cedar Falls, Ottumwa, Fort Dodge, Marshalltown, Clinton. OK: Shawnee, Ponca City, Ardmore, Bixby, Claremore. AR: Sherwood, Cabot, Jacksonville, Paragould, Bryant. MS: Starkville, Ridgeland, Ocean Springs, Hernando, Natchez. LA: Mandeville, Gonzales, West Monroe, Baker, Covington. Chunk 54: AK: Fairbanks, Juneau. MT: Havre, Livingston, Whitefish. WY: Sheridan, Evanston. SD: Brookings, Watertown. ND: Dickinson, Williston. ME: Auburn, Biddeford. VT: Barre, Montpelier. RI: Newport, North Providence. NH: Keene, Derry. CT: Middletown, Milford, Manchester, Bristol, Enfield. AL: Phenix City.
+- **New state files added chunks 53-54:** none (all states already registered).
+- **Next block:** Chunk 55, T3 continues, rotation at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

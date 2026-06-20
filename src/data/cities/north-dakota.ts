@@ -702,4 +702,218 @@ export const northDakotaCities: CityLocation[] = [
     metaDescription:
       "Mandan pest control for mice, boxelder bugs, mosquitoes and ants. Morton County near Bismarck specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "dickinson",
+    name: "Dickinson",
+    state: "North Dakota",
+    stateSlug: "north-dakota",
+    stateAbbr: "ND",
+    tier: "T3",
+    population: "~23,000",
+    county: "Stark County",
+    climate: "cold-humid",
+    climateDriver:
+      "Dickinson sits in western North Dakota's badlands region in Stark County, near the Knife River and the southwestern edge of the Theodore Roosevelt National Park badlands terrain. The cold continental climate delivers extreme winters, hot dry summers, and a pest calendar dominated by rodents and overwintering insects. North Dakota State University Extension documents pest activity throughout western North Dakota.",
+    topPests: [
+      "House Mice",
+      "Boxelder Bugs",
+      "Cluster Flies",
+      "Yellow Jackets",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, most intensive September through April",
+        note:
+          "House mice are the dominant structural pest in Dickinson and throughout Stark County. Western North Dakota winters regularly fall to minus 20 degrees and below, making heated buildings the only viable mouse habitat for months. The surrounding agricultural and range land sustains large outdoor mouse populations that surge toward structures each fall. NDSU Extension confirms rodents as the most reported structural pest in rural North Dakota.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "general-pest-control",
+        activeSeason: "September through October entry, emerge on warm winter days",
+        note:
+          "Boxelder bugs are a consistent fall nuisance in Dickinson wherever boxelder and silver maple trees are present. The western North Dakota shelter belts include substantial boxelder populations, and bugs aggregate on sun-facing building exteriors in September before pushing into wall voids to overwinter.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October entry, emerge indoors on warm winter days",
+        note:
+          "Cluster flies are a persistent fall and winter pest in Dickinson, sustained by the agricultural and rangeland in Stark County. They overwinter in wall voids and attic spaces and emerge on warm winter days throughout the season.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive late August",
+        note:
+          "Yellow jackets build ground and aerial nests throughout Dickinson's residential areas each summer. The badlands terrain with its dry, rocky soil provides abundant ground nesting sites. Colonies reach peak size and defensiveness in late August before the North Dakota fall ends the season.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "German cockroaches are present in Dickinson's commercial food service operations and the multi-family housing in the city's commercial corridors. The oil boom growth that Dickinson experienced in the 2010s brought rapid housing and hospitality development, sustaining cockroach pressure in the commercial sector.",
+      },
+    ],
+    localHook:
+      "Dickinson is the largest city in western North Dakota and the commercial center for the region's oil, gas, and agricultural economy. The badlands terrain around the city and the extreme continental winters create a pest calendar dominated by rodents and overwintering insects. NDSU Extension serves as the pest management resource for this region, and its guidance is clear: mice are the dominant structural pest concern throughout Stark County, and fall exclusion is the single most cost-effective pest management investment for western North Dakota homeowners.",
+    intro:
+      "Pest control in Dickinson covers the pest calendar of a western North Dakota oil and agricultural city. House mice are the dominant year-round concern, with extreme continental winters that regularly reach minus 20 degrees driving intensive fall entry pressure and extended indoor season from September through April. Boxelder bugs and cluster flies push into wall voids each fall to overwinter, emerging throughout the winter on warm days. Yellow jackets are a significant late-summer hazard in the badlands terrain around the city. German cockroaches are a commercial sector concern in the food service and hospitality industry that expanded during the oil boom.",
+    sections: [
+      {
+        heading: "Extreme winters and the extended mouse season in Stark County",
+        body: "Dickinson's western North Dakota winters are among the most extreme in the contiguous United States. Minus 20 degree temperatures are not unusual, and the cold season can last from October through April. For mice, this means that any individual that enters a heated structure in September or October is committed to staying through May. The surrounding agricultural and range land of Stark County sustains large outdoor mouse populations, and when the cold arrives it drives these populations toward any available heated structure.\n\nNDSU Extension recommends thorough exterior exclusion as the primary mouse management strategy in rural and small-city North Dakota. The exclusion window in Dickinson is August through mid-September, before the cold arrives and before the fall movement peaks. Foundation gaps, utility penetrations, and the gap under exterior doors are the most common entry points. Getting these sealed in August provides protection before the long western North Dakota winter begins.",
+      },
+      {
+        heading: "Boxelder bugs and cluster flies: managing fall overwintering pests",
+        body: "Dickinson faces the same two overwintering pest problems that affect most of North Dakota's agricultural cities: boxelder bugs from the shelter belt trees and cluster flies from the agricultural soil. Both enter in September and October through gaps in window frames, siding, and exterior penetrations. Both emerge on warm winter days in large numbers on south-facing windows.\n\nThe management approach for both is barrier treatment of south-facing exterior walls in mid-August, before they begin aggregating, combined with sealing of any identified gaps in window frames and siding. This is preventive work done before the pests are visible in large numbers. Once they are inside wall voids, the population there is larger than what is visible, and interior spray treatment is less effective than preventing entry. Spring arrival of boxelder bugs is also an emergence from the wall void population, not a new outside infestation.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and door sills in August before the fall mouse surge from Stark County's agricultural and range land.",
+      "Apply boxelder bug and cluster fly barrier treatment to south-facing exterior walls in mid-August and seal gaps in window frames and siding.",
+      "Treat yellow jacket ground nests in June when colonies are small, before the late August peak in the badlands terrain around Dickinson.",
+      "Schedule professional cockroach monitoring for food service operations and multi-family housing in the Dickinson commercial corridor.",
+    ],
+    costNote:
+      "Dickinson pest control is typical of the western North Dakota market. Mouse exclusion and trapping programs start with a free inspection. Boxelder bug and cluster fly treatment is a seasonal fall service. Yellow jacket removal and cockroach programs are quoted after assessment.",
+    faqs: [
+      {
+        question: "How long does mouse season last in Dickinson?",
+        answer:
+          "In Dickinson's western North Dakota climate, mice may be pushing into structures from September through November and remain inside until April or May. The minus 20 degree winter temperatures make the indoor commitment nearly absolute once mice enter. The practical implication is that exclusion work completed in August, before the cold arrives, is the highest-value pest investment for Stark County homeowners. A mouse inside by October is there for the winter.",
+      },
+      {
+        question: "Why do boxelder bugs come out of my walls on warm winter days?",
+        answer:
+          "Boxelder bugs overwinter in wall voids and attic spaces in large numbers. On warm days when interior temperatures rise, they become active and move toward light, gathering on south-facing windows. They are not a new invasion from outside: they are the population that entered through exterior wall gaps in September and October. The numbers visible on the windows are a fraction of the population in the wall void. Vacuuming them without crushing avoids the odor response. The definitive solution is preventing entry in mid-August before they aggregate.",
+      },
+      {
+        question: "Are German cockroaches common in Dickinson homes?",
+        answer:
+          "German cockroaches in Dickinson are primarily a commercial sector pest: food service operations, restaurants, and the hospitality properties that expanded during the oil boom are the most common settings. They do spread into adjacent multi-family housing through shared building systems. Single-family homes are less frequently affected unless cockroaches are introduced through infested appliances or secondhand goods. Commercial properties in Dickinson's food service corridor benefit from quarterly professional inspection and treatment to catch infestations before they establish.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Bismarck", slug: "bismarck" },
+      { name: "Minot", slug: "minot" },
+      { name: "Mandan", slug: "mandan" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Dickinson, ND | Mice, Boxelder Bugs & Badlands Pests",
+    metaDescription:
+      "Dickinson pest control for house mice, boxelder bugs, cluster flies, yellow jackets and cockroaches. Stark County western North Dakota badlands specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "williston",
+    name: "Williston",
+    state: "North Dakota",
+    stateSlug: "north-dakota",
+    stateAbbr: "ND",
+    tier: "T3",
+    population: "~27,000",
+    county: "Williams County",
+    climate: "cold-humid",
+    climateDriver:
+      "Williston sits in the Missouri River Breaks of northwestern North Dakota in Williams County, near the Montana border. The extreme continental climate delivers some of the coldest winters in the contiguous United States, with temperatures falling below minus 30 degrees in the coldest years. The oil boom of the 2010s transformed Williston from a small agricultural city into one of the fastest-growing cities in the United States, driving rapid multi-family housing and commercial construction. Norway rats followed the oil boom population growth into the commercial districts.",
+    topPests: [
+      "House Mice",
+      "Norway Rats",
+      "Boxelder Bugs",
+      "Cluster Flies",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors, intensive surge September through November",
+        note:
+          "House mice are the primary pest concern in Williston and throughout Williams County. The extreme North Dakota winters make heated structures essential for mouse survival from October through April. The surrounding agricultural and range land sustains large outdoor populations that surge toward structures each fall. NDSU Extension identifies rodents as the most significant structural pest concern in northwestern North Dakota.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note:
+          "Norway rats established in Williston's commercial districts during and after the oil boom, when rapid population growth brought construction waste, food service density, and waste management challenges. They are documented in the alley and commercial infrastructure of Williston's downtown and the newer commercial corridors. NDSU Extension has tracked rat activity in North Dakota oil boom communities.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "general-pest-control",
+        activeSeason: "September through October entry, emerge on warm winter days",
+        note:
+          "Boxelder bugs are a reliable fall nuisance in Williston wherever boxelder trees are present in the shelter belts and residential areas. They aggregate on sun-facing walls in September and push into wall voids to overwinter, emerging on warm winter days.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October entry, emerge indoors on warm winter days",
+        note:
+          "Cluster flies are a persistent fall and winter nuisance in Williston, sustained by the agricultural and rural land in Williams County. They overwinter in wall voids and attic spaces and emerge on warm days throughout the extended North Dakota winter.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September, most aggressive late August",
+        note:
+          "Yellow jackets build ground and aerial nests in Williston's residential areas and the surrounding grassland and range terrain each summer. They reach peak colony size in late August before the early North Dakota fall ends the season.",
+      },
+    ],
+    localHook:
+      "Williston was transformed by the Bakken oil boom into one of the fastest-growing cities in the United States during the 2010s. That rapid growth brought Norway rats into the commercial infrastructure, created dense multi-family housing with persistent cockroach and bed bug pressure, and expanded the population exposed to Williston's already severe cold-weather rodent conditions. NDSU Extension documented pest management challenges in North Dakota oil boom communities, with rodent pressure at the top of the list.",
+    intro:
+      "Pest control in Williston addresses the pest pressures of a northwestern North Dakota oil and agricultural city that experienced rapid population growth. House mice are the year-round structural constant, with Williams County's extreme winters driving intensive fall entry that lasts from September through April. Norway rats established in Williston's commercial districts during the oil boom and remain in the food service and commercial infrastructure. Boxelder bugs and cluster flies push into buildings each fall to overwinter. Yellow jackets peak in August before the short North Dakota summer ends. Bed bugs are a persistent concern in the multi-family housing that expanded rapidly during the boom years.",
+    sections: [
+      {
+        heading: "Oil boom legacy: Norway rats in Williston's commercial infrastructure",
+        body: "Norway rats are not typically associated with small North Dakota cities, but Williston's oil boom created the conditions for rat establishment in the commercial districts. The rapid influx of population, construction, food service, and commercial activity from 2008 through the mid-2010s created the food waste, construction debris, and sanitation challenges that Norway rats exploit to establish populations in urban environments. NDSU Extension documented pest management pressures in North Dakota oil boom communities during this period.\n\nNorway rats in Williston's commercial infrastructure are a year-round management challenge because, unlike the outdoor pests suppressed by the extreme North Dakota winters, rats are committed to indoor and underground harborage and are not suppressed by cold. Commercial waste management, building exclusion, and professional baiting programs are the tools for controlling the established commercial population. Residential properties near the commercial districts have elevated rat exposure compared to the residential areas further from the commercial infrastructure.",
+      },
+      {
+        heading: "Mice and the extreme Williams County winter",
+        body: "Williams County's extreme winters, which can drop below minus 30 degrees in the coldest years, create a mouse pressure reality that is more intense than most of North Dakota: any mouse that enters a heated structure in September is committed to staying until May or later. The North Dakota agricultural and range land surrounding Williston sustains large outdoor mouse populations, and when the extreme cold arrives it drives these populations aggressively toward any heated structure available.\n\nNDSU Extension recommends thorough exterior exclusion as the primary management strategy. The effective window in Williston is August through early September, before the fall movement peaks. Foundation gaps, utility penetrations, and the gap under exterior doors are the most common entry points. In the multi-family housing that expanded rapidly during the oil boom, building-level exclusion, addressing the exterior of the full building rather than individual unit interiors, is more effective than unit-by-unit treatment.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and exterior door gaps in August before the extreme North Dakota cold drives mice aggressively into structures.",
+      "Apply boxelder bug and cluster fly barrier treatment to south-facing exterior walls in mid-August and seal identified gaps in window frames and siding.",
+      "Implement commercial waste management and baiting programs for Norway rat control in food service and commercial operations in the Williston commercial corridor.",
+      "Treat yellow jacket ground nests in June when colonies are small, before the late August peak.",
+    ],
+    costNote:
+      "Williston pest control is priced for the northwestern North Dakota market. Mouse exclusion and trapping programs start with a free inspection. Norway rat commercial programs are quoted after assessment. Boxelder bug and cluster fly treatment is a seasonal fall service.",
+    faqs: [
+      {
+        question: "Did the oil boom bring rats to Williston?",
+        answer:
+          "Yes. Norway rats are not historically common in small North Dakota cities, but the rapid population growth and commercial expansion of the Bakken oil boom created the food waste, construction debris, and commercial density that Norway rats require to establish populations in urban environments. NDSU Extension documented pest pressures in North Dakota oil boom communities during this period. Norway rats are now established in parts of Williston's commercial infrastructure and require ongoing professional management.",
+      },
+      {
+        question: "How cold does it get in Williston and does that affect pest control?",
+        answer:
+          "Williams County winters regularly reach minus 20 to minus 30 degrees Fahrenheit in the coldest years. That extreme cold does not eliminate pest problems: it concentrates indoor pests by making the outdoors uninhabitable for months. Any mouse inside a Williston structure in October is there through April. Norway rats that established in Williston's commercial infrastructure are unaffected by cold because they live in underground burrows and heated buildings. The pest calendar is indoor-dominated from October through May.",
+      },
+      {
+        question: "Are bed bugs common in Williston's multi-family housing?",
+        answer:
+          "The rapid construction of multi-family housing during the oil boom, combined with the transient workforce population and high unit turnover, created conditions that favor bed bug introduction and spread in Williston's multi-family sector. Bed bugs travel in luggage and establish in high-turnover housing. The oil boom apartments and extended-stay accommodations that saw the highest turnover carry the most documented bed bug history. Professional inspection between tenant turnovers is the most cost-effective preventive practice for multi-family operators in Williston.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Bismarck", slug: "bismarck" },
+      { name: "Minot", slug: "minot" },
+      { name: "Dickinson", slug: "dickinson" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Williston, ND | Mice, Rats & Oil Country Pests",
+    metaDescription:
+      "Williston pest control for house mice, Norway rats, boxelder bugs, cluster flies and yellow jackets. Williams County northwestern North Dakota Bakken oil boom specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
