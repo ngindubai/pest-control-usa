@@ -1404,5 +1404,1077 @@ export const southCarolinaCities: CityLocation[] = [
     metaDescription:
       "Summerville pest control for Formosan termites, mosquitoes, fire ants and American cockroaches. Dorchester County Lowcountry Charleston metro specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  // Chunk 55 additions
+  {
+    slug: "goose-creek",
+    name: "Goose Creek",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~46,000",
+    county: "Berkeley County",
+    climate: "hot-humid",
+    climateDriver:
+      "Goose Creek occupies the coastal plain of Berkeley County, about 15 miles north of Charleston in the South Carolina Lowcountry. Subtropical summers, mild winters, and more than 50 inches of annual rainfall combine to make this one of the most active termite zones in the country. The Goose Creek Reservoir, Bushy Park industrial area, and the tidal creek network draining toward the Cooper River provide consistent mosquito breeding habitat through the long warm season. Clemson University Extension has confirmed both eastern and Formosan subterranean termites active in Berkeley County.",
+    topPests: [
+      "Formosan Subterranean Termites",
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Red Imported Fire Ants",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Peaks April through June; active most of year",
+        note:
+          "Clemson HGIC confirms Formosan termites in Berkeley County coastal plain soils; Formosan colonies can number in the millions, causing structural damage considerably faster than native species.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round; swarm peaks March through May",
+        note:
+          "Native eastern subterranean termites form the primary termite pressure at most Goose Creek residential properties; they are active year-round in the warm coastal plain soils of Berkeley County.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peaks April through October",
+        note:
+          "The Goose Creek Reservoir, tidal tributaries, and detention ponds in newer developments create breeding habitat through the peak season; Asian tiger mosquitoes add daytime biting pressure throughout residential neighborhoods.",
+      },
+      {
+        name: "Red Imported Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Peaks March through November",
+        note:
+          "Red imported fire ants are established throughout Berkeley County; Goose Creek's mix of residential lawns, common areas, and active construction sites provides abundant colonization opportunities throughout the spring and summer.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "American cockroaches enter through crawl spaces, slab openings, and storm drain connections; they are the most commonly reported large cockroach in Berkeley County's warm, humid climate.",
+      },
+    ],
+    localHook:
+      "Berkeley County is one of the coastal counties where Clemson University Extension has confirmed both Formosan and eastern subterranean termites active simultaneously, meaning Goose Creek properties carry dual termite pressure year-round.",
+    intro:
+      "Pest control in Goose Creek means addressing the full range of coastal South Carolina pests in a city that has grown into one of the Charleston metro's largest suburban communities. The dual termite pressure from both Formosan and native eastern subterranean species is the defining structural concern, and Clemson University Extension confirms both are active in Berkeley County's sandy coastal plain soils. Mosquitoes are intense from April through October, driven by the reservoir and tidal creek network. Fire ants are established across Berkeley County and colonize new construction within weeks of grading. American cockroaches work through below-grade infrastructure and are a year-round presence in the warm Lowcountry climate.",
+    sections: [
+      {
+        heading: "Dual termite pressure in Berkeley County",
+        body: "Berkeley County's position in the coastal plain puts Goose Creek properties under termite pressure from two species simultaneously. Native eastern subterranean termites are the baseline risk across all of South Carolina, active year-round in the warm soil and peaking in spring swarming season. The Formosan subterranean termite adds a second layer: Clemson HGIC documents Formosan presence in Berkeley County, and this species is meaningfully more destructive because its colonies can grow to millions of workers versus the tens of thousands in a native colony. Spring swarms in April and May can be identified partly by size: Formosan alates are slightly larger and swarms are typically more dense than native swarms. Both species can be controlled through bait station networks or liquid treatments depending on the construction type, and an annual inspection is the minimum standard for any Berkeley County property given the dual-species environment.",
+      },
+      {
+        heading: "Mosquito season on the Goose Creek Reservoir and tidal creek network",
+        body: "Goose Creek's reservoir and the tidal creek network that drains toward the Cooper River create mosquito breeding habitat at a scale that drives a longer and more intense season than inland South Carolina cities. The season runs April through October, with peak intensity from June through August. Asian tiger mosquitoes (Aedes albopictus), which are well established in Berkeley County, breed in small containers including bird baths, clogged gutters, and yard debris, and they bite aggressively during the day rather than at dusk like many other species. A two-pronged approach works best: barrier spray applied to resting vegetation every 21 days reduces the adult population on the property, while source reduction targeting standing water containers and clogged gutters limits the next generation of breeding.",
+      },
+    ],
+    prevention: [
+      "Maintain an active termite warranty in Berkeley County; the dual Formosan and eastern termite pressure makes annual inspection plus ongoing protection the minimum responsible approach for any Goose Creek property.",
+      "Eliminate standing water in containers, clogged gutters, and detention pond margins from April through October to reduce Asian tiger mosquito breeding in residential yards.",
+      "Apply fire ant two-step broadcast bait in April and again in September to suppress fire ant activity across the full yard through Goose Creek's long warm season.",
+      "Seal crawl space vents, floor drain gaps, and utility penetrations to reduce the below-grade access routes that American cockroaches use to enter Goose Creek homes.",
+    ],
+    costNote:
+      "Termite protection in Goose Creek typically runs as a bait station network or liquid soil treatment depending on construction type, with annual monitoring contracts ranging from $250 to $450 per year. Mosquito barrier spray averages $75 to $130 per 21-day treatment during the peak season. Fire ant two-step treatment is seasonal at $90 to $160 per application. Licensed Berkeley County technicians provide free inspections.",
+    faqs: [
+      {
+        question: "Are Formosan termites actually active in Goose Creek?",
+        answer:
+          "Yes. Clemson University Extension and the Clemson Home and Garden Information Center have confirmed Formosan subterranean termites in Berkeley County's coastal plain, which includes Goose Creek. Formosan colonies are dramatically larger than native species and cause structural damage faster. The spring swarm in April and May is the most visible sign: Formosan alates are slightly larger than native swarmers and the swarms tend to be denser.",
+      },
+      {
+        question: "How long does mosquito season last in Goose Creek?",
+        answer:
+          "The mosquito season in Goose Creek runs meaningfully from April through October, with the most intense period from June through August. The Goose Creek Reservoir and the tidal creek network connecting to the Cooper River provide breeding habitat at a scale that makes the season heavier here than in many inland South Carolina communities. Asian tiger mosquitoes extend the biting window into daytime hours.",
+      },
+      {
+        question: "What is the best schedule for fire ant control in Berkeley County?",
+        answer:
+          "The two-step method applied in spring (April) and fall (September) gives the most complete protection through Goose Creek's long fire ant season. Spring application targets the young colonies that are expanding after winter. Fall application addresses the population before overwintering. Treating only visible mounds leaves the surrounding forager population intact, which allows rapid re-establishment from neighboring areas.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "North Charleston", slug: "north-charleston" },
+      { name: "Summerville", slug: "summerville-sc" },
+      { name: "Charleston", slug: "charleston" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Goose Creek, SC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Goose Creek pest control for Formosan termites, eastern termites, mosquitoes and fire ants. Berkeley County Charleston metro Lowcountry specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "greer-sc",
+    name: "Greer",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~35,000",
+    county: "Greenville and Spartanburg Counties",
+    climate: "hot-humid",
+    climateDriver:
+      "Greer straddles the Greenville and Spartanburg county line in Upstate South Carolina, about 15 miles northeast of downtown Greenville in the Piedmont region. Upstate summers are hot and humid but somewhat moderated compared to the Lowcountry, with cooler winters and more variation in precipitation. The Piedmont terrain features wooded hillsides, creek corridors, and a mix of older residential neighborhoods and new development around Greenville-Spartanburg International Airport, which sits in Greer. The wooded suburban edge and creek bottomlands provide carpenter ant habitat that is more prominent here than on the coast.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+      "Mosquitoes",
+      "German Cockroaches",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round; swarm peaks March through May",
+        note:
+          "Eastern subterranean termites are active across Upstate South Carolina including Greer; the Piedmont's milder winters slow but do not eliminate termite activity, and annual inspection is the standard for any property in Greenville or Spartanburg County.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active March through October; foragers seen indoors April through August",
+        note:
+          "Carpenter ants are more prominent in Greer's wooded Piedmont terrain than in coastal SC cities; they nest in moisture-softened wood in tree stumps, utility poles, and structures with roof or siding moisture damage and send foragers into homes through foundation gaps.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peaks May through September",
+        note:
+          "Durbin Creek, Gilder Creek, and the wetland corridors around Greer's airport perimeter and suburban drainage create consistent mosquito breeding habitat through the warm season.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are the primary indoor cockroach pest in Greer's residential and commercial buildings, established in kitchens and food service operations throughout the city.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round indoors; peaks September through November",
+        note:
+          "House mice push into Greer homes in fall as outdoor temperatures drop; older residential neighborhoods near the historic downtown and the creek corridors see consistent pressure.",
+      },
+    ],
+    localHook:
+      "Greer's position at the Piedmont edge, with wooded creek corridors running through the city and Greenville-Spartanburg International Airport adjacent to residential neighborhoods, creates a carpenter ant and mosquito environment that is distinctly different from coastal South Carolina.",
+    intro:
+      "Greer is Upstate South Carolina's fastest-growing community, a Piedmont city that spans two county lines and sits next to one of the Southeast's busiest airports. The pest profile here is different from the Lowcountry in one key way: Formosan termites are not established in the Upstate, but carpenter ants are far more active in the wooded suburban terrain than at the coast. Eastern subterranean termites are the structural concern across all of South Carolina, including Greer. The creek corridors and drainage channels that run through Greer's neighborhoods create consistent mosquito habitat from May through September. German cockroaches and house mice are the year-round indoor pest concerns that come with any growing suburban community.",
+    sections: [
+      {
+        heading: "Carpenter ants in the Piedmont terrain",
+        body: "Carpenter ants are a significant structural pest in Greer that gets less attention than termites but causes real damage over time. The Piedmont environment, with its wooded hillsides, creek corridors, and tree-heavy residential lots, provides the two things carpenter ants need: moisture-softened wood for nesting and foraging routes into structures. Carpenter ants in Greer are typically Camponotus pennsylvanicus, the eastern black carpenter ant, which is the dominant species in the Carolina Piedmont. They do not eat wood but excavate galleries in wood softened by moisture damage, creating tunnels in roof edges, window frames, and structural members. Finding sawdust-like frass or winged ants indoors in spring is the most reliable early sign. The satellite colonies inside the structure, which are the ones doing damage, are supplied from parent colonies in exterior wood. Treating visible interior trails without finding and addressing the parent colony and the moisture source rarely produces lasting results.",
+      },
+      {
+        heading: "Mosquitoes in Greer's creek and airport corridors",
+        body: "Greer's Durbin Creek, Gilder Creek, and the drainage system around Greenville-Spartanburg International Airport create mosquito habitat across the city. The airport's grassed perimeters, drainage retention areas, and creek connections add to the breeding potential adjacent to residential areas on all sides. The season runs from May through September at meaningful intensity. Asian tiger mosquitoes are established in Upstate SC and extend the biting window into daytime hours. Barrier spray applied to resting vegetation on a 21-day cycle reduces the adult population significantly on treated residential properties. Elimination of standing water containers, cleaning clogged gutters before the spring season, and treating any standing water features with larvicide breaks the breeding cycle at its source.",
+      },
+    ],
+    prevention: [
+      "Address roof leaks, window frame moisture, and foundation sill dampness to reduce the moisture-softened wood that allows carpenter ants to nest in Greer's Piedmont structures.",
+      "Schedule an annual eastern subterranean termite inspection; all of South Carolina is active termite territory and Greer's Upstate location does not reduce that risk.",
+      "Eliminate standing water in gutters, containers, and yard debris from May through September to limit mosquito breeding in Greer's creek and drainage corridors.",
+      "Seal foundation gaps, utility penetrations, and door sills in early fall to limit house mouse entry before the seasonal push begins.",
+    ],
+    costNote:
+      "Termite protection in Greer typically uses bait station networks with annual monitoring contracts. Carpenter ant treatment requires a two-phase approach addressing the exterior parent colony and interior satellite colonies, with prices varying by structure size. Mosquito barrier spray runs $75 to $125 per 21-day application. Free inspections available from licensed Greenville and Spartanburg County technicians.",
+    faqs: [
+      {
+        question: "Is Greer a high-risk termite area in South Carolina?",
+        answer:
+          "All of South Carolina is considered active termite territory by Clemson University Extension, and Greer is no exception. The Upstate does not have Formosan termites the way the coastal counties do, but eastern subterranean termites are fully active in both Greenville and Spartanburg Counties. Annual inspection is the standard approach for any Greer property.",
+      },
+      {
+        question: "Why do I see carpenter ants indoors in Greer in spring?",
+        answer:
+          "Spring carpenter ant foragers that appear indoors are almost always coming from a colony that overwintered in the structure or is immediately adjacent to it. In Greer's Piedmont terrain, the most common scenarios are a colony in moisture-damaged roof fascia, a window frame with failed caulking, or a stump or dead tree within foraging range of the foundation. Finding and addressing the colony source and any associated moisture problem is the key to lasting control.",
+      },
+      {
+        question: "Are mosquitoes worse in Greer than in other Upstate SC cities?",
+        answer:
+          "Greer's combination of creek corridors and the drainage system around Greenville-Spartanburg International Airport creates more mosquito breeding habitat than many comparably sized Upstate communities. The airport perimeter's grassed drainage areas and the creek connections through residential neighborhoods extend breeding opportunities beyond what a purely suburban setting would have.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Greenville", slug: "greenville" },
+      { name: "Spartanburg", slug: "spartanburg" },
+      { name: "Mauldin", slug: "mauldin" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Greer, SC | Termites, Carpenter Ants & Mosquitoes",
+    metaDescription:
+      "Greer pest control for eastern termites, carpenter ants, mosquitoes and German cockroaches. Greenville Spartanburg County Upstate Piedmont specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hanahan",
+    name: "Hanahan",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~27,000",
+    county: "Berkeley County",
+    climate: "hot-humid",
+    climateDriver:
+      "Hanahan sits in the northwestern corner of the Charleston metro, in Berkeley County along the Goose Creek tributary and adjacent to the former Naval Weapons Station Charleston. The Lowcountry coastal plain climate delivers hot, humid summers, mild winters, and substantial annual rainfall. The tidal creek network connecting Hanahan to the Back River and Cooper River estuary creates significant mosquito habitat, while Berkeley County's sandy coastal plain soils sustain both Formosan and eastern subterranean termite populations year-round.",
+    topPests: [
+      "Formosan Subterranean Termites",
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Red Imported Fire Ants",
+      "Brown Marmorated Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Peaks April through June; active most of year",
+        note:
+          "Hanahan's position in Berkeley County places it in confirmed Formosan termite territory per Clemson HGIC; properties within the established Formosan range face a higher structural risk than those in inland counties.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round; swarm peaks March through May",
+        note:
+          "Eastern subterranean termites are the baseline termite pressure across all of Hanahan's residential neighborhoods; they are active year-round and require annual professional inspection to catch early before significant structural damage occurs.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peaks April through October",
+        note:
+          "The tidal creek network connecting Hanahan to the Back River estuary and Cooper River creates extensive mosquito breeding habitat; Asian tiger mosquitoes are established in Berkeley County and bite throughout the day.",
+      },
+      {
+        name: "Red Imported Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Peaks March through November",
+        note:
+          "Fire ants colonize Hanahan's residential lawns, shared greenways, and the grassed areas near the former Naval Weapons Station with characteristic speed after site grading or sod installation.",
+      },
+      {
+        name: "Brown Marmorated Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall aggregation September through November; indoors through winter",
+        note:
+          "Brown marmorated stink bugs have expanded across South Carolina's coastal counties including Berkeley County; Hanahan residents report fall invasions as bugs seek overwintering sites in buildings.",
+      },
+    ],
+    localHook:
+      "Hanahan's location in Berkeley County, one of the coastal plain counties where Clemson Extension confirms dual Formosan and eastern termite activity, makes termite protection not a question of whether but of what type of ongoing plan fits the property.",
+    intro:
+      "Hanahan is a tightly knit Berkeley County community bordering the former Naval Weapons Station property and connected to the Charleston metro's network of tidal creeks and marsh corridors. Those waterways are what define the pest calendar here. Mosquitoes are intense from April through October, driven by the tidal creek system. Both Formosan and eastern subterranean termites are active in Berkeley County's coastal soils. Fire ants colonize residential lawns reliably through the long warm season. Brown marmorated stink bugs have become a fall nuisance as they establish across coastal South Carolina counties.",
+    sections: [
+      {
+        heading: "Termite risk on the Berkeley County coastal plain",
+        body: "Hanahan's residential neighborhoods sit on Berkeley County coastal plain soils that provide favorable conditions for both termite species active in South Carolina. Eastern subterranean termites are present everywhere in the state, but Formosan termites, which Clemson HGIC confirms in Berkeley County, add a second layer of risk for Hanahan properties. The distinction matters because Formosan colonies can cause damage at a pace that outstrips native colonies by a significant margin. For homeowners in Hanahan, the practical response is the same for both species: an active service agreement that includes annual inspection, treatment on discovery, and protection that does not lapse. Bait station networks that intercept foragers before they reach the structure are popular in the Lowcountry because they work without extensive chemical soil treatment and provide year-round monitoring.",
+      },
+      {
+        heading: "Stink bugs: a newer fall pest in Berkeley County",
+        body: "Brown marmorated stink bugs arrived in South Carolina from the Northeast and Mid-Atlantic, where they first established after arriving from Asia in the 1990s. They have now spread broadly across the state, including Berkeley County. Hanahan homeowners report them aggregating on south- and west-facing exterior walls in September and October, seeking overwintering sites in wall voids and attics. They do not feed on household materials or reproduce indoors, but the number that can accumulate and the odor they produce when disturbed or crushed makes them a genuine quality-of-life nuisance from fall through early spring. The most effective control window is late summer: sealing exterior gaps around windows, doors, siding, and utility entries before aggregation begins in September limits how many get inside. Perimeter spray applied in August and September adds a chemical barrier that reduces landing and entry attempts.",
+      },
+    ],
+    prevention: [
+      "Keep termite service agreements current in Berkeley County; dual Formosan and eastern subterranean termite pressure means an inspection lapse can allow damage to begin before the next visit.",
+      "Manage tidal creek drainage margins and eliminate containers, bird baths, and clogged gutters from April through October to reduce Asian tiger mosquito breeding in Hanahan's waterway-adjacent neighborhoods.",
+      "Apply fire ant two-step bait broadcast across the yard in April and September to suppress Berkeley County's persistent fire ant population through the full warm season.",
+      "Seal exterior building gaps in August before stink bug aggregation season to reduce the fall invasion that Berkeley County residents have reported in growing numbers since stink bugs established in coastal SC.",
+    ],
+    costNote:
+      "Termite plans in Hanahan range from $275 to $500 annually for monitoring and re-treatment warranties. Mosquito barrier spray runs $75 to $130 per visit every 21 days during the season. Stink bug exclusion sealing is typically bundled with a fall pest prevention service. Licensed Berkeley County exterminators offer free inspections.",
+    faqs: [
+      {
+        question: "Is Hanahan in the Formosan termite zone?",
+        answer:
+          "Yes. Clemson University Extension and the Clemson Home and Garden Information Center confirm Formosan subterranean termites in Berkeley County's coastal plain, which includes Hanahan. Properties with existing termite damage or conditions favorable to termite nesting, such as wood in contact with soil or moisture-damaged crawl spaces, are at higher risk from the larger Formosan colonies.",
+      },
+      {
+        question: "When do stink bugs become a problem in Hanahan?",
+        answer:
+          "The aggregation period typically runs September through November in Berkeley County, as stink bugs move from agricultural and wooded areas toward building warmth ahead of winter. Once inside wall voids and attics, they can emerge on warm winter days and are difficult to remove completely without exclusion work. The most effective prevention window is late August to early September, before aggregation begins.",
+      },
+      {
+        question: "Do fire ants re-colonize after treatment in Hanahan?",
+        answer:
+          "Yes, fire ants can re-colonize from neighboring properties within four to six weeks after mound-only treatment. The two-step broadcast bait method works on the entire yard population and reduces re-colonization from within the property significantly. Berkeley County's warm climate means fire ant queens remain productive through a long season, so a fall treatment in September is as important as the spring application.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Goose Creek", slug: "goose-creek" },
+      { name: "North Charleston", slug: "north-charleston" },
+      { name: "Summerville", slug: "summerville-sc" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Hanahan, SC | Termites, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Hanahan pest control for Formosan termites, mosquitoes, fire ants and stink bugs. Berkeley County Charleston metro Lowcountry tidal creek specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mauldin",
+    name: "Mauldin",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~25,000",
+    county: "Greenville County",
+    climate: "hot-humid",
+    climateDriver:
+      "Mauldin is a Greenville County suburb in Upstate South Carolina, south of downtown Greenville along the I-385 corridor. The Piedmont climate brings hot, humid summers with significant thunderstorm rainfall, moderate winters that freeze occasionally, and wooded residential corridors along Durbin Creek and the Reedy River tributaries that drain the area. The mix of established wooded lots and newer construction creates a range of pest pressures from structural pests in older homes to fire ants in disturbed soils around new development.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "German Cockroaches",
+      "House Mice",
+      "Red Imported Fire Ants",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round; swarm peaks March through May",
+        note:
+          "Eastern subterranean termites are fully active across Greenville County; Mauldin's established older neighborhoods along the Durbin Creek corridor have housing stock with crawl space foundations that represent the highest local termite risk.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are the primary indoor cockroach pest in Mauldin's residential and commercial properties, established in kitchens, bathroom plumbing, and food service operations throughout the city.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round; peaks September through November",
+        note:
+          "House mice push into Mauldin homes in early fall as temperatures begin to drop; the wooded creek corridors and active construction sites in the developing areas south of Greenville provide both outdoor harborage and structure access opportunities.",
+      },
+      {
+        name: "Red Imported Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Peaks March through November",
+        note:
+          "Fire ants are established throughout Greenville County and colonize Mauldin's newer development areas and residential lawns reliably each spring; the Upstate's warm season is long enough for two complete colony growth cycles per year.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active March through October",
+        note:
+          "Mauldin's wooded Piedmont setting and the mature tree cover in older neighborhoods provide carpenter ant nesting habitat; foragers enter homes through foundation gaps in search of food.",
+      },
+    ],
+    localHook:
+      "Mauldin's position along Durbin Creek in Greenville County's Piedmont terrain means older homes with crawl space foundations sit in active eastern subterranean termite territory, while newer construction along the growing southern corridor regularly disturbs soil that fire ants colonize within weeks.",
+    intro:
+      "Pest control in Mauldin operates across two different landscapes: the established older neighborhoods near the historic city center, where termites and carpenter ants work in structures with decades of potential moisture accumulation, and the fast-growing development corridors along the southern I-385 axis, where fire ants colonize every disturbed soil area within the season. Eastern subterranean termites are active across Greenville County, and Mauldin's crawl space foundations are the highest-risk construction type. German cockroaches and house mice are the consistent year-round indoor pest concerns. The Durbin Creek corridor creates seasonal mosquito habitat.",
+    sections: [
+      {
+        heading: "Termites in Mauldin's crawl space homes",
+        body: "Greenville County is in active eastern subterranean termite territory, and Mauldin's older neighborhoods contain a significant share of housing built on crawl space foundations, which are the construction type most vulnerable to subterranean termite damage. Crawl spaces with poor ventilation, wood debris, or wood-to-soil contact give termites easy access to structural members without passing through visible areas. The first indication of a problem is often a home sale inspection or a visible swarmer inside a room in March or April. By that point, an active colony has typically been present for one to three years. Annual professional inspection under the crawl space, including probe testing of accessible wood, is the most reliable early detection method. Bait station monitoring provides ongoing protection between inspections.",
+      },
+      {
+        heading: "Fire ants and new construction in the I-385 corridor",
+        body: "The southern Mauldin development corridors along the I-385 expansion zone are particularly active fire ant territory because the constant site clearing, grading, and sod installation creates exactly the disturbed soil conditions that fire ants colonize fastest. Fire ant queens are dispersed on mating flights and land on disturbed, open soil; new lawns installed in spring can have fire ant mounds appearing within four to six weeks. The Greenville County Cooperative Extension recommends the two-step approach: broadcast slow-acting bait across the full yard to suppress the entire population, then spot-treat active mounds with a fast-acting contact product. Applied in April and again in September, this provides season-long suppression through Mauldin's warm Upstate climate.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection for crawl space homes in Mauldin; eastern subterranean termites are fully active in Greenville County and crawl space construction is the highest-risk foundation type.",
+      "Apply fire ant two-step broadcast bait in April and September across the full yard, not just visible mounds, to suppress the colony population through the warm Upstate season.",
+      "Keep food stored in sealed containers and address moisture under sinks and in bathrooms to reduce the conditions that sustain German cockroach populations in residential kitchens.",
+      "Seal foundation gaps and utility penetrations in early fall before the September house mouse push, particularly in homes adjacent to Durbin Creek and the wooded corridors.",
+    ],
+    costNote:
+      "Termite bait station programs in Mauldin typically run $800 to $1,500 for installation with annual monitoring fees of $250 to $400. German cockroach treatment uses gel bait programs with follow-up visits. Mouse exclusion and trapping programs are quoted after inspection. Fire ant two-step treatment averages $90 to $160 per seasonal application. Free inspections available from licensed Greenville County exterminators.",
+    faqs: [
+      {
+        question: "How do I know if my Mauldin crawl space has termites?",
+        answer:
+          "The most reliable detection is a professional crawl space inspection with probe testing of accessible wood members. Signs you can look for yourself include mud tubes along foundation walls inside the crawl space, spring swarmers emerging from the structure in March or April, and wood that sounds hollow when tapped or crumbles when probed. Crawl space homes in Greenville County should be inspected annually given that eastern subterranean termites are fully active in this climate.",
+      },
+      {
+        question: "Why are fire ants particularly bad in the newer parts of Mauldin?",
+        answer:
+          "Fire ants colonize disturbed, open soil faster than established turf. The active construction and development along the I-385 corridor creates a continuous cycle of newly graded soil that fire ant queens target on mating flights. New lawns installed in these areas can have established fire ant mounds within four to six weeks of sod installation. The two-step treatment method applied to the full yard gives better results than treating individual mounds in high-colonization-pressure areas like active development zones.",
+      },
+      {
+        question: "Are carpenter ants a structural concern in Mauldin?",
+        answer:
+          "Carpenter ants in Mauldin can be a structural concern if they establish satellite colonies inside the structure in moisture-damaged wood. The eastern black carpenter ant is the primary species in Greenville County's Piedmont terrain. Finding sawdust-like frass near window frames, roof edges, or wall voids in spring or summer, or seeing workers consistently in the same interior locations, warrants a professional inspection to locate the nest site and the moisture source driving it.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Greenville", slug: "greenville" },
+      { name: "Simpsonville", slug: "simpsonville-sc" },
+      { name: "Greer", slug: "greer-sc" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Mauldin, SC | Termites, Fire Ants & German Cockroaches",
+    metaDescription:
+      "Mauldin pest control for eastern termites, German cockroaches, fire ants and house mice. Greenville County Upstate South Carolina I-385 corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "conway-sc",
+    name: "Conway",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~23,000",
+    county: "Horry County",
+    climate: "hot-humid",
+    climateDriver:
+      "Conway is the Horry County seat, situated inland from Myrtle Beach along the Waccamaw River in the South Carolina coastal plain. The Waccamaw's bottomland hardwood swamps and the Black River drainage create dense mosquito habitat that makes Conway one of the more challenging mosquito environments in the state. The hot, humid coastal plain climate sustains year-round termite activity and provides conditions favorable to fire ants, American cockroaches, and the palmetto bug populations common throughout Horry County.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Red Imported Fire Ants",
+      "American Cockroaches",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round; swarm peaks March through May",
+        note:
+          "Eastern subterranean termites are active year-round in Horry County's coastal plain soils; Conway's older wood-frame structures along the Waccamaw River represent the highest-risk properties in the city.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peaks April through October",
+        note:
+          "The Waccamaw River bottomland swamps and Black River drainage adjacent to Conway create extensive mosquito breeding habitat that drives a longer and more intense mosquito season than most inland South Carolina communities.",
+      },
+      {
+        name: "Red Imported Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Peaks March through November",
+        note:
+          "Fire ants are firmly established throughout Horry County, colonizing Conway's residential yards, public spaces, and new construction sites through the long South Carolina warm season.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round; peak activity summer",
+        note:
+          "American cockroaches, called palmetto bugs in South Carolina, are a consistent presence in Conway's sewer system infrastructure and below-grade building spaces; they enter structures through drain openings and crawl space vents.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are established in Conway's food service operations, apartment buildings, and residential kitchens; the university community at Coastal Carolina University nearby sustains ongoing introduction.",
+      },
+    ],
+    localHook:
+      "Conway's location along the Waccamaw River, with its extensive bottomland hardwood swamps and Black River drainage, creates mosquito breeding habitat that drives one of the most persistent mosquito seasons of any inland South Carolina community.",
+    intro:
+      "Conway is the county seat of Horry County and the center of the Grand Strand region's administrative and commercial life. It sits along the Waccamaw River, and that geography defines the pest calendar more than anything else. The river's bottomland swamps and the Black River drainage make Conway's mosquito season long and intense from April through October. Eastern subterranean termites are active year-round in Horry County's coastal soils. Fire ants are established throughout the county. American cockroaches work through the storm drain and sewer infrastructure, particularly in the older downtown. And the university community at nearby Coastal Carolina sustains cockroach pressure in apartment buildings and food service operations.",
+    sections: [
+      {
+        heading: "Waccamaw River bottomlands and mosquito season",
+        body: "The Waccamaw River runs along Conway's western edge, and the bottomland hardwood swamps it feeds create mosquito breeding habitat at a scale that keeps the season intense from April through October. This is not just seasonal flooding: the Waccamaw bottomlands maintain standing water in low-lying areas through most of the warm season, providing continuous breeding. Conway residents in neighborhoods adjacent to the river corridor or the Black River drainage report mosquito pressure that is heavier than the coast itself, where ocean breezes provide some relief. For residential properties, barrier spray applied to resting vegetation every 21 days is the most effective population management tool, combined with source reduction targeting standing water on the property itself. Horry County's Mosquito Control program addresses public drainage areas, but private property management is the homeowner's responsibility.",
+      },
+      {
+        heading: "Termites and older construction in the Waccamaw corridor",
+        body: "Conway's older neighborhoods along the Waccamaw River contain wood-frame construction that represents the highest termite risk in the city. Eastern subterranean termites are active year-round in Horry County's coastal plain soils, and wood structures in the flood-adjacent areas often have moisture conditions that accelerate termite damage once a colony is established. Crawl space foundations in the historic downtown and the river-adjacent residential areas are particularly worth inspecting annually. Termite swarms in Conway typically run from February through May, with peak activity in March and April. Finding winged termites emerging from walls or floors is a reliable sign of an established colony nearby. Professional bait station monitoring programs detect activity between swarm events and provide a documented inspection record.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection for Horry County properties, particularly older wood-frame structures along the Waccamaw River corridor where moisture conditions accelerate termite damage.",
+      "Eliminate standing water on residential properties from April through October; the Waccamaw bottomlands provide abundant public breeding habitat, so reducing on-property sources is the most effective private action.",
+      "Apply fire ant two-step broadcast bait in spring and fall across the full yard to suppress Horry County's persistent fire ant population through the long South Carolina warm season.",
+      "Address drain line gaps and crawl space vent openings to reduce the below-grade access routes that American cockroaches use to enter Conway's older downtown and river-adjacent buildings.",
+    ],
+    costNote:
+      "Termite monitoring contracts in Conway run $250 to $430 per year for bait station networks. Mosquito barrier spray averages $75 to $125 per 21-day treatment during the April to October season. Fire ant two-step treatment is seasonal. American cockroach perimeter treatment for older downtown buildings starts at $110 per visit. Free inspections available from licensed Horry County technicians.",
+    faqs: [
+      {
+        question: "Why are mosquitoes so bad in Conway compared to Myrtle Beach?",
+        answer:
+          "Conway is further from the coast and sits directly along the Waccamaw River bottomlands and Black River drainage, which create far more standing water breeding habitat than the beach area. The ocean breezes that provide some relief at Myrtle Beach do not reach Conway. The bottomland swamps maintain standing water through most of the warm season, providing continuous breeding rather than the more intermittent breeding that comes from rain-dependent standing water.",
+      },
+      {
+        question: "Is the older downtown area of Conway high risk for termites?",
+        answer:
+          "The older wood-frame structures in Conway's historic downtown and the river-adjacent residential areas are among the higher-risk properties in the city because they combine Horry County's year-round active termite climate with construction characteristics typical of older buildings: crawl space foundations, wood sill plates in contact with older concrete, and accumulated moisture from decades of use. Annual inspection is particularly important for these properties.",
+      },
+      {
+        question: "Are American cockroaches the same as palmetto bugs in Conway?",
+        answer:
+          "Yes. Palmetto bug is the common South Carolina term for American cockroaches. They are larger and reddish-brown, and they live primarily in below-grade spaces: crawl spaces, storm drains, sewer lines, and basement mechanical rooms. They enter structures through floor drain gaps and crawl space vents rather than being established kitchen pests like German cockroaches. In Conway's older infrastructure, the storm drain and sewer connections are common entry routes.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Myrtle Beach", slug: "myrtle-beach" },
+      { name: "Surfside Beach", slug: "summerville-sc" },
+      { name: "Florence", slug: "florence" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Conway, SC | Mosquitoes, Termites & Fire Ants",
+    metaDescription:
+      "Conway pest control for mosquitoes, eastern termites, fire ants and American cockroaches. Horry County Waccamaw River Myrtle Beach metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  // Chunk 56 additions
+  {
+    slug: "simpsonville-sc",
+    name: "Simpsonville",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~24,000",
+    county: "Greenville County",
+    climate: "hot-humid",
+    climateDriver:
+      "Simpsonville is one of Greenville County's fastest-growing suburban cities, southeast of downtown Greenville in the Piedmont region. The Upstate climate brings hot, humid summers, moderate winters with occasional freezes, and the wooded creek corridors of Gilder Creek and Sikes Branch that cross the developing southern edge of the city. The mix of established older neighborhoods near the historic downtown and rapidly expanding new construction along the SC-14 and I-385 corridors creates two distinct pest environments within a single city.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "German Cockroaches",
+      "Mosquitoes",
+      "Red Imported Fire Ants",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round; swarm peaks March through May",
+        note:
+          "Eastern subterranean termites are active across all of Greenville County including Simpsonville; the city's older neighborhoods near the historic downtown have crawl space construction that represents the primary local termite risk.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are the primary indoor cockroach concern in Simpsonville's residential and commercial properties; they establish in kitchen plumbing, bathrooms, and food service operations throughout the growing city.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peaks May through September",
+        note:
+          "Gilder Creek, Sikes Branch, and the retention ponds in Simpsonville's newer subdivisions create seasonal mosquito breeding habitat through the warm months; Asian tiger mosquitoes bite during the day in shaded yard areas.",
+      },
+      {
+        name: "Red Imported Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Peaks March through November",
+        note:
+          "Fire ants colonize Simpsonville's new construction sites and residential lawns rapidly through the growing season; Greenville County's Piedmont climate supports persistent fire ant activity through a long annual season.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round; peaks September through November",
+        note:
+          "House mice push into Simpsonville homes from the adjacent wooded creek corridors in early fall; the rapid residential development in the city's southern expansion areas creates entry-point gaps in new construction.",
+      },
+    ],
+    localHook:
+      "Simpsonville's rapid growth along the I-385 corridor has made it one of Greenville County's largest cities in two decades, and that pace of construction creates a persistent fire ant colonization cycle as every new development site provides open soil for queens to establish.",
+    intro:
+      "Simpsonville has grown from a small Upstate South Carolina town into a significant Greenville County city, and that growth has happened fast enough that the pest landscape changes block by block. Established older neighborhoods deal primarily with eastern subterranean termites in aging crawl space foundations and the carpenter ant activity common to wooded Piedmont settings. The newer developments along the SC-14 and I-385 corridors produce fire ant colonization with each new grading cycle. German cockroaches and house mice are the year-round indoor concerns. The creek corridors threading through the developing southern areas create seasonal mosquito habitat from May through September.",
+    sections: [
+      {
+        heading: "Eastern termites in Simpsonville's established neighborhoods",
+        body: "Simpsonville's historic neighborhoods near the downtown core and the residential areas along the SC-14 corridor contain a substantial share of older crawl space construction, the foundation type with the highest termite exposure risk in the Carolinas. Eastern subterranean termites are active year-round in Greenville County, and crawl spaces without adequate ventilation, with wood debris, or with any wood-to-soil contact give termites access to structural members without passing through visible areas. The spring swarmer season from March through May is the most visible sign of activity, but an established colony has typically been present for one to three years before swarmers appear. Annual professional inspection under the crawl space, including probe testing of accessible sill plates and floor joists, is the most reliable detection method for Simpsonville's older housing stock.",
+      },
+      {
+        heading: "Fire ants and Simpsonville's development pace",
+        body: "Simpsonville's position as one of the Upstate's fastest-growing cities means a constant cycle of site clearing, grading, and sod installation across the southern expansion area. This cycle is ideal for fire ants: they colonize open, disturbed soil faster than any other ant species and establish new mounds within weeks of grading. Fire ant queens dispersed on mating flights in spring seek out exactly this kind of fresh soil. For new homeowners in Simpsonville's developing areas, the expectation should be fire ant activity in the first lawn season regardless of how recently sod was installed. The two-step approach, broadcast bait across the entire yard followed by targeted mound treatment, suppresses the full yard population rather than just the visible mounds that represent a fraction of total colony activity.",
+      },
+    ],
+    prevention: [
+      "Inspect crawl space foundations in Simpsonville's older neighborhoods annually for eastern subterranean termite mud tubes, wood-to-soil contact, and moisture accumulation that creates favorable termite conditions.",
+      "Apply fire ant two-step broadcast bait in April and September to suppress Greenville County's persistent fire ant population, particularly in new construction areas where colonization pressure is highest.",
+      "Clear standing water from retention ponds, gutters, and yard containers from May through September to reduce mosquito breeding in Simpsonville's creek-adjacent developing areas.",
+      "Seal foundation gaps and exterior door sills in early fall to limit house mouse entry from the creek corridors and wooded areas bordering new development.",
+    ],
+    costNote:
+      "Termite monitoring programs in Simpsonville typically run $250 to $400 annually with bait station networks. Fire ant two-step treatment is $90 to $160 per application in spring and fall. Mosquito barrier spray averages $75 to $125 per 21-day treatment. German cockroach treatment uses gel bait with scheduled follow-up visits. Free inspections provided by licensed Greenville County technicians.",
+    faqs: [
+      {
+        question: "Does Simpsonville have Formosan termites?",
+        answer:
+          "Formosan subterranean termites have been confirmed in coastal South Carolina counties but are not established in Upstate Greenville County at the levels seen in Berkeley, Dorchester, and Charleston Counties. Eastern subterranean termites are the primary termite pressure across Simpsonville and all of Greenville County. Annual inspection for eastern subterranean termites is still the appropriate standard for any property in the county.",
+      },
+      {
+        question: "Why do new homes in Simpsonville get fire ants so quickly?",
+        answer:
+          "Fire ant queens on mating flights land preferentially on open, disturbed soil, which is exactly what new construction and freshly installed lawns represent. Simpsonville's rapid development pace means a continuous supply of newly graded sites that fire ant queens target. New lawns in active development areas can have visible fire ant mounds within four to six weeks of sod installation even on a perfectly installed lawn.",
+      },
+      {
+        question: "When does mosquito season peak in Simpsonville?",
+        answer:
+          "Mosquito activity in Simpsonville peaks from June through August, with meaningful pressure from May through September. The creek corridors in the developing southern areas and the retention ponds in newer subdivisions create breeding habitat that is more abundant than in fully built-out suburban environments. Asian tiger mosquitoes, which bite during the day in shaded vegetation, are established throughout Greenville County.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Greenville", slug: "greenville" },
+      { name: "Mauldin", slug: "mauldin" },
+      { name: "Fountain Inn", slug: "fountain-inn-sc" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Simpsonville, SC | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Simpsonville pest control for eastern termites, fire ants, German cockroaches and mosquitoes. Greenville County Upstate South Carolina Piedmont specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lexington-sc",
+    name: "Lexington",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~22,000",
+    county: "Lexington County",
+    climate: "hot-humid",
+    climateDriver:
+      "Lexington is the seat of Lexington County in South Carolina's Midlands region, about 12 miles west of Columbia along the Saluda River. Lake Murray, formed by the Saluda River dam just west of Lexington, is the defining geographic feature for pest pressure: its extensive shoreline and water-adjacent vegetation create some of the most productive mosquito breeding habitat in the central part of the state. The Midlands climate is hot and humid in summer with mild winters, and eastern subterranean termites are active year-round across Lexington County.",
+    topPests: [
+      "Mosquitoes",
+      "Eastern Subterranean Termites",
+      "Red Imported Fire Ants",
+      "German Cockroaches",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peaks April through October",
+        note:
+          "Lake Murray's extensive shoreline, coves, and water-adjacent vegetation make the Lexington area one of the higher-intensity mosquito zones in the South Carolina Midlands; Asian tiger mosquitoes add daytime biting pressure throughout residential neighborhoods near the lake.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round; swarm peaks March through May",
+        note:
+          "Eastern subterranean termites are active year-round across Lexington County; lake-adjacent properties with moisture from the Saluda River corridor and older construction near the town center carry the highest local termite risk.",
+      },
+      {
+        name: "Red Imported Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Peaks March through November",
+        note:
+          "Fire ants are fully established throughout Lexington County and present in all residential areas of the town; the lakefront properties and open spaces adjacent to Lake Murray see particularly persistent colonization.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are established in Lexington's food service operations and residential buildings; the town's growth as a Columbia suburb has brought a density of restaurants and multi-family housing that sustains ongoing cockroach populations.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round; peak activity summer",
+        note:
+          "American cockroaches enter Lexington structures through below-grade infrastructure; the Saluda River corridor and Lexington County's warm, humid climate provide the conditions they need to remain active outdoors year-round.",
+      },
+    ],
+    localHook:
+      "Lake Murray's 650-mile shoreline and its extensive coves and water-adjacent vegetation create a mosquito breeding environment that makes Lexington one of the higher-intensity mosquito communities in South Carolina's Midlands region.",
+    intro:
+      "Lexington's identity is inseparable from Lake Murray, and so is its mosquito season. The lake's 650-mile shoreline, coves, and water-adjacent vegetation provide breeding habitat that sustains one of the more intense mosquito seasons of any Midlands community from April through October. Eastern subterranean termites are active year-round across Lexington County, with properties near the Saluda River corridor carrying additional risk from moisture. Fire ants are established throughout the county. The town's growth as a Columbia suburb has brought food service operations and multi-family housing that sustain German cockroach populations.",
+    sections: [
+      {
+        heading: "Lake Murray mosquitoes: the shoreline as breeding habitat",
+        body: "Lake Murray is South Carolina's largest reservoir and a major recreation destination, but its shoreline is also among the most productive mosquito breeding environments in the Midlands. The lake's coves, shallow water margins, and the vegetation along water-adjacent residential properties create standing water breeding opportunities that persist through the entire warm season from April through October. Properties within a half-mile of the shoreline experience the heaviest mosquito pressure because adult mosquitoes dispersing from lake-edge breeding sites reach residential yards in significant numbers. The South Carolina Department of Health and Environmental Control tracks mosquito-borne arbovirus risk, including La Crosse encephalitis and West Nile virus, across the state. Lexington County residents near the lake who want meaningful relief from the season should consider professional barrier spray programs that target resting vegetation on 21-day cycles combined with source reduction on the residential property.",
+      },
+      {
+        heading: "Termites in Lexington County's Midlands climate",
+        body: "Lexington County's position in the South Carolina Midlands places it in active eastern subterranean termite territory, and the town of Lexington's position along the Saluda River adds moisture factors that accelerate termite activity near the water corridor. Eastern subterranean termites build underground foraging networks that can extend hundreds of feet from the colony, and they are active year-round in the Midlands climate. Properties near the lakefront and along the Saluda River corridor often have soil moisture levels that support larger and more active foraging networks than drier inland properties. Annual inspection is the standard approach across all of Lexington County; properties with crawl space foundations or any wood-to-soil contact are the highest-priority candidates for ongoing monitoring programs.",
+      },
+    ],
+    prevention: [
+      "For Lake Murray-adjacent properties in Lexington, barrier spray programs on 21-day cycles during the April to October season are the most effective way to manage mosquito populations from the shoreline breeding environment.",
+      "Maintain an active termite monitoring program for Lexington County properties; eastern subterranean termites are active year-round and properties near the Saluda River corridor carry additional moisture-related risk.",
+      "Apply fire ant broadcast bait in April and September to suppress the full yard population rather than individual mounds, which does not address the foragers and satellite colonies spread across the property.",
+      "Address kitchen moisture, leaking plumbing, and food storage to limit the conditions that sustain German cockroach populations in Lexington's growing restaurant and multi-family housing sector.",
+    ],
+    costNote:
+      "Mosquito barrier spray programs in Lexington run $75 to $130 per 21-day treatment from April through October. Termite monitoring contracts are $250 to $420 annually for bait station networks. Fire ant two-step treatment is $90 to $160 per application. Licensed Lexington County pest technicians provide free inspections.",
+    faqs: [
+      {
+        question: "Are mosquitoes worse near Lake Murray than in other parts of Lexington County?",
+        answer:
+          "Yes, meaningfully so. The lake's 650-mile shoreline, shallow cove margins, and water-adjacent vegetation create breeding habitat on a scale that properties further from the lake do not experience. Adult mosquitoes dispersing from shoreline breeding sites can travel several hundred yards, reaching neighborhoods within a half-mile of the water. Properties directly on or adjacent to the shoreline see the highest pressure.",
+      },
+      {
+        question: "Does the Saluda River increase termite risk in Lexington?",
+        answer:
+          "The Saluda River corridor and Lake Murray shoreline add moisture to soils in the adjacent neighborhoods, and subterranean termites are more active in consistently moist soil because their underground tunneling networks extend further and colonies can support larger forager populations. Properties along the river corridor are worth prioritizing for annual termite inspection.",
+      },
+      {
+        question: "How quickly do fire ants come back after treatment in Lexington?",
+        answer:
+          "With mound-only treatment, fire ants can re-establish from neighboring properties within four to eight weeks. The two-step broadcast bait method suppresses the entire yard population, reducing re-colonization pressure from within the property. Lexington County's warm climate supports fire ant activity from March through November, so both spring and fall applications give the most complete seasonal protection.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Columbia", slug: "columbia" },
+      { name: "Cayce", slug: "cayce-sc" },
+      { name: "Irmo", slug: "irmo-sc" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Lexington, SC | Mosquitoes, Termites & Fire Ants",
+    metaDescription:
+      "Lexington pest control for mosquitoes, eastern termites and fire ants near Lake Murray. Lexington County Midlands South Carolina Columbia metro specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bluffton-sc",
+    name: "Bluffton",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~28,000",
+    county: "Beaufort County",
+    climate: "hot-humid",
+    climateDriver:
+      "Bluffton occupies a peninsula formed by the May River and the New River in Beaufort County's coastal Lowcountry, just a few miles inland from Hilton Head Island. The tidal salt marsh environment is one of the most productive ecosystems in the South Atlantic, and it is also one of the most productive mosquito environments in South Carolina. Formosan subterranean termites are established in Beaufort County's coastal plain, and Bluffton's rapid growth from a small historic district into one of the state's fastest-growing communities has placed thousands of new structures in active Formosan and eastern termite territory.",
+    topPests: [
+      "Formosan Subterranean Termites",
+      "Mosquitoes",
+      "Eastern Subterranean Termites",
+      "Red Imported Fire Ants",
+      "No-See-Ums",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Peaks April through June; active most of year",
+        note:
+          "Beaufort County's coastal plain soils fall within the documented Formosan subterranean termite range per Clemson HGIC; Bluffton's rapid residential development has placed substantial new construction in confirmed Formosan territory.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peaks April through October; year-round in warm winters",
+        note:
+          "The May River and New River salt marshes create extensive tidal breeding habitat; Bluffton's mosquito season is among the longest and most intense in the Lowcountry, starting earlier in spring and lasting later into fall than inland communities.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round; swarm peaks February through April",
+        note:
+          "Eastern subterranean termites are active year-round in Beaufort County and are established at every Bluffton residential property; they coexist with Formosan termites across the coastal plain.",
+      },
+      {
+        name: "Red Imported Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Peaks March through November",
+        note:
+          "Fire ants are endemic to Bluffton's coastal plain setting; the rapid development has created a continuous cycle of new sites for fire ant colonization through the construction zones across the Bluffton Township.",
+      },
+      {
+        name: "No-See-Ums",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November; peaks spring and fall",
+        note:
+          "Biting midges, called no-see-ums, are a significant secondary pest in Bluffton's salt marsh environment; they are tiny enough to pass through standard window screens and bite in large numbers near tidal waterways.",
+      },
+    ],
+    localHook:
+      "Bluffton's peninsula position between the May River and New River salt marshes creates one of the longest and most intense mosquito seasons in South Carolina, combined with confirmed Formosan subterranean termite presence in Beaufort County's coastal soils.",
+    intro:
+      "Bluffton's growth from a historic Lowcountry village into one of South Carolina's fastest-developing communities has brought hundreds of thousands of residents into one of the most challenging pest environments in the state. The salt marshes of the May River and New River create a mosquito and no-see-um season that extends from spring through fall and, in mild winters, into December. Formosan subterranean termites are confirmed in Beaufort County, adding to the native eastern termite pressure that is active year-round across the coastal plain. Fire ants colonize every new construction site across the expanding Bluffton Township.",
+    sections: [
+      {
+        heading: "Salt marsh mosquitoes and no-see-ums in coastal Bluffton",
+        body: "The tidal salt marshes of the May River and New River that border Bluffton's peninsula are among the most productive mosquito and no-see-um breeding environments in the eastern United States. Brackish marsh conditions support salt marsh mosquitoes (Aedes taeniorhynchus and related species) that are among the most aggressive biters in the Lowcountry. These species can travel several miles from breeding sites, meaning even properties several miles from the marsh edge experience meaningful pressure. No-see-ums (biting midges, primarily Culicoides spp.) add a secondary nuisance that is particularly acute near tidal waterways; their small size allows them to pass through standard window screening, and they bite in swarms near the water at dawn and dusk. Professional barrier spray programs address adult mosquito and midge populations in residential vegetation but do not control tidal breeding areas. Source reduction on the residential property, eliminating any fresh water containers and addressing drainage, helps with the non-tidal mosquito species that breed on the property itself.",
+      },
+      {
+        heading: "Termite protection in rapid-growth Bluffton",
+        body: "Bluffton's rapid development over the past two decades has placed large numbers of new structures in Beaufort County's active termite zone. Both Formosan and eastern subterranean termites are present, and the construction pace means the soil disturbance from site clearing and grading can disrupt existing termite colonies, which then relocate and may find new structures as harborage. New construction in Beaufort County is typically pre-treated with soil termiticide during the building process, but that protection degrades over time, and maintaining a termite monitoring and warranty contract is the appropriate long-term approach. For homes already in place, the Bluffton market has significant capacity for bait station programs, which are particularly popular in the Lowcountry because they provide monitoring year-round without chemical re-treatment at each annual visit.",
+      },
+    ],
+    prevention: [
+      "Maintain an active Beaufort County termite service agreement; dual Formosan and eastern termite pressure in coastal Bluffton makes a lapse in coverage a meaningful structural risk.",
+      "Use no-see-um-rated mesh screens where possible and consider professional barrier treatment focused on vegetation margins near tidal waterways to reduce the biting midge and mosquito pressure in Bluffton's salt marsh environment.",
+      "Apply fire ant two-step treatment in spring and fall across residential lawns in Bluffton's active development areas where colonization pressure is highest.",
+      "For new construction in Bluffton Township, confirm with the builder that soil pre-treatment was applied and begin a termite monitoring program before the pre-treatment warranty expires.",
+    ],
+    costNote:
+      "Termite protection in Bluffton runs $300 to $500 annually for bait station monitoring programs in Beaufort County's coastal termite zone. Mosquito barrier spray averages $80 to $140 per 21-day treatment. No-see-um pressure near tidal waterways is partially addressed by barrier programs but is difficult to eliminate. Licensed Beaufort County technicians offer free inspections for both termites and general pest concerns.",
+    faqs: [
+      {
+        question: "Why are no-see-ums so bad near the May River in Bluffton?",
+        answer:
+          "Biting midges (no-see-ums) breed in the wet organic substrate of tidal salt marshes and mudflats, which is exactly the habitat that borders Bluffton on the May River and New River sides of the peninsula. They are most active at dawn and dusk near tidal waterways and can travel short distances from breeding sites. Their small size allows them to pass through standard window screening, which is what makes them particularly frustrating in waterfront and near-waterfront settings.",
+      },
+      {
+        question: "Are Formosan termites present in all of Bluffton or just certain areas?",
+        answer:
+          "Clemson University Extension documents Formosan subterranean termites across Beaufort County's coastal plain, which means all of Bluffton is within the established range. The Lowcountry coastal plain soils provide favorable conditions for Formosan colony establishment throughout the community. The risk is not confined to any particular neighborhood; all Beaufort County properties in the coastal plain should operate under the assumption that both Formosan and eastern species are present.",
+      },
+      {
+        question: "Should new construction in Bluffton have termite protection?",
+        answer:
+          "Yes. New construction in Beaufort County is typically pre-treated with soil termiticide, and Bluffton's confirmed Formosan termite zone makes that pre-treatment a practical necessity. The soil treatment degrades over time, so establishing a termite monitoring contract before the initial pre-treatment warranty expires ensures continuous protection. In an active termite environment like Beaufort County's coastal plain, a gap in coverage carries real structural risk.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Hilton Head Island", slug: "hilton-head-sc" },
+      { name: "Beaufort", slug: "beaufort-sc" },
+      { name: "Summerville", slug: "summerville-sc" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Bluffton, SC | Formosan Termites, Mosquitoes & No-See-Ums",
+    metaDescription:
+      "Bluffton pest control for Formosan termites, salt marsh mosquitoes, no-see-ums and fire ants. Beaufort County May River Lowcountry specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "orangeburg",
+    name: "Orangeburg",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~16,000",
+    county: "Orangeburg County",
+    climate: "hot-humid",
+    climateDriver:
+      "Orangeburg is the seat of Orangeburg County in the South Carolina Midlands, situated between Columbia and Charleston in the coastal plain region. The Edisto River watershed drains much of Orangeburg County, and the Edisto's bottomland hardwoods and the Four Holes Swamp drainage to the southeast create persistent mosquito habitat through the long warm season. The coastal plain climate is hot, humid, and wet in summer, with mild winters that maintain year-round subterranean termite activity.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Red Imported Fire Ants",
+      "German Cockroaches",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round; swarm peaks March through May",
+        note:
+          "Eastern subterranean termites are active year-round in Orangeburg County's coastal plain soils; the city's older housing stock and the wood-frame construction near the Claflin University and South Carolina State University campuses carry the highest local termite risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Peaks April through October",
+        note:
+          "The Edisto River bottomlands and the Four Holes Swamp drainage in Orangeburg County create mosquito breeding habitat at a scale that makes Orangeburg's season intense compared to many South Carolina Midlands communities.",
+      },
+      {
+        name: "Red Imported Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Peaks March through November",
+        note:
+          "Fire ants are established throughout Orangeburg County and are present in all residential yards, public spaces, and agricultural edge areas in the city.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are the primary indoor cockroach pest in Orangeburg's university community, restaurant sector, and multi-family residential buildings.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round; peak activity summer",
+        note:
+          "American cockroaches work through storm drain infrastructure and crawl spaces in Orangeburg's older downtown buildings; they are a consistent nuisance in the historic commercial district.",
+      },
+    ],
+    localHook:
+      "Orangeburg County's position within the Edisto River watershed places the city adjacent to the Four Holes Swamp drainage, one of the largest remaining intact bottomland hardwood swamp systems in South Carolina and a significant mosquito production area.",
+    intro:
+      "Orangeburg is a historic Midlands South Carolina city with two university campuses and a location that puts it squarely in the pest conditions of the coastal plain. Eastern subterranean termites are active year-round in Orangeburg County, and the city's older residential and commercial construction includes a significant share of wood-frame buildings with crawl space foundations. The Edisto River watershed and the Four Holes Swamp drainage to the southeast create mosquito habitat that sustains one of the more intense mosquito seasons in the Midlands. Fire ants are established throughout the county. German cockroaches are a consistent concern in the university-area food service and residential sectors.",
+    sections: [
+      {
+        heading: "Termites in Orangeburg's older building stock",
+        body: "Orangeburg's historic city center and the residential neighborhoods surrounding Claflin University and South Carolina State University contain older wood-frame construction that represents the highest local termite risk. Eastern subterranean termites in Orangeburg County's coastal plain soils are active year-round, and the combination of aging foundations, potential moisture accumulation in older crawl spaces, and proximity to the soil gives termites multiple access opportunities. The spring swarmer season from February through May is the most visible indicator of colony activity, but established colonies are typically one to three years old before swarmers appear. Annual inspection is the minimum standard for older Orangeburg properties, and bait station programs provide year-round monitoring and early detection between inspection visits.",
+      },
+      {
+        heading: "Mosquito habitat in the Edisto corridor",
+        body: "The Edisto River watershed drains Orangeburg County from the northwest, and the Four Holes Swamp drainage to the southeast creates mosquito breeding conditions that are more persistent than many comparable-sized Midlands cities. Both corridors sustain standing water in bottomland hardwood areas through much of the warm season from April through October. Orangeburg residents in neighborhoods adjacent to these drainages experience mosquito pressure that extends beyond what resident retention ponds and yard containers would produce on their own. Horry County Mosquito Control programs address public drainage areas in some counties, but Orangeburg County residential management is primarily the homeowner's responsibility. Barrier spray programs targeting resting vegetation on residential properties, combined with source reduction of standing water containers, gutters, and yard drainage, provide meaningful relief through the season.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspection for Orangeburg County properties, particularly older crawl space structures in the historic residential and university-area neighborhoods.",
+      "Manage standing water on residential properties from April through October to reduce the mosquito breeding that the Edisto River and Four Holes Swamp drainage amplifies in surrounding neighborhoods.",
+      "Apply fire ant two-step bait in spring and fall to suppress the full yard population rather than individual mounds.",
+      "Seal floor drain openings and crawl space access points in older Orangeburg downtown buildings to reduce American cockroach entry from below-grade infrastructure.",
+    ],
+    costNote:
+      "Termite programs in Orangeburg run $240 to $400 annually for bait station monitoring with re-treatment warranties. Mosquito barrier spray averages $70 to $120 per 21-day treatment from April through October. Fire ant treatment is $85 to $150 per seasonal application. Licensed Orangeburg County exterminators provide free inspections.",
+    faqs: [
+      {
+        question: "Is Orangeburg County active termite territory?",
+        answer:
+          "Yes. All of South Carolina is active eastern subterranean termite territory, and Orangeburg County's coastal plain soils and warm climate mean termites are active year-round. Older wood-frame construction in the city center and university-area neighborhoods with crawl space foundations represents the highest local risk and should be inspected annually.",
+      },
+      {
+        question: "Why are mosquitoes intense in Orangeburg given it is an inland city?",
+        answer:
+          "Orangeburg's position within the Edisto River watershed and the proximity to Four Holes Swamp to the southeast creates more standing water breeding habitat than most inland South Carolina cities of similar size. The bottomland hardwood areas along these drainages sustain mosquito populations through most of the warm season, contributing to residential pressure beyond what on-property sources alone would produce.",
+      },
+      {
+        question: "Are fire ants dangerous in Orangeburg?",
+        answer:
+          "Red imported fire ants can sting repeatedly and are a medical concern for people with ant venom allergies. For most people, stings cause intense burning and welts that resolve within hours to days. In Orangeburg's warm climate, fire ant colonies are active and expanding from March through November. The two-step broadcast treatment method suppresses the yard population significantly; treating only visible mounds leaves the majority of colony activity unaddressed.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Columbia", slug: "columbia" },
+      { name: "Sumter", slug: "sumter" },
+      { name: "Charleston", slug: "charleston" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Orangeburg, SC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Orangeburg pest control for eastern termites, mosquitoes and fire ants. Orangeburg County Midlands South Carolina Edisto River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "beaufort-sc",
+    name: "Beaufort",
+    state: "South Carolina",
+    stateSlug: "south-carolina",
+    stateAbbr: "SC",
+    tier: "T3",
+    population: "~14,000",
+    county: "Beaufort County",
+    climate: "hot-humid",
+    climateDriver:
+      "Beaufort is the county seat of Beaufort County, one of the oldest cities in South Carolina, set among the sea islands and tidal waterways of the Port Royal Sound. The coastal Lowcountry environment, with its salt marsh, tidal creeks, and sea island terrain, creates both one of the most biodiverse ecosystems in the Southeast and one of the most challenging pest environments. Formosan subterranean termites are confirmed in Beaufort County, and the city's historic wood-frame architecture has been exposed to their pressure for decades. Salt marsh mosquitoes and biting midges are intense through a long season.",
+    topPests: [
+      "Formosan Subterranean Termites",
+      "Salt Marsh Mosquitoes",
+      "Eastern Subterranean Termites",
+      "No-See-Ums",
+      "Red Imported Fire Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Formosan Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Peaks April through June; active most of year",
+        note:
+          "Beaufort County is in the established Formosan subterranean termite range per Clemson HGIC; the city's historic wood-frame structures on the original Point neighborhood have had decades of potential Formosan exposure.",
+      },
+      {
+        name: "Salt Marsh Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November; most intense June through September",
+        note:
+          "Port Royal Sound's salt marshes, tidal creeks, and sea island terrain produce salt marsh mosquitoes that are among the most numerous and aggressive in South Carolina; the Beaufort area's proximity to extensive tidal marsh makes its season longer than most Lowcountry cities.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round; swarm peaks February through April",
+        note:
+          "Eastern subterranean termites are active year-round across all of Beaufort County and are present alongside Formosan termites in the city's historic and residential neighborhoods.",
+      },
+      {
+        name: "No-See-Ums",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round; peaks spring and fall",
+        note:
+          "Biting midges are a signature pest of coastal Beaufort; they breed in the tidal marsh substrate and bite near waterways at dawn and dusk, passing through standard window screens.",
+      },
+      {
+        name: "Red Imported Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Peaks March through November",
+        note:
+          "Fire ants are endemic to Beaufort County's coastal plain and are present in all residential areas of the city; they colonize the park-like spaces of the historic district and waterfront areas as readily as residential lawns.",
+      },
+    ],
+    localHook:
+      "Beaufort's historic Point neighborhood, with its antebellum wood-frame architecture set among the tidal creeks of Port Royal Sound, has had decades of exposure to Formosan subterranean termites, one of the most destructive structural pests in the Lowcountry.",
+    intro:
+      "Beaufort is one of the oldest and most historically significant cities in South Carolina, and its sea island setting on Port Royal Sound creates a pest environment that is as distinctive as its architecture. Formosan subterranean termites are confirmed in Beaufort County's coastal plain, and the city's historic wood-frame structures have had decades of exposure to both Formosan and eastern termite pressure. Salt marsh mosquitoes from the extensive tidal marsh surrounding the sea islands are active from March through November. No-see-ums, which breed in tidal marsh substrate, are a secondary biting pest that pass through standard window screens. Fire ants are established throughout the county.",
+    sections: [
+      {
+        heading: "Protecting Beaufort's historic structures from termites",
+        body: "The Point neighborhood of Beaufort, with its antebellum and early-20th-century wood-frame architecture, represents some of the most termite-vulnerable structures in South Carolina. Beaufort County's coastal plain soils are in the established range for both Formosan and eastern subterranean termites per Clemson HGIC. Older buildings on the Point, many of which have pier foundations and wood structural members that have been in place for a century or more, face cumulative termite exposure that newer slab-on-grade construction does not. Active service agreements with annual inspection are particularly important for historic structures where structural repair is complex and expensive. Many owners of historic Beaufort properties use bait station programs specifically because they allow monitoring without chemical soil treatment that could damage older landscaping or foundation materials around historic buildings.",
+      },
+      {
+        heading: "Salt marsh mosquitoes and no-see-ums on the sea islands",
+        body: "Port Royal Sound's salt marsh ecosystem is one of the most extensive on the South Atlantic coast, and it produces salt marsh mosquitoes in volumes that make Beaufort's mosquito season one of the longest in South Carolina. Salt marsh mosquitoes (Aedes taeniorhynchus and related species) can fly several miles from breeding sites, which means even properties not immediately adjacent to the marsh experience significant pressure. The season runs from March through November in mild years, with peak intensity from June through September. No-see-ums add a secondary layer: biting midges breed in the wet organic substrate of the tidal marsh and bite in large numbers near waterways at dawn and dusk. Their small size allows them to pass through standard window screening, making them one of the most difficult coastal pests to exclude mechanically. Professional barrier spray for mosquitoes provides partial relief but does not address the primary tidal breeding habitat. Source reduction on the residential property limits the non-tidal breeding component.",
+      },
+    ],
+    prevention: [
+      "Maintain an active Beaufort County termite warranty, particularly for historic wood-frame properties in the Point neighborhood; the dual Formosan and eastern termite pressure and the value of historic structures make ongoing protection essential.",
+      "Use barrier spray programs from March through November to manage the salt marsh mosquito pressure from Port Royal Sound; source reduction on the residential property addresses the non-tidal breeding component.",
+      "Install no-see-um mesh on screened porches and windows in waterfront and near-waterfront properties to reduce biting midge intrusion at dawn and dusk.",
+      "Apply fire ant broadcast bait in spring and fall to suppress fire ant activity in Beaufort County's year-round warm climate.",
+    ],
+    costNote:
+      "Termite protection in Beaufort for historic properties typically uses bait station programs priced at $300 to $550 annually, with higher rates for larger historic footprints. Mosquito barrier spray runs $80 to $140 per 21-day treatment from March through November. Licensed Beaufort County technicians with experience in historic structure pest management offer free inspections.",
+    faqs: [
+      {
+        question: "Are historic buildings in Beaufort at higher termite risk than new construction?",
+        answer:
+          "Generally yes. Older historic structures, particularly those with pier foundations and older wood structural members, have had more years of cumulative termite exposure, may have had past termite activity that was never fully documented, and often have construction characteristics, such as wood in contact with soil, that provide easier termite access than modern slab-on-grade foundations. Beaufort County's dual Formosan and eastern termite environment makes ongoing professional monitoring and protection particularly important for historic properties.",
+      },
+      {
+        question: "How do no-see-ums get inside when windows are closed?",
+        answer:
+          "Biting midges are small enough to pass through standard window and door screening. The mesh size of typical fiberglass screen allows no-see-ums through. No-see-um rated mesh is finer and reduces penetration significantly, though not completely. In Beaufort's tidal marsh environment, the midge population near waterways is dense enough that mechanical exclusion alone does not eliminate the concern; it reduces it.",
+      },
+      {
+        question: "When does mosquito season start in Beaufort?",
+        answer:
+          "Meaningful mosquito activity in Beaufort can begin as early as late February or early March in mild winters, and it extends through November. The salt marsh mosquito season is longer here than in most inland South Carolina communities because the tidal breeding environment produces mosquitoes more continuously than rain-dependent standing water. Peak intensity runs June through September.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Bluffton", slug: "bluffton-sc" },
+      { name: "Hilton Head Island", slug: "hilton-head-sc" },
+      { name: "Summerville", slug: "summerville-sc" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Beaufort, SC | Formosan Termites, Mosquitoes & No-See-Ums",
+    metaDescription:
+      "Beaufort pest control for Formosan termites, salt marsh mosquitoes, no-see-ums and fire ants. Historic sea island Port Royal Sound Beaufort County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
 

@@ -1511,4 +1511,345 @@ export const utahCities: CityLocation[] = [
     metaDescription:
       "Logan pest control for house mice, black widow spiders, voles and yellowjackets. Cache County Cache Valley mountain basin specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "herriman",
+    name: "Herriman",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~72,710",
+    county: "Salt Lake County",
+    climate: "semi-arid",
+    climateDriver: "Herriman's Southwest Valley foothill location at 4,400 feet brings a drier, more exposed semi-arid climate than the Salt Lake Valley floor, with cold winters driving mice into new-construction homes and hot summers activating black widow populations in the sagebrush-edge terrain surrounding the city's rapidly growing subdivisions.",
+    topPests: ["black widows", "house mice", "voles", "yellowjackets", "earwigs"],
+    pestProfile: [
+      { name: "Black Widows", activeSeason: "Peaks May through October", note: "Black widow spiders are well established in Herriman's sagebrush-edge terrain and in the rock and wood debris common on new construction lots, found in garages, under deck boards, in crawl spaces, and at utility meter boxes." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through March", note: "House mice enter Herriman's rapidly built new-construction homes in autumn, exploiting gaps around pipe penetrations and utility entries that are common in fast-track construction." },
+      { name: "Voles", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through April", note: "Meadow voles damage Herriman's irrigated residential lawns year-round, tunneling surface runways through grass and girdling ornamental plantings, with winter snow cover concealing runway activity until spring reveals it." },
+      { name: "Yellowjackets", activeSeason: "Peaks June through October", note: "Yellowjackets build ground nests in Herriman's residential lawns and in the sagebrush terrain surrounding subdivisions, with peak aggression in August and September." },
+      { name: "Earwigs", activeSeason: "Peaks May through August", note: "Earwigs thrive in Herriman's irrigated landscape beds and move indoors during summer heat events, entering through expansion joints and sliding door tracks." },
+    ],
+    localHook: "Herriman is one of Utah's fastest-growing cities, with subdivisions built rapidly at the edge of sagebrush foothills in the Southwest Salt Lake Valley. New construction on desert terrain means black widow habitat is disturbed and displaced directly into new yards and garages, and irrigation-supported lawns create instant vole habitat where none existed before development.",
+    intro: "Herriman has grown from a small community into one of Utah's largest cities in under a decade, with new subdivisions built directly into sagebrush foothill terrain at the southwest edge of the Salt Lake Valley. That rapid development on semi-arid land creates specific pest conditions. Black widow spiders displaced from sagebrush and rock terrain end up in garages, under new deck boards, and in utility meter boxes of homes that were not there two years ago. Irrigated lawns in a previously dry terrain instantly create vole habitat. House mice from the foothill terrain enter new-construction homes through the gaps that fast-track construction sometimes leaves around pipe penetrations and utility entries. Yellowjackets nest in the ground of recently landscaped yards. Knowing your property's pest profile in a fast-growing new neighborhood means not waiting for the problem to establish itself.",
+    sections: [
+      {
+        heading: "Black Widow Control in Herriman's New Construction",
+        body: "Black widows are the pest concern most unique to Herriman's development pattern. As subdivisions expand into sagebrush foothill terrain, black widow populations that lived in the natural rock and brush are displaced into the new built environment: into garages, under deck boards, in crawl spaces, at utility meter boxes, and in the debris piles common on active construction sites. Annual spring perimeter spray applied to the foundation, under decking, and at utility areas keeps established populations suppressed. Inspect wood piles, outdoor furniture, and pool equipment before reaching into them. Wear gloves when working in garages or storage areas. If you have children or pets with frequent access to outdoor storage areas, twice-yearly treatment is the more practical standard.",
+      },
+      {
+        heading: "Vole and Mouse Control in Herriman Neighborhoods",
+        body: "Voles in Herriman's irrigated residential lawns are often invisible through winter: snow cover conceals the runway system they build through turf from November through March. When the snow melts in March and April, homeowners discover a network of surface tunnels through the grass and, sometimes, girdled ornamental shrubs and fruit tree bases. Control combines snap traps placed directly in active runways and lawn management changes, particularly mowing short in late October before snow falls to eliminate runway cover. House mice from the foothill terrain enter Herriman homes in October and November, with new-construction homes having more potential entry points than well-settled older homes. A thorough exclusion inspection identifies gaps at pipe penetrations, utility entries, garage door seals, and crawl space vents. Combine sealing with bait stations in the attic and garage.",
+      },
+      {
+        heading: "Yellowjacket and Earwig Prevention",
+        body: "Yellowjackets nest in the ground of Herriman's residential lawns and in the undisturbed sagebrush terrain bordering subdivisions, with colonies peaking in size and aggression through August and September. Ground nests on recently landscaped lots can be hard to spot before you accidentally disturb them with a mower. Treat nests after dark with dust insecticide applied to the entrance. Do not seal the entrance before treatment. Earwigs in Herriman's irrigated landscape beds are a warm-season nuisance that move indoors during summer heat spikes. Rake back mulch from the foundation edge six inches and apply perimeter residual spray to reduce populations before they enter."
+      }
+    ],
+    prevention: [
+      "Apply annual black widow perimeter spray in April before the summer activity peak in Herriman's sagebrush-edge terrain",
+      "Mow lawns short in October before the first snow to reduce vole runway cover through winter",
+      "Complete mouse exclusion work in September before the October entry window in new-construction homes",
+      "Treat yellowjacket ground nests in June or July when colonies are smaller and before August aggression peaks",
+      "Rake mulch back from the foundation edge six inches to reduce earwig harborage in Herriman's irrigated landscape beds"
+    ],
+    costNote: "Black widow perimeter spray in Herriman averages $130 to $250 per treatment. Vole control programs run $150 to $320 per season. Mouse exclusion and baiting costs $250 to $500 for new-construction homes with multiple entry points. Yellowjacket nest treatment averages $130 to $230 per nest. Earwig perimeter programs cost $120 to $210.",
+    faqs: [
+      {
+        question: "Why are there so many black widows in my new Herriman home?",
+        answer: "Herriman's subdivisions were built on sagebrush foothill terrain that is natural black widow habitat. When construction clears land, black widows relocate into the new built environment: garages, under deck boards, utility meter boxes, and in construction debris. New homes in Herriman often see higher black widow activity in their first few years than established older neighborhoods. Annual perimeter treatment starting the first spring after move-in is the most effective approach."
+      },
+      {
+        question: "How do I protect my Herriman lawn from voles?",
+        answer: "Mow your lawn short in late October before the first snow to reduce the surface cover voles need for their runway system. Place hardware cloth cylinders around the base of young trees and ornamental shrubs to prevent girdling. Snap traps set directly in active runways in early November, before snow falls, are the most effective control method. If you discover runway damage in spring, start control immediately before voles establish a second generation in spring."
+      },
+      {
+        question: "Do new Herriman homes have more pest problems than established homes?",
+        answer: "New-construction homes on disturbed sagebrush terrain in Herriman typically see elevated pest activity in the first two to three years as displaced black widows, mice, and voles adjust to the new environment. New construction also tends to have more gaps at pipe penetrations and utility entries than settled older homes where those gaps have been identified and sealed. First-year pest prevention investment in new Herriman homes tends to produce significant returns."
+      }
+    ],
+    author: "Marcus Reed",
+    nearbyCities: [
+      { name: "South Jordan", slug: "south-jordan" },
+      { name: "Riverton", slug: "riverton-ut" },
+      { name: "Draper", slug: "draper" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Herriman, UT | Black Widows, Voles & Mice",
+    metaDescription:
+      "Herriman pest control for black widow spiders, voles, mice, and yellowjackets. Salt Lake County Southwest Valley sagebrush-edge specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "millcreek-ut",
+    name: "Millcreek",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~62,370",
+    county: "Salt Lake County",
+    climate: "semi-arid",
+    climateDriver: "Millcreek's mid-valley Salt Lake County location with urban heat island effects and mature residential tree canopy creates a slightly warmer microclimate than surrounding areas, sustaining black widow populations in established garden and garage sites and producing consistent earwig pressure in irrigated mature landscaping.",
+    topPests: ["black widows", "earwigs", "house mice", "carpet beetles", "voles"],
+    pestProfile: [
+      { name: "Black Widows", activeSeason: "Peaks April through October", note: "Black widow spiders are well established in Millcreek's mature residential properties, found in garages, under deck boards, in crawl spaces, in window wells, and in the rock and wood garden features common in the area's older landscaping." },
+      { name: "Earwigs", activeSeason: "Peaks May through August", note: "Earwigs are a persistent warm-season nuisance in Millcreek's established irrigated landscaping, moving indoors through foundation gaps and sliding door tracks during summer heat spikes." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through March", note: "House mice enter Millcreek homes in autumn through foundation gaps and utility penetrations in the older residential stock built from the 1950s through 1970s." },
+      { name: "Carpet Beetles", activeSeason: "Peaks March through June", note: "Carpet beetles are a stored product and textile pest in Millcreek's older homes, with larvae feeding on wool, feathers, and dried food products stored in closets and drawers in established residential properties." },
+      { name: "Voles", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through April", note: "Meadow voles tunnel through Millcreek's irrigated residential lawns and girdle ornamental plantings, with runway damage concealed through winter and revealed at snowmelt." },
+    ],
+    localHook: "Millcreek became Utah's newest city in 2017 after decades as an unincorporated Salt Lake County area. Its established mid-valley residential neighborhoods with mature landscaping and older housing stock create a pest profile centered on the insects and rodents that thrive in settled suburban environments: black widows in garages, earwigs in irrigation-fed beds, and mice in aging foundations.",
+    intro: "Millcreek, incorporated as a city in 2017, has some of the most established residential neighborhoods in the Salt Lake Valley. Streets lined with mature trees, properties with decades of landscaping, and housing stock largely built between the 1950s and 1970s create a pest environment shaped by settled suburban conditions. Black widows are well established in garages, under deck boards, and in the rock and wood garden features that older Millcreek properties often have. Earwigs thrive in the thick, irrigated landscape beds of established yards and move indoors during summer heat. House mice enter older homes through foundation gaps that have developed over decades. Carpet beetles show up in older homes with stored wool textiles and natural-fiber materials. Knowing which pest you have and why it is there determines whether treatment alone resolves the problem or whether the underlying attractant also needs to be addressed.",
+    sections: [
+      {
+        heading: "Black Widow and Earwig Control in Mature Millcreek Properties",
+        body: "Black widows in Millcreek's established residential properties have had decades to build populations in garages, crawl spaces, basement window wells, and the rock garden features common in older Salt Lake Valley landscaping. Annual spring perimeter treatment is the standard control approach: residual spray applied to foundation walls, under decking, around utility meter boxes, and into garage corners before population peaks in May. Remove rock piles and accumulated clutter from around the foundation to eliminate harborage. Earwigs in Millcreek's thick, irrigated landscape beds are a summer nuisance that enters homes through sliding door tracks, expansion joints, and foundation gaps during heat events. Rake mulch back from the foundation edge six inches and apply perimeter residual spray to reduce outdoor populations before they move inside."
+      },
+      {
+        heading: "Mouse Control and Carpet Beetle Prevention",
+        body: "House mice enter Millcreek's older homes in October through gaps that have developed in foundation sill plates, pipe penetrations, and utility entries over decades of settlement. An exclusion inspection for an older Millcreek home typically finds more entry points than newer construction. Seal active gaps with steel wool and caulk, then place bait stations in the attic and garage. Carpet beetles in Millcreek's older homes are often discovered when stored wool sweaters, feather pillows, or dried pantry items are found damaged. The adult beetles enter through open windows and door frames in spring, and larvae do the actual damage in storage areas. Cleaning stored natural-fiber items and placing them in sealed containers removes the food source. Residual spray applied in closets and along carpet edges addresses active populations."
+      },
+      {
+        heading: "Vole Control in Irrigated Millcreek Lawns",
+        body: "Meadow voles in Millcreek's irrigated residential lawns are often not noticed until spring snowmelt reveals a network of surface runways through the grass and, sometimes, girdled shrub and tree bases. Voles use the turf surface cover to build runway systems through winter under the snow. Control in Millcreek starts before the first snow: mow short in late October, place snap traps in active runways, and install hardware cloth cylinders around the base of valued ornamentals. Lawn management, particularly avoiding thick, uncut turf through winter, is the single most effective preventive step."
+      }
+    ],
+    prevention: [
+      "Apply annual black widow perimeter spray in April before populations peak in Millcreek's established garage and garden harborage sites",
+      "Rake mulch back six inches from the foundation and apply perimeter spray to reduce earwig pressure in irrigated landscape beds",
+      "Mow lawns short in October before first snow to reduce vole runway cover through the winter season",
+      "Seal foundation gaps, crawl space vents, and utility penetrations in September before the October mouse entry window",
+      "Store natural-fiber textiles and dried food products in sealed containers to remove carpet beetle food sources"
+    ],
+    costNote: "Black widow perimeter spray in Millcreek averages $130 to $250 per treatment. Earwig and general perimeter programs run $120 to $220. Mouse exclusion and baiting for older Millcreek homes costs $275 to $550. Carpet beetle treatment averages $150 to $280. Vole control programs run $150 to $320 per season.",
+    faqs: [
+      {
+        question: "Why are black widows such a problem in older Millcreek garages?",
+        answer: "Older Millcreek garages accumulate clutter, rock piles, and undisturbed corners that are ideal black widow harborage. Combined with the Salt Lake Valley's semi-arid climate, which supports black widow populations well, a garage that has not been thoroughly cleaned and treated in several years can develop significant populations. Annual spring treatment and removing clutter from the garage perimeter are the two most effective steps."
+      },
+      {
+        question: "How did I get carpet beetles in my Millcreek home?",
+        answer: "Carpet beetle adults enter homes through open windows and door frames in spring, attracted by the pollen and nectar they feed on outdoors. Once inside, females lay eggs near natural fiber materials like wool, feathers, leather, and stored grain products. Larvae hatch and feed on these materials. The most common finds are damaged stored sweaters, rugs, or upholstered furniture with natural fill. Sealing stored items in plastic containers removes the food source."
+      },
+      {
+        question: "Why does vole damage in my Millcreek yard appear in spring when I have not seen any voles?",
+        answer: "Voles are active through winter under snow cover, building and expanding their surface runway system through the turf. The damage is hidden by snow and reveals itself in March and April when snow melts. By the time you see the runway system, voles have had months to establish it. Preventive control before the first snow, mowing short and trapping in active runways in October and November, intercepts the problem before it develops under cover."
+      }
+    ],
+    author: "Dr. Lena Ortiz",
+    nearbyCities: [
+      { name: "Salt Lake City", slug: "salt-lake-city" },
+      { name: "Murray", slug: "murray-ut" },
+      { name: "Taylorsville", slug: "taylorsville" }
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Millcreek, UT | Black Widows, Earwigs & Mice",
+    metaDescription:
+      "Millcreek pest control for black widow spiders, earwigs, mice and voles. Salt Lake County established mid-valley neighborhood specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "spanish-fork",
+    name: "Spanish Fork",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~44,570",
+    county: "Utah County",
+    climate: "semi-arid",
+    climateDriver: "Spanish Fork's Utah Valley location at the mouth of Spanish Fork Canyon with semi-arid climate and agricultural surroundings creates above-average vole pressure from the surrounding farmland and canyon wind corridors that bring field mice into residential neighborhoods each autumn.",
+    topPests: ["voles", "black widows", "house mice", "yellowjackets", "Indian meal moths"],
+    pestProfile: [
+      { name: "Voles", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through April", note: "Voles are a persistent lawn and garden pest in Spanish Fork, with agricultural field surroundings and irrigated residential lawns providing year-round runway habitat. Canyon wind corridors bring in field voles from Spanish Fork Canyon acreage." },
+      { name: "Black Widows", activeSeason: "Peaks May through October", note: "Black widow spiders are established in Spanish Fork's semi-arid Utah Valley climate, found in garages, under deck boards, in basement window wells, and in storage sheds across residential properties." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through March", note: "House mice from Spanish Fork Canyon and surrounding Utah County farmland move into Spanish Fork homes in autumn, with agricultural-edge neighborhoods seeing consistently higher pressure than those closer to the city center." },
+      { name: "Yellowjackets", activeSeason: "Peaks June through October", note: "Yellowjackets build ground nests in Spanish Fork's residential lawns and along orchard and field edges surrounding the city, with peak aggression through August and September." },
+      { name: "Indian Meal Moths", activeSeason: "Year-round, peaks May through September", note: "Indian meal moths infest stored grain products in Spanish Fork homes, with the agricultural community's higher-than-average stored grain and bulk food purchases creating more frequent infestation than in non-agricultural Utah County cities." },
+    ],
+    localHook: "Spanish Fork sits at the mouth of Spanish Fork Canyon at the south end of Utah Valley, with agricultural land on three sides and canyon terrain to the east. That position creates pest pressure from two directions: canyon-edge terrain brings mice, black widows, and yellowjackets from the natural landscape, while the agricultural surround pushes field rodents and stored product pests into residential neighborhoods.",
+    intro: "Spanish Fork in Utah County sits at the canyon mouth where Spanish Fork Canyon opens into Utah Valley, with farm fields, orchards, and pasture land surrounding the city on the valley floor. That agricultural and canyon-edge setting creates a specific pest profile. Voles from the surrounding farmland are the most persistent lawn pest, tunneling through irrigated residential turf and girdling young trees and ornamental shrubs through the winter. House mice from the canyon terrain and agricultural fields push into neighborhoods every autumn. Black widows are established in garages and outdoor storage across the semi-arid Utah Valley climate. Indian meal moths, which infest stored grain and bulk food products, are a more common complaint in Spanish Fork than in non-agricultural Utah County communities. Yellowjackets nest in the ground of residential lawns and along orchard edges through summer.",
+    sections: [
+      {
+        heading: "Voles vs. Field Mice: Two Different Problems in Spanish Fork",
+        body: "Spanish Fork residents frequently encounter both voles and house mice, and the two require different control approaches. Voles are small, stocky rodents that live and feed at ground level. Their damage is to lawns and garden plants: surface runways through turf, girdled shrub bases, and eaten bulbs. They do not enter homes. House mice are the species that enters through foundation gaps and sets up colonies in attics and wall voids. Finding a surface runway in your lawn does not mean you have mice in your house, and having mice in your attic does not mean your lawn runway damage is from house mice. Control for voles uses snap traps in active outdoor runways. Control for house mice uses exclusion sealing and bait stations inside the structure. Both may be present simultaneously in Spanish Fork's agricultural-edge neighborhoods, and both need treatment, but the treatment locations and methods are completely separate."
+      },
+      {
+        heading: "Indian Meal Moth and Black Widow Control",
+        body: "Indian meal moths infest stored grain, flour, cereals, nuts, dried fruit, and similar pantry products. In Spanish Fork's agricultural community, homes with bulk stored grain, year's supply food storage, or large pantry stores are at higher risk than the average Utah County household. Adults are small moths with bronze and gray wing coloring. Larvae, which do the actual feeding damage, spin silk webbing in food products. Control involves removing all infested products, thoroughly cleaning pantry shelves, and inspecting all stored food items for webbing or larvae. Pheromone traps placed in the pantry catch adult males and monitor for ongoing activity. Black widows in Spanish Fork are controlled with annual spring perimeter spray applied to garage walls, under decking, and at utility meter boxes before the May activity peak."
+      },
+      {
+        heading: "Yellowjacket and Mouse Control in Spanish Fork",
+        body: "Yellowjackets in Spanish Fork nest in the ground of residential lawns and along the orchard and field edges surrounding the city. The agricultural landscape provides ample foraging territory and colony size reaches peak in August and September. Ground nests in residential lawns are treated after dark with dust insecticide applied to the entrance opening. House mice from Spanish Fork Canyon and surrounding farmland enter homes in October and November. Seal foundation gaps, crawl space vents, and pipe penetrations before October. Place bait stations in the attic, garage, and along exterior walls. Agricultural-edge neighborhoods on the south and east sides of Spanish Fork near the canyon and farm fields see consistently higher autumn mouse pressure than neighborhoods closer to the city center."
+      }
+    ],
+    prevention: [
+      "Mow lawns short in October before first snow to reduce vole runway habitat, and place traps in active runways before snow falls",
+      "Apply annual black widow perimeter spray in April before May activity peak in Spanish Fork's semi-arid Utah Valley climate",
+      "Store pantry products in sealed glass or plastic containers and inspect bulk grain storage regularly for Indian meal moth webbing",
+      "Seal foundation gaps and crawl space vents before October to block autumn mouse migration from canyon terrain and farmland surroundings",
+      "Treat yellowjacket ground nests in June or July when colonies are smaller, before August aggression peaks"
+    ],
+    costNote: "Vole control programs in Spanish Fork run $150 to $320 per season. Black widow perimeter spray averages $130 to $250. Indian meal moth treatment including pantry inspection and pheromone trap placement costs $100 to $180. Mouse exclusion and baiting averages $250 to $500. Yellowjacket nest treatment costs $130 to $230 per nest.",
+    faqs: [
+      {
+        question: "How do I tell if I have voles or mice in my Spanish Fork home?",
+        answer: "Voles do not enter homes. If you find droppings in the attic, hear scratching in walls, or see gnaw marks near food, you have mice. If you find surface runways in your lawn and girdled shrub bases, you have voles outdoors. Both can be present at the same time, but in completely different locations and requiring completely different control methods."
+      },
+      {
+        question: "Why do I keep getting Indian meal moths in my Spanish Fork pantry?",
+        answer: "Indian meal moths in Spanish Fork often trace back to one infested product in the pantry. Check bulk grains, cereals, nuts, dried fruit, and pet food for webbing or larvae. Remove the infested item and thoroughly clean the pantry shelves. Place pheromone traps to monitor for adult males. If you purchase bulk grain or maintain a year's food supply, check stored products every three to four months for early signs of infestation."
+      },
+      {
+        question: "Are there more mice near Spanish Fork Canyon than in other parts of the city?",
+        answer: "Yes. Neighborhoods near the Spanish Fork Canyon corridor and on the agricultural edge of the city see higher autumn mouse pressure from the canyon and farmland source populations. If you are in an agricultural-edge neighborhood, exclusion work completed before October and maintained exterior bait stations give you better protection than a one-time interior treatment."
+      }
+    ],
+    author: "Sandra Whitfield",
+    nearbyCities: [
+      { name: "Provo", slug: "provo" },
+      { name: "Orem", slug: "orem" },
+      { name: "Lehi", slug: "lehi" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Spanish Fork, UT | Voles, Mice & Black Widows",
+    metaDescription:
+      "Spanish Fork pest control for voles, mice, black widows, and Indian meal moths. Utah County canyon-mouth agricultural community specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "eagle-mountain",
+    name: "Eagle Mountain",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~50,760",
+    county: "Utah County",
+    climate: "semi-arid",
+    climateDriver: "Eagle Mountain's high-desert plateau location at approximately 5,000 feet in western Utah County brings cold winters, hot dry summers, and semi-arid sagebrush terrain that drives black widow and vole pressure into rapidly growing subdivisions built directly on natural desert habitat.",
+    topPests: ["black widows", "voles", "house mice", "yellowjackets", "earwigs"],
+    pestProfile: [
+      { name: "Black Widows", activeSeason: "Peaks May through October", note: "Black widow spiders are highly prevalent in Eagle Mountain due to the city's rapid development into semi-arid sagebrush terrain, displacing established black widow populations into new garages, under deck boards, and in utility sites of newly built homes." },
+      { name: "Voles", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through April", note: "Meadow voles colonize Eagle Mountain's irrigated residential lawns rapidly after turf establishment, tunneling surface runways through grass and girdling ornamental plantings installed with new construction landscaping." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through March", note: "House mice from Eagle Mountain's surrounding sagebrush terrain enter newer homes in autumn through gaps at pipe penetrations and utility entries common in fast-track construction." },
+      { name: "Yellowjackets", activeSeason: "Peaks June through October", note: "Yellowjackets nest in the ground of Eagle Mountain's residential lawns and in undisturbed sagebrush terrain surrounding subdivisions, with peak aggression in August and September." },
+      { name: "Earwigs", activeSeason: "Peaks May through August", note: "Earwigs colonize Eagle Mountain's irrigated landscape beds and move indoors through foundation cracks during summer heat events on the high-desert plateau." },
+    ],
+    localHook: "Eagle Mountain was incorporated in 1996 and has grown from a handful of residents to over 50,000 in less than three decades, with subdivisions built rapidly into high-desert sagebrush terrain in western Utah County. That pace of development on natural desert land creates consistent pest displacement: black widows from disturbed sagebrush habitat, voles from irrigated lawns replacing desert hardpan, and mice from the surrounding natural terrain.",
+    intro: "Eagle Mountain is one of the fastest-growing cities in the United States, expanding into western Utah County's high-desert plateau at around 5,000 feet elevation. Subdivisions here are built directly on land that was sagebrush and natural desert terrain within the past decade, and that development pattern creates specific pest conditions. Black widow spiders displaced from natural sagebrush and rock habitat move directly into new garages, crawl spaces, and utility sites. Irrigated lawns established on former desert hardpan create immediate vole habitat where none previously existed. House mice from the surrounding natural terrain enter new homes in autumn. Knowing the biology behind each pest, why it is here and what it needs, helps Eagle Mountain residents make decisions that work long-term rather than just for the current season.",
+    sections: [
+      {
+        heading: "Why Are There So Many Black Widows in My New Eagle Mountain Home?",
+        body: "Eagle Mountain's high-desert sagebrush terrain is natural black widow habitat. The rock formations, brush piles, and ground debris of the sagebrush landscape support well-established black widow populations. When construction clears terrain for new subdivisions, black widows do not disappear: they relocate into the structures that replace their habitat. New Eagle Mountain homes see elevated black widow activity in garages, under deck boards, in crawl spaces, and at utility meter boxes, particularly in the first two to three years after construction. Annual spring perimeter spray starting from move-in addresses the displaced population before it establishes firmly in the new structure. Remove wood debris, rock piles, and stored items from garage floors and foundation areas to eliminate harborage sites."
+      },
+      {
+        heading: "Do Voles Come With New Lawns in Eagle Mountain?",
+        body: "Essentially, yes. Eagle Mountain's homes are built on land that was dry desert hardpan before development. When a lawn is established and irrigation begins, the new turf provides the exact surface cover that meadow voles require for their runway system. Vole populations move in from adjacent natural areas and establish quickly in new irrigated turf. The damage pattern is surface runways through grass and girdled shrub bases at soil level. Control starts before the first winter: mow short in October, place snap traps in active runways, and install hardware cloth cylinders around ornamental plantings. The longer voles establish in a new lawn without control, the larger the population and the more extensive the damage in spring."
+      },
+      {
+        heading: "Mouse Entry and Yellowjacket Control",
+        body: "Are there mice in my new Eagle Mountain home even with new construction? New construction homes in Eagle Mountain often have more mouse entry points than their owners expect. Fast-track building schedules can leave gaps around pipe penetrations, dryer vent connections, and crawl space vent screens that mice from the surrounding natural terrain find in October. A thorough exclusion inspection before move-in or in the first autumn identifies these gaps. Combine sealing with bait station placement in the attic and garage. Yellowjackets nest in Eagle Mountain's residential lawns and in the sagebrush terrain at the subdivision edge through summer. Treat ground nests in the evening after dark with dust insecticide applied to the entrance opening."
+      }
+    ],
+    prevention: [
+      "Apply black widow perimeter spray in April as soon as outdoor temperatures stabilize, starting from the first spring after move-in",
+      "Mow lawns short in October before the first snow to eliminate vole runway cover, and set traps in any active runways before snow falls",
+      "Conduct a thorough mouse exclusion inspection before October in new Eagle Mountain homes to identify fast-track construction gaps",
+      "Treat yellowjacket ground nests in June or July when colonies are smaller and before August aggression peaks on the high-desert plateau",
+      "Remove wood debris and rock piles from the foundation perimeter to eliminate black widow harborage in newly disturbed terrain"
+    ],
+    costNote: "Black widow perimeter spray in Eagle Mountain averages $130 to $250 per treatment. Vole control programs run $150 to $320 per season. Mouse exclusion and baiting for new-construction homes costs $250 to $500 depending on entry-point count. Yellowjacket nest treatment averages $130 to $230. Earwig perimeter programs cost $120 to $210.",
+    faqs: [
+      {
+        question: "Is it normal to have so many black widows in my new Eagle Mountain home?",
+        answer: "Yes, for this location. Eagle Mountain's rapid development on sagebrush desert terrain displaces established black widow populations directly into new construction. This pattern is typical for fast-growing western Utah County cities built on natural habitat. The activity typically peaks in the first two to three years after construction as displaced populations settle into the new built environment, then stabilizes with regular perimeter treatment."
+      },
+      {
+        question: "My Eagle Mountain lawn was just installed last year. How do I already have voles?",
+        answer: "Voles colonize new irrigated lawns quickly from adjacent natural areas and fields. Eagle Mountain's high-desert terrain surrounds subdivisions with natural sagebrush habitat that hosts vole populations, and irrigated turf is an immediate attractant. Newly established lawns with thick, soft turf are particularly easy for voles to tunnel through. First-year vole control is important because populations establish and expand rapidly without early intervention."
+      },
+      {
+        question: "Do I need pest control year-round in Eagle Mountain or just seasonally?",
+        answer: "Eagle Mountain's four distinct seasons create different pest pressures through the year. Black widows are the spring and summer focus. Mice are the autumn and winter focus. Voles require attention from October through snowmelt in April. Yellowjackets are a summer concern. A quarterly or biannual service program that adjusts treatment focus by season addresses all of these effectively without unnecessary treatments in off-peak months."
+      }
+    ],
+    author: "James Cole",
+    nearbyCities: [
+      { name: "Lehi", slug: "lehi" },
+      { name: "South Jordan", slug: "south-jordan" },
+      { name: "Herriman", slug: "herriman" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Eagle Mountain, UT | Black Widows, Voles & Mice",
+    metaDescription:
+      "Eagle Mountain pest control for black widow spiders, voles, mice and yellowjackets. Utah County high-desert sagebrush-edge growth city specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "riverton-ut",
+    name: "Riverton",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~48,070",
+    county: "Salt Lake County",
+    climate: "semi-arid",
+    climateDriver: "Riverton's South Salt Lake Valley location with mature suburban landscaping and proximity to the Bingham Creek corridor creates semi-arid conditions that sustain black widow populations in established residential sites and consistent vole pressure in irrigated lawns through the winter months.",
+    topPests: ["black widows", "voles", "house mice", "yellowjackets", "earwigs"],
+    pestProfile: [
+      { name: "Black Widows", activeSeason: "Peaks May through October", note: "Black widow spiders are well established in Riverton's mature suburban properties, found in garages, under deck boards, in crawl spaces, basement window wells, and rock garden features of the area's established landscaping." },
+      { name: "Voles", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through April", note: "Meadow voles damage Riverton's irrigated residential lawns and ornamental plantings year-round, with winter snow cover concealing runway activity until spring snowmelt reveals the extent of damage." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through March", note: "House mice enter Riverton homes in autumn from the Bingham Creek corridor and surrounding Salt Lake County terrain, exploiting gaps in the older and mid-age residential stock of the South Salt Lake Valley." },
+      { name: "Yellowjackets", activeSeason: "Peaks June through October", note: "Yellowjackets build ground nests in Riverton's residential lawns and landscaped commercial areas, with peak aggression in August and September in the South Salt Lake Valley heat." },
+      { name: "Earwigs", activeSeason: "Peaks May through August", note: "Earwigs are a summer nuisance in Riverton's established irrigation-fed landscape beds, moving indoors through foundation gaps and sliding door tracks during warm season heat spikes." },
+    ],
+    localHook: "Riverton is a mature South Salt Lake Valley community with established residential neighborhoods, large lots with significant landscaping, and proximity to the Bingham Creek and Jordan River corridors. That combination of mature suburban setting and waterway habitat creates above-average black widow, vole, and mouse pressure for a South Valley city.",
+    intro: "Riverton occupies the South Salt Lake Valley with established residential neighborhoods, mature tree canopy, and proximity to the Bingham Creek and Jordan River corridors. Its suburban maturity makes it distinct from newer Southwest Valley cities like Herriman and Eagle Mountain: the pest challenges here are rooted in settled suburban conditions rather than new-construction displacement. Black widows are firmly established in Riverton's garages, crawl spaces, and garden sites after decades of development. Voles consistently damage irrigated lawns through winter under snow cover. House mice enter older homes in autumn through gaps that have accumulated over years in foundation sill plates and utility entries. Yellowjackets nest in residential lawns. Earwigs populate established landscape beds. A consistent year-round management approach outperforms reactive single-treatment response in a mature community like Riverton.",
+    sections: [
+      {
+        heading: "Black Widow and Vole Control: Riverton's Two Most Common Pest Calls",
+        body: "Black widows and voles generate the most service calls in Riverton's residential neighborhoods, and both are managed most effectively with prevention-focused year-round programs rather than emergency responses. Black widows in established Riverton garages, crawl spaces, and garden sites require annual spring perimeter treatment in April before populations peak. Remove clutter from garage floors and garden borders to eliminate harborage. Inspect wood piles, outdoor furniture, and pool equipment before reaching into them. Voles in Riverton's irrigated lawns are most damaging through winter when snow cover conceals their runway system from October through March. The prevention step is October: mow short before the first snow, place snap traps in active runways, and install hardware cloth cylinders around ornamental shrubs and young trees. Spring control after snowmelt addresses populations that establish through winter despite preventive efforts."
+      },
+      {
+        heading: "Mouse Control and Yellowjacket Season",
+        body: "House mice enter Riverton homes from October as temperatures drop, using gaps in foundation sill plates, pipe penetrations, and utility entries that develop over years in mid-age residential construction. A thorough exclusion inspection identifies and seals active entry points with steel wool and caulk. Bait stations in the attic and garage provide ongoing monitoring and control through the winter pressure window. Properties near the Bingham Creek and Jordan River corridors see higher mouse pressure than those in the interior of the subdivision, as waterway corridors support year-round rodent populations. Yellowjackets nest in the ground of Riverton's residential lawns from June through October. Ground nests are treated in the evening with dust insecticide applied to the entrance. Treat in July when colonies are smaller for easier and less expensive resolution than late-season August treatment."
+      }
+    ],
+    prevention: [
+      "Apply annual black widow perimeter spray in April in Riverton's established garages, crawl spaces, and garden harborage sites",
+      "Mow lawns short in October before the first snow and set vole snap traps in active runways before snow cover conceals them",
+      "Seal foundation gaps and pipe penetrations in September before the October mouse entry window in mid-age Riverton homes",
+      "Treat yellowjacket ground nests in July when colonies are smaller and before August aggression peaks in the South Valley heat",
+      "Rake mulch back from the foundation edge six inches and apply perimeter spray to reduce earwig pressure in irrigated landscape beds"
+    ],
+    costNote: "Black widow perimeter spray in Riverton averages $130 to $250 per treatment. Vole control programs run $150 to $320 per season. Mouse exclusion and baiting for mid-age Riverton homes costs $250 to $500. Yellowjacket nest treatment averages $130 to $230 per nest. Earwig and general perimeter programs run $120 to $220.",
+    faqs: [
+      {
+        question: "I have lived in my Riverton home for years and just started seeing black widows. What changed?",
+        answer: "Black widow populations in established Riverton neighborhoods tend to expand into new sites as the spiders mature and disperse. A garage or crawl space that accumulated clutter over several years, or a new rock garden feature added to the landscaping, can establish a harborage site that did not exist before. Annual treatment prevents this accumulation. If you have not treated in several years, the current generation of spiders is larger and more established."
+      },
+      {
+        question: "My Riverton lawn looks fine in October but is full of vole runways in April. How do I stop this?",
+        answer: "Voles build their runway system through winter under snow cover, so the damage is invisible from October through March. The prevention window is October, before the first snowfall: mow short to eliminate the dense turf cover voles use for runways, and set snap traps in any active runways before snow arrives. This intercepts the population before it expands through winter. Spring treatment after snowmelt addresses whatever established despite preventive efforts."
+      },
+      {
+        question: "Is there more mouse pressure in Riverton near the Jordan River?",
+        answer: "Yes. Properties near the Bingham Creek and Jordan River corridors in Riverton see higher mouse pressure because waterway corridors provide year-round rodent habitat and population replenishment. Properties within a few blocks of these corridors benefit from year-round exterior bait station maintenance rather than seasonal-only programs."
+      }
+    ],
+    author: "Sandra Whitfield",
+    nearbyCities: [
+      { name: "South Jordan", slug: "south-jordan" },
+      { name: "Herriman", slug: "herriman" },
+      { name: "Draper", slug: "draper" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Riverton, UT | Black Widows, Voles & Mice",
+    metaDescription:
+      "Riverton pest control for black widow spiders, voles, mice and yellowjackets. Salt Lake County South Valley established neighborhood specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -1409,4 +1409,690 @@ export const oregonCities: CityLocation[] = [
     metaDescription:
       "Oregon City pest control for Norway rats, carpenter ants, odorous house ants and yellowjackets. Clackamas County Willamette Falls bluff and riverside specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "lake-oswego",
+    name: "Lake Oswego",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~40,290",
+    county: "Clackamas County",
+    climate: "temperate",
+    climateDriver: "Portland metro marine climate with mild, wet winters from October through April sustains crawl space moisture and canopy moisture that drive carpenter ant and moisture ant pressure across Lake Oswego's older residential stock.",
+    topPests: ["carpenter ants", "moisture ants", "house mice", "yellowjackets", "earwigs"],
+    pestProfile: [
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Peaks April through September", note: "Lake Oswego's mature Douglas fir and cedar canopy provides nesting habitat and foraging bridges for black carpenter ants moving into older and newer homes through overhanging branches and wood-to-soil contact at foundations." },
+      { name: "Moisture Ants", serviceSlug: "ant-control", activeSeason: "Peaks March through October", note: "Yellow moisture ants colonize damp subfloor voids in Lake Oswego homes near Oswego Lake and Tryon Creek, signaling underlying plumbing leaks or vapor barrier failure that need attention alongside ant treatment." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through March", note: "House mice enter Lake Oswego attics and wall voids through dime-sized gaps around pipe penetrations in fall, establishing colonies that persist through winter without intervention." },
+      { name: "Yellowjackets", activeSeason: "Peaks July through October", note: "Ground-nesting yellowjackets colonize landscaped lawns and mulched beds across Lake Oswego through late summer, with colonies reaching peak aggression in September when workers defend food sources aggressively." },
+      { name: "Earwigs", activeSeason: "Peaks May through August", note: "Lake Oswego's consistently moist landscape beds create prime earwig habitat, and populations move indoors through foundation gaps during summer heat spikes." },
+    ],
+    localHook: "Lake Oswego's combination of mature tree canopy, proximity to Oswego Lake, and homes built between the 1950s and 1980s creates above-average structural pest pressure that catches many residents off guard, particularly around carpenter ants and crawl space moisture issues.",
+    intro: "Lake Oswego, on the east shore of Oswego Lake in Clackamas County, sits under a nearly continuous canopy of Douglas fir and western red cedar that keeps the city cool and green through the Portland metro's wet season. That canopy is also prime carpenter ant habitat. Black carpenter ants nest in decaying wood along the lake and creek corridors and forage into homes through overhanging branches and wood-to-soil contact at foundations. Moisture ants, smaller and paler, show up in crawl spaces when there is damp or decaying wood, and finding them is usually a signal of a plumbing leak or vapor barrier problem that needs fixing. House mice move indoors every fall through gaps in foundations and utility penetrations that are easy to miss. Yellowjacket ground nests peak in late summer across the city's landscaped lots. Catching these issues early avoids structural repairs and repeat service calls.",
+    sections: [
+      {
+        heading: "Carpenter Ant and Moisture Ant Treatment",
+        body: "Black carpenter ants are the most common structural pest call in Lake Oswego. The city's older housing stock, combined with decades of Pacific Northwest rainfall, creates pockets of elevated wood moisture that attract carpenter ants looking for nesting sites in wall voids and subfloor framing. A licensed technician applies non-repellent perimeter spray that workers carry back to the colony, treats identified void spaces with dust insecticide, and checks the crawl space for damp wood. Trim all branches and shrubs to at least three feet from the roofline before service to eliminate foraging bridges. Yellow moisture ants in a crawl space carry a different implication: they only colonize wood that is already wet. Finding them means a plumbing leak, condensation problem, or vapor barrier gap needs to be resolved alongside ant treatment, or they will return within a season."
+      },
+      {
+        heading: "Mouse Entry Points and Exclusion",
+        body: "House mice enter Lake Oswego homes from late September as overnight temperatures drop, typically through gaps around pipe penetrations under sinks, dryer vent openings, and foundation sill plate gaps where wood meets concrete. A thorough inspection covers the exterior foundation at all pipe and wire entry points, the attic eaves, and the garage door seal. Tamper-resistant bait stations are placed in the attic, along garage walls, and in crawl space corners. Active entry points are sealed with steel wool and caulk or expanding foam with wire mesh backing. Sealing without baiting active populations first pushes mice to chew new entry points, so both steps run together."
+      },
+      {
+        heading: "Yellowjacket and Earwig Control",
+        body: "Yellowjacket ground nests in Lake Oswego lawns and mulched beds peak in August and September, when colonies reach 1,500 to 5,000 workers and foragers become aggressive near food. Ground nests are best treated after dark with dust insecticide injected into the opening. Do not seal the opening first. Most colonies collapse within 48 hours. Aerial nests under eaves need a pressurized liquid aerosol applied at dusk. Earwigs are a secondary nuisance in Lake Oswego's moist landscape beds. They do not bite or damage structure, but they move indoors through foundation cracks and sliding door tracks during summer heat waves. Residual spray at the foundation combined with raking back mulch from the house edge reduces populations significantly."
+      }
+    ],
+    prevention: [
+      "Trim all tree branches and shrubs to at least three feet from the roofline and siding to cut carpenter ant foraging routes",
+      "Maintain a full crawl space vapor barrier and keep vents unobstructed to reduce moisture ant risk",
+      "Seal gaps around pipe penetrations, dryer vents, and utility entries with steel wool and caulk before October",
+      "Store firewood at least 20 feet from the house and off the ground to reduce carpenter ant harborage near the foundation",
+      "Rake mulch back six inches from the foundation to deter earwig populations and reduce moisture ant conditions"
+    ],
+    costNote: "Carpenter ant treatment in Lake Oswego runs $200 to $400 per service visit, with follow-up guaranteed for 30 to 90 days. Moisture ant inspections including crawl space evaluation run $150 to $300. Mouse control with exclusion averages $300 to $600. Yellowjacket nest elimination costs $120 to $220 per nest.",
+    faqs: [
+      {
+        question: "Why do carpenter ants keep coming back after I spray my Lake Oswego home?",
+        answer: "Repellent sprays cause carpenter ant colonies to split and relocate rather than die. Non-repellent insecticides that foragers carry back to the nest are far more effective. If carpenter ants return after treatment, the outdoor nesting site in a tree stump, dead branch, or damp wall void has not been found and addressed."
+      },
+      {
+        question: "I found small pale yellow ants in my Lake Oswego crawl space. Should I be worried?",
+        answer: "Yellow moisture ants in a crawl space almost always mean there is damp or already-decayed wood present. They do not infest sound dry wood. Finding them is a signal to check for plumbing leaks, vapor barrier gaps, and crawl space ventilation problems. Resolving the moisture source is as important as the ant treatment itself."
+      },
+      {
+        question: "When is the right time to call about yellowjackets in my Lake Oswego yard?",
+        answer: "Call as soon as you identify a ground nest or repeated stinging activity. Colonies grow throughout summer and peak aggression in September makes removal harder and riskier. Early-season treatment in June or July is easier and less expensive than late-season emergency calls."
+      }
+    ],
+    author: "Marcus Reed",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Tigard", slug: "tigard" },
+      { name: "Oregon City", slug: "oregon-city" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Lake Oswego, OR | Carpenter Ants, Moisture Ants & Mice",
+    metaDescription:
+      "Lake Oswego pest control for carpenter ants, moisture ants, mice, and yellowjackets. Clackamas County specialists near Oswego Lake. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "keizer",
+    name: "Keizer",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~40,950",
+    county: "Marion County",
+    climate: "temperate",
+    climateDriver: "Willamette Valley temperate climate with 40 inches of annual rainfall concentrated from October through April creates the seasonal moisture in lawns and garden beds that drives vole and carpenter ant pressure across Keizer's suburban neighborhoods.",
+    topPests: ["voles", "yellowjackets", "carpenter ants", "house mice", "odorous house ants"],
+    pestProfile: [
+      { name: "Voles", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through April", note: "Meadow voles are a persistent lawn pest in Keizer, tunneling surface runways through grass and girdling ornamental shrubs during the wet season when ground cover is dense." },
+      { name: "Yellowjackets", activeSeason: "Peaks July through October", note: "Yellowjacket colonies build in ground cavities and under decking across Keizer's residential neighborhoods, reaching peak aggression in September when worker populations top out." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Peaks April through September", note: "Black carpenter ants from Willamette River corridor woodland enter Keizer homes through branches contacting rooflines and wood-to-soil contact at foundation perimeters." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks September through March", note: "House mice enter Keizer homes in early fall, exploiting gaps at garage door seals, pipe penetrations, and foundation sill plates as the Willamette Valley's rainy season begins." },
+      { name: "Odorous House Ants", serviceSlug: "ant-control", activeSeason: "Peaks February through October", note: "Odorous house ants trail into Keizer kitchens and bathrooms from shallow ground nests beginning in late February, spiking after rainfall events that flood nest sites." },
+    ],
+    localHook: "Keizer sits on Willamette River bottomland north of Salem, and its combination of lawn-heavy residential blocks and proximity to river corridor habitat makes vole lawn damage and seasonal ant invasions two of the most common pest complaints from homeowners here.",
+    intro: "Keizer, Marion County's city just north of Salem, was incorporated in 1982 and grew quickly into a bedroom community of suburban lots with large lawns, ornamental gardens, and mature street trees along the Willamette River corridor. That landscape profile, more lawns and garden beds than most Oregon cities of its size, is excellent habitat for meadow voles. Voles tunnel surface runways through grass and girdle the base of shrubs and young trees during the wet winter months, often leaving homeowners with dead ornamentals they discover in spring. Yellowjackets build colonies in ground cavities and under deck boards from spring through fall. Carpenter ants from the river corridor woodland enter homes through overhanging branches. House mice move indoors every autumn. The Willamette Valley's long wet season keeps pest pressure elevated from October through May.",
+    sections: [
+      {
+        heading: "Vole Damage in Keizer Lawns and Gardens",
+        body: "Meadow voles are small, stocky rodents that live almost entirely at ground level, and Keizer's suburban lawns give them everything they need: dense grass for runway cover, ornamental shrubs to girdle, and bulbs to eat through winter. The clearest sign is a network of surface tunnels roughly 2 inches wide meandering through your lawn, visible in spring after the grass greens up. Girdling strips bark from the base of shrubs in a ring that kills the plant above the damage. Control combines snap traps placed directly in active runways, bait stations along fence lines, and lawn management changes like mowing short before winter to reduce runway cover. A licensed technician can identify active runways and set traps correctly, which makes a significant difference in control speed."
+      },
+      {
+        heading: "Yellowjacket and Carpenter Ant Season",
+        body: "Yellowjackets begin building colonies in Keizer in April and reach their most aggressive phase in August and September, when ground-nesting colonies may contain 1,500 to 4,000 workers. Ground nests under lawn areas and under deck boards are the most common sites in Keizer. Treat nests after dark with dust insecticide applied to the entrance opening; most colonies collapse within 48 hours. Carpenter ants forage into Keizer homes from nesting sites in the Willamette River corridor woodland, often traveling along fence lines and branches that contact the roofline. Non-repellent perimeter spray applied at the foundation and trim points is the most effective treatment, letting workers carry the product back to the colony rather than repelling them temporarily."
+      },
+      {
+        heading: "Mouse and Odorous Ant Prevention",
+        body: "House mice enter Keizer homes beginning in September through gaps around pipe penetrations, dryer vent openings, and the foundation sill plate. Bait stations set inside the garage and in the attic, combined with steel wool and caulk sealing at active entry points, resolve most infestations within three to four weeks. Odorous house ants, the tiny ants that smell like blue cheese or coconut when crushed, begin trailing indoors from late February after rain events flood shallow ground nests. Interior gel bait placed at entry points like expansion joints and cabinet bases outperforms repellent spray because workers carry it back to the nest. Repellent sprays scatter the colony and multiply trail entry points."
+      }
+    ],
+    prevention: [
+      "Mow lawns short in October before the wet season to reduce vole runway cover through winter",
+      "Place hardware cloth cylinders around the base of young trees and shrubs to prevent vole girdling",
+      "Trim branches and shrubs to three feet from the roofline to cut carpenter ant access",
+      "Seal garage door side gaps and pipe penetrations before September to prevent mouse entry",
+      "Use interior gel bait rather than repellent sprays for odorous house ant control"
+    ],
+    costNote: "Vole control programs in Keizer typically run $150 to $300 for initial trapping plus lawn management guidance. Yellowjacket nest elimination costs $110 to $210 per nest. Carpenter ant perimeter spray programs average $180 to $350. Mouse exclusion and baiting runs $250 to $500 depending on the number of entry points.",
+    faqs: [
+      {
+        question: "My Keizer lawn has surface tunnels running through it. Are these moles or voles?",
+        answer: "If the tunnels are shallow surface runways at ground level, they are almost certainly voles. Mole tunnels are deeper and create raised ridges or mounds of displaced soil. Voles live above ground and are often visible during the day. Both can be controlled, but the methods differ, so correct identification matters before treatment."
+      },
+      {
+        question: "Why do yellowjackets in my Keizer yard seem so much worse in September?",
+        answer: "Yellowjacket colonies grow all summer and reach their largest worker population in late August and September. At peak size the colony consumes more protein to feed larvae, making foragers more aggressive near food sources. September is the most dangerous time to disturb a nest accidentally."
+      },
+      {
+        question: "How do I stop odorous house ants from coming back every spring in my Keizer kitchen?",
+        answer: "Odorous house ants enter from shallow ground nests that get flooded by spring rain. Interior gel bait placed at the points where ants trail in is the most effective treatment. Avoid repellent sprays, which scatter the colony. Correcting any leaky pipes or damp areas under sinks reduces the attractant that draws them to the kitchen year after year."
+      }
+    ],
+    author: "Dr. Lena Ortiz",
+    nearbyCities: [
+      { name: "Salem", slug: "salem" },
+      { name: "Portland", slug: "portland" },
+      { name: "Corvallis", slug: "corvallis" }
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Keizer, OR | Voles, Yellowjackets & Carpenter Ants",
+    metaDescription:
+      "Keizer pest control for voles, yellowjackets, carpenter ants, and mice. Marion County Willamette Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mcminnville-or",
+    name: "McMinnville",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~36,430",
+    county: "Yamhill County",
+    climate: "temperate",
+    climateDriver: "Chehalem Valley temperate marine climate with 40 inches of annual rainfall and warm dry summers creates the seasonal pest cycles typical of Oregon wine country, including peak yellowjacket pressure in August and elevated carpenter ant activity through late spring.",
+    topPests: ["yellowjackets", "carpenter ants", "house mice", "moisture ants", "cluster flies"],
+    pestProfile: [
+      { name: "Yellowjackets", activeSeason: "Peaks July through October", note: "McMinnville's mix of agricultural land, vineyards, and suburban residential lots provides ample ground-nesting habitat for yellowjackets, which reach peak aggression in August and September near outdoor dining and harvest events." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Peaks March through September", note: "Black carpenter ants are a consistent structural pest in McMinnville's older downtown and mid-century residential neighborhoods, where decades of Pacific Northwest rainfall have created moisture-damaged wood in aging structures." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks September through March", note: "House mice move from field and orchard edges surrounding McMinnville into homes every fall, entering through foundation gaps and crawl space vents as Yamhill County's agricultural surroundings push rodent pressure into town." },
+      { name: "Moisture Ants", serviceSlug: "ant-control", activeSeason: "Peaks March through October", note: "Yellow moisture ants appear in McMinnville crawl spaces with inadequate vapor barriers, signaling damp wood conditions that need correction alongside pest treatment." },
+      { name: "Cluster Flies", activeSeason: "Peaks September through November", note: "Cluster flies enter McMinnville homes in October seeking overwintering sites in wall voids and attics, emerging on warm winter days to buzz at south-facing windows in a pattern that alarms many homeowners." },
+    ],
+    localHook: "McMinnville is Yamhill County's largest city and the commercial center of Oregon wine country. Its agricultural surroundings, aging downtown commercial blocks, and orchard-edge neighborhoods create a pest environment with stronger field rodent pressure in autumn and cluster fly infestations in older structures.",
+    intro: "McMinnville serves as the hub for Oregon's wine country, with Pinot Noir vineyards and farm fields surrounding the city on the Chehalem Valley floor. For pest control, that agricultural setting matters: field mice from surrounding farmland push into residential neighborhoods every autumn, and yellowjackets thrive in the mix of open ground and garden areas that the wine region provides. Inside McMinnville's older downtown buildings and mid-century homes, carpenter ants exploit moisture-damaged wood, and cluster flies overwinter in wall voids and attics. Understanding which pest type you are dealing with determines which treatment approach works.",
+    sections: [
+      {
+        heading: "Yellowjackets vs. Paper Wasps: What McMinnville Residents Need to Know",
+        body: "Both yellowjackets and paper wasps sting, but they behave very differently and need different treatments. Yellowjackets in McMinnville typically nest in ground cavities in lawns and garden beds, or in wall voids of older structures. They are aggressive defenders and will sting repeatedly. Paper wasps build open umbrella-shaped nests under eaves and in shrubs. They are less aggressive but will sting if you reach near a nest unknowingly. For yellowjackets, evening treatment with dust insecticide applied to the ground nest entrance is the most effective approach. For paper wasps, a pressurized aerosol applied to the nest at dusk from a safe distance is sufficient. Misidentifying a yellowjacket ground nest as a paper wasp situation leads to ineffective treatments and unnecessary stings."
+      },
+      {
+        heading: "Carpenter Ants vs. Moisture Ants in McMinnville Structures",
+        body: "Carpenter ants and moisture ants are both common in McMinnville, and they are easy to confuse because both appear in damp or wood-adjacent areas. Carpenter ants are larger, typically black or bi-colored, and excavate galleries in wood to nest. Moisture ants are smaller and yellow-brown, and they only colonize wood that is already wet or decaying. Carpenter ants in McMinnville's older homes and commercial buildings signal aging wood that ants find compromised. Moisture ants signal active water intrusion. Both need ant treatment, but moisture ant infestations also require fixing the underlying moisture source, whether a slow roof leak, condensation in a crawl space, or a plumbing drip. Treating the ants without fixing the moisture brings them back within a season."
+      },
+      {
+        heading: "Mouse Control and Cluster Fly Season",
+        body: "McMinnville's agricultural surroundings create above-average mouse pressure in autumn. House mice move from harvested field edges and orchard perimeters into residential neighborhoods in September and October. Entry points are often at pipe penetrations, foundation vents, and gaps under garage doors. A technician places bait stations and seals active entry points. Cluster flies, which look like large sluggish house flies, enter in October seeking attic and wall void overwintering sites in McMinnville's older homes. They are harmless but disorienting when they emerge on warm winter days to buzz at windows. Preventive attic treatment with residual insecticide in September, before entry, is the most effective approach."
+      }
+    ],
+    prevention: [
+      "Inspect and seal foundation vents and crawl space openings in August before field mice begin their autumn move into town",
+      "Trim branches and shrubs to three feet from the roofline to reduce carpenter ant access to older downtown structures",
+      "Apply vapor barriers and improve crawl space ventilation to eliminate conditions that attract moisture ants",
+      "Treat attic perimeter walls with residual insecticide in September to prevent cluster fly overwintering",
+      "Place snap traps in active vole runways in garden beds before the wet season begins in October"
+    ],
+    costNote: "Yellowjacket nest treatment in McMinnville runs $110 to $210 per nest. Carpenter ant treatment averages $200 to $380. Mouse exclusion and baiting programs cost $250 to $500 for a standard home. Cluster fly preventive attic treatment runs $150 to $275. Moisture ant inspection with crawl space evaluation costs $150 to $300.",
+    faqs: [
+      {
+        question: "How do I tell yellowjackets from paper wasps near my McMinnville home?",
+        answer: "Yellowjackets have bright yellow and black banding and build covered nests, usually underground or inside wall voids. Paper wasps have longer bodies with a narrower waist and build open, umbrella-shaped nests that look like gray honeycomb under eaves. Yellowjackets are significantly more aggressive, especially in late summer."
+      },
+      {
+        question: "Are cluster flies dangerous in my McMinnville home?",
+        answer: "Cluster flies do not bite, sting, or carry disease. They do not breed indoors. The concern is the sheer number that can accumulate in wall voids and attics through winter. On warm days they become active and move toward light. Treatment focuses on preventing entry in September rather than eliminating existing populations."
+      },
+      {
+        question: "Why do I get so many mice in the fall near my McMinnville home?",
+        answer: "McMinnville's position within Yamhill County's agricultural landscape means surrounding field and orchard edges harbor high mouse populations. Harvest activity in September and October disturbs field habitat and drives mice toward structures for warmth. Agricultural-edge neighborhoods in McMinnville see consistently higher autumn rodent pressure than Portland metro suburbs."
+      }
+    ],
+    author: "Sandra Whitfield",
+    nearbyCities: [
+      { name: "Salem", slug: "salem" },
+      { name: "Portland", slug: "portland" },
+      { name: "Corvallis", slug: "corvallis" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in McMinnville, OR | Yellowjackets, Carpenter Ants & Mice",
+    metaDescription:
+      "McMinnville pest control for yellowjackets, carpenter ants, mice, and cluster flies. Yamhill County wine country specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "tualatin",
+    name: "Tualatin",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~30,080",
+    county: "Washington County",
+    climate: "temperate",
+    climateDriver: "Washington County marine temperate climate with over 38 inches of annual rainfall and proximity to the Tualatin River creates elevated crawl space moisture in lowland residential areas, driving moisture ant and Norway rat pressure in riverside neighborhoods.",
+    topPests: ["moisture ants", "Norway rats", "silverfish", "earwigs", "carpenter ants"],
+    pestProfile: [
+      { name: "Moisture Ants", serviceSlug: "ant-control", activeSeason: "Peaks March through October", note: "Yellow moisture ants colonize damp subfloor and crawl space framing in Tualatin homes near the Tualatin River and Hedges Creek Marsh, signaling active water intrusion that requires correction alongside ant treatment." },
+      { name: "Norway Rats", serviceSlug: "rodent-control", activeSeason: "Year-round", note: "Norway rats maintain colonies along the Tualatin River and Hedges Creek corridor, foraging into commercial and residential properties adjacent to the waterway throughout the year." },
+      { name: "Silverfish", activeSeason: "Year-round", note: "Silverfish thrive in Tualatin's humid crawl spaces and damp wall voids, feeding on paper, cardboard, and cellulose materials stored in basements and closets of older homes." },
+      { name: "Earwigs", activeSeason: "Peaks May through August", note: "Earwigs are abundant in Tualatin's moist landscape beds and low-lying garden areas, moving indoors during summer heat events through sliding door tracks and foundation cracks." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Peaks April through September", note: "Black carpenter ants forage into Tualatin homes from wooded greenway corridors along the river and city parks, exploiting aged or moisture-affected wood in wall framing." },
+    ],
+    localHook: "Tualatin occupies low-lying ground along the Tualatin River and is crossed by Hedges Creek, giving the city a wetter baseline than most Washington County neighbors. Riverfront commercial properties and residential areas near the creek see consistent Norway rat and moisture ant pressure tied directly to that waterway habitat.",
+    intro: "Tualatin sits on low ground in southern Washington County where the Tualatin River curves through commercial and residential areas, and that geography shapes the city's pest environment in specific ways. Norway rats maintain permanent colonies in the Tualatin River bank habitat and forage into adjacent commercial properties and homes along Southwest Boones Ferry Road year-round. Moisture ants appear in crawl spaces when damp conditions develop in the low-lying subfloor framing common to homes near the river and Hedges Creek Marsh. Silverfish thrive in the same humid conditions, living in wall voids and feeding on paper and cardboard in damp storage areas. Knowing what you have and what is driving it determines whether you need ant treatment, a moisture correction, or rodent exclusion work.",
+    sections: [
+      {
+        heading: "What Is Causing the Ants in My Tualatin Crawl Space?",
+        body: "Moisture ants in a Tualatin crawl space almost always mean there is damp or already-softened wood present, not just seasonal dampness in the soil. Yellow moisture ants (Lasius pallitarsis) do not infest sound dry wood. Finding them is a prompt to inspect for plumbing drips, failed vapor barriers, inadequate crawl space ventilation, or standing water. The ant treatment itself, a non-repellent liquid or dust application, is straightforward. The moisture source correction is the part that prevents return infestations. Carpenter ants are also present in Tualatin and look similar to the untrained eye, but they are larger, darker, and found in a broader range of conditions. A technician can identify which species is present and determine the right approach."
+      },
+      {
+        heading: "Norway Rat Control Along the Tualatin River",
+        body: "Do Norway rats in commercial Tualatin properties near the river ever go away permanently? The honest answer is no, not without an ongoing maintenance program. Norway rat colonies in the Tualatin River bank are a permanent population source. Without sustained exterior bait station maintenance, properties near the waterway will be recolonized even after successful interior treatment. For commercial properties on the river corridor, a monthly exterior bait station program is the baseline. For residential properties, a seasonal program from September through April covers the peak pressure window. Entry point sealing at foundation voids, loading dock gaps, and crawl space vents reduces interior activity significantly when combined with ongoing baiting."
+      },
+      {
+        heading: "Silverfish, Earwigs, and Indoor Moisture Pests",
+        body: "Silverfish do not bite or sting but they feed on paper, book bindings, cardboard, and stored textiles, and they can cause real damage over time in damp storage areas. Tualatin's humidity levels, particularly in homes near the river and creek, make silverfish a persistent problem in basements, closets, and garage storage spaces. Reducing storage clutter, improving ventilation, and fixing any moisture sources dramatically reduces populations. Residual perimeter spray addresses indoor populations. Earwigs in Tualatin are a nuisance pest that enter through foundation cracks and sliding door tracks in summer. They do not damage structure or carry disease. Reducing moist mulch directly against the foundation and applying perimeter spray controls outdoor populations before they move inside."
+      }
+    ],
+    prevention: [
+      "Install and maintain a full crawl space vapor barrier with minimum 6-mil plastic to reduce moisture ant and silverfish conditions",
+      "Service Tualatin River-adjacent properties with monthly exterior bait stations year-round for Norway rat control",
+      "Seal pipe penetrations, foundation vents, and utility openings with hardware cloth and caulk before the fall rodent migration",
+      "Rake mulch back from the foundation edge six inches to reduce earwig harborage and moisture ant attractants",
+      "Store cardboard boxes and paper materials on shelving six inches off the floor to remove silverfish feeding sites"
+    ],
+    costNote: "Moisture ant inspections with crawl space evaluation in Tualatin run $150 to $300. Norway rat commercial programs start at $200 per month for exterior bait station maintenance. Residential mouse and rat programs with exclusion cost $300 to $600. Silverfish treatment combined with moisture reduction guidance runs $150 to $275. Earwig perimeter programs average $120 to $220.",
+    faqs: [
+      {
+        question: "Why do I keep finding ants in my Tualatin crawl space every year?",
+        answer: "If they are moisture ants, the crawl space likely has an ongoing damp wood condition from a slow plumbing drip, insufficient ventilation, or a vapor barrier that has shifted or torn. Ant treatment eliminates the current population, but without correcting the moisture source, new colonies establish within one to two seasons. A crawl space inspection is the first step."
+      },
+      {
+        question: "Is it normal to have Norway rats near the Tualatin River waterfront?",
+        answer: "Yes. Norway rats maintain permanent colonies in riverbank habitat and are a standard feature of waterfront pest management in Tualatin and across the Tualatin Valley. Properties within one to two blocks of the river see consistent foraging pressure. An ongoing exterior bait station program is the most practical long-term approach."
+      },
+      {
+        question: "How do I get rid of silverfish in my Tualatin home?",
+        answer: "Start by reducing humidity in affected areas. Silverfish require high moisture levels to survive and reproduce. Fix plumbing drips, improve ventilation, and remove stored cardboard from damp areas. Residual perimeter spray and void treatments address existing populations. Without the humidity correction, chemical treatment alone produces only a temporary improvement."
+      }
+    ],
+    author: "Marcus Reed",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Tigard", slug: "tigard" },
+      { name: "Beaverton", slug: "beaverton" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Tualatin, OR | Moisture Ants, Norway Rats & Silverfish",
+    metaDescription:
+      "Tualatin pest control for moisture ants, Norway rats, silverfish, and earwigs. Washington County Tualatin River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "roseburg",
+    name: "Roseburg",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~24,030",
+    county: "Douglas County",
+    climate: "temperate",
+    climateDriver: "Umpqua River valley climate is warmer and drier than coastal Oregon, with hot dry summers that drive yellowjacket and black widow activity, and mild wet winters that push house mice into structures from the surrounding forested hillsides above the city.",
+    topPests: ["yellowjackets", "house mice", "black widows", "carpenter ants", "odorous house ants"],
+    pestProfile: [
+      { name: "Yellowjackets", activeSeason: "Peaks June through October", note: "Douglas County's warm Umpqua Valley summers produce large yellowjacket colonies in ground cavities and wall voids across Roseburg residential areas, with peak aggression in August and September." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks September through March", note: "House mice move from surrounding forested hillsides and Umpqua River corridor into Roseburg homes in autumn, entering through foundation gaps and utility penetrations in older downtown and residential areas." },
+      { name: "Black Widows", activeSeason: "Peaks May through October", note: "Black widow spiders are established in Roseburg's warmer Umpqua Valley climate, nesting in wood piles, under decking, in utility sheds, and in crawl spaces and meter boxes of residential properties." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Peaks March through September", note: "Black carpenter ants from the forested hills above Roseburg forage into older homes along the river and near downtown, exploiting moisture-affected wood in aging structures." },
+      { name: "Odorous House Ants", serviceSlug: "ant-control", activeSeason: "Peaks February through October", note: "Odorous house ants trail into Roseburg kitchens from shallow ground nests beginning in late winter, peaking after spring rain events that flood nest sites." },
+    ],
+    localHook: "Roseburg sits in the South Umpqua River valley surrounded by Douglas County's forested hills, creating pest pressure that differs from the Portland metro. Black widows are established here in conditions that do not support them in wetter western Oregon cities, and the warmer valley climate produces more sustained yellowjacket pressure through late October.",
+    intro: "Roseburg, Douglas County's seat, occupies the South Umpqua River valley at an elevation that gives it warmer, drier summers than coastal Oregon and colder winters than the Willamette Valley floor north of Eugene. That climate profile directly shapes the pest mix. Yellowjackets thrive in the warm valley conditions and nest in lawns, under decking, and in wall voids across the city. Black widow spiders, uncommon in Portland, are well established in Roseburg's warmer southern Oregon climate, found in wood piles, under decks, in crawl spaces, and in utility sheds. House mice from the surrounding forested hillsides move into homes each fall. Carpenter ants from the timber country above the city forage into older downtown structures. Being specific about which pest you have shapes every treatment decision.",
+    sections: [
+      {
+        heading: "Yellowjacket and Black Widow Control in Roseburg",
+        body: "Yellowjackets: ground-nesting colonies in residential lawns are treated with dust insecticide in the evening when workers have returned to the nest. Wall void nests in older downtown buildings require drill-and-dust access. Do not attempt to seal nest openings before treatment. Black widows: the Umpqua Valley's warmer summers allow black widow populations to establish in a range of outdoor harborage sites. Check wood piles, under decking, in crawl spaces, and around utility meter boxes annually. Residual spray applied to foundation walls, crawl space perimeters, and around exterior utility areas in spring reduces populations effectively. Annual treatment combined with removing web and egg sac sites is the standard management approach in Roseburg."
+      },
+      {
+        heading: "Mouse Control in Roseburg",
+        body: "Roseburg's proximity to forested hillsides drives a consistent autumn rodent migration into residential neighborhoods. House mice from the timber-country slopes above the city begin moving into structures in late September as temperatures drop. Seal foundation gaps, pipe penetrations, and crawl space vents before October. Place bait stations in the attic, garage, and along exterior walls. Mice entering through gaps in the foundation sill plate and dryer vent connections are the most common entry points in Roseburg's older homes. Steel wool packed firmly into gaps, followed by caulk or expanding foam, holds better than foam alone."
+      },
+      {
+        heading: "Carpenter Ant and Odorous Ant Treatment",
+        body: "Carpenter ants are a structural pest concern in Roseburg's older neighborhoods along the river and near downtown. Homes with aging wood, moisture problems from roof leaks or plumbing, and large trees overhanging the roofline are at highest risk. A non-repellent perimeter spray program combined with targeted void dust treatments provides effective control. Odorous house ants trail indoors from February and become a kitchen and bathroom nuisance through late fall. Interior gel bait placed at trailing points, typically expansion joints, counter edges, and under-sink pipe gaps, outperforms repellent spray. Repellent sprays scatter the colony across more entry points, worsening the problem temporarily."
+      }
+    ],
+    prevention: [
+      "Move firewood storage away from the home and inspect it for black widows before handling",
+      "Apply perimeter residual spray annually in spring to reduce black widow and odorous ant pressure",
+      "Seal foundation vents and pipe penetrations before October to block the autumn mouse migration from surrounding hills",
+      "Trim branches to three feet from the roofline to cut carpenter ant foraging bridges from timber-country trees",
+      "Treat ground-nesting yellowjacket colonies in June or early July when colonies are small and easier to eliminate"
+    ],
+    costNote: "Yellowjacket nest elimination in Roseburg runs $110 to $200 per nest. Black widow perimeter treatment averages $180 to $320 per visit. Mouse exclusion and baiting programs cost $250 to $500. Carpenter ant treatment runs $190 to $380. Odorous house ant interior programs start at $140.",
+    faqs: [
+      {
+        question: "Are black widows common in Roseburg?",
+        answer: "Yes. Roseburg's warmer Umpqua Valley climate supports established black widow populations. They are found under decking, in wood piles, in crawl spaces, in utility sheds, and around meter boxes. Check these areas regularly and wear gloves when reaching into dark spaces. Annual perimeter treatment significantly reduces the risk of encountering them."
+      },
+      {
+        question: "When do yellowjackets become dangerous in Roseburg?",
+        answer: "Yellowjacket colonies are dangerous whenever disturbed, but August and September are peak risk months in Roseburg because colony size and worker aggression are at their highest. Ground nests in lawns are easy to step on accidentally. If you mow over a nest, move away quickly and do not swat. Call for treatment that evening."
+      },
+      {
+        question: "How do I stop mice from getting into my Roseburg home every fall?",
+        answer: "Exclusion is the most effective long-term control. Seal all gaps at the foundation, around pipe penetrations, at crawl space vents, and at the garage door seal before September. Mice can squeeze through openings the size of a dime. Combine exclusion with exterior bait stations placed along the foundation perimeter for a two-layer defense."
+      }
+    ],
+    author: "Dr. Lena Ortiz",
+    nearbyCities: [
+      { name: "Eugene", slug: "eugene" },
+      { name: "Medford", slug: "medford" },
+      { name: "Grants Pass", slug: "grants-pass" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Roseburg, OR | Yellowjackets, Black Widows & Mice",
+    metaDescription:
+      "Roseburg pest control for yellowjackets, black widows, mice, and carpenter ants. Douglas County Umpqua Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "klamath-falls",
+    name: "Klamath Falls",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~21,840",
+    county: "Klamath County",
+    climate: "semi-arid",
+    climateDriver: "Klamath Falls sits at 4,100 feet on a high desert plateau with cold, snowy winters and hot dry summers, a climate that drives mice into structures from October onward and supports black widow populations and boxelder bug aggregations not seen in the wetter Willamette Valley.",
+    topPests: ["house mice", "boxelder bugs", "black widows", "voles", "cluster flies"],
+    pestProfile: [
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through April", note: "House mice seek warmth in Klamath Falls structures as high-desert temperatures drop below 40 degrees from October, entering through foundation gaps and utility entries in both residential and commercial properties." },
+      { name: "Boxelder Bugs", activeSeason: "Peaks September through November and February through April", note: "Boxelder bugs aggregate on the south-facing walls of Klamath Falls homes in September seeking overwintering sites in wall voids and attics, emerging again on warm winter days to cluster at windows." },
+      { name: "Black Widows", activeSeason: "Peaks April through October", note: "Black widow spiders are well established in Klamath Falls' semi-arid climate, found in wood piles, under decking, in crawl spaces, outbuildings, and utility meter boxes throughout the city." },
+      { name: "Voles", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through April", note: "Voles damage Klamath Falls lawns and ornamental plantings year-round, with surface runway damage most visible after snowmelt reveals tunneling activity from the winter months." },
+      { name: "Cluster Flies", activeSeason: "Peaks September through November", note: "Cluster flies enter Klamath Falls homes through gaps at eaves and attic vents in October, overwintering in wall voids and emerging on warm winter days to buzz at south-facing windows." },
+    ],
+    localHook: "Klamath Falls is one of Oregon's highest-elevation cities, sitting on a semi-arid plateau above Klamath Lake, and its pest environment reflects that high desert position. Cold winters drive mice into buildings more aggressively than anywhere in western Oregon, and the warm dry summers support black widow populations and boxelder bug aggregations rarely seen in the wetter Willamette Valley.",
+    intro: "Klamath Falls, at 4,100 feet on the Klamath Plateau in southern Oregon, has pest challenges shaped by elevation and climate more than by any other factor. When overnight temperatures drop below 40 degrees in October, house mice begin pushing into every available gap in foundations and utility systems. This is not a seasonal nuisance here; it is sustained pressure that runs through April. Boxelder bugs aggregate in hundreds on south-facing walls every September, seeking overwintering sites in wall voids and attics. Black widow spiders are established in the city's sheltered exterior sites, particularly wood piles, under decks, and in crawl spaces and outbuildings. Voles work lawns and garden beds year-round. The field manual for Klamath Falls pest control starts with sealing and ends with sustained monitoring.",
+    sections: [
+      {
+        heading: "Step 1: Mouse-Proof Your Klamath Falls Home Before October",
+        body: "In Klamath Falls, mouse exclusion is not optional. The high-elevation climate creates a temperature differential in autumn that drives field mice to seek warmth inside structures more aggressively than in lower-elevation Oregon cities. The exclusion checklist covers the full perimeter: seal every gap at pipe penetrations with steel wool and caulk, inspect the foundation sill plate for separation where wood meets concrete, check the garage door seal for side gaps and bottom damage, and inspect crawl space vents for damaged screens. A dime-sized gap is enough for a house mouse. After sealing, place tamper-resistant bait stations along the interior garage walls, in the attic, and along the crawl space perimeter. The bait stations serve as your early warning system even after sealing is complete, because mice find gaps that inspections miss."
+      },
+      {
+        heading: "Step 2: Boxelder Bug and Cluster Fly Prevention in September",
+        body: "Boxelder bugs and cluster flies both use Klamath Falls homes as overwintering sites, and both become a problem at the same time: September and October. Boxelder bugs aggregate on warm south and west-facing walls by the hundreds before pushing through gaps into wall voids and attics. Cluster flies, which are large, sluggish flies that move slowly in winter, enter through eave gaps and attic vents at the same time. The same preventive treatment addresses both: a residual spray applied to exterior siding and eave surfaces in late August or early September, combined with caulking of any eave and attic vent gaps. Once inside, these insects are difficult to fully eliminate until they emerge in spring. Prevention before entry is far more effective than interior treatment after the fact."
+      },
+      {
+        heading: "Step 3: Black Widow Control in Klamath Falls",
+        body: "Black widows are present throughout Klamath Falls and are found in the sheltered, dry sites they prefer: wood piles, the undersides of decks and exterior stairs, in crawl spaces, around utility meter boxes, and in outbuildings and sheds. The semi-arid high desert climate here supports them in conditions that do not exist in wetter western Oregon. Annual perimeter residual spray in spring, before populations peak, combined with physical removal of webs and egg sacs from wood piles and crawl spaces, is the most effective approach. Wear gloves and long sleeves when reaching into any sheltered outdoor storage area in Klamath Falls. Do not shake out clothing or shoes left outside without checking first."
+      }
+    ],
+    prevention: [
+      "Seal all exterior gaps at pipe penetrations, sill plates, and crawl space vents before October when mouse pressure peaks",
+      "Apply residual spray to exterior siding and eave gaps in late August to prevent boxelder bug and cluster fly entry",
+      "Conduct annual black widow perimeter treatment in April before the warm-season activity peak",
+      "Move wood piles away from the structure and inspect them regularly for black widow webs",
+      "Mow lawns short before the first snow to reduce vole runway cover under snow pack"
+    ],
+    costNote: "Mouse exclusion and baiting programs in Klamath Falls average $300 to $600 depending on the number of entry points. Boxelder bug and cluster fly preventive treatment runs $150 to $300. Black widow perimeter spray averages $180 to $350. Vole control programs start at $150 for initial trapping and assessment.",
+    faqs: [
+      {
+        question: "Why do so many mice get into Klamath Falls homes in winter?",
+        answer: "Klamath Falls sits at 4,100 feet elevation, and the temperature differential between outdoor cold and indoor warmth from October through April is the primary driver. House mice and deer mice in surrounding high-desert terrain actively seek warmth in structures, and the older housing stock in Klamath Falls has more gaps and penetration points than newer construction. Thorough exclusion work before October is the most effective defense."
+      },
+      {
+        question: "Are the masses of red and black bugs on my Klamath Falls house harmful?",
+        answer: "Those are boxelder bugs, and they are harmless. They do not bite, sting, or damage the structure. They are attracted to the warmth of south-facing walls in September and looking for a way inside to overwinter. They can stain light-colored fabrics if crushed. Preventive spray on exterior surfaces in late August keeps them from entering. Vacuuming is the safest removal method for any that get indoors."
+      },
+      {
+        question: "How serious are black widows in Klamath Falls?",
+        answer: "Black widows in Klamath Falls are an established pest requiring routine attention, not an occasional sighting. The semi-arid climate supports them in a range of exterior sites. Their venom is medically significant, particularly for children and the elderly. Annual perimeter treatment, combined with removing web sites and wearing gloves in outdoor storage areas, keeps risk low."
+      }
+    ],
+    author: "James Cole",
+    nearbyCities: [
+      { name: "Medford", slug: "medford" },
+      { name: "Bend", slug: "bend" },
+      { name: "Eugene", slug: "eugene" }
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Klamath Falls, OR | Mice, Black Widows & Boxelder Bugs",
+    metaDescription:
+      "Klamath Falls pest control for mice, black widows, boxelder bugs and cluster flies. Klamath County high-desert specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "ashland-or",
+    name: "Ashland",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~21,360",
+    county: "Jackson County",
+    climate: "mediterranean",
+    climateDriver: "Ashland's Rogue Valley location brings warmer, drier conditions than the Willamette Valley, with summer temperatures regularly above 90 degrees and a pronounced dry season from June through September that drives pest behavior distinctly from wetter western Oregon cities.",
+    topPests: ["yellowjackets", "black widows", "house mice", "paper wasps", "carpenter ants"],
+    pestProfile: [
+      { name: "Yellowjackets", activeSeason: "Peaks June through October", note: "Ashland's warm Rogue Valley summers produce large and aggressive yellowjacket colonies that peak in August and September, with ground nests in residential lawns and wall void nests in older Ashland homes posing the highest sting risk." },
+      { name: "Black Widows", activeSeason: "Peaks April through October", note: "Black widows are well established in Ashland's warmer southern Oregon climate, found in wood piles, crawl spaces, under decks, and in outbuildings across the city." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks September through March", note: "House mice from Rogue Valley field edges move into Ashland homes in autumn, entering through foundation gaps and gaps around utility penetrations in the city's older residential neighborhoods." },
+      { name: "Paper Wasps", activeSeason: "Peaks May through September", note: "Paper wasps build open, umbrella-shaped nests under eaves, in porch lights, and in garden structures across Ashland from spring through early fall, stinging if the nest is disturbed." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Peaks March through September", note: "Carpenter ants forage into Ashland homes from wooded hillside habitat on the slopes above the city, particularly in older homes with moisture-affected wood from Rogue Valley rain cycles." },
+    ],
+    localHook: "Ashland is a small arts city on the edge of the Siskiyou Mountains in Jackson County, and its warmer, drier character compared to the Willamette Valley makes black widows, yellowjackets, and paper wasps a more prominent part of local pest life than residents coming from Portland or Eugene expect.",
+    intro: "Ashland's location in the Rogue Valley, just north of the California border in Jackson County, gives it a warmer and drier climate than most Oregon cities. Summer temperatures regularly exceed 90 degrees, and the dry season runs from June through September. That warmer, drier character has real implications for which pests you encounter. Black widows are established throughout Ashland in a way they are not in Portland. Yellowjackets produce large, aggressive colonies that peak in late summer and stay active well into October. Paper wasps build nests under every available eave and in garden structures from May through September. House mice from surrounding Rogue Valley farm fields move indoors when autumn nights cool. Knowing which pest you have and understanding its behavior cycle makes treatment choices clearer.",
+    sections: [
+      {
+        heading: "Yellowjackets and Paper Wasps in Ashland",
+        body: "Ashland homeowners deal with both yellowjackets and paper wasps every summer, and the two species require different treatment approaches. Yellowjackets in Ashland build ground nests in lawn areas and wall void nests in older homes, and they defend both aggressively. Evening treatment with dust insecticide applied directly to the nest entrance resolves ground nests in 24 to 48 hours. Do not attempt to seal the entrance before treatment. Paper wasps build open, umbrella-shaped nests under eaves, in porch light fixtures, and in outdoor furniture. They are generally less aggressive than yellowjackets unless you reach near the nest. A pressurized aerosol applied from a distance at dusk removes most nests safely. Both species reach peak aggression in August and September as colony size peaks and food sources become competitive."
+      },
+      {
+        heading: "Black Widows in Ashland's Warmer Climate",
+        body: "Ashland's Rogue Valley climate supports established black widow populations in ways that western Oregon cities like Portland do not. Black widows in Ashland are found in the typical harborage sites: wood piles, under deck boards, in crawl spaces, around utility meter boxes, in outbuildings, and in the foundation gaps of older structures. They are active from April through October. Annual perimeter spray applied in spring, before the warm-season activity peak, is the most effective preventive measure. Remove wood piles stored against the house and inspect them regularly. Wear gloves whenever reaching into any dark exterior storage space in Ashland. If you find a black widow in a high-traffic area where children or pets have access, call for same-day treatment."
+      },
+      {
+        heading: "Mouse Control and Autumn Pest Season",
+        body: "Rogue Valley farm fields and orchard land surrounding Ashland create consistent mouse pressure beginning in September. House mice enter Ashland homes through foundation gaps, pipe penetrations, and crawl space vents as overnight temperatures drop. Ashland's older neighborhoods near Lithia Creek and the hillside above Main Street have more entry point opportunities than newer construction. A thorough exclusion inspection identifies and seals active gaps before mice are already inside. Interior bait station placement in the attic and garage covers the areas mice typically occupy first. Carpenter ants also become more active in the Ashland hills through late spring as hillside forest ants forage downslope. Perimeter spray at the foundation addresses both mouse approach routes and ant foraging territory."
+      }
+    ],
+    prevention: [
+      "Store firewood in a rack away from the house and inspect for black widow webs before handling",
+      "Apply preventive perimeter spray in April to address black widows before warm-season activity peaks",
+      "Remove paper wasp nests from eaves in early spring when colonies are small and queens are building alone",
+      "Seal foundation gaps and pipe penetrations before September to prevent autumn mouse entry",
+      "Trim shrubs and branches to three feet from the roofline to reduce carpenter ant access from hillside habitat"
+    ],
+    costNote: "Yellowjacket nest treatment in Ashland runs $110 to $210 per nest. Black widow perimeter spray averages $180 to $340. Mouse exclusion and baiting programs cost $275 to $525. Carpenter ant treatment averages $200 to $380. Paper wasp nest removal is typically $80 to $160 per nest.",
+    faqs: [
+      {
+        question: "Do I really need to worry about black widows in Ashland?",
+        answer: "Yes. Ashland's warmer Rogue Valley climate supports black widow populations that are established and persistent. They are most commonly found in wood piles, under decks, in crawl spaces, and around utility meter boxes. An annual perimeter treatment and routine inspection of outdoor storage areas keeps risk manageable. High-contact areas with children or pets warrant more frequent treatment."
+      },
+      {
+        question: "Why are yellowjackets so aggressive in my Ashland yard in September?",
+        answer: "Yellowjacket colonies reach their maximum worker population in August and September, with some ground nests containing 3,000 to 5,000 workers by late summer. At that size, workers defend the colony and nearby food sources very aggressively. September is also when natural food sources begin to decline, making foragers more competitive. This is the highest-risk period to disturb a nest accidentally."
+      },
+      {
+        question: "Are there mice in Ashland year-round or just in winter?",
+        answer: "House mice in Ashland are year-round residents, but they move indoors most actively from September through March when outdoor temperatures drop and food sources become scarcer. If you find mice in summer, the infestation is likely already established indoors rather than a seasonal migration. A population present in July or August should be treated promptly before autumn replenishment from field mouse populations around the Rogue Valley."
+      }
+    ],
+    author: "Dr. Lena Ortiz",
+    nearbyCities: [
+      { name: "Medford", slug: "medford" },
+      { name: "Grants Pass", slug: "grants-pass" },
+      { name: "Eugene", slug: "eugene" }
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Ashland, OR | Yellowjackets, Black Widows & Mice",
+    metaDescription:
+      "Ashland pest control for yellowjackets, black widows, paper wasps and mice. Jackson County Rogue Valley specialists near the Siskiyou Mountains. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "newberg",
+    name: "Newberg",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~26,440",
+    county: "Yamhill County",
+    climate: "temperate",
+    climateDriver: "Chehalem Valley temperate marine climate with dense winter rainfall from October through April drives moisture ant and vole pressure in Newberg's residential yards and crawl spaces, while warm dry summers produce seasonal yellowjacket and paper wasp activity.",
+    topPests: ["voles", "yellowjackets", "moisture ants", "house mice", "paper wasps"],
+    pestProfile: [
+      { name: "Voles", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through April", note: "Meadow voles are a persistent lawn and garden pest in Newberg, tunneling surface runways through residential grass and girdling ornamental shrubs and fruit trees during the winter months." },
+      { name: "Yellowjackets", activeSeason: "Peaks June through October", note: "Yellowjackets build ground nests in Newberg's residential lawns and at agricultural field edges, with colonies peaking in size and aggression through August and September in the Chehalem Valley heat." },
+      { name: "Moisture Ants", serviceSlug: "ant-control", activeSeason: "Peaks March through October", note: "Yellow moisture ants colonize damp subfloor framing in Newberg homes with inadequate vapor barriers or crawl space moisture issues, signaling an underlying water problem that needs correction." },
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks September through March", note: "House mice from Chehalem Valley farm fields surrounding Newberg push into residential neighborhoods in autumn, entering through foundation gaps and utility penetrations as harvest disrupts field habitat." },
+      { name: "Paper Wasps", activeSeason: "Peaks April through September", note: "Paper wasps build open umbrella nests under eaves and in garden structures throughout Newberg in spring and summer, typically tolerant of humans at a distance but defensive if the nest is approached." },
+    ],
+    localHook: "Newberg sits in the Chehalem Valley, one of Oregon's premier Pinot Noir appellations, with farm fields and vineyards surrounding the residential core. That agricultural setting pushes autumn mouse pressure above typical suburban Oregon levels, and the valley's dense wet winters make vole activity a significant lawn pest issue.",
+    intro: "Newberg in Yamhill County is a small city wrapped in wine country, with Chehalem Mountain to the north and Pinot Noir vineyards covering the valley floor. For pest control, the agricultural fringe creates specific pressure: farm field mice push into residential neighborhoods every fall, voles tunnel through lawns through the wet winter months, and yellowjackets find ample habitat in the mix of open ground and garden areas that wine country provides. Inside older Newberg homes, moisture ants in crawl spaces are the top structural pest concern, signaling water intrusion in subfloor framing that needs immediate attention. Knowing which pest you have and whether it requires a moisture correction, rodent exclusion, or seasonal stinging insect treatment determines which approach works.",
+    sections: [
+      {
+        heading: "Voles vs. Moles: Which One Is Damaging Your Newberg Lawn?",
+        body: "Both voles and moles are common complaints in Newberg and they are easy to confuse. Voles are small rodents that live at ground level. Their damage appears as surface runways, roughly 2 inches wide, meandering through grass and dying back in winter. They also girdle the base of ornamental shrubs and fruit trees, stripping bark in a ring that kills the plant above. Moles, not rodents but insectivores, tunnel underground hunting earthworms. Their damage appears as raised ridges and mounds of displaced soil. If you see surface runways and girdled shrubs, you have voles. If you see raised soil ridges and fresh mounds, you have moles. Vole control uses snap traps placed in active runways and lawn management changes. Mole control uses underground traps placed in main runs. The treatment is completely different, so correct identification matters before you spend money on supplies."
+      },
+      {
+        heading: "Moisture Ants vs. Carpenter Ants in Newberg Crawl Spaces",
+        body: "Two different ant species commonly appear in Newberg crawl spaces, and telling them apart determines what you need to fix. Moisture ants, pale yellow and smaller, only colonize wood that is already wet or decaying, which means finding them in a crawl space is a reliable indicator of a plumbing drip, failed vapor barrier, or inadequate ventilation. The ant treatment is secondary; fixing the moisture is the first priority, or the ants return within a season. Carpenter ants, larger and black or bi-colored, are found in a wider range of conditions and excavate sound or compromised wood for nesting. Both need professional treatment, but moisture ants come with an additional structural diagnosis step that a perimeter-only spray program does not cover."
+      },
+      {
+        heading: "Mouse Control and Yellowjacket Season in Newberg",
+        body: "Newberg's Chehalem Valley agricultural surroundings drive above-average mouse pressure in autumn. House mice from surrounding farm and vineyard acreage push into residential neighborhoods in September and October when harvest disrupts field habitat. Seal foundation gaps, crawl space vents, and pipe penetrations before September. Combine exclusion with bait stations in the attic and garage for two-layer protection. Yellowjackets in Newberg build ground nests in residential lawns and at agricultural field edges, with colonies peaking through August. Ground nests are treated in the evening with dust insecticide applied to the entrance. Do not attempt daylight treatment without protective equipment. Paper wasps under eaves and in garden structures are less aggressive but will sting if disturbed. Pressurized aerosol treatment at dusk removes nests safely."
+      }
+    ],
+    prevention: [
+      "Mow lawns short in October before the wet season to reduce vole runway cover through winter",
+      "Place hardware cloth cylinders around the base of fruit trees and ornamentals to prevent vole girdling",
+      "Install a full crawl space vapor barrier and ensure vents are unobstructed before the rainy season",
+      "Seal foundation gaps and pipe penetrations before September to block autumn mouse migration from valley farm fields",
+      "Remove paper wasp nests from eaves in early spring when queens are building alone and colonies are small"
+    ],
+    costNote: "Vole control programs in Newberg run $150 to $300 for initial assessment and trapping. Moisture ant inspection with crawl space evaluation costs $150 to $300. Mouse exclusion and baiting averages $275 to $525. Yellowjacket nest treatment runs $110 to $210. Paper wasp removal costs $80 to $160 per nest.",
+    faqs: [
+      {
+        question: "How do I tell if I have voles or moles in my Newberg yard?",
+        answer: "Look at the damage pattern. Voles leave surface runways at ground level and strip bark from shrub bases. Moles leave raised underground ridges and fresh soil mounds. Voles are rodents; moles are insectivores. The control methods are completely different. Snapping a photo and sharing it with a technician before buying supplies saves time and money."
+      },
+      {
+        question: "I found small pale ants in my Newberg crawl space. Is that a big problem?",
+        answer: "Pale yellow ants in a crawl space are almost certainly moisture ants, and yes, they matter. They only colonize damp or decaying wood, so their presence points to an active moisture problem in the subfloor framing. A crawl space inspection should identify the source: a plumbing drip, failed vapor barrier, or standing water after rain events. Fix the moisture source alongside the ant treatment or the problem returns."
+      },
+      {
+        question: "Why do I get more mice in the fall near my Newberg home?",
+        answer: "Newberg is surrounded by Chehalem Valley farmland and vineyards. Harvest activity in September and October displaces field mouse populations and pushes them toward residential structures for warmth and food. Agricultural-edge neighborhoods in Newberg see this pattern consistently every year. Exclusion work completed in August or September, before the migration begins, is the most effective preventive step."
+      }
+    ],
+    author: "Sandra Whitfield",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Salem", slug: "salem" },
+      { name: "Tigard", slug: "tigard" }
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Newberg, OR | Voles, Moisture Ants & Mice",
+    metaDescription:
+      "Newberg pest control for voles, moisture ants, mice and yellowjackets. Yamhill County Chehalem Valley wine country specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "milwaukie",
+    name: "Milwaukie",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~21,050",
+    county: "Clackamas County",
+    climate: "temperate",
+    climateDriver: "Portland metro marine climate with wet winters from October through April and proximity to the Willamette River creates sustained moisture and riparian rat habitat in Milwaukie's inner-ring suburban neighborhoods.",
+    topPests: ["carpenter ants", "Norway rats", "silverfish", "earwigs", "odorous house ants"],
+    pestProfile: [
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "Peaks April through September", note: "Black carpenter ants are the primary structural pest complaint in Milwaukie's mid-century housing stock, entering older homes through branches contacting rooflines and exploiting moisture-affected wood in wall voids and subfloor framing." },
+      { name: "Norway Rats", serviceSlug: "rodent-control", activeSeason: "Year-round", note: "Norway rats maintain colonies along the Willamette River in Milwaukie and forage into adjacent properties year-round, with the highest activity near McLoughlin Boulevard and riverfront commercial areas." },
+      { name: "Silverfish", activeSeason: "Year-round", note: "Silverfish thrive in Milwaukie's humid crawl spaces and damp storage areas, feeding on paper, book bindings, and cellulose materials in basements and closets of older homes." },
+      { name: "Earwigs", activeSeason: "Peaks May through August", note: "Milwaukie's moist landscape beds and Willamette River proximity create consistent earwig habitat, with populations moving indoors through foundation cracks during summer warm spells." },
+      { name: "Odorous House Ants", serviceSlug: "ant-control", activeSeason: "Peaks February through October", note: "Odorous house ants trail into Milwaukie kitchens from shallow ground nests beginning in February, with seasonal spikes after rain events that flood nest sites in older residential areas." },
+    ],
+    localHook: "Milwaukie is an inner-ring Portland suburb on the Willamette River, and its combination of mid-century housing stock, mature tree canopy, and riverfront habitat makes carpenter ants and Norway rats the two defining pest challenges. Both require more than a one-time spray to manage effectively.",
+    intro: "Milwaukie sits on the Willamette River in Clackamas County, just south of Portland, with mid-century homes, mature street trees, and riverfront commercial areas. The Willamette River provides permanent Norway rat habitat that replenishes populations year-round, and riverfront properties along McLoughlin Boulevard see consistent rat pressure regardless of treatment history. The city's mid-century housing stock, much of it from the 1950s through 1970s, carries the moisture-related wear patterns that carpenter ants favor. Silverfish and earwigs reflect the region's persistent humidity. Understanding which pest is driving a problem determines whether the solution is structural exclusion, moisture management, or a sustained baiting program.",
+    sections: [
+      {
+        heading: "Why Do Carpenter Ants Keep Returning to My Milwaukie Home?",
+        body: "Carpenter ants return to Milwaukie homes for two reasons: the outdoor nesting site has not been found and eliminated, or there is a moisture problem in the structure that continues to attract new colonies. Milwaukie's mid-century homes often have elevated moisture in subfloor framing and wall cavities from decades of Pacific Northwest rainfall and aging roofline systems. Carpenter ants are attracted to exactly this condition. Non-repellent perimeter spray addresses the current foraging colony, and void treatments with dust insecticide target galleries in wall framing. But if a Douglas fir stump in the backyard or a damp section of wall framing is the source colony, the problem persists. A thorough technician traces the foraging trail to its origin rather than just treating the perimeter."
+      },
+      {
+        heading: "Norway Rat Control Along the Milwaukie Waterfront",
+        body: "Do Norway rats ever go away permanently near the Willamette waterfront in Milwaukie? No. The river bank provides permanent nesting habitat and the population replenishes itself continuously from riparian territory. For riverside properties, the question is not whether rats will appear but how quickly they will reestablish after any given treatment. Exterior bait station programs maintained on a monthly or bimonthly schedule are the practical solution for Milwaukie properties within two blocks of the river. Interior exclusion, sealing pipe penetrations, foundation voids, and crawl space gaps, reduces interior activity significantly. A licensed technician inspects the full exterior and places tamper-resistant bait stations at the foundation perimeter, fence lines, and utility areas."
+      },
+      {
+        heading: "Are Silverfish Damaging My Milwaukie Home?",
+        body: "Silverfish themselves do not damage structure. But they are a signal. Silverfish require high humidity to survive and reproduce, typically above 70% relative humidity. Finding large silverfish populations in a Milwaukie home's crawl space, closets, or stored-paper areas means moisture levels are elevated enough to support them, and those same conditions accelerate wood decay and invite moisture ants. Fixing the humidity source, whether a plumbing drip, inadequate crawl space ventilation, or a failed vapor barrier, reduces silverfish populations significantly. Residual perimeter spray and void treatment addresses existing populations. Earwigs are a separate species with similar moisture preferences, also harmless but persistent. They move indoors through foundation cracks during summer heat events and respond well to the same perimeter treatment program."
+      }
+    ],
+    prevention: [
+      "Trim all tree branches to three feet from the roofline and remove wood-to-soil contact points to reduce carpenter ant access",
+      "Maintain exterior bait stations year-round for riverside Milwaukie properties within two blocks of the Willamette",
+      "Install and maintain a vapor barrier in the crawl space and ensure vents are clear to reduce silverfish and moisture ant conditions",
+      "Apply perimeter spray in spring and again in fall to address carpenter ants, odorous house ants, and earwig populations",
+      "Store paper materials and cardboard on elevated shelving in dry areas to remove silverfish feeding sites"
+    ],
+    costNote: "Carpenter ant treatment in Milwaukie runs $200 to $400 per service. Norway rat exterior bait station programs start at $150 per month for riverfront properties. Mouse and rat exclusion averages $300 to $600. Silverfish treatment combined with moisture assessment runs $150 to $275. Odorous house ant interior programs start at $130.",
+    faqs: [
+      {
+        question: "Why do I keep getting carpenter ants in my Milwaukie home even with treatment?",
+        answer: "Recurring carpenter ants in Milwaukie usually mean either an outdoor nest site has not been addressed, or the home has a moisture source in wall framing or the crawl space that continues attracting new colonies. Non-repellent perimeter spray is effective at the point of application, but the nest colony needs to be found and eliminated. Ask your technician about a full tracing inspection rather than perimeter-only service."
+      },
+      {
+        question: "Is it normal to see Norway rats near the Willamette River in Milwaukie?",
+        answer: "Yes, it is expected. Norway rat colonies in the Willamette River bank habitat are permanent and continuously replenish from the riparian territory. Properties near McLoughlin Boulevard and the waterfront deal with this consistently. An ongoing exterior bait station program is the most practical defense. One-time treatment provides only temporary relief."
+      },
+      {
+        question: "I have a lot of silverfish in my Milwaukie home. What should I do first?",
+        answer: "Start with moisture control. Silverfish cannot thrive in properly dry conditions. Inspect the crawl space for standing water, check the vapor barrier, and ensure ventilation is unobstructed. Fix any plumbing drips under sinks or in the basement. Then apply residual perimeter spray to address the current population. Chemical treatment alone without humidity reduction produces only a temporary improvement."
+      }
+    ],
+    author: "Marcus Reed",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Oregon City", slug: "oregon-city" },
+      { name: "Tigard", slug: "tigard" }
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Milwaukie, OR | Carpenter Ants, Norway Rats & Silverfish",
+    metaDescription:
+      "Milwaukie pest control for carpenter ants, Norway rats, silverfish and earwigs. Clackamas County Willamette River corridor specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hermiston",
+    name: "Hermiston",
+    state: "Oregon",
+    stateSlug: "oregon",
+    stateAbbr: "OR",
+    tier: "T3",
+    population: "~20,040",
+    county: "Umatilla County",
+    climate: "semi-arid",
+    climateDriver: "Hermiston sits in the Columbia Basin with a semi-arid climate, receiving only 8 to 10 inches of annual rainfall and experiencing hot summers above 100 degrees and cold winters, driving mice into structures from surrounding agricultural fields and supporting black widow and stink bug populations across the region.",
+    topPests: ["house mice", "black widows", "brown marmorated stink bugs", "yellowjackets", "voles"],
+    pestProfile: [
+      { name: "House Mice", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks September through April", note: "House mice are the most common pest call in Hermiston, moving from surrounding agricultural fields and storage facilities into residential and commercial structures as temperatures drop and harvest disrupts field habitat." },
+      { name: "Black Widows", activeSeason: "Peaks April through October", note: "Black widows are established across Hermiston's semi-arid Columbia Basin climate, found in utility meter boxes, under decking, in storage sheds, and in crawl spaces of residential and agricultural properties." },
+      { name: "Brown Marmorated Stink Bugs", activeSeason: "Peaks September through November and February through April", note: "Brown marmorated stink bugs aggregate on south-facing walls of Hermiston homes in September seeking overwintering sites in wall voids, emerging on warm winter days in disorienting numbers before finding their way outdoors in spring." },
+      { name: "Yellowjackets", activeSeason: "Peaks June through September", note: "Columbia Basin yellowjackets build ground nests in Hermiston residential lawns and along agricultural perimeters, with peak aggression through August when colonies reach maximum worker population." },
+      { name: "Voles", serviceSlug: "rodent-control", activeSeason: "Year-round, peaks October through March", note: "Voles damage ornamental plantings and lawns across Hermiston residential yards, with surface tunnel activity particularly visible during and after irrigation season." },
+    ],
+    localHook: "Hermiston is the commercial hub of northeastern Oregon's Columbia Basin agricultural region, surrounded by wheat fields, potato farms, and cattle operations. That agricultural setting drives pest pressure distinctly different from western Oregon: field mice are the dominant pest year-round, black widows are a routine part of outdoor property management, and brown marmorated stink bugs have become a significant autumn nuisance across the region.",
+    intro: "Hermiston in Umatilla County is eastern Oregon's Columbia Basin hub, surrounded by dryland wheat, irrigated row crops, and cattle operations. For pest control, that agricultural environment means higher baseline rodent pressure than most Oregon communities of similar size. House mice from surrounding farmland push into Hermiston residential and commercial properties year-round, with the highest pressure during harvest season in September and October. Brown marmorated stink bugs, an invasive pest that has established strongly in the Pacific Northwest, accumulate on building exteriors in autumn seeking overwintering shelter. Black widows are a routine outdoor pest here. Yellowjackets nest in the Columbia Basin heat through summer. A pest management plan in Hermiston needs to address each of these at the right time of year.",
+    sections: [
+      {
+        heading: "Hermiston Pest Control by Season",
+        body: "Spring (March to May): Black widow activity begins as temperatures rise above 60 degrees. Apply perimeter residual spray to foundation walls, utility meter areas, and under decking before populations peak. Inspect wood piles and remove web sites from crawl spaces and outbuildings. Yellowjacket queens begin founding new colonies in April. Early intervention when colonies are small saves significant cost compared to late-season emergency treatment. Summer (June to August): Yellowjacket ground nests in Hermiston lawns reach peak size by August. Columbia Basin heat over 100 degrees increases forager aggression around food sources. Treat ground nests in the evening with dust insecticide applied to the entrance opening. Autumn (September to November): House mice from harvest-disturbed field habitat push into structures. Brown marmorated stink bugs aggregate on south and west-facing walls before entering attics and wall voids. Apply residual spray to exterior siding in early September and seal attic vent gaps before stink bug entry. Place bait stations along exterior foundation walls before October for mouse control. Winter (December to February): Rodent monitoring continues through the cold season. Stink bugs overwinter in wall voids and emerge on warm days. Seal any gaps discovered through winter to prevent stink bug entry into living space."
+      },
+      {
+        heading: "Mouse Exclusion for Agricultural-Edge Properties in Hermiston",
+        body: "Hermiston's agricultural surroundings create mouse pressure that suburban-style one-time treatment does not address. House mice and deer mice from surrounding field habitat approach Hermiston structures repeatedly throughout the year. For residential properties near field edges, the foundational control strategy is sustained exclusion: seal every gap at pipe penetrations with steel wool and caulk, inspect the foundation sill plate, cover crawl space vents with hardware cloth of 0.25-inch mesh or smaller, and install door sweeps on garage and utility room doors. Follow exclusion with tamper-resistant exterior bait stations placed at the foundation perimeter. Check and refill stations monthly. Interior monitoring traps in the attic and garage confirm whether exclusion is holding. For commercial properties, especially storage and processing facilities, a licensed pest management company should perform monthly inspections with documentation."
+      }
+    ],
+    prevention: [
+      "Apply black widow perimeter spray annually in April before the warm-season population peak in the Columbia Basin",
+      "Seal attic vents and eave gaps with screen mesh before September to prevent brown marmorated stink bug entry",
+      "Place exterior mouse bait stations along the foundation perimeter before October to intercept agricultural field migration",
+      "Seal all pipe penetrations and crawl space vent openings with appropriate mesh before the fall rodent pressure window",
+      "Eliminate ground-nesting yellowjacket colonies in June or early July when they are small and easiest to treat"
+    ],
+    costNote: "Mouse exclusion and baiting in Hermiston averages $300 to $600 for a standard home, with ongoing exterior bait station service at $75 to $150 per month. Stink bug preventive treatment runs $150 to $300. Black widow perimeter spray averages $180 to $340. Yellowjacket nest treatment costs $110 to $200. Commercial rodent monitoring programs start at $200 per month.",
+    faqs: [
+      {
+        question: "Why do so many brown marmorated stink bugs get into my Hermiston home in fall?",
+        answer: "Brown marmorated stink bugs are an invasive species from Asia that has established strongly in the Pacific Northwest. They seek overwintering shelter in wall voids and attics in autumn, attracted to the warmth of south and west-facing walls. Hermiston's agricultural setting and Columbia Basin climate make it a significant stink bug zone. Preventive perimeter spray and sealing of attic vent gaps in early September, before aggregation begins, is the most effective approach. Do not crush them indoors as the odor attracts others."
+      },
+      {
+        question: "How do I protect my Hermiston property from mice year-round?",
+        answer: "Hermiston's agricultural surroundings create ongoing field mouse populations that do not diminish seasonally. The most effective strategy combines physical exclusion, sealing all potential entry points, with sustained exterior bait station monitoring. One-time treatment provides only temporary control. Agricultural-edge properties benefit from monthly bait station service from September through April at minimum, with year-round service preferred for properties adjacent to active farm fields."
+      },
+      {
+        question: "Are black widows common around Hermiston?",
+        answer: "Yes. Hermiston's Columbia Basin semi-arid climate is well suited to black widow spiders, and they are found in routine outdoor locations: utility meter boxes, under decking, in crawl spaces, in outbuildings, and around wood storage areas. Annual perimeter treatment in spring combined with wearing gloves in outdoor storage areas keeps risk low. Check these areas before reaching in, particularly at the start of the warm season."
+      }
+    ],
+    author: "James Cole",
+    nearbyCities: [
+      { name: "Portland", slug: "portland" },
+      { name: "Bend", slug: "bend" },
+      { name: "Salem", slug: "salem" }
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Hermiston, OR | Mice, Black Widows & Stink Bugs",
+    metaDescription:
+      "Hermiston pest control for mice, black widows, stink bugs and yellowjackets. Umatilla County Columbia Basin agricultural region specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
