@@ -11708,4 +11708,307 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Live Oak TX pest control for fire ants, scorpions, American cockroaches and subterranean termites. Northeast Bexar County San Antonio metro specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "huntsville-tx",
+    name: "Huntsville",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~43,000",
+    county: "Walker County",
+    climate: "hot-humid",
+    climateDriver:
+      "Huntsville sits in the East Texas Piney Woods in Walker County, where a hot, humid subtropical climate delivers long summers, mild winters, and substantial annual rainfall. The proximity of Sam Houston National Forest keeps humidity elevated year-round and creates ideal conditions for wood-destroying insects, wood-decay fungi, and the mosquito populations that thrive in the pine forest understory.",
+    topPests: ["Carpenter Ants", "Subterranean Termites", "Mosquitoes", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Carpenter ants from Sam Houston National Forest establish satellite colonies in wooden structures at the urban fringe. Pine forest proximity gives them a constant food and harborage source outside treatment zones.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round",
+        note: "East Texas's warm, wet climate makes Walker County one of the higher-risk termite areas in the state. Subterranean termites swarm on warm spring days and maintain active colonies year-round in the moist soil.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Piney Woods terrain holds water in pine needle duff, low-lying areas, and seasonal pools. Walker County's rainfall pattern keeps breeding habitat replenished from early spring through late fall.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants colonize Huntsville lawns, roadsides, and open areas year-round. Mounds expand rapidly after spring rains, and properties bordering open woodland see the heaviest activity.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, peak in summer",
+        note: "American cockroaches (tree roaches) are common throughout Walker County. They breed in outdoor mulch and drainage areas and push indoors during summer heat peaks.",
+      },
+    ],
+    localHook:
+      "Sam Houston National Forest surrounds much of Walker County, and Huntsville's position inside the Piney Woods means carpenter ants from the pine forest canopy regularly establish satellite colonies in wooden structures on the urban edge.",
+    intro:
+      "Pest control in Huntsville means working at the edge of the East Texas Piney Woods, where the forest is not just scenery but an active source of pest pressure. Carpenter ants forage from pine stands into residential structures. Subterranean termites thrive in Walker County's moist, warm soil and swarm every spring. Mosquitoes breed in the pine forest understory and in the low drainage areas that come with the region's high rainfall. Fire ants colonize open turf year-round and expand fast after every rain. American cockroaches are a consistent warm-season presence in mulch beds and outdoor drainage. A pest plan in Huntsville has to account for the forest, not just the neighborhood.",
+    sections: [
+      {
+        heading: "Carpenter ants from the Piney Woods into Huntsville structures",
+        body: "Carpenter ants are among the most common structural pests in East Texas precisely because of the forest that defines the region. Sam Houston National Forest gives these ants an enormous reservoir of nesting habitat: dead pines, fallen logs, and decaying stumps within foraging range of the urban edge. When a colony in a dead pine tree reaches capacity, workers establish satellite colonies in wood-framed structures nearby. They prefer moist or partially decayed wood, so roof leaks, plumbing drips, and wood-to-soil contact at decks and porches are the entry points to inspect first. Unlike termites, carpenter ants do not eat wood but excavate galleries for nesting, and the damage accumulates quietly. Treatment targets both the satellite colony inside and, when possible, any foraging trails leading back to the source colony in the tree line.",
+      },
+      {
+        heading: "Termite and mosquito pressure in Walker County",
+        body: "Eastern subterranean termites find Walker County's climate close to ideal: warm winters that do not kill off worker populations, moist soil that keeps tunnels viable, and abundant wood sources in a forested landscape. Slab foundations with wood sill plates in contact with soil, mulch piled against the foundation, and wood porches set directly on grade are the highest-risk features. Swarmers appear in March and April on warm, still days. Mosquitoes are the other structural challenge of Piney Woods living. The forest floor holds standing water in pine needle duff long after rain, and Walker County drainage features create breeding sites that outlast individual storms. A barrier spray program around the yard perimeter, repeated every three to four weeks through the warm season, is the standard approach for residential mosquito control in Huntsville.",
+      },
+    ],
+    prevention: [
+      "Keep firewood and lumber piles at least 20 feet from the house and elevated off the ground to remove carpenter ant and termite harborage near the foundation.",
+      "Clear pine needle duff and leaves from low-lying areas within 20 feet of the structure after major storms to eliminate standing water that supports mosquito breeding.",
+      "Inspect wood decks, porch posts, and sill plates annually for soft spots or galleries that may indicate carpenter ant or termite activity.",
+      "Apply broadcast fire ant bait across turf in spring before the first major rain cycle to prevent mound expansion from the forest edge into the yard.",
+    ],
+    costNote:
+      "Huntsville pest inspections are typically free. Given Walker County's year-round termite and mosquito pressure, a quarterly perimeter plan combined with an annual termite inspection is the practical approach for most homeowners near the Piney Woods.",
+    faqs: [
+      {
+        question: "Are carpenter ants in Huntsville a sign of termites?",
+        answer:
+          "Not necessarily, but both can be present at the same time and in the same structure. Carpenter ants leave behind coarse sawdust-like frass and excavate galleries with smooth, clean walls. Termites leave mud tubes and damaged wood with a layered appearance. A professional inspection can distinguish the two. In Huntsville and the wider Walker County area, it is worth checking for both when any wood damage is found, since the Piney Woods environment supports high populations of each.",
+      },
+      {
+        question: "How bad is termite risk in Walker County compared to the rest of Texas?",
+        answer:
+          "Walker County falls within the East Texas high-activity zone for eastern subterranean termites. The moist, warm soil and abundant wood from the Piney Woods landscape create conditions that favor large, active colonies. Risk is higher here than in the drier Hill Country or Panhandle regions. Annual inspections are recommended for any Huntsville home, and pre-treatment or baiting systems are worth considering for new construction near wooded areas.",
+      },
+      {
+        question: "Why are mosquitoes worse near Sam Houston National Forest?",
+        answer:
+          "The forest holds water in ways that developed land does not. Pine needle duff, shaded depressions, root hollows, and the drainage that follows the forest's natural contours all create breeding habitat that persists after rain stops. Huntsville properties that back up to forest edge or open woodland typically see higher mosquito pressure than those in more cleared suburban settings. Yard-perimeter barrier spray programs help, but eliminating standing water within the yard is the first step.",
+      },
+      {
+        question: "What should Huntsville homeowners do about fire ants near the forest edge?",
+        answer:
+          "Properties bordering Sam Houston National Forest or open woodland have a near-constant supply of new fire ant colonies moving in from outside the treated zone. Individual mound treatment handles what is visible but does not address forming colonies. A broadcast bait treatment applied across the full lawn in spring reaches workers from both visible and hidden colonies before they establish. Retreatment in fall addresses mounds that started after the spring application.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Conroe", slug: "conroe" },
+      { name: "Bryan", slug: "bryan" },
+      { name: "College Station", slug: "college-station" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Huntsville, TX | Carpenter Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Huntsville TX pest control for carpenter ants, subterranean termites, mosquitoes and fire ants in Walker County's Piney Woods. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "san-juan",
+    name: "San Juan",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~38,000",
+    county: "Hidalgo County",
+    climate: "semi-arid",
+    climateDriver:
+      "San Juan sits in Hidalgo County in the Rio Grande Valley, where a semi-arid subtropical climate brings hot summers, mild winters, and low annual rainfall offset by an extensive irrigation system that keeps agriculture productive. The irrigation canal network effectively creates a humid microenvironment within a dry region, sustaining year-round pest pressure that would otherwise taper off in dry months.",
+    topPests: ["American Cockroaches", "Fire Ants", "Scorpions", "Mosquitoes", "Kissing Bugs"],
+    pestProfile: [
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are among the most consistent pest complaints in San Juan and throughout Hidalgo County. The warm winters prevent population crashes, and drainage canals and citrus groves sustain large outdoor populations.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches establish in kitchens and bathrooms across San Juan's residential and commercial sectors. The warm, year-round climate means populations do not experience winter dieback and require active bait management.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants colonize San Juan lawns, agricultural margins, and roadsides throughout the year. Irrigation keeps soil moisture consistent, which supports year-round mound activity even in dry stretches.",
+      },
+      {
+        name: "Bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Spring through fall, active at night year-round",
+        note: "Bark scorpions are documented in the Rio Grande Valley and appear in San Juan homes, particularly near citrus groves, lumber, and rock piles. They are the medically significant scorpion species in the region.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak in summer",
+        note: "Hidalgo County's irrigation canals create persistent standing water throughout San Juan's agricultural perimeter. This breeding habitat sustains mosquito populations even during dry periods when natural water sources are absent.",
+      },
+    ],
+    localHook:
+      "San Juan's citrus groves and sugar cane fields feed a dense network of irrigation canals throughout Hidalgo County, and those canals create year-round mosquito breeding habitat that keeps pressure on San Juan neighborhoods even during dry stretches.",
+    intro:
+      "San Juan's pest profile is shaped by two things the Rio Grande Valley does differently from the rest of Texas: agriculture runs right up against the neighborhoods, and irrigation canals keep the environment moist year-round regardless of rainfall. American cockroaches and German cockroaches operate year-round, since the mild winters never push populations into dormancy. Fire ants thrive in the irrigated soil margins of citrus groves and cane fields. Bark scorpions, which are the medically significant species in south Texas, turn up near agricultural debris and lumber. Mosquitoes breed in canal water across Hidalgo County through every month of the year. Kissing bugs, a vector of Chagas disease, are also documented in the region and warrant awareness. This is a year-round pest management situation, not a seasonal one.",
+    sections: [
+      {
+        heading: "Irrigation canals and mosquito pressure in Hidalgo County",
+        body: "The irrigation infrastructure that makes the Rio Grande Valley productive also creates the most persistent mosquito breeding habitat in the region. San Juan's perimeter is laced with canal segments, drainage channels, and field irrigation lines that hold standing water continuously. Unlike rain-dependent breeding sites that dry between events, canal water is maintained as part of agricultural operations, providing Culex and Aedes mosquitoes with stable habitat week after week. Residential yards that border agricultural margins or canal-adjacent roads see the heaviest pressure. A professional barrier spray program treats the vegetation zones where adult mosquitoes rest during daylight hours, reducing the population that reaches the yard from outside. Source elimination inside the yard, including standing water in pots, tarps, and any low-lying areas, removes local breeding habitat, but canal-fed pressure requires ongoing perimeter treatment throughout the year.",
+      },
+      {
+        heading: "Scorpions and kissing bugs near San Juan's agricultural edge",
+        body: "Bark scorpions are the species of medical concern in south Texas, and Hidalgo County's agricultural landscape provides the debris, ground cover, and prey populations they require. Citrus groves, where bark and fallen fruit accumulate, are a documented harborage zone. Scorpions move into residential areas when agricultural activity disrupts their habitat, and they enter homes through weep holes, foundation gaps, and open utility penetrations. Kissing bugs, the triatomine insects that can carry Trypanosoma cruzi, the parasite behind Chagas disease, are present across south Texas including the Rio Grande Valley. They are primarily nocturnal and associated with animal burrows, wood piles, and debris near structures. While the risk of transmission through any single encounter is low, awareness of the species is warranted in San Juan's semi-rural fringe areas. Sealing exterior gaps and reducing outdoor debris are the practical first-line defenses for both.",
+      },
+    ],
+    prevention: [
+      "Seal weep holes, pipe penetrations, and foundation gaps to block scorpion and kissing bug entry, especially on the sides of the house facing agricultural land or canal margins.",
+      "Remove lumber piles, fallen citrus fruit, and ground-level debris within 10 feet of the structure to reduce scorpion harborage near the home.",
+      "Treat fire ant mounds along the yard perimeter and agricultural borders in early spring and again in fall, when mounds are actively expanding.",
+      "Eliminate standing water in pots, pet dishes, and low-lying areas within the yard to reduce local mosquito breeding separate from the canal-fed pressure.",
+    ],
+    costNote:
+      "San Juan pest inspections are free. Given the year-round pest activity in Hidalgo County, a monthly or bi-monthly perimeter plan is more practical than quarterly service in the Rio Grande Valley climate.",
+    faqs: [
+      {
+        question: "Are bark scorpions in San Juan dangerous?",
+        answer:
+          "Bark scorpions are the medically significant scorpion species in south Texas and the only scorpion in the United States capable of producing a sting that can cause systemic effects. In Hidalgo County, including San Juan, they are most commonly found near agricultural debris, wood piles, and citrus groves. Children and elderly individuals are at greater risk of serious reaction. If stung and experiencing significant symptoms beyond local pain, seek medical care promptly.",
+      },
+      {
+        question: "What is a kissing bug and should San Juan residents be concerned?",
+        answer:
+          "Kissing bugs are triatomine insects present in south Texas including Hidalgo County. They are nocturnal insects that feed on blood and can potentially carry Trypanosoma cruzi, the parasite that causes Chagas disease. The risk from any single encounter is low, but residents in San Juan's semi-rural fringe areas near agricultural land or animal pens should be aware of the species. Sealing exterior gaps, keeping debris away from the structure, and using door sweeps on exterior doors reduce the likelihood of entry.",
+      },
+      {
+        question: "Why are cockroaches so persistent in San Juan even in winter?",
+        answer:
+          "Hidalgo County's mild winters do not produce the cold temperatures that cause cockroach populations to crash in northern states. American cockroaches and German cockroaches in San Juan breed year-round. Outdoor populations sustained by drainage canals, citrus grove debris, and agricultural margins keep pressure on residential structures continuously. A consistent baiting and perimeter treatment program is more effective than seasonal-only approaches in this climate.",
+      },
+      {
+        question: "Do irrigation canals near San Juan really make mosquitoes worse year-round?",
+        answer:
+          "Yes. Natural rainfall-dependent mosquito breeding dries up between rain events, giving populations a natural check. Canal water is maintained for agricultural use and does not dry out between rains. This creates stable, persistent breeding habitat that supports year-round mosquito populations in the neighborhoods that border San Juan's agricultural perimeter. Properties near canal corridors or drainage channels see the heaviest and most consistent pressure.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "McAllen", slug: "mcallen" },
+      { name: "Pharr", slug: "pharr" },
+      { name: "Edinburg", slug: "edinburg" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in San Juan, TX | Cockroaches, Scorpions & Mosquitoes",
+    metaDescription:
+      "San Juan TX pest control for cockroaches, bark scorpions, fire ants, mosquitoes and kissing bugs in Hidalgo County. Rio Grande Valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "la-porte",
+    name: "La Porte",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~34,000",
+    county: "Harris County",
+    climate: "hot-humid",
+    climateDriver:
+      "La Porte sits on Galveston Bay in southeastern Harris County, where the humid subtropical climate is intensified by direct bay exposure. High humidity, warm winters, and a location at the intersection of industrial waterfront and residential neighborhoods creates persistent pest pressure from both coastal and urban sources.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "American Cockroaches", "Norway Rats", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Formosan and Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring through summer, active year-round",
+        note: "Both Formosan and Eastern subterranean termites are present in Harris County. Formosan termites swarm in May and June at night and are capable of causing more rapid structural damage than Eastern subterranean termites.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "February through November",
+        note: "La Porte's bayou system and Galveston Bay proximity create year-round mosquito breeding habitat. Tidal marshes, drainage bayous, and low-lying residential areas all sustain populations through the extended warm season.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches breed in La Porte's drainage infrastructure and move indoors during summer heat and after major storms. The industrial waterfront and bayou corridors sustain large outdoor populations.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peak in fall and winter",
+        note: "Norway rats are associated with La Porte's industrial dock facilities and waterfront warehouses. When industrial activity disrupts waterfront habitat, populations push into adjacent residential neighborhoods in Harris County.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants colonize La Porte's residential turf, drainage margins, and disturbed soil in construction zones year-round. Post-storm flooding scatters colonies and causes rapid recolonization across affected areas.",
+      },
+    ],
+    localHook:
+      "La Porte's industrial waterfront on Galveston Bay attracts Norway rats to dock facilities and warehouses, and those populations push into residential neighborhoods as industrial activity creates habitat disruption throughout Harris County.",
+    intro:
+      "Pest control in La Porte works with a location that puts industrial waterfront, bayou drainage, and Galveston Bay in the same zip code as suburban neighborhoods. Formosan and Eastern subterranean termites are both present in Harris County, with Formosan termites capable of accelerated structural damage. Mosquitoes breed in tidal marsh zones and bayou corridors from February through November. Norway rats establish in waterfront industrial areas and migrate into residential streets when dock operations disrupt their habitat. American cockroaches thrive in the warm, humid drainage network year-round. Fire ants colonize every open soil surface and recolonize fast after the storms that Harris County sees regularly. Each pest in La Porte has a specific environmental driver, and treating one without understanding its source is short-term work.",
+    sections: [
+      {
+        heading: "Formosan termites in La Porte and the wider Harris County risk",
+        body: "Harris County is within the core Formosan subterranean termite range in Texas. La Porte's bayfront location keeps humidity elevated, which is the key environmental driver for Formosan termite colony survival. These termites swarm at night in May and June, often around exterior lights and lighted windows. A single mature Formosan colony can contain several million workers, compared to the hundreds of thousands typical of Eastern subterranean colonies, which is why damage from Formosan infestations accelerates faster. Homeowners who find swarmers on window sills in late spring should schedule an inspection promptly rather than waiting to see if the issue resolves. Annual inspections are the minimum standard in Harris County, and liquid barrier treatments or baiting systems are the two primary professional approaches.",
+      },
+      {
+        heading: "Norway rats from the waterfront into La Porte neighborhoods",
+        body: "La Porte's industrial waterfront along Galveston Bay supports Norway rat populations at dock facilities, warehouses, and the utility infrastructure that comes with petrochemical operations. These rats are burrowers, establishing in soil beneath slabs, along drainage lines, and under concrete pads. When renovation, demolition, or operational changes disrupt established harborage at industrial sites, displaced populations move into adjacent residential streets. They enter homes through gaps in slab foundations, openings around utility penetrations, and compromised crawlspace vents. Exclusion work, which seals every entry point with hardware cloth or metal flashing, is the permanent solution. Rodenticide programs placed outside the structure address the active population while exclusion is completed.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection in Harris County, and ask specifically about Formosan termite activity, which requires different treatment timing than Eastern subterranean termites.",
+      "Inspect the foundation, utility entry points, and crawlspace vents for gaps before fall, when Norway rats begin seeking sheltered harborage as industrial activity winds down seasonally.",
+      "Eliminate standing water in bayou-adjacent low spots and drainage features within 48 hours of rain to reduce the primary mosquito breeding source nearest the home.",
+      "Apply broadcast fire ant bait across the full yard in spring and again after any major storm event that floods and relocates existing mounds.",
+    ],
+    costNote:
+      "La Porte inspections are free. Given the dual termite species risk in Harris County and the Norway rat pressure from the waterfront, a combined annual termite inspection with quarterly general pest service is the practical standard for most La Porte homeowners.",
+    faqs: [
+      {
+        question: "Does La Porte have Formosan termites as well as regular subterranean termites?",
+        answer:
+          "Yes. Both Formosan and Eastern subterranean termites are documented in Harris County, including La Porte. Formosan termites swarm at night in May and June, while Eastern subterranean termites typically swarm during daylight in March and April. The distinction matters for treatment timing and approach. If you find swarmers at your exterior lights on warm May or June nights, have an inspection done to determine which species is active.",
+      },
+      {
+        question: "Why are Norway rats a problem in La Porte residential neighborhoods?",
+        answer:
+          "La Porte's industrial waterfront creates established Norway rat populations at dock facilities, warehouses, and utility corridors. These rats do not stay at the industrial sites when habitat is disrupted by maintenance, construction, or operational changes. They move through drainage lines and along the slab edges of residential streets. Properties within several blocks of active waterfront operations are at the highest risk, but rats can travel considerable distances to find new harborage.",
+      },
+      {
+        question: "How does Galveston Bay affect mosquito season in La Porte?",
+        answer:
+          "The bay and its adjacent tidal marsh create permanent mosquito breeding habitat that exists independent of rainfall. La Porte's mosquito season is longer and starts earlier than inland Harris County locations for this reason. Tidal fluctuation in the marsh zones creates the shallow, still water that is ideal for Culex mosquito egg-laying. A yard-perimeter barrier spray program combined with standing water elimination within the property addresses the local component, though the broader marsh habitat requires ongoing treatment to manage.",
+      },
+      {
+        question: "What should La Porte homeowners do after a major storm to prevent pest problems?",
+        answer:
+          "Flood events scatter fire ant colonies, displace Norway rats from waterfront areas, and create standing water across the city. The 24 to 72 hours after flood water recedes is the window to address standing water before mosquitoes lay eggs. Fire ant bait should be reapplied once the soil is dry enough to hold bait granules. Rats displaced by flooding will be seeking new harborage, so checking foundation gaps and crawlspace entry points promptly after a storm is worth doing before the population moves in.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Baytown", slug: "baytown" },
+      { name: "Pearland", slug: "pearland" },
+      { name: "Houston", slug: "houston" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in La Porte, TX | Termites, Mosquitoes & Rats",
+    metaDescription:
+      "La Porte TX pest control for Formosan termites, mosquitoes, Norway rats, American cockroaches and fire ants near Galveston Bay. Harris County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

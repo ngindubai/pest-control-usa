@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-21)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-56 complete. T2 COMPLETE.
-- **City pages built:** 1353 total (75 T1 + 300 T2 + 978 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-60 complete. T2 COMPLETE.
+- **City pages built:** 1453 total (75 T1 + 300 T2 + 1078 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1436 in the static export (home, services, 50+ states, 1353 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=273, B=271, C=271, D=270, E=268 (1353 total cities, all within 15-25% range).
-- **Cities built T3 chunks 55-56 (50):** Chunk 55: SC: Goose Creek, Greer, Hanahan, Mauldin, Conway, Simpsonville, Lexington, Bluffton, Orangeburg, Beaufort. OR: Lake Oswego, Keizer, McMinnville, Tualatin, Roseburg, Klamath Falls, Ashland, Newberg, Milwaukie, Hermiston. WV: Martinsburg, Fairmont, Clarksburg, Weirton, Beckley. Chunk 56: WV: Bluefield, Elkins, Bridgeport, Vienna, St. Albans. UT: Herriman, Millcreek, Spanish Fork, Eagle Mountain, Riverton. AL: Northport, Alabaster, Pelham, Daphne, Enterprise, Athens, Trussville. NE: Scottsbluff, La Vista, Beatrice. MD: Bel Air, Easton, Elkton, La Plata, Mount Airy.
-- **New state files added chunks 55-56:** none (all states already registered).
-- **Next block:** Chunk 57, T3 continues, rotation at A.
+- **Total site pages:** 1536 in the static export (home, services, 50+ states, 1453 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=298, B=296, C=296, D=295, E=268 (1453 total cities, all within 15-25% range).
+- **Cities built T3 chunks 57-60 (100):** FL: Naples, Panama City, Fort Pierce, Vero Beach, Tarpon Springs, Dunedin, Zephyrhills. TX: Huntsville, San Juan, La Porte. OH: Bowling Green, Steubenville, Athens, Fremont, Mount Vernon. NY: Beacon, Cohoes, Batavia, Tonawanda, Oneonta. GA: Americus, Tifton, Waycross, Dublin, Vidalia, Moultrie, Bainbridge, Cordele, Douglas. IL: Quincy, Galesburg, Alton, Kankakee, Danville, Carbondale, Oswego, DeKalb, Collinsville, Edwardsville, Granite City. IN: Zionsville, Avon, Brownsburg, Logansport, Huntington, Shelbyville, Vincennes. NC: Elizabeth City, Albemarle, Reidsville, Henderson. MI: Walker, Grandville, Norton Shores, Sault Ste. Marie, Escanaba. PA: Phoenixville, Lansdale, Indiana, Bloomsburg, Sunbury, DuBois, East Stroudsburg, Washington, Connellsville. TN: Athens, Lawrenceburg, Paris, Union City, Covington, Lewisburg, Dayton. VA: Bristol, Poquoson. NM: Gallup, Deming, Silver City, Los Lunas, Las Vegas, Lovington. MO: St. Charles, Grandview, Ozark, Poplar Bluff, Republic, Carthage, Webb City, Festus, Belton. KS: Junction City, Pittsburg, Hays, Liberal, Great Bend, Atchison. IA: Muscatine, Burlington, Oskaloosa, Newton, Boone.
+- **New state files added chunks 57-60:** none (all states already registered).
+- **Next block:** Chunk 61, T3 continues, rotation at E.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

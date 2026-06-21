@@ -3887,4 +3887,574 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Cortland NY pest control for cluster flies, house mice, pavement ants and yellowjackets. Cortland County Finger Lakes plateau agricultural-edge specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "beacon",
+    name: "Beacon",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~14,000",
+    county: "Dutchess County",
+    climate: "cold-humid",
+    climateDriver:
+      "Beacon sits in the Hudson Valley between the Hudson River and the Fishkill Creek woodland corridor in Dutchess County. The wooded bluffs and creek bottomlands hold year-round deer populations that carry black-legged ticks. Cold, snowy winters drive mice and stink bugs into structures each fall, and the older mixed-use building stock provides entry routes that newer construction typically closes off.",
+    topPests: [
+      "Deer ticks",
+      "Stink bugs",
+      "House mice",
+      "Carpenter ants",
+      "Camel crickets",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round, peak March through November",
+        note:
+          "Dutchess County is one of New York State's highest-risk counties for Lyme disease annually. Beacon's proximity to Fishkill Creek woodland and Hudson River bluffs puts residents at direct daily contact with black-legged tick habitat.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November (entry), March through April (exit)",
+        note:
+          "Stink bugs aggregate on south-facing exterior walls in Beacon each fall before pushing through gaps around windows and utility penetrations into wall voids for the winter.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note:
+          "Cold Hudson Valley winters drive mice into Beacon's older buildings from October through April. Older mixed-use buildings in the Main Street corridor and residential neighborhoods near the waterfront have aging sill plates and foundation gaps that mice find routinely.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note:
+          "Beacon's wooded terrain and older building stock create ideal carpenter ant conditions. Moisture-softened wood in older frame structures near Fishkill Creek and the Hudson River bluffs provides nesting sites for outdoor satellite colonies that forage indoors.",
+      },
+      {
+        name: "Camel crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Summer through fall",
+        note:
+          "Camel crickets colonize damp basements and crawl spaces in Beacon's older housing stock. They are harmless but unsettling in large numbers and often signal a moisture issue that warrants attention.",
+      },
+    ],
+    localHook:
+      "The New York State Department of Health ranks Dutchess County among the highest in the state for Lyme disease cases annually, and Beacon's proximity to Fishkill Creek woodland and Hudson River bluffs puts residents at direct daily exposure to black-legged tick habitat.",
+    intro:
+      "Beacon is a Hudson Valley city with a real tick problem. Dutchess County ranks among New York State's highest counties for confirmed Lyme disease cases year after year, and Beacon's position between the Hudson River bluffs and the Fishkill Creek woodland corridor means black-legged ticks are present in many backyards and along walking paths that residents use daily. Deer populations throughout the valley keep tick numbers high. Beyond ticks, cold winters push house mice into Beacon's older buildings each fall, stink bugs aggregate on exterior walls in September and October, and camel crickets settle into damp basements year-round. Carpenter ants are active in older wood-frame structures near the creek corridor from spring through fall.",
+    sections: [
+      {
+        heading: "Tick Risk in Dutchess County",
+        body:
+          "Black-legged ticks are the primary health concern for Beacon homeowners with yards that border or connect to the wooded bluffs and creek corridors around the city. Dutchess County consistently appears at or near the top of New York State's county-level Lyme disease rankings, and the deer population that sustains tick numbers is dense in this section of the Hudson Valley. Ticks are active as long as temperatures stay above freezing, which in Beacon's climate means a threat window from March through November and occasional activity even in mild December and February. Yard-perimeter treatments targeting the leaf-litter zone where ticks wait for passing hosts reduce tick counts significantly. Creating a wood chip or gravel barrier between lawn and wooded edges, and keeping grass cut short, makes yards measurably less hospitable. Tick checks after every outdoor activity are the other half of personal risk reduction.",
+      },
+      {
+        heading: "Overwintering Pests in Older Beacon Buildings",
+        body:
+          "Stink bugs and house mice follow the same October calendar in Beacon. Stink bugs gather on south and west-facing walls on warm fall days and work through any gap around window trim, utility penetrations, and soffits. Sealing those gaps before mid-September is the most effective prevention. Once inside wall voids, they are dormant until spring warmth draws them back out, often into living areas. House mice need a gap no wider than a pencil and are persistent through the cold season. Beacon's Dia Beacon neighborhood and the older residential blocks closer to the waterfront have buildings where aging mortar and settled foundations provide those gaps. A licensed technician will seal priority entry points with steel wool and foam, place tamper-resistant bait stations outside, and set interior traps in the active zones. Camel crickets in basements signal excess moisture, and addressing that moisture reduces their numbers alongside targeted treatment.",
+      },
+    ],
+    prevention: [
+      "Create a gravel or wood chip barrier at least three feet wide between your lawn and any wooded edge to reduce Dutchess County tick contact zones",
+      "Seal gaps around window trim, utility penetrations, and soffits with exterior caulk before mid-September to block fall stink bug entry",
+      "Install steel wool and foam at foundation pipe penetrations and door sweeps on all exterior doors before October to prevent mouse entry",
+      "Run a basement dehumidifier year-round and fix any crawl space moisture to deny camel crickets the damp conditions they need",
+    ],
+    costNote:
+      "Tick barrier treatments in Beacon typically run $100 to $200 per application, with many homeowners scheduling two to three treatments between April and October. Mouse exclusion and trapping programs cost $200 to $400 depending on the number of entry points sealed. Stink bug exclusion and camel cricket treatment are often bundled into a fall pest preparation visit.",
+    faqs: [
+      {
+        question: "Is Beacon at high risk for Lyme disease?",
+        answer:
+          "Yes. Dutchess County is one of New York State's highest-risk counties for Lyme disease, and Beacon's location between Fishkill Creek woodland and the Hudson River bluffs means many residential properties border tick habitat directly. Black-legged ticks can be active from March through November, and tick checks after time outdoors are important for residents year-round.",
+      },
+      {
+        question: "What time of year should I treat my Beacon yard for ticks?",
+        answer:
+          "The most important treatment windows in Dutchess County are spring (April to May), targeting nymphal ticks, and late summer or early fall (August to September), before adult tick activity peaks. A licensed applicator can advise on whether a third mid-summer treatment is warranted based on your property's specific wooded edge and deer pressure.",
+      },
+      {
+        question: "Why do stink bugs keep getting into my Beacon home every fall?",
+        answer:
+          "Stink bugs return each year because they aggregate by chemical signal, so a previous year's entry points are the same ones the next generation targets. Thorough exterior sealing before mid-September is essential. Vacuuming up stink bugs indoors without crushing them removes the odor signal they would otherwise leave.",
+      },
+      {
+        question: "Are camel crickets in my Beacon basement a sign of a bigger problem?",
+        answer:
+          "Camel crickets are drawn to damp, dark spaces and are very common in Beacon's older basement stock. Their presence alone is not a structural problem, but a large population usually means moisture levels are elevated. Checking for foundation leaks, improving crawl space ventilation, and running a dehumidifier addresses both the crickets and the underlying condition.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Poughkeepsie", slug: "poughkeepsie" },
+      { name: "Newburgh", slug: "newburgh" },
+      { name: "Middletown", slug: "middletown-ny" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Beacon, NY | Deer Ticks, Stink Bugs & Mice",
+    metaDescription:
+      "Beacon NY pest control for deer ticks, stink bugs, house mice and carpenter ants. Dutchess County Hudson Valley Lyme disease risk specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "cohoes",
+    name: "Cohoes",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~16,000",
+    county: "Albany County",
+    climate: "cold-humid",
+    climateDriver:
+      "Cohoes occupies the confluence of the Mohawk and Hudson rivers in Albany County. Cold upstate winters run from November through March, driving mice and stink bugs into the city's dense stock of 19th-century brick row homes. The Mohawk River corridor adds sustained moisture that keeps silverfish and German cockroaches comfortable in damp basement and crawl space environments year-round.",
+    topPests: [
+      "House mice",
+      "German cockroaches",
+      "Carpenter ants",
+      "Boxelder bugs",
+      "Silverfish",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note:
+          "Cohoes' late-19th-century brick row homes and converted textile mill buildings have aging mortar joints, settled foundations, and utility chases that give mice multiple routes indoors each fall. Exclusion work is especially important in attached row housing where mice move between units.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "Multi-family housing and older commercial buildings in Cohoes see German cockroach populations travel between units through shared plumbing chases. Warm interior environments in older buildings support year-round breeding.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note:
+          "Old wood framing and moisture-prone exterior trim in Cohoes' mill-era housing stock give carpenter ants ideal nesting conditions. Spring and early summer are the peak activity periods in Albany County.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November (entry), March through April (exit)",
+        note:
+          "Boxelder bugs aggregate on south-facing brick walls in Cohoes each fall, drawn by heat retention, and push through gaps into wall voids for the winter. They become a nuisance when they exit in spring.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round",
+        note:
+          "The Mohawk River valley's elevated humidity in older Cohoes buildings supports year-round silverfish activity in basements, attics, and wall voids. They damage paper, wallpaper, and stored clothing in older homes.",
+      },
+    ],
+    localHook:
+      "Cohoes' stock of late-19th-century mill housing includes brick row homes and converted textile buildings where aging mortar joints and settled foundations create dozens of mouse entry points that no amount of interior treatment fully addresses without exterior sealing work.",
+    intro:
+      "Cohoes is a former textile mill city at the junction of the Mohawk and Hudson rivers, and its housing stock is a textbook example of what happens when 19th-century construction meets Albany County winters. Aging mortar joints in brick row homes, settled foundations in converted mill buildings, and the shared walls of attached housing give mice, cockroaches, and carpenter ants routes that newer construction usually closes off. German cockroaches move between units in multi-family buildings through plumbing chases. Silverfish are at home in the damp basements that a Mohawk River valley climate encourages. Stink bugs and boxelder bugs aggregate on south-facing brick walls each fall because brick holds warmth well. Getting ahead of this pest list means treating the building envelope, not just the interior.",
+    sections: [
+      {
+        heading: "Mice and Cockroaches in Cohoes Mill-Era Housing",
+        body:
+          "The defining pest challenge in Cohoes comes from the housing stock itself. Brick row homes built between 1870 and 1920 have mortar that has settled and cracked over a century, and many foundations were built without the modern damp-proofing and gap sealing that keeps mice out. A house mouse needs a gap no wider than a pencil, and Cohoes' older buildings provide dozens of those gaps along utility penetrations, settled door sills, and cracked mortar. In attached row housing, a mouse entering one unit can move laterally to neighbors through shared wall voids and pipe runs. A thorough exclusion program identifies and seals priority entry points from the exterior before October, when mouse pressure starts in earnest. German cockroaches in multi-family buildings present a related challenge. They travel between units through plumbing chases and breed rapidly in warm kitchen and bathroom environments. Gel bait applied at harborage points behind refrigerators and under sinks, combined with a coordinated treatment across adjacent units, gives results that single-unit spraying rarely achieves.",
+      },
+      {
+        heading: "Seasonal Invaders on Cohoes Brick Buildings",
+        body:
+          "Cohoes' south-facing brick facades become gathering spots for boxelder bugs and stink bugs each September. Brick absorbs and holds daytime heat better than wood or vinyl siding, and that warmth draws both species before they seek overwintering sites inside. A large population on the exterior in fall means a large population in wall voids through winter and a noticeable spring exit. The effective approach is exterior treatment of the building perimeter combined with sealing of the main entry points before mid-September. Carpenter ants are a spring and summer concern in older wood-frame sections of the city. Albany County's wet springs create moisture damage in older exterior trim and soffits, giving carpenter ants attractive nesting locations in the soft, damp wood. Annual spring inspections catch new satellite colonies before they expand into the interior framing.",
+      },
+    ],
+    prevention: [
+      "Repoint cracked mortar joints on brick row home exteriors every few years to close the mouse entry routes that aging mortar creates in Cohoes' old housing stock",
+      "Run a basement dehumidifier year-round to keep humidity below 50 percent and deny silverfish and German cockroaches the damp environment they prefer",
+      "Apply exterior caulk around all utility penetrations and door sill gaps before October, especially in attached row housing where mice move between units",
+      "Check south-facing brick walls in early September and treat gathering boxelder bugs and stink bugs before they push into wall voids",
+    ],
+    costNote:
+      "Mouse exclusion in Cohoes' older row housing typically costs $250 to $450, depending on the number of entry points and the extent of mortar repointing needed alongside pest work. German cockroach programs in multi-family buildings start around $150 to $200 per unit. Silverfish treatment with a basement dehumidification assessment is often bundled into a single visit.",
+    faqs: [
+      {
+        question: "Why do mice keep coming back to my Cohoes row home after treatment?",
+        answer:
+          "In Cohoes' attached row housing, mice can enter through a neighbor's unit and travel through shared wall voids into yours even after your own entry points are sealed. A thorough exclusion requires treating the exterior of the building, not just the interior of one unit. Coordinating with adjacent neighbors or a landlord to address the full building perimeter gives lasting results.",
+      },
+      {
+        question: "Are silverfish in my Cohoes basement harmful?",
+        answer:
+          "Silverfish do not bite or carry disease, but they damage paper, book bindings, wallpaper, and stored natural-fiber clothing. In Albany County's older housing, elevated basement humidity is what sustains them. Reducing humidity with a dehumidifier and addressing any foundation leaks cuts the population naturally alongside targeted treatment.",
+      },
+      {
+        question: "How do German cockroaches spread in Cohoes apartment buildings?",
+        answer:
+          "German cockroaches move through plumbing chases, shared wall voids, and gaps around pipe penetrations between units. A single infested apartment in a Cohoes multi-family building can spread to adjacent units within weeks. Coordinated treatment of all affected units on the same day, using gel bait rather than sprays, prevents the colony from simply dispersing to untreated areas.",
+      },
+      {
+        question: "What is the best time of year to treat for boxelder bugs in Cohoes?",
+        answer:
+          "The most effective window is late August through mid-September, before boxelder bugs begin aggregating on exterior walls in large numbers. Exterior perimeter treatment at this point intercepts them before they find entry routes into wall voids. Once they are inside for the winter, treatment options are more limited and the main approach is vacuuming them up as they exit in spring.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Albany", slug: "albany" },
+      { name: "Troy", slug: "troy-ny" },
+      { name: "Schenectady", slug: "schenectady" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Cohoes, NY | Mice, Cockroaches & Silverfish",
+    metaDescription:
+      "Cohoes NY pest control for house mice, German cockroaches, silverfish and boxelder bugs. Albany County mill-era row housing specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "batavia",
+    name: "Batavia",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~15,000",
+    county: "Genesee County",
+    climate: "cold-humid",
+    climateDriver:
+      "Batavia is the seat of Genesee County in Western New York, surrounded by flat agricultural land that sits squarely in the Lake Ontario snow belt. Long cold winters arrive in October and stay through March, driving field mice into structures at the edges of the city's residential neighborhoods. The area's corn, soy, and vegetable farms generate the mouse populations that fuel the annual fall migration.",
+    topPests: [
+      "House mice",
+      "Carpenter ants",
+      "Boxelder bugs",
+      "Stink bugs",
+      "Cluster flies",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through April, peaks October through December",
+        note:
+          "Batavia's position at the edge of Genesee County's agricultural flatlands means field mouse migration into residential areas is an annual and predictable event tied directly to fall harvest. Residential streets along the agricultural perimeter see the heaviest pressure.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note:
+          "Carpenter ants are active across Batavia's older residential neighborhoods each spring and summer. Moisture-softened wood in older homes and the wooded corridors along Tonawanda Creek and its tributaries provide outdoor source colonies.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November (entry), March through April (exit)",
+        note:
+          "Boxelder trees are common in Batavia's residential neighborhoods, and the bugs that feed on them aggregate on south-facing building walls each fall before overwintering in wall voids.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November (entry), spring (exit)",
+        note:
+          "Stink bugs enter Batavia structures each fall through gaps around windows and utility penetrations, overwintering in wall voids and emerging at interior windows during warm spells through winter.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through November (entry), March through April (exit)",
+        note:
+          "Genesee County's agricultural land sustains the earthworm populations that cluster fly larvae depend on, and adult cluster flies seek overwintering sites in older Batavia structures each September.",
+      },
+    ],
+    localHook:
+      "Batavia sits surrounded by Genesee County's corn, soy, and vegetable farms, and the annual harvest in September and October drives a predictable and heavy migration of field mice into the edges of Batavia's residential neighborhoods as crop fields are cleared.",
+    intro:
+      "Batavia's pest calendar is set by the agricultural land that surrounds it on all sides. Genesee County's corn, soy, and vegetable farms provide ideal summer habitat for field mice, and the fall harvest strips that cover in September and October, pushing large numbers of mice toward the warmth of Batavia's residential neighborhoods. Streets on the city's agricultural perimeter see this pressure most intensely. Beyond mice, cluster flies use the same farm fields to breed through summer and then seek overwintering sites in older Batavia structures. Boxelder bugs gather on south-facing walls before winter. Stink bugs do the same. Carpenter ants work through older wood-frame buildings near Tonawanda Creek from spring through fall. A fall preparation visit that addresses multiple overwintering pests at once is the most efficient approach for most Batavia homeowners.",
+    sections: [
+      {
+        heading: "Field Mouse Migration and Fall Pest Pressure in Genesee County",
+        body:
+          "The mouse problem in Batavia is agricultural in origin. Genesee County's flat crop fields provide excellent summer habitat for field mice, with abundant food and cover from standing corn and soy through August. When harvest equipment moves through those fields in September and October, it removes the cover that mice depend on. The mice that remain redirect toward the nearest warm structures, and Batavia's residential neighborhoods at the city's agricultural edge are the closest option. This migration is predictable and happens every year. A licensed technician seals priority entry points before October, the most important step, and places tamper-resistant bait stations along the foundation perimeter. Interior trapping manages the mice that get through before sealing work is complete. The same fall visit can address cluster fly entry points on attic vents and fascia, since both pressures peak on the same September to October timeline.",
+      },
+      {
+        heading: "Overwintering Invaders and Spring Carpenter Ant Activity",
+        body:
+          "Boxelder bugs and stink bugs follow a nearly identical fall pattern in Batavia. Both species aggregate on south-facing exterior walls to absorb heat before seeking gap entry into wall voids for the winter. Boxelder trees in residential neighborhoods provide the host plants that fuel boxelder bug populations. Sealing gaps around windows, utility penetrations, and soffits before mid-September reduces interior entry for both species. Once they are inside, they are effectively dormant until spring warmth draws them toward interior windows, which is when calls typically come in. Vacuuming them up as they exit in spring prevents crushing odors. Carpenter ants are the dominant spring pest concern in older Batavia neighborhoods. Albany County's wet springs create moisture-damaged wood in older soffits and exterior trim, and carpenter ants find this wood attractive for satellite nest sites. Annual spring inspection before colony activity peaks in May is the most cost-effective control.",
+      },
+    ],
+    prevention: [
+      "Schedule exterior entry point sealing before October each year on streets that border Genesee County's crop fields to stay ahead of the annual harvest-driven mouse migration",
+      "Seal attic vents with fine mesh and caulk fascia gaps in late August to prevent cluster fly overwintering in older Batavia structures",
+      "Identify and remove boxelder trees or seed-bearing female boxelder trees within 50 feet of the foundation to reduce boxelder bug populations near the building",
+      "Inspect exterior soffits and window trim each April for carpenter ant sawdust frass before the spring colony activity peak",
+    ],
+    costNote:
+      "Mouse exclusion programs in Batavia typically cost $200 to $400 depending on the number of entry points along the agricultural perimeter. Cluster fly exterior treatment runs $140 to $260 per application. Boxelder bug and stink bug exclusion are often handled in a single fall preparation visit priced from $175 to $300.",
+    faqs: [
+      {
+        question: "Why do mice invade Batavia neighborhoods every fall even after treatment the year before?",
+        answer:
+          "Genesee County's crop harvest removes field cover each September and October, pushing a fresh wave of field mice toward structures every year. Prior treatment addresses last year's population, but the agricultural source generates new pressure annually. Exclusion work before October is the most durable investment because it blocks entry rather than just treating mice that have already come inside.",
+      },
+      {
+        question: "How do I tell boxelder bugs and stink bugs apart on my Batavia walls in fall?",
+        answer:
+          "Boxelder bugs are black with distinct red markings on their wing margins and are smaller, about half an inch. Stink bugs are larger, brownish-gray, and shield-shaped. Both aggregate on south-facing walls in fall, but boxelder bugs are almost always associated with boxelder trees nearby. Control approaches are similar: exterior perimeter treatment and gap sealing before mid-September.",
+      },
+      {
+        question: "Are cluster flies in my Batavia attic a hygiene concern?",
+        answer:
+          "Cluster flies are not a hygiene problem. They breed in soil as larvae parasitizing earthworms and do not infest food or spreaddisease. They are disruptive in large numbers when they appear at windows on warm winter days. Exterior treatment and vent sealing in late August prevents most entries. An attic dust treatment handles populations that are already inside.",
+      },
+      {
+        question: "Is downtown Batavia affected by the same field mouse pressure as the residential edges?",
+        answer:
+          "Downtown Batavia's commercial buildings are somewhat insulated from the agricultural edge mouse migration that hits residential neighborhoods directly, but they face their own rodent pressure from Norway rats and mice associated with food waste and utility corridors. German cockroaches appear in commercial food service settings. A licensed commercial program addresses the downtown pest profile, which differs from the field-mouse-driven pressure at the city's residential perimeter.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Rochester", slug: "rochester" },
+      { name: "Buffalo", slug: "buffalo" },
+      { name: "Lockport", slug: "lockport-ny" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Batavia, NY | Mice, Cluster Flies & Boxelder Bugs",
+    metaDescription:
+      "Batavia NY pest control for field mice, cluster flies, boxelder bugs and stink bugs. Genesee County agricultural-edge Lake Ontario snow belt specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "tonawanda",
+    name: "Tonawanda",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~14,000",
+    county: "Erie County",
+    climate: "cold-humid",
+    climateDriver:
+      "Tonawanda sits on the Niagara River in Erie County, just north of Buffalo, in a climate shaped by Lake Erie and Lake Ontario moisture and long cold winters. The Niagara River corridor and the city's concentration of 1940s-era concrete block and wood-frame housing create the moisture and entry-point conditions that drive year-round rodent pressure.",
+    topPests: [
+      "House mice",
+      "Carpenter ants",
+      "German cockroaches",
+      "Boxelder bugs",
+      "Yellow jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note:
+          "Tonawanda's Niagara River corridor and its stock of 1940s concrete block and wood-frame housing provide the moisture and entry gaps that Erie County pest professionals see driving repeat mouse pressure through every fall and winter.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note:
+          "Older wood construction in Tonawanda's residential neighborhoods and the moisture from the Niagara River corridor create conditions that carpenter ants find consistently attractive for satellite nest sites in exterior trim and soffits.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "Multi-family housing and older apartment stock in Tonawanda see German cockroaches travel between units through shared plumbing chases. Year-round indoor warmth keeps colonies breeding through winter.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November (entry), March through April (exit)",
+        note:
+          "Boxelder bugs aggregate on south-facing walls in Tonawanda's residential neighborhoods each fall before overwintering in building wall voids. They become a nuisance when spring warmth draws them back out.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note:
+          "Yellow jackets build ground nests in Tonawanda yards and wall cavity nests in older exterior siding. By mid-August a mature colony can hold several thousand workers, making accidental disturbance a genuine sting risk.",
+      },
+    ],
+    localHook:
+      "Tonawanda's Niagara River corridor and its concentration of 1940s-era housing with concrete block foundations and wood framing creates entry routes for mice that Erie County pest professionals see repeatedly throughout the fall and winter months.",
+    intro:
+      "Tonawanda is a compact Erie County city on the Niagara River, and its pest profile is shaped by two things: the moisture from the river corridor and a housing stock built mostly in the 1940s, when concrete block foundations and wood-frame construction were the standard. That combination gives house mice and carpenter ants exactly the conditions they look for. Mice enter through settled sill plates and block foundation gaps each fall and stay through April. Carpenter ants find moisture-damaged exterior wood throughout the warm season. German cockroaches circulate through multi-family buildings year-round. Yellow jackets claim ground nests in yards and wall voids from June through August. A structured seasonal program addresses each of these in sequence.",
+    sections: [
+      {
+        heading: "Mice and Entry Points in 1940s Tonawanda Housing",
+        body:
+          "The 1940s construction era that defines most of Tonawanda's residential stock predates the modern building standards that close off the gaps mice need. Concrete block foundations settle over decades, creating horizontal cracks and gaps at sill plate level that a mouse can work through easily. Wood-frame wall construction provides the void space mice use to travel between the foundation and upper floors. Erie County winters arrive in October, and that cold snap triggers the fall mouse migration into structures across the Niagara River corridor. A licensed technician addresses this by identifying and sealing the priority entry points with steel wool and foam or hardware cloth before October, placing tamper-resistant bait stations along the exterior perimeter, and setting interior snap traps in high-activity zones such as the kitchen, utility room, and garage. The exterior exclusion work is what makes the difference between a temporary fix and a durable result.",
+      },
+      {
+        heading: "Yellow Jackets, Cockroaches, and Seasonal Pest Management",
+        body:
+          "Yellow jackets are a significant summer hazard in Tonawanda. Ground nests in lawns and wall cavity nests in older exterior siding are both common. By August a yellow jacket colony can reach several thousand workers, and accidental disturbance of a ground nest while mowing or gardening results in multiple stings. Licensed applicators treat nests after dark, when foragers have returned to the colony, using dust insecticides that penetrate wall cavities and eliminate the colony at the source. In Tonawanda's multi-family buildings, German cockroach management is an ongoing need. They travel through plumbing chases and breed rapidly in warm, shared building environments. Gel bait applied at harborage points outperforms sprays because it works without dispersing the colony. Carpenter ants become the spring priority when moisture-damaged exterior trim in the Niagara River corridor neighborhood attracts nesting colonies from April through October.",
+      },
+    ],
+    prevention: [
+      "Inspect concrete block foundation walls and sill plates each September and seal cracks with hydraulic cement or foam before the October mouse migration from the Niagara River corridor",
+      "Replace rotted or moisture-damaged exterior trim on Tonawanda's older wood-frame homes each spring to remove carpenter ant nesting sites before the April activity peak",
+      "Walk the yard in June and early July looking for yellow jacket ground nest entrances in lawn edges and along fence lines before colonies grow large",
+      "Coordinate German cockroach treatment across all adjacent units in multi-family buildings to prevent reinfestation through shared plumbing chases",
+    ],
+    costNote:
+      "Mouse exclusion and trapping in Tonawanda typically costs $200 to $425 depending on the number of concrete block foundation entry points. Yellow jacket nest treatment runs $130 to $250 per nest. German cockroach programs in multi-family buildings start around $150 to $200 per unit. Most programs include a 30-day service guarantee.",
+    faqs: [
+      {
+        question: "Why does mouse pressure in Tonawanda start every October without fail?",
+        answer:
+          "Erie County temperatures drop sharply in October, and mice begin seeking warm indoor environments at the same time each year. Tonawanda's 1940s concrete block and wood-frame housing provides entry points that do not require the cold snap to create, just the motivation for mice to find them. Exclusion work before October interrupts the seasonal cycle before it starts rather than responding after mice are already inside.",
+      },
+      {
+        question: "How dangerous are yellow jacket ground nests in Tonawanda yards?",
+        answer:
+          "A yellow jacket colony at peak size in August can hold 3,000 to 5,000 workers, and disturbing the nest entrance while mowing or gardening can provoke rapid, aggressive stinging from many individuals at once. People with allergies face a medical risk. Licensed treatment after dark, when foragers have returned to the colony, is safer and more effective than DIY attempts during the day.",
+      },
+      {
+        question: "Can I treat my Tonawanda apartment for German cockroaches without involving my neighbors?",
+        answer:
+          "You can treat your own unit, but results are usually temporary in connected buildings. German cockroaches in Tonawanda's multi-family stock move between units through plumbing chases, and a treated unit can be reinfested from an adjacent untreated one within weeks. Coordinating treatment across all affected units on the same day is the approach that produces lasting results.",
+      },
+      {
+        question: "Is there a time of year when pest pressure in Tonawanda eases up?",
+        answer:
+          "May and June are typically the quietest months. Mouse pressure from the fall and winter has wound down, yellow jacket and wasp colonies are still small, and carpenter ants are just beginning spring activity. This brief window is actually the best time to complete exclusion repairs and perimeter inspections before the summer and fall pest calendar gets busy again.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Buffalo", slug: "buffalo" },
+      { name: "Niagara Falls", slug: "niagara-falls" },
+      { name: "North Tonawanda", slug: "north-tonawanda" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Tonawanda, NY | Mice, Yellow Jackets & Cockroaches",
+    metaDescription:
+      "Tonawanda NY pest control for house mice, yellow jackets, German cockroaches and carpenter ants. Erie County Niagara River corridor specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "oneonta",
+    name: "Oneonta",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~13,000",
+    county: "Otsego County",
+    climate: "cold-humid",
+    climateDriver:
+      "Oneonta sits in the Catskill Mountains foothills in Otsego County, surrounded by forest and farmland at roughly 1,100 feet elevation. The forested terrain maintains dense deer populations that support black-legged tick numbers. Cold upstate winters arrive in October and push mice, stink bugs, and camel crickets toward warm structures. SUNY Oneonta and Hartwick College add a student population that creates multi-family housing pest pressure through the academic year.",
+    topPests: [
+      "Deer ticks",
+      "House mice",
+      "Stink bugs",
+      "Carpenter ants",
+      "Camel crickets",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round above freezing, peak March through November",
+        note:
+          "Otsego County's Catskill foothills forest and its dense deer population support black-legged tick populations at levels that make tick awareness a year-round concern for Oneonta residents, students, and outdoor workers.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through April",
+        note:
+          "Oneonta's older housing stock and the agricultural and forested land surrounding the city drive predictable fall mouse entry. Student housing in older off-campus buildings near SUNY Oneonta and Hartwick College sees particularly frequent pressure.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November (entry), March through April (exit)",
+        note:
+          "Forest edge locations around Oneonta see heavy stink bug aggregations on exterior walls each fall as insects move from forest habitat toward building heat before the first frost.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note:
+          "Oneonta's wooded Catskill setting and older wood-frame housing provide abundant carpenter ant habitat. Outdoor source colonies in the forest fringe forage into buildings when moisture-damaged wood is accessible.",
+      },
+      {
+        name: "Camel crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Summer through fall",
+        note:
+          "Camel crickets are common in the damp basements of Oneonta's older housing. The Catskill foothills climate keeps basement humidity elevated, and camel crickets are one of the most frequent basement pest calls in Otsego County.",
+      },
+    ],
+    localHook:
+      "Otsego County's Catskill foothills forest covers much of the land immediately adjacent to Oneonta, and the dense deer population in this region supports black-legged tick populations at densities that make tick awareness a year-round concern for residents and students.",
+    intro:
+      "Oneonta's pest picture is shaped by its position in the Catskill Mountains foothills and by Otsego County's mix of forest and farmland that surrounds the city on all sides. Black-legged ticks are a year-round concern here. The dense deer population that sustains Otsego County's tick numbers lives in the forest that backs up directly to many Oneonta neighborhoods, and the tick activity window runs from the first thaw through November. Inside, cold Catskill winters push mice into older buildings from October through April, with student housing near SUNY Oneonta and Hartwick College seeing regular pressure. Stink bugs hit hard at the forest edge in September and October. Camel crickets are a consistent presence in damp Catskill foothills basements. Carpenter ants are active in older wood-frame buildings from spring through fall.",
+    sections: [
+      {
+        heading: "Tick Risk in Otsego County's Catskill Foothills",
+        body:
+          "Oneonta's forested setting in Otsego County creates tick conditions that are more sustained than what most upstate New York cities face. The Catskill foothills forest is essentially continuous around much of the city, and the deer population that moves through that forest carries black-legged ticks directly into residential yards and campus green spaces. The tick activity season in this part of New York runs from the first thaw in March through November, and adult ticks can be active on days above freezing even in January and February. Yard perimeter treatments targeting the leaf-litter zone at forest edges reduce tick counts measurably. A gravel or wood chip barrier between mowed lawn and the forest fringe creates a drier zone that ticks avoid. Personal tick checks after any outdoor activity in Oneonta are important from early spring through late fall, particularly for students using the trails and green spaces around the SUNY Oneonta and Hartwick College campuses.",
+      },
+      {
+        heading: "Overwintering Pests and Student Housing Pressure",
+        body:
+          "The fall pest calendar in Oneonta is defined by the forest edge. Stink bugs aggregate on south and west-facing building walls in September and October as they move out of the Catskill foothills forest seeking overwintering sites. Sealing gaps around windows, utility penetrations, and soffits before mid-September reduces entry substantially. House mice follow the same October timeline but from a different origin: both the surrounding farmland and the forested area provide summer habitat, and cold Catskill nights in early October motivate migration toward structures. Off-campus student housing near SUNY Oneonta and Hartwick College is a consistent pressure point because older buildings with high turnover are harder to keep sealed. Camel crickets in damp basements are a supporting pest that accompanies the mouse and stink bug season throughout. A fall preparation visit addressing all three is the most efficient approach for Oneonta homeowners and landlords.",
+      },
+    ],
+    prevention: [
+      "Maintain a three-foot gravel or wood chip barrier between mowed lawn and the Catskill foothills forest edge to reduce black-legged tick contact zones near Oneonta homes",
+      "Seal exterior gaps around window trim, door frames, and utility penetrations before mid-September to reduce stink bug entry from the surrounding forest edge",
+      "Inspect and seal foundation sill plates and utility penetrations before October in older Oneonta housing, particularly in off-campus student rental properties near SUNY Oneonta",
+      "Run a basement dehumidifier in Oneonta's older housing to keep humidity below 50 percent and reduce the damp conditions that sustain camel cricket populations",
+    ],
+    costNote:
+      "Tick yard treatments in Oneonta typically run $100 to $200 per application, with two to three treatments per season covering the March through November activity window. Mouse exclusion programs cost $200 to $400. Stink bug exclusion and camel cricket treatment are often combined into a single fall preparation visit priced between $175 and $325.",
+    faqs: [
+      {
+        question: "Are ticks in Oneonta active all year or only in summer?",
+        answer:
+          "Black-legged ticks in Otsego County can be active any time temperatures are above freezing, which in Oneonta's climate means March through November is the core risk window. Adult ticks are also active on mild days in December and February. The nymphal stage in May and June is particularly important to guard against because nymphs are small and easy to miss during a tick check.",
+      },
+      {
+        question: "Why is stink bug pressure worse at the forest edge in Oneonta than in the city center?",
+        answer:
+          "Stink bugs spend spring and summer feeding on the vegetation in Otsego County's Catskill foothills forest and move toward structures as temperatures drop in fall. Properties that border the forest directly are the first structures those populations encounter, so they see earlier and denser aggregations than properties further from the tree line. Sealing gaps before mid-September is especially important for forest-edge homes.",
+      },
+      {
+        question: "Is off-campus student housing in Oneonta more prone to mice?",
+        answer:
+          "Older off-campus rental properties near SUNY Oneonta and Hartwick College typically have more deferred maintenance than owner-occupied homes, and higher tenant turnover means pest entry points go unnoticed longer. Landlords who schedule annual exterior exclusion inspections before October and address reported pest activity promptly have far fewer persistent problems through the winter rental season.",
+      },
+      {
+        question: "What attracts camel crickets to Oneonta basements?",
+        answer:
+          "Camel crickets need damp, dark, sheltered spaces, which describes most basements in Oneonta's older housing stock. The Catskill foothills climate keeps groundwater levels and exterior humidity elevated, which translates to basement moisture. Reducing humidity with a dehumidifier, fixing any foundation leaks, and sealing gaps where they enter from outside addresses the root cause alongside treatment.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Albany", slug: "albany" },
+      { name: "Binghamton", slug: "binghamton" },
+      { name: "Utica", slug: "utica" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Oneonta, NY | Deer Ticks, Mice & Stink Bugs",
+    metaDescription:
+      "Oneonta NY pest control for deer ticks, house mice, stink bugs and carpenter ants. Otsego County Catskill foothills specialists. Call 1-800-PEST-USA.",
+  },
 ];

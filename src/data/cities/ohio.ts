@@ -6250,4 +6250,504 @@ export const ohioCities: CityLocation[] = [
     metaTitle: "Pest Control in Miamisburg, OH | Stink Bugs, Mice & Wolf Spiders",
     metaDescription: "Pest control in Miamisburg, OH. Service for heavy stink bug pressure, house mice, yellowjackets, wolf spiders, and odorous house ants in Montgomery County.",
   },
+  {
+    slug: "bowling-green-oh",
+    name: "Bowling Green",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~31,000",
+    county: "Wood County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bowling Green sits in northwestern Ohio's agricultural plain in Wood County, where the humid continental climate produces cold winters, wet springs, and warm, humid summers. The region's historically high water tables, a legacy of the Great Black Swamp, keep soils moist across most of the year and drive the moisture-dependent pest pressure that Wood County residents encounter in basements, crawlspaces, and along foundations.",
+    topPests: ["House Mice", "Carpenter Ants", "Stink Bugs", "German Cockroaches", "Centipedes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "House mice are the dominant fall and winter pest complaint in Bowling Green. They enter through foundation gaps and utility penetrations as temperatures drop in October and establish quickly in wall voids and crawlspaces.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are common in Bowling Green's established residential neighborhoods and campus-area housing. They target wood softened by Wood County's consistently moist soil conditions.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs are well established in Wood County. They aggregate in large numbers on south- and west-facing exterior walls in fall and enter through any unsealed gap before temperatures drop.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Bowling Green State University's density of apartment and multi-unit housing creates elevated German cockroach pressure in the city. Shared walls and plumbing chases allow rapid spread between units.",
+      },
+      {
+        name: "House centipedes",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, peak in spring and fall",
+        note: "House centipedes are a consistent complaint in Bowling Green basements and crawlspaces. Wood County's high water tables keep below-grade spaces moist enough to sustain the insect prey populations centipedes depend on.",
+      },
+    ],
+    localHook:
+      "Wood County was once the Great Black Swamp, and even after 19th-century drainage, the region's naturally high water tables keep Bowling Green's soils moist enough to support persistent centipede and moisture-pest activity in basements and crawl spaces.",
+    intro:
+      "Bowling Green's pest profile reflects two influences: the university population density and the agricultural plain's wet-soil legacy. Bowling Green State University's large rental housing stock is where German cockroach pressure concentrates, moving between units through shared plumbing. The high water tables from the old Black Swamp keep basements and crawlspaces damp year-round, which draws centipedes and drives carpenter ant activity into softened wood. Mice begin their push indoors each October as fields surrounding the city are harvested, sending fieldmice toward the warmest structures nearby. Stink bugs aggregate on Wood County exteriors every fall. Each of these patterns is predictable, and managing them is mostly about timing.",
+    sections: [
+      {
+        heading: "Mouse season in Bowling Green and the field-harvest effect",
+        body: "Bowling Green's position in Northwestern Ohio's agricultural plain makes the fall mouse migration particularly reliable. When corn and soybean harvests begin in late September and October, field mice that were living in crop cover suddenly have no shelter. They move outward from the fields in large numbers, and Bowling Green's residential streets on the urban edge are the first structures they reach. Entry points as small as a dime admit house mice, and they establish breeding populations in wall voids within weeks. An exclusion survey in September, before harvest season, identifies and seals the gaps that mice will use. Interior monitoring stations placed in high-risk areas catch the individuals that do find a way in before a small problem becomes a colony.",
+      },
+      {
+        heading: "Moisture pests and basement conditions in Wood County",
+        body: "Wood County's drainage history is the key to understanding why Bowling Green basements and crawlspaces have persistent moisture problems even in dry summers. The Great Black Swamp was one of the largest wetland systems in the eastern United States before 19th-century tile drainage converted it to farmland. The underlying water table is still there. Bowling Green's below-grade spaces often stay damp regardless of rainfall patterns, and that moisture supports house centipedes, carpenter ants that target soft wood near foundation sills, and silverfish in stored materials. Dehumidification addresses the symptom, but a licensed pest inspection can identify the specific harborage and entry points that are keeping populations active inside the structure.",
+      },
+    ],
+    prevention: [
+      "Walk the foundation perimeter in September before harvest season and seal every gap larger than a quarter-inch to block fall mouse ingress from the surrounding agricultural fields.",
+      "Run a basement or crawlspace dehumidifier during spring and summer to reduce the moisture that supports centipedes, carpenter ants, and silverfish in Bowling Green's high-water-table conditions.",
+      "Seal utility penetrations, attic vents, and gaps around window frames before September to limit stink bug entry on Wood County's heaviest fall aggregation days.",
+      "Report German cockroach activity promptly to building management in BGSU-area apartment housing, since shared wall voids allow rapid spread to adjacent units.",
+    ],
+    costNote:
+      "Pest inspections in Bowling Green are typically free. Rodent exclusion programs start at $150 to $300 for initial service. German cockroach bait programs in multi-unit housing are often managed on a building-wide basis, which reduces per-unit cost.",
+    faqs: [
+      {
+        question: "Why do so many mice get into Bowling Green homes every fall?",
+        answer:
+          "Bowling Green is surrounded by agricultural fields, and when the fall harvest removes the corn and soybean cover that field mice were living in, those mice move outward in large numbers looking for shelter. Residential properties on Bowling Green's suburban edge are the first structures they encounter. The timing is consistent every year, arriving in October as harvest progresses, and an exclusion inspection in September is the most effective way to be ready before the migration starts.",
+      },
+      {
+        question: "Is the German cockroach problem in Bowling Green worse because of BGSU?",
+        answer:
+          "University density creates the conditions that German cockroaches exploit. High-turnover apartment housing near Bowling Green State University often has shared plumbing chases, infrequent deep cleaning in common areas, and residents who may not report early activity. German cockroaches spread through shared wall voids and plumbing, so an infestation in one unit can reach adjacent units within weeks. Building-wide bait programs coordinated by property management are more effective than unit-by-unit treatment.",
+      },
+      {
+        question: "What is causing the centipede problem in my Bowling Green basement?",
+        answer:
+          "House centipedes need two things: moisture and prey. Wood County's high water tables keep Bowling Green's basements and crawlspaces damp even without active leaks, which sustains the populations of silverfish, small beetles, and other insects that centipedes hunt. Reducing moisture with a dehumidifier helps, but centipedes will remain as long as they have prey. A pest inspection can identify what is feeding the centipede population and address the underlying prey issue rather than just the centipedes themselves.",
+      },
+      {
+        question: "When should I treat for stink bugs in Bowling Green?",
+        answer:
+          "The window is August and early September, before stink bugs begin their fall migration into structures. By the time they are visible on exterior walls in large numbers, many have already found entry points. Sealing gaps in exterior cladding, soffit material, and utility penetrations before late August removes the entry routes. Exterior perimeter sprays applied in September can intercept aggregating stink bugs before they push through the remaining gaps.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Toledo", slug: "toledo" },
+      { name: "Findlay", slug: "findlay" },
+      { name: "Perrysburg", slug: "perrysburg" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Bowling Green, OH | Mice, Stink Bugs & Cockroaches",
+    metaDescription: "Pest control in Bowling Green, OH. Local service for house mice, stink bugs, German cockroaches, carpenter ants and centipedes in Wood County near BGSU.",
+  },
+  {
+    slug: "steubenville",
+    name: "Steubenville",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~17,000",
+    county: "Jefferson County",
+    climate: "cold-humid",
+    climateDriver:
+      "Steubenville sits along the Ohio River in Jefferson County in the eastern part of the state, where the Appalachian foothills channel cold, wet air from the river valley and moderate temperatures slightly compared to inland Ohio. The Ohio River's proximity elevates humidity and keeps soil moisture elevated in lower-elevation neighborhoods, which contributes directly to the termite and carpenter ant pressure that older riverside structures experience.",
+    topPests: ["Subterranean Termites", "Carpenter Ants", "House Mice", "German Cockroaches", "Camel Crickets"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round",
+        note: "Eastern subterranean termites are active throughout the Ohio River valley in Jefferson County. Steubenville's stock of pre-1950 construction with pier foundations and wood-to-soil contact provides abundant unprotected harborage.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Steubenville's older housing stock and the river valley's persistent humidity create the damp wood conditions that carpenter ants prefer. Basement sill plates, porch framing, and exterior window casings are the common entry points.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "House mice are the dominant fall and winter pest in Steubenville. Older homes in Jefferson County have more entry points than newer construction, and the hilly terrain channels mice toward heated structures during cold snaps.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches concentrate in Steubenville's older multi-family housing stock. Pre-1960 construction with shared plumbing, less airtight interiors, and older kitchen infrastructure creates conditions where German cockroach populations persist.",
+      },
+      {
+        name: "Camel crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Year-round in basements, peak in summer",
+        note: "Camel crickets thrive in the damp, dark basements common in Steubenville's hilly, older housing. They are not harmful but indicate moisture levels that also support other pests.",
+      },
+    ],
+    localHook:
+      "Steubenville's Ohio River valley position and its stock of pre-1950 housing creates conditions where eastern subterranean termites find abundant wood-to-soil contact at pier foundations and wood sill plates that were never protected with modern barrier treatments.",
+    intro:
+      "Steubenville is a small city with an older-than-average housing stock and a river valley location that keeps humidity elevated year-round. That combination drives the pest profile here more than climate alone. Eastern subterranean termites are the most serious structural concern: Jefferson County's Ohio River valley is active termite territory, and the city's pre-1950 homes with pier foundations and wood near grade are at higher risk than newer slab construction. Carpenter ants work the same moisture-softened wood that attracts termites. German cockroaches occupy the older multi-family housing. House mice are a consistent fall and winter problem in every older neighborhood. Camel crickets in the basement are more of an indicator than a primary pest. If you are finding them in large numbers, the moisture level down there is worth addressing for reasons beyond the crickets themselves.",
+    sections: [
+      {
+        heading: "Termite risk in Steubenville's older housing stock",
+        body: "Eastern subterranean termites are present throughout the Ohio River valley, and Steubenville's construction history makes the city particularly exposed. Homes built before 1950 often have pier-and-beam or stone foundation construction where wood structural members are close to or in contact with grade-level soil. These wood-to-soil contacts are exactly where subterranean termites establish feeding sites. Modern slab construction with chemical pre-treatment eliminates this exposure, but the older housing that characterizes much of Steubenville and Jefferson County was built before those protections existed. Annual inspections are the practical standard for any home here built before 1970, and any home showing signs of water intrusion in the crawlspace or basement should be checked for both carpenter ants and termites, since the same moisture drives both.",
+      },
+      {
+        heading: "Managing mice and cockroaches in Jefferson County's older neighborhoods",
+        body: "Steubenville's hilly terrain and the age of its building stock create a year-round mouse management challenge. Older homes have more gaps: deteriorated foundation mortar, aging sill plates with gaps from settling, and utility penetrations that were never properly sealed. When temperatures drop in October, mice enter through any available gap and establish in wall voids, attic spaces, and basements within days. The approach that works is exclusion first: find and seal the entry points before October, then use interior monitoring stations to catch anything that gets through. German cockroaches in multi-family housing are managed with gel bait applied in kitchens, bathrooms, and utility spaces. Sprays are less effective and can scatter cockroach populations into untreated units.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any Steubenville home built before 1970, particularly those with pier foundations, wood sill plates near grade, or crawlspaces with soil-to-wood contact.",
+      "Inspect and seal foundation mortar gaps, utility entry points, and basement window frames before October to block the fall mouse entry that is consistent in Jefferson County's older neighborhoods.",
+      "Run a dehumidifier in basement and crawlspace areas to reduce the damp conditions that support carpenter ants, camel crickets, and centipedes in Steubenville's river valley climate.",
+      "Report German cockroach sightings promptly in multi-unit buildings, since shared plumbing allows rapid spread between units in Steubenville's older apartment stock.",
+    ],
+    costNote:
+      "Steubenville pest inspections are typically free. Termite inspections run $75 to $150 separately or are included with general pest inspections. Rodent exclusion programs in older Jefferson County homes typically start at $200 to $400 given the number of entry points older construction presents.",
+    faqs: [
+      {
+        question: "Are termites common in Steubenville and Jefferson County?",
+        answer:
+          "Eastern subterranean termites are active throughout the Ohio River valley, and Jefferson County is within the state's established termite zone. Steubenville's stock of pre-1950 construction with pier foundations and wood near grade is at higher risk than newer construction. An annual inspection is the practical standard for any home here built before 1970, and any evidence of damp wood, mud tubes, or soft structural members should be investigated promptly.",
+      },
+      {
+        question: "Why do I find camel crickets in my Steubenville basement every year?",
+        answer:
+          "Camel crickets require dark, damp conditions, which Steubenville's older basement construction provides reliably. The Ohio River valley humidity keeps below-grade spaces moist even without active leaks. Camel crickets in large numbers are a reliable signal that moisture levels in the space are also supporting other pests. Reducing basement humidity with a dehumidifier and sealing exterior entry points addresses both the crickets and the conditions that invite other moisture-dependent pests.",
+      },
+      {
+        question: "What makes Steubenville's older homes more vulnerable to pest entry than newer construction?",
+        answer:
+          "Pre-1950 construction in Steubenville typically has more gaps than newer builds for several reasons: foundation mortar deteriorates over decades, pier foundations have inherent soil contact that slab construction eliminates, settling creates gaps at sill plates and window frames, and original utility penetrations were often sealed with materials that have since failed. Each of these is an entry point for mice and a potential wood-to-soil contact for termites. An exclusion inspection identifies all of them in a single visit.",
+      },
+      {
+        question: "How do I stop German cockroaches from spreading between apartments in my Steubenville building?",
+        answer:
+          "German cockroaches spread through shared plumbing chases, electrical conduits, and gaps in shared walls. In Steubenville's older multi-family stock, these pathways are common. Gel bait placed in kitchens, bathrooms, and utility spaces is the most effective treatment and does not scatter the population the way sprays can. Building-wide treatment coordinated by property management is more effective than unit-by-unit approaches, since untreated adjacent units serve as a reservoir for reinfestation.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Youngstown", slug: "youngstown" },
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Parma", slug: "parma" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Steubenville, OH | Termites, Mice & Cockroaches",
+    metaDescription: "Pest control in Steubenville, OH. Local service for subterranean termites, house mice, German cockroaches, and carpenter ants in Jefferson County's Ohio River valley.",
+  },
+  {
+    slug: "athens-oh",
+    name: "Athens",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~24,000",
+    county: "Athens County",
+    climate: "cold-humid",
+    climateDriver:
+      "Athens sits in the Appalachian foothills of southeastern Ohio in Athens County, where wooded ridges, narrow valleys, and a humid continental climate combine to create one of the state's higher-humidity regions. Dense second-growth forest, high deer populations, and the Ohio University campus all contribute to the pest profile, from tick habitat in the surrounding woodland to carpenter ant pressure in the older campus-area housing stock.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Brown Recluse Spiders", "Stink Bugs", "House Mice"],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, peak in spring and fall",
+        note: "Deer ticks are present in Athens County, and southeastern Ohio is one of the state's documented Lyme disease areas. Athens County's dense woodland and high deer population support significant tick habitat adjacent to residential and campus areas.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are a consistent structural pest in Athens given the city's proximity to forested hillsides, aging housing stock near Ohio University, and the moisture that the Appalachian valley climate sustains in wood framing.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Spring through fall, found year-round indoors",
+        note: "Brown recluse spiders are present in southern and southeastern Ohio including Athens County. They are reclusive indoor spiders that occupy undisturbed areas in basements, attics, and closets, and are medically significant.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs are established in Athens County and aggregate on exterior walls of campus-area and residential structures in fall. The wooded hillsides surrounding Athens provide abundant summer feeding habitat that seeds heavy fall migration.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "House mice enter Athens structures in fall as wooded hillside habitat becomes less hospitable. Older campus-area housing and historic homes in Athens County provide numerous entry points for fall ingress.",
+      },
+    ],
+    localHook:
+      "Athens County sits in the Appalachian foothills where deer populations are dense, and the Ohio Department of Health documents one of the state's higher Lyme disease incidence rates in this region, making tick management a genuine health priority for Athens residents.",
+    intro:
+      "Athens is where Ohio University meets the Appalachian foothills, and the pest profile here is shaped by both. Deer ticks are the most serious health concern: Athens County is one of the state's documented areas for Lyme disease, and the dense woodland surrounding the city keeps tick habitat close to residential yards and campus green spaces. Brown recluse spiders are present in southern Ohio, including Athens, and are found in undisturbed areas of older homes. Carpenter ants work the moisture-softened wood of the Hocking River valley's humid climate and the aging housing near Ohio University. Stink bugs mass on exterior walls each fall before pushing into structures. Mice follow the cooling temperatures into the same older homes. This is a city where the woodland around you directly affects what you find inside your house.",
+    sections: [
+      {
+        heading: "Tick risk and Lyme disease in Athens County",
+        body: "The Ohio Department of Health consistently documents Athens County as one of the higher Lyme disease risk areas in the state, reflecting the density of Ixodes scapularis, the black-legged deer tick, in the Appalachian foothills region. Athens's position surrounded by second-growth hardwood forest and its large deer population create the conditions that support significant tick populations year-round. Peak activity occurs in spring, when nymphs are small and hard to detect, and again in fall when adults are active. Residential yards bordering woodland are most affected, but campus green spaces and trail corridors also present real exposure. Tick management for residential properties combines perimeter barrier treatment around the yard edge, granular treatment in leaf litter and brush zones, and personal protective measures. Professional treatment starting in late March, before nymph season peaks, provides the best seasonal coverage.",
+      },
+      {
+        heading: "Brown recluse spiders in Athens homes and campus housing",
+        body: "Brown recluse spiders are documented in southern and southeastern Ohio, and Athens County falls within the area where they are periodically found indoors. They are not aggressive and avoid contact, but their venom can cause necrotic skin lesions in sensitive individuals, making them the spider species worth knowing about in this region. They prefer undisturbed, dark, dry spaces: cardboard boxes in storage, folded clothing left in closets, and the spaces behind baseboards in rarely used rooms. In Athens's older housing and Ohio University-area rentals with basement storage, those conditions are common. Regular cleaning and reorganizing of stored materials, sticky traps placed along baseboards in storage areas, and sealing interior gaps reduce populations. If bites or spider activity are recurring, a professional inspection to identify harborage sites is worthwhile.",
+      },
+    ],
+    prevention: [
+      "Treat the yard perimeter and any leaf litter or brush zones bordering woodland in late March and again in September to cover both nymph and adult deer tick activity in Athens County.",
+      "Clear clutter, cardboard boxes, and undisturbed storage from basement and attic areas to reduce brown recluse harborage in older Athens homes and campus-area rentals.",
+      "Seal foundation gaps, utility entry points, and aging window frames before October to block fall mouse ingress in Athens County's older housing stock.",
+      "Check south- and west-facing exterior walls in August and seal any gaps in cladding, soffits, and utility penetrations before stink bugs begin their fall aggregation on Athens structures.",
+    ],
+    costNote:
+      "Athens pest inspections are typically free. Tick barrier treatment programs run $75 to $150 per application and are most effective on a two-application seasonal schedule. Brown recluse inspections are included with general pest inspections or run $75 to $100 separately.",
+    faqs: [
+      {
+        question: "How serious is the Lyme disease risk from ticks in Athens County?",
+        answer:
+          "The Ohio Department of Health documents Athens County among the state's higher-incidence areas for Lyme disease, reflecting the density of black-legged deer ticks in the Appalachian foothills region. The risk is real and worth taking seriously, particularly for households with children or pets who spend time in yard areas bordering woodland or in trail corridors. Tick checks after outdoor activity, protective clothing, and professional yard treatment in spring and fall reduce exposure meaningfully.",
+      },
+      {
+        question: "Are brown recluse spiders actually present in Athens, Ohio?",
+        answer:
+          "Brown recluse spiders are documented in southern and southeastern Ohio, and Athens County is within the area where they are periodically found. They are not common in the way house spiders or wolf spiders are, but they are present. They favor undisturbed storage areas: cardboard boxes, stacked clothing, spaces behind rarely moved furniture. If you are finding spiders consistently in those areas and are uncertain of the species, a professional identification is worthwhile given the brown recluse's medical significance.",
+      },
+      {
+        question: "Why do stink bugs seem worse near the wooded hillsides in Athens?",
+        answer:
+          "Wooded areas provide the vegetation that brown marmorated stink bugs use as summer feeding habitat. Athens is surrounded by second-growth hardwood forest on the Appalachian ridges, which seeds large stink bug populations each season. When fall temperatures drop, those insects migrate toward structures, and homes at the woodland edge or with south-facing walls that absorb afternoon sun see the heaviest aggregations. The wooded setting that makes Athens attractive also makes fall stink bug management more demanding.",
+      },
+      {
+        question: "What is the best way to manage ticks in an Athens yard that borders woodland?",
+        answer:
+          "Properties bordering woodland in Athens County are the highest-risk category for deer tick exposure. The key management steps are a perimeter barrier treatment along the yard-to-woodland transition, granular treatment in leaf litter and mulch zones where ticks shelter, and keeping grass mowed short to reduce the humid microclimate ticks prefer. Treatment in late March before nymph season and again in September before adult season covers the two peak activity windows. Deer exclusion fencing at the property boundary is effective where practical but is not always feasible.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus" },
+      { name: "Chillicothe", slug: "chillicothe-oh" },
+      { name: "Zanesville", slug: "zanesville" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Athens, OH | Ticks, Brown Recluse & Stink Bugs",
+    metaDescription: "Pest control in Athens, OH. Local service for deer ticks, brown recluse spiders, stink bugs, carpenter ants and house mice in Athens County near Ohio University.",
+  },
+  {
+    slug: "fremont-oh",
+    name: "Fremont",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~15,000",
+    county: "Sandusky County",
+    climate: "cold-humid",
+    climateDriver:
+      "Fremont sits along the Sandusky River in Sandusky County in northern Ohio, where the humid continental climate is moderated by Lake Erie proximity. The Sandusky River creates persistent wet-soil conditions and seasonal flooding in lower-elevation neighborhoods, which sustains moisture-dependent pest activity and provides breeding habitat for mosquitoes and the insects that support boxelder bug populations in adjacent river-corridor tree growth.",
+    topPests: ["Boxelder Bugs", "House Mice", "Carpenter Ants", "Mosquitoes", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November for entry, March through April for exit",
+        note: "Boxelder bugs from Sandusky River corridor trees aggregate on Fremont structures in large numbers each fall and push into wall voids and attic spaces to overwinter. They emerge again in spring, often inside the home.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "House mice are the primary fall and winter pest in Fremont's residential neighborhoods. The river corridor's agricultural and woodland edge provides field mouse habitat that pushes toward heated structures each October.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Sandusky River flooding and high water tables in Fremont's lower neighborhoods keep soil and wood moisture elevated, creating the damp-wood conditions that carpenter ants target for satellite colony establishment.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Sandusky River and adjacent wetland areas create standing water habitat that sustains mosquito breeding through the warm season in Fremont. River flooding in spring extends the breeding window into low-elevation neighborhoods.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Fremont's older multi-family and commercial housing stock. They concentrate in kitchen and bathroom areas and require gel bait programs for effective long-term control.",
+      },
+    ],
+    localHook:
+      "Fremont's position along the Sandusky River creates persistent wet-soil conditions adjacent to residential areas, and the boxelder trees that line river corridors seed massive boxelder bug populations that move into homes in waves every September and October.",
+    intro:
+      "Fremont has a pest calendar that is unusually predictable. Boxelder bugs from the Sandusky River tree corridor begin massing on exterior walls every September in numbers that can cover entire south-facing sides of houses. House mice start their push indoors in October as the river valley cools. Mosquitoes breed in Sandusky River wetlands from spring through summer. Carpenter ants are a summer structural concern in the lower neighborhoods where soil moisture is elevated from the river. German cockroaches operate year-round in the older commercial and residential core. Each of these is a known pattern in Sandusky County, and getting ahead of the timing is what separates effective pest management from reactive pest management in Fremont.",
+    sections: [
+      {
+        heading: "Boxelder bug season on Fremont's Sandusky River corridor",
+        body: "Boxelder bugs are one of the most visible pest events in Fremont each fall, and the Sandusky River corridor explains why the city sees such large aggregations. Boxelder and maple trees grow densely along the river banks and drainage areas throughout Sandusky County, and those trees are where boxelder bugs feed and breed through summer. When September temperatures drop, adults begin their migration toward structures, looking for overwintering sites in wall voids, attic spaces, and under siding. South- and west-facing walls that absorb afternoon heat are the primary aggregation sites. The bugs are not structurally destructive or medically significant, but the quantities can be alarming and their reddish excrement stains light-colored surfaces. The window for treatment is late August through September, before aggregations reach peak size. Exterior perimeter sprays applied to the wall surfaces and foundation at that point significantly reduce how many make it inside.",
+      },
+      {
+        heading: "Mosquito season along the Sandusky River in Fremont",
+        body: "The Sandusky River's floodplain creates mosquito breeding habitat that is qualitatively different from what most urban properties deal with. While residential standing water in birdbaths and clogged gutters is a local source, the river's wetland margins and post-flood pools in low-elevation Fremont neighborhoods are larger, longer-lasting breeding sources outside any individual homeowner's control. Mosquito pressure in Fremont tracks the river's behavior as much as the calendar: a wet spring with significant river flooding in April and May extends the breeding window and elevates pressure for the season. Yard-perimeter barrier spray programs address the adult mosquitoes resting in vegetation around the home and are repeated on a three to four week schedule through the active season. Standing water elimination within the property reduces the local contribution, but the river-corridor pressure is the dominant driver for riverside neighborhoods.",
+      },
+    ],
+    prevention: [
+      "Apply an exterior perimeter spray to south- and west-facing walls and foundation areas in late August before boxelder bugs begin their fall aggregation from Sandusky River corridor trees.",
+      "Inspect and seal foundation gaps, utility penetrations, and basement window frames in September before field mice from the river corridor move into Fremont structures for winter.",
+      "Clear standing water from low-lying areas within the yard within 48 hours of rain to reduce local mosquito breeding separate from the Sandusky River wetland sources.",
+      "Seal soffit gaps, ridge vents, and wall penetrations in late summer to limit the wall-void space available to overwintering boxelder bugs and stink bugs.",
+    ],
+    costNote:
+      "Fremont pest inspections are typically free. Boxelder bug exterior treatments run $75 to $150 per application. Mosquito barrier spray programs average $60 to $100 per visit on a seasonal schedule. Rodent exclusion programs start at $150 to $300.",
+    faqs: [
+      {
+        question: "Why are boxelder bugs so bad in Fremont specifically?",
+        answer:
+          "Fremont's position along the Sandusky River corridor provides the dense boxelder and maple tree growth that these insects depend on for summer feeding and breeding. Properties near the river or adjacent to parks and drainage areas with mature boxelder trees see the heaviest fall aggregations. The bugs are present throughout northern Ohio, but communities along river corridors with large tree populations consistently see worse activity than those in more developed or tree-sparse areas.",
+      },
+      {
+        question: "When do boxelder bugs actually get inside Fremont homes?",
+        answer:
+          "They begin aggregating on exterior walls in September as temperatures drop. They push into wall voids and attic spaces through gaps in exterior cladding, soffit material, and utility penetrations over the following weeks. Many overwinter inside and emerge in late March or April, sometimes appearing suddenly inside living spaces. The best treatment window is September, before they find their way in. By the time you see them inside in spring, they have already been overwintering in the wall for months.",
+      },
+      {
+        question: "How does the Sandusky River affect mosquito season in Fremont neighborhoods?",
+        answer:
+          "The Sandusky River's floodplain creates standing water in low-elevation Fremont neighborhoods after rain and river rises, providing large-scale breeding habitat that persists longer than typical residential sources. A wet spring with significant river flooding extends the mosquito season and elevates overall pressure. Neighborhoods bordering the river corridor consistently see more mosquito activity than those in Fremont's more elevated areas. Yard-perimeter barrier sprays reduce adult populations around the home, but the river-corridor breeding source requires ongoing treatment to manage.",
+      },
+      {
+        question: "Is the carpenter ant problem in Fremont related to the Sandusky River?",
+        answer:
+          "For the lower-elevation neighborhoods closest to the Sandusky River, yes. Flooding and high water tables in those areas keep soil moisture elevated and accelerate the decay of below-grade wood, sill plates near grade, and deck framing. Carpenter ants target exactly this type of moisture-softened wood. Properties on higher ground in Fremont typically see lower carpenter ant pressure than those in the river-adjacent neighborhoods, where moisture-related wood softening is an ongoing condition rather than an occasional one.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Toledo", slug: "toledo" },
+      { name: "Sandusky", slug: "sandusky" },
+      { name: "Findlay", slug: "findlay" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Fremont, OH | Boxelder Bugs, Mice & Mosquitoes",
+    metaDescription: "Pest control in Fremont, OH. Local service for boxelder bugs, house mice, mosquitoes near the Sandusky River, carpenter ants and cockroaches in Sandusky County.",
+  },
+  {
+    slug: "mount-vernon-oh",
+    name: "Mount Vernon",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~16,000",
+    county: "Knox County",
+    climate: "cold-humid",
+    climateDriver:
+      "Mount Vernon sits in Knox County in central Ohio, where rolling hills, mixed orchard and grain agriculture, and wooded ridgelines create the landscape that defines both the county's character and its pest pressure. The humid continental climate brings cold winters, warm summers, and enough rainfall to keep agricultural operations viable and to support the pest species that move between those farms and residential structures at the season's edge.",
+    topPests: ["Stink Bugs", "House Mice", "Carpenter Ants", "Cluster Flies", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November for entry, March through April for exit",
+        note: "Knox County's mix of orchards and grain fields makes it one of the heavier stink bug areas in central Ohio. Stink bugs feed on agricultural crops through summer and migrate to Mount Vernon structures in fall.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "House mice are the dominant fall and winter pest in Mount Vernon. Knox County's agricultural fields and wooded hillsides produce field mouse populations that push toward residential structures when crops are harvested and temperatures drop.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are common in Mount Vernon's older housing stock and in homes bordering Knox County's wooded hillsides. Moisture from the rolling terrain keeps wood framing in older structures at levels that support carpenter ant colony establishment.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through November for entry, February through April for exit",
+        note: "Cluster flies overwinter in the wall voids and attic spaces of older Mount Vernon homes near agricultural land. Knox County's earthworm-rich agricultural fields are where cluster fly larvae develop, seeding the adult populations that seek overwintering sites each fall.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms in spring, active year-round",
+        note: "Subterranean termites are present in Knox County at moderate pressure levels. Older Mount Vernon homes with wood near grade and crawlspace construction represent the primary risk inventory.",
+      },
+    ],
+    localHook:
+      "Knox County's mix of orchards, wooded hillsides, and grain fields creates ideal habitat for brown marmorated stink bugs, which use agricultural crops as summer feeding grounds before migrating to Mount Vernon homes in September seeking overwintering sites.",
+    intro:
+      "Mount Vernon's pest pressure comes directly from the agricultural and wooded landscape that surrounds Knox County. Stink bugs feed in orchards and grain fields through summer and move into structures in September in numbers that can be significant for homes near the agricultural edge. Cluster flies are a similar overwintering pest that depends on the county's earthworm-rich farmland for larval development, then pushes into older homes as fall arrives. House mice follow the fall harvest from fields into residential structures on schedule every October. Carpenter ants work the moisture-softened wood of homes in the rolling hills. Subterranean termites are present at moderate levels in older construction. This is a city where the pest season is genuinely agricultural, driven by what happens in the surrounding fields and orchards as much as by what is happening in the neighborhoods.",
+    sections: [
+      {
+        heading: "Stink bug and cluster fly overwintering in Mount Vernon homes",
+        body: "Brown marmorated stink bugs and cluster flies are both overwintering pests that depend on farm and woodland habitat outside Mount Vernon for their summer development and then move into structures as fall arrives. The agricultural character of Knox County makes both species more prevalent here than in more urbanized Ohio counties. Stink bugs feed on apple and peach orchards, corn, and soybeans through summer before aggregating on residential exterior walls in September. Cluster flies lay eggs in soil near earthworms, and Knox County's agricultural land is full of both. The adult flies emerge in late summer and seek overwintering sites in wall voids and attics of older structures. The treatment approach for both is the same: seal exterior gaps before September, apply a perimeter spray in early fall, and manage any individuals that do overwinter inside by vacuuming rather than spraying.",
+      },
+      {
+        heading: "Mouse season in Knox County's agricultural edge neighborhoods",
+        body: "Mount Vernon sits within Knox County's farming landscape, and every fall the crop harvest removes field cover from large areas around the city. The deer mice and house mice living in those fields move outward when cover disappears, and residential structures on Mount Vernon's perimeter are the first heated buildings they encounter. Homes bordering open agricultural land or wooded edges see the most consistent fall mouse activity, but the migration is county-wide. An exclusion inspection in September, before harvest peaks, identifies every gap mice are likely to use and seals them with appropriate materials. Interior monitoring stations placed in basements, crawlspaces, and garages then catch any individuals that do get through. Snap traps are effective and fast for active infestations. Rodenticide bait stations outside the structure address the population approaching the building from the field edge.",
+      },
+    ],
+    prevention: [
+      "Seal all exterior gaps, soffit vents, and utility penetrations before September to block stink bug and cluster fly entry from Knox County's agricultural fields before their fall migration peaks.",
+      "Walk the foundation perimeter in late September and seal gaps before harvest drives field mice from Knox County cropland toward Mount Vernon residential structures.",
+      "Schedule an annual termite inspection for any Mount Vernon home built before 1970, particularly those with crawlspace construction or wood near soil contact.",
+      "Address moisture in basement and crawlspace areas to reduce the conditions that support carpenter ants in older Knox County homes near wooded ridgelines.",
+    ],
+    costNote:
+      "Mount Vernon pest inspections are typically free. Stink bug and cluster fly exclusion treatments run $100 to $200. Rodent exclusion programs start at $150 to $300. Annual termite inspections run $75 to $125.",
+    faqs: [
+      {
+        question: "Why do Mount Vernon homes near orchards get more stink bugs than homes in town?",
+        answer:
+          "Brown marmorated stink bugs feed on fruit trees, corn, and soybeans through summer, and Knox County's orchards provide exactly that habitat. When fall temperatures drop, those stink bugs migrate toward structures for overwintering sites. Homes within a half mile of active orchard or agricultural land are in the direct migration path and see larger aggregations than those deeper in the urban core. South- and west-facing walls that hold afternoon heat are the preferred aggregation surfaces.",
+      },
+      {
+        question: "What are cluster flies and why are they common in Mount Vernon?",
+        answer:
+          "Cluster flies look similar to house flies but are slightly larger and move more slowly. Their larvae develop as parasites inside earthworms, and Knox County's agricultural fields have high earthworm populations. Adult cluster flies emerge in late summer and seek overwintering sites in wall voids and attic spaces of older structures. In spring they can emerge inside the home in large numbers on warm days. They are not associated with waste or disease but are a significant nuisance. Sealing exterior gaps before fall is the most effective prevention.",
+      },
+      {
+        question: "Are ground beetles in Mount Vernon connected to the agricultural land?",
+        answer:
+          "Yes. Ground beetles are common agricultural field insects in Knox County and move into structures and garages at the field edge in fall and early spring. They are primarily a nuisance pest, not structurally damaging or medically significant, but they appear in large numbers near agricultural margins. Exterior perimeter treatments and sealing entry points along the foundation reduce how many enter the structure.",
+      },
+      {
+        question: "Is termite risk in Mount Vernon lower than in southern Ohio?",
+        answer:
+          "Eastern subterranean termite pressure in Knox County is moderate, lower than in the Ohio River valley counties but present. Annual inspections are still the recommended standard for older Mount Vernon homes, particularly those with crawlspace construction, wood sill plates near grade, or a history of moisture intrusion in the basement or crawlspace. Swarmers appear in spring on warm days, and finding them near a foundation is a signal to schedule an inspection promptly.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus" },
+      { name: "Newark", slug: "newark-oh" },
+      { name: "Mansfield", slug: "mansfield-oh" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Mount Vernon, OH | Stink Bugs, Mice & Cluster Flies",
+    metaDescription: "Pest control in Mount Vernon, OH. Local service for stink bugs, house mice, cluster flies, carpenter ants and subterranean termites in Knox County.",
+  },
 ];
