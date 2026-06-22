@@ -2428,4 +2428,322 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "Atchison KS pest control for house mice, silverfish, boxelder bugs and carpenter ants. Atchison County Missouri River Victorian-era housing specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "newton-ks",
+    name: "Newton",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~19,000",
+    county: "Harvey County",
+    climate: "temperate",
+    climateDriver:
+      "Newton sits in Harvey County in south-central Kansas, north of Wichita. The continental temperate climate brings hot, dry summers, cold winters, and the thunderstorm season that defines Kansas spring. The Little Arkansas River, which flows through Newton, creates localized mosquito habitat in an otherwise semi-arid landscape. Harsh winters drive rodents indoors reliably each fall.",
+    topPests: ["House Mice", "Brown Recluse Spiders", "Wasps and Yellow Jackets", "Mosquitoes", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through November, active all winter",
+        note: "House mice are the primary fall and winter pest in Harvey County. Kansas winters drive them reliably into structures from October onward. Newton's older housing stock provides the gaps and harborage that mice exploit in the cold season.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active May through October",
+        note: "Brown recluse spiders are common throughout Kansas, including Harvey County. They are found in undisturbed, sheltered spots in basements, garages, closets, and storage areas. The Kansas populations are considered among the densest in the country.",
+      },
+      {
+        name: "Wasps and yellow jackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "Active April through October, colonies peak July through September",
+        note: "Paper wasps and yellow jackets are common across Kansas through the warm season. In Newton, they build nests under eaves, in ground burrows, and in wall voids. Late-summer colonies are large and defensive.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Little Arkansas River and any seasonal water retention in Harvey County create localized mosquito habitat. The Kansas warm season is hot but shorter than the South, with the active window running May through September.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active May through October",
+        note: "Fire ants have spread into south-central Kansas, including Harvey County. Their range in Kansas is expanding northward. They are present in Newton and build mounds in lawns and open ground.",
+      },
+    ],
+    localHook:
+      "Newton is in the heart of the Kansas brown recluse belt. Harvey County has documented some of the highest brown recluse densities in the country, and basements, garages, and storage areas in older homes here warrant real caution year-round.",
+    intro:
+      "Pest control in Newton covers the south-central Kansas range: brown recluse spiders as the distinctive local risk, house mice as the cold-season pest, wasps through the warm season, and localized mosquito pressure from the Little Arkansas River. Harvey County has well-documented brown recluse spider populations, and the older housing stock in Newton's residential areas provides exactly the undisturbed sheltered spots they prefer. Kansas winters are reliable in one respect: mice move indoors every October.",
+    sections: [
+      {
+        heading: "Brown recluse spiders in Harvey County",
+        body: "Brown recluse spiders are more common in the Kansas portion of their range than most people expect. Harvey County is within the documented high-density zone for this species in Kansas. They inhabit undisturbed, sheltered spots: basements, closets, garages, cardboard boxes, and areas under stored furniture and equipment. They are not aggressive but will bite defensively when disturbed in those spaces. Reducing clutter, shaking out shoes and clothing left on floors, and wearing gloves when working in storage areas are the practical precautions. A perimeter treatment helps, but brown recluse control primarily works through reducing harborage and entry points.",
+      },
+      {
+        heading: "Mice in winter and wasps in summer",
+        body: "House mice are the cold-season pest in Newton: the Kansas winter drives them into structures from October through November with little variation. Sealing utility penetrations, door gaps, and crawl space vents before October is the most effective preventive step. The warm season brings paper wasps and yellow jackets under eaves and in ground nests, with colonies peaking in August and September. Mosquito season near the Little Arkansas River runs May through September, shorter than in the South but still significant in summer.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps in September before mice begin their fall push into structures.",
+      "Reduce clutter in basements, garages, and storage areas to limit brown recluse harborage sites.",
+      "Check eaves and porch areas for paper wasp nests in April before they grow through summer.",
+      "Wear gloves when handling stored boxes, equipment, or items that have been undisturbed for extended periods.",
+    ],
+    costNote:
+      "Most Newton homeowners benefit from a fall exclusion service targeting mice, plus a warm-season perimeter plan covering wasps, mosquitoes, and brown recluse perimeter treatment. A free inspection identifies priority entry points and harborage areas.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really that common in Newton, Kansas?",
+        answer:
+          "Yes. Harvey County is within the documented high-density zone for brown recluse spiders in Kansas. Research on Kansas spider populations has found them in the majority of older homes in the region. They inhabit undisturbed spaces year-round and are a legitimate safety concern. Reducing clutter and using gloves in storage areas are the most important precautions.",
+      },
+      {
+        question: "When do mice come into Newton homes in the fall?",
+        answer:
+          "October is the key month in Harvey County. House mice begin moving toward heated structures as Kansas temperatures drop consistently in October. Completing exclusion work in late September, sealing utility penetrations, door gaps, and crawl space vents, before the pressure begins is more effective than reactive trapping after entry.",
+      },
+      {
+        question: "Are fire ants in the Newton area?",
+        answer:
+          "Red imported fire ants have spread into south-central Kansas including Harvey County. Their range in Kansas continues to expand northward. They are present in Newton and build mounds in lawns and open ground, most active from May through October. Their presence in Kansas is less dense than in Texas or the South, but they are established and expanding.",
+      },
+      {
+        question: "How long is the mosquito season along the Little Arkansas River?",
+        answer:
+          "The Little Arkansas River and seasonal water retention in Harvey County create localized mosquito habitat from roughly May through September. The Kansas hot-dry summer is compressed compared to the South, but the river corridor sustains populations through that window. Reducing standing water near the house and treating resting areas reduces the biting population close to your property.",
+      },
+      {
+        question: "What wasp problems should I expect in Newton in summer?",
+        answer:
+          "Paper wasps and yellow jackets are the most common stinging insects in Harvey County through the warm season. Paper wasps build open nests under eaves and in porch ceilings, visible from early spring. Yellow jackets build ground nests and wall void nests. Both are most defensive in August and September when colonies are at their largest. Checking eaves in April and treating early prevents large colonies from developing.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Wichita", slug: "wichita" },
+      { name: "Hutchinson", slug: "hutchinson" },
+      { name: "McPherson", slug: "mcpherson-ks" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Newton, KS | Brown Recluse, Mice & Wasps",
+    metaDescription:
+      "Pest control in Newton, KS. Harvey County service for brown recluse spiders, house mice, wasps, mosquitoes near the Little Arkansas River, and fire ants. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "arkansas-city-ks",
+    name: "Arkansas City",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~12,000",
+    county: "Cowley County",
+    climate: "temperate",
+    climateDriver:
+      "Arkansas City sits at the confluence of the Walnut and Arkansas rivers in Cowley County in south Kansas, near the Oklahoma border. The continental climate with Southern influence produces hot summers, cold winters, and significant spring storm seasons. The river confluence creates extensive mosquito habitat, while the proximity to Oklahoma's warmer climate extends the active season for fire ants and spiders.",
+    topPests: ["House Mice", "Brown Recluse Spiders", "Mosquitoes", "Fire Ants", "Wasps"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through November, active all winter",
+        note: "House mice are the dominant fall and winter pest in Cowley County. Kansas winters drive them into structures from October onward. Arkansas City's older housing stock near the river confluence provides ample entry points and harborage.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active May through October",
+        note: "Brown recluse spiders are common throughout south Kansas and Cowley County. The proximity to Oklahoma deepens the brown recluse range, and the older housing stock in Arkansas City provides the undisturbed sheltered spaces they prefer.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The confluence of the Walnut and Arkansas rivers creates significant mosquito habitat in the southern Cowley County area. Properties near the river bottomlands and backwater areas see the most sustained mosquito pressure.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October",
+        note: "Fire ants are present in south Kansas, and the proximity to Oklahoma means stronger fire ant pressure in Cowley County than in more northern Kansas cities. They build mounds in lawns and open ground, most active in the warm season.",
+      },
+      {
+        name: "Paper wasps and yellow jackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "Active April through October, colonies peak August through September",
+        note: "Paper wasps and yellow jackets are common across south Kansas. In Arkansas City, they build nests under eaves, in ground burrows, and in wall voids. The Oklahoma border climate gives them a slightly longer active season than more northern Kansas cities.",
+      },
+    ],
+    localHook:
+      "Arkansas City's position at the confluence of the Walnut and Arkansas rivers creates substantial mosquito habitat, and its proximity to Oklahoma extends fire ant and brown recluse pressure into the south Kansas border zone. The river confluence is both a scenic asset and the primary driver of the mosquito season.",
+    intro:
+      "Pest control in Arkansas City is shaped by two things: the river confluence and the Oklahoma border. The Walnut and Arkansas rivers meeting near the city create significant mosquito habitat through the warm season. The proximity to Oklahoma extends the fire ant and brown recluse spider range northward into Cowley County more firmly than in central or northern Kansas. Brown recluse spiders are a legitimate local concern in older housing. Mice are the cold-season pest, moving in reliably in October.",
+    sections: [
+      {
+        heading: "Mosquitoes at the river confluence and fire ants from the south",
+        body: "The confluence of the Walnut and Arkansas rivers near Arkansas City creates bottomland and backwater areas that sustain mosquito populations from May through September. Properties near the rivers see the heaviest pressure. The Oklahoma border proximity means fire ant populations in Cowley County are more established than in central Kansas, with mounds appearing in lawns and open ground from April through October. The slightly warmer southern border climate extends both seasons compared to cities further north.",
+      },
+      {
+        heading: "Brown recluse spiders and mice in older housing",
+        body: "Brown recluse spiders are a genuine concern in older Kansas homes, and Arkansas City's housing stock along the river district includes properties with the undisturbed, sheltered spaces they prefer. They are not aggressive but will bite defensively in garages, closets, and storage areas. Reducing clutter and wearing gloves in stored areas are the practical precautions. House mice follow the October cold trigger, entering structures through gaps at utility penetrations, door sills, and foundation cracks.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps in September before mice begin their October entry push into structures.",
+      "Reduce clutter in garages and storage areas to limit brown recluse harborage.",
+      "Apply fire ant broadcast bait in April before the spring warm-up builds colony populations.",
+      "Reduce standing water near the Walnut and Arkansas river corridors to cut mosquito breeding close to the house.",
+    ],
+    costNote:
+      "Most Arkansas City homeowners benefit from a fall exclusion service for mice plus a warm-season plan covering mosquitoes, fire ants, and perimeter pests. A free inspection identifies priority entry points and confirms brown recluse harborage areas in your home.",
+    faqs: [
+      {
+        question: "Why does the river confluence affect mosquito pressure in Arkansas City?",
+        answer:
+          "The confluence of the Walnut and Arkansas rivers creates bottomland, backwater, and seasonal floodplain areas that provide standing water habitat through the warm season. Properties near the rivers, particularly in the lower-elevation areas adjacent to the bottomland, see higher mosquito pressure than upland areas of the city.",
+      },
+      {
+        question: "Are fire ants worse near the Oklahoma border in Kansas?",
+        answer:
+          "Yes. Fire ants have spread northward through Oklahoma and into south Kansas, and Cowley County's proximity to the Oklahoma border means stronger fire ant establishment than central or northern Kansas. The slightly warmer climate near the border extends the active season. Mounds appear in lawns from April onward and the population peaks through summer.",
+      },
+      {
+        question: "Are brown recluse spiders common in Arkansas City?",
+        answer:
+          "Brown recluse spiders are present throughout south Kansas, and Cowley County is within their documented range. The older housing near the historic river district provides the undisturbed, sheltered spaces they prefer. They are not aggressive but will bite defensively. Reducing clutter in basements, garages, and storage areas and wearing gloves when working in those spaces are the most effective precautions.",
+      },
+      {
+        question: "When do mice enter homes in Arkansas City?",
+        answer:
+          "October is the primary entry window in Cowley County. Kansas winters are reliable triggers for house mice, which begin moving toward heated structures when temperatures drop consistently. Sealing utility penetrations, crawl space vents, and door gaps in late September is more effective than reactive trapping after mice are already inside.",
+      },
+      {
+        question: "How is the pest calendar in Arkansas City different from Wichita?",
+        answer:
+          "Arkansas City's southern border location gives it a slightly warmer climate and more southern pest pressure than Wichita. Fire ants are more established here, the mosquito season near the river is extended, and the Oklahoma border climate means brown recluse and other southern species have a stronger presence. The cold-season pest calendar is similar: mice from October, overwintering insects in fall, reduced warm-season activity in winter.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Winfield", slug: "winfield-ks" },
+      { name: "Wichita", slug: "wichita" },
+      { name: "Newton", slug: "newton-ks" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Arkansas City, KS | Brown Recluse, Mice & Mosquitoes",
+    metaDescription:
+      "Pest control in Arkansas City, KS. Cowley County service for brown recluse spiders, house mice, mosquitoes at the river confluence, fire ants, and wasps. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mcpherson-ks",
+    name: "McPherson",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~13,000",
+    county: "McPherson County",
+    climate: "temperate",
+    climateDriver:
+      "McPherson is the county seat of McPherson County in central Kansas between Wichita and Salina. The continental temperate climate brings hot, dry summers, cold winters, and strong spring storm seasons typical of the Kansas plains. The semi-arid landscape limits mosquito habitat to seasonal drainage and retention areas, while the cold winters reliably drive rodents indoors. The city's grain storage and agricultural setting creates specific pest pressures from grain insects and rodents.",
+    topPests: ["House Mice", "Brown Recluse Spiders", "Grain Insects", "Wasps", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through November, active all winter",
+        note: "House mice are the dominant fall and winter pest in McPherson County. Kansas cold drives them into structures reliably from October. The city's grain storage operations and agricultural surrounding create a large outdoor mouse population that feeds the residential entry pressure each fall.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active May through October",
+        note: "Brown recluse spiders are common throughout central Kansas, including McPherson County. They inhabit undisturbed, sheltered spots in homes and storage areas. The grain and agricultural industry areas in McPherson provide additional harborage sites.",
+      },
+      {
+        name: "Grain and stored product insects",
+        serviceSlug: "pantry-pest-control",
+        activeSeason: "Year-round",
+        note: "McPherson County's grain storage operations and the proximity of grain elevators and feed mills to residential areas creates stored-product insect pressure. Indian meal moths, grain beetles, and weevils can infest pantry items and spread from nearby agricultural storage.",
+      },
+      {
+        name: "Paper wasps and yellow jackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "Active April through October, colonies peak July through September",
+        note: "Paper wasps and yellow jackets are common across central Kansas through the warm season. In McPherson, they build nests under eaves, in machinery and grain storage equipment, and in ground burrows. Late-summer colonies are large and defensive.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "McPherson County's semi-arid landscape limits mosquito habitat to seasonal drainage areas, farm ponds, and stormwater retention features. The season is shorter and less intense than in the Southeast but significant in summer near water features.",
+      },
+    ],
+    localHook:
+      "McPherson's agricultural setting creates pest pressures that purely residential communities do not see: the large outdoor mouse population supported by grain storage operations drives a more intense fall entry pressure into residential areas, and grain insects from agricultural storage can spread into residential pantries.",
+    intro:
+      "Pest control in McPherson is shaped by its agricultural setting in central Kansas. The grain storage and feed industry operations in McPherson County sustain a larger outdoor rodent population than a city this size would otherwise see, driving more intense fall entry pressure into residential structures. Brown recluse spiders are common throughout central Kansas. Grain insects from agricultural storage can spread to residential pantries. Wasps and yellow jackets are the warm-season stinging insect problem. Mosquitoes are limited by the semi-arid landscape but present near drainage and retention areas.",
+    sections: [
+      {
+        heading: "Mice and grain insects from McPherson's agricultural setting",
+        body: "The grain storage operations and feed mills in McPherson support a large outdoor mouse population that significantly increases fall residential entry pressure. Mice begin moving toward heated structures in October, following the Kansas cold trigger, but the population level here is higher than in agricultural-light communities. Completing exclusion work in late September targets this specific risk. Grain and stored product insects, including Indian meal moths and grain beetles, can also spread from agricultural operations to residential pantries through improperly sealed dry goods.",
+      },
+      {
+        heading: "Brown recluse spiders and the warm-season pest calendar",
+        body: "Brown recluse spiders are common in central Kansas and present year-round in McPherson homes, most active in the warm months. The agricultural storage areas in town provide additional harborage beyond residential garages and basements. Paper wasps and yellow jackets are the dominant warm-season stinging insects, building nests under eaves and in machinery from April through October. Mosquito season runs May through September, limited by the semi-arid landscape but present near drainage and retention areas.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps in late September before mice begin their October entry push, especially near grain storage areas.",
+      "Store pantry items in sealed hard-plastic or glass containers to prevent grain insect spread.",
+      "Reduce clutter in garages and storage areas to limit brown recluse harborage sites.",
+      "Check eaves and farm equipment stored near the house for paper wasp nests in April.",
+    ],
+    costNote:
+      "Most McPherson homeowners benefit from a fall exclusion service targeting mice, plus a warm-season plan for wasps, spiders, and perimeter pests. A free inspection identifies priority entry points and harborage areas specific to your property.",
+    faqs: [
+      {
+        question: "Why are mouse problems more intense near grain storage in McPherson?",
+        answer:
+          "The grain elevators, feed mills, and agricultural storage operations in McPherson County support a large outdoor mouse population that exceeds what most residential-only communities sustain. When Kansas cold drives mice toward heated structures in October, properties near these operations face higher entry pressure than homes in areas without agricultural activity. Thorough exclusion work in September is the most effective preventive step.",
+      },
+      {
+        question: "Can grain insects spread from McPherson's elevators to my home?",
+        answer:
+          "Indirectly, yes. Indian meal moths, grain beetles, and weevils associated with grain storage operations can spread to residential areas and infest improperly stored pantry items, including flour, cornmeal, oats, nuts, and dried fruit. Storing dry goods in sealed hard-plastic or glass containers eliminates the harborage that allows infestations to establish in kitchens.",
+      },
+      {
+        question: "Are brown recluse spiders common in McPherson County?",
+        answer:
+          "Yes. McPherson County is within the documented brown recluse range in central Kansas. They are year-round residents in undisturbed spaces: basements, garages, closets, and stored items. Reducing clutter, wearing gloves when working in stored areas, and shaking out shoes and clothing left on floors are the practical day-to-day precautions.",
+      },
+      {
+        question: "What wasps are most common in McPherson in summer?",
+        answer:
+          "Paper wasps are the most common in McPherson, building open-comb nests under eaves, in porch ceilings, and around window frames. Yellow jackets build ground nests and wall void nests. Both are most defensive in August and September. Farm equipment and machinery stored near the house often harbor nests that are discovered when the equipment is moved in summer.",
+      },
+      {
+        question: "Is the mosquito season short in McPherson?",
+        answer:
+          "Shorter than in more humid states, yes. McPherson County's semi-arid landscape limits standing water to seasonal drainage areas, farm ponds, and stormwater retention features. The mosquito season runs May through September, with peak pressure in June and July after spring rains. The dry summer heat reduces breeding habitat later in the season.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Hutchinson", slug: "hutchinson" },
+      { name: "Newton", slug: "newton-ks" },
+      { name: "Salina", slug: "salina" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in McPherson, KS | Mice, Brown Recluse & Grain Insects",
+    metaDescription:
+      "Pest control in McPherson, KS. McPherson County service for house mice from grain storage, brown recluse spiders, stored product insects, wasps, and mosquitoes. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -1763,4 +1763,428 @@ export const arkansasCities: CityLocation[] = [
     metaTitle: "Pest Control in Bryant, AR | Fire Ants, Termites & Mosquitoes",
     metaDescription: "Bryant AR pest control for fire ants, subterranean termites, brown recluse spiders, cockroaches and mosquitoes. Saline County fast-growing Little Rock suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "van-buren-ar",
+    name: "Van Buren",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~25,000",
+    county: "Crawford County",
+    climate: "hot-humid",
+    climateDriver:
+      "Van Buren sits on the Arkansas River across from Fort Smith in Crawford County. The hot, humid climate of the Arkansas River Valley brings long, wet summers and mild winters. The river, its backwaters, and the creek drainages throughout Crawford County create persistent mosquito habitat, while the heat and humidity sustain subterranean termite and cockroach activity much of the year.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Cockroaches", "Spiders"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active spring through fall",
+        note: "Crawford County is in the heavy termite hazard zone for Arkansas. The Arkansas River Valley climate sustains subterranean termite colonies through a long warm season, and Van Buren's older housing stock has had significant exposure over time.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "The Arkansas River, its backwater areas, and the creek drainages in Crawford County create extensive mosquito habitat through a long warm season. Asian tiger mosquitoes are established in the River Valley region.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Fire ants are established throughout Crawford County. They build mounds in lawns, open ground, and along roadsides. The near year-round warmth of the Arkansas River Valley means colony activity stays elevated late into fall.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed in outdoor drains, mulch, and utility areas and push inside in the summer heat. German roaches establish indoors in kitchens. Both are common in the Fort Smith-Van Buren metro area.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active warm months",
+        note: "Brown recluse spiders are present in Arkansas and are found in undisturbed, sheltered spots in basements, garages, closets, and storage areas. Outdoor spider pressure is also significant in the warm months.",
+      },
+    ],
+    localHook:
+      "Van Buren's Arkansas River location keeps it in sustained mosquito territory through a long warm season, and the River Valley humidity means termite and cockroach activity that does not take a real winter break. Brown recluse spiders are a legitimate concern in any undisturbed storage area in this part of Arkansas.",
+    intro:
+      "Pest control in Van Buren covers the Arkansas River Valley pattern: sustained termite and mosquito pressure, fire ants year-round, cockroaches driven inside by summer heat, and brown recluse spiders as the local safety concern. Crawford County is in the heavy termite hazard zone. The Arkansas River and its backwater areas drive mosquito season from March through October. Brown recluse spiders are common enough in this region to warrant real caution in undisturbed storage areas.",
+    sections: [
+      {
+        heading: "Termites and cockroaches in the River Valley climate",
+        body: "Crawford County's heavy termite hazard zone rating reflects the Arkansas River Valley's long, humid warm season that keeps subterranean termite colonies active from early spring through late fall. Van Buren's older housing stock, including the downtown core and the crawl-space construction throughout the county, has had sustained exposure. American cockroaches breed outdoors in the heat and humidity and push inside seeking cooler conditions in summer. Annual termite inspections and perimeter cockroach treatment are the standard for this climate.",
+      },
+      {
+        heading: "Mosquitoes, fire ants, and brown recluse spiders",
+        body: "The Arkansas River backwaters and creek drainages in Crawford County sustain mosquito pressure from March through October. Fire ants are established year-round in the River Valley, active whenever temperatures allow, which is most of the year. Brown recluse spiders are common in Arkansas and are found in garages, basements, closets, and any undisturbed storage area. They are not aggressive but will bite defensively, and their venom causes significant tissue damage. Wearing gloves when working in stored areas is a reasonable precaution.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given Crawford County's heavy hazard zone designation.",
+      "Reduce standing water near the Arkansas River corridor and creek areas to cut mosquito breeding close to the house.",
+      "Treat fire ant mounds with broadcast bait in spring before summer peak.",
+      "Wear gloves when working in stored items in garages and closets where brown recluse spiders shelter.",
+    ],
+    costNote:
+      "Most Van Buren homeowners benefit from a recurring plan covering mosquitoes, fire ants, and perimeter pests through the long warm season, plus an annual termite inspection. A free inspection sets the scope for your property.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders common in Van Buren?",
+        answer:
+          "Yes. Brown recluse spiders are present throughout Arkansas, including the Crawford County area. They prefer undisturbed, sheltered spots: garages, basements, closets, cardboard boxes, and areas under stored items. They are not aggressive but will bite defensively if disturbed. Their venom can cause significant tissue damage at the bite site. Wearing gloves when working in stored areas and reducing clutter reduces the risk.",
+      },
+      {
+        question: "When do termites swarm in Van Buren?",
+        answer:
+          "The Arkansas River Valley climate produces early swarm seasons, typically February through April. If you see winged insects emerging from soil, from wood in or around your home, or from around foundation areas in late winter, have a professional inspect promptly. Crawford County is in the heavy termite hazard zone and annual inspections are worth scheduling.",
+      },
+      {
+        question: "How long is mosquito season along the Arkansas River in Van Buren?",
+        answer:
+          "The Arkansas River backwaters and the creek drainages in Crawford County create mosquito habitat that runs from March through October. The River Valley's warm, humid climate means the season starts earlier in spring and ends later in fall than further north. Removing standing water close to the house and treating resting areas in the yard reduces the biting population near your property.",
+      },
+      {
+        question: "Do fire ants stay active in winter in Van Buren?",
+        answer:
+          "In the Arkansas River Valley, mild winters mean fire ant colonies remain active in warm stretches even in December and January. Mound activity on the surface drops in cold weather but the colony does not die. The near year-round warmth means fire ants in Crawford County are active for more months than in northern Arkansas.",
+      },
+      {
+        question: "Why do cockroaches come into Van Buren homes in summer?",
+        answer:
+          "American cockroaches breed in moist outdoor environments, including mulch, storm drains, and utility corridors, and push inside in summer heat seeking cooler, moister conditions. They enter through utility penetrations, under door sills, and at crawl space vents. Reducing mulch against the foundation, sealing entry points, and applying a perimeter treatment addresses the outdoor population that drives the summer entry pressure.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Fort Smith", slug: "fort-smith" },
+      { name: "Russellville", slug: "russellville" },
+      { name: "Fayetteville", slug: "fayetteville-ar" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Van Buren, AR | Termites, Mosquitoes & Brown Recluse",
+    metaDescription:
+      "Pest control in Van Buren, AR. Crawford County service for subterranean termites, mosquitoes, fire ants, cockroaches, and brown recluse spiders near the Arkansas River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "west-memphis",
+    name: "West Memphis",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~25,000",
+    county: "Crittenden County",
+    climate: "hot-humid",
+    climateDriver:
+      "West Memphis sits on the Mississippi River across from Memphis, Tennessee, in Crittenden County. The Delta climate is among the hottest and most humid in Arkansas, with long wet summers and mild winters. The Mississippi River, its bottomland floodplains, and the extensive low-lying terrain of the Arkansas Delta create some of the heaviest mosquito pressure in the state and sustain year-round subterranean termite activity.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Cockroaches", "Fire Ants", "Rats"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "Crittenden County is in the highest termite hazard zone in Arkansas. The Mississippi Delta's warm, humid climate sustains year-round subterranean termite activity, with early swarm seasons that reflect the warmer temperatures compared to central Arkansas.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "West Memphis's Mississippi River location and the bottomland floodplains of Crittenden County create some of the heaviest mosquito pressure in the state. The long, hot, humid season extends the active calendar significantly beyond interior Arkansas.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The Mississippi Delta's heat and humidity sustain year-round cockroach populations. American roaches breed in outdoor drains, utility areas, and moist environments. German roaches are common in the commercial and multi-family housing along the I-40 corridor.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are established throughout the Arkansas Delta. The near year-round warmth of the Mississippi floodplain climate means colony activity in Crittenden County is sustained through all but the coldest stretches of winter.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Roof rats and Norway rats are present in West Memphis, supported by the commercial activity along the Mississippi River bridge corridor and the food industry infrastructure in the Delta region. The river port area and adjacent commercial warehouses sustain year-round rodent pressure.",
+      },
+    ],
+    localHook:
+      "West Memphis is in some of the heaviest pest territory in Arkansas: the Mississippi River Delta climate, the highest termite hazard zone in the state, and mosquito pressure that runs from March through November along one of the largest rivers in North America.",
+    intro:
+      "Pest control in West Memphis operates in the Mississippi Delta's most intense pest climate. Crittenden County is in the highest termite hazard zone in Arkansas, with year-round subterranean termite activity driven by the Delta heat and humidity. Mosquitoes run from March through November along the Mississippi River corridor, among the longest seasons in the state. Cockroaches are year-round, rats are present near the commercial river infrastructure, and fire ants are active through most of the year.",
+    sections: [
+      {
+        heading: "Termites and the Mississippi Delta hazard zone",
+        body: "Crittenden County's highest-hazard termite designation reflects the Delta climate: warm temperatures year-round, high humidity, and moist soils that keep subterranean termite colonies active without a meaningful cold-season pause. West Memphis's older housing stock along the river corridor and the crawl-space construction throughout the county create consistent exposure. Annual termite inspections and, for high-risk properties, a termite bond are the standard in this zone.",
+      },
+      {
+        heading: "Mosquitoes, cockroaches, and rats in the Delta",
+        body: "The Mississippi River bottomland floodplains and the low-lying terrain of Crittenden County sustain some of the heaviest mosquito pressure in Arkansas through a season that runs March through November. Cockroaches are a year-round pest in this climate: American roaches breed outdoors and push inside in heat, while German roaches maintain indoor populations in commercial and multi-family buildings. Rats are present near the commercial port and bridge corridor, sustained by the river and food industry infrastructure.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given Crittenden County's highest hazard zone designation.",
+      "Reduce standing water near the Mississippi River bottomland areas to cut mosquito breeding close to the house.",
+      "Seal utility penetrations, drain covers, and foundation gaps to reduce cockroach and rat entry.",
+      "Treat fire ant mounds with broadcast bait in spring before the near year-round colony activity peaks in summer.",
+    ],
+    costNote:
+      "Most West Memphis homeowners benefit from a year-round pest plan given the Delta climate, covering mosquitoes, cockroaches, and perimeter pests through the long season, plus annual termite inspections. A free inspection confirms the current risk for your property.",
+    faqs: [
+      {
+        question: "Why is termite risk highest in the Arkansas Delta?",
+        answer:
+          "The Mississippi Delta's warm year-round climate, high humidity, and moist soils sustain subterranean termite colonies without the cold-season pause that slows them in interior or northern Arkansas. Crittenden County is in the highest hazard zone in the state, which reflects this sustained year-round activity. Any home in West Memphis warrants annual professional inspections.",
+      },
+      {
+        question: "How long is mosquito season along the Mississippi River?",
+        answer:
+          "West Memphis's Mississippi River location and the bottomland floodplains of Crittenden County produce one of the longest mosquito seasons in Arkansas, running from March through November. The warm, humid Delta climate keeps temperatures high enough for mosquito activity through most of the year. Targeted yard treatment reduces the biting population close to your home.",
+      },
+      {
+        question: "Are rats common near the Mississippi River in West Memphis?",
+        answer:
+          "Yes. Roof rats and Norway rats are present in West Memphis, supported by the commercial activity along the river corridor, the bridge area, and the food and logistics infrastructure in the Delta. Norway rats work drainage and commercial infrastructure. Roof rats move through trees and enter structures at the roofline. Sealing entry points and removing harborage around the property is the first step in management.",
+      },
+      {
+        question: "Are cockroaches year-round in the Arkansas Delta?",
+        answer:
+          "Yes. The Mississippi Delta's heat and humidity sustain cockroach populations year-round without a meaningful cold-season reduction. American cockroaches breed in outdoor moist environments and push inside in peak summer heat. German cockroaches maintain indoor populations in kitchens and food-service areas regardless of season. A consistent perimeter treatment plus exclusion of entry points is the most effective approach.",
+      },
+      {
+        question: "Do fire ants stay active year-round in West Memphis?",
+        answer:
+          "Essentially yes. The mild winters along the Mississippi River in Crittenden County mean fire ant colonies remain active through all but the coldest stretches. Mound activity on the surface drops in cold weather but picks back up quickly. The near year-round warmth means West Memphis sees fire ant activity for more months than interior or northern Arkansas.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Jonesboro", slug: "jonesboro" },
+      { name: "Jacksonville", slug: "jacksonville" },
+      { name: "North Little Rock", slug: "north-little-rock" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in West Memphis, AR | Termites, Mosquitoes & Cockroaches",
+    metaDescription:
+      "Pest control in West Memphis, AR. Crittenden County Delta service for subterranean termites, mosquitoes, cockroaches, fire ants, and rats near the Mississippi River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "maumelle",
+    name: "Maumelle",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~20,000",
+    county: "Pulaski County",
+    climate: "hot-humid",
+    climateDriver:
+      "Maumelle is a planned community on the Arkansas River northwest of Little Rock in Pulaski County. The hot, humid climate of central Arkansas brings long, wet summers and mild winters. Lake Maumelle to the west, the Arkansas River to the south, and the forested ridges of the Ouachita foothills create a combination of mosquito habitat and wooded pest pressure unusual for a planned suburban community.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Cockroaches", "Ticks"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active spring through fall",
+        note: "Pulaski County is in the heavy termite hazard zone for Arkansas. Maumelle's planned community housing, much of it built in the 1980s and 1990s, is in the age range when termite activity is most commonly found, and the humid central Arkansas climate sustains colony activity through a long warm season.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Lake Maumelle, the Arkansas River corridor, and the stream drainages running through the forested ridges above the city create sustained mosquito habitat through the central Arkansas warm season. Properties near the lake and river see the heaviest pressure.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Fire ants are established throughout Pulaski County. In Maumelle, they appear in lawns, parks, and the HOA common areas that come with planned community development. Mounds rebuild quickly after summer rain.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed outdoors in the central Arkansas heat and humidity and push inside in summer. German roaches are an indoor species more common in commercial and multi-unit housing.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through November",
+        note: "The forested ridges of the Ouachita foothills above Maumelle sustain tick populations. Lone star ticks and American dog ticks are common. Properties near the forested edges of the community see measurable tick pressure through the warm season.",
+      },
+    ],
+    localHook:
+      "Maumelle's planned community location between Lake Maumelle and the Arkansas River gives it a combination of pest pressures that most planned communities do not have: significant mosquito habitat from both a reservoir and a major river, and tick pressure from the Ouachita foothills at the community's edge.",
+    intro:
+      "Pest control in Maumelle combines the standard central Arkansas pest picture with specific local factors. Lake Maumelle and the Arkansas River corridor create sustained mosquito pressure through the warm season. The Ouachita foothills forests at the edge of the community bring tick exposure that purely suburban developments do not see. Subterranean termites are the financial risk: Pulaski County is in the heavy hazard zone and much of Maumelle's housing is in the age range when termite activity surfaces. Fire ants are the year-round outdoor pest in lawns and HOA common areas.",
+    sections: [
+      {
+        heading: "Mosquitoes and ticks in Maumelle's natural setting",
+        body: "The combination of Lake Maumelle to the west, the Arkansas River to the south, and the forested Ouachita foothills at the community edge creates pest pressure from two directions. Mosquitoes breed in the lake and river areas and are active from March through October. The forested ridges sustain tick populations: lone star ticks, American dog ticks, and black-legged ticks are all present in the Ouachita foothills. Properties at the forest edge or near the lake and river corridors see measurably more activity of both.",
+      },
+      {
+        heading: "Termites and fire ants in the planned community",
+        body: "Pulaski County's heavy termite hazard zone status and the age of Maumelle's housing stock from the 1980s and 1990s make annual termite inspections the standard practice. Subterranean termites approach structures through mud tubes from the soil, working silently in crawl spaces and at slab edges. Fire ants are the visible day-to-day outdoor pest in Maumelle's well-maintained lawns and HOA green spaces. Broadcast bait treatment in spring reduces colony density across the community more effectively than mound-by-mound treatment.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given Pulaski County's heavy hazard zone designation and the age of much of Maumelle's housing.",
+      "Reduce standing water near Lake Maumelle and the river corridor to cut mosquito breeding close to the house.",
+      "Check for ticks after any time near the Ouachita foothills forest edges at the community boundary.",
+      "Apply broadcast fire ant bait in spring to reduce overall lawn colony density before the summer peak.",
+    ],
+    costNote:
+      "Most Maumelle homeowners benefit from a recurring plan covering mosquitoes, fire ants, and perimeter pests through the warm season, plus annual termite inspections. A free inspection sets the scope for your property.",
+    faqs: [
+      {
+        question: "Why does Maumelle have both mosquito and tick pressure?",
+        answer:
+          "Maumelle sits between two significant water features, Lake Maumelle and the Arkansas River, and borders the Ouachita foothills forests. The water creates mosquito habitat through the warm season. The forests sustain tick populations. Properties at the edge of the forested area or near the lake and river corridors see both pressures simultaneously, which is less common in purely suburban communities.",
+      },
+      {
+        question: "Are termites a concern in Maumelle's planned community housing?",
+        answer:
+          "Yes. Much of Maumelle's housing was built in the 1980s and 1990s, placing it in the age range when subterranean termite activity is most commonly discovered. Pulaski County is in the heavy termite hazard zone for Arkansas. Annual inspections are the practical defense, particularly for any home with a crawl space or wood-to-soil contact.",
+      },
+      {
+        question: "What tick species should I watch for near the Ouachita foothills in Maumelle?",
+        answer:
+          "Lone star ticks are the most aggressive and common tick in the Ouachita foothills area, active from March through late fall and known to bite during the day. American dog ticks are also common. Black-legged ticks, which can carry Lyme disease, are present in the Ouachita region. A perimeter yard treatment in spring and fall reduces tick pressure near the home for properties at the forest edge.",
+      },
+      {
+        question: "How do fire ants affect HOA areas in Maumelle?",
+        answer:
+          "Fire ants are a common complaint in Maumelle's HOA-managed common areas. Mounds appear in turf areas, along sidewalks, and in landscaped beds. HOA coordinated treatment programs using broadcast bait across common areas are more effective than individual mound treatment, which only removes visible mounds while leaving surrounding colonies intact.",
+      },
+      {
+        question: "Does being near Lake Maumelle make my home higher risk for mosquitoes?",
+        answer:
+          "Proximity to the lake does increase mosquito pressure, particularly for properties on or near the shoreline. However, the Arkansas River corridor and the stream drainages running through the Ouachita foothills also contribute to the broader community's mosquito load. Targeted yard treatment close to your home is effective at reducing the biting population near your property regardless of lake proximity.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Little Rock", slug: "little-rock" },
+      { name: "North Little Rock", slug: "north-little-rock" },
+      { name: "Conway", slug: "conway" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Maumelle, AR | Termites, Mosquitoes & Ticks",
+    metaDescription:
+      "Pest control in Maumelle, AR. Pulaski County service for subterranean termites, mosquitoes near Lake Maumelle, fire ants, ticks from Ouachita foothills, and cockroaches. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "el-dorado-ar",
+    name: "El Dorado",
+    state: "Arkansas",
+    stateSlug: "arkansas",
+    stateAbbr: "AR",
+    tier: "T3",
+    population: "~18,000",
+    county: "Union County",
+    climate: "hot-humid",
+    climateDriver:
+      "El Dorado is the county seat of Union County in deep southern Arkansas near the Louisiana border. The hot, humid climate is among the most intense in the state, with long wet summers and very mild winters. The proximity to the Gulf Coast climate zone means pest pressure that runs nearly year-round, with heavy subterranean termite and mosquito activity and fire ant colonies that rarely fully slow down.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Cockroaches", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms January through April, active year-round",
+        note: "Union County is in the highest termite hazard zone in Arkansas. The hot, humid southern climate sustains year-round subterranean termite activity. El Dorado's older housing stock and the crawl-space construction throughout the county create high and sustained exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "February through November",
+        note: "El Dorado's deep south Arkansas location produces one of the longest mosquito seasons in the state. The creek drainages, low-lying bottomlands, and timber company lands surrounding Union County create extensive breeding habitat.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are established throughout Union County and remain active through all but the coldest stretches of winter. The mild southern Arkansas climate means colony activity is sustained for more months than in central or northern Arkansas.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The heat and humidity of deep southern Arkansas sustain year-round outdoor cockroach populations. American roaches breed in outdoor drains, mulch, and moist environments and push inside in summer heat. They are larger and more common in the Gulf-adjacent climate than further north.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round",
+        note: "Brown recluse spiders are present throughout southern Arkansas, including Union County. They are found in undisturbed, sheltered spots: garages, closets, attics, basements, and in stored items. They are not aggressive but will bite defensively, and their venom causes significant tissue damage.",
+      },
+    ],
+    localHook:
+      "El Dorado's deep southern Arkansas location puts it in the most intense pest climate in the state. Termites are highest-hazard zone, mosquitoes run from February through November, fire ants are active essentially year-round, and brown recluse spiders are a legitimate safety concern in any undisturbed storage area.",
+    intro:
+      "Pest control in El Dorado operates in the most intense pest climate in Arkansas. Union County is in the highest termite hazard zone in the state, with year-round subterranean termite activity driven by the Gulf-adjacent climate. Mosquitoes run from February through November in the southern bottomlands. Fire ants are active year-round. Cockroaches are a year-round outdoor-to-indoor pest. Brown recluse spiders are present throughout southern Arkansas and warrant real attention in storage areas and undisturbed spaces.",
+    sections: [
+      {
+        heading: "Termites in Arkansas's highest hazard zone",
+        body: "Union County's highest-hazard termite designation reflects the hot, humid southern climate that sustains subterranean termite colonies without a meaningful cold-season pause. El Dorado's older housing, including the historic downtown properties and the crawl-space construction common throughout the county, has had decades of exposure. Swarms here can begin as early as January in warm years, earlier than anywhere in northern or central Arkansas. Annual inspections and a termite bond for high-risk properties are the standard in this zone.",
+      },
+      {
+        heading: "Mosquitoes, fire ants, and brown recluse spiders",
+        body: "El Dorado's deep southern location means mosquito season starts in February and runs through November: nine to ten months of active season. The creek drainages and bottomland timber lands of Union County create extensive breeding habitat. Fire ants are essentially year-round in this climate, active through all but the coldest days. Brown recluse spiders are common in undisturbed, sheltered spots throughout southern Arkansas. They are not aggressive but their venom causes significant tissue damage and any bite warrants medical attention.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given Union County's highest hazard zone designation.",
+      "Reduce standing water on the property through the long mosquito season from February through November.",
+      "Treat fire ant mounds with broadcast bait in late winter as the season begins, rather than waiting for summer.",
+      "Wear gloves when working in stored items, garages, and undisturbed spaces where brown recluse spiders shelter.",
+    ],
+    costNote:
+      "Most El Dorado homeowners benefit from a near year-round pest plan given the southern Arkansas climate, covering mosquitoes, fire ants, and perimeter pests, plus annual termite inspections. A free inspection confirms the current risk for your property.",
+    faqs: [
+      {
+        question: "How early can termites swarm in El Dorado?",
+        answer:
+          "In deep southern Arkansas, termite swarms can occur as early as January in warm years, significantly ahead of the spring swarm season in central or northern Arkansas. Union County is in the highest termite hazard zone in the state and year-round colony activity means any warm day in late winter can trigger swarming. Annual inspections are essential here.",
+      },
+      {
+        question: "Are brown recluse spiders dangerous in El Dorado?",
+        answer:
+          "Brown recluse spiders are present throughout southern Arkansas, including Union County. They are not aggressive and avoid human contact, but they will bite defensively if disturbed in undisturbed storage areas, in clothing left on the floor, or in bedding. Their venom can cause significant tissue damage at the bite site and medical attention is appropriate for any suspected bite. Reducing clutter and wearing gloves when working in stored areas are the practical precautions.",
+      },
+      {
+        question: "How long is mosquito season in El Dorado?",
+        answer:
+          "El Dorado's Gulf-adjacent climate produces one of the longest mosquito seasons in Arkansas, typically running from February through November. The bottomland creek drainages and timber company land of Union County create extensive breeding habitat. Removing standing water near the house and treating resting areas in the yard reduces your property's mosquito population through the long season.",
+      },
+      {
+        question: "Do fire ants stop in the winter in El Dorado?",
+        answer:
+          "Essentially not. Union County's mild winters mean fire ant colonies remain active through all but the coldest stretches. Mound activity on the surface drops in cold weather as workers go deeper in the soil, but the colony does not die off. In the warmest winters, mounds may stay visibly active year-round. This is why late winter treatment, rather than waiting until spring, is effective in southern Arkansas.",
+      },
+      {
+        question: "Is the pest climate in El Dorado similar to Louisiana?",
+        answer:
+          "Yes, more than it resembles central or northern Arkansas. El Dorado's location near the Louisiana border puts it in a Gulf Coast-adjacent climate zone that shares the long seasons, high humidity, and sustained pest activity of northern Louisiana. Pest control in this part of Arkansas operates more on a near year-round schedule than the spring-through-fall schedule typical of more northern Arkansas cities.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Pine Bluff", slug: "pine-bluff" },
+      { name: "Hot Springs", slug: "hot-springs" },
+      { name: "Texarkana", slug: "texarkana-ar" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in El Dorado, AR | Termites, Mosquitoes & Brown Recluse",
+    metaDescription:
+      "Pest control in El Dorado, AR. Union County service for subterranean termites, mosquitoes, fire ants, cockroaches, and brown recluse spiders in deep southern Arkansas. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

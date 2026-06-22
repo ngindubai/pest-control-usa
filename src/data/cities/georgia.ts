@@ -6080,4 +6080,322 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Douglas GA pest control for subterranean termites, fire ants, house flies from poultry operations and mosquitoes. Coffee County broiler capital specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "duluth-ga",
+    name: "Duluth",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~32,000",
+    county: "Gwinnett County",
+    climate: "hot-humid",
+    climateDriver:
+      "Duluth sits in northern Gwinnett County in the Atlanta metro, with a humid subtropical climate. Hot, wet summers and mild winters sustain year-round pest pressure. The Chattahoochee River corridor to the west and the extensive stormwater ponds throughout Gwinnett's suburban development create persistent mosquito habitat.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Cockroaches", "Carpenter Bees"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Gwinnett County is in the heavy termite hazard zone. Duluth's rapid suburban expansion over the past 30 years means a large share of housing stock in the active-risk age range, while the humid climate keeps subterranean termites active through most of the year.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Stormwater retention ponds throughout Duluth's suburban development and the Chattahoochee River corridor create consistent mosquito habitat. Asian tiger mosquitoes are well established in Gwinnett County and breed in small containers near homes.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Fire ants are established throughout Gwinnett County. In Duluth, they appear in yards, parks, and along the edges of the many HOA common areas. Mounds rebuild quickly after the frequent summer rain events.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed outdoors in mulch and drains and push indoors in summer heat. German roaches are common in restaurant corridors and multi-unit housing throughout the metro area.",
+      },
+      {
+        name: "Carpenter bees",
+        serviceSlug: "bee-control",
+        activeSeason: "Active April through August",
+        note: "Carpenter bees bore into unfinished or weathered wood on decks, fascia boards, and eaves. They are common in Duluth's suburban housing stock and the damage accumulates over several seasons if untreated.",
+      },
+    ],
+    localHook:
+      "Duluth's rapid suburban growth put a lot of homes into the peak termite risk window at the same time. Gwinnett County is in the heavy termite hazard zone and the HOA pond network throughout the area makes mosquito management a seasonal priority from March through October.",
+    intro:
+      "Pest control in Duluth centers on the risks that come with rapid suburban growth in the Georgia Piedmont. Subterranean termites are the biggest financial exposure: the heavy hazard zone designation for Gwinnett County and the age concentration in Duluth's housing stock make annual inspections worth the calendar entry. Mosquitoes run from March through October, fed by the stormwater ponds throughout the community. Fire ants, cockroaches, and carpenter bees round out the warm-season pressure.",
+    sections: [
+      {
+        heading: "Termite risk in Duluth's suburban housing stock",
+        body: "Gwinnett County's heavy termite hazard rating reflects the humid climate and long active season for subterranean termite colonies in the Georgia Piedmont. Many homes in Duluth were built in the 1990s and 2000s during the peak suburban expansion, putting them in the 20 to 30 year range where termite activity is most commonly discovered. Termites reach wood through mud tubes from the soil and cause the most damage in crawl spaces, around slab edges, and at any point where wood contacts the ground.",
+      },
+      {
+        heading: "Mosquitoes, fire ants, and the outdoor pest season",
+        body: "The stormwater pond network that comes with Duluth's suburban layout creates persistent mosquito breeding habitat close to residential areas. The season runs from March through October. Asian tiger mosquitoes, which bite during the day, are common in Gwinnett County. Fire ants build mounds in lawns, park areas, and along sidewalk edges, rebuilding fast after summer rain. Treating the yard for both through the warm season is the practical approach for most Duluth households.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given Gwinnett County's heavy hazard rating and the age of much of Duluth's housing.",
+      "Keep gutters clear and empty any standing water containers after rain to cut mosquito breeding near the house.",
+      "Treat fire ant mounds early in spring before summer rains trigger fast colony rebuilding.",
+      "Paint or seal wood decks and fascia boards to reduce carpenter bee boring sites.",
+    ],
+    costNote:
+      "Most Duluth households benefit from a recurring outdoor pest plan covering mosquitoes, fire ants, and perimeter insects, paired with an annual termite inspection. A free inspection sets the right scope and confirms your property's current risk.",
+    faqs: [
+      {
+        question: "Is termite risk high in Duluth, GA?",
+        answer:
+          "Yes. Gwinnett County is in the heavy termite hazard zone for eastern subterranean termites. Many homes in Duluth fall in the 20 to 30 year age range when termite damage is most commonly found, and the humid Georgia Piedmont climate keeps colonies active for most of the year. An annual inspection is the most effective early-detection approach.",
+      },
+      {
+        question: "Why are there so many mosquitoes around Duluth subdivisions?",
+        answer:
+          "Stormwater retention ponds are built into most Duluth-area subdivision designs. These ponds create standing water habitat that sustains mosquito populations close to residential areas through the entire warm season. Asian tiger mosquitoes also breed in small containers around homes. A combination of source reduction near the house and targeted yard treatment brings the biting population down.",
+      },
+      {
+        question: "Are fire ants a problem in Gwinnett County?",
+        answer:
+          "Yes. Red imported fire ants are well established throughout Gwinnett County. They build mounds in open sunny ground and are common in lawns, along sidewalks, and in HOA common areas. Mounds rebuild quickly after summer rain events. Broadcast bait treatment in spring reduces overall colony density more effectively than treating individual mounds.",
+      },
+      {
+        question: "What are carpenter bees and do they damage my deck?",
+        answer:
+          "Carpenter bees bore circular entry holes about half an inch wide into unfinished or weathered wood, particularly on decks, pergolas, fascia boards, and eaves. The females excavate egg chambers inside the wood. Over several seasons, repeated boring weakens the wood. Painting or sealing raw wood deters them. Injection treatment into active holes followed by sealing is the standard control method.",
+      },
+      {
+        question: "How do I keep American cockroaches out of my Duluth home?",
+        answer:
+          "American roaches breed outdoors in mulch, storm drains, and landscaping and come inside in summer heat through gaps around utility penetrations, under door sills, and through crawl space vents. Reducing mulch against the foundation, keeping drains clear, and applying a perimeter treatment around the exterior reduces entry. They are not the same as German cockroaches, which are smaller and breed strictly indoors.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Lawrenceville", slug: "lawrenceville-ga" },
+      { name: "Johns Creek", slug: "johns-creek" },
+      { name: "Peachtree Corners", slug: "peachtree-corners" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Duluth, GA | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Pest control in Duluth, GA. Gwinnett County service for subterranean termites, mosquitoes, fire ants, cockroaches, and carpenter bees. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "snellville",
+    name: "Snellville",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~21,000",
+    county: "Gwinnett County",
+    climate: "hot-humid",
+    climateDriver:
+      "Snellville sits in eastern Gwinnett County in the Atlanta suburban belt, with a humid subtropical climate. Hot, wet summers and mild winters extend the active pest season. The area sits in the Georgia Piedmont at higher elevation than Atlanta proper, with mostly suburban residential development and some remaining wooded corridors that sustain wildlife and tick pressure.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mosquitoes", "Cockroaches", "Ticks"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms late winter through spring, active most of the year",
+        note: "Gwinnett County is in the heavy termite hazard zone. Snellville's residential housing stock contains many homes from the 1980s and 1990s boom period, placing them in the age range when termite damage is most commonly identified.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through October",
+        note: "Fire ants are the dominant outdoor pest complaint in Gwinnett County. In Snellville, they appear in lawns, along sidewalks, and in open ground throughout the community. Mounds rebuild fast after summer rain events.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Warm-season rain and suburban stormwater features create mosquito habitat throughout eastern Gwinnett County. Asian tiger mosquitoes are established in the area and bite during daylight hours.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed in mulch and outdoor drains and come inside in summer heat. German roaches are an indoor species that can establish in kitchens and bathrooms, particularly in multi-unit housing.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through November",
+        note: "The wooded residential corridors in eastern Gwinnett County sustain tick populations. Lone star ticks and American dog ticks are common. Black-legged ticks are present in Georgia and can carry Lyme disease.",
+      },
+    ],
+    localHook:
+      "Snellville's eastern Gwinnett location puts it in the heavy termite hazard zone for Georgia, and the wooded corridors remaining in this part of the county add tick pressure that purely developed areas do not see. Fire ants are the most visible year-round pest in the community.",
+    intro:
+      "Pest control in Snellville follows the eastern Gwinnett County pattern: heavy termite hazard zone, strong fire ant and mosquito pressure through the warm season, and tick exposure from the wooded corridors between neighborhoods. The housing stock here spans several decades of suburban growth, and a good portion of it sits in the age range when termite activity is most commonly discovered. Fire ants are the most visible day-to-day pest concern for most homeowners.",
+    sections: [
+      {
+        heading: "Termite risk in eastern Gwinnett County",
+        body: "Gwinnett County's heavy termite hazard designation reflects the humid Piedmont climate and long active season. Snellville's 1980s and 1990s residential development is now in the prime window for first termite discoveries. Subterranean termites approach structures through mud tubes from the soil, reaching wood at crawl space sills, slab edges, and any wood-to-soil contact point. An annual inspection in the heavy hazard zone is the standard practice for this reason.",
+      },
+      {
+        heading: "Fire ants, mosquitoes, and ticks in the outdoor season",
+        body: "Fire ants are a year-round presence in Snellville, building mounds in lawns, along sidewalk edges, and in any open sunny ground. Mosquitoes follow the warm season from March through October, and the Asian tiger mosquito, which bites during the day, is common in Gwinnett County. The wooded residential corridors in eastern Snellville sustain tick populations: lone star ticks and American dog ticks are the most common, with black-legged ticks also present.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given Gwinnett County's heavy hazard rating.",
+      "Treat fire ant mounds in spring with broadcast bait to reduce overall yard density before summer.",
+      "Reduce standing water after rain to cut mosquito breeding near the house.",
+      "Check yourself and pets for ticks after time near wooded areas or brush.",
+    ],
+    costNote:
+      "Most Snellville households benefit from a recurring plan covering fire ants, mosquitoes, and perimeter insects through the warm season, plus an annual termite inspection. A free inspection confirms your property's current risk and sets the right plan.",
+    faqs: [
+      {
+        question: "How high is termite risk in Snellville, GA?",
+        answer:
+          "Gwinnett County is in the heavy termite hazard zone for eastern subterranean termites. The humid Georgia Piedmont climate keeps colonies active for most of the year, and the late 20th-century construction that makes up much of Snellville's housing stock is in the prime age range for termite discovery. An annual inspection is the most effective defense.",
+      },
+      {
+        question: "What is the best way to get rid of fire ants in my Snellville yard?",
+        answer:
+          "Broadcast bait applied across the entire yard in spring is more effective than treating individual mounds, because bait is carried back to the colony by foraging workers and reduces the overall population. A spring application followed by a fall follow-up gives season-long control. Mound drenches eliminate visible mounds faster but do not address the surrounding population.",
+      },
+      {
+        question: "Are Asian tiger mosquitoes different from regular mosquitoes in Snellville?",
+        answer:
+          "Yes. The Asian tiger mosquito, identified by black-and-white striped markings, bites during the day unlike common mosquitoes that feed at dusk and dawn. They breed in very small amounts of standing water: bottle caps, plant saucers, clogged gutters. Eliminating these small water sources around the home is the first step. Targeted yard treatment covers resting areas where they shelter during the day.",
+      },
+      {
+        question: "What tick species should I watch for in Snellville?",
+        answer:
+          "The most common ticks in eastern Gwinnett County are lone star ticks, which are aggressive daytime biters, and American dog ticks. Black-legged ticks (deer ticks), which can carry Lyme disease, are also present in Georgia, particularly in wooded and transitional areas. If you have a yard that backs up to woods or brush, a perimeter tick treatment significantly reduces exposure.",
+      },
+      {
+        question: "Why do cockroaches come into my Snellville home in summer?",
+        answer:
+          "American cockroaches breed outdoors in mulch, storm drains, and moist landscaping and move inside when heat and dryness push them to seek cooler, moister conditions. They enter through gaps around utility pipes, under exterior doors, and at crawl space vents. Reducing mulch against the foundation, sealing entry points, and applying a perimeter treatment addresses the outdoor population. German cockroaches are a different problem and breed strictly indoors.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Lawrenceville", slug: "lawrenceville-ga" },
+      { name: "Duluth", slug: "duluth-ga" },
+      { name: "Stone Crest", slug: "stonecrest" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Snellville, GA | Termites, Fire Ants & Ticks",
+    metaDescription:
+      "Pest control in Snellville, GA. Gwinnett County service for subterranean termites, fire ants, mosquitoes, cockroaches, and ticks. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "fayetteville-ga",
+    name: "Fayetteville",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~18,000",
+    county: "Fayette County",
+    climate: "hot-humid",
+    climateDriver:
+      "Fayetteville is the county seat of Fayette County, south of the Atlanta metro. The humid subtropical climate brings hot, wet summers and mild winters. Fayette County retains more rural and wooded character than the northern Atlanta suburbs, with Lake Peachtree and other water features creating mosquito habitat alongside consistent subterranean termite pressure.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Cockroaches", "Spiders"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "Fayette County is in the heavy termite hazard zone for Georgia. The older housing in central Fayetteville and the crawl-space construction common in surrounding neighborhoods create consistent exposure. Georgia's warm, humid climate keeps subterranean termite colonies active for much of the year.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Lake Peachtree and the wooded stream corridors throughout Fayette County provide sustained mosquito habitat. Asian tiger mosquitoes are established in the area and breed in small water sources close to homes.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Fire ants are established throughout Fayette County. They build mounds in lawns, open ground, and along fence lines. Mounds rebuild quickly after the frequent summer rain events that characterize the Georgia Piedmont.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed in outdoor mulch and drains and push inside in summer heat. German roaches are an indoor species that can establish in kitchens. Fayetteville's restaurant and commercial corridor along GA-85 creates some German cockroach pressure in the area.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active warm months",
+        note: "Spiders are common throughout Fayette County, including orb weavers, common house spiders, and wolf spiders. Black widow spiders are possible in garages, storage areas, and crawl space vents and warrant some caution.",
+      },
+    ],
+    localHook:
+      "Fayetteville's combination of older housing in the county seat, the Lake Peachtree waterfront, and the wooded corridors of Fayette County puts it in consistent termite and mosquito territory. The heavier rural character here compared to the northern Atlanta suburbs means more spider and tick exposure at the yard edge.",
+    intro:
+      "Pest control in Fayetteville reflects the character of Fayette County: a suburban county seat with more wooded and rural character than the northern Atlanta belt, sustained termite pressure in an older housing stock, and mosquito habitat provided by Lake Peachtree and the stream corridors. Fire ants are the visible year-round outdoor pest. The combination of the county seat's older homes and the surrounding wooded setting creates a full-spectrum pest picture that most households see across the four seasons.",
+    sections: [
+      {
+        heading: "Termites and the older housing stock",
+        body: "Central Fayetteville's older housing and the crawl-space construction common across Fayette County create consistent termite exposure in the heavy hazard zone. Eastern subterranean termites approach structures through mud tubes from the soil, working silently in crawl spaces, wall voids, and around slab edges. The damage is slow to show externally, which is why an annual inspection is the standard for homeowners in this zone.",
+      },
+      {
+        heading: "Mosquitoes and fire ants through the warm season",
+        body: "Lake Peachtree and the stream corridors in Fayette County sustain mosquito pressure through a long warm season. Asian tiger mosquitoes breed in small containers near the home as well as in natural water features. Fire ants build mounds across lawns and open ground throughout the county, rebuilding fast after summer rain. Managing both through the season means a combination of yard treatment and standing water elimination.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for any home in Fayette County with a crawl space or more than 15 years old.",
+      "Empty gutters and standing water containers after rain to reduce mosquito breeding near Lake Peachtree and stream areas.",
+      "Apply broadcast fire ant bait in spring to reduce overall yard colony density before the summer surge.",
+      "Seal gaps around utility lines, under doors, and at crawl space vents to limit cockroach and spider entry.",
+    ],
+    costNote:
+      "Most Fayetteville homeowners benefit from a recurring plan covering mosquitoes, fire ants, and perimeter pests through the warm season, paired with an annual termite inspection. A free inspection confirms the current risk for your specific property.",
+    faqs: [
+      {
+        question: "Is termite risk high in Fayetteville, GA?",
+        answer:
+          "Yes. Fayette County is in the heavy termite hazard zone for eastern subterranean termites. Georgia's warm, humid climate keeps colonies active for much of the year, and the older housing in central Fayetteville and the crawl-space construction throughout the county create consistent exposure. Annual inspections are strongly recommended.",
+      },
+      {
+        question: "Why are mosquitoes bad near Lake Peachtree in Fayetteville?",
+        answer:
+          "Lake Peachtree and the stream corridors that feed it provide standing water habitat through the entire warm season. Properties near the lake or its tributaries see higher mosquito pressure than purely upland areas. The Asian tiger mosquito, which breeds in small water sources around the home, adds to the pressure. Targeted yard treatment reduces the resting population close to your home.",
+      },
+      {
+        question: "How do I treat fire ants in a Fayetteville yard effectively?",
+        answer:
+          "Broadcast bait applied across the yard in spring targets the foraging population and reduces overall colony density more effectively than individual mound treatments. Mound drenches eliminate a visible mound but leave surrounding colonies intact. For year-round fire ant pressure in Fayette County, a spring broadcast treatment followed by a fall follow-up is the most effective approach.",
+      },
+      {
+        question: "What spiders should I watch for in Fayetteville?",
+        answer:
+          "Most spiders in Fayette County are harmless: common house spiders, orb weavers, and wolf spiders. The exception is the black widow, which is present in Georgia and is found in undisturbed, sheltered spots such as garages, wood piles, and crawl space vents. It is not aggressive but will bite if disturbed. Wearing gloves when working in storage areas and crawl spaces is a reasonable precaution.",
+      },
+      {
+        question: "Is there a pest risk from the wooded areas around Fayetteville?",
+        answer:
+          "Yes. The wooded corridors and rural transitions in Fayette County sustain tick populations, including lone star ticks, American dog ticks, and black-legged ticks. Properties with yards that back up to woods or brush see measurably more tick pressure than fully developed areas. A perimeter yard treatment in spring and fall reduces tick populations near the home.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Peachtree City", slug: "peachtree-city" },
+      { name: "Newnan", slug: "newnan" },
+      { name: "McDonough", slug: "mcdonough" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Fayetteville, GA | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Pest control in Fayetteville, GA. Fayette County service for subterranean termites, mosquitoes, fire ants, cockroaches, and spiders near Lake Peachtree. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

@@ -3971,4 +3971,216 @@ export const missouriCities: CityLocation[] = [
     metaDescription:
       "Belton MO pest control for house mice, German cockroaches, yellow jackets, boxelder bugs and stink bugs. Cass County agricultural-edge Kansas City metro specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "warrensburg-mo",
+    name: "Warrensburg",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~20,000",
+    county: "Johnson County",
+    climate: "temperate",
+    climateDriver:
+      "Warrensburg sits in Johnson County in west-central Missouri, home to the University of Central Missouri and Whiteman Air Force Base. The temperate continental climate brings hot, humid summers and cold winters. The Blackwater River and the area's creek drainages create mosquito habitat, while the hot summer humidity sustains subterranean termite and cockroach pressure through a long warm season.",
+    topPests: ["Subterranean Termites", "House Mice", "Mosquitoes", "Brown Recluse Spiders", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Johnson County is in the moderate-to-heavy termite pressure zone for Missouri. Warrensburg's mix of older university-area housing and newer residential development creates varied termite exposure. The Missouri summer humidity sustains subterranean termite colony activity through a long warm season.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Push indoors October through November, active all winter",
+        note: "House mice are the dominant fall and winter pest in Johnson County. Missouri winters drive them into structures from October onward. Warrensburg's older housing stock near the university campus and the mix of student rental and family housing creates ample entry points.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Blackwater River and the area's creek drainages in Johnson County create mosquito habitat through the Missouri warm season. The university grounds and the city's parks provide additional standing water features.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active May through October",
+        note: "Brown recluse spiders are common throughout Missouri, including Johnson County. They are found in undisturbed, sheltered spots in basements, garages, and storage areas. Missouri is within the core brown recluse range and infestations in older homes here can be dense.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed outdoors in summer heat and push inside. German roaches are common in the student rental housing and commercial food-service areas near UCM. Both are present in Warrensburg's varied housing stock.",
+      },
+    ],
+    localHook:
+      "Warrensburg sits in the Missouri brown recluse belt. Johnson County homes, particularly the older rental housing near the UCM campus, see brown recluse spider populations that can be dense in undisturbed spaces. Missouri winters then drive mice in reliably every October.",
+    intro:
+      "Pest control in Warrensburg covers the west-central Missouri range, with brown recluse spiders and house mice as the most locally distinctive risks. Missouri is in the core of the brown recluse range, and Johnson County's older housing and the density of student rental properties near UCM create the undisturbed, sheltered spaces that brown recluse populations can build in. Missouri winters reliably drive mice into structures from October. Subterranean termites are the financial risk in the moderate-to-heavy pressure zone. Mosquitoes run May through September near the Blackwater River corridor.",
+    sections: [
+      {
+        heading: "Brown recluse spiders in Warrensburg's housing stock",
+        body: "Missouri is in the core of the brown recluse range, and Johnson County's older rental housing near UCM provides exactly the undisturbed, sheltered conditions where brown recluse populations establish and grow. Basements, closets, garages, and storage areas in older properties are the primary habitat. They are not aggressive but will bite defensively when disturbed in those spaces, and the venom causes significant tissue damage at the bite site. Reducing clutter, wearing gloves in stored areas, and shaking out clothing and shoes that have been on floors are the practical day-to-day precautions.",
+      },
+      {
+        heading: "Mice in winter and termites through the warm season",
+        body: "House mice are the cold-season pest in Johnson County, moving into structures from October through November as Missouri cold sets in. The university campus housing stock and the older residential neighborhoods near downtown create ample entry points. Subterranean termites are the warm-season financial risk in the moderate-to-heavy pressure zone. The Missouri summer humidity keeps colonies active from early spring through late fall. Mosquitoes follow the Blackwater River calendar from May through September.",
+      },
+    ],
+    prevention: [
+      "Reduce clutter in basements, garages, and storage areas to limit brown recluse harborage sites.",
+      "Seal exterior gaps in September before mice begin their October entry push.",
+      "Schedule termite inspections for older properties in Johnson County's moderate-to-heavy pressure zone.",
+      "Wear gloves and shake out clothing when working in stored areas where brown recluse spiders shelter.",
+    ],
+    costNote:
+      "Most Warrensburg homeowners benefit from a year-round perimeter plan covering brown recluse, mice, and seasonal outdoor pests, plus a termite inspection for older properties. A free inspection identifies priority harborage areas and entry points for your property.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders really common in Warrensburg, MO?",
+        answer:
+          "Yes. Missouri is in the core of the brown recluse range, and research on Missouri spider populations has found them in the majority of older homes in many counties. Johnson County is within that documented range. The older housing near UCM and the student rental stock provides the undisturbed, sheltered spaces where they establish. They are not aggressive, but infestations in undisturbed areas like basements and closets can be dense.",
+      },
+      {
+        question: "When do mice start coming into Warrensburg homes?",
+        answer:
+          "October is the primary entry window in Johnson County. House mice begin moving toward heated structures when Missouri temperatures drop consistently in October. Completing exclusion work in September, checking utility penetrations, door sills, and crawl space vents, is more effective than reactive trapping after mice are inside.",
+      },
+      {
+        question: "Are subterranean termites a concern in Warrensburg?",
+        answer:
+          "Yes. Johnson County is in the moderate-to-heavy termite pressure zone for Missouri. The summer humidity keeps colonies active through a long warm season. Older properties with crawl spaces or wood-to-soil contact warrant periodic inspections. Modern construction standards provide some protection, but any property over 15 years old in this zone benefits from a professional check.",
+      },
+      {
+        question: "Does the UCM campus create pest risks for nearby neighborhoods?",
+        answer:
+          "The density of student rental housing near UCM creates some specific pest pressure. German cockroaches are common in multi-unit rental housing and spread between units through shared utility spaces. Brown recluse populations can build in undisturbed storage areas in older rental properties that change occupants frequently. Mice are also common in the older campus-area housing stock.",
+      },
+      {
+        question: "How long is the mosquito season near the Blackwater River in Warrensburg?",
+        answer:
+          "The Missouri warm season gives Warrensburg a mosquito window running roughly May through September, compressed compared to southern states. The Blackwater River corridor and the stream drainages in Johnson County sustain populations through that window. Removing standing water after rain and treating resting areas near the home reduces the biting population close to your property.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Sedalia", slug: "sedalia" },
+      { name: "Independence", slug: "independence" },
+      { name: "Kansas City", slug: "kansas-city" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Warrensburg, MO | Brown Recluse, Mice & Termites",
+    metaDescription:
+      "Pest control in Warrensburg, MO. Johnson County service for brown recluse spiders, house mice, subterranean termites, mosquitoes, and cockroaches near UCM. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "sikeston",
+    name: "Sikeston",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~17,000",
+    county: "Scott and New Madrid County",
+    climate: "hot-humid",
+    climateDriver:
+      "Sikeston straddles the Scott and New Madrid County border in southeast Missouri's Bootheel region, where the Missouri climate transitions toward the Mississippi Delta. The hot, humid Bootheel climate is more Southern than the rest of Missouri, with longer, wetter summers and milder winters. The Mississippi River Delta bottomlands, drainage ditches, and the low-lying agricultural terrain create some of the heaviest mosquito pressure in the state.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Cockroaches", "Fire Ants", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active much of the year",
+        note: "The Missouri Bootheel is in the heavy termite hazard zone. The Delta climate sustains subterranean termite activity longer than in central or northern Missouri, with earlier swarm seasons that reflect the warmer temperatures. Sikeston's older commercial and residential properties have had decades of exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Sikeston's Bootheel location and the Delta agricultural drainage system create some of the heaviest mosquito pressure in Missouri. The low-lying bottomland terrain and the extensive drainage ditch network provide standing water habitat through a long warm season.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The Bootheel's hot, humid climate sustains cockroach populations more aggressively than in northern Missouri. American roaches breed in outdoor drains and moist environments and push inside in the summer heat. German roaches maintain indoor populations in food-service and multi-unit housing.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October",
+        note: "Fire ants have spread into the Missouri Bootheel from adjacent Arkansas and Tennessee. Sikeston is at the northern edge of their expanding range and they are established in the Scott and New Madrid County area. The Bootheel's warmer climate makes conditions more favorable for fire ants than further north.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round",
+        note: "Brown recluse spiders are common throughout Missouri, including the Bootheel region. They inhabit undisturbed, sheltered spots in basements, garages, and storage areas. The combination of Missouri's core brown recluse range and the Delta-adjacent climate makes Sikeston a high-incidence area.",
+      },
+    ],
+    localHook:
+      "Sikeston's Bootheel location puts it in the warmest, most pest-intensive part of Missouri. The Delta climate means termites swarm earlier, mosquitoes run longer, fire ants are established from adjacent Southern states, and the summer pest pressure rivals northern Arkansas rather than central Missouri.",
+    intro:
+      "Pest control in Sikeston operates on a Bootheel schedule that is more Southern than the rest of Missouri. The Delta climate brings earlier termite swarms, a longer mosquito season than the I-70 corridor, established fire ants spreading up from Arkansas, and cockroach pressure that runs year-round in the hot, humid conditions. Brown recluse spiders are common throughout the Missouri Bootheel. For residents accustomed to central or northern Missouri pest patterns, Sikeston requires a more extended and Southern-influenced approach.",
+    sections: [
+      {
+        heading: "The Bootheel pest calendar: earlier and longer than northern Missouri",
+        body: "Sikeston's Delta-adjacent climate shifts the pest calendar noticeably compared to central Missouri. Termite swarms begin in February rather than March. Mosquito season runs from March through October, fed by the agricultural drainage ditch network and the bottomland terrain. Fire ants, which are established in the Bootheel from adjacent Arkansas and Tennessee, are active from April through October. The summer pest pressure here resembles northern Arkansas rather than the rest of the state.",
+      },
+      {
+        heading: "Cockroaches, brown recluse, and year-round indoor pests",
+        body: "The hot, humid Bootheel climate sustains cockroach populations more persistently than in northern Missouri. American cockroaches breed in outdoor drains and moist environments and push inside in the heat. German cockroaches maintain indoor populations in food-service and multi-unit housing year-round. Brown recluse spiders are common throughout the Missouri Bootheel and present year-round in undisturbed, sheltered spaces. Reducing clutter in basements, garages, and storage areas is the primary preventive step.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given the Bootheel's heavy hazard zone designation and earlier swarm season.",
+      "Reduce standing water near the drainage ditch network to cut mosquito breeding close to the house.",
+      "Reduce clutter in basements and storage areas to limit brown recluse harborage sites.",
+      "Apply fire ant broadcast bait in spring before the Bootheel's warmer season builds colony populations.",
+    ],
+    costNote:
+      "Most Sikeston homeowners benefit from a near year-round pest plan given the Bootheel climate, covering mosquitoes, cockroaches, fire ants, and perimeter pests, plus annual termite inspections. A free inspection sets the scope for your property.",
+    faqs: [
+      {
+        question: "How is pest pressure in Sikeston different from the rest of Missouri?",
+        answer:
+          "Sikeston's Bootheel location in the Delta-adjacent climate zone means a longer and more intense pest season than central or northern Missouri. Termites swarm earlier in February rather than March. Mosquito season runs from March through October. Fire ants are established here from adjacent Southern states. The overall pest calendar resembles northern Arkansas more than Kansas City or Springfield.",
+      },
+      {
+        question: "Are fire ants established in the Missouri Bootheel?",
+        answer:
+          "Yes. Red imported fire ants have spread into southeast Missouri's Bootheel from adjacent Arkansas and Tennessee. Sikeston is within the established range and their presence in Scott and New Madrid counties reflects the Bootheel's warmer, more Southern climate. They are not as densely established here as in the Deep South, but mounds appear in lawns and open ground from April onward.",
+      },
+      {
+        question: "Why are termites worse in the Bootheel than in the rest of Missouri?",
+        answer:
+          "The Bootheel's hotter, more humid climate sustains subterranean termite colony activity for a longer period than in central or northern Missouri. Swarm seasons begin earlier, often in February, and colony activity extends further into fall. The heavy hazard zone designation for the Bootheel reflects this extended active season and the resulting higher exposure risk for area properties.",
+      },
+      {
+        question: "Are brown recluse spiders common in Sikeston?",
+        answer:
+          "Yes. Missouri is in the core of the brown recluse range, and the Bootheel region is well within that zone. They inhabit undisturbed, sheltered spaces in basements, garages, closets, and storage areas. The combination of Missouri's documented brown recluse density and the Delta-adjacent climate makes Sikeston a high-incidence area. Reducing clutter and wearing gloves in stored areas are the most effective precautions.",
+      },
+      {
+        question: "How long is the mosquito season in Sikeston?",
+        answer:
+          "The Bootheel's warmer climate and the agricultural drainage ditch network in Scott and New Madrid counties produce a mosquito season from March through October, one of the longest in Missouri. The low-lying Delta terrain creates consistent standing water habitat. Targeted yard treatment of resting areas near the home reduces the biting population close to your property.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Cape Girardeau", slug: "cape-girardeau" },
+      { name: "Poplar Bluff", slug: "poplar-bluff" },
+      { name: "Jonesboro", slug: "jonesboro" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Sikeston, MO | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Pest control in Sikeston, MO. Bootheel service for subterranean termites, mosquitoes, fire ants, cockroaches, and brown recluse spiders in southeast Missouri. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

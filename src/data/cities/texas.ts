@@ -12011,4 +12011,1056 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "La Porte TX pest control for Formosan termites, mosquitoes, Norway rats, American cockroaches and fire ants near Galveston Bay. Harris County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+
+  // CHUNK 61 - Template E
+  {
+    slug: "rockwall",
+    name: "Rockwall",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~47,000",
+    county: "Rockwall County",
+    climate: "temperate",
+    climateDriver:
+      "Rockwall sits at the eastern edge of the Dallas-Fort Worth Metroplex on the shore of Lake Ray Hubbard. The lake moderates temperatures slightly and adds persistent humidity that supports year-round pest pressure from mosquitoes and termites. Summers are hot with afternoon storms and winters are mild enough that pest activity never fully stops.",
+    topPests: ["Fire Ants", "Termites", "Mosquitoes", "Scorpions", "Wasps"],
+    pestProfile: [
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November",
+        note:
+          "Rockwall's clay and sandy-loam soils along the lake shoreline and residential zones support dense fire ant populations. New construction on former grassland brings fresh mound formation into yards.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, swarms February through May",
+        note:
+          "The lake proximity keeps soil moisture elevated, which accelerates termite foraging. Established neighborhoods south of Interstate 30 have the oldest housing stock and the highest termite exposure in the city.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "Lake Ray Hubbard shoreline areas and the creek drainages feeding into the lake create mosquito breeding sites that affect residential neighborhoods within a mile of the water.",
+      },
+    ],
+    localHook:
+      "Rockwall County is the smallest county in Texas by land area, which means pest pressure is concentrated in a compact zone. Lake Ray Hubbard amplifies mosquito activity along the eastern residential corridors, and the blackland prairie soils underneath the newer subdivisions are some of the best fire ant habitat in North Texas.",
+    intro:
+      "Pest control in Rockwall, TX means managing a compressed set of challenges in a fast-growing city on the lake. Fire ants dominate the lawns, termites work the older neighborhoods near downtown, and mosquitoes take over any property near the Ray Hubbard shoreline from April through October.",
+    sections: [
+      {
+        heading: "Fire Ants in Rockwall Neighborhoods",
+        body:
+          "Rockwall's fire ant pressure is driven by two soil types that happen to sit side by side. The heavy clay soils in older parts of the city retain moisture that fire ant colonies exploit during dry stretches. The sandier soils in newer subdivisions along the FM 3097 corridor drain faster, which forces fire ants to build shallower mounds that become more aggressive when disturbed. Both soil types support fire ant populations that reach peak activity in spring and fall when soil temperatures sit between 70 and 90 degrees. Standard mound treatments only kill the visible colony. Broadcast bait applications applied in early spring and again in September provide season-long suppression by disrupting queen reproduction before the summer peaks. Fire ants in Rockwall are not a one-and-done problem, and any treatment plan without a follow-up application should be viewed skeptically.",
+      },
+      {
+        heading: "Termite Risk Near Lake Ray Hubbard",
+        body:
+          "Rockwall's termite risk is elevated along any street within a half-mile of the lake shoreline, and it drops off only slightly as you move west toward the older downtown grid. Subterranean termites prefer soil that holds moisture, and the lake's influence keeps the clay soil in Rockwall's east and southeast sections consistently moist even during summer dry spells. The city's growth has been rapid, and many homes built in the late 1990s and 2000s are now reaching the age range where pre-treatment soil barriers have degraded. Annual termite inspections are the practical way to catch activity before structural damage accumulates. Homes with wood mulch against the foundation, poor drainage at the slab perimeter, or wood deck posts in soil contact are at the highest risk.",
+      },
+      {
+        heading: "Mosquito Control Along the Lake",
+        body:
+          "Lake Ray Hubbard creates a mosquito-pressure gradient that affects Rockwall more than any other single factor. The Cattail Cove shoreline, the boat ramp areas, and the creek mouths feeding into the lake all serve as primary breeding zones. After heavy spring rains, standing water in residential retention ponds and low-lying yards adds secondary breeding sites throughout the city. The Aedes aegypti mosquito, which can transmit dengue and Zika, breeds in small containers like bird baths, buckets, and clogged gutters rather than in the lake itself. Managing the small-container sites around the home is as important as treating the yard perimeter. Barrier spray programs applied every three to four weeks from April through October give consistent protection for outdoor-living areas.",
+      },
+    ],
+    prevention: [
+      "Apply granular fire ant bait to the full lawn in late February and again in late September rather than spot-treating individual mounds, which leaves the broader colony intact.",
+      "Have a licensed inspector check the foundation perimeter and any wood-to-soil contact points annually, especially on homes built before 2010.",
+      "Empty bird baths, clean gutters, and tip any container that holds standing water weekly during mosquito season to eliminate container-breeding sites near the home.",
+      "Trim trees and shrubs away from the roofline to reduce wasp nesting sites and to eliminate the moisture corridors that carpenter ants use to enter the attic space.",
+    ],
+    costNote:
+      "Pest control in Rockwall runs slightly above the statewide average due to the lake-adjacent termite and mosquito pressure. Most companies offer free inspections. Termite treatment is quoted by linear footage of foundation.",
+    faqs: [
+      {
+        question: "Why are fire ants worse in my Rockwall yard than in my previous home elsewhere in DFW?",
+        answer:
+          "Rockwall's combination of clay and sandy-loam soils supports some of the highest fire ant density in the Metroplex. If your previous home was in an area with drier soils or more urban heat-island effect, you may not have seen the same intensity. The lake's humidity also keeps conditions suitable for colony growth longer into the fall than dryer inland areas.",
+      },
+      {
+        question: "Is Rockwall at higher termite risk than other DFW suburbs?",
+        answer:
+          "Yes, modestly. The lake proximity and consistent soil moisture in the eastern sections of Rockwall create conditions that favor subterranean termite foraging. Homes in Fate, Heath, and the east Rockwall subdivisions are in the higher-exposure zone. Annual inspections and keeping soil dry at the foundation perimeter are the two most effective mitigation steps.",
+      },
+      {
+        question: "How long does a mosquito barrier spray last in Rockwall?",
+        answer:
+          "Barrier sprays applied to yard vegetation typically remain active for three to four weeks in summer heat. Rockwall's lake humidity and afternoon storm patterns can shorten effectiveness. Monthly applications from April through October are the standard protocol for properties with significant outdoor use.",
+      },
+      {
+        question: "Do scorpions live in Rockwall?",
+        answer:
+          "Yes, the striped bark scorpion is present throughout North Texas including Rockwall County. It is not common in densely developed residential zones but appears more frequently in homes that border the greenbelt areas near the lake or in new construction on former undeveloped land. They are not medically significant to most adults but present a risk to small children and pets.",
+      },
+      {
+        question: "What should I do if I find a large fire ant mound in my yard?",
+        answer:
+          "Do not pour water or disturb the mound, which causes the colony to scatter and rebuild faster. Apply a fire ant mound drench product directly to the mound following label directions, or call a licensed pest control company for broadcast bait treatment that targets the colony over two to four weeks.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, BCE, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Garland", slug: "garland" },
+      { name: "Rowlett", slug: "rowlett" },
+      { name: "Wylie", slug: "wylie" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Rockwall, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Rockwall TX pest control for fire ants in blackland prairie soils, Lake Ray Hubbard mosquitoes, subterranean termites and scorpions. Rockwall County specialists. Free inspection.",
+  },
+  {
+    slug: "little-elm",
+    name: "Little Elm",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~50,000",
+    county: "Denton County",
+    climate: "temperate",
+    climateDriver:
+      "Little Elm is a rapidly growing lakeside city on the south shore of Lewisville Lake in Denton County. The lake moderates temperatures, and the surrounding creek systems and shallow retention ponds in new subdivisions add persistent moisture that extends mosquito and termite seasons beyond what inland DFW cities experience.",
+    topPests: ["Fire Ants", "Termites", "Mosquitoes", "Scorpions", "Wasps"],
+    pestProfile: [
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November",
+        note:
+          "Little Elm's rapid development on former grassland and prairie has displaced fire ant colonies repeatedly, encouraging aggressive mound formation in every new subdivision. The sandy loam soils common in northwest Denton County are highly productive fire ant habitat.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, swarms March through May",
+        note:
+          "Lewisville Lake keeps soil moisture elevated near the shoreline and along drainage corridors. Homes in Little Elm that were built after 2005 may be reaching the age where original soil termiticide barriers are weakening.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "Lewisville Lake and the retention ponds in Little Elm's newer subdivisions create abundant breeding habitat. The city's parks along the lake are particularly high-pressure zones in summer.",
+      },
+    ],
+    localHook:
+      "Little Elm was one of the fastest-growing cities in the US through the 2010s, adding tens of thousands of residents in a decade. That kind of rapid suburban expansion on former prairie means fire ants are actively colonizing every new yard, and the Lewisville Lake shoreline keeps mosquito pressure high well into fall.",
+    intro:
+      "Pest control in Little Elm, TX centers on fire ants in newly developed neighborhoods, mosquitoes from Lewisville Lake, and the steady termite pressure that comes with Denton County's clay-rich soils. The city is young but the pest problems are well-established.",
+    sections: [
+      {
+        heading: "Fire Ants on Former Prairie Land",
+        body:
+          "Little Elm's growth has been almost entirely on land that was agricultural or grassland as recently as the early 2000s. That land was saturated with fire ant colonies before the first slab was poured. Development displaces colonies temporarily, and they recolonize new lawns within one growing season. Every spring in Little Elm, homeowners who moved in the previous fall discover fire ant mounds throughout their yards. The blackland prairie clay soils hold moisture well, which is good for lawns but also excellent for fire ant colony development. Broadcast bait treatments in late winter, before queens begin their spring egg-laying cycle, give the best season-long control. Spot treatments with mound drenches handle visible colonies but do not address the broader population across the lot.",
+      },
+      {
+        heading: "Mosquitoes and the Lewisville Lake Effect",
+        body:
+          "Lewisville Lake's south shore is Little Elm's defining geographic feature, and it is also the primary driver of the city's mosquito pressure. The lake itself does not breed mosquitoes in open water, but the shallow coves, marshy areas at creek mouths, and retained water in the boat launch areas all create productive breeding zones. Within residential neighborhoods, the retention ponds that every developer is required to build for storm water management become mosquito nurseries from March onward. Tiger mosquitoes, which are the daytime-biting species that make outdoor activities uncomfortable in summer, breed in much smaller amounts of water than the lake-focused species. A tablespoon of water in a flower pot is sufficient. Eliminating these small container sites around the home is as important as the lake-management programs the city operates.",
+      },
+      {
+        heading: "Termite Pressure in Newer Construction",
+        body:
+          "Many homebuyers in Little Elm assume that new construction is automatically termite-safe. It is not. Texas building code requires pre-construction soil treatment, but those treatments degrade over five to ten years. Homes in Little Elm built in the 2010s are entering the window where original termite protection may no longer be adequate. Subterranean termites swarm in spring, and the alates (winged termites) are often the first visible sign of a colony near the structure. By the time swarming is visible, there is usually an established colony somewhere in the immediate soil. Annual inspections on homes older than five years are the practical approach to catching activity before wood damage accumulates.",
+      },
+    ],
+    prevention: [
+      "Apply granular fire ant bait broadcast across the full lawn in late February, before colonies become active, and repeat in September before fall colony expansion.",
+      "Dump out or treat any standing water in retention areas, bird baths, or low spots in the yard weekly from April through September.",
+      "Schedule a professional termite inspection if your home is more than five years old, even if you have no visible signs of termite activity.",
+      "Keep mulch beds at least six inches from the foundation to eliminate the moisture bridge that subterranean termites use to access slab perimeters.",
+    ],
+    costNote:
+      "Little Elm pest control pricing is in line with the broader DFW market. Fire ant broadcast treatment for a quarter-acre lot runs similar to other Denton County cities. Mosquito barrier programs are priced per application or by annual contract.",
+    faqs: [
+      {
+        question: "Why does my Little Elm yard have more fire ants than my neighbors even though we treat the same way?",
+        answer:
+          "Fire ant populations vary significantly by soil type and drainage. If your lot has lower spots that hold moisture longer after rain, or if your soil is slightly sandier than the surrounding properties, your yard may simply be better habitat. Fire ant baits work by having foraging workers carry the bait back to the queen. If your bait application timing misses the foraging window, which is typically early morning in summer, effectiveness drops significantly.",
+      },
+      {
+        question: "Are the mosquitoes near Lewisville Lake carrying West Nile virus?",
+        answer:
+          "West Nile virus is present in Denton County, and Culex mosquitoes, which breed in the lake-adjacent areas, are the primary vectors. Denton County issues West Nile risk notices when surveillance traps show elevated activity. The risk is real but manageable with consistent barrier spray programs and personal protection measures during evening hours.",
+      },
+      {
+        question: "How much does termite treatment cost in Little Elm?",
+        answer:
+          "Liquid termiticide treatment for a typical Little Elm home runs from $800 to $1,500 depending on linear footage of foundation and the product used. Bait station systems run higher on an annual monitoring basis. Most companies offer free inspections. Get at least two quotes before committing.",
+      },
+      {
+        question: "Do I need pest control year-round in Little Elm or just in summer?",
+        answer:
+          "Year-round service is worth the investment in Little Elm. Winter temperatures in Denton County are mild enough that cockroaches and ants remain active indoors, and mice pressure actually increases as temperatures drop in November and December. Mosquitoes are the one seasonal pest, active April through October. Everything else warrants year-round management.",
+      },
+      {
+        question: "What scorpion species are in Little Elm?",
+        answer:
+          "The striped bark scorpion is the species present in Denton County. It is not deadly but its sting is painful and can cause significant reactions in children and allergic individuals. They are more common in homes that back up to undeveloped land or greenbelt areas. Sealing gaps at the foundation, weatherstripping, and reducing debris near the home are the best exclusion steps.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "The Colony", slug: "the-colony" },
+      { name: "Frisco", slug: "frisco" },
+      { name: "Lewisville", slug: "lewisville" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Little Elm, TX | Fire Ants, Mosquitoes & Termites",
+    metaDescription:
+      "Little Elm TX pest control for fire ants on former prairie, Lewisville Lake mosquitoes, subterranean termites in newer construction. Denton County specialists. Free inspection.",
+  },
+  {
+    slug: "farmers-branch",
+    name: "Farmers Branch",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~40,000",
+    county: "Dallas County",
+    climate: "temperate",
+    climateDriver:
+      "Farmers Branch is a fully developed inner-ring suburb in northwestern Dallas County, surrounded on all sides by other municipalities. The urban heat island effect elevates temperatures year-round, which extends the active season for cockroaches and ants. The area receives typical North Texas rainfall with hot, humid summers.",
+    topPests: ["German Cockroaches", "Termites", "Rodents", "Fire Ants", "Wasps"],
+    pestProfile: [
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "Farmers Branch's dense commercial corridor along I-35E, including restaurants, warehouses, and retail, creates hotspots for German cockroach activity that spread into adjacent residential areas.",
+      },
+      {
+        name: "Norway Rats",
+        serviceSlug: "rodent-control",
+        activeSeason: "October through March, peak pressure",
+        note:
+          "Aging commercial and industrial buildings along Valwood Parkway and the I-35E corridor provide harborage for Norway rat populations that expand into residential areas as buildings are renovated or demolished.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, swarms March through April",
+        note:
+          "Much of Farmers Branch's residential housing was built in the 1950s through 1970s. Original wood framing in this era often had minimal pest treatment, and decades of soil moisture accumulation have created significant termite exposure.",
+      },
+    ],
+    localHook:
+      "Farmers Branch is one of the oldest suburbs in Dallas County, with large sections of housing built in the 1950s and 1960s. That mature housing stock has decades of termite exposure, and the city's position at the intersection of major commercial corridors on I-35E and LBJ Freeway means restaurant and warehouse pest pressure routinely migrates into residential neighborhoods.",
+    intro:
+      "Pest control in Farmers Branch, TX means dealing with the legacy of older construction and the commercial pest pressure that comes with being a major industrial suburb. German cockroaches from restaurant and warehouse corridors, termites in aging wood framing, and Norway rats along the commercial margins are the consistent challenges.",
+    sections: [
+      {
+        heading: "Cockroach Pressure from Commercial Corridors",
+        body:
+          "Farmers Branch has a significant commercial and industrial base along Interstate 35E and the Valwood industrial corridor. Food-handling businesses, warehouses, and restaurant supply operations create persistent German cockroach populations that do not respect property lines. German cockroaches in commercial kitchens and food-storage areas reproduce rapidly, and populations in a poorly managed building can reach the thousands within months. When commercial buildings are renovated, treated, or closed, cockroaches migrate into the nearest residential properties. Farmers Branch homeowners on streets that back up to commercial zones see cockroach pressure that would be unusual in a purely residential suburb. Effective treatment requires identifying and sealing entry points from adjacent commercial properties and addressing the harborage inside the home simultaneously. Gel bait placements in kitchens, bathrooms, and utility areas are the most effective indoor treatment for German cockroaches.",
+      },
+      {
+        heading: "Termites in 1950s and 1960s Housing Stock",
+        body:
+          "A large share of Farmers Branch's residential neighborhoods were built between 1950 and 1975, when standard construction included wood sill plates, wood-framed walls, and minimal pest treatment. The clay soils throughout Dallas County are excellent termite habitat, and fifty-plus years of soil moisture accumulation around these foundations means subterranean termite colonies have had multiple decades to establish near the structures. Many homeowners in Farmers Branch have never had a professional termite inspection and do not know whether their home has active termite damage. Swarm season in spring, when winged reproductives emerge from mature colonies, is often the first visible sign. By the time swarming occurs inside the structure, there is almost always established damage in the sill plates or subfloor framing. Annual inspections and updated liquid barrier or bait station protection are the standard response for homes in this age range.",
+      },
+      {
+        heading: "Rodent Management in an Urban Suburb",
+        body:
+          "Farmers Branch has a rat and mouse pressure profile closer to an urban core than a typical suburb, because of the density of commercial and industrial activity adjacent to residential neighborhoods. Norway rats are the primary concern in commercial-adjacent properties. They burrow under concrete pads, along slab perimeters, and in the debris areas under commercial dumpsters. House mice are the indoor species, entering through gaps at utility penetrations, weep holes in brick veneer, and gaps at the roofline. Fall is the highest-pressure season, as outdoor populations move inside when temperatures drop. Exclusion is the foundational step: sealing all gaps larger than a quarter inch at the foundation, filling weep holes with steel wool or copper mesh, and ensuring door sweeps are intact. Snap traps placed along wall edges are more effective than poison bait in residential settings because they allow body recovery and prevent die-off odors inside walls.",
+      },
+    ],
+    prevention: [
+      "Seal gaps at utility penetrations, weep holes, and door frames with appropriate materials before fall, when rodent ingress pressure peaks.",
+      "Do not store firewood or debris against the exterior of the home, which provides harborage for both cockroaches and rodents.",
+      "Have a professional termite inspection if your home was built before 1980 and has not had a documented termite treatment in the last five years.",
+      "Keep dumpsters and outdoor trash containers sealed and placed away from the structure to reduce commercial cockroach migration from adjacent properties.",
+    ],
+    costNote:
+      "Pest control in Farmers Branch is priced at standard Dallas County rates. Termite treatment for older-construction homes may run higher than average due to linear footage of foundation. Free inspections are standard.",
+    faqs: [
+      {
+        question: "Are German cockroaches from nearby restaurants getting into my Farmers Branch home?",
+        answer:
+          "It is possible, especially if your property is adjacent to or within a block of food-service businesses. German cockroaches are transported passively through shared walls, utility conduits, and gaps in party walls of commercial strip centers. If you are seeing cockroaches in your home near the commercial corridor, a professional inspection will identify the entry points and recommend a barrier treatment to break the migration.",
+      },
+      {
+        question: "My Farmers Branch home was built in 1962. Does it have termite damage?",
+        answer:
+          "Statistically, homes of that age in Dallas County have a significant probability of having had termite activity at some point. Whether there is active damage depends on whether previous owners maintained pest treatment and whether the construction materials have been repaired or replaced. A licensed termite inspector can probe and moisture-test suspect areas. The inspection itself is typically free.",
+      },
+      {
+        question: "What is the most common entry point for rodents in Farmers Branch homes?",
+        answer:
+          "Weep holes in brick veneer are the most common entry point for both mice and rats. Brick homes have small gaps at the base of the brick layer designed for moisture drainage, and they are exactly the right size for mice. Steel mesh inserts that allow drainage while blocking entry are available at hardware stores. Utility penetrations at HVAC lines and plumbing are the second most common entry point.",
+      },
+      {
+        question: "How do I tell a fire ant mound from a regular ant mound in my Farmers Branch yard?",
+        answer:
+          "Fire ant mounds are typically dome-shaped, have no visible entrance hole at the top, and produce an aggressive defensive response when disturbed. Regular ant mounds often have a visible entry hole and the ants are not aggressive when the mound is approached. Fire ants are reddish-brown in color and sting rather than bite.",
+      },
+      {
+        question: "Does Farmers Branch have a municipal pest control program?",
+        answer:
+          "The City of Farmers Branch maintains some public area pest management but individual homeowners are responsible for their own properties. The city does not treat private lawns or interior spaces. For commercial properties adjacent to residential areas, code enforcement can address documented sanitation violations that contribute to rodent or cockroach pressure.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Carrollton", slug: "carrollton" },
+      { name: "Addison", slug: "addison" },
+      { name: "Dallas", slug: "dallas" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Farmers Branch, TX | Cockroaches, Termites & Rodents",
+    metaDescription:
+      "Farmers Branch TX pest control for German cockroaches near commercial corridors, subterranean termites in 1950s-70s housing and Norway rats. Dallas County specialists. Free inspection.",
+  },
+  {
+    slug: "prosper",
+    name: "Prosper",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~35,000",
+    county: "Collin County",
+    climate: "temperate",
+    climateDriver:
+      "Prosper sits in northern Collin County on the transitional zone between blackland prairie and the Cross Timbers region. The deep clay soils typical of this area retain moisture exceptionally well, supporting both fire ant colonies and subterranean termite populations. Summers are hot and humid with frequent afternoon thunderstorms that add soil moisture at critical pest-activity periods.",
+    topPests: ["Fire Ants", "Termites", "Mosquitoes", "Scorpions", "Spiders"],
+    pestProfile: [
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak March through November",
+        note:
+          "Prosper's blackland prairie clay soils are among the most productive fire ant habitat in North Texas. The rapid pace of development has disrupted existing colonies and spread them across every new subdivision.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, swarms March through May",
+        note:
+          "Clay soils hold moisture that termites need for foraging. Prosper is a newer city, but pre-construction termite treatments degrade over five to seven years, and many homes built in the early 2010s are past that window.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "The required retention ponds in Prosper's subdivisions create mosquito breeding reservoirs throughout the city. The Gentle Creek and other drainage corridors add natural breeding sites near established neighborhoods.",
+      },
+    ],
+    localHook:
+      "Prosper is one of the most active real estate markets in Texas, with thousands of new homes added annually. That construction pace means fire ants constantly colonize fresh sod, and the mandatory storm water retention ponds in every subdivision become mosquito nurseries by April. The clay soils that make Prosper's lawns lush also create excellent conditions for subterranean termites.",
+    intro:
+      "Pest control in Prosper, TX is shaped by rapid growth on blackland prairie. Fire ants colonize every new lawn within a growing season, mosquitoes breed in the retention ponds required by city drainage codes, and termites work through clay soils that hold soil moisture year-round.",
+    sections: [
+      {
+        heading: "Fire Ants in Prosper's New Subdivisions",
+        body:
+          "Fire ant colonies in Prosper are not simply surviving development, they are thriving in it. When land is cleared and graded for a new subdivision, the soil disturbance disperses existing colonies. These colonies re-establish in the fresh sod of new lawns within one to two growing seasons. Homeowners who moved into a new Prosper subdivision in the fall often discover by the following spring that their pristine lawn has dozens of fire ant mounds. The blackland clay soils underlying most of Prosper are some of the most productive fire ant habitat in Texas because they hold moisture efficiently and support the dense foraging networks that large colonies require. Broadcast bait treatments applied to the entire lawn in late February, before soil temperatures rise above 70 degrees, are the most effective preventive approach. Waiting for mounds to appear and then treating individually is reactive and less effective.",
+      },
+      {
+        heading: "Retention Pond Mosquito Management",
+        body:
+          "Collin County's storm water management requirements mean that virtually every Prosper subdivision has one or more retention ponds built into the layout. These ponds are designed to hold water temporarily after rain events, but in practice they maintain standing water for days to weeks after significant rain, creating ideal mosquito breeding conditions from April through October. The primary mosquito species that breed in open retention ponds are Culex mosquitoes, which are the primary vectors of West Nile virus. The species that breed in smaller water accumulations around homes, including Aedes mosquitoes that can carry dengue and Zika, are a separate management challenge. Treating the retention ponds with Bti (Bacillus thuringiensis israelensis) dunks is effective for open-water sites. Backyard barrier spray programs applied every three to four weeks address the container-breeding species.",
+      },
+      {
+        heading: "Termites and Pre-Treatment Expiration",
+        body:
+          "Prosper is a newer city, with most of its residential development occurring after 2005. Many homebuyers assume that newer construction means no termite risk, but that assumption is incorrect. Texas building code requires pre-construction soil treatment for new homes, but the termiticide used in standard pre-treatment degrades over five to seven years. Homes built between 2005 and 2015 in Prosper are now at or past the point where original soil treatment is no longer reliably protecting the structure. Annual termite inspections are particularly important for homes in this range. Bait station monitoring systems or renewed liquid barrier applications around the foundation perimeter are the standard next step after inspection confirms the original treatment has degraded.",
+      },
+    ],
+    prevention: [
+      "Apply broadcast fire ant bait to the entire lawn area in late February before spring colony expansion, and repeat in late September.",
+      "Check retention pond areas in the neighborhood and report excessive standing water to city services, which may have mosquito abatement programs for public water bodies.",
+      "Ask the pest control company during your inspection whether the original pre-construction termite treatment is still active, and get documentation.",
+      "Install door sweeps and seal gaps at utility penetrations before fall to reduce scorpion and spider entry into the home.",
+    ],
+    costNote:
+      "Pest control in Prosper is priced at standard Collin County rates. New construction termite re-treatment runs from $600 to $1,200 depending on slab size. Mosquito barrier programs are typically contracted per season.",
+    faqs: [
+      {
+        question: "My Prosper home is only three years old. Do I really need a termite inspection?",
+        answer:
+          "Yes. Pre-construction termite treatment is required but it begins degrading immediately. Three-year-old homes still have mostly active protection, but establishing a baseline inspection now lets you track when protection starts to weaken. Annual inspections from year one create a documented record that is useful if you sell the home later.",
+      },
+      {
+        question: "Why does the retention pond behind my Prosper neighborhood seem to create more mosquitoes every year?",
+        answer:
+          "Retention ponds develop algae mats and organic debris over time that provide additional shelter for mosquito larvae and make mosquito dunks less effective. As the pond matures, the vegetation around the edges also creates more resting sites for adult mosquitoes. Reporting the pond condition to the city or your HOA, and requesting biological larvicide treatment of the water, is the most effective community-level response.",
+      },
+      {
+        question: "Are the spiders in Prosper dangerous?",
+        answer:
+          "Brown recluse spiders are present in Collin County, including Prosper. They tend to inhabit undisturbed spaces like attics, garages, storage boxes, and spaces under furniture. New construction properties that have not yet accumulated clutter or had time for spider populations to establish are lower-risk than older homes. Black widow spiders are also present and prefer sheltered outdoor areas like wood piles and garage corners.",
+      },
+      {
+        question: "How do I know if the fire ants in my yard are fire ants and not regular ants?",
+        answer:
+          "Fire ant mounds are dome-shaped with no visible hole at the top, and fire ants respond to disturbance with aggressive swarming and stinging within seconds. Regular ant mounds have a visible entry hole and the ants are not aggressive when approached. Fire ants in North Texas are reddish-brown and smaller than carpenter ants. If you are stung multiple times after approaching a mound, it is almost certainly fire ants.",
+      },
+      {
+        question: "Does Prosper have a mosquito control program for its parks and public areas?",
+        answer:
+          "The City of Prosper has mosquito surveillance and some public-area treatment programs, but these cover public property and are not a substitute for residential barrier spray programs. Homeowners are responsible for managing mosquito breeding and adult populations on their own properties. Contact Collin County public health for information on the county's surveillance and abatement program.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Frisco", slug: "frisco" },
+      { name: "McKinney", slug: "mckinney" },
+      { name: "Celina", slug: "celina" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Prosper, TX | Fire Ants, Mosquitoes & Termites",
+    metaDescription:
+      "Prosper TX pest control for fire ants in blackland clay soils, retention pond mosquitoes, and subterranean termites in newer construction. Collin County specialists. Free inspection.",
+  },
+  {
+    slug: "palestine-tx",
+    name: "Palestine",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~18,000",
+    county: "Anderson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Palestine sits in the Piney Woods region of East Texas where the climate is hotter and significantly more humid than the DFW Metroplex or Hill Country. Annual rainfall averages 42 inches, summer humidity regularly exceeds 80 percent, and winters are mild enough that pest populations never experience a significant dieback. The pine forest environment creates unique pest pressures that are distinct from the rest of Texas.",
+    topPests: ["Termites", "Mosquitoes", "Carpenter Ants", "Fire Ants", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Formosan Termites",
+        serviceSlug: "termite-control",
+        activeSeason: "Year-round, swarms April through June",
+        note:
+          "East Texas humidity and warm temperatures support both native subterranean termites and Formosan termites, which are more aggressive and destructive. Palestine's older housing stock in the historic district has significant Formosan termite exposure.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note:
+          "The pine forest environment of East Texas provides ideal carpenter ant habitat. Moist, decaying pine stumps and wood debris near homes give carpenter ants the nesting sites they need before extending foraging trails into structures.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note:
+          "Palestine's creek systems and forested low-lying areas retain water after rain events and create mosquito breeding habitat that persists much longer than in drier parts of Texas.",
+      },
+    ],
+    localHook:
+      "Palestine is the county seat of Anderson County in the East Texas Piney Woods, a region with pest pressures that are closer to Louisiana or East Texas bottomland than to the rest of the state. Formosan termites, which are not common in drier parts of Texas, are established in Palestine's older neighborhoods. The pine forest environment also supports large carpenter ant populations that are rarely a concern in the DFW area.",
+    intro:
+      "Pest control in Palestine, TX means dealing with the full range of East Texas forest pests: Formosan termites in historic construction, carpenter ants from pine forest margins, mosquitoes in creek bottomlands, and cockroaches year-round in a climate that never gets cold enough to suppress them.",
+    sections: [
+      {
+        heading: "Termites in Palestine's Historic District",
+        body:
+          "Palestine has a well-preserved historic downtown and surrounding neighborhoods with homes dating from the late 1800s to the 1940s. Many of these structures have original wood framing, wood sill plates, and wood subfloor systems that have been exposed to termite pressure for decades without full remediation. East Texas supports both native subterranean termites and Formosan termites. Formosan termites are a more aggressive species that form larger colonies, forage more aggressively, and can cause structural damage faster than native species. They are not common in West Texas or the Panhandle but are established in the humid eastern counties. Palestine homes in the historic district should be inspected annually. Any inspection that identifies Formosan termites warrants a more aggressive treatment approach than standard native-subterranean protocols.",
+      },
+      {
+        heading: "Carpenter Ants from the Piney Woods",
+        body:
+          "The pine forests surrounding Palestine are prime carpenter ant habitat. Unlike termites, carpenter ants do not eat wood but excavate it to create nesting galleries. They strongly prefer moist or softened wood, which means any area of water damage in a Palestine home, from a leaking roof, failing window seal, or plumbing drip, becomes a potential carpenter ant nesting site. Properties that have pine stumps, wood debris, or aging wood structures adjacent to the home create a continuous supply of nesting sites that support large carpenter ant colonies close to the structure. Treatment requires locating all nesting sites and treating them directly with residual insecticide. Surface sprays without nest treatment are ineffective at eliminating established colonies.",
+      },
+      {
+        heading: "Cockroach Pressure in a Warm, Humid Climate",
+        body:
+          "Palestine's climate is warm enough year-round that cockroach populations do not experience the winter dieback that limits populations in colder states. The American cockroach, which is the large reddish-brown species sometimes called a palmetto bug or water bug, thrives in Palestine's humidity and is common in crawl spaces, utility areas, and around perimeter drains. German cockroaches, the small species that infests kitchens and bathrooms, are the indoor population concern and are present year-round. Palestine's older housing stock with crawl space foundations is particularly vulnerable to American cockroach pressure from below the structure. Addressing the crawl space environment, including moisture management and perimeter sealing, is the foundational step before any cockroach treatment program.",
+      },
+    ],
+    prevention: [
+      "Inspect crawl space moisture levels seasonally and install vapor barrier if humidity is elevated, to reduce both cockroach and subterranean termite attraction.",
+      "Remove pine stumps and wood debris from within 20 feet of the structure to eliminate primary carpenter ant nesting sites.",
+      "Apply mosquito dunks to any standing water on the property after rain events, and treat creek-adjacent yard areas with barrier spray monthly from March through October.",
+      "Have an annual professional termite inspection with specific attention to wood-to-soil contact points and any previously water-damaged framing.",
+    ],
+    costNote:
+      "Pest control in Palestine is priced below the urban Texas average. Termite treatment in historic construction may require more labor due to access challenges. Companies serving Anderson County typically offer free inspections.",
+    faqs: [
+      {
+        question: "Are Formosan termites really different from regular termites in Palestine?",
+        answer:
+          "Yes, significantly. Formosan subterranean termites form much larger colonies, sometimes with millions of individuals compared to the hundreds of thousands typical of native subterranean termites. They forage more aggressively and cause structural damage faster. They also swarm in the evening rather than the daytime, and their alates (swarmers) are yellowish rather than the dark brown of native subterranean termite swarmers. If you see evening swarms near lights in Palestine from April to June, have a professional identify the species.",
+      },
+      {
+        question: "How do I know if my Palestine home has carpenter ants or termites?",
+        answer:
+          "Carpenter ants leave coarse sawdust-like frass outside their galleries and do not eat the wood they excavate. Termites consume the wood and leave no external frass. Carpenter ants are larger, black or red-and-black, and may be visible foraging in the open. Termites are smaller, pale, and avoid light. Both require professional treatment, but the treatment approach is different. A licensed inspector can identify which species you have with confidence.",
+      },
+      {
+        question: "Is the mosquito pressure in Palestine worse than in other Texas cities?",
+        answer:
+          "Palestine's mosquito pressure is notably higher than most of central and western Texas. The East Texas Piney Woods region, with its creek bottoms, pine forest understory that retains moisture, and warm temperatures extending the breeding season, creates conditions comparable to Louisiana and coastal areas. Properties near the Neches River drainage system or any of the creek corridors in Anderson County see the highest pressure.",
+      },
+      {
+        question: "What is the best time to get a termite inspection in Palestine?",
+        answer:
+          "Any time of year, but spring and early summer are particularly valuable because that is when termite swarmers emerge and are most visible. An inspection following a swarm event can often identify the colony location and extent of damage before additional foraging occurs. Fall inspections catch any new activity that started after summer rains.",
+      },
+      {
+        question: "Do cockroaches in Palestine carry disease risks?",
+        answer:
+          "Cockroaches can transmit bacteria including Salmonella and E. coli by contaminating food preparation surfaces and pantry items. They also produce allergens from shed skins and frass that worsen asthma and respiratory conditions. In a warm, humid climate like Palestine's, where cockroaches remain active year-round, managing populations in kitchens and food storage areas is a health priority, not just a comfort issue.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, BCE, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Nacogdoches", slug: "nacogdoches" },
+      { name: "Lufkin", slug: "lufkin" },
+      { name: "Tyler", slug: "tyler" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Palestine, TX | Formosan Termites, Carpenter Ants & Mosquitoes",
+    metaDescription:
+      "Palestine TX pest control for Formosan termites in historic construction, carpenter ants from Piney Woods, East Texas mosquitoes and cockroaches. Anderson County specialists. Free inspection.",
+  },
+  {
+    slug: "colleyville",
+    name: "Colleyville",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~27,000",
+    county: "Tarrant County",
+    climate: "temperate",
+    climateDriver:
+      "Colleyville sits between Fort Worth and Grapevine in Tarrant County, in the DFW Metroplex. The temperate north Texas climate brings hot summers, mild winters, and spring storm seasons. The Bear Creek corridor and the stormwater features throughout this planned community create mosquito habitat, while the clay soils and warm climate sustain subterranean termite pressure year-round.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mosquitoes", "Cockroaches", "Paper Wasps"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Texas A&M AgriLife Extension confirms heavy subterranean termite pressure across Tarrant County. Colleyville's established housing stock from the 1980s and 1990s is in the prime age range for termite discovery, and the clay soils that hold moisture near foundations create favorable conditions for subterranean colonies.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through October",
+        note: "Fire ants are established throughout Tarrant County. In Colleyville, they appear in lawns, along fence lines, and in the grassy HOA common areas. Mounds rebuild quickly after summer rain. The warm north Texas climate means colony activity never fully pauses in winter.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Bear Creek and the stormwater features throughout Colleyville's planned community create persistent mosquito habitat. Asian tiger mosquitoes are established in the DFW area and breed in small water sources close to homes. West Nile virus is monitored annually by Tarrant County Public Health.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed outdoors in mulch and drains and push inside in summer heat. German roaches are an indoor species that can establish in kitchens. Both are common across DFW suburban neighborhoods in the warmer months.",
+      },
+      {
+        name: "Paper wasps",
+        serviceSlug: "wasp-control",
+        activeSeason: "Active April through October",
+        note: "Paper wasps build open-comb nests under eaves, in porch ceilings, and around window frames throughout the north Texas warm season. They are defensive of the nest site and will sting repeatedly, particularly in late summer when colony populations are large.",
+      },
+    ],
+    localHook:
+      "Colleyville's established neighborhoods and the clay soils holding moisture near foundations put it firmly in Tarrant County's heavy termite pressure zone. Annual inspections matter more in the 25 to 40 year housing stock that makes up much of the city than in newer construction.",
+    intro:
+      "Pest control in Colleyville covers the DFW suburban range, with termites as the primary financial risk. Tarrant County is in heavy subterranean termite territory confirmed by Texas A&M AgriLife Extension, and Colleyville's established housing stock is in the age window when termite activity is most commonly found. Fire ants are the year-round outdoor pest, active in lawns and common areas through a long warm season. Mosquitoes run March through October, monitored for West Nile by Tarrant County Public Health. Paper wasps are a nuisance under eaves and in porch areas through summer.",
+    sections: [
+      {
+        heading: "Termite risk in established Colleyville neighborhoods",
+        body: "Tarrant County's heavy termite hazard rating reflects the clay soils, warm climate, and long active season for subterranean colonies. Colleyville's housing stock, built primarily in the 1980s through 2000s, is in the age range when termite damage is most frequently discovered. Subterranean termites reach wood through mud tubes from the soil, working silently in crawl spaces, at slab edges, and around any wood-to-soil contact point. An annual inspection in this zone is the standard defensive step.",
+      },
+      {
+        heading: "Fire ants, mosquitoes, and outdoor pest management",
+        body: "Fire ants are the most visible year-round pest in Colleyville yards, building mounds in lawns and HOA green spaces and rebuilding after summer rain. Mosquito season runs from March through October with West Nile monitoring active in Tarrant County from June onward. Bear Creek and the community's stormwater features sustain breeding populations through the season. Paper wasps build nests under eaves and in porch ceilings and are most defensive in late summer.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for homes over 15 years old in Tarrant County's heavy pressure zone.",
+      "Apply broadcast fire ant bait in spring to reduce yard colony density before summer peak.",
+      "Empty gutters, bird baths, and standing water containers to reduce mosquito breeding near the house.",
+      "Check eaves and porch areas for paper wasp nests in May before they grow through summer.",
+    ],
+    costNote:
+      "Most Colleyville households benefit from a recurring plan covering fire ants, mosquitoes, and perimeter insects through the warm season, paired with an annual termite inspection for older properties. A free inspection sets the scope for your home.",
+    faqs: [
+      {
+        question: "Are termites common in Colleyville?",
+        answer:
+          "Yes. Tarrant County is in the heavy subterranean termite pressure zone per Texas A&M AgriLife Extension. Colleyville's clay soils retain moisture near foundations, creating favorable conditions for subterranean colonies, and much of the city's housing stock falls in the 25 to 40 year age range when termite activity is most commonly discovered.",
+      },
+      {
+        question: "How do I manage fire ants in a Colleyville lawn?",
+        answer:
+          "Broadcast bait applied across the yard in spring reduces overall colony density more effectively than treating individual mounds, because the bait is carried back to the colony by foraging workers. A spring application followed by a fall follow-up gives the best season-long control. Individual mound drenches work faster on a visible mound but do not reduce the surrounding population.",
+      },
+      {
+        question: "What is West Nile risk in Colleyville?",
+        answer:
+          "Tarrant County Public Health runs a mosquito trapping and West Nile monitoring program from June through October. The area has seen West Nile positive mosquito pools in past seasons. Reducing standing water on the property and treating resting areas in shaded spots reduces your property's mosquito population independently of the county program.",
+      },
+      {
+        question: "When should I treat paper wasp nests around my Colleyville home?",
+        answer:
+          "Treat nests in the evening when all workers have returned and are less active. Small nests early in the season, before May, are easiest to remove. By late summer, colonies can contain several hundred workers and are highly defensive. Nests under eaves and in porch ceilings are the most common locations in north Texas suburban homes.",
+      },
+      {
+        question: "Do I need year-round pest control in Colleyville?",
+        answer:
+          "North Texas winters slow but do not stop pest pressure. Fire ants remain active in warmer weather through winter. Mice can move indoors in cold stretches. Termite colony activity continues at a reduced level in winter and picks back up early in spring. A year-round plan or at minimum a quarterly service covers the seasonal transitions when pest pressure shifts.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Grapevine", slug: "grapevine" },
+      { name: "Southlake", slug: "southlake" },
+      { name: "Bedford", slug: "bedford" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Colleyville, TX | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Pest control in Colleyville, TX. Tarrant County service for subterranean termites, fire ants, mosquitoes, cockroaches, and paper wasps. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "murphy-tx",
+    name: "Murphy",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~22,000",
+    county: "Collin County",
+    climate: "temperate",
+    climateDriver:
+      "Murphy sits in Collin County in the northeast DFW Metroplex, directly east of Plano and Allen. The temperate north Texas climate brings hot summers, mild winters, and significant spring storm seasons. Murphy is a fast-growing planned community with a large share of recently built housing and the stormwater management features that come with new suburban development.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "Cockroaches", "Crickets"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through October",
+        note: "Fire ants are the dominant outdoor pest in Collin County. In Murphy's newer development, they establish quickly in newly sodded lawns and open ground. Mounds rebuild fast after summer rain events.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Collin County is in the heavy termite pressure zone per Texas A&M AgriLife Extension. Murphy's newer housing stock benefits from modern construction standards, but any home over 10 years old in this climate warrants periodic inspections.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Stormwater retention ponds and the creek corridors in Murphy's subdivision network create sustained mosquito habitat through the DFW warm season. Collin County monitors for West Nile virus from June onward.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, push indoors in summer heat",
+        note: "American roaches breed outdoors in mulch and drains and move inside in the heat. German roaches are an indoor species more common in multi-family housing than in single-family homes.",
+      },
+      {
+        name: "Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "August through October",
+        note: "House crickets and field crickets stage large migrations in the DFW area in late summer and fall, clustering on lit surfaces and entering homes through gaps under doors. They are a nuisance pest common in north Texas suburbs during the late-season peak.",
+      },
+    ],
+    localHook:
+      "Murphy's rapid growth has produced a community where newly sodded lawns meet established fire ant populations almost immediately after build-out. The stormwater pond network that comes with new development adds to the mosquito pressure that runs through the long north Texas warm season.",
+    intro:
+      "Pest control in Murphy reflects the growth pattern of northeast Collin County: new housing going in fast, fire ants establishing in new lawns within a season, and the stormwater management features of planned development creating mosquito habitat close to residential areas. Subterranean termites are the quiet financial risk; Collin County is in the heavy pressure zone. The late-summer cricket migration is a recurring DFW nuisance that catches new residents off guard.",
+    sections: [
+      {
+        heading: "Fire ants in Murphy's growing community",
+        body: "Red imported fire ants are the most visible outdoor pest in Collin County and establish quickly in Murphy's newly developed neighborhoods. They find open sunny ground in new lawns and reconstruction sites and build mounds that appear fast after summer rain. Broadcast bait treatment in spring, applied before the summer peak, reduces colony density across the yard more effectively than treating individual mounds. HOA common areas benefit from coordinated treatment programs.",
+      },
+      {
+        heading: "Mosquitoes, termites, and the seasonal transitions",
+        body: "The stormwater retention ponds built into Murphy's subdivision designs create persistent mosquito habitat from March through October. Collin County runs West Nile monitoring through the warm season. Subterranean termites are a lower-profile risk in Murphy's newer housing, but any property over 10 years old in this climate warrants a periodic inspection. The late-summer cricket migration is a DFW-wide phenomenon, not a Murphy-specific problem, but the volume of crickets around lights in August and September is enough to notice.",
+      },
+    ],
+    prevention: [
+      "Apply broadcast fire ant bait in spring to get ahead of mound establishment in new lawns.",
+      "Keep stormwater retention areas free of dense vegetation to reduce mosquito resting habitat near homes.",
+      "Seal gaps under exterior doors in August before the cricket migration peaks.",
+      "Schedule a termite inspection for any Murphy home that is more than 10 years old.",
+    ],
+    costNote:
+      "Most Murphy households do well with a recurring plan covering fire ants, mosquitoes, and perimeter pests through the warm season. A free inspection sets the right scope for your property and home age.",
+    faqs: [
+      {
+        question: "Are fire ants a problem in new Murphy developments?",
+        answer:
+          "Yes. Red imported fire ants establish in new lawns within one to two seasons after development. They are present throughout Collin County and move into sodded areas quickly. Broadcast bait treatment applied in spring is more effective than treating individual mounds, because the bait is carried back to the colony. Treating early before the summer surge gives the best results.",
+      },
+      {
+        question: "Why do crickets swarm around my Murphy home in late summer?",
+        answer:
+          "House crickets and field crickets in the DFW area undergo a large population surge in August and September and are attracted to exterior lights. They enter homes through gaps under doors, around garage door seals, and through crawl space vents. Turning off or reducing exterior lighting during peak migration weeks, sealing door gaps, and applying a perimeter treatment cuts the entry volume significantly.",
+      },
+      {
+        question: "Do the stormwater ponds in Murphy neighborhoods cause mosquito problems?",
+        answer:
+          "They do contribute to mosquito pressure. Stormwater retention ponds are built into Collin County subdivision designs for drainage management and create standing water habitat through the season. Properties adjacent to ponds typically see higher mosquito activity than those further away. Targeted yard treatment of resting areas close to your home reduces the biting population regardless of the pond's status.",
+      },
+      {
+        question: "Do I need a termite inspection for a newer Murphy home?",
+        answer:
+          "Modern construction standards provide some protection, but subterranean termite pressure in Collin County is real and confirmed by Texas A&M AgriLife Extension. Any home over 10 years old benefits from a professional inspection. Moisture accumulation near the foundation from irrigation or drainage issues can accelerate termite risk in newer construction.",
+      },
+      {
+        question: "What outdoor pests should I expect as a new resident of Murphy?",
+        answer:
+          "Fire ants are the most visible day-to-day pest in Collin County lawns. Mosquitoes run from March through October. Late summer brings the cricket migration, a DFW-wide phenomenon. Subterranean termites are the quiet financial risk. Paper wasps build nests under eaves in warm months. A recurring perimeter service plus annual termite checks covers the main risks.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Plano", slug: "plano" },
+      { name: "Allen", slug: "allen" },
+      { name: "Wylie", slug: "wylie" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Murphy, TX | Fire Ants, Mosquitoes & Termites",
+    metaDescription:
+      "Pest control in Murphy, TX. Collin County service for fire ants, subterranean termites, mosquitoes, cockroaches, and crickets. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "sachse",
+    name: "Sachse",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~30,000",
+    county: "Dallas and Collin County",
+    climate: "temperate",
+    climateDriver:
+      "Sachse straddles the Dallas and Collin County border in the northeast DFW Metroplex. The temperate north Texas climate brings hot summers, mild winters, and spring storm seasons. Muddy Creek and the stormwater features in this fast-growing suburb create mosquito habitat, while the warm, moist soil sustains subterranean termite pressure through the long warm season.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Mosquitoes", "Cockroaches", "Paper Wasps"],
+    pestProfile: [
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through October",
+        note: "Fire ants are established throughout northeast Dallas and Collin County. In Sachse, they build mounds in lawns, open ground, and along drainage areas. The fast-growing community means ongoing new development creates open ground that fire ants colonize quickly.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Both Dallas and Collin counties are in the heavy termite pressure zone per Texas A&M AgriLife Extension. Sachse's rapid growth means newer construction, but moisture near foundations from clay soils and irrigation systems can accelerate termite risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Muddy Creek and the stormwater retention features in Sachse's subdivisions create mosquito habitat through the warm season. West Nile monitoring is active in both Dallas and Collin counties.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed in mulch and drains and push inside in summer heat. German roaches are an indoor species found more commonly in rental and multi-unit housing. Both are present across the northeast DFW suburbs.",
+      },
+      {
+        name: "Paper wasps",
+        serviceSlug: "wasp-control",
+        activeSeason: "Active April through October",
+        note: "Paper wasps build open-comb nests under eaves, in porch ceilings, and around window frames. They are present throughout the DFW suburbs and are most defensive in late summer when colony populations peak.",
+      },
+    ],
+    localHook:
+      "Sachse's position across the Dallas-Collin County line puts it in the heavy termite pressure zone for both counties. The fire ant pressure in the fast-growing community is typical of northeast DFW, and the Muddy Creek corridor adds mosquito habitat close to residential areas.",
+    intro:
+      "Pest control in Sachse covers the northeast DFW suburban pattern: fire ants as the year-round outdoor presence, subterranean termites as the quiet financial risk, and mosquitoes through a long warm season fed by the Muddy Creek corridor and subdivision stormwater features. The city's rapid growth means a mix of newer and established neighborhoods, with the older areas carrying more termite history. Paper wasps are a regular nuisance under eaves through summer.",
+    sections: [
+      {
+        heading: "Fire ants and the outdoor pest season in Sachse",
+        body: "Red imported fire ants are the most visible outdoor pest in northeast Dallas and Collin County. In Sachse, they establish in new lawns within a season of development and rebuild mounds fast after summer rain. Broadcast bait treatment applied in spring reduces overall yard colony density more effectively than individual mound treatment. Mosquito season runs from March through October, with Muddy Creek and the subdivision stormwater pond network creating sustained breeding habitat.",
+      },
+      {
+        heading: "Termites and the year-round perimeter picture",
+        body: "Both Dallas and Collin counties carry heavy termite pressure ratings. In Sachse's newer housing, the risk is lower than in 30-year-old construction, but clay soils holding moisture near the foundation and irrigation systems keeping the ground moist can accelerate subterranean termite activity. Paper wasps are a recurring summer nuisance under eaves and in porch areas, most aggressive in late summer when colonies are at their largest.",
+      },
+    ],
+    prevention: [
+      "Apply broadcast fire ant bait in spring to reduce overall colony density across the yard before summer.",
+      "Inspect eaves and porch areas for paper wasp nests in April before they grow into late-season colonies.",
+      "Reduce standing water in gutters and around stormwater features to cut mosquito breeding near the house.",
+      "Schedule a termite inspection for any Sachse home that is more than 10 years old.",
+    ],
+    costNote:
+      "Most Sachse households benefit from a recurring plan covering fire ants, mosquitoes, and perimeter pests through the warm season. A free inspection sets the right scope and confirms your current termite risk.",
+    faqs: [
+      {
+        question: "Are termites common in Sachse, TX?",
+        answer:
+          "Sachse straddles Dallas and Collin counties, both of which are in the heavy subterranean termite pressure zone per Texas A&M AgriLife Extension. Newer homes have some protection from modern construction standards, but clay soils holding moisture near the foundation and irrigation keeping the ground moist can accelerate risk. Homes over 10 years old benefit from a professional inspection.",
+      },
+      {
+        question: "How do fire ants spread in new Sachse neighborhoods?",
+        answer:
+          "Red imported fire ants spread through new-queen dispersal flights and colony budding. When new ground is opened by construction and then sodded, fire ant queens move in within one to two seasons. Broadcast bait treatment in spring, before mound populations peak through summer, is the most effective approach for new neighborhoods.",
+      },
+      {
+        question: "Does Muddy Creek cause mosquito problems in Sachse?",
+        answer:
+          "Muddy Creek creates low-lying areas and seasonal standing water that sustains mosquito populations through the warm season. Properties near the creek or in low-elevation areas adjacent to it see more mosquito activity than upland parts of the city. Targeted treatment of resting areas close to the home reduces the biting population near your yard.",
+      },
+      {
+        question: "What do I do about paper wasp nests under my eaves in Sachse?",
+        answer:
+          "Treat wasp nests in the evening when all workers have returned and are less active. Small nests discovered early in the season, before June, are easiest to remove with minimal sting risk. Late-summer colonies are large and highly defensive. After treatment, remove the paper nest to discourage reuse the following season.",
+      },
+      {
+        question: "Is West Nile virus a risk in Sachse?",
+        answer:
+          "Both Dallas and Collin counties run West Nile virus monitoring programs through mosquito trapping from June through October. The DFW area has seen West Nile positive mosquito pools in the Sachse area in past seasons. Reducing standing water on your property and treating shaded resting areas near the home reduces your exposure risk.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Garland", slug: "garland" },
+      { name: "Wylie", slug: "wylie" },
+      { name: "Rowlett", slug: "rowlett" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Sachse, TX | Fire Ants, Termites & Mosquitoes",
+    metaDescription:
+      "Pest control in Sachse, TX. Dallas and Collin County service for fire ants, subterranean termites, mosquitoes, cockroaches, and paper wasps. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "tomball",
+    name: "Tomball",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~15,000",
+    county: "Harris County",
+    climate: "hot-humid",
+    climateDriver:
+      "Tomball sits in northwest Harris County, on the edge of the Houston metro. The hot, humid Gulf Coast climate brings a long, wet warm season and mild winters. Cypress Creek and the Tomball Parkway corridor contribute to the consistently moist conditions that sustain Formosan termite activity, heavy mosquito pressure, and year-round cockroach populations.",
+    topPests: ["Formosan Termites", "Mosquitoes", "Cockroaches", "Fire Ants", "Rats"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round",
+        note: "Harris County is the epicenter of Formosan termite pressure in Texas. Formosan termites build larger colonies and consume wood faster than native subterranean species. In Tomball's mix of older historic downtown properties and newer suburban construction, the risk spans a wide age range.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Cypress Creek and the low-lying areas in northwest Harris County create sustained mosquito habitat through one of the longest warm seasons in Texas. Harris County Mosquito Control District runs active monitoring and treatment, but residential yard treatment significantly reduces the biting population close to the home.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The Gulf Coast humidity sustains year-round cockroach populations. American roaches breed outdoors in warm, moist conditions and push inside through utility lines and gaps. German roaches establish indoors in kitchens and are a common complaint in Tomball's commercial corridors.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are established throughout Harris County. The near year-round warmth of the Gulf Coast climate means colony activity never fully stops. Mounds appear in yards, along driveways, and in landscaping throughout Tomball's residential areas.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, surge in fall and winter",
+        note: "Roof rats are established across the Houston metro. In Tomball, they move through the canopy of mature trees, enter structures at rooflines, and nest in attics. The fall through winter period sees the most entry activity as temperatures cool.",
+      },
+    ],
+    localHook:
+      "Tomball's northwest Harris County location puts it in the heart of Houston's Formosan termite territory. Cypress Creek and the area's moist conditions sustain some of the heaviest pest pressure on the Gulf Coast calendar, with mosquitoes active March through November and cockroaches year-round.",
+    intro:
+      "Pest control in Tomball is Gulf Coast pest control, which means a longer and more intense active season than most Texas cities. Formosan termites are the structural risk: Harris County is the Texas epicenter for this aggressive species, and both the older downtown properties and newer suburban homes in Tomball are in high-hazard territory. Mosquitoes run from March through November, fed by Cypress Creek and the moist low-lying areas of northwest Harris County. Cockroaches are year-round. Roof rats move through the canopy of mature trees and enter attics in fall.",
+    sections: [
+      {
+        heading: "Formosan termites in northwest Harris County",
+        body: "Formosan subterranean termites build larger colonies and consume wood at a faster rate than native eastern subterranean termites. Harris County is the Texas epicenter for Formosan pressure. In Tomball, any home with a crawl space, wood-to-soil contact, or moisture near the foundation is at risk. Formosan termites swarm in late spring through June, earlier in the season than native species. Annual inspections and, for high-risk properties, a baiting system or soil treatment with a termite bond are the standard approaches in this zone.",
+      },
+      {
+        heading: "Mosquitoes, cockroaches, and the Gulf Coast pest calendar",
+        body: "Mosquito season in Tomball runs from March through November, one of the longest in Texas. Cypress Creek and the low-lying northwest Harris County terrain create consistent breeding habitat regardless of what the residential areas look like. Harris County Mosquito Control District treats public areas, but individual yard treatment reduces the biting population close to the home. Cockroaches are year-round in the Gulf Coast climate, with American roaches pushing inside in summer heat and German roaches maintaining indoor populations in kitchens. Roof rats are active in the mature tree canopy and enter attics particularly in fall.",
+      },
+    ],
+    prevention: [
+      "Schedule annual Formosan termite inspections for any Tomball property, given Harris County's high-hazard status.",
+      "Reduce standing water after rain to cut mosquito breeding close to the house.",
+      "Seal utility penetrations and gaps at the roofline to reduce rat entry into attics.",
+      "Reduce mulch and moisture against the foundation to limit cockroach and termite entry points.",
+    ],
+    costNote:
+      "Most Tomball households benefit from a year-round pest plan covering mosquitoes, cockroaches, fire ants, and perimeter pests, paired with an annual Formosan termite inspection. A free inspection sets the scope and checks your property's current risk.",
+    faqs: [
+      {
+        question: "Are Formosan termites worse than regular termites in Tomball?",
+        answer:
+          "Yes. Formosan subterranean termites build larger colonies and consume wood faster than native eastern subterranean termites. Harris County is one of the highest-pressure counties in Texas for Formosan termite activity. They swarm in late spring through June and can cause serious structural damage in a shorter time than native species. Annual inspections are essential in this zone.",
+      },
+      {
+        question: "How long is mosquito season near Cypress Creek in Tomball?",
+        answer:
+          "The Gulf Coast warm season gives Tomball one of the longest mosquito calendars in Texas, running from March through November. Cypress Creek and the low-lying areas of northwest Harris County provide consistent standing water habitat through that window. Harris County Mosquito Control treats public areas, but targeted yard service reduces the biting population close to your home.",
+      },
+      {
+        question: "Why do cockroaches seem to be present year-round in the Houston area?",
+        answer:
+          "The Gulf Coast humidity and mild winters prevent the hard cold that knocks back cockroach populations in northern states. American roaches breed outdoors in warm, moist mulch, drains, and utility corridors year-round and push inside through utility penetrations and gaps. A consistent perimeter treatment plus exclusion of entry points is the most effective approach in a year-round-active climate.",
+      },
+      {
+        question: "Are roof rats common in Tomball?",
+        answer:
+          "Yes. Roof rats are well established across the Houston metro and Tomball's northwest Harris County area. They travel through the canopy of mature trees, enter structures at the roofline, and nest in attics. Entry pressure increases in fall as temperatures cool. Signs include droppings in the attic, gnaw marks at the roofline, and scratching sounds at night.",
+      },
+      {
+        question: "Does Harris County Mosquito Control cover my Tomball neighborhood?",
+        answer:
+          "Harris County Mosquito Control District runs active monitoring and aerial or ground treatment in response to mosquito population data and West Nile positive finds. Their program covers public areas and road rights-of-way. It does not replace residential yard treatment, which targets the resting population in your specific yard and reduces biting mosquitoes close to the house.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Cypress", slug: "cypress-tx" },
+      { name: "Spring", slug: "spring" },
+      { name: "Katy", slug: "katy" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Tomball, TX | Formosan Termites, Mosquitoes & Rats",
+    metaDescription:
+      "Pest control in Tomball, TX. Harris County service for Formosan termites, mosquitoes, cockroaches, fire ants, and roof rats near Cypress Creek. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "benbrook",
+    name: "Benbrook",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~24,000",
+    county: "Tarrant County",
+    climate: "temperate",
+    climateDriver:
+      "Benbrook sits southwest of Fort Worth in Tarrant County, bordering Benbrook Lake and the Clear Fork of the Trinity River. The temperate north Texas climate brings hot summers, mild winters, and spring storm seasons. The lake and river corridor create significant mosquito habitat, while the clay soils and warm climate sustain subterranean termite pressure year-round.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Cockroaches", "Paper Wasps"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Tarrant County is in the heavy termite pressure zone per Texas A&M AgriLife Extension. Benbrook's established neighborhoods include a significant share of homes from the 1970s through 1990s, placing them in the age range when termite damage is most commonly found.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note: "Benbrook Lake and the Clear Fork of the Trinity River create substantial mosquito habitat along Benbrook's western and southern borders. Properties near the lake and river corridor see significantly higher mosquito pressure than the interior of the city.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through October",
+        note: "Fire ants are established throughout Tarrant County. In Benbrook, they appear in lawns, along fence lines, and in open ground near the lake and park areas. Mounds rebuild quickly after summer rain.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed outdoors in mulch and drains and push inside in summer heat. German roaches are an indoor species. Both are common across the southwest Fort Worth area.",
+      },
+      {
+        name: "Paper wasps",
+        serviceSlug: "wasp-control",
+        activeSeason: "Active April through October",
+        note: "Paper wasps build nests under eaves, in porch ceilings, and around window frames throughout the north Texas warm season. Late-summer colonies are large and most defensive.",
+      },
+    ],
+    localHook:
+      "Benbrook Lake gives this southwest Fort Worth community some of the heaviest mosquito pressure in Tarrant County. Properties along the lake shoreline and the Clear Fork corridor deal with a longer and more intense mosquito season than the interior suburbs. Termite risk in older neighborhoods runs high for Tarrant County.",
+    intro:
+      "Pest control in Benbrook is shaped by two factors that the interior suburbs do not share: Benbrook Lake and the older housing stock. The lake and the Clear Fork of the Trinity create sustained mosquito habitat from March through October, with more intensity near the water than the interior of the city. Subterranean termites are the financial risk, and Benbrook's older neighborhoods have had more time for termite exposure than newer DFW suburbs. Fire ants are the year-round outdoor problem. Paper wasps are a nuisance under eaves through the warm season.",
+    sections: [
+      {
+        heading: "Mosquito pressure from Benbrook Lake and the Clear Fork",
+        body: "Benbrook Lake and the Clear Fork of the Trinity River along the city's western and southern borders create sustained mosquito breeding habitat through the north Texas warm season. The lake's shallow coves, the river floodplain, and the parks along the water provide standing water that sustains populations from March through October. Properties close to the water see measurably more activity than those in the interior. Targeted yard treatment of resting areas near the home reduces biting mosquitoes regardless of the lake's proximity.",
+      },
+      {
+        heading: "Termites in Benbrook's established neighborhoods",
+        body: "Tarrant County is in the heavy termite pressure zone, and Benbrook's neighborhoods built in the 1970s through 1990s have had two to five decades of exposure. Subterranean termites approach structures through mud tubes from the soil, working silently at crawl space sills, slab edges, and any wood-to-soil contact point. Annual inspections in this zone are the standard practice. Fire ants are the visible year-round pest in Benbrook lawns, rebuilding mounds through summer rain and remaining active in warm winter stretches.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for homes in Benbrook's older neighborhoods, particularly those with crawl spaces.",
+      "Reduce standing water on the property in the areas nearest the lake to cut mosquito breeding.",
+      "Apply broadcast fire ant bait in spring before mound populations peak through summer.",
+      "Check eaves and porch areas for paper wasp nests in early spring before they grow large.",
+    ],
+    costNote:
+      "Most Benbrook households benefit from a recurring plan covering mosquitoes, fire ants, and perimeter insects through the warm season, paired with an annual termite inspection for older properties. A free inspection establishes the current risk for your home.",
+    faqs: [
+      {
+        question: "Does Benbrook Lake make mosquitoes worse in this part of Fort Worth?",
+        answer:
+          "Yes. Benbrook Lake and the Clear Fork of the Trinity River create standing water habitat that sustains mosquito populations from March through October. Properties near the shoreline, the coves, and the river corridor see noticeably higher mosquito pressure than the interior of the city. Targeted yard treatment reduces the biting population close to your home regardless of the lake's proximity.",
+      },
+      {
+        question: "Are termites a big risk in older Benbrook neighborhoods?",
+        answer:
+          "Yes. Tarrant County is in the heavy subterranean termite pressure zone per Texas A&M AgriLife Extension, and homes built in the 1970s through 1990s have had substantial time for exposure. Termites work silently inside walls and crawl spaces, so the visible signs often come late. An annual inspection is the most reliable early-detection approach in this zone.",
+      },
+      {
+        question: "How do fire ants behave in the winter in Benbrook?",
+        answer:
+          "North Texas winters slow fire ant activity but rarely stop it entirely. Fire ants go deeper in the soil in cold weather and mound activity visible on the surface drops, but the colony remains alive. Warm stretches in winter bring them back to the surface. This is why treating fire ants in spring before the full warm-season surge, rather than waiting for full mound visibility, gives the best results.",
+      },
+      {
+        question: "When do paper wasps become a problem in Benbrook?",
+        answer:
+          "Paper wasp colonies start from a single overwintered queen in spring, typically in March or April in north Texas. They build open-comb nests under eaves, in porch ceilings, and around window frames. Small new nests in early spring are easy to knock down. By late summer, colonies can hold several hundred workers and are highly defensive. Checking eaves in April and treating early keeps the problem small.",
+      },
+      {
+        question: "What pest control should I expect around Benbrook Lake park areas?",
+        answer:
+          "The parks along Benbrook Lake and the Trinity River bottomlands are managed by the Army Corps of Engineers and the City of Fort Worth for public use but are not covered by residential pest control contracts. For your property, the relevant concern is the mosquito and fire ant pressure that originates near the lake and extends into adjacent residential areas. A perimeter service and targeted mosquito treatment for your yard address your property's exposure.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Fort Worth", slug: "fort-worth" },
+      { name: "Burleson", slug: "burleson" },
+      { name: "Crowley", slug: "crowley" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Benbrook, TX | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Pest control in Benbrook, TX. Tarrant County service for subterranean termites, mosquitoes near Benbrook Lake, fire ants, cockroaches, and paper wasps. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

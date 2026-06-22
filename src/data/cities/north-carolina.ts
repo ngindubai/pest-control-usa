@@ -5049,4 +5049,746 @@ export const northCarolinaCities: CityLocation[] = [
     metaTitle: "Pest Control in Henderson, NC | Mosquitoes, Termites & Fire Ants",
     metaDescription: "Pest control in Henderson, NC. Local service for mosquitoes near Kerr Lake, subterranean termites, fire ants, and cockroaches in Vance County near the Virginia border.",
   },
+  {
+    slug: "boone-nc",
+    name: "Boone",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~19,000",
+    county: "Watauga County",
+    climate: "cold-humid",
+    climateDriver:
+      "Boone sits at roughly 3,300 feet in the Blue Ridge Mountains, making it one of the coolest towns in the Southeast. Cold, snowy winters and mild summers compress the warm-season pest calendar while pushing rodents and stink bugs hard into structures in fall.",
+    topPests: ["Brown Marmorated Stink Bugs", "House Mice", "Carpenter Ants", "Yellow Jackets", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November, shelter through winter",
+        note: "Stink bugs are the dominant fall pest complaint in the NC mountains. They aggregate on sun-warmed exterior walls in September and push through any gap to overwinter inside attics, wall voids, and living spaces. Boone's elevation means they arrive earlier than in the Piedmont, often by two to three weeks.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Move indoors September through November, active all winter",
+        note: "Mountain winters push house mice firmly into structures. Boone's older housing stock, the student rental market near Appalachian State University, and the rural-suburban mix give mice ample harborage and plenty of access points in aging foundations and crawl spaces.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October",
+        note: "Carpenter ants are common throughout mountain NC, especially in properties with adjacent wooded lots, wood decks, or firewood stored against the structure. They do not eat wood but excavate galleries to nest, causing structural damage over time in damp or partially rotted wood.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "Colonies peak July through September",
+        note: "Yellow jackets build nests in ground burrows, under decks, and in wall voids in the NC mountains. Late summer colonies are large and aggressive, a sting hazard for anyone doing yard work near nest sites.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through March, active on warm winter days",
+        note: "Cluster flies are a persistent problem in Boone-area homes, particularly older farmhouses and rural properties. They enter wall voids and attics in fall to overwinter and emerge on warm winter days, clustering on south-facing windows.",
+      },
+    ],
+    localHook:
+      "Boone's mountain climate means a different pest calendar than the rest of North Carolina. Stink bugs and mice move fast in September at this elevation, arriving ahead of the Piedmont by several weeks. Waiting until you see them inside means the entry season is already over.",
+    intro:
+      "Pest control in Boone runs on a mountain schedule that catches newcomers off guard. The cool Blue Ridge climate compresses the summer pest season but makes the fall invasion of stink bugs and mice more abrupt. At 3,300 feet, the first cold nights arrive well ahead of the Piedmont, and pests that overwinter inside structures move fast. For properties near Appalachian State and in the rural areas of Watauga County, carpenter ants and yellow jackets are the persistent warm-season problems.",
+    sections: [
+      {
+        heading: "The fall invasion at mountain elevation",
+        body: "Brown marmorated stink bugs and house mice are the dominant fall pest story in Boone. Both follow the same trigger: sustained cold nights, which arrive in September at this elevation. Stink bugs aggregate on sun-warmed walls and push through gaps around windows, doors, utility penetrations, and cracks in the foundation. Mice follow the same routes. The practical defense is sealing entry points in late August, not after the pests are already inside.",
+      },
+      {
+        heading: "Carpenter ants and summer stinging insects",
+        body: "The warm season brings a different set of problems. Carpenter ants are common in Boone's wooded setting, especially in properties with aging decks, wood siding, or moist crawl spaces. They excavate wood to nest and the damage is structural and slow to show up. Yellow jacket colonies peak in late summer and a ground nest discovered during fall prep work requires professional treatment to avoid stings.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps in August before stink bugs and mice begin their fall movement into structures.",
+      "Store firewood away from the foundation and off the ground to reduce carpenter ant harborage.",
+      "Inspect roof soffits, foundation vents, and crawl space access points each fall before temperatures drop.",
+      "Treat yellow jacket ground nests in the evening when workers are inside the nest.",
+    ],
+    costNote:
+      "Most Boone households benefit from a preventive fall seal-up and a spring carpenter ant inspection. The mountain fall pest window is short and concentrated, so timing matters. A free inspection identifies the right entry points and schedule for your property.",
+    faqs: [
+      {
+        question: "Why do stink bugs invade Boone homes so heavily in fall?",
+        answer:
+          "Brown marmorated stink bugs need to overwinter somewhere sheltered. In September, as temperatures drop in the mountains, they cluster on sun-warmed exterior walls and move through any available gap into attics, wall voids, and living spaces. Boone's elevation means this pressure arrives earlier than in the Piedmont, often by two to three weeks.",
+      },
+      {
+        question: "Are termites a concern in Boone at this elevation?",
+        answer:
+          "Subterranean termite activity does extend into the NC mountains, but the pressure is lower than in the Piedmont and coastal areas because of the cooler climate. Any home with wood-to-soil contact, a damp crawl space, or moisture issues warrants an inspection, particularly if the home is more than 15 years old.",
+      },
+      {
+        question: "How do carpenter ants differ from termites in Boone?",
+        answer:
+          "Both damage wood, but in different ways. Termites eat wood fibers and leave a honeycomb texture inside. Carpenter ants excavate clean galleries and leave behind coarse sawdust called frass. Carpenter ants are more common in mountain NC than in the Piedmont, particularly in properties with adjacent woods. Treatment targets the nest colony, not just the foragers you see.",
+      },
+      {
+        question: "What is the best way to deal with cluster flies in my Boone farmhouse?",
+        answer:
+          "Cluster flies enter through gaps at the roofline and around fascia boards in September. The best approach is excluding them before they enter: seal gaps at the roofline and around any exterior penetration in late August. If they are already inside wall voids, a residual treatment applied in early fall reduces the population that emerges on warm winter days.",
+      },
+      {
+        question: "Are yellow jackets more aggressive later in the season in Boone?",
+        answer:
+          "Yes. Yellow jacket colonies grow through summer and are largest and most defensive in August and September. A nest disturbed by lawn mowing or weed trimming near the entry point in late summer will mount a significant response. Professional removal is the safer approach for established colonies, especially ground nests near foot traffic.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Asheville", slug: "asheville" },
+      { name: "Hickory", slug: "hickory" },
+      { name: "Morganton", slug: "morganton-nc" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Boone, NC | Stink Bugs, Mice & Carpenter Ants",
+    metaDescription:
+      "Pest control in Boone, NC. Mountain-schedule service for stink bugs, house mice, carpenter ants, yellow jackets, and cluster flies in Watauga County. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "carrboro",
+    name: "Carrboro",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~22,000",
+    county: "Orange County",
+    climate: "hot-humid",
+    climateDriver:
+      "Carrboro sits in Orange County directly adjacent to Chapel Hill in the NC Piedmont. The humid subtropical climate brings hot, wet summers and mild winters. Bolin Creek and forested stream corridors throughout town sustain mosquito habitat, while the mix of older housing stock and newer infill development creates varied termite exposure.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Cockroaches", "Spiders"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Carrboro's older housing stock and crawl-space foundations throughout Orange County make termite inspections important. The humid Piedmont climate sustains year-round colony activity even if swarming concentrates in spring.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Bolin Creek and stream corridors running through Carrboro neighborhoods create standing water habitat through the long warm season. The Asian tiger mosquito, a day-biter, is well established in Orange County.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active April through October",
+        note: "Fire ants have spread across the NC Piedmont. In Carrboro, open ground near community green spaces and park edges are typical mound sites. Mounds rebuild quickly after rain.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed in mulch, crawl spaces, and storm drains and move indoors in heat. German roaches establish in kitchens and bathrooms in multi-unit housing. Carrboro's density of rental housing near UNC makes German cockroach pressure notable.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most visible summer through fall",
+        note: "Common house spiders, orb weavers, and wolf spiders are widespread in the area. Black widows are possible in garages, wood piles, and crawl space vents.",
+      },
+    ],
+    localHook:
+      "Carrboro's density of older rental housing and the stream corridors through town produce consistent termite and mosquito pressure. Properties with crawl spaces in the Bolin Creek watershed are in regular termite territory.",
+    intro:
+      "Pest control in Carrboro follows the same Piedmont patterns as Chapel Hill and Durham, with a few local factors. The older housing stock, the density of rental units near UNC, and the wooded stream corridors create consistent termite, mosquito, and cockroach pressure. Termites are the quiet, expensive risk. Mosquitoes are the outdoor quality-of-life issue through a long warm season. Fire ants are established across the area and rebuild mounds fast after any rain.",
+    sections: [
+      {
+        heading: "Termite risk in older Carrboro housing",
+        body: "The biggest financial risk for Carrboro homeowners is subterranean termites. Older homes with crawl space foundations, wood siding, or any wood-to-soil contact are the most exposed. Termites reach wood through mud tubes from the soil and work silently, so the first visible sign often comes late. An annual inspection matters more in older housing stock than in new construction.",
+      },
+      {
+        heading: "Mosquitoes, fire ants, and cockroaches through the warm season",
+        body: "The stream corridors and wooded lots throughout Carrboro create persistent mosquito habitat. Asian tiger mosquitoes, which bite during the day, breed in even small amounts of standing water. Fire ants are active spring through fall and mounds appear in yards and park edges. In multi-unit housing, German cockroach pressure is the most common indoor pest call: they spread between units through shared walls and utility chases.",
+      },
+    ],
+    prevention: [
+      "Get an annual termite inspection if your home has a crawl space or is more than 20 years old.",
+      "Empty any container holding water after rain to reduce Asian tiger mosquito breeding near the house.",
+      "Treat fire ant mounds early in spring before the colony grows through summer.",
+      "Seal gaps around utility penetrations in multi-unit housing to slow cockroach movement between units.",
+    ],
+    costNote:
+      "Most Carrboro households do well with a recurring service plan covering mosquitoes, fire ants, and general perimeter pests, paired with an annual termite inspection for older properties. A free inspection sets the right scope for your home.",
+    faqs: [
+      {
+        question: "Are termites common in Carrboro?",
+        answer:
+          "Yes. Orange County is in the heavy termite hazard zone for eastern subterranean termites, and Carrboro's older housing stock and crawl space foundations create significant exposure. Termites work silently and the visible signs come late, so an annual inspection is the practical defense.",
+      },
+      {
+        question: "Why are there so many mosquitoes near Bolin Creek in Carrboro?",
+        answer:
+          "Bolin Creek and the stream corridors running through Carrboro provide standing water habitat through the warm season. The Asian tiger mosquito, well established in Orange County, breeds in small containers and moist leaf litter as well. Reducing standing water close to the house and treating shaded resting areas brings the population down near your property.",
+      },
+      {
+        question: "How do I deal with fire ants in my Carrboro yard?",
+        answer:
+          "Broadcast bait treatments reduce the overall fire ant population more effectively than treating individual mounds, because bait is carried back to the colony. Spring treatment before colonies grow large through summer gives the best result. Individual mound drenches work faster but do not reduce the surrounding population.",
+      },
+      {
+        question: "My Carrboro rental has cockroaches. Why do they keep coming back?",
+        answer:
+          "In multi-unit housing, German cockroaches move between apartments through shared plumbing walls, utility chases, and electrical conduits. Treating one unit clears the visible population temporarily, but untreated neighboring units repopulate it within weeks. Effective control requires coordinated building-wide treatment. Talk to your property management about scheduling treatment for all affected units simultaneously.",
+      },
+      {
+        question: "Are black widow spiders found in Carrboro?",
+        answer:
+          "Black widows are present in the NC Piedmont, including Carrboro. They prefer undisturbed, sheltered spots: garages, crawl space vents, wood piles, and storage areas. They are not aggressive but will bite if disturbed. Shake out gloves, shoes, or equipment stored in those spaces before use. A perimeter treatment reduces their harborage near the home.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Chapel Hill", slug: "chapel-hill" },
+      { name: "Durham", slug: "durham" },
+      { name: "Burlington", slug: "burlington-nc" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Carrboro, NC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Pest control in Carrboro, NC. Orange County service for subterranean termites, mosquitoes, fire ants, cockroaches, and spiders near Chapel Hill. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "havelock",
+    name: "Havelock",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~20,000",
+    county: "Craven County",
+    climate: "hot-humid",
+    climateDriver:
+      "Havelock sits in coastal Craven County adjacent to MCAS Cherry Point and near the Neuse River estuary. The hot, humid coastal climate extends the active pest season long into fall. Surrounding wetlands and Croatan National Forest create heavy mosquito pressure, while coastal heat and humidity sustain year-round termite and cockroach activity.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "American Cockroaches", "Fire Ants", "Ticks"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "Havelock's proximity to coastal wetlands, the Neuse River floodplain, and Croatan National Forest makes mosquito pressure among the heaviest in eastern NC. The long, hot, humid season extends the active calendar well into November.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "Coastal NC is in the highest termite hazard zone in the state. Havelock's humidity and the prevalence of slab-on-grade housing near the base create consistent termite pressure. Swarms appear earlier here than in the Piedmont, often in February or early March.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, peak spring through fall",
+        note: "American cockroaches, called palmetto bugs in coastal areas, breed in mulch, storm drains, and utility lines and push into structures in the heat. They are a common complaint in Craven County homes.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Fire ants are established throughout coastal NC. In Havelock, they appear in open ground areas, particularly near housing, parks, and cleared lots. Mounds rebuild fast after the frequent rain events that come with coastal weather patterns.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "Active March through November",
+        note: "The wooded edges of Croatan National Forest and brushy areas adjacent to residential neighborhoods sustain tick populations. American dog ticks, lone star ticks, and black-legged ticks are all present in Craven County.",
+      },
+    ],
+    localHook:
+      "Havelock's location next to coastal wetlands and Croatan National Forest puts it in some of eastern NC's heaviest mosquito territory. The long coastal season and the housing stock near Cherry Point mean pest pressure that does not follow the same seasonal shutoff that inland areas see.",
+    intro:
+      "Pest control in Havelock is shaped by three things: the coastal wetlands, the heat and humidity, and the proximity to MCAS Cherry Point. That combination produces heavy, extended mosquito pressure, early termite swarm seasons, and cockroach activity that goes year-round. Ticks are a real concern for anyone using the Croatan National Forest trails or living near its edge. The pest calendar here is different from what most people moving to the coast expect.",
+    sections: [
+      {
+        heading: "Mosquitoes and ticks near the coast and the forest",
+        body: "Mosquito pressure in Havelock is among the heaviest in the state, driven by surrounding wetlands and the Neuse River floodplain. The season stretches from early spring through November. Asian tiger mosquitoes, which bite in daylight, are common near residential areas. Along the forest edge, ticks are a real concern: American dog ticks, lone star ticks, and black-legged ticks are all present in Craven County. Perimeter tick treatment and targeted mosquito service makes a measurable difference for properties near the woods.",
+      },
+      {
+        heading: "Termites and cockroaches in the coastal climate",
+        body: "Havelock sits in the highest termite hazard zone in NC. The humidity and warm coastal climate mean subterranean termites swarm earlier here than inland, sometimes in February. Any home with a crawl space or wood-to-soil contact warrants an inspection. American cockroaches are a persistent outdoor-to-indoor pest in coastal communities, breeding in storm drains and mulch and coming indoors in the heat.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection if your home has not been inspected in the past two years, given Craven County's high hazard rating.",
+      "Eliminate standing water on the property to reduce mosquito breeding close to the house.",
+      "Trim brush and keep grass short along wooded edges to reduce tick habitat near the yard.",
+      "Reduce mulch and moisture against the foundation to limit American cockroach entry.",
+    ],
+    costNote:
+      "Havelock households typically benefit from a recurring outdoor pest plan covering mosquitoes and perimeter insects through the long coastal season, plus an annual termite inspection. A free inspection sets the scope for your property.",
+    faqs: [
+      {
+        question: "Why is the mosquito season so long in Havelock?",
+        answer:
+          "Coastal NC has a longer active season than inland areas because temperatures stay warmer longer and the surrounding wetlands, marshes, and Neuse River floodplain provide consistent standing water habitat. The Asian tiger mosquito, which is established in Craven County, breeds in very small amounts of water such as clogged gutters, plant saucers, and low spots in yards.",
+      },
+      {
+        question: "When do termites swarm in Havelock?",
+        answer:
+          "Coastal NC typically sees termite swarms earlier than the Piedmont, often in February or early March when temperatures warm after winter. If you see winged insects emerging from soil or from wood in or around your home in late winter, have a professional inspect immediately. Coastal Craven County is in the highest termite hazard zone in the state.",
+      },
+      {
+        question: "Are ticks a problem near Croatan National Forest in Havelock?",
+        answer:
+          "Yes. The forest edge and brushy transition zones around Havelock support American dog ticks, lone star ticks, and black-legged ticks. Anyone hiking in the forest or with a yard that backs up to wooded or brushy areas should take tick precautions. Lone star ticks bite during the day and are aggressive. Perimeter yard treatments reduce tick pressure measurably near the home.",
+      },
+      {
+        question: "What are the large cockroaches that come into coastal NC homes?",
+        answer:
+          "The large cockroaches common in coastal NC homes are American cockroaches, often called palmetto bugs in the South. They breed outdoors in mulch, storm drains, and utility areas and come indoors in heat and wet weather. They differ from German cockroaches, which are smaller and breed strictly indoors. Reducing mulch against the foundation, sealing drains, and applying a perimeter treatment controls the outdoor population.",
+      },
+      {
+        question: "Is pest control handled differently for military families near Cherry Point?",
+        answer:
+          "On-base housing typically has its own pest control contract through the installation, so families in base housing should contact their housing office first. For those renting off-base in Havelock, standard residential service applies. Landlords are responsible for pest infestations under NC law. Document the issue in writing and request treatment through your property manager before arranging independent service.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "New Bern", slug: "new-bern" },
+      { name: "Kinston", slug: "kinston" },
+      { name: "Greenville", slug: "greenville" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Havelock, NC | Mosquitoes, Termites & Ticks",
+    metaDescription:
+      "Pest control in Havelock, NC. Craven County coastal service for mosquitoes, subterranean termites, American cockroaches, fire ants, and ticks near MCAS Cherry Point. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lexington-nc",
+    name: "Lexington",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~19,000",
+    county: "Davidson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Lexington sits in the NC Piedmont in Davidson County, between High Point and Salisbury. The humid subtropical climate brings hot, wet summers and mild winters. High Rock Lake and the Yadkin River to the south provide mosquito habitat, while Piedmont humidity sustains subterranean termite activity through much of the year.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Cockroaches", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Davidson County is in the heavy termite hazard zone. Lexington's mix of older downtown housing and suburban crawl-space homes creates consistent termite exposure. The humid Piedmont climate keeps subterranean termite colonies active from early spring through late fall.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Yadkin River valley and the areas near High Rock Lake produce significant mosquito pressure through the long warm season. Asian tiger mosquitoes are established in Davidson County and breed in small amounts of standing water close to residential areas.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, surge after rain",
+        note: "Fire ants are established across the NC Piedmont and build mounds in lawns, open ground, and along driveways. They are a sting hazard for children and pets and mounds rebuild quickly after rain.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed outdoors in mulch, crawl spaces, and utility areas and push indoors in heat. German roaches are an indoor species common in kitchens and bathrooms, particularly in rental and multi-unit housing.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November, shelter through winter",
+        note: "Stink bugs aggregate on sun-warmed exterior walls in fall and push through gaps into structures to overwinter in attics and wall voids. They are a nuisance pest but appear in large numbers in the NC Piedmont.",
+      },
+    ],
+    localHook:
+      "Lexington's Piedmont location puts it in the heavy termite zone for eastern NC, and the Yadkin River valley adds to the mosquito pressure that runs April through October. Properties near High Rock Lake and along the river corridor see some of the most sustained outdoor pest activity in Davidson County.",
+    intro:
+      "Pest control in Lexington covers the standard NC Piedmont range, with a few local factors. Subterranean termites are the biggest financial risk: Davidson County is in the heavy hazard zone and the mix of older downtown homes and suburban crawl-space construction creates consistent exposure. The Yadkin River corridor and High Rock Lake push mosquito pressure higher than purely inland towns of the same size. Fire ants, stink bugs, and cockroaches round out the year-round picture.",
+    sections: [
+      {
+        heading: "Termites in Davidson County's housing stock",
+        body: "The Piedmont clay soils and humid subtropical climate make eastern subterranean termites a significant risk for Davidson County homeowners. They reach wood structures through mud tubes from the soil, working silently until damage is evident. Lexington's older housing downtown and the crawl-space construction common in surrounding neighborhoods create the conditions termites favor. An annual inspection and, for high-risk properties, a termite bond is the practical approach.",
+      },
+      {
+        heading: "Mosquitoes and outdoor pests through the warm season",
+        body: "The Yadkin River corridor and areas near High Rock Lake mean mosquito pressure extends through a long season in Lexington. Asian tiger mosquitoes, which bite during the day, are well established in Davidson County. Fire ants are active spring through fall and their mounds rebuild after any significant rain. Stink bugs arrive in September and aggregate on exterior walls before pushing inside to overwinter in attics and wall voids.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection on older properties and any home with a crawl space in Davidson County.",
+      "Reduce standing water in gutters, plant saucers, and low spots to cut mosquito breeding close to the house.",
+      "Treat fire ant mounds in spring before colony populations peak through summer.",
+      "Seal exterior gaps in August before stink bugs begin their fall aggregation.",
+    ],
+    costNote:
+      "Most Lexington homeowners benefit from a recurring outdoor pest plan covering mosquitoes, fire ants, and perimeter insects through the warm season, plus an annual termite check for older properties. A free inspection establishes the right scope and confirms any existing termite activity.",
+    faqs: [
+      {
+        question: "Is termite risk high in Lexington, NC?",
+        answer:
+          "Yes. Davidson County is in the heavy termite hazard zone. Eastern subterranean termites are common in the Piedmont, and Lexington's humid climate and mix of older housing and crawl-space construction create consistent exposure. An annual inspection is the most effective way to catch activity early.",
+      },
+      {
+        question: "Why do mosquitoes seem worse near High Rock Lake in Lexington?",
+        answer:
+          "High Rock Lake and the Yadkin River floodplain provide extensive standing water habitat, sustaining a larger mosquito population than inland residential areas alone would produce. Properties near the lake or river corridor see longer and heavier mosquito pressure through the warm season. Targeted treatment of resting areas around the yard is more effective than relying only on source reduction for properties in that zone.",
+      },
+      {
+        question: "How do I prevent fire ants from taking over my Lexington yard?",
+        answer:
+          "Broadcast bait treatments applied in spring reduce fire ant colony density across the yard more effectively than treating individual mounds. Mound drench treatments are faster but kill only the treated colony. A spring broadcast treatment followed by a follow-up in fall gives the best season-long control.",
+      },
+      {
+        question: "What do I do if I find termite tubes in my Lexington crawl space?",
+        answer:
+          "Mud tubes in a crawl space confirm active or recent subterranean termite activity. Do not knock them down without having a professional inspect first, since active tubes need to be documented. A licensed pest control operator will determine if the infestation is active, assess any damage, and recommend a treatment plan. Liquid soil treatment or a baiting system are the main options.",
+      },
+      {
+        question: "When do stink bugs arrive in Davidson County?",
+        answer:
+          "Brown marmorated stink bugs typically begin aggregating on sun-facing exterior walls in September as temperatures cool. In the NC Piedmont, the main entry window runs from late September through October. Sealing exterior gaps before September and making sure window and door screens are intact reduces the number that get inside to overwinter.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "High Point", slug: "high-point" },
+      { name: "Salisbury", slug: "salisbury" },
+      { name: "Thomasville", slug: "thomasville" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Lexington, NC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Pest control in Lexington, NC. Davidson County Piedmont service for subterranean termites, mosquitoes, fire ants, cockroaches, and stink bugs. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lenoir-nc",
+    name: "Lenoir",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~18,000",
+    county: "Caldwell County",
+    climate: "cold-humid",
+    climateDriver:
+      "Lenoir sits in Caldwell County at the foothills of the Blue Ridge Mountains in western NC. The climate is cooler than the Piedmont, with cold winters and warm, humid summers. The Catawba River headwaters and the forested ridges surrounding the city create mosquito and tick habitat, while the humidity sustains subterranean termite activity through the warm season.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Carpenter Ants", "Stink Bugs", "Yellow Jackets"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Caldwell County is in the heavy termite hazard zone for NC. Lenoir's older housing stock, including the downtown historic core, and the crawl-space construction common in the surrounding neighborhoods create consistent exposure. The foothills humidity sustains termite colony activity through the warm season.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Catawba River headwaters and the forested stream corridors around Lenoir create mosquito habitat through the warm season. Asian tiger mosquitoes are present in western NC and breed in small water sources near homes.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October",
+        note: "Carpenter ants are common in the NC foothills and mountains, particularly in properties near wooded areas, with aging wood decks, or with moist crawl spaces. They excavate galleries in damp or rotted wood and can cause structural damage over time.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November, shelter through winter",
+        note: "Stink bugs are a significant fall pest in the NC foothills, aggregating on sun-warmed exterior walls in September and October before pushing through gaps into structures to overwinter. Lenoir's cooler temperatures mean the fall invasion happens slightly earlier than in the Piedmont.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-control",
+        activeSeason: "Colonies peak July through September",
+        note: "Yellow jackets build nests in ground burrows, under decks, and in wall voids in the NC foothills. Late-summer colonies are large and aggressive, a sting hazard for yard work near nest sites.",
+      },
+    ],
+    localHook:
+      "Lenoir's foothills location means a pest calendar that sits between the Piedmont and the mountains. Subterranean termites are active through the warm season in Caldwell County's heavy hazard zone, while stink bugs and yellow jackets follow the cooler fall trigger that arrives earlier here than in the flatlands.",
+    intro:
+      "Pest control in Lenoir combines the Piedmont termite picture with the cooler foothills pest calendar. Subterranean termites are the primary financial risk in Caldwell County's heavy hazard zone, and the older housing in central Lenoir and the surrounding crawl-space construction have had substantial exposure. Carpenter ants are more common here than in the Piedmont, particularly on wooded properties. Stink bugs and yellow jackets follow the foothills fall trigger, which arrives a bit earlier than in Charlotte or Greensboro.",
+    sections: [
+      {
+        heading: "Termite risk in Caldwell County's foothills housing",
+        body: "Caldwell County's heavy termite hazard rating reflects the humid climate and long warm season for subterranean colonies, even at foothills elevation. Lenoir's older downtown housing and the crawl-space construction common across the county create consistent termite exposure. Subterranean termites reach wood through mud tubes from the soil, working silently at crawl space sills and around any wood-to-soil contact. Annual inspections are the standard defense in this zone.",
+      },
+      {
+        heading: "Carpenter ants, stink bugs, and the fall pest surge",
+        body: "Carpenter ants are more prevalent in the western NC foothills than in the Piedmont, particularly in properties with adjacent wooded lots or aging exterior wood. They excavate nesting galleries in damp or rotted wood rather than eating it, so the damage is structural. Stink bugs aggregate on exterior walls in September and push inside to overwinter. Yellow jackets peak in late summer and ground nests near foot traffic are a sting risk through September.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections in Caldwell County's heavy hazard zone, especially for homes with crawl spaces.",
+      "Keep firewood and decaying wood away from the foundation to reduce carpenter ant harborage.",
+      "Seal exterior gaps in late August before stink bugs begin aggregating on walls in September.",
+      "Treat yellow jacket ground nests in the evening when workers are inside the nest.",
+    ],
+    costNote:
+      "Most Lenoir homeowners benefit from an annual termite inspection and a warm-season perimeter plan covering carpenter ants, yellow jackets, and mosquitoes. A free inspection sets the scope for your property.",
+    faqs: [
+      {
+        question: "Are termites common in Lenoir and Caldwell County?",
+        answer:
+          "Yes. Caldwell County is in the heavy termite hazard zone for eastern subterranean termites in NC. The foothills humidity and warm season sustain colony activity, and the older housing stock in and around Lenoir creates consistent exposure. An annual inspection is the most reliable early-detection approach.",
+      },
+      {
+        question: "Why are carpenter ants more common in the Lenoir area than in Charlotte?",
+        answer:
+          "Carpenter ants prefer wooded environments with moist wood for nesting. The NC foothills and mountains provide more of this habitat than the cleared suburban Piedmont. Properties near forested ridges, with aging wood structures, or with damp crawl spaces see more carpenter ant pressure. They excavate galleries in damp or partially rotted wood, so any moisture issues around the structure increase risk.",
+      },
+      {
+        question: "When do stink bugs arrive in Lenoir in the fall?",
+        answer:
+          "Brown marmorated stink bugs begin aggregating on sun-warmed exterior walls when nighttime temperatures drop consistently in September. At Lenoir's foothills elevation, this typically happens a week or two ahead of the Piedmont. Sealing exterior gaps in late August, before they start massing on the walls, is the most effective preventive step.",
+      },
+      {
+        question: "How do I deal with yellow jacket nests in my Lenoir yard?",
+        answer:
+          "Treat ground nests in the evening when all workers have returned and activity is minimal. Apply a residual dust into the entry hole, then seal it the following day after confirming the colony is dead. Do not seal an active nest entry hole during the day: this forces workers to chew through into interior walls. Large late-summer colonies in wall voids should be handled by a professional.",
+      },
+      {
+        question: "Is mosquito season shorter in Lenoir than in the rest of NC?",
+        answer:
+          "Slightly. The cooler foothills climate shortens the mosquito season on both ends compared to the NC Piedmont and coast. April through October is the typical active window in the Lenoir area, compared to March through November in coastal counties. The Catawba River headwaters and surrounding stream corridors sustain population levels through that window.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Hickory", slug: "hickory" },
+      { name: "Morganton", slug: "morganton-nc" },
+      { name: "Statesville", slug: "statesville" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Lenoir, NC | Termites, Carpenter Ants & Stink Bugs",
+    metaDescription:
+      "Pest control in Lenoir, NC. Caldwell County foothills service for subterranean termites, carpenter ants, stink bugs, mosquitoes, and yellow jackets. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "laurinburg",
+    name: "Laurinburg",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~15,000",
+    county: "Scotland County",
+    climate: "hot-humid",
+    climateDriver:
+      "Laurinburg sits in Scotland County in the southern NC Coastal Plain, in one of the state's warmer and more humid regions. The climate is closer to coastal South Carolina than to the NC Piedmont, with hot, wet summers and mild winters. The Lumber River and the flat, low-lying terrain of Scotland County create extensive mosquito habitat and sustain heavy subterranean termite pressure year-round.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Cockroaches", "Ticks"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms late February through May, active year-round",
+        note: "Scotland County is in the highest termite hazard zone for North Carolina. The hot, humid Coastal Plain climate sustains year-round termite colony activity, and the older housing stock in Laurinburg has had substantial long-term exposure. Early swarm seasons reflect the warmer coastal climate.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Lumber River, its floodplain, and the flat low-lying terrain of Scotland County create consistent mosquito habitat through a long season. Laurinburg sees some of the heaviest mosquito pressure in the NC Coastal Plain.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Fire ants are established throughout Scotland County. The near year-round warmth of the southern Coastal Plain means colony activity never fully stops in Laurinburg. Mounds appear in lawns, open ground, and along roadsides.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed in moist outdoor environments and push inside in heat. The warm, humid southern Coastal Plain climate sustains large outdoor cockroach populations year-round in Scotland County.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through November",
+        note: "The Lumber River corridor and the wooded edges surrounding Laurinburg sustain tick populations. Lone star ticks, American dog ticks, and black-legged ticks are all present in the southern NC Coastal Plain.",
+      },
+    ],
+    localHook:
+      "Laurinburg's southern Coastal Plain location puts it in NC's highest termite hazard zone and some of the state's heaviest mosquito territory. The Lumber River corridor and the flat, moist terrain of Scotland County sustain pest pressure that runs nearly year-round.",
+    intro:
+      "Pest control in Laurinburg reflects the character of the southern NC Coastal Plain: longer seasons, heavier pest pressure, and a climate that does not give pests a meaningful winter break. Scotland County is in the highest termite hazard zone in the state, and Laurinburg's older housing has had decades of exposure. Mosquitoes run from March through November near the Lumber River. Fire ants are active year-round. Ticks are a real concern in the wooded and brush edges throughout the county.",
+    sections: [
+      {
+        heading: "Termite pressure in Scotland County's highest hazard zone",
+        body: "The highest termite hazard zone designation for Scotland County reflects the hot, humid Coastal Plain climate that keeps eastern subterranean termite colonies active nearly year-round. Laurinburg's older housing, particularly the historic downtown properties and the crawl-space construction throughout the county, has had extended exposure. Swarms here start as early as late February, ahead of the Piedmont season. Annual inspections and, for high-risk properties, a termite bond are the standard approach in this zone.",
+      },
+      {
+        heading: "Mosquitoes, fire ants, and ticks in the Lumber River corridor",
+        body: "The Lumber River and the flat, low-lying terrain of Scotland County create some of the most consistent mosquito habitat in the NC Coastal Plain, with a season that stretches from March through November. Fire ants are established year-round across the county, active whenever temperatures allow, which in the southern Coastal Plain is most of the year. The wooded edges and brush corridors along the Lumber River sustain tick populations including lone star, American dog, and black-legged ticks.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given Scotland County's highest hazard zone designation.",
+      "Reduce standing water on the property to cut mosquito breeding near the Lumber River corridor.",
+      "Treat fire ant mounds in spring with broadcast bait before summer peak, and follow up in fall.",
+      "Check yourself and pets for ticks after any time in brush, wooded edges, or the river corridor.",
+    ],
+    costNote:
+      "Most Laurinburg homeowners benefit from a year-round or near year-round pest plan given the southern Coastal Plain climate, covering mosquitoes, fire ants, and perimeter pests, plus an annual termite inspection. A free inspection confirms the current risk for your property.",
+    faqs: [
+      {
+        question: "Why is termite risk so high in Scotland County?",
+        answer:
+          "Scotland County sits in the highest termite hazard zone in North Carolina, which reflects the hot, humid Coastal Plain climate that keeps subterranean termite colonies active for most of the year. The combination of warm soil temperatures year-round, high humidity, and the age of much of the county's housing stock creates high and sustained exposure. Annual inspections are the most effective early-detection approach.",
+      },
+      {
+        question: "How long is mosquito season near the Lumber River in Laurinburg?",
+        answer:
+          "The Lumber River floodplain and the flat, low-lying terrain of Scotland County sustain mosquito habitat from March through November in most years. The southern Coastal Plain climate gives Laurinburg one of the longer active seasons in North Carolina. Source reduction around the home helps, but the landscape-scale breeding near the river makes targeted yard treatment the most effective approach for reducing biting mosquitoes near your property.",
+      },
+      {
+        question: "Are fire ants active in winter in Laurinburg?",
+        answer:
+          "In the southern NC Coastal Plain, winters are mild enough that fire ant colonies remain active in warm stretches even in December and January. Mound activity becomes less visible on the surface in cold weather as ants go deeper in the soil, but the colony does not die. This is why treating in early spring before the warm-season surge, rather than waiting for full mound activity to resume, is the most effective approach.",
+      },
+      {
+        question: "What tick species should I watch for in Scotland County?",
+        answer:
+          "The most common ticks in Scotland County are lone star ticks, which are aggressive daytime biters active March through late fall, and American dog ticks. Black-legged ticks, which can transmit Lyme disease, are also present in the southern NC Coastal Plain. If your property borders wooded areas, the Lumber River corridor, or brushy edges, a perimeter tick treatment in spring and fall significantly reduces exposure.",
+      },
+      {
+        question: "When do termites swarm in Laurinburg?",
+        answer:
+          "In the southern NC Coastal Plain, termite swarms can begin as early as late February when temperatures warm. This is earlier than the March-to-May window typical in the Piedmont. If you see winged insects emerging from soil, from wood in your home, or around the foundation in late winter, have a professional inspect promptly. Swarming is the colony's most visible sign and confirms active infestation.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Lumberton", slug: "lumberton" },
+      { name: "Fayetteville", slug: "fayetteville" },
+      { name: "Sanford", slug: "sanford" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Laurinburg, NC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Pest control in Laurinburg, NC. Scotland County Coastal Plain service for subterranean termites, mosquitoes, fire ants, cockroaches, and ticks near the Lumber River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mebane",
+    name: "Mebane",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~18,000",
+    county: "Alamance and Orange County",
+    climate: "hot-humid",
+    climateDriver:
+      "Mebane straddles the Alamance and Orange County border in the NC Piedmont, roughly between Burlington and Chapel Hill. The humid subtropical climate brings hot, wet summers and mild winters. Rapid growth along the I-40/85 corridor has brought a large share of newer construction to the area, while the Haw River corridor to the south creates mosquito habitat through the warm season.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mosquitoes", "Cockroaches", "Brown Marmorated Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Both Alamance and Orange counties are in the heavy termite hazard zone. Mebane's rapid growth has brought many new homes into an existing termite-pressure landscape, and the Piedmont clay soils sustain subterranean colonies through a long warm season.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through October",
+        note: "Fire ants are established across the NC Piedmont. In Mebane, they appear in lawns, construction sites, and open ground throughout the fast-growing community. New sod and disturbed soil from ongoing development creates ideal fire ant colonization conditions.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Haw River corridor south of Mebane and the stormwater features of the growing community create mosquito habitat through the Piedmont warm season. Asian tiger mosquitoes are established in both Alamance and Orange counties.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed outdoors in mulch and drains and push inside in summer heat. German roaches are an indoor species more common in multi-unit housing. Both are present in the Alamance-Orange County corridor.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November, shelter through winter",
+        note: "Stink bugs are a persistent fall pest in the NC Piedmont, aggregating on sun-warmed walls in September and October and pushing through gaps to overwinter inside structures.",
+      },
+    ],
+    localHook:
+      "Mebane's rapid growth along the I-40/85 corridor brings new homes into existing termite and fire ant territory faster than many newer residents expect. Both Alamance and Orange counties carry the heavy termite hazard zone designation for the NC Piedmont.",
+    intro:
+      "Pest control in Mebane reflects the reality of fast growth in the NC Piedmont: new homes in existing termite territory, fire ants colonizing new lawns quickly, and a Haw River corridor adding mosquito pressure through the warm season. Both Alamance and Orange counties are in the heavy termite hazard zone. Fire ants establish in new sod within a season. Stink bugs are the consistent fall nuisance in the Piedmont. For new residents arriving from other states, the pest picture here is more active than most expect.",
+    sections: [
+      {
+        heading: "Termites and new construction in the heavy hazard zone",
+        body: "Mebane's growth along the I-40/85 corridor places new construction directly into Alamance and Orange County's heavy termite pressure landscape. Newer homes have some protection from modern construction practices, but subterranean termite pressure in this zone means any home over 10 years old benefits from periodic inspection. The Piedmont clay soils retain moisture near foundations and create favorable conditions for subterranean colonies year-round.",
+      },
+      {
+        heading: "Fire ants, mosquitoes, and stink bugs through the seasons",
+        body: "Fire ants are among the first pests to appear in new Mebane development, colonizing disturbed soil and new sod within a season. Broadcast bait applied in spring is more effective than treating individual mounds, particularly in fast-growing neighborhoods where the surrounding population is high. Mosquitoes run April through October, with the Haw River corridor adding to the pressure near the southern parts of the city. Stink bugs arrive in September, aggregate on exterior walls, and push inside to overwinter in the NC Piedmont fall.",
+      },
+    ],
+    prevention: [
+      "Schedule termite inspections for any Mebane home over 10 years old, given heavy hazard zone status in both Alamance and Orange counties.",
+      "Apply broadcast fire ant bait in spring in new neighborhoods before mound populations establish through summer.",
+      "Seal exterior gaps in late August before stink bugs begin aggregating on walls.",
+      "Eliminate standing water after rain to reduce mosquito breeding near the Haw River area.",
+    ],
+    costNote:
+      "Most Mebane homeowners benefit from a recurring plan covering fire ants, mosquitoes, and perimeter insects through the warm season, plus a termite inspection for homes more than 10 years old. A free inspection sets the right scope for your property.",
+    faqs: [
+      {
+        question: "Are termites common in Mebane's newer neighborhoods?",
+        answer:
+          "Both Alamance and Orange counties are in the heavy termite hazard zone. Newer homes have some protection from modern construction standards, but the underlying termite pressure across the NC Piedmont remains. Homes over 10 years old benefit from regular inspections. Moisture accumulation near the foundation from irrigation or grading issues can accelerate risk even in newer construction.",
+      },
+      {
+        question: "How fast do fire ants establish in a new Mebane lawn?",
+        answer:
+          "Red imported fire ants can colonize new sod within one to two seasons. They are well established across the NC Piedmont, and construction activity that disturbs soil creates ideal conditions for new colony establishment. Treating new lawns with broadcast bait in the first spring after seeding or sodding reduces the initial population before it builds through summer.",
+      },
+      {
+        question: "Why are stink bugs such a problem in the NC Piedmont in fall?",
+        answer:
+          "Brown marmorated stink bugs are an invasive species that has spread across most of the eastern US. In the NC Piedmont, they aggregate on sun-warmed exterior walls in September and October, seeking entry points into attics and wall voids to overwinter. They do not cause structural damage but appear in large numbers and release a strong odor when disturbed or crushed. Sealing exterior gaps before September is the most effective prevention.",
+      },
+      {
+        question: "Does the Haw River affect mosquito pressure in Mebane?",
+        answer:
+          "The Haw River corridor south of Mebane creates standing water habitat that sustains mosquito populations through the Piedmont warm season. Properties in the lower-elevation southern parts of the city that are closer to the river see more mosquito pressure than upland areas. Targeted yard treatment addresses the resting population close to your home.",
+      },
+      {
+        question: "What should I expect from pest control as a new resident moving to Mebane?",
+        answer:
+          "New residents from northern states or the West Coast are often surprised by the activity level of pests in the NC Piedmont. Fire ants appear in lawns within a season. Termites are a real financial risk in the heavy hazard zone. Mosquitoes run from April through October. Stink bugs are a notable fall nuisance. A recurring perimeter plan plus an annual termite check is the standard approach for most Piedmont households.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Burlington", slug: "burlington-nc" },
+      { name: "Hillsborough", slug: "hillsborough-nc" },
+      { name: "Graham", slug: "graham-nc" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Mebane, NC | Termites, Fire Ants & Stink Bugs",
+    metaDescription:
+      "Pest control in Mebane, NC. Alamance and Orange County service for subterranean termites, fire ants, mosquitoes, cockroaches, and stink bugs along the I-40/85 corridor. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

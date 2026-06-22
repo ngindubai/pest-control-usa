@@ -8,16 +8,16 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-21)
+## Current State (2026-06-22)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-60 complete. T2 COMPLETE.
-- **City pages built:** 1453 total (75 T1 + 300 T2 + 1078 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-62 complete. T2 COMPLETE.
+- **City pages built:** 1503 total (75 T1 + 300 T2 + 1128 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1536 in the static export (home, services, 50+ states, 1453 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=298, B=296, C=296, D=295, E=268 (1453 total cities, all within 15-25% range).
-- **Cities built T3 chunks 57-60 (100):** FL: Naples, Panama City, Fort Pierce, Vero Beach, Tarpon Springs, Dunedin, Zephyrhills. TX: Huntsville, San Juan, La Porte. OH: Bowling Green, Steubenville, Athens, Fremont, Mount Vernon. NY: Beacon, Cohoes, Batavia, Tonawanda, Oneonta. GA: Americus, Tifton, Waycross, Dublin, Vidalia, Moultrie, Bainbridge, Cordele, Douglas. IL: Quincy, Galesburg, Alton, Kankakee, Danville, Carbondale, Oswego, DeKalb, Collinsville, Edwardsville, Granite City. IN: Zionsville, Avon, Brownsburg, Logansport, Huntington, Shelbyville, Vincennes. NC: Elizabeth City, Albemarle, Reidsville, Henderson. MI: Walker, Grandville, Norton Shores, Sault Ste. Marie, Escanaba. PA: Phoenixville, Lansdale, Indiana, Bloomsburg, Sunbury, DuBois, East Stroudsburg, Washington, Connellsville. TN: Athens, Lawrenceburg, Paris, Union City, Covington, Lewisburg, Dayton. VA: Bristol, Poquoson. NM: Gallup, Deming, Silver City, Los Lunas, Las Vegas, Lovington. MO: St. Charles, Grandview, Ozark, Poplar Bluff, Republic, Carthage, Webb City, Festus, Belton. KS: Junction City, Pittsburg, Hays, Liberal, Great Bend, Atchison. IA: Muscatine, Burlington, Oskaloosa, Newton, Boone.
-- **New state files added chunks 57-60:** none (all states already registered).
-- **Next block:** Chunk 61, T3 continues, rotation at E.
+- **Total site pages:** 1586 in the static export (home, services, 50+ states, 1503 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=323, B=296, C=296, D=295, E=293 (1503 total cities, all within 15-25% range).
+- **Cities built T3 chunks 61-62 (50):** Chunk 61 (E): FL: Miami Beach, Oviedo, Winter Springs, Casselberry, Leesburg. TX: Rockwall, Little Elm, Farmers Branch, Prosper, Palestine. OH: Lebanon, Willoughby, Alliance, Ashland. IL: Urbana, Calumet City, O'Fallon, Lansing. NC: Boone, Carrboro, Havelock, Lexington. GA: Duluth, Snellville, Fayetteville. Chunk 62 (A): TX: Colleyville, Murphy, Sachse, Tomball, Benbrook. NC: Lenoir, Laurinburg, Mebane. MI: Adrian, Niles, Coldwater, Owosso, Benton Harbor. AR: Van Buren, West Memphis, Maumelle, El Dorado. KS: Newton, Arkansas City, McPherson. VA: Front Royal, Culpeper, Warrenton. MO: Warrensburg, Sikeston.
+- **New state files added chunks 61-62:** none (all states already registered).
+- **Next block:** Chunk 63, T3 continues, rotation at B.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

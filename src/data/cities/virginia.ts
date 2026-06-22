@@ -3621,4 +3621,322 @@ export const virginiaCities: CityLocation[] = [
     metaTitle: "Pest Control in Poquoson, VA | Mosquitoes, Termites & No-See-Ums",
     metaDescription: "Poquoson VA pest control for salt marsh mosquitoes, no-see-ums, subterranean termites and cockroaches. Virginia Peninsula tidal marsh city specialists. Licensed and insured. Call 1-800-PEST-USA."
   },
+  {
+    slug: "front-royal",
+    name: "Front Royal",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~16,000",
+    county: "Warren County",
+    climate: "temperate",
+    climateDriver:
+      "Front Royal sits at the northern end of Shenandoah National Park in Warren County, where the North and South forks of the Shenandoah River converge. The temperate climate is moderated by the Blue Ridge Mountains to the east and the Valley topography to the west. The river confluence and the wooded mountain setting create sustained mosquito and tick pressure, while the Valley humidity supports subterranean termite activity through a long warm season.",
+    topPests: ["Subterranean Termites", "Ticks", "Mosquitoes", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Warren County is in the heavy termite hazard zone for Virginia. Front Royal's older housing stock and the Valley humidity that persists near the Shenandoah River create consistent termite exposure. The mountain gateway location means a significant share of older housing with crawl-space construction.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through November",
+        note: "The proximity to Shenandoah National Park, the forest edges, and the wooded properties throughout Warren County make tick pressure significant. Black-legged ticks, which carry Lyme disease, are well established in Virginia's Shenandoah Valley. Lone star ticks are also present.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Shenandoah River confluence and the floodplain areas in Warren County create mosquito habitat through the warm season. The Valley microclimate keeps temperatures mild longer than higher elevation mountain areas, extending the active season.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November, shelter through winter",
+        note: "Stink bugs are a significant fall pest throughout the Shenandoah Valley and the Virginia Ridge and Valley region. They aggregate on sun-warmed exterior walls in September and push through gaps to overwinter inside structures.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October",
+        note: "The wooded setting of Warren County and the moisture near the Shenandoah River create favorable conditions for carpenter ants, particularly in properties with aging wood decks, outbuildings, or moist crawl spaces.",
+      },
+    ],
+    localHook:
+      "Front Royal's gateway location to Shenandoah National Park and the convergence of the North and South Shenandoah forks create tick and mosquito pressure that is above average for a Valley town of this size. Black-legged ticks are well established in Warren County's forested edges.",
+    intro:
+      "Pest control in Front Royal combines the mountain gateway pest picture with the Shenandoah River valley setting. Ticks are the most distinctive local risk: the forest edges of Shenandoah National Park and the wooded properties throughout Warren County sustain black-legged tick populations, and Lyme disease is an established concern in this part of Virginia. Subterranean termites are the financial risk in the heavy hazard zone. Stink bugs are the fall nuisance throughout the Shenandoah Valley. Mosquitoes follow the river floodplain from April through October.",
+    sections: [
+      {
+        heading: "Ticks near Shenandoah National Park and the river corridor",
+        body: "The forest edges along Shenandoah National Park and the wooded residential properties throughout Warren County sustain tick populations through a long active season from March through November. Black-legged ticks, which carry Lyme disease, are well established in the Virginia Shenandoah Valley. Lone star ticks are also common. Properties adjacent to the park boundary, wooded lots, and the river corridor see the most sustained pressure. A perimeter yard treatment in spring and fall reduces tick populations close to the home.",
+      },
+      {
+        heading: "Termites, stink bugs, and the Shenandoah Valley pest calendar",
+        body: "Warren County's heavy termite hazard zone designation reflects the Valley's humidity and the long warm season for subterranean termite colonies. Front Royal's older housing stock, including the historic downtown and the crawl-space construction throughout the county, creates consistent exposure. Stink bugs are a major fall pest throughout the Shenandoah Valley, aggregating on walls in September and pushing inside through any available gap. Mosquitoes follow the river floodplain calendar from April through October.",
+      },
+    ],
+    prevention: [
+      "Check yourself and pets for ticks after any outdoor time near Shenandoah National Park or wooded areas.",
+      "Schedule annual termite inspections given Warren County's heavy hazard zone designation.",
+      "Seal exterior gaps in late August before stink bugs begin aggregating on walls in September.",
+      "Reduce standing water near the Shenandoah River floodplain areas to cut mosquito breeding close to the house.",
+    ],
+    costNote:
+      "Most Front Royal homeowners benefit from a recurring plan covering ticks, mosquitoes, and perimeter pests through the warm season, plus an annual termite inspection. A free inspection sets the scope for your property and confirms tick treatment priority areas.",
+    faqs: [
+      {
+        question: "Is Lyme disease a real risk in Warren County near Shenandoah National Park?",
+        answer:
+          "Yes. Black-legged ticks, which transmit Lyme disease, are well established in the Virginia Shenandoah Valley and the Shenandoah National Park area. Warren County is within the region where Lyme disease transmission risk is considered significant by the Virginia Department of Health. Properties at the forest edge, near the park boundary, or with wooded lots see the most consistent tick pressure.",
+      },
+      {
+        question: "Are termites common in Front Royal?",
+        answer:
+          "Warren County is in the heavy termite hazard zone for eastern subterranean termites in Virginia. The Valley humidity and the long warm season keep colonies active from early spring through late fall. Front Royal's older housing stock and crawl-space construction create consistent exposure. Annual inspections are the standard preventive approach in this zone.",
+      },
+      {
+        question: "When do stink bugs arrive in the Shenandoah Valley in fall?",
+        answer:
+          "Brown marmorated stink bugs typically begin aggregating on sun-facing exterior walls in September as temperatures cool in the Valley. The main entry window runs from late September through October. Sealing exterior gaps before September and making sure window and door screens are intact reduces the number that get inside to overwinter.",
+      },
+      {
+        question: "How does the Shenandoah River affect mosquito pressure in Front Royal?",
+        answer:
+          "The confluence of the North and South Shenandoah forks and the associated river floodplain create standing water habitat that sustains mosquito populations from April through October. Properties near the river or in low-lying floodplain areas see higher mosquito pressure than upland parts of the city. Targeted yard treatment reduces the biting population near your home.",
+      },
+      {
+        question: "Are carpenter ants worse in the wooded properties of Warren County?",
+        answer:
+          "Yes. Carpenter ants prefer wooded settings with moist wood for nesting, and Warren County's heavily forested character provides that habitat. Properties adjacent to the forest edge or with aging decks, outbuildings, or damp crawl spaces see more carpenter ant pressure. Finding coarse sawdust frass near wood structures is the key sign of active nesting.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Winchester", slug: "winchester" },
+      { name: "Manassas", slug: "manassas" },
+      { name: "Harrisonburg", slug: "harrisonburg" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Front Royal, VA | Ticks, Termites & Stink Bugs",
+    metaDescription:
+      "Pest control in Front Royal, VA. Warren County service for ticks near Shenandoah National Park, subterranean termites, mosquitoes, stink bugs, and carpenter ants. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "culpeper",
+    name: "Culpeper",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~20,000",
+    county: "Culpeper County",
+    climate: "temperate",
+    climateDriver:
+      "Culpeper sits in Culpeper County in the Virginia Piedmont, between the Blue Ridge Mountains and the Fredericksburg area. The temperate climate features hot, humid summers and cold winters, with the Piedmont humidity sustaining subterranean termite and mosquito activity through a long warm season. The Rapidan and Hazel rivers contribute to the local mosquito habitat, and the wooded rural character of Culpeper County sustains tick populations.",
+    topPests: ["Subterranean Termites", "Ticks", "Mosquitoes", "Stink Bugs", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Culpeper County is in the heavy termite hazard zone. The Virginia Piedmont humidity and the older housing stock in central Culpeper create consistent termite exposure. Crawl-space construction is common in Culpeper County's residential neighborhoods.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through November",
+        note: "Culpeper County's wooded rural character and the transition between the Blue Ridge foothills and the Piedmont sustain tick populations. Black-legged ticks are present and Lyme disease transmission is an established risk in the Virginia Piedmont.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Rapidan and Hazel rivers and their tributaries create mosquito habitat through Culpeper County's rural landscape. Asian tiger mosquitoes are established in the Virginia Piedmont.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November, shelter through winter",
+        note: "Stink bugs are a significant fall pest in the Virginia Piedmont. They aggregate on exterior walls in September and push through gaps to overwinter in attics and wall voids.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American roaches breed outdoors in mulch and drains and push inside in summer heat. German roaches are an indoor species found in kitchens and multi-unit housing. Both are present in the Virginia Piedmont.",
+      },
+    ],
+    localHook:
+      "Culpeper's Piedmont location and the wooded rural character of the surrounding county create a full-spectrum pest picture: termites in the heavy hazard zone, tick pressure from the forested rural edges, stink bugs in fall, and mosquitoes near the Rapidan River corridor.",
+    intro:
+      "Pest control in Culpeper reflects the Virginia Piedmont pattern: heavy termite hazard zone, tick pressure from the wooded rural landscape, stink bugs as the fall nuisance, and mosquitoes along the river corridors. The Rapidan River and its tributaries drive mosquito habitat through a warm season that runs April through October. Culpeper's older housing and crawl-space construction are in consistent termite territory. Ticks, including black-legged ticks, are present in the forested edges and rural areas throughout the county.",
+    sections: [
+      {
+        heading: "Ticks and the rural wooded character of Culpeper County",
+        body: "Culpeper County's rural and wooded character creates sustained tick habitat from March through November. The transition zone between the Blue Ridge foothills and the open Piedmont sustains black-legged tick populations, which carry Lyme disease. Anyone spending time at wooded edges, in brush, or near the Rapidan and Hazel river corridors should take tick precautions. Perimeter yard treatment in spring and fall reduces tick populations near the home for properties with wooded edges.",
+      },
+      {
+        heading: "Termites, stink bugs, and the Piedmont pest calendar",
+        body: "Culpeper County's heavy termite hazard zone reflects the Piedmont humidity and the long active season for subterranean colonies. Older homes with crawl spaces and any wood-to-soil contact are most exposed. Annual inspections are the standard defense in this zone. Stink bugs are the most visible fall pest in the Virginia Piedmont: they aggregate on exterior walls in September and push inside through any available gap to overwinter. Mosquitoes follow the river corridor from April through October.",
+      },
+    ],
+    prevention: [
+      "Check yourself and pets for ticks after outdoor time near wooded edges or the Rapidan River corridor.",
+      "Schedule annual termite inspections given Culpeper County's heavy hazard zone designation.",
+      "Seal exterior gaps in late August before stink bugs begin aggregating on walls in September.",
+      "Reduce standing water after rain to cut mosquito breeding near the Rapidan River tributaries.",
+    ],
+    costNote:
+      "Most Culpeper homeowners benefit from a recurring plan covering ticks, mosquitoes, and perimeter pests through the warm season, plus an annual termite inspection for older properties. A free inspection sets the scope for your home.",
+    faqs: [
+      {
+        question: "Are ticks a concern in Culpeper County?",
+        answer:
+          "Yes. Black-legged ticks, which carry Lyme disease, are established in the Virginia Piedmont and Culpeper County is within the region where transmission risk is significant. The wooded rural character of the county, the forested edges along the Rapidan River corridor, and properties near the Blue Ridge foothills see the most consistent pressure. Perimeter yard treatment reduces tick populations close to the home.",
+      },
+      {
+        question: "Is termite risk high in Culpeper?",
+        answer:
+          "Yes. Culpeper County is in the heavy termite hazard zone for eastern subterranean termites in Virginia. The Piedmont humidity keeps colonies active from early spring through late fall. Older homes with crawl spaces are the most exposed. Annual inspections catch activity early before significant damage accumulates.",
+      },
+      {
+        question: "When do stink bugs arrive in the Virginia Piedmont?",
+        answer:
+          "Brown marmorated stink bugs typically begin aggregating on sun-facing exterior walls in September in the Virginia Piedmont. The peak entry window runs from late September through October. Sealing exterior gaps and checking window and door screen condition before September reduces the indoor invasion.",
+      },
+      {
+        question: "Why are mosquitoes bad near the Rapidan River in Culpeper?",
+        answer:
+          "The Rapidan River and its tributaries create standing water habitat through Culpeper County's rural landscape. Asian tiger mosquitoes, which breed in small containers near the home, are also established in the Virginia Piedmont. Reducing standing water on the property and treating resting areas in shaded spots near the house reduces the biting population close to your yard.",
+      },
+      {
+        question: "Are cockroaches common in Culpeper?",
+        answer:
+          "American cockroaches breed outdoors in mulch, drains, and moist outdoor environments and push inside in summer heat. They are present throughout the Virginia Piedmont. German cockroaches are an indoor species and more common in commercial food-service areas and multi-unit housing. A perimeter treatment and exclusion of entry points addresses the American cockroach pressure from outside.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Fredericksburg", slug: "fredericksburg" },
+      { name: "Manassas", slug: "manassas" },
+      { name: "Charlottesville", slug: "charlottesville" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Culpeper, VA | Ticks, Termites & Stink Bugs",
+    metaDescription:
+      "Pest control in Culpeper, VA. Culpeper County Piedmont service for ticks, subterranean termites, mosquitoes, stink bugs, and cockroaches near the Rapidan River. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "warrenton-va",
+    name: "Warrenton",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: "~10,000",
+    county: "Fauquier County",
+    climate: "temperate",
+    climateDriver:
+      "Warrenton is the county seat of Fauquier County in the Virginia Piedmont, roughly halfway between Washington DC and the Shenandoah Valley. The temperate climate features hot, humid summers and cold winters. Fauquier County's heavily wooded rural character and the Rappahannock River headwaters in the county sustain significant tick and mosquito pressure, while the Piedmont humidity supports year-round termite activity.",
+    topPests: ["Subterranean Termites", "Ticks", "Mosquitoes", "Stink Bugs", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Fauquier County is in the heavy termite hazard zone for Virginia. Warrenton's older housing stock, including the historic downtown, and the crawl-space construction common in Fauquier County's rural residential neighborhoods create consistent exposure.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through November",
+        note: "Fauquier County's heavily wooded rural character makes tick pressure among the most significant in the Virginia Piedmont. Black-legged ticks, which carry Lyme disease, are well established across the county. Lone star ticks and American dog ticks are also common.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Rappahannock River headwaters and the stream network through Fauquier County's rural landscape create mosquito habitat from April through October. Asian tiger mosquitoes are established in the Virginia Piedmont.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November, shelter through winter",
+        note: "Stink bugs are a significant fall pest in Fauquier County, aggregating on exterior walls in September and October and pushing through gaps to overwinter inside structures. The agricultural and wooded character of the county sustains a large stink bug population.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October",
+        note: "Carpenter ants are common in Fauquier County's wooded setting, particularly in properties near forested edges, with aging wood outbuildings, or with damp crawl spaces. They are the dominant structural insect pest in the warm season for rural Fauquier County properties.",
+      },
+    ],
+    localHook:
+      "Warrenton and Fauquier County are among the most heavily forested areas in the Virginia Piedmont, and that rural wooded character drives tick pressure that is above average for a Northern Virginia community. Black-legged tick and Lyme disease risk is real here.",
+    intro:
+      "Pest control in Warrenton reflects Fauquier County's character: a heavily wooded rural Piedmont county with one of the more significant tick burdens in Northern Virginia. Black-legged ticks are established across the county and Lyme disease transmission is an active concern. Subterranean termites are in the heavy hazard zone. Stink bugs are the fall pest story throughout the Piedmont and the agricultural and wooded land of Fauquier County sustains a large population. Carpenter ants are a warm-season structural concern on wooded properties.",
+    sections: [
+      {
+        heading: "Ticks and Lyme disease risk in Fauquier County",
+        body: "Fauquier County's rural and wooded character puts it among the higher tick-pressure counties in Northern Virginia. Black-legged ticks, which transmit Lyme disease, are well established across the county. The forest edges, the farm fields bordered by brush, and the wooded residential lots throughout the area all sustain tick populations from March through November. Lone star ticks, which bite aggressively during the day, are also present. A perimeter tick treatment in spring and fall reduces populations near the home for properties at the forest edge.",
+      },
+      {
+        heading: "Termites, stink bugs, and the full Piedmont pest picture",
+        body: "Fauquier County's heavy termite hazard zone and the older housing stock in and around Warrenton create consistent termite exposure. Annual inspections are the standard in this zone. Stink bugs are the most visible fall pest: Fauquier County's agricultural and wooded land sustains a large population that moves to exterior walls in September before pushing inside to overwinter. Carpenter ants are active in the warm season on wooded Fauquier County properties, particularly in aging outbuildings and properties with damp crawl spaces.",
+      },
+    ],
+    prevention: [
+      "Check yourself and pets for ticks after any outdoor time on wooded lots or near forested edges in Fauquier County.",
+      "Schedule annual termite inspections given Fauquier County's heavy hazard zone designation.",
+      "Seal exterior gaps in late August before stink bugs begin their September aggregation.",
+      "Inspect aging wood outbuildings and crawl spaces for carpenter ant frass each spring.",
+    ],
+    costNote:
+      "Most Warrenton homeowners benefit from a recurring plan covering ticks, mosquitoes, and perimeter pests through the warm season, plus an annual termite inspection. A free inspection sets the scope for your property and identifies priority tick treatment areas.",
+    faqs: [
+      {
+        question: "Is Lyme disease a concern in Fauquier County?",
+        answer:
+          "Yes. Black-legged ticks, which transmit Lyme disease, are well established across Fauquier County. The heavily wooded rural character of the county and the large deer population that hosts adult black-legged ticks sustain the tick lifecycle. Fauquier County is within the Virginia region where Lyme disease transmission risk is considered significant by the Virginia Department of Health.",
+      },
+      {
+        question: "Are termites common in older Warrenton homes?",
+        answer:
+          "Yes. Fauquier County is in the heavy termite hazard zone for eastern subterranean termites. Warrenton's historic downtown and the crawl-space construction common in older Fauquier County homes create consistent exposure. Subterranean termites work silently and the damage becomes evident late, which is why annual inspections are the standard practice in this zone.",
+      },
+      {
+        question: "Why are stink bugs such a problem in Fauquier County?",
+        answer:
+          "Brown marmorated stink bugs are particularly abundant in areas with orchard, agricultural, and wooded land, all of which are extensive in Fauquier County. The large population in the rural areas moves to exterior walls in September when temperatures cool, aggregating before pushing through gaps to overwinter inside. The agricultural character of the county drives more stink bug pressure than comparable suburban counties.",
+      },
+      {
+        question: "Are carpenter ants common in wooded Fauquier County properties?",
+        answer:
+          "Yes. Fauquier County's wooded rural setting provides the conditions carpenter ants prefer: forest edge habitat, moist wood in aging outbuildings and crawl spaces, and adjacent tree cover. Properties near forested areas, with aging decks and outbuildings, or with any damp wood structure see consistent carpenter ant pressure in the warm season.",
+      },
+      {
+        question: "How should I protect my Warrenton property from ticks?",
+        answer:
+          "The practical steps are: a perimeter tick treatment in spring and fall, keeping grass mowed short and removing leaf litter and brush from the yard boundary, creating a wood chip or gravel buffer between the lawn and any wooded edge, and checking yourself and pets after outdoor time. Tick tubes placed along the wooded perimeter reduce the population that feeds on white-footed mice, a key part of the black-legged tick lifecycle.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Manassas", slug: "manassas" },
+      { name: "Fredericksburg", slug: "fredericksburg" },
+      { name: "Leesburg", slug: "leesburg" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Warrenton, VA | Ticks, Termites & Stink Bugs",
+    metaDescription:
+      "Pest control in Warrenton, VA. Fauquier County service for ticks and Lyme disease risk, subterranean termites, mosquitoes, stink bugs, and carpenter ants. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
