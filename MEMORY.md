@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-22)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-62 complete. T2 COMPLETE.
-- **City pages built:** 1503 total (75 T1 + 300 T2 + 1128 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-64 complete. T2 COMPLETE.
+- **City pages built:** 1553 total (75 T1 + 300 T2 + 1178 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1586 in the static export (home, services, 50+ states, 1503 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=323, B=296, C=296, D=295, E=293 (1503 total cities, all within 15-25% range).
-- **Cities built T3 chunks 61-62 (50):** Chunk 61 (E): FL: Miami Beach, Oviedo, Winter Springs, Casselberry, Leesburg. TX: Rockwall, Little Elm, Farmers Branch, Prosper, Palestine. OH: Lebanon, Willoughby, Alliance, Ashland. IL: Urbana, Calumet City, O'Fallon, Lansing. NC: Boone, Carrboro, Havelock, Lexington. GA: Duluth, Snellville, Fayetteville. Chunk 62 (A): TX: Colleyville, Murphy, Sachse, Tomball, Benbrook. NC: Lenoir, Laurinburg, Mebane. MI: Adrian, Niles, Coldwater, Owosso, Benton Harbor. AR: Van Buren, West Memphis, Maumelle, El Dorado. KS: Newton, Arkansas City, McPherson. VA: Front Royal, Culpeper, Warrenton. MO: Warrensburg, Sikeston.
-- **New state files added chunks 61-62:** none (all states already registered).
-- **Next block:** Chunk 63, T3 continues, rotation at B.
+- **Total site pages:** 1636 in the static export (home, services, 50+ states, 1553 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=323, B=321, C=321, D=295, E=293 (1553 total cities, all within 15-25% range).
+- **Cities built T3 chunks 63-64 (50):** Chunk 63 (B): IL: Pekin, Lombard, Elk Grove Village, Gurnee, Hanover Park. OH: Sidney, Oxford, Tiffin. MI: Hamtramck, Madison Heights, Hazel Park. FL: Hallandale Beach, Cutler Bay, North Lauderdale, Lake Worth Beach, Oakland Park. NC: Rockingham, Smithfield, Archdale. TX: Katy, Celina, Burleson. VA: Pulaski, Wytheville, Galax. Chunk 64 (C): IL: Glen Ellyn, Woodridge, Algonquin, Batavia, North Chicago, Roselle, Northbrook, Park Ridge, Niles (niles-il), Bloomingdale (bloomingdale-il). OH: Springboro, Greenville, Defiance, East Liverpool, Wapakoneta. MI: Eastpointe, Oak Park (oak-park-mi), Inkster, Harper Woods. TN: Farragut, Portland (portland-tn), Springfield (springfield-tn), Lakeland (lakeland-tn). GA: Suwanee, Winder.
+- **New state files added chunks 63-64:** none (all states already registered).
+- **Next block:** Chunk 65, T3 continues, rotation at D.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

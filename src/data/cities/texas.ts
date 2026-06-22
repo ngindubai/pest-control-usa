@@ -13063,4 +13063,337 @@ export const texasCities: CityLocation[] = [
     metaDescription:
       "Pest control in Benbrook, TX. Tarrant County service for subterranean termites, mosquitoes near Benbrook Lake, fire ants, cockroaches, and paper wasps. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "katy",
+    name: "Katy",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~21,000",
+    county: "Harris / Fort Bend / Waller County",
+    climate: "hot-humid",
+    climateDriver:
+      "Katy sits on the flat Katy Prairie west of Houston, where Gulf moisture and heavy rainfall keep soil saturated for much of the year. That persistent ground wetness, combined with the region's warm winters, creates near-ideal conditions for subterranean termites and prolific mosquito breeding throughout the drainage channels that lace the prairie.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mosquitoes", "German Cockroaches", "Norway Rats"],
+    pestProfile: [
+      {
+        name: "Formosan and Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms March through May",
+        note: "Both Formosan and Eastern subterranean termite species are established in Harris County. Formosan colonies are far larger and can cause structural damage faster, so early detection around Katy's slab foundations is critical.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds surge after spring rain",
+        note: "The Katy Prairie's open soil and drainage corridors are prime fire ant territory. Mounds appear overnight after heavy rain and are a genuine hazard for children and pets in backyard spaces.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The drainage channels and retention ponds across the Katy Prairie hold standing water for days after each storm, giving mosquitoes reliable breeding sites just outside most properties. Aedes aegypti is active here and is a confirmed vector for several arboviruses.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worst in summer heat",
+        note: "Older commercial strips and strip malls along I-10 in Katy carry persistent German cockroach populations. They migrate to nearby homes and apartments when businesses are cleaned out or renovated.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, peaks in cooler months",
+        note: "Norway rats are present in older commercial zones and near the railroad corridor in Katy. They follow food waste and seek shelter in wall voids and crawl spaces as temperatures drop in fall.",
+      },
+    ],
+    localHook:
+      "Katy has been one of the fastest-growing areas in the Houston metro for two decades, and that rapid development has brought more impervious surface, more standing water, and more new construction for termites to find. The Katy Prairie drainage system is a feature of the landscape, not a bug, but it does mean mosquito pressure here is measurably higher than in drier Texas suburbs.",
+    intro:
+      "Katy straddles three counties on the western edge of Houston and has grown from a small rail town into a dense suburban city almost entirely within living memory. That growth has not changed the prairie under it, and the pests that thrive on flat, wet ground still find plenty to work with. Subterranean termites, including the aggressive Formosan species, are active across Harris County and are a serious concern for any slab-foundation home here. For most Katy residents, pest control is not a one-time fix but an ongoing commitment given the climate.",
+    sections: [
+      {
+        heading: "Termite Pressure on the Katy Prairie",
+        body: "Katy's position on the wet Gulf Coast plain makes it one of the higher-risk termite zones in Texas. Both Formosan and Eastern subterranean termites are confirmed in Harris County. Formosan colonies can number in the millions and forage aggressively, sometimes breaching treated soil barriers more quickly than Eastern subterranean colonies would. Most homes in Katy are built on concrete slabs, but expansion joints, plumbing penetrations, and settling cracks all give termites entry points. Annual inspections and a maintained liquid or bait treatment barrier are the standard of care in this area.",
+      },
+      {
+        heading: "Fire Ants and Mosquitoes in Open Prairie Areas",
+        body: "The Katy Prairie's open pasture land and the drainage channels running through subdivisions keep fire ant and mosquito pressure high across most of the city. Fire ant mounds can appear on a lawn within 48 hours of a heavy rainstorm, particularly in spring when colonies are expanding. Mosquitoes are a consistent complaint from late March through October. The combination of warm nights and slow-draining prairie soil means standing water persists longer here than in higher-elevation suburbs, and homeowners with retention pond views deal with elevated mosquito counts throughout the summer.",
+      },
+      {
+        heading: "Commercial Corridors and Rodent Risk",
+        body: "The older commercial strips along I-10 and the historic downtown area near the Katy railroad tracks carry Norway rat populations that can expand into nearby residential properties. Restaurants and food businesses in these corridors generate the harborage and food sources that sustain rat colonies, and when those businesses close or undergo renovation, rats relocate. Homes within a few blocks of commercial zones should include rodent exclusion in any prevention plan. German cockroaches follow a similar pattern, and infestations in multi-unit housing near commercial areas are the most common cockroach complaint in Katy.",
+      },
+    ],
+    prevention: [
+      "Maintain termite treatment barriers and schedule annual inspections, especially for homes near wooded drainage corridors",
+      "Eliminate standing water in gutters, plant saucers, and low yard areas within 48 hours of rain",
+      "Keep firewood and lumber piles off the ground and away from the foundation",
+      "Seal expansion joints and plumbing penetrations in slab foundations",
+      "Keep trash bins tightly sealed and store pet food in hard containers to reduce rodent attractants near the commercial corridors",
+    ],
+    costNote:
+      "Termite treatment in Katy typically runs $800 to $2,500 depending on the linear footage treated and the method used (liquid barrier versus bait stations). Mosquito yard treatments are usually $75 to $150 per visit, with seasonal programs offering better value. Rodent exclusion and removal ranges from $300 to $900 based on the extent of entry points found. Most reputable providers offer free inspections.",
+    faqs: [
+      {
+        question: "Are Formosan termites really worse than regular termites in Katy?",
+        answer:
+          "Yes. Both Formosan and Eastern subterranean termites are present in the Katy and Harris County area, but Formosan colonies are substantially larger and consume wood faster. A mature Formosan colony can have several million workers compared to a few hundred thousand in an Eastern subterranean colony. That size difference translates into faster structural damage once a Formosan colony gains entry to a home. Annual inspections are strongly recommended for any Katy property, and properties near wooded drainage channels carry the highest risk.",
+      },
+      {
+        question: "Why are mosquitoes so bad near the Katy Prairie retention ponds?",
+        answer:
+          "The retention ponds and drainage channels built into Katy's neighborhoods are designed to manage stormwater across the flat prairie, and they do that job well. The trade-off is that slow-draining water sits in those channels and basins for days after rain, giving mosquitoes ideal breeding sites close to homes. Aedes aegypti, which breeds in very small amounts of standing water, is the primary species here. Yard treatments can reduce adult mosquito populations significantly, and removing or treating any standing water on your property is the most effective prevention step.",
+      },
+      {
+        question: "How do I know if I have subterranean termites or just carpenter ants in my Katy home?",
+        answer:
+          "Subterranean termites produce mud tubes on foundation walls, in expansion joints, and along plumbing, and they leave a papery, hollow sound when you tap damaged wood. Carpenter ants leave clean, smooth galleries in wood and produce coarse sawdust-like frass. Both are serious, but termites work silently and quickly in Katy's climate. If you see any mud tubes at your foundation, that is almost certainly subterranean termites and warrants a professional inspection right away.",
+      },
+      {
+        question: "What is the best way to handle fire ants in a Katy yard with kids and pets?",
+        answer:
+          "For properties with children and pets, a two-step approach works well. Broadcast a fire ant bait across the yard in spring and fall, which the workers carry back to the queen and eliminates colonies over two to three weeks. Use a direct mound drench for any active mounds posing an immediate risk. Baits contain low concentrations of active ingredient and are safer around play areas than contact insecticides. In Katy, repeat treatments are typically needed each season because reinfestation from neighboring properties and the surrounding prairie is ongoing.",
+      },
+      {
+        question: "Do rat problems in Katy spread from the commercial areas along I-10?",
+        answer:
+          "They can. Norway rats from restaurant dumpsters and food storage areas along the I-10 commercial corridor do disperse into nearby residential neighborhoods, particularly when businesses are renovated or close. Rats can travel several hundred feet from a primary food source and will move into wall voids, attics, and crawl spaces in adjacent homes. If you live within a few blocks of the I-10 strip centers or the historic railroad area downtown, exclusion sealing around utility penetrations and a monitoring program are a reasonable precaution.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Houston", slug: "houston" },
+      { name: "Sugar Land", slug: "sugar-land" },
+      { name: "Rosenberg", slug: "rosenberg" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Katy, TX | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Pest control in Katy, TX. Harris County service for Formosan and Eastern subterranean termites, fire ants, mosquitoes, German cockroaches, and Norway rats. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "celina",
+    name: "Celina",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~20,000",
+    county: "Collin County",
+    climate: "hot-humid",
+    climateDriver:
+      "Celina sits in north Collin County on the Blackland Prairie, where expansive clay soils swell and contract dramatically with rainfall. That clay movement creates foundation stress and soil gaps that subterranean termites exploit readily. Hot summers, moderate winters, and increasingly dense residential development have accelerated pest activity in this formerly rural area.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mosquitoes", "Spiders", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms in spring",
+        note: "Collin County clay soils retain moisture and expand against foundations, creating conditions ideal for subterranean termite activity. New construction in Celina often has pre-treat soil treatments that expire within a few years, leaving homes unprotected well before most owners realize it.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak in late spring",
+        note: "Fire ants are widespread across Collin County's open lots and new subdivisions. Construction grading disturbs colonies and spreads them across large areas, and new lawns are typically reinfested within weeks of a treatment if neighboring properties are not treated at the same time.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The retention ponds and detention basins required by code in Celina's new developments collect standing water after every rain event and function as consistent mosquito breeding sites. Subdivisions built around these water features often have higher-than-average mosquito counts throughout summer.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Late summer through fall",
+        note: "New construction in Celina creates ideal spider habitat: undisturbed corners in garages, attic spaces with low traffic, and the large gaps common in freshly framed and recently finished homes. Brown recluse spiders are present in Collin County and occasionally found in boxes and clutter in new builds.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "As restaurant and retail density increases along Celina's main commercial corridors, German cockroach pressure is growing. New apartment complexes near the commercial areas are particularly susceptible during the first year of occupancy when construction debris and open wall spaces provide harborage.",
+      },
+    ],
+    localHook:
+      "Celina was one of the fastest-growing cities in the entire country for several years running, and that pace of construction has created a specific pest dynamic. Pre-construction termiticide treatments are placed once and then forgotten as homes change hands. Retention ponds go in before landscaping is established. New builds sit empty during the school year. The pest pressure here is real, and it tracks closely with the city's growth pattern.",
+    intro:
+      "Celina has grown from a small farming community into one of the most talked-about boomtowns in north Texas, with thousands of new homes going up on Collin County's clay prairie each year. That rapid growth has brought real pest challenges, and the most serious is termites. Collin County's expansive clay soils hold moisture against foundations and shift seasonally in ways that create entry points subterranean termites are very good at finding. For anyone buying or building in Celina, understanding the local pest picture from day one saves money and stress down the road.",
+    sections: [
+      {
+        heading: "Why Collin County Clay Soils Drive Termite Risk in Celina",
+        body: "The Blackland Prairie clay that underlies most of Celina is one of the most expansive soil types in North America. It swells when wet and shrinks when dry, and that constant movement puts stress on concrete foundations. The cracks and gaps that result from this movement, as well as the moisture retained in the soil against foundation walls, create exactly the conditions that Eastern subterranean termites seek. Many Celina homes received a pre-construction soil treatment when they were built, but those treatments typically provide protection for three to five years and are not indefinite. Homeowners in Celina who have never had a termite inspection on a home older than five years should schedule one.",
+      },
+      {
+        heading: "New Development Pest Patterns in Celina",
+        body: "The construction cycle in Celina creates a predictable pest sequence. Grading and excavation disturb existing fire ant and spider populations across large areas. Retention ponds go in with bare soil surrounding them, providing standing water without the plants that would normally consume it. New builds sit unoccupied for months, and spiders, including brown recluse, move into undisturbed spaces in garages and attics. When residents move in, cockroaches sometimes follow shortly after as restaurants and grocery stores open in nearby commercial areas. This is not unique to Celina, but the pace of growth here compresses the timeline considerably.",
+      },
+      {
+        heading: "Mosquito Management Around Retention Ponds",
+        body: "Celina's drainage code requires retention ponds in most new developments, and those ponds are a consistent mosquito breeding source from spring through fall. Properties that back up to or face a retention pond can expect substantially higher mosquito pressure than properties that do not. Mosquito control for these homes typically requires both yard treatment and larvicidal treatment of the pond itself where that is permitted by the homeowner association. Aedes albopictus, the Asian tiger mosquito, is the dominant species in Collin County's residential areas and bites aggressively during the day, which is different from the dawn-and-dusk pattern people expect.",
+      },
+    ],
+    prevention: [
+      "Request documentation of any pre-construction termiticide treatment when buying a Celina home and note its expiration date",
+      "Schedule a termite inspection every three to five years, and sooner if your home is in an area with heavy clay soil movement",
+      "Eliminate standing water in retention pond areas and yard drains within 48 to 72 hours of rain",
+      "Seal gaps around garage doors, utility penetrations, and foundation weep holes before moving boxes and furniture into a new build",
+      "Treat fire ant mounds on your lot with bait products in spring before they spread to lawn and garden areas",
+    ],
+    costNote:
+      "Termite inspections in Celina are often free from licensed providers. Treatment runs $700 to $2,200 depending on the method and the size of the home. Mosquito yard treatments range from $65 to $140 per visit, with seasonal programs available. Spider control for a new build typically costs $150 to $350 for an initial treatment and periodic follow-ups.",
+    faqs: [
+      {
+        question: "Does my new Celina home already have termite protection?",
+        answer:
+          "Most new homes in Celina receive a pre-construction soil treatment as part of the building permit process. However, that treatment has a limited service life, typically three to five years depending on the product used and how much the Collin County clay soil has shifted. If you are buying a home in Celina that is more than three years old, you should verify the treatment was applied, confirm when it was done, and budget for renewal or a switch to a bait monitoring system. The clay soils here are particularly active, and the pre-treat window closes faster than in more stable soil types.",
+      },
+      {
+        question: "Why are there so many fire ant mounds in new Celina subdivisions?",
+        answer:
+          "Construction grading is one of the most effective ways to spread fire ants across a large area. When equipment moves soil between lots, it transports fire ant colony fragments that quickly establish new mounds in disturbed, open ground. New sod and landscaping provide ideal conditions for reinfestation, and because many lots in a new subdivision are treated at different times (or not at all), treated lawns are continuously reinfested from neighboring untreated properties. Coordinated neighborhood treatment or a broadcast bait approach is far more effective than treating individual mounds in Celina's new development areas.",
+      },
+      {
+        question: "Are brown recluse spiders common in Celina homes?",
+        answer:
+          "Brown recluse spiders are present in Collin County and are found in new builds as well as older homes. They prefer undisturbed, dry spaces such as attics, boxes, and seldom-opened closets, which makes new construction with months of low traffic particularly hospitable. They are not aggressive and bites are uncommon, but the venom can cause tissue damage and should be treated medically. If you are finding large numbers of spiders in your Celina home, a professional inspection to identify the species and treat harborage areas is worth doing before the problem establishes itself.",
+      },
+      {
+        question: "How do I reduce mosquito biting near Celina retention ponds?",
+        answer:
+          "Properties backing up to retention ponds in Celina's developments deal with measurably higher mosquito pressure than properties without that exposure. The most effective approach combines larvicidal treatment of the pond (where allowed by your HOA) with adulticide yard treatment every three to four weeks during the active season. Personal protection in the yard, screen maintenance, and removing any additional standing water on your own property all reduce exposure further. Aedes albopictus, the species most active in Collin County neighborhoods, bites during daylight hours, so evening-only precautions miss much of the risk.",
+      },
+      {
+        question: "What makes termite risk higher in Celina than in other Dallas suburbs?",
+        answer:
+          "Celina sits squarely on the Blackland Prairie clay formation that stretches across north-central Texas, and this clay is especially problematic for foundation stability and termite entry. The soil expands against foundation walls when saturated and pulls away from them when dry, creating cyclical gaps that subterranean termites can enter. Combine that soil behavior with the moisture retained against foundations in a humid north Texas summer, and the conditions are consistently favorable for termite activity. Cities farther east on sandier soils or north on thinner soils have different but not necessarily lower risks.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Prosper", slug: "prosper" },
+      { name: "McKinney", slug: "mckinney" },
+      { name: "Frisco", slug: "frisco" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Celina, TX | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Pest control in Celina, TX. Collin County service for subterranean termites in clay soils, fire ants, mosquitoes near retention ponds, spiders, and cockroaches. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "burleson",
+    name: "Burleson",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~50,000",
+    county: "Tarrant / Johnson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Burleson sits just south of Fort Worth where Tarrant County meets Johnson County, in a humid north Texas climate with hot summers, mild winters, and clay-heavy soils that retain moisture seasonally. The area's mix of older established neighborhoods and newer subdivisions along US-174 creates varied pest pressure across the city.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mosquitoes", "German Cockroaches", "Paper Wasps"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms in spring",
+        note: "Subterranean termites are active in both Tarrant and Johnson County clay soils. Older neighborhoods in northern Burleson near the Fort Worth border have higher rates of prior termite activity, and untreated or lapsed-treatment properties are common in these areas.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak in spring and early summer",
+        note: "Fire ant pressure in the Burleson area is heavy on both sides of the Tarrant and Johnson County line. Open lots, parks, and newer subdivision lawns see consistent mound activity, and the sandy loam on the Johnson County side creates particularly large colonies.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Mosquitoes in Burleson breed in drainage areas along Johnson Creek and in retention features throughout newer subdivisions. Warm spring nights can bring significant mosquito activity by late April, and it persists through most of October.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Commercial areas along US-174 and the older restaurant corridor near downtown Burleson carry German cockroach populations. Adjacent residential properties and multi-unit housing see the most frequent infestations when neighboring businesses are not well maintained.",
+      },
+      {
+        name: "Paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "April through September",
+        note: "Paper wasps build nests under eaves, inside outdoor furniture, and around utility boxes throughout Burleson. They are not aggressive away from the nest but will sting readily if the nest is disturbed. Nests under roofline overhangs are the most common call in summer.",
+      },
+    ],
+    localHook:
+      "Burleson has grown steadily along the US-174 corridor and now functions as a full southern suburb of Fort Worth rather than the small bedroom community it was a generation ago. That growth has brought more impervious surface, more drainage issues, and more new construction on Tarrant and Johnson County clay. Residents here deal with a classic north Texas pest mix, and the combination of older central neighborhoods and fast-growing southern subdivisions means pest pressure varies quite a bit by area.",
+    intro:
+      "Burleson occupies a band of north Texas between Fort Worth's southern edge and the Johnson County line, and it has grown quickly enough in recent decades to double in size. That growth has expanded the city's footprint onto new clay soils while leaving older neighborhoods with decades-old trees, aging utility lines, and the higher termite activity that comes with both. Subterranean termites, fire ants, and paper wasps are the three issues that generate the most calls in Burleson, and all three are manageable with the right approach and timing.",
+    sections: [
+      {
+        heading: "Subterranean Termite Activity in Tarrant and Johnson County",
+        body: "Burleson's position across two counties does not change the fundamental termite picture much: both Tarrant and Johnson Counties have active Eastern subterranean termite populations, and the clay soils found throughout the area retain moisture in ways that support year-round subterranean activity. Older neighborhoods in northern Burleson near the Crowley and Fort Worth city limits have a longer history of termite pressure and a higher proportion of homes with prior treatment or damage. Homes in newer southern subdivisions often have pre-construction soil treatments in place, but these do not last indefinitely and should be reviewed after five years.",
+      },
+      {
+        heading: "Fire Ants Across Burleson's Open Spaces",
+        body: "Fire ant pressure in Burleson is consistent and well above the Texas average for suburban areas, particularly in the open lots and parks on the Johnson County side of the city. Sandy loam soils in southern Burleson drain faster than the clay to the north, which actually encourages larger and more aggressive fire ant colonies because the soil aerates well and allows deeper foraging tunnels. Homeowners with large yards, gardens, or children's play areas should plan for at least two broadcast bait treatments per year: one in spring before colonies expand and one in fall before they move deeper underground.",
+      },
+      {
+        heading: "Paper Wasps and Summer Stinging Insects",
+        body: "Paper wasps are a persistent summer complaint in Burleson, with nests showing up under roofline overhangs, inside open garage doors, around mailboxes, and under deck railings. They are not as aggressive as yellowjackets, but they will sting in defense of the nest and multiple stings from a single nest are not unusual. The key is finding and removing nests before late summer when they reach maximum size. Attic vents and weep holes in brick veneer are also entry points that yellowjackets and occasional European hornets use to nest inside wall voids, which is a more difficult removal job than an exposed exterior nest.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any Burleson home older than five years, particularly in the older northern neighborhoods near the Fort Worth city limit",
+      "Apply broadcast fire ant bait in spring and fall, and treat active mounds near foundations or play areas immediately",
+      "Trim vegetation away from rooflines and eaves to remove paper wasp nesting sites before April",
+      "Keep gutters clear and address any low spots in the yard that collect standing water to reduce mosquito breeding",
+      "Seal weep holes and attic vents with pest-exclusion mesh to prevent wasps and hornets from nesting inside wall voids",
+    ],
+    costNote:
+      "Termite treatment in Burleson typically runs $750 to $2,200 depending on the treatment method and home footprint. Fire ant yard treatment is usually $75 to $200 per visit with seasonal programs available. Paper wasp nest removal averages $100 to $250 depending on nest location and accessibility. Mosquito yard service runs $70 to $140 per treatment, and most companies offer spring-to-fall programs.",
+    faqs: [
+      {
+        question: "Which parts of Burleson have the highest termite risk?",
+        answer:
+          "Older neighborhoods in northern Burleson, particularly those closest to the Fort Worth and Crowley city limits, tend to have the highest rates of documented prior termite activity. These areas have mature trees, aging infrastructure, and decades of moisture accumulation around foundations that favor termite colonies. Newer subdivisions on the southern end of Burleson along US-174 typically have pre-construction treatments in place but are not immune once those treatments age out. A licensed inspector can assess your specific property and soil conditions regardless of neighborhood.",
+      },
+      {
+        question: "Why are fire ants worse in some Burleson neighborhoods than others?",
+        answer:
+          "The soil type makes a significant difference in Burleson. The heavier clay soils in the northern part of the city drain poorly, which slows fire ant colony development and keeps mounds smaller on average. The sandier loam soils on the Johnson County side of the city drain faster, allow deeper colony tunneling, and tend to produce larger and more aggressive fire ant populations. Open green spaces in parks and undeveloped lots near the southern subdivisions consistently have higher mound density than fully established, mature neighborhoods with dense root systems that compete for soil space.",
+      },
+      {
+        question: "Are paper wasp nests in Burleson dangerous if I leave them alone?",
+        answer:
+          "Paper wasps are not aggressive away from the nest, but a nest under an eave or in a space where people walk regularly is a real sting risk. The bigger concern is timing: nests grow from a small founding queen structure in spring to a large colony by late summer, and a nest that seemed manageable in May can have 100 or more workers by August. Removing nests early in the season, before they reach full size, is both safer and easier. Nests inside wall voids or attic spaces are harder to remove and warrant professional service to avoid driving wasps deeper into the structure.",
+      },
+      {
+        question: "How do I tell if the pre-construction termite treatment on my Burleson home is still active?",
+        answer:
+          "Pre-construction termiticide treatments applied to soil under and around a new build in Burleson have a service life that varies by product, typically three to seven years. The documentation is usually provided to the first homeowner and should transfer with the property. If you do not have that paperwork, a licensed termite inspector can review the property history through the builder's records in some cases, or simply assess current termite activity and recommend next steps. Homes in Burleson older than five years without current documentation should be inspected before assuming any protection is still in effect.",
+      },
+      {
+        question: "When is mosquito season in Burleson, and is it worse near Johnson Creek?",
+        answer:
+          "Mosquito season in Burleson typically runs from mid-April through late October, with peak activity in June and July when temperatures are high and rainfall is inconsistent enough to leave standing water in low areas. Properties near Johnson Creek and the drainage corridors that feed it do experience higher mosquito pressure than properties farther from open water. The warm, humid nights that characterize Burleson summers extend the biting window well past sunset, and evening outdoor activity without treatment is noticeably less comfortable within a few hundred feet of the creek drainage areas.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Fort Worth", slug: "fort-worth" },
+      { name: "Cleburne", slug: "cleburne" },
+      { name: "Benbrook", slug: "benbrook" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Burleson, TX | Termites, Fire Ants & Cockroaches",
+    metaDescription:
+      "Pest control in Burleson, TX. Tarrant and Johnson County service for subterranean termites, fire ants, mosquitoes, German cockroaches, and paper wasps. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

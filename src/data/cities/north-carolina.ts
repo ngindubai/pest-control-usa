@@ -5791,4 +5791,370 @@ export const northCarolinaCities: CityLocation[] = [
     metaDescription:
       "Pest control in Mebane, NC. Alamance and Orange County service for subterranean termites, fire ants, mosquitoes, cockroaches, and stink bugs along the I-40/85 corridor. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "rockingham",
+    name: "Rockingham",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~9,000",
+    county: "Richmond County",
+    climate: "hot-humid",
+    climateDriver:
+      "Hot, humid summers and mild winters in south-central NC allow year-round pest pressure, with peak activity from April through October.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "Mosquitoes",
+      "German Cockroaches",
+      "American Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms in spring",
+        note:
+          "Richmond County sits in a heavy termite hazard zone. Older wood-frame homes common to Rockingham are at serious risk without a soil treatment or baiting system in place.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note:
+          "Fire ants are widespread across south-central NC. Sandy loam soils around Rockingham support large colonies, and mounds often appear in lawns, fields, and roadsides.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "Humid summers and low-lying areas near the Pee Dee River watershed create breeding habitat. Evening activity peaks from June through August.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "Older housing stock in downtown Rockingham provides the harborage and moisture German cockroaches need. Infestations spread fast once established in a kitchen or bathroom.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, peak in summer",
+        note:
+          "Known locally as palmetto bugs, American cockroaches enter homes from crawl spaces and storm drains. They prefer warm, damp areas and become more visible indoors during hot spells.",
+      },
+    ],
+    localHook:
+      "Rockingham's agriculture and tobacco heritage means a lot of older structures, storage buildings, and open land. That combination of aging wood and warm, humid air is exactly what termites and cockroaches look for. Staying ahead of them takes a consistent plan.",
+    intro:
+      "Rockingham sits in Richmond County in south-central North Carolina, where hot and humid summers create near-ideal conditions for a range of pests. The area's mix of older homes, agricultural land, and proximity to the Pee Dee River watershed keeps termites, fire ants, and mosquitoes active from spring through fall. If you are seeing signs of pests around your home or property, getting a licensed inspection early is the most cost-effective move you can make.",
+    sections: [
+      {
+        heading: "Termite Risk in Richmond County",
+        body: "Eastern subterranean termites are the single biggest pest threat for homeowners in Rockingham. Richmond County falls in the heavy hazard zone for termite activity, and many of the wood-frame homes and outbuildings in the area were built before modern treatment standards were common. A mud tube along a foundation wall or soft wood near a crawl space is a warning sign you should not ignore. Soil-applied termiticides and baiting systems both work well in the local soil conditions. An annual inspection keeps a small problem from becoming a structural repair bill.",
+      },
+      {
+        heading: "Fire Ants and Outdoor Pest Pressure",
+        body: "Fire ants are a fact of life across south-central North Carolina, and Rockingham is no exception. The sandy loam soils in and around Richmond County allow colonies to expand quickly, and mounds show up in lawns, fields, fence lines, and utility easements. A direct mound drench handles visible colonies, but broadcast bait treatments cover the whole yard and are more effective long-term. If you have children or pets using the yard, a regular fire ant program is worth it. Mosquitoes add to the outdoor pressure from April through October, especially near low-lying or wooded areas.",
+      },
+      {
+        heading: "Cockroaches in Older Rockingham Homes",
+        body: "German cockroaches and American cockroaches, often called palmetto bugs, are both common in Rockingham. German cockroaches prefer kitchens and bathrooms, where they hide in wall voids, under appliances, and behind cabinets. They reproduce fast, so a small population can become a serious infestation within weeks. American cockroaches typically enter from crawl spaces, storm drains, and utility penetrations. Older homes with pier-and-beam foundations or aging plumbing are especially vulnerable. A combination of gel bait, crack-and-crevice treatment, and exclusion work keeps both species under control.",
+      },
+    ],
+    prevention: [
+      "Check crawl space vents and repair any damaged screens or gaps in the foundation.",
+      "Keep firewood stacked away from the house and off the ground.",
+      "Fix leaking pipes and address any standing water under sinks or in the crawl space.",
+      "Treat fire ant mounds promptly and use a broadcast bait in late summer for colony-wide control.",
+      "Seal gaps around doors, windows, and utility penetrations to limit cockroach entry points.",
+    ],
+    costNote:
+      "A standard pest inspection in Rockingham typically runs $75 to $125. General pest control treatments range from $90 to $200 per visit, with quarterly plans offering better value. Termite treatment costs vary by home size and method but commonly run $400 to $1,200. Always ask for a written quote that includes a warranty.",
+    faqs: [
+      {
+        question: "Are termites really that common in Rockingham, NC?",
+        answer:
+          "Yes. Richmond County is rated a heavy termite hazard zone by industry standards. Eastern subterranean termites are active throughout south-central North Carolina, and Rockingham's stock of older wood-frame homes makes the risk especially real. If your home has never had a termite inspection or a soil treatment, scheduling one now is a practical first step. Termite damage is not covered by standard homeowners insurance, so early detection matters.",
+      },
+      {
+        question: "How do I tell the difference between fire ants and regular ants in my Rockingham yard?",
+        answer:
+          "Fire ant mounds in Rockingham are typically dome-shaped and range from baseball to football size. They have no visible entry hole on top, which distinguishes them from most other ant species. The ants inside are reddish-brown and will swarm aggressively if the mound is disturbed. Their sting causes a burning sensation followed by small white pustules. If you are unsure, a licensed technician can identify the species and recommend the right treatment for your yard.",
+      },
+      {
+        question: "What are the large roaches I keep seeing in my Rockingham home?",
+        answer:
+          "Large roaches in Rockingham are almost always American cockroaches, locally called palmetto bugs. They are reddish-brown, up to two inches long, and prefer warm, damp spaces like crawl spaces, basements, and utility rooms. They often enter through foundation gaps, drain lines, or utility penetrations. While they do not reproduce as fast as German cockroaches, a professional treatment combined with exclusion work is the most reliable way to reduce them.",
+      },
+      {
+        question: "When is mosquito season in Rockingham, and what can I do about it?",
+        answer:
+          "Mosquito season in Rockingham runs from about April through October, with peak activity in June, July, and August. The humid climate and proximity to low-lying areas near the Pee Dee River watershed provide plenty of breeding habitat. Removing standing water from your property reduces breeding sites. Professional barrier spray programs treat vegetation where mosquitoes rest and can significantly cut down on activity around your yard.",
+      },
+      {
+        question: "How much does pest control cost in Rockingham, NC?",
+        answer:
+          "In Rockingham, a single general pest control treatment usually runs between $90 and $200 depending on home size. Quarterly service plans are more cost-effective for ongoing control and typically range from $300 to $600 per year. Termite treatments are a separate cost and vary by square footage and method, generally falling between $400 and $1,200. Ask for a written estimate and check that it includes a service guarantee before signing.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Laurinburg", slug: "laurinburg" },
+      { name: "Raleigh", slug: "raleigh" },
+      { name: "Charlotte", slug: "charlotte" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Rockingham, NC | Termites, Fire Ants & Cockroaches",
+    metaDescription:
+      "Pest control in Rockingham, NC. Richmond County service for subterranean termites, fire ants, mosquitoes, German cockroaches, and palmetto bugs. Licensed and insured. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "smithfield",
+    name: "Smithfield",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~12,000",
+    county: "Johnston County",
+    climate: "hot-humid",
+    climateDriver:
+      "Smithfield sits along the Neuse River in Johnston County, where hot, humid summers and mild winters allow termites, mosquitoes, and fire ants to remain active for most of the year.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "Stink Bugs",
+      "Mosquitoes",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms in spring",
+        note:
+          "Johnston County is in a high termite hazard zone. Homes near the Neuse River floodplain often sit on moist soil that supports large subterranean colonies, and wood-frame construction is common in older Smithfield neighborhoods.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note:
+          "Johnston County has one of the higher fire ant population densities in the state. Mounds are common in residential lawns, open fields, and along roadsides throughout Smithfield.",
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through early spring",
+        note:
+          "Brown marmorated stink bugs move indoors across the Raleigh metro corridor in fall, and Smithfield homes regularly see them gathering on south-facing walls before entering through gaps around windows and doors.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note:
+          "The Neuse River and its associated wetlands near Smithfield create significant mosquito habitat. Residential areas near the river and low-lying fields experience heavy mosquito pressure in summer.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are the most common indoor roach species in Smithfield. They concentrate in kitchens and bathrooms and reproduce rapidly, making early treatment important.",
+      },
+    ],
+    localHook:
+      "Smithfield is the Johnston County seat and sits right on the Neuse River, which makes it one of the more pest-active spots in the eastern Raleigh metro. The combination of riverside moisture, high fire ant pressure, and fall stink bug intrusions means most households here deal with at least two or three active pest issues at any given time.",
+    intro:
+      "Smithfield is the county seat of Johnston County, located east of Raleigh on the Neuse River in central North Carolina. The area's hot, humid climate and river proximity create conditions that favor subterranean termites, mosquitoes, and fire ants throughout the warm months. Johnston County is also noted for above-average fire ant populations, and stink bugs have become a persistent fall nuisance for many Smithfield residents in recent years. A proactive pest control plan is the most reliable way to protect your home.",
+    sections: [
+      {
+        heading: "Termites and the Neuse River Factor",
+        body: "Eastern subterranean termites are a serious concern throughout Johnston County, and homes near the Neuse River in Smithfield face elevated risk because of the consistently moist soil conditions along the floodplain. These termites build mud tubes from the soil to the wood of your home, feeding from the inside out. Damage can go undetected for years without an annual inspection. Liquid soil treatments and baiting systems are both effective options, and newer homes should still carry active termite protection given the regional pressure. If you have not had an inspection in the past year, it is worth scheduling one.",
+      },
+      {
+        heading: "Fire Ants Across Johnston County",
+        body: "Johnston County has one of the higher fire ant densities in North Carolina, and Smithfield residential neighborhoods regularly see mounds appearing in lawns, landscaping, and along driveways. Fire ants are aggressive when disturbed, and their sting causes a burning sensation followed by raised pustules. Children and pets are especially vulnerable. Individual mound treatments work for isolated colonies, but broadcast bait programs applied across the entire yard in spring and late summer give much better long-term control. A licensed technician can assess your property and recommend the right approach.",
+      },
+      {
+        heading: "Stink Bugs, Mosquitoes, and Seasonal Patterns",
+        body: "Fall in Smithfield brings a familiar nuisance: brown marmorated stink bugs congregating on the south and west sides of homes, looking for a way inside. They do not bite or cause structural damage, but the odor they release when crushed or disturbed is unpleasant, and large numbers inside a home are a real annoyance. Sealing gaps around windows, doors, and utility penetrations before October is the most effective prevention. Mosquitoes, meanwhile, are a summer-long issue near the Neuse River and surrounding wetlands. Barrier spray treatments and standing water removal make the biggest difference for outdoor comfort from April through October.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection, especially if your home is within a mile of the Neuse River.",
+      "Apply broadcast fire ant bait across the full lawn in spring and again in late August.",
+      "Caulk gaps around windows, doors, and utility penetrations before late September to block stink bug entry.",
+      "Eliminate standing water in gutters, birdbaths, and low spots in the yard to reduce mosquito breeding.",
+      "Keep kitchen surfaces clean and seal food in airtight containers to reduce cockroach attractants.",
+    ],
+    costNote:
+      "Pest control in Smithfield generally runs $90 to $200 for a standard treatment, with quarterly service plans ranging from $300 to $600 per year. Termite treatments vary by home size and method and typically fall between $450 and $1,300. Stink bug exclusion work is often included in fall perimeter treatments. Ask for a written estimate with a service guarantee.",
+    faqs: [
+      {
+        question: "Why does Smithfield, NC have so many fire ants compared to other towns nearby?",
+        answer:
+          "Johnston County is recognized for having above-average fire ant populations throughout the county, not just in Smithfield. The warm climate, open agricultural land, and soil types in the area create favorable conditions for colony establishment and spread. Smithfield's residential areas are adjacent to farm fields and open land where fire ants move freely, so yards can be recolonized even after treatment. A twice-yearly broadcast bait program is the most reliable way to keep pressure down.",
+      },
+      {
+        question: "When do stink bugs appear in Smithfield, and how do I keep them out?",
+        answer:
+          "Brown marmorated stink bugs typically begin gathering on Smithfield homes in late September and are most active through November. They are looking for warm overwintering sites and will enter through any gap they can find around windows, doors, siding, and utility penetrations. The best defense is a thorough exclusion pass before mid-September: replace worn door sweeps, caulk window frames, and seal around utility lines. A perimeter treatment by a licensed technician can also help deter them before they mass on your walls.",
+      },
+      {
+        question: "Is the Neuse River making termite risk higher for Smithfield homes?",
+        answer:
+          "Yes, proximity to the Neuse River is a real factor. Subterranean termites thrive in moist soil, and the floodplain areas near the river stay consistently damp in ways that inland lots do not. Johnston County is already in a high termite hazard zone, so homes near the river carry elevated risk compared to properties farther from the water. An annual inspection and an active protection plan, whether a liquid treatment or a baiting system, are practical steps for any Smithfield homeowner.",
+      },
+      {
+        question: "How quickly can German cockroaches infest a Smithfield home?",
+        answer:
+          "German cockroaches reproduce faster than almost any other household pest. A single female can produce hundreds of offspring in her lifetime, and populations can grow from a handful to hundreds in just a few weeks under warm, humid conditions. In Smithfield's climate, they remain active year-round. If you spot even one or two, it is worth calling a professional rather than waiting. Early treatment with gel baits and crack-and-crevice applications is far more cost-effective than dealing with an established infestation.",
+      },
+      {
+        question: "What pest control services are available in Smithfield, NC?",
+        answer:
+          "Smithfield is served by both local Johnston County pest control companies and regional providers that cover the eastern Raleigh metro. Services available in the area include termite inspections and treatment, general pest control for cockroaches and ants, mosquito barrier spray programs, and fire ant yard treatments. Most companies offer one-time treatments as well as quarterly or monthly service plans. When comparing providers, ask about licensing, whether the technician is a state-licensed applicator, and what the service guarantee covers.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Garner", slug: "garner" },
+      { name: "Raleigh", slug: "raleigh" },
+      { name: "Goldsboro", slug: "goldsboro" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Smithfield, NC | Termites, Fire Ants & Stink Bugs",
+    metaDescription:
+      "Pest control in Smithfield, NC. Johnston County service for subterranean termites, fire ants, stink bugs, mosquitoes, and cockroaches near the Neuse River. Licensed and insured. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "archdale",
+    name: "Archdale",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~11,000",
+    county: "Guilford / Randolph County",
+    climate: "hot-humid",
+    climateDriver:
+      "Archdale sits in the Piedmont Triad between High Point and Randleman, where hot summers and moderate winters in the red clay belt create persistent termite and pest pressure throughout the year.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "Stink Bugs",
+      "German Cockroaches",
+      "Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round, swarms in spring",
+        note:
+          "The red clay and loam soils common to the Archdale area retain moisture well, which supports active subterranean termite colonies. Older structures from the furniture manufacturing era are at particular risk.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note:
+          "Fire ants are established throughout the Triad. In Archdale, mounds appear in residential lawns, parks, and open areas on both the Guilford and Randolph County sides of town.",
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall through early spring",
+        note:
+          "The Triad region experiences significant stink bug pressure each fall. Archdale homes, especially those near tree lines and open land on the Randolph County side, see large numbers gathering on exterior walls in September and October.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are present throughout the Triad and concentrate in kitchens, bathrooms, and break rooms. In Archdale, older commercial and residential buildings provide harborage that supports persistent populations.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note:
+          "Mice move indoors across the Piedmont as temperatures drop in fall. Older structures common in Archdale, including converted industrial spaces and aging residential housing, often have gaps that make exclusion work especially important.",
+      },
+    ],
+    localHook:
+      "Archdale straddles Guilford and Randolph County in the heart of the Triad, sitting between High Point's furniture district and Randleman's rural edge. That mix of aging structures, tree lines, and open land means pest pressure comes from multiple directions. Termites in the red clay, stink bugs in the fall, and mice as the weather cools are the three issues that come up most often here.",
+    intro:
+      "Archdale is a Triad city straddling the Guilford and Randolph County line between High Point and Randleman. The area's hot, humid summers, red clay soils, and legacy of furniture manufacturing mean a stock of older structures that face real termite exposure. Stink bugs have become a notable fall problem across the Triad, and Archdale sees significant activity each year. Mice entering older homes in the colder months round out the most common calls. A year-round pest plan covers the full range of threats this location brings.",
+    sections: [
+      {
+        heading: "Termites in Archdale's Red Clay Soils",
+        body: "Eastern subterranean termites are well established throughout the Piedmont Triad, and Archdale's red clay and loam soils hold moisture in a way that supports active colonies year-round. Homes and commercial properties with crawl spaces or slab-on-grade construction both face risk, and structures built before modern termite treatment standards are especially vulnerable. The furniture manufacturing history of the area left behind a number of older wood-frame buildings where termite activity can go undetected for years. An annual inspection is the minimum standard. Liquid soil treatments or baiting systems both perform reliably in Piedmont conditions.",
+      },
+      {
+        heading: "Stink Bug Season in the Triad",
+        body: "The Piedmont Triad is one of the more active stink bug zones in North Carolina, and Archdale consistently sees significant fall pressure. Brown marmorated stink bugs begin congregating on the south and west-facing walls of homes in late September, looking for overwintering sites. Properties near tree lines on the Randolph County edge of Archdale tend to see the heaviest activity. Once they get inside, they are hard to remove without crushing them and releasing the odor. A thorough exclusion pass before the end of September, combined with a perimeter treatment, is the most effective approach. Replacing worn door sweeps and caulking around window frames makes a real difference.",
+      },
+      {
+        heading: "Mice, Cockroaches, and Year-Round Pest Pressure",
+        body: "Mice are a predictable fall-through-winter problem in Archdale, particularly in older residential and commercial structures where gaps in foundations, utility penetrations, and aging weatherstripping give them easy entry. A mouse can fit through a gap roughly the size of a dime, so exclusion work requires a careful inspection of the full exterior. German cockroaches are an indoor year-round pest that concentrate in kitchens and bathrooms. In older Archdale buildings, they can establish in wall voids and under appliances where they are hard to reach without professional treatment. Gel baits and crack-and-crevice applications are the most effective approach.",
+      },
+    ],
+    prevention: [
+      "Have your home inspected for termites annually, especially if it was built before 1990.",
+      "Seal gaps around windows, doors, and utility penetrations before late September to stop stink bugs.",
+      "Inspect the exterior of your home in early fall for gaps near the foundation, utility lines, and roof eaves where mice enter.",
+      "Keep firewood stacked at least 20 feet from the house and elevated off the ground.",
+      "Fix any plumbing leaks promptly; moisture under sinks and in crawl spaces attracts cockroaches and termites alike.",
+    ],
+    costNote:
+      "In Archdale, a standard pest control visit typically runs $90 to $190, with annual or quarterly plans offering savings over one-time treatments. Termite treatment costs depend on home size and method, generally ranging from $400 to $1,200. Mouse exclusion work varies depending on the number of entry points found. Always get a written quote that details what is covered and whether a warranty is included.",
+    faqs: [
+      {
+        question: "Why are stink bugs so bad in Archdale every fall?",
+        answer:
+          "Archdale sits in the Piedmont Triad, which is one of the more stink bug-active regions in North Carolina. The combination of suburban development adjacent to wooded and agricultural land on the Randolph County side, along with the area's moderate fall temperatures, creates ideal conditions for brown marmorated stink bugs to seek out warm structures. They are looking for overwintering shelter, and your home is a good candidate. Sealing exterior gaps before late September and applying a perimeter treatment are your best defenses.",
+      },
+      {
+        question: "Are older homes in Archdale at higher termite risk?",
+        answer:
+          "Yes. Many of the older structures in Archdale, including residential homes and buildings connected to the area's furniture manufacturing history, were built before modern termite treatment standards were common. Pier-and-beam foundations and aging crawl spaces are particularly vulnerable. The red clay soils in the Guilford and Randolph County area also retain moisture well, which supports active termite colonies. If your home has never had a termite treatment or has an expired warranty, an inspection is a practical and cost-effective starting point.",
+      },
+      {
+        question: "How do mice get into Archdale homes, and how do I stop them?",
+        answer:
+          "Mice enter Archdale homes through gaps in the foundation, utility penetrations, torn door sweeps, and gaps around garage doors. A mouse can squeeze through an opening roughly the diameter of a pencil, so even small gaps are entry points. In older structures, these gaps are more common and harder to find without a thorough exterior inspection. A licensed pest control technician can identify entry points and either seal them directly or recommend a contractor for larger repairs, combined with trapping to address any mice already inside.",
+      },
+      {
+        question: "What is the difference between a one-time treatment and a pest control plan in Archdale?",
+        answer:
+          "A one-time treatment addresses a specific pest at the time of service. It works for isolated problems, but pests often return if the underlying conditions remain. A quarterly or annual service plan includes scheduled visits, retreatment between visits if pests return, and a broader approach that covers multiple pest types. For Archdale homeowners dealing with termites, stink bugs, fire ants, and mice across the seasons, a plan tends to be more cost-effective than multiple separate one-time treatments.",
+      },
+      {
+        question: "Does Archdale have a pest control problem with fire ants?",
+        answer:
+          "Fire ants are common throughout Archdale on both the Guilford and Randolph County sides. The Triad's warm summers and mixed residential and open land give fire ant colonies room to establish and expand. Mounds appear in lawns, along sidewalks, and in parks. Individual mound treatments provide temporary relief, but broadcast bait applications across the full yard in spring and again in late summer give much better long-term control. If mounds keep returning, a licensed technician can assess whether a more aggressive treatment program is needed.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "High Point", slug: "high-point" },
+      { name: "Thomasville", slug: "thomasville" },
+      { name: "Asheboro", slug: "asheboro" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Archdale, NC | Termites, Stink Bugs & Fire Ants",
+    metaDescription:
+      "Pest control in Archdale, NC. Guilford and Randolph County service for subterranean termites, stink bugs, fire ants, cockroaches, and mice in the Triad area. Licensed and insured. Call 1-800-PEST-USA.",
+  },
 ];

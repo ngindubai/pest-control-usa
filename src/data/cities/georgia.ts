@@ -6398,4 +6398,242 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Pest control in Fayetteville, GA. Fayette County service for subterranean termites, mosquitoes, fire ants, cockroaches, and spiders near Lake Peachtree. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "suwanee",
+    name: "Suwanee",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~18,000",
+    county: "Gwinnett County",
+    climate: "hot-humid",
+    climateDriver:
+      "Suwanee is a fast-growing north Atlanta suburb in Gwinnett County, positioned along the Chattahoochee River basin in the Georgia Piedmont. Dense new construction on red clay soils is the defining pest driver: red clay is excellent subterranean termite habitat because it retains moisture effectively and extends into the subsoil layer that termite colonies forage through. Fire ants are established throughout Gwinnett County and are the most visible residential outdoor pest. Kudzu bugs, an invasive species from Asia, are particularly active in north Georgia and aggregate on structures in fall and spring. Mosquitoes benefit from Suwanee's retention ponds and the stormwater features of rapid residential development.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "Mosquitoes",
+      "Kudzu Bugs",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round active, swarms late winter through spring",
+        note:
+          "Gwinnett County is in the heavy termite hazard zone. Suwanee's dense new construction on red clay soils creates the wood-to-soil contact and soil moisture conditions that eastern subterranean termites exploit. Annual inspections are the standard of care for all Gwinnett County homeowners.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round active, March through October peak",
+        note:
+          "Red imported fire ants are established throughout Gwinnett County and are among the most common residential outdoor pest complaints in Suwanee. Mounds appear in lawns, along sidewalk edges, and in any open sunny ground throughout the warm season.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note:
+          "Suwanee's rapid residential growth has created numerous retention ponds for stormwater management throughout new subdivisions. These ponds and the drainage features they connect to create reliable mosquito breeding habitat from March through October. Asian tiger mosquitoes are established in Gwinnett County and bite during daylight hours.",
+      },
+      {
+        name: "Kudzu Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Spring and fall (aggregation and overwintering)",
+        note:
+          "Kudzu bugs are an invasive agricultural pest from Asia that is particularly abundant in north Georgia. They aggregate on the white and light-colored surfaces of Suwanee homes in fall and spring. The kudzu and agricultural vegetation throughout Gwinnett County sustains large populations.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note:
+          "German cockroaches are a year-round indoor pest in Gwinnett County's multi-unit housing and commercial food corridors. New construction in Suwanee includes multi-family developments where cockroach spread between adjacent units is a risk.",
+      },
+    ],
+    localHook:
+      "Suwanee's rapid growth means an unusually high proportion of homes are built on recently disturbed red clay soil, which is precisely the soil type that eastern subterranean termites forage through most effectively. That combination of new construction, disturbed soil, and heavy Gwinnett County termite pressure creates a termite risk environment that homeowners in established communities often underestimate.",
+    intro:
+      "Pest control in Suwanee is shaped by the pace and character of this fast-growing Gwinnett County community. Dense new construction on red Georgia clay creates prime termite habitat where wood-to-soil contact is common during the construction phase and original termite treatments are fresh but untested. Fire ants are among the most consistent outdoor pest complaints in Gwinnett County. Kudzu bugs are a distinctive north Georgia fall phenomenon on white-sided homes. Mosquitoes breed in the retention ponds that stormwater management codes require in new subdivisions. German cockroaches are a year-round concern in multi-family housing.",
+    sections: [
+      {
+        heading: "Red Clay Soil Termites and New Construction Risk in Suwanee",
+        body:
+          "Suwanee's rapid growth is built on Gwinnett County's red Piedmont clay, and that soil type creates a specific termite risk dynamic for new homeowners. Red clay retains moisture effectively, creating the sustained subsoil moisture conditions that eastern subterranean termite colonies need for year-round foraging. During construction, soil is disturbed and regraded, bringing termite colonies close to the fresh wood of new foundations and structural lumber. The wood-to-soil contact that happens during construction, when form boards, debris, and grade stakes are left in the soil, creates direct termite access that may not show up until a colony has been working on the structure for years. Gwinnett County is in the heavy termite hazard zone as designated by the Georgia Department of Agriculture, and UGA Extension recommends annual inspections for all Gwinnett County homeowners. Even new homes in Suwanee benefit from their first annual inspection two to three years after construction, when any construction-related termite contact has had time to become visible. Original termite soil treatment applied at construction provides initial protection but degrades over time: most products provide reliable protection for 5 to 10 years under normal conditions.",
+      },
+      {
+        heading: "Fire Ants, Kudzu Bugs, and Mosquitoes in North Gwinnett County",
+        body:
+          "Three seasonal pest events define the outdoor pest calendar for Suwanee homeowners. Fire ants are active nearly year-round in Gwinnett County's mild climate, building mounds in lawns and sunny open ground from spring through fall. The Suwanee Town Center and the residential development around it creates the mix of maintained lawn and open ground that fire ants prefer. Broadcast bait applied in April and September maintains yard-wide density reduction better than individual mound treatments for the continuous fire ant pressure in this north Atlanta suburb. Kudzu bugs aggregate on the exterior walls of Suwanee homes in fall and spring, gravitating toward white and light-colored surfaces. This invasive species, which arrived in Georgia around 2009, is abundant in north Georgia where kudzu and agricultural vegetation provide summer feeding habitat. They are a nuisance pest that does not cause structural damage but causes staining and odor when crushed. Mosquitoes are the summer issue, with Suwanee's new subdivision retention ponds and drainage features providing sustained breeding habitat from spring through October.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for your Suwanee home beginning two to three years after construction, when any construction-related termite contact becomes visible and original soil treatments first begin to degrade.",
+      "Apply broadcast fire ant bait across Suwanee yards in April and again in September for year-round colony density reduction in Gwinnett County's high fire ant pressure zone.",
+      "Request that your subdivision HOA apply Bti biological larvicide to shared retention ponds each month from April through September to reduce the mosquito breeding habitat in Suwanee's new development drainage features.",
+      "Seal window frame gaps and siding penetrations in August to reduce kudzu bug and overwintering insect entry before the fall aggregation period in Gwinnett County.",
+    ],
+    costNote:
+      "Pest control in Suwanee is priced at Gwinnett County north Atlanta suburb rates, which are moderate for the metro area. Termite treatment costs $600 to $1,400 depending on structure size. Mosquito seasonal programs run $280 to $480. Free inspections are standard.",
+    faqs: [
+      {
+        question: "Does new construction in Suwanee still have termite risk?",
+        answer:
+          "Yes. New construction receives a soil termite treatment at the time of building, which provides meaningful protection for the first 5 to 10 years under normal conditions. However, any construction debris, form boards, or wood left in contact with the soil during construction creates direct termite access points that the soil treatment does not address. Additionally, soil disturbance during grading brings termite populations close to new foundations. Annual inspections starting two to three years after construction catch early activity before it causes significant structural damage.",
+      },
+      {
+        question: "What exactly are kudzu bugs and why do they target Suwanee homes?",
+        answer:
+          "Kudzu bugs (Megacopta cribraria) are invasive insects from Asia that arrived in Georgia around 2009 and have spread rapidly through north Georgia and the Southeast. They feed primarily on kudzu and other leguminous plants through the summer and seek warm overwintering sites in the fall. They are attracted to light-colored surfaces, which is why white and off-white siding concentrates the aggregations. They do not bite, sting, or cause structural damage, but they release a yellow staining fluid when crushed and produce an unpleasant odor. North Gwinnett County's mix of suburban development and kudzu-bearing edges creates large populations that make Suwanee particularly prone to fall aggregation events.",
+      },
+      {
+        question: "Are the retention ponds in Suwanee's new subdivisions actually creating more mosquitoes?",
+        answer:
+          "Yes. Gwinnett County subdivision development codes require retention ponds for stormwater management, and those ponds hold water for extended periods after rain events. Ponds without aerators or fish, which is common in new developments, become productive mosquito breeding sites by late April. The Asian tiger mosquito, which breeds in very small amounts of standing water, also exploits the smaller drainage features, curb gully areas, and landscaping drains in the same subdivisions. A combination of HOA-applied Bti larvicide in the ponds and individual yard barrier spray is the most comprehensive approach.",
+      },
+      {
+        question: "How aggressive are fire ants in Suwanee compared to other Gwinnett County suburbs?",
+        answer:
+          "Fire ant aggressiveness is consistent across the species rather than varying by location. Red imported fire ants in Suwanee are the same species as in Lawrenceville or Duluth and will sting any perceived threat to the mound. The difference between Suwanee and some older Gwinnett suburbs is the proportion of recently disturbed soil from ongoing construction, which fire ants colonize quickly. New subdivision areas in Suwanee may see more rapid mound appearance in lawns because the soil disturbance during site clearing creates fire ant colonization opportunities.",
+      },
+      {
+        question: "Should I be concerned about American cockroaches or only German cockroaches in Suwanee?",
+        answer:
+          "Both species are present in Gwinnett County but require different management approaches. American cockroaches are outdoor breeders that enter homes from mulch, drainage areas, and the outdoor environment. They are common in Georgia and more likely to be encountered as single insects entering through gaps than as indoor colonies. German cockroaches breed strictly indoors, spread through multi-unit buildings, and require indoor treatment. American cockroaches are managed with perimeter sealing and outdoor treatment. German cockroaches require interior treatment and, in multi-unit buildings, coordinated building-wide management.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Duluth", slug: "duluth-ga" },
+      { name: "Lawrenceville", slug: "lawrenceville-ga" },
+      { name: "Buford", slug: "buford-ga" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Suwanee, GA | Termites, Fire Ants & Kudzu Bugs",
+    metaDescription:
+      "Suwanee GA pest control for eastern subterranean termites on red Gwinnett County clay, fire ants, kudzu bugs, mosquitoes from retention ponds and German cockroaches. Free inspection.",
+  },
+  {
+    slug: "winder",
+    name: "Winder",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~17,000",
+    county: "Barrow County",
+    climate: "hot-humid",
+    climateDriver:
+      "Winder is the Barrow County seat northeast of Atlanta, positioned at the transitional edge between the Atlanta suburban fringe and the rural northeast Georgia Piedmont. The hot-humid climate brings long warm summers, mild winters, and the persistent moisture that sustains year-round pest activity. Barrow County's red clay soils create excellent eastern subterranean termite habitat. Fire ants are well-established throughout the county's agricultural and residential areas. The transitional suburban-rural character of Winder means wildlife and field pest pressure from the surrounding agricultural landscape adds to the standard suburban pest profile.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "Mosquitoes",
+      "House Mice",
+      "Spiders",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round active, swarms late winter through spring",
+        note:
+          "Barrow County is in the heavy termite hazard zone for Georgia. Winder's older residential neighborhoods and the county seat's commercial building stock carry meaningful termite risk in the region's hot-humid, high-pressure termite environment.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round active, March through October peak",
+        note:
+          "Red imported fire ants are well-established in Barrow County's agricultural and residential areas. Active mound development in Winder lawns and open ground is consistent through the warm season, with the agricultural margins sustaining high colony densities that push into residential yards.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note:
+          "The creeks and low-lying drainage areas throughout Barrow County and the retention and farm pond features near Winder's residential areas create mosquito habitat from March through October. The long hot-humid Georgia Piedmont season extends mosquito activity through most of the year.",
+      },
+      {
+        name: "House Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note:
+          "Winder's transitional suburban-rural setting means residential properties near agricultural fields see field mouse migration in fall, when Georgia's mild winter temperatures push mice toward structures from November through February. The older housing stock in central Winder provides ready mouse entry.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round, most active warm months",
+        note:
+          "The rural-edge character of Winder creates spider pressure above what purely suburban Georgia cities experience. Black widows are present in Barrow County and found in undisturbed storage areas, crawl spaces, and outbuildings. Brown recluse spiders are also present in this region.",
+      },
+    ],
+    localHook:
+      "Winder's position as a county seat at the edge of the Atlanta suburban fringe means it carries both the standard suburban pest pressures of the Georgia Piedmont and the field pest and wildlife pressure of the rural northeast Georgia landscape. That combination of termite pressure from red clay soils, fire ants from agricultural margins, and field mice from surrounding farmland creates a broader pest profile than strictly urban Gwinnett County suburbs.",
+    intro:
+      "Pest control in Winder reflects its position at the edge of the Atlanta metro and the northeast Georgia Piedmont. Eastern subterranean termites are a year-round concern in Barrow County's red clay soils. Fire ants are well-established throughout the county's agricultural and residential areas, and Winder's proximity to the agricultural landscape creates above-average reinfestation pressure from the field margins. Mice move into older central Winder structures in winter. Spider pressure, including black widows and brown recluse, is elevated by the rural-edge character of this county seat.",
+    sections: [
+      {
+        heading: "Termites and Fire Ants in Barrow County's Agricultural Setting",
+        body:
+          "Barrow County's red clay soils create excellent eastern subterranean termite habitat, retaining the soil moisture that sustains active termite colonies year-round. Winder's older residential neighborhoods, including the historic downtown area and the established neighborhoods built from the mid-20th century forward, have housing stock that has had meaningful termite exposure time. UGA Extension places Barrow County in the heavy termite hazard zone, and the county's warm-humid Piedmont climate keeps termite swarming beginning in late winter. Fire ants are equally established throughout Barrow County, both in the town's residential areas and in the agricultural land that surrounds Winder on multiple sides. Properties at the residential-agricultural margin, including the newer subdivisions on Winder's edges that border active farmland, see the most intensive fire ant reinfestation pressure. Mound development in residential lawns near field margins is persistent because the surrounding agricultural land sustains high colony densities that continuously produce new mounds at the residential edge. Broadcast bait programs applied across the full yard in spring and fall reduce overall colony density more effectively than individual mound treatments for this agricultural-edge fire ant pressure.",
+      },
+      {
+        heading: "Spiders, Mice, and the Rural-Edge Character of Winder",
+        body:
+          "Winder's position at the transitional edge between metro Atlanta's suburban fringe and rural northeast Georgia creates pest pressures that are above average for a Georgia city of its size. Black widow spiders are present in Barrow County and are found in the undisturbed spaces typical of older storage areas, crawl spaces, and the outbuildings common in this part of Georgia. Brown recluse spiders are also present in northeast Georgia and established in the kinds of rarely disturbed basement and attic spaces that Winder's older housing stock provides. Neither species is aggressive, but both have venom that can cause serious reactions. The rural setting also creates field mouse migration into residential structures each fall, as Georgia's agricultural fields are harvested and field mouse populations seek alternative shelter. Winder's older central city housing stock, with its older foundations and accumulated utility penetrations, provides more mouse entry opportunity than newer construction on the suburban edges.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for Winder homes given Barrow County's heavy termite hazard zone status and the year-round termite activity in the region's red clay soils.",
+      "Apply broadcast fire ant bait across Winder yards in April and September, with particular attention to properties bordering agricultural fields where the surrounding landscape sustains high colony densities that reinvest residential areas continuously.",
+      "Wear gloves and a dust mask when working in crawl spaces, attic spaces, and storage outbuildings in Winder, where black widow and brown recluse spiders are present in undisturbed areas.",
+      "Seal foundation gaps, utility penetrations, and door sill clearances in October before fall field mouse migration from the surrounding Barrow County agricultural landscape.",
+    ],
+    costNote:
+      "Pest control in Winder is priced at Barrow County rates, which are below the core Atlanta metro area. Termite treatment costs $500 to $1,200 depending on structure size. Fire ant broadcast programs run $80 to $150 per application. Free inspections are standard.",
+    faqs: [
+      {
+        question: "Is termite risk different in Winder compared to Athens or Lawrenceville?",
+        answer:
+          "The baseline termite pressure is similar across northeast Georgia because the region shares the same hot-humid Piedmont climate and clay soil types that sustain year-round termite activity. The differences come from housing age and construction type rather than geographic position. Winder's older central city housing has had more exposure time than newer suburban construction in growing parts of Gwinnett or Oconee counties. Annual inspections are the recommended standard for all of these communities because the underlying termite pressure is consistently high throughout the Georgia Piedmont.",
+      },
+      {
+        question: "Are black widow spiders actually dangerous in Winder homes?",
+        answer:
+          "Black widow spider bites are medically significant, with venom that causes severe muscle cramping and pain. However, bites are uncommon because black widows are not aggressive and bite only when trapped against skin or defending the egg sac. They are found in undisturbed, sheltered spaces: storage areas, crawl spaces, woodpiles, and outbuildings. The practical prevention is wearing gloves when working in those spaces and reducing harborage by keeping storage areas organized and off the ground. If you suspect a black widow bite, seek medical care promptly.",
+      },
+      {
+        question: "Do fire ants near Winder's agricultural margins really reinfest my yard after treatment?",
+        answer:
+          "Yes, consistently. Properties at the residential-agricultural margin face a reinfestation dynamic that properties in purely residential neighborhoods do not. The large, high-density fire ant population in surrounding fields produces new reproductives that establish new colonies in adjacent residential areas even after the residential population has been reduced. Individual mound treatment eliminates what is visible but leaves the surrounding population intact. Broadcast bait programs reduce colony density more broadly and tolerate some reinfestation from adjacent agricultural land better, because they treat areas that have not yet developed visible mounds.",
+      },
+      {
+        question: "Are brown recluse spiders common in Winder basements?",
+        answer:
+          "Brown recluse spiders are present in northeast Georgia and are found in the kinds of undisturbed, dry storage spaces that Winder's older housing stock provides: rarely accessed closets, basement storage rooms, under seldom-moved furniture, and in packed boxes. They are not aggressive but will bite if trapped against skin when someone reaches into an infested space without looking first. Wearing gloves when working in storage areas and shaking out clothing or shoes left undisturbed for extended periods are the practical precautions.",
+      },
+      {
+        question: "How does Winder's rural-edge setting affect overall pest control costs compared to Atlanta suburbs?",
+        answer:
+          "Winder's rural-edge setting creates some pest pressures that are above average for a community of its size (field mice, spiders, fire ant reinfestation from agricultural margins) but generally lower overall pest control pricing than the core Atlanta metro area. Barrow County providers typically charge below Gwinnett County rates. The extended pest profile means year-round coverage addressing seasonal pest events is worthwhile, but the per-service cost is lower than what the same coverage would cost in Alpharetta or Duluth.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Gainesville", slug: "gainesville-ga" },
+      { name: "Athens", slug: "athens" },
+      { name: "Lawrenceville", slug: "lawrenceville-ga" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Winder, GA | Termites, Fire Ants & Spiders",
+    metaDescription:
+      "Winder GA pest control for eastern subterranean termites on Barrow County red clay, fire ants near agricultural margins, black widow spiders and fall field mice. Free inspection.",
+  },
 ];
