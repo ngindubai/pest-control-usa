@@ -8,16 +8,16 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-22)
+## Current State (2026-06-23)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-64 complete. T2 COMPLETE.
-- **City pages built:** 1553 total (75 T1 + 300 T2 + 1178 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-66 complete. T2 COMPLETE.
+- **City pages built:** 1603 total (75 T1 + 300 T2 + 1228 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1636 in the static export (home, services, 50+ states, 1553 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=323, B=321, C=321, D=295, E=293 (1553 total cities, all within 15-25% range).
-- **Cities built T3 chunks 63-64 (50):** Chunk 63 (B): IL: Pekin, Lombard, Elk Grove Village, Gurnee, Hanover Park. OH: Sidney, Oxford, Tiffin. MI: Hamtramck, Madison Heights, Hazel Park. FL: Hallandale Beach, Cutler Bay, North Lauderdale, Lake Worth Beach, Oakland Park. NC: Rockingham, Smithfield, Archdale. TX: Katy, Celina, Burleson. VA: Pulaski, Wytheville, Galax. Chunk 64 (C): IL: Glen Ellyn, Woodridge, Algonquin, Batavia, North Chicago, Roselle, Northbrook, Park Ridge, Niles (niles-il), Bloomingdale (bloomingdale-il). OH: Springboro, Greenville, Defiance, East Liverpool, Wapakoneta. MI: Eastpointe, Oak Park (oak-park-mi), Inkster, Harper Woods. TN: Farragut, Portland (portland-tn), Springfield (springfield-tn), Lakeland (lakeland-tn). GA: Suwanee, Winder.
-- **New state files added chunks 63-64:** none (all states already registered).
-- **Next block:** Chunk 65, T3 continues, rotation at D.
+- **Total site pages:** 1686 in the static export (home, services, 50+ states, 1603 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=323, B=321, C=321, D=320, E=318 (1603 total cities, all within 15-25% range).
+- **Cities built T3 chunks 65-66 (50):** Chunk 65 (D): MA: Framingham, Chicopee, Taunton, Peabody, Revere. OH: Massillon, Portsmouth (portsmouth-oh), Trotwood, Norwood (norwood-oh), New Philadelphia (new-philadelphia-oh). IN: Greenfield (greenfield-in), La Porte (la-porte-in), Highland (highland-in), Schererville (schererville-in), Franklin (franklin-in). WI: Franklin (franklin-wi), Watertown (watertown-wi), Muskego, Germantown (germantown-wi), Beaver Dam. MN: Stillwater (stillwater-mn), Hastings (hastings-mn), Winona (winona-mn), Austin (austin-mn), Brainerd (brainerd-mn). Chunk 66 (E): MA: Holyoke, Fitchburg (fitchburg-ma), Attleboro, Salem (salem-ma), Methuen. NJ: Cherry Hill, Piscataway, Sayreville, Bloomfield (bloomfield-nj), Parsippany. WA: Moses Lake, Oak Harbor, SeaTac, Tumwater, Centralia (centralia-wa). MO: Ferguson, Webster Groves, Clayton (clayton-mo), Lebanon (lebanon-mo), Branson. AL: Albertville, Anniston, Talladega, Oxford (oxford-al), Jasper (jasper-al).
+- **New state files added chunks 65-66:** none (all states already registered).
+- **Next block:** Chunk 67, T3 continues, rotation at A.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
