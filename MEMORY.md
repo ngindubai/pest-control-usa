@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-23)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-66 complete. T2 COMPLETE.
-- **City pages built:** 1603 total (75 T1 + 300 T2 + 1228 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-68 complete. T2 COMPLETE.
+- **City pages built:** 1653 total (75 T1 + 300 T2 + 1278 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1686 in the static export (home, services, 50+ states, 1603 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=323, B=321, C=321, D=320, E=318 (1603 total cities, all within 15-25% range).
-- **Cities built T3 chunks 65-66 (50):** Chunk 65 (D): MA: Framingham, Chicopee, Taunton, Peabody, Revere. OH: Massillon, Portsmouth (portsmouth-oh), Trotwood, Norwood (norwood-oh), New Philadelphia (new-philadelphia-oh). IN: Greenfield (greenfield-in), La Porte (la-porte-in), Highland (highland-in), Schererville (schererville-in), Franklin (franklin-in). WI: Franklin (franklin-wi), Watertown (watertown-wi), Muskego, Germantown (germantown-wi), Beaver Dam. MN: Stillwater (stillwater-mn), Hastings (hastings-mn), Winona (winona-mn), Austin (austin-mn), Brainerd (brainerd-mn). Chunk 66 (E): MA: Holyoke, Fitchburg (fitchburg-ma), Attleboro, Salem (salem-ma), Methuen. NJ: Cherry Hill, Piscataway, Sayreville, Bloomfield (bloomfield-nj), Parsippany. WA: Moses Lake, Oak Harbor, SeaTac, Tumwater, Centralia (centralia-wa). MO: Ferguson, Webster Groves, Clayton (clayton-mo), Lebanon (lebanon-mo), Branson. AL: Albertville, Anniston, Talladega, Oxford (oxford-al), Jasper (jasper-al).
-- **New state files added chunks 65-66:** none (all states already registered).
-- **Next block:** Chunk 67, T3 continues, rotation at A.
+- **Total site pages:** 1736 in the static export (home, services, 50+ states, 1653 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=348, B=346, C=321, D=320, E=318 (1653 total cities, all within 15-25% range).
+- **Cities built T3 chunks 67-68 (50):** Chunk 67 (A): OH: Marion, Circleville, Bellefontaine, Galion, Van Wert. IL: Zion, Highland Park, Harvey, Maywood, Melrose Park. PA: Mechanicsburg, Waynesboro (waynesboro-pa), Latrobe, Oil City, Aliquippa. GA: Powder Springs, Thomaston, Calhoun (calhoun-ga), Jesup, Toccoa. NC: Eden (eden-nc), Dunn, Tarboro, Lincolnton, Kings Mountain. Chunk 68 (B): OH: Coshocton, Bucyrus, Ironton (ironton-oh), Celina, Urbana (urbana-oh). GA: Fitzgerald, Cedartown, Rincon (rincon-ga), Swainsboro, Eatonton. MS: Laurel (laurel-ms), McComb, Greenwood (greenwood-ms), Greenville (greenville-ms), Clarksdale. MI: Wyandotte, Riverview (riverview-mi), Trenton (trenton-mi), Sturgis, Grosse Pointe Woods. NY: Geneva (geneva-ny), Hornell, Canandaigua, Gloversville, Olean.
+- **New state files added chunks 67-68:** none (all states already registered).
+- **Next block:** Chunk 69, T3 continues, rotation at C.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
