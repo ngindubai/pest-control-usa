@@ -8,16 +8,16 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-23)
+## Current State (2026-06-24)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-68 complete. T2 COMPLETE.
-- **City pages built:** 1653 total (75 T1 + 300 T2 + 1278 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-70 complete. T2 COMPLETE.
+- **City pages built:** 1703 total (75 T1 + 300 T2 + 1328 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1736 in the static export (home, services, 50+ states, 1653 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=348, B=346, C=321, D=320, E=318 (1653 total cities, all within 15-25% range).
-- **Cities built T3 chunks 67-68 (50):** Chunk 67 (A): OH: Marion, Circleville, Bellefontaine, Galion, Van Wert. IL: Zion, Highland Park, Harvey, Maywood, Melrose Park. PA: Mechanicsburg, Waynesboro (waynesboro-pa), Latrobe, Oil City, Aliquippa. GA: Powder Springs, Thomaston, Calhoun (calhoun-ga), Jesup, Toccoa. NC: Eden (eden-nc), Dunn, Tarboro, Lincolnton, Kings Mountain. Chunk 68 (B): OH: Coshocton, Bucyrus, Ironton (ironton-oh), Celina, Urbana (urbana-oh). GA: Fitzgerald, Cedartown, Rincon (rincon-ga), Swainsboro, Eatonton. MS: Laurel (laurel-ms), McComb, Greenwood (greenwood-ms), Greenville (greenville-ms), Clarksdale. MI: Wyandotte, Riverview (riverview-mi), Trenton (trenton-mi), Sturgis, Grosse Pointe Woods. NY: Geneva (geneva-ny), Hornell, Canandaigua, Gloversville, Olean.
-- **New state files added chunks 67-68:** none (all states already registered).
-- **Next block:** Chunk 69, T3 continues, rotation at C.
+- **Total site pages:** 1785 in the static export (home, services, 50+ states, 1703 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=348, B=346, C=346, D=345, E=318 (1703 total cities, all within 15-25% range).
+- **Cities built T3 chunks 69-70 (50):** Chunk 69 (C): VT: Essex Junction, Colchester, Bennington, Brattleboro. NH: Portsmouth, Salem, Laconia, Londonderry. ND: Jamestown, Wahpeton, Devils Lake. SD: Mitchell, Pierre, Huron. NE: Lexington, South Sioux City, Gering. WY: Green River, Riverton, Cody. ME: Augusta, Waterville, Saco, Westbrook, Sanford. Chunk 70 (D): MT: Anaconda, Miles City. ID: Kuna, Eagle, Mountain Home, Chubbuck, Blackfoot. WY: Lander, Torrington, Douglas, Rawlins. VT: St. Johnsbury, Springfield. NH: Bedford, Hudson, Merrimack, Claremont. SD: Spearfish, Yankton, Vermillion, Box Elder. NE: York, McCook, Alliance, Seward.
+- **New state files added chunks 69-70:** none (all states already registered).
+- **Next block:** Chunk 71, T3 continues, rotation at E.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

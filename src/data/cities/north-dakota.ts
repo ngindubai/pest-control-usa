@@ -916,4 +916,295 @@ export const northDakotaCities: CityLocation[] = [
     metaDescription:
       "Williston pest control for house mice, Norway rats, boxelder bugs, cluster flies and yellow jackets. Williams County northwestern North Dakota Bakken oil boom specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "jamestown-nd",
+    name: "Jamestown",
+    state: "North Dakota",
+    stateSlug: "north-dakota",
+    stateAbbr: "ND",
+    tier: "T3",
+    population: "~15,000",
+    county: "Stutsman County",
+    climate: "cold",
+    climateDriver:
+      "Jamestown sits in central North Dakota along the James River, an agricultural hub on the eastern edge of the Great Plains. The cold continental climate delivers harsh winters well below zero and warm summers with significant humidity from the river valley. Winters are severe enough to drive mice and cluster flies into buildings consistently every fall. Mosquitoes breed in the James River bottomland and surrounding prairie sloughs. The agricultural setting sustains grasshopper and boxelder bug populations that fluctuate year to year with crop cycles and tree coverage.",
+    topPests: ["Mice", "Cluster Flies", "Boxelder Bugs", "Mosquitoes", "Grasshoppers"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, major surge September through November",
+        note: "Jamestown's severe winters, regularly reaching -20F or colder, make heated structures essential for mice survival. The James River agricultural valley sustains high mouse populations year-round, and the fall surge into buildings is a predictable annual event. NDSU Extension identifies rodent control as a priority pest management need in central North Dakota agricultural communities.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall aggregation September through October, overwintering through March",
+        note: "Cluster flies are parasitic on earthworms and common in the pasture and agricultural land surrounding Jamestown. They aggregate on warm sun-facing walls in fall and enter buildings through exterior gaps to overwinter, emerging sluggishly on warm winter days in upper floors and attic spaces.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation September through October, overwintering indoors",
+        note: "Boxelder bugs are common in Jamestown wherever box elder or female maple trees are present. They gather in large numbers on warm walls in fall and work their way indoors through gaps around windows and siding. They are a nuisance pest with no structural damage or health risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak late June through July",
+        note: "The James River bottomland and the numerous prairie sloughs and wetlands in Stutsman County provide extensive mosquito breeding habitat. NDSU Extension notes that North Dakota mosquito populations can be extremely high in wet years, and Jamestown's river valley location places it in a high-breeding zone.",
+      },
+      {
+        name: "Grasshoppers",
+        serviceSlug: "pest-control",
+        activeSeason: "June through September, cyclical outbreaks",
+        note: "Grasshopper outbreaks are a documented agricultural and residential pest event on the northern Great Plains. NDSU Extension tracks grasshopper populations in Stutsman County annually. During outbreak years, large numbers invade residential properties adjacent to cropland, damaging gardens and entering buildings.",
+      },
+    ],
+    localHook:
+      "Jamestown's James River valley location places it in one of North Dakota's highest mosquito-density zones. NDSU Extension notes that prairie sloughs and river bottomland generate significant mosquito populations in wet years, making outdoor summer activity in Jamestown a genuine pest management concern.",
+    intro:
+      "Pest control in Jamestown follows the rhythms of central North Dakota's agricultural landscape and severe climate. Mice are the year-round anchor pest, driven into buildings hard by winters that regularly drop well below zero. Cluster flies and boxelder bugs make the fall transition a nuisance event, entering through gaps in building exteriors to overwinter. Summer brings mosquitoes from the James River bottomland and surrounding prairie sloughs, and grasshopper outbreaks are a cyclical event that NDSU Extension tracks annually in Stutsman County.",
+    sections: [
+      {
+        heading: "Mice vs. cluster flies: Which fall pest causes more damage in Jamestown homes?",
+        body: "Mice cause real damage; cluster flies are a nuisance. That is the essential distinction for Jamestown homeowners. Mice chew wiring, insulation, and stored food. They carry disease. A colony that establishes before you notice can cause hundreds of dollars in damage and pose a genuine health risk. Cluster flies cause none of that: they do not bite, do not breed indoors, and leave on their own in spring. The problem is purely aesthetic: large numbers of slow-moving flies emerging from wall voids on warm winter days. Both enter through exterior gaps in fall. Sealing those gaps in August or September prevents both pests and is the highest-return investment a Jamestown homeowner can make before winter. But if you have to prioritize one, mice warrant faster, more determined action.",
+      },
+      {
+        heading: "Agricultural land vs. residential lots: Where does Jamestown's pest pressure come from?",
+        body: "The agricultural landscape surrounding Jamestown is the primary source for most of its residential pest pressure. Mouse populations in cropland and pasture are large year-round, and the fall harvest season displaces them toward buildings just as the cold sets in, compressing two migration triggers into one. Mosquito breeding in prairie sloughs and the James River bottomland supplies the summer population. Grasshopper outbreaks originate in open rangeland and spread to residential lots during peak years. Boxelder bugs depend on tree coverage that is more common in town than in open farmland. The practical implication: Jamestown properties on the edge of town or adjacent to open land consistently see higher pest pressure than properties in established residential areas with more distance from agricultural fields.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and siding gaps before fall to prevent mouse and cluster fly entry.",
+      "Eliminate standing water in low areas and birdbaths to reduce mosquito breeding near the home.",
+      "Remove boxelder and female maple seed sources near the home to reduce boxelder bug populations over time.",
+      "Keep firewood and debris away from the foundation to reduce mouse harborage.",
+      "Check attic vent screens annually to maintain cluster fly exclusion.",
+    ],
+    costNote:
+      "Jamestown pest control programs typically cover fall mouse exclusion, cluster fly and boxelder bug prevention, and summer mosquito treatment. Single-service calls for mouse infestations are common, but a seasonal program covering the full pest calendar is more cost-effective for properties near agricultural land.",
+    faqs: [
+      {
+        question: "Are grasshopper outbreaks really that bad in Jamestown?",
+        answer:
+          "In peak years, yes. NDSU Extension monitors grasshopper populations across North Dakota annually and issues regional forecasts. Stutsman County has historically seen significant outbreaks when population conditions align. During severe years, grasshoppers in large numbers consume gardens, chew window screens, and enter buildings in warm areas. The good news is that outbreaks are cyclical and often followed by lower-pressure years. NDSU Extension posts annual grasshopper population maps that give Jamestown residents a preview of what to expect each season.",
+      },
+      {
+        question: "When should I treat for mosquitoes in Jamestown?",
+        answer:
+          "The most effective window is late May through June, before populations peak. The James River bottomland and surrounding prairie sloughs produce significant mosquito numbers in wet years, and treatment earlier in the season reduces the breeding population before it explodes. Property-level treatment targeting standing water and yard resting sites, plus barrier sprays around outdoor activity areas, provides the most relief. NDSU Extension notes that wet spring conditions in Stutsman County are the main predictor of a high-mosquito summer.",
+      },
+      {
+        question: "How do I stop cluster flies from getting into my Jamestown attic?",
+        answer:
+          "Cluster flies enter through gaps in the exterior envelope in fall: soffit vents, fascia board gaps, gaps where siding meets window frames or roof edges. Sealing these in August or early September before they begin aggregating on warm walls is the most effective approach. Once inside, they are dispersed throughout the wall and attic cavity and treatment is less effective. If cluster flies are already a problem, a licensed professional can apply a residual treatment to exterior entry points in late summer and install fly light traps in the attic for the winter.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Bismarck", slug: "bismarck" },
+      { name: "Fargo", slug: "fargo" },
+      { name: "Grand Forks", slug: "grand-forks" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Jamestown, ND | Mice, Cluster Flies, Mosquitoes & Grasshoppers",
+    metaDescription:
+      "Jamestown pest control for house mice, cluster flies, mosquitoes, boxelder bugs and grasshoppers. Stutsman County central North Dakota James River valley specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "wahpeton-nd",
+    name: "Wahpeton",
+    state: "North Dakota",
+    stateSlug: "north-dakota",
+    stateAbbr: "ND",
+    tier: "T3",
+    population: "~7,500",
+    county: "Richland County",
+    climate: "cold",
+    climateDriver:
+      "Wahpeton sits in the southern Red River Valley on the border with Minnesota, in one of the most productive agricultural regions in North Dakota. The cold continental climate with significant humidity from the Red River floodplain sustains high mosquito populations in the river bottomland and seasonal wetlands. The surrounding Red River Valley farmland sustains significant mouse populations that push into buildings each fall as harvests displace field mice. The cold winters are severe enough that mice, cluster flies, and boxelder bugs all seek indoor shelter consistently each fall.",
+    topPests: ["Mice", "Mosquitoes", "Cluster Flies", "Boxelder Bugs", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, major surge September through November",
+        note: "Wahpeton's Red River Valley agricultural setting sustains year-round mouse populations in surrounding farmland. The fall harvest and cold onset combine to push large numbers of mice toward buildings. NDSU Extension confirms this is a predictable annual pattern throughout the Red River Valley agricultural corridor.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak late June through July",
+        note: "The Red River floodplain and surrounding seasonal wetlands in Richland County provide extensive mosquito breeding habitat. North Dakota consistently ranks among states with the highest mosquito pressure per NDSU Extension data, and the Red River Valley's flat terrain retains standing water that amplifies production.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall aggregation September through October, overwintering through March",
+        note: "Cluster flies are common in agricultural areas like the Red River Valley, where earthworm populations in cropland provide larval hosts. They aggregate on warm building exteriors in fall and enter through gaps to overwinter, emerging on warm winter days in upper floors and attic spaces.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation September through October, overwintering indoors",
+        note: "Boxelder bugs occur wherever box elder or female maple trees are present in Wahpeton's residential areas and tree-lined streets. Fall aggregations on warm walls and invasion of building interiors through gaps are the primary nuisance.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note: "German cockroaches occur in Wahpeton's food service, restaurant, and multi-unit housing settings. They do not survive outside in North Dakota winters and are entirely an indoor pest, spread through second-hand appliances, food deliveries, and infested items.",
+      },
+    ],
+    localHook:
+      "The Red River Valley's flat agricultural landscape is one of the strongest mosquito-production environments in the northern Great Plains. NDSU Extension documents high mosquito pressure in Richland County during wet years, and Wahpeton's location on the Red River itself puts residential areas within the primary breeding zone.",
+    intro:
+      "Wahpeton's pest profile is shaped by two forces: the Red River Valley agricultural landscape and the severe northern continental climate. The surrounding farmland produces abundant mice that push into buildings each fall, and the Red River floodplain generates mosquito populations that NDSU Extension documents as among the highest in the region. Cluster flies and boxelder bugs are predictable fall nuisance events. German cockroaches are an indoor-only pest in this climate, concentrated in food service and multi-unit housing.",
+    sections: [
+      {
+        heading: "Red River mosquitoes vs. yard mosquitoes: What is the real source in Wahpeton?",
+        body: "In Wahpeton, both contribute but the Red River floodplain is the dominant source during wet seasons. The river's flat bottomland retains standing water for extended periods after spring flooding or heavy rain, producing the large cohorts that drive the worst mosquito seasons in Richland County. Yard-level sources, standing water in birdbaths, rain barrels, and low spots, amplify the problem locally but are not the primary driver in a flood-plain location. This distinction matters for treatment: yard-level interventions help but will not fully address the mosquito pressure from the floodplain. A combination of yard elimination of standing water, property barrier treatment, and personal protection on peak evenings is the most practical approach for Wahpeton homeowners who cannot control the river source.",
+      },
+      {
+        heading: "Fall mice vs. fall cluster flies: Which deserves more attention in a Wahpeton home?",
+        body: "The answer is the same as for every Red River Valley agricultural town: mice deserve faster and more urgent attention. Both enter through exterior gaps in fall, but that is where the similarity ends. Mice chew wiring, contaminate food, carry disease, and can establish breeding colonies that compound over winter. Cluster flies do none of that: they emerge sluggishly on warm days and are a nuisance with no structural or health consequence. Sealing exterior gaps in August prevents both, which is why preventive exclusion work pays dividends across multiple pest categories at once in Wahpeton's fall pest season.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before September to prevent mouse and cluster fly entry.",
+      "Eliminate standing water in birdbaths, low yard areas, and containers to reduce mosquito breeding.",
+      "Treat for mosquitoes in May and June before populations peak at the Red River floodplain edge.",
+      "Seal exterior gaps around windows and siding in August to keep boxelder bugs outside before fall aggregation.",
+      "Inspect for German cockroaches when acquiring second-hand appliances or furniture.",
+    ],
+    costNote:
+      "Wahpeton pest programs typically include a spring mosquito treatment, fall mouse exclusion, and cluster fly and boxelder bug prevention. Agricultural community pricing reflects the predictable seasonal nature of field-mouse displacement and mosquito pressure from the Red River drainage.",
+    faqs: [
+      {
+        question: "Is the mosquito season in Wahpeton really worse than in other North Dakota cities?",
+        answer:
+          "Yes, often. Wahpeton's location on the Red River, combined with the flat agricultural landscape of Richland County, creates a significant breeding environment. The Red River has historically flooded in spring, leaving standing water in the bottomland for weeks. NDSU Extension mosquito population forecasts consistently flag the Red River Valley as high-pressure territory. Wet springs with extended flooding produce the worst Wahpeton mosquito seasons.",
+      },
+      {
+        question: "Do German cockroaches survive Wahpeton winters outdoors?",
+        answer:
+          "No. German cockroaches are a tropical species that cannot survive North Dakota outdoor conditions. In Wahpeton, they are entirely an indoor pest, found in heated spaces year-round: kitchens, bathrooms, food storage areas, and wall voids near heat sources. They spread through infested second-hand appliances, cardboard boxes, and delivery packaging rather than through outdoor migration. If you have German cockroaches in Wahpeton, they arrived with an item brought inside.",
+      },
+      {
+        question: "When is the fall mouse push worst in Wahpeton?",
+        answer:
+          "September through November, driven by the fall harvest and the onset of cold. The Red River Valley grain and soybean harvest in September-October displaces large numbers of field mice from their summer habitat, and the cooling temperatures simultaneously push them toward warmth. Homes in Wahpeton that have not been excluded will receive new mice every fall. Exclusion, the physical sealing of all entry points, breaks this cycle permanently. Trapping controls what is already inside but does not prevent new arrivals from the surrounding farmland.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Fargo", slug: "fargo" },
+      { name: "West Fargo", slug: "west-fargo" },
+      { name: "Jamestown", slug: "jamestown-nd" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Wahpeton, ND | Mice, Mosquitoes & Red River Valley Pests",
+    metaDescription:
+      "Wahpeton pest control for house mice, mosquitoes, cluster flies and boxelder bugs. Richland County Red River Valley North Dakota agricultural specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "devils-lake-nd",
+    name: "Devils Lake",
+    state: "North Dakota",
+    stateSlug: "north-dakota",
+    stateAbbr: "ND",
+    tier: "T3",
+    population: "~7,000",
+    county: "Ramsey County",
+    climate: "cold",
+    climateDriver:
+      "Devils Lake sits on the shores of Devils Lake, the largest natural body of water in North Dakota, in the northeastern part of the state. The cold continental climate is influenced by the lake, which sustains significant wetland and marsh habitat. North Dakota Department of Health and NDSU Extension have documented that the wetlands surrounding Devils Lake produce exceptional mosquito populations. The lake level has risen significantly since the 1990s, expanding wetland acreage and increasing mosquito breeding habitat. Cold winters drive mice and cluster flies into buildings with certainty each fall.",
+    topPests: ["Mosquitoes", "Mice", "Cluster Flies", "Boxelder Bugs", "Gnats"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak June through July",
+        note: "NDSU Extension and the North Dakota Department of Health document Devils Lake's surrounding wetlands as one of the state's highest mosquito production areas. The lake's rising water level since the 1990s has expanded marsh acreage and breeding habitat year over year. Peak evenings in June and July can make outdoor activity near the lake nearly impossible without protection.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, major surge September through November",
+        note: "Ramsey County's rural agricultural character sustains large mouse populations in surrounding fields. Cold Devils Lake winters regularly reach -20F and below, providing overwhelming motivation for mice to seek heated shelter. The fall surge is predictable and intense in this part of North Dakota.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall aggregation September through October, overwintering through March",
+        note: "Cluster flies are common in the agricultural and pastoral land surrounding Devils Lake. They aggregate on building exteriors in fall and enter through gaps to overwinter, emerging on warm winter days in upper-floor areas and attic spaces. Older rural construction with more exterior gaps sees the heaviest infestation.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall aggregation September through October, overwintering indoors",
+        note: "Boxelder bugs occur in Devils Lake wherever box elder trees are present in residential and riparian areas. They gather on warm-facing walls in fall and enter through gaps around windows and siding to overwinter.",
+      },
+      {
+        name: "Biting gnats and midges",
+        serviceSlug: "pest-control",
+        activeSeason: "May through August, peak June",
+        note: "The wetland and marshy shoreline of Devils Lake produces biting gnats and midges in addition to mosquitoes. These small flies are most active at dawn and dusk near the water and during calm, humid conditions. They are a significant outdoor nuisance for lakeside properties during the summer season.",
+      },
+    ],
+    localHook:
+      "NDSU Extension identifies the wetlands surrounding Devils Lake as one of North Dakota's highest mosquito production zones. The lake's rising water level since the 1990s has expanded wetland acreage significantly, increasing mosquito breeding habitat year over year and making outdoor summer activity near the lake increasingly challenging.",
+    intro:
+      "Devils Lake's pest profile is dominated by water. The lake and its surrounding wetlands, expanded by decades of rising water levels, produce mosquito populations that NDSU Extension identifies as among the most intense in North Dakota. Biting gnats from the marshy shoreline add to the summer outdoor pest burden. The cold interior climate then delivers the predictable fall-winter pest pattern: mice push in from surrounding agricultural land, cluster flies aggregate on building exteriors, and both work their way inside through gaps as temperatures fall.",
+    sections: [
+      {
+        heading: "Mosquitoes vs. biting gnats: Which is worse for Devils Lake outdoor living?",
+        body: "Both pests are real here, and they often peak at the same time. Mosquitoes are the health concern: certain species in North Dakota can carry West Nile virus, and the wetlands surrounding Devils Lake produce the species most associated with transmission. Biting gnats are purely a nuisance but can be more immediately annoying than mosquitoes because of their small size and ability to penetrate lighter clothing. On calm summer evenings near the lake, gnats are often the first pest that drives people inside. Mosquitoes sustain their pressure throughout the night. Personal protection against both requires DEET or picaridin-based repellent and, for gnat-heavy evenings near the water, clothing that covers exposed skin. Property-level mosquito treatment reduces pressure but does not address breeding in the lake's natural wetlands, which are the primary source.",
+      },
+      {
+        heading: "Lakeside properties vs. inland town lots: Which has worse pest pressure in Devils Lake?",
+        body: "Lakeside properties face significantly higher mosquito and gnat pressure than inland town locations. The shoreline and marsh edges produce and sustain the insect populations, and proximity is the primary determinant of exposure. Lakeside homeowners also face cluster fly pressure from any agricultural land immediately surrounding the developed lakeshore. Inland town properties still see mice, cluster flies, and boxelder bugs from the surrounding rural landscape, but the summer biting insect load is noticeably lower with distance from the water. If you are a seasonal property owner on the Devils Lake shore, the summer pest program should be oriented primarily toward mosquitoes and gnats; if you are in the inland town, the fall mouse and overwintering fly program is the priority.",
+      },
+    ],
+    prevention: [
+      "Apply DEET or picaridin repellent before outdoor activity near the lake from May through September.",
+      "Eliminate standing water on the property to reduce breeding sources near the home.",
+      "Seal exterior gaps in building walls and attic areas before September to prevent mouse and cluster fly entry.",
+      "Keep outdoor lighting to a minimum near the water during peak insect evenings.",
+      "Install tight-fitting window and door screens and keep them in good repair through summer.",
+    ],
+    costNote:
+      "Devils Lake pest programs often combine a summer mosquito barrier treatment with fall mouse exclusion and cluster fly prevention. Lakeside properties typically need more intensive mosquito programs than inland addresses given the proximity to the primary breeding source.",
+    faqs: [
+      {
+        question: "Is West Nile virus a real risk near Devils Lake?",
+        answer:
+          "It is a documented risk in North Dakota. The North Dakota Department of Health monitors West Nile virus annually and the state consistently records cases. The mosquito species most associated with West Nile virus transmission breed in stagnant water, and Devils Lake's expanded wetlands provide significant habitat. The risk is real but manageable with repellent use, particularly during peak mosquito activity at dawn and dusk from June through August. The ND DOH issues mosquito season advisories that are worth monitoring for Devils Lake area residents.",
+      },
+      {
+        question: "Why do the mice come in so predictably every fall in Devils Lake?",
+        answer:
+          "Two forces converge: the fall harvest displaces field mice from agricultural land, and the severe Devils Lake winter, which regularly drops well below zero, makes heated buildings essential for mouse survival. House mice that do not find shelter die in those temperatures. The timing is predictable because the harvest and the cold onset happen at the same time each year. Exclusion, sealing all entry points before this annual event, is the only reliable prevention. Trapping controls what is already inside, but new mice will continue arriving through unsecured openings until those gaps are sealed.",
+      },
+      {
+        question: "How do I reduce cluster flies in my Devils Lake home without chemicals?",
+        answer:
+          "The most effective non-chemical approach is exclusion: seal the exterior gaps through which they enter in fall. This includes soffit vents, fascia board gaps, window frame gaps, and any penetration in the exterior wall. Do this in late August before they begin aggregating on warm walls. Inside, fly light traps in the attic collect overwintering flies through the winter. Vacuuming emerging flies in late winter is the short-term control. Cluster flies are parasitic on earthworms and cannot be eliminated from the surrounding landscape, so exclusion is the practical long-term solution.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Minot", slug: "minot" },
+      { name: "Grand Forks", slug: "grand-forks" },
+      { name: "Jamestown", slug: "jamestown-nd" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Devils Lake, ND | Mosquitoes, Mice & Wetland Pests",
+    metaDescription:
+      "Devils Lake pest control for mosquitoes, gnats, house mice and cluster flies. Ramsey County North Dakota lake and wetland shoreline specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

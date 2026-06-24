@@ -1110,4 +1110,211 @@ export const montanaCities: CityLocation[] = [
     metaDescription:
       "Whitefish pest control for house mice, carpenter ants, yellow jackets, deer ticks and cluster flies. Flathead County Glacier National Park gateway resort specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "anaconda-mt",
+    name: "Anaconda",
+    state: "Montana",
+    stateSlug: "montana",
+    stateAbbr: "MT",
+    tier: "T3",
+    population: "~9,400",
+    county: "Deer Lodge County",
+    climate: "cold",
+    climateDriver:
+      "Anaconda sits at roughly 5,300 feet in a mountain valley between the Flint Creek Range and the Anaconda Range. Winters are long and cold, with temperatures regularly dropping well below zero. That cold is the main pest driver here: mice and other overwintering insects push hard into older structures once the valley floor freezes.",
+    topPests: ["House Mice", "Cluster Flies", "Boxelder Bugs", "Yellow Jackets", "Hobo Spiders"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, heavy surge September through March",
+        note: "Montana State University Extension identifies rodent pressure as the top structural pest issue in Montana. Anaconda's mining-era housing stock, with its older foundations and less-tight construction, gives mice plenty of entry points when cold weather arrives.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall entry, winter dormancy, spring emergence",
+        note: "MSU Extension documents cluster flies as a widespread overwintering pest in Montana homes. In Anaconda, they gather in wall voids and attics in fall and become a nuisance again in late winter as they try to reach warmth.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall aggregation",
+        note: "Boxelder bugs mass on warm south-facing walls in Anaconda each fall, then find gaps into wall voids. They are harmless but arrive in numbers that alarm most homeowners.",
+      },
+      {
+        name: "Yellow jackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through September, most aggressive August",
+        note: "Yellow jackets nest in the ground and in structural voids around Anaconda homes. The short warm season means nests are smaller than in warmer states, but ground nests near walkways are a sting hazard through late summer.",
+      },
+      {
+        name: "Hobo spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Late summer through fall, found year-round in basements",
+        note: "Hobo spiders favor the cool, damp basements common in Anaconda's older homes. They build funnel-shaped webs in undisturbed corners and are most active in late summer when males search for mates.",
+      },
+    ],
+    localHook:
+      "Anaconda's copper smelting past left it with a housing stock that dates back a century in many neighborhoods. Those older walls, foundations, and crawl spaces are exactly what mice and cluster flies look for when Montana winters set in. The cold here is not a season so much as a pest-control deadline.",
+    intro:
+      "Pest control in Anaconda is shaped by two forces: the cold mountain valley climate and the older housing stock left over from the mining era. Montana State University Extension is clear that rodents are the number one structural pest issue in the state, and in Anaconda that plays out every fall as mice push into homes through gaps that have widened over decades. Cluster flies, boxelder bugs, and hobo spiders round out the local picture. The good news is that the dry cold keeps humidity-loving pests largely out of the picture. The challenge is the buildings themselves.",
+    sections: [
+      {
+        heading: "Why do mice get into Anaconda homes so reliably every fall?",
+        body: "The short answer is the buildings and the weather. Montana State University Extension identifies rodent pressure as the leading structural pest issue in the state, and Anaconda sits at over 5,300 feet with winters that regularly push temperatures below zero. When it gets that cold, mice are not exploring, they are surviving, and they will squeeze through a gap the width of a pencil to find heat. The mining-era homes that make up a large share of Anaconda's housing stock have foundation settling, pipe penetrations, and crawl space vents that have shifted over decades. A house built in the 1920s has had a century of small movements creating small gaps, and mice find every one of them. The fix is inspection and exclusion before September, sealing those gaps with steel wool, caulk, and hardware cloth before the first hard freeze. Trapping after the fact works, but it never ends if the entry points stay open.",
+      },
+      {
+        heading: "What is the deal with cluster flies in Anaconda attics?",
+        body: "Cluster flies are a legitimate nuisance in Anaconda and across Montana, documented by MSU Extension as a common overwintering pest in the state. They are not a hygiene issue the way house flies are. They breed in earthworm burrows in fields and pastures, and in late summer and fall the adults seek warm, protected spaces to survive winter. Anaconda's older homes offer excellent harborage: south-facing walls absorb heat, and gaps in soffits, window frames, and around chimneys let them into wall voids and attics. The frustration for homeowners comes in late winter, when warming temperatures inside the attic stir the dormant flies and they start wandering down through light fixtures and gaps into living spaces. Sealing attic penetrations and applying a labeled perimeter treatment in late summer, before they cluster, is the most effective approach. Vacuuming up the ones already inside causes less chemical exposure than interior spraying.",
+      },
+      {
+        heading: "Are hobo spiders in Anaconda basements actually dangerous?",
+        body: "Hobo spiders are present in Anaconda and throughout western Montana, and they do favor the cool, damp, undisturbed basements that are common in older homes here. The scientific picture on their medical significance has shifted somewhat in recent years. Earlier research attributed tissue-damaging bites to hobo spiders, but more recent studies have cast some doubt on that, and most current expert guidance classifies their bite as potentially mildly painful but not definitively necrotic. That said, no spider bite is pleasant, and hobo spiders build funnel webs in basement corners, behind stored items, and under utility equipment where people work. The practical advice is to shake out gloves, boots, and stored clothing before putting them on, use a flashlight when reaching into dark basement corners, and seal wall penetrations to reduce the population.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, pipe penetrations, and crawl space vents with steel wool and hardware cloth before September.",
+      "Apply a perimeter treatment in late summer to reduce cluster fly entry before they aggregate on walls.",
+      "Clear wood piles, debris, and stored items from basements to eliminate hobo spider harborage.",
+      "Keep yellow jacket nest activity in check by treating ground nests in May and June before colonies grow large.",
+      "Trim boxelder trees near the home or treat exterior walls in fall to reduce overwintering aggregations.",
+    ],
+    costNote:
+      "Anaconda pest control typically involves a fall rodent exclusion visit, a perimeter treatment for cluster flies and overwintering insects, and targeted spider work in basements. Pricing is competitive with other small Montana mountain cities. Ask about seasonal service plans that bundle the fall and spring visits.",
+    faqs: [
+      {
+        question: "When should Anaconda homeowners start worrying about mice?",
+        answer:
+          "In Anaconda, the window is August through September. The cold comes early at this elevation, and mice begin scouting for entry points before the first hard freeze. If you wait until you see droppings in October, the mice are already inside. A pre-fall inspection and exclusion treatment is the most cost-effective approach in Anaconda's climate.",
+      },
+      {
+        question: "Do cluster flies in Anaconda come back every year even after treatment?",
+        answer:
+          "They can, because the flies breed outdoors in surrounding fields and are not a household infestation in the traditional sense. Each fall brings a new generation looking for overwintering sites. Annual perimeter treatment in late summer, combined with sealing attic and soffit gaps, reduces the numbers significantly but is best thought of as ongoing management rather than a one-time fix.",
+      },
+      {
+        question: "Are boxelder bugs in Anaconda harmful to the home?",
+        answer:
+          "No. Boxelder bugs do not bite, sting, or damage structures. Their main impact is the sheer numbers that congregate on walls and work their way inside, and the faint staining their excrement can leave on light-colored surfaces. The most practical response is sealing entry points and vacuuming up the ones that get inside rather than spraying indoors.",
+      },
+      {
+        question: "Why does Anaconda have so many pest problems in older homes specifically?",
+        answer:
+          "Anaconda's housing stock includes a large number of homes from the early to mid-1900s, built during the copper smelting era. Older construction means more settled foundations, more gaps around original plumbing and utilities, and materials that have degraded over a century. Mice, cluster flies, and spiders all exploit structural gaps. Modern homes with tight construction and foam insulation are significantly harder to enter. An older Anaconda home benefits from a thorough exclusion inspection every few years.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Butte", slug: "butte-mt" },
+      { name: "Missoula", slug: "missoula" },
+      { name: "Helena", slug: "helena-mt" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Anaconda, MT | Mice, Cluster Flies & Hobo Spiders",
+    metaDescription:
+      "Anaconda pest control for house mice, cluster flies, boxelder bugs, and hobo spiders. Mining-era homes and cold mountain winters create real rodent and overwintering pest pressure. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "miles-city-mt",
+    name: "Miles City",
+    state: "Montana",
+    stateSlug: "montana",
+    stateAbbr: "MT",
+    tier: "T3",
+    population: "~8,500",
+    county: "Custer County",
+    climate: "cold",
+    climateDriver:
+      "Miles City sits on the Yellowstone River in eastern Montana's rangeland at roughly 2,360 feet. Continental winters are severe, with summer heat balanced by winter cold that can reach -30 F. The surrounding agricultural and rangeland setting drives rodent pressure far above what urban areas experience, while the river corridor adds overwintering insect pressure.",
+    topPests: ["House Mice", "Cluster Flies", "Boxelder Bugs", "Yellow Jackets", "Hobo Spiders"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, heaviest fall through early spring",
+        note: "Miles City's position at the edge of vast eastern Montana rangeland means the surrounding mouse population is large. Agricultural fields, rangeland, and grain storage bring field mice in from all sides each fall as temperatures drop.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall entry, spring emergence",
+        note: "The agricultural setting around Miles City provides ideal cluster fly breeding habitat. Earthworm populations in surrounding irrigated fields and pastures support large cluster fly numbers that seek homes for winter each fall.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Boxelder and maple trees planted along Miles City streets and in residential neighborhoods host the boxelder bug populations that aggregate on warm walls each fall before seeking interior overwintering sites.",
+      },
+      {
+        name: "Yellow jackets and wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note: "Ground-nesting yellow jackets are a hazard in the yards and parks of Miles City through summer. The city's parks along the Yellowstone provide additional nest sites in embankments and under structures.",
+      },
+      {
+        name: "Hobo spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Late summer through fall, year-round in basements",
+        note: "Hobo spiders are present throughout eastern Montana and turn up in basements, garages, and ground-level spaces in Miles City homes, where they build funnel-shaped webs in undisturbed areas.",
+      },
+    ],
+    localHook:
+      "Miles City is surrounded by rangeland and agriculture for miles in every direction. That setting keeps the mouse population pressure consistently high, and every fall those field mice follow the warmth right into town and into homes. The Yellowstone River corridor also contributes overwintering insects that find their way into riverside properties.",
+    intro:
+      "Pest control in Miles City means working with two landscapes at once: the river corridor along the Yellowstone and the vast rangeland stretching out from town. Montana State University Extension confirms that rodents are the number one structural pest issue in Montana, and Miles City's agricultural and rangeland edges amplify that beyond what most cities face. Cluster flies from the surrounding fields, boxelder bugs from riparian trees, and yellow jackets in summer fill out the local pest calendar. The winters here are genuinely harsh, and that cold drives every pest toward heat and shelter.",
+    sections: [
+      {
+        heading: "Why is mouse pressure so high in Miles City compared to other Montana towns?",
+        body: "Most Montana cities have some rodent pressure in fall and winter. Miles City has it at a different scale. The reason is simple geography: the city sits in the middle of eastern Montana rangeland, with agricultural fields, grasslands, and grain operations extending in every direction. The surrounding mouse population is large, and when temperatures drop each fall, a significant portion of those field mice move toward the warmth of the city. They are not particularly picky about which home they enter. Small gaps under doors, cracks around pipe penetrations, gaps in crawl space vents, and settling around older foundations all provide access. Montana State University Extension recommends exclusion as the primary strategy, because trapping alone in a city like Miles City is an ongoing battle against incoming pressure. Sealing the structure, particularly the foundation and lower walls, is the most durable solution.",
+      },
+      {
+        heading: "What is causing those flies in my Miles City attic every winter?",
+        body: "Almost certainly cluster flies. This is one of the most common homeowner questions in agricultural Montana, and Miles City sits in excellent cluster fly territory. The flies breed in earthworm burrows in surrounding pastures and fields all summer, and in fall the adults seek enclosed, protected spots to survive winter. Attics, wall voids, and the spaces between interior and exterior walls in older homes work well for them. They do not reproduce inside the home and they do not contaminate food. The problem is that on warm winter days, they warm up and start wandering toward light, often emerging through ceiling light fixtures or around window frames in living areas. The timing is random and the numbers can be significant. Sealing attic entry points and applying a perimeter treatment in late August or early September, before they aggregate, makes the biggest difference.",
+      },
+      {
+        heading: "When do yellow jackets become a real problem in Miles City?",
+        body: "Yellow jackets in Miles City build colonies through spring and summer, and they reach their most aggressive and most numerous phase in August and September. That timing coincides with two things: the end of the colony's growth cycle, when thousands of workers are present, and the natural decline in sugar sources as summer ends. An August yellow jacket colony protecting a ground nest or a void in a wall is genuinely dangerous to disturb without protective equipment and the right materials. The parks and green spaces along the Yellowstone River provide additional nesting sites beyond what you would find in a typical residential yard. Treating nests in May and June, when colonies are small and workers are less defensive, is significantly easier and safer than dealing with a peak-season colony.",
+      },
+    ],
+    prevention: [
+      "Seal all gaps at the foundation and around pipe penetrations before the first hard freeze in fall.",
+      "Apply a late-summer perimeter treatment to reduce cluster fly and boxelder bug entry.",
+      "Inspect garage doors and weatherstripping annually; garage access is a primary rodent entry point in Montana winters.",
+      "Treat yellow jacket nests early in the season while colonies are still small.",
+      "Store firewood away from the structure and inspect before bringing inside to avoid spider introductions.",
+    ],
+    costNote:
+      "Miles City pest control pricing reflects the town's size and the agricultural setting. Annual rodent exclusion work, a perimeter overwintering insect treatment in fall, and summer wasp management are the most common service needs. Bundle pricing for seasonal service is often available from local operators.",
+    faqs: [
+      {
+        question: "Why does my Miles City home have mice every single year no matter what I do?",
+        answer:
+          "The surrounding rangeland and agricultural land maintains a large, sustained field mouse population that regenerates every season. If entry points are not sealed, new mice replace trapped or removed ones continuously. The fix is exclusion: sealing the gaps, not just trapping the mice already inside. A professional exclusion inspection identifies the entry points that traps alone cannot address.",
+      },
+      {
+        question: "Are hobo spiders in Miles City dangerous?",
+        answer:
+          "Hobo spiders are present in Miles City and throughout eastern Montana, and their medical significance has been reassessed in recent research. Most current expert guidance classifies their bite as mildly painful rather than definitively dangerous. That said, bites are unpleasant, and hobo spiders favor exactly the kind of undisturbed basement and garage spaces common in older Miles City homes. Reducing clutter and sealing wall penetrations reduces their numbers.",
+      },
+      {
+        question: "How do I tell cluster flies from house flies in my Miles City home?",
+        answer:
+          "Cluster flies are larger and more sluggish than house flies. They tend to gather near windows and light fixtures, especially on warm winter days, rather than moving actively around the kitchen. They appear golden-haired when you look closely. The key distinguishing factor is the season and location: they emerge from attics and wall voids in winter, not from food or garbage sources. If you are seeing them in January near windows, cluster flies are a very safe assumption for a home in Miles City's agricultural setting.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Billings", slug: "billings" },
+      { name: "Great Falls", slug: "great-falls" },
+      { name: "Dickinson", slug: "dickinson" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Miles City, MT | Mice, Cluster Flies & Wasps",
+    metaDescription:
+      "Miles City pest control for house mice, cluster flies, yellow jackets, and hobo spiders. Rangeland and agricultural edges create heavy fall rodent pressure. Free inspection. Call 1-800-PEST-USA.",
+  }
 ];

@@ -1,26 +1,26 @@
 {
-  "last_updated": "2026-06-23T16:45:00Z",
+  "last_updated": "2026-06-24T08:45:00Z",
   "phase": "3-t3-in-progress",
   "autonomy": "Fully autonomous. One block per run (25 pages), full 7-stage pipeline, commit to main, deploy.yml auto-publishes, post live links to Slack as a record. No approval step, no wait-for-go, no stop condition. Advance through the phases in order; when the city universe is built, the pest x city matrix is the long-tail engine and runs indefinitely.",
-  "cities_built": 1653,
+  "cities_built": 1703,
   "towns_built": 0,
-  "total_site_pages": 1736,
-  "completed_chunks": 68,
-  "next_chunk": 69,
+  "total_site_pages": 1785,
+  "completed_chunks": 70,
+  "next_chunk": 71,
   "next_chunk_tier": "T3",
-  "next_chunk_template": "C",
+  "next_chunk_template": "E",
   "tier_t1_target": 75,
   "tier_t1_remaining": 0,
   "tier_t2_target": 300,
   "tier_t2_remaining": 0,
   "tier_t3_floor_population": 5000,
   "tier_t3_target": 5000,
-  "tier_t3_remaining": 3722,
+  "tier_t3_remaining": 3672,
   "tier_t3_note": "T3 = every remaining US incorporated place above 5,000 population not already built in T1 or T2. The Census counts roughly 5,000 to 5,300 such places. Build state by state: add one state file per block to src/data/cities/{state}.ts and register it in src/data/cities/index.ts, exactly as T1/T2 were built. 50-state coverage is the target. 425 T3 pages built so far (chunks 16-32 complete).",
   "batch_size": 25,
   "template_rotation": ["A", "B", "C", "D", "E"],
   "template_distribution_target": { "A": 0.22, "B": 0.20, "C": 0.20, "D": 0.18, "E": 0.20 },
-  "template_distribution_actual": { "A": 348, "B": 346, "C": 321, "D": 320, "E": 318 },
+  "template_distribution_actual": { "A": 348, "B": 346, "C": 346, "D": 345, "E": 318 },
   "blog_articles": 0,
   "services_count": 25,
   "pest_city_matrix": {
@@ -492,5 +492,5 @@
     "michigan/wyandotte", "michigan/riverview-mi", "michigan/trenton-mi", "michigan/sturgis", "michigan/grosse-pointe-woods",
     "new-york/geneva-ny", "new-york/hornell", "new-york/canandaigua", "new-york/gloversville", "new-york/olean"
   ],
-  "notes": "Chunks 57-68 complete 2026-06-23: 1653 city pages total (75 T1 + 300 T2 + 1278 T3). Chunks 67-68 added 50 pages. Chunk 67 (A): OH: marion, circleville, bellefontaine, galion, van-wert. IL: zion, highland-park, harvey, maywood, melrose-park. PA: mechanicsburg, waynesboro-pa, latrobe, oil-city, aliquippa. GA: powder-springs, thomaston, calhoun-ga, jesup, toccoa. NC: eden-nc, dunn, tarboro, lincolnton, kings-mountain. Chunk 68 (B): OH: coshocton, bucyrus, ironton-oh, celina, urbana-oh. GA: fitzgerald, cedartown, rincon-ga, swainsboro, eatonton. MS: laurel-ms, mccomb, greenwood-ms, greenville-ms, clarksdale. MI: wyandotte, riverview-mi, trenton-mi, sturgis, grosse-pointe-woods. NY: geneva-ny, hornell, canandaigua, gloversville, olean. Template: A=348 B=346 C=321 D=320 E=318 (all within 15-25% of 1653). Next chunk 69 at C."
+  "notes": "Chunks 57-70 complete 2026-06-24: 1703 city pages total (75 T1 + 300 T2 + 1328 T3). Chunks 69-70 added 50 pages. Chunk 69 (C): VT: essex-junction-vt, colchester-vt, bennington-vt, brattleboro-vt. NH: portsmouth-nh, salem-nh, laconia-nh, londonderry-nh. ND: jamestown-nd, wahpeton-nd, devils-lake-nd. SD: mitchell-sd, pierre-sd, huron-sd. NE: lexington-ne, south-sioux-city, gering-ne. WY: green-river-wy, riverton-wy, cody-wy. ME: augusta-me, waterville-me, saco-me, westbrook-me, sanford-me. Chunk 70 (D): MT: anaconda-mt, miles-city-mt. ID: kuna-id, eagle-id, mountain-home-id, chubbuck-id, blackfoot-id. WY: lander-wy, torrington-wy, douglas-wy, rawlins-wy. VT: st-johnsbury-vt, springfield-vt. NH: bedford-nh, hudson-nh, merrimack-nh, claremont-nh. SD: spearfish-sd, yankton-sd, vermillion-sd, box-elder-sd. NE: york-ne, mccook-ne, alliance-ne, seward-ne. Template: A=348 B=346 C=346 D=345 E=318 (all within 15-25% of 1703). Next chunk 71 at E."
 }

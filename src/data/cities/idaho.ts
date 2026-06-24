@@ -1262,4 +1262,501 @@ export const idahoCities: CityLocation[] = [
     metaDescription:
       "Moscow pest control for house mice, German cockroaches, bed bugs, carpenter ants and ants. Latah County University of Idaho Palouse Hills north Idaho specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "kuna-id",
+    name: "Kuna",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~24,000",
+    county: "Ada County",
+    climate: "semi-arid",
+    climateDriver:
+      "Kuna sits on the Snake River Plain southwest of Boise in the Treasure Valley at about 2,680 feet. The semi-arid high desert climate brings hot, dry summers and cold winters. Irrigation canals and the residential lawns of this fast-growing suburb create ideal vole habitat, while the open agricultural edges bring mice and wasps close to new development.",
+    topPests: ["Voles", "House Mice", "Yellow Jackets", "Ants", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Meadow voles",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, most visible damage in spring after snow melt",
+        note: "University of Idaho Extension identifies meadow voles as a major lawn and garden pest throughout southern Idaho. Kuna's irrigated residential lawns provide exactly the dense grass cover voles need, and their runway damage, surface tunnels, and gnawed root systems become visible across yards each spring.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, surge in fall",
+        note: "The agricultural fields bordering new Kuna subdivisions bring strong field mouse pressure each fall. The rapid development of the area means many homes sit directly adjacent to unbuilt agricultural lots that serve as mouse reservoir habitat.",
+      },
+      {
+        name: "Yellow jackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October, most aggressive August and September",
+        note: "Yellow jackets nest in the ground and in wall voids of Kuna homes. New construction with unfinished landscaping creates ideal undisturbed ground-nesting sites, and the hot, dry Treasure Valley summer suits wasp colonies well.",
+      },
+      {
+        name: "Pavement and odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Pavement ants and odorous house ants are common across Ada County. In Kuna's newer subdivisions, disturbed soil during construction creates abundant pavement ant habitat, and odorous house ants follow irrigation moisture trails into homes.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Boxelder bugs aggregate on south-facing walls across Kuna in fall as temperatures cool. New construction with less vegetation actually concentrates them on the homes themselves rather than distributing them across trees.",
+      },
+    ],
+    localHook:
+      "Kuna is one of the fastest-growing cities in Idaho, and that growth brings a specific pest problem: new subdivisions carved out of agricultural land sit next to fields, canals, and undisturbed lots that function as pest reservoirs. Voles tearing up irrigated lawns and mice moving from adjacent fields are the most consistent complaints.",
+    intro:
+      "Pest pressure in Kuna reflects its identity as a fast-growing Boise suburb still surrounded by agricultural land. The University of Idaho Extension documents meadow voles as a serious lawn pest throughout southern Idaho, and Kuna's irrigated yards are prime vole territory. At the same time, the homes on agricultural edges deal with fall mouse pressure from the fields that once covered the land. Yellow jackets thrive in the hot Treasure Valley summers, and ants follow irrigation moisture into homes through the dry season. It is the suburban-agricultural edge that defines the pest challenge here.",
+    sections: [
+      {
+        heading: "What is destroying the grass in my Kuna yard every winter?",
+        body: "If you are seeing surface tunnels, dead grass patches in winding patterns, and gnawed roots when you pull up sod in spring, meadow voles are the likely cause. University of Idaho Extension identifies voles as one of the most economically damaging lawn pests in southern Idaho, and Kuna's irrigated residential lawns are ideal habitat. Voles do not hibernate, they live year-round under grass cover and snow, eating grass stems and roots continuously. The damage is invisible until spring when the snow melts and the network of runways is revealed. Dense, irrigated turf is exactly what meadow voles need to stay hidden from predators, so well-watered Kuna lawns actually attract them more than drier or less-managed yards. Population control through exclusion around garden beds, habitat reduction by mowing shorter in fall, and targeted baiting programs are the most effective approaches.",
+      },
+      {
+        heading: "Why do Kuna homes on the edge of new development have worse mouse problems?",
+        body: "New subdivisions in Kuna are built from agricultural land, and the transition is rarely clean. A new subdivision will have finished homes on one side and unbuilt agricultural lots or fields on the other, sometimes literally across the street. Those unbuilt parcels and fields are mouse habitat, and they generate a constant outward pressure each fall as temperatures drop. Mice from surrounding fields move toward the warmth of the nearest heated structures, which in new developments are the houses themselves. The construction process also leaves gaps that older homes do not always have: garage door seals that have not yet settled, pipe penetrations that were not caulked during rough-in, and unfinished crawl space vents. These entry points are easy to miss on a new home because owners often assume new construction means tight construction. A move-in exclusion inspection is worthwhile for any home on Kuna's agricultural edge.",
+      },
+      {
+        heading: "Are yellow jacket stings a real risk in Kuna's newer neighborhoods?",
+        body: "Yes, and the risk is higher in new development than in established neighborhoods, for a specific reason: new construction landscaping. Freshly graded lots with sparse, immature plantings have lots of bare soil, undisturbed embankments, and areas that are not regularly mowed or maintained. Those conditions are ideal for ground-nesting yellow jackets, which prefer undisturbed soil for their nests. A colony established in a backyard embankment or under a patio slab can grow through summer to thousands of workers by August, and a worker who perceives a threat near the nest entrance will sting. Children and pets are most at risk because they are less likely to notice a nest entrance until it is too late. Walk the yard in early summer and treat ground nests when they are small, before colony size makes treatment more hazardous.",
+      },
+    ],
+    prevention: [
+      "Mow lawns shorter in September and October to reduce the grass cover voles need for winter runways.",
+      "Install wire hardware cloth around the bases of garden beds and young trees to block vole gnawing.",
+      "Seal gaps around garage doors, pipe penetrations, and crawl space vents before fall on homes near agricultural edges.",
+      "Walk yards in May and June to locate and treat yellow jacket ground nests while colonies are small.",
+      "Address irrigation leaks around the foundation promptly to avoid creating ant trails into the home.",
+    ],
+    costNote:
+      "Kuna pest control often combines vole lawn treatment with rodent exclusion for the home structure and a wasp management plan in summer. Some providers offer Treasure Valley area plans that cover Kuna along with Boise and Nampa. Ask specifically about vole treatment, as not all general pest control companies include it.",
+    faqs: [
+      {
+        question: "Can I get rid of voles in my Kuna lawn on my own?",
+        answer:
+          "You can reduce them, but the University of Idaho Extension is realistic that vole populations in southern Idaho tend to be self-sustaining when habitat conditions remain favorable. Mowing shorter in fall, reducing lawn irrigation slightly in late summer, and installing hardware cloth barriers around garden beds all help. Bait stations and trapping can reduce numbers, but if neighboring properties or adjacent fields maintain habitat, pressure continues. A professional vole treatment combined with habitat modification gives the most durable results.",
+      },
+      {
+        question: "How do I know if the mice in my Kuna home are coming from the nearby fields?",
+        answer:
+          "In Kuna, homes on or near agricultural edges almost always see field-sourced mouse pressure in fall. House mice and deer mice from surrounding farmland move toward heated structures as temperatures drop in September and October. If your home backs up to a field, an undeveloped lot, or an irrigation canal corridor, fall mouse activity is very likely field-sourced. Exclusion rather than trapping alone is the appropriate response, because new mice will continue arriving from the field as long as entry points remain open.",
+      },
+      {
+        question: "Why do ants in my Kuna home always come back after treatment?",
+        answer:
+          "Ants in Kuna homes, typically pavement ants or odorous house ants, live in colonies outdoors and send foraging workers inside following moisture and food scents. Treating the ants you see inside kills the foragers but does not affect the colony. Effective ant control targets the colony through perimeter treatment and bait placement that the foragers carry back. In Kuna's dry summers, any consistent moisture source near the foundation, dripping irrigation, condensation on AC lines, a clogged gutter, will keep drawing foragers regardless of interior treatment.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Boise", slug: "boise" },
+      { name: "Nampa", slug: "nampa" },
+      { name: "Caldwell", slug: "caldwell" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Kuna, ID | Voles, Mice & Yellow Jackets",
+    metaDescription:
+      "Kuna pest control for meadow voles, house mice, yellow jackets, and ants. Fast-growing Treasure Valley suburb with agricultural-edge rodent and lawn pest pressure. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "eagle-id",
+    name: "Eagle",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~26,000",
+    county: "Ada County",
+    climate: "semi-arid",
+    climateDriver:
+      "Eagle sits in the Boise River corridor northwest of Boise in Ada County at around 2,600 feet. The semi-arid Treasure Valley climate brings hot, dry summers and cold winters. The Boise River corridor and the extensive irrigation networks supporting Eagle's manicured neighborhoods create localized moisture that draws voles, ants, and wasps into otherwise dry suburban yards.",
+    topPests: ["Voles", "House Mice", "Yellow Jackets", "Ants", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Meadow voles",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, most visible damage spring",
+        note: "University of Idaho Extension documents meadow voles as a primary lawn pest in southern Idaho. Eagle's well-irrigated, manicured residential lawns in upscale subdivisions near the Boise River provide dense grass cover that supports vole populations year-round.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, heavy fall surge",
+        note: "Eagle homes near the Boise River corridor and on the suburban edges see fall mouse pressure as the semi-arid cold drives mice indoors. New development areas adjacent to undeveloped land face the highest pressure.",
+      },
+      {
+        name: "Yellow jackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October, aggressive in August",
+        note: "Yellow jackets find nesting sites in the ornamental landscaping, retaining walls, and ground-level structures common in Eagle's newer developments. Paper wasps build nests on eaves across the city's single-family neighborhoods.",
+      },
+      {
+        name: "Pavement and odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Ants follow the irrigation moisture that keeps Eagle's lawns green through the dry Treasure Valley summer. Odorous house ants and pavement ants enter homes along foundation weep gaps and pipe penetrations, looking for water and food.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Boxelder and maple trees planted along Eagle's streets and in residential yards host boxelder bug populations that aggregate on south-facing walls in fall before seeking interior overwintering sites.",
+      },
+    ],
+    localHook:
+      "Eagle's reputation as one of the most desirable addresses in the Boise metro comes partly from its well-kept lawns and mature landscaping near the Boise River. Those same manicured, irrigated yards are exactly what meadow voles need. The University of Idaho Extension specifically documents vole damage as a top lawn pest concern in irrigated southern Idaho communities.",
+    intro:
+      "Eagle sits in the Boise River corridor with some of the most carefully maintained residential properties in Ada County. That care creates a specific pest paradox: the irrigation and dense turf that keep yards looking sharp also create ideal habitat for meadow voles, which tunnel unseen through lawns all winter and reveal their damage in spring. The University of Idaho Extension identifies voles as a major lawn pest throughout southern Idaho, and Eagle's irrigated neighborhoods are among the most at-risk. Mice, yellow jackets, and ants round out a pest picture that is shaped more by the landscape than by any single structure.",
+    sections: [
+      {
+        heading: "Why does vole damage show up in Eagle's nicest lawns?",
+        body: "This is one of the more frustrating realities of maintaining a high-quality lawn in southern Idaho: the better the lawn, the more hospitable it is to meadow voles. Dense, well-irrigated turf provides the ground cover voles need to move around unseen by predators. The Boise River corridor that runs through Eagle adds riparian habitat adjacent to residential properties, and voles move freely between the river corridor and manicured yards. What homeowners see in spring after the first warm weeks is a network of surface runways, dead grass patches following winding paths, and occasionally visible soil tunnels where voles traveled under snow all winter. The damage looks worse than it is in structural terms, because the grass will often recover, but repeated seasons of vole activity weaken the root system over time. Habitat reduction strategies, shorter fall mowing, and population management programs give the best results.",
+      },
+      {
+        heading: "What makes Eagle different from the rest of the Boise metro for pest control?",
+        body: "Eagle has a few characteristics that set it apart in the Ada County market. The Boise River corridor creates riparian moisture adjacent to residential areas, which draws a different insect and rodent population than you would find in drier Boise neighborhoods. Eagle also has a higher proportion of newer, larger homes with extensive landscaping, irrigation, and outdoor living structures like covered patios, pergolas, and outbuildings. Those structures create wasp nesting opportunities that smaller urban lots do not. And the rapid growth on Eagle's outer edges, particularly north of State Street toward the foothills, means a significant portion of the city's homes sit near undeveloped agricultural land and natural areas. The pest pressure at those edges is more intense than in Eagle's established central neighborhoods.",
+      },
+      {
+        heading: "Are ants in Eagle homes a structural risk or just a nuisance?",
+        body: "For most Eagle homeowners, ants are a nuisance rather than a structural risk. Odorous house ants and pavement ants, which are the most common species in the Boise metro, do not damage wood or create structural problems. They enter homes looking for water and food, following trails set by scouts that have found a food source. The dry Treasure Valley summers make any consistent moisture near a foundation, dripping irrigation, condensation around HVAC equipment, a slow leak under a sink, a reliable ant attractor. Carpenter ants are the exception. They excavate galleries in soft or moisture-damaged wood and can cause structural damage over time. If you are seeing larger, dark ants rather than the small ones typical of pavement and odorous house ants, a carpenter ant inspection is worthwhile, particularly in any area with wood moisture exposure.",
+      },
+    ],
+    prevention: [
+      "Mow lawns to a shorter height in fall to remove the dense cover meadow voles need for winter runways.",
+      "Install vole guards (hardware cloth cylinders) around the bases of young trees and shrubs.",
+      "Seal foundation weep holes, pipe penetrations, and crawl space vents before September.",
+      "Check irrigation lines annually for slow leaks near the foundation that attract ants.",
+      "Inspect pergolas, covered patios, and outbuilding eaves for paper wasp nests in early May.",
+    ],
+    costNote:
+      "Eagle pest control commonly packages vole lawn management with interior rodent exclusion and an annual ant and wasp perimeter program. Pricing in the Boise metro is competitive. Ask about service plans that cover multiple visits across the seasons rather than one-time treatments.",
+    faqs: [
+      {
+        question: "How do I prevent voles from damaging my Eagle lawn every year?",
+        answer:
+          "Consistent lawn management in fall is the most effective preventive step. Mow shorter in late September and October so there is less dense cover for voles to use. Reduce irrigation toward the end of the season to lower moisture levels. Hardware cloth cylinders around tree bases protect bark from vole gnawing. For ongoing population management, a licensed pest professional using bait stations in the lawn gives the most reliable results, particularly on properties near the Boise River corridor.",
+      },
+      {
+        question: "Why do wasps keep building nests on my Eagle home every summer?",
+        answer:
+          "Eagle's warm, sunny summers and the abundance of covered outdoor structures in the area's larger homes create ideal conditions for paper wasp and yellow jacket colony establishment. Once a nest location has been used, the pheromone traces left behind can attract new queens to the same spot the following spring. Removing old nests completely after the colony dies in fall and treating eaves with a labeled residual in early spring reduces re-establishment. Yellow jackets in the ground are harder to deter from specific sites.",
+      },
+      {
+        question: "What is the best time of year to schedule pest control in Eagle?",
+        answer:
+          "Two windows matter most for Eagle homeowners. In late summer and early fall, a perimeter treatment for overwintering insects combined with a rodent exclusion inspection addresses the two biggest fall concerns. In spring, an ant prevention perimeter treatment applied before ant activity begins saves a lot of reactive spraying later. Year-round service plans that include both scheduled visits and response calls give the most complete coverage for Eagle's pest calendar.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM and Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Boise", slug: "boise" },
+      { name: "Meridian", slug: "meridian" },
+      { name: "Nampa", slug: "nampa" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Eagle, ID | Voles, Mice & Lawn Pest Specialists",
+    metaDescription:
+      "Eagle pest control for meadow voles, house mice, yellow jackets, and ants. Boise River corridor and irrigated lawns drive vole and ant pressure in Ada County's fastest-growing suburb. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "mountain-home-id",
+    name: "Mountain Home",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~15,400",
+    county: "Elmore County",
+    climate: "semi-arid",
+    climateDriver:
+      "Mountain Home sits on the Snake River Plain in Elmore County at about 3,150 feet, roughly 40 miles southeast of Boise. The semi-arid high desert climate is drier than the Boise Valley, with hot summers and cold winters that can see significant temperature swings. The presence of Mountain Home Air Force Base brings a large military housing community with its own pest management history.",
+    topPests: ["House Mice", "Yellow Jackets", "Voles", "Boxelder Bugs", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, fall and winter surge",
+        note: "Mountain Home's dry, cold winters are a strong driver for mouse entry into homes. The Snake River Plain setting, with sagebrush and agricultural land on the city's edges, provides a steady reservoir of field mice that move toward structures each fall.",
+      },
+      {
+        name: "Yellow jackets and wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through October",
+        note: "Yellow jackets are common across Mountain Home and the Air Force Base housing area, with ground nests a particular issue in the dry, undisturbed soil common in semi-arid high desert settings. Paper wasps build nests on base housing and residential eaves city-wide.",
+      },
+      {
+        name: "Meadow voles",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, visible damage in spring",
+        note: "Irrigated lawns in Mountain Home's residential neighborhoods and base housing areas provide vole habitat. University of Idaho Extension documents voles as a significant lawn pest in irrigated southern Idaho communities.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Boxelder bugs aggregate on south-facing walls across Mountain Home in fall as the high desert cools. They find entry into homes through window frame gaps and siding joints.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall entry, spring emergence",
+        note: "The agricultural and rangeland setting around Mountain Home provides breeding habitat for cluster flies, which seek interior overwintering sites in homes and commercial buildings as fall arrives.",
+      },
+    ],
+    localHook:
+      "Mountain Home Air Force Base sits immediately adjacent to the city, and the base housing community has historically dealt with recurring mouse pressure from the surrounding Snake River Plain. Military housing often changes occupants frequently, which makes consistent pest prevention harder to maintain from unit to unit.",
+    intro:
+      "Mountain Home has a pest profile shaped by its high desert Snake River Plain setting and by the proximity of Mountain Home Air Force Base. The dry, semi-arid climate and cold winters create strong mouse pressure each fall, while the agricultural and sagebrush land on the city's edges keeps the field mouse population high. Voles affect irrigated lawns across the city, and yellow jackets thrive in the hot summers. The base housing community deals with the same pest pressures as the rest of the city, with the added complication of frequent occupant turnover that can leave pest issues unaddressed between assignments.",
+    sections: [
+      {
+        heading: "Why does Mountain Home have such persistent mouse problems every fall?",
+        body: "Mountain Home's location on the Snake River Plain at over 3,100 feet means the winters are genuinely cold, and the surrounding sagebrush and agricultural land supports a large field mouse population. When the Snake River Plain cools in September, those field mice follow the warmth toward the city. Mountain Home is a relatively small city, which means there is more residential housing per mile on the agricultural edge than in larger cities where the built environment extends further from the source. Homes on the city's perimeter, particularly on the east and south sides where development gives way to rangeland quickly, see the most intense pressure. Air Force Base housing has its own pest management operations, but off-base housing in the city operates on private pest control schedules, and gaps between treatment cycles are common entry windows for mice.",
+      },
+      {
+        heading: "What should Mountain Home homeowners know about yellow jackets near the base?",
+        body: "Yellow jackets near Mountain Home Air Force Base and the surrounding residential areas behave the same as elsewhere in the Snake River Plain: they build ground nests in dry, undisturbed soil through summer and become their most aggressive and numerous in August and September. The base housing area and adjacent neighborhoods have a mix of landscaping ages, from mature plantings with established root systems to newer areas with fresh soil. Fresh soil with less root competition is easier for yellow jackets to excavate, and open areas around base housing fencing and maintenance structures provide additional nest sites. The dry high desert summer suits yellow jacket colony growth well. Nests treated in May or June are small and easy to address. Waiting until August means treating a colony of several thousand agitated workers.",
+      },
+      {
+        heading: "How do cluster flies differ from house flies in Mountain Home homes?",
+        body: "Cluster flies are a common source of confusion for Mountain Home homeowners who see flies appearing inside during winter months. They are not the same as house flies and do not indicate a sanitation problem. Cluster flies breed outdoors in earthworm burrows in fall and are entirely harmless as a hygiene matter. What they are is a seasonal nuisance: they enter wall voids and attics in fall through very small gaps, and on warm winter days they become active and move toward light, appearing around windows and light fixtures in living areas. They move slowly, which is one distinguishing characteristic. The practical response is sealing attic entry points in summer and applying a labeled exterior perimeter treatment in late August before they aggregate. Interior treatment with fogging or spraying is less effective than prevention.",
+      },
+    ],
+    prevention: [
+      "Conduct a fall exclusion inspection, focusing on garage door seals, pipe penetrations, and foundation gaps, before October.",
+      "Treat ground-nesting yellow jackets in May and June while colonies are still at low numbers.",
+      "Mow lawns shorter in September to reduce vole winter runway cover in irrigated areas.",
+      "Seal soffits and attic vents with fine mesh before late August to block cluster fly entry.",
+      "Store sagebrush debris, wood, and construction materials away from the structure to reduce rodent and spider harborage.",
+    ],
+    costNote:
+      "Mountain Home pest control is typically priced comparably to other mid-sized Idaho communities. Fall rodent exclusion and overwintering insect treatment are the most common annual service needs. Off-base military housing residents should confirm whether their landlord or property management handles scheduled pest service or whether individual service contracts are expected.",
+    faqs: [
+      {
+        question: "Does the proximity to Mountain Home Air Force Base affect pest control options for city residents?",
+        answer:
+          "The base operates its own pest management program for on-base and base housing units. City residents off-base work with private pest control providers, the same as any Idaho community. The base's presence does not restrict the products or methods available to off-base homeowners. It does mean there is a large residential community nearby with organized pest management, which slightly reduces the overall regional pest pressure compared to an isolated rural community.",
+      },
+      {
+        question: "Why do I keep seeing mice in my Mountain Home garage even after setting traps?",
+        answer:
+          "Traps catch the mice already inside but do not stop new mice from entering if the access points remain open. Mountain Home's Snake River Plain setting means the surrounding field mouse population is large and replenishes continuously. Garage door sweeps that are worn, gaps around garage wall penetrations, and vents that have shifted or corroded are common entry points. An exclusion inspection that locates and seals those gaps is the lasting fix. Trapping is a management tool, not a solution on its own in Mountain Home's environment.",
+      },
+      {
+        question: "What time of year should I schedule pest control in Mountain Home?",
+        answer:
+          "The two most important service windows are late summer for overwintering insect treatment and fall exclusion work on rodents. A perimeter application for cluster flies and boxelder bugs in late August, combined with a rodent exclusion inspection in September, addresses the two biggest seasonal shifts. Summer wasp management for ground nests can be handled in May or June. Spring ant treatment rounds out an annual service plan for most Mountain Home homes.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Boise", slug: "boise" },
+      { name: "Nampa", slug: "nampa" },
+      { name: "Twin Falls", slug: "twin-falls" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Mountain Home, ID | Mice, Wasps & Snake River Plain Pests",
+    metaDescription:
+      "Mountain Home pest control for house mice, yellow jackets, voles, and cluster flies. Snake River Plain semi-arid setting and proximity to Mountain Home AFB shape local pest pressure. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "chubbuck-id",
+    name: "Chubbuck",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~16,000",
+    county: "Bannock County",
+    climate: "cold",
+    climateDriver:
+      "Chubbuck is a Pocatello suburb in Bannock County in southeast Idaho, sitting at roughly 4,450 feet on the eastern Snake River Plain. The higher elevation brings colder, longer winters than Boise, with temperatures regularly reaching well below zero. The cold drives strong rodent pressure each fall, while the proximity to Pocatello's commercial corridors and older housing stock in adjacent areas creates pest complexity.",
+    topPests: ["House Mice", "Yellow Jackets", "Ants", "Voles", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, strong fall and winter surge",
+        note: "At over 4,400 feet, Chubbuck's winters are significantly colder than western Idaho. The cold drives mice hard into structures by mid-September, and homes near the Snake River Plain edges and agricultural land face high field mouse pressure.",
+      },
+      {
+        name: "Yellow jackets and wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "May through September",
+        note: "Yellow jackets nest in the ground and in structural voids across Chubbuck. The city's short growing season means nests are smaller than in warmer climates, but ground nests near walkways are a sting risk through late summer.",
+      },
+      {
+        name: "Pavement and carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Pavement ants are common in Chubbuck's residential areas. Older homes near the Pocatello border can have carpenter ant activity in moisture-affected wood, as the higher precipitation at this elevation can create damp wood conditions in crawl spaces.",
+      },
+      {
+        name: "Meadow voles",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, visible damage in spring",
+        note: "University of Idaho Extension documents voles as a lawn pest in irrigated southeastern Idaho communities. Chubbuck's residential lawns near the Snake River Plain edges see vole runway activity through winter.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Boxelder bugs are a fall nuisance across Chubbuck, aggregating on warm exterior walls and finding entry into homes through gaps in siding, window frames, and utility penetrations.",
+      },
+    ],
+    localHook:
+      "Chubbuck sits at 4,450 feet, which makes it one of the higher-elevation suburbs in the Boise-to-Pocatello corridor. That elevation means winters are genuinely harsh, and pest control in Chubbuck is largely about the fall race to seal structures before the cold drives mice and overwintering insects in from the Snake River Plain.",
+    intro:
+      "Chubbuck's pest challenges are directly tied to its elevation and its position on the eastern Snake River Plain. At over 4,400 feet in Bannock County, the winters are longer and colder than in the Boise area, and that cold creates intense fall rodent pressure as field mice from the surrounding plain move toward heated homes. Ants, yellow jackets, and voles round out the local picture, while older structures near the Pocatello boundary add carpenter ant risk. The city's rapid growth has also brought new developments adjacent to agricultural land, adding to the edge-pest pressure.",
+    sections: [
+      {
+        heading: "Why do Chubbuck homes feel like they have worse mouse problems than Boise?",
+        body: "The elevation explains most of it. Chubbuck sits about 1,700 feet higher than Boise, and those 1,700 feet mean the winters are significantly colder and they arrive earlier. Field mice from the Snake River Plain surrounding the city begin moving toward structures before the end of September. The cold is more urgent at this elevation, and mice are responding to it accordingly. The other factor is Chubbuck's position at the edge of Bannock County's agricultural zone. Fields, rangeland, and grain operations sit close to residential neighborhoods, maintaining a large surrounding mouse population. The combination of earlier, colder winters and a large field mouse population on the doorstep makes fall rodent pressure in Chubbuck more intense than in lower-elevation Treasure Valley communities.",
+      },
+      {
+        heading: "Are carpenter ants a concern in Chubbuck, or just pavement ants?",
+        body: "Both species are present, but the risk profile differs by home age and location. Pavement ants are common across Chubbuck and are the typical small ant homeowners see trailing indoors in spring and summer. They are a nuisance but do not damage structures. Carpenter ants are a different matter. They excavate galleries in softened or moisture-damaged wood and can cause structural damage over time if left unaddressed. Chubbuck's higher elevation brings somewhat higher precipitation than western Idaho, and crawl spaces in older homes near the Pocatello boundary can accumulate moisture that softens wood over time. If you are seeing large, dark ants, roughly half an inch long, particularly near windows, doorframes, or crawl space access points, a carpenter ant inspection is worthwhile rather than assuming they are the same as the small pavement ants.",
+      },
+    ],
+    prevention: [
+      "Prioritize fall exclusion work in September, earlier than lower-elevation Idaho communities, given Chubbuck's cold arrival.",
+      "Inspect crawl spaces in older homes for moisture-damaged wood that could attract carpenter ants.",
+      "Mow lawns shorter before the first hard frost to reduce vole runway cover.",
+      "Address yellow jacket ground nests in May or June before colonies reach late-summer peak size.",
+      "Check weatherstripping and door sweeps annually, as Chubbuck's temperature swings cause faster material degradation.",
+    ],
+    costNote:
+      "Chubbuck pest control typically runs alongside Pocatello-area pricing. Annual service plans covering fall rodent exclusion and overwintering insect treatment are common in Bannock County. Ask whether the provider handles both vole lawn treatment and structural rodent exclusion, as some specialize in one or the other.",
+    faqs: [
+      {
+        question: "When should Chubbuck homeowners schedule fall pest control?",
+        answer:
+          "Earlier than you might think. At Chubbuck's elevation, temperatures can drop significantly by mid-September, and mice begin scouting for entry points before the first hard freeze. A fall exclusion inspection in late August or early September is earlier than most homeowners expect but matches the actual pest calendar at this elevation. Waiting until you see evidence inside means the mice are already established.",
+      },
+      {
+        question: "Do Chubbuck's ants ever actually damage homes, or are they just a nuisance?",
+        answer:
+          "Pavement ants and odorous house ants, the most common species in Chubbuck, do not damage structures. They are nuisance pests that enter looking for food and water. Carpenter ants are different and can cause structural damage in moisture-affected wood. If your home has crawl space moisture issues or if you see larger, darker ants near wood elements, a specific carpenter ant inspection is worth scheduling separately from general ant control.",
+      },
+      {
+        question: "Why do yellow jackets in Chubbuck seem to disappear early in the fall?",
+        answer:
+          "Chubbuck's higher elevation and earlier cold arrival means yellow jacket colonies end their season earlier than in Boise. Worker populations peak in August and then decline quickly as September temperatures drop. By early October, most colonies are dead. The queens that overwinter do so individually in protected spots outdoors, not in your home. The nuisance period is shorter here than in warmer climates, but the late summer peak in August is still a genuine sting hazard.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Pocatello", slug: "pocatello" },
+      { name: "Idaho Falls", slug: "idaho-falls" },
+      { name: "Twin Falls", slug: "twin-falls" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Chubbuck, ID | Mice, Ants & High-Elevation Pest Control",
+    metaDescription:
+      "Chubbuck pest control for house mice, ants, yellow jackets, and voles. Bannock County high-elevation suburb with strong fall rodent pressure from the Snake River Plain. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "blackfoot-id",
+    name: "Blackfoot",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~11,900",
+    county: "Bingham County",
+    climate: "cold",
+    climateDriver:
+      "Blackfoot sits at about 4,500 feet on the Snake River Plain in Bingham County, the heart of Idaho's potato-growing region. Cold continental winters, hot dry summers, and the surrounding agricultural infrastructure of potato fields, irrigation systems, and storage facilities create pest conditions unlike those in most Idaho cities: field mouse pressure from one of the most productive agricultural regions in North America.",
+    topPests: ["House Mice", "Voles", "Yellow Jackets", "Boxelder Bugs", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "House mice and field mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, intense fall surge",
+        note: "Bingham County's potato-growing operations maintain high rodent populations around storage facilities, field margins, and irrigation infrastructure. Blackfoot homes adjacent to agricultural land or near potato storage areas face above-average fall mouse pressure as cold weather drives field mice toward heated structures.",
+      },
+      {
+        name: "Meadow voles",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, damage visible in spring",
+        note: "University of Idaho Extension identifies voles as a serious pest in irrigated southern Idaho agricultural communities. Blackfoot's irrigated residential lawns adjacent to potato-growing operations and irrigation canals support vole populations that damage grass, roots, and garden plantings.",
+      },
+      {
+        name: "Yellow jackets and wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through September",
+        note: "Ground-nesting yellow jackets are a hazard in Blackfoot yards and around the city's agricultural edges. The dry, undisturbed soil common in rangeland and field margins provides nest sites close to residential areas.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Late summer through fall",
+        note: "Boxelder bugs aggregate on warm walls across Blackfoot in fall. Trees planted along city streets and in residential yards host the populations that move toward homes as temperatures cool.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall entry, spring emergence",
+        note: "The extensive agricultural setting around Blackfoot provides earthworm habitat in irrigated fields that supports large cluster fly populations seeking overwintering sites in homes each fall.",
+      },
+    ],
+    localHook:
+      "Blackfoot calls itself the Potato Capital of the World, and the potato industry that defines Bingham County creates a very specific pest challenge: the agricultural infrastructure of fields, irrigation canals, and storage operations maintains one of the highest field mouse populations of any Idaho community. When the Snake River Plain freezes, those mice head for Blackfoot homes.",
+    intro:
+      "Pest control in Blackfoot is inseparable from the potato industry that surrounds it. Bingham County's intensive agricultural operation, with miles of potato fields, irrigation canals, and large-scale storage facilities, creates and sustains a field mouse population on a different scale than most Idaho communities face. University of Idaho Extension documents voles as a significant lawn pest throughout irrigated southern Idaho, and Blackfoot's irrigated yards are subject to the same pressure. Cluster flies from surrounding agricultural land, yellow jackets in the dry summer heat, and boxelder bugs in fall complete the local pest calendar.",
+    sections: [
+      {
+        heading: "How does Blackfoot's potato industry affect home pest pressure?",
+        body: "Agricultural operations at the scale present in Bingham County create and sustain rodent populations that a city surrounded by suburban or natural land simply would not face. Potato storage facilities provide warmth and food access for mice through winter. Irrigation canals and field margins provide summer habitat and cover. The result is a surrounding mouse population that is large, well-fed, and present year-round. When cold weather arrives in September and October, that population does not disappear; it redistributes toward heat sources, and the nearest heat sources are Blackfoot's residential homes. Homes on the city's perimeter, where residential lots back directly onto agricultural fields, face the highest fall pressure. But mice that establish in perimeter homes move through the city from yard to yard, so even central neighborhoods see fall mouse activity driven by the surrounding agricultural landscape. Exclusion work focused on foundation gaps, garage door seals, and utility penetrations is the first line of defense for any Blackfoot home.",
+      },
+      {
+        heading: "Why do voles destroy Blackfoot lawns more than in other Idaho cities?",
+        body: "Blackfoot's irrigation infrastructure extends right through the city. Canals, lateral ditches, and the general abundance of irrigation water that supports the potato industry also keeps residential lawns well-watered, creating dense turf that is ideal vole habitat. University of Idaho Extension specifically identifies irrigated communities in southeastern Idaho as facing high vole pressure, and Blackfoot fits that profile precisely. The proximity of agricultural land adds to the reservoir population adjacent to residential yards. Voles damage lawns by eating grass stems and roots and by tunneling, and the damage accumulates unseen through winter, becoming visible only in spring when snow melts. Homeowners who manage the problem in one season often see it return the following year because the surrounding habitat continuously supplies new voles.",
+      },
+    ],
+    prevention: [
+      "Seal all foundation gaps and utility penetrations before September to address fall field mouse pressure from surrounding potato operations.",
+      "Install hardware cloth barriers around garden beds and tree bases to block vole gnawing.",
+      "Apply a perimeter treatment for cluster flies and boxelder bugs in late August before fall aggregation begins.",
+      "Mow lawns shorter in September and reduce irrigation in fall to lower vole winter habitat quality.",
+      "Inspect and replace garage door sweeps annually to prevent the most common rodent entry route.",
+    ],
+    costNote:
+      "Blackfoot pest control pricing is comparable to other Bingham County communities. Annual service plans that include fall rodent exclusion, vole management, and overwintering insect treatment are the most cost-effective approach given the consistent agricultural-edge pressure. Ask about programs designed specifically for homes near potato operations or irrigation canals.",
+    faqs: [
+      {
+        question: "Are the mice near Blackfoot's potato storage facilities different from typical house mice?",
+        answer:
+          "Mostly house mice and deer mice, the same species common throughout Idaho. The difference is population density and boldness, not species. Storage facilities provide warmth and food through winter, which keeps populations larger than they would be in a purely natural setting. Deer mice that live near stored crops carry hantavirus risk, which makes proper handling of droppings and nesting material in enclosed spaces a safety matter, not just a pest control one.",
+      },
+      {
+        question: "Why do cluster flies come back to my Blackfoot home every fall no matter what I do?",
+        answer:
+          "Cluster flies breed in earthworm burrows in surrounding agricultural fields, and Blackfoot's irrigated fields support large earthworm populations. Each year produces a new generation that needs overwintering sites. Annual perimeter treatment in late August and sealing attic and soffit gaps each spring addresses that year's cohort, but the source population in surrounding fields means ongoing management is more realistic than permanent elimination.",
+      },
+      {
+        question: "What is the most important pest control investment for a Blackfoot homeowner?",
+        answer:
+          "Rodent exclusion, without question. The surrounding agricultural setting creates sustained fall mouse pressure that no amount of trapping fully addresses once mice are inside. A professional exclusion inspection that identifies and seals the gaps in the foundation, garage, crawl space, and utility penetrations is the highest-value single investment for any Blackfoot home. It should ideally be done before September.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Pocatello", slug: "pocatello" },
+      { name: "Idaho Falls", slug: "idaho-falls" },
+      { name: "Chubbuck", slug: "chubbuck-id" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Blackfoot, ID | Mice, Voles & Agricultural Pest Specialists",
+    metaDescription:
+      "Blackfoot pest control for house mice, meadow voles, yellow jackets, and cluster flies. Bingham County potato-growing operations create intense fall rodent pressure. Free inspection. Call 1-800-PEST-USA.",
+  }
 ];
