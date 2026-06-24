@@ -7856,4 +7856,349 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Eatonton GA pest control between Lake Oconee and Lake Sinclair: eastern subterranean termites, extended mosquito seasons on lake corridors, and seasonal property pest prevention. Free inspection.",
   },
+  {
+  slug: "norcross-ga",
+  name: "Norcross",
+  state: "Georgia",
+  stateSlug: "georgia",
+  stateAbbr: "GA",
+  tier: "T3",
+  population: "~17,000",
+  county: "Gwinnett County",
+  climate: "hot-humid",
+  climateDriver:
+    "Norcross sits in western Gwinnett County along the I-85 corridor, within the Atlanta metro area's humid subtropical climate zone. The community's mix of older residential areas, commercial corridors, and proximity to Peachtree Creek drainages creates sustained mosquito breeding habitat and the year-round warmth that keeps termites and cockroaches active. Gwinnett County's rapid growth has brought both new construction and denser multi-family housing, both of which carry their own pest dynamics.",
+  topPests: [
+    "Eastern Subterranean Termites",
+    "Mosquitoes",
+    "Fire Ants",
+    "German Cockroaches",
+    "Carpenter Ants",
+  ],
+  pestProfile: [
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarms February through April, active most of the year",
+      note:
+        "Gwinnett County carries heavy subterranean termite pressure consistent with the greater Atlanta metro area's humid subtropical climate. Norcross's mix of older residential neighborhoods and commercial properties near the I-85 corridor includes a significant share of structures with the crawl spaces and wood construction that subterranean termites target. Annual inspections are the standard protective measure here.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "March through October",
+      note:
+        "The creek drainages running through western Gwinnett County and the many shaded residential lots in Norcross provide sustained mosquito habitat. The Atlanta metro is regularly ranked among the worst US cities for mosquitoes, and Norcross's densely treed neighborhoods hold the shade and moisture that extend the breeding season.",
+    },
+    {
+      name: "Red imported fire ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Year-round, most aggressive spring through fall",
+      note:
+        "Fire ants are well established across Gwinnett County and rebuild mounds quickly after rain. Norcross's older residential yards and the open grassy areas near commercial developments are common locations for active mounds. The Atlanta area's mild winters allow colonies to remain active year-round.",
+    },
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note:
+        "German cockroaches are the dominant indoor pest in Norcross's older apartment complexes, restaurants, and multi-family housing near the commercial corridors. The humid Atlanta metro climate keeps breeding conditions favorable year-round, and the community's diverse multi-family housing stock provides the shared infrastructure through which infestations spread.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "March through October, peaks in spring",
+      note:
+        "Norcross's established residential neighborhoods with mature tree canopy provide carpenter ant foraging habitat. They target moist or softened wood in structures, a concern in older homes where roof leaks or moisture intrusion has gone unaddressed. University of Georgia Extension identifies carpenter ants as a significant wood-destroying pest across the Atlanta metro.",
+    },
+  ],
+  localHook:
+    "Norcross sits in western Gwinnett County along the I-85 corridor, where the Atlanta metro's heavy mosquito season, persistent subterranean termite pressure, and year-round German cockroach activity combine with a diverse mix of older homes and multi-family housing stock.",
+  intro:
+    "Pest control in Norcross reflects the Atlanta metro's pest reality: heavy termite pressure, a long and intense mosquito season, and fire ants that never fully go dormant. Western Gwinnett County carries the humid subtropical conditions that University of Georgia Extension associates with year-round subterranean termite activity, and the Atlanta area's standing as one of the worst US metro areas for mosquitoes is felt fully in Norcross's shaded, creek-adjacent neighborhoods. German cockroaches are the consistent indoor problem in the community's older multi-family housing, and carpenter ants add wood-destroying pressure in established residential areas.",
+  sections: [
+    {
+      heading: "Termite and carpenter ant pressure in Norcross",
+      body:
+        "Gwinnett County's humid subtropical climate supports heavy subterranean termite activity through much of the year, and Norcross's older residential and commercial properties carry the conditions that termites target: wood construction, crawl spaces, and in some cases wood-to-soil contact from older landscaping or deck structures. University of Georgia Extension also identifies carpenter ants as a significant wood-destroying pest across the Atlanta metro. Carpenter ants hollow out moist or damaged wood for nesting, which makes them a concern in older Norcross homes where moisture intrusion from roof or window issues has softened structural wood over time. The two pests require different treatment approaches, so identifying which species is present is the necessary first step.",
+    },
+    {
+      heading: "Mosquitoes and fire ants through the Gwinnett County season",
+      body:
+        "Atlanta regularly ranks among the worst US cities for mosquitoes, and Norcross's wooded residential streets and creek drainages in western Gwinnett County contribute to that standing. Shaded lots hold moisture longer after rain events, extending the breeding window, and the Asian tiger mosquito adds a daytime biting dimension that is common across the metro. Fire ants are firmly established in Gwinnett County and stay active year-round given the region's mild winters. Norcross's mix of residential yards, commercial grassy areas, and the open land between developments provides multiple locations for colony establishment. Treating mounds as they appear after rain keeps the sting risk manageable.",
+    },
+  ],
+  prevention: [
+    "Schedule an annual termite inspection for older Norcross homes, particularly those with crawl spaces or wood near soil grade.",
+    "Remove standing water from gutters, containers, and shaded low spots weekly through the long Atlanta metro mosquito season.",
+    "Treat fire ant mounds promptly, as Gwinnett County's mild winters allow colonies to remain active year-round.",
+    "Address any moisture intrusion in roof, windows, or crawl spaces to reduce carpenter ant nesting conditions.",
+    "Coordinate cockroach treatment with building management in multi-family housing to prevent reinfestations through shared walls.",
+  ],
+  costNote:
+    "In Norcross, most households carry a recurring general pest plan covering cockroaches, ants, and fire ants, with termite protection quoted separately after inspection. Mosquito service is a popular seasonal add-on for the long Atlanta metro season. A free assessment is the starting point for any Norcross property.",
+  faqs: [
+    {
+      question: "Is Norcross in a high termite risk area?",
+      answer:
+        "Yes. Gwinnett County falls within the Atlanta metro's heavy subterranean termite pressure zone, driven by the humid subtropical climate that University of Georgia Extension associates with year-round termite activity. Norcross's older residential and commercial properties with crawl spaces and wood construction face the greatest exposure. Annual inspections are the standard level of protection here.",
+    },
+    {
+      question: "Why does Norcross have such a long mosquito season?",
+      answer:
+        "The Atlanta metro's frequent summer rain, dense tree canopy, and high humidity create near-ideal mosquito conditions, and Norcross's shaded residential streets and creek drainages in western Gwinnett County reflect that fully. Atlanta regularly ranks among the worst US cities for mosquitoes. The season typically runs March through October. The day-biting Asian tiger mosquito is established across the area and extends daily exposure.",
+    },
+    {
+      question: "Are German cockroaches common in Norcross apartment buildings?",
+      answer:
+        "Yes. German cockroaches breed entirely indoors and spread through shared wall voids, plumbing chases, and service corridors in multi-family buildings. Norcross's older apartment complexes near the I-85 corridor and downtown commercial areas are the most common environments for established populations. Effective treatment in multi-family housing requires a coordinated approach across units rather than treating each apartment in isolation.",
+    },
+    {
+      question: "What is the difference between subterranean termites and carpenter ants?",
+      answer:
+        "Eastern subterranean termites eat wood from the inside out, traveling through mud tubes from the soil to reach structural wood. Carpenter ants do not eat wood but tunnel into moist or softened wood to build nesting galleries. Both cause structural damage over time and are present in Norcross. They require different treatment approaches: an inspection by a licensed technician can identify which pest you are dealing with and set the right treatment plan.",
+    },
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Peachtree Corners", slug: "peachtree-corners" },
+    { name: "Duluth", slug: "duluth-ga" },
+    { name: "Lawrenceville", slug: "lawrenceville-ga" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Norcross, GA | Termites, Mosquitoes & Cockroaches",
+  metaDescription:
+    "Norcross, GA pest control for eastern subterranean termites, mosquitoes, German cockroaches, fire ants, and carpenter ants. Licensed technicians serving Gwinnett County. Free inspection.",
+},
+{
+  slug: "kingsland-ga",
+  name: "Kingsland",
+  state: "Georgia",
+  stateSlug: "georgia",
+  stateAbbr: "GA",
+  tier: "T3",
+  population: "~17,000",
+  county: "Camden County",
+  climate: "hot-humid",
+  climateDriver:
+    "Kingsland sits in coastal Camden County near the Florida border, adjacent to the Satilla River and St. Marys River marshes and close to Naval Submarine Base Kings Bay. The maritime influence of the Georgia coast and the surrounding tidal marshes create year-round high humidity, warm winters, and pest pressure that more closely resembles coastal Florida than inland Georgia. University of Georgia Extension identifies coastal Georgia as a high termite pressure zone, and the wetland proximity sustains year-round mosquito breeding habitat.",
+  topPests: [
+    "Eastern Subterranean Termites",
+    "Mosquitoes",
+    "Fire Ants",
+    "German Cockroaches",
+    "Palmetto Bugs",
+  ],
+  pestProfile: [
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarms February through April, active most of the year",
+      note:
+        "Kingsland's coastal Camden County location near the Satilla River and St. Marys River marshes creates year-round termite conditions comparable to coastal Florida. The warm coastal winters rarely slow subterranean termite colony activity, and the high humidity throughout the year keeps soil conditions favorable. University of Georgia Extension identifies coastal Georgia as a heavy termite pressure zone.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "March through November, near year-round in mild winters",
+      note:
+        "The tidal marshes of the Satilla and St. Marys Rivers adjacent to Camden County provide extensive mosquito breeding habitat that cannot be managed at the property level alone. Kingsland's coastal location means the mosquito season extends later into fall and begins earlier in spring than inland Georgia. The Asian tiger mosquito bites during daylight hours and is well established across coastal Georgia.",
+    },
+    {
+      name: "Red imported fire ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Year-round",
+      note:
+        "Fire ants are established throughout Camden County and remain active year-round given the coastal climate's warm winters. Kingsland's residential areas and the open land around the Naval Submarine Base Kings Bay corridor see active mound building throughout the year. Mounds rebuild quickly after the frequent rain events that characterize coastal Georgia.",
+    },
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note:
+        "German cockroaches sustain year-round indoor populations across Kingsland's restaurants, multi-family housing, and commercial properties. The year-round high humidity of coastal Camden County keeps breeding conditions favorable without pause, and the area's steady population growth from the Kings Bay base community brings the turnover in rental housing that can reintroduce populations.",
+    },
+    {
+      name: "Palmetto bugs (Florida woods cockroach)",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round, most common spring through fall",
+      note:
+        "Kingsland's proximity to the Florida border and the coastal marshes brings palmetto bug pressure more commonly seen in coastal Florida. The Florida woods cockroach lives in moist outdoor areas around foundations and wood piles and enters structures when disturbed. Their presence distinguishes Kingsland's pest profile from most of inland Georgia.",
+    },
+  ],
+  localHook:
+    "Kingsland's coastal Camden County location near the Satilla River and St. Marys River marshes creates year-round mosquito and termite pressure comparable to coastal Florida rather than inland Georgia. University of Georgia Extension identifies coastal Georgia as a heavy termite zone, and the maritime climate here means the pest season runs with very little pause.",
+  intro:
+    "Pest control in Kingsland operates in a coastal climate zone that Georgia's inland cities do not share. The tidal marshes of the Satilla and St. Marys Rivers provide year-round mosquito breeding habitat on a scale that cannot be managed from a single property. University of Georgia Extension identifies coastal Georgia as a heavy termite zone, and Kingsland's warm winters mean subterranean termite colonies stay active through much of the year rather than slowing. The Florida border proximity also brings palmetto bugs into the pest picture alongside German cockroaches, and fire ants are active year-round in the coastal warmth.",
+  sections: [
+    {
+      heading: "Termite pressure in coastal Camden County",
+      body:
+        "University of Georgia Extension identifies coastal Georgia as a heavy subterranean termite pressure zone, and Kingsland's position at the Georgia-Florida border with maritime marsh influence pushes that pressure toward the levels more typical of coastal Florida. The warm coastal winters rarely slow termite colony activity in Camden County, and the year-round high humidity from the surrounding marshes keeps soil moisture at the levels that sustain colonies. Both older homes and newer construction in Kingsland need attention: older properties for wood-to-soil contact and crawl space conditions, newer builds because development activity can bring colonies into contact with new structures. Annual inspections and a preventive treatment plan are the practical defense.",
+    },
+    {
+      heading: "Mosquitoes, palmetto bugs, and the coastal pest profile",
+      body:
+        "The tidal marshes of the Satilla and St. Marys Rivers adjacent to Camden County represent mosquito breeding habitat that extends well beyond any single residential property. Kingsland's mosquito season runs from early spring through late fall, with mild winters sometimes allowing some activity even in December and January. The Asian tiger mosquito, which bites during daylight hours, is established across coastal Georgia. Palmetto bugs, the Florida woods cockroach, add a pest that most of inland Georgia rarely contends with. They live in moist outdoor areas around foundations and wood piles and enter homes when outdoor conditions push them inside. Treating outdoor harborage areas around the foundation and sealing entry points are the most effective steps alongside indoor treatment.",
+    },
+  ],
+  prevention: [
+    "Schedule an annual termite inspection given coastal Camden County's heavy termite pressure and year-round warm climate.",
+    "Reduce wood piles, excess mulch, and moisture accumulation around foundations to limit palmetto bug harborage.",
+    "Remove standing water from containers and gutters weekly through the extended coastal mosquito season.",
+    "Seal foundation gaps, utility penetrations, and door sweeps to reduce palmetto bug and cockroach entry points.",
+    "Treat fire ant mounds as they appear year-round; coastal Camden County's warm winters do not give a reliable die-back period.",
+  ],
+  costNote:
+    "In Kingsland, most households carry both a recurring general pest plan covering cockroaches, palmetto bugs, ants, and fire ants, and a separate termite protection plan given the heavy coastal pressure. Mosquito service is a popular add-on for the long coastal season. A free assessment sets the right protection level for each property.",
+  faqs: [
+    {
+      question: "Why does Kingsland have pest pressure similar to Florida?",
+      answer:
+        "Kingsland's location in coastal Camden County near the Florida border, adjacent to the Satilla River and St. Marys River marshes, gives it a maritime climate with warm winters and year-round high humidity. University of Georgia Extension identifies coastal Georgia as a heavy termite zone, and the tidal marsh influence extends the mosquito season and introduces pests like the palmetto bug that are more typical of coastal Florida than inland Georgia.",
+    },
+    {
+      question: "What is a palmetto bug and is it common in Kingsland?",
+      answer:
+        "Palmetto bug is the common name for the Florida woods cockroach, a large outdoor roach species that lives in moist areas around foundations, mulch, and wood piles. It is distinct from the German cockroach, which breeds entirely indoors. In Kingsland, the coastal proximity to Florida means palmetto bugs are a regular presence. They require different treatment approaches than German cockroaches, so identifying which type is present is the first step.",
+    },
+    {
+      question: "How serious is termite risk in Kingsland?",
+      answer:
+        "Very serious. University of Georgia Extension identifies coastal Georgia as a heavy subterranean termite pressure zone, and Kingsland's warm coastal winters keep termite colony activity running year-round rather than slowing in cold weather. Annual inspections and a preventive soil treatment or baiting program are the standard level of protection for homes in Camden County, particularly those with crawl spaces.",
+    },
+    {
+      question: "How long is the mosquito season in Kingsland?",
+      answer:
+        "The active mosquito season in Kingsland typically runs from March through November, and mild winters can extend some activity into December. The tidal marshes of the Satilla and St. Marys Rivers adjacent to Camden County provide extensive breeding habitat that persists even through dry periods. The Asian tiger mosquito, which bites during daylight hours, is established across coastal Georgia. Removing standing water around the home and treating shaded yard resting areas are the most effective property-level steps.",
+    },
+  ],
+  author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Brunswick", slug: "brunswick-ga" },
+    { name: "Waycross", slug: "waycross" },
+    { name: "Savannah", slug: "savannah" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Kingsland, GA | Termites, Mosquitoes & Palmetto Bugs",
+  metaDescription:
+    "Kingsland, GA pest control for eastern subterranean termites, mosquitoes, palmetto bugs, German cockroaches, and fire ants. Coastal Camden County year-round pest pressure. Free inspection.",
+},
+{
+  slug: "lilburn-ga",
+  name: "Lilburn",
+  state: "Georgia",
+  stateSlug: "georgia",
+  stateAbbr: "GA",
+  tier: "T3",
+  population: "~13,000",
+  county: "Gwinnett County",
+  climate: "hot-humid",
+  climateDriver:
+    "Lilburn sits in central Gwinnett County northeast of Atlanta, where the humid subtropical climate combines with a mature residential tree canopy and the Yellow River corridor to create sustained pest pressure. The established neighborhood character, with large lots, dense shade, and older homes, holds moisture and provides habitat conditions that favor termites, mosquitoes, and carpenter ants. Gwinnett County's humid summers and mild winters keep pest activity elevated through much of the year.",
+  topPests: [
+    "Eastern Subterranean Termites",
+    "Mosquitoes",
+    "Fire Ants",
+    "German Cockroaches",
+    "Carpenter Ants",
+  ],
+  pestProfile: [
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarms February through April, active most of the year",
+      note:
+        "Lilburn's established neighborhoods with mature trees and shaded lots hold the soil moisture that subterranean termite colonies depend on. Gwinnett County falls within the Atlanta metro's heavy termite pressure zone, and the older homes in Lilburn with crawl spaces and wood construction are at elevated risk. University of Georgia Extension identifies the Atlanta metro as a high termite pressure area.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "March through October",
+      note:
+        "The Yellow River corridor running through Gwinnett County provides natural mosquito breeding habitat adjacent to Lilburn's residential areas. The mature tree canopy across Lilburn's established neighborhoods holds shade and moisture after rain events, extending the breeding window. Atlanta ranks among the worst US cities for mosquitoes, and Lilburn's shaded residential character contributes to that.",
+    },
+    {
+      name: "Red imported fire ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Year-round, most aggressive spring through fall",
+      note:
+        "Fire ants are firmly established across Gwinnett County and remain active year-round given the Atlanta metro's mild winters. Lilburn's residential lawns and the open grassy areas in parks and along road margins are common mound locations. Mounds rebuild quickly after rain, and the area's frequent summer storms mean they can reappear within days of treatment.",
+    },
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note:
+        "German cockroaches sustain year-round indoor populations in Lilburn's older homes and multi-family units. The humid Atlanta climate keeps breeding conditions favorable year-round. Older kitchen and bathroom plumbing in established Gwinnett County neighborhoods provides the conditions where cockroach populations can build up steadily over time.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "March through October, peaks in spring",
+      note:
+        "Lilburn's mature tree canopy is one of its defining characteristics, and it also provides extensive carpenter ant habitat. They forage from established trees into structures, targeting moist or softened wood. University of Georgia Extension identifies carpenter ants as a significant wood-destroying pest across the Atlanta metro, and Lilburn's older residential character means more structures with the accumulated moisture damage that carpenter ants prefer.",
+    },
+  ],
+  localHook:
+    "Lilburn's mature tree canopy and the Yellow River corridor running through central Gwinnett County create ideal conditions for both mosquitoes and carpenter ants. The Atlanta metro's heavy mosquito season and Lilburn's shaded established neighborhoods sustain pest pressure through much of the year.",
+  intro:
+    "Pest control in Lilburn benefits from the community's character as an established, tree-canopied Gwinnett County suburb, but that same character creates some of the conditions that sustain local pest pressure. The shaded lots hold moisture after rain, extending the mosquito breeding window that already runs long in the Atlanta metro. Mature trees adjacent to older homes provide carpenter ant foraging routes. Eastern subterranean termites carry heavy pressure across Gwinnett County, and the established homes in Lilburn often have the crawl spaces and older wood construction that termites target. Fire ants and German cockroaches round out a pest profile that is active through much of the year.",
+  sections: [
+    {
+      heading: "Why Lilburn's tree canopy affects your pest calendar",
+      body:
+        "Lilburn's mature neighborhood tree canopy is one of its most appealing features. It also shapes the local pest environment in ways that residents should understand. Shaded lots hold moisture significantly longer after rain events, which extends mosquito breeding habitat and keeps soil moisture elevated around foundations, precisely the conditions that subterranean termites favor. Mature trees adjacent to homes provide established foraging routes for carpenter ants, who target moist or softened wood in structures. University of Georgia Extension identifies both subterranean termites and carpenter ants as significant wood-destroying pests across the Atlanta metro. Regular inspections, moisture management, and keeping tree limbs trimmed back from the roofline are all practical steps for Lilburn homeowners.",
+    },
+    {
+      heading: "Mosquitoes and fire ants in central Gwinnett County",
+      body:
+        "The Atlanta metro regularly ranks among the worst US metro areas for mosquitoes, and Lilburn's position in central Gwinnett County near the Yellow River corridor puts it well within that standing. The mature canopy slows moisture evaporation, and the Yellow River's floodplain areas provide breeding habitat that extends beyond any single yard. The season typically runs from March through October. Fire ants are firmly established across Gwinnett County and remain active year-round. Lilburn's residential lawns and the green spaces along road corridors see consistent mound building. Treating mounds as they appear after rain, rather than waiting for a large colony to establish, is the practical approach throughout the Atlanta metro's mild-winter year.",
+    },
+  ],
+  prevention: [
+    "Trim tree limbs back from the roofline and exterior walls to reduce carpenter ant and moisture entry points.",
+    "Schedule an annual termite inspection, particularly for older Lilburn homes with crawl spaces or wood near soil grade.",
+    "Remove standing water from containers, gutters, and shaded low spots weekly through the long Atlanta mosquito season.",
+    "Treat fire ant mounds as they appear after rain rather than waiting for large colonies to establish across the lawn.",
+    "Address any moisture intrusion from roof, window, or crawl space sources to reduce carpenter ant nesting conditions in older homes.",
+  ],
+  costNote:
+    "In Lilburn, most homeowners carry a recurring general pest plan covering cockroaches, ants, and fire ants, with termite protection quoted separately after inspection. Mosquito service is a popular seasonal add-on for the long Atlanta metro season. A free assessment is the starting point for any Lilburn property.",
+  faqs: [
+    {
+      question: "Does having a large tree canopy increase pest risk in Lilburn?",
+      answer:
+        "It can, in specific ways. Shaded lots in Lilburn hold moisture longer after rain, which sustains mosquito breeding habitat and keeps soil moisture elevated around foundations, a condition that subterranean termites favor. Mature trees adjacent to homes also provide foraging routes for carpenter ants. Trimming limbs back from the structure and managing moisture around the foundation reduce these effects without changing what makes the neighborhood appealing.",
+    },
+    {
+      question: "Are subterranean termites active year-round in Lilburn?",
+      answer:
+        "Largely yes. Gwinnett County's humid subtropical climate keeps subterranean termite colonies active through much of the year. Swarms from late February through April are the most visible sign of established colonies, but the colony has been growing underground long before that. University of Georgia Extension identifies the Atlanta metro as a high termite pressure area. Annual inspections are the standard level of protection for Lilburn homes, especially older properties with crawl spaces.",
+    },
+    {
+      question: "Why are mosquitoes so persistent in Lilburn?",
+      answer:
+        "The Atlanta metro ranks among the worst US cities for mosquitoes, and Lilburn's shaded residential streets and proximity to the Yellow River corridor in Gwinnett County contribute to that. The mature tree canopy holds moisture after rain events, extending breeding conditions, and the river floodplain provides habitat beyond the residential yard. The Asian tiger mosquito, established across the Atlanta metro, bites during daylight hours, extending daily exposure through the full outdoor day.",
+    },
+    {
+      question: "What signs should I look for to know if I have carpenter ants versus termites?",
+      answer:
+        "Subterranean termites create mud tubes along foundations and floor joists and produce frass that looks like sawdust mixed with soil. Carpenter ants produce clean sawdust-like frass without soil because they excavate wood rather than eating it, and you may hear faint rustling in walls at night. Both are present in Lilburn. The distinction matters because treatment approaches differ. If you see either sign, a licensed inspection will confirm which pest is present and what treatment is appropriate.",
+    },
+  ],
+  author: "Sandra Whitfield, IPM and Pesticide Safety Specialist, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Lawrenceville", slug: "lawrenceville-ga" },
+    { name: "Duluth", slug: "duluth-ga" },
+    { name: "Snellville", slug: "snellville" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Lilburn, GA | Termites, Mosquitoes & Carpenter Ants",
+  metaDescription:
+    "Lilburn, GA pest control for eastern subterranean termites, mosquitoes, carpenter ants, German cockroaches, and fire ants. Licensed technicians serving Gwinnett County. Free inspection.",
+},
 ];

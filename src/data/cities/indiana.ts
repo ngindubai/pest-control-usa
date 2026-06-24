@@ -5146,4 +5146,349 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "Franklin IN pest control for mosquitoes, eastern subterranean termites, mice, carpenter ants and cockroaches. Johnson County White River specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+  slug: "beech-grove",
+  name: "Beech Grove",
+  state: "Indiana",
+  stateSlug: "indiana",
+  stateAbbr: "IN",
+  tier: "T3",
+  population: "~14,000",
+  county: "Marion County",
+  climate: "cold-humid",
+  climateDriver:
+    "Beech Grove is an enclave city entirely surrounded by Indianapolis in Marion County, sharing the cold, humid continental climate of central Indiana, with cold winters that push rodents and overwintering insects into the city's dense older housing stock.",
+  topPests: [
+    "German Cockroaches",
+    "House Mice",
+    "Bed Bugs",
+    "Pavement Ants",
+    "Carpenter Ants",
+  ],
+  pestProfile: [
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round indoors",
+      note:
+        "German roaches breed in the heated kitchens and older multi-unit housing common in Beech Grove, moving between units through the shared plumbing and walls of mid-20th century construction.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Move indoors in fall, active all winter",
+      note:
+        "Beech Grove's older housing stock, much of it built from the 1940s through the 1970s, has the foundation gaps and utility entries that mice exploit each fall as Marion County temperatures drop.",
+    },
+    {
+      name: "Bed bugs",
+      serviceSlug: "bed-bug-treatment",
+      activeSeason: "Year-round",
+      note:
+        "Beech Grove's dense residential footprint and proximity to Indianapolis, with its high hotel and transit traffic, keeps bed bug introduction risk elevated year-round.",
+    },
+    {
+      name: "Pavement ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through summer",
+      note:
+        "Pavement ants nest under the driveways and concrete slabs that cover much of Beech Grove's dense residential landscape, trailing into homes in spring.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "carpenter-ant-control",
+      activeSeason: "Spring through early summer",
+      note:
+        "Older wood construction and maturing street trees in Beech Grove provide carpenter ant colonies with nesting opportunities close to homes.",
+    },
+  ],
+  localHook:
+    "Beech Grove is one of a small number of enclave cities in the United States, completely surrounded by Indianapolis with no territory touching an outer boundary. That tight urban footprint means high housing density, older construction, and shared infrastructure, exactly the conditions that support German cockroaches and bed bugs in closely packed residential blocks.",
+  intro:
+    "Beech Grove is a small, dense city completely enclosed within Indianapolis, and that geography shapes its pest profile. The housing stock is predominantly mid-20th century, with the gaps, aging infrastructure, and shared-wall construction that give German cockroaches, mice, and bed bugs short travel routes. Every fall, Marion County's cold weather sends mice into the city's older homes. Bed bugs are a year-round concern given Beech Grove's proximity to Indianapolis's hotels and transportation corridors. If you have an older home here, the pest risks are predictable and manageable with the right approach.",
+  sections: [
+    {
+      heading: "Mid-century housing and pest vulnerability in Beech Grove",
+      body:
+        "Most of Beech Grove's residential neighborhoods were built between the 1940s and 1970s. That construction era predates many modern pest-exclusion standards: weep holes in brick are often unsealed, utility penetrations are rough, and door and window seals have aged. German cockroaches and house mice use those gaps routinely. A pest-proofing inspection on a Beech Grove home of this era often turns up multiple entry points that can be sealed in a single visit, significantly reducing recurring problems.",
+    },
+    {
+      heading: "Bed bugs in a city surrounded by Indianapolis",
+      body:
+        "Beech Grove residents travel through Indianapolis daily for work, shopping, and transit, and that connection to a major urban center means consistent bed bug introduction risk. Indianapolis consistently ranks as one of the more bed-bug-challenged cities in the Midwest, and Beech Grove is not isolated from that. The most common introduction routes are hotels, used furniture, and public transit. Checking luggage and secondhand items before bringing them inside is practical prevention. If you find signs of bed bugs, professional treatment is the reliable solution.",
+    },
+  ],
+  prevention: [
+    "Seal foundation gaps, weep holes, and utility penetrations before fall to prevent mice from entering.",
+    "Inspect secondhand furniture and luggage carefully before bringing them into the home.",
+    "Keep kitchens clean and food tightly sealed to cut German cockroach food sources.",
+    "Trim tree branches away from the roofline to limit carpenter ant access points.",
+    "Treat pavement ant nests under driveways and slabs in early spring, before colonies build up.",
+  ],
+  costNote:
+    "In Beech Grove, older single-family homes typically benefit from fall exclusion for rodents and a spring ant inspection. Bed bug treatment is quoted separately after inspection, as the scope depends on infestation extent. Cockroach work in multi-unit buildings may require coordinated treatment. Start with a free assessment.",
+  faqs: [
+    {
+      question: "Why is Beech Grove's older housing more pest-prone than newer construction?",
+      answer:
+        "Homes built in the 1940s through 1970s were constructed before modern pest-exclusion standards became common. Brick weep holes, rough utility penetrations, and aged door seals leave entry points that mice, cockroaches, and overwintering insects exploit consistently. A professional exclusion inspection on a Beech Grove home of this era typically finds multiple sealing opportunities that pay off immediately.",
+    },
+    {
+      question: "How do bed bugs get into Beech Grove homes?",
+      answer:
+        "Bed bugs travel on luggage, clothing, and secondhand furniture. Beech Grove residents moving through Indianapolis hotels, transit, and used furniture stores face consistent introduction risk. Inspecting luggage after travel and checking secondhand items carefully before bringing them inside are the practical first steps. If you find small rust-colored spots on bedding or unexplained bites, schedule a professional inspection quickly.",
+    },
+    {
+      question: "When do mice typically enter Beech Grove homes?",
+      answer:
+        "In Marion County, the fall push typically begins when nighttime temperatures drop consistently below 50 degrees, usually in October. Mice enter through gaps as small as a dime and establish nests in walls, basements, and attics quickly. Exclusion work done in September, before the push, is far more effective than trying to clear an established infestation in November.",
+    },
+    {
+      question: "Can I use store-bought cockroach treatments in my Beech Grove home?",
+      answer:
+        "Over-the-counter sprays and bait stations can reduce visible cockroaches temporarily, but German cockroach infestations in older Beech Grove homes usually require professional treatment to fully clear. The main limitation of consumer products is that they rarely reach the harborage sites behind walls and under appliances where the colony is actually living. A professional service targets those sites directly.",
+    },
+  ],
+  author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Indianapolis", slug: "indianapolis" },
+    { name: "Greenwood", slug: "greenwood" },
+    { name: "Speedway", slug: "speedway-in" },
+  ],
+  contentTemplate: "E",
+  contentSoul: "brief",
+  metaTitle: "Pest Control in Beech Grove, IN | Cockroaches, Mice & Bed Bugs",
+  metaDescription:
+    "Beech Grove IN pest control for German cockroaches, house mice, bed bugs, and ants. Dense mid-century housing increases pest risk. Free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "speedway-in",
+  name: "Speedway",
+  state: "Indiana",
+  stateSlug: "indiana",
+  stateAbbr: "IN",
+  tier: "T3",
+  population: "~12,000",
+  county: "Marion County",
+  climate: "cold-humid",
+  climateDriver:
+    "Speedway is an enclave town in Marion County with the cold, humid continental climate of central Indiana. Cold winters push rodents and overwintering insects into residential structures, and the town's high-traffic commercial and event activity adds bed bug introduction risk year-round.",
+  topPests: [
+    "German Cockroaches",
+    "House Mice",
+    "Bed Bugs",
+    "Pavement Ants",
+    "Yellowjackets",
+  ],
+  pestProfile: [
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round indoors",
+      note:
+        "German roaches breed in the heated kitchens and commercial spaces around the Indianapolis Motor Speedway, including the food service and hospitality facilities that operate year-round.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Move indoors in fall, active all winter",
+      note:
+        "Cold Marion County winters send mice into Speedway's older residential and commercial structures each fall, using the aging gaps common in the town's mid-century building stock.",
+    },
+    {
+      name: "Bed bugs",
+      serviceSlug: "bed-bug-treatment",
+      activeSeason: "Year-round, peak around major events",
+      note:
+        "The Indianapolis Motor Speedway draws hundreds of thousands of visitors during the Indy 500 and other events, and the resulting hotel and short-term rental traffic consistently raises bed bug introduction risk for Speedway residents and businesses.",
+    },
+    {
+      name: "Pavement ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Spring through summer",
+      note:
+        "Pavement ants nest under the extensive concrete and paved surfaces around Speedway's commercial zones and residential streets, trailing indoors in spring.",
+    },
+    {
+      name: "Yellowjackets",
+      serviceSlug: "wasp-bee-removal",
+      activeSeason: "Nests peak late summer",
+      note:
+        "Yellowjackets build in ground nests and wall voids across Speedway through summer and become aggressive near food and trash around the high-traffic commercial areas by late August.",
+    },
+  ],
+  localHook:
+    "The Indianapolis Motor Speedway, which occupies a large portion of Speedway's land area, draws over 300,000 visitors for the Indy 500 alone. The resulting hotel stays, rental properties, and event food service create a level of pest introduction and harborage pressure that is unusually high for a residential town of 12,000 people.",
+  intro:
+    "Pest control in Speedway, Indiana is shaped by two things: the town's mid-century housing stock, and the Indianapolis Motor Speedway. The housing brings the typical Marion County pest pressures, mice in fall, cockroaches year-round, and ants in spring. The speedway adds something unusual: a massive, repeating influx of out-of-town visitors and the food service, hotel stays, and short-term rentals that come with major events. That combination keeps bed bug introduction risk elevated and supports cockroach populations in the commercial zones surrounding the track. If you live or operate a business in Speedway, a pest plan that accounts for both layers is the right approach.",
+  sections: [
+    {
+      heading: "Event traffic and bed bug risk in Speedway",
+      body:
+        "The Indy 500 in late May, the Brickyard 400, and other events at the Indianapolis Motor Speedway bring large crowds into Speedway's hotels, rental homes, and short-term rental properties every year. Bed bugs travel on luggage and clothing and spread readily through high-turnover lodging. Speedway residents who rent rooms or portions of their homes during events, and those who use neighboring hotels and motels, face a higher introduction risk than the typical Indiana town of similar size. Early identification and professional treatment, rather than waiting to confirm a full infestation, is the right response.",
+    },
+    {
+      heading: "Yellowjackets around Speedway's commercial zones",
+      body:
+        "The food service, concessions, and commercial activity surrounding the Indianapolis Motor Speedway create conditions that yellowjackets actively exploit in late summer. Sweet trash, uncovered food, and warm wall cavities in commercial buildings are all attractive nesting resources. Ground nests under paved areas near the track and in landscaped zones are common. Nests found in late summer are typically much larger than those caught in early summer, so early treatment, as soon as a nest is located, is significantly easier and safer.",
+    },
+  ],
+  prevention: [
+    "Seal foundation gaps and door sweeps before fall to keep mice out of residential structures.",
+    "Inspect rental accommodations and check luggage after event stays to avoid bringing bed bugs home.",
+    "Address yellowjacket ground nests early in summer, before colonies peak in late August.",
+    "Keep trash containers tightly sealed, particularly near commercial zones, to reduce yellowjacket pressure.",
+    "Treat pavement ant nests under concrete and paved surfaces in early spring, before trail lines appear indoors.",
+  ],
+  costNote:
+    "Bed bug treatment in Speedway is quoted by room and infestation extent after a professional inspection. Rodent exclusion and cockroach work are quoted by structure type. Yellowjacket removal is typically a per-nest service. Event-season timing affects availability, so booking ahead around Indy 500 weekend is recommended. Start with a free inspection.",
+  faqs: [
+    {
+      question: "Does the Indianapolis Motor Speedway actually affect pest problems in Speedway, IN?",
+      answer:
+        "Yes, in measurable ways. The large visitor influx around major events elevates bed bug introduction risk through hotel and rental property turnover. The commercial food service zones surrounding the track support cockroach and yellowjacket populations beyond what a residential town this size would normally see. Speedway-area businesses near the track should maintain regular inspection schedules year-round.",
+    },
+    {
+      question: "When is bed bug risk highest in Speedway?",
+      answer:
+        "Risk is elevated year-round due to hotel and commercial activity, but it peaks around major Indianapolis Motor Speedway events, particularly the Indy 500 in late May and the Brickyard 400 in summer. Anyone renting a room during events, or hosting guests in rental properties, should inspect mattresses and upholstered furniture before and after each stay.",
+    },
+    {
+      question: "How do I find and treat a yellowjacket nest in Speedway?",
+      answer:
+        "Watch for repeated yellowjacket activity near the same ground-level spot or wall cavity, especially in late summer. Ground nests typically have a single entry hole with high traffic. Do not block the entry or pour liquid in during the day when the colony is active. Professional treatment at dusk, when yellowjackets are in the nest, is safe and effective. Late-summer nests can hold several thousand insects, so professional removal is strongly recommended over DIY.",
+    },
+    {
+      question: "Do I need year-round pest control if I live in Speedway, IN?",
+      answer:
+        "For most single-family homes, a fall exclusion visit for mice and a spring ant inspection covers the primary seasonal risks. If you run a rental property, operate a food service business near the speedway, or have had bed bugs before, a year-round plan provides better protection given the elevated introduction pressure that comes with the area's commercial and event activity.",
+    },
+  ],
+  author: "Sandra Whitfield, IPM and Pesticide Safety Specialist, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Indianapolis", slug: "indianapolis" },
+    { name: "Beech Grove", slug: "beech-grove" },
+    { name: "Brownsburg", slug: "brownsburg" },
+  ],
+  contentTemplate: "E",
+  contentSoul: "brief",
+  metaTitle: "Pest Control in Speedway, IN | Bed Bugs, Mice & Cockroaches",
+  metaDescription:
+    "Speedway IN pest control for bed bugs, German cockroaches, house mice, and yellowjackets. Indy 500 event traffic raises bed bug risk. Free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "connersville",
+  name: "Connersville",
+  state: "Indiana",
+  stateSlug: "indiana",
+  stateAbbr: "IN",
+  tier: "T3",
+  population: "~13,000",
+  county: "Fayette County",
+  climate: "cold-humid",
+  climateDriver:
+    "Connersville sits in eastern Indiana's Fayette County near the Whitewater River drainage, with cold, humid winters that push rodents indoors and warm, humid summers that support stinging insects and brown marmorated stink bug activity in the surrounding mixed agricultural and woodland landscape.",
+  topPests: [
+    "House Mice",
+    "German Cockroaches",
+    "Carpenter Ants",
+    "Brown Marmorated Stink Bugs",
+    "Yellowjackets",
+  ],
+  pestProfile: [
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Move indoors in fall, active all winter",
+      note:
+        "Connersville's older housing stock, a legacy of its manufacturing past, has the foundation gaps and aging utility entries that mice push through each fall when Fayette County temperatures drop.",
+    },
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round indoors",
+      note:
+        "German roaches breed in the heated kitchens and older commercial buildings in Connersville's downtown and residential zones, moving through shared plumbing in the city's aging building stock.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "carpenter-ant-control",
+      activeSeason: "Spring through early summer",
+      note:
+        "The Whitewater River drainage creates a humid woodland corridor near Connersville that supports large carpenter ant colonies, which forage into older homes with damp or decaying wood near foundations.",
+    },
+    {
+      name: "Brown marmorated stink bugs",
+      serviceSlug: "stink-bug-control",
+      activeSeason: "Fall aggregations, overwintering indoors",
+      note:
+        "Stink bugs are well established in eastern Indiana, and in Connersville they aggregate on home exteriors in September before pushing into wall gaps to overwinter.",
+    },
+    {
+      name: "Yellowjackets",
+      serviceSlug: "wasp-bee-removal",
+      activeSeason: "Nests peak late summer",
+      note:
+        "Yellowjackets build in ground nests along the Whitewater River corridor and in wall voids of Connersville structures, becoming aggressive near food and trash by late August.",
+    },
+  ],
+  localHook:
+    "Connersville was once a major manufacturing hub in eastern Indiana, home to the Cord and Auburn automobile operations, and the older brick and wood-frame housing built for factory workers in the early 20th century is now the primary pest vulnerability in the city. That aging stock is where mice, cockroaches, and carpenter ants find the most opportunity.",
+  intro:
+    "Pest control in Connersville reflects two realities: the age of the housing stock and the proximity to the Whitewater River drainage. The city's former manufacturing prosperity built a large inventory of early-to-mid-20th century homes, and those structures have the gaps, aging wood, and connected plumbing that mice, cockroaches, and carpenter ants exploit consistently. The Whitewater River corridor adds a source of humidity and woodland habitat that supports carpenter ant colonies and yellowjacket nests near residential areas. Stink bugs have become a reliable fall nuisance in eastern Indiana, and Connersville is no exception. Getting ahead of the fall pressure window with exclusion work is the most cost-effective approach for most homes here.",
+  sections: [
+    {
+      heading: "Older housing and the pest vulnerabilities in Connersville",
+      body:
+        "The neighborhoods built for Connersville's manufacturing workforce in the early to mid-20th century are the ones seeing the highest pest pressure today. Foundation mortar has aged and cracked, utility penetrations were never sealed to modern standards, and wood in contact with soil has had decades to soften. House mice use those foundation gaps in fall. Carpenter ants follow the damp wood in spring. German cockroaches find the warm kitchen walls and plumbing connections year-round. A home inspection that identifies and closes those entry points addresses all three problems at once.",
+    },
+    {
+      heading: "Carpenter ants and the Whitewater River woodland edge",
+      body:
+        "The Whitewater River runs through Fayette County, and the wooded, humid corridor along its banks supports substantial carpenter ant populations. Homes and properties within a mile or two of that corridor see higher carpenter ant pressure, particularly in spring when colonies send workers out to forage. The ants themselves do not eat the wood, but they tunnel into softened or damp framing and can cause real structural damage over time. Finding the moisture source that made the wood attractive is as important as treating the ants themselves.",
+    },
+  ],
+  prevention: [
+    "Seal foundation cracks, mortar gaps, and utility entries before fall to block the annual mouse push.",
+    "Inspect and seal exterior siding gaps and window frames in early September to keep stink bugs from overwintering indoors.",
+    "Address damp crawl spaces and wood-to-soil contact to remove carpenter ant nesting opportunities.",
+    "Locate and treat yellowjacket ground nests early in summer, before colonies become large and aggressive.",
+    "Keep food sealed and under-appliance areas clean to deny German cockroaches the conditions they need.",
+  ],
+  costNote:
+    "In Connersville, fall exclusion for mice and stink bugs is often the most cost-effective single visit of the year. Carpenter ant work requires locating the satellite colony, which typically involves an interior and exterior inspection. Cockroach treatment in older structures may require follow-up visits. Start with a free inspection to set the right plan for your home.",
+  faqs: [
+    {
+      question: "Why do so many older Connersville homes have mice problems every fall?",
+      answer:
+        "Connersville's older housing stock, built largely in the early to mid-20th century, has foundation mortar gaps, aging utility penetrations, and door seals that have not been updated to modern pest-exclusion standards. Mice can enter through gaps smaller than a dime, and the city's surrounding agricultural and woodland landscape supports a large year-round mouse population. Exclusion work on the foundation and utility entries in September is the most effective prevention.",
+    },
+    {
+      question: "Are stink bugs a real problem in Connersville?",
+      answer:
+        "Yes. Brown marmorated stink bugs are well established in eastern Indiana, and Connersville sees reliable fall aggregations on home exteriors, typically beginning in September. They do not bite or breed indoors, but they release an unpleasant odor when disturbed. Sealing siding gaps and window frames before mid-September keeps them out of wall cavities where they would otherwise spend the winter.",
+    },
+    {
+      question: "What does finding carpenter ants in my Connersville home actually mean?",
+      answer:
+        "Carpenter ants found indoors in spring usually mean there is a satellite colony established somewhere in the structure, typically in damp or softened wood. The Whitewater River corridor near Connersville supports large outdoor colonies that send workers into homes. A professional inspection will locate the colony and identify the moisture source that made the wood attractive in the first place. Treating only the ants you can see without finding the colony source rarely produces lasting results.",
+    },
+    {
+      question: "How often should I have pest control service in Connersville?",
+      answer:
+        "For most Connersville single-family homes, a fall exclusion visit for mice and stink bugs, combined with a spring inspection for carpenter ants and ants, covers the main seasonal risks. Older homes with a history of cockroach or moisture issues benefit from more frequent visits. A professional inspection sets the right schedule for your specific home and its particular vulnerabilities.",
+    },
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Richmond", slug: "richmond" },
+    { name: "Greenfield", slug: "greenfield-in" },
+    { name: "New Castle", slug: "new-castle-in" },
+  ],
+  contentTemplate: "E",
+  contentSoul: "brief",
+  metaTitle: "Pest Control in Connersville, IN | Mice, Stink Bugs & Carpenter Ants",
+  metaDescription:
+    "Connersville IN pest control for house mice, stink bugs, carpenter ants, and yellowjackets. Older housing and Whitewater River proximity drive pest pressure. Free inspection. Call 1-800-PEST-USA.",
+},
 ];

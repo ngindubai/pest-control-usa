@@ -7437,4 +7437,580 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "Grosse Pointe Woods MI pest control for carpenter ants in mature tree canopy, deer ticks in Lake St. Clair shoreline parks, fall mice in older Wayne County homes. Free inspection.",
   },
+  {
+  slug: "fraser-mi",
+  name: "Fraser",
+  state: "Michigan",
+  stateSlug: "michigan",
+  stateAbbr: "MI",
+  tier: "T3",
+  population: "~14,000",
+  county: "Macomb County",
+  climate: "cold-humid",
+  climateDriver:
+    "Fraser sits in south-central Macomb County under the same Great Lakes humid continental pattern that defines metro Detroit. Cold, snowy winters drive mice and cockroaches into heated buildings each fall, and the warm, humid summers bring pavement ants and carpenter ants to the surface. Dense residential streets and aging utility infrastructure create consistent rodent and cockroach pressure through the year.",
+  topPests: [
+    "German Cockroaches",
+    "House Mice",
+    "Bed Bugs",
+    "Pavement Ants",
+    "Carpenter Ants",
+  ],
+  pestProfile: [
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note:
+        "Fraser's dense residential blocks and adjacent commercial corridors along Utica Road and Groesbeck Highway give German cockroaches the multi-unit and food-service environments they prefer. They spread through shared plumbing and wall voids and are unaffected by Michigan's cold winters.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Year-round, surge in October and November",
+      note:
+        "Macomb County's agricultural surroundings push house mice toward Fraser's residential streets each fall. The colder months drive them through foundation gaps and utility penetrations into heated homes, where a small entry point can let an entire family group establish indoors within weeks.",
+    },
+    {
+      name: "Bed bugs",
+      serviceSlug: "bed-bug-treatment",
+      activeSeason: "Year-round",
+      note:
+        "Fraser's mix of rental housing and multi-family buildings creates the kind of tenant turnover that sustains bed bug introductions. Infestations in shared-wall units are especially difficult to contain without treating the entire affected section of a building.",
+    },
+    {
+      name: "Pavement ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through September",
+      note:
+        "Pavement ants are the most common spring nuisance in Fraser, emerging from colonies under driveways, sidewalks, and foundations as soil temperatures rise. They enter homes through expansion joints and foundation cracks in search of food.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through August",
+      note:
+        "Older homes in Fraser with moisture-damaged wood around windows, roof lines, or deck attachments are the primary targets for carpenter ant colonies. They do not eat wood but excavate galleries in it, and structural damage builds slowly if colonies go untreated through multiple seasons.",
+    },
+  ],
+  localHook:
+    "Fraser is a compact Macomb County suburb where houses sit close together and commercial strips run along every major road. That density is exactly what keeps German cockroaches moving between properties and gives house mice a steady supply of entry points when Michigan temperatures drop in October.",
+  intro:
+    "Pest control in Fraser comes down to two things: the density of the housing and the cold Michigan winters. German cockroaches work their way through shared plumbing and wall voids in the multi-family and commercial buildings along Fraser's commercial corridors, unaffected by the cold outside. House mice are a fall event every year in Macomb County. When temperatures drop, they press through foundation gaps and utility penetrations into heated homes fast. Bed bugs, pavement ants, and carpenter ants round out the list of pests that keep Fraser homeowners calling for service.",
+  sections: [
+    {
+      heading: "German cockroaches in dense residential and commercial areas",
+      body:
+        "German cockroaches are the dominant indoor cockroach species across metro Detroit, and Fraser's commercial corridors on Utica Road and Groesbeck Highway keep that pressure active. They thrive in restaurant kitchens, grocery back rooms, and apartment buildings, and they spread to neighboring residential units through shared walls and plumbing. Effective control in Fraser requires gel bait placement, crack-and-crevice treatment, and follow-up inspections. A single missed harborage site can sustain a colony and produce a reinfestation within weeks.",
+    },
+    {
+      heading: "Fall mouse season in Macomb County",
+      body:
+        "Every fall, house mice in and around Fraser make the same move. As field temperatures drop in October, they seek heated buildings, and Fraser's older residential stock gives them plenty of ways in. Gaps around gas lines, dryer vents, and where pipes enter the foundation are the most common entry points. The practical sequence is an inspection in September, exclusion work to seal the gaps, then monitoring traps inside through the cold months. Waiting until you see mice indoors means the population has already established, which takes more effort to resolve.",
+    },
+  ],
+  prevention: [
+    "Seal foundation gaps, pipe penetrations, and utility openings before October to block the fall mouse surge.",
+    "Keep food in sealed containers and clean under appliances regularly to eliminate cockroach food sources.",
+    "Inspect used furniture and luggage carefully before bringing them indoors to prevent bed bug introduction.",
+    "Caulk expansion joints in concrete around the foundation to reduce pavement ant entry in spring.",
+    "Check wood around windows and roof lines for moisture damage that carpenter ants target for nesting.",
+  ],
+  costNote:
+    "Fraser pest control is often quoted as a year-round general service covering cockroaches, ants, and spiders, with rodent exclusion and bed bug treatment priced separately after inspection. A free initial inspection identifies which services apply to your specific situation.",
+  faqs: [
+    {
+      question:
+        "Why are German cockroaches so hard to get rid of in Fraser apartments?",
+      answer:
+        "In multi-unit buildings, treating one unit without addressing adjacent units rarely works. German cockroaches move freely through shared plumbing chases and wall voids, so a colony displaced from one unit simply relocates to a neighboring one. Effective control in Fraser apartment buildings requires treating the affected unit and its immediate neighbors at the same time, using gel bait and crack-and-crevice products in the harborage areas where cockroaches actually live.",
+    },
+    {
+      question: "When should I start preparing for mice in Fraser?",
+      answer:
+        "September is the right time. Michigan temperatures can drop sharply in October, and mice move fast when they do. An inspection in September identifies the entry points around your foundation, utility penetrations, and eaves so exclusion work can be done before the pressure starts. Fraser homes with older foundations and settled concrete are especially vulnerable and benefit from early preparation.",
+    },
+    {
+      question: "Do pavement ants in Fraser cause structural damage?",
+      answer:
+        "Pavement ants do not damage wood structures. They nest under concrete slabs, driveways, and foundations and are primarily a nuisance when they enter kitchens searching for food. They are most active in Fraser from April through September. Treatment targets the colony under the slab rather than just the ants you see indoors.",
+    },
+    {
+      question: "How do I know if I have carpenter ants or pavement ants in my Fraser home?",
+      answer:
+        "Carpenter ants are much larger, typically a quarter inch to over half an inch long, and are most active at night. If you see large black ants indoors in Fraser in spring or early summer, especially near a window or a damp area, carpenter ants are the likely culprit. Pavement ants are much smaller and typically appear in trails on floors near the foundation. Both species are common in Fraser, and treatment approaches differ, so a proper identification matters before treatment begins.",
+    },
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Sterling Heights", slug: "sterling-heights" },
+    { name: "Roseville", slug: "roseville-mi" },
+    { name: "Warren", slug: "warren" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Fraser, MI | Cockroaches, Mice & Bed Bugs",
+  metaDescription:
+    "Fraser, MI pest control for German cockroaches, house mice, bed bugs, and ants. Licensed service across Macomb County. Get a free inspection today.",
+},
+{
+  slug: "wayne-mi",
+  name: "Wayne",
+  state: "Michigan",
+  stateSlug: "michigan",
+  stateAbbr: "MI",
+  tier: "T3",
+  population: "~18,000",
+  county: "Wayne County",
+  climate: "cold-humid",
+  climateDriver:
+    "Wayne sits in southwest Wayne County under the Great Lakes humid continental climate. Cold, often snowy winters suppress outdoor insects for months while pushing rodents and cockroaches into heated structures. The warm, humid summers support yellowjacket colonies and pavement ant activity. The proximity to Detroit Metro Airport brings significant human traffic and the elevated bed bug and cockroach transfer risk that comes with it.",
+  topPests: [
+    "German Cockroaches",
+    "House Mice",
+    "Bed Bugs",
+    "Pavement Ants",
+    "Yellowjackets",
+  ],
+  pestProfile: [
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note:
+        "Wayne's established residential neighborhoods and commercial areas along Michigan Avenue sustain German cockroach populations that are entirely unaffected by the outdoor cold. They move through shared walls in multi-family buildings and can establish quickly in single-family homes with gaps around plumbing.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Year-round, surge in October through December",
+      note:
+        "Southwest Wayne County has a mix of urban residential and light industrial land uses, and house mice move freely between them. Wayne's older housing stock has the kinds of settled foundations and aging utility penetrations that give mice easy entry once temperatures fall.",
+    },
+    {
+      name: "Bed bugs",
+      serviceSlug: "bed-bug-treatment",
+      activeSeason: "Year-round",
+      note:
+        "The high traffic through nearby Detroit Metro Airport makes Wayne a consistent entry point for bed bugs traveling with luggage. Hotels, multi-family rental units, and second-hand furniture sourced from the area are the primary transfer vectors in Wayne.",
+    },
+    {
+      name: "Pavement ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through September",
+      note:
+        "Pavement ants are a reliable spring and summer nuisance in Wayne, emerging from colonies under sidewalks, driveways, and foundations when soil temperatures rise in April. They trail into kitchens and garages through the smallest foundation cracks.",
+    },
+    {
+      name: "Yellowjackets",
+      serviceSlug: "wasp-bee-removal",
+      activeSeason: "June through October, most aggressive in August and September",
+      note:
+        "Yellowjackets in Wayne build ground and wall-void nests each summer, and colonies can reach several thousand workers by late August. They become noticeably more aggressive in fall when food sources diminish, which is when most stings occur near Wayne's older homes with landscaping and wood trim that provides nesting access.",
+    },
+  ],
+  localHook:
+    "Wayne sits just two miles from Detroit Metropolitan Airport, one of the busiest in the Midwest. That traffic flow means bed bugs and cockroaches travel into Wayne with a regularity that purely residential suburban cities do not see. Understanding that connection changes how pest prevention should be approached here.",
+  intro:
+    "Pest pressure in Wayne, MI reflects its location. Just east of the Detroit Metropolitan Airport corridor, Wayne sees consistent human traffic that brings bed bugs and cockroaches into the community with real frequency. Add Michigan's cold winters driving house mice into Wayne's older established homes each fall, yellowjacket colonies building through the warm months, and pavement ants emerging every spring, and the pest picture here is active most of the year. Dr. Lena Ortiz and our Wayne team handle the full range.",
+  sections: [
+    {
+      heading: "Airport traffic and the bed bug connection in Wayne",
+      body:
+        "Detroit Metro Airport handles tens of millions of passengers annually, and Wayne is one of the closest residential communities to the terminals. Bed bugs travel efficiently in luggage and secondhand goods, and the hotels and rental properties near the airport are common transfer points. Wayne residents who travel frequently, host guests, or furnish homes with secondhand items should treat bed bug inspection as a routine habit rather than a crisis response. Heat treatment and conventional treatment options are both available for confirmed infestations.",
+    },
+    {
+      heading: "Yellowjacket management through the warm season",
+      body:
+        "Wayne's mix of older homes with wood trim, landscaped yards, and light commercial buildings creates good yellowjacket nesting habitat. Ground nests in lawn areas and wall-void nests in wood framing are both common. Yellowjacket colonies grow through June and July and peak in August, when they are large and territorial. Treating a nest at dusk, when workers are in the nest, gives the best results. Never seal a wall-void nest entrance without treatment first. Doing so forces the colony to chew through the interior wall surface.",
+    },
+  ],
+  prevention: [
+    "Inspect luggage and clothing carefully after travel to catch bed bugs before they reach the bedroom.",
+    "Seal foundation gaps and utility penetrations in September before the fall mouse surge.",
+    "Check eaves, soffits, and wood trim for yellowjacket nest starts in May and June before colonies establish.",
+    "Keep garbage in sealed containers and eliminate food debris that attracts German cockroaches.",
+    "Caulk foundation cracks and concrete joints in spring to reduce pavement ant entry.",
+  ],
+  costNote:
+    "Wayne pest control is typically quoted as a year-round general service for cockroaches, ants, and spiders. Bed bug treatment, rodent exclusion, and yellowjacket removal are priced separately after inspection. A free assessment identifies the right service combination for your home.",
+  faqs: [
+    {
+      question: "Does living near Detroit Metro Airport really increase my bed bug risk in Wayne?",
+      answer:
+        "Yes, measurably. Bed bugs spread through luggage and personal goods, and communities near major airports see higher introduction rates than comparable areas farther from travel hubs. Wayne residents who rent out space, take in guests who travel, or frequently buy secondhand furniture are at above-average risk. Routine inspections and careful luggage management after travel are the most practical defenses.",
+    },
+    {
+      question: "How do I tell a yellowjacket nest from a paper wasp nest in my Wayne yard?",
+      answer:
+        "Yellowjackets build enclosed, papery nests, often in the ground or inside wall voids, and you typically notice activity at a small opening rather than an exposed comb structure. Paper wasps build open, umbrella-shaped combs, often under eaves or in sheltered spots on the structure. Both species will defend their nests, but yellowjackets are significantly more aggressive, especially in August and September. If you are unsure, do not probe or disturb the nest. A professional identification will confirm the species and the right treatment approach for your Wayne property.",
+    },
+    {
+      question: "When do house mice typically enter Wayne homes?",
+      answer:
+        "In Wayne, the fall surge typically begins in October as Michigan temperatures drop. House mice do not hibernate and will seek heated spaces when outdoor temperatures fall. The most common entry points in Wayne's older homes are gaps around gas meter pipes, where dryer vents exit the foundation, and where the sill plate meets the foundation on older structures. An inspection in September, before the pressure starts, gives you the best opportunity to seal those gaps before mice find them.",
+    },
+    {
+      question: "Are German cockroaches in Wayne dangerous?",
+      answer:
+        "German cockroaches contaminate food preparation surfaces with pathogens they carry on their bodies and legs, and their shed skins and droppings are documented allergens that can worsen asthma symptoms, particularly in children. They are not a cosmetic nuisance. Active infestations in Wayne homes and multi-family buildings should be treated promptly, and treatment should target the harborage areas where cockroaches actually live, not just the surfaces where they are seen.",
+    },
+  ],
+  author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Westland", slug: "westland" },
+    { name: "Dearborn", slug: "dearborn" },
+    { name: "Garden City", slug: "garden-city-mi" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Wayne, MI | Cockroaches, Mice & Bed Bugs",
+  metaDescription:
+    "Wayne, MI pest control for German cockroaches, house mice, bed bugs, and yellowjackets. Licensed service near Detroit Metro Airport. Free inspection.",
+},
+{
+  slug: "clawson-mi",
+  name: "Clawson",
+  state: "Michigan",
+  stateSlug: "michigan",
+  stateAbbr: "MI",
+  tier: "T3",
+  population: "~12,000",
+  county: "Oakland County",
+  climate: "cold-humid",
+  climateDriver:
+    "Clawson occupies a dense corner of southern Oakland County under the same Great Lakes humid continental climate that drives pest pressure across metro Detroit. Cold winters push rodents and cockroaches into the older housing stock, while warm, humid summers bring pavement ants and stink bugs to the surface. The city's mix of post-war bungalows and mid-century homes creates plenty of the moisture-damaged wood and settled foundations that support pest establishment.",
+  topPests: [
+    "German Cockroaches",
+    "House Mice",
+    "Bed Bugs",
+    "Pavement Ants",
+    "Brown Marmorated Stink Bugs",
+  ],
+  pestProfile: [
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note:
+        "German cockroaches are the most common indoor cockroach in Clawson's commercial and multi-family residential buildings. They thrive in the kitchens and utility areas of older structures and spread through shared plumbing connections between attached and semi-detached units.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Year-round, major surge October through December",
+      note:
+        "Clawson's post-war bungalows and mid-century homes have settled foundations and aging utility penetrations that give mice easy access when Michigan temperatures fall. Small gaps around copper water supply lines and gas meter connections are among the most common entry points found during inspections here.",
+    },
+    {
+      name: "Bed bugs",
+      serviceSlug: "bed-bug-treatment",
+      activeSeason: "Year-round",
+      note:
+        "Bed bugs in Clawson are most commonly introduced through secondhand furniture and travel. The city's rental housing stock sustains a baseline level of bed bug activity that can spread between units in multi-family buildings through wall voids and shared spaces.",
+    },
+    {
+      name: "Pavement ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through September",
+      note:
+        "Pavement ants emerge reliably each spring from colonies under Clawson's driveways and sidewalks. Clawson's grid of older residential streets, with their established concrete work, provides excellent colony sites. Ants trail into kitchens through foundation cracks and gaps around utility entry points.",
+    },
+    {
+      name: "Brown marmorated stink bugs",
+      serviceSlug: "stink-bug-control",
+      activeSeason: "Fall invasion September through November, overwintering indoors",
+      note:
+        "Michigan State University Extension has documented the brown marmorated stink bug as an established overwintering pest across the Lower Peninsula. In Clawson, homes with older windows and vinyl siding that has separated from the trim see the heaviest fall invasions as stink bugs seek indoor overwintering sites.",
+    },
+  ],
+  localHook:
+    "Clawson's housing stock is mostly post-war bungalows and mid-century split-levels built between 1945 and 1970. That era of construction has a very specific pest vulnerability profile: settled foundations with gaps around utility penetrations for mice, wood around original windows and roof lines that moisture-damages over time for carpenter ants, and older window framing with gaps that let stink bugs in each fall.",
+  intro:
+    "Pest control in Clawson is shaped by the age and style of its housing. Most of the city's homes date from the postwar decades, and that building era has a predictable pest profile. Mice find the gaps where utility lines enter through older foundations. Stink bugs find the spaces where window frames have pulled away from siding on aging homes. German cockroaches work the commercial strip and older apartment buildings. Understanding the connection between the housing stock and the pests it supports is the starting point for effective control in Clawson.",
+  sections: [
+    {
+      heading: "What post-war housing means for pest pressure in Clawson",
+      body:
+        "Clawson's bungalows and mid-century homes were built at a time when building codes did not require the tight utility sealing that modern construction standards produce. The gaps around copper water supply lines, the spaces where the original gas meter pipes enter the foundation, and the areas where the sill plate sits on an older concrete foundation are all common mouse entry points. These structures also tend to have original wood windows or early aluminum replacements that have moved over the decades, creating the gaps that stink bugs use in fall. An inspection of an older Clawson home typically finds more entry points than the homeowner expects.",
+    },
+    {
+      heading: "Managing stink bugs in Clawson before fall arrives",
+      body:
+        "Brown marmorated stink bugs are an established pest across Michigan's Lower Peninsula, and Clawson homes near the tree lines on the city's edges see consistent fall invasions. The insects move toward buildings in September as temperatures drop, searching for overwintering sites, and they enter through any gap they can find around windows, under siding, and through utility penetrations. The most effective approach is preventive sealing in August before the invasion starts, combined with perimeter treatment. Once stink bugs are inside wall voids, removal options are more limited.",
+    },
+  ],
+  prevention: [
+    "Inspect window frames and the junction between siding and trim for gaps before August to reduce stink bug entry.",
+    "Seal foundation penetrations around water supply lines and gas meter pipes before fall to block mice.",
+    "Keep kitchen areas clean and food sealed tightly to reduce German cockroach food sources.",
+    "Treat pavement ant trails at the source near the foundation rather than just where they appear indoors.",
+    "Check second-hand furniture and clothing for bed bug signs before bringing them into the home.",
+  ],
+  costNote:
+    "Clawson pest control is commonly quoted as a general year-round service covering ants, cockroaches, and spiders, with rodent exclusion, bed bug treatment, and stink bug programs priced separately. Older homes typically require a thorough inspection before exclusion work is quoted accurately.",
+  faqs: [
+    {
+      question: "Why do I keep getting mice in my Clawson bungalow even after setting traps?",
+      answer:
+        "Traps catch the mice already inside but do not address how they are getting in. In Clawson's older bungalows, the entry points are usually around foundation utility penetrations, at the sill plate where it meets the concrete, and in gaps around the dryer vent or gas meter pipe. Until those gaps are sealed, new mice will continue to enter from outside. A professional exclusion inspection identifies the actual entry points so sealing and trapping can work together.",
+    },
+    {
+      question: "Are brown marmorated stink bugs in Clawson harmful to my home or family?",
+      answer:
+        "Stink bugs do not bite, sting, or damage structures. They are a nuisance pest that produces an unpleasant odor when disturbed or crushed. The primary concerns are the smell and the difficulty of removing them once they have settled into wall voids for winter. Michigan State University Extension confirms the brown marmorated stink bug is well-established across the Lower Peninsula. In Clawson, the best defense is sealing entry points in August before the fall invasion, which is significantly more effective than trying to remove them once they are already inside.",
+    },
+    {
+      question: "How quickly can a German cockroach infestation grow in a Clawson apartment?",
+      answer:
+        "German cockroaches reproduce faster than any other common household cockroach species. A female produces an egg case holding roughly 30 to 40 eggs, and under warm indoor conditions the nymphs mature in as little as six weeks. A small introduction in a Clawson apartment can become a large infestation within two to three months if it goes untreated. Early treatment, before the population has spread through the building, is dramatically more effective and less disruptive than treating a well-established infestation.",
+    },
+    {
+      question: "When is the right time to treat pavement ants in Clawson?",
+      answer:
+        "The most effective time to treat pavement ants in Clawson is in April and May, as soon as you see the first trails. Treatment at that point targets smaller, newly active colonies before they have reached peak population. By July, colonies are at full size and more difficult to suppress. Gel bait placed at the colony entry points near the foundation works better than spray treatments applied to the ants you see indoors, which only kill foragers while the colony below the slab continues producing them.",
+    },
+  ],
+  author: "Sandra Whitfield, IPM and Pesticide Safety Specialist, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Royal Oak", slug: "royal-oak" },
+    { name: "Troy", slug: "troy" },
+    { name: "Berkley", slug: "berkley-mi" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Clawson, MI | Mice, Stink Bugs & Cockroaches",
+  metaDescription:
+    "Clawson, MI pest control for house mice, stink bugs, German cockroaches, and ants. Licensed service in Oakland County. Book a free inspection today.",
+},
+{
+  slug: "berkley-mi",
+  name: "Berkley",
+  state: "Michigan",
+  stateSlug: "michigan",
+  stateAbbr: "MI",
+  tier: "T3",
+  population: "~14,000",
+  county: "Oakland County",
+  climate: "cold-humid",
+  climateDriver:
+    "Berkley occupies a dense, walkable corner of southeast Oakland County where Craftsman-style bungalows and older mixed-use blocks sit close together under Michigan's humid continental climate. Cold winters drive mice and cockroaches indoors, the warm summers bring pavement and carpenter ants to the surface, and the mature tree canopy and older wood-frame housing stock create year-round conditions that support carpenter ant colony establishment.",
+  topPests: [
+    "German Cockroaches",
+    "House Mice",
+    "Bed Bugs",
+    "Pavement Ants",
+    "Carpenter Ants",
+  ],
+  pestProfile: [
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note:
+        "Berkley's Coolidge Highway and Twelve Mile commercial strips, along with the city's older multi-family residential buildings, sustain German cockroach populations year-round. They spread readily through shared wall voids between the closely spaced homes that define Berkley's residential character.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Year-round, peak pressure October through February",
+      note:
+        "Berkley's Craftsman bungalows were built in the 1920s and 1930s with foundation styles and utility penetration details that give mice multiple access points. Cold Michigan winters push them indoors from October onward, and the tight lot spacing means mice move easily between properties.",
+    },
+    {
+      name: "Bed bugs",
+      serviceSlug: "bed-bug-treatment",
+      activeSeason: "Year-round",
+      note:
+        "Berkley's walkable, active rental market and proximity to Royal Oak's commercial entertainment district means residents here travel, host guests, and source secondhand goods at above-average rates, all of which are the primary bed bug introduction vectors.",
+    },
+    {
+      name: "Pavement ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through September",
+      note:
+        "Pavement ant colonies establish under the driveways, sidewalks, and patios throughout Berkley's residential grid. They appear reliably each spring, trailing along foundation walls and entering through the smallest gaps. The city's older concrete work provides excellent, undisturbed colony sites.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through August, most visible in May and June",
+      note:
+        "Carpenter ants are a genuine structural concern in Berkley's aging Craftsman-era housing. The mature oaks and maples overhanging many homes drop limbs and create moisture entry points in older rooflines, and moisture-softened wood in original window frames and fascia boards is a preferred nesting site for carpenter ant satellite colonies.",
+    },
+  ],
+  localHook:
+    "Berkley's housing stock is one of the older in southeast Oakland County. Many of the Craftsman bungalows here were built between 1920 and 1940, and that age means original wood window frames, older foundation styles, and mature trees overhanging rooflines. Carpenter ants exploit all three of those features. If you see large black ants in your Berkley home in May, the question is not whether to treat, it is where the colony is nesting.",
+  intro:
+    "Berkley is one of the denser, older residential suburbs in Oakland County, and its pest challenges reflect its age and layout. The Craftsman bungalows that line most of Berkley's streets were built a century ago, and they have the kinds of wood, foundations, and aging details that support carpenter ant and mouse pressure through the year. German cockroaches work the commercial strips and older apartment buildings. Bed bugs travel with the active rental market. Pavement ants emerge reliably every spring. Berkley residents tend to deal with multiple pest concerns at once because the housing invites it.",
+  sections: [
+    {
+      heading: "Carpenter ants in Berkley's older housing stock",
+      body:
+        "Carpenter ants are not a seasonal curiosity in Berkley. They are an ongoing structural risk in homes with original wood siding, older window frames, and mature trees that drop branches onto rooflines and introduce moisture into fascia boards. Carpenter ants do not eat wood. They excavate galleries in wood that is already soft from moisture, which means the moisture problem and the ant problem are connected. Effective treatment in Berkley targets the nesting sites in the moisture-damaged wood and then addresses the moisture source. Treating ants without fixing the moisture typically produces a repeat infestation.",
+    },
+    {
+      heading: "Mouse entry points in Berkley bungalows",
+      body:
+        "An inspection of a typical Berkley Craftsman bungalow usually turns up more entry points than the homeowner expects. The gaps around original copper water supply lines entering through the foundation, the space between the sill plate and aging concrete, and the area around gas meter pipes are the most common. Houses on Berkley's tight lots also tend to have basement windows that have shifted in their frames over the decades, leaving gaps at the corners. Sealing these entry points in September, before Michigan's October temperature drop, is the most cost-effective rodent control approach in this city.",
+    },
+  ],
+  prevention: [
+    "Inspect fascia boards, window frames, and rooflines for moisture damage and soft wood that carpenter ants target.",
+    "Seal foundation penetrations and basement window gaps in September before the fall mouse surge.",
+    "Keep the perimeter of the home clear of stacked wood, leaf piles, and debris that shelter mice and ants.",
+    "Check used furniture carefully before bringing it indoors to catch bed bugs early.",
+    "Caulk pavement joints and foundation cracks in spring before pavement ants emerge.",
+  ],
+  costNote:
+    "Berkley pest control is typically quoted as a year-round general service for ants, cockroaches, and spiders, with rodent exclusion and carpenter ant treatment priced after inspection. Older homes in Berkley often need a separate moisture assessment alongside carpenter ant treatment.",
+  faqs: [
+    {
+      question: "Are the large black ants in my Berkley home carpenter ants?",
+      answer:
+        "Possibly. Carpenter ants are the largest ant species you are likely to see indoors in Berkley, typically a quarter inch to over half an inch long, and they are most often seen in May and June when they swarm or forage at night. If you are finding large black ants near a window, a damp wall, or under a sink, carpenter ants are the most likely species. A professional identification confirms it, and treatment should target the nesting site rather than just the foraging ants you see.",
+    },
+    {
+      question: "My Berkley home is well-maintained. Do I still need to worry about mice?",
+      answer:
+        "Yes, because the age of the structure creates entry points independent of how well the interior is kept. Berkley bungalows built in the 1920s and 1930s have foundation details and utility penetration styles that produce gaps mice can use even in well-kept homes. The surrounding neighborhood also plays a role. Mice from adjacent properties or shared alleys can find your home's entry points even if there is no active food source drawing them. An exclusion inspection identifies those structural vulnerabilities.",
+    },
+    {
+      question: "How do I prevent bed bugs in my Berkley rental unit?",
+      answer:
+        "The most practical steps are inspecting the mattress seams, box spring, and bed frame when you move in or after guests stay, being careful with secondhand furniture sourced locally, and inspecting luggage after travel before bringing it into the bedroom. If you share walls with neighboring units, a bed bug introduction in an adjacent apartment can reach your unit through wall voids. Early reporting to your landlord when you find signs of bed bugs is important because treatment works best when the infestation is small.",
+    },
+    {
+      question: "What time of year should I treat for pavement ants in Berkley?",
+      answer:
+        "April and early May are the best window. Pavement ant colonies in Berkley become active as soil temperatures rise and the first workers appear trailing along foundations and entering kitchens. Treating at this point, with bait placed at the colony entrance near the foundation, targets the colony when it is smaller and more susceptible. Waiting until summer means the colony is at peak population and treatment takes longer to work.",
+    },
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Royal Oak", slug: "royal-oak" },
+    { name: "Clawson", slug: "clawson-mi" },
+    { name: "Hazel Park", slug: "hazel-park" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Berkley, MI | Carpenter Ants, Mice & Cockroaches",
+  metaDescription:
+    "Berkley, MI pest control for carpenter ants, house mice, German cockroaches, and bed bugs. Licensed service in Oakland County. Free inspection available.",
+},
+{
+  slug: "center-line-mi",
+  name: "Center Line",
+  state: "Michigan",
+  stateSlug: "michigan",
+  stateAbbr: "MI",
+  tier: "T3",
+  population: "~8,000",
+  county: "Macomb County",
+  climate: "cold-humid",
+  climateDriver:
+    "Center Line is an enclave city entirely surrounded by Warren and Sterling Heights in southwest Macomb County. Its very small land area means extremely dense residential development under Michigan's Great Lakes humid continental climate. Cold winters drive rodents and cockroaches indoors, and the density means pests transfer between neighboring properties with little barrier. The surrounding urban environment of Warren, one of Michigan's largest cities, sustains consistent pest pressure on all sides.",
+  topPests: [
+    "German Cockroaches",
+    "House Mice",
+    "Bed Bugs",
+    "Pavement Ants",
+    "Yellowjackets",
+  ],
+  pestProfile: [
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note:
+        "Center Line's dense residential footprint and its location surrounded by Warren's commercial corridors means German cockroach pressure is a year-round reality. They spread between the tightly spaced homes through shared foundation walls and utility chases and are entirely unaffected by the outdoor cold.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Year-round, major surge October through December",
+      note:
+        "Center Line's very small city footprint means mice displaced from neighboring Warren and Sterling Heights properties flow directly into Center Line residential blocks each fall. The older housing stock on many of Center Line's streets has the kinds of foundation gaps and aging utility penetrations that give mice easy access.",
+    },
+    {
+      name: "Bed bugs",
+      serviceSlug: "bed-bug-treatment",
+      activeSeason: "Year-round",
+      note:
+        "Center Line's rental housing and its proximity to the active commercial areas of Warren mean bed bug introductions through secondhand goods and tenant turnover are a consistent concern. Multi-family units with shared walls are particularly vulnerable to infestation spread.",
+    },
+    {
+      name: "Pavement ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through September",
+      note:
+        "Pavement ants in Center Line emerge each spring from colonies under sidewalks and driveways that run the full length of the city's dense residential streets. With lots sitting close together and concrete everywhere, there is no shortage of ideal colony sites throughout Center Line.",
+    },
+    {
+      name: "Yellowjackets",
+      serviceSlug: "wasp-bee-removal",
+      activeSeason: "June through October, most aggressive in August and September",
+      note:
+        "Yellowjackets build ground nests in Center Line's residential yards and wall-void nests in older home siding and soffits each summer. Because lots are small and homes are close together, a yellowjacket nest in one yard affects the usability of outdoor spaces across the neighboring properties as well.",
+    },
+  ],
+  localHook:
+    "Center Line is one of the most densely settled cities in Macomb County. At less than two square miles, surrounded entirely by Warren on three sides and Sterling Heights on the fourth, it functions as an urban neighborhood rather than a typical suburb. That density means what happens next door happens to you too. A mouse colony two houses down, a cockroach infestation in a neighboring unit, a yellowjacket nest in the adjacent yard: in Center Line, pest pressure is as much a shared problem as an individual one.",
+  intro:
+    "Center Line is a small, tightly built city in the middle of southwest Macomb County, surrounded entirely by Warren and Sterling Heights. Its two square miles of dense residential streets mean pests move between properties with almost no barrier. German cockroaches from commercial Warren to the south find their way into Center Line's older residential blocks. House mice flow across property lines each October when Michigan temperatures fall. Yellowjackets building in one yard affect the whole street. Managing pest pressure in Center Line means understanding the urban environment on all four sides.",
+  sections: [
+    {
+      heading: "Why density changes the pest equation in Center Line",
+      body:
+        "In a typical suburban setting, a mouse or cockroach infestation is a property-level problem. In Center Line, where homes sit a few feet apart on lots that run the full width of a very small city, pest populations move across property lines as easily as people move down the sidewalk. House mice from surrounding Warren enter Center Line blocks through alleys and shared utility corridors. German cockroaches in a multi-family building spread through shared plumbing to units on both sides. This means that pest control in Center Line benefits from a neighborhood-level perspective: knowing the pressure sources on adjacent properties, not just the one being treated.",
+    },
+    {
+      heading: "Yellowjacket season in a small city",
+      body:
+        "Yellowjacket colonies in Center Line build through June and July, reaching peak population in August. In a city this dense, a ground nest in a backyard or a wall-void nest in an older home's soffit affects multiple properties simultaneously. Yellowjackets forage up to 1,000 feet from the nest, which in Center Line's geography means a single colony can make outdoor activity uncomfortable across several yards. Treatment at dusk, when workers are in the nest, is the most effective and safest approach. Never seal a wall-void entrance without treating first.",
+    },
+  ],
+  prevention: [
+    "Seal foundation gaps and utility penetrations in September before the fall mouse surge begins.",
+    "Keep garbage in sealed containers to reduce the food sources that attract cockroaches and yellowjackets.",
+    "Inspect eaves, soffits, and ground cover in May and June to catch yellowjacket nest starts early.",
+    "Caulk concrete joints and foundation cracks each spring to limit pavement ant entry.",
+    "Inspect secondhand furniture and clothing for bed bug signs before bringing them indoors.",
+  ],
+  costNote:
+    "Center Line pest control is typically offered as a year-round general service covering cockroaches, ants, and spiders, with rodent exclusion, bed bug treatment, and yellowjacket removal quoted separately. The city's density sometimes makes a block-level assessment useful for multi-family properties.",
+  faqs: [
+    {
+      question: "Does Center Line's small size and dense housing make pest problems worse?",
+      answer:
+        "Yes, in practical terms. When homes are separated by only a few feet and share alley access, utility corridors, and aging infrastructure, pests move between properties with less resistance than in lower-density areas. A mouse population established in an adjacent property can reach your home quickly. A cockroach infestation in a neighboring unit can spread through shared plumbing. This does not mean pest control is impossible in Center Line; it means that exclusion work and addressing the building's structural vulnerabilities matters as much as treatment.",
+    },
+    {
+      question: "How do I get rid of a yellowjacket ground nest in my Center Line yard?",
+      answer:
+        "Treat the nest at dusk, when foraging workers have returned and the colony is at rest. Apply an appropriately labeled insecticide dust or aerosol directly into the nest entrance. Give it 48 hours before checking whether the colony is eliminated, and do not seal the entrance until you are confident activity has stopped. If the nest is inside a wall void in your home's structure, professional treatment is strongly recommended because sealing an active wall nest without treatment forces the colony to chew through the interior wall surface.",
+    },
+    {
+      question: "What are the signs of a German cockroach problem in Center Line homes?",
+      answer:
+        "The most common early signs are small dark droppings resembling coffee grounds or pepper in cabinet corners and under the sink, a faint musty odor in the kitchen or bathroom, and sighting of cockroaches at night when lights are turned on suddenly. German cockroaches are nocturnal and prefer to stay in tight harborage areas close to food and moisture. Seeing them during the day typically means the population has grown large enough to force some individuals out of the preferred harborage. Treatment is more effective when started early.",
+    },
+    {
+      question: "Why do I see pavement ants every spring in Center Line no matter what I do?",
+      answer:
+        "Pavement ant colonies in Center Line's residential streets are established in the soil under concrete that has been in place for decades. Killing the ants you see indoors does not eliminate the colony under the driveway or sidewalk. Effective treatment requires placing bait at the colony entrance, usually at the base of the foundation where ants are trailing, so workers carry the active ingredient back to the queen. Annual spring treatment, timed to when ants first appear in April, keeps populations low before they reach peak summer numbers.",
+    },
+  ],
+  author: "James Cole, Service Operations Manager, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Warren", slug: "warren" },
+    { name: "Sterling Heights", slug: "sterling-heights" },
+    { name: "Fraser", slug: "fraser-mi" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Center Line, MI | Cockroaches, Mice & Yellowjackets",
+  metaDescription:
+    "Center Line, MI pest control for German cockroaches, house mice, bed bugs, and yellowjackets. Licensed Macomb County service. Book a free inspection.",
+},
 ];

@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-24)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-70 complete. T2 COMPLETE.
-- **City pages built:** 1703 total (75 T1 + 300 T2 + 1328 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-72 complete. T2 COMPLETE.
+- **City pages built:** 1752 total (75 T1 + 300 T2 + 1377 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1785 in the static export (home, services, 50+ states, 1703 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=348, B=346, C=346, D=345, E=318 (1703 total cities, all within 15-25% range).
-- **Cities built T3 chunks 69-70 (50):** Chunk 69 (C): VT: Essex Junction, Colchester, Bennington, Brattleboro. NH: Portsmouth, Salem, Laconia, Londonderry. ND: Jamestown, Wahpeton, Devils Lake. SD: Mitchell, Pierre, Huron. NE: Lexington, South Sioux City, Gering. WY: Green River, Riverton, Cody. ME: Augusta, Waterville, Saco, Westbrook, Sanford. Chunk 70 (D): MT: Anaconda, Miles City. ID: Kuna, Eagle, Mountain Home, Chubbuck, Blackfoot. WY: Lander, Torrington, Douglas, Rawlins. VT: St. Johnsbury, Springfield. NH: Bedford, Hudson, Merrimack, Claremont. SD: Spearfish, Yankton, Vermillion, Box Elder. NE: York, McCook, Alliance, Seward.
-- **New state files added chunks 69-70:** none (all states already registered).
-- **Next block:** Chunk 71, T3 continues, rotation at E.
+- **Total site pages:** 1834 in the static export (home, services, 50+ states, 1752 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=372, B=346, C=346, D=345, E=343 (1752 total cities, all within 15-25% range).
+- **Cities built T3 chunks 71-72 (49):** Chunk 71 (E): OH: Berea, North Olmsted, Shaker Heights, Garfield Heights, Maple Heights. IL: Chicago Heights, East St. Louis, Loves Park, Marion, Centralia. NC: Mint Hill, Clayton, Hope Mills, Roanoke Rapids, Mount Holly. TN: Soddy-Daisy, Red Bank, Atoka, Milan, Harriman. IN: Beech Grove, Speedway, Connersville. AL: Bessemer, Selma. Chunk 72 (A): OH: North Royalton, Tallmadge, Fairview Park, Wadsworth, Maumee. AL: Cullman, Fairhope, Foley, Prichard, Helena. GA: Norcross, Kingsland, Lilburn. MI: Fraser, Wayne, Clawson, Berkley, Center Line. VA: Covington, Lexington. NC: Pinehurst, Waxhaw, Oxford. IL: East Moline.
+- **New state files added chunks 71-72:** none (all states already registered).
+- **Next block:** Chunk 73, T3 continues, rotation at B.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

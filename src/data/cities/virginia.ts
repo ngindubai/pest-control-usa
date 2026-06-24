@@ -4245,4 +4245,234 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Pest control in Galax, VA. Blue Ridge foothills service for carpenter ants, stink bugs, mice, Eastern subterranean termites, and spiders in older structures. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+  slug: "covington-va",
+  name: "Covington",
+  state: "Virginia",
+  stateSlug: "virginia",
+  stateAbbr: "VA",
+  tier: "T3",
+  population: "~6,500",
+  county: "Independent City",
+  climate: "cold-humid",
+  climateDriver:
+    "Covington sits in the Jackson River valley of Virginia's Alleghany Highlands, surrounded on all sides by the George Washington National Forest. The mountain valley climate delivers cold winters with regular snow and humid, cool summers. The surrounding national forest is one of the largest in the eastern United States, and the forested ridgelines immediately above the city create persistent pressure from forest-edge pests, particularly carpenter ants and mice. Covington's older industrial and residential building stock adds structural vulnerability.",
+  topPests: [
+    "Carpenter Ants",
+    "House Mice",
+    "Brown Marmorated Stink Bugs",
+    "Yellowjackets",
+    "Spiders",
+  ],
+  pestProfile: [
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through September",
+      note:
+        "Covington's location in the Alleghany Highlands, with the George Washington National Forest immediately to the north and south, makes carpenter ants the primary structural pest concern here. Foraging workers from forest colonies on the surrounding ridgelines find moisture-damaged wood in Covington's older downtown buildings and residential structures and establish satellite colonies that build over multiple seasons.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Year-round, strong surge October through January",
+      note:
+        "Covington's cold mountain winters produce a reliable and aggressive fall mouse surge. The Jackson River valley and the national forest surroundings provide extensive field and forest mouse habitat that generates consistent pressure on the older residential and commercial buildings that make up much of Covington.",
+    },
+    {
+      name: "Brown marmorated stink bugs",
+      serviceSlug: "stink-bug-control",
+      activeSeason: "September through November, overwintering indoors",
+      note:
+        "Brown marmorated stink bugs are well-established in the Alleghany Highlands. Covington's older building stock, with its aging windows and gaps in wood trim, provides numerous entry points for stink bugs seeking indoor overwintering sites each September and October.",
+    },
+    {
+      name: "Yellowjackets",
+      serviceSlug: "wasp-bee-removal",
+      activeSeason: "June through October",
+      note:
+        "Yellowjackets are common in and around Covington, building both ground nests in the forested margins adjacent to residential areas and wall-void nests in the older structures throughout downtown. The mountain forest edge provides abundant nesting habitat that sustains yellowjacket pressure through the warm months.",
+    },
+    {
+      name: "Spiders",
+      serviceSlug: "spider-control",
+      activeSeason: "Year-round, most active indoors in fall",
+      note:
+        "Covington's proximity to the George Washington National Forest and the older, less-sealed building stock throughout the city create above-average spider populations indoors, particularly in basements, crawl spaces, and ground-floor areas. Common species include cellar spiders and wolf spiders. Spiders follow insect prey indoors, so reducing other pest pressure generally reduces spider activity.",
+    },
+  ],
+  localHook:
+    "Covington is surrounded by the George Washington National Forest on virtually all sides. The forested ridgelines that rise directly above the Jackson River valley are not distant scenery. They are the source population for carpenter ants that forage into the older downtown buildings and the residential streets below. No other independent city in Virginia sits this deep inside a national forest, and that geography defines the pest picture here.",
+  intro:
+    "Pest control in Covington, Virginia is inseparable from the forest. This small independent city in the Alleghany Highlands sits inside the George Washington National Forest, with forested ridgelines rising directly above the Jackson River valley on all sides. Those forests are what makes Covington distinctive as a place to live, and they are also what makes carpenter ants and mice the most consistent structural pest concerns in the city. Stink bugs arrive each fall, yellowjackets build through the warm months, and the older industrial-era and residential buildings throughout Covington add structural vulnerability to the equation.",
+  sections: [
+    {
+      heading: "Why the national forest changes the pest picture in Covington",
+      body:
+        "Most Virginia communities have some exposure to forest-edge pests, but Covington's situation is unusual. The George Washington National Forest covers hundreds of thousands of acres in the Alleghany Highlands, and Covington is not at its edge; it is inside it. The forested ridges above the Jackson River valley hold dense carpenter ant populations in the mature hardwood stands, and those foraging workers range into the city's older buildings throughout the warm months. Unlike urban or suburban communities where pest pressure diminishes with distance from wild lands, Covington has that forest directly overhead. Effective carpenter ant management here requires treating the structure and understanding that source pressure from the surrounding forest does not go away.",
+    },
+    {
+      heading: "Older buildings and the moisture connection",
+      body:
+        "Covington's paper mill heritage left a built environment of older industrial and residential structures, many dating from the early and mid-twentieth century. These buildings share a pest vulnerability profile: original wood framing, aging windows, inadequate crawl space ventilation in many homes, and settled foundations with gaps around utility penetrations. Moisture in these structures, whether from aging rooflines, crawl space humidity, or plumbing that has shifted over the decades, is what attracts carpenter ants. Mice use the foundation gaps. Spiders follow the insect prey that these conditions support. Addressing the moisture and the structural gaps alongside the pest treatment produces longer-lasting results.",
+    },
+  ],
+  prevention: [
+    "Inspect fascia boards, window framing, and crawl space areas for moisture damage and soft wood each spring.",
+    "Seal foundation gaps and utility penetrations in September before the fall mouse and stink bug seasons begin.",
+    "Improve crawl space ventilation in older Covington homes to reduce the humidity that supports carpenter ant nesting.",
+    "Check eaves and wooded margins in May and June for yellowjacket nest starts before colonies grow large.",
+    "Keep firewood stored well away from the structure and elevated off the ground.",
+  ],
+  costNote:
+    "Covington pest control typically involves a carpenter ant-focused structural inspection alongside general pest service, given the national forest proximity. Rodent exclusion, stink bug sealing, and spider reduction programs are quoted after inspection. A free assessment identifies the specific combination your property needs.",
+  faqs: [
+    {
+      question: "Is Covington's carpenter ant problem really worse than other Virginia cities?",
+      answer:
+        "In practical terms, yes. Covington's location inside the George Washington National Forest means the source population for carpenter ants is not a distant patch of woods. It is the forested ridgelines immediately above the city on all sides. Carpenter ant colonies in mature hardwood forests are large and persistent, and foraging workers range far from the primary nest. Covington's older building stock, with its moisture-vulnerable wood framing, gives those foraging workers exactly what they need to establish satellite colonies in the structures. That combination of large nearby source populations and structurally vulnerable buildings is what distinguishes Covington from lower-pressure Virginia communities.",
+    },
+    {
+      question: "Should I be concerned about spiders in my Covington home?",
+      answer:
+        "The spiders most commonly found indoors in Covington are cellar spiders and wolf spiders, both of which are nuisance species that pose no significant threat to people. Wolf spiders are large and can be alarming, but they are not aggressive and their bite, while possible, is not medically significant for most people. Their presence indoors typically reflects an abundance of smaller insects they are hunting. Reducing other pest pressure through a general pest program tends to reduce spider activity over time, as their prey becomes less available inside the structure.",
+    },
+    {
+      question: "How do I stop stink bugs from getting into my Covington home each fall?",
+      answer:
+        "The most effective approach is sealing entry points before they start moving, which in Covington typically means August. Check around window frames where the frame meets the siding, around utility penetrations including electric, cable, and plumbing, and under the soffit where it meets the exterior wall. Weatherstripping on doors and windows also helps. A perimeter insecticide treatment applied in late August can supplement sealing. Once stink bugs are inside wall voids, removing them is difficult. Prevention before September is significantly more effective than removal after.",
+    },
+    {
+      question: "Why do mice enter Covington homes so aggressively in fall?",
+      answer:
+        "Two factors combine in Covington. The mountain climate produces colder temperatures earlier in the fall than lower-elevation Virginia communities, and the surrounding national forest and Jackson River valley bottomlands hold large field and forest mouse populations. When temperatures drop in October, those mice move toward heated structures, and Covington's older homes with their foundation gaps and aging utility penetrations offer multiple entry points. A September inspection and exclusion pass, timed before the pressure starts, is the most cost-effective approach. Waiting until mice are already active inside means the population has established, which takes more effort to resolve.",
+    },
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Staunton", slug: "staunton" },
+    { name: "Waynesboro", slug: "waynesboro" },
+    { name: "Lexington", slug: "lexington-va" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Covington, VA | Carpenter Ants, Mice & Stink Bugs",
+  metaDescription:
+    "Covington, VA pest control for carpenter ants, house mice, stink bugs, and spiders. Licensed service in the Alleghany Highlands. Book a free inspection.",
+},
+{
+  slug: "lexington-va",
+  name: "Lexington",
+  state: "Virginia",
+  stateSlug: "virginia",
+  stateAbbr: "VA",
+  tier: "T3",
+  population: "~7,000",
+  county: "Independent City",
+  climate: "cold-humid",
+  climateDriver:
+    "Lexington sits in the upper Maury River valley of the Rockbridge County area, surrounded by limestone ridges and mixed hardwood forest. The Alleghany Highland climate delivers cold winters and cool, humid summers, and the forested hills above the Maury River corridor maintain persistent pressure from carpenter ants and mice. The presence of Virginia Military Institute and Washington and Lee University brings historic building stock with the structural vulnerabilities typical of older construction.",
+  topPests: [
+    "Carpenter Ants",
+    "House Mice",
+    "Brown Marmorated Stink Bugs",
+    "Yellowjackets",
+    "German Cockroaches",
+  ],
+  pestProfile: [
+    {
+      name: "Carpenter ants",
+      serviceSlug: "ant-control",
+      activeSeason: "April through September",
+      note:
+        "Lexington's older building stock, including the historic academic buildings at Virginia Military Institute and Washington and Lee University, and the forested Maury River valley and limestone ridges surrounding the city, create both the source population and the structural vulnerability that makes carpenter ants a consistent concern here.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Year-round, surge October through December",
+      note:
+        "The Maury River valley and the surrounding limestone ridges of the Rockbridge County area provide extensive field and forest mouse habitat that generates consistent fall pressure on Lexington's residential and historic structures. Cold mountain winters drive mice indoors aggressively, and the older building stock provides entry points that modern construction would not.",
+    },
+    {
+      name: "Brown marmorated stink bugs",
+      serviceSlug: "stink-bug-control",
+      activeSeason: "September through November, overwintering indoors",
+      note:
+        "Brown marmorated stink bugs are established across Virginia's mountain and valley regions, and Lexington's older buildings with original or aging windows and wood trim provide the gaps that stink bugs use to enter each fall. Homes and academic buildings near the wooded slopes above the Maury River see the heaviest invasions.",
+    },
+    {
+      name: "Yellowjackets",
+      serviceSlug: "wasp-bee-removal",
+      activeSeason: "June through October",
+      note:
+        "Lexington's wooded hillsides, campus grounds, and older residential areas provide abundant yellowjacket nesting habitat. Ground nests in wooded lawn margins and wall-void nests in older structures are both common. Colonies are at peak size and aggressiveness in August and September.",
+    },
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note:
+        "The commercial and food-service areas along Main Street and Nelson Street in downtown Lexington, along with the food facilities serving VMI and Washington and Lee, sustain German cockroach populations that can spread into adjacent older residential and commercial buildings through shared infrastructure.",
+    },
+  ],
+  localHook:
+    "Lexington is home to Virginia Military Institute and Washington and Lee University, and both institutions operate in buildings that are decades to over a century old. Historic structures with original wood framing, older foundations, and decades of maintenance cycles have the kind of moisture-prone details that carpenter ants exploit. The Maury River valley and the limestone ridges surrounding the city add a persistent forest-edge pest source that Lexington's residential neighborhoods feel every spring.",
+  intro:
+    "Pest control in Lexington, Virginia sits at the intersection of historic architecture and mountain geography. This small independent city in the Rockbridge County area is home to Virginia Military Institute and Washington and Lee University, both of which operate campus buildings ranging from historic to mid-century. Those older structures, combined with the forested Maury River valley and the limestone ridges surrounding the city, create a consistent pest environment. Carpenter ants are the most serious structural concern, house mice are a reliable fall event, stink bugs arrive each September, and German cockroaches work the commercial and institutional food-service areas downtown.",
+  sections: [
+    {
+      heading: "Historic buildings and carpenter ant risk in Lexington",
+      body:
+        "VMI and Washington and Lee together operate dozens of buildings on their Lexington campuses, many of them historic and built from wood framing with original or early-replacement windows. The Maury River corridor and the forested ridgelines above the valley sustain the carpenter ant colonies that forage into these structures. In older buildings, moisture tends to accumulate in window sills, behind original wood trim, and in areas around aging roof penetrations, and those are exactly the conditions carpenter ants seek. For residential homeowners in Lexington, the same principle applies: a home with any moisture-vulnerable wood in contact with the forested hillside environment above the Maury River is at real carpenter ant risk, and the earlier an infestation is identified, the less structural damage accumulates.",
+    },
+    {
+      heading: "Managing stink bugs and mice before they get inside",
+      body:
+        "Lexington's two most common fall pest events, the stink bug arrival and the mouse surge, share the same management logic: seal the entry points before the pressure starts. For stink bugs, that means inspecting and caulking gaps around window frames and utility penetrations in August. For mice, it means a foundation inspection in September, identifying the gaps around pipe penetrations and the sill plate junction, and sealing them before October temperatures drive mice indoors. Lexington's older residential buildings tend to have more of these gaps than the homeowners realize, and an inspection before fall typically finds more than expected.",
+    },
+  ],
+  prevention: [
+    "Inspect window frames and wood trim around the structure for moisture damage each spring before carpenter ants become active.",
+    "Seal foundation gaps, pipe penetrations, and window frame gaps in August before stink bug and mouse seasons begin.",
+    "Check the Maury River-facing hillside on your property for moisture entry points that connect forested habitat to your structure.",
+    "Keep food stored in sealed containers in kitchens near VMI and downtown to reduce German cockroach food sources.",
+    "Monitor campus and residential areas in May for yellowjacket nest starts before colonies reach summer peak size.",
+  ],
+  costNote:
+    "Lexington pest control typically includes a carpenter ant-focused structural inspection alongside general service. Rodent exclusion, stink bug prevention, and German cockroach treatment are quoted separately after inspection. Older homes and historic buildings often require a more thorough assessment before exclusion work is accurately scoped.",
+  faqs: [
+    {
+      question: "Are the historic buildings at VMI and Washington and Lee at higher termite or carpenter ant risk?",
+      answer:
+        "Carpenter ant risk is genuinely elevated in older wood-frame structures in Lexington, given the forested Maury River valley and limestone ridge surroundings. Eastern subterranean termites are present statewide in Virginia and can affect any wood-frame structure, including historic buildings, particularly those with inadequate moisture management or wood in contact with soil. Both pests benefit from regular inspections in structures of that age and construction style. Carpenter ants are more immediately active as a foraging pest here given the forest-edge geography, but termite vigilance is also warranted.",
+    },
+    {
+      question: "Do German cockroaches spread from the restaurant district to nearby Lexington homes?",
+      answer:
+        "Yes, and it happens through shared infrastructure. The commercial kitchens and food-service facilities along Main Street and in the campus areas can sustain cockroach populations that spread through utility chases, shared plumbing runs, and the gaps in older commercial block construction into adjacent buildings. Residents in downtown Lexington who notice German cockroaches, particularly near plumbing areas in kitchens and bathrooms, may be receiving pressure from adjacent commercial sources rather than having an independent infestation. Treatment in those cases should address both the residential unit and, if possible, the commercial source.",
+    },
+    {
+      question: "What is the right time of year to treat carpenter ants in Lexington?",
+      answer:
+        "May and June are the most effective window for carpenter ant treatment in Lexington. That is when swarming activity and increased foraging make the colony's location and extent easier to identify, and when treatment targeting the nest produces the fastest results. If you see large black ants in your Lexington home, particularly near a window or a damp area, in May or June, do not wait. Carpenter ant colonies grow over multiple seasons, and earlier treatment means less accumulated damage. Fall and winter treatment is possible but less effective because the colony is deeper and less active.",
+    },
+    {
+      question: "How do I stop stink bugs from overwintering in my Lexington home?",
+      answer:
+        "The window for effective prevention in Lexington is August. Stink bugs begin moving toward overwintering sites as nighttime temperatures fall in September, and if they enter wall voids before you act, removal becomes very difficult. In August, inspect the exterior of your home for gaps around window frames where they meet the siding, around any utility penetration through the exterior wall, and where the soffit meets the exterior. Caulk any gaps you find and check that weatherstripping on doors and windows is sealing properly. A perimeter insecticide treatment can supplement sealing and further reduce the number of stink bugs that approach the building.",
+    },
+  ],
+  author: "Sandra Whitfield, IPM and Pesticide Safety Specialist, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Staunton", slug: "staunton" },
+    { name: "Covington", slug: "covington-va" },
+    { name: "Roanoke", slug: "roanoke" },
+  ],
+  contentTemplate: "A",
+  contentSoul: "operator",
+  metaTitle: "Pest Control in Lexington, VA | Carpenter Ants, Mice & Stink Bugs",
+  metaDescription:
+    "Lexington, VA pest control for carpenter ants, house mice, stink bugs, and cockroaches. Licensed service near VMI and Washington and Lee. Free inspection.",
+},
 ];

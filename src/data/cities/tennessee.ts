@@ -5547,4 +5547,514 @@ export const tennesseeCities: CityLocation[] = [
     metaDescription:
       "Lakeland TN pest control for heavy Shelby County fire ants, eastern subterranean termites, mosquitoes through the extended Memphis metro season and German cockroaches. Free inspection.",
   },
+  {
+  slug: "soddy-daisy",
+  name: "Soddy-Daisy",
+  state: "Tennessee",
+  stateSlug: "tennessee",
+  stateAbbr: "TN",
+  tier: "T3",
+  population: "~14,000",
+  county: "Hamilton County",
+  climate: "hot-humid",
+  climateDriver:
+    "Soddy-Daisy sits along the Tennessee River north of Chattanooga in a humid subtropical climate. Hot, wet summers and mild winters keep subterranean termites and mosquitoes active for a long stretch, and the wooded ridge terrain adds carpenter ant and stink bug pressure.",
+  topPests: ["Termites", "Mosquitoes", "Cockroaches", "Carpenter ants", "Stink bugs"],
+  pestProfile: [
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarm in spring, active much of the year",
+      note: "East Tennessee carries steady subterranean termite pressure, and the warm, humid river valley keeps colonies feeding for most of the year.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "Spring through fall",
+      note: "The Chickamauga Lake shoreline near Soddy-Daisy holds standing water that breeds mosquitoes through the summer, including the day-biting Asian tiger mosquito.",
+    },
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note: "German roaches breed indoors in warm, moist kitchens and bathrooms and stay active all year regardless of the weather outside.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "carpenter-ant-control",
+      activeSeason: "Spring through fall",
+      note: "The wooded ridge terrain around Soddy-Daisy gives carpenter ants plenty of damp, decaying wood to nest in before they move into homes.",
+    },
+    {
+      name: "Brown marmorated stink bugs",
+      serviceSlug: "ant-control",
+      activeSeason: "Fall as they seek shelter",
+      note: "Stink bugs gather on warm, sunny walls in fall and slip through gaps to overwinter indoors, then reappear in spring.",
+    },
+  ],
+  localHook:
+    "Living between the Tennessee River and the wooded ridges, a Soddy-Daisy home faces two long-running threats: subterranean termites working up from the soil and mosquitoes breeding along the Chickamauga Lake shoreline through summer.",
+  intro:
+    "Pest control in Soddy-Daisy is shaped by the river valley and the wooded ridges around town. The humid subtropical climate gives subterranean termites and mosquitoes a long active season, and East Tennessee carries real termite pressure. Chickamauga Lake's shoreline keeps mosquitoes breeding through summer, while the surrounding woods feed carpenter ants and fall stink bugs. German roaches stay active indoors year-round. Mild winters mean the pressure rarely fully drops off, so steady protection usually beats one-off visits.",
+  sections: [
+    {
+      heading: "Termites and the river valley",
+      body: "Start with the costly risk: eastern subterranean termites are active across this part of East Tennessee and stay busy much of the year in the warm, humid river valley. They reach wood through mud tubes from the soil, and the first signs, faint mud tubes and spring swarms, are easy to overlook. An annual inspection is the practical defense, especially for homes with crawl spaces or wood touching soil.",
+    },
+    {
+      heading: "Lake-driven mosquitoes and ridge pests",
+      body: "The Chickamauga Lake shoreline near Soddy-Daisy creates a lot of mosquito breeding habitat through the summer months, so the season runs long here. The wooded ridge terrain adds two more: carpenter ants nesting in damp wood, and brown marmorated stink bugs that cluster on sunny walls in fall and push indoors to overwinter. Sealing gaps before fall and cutting standing water after rain takes pressure off both fronts.",
+    },
+  ],
+  prevention: [
+    "Keep an annual termite inspection on the calendar given East Tennessee pressure.",
+    "Empty containers and clear gutters after rain to cut lake-driven mosquito breeding.",
+    "Remove damp or decaying wood near the home to limit carpenter ants.",
+    "Seal cracks and gaps before fall to keep stink bugs from overwintering indoors.",
+    "Reduce mulch and moisture against the foundation to limit roaches and termites.",
+  ],
+  costNote:
+    "With year-round termite risk and a long, lake-driven mosquito season, many Soddy-Daisy homes pair a recurring plan with an annual termite check. A free inspection sets the plan to your property and the pests you actually see.",
+  faqs: [
+    {
+      question: "Are termites a serious risk in Soddy-Daisy?",
+      answer:
+        "Yes. East Tennessee carries steady eastern subterranean termite pressure, and the warm, humid Tennessee River valley keeps colonies active much of the year. They reach wood through mud tubes from the soil, so an annual inspection is strongly recommended, especially for homes near the ridges with crawl spaces.",
+    },
+    {
+      question: "Why are mosquitoes so bad near Soddy-Daisy?",
+      answer:
+        "The Chickamauga Lake shoreline north of Chattanooga creates a lot of standing water and breeding habitat through the summer, which stretches the mosquito season here. Removing standing water after rain and treating shaded resting areas around the yard reduces the bites.",
+    },
+    {
+      question: "Do stink bugs get into Soddy-Daisy homes in fall?",
+      answer:
+        "Yes. Brown marmorated stink bugs from the surrounding wooded ridges gather on warm, sunny walls in fall and slip through gaps to overwinter indoors. Sealing cracks around windows, vents, and siding before fall is the most effective defense.",
+    },
+    {
+      question: "What causes carpenter ants around here?",
+      answer:
+        "The wooded ridge terrain around Soddy-Daisy gives carpenter ants plenty of damp, decaying wood to nest in, and they move into homes through moist or water-damaged framing. Fixing leaks and removing rotting wood near the house limits them.",
+    },
+  ],
+  author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Chattanooga", slug: "chattanooga" },
+    { name: "Red Bank", slug: "red-bank-tn" },
+    { name: "Cleveland", slug: "cleveland-tn" },
+  ],
+  contentTemplate: "E",
+  contentSoul: "brief",
+  metaTitle: "Pest Control in Soddy-Daisy, TN | Termites, Mosquitoes & Carpenter Ants",
+  metaDescription:
+    "Soddy-Daisy pest control for subterranean termites, lake-driven mosquitoes, roaches, carpenter ants and fall stink bugs. Free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "red-bank-tn",
+  name: "Red Bank",
+  state: "Tennessee",
+  stateSlug: "tennessee",
+  stateAbbr: "TN",
+  tier: "T3",
+  population: "~12,000",
+  county: "Hamilton County",
+  climate: "hot-humid",
+  climateDriver:
+    "Red Bank sits on Walden's Ridge northwest of Chattanooga in a humid subtropical climate. Hot, wet summers and mild winters keep termites and mosquitoes active for a long stretch, and the ridgetop position brings fall stink bugs down onto homes.",
+  topPests: ["Termites", "Mosquitoes", "Cockroaches", "Stink bugs", "Mice"],
+  pestProfile: [
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarm in spring, active much of the year",
+      note: "East Tennessee carries steady subterranean termite pressure, and Red Bank's older residential stock gives colonies plenty of aging wood and crawl spaces to reach.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "Spring through fall",
+      note: "Hot, wet summers and shaded yards in Red Bank's older neighborhoods hold standing water that breeds mosquitoes, including the day-biting Asian tiger mosquito.",
+    },
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note: "German roaches breed indoors in warm, moist kitchens and bathrooms and stay active all year, a common issue in older homes with shared walls.",
+    },
+    {
+      name: "Brown marmorated stink bugs",
+      serviceSlug: "ant-control",
+      activeSeason: "Fall as they seek shelter",
+      note: "Red Bank's position on Walden's Ridge above Chattanooga means stink bugs from the surrounding ridgetop agricultural edge aggregate on structures in fall.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Move indoors in fall",
+      note: "Mice push indoors as the weather cools and find easy entry points in Red Bank's older homes, nesting in walls, basements, and crawl spaces.",
+    },
+  ],
+  localHook:
+    "Perched on Walden's Ridge above Chattanooga, Red Bank's older homes face subterranean termites working up through aging crawl spaces and a fall wave of stink bugs drifting down from the ridgetop edge.",
+  intro:
+    "Pest control in Red Bank is shaped by its ridgetop position and older housing stock. The humid subtropical climate gives subterranean termites and mosquitoes a long active season, and East Tennessee carries real termite pressure that the area's aging wood and crawl spaces only help. Shaded older yards hold mosquito-breeding water, German roaches stay active indoors year-round, and fall brings stink bugs down from the ridge plus mice looking to overwinter. Mild winters keep the pressure steady, so ongoing protection usually beats one-off visits.",
+  sections: [
+    {
+      heading: "Termites in older Red Bank homes",
+      body: "Start with the costly risk: eastern subterranean termites are active across this part of East Tennessee and stay busy much of the year. Red Bank's older residential areas give them aging wood and accessible crawl spaces, and they reach framing through mud tubes from the soil. The first signs, faint mud tubes and spring swarms, are easy to miss, so an annual inspection is the practical defense for these homes.",
+    },
+    {
+      heading: "Ridgetop stink bugs and fall mice",
+      body: "Red Bank's spot on Walden's Ridge above Chattanooga means stink bugs from the surrounding ridgetop agricultural edge aggregate on structures in fall, clustering on sunny walls and slipping inside to overwinter. The same cooling weather pushes house mice indoors, and older homes offer plenty of entry points. Sealing gaps around the foundation, windows, and vents before fall takes pressure off both.",
+    },
+  ],
+  prevention: [
+    "Keep an annual termite inspection on the calendar given East Tennessee pressure and older wood.",
+    "Remove standing water from shaded older yards after rain to cut mosquito breeding.",
+    "Seal cracks and gaps before fall to keep ridgetop stink bugs out.",
+    "Seal entry points around the foundation and pipes before fall to block mice.",
+    "Reduce mulch and moisture against the foundation to limit roaches and termites.",
+  ],
+  costNote:
+    "With year-round termite risk in older homes, a long mosquito season, and a fall wave of stink bugs and mice, many Red Bank homes pair a recurring plan with an annual termite check. A free inspection sets the plan to your property.",
+  faqs: [
+    {
+      question: "Are termites a serious risk in Red Bank?",
+      answer:
+        "Yes. East Tennessee carries steady eastern subterranean termite pressure, and Red Bank's older residential areas give colonies aging wood and accessible crawl spaces to reach. They work up through mud tubes from the soil, so an annual inspection is strongly recommended for these homes.",
+    },
+    {
+      question: "Why do so many stink bugs show up in Red Bank in fall?",
+      answer:
+        "Red Bank's position on Walden's Ridge above Chattanooga means brown marmorated stink bugs from the surrounding ridgetop agricultural edge aggregate on structures in fall. They cluster on warm, sunny walls and slip through gaps to overwinter indoors, so sealing cracks before fall is the best defense.",
+    },
+    {
+      question: "When do mice get into Red Bank homes?",
+      answer:
+        "Mostly in fall, as cooling weather pushes them indoors. Red Bank's older homes often have gaps around the foundation, pipes, and vents that make easy entry points, so sealing those before fall is the most effective step, with traps for any that get in.",
+    },
+    {
+      question: "Why are roaches common in older Red Bank homes?",
+      answer:
+        "German cockroaches breed indoors in warm, moist kitchens and bathrooms and stay active year-round. Older homes with shared walls and aging plumbing give them moisture and harborage, so reducing moisture, sealing gaps, and targeted treatment work together to clear them.",
+    },
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Chattanooga", slug: "chattanooga" },
+    { name: "Soddy-Daisy", slug: "soddy-daisy" },
+    { name: "East Ridge", slug: "east-ridge" },
+  ],
+  contentTemplate: "E",
+  contentSoul: "brief",
+  metaTitle: "Pest Control in Red Bank, TN | Termites, Mosquitoes & Stink Bugs",
+  metaDescription:
+    "Red Bank pest control for subterranean termites, mosquitoes, roaches, ridgetop stink bugs and fall mice. Older-home expertise, free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "atoka-tn",
+  name: "Atoka",
+  state: "Tennessee",
+  stateSlug: "tennessee",
+  stateAbbr: "TN",
+  tier: "T3",
+  population: "~10,000",
+  county: "Tipton County",
+  climate: "hot-humid",
+  climateDriver:
+    "Atoka sits in Tipton County north of Memphis in a humid subtropical climate. Hot, wet summers and mild winters keep subterranean termites and mosquitoes active for a long stretch, and the Mid-South setting brings fire ant pressure as the area shifts from rural to suburban.",
+  topPests: ["Termites", "Mosquitoes", "Fire ants", "Cockroaches", "Mice"],
+  pestProfile: [
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarm in spring, active much of the year",
+      note: "West Tennessee carries heavy subterranean termite pressure, and Tipton County's farmland and active construction make monitoring especially important for new builds in Atoka.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "Spring through fall",
+      note: "Hot, wet summers and the flat, ditch-lined terrain around Atoka hold standing water that breeds mosquitoes, including the day-biting Asian tiger mosquito.",
+    },
+    {
+      name: "Red imported fire ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Warm months, peak in late summer",
+      note: "Fire ants are established across West Tennessee and build mounds in sunny lawns and along construction edges, delivering painful stinging swarms when disturbed.",
+    },
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note: "German roaches breed indoors in warm, moist kitchens and bathrooms and stay active all year regardless of the weather outside.",
+    },
+    {
+      name: "House mice",
+      serviceSlug: "mice-control",
+      activeSeason: "Move indoors in fall",
+      note: "Mice move in from surrounding fields as the weather cools, nesting in walls, garages, and crawl spaces through the mild winter.",
+    },
+  ],
+  localHook:
+    "As Atoka grows from farmland into Memphis suburb, two pests follow the new construction: subterranean termites that target fresh builds and fire ants that colonize disturbed, sunny ground.",
+  intro:
+    "Pest control in Atoka is set by its fast growth and Mid-South climate. West Tennessee carries heavy subterranean termite pressure, and Tipton County's farmland and active construction make termite monitoring essential, especially for new builds. The flat, humid terrain keeps mosquitoes breeding through summer, fire ants colonize sunny lawns and construction edges, and German roaches stay active indoors year-round. Mice drift in from surrounding fields each fall. Mild winters keep the pressure steady, so ongoing protection usually beats one-off visits.",
+  sections: [
+    {
+      heading: "Termites and new construction",
+      body: "Start with the costly risk: West Tennessee has heavy eastern subterranean termite pressure, and they stay active much of the year in this climate. Tipton County's agricultural ground and the construction activity around Atoka make monitoring essential for new builds, since termites reach framing through mud tubes from the soil and early signs are easy to miss. A pre-construction treatment plus annual inspections is the practical defense for newer homes here.",
+    },
+    {
+      heading: "Fire ants in disturbed ground",
+      body: "Fire ants are established across this part of West Tennessee and thrive on disturbed, sunny soil, exactly what new subdivisions and graded lots create. Their mounds appear in lawns and along construction edges, and the colony swarms with painful stings when a mound is disturbed. Mound treatment plus a yard-wide bait program keeps them in check, which matters most for families with kids and pets in newer Atoka neighborhoods.",
+    },
+  ],
+  prevention: [
+    "Schedule a termite inspection on new builds given Tipton County construction and pressure.",
+    "Remove standing water from ditches and containers after rain to cut mosquito breeding.",
+    "Treat fire ant mounds promptly and keep a yard bait program in sunny lawns.",
+    "Seal entry points before fall to block mice moving in from surrounding fields.",
+    "Reduce mulch and moisture against the foundation to limit roaches and termites.",
+  ],
+  costNote:
+    "With heavy termite pressure on new construction, a long mosquito season, and established fire ants, many Atoka homes pair a recurring plan with an annual termite check. A free inspection sets the plan to your property.",
+  faqs: [
+    {
+      question: "Do new homes in Atoka need termite protection?",
+      answer:
+        "Yes. West Tennessee carries heavy eastern subterranean termite pressure, and Tipton County's farmland and active construction make monitoring essential for new builds in Atoka. A pre-construction soil treatment plus annual inspections is the practical defense, since termites reach framing through mud tubes from the soil.",
+    },
+    {
+      question: "Are fire ants a problem in Atoka?",
+      answer:
+        "Yes. Red imported fire ants are established across West Tennessee and thrive on the disturbed, sunny ground that new subdivisions create around Atoka. Their mounds swarm with painful stings when disturbed, so mound treatment plus a yard bait program is the usual approach, especially for homes with kids and pets.",
+    },
+    {
+      question: "How long is mosquito season in Atoka?",
+      answer:
+        "It runs roughly spring through fall, helped by hot, wet summers and the flat, ditch-lined terrain north of Memphis that holds standing water. It includes the day-biting Asian tiger mosquito. Removing standing water and treating shaded resting areas reduces the bites.",
+    },
+    {
+      question: "When do mice get into Atoka homes?",
+      answer:
+        "Mostly in fall, as cooling weather pushes them in from the surrounding fields to nest in walls, garages, and crawl spaces. Sealing entry points before fall is the most effective defense, with traps for any that get inside.",
+    },
+  ],
+  author: "Sandra Whitfield, IPM and Pesticide Safety Specialist, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Covington", slug: "covington-tn" },
+    { name: "Millington", slug: "millington" },
+    { name: "Memphis", slug: "memphis" },
+  ],
+  contentTemplate: "E",
+  contentSoul: "brief",
+  metaTitle: "Pest Control in Atoka, TN | Termites, Fire Ants & Mosquitoes",
+  metaDescription:
+    "Atoka pest control for subterranean termites on new builds, fire ants, mosquitoes, roaches and mice. New-construction expertise, free inspection. Call 1-800-PEST-USA.",
+},
+{
+  slug: "milan-tn",
+  name: "Milan",
+  state: "Tennessee",
+  stateSlug: "tennessee",
+  stateAbbr: "TN",
+  tier: "T3",
+  population: "~7,500",
+  county: "Gibson County",
+  climate: "hot-humid",
+  climateDriver:
+    "Milan sits in Gibson County in western Tennessee in a humid subtropical climate. Hot, wet summers and mild winters keep subterranean termites and mosquitoes active for a long stretch, and the flat farmland around town sustains heavy pressure from both.",
+  topPests: ["Termites", "Mosquitoes", "Fire ants", "Cockroaches", "Carpenter ants"],
+  pestProfile: [
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarm in spring, active much of the year",
+      note: "West Tennessee carries heavy subterranean termite pressure, and Milan's flat farmland and warm, humid climate keep colonies feeding for most of the year.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "Spring through fall",
+      note: "The flat agricultural terrain around Milan holds standing water in fields and ditches, sustaining mosquito pressure comparable to the Mississippi River lowlands.",
+    },
+    {
+      name: "Red imported fire ants",
+      serviceSlug: "ant-control",
+      activeSeason: "Warm months, peak in late summer",
+      note: "Fire ants are established across West Tennessee and build mounds in sunny lawns, pastures, and field edges, delivering painful stinging swarms when disturbed.",
+    },
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note: "German roaches breed indoors in warm, moist kitchens and bathrooms and stay active all year, a common issue in homes and light industrial sites alike.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "carpenter-ant-control",
+      activeSeason: "Spring through fall",
+      note: "Carpenter ants nest in damp or decaying wood, common in older farm structures and homes with moisture problems, then move into living spaces.",
+    },
+  ],
+  localHook:
+    "Surrounded by flat West Tennessee farmland, Milan sits in a corridor of sustained termite and mosquito pressure that rivals the Mississippi River lowlands just to the west.",
+  intro:
+    "Pest control in Milan is set by the flat farmland that surrounds this Gibson County town. West Tennessee carries heavy subterranean termite pressure, and the warm, humid climate keeps colonies active much of the year. The agricultural terrain holds standing water that sustains mosquitoes comparable to the Mississippi River lowlands, fire ants colonize sunny lawns and field edges, and German roaches stay active indoors year-round. Damp older structures feed carpenter ants. Mild winters keep the pressure steady, so ongoing protection usually beats one-off visits.",
+  sections: [
+    {
+      heading: "Termite and mosquito pressure in West Tennessee",
+      body: "Start with the costly risk: West Tennessee has heavy eastern subterranean termite pressure, and Milan's flat farmland and warm, humid climate keep colonies active much of the year. They reach wood through mud tubes from the soil, and early signs are easy to miss, so an annual inspection is the practical defense. The same flat terrain holds standing water in fields and ditches, which sustains mosquito pressure comparable to the Mississippi River lowlands just to the west.",
+    },
+    {
+      heading: "Fire ants and farm-structure pests",
+      body: "Fire ants are established across this region and build mounds in sunny lawns, pastures, and field edges, swarming with painful stings when disturbed. Mound treatment plus a yard bait program keeps them down. Carpenter ants are the other farm-country pest: they nest in damp or decaying wood common in older outbuildings and homes with moisture problems, then move indoors. Fixing leaks and removing rotting wood limits them.",
+    },
+  ],
+  prevention: [
+    "Keep an annual termite inspection on the calendar given heavy West Tennessee pressure.",
+    "Clear standing water from ditches and containers after rain to cut farmland mosquito breeding.",
+    "Treat fire ant mounds promptly and keep a yard bait program in sunny lawns.",
+    "Remove damp or decaying wood near the home to limit carpenter ants.",
+    "Reduce mulch and moisture against the foundation to limit roaches and termites.",
+  ],
+  costNote:
+    "With heavy termite pressure, a long farmland mosquito season, and established fire ants, many Milan homes pair a recurring plan with an annual termite check. A free inspection sets the plan to your property.",
+  faqs: [
+    {
+      question: "Are termites a serious risk in Milan?",
+      answer:
+        "Yes. West Tennessee carries heavy eastern subterranean termite pressure, and Milan's flat farmland and warm, humid climate keep colonies active much of the year. They reach wood through mud tubes from the soil, so an annual inspection is strongly recommended for homes here.",
+    },
+    {
+      question: "Why are mosquitoes so persistent around Milan?",
+      answer:
+        "The flat agricultural terrain surrounding Milan holds standing water in fields and ditches, which sustains mosquito pressure comparable to the Mississippi River lowlands just to the west. Removing standing water and treating shaded resting areas around the yard reduces the bites.",
+    },
+    {
+      question: "Are fire ants a problem in Milan?",
+      answer:
+        "Yes. Red imported fire ants are established across West Tennessee and build mounds in sunny lawns, pastures, and field edges around Milan. They swarm with painful stings when disturbed, so mound treatment plus a yard bait program is the usual approach, especially for homes with kids and pets.",
+    },
+    {
+      question: "What attracts carpenter ants to Milan homes?",
+      answer:
+        "Carpenter ants nest in damp or decaying wood, which is common in older farm outbuildings and homes with moisture problems. They then move into living spaces through wet or water-damaged framing, so fixing leaks and removing rotting wood near the house limits them.",
+    },
+  ],
+  author: "Dr. Lena Ortiz, Board-Certified Entomologist, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Jackson", slug: "jackson" },
+    { name: "Dyersburg", slug: "dyersburg" },
+    { name: "Union City", slug: "union-city-tn" },
+  ],
+  contentTemplate: "E",
+  contentSoul: "brief",
+  metaTitle: "Pest Control in Milan, TN | Termites, Mosquitoes & Fire Ants",
+  metaDescription:
+    "Milan pest control for subterranean termites, farmland mosquitoes, fire ants, roaches and carpenter ants. Free inspection across Gibson County. Call 1-800-PEST-USA.",
+},
+{
+  slug: "harriman-tn",
+  name: "Harriman",
+  state: "Tennessee",
+  stateSlug: "tennessee",
+  stateAbbr: "TN",
+  tier: "T3",
+  population: "~6,000",
+  county: "Roane County",
+  climate: "hot-humid",
+  climateDriver:
+    "Harriman sits near Watts Bar Lake in Roane County in a humid subtropical climate. Hot, wet summers and mild winters keep subterranean termites and mosquitoes active for a long stretch, and the lake shoreline and wooded valley add yellowjacket and carpenter ant pressure.",
+  topPests: ["Termites", "Mosquitoes", "Cockroaches", "Carpenter ants", "Yellowjackets"],
+  pestProfile: [
+    {
+      name: "Eastern subterranean termites",
+      serviceSlug: "termite-treatment",
+      activeSeason: "Swarm in spring, active much of the year",
+      note: "East Tennessee carries steady subterranean termite pressure, and Harriman's older industrial-era homes give colonies aging wood and crawl spaces to reach.",
+    },
+    {
+      name: "Mosquitoes",
+      serviceSlug: "mosquito-control",
+      activeSeason: "Spring through late fall",
+      note: "The Watts Bar Lake shoreline near Harriman sustains mosquito breeding from spring through late fall, including the day-biting Asian tiger mosquito.",
+    },
+    {
+      name: "German cockroaches",
+      serviceSlug: "cockroach-control",
+      activeSeason: "Year-round",
+      note: "German roaches breed indoors in warm, moist kitchens and bathrooms and stay active all year regardless of the weather outside.",
+    },
+    {
+      name: "Carpenter ants",
+      serviceSlug: "carpenter-ant-control",
+      activeSeason: "Spring through fall",
+      note: "The wooded Tennessee Valley terrain around Harriman gives carpenter ants damp, decaying wood to nest in before they move into homes.",
+    },
+    {
+      name: "Yellowjackets",
+      serviceSlug: "wasp-bee-removal",
+      activeSeason: "Summer through fall, peak in late summer",
+      note: "Yellowjackets build ground and cavity nests through summer and turn aggressive in late summer, a real hazard around lakeside yards and outdoor gatherings.",
+    },
+  ],
+  localHook:
+    "Set against Watts Bar Lake in the Tennessee Valley, Harriman's homes face a mosquito season that runs spring to late fall and a late-summer surge of aggressive yellowjackets around the water.",
+  intro:
+    "Pest control in Harriman is shaped by Watts Bar Lake and the wooded valley around this Roane County city. The humid subtropical climate gives subterranean termites and mosquitoes a long active season, and East Tennessee carries real termite pressure that the area's older industrial-era homes only help. The lake shoreline sustains mosquito breeding from spring through late fall, the woods feed carpenter ants, and yellowjackets turn aggressive in late summer. German roaches stay active indoors year-round. Mild winters keep the pressure steady, so ongoing protection usually beats one-off visits.",
+  sections: [
+    {
+      heading: "Termites in an older valley town",
+      body: "Start with the costly risk: eastern subterranean termites are active across this part of East Tennessee and stay busy much of the year in the warm, humid valley. Harriman's older industrial-era homes give them aging wood and accessible crawl spaces, and they reach framing through mud tubes from the soil. The first signs, faint mud tubes and spring swarms, are easy to miss, so an annual inspection is the practical defense.",
+    },
+    {
+      heading: "Lake mosquitoes and late-summer yellowjackets",
+      body: "The Watts Bar Lake shoreline near Harriman sustains mosquito breeding from spring through late fall, so the season here runs long. Late summer brings the other lakeside hazard: yellowjackets, which build ground and cavity nests through summer and turn aggressive as their colonies peak, a real concern around outdoor gatherings and waterfront yards. Cutting standing water and locating nests early takes pressure off both.",
+    },
+  ],
+  prevention: [
+    "Keep an annual termite inspection on the calendar given East Tennessee pressure and older wood.",
+    "Remove standing water after rain to cut the long, lake-driven mosquito season.",
+    "Locate and treat yellowjacket nests early before late-summer colonies peak.",
+    "Remove damp or decaying wood near the home to limit carpenter ants.",
+    "Reduce mulch and moisture against the foundation to limit roaches and termites.",
+  ],
+  costNote:
+    "With year-round termite risk, a mosquito season running into late fall, and late-summer yellowjackets, many Harriman homes pair a recurring plan with an annual termite check. A free inspection sets the plan to your property.",
+  faqs: [
+    {
+      question: "Are termites a serious risk in Harriman?",
+      answer:
+        "Yes. East Tennessee carries steady eastern subterranean termite pressure, and Harriman's older industrial-era homes give colonies aging wood and accessible crawl spaces. They work up through mud tubes from the soil, so an annual inspection is strongly recommended for these homes.",
+    },
+    {
+      question: "How long is mosquito season near Harriman?",
+      answer:
+        "It runs long here. The Watts Bar Lake shoreline near Harriman sustains mosquito breeding from spring through late fall, including the day-biting Asian tiger mosquito. Removing standing water after rain and treating shaded resting areas around the yard reduces the bites.",
+    },
+    {
+      question: "Why are yellowjackets bad around Watts Bar Lake?",
+      answer:
+        "Yellowjackets build ground and cavity nests through summer and turn aggressive in late summer as their colonies peak, which makes them a real hazard around lakeside yards and outdoor gatherings near Harriman. Locating and treating nests early, before the late-summer peak, is the safest approach.",
+    },
+    {
+      question: "What attracts carpenter ants to Harriman homes?",
+      answer:
+        "The wooded Tennessee Valley terrain around Harriman gives carpenter ants plenty of damp, decaying wood to nest in, and they move into homes through moist or water-damaged framing. Fixing leaks and removing rotting wood near the house limits them.",
+    },
+  ],
+  author: "Marcus Reed, Lead Pest Control Technician, PestRemovalUSA",
+  nearbyCities: [
+    { name: "Oak Ridge", slug: "oak-ridge" },
+    { name: "Crossville", slug: "crossville" },
+    { name: "Knoxville", slug: "knoxville" },
+  ],
+  contentTemplate: "E",
+  contentSoul: "brief",
+  metaTitle: "Pest Control in Harriman, TN | Termites, Mosquitoes & Yellowjackets",
+  metaDescription:
+    "Harriman pest control for subterranean termites, lake mosquitoes, roaches, carpenter ants and yellowjackets. Free inspection near Watts Bar Lake. Call 1-800-PEST-USA.",
+},
 ];
