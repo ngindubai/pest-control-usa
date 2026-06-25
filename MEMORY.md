@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-25)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-75 complete. T2 COMPLETE.
-- **City pages built:** 1809 total (75 T1 + 300 T2 + 1434 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-76 complete. T2 COMPLETE.
+- **City pages built:** 1827 total (75 T1 + 300 T2 + 1452 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1891 in the static export (home, services, 50+ states, 1809 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=372, B=361, C=363, D=370, E=343 (1809 total cities, all within 15-25% range).
-- **Cities built T3 chunks 73-75 (57 total):** Chunks 73-74 (32): B/C templates, 9 states (OH, MI, IN, IL, GA, TX, FL, PA, SC). Chunk 75 (D, 25 cities): KY (8): Madisonville, Somerset, Murray, Bardstown, Glasgow, Corbin, Middlesboro, Pikeville. OK (8): Duncan, Ada, Altus, Chickasha, McAlester, Sapulpa, Tahlequah, El Reno. MS (5): Oxford, Corinth, Bay St. Louis, Picayune, Gautier. AR (4): Siloam Springs, Batesville, Blytheville, Mountain Home.
-- **New state files added chunks 73-75:** none (all states already registered).
-- **Next block:** Chunk 76, T3 continues, rotation at E.
+- **Total site pages:** 1909 in the static export (home, services, 50+ states, 1827 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=372, B=361, C=381, D=370, E=343 (1827 total cities, all within 15-25% range).
+- **Cities built T3 chunks 73-76 (75 total today):** Chunks 73-74 (32): B/C templates, 9 states. Chunk 75 (D, 25 cities): KY, OK, MS, AR. Chunk 76 (C, 18 cities): AZ (lake-havasu-city, apache-junction, bullhead-city, prescott-valley, el-mirage, oro-valley), TX (buda, richmond-tx, lockhart, el-campo), FL (aventura, dania-beach, cooper-city), WA (mukilteo, covington-wa, lake-forest-park), CO (evans), SC (newberry).
+- **New state files added chunks 73-76:** none (all states already registered).
+- **Next block:** Chunk 77, T3 continues, rotation at E.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

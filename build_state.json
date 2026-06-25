@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-25T10:00:00Z",
+  "last_updated": "2026-06-25T10:30:00Z",
   "phase": "3-t3-in-progress",
   "autonomy": "Fully autonomous. One block per run (25 pages), full 7-stage pipeline, commit to main, deploy.yml auto-publishes, post live links to Slack as a record. No approval step, no wait-for-go, no stop condition. Advance through the phases in order; when the city universe is built, the pest x city matrix is the long-tail engine and runs indefinitely.",
-  "cities_built": 1809,
+  "cities_built": 1827,
   "towns_built": 0,
-  "total_site_pages": 1891,
-  "completed_chunks": 75,
-  "next_chunk": 76,
+  "total_site_pages": 1909,
+  "completed_chunks": 76,
+  "next_chunk": 77,
   "next_chunk_tier": "T3",
   "next_chunk_template": "E",
   "tier_t1_target": 75,
@@ -15,7 +15,7 @@
   "tier_t2_remaining": 0,
   "tier_t3_floor_population": 5000,
   "tier_t3_target": 5000,
-  "tier_t3_remaining": 3566,
+  "tier_t3_remaining": 3548,
   "tier_t3_note": "T3 = every remaining US incorporated place above 5,000 population not already built in T1 or T2. The Census counts roughly 5,000 to 5,300 such places. Build state by state: add one state file per block to src/data/cities/{state}.ts and register it in src/data/cities/index.ts, exactly as T1/T2 were built. 50-state coverage is the target. 425 T3 pages built so far (chunks 16-32 complete).",
   "batch_size": 25,
   "template_rotation": [
@@ -35,7 +35,7 @@
   "template_distribution_actual": {
     "A": 372,
     "B": 361,
-    "C": 363,
+    "C": 381,
     "D": 370,
     "E": 343
   },
@@ -1795,7 +1795,25 @@
     "arkansas/siloam-springs-ar",
     "arkansas/batesville-ar",
     "arkansas/blytheville-ar",
-    "arkansas/mountain-home-ar"
+    "arkansas/mountain-home-ar",
+    "arizona/lake-havasu-city",
+    "arizona/apache-junction",
+    "arizona/bullhead-city",
+    "arizona/prescott-valley",
+    "texas/buda",
+    "texas/richmond-tx",
+    "texas/lockhart",
+    "florida/aventura",
+    "florida/dania-beach",
+    "florida/cooper-city",
+    "washington/mukilteo",
+    "washington/covington-wa",
+    "washington/lake-forest-park",
+    "arizona/el-mirage",
+    "arizona/oro-valley",
+    "texas/el-campo",
+    "colorado/evans",
+    "south-carolina/newberry"
   ],
-  "notes": "Chunks 57-75 complete 2026-06-25. 1809 total city pages (75 T1 + 300 T2 + 1434 T3). Chunk 75 (D, 25 cities): KY: madisonville-ky, somerset-ky, murray-ky, bardstown-ky, glasgow-ky, corbin-ky, middlesboro-ky, pikeville-ky. OK: duncan-ok, ada-ok, altus-ok, chickasha-ok, mcalester-ok, sapulpa-ok, tahlequah-ok, el-reno-ok. MS: oxford-ms, corinth-ms, bay-st-louis, picayune, gautier. AR: siloam-springs-ar, batesville-ar, blytheville-ar, mountain-home-ar. Template: A=372 B=361 C=363 D=370 E=343 (all within 15-25% of 1809). Next chunk 76 at E."
+  "notes": "Chunks 57-76 complete 2026-06-25. 1827 total city pages (75 T1 + 300 T2 + 1452 T3). Chunk 76 (C, 18 cities): AZ: lake-havasu-city, apache-junction, bullhead-city, prescott-valley, el-mirage, oro-valley. TX: buda, richmond-tx, lockhart, el-campo. FL: aventura, dania-beach, cooper-city. WA: mukilteo, covington-wa, lake-forest-park. CO: evans. SC: newberry. Template: A=372 B=361 C=381 D=370 E=343 (all within 15-25% of 1827). Next chunk 77 at E."
 }
