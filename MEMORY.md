@@ -8,16 +8,16 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-24)
+## Current State (2026-06-25)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-72 complete. T2 COMPLETE.
-- **City pages built:** 1752 total (75 T1 + 300 T2 + 1377 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-74 complete. T2 COMPLETE.
+- **City pages built:** 1784 total (75 T1 + 300 T2 + 1409 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1834 in the static export (home, services, 50+ states, 1752 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=372, B=346, C=346, D=345, E=343 (1752 total cities, all within 15-25% range).
-- **Cities built T3 chunks 71-72 (49):** Chunk 71 (E): OH: Berea, North Olmsted, Shaker Heights, Garfield Heights, Maple Heights. IL: Chicago Heights, East St. Louis, Loves Park, Marion, Centralia. NC: Mint Hill, Clayton, Hope Mills, Roanoke Rapids, Mount Holly. TN: Soddy-Daisy, Red Bank, Atoka, Milan, Harriman. IN: Beech Grove, Speedway, Connersville. AL: Bessemer, Selma. Chunk 72 (A): OH: North Royalton, Tallmadge, Fairview Park, Wadsworth, Maumee. AL: Cullman, Fairhope, Foley, Prichard, Helena. GA: Norcross, Kingsland, Lilburn. MI: Fraser, Wayne, Clawson, Berkley, Center Line. VA: Covington, Lexington. NC: Pinehurst, Waxhaw, Oxford. IL: East Moline.
-- **New state files added chunks 71-72:** none (all states already registered).
-- **Next block:** Chunk 73, T3 continues, rotation at B.
+- **Total site pages:** 1866 in the static export (home, services, 50+ states, 1784 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=372, B=361, C=363, D=345, E=343 (1784 total cities, all within 15-25% range).
+- **Cities built T3 chunks 73-74 (32):** Chunk 73 (B, 15 cities): OH: Painesville, Ashtabula, North Ridgeville. MI: Madison Heights. IN: Hobart, Munster, Griffith. IL: Libertyville. GA: Perry, Dallas. TX: Lake Jackson, Alvin, Angleton. FL: DeLand, New Smyrna Beach. Chunk 74 (C, 17 cities): OH: Green, Hudson, Streetsboro, Aurora. MI: Cadillac, Big Rapids. TX: Athens, Bastrop, Ennis, Taylor. FL: Key West. PA: Chester, Lewistown, Nanticoke. SC: Cayce, West Columbia, Gaffney.
+- **New state files added chunks 73-74:** none (all states already registered).
+- **Next block:** Chunk 75, T3 continues, rotation at D.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
