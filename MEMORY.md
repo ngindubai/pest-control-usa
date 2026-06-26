@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-26)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-78 complete. Chunks 79-80 partially committed (32 pages). T2 COMPLETE.
-- **City pages built:** 1909 total (75 T1 + 300 T2 + 1534 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-80 complete. T2 COMPLETE.
+- **City pages built:** 1926 total (75 T1 + 300 T2 + 1551 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1991 in the static export (home, services, 50+ states, 1909 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=397, B=376, C=398, D=370, E=368 (1909 total cities, all within 15-25% range).
-- **Cities built T3 chunks 79-80 partial (32 pages committed this run):** FL (Template B): crestview-fl, fort-walton-beach, punta-gorda, stuart-fl, venice-fl. TX (5 Template B + 7 Template C): forney-tx, crowley-tx, granbury-tx, mineral-wells-tx, kingsville-tx, humble-tx, jacksonville-tx, gainesville-tx, big-spring-tx, san-benito-tx, alice-tx, sulphur-springs-tx. PA (Template C): carbondale-pa, new-kensington-pa, doylestown-pa, hatboro-pa, bristol-pa. NJ (5 Template B + 5 Template C): irvington-nj, montclair-nj, east-brunswick-nj, teaneck-nj, wayne-nj, south-orange-nj, maplewood-nj, west-orange-nj, nutley-nj, livingston-nj. Remaining this batch: CA (18) agent still writing.
+- **Total site pages:** 2008 in the static export (home, services, 50+ states, 1926 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=397, B=385, C=406, D=370, E=368 (1926 total cities, all within 15-25% range).
+- **Cities built T3 chunks 79-80 (49 pages this run, 1 skipped):** FL (Template B): crestview-fl, fort-walton-beach, punta-gorda, stuart-fl, venice-fl. TX (5B+7C): forney-tx, crowley-tx, granbury-tx, mineral-wells-tx, kingsville-tx, humble-tx, jacksonville-tx, gainesville-tx, big-spring-tx, san-benito-tx, alice-tx, sulphur-springs-tx. NJ (5B+5C): irvington-nj through livingston-nj. PA (5C): carbondale-pa through bristol-pa. CA (9B+8C): redlands, lake-elsinore, highland-ca, hawthorne-ca, buena-park, westminster-ca, apple-valley-ca, woodland-ca, san-marcos-ca, laguna-niguel, san-clemente, upland, porterville, madera-ca, ceres, colton, lynwood-ca.
 - **New state files added:** none (all states already registered).
-- **Next block:** Complete chunks 79-80 remaining pages (CA 18), then chunk 81 at D.
+- **Next block:** Chunk 81, T3 continues, rotation at D.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
