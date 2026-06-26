@@ -8,16 +8,16 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-25)
+## Current State (2026-06-26)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-76 complete. T2 COMPLETE.
-- **City pages built:** 1827 total (75 T1 + 300 T2 + 1452 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-78 complete. T2 COMPLETE.
+- **City pages built:** 1877 total (75 T1 + 300 T2 + 1502 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1909 in the static export (home, services, 50+ states, 1827 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=372, B=361, C=381, D=370, E=343 (1827 total cities, all within 15-25% range).
-- **Cities built T3 chunks 73-76 (75 total today):** Chunks 73-74 (32): B/C templates, 9 states. Chunk 75 (D, 25 cities): KY, OK, MS, AR. Chunk 76 (C, 18 cities): AZ (lake-havasu-city, apache-junction, bullhead-city, prescott-valley, el-mirage, oro-valley), TX (buda, richmond-tx, lockhart, el-campo), FL (aventura, dania-beach, cooper-city), WA (mukilteo, covington-wa, lake-forest-park), CO (evans), SC (newberry).
-- **New state files added chunks 73-76:** none (all states already registered).
-- **Next block:** Chunk 77, T3 continues, rotation at E.
+- **Total site pages:** 1959 in the static export (home, services, 50+ states, 1877 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=397, B=361, C=381, D=370, E=368 (1877 total cities, all within 15-25% range).
+- **Cities built T3 chunks 77-78 (50 total today):** Chunk 77 (E, 25 cities): CA (chino-hills, palm-springs, cathedral-city, indio, tracy, west-sacramento, mountain-view, redwood-city, walnut-creek, pleasanton), NJ (millville, long-branch, rahway, garfield, lodi-nj, kearny, orange-nj, carteret), MA (weymouth, woburn, gloucester, beverly, leominster, westfield-ma, marlborough). Chunk 78 (A, 25 cities): CA (milpitas, gilroy, pittsburg-ca, south-san-francisco, lodi-ca, tulare, merced, camarillo, davis, san-luis-obispo), WA (maple-valley, battle-ground, camas, tukwila, bonney-lake, ellensburg, mountlake-terrace, sumner), NY (hempstead, freeport, spring-valley, ossining, tarrytown, port-jervis, dobbs-ferry).
+- **New state files added chunks 77-78:** none (all states already registered).
+- **Next block:** Chunk 79, T3 continues, rotation at B.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
@@ -85,6 +85,7 @@
 | 2026-06-09 | Chunks 13-14: 50 T2 city pages | Chunk 13: Lowell MA, Beaverton OR, Bloomington MN, Warner Robins GA, Lafayette LA, Tuscaloosa AL, Greeley CO, Concord NC, Kenosha WI, Orem UT, Kansas City KS, Fayetteville AR, Bloomington IN, Portsmouth VA, Davenport IA, North Charleston SC, Asheville NC, Longmont CO, Goodyear AZ, Lee's Summit MO, New Bedford MA, Spokane Valley WA, Jackson TN, Sandy UT, Lake Charles LA. Chunk 14: Fort Smith AR, Clifton NJ, O'Fallon MO, St. Joseph MO, Gulfport MS, Brockton MA, Fishers IN, Avondale AZ, Cambridge MA, Franklin TN, Las Cruces NM, Sioux City IA, Lynn MA, Rio Rancho NM, Camden NJ, Ogden UT, Lawton OK, Racine WI, Gastonia NC, Hamilton OH, St. George UT, Mount Pleasant SC, Hoover AL, Quincy MA, Appleton WI. No new state files. Rotation A=71 B=70 C=70 D=70 E=69. 350 total cities, 430 site pages. Build green. |
 | 2026-06-18 | Chunks 49-50: 50 T3 city pages across 21 states | CA: Rancho Cordova, Chino, Menifee, Mission Viejo, Tustin, Poway. CO: Fountain. FL: Delray Beach, Palm Beach Gardens, Riviera Beach, St. Cloud, Pinellas Park. GA: LaGrange, Griffin. IL: Rock Island, Crystal Lake, Carpentersville, St. Charles. IN: East Chicago. IA: Mason City. KS: Derby. LA: Zachary. MI: Mount Pleasant, Lincoln Park, Allen Park, Romulus. MN: Faribault. MO: Nixa. NC: Holly Springs, New Bern, Kinston, Morrisville. OH: Sandusky, Westlake, Niles, Solon. OK: Enid, Yukon. PA: Coatesville. TN: Millington. TX: The Colony, Deer Park, Harker Heights. VA: Manassas Park. WA: Wenatchee, Pullman, Issaquah, University Place. WI: De Pere, Stevens Point. Rotation A=243 B=241 C=241 D=240 E=238. 1203 total cities, 1286 site pages. Build green. |
 | 2026-06-19 | Chunks 51-52: 50 T3 city pages across 13 states | TX: Schertz, Friendswood, Rosenberg, Saginaw, Converse, Live Oak. FL: Wellington, Ocoee, Haines City, Plant City, Greenacres, Clermont. GA: Conyers, Cartersville, Covington, Milledgeville, Thomasville. OH: Fairborn, Lancaster, Troy, Piqua, Marysville, Perrysburg, Miamisburg. NC: Knightdale. IL: Elmhurst, Streamwood, Addison, Lisle. MI: Monroe, Ferndale, Mount Clemens. IN: Seymour, Clarksville, New Castle. MN: Shoreview, Owatonna, Brooklyn Center, Chaska, Champlin. MO: Rolla, Hannibal, Arnold. WI: Middleton, Marshfield, Onalaska, Wisconsin Rapids. PA: Hanover. TN: East Ridge, McMinnville. Rotation A=253 B=251 C=251 D=250 E=248. 1253 total cities, 1336 site pages. Build green. |
+| 2026-06-26 | Chunks 77-78: 50 T3 city pages across 5 states, Template E (chunk 77) and Template A (chunk 78). Chunk 77 (E): CA: Chino Hills, Palm Springs, Cathedral City, Indio, Tracy, West Sacramento, Mountain View, Redwood City, Walnut Creek, Pleasanton. NJ: Millville, Long Branch, Rahway, Garfield, Lodi (lodi-nj), Kearny, Orange (orange-nj), Carteret. MA: Weymouth, Woburn, Gloucester, Beverly, Leominster, Westfield (westfield-ma), Marlborough. Chunk 78 (A): CA: Milpitas, Gilroy, Pittsburg (pittsburg-ca), South San Francisco, Lodi (lodi-ca), Tulare, Merced, Camarillo, Davis, San Luis Obispo. WA: Maple Valley, Battle Ground, Camas, Tukwila, Bonney Lake, Ellensburg, Mountlake Terrace, Sumner. NY: Hempstead, Freeport, Spring Valley, Ossining, Tarrytown, Port Jervis, Dobbs Ferry. Rotation A=397 B=361 C=381 D=370 E=368. 1877 total cities, 1959 site pages. Build green. |
 
 ## ClimateZone Values (extended 2026-06-04)
 
