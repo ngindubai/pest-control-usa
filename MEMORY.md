@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-26)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-78 complete. T2 COMPLETE.
-- **City pages built:** 1877 total (75 T1 + 300 T2 + 1502 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-78 complete. Chunks 79-80 partially committed (32 pages). T2 COMPLETE.
+- **City pages built:** 1909 total (75 T1 + 300 T2 + 1534 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 1959 in the static export (home, services, 50+ states, 1877 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=397, B=361, C=381, D=370, E=368 (1877 total cities, all within 15-25% range).
-- **Cities built T3 chunks 77-78 (50 total today):** Chunk 77 (E, 25 cities): CA (chino-hills, palm-springs, cathedral-city, indio, tracy, west-sacramento, mountain-view, redwood-city, walnut-creek, pleasanton), NJ (millville, long-branch, rahway, garfield, lodi-nj, kearny, orange-nj, carteret), MA (weymouth, woburn, gloucester, beverly, leominster, westfield-ma, marlborough). Chunk 78 (A, 25 cities): CA (milpitas, gilroy, pittsburg-ca, south-san-francisco, lodi-ca, tulare, merced, camarillo, davis, san-luis-obispo), WA (maple-valley, battle-ground, camas, tukwila, bonney-lake, ellensburg, mountlake-terrace, sumner), NY (hempstead, freeport, spring-valley, ossining, tarrytown, port-jervis, dobbs-ferry).
-- **New state files added chunks 77-78:** none (all states already registered).
-- **Next block:** Chunk 79, T3 continues, rotation at B.
+- **Total site pages:** 1991 in the static export (home, services, 50+ states, 1909 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=397, B=376, C=398, D=370, E=368 (1909 total cities, all within 15-25% range).
+- **Cities built T3 chunks 79-80 partial (32 pages committed this run):** FL (Template B): crestview-fl, fort-walton-beach, punta-gorda, stuart-fl, venice-fl. TX (5 Template B + 7 Template C): forney-tx, crowley-tx, granbury-tx, mineral-wells-tx, kingsville-tx, humble-tx, jacksonville-tx, gainesville-tx, big-spring-tx, san-benito-tx, alice-tx, sulphur-springs-tx. PA (Template C): carbondale-pa, new-kensington-pa, doylestown-pa, hatboro-pa, bristol-pa. NJ (5 Template B + 5 Template C): irvington-nj, montclair-nj, east-brunswick-nj, teaneck-nj, wayne-nj, south-orange-nj, maplewood-nj, west-orange-nj, nutley-nj, livingston-nj. Remaining this batch: CA (18) agent still writing.
+- **New state files added:** none (all states already registered).
+- **Next block:** Complete chunks 79-80 remaining pages (CA 18), then chunk 81 at D.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

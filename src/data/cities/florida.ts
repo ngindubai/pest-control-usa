@@ -9228,4 +9228,484 @@ export const floridaCities: CityLocation[] = [
     metaTitle: "Pest Control in Cooper City, FL",
     metaDescription: "Cooper City FL pest control for Formosan termites, mosquitoes, and ants. Everglades-edge expertise. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "crestview-fl",
+    name: "Crestview",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~30,000",
+    county: "Okaloosa County",
+    climate: "hot-humid",
+    climateDriver:
+      "Crestview sits in the Florida Panhandle where hot, wet summers and mild winters keep pest pressure elevated most of the year. The combination of clay-heavy soils, seasonal rain, and rapid new residential construction on disturbed land drives above-average fire ant and termite activity.",
+    topPests: ["Fire Ants", "Formosan Termites", "German Cockroaches", "American Cockroaches", "House Mice"],
+    pestProfile: [
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, active year-round in warm years",
+        note: "New construction lots in Crestview's expanding neighborhoods have unusually high fire ant pressure because soil disturbance exposes the clay layers these colonies favor for mound building. Disturbed lots near Eglin Air Force Base housing corridors see consistent re-infestation.",
+      },
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round below ground",
+        note: "Formosan termites are established in Okaloosa County and are more destructive than native subterranean species. They consume structural lumber at a faster rate and produce larger colonies. New construction that disturbs existing soil can unintentionally relocate active colonies.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor cockroach pest in Crestview's apartment complexes and fast-food corridors along the US-90 commercial strip. They spread rapidly between units in multi-family housing through shared plumbing voids.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Spring through fall, active outdoors year-round",
+        note: "American cockroaches are common in Crestview's outdoor environments, particularly around stormwater drains, landscaped areas, and older commercial buildings. They enter homes on warm evenings through gaps at doors and utility penetrations.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak in fall and winter",
+        note: "House mice are a consistent problem in Crestview's newer subdivisions, where construction debris and adjacent pine timber land provide outdoor harborage. They move indoors as temperatures drop in October and November.",
+      },
+    ],
+    localHook:
+      "Crestview is a rapidly growing military community near Eglin Air Force Base in the Florida Panhandle, and the city's ongoing residential development on former pine timber land creates consistent fire ant and termite pressure in new construction lots where soil disturbance exposes clay that fire ants favor.",
+    intro:
+      "Pest control in Crestview comes with a specific challenge that other Panhandle cities do not share to the same degree: the city is growing fast, and that growth is being built on land that was recently pine timber country. Each new subdivision breaks open soil, disturbs existing insect colonies, and drops structures onto ground that has not had time to settle. Fire ants are the most immediate result, with mounds appearing in newly graded lots within weeks. Formosan termites are the longer-term concern, particularly on lots where old stumps and root systems were not fully removed before construction. Add the year-round cockroach and mice pressure common to any growing Florida city and Crestview homeowners have a full pest calendar to manage.",
+    sections: [
+      {
+        heading: "New construction and the fire ant problem",
+        body: "Fire ants are drawn to disturbed clay soil, and Crestview has a lot of it right now. When developers grade land and lay foundations, they disrupt existing fire ant colonies and spread them across the lot. The ants re-establish quickly, and new homeowners often find mounds in their lawn within the first summer. The standard broadcast bait treatment works well here, but it needs to be applied at the right time, when ants are actively foraging, and repeated as new colonies move in from adjacent undeveloped land. Homes on the perimeter of growing subdivisions see higher pressure than those surrounded by established housing on all sides.",
+      },
+      {
+        heading: "Formosan termites in a growing city",
+        body: "Crestview sits inside the established range of Formosan subterranean termites in the Florida Panhandle. These are not the same as the native Eastern subterranean termites familiar to most homeowners in northern states. Formosan colonies are larger, their workers are more aggressive, and they consume wood roughly twice as fast. In Crestview's new construction environment, the risk is not just from existing colonies in the ground but from disturbed soil that can relocate foraging workers to new structures. A termite warranty or ongoing bait station program is a reasonable expectation for any home in this city, new or established.",
+      },
+    ],
+    prevention: [
+      "Apply fire ant bait to lawns in spring and fall, before and after the primary mounding season.",
+      "Ask your builder whether the lot received a pre-construction termite soil treatment, and verify the warranty transfers to you.",
+      "Seal door threshold gaps and utility penetrations before fall to prevent mice from entering as temperatures drop.",
+      "Keep firewood and construction debris off the ground and away from the foundation to remove harborage for cockroaches and termites.",
+      "Check stormwater drains and landscape mulch beds around the foundation for signs of American cockroach activity each spring.",
+    ],
+    costNote:
+      "Crestview pest control is priced at Okaloosa County rates. Fire ant bait programs run $75 to $150 per treatment. Termite bait station installation averages $800 to $1,200 for a standard home, with annual monitoring fees. Recurring general pest service runs $90 to $150 per quarter. Free inspections available.",
+    faqs: [
+      {
+        question: "Why is my new Crestview home already getting fire ants in the yard?",
+        answer:
+          "New construction in Crestview disturbs the clay soils that fire ant colonies favor for mound building. When land is graded and foundations are poured, existing colonies scatter across the lot and re-establish quickly. Homes on the edge of growing subdivisions, adjacent to undeveloped pine land, see the highest pressure because new colonies continue moving in from adjacent undisturbed ground. Broadcast bait treatment applied twice a year keeps mound density manageable.",
+      },
+      {
+        question: "Are Formosan termites more dangerous than regular termites?",
+        answer:
+          "Yes. Formosan subterranean termites produce much larger colonies than native Eastern subterranean termites and consume wood at a faster rate. A mature Formosan colony can contain several million workers, compared to a few hundred thousand in a native colony. The structural damage they cause accumulates faster, which is why Okaloosa County homeowners should not wait for visible damage before scheduling an inspection.",
+      },
+      {
+        question: "Do German cockroaches spread between apartments in Crestview?",
+        answer:
+          "They do. German cockroaches move between units in multi-family buildings through shared plumbing voids, electrical conduits, and wall cavities. Treating a single apartment while adjacent units go untreated typically produces only temporary improvement, as the population recolonizes from neighboring spaces within four to six weeks. Effective control in apartment buildings requires coordinated treatment across affected units.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Pensacola", slug: "pensacola" },
+      { name: "Fort Walton Beach", slug: "fort-walton-beach" },
+      { name: "Tallahassee", slug: "tallahassee" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Crestview, FL | Fire Ants & Formosan Termites",
+    metaDescription: "Crestview FL pest control for fire ants and Formosan termites in new construction and established homes. Okaloosa County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "fort-walton-beach",
+    name: "Fort Walton Beach",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~22,000",
+    county: "Okaloosa County",
+    climate: "hot-humid",
+    climateDriver:
+      "Fort Walton Beach sits on the Gulf Coast with year-round coastal humidity, warm temperatures, and a sandy-soil environment that supports active subterranean termite colonies and persistent mosquito breeding in the wetland corridors between the barrier island and the mainland.",
+    topPests: ["Formosan Termites", "American Cockroaches", "Fire Ants", "Mosquitoes", "Silverfish"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round",
+        note: "Formosan termites are highly active in Fort Walton Beach's older wood-frame homes along the Miracle Strip. They consume structural lumber at two to three times the rate of native termite species and are well established in Okaloosa County. Swarm season in May and June is the most visible indicator.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "American cockroaches thrive in Fort Walton Beach's coastal humidity. They are common in stormwater systems, older commercial buildings near the Miracle Strip, and in residential crawl spaces and garages. They enter homes at night through gaps around doors and utility lines.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Fire ants are present throughout Okaloosa County and build mounds in Fort Walton Beach's residential lawns, parks, and landscaped areas. Sandy coastal soils drain well and allow colonies to move mounds frequently in response to rain and disturbance.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November, peak June through September",
+        note: "The coastal wetlands between Fort Walton Beach and Choctawhatchee Bay create breeding habitat for salt marsh mosquitoes. These are strong fliers that travel a mile or more from breeding sites into residential neighborhoods on evening breezes.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round",
+        note: "Coastal humidity in Fort Walton Beach creates ideal conditions for silverfish in attics, crawl spaces, and closets. Older homes with inadequate vapor barriers or unventilated attic spaces see the heaviest activity.",
+      },
+    ],
+    localHook:
+      "Fort Walton Beach is a Gulf Coast community where the combination of sandy soil, coastal humidity, and warm temperatures year-round makes Formosan subterranean termites an active threat in older wood-frame homes along the Miracle Strip, with colonies that can consume structural lumber at two to three times the rate of native termite species.",
+    intro:
+      "Pest control in Fort Walton Beach is shaped by two things that make this stretch of the Gulf Coast distinctive: the Formosan termite population that has worked its way through the older housing stock along the Miracle Strip, and the coastal wetlands that feed one of the more active mosquito environments in the Florida Panhandle. If you own a wood-frame home built before the 1990s in Fort Walton Beach, termites belong at the top of your pest concern list. Formosan colonies here are not a theoretical risk but a documented, active problem in the older residential blocks between the city center and the Choctawhatchee Bay shoreline.",
+    sections: [
+      {
+        heading: "Formosan termites and the Miracle Strip housing stock",
+        body: "The Miracle Strip corridor in Fort Walton Beach has a high concentration of wood-frame homes and commercial buildings dating from the 1950s through the 1980s. These structures were built before the invasive Formosan termite population was established in the Florida Panhandle, so few have the protection systems, soil treatments, or bait station programs that builders now routinely include in new construction. Formosan colonies grow much larger than native subterranean colonies, their foraging territory extends further from the colony, and they can attack wood that is not in direct soil contact. In an older neighborhood like those along the original Miracle Strip, the combination of aging timber, high humidity, and established Formosan pressure means an annual inspection is not optional.",
+      },
+      {
+        heading: "Mosquitoes from the coastal wetlands",
+        body: "The wetland corridors between Fort Walton Beach, the Choctawhatchee Bay, and the Santa Rosa Sound are salt marsh mosquito habitat. These species breed in tidal areas and marshy ground rather than in the small containers of standing water that the Aedes species use. They are strong fliers, capable of traveling a mile or more from breeding sites, and they peak on calm evenings when onshore breezes slow. Okaloosa County Mosquito Control operates in public areas, but private-property standing water and yard treatment programs cover the gap for residential lots close to the wetland edge.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection if your home was built before 1990, and ask specifically about Formosan activity.",
+      "Install and maintain Formosan termite bait stations around the foundation perimeter, checked quarterly.",
+      "Remove standing water from low spots, decorative pots, and yard features every 48 to 72 hours during mosquito season.",
+      "Apply a perimeter barrier treatment in spring to reduce American cockroach entry from stormwater drains and landscaped areas.",
+      "Improve attic and crawl space ventilation to reduce the humidity that silverfish and cockroaches favor.",
+    ],
+    costNote:
+      "Fort Walton Beach pest control is priced at Okaloosa County rates. Formosan termite bait station programs start at around $800 for installation with annual monitoring fees. Mosquito barrier treatments run $75 to $150 per application. General pest service averages $90 to $140 per quarter. Free inspections available.",
+    faqs: [
+      {
+        question: "How do I know if my Fort Walton Beach home has Formosan termites?",
+        answer:
+          "The most visible sign is the swarm in May and June, when winged reproductives leave the colony in large numbers, usually in the evening near lights. Other signs include mud tubes on foundation walls, hollow-sounding wood when tapped, and small pellet-like droppings near baseboards or window frames. Formosan termites also sometimes build carton nests, a mud-like material, inside wall voids or above ground, which is unusual for other termite species. If you see any of these signs, schedule an inspection before the damage progresses.",
+      },
+      {
+        question: "Are the mosquitoes near the Choctawhatchee Bay worse than inland areas?",
+        answer:
+          "Generally yes. The tidal wetlands and salt marsh habitat near the bay support salt marsh mosquito species that breed in larger numbers than the container-breeding species common inland. These are also stronger fliers that move further from their breeding sites into residential areas. Properties within a half mile of the bay shoreline or the wetland corridors typically see higher evening mosquito pressure than homes in central Fort Walton Beach.",
+      },
+      {
+        question: "What causes silverfish in my Fort Walton Beach home?",
+        answer:
+          "Silverfish thrive in high-humidity environments, which Fort Walton Beach's coastal setting provides year-round. They are most common in attics with poor ventilation, crawl spaces without proper vapor barriers, and older closets where humidity accumulates. They feed on starchy materials including paper, cardboard, fabric, and the sizing in wallpaper. Improving ventilation, reducing humidity with a dehumidifier in affected spaces, and treating with residual insecticide in harborage areas controls most infestations.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Crestview", slug: "crestview-fl" },
+      { name: "Pensacola", slug: "pensacola" },
+      { name: "Tallahassee", slug: "tallahassee" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Fort Walton Beach, FL | Formosan Termites & Mosquitoes",
+    metaDescription: "Fort Walton Beach FL pest control for Formosan termites and Gulf Coast mosquitoes. Okaloosa County specialists for older wood-frame homes. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "punta-gorda",
+    name: "Punta Gorda",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~19,000",
+    county: "Charlotte County",
+    climate: "hot-humid",
+    climateDriver:
+      "Punta Gorda sits on Charlotte Harbor where estuary humidity, mild winters, and a large stock of older wood-frame construction create year-round pressure from both Formosan subterranean and drywood termites, as well as mosquitoes from the harbor shoreline and fire ants in residential lawns.",
+    topPests: ["Formosan Termites", "Drywood Termites", "American Cockroaches", "German Cockroaches", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, active year-round",
+        note: "Formosan termites are well established in Charlotte County. The high soil moisture near Charlotte Harbor supports large subterranean colonies in the residential neighborhoods surrounding the historic downtown and along the harbor waterfront.",
+      },
+      {
+        name: "Drywood termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms late summer and fall, active year-round inside wood",
+        note: "Drywood termites infest wood from above, without soil contact. They are common in the older roof timbers, window frames, and furniture of Punta Gorda's historic district homes. Unlike subterranean termites, drywood colonies are treated with localized or tent fumigation rather than soil barriers.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are abundant near Charlotte Harbor's stormwater infrastructure and enter homes through gaps at doors, utility lines, and aging pipe penetrations in older properties throughout the historic district.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the dominant indoor pest in Punta Gorda's commercial kitchen environments along Marion Avenue and West Retta Esplanade, and they migrate into adjacent residential properties through shared utility corridors.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "Charlotte Harbor and the Peace River estuary provide extensive tidal wetland breeding habitat for several mosquito species. Properties on canals or backing against the harbor shoreline see the highest seasonal pressure.",
+      },
+    ],
+    localHook:
+      "Punta Gorda is a waterfront community on Charlotte Harbor where the high humidity from the estuary, combined with the large proportion of older wood-frame homes in the historic district, creates persistent termite pressure from both Formosan subterranean and drywood species, which require different treatment approaches.",
+    intro:
+      "Pest control in Punta Gorda presents a challenge that most Florida cities handle with one termite approach: both Formosan subterranean termites and drywood termites are active here, and they require completely different treatments. Formosan termites come from the soil and need soil barriers or bait stations. Drywood termites live entirely inside wood, require no soil contact, and are typically treated with localized spot treatment or tent fumigation. The historic district's stock of older wood-frame homes, many built in the 1950s through 1970s, carries active exposure to both species simultaneously. Identifying which termite type is present, sometimes both, before any treatment begins is not optional in Punta Gorda.",
+    sections: [
+      {
+        heading: "Two termite species, two different treatments",
+        body: "The distinction between Formosan subterranean and drywood termites matters a great deal in Punta Gorda because the treatments do not overlap. A soil liquid barrier or bait station program addresses subterranean colonies that forage from the ground up into the structure. It does nothing for drywood termites already living in the roof timbers or window frames, because those colonies never touch the soil at all. Conversely, fumigating a structure for drywood termites does not prevent new subterranean colonies from entering through the foundation afterward. Many Punta Gorda homeowners with older properties need both programs running simultaneously, which is why the inspection step, and being specific about what species are active, determines the entire treatment plan.",
+      },
+      {
+        heading: "Charlotte Harbor mosquitoes and canal properties",
+        body: "Properties on Punta Gorda's extensive canal system and along the Charlotte Harbor shoreline face a different mosquito environment than homes in central Charlotte County. The tidal wetlands, mangrove edges, and slow-moving canal water provide breeding habitat for species that are strong fliers and active at dusk. Charlotte County Mosquito Control manages public breeding sites, but private canal frontage, low yard areas, and decorative water features sustain local breeding that county operations cannot address. A yard barrier treatment applied monthly during the wet season, combined with removing standing water from any container on the property, provides meaningful protection for harbor-adjacent homes.",
+      },
+    ],
+    prevention: [
+      "Have an annual termite inspection that specifically tests for both subterranean and drywood termite activity.",
+      "Ask the inspector to probe roof timbers, window frames, and fascia boards for drywood termite frass and tunneling.",
+      "Maintain Formosan bait stations around the foundation perimeter and have them checked every 90 days.",
+      "Remove standing water from canal-adjacent yard areas and any containers within 48 hours after rain.",
+      "Keep wood siding, fascia, and window frames painted and caulked to reduce drywood termite entry points.",
+    ],
+    costNote:
+      "Punta Gorda pest control often involves separate programs for subterranean and drywood termites. Bait station installation runs $800 to $1,200. Drywood spot treatment averages $200 to $500 per area. Tent fumigation for severe drywood infestations starts around $1,500 for a standard home. Mosquito barrier service runs $75 to $150 per application. Free inspections available.",
+    faqs: [
+      {
+        question: "How do I tell the difference between Formosan and drywood termites in my Punta Gorda home?",
+        answer:
+          "The clearest difference is where the damage appears. Formosan subterranean termites build mud tubes from the soil up along foundation walls and piers and attack wood that is connected to or near the ground. Drywood termites show up in roof timbers, attic framing, window frames, and furniture, with no mud tubes and no connection to the soil. Their droppings, called frass, look like tiny wood-colored pellets and fall from small kick-out holes in the infested wood. A licensed inspector can confirm the species and recommend the appropriate treatment for each.",
+      },
+      {
+        question: "Do I need tent fumigation for termites in my historic Punta Gorda home?",
+        answer:
+          "Not always. Tent fumigation is the most reliable treatment for widespread drywood termite infestations throughout a structure, but localized spot treatments work well when the infestation is limited to specific areas. The decision depends on how many separate infestation sites the inspection finds, how accessible they are, and how old the structure is. Historic district homes with original framing often have enough spread that fumigation is the more practical choice, but your inspector should explain the findings and let you choose between options.",
+      },
+      {
+        question: "Are mosquitoes from Charlotte Harbor worse on canal properties?",
+        answer:
+          "Yes. Canal-front and harbor-adjacent properties in Punta Gorda sit much closer to tidal wetland breeding habitat than homes in inland Charlotte County neighborhoods. The salt marsh and mangrove edge mosquitoes that breed in this habitat are strong fliers and active at dusk and dawn. While Charlotte County Mosquito Control treats public breeding areas, private canal frontage and yard standing water fall outside their scope. Monthly yard barrier treatments during the May through October wet season provide meaningful protection for waterfront properties.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Fort Myers", slug: "fort-myers" },
+      { name: "Sarasota", slug: "sarasota" },
+      { name: "Naples", slug: "naples" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Punta Gorda, FL | Termites & Mosquitoes",
+    metaDescription: "Punta Gorda FL pest control for Formosan and drywood termites near Charlotte Harbor. Historic district specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "stuart-fl",
+    name: "Stuart",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~18,000",
+    county: "Martin County",
+    climate: "hot-humid",
+    climateDriver:
+      "Stuart sits at the edge of the Indian River Lagoon estuary system where year-round warmth, high humidity from the St. Lucie River waterways, and regular summer flooding create persistent mosquito breeding habitat and support active Formosan termite populations in older residential construction.",
+    topPests: ["Mosquitoes", "Formosan Termites", "Fire Ants", "German Cockroaches", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through November, peak June through September",
+        note: "The St. Lucie River estuary and the Indian River Lagoon create extensive tidal wetland and backwater breeding habitat for salt marsh and freshwater mosquito species. Properties in Sewalls Point and Rio sit close enough to the waterway edge to experience elevated evening pressure throughout the wet season.",
+      },
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms May through June, active year-round",
+        note: "Formosan termites are established in Martin County. The river estuary maintains high soil moisture that supports large subterranean colonies, particularly in the older residential neighborhoods closest to the waterfront.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Fire ants are present throughout Martin County and build mounds in residential lawns across Stuart, particularly in areas where wet season flooding saturates the soil and forces colonies to rebuild mounds in the post-rain period.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are the primary indoor cockroach pest in Stuart's commercial restaurant strip along SW Monterey Road and the Colorado Avenue corridor, and they migrate into adjacent residential buildings through shared utility connections.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, most active in warm months",
+        note: "American cockroaches are common in Stuart's stormwater infrastructure and older residential crawl spaces near the river waterfront. They enter homes through gaps at aging pipe penetrations and unsealed utility entries.",
+      },
+    ],
+    localHook:
+      "Stuart sits on the St. Lucie River at the edge of the Indian River Lagoon estuary, and the combination of waterway-adjacent properties, warm year-round temperatures, and frequent summer flooding creates persistent mosquito breeding habitat in the residential neighborhoods of Sewalls Point and Rio.",
+    intro:
+      "Pest control in Stuart is shaped by water. The St. Lucie River, the Indian River Lagoon, and the network of canals and tidal wetlands that define Martin County's eastern edge create a mosquito environment that is among the most active in South Florida outside of the Everglades corridor. Residents in Sewalls Point and Rio, the neighborhoods that wrap around the estuary edge, see consistent mosquito pressure from April through November, with peak activity following summer rain events. Beyond mosquitoes, Stuart carries the same Formosan termite risk as the rest of coastal Martin County, and the river moisture conditions actively support subterranean colony growth in older neighborhoods close to the waterfront.",
+    sections: [
+      {
+        heading: "The estuary edge and mosquito pressure in Sewalls Point and Rio",
+        body: "Sewalls Point is a peninsula surrounded by the St. Lucie River on three sides, and Rio borders the Indian River Lagoon. Both neighborhoods sit directly adjacent to the tidal wetlands and mangrove shoreline that produce salt marsh mosquitoes in significant numbers during the wet season. These are not the container-breeding species that respond to standard standing-water advice. They breed in the intertidal zone along the waterway edge, often on public land that individual homeowners cannot treat. Martin County Mosquito Control handles public breeding sites, but private-property yard treatment programs address the gap. A monthly barrier application during the wet season provides the most reliable protection for homes in these two neighborhoods.",
+      },
+      {
+        heading: "Summer flooding and fire ant re-infestation",
+        body: "Stuart's wet season flooding creates a particular fire ant dynamic. When the water table rises and lawns flood, fire ant colonies cannot stay underground. They form floating rafts of workers and brood, move to higher ground, and re-establish mounds in different locations within days of the water receding. This means a lawn that was treated in May can have active fire ant mounds again by late June after the first major flood event. In Stuart, fire ant management requires treating after major flood events, not just once at the start of spring, and checking perimeters around structures after the water recedes.",
+      },
+    ],
+    prevention: [
+      "Apply yard mosquito barrier treatments monthly from April through October for properties in Sewalls Point and Rio.",
+      "Remove standing water from any yard feature, pot, or depression within 48 hours after rain.",
+      "Schedule a Formosan termite inspection if your home was built before 1995 and sits within two blocks of the river.",
+      "Treat lawn fire ant populations after major flood events, as colonies displace and re-establish mounds post-flood.",
+      "Seal gaps at all exterior door thresholds and pipe penetrations before the summer rainy season to reduce cockroach entry.",
+    ],
+    costNote:
+      "Stuart pest control is priced at Martin County rates. Mosquito barrier service runs $75 to $150 per application. Formosan termite bait station programs start at $800 for installation. Fire ant broadcast bait treatment averages $75 to $150 per application. Recurring general pest service runs $90 to $140 per quarter. Free inspections available.",
+    faqs: [
+      {
+        question: "Why are mosquitoes so bad in Sewalls Point and Rio compared to the rest of Stuart?",
+        answer:
+          "Both neighborhoods sit directly adjacent to tidal wetlands and mangrove shoreline that produce salt marsh mosquito species in much higher numbers than inland areas. These species breed in the intertidal zone rather than in standing water on your property, so removing containers from your yard helps but does not address the source. Martin County Mosquito Control manages public breeding areas, but a private yard barrier treatment provides additional protection for homes on the waterway edge.",
+      },
+      {
+        question: "Do fire ants return to my Stuart lawn after flooding?",
+        answer:
+          "Yes, reliably. When heavy rain saturates the soil and lawns flood, fire ant colonies form floating rafts and move to drier ground, often entering through foundation gaps or re-establishing mounds in the same lawn once the water recedes. This is why a single spring treatment is not enough in Stuart. Check for new mound activity within a week after each major flood event and re-treat affected areas with broadcast bait.",
+      },
+      {
+        question: "Is Formosan termite risk higher near the St. Lucie River?",
+        answer:
+          "Soil moisture near the river and estuary supports larger subterranean termite colonies than drier inland soils. Formosan termites, in particular, prefer consistently moist soil conditions for colony establishment and growth. Older homes within a few blocks of the St. Lucie River waterfront carry above-average Formosan pressure compared to inland Stuart properties. An active bait station program is a reasonable investment for waterfront and near-waterfront properties in this city.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Palm Bay", slug: "palm-bay" },
+      { name: "Melbourne", slug: "melbourne" },
+      { name: "Fort Myers", slug: "fort-myers" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Stuart, FL | Mosquitoes & Formosan Termites",
+    metaDescription: "Stuart FL pest control for mosquitoes near the St. Lucie River estuary and Formosan termites. Martin County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "venice-fl",
+    name: "Venice",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~24,000",
+    county: "Sarasota County",
+    climate: "hot-humid",
+    climateDriver:
+      "Venice sits on the Gulf Coast south of Sarasota, where mild winters, high coastal humidity, and a large stock of 1960s through 1980s wood-frame construction combine to create year-round termite risk and active mosquito pressure during the wet season months.",
+    topPests: ["Formosan Termites", "Drywood Termites", "German Cockroaches", "Mosquitoes", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Formosan subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round",
+        note: "Formosan termites are established in Sarasota County and are particularly active in Venice's older residential neighborhoods where the housing stock was built before modern pre-treatment standards were common. Swarm season in late April and May is the most visible sign of active colonies.",
+      },
+      {
+        name: "Drywood termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms late summer and fall, active year-round inside wood",
+        note: "Drywood termites are common in Venice's aging roof structures, attic framing, and window frames. They do not need soil contact and are often detected by small pellet-like frass falling from kick-out holes in infested wood. Venice's Gulf Coast humidity sustains these colonies well.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Venice's commercial restaurant corridor on Venice Avenue and in the condominium stock along the Island and around Nokomis Avenue. They spread between units in multi-family buildings through shared plumbing.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "The Gulf Coast wetlands and tidal areas south of Venice toward Englewood provide seasonal mosquito breeding habitat. Properties near the Intracoastal Waterway and the Venice Inlet see elevated evening pressure from May through October.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Fire ants are present throughout Venice's residential lawns and landscaped common areas in the city's active retirement communities. Sandy Gulf Coast soils allow colonies to move mounds frequently in response to rain and lawn treatment.",
+      },
+    ],
+    localHook:
+      "Venice is a Gulf Coast retirement community south of Sarasota with a large stock of 1960s through 1980s wood-frame construction that has reached the age where Formosan termite pressure begins to show structural consequences. The city's high median age means many properties have missed the critical early-stage inspection window.",
+    intro:
+      "Pest control in Venice comes back, again and again, to one issue: the housing stock is aging into the zone where Formosan termite damage becomes visible in structural members. Venice was built out rapidly in the 1960s through 1980s, and a large portion of the city's single-family homes are now between 40 and 60 years old. That is the age range where subterranean termite colonies that went undetected during construction have had time to work through floor joists, wall studs, and subfloor material. The Formosan species is faster and more destructive than the native subterranean type, and in Venice it is well established. Drywood termites add a second layer of risk in the same aging roof timbers and attic framing.",
+    sections: [
+      {
+        heading: "Aging housing stock and the termite inspection window",
+        body: "There is a common pattern in Venice's pest calls: a homeowner has lived in the same house for fifteen or twenty years, has never had an inspection, and now has floor boards that flex or baseboards that crumble when touched. By that point, the structural repair cost often exceeds what the termite treatment itself costs. The inspection window that matters most is the one before visible damage appears, which is why annual inspections are the standard recommendation for any wood-frame home built before 1990 in Sarasota County. Venice's retirement community character means a large share of the housing stock has had stable, long-term occupancy with low renovation activity and, in many cases, no termite monitoring program in place.",
+      },
+      {
+        heading: "Drywood termites in older attic framing",
+        body: "Venice's second termite concern is the drywood species, which colonizes wood from the top down, entering through exposed wood at roofline edges, attic vents, and window frames. Unlike Formosan termites, they leave no mud tubes and have no soil connection, so there is nothing visible from a walk-around inspection of the foundation. The first sign is usually small piles of pellet-like frass below infested wood, or the swarm itself, which happens in late summer and early fall. Treating drywood termites in attic framing usually requires either localized spot injection or tent fumigation when infestations are spread through multiple structural areas. Venice's older homes often have enough spread that an inspector needs to check both attic and foundation zones before recommending an approach.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for any Venice home built before 1990, and ask the inspector to check both attic framing and foundation zones.",
+      "Maintain active Formosan bait stations around the foundation perimeter, inspected quarterly.",
+      "Paint and caulk all exposed wood at roofline edges and window frames to reduce drywood termite entry points.",
+      "Remove standing water from yard containers and low areas within 48 hours after rain to reduce mosquito breeding.",
+      "Apply fire ant bait to lawn areas in spring and again in fall, before and after peak mounding season.",
+    ],
+    costNote:
+      "Venice pest control for aging housing often involves both subterranean and drywood termite programs. Bait station installation runs $800 to $1,200. Drywood spot treatment averages $200 to $500 per area, with tent fumigation starting around $1,500 for full-structure treatment. Recurring general pest service averages $90 to $140 per quarter. Free inspections available.",
+    faqs: [
+      {
+        question: "My Venice home was built in 1972. Do I need a termite inspection?",
+        answer:
+          "Yes, and probably urgently. A home built in 1972 in Sarasota County is now over 50 years old and falls into the age range where Formosan termite damage that started undetected often becomes structurally significant. If the home has not had a termite inspection in the last three years, or if you cannot confirm active monitoring with bait stations, scheduling one is the most important single pest-control step you can take as a Venice homeowner. Catching damage early is the difference between a treatment cost and a major structural repair.",
+      },
+      {
+        question: "Can I see drywood termites before they cause damage?",
+        answer:
+          "Drywood termites are hard to detect early because they leave no mud tubes and have no soil connection. The most common early sign is small piles of pellet-like frass, about the size of a poppy seed, appearing on surfaces below infested wood. Swarms in late summer or early fall, when winged reproductives leave the colony, are another indicator. An annual inspection that includes probing attic framing and window frames with a sharp pick is the most reliable detection method for Venice homes.",
+      },
+      {
+        question: "Are mosquitoes a year-round problem near the Venice Inlet?",
+        answer:
+          "The Gulf Coast wetlands near the Venice Inlet produce mosquitoes from May through October, with peak activity in June through September. Properties near the Intracoastal Waterway and coastal wetland edges see the highest pressure. Outside of those months, cool overnight temperatures reduce activity significantly. A monthly barrier treatment from May through October covers the active season for homes in waterfront Venice neighborhoods.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Sarasota", slug: "sarasota" },
+      { name: "Bradenton", slug: "bradenton" },
+      { name: "Fort Myers", slug: "fort-myers" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Venice, FL | Formosan Termites & Drywood Termites",
+    metaDescription: "Venice FL pest control for Formosan and drywood termites in aging Gulf Coast homes. Sarasota County specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];
