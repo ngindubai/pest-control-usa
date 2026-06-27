@@ -4019,7 +4019,7 @@ export const newJerseyCities: CityLocation[] = [
         name: "Carpenter ants",
         serviceSlug: "ant-control",
         activeSeason: "March through October",
-        body: "Maplewood's large pre-war homes on wooded lots, many with original attic framing, partial crawl spaces, and mature trees within feet of the roofline, carry above-average carpenter ant pressure. The Tuscan Road and Maplewood Avenue neighborhoods see the most consistent activity.",
+        note: "Maplewood's large pre-war homes on wooded lots, many with original attic framing, partial crawl spaces, and mature trees within feet of the roofline, carry above-average carpenter ant pressure. The Tuscan Road and Maplewood Avenue neighborhoods see the most consistent activity.",
       },
       {
         name: "House mice",
