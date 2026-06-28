@@ -7097,5 +7097,209 @@ export const newYorkCities: CityLocation[] = [
     contentSoul: "qa",
     metaTitle: "Pest Control in Great Neck, NY | Nassau County",
     metaDescription: "Great Neck, NY pest control for carpenter ants, termites, yellow jackets, and mice on North Shore Long Island. Licensed Nassau County service.",
-  }
+  },
+  {
+    slug: "harrison-ny",
+    name: "Harrison",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~28,000",
+    county: "Westchester County",
+    climate: "temperate",
+    climateDriver:
+      "Harrison is in southern Westchester County, spanning from the Long Island Sound coast near Rye to wooded inland residential zones along the Blind Brook and other tributaries. Westchester County has among the highest Lyme disease incidence rates in New York State per the NY Department of Health, and Harrison's combination of wooded lots, deer corridors, and the residential-to-forest edge interface puts tick exposure risk within residential yards rather than requiring trail access.",
+    topPests: [
+      "Deer Ticks (Black-Legged Ticks)",
+      "Stink Bugs",
+      "Carpenter Ants",
+      "House Mice",
+      "Yellowjackets",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks, Ixodes scapularis)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round; nymphs most active May through August, adults October through April",
+        note: "Westchester County is among the highest Lyme disease incidence counties in New York State according to NY DOH tick surveillance data. Harrison's wooded residential lots and the Blind Brook corridor create dense tick habitat within yards. Nymphal ticks, the life stage responsible for most Lyme disease transmission, are active May through August and are small enough to escape detection without careful inspection.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Overwintering September through April, outdoor peak August through September",
+        note: "Stink bugs are well established in Westchester County and are a consistent fall overwintering pest in Harrison. The township's large residential lots with mature fruit and ornamental trees attract high late-summer stink bug populations. Aggregations on south-facing walls begin in September.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October, swarmers May and June",
+        note: "Carpenter ants are common in Harrison's wooded suburban environment. The Blind Brook corridor and the residential tree canopy provide nesting sites in dead wood and moisture-damaged structural timber. Swarmers appearing indoors in late spring indicate an established interior colony in moisture-compromised structural wood.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak indoor pressure October through March",
+        note: "House mice enter Harrison's residential structures through foundation and utility gaps in fall. The wooded lot edges throughout the township provide an outdoor population. White-footed mice in the wooded areas are the primary reservoir for Lyme disease in the Northeast, making wooded lot edge management relevant to both tick control and general pest management.",
+      },
+      {
+        name: "Yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Colony peak August through October",
+        note: "Yellowjacket colonies in Harrison reach their largest size in late summer and early fall, when worker populations peak and foraging becomes most aggressive. Ground nests in lawn areas and structural nests in wall voids are the two primary nest types. The Harrison area's maintained lawns and wooded borders create conditions for both ground and structural nesting.",
+      },
+    ],
+    localHook:
+      "Westchester County is consistently reported by the NY Department of Health as one of the highest Lyme disease incidence counties in New York State. Harrison's residential lots, deer movement through preserved corridors, and the Blind Brook drainage area create tick habitat that extends directly into residential yards. The practical implication is that tick exposure risk in Harrison is a yard activity concern, not just a hiking or park activity concern.",
+    intro:
+      "Pest control in Harrison centers on tick management, given Westchester County's position as one of the highest Lyme disease counties in New York. Beyond ticks, the fall season brings stink bugs and mice from wooded lot edges. Carpenter ants are a year-round structural concern in the wooded suburban environment. Yellowjacket colonies peak in late summer and are a sting risk in lawns and at outdoor structures. Tick management in Harrison is a seasonal two-treatment program with habitat modification, not a one-time spray.",
+    sections: [
+      {
+        heading: "Tick exposure in the residential yard",
+        body: "Research from Westchester County and the surrounding Hudson Valley region consistently shows that most residential Lyme disease exposures occur in the home yard, not on hiking trails or in parks. The reason is that white-footed mice, the primary reservoir host for the Lyme disease bacterium, are abundant at wooded residential lot edges and in brush piles, stone walls, and deep leaf litter accumulations. Black-legged tick nymphs, the smallest and most dangerous life stage, feed on white-footed mice as larvae and then as nymphs seek a second blood meal, which is when human transmission occurs. Nymphs are active May through August in Harrison's climate, are approximately the size of a poppy seed, and often go undetected during standard tick checks. The practical yard-level risk reduction strategy combines acaricide application to the wooded border zone with removal of the leaf litter and brush that hosts white-footed mice.",
+      },
+      {
+        heading: "Yellowjacket season in late summer",
+        body: "Yellowjacket colonies in Harrison build through the spring and summer, reaching their largest worker population in August and September. At this peak, foraging workers are numerous and aggressive, particularly around outdoor eating areas, garbage bins, and any open food source. Ground nests in lawn areas are one type; structural nests in wall voids, attics, and hollow tree cavities are the other. Ground nests are identified by the visible entry hole in the soil and the high forager traffic. Structural nests are often detected only when workers enter the living space through a gap or when the colony is disturbed during construction. Attempting to treat a yellowjacket nest without protective equipment is a significant sting risk. Nest removal should be completed in the evening when foragers have returned to the nest.",
+      },
+    ],
+    prevention: [
+      "Apply acaricide treatment to wooded yard border zones in May and September per Cornell Cooperative Extension recommendation to reduce tick density in residential outdoor spaces.",
+      "Clear leaf litter and brush piles from lot edges and around foundation areas to reduce white-footed mouse and tick habitat adjacent to the home.",
+      "Seal foundation and utility gaps in late September before fall house mouse movement into structures begins.",
+      "Check for yellowjacket ground nests in lawn areas from July through September, particularly in areas with unusual insect traffic at soil level.",
+    ],
+    costNote:
+      "Tick treatment in Harrison is typically quoted as a two-treatment seasonal program. General pest control is structured as a recurring plan. Yellowjacket nest removal is quoted per nest. Free assessments available.",
+    faqs: [
+      {
+        question: "Is Lyme disease risk high in residential Harrison yards?",
+        answer:
+          "Yes. Westchester County is one of the highest Lyme disease incidence counties in New York State per NY DOH data. Research shows most residential exposures occur in the yard, not on trails. Black-legged tick nymphs, the life stage most responsible for transmission, are active May through August in Harrison's yards and are very small. Acaricide treatment of wooded yard edges in spring and fall significantly reduces tick density.",
+      },
+      {
+        question: "When do yellowjackets become most dangerous in Harrison?",
+        answer:
+          "Late August through October is the peak yellowjacket risk period in Westchester County. Colonies reach their largest worker population in late summer, and foragers become more aggressive as the season's nest growth slows and food sources become competitive. Ground nests in lawns are the most common sting risk for children and pets. Structural nests in wall voids present risk when workers find gaps into living areas.",
+      },
+      {
+        question: "Do carpenter ants damage homes in Harrison?",
+        answer:
+          "Yes, though they do not eat wood the way termites do. Carpenter ants excavate galleries in soft, moisture-damaged wood to nest. The risk is structural damage in the wood they colonize, which is typically at moisture problem areas: window sills with failed caulk, soffits with water infiltration, deck boards that hold moisture. Finding swarmers indoors in spring is the clearest sign of an established interior colony.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "White Plains", slug: "white-plains" },
+      { name: "Rye", slug: "port-chester" },
+      { name: "New Rochelle", slug: "new-rochelle" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Harrison, NY | Ticks, Stink Bugs & Carpenter Ants",
+    metaDescription:
+      "Harrison NY pest control for black-legged ticks in Westchester's high Lyme zone, stink bugs, carpenter ants, mice, and yellowjackets. Licensed Westchester County service.",
+  },
+  {
+    slug: "riverhead-ny",
+    name: "Riverhead",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~37,000",
+    county: "Suffolk County",
+    climate: "temperate",
+    climateDriver:
+      "Riverhead is the county seat of Suffolk County, located at the head of Peconic Bay on Long Island, where the North Fork wine country meets the south fork resort corridor. Riverhead spans from the Peconic River and bay to significant preserved farmland and vineyard land. Suffolk County has historically had among the highest Lyme disease rates in the United States according to CDC surveillance data. The combination of preserved farmland, vineyard land, woodlands, and deer corridors throughout the town creates extensive tick habitat close to residential and commercial properties.",
+    topPests: [
+      "Deer Ticks (Black-Legged Ticks)",
+      "Carpenter Ants",
+      "Mosquitoes",
+      "Stink Bugs",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks, Ixodes scapularis)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round; nymphs peak May through August, adults peak October through December",
+        note: "Suffolk County is one of the highest Lyme disease incidence counties in the United States per CDC annual surveillance reporting. Riverhead's position at the junction of the North Fork and the Peconic Bay farmland corridor means deer populations are high, white-footed mouse populations are abundant in vineyard and hedgerow edges, and tick habitat extends to the margins of residential properties and commercial orchards.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October, swarmers May and June",
+        note: "Carpenter ants are common in Riverhead's wooded and vineyard-adjacent residential areas. The Peconic River corridor and the mature tree growth in older residential neighborhoods create carpenter ant nesting habitat in dead wood and moisture-damaged structural wood. Wood exposed to the maritime moisture of the Peconic Bay area is more susceptible to the decay that carpenter ants require.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak July through August",
+        note: "The Peconic River and the tidal marshes of Peconic Bay create mosquito breeding habitat adjacent to Riverhead's residential and commercial areas. Suffolk County Vector Control treats public waterways; residential yard management requires a private barrier program. The Asian tiger mosquito is also established on Long Island and breeds in small containers throughout residential yards.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Overwintering September through April, outdoor peak August through September",
+        note: "Stink bugs are well established in Suffolk County and are a significant fall overwintering pest in Riverhead. The North Fork's orchards and vineyards provide abundant late-summer feeding for stink bugs before they move to residential structures for overwintering. Properties adjacent to or near vineyard and orchard land have elevated stink bug pressure.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak indoor pressure October through March",
+        note: "House mice and white-footed mice are both abundant in Riverhead's rural-suburban edge environment. White-footed mice in the agricultural and wooded areas are the primary Lyme disease reservoir on Long Island. House mice enter structures through foundation gaps in fall as outdoor temperatures drop.",
+      },
+    ],
+    localHook:
+      "Suffolk County has been documented by the CDC as one of the highest Lyme disease incidence counties in the country. Riverhead's North Fork location, with its combination of vineyards, farmland edges, preserved woodland, and deer corridors, creates tick habitat that extends directly to residential property lines. Lyme disease exposure in Riverhead is a yard-level concern year-round, with adult tick activity in October through December being a frequently overlooked late-season risk.",
+    intro:
+      "Riverhead's pest profile is dominated by tick pressure. Suffolk County's position at the top of US Lyme disease incidence counties reflects the density of black-legged ticks in the North Fork's agricultural and wooded landscape, and Riverhead's residential areas sit within that landscape rather than at its edge. The Peconic Bay tidal marshes add mosquito pressure in summer. Stink bugs from the vineyard and orchard corridor aggregate on homes in fall. Carpenter ants are a structural concern in the wooded residential areas.",
+    sections: [
+      {
+        heading: "North Fork agricultural edge and tick habitat",
+        body: "The North Fork's vineyards and orchards create a specific type of tick habitat that differs from the mature forest environment. Vineyard rows with tall grass margins, hedgerows between fields, and the dense brush at field edges are productive habitat for white-footed mice, which are the primary reservoir host for Lyme disease on Long Island. Deer move freely between vineyard properties and adjacent residential lots. This creates an unusual situation for Riverhead homeowners: tick exposure risk at the property edge is not just from forested lots but also from the agricultural land that defines the character of the region. Annual acaricide treatment of the wooded or brushy edge of the property, combined with management of any brush or stone wall harborage near the home's perimeter, is the practical residential tick management strategy.",
+      },
+      {
+        heading: "Vineyard-adjacent stink bug pressure",
+        body: "Brown marmorated stink bugs use vineyards and orchards as primary late-summer feeding sites, consuming the ripening grapes and fruit before beginning their fall overwintering migration. Riverhead's North Fork location means homeowners near vineyard and orchard land have significantly higher outdoor stink bug populations in August and September than properties in purely residential areas of Long Island. The stink bugs move from feeding on fruit to aggregating on south-facing building walls as temperatures cool, and enter through any available gap. The key management window is August: sealing window frame gaps, door perimeter weatherstripping, and utility line penetrations before the aggregation season prevents the majority of entries without requiring spray on the exterior wall.",
+      },
+    ],
+    prevention: [
+      "Apply acaricide to wooded and brushy yard border zones in May and September, consistent with Cornell Cooperative Extension's East End recommendations, to reduce tick density.",
+      "Seal window frames, door perimeter gaps, and utility penetrations in August before stink bug aggregation begins from adjacent vineyard and orchard land.",
+      "Remove brush piles, stone walls, and deep leaf litter near the home's foundation to reduce white-footed mouse tick-reservoir habitat at the property edge.",
+      "Eliminate small water containers in the yard through July and August to reduce Asian tiger mosquito breeding from Peconic Bay-area humidity.",
+    ],
+    costNote:
+      "Tick management in Riverhead is typically a two-treatment seasonal program. General pest control is a recurring service. Free yard assessments are available.",
+    faqs: [
+      {
+        question: "Why is Suffolk County's Lyme disease rate so high?",
+        answer:
+          "Suffolk County's ecology combines all the factors that drive high Lyme disease transmission: large deer populations, abundant white-footed mice as the primary bacterial reservoir, high tick density in wooded and agricultural edges, and a large human population living in residential areas directly adjacent to that habitat. The CDC has ranked Suffolk County among the top US counties for Lyme disease incidence for many years. The North Fork's agricultural setting amplifies the risk beyond the typical suburban Long Island environment.",
+      },
+      {
+        question: "Are stink bugs worse near the North Fork vineyards?",
+        answer:
+          "Yes. Stink bugs are a serious agricultural pest of vineyards and orchards, consuming ripening fruit. Properties near the North Fork vineyard corridor have higher outdoor stink bug populations in August and September than those in more residential parts of Long Island. The bugs move from feeding in vineyards to seeking overwintering sites in adjacent structures. Sealing entry points in August, before aggregation season, is the most effective residential management step.",
+      },
+      {
+        question: "Are adult ticks dangerous in fall and winter?",
+        answer:
+          "Yes. Adult black-legged ticks are active October through April in the Northeast, becoming active again as temperatures rise above about 35 degrees Fahrenheit. In Riverhead's maritime-influenced climate, winter temperatures rarely stay below that threshold for extended periods, so adult ticks can be active on warm winter days. Adult ticks are larger than nymphs and easier to detect on a tick check but still transmit Lyme disease. Fall tick checks after outdoor activity remain important through December.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Patchogue", slug: "patchogue" },
+      { name: "Coram", slug: "lindenhurst" },
+      { name: "Huntington", slug: "hempstead" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Riverhead, NY | Ticks, Stink Bugs & Mosquitoes",
+    metaDescription:
+      "Riverhead NY pest control for black-legged ticks in Suffolk County's high Lyme zone, vineyard-adjacent stink bugs, Peconic Bay mosquitoes, and carpenter ants. Licensed local service.",
+  },
 ];

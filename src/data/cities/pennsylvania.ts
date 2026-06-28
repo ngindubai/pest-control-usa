@@ -6936,5 +6936,176 @@ export const pennsylvaniaCities: CityLocation[] = [
     contentSoul: "qa",
     metaTitle: "Pest Control in Whitehall, PA | Lehigh County",
     metaDescription: "Whitehall, PA pest control for stink bugs, mice, termites, and cockroaches near MacArthur Road. Licensed Lehigh County service adjacent to Allentown.",
-  }
+  },
+  {
+    slug: "quakertown-pa",
+    name: "Quakertown",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: 9007,
+    county: "Bucks",
+    climate: "temperate",
+    climateDriver: "Humid continental climate with warm, humid summers and cold winters. Quakertown sits in upper Bucks County at the edge of the Great Valley, where agricultural land, wooded parcels, and small-town residential neighborhoods create a mosaic habitat that supports high pest diversity.",
+    topPests: ["stink bugs", "ticks", "mice", "carpenter ants"],
+    pestProfile: [
+      {
+        name: "Stink Bugs",
+        activeSeason: "fall and winter",
+        note: "Upper Bucks County is one of the earlier areas where brown marmorated stink bugs established in Pennsylvania; Quakertown homes see substantial fall overwintering aggregations.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "ticks",
+        activeSeason: "spring through fall",
+        note: "Blacklegged ticks are established across upper Bucks County; the agricultural-wooded edge around Quakertown creates prime deer tick habitat.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "rodents",
+        activeSeason: "year-round, peak fall and winter",
+        note: "Agricultural edge displacement and cold winters drive consistent mouse pressure into Quakertown structures starting in September.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "carpenter-ants",
+        activeSeason: "spring through fall",
+        note: "Wooded lots and older homes in the borough and surrounding townships see regular carpenter ant foraging from large outdoor colonies.",
+      },
+    ],
+    localHook: "Quakertown is a compact borough surrounded by upper Bucks County farmland and wooded parcels, and that agricultural-rural mix creates pest conditions distinct from suburban lower Bucks County. Stink bugs were among the first to establish here when they arrived in Pennsylvania. Tick habitat is abundant on the agricultural-woodland fringe. And the combination of cold winters and nearby agricultural fields drives consistent rodent movement into structures each fall.",
+    intro: "Quakertown pest control reflects the upper Bucks County agricultural and woodland edge: stink bugs are a significant fall and winter nuisance, ticks are a genuine health concern in the spring and summer, mice are a year-round structural pest, and carpenter ants are active in older homes and wooded lots from spring through fall. The mix here is different from lower Bucks County's suburban pest profile.",
+    sections: [
+      {
+        heading: "Stink Bug Overwintering in Quakertown",
+        body: "Brown marmorated stink bugs are well established in upper Bucks County and Quakertown is in one of the more active zones in Pennsylvania. The species overwinters as adults, seeking shelter in wall voids, attics, and exterior cracks in September and October. Older Quakertown homes with more gaps and less tight building envelopes accumulate higher numbers. Sealing exterior penetrations and cracks before mid-October is the most effective prevention. A licensed applicator can treat the exterior perimeter with a residual product in early September before the aggregation begins. Vacuuming overwintering individuals without crushing them is the recommended removal method once they are inside.",
+      },
+      {
+        heading: "Tick Risk on the Agricultural-Woodland Edge",
+        body: "Quakertown sits in a landscape where farm fields border wooded parcels, and that edge habitat is prime blacklegged tick country. Deer, the primary host for adult blacklegged ticks, are abundant in upper Bucks County. White-footed mice, the reservoir host for the Lyme disease bacterium, are common in the wooded margins. Properties with any wooded edge, brush, or field-adjacent area carry meaningful tick exposure from April through November, with a secondary period of adult activity in October and November. Yard treatments targeting the leaf litter and low vegetation at the lawn-wood interface reduce tick populations significantly. Personal protection with repellents and tick checks after outdoor activity remains important.",
+      },
+      {
+        heading: "Mice and Carpenter Ants",
+        body: "Mouse pressure in Quakertown peaks in September and October as agricultural activity displaces field mice toward structures and temperatures begin to drop. Older homes in the borough and properties on the rural fringe are most exposed. A pre-fall exclusion inspection sealing foundation gaps, utility penetrations, and sill plate areas is the most effective prevention step. Carpenter ants are a spring and summer concern in homes near wooded parcels or with any history of moisture damage. Mature outdoor colonies forage into structures for water, and satellite colonies in moisture-softened wood can develop over time. Treatment requires locating and eliminating satellite colonies inside the structure.",
+      },
+    ],
+    prevention: [
+      "Seal exterior cracks and gaps before mid-October to reduce stink bug entry.",
+      "Apply tick repellent and check for ticks after any time in wooded or brushy areas around Quakertown.",
+      "Complete rodent exclusion before September to stay ahead of fall harvest displacement.",
+      "Maintain a cleared zone of 8 to 10 feet between lawn and any wooded edge to reduce tick habitat.",
+      "Fix any roof, gutter, or plumbing leaks promptly to eliminate the moisture that carpenter ants seek.",
+    ],
+    costNote: "Stink bug perimeter treatment in Quakertown runs $150 to $260. Tick yard treatments range from $120 to $220 per application. Mouse exclusion and baiting programs start at $180 to $340. Carpenter ant treatment averages $160 to $280. Pricing varies by property size and infestation level.",
+    faqs: [
+      {
+        question: "Why does Quakertown seem to have more stink bugs than areas closer to Philadelphia?",
+        answer: "Brown marmorated stink bugs were first detected in the Lehigh Valley and upper Bucks County area, which is among the earliest established populations in the state. The agricultural and wooded landscape also supports larger overwintering aggregations than dense suburban areas. Lower suburban Philadelphia areas may have seen slower population buildup because of less suitable overwintering habitat. Quakertown's position in upper Bucks County puts it in one of the more consistently high stink bug pressure zones in Pennsylvania.",
+      },
+      {
+        question: "Is Lyme disease a real risk in Quakertown, or is it overstated?",
+        answer: "Lyme disease risk in upper Bucks County is genuine and not overstated. Pennsylvania consistently ranks among the top states for Lyme disease cases nationally, and Bucks County is one of the higher-incidence counties in the state. The combination of dense deer populations, abundant white-footed mice as reservoir hosts, and widespread blacklegged tick habitat around Quakertown creates real exposure risk for residents who spend time outdoors, particularly during spring and fall peak tick activity. Yard treatments and personal protective measures meaningfully reduce that risk.",
+      },
+      {
+        question: "When should I schedule a pest inspection for my Quakertown property?",
+        answer: "Late spring is the optimal time for a combined inspection: carpenter ant foraging has begun, tick activity is building, and the summer pest season is starting. A fall inspection in September is useful for rodent exclusion before the cold-weather entry period and for stink bug perimeter treatment before the fall aggregation. Properties on the wooded or agricultural fringe benefit from a spring and fall dual inspection each year.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Pottstown", slug: "pottstown-pa" },
+      { name: "Lansdale", slug: "lansdale-pa" },
+      { name: "Allentown", slug: "allentown-pa" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Quakertown, PA | Bucks County",
+    metaDescription: "Quakertown, PA pest control for stink bugs, ticks on the agricultural-woodland edge, mice, and carpenter ants. Licensed upper Bucks County service.",
+  },
+  {
+    slug: "berwick-pa",
+    name: "Berwick",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: 10477,
+    county: "Columbia",
+    climate: "cold-humid",
+    climateDriver: "Humid continental climate with cold winters and warm, humid summers. Berwick sits on the north bank of the Susquehanna River in Columbia County, where the river valley creates localized humidity and the surrounding ridges channel wildlife and pest movement.",
+    topPests: ["mice", "stink bugs", "carpenter ants", "mosquitoes"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "rodents",
+        activeSeason: "year-round, peak fall and winter",
+        note: "Older downtown housing stock and properties adjacent to the Susquehanna River corridor see high mouse pressure in fall and winter.",
+      },
+      {
+        name: "Stink Bugs",
+        activeSeason: "fall and winter",
+        note: "Brown marmorated stink bugs are established throughout Columbia County; Berwick homes with older construction see significant fall overwintering aggregations.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "carpenter-ants",
+        activeSeason: "spring through fall",
+        note: "Mature trees along the river corridor and in residential neighborhoods sustain large outdoor carpenter ant colonies that forage into structures.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquitoes",
+        activeSeason: "late spring through early fall",
+        note: "Susquehanna River backwater areas and low-lying properties near the river create mosquito breeding habitat; seasonal treatment is effective.",
+      },
+    ],
+    localHook: "Berwick's position on the Susquehanna River defines much of its pest ecology. The river corridor provides habitat and travel routes for rodents. The low-lying areas near the water create mosquito breeding conditions. The mature trees and humid conditions support carpenter ant colonies. And the older housing stock downtown provides the gaps and moisture-damaged wood that make these pests an ongoing challenge.",
+    intro: "Berwick pest control is shaped by the Susquehanna River corridor and the older housing stock in this Columbia County borough. Mice are the primary year-round structural pest, particularly in fall when river-adjacent rodent populations move toward structures. Stink bugs are a persistent fall nuisance in older homes. Carpenter ants forage actively in spring and summer, and mosquitoes are a seasonal problem in low-lying areas near the water.",
+    sections: [
+      {
+        heading: "Mice Along the Susquehanna Corridor",
+        body: "The Susquehanna River provides year-round rodent habitat, and properties within several blocks of the river see elevated mouse pressure compared to neighborhoods farther from the water. Older homes along Market Street and the downtown core have foundation ages and construction details that create more entry opportunities than newer structures. House mice are the dominant species. A systematic exclusion inspecting the foundation perimeter, utility entry points, and any gaps at the sill plate is the starting point for a lasting solution. Interior trapping addresses the existing population while exclusion prevents re-entry.",
+      },
+      {
+        heading: "Stink Bugs and Carpenter Ants in Older Homes",
+        body: "Brown marmorated stink bugs use the exterior walls of Berwick's older homes as overwintering sites, entering through any available gap in the building envelope starting in September. Older homes with less tight construction accumulate higher numbers than newer buildings. Sealing cracks and applying a residual exterior treatment in early September reduces entry significantly. Carpenter ants are an equally important spring and summer concern. The mature tree canopy in Berwick's residential neighborhoods provides abundant outdoor colony habitat, and forager ants enter through gaps around window frames, utility penetrations, and wood at grade. Finding and treating the satellite colony inside the structure is the key to lasting control.",
+      },
+      {
+        heading: "Mosquitoes Near the River",
+        body: "Properties in low-lying areas adjacent to the Susquehanna and near the Route 11 bridge area experience seasonal mosquito pressure from backwater areas and slow-moving river channels that create breeding habitat. Eliminating standing water in the yard, including low spots, clogged gutters, and any container holding water, is the first prevention step. Barrier spray treatments targeting resting vegetation in the yard effectively reduce adult mosquito populations and are typically applied every three to four weeks during the season. A licensed applicator can assess whether the pressure is locally generated or driven by nearby water sources.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before September to reduce both mouse and stink bug entry.",
+      "Eliminate standing water sources in the yard to reduce mosquito breeding near the river.",
+      "Trim branches away from the roofline and remove dead stumps near the home to reduce carpenter ant habitat.",
+      "Install or repair door sweeps and window screens before the summer pest season.",
+      "Keep gutters clear and direct downspouts away from the foundation.",
+    ],
+    costNote: "Mouse exclusion and baiting in Berwick runs $170 to $330 for an initial program. Stink bug perimeter treatment averages $140 to $240. Carpenter ant treatment ranges from $150 to $270. Mosquito barrier spray is typically $110 to $200 per application. Pricing varies by infestation scale and property size.",
+    faqs: [
+      {
+        question: "Does the Susquehanna River increase my pest risk living in Berwick?",
+        answer: "Yes, in two specific ways. The river corridor supports higher baseline rodent populations than non-river areas, and riverside properties or those within a few blocks of the water see more consistent mouse and rat pressure, particularly in fall. The river also creates mosquito breeding habitat in backwater and slow-water areas, producing localized mosquito populations that affect nearby residential properties from late spring through September. Both risks are manageable with the right prevention and treatment plan.",
+      },
+      {
+        question: "How do I know if I have carpenter ants versus termites in my Berwick home?",
+        answer: "Carpenter ants and termites both damage wood but in different ways. Carpenter ants excavate clean galleries in wood and push out coarse sawdust-like frass mixed with insect debris. Termites consume the wood from inside and produce fine mud-colored pellets or build mud tubes on surfaces. Carpenter ants are also visible as foraging workers in the home; termites rarely appear in the open. If you find either coarse frass or mud tubes in your Berwick home, a licensed applicator can identify the species and recommend the appropriate treatment.",
+      },
+      {
+        question: "Are stink bugs harmful to my health or my home?",
+        answer: "Brown marmorated stink bugs do not bite, sting, or damage structures. They do not contaminate food. The sole problem is the odor they produce when disturbed or crushed, and the numbers that can accumulate in wall voids and living spaces during overwintering. In Berwick homes with older construction and more gaps, those numbers can reach dozens or hundreds in a single fall season. Vacuum removal without crushing, combined with exterior sealing, is the recommended approach.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Bloomsburg", slug: "bloomsburg-pa" },
+      { name: "Hazleton", slug: "hazleton-pa" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Berwick, PA | Columbia County",
+    metaDescription: "Berwick, PA pest control for mice along the Susquehanna corridor, stink bugs in older homes, carpenter ants, and river mosquitoes. Licensed Columbia County service.",
+  },
 ];

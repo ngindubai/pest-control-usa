@@ -5992,5 +5992,209 @@ export const newJerseyCities: CityLocation[] = [
     contentSoul: "qa",
     metaTitle: "Pest Control in Berkeley Township, NJ | Ocean County",
     metaDescription: "Berkeley Township, NJ pest control for mosquitoes near Barnegat Bay, termites, mice, and stink bugs. Licensed Ocean County service.",
-  }
+  },
+  {
+    slug: "bridgewater-nj",
+    name: "Bridgewater",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~45,000",
+    county: "Somerset County",
+    climate: "temperate",
+    climateDriver:
+      "Bridgewater Township is in Somerset County in central New Jersey, in the Raritan River watershed. The township's extensive preserved open space, deer-friendly suburban lots, and forested edges create the tick habitat that makes Somerset County one of New Jersey's highest Lyme disease incidence counties. The Raritan River and the Raritan Canal, both running through or adjacent to the township, create mosquito habitat through the summer months. Cold winters bring mice indoors but do not significantly reduce the blacklegged tick population, which overwinters successfully in the leaf litter of wooded lot edges.",
+    topPests: [
+      "Deer Ticks (Black-Legged Ticks)",
+      "Stink Bugs",
+      "House Mice",
+      "Carpenter Ants",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "Deer ticks (black-legged ticks, Ixodes scapularis)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round; adult ticks active October through April, nymphs May through August",
+        note: "Somerset County has among the highest Lyme disease incidence rates in New Jersey according to the NJ Department of Health tick surveillance program. Bridgewater's wooded residential lots, deer corridors, and proximity to the Raritan Canal greenway create dense tick habitat within yards. Nymphal ticks, which are responsible for most Lyme disease transmission, are active May through August and are very small (poppy-seed size), making them difficult to detect.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Overwintering September through April, outdoor peak August through September",
+        note: "Stink bugs are a well-established fall overwintering pest in Somerset County. Bridgewater's large residential lots with ornamental trees and mature canopy attract high outdoor stink bug populations in late summer. They aggregate on south-facing walls and enter through window and door gaps in September and October.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak indoor pressure October through March",
+        note: "House mice are the dominant indoor rodent pest in Bridgewater's residential areas. The wooded lot edges and the preserved open space throughout the township provide a large outdoor population that pressures structures in fall. Mice are also vectors of white-footed mice, which are the primary reservoir host for the Lyme disease bacterium in the Northeast.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October, swarmers May through June",
+        note: "Bridgewater's mature tree canopy and the forested buffer zones throughout the township create significant carpenter ant habitat in dead trees, moisture-damaged stumps, and wood-to-soil contact points at home exteriors. Swarmers appearing indoors in spring are a reliable sign of an established interior colony.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak June through August",
+        note: "The Raritan River corridor and the Raritan Canal greenway running along the township's northern edge create sustained mosquito habitat through the summer. Somerset County Mosquito Control addresses public waterways; private residential yard management requires a separate barrier program.",
+      },
+    ],
+    localHook:
+      "Somerset County is consistently among the top five New Jersey counties for Lyme disease case rates, according to the NJ Department of Health. Bridgewater's combination of large wooded residential lots, deer movement corridors through preserved land, and the white-footed mouse population in wooded edges creates the conditions that make tick exposure a practical everyday risk in the yard rather than just a hiking or park activity concern.",
+    intro:
+      "The dominant pest concern in Bridgewater is tick exposure. Somerset County's high Lyme disease incidence rate reflects the dense black-legged tick population in the township's wooded residential lots and preserved open space. Beyond ticks, the fall season brings stink bug aggregations on exterior walls and mouse entry from the forested lot edges. Carpenter ants are the primary structural pest, nesting in moisture-damaged wood in the mature tree canopy and residential structures. Mosquitoes from the Raritan River and Canal add summer pressure.",
+    sections: [
+      {
+        heading: "Tick risk in residential yards, not just trails",
+        body: "The most important thing to understand about tick risk in Bridgewater is that most residential Lyme disease exposures occur in the yard, not on hiking trails. Deer carry adult ticks but are not a Lyme disease reservoir; white-footed mice are the primary reservoir host. Wooded lot edges, leaf litter, and shrub borders adjacent to turf are where nymphal ticks, the life stage most responsible for human transmission, accumulate at the highest densities. Nymphs are active May through August, are poppy-seed size, and are very difficult to spot during tick checks. The practical risk reduction measures in Bridgewater focus on creating a tick-safe zone in the yard: clear leaf litter from turf edges, keep the lawn mowed, remove low shrubs adjacent to patios and play areas, and apply acaricide treatments to the wooded border zone in May and again in September (NJ DEP and Rutgers Cooperative Extension recommendation).",
+      },
+      {
+        heading: "White-footed mice: the Lyme reservoir and the rodent pest",
+        body: "White-footed mice, not house mice, are the primary reservoir host for Borrelia burgdorferi, the bacterium that causes Lyme disease. In Bridgewater's wooded residential environment, white-footed mice are abundant in the leaf litter and brush piles at the edges of yards and forested lots. House mice are the dominant indoor rodent pest, but the proximity of white-footed mice to residential structures is an additional reason to manage wooded lot edges carefully. Removing brush piles, stone walls, and deep leaf litter accumulations at the yard perimeter reduces both tick-host habitat and the harborage that attracts mice toward structures in fall.",
+      },
+    ],
+    prevention: [
+      "Apply targeted acaricide treatment to wooded border zones in May and September per Rutgers Cooperative Extension recommendations to reduce nymphal and adult tick density in the yard.",
+      "Remove leaf litter, brush piles, and low shrubs from the edge of the lawn adjacent to your home to reduce tick ambush habitat near activity areas.",
+      "Seal foundation gaps and utility penetrations before October to reduce fall house mouse entry from wooded lot edges.",
+      "Seal window and door gaps in late August before stink bugs begin aggregating on south-facing walls.",
+    ],
+    costNote:
+      "Tick control in Bridgewater is typically quoted as a seasonal two-treatment program (spring and fall). General pest control is structured as a recurring plan. Free yard assessments are available.",
+    faqs: [
+      {
+        question: "Is Bridgewater in a high Lyme disease area?",
+        answer:
+          "Yes. Somerset County is consistently among New Jersey's highest-incidence counties for Lyme disease according to the NJ Department of Health. Bridgewater's large wooded residential lots, deer corridors, and proximity to the Raritan Canal greenway create conditions for dense black-legged tick populations within residential yards. Most transmission occurs in the yard, not on trails, and the highest-risk period is May through August when nymphal ticks are active.",
+      },
+      {
+        question: "What is a tick-safe zone and how do I create one?",
+        answer:
+          "A tick-safe zone is a maintained buffer between wooded areas and your lawn and activity areas where tick density is reduced through habitat modification. Key steps recommended by Rutgers Cooperative Extension include clearing leaf litter from turf edges, keeping the lawn mowed, removing or relocating brush piles and wood stacks, installing wood chip barriers between lawn and wooded edges, and applying acaricide to the wooded border zone twice per year.",
+      },
+      {
+        question: "Are stink bugs a significant problem in Somerset County?",
+        answer:
+          "Yes. Brown marmorated stink bugs are well established in central New Jersey and are a consistent fall overwintering pest in Bridgewater. The township's large residential lots with ornamental fruit trees and ornamental shrubs that stink bugs use as late-summer food sources amplify local populations. They aggregate on south-facing building walls in September and enter through window frame gaps and utility penetrations.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Somerville", slug: "piscataway" },
+      { name: "Bound Brook", slug: "new-brunswick" },
+      { name: "Hillsborough", slug: "parsippany" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Bridgewater, NJ | Ticks, Stink Bugs & Mice",
+    metaDescription:
+      "Bridgewater NJ pest control for black-legged ticks in Somerset County's high Lyme zone, stink bugs, mice, carpenter ants, and Raritan River mosquitoes. Licensed local service.",
+  },
+  {
+    slug: "asbury-park-nj",
+    name: "Asbury Park",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~16,000",
+    county: "Monmouth County",
+    climate: "temperate",
+    climateDriver:
+      "Asbury Park is a densely built urban shore city on the Jersey Shore in Monmouth County, bordered by the Atlantic Ocean to the east and a lagoon and creek system to the west. The ocean and bay proximity keeps humidity high year-round and prevents the extreme winter temperatures that would suppress cockroach and rat populations. The city's dense urban core, historic building stock, active bar and restaurant corridor, and summer tourism create an elevated baseline for German cockroaches, Norway rats, and bed bugs.",
+    topPests: [
+      "German Cockroaches",
+      "Norway Rats",
+      "Bed Bugs",
+      "House Mice",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Asbury Park's dense concentration of restaurants, bars, and food-service establishments on the Cookman Avenue and waterfront corridors sustains large German cockroach populations. Cockroaches spread through shared wall voids in the city's attached Victorian-era commercial buildings. Residential infestations in the blocks adjacent to the commercial zone are typically extensions of commercial infestations.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are an established pest in Asbury Park's urban core. The boardwalk and waterfront food operations create food waste, and the older infrastructure of storm drains and building foundations provides extensive harborage. The summer tourism season amplifies food waste volume, which drives rat population expansion that extends into nearby residential streets in fall.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Asbury Park's summer tourism, music venue scene, and Airbnb and short-term rental market create higher bed bug introduction rates than a purely residential community. Frequent high-turnover lodging and the transient population in summer months increase the chances of bed bug introductions in local rentals and spreading to adjacent properties in multifamily buildings.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak indoor pressure October through March",
+        note: "House mice enter Asbury Park's residential buildings through the gaps common in older construction throughout the city. The ocean breeze keeps temperatures above freezing often enough to sustain outdoor mouse populations through mild Jersey Shore winters, meaning pressure continues at a lower level even in January and February.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Wesley Lake and Deal Lake on Asbury Park's borders create mosquito breeding habitat adjacent to the residential grid. Monmouth County Mosquito Control treats public waterways; private residential yard management requires a separate program.",
+      },
+    ],
+    localHook:
+      "Asbury Park's dense bar and restaurant corridor is one of the most concentrated entertainment districts on the Jersey Shore, operating year-round and at high volume in the summer season. This food-service density creates a German cockroach and Norway rat pressure point that is the primary source of residential pest infestations in the surrounding blocks.",
+    intro:
+      "Pest control in Asbury Park reflects its character as a dense urban shore city with a significant food-service and entertainment industry. German cockroaches and Norway rats are the dominant challenges, driven by the commercial corridor and sustained by the city's historic building stock and ocean-proximate climate that prevents hard winter resets. Bed bugs are an above-average concern given the summer tourism and short-term rental market. House mice are a year-round residential issue. The lakeside borders add seasonal mosquito pressure.",
+    sections: [
+      {
+        heading: "The commercial corridor and residential cockroach spillover",
+        body: "Asbury Park's restaurant scene has expanded significantly in recent years, and the density of food-service tenants in the Cookman Avenue and waterfront zones creates a concentrated German cockroach environment. In attached commercial buildings, cockroaches move freely between tenants through shared wall voids, plumbing chases, and false ceilings. When one tenant treats, cockroaches relocate to the adjacent untreated unit within days. Residential buildings on the blocks behind the commercial strip receive regular cockroach pressure through alley access and shared foundation areas. German cockroach treatment is an indoor operation requiring gel bait placed in the harborage areas behind refrigerators, under sinks, and inside electrical panels, not exterior perimeter spray, which does not reach indoor breeding sites.",
+      },
+      {
+        heading: "Bed bugs and the short-term rental market",
+        body: "Short-term rentals and the summer tourism market in Asbury Park create conditions for above-average bed bug introduction rates. A single infested guest introduces bed bugs to a rental unit, where they establish within weeks if not detected and treated before the next guests arrive. In multifamily buildings, an infestation in one unit spreads to adjacent units through shared wall voids and electrical conduits. Early detection is the key: bites in a linear or clustered pattern, small blood spots on light-colored bedding, or a sweet musty odor near the mattress or headboard are the primary signs. An infestation caught in the first few weeks is significantly cheaper and faster to resolve than one discovered after months of establishment.",
+      },
+    ],
+    prevention: [
+      "If you live near the commercial corridor, treat exterior perimeters proactively to reduce cockroach and rat spillover from food-service operations.",
+      "Inspect rental property units for bed bug signs between all guest stays, particularly in summer, and respond immediately to any guest complaint.",
+      "Seal wall gaps and utility penetrations in multifamily buildings to slow bed bug spread between adjacent units.",
+      "Secure garbage bins and address any standing water from Wesley Lake or Deal Lake drainage near the property.",
+    ],
+    costNote:
+      "Pest control in Asbury Park is often structured as a recurring commercial or residential plan. Bed bug treatment is quoted separately after inspection, typically covering the infested room and adjacent units. Free inspections are available.",
+    faqs: [
+      {
+        question: "Are cockroaches from the restaurant district reaching residential streets in Asbury Park?",
+        answer:
+          "Yes. The restaurant and bar density on Cookman Avenue and the waterfront generates a high-pressure German cockroach environment. In the attached commercial buildings, cockroaches move between tenants freely. Residential buildings on adjacent blocks receive pressure through shared alley access, foundation areas, and utility connections. Residents within a block or two of the commercial zone benefit from proactive interior treatment.",
+      },
+      {
+        question: "How do I detect bed bugs early in my rental property?",
+        answer:
+          "Look for small blood spots or rust-colored stains on light bedding, shed skins about the size of an apple seed near the mattress seam, or a sweet musty odor in the bedroom. Bed bugs hide in the mattress seam, behind the headboard, in electrical outlet covers, and in the gaps in furniture joints. A licensed pest control inspection with a trained eye finds early infestations that a casual search misses.",
+      },
+      {
+        question: "Do Norway rats in Asbury Park enter homes directly from the boardwalk area?",
+        answer:
+          "Rats move between the commercial and residential zones through storm drains, underground utility conduits, and the alley networks between buildings. The expanded food-waste volume during summer tourism season supports a larger rat population than the off-season, and fall cooling pushes some of that population toward residential harborage as outdoor food sources decline. Properties within a few blocks of the waterfront and commercial zone are most affected.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Long Branch", slug: "long-branch" },
+      { name: "Neptune Township", slug: "rahway" },
+      { name: "Bradley Beach", slug: "millville" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Asbury Park, NJ | Cockroaches, Rats & Bed Bugs",
+    metaDescription:
+      "Asbury Park NJ pest control for German cockroaches near the restaurant corridor, Norway rats, bed bugs in rental properties, and mice. Licensed Monmouth County shore service.",
+  },
 ];

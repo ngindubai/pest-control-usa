@@ -6358,5 +6358,176 @@ export const washingtonCities: CityLocation[] = [
     contentSoul: "qa",
     metaTitle: "Pest Control in Cheney, WA | Spokane County",
     metaDescription: "Cheney, WA pest control for cockroaches in student housing, mice, spiders, and yellow jackets. Licensed eastern Washington service near EWU.",
-  }
+  },
+  {
+    slug: "port-angeles-wa",
+    name: "Port Angeles",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: 20397,
+    county: "Clallam",
+    climate: "temperate",
+    climateDriver: "Olympic Peninsula maritime climate with mild, wet winters and cool summers. Annual rainfall averages 25 inches in the rain shadow of the Olympics, significantly drier than the western slopes. Proximity to the Strait of Juan de Fuca moderates temperatures.",
+    topPests: ["carpenter ants", "rodents", "yellow jackets", "silverfish"],
+    pestProfile: [
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "carpenter-ants",
+        activeSeason: "spring through fall",
+        note: "Abundant in wood structures along the waterfront and in older homes; satellite colonies inside walls from moisture-damaged wood are common.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodents",
+        activeSeason: "year-round",
+        note: "Deer mice and house mice exploit the Port Angeles port district and older downtown buildings; Norway rats present near the waterfront.",
+      },
+      {
+        name: "Yellow Jackets",
+        serviceSlug: "wasps",
+        activeSeason: "summer through early fall",
+        note: "Ground nests in the hillside residential areas above downtown are common; colonies peak in August and September.",
+      },
+      {
+        name: "Silverfish",
+        activeSeason: "year-round",
+        note: "High humidity in older homes near the waterfront drives persistent silverfish infestations in wall voids and attics.",
+      },
+    ],
+    localHook: "Port Angeles sits at the foot of the Olympic Mountains on the Strait of Juan de Fuca, and the maritime climate here creates sustained moisture conditions that are ideal for carpenter ants and silverfish in aging wood-frame homes. The working port, the ferry terminal, and the proximity to Olympic National Park all shape which pests residents deal with and when.",
+    intro: "Port Angeles pest control problems center on moisture-loving species in older homes near the water and the rodent pressure that comes with a working port district. Carpenter ants are the top structural concern, particularly in homes with any history of water damage. Rodents are active year-round, and yellow jackets build large ground nests on the hillside residential streets above downtown through late summer.",
+    sections: [
+      {
+        heading: "Carpenter Ants in Port Angeles Homes",
+        body: "Carpenter ants are the leading structural pest concern in Port Angeles. The combination of high annual rainfall, older wood-frame housing stock, and the moisture that comes with proximity to the Strait creates ideal conditions for satellite colony formation inside walls and roof structures. The main colony is usually outdoors in a dead stump or log, but forager trails bring workers inside to excavate moisture-damaged wood. Treatment targets both the interior satellite and exterior main colony. A licensed applicator will inspect the attic, crawlspace, and exterior foundation to map the infestation before applying a targeted treatment plan.",
+      },
+      {
+        heading: "Rodents and Port District Pressure",
+        body: "The Port Angeles waterfront, ferry terminal, and downtown commercial district create persistent rodent pressure that affects nearby residential streets. Deer mice, house mice, and Norway rats all occur here, each requiring different exclusion strategies. Norway rats are the heaviest burrowers and are found closer to the port infrastructure. House mice exploit gaps in older wood-frame downtown buildings. Deer mice are common in the hillside residential areas and in homes near open land. A thorough inspection identifying entry points smaller than a dime is the starting point for any effective rodent control plan.",
+      },
+      {
+        heading: "Yellow Jackets on the Hillside Streets",
+        body: "The residential streets climbing from downtown Port Angeles toward the hillside neighborhoods above the bluff see consistent yellow jacket ground-nest pressure from July through October. Mowing, landscaping disturbance, and utility work regularly disturbs nests. Yellow jackets become increasingly aggressive in late summer as colony populations peak and food competition increases. Treatment of active ground nests should be done by a licensed applicator using appropriate protective equipment and applied at night when workers are inside.",
+      },
+    ],
+    prevention: [
+      "Inspect and repair roof flashing, soffits, and fascia boards annually to prevent moisture entry that attracts carpenter ants.",
+      "Store firewood at least 20 feet from the home and off the ground.",
+      "Seal foundation gaps and utility penetrations with steel wool and caulk before fall rodent movement.",
+      "Keep crawlspace moisture below 50% relative humidity with proper ventilation or a vapor barrier.",
+      "Remove fallen fruit, bird feeders, and accessible garbage that attract yellow jackets and rodents.",
+    ],
+    costNote: "Carpenter ant treatment in Port Angeles typically runs $180 to $320 depending on colony access and structure size. Rodent exclusion and baiting programs range from $220 to $450 for an initial inspection and treatment. Yellow jacket nest removal averages $120 to $200. All pricing varies by infestation scale and site conditions.",
+    faqs: [
+      {
+        question: "Why are carpenter ants so common in Port Angeles compared to eastern Washington?",
+        answer: "Carpenter ants thrive in wet environments because they prefer wood that has been softened by moisture. Port Angeles has a maritime climate with consistent rain and high humidity, and the housing stock includes a significant number of older wood-frame homes with some degree of historic water damage. These two factors combine to make Port Angeles one of the more active carpenter ant environments in the state. Eastern Washington's drier climate provides less suitable nesting conditions.",
+      },
+      {
+        question: "Are the rodents near the Port Angeles ferry terminal a health risk?",
+        answer: "Norway rats and mice can carry leptospirosis, hantavirus, and salmonella. Proximity to the ferry terminal and port infrastructure increases the baseline rodent population in nearby blocks. If you find rodent droppings, gnaw marks, or hear scratching in walls near the waterfront district, a professional inspection is the appropriate next step. A licensed applicator can assess whether the population is localized to the exterior or has established entry points into the structure.",
+      },
+      {
+        question: "What time of year should I schedule a pest inspection in Port Angeles?",
+        answer: "Late winter or early spring, before carpenter ant foraging begins in earnest, is the best time to identify and address any moisture issues and satellite colonies before the season escalates. Rodent inspections are most useful in early fall before temperatures drop and mice begin seeking indoor shelter. Yellow jacket inspections are relevant from June onward. Many residents schedule a combined spring inspection that covers all three.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Sequim", slug: "sequim-wa" },
+      { name: "Port Townsend", slug: "port-townsend-wa" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Port Angeles, WA | Clallam County",
+    metaDescription: "Port Angeles, WA pest control for carpenter ants in older waterfront homes, rodents near the port, and yellow jacket ground nests. Licensed Clallam County service.",
+  },
+  {
+    slug: "arlington-wa",
+    name: "Arlington",
+    state: "Washington",
+    stateSlug: "washington",
+    stateAbbr: "WA",
+    tier: "T3",
+    population: 22350,
+    county: "Snohomish",
+    climate: "temperate",
+    climateDriver: "Western Washington maritime climate with wet winters and mild summers. Arlington sits in the Stillaguamish River valley with agricultural land, forested foothills, and the Cascade foothills forming a corridor that channels rodents and wildlife toward residential areas.",
+    topPests: ["rodents", "carpenter ants", "yellow jackets", "stink bugs"],
+    pestProfile: [
+      {
+        name: "Rodents",
+        serviceSlug: "rodents",
+        activeSeason: "year-round, peak fall and winter",
+        note: "Agricultural edge and Stillaguamish River corridor create high rodent pressure; both voles in yards and mice in structures are common.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "carpenter-ants",
+        activeSeason: "spring through fall",
+        note: "Forested hillside development and older homes near downtown are prime habitat; moisture from the river valley sustains large exterior colonies.",
+      },
+      {
+        name: "Yellow Jackets",
+        serviceSlug: "wasps",
+        activeSeason: "summer through fall",
+        note: "Ground nests in lawns and root zones are a consistent summer problem in Arlington's residential areas bordering agricultural land.",
+      },
+      {
+        name: "Stink Bugs",
+        activeSeason: "fall and winter",
+        note: "Brown marmorated stink bugs overwinter in structures; the agricultural fringe around Arlington supports higher populations than urban Snohomish County areas.",
+      },
+    ],
+    localHook: "Arlington is a fast-growing city in the Stillaguamish River valley where farmland, forested foothills, and suburban development meet. That agricultural-residential edge is exactly where rodent and yellow jacket pressure runs highest in western Washington. The city's rapid growth has also brought new subdivisions into what was recently rural land, creating pest-transit corridors that newer residents are often unprepared for.",
+    intro: "Arlington pest control is shaped by the agricultural fringe and the Stillaguamish River valley corridor that runs through the city. Rodents are the leading year-round concern, driven by field displacement at harvest and the river buffer habitat. Carpenter ants are widespread in older structures and in newer homes built near forested slopes. Yellow jackets build heavy ground nest populations along the farmland edges each summer.",
+    sections: [
+      {
+        heading: "Rodent Pressure from Arlington's Agricultural Edge",
+        body: "The farmland surrounding Arlington on its eastern and southern sides produces substantial rodent population surges at harvest time, typically August through October. As crops are cut, field mice and voles disperse outward and seek shelter in nearby structures. The Stillaguamish River corridor provides a year-round rodent corridor from forested areas into the city. Both house mice and deer mice are common. Norway rats are present near commercial areas and older buildings. Exclusion, sealing all entry points larger than a quarter-inch, is the most durable control strategy and should be completed before September.",
+      },
+      {
+        heading: "Carpenter Ants in the Cascade Foothills Transition",
+        body: "The hillside neighborhoods east of downtown Arlington and subdivisions built into the forested foothills carry elevated carpenter ant pressure because the surrounding trees hold large outdoor colonies. Rain-softened wood in older homes, wood-to-soil contact in landscaping, and moisture accumulation in flat roof sections are the most common entry pathways. Carpenter ants do not eat wood the way termites do, but they excavate galleries in moisture-damaged areas and can cause significant structural damage over time. Treatment requires locating both the indoor satellite and the outdoor parent colony.",
+      },
+      {
+        heading: "Yellow Jackets and Stink Bug Overwintering",
+        body: "Yellow jacket ground nests are a seasonal fixture in Arlington lawns, particularly in areas bordering agricultural land where undisturbed soil provides good nesting conditions. Colonies are largest and most aggressive from mid-August through early October. Treatment should be left to a licensed applicator using protective equipment and done at night. Brown marmorated stink bugs appear in fall as they seek overwintering sites in wall voids and attic spaces. The agricultural fringe around Arlington supports higher stink bug populations than you typically see in more urbanized Snohomish County areas. Sealing exterior cracks and gaps before October is the primary prevention measure.",
+      },
+    ],
+    prevention: [
+      "Complete rodent exclusion work before September harvest displacement begins.",
+      "Maintain a 12-inch clearance between soil and any wood structural elements.",
+      "Seal exterior cracks, gaps around utility penetrations, and vents with caulk or hardware cloth before October to reduce stink bug and mouse entry.",
+      "Remove brush piles, compost heaps, and debris within 20 feet of the home that provide rodent cover.",
+      "Inspect crawlspace moisture annually and maintain a vapor barrier to reduce carpenter ant habitat.",
+    ],
+    costNote: "Rodent exclusion and baiting in Arlington typically runs $200 to $420 for an initial program. Carpenter ant treatment ranges from $160 to $300 depending on colony access. Yellow jacket nest removal averages $110 to $190. Stink bug perimeter treatments run $150 to $250. Pricing varies by infestation scale.",
+    faqs: [
+      {
+        question: "Does living near the Stillaguamish River increase my rodent risk in Arlington?",
+        answer: "Yes. River corridors provide travel lanes, dense vegetation cover, and food sources that support high rodent populations year-round. Properties within two or three blocks of the river or its tributary channels typically see higher mouse and rat activity than properties farther into the city. The risk is manageable with proper exclusion and sanitation, but the baseline population pressure is higher than in neighborhoods with no nearby riparian corridor.",
+      },
+      {
+        question: "Are stink bugs damaging to my home in Arlington?",
+        answer: "Stink bugs do not damage structures or bite people. The problem is the smell when disturbed or crushed, and the large numbers that can accumulate in wall voids and living spaces during overwintering. In some Arlington homes near agricultural areas, the numbers can reach dozens or hundreds of individuals in the fall. Sealing entry points is the most effective approach. If large numbers are already inside, a licensed applicator can treat the overwintering sites.",
+      },
+      {
+        question: "When is the right time to call for pest control in Arlington before problems get out of hand?",
+        answer: "The most effective windows are late spring for carpenter ant inspections before foraging peaks, and late summer for rodent exclusion before the fall harvest displacement. For yellow jackets, call as soon as you discover an active ground nest rather than waiting until the colony is at peak size in September. Early intervention is almost always less expensive and more effective than waiting until an infestation is established.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Marysville", slug: "marysville-wa" },
+      { name: "Stanwood", slug: "stanwood-wa" },
+      { name: "Everett", slug: "everett-wa" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Arlington, WA | Snohomish County",
+    metaDescription: "Arlington, WA pest control for rodents from the agricultural edge, carpenter ants in hillside homes, and yellow jacket ground nests. Licensed Snohomish County service.",
+  },
 ];

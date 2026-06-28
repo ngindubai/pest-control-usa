@@ -8997,5 +8997,209 @@ export const georgiaCities: CityLocation[] = [
     contentSoul: "qa",
     metaTitle: "Pest Control in Fairburn, GA | Fulton County",
     metaDescription: "Fairburn, GA pest control for termites, mosquitoes near the Chattahoochee River, fire ants, and mice. Licensed southwest Fulton County service.",
-  }
+  },
+  {
+    slug: "suwanee-ga",
+    name: "Suwanee",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~20,000",
+    county: "Gwinnett County",
+    climate: "hot-humid",
+    climateDriver:
+      "Suwanee is in north Gwinnett County, in the Piedmont belt north of Atlanta, with the Suwanee Creek and several tributary stream corridors running through the city. The humid subtropical climate means warm summers with high humidity and mild winters that rarely kill overwintering pest populations. The city's rapid growth from farmland to suburban residential over the past 25 years has produced the development-edge conditions that drive fire ant and mouse pressure as field habitat is converted to homes.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "Stink Bugs",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms January through April, foraging year-round",
+        note: "Gwinnett County has high Eastern subterranean termite pressure. Suwanee's rapid residential development means many homes sit on lots where tree stumps and construction debris were left in the soil during grading, providing immediate termite food sources adjacent to new foundations. University of Georgia Extension identifies the north Atlanta suburbs as a high-termite-activity zone.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peak June through August",
+        note: "The Suwanee Creek corridor and the stormwater retention infrastructure in the city's newer subdivisions create mosquito habitat through the summer. Gwinnett County does not operate a public mosquito control program, so residential barrier management is the primary tool for homeowners.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, highest mound activity March through October",
+        note: "Fire ants are well established throughout Gwinnett County and are the dominant outdoor stinging pest in Suwanee's residential lots and parks. The continuing construction activity in and around Suwanee means new mounds appear regularly as soil is disturbed and then revegetated.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Overwintering October through March, outdoor peak August through September",
+        note: "Stink bugs have established in north Georgia and are an increasing fall overwintering pest in Suwanee's newer suburban homes. They aggregate on south-facing walls in late September and enter through window gaps and utility penetrations. The Georgia Department of Agriculture has tracked stink bug expansion across the northern counties.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, highest interior pressure October through February",
+        note: "House mice move into Suwanee's residential structures in fall as temperatures drop. New construction in the area with neighboring open fields creates a continuous edge-habitat reservoir that replenishes mouse populations entering established neighborhoods. Exclusion of foundation gaps and utility penetrations is the primary control measure.",
+      },
+    ],
+    localHook:
+      "Suwanee has been one of Georgia's fastest-growing cities since the late 1990s, converting farmland to suburban residential at a pace that creates a continuous edge-habitat interface between new construction and open fields. This edge is one of the main drivers of fire ant and mouse pressure: as field habitat shrinks, its populations move into adjacent homes.",
+    intro:
+      "Pest control in Suwanee reflects the city's rapid growth from agricultural land to north Atlanta suburb. The development edge between new subdivisions and remaining open fields drives fire ant mound activity and fall mouse movement into homes. The Suwanee Creek corridor adds mosquito pressure through the summer, and Gwinnett County's high subterranean termite baseline means annual inspections are practical for any homeowner, especially in newer homes that sit on lots where organic debris from site clearing was incorporated into the soil.",
+    sections: [
+      {
+        heading: "Development edge and fire ant dynamics",
+        body: "Suwanee's ongoing residential expansion means that many neighborhoods are directly adjacent to land being cleared and graded for new construction. Fire ants colonize disturbed soil rapidly and are excellent at moving populations as habitat is reduced. New mounds appear in lawns adjacent to active construction sites within weeks of grading. Beyond the visual nuisance, fire ant stings are a medical concern for small children and residents with allergies. Property-wide broadcast treatment with a slow-acting bait is more effective than individual mound drench treatments, which only address the visible mounds while leaving the broader colony network intact.",
+      },
+      {
+        heading: "Stink bug season in north Georgia",
+        body: "Brown marmorated stink bugs arrived in Georgia from the Mid-Atlantic states and have become a recurring fall overwintering pest in Suwanee and the surrounding Gwinnett County suburbs. In late August and September, adults feed actively on fruit trees and garden plants. As temperatures drop in October, they seek overwintering sites inside walls and attics, entering through gaps in window frames, exterior vents, and where utility lines penetrate siding. Once inside a wall void, they are difficult to treat because they do not respond to most bait products and direct spray only works on contact. Prevention, specifically sealing entry points before October, is the most effective approach.",
+      },
+    ],
+    prevention: [
+      "Have an annual termite inspection, especially if your home sits on a lot where tree stumps or construction debris were buried during site clearing.",
+      "Seal window gaps and utility line penetrations in September, before stink bugs seek overwintering sites in exterior walls.",
+      "Use property-wide fire ant broadcast treatment rather than individual mound drench to address the colony system rather than surface mounds.",
+      "Remove standing water in stormwater features and containers to reduce the summer mosquito season impact along the creek corridors.",
+    ],
+    costNote:
+      "Pest management in Suwanee is typically structured as a recurring quarterly or bi-monthly plan. Termite treatment is quoted separately after inspection. Fire ant broadcast treatment is often added as a seasonal service. Free inspections are available.",
+    faqs: [
+      {
+        question: "Why are fire ants particularly active near construction sites in Suwanee?",
+        answer:
+          "Fire ants colonize disturbed soil rapidly and move populations as surrounding habitat is reduced. Active construction sites with graded and revegetated soil produce new mounds within weeks, and these new colonies spread into adjacent established lawns. The pace of residential development in north Gwinnett County means many Suwanee neighborhoods have an active edge interface with new construction.",
+      },
+      {
+        question: "Are stink bugs a new pest problem in Gwinnett County?",
+        answer:
+          "Brown marmorated stink bugs have expanded their range into north Georgia over the past decade. They are now an established fall overwintering pest in Suwanee and the broader north Atlanta suburbs. They aggregate on south-facing walls in October seeking entry points into wall voids and attics. Sealing gaps before fall is the most practical prevention measure since contact sprays only work on exposed adults.",
+      },
+      {
+        question: "Is termite risk higher in newer construction in Suwanee?",
+        answer:
+          "Newer homes in rapidly developing areas can have elevated early termite risk if tree stumps, roots, or construction debris were left in the soil during site clearing. These organic materials provide immediate food sources adjacent to new foundations. Annual inspections starting in the first few years after construction establish a baseline and catch early activity before structural damage develops.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Duluth", slug: "duluth-ga" },
+      { name: "Lawrenceville", slug: "lawrenceville-ga" },
+      { name: "Johns Creek", slug: "johns-creek" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Suwanee, GA | Termites, Fire Ants & Stink Bugs",
+    metaDescription:
+      "Suwanee GA pest control for subterranean termites, fire ants on development edges, fall stink bugs, mosquitoes near Suwanee Creek, and mice. Licensed Gwinnett County service.",
+  },
+  {
+    slug: "winder-ga",
+    name: "Winder",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~17,000",
+    county: "Barrow County",
+    climate: "hot-humid",
+    climateDriver:
+      "Winder is the county seat of Barrow County, in the Georgia Piedmont approximately 45 miles northeast of Atlanta. The humid subtropical climate produces hot, humid summers and mild winters with only occasional hard freezes. Barrow County is one of Georgia's fastest-growing exurban counties as Atlanta's growth reaches it, and the ongoing conversion of agricultural land to residential development creates the field-to-neighborhood transition that drives mouse and fire ant pressure into new homes.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Fire Ants",
+      "House Mice",
+      "Mosquitoes",
+      "Brown Marmorated Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms January through April, foraging year-round",
+        note: "Barrow County is within Georgia's high subterranean termite pressure zone. Winder's mix of older downtown commercial buildings and newer residential construction on former farmland creates varied termite risk profiles. Older structures with wood-to-soil contact are at highest risk; newer structures on former farm lots with buried organic debris have elevated early-year risk.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak mound activity spring and fall",
+        note: "Fire ants are well established in Barrow County and are the dominant stinging pest in Winder's residential and commercial lots. Agricultural fields adjacent to newer residential areas serve as fire ant population reservoirs. As field habitat is developed, existing fire ant colonies move into adjacent established lawns.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak indoor pressure October through March",
+        note: "House mice are the primary rodent pest in Winder's residential areas, with agricultural grain fields and poultry operations in surrounding Barrow County providing a large outdoor population that pressures nearby homes seasonally. Fall cooling drives mice to seek interior harborage through foundation gaps and utility entries.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peak July through August",
+        note: "Barrow County's stream corridors and farm pond system create mosquito habitat throughout the rural areas adjacent to Winder. Residential neighborhoods near the creek corridors have elevated summer mosquito pressure. Barrow County does not operate a public mosquito control program.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Overwintering October through March",
+        note: "Stink bugs have established in north Georgia and are a recurring fall overwintering pest in Winder. They enter homes through window and door gaps in October seeking wall-void overwintering sites. The agricultural landscape around Winder, with fruit trees and grain crops, supports high outdoor stink bug populations that pressure adjacent homes at harvest time.",
+      },
+    ],
+    localHook:
+      "Winder sits at the edge of Atlanta's exurban growth, where residential subdivisions are being built directly adjacent to active poultry and grain agriculture. This agricultural-to-residential interface is the source of Winder's most persistent pest pressure: mouse populations from farm fields move into new homes as their habitat shrinks, and fire ant colonies from field margins relocate into residential lawns.",
+    intro:
+      "The pest profile in Winder is shaped by Barrow County's position at the Atlanta exurban frontier. Agricultural operations including poultry farms and grain fields in the county drive mouse and fire ant pressure into residential areas as development expands. Subterranean termites are a baseline concern across the Piedmont. In fall, stink bugs aggregate on south-facing walls before seeking overwintering sites inside the newer homes being built throughout the county.",
+    sections: [
+      {
+        heading: "Agricultural interface pest pressure",
+        body: "Winder's growth has put residential subdivisions directly adjacent to active agricultural operations in Barrow County. Poultry operations create elevated mouse populations in their vicinity, and house mice readily move between farm buildings and neighboring residential structures year-round. Grain fields support high fire ant colony density, and harvest in late summer triggers fire ant movement from shrinking crop cover into adjacent lawns and home exteriors. This edge-habitat pressure is different from the pest dynamics in more urban areas: it does not stabilize seasonally the way suburban pest pressure does because the agricultural source remains active. Proactive exclusion of foundation gaps and year-round exterior perimeter management are the practical approach for homes within a few hundred meters of active farmland.",
+      },
+      {
+        heading: "Termite inspection in a fast-growing county",
+        body: "Barrow County's rapid residential development produces a steady stream of new homes on former farmland. Several factors create elevated early termite risk in these settings: tree stumps and root systems left in the soil during site clearing provide food sources adjacent to new foundations, construction lumber stored on-site before framing is sometimes exposed to termite contact, and the disturbed soil around new foundations is colonized rapidly by Eastern subterranean termites. University of Georgia Cooperative Extension recommends pre-treatment of soil before foundation pour in high-termite-pressure areas of Georgia. Annual inspections in the first five years after construction establish an early-detection baseline.",
+      },
+    ],
+    prevention: [
+      "Schedule pre-treatment and annual termite inspections for new construction, particularly on lots converted from farmland where organic debris may remain in the soil.",
+      "Seal foundation gaps and utility penetrations in September before fall mouse movement begins from agricultural fields.",
+      "Apply property-wide fire ant broadcast treatment rather than individual mound drench to address fire ant colonies moving from adjacent field margins.",
+      "Seal window gaps and soffit penetrations before October to prevent stink bug entry into wall voids for overwintering.",
+    ],
+    costNote:
+      "Pest control in Winder is typically priced as a recurring plan. Termite treatment and rodent exclusion work are quoted separately after assessment. Free inspections are available.",
+    faqs: [
+      {
+        question: "Do agricultural operations near Winder increase residential pest pressure?",
+        answer:
+          "Yes, significantly. Poultry operations support large mouse populations that move into adjacent homes. Grain field harvest in late summer drives fire ant and mouse movement from shrinking crop cover into residential lawns and home exteriors. Homes within a few hundred meters of active agricultural land benefit from proactive exclusion and year-round perimeter management rather than reactive treatment.",
+      },
+      {
+        question: "What is the termite risk for new homes in Barrow County?",
+        answer:
+          "Eastern subterranean termite pressure is high across the Georgia Piedmont, including Barrow County. New homes on converted farmland face specific early risk if tree stumps and organic debris were incorporated into the soil during site clearing. University of Georgia Extension recommends soil pre-treatment before construction in high-pressure areas. Annual inspections in the first five years are a practical baseline.",
+      },
+      {
+        question: "Why do stink bugs enter homes in Winder specifically in fall?",
+        answer:
+          "Brown marmorated stink bugs are seeking overwintering sites when temperatures drop in October. The agricultural landscape around Winder, particularly fruit trees and grain crops, supports high outdoor stink bug populations through late summer. When fall cooling begins, these populations move toward structures with solar warmth, aggregating on south-facing walls before entering through window and door gaps. Sealing these gaps in September is the most effective prevention measure.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Athens", slug: "athens" },
+      { name: "Gainesville", slug: "gainesville-ga" },
+      { name: "Lawrenceville", slug: "lawrenceville-ga" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Winder, GA | Termites, Mice & Fire Ants",
+    metaDescription:
+      "Winder GA pest control for subterranean termites, agricultural-edge mice, fire ants, fall stink bugs, and mosquitoes near Barrow County farm corridors. Licensed local service.",
+  },
 ];

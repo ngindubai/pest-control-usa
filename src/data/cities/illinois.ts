@@ -9498,4 +9498,310 @@ export const illinoisCities: CityLocation[] = [
     metaTitle: "Pest Control in Libertyville, IL | Carpenter Ants vs. Mice",
     metaDescription: "Libertyville IL pest control comparing Des Plaines River carpenter ants vs. fall mice. Lake County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "gurnee-il",
+    name: "Gurnee",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~31,000",
+    county: "Lake County",
+    climate: "cold-humid",
+    climateDriver:
+      "Gurnee is in Lake County, Illinois, approximately 35 miles north of Chicago and close to the Wisconsin border. Lake County's proximity to Lake Michigan moderates temperatures slightly but also extends the period of high humidity that sustains mosquitoes and flies through July and August. Gurnee's large commercial corridor including Six Flags Great America and an outlet mall generates food-industry waste volume that creates significant German cockroach and Norway rat pressure that can radiate into adjacent residential neighborhoods.",
+    topPests: [
+      "House Mice",
+      "German Cockroaches",
+      "Mosquitoes",
+      "Stink Bugs",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak indoor pressure October through March",
+        note: "House mice are the primary rodent pest in Gurnee's residential areas. The large commercial zone generates food waste that supports elevated rodent populations on commercial properties, and pressure spills into adjacent residential lots. Fall cooling drives mice from parking areas and landscaping into nearby homes through gaps at the foundation and utility entries.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in commercial settings",
+        note: "Gurnee's commercial food-service corridor generates the conditions that sustain large German cockroach populations in restaurants and food courts. German cockroaches travel between attached commercial units through shared wall voids and plumbing chases. Residential infestations near the commercial zone typically originate from commercial source sites.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak July through August",
+        note: "Lake County's Des Plaines River corridor and the stormwater retention areas adjacent to Gurnee's commercial and residential zones create mosquito habitat through the summer. The Lake Michigan influence extends summer humidity, supporting a longer peak biting season than communities further inland.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Overwintering October through April",
+        note: "Stink bugs are an established fall overwintering pest in Lake County. They aggregate on south-facing walls of homes and commercial buildings in September and October, seeking entry through window frames and utility gaps. Lake County residents have seen increasing stink bug populations over the past decade as the pest has expanded northward from its initial establishment in the Chicago suburbs.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October, swarmers in spring",
+        note: "Carpenter ants are common in Gurnee's wooded residential neighborhoods and the green infrastructure around the commercial corridor. Mature trees in residential lots and mulch against exterior walls create nesting sites. Winged swarmers appearing indoors in spring indicate an established interior colony.",
+      },
+    ],
+    localHook:
+      "Gurnee hosts two of the largest commercial attractions in the northern Chicago suburbs, and the food-service infrastructure around Six Flags Great America and the outlet mall generates a concentrated organic waste stream that sustains German cockroach and Norway rat populations at a higher density than a purely residential community of the same size. This commercial pest pressure is the primary source of residential infestations in the blocks adjacent to the commercial zone.",
+    intro:
+      "Gurnee's pest picture has two distinct drivers: the commercial corridor generates cockroach and rat pressure that affects nearby residential streets, and the Lake County climate sustains mosquitoes through a longer summer than communities further from the lake. House mice are the dominant year-round residential pest, with fall migration from commercial parking and green areas into homes the primary pressure point. Stink bugs and carpenter ants are the other regular residential concerns.",
+    sections: [
+      {
+        heading: "Commercial corridor pest pressure and residential impact",
+        body: "The zone around Six Flags and the outlet mall in Gurnee generates significant food-service waste from multiple restaurant and retail food tenants operating seasonally and year-round. German cockroaches thrive in commercial kitchen environments and spread through shared wall voids between adjacent tenants in multi-unit commercial buildings. Norway rats burrow in the landscaping and mulch areas around parking structures. When commercial tenants do pest treatment without coordinating with neighbors, displaced cockroaches and rats move to adjacent untreated units or nearby residential properties. Homeowners within two to three blocks of the commercial corridor should treat exterior perimeters proactively, and any signs of cockroach activity should be treated with targeted gel bait applied inside rather than perimeter spray alone.",
+      },
+      {
+        heading: "Fall pest invasion timing in Lake County",
+        body: "Gurnee's Lake County location means fall pest pressure follows a slightly later timeline than the Chicago metro average. The lake's thermal moderation keeps temperatures above the threshold for stink bug aggregation and mouse movement into mid-October rather than late September in some years. But when the temperature shift does arrive, it triggers simultaneous pressure from multiple species: stink bugs on exterior walls, mice at foundation gaps, and carpenter ants scouting for winter harborage. Homeowners who seal gaps in late September, before the lake effect buys extra warmth, are better positioned than those who wait for the first signs of entry.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations in late September before the fall mouse and stink bug entry season begins.",
+      "If you live within two to three blocks of the commercial corridor, treat exterior perimeters proactively to reduce cockroach and rat spillover from commercial sources.",
+      "Inspect soffit venting and attic access panels annually to prevent carpenter ant colony establishment in moisture-damaged structural wood.",
+      "Remove standing water from stormwater areas and containers in June through August to reduce the extended Lake County mosquito season.",
+    ],
+    costNote:
+      "Gurnee pest control is typically structured as a recurring plan. Commercial properties near the entertainment corridor are often quoted on a monthly service schedule. Free inspections are available for residential and commercial properties.",
+    faqs: [
+      {
+        question: "Can the commercial attractions in Gurnee cause pest problems in nearby homes?",
+        answer:
+          "Yes. The food-service operations around Six Flags and the outlet mall generate the conditions that sustain elevated German cockroach and Norway rat populations. When commercial pest treatment displaces these populations without eliminating the source, they move to adjacent properties. Residential homes within two to three blocks of the commercial zone see higher baseline rodent and cockroach pressure than the surrounding area.",
+      },
+      {
+        question: "Do mosquitoes in Lake County have a longer season than in Chicago?",
+        answer:
+          "Slightly, yes. Lake Michigan's thermal moderation keeps Lake County temperatures above peak biting thresholds a bit longer into September than communities further inland. Combined with the Des Plaines River corridor and stormwater retention areas near Gurnee's development zones, the net result is a mosquito season that can extend through the third week of September in warm years.",
+      },
+      {
+        question: "How do I know if a stink bug in my home means there are more in the walls?",
+        answer:
+          "A single stink bug in the living space is not necessarily a concern, since they enter one at a time through gaps. A pattern of multiple stink bugs appearing inside over several weeks in fall, or finding them clustering at south-facing windows, indicates a larger group overwintering in wall voids. Vacuuming exposed adults and sealing entry points reduces the continuing entry. Attempting to spray wall voids is rarely effective as they do not forage for bait.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Waukegan", slug: "waukegan" },
+      { name: "Libertyville", slug: "libertyville" },
+      { name: "Zion", slug: "zion" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Gurnee, IL | Mice, Cockroaches & Mosquitoes",
+    metaDescription:
+      "Gurnee IL pest control for mice near the commercial corridor, German cockroaches, Lake County mosquitoes, stink bugs, and carpenter ants. Licensed Lake County service.",
+  },
+  {
+    slug: "elk-grove-village-il",
+    name: "Elk Grove Village",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~33,000",
+    county: "Cook County",
+    climate: "cold-humid",
+    climateDriver:
+      "Elk Grove Village is in Cook County adjacent to O'Hare International Airport, containing one of the largest industrial parks in the United States. The industrial park environment with its warehousing, logistics, and manufacturing generates concentrated organic waste and structural harborage for rodents and cockroaches at a scale well above a typical residential community. The city's position adjacent to O'Hare also makes it a node for bed bug travel from the airport's passenger and cargo traffic.",
+    topPests: [
+      "House Mice",
+      "Norway Rats",
+      "German Cockroaches",
+      "Bed Bugs",
+      "Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak indoor pressure September through March",
+        note: "House mice are the dominant rodent pest in Elk Grove Village's residential areas. The adjacent industrial park creates a large-scale outdoor mouse population that pressures residential neighborhoods in fall and winter. Warehouse and logistics facilities with active dock operations are prime mouse habitat, and perimeter pressure from these facilities extends into adjacent residential blocks.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are a significant concern in and around Elk Grove Village's industrial zone, burrowing in the landscaping and pavement margins of warehouse properties. Restaurant and food-processing operations within the industrial park provide food sources. Residential streets adjacent to commercial and industrial uses see rat spillover during commercial pest management efforts.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in commercial and industrial settings",
+        note: "Food processing, commercial kitchens, and break rooms throughout the industrial park sustain large German cockroach populations in commercial settings. Residential infestations typically originate from commercial sources through shared plumbing or via second-hand appliances, furniture, or goods moved from commercial sites.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Elk Grove Village's proximity to O'Hare International Airport and the hotel and lodging corridor near the airport makes it a higher-exposure area for bed bug introduction. Hotel and motel stays, luggage handling, and the area's high population turnover from business travel create more frequent bed bug encounter than residential communities further from major airports.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Overwintering October through April",
+        note: "Stink bugs are an established fall overwintering pest in the Chicago suburbs including Elk Grove Village. They aggregate on building exteriors in October and enter through gaps in residential siding and commercial building envelopes. The large flat roofs and exterior utility penetrations of the industrial buildings provide extensive entry points for overwintering populations.",
+      },
+    ],
+    localHook:
+      "Elk Grove Village contains one of the largest contiguous industrial parks in the United States, covering approximately 6,000 acres and housing more than 3,700 businesses. The scale of the industrial park's food-related operations, dock environments, and organic waste generation creates rodent and cockroach populations that dwarf what a typical suburban residential community of this size would generate.",
+    intro:
+      "The pest situation in Elk Grove Village is defined by its industrial park. One of the largest in the country, the park's warehousing, food processing, and logistics operations generate rodent and cockroach pressure at a commercial scale that affects adjacent residential neighborhoods. House mice and Norway rats are the dominant year-round pest challenge. Bed bug risk is elevated compared to inland suburban communities because of proximity to O'Hare. Stink bugs are a consistent fall overwintering pest in the residential areas.",
+    sections: [
+      {
+        heading: "Industrial park rodent pressure and residential spillover",
+        body: "The warehousing and logistics operations in Elk Grove Village's industrial park are classic mouse and rat habitat: receiving docks with food-related cargo, large expanses of perimeter landscaping, and the constant movement of goods provides both food sources and harborage. Norway rats burrow along the landscape margins and travel through underground utility corridors. House mice exploit any gap in the warehouse structure. When industrial tenants undertake rodent control, displaced populations move to adjacent untreated buildings or toward residential zones. Residential streets within two to three blocks of the industrial park see higher baseline rodent pressure than areas further away, and fall cooling amplifies this as outdoor harborage becomes less comfortable and mice actively seek interior sites.",
+      },
+      {
+        heading: "Bed bugs near O'Hare: an airport-adjacent risk",
+        body: "Bed bugs do not breed in hotel rooms on their own; they are introduced by travelers. The hotel and extended-stay corridor near O'Hare Airport has a higher bed bug turnover rate than residential motels further from major airports, simply because of the volume and diversity of travelers. Elk Grove Village's residential population has a higher rate of hotel use for work and family travel from nearby O'Hare than most suburbs, and luggage from these trips is a vector for residential introduction. A bed bug introduction from a single hotel stay can establish a residential infestation within weeks if not detected. Early signs include bites in a linear or clustered pattern, blood spots on light-colored bedding, and a sweet, musty odor near an infested mattress or headboard.",
+      },
+    ],
+    prevention: [
+      "If you live adjacent to the industrial park perimeter, maintain active exterior perimeter treatment year-round to reduce rodent spillover from commercial operations.",
+      "After hotel stays near O'Hare, inspect luggage before bringing it indoors and launder clothing at high heat to prevent bed bug introduction.",
+      "Seal all utility penetrations in the foundation and exterior walls before October to limit fall mouse entry.",
+      "Inspect second-hand furniture and appliances for German cockroach egg cases before bringing them into your home, particularly if they came from a commercial setting.",
+    ],
+    costNote:
+      "Pest control in Elk Grove Village is frequently structured as a recurring commercial or residential plan. Industrial and commercial facilities near the park typically use monthly service. Bed bug treatment is quoted separately after inspection. Free assessments available.",
+    faqs: [
+      {
+        question: "Does living near the Elk Grove Village industrial park increase pest risk?",
+        answer:
+          "Yes. The industrial park's scale of food-related operations and dock environments sustains Norway rat and mouse populations well above typical suburban baseline levels. When commercial tenants do pest control, they can displace populations to adjacent properties. Streets bordering the industrial park perimeter see higher rodent pressure, particularly in fall when outdoor harborage becomes less hospitable.",
+      },
+      {
+        question: "Why is bed bug risk elevated near O'Hare Airport?",
+        answer:
+          "Bed bugs are introduced by travelers, not generated locally. The high volume and diversity of travelers using the O'Hare corridor hotels creates more frequent introduction events than at rural or suburban lodging further from major airports. Residents who travel frequently from O'Hare or stay in the nearby hotel corridor have higher exposure. Inspecting luggage after any hotel stay and laundering at high heat before unpacking is the primary prevention.",
+      },
+      {
+        question: "Are Norway rats and house mice the same treatment?",
+        answer:
+          "No. They require different approaches. Norway rats burrow and nest at ground level or below. House mice nest anywhere from ground level to attics. Rats are significantly larger and more trap-shy than mice; they require larger exclusion gaps to be sealed. Snap traps for rats use different sizes and placement than mouse traps. A rodent assessment should identify which species is present before selecting a control method.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Schaumburg", slug: "schaumburg" },
+      { name: "Arlington Heights", slug: "arlington-heights" },
+      { name: "Itasca", slug: "bartlett-il" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Elk Grove Village, IL | Mice, Rats, Cockroaches & Bed Bugs",
+    metaDescription:
+      "Elk Grove Village IL pest control for industrial-park rodents, Norway rats, German cockroaches, O'Hare-adjacent bed bugs, and stink bugs. Licensed Cook County service.",
+  },
+  {
+    slug: "lombard-il",
+    name: "Lombard",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~43,000",
+    county: "DuPage County",
+    climate: "cold-humid",
+    climateDriver:
+      "Lombard is in DuPage County, approximately 20 miles west of Chicago, in the Chicago western suburbs. The inland location means cooler springs and earlier falls than Lake County communities to the north, with cold, snowy winters and humid summers that sustain mosquitoes and carpenter ants. The city's Lilacia Park and extensive public tree canopy, combined with the stormwater retention ponds throughout newer residential areas, create the green infrastructure that drives the local mosquito and carpenter ant profile.",
+    topPests: [
+      "House Mice",
+      "Stink Bugs",
+      "Carpenter Ants",
+      "Mosquitoes",
+      "German Cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak indoor pressure October through March",
+        note: "House mice are the dominant pest in Lombard's residential areas, entering through foundation gaps, utility penetrations, and under-door gaps in October as fall cooling begins. The DuPage County agricultural fringe provides a continuous outdoor population reservoir. Exclusion of entry points is the primary control measure; interior bait and trapping manages the population that has already entered.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Overwintering September through April",
+        note: "Stink bugs are an established fall overwintering pest in DuPage County. They aggregate on Lombard's south-facing exterior walls in September and enter through window and door gaps. The large mature tree canopy in Lombard's residential areas provides fruit-bearing trees such as ornamental pears and crabapples that are highly attractive to stink bugs in late summer.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active April through October, swarmers in May and June",
+        note: "Lombard's mature tree canopy, including the large oaks and maples throughout the residential grid, creates significant carpenter ant habitat in dead wood and moisture-damaged structural wood. Carpenter ants in DuPage County typically have satellite colonies in outdoor trees and a parent colony in moisture-damaged structural wood in or near the home.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September, peak July through August",
+        note: "Lombard's stormwater retention ponds and the green infrastructure throughout the village's park system create productive mosquito breeding habitat within residential blocks. DuPage County Vector Control operates a public program for public waterways, but private residential yards require separate management.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in commercial settings",
+        note: "Lombard's commercial corridors on Roosevelt Road and Butterfield Road include restaurant and food-service operations that sustain German cockroach populations in commercial kitchens. Residential infestations are typically introduced through second-hand items or via proximity to infested commercial units.",
+      },
+    ],
+    localHook:
+      "Lombard is known for Lilacia Park and its extensive flowering tree collection. The same ornamental fruit and crabapple trees that draw visitors in spring are highly attractive to stink bugs in late summer, when the insects feed on ripening fruit before beginning their fall overwintering aggregation. Homes with ornamental pear, crabapple, or apple trees in the yard or adjacent street plantings see earlier and heavier stink bug wall aggregations than properties without these host plants.",
+    intro:
+      "Pest control in Lombard centers on three fall arrivals and one year-round challenge. In September, stink bugs aggregate on exterior walls; mice begin their fall push into homes; and carpenter ants scout for overwintering sites. The year-round challenge is rodent exclusion given the DuPage County agricultural fringe. Summer brings mosquito pressure from the stormwater retention ponds throughout the village's park and residential systems. Homes with ornamental fruit trees have elevated stink bug pressure because of these plants' role as host feeding sites.",
+    sections: [
+      {
+        heading: "Stink bugs and the ornamental tree connection",
+        body: "Brown marmorated stink bugs feed on a wide range of host plants but prefer fruit-bearing ornamental and edible trees. Lombard's tree canopy includes a high density of ornamental pear, crabapple, and apple trees, both in Lilacia Park and in the residential street plantings throughout the village. In August and September, stink bugs feed on ripening fruit from these trees before beginning their search for overwintering sites. Homes adjacent to these host trees see stink bugs moving directly from the tree canopy to south-facing walls. Once on the wall, they seek entry through window frame gaps, under-eave vents, and openings around cable and utility penetrations. Sealing these entry points before September is the most effective prevention; attempting to spray stink bugs on an exterior wall is largely ineffective and does not prevent the next wave of arrivals.",
+      },
+      {
+        heading: "Carpenter ants and the moisture-damaged wood connection",
+        body: "Lombard's mature tree canopy is an asset but also a source of carpenter ant pressure. Carpenter ants nest in soft, moisture-damaged wood and often have a two-part colony structure: a parent colony in moist outdoor wood (a dead tree, a moisture-soaked stump, a wood pile against the house) and satellite colonies in drier wood closer to food sources. In residential settings, this typically means an outdoor parent colony in a tree with internal decay or a stump, and satellite workers foraging into the kitchen or bathroom for moisture. Treating only the indoor foragers with spray does not address the parent colony. Finding and treating the outdoor colony, and eliminating the moisture source that makes indoor satellite nesting attractive, is the complete approach.",
+      },
+    ],
+    prevention: [
+      "Seal window frame gaps and utility penetrations in August, before stink bugs begin aggregating on south-facing walls in September.",
+      "Remove or relocate wood piles, lumber, and decaying tree stumps from the property perimeter to eliminate outdoor carpenter ant parent colony sites.",
+      "Seal foundation gaps and under-door gaps in late September before the mouse entry season begins.",
+      "Address standing water in retention pond areas and containers within the yard to reduce the summer mosquito season impact.",
+    ],
+    costNote:
+      "Pest control in Lombard is typically structured as a recurring quarterly plan with seasonal add-ons. Carpenter ant treatment includes a nest location assessment. Free inspections are available.",
+    faqs: [
+      {
+        question: "Do ornamental trees increase stink bug pressure in Lombard?",
+        answer:
+          "Yes. Brown marmorated stink bugs prefer fruit-bearing trees including ornamental pear, crabapple, and apple. Homes adjacent to or with these trees in the yard see stink bugs moving directly from feeding on fruit to aggregating on south-facing walls in September. Properties with no ornamental fruit trees nearby typically have lower stink bug wall pressure. Sealing entry points before September is the most effective preventive measure.",
+      },
+      {
+        question: "Why do carpenter ants keep returning after treatment?",
+        answer:
+          "Carpenter ant colonies have two components: an outdoor parent colony in moist wood and indoor satellite colonies near food and moisture. Treating indoor foragers without locating and treating the outdoor parent colony means the satellite colony is repopulated from the parent. The outdoor nest, typically in a decaying tree, stump, or wood pile, must be found and treated for control to last.",
+      },
+      {
+        question: "Are mosquitoes managed publicly in Lombard?",
+        answer:
+          "DuPage County Vector Control addresses mosquitoes in public waterways and public property, but private residential yards are outside their scope. The stormwater retention ponds in Lombard's residential areas are treated to the extent they are public features, but many are on private property or HOA land. Yard barrier spray programs and standing water elimination in private yards are the tools for residential mosquito management.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Wheaton", slug: "wheaton" },
+      { name: "Downers Grove", slug: "downers-grove" },
+      { name: "Addison", slug: "addison-il" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Lombard, IL | Stink Bugs, Carpenter Ants & Mice",
+    metaDescription:
+      "Lombard IL pest control for stink bugs near ornamental trees, carpenter ants in mature canopy, fall mice, and stormwater pond mosquitoes. Licensed DuPage County service.",
+  },
 ];

@@ -10971,4 +10971,320 @@ export const floridaCities: CityLocation[] = [
     metaTitle: "Pest Control in Navarre, FL | Santa Rosa County",
     metaDescription: "Navarre, FL pest control for termites, mosquitoes, fire ants, and cockroaches. Gulf Coast Santa Rosa County licensed service for beach and mainland properties.",
   },
+  {
+    slug: "lake-worth-beach-fl",
+    name: "Lake Worth Beach",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~40,000",
+    county: "Palm Beach County",
+    climate: "hot-humid",
+    climateDriver:
+      "Lake Worth Beach borders the Lake Worth Lagoon, a tidal Intracoastal Waterway feature that keeps the city in direct contact with salt-air humidity year-round. The lagoon, combined with Palm Beach County's subtropical climate, means termites and cockroaches never enter a true dormant period. Summer rain fills low-lying areas rapidly and mosquito populations build within days of any significant rainfall event.",
+    topPests: [
+      "Subterranean Termites",
+      "American Cockroaches",
+      "Mosquitoes",
+      "Ghost Ants",
+      "Fire Ants",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring through early summer, risk year-round",
+        note: "Palm Beach County is in Florida's highest-pressure termite zone. University of Florida IFAS Extension identifies the southeastern coastal strip as having sustained Formosan and Eastern subterranean termite populations. Older homes near the lagoon in Lake Worth Beach have elevated risk from the persistent moisture in their crawl spaces and slab perimeters.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "The lagoon-adjacent humidity and older mixed residential-commercial building stock in Lake Worth Beach creates ideal harborage for American cockroaches outdoors and German cockroaches inside restaurants and multifamily buildings. Both species move freely between structures in humid weather.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak June through October",
+        note: "The Lake Worth Lagoon's tidal margins and the stormwater infrastructure throughout the city create productive mosquito breeding habitat. Palm Beach County Mosquito Control treats public areas but residential yards require separate management.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are a tropical species with multiple queens per colony, common throughout South Florida's coastal cities. Standard repellent sprays fragment the colony without eliminating it. Slow-acting gel bait applied along foraging trails is the correct approach.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds peak after rain",
+        note: "Fire ants are present across Palm Beach County and build mounds rapidly after rain. They are a sting risk in all outdoor settings and rebuild treated mounds quickly if only individual mounds are addressed rather than the property-wide colony system.",
+      },
+    ],
+    localHook:
+      "Lake Worth Beach borders the Lake Worth Lagoon, a tidal Intracoastal Waterway feature that keeps humidity high year-round. Palm Beach County falls in Florida's highest-pressure termite zone according to University of Florida IFAS Extension, and the combination of tidal moisture, warm temperatures, and an older housing stock makes termite inspection a practical annual requirement for most homeowners here.",
+    intro:
+      "Three facts frame pest control in Lake Worth Beach: the city is in Palm Beach County's highest-pressure termite zone, the lagoon creates year-round mosquito habitat at the city's eastern edge, and year-round warmth means cockroaches, ghost ants, and fire ants have no meaningful dormant period. Most homeowners deal with at least two of these pressures simultaneously, and the treatment approach for each is different enough that bundling them under a single management plan is typically the most cost-effective path.",
+    sections: [
+      {
+        heading: "Termite and cockroach pressure near the lagoon",
+        body: "The tidal Lake Worth Lagoon keeps the eastern side of the city in sustained contact with salt-air humidity. Older slab-and-stucco homes in the blocks closest to the lagoon have soil and slab perimeters that stay moist year-round, which is exactly the condition subterranean termites need to maintain active tunneling. Formosan subterranean termites have been documented in Palm Beach County and require different treatment than Eastern subterranean termites because of their larger colony size and more aggressive foraging. American cockroaches are the dominant outdoor species and move indoors readily in wet weather. German cockroaches are the indoor commercial species and require targeted gel bait rather than perimeter spray.",
+      },
+      {
+        heading: "Ghost ants: a South Florida nuisance that requires the right bait",
+        body: "Ghost ants are nearly translucent, very small, and common throughout Lake Worth Beach's residential areas. The mistake most homeowners make is applying a repellent contact spray when they see a trail. This kills the visible ants but causes the supercolony to fragment: queens scatter to satellite nests and re-establish the colony in multiple new locations within days. The correct approach is slow-acting gel bait placed directly on the foraging trail, allowing worker ants to carry toxicant back to the queens. This takes longer to show results but eliminates the colony rather than displacing it.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection every 12 months given Palm Beach County's high-zone designation, especially for homes built before 1990.",
+      "Remove standing water from containers, plant trays, and gutters within 48 hours of rain to reduce the lagoon-area mosquito season impact.",
+      "Use slow-acting gel bait for ghost ant trails rather than repellent sprays, which fragment the colony.",
+      "Seal exterior utility penetrations and weatherstripping to reduce cockroach entry during humid weather.",
+    ],
+    costNote:
+      "General pest control in Lake Worth Beach is typically quoted as a recurring plan. Termite treatment is quoted separately after inspection and varies significantly by treatment method. Request a free inspection for an accurate estimate.",
+    faqs: [
+      {
+        question: "Is Lake Worth Beach in a high termite pressure area?",
+        answer:
+          "Yes. Palm Beach County is in Florida's highest-pressure termite zone according to University of Florida IFAS Extension. Both Eastern subterranean and Formosan subterranean termites are documented in the county. The proximity to the Lake Worth Lagoon keeps soil moisture elevated, which sustains termite activity year-round. Annual inspections are the standard practice for homeowners in this area.",
+      },
+      {
+        question: "Why do ghost ants keep coming back after I spray them?",
+        answer:
+          "Repellent sprays cause ghost ant supercolonies to fragment. The colony splits, queens move to satellite nests, and the ant trail re-establishes in a new location within days. Slow-acting gel bait placed directly on foraging trails is the effective approach: workers carry the toxicant back to queens and the colony is eliminated rather than displaced.",
+      },
+      {
+        question: "Are mosquitoes a year-round problem in Lake Worth Beach?",
+        answer:
+          "Mosquitoes are present year-round in South Florida but peak from June through October when rainfall fills standing water and tidal margins. The Lake Worth Lagoon and local stormwater infrastructure provide breeding habitat close to residential areas. Palm Beach County Mosquito Control handles public areas; private yard management requires a separate barrier treatment program.",
+      },
+      {
+        question: "What is the difference between American and German cockroaches?",
+        answer:
+          "American cockroaches (palmetto bugs) are large, about 1.5 inches, and primarily live outdoors under debris and in sewer systems. They enter homes through gaps but are not primarily indoor breeders. German cockroaches are small, about 0.5 inches, and breed exclusively indoors in warm, humid spots near food. They spread quickly in multifamily buildings and require targeted indoor bait treatment, not perimeter spray.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "West Palm Beach", slug: "west-palm-beach" },
+      { name: "Boynton Beach", slug: "boynton-beach" },
+      { name: "Delray Beach", slug: "delray-beach" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Lake Worth Beach, FL | Termites, Mosquitoes & Ghost Ants",
+    metaDescription:
+      "Lake Worth Beach FL pest control for subterranean termites near the lagoon, mosquitoes, ghost ants, palmetto bugs, and fire ants. Palm Beach County licensed service. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hallandale-beach-fl",
+    name: "Hallandale Beach",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~42,000",
+    county: "Broward County",
+    climate: "hot-humid",
+    climateDriver:
+      "Hallandale Beach straddles the Broward and Miami-Dade county line at the Atlantic coast, with the Intracoastal Waterway running through the center of the city. Tidal canals, marina infrastructure, and the Atlantic shoreline keep humidity at a constant high throughout the year. The city's dense mix of condominiums, older single-family homes, and commercial corridors creates diverse harborage for cockroaches and termites with no seasonal reset.",
+    topPests: [
+      "American Cockroaches",
+      "Subterranean Termites",
+      "Mosquitoes",
+      "Ghost Ants",
+      "Norway Rats",
+    ],
+    pestProfile: [
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Hallandale Beach's canal system and waterfront infrastructure create extensive outdoor cockroach habitat in seawall cracks, under docks, and in the moisture-rich soil around tidal features. The city's older multifamily housing stock gives cockroaches abundant indoor access through aging plumbing penetrations and weatherstripping.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring through summer, risk year-round",
+        note: "Broward County is in Florida's highest-pressure termite zone. Hallandale Beach's coastal moisture and the soil saturation near the Intracoastal Waterway provide ideal conditions for Eastern subterranean termite colony establishment and year-round foraging.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak June through October",
+        note: "The Intracoastal Waterway, canal network, and stormwater retention features throughout Hallandale Beach provide standing and slow-moving water for mosquito breeding. Broward County Mosquito Control treats public waterways; residential yard management requires a private barrier program.",
+      },
+      {
+        name: "Ghost ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round",
+        note: "Ghost ants are common in Hallandale Beach's subtropical coastal environment, forming supercolonies under mulch, along fence lines, and inside condominiums through wall penetrations. Standard contact sprays disperse rather than eliminate them.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are a persistent problem in Hallandale Beach's commercial and waterfront districts, particularly around the restaurant corridor and marina areas. They burrow in canal banks and enter structures through ground-level gaps, expanding into adjacent residential areas during harborage reduction on commercial properties.",
+      },
+    ],
+    localHook:
+      "Hallandale Beach's Intracoastal Waterway canal network provides year-round tidal standing water for mosquito breeding and keeps soil moisture high enough to sustain subterranean termite colonies at the base of exterior walls. Broward County is in Florida's highest-pressure termite zone, and the waterfront environment amplifies that baseline risk.",
+    intro:
+      "The pest picture in Hallandale Beach is driven by water. Tidal canals through the center of the city create mosquito habitat within blocks of every residence; the same canal-side moisture sustains subterranean termite colonies year-round; and the waterfront commercial corridor generates the organic waste that supports Norway rats and cockroaches in the restaurant and marina zones. All four pressures exist simultaneously, which is why most Hallandale Beach homeowners and property managers in the city use a year-round management plan rather than seasonal reactive treatment.",
+    sections: [
+      {
+        heading: "Rats and cockroaches in the commercial and waterfront corridor",
+        body: "The stretch of US-1 and the marina area in Hallandale Beach generates consistent Norway rat and cockroach pressure that radiates into residential streets. Rats burrow in the soft soil of canal banks and use utility conduits to move between blocks. When restaurants or commercial tenants reduce harborage through cleanouts or demolition, rats relocate to adjacent residential lots within days. American cockroaches follow the same pathways: sewer lines, stormwater drains, and the warm, moist space under pool decks adjacent to the canal system. Homeowners within two to three blocks of the commercial corridor should treat exterior perimeters proactively rather than waiting for an active interior infestation.",
+      },
+      {
+        heading: "The termite and moisture connection",
+        body: "Broward County's position in Florida's highest-pressure termite zone means subterranean termite pressure is the baseline for every property here. In Hallandale Beach specifically, the Intracoastal Waterway and tidal canals keep soil moisture elevated within a few blocks of each waterway. This matters because subterranean termites need sustained soil moisture to maintain their mud tube connections from the colony in the soil to wood above the foundation. Drier soil in the rainy season's absence slows termite foraging in most of Florida, but the tidal influence in Hallandale Beach means that reduction is minimal. Annual inspection is the standard of care; termite protection plans are standard practice for properties near canal-front or waterfront lots.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections; Broward County is in Florida's highest termite pressure zone and canal-side soil moisture keeps risk elevated year-round.",
+      "Eliminate standing water in containers and along canal edges within your property to reduce mosquito breeding sites near the waterway.",
+      "Secure garbage bins with tight lids and keep dumpster areas clean to reduce Norway rat attractants near the commercial corridor.",
+      "Seal gaps in plumbing penetrations and door weatherstripping to limit cockroach entry, particularly in older multifamily buildings.",
+    ],
+    costNote:
+      "Pest control in Hallandale Beach is typically structured as a recurring general plan, with termite treatment quoted separately after inspection. Rat exclusion work is quoted based on a structural assessment. Free inspections are available.",
+    faqs: [
+      {
+        question: "Why are termites such a concern near the canals in Hallandale Beach?",
+        answer:
+          "Subterranean termites require sustained soil moisture to maintain the mud tubes they use to travel from their underground colony to wood in structures. The tidal canals and Intracoastal Waterway throughout Hallandale Beach keep soil moisture high year-round, which eliminates the dry-season slow-down that reduces termite activity in drier parts of Florida. Broward County is already in Florida's highest-pressure termite zone; the waterfront location amplifies that further.",
+      },
+      {
+        question: "Are Norway rats a significant problem in Hallandale Beach?",
+        answer:
+          "Yes, particularly in the commercial and marina zones. Norway rats burrow in canal banks and use utility conduits and sewer lines to move between properties. When nearby commercial properties do cleanouts or construction, rats relocate quickly to adjacent residential areas. Properties within a few blocks of the US-1 corridor and the marina benefit from proactive exclusion work rather than waiting for an active interior infestation.",
+      },
+      {
+        question: "Is year-round pest control necessary in Hallandale Beach?",
+        answer:
+          "For most properties, yes. Cockroaches, termites, ghost ants, and fire ants have no dormant period in South Florida's subtropical climate. Mosquitoes peak in the wet season but breed year-round near tidal water. A continuous management plan with seasonal adjustments is more cost-effective than reactive treatment for each species as they appear.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Hollywood", slug: "hollywood" },
+      { name: "Aventura", slug: "aventura" },
+      { name: "Dania Beach", slug: "dania-beach" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Hallandale Beach, FL | Cockroaches, Termites & Rats",
+    metaDescription:
+      "Hallandale Beach FL pest control for canal-side termites, palmetto bugs, Norway rats near the waterfront, mosquitoes, and ghost ants. Licensed Broward County service. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "temple-terrace-fl",
+    name: "Temple Terrace",
+    state: "Florida",
+    stateSlug: "florida",
+    stateAbbr: "FL",
+    tier: "T3",
+    population: "~26,500",
+    county: "Hillsborough County",
+    climate: "hot-humid",
+    climateDriver:
+      "Temple Terrace is an enclave city completely surrounded by Tampa and Hillsborough County, sited on the east bank of the Hillsborough River. The river corridor creates a ribbon of wetland habitat through the western edge of the city, sustaining mosquito populations and keeping soil moisture elevated near structures close to the riverbank. The dense oak and magnolia tree canopy that gives Temple Terrace its character also creates continuous dead-wood termite harborage throughout residential lots.",
+    topPests: [
+      "Subterranean Termites",
+      "Mosquitoes",
+      "American Cockroaches",
+      "Fire Ants",
+      "Roof Rats",
+    ],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring through early summer, foraging year-round",
+        note: "Hillsborough County is in Florida's highest-pressure termite zone. Temple Terrace's mature tree canopy includes many large oaks whose root systems and dead wood create above-ground termite feeding sites that connect directly to colonies in the soil. University of Florida IFAS Extension recommends annual termite inspections as a baseline for all Hillsborough County homeowners.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Year-round, peak June through September",
+        note: "The Hillsborough River corridor and the city's riparian buffer along the river create concentrated mosquito breeding habitat at the western edge of the city. The river is also within the range of the established Aedes albopictus (Asian tiger mosquito) population in Hillsborough County, which breeds in very small water containers throughout residential yards.",
+      },
+      {
+        name: "American cockroaches (palmetto bugs)",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches thrive in the humid, tree-canopy-shaded environment of Temple Terrace, breeding under leaf litter and in the moist soil near the riverbank. They enter homes through exterior gaps, particularly around older AC units and utility penetrations common in the city's 1950s-1970s housing stock.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, mounds rebuild rapidly after rain",
+        note: "Fire ants are established throughout Hillsborough County and are a consistent presence in Temple Terrace's residential lots and parks. Mounds often appear along irrigated lawn margins and rebuild within weeks of individual mound treatments without a property-wide colony management approach.",
+      },
+      {
+        name: "Roof rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, highest interior pressure in cooler months",
+        note: "Roof rats (black rats) are the dominant rat species in Tampa-area communities including Temple Terrace. The dense tree canopy provides overhead travel routes between trees and rooflines. Roof rats enter through gaps at the roofline, around AC lines, and through soffit damage, and are a particular issue in the older homes with original attic insulation that provides nesting material.",
+      },
+    ],
+    localHook:
+      "Temple Terrace is built around the Hillsborough River and is known for one of the densest urban tree canopies in the Tampa metro. That tree canopy is also one of the reasons the city has elevated termite pressure: the mature oaks provide dead wood feeding sites connected directly to colonies in the soil, and the overhead branches give roof rats a travel network across rooflines throughout the city.",
+    intro:
+      "Pest control in Temple Terrace is shaped by the Hillsborough River to the west and the mature oak and magnolia canopy throughout the city. The river corridor creates mosquito habitat at the city's edge; the same tree canopy that makes the neighborhoods attractive also sustains subterranean termite colonies, roof rat travel routes, and the moisture that keeps American cockroaches active outdoors year-round. Hillsborough County is in Florida's highest-pressure termite zone, and annual inspections are the standard of care here.",
+    sections: [
+      {
+        heading: "Roof rats and the tree canopy connection",
+        body: "Temple Terrace's old growth tree canopy, particularly the large live oaks overhanging residential streets and backyards, creates a continuous above-ground highway for roof rats. Roof rats are accomplished climbers and use tree branches to access rooflines, then enter homes through gaps in soffits, around AC line penetrations, and through damaged fascia boards. Once inside, they nest in attic insulation and can cause significant electrical wiring damage. The problem is that as long as the canopy provides travel routes, exclusion work must be extremely thorough: a single overlooked gap at a tree-adjacent roofline is enough for re-entry. An assessment of all roofline penetrations is the starting point.",
+      },
+      {
+        heading: "River-corridor mosquito management",
+        body: "The Hillsborough River's riparian buffer along Temple Terrace's western edge creates a mosquito population that peaks during the June through September wet season but persists year-round due to the river's consistent water level. Two mosquito species are particularly relevant: Culex quinquefasciatus, the southern house mosquito active at dusk and dawn and capable of transmitting West Nile virus, and Aedes albopictus (Asian tiger mosquito), a daytime biter that breeds in very small water volumes including bottle caps and plant saucers. Managing both requires standing water elimination and barrier treatment of resting vegetation.",
+      },
+    ],
+    prevention: [
+      "Have annual termite inspections; Hillsborough County is in Florida's highest termite pressure zone and the city's mature tree canopy creates above-ground feeding sites.",
+      "Trim tree branches away from the roofline by at least six feet to remove roof rat travel routes from trees to your home.",
+      "Eliminate small water containers including plant saucers, bottle caps, and clogged gutters to reduce Asian tiger mosquito breeding in the yard.",
+      "Seal soffit and fascia gaps before fall to prevent roof rats from establishing attic nesting sites in cooler months.",
+    ],
+    costNote:
+      "Pest control in Temple Terrace is typically a recurring general plan. Roof rat exclusion is quoted after a structural assessment. Termite treatment is quoted separately after inspection. Free assessments are available.",
+    faqs: [
+      {
+        question: "Why do roof rats enter homes in Temple Terrace specifically?",
+        answer:
+          "Temple Terrace's dense urban tree canopy gives roof rats (black rats) direct overhead access to rooflines from adjacent trees. Roof rats are skilled climbers and prefer elevated travel routes. Once they reach the roofline, gaps around AC line penetrations, soffit damage, and open fascia board joints are common entry points. The older housing stock in Temple Terrace has more of these gaps than newer construction. Trimming branches at least six feet from the roofline removes the primary access route.",
+      },
+      {
+        question: "Is the Hillsborough River a significant source of mosquitoes for Temple Terrace residents?",
+        answer:
+          "Yes. The riparian buffer along the river's eastern bank runs directly along Temple Terrace's western edge and provides standing and slow-moving water year-round. The wet season from June through September amplifies this significantly. Both evening-biting Culex mosquitoes and daytime-biting Asian tiger mosquitoes are present. Residents within a few blocks of the river benefit most from barrier spray programs and strict container elimination.",
+      },
+      {
+        question: "How often should I schedule termite inspections in Temple Terrace?",
+        answer:
+          "Annually. Hillsborough County is in Florida's highest termite pressure zone per University of Florida IFAS Extension. Temple Terrace's mature oak canopy adds to the baseline risk by providing dead wood feeding sites that connect directly to soil-level colonies. Annual inspections allow early detection before structural damage reaches the point of costly remediation.",
+      },
+      {
+        question: "Are fire ants a year-round problem in Temple Terrace?",
+        answer:
+          "Yes. Temple Terrace's warm climate means fire ants have no dormant period. Mounds appear throughout lawns and landscaping and rebuild rapidly after rain. Individual mound treatment addresses immediate sting risk but does not reduce the colony population on the property. A property-wide broadcast treatment reaches foraging workers and reduces the overall colony system.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Tampa", slug: "tampa" },
+      { name: "Plant City", slug: "plant-city" },
+      { name: "Seffner", slug: "brandon" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Temple Terrace, FL | Termites, Roof Rats & Mosquitoes",
+    metaDescription:
+      "Temple Terrace FL pest control for subterranean termites, roof rats in the oak canopy, Hillsborough River mosquitoes, fire ants, and palmetto bugs. Licensed Hillsborough County service.",
+  },
 ];

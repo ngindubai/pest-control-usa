@@ -8799,4 +8799,177 @@ export const michiganCities: CityLocation[] = [
     metaDescription:
       "West Bloomfield MI pest control for carpenter ants, stink bugs, yellow jackets, and mice on wooded lake lots. Licensed Oakland County applicator. Free inspection.",
   },
+  {
+    slug: "eastpointe-mi",
+    name: "Eastpointe",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: 32442,
+    county: "Macomb",
+    climate: "cold-humid",
+    climateDriver: "Great Lakes influenced cold-humid climate with cold, snowy winters and warm, humid summers. Eastpointe is a dense inner-ring suburb immediately north of Detroit with aging 1950s-1960s housing stock and a high density of mature trees.",
+    topPests: ["mice", "cockroaches", "rats", "stink bugs"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "rodents",
+        activeSeason: "year-round, peak fall and winter",
+        note: "Dense housing stock and older foundations create multiple entry points; house mice are the dominant structure pest in Eastpointe.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroaches",
+        activeSeason: "year-round",
+        note: "German cockroaches are the primary cockroach species in Eastpointe's multi-family and mixed-use buildings; individual unit treatment rarely succeeds without coordinated building-wide control.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rodents",
+        activeSeason: "year-round",
+        note: "Norway rats are present in sewer-connected older neighborhoods and along alley corridors; Eastpointe's aging infrastructure creates harborage and entry opportunities.",
+      },
+      {
+        name: "Stink Bugs",
+        activeSeason: "fall and winter",
+        note: "Brown marmorated stink bugs overwinter in wall voids and attics; inner-ring suburb status means lower populations than exurban areas but still a nuisance in fall.",
+      },
+    ],
+    localHook: "Eastpointe was formerly known as East Detroit, and its identity as a dense first-ring suburb with a large stock of postwar housing shapes its pest profile entirely. Aging foundations, aging plumbing, and the density of attached and semi-attached housing mean that mice and cockroaches can move laterally between units and homes with little barrier. Pest control here requires thinking at the block level, not just the property level.",
+    intro: "Eastpointe pest control is dominated by mice and German cockroaches in aging postwar housing, with Norway rats adding pressure in blocks with older sewer infrastructure. The density of the housing stock means infestations often cross property lines, and coordinated treatment with neighbors or building management is more effective than single-unit treatment. Stink bugs are a seasonal nuisance in fall.",
+    sections: [
+      {
+        heading: "Mice and Rats in Eastpointe's Postwar Housing",
+        body: "Eastpointe's housing stock dates primarily from the 1950s and 1960s, and decades of settling have opened gaps in foundations, sill plates, and utility entry points that house mice exploit readily. A mouse can fit through a gap the size of a dime, and older homes typically have dozens of potential entry points. Norway rats are present in older blocks with combined sewer infrastructure, using the sewer lines for travel and entering structures where sewer connections have deteriorated. A comprehensive rodent program in Eastpointe includes both interior baiting and exterior exclusion, plus a sewer inspection recommendation for blocks with consistent rat activity.",
+      },
+      {
+        heading: "German Cockroaches in Multi-Family Buildings",
+        body: "German cockroaches are the dominant cockroach species in Eastpointe, and they spread readily through shared walls, plumbing chases, and electrical conduit in attached housing. A German cockroach infestation in one unit of a duplex or apartment building cannot be controlled by treating only that unit. The population will redistribute to neighboring units and return. Effective control requires coordinated treatment of all units in the structure, targeted gel bait placement, and sanitation improvements. If you are renting, a licensed pest control provider can document the scope for a landlord communication.",
+      },
+      {
+        heading: "Stink Bug Overwintering",
+        body: "Brown marmorated stink bugs enter Eastpointe homes in fall seeking overwintering sites in wall voids and attic spaces. While Eastpointe's urban setting produces lower stink bug populations than the suburban and rural fringe, the species is well established in Macomb County and nuisance numbers are common in older homes with many wall gaps. Sealing exterior cracks before mid-October and using a vacuum to remove overwintering individuals inside is the standard approach. A licensed applicator can treat the exterior perimeter to reduce entry.",
+      },
+    ],
+    prevention: [
+      "Seal all foundation gaps, utility penetrations, and sill plate gaps with steel wool and caulk before fall.",
+      "Keep kitchen and bathroom areas clean and dry to reduce cockroach food and moisture sources.",
+      "Store food in sealed containers and eliminate cardboard clutter where cockroaches harbor.",
+      "Coordinate with neighbors or building management for cockroach and rodent programs in attached housing.",
+      "Check window and door seals annually and replace worn weatherstripping.",
+    ],
+    costNote: "Mouse exclusion and baiting in Eastpointe typically runs $180 to $350 for an initial program. German cockroach treatment in a single unit ranges from $150 to $280; whole-building programs are quoted by unit count. Rat control with exterior baiting runs $220 to $400. Pricing depends on infestation severity.",
+    faqs: [
+      {
+        question: "Why do I keep getting mice in my Eastpointe home even after setting traps?",
+        answer: "Trapping reduces the population inside the structure but does not stop new mice from entering through unaddressed gaps. In Eastpointe's older housing, there are often multiple entry points in the foundation, around utility pipes, and at the sill plate that allow continuous re-entry. A licensed applicator will perform an exclusion inspection to identify and seal these points. Trapping without exclusion is a repeating cycle.",
+      },
+      {
+        question: "Can German cockroaches spread from my neighbor's unit into mine?",
+        answer: "Yes. German cockroaches move readily through shared walls via plumbing chases, electrical conduit, and wall voids. In attached housing, a heavy infestation in one unit can sustain populations in adjacent units even after treatment. This is why coordinated building-wide treatment is more effective than single-unit treatment. If your neighbor refuses to treat, document the shared-wall situation and contact your local health department for guidance.",
+      },
+      {
+        question: "Are Norway rats in Eastpointe connected to the sewer system?",
+        answer: "Norway rats frequently use sewer systems for travel and harborage, particularly in older combined sewer infrastructure common in first-ring Detroit suburbs. Blocks with consistent exterior rat activity near sewer access points benefit from a sewer line camera inspection to identify broken or deteriorated connections where rats enter. Your municipality may offer inspections; a pest control professional can coordinate the referral.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Warren", slug: "warren-mi" },
+      { name: "Roseville", slug: "roseville-mi" },
+      { name: "St. Clair Shores", slug: "st-clair-shores-mi" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Eastpointe, MI | Macomb County",
+    metaDescription: "Eastpointe, MI pest control for mice and rats in aging postwar homes, German cockroaches in multi-family housing, and stink bugs. Licensed Macomb County service.",
+  },
+  {
+    slug: "inkster-mi",
+    name: "Inkster",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: 24062,
+    county: "Wayne",
+    climate: "cold-humid",
+    climateDriver: "Great Lakes influenced cold-humid climate with cold winters and warm, humid summers. Inkster is a Wayne County inner-ring suburb west of Detroit with a dense stock of 1940s-1960s homes and a flat topography that creates drainage challenges and persistent moisture conditions.",
+    topPests: ["mice", "cockroaches", "rats", "carpenter ants"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "rodents",
+        activeSeason: "year-round, peak fall and winter",
+        note: "Aging housing foundations with gaps provide easy mouse entry; house mice are the most reported pest in Inkster.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroaches",
+        activeSeason: "year-round",
+        note: "Cockroach populations in older multi-family buildings require coordinated building-wide treatment; single-unit control is rarely sufficient.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rodents",
+        activeSeason: "year-round",
+        note: "Norway rats use alley corridors and aging sewer infrastructure for movement; exterior harborage reduction and exclusion are the primary controls.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "carpenter-ants",
+        activeSeason: "spring through fall",
+        note: "Mature street trees and moisture accumulation in aging wood-frame structures support outdoor carpenter ant colonies that forage into homes.",
+      },
+    ],
+    localHook: "Inkster's housing stock is among the oldest in Wayne County, with many homes built between the 1940s and 1960s. That age means more structural gaps, more moisture-damaged wood, more deteriorated sewer connections, and more opportunities for rodents and cockroaches to establish. The pest picture here is a direct reflection of deferred housing maintenance at the neighborhood scale.",
+    intro: "Inkster pest control centers on the rodent and cockroach pressure that comes with aging 1940s-1960s housing and the infrastructure challenges common to older Wayne County communities. Mice and Norway rats are year-round concerns; German cockroaches are persistent in multi-family buildings. Carpenter ants add to the spring and summer pest load, foraging in from mature street trees and moisture-damaged exterior wood.",
+    sections: [
+      {
+        heading: "Rodents in Inkster's Aging Housing Stock",
+        body: "Inkster homes built in the 1940s and 1950s often have foundation cracks, deteriorated sill plates, and utility entry gaps that have widened over decades. House mice exploit these openings readily and establish nesting areas in wall voids, behind appliances, and under cabinets. Norway rats are present throughout the community, using alley infrastructure and sewer connections for travel. Effective rodent control in Inkster combines interior trapping with a thorough exterior exclusion, sealing all gaps at the foundation level. Exterior bait stations managed by a licensed applicator address the Norway rat population in the yard and alley.",
+      },
+      {
+        heading: "Cockroaches in Multi-Family Buildings",
+        body: "German cockroaches are established in a portion of Inkster's multi-family housing, and the species behavior of moving through shared infrastructure makes whole-building treatment the only reliable approach. A single-unit treatment in a four-plex or apartment building typically fails because the population redistributes to untreated adjacent units and returns within weeks. Licensed applicators familiar with the local housing stock will typically recommend gel bait programs over spray treatments, as gel bait is more targeted and requires less resident preparation. Sanitation improvements, particularly eliminating food debris and moisture sources under sinks, support the treatment program.",
+      },
+      {
+        heading: "Carpenter Ants and Spring Pest Season",
+        body: "Inkster's mature tree canopy and the moisture retention in aging wood-frame homes create seasonal carpenter ant pressure each spring. Forager ants from outdoor colonies enter through gaps around window frames, utility penetrations, and wood-to-soil contact at porches and steps. Finding the satellite colony inside the structure is the critical step in treatment; applying perimeter spray without locating the colony provides only temporary reduction. A licensed applicator will inspect the attic, crawlspace, and basement rim joist area to locate and treat satellite colonies before addressing the exterior.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks and gaps around utility pipes with hydraulic cement or caulk annually.",
+      "Eliminate standing water in the yard and fix any grading that directs water toward the foundation.",
+      "Keep a clean, dry kitchen with food stored in sealed containers to reduce cockroach habitat.",
+      "Trim tree branches away from the roofline to reduce carpenter ant travel routes.",
+      "Maintain working gutters and downspouts to move roof water away from the foundation.",
+    ],
+    costNote: "Mouse and rat control in Inkster runs $180 to $380 for an initial exclusion and baiting program. Cockroach treatment in a single unit ranges from $140 to $260; building-wide programs are quoted per unit. Carpenter ant treatment averages $150 to $280. Pricing varies by infestation severity and structure size.",
+    faqs: [
+      {
+        question: "What is the fastest way to stop mice from getting into my Inkster home?",
+        answer: "The fastest lasting solution is exclusion: identifying and sealing every gap and crack at the foundation, around utility pipes, and at the sill plate. Traps catch mice already inside but do not prevent new entry. A licensed applicator will perform a systematic inspection and seal entry points using materials mice cannot chew through, such as steel wool and hardware cloth. Expect to spend a few hours on a thorough initial inspection for an older Inkster home.",
+      },
+      {
+        question: "Are German cockroaches in Inkster resistant to over-the-counter sprays?",
+        answer: "German cockroach populations in older urban areas of Michigan, including Inkster, show high resistance to many pyrethroid sprays commonly sold over the counter. This resistance developed over decades of repeated exposure to the same chemical class. Gel baits use a different mode of action and are significantly more effective against resistant populations. A licensed applicator will use professional-grade baits and rotate the chemistry to prevent further resistance development.",
+      },
+      {
+        question: "Is carpenter ant damage common in Inkster homes?",
+        answer: "Yes, carpenter ant structural damage is a real concern in Inkster homes, particularly those with any history of roof leaks, plumbing leaks, or poor drainage against the foundation. Carpenter ants target wood already softened by moisture and can excavate extensive galleries over several years before being discovered. The damage is often found in rim joist areas, window sills, and sections of subfloor affected by past water intrusion. Annual inspections in the spring are the best early detection strategy.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Dearborn Heights", slug: "dearborn-heights-mi" },
+      { name: "Garden City", slug: "garden-city-mi" },
+      { name: "Westland", slug: "westland-mi" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Inkster, MI | Wayne County",
+    metaDescription: "Inkster, MI pest control for mice and rats in aging 1940s-1960s homes, German cockroaches, and carpenter ants. Licensed Wayne County service.",
+  },
 ];

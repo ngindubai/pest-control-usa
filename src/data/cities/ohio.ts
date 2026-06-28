@@ -12274,5 +12274,177 @@ export const ohioCities: CityLocation[] = [
     contentSoul: "qa",
     metaTitle: "Pest Control in Springdale, OH | Hamilton County",
     metaDescription: "Springdale, OH pest control for cockroaches, mice, termites, and stink bugs. Licensed Hamilton County service near Princeton Pike commercial corridor.",
-  }
+  },
+  {
+    slug: "upper-arlington-oh",
+    name: "Upper Arlington",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: 35307,
+    county: "Franklin",
+    climate: "cold-humid",
+    climateDriver: "Humid continental climate with cold winters and warm, humid summers. Upper Arlington is an affluent Columbus suburb with a mature tree canopy from decades of established residential development, creating conditions that support carpenter ants, stink bugs, and termites in the older housing stock.",
+    topPests: ["stink bugs", "carpenter ants", "mice", "termites"],
+    pestProfile: [
+      {
+        name: "Stink Bugs",
+        activeSeason: "fall and winter",
+        note: "Brown marmorated stink bugs are well established in Franklin County; Upper Arlington's mature suburban landscape supports high populations that overwinter in older home wall voids.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "carpenter-ants",
+        activeSeason: "spring through fall",
+        note: "The mature tree canopy throughout Upper Arlington sustains large outdoor carpenter ant colonies; older homes with any moisture history are at increased risk for satellite colonies inside walls.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "rodents",
+        activeSeason: "year-round, peak fall and winter",
+        note: "Mice enter homes in fall and winter; Upper Arlington's older homes built in the 1950s-1970s have foundation details that require more thorough exclusion work.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termites",
+        activeSeason: "spring swarm, year-round colony activity",
+        note: "Eastern subterranean termites are present throughout Franklin County; older Upper Arlington homes built on concrete block foundations warrant regular termite inspections.",
+      },
+    ],
+    localHook: "Upper Arlington is one of Columbus's oldest and most established suburbs, developed primarily from the 1920s through the 1970s with large lots, mature trees, and homes now carrying 50 to 100 years of history. That age and the tree canopy make it one of central Ohio's more active areas for carpenter ants and stink bugs, while the foundation ages on many homes mean termite inspections are a practical necessity, not a precaution.",
+    intro: "Upper Arlington pest control is shaped by the community's mature residential landscape and the age of its housing stock. Stink bugs are a significant fall nuisance. Carpenter ants from the dense tree canopy forage into older homes with any moisture history. Mice are a cold-season concern in homes built before the 1980s. And eastern subterranean termites are a real structural risk in the older foundation types common throughout the city.",
+    sections: [
+      {
+        heading: "Carpenter Ants in the Tree Canopy Suburbs",
+        body: "Upper Arlington's defining feature as a suburb is its enormous mature tree canopy, and that canopy sustains large outdoor carpenter ant populations. Dead limbs, old stumps, and mulched landscape beds adjacent to foundations are the most common colony sites. Forager ants move from these outdoor colonies into homes through gaps around window frames, utility penetrations, and any wood-to-soil contact. Satellite colonies establish inside walls where moisture has softened wood, often from historic roof leaks, plumbing leaks, or poor flashing. Finding and treating the satellite colony, not just the exterior perimeter, is essential for lasting control. A licensed applicator will inspect the attic, crawlspace, and exterior perimeter before designing a treatment plan.",
+      },
+      {
+        heading: "Termites and Stink Bugs in Older Homes",
+        body: "Eastern subterranean termites are established throughout Franklin County and are a particular concern in Upper Arlington's older homes, especially those with concrete block foundations, wood floor systems close to soil grade, or any history of moisture in the crawlspace or basement. Termite swarms typically occur in late March and April. If you see winged termites near windows or in the basement, that is a significant indicator. Annual termite inspections are practical standard practice for any Upper Arlington home built before 1980. Brown marmorated stink bugs are the other major fall concern. The species has high populations in Franklin County, and Upper Arlington's mature landscape with abundant overwintering sites drives nuisance numbers in older homes with more exterior gaps.",
+      },
+      {
+        heading: "Mouse Prevention in Postwar Construction",
+        body: "Many Upper Arlington homes were built in the 1950s and 1960s, when construction standards were different from today's tight building envelopes. Settling over decades has also opened small gaps in many foundations. House mice exploit these gaps in fall when temperatures drop. A pre-fall inspection targeting the foundation, garage door seals, utility entries, and sill plate areas reduces entry significantly. Interior trapping addresses mice already inside. A licensed applicator can perform a systematic exclusion inspection that identifies specific entry points rather than relying on perimeter chemical treatment, which is less effective for mice than physical exclusion.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for any Upper Arlington home built before 1980.",
+      "Remove dead stumps, old wood piles, and excess mulch adjacent to the foundation to reduce carpenter ant habitat.",
+      "Seal exterior gaps before September to reduce stink bug and mouse entry.",
+      "Ensure crawlspace humidity stays below 50% to reduce both carpenter ant and termite risk.",
+      "Replace any wood-to-soil contact in landscaping or steps with concrete or composite materials.",
+    ],
+    costNote: "Carpenter ant treatment in Upper Arlington runs $160 to $300 depending on colony access. Termite inspection is typically free to $75; treatment quotes depend on foundation type and infestation extent and generally range from $800 to $2,500. Mouse exclusion and baiting programs run $180 to $360. Stink bug perimeter treatment averages $150 to $260.",
+    faqs: [
+      {
+        question: "How can I tell if I have a carpenter ant satellite colony inside my Upper Arlington home?",
+        answer: "Signs of an interior satellite colony include finding large black ants inside the home from late winter onward when ants should not be active outdoors, sawdust-like frass appearing in basements or crawlspaces, and occasionally hearing a faint rustling sound inside walls during the night. Satellite colonies are common in areas with past or ongoing moisture issues, including around plumbing, in rim joists, and below skylights. A licensed applicator can probe suspect areas and use non-destructive inspection techniques to locate the colony.",
+      },
+      {
+        question: "Are Upper Arlington homes at higher termite risk than newer Columbus suburbs?",
+        answer: "Older homes carry higher termite risk for two reasons: the foundation types common in 1950s-1970s construction, particularly concrete block, have more penetrations and joints than modern poured foundations; and decades of settling have created soil-to-wood proximity that did not exist when the homes were new. Additionally, any home with a history of crawlspace moisture or past plumbing leaks has wood that is more vulnerable to termite damage. Upper Arlington's age profile places a significant portion of its housing stock in the higher-risk category. Annual inspections are a reasonable standard of care.",
+      },
+      {
+        question: "What is the best way to handle stink bugs in my Upper Arlington home without calling a professional?",
+        answer: "The most effective DIY approach for stink bugs is prevention: seal all cracks, gaps around utility penetrations, and window and door frames before mid-October, before the fall aggregation begins. Once inside, use a vacuum to collect and remove them without crushing them (which releases the odor). A stiff-edged plastic bag over the vacuum nozzle allows you to tie it off and discard without releasing the smell. DIY chemical treatments are generally less effective than professional exterior perimeter applications using residual products. If you have large numbers entering each fall, a professional exterior treatment in early September provides meaningful reduction.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Columbus", slug: "columbus-oh" },
+      { name: "Hilliard", slug: "hilliard-oh" },
+      { name: "Dublin", slug: "dublin-oh" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Upper Arlington, OH | Franklin County",
+    metaDescription: "Upper Arlington, OH pest control for carpenter ants in the mature tree canopy suburb, termites in older homes, stink bugs, and mice. Licensed Franklin County service.",
+  },
+  {
+    slug: "defiance-oh",
+    name: "Defiance",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: 17297,
+    county: "Defiance",
+    climate: "cold-humid",
+    climateDriver: "Humid continental climate with cold, snowy winters and warm, humid summers. Defiance sits at the confluence of the Maumee and Auglaize Rivers in northwest Ohio, creating localized humidity, riparian pest habitat, and significant mosquito and rodent pressure from the river corridors.",
+    topPests: ["mosquitoes", "mice", "termites", "carpenter ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquitoes",
+        activeSeason: "late spring through early fall",
+        note: "The Maumee and Auglaize river confluence creates extensive riparian habitat; flood-prone low areas near the rivers sustain seasonal mosquito populations throughout the summer.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "rodents",
+        activeSeason: "year-round, peak fall and winter",
+        note: "River corridor rodent populations and surrounding agricultural fields drive consistent mouse pressure into Defiance structures in fall.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termites",
+        activeSeason: "spring swarm, year-round colony activity",
+        note: "Eastern subterranean termites are active in northwest Ohio; Defiance's river proximity and the moisture levels in older neighborhoods increase structural risk.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "carpenter-ants",
+        activeSeason: "spring through fall",
+        note: "Mature trees in established neighborhoods and along the river corridors sustain carpenter ant populations that forage into older homes.",
+      },
+    ],
+    localHook: "Defiance is built at the confluence of two rivers, and that geography defines its pest calendar. The Maumee-Auglaize confluence creates mosquito breeding habitat that affects the whole city from late May through September. The river corridors bring rodents toward residential areas each fall. And the moisture and mature trees in older neighborhoods make carpenter ants and termites ongoing structural concerns.",
+    intro: "Defiance pest control starts with the rivers. The Maumee and Auglaize confluence drives mosquito populations from late spring through early fall, and river corridor habitat sustains year-round rodent pressure that peaks when agricultural displacement begins in fall. Carpenter ants are active in spring and summer in the mature residential neighborhoods. Termites are a structural risk in the older housing stock near the river.",
+    sections: [
+      {
+        heading: "Mosquitoes from the Maumee-Auglaize Confluence",
+        body: "The confluence of the Maumee and Auglaize Rivers at Defiance creates extensive standing and slow-moving water habitat that generates mosquito breeding conditions from late May through August. Flood events deposit water in low-lying residential areas that becomes mosquito breeding habitat as it recedes. Properties within a half mile of the river corridors see higher seasonal mosquito pressure than properties farther from the water. Yard barrier spray treatments targeting resting vegetation reduce adult populations effectively. Eliminating any standing water on the property, including in gutters, low spots, and containers, reduces breeding on-site. A licensed applicator can assess the pressure level at your specific location and recommend a treatment frequency.",
+      },
+      {
+        heading: "Rodents and the River Corridor",
+        body: "The Maumee and Auglaize corridors provide year-round rodent habitat, and properties near the river and its adjacent industrial and commercial areas see elevated mouse and rat pressure. Agricultural displacement from surrounding northwest Ohio farmland adds to fall rodent movement into structures. House mice are the primary indoor pest; Norway rats are more common near commercial and industrial waterfront areas. Fall rodent exclusion, sealing all foundation gaps and utility entry points before late September, is the most effective prevention. Interior trapping addresses the population already inside. Exterior bait stations on a managed program address the Norway rat population in the yard and alley.",
+      },
+      {
+        heading: "Termites and Carpenter Ants in Riverside Neighborhoods",
+        body: "The combination of river proximity, historic flood events, and older housing stock in Defiance's established neighborhoods creates elevated termite and carpenter ant risk. Eastern subterranean termites exploit the moisture that comes with river-adjacent soil and any wood that has sustained water damage from flooding or plumbing issues. Annual termite inspections for homes built before 1980 are recommended in Defiance. Carpenter ants are established in the mature trees along Riverside Drive and in the older residential areas. Satellite colonies inside walls are common in homes with any history of moisture intrusion. Treatment requires locating and addressing the indoor satellite colony, not just exterior perimeter spraying.",
+      },
+    ],
+    prevention: [
+      "Eliminate all standing water sources after rain events to reduce mosquito breeding near the rivers.",
+      "Complete rodent exclusion work before late September to stay ahead of fall displacement.",
+      "Schedule an annual termite inspection for any Defiance home built before 1985, particularly in river-adjacent neighborhoods.",
+      "Keep wood piles and brush away from the home's foundation to reduce carpenter ant and rodent harborage.",
+      "Maintain proper grading around the foundation to direct water away from the structure.",
+    ],
+    costNote: "Mosquito barrier spray in Defiance runs $100 to $190 per application. Mouse exclusion and baiting programs start at $170 to $320. Termite inspections are typically free to $75; treatment ranges from $800 to $2,200 depending on foundation type and infestation extent. Carpenter ant treatment averages $150 to $270.",
+    faqs: [
+      {
+        question: "How long does mosquito season typically last in Defiance, Ohio?",
+        answer: "Mosquito season in Defiance typically runs from late May through early September, with peak pressure in June and July when temperatures are consistently warm and standing water from spring rains remains. The Maumee-Auglaize confluence creates a longer mosquito season than inland Ohio cities because the riparian habitat produces breeding populations more consistently. Dry summers shorten the season; wet summers extend it. Barrier treatments every three to four weeks through the peak season maintain effective adult population reduction.",
+      },
+      {
+        question: "Should I worry about termites in my Defiance home near the river?",
+        answer: "River-adjacent homes in Defiance carry above-average termite risk because eastern subterranean termites prefer moist soil conditions, which are consistently present near the Maumee and Auglaize. Any home with a history of flooding or water intrusion, especially in the crawlspace or basement, has further elevated risk because flood events can leave wood moisture-damaged and more vulnerable. A licensed termite inspector can assess your specific foundation type and soil conditions. For homes near the river built before 1980, annual inspections are a practical standard of care rather than an optional precaution.",
+      },
+      {
+        question: "Are the mosquitoes near the Defiance rivers a disease risk?",
+        answer: "West Nile virus is the primary mosquito-borne disease risk in northwest Ohio, including the Defiance area. The Culex mosquito species that carry West Nile are abundant in the Maumee basin. Encephalitis viruses also circulate in the region at low levels. The risk of contracting West Nile is low for most healthy individuals but is elevated for older adults and people with compromised immune systems. Reducing the mosquito population on your property through yard treatments and eliminating breeding sources is a practical risk-reduction measure.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Findlay", slug: "findlay-oh" },
+      { name: "Bowling Green", slug: "bowling-green-oh" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Defiance, OH | Maumee River Confluence",
+    metaDescription: "Defiance, OH pest control for mosquitoes from the Maumee-Auglaize confluence, mice, termites in older homes, and carpenter ants. Licensed northwest Ohio service.",
+  },
 ];

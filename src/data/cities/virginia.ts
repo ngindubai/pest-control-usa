@@ -5665,4 +5665,90 @@ export const virginiaCities: CityLocation[] = [
     metaTitle: "Pest Control in Springfield, VA | Fairfax County",
     metaDescription: "Springfield, VA pest control for termites, mice, stink bugs, and cockroaches. Licensed Fairfax County service for older and newer homes.",
   },
+  {
+    slug: "purcellville-va",
+    name: "Purcellville",
+    state: "Virginia",
+    stateSlug: "virginia",
+    stateAbbr: "VA",
+    tier: "T3",
+    population: 10280,
+    county: "Loudoun",
+    climate: "temperate",
+    climateDriver: "Humid subtropical climate transitioning to continental at the Blue Ridge foothills elevation. Purcellville sits in western Loudoun County at the foot of the Blue Ridge Mountains, with a mix of farmland, vineyards, wooded slopes, and newer residential development creating diverse pest habitat.",
+    topPests: ["ticks", "stink bugs", "carpenter ants", "mice"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "ticks",
+        activeSeason: "spring through fall",
+        note: "Blacklegged ticks are abundant on the wooded and agricultural fringe of western Loudoun County; Purcellville's position at the Blue Ridge foothills puts it in one of Virginia's more tick-active zones.",
+      },
+      {
+        name: "Stink Bugs",
+        activeSeason: "fall and winter",
+        note: "Brown marmorated stink bugs are well established throughout Loudoun County; western Loudoun's agricultural and vineyard landscape supports higher populations than the eastern suburbs.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "carpenter-ants",
+        activeSeason: "spring through fall",
+        note: "Blue Ridge foothills wooded lots and forested buffers sustain large carpenter ant colonies; older homes in and around Purcellville see regular spring infestations.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "rodents",
+        activeSeason: "year-round, peak fall and winter",
+        note: "Agricultural and vineyard field displacement drives significant fall mouse movement toward Purcellville structures.",
+      },
+    ],
+    localHook: "Purcellville is western Loudoun County's main town, surrounded by farmland, vineyards, and the rising Blue Ridge. That landscape is a tick and stink bug zone of the first order in Virginia. The agricultural edge around the town and the forested foothills create wildlife corridors and rodent displacement pressure that defines the pest season here from March through November.",
+    intro: "Purcellville pest control is driven by the western Loudoun agricultural and Blue Ridge foothills landscape. Ticks are the most significant health concern, with blacklegged ticks abundant from spring through fall on any wooded or brushy property. Stink bugs are the dominant fall nuisance pest. Carpenter ants forage actively from forested slopes into older homes. And mice move toward structures from surrounding farmland and vineyards each fall.",
+    sections: [
+      {
+        heading: "Ticks at the Blue Ridge Foothills Edge",
+        body: "Purcellville's position at the foot of the Blue Ridge places it in one of Virginia's most tick-active landscapes. Blacklegged ticks require deer as adult hosts and white-footed mice as juvenile hosts; western Loudoun County has abundant populations of both. Properties backing to wooded slopes, hedgerows, or field edges carry meaningful spring through fall tick exposure. Lone star ticks, which are also present in western Loudoun, add to the tick pressure from May through July. Yard treatments targeting the leaf litter, ground cover, and low vegetation at the lawn-wood interface significantly reduce tick populations and are typically applied two to three times per season. Personal tick checks and repellents remain important.",
+      },
+      {
+        heading: "Stink Bugs and Western Loudoun Agricultural Pressure",
+        body: "Western Loudoun County's vineyard and agricultural landscape supports higher brown marmorated stink bug populations than the eastern Loudoun data centers and suburban corridor. The species overwinters as adults in wall voids, attics, and exterior gaps, entering structures in September and October as temperatures drop. Older homes in Purcellville with more gaps in the building envelope accumulate higher numbers. Sealing all exterior cracks and gaps before mid-September is the most effective prevention measure. A licensed applicator can apply a residual exterior treatment in late August or early September that reduces the entry rate significantly. Once inside, vacuuming without crushing is the removal method.",
+      },
+      {
+        heading: "Carpenter Ants and Fall Mouse Movement",
+        body: "The wooded properties and forested slope buffers around Purcellville sustain outdoor carpenter ant colonies that forage into structures from April through October. Moisture-softened wood in older homes, wood-to-soil contact at steps and porches, and gaps around window frames are the most common entry points. Treatment requires locating the satellite colony inside the structure, which is often in the attic, crawlspace rim joist, or wall voids near past moisture damage. Mouse pressure from surrounding agricultural and vineyard fields peaks in September and October. A fall exclusion inspection sealing foundation gaps and utility entry points before late September is the most cost-effective prevention.",
+      },
+    ],
+    prevention: [
+      "Apply tick repellent and perform full body tick checks after any outdoor activity near wooded or brushy areas.",
+      "Schedule a tick yard treatment for April to May, before peak black-legged tick activity, and repeat as needed.",
+      "Seal exterior gaps and cracks before mid-September to reduce stink bug and mouse entry.",
+      "Maintain a cleared buffer of 8 to 10 feet between lawn and any wooded edge or brush to reduce tick habitat.",
+      "Remove wood piles, old stumps, and excess mulch adjacent to the foundation to reduce carpenter ant habitat.",
+    ],
+    costNote: "Tick yard treatment in Purcellville runs $120 to $220 per application. Stink bug perimeter treatment averages $150 to $260. Carpenter ant treatment ranges from $160 to $300 depending on colony access. Mouse exclusion and baiting programs run $180 to $340. Pricing varies by property size and infestation level.",
+    faqs: [
+      {
+        question: "How serious is the Lyme disease risk in Purcellville compared to eastern Loudoun County?",
+        answer: "Western Loudoun County, including Purcellville, generally carries higher blacklegged tick exposure than eastern Loudoun because the landscape includes more wooded slopes, agricultural edge, and deer habitat. The deer population in the Blue Ridge foothills is substantial, and deer are the primary host for adult blacklegged ticks. Virginia is consistently among the top ten states for Lyme disease cases nationally. Purcellville residents with properties backing to wooded or agricultural land should treat tick prevention as a routine seasonal priority, not a one-time concern.",
+      },
+      {
+        question: "Do the vineyards near Purcellville increase stink bug populations?",
+        answer: "Yes. Vineyards are among the agricultural crops most heavily impacted by brown marmorated stink bugs, which feed on grapes and other fruits. The Virginia wine country surrounding western Loudoun County supports large stink bug populations that affect adjacent residential properties in the fall. The pest pressure in this landscape is higher than in strictly residential or commercial areas. Residential properties within a mile of active vineyards or orchards typically see more aggressive fall stink bug aggregation.",
+      },
+      {
+        question: "When should I schedule pest control for my Purcellville home?",
+        answer: "April is the best time to schedule a combined inspection for tick habitat assessment and a spring carpenter ant inspection before foraging peaks. A late August or early September appointment is ideal for stink bug exterior perimeter treatment before the fall aggregation begins and for rodent exclusion before the fall harvest displacement from surrounding agricultural land. Properties with wooded backing benefit from a spring and fall two-inspection schedule as the minimum annual standard.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Leesburg", slug: "leesburg-va" },
+      { name: "Middleburg", slug: "middleburg-va" },
+      { name: "Ashburn", slug: "ashburn-va" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Purcellville, VA | Loudoun County",
+    metaDescription: "Purcellville, VA pest control for ticks at the Blue Ridge foothills, stink bugs from vineyard country, carpenter ants, and mice. Licensed western Loudoun County service.",
+  },
 ];

@@ -7588,5 +7588,209 @@ export const northCarolinaCities: CityLocation[] = [
     contentSoul: "qa",
     metaTitle: "Pest Control in Wendell, NC | Wake County",
     metaDescription: "Wendell, NC pest control for termites, mice, mosquitoes, and fire ants. Licensed Wake County service east of Raleigh.",
-  }
+  },
+  {
+    slug: "smithfield-nc",
+    name: "Smithfield",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~12,500",
+    county: "Johnston County",
+    climate: "hot-humid",
+    climateDriver:
+      "Smithfield is the county seat of Johnston County, in the Inner Coastal Plain of North Carolina, with the Neuse River defining its northeastern edge. Johnston County's sandy, well-drained soils are among the most favorable conditions for Eastern subterranean termite colony establishment and foraging in the region. The Neuse River floodplain creates significant seasonal mosquito habitat adjacent to the city, and the warm humid summers provide no meaningful respite for cockroach or fire ant populations.",
+    topPests: [
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+      "Fire Ants",
+      "American Cockroaches",
+      "House Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, foraging year-round",
+        note: "Johnston County's sandy, well-drained soils are documented by NC State Extension as highly favorable for Eastern subterranean termite colony establishment. Sandy soils allow termites to tunnel and forage more easily than compacted clay soils. Smithfield's older downtown building stock and the residential blocks with mature trees and dead-wood stumps carry elevated termite risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October, peak June through September",
+        note: "The Neuse River floodplain on Smithfield's northeastern boundary creates extensive seasonal mosquito habitat. Johnston County does not operate a public mosquito control program, making private yard management the primary tool for residents near the river corridor.",
+      },
+      {
+        name: "Red imported fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, peak March through October",
+        note: "Fire ants are well established throughout Johnston County's agricultural and residential areas. Smithfield's proximity to tobacco and sweet potato farmland means there is a continuous outdoor fire ant population reservoir. New mounds appear regularly in disturbed soil.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round outdoors, peak indoor movement in humid summer months",
+        note: "American cockroaches are the dominant outdoor cockroach in Smithfield's warm, humid environment. They enter structures through utility penetrations and foundation gaps, particularly in the older commercial and residential buildings in the historic downtown area.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak indoor pressure September through February",
+        note: "House mice are the primary rodent pest in Smithfield residential areas, with agricultural operations in Johnston County providing an outdoor population that pressures homes seasonally. Fall cooling and harvest on surrounding farmland drive mice toward residential structures.",
+      },
+    ],
+    localHook:
+      "Johnston County's sandy, well-drained soils are among the most favorable conditions in North Carolina for Eastern subterranean termite foraging and colony establishment. NC State Extension identifies the sandy Coastal Plain soils as a high-termite-risk soil type. Homeowners in Smithfield, particularly in blocks with mature trees or older construction, face above-average subterranean termite pressure.",
+    intro:
+      "Three factors define pest control in Smithfield: Johnston County's sandy soils are among the best in North Carolina for subterranean termite colony expansion; the Neuse River floodplain creates a concentrated mosquito source on the city's northeastern edge; and the surrounding agricultural landscape keeps fire ant and mouse populations at a level that continuously pressures residential properties. Annual termite inspections are the standard practice for Johnston County homeowners.",
+    sections: [
+      {
+        heading: "Why Johnston County's soils increase termite risk",
+        body: "Eastern subterranean termites move through soil to reach wood in structures, maintaining mud tube connections from their underground colony to feeding sites above. Sandy, well-drained soils are easier to tunnel through than compacted clay soils, which is why NC State Extension identifies Coastal Plain sandy soils as high-risk conditions for subterranean termites. Smithfield sits in the transition zone between the Piedmont and the Inner Coastal Plain, and much of Johnston County's residential landscape sits on sandy loam soils that favor rapid termite foraging. In practical terms, this means termite colonies can establish closer to foundations and expand territory more quickly than in the heavier soils of the Piedmont to the west.",
+      },
+      {
+        heading: "Neuse River corridor mosquito pressure",
+        body: "The Neuse River floodplain along Smithfield's northeastern edge fills during the wet season and creates several square miles of slow-moving and standing water that sustains large Culex and Aedes mosquito populations. These breeding sites are close enough to residential areas that evening mosquito pressure in neighborhoods within a mile of the river corridor is significant from June through September. Johnston County does not operate a public mosquito spray program, so private yard management with barrier sprays and standing water elimination is the primary residential tool. The Asian tiger mosquito, which breeds in small containers, is also established in Johnston County and adds daytime biting pressure.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections given Johnston County's sandy soils, which are particularly favorable for subterranean termite foraging.",
+      "Eliminate standing water near the Neuse River floodplain edge and throughout the yard to reduce both Culex and Asian tiger mosquito breeding.",
+      "Apply property-wide fire ant treatment in spring before peak mound activity to manage the continuous agricultural reservoir pressure.",
+      "Seal foundation and utility gaps before September to reduce fall mouse entry from surrounding farmland.",
+    ],
+    costNote:
+      "Pest control in Smithfield is typically quoted as a recurring general plan. Termite treatment is quoted separately after inspection and varies by method and structure size. Free inspections are available.",
+    faqs: [
+      {
+        question: "Why is Johnston County considered high-risk for subterranean termites?",
+        answer:
+          "Johnston County's sandy, well-drained soils allow Eastern subterranean termites to tunnel more easily than in compacted clay soils. NC State Extension identifies Coastal Plain sandy soils as favorable conditions for termite colony expansion. Smithfield's location in the Inner Coastal Plain puts it squarely in this higher-risk soil type. Annual inspections are standard practice for Johnston County homeowners.",
+      },
+      {
+        question: "Is the Neuse River a significant mosquito source for Smithfield residents?",
+        answer:
+          "Yes. The Neuse River floodplain on the northeastern edge of Smithfield creates extensive seasonal mosquito habitat that peaks in June through September. Johnston County does not operate a public mosquito control program, so private yard barrier spray and standing water elimination are the primary tools for residents near the river corridor.",
+      },
+      {
+        question: "Are fire ants a year-round problem in Smithfield?",
+        answer:
+          "Yes. Johnston County's warm climate means fire ants have no true dormant period. The surrounding agricultural landscape provides a large population reservoir that continuously replenishes residential lot pressure. Property-wide broadcast treatment is more effective than individual mound drench, which only addresses visible surface mounds.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Garner", slug: "garner" },
+      { name: "Clayton", slug: "clayton-nc" },
+      { name: "Goldsboro", slug: "goldsboro" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Smithfield, NC | Termites, Mosquitoes & Fire Ants",
+    metaDescription:
+      "Smithfield NC pest control for subterranean termites in sandy Johnston County soils, Neuse River mosquitoes, fire ants, cockroaches, and mice. Licensed local service.",
+  },
+  {
+    slug: "mount-airy-nc",
+    name: "Mount Airy",
+    state: "North Carolina",
+    stateSlug: "north-carolina",
+    stateAbbr: "NC",
+    tier: "T3",
+    population: "~9,000",
+    county: "Surry County",
+    climate: "temperate",
+    climateDriver:
+      "Mount Airy sits at approximately 1,100 feet elevation in the Blue Ridge foothills of Surry County, in northwest North Carolina. The elevation and mountain influence produce cooler summers and colder winters than the Piedmont and Coastal Plain, with reliable hard freezes that reset some outdoor insect populations but do not eliminate moisture-adapted pests like carpenter ants and stink bugs. The older building stock in the historic downtown and surrounding residential areas provides the gap-filled structure that gives fall-invading pests easy interior access.",
+    topPests: [
+      "Carpenter Ants",
+      "Brown Marmorated Stink Bugs",
+      "Cluster Flies",
+      "House Mice",
+      "Eastern Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Active March through October, winged swarmers in spring",
+        note: "Carpenter ants are the dominant ant pest in Mount Airy's wooded, older-construction environment. They nest in moisture-damaged wood in soffits, window frames, and decking. The Blue Ridge foothills environment with high moisture and abundant dead wood in forests and mature residential trees creates ideal carpenter ant habitat. Swarmers appearing indoors in spring indicate an established indoor colony rather than a foraging trail from outside.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Overwintering October through April, outdoor peak August through September",
+        note: "Stink bugs are a significant fall overwintering pest in Surry County. Mount Airy's position in the fruit-growing and orchard region of the NC foothills means outdoor stink bug populations are high through August and September. They aggregate on exterior walls before entering through gaps in the older building stock common in Mount Airy.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Overwintering October through April, active outdoors April through September",
+        note: "Cluster flies are a fall and winter pest in Mount Airy that are often mistaken for common houseflies. They develop as parasites of earthworms in surrounding meadows and pastures. In fall, they gather in large numbers on south-facing walls and enter homes to overwinter in wall voids and attics. Older homes with more wall gaps have the highest infestations.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak indoor pressure October through March",
+        note: "House mice enter Mount Airy's residential structures in fall as mountain temperatures drop earlier and more sharply than in the Piedmont. The older housing stock in the city, with its foundation gaps and aging utility penetrations, provides numerous entry points. Farm and rural-edge habitat in surrounding Surry County sustains a large outdoor mouse population.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms spring, foraging slows in winter",
+        note: "Subterranean termite pressure in Surry County is lower than in the Piedmont and Coastal Plain, but the pest is present and active. Older downtown buildings with any wood-to-soil contact or moisture-compromised sills carry the highest risk. The cooler winters reduce foraging activity but do not eliminate established colonies.",
+      },
+    ],
+    localHook:
+      "Mount Airy's elevation in the Blue Ridge foothills creates a different pest calendar than most of North Carolina. Cooler falls trigger earlier stink bug aggregation on exterior walls, cluster fly overwintering begins before the Piedmont sees it, and carpenter ants find abundant dead-wood habitat in the forested hills surrounding the city. The historic downtown building stock gives all of these fall-invading pests easy access through aging gaps.",
+    intro:
+      "Mount Airy's pest picture is shaped by elevation, building age, and the orchard and pasture landscape of the Blue Ridge foothills. Fall pest pressure is the defining seasonal event: stink bugs aggregate on south-facing walls in September, cluster flies enter from surrounding meadows, and mice move indoors as mountain temperatures drop ahead of the Piedmont schedule. Carpenter ants are the dominant year-round structural pest, nesting in moisture-damaged wood in the city's older homes. Subterranean termites are present but at lower pressure than coastal and Piedmont areas.",
+    sections: [
+      {
+        heading: "Cluster flies: a mountain region overwintering pest",
+        body: "Cluster flies are common in rural and small-town environments with nearby pasture or meadow habitat and are particularly prevalent in the Mount Airy area. Unlike houseflies, which breed in waste, cluster flies develop as parasites of earthworms in the soil of surrounding fields. Adults emerge in fall and seek overwintering sites in wall voids and attics, entering through gaps in window frames, around utility penetrations, and under overlapping siding. On warm winter days they emerge from wall voids and appear confused at window glass. A significant cluster fly infestation in an older home indicates multiple entry points that are also available to other fall invaders including stink bugs and mice. Sealing these entry points in August and September before aggregation season is the most effective preventive measure.",
+      },
+      {
+        heading: "Carpenter ant activity in older construction",
+        body: "Carpenter ants are the most significant year-round structural pest in Mount Airy. Unlike termites, they do not eat wood; they excavate galleries in soft, moisture-damaged wood to nest. The older construction throughout Mount Airy's residential neighborhoods and historic downtown creates numerous sites: moisture-compromised soffits, window sills with failed caulk, decking boards with water pooling, and any structural wood that has been exposed to years of the high-moisture mountain environment. Finding winged carpenter ant swarmers indoors in spring is a reliable indicator of an active indoor colony, not just foraging from an exterior nest. The colony must be located and treated; perimeter spray alone does not address an interior nest.",
+      },
+    ],
+    prevention: [
+      "Seal window frames, door gaps, and utility penetrations in August before stink bug and cluster fly aggregation begins on exterior walls.",
+      "Inspect soffits, decking, and window sills annually for moisture damage and soft wood that carpenter ants use as nesting sites.",
+      "Ensure gutters drain properly and that water does not pool against siding or deck boards, reducing the moisture conditions carpenter ants require.",
+      "Seal foundation gaps and utility line entries before October to reduce fall mouse entry from surrounding pasture and farm habitat.",
+    ],
+    costNote:
+      "Pest control in Mount Airy is often structured around fall prevention and spring treatments. Carpenter ant treatment is quoted based on nest location assessment. Termite treatment is quoted separately after inspection. Free assessments available.",
+    faqs: [
+      {
+        question: "What are cluster flies and why are they common in Mount Airy?",
+        answer:
+          "Cluster flies develop as parasites of earthworms in soil. The surrounding meadows, pastures, and farm fields in Surry County provide abundant breeding habitat. In fall, adults seek overwintering sites in wall voids and attics, entering through gaps in older building exteriors. They are larger and slower than houseflies and cluster together at window glass on warm winter days. Sealing entry points before fall aggregation begins is the most effective prevention.",
+      },
+      {
+        question: "Are stink bugs worse in the Blue Ridge foothills than in the Piedmont?",
+        answer:
+          "Fall aggregation begins earlier at higher elevations because temperatures drop sooner. Mount Airy at around 1,100 feet elevation sees stink bug wall aggregations begin in late August and September, ahead of the Piedmont schedule. The orchard and fruit-growing environment of the Blue Ridge foothills also supports higher outdoor stink bug populations than the typical suburban setting.",
+      },
+      {
+        question: "How do I know if I have a carpenter ant nest inside my home?",
+        answer:
+          "The most reliable sign of an indoor nest is winged carpenter ant swarmers appearing inside the home in spring. Foragers indoors at other times of year are likely coming from an outdoor nest. Finding small piles of wood shavings (frass) near structural wood, or hearing faint rustling inside walls, also indicates an interior colony. Perimeter spray does not address an indoor nest; the nest must be located and treated directly.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Winston-Salem", slug: "winston-salem" },
+      { name: "Statesville", slug: "statesville" },
+      { name: "Eden", slug: "eden-nc" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Mount Airy, NC | Carpenter Ants, Stink Bugs & Cluster Flies",
+    metaDescription:
+      "Mount Airy NC pest control for carpenter ants in older homes, fall stink bugs and cluster flies, mice, and subterranean termites in Surry County's Blue Ridge foothills.",
+  },
 ];
