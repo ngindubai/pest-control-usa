@@ -8181,4 +8181,622 @@ export const michiganCities: CityLocation[] = [
     metaTitle: "Pest Control in Big Rapids, MI | Mice vs. Carpenter Ants",
     metaDescription: "Big Rapids MI pest control comparing college-housing mice vs. Muskegon River carpenter ants. Mecosta County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "clinton-township-mi",
+    name: "Clinton Township",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~99,000",
+    county: "Macomb County",
+    climate: "cold-humid",
+    climateDriver:
+      "Clinton Township sits in southeastern Michigan's Great Lakes region with cold snowy winters and warm humid summers. The dense older housing stock built primarily from the 1950s through 1970s has aging construction that drives house mice, German cockroaches, and eastern subterranean termites into buildings, while the cold winters push pests firmly indoors.",
+    topPests: [
+      "Carpenter Ants",
+      "House Mice",
+      "German Cockroaches",
+      "Eastern Subterranean Termites",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are the most common structural pest complaint in Clinton Township's older neighborhoods. The mature tree canopy of subdivisions built in the 1950s and 1960s has produced large trees with heartwood decay that provide colony sites near homes. Moisture-damaged wood in older homes is frequently found to harbor satellite colonies.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, major surge October through November",
+        note: "Michigan's cold winters drive mice into buildings hard in October. Clinton Township's dense older housing stock has abundant structural entry points in settling foundations, utility penetrations, and aging construction details that give mice easy fall access.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Clinton Township's older apartment buildings and commercial food service environments. They are unaffected by the Michigan winters and spread through shared plumbing voids in multi-family housing year-round.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Eastern subterranean termites are present in Macomb County. Clinton Township's older housing stock from the 1950s and 1960s with original crawl spaces and aging wood framing is the primary risk zone. Michigan termite pressure is lower than in mid-Atlantic or southern states, but the risk is real and annual inspections are appropriate for older homes.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak July through October",
+        note: "Yellow jackets nest in the wooded areas and established landscaping throughout Clinton Township's older residential neighborhoods. Ground nests in established lawns and landscaped berms are common. By August and September, colonies reach aggressive peak size.",
+      },
+    ],
+    localHook:
+      "The older neighborhoods in Clinton Township, particularly those built in the 1950s and 1960s along Moravian Drive and in the sections near the Clinton River, have mature tree canopy that creates one of the better carpenter ant environments in Macomb County. Those trees are 60 to 70 years old now, and the ones with heartwood decay are essentially pre-stocked carpenter ant habitat sitting 20 feet from a house.",
+    intro:
+      "Pest control in Clinton Township runs on a Great Lakes rhythm. The cold winters that define this part of Michigan suppress outdoor pests through the long freeze, then give way to a spring and summer when carpenter ants, mosquitoes, and yellow jackets become active simultaneously. The fall brings the mouse surge as temperatures drop and every gap in the aging construction becomes an entry point. Clinton Township's housing stock, largely built in the postwar decades, has aged to the point where that fall entry is reliable and predictable without proper exclusion. The older neighborhoods along the Clinton River and south of Garfield Road see the most consistent pest activity year over year.",
+    sections: [
+      {
+        heading: "Carpenter ants in the postwar neighborhood tree canopy",
+        body: "Clinton Township's residential development in the 1950s and 1960s planted the foundations of today's carpenter ant environment. The neighborhoods built in those decades have mature oaks, maples, and elms that are now large, older trees with the heartwood decay that carpenter ants use for parent colony nesting. The foraging workers follow branches toward nearby homes and find any moisture-damaged wood at the roofline, in deck framing, or around aging window frames. In April and May, the first interior carpenter ant sightings typically indicate that foraging workers have found a satellite nesting opportunity inside the structure. A thorough inspection identifies the satellite site, which in older Michigan homes is most often in moisture-damaged wood near the basement rim joist, behind fascia with old paint failure, or in decking with aging water damage. Treatment targets both the satellite site and the exterior perimeter.",
+      },
+      {
+        heading: "The fall mouse entry in Clinton Township's older homes",
+        body: "Clinton Township's mouse season is a fall event driven by Michigan's cold climate. As temperatures drop from October through November, mice actively seek heated shelter and follow scent trails to any gap in the building exterior. The homes most affected are in the older neighborhoods where construction from 50 to 70 years ago has developed the gaps that original construction did not have. I find mouse entry most consistently around dryer vent caps that have lost their damper seal, at the foundation sill plate where wood has settled away from the masonry, and around utility line penetrations under kitchen and laundry room cabinets. Each of these can be sealed, and the investment in exclusion work done once is more cost-effective than ongoing trapping of a population that keeps being replaced from outside.",
+      },
+    ],
+    prevention: [
+      "Trim tree limbs that touch the roofline to eliminate the primary carpenter ant access route.",
+      "Seal dryer vent caps, utility penetrations, and foundation sill gaps in September before the fall mouse entry.",
+      "Inspect aging deck framing and window trim annually for moisture damage that attracts carpenter ants.",
+      "Treat yellow jacket ground nests in wooded areas in the evening when the colony is inside.",
+      "Schedule a termite inspection for pre-1970 Clinton Township homes with original crawl spaces.",
+    ],
+    costNote:
+      "Clinton Township pest control is commonly structured as a seasonal service plan covering carpenter ants, mice, and yellow jackets through the warm months, with a fall rodent exclusion visit. Termite treatment is quoted separately. Free assessments available.",
+    faqs: [
+      {
+        question: "How do I know if my Clinton Township home has a carpenter ant problem or just foragers?",
+        answer:
+          "Occasional carpenter ants in spring near a window or door may just be scouts. Consistent carpenter ant activity inside the structure, particularly large workers seen regularly in the kitchen or basement, or sawdust-like frass found in a concentrated area, indicates a satellite colony is established inside the wood. An inspection can locate the site and determine whether it requires targeted injection treatment or perimeter management.",
+      },
+      {
+        question: "When is the best time to seal my home against mice in Clinton Township?",
+        answer:
+          "September is the best time. Michigan mice begin moving toward buildings as temperatures drop in October, so completing an exterior inspection and sealing gaps in September gives you the prevention before the pressure begins. Exclusion work done in October and November is still valuable but is working against an active entry event rather than preventing it.",
+      },
+      {
+        question: "Are termites really a concern in Macomb County?",
+        answer:
+          "Yes, though Michigan's termite pressure is lower than in mid-Atlantic or southern states. Eastern subterranean termites are present in Macomb County and have been found in Clinton Township's older housing stock. The risk is highest in pre-1970 homes with original crawl spaces and aging wood construction. Annual inspections are appropriate for those properties. The damage is real and can be significant even in a lower-pressure state.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Sterling Heights", slug: "sterling-heights-mi" },
+      { name: "Mount Clemens", slug: "mount-clemens-mi" },
+      { name: "Shelby Township", slug: "shelby-township-mi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Clinton Township, MI | Carpenter Ants & Mice",
+    metaDescription:
+      "Clinton Township MI pest control for carpenter ants, mice, cockroaches, and termites in older Macomb County homes. Licensed applicator. Free inspection.",
+  },
+  {
+    slug: "canton-mi",
+    name: "Canton",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~98,000",
+    county: "Wayne County",
+    climate: "cold-humid",
+    climateDriver:
+      "Canton Township in western Wayne County has a Great Lakes cold-humid climate with cold winters and warm, humid summers. The primarily newer single-family homes built from the 1980s onward, combined with significant tree cover and subdivision green spaces, create a carpenter ant and stink bug environment while Michigan's cold winters generate predictable fall mouse entry pressure.",
+    topPests: [
+      "Carpenter Ants",
+      "Brown Marmorated Stink Bugs",
+      "House Mice",
+      "Eastern Subterranean Termites",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Canton's substantial residential tree cover, including the mature trees in older subdivisions built in the 1980s and 1990s, provides carpenter ant colony habitat near many homes. As Canton's newer construction ages, moisture issues in decks, roof lines, and window frames create more satellite nesting opportunities.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs have established across Wayne County and hit Canton homes each fall. The wooded residential lots and the agricultural edges along Canton's rural western boundary generate stink bug populations that move into residential areas as temperatures drop.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak October through November",
+        note: "Michigan's cold winters drive mice into Canton homes every fall. Even newer construction develops the gaps and settling details that give mice access, particularly around garage door frames, dryer vents, and utility penetrations that have been through 20 or 30 Michigan freeze-thaw cycles.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Termites are present in Wayne County. Canton's homes are mostly newer construction but are not immune. Mulched foundation beds, wood decking attached to the house, and wood landscape timbers near the foundation are common termite access points in Canton neighborhoods.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak July through October",
+        note: "Yellow jackets establish ground nests in Canton's residential green spaces, wooded lot edges, and along the embankments in subdivisions with topographic variation. Late summer colonies reaching peak size create sting risk in yards and near outdoor living areas.",
+      },
+    ],
+    localHook:
+      "Canton's newer construction creates a misconception I correct regularly: that newer homes are pest-resistant. I inspect Canton homes built in the 1990s that have carpenter ant satellite colonies in deck framing with moisture damage, mice entering through dryer vent caps that went through 25 Michigan winters, and stink bugs overwintering in attic spaces with the original builder-grade exterior sealing. Age is relative, and 25 to 30 Michigan winters are enough to open the gaps pests use.",
+    intro:
+      "Pest control in Canton presents some of the same fundamentals as the rest of the Great Lakes region, adjusted for a housing stock that skews newer than in older southeastern Michigan communities. Canton's primary development happened in the 1980s through 2000s, which means the majority of homes are 20 to 40 years old. That is recent enough to feel new but old enough for the Michigan freeze-thaw cycles to have opened construction gaps, for deck boards to have taken on moisture, and for the original builder-grade weatherstripping to have compressed past its useful life. Mice, stink bugs, and carpenter ants respond to those conditions on a schedule that does not consult the certificate of occupancy.",
+    sections: [
+      {
+        heading: "Carpenter ants in Canton's established subdivisions",
+        body: "Canton's older subdivisions built in the 1980s and early 1990s are at the age where carpenter ant problems become more common. The trees planted during development are now mature, large enough to develop heartwood decay in older or stressed specimens. The deck framing on homes from this era is showing the moisture damage that comes with 30-plus years of Michigan seasons. Window trim on the north and west-facing sides of homes frequently has old paint failure that has let moisture into the underlying wood. These are the conditions that carpenter ants exploit. The warm-season management approach is perimeter spray to intercept foraging workers, targeted injection of any satellite sites found inside the structure, and a recommendation to address the moisture source that created the nesting opportunity. Without fixing the moisture issue, the carpenter ants will return to the same site.",
+      },
+      {
+        heading: "Stink bugs in Canton and the fall prevention window",
+        body: "Brown marmorated stink bugs hit Canton homes each fall, and the management window is narrow. The insects make their move toward overwintering sites in September and October, following temperature cues. Once they are inside wall voids and attic spaces, the options narrow to exclusion and waiting for spring. The prevention approach works if it is done before the fall movement begins. An inspection and exterior sealing visit in August addresses the gaps around windows, utility penetrations, exterior outlets, and the typical attic ventilation points that stink bugs use to enter. In Canton's newer construction, these gaps are often smaller than in older homes, but 25 or 30 Michigan winters have opened many of them past the point of original efficacy. The investment in sealing before fall is far less than the frustration of dealing with overwintering stink bugs inside the structure through winter.",
+      },
+    ],
+    prevention: [
+      "Inspect deck framing and window trim annually for moisture damage that attracts carpenter ants.",
+      "Seal gaps around dryer vents, garage door frames, and utility penetrations in August before fall.",
+      "Check and replace weatherstripping that has compressed past its useful life.",
+      "Keep mulch beds away from foundation wood to reduce termite and moisture contact.",
+      "Treat yellow jacket ground nests in residential green spaces in the evening when colonies are inside.",
+    ],
+    costNote:
+      "Canton pest control is typically offered as a quarterly general service plan covering ants, mice, and spiders, with stink bug exterior treatment available in late summer. Carpenter ant and termite treatment are quoted separately. Free assessments available.",
+    faqs: [
+      {
+        question: "Do newer Canton homes really need pest prevention?",
+        answer:
+          "Yes. Canton's primary development era was the 1980s through 2000s, which makes most homes 20 to 40 years old. That is enough time for Michigan freeze-thaw cycles to open construction gaps, for deck framing to develop moisture damage, and for original weatherstripping to lose its seal. Carpenter ants, mice, and stink bugs respond to those conditions regardless of the home's age relative to older southeastern Michigan communities.",
+      },
+      {
+        question: "When should I treat for stink bugs in my Canton home?",
+        answer:
+          "The prevention window is August through early September, before the insects begin their fall movement toward overwintering sites. Exterior sealing of gaps around windows, utility penetrations, and attic vents during this window significantly reduces the number entering the structure. Once stink bugs are inside wall voids and attic spaces in October, the practical options are limited to exclusion and waiting for spring emergence.",
+      },
+      {
+        question: "Are termites a concern in Canton's newer homes?",
+        answer:
+          "Yes, though the risk is lower than in older housing stock. Eastern subterranean termites are present in Wayne County. In Canton, the most common access points in newer homes are mulched foundation beds that retain moisture against wood siding, wood deck posts with soil contact, and wood landscape timbers near the structure. Annual inspections are appropriate for any Canton home with these features.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Plymouth", slug: "plymouth-mi" },
+      { name: "Westland", slug: "westland-mi" },
+      { name: "Ypsilanti", slug: "ypsilanti-mi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Canton, MI | Carpenter Ants, Mice & Stink Bugs",
+    metaDescription:
+      "Canton Township MI pest control for carpenter ants, stink bugs, mice, and termites. Licensed Wayne County applicator. Free inspection available.",
+  },
+  {
+    slug: "macomb-mi",
+    name: "Macomb",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~90,000",
+    county: "Macomb County",
+    climate: "cold-humid",
+    climateDriver:
+      "Macomb Township is one of Michigan's fastest-growing communities, with new subdivisions built since the 1990s expanding into what was agricultural land. The community's agricultural borders, newer construction, and Great Lakes cold-humid climate create a specific pest profile dominated by field mice from adjacent open land, stink bugs at the development edge, and mosquitoes near retention ponds.",
+    topPests: [
+      "House Mice",
+      "Brown Marmorated Stink Bugs",
+      "Mosquitoes",
+      "Carpenter Ants",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak October through November",
+        note: "Macomb Township's agricultural borders are the dominant mouse pressure source. Field mice and deer mice from adjacent farmland move into residential developments at the development edge each fall, and many subdivisions in Macomb Township back directly against that agricultural land.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs have established in Macomb County. The agricultural edges of Macomb Township, where crops like soybeans and corn provide warm-season stink bug habitat, generate heavy fall invasions into the residential subdivisions at the development boundary.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Macomb Township's rapid development created numerous retention ponds and detention basins to manage stormwater. These water features sustain mosquito breeding through the summer season, and many newer subdivisions have retention ponds within a few hundred yards of residential backyards.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are present in Macomb Township's wooded lot sections and in the preserved tree islands within newer subdivisions. As the community's newer homes age and develop moisture issues, carpenter ant satellite colony reports have increased.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak July through October",
+        note: "Yellow jackets establish ground nests in Macomb Township's residential green spaces, the vegetated edges of retention ponds, and the wooded areas preserved within subdivisions. Colonies at pond edges are common and easily disturbed by lawn maintenance.",
+      },
+    ],
+    localHook:
+      "Macomb Township's growth is visible from a satellite image. New subdivisions are carved out of former soybean and corn fields every year, and the homes at the newest development edge back directly against active agricultural land. When I drive those streets in October, I know exactly what is coming: field mice moving from the harvested fields into the adjacent homes. This happens on a reliable schedule, and the homeowners at the agricultural edge deal with it every fall.",
+    intro:
+      "Macomb Township's pest environment is defined by growth. As one of Michigan's fastest-growing communities, with new subdivisions consistently expanding into former farmland, many homes in Macomb Township sit at an active agricultural or semi-rural edge. That edge generates pest pressure that established suburban communities do not experience. Field mice move from harvested agricultural land into adjacent homes each fall in numbers that dwarf the typical suburban mouse season. Stink bugs feeding on agricultural crops through summer move toward residential structures when temperatures drop. Retention ponds built into nearly every new subdivision sustain mosquito populations near back yards through the entire warm season.",
+    sections: [
+      {
+        heading: "Field mice from the agricultural edge",
+        body: "The mouse pressure at Macomb Township's active development edges is different from what I see in established suburban neighborhoods. House mice and deer mice moving from harvested agricultural land in October are entering from a very large, open source population rather than from the scattered harborage points a typical suburban neighborhood offers. The result is that mouse pressure on homes at the agricultural edge is heavier and more sustained. The exclusion approach is the same: an exterior inspection to find entry points, sealing with copper mesh and appropriate caulk or foam, and interior monitoring with snap traps. The difference is that the monitoring needs to continue more consistently through the winter because the source population is large and persistent. Homes at the edge of subdivisions backing against open fields need their exterior inspected each September without fail.",
+      },
+      {
+        heading: "Retention ponds and the mosquito season",
+        body: "Macomb Township's stormwater retention ponds are a feature of nearly every subdivision built in the last 30 years, and they are a consistent mosquito source. The ponds themselves with deeper water and fish populations are less productive for mosquitoes. The problem areas are the shallow, vegetated edges where water warms quickly in sun, the cattail areas that provide sheltered breeding sites, and the drainage channels feeding into and out of the ponds. Homes within a few hundred yards of a retention pond see sustained mosquito pressure through June, July, and August. A barrier spray program targeting the shaded resting areas around the yard is the most effective residential management, and it needs to be reapplied every two to three weeks to maintain coverage through the season.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps on homes at the agricultural development edge before October field mouse pressure begins.",
+      "Monitor interior snap traps through the entire winter if your home backs against open farmland.",
+      "Run mosquito barrier treatments from May through September if your yard is near a retention pond.",
+      "Remove standing water from containers and drainage features to reduce local mosquito breeding.",
+      "Caulk around windows and exterior outlets in August to reduce stink bug entry.",
+    ],
+    costNote:
+      "Macomb Township pest control often combines a quarterly general pest plan with a seasonal mosquito program. Homes at agricultural edges may benefit from a fall exclusion service as a standalone visit. Free assessments available.",
+    faqs: [
+      {
+        question: "Why do homes in newer Macomb Township subdivisions get so many mice in fall?",
+        answer:
+          "Subdivisions at the development edge of Macomb Township back against active or recently harvested agricultural land. Field mice and deer mice from that open land move toward heated residential structures each October as their outdoor food sources diminish. The source population in agricultural land is substantially larger than the scattered suburban population in established communities, which is why the fall mouse pressure at the development edge is more intense and more sustained.",
+      },
+      {
+        question: "Are the retention ponds in Macomb Township subdivisions a real mosquito problem?",
+        answer:
+          "Yes. The shallow, vegetated edges of retention ponds warm quickly in sun and provide productive mosquito breeding habitat near many residential backyards. Homes within a few hundred yards of a pond with vegetated edges see sustained mosquito pressure through the summer. A barrier spray program targeting resting areas in your yard, reapplied every two to three weeks, is the most effective residential management for this situation.",
+      },
+      {
+        question: "Are stink bugs worse near Macomb Township's agricultural areas?",
+        answer:
+          "Yes. Stink bugs feed on soybeans, corn, and other agricultural crops through the summer, so subdivisions at the edge of farmland have a large nearby stink bug population. When temperatures drop in September and October, those insects move toward buildings. Homes at the agricultural edge experience this transition directly, and the invasion pressure is heavier than in subdivisions farther from active farmland.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Shelby Township", slug: "shelby-township-mi" },
+      { name: "Clinton Township", slug: "clinton-township-mi" },
+      { name: "Romeo", slug: "romeo-mi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Macomb, MI | Mice, Mosquitoes & Stink Bugs",
+    metaDescription:
+      "Macomb Township MI pest control for field mice at agricultural edges, retention pond mosquitoes, and stink bugs. Licensed applicator. Free inspection.",
+  },
+  {
+    slug: "shelby-township-mi",
+    name: "Shelby Township",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~77,000",
+    county: "Macomb County",
+    climate: "cold-humid",
+    climateDriver:
+      "Shelby Township is an affluent Macomb County community with large wooded lots, established mature tree canopy, and a mix of newer high-end homes and established subdivisions from the 1970s through 1990s. The Great Lakes cold-humid climate combined with the wooded lot character creates strong carpenter ant, stink bug, and yellow jacket pressure alongside predictable fall mouse activity.",
+    topPests: [
+      "Carpenter Ants",
+      "Brown Marmorated Stink Bugs",
+      "Yellow Jackets",
+      "House Mice",
+      "Eastern Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Shelby Township's large wooded lots and mature hardwood canopy provide abundant carpenter ant habitat. The older trees on established properties have developed the heartwood decay that carpenter ants use for parent colonies, with foraging routes that extend directly to nearby structures. This is one of Macomb County's more consistent carpenter ant environments.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Shelby Township's wooded residential character and the preserved green corridors throughout the community generate significant stink bug populations. Fall invasions into the larger homes with extensive exterior surface area are consistent and often heavy.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak July through October",
+        note: "Yellow jackets thrive in Shelby Township's wooded lots, establishing ground nests in the leaf litter and soft soil of wooded areas and along the bermed edges of larger properties. By August, colonies on larger wooded lots can reach aggressive peak size well away from any regular activity, until someone mows or walks near the nest.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak October through November",
+        note: "Michigan's cold winters drive mice into Shelby Township homes each fall. Even on larger, newer properties, the utility penetrations around HVAC systems, the garage door frame gaps, and the connection points between attached garages and the main structure are standard mouse entry points.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Termites are present in Macomb County. Shelby Township's older homes from the 1970s and 1980s with wood decking, crawl spaces, or wood landscape features near the foundation carry real termite risk. Annual inspections are the appropriate standard for these properties.",
+      },
+    ],
+    localHook:
+      "Shelby Township's large wooded lots are genuinely attractive. They are also why I find carpenter ant satellite colonies in this community more often than almost anywhere else in Macomb County. A lot with multiple mature oaks and maples will almost certainly have carpenter ant colonies in some of those trees, and the foraging workers follow the branches to the roofline with no obstacles. The trees are the source, and the house is the destination.",
+    intro:
+      "Pest control in Shelby Township starts with the trees. The community's wooded residential lots, with their mature oaks, maples, and hardwoods developed over 40 to 60 years of residential growth, provide more carpenter ant habitat per acre than most Michigan communities. The same wooded character that makes Shelby Township's properties attractive creates a summer-long carpenter ant management challenge and a fall that brings stink bugs and yellow jacket encounters as colonies reach peak size in the understory. House mice, driven indoors by Michigan's cold winters, follow in October. The pest calendar in Shelby Township is full, and it requires a seasonal approach rather than a reactive one.",
+    sections: [
+      {
+        heading: "Managing carpenter ants on wooded Shelby Township properties",
+        body: "Carpenter ant management in Shelby Township is not primarily a structural problem. It is a property management problem. The parent colonies are in the trees, and they will be there as long as trees are present. What can be managed is the satellite colony establishment inside the home. The key interventions are regular inspection of any moisture-damaged wood in the structure, particularly deck framing, roof edge trim, and the wood around older windows, plus perimeter treatment to intercept foraging workers before they find a satellite nesting site. Trimming any tree branch that contacts the roofline is the single most impactful preventive step on a wooded property. A branch touching the roof is a direct expressway for carpenter ants from a tree colony to the attic structure. Keeping that gap enforces the one intervention that slows colony establishment inside the home.",
+      },
+      {
+        heading: "Yellow jackets on larger wooded lots",
+        body: "Yellow jackets become a real hazard on Shelby Township's larger wooded properties in late summer. Colonies establish in spring in concealed ground sites or in hollow tree cavities, and they work unseen through June and July while growing to their peak summer population. By August, a colony in the back section of a wooded lot may have 1,000 or more workers and will respond aggressively to vibration from a lawn mower, a dog, or a person walking near the nest. The first sign of a ground nest is often a sting event, not a visual discovery. If you find an active yellow jacket ground nest on a Shelby Township property, the treatment approach is straightforward: a dust application into the nest entrance in the evening when the colony is inside, followed by re-treatment in 48 hours if activity continues. Do not block the entrance during the day, which forces defensive behavior through alternative openings.",
+      },
+    ],
+    prevention: [
+      "Trim all tree limbs that contact the roofline to eliminate carpenter ant access routes.",
+      "Inspect deck framing, roof trim, and older window frames annually for moisture damage.",
+      "Walk wooded lot sections in spring to identify yellow jacket ground nest sites before mowing season.",
+      "Seal utility penetrations and garage-to-house connection gaps before October mouse entry season.",
+      "Schedule termite inspections for properties with 1970s or 1980s construction and wood landscape features.",
+    ],
+    costNote:
+      "Shelby Township pest control on wooded properties is typically a seasonal perimeter program covering carpenter ants and yellow jackets through the warm months, with a fall exclusion visit for rodents. Termite treatment is quoted separately. Free assessments available.",
+    faqs: [
+      {
+        question: "Can I eliminate carpenter ants on my Shelby Township wooded property?",
+        answer:
+          "Eliminating carpenter ants entirely from a property with mature wooded lots is not realistic, because the parent colonies in older trees will persist as long as the trees are present. What can be achieved is preventing satellite colony establishment inside your home through regular structural inspection for moisture-damaged wood, perimeter treatment to intercept foraging ants, and trimming any branches that contact the roofline. The goal is keeping the ants in the trees, not the structure.",
+      },
+      {
+        question: "Are yellow jacket ground nests on my wooded Shelby Township lot dangerous?",
+        answer:
+          "Yes, in late summer when colonies reach peak size. A colony of 1,000 or more workers will respond aggressively to vibration or approach near the nest. Ground nests in mowed lawn or high-traffic areas need to be treated promptly. Nests in the back of a wooded lot away from activity can be left alone or treated in the evening with dust. Never block the entrance during the day.",
+      },
+      {
+        question: "How do mice typically enter Shelby Township homes?",
+        answer:
+          "The most common entry points I find in Shelby Township are the gap around the dryer vent exterior cap, the utility penetrations for gas lines and outdoor hose bibs, the connection between the attached garage and the main house, and the foundation sill plate area on older construction. These points need to be inspected and sealed in September before the October mouse entry surge.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Macomb", slug: "macomb-mi" },
+      { name: "Sterling Heights", slug: "sterling-heights-mi" },
+      { name: "Clinton Township", slug: "clinton-township-mi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Shelby Township, MI | Carpenter Ants & More",
+    metaDescription:
+      "Shelby Township MI pest control for carpenter ants on wooded lots, yellow jackets, stink bugs, and mice. Licensed Macomb County applicator. Free inspection.",
+  },
+  {
+    slug: "waterford-mi",
+    name: "Waterford",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~72,000",
+    county: "Oakland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Waterford Township is an older Oakland County community with numerous inland lakes and wetlands, and a substantial housing stock built from the 1940s through 1970s. The lakes and wetland areas create significant mosquito pressure through the summer, while the older construction provides consistent mouse and carpenter ant entry points.",
+    topPests: [
+      "Carpenter Ants",
+      "Mosquitoes",
+      "House Mice",
+      "Yellow Jackets",
+      "Eastern Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Waterford's numerous lake-adjacent wooded areas and the mature tree canopy of its older residential neighborhoods create one of the more consistent carpenter ant environments in Oakland County. The lake-side properties with moisture exposure and aging wood are particularly prone to satellite colony establishment.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Waterford Township has more than 30 inland lakes within its boundaries, and the wetland edges of those lakes provide persistent mosquito breeding habitat throughout the community. Lakefront properties and those adjacent to wetland buffer zones see the highest summer mosquito pressure in Oakland County.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak October through November",
+        note: "Waterford's older housing stock from the 1940s through 1970s has the settled foundations, aging utility seals, and worn construction details that give mice reliable fall entry. The lake-adjacent neighborhoods with older cottage-style homes see particularly consistent mouse pressure.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak July through October",
+        note: "Yellow jackets establish ground nests in Waterford's wooded lakeside areas and in the landscaping of older residential properties throughout the township. Disturbing a hidden ground nest while mowing or gardening is a common late-summer incident in Waterford.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Waterford's older housing stock and the lake-adjacent properties with higher soil moisture create termite risk above the Oakland County average. Older cottage-style homes near the lakes with crawl spaces and aging wood construction are the primary risk properties.",
+      },
+    ],
+    localHook:
+      "Waterford has more than 30 inland lakes and the pest calendar reflects it. The mosquito season near Cass Lake, Pontiac Lake, Elizabeth Lake, and the dozens of smaller lakes in between runs from May through September with sustained intensity. Properties within a few hundred yards of any lake edge see mosquito pressure that barrier spray programs can manage but cannot eliminate, because the breeding source is the lake wetland edge, not something on the property itself.",
+    intro:
+      "Pest control in Waterford is shaped by lakes. The township has more than 30 inland lakes, and the wetland edges of those lakes are one of Oakland County's most productive mosquito environments. Properties adjacent to Cass Lake, Pontiac Lake, Elizabeth Lake, and the many smaller lakes throughout the community see summer-long mosquito pressure. Beyond the lake factor, Waterford's older housing stock, much of it built in the postwar decades as cottage properties and summer homes that became year-round residences, carries the aging construction and moisture history that produces carpenter ant and mouse problems in abundance.",
+    sections: [
+      {
+        heading: "The lake edge mosquito environment",
+        body: "Waterford's inland lakes are a genuine mosquito management challenge because the breeding habitat is in the lake wetland edges, not on the residential property. That means source reduction on the property alone, eliminating standing water in containers and drainage features, addresses only a fraction of the breeding. The productive sites are the shallow, vegetated lake edges, the cattail marshes, and the wetland buffers that the township and state conservation easements protect. A residential mosquito management program in Waterford needs to focus on where adult mosquitoes rest during the day: the undersides of shrubs, low vegetation, and shaded areas around the yard. Barrier spray applied to those resting sites keeps adult populations controlled at the property level even when the lake edge continues producing new mosquitoes throughout the season. Treatments need to be reapplied every two to three weeks through the summer.",
+      },
+      {
+        heading: "Older housing and the carpenter ant risk near lake properties",
+        body: "Many of Waterford's lake-adjacent homes began as seasonal cottages in the 1940s and 1950s and were converted to year-round residences over decades. That history shows in the pest activity. Older construction with original crawl spaces, lake-side moisture exposure from seasonal flooding and high humidity, and decades of accumulated moisture damage in decks, dock houses, and wood trim creates excellent conditions for carpenter ant satellite colony establishment. I find carpenter ant nests in Waterford lake properties in the most moisture-exposed wood: the floor joists in crawl spaces near the lake-facing foundation, the exterior wood trim on the north and west elevations, and the decking on older dock structures connected to the home. Treatment addresses the satellite sites and the moisture source. Without fixing the moisture, the colonies return to the same locations.",
+      },
+    ],
+    prevention: [
+      "Run mosquito barrier treatments from May through September if your property is near a Waterford lake edge.",
+      "Inspect crawl spaces and lake-facing exterior wood annually for moisture damage and carpenter ant activity.",
+      "Seal foundation gaps and utility penetrations before October to stop the fall mouse entry.",
+      "Check for yellow jacket ground nests in wooded yard areas before the height of mowing season.",
+      "Schedule termite inspections for older cottage-style homes near the lakes.",
+    ],
+    costNote:
+      "Waterford pest control frequently includes a seasonal mosquito program combined with a quarterly general plan. Lake-adjacent properties benefit from an annual structural inspection for carpenter ant and moisture damage. Free assessments available across Oakland County.",
+    faqs: [
+      {
+        question: "Why are mosquitoes so persistent near Waterford's lakes even with treatment?",
+        answer:
+          "The breeding habitat in Waterford is primarily in the wetland edges of the 30-plus inland lakes, not on individual properties. Eliminating standing water on your property helps but addresses only a small fraction of the breeding. A barrier spray program targeting where adult mosquitoes rest during the day in your yard is the practical management approach. It controls the population at the property level but cannot stop new mosquitoes from arriving from the lake edges nearby.",
+      },
+      {
+        question: "Are Waterford's older lake cottages at higher termite risk?",
+        answer:
+          "Yes. Older cottage-style homes near the lake edges often have original crawl spaces with high humidity from lake-adjacent ground moisture, aging wood construction that has seen decades of seasonal moisture variation, and in many cases original wood that was never pressure-treated. Eastern subterranean termites are present in Oakland County, and these properties have the conditions termites favor. Annual inspections are the appropriate standard.",
+      },
+      {
+        question: "How do carpenter ants get into Waterford lake properties?",
+        answer:
+          "Carpenter ants from parent colonies in older lakeside trees follow branches to the structure or travel across the ground to any moisture-damaged wood they find. The most common satellite colony sites in Waterford lake properties are crawl space floor joists with moisture exposure from the lake-facing foundation, exterior deck and dock framing with age-related wood decay, and north or west facing wood trim with old paint failure. An inspection identifies which of these applies and allows targeted treatment.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Pontiac", slug: "pontiac-mi" },
+      { name: "West Bloomfield", slug: "west-bloomfield-mi" },
+      { name: "Commerce Township", slug: "commerce-township-mi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Waterford, MI | Mosquitoes, Ants & Lake Homes",
+    metaDescription:
+      "Waterford Township MI pest control for lake-edge mosquitoes, carpenter ants in older homes, mice, and yellow jackets. Licensed Oakland County applicator. Free inspection.",
+  },
+  {
+    slug: "west-bloomfield-mi",
+    name: "West Bloomfield",
+    state: "Michigan",
+    stateSlug: "michigan",
+    stateAbbr: "MI",
+    tier: "T3",
+    population: "~64,000",
+    county: "Oakland County",
+    climate: "cold-humid",
+    climateDriver:
+      "West Bloomfield Township is an affluent Oakland County community with numerous lakes, heavily wooded lots, and a mix of larger newer homes and established properties from the 1960s through 1980s. The lake-and-woods landscape creates significant carpenter ant, stink bug, yellow jacket, and mosquito pressure, and the community's larger homes with complex rooflines and extensive exterior surface create more pest entry opportunities.",
+    topPests: [
+      "Carpenter Ants",
+      "Brown Marmorated Stink Bugs",
+      "Yellow Jackets",
+      "House Mice",
+      "Eastern Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "West Bloomfield's heavily wooded lots with mature hardwood trees are prime carpenter ant territory. The community has some of Oakland County's most established tree canopy, and the large, older trees on properties adjacent to the many lakes provide persistent carpenter ant colony habitat near high-value homes.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs have established in Oakland County. West Bloomfield's wooded residential character and the larger home exterior surfaces with more potential entry points create a consistent fall invasion challenge. Complex rooflines and multiple exterior penetrations on larger homes provide more entry vectors.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak July through October",
+        note: "Yellow jackets establish ground nests and paper nests in West Bloomfield's wooded lots and the lake-edge vegetation throughout the community. On larger properties with substantial wooded areas, multiple nests can form in a single season without the homeowner knowing until late summer.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak October through November",
+        note: "West Bloomfield's larger homes with attached garages, complex rooflines, and more exterior surface area have more potential mouse entry points. Michigan's cold winters drive mice into any gap they can find in October. Even well-maintained larger homes develop the construction gaps that mice use over time.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through May, active spring through fall",
+        note: "Termites are present in Oakland County. West Bloomfield properties with wooded lots retain lake-adjacent soil moisture that favors termite activity. Older homes from the 1960s and 1970s with original crawl spaces are at the highest risk.",
+      },
+    ],
+    localHook:
+      "West Bloomfield's larger homes on wooded lots create a pest management challenge that smaller properties do not face: more exterior surface means more entry points, more wooded area means more carpenter ant and yellow jacket habitat, and more complex rooflines mean more stink bug entry opportunities in fall. A 4,000-square-foot home on two wooded acres in West Bloomfield has a meaningfully different pest management profile than a similar home on a cleared quarter-acre lot.",
+    intro:
+      "Pest control in West Bloomfield scales with the property. The community's larger homes on wooded lakeside lots create a pest environment where more surface area, more trees, and more wooded lot depth all translate to more pest access and more habitat. The carpenter ant colonies in the mature oak and maple trees on a West Bloomfield property find a larger and more complex structure to explore than in a smaller suburban development. Stink bugs entering a home with a complex roofline and multiple architectural features have more sealing points to find. Yellow jackets establishing in three acres of wooded backyard are farther from daily human activity and grow to larger colony sizes undisturbed. Managing pest pressure in West Bloomfield means thinking at the property scale, not just the perimeter.",
+    sections: [
+      {
+        heading: "Carpenter ants and the large wooded lot challenge",
+        body: "West Bloomfield's wooded lots, many of them an acre or more with mature canopy, give carpenter ants both the colony habitat they need and the distance to work undisturbed. A parent colony in a large oak 60 feet from the house may send foraging workers to the structure for months before the homeowner notices activity indoors. The inspection process on a larger wooded West Bloomfield property is more involved: I walk the tree canopy looking for large trees with visible decay at the base or in old branch wounds, trace the likely foraging routes toward the structure, and then inspect the structure itself for moisture-damaged wood at every potential satellite site. Treatment on these properties is a combination of perimeter spray, targeted branch removal where limbs contact the structure, and injection of any satellite colonies found inside. The goal is establishing a barrier between the wooded lot and the structure, not eliminating the trees.",
+      },
+      {
+        heading: "Stink bug exclusion on larger West Bloomfield homes",
+        body: "The larger footprint of West Bloomfield's homes means the stink bug exclusion job is proportionally larger. A home with a complex roofline, multiple dormers, attached garage connections, a finished walkout basement, and extensive exterior trim has many more potential stink bug entry points than a simple ranch. I work through the exterior systematically in August on these properties: the roofline ventilation, the ridge cap and soffit edges, all window frames, exterior outlet and fixture penetrations, the garage door frame, and any utility line entries. Foam sealant and exterior caulk are the materials. The work done in August before the September movement begins makes a meaningful difference in how many stink bugs spend the winter in wall voids and attic spaces. For a large West Bloomfield home, this preventive visit is genuinely worth the investment.",
+      },
+    ],
+    prevention: [
+      "Walk wooded lot areas in late spring to identify yellow jacket nest sites before they reach peak colony size.",
+      "Schedule a systematic exterior sealing visit in August before stink bug fall movement begins.",
+      "Inspect large trees near the structure for heartwood decay that indicates carpenter ant colonies.",
+      "Seal all exterior utility penetrations, roofline edges, and garage door frames before October.",
+      "Keep an annual termite inspection on the calendar for older West Bloomfield homes near the lakes.",
+    ],
+    costNote:
+      "West Bloomfield pest control on larger wooded properties is typically structured as a seasonal perimeter program with targeted add-on visits for stink bug exclusion, yellow jacket removal, and carpenter ant treatment. Termite protection is quoted separately. Free assessments available.",
+    faqs: [
+      {
+        question: "Do larger West Bloomfield homes have more pest problems than smaller ones?",
+        answer:
+          "More pest access opportunities, yes. A larger home with a complex roofline, multiple exterior penetrations, and an attached garage has more entry points for stink bugs, mice, and carpenter ants. A larger wooded lot provides more habitat for carpenter ant parent colonies and yellow jacket nests. The fundamentals of pest management are the same, but the scope of exclusion work and the inspection process is proportionally larger on bigger properties.",
+      },
+      {
+        question: "How do I find carpenter ant colonies on a large West Bloomfield lot?",
+        answer:
+          "Signs to look for include large black ants (3/4 inch or larger) seen consistently indoors from April through September, sawdust-like frass in a concentrated area near the foundation or at the base of wall trim, and hollow-sounding wood when tapped in areas near moisture. A professional inspection traces the foraging routes and identifies both the likely parent colony trees and any satellite nesting sites inside the structure.",
+      },
+      {
+        question: "Are the lakes in West Bloomfield a mosquito source?",
+        answer:
+          "The lakes themselves with open water and fish populations are less productive for mosquitoes than the vegetated shallow edges and wetland buffers around them. West Bloomfield properties adjacent to lake edges with cattail areas or shallow marshy margins see sustained mosquito pressure through the summer. A barrier spray program targeting resting areas in the yard manages the adult population effectively at the property level.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Waterford", slug: "waterford-mi" },
+      { name: "Bloomfield Hills", slug: "bloomfield-hills-mi" },
+      { name: "Farmington Hills", slug: "farmington-hills-mi" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in West Bloomfield, MI | Ants, Stink Bugs & More",
+    metaDescription:
+      "West Bloomfield MI pest control for carpenter ants, stink bugs, yellow jackets, and mice on wooded lake lots. Licensed Oakland County applicator. Free inspection.",
+  },
 ];

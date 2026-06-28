@@ -4379,4 +4379,519 @@ export const newJerseyCities: CityLocation[] = [
     metaTitle: "Pest Control in Livingston, NJ | Carpenter Ants & Yellow Jackets",
     metaDescription: "Livingston NJ pest control for carpenter ants and yellow jackets on large wooded Essex County lots. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "lakewood-nj",
+    name: "Lakewood",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~134,000",
+    county: "Ocean County",
+    climate: "hot-humid",
+    climateDriver:
+      "Lakewood is one of New Jersey's most densely populated townships, with dense multi-family residential development and significant population growth that has strained older housing infrastructure. The hot humid mid-Atlantic climate sustains year-round cockroach and rodent pressure, while the dense housing stock creates rapid pest spread between units.",
+    topPests: [
+      "German Cockroaches",
+      "House Mice",
+      "Bed Bugs",
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Lakewood's extremely dense multi-family housing and the older apartment stock in the central township create ideal conditions for German cockroach spread through shared plumbing walls and utility chases. Single-unit treatments without building-wide coordination rarely produce lasting results here.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak October through February",
+        note: "The density of Lakewood's residential development and the range of housing ages, from older Victorian-era homes in central Lakewood to 1970s apartment blocks, give mice abundant entry points and connected harborage in a compact area.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Lakewood's large rental housing market and significant transient population create consistent bed bug introduction events across the township. Dense multi-family housing allows rapid spread between units once an introduction occurs.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Ocean County has active subterranean termite populations. Lakewood's older single-family homes and the Victorian-era housing stock in central Lakewood have aging wood construction that is at real risk for termite damage without active protection.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are present across Lakewood, particularly in the older neighborhoods with mature trees and wood-framed homes. Moisture-damaged wood in aging construction is the primary nesting site.",
+      },
+    ],
+    localHook:
+      "Lakewood is one of the fastest-growing and most densely populated townships in New Jersey, and the housing stock reflects that growth in layers. Older Victorian homes in central Lakewood sit next to 1970s apartment blocks next to newer developments, and the pest environment reflects that mix. German cockroach calls come from the dense apartment buildings. Termite calls come from the older single-family homes. Mouse calls come from everywhere.",
+    intro:
+      "Pest control in Lakewood operates at scale. The township's remarkable population density, nearly 7,000 people per square mile in some areas, concentrates pest pressure in ways that lower-density Ocean County communities do not experience. German cockroaches thrive in the dense multi-family housing where shared plumbing walls connect building-wide populations. Mice find abundant entry points in both the older central-township housing and the newer but crowded residential developments. Bed bugs circulate in the active rental market. Termite risk is real in the older single-family housing stock. Working effectively in Lakewood means understanding that pest management here is rarely a one-unit problem.",
+    sections: [
+      {
+        heading: "German cockroaches in Lakewood's multi-family buildings",
+        body: "German cockroaches are the dominant residential pest complaint I handle in Lakewood, and the density of the housing is the reason they are so difficult to control. In a building where dozens of units share plumbing walls and utility chases, a cockroach population that is driven out of one unit simply relocates to an adjacent unit and returns when the treatment pressure fades. The treatment approach that actually works here is coordinated: gel bait and insect growth regulators placed in harborage areas across multiple affected units simultaneously, with building management involved to ensure consistent access and follow-through. A single-unit spray treatment without building coordination is the pest control approach I see fail most consistently in Lakewood's apartment stock.",
+      },
+      {
+        heading: "Termites in central Lakewood's older housing",
+        body: "The older single-family homes and Victorian-era housing in central Lakewood near the Lake Carasaljo corridor represent real termite risk. These homes were built in the early to mid-20th century with wood framing that has had decades of seasonal moisture variation and limited crawl space ventilation. Eastern subterranean termites in Ocean County are active and swarm in late March and April. Signs that a colony is already active include mud tubes on foundation walls, hollow-sounding floor boards near the sill plate, and discarded wings near basement windows in spring. Annual inspections for these older properties are not optional in Ocean County. The damage a colony does between inspections is the cost of skipping them.",
+      },
+    ],
+    prevention: [
+      "Coordinate cockroach treatment with property management across adjacent units in multi-family buildings.",
+      "Inspect second-hand furniture for bed bugs before bringing it into a Lakewood apartment.",
+      "Seal foundation gaps and utility penetrations to reduce mouse entry in older homes.",
+      "Schedule annual termite inspections for older central Lakewood homes with crawl spaces.",
+      "Keep wood mulch and debris away from foundations to reduce termite access.",
+    ],
+    costNote:
+      "Lakewood pest control pricing varies by property type. Multi-family cockroach and rodent service is most cost-effective when coordinated across units. Bed bug remediation is quoted per unit after inspection. Termite protection is separate. Free assessments available.",
+    faqs: [
+      {
+        question: "Why is cockroach control so difficult in Lakewood apartment buildings?",
+        answer:
+          "Lakewood's dense multi-family housing creates connected building environments where German cockroaches move between units through shared plumbing walls and utility chases. Treating one unit while adjacent units go untreated produces only temporary results. Building-wide coordinated treatment across affected units, involving property management, is the approach that produces lasting control.",
+      },
+      {
+        question: "Are termites a real concern in older Lakewood homes?",
+        answer:
+          "Yes. The older single-family and Victorian-era homes in central Lakewood have aged wood construction and often limited crawl space ventilation. Eastern subterranean termites are active in Ocean County and swarm in late March and April. Annual inspections for these properties are the practical standard. The damage done between inspections is the cost of skipping them.",
+      },
+      {
+        question: "How do I reduce bed bug risk in a Lakewood rental?",
+        answer:
+          "Inspect any second-hand furniture before bringing it indoors, particularly upholstered items. If you are moving into a new unit, request evidence that the unit was inspected before occupancy. If you find signs of bed bugs, report immediately to your landlord. Under New Jersey law, landlords have obligations regarding bed bug disclosure and remediation. Do not try to treat bed bugs with over-the-counter sprays, which scatter the population and make professional treatment harder.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Brick", slug: "brick-nj" },
+      { name: "Toms River", slug: "toms-river-nj" },
+      { name: "Jackson", slug: "jackson-nj" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Lakewood, NJ | Roaches, Mice & Bed Bugs",
+    metaDescription:
+      "Lakewood NJ pest control for German cockroaches, mice, bed bugs, and termites in dense multi-family housing. Licensed applicator. Free inspection.",
+  },
+  {
+    slug: "hamilton-nj",
+    name: "Hamilton",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~92,000",
+    county: "Mercer County",
+    climate: "hot-humid",
+    climateDriver:
+      "Hamilton is a large central New Jersey township with a mix of older residential neighborhoods, industrial and commercial areas, and suburban development built across several decades. The hot humid climate of the Raritan Valley region sustains year-round rodent and cockroach pressure, and the older residential stock creates consistent stink bug and termite risk.",
+    topPests: [
+      "House Mice",
+      "German Cockroaches",
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+      "Brown Marmorated Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak October through February",
+        note: "Hamilton's older residential stock from the 1940s through 1970s, particularly in the Mercerville and Hamilton Square areas, has aging construction with settled foundations and worn utility penetrations that give mice consistent access in fall. The mix of residential and light industrial areas in some Hamilton corridors creates mouse movement between food-source-rich commercial environments and neighboring homes.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Hamilton's older apartment buildings and in the commercial and light industrial corridors around the township. Residential buildings adjacent to commercial food service environments see spillover cockroach pressure.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Mercer County has consistent subterranean termite pressure. Hamilton's large stock of older single-family homes, particularly those built before 1970 with original crawl spaces and aging wood construction, is at real termite risk.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are present across Hamilton's older residential neighborhoods with mature tree canopy. The aging wood framing and moisture-prone construction details in older Hamilton homes provide nesting sites that newer construction typically does not.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Mercer County is in the established mid-Atlantic stink bug range. Hamilton's proximity to agricultural areas in Mercer County's southern sections and the wooded stream corridors throughout the township create foraging habitat that feeds fall invasions into residential areas.",
+      },
+    ],
+    localHook:
+      "Hamilton is a big township, one of the largest in New Jersey by land area, and the pest profile reflects that diversity. The Mercerville and Hamilton Square neighborhoods with their older housing stock see consistent termite and mouse pressure. The corridors near Route 1 and the industrial sections see cockroach pressure from commercial spillover. And the agricultural edges in the southern part of the township generate stink bug pressure each fall that the more suburban areas of Hamilton do not experience at the same level.",
+    intro:
+      "Pest control in Hamilton requires understanding which part of the township you are in. The older residential neighborhoods of Mercerville and Hamilton Square, with their 1940s and 1950s housing stock, face consistent termite, mouse, and carpenter ant pressure from aging construction. The commercial corridors along Route 1 and around the SEPTA rail corridor create cockroach environments that can affect adjacent residential buildings. The southern sections bordering Mercer County farmland see heavy stink bug pressure each fall. Hamilton is a community where a one-size approach to pest control misses the point.",
+    sections: [
+      {
+        heading: "Older housing stock and termite risk in Hamilton Square and Mercerville",
+        body: "Hamilton's older residential neighborhoods were built primarily in the 1940s through 1960s, and the homes in Hamilton Square and Mercerville represent some of Mercer County's most at-risk termite properties. These homes have original wood framing that has been through 60 to 80 years of New Jersey's humid climate, crawl spaces with limited ventilation in many cases, and foundation plantings that have grown up against wood siding over decades. Eastern subterranean termites swarm in Mercer County in March and April, and a colony can work in a crawl space for years before a homeowner sees any surface evidence. Wood that sounds hollow when tapped, mud tubes on the foundation walls, and discarded termite wings near basement windows in spring are the signs to look for. If your Hamilton home was built before 1970 and has never had a termite inspection, that is the first call to make.",
+      },
+      {
+        heading: "Mice in fall and the exclusion standard",
+        body: "Hamilton's fall mouse season is predictable and consistent in the older residential neighborhoods. As October temperatures drop, mice seek heated shelter, and the gaps in 50-to-80-year-old construction give them plenty of options. I see the same entry points repeatedly: the gap around the dryer vent where the exterior cap has lost its seal, the utility line penetration under the kitchen sink where original caulk has cracked away, the foundation sill in older homes where the wood has settled away from the masonry. These entry points do not require guesswork. An exterior inspection reveals them, and sealing them with copper mesh and exterior caulk or foam provides lasting protection. Snap traps and glue boards address the mice already inside, but without the exclusion work, you are trapping a population that is being constantly resupplied from outside.",
+      },
+    ],
+    prevention: [
+      "Schedule termite inspections for pre-1970 homes in Hamilton Square and Mercerville.",
+      "Inspect the exterior for mouse entry points each September before fall rodent season.",
+      "Seal gaps around dryer vents, utility penetrations, and foundation sills with copper mesh and caulk.",
+      "Keep mulch beds away from foundation wood and siding to reduce termite access.",
+      "Caulk around windows and exterior outlets in August to limit stink bug entry.",
+    ],
+    costNote:
+      "Hamilton pest control is typically quoted as a quarterly general plan. Termite protection is priced separately after inspection. Exclusion work for rodents is quoted based on the exterior inspection findings. Free assessments are available across Mercer County.",
+    faqs: [
+      {
+        question: "How do I know if my Hamilton home has termites?",
+        answer:
+          "Signs to look for include mud tubes on the foundation walls or crawl space piers, wood that sounds hollow when tapped near the foundation, discarded termite wings near basement windows or doors in March and April, and bubbling or discolored paint on wood surfaces near grade. In many cases there are no obvious signs until significant damage has already occurred, which is why annual inspections for older Hamilton homes are the practical standard.",
+      },
+      {
+        question: "Why do mice come into my Hamilton home every fall?",
+        answer:
+          "Mice follow temperature cues. As outdoor temperatures drop in October, they actively search for heated shelter and follow scent trails to gaps in the building exterior. In Hamilton's older homes, those gaps are structural and predictable. Without sealing them, mice will enter at the same points every year. An exterior inspection in September identifies those entry points, and sealing them before October stops the cycle.",
+      },
+      {
+        question: "Are stink bugs worse in southern Hamilton near the farmland?",
+        answer:
+          "Yes. The sections of Hamilton bordering agricultural areas in southern Mercer County tend to see heavier stink bug pressure than the more suburban central neighborhoods. Stink bugs feed on crops and agricultural plants through the summer, then move toward buildings in fall when they seek overwintering sites. Properties at the agricultural edge experience that transition directly.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Trenton", slug: "trenton-nj" },
+      { name: "Lawrence Township", slug: "lawrence-township-nj" },
+      { name: "Ewing", slug: "ewing-nj" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Hamilton, NJ | Mice, Termites & Cockroaches",
+    metaDescription:
+      "Hamilton NJ pest control for mice, termites, cockroaches, stink bugs, and carpenter ants. Licensed Mercer County applicator. Free inspection available.",
+  },
+  {
+    slug: "brick-nj",
+    name: "Brick",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~75,000",
+    county: "Ocean County",
+    climate: "hot-humid",
+    climateDriver:
+      "Brick Township sits along the Barnegat Bay shore in Ocean County, with tidal wetlands, freshwater ponds, and the Metedeconk River creating significant mosquito habitat adjacent to residential areas. The mix of year-round homes and seasonally-used shore properties creates unique pest pressure patterns, particularly for mice and termites in properties left unoccupied through winter.",
+    topPests: [
+      "House Mice",
+      "Mosquitoes",
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak in seasonally-occupied homes October through April",
+        note: "Brick's mix of year-round and seasonal shore properties creates a specific mouse pattern. Seasonal homes left unoccupied through fall and winter give mice undisturbed access to food, warmth, and nesting materials for months. When owners return in spring, the evidence of that occupancy is everywhere.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Barnegat Bay tidal wetlands, the Metedeconk River corridor, and the numerous freshwater ponds throughout Brick Township create one of Ocean County's most productive mosquito environments. Shore-side neighborhoods near Barnegat Bay see sustained pressure through the entire summer season.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Brick's coastal moisture environment and the warm humidity of Ocean County create elevated subterranean termite pressure. The older Cape Cod and ranch homes from the 1950s through 1970s near the Barnegat Bay shoreline are among the highest-risk properties in Ocean County.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are present across Brick's residential areas, particularly in the older neighborhoods with mature trees and in homes with any moisture-damaged wood from winter storm exposure. Shore properties with aging wood decks and siding are common carpenter ant infestation sites.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak July through October",
+        note: "Yellow jackets establish ground nests in Brick's wooded residential areas and the undisturbed vegetation around retention ponds and the bay edges. They become aggressive in late summer and early fall as colonies reach peak size, which coincides with outdoor activity season at shore properties.",
+      },
+    ],
+    localHook:
+      "Seasonal homes in Brick are a specific mouse problem that year-round residents in landlocked communities do not face. A shore house left closed from October through May gives mice five or six months of undisturbed access. I have opened properties in spring that had full mouse nests in kitchen cabinets, chewed wiring insulation in the walls, and droppings across every surface. The prevention is straightforward, but it has to happen before the property is closed for winter, not after.",
+    intro:
+      "Pest control in Brick runs on two different timelines depending on whether you are talking about year-round homes or seasonal shore properties. Year-round residents deal with the standard Ocean County pest calendar: mosquitoes from May through September near the Barnegat Bay and the Metedeconk River wetlands, termite swarms in spring, yellow jackets in late summer. Seasonal property owners face an additional challenge: what happens to their closed home during the months they are not there. Mice find an unoccupied shore house a nearly perfect winter habitat, and the damage they do in a season of undisturbed access can be significant.",
+    sections: [
+      {
+        heading: "Protecting seasonal properties from mice over winter",
+        body: "The pest control work I do in Brick most consistently involves preparing seasonal shore homes for an unoccupied winter. The sequence is specific: an exterior inspection in September or early October to find the gaps mice are using to access the structure, sealing those gaps with copper mesh and exterior caulk, interior snap trap placement in the kitchen, basement, and any other areas where mice have been active, and a recommendation to remove food items from the property before closing. Properties that are sealed and prepped before winter closure come back in spring with minimal evidence. Properties that are left unprotected come back with chewed cabinet corners, nest material in the insulation behind the dishwasher, and droppings across kitchen counters. The preparation is a few hundred dollars. The remediation and damage repair is considerably more.",
+      },
+      {
+        heading: "Mosquitoes near the Barnegat Bay wetlands",
+        body: "Brick's position along the Barnegat Bay creates one of Ocean County's more demanding mosquito environments for residential properties. The bay's tidal wetlands generate consistent mosquito populations through the summer, and the freshwater retention ponds and Metedeconk River corridor throughout the township add to the local pressure. Shore-side neighborhoods in Brick are particularly affected. A barrier spray program targeting the undersides of shrubs and low vegetation in the yard where adult mosquitoes rest during the day is the most effective residential approach. Treatments last two to three weeks and should be reapplied through the season. Eliminating standing water in containers, pool covers, and drainage features on the property reduces breeding near the house, but it does not address the bay and wetland sources nearby, which is why the barrier program needs to be sustained.",
+      },
+    ],
+    prevention: [
+      "Seal and prep seasonal shore properties before October closure to prevent mouse entry over winter.",
+      "Remove food items from seasonal homes before closing and place snap traps in key areas.",
+      "Eliminate standing water in containers and pool covers to reduce local mosquito breeding.",
+      "Schedule an annual termite inspection for older homes near the Barnegat Bay shoreline.",
+      "Treat yellow jacket ground nests in the evening when the colony is inside and least aggressive.",
+    ],
+    costNote:
+      "Brick pest control is often structured around a seasonal service plan for year-round homes and a pre-winter prep and post-winter inspection package for seasonal properties. Mosquito barrier service is available May through September. Free assessments available.",
+    faqs: [
+      {
+        question: "How do I protect my Brick shore house from mice over winter?",
+        answer:
+          "The effective approach is to seal the exterior entry points before closing the property in fall. An inspection identifies the gaps around dryer vents, utility penetrations, and the foundation sill that mice are using. Sealing those with copper mesh and caulk, combined with snap trap placement inside and food removal, prevents the winter occupation that causes the most damage. Properties that skip this step consistently return to evidence of months of mouse activity in spring.",
+      },
+      {
+        question: "Why are mosquitoes so bad near the Barnegat Bay in Brick?",
+        answer:
+          "The tidal wetlands along the Barnegat Bay provide consistent, productive mosquito breeding habitat that persists through the entire summer season. Unlike a temporary puddle or a pool that can be managed, the bay wetlands are a large, semi-permanent breeding source that sustains local mosquito populations regardless of what happens on individual properties. A barrier spray program targeting resting areas in your yard is the most effective residential management approach for this environment.",
+      },
+      {
+        question: "Are termites common in older Brick homes near the shore?",
+        answer:
+          "Yes. The coastal moisture environment and Ocean County's warm, humid summers create consistently elevated termite pressure. The older Cape Cod and ranch homes from the 1950s and 1960s near the Barnegat Bay shoreline are among the highest-risk properties in the township. Annual inspections are recommended for any Brick home built before 1980.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Toms River", slug: "toms-river-nj" },
+      { name: "Lakewood", slug: "lakewood-nj" },
+      { name: "Point Pleasant", slug: "point-pleasant-nj" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Brick, NJ | Mice, Mosquitoes & Shore Homes",
+    metaDescription:
+      "Brick NJ pest control for mice in seasonal shore homes, Barnegat Bay mosquitoes, termites, and yellow jackets. Licensed Ocean County applicator. Free inspection.",
+  },
+  {
+    slug: "middletown-nj",
+    name: "Middletown",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~66,000",
+    county: "Monmouth County",
+    climate: "hot-humid",
+    climateDriver:
+      "Middletown Township spans a varied landscape from the Raritan Bay shoreline to wooded inland residential areas in Monmouth County. The wooded lots, deer corridors, and proximity to the shore create elevated tick pressure alongside the standard mid-Atlantic stink bug, mouse, and termite profile.",
+    topPests: [
+      "Brown Marmorated Stink Bugs",
+      "House Mice",
+      "Carpenter Ants",
+      "Deer Ticks",
+      "Eastern Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Middletown's wooded residential lots and the deciduous forest cover throughout inland sections of the township create abundant stink bug habitat. Fall invasions into homes near wooded edges are consistent and heavy in many Middletown neighborhoods.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak October through February",
+        note: "Middletown's mix of older colonial and cape-style homes built in the 1950s through 1970s and newer larger homes on wooded lots creates varied mouse pressure. Older homes have structural entry points. Newer homes on wooded lots have field mice moving in from the surrounding habitat edge.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Middletown's heavily wooded residential lots provide excellent carpenter ant habitat. Large oaks, maples, and mature hardwoods throughout the inland sections develop the heartwood decay that carpenter ants prefer for parent colony nesting, with foraging trails extending to nearby homes.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Peak May through July and October through November, adults active in warm winter months",
+        note: "Middletown's wooded lots and the deer corridors running through the township's inland sections create one of Monmouth County's more tick-active residential environments. Lyme disease is endemic in this region of New Jersey. The nymphal stage in May through July is the highest-risk period because of the tick's small size and the difficulty of detection.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Monmouth County has active subterranean termite populations. Middletown's wooded lots retain moisture near foundations that favors termite activity, and the older sections of the township have the aging wood construction that makes termite damage more likely.",
+      },
+    ],
+    localHook:
+      "Middletown's inland wooded residential areas are among the more tick-active environments in Monmouth County. The deer corridors running through the township bring black-legged ticks to the yard edges of homes that are nowhere near a park or preserve. I conduct tick treatments in Middletown neighborhoods where the lot backs up to nothing more than a neighbor's property line, but the deer moving through at night drop ticks in the yard that are as active as anything you would find at the edge of a nature reserve.",
+    intro:
+      "Pest control in Middletown covers a wider range than most New Jersey townships. The Raritan Bay shoreline brings shore-related pest pressure at the eastern edge. The wooded inland neighborhoods generate tick, carpenter ant, stink bug, and mouse pressure throughout the interior. And the mix of older housing stock and newer wooded lots creates both structural pest entry problems and habitat-edge problems. The tick situation in Middletown is worth paying particular attention to. Monmouth County is in the core of New Jersey's Lyme disease endemic zone, and Middletown's wooded residential landscape puts the deer and small mammal populations that carry ticks directly adjacent to yards and gardens.",
+    sections: [
+      {
+        heading: "Tick management in Middletown's wooded residential lots",
+        body: "Black-legged ticks, the species that transmits Lyme disease and other tick-borne illnesses, are well-established in Middletown's wooded areas. The risk in a wooded Middletown neighborhood is not limited to the woods themselves. Deer moving through residential corridors drop ticks throughout yards, and the small mammals like mice and chipmunks that serve as the primary hosts for the larval and nymphal stages are common in any yard with leaf litter, wood piles, or low vegetation near the ground. A tick management program for Middletown yards typically involves granular treatment of the leaf litter and low vegetation at the yard edge where ticks concentrate, plus barrier spray around the perimeter of the yard. The highest-risk period for nymphal tick exposure is May through July, when the ticks are at their smallest and hardest to detect. A yard treatment before Memorial Day and a follow-up in August are the standard schedule for active tick management in this township.",
+      },
+      {
+        heading: "Stink bugs and carpenter ants in wooded neighborhoods",
+        body: "Middletown's heavily wooded inland neighborhoods face two warm-season pest challenges that are both driven by the same landscape: carpenter ants in the structure through spring and summer, and stink bugs entering in fall. Carpenter ants establish parent colonies in the heartwood of older trees on the property, then forage to nearby structures. Any moisture-damaged wood at the roofline, in a deck beam, or around a window frame is a candidate for a satellite nest. Treating the perimeter to intercept foraging ants and injecting any satellite sites found inside the structure addresses the immediate problem. In the fall, the same wooded lots that host carpenter ant colonies also provide stink bug habitat. The insects move toward structures as temperatures drop in September, using the same exterior gaps that mice use. An exterior sealing and treatment visit in late August covers both threats for the season transition.",
+      },
+    ],
+    prevention: [
+      "Apply tick granular treatment to yard edges and leaf litter in late April before peak nymphal season.",
+      "Seal exterior gaps in late August to reduce both stink bug and mouse entry before fall.",
+      "Clear leaf litter and wood piles from the yard edge to reduce tick harborage near the house.",
+      "Trim tree limbs away from the roofline to reduce carpenter ant access routes.",
+      "Schedule a termite inspection for older Middletown homes near wooded lots.",
+    ],
+    costNote:
+      "Middletown pest control is commonly structured as a quarterly general service plan with a tick management program added seasonally. Termite protection and carpenter ant treatment are quoted separately. Free assessments available.",
+    faqs: [
+      {
+        question: "Is Lyme disease risk real in Middletown residential yards?",
+        answer:
+          "Yes. Monmouth County is in New Jersey's Lyme disease endemic zone, and Middletown's wooded residential landscape with deer corridors running through inland neighborhoods creates genuine tick exposure in backyard environments. The highest-risk period is May through July when nymphal ticks are active and at their smallest. A yard tick management program with spring and mid-summer treatments significantly reduces exposure.",
+      },
+      {
+        question: "Why are stink bugs so consistent in Middletown's wooded neighborhoods?",
+        answer:
+          "Middletown's heavily wooded inland residential areas provide excellent stink bug habitat through the warm season. The insects feed on the trees and vegetation through summer, then move toward structures in September and October looking for overwintering sites. Properties at the edge of wooded lots see the most pressure. Sealing exterior gaps in August, before the fall movement begins, is the most effective prevention.",
+      },
+      {
+        question: "Are carpenter ants dangerous to my Middletown home?",
+        answer:
+          "Carpenter ants do not eat wood the way termites do, but they excavate galleries for nesting in wood that is already moisture-damaged, and over time they can cause real structural damage in the affected area. The most common sites in Middletown homes are deck beams, the wood around leaky window frames, and roofline trim on older homes. If you see large black ants inside the structure in spring, a professional inspection to locate the satellite nesting site is the appropriate response.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Red Bank", slug: "red-bank-nj" },
+      { name: "Old Bridge", slug: "old-bridge-nj" },
+      { name: "Hazlet", slug: "hazlet-nj" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Middletown, NJ | Ticks, Stink Bugs & Mice",
+    metaDescription:
+      "Middletown NJ pest control for deer ticks, stink bugs, carpenter ants, and mice on wooded lots. Licensed Monmouth County applicator. Free inspection.",
+  },
+  {
+    slug: "old-bridge-nj",
+    name: "Old Bridge",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~65,000",
+    county: "Middlesex County",
+    climate: "hot-humid",
+    climateDriver:
+      "Old Bridge Township in Middlesex County spans suburban residential areas and semi-rural sections along the Raritan Bay and the many streams feeding into it. The mix of suburban and semi-rural landscape, older housing stock, and New Jersey's hot humid summers creates consistent pressure from mice, stink bugs, carpenter ants, and subterranean termites.",
+    topPests: [
+      "House Mice",
+      "Brown Marmorated Stink Bugs",
+      "Carpenter Ants",
+      "Eastern Subterranean Termites",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak October through February",
+        note: "Old Bridge's mix of suburban neighborhoods and semi-rural areas along stream corridors creates a high mouse population across the township. Older homes from the 1950s through 1970s in the Laurence Harbor and Laurence Harbor Beach areas have structural entry points. Newer homes near the semi-rural edges have field mice from adjacent open land.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Middlesex County is in the established mid-Atlantic stink bug range. Old Bridge's semi-rural western sections and the wooded stream corridors throughout the township provide abundant stink bug habitat that generates fall invasions into residential areas across the community.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Old Bridge's substantial tree cover and the mature hardwoods in older residential neighborhoods provide carpenter ant colony habitat near many homes. The semi-rural areas with larger wooded lots see the highest carpenter ant activity.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Middlesex County has active subterranean termite populations. Old Bridge's older housing near the Raritan Bay and the moisture-rich stream corridors throughout the township create conditions favorable for termite activity. Homes with crawl spaces and wood decking near grade are at real risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Old Bridge's numerous streams, the wetland areas near Raritan Bay, and the semi-rural sections with low-lying ground create productive mosquito breeding habitat near many residential areas. Neighborhoods near Cheesequake State Park and the stream corridors see the highest pressure.",
+      },
+    ],
+    localHook:
+      "Old Bridge is a township where the suburban and semi-rural meet, and that edge is where pest pressure is highest. Homes at the edge of Old Bridge's western semi-rural areas back up against open fields and wooded stream corridors that generate significant mouse, stink bug, and tick populations that push into residential yards each season.",
+    intro:
+      "Old Bridge Township covers a large area with real variation in pest character from one section to another. The older neighborhoods near Laurence Harbor and the Raritan Bay have the aged housing stock that creates structural mouse entry points and elevated termite risk. The western sections of the township where suburban development transitions into semi-rural landscape have habitat-edge pest pressure from mice, stink bugs, and mosquitoes generated in the open land and stream corridors nearby. Across the whole township, carpenter ants are a consistent warm-season presence in the mature residential tree canopy.",
+    sections: [
+      {
+        heading: "Mouse pressure from the semi-rural landscape edge",
+        body: "Old Bridge's western sections, where HOA communities and suburban subdivisions sit adjacent to agricultural land and wooded stream corridors, generate field mouse pressure that purely urban or suburban communities do not face to the same degree. Field mice and deer mice from the adjacent open land move toward residential structures as food becomes scarce in late fall. They are smaller than the house mouse and need even less clearance to enter a building. The standard approach applies: an exterior inspection to find the entry points, sealing with copper mesh and foam or caulk, and interior monitoring with snap traps through the cold months. The key difference with habitat-edge properties is that the source population is large and will continue producing pressure through the winter, so monitoring needs to continue even after initial activity stops.",
+      },
+      {
+        heading: "Termites and moisture near the Raritan Bay",
+        body: "The older residential areas near Laurence Harbor and the Raritan Bay shoreline sit in one of Old Bridge's more termite-active zones. The bay's influence keeps soil moisture elevated in the lower-lying coastal sections, and the older homes in this area, many built in the 1940s through 1960s, have aging wood construction and original crawl spaces with the limited ventilation and high humidity that favors subterranean termite activity. Termite swarms in this area typically occur in late March and through April. A swarm inside the house, where winged termites emerge from the walls or floor, is evidence that a colony is already established inside the structure. Swarms outside near the foundation are a sign that a colony in the surrounding soil may be exploring the structure. Either requires an immediate inspection and treatment assessment.",
+      },
+    ],
+    prevention: [
+      "Seal exterior entry points before October, particularly on homes at the semi-rural edge.",
+      "Schedule a termite inspection for older homes near Laurence Harbor and the Raritan Bay.",
+      "Caulk around windows and exterior outlets in August to reduce stink bug entry.",
+      "Eliminate standing water in low-lying yard areas and containers through mosquito season.",
+      "Clear leaf litter and wood piles from yard edges to reduce tick and mouse harborage.",
+    ],
+    costNote:
+      "Old Bridge pest control is typically offered as a quarterly general service plan. Termite protection and exclusion work are quoted separately after inspection. Mosquito barrier service is available seasonally. Free assessments available.",
+    faqs: [
+      {
+        question: "Why do I get more mice in my Old Bridge home than my neighbors in more suburban areas?",
+        answer:
+          "Homes at the edge of Old Bridge's semi-rural sections back up against open fields and stream corridors that sustain large field mouse and deer mouse populations. These populations generate consistent pressure throughout fall and winter as mice seek shelter. The source population is larger and more persistent than in purely suburban environments, which is why monitoring needs to continue through the entire cold season even after initial activity is addressed.",
+      },
+      {
+        question: "Are the neighborhoods near Raritan Bay more at risk for termites?",
+        answer:
+          "Yes. The coastal moisture influence from Raritan Bay keeps soil moisture elevated in the Laurence Harbor and shoreline sections of Old Bridge, which is the condition that favors subterranean termite activity. Combined with the older housing stock in these neighborhoods, the termite risk is above the township average. Annual inspections are the practical standard for pre-1980 homes in these areas.",
+      },
+      {
+        question: "When is mosquito pressure highest in Old Bridge?",
+        answer:
+          "Peak pressure runs June through August, with activity starting in May and tapering in September. The semi-rural sections near Cheesequake State Park and the stream corridors throughout the township see the highest pressure. A barrier spray program targeting resting areas in the yard, reapplied every two to three weeks through the season, is the most effective residential management approach.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Middletown", slug: "middletown-nj" },
+      { name: "Sayreville", slug: "sayreville-nj" },
+      { name: "East Brunswick", slug: "east-brunswick-nj" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Old Bridge, NJ | Mice, Stink Bugs & Termites",
+    metaDescription:
+      "Old Bridge NJ pest control for mice, stink bugs, termites, and carpenter ants in suburban and semi-rural areas. Licensed Middlesex County applicator. Free inspection.",
+  },
 ];

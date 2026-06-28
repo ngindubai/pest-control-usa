@@ -8,16 +8,16 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-27)
+## Current State (2026-06-28)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-82 complete. T2 COMPLETE.
-- **City pages built:** 1976 total (75 T1 + 300 T2 + 1601 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-83 complete. T2 COMPLETE.
+- **City pages built:** 2001 total (75 T1 + 300 T2 + 1626 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 2058 in the static export (home, services, 50+ states, 1976 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=397, B=385, C=406, D=395, E=393 (1976 total cities, all within 15-25% range).
-- **Cities built T3 chunks 81-82 (50 pages this run, all California):** Chunk 81 (Template D): yuba-city, san-ramon, arcadia, la-mesa, encinitas, santee, lakewood-ca, bellflower, el-centro, national-city, la-habra, pico-rivera, montebello, gardena, petaluma, novato, san-rafael, alameda, union-city, newark-ca, palo-alto, cupertino, santa-cruz, watsonville, rocklin. Chunk 82 (Template E): lincoln-ca, palm-desert, la-quinta, coachella, yorba-linda, diamond-bar, glendora, covina, redondo-beach, culver-city, santa-monica, beverly-hills, rancho-santa-margarita, aliso-viejo, fountain-valley, placentia, cypress, moorpark, san-gabriel, monterey, hanford, yucaipa, beaumont-ca, dublin-ca, lompoc. Also fixed pre-existing `body` field typo in new-jersey.ts (Maplewood carpenter ants entry should be `note`).
+- **Total site pages:** 2083 in the static export (home, services, 50+ states, 2001 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=422, B=385, C=406, D=395, E=393 (2001 total cities, all within 15-25% range).
+- **Cities built T3 chunk 83 (25 pages, Template A):** 7 VA (arlington-va, centreville-va, dale-city-va, reston-va, woodbridge-va, ashburn-va, sterling-va), 5 NJ (lakewood-nj, hamilton-nj, brick-nj, middletown-nj, old-bridge-nj), 6 MI (clinton-township-mi, canton-mi, macomb-mi, shelby-township-mi, waterford-mi, west-bloomfield-mi), 4 PA (bensalem-pa, lower-merion-pa, abington-pa, penn-hills-pa), 3 NY Long Island (valley-stream-ny, lindenhurst-ny, rockville-centre-ny). Author rotation: Marcus Reed x12, Dr. Lena Ortiz x7, Sandra Whitfield x4, James Cole x2.
 - **New state files added:** none (all states already registered).
-- **Next block:** Chunk 83, T3 continues, rotation at A.
+- **Next block:** Chunk 84, T3 continues, rotation at B.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

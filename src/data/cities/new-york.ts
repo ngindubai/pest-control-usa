@@ -5761,4 +5761,313 @@ export const newYorkCities: CityLocation[] = [
     metaTitle: "Pest Control in Dobbs Ferry, NY | Rats & Carpenter Ants",
     metaDescription: "Dobbs Ferry NY pest control for Norway rats near Main Street and carpenter ants in wooded hillside homes. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "valley-stream-ny",
+    name: "Valley Stream",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~37,000",
+    county: "Nassau County",
+    climate: "hot-humid",
+    climateDriver:
+      "Valley Stream is a dense Nassau County village immediately east of the Queens border, with older housing from the 1920s through 1950s built on small lots with connected utility infrastructure. The hot humid mid-Atlantic climate, the proximity to JFK Airport's activity corridors, and the older connected housing stock create significant German cockroach, bed bug, house mouse, and termite pressure.",
+    topPests: [
+      "House Mice",
+      "German Cockroaches",
+      "Bed Bugs",
+      "Eastern Subterranean Termites",
+      "Carpenter Ants",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak October through February",
+        note: "Valley Stream's older housing from the 1920s through 1950s has the settled construction, original utility penetrations, and aging foundation details that give mice consistent entry. The dense lot coverage with minimal gaps between properties means mouse movement between neighboring homes is common.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Valley Stream's older multi-family buildings and in the apartment conversions common in the older housing stock. They spread through shared plumbing walls in the connected older building types and are active year-round regardless of the cold winters.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Valley Stream's proximity to JFK Airport and its high-density housing with tenant turnover create consistent bed bug introduction pathways. The older housing stock with shared walls and connected utilities allows rapid spread between units once an introduction occurs.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Nassau County has active subterranean termite populations. Valley Stream's older housing from the interwar and postwar decades has original wood framing that has been through 70 to 100 years of Long Island humidity. Annual inspections are the appropriate standard.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are present in Valley Stream's older homes with mature street trees and aging wood framing. Moisture-damaged wood in attics, around dormers, and in the older basement framing of Cape Cod and colonial homes is the primary satellite nesting site.",
+      },
+    ],
+    localHook:
+      "Valley Stream's location directly east of Queens gives it an urban pest character that most of Nassau County does not share. The older housing stock from the 1920s and 1930s has the connected building details, shared utility infrastructure, and aging construction that makes it function more like an outer-borough New York neighborhood than a typical Long Island suburb for pest management purposes.",
+    intro:
+      "Pest control in Valley Stream operates closer to the outer-borough New York model than the typical Long Island suburban one. The village's position immediately east of Queens, combined with its older housing stock from the 1920s through 1950s, creates a pest environment where connected utility voids, shared walls in apartment conversions, and the proximity to JFK Airport's persistent arrival and departure traffic all contribute to sustained pressure from bed bugs, German cockroaches, and mice. The village is dense, the housing is old, and the pest management challenges reflect both.",
+    sections: [
+      {
+        heading: "Bed bugs and JFK Airport proximity",
+        body: "Valley Stream's position in the JFK Airport corridor matters for bed bug management in a specific way. Airports are well-documented bed bug introduction pathways: travelers arriving with infested luggage spread to hotels, and from hotels the insects travel to residential communities via secondary contacts. Valley Stream's rental housing market, with its steady tenant turnover and the older housing stock with connected wall voids, creates the spread conditions that bed bug introductions exploit. Once bed bugs enter a connected older building, they move between units through electrical outlets, wall voids, and plumbing penetrations. The response has to match the spread mechanism: professional heat or chemical treatment of the affected unit and inspection of all adjacent units, not a single-unit over-the-counter spray attempt. DIY treatment of bed bugs in an older connected building in Valley Stream almost always scatters the population and delays effective control.",
+      },
+      {
+        heading: "Termites in Valley Stream's postwar Cape Cods and colonials",
+        body: "Valley Stream's housing development concentrated in two waves: the 1920s and 1930s for the closer-in streets, and the postwar years of the late 1940s and 1950s for the outer sections. Both periods produced wood-framed homes that are now between 70 and 100 years old. Nassau County has active subterranean termite populations, and this age of construction carries real risk. The standard inspection points in Valley Stream's older homes are the basement sill plates, particularly on the south and east elevations where moisture tends to concentrate, the wood around basement window frames that sit close to grade, and any crawl space areas. In the older 1920s and 1930s homes with original framing, I find termite damage in the sill plate area more often than anywhere else. These discoveries are not surprises. They are the predictable result of wood construction at this age without active protection.",
+      },
+    ],
+    prevention: [
+      "Inspect second-hand furniture for bed bug signs before bringing it into a Valley Stream home.",
+      "Report bed bug activity immediately and request adjacent unit inspection from the property manager.",
+      "Schedule annual termite inspections for pre-1960 homes in Valley Stream.",
+      "Seal utility penetrations and aging foundation gaps before October to reduce mouse entry.",
+      "Keep an annual carpenter ant inspection on the calendar for older homes with dormers or mature street trees.",
+    ],
+    costNote:
+      "Valley Stream pest control pricing reflects the older urban-suburban housing type. Bed bug remediation is quoted per unit after inspection. Termite protection is quoted separately. Rodent exclusion is priced after an exterior inspection. Free assessments available.",
+    faqs: [
+      {
+        question: "How does JFK Airport proximity affect bed bug risk in Valley Stream?",
+        answer:
+          "Airports are documented bed bug introduction pathways. Travelers arriving with infested luggage spread to hotels and from hotels into residential communities through secondary contacts. Valley Stream's location in the JFK corridor, combined with its rental housing market and older connected housing stock, creates a higher-than-average bed bug introduction rate. Once introduced, the older connected buildings allow rapid spread between units.",
+      },
+      {
+        question: "Are termites common in Valley Stream's older housing?",
+        answer:
+          "Yes. Valley Stream's housing stock from the 1920s through 1950s is now 70 to 100 years old, and Nassau County has active subterranean termite populations. The older wood framing at this age, particularly in below-grade basement areas and crawl spaces, carries real risk without active protection. Annual inspections are the appropriate standard for any Valley Stream home built before 1960.",
+      },
+      {
+        question: "Why do mice keep returning to my Valley Stream home after treatment?",
+        answer:
+          "If mice keep returning, the structural entry points have not been sealed. In Valley Stream's older housing, the most common entry points are the foundation sill where settling has opened gaps, utility penetrations under the kitchen and laundry, and the dryer vent exterior cap. Trapping removes the current population but does not stop new mice from using the same entry points. Exterior exclusion work sealing those gaps is what produces lasting results.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Lynbrook", slug: "lynbrook-ny" },
+      { name: "Rockville Centre", slug: "rockville-centre-ny" },
+      { name: "Elmont", slug: "elmont-ny" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Valley Stream, NY | Mice, Bed Bugs & Termites",
+    metaDescription:
+      "Valley Stream NY pest control for mice, bed bugs near JFK, German cockroaches, and termites in older Nassau County homes. Licensed applicator. Free inspection.",
+  },
+  {
+    slug: "lindenhurst-ny",
+    name: "Lindenhurst",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~27,000",
+    county: "Suffolk County",
+    climate: "hot-humid",
+    climateDriver:
+      "Lindenhurst is a South Shore Suffolk County village near the Great South Bay, with older Cape Cod and colonial homes from the 1940s through 1960s and proximity to bay wetlands. The coastal humidity, the wetland-fed mosquito environment, and the older housing stock create consistent pressure from mice, mosquitoes, yellow jackets, carpenter ants, and eastern subterranean termites.",
+    topPests: [
+      "House Mice",
+      "Mosquitoes",
+      "Yellow Jackets",
+      "Carpenter Ants",
+      "Eastern Subterranean Termites",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak October through February",
+        note: "Lindenhurst's older Cape Cod and colonial homes from the 1940s and 1950s have aging construction with settled foundations and worn utility seals. The village's proximity to the Great South Bay and the bay's moisture influence means higher ambient humidity that accelerates wood degradation, creating more structural gaps over time.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Great South Bay wetlands and the tidal channels throughout the Lindenhurst harbor area provide significant mosquito breeding habitat near the village. Bayfront and canal-adjacent properties see the most sustained summer mosquito pressure in Suffolk County.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak July through October",
+        note: "Yellow jackets establish ground nests in Lindenhurst's residential lots and in the vegetation along the drainage channels and the bay edge. Late-summer colonies in undisturbed lot areas reach aggressive peak size and become a hazard near outdoor living spaces.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Carpenter ants are active in Lindenhurst's older neighborhoods with mature street trees. The coastal humidity that affects wood condition throughout the village also favors carpenter ant satellite colony establishment in any wood with moisture damage.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Suffolk County has active subterranean termite populations. Lindenhurst's older Cape Cod and colonial homes near the Great South Bay, with their coastal humidity exposure and aging original construction, are at consistent termite risk. Annual inspections are the standard.",
+      },
+    ],
+    localHook:
+      "Lindenhurst's position on the South Shore of Long Island, with the Great South Bay immediately to the south and the tidal channels running through the harbor section, creates a mosquito environment that inland Suffolk County communities do not deal with. I schedule more mosquito barrier service in bayfront and canal-adjacent Lindenhurst neighborhoods than in comparable communities further inland, because the breeding source is the tidal wetland edge, not something that can be managed on individual properties.",
+    intro:
+      "Pest control in Lindenhurst is shaped by the bay. The Great South Bay to the south and the tidal channels threading through the harbor section create one of Suffolk County's more active mosquito environments for a residential village. The coastal humidity also affects the older Cape Cod and colonial housing stock built in the 1940s and 1950s: wood ages faster in high-humidity coastal environments, and the structural gaps that mice use, and the moisture conditions that attract carpenter ants and termites, develop more quickly in Lindenhurst than in drier inland communities. The bay is the asset that makes Lindenhurst an attractive place to live and the factor that drives its pest management calendar.",
+    sections: [
+      {
+        heading: "Mosquito management near the Great South Bay",
+        body: "The Great South Bay's tidal wetlands and the channels running through Lindenhurst's harbor section produce mosquitoes through the entire summer season. The productive breeding habitat is in the vegetated bay edges and tidal channels, not on residential properties. That means source reduction on individual lots addresses only a small fraction of the problem. The management approach that works for bayfront and canal-adjacent properties in Lindenhurst is a barrier spray program targeting the resting sites of adult mosquitoes in the yard: the undersides of shrubs, low vegetation, and shaded areas where mosquitoes shelter during the day before becoming active at dusk. Treatments applied every two to three weeks maintain adult population control at the property level. Eliminating standing water on the property is still important for reducing any local breeding, but it does not address the bay and channel sources that sustain the broader population.",
+      },
+      {
+        heading: "Coastal humidity and structural pest risk",
+        body: "The coastal humidity in Lindenhurst accelerates wood degradation in older homes in ways that matter for pest management. Paint failure happens faster on south and west elevations. Foundation caulking breaks down faster with the freeze-thaw and humidity cycles near the bay. The structural sills and framing in crawl spaces carry more moisture year-round than equivalent inland homes. This affects three pest categories: mice find more structural entry gaps in coastal-humidity homes of comparable age to inland homes, carpenter ants find more moisture-damaged wood suitable for satellite colony nesting, and subterranean termites find the soil moisture conditions near the bay ideal for sustained activity. Annual inspection for all three is the practical standard for any Lindenhurst home built before 1970.",
+      },
+    ],
+    prevention: [
+      "Run mosquito barrier treatments May through September if near the Great South Bay or a tidal channel.",
+      "Inspect older Cape Cod and colonial framing annually for coastal humidity moisture damage.",
+      "Schedule annual termite inspections for pre-1970 Lindenhurst homes.",
+      "Seal all exterior gaps in late summer before fall mouse entry and yellow jacket season peak.",
+      "Eliminate standing water in containers and drainage features to reduce local mosquito breeding.",
+    ],
+    costNote:
+      "Lindenhurst pest control commonly includes a seasonal mosquito program for bay-adjacent properties combined with a quarterly general plan. Termite protection and exclusion work are quoted separately. Free assessments available.",
+    faqs: [
+      {
+        question: "Why are mosquitoes worse in the bayfront sections of Lindenhurst?",
+        answer:
+          "The Great South Bay's tidal wetlands and the channels through the harbor section provide sustained breeding habitat that produces mosquitoes through the entire summer. Properties adjacent to bay edges and tidal channels are closest to those sources, so the adult mosquito pressure is higher and resets faster between treatments. A barrier spray program targeting resting areas in the yard is the practical management approach for these properties.",
+      },
+      {
+        question: "Does coastal humidity really make pest problems worse in Lindenhurst?",
+        answer:
+          "Yes, in specific ways. Coastal humidity accelerates wood degradation in older homes, which creates more structural gaps for mice, more moisture-damaged wood for carpenter ants to colonize, and better soil moisture conditions for subterranean termites. The net effect is that a 1950s Cape Cod in Lindenhurst typically has more structural pest vulnerability than a comparable 1950s home in a drier inland community.",
+      },
+      {
+        question: "How often should I have a termite inspection in Lindenhurst?",
+        answer:
+          "Annually for any home built before 1970. Suffolk County has active subterranean termite populations, and Lindenhurst's coastal humidity environment creates favorable conditions for termite activity near the bay. The combination of old construction and coastal moisture exposure is exactly the situation that makes skipping an annual inspection a risk worth avoiding.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Babylon", slug: "babylon-ny" },
+      { name: "Copiague", slug: "copiague-ny" },
+      { name: "Amityville", slug: "amityville-ny" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Lindenhurst, NY | Mosquitoes, Mice & Bay Homes",
+    metaDescription:
+      "Lindenhurst NY pest control for Great South Bay mosquitoes, mice, carpenter ants, and termites in South Shore homes. Licensed Suffolk County applicator. Free inspection.",
+  },
+  {
+    slug: "rockville-centre-ny",
+    name: "Rockville Centre",
+    state: "New York",
+    stateSlug: "new-york",
+    stateAbbr: "NY",
+    tier: "T3",
+    population: "~24,000",
+    county: "Nassau County",
+    climate: "hot-humid",
+    climateDriver:
+      "Rockville Centre is an established Nassau County village with Tudor and colonial homes from the 1920s through 1950s, mature tree canopy, and a suburban downtown. The older housing stock, the mature trees in the established residential streets, and Long Island's hot humid climate create consistent pressure from mice, carpenter ants, and eastern subterranean termites, with stink bugs and yellow jackets adding to the seasonal pest calendar.",
+    topPests: [
+      "House Mice",
+      "Carpenter Ants",
+      "Eastern Subterranean Termites",
+      "Brown Marmorated Stink Bugs",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak October through February",
+        note: "Rockville Centre's Tudor and colonial homes from the 1920s through 1940s have original construction details, aged foundation sills, and utility penetrations that have been through 80 to 100 New York winters. These homes have the structural entry points that mice find consistently each fall.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Rockville Centre's mature tree canopy, with large oaks and maples throughout the residential streets, provides established carpenter ant colony habitat. The older homes have the moisture-affected wood framing that creates abundant satellite nesting sites for foraging workers.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Nassau County has active subterranean termite populations. Rockville Centre's pre-war and early postwar housing with original wood construction and aging basement sill plates is at consistent termite risk. The village's mature trees also create wood debris and mulch conditions near foundations that favor termite access.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs have established in Nassau County. Rockville Centre's mature tree canopy and the wooded character of its residential streets provide stink bug habitat near homes. Fall invasions into the older homes with aging exterior sealing are consistent.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Peak July through October",
+        note: "Yellow jackets establish nests in Rockville Centre's established residential lots, particularly in the wooded areas and established landscaping of the larger Tudor-style properties. Ground nests in undisturbed lawn areas and in the base of established hedgerows are the most common sites.",
+      },
+    ],
+    localHook:
+      "Rockville Centre's residential streets are among the most architecturally consistent on Long Island, and the Tudor and colonial homes from the 1920s and 1930s are genuinely beautiful. They are also 80 to 100 years old, and at that age the structural pest vulnerabilities are real and predictable. I find the same conditions in these homes consistently: aging sill plates that need termite inspection, moisture-affected wood around original dormers that draws carpenter ants, and the accumulated entry points of a century of seasonal cycles that mice use each fall.",
+    intro:
+      "Pest control in Rockville Centre is working with old houses. The village's Tudor and colonial homes from the 1920s through 1950s define its character and make it one of Nassau County's most sought-after communities. They are also homes that have been through 70 to 100 years of Long Island's hot humid summers and cold winters, and the pest management implications of that age are specific and real. Termites in original basement framing. Carpenter ants in moisture-affected dormers and attic structure. Mice entering through entry points that have accumulated over a century of seasonal expansion and contraction. Managing pests in Rockville Centre means understanding what old construction looks like from a pest's perspective.",
+    sections: [
+      {
+        heading: "What 100 years of Long Island weather does to a house",
+        body: "Rockville Centre's original Tudor and colonial homes were built with good craftsmanship and materials that were standard for the 1920s and 1930s. A century of Long Island weather has worked on those materials in predictable ways. The original wood sill plates that sit on the foundation masonry have absorbed and released moisture through hundreds of freeze-thaw cycles. The caulking around original windows has cracked and separated. The paint on north and west elevations has failed in places, letting moisture into the underlying wood. None of this is the result of poor maintenance. It is the result of 80 to 100 years of time. Carpenter ants find moisture-affected wood in the dormer framing and around original attic windows. Termites find the original sill plates. Mice find the gaps that have opened in the accumulated settling of a century. A professional inspection of these homes reads them as what they are: old houses with the structural pest vulnerabilities that age produces.",
+      },
+      {
+        heading: "Stink bugs and fall entry into older Rockville Centre homes",
+        body: "Brown marmorated stink bugs have established in Nassau County and hit Rockville Centre's older homes each fall. The mechanism is consistent: as temperatures drop in September, the insects search for overwintering sites in warm structures with accessible entry points. Rockville Centre's Tudor and colonial homes, with their original window frames, the gaps behind exterior light fixtures, and the utility penetrations that have been through a century of seasons, offer more entry points than newer construction of comparable size. The prevention window is August and early September. An exterior inspection and sealing visit during this window, targeting the gaps around windows, the roofline ventilation, exterior outlet penetrations, and utility entries, significantly reduces the number of stink bugs that spend the winter in wall voids and attic spaces. This work on an older Rockville Centre home is worthwhile and cost-effective compared to dealing with hundreds of stink bugs emerging in spring.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for all pre-1960 Rockville Centre homes.",
+      "Inspect dormer framing and attic structure for moisture damage and carpenter ant activity each spring.",
+      "Seal aging window frames and utility penetrations in August before stink bug fall movement.",
+      "Seal foundation gaps and utility entries before October to stop fall mouse entry.",
+      "Clear wood mulch and debris from foundation plantings to reduce termite access.",
+    ],
+    costNote:
+      "Rockville Centre pest control for older homes typically includes an annual termite inspection, perimeter carpenter ant treatment through the warm season, and exterior sealing in late summer. These are often structured into an annual service plan. Free assessments available.",
+    faqs: [
+      {
+        question: "How often should I have a termite inspection in my Rockville Centre Tudor or colonial home?",
+        answer:
+          "Annually. Nassau County has active subterranean termite populations, and homes built in the 1920s through 1950s have original wood construction that has been through 70 to 100 years of Long Island humidity. The original sill plates and any below-grade framing are the primary risk areas. An annual inspection is the practical standard for any pre-1960 Rockville Centre home.",
+      },
+      {
+        question: "Are stink bugs worse in Rockville Centre's older homes than in newer construction?",
+        answer:
+          "Yes. The older Tudor and colonial homes with their original window frames, aged caulking, and a century's worth of gaps in the exterior have more accessible entry points than newer construction. The stink bugs find entry easier in these homes, and the volume that overwinters inside is typically higher than in well-sealed newer buildings of similar size. An August sealing visit on an older Rockville Centre home is genuinely worthwhile.",
+      },
+      {
+        question: "What should I look for to detect carpenter ants in my older Rockville Centre home?",
+        answer:
+          "Consistent sightings of large black ants (1/2 inch or larger) inside the home from April through September, particularly near windows or in the basement. Sawdust-like frass in a concentrated location near wood trim or in the attic. Hollow-sounding wood when tapped near dormers or around original attic windows. If you find any of these, a professional inspection to locate the satellite colony and the moisture source is the next step.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Valley Stream", slug: "valley-stream-ny" },
+      { name: "Lynbrook", slug: "lynbrook-ny" },
+      { name: "Garden City", slug: "garden-city-ny" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Rockville Centre, NY | Older Home Specialists",
+    metaDescription:
+      "Rockville Centre NY pest control for termites, carpenter ants, mice, and stink bugs in Tudor and colonial homes. Licensed Nassau County applicator. Free inspection.",
+  },
 ];
