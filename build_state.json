@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-06-28T16:00:00Z",
+  "last_updated": "2026-06-28T00:00:00Z",
   "phase": "3-t3-in-progress",
   "autonomy": "Fully autonomous. One block per run (25 pages), full 7-stage pipeline, commit to main, deploy.yml auto-publishes, post live links to Slack as a record. No approval step, no wait-for-go, no stop condition. Advance through the phases in order; when the city universe is built, the pest x city matrix is the long-tail engine and runs indefinitely.",
-  "cities_built": 2101,
+  "cities_built": 2151,
   "towns_built": 0,
-  "total_site_pages": 2183,
-  "completed_chunks": 87,
-  "next_chunk": 88,
+  "total_site_pages": 2233,
+  "completed_chunks": 89,
+  "next_chunk": 90,
   "next_chunk_tier": "T3",
-  "next_chunk_template": "A",
+  "next_chunk_template": "C",
   "tier_t1_target": 75,
   "tier_t1_remaining": 0,
   "tier_t2_target": 300,
   "tier_t2_remaining": 0,
   "tier_t3_floor_population": 5000,
   "tier_t3_target": 5000,
-  "tier_t3_remaining": 3299,
+  "tier_t3_remaining": 3249,
   "tier_t3_note": "T3 = every remaining US incorporated place above 5,000 population not already built in T1 or T2. The Census counts roughly 5,000 to 5,300 such places. Build state by state: add one state file per block to src/data/cities/{state}.ts and register it in src/data/cities/index.ts, exactly as T1/T2 were built. 50-state coverage is the target. 425 T3 pages built so far (chunks 16-32 complete).",
   "batch_size": 25,
   "template_rotation": [
@@ -33,8 +33,8 @@
     "E": 0.2
   },
   "template_distribution_actual": {
-    "A": 417,
-    "B": 404,
+    "A": 442,
+    "B": 429,
     "C": 427,
     "D": 415,
     "E": 438
@@ -2039,5 +2039,5 @@
     "texas/nederland",
     "texas/plainview"
   ],
-  "notes": "Chunks 57-87 complete 2026-06-28. 2101 total city pages (75 T1 + 300 T2 + 1726 T3). Chunk 87 (E/brief, 25 pages, all Dr. Lena Ortiz): 3 FL (lake-worth-beach-fl, hallandale-beach-fl, temple-terrace-fl), 2 GA (suwanee-ga, winder-ga), 2 NC (smithfield-nc, mount-airy-nc), 3 IL (gurnee-il, elk-grove-village-il, lombard-il), 2 NJ (bridgewater-nj, asbury-park-nj), 2 NY (harrison-ny, riverhead-ny), 2 WA (port-angeles-wa, arlington-wa), 2 MI (eastpointe-mi, inkster-mi), 2 PA (quakertown-pa, berwick-pa), 2 OH (upper-arlington-oh, defiance-oh), 1 VA (purcellville-va), 2 TX (nederland-tx, plainview-tx). Template actual counts: A=417 B=404 C=427 D=415 E=438 (2101 total cities). Next chunk 88 at A."
+  "notes": "Chunks 88-89 complete (50 T3 pages). Template A=442 (20.5%) B=429 (19.9%) C=427 (19.9%) D=415 (19.3%) E=438 (20.4%). All within 15-25% target. Next: chunk 90, Template C."
 }

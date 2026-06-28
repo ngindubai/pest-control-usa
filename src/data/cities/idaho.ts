@@ -1758,5 +1758,567 @@ export const idahoCities: CityLocation[] = [
     metaTitle: "Pest Control in Blackfoot, ID | Mice, Voles & Agricultural Pest Specialists",
     metaDescription:
       "Blackfoot pest control for house mice, meadow voles, yellow jackets, and cluster flies. Bingham County potato-growing operations create intense fall rodent pressure. Free inspection. Call 1-800-PEST-USA.",
-  }
+  },
+  {
+    slug: "ammon-id",
+    name: "Ammon",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~16,000",
+    county: "Bonneville County",
+    climate: "cold-humid",
+    climateDriver:
+      "Ammon sits at 4,700 feet on the eastern Idaho Snake River Plain in Bonneville County, directly adjacent to Idaho Falls. The continental climate delivers very cold winters, hot dry summers, and sharp seasonal transitions. The surrounding agricultural fields and the Snake River corridor create pest pressure from multiple directions, and the dry summer heat drives insects indoors through late summer.",
+    topPests: ["Odorous House Ants", "House Mice", "Field Crickets", "Voles", "Wolf Spiders"],
+    pestProfile: [
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October, peak June through August",
+        note: "Odorous house ants are the dominant ant pest in Ammon and across eastern Idaho. They nest in soil under pavement and landscape features and move inside seeking sweets and moisture during hot summer months. Crushing one releases a coconut-like odor.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through November primary entry; year-round once established",
+        note: "The surrounding agricultural fields and Snake River corridor create consistent mouse pressure in Ammon. Fields are harvested in fall, displacing rodents that move toward heated structures.",
+      },
+      {
+        name: "House and field crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Late July through October",
+        note: "Crickets invade Ammon homes in late summer as field temperatures peak. They are attracted to lights and enter through garage doors, foundation gaps, and door sweeps. Large numbers can congregate on the exterior of lit commercial buildings.",
+      },
+      {
+        name: "Meadow voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round; most damaging November through March",
+        note: "Irrigated lawns in Ammon support vole populations that tunnel through grass under winter snow cover. Spring reveals runway damage and gnawed bark at the base of garden plants.",
+      },
+      {
+        name: "Wolf spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "June through October",
+        note: "Wolf spiders are common in Ammon homes, entering through gaps at grade level. They are large, fast-moving, and alarming, though not medically significant. They follow the cricket and insect prey they hunt indoors.",
+      },
+    ],
+    localHook:
+      "Late August in Ammon is cricket season. Once the field temperatures peak, crickets move toward lit structures by the hundreds. On warm evenings near commercial blocks and garage-heavy residential streets, the chirping is constant and the invasion is real. It is one of those eastern Idaho pest events that defines the end of summer.",
+    intro:
+      "Pest control in Ammon follows the Snake River Plain calendar. Odorous house ants are the most consistent pest from spring through fall, moving inside as summer heat peaks. Field and house crickets invade in late summer, drawn to lights and warmth. Mice press into homes from surrounding agricultural fields when fall harvest displaces them. Voles work through lawns under winter snow cover. Wolf spiders follow the insects they hunt and are a common late-summer visitor.",
+    sections: [
+      {
+        heading: "Cricket invasions in late Ammon summer",
+        body: "House and field crickets are a defining pest event in eastern Idaho's agricultural communities each August. When field temperatures peak and crops are harvested, crickets move en masse toward lit structures. In Ammon, they congregate on exterior walls, under garage doors, and at any entrance with light showing. Large numbers get inside through the narrowest gaps in door sweeps and foundation joints. They do not damage the home, but the noise and numbers are a real nuisance. Perimeter spray applied in July before the peak, combined with weatherstripping and a solid garage door seal, reduces the invasion significantly.",
+      },
+      {
+        heading: "Agricultural field edges and fall mouse pressure",
+        body: "Ammon borders active agricultural land in Bonneville County, and this proximity drives fall mouse pressure in ways that purely suburban communities do not experience. When potato and grain fields are harvested in September and October, the rodent populations that have been feeding in those fields lose cover and food simultaneously. They move toward warm structures: homes, garages, sheds, and commercial buildings. Properties within a few blocks of agricultural edges see the sharpest mouse pressure. Exterior bait stations deployed in September provide a catch layer before mice reach the structure.",
+      },
+    ],
+    prevention: [
+      "Apply perimeter cricket spray in July before the late-summer invasion peak.",
+      "Install door sweeps on all entry doors and ensure garage door seals are in contact with the ground.",
+      "Place exterior rodent bait stations in September near agricultural-edge properties.",
+      "Seal foundation gaps and utility penetrations before October to block fall mouse entry.",
+      "Remove dense ground cover near lawn perimeters in October to reduce vole nesting habitat.",
+    ],
+    costNote:
+      "Ammon pest control for ants, spiders, and mice typically runs $140 to $260 per year on a quarterly plan. Cricket treatment is often added as a one-time late-summer service for $80 to $150. Vole programs run $130 to $250 per season.",
+    faqs: [
+      {
+        question: "Why do crickets invade Ammon homes every August?",
+        answer:
+          "Crickets move from the surrounding fields and undeveloped areas toward lit structures as late-summer temperatures peak and field cover is disrupted by harvest activity. The agricultural landscape around eastern Idaho creates large cricket populations that have few options when their field habitat is disturbed.",
+      },
+      {
+        question: "Are wolf spiders in Ammon dangerous?",
+        answer:
+          "Wolf spiders are not medically significant despite their large size. They are fast-moving hunters that follow insect prey indoors. A bite, which is rare, produces minor localized irritation. The most effective approach is sealing entry points and reducing the insect prey population they are hunting.",
+      },
+      {
+        question: "When do mice start coming into Ammon homes?",
+        answer:
+          "The main push occurs in October when nighttime temperatures drop consistently below 40 degrees. Agricultural field harvests in September also displace field rodents that then move toward structures. Properties adjacent to fields should have exterior bait stations in place before September.",
+      },
+      {
+        question: "Do odorous house ants nest inside Ammon homes?",
+        answer:
+          "They can, particularly in moist areas like under sinks, in wall voids near leaky pipes, or in crawl spaces. More commonly they nest outside under pavement and rock, foraging into the home through foundation cracks. Exterior bait treatment is usually more effective than interior-only spray.",
+      },
+      {
+        question: "Is vole damage in Ammon lawns reversible?",
+        answer:
+          "Yes. Vole runway damage, which appears as brown surface paths through the grass, usually recovers with spring raking, overseeding, and regular watering. Recovery takes four to six weeks for established turf. Preventing re-infestation the following fall is the more important task.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Idaho Falls", slug: "idaho-falls" },
+      { name: "Pocatello", slug: "pocatello" },
+      { name: "Chubbuck", slug: "chubbuck-id" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Ammon, ID | Ants, Crickets & Mice Near Idaho Falls",
+    metaDescription:
+      "Ammon ID pest control for odorous house ants, field crickets, house mice and voles. Snake River Plain eastern Idaho specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "hayden-id",
+    name: "Hayden",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~15,000",
+    county: "Kootenai County",
+    climate: "temperate",
+    climateDriver:
+      "Hayden is a suburban community in Kootenai County directly north of Coeur d'Alene, situated in the Rathdrum Prairie with the Coeur d'Alene National Forest to the east. The Pacific Northwest climate influence brings notably more rainfall than eastern Idaho, with milder winters and cooler summers. The forested surroundings and abundant moisture create ideal conditions for carpenter ants and make tick and mosquito season longer than in drier parts of the state.",
+    topPests: ["Carpenter Ants", "Deer Ticks", "House Mice", "Stink Bugs", "Paper Wasps"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, peak April through July",
+        note: "Carpenter ants are the primary structural pest concern in Hayden and throughout north Idaho. The forested surroundings and wood-construction homes create ideal conditions. Large black carpenter ants excavate galleries in moist or softening wood in walls, framing, and decks.",
+      },
+      {
+        name: "Deer ticks (black-legged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November; nymph peak May through July",
+        note: "Black-legged ticks are present in Kootenai County and can transmit Lyme disease. Hayden's forested residential edges and proximity to wildlife corridors create tick exposure for residents with wooded properties or dogs that spend time in brushy areas.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through November entry; year-round once inside",
+        note: "Hayden's forested surroundings and the Rathdrum Prairie wildlife corridor sustain high rodent populations. Fall sees consistent mouse pressure into homes, particularly on properties that border undeveloped forest land.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November aggregation; overwinter in wall voids",
+        note: "Stink bugs have expanded into north Idaho in recent years and are an increasing fall nuisance in Hayden homes. They enter wall voids through the same gaps as boxelder bugs and emerge on warm winter days.",
+      },
+      {
+        name: "Paper wasps and yellowjackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August through October",
+        note: "Paper wasp and yellowjacket nests are common on Hayden homes, in attic vents, under eaves, and in the ground in landscaped areas. Forested properties see higher nest densities.",
+      },
+    ],
+    localHook:
+      "In Hayden, the first question when a pest control call comes in is usually about carpenter ants. They are the defining pest of north Idaho's forested communities, and Hayden's suburban-forest mix means the swarmers show up on windows every April with remarkable reliability. A lot of north Idaho homeowners have learned the hard way that seeing swarmers inside means the colony may already be in the structure.",
+    intro:
+      "Pest control in Hayden is shaped by the Pacific Northwest forest environment. Carpenter ants are the top structural concern, thriving in the moist forested surroundings and the wood construction of Hayden's suburban homes. Deer ticks are a real risk for residents with wooded properties or outdoor pets. Mice press in from surrounding forest in fall. Stink bugs have joined the fall pest mix in recent years. Wasps nest in eaves and attic vents through summer.",
+    sections: [
+      {
+        heading: "Carpenter ants in north Idaho homes",
+        body: "Carpenter ants are the pest that north Idaho pest control professionals talk about most. The Pacific Northwest climate, with its abundant moisture and forested landscapes, produces large, established carpenter ant populations. In Hayden, the combination of wood-frame homes and proximity to the Coeur d'Alene National Forest means colonies can be very large and well established. The annual flight of winged carpenter ant swarmers in April and May is the most visible sign. Finding swarmers inside the home means there is a colony nearby or already inside the structure. Unlike termites, carpenter ants do not eat wood but excavate it to create smooth-walled galleries, often in softening or moisture-damaged wood first. Annual perimeter treatment and monitoring for moisture damage is the most effective long-term management.",
+      },
+      {
+        heading: "Tick awareness in Hayden's forested setting",
+        body: "Kootenai County has confirmed black-legged tick populations, and Hayden's position at the suburban edge of forested terrain creates real tick exposure for residents who garden, hike, or have pets that spend time in brushy areas. The nymph stage, active from May through July, is the highest-risk period because nymphs are tiny and often not noticed before they attach. Wearing long sleeves and using DEET-based repellent in wooded areas, checking pets and children after outdoor activity, and considering a perimeter yard tick treatment in April and September are the practical protection measures.",
+      },
+    ],
+    prevention: [
+      "Schedule annual carpenter ant perimeter treatment starting in March to address colonies before swarmer season.",
+      "Fix any moisture-damaged wood promptly, as carpenter ants preferentially excavate softened wood.",
+      "Apply tick repellent on outdoor clothing and check pets after wooded area activity.",
+      "Seal gaps around fascia boards, attic vents, and eave returns in late summer to reduce stink bug entry.",
+      "Treat yellowjacket and wasp nests in August or September before colonies reach peak aggression.",
+    ],
+    costNote:
+      "Hayden carpenter ant treatment runs $150 to $350 depending on structure size and infestation extent. Tick yard spray runs $100 to $200 per application. General pest plans for spiders, mice, and ants cost $160 to $300 per year.",
+    faqs: [
+      {
+        question: "I found winged ants inside my Hayden home in April. Do I have carpenter ants?",
+        answer:
+          "Large black winged ants emerging from inside the home in spring are almost certainly carpenter ant swarmers, which indicates a colony is already in or very near the structure. This warrants an inspection rather than a wait-and-see approach. Colonies inside walls can become very large over several years and cause significant structural damage.",
+      },
+      {
+        question: "Is there Lyme disease risk in Hayden?",
+        answer:
+          "Black-legged ticks capable of transmitting Lyme disease are present in Kootenai County. The risk is real, particularly on properties that border wooded or brushy areas. Idaho has historically had lower Lyme disease rates than the Northeast, but the tick populations and pathogen are present. Standard tick prevention measures and checking after outdoor activity in wooded areas are the appropriate response.",
+      },
+      {
+        question: "Are stink bugs new to Hayden or have they always been here?",
+        answer:
+          "Brown marmorated stink bugs are an introduced species that has been expanding its range across the Pacific Northwest over the past decade. They are a more recent pest in north Idaho than in western Washington and Oregon. Hayden residents are increasingly reporting fall aggregations and winter emergence from wall voids.",
+      },
+      {
+        question: "How do I know if a wasp nest is inside my Hayden attic or just on the exterior?",
+        answer:
+          "Exterior nests are usually visible under eaves, in soffits, or in vents. Interior nests may show up as a buzzing sound inside the wall or attic, or wasps appearing inside the home through gaps in trim or light fixtures. Interior nests are larger and require more targeted treatment. A professional inspection identifies which situation you have.",
+      },
+      {
+        question: "Is carpenter ant damage different from termite damage in Hayden?",
+        answer:
+          "Yes. Carpenter ants excavate smooth galleries against the wood grain, often leaving piles of coarse sawdust-like frass mixed with insect parts near entry holes. Termite damage produces mud tubes and wood that appears layered or shredded. Both require professional treatment, but the biology and treatment approaches differ. Carpenter ants are the far more common structural pest in north Idaho.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Coeur d'Alene", slug: "coeur-d-alene" },
+      { name: "Post Falls", slug: "post-falls" },
+      { name: "Rathdrum", slug: "rathdrum-id" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Hayden, ID | Carpenter Ants, Deer Ticks & Mice",
+    metaDescription:
+      "Hayden ID pest control for carpenter ants, deer ticks, house mice and stink bugs. Kootenai County north Idaho forest-edge specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "burley-id",
+    name: "Burley",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~11,000",
+    county: "Cassia County",
+    climate: "semi-arid",
+    climateDriver:
+      "Burley sits at 4,160 feet on the Snake River Plain in Cassia County, the county seat of an agricultural region producing potatoes, sugar beets, and grain. The semi-arid continental climate delivers cold winters, hot and dry summers, and persistent seasonal winds. The surrounding agricultural landscape is the defining factor in pest pressure: large rodent populations in the fields, and fly populations concentrated near livestock and processing operations.",
+    topPests: ["House Mice", "Ants", "House Flies", "Crickets", "Wolf Spiders"],
+    pestProfile: [
+      {
+        name: "House mice and deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round near agricultural areas; peak fall entry September through November",
+        note: "Burley's agricultural surroundings create very high rodent pressure compared to purely urban communities. Potato and sugar beet harvest in fall displaces large field rodent populations toward structures. Year-round bait station programs are standard for properties adjacent to fields.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Odorous house ants are the primary ant pest in Burley, nesting under sidewalks and foundations and foraging inside through summer. The semi-arid heat drives them inside seeking moisture.",
+      },
+      {
+        name: "House flies and blow flies",
+        serviceSlug: "fly-control",
+        activeSeason: "May through September",
+        note: "Fly pressure near Burley's agricultural areas is significant. House flies and blow flies breed in organic matter associated with livestock operations, manure storage, and food processing in the region. Properties nearest agricultural operations see the highest density.",
+      },
+      {
+        name: "House and field crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "July through October",
+        note: "Crickets are a consistent late-summer pest in Burley. They invade lit structures at night and concentrate in garages, basements, and entries. The surrounding fields produce large populations that migrate toward homes as harvest disrupts their habitat.",
+      },
+      {
+        name: "Wolf spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "June through October",
+        note: "Wolf spiders are common in Burley homes, following the crickets and other insects that provide prey. They enter through low foundation gaps and are especially noticeable in garages and basements.",
+      },
+    ],
+    localHook:
+      "Farming communities in Cassia County live with the understanding that pest pressure fluctuates with the agricultural calendar. When potato harvest starts in September, the mice that have been living in the fields move. Local homeowners who have been through a few autumns know to have their bait stations in place before harvest, not after.",
+    intro:
+      "Pest control in Burley is shaped by the surrounding agricultural landscape more than in most Idaho communities. Mice are a year-round management priority with field populations that are dramatically displaced during fall harvest. House and blow flies are a significant summer pest near agricultural operations. Crickets invade in late summer from the surrounding fields. Ants move into homes through summer as the heat builds. Wolf spiders follow the insect prey they hunt inside.",
+    sections: [
+      {
+        heading: "Agricultural edge pest pressure in Burley",
+        body: "Burley's position at the center of a major agricultural region creates pest dynamics that are different from suburban Idaho communities. Field rodents (house mice, deer mice, and voles) are present in very large populations in the surrounding crop fields. Harvest season disrupts this habitat: combine harvesters eliminate food and cover simultaneously, and large numbers of rodents move toward any available shelter, including homes and businesses at the agricultural edge. Properties within a quarter mile of active fields should have exterior bait stations deployed no later than late August to intercept this movement before it reaches the structure.",
+      },
+      {
+        heading: "Fly management in an agricultural community",
+        body: "House flies and blow flies are a quality-of-life pest in Burley's agricultural setting that is difficult to manage through individual property treatment alone. Breeding sources are regional: manure storage areas, livestock operations, food processing waste, and organic material from farm operations are the primary production sites. The practical approach for Burley homes and businesses is to focus on preventing entry (tight screens, door seals, air curtains for commercial entries) and using interior fly traps rather than attempting to eliminate the source population through spray alone. For properties nearest livestock operations, monthly perimeter fly spray reduces pressure measurably.",
+      },
+    ],
+    prevention: [
+      "Deploy exterior rodent bait stations in August before fall harvest displaces field mouse populations.",
+      "Install and maintain tight door sweeps and window screens to reduce fly entry.",
+      "Apply cricket perimeter treatment in July around garage doors, entries, and lit exterior walls.",
+      "Seal foundation gaps and utility penetrations before the fall mouse push.",
+      "Reduce outdoor lighting near entry points or switch to yellow LED bulbs to reduce cricket attraction.",
+    ],
+    costNote:
+      "Burley rodent bait station programs for agricultural-edge properties run $200 to $450 per year. Fly control programs vary by proximity to agricultural sources. General pest plans run $140 to $260 per year.",
+    faqs: [
+      {
+        question: "My Burley home is near potato fields. When should I start rodent control?",
+        answer:
+          "August is the action month. Potato harvest in Cassia County begins in September and October, and the first wave of displaced mice moves toward structures before harvest is complete. Having exterior bait stations deployed and interior gaps sealed by late August puts you ahead of the pressure rather than reacting to an already-active intrusion.",
+      },
+      {
+        question: "Are blow flies worse near livestock operations in Burley?",
+        answer:
+          "Yes. Blow flies breed in organic matter including animal carcasses and manure. Properties within a half mile of livestock operations or processing facilities see substantially higher fly pressure. Interior fly traps and tight screening are the most practical defenses for residential properties in these areas.",
+      },
+      {
+        question: "Why do crickets get inside Burley homes at night?",
+        answer:
+          "Crickets are attracted to light and warmth, and they are active at night. A brightly lit garage door or entry door on a warm August night acts as a cricket magnet. They find their way in through the narrowest gaps. Switching to yellow LED outdoor lights reduces cricket attraction, and perimeter spray applied to the exterior wall below light fixtures creates a contact kill zone.",
+      },
+      {
+        question: "Are deer mice in Burley different from house mice?",
+        answer:
+          "Deer mice (Peromyscus maniculatus) are the dominant small rodent in Cassia County's agricultural areas and are important because they can carry hantavirus. They are distinguished from house mice by their bicolored tail and large dark eyes. Any droppings found in crawl spaces or storage areas should be handled with N95 respiratory protection during cleanup. A pest professional can identify the species and advise on the appropriate precautions.",
+      },
+      {
+        question: "Do wolf spiders in Burley bite?",
+        answer:
+          "Wolf spiders are capable of biting but rarely do so unprovoked. A bite produces minor pain and localized irritation. They are not medically significant. The most effective management is sealing entry points and reducing the insect populations they are following into the home.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Twin Falls", slug: "twin-falls" },
+      { name: "Pocatello", slug: "pocatello" },
+      { name: "Jerome", slug: "jerome-id" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Burley, ID | Mice, Flies & Crickets Near Snake River Plain",
+    metaDescription:
+      "Burley ID pest control for house mice, blow flies, crickets and ants. Cassia County agricultural edge specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "jerome-id",
+    name: "Jerome",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~12,000",
+    county: "Jerome County",
+    climate: "semi-arid",
+    climateDriver:
+      "Jerome sits at 3,770 feet on the Snake River Plain in Jerome County, one of Idaho's primary dairy farming and potato growing regions. The semi-arid continental climate produces hot, dry summers and cold winters. Jerome County's dairy industry concentration makes flies a significant pest consideration that differs from other Snake River Plain communities. The surrounding irrigated agricultural landscape sustains both high fly and rodent populations.",
+    topPests: ["House Flies", "House Mice", "Odorous House Ants", "Cockroaches", "Crickets"],
+    pestProfile: [
+      {
+        name: "House flies and blow flies",
+        serviceSlug: "fly-control",
+        activeSeason: "April through October, peak June through August",
+        note: "Jerome County's concentration of dairy operations makes fly pressure a defining pest challenge in and around Jerome. House flies and blow flies breed in organic material from dairy waste, and warm-season populations can be very large.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through November primary entry; year-round near farm operations",
+        note: "The agricultural fields and feed storage areas surrounding Jerome sustain large rodent populations. Fall harvest displaces mice toward structures. Year-round exterior bait station programs are the standard approach for commercial properties and agricultural-edge homes.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Odorous house ants are the primary household ant pest in Jerome, nesting in soil under pavement and entering homes during summer heat seeking moisture and food.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in food service and commercial settings",
+        note: "German cockroaches are found in Jerome's food service, restaurant, and commercial kitchen environments. American cockroaches can establish in warmer commercial settings. Agricultural food processing operations have their own cockroach management requirements.",
+      },
+      {
+        name: "House and field crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "July through October",
+        note: "Crickets from the surrounding fields invade Jerome homes and businesses in late summer, attracted to lights and warm buildings. Commercial properties with bright night lighting see the heaviest aggregations.",
+      },
+    ],
+    localHook:
+      "Jerome residents are pragmatic about flies in a way that reflects living in dairy country. It is not that the problem is accepted; it is that the experienced households here have learned the combination of strategies that actually keep the numbers manageable. Screen maintenance and outdoor traps are part of the routine here in a way they simply are not in cities without a dairy industry nearby.",
+    intro:
+      "Pest control in Jerome is directly influenced by the county's dairy industry. House flies are the most visible pest challenge from spring through fall, with breeding populations sustained by dairy waste in the surrounding agricultural operations. Mice are a year-round management priority near feed storage and agricultural edges. Ants are the standard summer household pest. Cockroaches are managed in commercial food service environments. Crickets invade lit structures in late summer.",
+    sections: [
+      {
+        heading: "Fly pressure in Jerome's dairy county",
+        body: "Jerome County is one of the most concentrated dairy-producing regions in Idaho, and the fly populations that result are a real-world pest challenge for residents and businesses in Jerome. House flies breed in dairy waste and can travel up to several miles from their breeding source. In summer, fly pressure in parts of Jerome near dairy operations can be intense. Practical management for residential properties includes high-quality window and door screens without gaps, outdoor electric fly traps positioned away from entry doors to draw flies away from the home, and keeping garbage secured in sealed containers. Properties directly adjacent to dairy operations may benefit from monthly perimeter fly spray as well.",
+      },
+      {
+        heading: "Rodent management in an agricultural town",
+        body: "Jerome's agricultural surroundings mean rodent pressure is not seasonal in the way it is in purely suburban communities. Field mouse populations are sustained year-round by grain storage, crop residue, and dairy operations. Fall harvest displaces the largest numbers, but rodents are present and active at the agricultural-residential interface throughout the year. For homes and businesses within a few blocks of agricultural operations, year-round exterior bait station programs provide the most consistent protection. Interior bait is generally not recommended in occupied spaces; the focus is on interception before rodents reach the structure.",
+      },
+    ],
+    prevention: [
+      "Maintain window and door screens without tears or gaps throughout fly season.",
+      "Position outdoor fly traps away from entry doors to draw flies away from the home.",
+      "Deploy exterior rodent bait stations year-round for properties near dairy or grain operations.",
+      "Apply perimeter ant treatment in April before colony foraging begins.",
+      "Reduce outdoor lighting or switch to yellow LED bulbs to minimize cricket attraction.",
+    ],
+    costNote:
+      "Jerome fly control programs for dairy-adjacent properties run $120 to $280 per month in summer. General pest plans covering ants, mice, and spiders run $150 to $280 per year. Commercial cockroach programs are quoted separately.",
+    faqs: [
+      {
+        question: "How far do flies travel from dairy operations into Jerome neighborhoods?",
+        answer:
+          "House flies can travel several miles from their breeding source under favorable conditions, but the worst pressure is within a half mile to one mile of dairy facilities. Wind direction also matters: properties downwind of dairy operations during summer months see significantly higher fly activity.",
+      },
+      {
+        question: "Do cockroaches live in homes in Jerome or mainly in restaurants?",
+        answer:
+          "German cockroaches, the most common indoor species, are primarily found in food service and commercial kitchen environments in Jerome. Residential cockroach infestations are less common but do occur, particularly in multifamily housing and in homes that have brought infested items in from elsewhere. The agricultural processing industry in the region can also harbor cockroaches.",
+      },
+      {
+        question: "Is there anything I can do to help with fly pressure if I live near dairy farms?",
+        answer:
+          "Tight screens, secured garbage, and outdoor fly traps positioned away from entry doors make a measurable difference. Outdoor electric UV traps placed six to ten feet from the most-used entry draw flies away from the door. For the worst pressure, monthly perimeter spray treatment of exterior walls helps reduce the number landing and entering.",
+      },
+      {
+        question: "When should I start rodent prevention in Jerome?",
+        answer:
+          "For properties near agricultural operations, rodent prevention is a year-round consideration rather than a seasonal one. For the average Jerome residential property not directly adjacent to farm operations, late August is the right time to check for and seal foundation gaps and deploy exterior bait stations before fall harvest displaces field populations.",
+      },
+      {
+        question: "Are the crickets in Jerome loud enough to disrupt sleep?",
+        answer:
+          "Yes, large cricket invasions inside garages and basements can produce noise that is genuinely disruptive. The practical solution is preventing entry: tight door sweeps, perimeter spray, and reduced outdoor lighting on warm August nights. Once crickets are inside in large numbers, a combination of sticky traps and the sound usually resolves within a week as the population inside is reduced.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Twin Falls", slug: "twin-falls" },
+      { name: "Burley", slug: "burley-id" },
+      { name: "Caldwell", slug: "caldwell" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Jerome, ID | Flies, Mice & Ants in Dairy Country",
+    metaDescription:
+      "Jerome ID pest control for house flies, house mice, ants and cockroaches. Jerome County dairy country Snake River Plain specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "rathdrum-id",
+    name: "Rathdrum",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~10,000",
+    county: "Kootenai County",
+    climate: "cold-humid",
+    climateDriver: "Rathdrum Prairie sits at about 2,400 feet in northern Idaho, catching cold air from Canada and moisture off the Cascades. Winters bring hard freezes that drive mice indoors, springs arrive wet and slow, and summers are warm enough for yellow jacket colonies to reach peak size.",
+    topPests: ["Mice", "Voles", "Boxelder Bugs", "Hobo Spiders", "Yellow Jackets"],
+    pestProfile: [
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "year-round, peaks October to March", note: "Prairie setting means high field mouse pressure; homes on the edges of open lots see the worst of it each fall." },
+      { name: "Voles", serviceSlug: "wildlife-removal", activeSeason: "spring and fall", note: "Vole tunnels damage lawns and garden beds across Rathdrum Prairie; snow cover lets them work unseen all winter." },
+      { name: "Boxelder Bugs", serviceSlug: "boxelder-bug-control", activeSeason: "September to November", note: "Box elder trees throughout Kootenai County fuel large fall aggregations that pile onto south-facing walls and slip inside." },
+      { name: "Hobo Spiders", serviceSlug: "spider-control", activeSeason: "August to October", note: "Hobo spiders build funnel webs in garages and crawl spaces; populations peak as males wander seeking mates in late summer." },
+      { name: "Yellow Jackets", serviceSlug: "wasp-bee-removal", activeSeason: "June to September", note: "Ground nests hidden in lawns and wall voids become aggressive by August; late-summer nests can hold thousands of workers." },
+    ],
+    localHook: "Rathdrum's open prairie lots and mature box elder stands create ideal conditions for fall pest migrations. Mice from the surrounding fields move into homes as temperatures drop, and boxelder bugs coat siding by the thousands each September.",
+    intro: "Pest control in Rathdrum runs on a seasonal clock. Mice start probing foundations when night temps dip in September. Boxelder bugs swarm south-facing walls a few weeks later. Hobo spiders wander into garages through August. And come June, yellow jacket queens that wintered in wall voids start colonies that won't quit until first frost. Rathdrum's prairie setting means there's never a shortage of open land feeding pressure from all sides.",
+    sections: [
+      {
+        heading: "Field Mice and Voles on the Rathdrum Prairie",
+        body: "Prairie habitat is excellent for small rodents, which means Rathdrum homes on open lots deal with annual mouse invasions. Field mice follow foundation gaps, utility penetrations, and garage door seals. Once inside, they contaminate food storage and chew wiring. Voles stay outside but riddle lawns and garden beds with tunnels, killing grass roots and bulbs. We seal entry points, place tamper-resistant bait stations at the perimeter, and use snap traps in active indoor zones. Vole pressure eases with exclusion work along garden borders."
+      },
+      {
+        heading: "Boxelder Bug Season in Kootenai County",
+        body: "Box elder trees grow widely across Kootenai County, and every fall their seeds draw thousands of boxelder bugs. By mid-September they're aggregating on warm walls, pouring into attic vents, and staining light-colored siding. Once inside, they overwinter in wall voids and emerge again in spring. The practical fix is a perimeter spray in mid-September before they mass, combined with sealing attic vents and door sweeps. Crushing them creates staining and odor, so vacuum collection works better than swatting."
+      },
+      {
+        heading: "Hobo Spiders and Yellow Jackets",
+        body: "Hobo spiders build their distinctive funnel webs in crawl spaces, garages, and window wells starting in late summer. Males wander in search of females from August through October, which is when most indoor encounters happen. They're not the aggressive biters of old reputation, but a crawl space full of funnel webs still warrants treatment. Yellow jackets are a separate concern: Rathdrum's grassy lots provide ideal ground-nesting sites, and nests established in May reach peak aggression in August. We locate and treat nests directly, which is far safer than hoping they die off on their own."
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations with steel wool and caulk before September.",
+      "Install quality door sweeps on all exterior doors, including garage doors.",
+      "Keep firewood stacked away from the house; it is prime mouse and spider habitat.",
+      "Trim box elder trees when possible and clear fallen seeds from gutters each fall.",
+      "Walk the lawn in spring for vole tunnel runs; early treatment prevents summer expansion.",
+    ],
+    costNote: "Most Rathdrum pest control visits run $150 to $350 depending on pest type and property size. Seasonal prevention programs covering mice, boxelder bugs, and spiders typically run $400 to $600 per year. Yellow jacket nest removal is generally $150 to $250 per nest.",
+    faqs: [
+      {
+        question: "Are hobo spiders in Rathdrum actually dangerous?",
+        answer: "The science on hobo spider venom has shifted significantly. Current research does not support the old claim that hobo spiders cause necrotic wounds. That said, funnel webs in living spaces are still unpleasant, and bites can cause localized pain and swelling. We treat crawl spaces and garages where webs concentrate."
+      },
+      {
+        question: "When should I treat for boxelder bugs in Kootenai County?",
+        answer: "Mid-September is the sweet spot in Rathdrum. Treat before they start aggregating on walls, not after. A perimeter spray applied when daytime temps first drop below 65 consistently interrupts the migration cycle. If you wait until they're already on the siding, you're playing catch-up."
+      },
+      {
+        question: "How do I know if I have field mice or voles?",
+        answer: "Mice leave droppings and chew marks indoors; they come inside. Voles almost never enter structures but leave surface runways in grass, small burrow entrances, and dead patches of lawn. If your damage is outdoors and you're not finding droppings inside, it's almost certainly voles."
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Coeur d'Alene", slug: "coeur-dalene-id" },
+      { name: "Post Falls", slug: "post-falls-id" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Rathdrum, ID | Mice, Boxelder Bugs & Spiders",
+    metaDescription: "Pest control services in Rathdrum, Idaho covering mice, voles, boxelder bugs, hobo spiders, and yellow jackets. Prairie-edge homes need seasonal protection. Licensed technicians.",
+  },
+  {
+    slug: "middleton-id",
+    name: "Middleton",
+    state: "Idaho",
+    stateSlug: "idaho",
+    stateAbbr: "ID",
+    tier: "T3",
+    population: "~10,000",
+    county: "Canyon County",
+    climate: "semi-arid",
+    climateDriver: "Middleton sits in the Treasure Valley at about 2,300 feet, with hot dry summers, cold winters, and irrigation-fed agriculture surrounding the city. The agricultural setting means abundant rodent habitat, while the dry climate drives scorpions and spiders into homes seeking moisture.",
+    topPests: ["Voles", "Mice", "Yellow Jackets", "Ants", "Gophers"],
+    pestProfile: [
+      { name: "Voles", serviceSlug: "wildlife-removal", activeSeason: "year-round, peaks spring and fall", note: "Irrigation ditches and farmland around Middleton sustain dense vole populations that regularly invade residential lawns and gardens." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Fall harvests push field mice toward homes; Middleton's agricultural perimeter means steady pressure throughout winter." },
+      { name: "Yellow Jackets", serviceSlug: "wasp-bee-removal", activeSeason: "June to October", note: "Canyon County's warm summers allow yellow jacket colonies to grow very large; ground nests in irrigated lawns are common." },
+      { name: "Ants", serviceSlug: "ant-control", activeSeason: "March to October", note: "Pavement ants and odorous house ants are widespread; irrigation creates the moisture conditions they need near foundations." },
+      { name: "Gophers", serviceSlug: "wildlife-removal", activeSeason: "March to November", note: "Pocket gophers push crescent-shaped mounds across lawns and can undermine irrigation lines; common along Middleton's agricultural edges." },
+    ],
+    localHook: "Middleton's rapid growth puts new subdivisions right against agricultural land, which means voles, gophers, and field mice treat residential yards as an extension of the farmland next door. Fast-growing towns need pest barriers that keep up with new construction.",
+    intro: "Middleton is one of the fastest-growing cities in Canyon County, and that growth means a lot of new homes sitting against agricultural land that hasn't been developed yet. Field pests, particularly voles and mice, don't see a property line. They see habitat. Gophers push mounds under new sod. Yellow jackets nest in irrigated lawns. Ants follow moisture along foundation slabs. We've worked this corridor for years, and the pest patterns in Middleton are predictable enough that prevention is almost always cheaper than emergency treatment.",
+    sections: [
+      {
+        heading: "Voles and Gophers in Middleton's Agricultural Fringe",
+        body: "Pocket gophers and meadow voles thrive in the irrigated fields and pastures surrounding Middleton. As development pushes into those areas, the animals simply relocate to residential lawns. Gophers pull plants underground from below and leave kidney-shaped mounds; voles create surface runways and kill grass roots without producing obvious mounds. Both need different control approaches. Gopher control uses subsurface trapping or baiting in active tunnels. Vole control focuses on perimeter barriers, habitat reduction, and bait station placement. Treating both without knowing which you have wastes time and money."
+      },
+      {
+        heading: "Fall Mouse Pressure Along the Treasure Valley",
+        body: "Canyon County's agricultural harvest season, typically September and October, displaces huge numbers of field mice. They move toward warmth and find Middleton's newer homes, which often have construction-phase gaps in foundation insulation and pipe penetrations. The first cool nights of fall are your signal to act. We inspect the exterior for entry points, seal confirmed gaps with copper mesh and caulk, and set interior bait stations in attic and crawl space zones. One prevention visit in September typically keeps a household mouse-free for the winter."
+      },
+      {
+        heading: "Yellow Jackets and Ants in Irrigated Yards",
+        body: "Middleton's residential irrigation system is a double-edged tool. It keeps lawns green but keeps soil moist, which is exactly what ground-nesting yellow jackets and moisture-seeking ants need. Yellow jacket nests in lawns go unnoticed until someone mows over them in August. Ant colonies along foundation slabs follow moisture gradients from irrigation heads. We treat yellow jacket nests directly and safely, and address ant colonies with targeted perimeter baiting that controls the colony rather than just the foragers you can see."
+      },
+    ],
+    prevention: [
+      "Survey your lawn for vole runways and gopher mounds in early spring before they expand.",
+      "Check irrigation head placement to avoid watering against the foundation slab.",
+      "Seal construction gaps around pipes and utility conduits before the first frost.",
+      "Keep a 12-inch gravel border around the foundation to deter ant colonies.",
+      "Have a pest technician walk the perimeter in September before fall mouse migration peaks.",
+    ],
+    costNote: "Pest control in Middleton generally runs $120 to $300 for a standard service visit. Gopher control programs for residential lawns typically run $250 to $450 depending on infestation size. Annual prevention programs covering mice, ants, and seasonal insects run $400 to $650 per year.",
+    faqs: [
+      {
+        question: "How do I tell gophers from voles in my Middleton lawn?",
+        answer: "Gophers produce kidney-shaped or fan-shaped mounds of loose soil with a plugged hole off-center. Voles leave surface runways, small burrow openings (about the diameter of a quarter), and dead grass in linear patterns. Gophers pull from below; voles run on top. The distinction matters because the treatments are completely different."
+      },
+      {
+        question: "Why are there so many yellow jackets in irrigated lawns?",
+        answer: "Moist soil in irrigated lawns is prime ground-nesting habitat. Yellow jacket queens scout for loose, friable soil in April and May. Lawns with consistent irrigation are almost always selected first. The nests start small and invisible; by August they can contain 1,500 to 5,000 workers. We recommend a spring perimeter check to catch new nests early."
+      },
+      {
+        question: "My house is new construction. Do I still need pest control?",
+        answer: "New construction in Middleton often has more entry points than older homes, not fewer, because construction gaps, unsettled grout lines, and temporary utility penetrations are common. Agricultural fields next to new subdivisions also mean immediate rodent pressure. We see some of the worst mouse and vole calls from homes built in the last three years."
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Caldwell", slug: "caldwell-id" },
+      { name: "Nampa", slug: "nampa-id" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Middleton, ID | Voles, Mice & Yellow Jackets",
+    metaDescription: "Pest control in Middleton, Idaho targeting voles, gophers, mice, yellow jackets, and ants. Agricultural-edge city needs proactive seasonal prevention. Licensed Canyon County technicians.",
+  },
 ];

@@ -1158,5 +1158,246 @@ export const vermontCities: CityLocation[] = [
     metaTitle: "Pest Control in Springfield, VT | Ticks, Carpenter Ants & Stink Bugs",
     metaDescription:
       "Springfield VT pest control for deer ticks, carpenter ants, stink bugs, and house mice. Connecticut River valley corridor brings stink bug pressure north to Windsor County. Free inspection. Call 1-800-PEST-USA.",
-  }
+  },
+  {
+    slug: "winooski-vt",
+    name: "Winooski",
+    state: "Vermont",
+    stateSlug: "vermont",
+    stateAbbr: "VT",
+    tier: "T3",
+    population: "~8,000",
+    county: "Chittenden County",
+    climate: "cold-humid",
+    climateDriver:
+      "Winooski is a small, densely populated city completely surrounded by Burlington, Colchester, and the Winooski River in Chittenden County, Vermont. This former mill city has transformed into a diverse urban community. The humid continental climate delivers cold snowy winters and warm humid summers, with the Winooski River adding moisture and mosquito habitat. The dense urban residential character, old mill-era housing stock, and proximity to forested Burlington parcels create an active carpenter ant, mouse, and tick environment.",
+    topPests: ["Carpenter Ants", "House Mice", "Deer Ticks", "Mosquitoes", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, peak April through June",
+        note: "Carpenter ants are the primary structural pest concern in Winooski's old mill-era housing. The moisture from the Winooski River and the age of the housing stock create conditions where carpenter ant colonies establish readily in softening wood.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through November entry; year-round in old housing",
+        note: "Old mill-era buildings and multifamily housing in Winooski have many potential mouse entry points. Vermont's cold winters create strong pressure for mice to move into heated structures in fall, and older construction provides numerous access routes.",
+      },
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November",
+        note: "Vermont has documented expanding deer tick populations and rising Lyme disease cases. Chittenden County is in the active-risk zone. Winooski's proximity to forested Burlington parks and the Winooski River corridor creates tick exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Winooski River and its associated wetlands create mosquito breeding habitat adjacent to the city. Summer mosquito pressure is notable near the river and in low-lying areas.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in multifamily and food service settings",
+        note: "Winooski's dense multifamily housing includes units where German cockroaches can establish and spread between connected units. Food service establishments on Main Street also manage cockroach pressure as part of their routine sanitation program.",
+      },
+    ],
+    localHook:
+      "Winooski packs a lot into its one square mile. The diversity of the community, the old mill buildings converted to apartments, the restaurants on Main Street, the proximity to Burlington. And the pest landscape reflects that density. Carpenter ants in the old frame buildings, mice in the older multifamily stock, ticks in the parks just across the city line. This is a city where good pest management is part of maintaining a decent living environment.",
+    intro:
+      "Pest control in Winooski addresses the challenges of a dense, older urban community in Chittenden County. Carpenter ants are the primary structural pest in the old mill-era housing stock, aided by the moisture from the Winooski River. House mice are a persistent fall and winter management challenge in older multifamily buildings. Deer ticks are a Lyme disease risk from the forested areas adjacent to the city. Mosquitoes are active near the river. German cockroaches are managed in multifamily and food service settings.",
+    sections: [
+      {
+        heading: "Carpenter ants in old Vermont mill housing",
+        body: "Winooski's older residential buildings, many of which date from the mill era and have been divided into apartments, present the conditions that carpenter ants favor: aging wood with potential moisture exposure, connected structures, and proximity to forested areas. Unlike termites, which consume wood, carpenter ants excavate smooth galleries through it, often targeting wood that has been softened by moisture around plumbing, windows, or rooflines. Finding piles of coarse sawdust-like material near wall voids, window frames, or basement areas is a reliable sign of carpenter ant activity. Annual perimeter treatment in March addresses colonies before swarmers emerge in spring.",
+      },
+      {
+        heading: "Mouse management in multifamily Winooski buildings",
+        body: "Winooski's dense multifamily housing creates mouse management challenges similar to other old New England mill cities. Old construction has many potential entry points: gaps around plumbing penetrations, settling cracks in foundations, and the accumulated small openings that develop over decades in wood-frame buildings. Vermont's cold winters, typically the harshest in the continental US for this latitude, create intense pressure for mice to move into heated buildings in October and November. Building-wide exclusion work, where all identified entry points in a building are sealed in one systematic effort, is more effective than unit-by-unit treatment in an older multifamily structure. Regular interior monitoring with snap traps provides ongoing catch.",
+      },
+    ],
+    prevention: [
+      "Schedule annual carpenter ant treatment in March before the Winooski River moisture activates spring colonies.",
+      "Conduct a systematic foundation and utility entry gap inspection and sealing before October.",
+      "Check for ticks after using the Winooski River trails and park areas, particularly in May through July.",
+      "Report cockroach sightings in multifamily units to the building manager for coordinated treatment.",
+      "Eliminate standing water near the river to reduce on-property mosquito breeding.",
+    ],
+    costNote:
+      "Winooski carpenter ant and general pest plans run $140 to $280 per year. Mouse exclusion work for multifamily buildings is quoted per building based on size and entry point count. Tick yard treatment is $90 to $170 per application.",
+    faqs: [
+      {
+        question: "Is Lyme disease a concern in Winooski specifically?",
+        answer:
+          "Vermont's deer tick populations have expanded significantly in Chittenden County in recent years. Winooski residents who use the Winooski River trail, Burlington's parks adjacent to the city, or who garden in properties with wooded edges have real tick exposure. The Vermont Department of Health publishes county-level Lyme data annually.",
+      },
+      {
+        question: "I live in an old apartment in Winooski and see mice every winter. What can I do?",
+        answer:
+          "First, document and report the activity to your landlord in writing. Vermont landlords are responsible for maintaining habitable conditions. Request that entry points be identified and sealed throughout the building, not just in your unit. If your landlord does not respond, the Vermont Department of Health or local housing inspectors can assist. Interior snap traps provide immediate catch while the structural work is being done.",
+      },
+      {
+        question: "Are the carpenter ants in my Winooski apartment in the building structure or just foraging in?",
+        answer:
+          "Either is possible. If you see small numbers of large ants in the spring foraging in a kitchen or bathroom, they may be entering from outside to forage. If you find piles of coarse sawdust in a closet, near a window, or in the basement, or if you see large numbers of winged ants, the colony is in the structure. A professional inspection can determine which situation you have.",
+      },
+      {
+        question: "Are German cockroaches common in Winooski apartments?",
+        answer:
+          "They do occur in multifamily buildings in Winooski, particularly in units with ongoing food availability and moisture. German cockroaches spread between units through shared plumbing chases and wall voids. Report any cockroach sighting to your landlord immediately so building-level treatment can begin. Unit-by-unit treatment without addressing adjacent units is rarely effective long-term in old multifamily construction.",
+      },
+      {
+        question: "What months should I be most careful about ticks in the Winooski area?",
+        answer:
+          "May through July is the nymph activity peak, which is the highest-risk window for Lyme disease transmission because the nymphs are tiny and often attached for hours before they are noticed. Adult ticks are active in early spring and in fall. A daily tick check after outdoor time in wooded or brushy areas is the most reliable personal protection measure.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Burlington", slug: "burlington" },
+      { name: "South Burlington", slug: "south-burlington" },
+      { name: "Essex Junction", slug: "essex-junction-vt" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Winooski, VT | Carpenter Ants, Mice & Deer Ticks",
+    metaDescription:
+      "Winooski VT pest control for carpenter ants, house mice, deer ticks and mosquitoes. Chittenden County Burlington suburb mill-city specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "st-albans-vt",
+    name: "St. Albans",
+    state: "Vermont",
+    stateSlug: "vermont",
+    stateAbbr: "VT",
+    tier: "T3",
+    population: "~7,000",
+    county: "Franklin County",
+    climate: "cold-humid",
+    climateDriver: "St. Albans sits near Lake Champlain in northwestern Vermont at about 400 feet, where lake-effect snow adds to an already cold, wet winter climate. Warm, humid summers create excellent conditions for mosquitoes and ticks, while hard freezes push mice indoors from October through April.",
+    topPests: ["Mice", "Carpenter Ants", "Deer Ticks", "Mosquitoes", "Stink Bugs"],
+    pestProfile: [
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Lake Champlain winters in Franklin County are severe; mice enter homes aggressively from October and breed indoors through spring." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "April to October", note: "St. Albans' older building stock and surrounding forest mean carpenter ants are nearly universal; wet wood from lake-effect snow accelerates damage." },
+      { name: "Deer Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March to November", note: "Franklin County has high Lyme disease incidence; deer ticks are active from first thaw through late fall and are present in wooded yards." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Lake Champlain wetlands and local marsh areas support large mosquito populations; West Nile and EEE have been detected in Vermont." },
+      { name: "Stink Bugs", serviceSlug: "stink-bug-control", activeSeason: "September to November", note: "Brown marmorated stink bugs have established across Vermont and aggregate in large numbers on St. Albans homes each fall." },
+    ],
+    localHook: "St. Albans is Franklin County's largest city and sits close enough to Lake Champlain that lake-effect moisture influences pest behavior year-round. Ticks are a genuine health concern, carpenter ants thrive in the wet wood that older homes provide, and stink bugs have become an autumn fixture in recent years.",
+    intro: "Pest control in St. Albans follows Vermont's rhythms closely. The Lyme disease tick risk from nearby wooded areas is real and well-documented in Franklin County. Carpenter ants find the older homes near downtown and along Railroad Street appealing for the same reasons homeowners love them: old wood, settled foundations, mature trees. Mice move in each October. And now stink bugs swarm every September. It's a full calendar of pest activity, and staying ahead of it is easier than treating an established problem mid-winter.",
+    sections: [
+      {
+        heading: "Tick and Lyme Disease Risk in Franklin County",
+        body: "Franklin County is among Vermont's higher-risk counties for Lyme disease. Deer tick populations are supported by the wooded lots, farmland, and wetland edges throughout St. Albans and the surrounding towns. Ticks become active when soil temperatures exceed 35 degrees, typically in March, and remain a threat through November. Properties with lawn-to-woodland transitions need tick management the most. We treat yard perimeters with targeted acaricides applied in spring and late summer, which are the two highest-activity windows. Personal protection habits matter too, but yard treatment reduces exposure significantly."
+      },
+      {
+        heading: "Carpenter Ants in St. Albans' Older Homes",
+        body: "Many homes in and around downtown St. Albans are over a century old. Carpenter ants love this building stock. They don't eat wood but excavate it to build galleries, and they prefer wood that's softened by moisture. Lake-effect snow, ice dam leaks, and older roofing all create the moisture conditions that make a structure attractive. Signs include piles of coarse sawdust (frass), winged ants emerging from walls in spring, and faint rustling from active galleries. We treat the nest directly when locatable and apply barrier treatments that interrupt the foraging trails leading to and from structures."
+      },
+      {
+        heading: "Mouse Season and Fall Stink Bug Swarms",
+        body: "October is busy in St. Albans pest control. Mice from nearby fields start probing foundations as field crops come down and temperatures fall. At the same time, brown marmorated stink bugs start their annual search for overwintering sites. Both want to get inside your walls before winter, and both will succeed if there are gaps to exploit. Stink bug season responds well to a mid-September perimeter spray applied before they aggregate. Mouse season responds to exclusion work: sealed foundation gaps, door sweeps, and exterior bait station placement. Waiting on either until you see them inside means you're already behind."
+      },
+    ],
+    prevention: [
+      "Treat lawn edges and wooded transitions for ticks in April and again in August.",
+      "Inspect roof lines, chimney flashings, and soffit joints annually for moisture and carpenter ant entry.",
+      "Seal foundation gaps and install door sweeps before September to block both mice and stink bugs.",
+      "Remove standing water from gutters and low spots to reduce mosquito breeding.",
+      "Keep firewood elevated and away from exterior walls to reduce overwintering pest harborage.",
+    ],
+    costNote: "Pest control visits in St. Albans typically run $130 to $320. Tick yard treatments run $80 to $160 per application; two-treatment spring and late-summer programs are standard. Annual prevention plans covering mice, carpenter ants, and seasonal insects run $450 to $700 per year.",
+    faqs: [
+      {
+        question: "How serious is the Lyme disease risk in St. Albans, VT?",
+        answer: "Franklin County has consistently reported Lyme disease cases, and the tick population in wooded St. Albans neighborhoods is significant. The risk is real enough to warrant proactive yard treatment if you have children or pets or spend time outdoors. Vermont's tick season runs from March through November, not just summer."
+      },
+      {
+        question: "Why are there so many carpenter ants in my St. Albans home?",
+        answer: "Carpenter ants in Vermont almost always indicate a moisture problem. Older St. Albans homes frequently have areas where water has infiltrated siding, window frames, or roof structures. The ants find and excavate that softened wood. Treatment addresses the infestation, but resolving the moisture source is essential to a lasting fix."
+      },
+      {
+        question: "What should I do about stink bugs in the fall?",
+        answer: "The key in St. Albans is treating before they aggregate on the siding, which typically starts in mid-September when daytime temps first drop below 65 consistently. A perimeter spray at that point breaks up the mass movement. Once they're inside the walls, treatment options narrow and vacuuming becomes the main tool."
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Burlington", slug: "burlington-vt" },
+      { name: "Winooski", slug: "winooski-vt" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in St. Albans, VT | Mice, Ticks & Carpenter Ants",
+    metaDescription: "Pest control in St. Albans, Vermont covering mice, carpenter ants, deer ticks, mosquitoes, and stink bugs. Franklin County Lyme risk demands proactive tick management. Licensed Vermont technicians.",
+  },
+  {
+    slug: "middlebury-vt",
+    name: "Middlebury",
+    state: "Vermont",
+    stateSlug: "vermont",
+    stateAbbr: "VT",
+    tier: "T3",
+    population: "~8,000",
+    county: "Addison County",
+    climate: "cold-humid",
+    climateDriver: "Middlebury sits in Vermont's Champlain Valley at about 400 feet, where the Green Mountains to the east and Lake Champlain to the west moderate temperatures somewhat but still deliver cold, snowy winters and warm, humid summers. The college town setting adds density and foot traffic that influences certain pest pressures.",
+    topPests: ["Mice", "Carpenter Ants", "Deer Ticks", "Cluster Flies", "Centipedes"],
+    pestProfile: [
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Middlebury's cold winters and mix of older student rentals and historic homes create strong annual mouse pressure as fields empty in fall." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "April to October", note: "Addison County's forested surroundings and older building stock make carpenter ants the most commonly reported structural pest in Middlebury." },
+      { name: "Deer Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March to November", note: "Addison County has documented Lyme disease activity; wooded campus edges and the Otter Creek corridor support tick populations." },
+      { name: "Cluster Flies", serviceSlug: "fly-control", activeSeason: "September to November", note: "Cluster flies are a consistent problem in Middlebury's older buildings; they overwinter in wall voids and emerge from windows on warm winter days." },
+      { name: "Centipedes", serviceSlug: "spider-control", activeSeason: "year-round", note: "House centipedes thrive in Middlebury's damp basement and crawl space environments; they indicate moisture and insect prey populations below." },
+    ],
+    localHook: "Middlebury College draws students year-round, and the town's historic buildings, Otter Creek corridor, and surrounding farms create a layered pest environment. Cluster flies in older walls, carpenter ants in century-old structures, and ticks along wooded campus trails are the defining pest issues here.",
+    intro: "Pest control in Middlebury has a character shaped by the town itself: old buildings, dense tree canopy, the Otter Creek wetland, and a campus that keeps foot traffic high year-round. Cluster flies invading historic structures each fall are a Middlebury hallmark. Carpenter ants are nearly universal in the older housing stock. Deer ticks are present along any wooded edge, and Addison County's Lyme risk is documented. Mice arrive with the first October frost. We know Middlebury's buildings and rhythms well.",
+    sections: [
+      {
+        heading: "Cluster Flies in Middlebury's Historic Buildings",
+        body: "Cluster flies are a distinctive pest of Vermont's older buildings. Unlike house flies, they breed outdoors in earthworm-rich soil, then seek overwintering sites in the fall. Middlebury's historic brick and wood-frame structures are ideal: wall voids, attic spaces, and south-facing roof structures provide the warmth they want. On sunny winter days, they emerge from walls in large numbers and collect at south-facing windows. They're not a health risk, but the quantity can be significant. Treatment involves fall perimeter sprays before they aggregate and attic treatments to reduce overwintering populations. Spring exclusion work seals the entry points for the following year."
+      },
+      {
+        heading: "Carpenter Ants in Middlebury's Older Housing",
+        body: "Addison County's woodlands and Middlebury's building stock make carpenter ants predictable. They're most active from April through June, when winged reproductives swarm from established galleries. The telltale signs are coarse sawdust (frass), soft rustling from walls, and winged ants emerging from gaps around window frames or electrical outlets. Otter Creek's moisture influence and older rooflines that collect ice dams both create the wet wood that attracts them. Treatment is most effective when we can locate the satellite gallery, often in a porch beam or window header, rather than just treating foragers. Prevention means annual roofline inspections and keeping tree branches trimmed away from the structure."
+      },
+      {
+        heading: "Ticks, Mice, and Year-Round Moisture Pests",
+        body: "The Otter Creek corridor and wooded edges around Middlebury College and surrounding farms support a year-round deer tick population. Lyme disease transmission is a real risk in Addison County, not a hypothetical one. Tick yard treatments in April and August, along with personal protective habits, form the best defense. Mice enter structures in October as fields are harvested and cold settles in. Older student rentals and multi-unit buildings near campus often have more entry points than single-family homes. House centipedes, present in damp basements year-round, are an indicator pest: they feed on other insects, so their presence signals moisture and prey populations that deserve a look."
+      },
+    ],
+    prevention: [
+      "Inspect attic vents and exterior wall gaps each September before cluster flies aggregate.",
+      "Trim tree branches away from rooflines to reduce carpenter ant bridge access.",
+      "Apply tick treatment to wooded yard edges in April; reapply in August for fall activity.",
+      "Seal foundation sills and utility penetrations before October to block mice.",
+      "Reduce basement moisture with a dehumidifier to deter centipedes and other moisture-dependent pests.",
+    ],
+    costNote: "Pest control in Middlebury typically runs $130 to $320 per visit. Cluster fly programs for older buildings, including fall spray and attic treatment, run $250 to $400. Annual prevention plans covering mice, carpenter ants, ticks, and seasonal insects run $500 to $750 per year.",
+    faqs: [
+      {
+        question: "Why do I see flies at my windows in January in Middlebury?",
+        answer: "Almost certainly cluster flies. They overwinter in your wall voids and attic, and on warm winter days they navigate toward light and warmth, appearing at south-facing windows. They're slow-moving and won't breed indoors. The population in your walls may be in the hundreds or thousands. Fall exclusion and attic treatment prevents them; vacuuming manages them mid-winter."
+      },
+      {
+        question: "Are ticks a year-round concern in Addison County?",
+        answer: "Deer ticks can be active whenever temperatures exceed 35 degrees, which in Middlebury means March through November in a typical year. Winter ticks may also be active on mild days. Addison County has confirmed Lyme disease transmission. Year-round vigilance is warranted for anyone with outdoor activity, children, or pets."
+      },
+      {
+        question: "How do I know if my Middlebury home has a carpenter ant problem?",
+        answer: "Look for coarse sawdust (not fine like termite frass) near baseboards, window frames, or where walls meet floors. Listen for faint rustling in walls on quiet nights. Watch for winged ants emerging from wall gaps in April or May. Any one of these is a reason to call us for an inspection."
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Burlington", slug: "burlington-vt" },
+      { name: "Rutland", slug: "rutland-vt" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Middlebury, VT | Cluster Flies, Ticks & Carpenter Ants",
+    metaDescription: "Pest control in Middlebury, Vermont for cluster flies, carpenter ants, deer ticks, mice, and centipedes. Addison County historic buildings and wooded surroundings need expert pest management. Licensed Vermont technicians.",
+  },
 ];

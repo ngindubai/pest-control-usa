@@ -1852,4 +1852,874 @@ export const utahCities: CityLocation[] = [
     metaDescription:
       "Riverton pest control for black widow spiders, voles, mice and yellowjackets. Salt Lake County South Valley established neighborhood specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "pleasant-grove-ut",
+    name: "Pleasant Grove",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~39,000",
+    county: "Utah County",
+    climate: "semi-arid",
+    climateDriver:
+      "Pleasant Grove sits at the foot of American Fork Canyon in Utah Valley, with views of Mount Timpanogos and the Wasatch Range defining the eastern horizon. The semi-arid climate delivers cold winters, hot dry summers, and the Utah Valley moisture influence from Utah Lake to the west. The mix of established older neighborhoods and active new development across Pleasant Grove creates different pest dynamics in different parts of the city.",
+    topPests: ["Voles", "Black Widow Spiders", "House Mice", "Ants", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Meadow voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round; most damaging November through March",
+        note: "Voles are a defining lawn pest in Pleasant Grove's established residential neighborhoods. The well-maintained turf and ornamental gardens provide ideal habitat, and spring reveals tunnel damage throughout the yard after snowmelt.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "April through October; sheltered year-round",
+        note: "Black widows are common throughout Utah County and found regularly in Pleasant Grove garages, crawl spaces, and stone retaining walls. Annual perimeter treatment is the standard approach.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through November entry",
+        note: "The Wasatch foothills and American Fork Canyon terrain above Pleasant Grove support mouse populations that press toward homes in fall as temperatures drop.",
+      },
+      {
+        name: "Odorous house ants and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Both species are common in Pleasant Grove's residential grid, nesting under driveways and entering through foundation cracks in spring.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November",
+        note: "Boxelder bugs aggregate on homes in the older, tree-mature neighborhoods of Pleasant Grove each fall, creating nuisance wall aggregations before overwintering in wall voids.",
+      },
+    ],
+    localHook:
+      "Pleasant Grove is a Utah Valley community with a strong sense of neighborhood identity, and the pest calendar here is as predictable as the school schedule. Vole runways in March, ants in May, boxelder bugs in October. The families who have been here for a generation have learned to treat proactively in spring and fall. The newcomers to the valley learn it in their first year.",
+    intro:
+      "Pest control in Pleasant Grove runs the Utah Valley calendar. Voles tunnel through lawns under winter snow and leave the damage visible each spring. Black widows are a year-round garage and crawl space concern. Mice push into homes from the Wasatch foothills in October. Ants work the foundations through spring and summer. Boxelder bugs aggregate on homes in fall.",
+    sections: [
+      {
+        heading: "Spring lawn care after a Utah vole winter",
+        body: "Every spring in Pleasant Grove's established neighborhoods, homeowners do the same assessment: walk the lawn after snowmelt and count the runways. Voles have been tunneling under the snow since November, and the damage is visible all at once in March: brown paths cut through the grass in irregular networks, and gnawed bark rings at the base of ornamental shrubs and young trees. The lawn recovers with spring raking, overseeding, and consistent watering over four to six weeks. Preventing re-infestation in the following fall is the more important task: reduce dense ground cover at lawn edges, mow short before the first snow, and consider fall bait station placement.",
+      },
+      {
+        heading: "Keeping black widows out of Pleasant Grove garages",
+        body: "Black widows are present throughout Utah County and find Pleasant Grove's garages, crawl spaces, and rock landscaping features ideal habitat. They prefer dark, undisturbed spaces where they can build irregular webs and wait for prey. Attached garages with accumulated storage, shelving units against walls, and firewood stacked against the home are the highest-risk spots. Annual perimeter spray starting in April treats the exterior wall below the garage door and around the foundation. Reducing clutter inside the garage removes the harborage that allows populations to establish between treatments.",
+      },
+    ],
+    prevention: [
+      "Apply perimeter spray in April for ants and black widows before the warm-season peak.",
+      "Treat boxelder bug exterior aggregations in September before they move inside.",
+      "Mow the lawn short and clear ground cover from edges in October to reduce vole winter habitat.",
+      "Seal foundation gaps and utility entries before October to block fall mouse entry.",
+      "Reduce garage clutter to eliminate black widow harborage between annual treatments.",
+    ],
+    costNote:
+      "Pleasant Grove general pest plans run $150 to $280 per year for quarterly service. Vole seasonal programs cost $130 to $260. Boxelder bug treatment is often included in a fall service visit.",
+    faqs: [
+      {
+        question: "When do voles start damaging my Pleasant Grove lawn?",
+        answer:
+          "Voles move into lawn areas in fall and begin creating tunnels in October before the first snow. They work through winter under snow cover, which hides the damage. Spring snowmelt reveals the full extent of tunneling in March or April. The treatment window is fall, before snow arrives.",
+      },
+      {
+        question: "Are black widows in Pleasant Grove a sign I need to worry about scorpions?",
+        answer:
+          "Black widows are common throughout Utah Valley. Scorpions are present in Utah but are more concentrated in southern Utah. Stripe-tailed and bark scorpions are found in parts of the state, but Pleasant Grove residents are much more likely to encounter black widows than scorpions. If scorpion encounters do happen in Pleasant Grove, report them to a pest professional.",
+      },
+      {
+        question: "Why do ants always come into my Pleasant Grove kitchen in May?",
+        answer:
+          "Ant colonies begin expanding and foraging aggressively in May when soil temperatures warm enough for full colony activity. They enter through foundation cracks and utility openings seeking food and moisture. A perimeter treatment applied in April, before the May surge, creates a barrier that reduces this reliably.",
+      },
+      {
+        question: "How long does boxelder bug season last in Pleasant Grove?",
+        answer:
+          "Aggregations typically begin in mid-September and run through October. Heavy years see large numbers into November. The exterior surface treatment applied when aggregations first appear is most effective. Once they are inside wall voids, removing them requires vacuuming emerging bugs through winter.",
+      },
+      {
+        question: "Is pest control different in Pleasant Grove's newer subdivisions versus the older areas?",
+        answer:
+          "Newer subdivisions often see more ant and cricket pressure in the first years as construction disturbs established colonies. Older neighborhoods with mature trees see heavier boxelder bug pressure. Both benefit from the same seasonal treatment approach, but the specific pest emphasis may vary.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Provo", slug: "provo" },
+      { name: "Orem", slug: "orem" },
+      { name: "American Fork", slug: "american-fork-ut" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Pleasant Grove, UT | Voles, Black Widows & Mice",
+    metaDescription:
+      "Pleasant Grove UT pest control for voles, black widow spiders, house mice and boxelder bugs. Utah County Wasatch Front specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "springville-ut",
+    name: "Springville",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~34,000",
+    county: "Utah County",
+    climate: "semi-arid",
+    climateDriver:
+      "Springville sits at the southern end of Utah Valley in Utah County, known as Art City for its historic arts culture and home to the Springville Museum of Art. The semi-arid climate delivers the standard Wasatch Front pattern: cold winters, hot dry summers, and the sustained pest pressure from voles, black widows, and mice that characterizes the Utah Valley pest calendar. Hobble Creek Canyon to the east provides forested terrain that supports higher rodent populations than purely flat valley communities.",
+    topPests: ["Voles", "Black Widow Spiders", "House Mice", "Pavement Ants", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Meadow voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round; most damaging October through March",
+        note: "Voles are a significant lawn pest throughout Springville's residential areas. The Hobble Creek Canyon terrain above the city provides additional vole pressure for foothill-adjacent neighborhoods.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "April through October; year-round in sheltered areas",
+        note: "Black widows are present throughout Utah County and common in Springville garages, stone retaining walls, and undisturbed crawl spaces.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through November primary entry",
+        note: "Hobble Creek Canyon and the foothills above Springville generate fall mouse pressure as temperatures drop and mice move toward heated structures.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Pavement ants are the dominant ant pest in Springville, nesting under concrete and entering through foundation cracks in spring.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November",
+        note: "Springville's mature neighborhoods with established boxelder and maple trees see reliable fall boxelder bug aggregations on south-facing walls.",
+      },
+    ],
+    localHook:
+      "Springville has a long-established community identity built around arts and history. The older residential areas near the center of town, with their mature trees and established gardens, are beautiful in every season. They are also prime territory for boxelder bugs in October and voles through the winter. The two things coexist in this part of Utah Valley.",
+    intro:
+      "Pest control in Springville follows the Utah County pattern with the added dimension of foothill-adjacent rodent pressure from Hobble Creek Canyon. Voles are the defining lawn pest through winter. Black widows are a year-round garage concern. Mice come down from the canyon terrain in fall. Pavement ants are the persistent spring through summer pest. Boxelder bugs are a reliable October nuisance in the mature-tree neighborhoods.",
+    sections: [
+      {
+        heading: "Foothill living and the canyon mouse pressure",
+        body: "Springville's eastern neighborhoods closest to Hobble Creek Canyon experience higher mouse pressure than the flat valley floor portions of the city. Canyon terrain provides year-round habitat for mice and deer mice, and the fall temperature drop triggers movement toward warm structures. Homes with garages, crawl spaces, or attached storage facing the canyon direction see the most pressure. Exterior bait stations deployed in September catch this migration before it becomes an interior problem. Annual inspection and sealing of foundation gaps is more important for foothill-adjacent homes than for those further into the valley.",
+      },
+      {
+        heading: "Art City's yard: managing voles in established gardens",
+        body: "Springville's ornamental gardens and mature landscapes, the ones that have been developed over decades in the established neighborhoods, are particularly vulnerable to vole damage. Voles gnaw the bark at the base of established ornamental shrubs and young trees in winter, sometimes girdling them completely. A valued rose bush or fruit tree that has been girdled by voles will usually die unless the damage is caught early and treated. Hardware cloth trunk cylinders installed each fall prevent this specific damage. For lawns, fall bait station programs and mowing short before the first snow reduce tunnel damage.",
+      },
+    ],
+    prevention: [
+      "Install hardware cloth trunk cylinders on ornamental shrubs and young trees each October.",
+      "Apply boxelder bug exterior treatment in September in older-tree neighborhoods.",
+      "Deploy exterior rodent bait stations in September for foothill-adjacent properties.",
+      "Apply black widow and ant perimeter treatment in April.",
+      "Seal foundation gaps before October to block fall mouse entry.",
+    ],
+    costNote:
+      "Springville general pest plans run $150 to $280 per year. Vole seasonal programs cost $130 to $250. Foothill-adjacent rodent exclusion work runs $200 to $400.",
+    faqs: [
+      {
+        question: "Are voles more damaging to gardens or lawns in Springville?",
+        answer:
+          "Both are affected, but ornamental garden plants and young trees are actually more seriously damaged. Voles gnaw the bark at the base of woody plants in winter, and complete girdling kills the plant by cutting off water and nutrient movement. Lawn damage (runways in the turf) looks more dramatic in spring but recovers within weeks. A girdled ornamental does not.",
+      },
+      {
+        question: "Do boxelder bugs actually damage anything in a Springville home?",
+        answer:
+          "No structural damage. Boxelder bugs stain surfaces when crushed, and their numbers inside wall voids and living spaces are a genuine nuisance, but they do not eat wood, food, or fabric. The problem is numbers and persistence. Exterior treatment before they enter is the practical solution.",
+      },
+      {
+        question: "Is Hobble Creek Canyon a significant mouse source for Springville homes?",
+        answer:
+          "Yes, particularly for properties in the eastern portions of Springville closest to the canyon mouth. Canyon terrain supports robust mouse populations year-round. The fall temperature transition drives them toward heated structures. Properties within a half mile of the canyon access should treat this as a seasonal management priority.",
+      },
+      {
+        question: "Can I use bait stations for voles near my Springville garden?",
+        answer:
+          "Yes. Rodenticide bait stations designed for voles, placed in active runways along garden edges in October before snow covers the ground, are an effective tool. Follow label directions for placement near gardens, and use tamper-resistant bait stations in areas accessible to children or pets.",
+      },
+      {
+        question: "When is the best time for a full pest inspection in Springville?",
+        answer:
+          "March is ideal for a spring startup inspection covering spiders, ants, and any winter mouse evidence. September is the fall inspection window covering mouse exclusion and boxelder bug prevention. Annual inspections at these two points cover the main seasonal transitions in Utah County.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Provo", slug: "provo" },
+      { name: "Spanish Fork", slug: "spanish-fork" },
+      { name: "Orem", slug: "orem" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Springville, UT | Voles, Mice & Boxelder Bugs in Art City",
+    metaDescription:
+      "Springville UT pest control for voles, black widow spiders, house mice and boxelder bugs. Utah County Hobble Creek Canyon area specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "saratoga-springs-ut",
+    name: "Saratoga Springs",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~28,000",
+    county: "Utah County",
+    climate: "semi-arid",
+    climateDriver:
+      "Saratoga Springs is one of Utah's fastest-growing cities, situated on the west shore of Utah Lake in Utah County. The community sits at about 4,500 feet with the lake directly to the east and open rangeland and undeveloped areas to the west. The lake proximity adds moisture and mosquito breeding habitat, and the rapid development on formerly agricultural and undeveloped land creates the development-edge pest dynamics that accompany new construction across the Wasatch Front.",
+    topPests: ["Mosquitoes", "Voles", "Ants", "House Mice", "Black Widow Spiders"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Utah Lake's shoreline and the wetland margins along the west shore create significant mosquito breeding habitat directly adjacent to Saratoga Springs residential areas. Mosquito pressure here is notably higher than in Utah Valley communities not on the lake shore.",
+      },
+      {
+        name: "Meadow voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round; most damaging November through March",
+        note: "The new lawns of Saratoga Springs's expanding residential areas are rapidly colonized by voles. Newer subdivisions built on former agricultural or rangeland often see heavy vole pressure in their first winters.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Ants are the most common household pest in Saratoga Springs's growing residential developments. New construction regularly disturbs ant colonies that then relocate into new homes.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through November entry",
+        note: "The rangeland terrain west of Saratoga Springs and the agricultural edges of the growing city create consistent fall mouse pressure. Properties on the western growth edge see the most intrusion.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "April through October",
+        note: "Black widows are found throughout Utah County and establish readily in Saratoga Springs garages and undisturbed areas. The drier western edge of the city near rangeland has higher spider pressure.",
+      },
+    ],
+    localHook:
+      "Saratoga Springs residents picked this community for the Utah Lake views and the open feel of a city still finding its shape. What comes with that lake view is a mosquito season that is more pronounced than in communities away from the shore. The evenings near the water are beautiful and the bugs can be significant. Residents who take mosquito prevention seriously get their evenings back.",
+    intro:
+      "Pest control in Saratoga Springs starts with mosquitoes from Utah Lake. The west shore location and the wetland margins sustain active mosquito populations from May through September that make outdoor evenings challenging without management. Voles colonize new lawns rapidly in this fast-growing city. Ants are a consistent spring through summer pest in the dense new residential developments. Mice press in from rangeland to the west in fall. Black widows are present throughout.",
+    sections: [
+      {
+        heading: "Utah Lake and the Saratoga Springs mosquito season",
+        body: "Utah Lake's west shore is one of the prime mosquito production areas in Utah County. Shallow lake margins, seasonal fluctuations in lake level, and the wetland vegetation along the shoreline all provide mosquito breeding habitat. Saratoga Springs residential areas nearest the lake see mosquito pressure that residents from inland Utah communities find notable. The practical management approach for lakeside properties is a combination of on-property standing water elimination (gutters, containers, bird baths) and monthly yard perimeter spray from May through September. The Utah County Mosquito Abatement District does area larviciding and adulticiding, but property-level spray fills in the gaps between area treatments.",
+      },
+      {
+        heading: "New lawns and first-winter voles",
+        body: "Saratoga Springs's rapid growth means thousands of new lawns go in each year across the city's expanding subdivisions. These new lawns, with their fresh sod and regular irrigation, represent excellent vole habitat in communities that were recently rangeland or agricultural field. Voles that were living in the surrounding terrain move onto the new lawn as soon as it is established, and the first winter reveals the extent of runway networks that built up under the snow. The prevention approach for new Saratoga Springs lawns is habitat management in fall: mow short before the first snow, remove dense ground cover from lawn edges, and place bait stations along the perimeter before winter sets in.",
+      },
+    ],
+    prevention: [
+      "Apply monthly mosquito yard spray from May through September for lakeside properties.",
+      "Eliminate standing water on the property weekly during mosquito season.",
+      "Mow new lawns short in October and remove ground cover from edges to reduce vole winter habitat.",
+      "Apply perimeter ant treatment in April around new construction.",
+      "Seal foundation gaps before October for properties adjacent to rangeland.",
+    ],
+    costNote:
+      "Saratoga Springs mosquito programs run $90 to $180 per visit. General pest plans for ants, mice, and spiders run $150 to $280 per year. Vole seasonal programs cost $130 to $250.",
+    faqs: [
+      {
+        question: "Is mosquito pressure really different in Saratoga Springs compared to Lehi or Eagle Mountain?",
+        answer:
+          "Yes. Lakeside communities on Utah Lake's shore see meaningfully more mosquito pressure than communities a few miles inland. The lake shoreline and wetland margins produce breeding populations that inland communities do not have. Residents near the shore consistently report more mosquito activity than their inland neighbors.",
+      },
+      {
+        question: "Why are my Saratoga Springs lawn runways so bad in year one?",
+        answer:
+          "New lawns installed on former agricultural or rangeland are immediately colonized by voles that were living in the surrounding terrain. Fresh sod with active irrigation is prime vole habitat. The first winter is typically the worst because the vole population is adapting to the new food and cover resource. It usually improves by year two if fall management is applied.",
+      },
+      {
+        question: "Do voles come from Utah Lake shores into Saratoga Springs neighborhoods?",
+        answer:
+          "The wet margins of Utah Lake support meadow vole populations, and voles in lakeshore communities can migrate from wetland edges into adjacent lawns. Properties closest to the lake shoreline may see vole pressure from this direction in addition to pressure from surrounding lawn and garden habitat.",
+      },
+      {
+        question: "What should I do about mosquitoes if I live on a canal or drainage ditch in Saratoga Springs?",
+        answer:
+          "Canals and drainage ditches can be treated with Bacillus thuringiensis israelensis (Bti) mosquito dunks or granules, which are biological larvicides safe for use near water and won't harm fish or wildlife. Monthly application during the breeding season reduces larval production. Combined with yard perimeter spray, this addresses both the breeding and the adult mosquito population.",
+      },
+      {
+        question: "Are there scorpions in Saratoga Springs near the rangeland edge?",
+        answer:
+          "Scorpions are possible in Utah County near rangeland and undeveloped terrain. Stripe-tailed scorpions are more common in central and southern Utah, but encounters are reported in Utah Valley communities on the west side near undeveloped land. If you find a scorpion in your Saratoga Springs home, report it to a pest professional and treat the exterior perimeter as a precaution.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Lehi", slug: "lehi" },
+      { name: "Eagle Mountain", slug: "eagle-mountain" },
+      { name: "American Fork", slug: "american-fork-ut" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Saratoga Springs, UT | Mosquitoes, Voles & Ants Near Utah Lake",
+    metaDescription:
+      "Saratoga Springs UT pest control for mosquitoes, voles, ants and mice. Utah County Utah Lake west shore specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "clearfield-ut",
+    name: "Clearfield",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~31,000",
+    county: "Davis County",
+    climate: "semi-arid",
+    climateDriver:
+      "Clearfield sits in Davis County on the flat valley floor between Ogden and Salt Lake City, adjacent to Hill Air Force Base. The semi-arid Great Salt Lake basin climate delivers cold winters, hot and dry summers, and the defining Wasatch Front pest calendar. The flat terrain, dense post-war residential development, and the base perimeter create a suburban community where boxelder bugs, mice, and voles are the consistent seasonal pests.",
+    topPests: ["Boxelder Bugs", "Voles", "House Mice", "Black Widow Spiders", "Pavement Ants"],
+    pestProfile: [
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November aggregation",
+        note: "Clearfield's established residential areas with mature boxelder and maple trees see consistent fall boxelder bug aggregations. The post-war housing stock on the valley floor has many south-facing surfaces that attract large numbers.",
+      },
+      {
+        name: "Meadow voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round; most damaging November through March",
+        note: "Clearfield's flat, well-irrigated residential lawns provide ideal vole habitat. Spring reveals runway networks throughout the turf after snowmelt.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through November primary entry",
+        note: "The base perimeter vegetation and the flat valley floor terrain generate fall mouse pressure as temperatures drop. Older housing stock provides more entry points.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "April through October",
+        note: "Black widows are found throughout Davis County in garages and undisturbed areas. Clearfield's high density of single-family homes with attached garages creates widespread exposure.",
+      },
+      {
+        name: "Pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Pavement ants are the most common ant pest in Clearfield's slab-foundation homes, nesting under driveways and entering through cracks in spring.",
+      },
+    ],
+    localHook:
+      "Clearfield is a Davis County community shaped by its proximity to Hill Air Force Base, with a workforce that has historically rotated through with military family transfers. What the new arrivals learn quickly is that fall in Clearfield means two things: school starting and boxelder bugs arriving. The experienced Clearfield residents have the perimeter spray on the calendar by late August.",
+    intro:
+      "Pest control in Clearfield runs on the Davis County seasonal schedule. Boxelder bugs are the defining fall pest in the established residential areas with mature trees. Voles work through lawns under winter snow cover. Mice press into homes from the valley floor in fall. Black widows are a year-round garage concern. Pavement ants are the standard spring through summer pest.",
+    sections: [
+      {
+        heading: "Clearfield's fall boxelder bug season",
+        body: "Clearfield's established post-war neighborhoods, many of which were planted with boxelder and maple trees in the 1950s and 1960s, now have decades-old host trees that produce large boxelder bug populations each summer. In September, when temperatures begin to cool, the bugs aggregate on the south and west-facing walls of homes in significant numbers. The older construction in these neighborhoods often has more gaps than newer homes, making interior penetration easier. The practical approach is exterior perimeter treatment in late August before the aggregation begins, combined with caulking the most visible gap areas around window trim, utility entries, and the wall-foundation interface.",
+      },
+      {
+        heading: "The base perimeter and fall rodent pressure",
+        body: "Clearfield's location adjacent to Hill Air Force Base means the undisturbed vegetation along the base perimeter sustains rodent populations that can affect the nearest residential streets. The combination of base-perimeter habitat and the flat valley floor agricultural and open land to the west means fall mouse pressure in Clearfield is generated from multiple directions. Properties on streets nearest the base boundary benefit from proactive exterior bait station placement in September, in addition to the standard foundation gap sealing before October.",
+      },
+    ],
+    prevention: [
+      "Apply boxelder bug exterior treatment in late August before September aggregation.",
+      "Seal foundation gaps, window trim gaps, and utility entries before October.",
+      "Deploy exterior rodent bait stations in September, particularly for properties near the base perimeter.",
+      "Apply black widow and ant perimeter treatment in April.",
+      "Mow short before first snow and clear ground cover from lawn edges to reduce vole habitat.",
+    ],
+    costNote:
+      "Clearfield general pest plans run $150 to $270 per year. Boxelder bug seasonal treatment is often included in a fall service. Vole programs cost $130 to $250 per season.",
+    faqs: [
+      {
+        question: "Is boxelder bug pressure in Clearfield related to the age of the neighborhood?",
+        answer:
+          "Yes. Older neighborhoods with established boxelder and maple trees see heavier pressure than newer subdivisions with young landscaping. The Davis County communities with post-war residential development and mature trees consistently rank among the heavier boxelder bug areas in northern Utah.",
+      },
+      {
+        question: "Do voles in Clearfield come from the base perimeter?",
+        answer:
+          "Voles can disperse from undisturbed vegetation along the base perimeter into adjacent residential lawns. Properties nearest the base boundary see more vole and mouse pressure from this direction than properties deeper in the residential grid.",
+      },
+      {
+        question: "When should I seal my Clearfield home for the fall?",
+        answer:
+          "September is the action month: seal foundation gaps, check window trim caulking, ensure door sweeps are in full contact with the threshold, and deploy exterior bait stations. This catches both the boxelder bug aggregation and the fall mouse push before they become interior problems.",
+      },
+      {
+        question: "Are black widows in Clearfield garages year-round?",
+        answer:
+          "Yes. Western black widows do not die in winter; they shelter in undisturbed areas in the garage through the cold months. They are most visible and most active from April through October, but they are present and potentially contactable year-round in undisturbed garage corners and under shelving.",
+      },
+      {
+        question: "Is pest pressure in Clearfield different for homes near the wetlands?",
+        answer:
+          "The wetland areas near Clearfield's proximity to the Great Salt Lake marshes and the Davis County drainage network increase mosquito activity in summer for properties in the lower-lying areas. A mosquito yard treatment program adds meaningful value for properties near drainage corridors.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Layton", slug: "layton" },
+      { name: "Ogden", slug: "ogden" },
+      { name: "Roy", slug: "roy-ut" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Clearfield, UT | Boxelder Bugs, Voles & Mice",
+    metaDescription:
+      "Clearfield UT pest control for boxelder bugs, voles, house mice and black widow spiders. Davis County Hill AFB area specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "kaysville-ut",
+    name: "Kaysville",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~32,000",
+    county: "Davis County",
+    climate: "semi-arid",
+    climateDriver:
+      "Kaysville occupies a bench and valley floor position in Davis County between Layton to the north and Farmington to the south. The established residential community is known for its orchards and historically agricultural character, though rapid residential growth has replaced much of that agricultural land over the past two decades. The semi-arid Wasatch Front climate delivers the standard Utah pest calendar, with additional mosquito pressure from the remaining agricultural irrigation canals and low-lying areas near the bench.",
+    topPests: ["Voles", "Boxelder Bugs", "House Mice", "Black Widow Spiders", "Earwigs"],
+    pestProfile: [
+      {
+        name: "Meadow voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round; most damaging November through March",
+        note: "Voles are a standout lawn pest in Kaysville's established neighborhoods. The community's historic agricultural character means the soil conditions and vegetation are ideal for vole populations, and spring runway damage is a familiar sight.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November",
+        note: "Kaysville's mature residential landscaping includes many boxelder trees, and fall boxelder bug aggregations are a consistent annual event on south-facing home exteriors.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through November primary entry",
+        note: "The Wasatch bench terrain above Kaysville and the remaining orchard and agricultural edges generate fall mouse pressure. The older bench neighborhoods see consistent mouse activity.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "April through October",
+        note: "Black widows are common throughout Davis County and found in Kaysville garages, crawl spaces, and the rock retaining features in bench neighborhoods.",
+      },
+      {
+        name: "Earwigs",
+        serviceSlug: "earwig-control",
+        activeSeason: "June through September",
+        note: "Earwigs are a summer pest in Kaysville's irrigated gardens and landscape beds. They shelter under mulch and organic debris and enter homes through low foundation openings.",
+      },
+    ],
+    localHook:
+      "Kaysville residents who grew up here remember when the orchards were the defining landscape feature. The pest calendar has always included voles in the orchard grass, mice from the fruit trees in fall, and earwigs under the mulch in summer. The orchards are mostly gone now, replaced by residential streets, but the pest patterns that came with that agricultural history are built into the soil. The voles are still here.",
+    intro:
+      "Pest control in Kaysville reflects both the community's historic agricultural character and its current suburban reality. Voles are a consistent lawn pest that predates the residential development. Boxelder bugs aggregate reliably on mature-tree neighborhoods in fall. Mice press in from the Wasatch bench in October. Black widows are present in garages and retaining walls. Earwigs are a summer pest in irrigated landscape beds.",
+    sections: [
+      {
+        heading: "Kaysville's orchard legacy and the vole problem",
+        body: "Kaysville's history as an orchard community has a direct connection to its current vole situation. The soils in orchard communities are typically looser, richer in organic matter, and have been disturbed in ways that create excellent vole tunneling conditions. Even as the orchards were replaced by lawns and gardens, the vole populations that lived in the orchard grass made the transition easily. Kaysville homeowners in the older residential areas consistently report higher vole pressure than comparable communities without that agricultural background. Fall habitat management, trunk protection for young ornamentals, and bait station placement are the reliable tools.",
+      },
+      {
+        heading: "Earwig management in Kaysville gardens",
+        body: "Earwigs are a genuine summer pest in Kaysville's well-irrigated residential gardens. They feed on both plant material and small insects, and their presence in a garden is sometimes tolerated for their pest-control benefit. But when they enter homes in numbers through foundation gaps, particularly ground-level vents, gaps under doors, and around pipe entries, they cross from garden beneficial to household nuisance. The practical approach is reducing mulch depth near the foundation to below three inches, keeping mulch pulled back from the foundation edge, and applying a perimeter spray to the foundation area in June when earwig pressure typically peaks.",
+      },
+    ],
+    prevention: [
+      "Apply vole habitat management in October: mow short, clear ground cover from edges, place bait stations.",
+      "Apply boxelder bug exterior treatment in late August.",
+      "Reduce mulch depth near the foundation and apply earwig perimeter treatment in June.",
+      "Apply black widow and ant perimeter treatment in April.",
+      "Seal foundation gaps and utility entries in September before fall mouse push.",
+    ],
+    costNote:
+      "Kaysville general pest plans run $150 to $280 per year. Earwig programs are typically included in a summer service visit. Vole seasonal programs cost $130 to $250.",
+    faqs: [
+      {
+        question: "Are earwigs dangerous in Kaysville?",
+        answer:
+          "No. Earwigs do not bite humans and are not medically dangerous. The European earwig common in Kaysville gardens can pinch with the forceps at the rear of the abdomen if handled, but this is not painful in any meaningful way. The concern is their numbers when they enter the home and the cosmetic damage they can do to tender garden plants.",
+      },
+      {
+        question: "Is vole pressure in Kaysville higher than in other Davis County communities?",
+        answer:
+          "Kaysville's historic orchard soil conditions and the mature residential landscaping in the older neighborhoods do create higher-than-average vole pressure. Neighboring communities like Layton and Farmington see similar patterns in their older areas, but Kaysville's agricultural history adds a baseline vole population that has been there for generations.",
+      },
+      {
+        question: "When should I start planning for vole prevention in Kaysville?",
+        answer:
+          "October is the action window. Before the first snow, mow the lawn short to eliminate the surface cover voles use for runways, remove dense ornamental ground cover from the lawn edge, wrap young tree trunks in hardware cloth, and place bait stations in any existing runway areas from the previous spring.",
+      },
+      {
+        question: "How do I tell if boxelder bugs have gotten inside my Kaysville walls?",
+        answer:
+          "If you see them emerging indoors on warm winter days, particularly on window sills and in light fixtures, they are in the wall voids. Once inside, the practical management is vacuum removal of those that emerge and patience until spring, when they leave. Prevention the following fall is the priority.",
+      },
+      {
+        question: "Is the Kaysville bench area more prone to any specific pests?",
+        answer:
+          "The bench neighborhoods, with their rock retaining walls and proximity to the Wasatch foothills, see higher black widow populations than the flat valley floor areas. The foothill proximity also generates more mouse pressure in fall. The bench areas also have less risk of the Great Salt Lake mosquito pressure that affects lower-lying parts of Davis County.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Layton", slug: "layton" },
+      { name: "Farmington", slug: "layton" },
+      { name: "Bountiful", slug: "bountiful-ut" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Kaysville, UT | Voles, Boxelder Bugs & Earwigs",
+    metaDescription:
+      "Kaysville UT pest control for voles, boxelder bugs, house mice and earwigs. Davis County orchard-history specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bountiful-ut",
+    name: "Bountiful",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~46,000",
+    county: "Davis County",
+    climate: "semi-arid",
+    climateDriver: "Bountiful sits on the Wasatch Front at about 4,300 feet on the bench above the Great Salt Lake, where cold mountain air descends in winter and summer heat builds off the lake plain. The bench terrain creates a microclimate distinct from the valley floor: drier summers, harder frosts, and strong fall pest migration pressure from surrounding hills.",
+    topPests: ["Voles", "Mice", "Boxelder Bugs", "Black Widow Spiders", "Earwigs"],
+    pestProfile: [
+      { name: "Voles", serviceSlug: "wildlife-removal", activeSeason: "year-round, peaks spring and fall", note: "Bountiful's bench gardens and irrigated lawns support high vole populations that tunnel under snow all winter and damage turf and plantings." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Davis County's foothills feed field mouse migration into Bountiful homes each fall; older bench homes have more entry opportunities than newer construction." },
+      { name: "Boxelder Bugs", serviceSlug: "boxelder-bug-control", activeSeason: "September to November", note: "Box elder and maple trees throughout Bountiful's established neighborhoods produce large seed crops that fuel fall aggregations on south-facing walls." },
+      { name: "Black Widow Spiders", serviceSlug: "spider-control", activeSeason: "April to October", note: "Bountiful's rock walls, garage storage, and warm south-facing landscaping features provide ideal black widow habitat; Davis County has consistent black widow populations." },
+      { name: "Earwigs", serviceSlug: "earwig-control", activeSeason: "May to September", note: "Irrigated garden beds throughout Bountiful's established neighborhoods support high earwig densities; they enter through foundation gaps and congregate in damp basement areas." },
+    ],
+    localHook: "Bountiful's bench location above the Salt Lake Valley gives it a defined seasonal rhythm that drives pest behavior. Voles work the hillside gardens year-round. Black widows occupy the rock walls and stacked woodpiles common on older bench lots. Boxelder bugs mass on south-facing walls each September with near-perfect predictability.",
+    intro: "Bountiful's established neighborhoods on the Davis County bench have character: mature trees, rock walls, irrigated gardens, and homes that have settled comfortably into the hillside over decades. They also have a predictable pest calendar. Voles in the garden beds, field mice in the older foundations each fall, black widows in the garage corners and rock walls, earwigs in the damp basement window wells, and boxelder bugs by the thousand every September. If you know Bountiful, none of this is a surprise. The question is whether you're staying ahead of it.",
+    sections: [
+      {
+        heading: "Vole and Mouse Control on the Davis County Bench",
+        body: "Bountiful's bench gardens and irrigated lawns are some of the most productive vole habitat in northern Utah. Meadow voles tunnel through root systems and work under snow cover through December, January, and February, emerging in spring to reveal months of unseen damage in plant beds and lawn sections. Field mice are the fall story: Davis County's hills and foothills empty as cold settles in, and mice probe the older foundations along Bountiful's bench streets. We address both. Vole control focuses on perimeter bait station placement around vulnerable garden and lawn zones combined with habitat reduction along fence lines. Mouse exclusion starts with a thorough foundation inspection to identify settled gaps, utility penetrations, and crawl space vent conditions, followed by sealing and interior trapping as needed.",
+      },
+      {
+        heading: "Black Widow Spiders in Bountiful's Rock Walls and Garages",
+        body: "Black widow spiders are present throughout Davis County, and Bountiful's older bench properties, with their rock retaining walls, stacked firewood, outdoor furniture, and cluttered garage corners, provide excellent habitat. Black widows prefer undisturbed, protected spaces and are found most commonly in the corners of garages, behind storage bins, in rock wall gaps, and under patio furniture. They're not aggressive unless disturbed, but a bite is medically significant. Annual garage and exterior treatment, particularly targeting the rock wall and wood storage areas, substantially reduces the risk. Wearing gloves when handling stacked materials outdoors is a reasonable year-round precaution in Bountiful.",
+      },
+      {
+        heading: "Boxelder Bugs and Earwigs by Season",
+        body: "September in Bountiful means boxelder bugs. The mature maple and box elder trees throughout the bench neighborhoods produce exactly the seed crop these insects need, and by mid-September they're aggregating on south-facing walls and probing for attic vent gaps. A perimeter spray applied before they start massing, typically during the first week of September, is far more effective than treating after they've established on the siding. Earwigs peak in summer: they live in the moist garden soil that irrigation creates and find their way into basements and crawl spaces through foundation gaps. Reducing irrigation near the foundation and treating entry points addresses both the indoor nuisance and the outdoor habitat.",
+      },
+    ],
+    prevention: [
+      "Survey lawn edges and garden beds for vole runways in early spring before growth conceals them.",
+      "Seal foundation gaps with steel wool and caulk before September's mouse and boxelder bug migration.",
+      "Wear gloves when moving stacked wood or accessing garage storage in rock wall areas.",
+      "Apply a September perimeter spray for boxelder bugs before they aggregate.",
+      "Reduce foundation irrigation to dry out the soil that attracts earwigs and other moisture pests.",
+    ],
+    costNote: "Most Bountiful pest control visits run $130 to $320. Seasonal prevention programs covering mice, voles, black widows, and boxelder bugs typically run $450 to $700 per year. Emergency black widow treatment for a garage or outdoor space runs $150 to $280.",
+    faqs: [
+      {
+        question: "Are black widow spiders in Bountiful actually dangerous?",
+        answer: "Yes, their venom is medically significant, though fatalities are rare with modern treatment. A black widow bite can cause severe muscle cramps, nausea, and pain that persists for days. Children and elderly individuals face higher risk. Annual treatment of garages and outdoor harborage areas reduces your exposure meaningfully.",
+      },
+      {
+        question: "When should I treat for boxelder bugs in Davis County?",
+        answer: "Early September is the optimal window in Bountiful. Treat before they aggregate on the siding, not after. Once they're on the wall and finding vent gaps, you're playing defense. A perimeter spray applied when daytime temperatures first drop consistently below 65 intercepts the migration at its start.",
+      },
+      {
+        question: "How do voles damage Bountiful gardens differently from gophers?",
+        answer: "Voles stay at or near the surface, creating runways and eating plant roots, bulbs, and bark near the ground. They don't produce the obvious crescent-shaped mounds that gophers do. Gophers pull from below; voles graze from above and along the root zone. If you see surface runways and dead patches without large soil mounds, it's voles.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Salt Lake City", slug: "salt-lake-city" },
+      { name: "Layton", slug: "layton" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Bountiful, UT | Voles, Black Widows & Boxelder Bugs",
+    metaDescription: "Pest control in Bountiful, Utah covering voles, mice, black widow spiders, boxelder bugs, and earwigs. Davis County bench neighborhoods need seasonal prevention. Licensed Utah technicians.",
+  },
+  {
+    slug: "roy-ut",
+    name: "Roy",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~38,000",
+    county: "Weber County",
+    climate: "semi-arid",
+    climateDriver: "Roy occupies the flat bench land between Ogden and the Great Salt Lake in Weber County, sitting at about 4,500 feet where lake-effect weather systems influence winter precipitation and summer humidity. The proximity to Hill Air Force Base and surrounding agricultural and wetland areas creates distinct pest pressures not seen in more inland Utah communities.",
+    topPests: ["Mice", "Voles", "Mosquitoes", "Boxelder Bugs", "Ants"],
+    pestProfile: [
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Roy's proximity to the Great Salt Lake wetlands and agricultural land creates high surrounding rodent populations that press into homes each fall." },
+      { name: "Voles", serviceSlug: "wildlife-removal", activeSeason: "year-round", note: "Weber County's agricultural perimeter and Roy's irrigated lawns sustain vole populations that damage turf and gardens throughout the year." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "The Great Salt Lake wetlands and Roy's proximity to lake-shore habitat create above-average mosquito pressure; the lake supports large Culex and Aedes populations." },
+      { name: "Boxelder Bugs", serviceSlug: "boxelder-bug-control", activeSeason: "September to November", note: "Roy's established neighborhoods with mature shade trees, including box elders, see reliable fall aggregations on south-facing structures." },
+      { name: "Ants", serviceSlug: "ant-control", activeSeason: "March to October", note: "Pavement ants and odorous house ants colonize Roy's residential slabs and irrigation-moistened foundation zones throughout the warm season." },
+    ],
+    localHook: "Roy's flat geography between Ogden and the Great Salt Lake gives it a distinctive pest profile anchored by lake-proximity mosquitoes and wetland-supported rodent populations. The city's dense residential character and older housing stock add typical Wasatch Front fall pest pressure on top of the lake-driven dynamics.",
+    intro: "Pest control in Roy is shaped by location more than most Utah cities. The Great Salt Lake wetlands to the west maintain mosquito breeding habitat that gives Roy a mosquito season heavier than inland Weber County communities. The same wetland system sustains rodent populations that press into Roy's older residential neighborhoods each fall. Boxelder bugs follow the mature trees in Roy's established streets every September. And ants work the irrigation-moistened foundation zones all spring and summer. Roy is a full-calendar pest management situation.",
+    sections: [
+      {
+        heading: "Mosquitoes from the Great Salt Lake Wetlands",
+        body: "Roy's proximity to the Great Salt Lake's eastern wetlands puts it in one of northern Utah's higher-mosquito-pressure zones. The salt flats and freshwater marsh interface supports large populations of Culex tarsalis, which carries West Nile virus, and several Aedes species. Peak mosquito pressure in Roy runs from late May through August, with the worst conditions typically in July when the lake-adjacent marshes are fully active. Residential yard barrier treatment applied every three to four weeks during the season reduces adult mosquito populations in living areas. Eliminating standing water from gutters, birdbaths, and low spots reduces breeding on the property itself.",
+      },
+      {
+        heading: "Rodent Control in Roy's Residential Neighborhoods",
+        body: "Roy's flat terrain and older residential character mean mice enter structures through a combination of agricultural fringe pressure and aging foundation conditions. Weber County's farm and wetland edges maintain high field mouse populations that migrate toward structures each fall. Roy's mid-20th-century housing stock, much of it with concrete block or older slab foundations, carries more entry vulnerability than newer construction. We inspect the foundation perimeter for settled gaps, crawl space vent conditions, and utility penetrations, then seal confirmed entries with permanent materials. Interior snap traps at established pathways and exterior bait stations at the perimeter address the existing population.",
+      },
+      {
+        heading: "Boxelder Bugs, Ants, and Voles by Season",
+        body: "Roy's established neighborhoods were planted with mature trees in the postwar decades, and those trees now include enough box elders to sustain annual fall aggregations. By mid-September, boxelder bugs mass on warm walls and probe for attic vents. A perimeter spray before they aggregate is the practical approach. Spring and summer bring ant colonies to foundation slabs: pavement ants under concrete edges, odorous house ants following moisture gradients from irrigation heads. Vole damage is present in many Roy lawns year-round, with surface runways and dead patches revealing underground tunneling that irrigation helps sustain through the warmer months.",
+      },
+    ],
+    prevention: [
+      "Eliminate standing water from low spots and gutters weekly through August.",
+      "Seal foundation penetrations and crawl space vents before September's rodent migration.",
+      "Apply boxelder bug perimeter spray in early September before aggregation starts.",
+      "Keep a dry gravel buffer along the foundation to deter ant colonization near the slab.",
+      "Check lawn edges for vole runways in spring when snow cover retreats.",
+    ],
+    costNote: "Pest control in Roy typically runs $120 to $300 per visit. Mosquito barrier programs run $75 to $140 per application. Annual prevention plans covering mice, boxelder bugs, ants, and seasonal insects run $400 to $650 per year.",
+    faqs: [
+      {
+        question: "Is West Nile virus a real concern in Roy, Utah?",
+        answer: "Yes. The Great Salt Lake wetland system supports Culex tarsalis mosquito populations that carry West Nile virus, and the virus has been detected in Weber County. Roy's proximity to the lake makes mosquito exposure here higher than in more inland Utah communities. Barrier treatment and personal protective habits are both worth taking seriously.",
+      },
+      {
+        question: "Why are there so many ants along my Roy driveway every spring?",
+        answer: "Pavement ants colonize the voids under concrete slabs and emerge through expansion joints in spring when soil warms. Roy's irrigation-moistened soil near foundation slabs creates ideal conditions. Treating the colonies directly with gel bait injected into expansion joints controls the population more effectively than surface spraying.",
+      },
+      {
+        question: "How do I tell boxelder bugs from beetles in my Roy home?",
+        answer: "Boxelder bugs are elongated, about half an inch long, dark gray to black with red-orange markings along the wings and abdomen. They move relatively slowly and aggregate in groups. Beetles are rounder and don't aggregate the same way. Boxelder bugs are the ones you'll find in south-facing wall clusters and attic spaces in September and October.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Ogden", slug: "ogden" },
+      { name: "Layton", slug: "layton" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Roy, UT | Mice, Mosquitoes & Boxelder Bugs",
+    metaDescription: "Pest control in Roy, Utah near the Great Salt Lake. Mice, voles, mosquitoes, boxelder bugs, and ants. Weber County lake-proximity pest management. Licensed Utah technicians.",
+  },
+  {
+    slug: "tooele-ut",
+    name: "Tooele",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~37,000",
+    county: "Tooele County",
+    climate: "semi-arid",
+    climateDriver: "Tooele sits in Tooele Valley west of the Oquirrh Mountains at about 5,000 feet, with a dry semi-arid climate, cold winters, hot summers, and the influence of Tooele County's extensive military and industrial heritage. The Tooele Army Depot, nearby open desert, and agricultural transition zones create a distinctive pest environment.",
+    topPests: ["Scorpions", "Black Widow Spiders", "Mice", "Voles", "Crickets"],
+    pestProfile: [
+      { name: "Scorpions", serviceSlug: "scorpion-control", activeSeason: "April to October", note: "Tooele County's desert-adjacent character supports Arizona bark scorpion populations; scorpions are one of Tooele's most commonly reported nuisance pests in summer months." },
+      { name: "Black Widow Spiders", serviceSlug: "spider-control", activeSeason: "April to October", note: "Black widow spiders are present throughout Tooele's residential areas, particularly in garages, storage areas, and landscaping features near the desert edge." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Tooele's desert and agricultural fringe maintains strong rodent populations; fall mouse migration into Tooele homes is reliable and often begins in late September." },
+      { name: "Voles", serviceSlug: "wildlife-removal", activeSeason: "spring and fall", note: "Meadow voles damage Tooele's irrigated lawns and gardens; they're especially common in neighborhoods near agricultural land on the valley floor." },
+      { name: "Crickets", serviceSlug: "cricket-control", activeSeason: "July to September", note: "Field cricket invasions in Tooele follow summer heat; crickets migrate in large numbers toward structure lights and can enter homes in significant quantities." },
+    ],
+    localHook: "Tooele sits at the edge of Utah's west desert, and that proximity shows in its pest list. Scorpions, black widows, and crickets are present in ways that don't apply to communities deeper in the Wasatch Front. The desert-to-suburb transition is a real pest boundary, and managing it requires knowing which species are native to Tooele's specific environment.",
+    intro: "Pest control in Tooele starts with the desert. Tooele County is one of the largest counties in the United States, and most of it is empty basin and range desert. Tooele city sits right at the boundary between that desert and the irrigated suburban environment of the Wasatch Back. That boundary is where scorpions, black widow spiders, and crickets originate. Add field mice from the agricultural fringe, voles from irrigated lawns, and the standard Wasatch Front seasonal pests, and Tooele has one of the more complete pest calendars in Utah.",
+    sections: [
+      {
+        heading: "Scorpions and Black Widow Spiders in Tooele",
+        body: "Scorpions in Tooele are a genuine management issue, not a curiosity. The Arizona bark scorpion, the most venomous scorpion in North America, is present in Tooele County, alongside the less venomous but still unpleasant northern scorpion. They enter structures through foundation gaps and ground-level cracks, and are most commonly found in bathrooms, in shoes left on the floor, and in stacked storage in garages. Annual exterior treatment around the foundation and inside the garage substantially reduces indoor encounters. Black widow spiders are also common in Tooele's dry, undisturbed harborage zones: rock walls, wood piles, exterior storage, and garage corners. Both require annual treatment for households with children and pets.",
+      },
+      {
+        heading: "Cricket Invasions and Desert-to-Suburb Pests",
+        body: "Tooele's summer cricket invasions are a well-known local phenomenon. Field crickets mass along the desert-to-suburb boundary in July and August, attracted to structure lights at night. Large numbers enter homes through any ground-level gap. They're not dangerous, but a cricket invasion can involve hundreds of insects and is both noisy and unpleasant. Reducing exterior lighting near entry points, installing door sweeps, and applying a perimeter treatment in early July, before the migration peaks, is the most effective approach. Camel crickets are a separate species that prefer cool, damp basement and crawl space environments.",
+      },
+      {
+        heading: "Rodent Control in Tooele's Agricultural Fringe",
+        body: "Tooele Valley's floor-level agricultural land transitions into residential neighborhoods in a pattern that puts many Tooele homes within a few hundred yards of active field mouse habitat. Fall harvest displaces large numbers of rodents each September and October. Older Tooele homes, some with original slab construction from the military-era expansion of the 1940s and 1950s, have foundation conditions that benefit from modern exclusion work. Voles damage irrigated lawns year-round but are most visible in spring when snow cover retreats to reveal winter tunneling. We treat both: mouse exclusion plus interior trapping for structures, perimeter bait stations for vole lawn protection.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks and ground-level gaps annually; scorpions need very little space to enter.",
+      "Wear shoes in the house and shake footwear before putting on during scorpion season (April to October).",
+      "Reduce exterior lighting near doors and windows in July and August to minimize cricket attraction.",
+      "Treat black widow and scorpion harborage zones (garages, wood storage, rock walls) in spring.",
+      "Check lawn edges for vole runways in April before spring growth conceals them.",
+    ],
+    costNote: "Pest control visits in Tooele run $120 to $300. Scorpion and black widow treatment programs typically run $200 to $400 per year. Annual full prevention plans covering scorpions, spiders, rodents, and seasonal insects run $450 to $700.",
+    faqs: [
+      {
+        question: "Are Arizona bark scorpions actually present in Tooele?",
+        answer: "Yes. Tooele County sits within the Arizona bark scorpion's northern Utah range, and they are found in the city. The bark scorpion's venom is the most medically significant of the North American scorpions and can cause severe pain, muscle spasms, and numbness. Children are at higher risk for serious symptoms. Annual treatment and entry point sealing are the standard approach for Tooele households.",
+      },
+      {
+        question: "Why are there so many crickets in Tooele in summer?",
+        answer: "Tooele sits at the desert-to-suburb boundary, and field cricket populations in the surrounding west desert build up through summer heat. When conditions become favorable in July and August, they move en masse toward lights at structure edges. It's not random; it's a predictable migration tied to Tooele's specific geography. Reducing exterior lighting and treating the perimeter in early July intercepts it.",
+      },
+      {
+        question: "What is the difference between voles and gophers in Tooele lawns?",
+        answer: "Pocket gophers make kidney-shaped soil mounds with a plugged hole off to one side. Voles leave surface runways (narrow, grass-free paths), small round burrow openings, and dead grass patches in linear or irregular patterns. Gophers pull plants from below; voles eat roots and bark near ground level. Both are present in Tooele, but the control approaches differ significantly.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Salt Lake City", slug: "salt-lake-city" },
+      { name: "West Valley City", slug: "west-valley-city" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Tooele, UT | Scorpions, Black Widows & Mice",
+    metaDescription: "Pest control in Tooele, Utah covering scorpions, black widow spiders, mice, voles, and crickets. Desert-edge Tooele County pest management. Licensed Utah technicians.",
+  },
+  {
+    slug: "cedar-city-ut",
+    name: "Cedar City",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~35,000",
+    county: "Iron County",
+    climate: "semi-arid",
+    climateDriver: "Cedar City sits at about 5,800 feet in Iron County at the transition between the Great Basin Desert and the Colorado Plateau. The high elevation means cooler temperatures than southern Utah's lower desert, with cold winters, warm summers, low humidity, and dramatic weather swings. The nearby Cedar Breaks National Monument and surrounding national forest create wildlife and pest corridors that directly affect the city.",
+    topPests: ["Scorpions", "Mice", "Black Widow Spiders", "Voles", "Ants"],
+    pestProfile: [
+      { name: "Scorpions", serviceSlug: "scorpion-control", activeSeason: "April to October", note: "Iron County's desert adjacency supports scorpion populations; Cedar City's rapid growth at the forest-desert boundary puts many new homes in prime scorpion habitat." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Cedar City's surrounding national forest and high-desert landscape maintain robust mouse populations; cold winters create strong fall migration pressure into structures." },
+      { name: "Black Widow Spiders", serviceSlug: "spider-control", activeSeason: "April to October", note: "Black widow spiders are common throughout Iron County; Cedar City's mix of older downtown homes and newer desert-edge developments both see consistent populations." },
+      { name: "Voles", serviceSlug: "wildlife-removal", activeSeason: "spring and fall", note: "Meadow voles are present in irrigated Cedar City yards; they damage lawn and garden plantings particularly along neighborhoods near open land." },
+      { name: "Ants", serviceSlug: "ant-control", activeSeason: "March to October", note: "Pavement ants and odorous house ants are widespread in Cedar City; high-desert conditions mean ant colonies are highly motivated to access water near residential foundations." },
+    ],
+    localHook: "Cedar City is experiencing rapid growth as people discover its combination of outdoor access and college-town character, and that growth is pushing new development into desert-edge zones that bring scorpion and spider encounters that established neighborhoods haven't historically seen. Southern Utah University and the tourism economy add foot traffic that influences bed bug and stored product pest risk.",
+    intro: "Pest control in Cedar City operates at the intersection of desert and mountain. At 5,800 feet in Iron County, Cedar City gets the scorpion and spider pressure of southern Utah's desert zones combined with the cold winter mouse migration of a high-elevation community. New development on the city's desert-facing edges introduces residents to pest species that the older downtown neighborhoods rarely see. The Shakespeare Festival draws summer tourism that elevates bed bug introduction risk. And year-round, the surrounding public land sustains wildlife pest populations that don't recognize city limits.",
+    sections: [
+      {
+        heading: "Scorpion and Spider Control in Iron County",
+        body: "Cedar City's expansion into desert-edge terrain has brought scorpion encounters to neighborhoods that older, more central parts of the city rarely experienced. The bark scorpion's range extends through Iron County, and new construction on the desert fringe is essentially being built in scorpion habitat. Scorpions enter through ground-level foundation cracks, under doors, and through plumbing penetrations. They're active from April through October and are nocturnal. Annual exterior treatment combined with foundation sealing reduces indoor encounters substantially. Black widow spiders are widespread across Cedar City in any undisturbed harborage: garages, storage sheds, rock landscape features, and outdoor furniture. Both species require annual treatment for households with children and pets.",
+      },
+      {
+        heading: "Mouse Season at High Elevation",
+        body: "Cedar City's 5,800-foot elevation means winters are cold enough to create strong, early fall mouse migration. Field mice and deer mice from the surrounding Dixie National Forest and high-desert land begin moving toward structures in late September, following warmth and food scent. The cold amplifies the urgency of fall exclusion work: mice in Cedar City will press harder and enter earlier than mice in lower-elevation Utah communities. Foundation inspection and sealing before September's end, combined with perimeter bait station placement, is the standard prevention approach. Older Cedar City homes near downtown have more settled foundation opportunities than newer construction, but both need evaluation.",
+      },
+      {
+        heading: "Ants and Voles in Cedar City's Irrigated Yards",
+        body: "Cedar City's dry high-desert climate makes irrigated residential yards a critical moisture resource for insects and small mammals alike. Pavement ants colonize foundation slab edges wherever irrigation creates subsurface moisture. Odorous house ants follow the same moisture gradients into kitchens. Ant management in Cedar City focuses on the moisture source: redirecting irrigation away from the foundation, combined with targeted gel bait treatment for existing colonies. Voles are a lawn and garden problem for Cedar City yards near open land: they tunnel under the surface, consume plant roots, and damage newly planted landscaping without obvious above-ground evidence until the plants begin to fail.",
+      },
+    ],
+    prevention: [
+      "Seal foundation cracks and ground-level gaps before April's scorpion season begins.",
+      "Wear shoes indoors and shake footwear during active scorpion months (April to October).",
+      "Redirect foundation irrigation at least 12 inches away from the slab to reduce ant and vole attraction.",
+      "Survey the lawn for vole runways in early spring before growth conceals them.",
+      "Seal all exterior entries before late September for early high-elevation mouse migration.",
+    ],
+    costNote: "Pest control in Cedar City typically runs $130 to $310 per visit. Scorpion and spider programs run $200 to $400 annually. Full prevention plans covering scorpions, mice, ants, and spiders run $450 to $700 per year.",
+    faqs: [
+      {
+        question: "Why are there scorpions in my new Cedar City home?",
+        answer: "New construction in Cedar City's desert-edge zones is built in active scorpion habitat. The grading, foundation pour, and landscaping that creates your yard does not relocate the local scorpion population; it displaces them temporarily and then they find the new structure. New homes in these areas often lack the foundation sealing that older homes have accumulated over years of maintenance. Annual treatment and entry sealing are the right response.",
+      },
+      {
+        question: "Do mice in Cedar City arrive earlier than in other Utah cities?",
+        answer: "Yes. Cedar City's higher elevation means fall temperatures drop faster, and mice respond to heat differential more than calendar date. We typically see first mouse entries in late September in Cedar City versus mid-to-late October in Salt Lake Valley communities. This means prevention visits need to happen in September, not October.",
+      },
+      {
+        question: "What attracts pavement ants to Cedar City foundations?",
+        answer: "Irrigation moisture is the primary driver. Cedar City's dry climate means subsurface moisture near foundation slabs is a major resource for pavement ants, and irrigation systems that water toward the house rather than away from it create exactly the conditions they need. Redirecting irrigation and treating colonies with targeted bait is more lasting than broadcast spraying.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "St. George", slug: "st-george" },
+      { name: "Hurricane", slug: "hurricane-ut" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Cedar City, UT | Scorpions, Mice & Black Widows",
+    metaDescription: "Pest control in Cedar City, Utah for scorpions, black widow spiders, mice, voles, and ants. High-elevation Iron County pest management at the forest-desert boundary. Licensed Utah technicians.",
+  },
+  {
+    slug: "american-fork-ut",
+    name: "American Fork",
+    state: "Utah",
+    stateSlug: "utah",
+    stateAbbr: "UT",
+    tier: "T3",
+    population: "~33,000",
+    county: "Utah County",
+    climate: "semi-arid",
+    climateDriver: "American Fork sits at about 4,700 feet in Utah County between Orem and Lehi, directly at the base of the Wasatch Mountains. The mountain canyon to the east (American Fork Canyon) channels cold air in winter and supports large wildlife populations that spill into the city's residential areas. Utah Lake to the west contributes mosquito pressure in summer.",
+    topPests: ["Voles", "Mice", "Mosquitoes", "Boxelder Bugs", "Black Widow Spiders"],
+    pestProfile: [
+      { name: "Voles", serviceSlug: "wildlife-removal", activeSeason: "year-round", note: "American Fork's irrigated lawns and proximity to the Wasatch foothills sustain persistent vole populations that damage turf and gardens throughout the growing season." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "American Fork Canyon and the surrounding Wasatch foothills maintain large rodent populations that migrate into the city's residential areas each fall." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Utah Lake's western wetlands and American Fork's low-lying irrigation canals support above-average Utah County mosquito populations through summer." },
+      { name: "Boxelder Bugs", serviceSlug: "boxelder-bug-control", activeSeason: "September to November", note: "Mature box elder and maple trees throughout American Fork's established neighborhoods produce heavy fall boxelder bug aggregations on south-facing structures." },
+      { name: "Black Widow Spiders", serviceSlug: "spider-control", activeSeason: "April to October", note: "Black widow spiders are present throughout Utah County; American Fork's garage storage, rock landscaping, and older residential areas see consistent populations." },
+    ],
+    localHook: "American Fork sits between the Wasatch Mountains and Utah Lake, and both drive its pest environment. The canyon brings wildlife and rodent pressure. The lake brings mosquitoes. The city's rapid growth over the past two decades has pushed development up into foothill terrain that historically belonged to wildlife, creating new human-wildlife pest interfaces every building season.",
+    intro: "Pest control in American Fork connects two distinct geographic influences. American Fork Canyon to the east is a major watershed for the Wasatch Mountains and home to large deer, squirrel, and rodent populations that spill into the city's neighborhoods as development climbs the bench. Utah Lake's western marshes push mosquito pressure across the valley. In the residential neighborhoods, voles are a year-round lawn challenge, boxelder bugs arrive September like clockwork, and black widow spiders inhabit the garages and rock walls that are common in this part of Utah County.",
+    sections: [
+      {
+        heading: "Voles and Mountain Mice in American Fork",
+        body: "American Fork's position at the Wasatch Mountain base gives it above-average pressure from both voles and field mice. Mountain voles are sustained by the foothill terrain and spill into residential areas along irrigation channels and open lots. They create surface runways, damage lawn roots and garden bulbs, and work under snow cover all winter. Field mice follow American Fork Canyon's corridor during fall migration, moving toward heated structures as October temperatures fall. We address both: exterior perimeter bait stations and exclusion for mice, targeted lawn bait stations and habitat reduction around garden borders for voles. The two pests often appear together in properties near the canyon mouth.",
+      },
+      {
+        heading: "Mosquitoes from Utah Lake and Irrigation Canals",
+        body: "Utah Lake's western shores and the extensive irrigation canal network through Utah County create substantial mosquito breeding habitat that affects American Fork through the summer months. Culex tarsalis, the primary West Nile virus vector, breeds in the stagnant sections of canals and lake margins. Peak pressure in American Fork runs from late June through August. Residential barrier treatment applied every three to four weeks keeps adult populations in yard spaces manageable. Eliminating standing water on the property, including bird baths, low lawn spots, and clogged gutters, reduces on-site breeding even when surrounding canal pressure continues.",
+      },
+      {
+        heading: "Boxelder Bugs, Black Widows, and Fall Prevention",
+        body: "American Fork's mature residential streets have the established tree canopy, including box elders and maples, that fuels the annual September boxelder bug migration. They aggregate on south-facing siding in numbers that can be alarming and find their way into wall voids and attic spaces if not intercepted. A mid-September perimeter spray is the most efficient response. Black widow spiders are a year-round management item for American Fork garages, storage spaces, and landscaping features with rock or wood elements. Annual spring treatment, gloves when handling outdoor storage, and good garage organization reduce encounters with this medically significant species.",
+      },
+    ],
+    prevention: [
+      "Treat lawn edges and irrigation-adjacent areas for voles in early spring.",
+      "Seal foundation gaps and utility penetrations before September for mouse prevention.",
+      "Apply boxelder bug perimeter spray in early September.",
+      "Treat garage and rock landscape features for black widows in April.",
+      "Eliminate standing water from gutters, birdbaths, and low spots weekly through August.",
+    ],
+    costNote: "Pest control visits in American Fork typically run $130 to $310. Mosquito barrier programs run $75 to $140 per treatment. Annual prevention plans covering voles, mice, boxelder bugs, black widows, and seasonal insects run $450 to $700 per year.",
+    faqs: [
+      {
+        question: "Why does American Fork have more mosquitoes than other Utah County cities?",
+        answer: "American Fork's position near Utah Lake's western marshes and along active irrigation canals creates mosquito breeding habitat that cities farther from the lake don't have. Culex mosquitoes from the lake system can travel up to a mile from breeding sites. The city's own irrigation canals add to this pressure throughout the valley floor areas.",
+      },
+      {
+        question: "Are black widow spiders common in American Fork garages?",
+        answer: "Yes, throughout Utah County, and American Fork's mix of older and newer garages with outdoor storage areas provides consistent habitat. Black widows prefer undisturbed spaces with ambient warmth: storage bins, garage shelving, behind wood piles, and under workbenches. Annual spring treatment and wearing gloves when accessing storage areas are the practical precautions.",
+      },
+      {
+        question: "How do I know if I have voles or mice in my American Fork lawn?",
+        answer: "Voles work outside: look for surface runways (clean-cut paths through grass), small round burrow holes, and dead patches in linear patterns. Mice come inside: droppings, gnaw marks, and nesting material in cabinets or closets. In American Fork near the foothill edge, both can be present simultaneously. They need different control approaches.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Lehi", slug: "lehi" },
+      { name: "Orem", slug: "orem" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in American Fork, UT | Voles, Mice & Mosquitoes",
+    metaDescription: "Pest control in American Fork, Utah for voles, mice, mosquitoes, boxelder bugs, and black widow spiders. Utah County Wasatch Mountain base pest management. Licensed Utah technicians.",
+  },
 ];

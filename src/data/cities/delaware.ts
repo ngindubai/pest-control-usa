@@ -447,4 +447,325 @@ export const delawareCities: CityLocation[] = [
     metaDescription:
       "Middletown DE pest control for termites, spotted lanternfly, stink bugs, mosquitoes and ticks. Fastest-growing Delaware community specialists. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "smyrna-de",
+    name: "Smyrna",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~12,000",
+    county: "Kent County",
+    climate: "temperate",
+    climateDriver:
+      "Smyrna sits in central Kent County at the heart of the Delmarva Peninsula, in the Mid-Atlantic coastal plain zone between Wilmington and Dover. The temperate climate is influenced by Chesapeake and Delaware Bay moisture, producing humid summers, mild winters, and significant rainfall. The flat terrain, nearby wetlands along the Smyrna River, and proximity to agricultural land create sustained pressure from mosquitoes, ticks, and termites.",
+    topPests: ["Eastern Subterranean Termites", "Deer Ticks", "Mosquitoes", "Stink Bugs", "Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony activity; swarmers visible February through April",
+        note: "Eastern subterranean termites are endemic throughout Delaware and are a significant concern for Smyrna's older wood-frame homes. Termite swarms in late winter and early spring are often the first sign homeowners notice. Annual inspections and a soil treatment or baiting system are the standard protection strategy.",
+      },
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November; nymph peak May through July",
+        note: "Delaware has some of the highest Lyme disease incidence rates in the nation, and Kent County is a high-risk area. Smyrna's suburban-rural edges, woodlands, and deer population sustain active tick populations. Residential yard tick treatment combined with personal protection is the practical approach.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "The wetlands and Smyrna River corridor near town create mosquito breeding habitat that sustains populations through summer. Heavy rainfall seasons produce significant standing water in low-lying areas.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November aggregation; overwinter in wall voids",
+        note: "Stink bugs are a major fall nuisance throughout the Delmarva Peninsula. In Smyrna, they aggregate on sun-warmed exterior walls in September and infiltrate wall voids through the same gaps as boxelder bugs.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Odorous house ants are the primary household ant pest in Smyrna, foraging inside through kitchen areas in spring and summer. They nest in wall voids and under concrete near moisture sources.",
+      },
+    ],
+    localHook:
+      "Smyrna is one of those Kent County towns where termite inspections are a routine part of buying or selling a house. The local real estate community treats it as given. Eastern subterranean termites are active throughout the region, and Smyrna's older housing stock has decades of exposure. Annual monitoring is not optional if you care about your home's structural integrity.",
+    intro:
+      "Pest control in Smyrna centers on the Mid-Atlantic's most reliable threats: termites, ticks, mosquitoes, and stink bugs. Eastern subterranean termites are present throughout Kent County and pose a real risk to older wood-frame homes in Smyrna. Deer ticks are a Lyme disease transmission concern in the wooded and brushy edges of town. Mosquitoes are active from May through October, sustained by the Smyrna River wetlands. Stink bugs aggregate on homes in fall. Ants are the standard spring through summer household pest.",
+    sections: [
+      {
+        heading: "Termite protection for Smyrna homes",
+        body: "Eastern subterranean termites are active year-round in Delaware's soils, and Smyrna's older residential neighborhoods have housing stock with decades of exposure. Termites work from the soil upward through wood in contact with or close to the ground: sill plates, joists, framing around crawl spaces, and any wood buried in or near grade. Swarmers in late winter or early spring indoors are the most visible warning sign. An annual termite inspection from a licensed professional is the first step. Protection options include soil-applied liquid termiticide creating a chemical barrier around the home, or termite monitoring and baiting systems with regular service visits. Either approach is effective when maintained.",
+      },
+      {
+        heading: "Tick protection in Smyrna's suburban-rural edges",
+        body: "Delaware consistently ranks among the states with the highest Lyme disease incidence per capita, and Kent County is a high-transmission area. The black-legged tick nymph, active from May through July, is the highest-risk stage because it is very small and often not detected before it attaches. Smyrna residents with wooded yards, properties adjacent to agricultural edges, or dogs that roam brushy areas face meaningful tick exposure. Yard perimeter tick treatment applied in April and repeated in September significantly reduces tick populations in the home environment. Regular clothing checks and daily body checks after outdoor activity in wooded areas remain important regardless of treatment.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections and maintain a soil treatment or baiting program.",
+      "Apply yard tick perimeter treatment in April and September to reduce black-legged tick populations.",
+      "Eliminate standing water in containers, gutters, and low spots weekly during mosquito season.",
+      "Seal exterior wall gaps, utility penetrations, and attic vents before September to reduce stink bug entry.",
+      "Apply perimeter ant treatment in early April around the foundation.",
+    ],
+    costNote:
+      "Termite protection in Smyrna runs $200 to $600 per year depending on treatment type and structure size. Tick yard treatment is $100 to $200 per application. Mosquito yard spray runs $80 to $180 per visit. General pest plans for ants, spiders, and mice cost $150 to $280 per year.",
+    faqs: [
+      {
+        question: "How common are termites in Smyrna?",
+        answer:
+          "Eastern subterranean termites are present throughout Kent County and are considered endemic in Delaware. There is no meaningful pest-free zone for termites in the state. Older homes in Smyrna with wood near grade, crawl spaces, or any history of moisture issues are at higher risk. Annual inspection and a maintained protection program are the standard of care.",
+      },
+      {
+        question: "Is Lyme disease a real concern in Smyrna?",
+        answer:
+          "Yes. Delaware has one of the nation's highest Lyme disease rates, and Kent County is in the high-risk zone. The black-legged tick vector is well established in and around Smyrna. If you spend time in wooded or brushy areas or have outdoor pets, tick checks and yard treatment are warranted.",
+      },
+      {
+        question: "When do stink bugs become a problem in Smyrna?",
+        answer:
+          "Stink bugs begin aggregating on exterior walls in mid-September as temperatures cool. They are looking for overwintering sites and will enter wall voids and attic spaces through any gap larger than half an inch. The peak aggregation is September and October. Sealing entry points before September and treating exterior surfaces reduces the numbers that get inside.",
+      },
+      {
+        question: "Are there spotted lanternflies in Smyrna?",
+        answer:
+          "Spotted lanternfly has been confirmed in Delaware and is spreading. This invasive pest from Asia feeds on tree-of-heaven (Ailanthus altissima), grapevines, hops, and many other plants and can impact agriculture and ornamental plants. If you see spotted lanternflies in Smyrna, report the sighting to the Delaware Department of Agriculture and notify a pest professional.",
+      },
+      {
+        question: "What is the best mosquito prevention approach for a Smyrna property near wetlands?",
+        answer:
+          "Elimination of standing water on the property is the most important step: empty containers, clean gutters, and fill any low spots. Apply mosquito dunks containing Bacillus thuringiensis israelensis (Bti) to any standing water that cannot be drained, such as rain gardens. Yard perimeter spray treatments to vegetation where mosquitoes rest provide additional protection through summer.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Dover", slug: "dover" },
+      { name: "Wilmington", slug: "wilmington" },
+      { name: "Milford", slug: "milford-de" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Smyrna, DE | Termites, Deer Ticks & Mosquitoes",
+    metaDescription:
+      "Smyrna DE pest control for eastern subterranean termites, deer ticks, mosquitoes and stink bugs. Kent County Mid-Atlantic specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "milford-de",
+    name: "Milford",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~11,000",
+    county: "Kent and Sussex Counties",
+    climate: "temperate",
+    climateDriver:
+      "Milford straddles the Kent and Sussex County line along the Mispillion River in the coastal plain of central Delaware. The Mid-Atlantic climate is humid, with warm summers and mild winters influenced by the proximity of Delaware Bay and the Atlantic coast. The flat terrain, tidal marshes along the Mispillion, and significant tree cover create active mosquito, tick, and termite conditions throughout the warm season.",
+    topPests: ["Eastern Subterranean Termites", "Mosquitoes", "Deer Ticks", "Stink Bugs", "Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round underground; swarmers February through April",
+        note: "Termites are endemic throughout Delaware and are a structural risk for Milford's wood-frame housing stock, particularly along the Mispillion River corridor where soil moisture is high. Annual inspections and a maintained protection program are the standard care.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "The Mispillion River tidal marshes and numerous drainage ditches around Milford create extensive mosquito breeding habitat. Summer mosquito pressure in Milford is notable, particularly on the east side of town near the river.",
+      },
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November; nymph peak May through July",
+        note: "Delaware is a high-Lyme-risk state. Milford's wooded and brushy edges, deer population, and proximity to agricultural land sustain black-legged tick populations that create real Lyme exposure for outdoor-active residents.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November aggregation; overwinter in wall voids",
+        note: "Stink bugs are a major fall nuisance across the Delmarva Peninsula. Milford sees consistent fall aggregations on the exterior of homes, followed by invasion of wall voids.",
+      },
+      {
+        name: "Odorous house ants and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Both species are common in Milford homes. Pavement ants nest under sidewalks and driveways; odorous house ants forage inside in spring and summer.",
+      },
+    ],
+    localHook:
+      "Milford's location on the Mispillion River is a major quality-of-life asset, but it also means the mosquito season is real. The marshes east of town produce mosquitoes from May through October at levels that the county's area spraying helps with but does not eliminate. Milford residents near the river tend to have a practical approach to mosquito management as part of summer outdoor planning.",
+    intro:
+      "Pest control in Milford covers the core Mid-Atlantic threats with a river-proximity twist. Termites are endemic throughout Delaware and a structural concern for Milford's older homes. Mosquitoes are sustained by the Mispillion River tidal marshes through the entire warm season. Deer ticks are a Lyme disease concern in the wooded edges of town. Stink bugs invade in fall. Ants are the standard spring and summer household pest.",
+    sections: [
+      {
+        heading: "Mosquito pressure and the Mispillion River corridor",
+        body: "Milford's eastern neighborhoods bordering the Mispillion River and its associated tidal marshes see some of the heaviest mosquito activity in Kent County. The extensive wetland area provides breeding habitat that is beyond the control of any single property owner. The Sussex County Mosquito Control Division and Kent County programs do area treatment, but individual property management makes a meaningful difference. The practical approach for Milford properties near the river is to focus on eliminating the standing water that breeds on the property (containers, gutters, birdbaths) and treating vegetation with monthly yard spray from May through October. Properties further from the river see lighter pressure and may require fewer treatments.",
+      },
+      {
+        heading: "Termite protection on the Mispillion floodplain",
+        body: "The moist soil conditions along the Mispillion River corridor are favorable for eastern subterranean termite colony development. Termites thrive in moist soils and move toward wood through underground mud tubes. Milford's older homes near the river, many with wood in contact with or near grade, face elevated termite risk compared to drier inland communities. Annual inspections are the minimum. Maintained soil treatment or baiting systems provide ongoing protection. If your home has a crawl space under the structure, crawl space moisture management (vapor barriers, ventilation) also reduces termite attractiveness.",
+      },
+    ],
+    prevention: [
+      "Maintain an active termite protection program with annual inspections.",
+      "Eliminate standing water on the property weekly to reduce on-site mosquito breeding.",
+      "Apply monthly mosquito yard spray to vegetation from May through October.",
+      "Check for ticks on yourself and pets after outdoor time in wooded or brushy areas.",
+      "Seal exterior wall gaps and attic vents before September to reduce stink bug entry.",
+    ],
+    costNote:
+      "Termite protection in Milford runs $200 to $550 per year. Mosquito yard spray programs cost $80 to $180 per visit, with most properties on a monthly May through October schedule. Tick treatment runs $100 to $180 per application.",
+    faqs: [
+      {
+        question: "Are the mosquitoes in Milford near the river treatable on my property?",
+        answer:
+          "Yes, yard perimeter spray treatment of vegetation significantly reduces the mosquitoes on your property, even near the river. The treatment works by killing mosquitoes that rest in vegetation during the day. It does not prevent new mosquitoes from flying in from the marsh, but it maintains a lower on-property population. Monthly applications through summer are the most effective schedule.",
+      },
+      {
+        question: "My Milford home has a crawl space. Does that increase termite risk?",
+        answer:
+          "Yes. Crawl spaces with poor ventilation and moisture issues create conditions termites find attractive. If the crawl space has bare soil, a vapor barrier significantly reduces moisture and termite attractiveness. Annual termite inspection of the crawl space framing should be part of your home maintenance routine.",
+      },
+      {
+        question: "What tick species are most common in Milford?",
+        answer:
+          "Black-legged ticks (Ixodes scapularis, also called deer ticks) are the primary species of Lyme disease concern in Delaware. American dog ticks and lone star ticks are also present and can cause their own health concerns. Delaware's tick populations are established and widespread, and Milford's mixed suburban-rural landscape puts residents in contact with all three species.",
+      },
+      {
+        question: "Are stink bugs a problem inside Milford homes in winter?",
+        answer:
+          "Yes. Stink bugs that entered wall voids in September and October overwinter there and emerge on warm days through winter and especially in early spring as temperatures rise. They typically emerge toward light sources and accumulate on window sills and in living spaces. Sealing entry points before September is the most effective prevention; dealing with them once inside the walls is very difficult.",
+      },
+      {
+        question: "Do I need to treat for pests year-round in Milford?",
+        answer:
+          "A termite program is year-round by design. For general household pests, the core season is April through October. A minimum of two to three seasonal visits, covering spring ant and mosquito treatment, summer mosquito and tick maintenance, and fall stink bug prevention, covers the main seasonal peaks for most Milford properties.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Dover", slug: "dover" },
+      { name: "Smyrna", slug: "smyrna-de" },
+      { name: "Seaford", slug: "seaford-de" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Milford, DE | Termites, Mosquitoes & Ticks on the Mispillion River",
+    metaDescription:
+      "Milford DE pest control for termites, mosquitoes, deer ticks and stink bugs. Kent-Sussex County Mispillion River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "seaford-de",
+    name: "Seaford",
+    state: "Delaware",
+    stateSlug: "delaware",
+    stateAbbr: "DE",
+    tier: "T3",
+    population: "~7,500",
+    county: "Sussex County",
+    climate: "temperate",
+    climateDriver:
+      "Seaford lies along the Nanticoke River in western Sussex County, the southernmost and most agricultural county in Delaware. The temperate Mid-Atlantic climate is warm and humid in summer, mild in winter. The Nanticoke River corridor and surrounding flat agricultural land create mosquito, tick, and fly breeding habitat across the warm season. Sussex County sees somewhat milder winters than northern Delaware, extending the pest active season.",
+    topPests: ["Eastern Subterranean Termites", "Mosquitoes", "Deer Ticks", "Stink Bugs", "Spotted Lanternfly"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round activity; swarmers February through April",
+        note: "Termites are endemic throughout Sussex County. Seaford's older housing stock and the moist soils along the Nanticoke River create elevated risk. Annual inspection and maintained protection are standard.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "The Nanticoke River wetlands and agricultural drainage ditches around Seaford provide significant mosquito breeding habitat. Summer mosquito pressure is substantial in the riverside neighborhoods.",
+      },
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November",
+        note: "Deer ticks are well established in Sussex County. The agricultural-wooded interface and deer population around Seaford create consistent tick exposure for gardeners and outdoor workers.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November aggregation",
+        note: "Stink bugs are a significant fall nuisance across the Delmarva Peninsula, including Seaford. They aggregate on sun-warmed walls and enter through gaps in the fall.",
+      },
+      {
+        name: "Spotted lanternfly",
+        serviceSlug: "ant-control",
+        activeSeason: "May through November",
+        note: "Spotted lanternfly has been confirmed in Delaware and is spreading southward through Sussex County. This invasive species feeds on tree-of-heaven and other plants and is a reportable pest. Egg masses on smooth bark surfaces are visible from October through June.",
+      },
+    ],
+    localHook:
+      "Seaford sits at the intersection of the Nanticoke River and western Sussex County's farm country, and that combination shapes the pest season. The river brings mosquitoes. The farms and wooded edges bring ticks. The mild winters mean the season is slightly longer than in Wilmington. Residents who have been here for years know to start mosquito prevention before Memorial Day and tick prevention even earlier.",
+    intro:
+      "Pest control in Seaford combines the standard Sussex County threats with the river-proximity factor. Termites are endemic throughout Delaware and a structural concern for Seaford's older homes. Mosquitoes are sustained by the Nanticoke River wetlands and agricultural drainage through summer. Deer ticks are a Lyme disease concern in the wooded and agricultural edges of town. Stink bugs aggregate on homes in fall. Spotted lanternfly is an emerging concern as it expands through the state.",
+    sections: [
+      {
+        heading: "Nanticoke River mosquitoes and summer management",
+        body: "The Nanticoke River is one of Delaware's least developed river systems, with extensive wetland and forested riparian habitat along its banks through Sussex County. This habitat supports large and persistent mosquito populations from May through October. Seaford residents near the river experience mosquito pressure that is meaningfully higher than residents in central Dover or Wilmington. Practical management combines eliminating standing water on the property with monthly yard perimeter spray during the active season. The Sussex County Mosquito Control Division provides area adulticiding, which reduces peak populations but does not maintain consistent control at the property level.",
+      },
+      {
+        heading: "Spotted lanternfly: what Seaford homeowners need to know",
+        body: "Spotted lanternfly is an invasive pest from Asia that has established in Delaware and is actively spreading. It feeds by piercing plant stems and extracting phloem sap, excreting honeydew that promotes sooty mold growth. Its primary host is tree-of-heaven (Ailanthus altissima), which is common along roadsides and disturbed areas in Delaware, but it also feeds on grapevines, hops, fruit trees, and many other plants. If you see spotted lanternfly adults, nymphs, or egg masses on smooth-barked trees in Seaford, report the sighting to the Delaware Department of Agriculture (dda.delaware.gov). Property owners with grapevines or orchards should contact a pest professional for treatment options.",
+      },
+    ],
+    prevention: [
+      "Maintain an annual termite inspection and protection program for structural peace of mind.",
+      "Eliminate standing water weekly during mosquito season and apply yard spray monthly.",
+      "Check for ticks after outdoor activity and apply yard tick treatment in April and September.",
+      "Seal wall gaps and attic vents in August to reduce stink bug fall entry.",
+      "Report spotted lanternfly sightings to the Delaware Department of Agriculture.",
+    ],
+    costNote:
+      "Termite protection in Seaford runs $180 to $500 per year. Mosquito yard programs cost $80 to $180 per visit. Tick treatment is $90 to $170 per application. General pest plans for ants and spiders run $140 to $260 per year.",
+    faqs: [
+      {
+        question: "Is spotted lanternfly present in Seaford?",
+        answer:
+          "Spotted lanternfly has been confirmed in Delaware and is actively spreading southward through Sussex County. It is considered an invasive species of significant agricultural and ornamental concern. If you see it on your Seaford property, report it to the Delaware Department of Agriculture and consult a pest professional for treatment options.",
+      },
+      {
+        question: "Why are mosquitoes so bad near the Nanticoke River in Seaford?",
+        answer:
+          "The Nanticoke River corridor has extensive wetland habitat that serves as a persistent mosquito breeding ground from spring through fall. Unlike standing water in a container that can be emptied, the river wetlands cannot be managed at the property level. Property-level control focuses on eliminating the on-site water sources that supplement the regional population.",
+      },
+      {
+        question: "Do Seaford homes need termite protection even if they are newer construction?",
+        answer:
+          "Yes. Eastern subterranean termites are active throughout Sussex County regardless of housing age. Newer homes may have factory-applied termiticide treatment that expires over time. A professional inspection determines whether the original protection is still active and whether a new treatment or baiting system is warranted.",
+      },
+      {
+        question: "When is tick risk highest in Seaford?",
+        answer:
+          "The highest-risk period for Lyme disease transmission in Delaware is May through July when the deer tick nymph is most active. Nymphs are tiny (poppy-seed size) and often attach without being noticed. This is also when outdoor activity peaks. Daily body checks and wearing long sleeves and DEET repellent in wooded areas are the most reliable personal protection measures.",
+      },
+      {
+        question: "Are there any agricultural pests that come into Seaford from surrounding farms?",
+        answer:
+          "Yes. Flies associated with poultry and agricultural operations in Sussex County can affect nearby residential properties in summer. The fly pressure is manageable with tight screens, covered garbage, and outdoor traps, but it is driven by regional breeding populations outside the control of individual property owners.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Milford", slug: "milford-de" },
+      { name: "Dover", slug: "dover" },
+      { name: "Wilmington", slug: "wilmington" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Seaford, DE | Termites, Mosquitoes & Spotted Lanternfly",
+    metaDescription:
+      "Seaford DE pest control for termites, mosquitoes, deer ticks and spotted lanternfly. Sussex County Nanticoke River specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
 ];

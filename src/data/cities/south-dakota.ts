@@ -1245,5 +1245,353 @@ export const southDakotaCities: CityLocation[] = [
     metaTitle: "Pest Control in Box Elder, SD | Boxelder Bugs, Mice & Ellsworth AFB Community",
     metaDescription:
       "Box Elder pest control for boxelder bugs, house mice, yellow jackets, and deer ticks. Pennington County Black Hills suburb adjacent to Ellsworth AFB with agricultural-edge rodent pressure. Free inspection. Call 1-800-PEST-USA.",
-  }
+  },
+  {
+    slug: "brandon-sd",
+    name: "Brandon",
+    state: "South Dakota",
+    stateSlug: "south-dakota",
+    stateAbbr: "SD",
+    tier: "T3",
+    population: "~10,000",
+    county: "Minnehaha County",
+    climate: "cold-humid",
+    climateDriver:
+      "Brandon lies just east of Sioux Falls along the Big Sioux River in Minnehaha County, one of South Dakota's fastest-growing communities. The cold continental climate delivers frigid winters with persistent wind and snow, hot humid summers, and sharp spring and fall transitions. The Big Sioux River corridor and surrounding agricultural fields create consistent pest pressure from mosquitoes, ants, and rodents, while the rapid residential growth brings development-edge pest dynamics.",
+    topPests: ["Ants", "House Mice", "Mosquitoes", "Boxelder Bugs", "Brown Recluse Spiders"],
+    pestProfile: [
+      {
+        name: "Odorous house ants and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Ants are the most common household pest in Brandon and the eastern South Dakota suburbs. Odorous house ants forage inside for sweets in summer; pavement ants nest under driveways and slabs throughout the growing residential grid.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through November entry; year-round once established",
+        note: "Brandon's Big Sioux River corridor and the adjacent agricultural fields sustain mouse populations that press into homes in fall. New construction on the eastern edge of town sees heightened mouse pressure from disturbed field habitat.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Big Sioux River corridor and the low-lying areas around Brandon create mosquito breeding habitat that makes summer evenings outdoor-uncomfortable without treatment. The river floodplain sustains populations throughout the warm season.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November",
+        note: "Boxelder bugs are a reliable fall nuisance in Brandon neighborhoods with mature boxelder trees. The established residential areas along the river corridor see heavier aggregations than newer subdivisions.",
+      },
+      {
+        name: "Brown recluse spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round in heated spaces; most active April through October",
+        note: "Brown recluse spiders have been documented in South Dakota and are extending their range northward. While not as common as in Missouri or Kansas, they have been found in Brandon and eastern South Dakota. They prefer undisturbed areas in basements, garages, and storage spaces.",
+      },
+    ],
+    localHook:
+      "Brandon has grown faster than almost any community in South Dakota over the past decade, and with that growth comes a predictable pest dynamic: development moves onto agricultural land, field rodents lose habitat and move into new homes, and the pest management community catches up. The longtime Brandon residents have watched this happen street by street as the city expanded east.",
+    intro:
+      "Pest control in Brandon combines the eastern South Dakota agricultural community pest set with the dynamics of a fast-growing suburb. Ants are the primary summer household pest in Brandon's dense residential grid. Mice press in from the Big Sioux River corridor and surrounding fields each fall. Mosquitoes are a genuine summer management priority near the river. Boxelder bugs are a reliable fall nuisance. Brown recluse spiders are an increasing concern in eastern South Dakota.",
+    sections: [
+      {
+        heading: "Growth-edge pest pressure in Brandon",
+        body: "Brandon's rapid expansion onto the eastern prairie has created a situation familiar to many fast-growing suburban communities: each new subdivision is built on land that was recently agricultural field or undeveloped prairie, both of which supported established populations of mice, voles, and insects. When development displaces these populations, the residents of the existing homes adjacent to the new construction see a temporary but real spike in rodent and ant activity. Properties on the current growth edge of Brandon, especially those adjacent to remaining agricultural land, benefit from proactive exterior bait station deployment in August and a perimeter pest treatment in spring.",
+      },
+      {
+        heading: "Brown recluse awareness in eastern South Dakota",
+        body: "Brown recluse spiders have historically been associated with states further south, but their documented range in South Dakota has been expanding. They have been confirmed in Sioux Falls and the surrounding Minnehaha County area, including Brandon. Brown recluses prefer dry, undisturbed spaces: storage boxes in basements, cluttered garages, and beneath furniture that has not been moved in months. They are not aggressive and bites are unusual, but their venom can cause significant tissue damage. The practical approach is reducing undisturbed clutter in storage areas, wearing gloves when reaching into boxes, and scheduling a professional inspection if spiders are found that match the description.",
+      },
+    ],
+    prevention: [
+      "Apply ant perimeter treatment in April around the foundation and driveway edges.",
+      "Seal foundation gaps and utility entries in September before the fall mouse push.",
+      "Eliminate standing water weekly to reduce mosquito breeding near the Big Sioux corridor.",
+      "Treat boxelder bug aggregations in September before they enter wall voids.",
+      "Reduce undisturbed storage clutter in basements and garages to minimize brown recluse harborage.",
+    ],
+    costNote:
+      "Brandon general pest plans run $150 to $270 per year for quarterly service. Mosquito yard treatment costs $90 to $180 per visit. Rodent exclusion programs run $200 to $400.",
+    faqs: [
+      {
+        question: "Are brown recluse spiders a real concern in Brandon?",
+        answer:
+          "They are an emerging concern in eastern South Dakota, documented in the Sioux Falls metro area. The population density is much lower than in classic brown recluse range states like Missouri and Arkansas, but the spiders are present. Reducing undisturbed clutter in basements and garages and exercising caution when reaching into dark enclosed spaces are the practical precautions.",
+      },
+      {
+        question: "When is mosquito season worst near the Big Sioux River in Brandon?",
+        answer:
+          "June and July are typically the peak months for mosquito activity in the Big Sioux River corridor near Brandon. Significant rainfall in May that creates extensive standing water can push the peak earlier. Properties within a few blocks of the river or its low-lying tributaries see the most pressure. Monthly yard spray treatment from May through September maintains manageable levels.",
+      },
+      {
+        question: "My new Brandon home is near fields that were just developed. Why are there so many ants?",
+        answer:
+          "New development on agricultural or undeveloped land disrupts established ant colonies that then split and relocate, often into new structures. The first one to two years in a new Brandon subdivision adjacent to recent construction see the highest ant activity as the local population stabilizes. A proactive perimeter treatment in April covers this.",
+      },
+      {
+        question: "Do I need year-round pest control in Brandon?",
+        answer:
+          "The core pest season in eastern South Dakota runs from April through October, with the fall mouse exclusion work extending into November. A year-round plan typically covers quarterly visits: spring for ants and startup, summer for mosquitoes and mid-season, fall for mice and boxelder bugs, and winter for a light interior check. The winter visit is optional for most homes.",
+      },
+      {
+        question: "Are boxelder bugs the same pest as stink bugs?",
+        answer:
+          "No. They are different species. Boxelder bugs (Boisea trivittata) are black with red markings and are native to North America; they feed on boxelder and maple trees. Brown marmorated stink bugs (Halyomorpha halys) are invasive from Asia and feed on a much wider range of plants. Both aggregate on buildings in fall seeking overwintering sites, and both create similar indoor nuisance problems, but they require the same exterior treatment approach.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Sioux Falls", slug: "sioux-falls" },
+      { name: "Tea", slug: "tea-sd" },
+      { name: "Harrisburg", slug: "harrisburg-sd" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Brandon, SD | Ants, Mice & Brown Recluse Spiders",
+    metaDescription:
+      "Brandon SD pest control for ants, house mice, mosquitoes and boxelder bugs. Minnehaha County Sioux Falls suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "tea-sd",
+    name: "Tea",
+    state: "South Dakota",
+    stateSlug: "south-dakota",
+    stateAbbr: "SD",
+    tier: "T3",
+    population: "~6,500",
+    county: "Lincoln County",
+    climate: "cold-humid",
+    climateDriver:
+      "Tea is a rapidly growing community in Lincoln County directly south of Sioux Falls, part of the expanding south metro area. The cold continental climate matches the rest of eastern South Dakota: cold and windy winters, warm humid summers, and quick seasonal transitions. Tea's location on the south edge of the metro means the community sits at the transition between suburban residential development and open prairie and farmland, which creates predictable development-edge pest dynamics.",
+    topPests: ["Ants", "House Mice", "Boxelder Bugs", "Mosquitoes", "Crickets"],
+    pestProfile: [
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Odorous house ants are the most common household pest in Tea's growing residential developments. New construction regularly disturbs colony sites, causing ants to relocate into new homes.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through November entry",
+        note: "Tea's position at the suburb-prairie transition means field mice from adjacent agricultural land are a consistent fall concern. The new construction edge sees the highest pressure as development moves onto field habitat.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November",
+        note: "Boxelder bugs aggregate on the south-facing walls of Tea's newer homes in fall, seeking overwintering sites. Neighborhoods with mature boxelder trees nearby see the heaviest pressure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Standing water in Tea's growing residential areas, including construction site water and drainage issues common in new subdivisions, creates mosquito breeding habitat.",
+      },
+      {
+        name: "Field and house crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "August through October",
+        note: "Crickets from the surrounding prairie habitat invade Tea homes in late summer, attracted to lights. New subdivisions adjacent to remaining prairie see heavier cricket pressure.",
+      },
+    ],
+    localHook:
+      "Tea is one of the fastest-growing cities in South Dakota, adding new streets and subdivisions every year. What longtime residents notice is how the pest pressure shifts as development expands: the streets nearest the current construction edge always have the most mice and ants in the first year. It settles down as the area matures and fills in. But the leading edge of growth always has elevated pest activity.",
+    intro:
+      "Pest control in Tea reflects the community's rapid growth and its position at the edge of the Sioux Falls metro. Ants are the most common summer pest in the dense residential developments. Mice press in from adjacent prairie and agricultural land in fall. Boxelder bugs are a reliable September and October nuisance. Mosquitoes are active through summer. Crickets come in from surrounding prairie in late summer.",
+    sections: [
+      {
+        heading: "Development edge pest dynamics in Tea",
+        body: "Tea's rapid expansion means the community is constantly adding new residential streets on what was recently open prairie or agricultural land. This creates a predictable pattern: the current edge of development sees the most rodent intrusion, as mice that were living in the undeveloped land lose their habitat to construction and move toward the nearest available shelter. A new home on the current edge of Tea's growth often sees its highest mouse pressure in the first autumn and winter after construction. Proactive exterior bait station deployment and foundation sealing before October catches this before it becomes an interior problem.",
+      },
+      {
+        heading: "Managing summer pests in a fast-growing suburb",
+        body: "Tea's rapid growth creates pest management challenges typical of new suburban development. New lawn installations in spring create bare-soil conditions that attract pavement ants to nest. New construction irrigation systems and improperly graded lots create standing water that mosquitoes use for breeding. The combination of these factors means a new Tea homeowner in their first summer may encounter higher ant and mosquito pressure than they expected. Annual spring perimeter treatment and maintaining proper drainage around the home address the ant issue. Weekly elimination of standing water and monthly mosquito yard spray address the mosquito side.",
+      },
+    ],
+    prevention: [
+      "Apply ant perimeter treatment in April around the foundation, particularly on new construction.",
+      "Grade the yard and clear construction debris to eliminate standing water for mosquitoes.",
+      "Deploy exterior rodent bait stations in September on properties adjacent to agricultural land or open prairie.",
+      "Seal foundation gaps and install quality door sweeps before October.",
+      "Apply cricket and boxelder bug perimeter spray in August before the fall invasion.",
+    ],
+    costNote:
+      "Tea general pest plans run $140 to $260 per year for quarterly service. Mosquito yard treatment is $90 to $170 per visit. New construction rodent exclusion programs run $200 to $380.",
+    faqs: [
+      {
+        question: "My new Tea home had ants in the kitchen in the first spring. Is this common?",
+        answer:
+          "Very common. New construction disturbs established ant colonies in the soil beneath and around the building. The ants that were there before the home was built relocate, often into the new structure. A perimeter treatment in the first spring and again in summer typically resolves the issue as the local ant population reorganizes away from the structure.",
+      },
+      {
+        question: "Is the rapid growth of Tea affecting pest pressure in established neighborhoods?",
+        answer:
+          "Yes, indirectly. As development expands, field rodent populations are continuously displaced toward existing structures. Established neighborhoods that were previously surrounded by open prairie and are now adjacent to construction activity tend to see elevated mouse pressure during the construction phase. It typically resolves as the new development fills in.",
+      },
+      {
+        question: "When should I schedule pest control in Tea?",
+        answer:
+          "April for spring ant treatment and startup. June or July for mosquito yard treatment if needed. September for boxelder bug exterior spray and mouse exclusion check. A three-visit seasonal plan covers the main peaks for most Tea properties.",
+      },
+      {
+        question: "Are crickets a big problem in Tea?",
+        answer:
+          "Late August into September, cricket invasions from the surrounding prairie are a common complaint in Tea's newest neighborhoods, which are closest to remaining undeveloped land. Perimeter spray in late July and tight door sweeps reduce the invasion significantly.",
+      },
+      {
+        question: "Do I need any special pest prevention for a new Tea construction home?",
+        answer:
+          "Yes. New construction in Tea should include a foundation inspection to ensure no gaps exist in the sill plate and foundation interface. Pre-treating the soil around the foundation in April and deploying exterior bait stations in fall are standard proactive steps for a new home adjacent to agricultural or prairie land.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Sioux Falls", slug: "sioux-falls" },
+      { name: "Brandon", slug: "brandon-sd" },
+      { name: "Harrisburg", slug: "harrisburg-sd" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Tea, SD | Ants, Mice & Crickets in Lincoln County",
+    metaDescription:
+      "Tea SD pest control for ants, house mice, boxelder bugs and crickets. Lincoln County fast-growing Sioux Falls suburb specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "harrisburg-sd",
+    name: "Harrisburg",
+    state: "South Dakota",
+    stateSlug: "south-dakota",
+    stateAbbr: "SD",
+    tier: "T3",
+    population: "~7,500",
+    county: "Lincoln County",
+    climate: "semi-arid",
+    climateDriver: "Harrisburg is one of the fastest-growing cities in South Dakota, a Sioux Falls suburb in Lincoln County with rapid residential development on former agricultural land. The continental climate brings extreme temperature swings, dry summers, cold winters, and the characteristic prairie pest patterns of the eastern Dakotas.",
+    topPests: ["Mice", "Voles", "Boxelder Bugs", "Ants", "Wasps"],
+    pestProfile: [
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "New Harrisburg subdivisions placed on former farmland see immediate and heavy fall mouse migration as surrounding fields are harvested each year." },
+      { name: "Voles", serviceSlug: "wildlife-removal", activeSeason: "year-round, peaks spring and fall", note: "Meadow voles from surrounding prairie farmland invade Harrisburg lawns and damage new sod, gardens, and plantings." },
+      { name: "Boxelder Bugs", serviceSlug: "boxelder-bug-control", activeSeason: "September to October", note: "Box elder trees planted throughout Harrisburg's newer developments and along Lincoln County road corridors produce the seed crops that feed fall boxelder bug aggregations." },
+      { name: "Ants", serviceSlug: "ant-control", activeSeason: "April to October", note: "Pavement ants and odorous house ants colonize Harrisburg's residential foundations and driveways, exploiting the new construction gaps that older, settled homes don't have." },
+      { name: "Wasps", serviceSlug: "wasp-bee-removal", activeSeason: "June to September", note: "Yellow jackets and paper wasps nest in Harrisburg's newer eaves and in lawn areas; fast-growing suburbs with new construction see more wasp activity as disturbed soil creates nesting opportunities." },
+    ],
+    localHook: "Harrisburg is growing faster than almost any city in South Dakota, which means a constant stream of new homes going up on former agricultural land. That rapid transition creates a specific pest situation: subdivisions that back directly against farmland where rodents have lived for generations, and new construction with gaps that older settled homes don't have.",
+    intro: "Pest control in Harrisburg is shaped by growth. The city has expanded rapidly over the past decade, and many of its newest neighborhoods sit directly adjacent to the farmland that once occupied the area. Field mice don't recognize a subdivision boundary. They follow harvest season into the new homes. Voles move in from the prairie edges and damage new sod. Boxelder bugs swarm the newly planted street trees each fall. Ants exploit the gaps that new construction settles through. It's a predictable set of problems, and the solution is getting ahead of it rather than waiting for it to show up inside.",
+    sections: [
+      {
+        heading: "Rodent Pressure in Harrisburg's Agricultural Fringe",
+        body: "Lincoln County's agricultural land surrounds much of Harrisburg's residential development, and every fall harvest creates a mass displacement of field mice and meadow voles. These animals don't simply stay in the stubble fields; they move toward the nearest warm structure. New construction in Harrisburg often has more entry opportunities than older, settled homes: foundation joints that haven't fully cured, utility conduits that aren't completely sealed, and framing gaps that precede final siding. We inspect new and recent construction with particular attention to those areas and seal confirmed entry points before October. Exterior bait stations at the perimeter catch migrants before they reach the foundation."
+      },
+      {
+        heading: "Boxelder Bugs and Fall Pest Season",
+        body: "Harrisburg's newer neighborhoods have seen significant tree planting, including box elder trees, which are a fast-growing choice for new developments. Those trees produce exactly the seed crop that fuels fall boxelder bug aggregations. By mid-September, they're massing on south-facing walls, finding attic vents, and working into wall voids. The solution is timing: a perimeter spray in early September, before they aggregate, is far more effective than reacting once they're on the siding. Sealing attic vents with fine mesh as part of a routine exterior maintenance check reduces the volume that overwinters in wall voids."
+      },
+      {
+        heading: "Ants and Wasps in New Construction",
+        body: "New construction in Harrisburg creates some pest opportunities that established neighborhoods don't see. Disturbed soil from grading and foundation work creates ideal nesting sites for yellow jackets. New concrete and asphalt creates the warm pavement surfaces that pavement ants colonize. Odorous house ants follow moisture gradients along fresh foundation slabs. These are first-year problems in most cases, and they're manageable with targeted perimeter treatment and direct nest treatment for wasp colonies. Addressing them early, rather than letting populations establish, keeps Harrisburg's newest homes from carrying pest pressure into their second and third years."
+      },
+    ],
+    prevention: [
+      "Inspect all utility penetrations and foundation gaps in new construction before October.",
+      "Install a perimeter bait station system around new homes adjacent to farmland.",
+      "Apply a fall perimeter spray in early September for boxelder bug prevention.",
+      "Treat pavement ant colonies along driveways and foundation slabs in spring.",
+      "Survey for yellow jacket ground nests in disturbed soil areas through summer.",
+    ],
+    costNote: "Pest control visits in Harrisburg typically run $120 to $280. Annual prevention programs for rodents, boxelder bugs, and ants run $350 to $600. Yellow jacket nest treatment runs $140 to $240 per nest. New construction exclusion work runs $200 to $400 depending on property size.",
+    faqs: [
+      {
+        question: "Why do mice get into my new Harrisburg home?",
+        answer: "New construction in agricultural fringe areas like Harrisburg's southern subdivisions is immediately surrounded by established rodent populations with no established pest history to keep populations down. New homes also have construction-phase gaps that aren't in older, settled structures. The combination of high surrounding pressure and fresh entry opportunities is why pest control in the first few years of a new home matters."
+      },
+      {
+        question: "Are boxelder bugs harmful in Harrisburg?",
+        answer: "They don't bite, sting, breed indoors, or damage structures. The issue is numbers and staining. A large boxelder bug aggregation can involve hundreds or thousands of insects, and their excrement stains light-colored siding and interior surfaces. Preventing them from entering in the first place with a September perimeter spray is the most practical approach."
+      },
+      {
+        question: "How do I know if I have voles or mice in my Harrisburg lawn?",
+        answer: "Voles work outside: look for surface runways in grass, small burrow holes, and dead patches in linear patterns. Mice come inside: look for droppings, gnaw marks on food packaging, and nesting material in drawers or cabinets. Both can be present simultaneously in homes near prairie farmland, and they need separate control approaches."
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Sioux Falls", slug: "sioux-falls-sd" },
+      { name: "Tea", slug: "tea-sd" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Harrisburg, SD | Mice, Voles & Boxelder Bugs",
+    metaDescription: "Pest control in Harrisburg, South Dakota for mice, voles, boxelder bugs, ants, and wasps. Fast-growing Lincoln County suburb next to farmland needs proactive pest management. Licensed SD technicians.",
+  },
+  {
+    slug: "madison-sd",
+    name: "Madison",
+    state: "South Dakota",
+    stateSlug: "south-dakota",
+    stateAbbr: "SD",
+    tier: "T3",
+    population: "~7,000",
+    county: "Lake County",
+    climate: "semi-arid",
+    climateDriver: "Madison is the seat of Lake County in eastern South Dakota, sitting near Lake Madison and several smaller lakes in the Coteau des Prairies region. The lake district setting adds humidity and mosquito pressure to the standard prairie pest profile of rodents, boxelder bugs, and grain storage insects.",
+    topPests: ["Mice", "Voles", "Mosquitoes", "Boxelder Bugs", "Grain Beetles"],
+    pestProfile: [
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Madison's agricultural setting and grain storage facilities maintain large local rodent populations; fall migration into structures begins in early October." },
+      { name: "Voles", serviceSlug: "wildlife-removal", activeSeason: "spring and fall", note: "Meadow voles are common in Lake County's agricultural landscape and around Madison's residential edges; they damage lawns and gardens consistently." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Lake Madison, Lake Herman, and the Coteau's wetland system create above-average mosquito pressure for a South Dakota city of this size." },
+      { name: "Boxelder Bugs", serviceSlug: "boxelder-bug-control", activeSeason: "September to October", note: "Box elder trees along Madison's streets and the lake district corridors feed annual fall aggregations that coat south-facing structures." },
+      { name: "Grain Beetles", serviceSlug: "cockroach-control", activeSeason: "year-round", note: "Madison's proximity to grain storage and processing facilities creates grain beetle introduction risk; they infest flour, cereal, and stored food products." },
+    ],
+    localHook: "Madison sits at the heart of Lake County's lake district, and the combination of lake wetlands, grain storage, and prairie agriculture creates a pest profile that's more varied than a typical small South Dakota city. Mosquitoes from the lakes. Rodents from the grain belt. Boxelder bugs from the tree-lined main streets.",
+    intro: "Pest control in Madison, South Dakota benefits from understanding the local geography. The lakes bring mosquitoes and moisture. The grain storage and agricultural processing operations maintain rodent populations that press into town each fall. The box elder trees that shade the older residential streets produce the seed crop for annual fall boxelder bug swarms. And grain beetles occasionally make their way from storage facilities into home pantries. It's a small city with a fairly full pest calendar.",
+    sections: [
+      {
+        heading: "Rodent and Grain Pest Pressure in Lake County",
+        body: "Madison's position as a Lake County agricultural hub means grain storage is part of the local landscape. That grain attracts mice and rats to storage facilities, and those populations overlap with the residential rodent pressure that comes from the surrounding prairie farmland each fall. Field mice migrate from harvested fields into homes from late September through October. Grain beetles, including confused flour beetles and Indian meal moths, can move from storage or processing facilities into residential pantries, especially in homes near the industrial east side of the city. We address rodents with exclusion and strategic bait placement, and grain beetle infestations with thorough pantry inspection and targeted treatment."
+      },
+      {
+        heading: "Mosquito Season at Lake Madison and Lake Herman",
+        body: "Madison's lake district setting gives the city an above-average mosquito season compared to purely land-locked South Dakota communities. Lake Madison, Lake Herman, and the associated wetlands along their shores create substantial breeding habitat for Culex and Aedes mosquito species. Peak pressure runs from June through August. For properties near the lake shores, barrier treatment for yard vegetation combined with standing water source elimination on the property makes a meaningful difference in comfort. For downtown Madison properties with minimal water adjacency, a single spring season treatment is often sufficient."
+      },
+      {
+        heading: "Boxelder Bugs and Fall Pest Season",
+        body: "Lake County's lake-lined streets are shaded by mature trees, including box elders, which are the primary food source for the region's fall boxelder bug populations. Mid-September to early October brings mass aggregations on south and west-facing walls throughout Madison. The control strategy is the same as elsewhere in eastern South Dakota: a perimeter spray before they aggregate, combined with sealing attic vents and exterior gaps. Treating after they're on the siding is reactive and less effective. The goal is intercepting the migration before it reaches the structure."
+      },
+    ],
+    prevention: [
+      "Inspect pantry storage annually for grain beetle signs, especially near flour, cereals, and dried legumes.",
+      "Seal foundation gaps before October to prevent fall mouse migration.",
+      "Apply boxelder bug perimeter spray in early September.",
+      "Eliminate standing water from yard containers and low spots through August mosquito season.",
+      "Keep grain-based bird seed in sealed metal containers to avoid pantry cross-contamination.",
+    ],
+    costNote: "Pest control visits in Madison typically run $120 to $275. Mosquito barrier treatments run $75 to $140 per application. Annual prevention programs covering mice, boxelder bugs, and ants run $300 to $500. Grain beetle pantry treatment runs $150 to $300 depending on infestation scope.",
+    faqs: [
+      {
+        question: "Where do grain beetles come from in Madison homes?",
+        answer: "Most grain beetle infestations in Madison homes originate in purchased grocery products, particularly flour, whole grains, dried pasta, and cereals. Infested product from a retail store or the home's own pantry is the most common source, not proximity to grain storage. Check any package that shows fine webbing, tiny holes, or small insects inside. Seal all dry goods in airtight containers."
+      },
+      {
+        question: "Is West Nile virus a concern near the Madison lakes?",
+        answer: "Culex mosquitoes, which transmit West Nile virus, breed in the lake margins and associated wetlands around Madison. West Nile virus has been detected in South Dakota's mosquito populations, and lake district communities see higher mosquito density than inland areas. The risk is real, particularly for outdoor activity at dusk and dawn in July and August."
+      },
+      {
+        question: "When should I treat for boxelder bugs in Madison, SD?",
+        answer: "Early September is the target window in Lake County. Treat before they begin aggregating on walls, which typically happens when daytime highs first drop into the 60s consistently. A perimeter spray at that point is far more effective than treating after they've already massed on the siding or started entering attic vents."
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Brookings", slug: "brookings-sd" },
+      { name: "Sioux Falls", slug: "sioux-falls-sd" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Madison, SD | Mice, Mosquitoes & Boxelder Bugs",
+    metaDescription: "Pest control in Madison, South Dakota near Lake Madison. Mice, voles, mosquitoes, boxelder bugs, and grain beetles. Lake County agricultural pest management. Licensed SD technicians.",
+  },
 ];

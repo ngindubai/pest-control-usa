@@ -897,4 +897,419 @@ export const rhodeIslandCities: CityLocation[] = [
     metaDescription:
       "North Providence pest control for house mice, German cockroaches, deer ticks, carpenter ants and bed bugs. Providence County inner suburb specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "central-falls-ri",
+    name: "Central Falls",
+    state: "Rhode Island",
+    stateSlug: "rhode-island",
+    stateAbbr: "RI",
+    tier: "T3",
+    population: "~21,000",
+    county: "Providence County",
+    climate: "temperate",
+    climateDriver:
+      "Central Falls is Rhode Island's smallest and most densely populated city, a one-square-mile urban community adjacent to Pawtucket in Providence County. The humid continental climate delivers cold winters, warm humid summers, and significant moisture. The dense urban environment with old three-decker residential buildings, mixed commercial use, and a large apartment population creates the conditions for urban pest species: cockroaches, bed bugs, mice, and rats. Proximity to the Blackstone River adds mosquito pressure.",
+    topPests: ["German Cockroaches", "Bed Bugs", "House Mice", "Norway Rats", "Ants"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in multifamily and food service settings",
+        note: "German cockroaches are the primary urban pest in Central Falls's dense multifamily housing stock. The old three-decker residential buildings create interconnected structural environments where infestations spread between units through shared walls and utility chases.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round; no seasonal pattern",
+        note: "Bed bugs are a significant concern in Central Falls's dense multifamily housing. Tenant turnover and shared building infrastructure create pathways for bed bug spread between units. Early identification and building-wide treatment approaches are important in this environment.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round in urban environments; peak fall entry",
+        note: "Mice are a year-round pest in Central Falls's urban core. Dense multifamily housing, old construction with many entry gaps, and proximity to food sources sustain active populations throughout the year.",
+      },
+      {
+        name: "Norway rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round",
+        note: "Norway rats are present in Central Falls's dense urban environment, associated with garbage management issues and the older sewer infrastructure. Exterior bait station programs and proper garbage management are the primary controls.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through October",
+        note: "Odorous house ants are a common nuisance in Central Falls kitchens and bathrooms through spring and summer. The dense urban environment means colonies can be very large and shared across multiple structures.",
+      },
+    ],
+    localHook:
+      "Central Falls is the most densely populated city in Rhode Island, and that density changes what pest management looks like. A cockroach problem in a three-decker is not just your unit. Bed bugs move through shared walls. Mice follow utility chases between apartments. Managing pests effectively in Central Falls requires building-level thinking, not just unit-by-unit treatment.",
+    intro:
+      "Pest control in Central Falls is urban pest management in one of the smallest and most tightly packed cities in New England. German cockroaches are a persistent challenge in the dense multifamily housing. Bed bugs are a documented concern in the old three-decker residential stock. Mice and rats are year-round urban pests supported by the dense environment. Ants are active through spring and summer. The interconnected nature of multifamily buildings here means pest management often requires a whole-building approach to be effective.",
+    sections: [
+      {
+        heading: "Multifamily pest management in Central Falls",
+        body: "Central Falls's housing stock is dominated by the classic New England three-decker, a three-story wood-frame building with one apartment per floor sharing walls, floors, and utility chases. This structure means a cockroach population in one unit has direct access to adjacent units through shared utility penetrations, baseboard gaps, and wall voids. A unit-level treatment that does not address the building-level pathways typically results in reinfestation within weeks. Building-wide treatment programs coordinated between landlords and tenants, with inspection and treatment of all units and the common areas, produce much better long-term results. Tenants who identify pest activity should report it to their landlord promptly so a coordinated approach can begin.",
+      },
+      {
+        heading: "Bed bug protocols in dense housing",
+        body: "Bed bugs in Central Falls's multifamily housing present similar spread dynamics to cockroaches. A single unit treatment that does not account for adjacent unit exposure frequently results in reinfestation. Rhode Island law requires landlords to address pest infestations including bed bugs. Residents who believe they have bed bugs should report it immediately to the property owner in writing. Effective treatment options include heat treatment of the affected unit or chemical treatment with follow-up inspections. Encasing mattresses and box springs in bed bug-proof covers reduces new harborage. The Providence County Health Department is a resource for residents whose landlords do not respond appropriately.",
+      },
+    ],
+    prevention: [
+      "Report cockroach and bed bug sightings to your landlord or property manager immediately and in writing.",
+      "Seal gaps around plumbing, electrical, and utility penetrations in your unit to reduce pest migration from neighboring units.",
+      "Keep food in sealed containers and empty kitchen trash nightly to reduce cockroach attractants.",
+      "Check secondhand furniture for bed bug evidence before bringing it into the home.",
+      "Report exterior rodent evidence to the city or property manager for bait station placement.",
+    ],
+    costNote:
+      "Central Falls building-level cockroach programs run $200 to $500 per building per service. Bed bug treatment for an individual unit runs $300 to $800 depending on method. Rodent programs for multifamily properties are quoted on a building basis.",
+    faqs: [
+      {
+        question: "Who is responsible for pest control in my Central Falls rental?",
+        answer:
+          "Rhode Island landlord-tenant law generally requires landlords to maintain rental properties in a habitable condition, which includes addressing pest infestations. Cockroaches, bed bugs, mice, and rats in a rental unit should be reported to the landlord in writing. If the landlord fails to address the issue, tenants can contact the Rhode Island Department of Health or the city's housing inspectors.",
+      },
+      {
+        question: "Can cockroaches in my neighbor's apartment come into my unit?",
+        answer:
+          "Yes. In a multifamily building, cockroaches travel through shared wall voids, utility chases, and gaps around plumbing. A German cockroach population in one unit of a three-decker can spread to adjacent units if not addressed comprehensively. Building-wide treatment coordinated with the landlord is the most effective approach.",
+      },
+      {
+        question: "What are the signs of bed bugs in a Central Falls apartment?",
+        answer:
+          "The most reliable sign is waking up with a cluster of small red bites on exposed skin, particularly on the arms, neck, and shoulders. Other signs include small rusty blood spots on bed linens, a subtle musty odor in the sleeping area, and the bugs themselves: flat, brown, apple-seed-sized insects that hide in mattress seams, box spring edges, and behind headboards. A professional inspection confirms the presence.",
+      },
+      {
+        question: "Are rats common in Central Falls?",
+        answer:
+          "Norway rats are present in Central Falls, as they are throughout dense New England urban areas. They are associated with improper garbage storage, uncovered composting, and older sewer infrastructure. Exterior rodent bait stations managed by the city or by property owners are the standard management tool. Interior rat activity warrants professional treatment.",
+      },
+      {
+        question: "Is mosquito control possible near the Blackstone River in Central Falls?",
+        answer:
+          "Property-level mosquito management is possible even near the river. Eliminating standing water on the property and applying monthly yard spray to vegetation are both effective at reducing on-property populations. The Blackstone River wetland area produces regional populations that area spraying helps manage but that cannot be fully controlled at the individual property level.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Pawtucket", slug: "pawtucket" },
+      { name: "Providence", slug: "providence" },
+      { name: "Cranston", slug: "cranston" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Central Falls, RI | Cockroaches, Bed Bugs & Mice",
+    metaDescription:
+      "Central Falls RI pest control for German cockroaches, bed bugs, house mice and rats. Providence County dense urban multifamily specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "north-kingstown-ri",
+    name: "North Kingstown",
+    state: "Rhode Island",
+    stateSlug: "rhode-island",
+    stateAbbr: "RI",
+    tier: "T3",
+    population: "~29,000",
+    county: "Washington County",
+    climate: "temperate",
+    climateDriver:
+      "North Kingstown lies along the west shore of Narragansett Bay in Washington County, with a mix of suburban residential areas, the Quonset Business Park on the former Quonset Naval Air Station site, and forested open spaces including the Goddard Memorial State Park. The coastal humid continental climate delivers mild winters moderated by Narragansett Bay, warm humid summers, and abundant moisture. The combination of forested habitat, wetlands, and deer population creates a significant deer tick burden.",
+    topPests: ["Deer Ticks", "Carpenter Ants", "Mosquitoes", "Eastern Subterranean Termites", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November; nymph peak May through July",
+        note: "Rhode Island has one of the highest Lyme disease incidence rates in the nation, and Washington County is in the high-risk zone. North Kingstown's forested residential edges, Goddard Memorial State Park, and deer population create real tick exposure throughout the community.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, peak April through June",
+        note: "Carpenter ants are a significant structural pest in North Kingstown's wood-frame homes, sustained by the forested suburban environment. Swarmers in April signal established colonies nearby.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through October",
+        note: "North Kingstown's coastal wetlands, Narragansett Bay shoreline, and numerous ponds create substantial mosquito breeding habitat. Summer mosquito pressure is a real outdoor quality-of-life factor.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony; swarmers March through May",
+        note: "Termites are endemic in Rhode Island and are present in North Kingstown. The coastal community's older housing stock and moist soil conditions near the bay make annual termite inspection worthwhile.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November aggregation",
+        note: "Stink bugs are an increasing fall nuisance throughout Rhode Island. North Kingstown's suburban homes see aggregations on south-facing walls in September and October.",
+      },
+    ],
+    localHook:
+      "North Kingstown's position on Narragansett Bay gives the community a quality of coastal life that is hard to match in southern New England. It also gives residents a front-row seat to one of the highest Lyme disease risk areas in the country. The forested neighborhoods near Goddard Park, the deer-heavy landscape of rural North Kingstown, and the documented tick populations in Washington County make this a community where tick prevention is not optional for outdoor-active families.",
+    intro:
+      "Pest control in North Kingstown starts with ticks. Rhode Island is among the states with the highest Lyme disease incidence, and Washington County is in the high-risk zone. The forested residential edges and extensive park land in North Kingstown create meaningful tick exposure. Carpenter ants are the primary structural pest in the forested suburban setting. Mosquitoes are active near the bay and wetlands. Termites are present throughout the state. Stink bugs aggregate on homes in fall.",
+    sections: [
+      {
+        heading: "Tick prevention in a coastal Rhode Island community",
+        body: "North Kingstown's landscape is ideal for deer tick (black-legged tick) establishment: forested edges adjacent to residential areas, the Goddard Memorial State Park trail system, suburban deer populations that act as tick hosts, and the moist coastal environment that keeps ticks active from March through November. Rhode Island has documented some of the highest Lyme disease case rates in the nation, and Washington County is consistently in the high-incidence zone. Practical protection for North Kingstown residents includes yard perimeter tick treatment applied in April and September, daily tick checks after outdoor activity in wooded areas, using DEET-based repellent on clothing and skin, and keeping woodpiles and debris away from the home's perimeter which reduces deer and rodent (the primary tick hosts) near the home.",
+      },
+      {
+        heading: "Carpenter ants in North Kingstown's forested neighborhoods",
+        body: "The wooded character of North Kingstown's residential neighborhoods, combined with the moisture from the Narragansett Bay coastal environment, creates excellent conditions for carpenter ant colonies. Carpenter ants prefer to excavate galleries in wood that has been softened by moisture, so areas of the home with past or current moisture issues are the primary inspection targets: framing around windows and doors, sill plates in crawl spaces, and wood in contact with soil. The appearance of winged swarmers inside the home in spring is the most reliable sign that a colony is established in or near the structure. Annual perimeter treatment starting in March prevents most structural infestations.",
+      },
+    ],
+    prevention: [
+      "Apply yard perimeter tick treatment in April and September to reduce black-legged tick populations.",
+      "Perform daily tick checks on all family members after outdoor activity in wooded areas.",
+      "Schedule annual carpenter ant perimeter treatment in March before swarmer season.",
+      "Eliminate standing water on the property weekly to reduce mosquito breeding.",
+      "Seal exterior wall gaps and attic vents before September to reduce stink bug entry.",
+    ],
+    costNote:
+      "Tick yard treatment in North Kingstown runs $100 to $200 per application. Carpenter ant treatment is $150 to $300 per service. Mosquito yard spray costs $90 to $180 per visit. Termite inspection and protection programs run $200 to $550 per year.",
+    faqs: [
+      {
+        question: "Is Lyme disease risk really higher in North Kingstown than in other states?",
+        answer:
+          "Yes. Rhode Island consistently reports Lyme disease case rates among the highest per capita in the nation. The combination of a large deer population, moist forested habitat ideal for ticks, and outdoor recreational culture in communities like North Kingstown contributes to real exposure risk. Deer tick populations in Washington County are well established and active from March through November.",
+      },
+      {
+        question: "What is the best yard treatment to reduce ticks in North Kingstown?",
+        answer:
+          "Barrier spray treatments targeting the lawn perimeter, landscape beds, and the woodland edge where ticks concentrate are the most effective approach. Granular treatments are also used in some programs. Treated applications in April and September, when nymph and adult ticks are most active respectively, provide the best seasonal coverage. Treatment does not eliminate ticks from the broader landscape but significantly reduces populations on the property.",
+      },
+      {
+        question: "Do I need termite protection in North Kingstown?",
+        answer:
+          "Eastern subterranean termites are present throughout Rhode Island including North Kingstown. The coastal moist soil conditions and the older wood-frame housing stock common in many North Kingstown neighborhoods create favorable conditions. Annual inspection is the responsible approach for any wood-frame home in the state.",
+      },
+      {
+        question: "When is the best time to treat for carpenter ants in North Kingstown?",
+        answer:
+          "March is the ideal time to apply exterior perimeter treatment before swarmers appear in April and May. If swarmers are already visible inside the home, a professional inspection is warranted to find the colony location before treatment. Interior swarmer activity means a colony is already in or in the structure.",
+      },
+      {
+        question: "Is the Quonset Business Park area of North Kingstown different for pest management?",
+        answer:
+          "Commercial and industrial properties in the Quonset area have their own pest management considerations: rodents associated with warehouse and logistics operations, flies in food processing areas, and cockroaches in facilities with warm food-adjacent environments. Residential properties in North Kingstown deal with the suburban pest set described above.",
+      },
+    ],
+    author: "Sandra Whitfield, IPM & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Warwick", slug: "warwick" },
+      { name: "Cranston", slug: "cranston" },
+      { name: "Providence", slug: "providence" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in North Kingstown, RI | Deer Ticks, Carpenter Ants & Mosquitoes",
+    metaDescription:
+      "North Kingstown RI pest control for deer ticks, carpenter ants, mosquitoes and termites. Washington County Narragansett Bay specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "coventry-ri",
+    name: "Coventry",
+    state: "Rhode Island",
+    stateSlug: "rhode-island",
+    stateAbbr: "RI",
+    tier: "T3",
+    population: "~35,000",
+    county: "Kent County",
+    climate: "cold-humid",
+    climateDriver: "Coventry is one of Rhode Island's largest geographic municipalities, sitting in central Kent County with extensive wooded terrain, the Tiogue Lake watershed, and Flat River Reservoir. The woodland coverage and abundant standing water create high tick and mosquito pressure, and the suburban-rural character means substantial wildlife pressure year-round.",
+    topPests: ["Deer Ticks", "Mosquitoes", "Carpenter Ants", "Mice", "Stink Bugs"],
+    pestProfile: [
+      { name: "Deer Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March to November", note: "Coventry's extensive wooded lots and Kent County's high Lyme disease rates make ticks a primary health concern; wooded residential lots need proactive management." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Tiogue Lake, Flat River Reservoir, and wetland systems throughout Coventry's forest land create sustained mosquito pressure throughout summer." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "April to October", note: "Coventry's heavy tree cover and widespread older residential construction fuel carpenter ant activity in structures throughout the town." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Wooded surroundings and farmland remnants support field mouse populations that press into Coventry homes each fall." },
+      { name: "Stink Bugs", serviceSlug: "stink-bug-control", activeSeason: "September to November", note: "Brown marmorated stink bugs have become a consistent fall pest across Kent County; Coventry homes with woodland edges see heavy aggregations." },
+    ],
+    localHook: "Coventry is Rhode Island's largest town by area, and its combination of woods, reservoirs, and suburban development creates one of the state's most demanding tick and mosquito environments. Kent County has some of Rhode Island's highest Lyme disease rates, and Coventry's forested character puts a lot of households right at the tick habitat edge.",
+    intro: "Pest control in Coventry is dominated by two seasonal concerns that overlap in a way that keeps residents busy from March through November: ticks and mosquitoes. Rhode Island's Lyme disease rate is among the highest in the country, and Kent County's numbers track that pattern. Coventry's forested lots, reservoirs, and large rural properties place a lot of families in direct contact with tick habitat. Mosquitoes follow the same water systems. Carpenter ants are the year-round structural concern. Mice arrive each fall. Stink bugs layer on top in September.",
+    sections: [
+      {
+        heading: "Tick Management in Coventry's Wooded Neighborhoods",
+        body: "Rhode Island consistently ranks among the top states for Lyme disease incidence, and Coventry's extensive wooded lots, backed by forests and reservoir land, put residents in regular contact with deer tick habitat. Ticks become active in March and remain a threat through November in most years. The key risk zones are the edges where lawn meets leaf litter and brushy undergrowth, and the leaf-litter zones under ornamental plantings close to the house. We apply targeted acaricides to these transition zones in spring and again in late summer, which are the two peak activity windows. The treatment does not eliminate all ticks from the property but reduces exposure significantly in the areas where people spend time."
+      },
+      {
+        heading: "Mosquito Control Around Coventry's Water Systems",
+        body: "Tiogue Lake, Flat River Reservoir, and the wetlands throughout Coventry's conservation land create extensive mosquito breeding habitat. The two species of primary concern are Culex pipiens, which transmits West Nile virus, and Aedes albopictus, the Asian tiger mosquito, which can transmit several viruses and bites aggressively during daylight. Barrier treatments applied to yard vegetation reduce adult populations in living areas. Standing water source treatment, including birdbaths, low spots, and gutters, reduces the breeding population directly. A season-long program combining barrier spray and source management is the most comprehensive approach."
+      },
+      {
+        heading: "Carpenter Ants, Mice, and Fall Stink Bugs",
+        body: "Coventry's tree canopy and older residential neighborhoods together make carpenter ants the dominant structural pest here. They're most active in spring when colonies swarm and satellite galleries expand. Look for frass, winged ant emergence from walls in April or May, and faint rustling from active galleries. Mice follow the fall harvest and cooling temperatures, pressing in through foundation gaps from October onward. Stink bugs aggregate on south-facing walls in September and October, seeking overwintering sites in wall voids. A September perimeter spray addresses stink bugs; a combined exclusion and bait station program handles mice; carpenter ants respond to direct gallery treatment and perimeter barrier application."
+      },
+    ],
+    prevention: [
+      "Treat wooded lawn edges for ticks in April and again in August.",
+      "Eliminate standing water sources weekly during mosquito season.",
+      "Trim tree branches away from rooflines to limit carpenter ant access.",
+      "Seal foundation gaps before October to reduce both mouse and stink bug entry.",
+      "Keep leaf litter away from the foundation and clear brushy ground cover near pathways.",
+    ],
+    costNote: "Pest control visits in Coventry typically run $130 to $310. Tick yard treatment runs $85 to $165 per application; annual programs with two to three treatments run $200 to $450. Mosquito barrier programs run $75 to $140 per treatment. Annual prevention plans covering the full pest calendar run $500 to $800.",
+    faqs: [
+      {
+        question: "How serious is Lyme disease risk in Coventry, RI?",
+        answer: "Rhode Island has one of the highest per-capita Lyme disease rates in the United States, and Kent County follows that pattern. Coventry's wooded character puts a large share of its residents in direct contact with tick habitat. We recommend yard treatment for any property with wooded edges and would consider it essential for families with children or pets who spend time outside."
+      },
+      {
+        question: "What water sources should I treat for mosquitoes in Coventry?",
+        answer: "Any standing water that persists for more than a few days: birdbaths, rain barrels without screens, tarps, clogged gutters, low spots in the lawn, and decorative ponds. Coventry's reservoir proximity means there's always some ambient mosquito population, but reducing breeding sources on your property makes a meaningful difference in what you actually encounter in the yard."
+      },
+      {
+        question: "Are stink bugs in Coventry a structural problem?",
+        answer: "Not directly. They don't damage wood or contaminate food in large numbers. The problem is quantity: a few dozen can become a few thousand inside a wall void over winter, and spring emergence is unpleasant. The stain and odor from crushing them is also a secondary issue. Prevention in September is much easier than dealing with an established overwintering population."
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management Specialist",
+    nearbyCities: [
+      { name: "Warwick", slug: "warwick-ri" },
+      { name: "West Warwick", slug: "west-warwick-ri" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Coventry, RI | Ticks, Mosquitoes & Carpenter Ants",
+    metaDescription: "Pest control in Coventry, Rhode Island for deer ticks, mosquitoes, carpenter ants, mice, and stink bugs. Kent County's high Lyme risk demands proactive tick management. Licensed RI technicians.",
+  },
+  {
+    slug: "south-kingstown-ri",
+    name: "South Kingstown",
+    state: "Rhode Island",
+    stateSlug: "rhode-island",
+    stateAbbr: "RI",
+    tier: "T3",
+    population: "~30,000",
+    county: "Washington County",
+    climate: "cold-humid",
+    climateDriver: "South Kingstown occupies Washington County's coastal and inland zones, from Great Swamp to Narragansett Bay's western shore. The coastal influence moderates temperatures but adds humidity. URI's Narragansett Bay Campus and the Great Swamp Management Area create distinct pest pressure zones, particularly for mosquitoes and ticks.",
+    topPests: ["Deer Ticks", "Mosquitoes", "Carpenter Ants", "Mice", "Wasps"],
+    pestProfile: [
+      { name: "Deer Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March to November", note: "Washington County has one of Rhode Island's highest Lyme disease rates; South Kingstown's Great Swamp and wooded corridors support dense tick populations." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Great Swamp and Worden Pond wetlands feed substantial mosquito populations; coastal humidity extends the active season." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "April to October", note: "South Kingstown's mature trees, coastal moisture, and mix of historic and newer homes make carpenter ants a consistent structural concern." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Coastal fields and woodland surroundings maintain robust mouse populations that enter structures each fall." },
+      { name: "Wasps", serviceSlug: "wasp-bee-removal", activeSeason: "June to October", note: "Yellow jackets and paper wasps nest extensively in South Kingstown's wooded lots and eaves; ground nests in lawn areas are especially common." },
+    ],
+    localHook: "South Kingstown spans from Great Swamp to the Narragansett coast, and that breadth creates diverse pest pressures. Great Swamp is one of Rhode Island's most significant wildlife refuges and one of its most significant mosquito and tick sources. The University of Rhode Island campus adds foot traffic and housing density to a naturally wildlife-rich environment.",
+    intro: "South Kingstown's pest environment is defined by its geography. Great Swamp on the town's western edge is a major natural area and an equally major source of mosquitoes and ticks. Washington County has Rhode Island's highest Lyme disease concentrations. The town's coastal character adds humidity that extends pest seasons and supports carpenter ant populations in older homes. Mice and wasps fill out a pest calendar that runs from March through November without much of a break.",
+    sections: [
+      {
+        heading: "Great Swamp's Tick and Mosquito Pressure",
+        body: "Great Swamp Management Area covers thousands of acres immediately west of South Kingstown's residential neighborhoods. The swamp is excellent wildlife habitat and an excellent tick and mosquito source. Deer ticks are supported by the white-tailed deer and small mammal populations throughout the area. Mosquitoes breed in the swamp margins, seasonal pools, and Worden Pond. Culex mosquitoes from these areas have tested positive for West Nile virus in Rhode Island. Properties within a half-mile of the swamp edge see consistently higher tick and mosquito pressure than properties in the town's eastern neighborhoods. Yard treatment is most impactful for properties with direct woodland or wetland adjacency."
+      },
+      {
+        heading: "Carpenter Ants Along South Kingstown's Coastal Zone",
+        body: "South Kingstown's coastal proximity and mature tree canopy combine to create favorable conditions for carpenter ants. Salt air and coastal storms accelerate wood weathering on exteriors; older shingles, window frames, and soffit boards that have absorbed moisture are particularly attractive. The town's combination of historic homes near Wakefield center, newer construction in Matunuck and Peace Dale, and University of Rhode Island student housing creates a range of structural vulnerability. Carpenter ants are most visible in spring when satellite colonies swarm and when winter-stressed foragers appear at kitchen sills. Treatment involves identifying and treating the satellite gallery, not just the foragers."
+      },
+      {
+        heading: "Yellow Jackets, Mice, and Year-Round Pest Activity",
+        body: "Yellow jackets and paper wasps are a summer and early fall fixture in South Kingstown. Ground nests in lawns are the most disruptive: they go unnoticed until a lawn mower or foot passes over them in August. Eave nests are more visible but equally aggressive when disturbed. We treat both safely and directly. Mice follow the autumn rhythm of harvested fields and cooling nights, entering structures from October onward. The town's wooded lots mean there's always a population reservoir nearby. Exterior exclusion, perimeter bait stations, and interior snap trap placement at confirmed entry points are the standard approach."
+      },
+    ],
+    prevention: [
+      "Treat wooded and swamp-adjacent lawn edges for ticks in April and August.",
+      "Eliminate standing water near the structure; coastal humidity slows evaporation, creating more breeding sites.",
+      "Inspect soffit boards and window frames annually for moisture damage that invites carpenter ants.",
+      "Seal foundation gaps and door sweeps before October for mouse prevention.",
+      "Walk lawn areas in early summer to check for yellow jacket ground nest entrance holes.",
+    ],
+    costNote: "Pest control visits in South Kingstown run $130 to $320. Tick treatment runs $85 to $165 per application; two-treatment season programs are standard. Annual full-calendar prevention plans run $500 to $800. Yellow jacket nest removal runs $150 to $250 per nest.",
+    faqs: [
+      {
+        question: "Does living near Great Swamp significantly increase my tick risk?",
+        answer: "Yes. Proximity to Great Swamp is one of the strongest predictors of tick exposure in Washington County. The swamp supports large deer and small mammal populations, which are the primary hosts that keep tick populations high. Properties with wooded edges within a few hundred yards of the swamp should be considered high-risk for Lyme disease exposure."
+      },
+      {
+        question: "How does coastal humidity affect pest season length in South Kingstown?",
+        answer: "Maritime humidity keeps temperatures above freezing longer in fall than inland Rhode Island. It also prevents the soil desiccation that limits some pest populations. Ticks remain active later into November, cluster flies find more entry opportunities with expanded temperature swings, and carpenter ant colonies stay active in wall voids longer. The season effectively extends by two to three weeks on both ends compared to inland RI communities."
+      },
+      {
+        question: "What is the best mosquito control approach for a property near the swamp?",
+        answer: "A combined approach. Eliminate on-property breeding sources (standing water, clogged gutters) first. Then apply barrier treatments to yard vegetation every three to four weeks from late May through August. Properties with direct swamp adjacency won't fully eliminate mosquitoes with on-property treatment alone, but barrier treatment significantly reduces the number that reach living areas."
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Narragansett", slug: "narragansett-ri" },
+      { name: "Wakefield", slug: "wakefield-ri" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in South Kingstown, RI | Ticks, Mosquitoes & Carpenter Ants",
+    metaDescription: "Pest control in South Kingstown, Rhode Island near Great Swamp. Deer ticks, mosquitoes, carpenter ants, mice, and yellow jackets. Washington County Lyme risk is high. Licensed RI technicians.",
+  },
+  {
+    slug: "johnston-ri",
+    name: "Johnston",
+    state: "Rhode Island",
+    stateSlug: "rhode-island",
+    stateAbbr: "RI",
+    tier: "T3",
+    population: "~29,000",
+    county: "Providence County",
+    climate: "cold-humid",
+    climateDriver: "Johnston is a suburban Providence County town immediately west of the city, with a mix of dense residential neighborhoods and wooded conservation land. The Pocasset River and Simmonsville areas provide wildlife corridors, while Johnston's dense older housing stock creates consistent rodent and structural pest pressure year-round.",
+    topPests: ["Carpenter Ants", "Mice", "Deer Ticks", "Mosquitoes", "Stink Bugs"],
+    pestProfile: [
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "April to October", note: "Johnston's older housing stock and mature tree canopy create widespread carpenter ant pressure; mid-20th-century homes with wood siding are especially vulnerable." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Johnston's suburban-woodland mix sustains strong field mouse populations; older homes with settled foundations see annual fall invasions." },
+      { name: "Deer Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March to November", note: "Providence County's Lyme disease rate is significant; Johnston's wooded conservation parcels and wildlife corridors maintain tick populations." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Pocasset River and low-lying areas throughout Johnston support mosquito breeding; suburban density creates warm micro-climates that extend the season." },
+      { name: "Stink Bugs", serviceSlug: "stink-bug-control", activeSeason: "September to November", note: "Brown marmorated stink bugs swarm Johnston homes each fall, particularly on south and west-facing walls; they overwinter in wall voids and re-emerge in spring." },
+    ],
+    localHook: "Johnston sits directly west of Providence and has been suburban for decades, which means its housing stock is largely mid-20th century and carries the pest vulnerabilities of that era: settled foundations, aging wood, fewer vapor barriers. The town's conservation land and Pocasset River corridor add wildlife and tick pressure that more urban neighborhoods don't see.",
+    intro: "Johnston's pest profile is the classic suburban Rhode Island mix: carpenter ants in older homes, mice every fall, ticks from wooded parcels, mosquitoes along low-lying areas, and stink bugs in September. What makes Johnston worth calling out specifically is the age of its housing stock. Many Johnston homes were built between 1940 and 1975, and that era of construction has particular pest vulnerabilities: older wood, minimal foundation sealing, and in many cases a history of prior infestations that have established pathways. We know these houses.",
+    sections: [
+      {
+        heading: "Carpenter Ants in Johnston's Mid-Century Homes",
+        body: "Johnston has a lot of mid-20th-century residential construction: Cape Cods, ranches, and split-levels with wood siding, older rooflines, and minimal insulation by modern standards. This building stock develops moisture problems at the foundation sill, in bathroom walls, and around chimney flashings. Carpenter ants find that softened wood and excavate galleries that can persist for years before homeowners notice the frass or see the winged swarmers emerge in spring. Early intervention is always simpler. We inspect the full exterior for moisture entry points, locate satellite galleries when accessible, and treat directly. The barrier perimeter treatment extends protection through the active season."
+      },
+      {
+        heading: "Tick Activity in Johnston's Conservation Land",
+        body: "Johnston has significant conservation land, including parcels along the Pocasset River and in the western part of town. These wooded areas are home to the deer and small mammal populations that sustain deer ticks. Properties with backyards that border conservation land or have mature trees with leafy understory have meaningful tick exposure. Providence County's Lyme disease rate has been consistently elevated over the past decade. Tick treatment for Johnston yards with wooded edges is not a precaution; for families with children and pets who spend time outdoors, it's standard care."
+      },
+      {
+        heading: "Mouse Season and Stink Bug Fall",
+        body: "October is the main event in Johnston for both mice and stink bugs. Mice follow the cooling weather from wooded lots into older homes with settled foundation gaps. Stink bugs follow the same temperature signals, looking for overwintering sites in wall voids. The entry points they use often overlap: attic vents, door gaps, foundation cracks, and utility penetrations. A September perimeter treatment disrupts the stink bug aggregation before it begins. A combined exclusion pass and bait station program addresses mice. Treating both in September-October, rather than waiting for evidence indoors, makes winter management far simpler."
+      },
+    ],
+    prevention: [
+      "Inspect foundation sills and exterior wood annually for moisture damage that attracts carpenter ants.",
+      "Treat wooded yard edges for ticks in April and again in August.",
+      "Apply perimeter spray in mid-September for stink bug prevention.",
+      "Seal foundation gaps, door sweeps, and utility penetrations before October.",
+      "Eliminate standing water from gutters, low spots, and yard containers monthly through September.",
+    ],
+    costNote: "Pest control visits in Johnston typically run $120 to $300. Tick yard treatment is $80 to $160 per application; two-treatment programs run $180 to $350. Annual prevention plans covering carpenter ants, mice, ticks, and seasonal insects run $500 to $750 per year.",
+    faqs: [
+      {
+        question: "Why are carpenter ants so common in Johnston, RI?",
+        answer: "A combination of housing age and tree canopy. Johnston's mid-century homes frequently have wood that has absorbed decades of moisture in places that are hard to see, and the town's mature trees provide both nesting material and colony pathways from the yard into the structure. It's a structural issue as much as a pest issue, and treating it well means finding the moisture source, not just the ants."
+      },
+      {
+        question: "Are stink bugs harmful to my Johnston home?",
+        answer: "They won't damage the structure, and they don't bite or sting. The problem is numbers and odor. A few dozen stink bugs entering a wall void in October can become several hundred or more by February. Crushing them releases the pungent odor that gives them their name. Vacuuming manages them mid-winter; prevention in September manages the population before they enter."
+      },
+      {
+        question: "Is Lyme disease a real risk in Johnston?",
+        answer: "Yes. Providence County has documented Lyme disease transmission, and Johnston's conservation parcels and wooded edges provide real tick habitat. The risk isn't as high as coastal Washington County, but it's not negligible. If your yard borders woods or conservation land, or if your children play in wooded areas, tick management is worth the investment."
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management Specialist",
+    nearbyCities: [
+      { name: "Providence", slug: "providence-ri" },
+      { name: "Cranston", slug: "cranston-ri" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Johnston, RI | Carpenter Ants, Mice & Ticks",
+    metaDescription: "Pest control in Johnston, Rhode Island for carpenter ants, mice, deer ticks, mosquitoes, and stink bugs. Mid-century homes in Providence County need seasonal pest prevention. Licensed RI technicians.",
+  },
 ];

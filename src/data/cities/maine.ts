@@ -1184,4 +1184,352 @@ export const maineCities: CityLocation[] = [
     metaDescription:
       "Sanford pest control for brown-tail moth caterpillars, deer ticks, house mice, carpenter ants and yellow jackets. York County inland southern Maine specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "brewer-me",
+    name: "Brewer",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~9,500",
+    county: "Penobscot County",
+    climate: "cold-humid",
+    climateDriver:
+      "Brewer sits on the east bank of the Penobscot River directly across from Bangor, connected by the Penobscot Narrows bridges. The humid continental climate delivers cold, snowy winters and warm humid summers. The river corridor, surrounding forested areas, and the mix of older residential neighborhoods and commercial strip create the conditions for carpenter ants, deer ticks, and seasonal mosquito and fly activity common throughout inland Penobscot County.",
+    topPests: ["Carpenter Ants", "Deer Ticks", "House Mice", "Mosquitoes", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, peak April through June",
+        note: "Carpenter ants are the primary structural pest concern in Brewer and throughout Penobscot County. Maine's forested landscape and the moisture from the Penobscot River corridor create excellent conditions for large established colonies. Annual perimeter treatment is the standard management.",
+      },
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November; nymph peak May through July",
+        note: "Maine has seen a significant expansion of deer tick populations and Lyme disease cases over the past two decades. Penobscot County is in the active tick zone. Brewer's proximity to forested areas and the Penobscot River corridor creates real tick exposure.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through November primary entry; year-round in older structures",
+        note: "Maine's cold winters create strong pressure for mice to move into heated buildings. Brewer's older residential housing stock and riverside location near wildlife corridors generate consistent fall mouse pressure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Penobscot River floodplain and wetlands adjacent to Brewer create mosquito breeding habitat that sustains summer populations. The river corridor is a noted mosquito source for both Brewer and Bangor.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through November entry; emerge February through April",
+        note: "Cluster flies are a common fall pest in Maine's residential communities adjacent to agricultural or open land. They enter attics and wall voids seeking overwintering shelter and emerge as a nuisance in late winter and spring.",
+      },
+    ],
+    localHook:
+      "In Brewer, as in most of inland Maine, carpenter ants are the pest that defines spring. When swarmers start showing up on windows in April, the pest control phones ring. The Penobscot Valley's forested setting means the colonies can be large and well established by the time homeowners see the first sign. Treating annually is the difference between management and damage.",
+    intro:
+      "Pest control in Brewer centers on the pest challenges common to inland Maine. Carpenter ants are the most important structural pest concern in this Penobscot County community. Deer ticks are an increasingly real Lyme disease risk as tick populations continue expanding northward in Maine. House mice are a consistent fall concern in the older housing stock and river-adjacent neighborhoods. Mosquitoes are sustained by the Penobscot River wetlands. Cluster flies are a familiar late-fall nuisance.",
+    sections: [
+      {
+        heading: "Carpenter ants and Maine's annual spring arrival",
+        body: "Carpenter ants are, without question, the pest that defines spring in central Maine communities like Brewer. Every April, the winged swarmers emerge from established colonies and begin appearing on windows, in light fixtures, and on the exterior of homes. Finding swarmers inside the home is a clear sign that a colony is already in or very near the structure, because swarmers emerge from wherever the colony is located. In the Penobscot Valley, colonies can be substantial because the forested environment and the moisture from the river corridor provide everything carpenter ants need. Annual treatment starting in March creates a barrier before the swarmer season. Inspection of any wood with past moisture damage, particularly sill plates in crawl spaces and framing around windows, identifies the highest-risk areas.",
+      },
+      {
+        heading: "Ticks and Lyme disease in Maine: the changing landscape",
+        body: "Maine's deer tick population has expanded significantly over the past two decades, and Penobscot County has seen a corresponding increase in Lyme disease cases. Brewer's proximity to the Penobscot River corridor, the surrounding forests, and the deer that use those habitats as travel routes creates real tick exposure. The nymph stage of the deer tick, active from May through July, is the highest-risk period because nymphs are extremely small and often go unnoticed. Practical protection includes yard perimeter tick treatment applied in April and September, daily checks after outdoor time in wooded or brushy areas, and DEET-based repellent on clothing when working in the yard or hiking nearby trails.",
+      },
+    ],
+    prevention: [
+      "Schedule annual carpenter ant perimeter treatment in March before swarmer season.",
+      "Repair any moisture damage in crawl spaces and around windows to remove carpenter ant preferred sites.",
+      "Apply yard tick treatment in April and September and check for ticks after outdoor activity.",
+      "Seal attic vents with fine-mesh screen before September to prevent cluster fly entry.",
+      "Seal foundation gaps before October to block the fall mouse push.",
+    ],
+    costNote:
+      "Brewer carpenter ant treatment runs $140 to $300 per service. Tick yard treatment is $90 to $180 per application. General pest plans for mice, spiders, and general pests run $150 to $270 per year.",
+    faqs: [
+      {
+        question: "How do I know if the winged ants I found in my Brewer home are carpenter ants?",
+        answer:
+          "Carpenter ant swarmers are large, typically half an inch to an inch long. They have a noticeable constriction (waist) between the thorax and abdomen and elbowed antennae. If you find large winged ants inside in spring, particularly in numbers, they are almost certainly carpenter ants. Finding them inside rather than on the exterior means the colony is in or adjacent to the structure.",
+      },
+      {
+        question: "Is Lyme disease common in Penobscot County?",
+        answer:
+          "Lyme disease cases have increased significantly in Maine over the past decade as deer tick populations have expanded northward. Penobscot County is now in the active-risk zone. The Maine Center for Disease Control and Prevention tracks Lyme disease cases statewide. Residents in tick habitat should take prevention seriously.",
+      },
+      {
+        question: "What do cluster flies look like and why do they come into my Brewer home?",
+        answer:
+          "Cluster flies look similar to house flies but are slightly larger and have a golden or yellowish tinge to their thorax. They breed in earthworm populations in agricultural and open land soils through summer. In fall, they seek warm overwintering sites and gather on sunny building surfaces before entering through gaps into attics and wall voids. They are entirely harmless but the numbers can be significant.",
+      },
+      {
+        question: "Why are mice worse in Brewer near the river?",
+        answer:
+          "River corridors are year-round wildlife travel routes, and the Penobscot River floodplain supports large mouse populations in the vegetation and debris along the banks. Homes near the river have these established populations as nearby source pressure, rather than relying only on field and yard populations. The fall transition to colder temperatures pushes mice from this corridor toward heated structures.",
+      },
+      {
+        question: "Do I need mosquito control even in inland Maine?",
+        answer:
+          "Yes. The Penobscot River wetlands create mosquito breeding habitat that affects both Brewer and Bangor significantly in summer. Properties near the river or low-lying areas with poor drainage see the most pressure. Monthly yard spray from May through August reduces on-property populations measurably.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Bangor", slug: "bangor" },
+      { name: "Old Town", slug: "old-town-me" },
+      { name: "Waterville", slug: "waterville-me" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Brewer, ME | Carpenter Ants, Deer Ticks & Mice",
+    metaDescription:
+      "Brewer ME pest control for carpenter ants, deer ticks, house mice and mosquitoes. Penobscot County inland Maine specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "old-town-me",
+    name: "Old Town",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~8,000",
+    county: "Penobscot County",
+    climate: "cold-humid",
+    climateDriver:
+      "Old Town sits on the Penobscot River above Bangor in Penobscot County, adjacent to the University of Maine (located in Orono). The humid continental climate delivers long cold winters with heavy snow, warm humid summers, and the river moisture that sustains high insect and tick populations. The surrounding forest, the Penobscot River island habitat, and the university land create a forested suburban environment where carpenter ants and deer ticks are the primary structural and health pest concerns.",
+    topPests: ["Carpenter Ants", "Deer Ticks", "House Mice", "Mosquitoes", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Carpenter ants are the dominant structural pest in Old Town and the broader Penobscot Valley. The forested river corridor and the mix of older residential and university-adjacent housing create ideal colony conditions. Swarmers in April and May are the annual signal.",
+      },
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November; nymph peak May through July",
+        note: "Deer tick populations have expanded into Penobscot County as part of Maine's statewide northward tick range extension. Old Town's forested setting and wildlife activity create meaningful tick exposure for residents and outdoor enthusiasts.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through November entry; year-round in older structures",
+        note: "Old Town's old residential housing stock and proximity to the Penobscot River wildlife corridor make fall mouse pressure consistent. University rental properties see high turnover and frequent mouse issues.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Penobscot River islands and wetlands adjacent to Old Town produce significant mosquito populations in summer. The river corridor is a major mosquito source for the entire area.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note: "Stink bugs have expanded into Maine in recent years and are an increasing fall nuisance in Old Town as they are throughout the state. They aggregate on exterior walls in September and October.",
+      },
+    ],
+    localHook:
+      "Old Town is known for canoe building and for being the gateway to the Penobscot River valley. What the longtime residents also know is that the same forested river corridor that makes this part of Maine beautiful also makes it carpenter ant and tick country in a very real way. University of Maine forestry students learn the pest ecology in the field here. The rest of the community learns it in their homes.",
+    intro:
+      "Pest control in Old Town focuses on the pest challenges defined by the Penobscot River corridor and the surrounding forest. Carpenter ants are the primary structural concern in this forested community. Deer ticks are a growing Lyme disease risk as Maine's tick populations expand. House mice are a consistent fall management priority, particularly in the older residential housing near the river. Mosquitoes are active through summer. Stink bugs are an increasingly familiar fall nuisance.",
+    sections: [
+      {
+        heading: "Carpenter ants in Old Town: the Penobscot Valley pattern",
+        body: "The Penobscot River valley from Bangor through Old Town to Lincoln has some of the most consistently high carpenter ant activity in Maine. The river moisture, the forested slopes, and the mix of older and newer residential housing create ideal conditions. Old Town's older neighborhoods near the river, in particular, see established and often very large carpenter ant colonies that have had years or decades to develop in the wood-frame construction. Annual perimeter treatment prevents new colony establishment at the structure. When swarmers appear inside in April, an inspection and targeted treatment is warranted because that colony is already in the structure.",
+      },
+      {
+        heading: "Stink bugs arriving in Maine",
+        body: "Brown marmorated stink bugs are a relatively new pest in Maine, having arrived in the state in the past decade after spreading northward from the Mid-Atlantic region where they established in the early 2000s. In Old Town, they are now a familiar fall nuisance, aggregating on the south-facing walls of homes in September and October before working through gaps into wall voids and attic spaces. They are a harmless but genuinely annoying overwintering pest: they do not reproduce inside, they do not damage the structure, but they emerge on warm winter days and accumulate on windows and in living spaces. Sealing the gaps they enter through is the most effective intervention.",
+      },
+    ],
+    prevention: [
+      "Apply carpenter ant perimeter treatment annually in March before swarmer season.",
+      "Perform daily tick checks after outdoor activity in wooded areas and use DEET on exposed skin.",
+      "Seal attic and wall entry points in August to prevent stink bug fall invasion.",
+      "Seal foundation and door gaps before October to block the fall mouse push.",
+      "Eliminate standing water weekly near the river to reduce mosquito breeding on the property.",
+    ],
+    costNote:
+      "Old Town carpenter ant treatment runs $140 to $280 per service. Tick yard treatment is $90 to $170 per application. General pest plans run $140 to $260 per year.",
+    faqs: [
+      {
+        question: "Is Old Town in a high-risk zone for Lyme disease?",
+        answer:
+          "Penobscot County has seen increasing Lyme disease cases as deer tick populations have expanded northward into Maine over the past two decades. Old Town's forested and river corridor setting places residents in contact with tick habitat regularly. The Maine CDC publishes annual Lyme disease data by county and is a useful reference.",
+      },
+      {
+        question: "My Old Town home near the university is a rental. Are pest issues different for rental properties?",
+        answer:
+          "Rental properties, particularly those with high tenant turnover, tend to see higher mice and cockroach activity than owner-occupied homes due to gaps in sanitation practices and deferred maintenance. Maine landlords have pest control obligations under state law. University-adjacent rentals in Old Town benefit from a clear pest management protocol between tenant and landlord from move-in.",
+      },
+      {
+        question: "Are stink bugs new in Old Town or have they been here for years?",
+        answer:
+          "Brown marmorated stink bugs are a relatively recent arrival in Maine, having spread northward from the Mid-Atlantic states. They have been documented in Maine for a decade but are becoming more common in communities like Old Town as the population expands. Their numbers vary significantly year to year depending on summer conditions.",
+      },
+      {
+        question: "How do I prevent carpenter ants from getting into my Old Town home?",
+        answer:
+          "Annual perimeter treatment applied in March creates a contact and residual barrier before the spring swarmer season. Addressing moisture damage in the structure removes the preferred wood condition that carpenter ants excavate first. Keeping wood piles away from the home exterior and trimming tree branches that contact the roof eliminate physical bridges from forested areas to the structure.",
+      },
+      {
+        question: "Is mosquito treatment worth it near the Penobscot River?",
+        answer:
+          "Yes. The river wetlands produce substantial mosquito populations that cannot be fully managed at the property level, but yard perimeter spray to vegetation significantly reduces on-property populations. For properties that use their yards regularly in summer, a monthly treatment program from May through August makes evenings outdoors noticeably more comfortable.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Bangor", slug: "bangor" },
+      { name: "Brewer", slug: "brewer-me" },
+      { name: "Waterville", slug: "waterville-me" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Old Town, ME | Carpenter Ants, Deer Ticks & Mice",
+    metaDescription:
+      "Old Town ME pest control for carpenter ants, deer ticks, house mice and mosquitoes. Penobscot County University of Maine area specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "bath-me",
+    name: "Bath",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~8,000",
+    county: "Sagadahoc County",
+    climate: "cold-humid",
+    climateDriver: "Bath sits on the Kennebec River in mid-coast Maine at near sea level, where maritime influence keeps winters milder than inland Maine but summers humid enough to support mosquitoes and ticks. The Kennebec estuary and Merrymeeting Bay wetlands nearby make Bath a notable mosquito corridor.",
+    topPests: ["Mice", "Carpenter Ants", "Deer Ticks", "Mosquitoes", "Silverfish"],
+    pestProfile: [
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Bath's older housing stock and maritime humidity create ideal mouse conditions; older homes near the waterfront often have foundation settling that creates entry points." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "April to October", note: "Marine moisture and Bath's historic ship-era buildings make carpenter ants one of the most persistent structural pests in the city." },
+      { name: "Deer Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March to November", note: "Sagadahoc County has significant Lyme disease activity; Bath's woodland margins and coastal shrubs support high tick populations." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Merrymeeting Bay and the Kennebec estuary create extensive mosquito breeding habitat immediately adjacent to Bath; peak pressure runs June through August." },
+      { name: "Silverfish", serviceSlug: "silverfish-control", activeSeason: "year-round", note: "Bath's humidity and older buildings with paper-based insulation create excellent silverfish conditions; they're common in bathrooms, basements, and old book collections." },
+    ],
+    localHook: "Bath is Maine's historic shipbuilding city, and its character comes through in the building stock: old, dense, sometimes damp, and close to tidal water. That combination produces a pest profile dominated by moisture-driven pests, from carpenter ants in 19th-century timbers to silverfish in basement archives.",
+    intro: "Pest control in Bath is shaped by the Kennebec River and a century of shipbuilding history. The old buildings near downtown, many with balloon-frame construction and minimal original insulation, give mice, carpenter ants, and silverfish exactly the environment they want. Merrymeeting Bay wetlands push mosquito populations higher than you'd expect for a city this size. And ticks are a year-round concern for anyone using Bath's woodland trails or keeping a garden near the wooded edges of Sagadahoc County.",
+    sections: [
+      {
+        heading: "Carpenter Ants in Bath's Historic Buildings",
+        body: "Marine air, river humidity, and century-old wood framing are a perfect combination for carpenter ants. They excavate galleries in wood that has been softened by moisture, and Bath's older structures frequently have areas where water has penetrated over decades: around chimney flashings, behind siding that has settled, in porch timbers, and in window headers. The ants aren't eating the wood; they're hollowing it out for galleries. Left untreated, they can cause significant structural weakening. Signs include coarse sawdust frass, winged ants emerging from gaps in spring, and faint rustling from active galleries. Treatment involves locating and addressing the satellite gallery directly, not just spraying the foragers."
+      },
+      {
+        heading: "Tick and Mosquito Pressure from Merrymeeting Bay",
+        body: "Merrymeeting Bay, the confluence of six rivers including the Kennebec, creates one of Maine's significant wetland complexes immediately southwest of Bath. That means mosquito populations are genuinely elevated here compared to inland communities. Culex and Aedes mosquitoes both breed in the bay's margins and adjacent marshes, and both the Eastern Equine Encephalitis and West Nile viruses have been detected in Maine's mosquito populations. Deer ticks are present throughout Bath's wooded margins and established along the Kennebec River trail system. Sagadahoc County's Lyme disease rate is high enough that proactive tick management for yards with wooded edges is worth the investment."
+      },
+      {
+        heading: "Mice and Silverfish in Bath's Older Homes",
+        body: "Mice in Bath are a fall certainty in most older homes. The combination of aging foundations with settled sills and the region's agricultural and woodland surroundings creates consistent annual pressure. Entry points are usually easy to find with a methodical exterior inspection: look at where utilities enter the foundation, check garage door seals, and probe crawl space vent screens. Silverfish are a quiet year-round problem in many Bath homes. They feed on starch, glue, and cellulose and thrive in high-humidity environments. Bathrooms, basements, and rooms with older books or paper archives are typical hotspots. Dehumidification combined with targeted crack and crevice treatment is the most effective approach."
+      },
+    ],
+    prevention: [
+      "Inspect roof flashings and window headers annually for moisture penetration that attracts carpenter ants.",
+      "Apply tick treatment to lawn-woodland transitions in April and again in late August.",
+      "Seal foundation sill gaps with copper mesh and caulk before October's mouse migration.",
+      "Run a dehumidifier in the basement to reduce the moisture that supports silverfish.",
+      "Empty and treat standing water sources near the yard before June mosquito season peaks.",
+    ],
+    costNote: "Pest control visits in Bath typically run $130 to $300. Tick yard treatment runs $85 to $155 per application; two-application programs are the standard. Annual prevention plans covering mice, carpenter ants, and seasonal insects run $450 to $700. Silverfish treatment, which often includes a follow-up, runs $175 to $350.",
+    faqs: [
+      {
+        question: "Are mosquitoes near Merrymeeting Bay a health risk?",
+        answer: "Yes, the risk is real. Both West Nile virus and Eastern Equine Encephalitis have been detected in Maine's mosquito populations, and the Bay's wetlands create high breeding density. EEE is rare but serious. We recommend barrier treatment for yards near the water and personal protection habits during peak hours (dusk to dawn) from June through August."
+      },
+      {
+        question: "My Bath home is over 100 years old. Should I have it inspected for carpenter ants?",
+        answer: "Almost certainly yes. Homes of that age in a marine climate frequently have compromised wood in at least one location, whether from chimney settling, old siding, or ground contact framing. Carpenter ants seek those areas out. An inspection is inexpensive and preventive; a major structural gallery left untreated for years is not."
+      },
+      {
+        question: "Why do I have silverfish in my basement?",
+        answer: "Silverfish need two things: humidity and starch. Bath's marine climate provides the humidity; cardboard boxes, old books, and paper insulation provide the starch. They're not dangerous, but they damage books, wallpaper, and stored papers. Dehumidification addresses the root cause; treatment addresses the existing population."
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management Specialist",
+    nearbyCities: [
+      { name: "Brunswick", slug: "brunswick-me" },
+      { name: "Augusta", slug: "augusta-me" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Bath, ME | Mice, Ticks & Carpenter Ants",
+    metaDescription: "Pest control in Bath, Maine covering mice, carpenter ants, deer ticks, mosquitoes, and silverfish. Historic Kennebec River city needs moisture-aware pest management. Licensed Sagadahoc County technicians.",
+  },
+  {
+    slug: "caribou-me",
+    name: "Caribou",
+    state: "Maine",
+    stateSlug: "maine",
+    stateAbbr: "ME",
+    tier: "T3",
+    population: "~7,500",
+    county: "Aroostook County",
+    climate: "cold",
+    climateDriver: "Caribou is one of the coldest cities in the continental United States, sitting in far northern Aroostook County at about 600 feet with long, frigid winters, short cool summers, and proximity to the Canadian border that amplifies cold air intrusions. The agricultural landscape, dominated by potato farms, creates specific seasonal pest dynamics.",
+    topPests: ["Mice", "Voles", "Carpenter Ants", "Earwigs", "Cluster Flies"],
+    pestProfile: [
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "September to May", note: "Caribou's severe winters create extreme mouse pressure; the city's agricultural surroundings and cold winters mean almost every structure deals with mouse intrusion from September through May." },
+      { name: "Voles", serviceSlug: "wildlife-removal", activeSeason: "spring and fall", note: "Meadow voles are extremely common in Aroostook County's agricultural landscape and tunnel extensively under snow throughout winter." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "May to September", note: "Aroostook County's boreal forest provides large carpenter ant populations; older Caribou homes with moisture-damaged wood are frequent targets." },
+      { name: "Earwigs", serviceSlug: "earwig-control", activeSeason: "June to September", note: "Earwigs thrive in Caribou's garden soils and agricultural surroundings; they enter homes through foundation gaps and are especially common in basement-level spaces." },
+      { name: "Cluster Flies", serviceSlug: "fly-control", activeSeason: "September to October", note: "Cluster flies are a fall fixture in Caribou's older farm homes and multi-unit buildings, overwintering in wall voids and emerging on warm winter days." },
+    ],
+    localHook: "Caribou is one of New England's coldest cities, and that extreme cold shapes everything about local pest behavior. Mice press in harder and earlier than anywhere else in Maine. Cluster flies fill older walls every fall. The short but productive summer brings earwigs and carpenter ants. This is pest control at the northern edge of the country.",
+    intro: "Pest control in Caribou starts with the cold. Aroostook County winters are longer and harder than anywhere else in Maine, which means the pressure on structures from mice and voles starts in September and doesn't ease until May. The potato-farming landscape surrounding the city maintains high rodent populations in the fields; those fields empty each fall and the animals go somewhere. Carpenter ants work the short summers. Cluster flies move into wall voids every September. Earwigs come in from gardens through basement gaps. It's a tight seasonal schedule, and every cycle is driven by Caribou's position at the northern edge of the United States.",
+    sections: [
+      {
+        heading: "Mouse and Vole Pressure in Aroostook County",
+        body: "The combination of Aroostook County's agricultural fields and subarctic winters makes Caribou one of the most mouse-pressured cities in Maine. Mice begin probing foundations in early September, well before temperatures feel extreme to people. They follow heat gradients along foundation sills, utility conduits, and crawl space vents. Once inside, they breed fast and establish pathways quickly. Voles work differently: they stay mostly outdoors but tunnel under snow throughout winter, damaging lawn roots, bulbs, and garden borders. Spring snowmelt reveals the damage, but the active vole population is already planning for next season. We treat both: mouse exclusion and interior trapping for structures, perimeter bait stations for vole control around garden and lawn edges."
+      },
+      {
+        heading: "Carpenter Ants and Cluster Flies in Older Homes",
+        body: "Aroostook County's boreal forest supplies the species diversity for carpenter ants, and Caribou's older building stock, including many farm-era homes built in the early 1900s, supplies the habitat. Moisture from ice dam leaks, settled porch timbers, and inadequate vapor barriers in crawl spaces is the primary driver. Carpenter ants satellite-nest in the wet wood and work outward. Cluster flies are a related but separate annual event. Starting in late August, they search for overwintering sites in wall voids and attics. By October they may be present in the hundreds inside older walls. On warm winter days they emerge at windows. Fall spray and exclusion sealing is the preventive approach; vacuum removal and interior treatment address existing infestations."
+      },
+      {
+        heading: "Earwigs and Summer Pest Season",
+        body: "Caribou's short, productive summer brings earwigs out of garden soil and into structures through foundation gaps, particularly at basement level. Earwigs are moisture-seeking insects that feed on plant matter and are generally nuisance rather than destructive pests, but large numbers entering through a crawl space can indicate moisture and entry problems that matter for rodents as well. We treat foundation perimeters in early summer and seal the gaps that earwigs and later-season mice both exploit. The same exclusion pass that handles earwigs in June reduces fall mouse entry in October."
+      },
+    ],
+    prevention: [
+      "Seal all foundation gaps and utility penetrations before September in Caribou.",
+      "Install heavy-duty door sweeps on all exterior doors, including garage and basement access.",
+      "Treat lawn and garden perimeters for voles in April before snow covers damage.",
+      "Apply fall perimeter spray in late August to intercept cluster flies.",
+      "Check crawl space vapor barriers and drainage annually to prevent carpenter ant habitat.",
+    ],
+    costNote: "Pest control in Caribou typically runs $120 to $280. Winter rodent prevention is critical here and annual programs run $350 to $550. Cluster fly programs, including fall spray and attic treatment, run $200 to $380. Emergency mouse exclusion calls in winter run $150 to $300 including sealing.",
+    faqs: [
+      {
+        question: "When does mouse season start in Caribou?",
+        answer: "Earlier than most people expect. Mice in Aroostook County start moving toward structures in September, not November. By the time you feel cold enough to close up the house, they're already testing your exterior. A prevention visit in early September, before their migration peaks, is the single most effective thing you can do."
+      },
+      {
+        question: "Is vole damage in Caribou gardens reversible?",
+        answer: "Lawn damage from voles, meaning dead grass patches in runway patterns, usually recovers once the voles are controlled and the growing season begins. Damaged bulbs won't recover if they've been eaten, and damaged tree roots can take seasons to show the full effect. Early spring treatment limits the accumulated damage."
+      },
+      {
+        question: "Why do I see flies at my windows in January in Caribou?",
+        answer: "Cluster flies. They entered your wall voids and attic in September and are overwintering there. On warmer days, they navigate toward light. They're sluggish and won't breed indoors, but the quantity can be disturbing. Prevention in fall is the solution; vacuum collection handles mid-winter emergence."
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Presque Isle", slug: "presque-isle-me" },
+      { name: "Houlton", slug: "houlton-me" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Caribou, ME | Mice, Voles & Cluster Flies",
+    metaDescription: "Pest control in Caribou, Maine handling mice, voles, carpenter ants, earwigs, and cluster flies. Northern Aroostook County's harsh winters demand early prevention. Licensed Maine technicians.",
+  },
 ];

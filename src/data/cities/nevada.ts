@@ -1039,4 +1039,325 @@ export const nevadaCities: CityLocation[] = [
     metaDescription:
       "Boulder City pest control for Arizona bark scorpions, black widow spiders, mosquitoes, ants and cockroaches. Clark County Lake Mead Hoover Dam southern Nevada specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "pahrump-nv",
+    name: "Pahrump",
+    state: "Nevada",
+    stateSlug: "nevada",
+    stateAbbr: "NV",
+    tier: "T3",
+    population: "~36,000",
+    county: "Nye County",
+    climate: "desert",
+    climateDriver:
+      "Pahrump lies in the Pahrump Valley in Nye County at about 2,700 feet, on the Nevada side of the Spring Mountains at the northern Mojave Desert edge. The climate is hot-arid desert: summers regularly exceed 105 degrees F, winters are mild, and annual rainfall is under six inches. These extreme conditions concentrate pest activity during the cooler hours of morning and evening in summer and make the bark scorpion, the most medically significant scorpion species in North America, a genuine year-round concern.",
+    topPests: ["Bark Scorpions", "Black Widow Spiders", "Cockroaches", "Desert Ants", "Pack Rats"],
+    pestProfile: [
+      {
+        name: "Bark scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Year-round; most active at night April through October",
+        note: "Centruroides sculpturatus, the bark scorpion, is well established in the Mojave Desert region including Pahrump. Bark scorpions climb walls and ceilings, can enter through very small gaps, and are found inside homes throughout the year. Their sting is the most medically significant of any North American scorpion species.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Year-round; active throughout warm months",
+        note: "Black widows are extremely common in Pahrump's desert conditions. Garages, outbuildings, firewood piles, and undisturbed corners inside structures all harbor populations. The low humidity and warm temperatures allow large populations to establish.",
+      },
+      {
+        name: "American and German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in structures; most active in summer heat",
+        note: "American cockroaches are a significant pest in Pahrump's commercial buildings, casinos, and older residential structures. German cockroaches infest kitchens and food service areas. The heat drives cockroaches into conditioned spaces.",
+      },
+      {
+        name: "Harvester and odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "February through November",
+        note: "Red harvester ants are visible in Pahrump's desert landscaping and invade when foraging routes cross residential areas. Odorous house ants infest interiors of homes and commercial buildings through summer.",
+      },
+      {
+        name: "Pack rats (woodrats)",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round",
+        note: "Neotoma species woodrats, commonly called pack rats, are a significant pest in Pahrump's desert residential areas. They build large stick nests in vehicle engine compartments, under structures, and in outbuildings, causing wiring damage and creating fire risks.",
+      },
+    ],
+    localHook:
+      "In Pahrump, the scorpion conversation is not hypothetical. Homeowners here check their shoes before putting them on, shake out towels, and use blacklights at night. These are not paranoid behaviors. They are adaptations to living in bark scorpion habitat. The people who have been in Pahrump for years do not think twice about it. The people who just moved here from Las Vegas sometimes get a sharp reminder in the first summer.",
+    intro:
+      "Pest control in Pahrump is desert pest control, which means bark scorpions are always on the list. The Mojave Desert edge conditions that make Pahrump an attractive retirement and bedroom community also make it prime scorpion territory. Black widows are ubiquitous in the dry conditions. Cockroaches infest the commercial and casino sector as well as older homes. Ants are active from late winter through fall. Pack rats are a year-round structural and vehicle damage concern.",
+    sections: [
+      {
+        heading: "Bark scorpion management in desert homes",
+        body: "Centruroides sculpturatus is not like other scorpions. It climbs vertical surfaces including drywall and ceiling joists, which means scorpions are found in unexpected places indoors: in beds, in shoes left on the floor, inside clothing, and on ceiling surfaces at night. In Pahrump, monthly perimeter treatment during the active season is the standard protocol for properties that want to maintain low scorpion populations. Sealing entry points including weep holes in brick, gaps around plumbing, and expansion joints in the foundation blocks the primary entry routes. UV blacklights used at night allow residents to see scorpions before contact.",
+      },
+      {
+        heading: "Pack rat damage in Pahrump",
+        body: "Pack rats are one of the most damaging pests in Pahrump that residents often underestimate. They build nests of sticks, cacti, and debris in any sheltered location: under parked vehicles, in engine compartments, inside storage buildings, and under manufactured homes. Pack rats chew vehicle wiring insulation, which causes electrical failures and fire risks. A vehicle parked outside for more than a few days near an active pack rat territory may acquire a nest in the engine bay. Exclusion of harborage sites under structures and trapping programs are the most effective approaches, as toxicants are not effective against pack rats and are not recommended near homes with pets.",
+      },
+    ],
+    prevention: [
+      "Apply monthly scorpion perimeter treatment April through October; continue every six to eight weeks in mild months.",
+      "Seal weep holes, expansion joints, and gaps around all plumbing and electrical penetrations.",
+      "Use UV blacklight flashlights to check for scorpions at night before reaching into dark areas.",
+      "Remove pack rat harborage sites: brush piles, debris, and undisturbed stored materials near structures.",
+      "Install copper mesh or steel wool in vehicle engine bays to deter pack rat nesting when parked long-term.",
+    ],
+    costNote:
+      "Monthly scorpion perimeter treatment in Pahrump runs $85 to $175 per visit. Quarterly general pest plans for black widows, ants, and cockroaches cost $150 to $300 per year. Pack rat trapping programs run $200 to $450.",
+    faqs: [
+      {
+        question: "How dangerous are bark scorpion stings in Pahrump?",
+        answer:
+          "Bark scorpion stings are medically significant. The venom causes immediate sharp pain followed by tingling, numbness, and burning that can persist for hours to days. In healthy adults, symptoms are usually manageable, but children, elderly individuals, and people with immune or respiratory conditions can have more serious reactions. Arizona Poison and Drug Information recommends calling Poison Control (1-800-222-1222) after any sting. In severe cases, antivenom is available at hospitals.",
+      },
+      {
+        question: "Can pack rats really cause vehicle fires in Pahrump?",
+        answer:
+          "Yes, this is documented. Pack rats shred insulation from vehicle wiring to use as nesting material, exposing bare wire that can arc against metal components. Several vehicle fires in Nevada each year are attributed to pack rat nesting activity in engine compartments. Vehicles parked outdoors for extended periods in areas with active pack rat populations are at risk.",
+      },
+      {
+        question: "What is the best blacklight for finding scorpions in Pahrump?",
+        answer:
+          "Any UV blacklight flashlight in the 365 to 385 nanometer wavelength range will cause scorpions to fluoresce bright green at night. Inexpensive UV flashlights from hardware or sporting goods stores work effectively. Walk the perimeter of the home and interior rooms at night monthly to locate scorpions before they are encountered by accident.",
+      },
+      {
+        question: "Are cockroaches only a problem in the commercial areas of Pahrump?",
+        answer:
+          "No. Both German and American cockroaches infest residential properties in Pahrump. American cockroaches prefer warm, moist areas: utility areas, garages, and slab voids under older homes. German cockroaches are found in kitchens and bathrooms. The summer heat and warm winter temperatures compared to northern Nevada make Pahrump favorable for year-round cockroach activity.",
+      },
+      {
+        question: "Do I need pest control year-round in Pahrump?",
+        answer:
+          "Yes. The mild winters here do not bring the cold that suppresses pest populations in northern Nevada communities. Scorpions, black widows, cockroaches, and ants are all active to varying degrees throughout the year. Monthly perimeter treatment is the standard protocol for scorpion management, with a brief reduction in frequency during the coldest months if desired.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Las Vegas", slug: "las-vegas" },
+      { name: "Henderson", slug: "henderson" },
+      { name: "Boulder City", slug: "boulder-city" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Pahrump, NV | Bark Scorpions, Black Widows & Pack Rats",
+    metaDescription:
+      "Pahrump NV pest control for bark scorpions, black widow spiders, cockroaches and pack rats. Mojave Desert edge Nye County specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "winnemucca-nv",
+    name: "Winnemucca",
+    state: "Nevada",
+    stateSlug: "nevada",
+    stateAbbr: "NV",
+    tier: "T3",
+    population: "~8,000",
+    county: "Humboldt County",
+    climate: "semi-arid",
+    climateDriver:
+      "Winnemucca sits at 4,300 feet in the Humboldt River Valley in Humboldt County, a mining and ranching hub in the Great Basin Desert of north-central Nevada. The high desert climate delivers cold winters with occasional snow, hot and dry summers, and persistent wind. The isolation of this community and the surrounding ranching and mining landscape shape a pest profile focused on rodents, spiders, and arid-adapted insects.",
+    topPests: ["House Mice", "Black Widow Spiders", "Ants", "Crickets", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "House mice and deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round near ranching and agricultural operations; fall entry to structures",
+        note: "Mice are the most consistent pest in Winnemucca, sustained by the surrounding ranching operations and undeveloped Great Basin scrubland. Deer mice are common in the region and can carry hantavirus. Properties near hay storage and livestock see year-round pressure.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "April through October; sheltered year-round",
+        note: "Black widows are common throughout the Great Basin and are found in Winnemucca garages, outbuildings, wood piles, and under structures. The dry conditions are ideal for black widow establishment.",
+      },
+      {
+        name: "Pavement and odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Pavement ants and odorous house ants are the primary ant pests in Winnemucca, nesting under concrete and pavement and foraging into structures during warm months.",
+      },
+      {
+        name: "Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "July through September",
+        note: "Cricket invasions occur in late summer in Winnemucca as high-desert temperatures peak. They aggregate at lit structures and enter through gaps. Camel crickets can establish in crawl spaces and basements.",
+      },
+      {
+        name: "American cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in commercial settings; summer in residential",
+        note: "American cockroaches are a commercial pest in Winnemucca restaurants, hotels, and food service operations. Residential infestations occur but are less common than in southern Nevada's warmer climate.",
+      },
+    ],
+    localHook:
+      "Winnemucca is a stop on the ranching and mining circuit of northern Nevada, and the pest profile reflects that. Mice near hay storage, black widows in the older commercial buildings downtown, crickets in late summer. These are the reliable seasonal events that the longtime residents have built their pest management routines around.",
+    intro:
+      "Pest control in Winnemucca focuses on the core Great Basin pest set. Mice are a year-round management priority near the ranching and mining operations that define this community. Black widows are widespread in garages and outbuildings. Ants are the primary household pest through spring and summer. Crickets invade in late summer. Cockroaches are managed primarily in commercial establishments.",
+    sections: [
+      {
+        heading: "Rodent management in a ranching community",
+        body: "Winnemucca's role as a Humboldt County ranching hub means rodent pressure is not a temporary seasonal event but a persistent management challenge. Hay storage attracts deer mice and house mice year-round. Grain and feed operations sustain large populations that disperse into adjacent residential areas. Deer mice in northern Nevada are carriers of hantavirus, making proper rodent sanitation and PPE during cleanup critical. Exterior bait station programs for properties near hay storage, combined with structure exclusion work, are the foundation of an effective rodent program.",
+      },
+      {
+        heading: "Black widow spiders in the high desert",
+        body: "The combination of low humidity, warm summers, and abundant insect prey in the Great Basin makes black widow populations robust throughout the region. In Winnemucca, older commercial buildings, warehouses, and downtown structures have established black widow populations in their storage areas and utility rooms. For residential properties, the risk is concentrated in garages, outbuildings, and exterior retaining features. Annual perimeter treatment starting in April, combined with reducing harborage debris, is the most effective approach.",
+      },
+    ],
+    prevention: [
+      "Deploy exterior rodent bait stations year-round for properties near hay storage or livestock operations.",
+      "Apply black widow perimeter treatment in April and repeat in July in high-pressure properties.",
+      "Seal entry points around foundations and utility penetrations before October.",
+      "Apply cricket perimeter treatment in July before the late-summer invasion.",
+      "Keep commercial garbage sealed and inaccessible to reduce cockroach attractants.",
+    ],
+    costNote:
+      "Winnemucca general pest plans run $140 to $260 per year. Rodent bait station programs for ranching-adjacent properties cost $200 to $400 per year. Commercial cockroach programs are quoted on site.",
+    faqs: [
+      {
+        question: "Is hantavirus a real concern in Winnemucca?",
+        answer:
+          "Deer mice (Peromyscus maniculatus) are common in Humboldt County and are the primary reservoir for Sin Nombre hantavirus in the region. The virus is transmitted through aerosolized rodent droppings, urine, and saliva. When cleaning areas with rodent evidence in northern Nevada, use an N95 respirator, gloves, and dampen droppings before cleaning rather than dry sweeping. A pest professional can assist with safe removal.",
+      },
+      {
+        question: "When are black widows most active in Winnemucca?",
+        answer:
+          "Black widows are most active and visible from April through October when temperatures are above 60 degrees F. In Winnemucca's high desert, they are most commonly encountered in garages and outbuildings in spring when they come out of their winter shelter locations. They are active through fall and shelter in undisturbed areas during the coldest months rather than dying off.",
+      },
+      {
+        question: "Why do crickets come into Winnemucca homes in late summer?",
+        answer:
+          "The surrounding desert scrubland and undeveloped areas produce large cricket populations that move toward lit structures as August heat peaks. Camel crickets can also establish in cool, moist crawl spaces. Reducing outdoor lighting near entry doors and applying perimeter spray in July reduces the late-summer invasion.",
+      },
+      {
+        question: "Are there scorpions in the Winnemucca area?",
+        answer:
+          "Scorpions are present in Nevada but are much more common in the southern parts of the state where bark scorpions are established. Stripe-tailed scorpions can be found in parts of Humboldt County but at much lower densities than in southern Nevada communities like Pahrump or the Las Vegas area. If you encounter a scorpion in Winnemucca, treat it as a finding worth reporting to a pest control professional.",
+      },
+      {
+        question: "Is pest control different in a small town like Winnemucca compared to Las Vegas?",
+        answer:
+          "The pest species are somewhat different. Winnemucca sees more rodent pressure from rural surroundings and less scorpion activity than Las Vegas. The core arid Great Basin species overlap: black widows, ants, mice, and crickets. Treatment approaches are the same; what differs is the source pressure and the scale of surrounding habitat.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Elko", slug: "elko" },
+      { name: "Reno", slug: "reno" },
+      { name: "Fallon", slug: "fallon-nv" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Winnemucca, NV | Mice, Black Widows & Desert Ants",
+    metaDescription:
+      "Winnemucca NV pest control for house mice, black widow spiders, ants and crickets. Humboldt County Great Basin ranching community specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "fallon-nv",
+    name: "Fallon",
+    state: "Nevada",
+    stateSlug: "nevada",
+    stateAbbr: "NV",
+    tier: "T3",
+    population: "~8,500",
+    county: "Churchill County",
+    climate: "semi-arid",
+    climateDriver:
+      "Fallon lies at about 3,965 feet in the Lahontan Valley in Churchill County, Nevada's agricultural heartland irrigated by the Carson River and Lahontan Reservoir. The high-desert climate features very hot, dry summers, cold winters, and minimal rainfall. Naval Air Station Fallon (Top Gun) is a major presence. The irrigated agricultural fields in an otherwise arid desert produce a unique pest environment that combines high rodent populations from irrigation habitat with typical Great Basin desert pests.",
+    topPests: ["House Mice", "House Flies", "Black Widow Spiders", "Ants", "Crickets"],
+    pestProfile: [
+      {
+        name: "House mice and deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round near agricultural operations; fall surge into structures",
+        note: "The irrigated fields of the Lahontan Valley sustain large mouse populations year-round. Alfalfa and grain fields near Fallon see particularly high density. Fall irrigation shutdowns and harvest displace rodents toward structures.",
+      },
+      {
+        name: "House flies and stable flies",
+        serviceSlug: "fly-control",
+        activeSeason: "April through October",
+        note: "Agricultural operations including dairy and livestock near Fallon create fly breeding habitat. House and stable flies are a significant summer pest for both residential and commercial properties near these operations.",
+      },
+      {
+        name: "Western black widow spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "April through October; sheltered year-round",
+        note: "Black widows are common throughout Churchill County in garages, outbuildings, and undisturbed areas. The dry conditions favor their establishment.",
+      },
+      {
+        name: "Odorous house ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Odorous house ants are the primary ant pest in Fallon, nesting in soil and entering homes through foundation cracks during warm months.",
+      },
+      {
+        name: "Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "July through September",
+        note: "Crickets move toward lit structures in late summer from surrounding fields and undeveloped areas. The agricultural landscape produces large cricket populations that create notable invasions in hot years.",
+      },
+    ],
+    localHook:
+      "Fallon sits in what Nevadans call the oasis of the Great Basin: the Lahontan Valley where irrigation transformed desert into farmland. That irrigation supports large animal populations that the surrounding desert does not. Including mice. The pest profile here is different from Las Vegas and different from Reno. It is an agricultural high desert town, and the pest calendar reflects that.",
+    intro:
+      "Pest control in Fallon combines agricultural edge pest pressure with the core Great Basin desert species. Mice are sustained by the surrounding irrigated fields year-round. Flies are a summer management challenge near livestock and agricultural operations. Black widows are a year-round garage and outbuilding concern. Ants are the standard household pest from spring through fall. Crickets invade from surrounding fields in late summer.",
+    sections: [
+      {
+        heading: "Irrigated agriculture and year-round rodent pressure",
+        body: "The Lahontan Valley irrigation system that makes farming possible in Churchill County also creates year-round rodent habitat. Alfalfa fields, grain storage, and hay operations sustain mouse populations at densities much higher than the surrounding dry desert. When fields are irrigated through summer, mice have abundant food and cover. When irrigation stops and fields are harvested in fall, rodents move toward structures for warmth and food. For residential properties near Fallon's agricultural edges, year-round exterior bait station maintenance is more effective than seasonal-only treatment.",
+      },
+      {
+        heading: "Flies in Fallon's agricultural setting",
+        body: "Fly management in an agricultural community requires a realistic assessment of what a single property owner can accomplish. The breeding populations in nearby livestock and agricultural operations are regional, not property-specific. The practical focus for Fallon homeowners is preventing entry and reducing attractants: tight screens without gaps, covered garbage bins, clean pet food areas, and outdoor fly traps positioned away from entry doors. For commercial operations near agricultural sources, monthly perimeter spray during summer reduces fly pressure measurably.",
+      },
+    ],
+    prevention: [
+      "Maintain year-round exterior bait stations for properties near agricultural fields or hay storage.",
+      "Install and maintain tight door and window screens throughout fly season, April through October.",
+      "Apply black widow perimeter treatment in April and in July for outbuildings and garages.",
+      "Seal foundation gaps before October to block the fall mouse migration into structures.",
+      "Apply cricket perimeter spray in July before late-summer invasions begin.",
+    ],
+    costNote:
+      "Fallon general pest plans covering mice, spiders, and ants run $140 to $260 per year. Agricultural-edge rodent programs with year-round bait stations cost $200 to $400. Summer fly control treatments run $100 to $200 per visit.",
+    faqs: [
+      {
+        question: "Is mouse pressure near the NAS Fallon base different from other parts of town?",
+        answer:
+          "The base perimeter and the undisturbed vegetation along its edges support rodent populations that can affect adjacent residential areas. Properties within a few blocks of the base perimeter may see higher mouse pressure than properties in the center of town. Exterior bait stations are the standard approach.",
+      },
+      {
+        question: "Are flies from nearby farms treatable on my Fallon property?",
+        answer:
+          "You can significantly reduce fly entry and on-property density, but you cannot eliminate a fly population whose breeding source is regional. The combination of screens, covered garbage, outdoor electric fly traps, and perimeter spray manages the problem without solving the source. Commercial operations adjacent to agricultural areas benefit from more intensive programs.",
+      },
+      {
+        question: "Do deer mice near the Lahontan Valley carry hantavirus?",
+        answer:
+          "Deer mice are the primary hantavirus reservoir in Nevada and are present in the irrigated agricultural areas surrounding Fallon. Cleanup of rodent droppings in crawl spaces, attics, and storage areas should use PPE: N95 respirator, gloves, and a disinfectant spray rather than dry sweeping. A pest professional can assist with safe cleanup procedures.",
+      },
+      {
+        question: "Are black widows common in Fallon compared to other Nevada cities?",
+        answer:
+          "Yes. The dry, warm conditions of Churchill County are favorable for black widows. They are found throughout Fallon in garages, outbuildings, and exterior retaining features. The low humidity that prevails in the Great Basin is ideal for their establishment and population persistence.",
+      },
+      {
+        question: "When should I start pest control for the year in Fallon?",
+        answer:
+          "March is a good time for an initial perimeter inspection and treatment as ants and spiders begin spring activity. A follow-up in July covers the mid-summer cricket and fly peak. September is the rodent exclusion month before harvest displaces field populations. A three-visit annual plan covers the main pressure points.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Reno", slug: "reno" },
+      { name: "Carson City", slug: "carson-city" },
+      { name: "Winnemucca", slug: "winnemucca-nv" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Fallon, NV | Mice, Flies & Black Widows in Churchill County",
+    metaDescription:
+      "Fallon NV pest control for house mice, house flies, black widow spiders and ants. Churchill County Lahontan Valley agricultural specialists. Call 1-800-PEST-USA.",
+  },
 ];

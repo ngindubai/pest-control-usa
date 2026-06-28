@@ -2467,4 +2467,312 @@ export const marylandCities: CityLocation[] = [
     metaTitle: "Pest Control in Mount Airy, MD | Stink Bugs, Termites & Mice",
     metaDescription: "Mount Airy pest control for brown marmorated stink bugs, eastern subterranean termites, house mice and carpenter ants. Carroll and Frederick County Blue Ridge foothills specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "new-carrollton-md",
+    name: "New Carrollton",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~13,000",
+    county: "Prince George's County",
+    climate: "temperate",
+    climateDriver:
+      "New Carrollton lies in Prince George's County adjacent to the Washington DC border, a major transit hub served by Amtrak, MARC, and the DC Metro. The humid subtropical edge climate delivers hot humid summers, mild winters, and significant year-round moisture. The dense suburban environment, proximity to the Capital Beltway, and the mix of older residential neighborhoods and commercial development create active termite, stink bug, tick, and mosquito pressure typical of the DC suburban corridor.",
+    topPests: ["Eastern Subterranean Termites", "Stink Bugs", "Deer Ticks", "Mosquitoes", "Ants"],
+    pestProfile: [
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Year-round colony; swarmers February through April",
+        note: "Eastern subterranean termites are endemic throughout Maryland and Prince George's County, and New Carrollton's older residential stock is at structural risk. Annual inspections and a maintained protection program are essential.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November aggregation; overwinter in wall voids",
+        note: "Stink bugs are a major fall pest throughout the DC metro corridor. New Carrollton's older residential construction with many potential entry points sees heavy aggregations in fall and persistent winter emergence.",
+      },
+      {
+        name: "Black-legged deer ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November; nymph peak May through July",
+        note: "Maryland has high Lyme disease incidence, and Prince George's County is in the active-risk zone. The wooded stream corridors, parkland, and deer population around New Carrollton create real tick exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The hot humid summers of the DC metro and the wetlands in the stream corridors adjacent to New Carrollton sustain active mosquito populations from spring through fall. The humid subtropical climate extends the season longer than in northern states.",
+      },
+      {
+        name: "Odorous house ants and pavement ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through November",
+        note: "Ants are a consistent household pest in New Carrollton's dense residential grid. The mild climate extends the active season well into November. Pavement ants and odorous house ants are the primary species.",
+      },
+    ],
+    localHook:
+      "New Carrollton is one of those Prince George's County communities where the transit connections are the defining feature. Easy access to DC, Baltimore, and points along the Northeast Corridor. What is less featured but just as real is that the DC suburbs have some of the most active termite and stink bug pressure in the mid-Atlantic region. Termites swarm in New Carrollton every February and March with reliable regularity, and the stink bug aggregations on the older homes in fall are significant.",
+    intro:
+      "Pest control in New Carrollton covers the full DC metro suburban pest set. Termites are endemic throughout Prince George's County and a structural concern for the older residential housing in this community. Stink bugs are a major fall nuisance, with significant aggregations on homes in September and October. Deer ticks are a Lyme disease concern in the wooded stream corridors. Mosquitoes are active from April through October in the hot humid DC climate. Ants are a year-round household management issue.",
+    sections: [
+      {
+        heading: "Termites in the DC suburban corridor",
+        body: "Eastern subterranean termites are one of the most economically significant structural pests in the DC metro area, and New Carrollton's older residential neighborhoods are in the active-risk zone. Termites swarm in late winter and early spring in Prince George's County, often in late February or March on warm days. Homeowners sometimes mistake termite swarmers for flying ants. The key difference: termite swarmers have straight antennae, uniform wings of equal length, and no visible waist constriction. Finding termite swarmers inside the home, particularly near windows or in the bathroom, means a colony is active very close to or inside the structure. Annual termite inspection is the standard of care for any wood-frame home in Maryland.",
+      },
+      {
+        heading: "Stink bugs and the fall siege",
+        body: "New Carrollton's older residential construction, with its many gaps around window trim, utility penetrations, and the intersections of siding materials, makes it particularly susceptible to stink bug invasion in fall. The brown marmorated stink bug aggregates on sun-warmed building exterior surfaces in September and October and works through any gap it can find into wall voids and attic spaces. Once inside, the bugs are difficult to remove during winter. The most cost-effective approach is preemptive sealing: caulking around window trim, installing fine-mesh screen in attic vents, and treating the exterior wall surface in mid-September before aggregations peak. Trying to treat after they are inside the walls requires interior vacuuming and flylight traps, which helps but is less efficient than preventing entry.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections and maintain an active protection program.",
+      "Seal window trim, utility penetrations, and attic vents before mid-September to reduce stink bug entry.",
+      "Apply yard tick treatment in April and September to protect against Lyme disease transmission.",
+      "Eliminate standing water weekly through summer to reduce mosquito breeding.",
+      "Apply perimeter ant treatment in March as the warm season begins.",
+    ],
+    costNote:
+      "Termite protection in New Carrollton runs $200 to $600 per year depending on treatment type. General pest plans for ants, spiders, and stink bugs run $150 to $300 per year. Tick yard treatment is $100 to $200 per application. Mosquito yard programs cost $90 to $180 per visit.",
+    faqs: [
+      {
+        question: "How do termite swarmers look different from flying ants in New Carrollton?",
+        answer:
+          "Termite swarmers have straight antennae, two pairs of wings of equal length that extend well past the abdomen, and no noticeable waist constriction. Flying ants have elbowed antennae, larger front wings than back wings, and a clear pinched waist. Both types of swarmers can appear indoors in late winter and spring. If you are not sure which you have, collect a few in a container and have a pest professional identify them, as the response is different.",
+      },
+      {
+        question: "When do stink bugs become a real problem in New Carrollton?",
+        answer:
+          "Mid-September is when stink bug aggregation on home exteriors typically begins in Prince George's County. The first cool nights trigger the aggregation behavior. By early October, large numbers can be on south and west-facing walls. This is the window when sealing and exterior treatment are most valuable: before the majority enter.",
+      },
+      {
+        question: "Is the wooded area near New Carrollton a tick concern?",
+        answer:
+          "Yes. The stream valleys and forested greenways in and around New Carrollton support white-tailed deer and the small mammal populations that deer ticks feed on at different life stages. Maryland is in a high Lyme disease zone. Yard tick treatment and personal protection when in wooded areas are appropriate precautions.",
+      },
+      {
+        question: "Is mosquito treatment needed in New Carrollton?",
+        answer:
+          "Yes, particularly from May through September. The hot humid DC-area summers and the stream corridor wetlands near New Carrollton sustain active mosquito populations. Yard perimeter spray applied to vegetation reduces on-property populations significantly and makes outdoor space more usable through summer.",
+      },
+      {
+        question: "Do older homes in New Carrollton have more pest risk than newer homes?",
+        answer:
+          "Yes, in several ways. Older construction has accumulated more potential entry points through settling, age, and past repairs, which makes mouse and stink bug entry easier. Older wood-frame structures have longer termite exposure histories. Older crawl spaces may lack vapor barriers, which creates moisture conditions that attract carpenter ants and termites. These are manageable with the right program.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Hyattsville", slug: "hyattsville-md" },
+      { name: "Greenbelt", slug: "greenbelt-md" },
+      { name: "College Park", slug: "college-park-md" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in New Carrollton, MD | Termites, Stink Bugs & Deer Ticks",
+    metaDescription:
+      "New Carrollton MD pest control for termites, stink bugs, deer ticks and mosquitoes. Prince George's County DC suburban transit hub specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "district-heights-md",
+    name: "District Heights",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~8,000",
+    county: "Prince George's County",
+    climate: "hot-humid",
+    climateDriver: "District Heights is a dense suburban Maryland community in Prince George's County, immediately east of the DC line. The urban heat island effect, high residential density, and connections to the DC area transit and commerce network create conditions where bed bugs, cockroaches, and rodents are common year-round concerns.",
+    topPests: ["Bed Bugs", "Cockroaches", "Mice", "Ants", "Mosquitoes"],
+    pestProfile: [
+      { name: "Bed Bugs", serviceSlug: "bed-bug-treatment", activeSeason: "year-round", note: "District Heights' high residential density and proximity to DC transit hubs create above-average bed bug introduction risk; multi-unit housing is particularly vulnerable." },
+      { name: "Cockroaches", serviceSlug: "cockroach-control", activeSeason: "year-round", note: "German and American cockroaches are persistent in District Heights' dense residential and commercial areas; apartment buildings and older commercial kitchens see the highest pressure." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "year-round, peaks October to March", note: "Dense suburban development with alley access, utility infrastructure, and older housing creates year-round mouse pressure throughout District Heights." },
+      { name: "Ants", serviceSlug: "ant-control", activeSeason: "March to October", note: "Pavement ants and odorous house ants are common in District Heights' sidewalk-adjacent residential zones; spring emergence along foundation edges is nearly universal." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Prince George's County's humid subtropical climate and residential low spots create mosquito breeding sites that make summer pest management important for outdoor living." },
+    ],
+    localHook: "District Heights is a compact Prince George's County community where residential density, DC transit connections, and a mix of apartment buildings and single-family homes create a year-round pest management environment. Bed bugs and cockroaches are urban persistent concerns here, not seasonal ones.",
+    intro: "Pest control in District Heights runs year-round because the urban environment doesn't have a real off-season. Cockroaches in multi-unit buildings, bed bugs in transit-connected dense housing, and mice in older residential streets near alleys and utility corridors are the defining pest problems here. Summer brings mosquitoes and ants. The building stock in much of District Heights dates from the mid-20th century, which means settled foundations, aging utilities, and pest pathways that have been used for decades.",
+    sections: [
+      {
+        heading: "Bed Bugs and Cockroaches in Dense Urban Housing",
+        body: "District Heights' proximity to Washington DC, its transit connections, and its high proportion of multi-unit residential buildings create conditions where bed bugs and cockroaches are persistent urban pests rather than occasional problems. Bed bugs travel with luggage, used furniture, and clothing, and spread readily through shared wall cavities in adjacent units. German cockroaches infest apartment kitchens and bathrooms, moving between units through plumbing chases and utility gaps. Both require professional treatment: over-the-counter products for bed bugs rarely reach the hidden populations in seams and wall voids, and cockroach gel bait resistance develops when products are used without rotation. We provide discreet, effective treatment for both."
+      },
+      {
+        heading: "Mice in District Heights' Residential Streets",
+        body: "Older residential neighborhoods in District Heights, particularly those with alley access, older housing stock, and dense utility infrastructure, see year-round mouse pressure rather than the seasonal fall surge typical of suburban areas. Mice move along utility lines, through alley corridors, and between row homes through shared foundation areas. They don't need much: a quarter-inch gap is sufficient. Exclusion work in older District Heights homes focuses on foundation sill sealing, utility penetration caulking, and door sweep installation. Interior bait stations and snap traps address the existing indoor population while exclusion addresses the entry pathway."
+      },
+      {
+        heading: "Ants, Mosquitoes, and Warm-Season Pest Management",
+        body: "Spring brings pavement ants and odorous house ants to District Heights' sidewalk zones and foundation slabs. These are nuisance pests but their colony sizes can be significant in urban settings where food sources are abundant. Summer brings mosquitoes, and Prince George's County's humid subtropical climate means mosquito season runs from May through September. Residential yard space in District Heights is often limited, but birdbaths, planters, and drainage low spots are enough for Aedes mosquitoes, which don't need much water to breed. Weekly water source elimination and targeted yard treatment keeps summer mosquito pressure manageable."
+      },
+    ],
+    prevention: [
+      "Inspect secondhand furniture and luggage for bed bug signs before bringing into the home.",
+      "Seal kitchen and bathroom utility gaps where cockroaches enter from adjacent units.",
+      "Install door sweeps and seal foundation gaps for year-round mouse prevention.",
+      "Eliminate standing water from planters, birdbaths, and drainage areas weekly in summer.",
+      "Report pest sightings to building management immediately in multi-unit settings to prevent spread.",
+    ],
+    costNote: "Pest control visits in District Heights typically run $120 to $300. Bed bug treatment runs $300 to $700 depending on treatment method and room count. Cockroach treatment programs for apartments run $150 to $300 per treatment with follow-up. Annual prevention plans for mice, ants, and seasonal insects run $400 to $650.",
+    faqs: [
+      {
+        question: "Can bed bugs spread between apartments in my District Heights building?",
+        answer: "Yes, through shared wall cavities, plumbing chases, and electrical conduits. A bed bug infestation in one unit can spread to adjacent units within weeks. Professional treatment should address not just the identified unit but the immediate neighbors, and the building management should be notified for coordinated treatment."
+      },
+      {
+        question: "Why are cockroaches so hard to eliminate in older apartment buildings?",
+        answer: "German cockroaches travel through plumbing and electrical conduits between units, so treating a single unit without addressing the building-wide population provides only temporary relief. Additionally, products used repeatedly without rotation develop resistance. Effective cockroach control in multi-unit buildings requires coordinated treatment across connected units and product rotation to prevent resistance."
+      },
+      {
+        question: "Are mice a year-round problem in District Heights or just in fall?",
+        answer: "Year-round in most older District Heights neighborhoods. The urban environment maintains rodent populations that don't follow the same seasonal patterns as rural and suburban areas. Mice in alley-adjacent and row home settings breed year-round if they have food access and safe harborage. Fall sees increased pressure as temperatures drop, but the underlying population never fully disperses."
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Capitol Heights", slug: "capitol-heights-md" },
+      { name: "Suitland", slug: "suitland-md" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in District Heights, MD | Bed Bugs, Cockroaches & Mice",
+    metaDescription: "Pest control in District Heights, Maryland for bed bugs, cockroaches, mice, ants, and mosquitoes. Dense Prince George's County urban pest management. Licensed Maryland technicians.",
+  },
+  {
+    slug: "bladensburg-md",
+    name: "Bladensburg",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~9,000",
+    county: "Prince George's County",
+    climate: "hot-humid",
+    climateDriver: "Bladensburg is an inner suburb of Washington DC along the Anacostia River in Prince George's County. The river corridor, dense urban character, and older mixed residential and commercial development create conditions for year-round urban pest pressure including cockroaches, rodents, mosquitoes from the Anacostia, and bed bugs in multi-unit housing.",
+    topPests: ["Cockroaches", "Mice", "Rats", "Mosquitoes", "Bed Bugs"],
+    pestProfile: [
+      { name: "Cockroaches", serviceSlug: "cockroach-control", activeSeason: "year-round", note: "Bladensburg's urban density, food service establishments, and older mixed-use buildings make cockroach control a continuous concern; German and American species are both present." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "year-round", note: "Urban mouse populations in Bladensburg move through alley systems, utility corridors, and older foundation gaps year-round; this is not seasonal behavior but continuous urban rodent pressure." },
+      { name: "Rats", serviceSlug: "rat-control", activeSeason: "year-round", note: "Norway rats are present in Bladensburg's commercial and mixed-use areas, particularly near food service, dumpster locations, and the Anacostia River corridor." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "The Anacostia River and its adjacent wetlands create significant mosquito breeding habitat immediately adjacent to Bladensburg's residential areas; West Nile virus has been detected in Prince George's County." },
+      { name: "Bed Bugs", serviceSlug: "bed-bug-treatment", activeSeason: "year-round", note: "Bladensburg's transit connectivity and multi-unit housing density create consistent bed bug introduction risk throughout the year." },
+    ],
+    localHook: "Bladensburg sits where the Anacostia River meets suburban Prince George's County, and that combination of urban density, river corridor, and commercial activity creates some of the DC metro area's more challenging pest environments. Cockroaches and rats along commercial corridors, mosquitoes from the Anacostia, and bed bugs in dense residential housing are the defining concerns.",
+    intro: "Pest control in Bladensburg covers both urban and waterway pest pressures. The commercial strips along Annapolis Road and the river-adjacent neighborhoods face the full urban pest list: cockroaches, Norway rats, mice, and bed bugs year-round. The Anacostia River adds a seasonal mosquito burden that extends well into September. Older mixed-use buildings in Bladensburg often have the structural gaps and shared infrastructure that allow urban pests to spread between units and properties without early intervention.",
+    sections: [
+      {
+        heading: "Commercial Cockroach and Rat Control in Bladensburg",
+        body: "Bladensburg's commercial corridors, including food service, retail, and light industrial operations, face the standard urban pest challenges: German cockroaches in kitchens, American cockroaches in basements and utility areas, and Norway rats in alley systems near dumpsters. Commercial pest management here requires an integrated approach: thorough inspection to identify harborage, targeted gel bait and granule treatment for cockroaches, and exclusion plus bait station placement for Norway rats. Monthly service visits keep pressure documented and controlled. Maryland food service regulations require active pest management for licensed establishments, and failure during inspection has real consequences."
+      },
+      {
+        heading: "Anacostia River Mosquito Pressure",
+        body: "The Anacostia River and its adjacent wetlands immediately west of Bladensburg create some of the highest residential mosquito pressure in Prince George's County. Culex mosquitoes, which carry West Nile virus, breed in the slower-moving and stagnant sections of the river and associated drainage areas. West Nile activity has been detected in the county. For Bladensburg residents near the river, barrier treatment for yard vegetation is a meaningful intervention. Properties without direct river adjacency still deal with the broader Bladensburg mosquito population driven by urban heat and drainage low spots, but at lower intensity."
+      },
+      {
+        heading: "Residential Mice and Bed Bugs",
+        body: "Urban rodent populations in Bladensburg move through alley systems, utility trenches, and shared building infrastructure year-round. Mouse pressure in residential areas isn't primarily seasonal; it's a function of the urban environment and doesn't stop between October and April the way it does in suburban settings. Exclusion work and ongoing bait station maintenance are the standard approach for urban residential accounts. Bed bugs in Bladensburg's multi-unit housing travel through shared wall voids and plumbing chases, and introduction from DC transit connections happens regularly. Early reporting and professional treatment before spread to adjacent units are the practical guidance for renters and landlords alike."
+      },
+    ],
+    prevention: [
+      "Maintain covered dumpsters and grease trap management to reduce commercial cockroach and rat harborage.",
+      "Seal shared wall utility penetrations in multi-unit buildings to limit cockroach and bed bug spread.",
+      "Install door sweeps on all exterior commercial and residential entries.",
+      "Report pest sightings in multi-unit buildings immediately to prevent unit-to-unit spread.",
+      "Eliminate standing water in yard containers and planters weekly during mosquito season.",
+    ],
+    costNote: "Residential pest control in Bladensburg runs $120 to $300 per visit. Commercial cockroach programs run $200 to $500 per monthly service depending on property size. Rat exclusion and baiting programs run $300 to $600 for initial setup. Bed bug treatment runs $300 to $700 per treatment. Mosquito barrier treatment runs $75 to $140.",
+    faqs: [
+      {
+        question: "What type of cockroaches are most common in Bladensburg?",
+        answer: "German cockroaches in kitchen and bathroom areas of residential and commercial spaces, and American cockroaches in basements, utility rooms, and sewer-connected areas. German cockroaches are smaller, faster to reproduce, and more difficult to eliminate. American cockroaches are larger and more likely to enter from the exterior. Both need professional treatment for reliable control."
+      },
+      {
+        question: "Is West Nile virus a concern near the Anacostia River?",
+        answer: "Yes. Prince George's County has documented West Nile virus in local mosquito populations, and river-adjacent communities like Bladensburg see higher mosquito density from the Anacostia watershed. The risk is real during peak mosquito season (June through August). Outdoor activity at dusk and dawn is highest risk; barrier yard treatment reduces exposure at home."
+      },
+      {
+        question: "How do I handle a rat problem in my Bladensburg property?",
+        answer: "Norway rat control requires three things: eliminating food and harborage (sealed dumpsters, covered compost), excluding entry points (gap sealing at the foundation and around pipes), and baiting or trapping the existing population. In urban settings like Bladensburg, ongoing bait station maintenance is usually necessary because the surrounding environment continuously replenishes pressure. One-time treatments rarely provide lasting control."
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "College Park", slug: "college-park-md" },
+      { name: "Hyattsville", slug: "hyattsville-md" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Bladensburg, MD | Cockroaches, Rats & Mosquitoes",
+    metaDescription: "Pest control in Bladensburg, Maryland for cockroaches, rats, mice, mosquitoes, and bed bugs. Anacostia River urban pest management. Licensed Prince George's County technicians.",
+  },
+  {
+    slug: "riverdale-park-md",
+    name: "Riverdale Park",
+    state: "Maryland",
+    stateSlug: "maryland",
+    stateAbbr: "MD",
+    tier: "T3",
+    population: "~7,000",
+    county: "Prince George's County",
+    climate: "hot-humid",
+    climateDriver: "Riverdale Park is a small, historically mixed-income community in Prince George's County adjacent to the University of Maryland campus, with a blend of older residential housing, the Anacostia River corridor, and recent redevelopment. The community's transit connectivity and older housing stock create urban pest conditions year-round.",
+    topPests: ["Bed Bugs", "Cockroaches", "Mice", "Silverfish", "Mosquitoes"],
+    pestProfile: [
+      { name: "Bed Bugs", serviceSlug: "bed-bug-treatment", activeSeason: "year-round", note: "Riverdale Park's University of Maryland adjacency, transit connections, and student and transient housing population create consistent bed bug introduction risk." },
+      { name: "Cockroaches", serviceSlug: "cockroach-control", activeSeason: "year-round", note: "Older mixed housing stock throughout Riverdale Park and proximity to commercial strips create conditions for persistent German and American cockroach populations." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "year-round, peaks October to March", note: "Older Riverdale Park homes near the Anacostia corridor and alley systems carry year-round mouse pressure typical of inner Prince George's County communities." },
+      { name: "Silverfish", serviceSlug: "silverfish-control", activeSeason: "year-round", note: "Riverdale Park's older homes frequently have high basement humidity and paper-based insulation; silverfish thrive in these conditions and damage books, wallpaper, and archives." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Anacostia River proximity and Riverdale Park's urban drainage patterns create mosquito breeding sites; the community's outdoor gathering spaces see summer mosquito pressure." },
+    ],
+    localHook: "Riverdale Park is one of Prince George's County's most walkable communities, with a rail station, local businesses, and a diverse residential population that includes students, long-term residents, and new arrivals. That mix of transit connectivity and older housing stock creates the bed bug and cockroach conditions typical of inner-ring DC suburbs.",
+    intro: "Pest control in Riverdale Park reflects its inner-suburb character. The community's older housing, transit connections, and University of Maryland proximity create conditions where bed bugs are a routine concern rather than an unusual one. Cockroaches persist in the older mixed-use areas near Queensbury Road and the commercial district. Silverfish are common in the basements of older homes throughout the Riverdale Park historic district. Mice work the alley systems year-round. Summer mosquito season tracks the Anacostia River and urban drainage patterns.",
+    sections: [
+      {
+        heading: "Bed Bugs and Urban Pest Management in Riverdale Park",
+        body: "Riverdale Park's transit access, University of Maryland adjacency, and mix of student and transitional housing create above-average bed bug risk. Bed bugs spread through travel, secondhand furniture, and shared building infrastructure. In Riverdale Park's older rowhomes and apartment buildings, shared wall cavities make inter-unit spread common. Early detection is critical: small rust-colored spots on mattress seams, clusters of tiny bites, or actual insects in bedding folds are the signs to act on immediately. We provide discreet treatment using heat and targeted chemical protocols, and we work with property managers for coordinated multi-unit approaches when needed."
+      },
+      {
+        heading: "Silverfish in Riverdale Park's Historic Homes",
+        body: "Riverdale Park's historic district includes homes built in the early-to-mid 20th century, many with original hardwood floors, plaster walls, and basements with earthen or older concrete construction. These buildings maintain higher humidity than modern construction, and they contain the paper-based insulation, cardboard storage, and older book collections that silverfish feed on. Silverfish in Riverdale Park basements are not rare finds; they're almost expected in homes of this vintage with unfinished basement areas. Treatment combines reducing basement humidity with a dehumidifier, targeted crack and crevice application in harboring areas, and sealing the gaps between floor systems where they travel."
+      },
+      {
+        heading: "Cockroaches, Mice, and Summer Mosquitoes",
+        body: "German cockroaches in Riverdale Park homes follow the utility gaps between older kitchens and bathrooms, exploiting the path of least resistance from infested neighboring units or commercial properties nearby. Mice are a year-round concern in alley-adjacent homes, moving through the alley infrastructure rather than following seasonal patterns. Both are best addressed with ongoing management rather than one-time treatment in an urban setting. Summer mosquitoes track the Anacostia drainage and the community's outdoor gathering spaces near the town center; weekly standing water elimination and barrier treatment for yards with vegetation make the most difference."
+      },
+    ],
+    prevention: [
+      "Inspect used furniture and luggage carefully before bringing into the home.",
+      "Report pest activity in shared buildings promptly; early detection prevents unit-to-unit spread.",
+      "Run a dehumidifier in older basements to deter silverfish and cockroaches.",
+      "Seal kitchen and bathroom utility gaps with caulk to block cockroach travel routes.",
+      "Eliminate standing water from drains, planters, and outdoor furniture weekly in summer.",
+    ],
+    costNote: "Pest control in Riverdale Park runs $120 to $300 per visit. Bed bug treatment runs $300 to $700 per treatment cycle. Silverfish treatment, including follow-up, runs $175 to $350. Cockroach programs for multi-unit situations run $150 to $300 per visit. Annual prevention plans run $400 to $650.",
+    faqs: [
+      {
+        question: "How do I tell if I have bed bugs in my Riverdale Park home?",
+        answer: "Look for small rust-colored or reddish-brown spots on mattress seams, pillow seams, and upholstered furniture. Small black speckling, which is bed bug excrement, appears on sheets and mattress edges. Bites in rows or clusters that appear after sleeping are another indicator. If you see any actual insects, which are flat, reddish-brown, and about the size of an apple seed, that's confirmation. Call us immediately; early treatment is far less intensive than treating an established infestation."
+      },
+      {
+        question: "Why do I have silverfish in my Riverdale Park basement?",
+        answer: "Two reasons: humidity and starch. Riverdale Park's older homes frequently have basements that hold more moisture than modern construction, and silverfish need relative humidity above 70% to thrive. They feed on paper, cardboard, book bindings, and wallpaper paste. Dehumidification addresses the root condition; targeted treatment addresses the existing population."
+      },
+      {
+        question: "Are cockroaches a sign that my Riverdale Park home is unclean?",
+        answer: "No, not necessarily. German cockroaches spread through apartment buildings via utility conduits regardless of individual unit cleanliness. American cockroaches enter from outdoor sewer and drainage systems. In older inner-suburb housing stock like Riverdale Park's, cockroach pressure is often a building infrastructure issue, not a housekeeping issue. Treatment and sealing utility gaps are the practical fix."
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "College Park", slug: "college-park-md" },
+      { name: "Hyattsville", slug: "hyattsville-md" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Riverdale Park, MD | Bed Bugs, Cockroaches & Silverfish",
+    metaDescription: "Pest control in Riverdale Park, Maryland for bed bugs, cockroaches, mice, silverfish, and mosquitoes. Prince George's County urban pest management near University of Maryland. Licensed MD technicians.",
+  },
 ];

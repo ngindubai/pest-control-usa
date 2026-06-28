@@ -1316,5 +1316,286 @@ export const montanaCities: CityLocation[] = [
     metaTitle: "Pest Control in Miles City, MT | Mice, Cluster Flies & Wasps",
     metaDescription:
       "Miles City pest control for house mice, cluster flies, yellow jackets, and hobo spiders. Rangeland and agricultural edges create heavy fall rodent pressure. Free inspection. Call 1-800-PEST-USA.",
-  }
+  },
+  {
+    slug: "belgrade-mt",
+    name: "Belgrade",
+    state: "Montana",
+    stateSlug: "montana",
+    stateAbbr: "MT",
+    tier: "T3",
+    population: "~10,000",
+    county: "Gallatin County",
+    climate: "cold-humid",
+    climateDriver:
+      "Belgrade lies at 4,430 feet in the Gallatin Valley west of Bozeman, one of Montana's fastest-growing communities. The Bridger Mountains to the northeast and the Gallatin Range to the south create a high-elevation valley with cold winters, warm summers, and significant spring moisture. The proximity to Bozeman and Montana State University drives rapid residential growth, and the surrounding agricultural and forested land sustains carpenter ant, rodent, and wasp populations.",
+    topPests: ["Carpenter Ants", "House Mice", "Yellowjackets", "Voles", "Cluster Flies"],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October, peak April through June",
+        note: "Carpenter ants are the primary structural pest concern in Belgrade and throughout Gallatin County. The forested valley edge and wood-construction homes create ideal conditions. Winged swarmers in April signal active colonies nearby.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "September through November entry; year-round once inside",
+        note: "Belgrade's agricultural surroundings and the forested Gallatin Valley slopes sustain high mouse populations. New residential construction on the edge of agricultural land sees the highest intrusion pressure.",
+      },
+      {
+        name: "Yellowjackets and paper wasps",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "June through October, most aggressive August through October",
+        note: "Yellowjackets and paper wasps are common in Belgrade, nesting in the ground, under eaves, in attic vents, and in wall voids. Fall is the most dangerous season as colonies peak in size.",
+      },
+      {
+        name: "Meadow voles",
+        serviceSlug: "wildlife-removal",
+        activeSeason: "Year-round; most damaging October through April under snow",
+        note: "Voles are a significant lawn pest in Belgrade's irrigated residential areas. The Gallatin Valley's long winters mean voles have many months of snow cover to work under, and spring lawn damage can be extensive.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through November entry; emerge February through April",
+        note: "Cluster flies are a common late-fall pest throughout Gallatin County. They enter attics and wall voids in fall by the hundreds or thousands, seeking overwintering shelter, and emerge on warm late-winter and spring days creating indoor nuisance.",
+      },
+    ],
+    localHook:
+      "Belgrade is the fastest-growing town in Montana, and with that growth comes a new cohort of homeowners encountering the Gallatin Valley's pest calendar for the first time. The carpenter ants in April. The cluster flies filling attic spaces in October. These are Gallatin County constants that the longtime residents know well, and that the newcomers from Seattle or Denver often find surprising.",
+    intro:
+      "Pest control in Belgrade focuses on the Gallatin Valley's defining pest challenges. Carpenter ants are the top structural concern in this forested valley community. House mice press in from surrounding agricultural fields and forested slopes each fall. Yellowjackets nest around homes through summer and become aggressive in fall. Voles work through lawns under the Gallatin Valley's long snowy winters. Cluster flies are a major fall-to-spring nuisance throughout the area.",
+    sections: [
+      {
+        heading: "Carpenter ants: the Gallatin Valley's primary structural pest",
+        body: "Carpenter ants are the pest that Gallatin County pest professionals discuss most. Belgrade's combination of a growing suburban residential base and proximity to forested mountain terrain creates ideal conditions. Carpenter ant swarmers, the large winged ants that appear in April and May, are the most visible sign. Finding swarmers inside the home is a clear indicator that a colony is in or very close to the structure. Carpenter ants excavate galleries in wood that has been softened by moisture, so any area with past moisture damage is a priority inspection point. Annual perimeter treatment and addressing any moisture issues in the structure are the core management strategy.",
+      },
+      {
+        heading: "Cluster flies in fall and the Belgrade attic",
+        body: "Cluster flies (Pollenia rudis) are a distinctly rural and semi-rural pest that Belgrade homeowners encounter much more often than urban Montana residents. These flies breed in earthworms in agricultural soils through summer, and as temperatures cool in September and October, they enter structures en masse seeking overwintering sites. Attics are the preferred destination. They are not harmful and do not reproduce inside, but the numbers can be extraordinary: hundreds to thousands in a single attic. Sealing attic vents and penetrations before September is the most effective prevention. Once inside, flylight traps and vacuum removal are the practical approaches until spring.",
+      },
+    ],
+    prevention: [
+      "Schedule annual carpenter ant perimeter treatment in March before swarmer season begins.",
+      "Fix any moisture-damaged wood in the structure, as carpenter ants prefer softened wood.",
+      "Seal attic vents and wall penetrations before September to prevent cluster fly entry.",
+      "Treat yellowjacket and wasp nests in late June when colonies are small and manageable.",
+      "Set exterior rodent bait stations in September before the fall mouse push.",
+    ],
+    costNote:
+      "Belgrade carpenter ant treatment runs $150 to $320 per service. General pest plans covering mice, spiders, and ants run $150 to $280 per year. Cluster fly attic treatment in fall runs $100 to $250.",
+    faqs: [
+      {
+        question: "Are carpenter ants in Belgrade a sign of termites?",
+        answer:
+          "No. Carpenter ants and termites are entirely different insects. Montana has very limited termite activity, so if you see large black ants or winged swarmers in spring, it is almost certainly carpenter ants. Carpenter ants excavate wood to create galleries but do not eat the wood. They prefer wood that has been softened by moisture. An inspection can confirm which pest you have and find the colony location.",
+      },
+      {
+        question: "Why do cluster flies come into Belgrade homes every fall?",
+        answer:
+          "Cluster flies breed in earthworm populations in agricultural soils through summer and seek sheltered overwintering sites in fall. Rural and semi-rural communities like Belgrade have both the agricultural soil breeding habitat and the older home construction with entry points that cluster flies exploit. They are entirely harmless and do not reproduce inside.",
+      },
+      {
+        question: "Is yellowjacket activity worse in Belgrade in late summer?",
+        answer:
+          "Yes. Yellowjacket colonies grow through summer and reach their maximum size in August through October. In late summer and fall, colonies that were manageable in June become aggressive when disturbed. Ground nests are the highest risk for accidental disturbance during lawn care. A licensed technician with the right protective equipment should treat active yellowjacket nests.",
+      },
+      {
+        question: "How deep does vole damage go in Belgrade lawns?",
+        answer:
+          "Vole runway damage is surface-level: the grass at the top of the turf layer is worn, matted, or dead along the runway paths. Below-ground tunneling is minimal. The other damage is girdling of plant stems and tree trunks at the base. A lawn that has been heavily vole-damaged in winter typically recovers with spring raking, overseeding, and regular watering over four to six weeks.",
+      },
+      {
+        question: "When should I start pest control in Belgrade?",
+        answer:
+          "March is the right time for carpenter ant and general perimeter treatment before spring activity begins. September is the window for cluster fly prevention (sealing attic entries) and mouse exclusion. July through August is wasp and yellowjacket management season. A spring and fall service schedule covers the main pressure points.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Bozeman", slug: "bozeman" },
+      { name: "Missoula", slug: "missoula" },
+      { name: "Billings", slug: "billings" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Belgrade, MT | Carpenter Ants, Cluster Flies & Mice",
+    metaDescription:
+      "Belgrade MT pest control for carpenter ants, cluster flies, yellowjackets and mice. Gallatin Valley Bozeman suburb specialists. Free inspection. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "lewistown-mt",
+    name: "Lewistown",
+    state: "Montana",
+    stateSlug: "montana",
+    stateAbbr: "MT",
+    tier: "T3",
+    population: "~5,900",
+    county: "Fergus County",
+    climate: "cold-humid",
+    climateDriver:
+      "Lewistown sits at nearly 4,000 feet in the geographic center of Montana in Fergus County, surrounded by the Judith, Moccasin, and Big Snowy mountain ranges. The climate is cold continental: frigid winters, warm dry summers, and significant wind. The agricultural plains surrounding the city grow wheat and support cattle, which shapes the local pest profile with high rodent pressure and fly populations associated with livestock and grain operations.",
+    topPests: ["House Mice", "Cluster Flies", "Ants", "Boxelder Bugs", "Wolf Spiders"],
+    pestProfile: [
+      {
+        name: "House mice and deer mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round near grain and livestock operations; peak entry September through November",
+        note: "Grain farming and livestock operations surrounding Lewistown sustain large mouse populations. Deer mice are common in the region and can carry hantavirus. Fall displacement toward heated structures is significant.",
+      },
+      {
+        name: "Cluster flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through November entry; January through April emergence",
+        note: "Cluster flies are a defining fall pest in central Montana agricultural communities. The earthworm breeding populations in surrounding agricultural soils produce large cluster fly populations that mass-enter structures in fall.",
+      },
+      {
+        name: "Pavement and little black ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Pavement ants and little black ants are the primary ant pests in Lewistown, active during the warm months. The short summer season concentrates ant foraging activity.",
+      },
+      {
+        name: "Boxelder bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through November aggregation",
+        note: "Boxelder bugs are a reliable fall nuisance in Lewistown neighborhoods with mature boxelder trees. They aggregate on south-facing walls and enter homes seeking winter shelter.",
+      },
+      {
+        name: "Wolf spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "May through October",
+        note: "Wolf spiders are common in Lewistown homes, entering through foundation and door gaps in late summer. They are large and alarming but not medically dangerous.",
+      },
+    ],
+    localHook:
+      "Lewistown is central Montana in every sense: geographically at the center of the state, and culturally at the center of Great Plains farming life. The pest calendar reflects that. Cluster flies in the attic in October and November, mice from the grain fields pushing in as temperatures drop, wolf spiders following the insects indoors. These are the patterns that the farm and ranch families of Fergus County have navigated for generations.",
+    intro:
+      "Pest control in Lewistown centers on the central Montana agricultural community pest calendar. Mice are a year-round consideration near the surrounding grain and livestock operations, with a fall surge as temperatures drop. Cluster flies are a significant fall-to-spring nuisance as they mass-enter structures from the surrounding agricultural soils. Ants are active through the brief warm season. Boxelder bugs appear in fall with predictable regularity. Wolf spiders enter in late summer following prey.",
+    sections: [
+      {
+        heading: "Cluster flies and the fall attic problem",
+        body: "Few Montana communities understand cluster flies better than agricultural towns like Lewistown. The earthworm parasites breed in the surrounding grain fields through summer, and as autumn temperatures drop, adult flies congregate on sunny exterior surfaces and work through gaps into attic spaces and wall voids seeking shelter. The numbers can be extraordinary in a location with extensive agricultural land nearby and older construction with attic entry points. Sealing attic louver vents with fine-mesh screen before September is the most cost-effective intervention. A fall attic treatment with residual insecticide applied before the main fly entry also helps. In years with a large cluster fly emergence, an attic flylight trap running through winter and early spring is practical.",
+      },
+      {
+        heading: "Rodent management in a grain-farming community",
+        body: "Lewistown's position in one of Montana's primary wheat-growing regions means rodent pressure from the surrounding fields is a year-round management consideration. Deer mice and house mice are both common in Fergus County, and both can enter structures in significant numbers during fall harvest and as winter temperatures drop. Deer mice are particularly important in the region because they can carry hantavirus. Cleanup of mouse droppings in storage areas and crawl spaces should use respiratory protection. Exterior bait station programs for homes and commercial properties adjacent to grain operations provide the most consistent year-round control.",
+      },
+    ],
+    prevention: [
+      "Seal attic louver vents with fine-mesh screen before September to prevent cluster fly entry.",
+      "Deploy exterior rodent bait stations in August before fall harvest displaces grain field mice.",
+      "Apply ant perimeter treatment in April at the start of the brief warm season.",
+      "Treat boxelder bug aggregations in September with exterior spray before they enter wall voids.",
+      "Seal foundation gaps and door sweeps in September before the fall mouse push.",
+    ],
+    costNote:
+      "Lewistown general pest plans run $130 to $240 per year on a seasonal schedule. Cluster fly attic treatments cost $100 to $220. Rodent bait station programs for grain-adjacent properties cost $180 to $380 per year.",
+    faqs: [
+      {
+        question: "Why do cluster flies come back to my Lewistown attic every fall?",
+        answer:
+          "The breeding population is regional: cluster flies breed in earthworm populations in the surrounding agricultural soils through summer. Every fall, the adults from those populations seek overwintering sites in buildings. Your attic provides exactly what they need. Without sealing the attic entry points, the same thing will happen each year regardless of how many flies you remove. Sealing the entries is the solution.",
+      },
+      {
+        question: "Should I be concerned about hantavirus from deer mice in Lewistown?",
+        answer:
+          "Deer mice are the primary hantavirus reservoir in Montana and are common in Fergus County. The virus is transmitted through aerosolized droppings, urine, and saliva, not through bites. Standard precautions when cleaning rodent-affected areas: use an N95 respirator, gloves, and dampen droppings with disinfectant before cleaning rather than dry sweeping or vacuuming without a HEPA filter.",
+      },
+      {
+        question: "Are there carpenter ants in Lewistown like in western Montana?",
+        answer:
+          "Carpenter ants are present in Montana statewide but are much more of a structural pest issue in forested western Montana than in the central plains around Lewistown. In Lewistown, odorous house ants and pavement ants are more common household pests. Carpenter ants do occur but are less frequently the primary concern.",
+      },
+      {
+        question: "When do boxelder bugs appear in Lewistown?",
+        answer:
+          "Boxelder bugs become visible in late September and October in Lewistown. They aggregate on the south and west faces of buildings seeking overwintering sites. Properties with mature boxelder or maple trees see the heaviest aggregations. Treating the exterior surfaces when aggregations first appear in late September, before they enter wall voids, is the most effective approach.",
+      },
+      {
+        question: "Is wolf spider bite a concern in Lewistown?",
+        answer:
+          "Wolf spiders are capable of biting but very rarely do so unless directly handled or trapped. A bite typically produces local pain and minor swelling, not a serious medical reaction. They are large and alarming in appearance but are not dangerous. Reducing entry points and the prey insects that attract them indoors is the practical approach.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Billings", slug: "billings" },
+      { name: "Great Falls", slug: "great-falls" },
+      { name: "Missoula", slug: "missoula" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Lewistown, MT | Cluster Flies, Mice & Boxelder Bugs",
+    metaDescription:
+      "Lewistown MT pest control for cluster flies, house mice, boxelder bugs and ants. Fergus County central Montana agricultural community specialists. Call 1-800-PEST-USA.",
+  },
+  {
+    slug: "sidney-mt",
+    name: "Sidney",
+    state: "Montana",
+    stateSlug: "montana",
+    stateAbbr: "MT",
+    tier: "T3",
+    population: "~5,500",
+    county: "Richland County",
+    climate: "semi-arid",
+    climateDriver: "Sidney sits in far eastern Montana's Williston Basin at about 1,950 feet, with a continental climate that brings very cold winters, hot dry summers, and a spring/fall that rushes by quickly. The Yellowstone River corridor and surrounding oilfield and agricultural land creates sustained pressure from rodents, mosquitoes, and biting insects.",
+    topPests: ["Mice", "Voles", "Mosquitoes", "Boxelder Bugs", "Ground Squirrels"],
+    pestProfile: [
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "year-round, peaks October to March", note: "Sidney's extreme winters push field mice indoors aggressively; oilfield workovers and grain storage nearby maintain high local rodent populations." },
+      { name: "Voles", serviceSlug: "wildlife-removal", activeSeason: "spring and fall", note: "Meadow voles damage lawns and irrigated gardens along the Yellowstone corridor; snow cover conceals tunneling all winter." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Yellowstone River wetlands and irrigation canals create extensive mosquito breeding habitat; Sidney sees high mosquito pressure from June through August." },
+      { name: "Boxelder Bugs", serviceSlug: "boxelder-bug-control", activeSeason: "September to October", note: "Box elder trees along Sidney's streets and the Yellowstone corridor feed fall boxelder bug aggregations on south-facing structures." },
+      { name: "Ground Squirrels", serviceSlug: "wildlife-removal", activeSeason: "April to September", note: "Richardson's ground squirrels are common around Sidney's edges; their burrows damage lawns, gardens, and infrastructure." },
+    ],
+    localHook: "Sidney's position on the Montana-North Dakota border and the Yellowstone River makes it a convergence point for eastern Montana pest pressures. The oilfield economy means lots of vehicle traffic and equipment storage that attracts rodents, and river wetlands fuel summer mosquito populations that rival much larger cities.",
+    intro: "Pest control in Sidney is shaped by two things: extreme cold and open land. The continental winters in Richland County are brutal, and every fall mice from surrounding fields, pastures, and the Yellowstone bottomlands push hard into heated structures. Come summer, river wetlands fill with mosquitoes. Ground squirrels are a fixture around Sidney's agricultural perimeter. And boxelder bugs coat downtown buildings every September like clockwork. Small city, familiar pest list, but the intensity is high.",
+    sections: [
+      {
+        heading: "Rodent Control Along the Yellowstone Corridor",
+        body: "Sidney's location on the Yellowstone River means the surrounding bottomlands, grain storage, and oilfield infrastructure all maintain large rodent populations year-round. Field mice and voles move toward structures in fall, following warmth and food scent. Entry points are often around older foundation sills, crawl space vents, and utility conduits. We take a two-stage approach: seal confirmed entry points with permanent materials, then place tamper-resistant bait stations at the perimeter and snap traps in active interior zones. Vole damage to lawns and gardens responds to perimeter baiting and habitat reduction along fence lines and garden borders."
+      },
+      {
+        heading: "Mosquito Season on the Yellowstone River",
+        body: "Sidney sits close to river wetlands and extensive irrigation networks that hold standing water throughout summer. Culex mosquitoes, which carry West Nile virus, are the primary concern here. Peak pressure runs from late June through August. Residential mosquito control involves treating standing water sources, applying larvicide where practical, and conducting perimeter barrier treatments that reduce adult populations around living areas. Businesses near the river or with outdoor seating benefit from scheduled service throughout the season."
+      },
+      {
+        heading: "Boxelder Bugs and Ground Squirrels",
+        body: "September in Sidney means boxelder bugs. The mature box elder trees along streets and the Yellowstone corridor produce the seed crops that fuel large fall aggregations. By mid-September they're massing on south and west-facing walls. Seal attic vents and treat the perimeter before they cluster and you'll avoid finding them in every warm corner of the house from October through April. Ground squirrels are a separate issue. Their colonies establish quickly in late spring, and burrows can undermine concrete pads, garden beds, and lawns. Early treatment in April or May is far easier than dealing with a mature colony in July."
+      },
+    ],
+    prevention: [
+      "Caulk foundation gaps and utility penetrations before the first hard frost in September.",
+      "Remove standing water from yards, planters, and low spots to reduce mosquito habitat.",
+      "Treat boxelder bug aggregations with a perimeter spray in mid-September.",
+      "Check for ground squirrel burrows along fence lines and structural edges in early April.",
+      "Keep grain and pet food in sealed metal containers to avoid attracting mice.",
+    ],
+    costNote: "Most pest control visits in Sidney run $120 to $280. Mosquito barrier treatments for residential yards typically run $80 to $150 per application. Seasonal rodent prevention programs run $300 to $500 annually. Ground squirrel control programs depend on colony size and property configuration.",
+    faqs: [
+      {
+        question: "Is West Nile virus a real risk in Sidney, Montana?",
+        answer: "Yes. Richland County and the Yellowstone River corridor have documented West Nile virus activity in Culex mosquito populations. The risk is genuine, particularly for outdoor workers and people who spend time near the river in July and August. Mosquito control and personal protection both matter here."
+      },
+      {
+        question: "When should I start treating for mice in Sidney?",
+        answer: "Start in September, before the first freeze rather than after. By the time you hear mice in the walls, they've already established pathways and started breeding indoors. A prevention visit in early September, sealing entries and placing exterior bait stations, is the most effective strategy."
+      },
+      {
+        question: "Do ground squirrels in Sidney carry diseases?",
+        answer: "Ground squirrels can carry fleas that transmit plague, which is present in Montana's wild rodent populations. The risk to urban residents is low but not zero. We recommend not handling ground squirrels and treating infestations rather than letting colonies establish near structures."
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Glendive", slug: "glendive-mt" },
+      { name: "Miles City", slug: "miles-city-mt" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Sidney, MT | Mice, Mosquitoes & Ground Squirrels",
+    metaDescription: "Pest control in Sidney, Montana for mice, voles, mosquitoes, boxelder bugs, and ground squirrels. Yellowstone River corridor pest pressure needs professional management. Licensed Richland County technicians.",
+  },
 ];

@@ -1465,5 +1465,72 @@ export const wyomingCities: CityLocation[] = [
     metaTitle: "Pest Control in Rawlins, WY | Mice & Extreme Winter Rodent Control",
     metaDescription:
       "Rawlins pest control for house mice, hobo spiders, cluster flies, and yellow jackets. Wyoming's highest I-80 city at 6,754 ft creates the state's most intense fall rodent pressure. Free inspection. Call 1-800-PEST-USA.",
-  }
+  },
+  {
+    slug: "jackson-wy",
+    name: "Jackson",
+    state: "Wyoming",
+    stateSlug: "wyoming",
+    stateAbbr: "WY",
+    tier: "T3",
+    population: "~10,000",
+    county: "Teton County",
+    climate: "cold",
+    climateDriver: "Jackson sits in Teton County at roughly 6,200 feet in the Jackson Hole valley, surrounded by Grand Teton National Park to the north and the Bridger-Teton National Forest. The high-altitude mountain setting, heavy winter snowfall, cold summers, and extraordinary wildlife density create a pest environment unlike any other Wyoming city: wildlife intrusion, ticks from deer habitat, mosquitoes from valley wetlands, and bed bugs driven by high tourism.",
+    topPests: ["Wildlife (Raccoons, Skunks)", "Mice", "Wasps", "Deer Ticks", "Bed Bugs"],
+    pestProfile: [
+      { name: "Wildlife (Raccoons, Skunks)", serviceSlug: "wildlife-removal", activeSeason: "April to November", note: "Jackson's extraordinary proximity to Grand Teton National Park and Bridger-Teton Forest means raccoons, skunks, and other wildlife are constant urban visitors; denning in structures is common." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to May", note: "Jackson's severe mountain winters drive mice indoors from October through April; the valley's wildlife habitat maintains very high surrounding rodent populations." },
+      { name: "Wasps", serviceSlug: "wasp-bee-removal", activeSeason: "June to September", note: "Yellow jackets and paper wasps nest extensively in Jackson's structures and landscaping; the tourism economy means outdoor dining and events regularly bring human-wasp conflicts." },
+      { name: "Deer Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "May to October", note: "Jackson's elk and deer populations, some of the densest in the American West, sustain significant tick populations; Lyme disease has been detected in Wyoming." },
+      { name: "Bed Bugs", serviceSlug: "bed-bug-treatment", activeSeason: "year-round", note: "Jackson's world-class ski resort and summer tourism economy brings millions of visitors through its lodging annually; bed bug introduction risk is among the highest in Wyoming." },
+    ],
+    localHook: "Jackson, Wyoming is where mountain pest reality meets tourism economy. The town sits inside one of the most biodiverse wildlife corridors in the American West, which means wildlife pest intrusion, from skunks under decks to raccoons in attic spaces, is a year-round management challenge. At the same time, millions of resort guests passing through Jackson each year create exceptional bed bug introduction risk for the area's lodging industry.",
+    intro: "Pest control in Jackson, Wyoming isn't like pest control anywhere else in the state. You're at 6,200 feet in one of the country's most significant wildlife corridors, a short walk from Grand Teton National Park. Raccoons and skunks treat Jackson's neighborhoods as part of their range. Mice move into structures as early as late September. Yellow jackets and paper wasps reach peak aggression just as Jackson's summer tourism hits full stride. And the lodging industry, from vacation rentals to world-class ski resort accommodations, sees bed bug introductions with regularity that comes with hosting millions of visitors annually.",
+    sections: [
+      {
+        heading: "Wildlife Intrusion in Jackson's National Park Corridor",
+        body: "Living adjacent to Grand Teton National Park and Bridger-Teton Forest means Jackson residents share territory with wildlife populations that are unusually dense and habituated to human presence. Raccoons regularly den in attic spaces, crawl spaces, and under decks, especially from February through May when females are seeking birth sites. Skunks den under porches and foundations. Both species can cause significant secondary damage: soiled insulation, chewed wiring, and structural compromise around entry points. We remove wildlife humanely, seal the entry point with materials rated for the species involved, and assess for secondary damage. In Jackson, permanent exclusion rather than repeated capture is the most practical long-term approach."
+      },
+      {
+        heading: "Bed Bug Risk in Jackson's Tourism Economy",
+        body: "Jackson Hole Mountain Resort and the broader Jackson tourism economy see millions of visitors annually. Hotels, lodges, vacation rental properties, and short-term rentals all face bed bug introduction risk that scales with guest volume. Bed bugs travel with luggage; a single infested guest can introduce them to any accommodation. For Jackson's lodging industry, regular mattress and furniture inspection and rapid professional response to confirmed cases are the standard of care. For private homeowners who host short-term rentals through vacation platforms, the same risk applies. Early detection is critical: rust-colored spots on mattress seams and tiny shed skins in furniture seams are the signs to act on before an infestation establishes."
+      },
+      {
+        heading: "Mice, Wasps, and Ticks at High Altitude",
+        body: "Jackson's severe winters push mice into structures from October onward. The valley's extraordinary wildlife diversity includes massive populations of voles and deer mice that sustain, in turn, the predator populations that make the ecosystem famous. But those prey animals also press into heated structures in winter. Sealing foundation gaps, utility penetrations, and crawl space vents before October is essential. Yellow jacket season in Jackson runs June through September and creates real conflicts with outdoor tourism: nests near restaurant patios, zip line platforms, and outdoor event spaces pose sting risks when disturbed. We locate and treat nests safely. Ticks are present throughout the valley from snowmelt through early fall; Teton County's deer population ensures sustained tick pressure along any wooded or shrubby edge."
+      },
+    ],
+    prevention: [
+      "Inspect attic vents, fascia boards, and soffit gaps annually for wildlife entry points.",
+      "Seal foundation gaps and utility penetrations before October for mouse prevention.",
+      "Survey for yellow jacket nests in June before summer outdoor activity peaks.",
+      "Treat wooded yard edges for ticks from May through September.",
+      "Inspect mattress seams and furniture in all lodging accommodations between every guest cycle.",
+    ],
+    costNote: "Pest control in Jackson typically runs $150 to $400 per visit due to the remote mountain location and specialized wildlife work. Wildlife removal and exclusion runs $300 to $800 depending on species and entry complexity. Bed bug treatment for lodging properties runs $400 to $1,200 per unit. Annual prevention programs for mice, wildlife, and seasonal insects run $600 to $1,200.",
+    faqs: [
+      {
+        question: "Is wildlife removal legal in Teton County, Wyoming?",
+        answer: "Nuisance wildlife management in Wyoming is regulated by the Wyoming Game and Fish Department. Most wildlife that causes property damage, including raccoons, skunks, and ground squirrels, can be removed by licensed wildlife control operators. Certain species have additional protections. We are fully licensed for wildlife removal in Teton County and operate within all applicable regulations. We never relocate wildlife to Grand Teton National Park."
+      },
+      {
+        question: "How does Jackson's high altitude affect pest season timing?",
+        answer: "At 6,200 feet, Jackson's pest seasons are compressed and shifted compared to lower-altitude Wyoming communities. Mosquito and tick season is shorter (May through September rather than April through October). Wasp colonies build more slowly but still reach peak aggression in August. Winter mouse invasion starts earlier, in late September, because temperatures drop faster. Insects are generally less numerous than at lower altitudes, but the wildlife pest list is far longer than anywhere else in the state."
+      },
+      {
+        question: "What should vacation rental hosts in Jackson do about bed bugs?",
+        answer: "Inspect mattress seams, furniture seams, and headboard areas between every guest turnover. Look for rust-colored spots, small shed skins, and live insects. If you find anything suspicious, pull the unit from rental service and call us for an inspection before the next guest arrives. One confirmed case caught early is a far smaller problem than one that's had several guest cycles to establish and spread."
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management Specialist",
+    nearbyCities: [
+      { name: "Cody", slug: "cody-wy" },
+      { name: "Riverton", slug: "riverton-wy" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Jackson, WY | Wildlife Removal, Mice & Bed Bugs",
+    metaDescription: "Pest control in Jackson, Wyoming near Grand Teton National Park. Wildlife removal, mice, wasps, ticks, and bed bugs for Teton County's resort community. Licensed WY technicians.",
+  },
 ];

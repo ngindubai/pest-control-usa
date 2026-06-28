@@ -1560,5 +1560,273 @@ export const newHampshireCities: CityLocation[] = [
     metaTitle: "Pest Control in Claremont, NH | Ticks, Carpenter Ants & Connecticut River Valley",
     metaDescription:
       "Claremont NH pest control for deer ticks, carpenter ants, house mice, German cockroaches, and cluster flies. Sullivan County Connecticut River valley city with older building stock. Free inspection. Call 1-800-PEST-USA.",
-  }
+  },
+  {
+    slug: "goffstown-nh",
+    name: "Goffstown",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~18,000",
+    county: "Hillsborough County",
+    climate: "cold-humid",
+    climateDriver: "Goffstown is a residential town immediately west of Manchester, sitting in a forested valley along the Piscataquog River. Its mix of dense suburban neighborhoods and conservation woodland creates strong tick and wildlife pest pressure, while its older housing stock and cold winters drive consistent mouse and carpenter ant activity.",
+    topPests: ["Mice", "Carpenter Ants", "Deer Ticks", "Mosquitoes", "Raccoons"],
+    pestProfile: [
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Goffstown's suburban-woodland mix and older housing stock create annual fall mouse pressure; homes with wooded backyards see the earliest and heaviest invasion." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "April to October", note: "Piscataquog River moisture and Goffstown's forest coverage support large carpenter ant populations; moisture-damaged sills and porch timbers are frequent infestation sites." },
+      { name: "Deer Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March to November", note: "Hillsborough County has documented Lyme disease activity; Goffstown's wooded conservation parcels and wildlife corridors maintain year-round tick populations." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Piscataquog River and associated wetlands support a substantial mosquito population; river-adjacent neighborhoods have notably longer and heavier mosquito seasons." },
+      { name: "Raccoons", serviceSlug: "raccoon-removal", activeSeason: "year-round", note: "Goffstown's wooded lots and residential density create ideal raccoon habitat; they den in attics, sheds, and under decks and are a consistent nuisance across the town." },
+    ],
+    localHook: "Goffstown straddles the edge between Manchester suburb and New Hampshire woodland, and that position creates a pest environment that's more rural in character than the city next door. Raccoons den in attics regularly. Ticks are present on wooded lots year-round. Carpenter ants find older Goffstown homes attractive all season long.",
+    intro: "Pest control in Goffstown reflects the town's split personality between suburban and forested. The neighborhoods near Queen City Avenue and New Boston Road see the pest pressures of dense residential areas: carpenter ants in older homes, mice every fall, stink bugs in September. The neighborhoods that back up to the Piscataquog River corridor or the conservation lands on the western side of town deal with more: ticks, mosquitoes, and raccoons that den in attics with regularity. We cover both zones and know which part of Goffstown you're in when you call.",
+    sections: [
+      {
+        heading: "Raccoon and Wildlife Removal in Goffstown",
+        body: "Raccoons are one of Goffstown's most common pest calls. The town's forested lots, river corridor, and established neighborhoods with mature trees and accessible attic vents create ideal raccoon habitat year-round. Female raccoons seek attic spaces for denning in late winter and spring, typically February through April. Once a raccoon has denned in an attic, she often returns in subsequent years unless the entry point is permanently sealed. We remove wildlife humanely, seal the entry point, and assess for secondary damage including chewed wiring and soiled insulation. Squirrels use the same attic access points and are a related concern."
+      },
+      {
+        heading: "Tick and Mosquito Management Along the Piscataquog",
+        body: "The Piscataquog River and its associated wetlands run through Goffstown's conservation land and near several residential areas. The river corridor supports both mosquito breeding populations and the deer habitat that sustains tick populations. Hillsborough County has documented Lyme disease transmission, and Goffstown's wooded character puts tick exposure on the table for any property with wooded edges. Tick treatment targets the lawn-to-woodland transition zone; mosquito barrier treatment targets yard vegetation. Properties along the river should expect higher baseline pressure and more frequent treatment intervals."
+      },
+      {
+        heading: "Carpenter Ants and Mice in Goffstown Homes",
+        body: "Goffstown's older housing stock, particularly the neighborhoods along Mast Road and the village center, carries typical New Hampshire residential pest risk: carpenter ants in moisture-affected wood and mice through settled foundations every fall. Carpenter ants are most visible in spring when winged swarmers emerge from wall galleries. The underlying issue is almost always moisture: an ice dam leak, a settled porch post, or bathroom condensation that hasn't been ventilated properly. Mouse prevention in Goffstown requires perimeter exclusion work: copper mesh at utility penetrations, door sweeps on exterior doors, and bait station placement along the foundation."
+      },
+    ],
+    prevention: [
+      "Inspect attic vents and fascia boards annually for raccoon and squirrel entry points.",
+      "Treat wooded yard edges for ticks in April and again in August.",
+      "Seal foundation gaps and utility penetrations before October for mouse prevention.",
+      "Trim tree branches at least 8 feet from rooflines to reduce wildlife bridge access.",
+      "Clear Piscataquog-adjacent standing water and maintain gutters to reduce mosquito breeding.",
+    ],
+    costNote: "Pest control in Goffstown typically runs $130 to $300. Raccoon removal and exclusion runs $250 to $600 depending on entry point complexity and attic condition. Tick yard treatment runs $85 to $155 per application. Annual prevention plans for mice, carpenter ants, and seasonal insects run $450 to $700.",
+    faqs: [
+      {
+        question: "How do I know if a raccoon has gotten into my Goffstown attic?",
+        answer: "Sounds are the most common indicator: heavy thumping and rolling movement from above, especially at night. Raccoons are large animals and move nothing like squirrels. You may also notice torn soffit material, displaced attic vents, or a persistent musky odor. In spring, listen for the distinctive chattering of raccoon kits. Call us before attempting any DIY removal."
+      },
+      {
+        question: "When do deer ticks become active in Goffstown?",
+        answer: "Deer ticks become active when soil temperatures reach 35 degrees, which in Hillsborough County typically means late March or early April. They remain active through November. The highest-risk windows are April through June and again in September and October, when nymphal and adult ticks are most abundant and questing. Winter ticks can also be active on mild days."
+      },
+      {
+        question: "Why are carpenter ants coming out of my walls in spring?",
+        answer: "Carpenter ant swarmers (winged reproductives) emerge from established colonies to mate and start new colonies in spring, typically April or May. If they're emerging from inside your walls, there's an active colony inside the structure, not just foragers from outside. This warrants an inspection to locate and treat the satellite gallery before the colony expands further."
+      },
+    ],
+    author: "James Cole, Service Operations Manager",
+    nearbyCities: [
+      { name: "Manchester", slug: "manchester-nh" },
+      { name: "Hooksett", slug: "hooksett-nh" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Goffstown, NH | Mice, Raccoons & Ticks",
+    metaDescription: "Pest control in Goffstown, New Hampshire for mice, carpenter ants, raccoons, deer ticks, and mosquitoes. Hillsborough County suburban-woodland pest management. Licensed NH technicians.",
+  },
+  {
+    slug: "hooksett-nh",
+    name: "Hooksett",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~15,000",
+    county: "Merrimack County",
+    climate: "cold-humid",
+    climateDriver: "Hooksett sits in Merrimack County along the Merrimack River between Manchester and Concord. The river corridor, mixed residential and commercial development, and wooded lot coverage create a classic southern New Hampshire pest environment: ticks from wooded edges, mosquitoes from river wetlands, and rodents from nearby fields.",
+    topPests: ["Mice", "Carpenter Ants", "Deer Ticks", "Mosquitoes", "Wasps"],
+    pestProfile: [
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Merrimack River corridor fields and Hooksett's mix of older and newer homes create reliable fall mouse migration; commercial strips near Route 3 also attract rodents year-round." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "April to October", note: "Hooksett's forested lots and river-influence moisture make carpenter ants a consistent structural concern in both older and newer construction." },
+      { name: "Deer Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March to November", note: "Merrimack County has documented Lyme disease activity; the Merrimack River trail system and conservation land support tick populations throughout Hooksett." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Merrimack River wetlands and seasonal low areas throughout Hooksett create mosquito breeding sites; river trail users and riverfront properties have elevated exposure." },
+      { name: "Wasps", serviceSlug: "wasp-bee-removal", activeSeason: "June to October", note: "Yellow jackets and paper wasps nest extensively in Hooksett's wooded residential lots and commercial eave structures; ground nests in lawns peak in August." },
+    ],
+    localHook: "Hooksett is a Route 3 corridor town that functions as a bedroom community for Manchester and Concord, with a mix of commercial development near the highway and quieter residential neighborhoods backing up to the Merrimack River and conservation land. That positioning creates distinct pest zones depending on which part of town you're in.",
+    intro: "Pest control in Hooksett works on two tracks. The commercial strip near Route 3, with its restaurants, storage facilities, and warehouses, runs on a rodent and cockroach management model. The residential neighborhoods east of the highway, backing up to the Merrimack River and conservation land, run on a tick, mosquito, and carpenter ant model. Most homeowners in Hooksett are dealing with the residential list: fall mice, spring carpenter ants, summer ticks and mosquitoes, and yellow jackets through September.",
+    sections: [
+      {
+        heading: "Carpenter Ants and Mice in Hooksett Homes",
+        body: "Hooksett has a mix of housing ages, from post-war ranches near the center of town to newer subdivisions carved out of former woodland. Carpenter ants affect both: older homes for their moisture-damaged wood, newer homes when construction drainage wasn't properly managed and slab or sill issues develop. The Merrimack River's moisture influence extends well into residential neighborhoods along Bear Brook and the river trail corridor. Mice are a fall certainty across Hooksett's residential neighborhoods. Properties with wooded backyards typically see the first mouse entries in late September; homes with tighter exteriors and suburban-facing lots may not notice until November. The prevention approach is the same: seal entries before they're needed, not after."
+      },
+      {
+        heading: "Ticks and Mosquitoes Along the Merrimack River",
+        body: "Hooksett's Merrimack River trail is a genuine amenity, and like any wooded recreational corridor in New Hampshire, it's tick habitat. Merrimack County has documented Lyme disease, and anyone using the trail system regularly should be aware of tick exposure year-round. The Merrimack River also provides mosquito breeding habitat in its slower-moving side channels and seasonal wetlands adjacent to the trail. Properties with riverfront or trail adjacency should consider both tick and mosquito yard treatment as a package. Barrier treatment for mosquitoes and acaricide treatment for tick zones protect the transition areas between maintained lawn and woodland."
+      },
+      {
+        heading: "Yellow Jackets and Commercial Pest Management",
+        body: "Yellow jackets are a late-summer concern across Hooksett's residential and commercial zones. Ground nests in lawn areas are invisible until disturbed; eave nests at commercial properties are more visible but equally problematic. We locate and treat nests directly rather than using broadcast sprays that miss the colony. For commercial accounts near Route 3, particularly food service, we provide integrated pest management programs that address rodents, stored product insects, and nuisance wasps on a scheduled basis. Residential yellow jacket calls are typically resolved in a single treatment."
+      },
+    ],
+    prevention: [
+      "Treat wooded yard edges and Merrimack River-adjacent areas for ticks in April and August.",
+      "Seal foundation gaps and door sweeps before October; commercial properties should also address loading dock and dumpster gaps.",
+      "Inspect soffit boards and window headers annually for moisture and carpenter ant activity.",
+      "Walk the lawn in early summer for yellow jacket ground nest entrance holes.",
+      "Eliminate standing water from gutters, birdbaths, and low spots weekly through August.",
+    ],
+    costNote: "Residential pest control visits in Hooksett run $130 to $300. Tick yard treatment runs $80 to $150 per application. Yellow jacket nest treatment runs $140 to $240 per nest. Annual residential prevention plans run $450 to $700. Commercial IPM programs are quoted by account type and frequency.",
+    faqs: [
+      {
+        question: "Is Lyme disease a risk near the Merrimack River trail in Hooksett?",
+        answer: "Yes. The wooded corridor along the Merrimack supports deer and small mammals that maintain deer tick populations. Anyone hiking, running, or walking dogs on the trail should do a tick check afterward year-round. For properties that abut the trail or have wooded edges nearby, yard treatment in spring and late summer reduces exposure at home."
+      },
+      {
+        question: "How do I find a yellow jacket nest in my Hooksett lawn?",
+        answer: "Watch for workers returning to a single ground point repeatedly, especially in the morning. You may see them disappearing into the lawn near a small hole. Mark the location from a safe distance (at least 20 feet) and call us. Do not pour water or gasoline into the hole or try to cover it. Ground nests can hold several thousand aggressive workers."
+      },
+      {
+        question: "Do I need pest control if my Hooksett home is new construction?",
+        answer: "Newer construction still carries risk. New subdivisions in Hooksett are often carved from former woodland, which means the surrounding pest populations didn't go away; they relocated to your yard and adjacent properties. Carpenter ant pressure from surrounding trees and fall mouse migration from cleared land are common issues in new construction within the first few years of occupancy."
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician",
+    nearbyCities: [
+      { name: "Manchester", slug: "manchester-nh" },
+      { name: "Concord", slug: "concord-nh" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Hooksett, NH | Mice, Ticks & Carpenter Ants",
+    metaDescription: "Pest control in Hooksett, New Hampshire for mice, carpenter ants, deer ticks, mosquitoes, and yellow jackets. Merrimack River corridor pest management. Licensed NH technicians.",
+  },
+  {
+    slug: "exeter-nh",
+    name: "Exeter",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~15,000",
+    county: "Rockingham County",
+    climate: "cold-humid",
+    climateDriver: "Exeter sits in Rockingham County along the Squamscott River in southeastern New Hampshire, where the coastal influence from the nearby seacoast moderates temperatures but adds humidity. The town's historic character, Phillips Exeter Academy campus, and mix of older buildings and forested lots create a layered pest environment.",
+    topPests: ["Mice", "Carpenter Ants", "Deer Ticks", "Bed Bugs", "Yellow Jackets"],
+    pestProfile: [
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Exeter's older housing stock and Squamscott River corridor create reliable fall mouse pressure; the academy's dining and housing facilities also attract rodents." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "April to October", note: "Exeter's historic downtown buildings, many over 150 years old, carry the moisture history that makes carpenter ant infestation nearly universal in the oldest structures." },
+      { name: "Deer Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March to November", note: "Rockingham County has one of New Hampshire's highest Lyme disease rates; Exeter's wooded lots and the river corridor support dense tick populations." },
+      { name: "Bed Bugs", serviceSlug: "bed-bug-treatment", activeSeason: "year-round", note: "Exeter's student population at Phillips Exeter Academy, transient housing near the academy, and lodging accommodations create above-average bed bug introduction risk." },
+      { name: "Yellow Jackets", serviceSlug: "wasp-bee-removal", activeSeason: "June to October", note: "Yellow jackets nest in Exeter's older building eaves, wall voids, and lawn areas; the academy's campus buildings and historic downtown properties see regular nest activity." },
+    ],
+    localHook: "Exeter is one of New Hampshire's most historic towns, home to one of the country's most prestigious prep schools, and that combination creates a distinctive pest environment. The oldest buildings in the downtown core have accumulated decades of moisture history that makes them carpenter ant territory. The student population and transient housing create bed bug introduction risk that's higher than most towns this size.",
+    intro: "Pest control in Exeter runs on the town's character: historic, dense, and connected to a large residential student population. Carpenter ants in 19th-century structures near Swasey Parkway and Main Street are a consistent structural concern. The Phillips Exeter Academy campus and surrounding student housing create the kind of foot traffic and occupancy turnover that makes bed bug vigilance worth maintaining. Ticks are a genuine Rockingham County risk along wooded trails and the river. And yellow jackets fill Exeter's older eave structures every summer.",
+    sections: [
+      {
+        heading: "Carpenter Ants in Exeter's Historic Building Stock",
+        body: "Exeter's downtown and surrounding residential neighborhoods include buildings that predate the Civil War. These structures have accumulated moisture history in ways that modern construction doesn't: old slate roofs, balloon-frame walls, stone foundations that wick moisture, and chimneys that have settled and cracked. Carpenter ants have been present in many of these buildings for generations, expanding and contracting with seasonal moisture cycles. An inspection of a 19th-century Exeter home almost always finds some combination of active or prior carpenter ant evidence. Treatment involves locating the satellite gallery and treating it directly, combined with a barrier perimeter treatment. The moisture issue underlying the infestation needs a separate fix to achieve lasting control."
+      },
+      {
+        heading: "Bed Bugs and Student Housing in Exeter",
+        body: "Exeter's combination of Phillips Exeter Academy boarding facilities, nearby student apartments, and lodging accommodations creates bed bug introduction risk that's proportionally higher than most towns of this size. Bed bugs travel with luggage and clothing; boarding school settings, with students arriving from across the country and internationally, create regular introduction opportunities. We provide discreet, effective bed bug treatment for Exeter homes and facilities using heat treatment and targeted chemical protocols. Early detection, typically identifiable by small rust-colored spots on mattress seams, bite patterns, or visible insects in bedding folds, makes treatment far less intensive."
+      },
+      {
+        heading: "Ticks, Mice, and Yellow Jackets by Season",
+        body: "Rockingham County is among New Hampshire's higher-risk counties for Lyme disease, and Exeter's Squamscott River corridor and wooded residential lots provide the habitat that sustains deer tick populations year-round. Tick treatment for yard edges and wooded transitions in April and August covers the two highest-risk windows. Mice follow the fall rhythm: cooling nights, harvest season in surrounding fields, and the first urge to find a warm space. Older Exeter homes with stone or brick foundations have more potential entry points than newer construction. Yellow jackets in Exeter are most problematic at older eave structures and in ground nests in the lawn; late summer is their most aggressive period."
+      },
+    ],
+    prevention: [
+      "Inspect historic rooflines and chimney flashings annually for moisture intrusion that invites carpenter ants.",
+      "Treat wooded lawn edges for ticks in April and again in late August.",
+      "Check mattresses and bedding in any sleeping area that has hosted visitors from out of town.",
+      "Seal foundation gaps and exterior door sweeps before October for mouse prevention.",
+      "Walk eave lines in early July to spot yellow jacket nest starts before they reach full size.",
+    ],
+    costNote: "Pest control visits in Exeter run $130 to $320. Bed bug treatment runs $300 to $800 depending on room count and treatment method. Tick yard treatment runs $85 to $160 per application. Annual prevention plans for mice, carpenter ants, and seasonal insects run $450 to $700. Yellow jacket nest treatment is $140 to $250 per nest.",
+    faqs: [
+      {
+        question: "How common are bed bugs around Phillips Exeter Academy?",
+        answer: "More common than in a typical residential community. Boarding schools create the exact conditions that allow bed bugs to spread: shared sleeping quarters, students from diverse geographic backgrounds arriving and departing throughout the year, and a campus environment where furniture and bedding move between rooms. We treat cases discreetly and can work with facilities teams on prevention protocols."
+      },
+      {
+        question: "Why do my Exeter walls seem to have carpenter ants every spring?",
+        answer: "If winged carpenter ant swarmers are emerging from your walls each spring, you have an established internal colony, not just foragers from outside. Historic Exeter homes often have satellite galleries in moisture-affected wood that have been present for years. The swarmers are the ants' way of spreading to new locations. Direct gallery treatment plus resolving the moisture issue is the lasting fix."
+      },
+      {
+        question: "Is Lyme disease a risk in downtown Exeter?",
+        answer: "Less so in the dense downtown core, but yes in neighborhoods with wooded edges and along the Squamscott River corridor. Ticks need the right habitat, and the more wooded and leafy your lot, the higher the exposure risk. Rockingham County's Lyme rate is genuine. Anyone with a property that has wooded edges or leaf litter should treat proactively."
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist",
+    nearbyCities: [
+      { name: "Hampton", slug: "hampton-nh" },
+      { name: "Portsmouth", slug: "portsmouth-nh" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Exeter, NH | Mice, Carpenter Ants & Bed Bugs",
+    metaDescription: "Pest control in Exeter, New Hampshire for mice, carpenter ants, bed bugs, deer ticks, and yellow jackets. Historic Rockingham County town needs expert pest management. Licensed NH technicians.",
+  },
+  {
+    slug: "pelham-nh",
+    name: "Pelham",
+    state: "New Hampshire",
+    stateSlug: "new-hampshire",
+    stateAbbr: "NH",
+    tier: "T3",
+    population: "~14,500",
+    county: "Hillsborough County",
+    climate: "cold-humid",
+    climateDriver: "Pelham is a small residential town in southern Hillsborough County bordering Massachusetts, with extensive wooded conservation land, Pelham Bog, and a predominantly residential character with minimal commercial development. Its proximity to Massachusetts and its forested nature make it one of the tick-intensive communities in southern New Hampshire.",
+    topPests: ["Deer Ticks", "Mice", "Mosquitoes", "Carpenter Ants", "Stink Bugs"],
+    pestProfile: [
+      { name: "Deer Ticks", serviceSlug: "flea-tick-treatment", activeSeason: "March to November", note: "Pelham has extensive conservation woodland and proximity to Massachusetts tick habitat; Hillsborough County Lyme disease rates are significant and Pelham's forested character amplifies personal risk." },
+      { name: "Mice", serviceSlug: "mice-control", activeSeason: "October to April", note: "Wooded surroundings and residential properties abutting conservation land create strong fall mouse migration pressure across Pelham." },
+      { name: "Mosquitoes", serviceSlug: "mosquito-control", activeSeason: "May to September", note: "Pelham Bog and the Town Brook watershed create seasonal mosquito breeding habitat; low-lying residential lots near conservation areas see elevated exposure." },
+      { name: "Carpenter Ants", serviceSlug: "ant-control", activeSeason: "April to October", note: "Pelham's forest coverage and older residential construction make carpenter ants a consistent structural concern, particularly for homes with wooded backyards." },
+      { name: "Stink Bugs", serviceSlug: "stink-bug-control", activeSeason: "September to November", note: "Brown marmorated stink bugs have spread across Hillsborough County and aggregate heavily on Pelham homes each fall as temperatures drop." },
+    ],
+    localHook: "Pelham is one of southern New Hampshire's most forested residential communities, sitting on the Massachusetts border with extensive conservation land that keeps the town quiet but also keeps tick pressure high year-round. Many Pelham families moved from Massachusetts and are already familiar with Lyme disease risk; Pelham's habitat makes that risk no lower.",
+    intro: "Pest control in Pelham is largely a story about ticks and the forested character of a town that values its conservation land. Hillsborough County has real Lyme disease numbers, and Pelham's extensive woodland, Pelham Bog, and Town Brook corridors sustain the deer and small mammal populations that keep tick populations viable year-round. Mice are a fall certainty for any property with wooded neighbors, which is most of Pelham. Carpenter ants work the moisture-affected wood in older homes. Mosquitoes follow the bog drainage into low-lying residential areas. Stink bugs come each September like clockwork.",
+    sections: [
+      {
+        heading: "Tick Management for Pelham's Forested Lots",
+        body: "Pelham's conservation land covers a significant portion of the town, and residential lots throughout the community either abut or are close to wooded corridors. Deer ticks are active from March through November and require management that most suburban New Hampshire communities don't think about until someone in the household gets a tick bite. The key treatment zone is the transition between maintained lawn and leaf litter or brushy understory, typically a 10-to-15-foot buffer. We apply targeted acaricides to this transition in spring and again in late summer, which are the two windows when nymphal and adult tick populations are most active and questing. Pelham Bog and Town Brook area properties should consider three treatments per year."
+      },
+      {
+        heading: "Mice and Carpenter Ants in Wooded Pelham Neighborhoods",
+        body: "A property in Pelham that backs up to conservation woodland has essentially no off-season from mouse pressure. The surrounding forest maintains year-round field mouse and deer mouse populations, and every fall, cooling temperatures push them toward structures. Older Pelham homes, particularly on lots that were developed in the 1960s and 1970s, often have settled foundations and wood sills that have been exposed to decades of frost heave and moisture cycling. Both create entry opportunities for mice and attractive habitat for carpenter ants. Exclusion and interior trapping for mice, direct gallery treatment and perimeter barrier for carpenter ants, managed together, make the most sense given Pelham's setting."
+      },
+      {
+        heading: "Mosquitoes, Stink Bugs, and Seasonal Pest Management",
+        body: "Pelham Bog and the wetland drainage systems throughout the town's conservation land create seasonal mosquito breeding habitat that affects residential properties along the lower reaches of Town Brook and near bog-adjacent neighborhoods. Barrier treatment for mosquitoes is most effective when combined with standing water source elimination on the property itself; ambient mosquito populations from conservation wetlands require a combination approach. Stink bugs are a late September through October issue across southern New Hampshire, and Pelham's forested lots, which provide the fruit tree and ornamental plant hosts these insects feed on in summer, see heavier than average fall aggregations."
+      },
+    ],
+    prevention: [
+      "Treat wooded yard edges for ticks in April; add a late August treatment for fall tick activity.",
+      "Seal foundation sills, utility penetrations, and door gaps before October for mouse prevention.",
+      "Trim vegetation away from the structure to reduce carpenter ant and wildlife bridge access.",
+      "Apply perimeter spray in mid-September to intercept fall stink bug aggregation.",
+      "Inspect low-lying areas and gutters monthly through August for standing water.",
+    ],
+    costNote: "Pest control visits in Pelham typically run $130 to $300. Tick yard treatment runs $85 to $160 per application; two-treatment programs are the standard, with a third application for bog-adjacent properties. Annual prevention plans for mice, carpenter ants, ticks, and seasonal insects run $500 to $750.",
+    faqs: [
+      {
+        question: "Is Lyme disease a concern for families in Pelham, NH?",
+        answer: "Yes, meaningfully so. Hillsborough County has documented Lyme disease transmission, and Pelham's forested character keeps tick populations high year-round. Families with children who play in wooded areas or backyards with wooded edges should treat seriously. Tick checks after outdoor activity and yard treatment for your property's transition zones are the two most effective measures."
+      },
+      {
+        question: "Why do mice get into my Pelham home so early in the fall?",
+        answer: "Forest-adjacent properties in Pelham don't have the buffer that purely suburban homes do. Field mice and deer mice live in the surrounding woodland year-round and begin seeking shelter as soon as nights cool, often by late September. They follow heat gradients along foundation edges and will find any gap larger than a dime. Properties with wooded backyards should treat in September, not after they're heard in the walls."
+      },
+      {
+        question: "How do stink bugs get in, and how do I stop them?",
+        answer: "Stink bugs enter through window gaps, utility penetrations, and any crack in exterior cladding they can fit through. In September, they aggregate on warm south-facing walls and probe for openings while the sun is warming the structure. A perimeter spray applied when daytime temps first drop below 65 consistently, usually mid-September in Pelham, disrupts the aggregation and significantly reduces entry."
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management Specialist",
+    nearbyCities: [
+      { name: "Nashua", slug: "nashua-nh" },
+      { name: "Salem", slug: "salem-nh" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Pelham, NH | Ticks, Mice & Carpenter Ants",
+    metaDescription: "Pest control in Pelham, New Hampshire for deer ticks, mice, mosquitoes, carpenter ants, and stink bugs. Hillsborough County's forested town demands proactive tick management. Licensed NH technicians.",
+  },
 ];

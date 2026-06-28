@@ -10,15 +10,15 @@
 
 ## Current State (2026-06-28)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-87 complete. T2 COMPLETE.
-- **City pages built:** 2101 total (75 T1 + 300 T2 + 1726 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-89 complete. T2 COMPLETE.
+- **City pages built:** 2151 total (75 T1 + 300 T2 + 1776 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 2183 in the static export (home, services, 50+ states, 2101 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Actual distribution from file audit: A=417, B=404, C=427, D=415, E=438 (2101 total, all within 15-25% range).
-- **Cities built T3 chunk 87 (25 pages, Template E/brief, Dr. Lena Ortiz):** 3 FL (lake-worth-beach-fl, hallandale-beach-fl, temple-terrace-fl), 2 GA (suwanee-ga, winder-ga), 2 NC (smithfield-nc, mount-airy-nc), 3 IL (gurnee-il, elk-grove-village-il, lombard-il), 2 NJ (bridgewater-nj, asbury-park-nj), 2 NY (harrison-ny, riverhead-ny), 2 WA (port-angeles-wa, arlington-wa), 2 MI (eastpointe-mi, inkster-mi), 2 PA (quakertown-pa, berwick-pa), 2 OH (upper-arlington-oh, defiance-oh), 1 VA (purcellville-va), 2 TX (nederland-tx, plainview-tx). All data-forward brief style.
-- **Cities built T3 chunk 86 (25 pages, Template D/qa):** 4 VA (vienna-va, chantilly-va, lake-ridge-va, springfield-va), 4 FL (hialeah-gardens-fl, fernandina-beach-fl, lynn-haven-fl, navarre-fl), 3 GA (union-city-ga, jonesboro-ga, fairburn-ga), 1 OH (springdale-oh), 1 TN (nolensville-tn), 3 NC (harrisburg-nc, weddington-nc, wendell-nc), 3 WA (sedro-woolley-wa, lynden-wa, cheney-wa), 3 NJ (howell-nj, jackson-nj, berkeley-nj), 2 PA (upper-darby-pa, whitehall-pa), 1 NY (great-neck-ny).
+- **Total site pages:** 2233 in the static export (home, services, 50+ states, 2151 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Actual distribution: A=442 (20.5%), B=429 (19.9%), C=427 (19.9%), D=415 (19.3%), E=438 (20.4%) for 2151 total (all within 15-25% range).
+- **Cities built T3 chunk 88 (25 pages, Template A/operator):** UT (5): bountiful-ut, roy-ut, tooele-ut, cedar-city-ut, american-fork-ut. ID (4): ammon-id, hayden-id, burley-id, jerome-id. NV (3): pahrump-nv, winnemucca-nv, fallon-nv. DE (3): smyrna-de, milford-de, seaford-de. MT (2): belgrade-mt, lewistown-mt. SD (2): brandon-sd, tea-sd. RI (2): central-falls-ri, north-kingstown-ri. ME (2): brewer-me, old-town-me. VT (1): winooski-vt. MD (1): new-carrollton-md.
+- **Cities built T3 chunk 89 (25 pages, Template B/neighbor):** UT (5): pleasant-grove-ut, springville-ut, saratoga-springs-ut, clearfield-ut, kaysville-ut. ID (2): rathdrum-id, middleton-id. MT (1): sidney-mt. VT (2): st-albans-vt, middlebury-vt. ME (2): bath-me, caribou-me. RI (3): coventry-ri, south-kingstown-ri, johnston-ri. NH (4): goffstown-nh, hooksett-nh, exeter-nh, pelham-nh. SD (2): harrisburg-sd, madison-sd. MD (3): district-heights-md, bladensburg-md, riverdale-park-md. WY (1): jackson-wy.
 - **New state files added:** none (all states already registered, cities appended to existing state files).
-- **Next block:** Chunk 88, T3 continues, rotation at A.
+- **Next block:** Chunk 90, T3 continues, rotation at C.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering
