@@ -11,11 +11,13 @@
 ## Current State (2026-06-28)
 
 - **Phase:** Phase 3 T3 in progress. Chunks 15-86 complete. T2 COMPLETE.
-- **City pages built:** 2051 total (75 T1 + 300 T2 + 1676 T3).
+- **City pages built:** 2076 total (75 T1 + 300 T2 + 1701 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 2133 in the static export (home, services, 50+ states, 2051 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=422, B=385, C=406, D=420, E=393 (2051 total cities, all within 15-25% range).
-- **Cities built T3 chunk 86 (25 pages, Template D/qa):** 4 VA (vienna-va, chantilly-va, lake-ridge-va, springfield-va), 4 FL (hialeah-gardens-fl, fernandina-beach-fl, lynn-haven-fl, navarre-fl), 3 GA (union-city-ga, jonesboro-ga, fairburn-ga), 1 OH (springdale-oh), 1 TN (nolensville-tn), 3 NC (harrisburg-nc, weddington-nc, wendell-nc), 3 WA (sedro-woolley-wa, lynden-wa, cheney-wa), 3 NJ (howell-nj, jackson-nj, berkeley-nj), 2 PA (upper-darby-pa, whitehall-pa), 1 NY (great-neck-ny). Author rotation: Marcus Reed x7, Dr. Lena Ortiz x9, Sandra Whitfield x5, James Cole x4.
+- **Total site pages:** 2158 in the static export (home, services, 50+ states, 2076 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Actual distribution from file audit: A=417, B=404, C=427, D=415, E=413 (2076 total, all within 15-25% range).
+- **Cities built T3 chunk 84 (25 pages, Template B/neighbor):** 9 FL (royal-palm-beach-fl, north-miami-beach-fl, lauderdale-lakes-fl, sebastian-fl, niceville-fl, destin-fl, panama-city-beach-fl, west-melbourne-fl, cape-canaveral-fl), 2 GA (decatur-ga, chamblee-ga), 6 NJ (fair-lawn-nj, paramus-nj, ridgewood-nj, mount-laurel-nj, voorhees-nj, evesham-nj), 5 NY (garden-city-ny, mineola-ny, lynbrook-ny, massapequa-park-ny, westbury-ny), 3 WA (des-moines-wa, kenmore-wa, mercer-island-wa). Committed without a separate chunk 84 session log entry.
+- **Cities built T3 chunk 85 (25 pages, Template C/comparison):** 8 OH (centerville-oh, oregon-oh, sylvania-oh, broadview-heights-oh, mayfield-heights-oh, brecksville-oh, riverside-oh, forest-park-oh), 2 GA (college-park-ga, forest-park-ga), 4 NY (patchogue-ny, amityville-ny, farmingdale-ny, babylon-ny), 5 WA (anacortes-wa, ferndale-wa, burlington-wa, fife-wa, gig-harbor-wa), 3 PA (cranberry-pa, plum-pa, murrysville-pa), 2 NJ (galloway-nj, egg-harbor-nj), 1 VA (fairfax-va). Fixed pre-existing decatur-ga missing { and washington.ts dangling {.
+- **Cities built T3 chunk 86 (25 pages, Template D/qa):** 4 VA (vienna-va, chantilly-va, lake-ridge-va, springfield-va), 4 FL (hialeah-gardens-fl, fernandina-beach-fl, lynn-haven-fl, navarre-fl), 3 GA (union-city-ga, jonesboro-ga, fairburn-ga), 1 OH (springdale-oh), 1 TN (nolensville-tn), 3 NC (harrisburg-nc, weddington-nc, wendell-nc), 3 WA (sedro-woolley-wa, lynden-wa, cheney-wa), 3 NJ (howell-nj, jackson-nj, berkeley-nj), 2 PA (upper-darby-pa, whitehall-pa), 1 NY (great-neck-ny). Chunks 84, 85, 86 all committed in same commit.
 - **New state files added:** none (all states already registered, cities appended to existing state files).
 - **Next block:** Chunk 87, T3 continues, rotation at E.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.

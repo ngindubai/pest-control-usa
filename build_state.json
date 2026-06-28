@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-28T00:00:00Z",
+  "last_updated": "2026-06-28T12:00:00Z",
   "phase": "3-t3-in-progress",
   "autonomy": "Fully autonomous. One block per run (25 pages), full 7-stage pipeline, commit to main, deploy.yml auto-publishes, post live links to Slack as a record. No approval step, no wait-for-go, no stop condition. Advance through the phases in order; when the city universe is built, the pest x city matrix is the long-tail engine and runs indefinitely.",
-  "cities_built": 2051,
+  "cities_built": 2076,
   "towns_built": 0,
-  "total_site_pages": 2133,
+  "total_site_pages": 2158,
   "completed_chunks": 86,
   "next_chunk": 87,
   "next_chunk_tier": "T3",
@@ -15,7 +15,7 @@
   "tier_t2_remaining": 0,
   "tier_t3_floor_population": 5000,
   "tier_t3_target": 5000,
-  "tier_t3_remaining": 3349,
+  "tier_t3_remaining": 3324,
   "tier_t3_note": "T3 = every remaining US incorporated place above 5,000 population not already built in T1 or T2. The Census counts roughly 5,000 to 5,300 such places. Build state by state: add one state file per block to src/data/cities/{state}.ts and register it in src/data/cities/index.ts, exactly as T1/T2 were built. 50-state coverage is the target. 425 T3 pages built so far (chunks 16-32 complete).",
   "batch_size": 25,
   "template_rotation": [
@@ -33,11 +33,11 @@
     "E": 0.2
   },
   "template_distribution_actual": {
-    "A": 422,
-    "B": 385,
-    "C": 431,
-    "D": 420,
-    "E": 393
+    "A": 417,
+    "B": 404,
+    "C": 427,
+    "D": 415,
+    "E": 413
   },
   "blog_articles": 0,
   "services_count": 25,
@@ -2014,5 +2014,5 @@
     "pennsylvania/whitehall-pa",
     "new-york/great-neck-ny"
   ],
-  "notes": "Chunks 57-86 complete 2026-06-28. 2051 total city pages (75 T1 + 300 T2 + 1676 T3). Chunk 86 (D/qa, 25 pages): 4 VA (vienna-va, chantilly-va, lake-ridge-va, springfield-va), 4 FL (hialeah-gardens-fl, fernandina-beach-fl, lynn-haven-fl, navarre-fl), 3 GA (union-city-ga, jonesboro-ga, fairburn-ga), 1 OH (springdale-oh), 1 TN (nolensville-tn), 3 NC (harrisburg-nc, weddington-nc, wendell-nc), 3 WA (sedro-woolley-wa, lynden-wa, cheney-wa), 3 NJ (howell-nj, jackson-nj, berkeley-nj), 2 PA (upper-darby-pa, whitehall-pa), 1 NY (great-neck-ny). Template: A=422 B=385 C=406 D=420 E=393 (2051 total cities). Next chunk 87 at E."
+  "notes": "Chunks 57-86 complete 2026-06-28. 2076 total city pages (75 T1 + 300 T2 + 1701 T3). Chunks 84-86 were all committed together in one commit. Chunk 84 (B/neighbor, 25 pages): 9 FL (royal-palm-beach-fl, north-miami-beach-fl, lauderdale-lakes-fl, sebastian-fl, niceville-fl, destin-fl, panama-city-beach-fl, west-melbourne-fl, cape-canaveral-fl), 2 GA (decatur-ga, chamblee-ga), 6 NJ (fair-lawn-nj, paramus-nj, ridgewood-nj, mount-laurel-nj, voorhees-nj, evesham-nj), 5 NY (garden-city-ny, mineola-ny, lynbrook-ny, massapequa-park-ny, westbury-ny), 3 WA (des-moines-wa, kenmore-wa, mercer-island-wa). Chunk 85 (C/comparison, 25 pages): 8 OH (centerville-oh, oregon-oh, sylvania-oh, broadview-heights-oh, mayfield-heights-oh, brecksville-oh, riverside-oh, forest-park-oh), 2 GA (college-park-ga, forest-park-ga), 4 NY (patchogue-ny, amityville-ny, farmingdale-ny, babylon-ny), 5 WA (anacortes-wa, ferndale-wa, burlington-wa, fife-wa, gig-harbor-wa), 3 PA (cranberry-pa, plum-pa, murrysville-pa), 2 NJ (galloway-nj, egg-harbor-nj), 1 VA (fairfax-va). Chunk 86 (D/qa, 25 pages): 4 VA (vienna-va, chantilly-va, lake-ridge-va, springfield-va), 4 FL (hialeah-gardens-fl, fernandina-beach-fl, lynn-haven-fl, navarre-fl), 3 GA (union-city-ga, jonesboro-ga, fairburn-ga), 1 OH (springdale-oh), 1 TN (nolensville-tn), 3 NC (harrisburg-nc, weddington-nc, wendell-nc), 3 WA (sedro-woolley-wa, lynden-wa, cheney-wa), 3 NJ (howell-nj, jackson-nj, berkeley-nj), 2 PA (upper-darby-pa, whitehall-pa), 1 NY (great-neck-ny). Template actual counts from file audit: A=417 B=404 C=427 D=415 E=413 (2076 total cities). Next chunk 87 at E."
 }
