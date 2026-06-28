@@ -6427,4 +6427,514 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaDescription:
       "Penn Hills PA pest control for carpenter ants on wooded hillsides, yellow jackets in ravines, mice, and termites. Licensed Allegheny County applicator. Free inspection.",
   },
+
+  {
+    slug: "cranberry-pa",
+    name: "Cranberry Township",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~31,000",
+    county: "Butler County",
+    climate: "cold-humid",
+    climateDriver:
+      "Cranberry Township's cold-humid Pennsylvania climate drives the standard fall rodent and stink bug invasion cycle. Rapid development from the 1990s onward means the community is younger than most Pittsburgh suburbs, reducing termite exposure in newer homes but concentrating it in the older stock along established corridors.",
+    topPests: [
+      "Mice",
+      "Stink Bugs",
+      "Carpenter Ants",
+      "Eastern Subterranean Termites",
+      "Yellow Jackets",
+    ],
+    pestProfile: [
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter, year-round near commercial areas",
+        note:
+          "Cranberry Township's significant retail and restaurant development along Route 19 sustains rodent populations that press into adjacent residential areas, particularly in newer subdivisions near commercial zones.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note:
+          "Stink bugs are broadly established across southwestern Pennsylvania and enter Cranberry Township homes through gaps in newer construction that was often built with less attention to stink bug exclusion than pest control professionals now recommend.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note:
+          "Wooded edges remaining between Cranberry Township's newer subdivisions and adjacent forest provide carpenter ant colonies that forage into homes during spring and summer.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May",
+        note:
+          "Butler County has established termite populations; risk is lower in Cranberry's newest homes with modern construction, higher in older properties along Route 19 and older sections of the township.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Nests peak August through September",
+        note:
+          "Wooded edges and unmaintained areas between Cranberry Township's newer subdivisions provide ground-nesting yellow jacket habitat that generates late-summer service calls.",
+      },
+    ],
+    localHook:
+      "Cranberry Township is one of the fastest-growing communities in western Pennsylvania, and that rapid growth from open land to dense suburban development has left wooded edges between newer subdivisions that are prime carpenter ant and yellow jacket habitat sitting immediately next to brand-new homes.",
+    intro:
+      "Cranberry Township presents an interesting pest management case because it is one of Pennsylvania's newer communities, with most of its residential development occurring after 1990. That timing cuts both ways. Newer construction generally means better building envelopes, less legacy termite exposure, and fewer settled foundation gaps for rodents. But rapid development from open land leaves wooded buffer zones between subdivisions that sustain forest-edge pest populations close to new homes. The comparison to older Pittsburgh-area suburbs like Ross Township or Ben Avon shows that newer does not always mean lower pest pressure; it just means different pest pressure.",
+    sections: [
+      {
+        heading: "Stink Bugs in New Construction vs. Older Pittsburgh Suburbs",
+        body:
+          "Brown marmorated stink bugs were largely absent from Pennsylvania until the early 2000s, so homes built before that era were often retrofitted for stink bug exclusion after the pest arrived. Homes built during and after the main stink bug establishment period in southwestern Pennsylvania, which is exactly the timeframe of most Cranberry Township construction, were built when this pest was already present but before builders routinely addressed it in their construction specifications. The result is that Cranberry Township's newer homes often have stink bug vulnerabilities that were not intentionally built in but were also not corrected during construction. A dedicated exclusion pass, sealing gable vents, soffit intersections, and gaps around windows and rooflines, is often the most impactful single investment for a Cranberry Township homeowner dealing with fall stink bug invasions.",
+      },
+      {
+        heading: "Carpenter Ants at the New Suburb Forest Edge",
+        body:
+          "Cranberry Township's rapid development created a community where the forest it was built on is still right next door, not decades removed. Wooded buffers between newer subdivisions, preserved tree lines along property boundaries, and the natural areas that remain between commercial and residential development all sustain carpenter ant colonies within easy foraging range of new homes. Compare that to an older, fully built-out suburb like Wexford or Gibsonia, where the forest was cleared decades ago and the landscape has matured into a more purely residential character. In those older communities, carpenter ant pressure comes primarily from damp wood features on the property itself. In Cranberry Township, there is often a live forest colony within a few hundred feet of the back door.",
+      },
+    ],
+    prevention: [
+      "Seal gable vents, soffit gaps, and window frame penetrations before September to prevent stink bug entry in fall.",
+      "Maintain a clear zone of at least six feet between wooded buffer areas and the home to reduce carpenter ant foraging pathways.",
+      "Inspect newer homes near commercial development for mouse entry points around garage entries and utility penetrations.",
+      "Request a termite inspection for any pre-2000 Cranberry Township structure; newer homes have lower but not zero risk.",
+    ],
+    costNote:
+      "Cranberry Township pest programs often focus on stink bug exclusion and carpenter ant perimeter treatment in spring and summer, with a fall rodent exclusion pass. Termite inspections are most relevant for the township's older properties. A free assessment covers what your specific home needs.",
+    faqs: [
+      {
+        question: "Do newer homes in Cranberry Township still get stink bugs?",
+        answer:
+          "Yes. Stink bugs can enter through any gap in the building envelope, and newer construction is not always better sealed than older construction for stink bug entry specifically. Many Cranberry Township homes built in the 2000s and 2010s have attic and soffit gaps that allow significant fall entry. A targeted exclusion pass addresses the specific entry points.",
+      },
+      {
+        question: "Are carpenter ants worse in Cranberry Township because of adjacent forest?",
+        answer:
+          "Yes, compared with fully built-out older suburbs where forest was cleared long ago. Wooded buffers and tree lines remaining between Cranberry's subdivisions sustain active colonies close to homes. Perimeter treatment in spring interrupts foraging trails before they become an indoor problem.",
+      },
+      {
+        question: "Do I need a termite inspection for a home built in 2005 in Cranberry Township?",
+        answer:
+          "Butler County has established termite populations, so no newer home is entirely risk-free. Homes built after 1995 typically had pre-construction soil treatment applied, which provides good initial protection. If your home is approaching 20 years of age and has never had an inspection, it is worth scheduling one to confirm the original treatment is still effective.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Plum", slug: "plum-pa" },
+      { name: "Murrysville", slug: "murrysville-pa" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Cranberry Township, PA | PestRemovalUSA",
+    metaDescription:
+      "Cranberry Township, PA's rapid suburban growth left wooded edges next to new homes, creating stink bug and carpenter ant pressure that older Pittsburgh suburbs handle differently.",
+  },
+
+    {
+    slug: "plum-pa",
+    name: "Plum",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~27,000",
+    county: "Allegheny County",
+    climate: "cold-humid",
+    climateDriver:
+      "Plum Borough sits east of Pittsburgh in Allegheny County with a cold-humid continental climate and heavily wooded terrain. A mix of older residential neighborhoods and newer development in wooded ravines creates both legacy termite risk in old housing and active carpenter ant and yellow jacket pressure from the surrounding forest.",
+    topPests: [
+      "Carpenter Ants",
+      "Mice",
+      "Yellow Jackets",
+      "Eastern Subterranean Termites",
+      "Stink Bugs",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note:
+          "Plum's heavily wooded terrain and mix of older and newer homes in wooded ravines creates abundant carpenter ant habitat adjacent to residential structures.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note:
+          "Wooded edge lots in Plum's residential neighborhoods border significant forest cover, providing field mouse populations that enter homes each fall.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Ground nests peak August through September",
+        note:
+          "Plum's forested terrain with wooded lawns and ravine edges produces frequent ground-nesting yellow jacket colonies that are a routine late-summer hazard.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May",
+        note:
+          "Allegheny County has well-established termite populations; Plum's older housing stock in established neighborhoods carries meaningful exposure, particularly where wood meets soil in older landscaping.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note:
+          "Stink bugs are widespread across Allegheny County and invade Plum homes through attic and soffit gaps each fall, with wooded properties tending to see higher volumes.",
+      },
+    ],
+    localHook:
+      "Plum Borough's ravine and woodland terrain is what makes it attractive as a residential community east of Pittsburgh, and that same topography puts it in a forest-edge pest category that distinguishes it from more open Allegheny County suburbs like Penn Hills or Monroeville.",
+    intro:
+      "Plum Borough occupies wooded ravine terrain east of Pittsburgh that gives it a character quite different from the more open residential suburbs closer to the city. That wooded setting is the defining factor in its pest profile: more carpenter ant pressure, more yellow jacket ground nests, and more fall mouse dispersal from adjacent forest edges than comparable-sized suburban communities in Allegheny County that sit on more open ground. Comparing Plum with Penn Hills or Monroeville, which have less heavy forest cover, makes the forest-edge pest dimension visible. The termite picture is shared across the county but concentrated in Plum's older neighborhoods near established landscaping.",
+    sections: [
+      {
+        heading: "Forest Terrain and Pest Comparison: Plum vs. Open Allegheny Suburbs",
+        body:
+          "A home in Monroeville on a standard residential lot with a maintained lawn and minimal tree canopy faces the same general pest species as a home in Plum's wooded ravine terrain, but at quite different intensities for the forest-edge species. Carpenter ants need damp wood and are most abundant where large trees and organic debris accumulate. Yellow jackets need ground cover and undisturbed soil for their nests. Field mice need the cover of tall grass and brush edges. Plum's terrain provides all three to a degree that open suburban lots do not. This means the program that works for a Monroeville home, a basic perimeter treatment and fall exclusion pass, is often insufficient for a wooded Plum property that needs direct colony treatment for carpenter ants, a ground nest survey before each mowing season, and thorough exclusion of the wooded-edge entry points.",
+      },
+      {
+        heading: "Termite Risk Across Plum's Housing Age Mix",
+        body:
+          "Plum Borough has a meaningful mix of housing ages, from post-WWII established neighborhoods to newer development from the 1990s and 2000s that was carved into wooded terrain. The termite risk differs significantly between those two stock types. Older homes in Plum's established sections, particularly those with crawl spaces, original wood framing near grade, and landscape plantings that have held soil moisture against the foundation for decades, are the higher-risk group. Newer homes built on former woodland, while often having better construction standards, are sometimes carved into soil that already contains termite colonies from the forest they replaced. Both groups warrant inspection; neither is immune.",
+      },
+    ],
+    prevention: [
+      "Have the yard surveyed for yellow jacket ground nests before each late-summer mowing season in wooded Plum properties.",
+      "Apply perimeter carpenter ant treatment in spring and direct any known outdoor colony nesting sites with targeted application.",
+      "Seal wooded-edge entry points for mice, including deck attachment gaps, pipe penetrations, and foundation cracks, before fall.",
+      "Request a termite inspection for any Plum home over 25 years old, and for newer homes built on former woodland.",
+    ],
+    costNote:
+      "Plum pest programs typically include a spring carpenter ant treatment, a summer wasp nest inspection, and a fall rodent exclusion and stink bug prevention pass. Termite inspections are recommended for both older and newer properties. A free assessment tailors the approach to your lot and home age.",
+    faqs: [
+      {
+        question: "Why do I get more carpenter ants in my Plum Borough home than my neighbor in Monroeville?",
+        answer:
+          "If your Plum property has more tree canopy, wooded edges, or organic debris near the foundation, you have more external nesting habitat for carpenter ants close to the house. Forest-edge and wooded-ravine properties sustain larger outdoor carpenter ant populations than open suburban lots, which translates directly into more indoor foraging activity.",
+      },
+      {
+        question: "Are yellow jacket ground nests in Plum's wooded yards dangerous?",
+        answer:
+          "Yes. A mature ground nest in a Plum yard can hold several thousand workers by August or September. Disturbing one while mowing triggers a defensive mass-sting response. Survey for nest entrance holes in wooded and brushy areas before mowing in late summer. Professional treatment at night, when workers are inside, is the safest approach.",
+      },
+      {
+        question: "Can newer Plum homes built on former woodland still have termites?",
+        answer:
+          "Yes. Termite colonies already present in forest soil are not eliminated when land is cleared for development. Construction pre-treatment helps significantly, but it is not a permanent barrier. Homes built on former woodland without a recent inspection should have one, particularly if the original construction treatment is more than 10 years old.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Pittsburgh", slug: "pittsburgh" },
+      { name: "Murrysville", slug: "murrysville-pa" },
+      { name: "Cranberry Township", slug: "cranberry-pa" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Plum, PA | PestRemovalUSA",
+    metaDescription:
+      "Plum Borough, PA's wooded ravine terrain creates higher carpenter ant and yellow jacket pressure than open Allegheny County suburbs. Compare the pest profile and what it means for your home.",
+  },
+
+    {
+    slug: "murrysville-pa",
+    name: "Murrysville",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~20,000",
+    county: "Westmoreland County",
+    climate: "cold-humid",
+    climateDriver:
+      "Murrysville sits in western Westmoreland County east of Pittsburgh with a cold-humid continental climate and large, wooded residential lots. The community's semi-rural character, with substantial forest cover and lower development density than most Pittsburgh suburbs, drives the pest profile toward forest-edge species: carpenter ants, deer ticks, and yellow jackets, alongside the standard Pennsylvania fall invasions.",
+    topPests: [
+      "Carpenter Ants",
+      "Stink Bugs",
+      "Yellow Jackets",
+      "Deer Ticks",
+      "Mice",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note:
+          "Murrysville's heavily wooded lots with large mature trees provide the damp-wood nesting habitat that makes carpenter ants one of the most common structural pest concerns in the community.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "September through November",
+        note:
+          "Stink bugs are broadly established in western Pennsylvania and enter Murrysville homes through attic and soffit gaps each fall; wooded properties tend to see higher volumes.",
+      },
+      {
+        name: "Yellow jackets",
+        serviceSlug: "wasp-bee-removal",
+        activeSeason: "Ground nests peak August through September",
+        note:
+          "Murrysville's large, wooded lots with unmaintained edges and wooded ravines produce frequent ground-nesting yellow jacket colonies throughout the community.",
+      },
+      {
+        name: "Deer ticks (blacklegged ticks)",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "March through November, nymphs peak May through July",
+        note:
+          "Deer are common throughout Murrysville's wooded residential areas, and the tick populations they carry make tick exposure a genuine daily risk for residents spending time in their yards.",
+      },
+      {
+        name: "House mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note:
+          "Wooded edge habitats throughout Murrysville sustain field mouse populations that disperse into homes as temperatures drop each fall.",
+      },
+    ],
+    localHook:
+      "Murrysville's semi-rural character with large wooded lots is what most residents chose it for, and that same character means it sits in the same pest category as rural-edge communities rather than typical Pittsburgh suburbs, with deer tick exposure and carpenter ant pressure that most Allegheny County communities handle at much lower intensity.",
+    intro:
+      "Murrysville is one of the least dense communities in the Pittsburgh eastern suburban ring, and that low density with preserved forest cover produces a pest profile that compares more to a rural edge community than a typical suburb. Deer ticks are a real and daily yard risk during the warm months, not a theoretical concern. Carpenter ants have more outdoor nesting habitat within foraging range than in any more developed Allegheny or Westmoreland suburb. Yellow jacket ground nests are encountered routinely in wooded yard areas. Comparing Murrysville with a more fully developed community like Monroeville or Penn Hills shows how much those forest-edge pest pressures differ from the standard suburban pest calendar.",
+    sections: [
+      {
+        heading: "Deer Ticks in Murrysville: A Genuine Daily Risk Compared with Denser Suburbs",
+        body:
+          "Deer are abundant throughout Murrysville's residential areas. They move freely between the large wooded lots, and they carry blacklegged ticks in all life stages. Deer tick nymphs, the stage responsible for most Lyme disease transmission, are active from May through July and are nearly invisible to the naked eye. For a resident gardening, mowing, or walking a dog in a Murrysville yard with wooded edges, the exposure is comparable to hiking a rural trail, not spending time in a maintained suburban lawn. Compare that with a resident in Penn Hills or Monroeville, where deer are uncommon and tick pressure is low. This is not a small difference. Westmoreland County reports Lyme disease cases, and Murrysville's wooded character puts residents at above-average exposure for the Pittsburgh metro area.",
+      },
+      {
+        heading: "Carpenter Ants vs. Termites: The Two Structural Pest Priorities in Murrysville",
+        body:
+          "Murrysville's primary structural pest is the carpenter ant, not the termite, and the reason is the forest. Carpenter ant colonies here have access to virtually unlimited outdoor nesting sites in damp stumps, root systems, and dead branches across large wooded lots. Termites are present in Westmoreland County and do swarm in Murrysville each spring, but the carpenter ant problem is more immediately visible and more frequently encountered. That said, termites operate silently and are often found only during a dedicated inspection. For a Murrysville home that has not had a termite inspection in several years, particularly one with any wood-to-soil contact in original landscaping, scheduling one alongside the spring carpenter ant treatment addresses both structural risks at the same time.",
+      },
+    ],
+    prevention: [
+      "Apply tick perimeter treatment from April through October and conduct body checks after any time in the yard or adjacent woods.",
+      "Keep a maintained, mowed buffer between the lawn and wooded areas to reduce tick and mouse habitat immediately adjacent to the home.",
+      "Schedule a spring carpenter ant treatment targeting both perimeter and any outdoor nesting sites in stumps or damp wood on the property.",
+      "Seal attic vents, gable screens, and soffit gaps before September to reduce stink bug entry in fall.",
+    ],
+    costNote:
+      "Murrysville pest programs typically include recurring tick perimeter treatment through the warm months, a spring carpenter ant program, and a fall stink bug and rodent exclusion pass. Termite inspection is recommended alongside the spring program. A free assessment covers all active concerns for your lot size and tree cover.",
+    faqs: [
+      {
+        question: "Is Lyme disease a real concern in Murrysville, PA?",
+        answer:
+          "Yes. Westmoreland County has documented Lyme disease cases, and Murrysville's wooded character and high deer density put residents at above-average exposure for the Pittsburgh metro. Tick checks after yard time and seasonal perimeter treatment are both warranted precautions.",
+      },
+      {
+        question: "How do I know if the ants in my Murrysville home are carpenter ants?",
+        answer:
+          "Carpenter ants are Pennsylvania's largest ant species, typically 3/8 to 1/2 inch long, black or bicolored black and red, and often seen individually foraging indoors rather than in trails. Finding large single ants indoors, particularly near wood structures, windows, or at night, is the most common indicator. A professional inspection confirms the species and finds the colony.",
+      },
+      {
+        question: "Are stink bugs worse in wooded Murrysville properties than in more open suburban yards?",
+        answer:
+          "Yes, on average. Stink bugs aggregate on warm south-facing surfaces before entering overwintering sites, and homes surrounded by woodland tend to see more aggregating insects than those in open suburban settings. The entry points are the same, attic vents, soffit gaps, and window frames, but the volume approaching those points tends to be higher near forested land.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Plum", slug: "plum-pa" },
+      { name: "Cranberry Township", slug: "cranberry-pa" },
+      { name: "Pittsburgh", slug: "pittsburgh" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Murrysville, PA | PestRemovalUSA",
+    metaDescription:
+      "Murrysville, PA's semi-rural wooded character creates deer tick, carpenter ant, and stink bug pressure that exceeds typical Pittsburgh suburban levels. Compare the risks.",
+  },
+,
+  // Chunk 86 additions
+  {
+    slug: "upper-darby-pa",
+    name: "Upper Darby",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~83,000",
+    county: "Delaware County",
+    climate: "cold-humid",
+    climateDriver: "Upper Darby Township sits immediately west of Philadelphia in Delaware County with a humid continental climate. Its extremely high population density, older urban-suburban rowhouse character, and diverse community create the conditions where cockroaches, bed bugs, and mice thrive in shared-wall and multi-unit housing.",
+    topPests: ["German Cockroaches", "Bed Bugs", "Mice", "Eastern Subterranean Termites", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Upper Darby's high-density rowhouse character and significant multi-unit housing stock create ideal German cockroach conditions. Shared walls, shared plumbing, and high unit turnover allow populations to persist and spread across buildings.",
+      },
+      {
+        name: "Bed bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round",
+        note: "Upper Darby's dense urban-suburban character and multi-unit housing make it one of the higher bed bug pressure areas in Delaware County. High resident turnover and proximity to Philadelphia create consistent introduction pathways.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, peak October through February",
+        note: "Older rowhouse construction in Upper Darby has accumulated gaps and utility access points over decades that give mice reliable entry. Dense urban settings also sustain large mice populations in sewer and alley infrastructure.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Delaware County has active termite populations. Upper Darby's older rowhouse and colonial construction, some dating to the early-to-mid 20th century, carries real termite vulnerability.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Older construction with moisture-susceptible wood and the tree canopy in some Upper Darby neighborhoods give carpenter ants consistent access to suitable nesting material.",
+      },
+    ],
+    localHook: "Upper Darby is one of the most densely populated townships in Pennsylvania, immediately west of Philadelphia with a rowhouse character that creates shared-wall pest dynamics. German cockroaches and bed bugs require coordinated building-level treatment strategies rather than individual unit approaches, a reality that affects residents in connected housing throughout the township.",
+    intro: "Upper Darby, PA is one of Delaware County's largest and most densely populated communities, directly bordering West Philadelphia. Its older rowhouse character and significant multi-unit housing stock create a pest environment that is genuinely different from lower-density suburbs. German cockroaches, bed bugs, and mice are the top concerns, and all three are made more difficult by the shared-wall construction that connects units and allows pests to move laterally between homes. Understanding shared-wall pest dynamics is essential for effective management in Upper Darby.",
+    sections: [
+      {
+        heading: "Why are cockroaches so persistent in Upper Darby's rowhouse neighborhoods?",
+        body: "German cockroaches in dense urban housing like Upper Darby's rowhouses face essentially no population pressure from the environment. They are warm-weather insects that never go outdoors in Pennsylvania winters, they breed continuously indoors, and the shared plumbing infrastructure and wall voids between connected units give them free movement between homes. When one unit treats but neighboring units do not, the cockroaches redistribute to untreated spaces and repopulate the treated unit as soon as the product fades. This is the fundamental challenge in any connected housing stock. It is also why the standard residential spray treatment often disappoints Upper Darby residents; it addresses one unit while leaving the surrounding population intact. Effective control in a rowhouse requires a gel bait approach, which is slower but kills the colony rather than scattering it, combined with a coordinated treatment across the building if multiple units are involved. If you are a renter in Upper Darby, the landlord has a legal obligation to address cockroaches in Pennsylvania, and coordinating treatment across the building should be part of that discussion.",
+      },
+      {
+        heading: "How do bed bugs spread in Upper Darby's dense housing?",
+        body: "Bed bugs are not a hygiene problem; they are a proximity problem. They travel on luggage, used furniture, clothing, and sometimes through wall voids in connected housing. Upper Darby's combination of high-density housing, significant resident turnover, and proximity to Philadelphia's travel and transit infrastructure creates multiple introduction pathways. A single infested unit in a rowhouse or apartment building can seed adjacent units through electrical outlets, plumbing penetrations, and cracks in shared walls. Early detection is the most important factor in bed bug management. A small infestation involving a few hiding spots near one bed is far easier and less expensive to treat than an established population that has spread to multiple rooms and units. Check secondhand furniture and mattresses before bringing them inside. If you travel, inspect hotel rooms and keep luggage off the floor. Report any signs, small blood spots on sheets, small dark fecal spots on mattress seams, or the bugs themselves to your landlord immediately.",
+      },
+    ],
+    prevention: [
+      "In shared-wall housing, coordinate cockroach treatment across the building rather than treating a single unit in isolation.",
+      "Inspect secondhand furniture, mattresses, and luggage for bed bugs before bringing them indoors.",
+      "Seal gaps around pipes, outlets, and baseboards where pests can move between connected units.",
+      "Schedule termite inspections for older Upper Darby homes, particularly pre-1950 construction.",
+      "Address any moisture accumulation in basements and crawl spaces to reduce carpenter ant and termite attraction.",
+    ],
+    costNote: "Upper Darby pest control pricing reflects the Delaware County and Philadelphia-area market. Bed bug treatment costs vary significantly by infestation size and treatment method; heat treatment covers an entire unit comprehensively. Coordinated building treatment for cockroaches typically involves the landlord. Contact a licensed Pennsylvania technician for a unit-specific estimate.",
+    faqs: [
+      {
+        question: "Is my landlord in Upper Darby required to treat cockroaches in my rental?",
+        answer: "Yes. Pennsylvania's Implied Warranty of Habitability requires landlords to maintain rental properties free of pest infestations. A cockroach infestation that you did not introduce is the landlord's responsibility to remediate. Document the infestation with photos and written notice to the landlord. If the landlord does not respond, Pennsylvania law provides renter remedies including rent escrow in some circumstances. Contact a tenant advocacy organization for guidance specific to your situation.",
+      },
+      {
+        question: "How do I know if I have bed bugs in my Upper Darby home?",
+        answer: "Early signs include small blood spots on sheets from crushed bugs, small dark fecal spots at the seams of mattresses and upholstered furniture, a faint musty odor in the bedroom, and shed exoskeletons near the bed. The bugs themselves are flat, reddish-brown, and about the size of an apple seed. They hide in mattress seams, box spring folds, bed frame joints, and behind headboards. An early inspection by a licensed professional is the most reliable way to confirm infestation and identify where the bugs are concentrated.",
+      },
+      {
+        question: "Are termites a serious concern in Upper Darby's older homes?",
+        answer: "Yes. Delaware County falls in Pennsylvania's active termite zone, and Upper Darby's older construction, much of it built in the 1920s through 1950s, carries real termite vulnerability. Rowhouses with shared walls complicate treatment somewhat, as a colony entering one unit may access adjacent units through shared foundation areas. Annual inspections are standard for older Delaware County construction.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Drexel Hill", slug: "drexel-hill-pa" },
+      { name: "Lansdowne", slug: "lansdowne-pa" },
+      { name: "Whitehall", slug: "whitehall-pa" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Upper Darby, PA | Delaware County",
+    metaDescription: "Upper Darby, PA pest control for cockroaches, bed bugs, and mice in dense rowhouse neighborhoods. Licensed Delaware County service west of Philadelphia.",
+  },
+  {
+    slug: "whitehall-pa",
+    name: "Whitehall",
+    state: "Pennsylvania",
+    stateSlug: "pennsylvania",
+    stateAbbr: "PA",
+    tier: "T3",
+    population: "~14,000",
+    county: "Lehigh County",
+    climate: "cold-humid",
+    climateDriver: "Whitehall sits in Lehigh County adjacent to Allentown with a humid continental climate. Significant commercial and retail development along MacArthur Road, combined with a mix of residential character, creates both commercial cockroach pressure and the standard Pennsylvania suburban pest profile.",
+    topPests: ["Mice", "Stink Bugs", "Eastern Subterranean Termites", "Carpenter Ants", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, peak October through February",
+        note: "Whitehall's residential neighborhoods see standard Pennsylvania mouse pressure in fall, with the commercial corridor adding additional nearby rodent habitat from food service operations.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "The Lehigh Valley is well within the stink bug's established mid-Atlantic range. Whitehall sees reliable fall invasions into residential homes and commercial structures.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active spring through fall",
+        note: "Lehigh County falls in Pennsylvania's termite-active zone. Whitehall homes, including both older and newer construction, warrant regular inspection and protection.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Older construction and the mature trees in Whitehall's established residential sections create carpenter ant habitat through the warm months.",
+      },
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in commercial settings",
+        note: "Whitehall's MacArthur Road commercial corridor includes significant food service density. German cockroaches from these operations can spread to adjacent residential properties through shared infrastructure.",
+      },
+    ],
+    localHook: "Whitehall's MacArthur Road corridor is one of the Lehigh Valley's major retail and food service zones. That commercial concentration creates the same cockroach migration risk seen in other dense commercial corridors: populations from food service establishments finding pathways to adjacent residential properties.",
+    intro: "Whitehall Township, PA is a Lehigh County community adjacent to Allentown with a strong commercial presence along MacArthur Road. For pest management, that commercial character matters: food service density creates cockroach pressure that can migrate into nearby residential areas. Beyond the commercial-specific concern, Whitehall shares the Lehigh Valley's standard pest calendar: stink bugs in fall, mice in fall and winter, termites in the active Lehigh County zone, and carpenter ants through the warm months.",
+    sections: [
+      {
+        heading: "How do stink bugs get into Whitehall homes each fall?",
+        body: "Brown marmorated stink bugs follow a predictable fall behavior pattern driven by the same environmental cues that trigger fall color and animal hibernation: shortening day length and cooling temperatures. They aggregate on warm exterior surfaces, particularly south and west-facing walls that hold heat in the afternoon, and then find gaps to enter the structure. Window frame gaps, utility penetrations, gaps at eaves, and any crack larger than about a quarter inch are typical entry points. Whitehall homes near wooded areas or with significant landscaping around the structure see more aggregation because the tree canopy provides a nearby habitat where the bugs spent the summer. The most effective intervention is a perimeter spray in late August to reduce how many aggregate on the exterior, combined with sealing visible gaps before September. Once inside, they are largely inactive until a warm day tempts them out. Use a vacuum to remove them rather than crushing, which releases the characteristic odor that gives them their name.",
+      },
+      {
+        heading: "Should Whitehall homeowners near MacArthur Road worry about cockroaches?",
+        body: "It depends on your specific proximity and the type of housing. The migration risk from commercial cockroach populations to residential properties is highest in two scenarios: apartments or townhouses that share walls with or are directly adjacent to food service businesses, and multi-unit residential buildings near the commercial corridor that share plumbing infrastructure. A standalone single-family home a few blocks from MacArthur Road carries much lower risk than an apartment directly above a restaurant. German cockroaches are specific to indoor environments; they do not survive outside in Pennsylvania's winters, so they move between structures through shared utilities and wall voids rather than through open outdoor travel. If you live in connected housing near the commercial strip and are seeing small, fast-moving cockroaches in the kitchen or bathroom, a professional inspection can identify whether you have an internal infestation or whether the source is external and determine the treatment approach accordingly.",
+      },
+    ],
+    prevention: [
+      "Seal stink bug entry points at eaves, window frames, and utility penetrations in late August.",
+      "Schedule a termite inspection for Whitehall homes that lack a documented recent inspection history.",
+      "Seal foundation gaps, garage door gaps, and utility penetrations before October to reduce mouse entry.",
+      "If in connected housing near MacArthur Road, seal shared wall penetrations at outlets, plumbing, and baseboards.",
+      "Remove decaying wood and debris from the yard to reduce carpenter ant nesting sites.",
+    ],
+    costNote: "Whitehall pest control pricing reflects the Lehigh County and Allentown-area market. Stink bug and mosquito services are typically seasonal additions to a general pest plan. Termite inspections are typically available at no cost from licensed companies. Contact a licensed Pennsylvania technician for an estimate.",
+    faqs: [
+      {
+        question: "When are stink bugs worst in the Lehigh Valley area?",
+        answer: "The peak aggregation and invasion period runs from mid-September through late October in the Lehigh Valley. Whitehall homes see the same timing. The bugs begin appearing on interior walls and windows on warm days in late winter, typically February and March. If you find them on window sills in January, those are the survivors of the fall entry that found their way back to light. Vacuuming is the most practical way to collect them indoors.",
+      },
+      {
+        question: "Are termites common in Whitehall Township, PA?",
+        answer: "Eastern subterranean termites are present and active in Lehigh County. The Lehigh Valley falls within Pennsylvania's termite-active zone. Whitehall's older construction and any homes with crawl spaces or wood-to-soil contact carry real risk. Swarms in the Allentown area typically happen in March through May. Annual inspections are the standard of care for homes that want to stay current on their risk status.",
+      },
+      {
+        question: "How do I know if mice in my Whitehall home came from the commercial areas nearby?",
+        answer: "Mouse populations in commercial areas and residential areas are generally continuous; the mice do not respect property lines. Restaurants and food retail operations near MacArthur Road attract and sustain mouse populations. Whether those specific mice travel to your residence depends on proximity and available pathways. For practical purposes, the source matters less than the entry point. Identifying and sealing where they enter the structure is the effective response regardless of where they came from.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Allentown", slug: "allentown-pa" },
+      { name: "Bethlehem", slug: "bethlehem-pa" },
+      { name: "Upper Darby", slug: "upper-darby-pa" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Whitehall, PA | Lehigh County",
+    metaDescription: "Whitehall, PA pest control for stink bugs, mice, termites, and cockroaches near MacArthur Road. Licensed Lehigh County service adjacent to Allentown.",
+  }
 ];

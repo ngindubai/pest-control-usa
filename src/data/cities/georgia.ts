@@ -8313,4 +8313,689 @@ export const georgiaCities: CityLocation[] = [
     metaTitle: "Pest Control in Dallas, GA | Fire Ants, Termites & Ants",
     metaDescription: "Dallas GA pest control for fire ants, subterranean termites, American cockroaches, and mosquitoes. Paulding County specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "decatur-ga",
+    name: "Decatur",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~22,000",
+    county: "DeKalb County",
+    climate: "hot-humid",
+    climateDriver:
+      "Atlanta metro humid subtropical climate, mature urban tree canopy retains moisture",
+    topPests: [
+      "carpenter ants",
+      "subterranean termites",
+      "mosquitoes",
+      "mice",
+      "German cockroaches",
+    ],
+    pestProfile: [
+      {
+        name: "Carpenter ants",
+        activeSeason: "February to November, peaks April to July",
+        note: "Decatur's mature oak and magnolia canopy keeps wood structures in persistent shade and moisture, and carpenter ants are among the most common pest calls in the city's historic neighborhoods.",
+      },
+      {
+        name: "Subterranean termites",
+        activeSeason: "Year-round, swarms February to April",
+        note: "Subterranean termites swarm early in the Atlanta metro area, and Decatur's older Craftsman bungalows and brick Colonial homes with original wood framing are frequent targets for colony establishment.",
+      },
+      {
+        name: "Mosquitoes",
+        activeSeason: "March to October, peaks June to September",
+        note: "Decatur's urban tree canopy retains moisture and shades low areas where standing water persists longer, creating mosquito breeding habitat in residential yards and neighborhood drainage areas.",
+      },
+      {
+        name: "Mice",
+        activeSeason: "Year-round, peaks October to February",
+        note: "House mice enter Decatur's older homes through aging foundation brick mortar, gaps around utility penetrations, and basement window wells as autumn temperatures drop.",
+      },
+      {
+        name: "German cockroaches",
+        activeSeason: "Year-round",
+        note: "German cockroaches are present in Decatur's restaurant corridor and spread to adjacent residential apartments in the downtown and downtown-adjacent neighborhoods.",
+      },
+    ],
+    localHook:
+      "Decatur has some of the most beautiful residential architecture in the Atlanta metro, with streets lined by 1920s and 1930s Craftsman bungalows whose original wood framing has been in place for nearly a century. That original framing, softened by decades of Georgia humidity and shaded by the city's magnificent tree canopy, is exactly what subterranean termites and carpenter ants are looking for.",
+    intro:
+      "Decatur is one of the most beloved communities in metro Atlanta, with a walkable downtown, extraordinary trees, and neighborhoods full of character homes that people genuinely love. Those 1920s through 1940s Craftsman bungalows and brick Colonials are architectural treasures, and they are also excellent termite and carpenter ant habitat. Knowing what is living in the walls of your Decatur home is part of being a good steward of it.",
+    sections: [
+      {
+        heading: "What Decatur's Trees and Old Homes Mean for Pest Pressure",
+        body: "Decatur's identity is wrapped up in its tree canopy and its historic homes, and both of those assets create the pest environment that residents deal with. The magnificent oaks and magnolias that shade Decatur's streets keep wood structures moist longer after rain, reduce sunlight that would dry crawl spaces, and shed leaf matter that builds up against foundations. Carpenter ants are drawn to wood that stays damp, and in Decatur's shaded historic neighborhoods, fascia boards, window trim, and crawl space sill plates often qualify. Subterranean termites have had decades to establish in Decatur's soils, and the original wood framing in Craftsman bungalows built before soil termiticide treatment was standard practice faces genuine risk. Mosquitoes breed in the shaded, slow-draining depressions that the dense canopy creates in residential yards. Mice find the aging brick mortar and original wood framing of 1930s construction more accessible than newer construction.",
+      },
+      {
+        heading: "Caring for a Decatur Home Inside and Out",
+        body: "The residents I know in Decatur who manage pest pressure well treat it as part of historic home maintenance rather than a separate concern. For termites, having a current termite bond or bait monitoring system on a home built before 1960 is simply responsible stewardship. Annual inspections catch activity early when a liquid treatment or targeted bait intervention is straightforward and affordable. Carpenter ant prevention means keeping gutters clean, fixing roof leaks promptly, and replacing moisture-damaged fascia and soffit wood before it becomes a nesting site. Mosquito season in Decatur runs from March through October, and monthly barrier spray service combined with standing water elimination dramatically reduces biting activity under the canopy where evenings would otherwise be uncomfortable. A quarterly perimeter service handles the rest, from cockroaches to the occasional silverfish or centipede that Decatur's basement homes see regularly.",
+      },
+    ],
+    prevention: [
+      "Clean Decatur's dense canopy leaf debris from gutters twice a year to prevent moisture buildup in fascia wood that attracts carpenter ants.",
+      "Have a termite inspection every year for Decatur homes built before 1960, particularly Craftsman bungalows with original crawl space wood framing.",
+      "Eliminate shaded, slow-draining areas in your Decatur yard where standing water persists under the tree canopy and breeds mosquitoes through summer.",
+      "Repoint aging brick mortar and seal utility penetrations in older Decatur homes before October to prevent mice from entering through the historic building envelope.",
+      "Replace moisture-damaged wood trim and fascia in Decatur homes promptly rather than painting over it, as painted-over wet wood is still an active carpenter ant nesting site.",
+    ],
+    costNote:
+      "Pest control in Decatur typically runs $100 to $150 per quarterly visit. Termite treatment for DeKalb County homes averages $900 to $2,000 for subterranean termite elimination. Annual termite inspections are often provided at no charge by licensed pest control companies.",
+    faqs: [
+      {
+        question:
+          "When do termites typically swarm in Decatur and what should I do if I see them?",
+        answer:
+          "Subterranean termites in Decatur and the Atlanta metro typically swarm from late February through April, often on warm days following rain. Swarmers indoors are a strong sign of an established colony in or near the structure. Contact a licensed Georgia pest control company for an inspection immediately rather than waiting to see if the swarmers disappear.",
+      },
+      {
+        question:
+          "Are my Decatur bungalow's original hardwood floors at risk from termites?",
+        answer:
+          "Subterranean termites typically attack softer wood first, including pine framing, sill plates, and subfloor members. They can reach hardwood floors after working through the subfloor structure below, so the floors themselves are rarely the first sign. Annual inspections of the crawl space framing are the most reliable way to catch activity before it reaches visible living space finishes.",
+      },
+      {
+        question:
+          "Why are mosquitoes worse in my shaded Decatur backyard than in my neighbor's sunnier yard?",
+        answer:
+          "Shade from Decatur's magnificent tree canopy keeps soil and low areas moist longer after rain, creating standing water breeding sites that persist much longer than they would in a sunny yard. Shade also slows evaporation in the breeding water itself. Even small amounts of standing water in shaded areas of a Decatur yard can sustain productive mosquito breeding through the summer.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta-ga" },
+      { name: "Tucker", slug: "tucker-ga" },
+      { name: "Clarkston", slug: "clarkston-ga" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Decatur, GA | DeKalb County",
+    metaDescription:
+      "Pest control in Decatur, GA. Termite, carpenter ant, mosquito, and mouse treatment for DeKalb County historic homes and Craftsman bungalows.",
+  },
+  {
+    slug: "chamblee-ga",
+    name: "Chamblee",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~12,000",
+    county: "DeKalb County",
+    climate: "hot-humid",
+    climateDriver:
+      "Atlanta suburban humid subtropical climate with dense commercial food-service concentration",
+    topPests: [
+      "German cockroaches",
+      "mice",
+      "subterranean termites",
+      "mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        activeSeason: "Year-round",
+        note: "Chamblee's Buford Highway restaurant corridor, one of the most diverse and densely concentrated food-service strips in the Southeast, creates significant German cockroach pressure that spreads into the surrounding residential neighborhoods.",
+      },
+      {
+        name: "Mice",
+        activeSeason: "Year-round, peaks October to February",
+        note: "House mice are active throughout Chamblee, moving between the restaurant district and adjacent residential blocks through shared utility infrastructure and the gaps in older residential construction.",
+      },
+      {
+        name: "Subterranean termites",
+        activeSeason: "Year-round, swarms February to April",
+        note: "Subterranean termites are active in DeKalb County soils and present in Chamblee's older residential neighborhoods, where original wood framing and older construction are vulnerable.",
+      },
+      {
+        name: "Mosquitoes",
+        activeSeason: "March to October, peaks June to September",
+        note: "Mosquitoes breed in Chamblee's drainage areas and landscaping irrigation runoff zones, with urban heat island effects extending the active season relative to rural DeKalb County.",
+      },
+    ],
+    localHook:
+      "Buford Highway in Chamblee is one of the most celebrated food corridors in the Southeast, with hundreds of restaurants serving cuisines from dozens of countries, and that extraordinary density of food-service operations generates a food waste and grease volume that sustains German cockroach populations at a scale that ripples out into the residential streets and apartments surrounding the corridor.",
+    intro:
+      "Chamblee is a small, remarkably diverse DeKalb County city that has built a national reputation around its Buford Highway restaurant corridor. That culinary richness is a genuine community asset, and it also creates pest pressure that is shaped almost entirely by the scale of the food-service industry concentrated here. German cockroaches, mice, and the occasional rodent from the restaurant district are familiar concerns for anyone who lives near the Buford Highway corridor.",
+    sections: [
+      {
+        heading: "Buford Highway and the Pest Pressure It Creates",
+        body: "Chamblee's Buford Highway strip runs through the city with an extraordinary density of restaurants, grocery stores, and food-service operations that generate the food waste and grease that German cockroaches and mice depend on. German cockroaches establish in the service areas and kitchens of food operations and spread from there into adjacent commercial spaces and residential blocks through shared utility infrastructure. The apartment corridors surrounding Buford Highway see cockroach pressure that is directly tied to what is happening in the restaurant kitchens a block over. Mice move freely between commercial and residential zones, finding entry points in the older residential building stock that surrounds the commercial corridor. Subterranean termites are active in DeKalb County and present in Chamblee's older neighborhoods, and the city's humid subtropical climate drives consistent termite colony activity through most of the year.",
+      },
+      {
+        heading: "Managing Pest Pressure in Chamblee's Residential Neighborhoods",
+        body: "Chamblee residents and apartment dwellers who live near the Buford Highway corridor manage pest pressure best by understanding that the food-service activity nearby is a continuous pest source, not a one-time event. For cockroaches, building-wide treatment in apartment complexes near the corridor is far more effective than treating individual units, because cockroaches relocate through shared walls. Property owners should work with a licensed pest control company to coordinate whole-building service rather than unit-by-unit response. For mice, exclusion work in older residential buildings means sealing foundation gaps, utility penetrations, and threshold gaps that mice use to move between the commercial zone and residential blocks. Subterranean termite inspections every one to two years are prudent for any Chamblee home built before 1980. Mosquito pressure during Atlanta's long warm season is managed effectively with monthly barrier spray service from March through October.",
+      },
+    ],
+    prevention: [
+      "Report German cockroach sightings to building management immediately in Chamblee apartments near Buford Highway, as whole-building treatment is the only effective response in high-density residential corridors.",
+      "Seal foundation gaps, utility penetrations, and door thresholds in residential properties near Chamblee's commercial corridor to block mice moving from restaurant zones into homes.",
+      "Request a termite inspection for any Chamblee home built before 1980, particularly those in older neighborhoods east of Peachtree Road where original wood framing may not have been treated.",
+      "Eliminate standing water in landscaping and drainage areas around Chamblee residential properties from March through October to reduce mosquito breeding during Atlanta's long warm season.",
+      "Keep garbage in sealed containers and coordinate with neighbors on shared dumpster management near Buford Highway to reduce the food waste that sustains cockroach and rodent populations.",
+    ],
+    costNote:
+      "Pest control in Chamblee typically runs $90 to $135 per quarterly visit. Buildings near the Buford Highway corridor often require monthly commercial service at $150 to $400 per month depending on facility size. Termite treatment for DeKalb County homes averages $850 to $1,900.",
+    faqs: [
+      {
+        question:
+          "Why do I keep getting cockroaches in my Chamblee apartment even though my unit is clean?",
+        answer:
+          "German cockroaches in Chamblee apartments near Buford Highway infest entire buildings through shared walls and plumbing, not just kitchens or messy units. A clean unit in a building with an active infestation in adjacent units will be reinfested continuously until the building is treated as a whole. Ask building management to coordinate a building-wide professional treatment.",
+      },
+      {
+        question:
+          "Are the mice in my Chamblee neighborhood coming from the Buford Highway restaurants?",
+        answer:
+          "The restaurant density on Buford Highway does sustain elevated mouse populations in the surrounding area by providing consistent food sources year-round. Mice from the commercial zone move through utility corridors and along fences into adjacent residential blocks. Exclusion work on your home, combined with exterior bait stations, reduces the number that make it inside.",
+      },
+      {
+        question:
+          "Is the termite risk in Chamblee similar to the rest of DeKalb County?",
+        answer:
+          "Yes. Chamblee's termite risk is consistent with the broader DeKalb County picture: subterranean termites are active in the area's soils, swarm in late winter and spring, and present an ongoing risk to any wood-frame structure not under active termite protection. Older Chamblee homes built before 1980 are in a higher-risk category and benefit from annual inspections.",
+      },
+    ],
+    author:
+      "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Doraville", slug: "doraville-ga" },
+      { name: "Dunwoody", slug: "dunwoody-ga" },
+      { name: "Atlanta", slug: "atlanta-ga" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Chamblee, GA | DeKalb County",
+    metaDescription:
+      "Pest control in Chamblee, GA. Cockroach, mouse, termite, and mosquito treatment for DeKalb County homes near the Buford Highway corridor.",
+  },
+
+  {
+    slug: "college-park-ga",
+    name: "College Park",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~15,000",
+    county: "Fulton County",
+    climate: "hot-humid",
+    climateDriver:
+      "College Park's humid subtropical climate, with long hot summers and mild winters, supports year-round subterranean termite and fire ant activity. Dense commercial and airport-adjacent activity creates rodent and cockroach pressure that spills into the mix of residential housing surrounding Hartsfield-Jackson Airport.",
+    topPests: [
+      "German Cockroaches",
+      "Subterranean Termites",
+      "Mice",
+      "Mosquitoes",
+      "Fire Ants",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round indoors",
+        note:
+          "The commercial food-service corridor surrounding Hartsfield-Jackson sustains a large cockroach population that bleeds into residential blocks within a few hundred yards of the airport's commercial perimeter.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active colonies year-round",
+        note:
+          "Subterranean termites are aggressive and widespread in Fulton County's hot, humid environment; College Park's older housing stock carries elevated exposure.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, peak fall through winter",
+        note:
+          "Airport-area commercial activity generates food waste that sustains rodent populations near residential College Park neighborhoods.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October, peak June through September",
+        note:
+          "College Park's warm climate and low-lying areas hold standing water that supports Aedes and Culex mosquito breeding through a long season.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round, most aggressive spring through fall",
+        note:
+          "Red imported fire ants are established throughout Fulton County and build mounds readily in College Park's lawns, street medians, and green spaces.",
+      },
+    ],
+    localHook:
+      "College Park's position as the immediate residential community surrounding the world's busiest airport creates a pest environment shaped partly by the same commercial food and transport infrastructure that makes Hartsfield-Jackson run.",
+    intro:
+      "College Park, Georgia occupies a unique position in the Atlanta metro: it is the residential community immediately adjacent to Hartsfield-Jackson Atlanta International Airport, with all the commercial food service, warehousing, and traffic that entails. That proximity creates a pest pressure profile that differs from quieter Fulton County suburbs. The commercial cockroach and rodent influence from airport-adjacent businesses adds a dimension that a residential-only community like Fairburn or Union City does not have to the same degree. Layered on top of that is the standard Georgia humid subtropical pest calendar: year-round termites, fire ants, and mosquitoes that most of the state shares. College Park gets both.",
+    sections: [
+      {
+        heading: "Airport Proximity and Its Commercial Pest Influence",
+        body:
+          "Hartsfield-Jackson is ringed by hotels, food-service facilities, warehouses, and ground transport operations, all of which generate food waste and provide shelter that sustains significant cockroach and rodent populations around the airport perimeter. College Park's residential neighborhoods sit within that commercial belt. This creates a source pressure that purely residential Atlanta suburbs do not experience: populations maintained by commercial food infrastructure near the residential zone, not just by the homes themselves. The practical response for College Park residents is more aggressive exclusion than might be needed elsewhere, specifically sealing every entry point a mouse or cockroach can use, because the external source population is larger and more persistent than in a purely suburban setting.",
+      },
+      {
+        heading: "Georgia Termites: College Park vs. Newer North Atlanta Suburbs",
+        body:
+          "Subterranean termites are a statewide Georgia concern, but the risk is not equal across communities. College Park's older housing stock, much of it built between the 1940s and 1970s, predates the soil treatment and construction standards that newer Atlanta suburbs take for granted. Termites in Georgia's climate are active for more months of the year than in northern states, which means an untreated older home in College Park is exposed for longer each year than a similarly aged home in Ohio or Pennsylvania. Compare that with a new construction home in Woodstock or Canton, which came with standard pre-construction termite pre-treatment. An annual inspection is the baseline expectation for any College Park home, particularly one without a documented treatment history.",
+      },
+    ],
+    prevention: [
+      "Seal structural gaps, shared wall penetrations, and utility entries to limit cockroach and mouse access from commercial areas nearby.",
+      "Maintain an annual termite inspection and treatment plan given College Park's older housing stock and Georgia's year-round termite activity.",
+      "Treat fire ant mounds as soon as they appear, particularly near play areas and garden beds.",
+      "Eliminate standing water in low-lying yard areas to reduce the long mosquito season in College Park's climate.",
+    ],
+    costNote:
+      "College Park pest programs often combine an ongoing termite plan with a perimeter cockroach and rodent program. Mosquito treatment is a common seasonal add-on. A free assessment covers all active concerns and scopes the right plan for your home's age.",
+    faqs: [
+      {
+        question: "Is it normal to have more cockroach problems near the airport in College Park?",
+        answer:
+          "Yes. Commercial food-handling facilities near Hartsfield-Jackson sustain large cockroach populations that can spread to residential areas within a few hundred yards of the commercial perimeter. Exclusion and a perimeter treatment are more important here than in purely residential suburbs further from the airport.",
+      },
+      {
+        question: "How serious are fire ants in College Park?",
+        answer:
+          "Red imported fire ants are established year-round in Fulton County's warm climate and will sting repeatedly when their mound is disturbed. They pose a real risk to children and pets and should be treated as they appear. Individual mound treatment works for small infestations; broadcast treatment covers a full lawn more efficiently.",
+      },
+      {
+        question: "When do termites swarm in College Park, GA?",
+        answer:
+          "Subterranean termites in Georgia typically swarm from late February through May, triggered by warm, humid days. Finding winged termites, swarmers, indoors near windows or light fixtures in spring is the most common first sign. A professional inspection determines whether the swarm was from an established colony in the structure or from outside.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Atlanta", slug: "atlanta" },
+      { name: "East Point", slug: "east-point" },
+      { name: "Forest Park", slug: "forest-park-ga" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in College Park, GA | PestRemovalUSA",
+    metaDescription:
+      "College Park, GA sits next to Hartsfield-Jackson Airport, adding commercial cockroach and rodent pressure to Georgia's standard termite and fire ant calendar. Compare the risks.",
+  },
+
+    {
+    slug: "forest-park-ga",
+    name: "Forest Park",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~19,000",
+    county: "Clayton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Forest Park, Georgia has a humid subtropical climate with hot summers and mild winters. Its position as a Clayton County commercial and industrial hub, with significant truck traffic and warehousing, creates rodent and cockroach pressure that distinguishes it from quieter Clayton County residential communities.",
+    topPests: [
+      "German Cockroaches",
+      "Subterranean Termites",
+      "Mice",
+      "Fire Ants",
+      "Mosquitoes",
+    ],
+    pestProfile: [
+      {
+        name: "German cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round in commercial zones",
+        note:
+          "Food-service and warehouse facilities in Forest Park's commercial core sustain cockroach populations that spread to adjacent residential areas.",
+      },
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Active year-round, swarms February through May",
+        note:
+          "Clayton County's warm, moist climate keeps termite colonies active for most of the year; Forest Park's older housing has accumulated significant exposure time without treatment in some cases.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Year-round, higher pressure near industrial areas",
+        note:
+          "Warehousing and truck depot activity in Forest Park provides food and shelter for rodent populations that push into the surrounding residential neighborhoods.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Year-round, aggressive spring through fall",
+        note:
+          "Red imported fire ants are a persistent landscape pest throughout Clayton County; Forest Park yards and green spaces have active mounds most of the year.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through October",
+        note:
+          "Georgia's long warm season and standing water in low-lying Forest Park areas support Aedes and Culex mosquito breeding through a nine-month outdoor season.",
+      },
+    ],
+    localHook:
+      "Forest Park, Georgia is one of the few Atlanta-area communities where warehouse and trucking infrastructure sits directly adjacent to residential neighborhoods, making the rodent picture here meaningfully different from typical suburban Clayton County.",
+    intro:
+      "Forest Park, Georgia is best understood by comparison with its Clayton County neighbors. Jonesboro, Morrow, and Riverdale are primarily residential communities with standard Georgia pest calendars. Forest Park has all of that plus a significant commercial and industrial layer: warehousing, trucking depots, and industrial activity that creates rodent and cockroach source populations close to homes. That commercial influence raises the baseline pressure for rodents and cockroaches above what equivalent residential suburbs experience. The rest of the pest calendar, subterranean termites, fire ants, and mosquitoes, is shared across the metro but hits harder in a community where the structural vulnerabilities in older housing have accumulated over decades.",
+    sections: [
+      {
+        heading: "Industrial Land Use and Its Effect on Residential Pest Pressure",
+        body:
+          "Forest Park's commercial core includes warehousing and distribution facilities that handle food products, generating the kind of sustained food source and shelter that maintains large rodent populations. Residential neighborhoods adjacent to those commercial zones see higher year-round mouse and rat pressure than they would in the absence of that industrial activity. This is a well-documented pattern in urban ecology: rodent populations near food-handling and storage facilities can be two to three times larger than those in purely residential areas of the same size. For Forest Park homeowners near the commercial corridor, the implication is that exclusion takes priority. Rodenticide bait will reduce the population temporarily, but without sealing structural entry points, replacement from the adjacent source continues indefinitely.",
+      },
+      {
+        heading: "Termites in Forest Park vs. Newer Clayton County Development",
+        body:
+          "Subterranean termites in Georgia are active across Clayton County, but Forest Park's older housing stock, developed from the mid-twentieth century onward, carries the cumulative risk that comes with age. Newer developments in southern Clayton County, built in the 1990s or 2000s, came with standard pre-construction termite treatments and pressure-treated ground-contact lumber. Many Forest Park homes did not have those advantages. Georgia's warm, humid climate means termite colonies can remain active year-round, compressing the exposure time relative to northern states. An annual inspection for any Forest Park home over 25 years old, especially one without documented treatment history, is the industry-standard recommendation.",
+      },
+    ],
+    prevention: [
+      "Prioritize exclusion for rodents if your home sits within half a mile of industrial or warehousing land in Forest Park.",
+      "Schedule an annual termite inspection for older homes, particularly those without documentation of prior treatment.",
+      "Treat fire ant mounds promptly in lawn and garden areas before the colony grows large and spreads.",
+      "Eliminate standing water and unmaintained low-lying areas to reduce the long mosquito season.",
+    ],
+    costNote:
+      "Forest Park, GA pest programs commonly combine rodent exclusion with termite inspection and an ongoing perimeter cockroach treatment. Fire ant broadcast treatment covers full yards more efficiently than individual mound applications. A free assessment scopes the right approach.",
+    faqs: [
+      {
+        question: "Why is rodent pressure higher near industrial areas of Forest Park, GA?",
+        answer:
+          "Food-handling and warehousing facilities provide a sustained food source and harborage that supports rodent populations far larger than residential areas alone would sustain. Homes near those facilities see the excess population as mice and rats extend their territory into adjacent streets and yards, particularly in fall.",
+      },
+      {
+        question: "Are subterranean termites in Forest Park, GA more active than in northern states?",
+        answer:
+          "Yes. Georgia's warm climate allows termite colonies to remain active for more months of the year than in Ohio or Pennsylvania, where cold winters slow or suspend activity. The result is more cumulative damage potential per year in an untreated Georgia home.",
+      },
+      {
+        question: "How do I get rid of fire ants in my Forest Park yard?",
+        answer:
+          "Individual mound treatment with contact insecticide or fire ant bait is effective for isolated mounds. For yards with multiple mounds, broadcast bait treatment distributed across the entire lawn is more thorough and produces longer-lasting results. Fire ants recolonize from adjacent properties, so treatment may need to be repeated seasonally.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "College Park", slug: "college-park-ga" },
+      { name: "Jonesboro", slug: "mcdonough" },
+      { name: "East Point", slug: "east-point" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Forest Park, GA | PestRemovalUSA",
+    metaDescription:
+      "Forest Park, GA combines industrial land-use rodent pressure with Georgia's year-round termite and fire ant calendar. Compare the pest risks and what older Clayton County homes need.",
+  },
+  // Chunk 86 additions
+  {
+    slug: "union-city-ga",
+    name: "Union City",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~23,000",
+    county: "Fulton County",
+    climate: "hot-humid",
+    climateDriver: "Union City sits in southwest Fulton County near Hartsfield-Jackson Atlanta International Airport with a humid subtropical climate. Proximity to I-85 and the mix of residential and commercial land use create both human pest pressure and the warm, humid Georgia conditions that sustain termites and mosquitoes.",
+    topPests: ["Subterranean Termites", "Cockroaches", "Mice", "Fire Ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "Fulton County sits in a high-termite-pressure zone for Georgia. Union City's mix of residential and commercial construction and the humid clay soils of southwest Atlanta are favorable for colony development.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are common in Union City's drainage infrastructure and enter structures through floor drains and exterior gaps. German cockroaches are a commercial pest that can spread to adjacent residential areas along I-85.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, peak fall and winter",
+        note: "Union City's residential neighborhoods see consistent mouse pressure, with the commercial corridor along I-85 providing additional rodent habitat that borders some residential areas.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active March through October",
+        note: "Red imported fire ants are firmly established throughout Fulton County. They are a standard outdoor pest in Union City yards, particularly in open grassy areas.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The seasonal pattern in Union City follows the metro Atlanta mosquito calendar, with the highest pressure in the July through September window during peak heat and after rain events.",
+      },
+    ],
+    localHook: "Union City's location southwest of Atlanta near the airport creates a mix of residential and commercial pressure. The I-85 corridor brings commercial pest challenges close to residential neighborhoods, and Fulton County's humid clay soils sustain year-round termite activity.",
+    intro: "Union City, GA is a Fulton County community positioned near Hartsfield-Jackson, one of the busiest airports in the world. That geography means a mix of established residential neighborhoods and significant commercial activity along I-85, and from a pest control standpoint, those land uses create different but overlapping challenges. Termites are the structural risk that every Fulton County homeowner should manage actively. Cockroaches, mice, fire ants, and mosquitoes complete the year-round pest calendar.",
+    sections: [
+      {
+        heading: "How serious is the termite threat in Union City, GA?",
+        body: "Georgia is one of the higher-termite-risk states in the US, and Fulton County is not an exception. Eastern subterranean termites are the primary species, living in colonies underground and foraging upward through soil contact and mud tubes to reach wood. The humid clay soils common in the southwest Atlanta area stay moist and warm through much of the year, which supports large, active colonies. Swarms in Union City typically occur on warm days in February through April, often following a rain event. Finding winged termites inside the home, near a window or baseboard, is a sign that a colony is already present or immediately adjacent. Annual inspections are the standard of care in this part of Georgia. Homes without active termite protection are taking a risk that compounds over time as colonies grow and damage accumulates before it becomes visible.",
+      },
+      {
+        heading: "Why am I seeing cockroaches in my Union City home near I-85?",
+        body: "The I-85 corridor through Fulton County has significant warehouse, commercial, and food-handling activity. Those environments support German cockroach populations in particular, and cockroach pressure from commercial areas can extend into adjacent residential zones when businesses change or when drainage infrastructure is shared. American cockroaches, the large species common throughout Georgia, are present in the drainage and sewer infrastructure everywhere in Union City and enter homes through floor drains and gaps at exterior doors. If you live near the commercial corridor and you are seeing small, fast-moving cockroaches in the kitchen or bathroom, those are most likely German cockroaches, and they warrant a professional treatment plan rather than store-bought sprays, which tend to scatter them rather than eliminate the population. If you are seeing large, reddish-brown cockroaches, those are American cockroaches, and the entry point is the drainage infrastructure or exterior gaps.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection in Fulton County's active termite zone.",
+      "Keep mulch and soil from direct contact with wood siding and framing around the foundation.",
+      "Install check-valve covers on floor drains in bathrooms and laundry rooms to block cockroach entry.",
+      "Seal exterior gaps and gaps around utility penetrations before fall to reduce mouse access.",
+      "Treat fire ant mounds with an approved bait product as they appear in yard areas.",
+    ],
+    costNote: "Union City pest control pricing is consistent with the metro Atlanta market. Termite inspections are typically offered at no cost by licensed companies. General pest plans covering cockroaches, mice, and ants are widely available on a quarterly or monthly schedule. Contact a licensed Fulton County technician for a site-specific estimate.",
+    faqs: [
+      {
+        question: "When do termites swarm in Union City, GA?",
+        answer: "Eastern subterranean termites in the Atlanta area typically swarm from February through April, with the peak on warm, humid days following a rain event. Swarms occur when a mature colony releases winged reproductives to start new colonies. Finding them inside your home is a serious sign. Finding them outdoors near a wood pile or stump is a warning to inspect the structure.",
+      },
+      {
+        question: "Are fire ants in Union City dangerous?",
+        answer: "Red imported fire ants deliver multiple stings and inject venom that causes burning pain followed by a white pustule. Most reactions are localized. A small percentage of people experience severe systemic reactions requiring medical attention. Children and pets are most at risk because they may not respond quickly enough when a mound is disturbed. Treat visible mounds with a bait product and check the yard regularly.",
+      },
+      {
+        question: "How do I find where mice are entering my Union City home?",
+        answer: "Walk the perimeter at dusk with a flashlight and look for gaps at the foundation level, where utility lines enter the structure, under garage doors, and where different building materials meet. Mice can enter through a gap the size of a dime. Inside, look for droppings along wall edges in cabinets and under sinks. A professional exclusion inspection can systematically identify all entry points, which is often more efficient than trying to find them yourself.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Fairburn", slug: "fairburn-ga" },
+      { name: "Jonesboro", slug: "jonesboro-ga" },
+      { name: "College Park", slug: "college-park-ga" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Union City, GA | Fulton County",
+    metaDescription: "Union City, GA pest control for termites, cockroaches, mice, and fire ants. Licensed Fulton County service near Hartsfield-Jackson Atlanta Airport.",
+  },
+  {
+    slug: "jonesboro-ga",
+    name: "Jonesboro",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~11,000",
+    county: "Clayton County",
+    climate: "hot-humid",
+    climateDriver: "Jonesboro is the Clayton County seat south of Atlanta with a humid subtropical climate. The older residential neighborhoods, the humid Georgia soil conditions, and the proximity to the Flint River drainage basin create consistent termite and mosquito pressure.",
+    topPests: ["Subterranean Termites", "Mice", "Cockroaches", "Fire Ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "Older residential structures in Jonesboro and the humid Clayton County soil conditions make eastern subterranean termites a serious concern. Homes with crawl spaces warrant particular attention.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, peak fall and winter",
+        note: "Jonesboro's older neighborhoods have the settled foundations and accumulated gaps in older construction that give mice straightforward entry in fall.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches are common in Jonesboro's older drainage infrastructure and enter homes through floor drains and exterior gaps. The warm, humid climate sustains activity year-round.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Red imported fire ants are established throughout Clayton County and are a standard yard pest across Jonesboro's residential areas.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Flint River drainage features and the wooded areas around Jonesboro create localized mosquito breeding habitat through the warm months.",
+      },
+    ],
+    localHook: "Jonesboro is the seat of Clayton County and one of the older communities in the south Atlanta metro. Its older residential neighborhoods carry real termite risk in the humid Georgia soil, and the historic character of the town means some structures have not had updated pest protection in many years.",
+    intro: "Jonesboro, GA carries the character of an older southern Georgia county seat. Its older neighborhoods have genuine charm, and they also have the construction history that makes pest management a steady responsibility. Termites are the primary structural concern in Clayton County's humid soil conditions. Mice, cockroaches, fire ants, and mosquitoes complete the seasonal pest calendar. If your Jonesboro home has not had a termite inspection recently, that is the starting point.",
+    sections: [
+      {
+        heading: "Why do older Jonesboro homes carry higher termite risk?",
+        body: "The honest answer is that homes built before modern pest control practices became standard often lack the soil treatments, physical barriers, and construction details that reduce termite entry opportunities. In Jonesboro, homes built in the mid-20th century or earlier may have wood in contact with soil in areas that were not an issue at construction but became one as soil settled and wood aged. Crawl spaces under older homes can accumulate moisture over decades, and damp wood is more attractive to termite colonies. This does not mean every older Jonesboro home has termites. It means that if your home is more than 30 to 40 years old and has not had an inspection in the past two years, you do not actually know its termite status. An inspection changes that. If there is no evidence of activity or damage, great. If there is, you know what you are dealing with and can address it before the damage expands.",
+      },
+      {
+        heading: "What is the cockroach situation in older Jonesboro neighborhoods?",
+        body: "American cockroaches are the most common species in Jonesboro, and they are primarily a drainage and exterior pest rather than an indoor breeding species. They enter through floor drains, gaps at the base of exterior doors, and any penetration in the foundation or slab where plumbing exits. In an older home with settled concrete and original plumbing, those entry points are more numerous than in newer construction. The presence of American cockroaches inside does not indicate an unclean home; it indicates gaps in the building envelope and access from the drainage system outside. Treating the perimeter, sealing visible entry points, and covering floor drains are the practical steps. German cockroaches, the smaller species that breeds indoors, are less common in Jonesboro's residential areas but can appear in kitchens when introduced via boxes, bags, or secondhand appliances. These need immediate professional attention because they establish quickly.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any Jonesboro home more than 30 years old that lacks a documented treatment history.",
+      "Ventilate crawl spaces and install vapor barriers to reduce the moisture that attracts termites and carpenter ants.",
+      "Seal floor drains with check-valve covers in bathrooms and laundry rooms to reduce cockroach entry.",
+      "Treat fire ant mounds promptly in yard areas used by children and pets.",
+      "Check foundation gaps and utility penetrations in fall to block mouse entry before cold weather.",
+    ],
+    costNote: "Jonesboro pest control pricing reflects the Clayton County market south of Atlanta. Termite inspections are typically offered at no cost by licensed companies. Annual pest plans bundling general pest service with termite monitoring are common in this area.",
+    faqs: [
+      {
+        question: "Is Clayton County in a high termite pressure zone in Georgia?",
+        answer: "Yes. The entire metro Atlanta area, including Clayton County, falls in a moderate to heavy termite infestation zone according to Georgia pest management resources. The humid soil conditions south of Atlanta are particularly favorable for eastern subterranean termite colonies. Active protection is the standard of care, not an optional extra.",
+      },
+      {
+        question: "How do I get rid of fire ants in my Jonesboro yard?",
+        answer: "The most effective approach for residential yards is a broadcast bait application that worker ants carry back to the colony, combined with direct mound treatment for visible mounds. Broadcast bait is slow-acting but kills the queen and collapses the colony. Direct mound treatment works faster but does not address satellite colonies nearby. A professional application handles both in one visit. Avoid disturbing mounds before treatment, as this can cause the colony to relocate rather than be eliminated.",
+      },
+      {
+        question: "When should I expect termite swarms in Jonesboro?",
+        answer: "February through April are the primary swarming months in the Atlanta metro area. Swarms typically happen on warm, calm days following rain. If you find a cluster of winged insects near a window or baseboard inside your home in early spring, collect a sample if you can and call for an inspection the same day. Outdoors swarms near a wood pile or fence post are a warning to have the structure inspected.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Union City", slug: "union-city-ga" },
+      { name: "Fairburn", slug: "fairburn-ga" },
+      { name: "McDonough", slug: "mcdonough-ga" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Jonesboro, GA | Clayton County",
+    metaDescription: "Jonesboro, GA pest control for termites in older homes, mice, cockroaches, and fire ants. Licensed Clayton County service south of Atlanta.",
+  },
+  {
+    slug: "fairburn-ga",
+    name: "Fairburn",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~16,000",
+    county: "Fulton County",
+    climate: "hot-humid",
+    climateDriver: "Fairburn sits in southwest Fulton County near the Chattahoochee River with a humid subtropical climate. The river corridor, the mix of older and newer residential development, and the humid Georgia conditions create consistent termite, mosquito, and ant pressure.",
+    topPests: ["Subterranean Termites", "Mice", "Mosquitoes", "Fire Ants", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "Fulton County is in a high-termite-pressure area for Georgia. Fairburn's proximity to the Chattahoochee River corridor and its mix of older and newer construction both carry termite risk.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, peak fall and winter",
+        note: "Both older and newer Fairburn homes see mouse pressure, with open agricultural land on the southwest Fulton County edge sustaining field populations that push toward structure in fall.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Chattahoochee River floodplain and the drainage features throughout Fairburn create seasonal mosquito breeding habitat. The river corridor is the primary pressure source for adjacent neighborhoods.",
+      },
+      {
+        name: "Fire ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, most active spring through fall",
+        note: "Red imported fire ants are established throughout Fulton County and are a routine outdoor pest across Fairburn's residential and commercial areas.",
+      },
+      {
+        name: "Carpenter ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "The wooded areas near the Chattahoochee River corridor and older tree canopy in established Fairburn neighborhoods support carpenter ant activity through the warm season.",
+      },
+    ],
+    localHook: "Fairburn's position near the Chattahoochee River in southwest Fulton County means mosquito pressure from the river floodplain and moist soil conditions that favor termite colonies. The community's mix of older small-town character and newer development means pest risk varies by neighborhood and home age.",
+    intro: "Fairburn, GA is a Fulton County community with a genuine small-town feel and a growing newer residential sector. The Chattahoochee River runs near the western edge of the area, and the river corridor contributes real mosquito pressure to neighborhoods in its vicinity. Termites are active in Fulton County's humid soils year-round. Fire ants, mice, and carpenter ants round out the seasonal pest picture. Whether you are in an older Fairburn home or a newer subdivision, understanding the local pest profile helps you manage it proactively.",
+    sections: [
+      {
+        heading: "How does the Chattahoochee River affect pest pressure in Fairburn?",
+        body: "The Chattahoochee River does not flood routinely through the Fairburn area, but the floodplain on its banks holds moisture consistently. That wet soil and the low-lying areas in the river corridor create breeding habitat for mosquitoes that extends into adjacent residential areas. Culex quinquefasciatus, the southern house mosquito, is the most common species in metro Atlanta and breeds in slow-moving or standing water with organic matter. Properties within a quarter to half mile of the river corridor can see notably higher mosquito pressure than those further away. The other effect of the river proximity is elevated soil moisture, which keeps subterranean termite colonies well-supplied with the moisture they need. Fairburn homes near the river benefit from more frequent termite inspections and a consistent barrier spray for mosquitoes through the warm months.",
+      },
+      {
+        heading: "Are carpenter ants in Fairburn the same as termites?",
+        body: "Carpenter ants and termites are very different insects with different habits, but homeowners often confuse them or see them together because both are attracted to moisture-damaged wood. Carpenter ants are large, black ants that excavate wood to create galleries. They do not eat the wood; they remove it. You will see coarse, fibrous frass near active galleries, and the ants themselves are visible as they forage. Termites are small, pale insects that consume wood and rarely emerge except during swarming events. Termite damage typically shows hollow wood, mud tubes, or blistered paint over the damaged area. Both can be present in the same structure if there is a shared moisture problem. An inspection can determine which species are present and what the moisture source is. Fixing the moisture issue matters as much as treating the pest, because both carpenter ants and termites will return to a structure that stays wet.",
+      },
+    ],
+    prevention: [
+      "Schedule annual termite inspections for Fulton County properties, particularly those near the Chattahoochee River corridor.",
+      "Treat fire ant mounds promptly, especially in lawn areas near the Chattahoochee River park zones.",
+      "Eliminate standing water in yard low spots and drainage features to reduce mosquito breeding.",
+      "Inspect wood decks, steps, and landscaping timbers annually for moisture damage that attracts carpenter ants.",
+      "Seal foundation gaps and utility penetrations before fall to block mouse entry.",
+    ],
+    costNote: "Fairburn pest control is priced consistent with the southwest Fulton County market. River-adjacent properties may benefit from more frequent mosquito service. Termite inspections are typically offered at no cost. Contact a licensed Fulton County technician for a property-specific plan.",
+    faqs: [
+      {
+        question: "Do I need year-round pest control in Fairburn, GA?",
+        answer: "For most Fairburn homeowners, yes. Termites are active year-round in Fulton County. Fire ants are present in all seasons. Mice are a year-round pressure that peaks in fall. Mosquitoes and carpenter ants are seasonal but return reliably. A year-round plan on a quarterly schedule handles the seasonal variations without requiring you to track each pest individually.",
+      },
+      {
+        question: "What do fire ant mounds look like in a Fairburn yard?",
+        answer: "Red imported fire ant mounds appear as loose, dome-shaped piles of granular soil, typically without an obvious opening at the top. They are usually visible in open lawn areas and appear prominently after rain when the colony moves upward. Do not kick or disturb the mound, as the colony will respond immediately with stinging workers. Treat with an approved bait product or contact a technician.",
+      },
+      {
+        question: "How serious is the mosquito season near the Chattahoochee in Fairburn?",
+        answer: "For properties adjacent to or within a few blocks of the river corridor, the mosquito season from April through October can meaningfully affect outdoor use of the yard. A monthly or bimonthly barrier spray program, combined with eliminating all standing water on the property, gives the most consistent relief. Properties further from the river see standard metro Atlanta mosquito pressure, which is significant in July and August but manageable with proper treatment.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Union City", slug: "union-city-ga" },
+      { name: "Jonesboro", slug: "jonesboro-ga" },
+      { name: "Palmetto", slug: "palmetto-ga" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Fairburn, GA | Fulton County",
+    metaDescription: "Fairburn, GA pest control for termites, mosquitoes near the Chattahoochee River, fire ants, and mice. Licensed southwest Fulton County service.",
+  }
 ];

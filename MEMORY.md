@@ -10,14 +10,14 @@
 
 ## Current State (2026-06-28)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-83 complete. T2 COMPLETE.
-- **City pages built:** 2001 total (75 T1 + 300 T2 + 1626 T3).
+- **Phase:** Phase 3 T3 in progress. Chunks 15-86 complete. T2 COMPLETE.
+- **City pages built:** 2051 total (75 T1 + 300 T2 + 1676 T3).
 - **Town pages built:** 0.
-- **Total site pages:** 2083 in the static export (home, services, 50+ states, 2001 cities, core pages).
-- **Templates:** 5 (A to E), all fully built. Rotation: A=422, B=385, C=406, D=395, E=393 (2001 total cities, all within 15-25% range).
-- **Cities built T3 chunk 83 (25 pages, Template A):** 7 VA (arlington-va, centreville-va, dale-city-va, reston-va, woodbridge-va, ashburn-va, sterling-va), 5 NJ (lakewood-nj, hamilton-nj, brick-nj, middletown-nj, old-bridge-nj), 6 MI (clinton-township-mi, canton-mi, macomb-mi, shelby-township-mi, waterford-mi, west-bloomfield-mi), 4 PA (bensalem-pa, lower-merion-pa, abington-pa, penn-hills-pa), 3 NY Long Island (valley-stream-ny, lindenhurst-ny, rockville-centre-ny). Author rotation: Marcus Reed x12, Dr. Lena Ortiz x7, Sandra Whitfield x4, James Cole x2.
-- **New state files added:** none (all states already registered).
-- **Next block:** Chunk 84, T3 continues, rotation at B.
+- **Total site pages:** 2133 in the static export (home, services, 50+ states, 2051 cities, core pages).
+- **Templates:** 5 (A to E), all fully built. Rotation: A=422, B=385, C=406, D=420, E=393 (2051 total cities, all within 15-25% range).
+- **Cities built T3 chunk 86 (25 pages, Template D/qa):** 4 VA (vienna-va, chantilly-va, lake-ridge-va, springfield-va), 4 FL (hialeah-gardens-fl, fernandina-beach-fl, lynn-haven-fl, navarre-fl), 3 GA (union-city-ga, jonesboro-ga, fairburn-ga), 1 OH (springdale-oh), 1 TN (nolensville-tn), 3 NC (harrisburg-nc, weddington-nc, wendell-nc), 3 WA (sedro-woolley-wa, lynden-wa, cheney-wa), 3 NJ (howell-nj, jackson-nj, berkeley-nj), 2 PA (upper-darby-pa, whitehall-pa), 1 NY (great-neck-ny). Author rotation: Marcus Reed x7, Dr. Lena Ortiz x9, Sandra Whitfield x5, James Cole x4.
+- **New state files added:** none (all states already registered, cities appended to existing state files).
+- **Next block:** Chunk 87, T3 continues, rotation at E.
 - **Deploy note:** Always push directly to `main`. deploy.yml fires on every push to main and the site goes live immediately. Never use a working branch.
 
 ## Page Hierarchy and Tiering

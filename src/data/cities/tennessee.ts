@@ -6057,4 +6057,95 @@ export const tennesseeCities: CityLocation[] = [
   metaDescription:
     "Harriman pest control for subterranean termites, lake mosquitoes, roaches, carpenter ants and yellowjackets. Free inspection near Watts Bar Lake. Call 1-800-PEST-USA.",
 },
+,
+  // Chunk 86 additions
+  {
+    slug: "nolensville-tn",
+    name: "Nolensville",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~13,000",
+    county: "Williamson County",
+    climate: "temperate",
+    climateDriver: "Nolensville sits in fast-growing Williamson County south of Nashville with a temperate climate. The community is built on formerly agricultural land, which contributes to consistent ant and rodent pressure as development displaces field populations. Warm, humid Tennessee summers sustain termites and mosquitoes.",
+    topPests: ["Mice", "Ants", "Eastern Subterranean Termites", "Mosquitoes", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "rodent-control",
+        activeSeason: "Year-round, peak October through March",
+        note: "Nolensville's rapid development on former agricultural land displaces large field mouse populations that push toward the newer homes. This is one of the most consistent pest complaints in fast-growing Williamson County communities.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Multiple ant species are active in Nolensville. Odorous house ants are the most common indoor nuisance. Fire ants, expanding northward through Tennessee, are established in Williamson County and present a yard stinging hazard.",
+      },
+      {
+        name: "Eastern subterranean termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active spring through fall",
+        note: "Williamson County falls in Tennessee's active termite zone. Newer Nolensville construction needs active protection; older agricultural structures that preceded development add localized risk.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The drainage features of former agricultural land and the retention features in newer subdivisions create seasonal mosquito breeding habitat across Nolensville.",
+      },
+      {
+        name: "Brown marmorated stink bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall invasion September through November",
+        note: "Stink bugs have expanded into the Nashville metro area and are now a reliable fall nuisance in Williamson County communities including Nolensville.",
+      },
+    ],
+    localHook: "Nolensville is one of the fastest-growing communities in Tennessee, and the rapid development of former farmland brings a specific pest dynamic: field mice displaced by construction, former agricultural ant populations adapting to suburban settings, and the classic suburban termite and mosquito profile layered on top.",
+    intro: "Nolensville, TN has grown dramatically in recent years as Williamson County has become one of the Nashville metro's most desirable areas. That growth has a pest dimension worth understanding. New subdivisions built on former farmland displace established field mouse and ant populations that push toward the nearest available shelter, which is your new home. Termites are active in the Tennessee soil, fire ants are expanding northward through Williamson County, and the drainage features of former agricultural land create mosquito habitat. Understanding what you are managing in a fast-growing community like Nolensville changes how you approach pest prevention.",
+    sections: [
+      {
+        heading: "Why do new Nolensville homes have so many mice?",
+        body: "This is a question I hear a lot from homeowners who moved to newly built Nolensville subdivisions and were surprised to find mice within the first year. The answer is the land history. Former agricultural fields in Williamson County support large populations of deer mice and house mice that live in grassy and weedy areas at the field edges. When construction begins and those habitats are cleared and graded, the displaced population does not disappear. It moves to the nearest available shelter, which is often the new homes going up on the same land. This is a classic construction-displacement pattern. New construction also tends to have gaps that get addressed over time but may not be fully sealed in the first season. Homes backing up to retained tree lines, drainage channels, or undeveloped lots see the most pressure. The good news is that once a proactive exclusion program seals the key entry points and a trapping program handles the initial population, the pressure normalizes over time as the surrounding land is further developed.",
+      },
+      {
+        heading: "Are fire ants now established in Nolensville, TN?",
+        body: "Yes. Red imported fire ants have been expanding northward through Tennessee over the past two decades, and Williamson County is now within their established range. Nolensville's new subdivisions with open lawn areas are well-suited to fire ant colonization. They are not as dense or as large as what you would see in Alabama or Georgia, but they are present, the mounds are real, and the stings are the same. The population tends to be more scattered in Middle Tennessee than in the deep South, but treating visible mounds and doing periodic broadcast bait applications in yard areas is worth doing, especially if you have children or pets using the lawn regularly. This is a newer pest pressure for Nolensville compared to the established termite and mouse pressures, and some residents are not yet aware that fire ants are a concern this far north.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before October to reduce mouse entry, especially in newer construction.",
+      "Check under landscaping timbers and mulch near the foundation for termite activity annually.",
+      "Treat fire ant mounds with approved bait products as they appear in yard areas.",
+      "Eliminate standing water in retention features, low-lying areas, and drainage swales to reduce mosquito breeding.",
+      "Seal stink bug entry points in late August to reduce fall invasion into wall voids and attics.",
+    ],
+    costNote: "Nolensville pest control pricing reflects the growing Williamson County market. Newer homes often benefit from an initial exclusion investment alongside a recurring service plan. Termite inspections are typically available at no cost from licensed companies. Contact a licensed technician for a site-specific estimate.",
+    faqs: [
+      {
+        question: "Do brand-new Nolensville homes need termite protection?",
+        answer: "Yes. Tennessee building code requires certain termite protection measures in new construction, but these are point-in-time measures that diminish over time. Soil treatments applied at construction typically last five to eight years before renewal is needed. A bait monitoring system provides ongoing protection and detection. In Williamson County's active termite zone, maintaining that protection after the builder's initial treatment expires is the homeowner's responsibility.",
+      },
+      {
+        question: "How do I know if ants in my Nolensville home are fire ants or a different species?",
+        answer: "Fire ants are reddish-brown and slightly smaller than a typical carpenter ant. They build dome-shaped mounds in open grassy areas and respond aggressively when the mound is disturbed. Odorous house ants, the most common indoor nuisance species, are tiny, dark-colored, and produce a musty odor when crushed. Carpenter ants are large and black. If you have ants marching in a trail in your kitchen, those are almost certainly odorous house ants or pavement ants, not fire ants.",
+      },
+      {
+        question: "Why are mosquitoes bad in some Nolensville neighborhoods and not others?",
+        answer: "The variation comes down to proximity to drainage features and the character of the surrounding land. Subdivisions with retention ponds, drainage swales, or that back up to the tree lines and creek corridors in the area see more mosquito pressure than those on higher, drier ground. Within the same subdivision, a yard with no standing water and treated resting areas will have noticeably fewer mosquitoes than a yard with planters, birdbaths, and dense low vegetation.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Brentwood", slug: "brentwood-tn" },
+      { name: "Franklin", slug: "franklin-tn" },
+      { name: "Smyrna", slug: "smyrna-tn" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Nolensville, TN | Williamson County",
+    metaDescription: "Nolensville, TN pest control for mice, fire ants, termites, and mosquitoes. Fast-growing Williamson County community south of Nashville.",
+  }
 ];
