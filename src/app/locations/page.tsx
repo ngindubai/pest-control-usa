@@ -4,7 +4,7 @@ import { MapPin, Phone, ChevronRight } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Pest Control Service Areas | PestRemovalUSA — All 50 States",
+  title: "Pest Control Service Areas | PestRemovalUSA: All 50 States",
   description:
     "PestRemovalUSA serves all 50 states with licensed pest control technicians. Find your state and city for local pest removal services near you.",
   alternates: { canonical: "https://pestremovalusa.com/locations/" },
@@ -199,7 +199,7 @@ export default function LocationsPage() {
           </h2>
           <p className="text-gray-600 mb-8">
             We serve over 2,500 cities nationwide. Call us or enter your ZIP code to confirm
-            coverage in your area — chances are we&apos;re already there.
+            coverage in your area, chances are we&apos;re already there.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

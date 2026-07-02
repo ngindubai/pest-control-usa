@@ -31,16 +31,16 @@ export const services: Service[] = [
     emoji: "🐜",
     category: "insects",
     urgency: "medium",
-    tagline: "Eliminate ant colonies at the source — not just the workers",
+    tagline: "Eliminate ant colonies at the source, not just the workers",
     heroDesc:
       "Ants are the #1 pest complaint in America. From tiny sugar ants to destructive carpenter ants, a visible ant trail means thousands more are hidden in your walls and foundation. Our targeted colony elimination treatment finds and destroys the queen, stopping the infestation permanently.",
-    priceRange: "$149 – $299",
+    priceRange: "$149 to $299",
     signs: [
       "Ant trails along walls, countertops, or windows",
       "Small piles of sawdust (carpenter ants tunneling in wood)",
       "Ant nests or mounds near the home's foundation",
       "Food packaging with tiny holes or ant activity inside",
-      "Flying ants (swarmers) indoors — often mistaken for termites",
+      "Flying ants (swarmers) indoors, often mistaken for termites",
     ],
     treatments: [
       {
@@ -61,7 +61,7 @@ export const services: Service[] = [
       },
     ],
     prevention: [
-      "Store all food in sealed containers — including pet food",
+      "Store all food in sealed containers, including pet food",
       "Fix leaky pipes and eliminate moisture sources that attract carpenter ants",
       "Trim tree branches and shrubs that touch the exterior of your home",
       "Remove woodpiles, debris, and mulch from direct contact with your foundation",
@@ -70,15 +70,15 @@ export const services: Service[] = [
     faqs: [
       {
         q: "How long does ant treatment take to work?",
-        a: "Gel bait treatments typically show significant reduction within 3–5 days as workers carry bait back to the colony. Full colony elimination usually takes 1–2 weeks. Perimeter sprays work within hours for contact kill.",
+        a: "Gel bait treatments typically show significant reduction within 3 to 5 days as workers carry bait back to the colony. Full colony elimination usually takes 1 to 2 weeks. Perimeter sprays work within hours for contact kill.",
       },
       {
         q: "Are carpenter ants dangerous to my home?",
-        a: "Yes. Unlike termites, carpenter ants do not eat wood — but they excavate galleries to nest, which can cause structural damage over time if untreated. An active infestation should be treated as soon as possible.",
+        a: "Yes. Unlike termites, carpenter ants do not eat wood, but they excavate galleries to nest, which can cause structural damage over time if untreated. An active infestation should be treated as soon as possible.",
       },
       {
         q: "Why do I still see ants after treatment?",
-        a: "With bait treatments, seeing ants for 3–7 days post-treatment is normal — they are actively feeding on and transporting the bait to the colony. Increased activity is actually a sign the treatment is working.",
+        a: "With bait treatments, seeing ants for 3 to 7 days post-treatment is normal, they are actively feeding on and transporting the bait to the colony. Increased activity is actually a sign the treatment is working.",
       },
       {
         q: "Can ants come back after treatment?",
@@ -93,16 +93,16 @@ export const services: Service[] = [
     emoji: "🛏️",
     category: "insects",
     urgency: "critical",
-    tagline: "Complete bed bug elimination — guaranteed",
+    tagline: "Complete bed bug elimination, guaranteed",
     heroDesc:
       "Bed bugs are among the most difficult pests to eliminate without professional help. They hide in mattress seams, electrical outlets, picture frames, and even inside walls. PestRemovalUSA uses a combination of heat treatment and EPA-registered chemical protocols to achieve complete elimination in a single treatment.",
-    priceRange: "$499 – $1,499",
+    priceRange: "$499 to $1,499",
     signs: [
       "Small red or brown spots (fecal stains) on mattress or bedding",
       "Waking up with itchy, red welts in a line or cluster",
       "Tiny shed skins or eggshells around bed frames and seams",
       "Sweet, musty odor in heavily infested rooms",
-      "Live bugs — apple-seed size, flat, reddish-brown — in mattress seams",
+      "Live bugs, apple-seed size, flat, reddish-brown, in mattress seams",
     ],
     treatments: [
       {
@@ -123,7 +123,7 @@ export const services: Service[] = [
       },
     ],
     prevention: [
-      "Inspect hotel rooms before staying — check mattress seams and headboard",
+      "Inspect hotel rooms before staying, check mattress seams and headboard",
       "Never place luggage on hotel beds; use luggage racks",
       "Wash and dry clothing on high heat after travel",
       "Inspect secondhand furniture thoroughly before bringing it indoors",
@@ -132,7 +132,7 @@ export const services: Service[] = [
     faqs: [
       {
         q: "Does one heat treatment really kill all bed bugs?",
-        a: "Yes, when performed properly. Heat penetrates all hiding spots — inside furniture, inside walls, inside outlets — that chemical sprays miss. Our heat treatments achieve 98%+ elimination rates in a single session.",
+        a: "Yes, when performed properly. Heat penetrates all hiding spots, inside furniture, inside walls, inside outlets, that chemical sprays miss. Our heat treatments achieve 98%+ elimination rates in a single session.",
       },
       {
         q: "Do I need to throw away my mattress?",
@@ -144,7 +144,7 @@ export const services: Service[] = [
       },
       {
         q: "How did I get bed bugs?",
-        a: "Bed bugs are excellent hitchhikers. Common sources include hotels, public transportation, movie theaters, secondhand furniture, and visitors to your home. They can travel on luggage, clothing, and bags — no level of cleanliness prevents them.",
+        a: "Bed bugs are excellent hitchhikers. Common sources include hotels, public transportation, movie theaters, secondhand furniture, and visitors to your home. They can travel on luggage, clothing, and bags, no level of cleanliness prevents them.",
       },
     ],
     relatedSlugs: ["spider-control", "flea-tick-treatment", "cockroach-control"],
@@ -155,13 +155,13 @@ export const services: Service[] = [
     emoji: "🪳",
     category: "insects",
     urgency: "high",
-    tagline: "Eliminate cockroach infestations fast — before they multiply",
+    tagline: "Eliminate cockroach infestations fast, before they multiply",
     heroDesc:
-      "A single female cockroach can produce up to 300 offspring in a year. German cockroaches — the most common indoor species — reproduce so fast that a small problem becomes a severe infestation within weeks. Our gel bait and IGR (insect growth regulator) program stops breeding and eliminates colonies within days.",
-    priceRange: "$179 – $399",
+      "A single female cockroach can produce up to 300 offspring in a year. German cockroaches, the most common indoor species, reproduce so fast that a small problem becomes a severe infestation within weeks. Our gel bait and IGR (insect growth regulator) program stops breeding and eliminates colonies within days.",
+    priceRange: "$179 to $399",
     signs: [
-      "Cockroach droppings — small, dark, resembling coffee grounds",
-      "Egg cases (oothecae) — small, brown, capsule-shaped — behind appliances",
+      "Cockroach droppings, small, dark, resembling coffee grounds",
+      "Egg cases (oothecae), small, brown, capsule-shaped, behind appliances",
       "Musty, oily odor in the kitchen or bathrooms",
       "Seeing live roaches during the day (indicates heavy infestation)",
       "Grease smear marks along walls and baseboards",
@@ -185,16 +185,16 @@ export const services: Service[] = [
       },
     ],
     prevention: [
-      "Fix all water leaks — cockroaches need moisture to survive",
-      "Keep kitchen clean — wash dishes daily, wipe down counters every night",
+      "Fix all water leaks, cockroaches need moisture to survive",
+      "Keep kitchen clean, wash dishes daily, wipe down counters every night",
       "Store food in sealed containers; never leave food out overnight",
       "Seal gaps around pipes, drains, and under sinks",
-      "Remove cardboard boxes — roaches love to nest in them",
+      "Remove cardboard boxes, roaches love to nest in them",
     ],
     faqs: [
       {
         q: "How fast can cockroaches multiply?",
-        a: "Extremely fast. A German cockroach reaches breeding maturity in 45 days and produces an egg case every 6 weeks with 30–40 eggs per case. A pair of roaches can become thousands within a year.",
+        a: "Extremely fast. A German cockroach reaches breeding maturity in 45 days and produces an egg case every 6 weeks with 30 to 40 eggs per case. A pair of roaches can become thousands within a year.",
       },
       {
         q: "Are cockroaches dangerous to my health?",
@@ -202,10 +202,10 @@ export const services: Service[] = [
       },
       {
         q: "How long until roaches are gone after treatment?",
-        a: "Gel bait works fast — significant reduction within 3–5 days. Full elimination of a moderate infestation typically takes 1–2 treatments over 2–4 weeks.",
+        a: "Gel bait works fast, significant reduction within 3 to 5 days. Full elimination of a moderate infestation typically takes 1 to 2 treatments over 2 to 4 weeks.",
       },
       {
-        q: "I only see them at night — is my infestation bad?",
+        q: "I only see them at night, is my infestation bad?",
         a: "Cockroaches are nocturnal, so seeing them only at night is normal. Seeing them during the day signals a heavy infestation where competition for harborage is forcing them out of hiding.",
       },
     ],
@@ -220,7 +220,7 @@ export const services: Service[] = [
     tagline: "Protect your family and pets from fleas and ticks year-round",
     heroDesc:
       "Fleas can survive for months without a host and jump 150 times their own length. A few fleas on your pet can turn into a full home infestation within weeks. Ticks are a serious health risk, transmitting Lyme disease, Rocky Mountain spotted fever, and more. Our combined interior and yard treatment eliminates both at all life stages.",
-    priceRange: "$199 – $449",
+    priceRange: "$199 to $449",
     signs: [
       "Pets scratching, biting, or grooming excessively",
       "Finding small, fast-moving dark dots on pet fur or bedding",
@@ -239,7 +239,7 @@ export const services: Service[] = [
       },
       {
         name: "Pet Coordination Guidance",
-        desc: "We coordinate with your vet's on-pet treatment — professional pest control combined with on-pet products is essential for full eradication.",
+        desc: "We coordinate with your vet's on-pet treatment, professional pest control combined with on-pet products is essential for full eradication.",
       },
       {
         name: "Perimeter Tick Control",
@@ -260,7 +260,7 @@ export const services: Service[] = [
       },
       {
         q: "How many treatments are needed for fleas?",
-        a: "Most infestations require 2–3 treatments 2–3 weeks apart, due to the pupal stage which is immune to insecticides. The IGR in our treatment prevents new pupae from developing, breaking the cycle.",
+        a: "Most infestations require 2 to 3 treatments 2 to 3 weeks apart, due to the pupal stage which is immune to insecticides. The IGR in our treatment prevents new pupae from developing, breaking the cycle.",
       },
       {
         q: "What tick species are most dangerous in the USA?",
@@ -282,7 +282,7 @@ export const services: Service[] = [
     tagline: "Take back your yard with seasonal mosquito reduction programs",
     heroDesc:
       "Mosquitoes breed in as little as a bottle cap of water and can travel up to 3 miles from their breeding site. Beyond the discomfort, mosquitoes transmit West Nile virus, Zika, Eastern Equine Encephalitis, and heartworm to pets. Our targeted yard spray programs reduce mosquito populations by up to 90% and protect your outdoor spaces all season.",
-    priceRange: "$89 – $199 per treatment",
+    priceRange: "$89 to $199 per treatment",
     signs: [
       "Mosquito bites during and after outdoor time in your yard",
       "Visible mosquitoes at dusk and dawn near vegetation",
@@ -293,7 +293,7 @@ export const services: Service[] = [
     treatments: [
       {
         name: "Residual Barrier Spray",
-        desc: "Targeted application to mosquito resting sites — foliage, shrubs, tree canopies, and shaded areas — using pyrethrin or permethrin. Effective for 21–30 days.",
+        desc: "Targeted application to mosquito resting sites, foliage, shrubs, tree canopies, and shaded areas, using pyrethrin or permethrin. Effective for 21 to 30 days.",
       },
       {
         name: "Larvicide Treatment",
@@ -305,11 +305,11 @@ export const services: Service[] = [
       },
       {
         name: "Source Reduction Audit",
-        desc: "We identify and help eliminate breeding sites on your property — clogged gutters, low-lying areas, and hidden water collection points.",
+        desc: "We identify and help eliminate breeding sites on your property, clogged gutters, low-lying areas, and hidden water collection points.",
       },
     ],
     prevention: [
-      "Eliminate all standing water on your property every 5–7 days",
+      "Eliminate all standing water on your property every 5 to 7 days",
       "Clean and change birdbath water weekly",
       "Keep gutters clean and flowing freely",
       "Maintain pools with proper chlorine and circulation",
@@ -318,7 +318,7 @@ export const services: Service[] = [
     faqs: [
       {
         q: "How effective is mosquito barrier spray?",
-        a: "Our barrier spray program typically reduces yard mosquito populations by 85–95% on treatment day and maintains a 60–80% reduction through the full 21–30 day residual period. Results vary based on breeding pressure from surrounding areas.",
+        a: "Our barrier spray program typically reduces yard mosquito populations by 85 to 95% on treatment day and maintains a 60 to 80% reduction through the full 21 to 30 day residual period. Results vary based on breeding pressure from surrounding areas.",
       },
       {
         q: "Is the treatment safe for bees and butterflies?",
@@ -326,11 +326,11 @@ export const services: Service[] = [
       },
       {
         q: "When should I start mosquito treatments?",
-        a: "We recommend starting treatments when temperatures consistently exceed 50°F — typically March/April in the South and May in northern states. Early season treatment prevents populations from building up.",
+        a: "We recommend starting treatments when temperatures consistently exceed 50°F, typically March/April in the South and May in northern states. Early season treatment prevents populations from building up.",
       },
       {
         q: "Can you get rid of mosquitoes permanently?",
-        a: "Complete elimination is not possible since new mosquitoes migrate from neighboring properties. Our goal is significant reduction — enough to comfortably enjoy your yard. Seasonal programs provide continuous protection.",
+        a: "Complete elimination is not possible since new mosquitoes migrate from neighboring properties. Our goal is significant reduction, enough to comfortably enjoy your yard. Seasonal programs provide continuous protection.",
       },
     ],
     relatedSlugs: ["flea-tick-treatment", "fly-control", "wildlife-removal"],
@@ -343,8 +343,8 @@ export const services: Service[] = [
     urgency: "critical",
     tagline: "Protect your home's structure with proven termite solutions",
     heroDesc:
-      "Termites cause over $5 billion in property damage annually in the United States — more than fires and floods combined. Most homeowner insurance policies do not cover termite damage. Subterranean termites, the most destructive species, can destroy a floor joist in as few as 3 years of undetected activity. Early detection and treatment is critical.",
-    priceRange: "$499 – $2,999",
+      "Termites cause over $5 billion in property damage annually in the United States, more than fires and floods combined. Most homeowner insurance policies do not cover termite damage. Subterranean termites, the most destructive species, can destroy a floor joist in as few as 3 years of undetected activity. Early detection and treatment is critical.",
+    priceRange: "$499 to $2,999",
     signs: [
       "Mud tubes on foundation walls, piers, or crawlspace beams",
       "Hollow-sounding wood when tapped",
@@ -371,11 +371,11 @@ export const services: Service[] = [
       },
     ],
     prevention: [
-      "Maintain a gap between soil and wood framing — never let wood contact the ground",
+      "Maintain a gap between soil and wood framing, never let wood contact the ground",
       "Fix all plumbing leaks and moisture problems under the home",
       "Keep mulch and wood debris away from the foundation",
       "Store firewood at least 20 feet from the home",
-      "Schedule annual termite inspections — early detection dramatically reduces damage",
+      "Schedule annual termite inspections, early detection dramatically reduces damage",
     ],
     faqs: [
       {
@@ -392,7 +392,7 @@ export const services: Service[] = [
       },
       {
         q: "Do I need to leave my home during termite treatment?",
-        a: "For liquid perimeter treatments and bait stations, no evacuation is required. For any localized injection work in living spaces, we may ask you to vacate for 4–6 hours. Full tent fumigation (for drywood termites) requires a 24–72 hour evacuation.",
+        a: "For liquid perimeter treatments and bait stations, no evacuation is required. For any localized injection work in living spaces, we may ask you to vacate for 4 to 6 hours. Full tent fumigation (for drywood termites) requires a 24 to 72 hour evacuation.",
       },
     ],
     relatedSlugs: ["ant-control", "wildlife-removal", "mice-control"],
@@ -405,8 +405,8 @@ export const services: Service[] = [
     urgency: "medium",
     tagline: "Eliminate dangerous spiders and web infestations throughout your home",
     heroDesc:
-      "Most spiders are harmless — but black widows and brown recluse spiders pose genuine medical risks, particularly to children and the elderly. Beyond safety, spider populations in and around your home signal a broader pest issue — spiders only live where other insects do. Our web removal and residual treatment eliminates spiders and reduces the food supply that draws them in.",
-    priceRange: "$149 – $299",
+      "Most spiders are harmless, but black widows and brown recluse spiders pose genuine medical risks, particularly to children and the elderly. Beyond safety, spider populations in and around your home signal a broader pest issue, spiders only live where other insects do. Our web removal and residual treatment eliminates spiders and reduces the food supply that draws them in.",
+    priceRange: "$149 to $299",
     signs: [
       "Webs in corners, along walls, in garages, and under furniture",
       "Red hourglass marking (black widow) under windowsills and in dark corners",
@@ -421,7 +421,7 @@ export const services: Service[] = [
       },
       {
         name: "Residual Barrier Spray",
-        desc: "Pyrethroid-based residual applied to the exterior foundation, entry points, and crawlspace creates a kill zone that eliminates spiders on contact for 60–90 days.",
+        desc: "Pyrethroid-based residual applied to the exterior foundation, entry points, and crawlspace creates a kill zone that eliminates spiders on contact for 60 to 90 days.",
       },
       {
         name: "Interior Treatment",
@@ -434,15 +434,15 @@ export const services: Service[] = [
     ],
     prevention: [
       "Shake out shoes, gloves, and clothing stored in closets or garages",
-      "Reduce exterior lighting — light attracts insects, which attract spiders",
+      "Reduce exterior lighting, light attracts insects, which attract spiders",
       "Seal cracks around doors, windows, and utility penetrations",
-      "Declutter storage areas — cardboard boxes are prime brown recluse habitat",
+      "Declutter storage areas, cardboard boxes are prime brown recluse habitat",
       "Inspect firewood before bringing it indoors",
     ],
     faqs: [
       {
         q: "How do I identify a brown recluse vs. a harmless spider?",
-        a: "Brown recluse spiders have a distinctive violin-shaped marking on their back and 6 eyes (rather than 8) arranged in three pairs. They are typically 6–20mm, tan to brown, with no distinctive markings on the abdomen. When in doubt, do not handle any spider — call us for identification.",
+        a: "Brown recluse spiders have a distinctive violin-shaped marking on their back and 6 eyes (rather than 8) arranged in three pairs. They are typically 6 to 20mm, tan to brown, with no distinctive markings on the abdomen. When in doubt, do not handle any spider, call us for identification.",
       },
       {
         q: "Are spider bites dangerous?",
@@ -467,8 +467,8 @@ export const services: Service[] = [
     urgency: "critical",
     tagline: "Safe, fast removal of stinging insect nests from your property",
     heroDesc:
-      "Wasp and bee stings kill approximately 100 Americans annually through anaphylactic shock. A disturbed yellowjacket or paper wasp colony can sting hundreds of times in seconds. Active nests on or near your home are an immediate safety risk that require professional removal — DIY attempts often trigger dangerous mass stinging events.",
-    priceRange: "$149 – $399",
+      "Wasp and bee stings kill approximately 100 Americans annually through anaphylactic shock. A disturbed yellowjacket or paper wasp colony can sting hundreds of times in seconds. Active nests on or near your home are an immediate safety risk that require professional removal, DIY attempts often trigger dangerous mass stinging events.",
+    priceRange: "$149 to $399",
     signs: [
       "Visible nest under eaves, in soffits, or attached to the exterior",
       "Increased wasp/bee activity near a specific area of your home",
@@ -483,7 +483,7 @@ export const services: Service[] = [
       },
       {
         name: "Bee Swarm Removal",
-        desc: "For honey bee swarms, we work with local beekeepers to relocate bees rather than destroy them wherever possible — protecting pollinators while removing the hazard.",
+        desc: "For honey bee swarms, we work with local beekeepers to relocate bees rather than destroy them wherever possible, protecting pollinators while removing the hazard.",
       },
       {
         name: "Wall Void Treatment",
@@ -496,8 +496,8 @@ export const services: Service[] = [
     ],
     prevention: [
       "Seal all gaps, cracks, and openings in your home's exterior before spring",
-      "Check eaves, gutters, and vents regularly during April–August",
-      "Keep garbage cans tightly sealed — yellowjackets are attracted to food waste",
+      "Check eaves, gutters, and vents regularly during April to August",
+      "Keep garbage cans tightly sealed, yellowjackets are attracted to food waste",
       "Avoid wearing sweet-smelling perfumes and bright floral colors when outdoors",
       "Fill rodent burrows that could be used by ground-nesting yellowjackets",
     ],
@@ -529,13 +529,13 @@ export const services: Service[] = [
     urgency: "medium",
     tagline: "Eliminate fly infestations and identify breeding sources",
     heroDesc:
-      "Flies can spread over 65 diseases including Salmonella, E. coli, typhoid fever, and cholera by landing on food and surfaces. A single house fly can lay up to 500 eggs in her short lifetime. A successful fly control program requires both killing adult flies and eliminating the organic breeding sources — without source elimination, fly populations will continue indefinitely.",
-    priceRange: "$149 – $349",
+      "Flies can spread over 65 diseases including Salmonella, E. coli, typhoid fever, and cholera by landing on food and surfaces. A single house fly can lay up to 500 eggs in her short lifetime. A successful fly control program requires both killing adult flies and eliminating the organic breeding sources, without source elimination, fly populations will continue indefinitely.",
+    priceRange: "$149 to $349",
     signs: [
       "Cluster of flies around food preparation areas or garbage",
       "Small dark drain flies emerging from sink or floor drains",
       "Fruit flies hovering around ripe fruit, garbage, or wine bottles",
-      "Dead flies accumulating on windowsills — indicator of cluster fly activity",
+      "Dead flies accumulating on windowsills, indicator of cluster fly activity",
       "Maggots found in garbage, compost, or under decks",
     ],
     treatments: [
@@ -557,7 +557,7 @@ export const services: Service[] = [
       },
     ],
     prevention: [
-      "Empty and clean garbage cans regularly — never let organic waste build up",
+      "Empty and clean garbage cans regularly, never let organic waste build up",
       "Clean floor drains monthly with bio-enzyme drain cleaner",
       "Store ripe fruit in the refrigerator",
       "Fix window and door screen damage immediately",
@@ -566,7 +566,7 @@ export const services: Service[] = [
     faqs: [
       {
         q: "Why do I have tiny flies coming from my drains?",
-        a: "Drain flies (moth flies) and phorid flies breed in the organic slime film that accumulates in sink drains, floor drains, and garbage disposals. They cannot be eliminated by killing adults alone — the drain slime must be removed with enzyme treatment.",
+        a: "Drain flies (moth flies) and phorid flies breed in the organic slime film that accumulates in sink drains, floor drains, and garbage disposals. They cannot be eliminated by killing adults alone, the drain slime must be removed with enzyme treatment.",
       },
       {
         q: "Are fruit flies and drain flies the same thing?",
@@ -591,10 +591,10 @@ export const services: Service[] = [
     urgency: "medium",
     tagline: "Protect your pantry and clothing from destructive moth infestations",
     heroDesc:
-      "There are two very different moth pest problems: pantry moths (Indian meal moths) that infest dried foods and grains, and clothes moths that destroy wool, silk, cashmere, and other natural fiber clothing. Both require specific identification and targeted treatment — the same approach does not work for both species.",
-    priceRange: "$149 – $299",
+      "There are two very different moth pest problems: pantry moths (Indian meal moths) that infest dried foods and grains, and clothes moths that destroy wool, silk, cashmere, and other natural fiber clothing. Both require specific identification and targeted treatment, the same approach does not work for both species.",
+    priceRange: "$149 to $299",
     signs: [
-      "Webbing inside dried food packages — cereals, flour, pasta, pet food",
+      "Webbing inside dried food packages, cereals, flour, pasta, pet food",
       "Small larvae or caterpillars in pantry food containers",
       "Holes in wool, cashmere, silk, or fur clothing or rugs",
       "Adult moths flying near kitchen or bedroom closets",
@@ -603,7 +603,7 @@ export const services: Service[] = [
     treatments: [
       {
         name: "Pantry Inspection & Disposal",
-        desc: "Complete pantry audit to identify and dispose of all infested products — the only way to eliminate the food source and break the breeding cycle.",
+        desc: "Complete pantry audit to identify and dispose of all infested products, the only way to eliminate the food source and break the breeding cycle.",
       },
       {
         name: "Pheromone Traps",
@@ -620,7 +620,7 @@ export const services: Service[] = [
     ],
     prevention: [
       "Store all dried goods in airtight glass or hard plastic containers",
-      "Regularly rotate pantry stock — use oldest products first",
+      "Regularly rotate pantry stock, use oldest products first",
       "Store wool and natural fiber clothing in sealed garment bags",
       "Cedar blocks repel adult clothes moths but don't kill larvae or eggs",
       "Vacuum closets, carpet edges, and under furniture regularly",
@@ -632,7 +632,7 @@ export const services: Service[] = [
       },
       {
         q: "Can moths damage synthetic clothing?",
-        a: "No. Clothes moths specifically target natural animal fibers — wool, cashmere, silk, mohair, fur, and feathers. Synthetic fabrics are immune. However, blended fabrics with natural fiber content can be attacked.",
+        a: "No. Clothes moths specifically target natural animal fibers, wool, cashmere, silk, mohair, fur, and feathers. Synthetic fabrics are immune. However, blended fabrics with natural fiber content can be attacked.",
       },
       {
         q: "Do moth balls work?",
@@ -640,7 +640,7 @@ export const services: Service[] = [
       },
       {
         q: "How long does it take to get rid of a moth infestation?",
-        a: "After disposal of infested food and treatment, pantry moth infestations typically clear within 2–4 weeks. Clothes moth infestations may take multiple treatments over 6–8 weeks due to pupae in difficult-to-reach areas.",
+        a: "After disposal of infested food and treatment, pantry moth infestations typically clear within 2 to 4 weeks. Clothes moth infestations may take multiple treatments over 6 to 8 weeks due to pupae in difficult-to-reach areas.",
       },
     ],
     relatedSlugs: ["silverfish-control", "cockroach-control", "ant-control"],
@@ -653,8 +653,8 @@ export const services: Service[] = [
     urgency: "low",
     tagline: "Eliminate silverfish and protect books, wallpaper, and clothing",
     heroDesc:
-      "Silverfish are moisture-loving, nocturnal insects that feed on starchy materials — paper, book bindings, wallpaper paste, clothing, and cotton fabrics. While they pose no direct health risk, a silverfish infestation indicates excessive moisture in your home and will cause progressive damage to documents and personal property. They are also notoriously difficult to eliminate without professional treatment due to their secretive habits.",
-    priceRange: "$129 – $249",
+      "Silverfish are moisture-loving, nocturnal insects that feed on starchy materials, paper, book bindings, wallpaper paste, clothing, and cotton fabrics. While they pose no direct health risk, a silverfish infestation indicates excessive moisture in your home and will cause progressive damage to documents and personal property. They are also notoriously difficult to eliminate without professional treatment due to their secretive habits.",
+    priceRange: "$129 to $249",
     signs: [
       "Yellowish stains or small holes in books, wallpaper, or clothing",
       "Tiny pepper-like black feces near bookshelves, closets, or baseboards",
@@ -673,7 +673,7 @@ export const services: Service[] = [
       },
       {
         name: "Moisture Reduction Assessment",
-        desc: "We identify and document the moisture sources driving the infestation — plumbing leaks, poor ventilation, condensation — and provide remediation recommendations.",
+        desc: "We identify and document the moisture sources driving the infestation, plumbing leaks, poor ventilation, condensation, and provide remediation recommendations.",
       },
       {
         name: "Bait Stations",
@@ -685,16 +685,16 @@ export const services: Service[] = [
       "Fix all plumbing leaks and improve ventilation",
       "Store books, photos, and documents in sealed plastic containers",
       "Seal cracks in foundation walls and around pipes",
-      "Reduce cardboard clutter — silverfish use it for both food and harborage",
+      "Reduce cardboard clutter, silverfish use it for both food and harborage",
     ],
     faqs: [
       {
         q: "Are silverfish harmful to humans?",
-        a: "No. Silverfish do not bite humans and do not transmit diseases. Their shed scales can trigger allergic reactions in some sensitive individuals. Their primary damage is to property — paper, books, wallpaper, and clothing.",
+        a: "No. Silverfish do not bite humans and do not transmit diseases. Their shed scales can trigger allergic reactions in some sensitive individuals. Their primary damage is to property, paper, books, wallpaper, and clothing.",
       },
       {
         q: "Why do I keep finding silverfish in my bathtub?",
-        a: "Bathtubs are a classic silverfish trap — silverfish enter in search of moisture and cannot climb the slick porcelain surface. Finding them in your tub indicates an active population in your bathroom walls or under the floor.",
+        a: "Bathtubs are a classic silverfish trap, silverfish enter in search of moisture and cannot climb the slick porcelain surface. Finding them in your tub indicates an active population in your bathroom walls or under the floor.",
       },
       {
         q: "Can silverfish infest a whole house?",
@@ -702,7 +702,7 @@ export const services: Service[] = [
       },
       {
         q: "How do I know if I have silverfish or firebrats?",
-        a: "Both are similar small, wingless insects. Silverfish prefer cool, moist conditions and are silver-gray. Firebrats are mottled gray and prefer hot, dry environments — furnace rooms, hot water heater closets, and attics near roof vents.",
+        a: "Both are similar small, wingless insects. Silverfish prefer cool, moist conditions and are silver-gray. Firebrats are mottled gray and prefer hot, dry environments, furnace rooms, hot water heater closets, and attics near roof vents.",
       },
     ],
     relatedSlugs: ["ant-control", "spider-control", "moth-control"],
@@ -715,10 +715,10 @@ export const services: Service[] = [
     urgency: "low",
     tagline: "Remove earwig invasions from gardens and living spaces",
     heroDesc:
-      "Earwigs are moisture-seeking insects that invade homes during hot, dry weather or heavy rain. Despite the frightening pincers (cerci), earwigs are mostly harmless to humans — but they can damage seedlings and soft garden plants, and their mass invasions indoors are disturbing and hard to stop without professional perimeter treatment.",
-    priceRange: "$129 – $249",
+      "Earwigs are moisture-seeking insects that invade homes during hot, dry weather or heavy rain. Despite the frightening pincers (cerci), earwigs are mostly harmless to humans, but they can damage seedlings and soft garden plants, and their mass invasions indoors are disturbing and hard to stop without professional perimeter treatment.",
+    priceRange: "$129 to $249",
     signs: [
-      "Earwigs found in moist areas — bathrooms, kitchens, basements, laundry rooms",
+      "Earwigs found in moist areas, bathrooms, kitchens, basements, laundry rooms",
       "Damage to seedlings, soft flowers, and garden vegetables",
       "Large numbers hiding under mulch, leaf litter, stones, or patio furniture",
       "Finding earwigs indoors, especially near entry points and moisture",
@@ -752,7 +752,7 @@ export const services: Service[] = [
     faqs: [
       {
         q: "Do earwigs actually crawl into ears?",
-        a: "No — this is a myth. The name comes from an old European folk tale. Earwigs do not seek out ears or burrow into humans. They are completely harmless to people.",
+        a: "No, this is a myth. The name comes from an old European folk tale. Earwigs do not seek out ears or burrow into humans. They are completely harmless to people.",
       },
       {
         q: "Why do I suddenly have hundreds of earwigs?",
@@ -778,7 +778,7 @@ export const services: Service[] = [
     tagline: "Stop cricket invasions and the relentless nighttime noise",
     heroDesc:
       "Cricket infestations are most common in late summer and fall when outdoor populations peak and crickets seek warmth indoors. Beyond the maddening nighttime chirping, crickets can damage clothing, paper, rubber items, and even silk. Large invasions can also attract spiders, lizards, and other predators into your home.",
-    priceRange: "$129 – $249",
+    priceRange: "$129 to $249",
     signs: [
       "Loud chirping at night from inside walls or under appliances",
       "Crickets visible in garages, basements, and around exterior doors",
@@ -814,7 +814,7 @@ export const services: Service[] = [
     faqs: [
       {
         q: "Why are crickets suddenly everywhere in fall?",
-        a: "In late summer, field cricket populations peak outdoors. As temperatures drop in fall, they migrate en masse seeking warmth — often entering homes through any available gap. This is a predictable seasonal event that perimeter treatment in late summer can significantly reduce.",
+        a: "In late summer, field cricket populations peak outdoors. As temperatures drop in fall, they migrate en masse seeking warmth, often entering homes through any available gap. This is a predictable seasonal event that perimeter treatment in late summer can significantly reduce.",
       },
       {
         q: "Can crickets damage my clothes?",
@@ -839,8 +839,8 @@ export const services: Service[] = [
     urgency: "low",
     tagline: "Prevent stink bug invasions before they overwinter in your walls",
     heroDesc:
-      "Brown marmorated stink bugs have spread to all 50 states and become one of the most problematic fall invaders. They don't bite, sting, or cause structural damage — but they emit a powerful, unpleasant odor when crushed or threatened, and can invade homes by the hundreds. The key is fall exclusion treatment before they enter.",
-    priceRange: "$129 – $249",
+      "Brown marmorated stink bugs have spread to all 50 states and become one of the most problematic fall invaders. They don't bite, sting, or cause structural damage, but they emit a powerful, unpleasant odor when crushed or threatened, and can invade homes by the hundreds. The key is fall exclusion treatment before they enter.",
+    priceRange: "$129 to $249",
     signs: [
       "Stink bugs gathering on sunny exterior walls in early fall",
       "Finding large numbers of stink bugs inside attics or wall voids",
@@ -851,11 +851,11 @@ export const services: Service[] = [
     treatments: [
       {
         name: "Fall Perimeter Exclusion Treatment",
-        desc: "The most critical treatment — exterior residual spray applied in September/October before stink bugs enter. Creates a barrier that prevents mass overwintering.",
+        desc: "The most critical treatment, exterior residual spray applied in September/October before stink bugs enter. Creates a barrier that prevents mass overwintering.",
       },
       {
         name: "Structural Exclusion",
-        desc: "Sealing gaps in the home's exterior — utility penetrations, window frames, soffit vents, and pipe openings — eliminates entry points permanently.",
+        desc: "Sealing gaps in the home's exterior, utility penetrations, window frames, soffit vents, and pipe openings, eliminates entry points permanently.",
       },
       {
         name: "Vacuum Removal",
@@ -867,9 +867,9 @@ export const services: Service[] = [
       },
     ],
     prevention: [
-      "Schedule perimeter treatment in September — before stink bugs enter",
+      "Schedule perimeter treatment in September, before stink bugs enter",
       "Seal all exterior gaps, vents, and utility penetrations with weather stripping and caulk",
-      "Never crush stink bugs indoors — vacuum them instead to avoid the odor",
+      "Never crush stink bugs indoors, vacuum them instead to avoid the odor",
       "Install door sweeps on all exterior doors",
       "Use caution opening items stored in attics in spring",
     ],
@@ -901,8 +901,8 @@ export const services: Service[] = [
     urgency: "critical",
     tagline: "Protect your family from dangerous scorpion stings",
     heroDesc:
-      "The bark scorpion — found throughout the desert Southwest — is the only scorpion in the USA with venom dangerous enough to cause severe symptoms, and potentially fatal reactions in young children. Arizona, New Mexico, Nevada, Texas, and California see thousands of stings annually. Scorpions are nocturnal and expert hiders — professional treatment and exclusion is essential for homes in endemic areas.",
-    priceRange: "$179 – $399",
+      "The bark scorpion, found throughout the desert Southwest, is the only scorpion in the USA with venom dangerous enough to cause severe symptoms, and potentially fatal reactions in young children. Arizona, New Mexico, Nevada, Texas, and California see thousands of stings annually. Scorpions are nocturnal and expert hiders, professional treatment and exclusion is essential for homes in endemic areas.",
+    priceRange: "$179 to $399",
     signs: [
       "Seeing scorpions at night, especially in the bathroom or bedroom",
       "UV flashlight reveals scorpions (they fluoresce bright blue-green under UV light)",
@@ -925,11 +925,11 @@ export const services: Service[] = [
       },
       {
         name: "Exclusion Service",
-        desc: "Sealing entry points — particularly around the foundation, plumbing penetrations, and door thresholds — is essential since scorpions can enter through gaps as thin as a credit card.",
+        desc: "Sealing entry points, particularly around the foundation, plumbing penetrations, and door thresholds, is essential since scorpions can enter through gaps as thin as a credit card.",
       },
     ],
     prevention: [
-      "Shake out shoes, gloves, and clothing before wearing — especially in the morning",
+      "Shake out shoes, gloves, and clothing before wearing, especially in the morning",
       "Check under towels, bedding, and loose items on the floor",
       "Remove rock piles, woodpiles, and debris adjacent to the home",
       "Install door sweeps and seal all foundation gaps",
@@ -938,7 +938,7 @@ export const services: Service[] = [
     faqs: [
       {
         q: "How do I check my home for scorpions at night?",
-        a: "Use a UV (black light) flashlight — scorpions fluoresce bright blue-green under UV light, making them easy to spot even when they're camouflaged. Check along baseboards, in closets, under furniture, and around the exterior foundation.",
+        a: "Use a UV (black light) flashlight, scorpions fluoresce bright blue-green under UV light, making them easy to spot even when they're camouflaged. Check along baseboards, in closets, under furniture, and around the exterior foundation.",
       },
       {
         q: "What should I do if I'm stung by a bark scorpion?",
@@ -964,7 +964,7 @@ export const services: Service[] = [
     tagline: "Stop mass boxelder bug invasions from overwintering in your home",
     heroDesc:
       "Boxelder bugs are black and red insects that live outdoors feeding on boxelder, maple, and ash trees. In fall, they aggregate in enormous numbers on sunny surfaces and seek entry into homes to overwinter. While harmless to humans and pets, their sheer numbers and the staining they cause make infestations extremely unpleasant without professional treatment.",
-    priceRange: "$129 – $229",
+    priceRange: "$129 to $229",
     signs: [
       "Large aggregations of red and black bugs on south-facing walls in fall",
       "Bugs gathering around windows, door frames, and utility penetrations",
@@ -979,7 +979,7 @@ export const services: Service[] = [
       },
       {
         name: "Exclusion Treatment",
-        desc: "Sealing all gaps in the exterior envelope — utility penetrations, attic vents, window frames — prevents overwintering entry.",
+        desc: "Sealing all gaps in the exterior envelope, utility penetrations, attic vents, window frames, prevents overwintering entry.",
       },
       {
         name: "Indoor Vacuum Removal",
@@ -993,14 +993,14 @@ export const services: Service[] = [
     prevention: [
       "Treat exterior surfaces in September before aggregations form",
       "Seal all entry points before fall",
-      "If possible, remove female boxelder trees from your property — they host boxelder bugs",
+      "If possible, remove female boxelder trees from your property, they host boxelder bugs",
       "Vacuum aggregations on exterior walls before they enter",
-      "Avoid crushing bugs — the liquid they release stains surfaces and fabric",
+      "Avoid crushing bugs, the liquid they release stains surfaces and fabric",
     ],
     faqs: [
       {
         q: "Are boxelder bugs dangerous?",
-        a: "No. Boxelder bugs do not bite humans or pets, do not carry diseases, and do not cause structural damage. Their only harm is aesthetic — staining from feces and the nuisance of large numbers indoors.",
+        a: "No. Boxelder bugs do not bite humans or pets, do not carry diseases, and do not cause structural damage. Their only harm is aesthetic, staining from feces and the nuisance of large numbers indoors.",
       },
       {
         q: "What trees attract boxelder bugs?",
@@ -1008,7 +1008,7 @@ export const services: Service[] = [
       },
       {
         q: "Why do they come inside in fall?",
-        a: "Like stink bugs, boxelder bugs seek warmth to overwinter. They congregate in wall voids, attics, and under siding in fall and emerge in spring. Treatment must be done in early fall — once inside the walls, control is very difficult.",
+        a: "Like stink bugs, boxelder bugs seek warmth to overwinter. They congregate in wall voids, attics, and under siding in fall and emerge in spring. Treatment must be done in early fall, once inside the walls, control is very difficult.",
       },
       {
         q: "Can I spray them with soapy water?",
@@ -1025,19 +1025,19 @@ export const services: Service[] = [
     urgency: "high",
     tagline: "Eliminate mice and seal every entry point they use",
     heroDesc:
-      "Mice can squeeze through a gap the size of a dime, contaminate 10 times more food than they eat, and gnaw through electrical wiring — causing house fires. A single pair can produce up to 60 offspring annually. Our mice control program combines snap trapping, exclusion sealing, and sanitation to eliminate active infestations and prevent all future entry.",
-    priceRange: "$249 – $599",
+      "Mice can squeeze through a gap the size of a dime, contaminate 10 times more food than they eat, and gnaw through electrical wiring, causing house fires. A single pair can produce up to 60 offspring annually. Our mice control program combines snap trapping, exclusion sealing, and sanitation to eliminate active infestations and prevent all future entry.",
+    priceRange: "$249 to $599",
     signs: [
-      "Droppings — small, dark, rod-shaped — along walls, behind appliances, in cabinets",
+      "Droppings, small, dark, rod-shaped, along walls, behind appliances, in cabinets",
       "Gnaw marks on food packaging, wood, wiring, or furniture",
       "Scratching sounds in walls and ceilings at night",
-      "Nesting material — shredded paper, fabric, insulation — in hidden areas",
+      "Nesting material, shredded paper, fabric, insulation, in hidden areas",
       "Grease rub marks along walls from oily mouse fur",
     ],
     treatments: [
       {
         name: "Snap Trap Program",
-        desc: "High-efficiency snap traps placed in harborage areas, along travel paths, and in wall voids. The safest and most effective trapping method — no poison in living spaces.",
+        desc: "High-efficiency snap traps placed in harborage areas, along travel paths, and in wall voids. The safest and most effective trapping method, no poison in living spaces.",
       },
       {
         name: "Full Exclusion Service",
@@ -1049,7 +1049,7 @@ export const services: Service[] = [
       },
       {
         name: "Sanitation Consultation",
-        desc: "We identify conditions attracting mice — food storage issues, clutter, vegetation contact — and provide a written remediation guide.",
+        desc: "We identify conditions attracting mice, food storage issues, clutter, vegetation contact, and provide a written remediation guide.",
       },
     ],
     prevention: [
@@ -1057,12 +1057,12 @@ export const services: Service[] = [
       "Seal every gap larger than 1/4 inch on your home's exterior with steel wool and caulk",
       "Keep grass trimmed and eliminate brush piles near the foundation",
       "Inspect groceries and delivery boxes before bringing them inside",
-      "Keep the garage door closed — the gap at the bottom is a primary entry point",
+      "Keep the garage door closed, the gap at the bottom is a primary entry point",
     ],
     faqs: [
       {
         q: "How do I know if I have mice or rats?",
-        a: "Mice droppings are small (3–6mm), dark, and pointed. Rat droppings are much larger (12–20mm). Mice gnaw marks are small and irregular; rat gnaw marks are larger with incisor ridges. Mice are smaller (15–20g) and more common in homes. Rats are larger (150–500g) and more often in basements, garages, and commercial areas.",
+        a: "Mice droppings are small (3 to 6mm), dark, and pointed. Rat droppings are much larger (12 to 20mm). Mice gnaw marks are small and irregular; rat gnaw marks are larger with incisor ridges. Mice are smaller (15 to 20g) and more common in homes. Rats are larger (150 to 500g) and more often in basements, garages, and commercial areas.",
       },
       {
         q: "Is rodenticide (poison) safe to use inside my home?",
@@ -1070,11 +1070,11 @@ export const services: Service[] = [
       },
       {
         q: "How many mice do I likely have?",
-        a: "If you see one mouse, assume there are many more. Mice are nocturnal and avoid humans — a daytime sighting or frequent evidence means a significant population. Our technician will assess activity levels through feces quantity, gnaw marks, and trap placement.",
+        a: "If you see one mouse, assume there are many more. Mice are nocturnal and avoid humans, a daytime sighting or frequent evidence means a significant population. Our technician will assess activity levels through feces quantity, gnaw marks, and trap placement.",
       },
       {
         q: "How long does exclusion take?",
-        a: "A thorough exclusion of a typical home takes 2–4 hours. We seal all identified entry points and provide a written report. Combined with trapping, exclusion eliminates the active infestation and permanently prevents reentry.",
+        a: "A thorough exclusion of a typical home takes 2 to 4 hours. We seal all identified entry points and provide a written report. Combined with trapping, exclusion eliminates the active infestation and permanently prevents reentry.",
       },
     ],
     relatedSlugs: ["rat-control", "wildlife-removal", "squirrel-removal"],
@@ -1088,11 +1088,11 @@ export const services: Service[] = [
     tagline: "Eliminate rats and protect your home from structural and health risks",
     heroDesc:
       "Rats are among the most dangerous pests in the world, spreading plague, leptospirosis, hantavirus, and Salmonella. Norway rats burrow under foundations and gnaw through structural wood and electrical wiring. Roof rats colonize attics and wall voids. A rat infestation is a serious health and safety emergency requiring immediate professional response.",
-    priceRange: "$299 – $799",
+    priceRange: "$299 to $799",
     signs: [
-      "Large droppings (12–20mm) along walls, in crawlspaces, or in attics",
+      "Large droppings (12 to 20mm) along walls, in crawlspaces, or in attics",
       "Burrows in soil near the foundation, under slabs, or in garden areas",
-      "Gnawed holes in walls, floors, or doors — rats need teeth worn down constantly",
+      "Gnawed holes in walls, floors, or doors, rats need teeth worn down constantly",
       "Rub marks (dark grease stains) along wall junctions where rats travel",
       "Scratching, rolling sounds in the attic at night (roof rats)",
     ],
@@ -1115,7 +1115,7 @@ export const services: Service[] = [
       },
     ],
     prevention: [
-      "Remove all ground-level food sources — fallen fruit, pet food, bird seed on the ground",
+      "Remove all ground-level food sources, fallen fruit, pet food, bird seed on the ground",
       "Secure garbage cans with locking lids",
       "Keep compost bins away from the home in sealed containers",
       "Seal all gaps larger than 1/2 inch on the home's exterior",
@@ -1123,7 +1123,7 @@ export const services: Service[] = [
     ],
     faqs: [
       {
-        q: "Norway rats vs. roof rats — what's the difference?",
+        q: "Norway rats vs. roof rats, what's the difference?",
         a: "Norway (brown) rats are large, heavy-bodied burrowers that live at ground level and in basements/crawlspaces. Roof rats are slender, agile climbers that prefer attics, wall voids, and elevated areas. Treatment placement and exclusion points differ significantly between species.",
       },
       {
@@ -1136,7 +1136,7 @@ export const services: Service[] = [
       },
       {
         q: "Will rats come back after treatment?",
-        a: "Without comprehensive exclusion, new rats will enter the same entry points within weeks. Our program combines elimination AND exclusion — the only combination that produces lasting results.",
+        a: "Without comprehensive exclusion, new rats will enter the same entry points within weeks. Our program combines elimination AND exclusion, the only combination that produces lasting results.",
       },
     ],
     relatedSlugs: ["mice-control", "wildlife-removal", "cockroach-control"],
@@ -1149,8 +1149,8 @@ export const services: Service[] = [
     urgency: "high",
     tagline: "Humane removal of wildlife from your home and property",
     heroDesc:
-      "Wild animals in your home — raccoons, squirrels, opossums, skunks, foxes, and snakes — are not just a nuisance. They can cause thousands of dollars in structural damage, contaminate insulation with disease-carrying feces, and pose direct safety risks to your family. Our licensed wildlife removal specialists provide humane trapping, exclusion, and damage repair.",
-    priceRange: "$299 – $1,499",
+      "Wild animals in your home, raccoons, squirrels, opossums, skunks, foxes, and snakes, are not just a nuisance. They can cause thousands of dollars in structural damage, contaminate insulation with disease-carrying feces, and pose direct safety risks to your family. Our licensed wildlife removal specialists provide humane trapping, exclusion, and damage repair.",
+    priceRange: "$299 to $1,499",
     signs: [
       "Scratching, thumping, or rolling sounds in attic or walls",
       "Entry holes chewed or torn in roof vents, soffits, or siding",
@@ -1165,7 +1165,7 @@ export const services: Service[] = [
       },
       {
         name: "One-Way Exclusion Devices",
-        desc: "For some species, a one-way door allows animals to exit the structure but not re-enter — particularly effective for squirrels and raccoons.",
+        desc: "For some species, a one-way door allows animals to exit the structure but not re-enter, particularly effective for squirrels and raccoons.",
       },
       {
         name: "Structural Exclusion",
@@ -1190,15 +1190,15 @@ export const services: Service[] = [
       },
       {
         q: "What diseases can wildlife carry?",
-        a: "Raccoons carry raccoon roundworm and leptospirosis. Bats can carry rabies. Skunks carry rabies and distemper. Rodents carry hantavirus. Any animal bite or scratch should be treated as a potential rabies exposure — seek medical attention immediately.",
+        a: "Raccoons carry raccoon roundworm and leptospirosis. Bats can carry rabies. Skunks carry rabies and distemper. Rodents carry hantavirus. Any animal bite or scratch should be treated as a potential rabies exposure, seek medical attention immediately.",
       },
       {
         q: "Will animals keep coming back after removal?",
-        a: "Without exclusion, yes. Removing the animal but leaving entry points open invites new animals immediately. Our program combines removal AND thorough exclusion — this is the only approach that prevents recurrence.",
+        a: "Without exclusion, yes. Removing the animal but leaving entry points open invites new animals immediately. Our program combines removal AND thorough exclusion, this is the only approach that prevents recurrence.",
       },
       {
         q: "Is relocation humane?",
-        a: "We follow all state wildlife regulations regarding relocation distances and appropriate habitat. Our goal is always humane treatment — we never recommend lethal control when live trapping and relocation is a viable option.",
+        a: "We follow all state wildlife regulations regarding relocation distances and appropriate habitat. Our goal is always humane treatment, we never recommend lethal control when live trapping and relocation is a viable option.",
       },
     ],
     relatedSlugs: ["squirrel-removal", "raccoon-removal", "bat-removal"],
@@ -1211,12 +1211,12 @@ export const services: Service[] = [
     urgency: "high",
     tagline: "Remove squirrels from your attic before they cause serious damage",
     heroDesc:
-      "Squirrels in the attic are one of the most common wildlife complaints in America. They gnaw relentlessly to keep their teeth worn — chewing through electrical wiring, HVAC ductwork, and structural wood. A squirrel entering your attic can cause thousands in damage within weeks. Early removal and tight exclusion stops the problem before it escalates.",
-    priceRange: "$299 – $799",
+      "Squirrels in the attic are one of the most common wildlife complaints in America. They gnaw relentlessly to keep their teeth worn, chewing through electrical wiring, HVAC ductwork, and structural wood. A squirrel entering your attic can cause thousands in damage within weeks. Early removal and tight exclusion stops the problem before it escalates.",
+    priceRange: "$299 to $799",
     signs: [
       "Scratching and rapid movement sounds in the attic in the morning and late afternoon",
-      "Round or irregular holes (2–4 inch) chewed in fascia, soffits, or roof returns",
-      "Squirrel droppings — small, dark, oval — in the attic",
+      "Round or irregular holes (2 to 4 inch) chewed in fascia, soffits, or roof returns",
+      "Squirrel droppings, small, dark, oval, in the attic",
       "Seeing squirrels entering a specific area of the roof or soffit",
       "Damaged wiring or chewed wood in the attic",
     ],
@@ -1231,7 +1231,7 @@ export const services: Service[] = [
       },
       {
         name: "Full Exclusion Sealing",
-        desc: "After confirmed removal, all entry points sealed with 16-gauge hardware cloth, metal flashing, and sealant. Squirrels can chew through wood and foam — only metal exclusion works.",
+        desc: "After confirmed removal, all entry points sealed with 16-gauge hardware cloth, metal flashing, and sealant. Squirrels can chew through wood and foam, only metal exclusion works.",
       },
       {
         name: "Damage Assessment",
@@ -1239,7 +1239,7 @@ export const services: Service[] = [
       },
     ],
     prevention: [
-      "Trim all tree branches to at least 6–8 feet from the roofline",
+      "Trim all tree branches to at least 6 to 8 feet from the roofline",
       "Install metal roof vent covers and chimney caps",
       "Seal all gaps larger than 1 inch on the home's exterior",
       "Install squirrel guards on utility lines near the home",
@@ -1248,15 +1248,15 @@ export const services: Service[] = [
     faqs: [
       {
         q: "How do squirrels get into attics?",
-        a: "Squirrels enter through gaps in the roofline — at roof returns, soffits, gable vents, ridge cap gaps, and where dormer roofs meet siding. They also chew new entry points through wood fascia and soffits, especially where there's an existing gap to start from.",
+        a: "Squirrels enter through gaps in the roofline, at roof returns, soffits, gable vents, ridge cap gaps, and where dormer roofs meet siding. They also chew new entry points through wood fascia and soffits, especially where there's an existing gap to start from.",
       },
       {
         q: "How long does squirrel removal take?",
-        a: "Trapping typically takes 3–7 days to catch all animals. We use one-way devices to speed the process. After confirmed removal, exclusion sealing is completed in one service visit.",
+        a: "Trapping typically takes 3 to 7 days to catch all animals. We use one-way devices to speed the process. After confirmed removal, exclusion sealing is completed in one service visit.",
       },
       {
         q: "What happens to squirrel babies in the attic?",
-        a: "Squirrels have two litters per year — late winter and mid-summer. If removal is done during the nesting season, we take care not to separate mothers from young. We may adjust the timeline slightly to allow juveniles to become mobile before removal.",
+        a: "Squirrels have two litters per year, late winter and mid-summer. If removal is done during the nesting season, we take care not to separate mothers from young. We may adjust the timeline slightly to allow juveniles to become mobile before removal.",
       },
       {
         q: "Can squirrels chew through steel mesh?",
@@ -1274,11 +1274,11 @@ export const services: Service[] = [
     tagline: "Safe raccoon removal and attic decontamination by licensed specialists",
     heroDesc:
       "Raccoons are the #1 source of wildlife-related rabies cases in the eastern USA. Beyond the disease risk, a raccoon in your attic can destroy insulation, contaminate your home with roundworm-laden feces, and cause serious structural damage in a matter of weeks. Raccoon roundworm (Baylisascaris procyonis) is a severe health hazard requiring professional decontamination after removal.",
-    priceRange: "$499 – $1,499",
+    priceRange: "$499 to $1,499",
     signs: [
       "Heavy thumping and rolling sounds in the attic at night",
-      "Large entry holes (4–6 inch+) torn in roof vents or soffits",
-      "Raccoon latrines — large piles of feces — in the attic (serious health hazard)",
+      "Large entry holes (4 to 6 inch+) torn in roof vents or soffits",
+      "Raccoon latrines, large piles of feces, in the attic (serious health hazard)",
       "Overturned garbage cans, damaged gardens, or torn lawn (grub hunting)",
       "Raccoon tracks or handprints near the home",
     ],
@@ -1293,11 +1293,11 @@ export const services: Service[] = [
       },
       {
         name: "Full Structural Exclusion",
-        desc: "Heavy-gauge hardware cloth, metal flashing, and steel screening installed at all entry points. Raccoons can force entry — all materials must be appropriately heavy.",
+        desc: "Heavy-gauge hardware cloth, metal flashing, and steel screening installed at all entry points. Raccoons can force entry, all materials must be appropriately heavy.",
       },
       {
         name: "Attic Decontamination",
-        desc: "Raccoon feces harbor Baylisascaris roundworm — serious risk of human infection through inhalation of dried feces. Professional decontamination, insulation removal, and antimicrobial fogging are essential.",
+        desc: "Raccoon feces harbor Baylisascaris roundworm, serious risk of human infection through inhalation of dried feces. Professional decontamination, insulation removal, and antimicrobial fogging are essential.",
       },
     ],
     prevention: [
@@ -1310,7 +1310,7 @@ export const services: Service[] = [
     faqs: [
       {
         q: "Is raccoon feces dangerous?",
-        a: "Yes — extremely. Raccoon feces can contain Baylisascaris procyonis roundworm eggs that are highly infectious when inhaled. They also spread leptospirosis. Never clean up raccoon feces without proper respiratory protection. Professional decontamination is strongly recommended.",
+        a: "Yes, extremely. Raccoon feces can contain Baylisascaris procyonis roundworm eggs that are highly infectious when inhaled. They also spread leptospirosis. Never clean up raccoon feces without proper respiratory protection. Professional decontamination is strongly recommended.",
       },
       {
         q: "Are raccoons dangerous to my pets?",
@@ -1322,7 +1322,7 @@ export const services: Service[] = [
       },
       {
         q: "How much attic damage can raccoons cause?",
-        a: "Raccoons can flatten and contaminate 30+ linear feet of attic insulation, tear open HVAC ductwork, and damage wiring in just a few weeks. Average attic restoration costs run $3,000–$8,000. Early removal and decontamination is significantly less expensive.",
+        a: "Raccoons can flatten and contaminate 30+ linear feet of attic insulation, tear open HVAC ductwork, and damage wiring in just a few weeks. Average attic restoration costs run $3,000 to $8,000. Early removal and decontamination is significantly less expensive.",
       },
     ],
     relatedSlugs: ["squirrel-removal", "bat-removal", "wildlife-removal"],
@@ -1333,25 +1333,25 @@ export const services: Service[] = [
     emoji: "🦇",
     category: "wildlife",
     urgency: "critical",
-    tagline: "Licensed bat exclusion — the only legal method for bat removal",
+    tagline: "Licensed bat exclusion, the only legal method for bat removal",
     heroDesc:
-      "Bats are federally protected under the Endangered Species Act and cannot be killed or trapped — they can only be excluded. They are the primary reservoir for rabies in the USA, and their guano (feces) accumulates rapidly and supports the growth of Histoplasma capsulatum fungus, which can cause serious lung disease. Only licensed bat exclusion specialists can legally and safely resolve bat infestations.",
-    priceRange: "$799 – $2,999",
+      "Bats are federally protected under the Endangered Species Act and cannot be killed or trapped, they can only be excluded. They are the primary reservoir for rabies in the USA, and their guano (feces) accumulates rapidly and supports the growth of Histoplasma capsulatum fungus, which can cause serious lung disease. Only licensed bat exclusion specialists can legally and safely resolve bat infestations.",
+    priceRange: "$799 to $2,999",
     signs: [
       "Bats exiting from gaps in the roofline at dusk",
       "Dark brown staining (guano and urine) on exterior walls below gaps",
       "Strong ammonia odor in the attic (guano accumulation)",
-      "Bat droppings — small, dark, crumbly — accumulating below roost",
+      "Bat droppings, small, dark, crumbly, accumulating below roost",
       "Finding bats inside living spaces (entered through gaps in ceiling fixtures)",
     ],
     treatments: [
       {
         name: "Exclusion Device Installation",
-        desc: "One-way exclusion devices (tubes or netting) installed at all entry points allow bats to exit but not re-enter. This is the only legal method and must be done outside maternity season (June–August in most states).",
+        desc: "One-way exclusion devices (tubes or netting) installed at all entry points allow bats to exit but not re-enter. This is the only legal method and must be done outside maternity season (June to August in most states).",
       },
       {
         name: "Full Perimeter Sealing",
-        desc: "After confirmed departure (7–10 days after device installation), all entry points are permanently sealed. Bats can enter through a gap as small as 3/8 inch — thorough inspection is critical.",
+        desc: "After confirmed departure (7 to 10 days after device installation), all entry points are permanently sealed. Bats can enter through a gap as small as 3/8 inch, thorough inspection is critical.",
       },
       {
         name: "Guano Removal & Decontamination",
@@ -1363,16 +1363,16 @@ export const services: Service[] = [
       },
     ],
     prevention: [
-      "Seal all gaps 3/8 inch or larger on your home's exterior in fall (September–October)",
+      "Seal all gaps 3/8 inch or larger on your home's exterior in fall (September to October)",
       "Install chimney caps and vent covers as permanent exclusion",
-      "Never attempt to handle a bat — always call a professional",
+      "Never attempt to handle a bat, always call a professional",
       "Check attic and eave spaces in spring for early signs of colonization",
-      "Leave bats that remain outdoors alone — they are beneficial insect predators",
+      "Leave bats that remain outdoors alone, they are beneficial insect predators",
     ],
     faqs: [
       {
         q: "When can bats legally be excluded?",
-        a: "Most states prohibit bat exclusion from June 1 through August 15 (maternity season), when pups cannot fly. Exclusion during this period would trap young inside. We perform exclusion in fall (August 16–October) and spring (April–May). Timing varies by state.",
+        a: "Most states prohibit bat exclusion from June 1 through August 15 (maternity season), when pups cannot fly. Exclusion during this period would trap young inside. We perform exclusion in fall (August 16 to October) and spring (April to May). Timing varies by state.",
       },
       {
         q: "What if I find a bat inside my home?",
@@ -1380,11 +1380,11 @@ export const services: Service[] = [
       },
       {
         q: "Is bat guano really dangerous?",
-        a: "Yes. Bat guano can harbor Histoplasma capsulatum — a fungus that causes histoplasmosis, a serious lung infection. Dried guano becomes airborne when disturbed. Cleaning requires respiratory protection, and large accumulations require professional decontamination.",
+        a: "Yes. Bat guano can harbor Histoplasma capsulatum, a fungus that causes histoplasmosis, a serious lung infection. Dried guano becomes airborne when disturbed. Cleaning requires respiratory protection, and large accumulations require professional decontamination.",
       },
       {
         q: "How many bats can live in a home?",
-        a: "Little brown bat colonies in attics commonly range from 20–200 individuals, though colonies of 1,000+ have been documented. Big brown bats typically form smaller colonies. Even 20 bats can produce significant guano accumulation over a season.",
+        a: "Little brown bat colonies in attics commonly range from 20 to 200 individuals, though colonies of 1,000+ have been documented. Big brown bats typically form smaller colonies. Even 20 bats can produce significant guano accumulation over a season.",
       },
     ],
     relatedSlugs: ["wildlife-removal", "raccoon-removal", "squirrel-removal"],
@@ -1397,8 +1397,8 @@ export const services: Service[] = [
     urgency: "medium",
     tagline: "Protect your property from bird damage with humane deterrent solutions",
     heroDesc:
-      "Pest birds — pigeons, starlings, house sparrows, and Canada geese — cause over $1 billion in damage annually in the USA. Bird droppings are highly acidic and corrode concrete, metal, and painted surfaces. Nests in HVAC systems and roof vents cause fires and equipment failures. Bird mites from abandoned nests infest homes. We provide humane, effective bird deterrent systems for residential and commercial properties.",
-    priceRange: "$299 – $2,499",
+      "Pest birds, pigeons, starlings, house sparrows, and Canada geese, cause over $1 billion in damage annually in the USA. Bird droppings are highly acidic and corrode concrete, metal, and painted surfaces. Nests in HVAC systems and roof vents cause fires and equipment failures. Bird mites from abandoned nests infest homes. We provide humane, effective bird deterrent systems for residential and commercial properties.",
+    priceRange: "$299 to $2,499",
     signs: [
       "Heavy bird droppings accumulation on ledges, roofs, HVAC equipment, or vehicles",
       "Birds roosting on rooflines, parapet walls, solar panels, or AC units",
@@ -1413,7 +1413,7 @@ export const services: Service[] = [
       },
       {
         name: "Bird Netting Systems",
-        desc: "Commercial-grade UV-stabilized netting installed to exclude birds from large areas — building facades, courtyards, loading docks, and agricultural facilities.",
+        desc: "Commercial-grade UV-stabilized netting installed to exclude birds from large areas, building facades, courtyards, loading docks, and agricultural facilities.",
       },
       {
         name: "Visual & Audio Deterrents",
@@ -1428,13 +1428,13 @@ export const services: Service[] = [
       "Install bird spikes on all flat ledges and rooflines proactively",
       "Clean gutters regularly to prevent nesting material accumulation",
       "Cap all roof vents and HVAC openings with bird-proof mesh",
-      "Remove food sources — secure dumpsters and eliminate standing water",
+      "Remove food sources, secure dumpsters and eliminate standing water",
       "Address light roofing for any bird nesting areas before full colonies establish",
     ],
     faqs: [
       {
         q: "Are bird spikes cruel?",
-        a: "No. Bird spikes are specifically designed to be humane. They do not harm birds — they simply make ledges and surfaces uncomfortable to land on, redirecting birds to more suitable locations. They are endorsed by major bird protection organizations as a humane deterrent.",
+        a: "No. Bird spikes are specifically designed to be humane. They do not harm birds, they simply make ledges and surfaces uncomfortable to land on, redirecting birds to more suitable locations. They are endorsed by major bird protection organizations as a humane deterrent.",
       },
       {
         q: "Are birds protected by law?",

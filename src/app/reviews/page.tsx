@@ -4,12 +4,12 @@ import { Star, ThumbsUp, CheckCircle, Phone } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Customer Reviews | PestRemovalUSA — 4.9 Stars Nationwide",
+  title: "Customer Reviews | PestRemovalUSA: 4.9 Stars Nationwide",
   description:
     "Read verified customer reviews for PestRemovalUSA. 12,847 five-star reviews across all 50 states. See why Americans trust us with their pest control.",
   alternates: { canonical: "https://pestremovalusa.com/reviews/" },
   openGraph: {
-    title: "PestRemovalUSA Reviews — 4.9★ from 12,847 Customers",
+    title: "PestRemovalUSA Reviews: 4.9★ from 12,847 Customers",
     description: "Thousands of verified 5-star reviews. See why PestRemovalUSA is America's most trusted pest control company.",
     url: "https://pestremovalusa.com/reviews/",
   },
@@ -40,7 +40,7 @@ const reviews = [
     rating: 5,
     service: "Bed Bug Elimination",
     date: "January 2026",
-    text: "I was horrified when I realized we had bed bugs. The PestRemovalUSA team treated our entire house with heat treatment — completely non-chemical, totally effective. They were discreet, professional, and followed up two weeks later to confirm complete elimination. Could not be happier.",
+    text: "I was horrified when I realized we had bed bugs. The PestRemovalUSA team treated our entire house with heat treatment, completely non-chemical, totally effective. They were discreet, professional, and followed up two weeks later to confirm complete elimination. Could not be happier.",
     verified: true,
   },
   {
@@ -49,7 +49,7 @@ const reviews = [
     rating: 5,
     service: "Mosquito Control",
     date: "April 2026",
-    text: "We have a large backyard and mosquitoes were making it impossible to enjoy. Signed up for the quarterly mosquito program. Within a week of the first treatment the difference was remarkable. Now we actually use our patio again. The technician always texts before arriving — great service all around.",
+    text: "We have a large backyard and mosquitoes were making it impossible to enjoy. Signed up for the quarterly mosquito program. Within a week of the first treatment the difference was remarkable. Now we actually use our patio again. The technician always texts before arriving, great service all around.",
     verified: true,
   },
   {
@@ -58,7 +58,7 @@ const reviews = [
     rating: 5,
     service: "Rodent Exclusion",
     date: "December 2025",
-    text: "Had mice getting into my kitchen through gaps I couldn't even find. The technician did a full exclusion service — found and sealed 11 entry points I never would have found myself. Set traps for the ones inside. Problem solved completely within 2 weeks. No chemicals, just smart exclusion work.",
+    text: "Had mice getting into my kitchen through gaps I couldn't even find. The technician did a full exclusion service, found and sealed 11 entry points I never would have found myself. Set traps for the ones inside. Problem solved completely within 2 weeks. No chemicals, just smart exclusion work.",
     verified: true,
   },
   {
@@ -67,7 +67,7 @@ const reviews = [
     rating: 5,
     service: "Cockroach Control",
     date: "March 2026",
-    text: "Florida cockroaches are something else — huge and seemingly invincible. PestRemovalUSA's gel bait treatment worked faster than I expected. No more roaches in 10 days. They also identified conditions that were attracting them and gave me practical prevention advice. Really thorough work.",
+    text: "Florida cockroaches are something else, huge and seemingly invincible. PestRemovalUSA's gel bait treatment worked faster than I expected. No more roaches in 10 days. They also identified conditions that were attracting them and gave me practical prevention advice. Really thorough work.",
     verified: true,
   },
   {
@@ -76,7 +76,7 @@ const reviews = [
     rating: 5,
     service: "Ant Control",
     date: "January 2026",
-    text: "We had carpenter ants in our deck — terrifying because of the structural damage they can cause. PestRemovalUSA identified the colony, treated it directly, and recommended some moisture fixes to prevent recurrence. Really appreciated that they looked at the root cause, not just the symptom.",
+    text: "We had carpenter ants in our deck, terrifying because of the structural damage they can cause. PestRemovalUSA identified the colony, treated it directly, and recommended some moisture fixes to prevent recurrence. Really appreciated that they looked at the root cause, not just the symptom.",
     verified: true,
   },
   {
@@ -121,7 +121,7 @@ const reviews = [
     rating: 5,
     service: "Termite Inspection",
     date: "January 2026",
-    text: "Needed a termite inspection for a home purchase. PestRemovalUSA came out next day, produced a comprehensive report in 24 hours, and clearly explained their findings. No termites found — they even gave me a free bait station installation as a precaution. Will definitely use for ongoing monitoring.",
+    text: "Needed a termite inspection for a home purchase. PestRemovalUSA came out next day, produced a comprehensive report in 24 hours, and clearly explained their findings. No termites found, they even gave me a free bait station installation as a precaution. Will definitely use for ongoing monitoring.",
     verified: true,
   },
 ];

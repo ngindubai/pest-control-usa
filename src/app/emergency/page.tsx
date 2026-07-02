@@ -4,23 +4,23 @@ import { Phone, Clock, Shield, Zap, CheckCircle, AlertTriangle, Bug } from "luci
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "24/7 Emergency Pest Control | PestRemovalUSA — Same-Day Response",
+  title: "24/7 Emergency Pest Control | PestRemovalUSA: Same-Day Response",
   description:
     "Emergency pest control available 24 hours a day, 7 days a week. Call 1-800-PEST-USA for same-day response to bee swarms, rodent invasions, bed bug outbreaks, and more.",
   alternates: { canonical: "https://pestremovalusa.com/emergency/" },
   openGraph: {
     title: "24/7 Emergency Pest Control | Call Now: 1-800-PEST-USA",
-    description: "Same-day emergency pest removal. Call anytime — our technicians are standing by.",
+    description: "Same-day emergency pest removal. Call anytime, our technicians are standing by.",
     url: "https://pestremovalusa.com/emergency/",
   },
 };
 
 const emergencyPests = [
-  { icon: Bug, name: "Wasps & Bee Swarms", desc: "Active nests near living areas — immediate health risk. Same-hour response available." },
+  { icon: Bug, name: "Wasps & Bee Swarms", desc: "Active nests near living areas, immediate health risk. Same-hour response available." },
   { icon: Bug, name: "Bed Bug Outbreak", desc: "Rapid infestation spread if untreated. Contain and treat within 24 hours." },
   { icon: Bug, name: "Rodent Invasion", desc: "Mice or rats in living areas, kitchen, or near food. Health code emergency." },
   { icon: Bug, name: "Cockroach Infestation", desc: "Large infestations in kitchens or commercial food areas require immediate action." },
-  { icon: Bug, name: "Wildlife in Home", desc: "Raccoons, bats, squirrels, or snakes inside your home — call immediately." },
+  { icon: Bug, name: "Wildlife in Home", desc: "Raccoons, bats, squirrels, or snakes inside your home, call immediately." },
   { icon: Bug, name: "Termite Swarm", desc: "Active termite swarm inside the home indicates severe structural infestation." },
 ];
 
@@ -34,7 +34,7 @@ const guarantees = [
 const steps = [
   { num: "01", title: "Call or Text Us", desc: "Call 1-800-PEST-USA or text your ZIP + pest issue. Our dispatcher answers immediately." },
   { num: "02", title: "We Dispatch Locally", desc: "We identify the nearest available certified technician to your location and dispatch immediately." },
-  { num: "03", title: "Technician Arrives", desc: "A licensed professional arrives at your door — typically within 30–60 minutes in metro areas." },
+  { num: "03", title: "Technician Arrives", desc: "A licensed professional arrives at your door, typically within 30 to 60 minutes in metro areas." },
   { num: "04", title: "Fast, Safe Treatment", desc: "Using the appropriate emergency treatment protocol, we eliminate the immediate threat and secure your home." },
 ];
 
@@ -50,7 +50,7 @@ export default function EmergencyPage() {
               <span className="relative inline-flex rounded-full h-3 w-3 bg-white" />
             </span>
             <span className="text-red-100 text-sm font-semibold uppercase tracking-widest">
-              Emergency Line Active — Responding Now
+              Emergency Line Active, Responding Now
             </span>
           </div>
           <h1
@@ -63,7 +63,7 @@ export default function EmergencyPage() {
           </h1>
           <p className="text-xl text-red-100 mb-10 max-w-2xl mx-auto">
             Our 24/7 emergency pest control team is standing by. Technicians available in all 50
-            states — typically arriving within 30–60 minutes in metro areas.
+            states, typically arriving within 30 to 60 minutes in metro areas.
           </p>
           <Link
             href={siteConfig.phoneTel}
@@ -111,7 +111,7 @@ export default function EmergencyPage() {
               Pest Emergencies We Handle
             </h2>
             <p className="text-lg text-[var(--color-slate-custom)]">
-              These situations require immediate action — don&apos;t wait until morning.
+              These situations require immediate action, don&apos;t wait until morning.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -144,7 +144,7 @@ export default function EmergencyPage() {
               How Emergency Response Works
             </h2>
             <p className="text-lg text-[var(--color-slate-custom)]">
-              Fast, simple, and effective — from your first call to the pest being gone.
+              Fast, simple, and effective, from your first call to the pest being gone.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -185,12 +185,12 @@ export default function EmergencyPage() {
             </h2>
             <ul className="space-y-4">
               {[
-                "Fastest response time in the industry — under 60 minutes in most cities",
+                "Fastest response time in the industry, under 60 minutes in most cities",
                 "All emergency technicians are fully licensed and insured",
                 "We carry emergency-grade treatment products in every truck",
                 "No extra charge for after-hours or weekend emergency calls",
-                "Satisfaction guaranteed — if pests return, we come back free",
-                "Available in all 50 states — rural and urban coverage",
+                "Satisfaction guaranteed, if pests return, we come back free",
+                "Available in all 50 states, rural and urban coverage",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />

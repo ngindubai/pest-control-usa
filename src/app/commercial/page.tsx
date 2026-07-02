@@ -4,7 +4,7 @@ import { Phone, CheckCircle, Building2, Shield, BarChart3, Clock, Award } from "
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Commercial Pest Control | PestRemovalUSA — Business & Property Solutions",
+  title: "Commercial Pest Control | PestRemovalUSA: Business & Property Solutions",
   description:
     "Professional commercial pest control for restaurants, offices, warehouses, hotels, and more. FDA/USDA compliant, discreet service, and custom treatment plans for any business size.",
   alternates: { canonical: "https://pestremovalusa.com/commercial/" },
@@ -29,7 +29,7 @@ const industries = [
 const benefits = [
   "Dedicated commercial account manager",
   "Custom Integrated Pest Management (IPM) plan",
-  "Flexible scheduling — nights, weekends, before opening",
+  "Flexible scheduling, nights, weekends, before opening",
   "Detailed service reports for compliance documentation",
   "OSHA, FDA, USDA, and HACCP compliant protocols",
   "Emergency response within hours",
@@ -107,7 +107,7 @@ export default function CommercialPage() {
               <p className="text-xl text-blue-100 mb-8">
                 A single pest sighting can cost you customers, health inspection failures, and
                 online reputation damage. PestRemovalUSA&apos;s commercial programs are designed
-                to prevent that — not just react to it.
+                to prevent that, not just react to it.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link

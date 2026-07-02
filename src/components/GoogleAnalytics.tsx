@@ -6,7 +6,7 @@ import { GA_MEASUREMENT_ID } from "@/lib/gtag";
 /**
  * Injects the Google Analytics 4 gtag.js snippet.
  *
- * MUST be a Client Component — next/script with strategy="afterInteractive"
+ * MUST be a Client Component, next/script with strategy="afterInteractive"
  * is silently dropped when rendered from a Server Component (Next.js 15+).
  */
 export function GoogleAnalytics() {

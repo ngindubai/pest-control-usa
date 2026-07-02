@@ -59,13 +59,13 @@ export function HomepageHero() {
         ? new URLSearchParams(window.location.search)
         : new URLSearchParams();
 
-    // 1. CRM (system of record) — retried, it can cold-start.
+    // 1. CRM (system of record), retried, it can cold-start.
     const sendToCrm = async (): Promise<boolean> => {
       const payload = {
         company: "pest-control",
         name: name || "Website enquiry",
         phone: phone || undefined,
-        source: "PestRemoval website — hero form",
+        source: "PestRemoval website, hero form",
         landing_page:
           typeof window !== "undefined" ? window.location.href : undefined,
         utm_source: qs.get("utm_source") ?? undefined,
@@ -92,7 +92,7 @@ export function HomepageHero() {
           );
           if (res.ok) return true;
         } catch {
-          // network error — retry
+          // network error, retry
         }
         if (attempt < 2)
           await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
@@ -100,7 +100,7 @@ export function HomepageHero() {
       return false;
     };
 
-    // 2. Email — FormSubmit AJAX (same address as the other forms).
+    // 2. Email, FormSubmit AJAX (same address as the other forms).
     const sendToEmail = async (): Promise<boolean> => {
       try {
         const res = await fetch(
@@ -113,7 +113,7 @@ export function HomepageHero() {
             },
             keepalive: true,
             body: JSON.stringify({
-              _subject: `New pest enquiry (hero) — ${name}`,
+              _subject: `New pest enquiry (hero), ${name}`,
               _template: "table",
               _captcha: "false",
               Name: name,
@@ -146,7 +146,7 @@ export function HomepageHero() {
     <section
       className="relative bg-[var(--color-navy)] overflow-hidden"
       style={{ minHeight: "91vh" }}
-      aria-label="Hero — Get a free pest control quote"
+      aria-label="Hero, Get a free pest control quote"
     >
       {/* Decorative bg */}
       <div className="absolute inset-0 pointer-events-none select-none" aria-hidden="true">
@@ -190,7 +190,7 @@ export function HomepageHero() {
             <p className="text-lg text-white/70 leading-relaxed mb-8 max-w-lg">
               Licensed exterminators available{" "}
               <strong className="text-white font-semibold">same-day</strong> across
-              48 states. Rodents, termites, wildlife, bed bugs — eliminated with a
+              48 states. Rodents, termites, wildlife, bed bugs, eliminated with a
               <strong className="text-white font-semibold"> 100% satisfaction guarantee</strong>.
             </p>
 

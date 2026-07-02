@@ -26,7 +26,7 @@ const faqs: FAQItem[] = [
   {
     question: "Do you offer a guarantee on your services?",
     answer:
-      "Yes — all of our treatments come with a 100% satisfaction guarantee. If pests return between scheduled visits, we will re-treat your property at no additional charge. We stand behind our work completely.",
+      "Yes, all of our treatments come with a 100% satisfaction guarantee. If pests return between scheduled visits, we will re-treat your property at no additional charge. We stand behind our work completely.",
   },
   {
     question: "What areas of the US do you service?",
@@ -36,7 +36,7 @@ const faqs: FAQItem[] = [
   {
     question: "How much does pest control cost?",
     answer:
-      "Pricing varies by pest type, property size, and treatment method. Most residential treatments range from $150–$450 for a one-time visit, with ongoing plans starting lower. We provide a free, no-obligation inspection and transparent upfront quote before any work begins — no surprise charges.",
+      "Pricing varies by pest type, property size, and treatment method. Most residential treatments range from $150 to $450 for a one-time visit, with ongoing plans starting lower. We provide a free, no-obligation inspection and transparent upfront quote before any work begins, no surprise charges.",
   },
   {
     question: "Do I need to leave my home during treatment?",
@@ -46,12 +46,12 @@ const faqs: FAQItem[] = [
   {
     question: "What is included in a free inspection?",
     answer:
-      "Our certified technicians will inspect your entire property — interior and exterior — to identify pest entry points, nesting areas, activity signs, and contributing conditions. You receive a full written assessment and customized treatment recommendation with pricing, completely free of charge.",
+      "Our certified technicians will inspect your entire property, interior and exterior, to identify pest entry points, nesting areas, activity signs, and contributing conditions. You receive a full written assessment and customized treatment recommendation with pricing, completely free of charge.",
   },
   {
     question: "How do I know if I have termites?",
     answer:
-      "Common signs include discarded wings near windows, mud tubes on exterior walls or foundations, hollow-sounding wood, and small piles of frass (wood shavings). If you notice any of these signs, call us immediately — termite damage worsens rapidly and early detection is critical to limiting costly structural damage.",
+      "Common signs include discarded wings near windows, mud tubes on exterior walls or foundations, hollow-sounding wood, and small piles of frass (wood shavings). If you notice any of these signs, call us immediately, termite damage worsens rapidly and early detection is critical to limiting costly structural damage.",
   },
 ];
 

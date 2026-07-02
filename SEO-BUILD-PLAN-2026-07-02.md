@@ -209,11 +209,8 @@ Do not spend effort on these; the brief confirms they do not help on Google's cu
 - `delaware, district-of-columbia, kentucky, maryland, nebraska, north-dakota, south-dakota, west-virginia` had city pages but no record in `src/data/locations.ts`, so `/locations/{state}/` returned notFound and every child city's breadcrumb and parent link 404'd.
 - Decision (Gareth): build full-content hubs now. Done on Opus: added 8 `LocationState` records with accurate regional pest facts (YMYL-checked) and real city lists. All 51 hubs now exist, 0 missing. See changelog N1.
 
-### N2. Em dash and en dash violations across the codebase `[DECISION: GARETH]` `[SONNET]`
-- 33 files under `src/` contain em dashes and 11 contain en dashes, breaking the project's absolute ban. The city data (`src/data/cities/`) is clean (0). The violations are in UI components, homepage sections, static pages, `services.ts`, and `locations.ts`.
-- Two were fixed opportunistically this session in files already being edited (the state page title, and this is noted in the changelog).
-- Options: (a) a dedicated mechanical sweep now (Sonnet), replacing each with a comma, colon, or "to"; (b) fold into Block 2 hygiene; (c) defer.
-- Recommendation: a dedicated Sonnet sweep, because the ban is absolute and the fix is low risk. Needs your call on timing.
+### N2. Em dash and en dash violations across the codebase `[RESOLVED 2026-07-02, SONNET]`
+- Decision (Gareth): dedicated sweep now. Done: 251 em dash and 88 en dash occurrences replaced across 33 files. Page `<title>` strings using a "Brand, Subtitle" em-dash pattern got a colon (reads as a title/subtitle separator); everything else (prose asides, aria-labels, list items, CSS comments) got a comma; numeric/time ranges (en dash) got "to" spelled out. `priceRange` values changed format (`"$149 to $299"`), so the one place that parsed the old en dash character as a delimiter (`services/[slug]/page.tsx`, the schema `Offer.description`) was updated to split on `" to "` instead, verified against the build. Two JSX lines had the dash as the first character of its own line (a continuation from the previous line); those were restructured by hand instead of scripted, to avoid a stray space before the new punctuation. Zero em or en dashes remain anywhere under `src/`. See changelog N2.
 
 ### N3. Guard against append corruption recurring `[SONNET]`
 - Block 0 fixed corruption introduced by a data-append step. To stop it recurring, add a `prebuild` check (or a tiny test) that fails if any `src/data/cities/*.ts` contains a lone-comma line, a mid-array `] = [`, a `population:` number, or an `answer` key inside a `sections` entry. Low effort, high protection. Recommend adding during Block 2.
@@ -223,6 +220,20 @@ Do not spend effort on these; the brief confirms they do not help on Google's cu
 ## Changes made and why (changelog)
 
 Newest first. Written so entries can be lifted into routine build prompts. Format: finding ID, files and lines, what changed, why.
+
+### Session 2026-07-02 (Sonnet): N2 dash sweep + branch topology fix
+
+**Branch topology note (no code change, recorded for the record).** At the start of this Sonnet session, `claude/pest-control-seo-audit-ribgjd` was one commit behind `main`: the prior N1 commit had landed only on `main` because a `git checkout main` earlier in that turn was never reverted to the feature branch before the N1 commit was made. This session's working tree therefore started without N1's 8 state hubs. Found via a locations.ts content check that returned 0 matches for the new state slugs after a git-history discrepancy showed up mid-task. Fixed by stashing the in-progress N2 edits, fast-forwarding the feature branch onto `main` (a strict ancestor relationship, safe fast-forward, confirmed via `git merge-base --is-ancestor`), then restoring the stash. No conflicts; verified with a full rebuild before proceeding.
+
+**N2 Repo-wide em dash and en dash sweep.**
+- Ran a scripted sweep across all `src/**/*.{ts,tsx,css}` (33 files): 251 em dash occurrences and 88 en dash occurrences replaced.
+- 12 page `<title>`/`openGraph.title` strings using a `"PestRemovalUSA — Subtitle"` pattern (`services/[slug]/page.tsx`, `services/page.tsx`, `locations/page.tsx`, `emergency/page.tsx`, `reviews/page.tsx` x2, `commercial/page.tsx`, `careers/layout.tsx`, `contact/layout.tsx`, `financing/page.tsx`, `faq/layout.tsx`, `residential/page.tsx`) changed to a colon separator, e.g. `"PestRemovalUSA: Licensed Technicians Nationwide"`.
+- All other em dashes (prose asides, aria-labels, list items, CSS comments in `globals.css`) changed to a comma.
+- All en dashes (numeric and time ranges, e.g. `"$150–$450"`, `"30–60 minutes"`, `"6:00 AM – 10:00 PM"`) changed to a spelled-out `"to"`, e.g. `"$150 to $450"`.
+- `src/data/services.ts`: every `priceRange` field changed format from `"$149 – $299"` to `"$149 to $299"`. This is parsed by code, not just displayed, so `src/app/services/[slug]/page.tsx` (the `Offer.description` schema field) was updated from `service.priceRange.split("–")[0].trim()` to `.split(" to ")[0].trim()` to match.
+- Two JSX lines had the dash as the first non-whitespace character of its own line (a sentence continuing from the previous line via a plain multi-line text run or a `{" "}` spacer): `src/app/about/page.tsx` (moved the comma to the end of the prior line instead) and `src/app/services/[slug]/page.tsx` (restructured "same-day re-service" with "with" instead of a leading dash, since a `{" "}` spacer preceded it and a leading comma would have rendered with a stray space before it). Both verified in the built HTML output.
+- Why: `CLAUDE.md`'s dash ban is absolute ("never use em dashes or en dashes anywhere, ever... not anywhere"). Decision (Gareth): dedicated sweep now rather than folding into Block 2 or deferring.
+- Verified: `tsc --noEmit` clean, `npm run build` exits 0 (2,241 pages), zero em or en dashes remain under `src/`, spot-checked rendered HTML for the title-colon conversion, the priceRange "to" conversion, and both hand-fixed leading-dash lines.
 
 ### Session 2026-07-02 (Opus): Block 0 build restoration + Block 1 discoverability
 
@@ -243,7 +254,7 @@ Newest first. Written so entries can be lifted into routine build prompts. Forma
 
 **C2 (Step 1.3) State pages now link to their real city pages.**
 - `src/app/locations/[slug]/page.tsx`: imported `getCitiesByState`, computed `stateCities`, and render each as a real `<Link>` to `/locations/{stateSlug}/{slug}/` (list all). Falls back to the old name list only if a state has no city records.
-- Also fixed an em dash in the state page `<title>` (was `PestRemovalUSA — Licensed`) and gave the state canonical, OG url, and schema url the trailing slash.
+- Also fixed an em dash in the state page `<title>` (the brand and "Licensed" used to be joined with an em dash) and gave the state canonical, OG url, and schema url the trailing slash.
 - Why: city pages were orphaned (state page rendered names as non-clickable divs). Florida state page now links all 113 of its city pages.
 
 **H2 (Step 1.4) Fixed broken cross-state nearby-city links.**

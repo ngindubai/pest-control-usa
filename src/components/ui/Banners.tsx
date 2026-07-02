@@ -35,7 +35,7 @@ export function EmergencyBanner({
           <AlertTriangle size={16} className="shrink-0 animate-bounce" aria-hidden="true" />
           <p className="text-sm font-semibold truncate">
             <span className="font-black">24/7 Emergency Pest Removal</span>
-            {" — "}
+            {", "}
             <span className="hidden sm:inline">We respond in under 60 minutes. </span>
             <a
               href={siteConfig.phoneTel}

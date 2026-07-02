@@ -176,7 +176,7 @@ export function HomepageServices() {
               href={`/services/${slug}`}
               role="listitem"
               className="group relative bg-white rounded-[var(--radius-card)] p-5 shadow-[var(--shadow-card)] hover:shadow-xl hover:-translate-y-1 transition-all duration-200 border border-transparent hover:border-[var(--color-red)]/20 flex flex-col"
-              aria-label={`${title} — learn more`}
+              aria-label={`${title}, learn more`}
             >
               {badge && (
                 <span

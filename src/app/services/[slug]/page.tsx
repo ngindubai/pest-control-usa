@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const service = getServiceBySlug(slug);
   if (!service) return {};
 
-  const title = `${service.name} | PestRemovalUSA — Licensed Technicians Nationwide`;
+  const title = `${service.name} | PestRemovalUSA: Licensed Technicians Nationwide`;
   const description = `Professional ${service.name.toLowerCase()} services in all 50 states. ${service.tagline}. Free inspection, guaranteed results. Call 1-800-PEST-USA.`;
 
   return {
@@ -75,7 +75,7 @@ export default async function ServicePage({ params }: Props) {
             areaServed: { "@type": "Country", name: "United States" },
             offers: {
               "@type": "Offer",
-              description: `Starting from ${service.priceRange.split("–")[0].trim()}`,
+              description: `Starting from ${service.priceRange.split(" to ")[0].trim()}`,
             },
           }),
         }}
@@ -220,7 +220,7 @@ export default async function ServicePage({ params }: Props) {
             ))}
           </div>
           <p className="text-amber-700 text-sm mt-6 font-medium">
-            Seeing any of these signs? Call us immediately — early treatment prevents the
+            Seeing any of these signs? Call us immediately, early treatment prevents the
             problem from growing and reduces total treatment cost.
           </p>
         </div>
@@ -274,11 +274,11 @@ export default async function ServicePage({ params }: Props) {
             </h2>
             <ul className="space-y-4">
               {[
-                `Specialists in ${service.name.toLowerCase()} — not generalists`,
+                `Specialists in ${service.name.toLowerCase()}, not generalists`,
                 "Licensed and certified in all 50 states",
-                "Written quote before any work begins — no surprises",
+                "Written quote before any work begins, no surprises",
                 "Family-safe, EPA-registered products only",
-                "100% satisfaction guarantee — free re-service if needed",
+                "100% satisfaction guarantee, free re-service if needed",
                 "Same-day service available in most metro areas",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
@@ -335,7 +335,7 @@ export default async function ServicePage({ params }: Props) {
             <Link href="/residential" className="text-[var(--color-navy)] font-semibold hover:text-[var(--color-red)] transition-colors">
               quarterly protection plans
             </Link>{" "}
-            — same-day re-service included if pests return.
+            with same-day re-service included if pests return.
           </p>
         </div>
       </section>

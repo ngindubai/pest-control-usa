@@ -4,7 +4,7 @@ import { Phone, CheckCircle, Home, Shield, Leaf, Star } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Residential Pest Control | PestRemovalUSA — Home Protection Plans",
+  title: "Residential Pest Control | PestRemovalUSA: Home Protection Plans",
   description:
     "Protect your home and family with residential pest control from PestRemovalUSA. Eco-safe treatments, 100% satisfaction guarantee, and licensed technicians in all 50 states.",
   alternates: { canonical: "https://pestremovalusa.com/residential/" },
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 
 const homePests = [
   { name: "Ants", icon: "🐜", desc: "From tiny sugar ants to destructive carpenter ants, we eliminate colonies at the source." },
-  { name: "Cockroaches", icon: "🪳", desc: "Fast-breeding and hard to kill — our gel bait and exclusion program works within days." },
-  { name: "Spiders", icon: "🕷️", desc: "Including black widows and brown recluses — we treat webs, harborage areas, and entry points." },
+  { name: "Cockroaches", icon: "🪳", desc: "Fast-breeding and hard to kill, our gel bait and exclusion program works within days." },
+  { name: "Spiders", icon: "🕷️", desc: "Including black widows and brown recluses, we treat webs, harborage areas, and entry points." },
   { name: "Rodents", icon: "🐭", desc: "Mice and rat exclusion, trapping, and prevention. We seal every entry point." },
-  { name: "Bed Bugs", icon: "🛏️", desc: "Heat and chemical treatments — complete elimination with follow-up inspections." },
+  { name: "Bed Bugs", icon: "🛏️", desc: "Heat and chemical treatments, complete elimination with follow-up inspections." },
   { name: "Termites", icon: "🪲", desc: "Liquid barrier, bait stations, and wood treatment options with 10-year warranties." },
   { name: "Fleas & Ticks", icon: "🐾", desc: "Interior and yard treatments coordinated with your pet's vet treatment for full eradication." },
   { name: "Mosquitoes", icon: "🦟", desc: "Seasonal yard spray programs that dramatically reduce mosquito populations." },
@@ -44,7 +44,7 @@ const plans = [
     name: "Home Shield Quarterly",
     price: "From $69",
     period: "/quarter",
-    desc: "Our most popular plan — covers over 25 common household pests.",
+    desc: "Our most popular plan, covers over 25 common household pests.",
     features: [
       "4 visits per year",
       "Interior + exterior treatment",
@@ -144,7 +144,7 @@ export default function ResidentialPage() {
               Pests We Eliminate
             </h2>
             <p className="text-lg text-[var(--color-slate-custom)]">
-              From common household pests to wildlife intruders — we handle them all.
+              From common household pests to wildlife intruders, we handle them all.
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -256,7 +256,7 @@ export default function ResidentialPage() {
               { num: "1", title: "Book Online or Call", desc: "Schedule online or call 1-800-PEST-USA. Same-day availability in most areas." },
               { num: "2", title: "Free Inspection", desc: "A licensed technician assesses your home and identifies pest activity and entry points." },
               { num: "3", title: "Custom Treatment", desc: "We apply the right treatment for your specific pest problem using proven, safe methods." },
-              { num: "4", title: "Guaranteed Results", desc: "Pests return? We do too — at no charge. Your satisfaction is 100% guaranteed." },
+              { num: "4", title: "Guaranteed Results", desc: "Pests return? We do too, at no charge. Your satisfaction is 100% guaranteed." },
             ].map((step) => (
               <div key={step.num} className="text-center">
                 <div

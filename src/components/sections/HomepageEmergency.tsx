@@ -39,7 +39,7 @@ export function HomepageEmergency() {
 
         <p className="text-white/85 text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
           Don&apos;t wait with a pest or wildlife infestation. Our emergency technicians
-          respond in under <strong className="text-white">60 minutes</strong> — nights,
+          respond in under <strong className="text-white">60 minutes</strong>, nights,
           weekends, and holidays included.
         </p>
 

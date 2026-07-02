@@ -196,7 +196,7 @@ export default async function LocationPage({ params }: Props) {
               {[
                 `Licensed & insured in ${state.abbr}`,
                 "Same-day or next-day service",
-                "Free inspection — no obligation",
+                "Free inspection, no obligation",
                 "100% satisfaction guarantee",
                 "Family & pet-safe EPA products",
               ].map((item) => (
@@ -284,7 +284,7 @@ export default async function LocationPage({ params }: Props) {
               Services Available in {state.name}
             </h2>
             <p className="text-lg text-[var(--color-slate-custom)]">
-              Every service — from insects to wildlife — performed by licensed{" "}
+              Every service, from insects to wildlife, performed by licensed{" "}
               {state.abbr} technicians.
             </p>
           </div>
@@ -379,7 +379,7 @@ export default async function LocationPage({ params }: Props) {
               How Our {state.name} Service Works
             </h2>
             <p className="text-blue-200 text-lg">
-              From your first call to a pest-free home — fast and simple.
+              From your first call to a pest-free home, fast and simple.
             </p>
           </div>
           <div className="grid md:grid-cols-4 gap-6">
@@ -394,7 +394,7 @@ export default async function LocationPage({ params }: Props) {
                 step: "2",
                 icon: <MapPin className="w-6 h-6" />,
                 title: "Free Inspection",
-                desc: "A licensed technician visits your property, identifies the pest, and provides a written quote — no charge.",
+                desc: "A licensed technician visits your property, identifies the pest, and provides a written quote, no charge.",
               },
               {
                 step: "3",
@@ -440,8 +440,8 @@ export default async function LocationPage({ params }: Props) {
             <ul className="space-y-4">
               {[
                 `Fully licensed and insured in ${state.name}`,
-                "Specialists in every pest type — not generalists",
-                "Written quote before any work — zero surprise charges",
+                "Specialists in every pest type, not generalists",
+                "Written quote before any work, zero surprise charges",
                 "Same-day service in most " + state.name + " metro areas",
                 "Free re-service guarantee if pests return",
                 "Digital inspection reports emailed after every visit",
@@ -486,13 +486,13 @@ export default async function LocationPage({ params }: Props) {
             className="text-4xl font-bold text-[var(--color-navy)] mb-10 text-center"
             style={{ fontFamily: "var(--font-barlow)" }}
           >
-            Pest Control in {state.name} — FAQs
+            Pest Control in {state.name}, FAQs
           </h2>
           <div className="space-y-4">
             {[
               {
                 q: `Do you service all areas of ${state.name}?`,
-                a: `Yes. We serve all major cities and surrounding areas across ${state.name}, including ${state.cities.join(", ")}. If you're outside a major metro, call us — we can typically dispatch a technician within 24–48 hours.`,
+                a: `Yes. We serve all major cities and surrounding areas across ${state.name}, including ${state.cities.join(", ")}. If you're outside a major metro, call us, we can typically dispatch a technician within 24 to 48 hours.`,
               },
               {
                 q: `How quickly can you respond in ${state.name}?`,

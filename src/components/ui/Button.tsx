@@ -186,7 +186,7 @@ export function EmergencyButton({
   return (
     <a
       href={siteConfig.phoneTel}
-      aria-label="Emergency pest removal — call now"
+      aria-label="Emergency pest removal, call now"
       onClick={() => trackPhoneCall("emergency_button")}
       className={cn(
         "inline-flex items-center justify-center font-bold rounded-[var(--radius-btn)] transition-all duration-200 cursor-pointer select-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-[var(--color-red)] text-white ring-2 ring-[var(--color-red)] ring-offset-2 shadow-[var(--shadow-cta)] hover:bg-[var(--color-red-dark)] active:scale-[0.98]",

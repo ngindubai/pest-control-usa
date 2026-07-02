@@ -6,12 +6,12 @@ import { Shield, Users, Award, CheckCircle, Star, Clock, MapPin, Leaf } from "lu
 export const metadata: Metadata = {
   title: "About PestRemovalUSA | Nationwide Pest Control Since 2005",
   description:
-    "Learn about PestRemovalUSA — America's trusted nationwide pest control company. Licensed technicians, eco-friendly treatments, and a 100% satisfaction guarantee in all 50 states.",
+    "Learn about PestRemovalUSA, America's trusted nationwide pest control company. Licensed technicians, eco-friendly treatments, and a 100% satisfaction guarantee in all 50 states.",
   alternates: { canonical: "https://pestremovalusa.com/about/" },
   openGraph: {
     title: "About PestRemovalUSA | Nationwide Pest Control Since 2005",
     description:
-      "America's trusted pest control network — 12,000+ licensed technicians, 50 states, 100% guarantee.",
+      "America's trusted pest control network, 12,000+ licensed technicians, 50 states, 100% guarantee.",
     url: "https://pestremovalusa.com/about/",
   },
 };
@@ -27,7 +27,7 @@ const values = [
   {
     icon: Shield,
     title: "Safety First",
-    desc: "We use EPA-registered, family-safe treatments that protect your household — including children and pets — while eliminating pests.",
+    desc: "We use EPA-registered, family-safe treatments that protect your household, including children and pets, while eliminating pests.",
   },
   {
     icon: Leaf,
@@ -98,7 +98,7 @@ const timeline = [
   { year: "2005", event: "Founded in Dallas, TX with a 12-technician team serving the DFW metro area." },
   { year: "2008", event: "Expanded to 10 states; launched 24/7 emergency response program." },
   { year: "2012", event: "Crossed 1 million homes treated; earned QualityPro certification." },
-  { year: "2015", event: "National coverage achieved — all 50 states and DC." },
+  { year: "2015", event: "National coverage achieved, all 50 states and DC." },
   { year: "2018", event: "Launched GreenPro eco-friendly treatment line; grew to 6,000 technicians." },
   { year: "2021", event: "Surpassed 2 million homes protected; launched online instant quote system." },
   { year: "2024", event: "12,000+ technicians, 4.9-star average rating, named #1 pest control company by Consumer Reports." },
@@ -115,7 +115,7 @@ export default function AboutPage() {
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-[var(--color-red)] text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
             <Shield className="w-4 h-4" />
-            Est. 2005 — Trusted Nationwide
+            Est. 2005, Trusted Nationwide
           </div>
           <h1
             className="text-4xl md:text-6xl font-bold mb-6 leading-tight"
@@ -127,7 +127,7 @@ export default function AboutPage() {
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-10">
             For over 20 years, PestRemovalUSA has protected American families and businesses from
-            pests — with licensed experts in every state, eco-responsible treatments, and a
+            pests, with licensed experts in every state, eco-responsible treatments, and a
             satisfaction guarantee you can count on.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
@@ -159,13 +159,13 @@ export default function AboutPage() {
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 We believe every American family deserves a pest-free home. Our mission is to
-                deliver reliable, affordable, and environmentally responsible pest control solutions
-                — backed by certified professionals and a guarantee that stands behind every visit.
+                deliver reliable, affordable, and environmentally responsible pest control solutions,
+                backed by certified professionals and a guarantee that stands behind every visit.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 We&apos;re not just eliminating pests. We&apos;re protecting your family&apos;s
                 health, preserving your property value, and giving you peace of mind in the place
-                that matters most — your home.
+                that matters most, your home.
               </p>
               <Link
                 href="/contact"

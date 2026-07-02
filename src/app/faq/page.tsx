@@ -21,7 +21,7 @@ const categories = [
       },
       {
         q: "How quickly can you respond?",
-        a: "For standard service, we typically schedule within 24–48 hours. For emergency pest situations (wasps in living spaces, severe infestations, rodents in food areas), we offer same-day and next-hour response in most metropolitan areas.",
+        a: "For standard service, we typically schedule within 24 to 48 hours. For emergency pest situations (wasps in living spaces, severe infestations, rodents in food areas), we offer same-day and next-hour response in most metropolitan areas.",
       },
       {
         q: "Do you offer free inspections?",
@@ -39,7 +39,7 @@ const categories = [
     faqs: [
       {
         q: "How much does pest control cost?",
-        a: "Pricing depends on the pest type, severity of infestation, property size, and your location. A one-time treatment typically ranges from $150–$450. Monthly or quarterly protection plans start as low as $49/month. We always provide a written quote before any work begins — no surprises.",
+        a: "Pricing depends on the pest type, severity of infestation, property size, and your location. A one-time treatment typically ranges from $150 to $450. Monthly or quarterly protection plans start as low as $49/month. We always provide a written quote before any work begins, no surprises.",
       },
       {
         q: "Do you offer service plans?",
@@ -65,19 +65,19 @@ const categories = [
     faqs: [
       {
         q: "What happens during a pest control treatment?",
-        a: "A licensed technician will arrive during your scheduled window, introduce themselves, and conduct a brief walk-through. They'll identify pest activity, treat targeted areas using appropriate methods (spray, bait, trap, or exclusion), and provide a written report with recommendations. Most treatments take 30–90 minutes.",
+        a: "A licensed technician will arrive during your scheduled window, introduce themselves, and conduct a brief walk-through. They'll identify pest activity, treat targeted areas using appropriate methods (spray, bait, trap, or exclusion), and provide a written report with recommendations. Most treatments take 30 to 90 minutes.",
       },
       {
         q: "Do I need to leave my home during treatment?",
-        a: "For most standard treatments, you can remain home. We may ask you to vacate specific rooms during application and for 1–2 hours afterward for certain chemical treatments. For fumigation (tent treatments for severe termite infestations), you will need to vacate for 24–72 hours. Your technician will advise you specifically.",
+        a: "For most standard treatments, you can remain home. We may ask you to vacate specific rooms during application and for 1 to 2 hours afterward for certain chemical treatments. For fumigation (tent treatments for severe termite infestations), you will need to vacate for 24 to 72 hours. Your technician will advise you specifically.",
       },
       {
         q: "How many treatments will I need?",
-        a: "It depends on the pest and infestation severity. Many issues can be resolved in 1–2 treatments. Ongoing pests like ants, cockroaches, and mosquitoes benefit from quarterly or monthly prevention programs. Bed bug and termite treatments often require follow-up inspections.",
+        a: "It depends on the pest and infestation severity. Many issues can be resolved in 1 to 2 treatments. Ongoing pests like ants, cockroaches, and mosquitoes benefit from quarterly or monthly prevention programs. Bed bug and termite treatments often require follow-up inspections.",
       },
       {
         q: "How does Integrated Pest Management (IPM) work?",
-        a: "IPM is our preferred approach — it combines inspection, identification, prevention (exclusion, sanitation recommendations), biological controls, and targeted chemical treatments as a last resort. IPM minimizes pesticide use while maximizing effectiveness and is the safest approach for families and the environment.",
+        a: "IPM is our preferred approach, it combines inspection, identification, prevention (exclusion, sanitation recommendations), biological controls, and targeted chemical treatments as a last resort. IPM minimizes pesticide use while maximizing effectiveness and is the safest approach for families and the environment.",
       },
     ],
   },
@@ -113,15 +113,15 @@ const categories = [
       },
       {
         q: "How long do treatments last?",
-        a: "Treatment longevity varies by pest and product used. Most exterior perimeter treatments remain effective for 60–90 days. Interior treatments often last 30–45 days. Termite liquid barrier treatments (like Termidor) can last up to 10 years. Your technician will explain the expected duration of your specific treatment.",
+        a: "Treatment longevity varies by pest and product used. Most exterior perimeter treatments remain effective for 60 to 90 days. Interior treatments often last 30 to 45 days. Termite liquid barrier treatments (like Termidor) can last up to 10 years. Your technician will explain the expected duration of your specific treatment.",
       },
       {
         q: "What if I see pests after treatment?",
-        a: "Seeing a few pests in the days after treatment is normal — the product disturbs them and they become more active before dying. If you're seeing significant activity after 7–10 days, contact us and we'll schedule a free follow-up visit. Ongoing protection plans include unlimited re-service visits.",
+        a: "Seeing a few pests in the days after treatment is normal, the product disturbs them and they become more active before dying. If you're seeing significant activity after 7 to 10 days, contact us and we'll schedule a free follow-up visit. Ongoing protection plans include unlimited re-service visits.",
       },
       {
         q: "How do I cancel my service plan?",
-        a: "You can cancel your service plan at any time with no cancellation fees — simply call us or manage your account online. We only ask that you give us the chance to address any dissatisfaction before canceling. There are no long-term contracts or early termination penalties.",
+        a: "You can cancel your service plan at any time with no cancellation fees, simply call us or manage your account online. We only ask that you give us the chance to address any dissatisfaction before canceling. There are no long-term contracts or early termination penalties.",
       },
     ],
   },
@@ -232,7 +232,7 @@ export default function FAQPage() {
 
           {search.trim() && (
             <p className="text-gray-500 mb-6 text-sm">
-              Showing results for &quot;{search}&quot; — {filteredFaqs.length} FAQ
+              Showing results for &quot;{search}&quot;, {filteredFaqs.length} FAQ
               {filteredFaqs.length !== 1 ? "s" : ""} found
             </p>
           )}

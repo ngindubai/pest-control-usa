@@ -23,9 +23,9 @@ const openings = [
   {
     title: "Pest Control Technician",
     type: "Full-time",
-    locations: ["Nationwide — All States"],
-    pay: "$45,000 – $75,000/yr",
-    desc: "Join our field team as a licensed pest control technician. No prior experience required — we provide full training and licensing support.",
+    locations: ["Nationwide, All States"],
+    pay: "$45,000 to $75,000/yr",
+    desc: "Join our field team as a licensed pest control technician. No prior experience required, we provide full training and licensing support.",
     requirements: ["Valid driver's license", "Ability to pass background check", "Physical work in various conditions", "Excellent customer communication"],
     highlight: true,
   },
@@ -33,7 +33,7 @@ const openings = [
     title: "Senior Pest Control Specialist",
     type: "Full-time",
     locations: ["TX, FL, CA, NY, IL"],
-    pay: "$65,000 – $95,000/yr",
+    pay: "$65,000 to $95,000/yr",
     desc: "Lead complex treatment projects including termite, bed bug, and wildlife cases. Mentor junior technicians.",
     requirements: ["3+ years pest control experience", "State pesticide applicator license", "Experience with Termidor, Sentricon, heat treatment"],
     highlight: false,
@@ -42,25 +42,25 @@ const openings = [
     title: "Branch Manager",
     type: "Full-time",
     locations: ["Multiple Metro Areas"],
-    pay: "$75,000 – $110,000/yr",
-    desc: "Manage a team of 10–20 technicians, drive revenue growth, and ensure customer satisfaction in your territory.",
+    pay: "$75,000 to $110,000/yr",
+    desc: "Manage a team of 10 to 20 technicians, drive revenue growth, and ensure customer satisfaction in your territory.",
     requirements: ["5+ years in pest control", "Management experience", "Strong P&L understanding", "Licensed or able to obtain license"],
     highlight: false,
   },
   {
     title: "Customer Service Representative",
     type: "Full-time / Part-time",
-    locations: ["Remote — USA Only"],
-    pay: "$38,000 – $55,000/yr",
+    locations: ["Remote, USA Only"],
+    pay: "$38,000 to $55,000/yr",
     desc: "Handle inbound calls, schedule appointments, and support customers through their service experience.",
     requirements: ["Excellent phone communication", "CRM experience a plus", "Ability to work evenings/weekends", "Reliable internet connection"],
     highlight: false,
   },
   {
-    title: "Sales Representative — Residential",
+    title: "Sales Representative, Residential",
     type: "Full-time",
     locations: ["Nationwide"],
-    pay: "$55,000 – $100,000/yr + commission",
+    pay: "$55,000 to $100,000/yr + commission",
     desc: "Generate new residential accounts through door-to-door, digital leads, and referral channels.",
     requirements: ["Sales experience preferred", "Self-motivated", "Valid driver's license", "Territory management skills"],
     highlight: false,
@@ -102,7 +102,7 @@ export default function CareersPage() {
           },
           keepalive: true,
           body: JSON.stringify({
-            _subject: `Job application — ${data.position} — ${data.name}`,
+            _subject: `Job application, ${data.position}, ${data.name}`,
             _template: "table",
             _captcha: "false",
             Name: data.name,
@@ -142,7 +142,7 @@ export default function CareersPage() {
           </h1>
           <p className="text-xl text-blue-200 max-w-2xl mx-auto mb-10">
             Join America&apos;s fastest-growing pest control company. We offer competitive pay,
-            full benefits, and real career advancement — with positions available in all 50 states.
+            full benefits, and real career advancement, with positions available in all 50 states.
           </p>
           <a
             href="#openings"
@@ -354,8 +354,8 @@ export default function CareersPage() {
                   >
                     <option value="">Select experience</option>
                     <option value="none">No experience (willing to train)</option>
-                    <option value="1-2">1–2 years</option>
-                    <option value="3-5">3–5 years</option>
+                    <option value="1-2">1 to 2 years</option>
+                    <option value="3-5">3 to 5 years</option>
                     <option value="5+">5+ years</option>
                   </select>
                   {errors.experience && <p className="text-red-500 text-xs mt-1">{errors.experience.message}</p>}

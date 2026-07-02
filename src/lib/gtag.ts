@@ -1,4 +1,4 @@
-// ─── Google Analytics 4 — G-TH7MHNJB97 ─────────────────────────
+// ─── Google Analytics 4, G-TH7MHNJB97 ─────────────────────────
 
 export const GA_MEASUREMENT_ID = "G-TH7MHNJB97";
 
@@ -12,7 +12,7 @@ declare global {
   }
 }
 
-// Safe wrapper — no-ops if gtag isn't loaded yet (SSR / pre-hydration).
+// Safe wrapper, no-ops if gtag isn't loaded yet (SSR / pre-hydration).
 export function gtag(...args: Parameters<typeof window.gtag>) {
   if (typeof window !== "undefined" && typeof window.gtag === "function") {
     window.gtag(...args);

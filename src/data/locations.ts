@@ -28,7 +28,7 @@ export const locationStates: LocationState[] = [
     cities: ["Philadelphia", "Pittsburgh", "Allentown", "Erie", "Reading"],
     topPests: ["Stink Bugs", "Mice", "Ants", "Termites", "Cockroaches"],
     pestFact:
-      "Pennsylvania is at the epicenter of the brown marmorated stink bug invasion — the species was first detected in the USA in Allentown, PA in 1998 and has since spread nationwide.",
+      "Pennsylvania is at the epicenter of the brown marmorated stink bug invasion, the species was first detected in the USA in Allentown, PA in 1998 and has since spread nationwide.",
   },
   {
     slug: "massachusetts",
@@ -58,7 +58,7 @@ export const locationStates: LocationState[] = [
     cities: ["Bridgeport", "New Haven", "Hartford", "Stamford", "Waterbury"],
     topPests: ["Ticks", "Mice", "Ants", "Termites", "Stink Bugs"],
     pestFact:
-      "Connecticut has one of the highest rates of reported Lyme disease in the nation — Lyme, CT is the town the disease is named after — making professional tick control critical for homeowners across the state.",
+      "Connecticut has one of the highest rates of reported Lyme disease in the nation, Lyme, CT is the town the disease is named after, making professional tick control critical for homeowners across the state.",
   },
   {
     slug: "rhode-island",
@@ -78,7 +78,7 @@ export const locationStates: LocationState[] = [
     cities: ["Burlington", "South Burlington", "Rutland", "Barre", "Montpelier"],
     topPests: ["Mice", "Ants", "Wasps", "Spiders", "Stink Bugs"],
     pestFact:
-      "Vermont's cold winters drive mice, squirrels, and other rodents indoors aggressively in late fall — Vermont homeowners experience some of the highest rates of fall rodent invasions in the country.",
+      "Vermont's cold winters drive mice, squirrels, and other rodents indoors aggressively in late fall, Vermont homeowners experience some of the highest rates of fall rodent invasions in the country.",
   },
   {
     slug: "new-hampshire",
@@ -88,7 +88,7 @@ export const locationStates: LocationState[] = [
     cities: ["Manchester", "Nashua", "Concord", "Derry", "Dover"],
     topPests: ["Mice", "Ants", "Wasps", "Ticks", "Spiders"],
     pestFact:
-      "New Hampshire's heavily forested landscape creates high tick and wildlife pressure — blacklegged deer ticks are present in nearly every county, and squirrel attic invasions peak every fall.",
+      "New Hampshire's heavily forested landscape creates high tick and wildlife pressure, blacklegged deer ticks are present in nearly every county, and squirrel attic invasions peak every fall.",
   },
   {
     slug: "maine",
@@ -98,7 +98,7 @@ export const locationStates: LocationState[] = [
     cities: ["Portland", "Lewiston", "Bangor", "South Portland", "Auburn"],
     topPests: ["Mice", "Ants", "Wasps", "Spiders", "Bed Bugs"],
     pestFact:
-      "Maine's long winters and rural landscape mean rodents are the #1 pest issue — field mice seeking warmth are reported in 1 in 3 Maine homes annually according to state extension data.",
+      "Maine's long winters and rural landscape mean rodents are the #1 pest issue, field mice seeking warmth are reported in 1 in 3 Maine homes annually according to state extension data.",
   },
   // ── Southeast ──────────────────────────────────────────────────
   {
@@ -109,7 +109,7 @@ export const locationStates: LocationState[] = [
     cities: ["Miami", "Orlando", "Tampa", "Jacksonville", "Fort Lauderdale"],
     topPests: ["Termites", "Cockroaches", "Ants", "Mosquitoes", "Rats"],
     pestFact:
-      "Florida is home to Formosan termites — the most destructive termite species in the world — alongside 3 other destructive species. Florida homeowners face the highest termite pressure of any state in the continental USA.",
+      "Florida is home to Formosan termites, the most destructive termite species in the world, alongside 3 other destructive species. Florida homeowners face the highest termite pressure of any state in the continental USA.",
   },
   {
     slug: "georgia",
@@ -119,7 +119,7 @@ export const locationStates: LocationState[] = [
     cities: ["Atlanta", "Augusta", "Columbus", "Savannah", "Athens"],
     topPests: ["Termites", "Fire Ants", "Cockroaches", "Mosquitoes", "Fleas"],
     pestFact:
-      "Georgia's humid subtropical climate and red clay soils support massive subterranean termite colonies — Atlanta-area homes have among the highest documented termite damage rates in the Southeast.",
+      "Georgia's humid subtropical climate and red clay soils support massive subterranean termite colonies, Atlanta-area homes have among the highest documented termite damage rates in the Southeast.",
   },
   {
     slug: "north-carolina",
@@ -210,7 +210,7 @@ export const locationStates: LocationState[] = [
     cities: ["Columbus", "Cleveland", "Cincinnati", "Toledo", "Akron"],
     topPests: ["Mice", "Stink Bugs", "Ants", "Termites", "Cockroaches"],
     pestFact:
-      "Ohio is a prime stink bug state — the insect spread rapidly through Ohio's agricultural regions after first appearing in neighboring Pennsylvania, and fall home invasions number in the millions statewide.",
+      "Ohio is a prime stink bug state, the insect spread rapidly through Ohio's agricultural regions after first appearing in neighboring Pennsylvania, and fall home invasions number in the millions statewide.",
   },
   {
     slug: "michigan",
@@ -230,7 +230,7 @@ export const locationStates: LocationState[] = [
     cities: ["Indianapolis", "Fort Wayne", "Evansville", "South Bend", "Carmel"],
     topPests: ["Mice", "Ants", "Wasps", "Termites", "Cockroaches"],
     pestFact:
-      "Indiana lies within a moderate termite pressure zone — subterranean termites are active across the southern half of the state, with Indianapolis and Evansville seeing a significant volume of annual termite damage claims.",
+      "Indiana lies within a moderate termite pressure zone, subterranean termites are active across the southern half of the state, with Indianapolis and Evansville seeing a significant volume of annual termite damage claims.",
   },
   {
     slug: "wisconsin",
@@ -260,7 +260,7 @@ export const locationStates: LocationState[] = [
     cities: ["Kansas City", "Saint Louis", "Springfield", "Columbia", "Independence"],
     topPests: ["Ants", "Termites", "Mice", "Cockroaches", "Mosquitoes"],
     pestFact:
-      "Missouri sits at the transition zone between northern and southern pest pressure — termites are active across the southern two-thirds of the state, while rodent infestations peak in winter throughout the north.",
+      "Missouri sits at the transition zone between northern and southern pest pressure, termites are active across the southern two-thirds of the state, while rodent infestations peak in winter throughout the north.",
   },
   {
     slug: "iowa",
@@ -291,7 +291,7 @@ export const locationStates: LocationState[] = [
     cities: ["Houston", "San Antonio", "Dallas", "Austin", "Fort Worth"],
     topPests: ["Termites", "Fire Ants", "Cockroaches", "Mosquitoes", "Scorpions"],
     pestFact:
-      "Texas has the most fire ant-infested land of any state in the USA — over 300 million acres are affected. Houston is also one of America's worst cities for cockroach infestations, with warm, humid conditions supporting year-round American cockroach populations.",
+      "Texas has the most fire ant-infested land of any state in the USA, over 300 million acres are affected. Houston is also one of America's worst cities for cockroach infestations, with warm, humid conditions supporting year-round American cockroach populations.",
   },
   {
     slug: "arizona",
@@ -301,7 +301,7 @@ export const locationStates: LocationState[] = [
     cities: ["Phoenix", "Tucson", "Mesa", "Chandler", "Scottsdale"],
     topPests: ["Scorpions", "Black Widows", "Termites", "Cockroaches", "Ants"],
     pestFact:
-      "Arizona is home to the bark scorpion — the only scorpion in North America with venom dangerous enough to cause severe medical emergencies. Phoenix and Tucson metro areas report thousands of bark scorpion stings annually, with children under 6 at highest risk.",
+      "Arizona is home to the bark scorpion, the only scorpion in North America with venom dangerous enough to cause severe medical emergencies. Phoenix and Tucson metro areas report thousands of bark scorpion stings annually, with children under 6 at highest risk.",
   },
   {
     slug: "oklahoma",
@@ -372,7 +372,7 @@ export const locationStates: LocationState[] = [
     cities: ["Los Angeles", "San Diego", "San Jose", "San Francisco", "Fresno"],
     topPests: ["Ants", "Termites", "Cockroaches", "Bed Bugs", "Rats"],
     pestFact:
-      "California has 3 destructive termite species — subterranean, drywood, and dampwood — requiring different treatment approaches. Los Angeles County alone accounts for hundreds of millions in termite damage annually, and drywood termite fumigation (tent fumigation) is a common sight in Southern California neighborhoods.",
+      "California has 3 destructive termite species, subterranean, drywood, and dampwood, requiring different treatment approaches. Los Angeles County alone accounts for hundreds of millions in termite damage annually, and drywood termite fumigation (tent fumigation) is a common sight in Southern California neighborhoods.",
   },
   {
     slug: "washington",
@@ -382,7 +382,7 @@ export const locationStates: LocationState[] = [
     cities: ["Seattle", "Spokane", "Tacoma", "Vancouver", "Bellevue"],
     topPests: ["Ants", "Rats", "Wasps", "Spiders", "Silverfish"],
     pestFact:
-      "The Pacific Northwest dampwood termite is unique to Washington, Oregon, and Northern California. Seattle's wet climate also supports some of the largest odorous house ant populations in the country — pavement ants and moisture ants thrive in the region's saturated soils.",
+      "The Pacific Northwest dampwood termite is unique to Washington, Oregon, and Northern California. Seattle's wet climate also supports some of the largest odorous house ant populations in the country, pavement ants and moisture ants thrive in the region's saturated soils.",
   },
   {
     slug: "oregon",
@@ -412,7 +412,7 @@ export const locationStates: LocationState[] = [
     cities: ["Billings", "Missoula", "Great Falls", "Bozeman", "Butte"],
     topPests: ["Mice", "Wasps", "Ants", "Spiders", "Boxelder Bugs"],
     pestFact:
-      "Montana's vast agricultural landscape and cold winters create extreme rodent pressure — field mice and voles invade homes in enormous numbers each fall, and agricultural operations face significant grain storage pest challenges year-round.",
+      "Montana's vast agricultural landscape and cold winters create extreme rodent pressure, field mice and voles invade homes in enormous numbers each fall, and agricultural operations face significant grain storage pest challenges year-round.",
   },
   {
     slug: "wyoming",
@@ -422,7 +422,7 @@ export const locationStates: LocationState[] = [
     cities: ["Cheyenne", "Casper", "Laramie", "Gillette", "Rock Springs"],
     topPests: ["Mice", "Wasps", "Ants", "Spiders", "Boxelder Bugs"],
     pestFact:
-      "Wyoming's high-altitude, arid climate presents unique pest challenges — the deer mouse (a hantavirus carrier) is common throughout the state, and Cheyenne's semi-arid climate supports aggressive yellow jacket and paper wasp populations during summer.",
+      "Wyoming's high-altitude, arid climate presents unique pest challenges, the deer mouse (a hantavirus carrier) is common throughout the state, and Cheyenne's semi-arid climate supports aggressive yellow jacket and paper wasp populations during summer.",
   },
   {
     slug: "hawaii",
@@ -432,7 +432,7 @@ export const locationStates: LocationState[] = [
     cities: ["Honolulu", "East Honolulu", "Pearl City", "Hilo", "Kailua"],
     topPests: ["Termites", "Cockroaches", "Ants", "Bed Bugs", "Rats"],
     pestFact:
-      "Hawaii has the worst termite problem of any US state by property value damage per square mile. The combination of 3 termite species — Formosan, Asian, and drywood — year-round tropical warmth, and dense housing makes Hawaii a particularly demanding pest control environment.",
+      "Hawaii has the worst termite problem of any US state by property value damage per square mile. The combination of 3 termite species, Formosan, Asian, and drywood, year-round tropical warmth, and dense housing makes Hawaii a particularly demanding pest control environment.",
   },
   {
     slug: "alaska",
@@ -442,7 +442,7 @@ export const locationStates: LocationState[] = [
     cities: ["Anchorage", "Fairbanks", "Juneau", "Sitka", "Ketchikan"],
     topPests: ["Mice", "Rats", "Wasps", "Spiders", "Ants"],
     pestFact:
-      "Alaska's harsh climate eliminates many pest species but creates extreme pressure from those that do thrive — rats and mice in Anchorage and coastal communities are a significant year-round problem, and yellow jacket wasps are aggressively territorial during Alaska's brief, intense summers.",
+      "Alaska's harsh climate eliminates many pest species but creates extreme pressure from those that do thrive, rats and mice in Anchorage and coastal communities are a significant year-round problem, and yellow jacket wasps are aggressively territorial during Alaska's brief, intense summers.",
   },
   // ── State hubs added 2026-07-02 (had city pages but no parent hub) ──
   {

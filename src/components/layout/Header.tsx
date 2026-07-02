@@ -74,7 +74,7 @@ function Logo({ collapsed = false }: { collapsed?: boolean }) {
   return (
     <Link
       href="/"
-      aria-label="PestRemovalUSA — Home"
+      aria-label="PestRemovalUSA, Home"
       className="flex items-center gap-2 shrink-0"
     >
       <div className="flex items-center justify-center w-9 h-9 bg-[var(--color-red)] rounded-lg shadow-sm">

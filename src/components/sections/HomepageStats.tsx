@@ -14,7 +14,7 @@ const reasons = [
   "NPMA-certified technicians with ongoing training",
   "Same-day and emergency service available 24/7/365",
   "Eco-friendly and pet-safe treatment options",
-  "Transparent, upfront pricing — no hidden fees",
+  "Transparent, upfront pricing, no hidden fees",
   "100% satisfaction guarantee with free re-treatments",
   "Background-checked, uniformed professionals",
   "Follow-up inspections included at no extra charge",

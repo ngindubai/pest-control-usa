@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us | PestRemovalUSA — Free Inspection Quote",
+  title: "Contact Us | PestRemovalUSA: Free Inspection Quote",
   description:
     "Contact PestRemovalUSA for a free pest inspection quote. Available 24/7 for emergencies. Call 1-800-PEST-USA or fill out our form for same-day service.",
   alternates: { canonical: "https://pestremovalusa.com/contact/" },

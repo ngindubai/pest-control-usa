@@ -4,9 +4,9 @@ import { Phone, CheckCircle, CreditCard, DollarSign, Shield, Star } from "lucide
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Pest Control Financing | PestRemovalUSA — 0% Interest Plans",
+  title: "Pest Control Financing | PestRemovalUSA: 0% Interest Plans",
   description:
-    "Don't let cost prevent you from protecting your home. PestRemovalUSA offers flexible financing plans including 0% interest options. Apply in minutes — no hard credit pull.",
+    "Don't let cost prevent you from protecting your home. PestRemovalUSA offers flexible financing plans including 0% interest options. Apply in minutes, no hard credit pull.",
   alternates: { canonical: "https://pestremovalusa.com/financing/" },
   openGraph: {
     title: "Pest Control Financing | 0% Interest Available",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const plans = [
   {
-    name: "0% Interest — 12 Months",
+    name: "0% Interest, 12 Months",
     badge: "Most Popular",
     badgeColor: "bg-[var(--color-red)] text-white",
     highlight: true,
@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     q: "How quickly am I approved?",
-    a: "Most applicants receive a decision in 2–5 minutes after submitting the short application. You can proceed with scheduling your service immediately upon approval.",
+    a: "Most applicants receive a decision in 2 to 5 minutes after submitting the short application. You can proceed with scheduling your service immediately upon approval.",
   },
   {
     q: "Can I pay off my balance early?",
@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     q: "Is financing available for ongoing service plans?",
-    a: "Ongoing monthly and quarterly service plans are billed on a per-visit or monthly basis and do not require separate financing — they are already structured as low monthly payments.",
+    a: "Ongoing monthly and quarterly service plans are billed on a per-visit or monthly basis and do not require separate financing, they are already structured as low monthly payments.",
   },
 ];
 
@@ -218,7 +218,7 @@ export default function FinancingPage() {
               { num: "1", title: "Get a Quote", desc: "Request a free inspection and receive your service quote online or by phone." },
               { num: "2", title: "Apply Online", desc: "Complete our short financing application. Decision in under 5 minutes with no hard credit pull." },
               { num: "3", title: "Get Approved", desc: "Receive your approved plan details and choose your preferred payment schedule." },
-              { num: "4", title: "Service Today", desc: "Schedule your service immediately — we start protecting your home right away." },
+              { num: "4", title: "Service Today", desc: "Schedule your service immediately, we start protecting your home right away." },
             ].map((step) => (
               <div key={step.num} className="bg-white rounded-[var(--radius-card)] p-6 shadow-[var(--shadow-card)] text-center">
                 <div

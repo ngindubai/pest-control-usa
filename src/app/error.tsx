@@ -28,8 +28,7 @@ export default function Error({
         </h1>
         <p className="text-[var(--color-slate-custom)] mb-8 leading-relaxed">
           An unexpected error occurred. Please try refreshing the page or
-          return to the homepage. If the problem persists, call us directly —
-          we&apos;re always available.
+          return to the homepage. If the problem persists, call us directly, we&apos;re always available.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <button

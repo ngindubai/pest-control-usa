@@ -18,8 +18,8 @@ export const siteConfig = {
     country: "US",
   },
   hours: {
-    weekdays: "6:00 AM – 10:00 PM",
-    weekends: "7:00 AM – 9:00 PM",
+    weekdays: "6:00 AM to 10:00 PM",
+    weekends: "7:00 AM to 9:00 PM",
     emergency: "24/7",
   },
   social: {

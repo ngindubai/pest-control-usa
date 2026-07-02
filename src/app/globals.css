@@ -2,20 +2,20 @@
 
 /* ─── Brand Design Tokens ─── */
 @theme {
-  /* Colors — Navy */
+  /* Colors, Navy */
   --color-navy: #0d1b3e;
   --color-navy-light: #1a3a6b;
   --color-navy-dark: #060e1f;
   --color-navy-50: #eef2ff;
   --color-navy-100: #d4ddf5;
 
-  /* Colors — Red */
+  /* Colors, Red */
   --color-red: #c0392b;
   --color-red-light: #e74c3c;
   --color-red-dark: #922b21;
   --color-red-50: #fef2f2;
 
-  /* Colors — Neutrals */
+  /* Colors, Neutrals */
   --color-cream: #fafaf8;
   --color-muted: #f4f6f9;
   --color-slate-custom: #64748b;

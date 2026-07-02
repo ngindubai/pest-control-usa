@@ -13,7 +13,7 @@ export interface BeforeAfterCardProps {
   afterAlt?: string;
   caption?: string;
   className?: string;
-  initialPosition?: number; // 0–100
+  initialPosition?: number; // 0 to 100
 }
 
 export function BeforeAfterCard({

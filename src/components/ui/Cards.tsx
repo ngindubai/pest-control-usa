@@ -24,7 +24,7 @@ export function ServiceCard({ service, className }: ServiceCardProps) {
         "group relative flex flex-col gap-3 p-5 bg-white rounded-[var(--radius-card)] border border-[var(--color-navy-100)] shadow-[var(--shadow-card)] hover:border-[var(--color-red)] hover:shadow-lg transition-all duration-300 focus-visible:outline-2 focus-visible:outline-offset-2",
         className
       )}
-      aria-label={`${service.title} — learn more`}
+      aria-label={`${service.title}, learn more`}
     >
       {service.emergencyAvailable && (
         <span className="absolute top-3 right-3 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-red-50 text-[var(--color-red)] border border-red-200">

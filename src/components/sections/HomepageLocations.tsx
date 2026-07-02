@@ -110,7 +110,7 @@ export function HomepageLocations() {
                     <Link
                       href={`/locations/${slug}`}
                       className="group block"
-                      aria-label={`Pest control in ${state} — serving ${cities}`}
+                      aria-label={`Pest control in ${state}, serving ${cities}`}
                     >
                       <span className="block text-sm font-semibold text-[var(--color-navy)] group-hover:text-[var(--color-red)] transition-colors">
                         {state}

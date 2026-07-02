@@ -50,7 +50,7 @@ const contactInfo = [
   {
     icon: Clock,
     label: "Hours",
-    value: "Mon–Fri 7am–8pm",
+    value: "Mon to Fri 7am to 8pm",
     sub: "Emergency line available 24/7",
     href: null,
   },
@@ -133,7 +133,7 @@ export default function ContactPage() {
           );
           if (res.ok) return true;
         } catch {
-          // network error — fall through and retry
+          // network error, fall through and retry
         }
         if (attempt < 2) {
           await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
@@ -154,7 +154,7 @@ export default function ContactPage() {
             },
             keepalive: true,
             body: JSON.stringify({
-              _subject: `New pest enquiry — ${data.name}`,
+              _subject: `New pest enquiry, ${data.name}`,
               _template: "table",
               _captcha: "false",
               Name: data.name,
@@ -202,7 +202,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-xl text-blue-200">
             Get a free inspection quote, ask a question, or request emergency service.
-            We respond fast — usually within minutes.
+            We respond fast, usually within minutes.
           </p>
         </div>
       </section>
@@ -387,7 +387,7 @@ export default function ContactPage() {
                     className="w-full border border-gray-300 rounded-[var(--radius-btn)] px-4 py-3 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[var(--color-navy)] focus:border-transparent"
                   >
                     <option value="">Select urgency</option>
-                    <option value="emergency">Emergency — ASAP</option>
+                    <option value="emergency">Emergency, ASAP</option>
                     <option value="within24">Within 24 hours</option>
                     <option value="thisWeek">This week</option>
                     <option value="flexible">Flexible / Just getting a quote</option>
@@ -471,7 +471,7 @@ export default function ContactPage() {
                   "100% satisfaction guarantee",
                   "Licensed & insured technicians",
                   "Eco-friendly treatment options",
-                  "No hidden fees — ever",
+                  "No hidden fees, ever",
                   "Serving all 50 states",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2 text-sm text-gray-700">

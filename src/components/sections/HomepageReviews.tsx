@@ -24,7 +24,7 @@ const reviews: Review[] = [
     location: "Chicago, IL",
     rating: 5,
     service: "Bed Bug Removal",
-    text: "Called on a Thursday evening in a panic and they had someone at my apartment by Friday morning. The heat treatment worked perfectly — not a single bed bug after treatment. Worth every penny for the peace of mind.",
+    text: "Called on a Thursday evening in a panic and they had someone at my apartment by Friday morning. The heat treatment worked perfectly, not a single bed bug after treatment. Worth every penny for the peace of mind.",
     date: "February 2026",
   },
   {
@@ -40,7 +40,7 @@ const reviews: Review[] = [
     location: "Seattle, WA",
     rating: 5,
     service: "Wasp Removal",
-    text: "A massive yellow jacket nest had taken over our garage wall. The technician handled it safely in full protective gear — nest was gone same day. No drama, no mess. Will definitely use them again.",
+    text: "A massive yellow jacket nest had taken over our garage wall. The technician handled it safely in full protective gear, nest was gone same day. No drama, no mess. Will definitely use them again.",
     date: "April 2026",
   },
   {
@@ -48,7 +48,7 @@ const reviews: Review[] = [
     location: "New York, NY",
     rating: 5,
     service: "Cockroach Control",
-    text: "NYC apartment had a German cockroach problem that three other companies couldn't fix. PestRemovalUSA used gel baits and growth regulators — completely gone within two weeks. Finally pest-free!",
+    text: "NYC apartment had a German cockroach problem that three other companies couldn't fix. PestRemovalUSA used gel baits and growth regulators, completely gone within two weeks. Finally pest-free!",
     date: "March 2026",
   },
   {

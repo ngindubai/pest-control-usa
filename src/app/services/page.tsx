@@ -5,9 +5,9 @@ import { services, Service } from "@/data/services";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Pest Control Services | PestRemovalUSA — All 23 Services Nationwide",
+  title: "Pest Control Services | PestRemovalUSA: All 23 Services Nationwide",
   description:
-    "Browse all 23 professional pest control services from PestRemovalUSA. Ants, bed bugs, termites, rodents, wildlife, and more — licensed technicians in all 50 states.",
+    "Browse all 23 professional pest control services from PestRemovalUSA. Ants, bed bugs, termites, rodents, wildlife, and more, licensed technicians in all 50 states.",
   alternates: { canonical: "https://pestremovalusa.com/services/" },
   openGraph: {
     title: "Pest Control Services | PestRemovalUSA",
@@ -35,12 +35,12 @@ const categoryOrder: Service["category"][] = ["insects", "rodents", "wildlife"];
 const categoryMeta: Record<Service["category"], { title: string; desc: string; icon: string }> = {
   insects: {
     title: "Insect Control Services",
-    desc: "From ants and bed bugs to termites and scorpions — comprehensive insect elimination for homes and businesses.",
+    desc: "From ants and bed bugs to termites and scorpions, comprehensive insect elimination for homes and businesses.",
     icon: "🐜",
   },
   rodents: {
     title: "Rodent Control Services",
-    desc: "Mice, rats, and all rodent species — trapping, exclusion, and long-term prevention programs.",
+    desc: "Mice, rats, and all rodent species, trapping, exclusion, and long-term prevention programs.",
     icon: "🐭",
   },
   wildlife: {
@@ -198,9 +198,9 @@ export default function ServicesPage() {
             </h2>
             <ul className="space-y-4">
               {[
-                "Specialized technicians — matched to your exact pest type",
-                "Licensed in all 50 states — one company, consistent standards",
-                "Written quote before work — no surprise charges",
+                "Specialized technicians, matched to your exact pest type",
+                "Licensed in all 50 states, one company, consistent standards",
+                "Written quote before work, no surprise charges",
                 "Family, pet & environment-safe EPA-registered products",
                 "100% satisfaction guarantee with free re-service",
                 "Digital inspection reports after every visit",
@@ -246,7 +246,7 @@ export default function ServicesPage() {
             Not Sure Which Service You Need?
           </h2>
           <p className="text-red-100 mb-8 text-lg">
-            Call us now — our specialist will identify your pest and recommend the right
+            Call us now, our specialist will identify your pest and recommend the right
             treatment. Free inspection, no obligation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
