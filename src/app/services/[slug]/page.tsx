@@ -31,11 +31,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    alternates: { canonical: `https://pestremovalusa.com/services/${slug}` },
+    alternates: { canonical: `https://pestremovalusa.com/services/${slug}/` },
     openGraph: {
       title,
       description,
-      url: `https://pestremovalusa.com/services/${slug}`,
+      url: `https://pestremovalusa.com/services/${slug}/`,
     },
   };
 }

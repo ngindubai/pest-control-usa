@@ -1,7 +1,34 @@
 import Link from "next/link";
 import { Phone, ChevronRight } from "lucide-react";
 import { siteConfig } from "@/config/site";
-import type { CityLocation } from "@/types";
+import { cities } from "@/data/cities";
+import type { CityLocation, CityRef } from "@/types";
+
+// Built once at module load. Used to resolve a nearby-city link to a real,
+// generated page. Previously the link always used the current city's stateSlug,
+// so cross-state "nearby" entries (for example Burlington VT linking Albany NY)
+// pointed at pages that do not exist and returned 404s.
+const cityKeySet = new Set(cities.map((c) => `${c.stateSlug}/${c.slug}`));
+const citySlugToStates = new Map<string, string[]>();
+for (const c of cities) {
+  const arr = citySlugToStates.get(c.slug) ?? [];
+  arr.push(c.stateSlug);
+  citySlugToStates.set(c.slug, arr);
+}
+
+// Returns a valid href for a nearby city, or null if it cannot be resolved to a
+// real page (in which case the link is dropped rather than rendered broken).
+function resolveNearbyHref(n: CityRef, fallbackStateSlug: string): string | null {
+  if (n.stateSlug && cityKeySet.has(`${n.stateSlug}/${n.slug}`)) {
+    return `/locations/${n.stateSlug}/${n.slug}/`;
+  }
+  const states = citySlugToStates.get(n.slug) ?? [];
+  if (states.length === 1) return `/locations/${states[0]}/${n.slug}/`;
+  if (states.includes(fallbackStateSlug)) {
+    return `/locations/${fallbackStateSlug}/${n.slug}/`;
+  }
+  return null; // unknown or ambiguous slug -> drop the link
+}
 
 // Small shared building blocks. Templates compose these in DIFFERENT orders and
 // layouts. The visual signature (skeleton, hero, FAQ format) is owned by each
@@ -61,13 +88,16 @@ export function ServiceLinks({ city }: { city: CityLocation }) {
 }
 
 export function NearbyCities({ city }: { city: CityLocation }) {
-  if (city.nearbyCities.length === 0) return null;
+  const resolved = city.nearbyCities
+    .map((n) => ({ n, href: resolveNearbyHref(n, city.stateSlug) }))
+    .filter((x): x is { n: CityRef; href: string } => x.href !== null);
+  if (resolved.length === 0) return null;
   return (
     <ul className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
-      {city.nearbyCities.map((n) => (
-        <li key={n.slug}>
+      {resolved.map(({ n, href }) => (
+        <li key={href}>
           <Link
-            href={`/locations/${city.stateSlug}/${n.slug}`}
+            href={href}
             className="text-[var(--color-navy-light)] hover:underline"
           >
             Pest control in {n.name}

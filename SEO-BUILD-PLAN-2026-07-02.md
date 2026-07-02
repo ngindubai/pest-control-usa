@@ -25,9 +25,29 @@ Two steps are marked **`[DECISION: GARETH]`**. Do not guess these. Ask Gareth th
 
 ---
 
+## Block 0: Build restoration (prerequisite, discovered and completed this session)
+
+**Not in the original plan.** When execution began, `npm run build` did not compile at all, on either Turbopack or webpack. Because CI runs the same `npm run build`, this means the site had not been deploying. This blocked every other step, so it was fixed first. Root cause: the Chunk 86 data-append left syntax and type corruption in several city data files. This was mechanical, unambiguous (files did not compile), so it was fixed without a decision gate.
+
+### Step 0.1 Fix array-split corruption `[SONNET, done]`
+- `src/data/cities/florida.ts` (~line 10614) and `src/data/cities/virginia.ts` (~line 5308): a stray `] = [` plus a lone `,` closed and re-opened the array mid-file, so `export const X = [...] = [...]` parsed as an array-literal-assignment. Every parser (Turbopack SWC, webpack SWC, tsc) reported `Cannot assign to this` / TS2364 thousands of times. Removed the `] = [` and stray comma so the array continues.
+
+### Step 0.2 Fix sparse-array holes `[SONNET, done]`
+- `ohio.ts`, `washington.ts`, `new-jersey.ts`, `tennessee.ts`, `north-carolina.ts`, `new-york.ts`, `pennsylvania.ts`: each had a lone `,` line before `// Chunk 86 additions`, creating a sparse-array hole that spreads into `cities` as `undefined` and would crash static generation. Removed each stray comma.
+
+### Step 0.3 Fix type errors in Chunk 86 records `[SONNET, done]`
+- `florida.ts:10668`: a `CitySection` carried a stray `answer: ""` (only FAQs have `answer`). Removed.
+- 11 records across `ohio, washington, virginia, michigan, pennsylvania, texas` had `population:` as a raw number; the type is `string`. Converted to the standard `"~NN,NNN"` string form.
+
+**Result:** `npm run build` now exits 0 and generates all 2,150 city pages plus `sitemap.xml`, `robots.txt`, and `llms.txt`. A full `tsc --noEmit` passes with 0 errors. See Newly Discovered Findings N3 for the recommended guard against this recurring.
+
+---
+
 ## Block 1: Discoverability (highest impact, lowest risk)
 
 **Goal:** make the ~2,151 city pages findable by Google. All Sonnet-safe.
+
+**Decisions taken this session (Gareth):** deploy target = push to `main` (live); sitemap = remove next-sitemap, use native; nearby links = resolve by lookup then filter misses; state-page city list = list all as links.
 
 ### Step 1.1 Add city pages to the shipping sitemap  `[SONNET]`
 - **File:** `src/app/sitemap.ts`
@@ -58,8 +78,14 @@ Two steps are marked **`[DECISION: GARETH]`**. Do not guess these. Ask Gareth th
 - Ensure every `alternates.canonical` and `openGraph.url` ends with `/` to match the served URL.
 - **Acceptance:** view source of a city page shows `<link rel="canonical" href=".../locations/x/y/">` with the trailing slash.
 
+### Step 1.6 Add llms.txt `[SONNET]` (overrides the audit's "skip it" note)
+- **File:** `public/llms.txt` (served at `https://pestremovalusa.com/llms.txt`, copied into `out/` on build).
+- Generated from the real data: an H1 title, a summary blockquote, the 23 services, the 43 state hubs, key pages, the XML sitemap, and notes for AI systems. No em dashes.
+- The audit called the absence of llms.txt "correct." That is overruled for this project: other AI systems read llms.txt and it drives real traffic. Treat it as a live deliverable and regenerate it when services or state hubs change.
+- **Acceptance:** `out/llms.txt` ships and lists services and state hubs with absolute URLs. (Done this session: 9,625 bytes, links only real hubs so no 404s.)
+
 ### Block 1 close-out
-- `npm run build`, confirm compile.
+- `npm run build`, confirm compile. (Done: exit 0, 2,229 sitemap URLs.)
 - Update `BUILD-PLAN.md`, `build_state.json` (reconcile the city count, see L6), `MEMORY.md`.
 - Commit and push to `main`. Post the changed live URLs (state pages, sitemap, a sample of city pages) as clickable markdown links.
 
@@ -174,3 +200,63 @@ Do not spend effort on these; the brief confirms they do not help on Google's cu
 | 3 Answer-first content | 3.3, 3.4 bulk and gate | Sonnet, only against the Opus rubric |
 
 **Order of impact:** Block 1 first (makes the money pages findable), then Block 2 (removes the spam-policy risk), then Block 3 (wins AI Overview citations). Blocks 1 and 2 are safe for a Sonnet-only session. Block 3 needs Opus before Sonnet touches the 2,151 pages.
+
+---
+
+## Newly discovered findings (raised this session, awaiting decisions)
+
+### N1. Eight states have city pages but no parent state hub page `[DECISION: GARETH]` `[likely OPUS for content]`
+- `delaware, district-of-columbia, kentucky, maryland, nebraska, north-dakota, south-dakota, west-virginia` have city pages in `src/data/cities/*` but no record in `src/data/locations.ts`, so `/locations/{state}/` returns notFound.
+- Impact: every city page in these 8 states has a breadcrumb and (after Step 1.3) a "Cities We Serve" parent link pointing at a 404, and there is no state hub in the sitemap or nav to funnel authority to those cities.
+- Options: (a) build 8 state hub records with real regional pest content (needs The Geographer + Wordsmith, YMYL facts, so Opus-advised); (b) as a stopgap, generate minimal hub pages from the existing city data; (c) leave for a later content block.
+- Recommendation: at least a stopgap now so the breadcrumbs resolve, full content in a later block. Needs your call.
+
+### N2. Em dash and en dash violations across the codebase `[DECISION: GARETH]` `[SONNET]`
+- 33 files under `src/` contain em dashes and 11 contain en dashes, breaking the project's absolute ban. The city data (`src/data/cities/`) is clean (0). The violations are in UI components, homepage sections, static pages, `services.ts`, and `locations.ts`.
+- Two were fixed opportunistically this session in files already being edited (the state page title, and this is noted in the changelog).
+- Options: (a) a dedicated mechanical sweep now (Sonnet), replacing each with a comma, colon, or "to"; (b) fold into Block 2 hygiene; (c) defer.
+- Recommendation: a dedicated Sonnet sweep, because the ban is absolute and the fix is low risk. Needs your call on timing.
+
+### N3. Guard against append corruption recurring `[SONNET]`
+- Block 0 fixed corruption introduced by a data-append step. To stop it recurring, add a `prebuild` check (or a tiny test) that fails if any `src/data/cities/*.ts` contains a lone-comma line, a mid-array `] = [`, a `population:` number, or an `answer` key inside a `sections` entry. Low effort, high protection. Recommend adding during Block 2.
+
+---
+
+## Changes made and why (changelog)
+
+Newest first. Written so entries can be lifted into routine build prompts. Format: finding ID, files and lines, what changed, why.
+
+### Session 2026-07-02 (Opus): Block 0 build restoration + Block 1 discoverability
+
+**F0 (Block 0) Build was fully broken; now compiles.**
+- `src/data/cities/florida.ts` (~10614), `src/data/cities/virginia.ts` (~5308): removed stray `] = [` and lone `,` that split the array into an invalid `[...] = [...]` assignment. This was the cause of the `Cannot assign to this` / TS2364 errors across all data files.
+- `src/data/cities/{ohio,washington,new-jersey,tennessee,north-carolina,new-york,pennsylvania}.ts`: removed a lone `,` line before `// Chunk 86 additions` (sparse-array hole that would spread `undefined` into `cities`).
+- `src/data/cities/florida.ts:10668`: removed stray `answer: ""` from a `CitySection`.
+- `src/data/cities/{ohio,washington,virginia,michigan,pennsylvania,texas}.ts`: converted 11 numeric `population` values to the standard `"~NN,NNN"` string form.
+- Why: `npm run build` (and CI) failed to compile at all, so nothing could deploy. Now `npm run build` exits 0, generates 2,150 city pages, and `tsc --noEmit` passes with 0 errors.
+
+**C1 (Step 1.1) City pages added to the shipping sitemap.**
+- `src/app/sitemap.ts`: imported `cities`, added `cityRoutes` (priority by tier, trailing slash), added state/service trailing slashes, and a final normalizer so every entry (except the bare domain) ends with `/`.
+- Why: the ~2,151 city pages, the commercial core, were absent from the deployed sitemap. Sitemap now holds 2,229 URLs.
+
+**Step 1.2 Retired the dead next-sitemap path.**
+- `package.json`: removed the `postbuild` next-sitemap script and the `next-sitemap` dependency. Deleted `next-sitemap.config.js`. Cleaned the now-moot `/public/sitemap*.xml` and `/public/robots.txt` lines from `.gitignore`. Synced `package-lock.json`.
+- Why: next-sitemap wrote to `public/` after the static export had finished, so its output never shipped. The native `src/app/sitemap.ts` and `src/app/robots.ts` are now the single source of truth.
+
+**C2 (Step 1.3) State pages now link to their real city pages.**
+- `src/app/locations/[slug]/page.tsx`: imported `getCitiesByState`, computed `stateCities`, and render each as a real `<Link>` to `/locations/{stateSlug}/{slug}/` (list all). Falls back to the old name list only if a state has no city records.
+- Also fixed an em dash in the state page `<title>` (was `PestRemovalUSA — Licensed`) and gave the state canonical, OG url, and schema url the trailing slash.
+- Why: city pages were orphaned (state page rendered names as non-clickable divs). Florida state page now links all 113 of its city pages.
+
+**H2 (Step 1.4) Fixed broken cross-state nearby-city links.**
+- `src/types/index.ts`: added optional `stateSlug?` to `CityRef`.
+- `src/components/templates/parts.tsx`: added `resolveNearbyHref` (use explicit `stateSlug` if present, else look up the slug in the corpus and use it only if unambiguous, else drop the link) and a corpus index built once at module load. `NearbyCities` now filters unresolved links instead of always using the current city's `stateSlug`.
+- Why: nearby entries pointing to other states produced 404s. Burlington VT now links Manchester (NH) and Providence (RI) correctly and drops the ambiguous "albany" rather than 404.
+
+**Step 1.5 Normalized canonicals to trailing slash.**
+- `src/app/locations/[slug]/[city]/page.tsx` (metadata + schema url), `src/app/locations/[slug]/page.tsx`, and 11 static/service route files: every `canonical` and `openGraph.url` path now ends with `/` to match `trailingSlash: true`.
+- Why: self-canonicals that omit the served trailing slash are a minor duplicate-signal wart.
+
+**Step 1.6 Added llms.txt.**
+- `public/llms.txt`: generated from real data (23 services, 43 state hubs, key pages, sitemap, AI notes). No em dashes.
+- Why: overrides the audit's "skip it"; other AI systems read llms.txt and it drives traffic.

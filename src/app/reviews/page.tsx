@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   title: "Customer Reviews | PestRemovalUSA — 4.9 Stars Nationwide",
   description:
     "Read verified customer reviews for PestRemovalUSA. 12,847 five-star reviews across all 50 states. See why Americans trust us with their pest control.",
-  alternates: { canonical: "https://pestremovalusa.com/reviews" },
+  alternates: { canonical: "https://pestremovalusa.com/reviews/" },
   openGraph: {
     title: "PestRemovalUSA Reviews — 4.9★ from 12,847 Customers",
     description: "Thousands of verified 5-star reviews. See why PestRemovalUSA is America's most trusted pest control company.",
-    url: "https://pestremovalusa.com/reviews",
+    url: "https://pestremovalusa.com/reviews/",
   },
 };
 

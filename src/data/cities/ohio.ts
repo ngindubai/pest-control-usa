@@ -12184,7 +12184,6 @@ export const ohioCities: CityLocation[] = [
     metaDescription:
       "Forest Park, OH's 1960s apartment stock and older homes carry higher cockroach and termite risk than newer Cincinnati suburbs. Find out how pest pressure here compares.",
   },
-,
   // Chunk 86 additions
   {
     slug: "springdale-oh",
@@ -12282,7 +12281,7 @@ export const ohioCities: CityLocation[] = [
     stateSlug: "ohio",
     stateAbbr: "OH",
     tier: "T3",
-    population: 35307,
+    population: "~35,307",
     county: "Franklin",
     climate: "cold-humid",
     climateDriver: "Humid continental climate with cold winters and warm, humid summers. Upper Arlington is an affluent Columbus suburb with a mature tree canopy from decades of established residential development, creating conditions that support carpenter ants, stink bugs, and termites in the older housing stock.",
@@ -12368,7 +12367,7 @@ export const ohioCities: CityLocation[] = [
     stateSlug: "ohio",
     stateAbbr: "OH",
     tier: "T3",
-    population: 17297,
+    population: "~17,297",
     county: "Defiance",
     climate: "cold-humid",
     climateDriver: "Humid continental climate with cold, snowy winters and warm, humid summers. Defiance sits at the confluence of the Maumee and Auglaize Rivers in northwest Ohio, creating localized humidity, riparian pest habitat, and significant mosquito and rodent pressure from the river corridors.",

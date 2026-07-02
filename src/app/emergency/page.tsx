@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   title: "24/7 Emergency Pest Control | PestRemovalUSA — Same-Day Response",
   description:
     "Emergency pest control available 24 hours a day, 7 days a week. Call 1-800-PEST-USA for same-day response to bee swarms, rodent invasions, bed bug outbreaks, and more.",
-  alternates: { canonical: "https://pestremovalusa.com/emergency" },
+  alternates: { canonical: "https://pestremovalusa.com/emergency/" },
   openGraph: {
     title: "24/7 Emergency Pest Control | Call Now: 1-800-PEST-USA",
     description: "Same-day emergency pest removal. Call anytime — our technicians are standing by.",
-    url: "https://pestremovalusa.com/emergency",
+    url: "https://pestremovalusa.com/emergency/",
   },
 };
 

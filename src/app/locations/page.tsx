@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   title: "Pest Control Service Areas | PestRemovalUSA — All 50 States",
   description:
     "PestRemovalUSA serves all 50 states with licensed pest control technicians. Find your state and city for local pest removal services near you.",
-  alternates: { canonical: "https://pestremovalusa.com/locations" },
+  alternates: { canonical: "https://pestremovalusa.com/locations/" },
   openGraph: {
     title: "Pest Control Service Areas | All 50 States",
     description: "Find licensed pest control technicians in your state and city. Serving all 50 states nationwide.",
-    url: "https://pestremovalusa.com/locations",
+    url: "https://pestremovalusa.com/locations/",
   },
 };
 

@@ -1,5 +1,6 @@
 {
-  "last_updated": "2026-06-28T00:00:00Z",
+  "last_updated": "2026-07-02T00:00:00Z",
+  "seo_remediation_note": "2026-07-02: SEO build plan Block 0 + Block 1 executed. Block 0 restored the build: it did not compile at all due to Chunk 86 append corruption (stray ] = [ in florida/virginia, lone-comma sparse-array holes in 7 states, a stray section answer field, and 11 numeric population fields). npm run build now exits 0. Block 1: city pages added to sitemap (2229 URLs), next-sitemap retired, state pages link real city pages, cross-state nearby links resolved, canonicals trailing-slashed, llms.txt added. See SEO-BUILD-PLAN-2026-07-02.md changelog. Open follow-ups: N1 eight missing state hubs, N2 em/en dash sweep, N3 append-corruption guard.",
   "phase": "3-t3-in-progress",
   "autonomy": "Fully autonomous. One block per run (25 pages), full 7-stage pipeline, commit to main, deploy.yml auto-publishes, post live links to Slack as a record. No approval step, no wait-for-go, no stop condition. Advance through the phases in order; when the city universe is built, the pest x city matrix is the long-tail engine and runs indefinitely.",
   "cities_built": 2151,

@@ -5724,7 +5724,6 @@ export const newJerseyCities: CityLocation[] = [
     metaDescription:
       "Egg Harbor Township, NJ blends Pine Barrens tick exposure with commercial-corridor rodent pressure depending on where in the large township you live. Compare the pest risks.",
   },
-,
   // Chunk 86 additions
   {
     slug: "howell-nj",

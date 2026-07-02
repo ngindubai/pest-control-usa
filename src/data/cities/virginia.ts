@@ -5306,9 +5306,7 @@ export const virginiaCities: CityLocation[] = [
     metaDescription:
       "Fairfax City, VA's older downtown core and compact residential layout create rodent, termite, and stink bug pressure that differs from newer Northern Virginia suburbs. Compare the risks.",
   },
-,
   // Chunk 86 additions
-] = [
   {
     slug: "vienna-va",
     name: "Vienna",
@@ -5672,7 +5670,7 @@ export const virginiaCities: CityLocation[] = [
     stateSlug: "virginia",
     stateAbbr: "VA",
     tier: "T3",
-    population: 10280,
+    population: "~10,280",
     county: "Loudoun",
     climate: "temperate",
     climateDriver: "Humid subtropical climate transitioning to continental at the Blue Ridge foothills elevation. Purcellville sits in western Loudoun County at the foot of the Blue Ridge Mountains, with a mix of farmland, vineyards, wooded slopes, and newer residential development creating diverse pest habitat.",

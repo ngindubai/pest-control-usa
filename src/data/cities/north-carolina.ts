@@ -7320,7 +7320,6 @@ export const northCarolinaCities: CityLocation[] = [
   metaTitle: "Pest Control in Oxford, NC | Termites, Mosquitoes & Fire Ants",
   metaDescription: "Oxford, NC pest control for Eastern subterranean termites in Granville County's tobacco-country homes, mosquitoes, and fire ants. Local licensed pest services.",
 },
-,
   // Chunk 86 additions
   {
     slug: "harrisburg-nc",

@@ -6757,7 +6757,6 @@ export const pennsylvaniaCities: CityLocation[] = [
     metaDescription:
       "Murrysville, PA's semi-rural wooded character creates deer tick, carpenter ant, and stink bug pressure that exceeds typical Pittsburgh suburban levels. Compare the risks.",
   },
-,
   // Chunk 86 additions
   {
     slug: "upper-darby-pa",
@@ -6944,7 +6943,7 @@ export const pennsylvaniaCities: CityLocation[] = [
     stateSlug: "pennsylvania",
     stateAbbr: "PA",
     tier: "T3",
-    population: 9007,
+    population: "~9,007",
     county: "Bucks",
     climate: "temperate",
     climateDriver: "Humid continental climate with warm, humid summers and cold winters. Quakertown sits in upper Bucks County at the edge of the Great Valley, where agricultural land, wooded parcels, and small-town residential neighborhoods create a mosaic habitat that supports high pest diversity.",
@@ -7030,7 +7029,7 @@ export const pennsylvaniaCities: CityLocation[] = [
     stateSlug: "pennsylvania",
     stateAbbr: "PA",
     tier: "T3",
-    population: 10477,
+    population: "~10,477",
     county: "Columbia",
     climate: "cold-humid",
     climateDriver: "Humid continental climate with cold winters and warm, humid summers. Berwick sits on the north bank of the Susquehanna River in Columbia County, where the river valley creates localized humidity and the surrounding ridges channel wildlife and pest movement.",

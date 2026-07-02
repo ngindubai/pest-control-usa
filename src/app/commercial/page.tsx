@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   title: "Commercial Pest Control | PestRemovalUSA — Business & Property Solutions",
   description:
     "Professional commercial pest control for restaurants, offices, warehouses, hotels, and more. FDA/USDA compliant, discreet service, and custom treatment plans for any business size.",
-  alternates: { canonical: "https://pestremovalusa.com/commercial" },
+  alternates: { canonical: "https://pestremovalusa.com/commercial/" },
   openGraph: {
     title: "Commercial Pest Control | PestRemovalUSA",
     description: "Custom pest control solutions for businesses of all sizes. Discreet, compliant, guaranteed.",
-    url: "https://pestremovalusa.com/commercial",
+    url: "https://pestremovalusa.com/commercial/",
   },
 };
 

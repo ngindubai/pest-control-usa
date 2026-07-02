@@ -7007,7 +7007,6 @@ export const newYorkCities: CityLocation[] = [
     metaDescription:
       "Babylon, NY's marina infrastructure and century-old housing create year-round rodent and carpenter ant pressure above typical South Shore suburban levels. Compare the risks.",
   },
-,
   // Chunk 86 additions
   {
     slug: "great-neck-ny",

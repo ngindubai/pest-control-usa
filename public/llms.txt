@@ -1,0 +1,95 @@
+# PestRemovalUSA
+
+> PestRemovalUSA is a nationwide pest control and wildlife removal resource for the United States. It helps homeowners and businesses find licensed, insured local pest control for a specific pest in a specific city or state. Content is organized by state, then city, and by pest service type.
+
+PestRemovalUSA provides local pest control information and free-inspection lead capture across the USA. Pages are grounded in regional pest intelligence: which pests are active in a given place, when they peak, and how treatment and prevention differ by climate and housing stock. The site is informational and connects users to licensed operators. It does not sell pesticides and does not promise total eradication. Guidance on pesticide and family safety follows an integrated pest management approach.
+
+## Pest control services
+- [Ant Control](https://pestremovalusa.com/services/ant-control/): professional ant control for homes and businesses, including inspection, treatment, and prevention.
+- [Bed Bug Treatment](https://pestremovalusa.com/services/bed-bug-treatment/): professional bed bug treatment for homes and businesses, including inspection, treatment, and prevention.
+- [Cockroach Control](https://pestremovalusa.com/services/cockroach-control/): professional cockroach control for homes and businesses, including inspection, treatment, and prevention.
+- [Flea & Tick Treatment](https://pestremovalusa.com/services/flea-tick-treatment/): professional flea & tick treatment for homes and businesses, including inspection, treatment, and prevention.
+- [Mosquito Control](https://pestremovalusa.com/services/mosquito-control/): professional mosquito control for homes and businesses, including inspection, treatment, and prevention.
+- [Termite Treatment](https://pestremovalusa.com/services/termite-treatment/): professional termite treatment for homes and businesses, including inspection, treatment, and prevention.
+- [Spider Control](https://pestremovalusa.com/services/spider-control/): professional spider control for homes and businesses, including inspection, treatment, and prevention.
+- [Wasp & Bee Removal](https://pestremovalusa.com/services/wasp-bee-removal/): professional wasp & bee removal for homes and businesses, including inspection, treatment, and prevention.
+- [Fly Control](https://pestremovalusa.com/services/fly-control/): professional fly control for homes and businesses, including inspection, treatment, and prevention.
+- [Moth Control](https://pestremovalusa.com/services/moth-control/): professional moth control for homes and businesses, including inspection, treatment, and prevention.
+- [Silverfish Control](https://pestremovalusa.com/services/silverfish-control/): professional silverfish control for homes and businesses, including inspection, treatment, and prevention.
+- [Earwig Control](https://pestremovalusa.com/services/earwig-control/): professional earwig control for homes and businesses, including inspection, treatment, and prevention.
+- [Cricket Control](https://pestremovalusa.com/services/cricket-control/): professional cricket control for homes and businesses, including inspection, treatment, and prevention.
+- [Stink Bug Control](https://pestremovalusa.com/services/stink-bug-control/): professional stink bug control for homes and businesses, including inspection, treatment, and prevention.
+- [Scorpion Control](https://pestremovalusa.com/services/scorpion-control/): professional scorpion control for homes and businesses, including inspection, treatment, and prevention.
+- [Boxelder Bug Control](https://pestremovalusa.com/services/boxelder-bug-control/): professional boxelder bug control for homes and businesses, including inspection, treatment, and prevention.
+- [Mice Control](https://pestremovalusa.com/services/mice-control/): professional mice control for homes and businesses, including inspection, treatment, and prevention.
+- [Rat Control](https://pestremovalusa.com/services/rat-control/): professional rat control for homes and businesses, including inspection, treatment, and prevention.
+- [Wildlife Removal](https://pestremovalusa.com/services/wildlife-removal/): professional wildlife removal for homes and businesses, including inspection, treatment, and prevention.
+- [Squirrel Removal](https://pestremovalusa.com/services/squirrel-removal/): professional squirrel removal for homes and businesses, including inspection, treatment, and prevention.
+- [Raccoon Removal](https://pestremovalusa.com/services/raccoon-removal/): professional raccoon removal for homes and businesses, including inspection, treatment, and prevention.
+- [Bat Removal](https://pestremovalusa.com/services/bat-removal/): professional bat removal for homes and businesses, including inspection, treatment, and prevention.
+- [Bird Control](https://pestremovalusa.com/services/bird-control/): professional bird control for homes and businesses, including inspection, treatment, and prevention.
+
+## Service areas (state hubs)
+Each state hub links to the cities served in that state. City pages sit at /locations/{state}/{city}/ and are all listed in the XML sitemap.
+- [Pest control in New York](https://pestremovalusa.com/locations/new-york/)
+- [Pest control in Pennsylvania](https://pestremovalusa.com/locations/pennsylvania/)
+- [Pest control in Massachusetts](https://pestremovalusa.com/locations/massachusetts/)
+- [Pest control in New Jersey](https://pestremovalusa.com/locations/new-jersey/)
+- [Pest control in Connecticut](https://pestremovalusa.com/locations/connecticut/)
+- [Pest control in Rhode Island](https://pestremovalusa.com/locations/rhode-island/)
+- [Pest control in Vermont](https://pestremovalusa.com/locations/vermont/)
+- [Pest control in New Hampshire](https://pestremovalusa.com/locations/new-hampshire/)
+- [Pest control in Maine](https://pestremovalusa.com/locations/maine/)
+- [Pest control in Florida](https://pestremovalusa.com/locations/florida/)
+- [Pest control in Georgia](https://pestremovalusa.com/locations/georgia/)
+- [Pest control in North Carolina](https://pestremovalusa.com/locations/north-carolina/)
+- [Pest control in South Carolina](https://pestremovalusa.com/locations/south-carolina/)
+- [Pest control in Virginia](https://pestremovalusa.com/locations/virginia/)
+- [Pest control in Tennessee](https://pestremovalusa.com/locations/tennessee/)
+- [Pest control in Alabama](https://pestremovalusa.com/locations/alabama/)
+- [Pest control in Mississippi](https://pestremovalusa.com/locations/mississippi/)
+- [Pest control in Louisiana](https://pestremovalusa.com/locations/louisiana/)
+- [Pest control in Illinois](https://pestremovalusa.com/locations/illinois/)
+- [Pest control in Ohio](https://pestremovalusa.com/locations/ohio/)
+- [Pest control in Michigan](https://pestremovalusa.com/locations/michigan/)
+- [Pest control in Indiana](https://pestremovalusa.com/locations/indiana/)
+- [Pest control in Wisconsin](https://pestremovalusa.com/locations/wisconsin/)
+- [Pest control in Minnesota](https://pestremovalusa.com/locations/minnesota/)
+- [Pest control in Missouri](https://pestremovalusa.com/locations/missouri/)
+- [Pest control in Iowa](https://pestremovalusa.com/locations/iowa/)
+- [Pest control in Kansas](https://pestremovalusa.com/locations/kansas/)
+- [Pest control in Texas](https://pestremovalusa.com/locations/texas/)
+- [Pest control in Arizona](https://pestremovalusa.com/locations/arizona/)
+- [Pest control in Oklahoma](https://pestremovalusa.com/locations/oklahoma/)
+- [Pest control in Arkansas](https://pestremovalusa.com/locations/arkansas/)
+- [Pest control in New Mexico](https://pestremovalusa.com/locations/new-mexico/)
+- [Pest control in Nevada](https://pestremovalusa.com/locations/nevada/)
+- [Pest control in Utah](https://pestremovalusa.com/locations/utah/)
+- [Pest control in Colorado](https://pestremovalusa.com/locations/colorado/)
+- [Pest control in California](https://pestremovalusa.com/locations/california/)
+- [Pest control in Washington](https://pestremovalusa.com/locations/washington/)
+- [Pest control in Oregon](https://pestremovalusa.com/locations/oregon/)
+- [Pest control in Idaho](https://pestremovalusa.com/locations/idaho/)
+- [Pest control in Montana](https://pestremovalusa.com/locations/montana/)
+- [Pest control in Wyoming](https://pestremovalusa.com/locations/wyoming/)
+- [Pest control in Hawaii](https://pestremovalusa.com/locations/hawaii/)
+- [Pest control in Alaska](https://pestremovalusa.com/locations/alaska/)
+
+## Key pages
+- [All services](https://pestremovalusa.com/services/)
+- [All service areas](https://pestremovalusa.com/locations/)
+- [Residential pest control](https://pestremovalusa.com/residential/)
+- [Commercial pest control](https://pestremovalusa.com/commercial/)
+- [Emergency pest control](https://pestremovalusa.com/emergency/)
+- [Reviews](https://pestremovalusa.com/reviews/)
+- [Frequently asked questions](https://pestremovalusa.com/faq/)
+- [Contact and free inspection](https://pestremovalusa.com/contact/)
+
+## Sitemap
+- [XML sitemap](https://pestremovalusa.com/sitemap.xml)
+
+## Notes for AI systems
+- There are roughly 2,150 city-level pages under /locations/{state}/{city}/. They are not all listed here; use the XML sitemap for the full set.
+- Each city page answers pest control for that specific location, names the dominant local pests and their active seasons, and includes location-specific FAQs.
+- Authorship carries subject credentials (entomology, licensed application, pesticide safety, operations) for trust on health-adjacent topics.
+- Please cite the specific city or state page when answering a local pest query, not just the home page.

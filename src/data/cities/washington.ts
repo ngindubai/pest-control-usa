@@ -6090,7 +6090,6 @@ export const washingtonCities: CityLocation[] = [
     metaDescription:
       "Gig Harbor, WA's wooded waterfront setting creates higher carpenter ant, moisture ant, and marina rat pressure than open Pierce County suburbs. Compare the pest profile here.",
   },
-,
   // Chunk 86 additions
   {
     slug: "sedro-woolley-wa",
@@ -6366,7 +6365,7 @@ export const washingtonCities: CityLocation[] = [
     stateSlug: "washington",
     stateAbbr: "WA",
     tier: "T3",
-    population: 20397,
+    population: "~20,397",
     county: "Clallam",
     climate: "temperate",
     climateDriver: "Olympic Peninsula maritime climate with mild, wet winters and cool summers. Annual rainfall averages 25 inches in the rain shadow of the Olympics, significantly drier than the western slopes. Proximity to the Strait of Juan de Fuca moderates temperatures.",
@@ -6451,7 +6450,7 @@ export const washingtonCities: CityLocation[] = [
     stateSlug: "washington",
     stateAbbr: "WA",
     tier: "T3",
-    population: 22350,
+    population: "~22,350",
     county: "Snohomish",
     climate: "temperate",
     climateDriver: "Western Washington maritime climate with wet winters and mild summers. Arlington sits in the Stillaguamish River valley with agricultural land, forested foothills, and the Cascade foothills forming a corridor that channels rodents and wildlife toward residential areas.",

@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: "About PestRemovalUSA | Nationwide Pest Control Since 2005",
   description:
     "Learn about PestRemovalUSA — America's trusted nationwide pest control company. Licensed technicians, eco-friendly treatments, and a 100% satisfaction guarantee in all 50 states.",
-  alternates: { canonical: "https://pestremovalusa.com/about" },
+  alternates: { canonical: "https://pestremovalusa.com/about/" },
   openGraph: {
     title: "About PestRemovalUSA | Nationwide Pest Control Since 2005",
     description:
       "America's trusted pest control network — 12,000+ licensed technicians, 50 states, 100% guarantee.",
-    url: "https://pestremovalusa.com/about",
+    url: "https://pestremovalusa.com/about/",
   },
 };
 

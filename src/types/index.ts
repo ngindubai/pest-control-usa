@@ -71,6 +71,7 @@ export interface StateLocation {
 export interface CityRef {
   name: string;
   slug: string;
+  stateSlug?: string; // optional: set when a nearby city is in another state
 }
 
 export type CityTier = "T1" | "T2" | "T3";

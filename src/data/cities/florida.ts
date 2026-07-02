@@ -10611,9 +10611,7 @@ export const floridaCities: CityLocation[] = [
     metaDescription:
       "Pest control in Cape Canaveral, FL. Termite, mosquito, cockroach, and rodent treatment for barrier island homes on Florida's Space Coast.",
   },
-,
   // Chunk 86 additions
-] = [
   {
     slug: "hialeah-gardens-fl",
     name: "Hialeah Gardens",
@@ -10667,7 +10665,6 @@ export const floridaCities: CityLocation[] = [
       },
       {
         heading: "Are Formosan termites different from regular termites in Miami-Dade?",
-        answer: "",
         body: "Formosan subterranean termites are present in Miami-Dade County and are more aggressive than eastern subterranean termites in terms of colony size and the speed at which they can cause structural damage. Both species live underground, build mud tubes to reach wood, and swarm to establish new colonies. Formosan colonies can be significantly larger, which means they consume more wood more quickly. The swarming patterns differ slightly: Formosan termites typically swarm on warm evenings in spring and early summer, often attracted to lights. Eastern subterranean termites swarm during the day, typically in late winter to spring. In Hialeah Gardens, the approach to both is the same: annual inspection, soil treatment or bait system for protection, and prompt action if swarms or mud tubes appear. Waiting to see how bad it gets is not a strategy that works with termites.",
       },
     ],

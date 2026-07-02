@@ -8,8 +8,9 @@
 - **Deploy:** Push to the working branch / main triggers GitHub Actions. It builds the static export and publishes `out/` to the `live` branch, which Hostinger serves. After every block, post the live URLs of new and changed pages in chat for review (LIVE LINK REVIEW GATE in CLAUDE.md).
 - **Method origin:** Ported from `ngindubai/pet-transport`. Same governance, workforce, quality gates, and block rhythm, adapted from route regulations to regional pest intelligence.
 
-## Current State (2026-06-28)
+## Current State (2026-07-02)
 
+- **SEO remediation (2026-07-02):** Executed SEO-BUILD-PLAN-2026-07-02.md Block 0 and Block 1. Block 0 was a build restoration: the project did not compile at all (Chunk 86 append left a stray `] = [` in florida/virginia, lone-comma sparse-array holes in ohio/washington/new-jersey/tennessee/north-carolina/new-york/pennsylvania, a stray `answer` in a florida section, and 11 numeric `population` fields). All fixed; `npm run build` now exits 0. Block 1 discoverability: 2,151 city pages added to the native sitemap (2,229 URLs total), next-sitemap retired, state pages now link their real city pages, cross-state nearby links resolved, canonicals trailing-slashed, and `public/llms.txt` added. Open follow-ups: N1 eight states with city pages but no state hub (delaware, district-of-columbia, kentucky, maryland, nebraska, north-dakota, south-dakota, west-virginia); N2 repo-wide em/en dash sweep; N3 append-corruption build guard.
 - **Phase:** Phase 3 T3 in progress. Chunks 15-89 complete. T2 COMPLETE.
 - **City pages built:** 2151 total (75 T1 + 300 T2 + 1776 T3).
 - **Town pages built:** 0.

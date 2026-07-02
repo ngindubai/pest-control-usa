@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   title: "Pest Control Services | PestRemovalUSA — All 23 Services Nationwide",
   description:
     "Browse all 23 professional pest control services from PestRemovalUSA. Ants, bed bugs, termites, rodents, wildlife, and more — licensed technicians in all 50 states.",
-  alternates: { canonical: "https://pestremovalusa.com/services" },
+  alternates: { canonical: "https://pestremovalusa.com/services/" },
   openGraph: {
     title: "Pest Control Services | PestRemovalUSA",
     description:
       "23 professional pest control services. Licensed & insured nationwide. Free inspection, 100% satisfaction guarantee.",
-    url: "https://pestremovalusa.com/services",
+    url: "https://pestremovalusa.com/services/",
   },
 };
 

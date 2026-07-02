@@ -6057,7 +6057,6 @@ export const tennesseeCities: CityLocation[] = [
   metaDescription:
     "Harriman pest control for subterranean termites, lake mosquitoes, roaches, carpenter ants and yellowjackets. Free inspection near Watts Bar Lake. Call 1-800-PEST-USA.",
 },
-,
   // Chunk 86 additions
   {
     slug: "nolensville-tn",

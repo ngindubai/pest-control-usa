@@ -12,6 +12,7 @@ import {
   Zap,
 } from "lucide-react";
 import { locationStates, getStateBySlug } from "@/data/locations";
+import { getCitiesByState } from "@/data/cities";
 import { services } from "@/data/services";
 import { siteConfig } from "@/config/site";
 
@@ -26,17 +27,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const state = getStateBySlug(slug);
   if (!state) return {};
 
-  const title = `Pest Control in ${state.name} | PestRemovalUSA — Licensed ${state.abbr} Technicians`;
+  const title = `Pest Control in ${state.name} | PestRemovalUSA Licensed ${state.abbr} Technicians`;
   const description = `Professional pest control services across ${state.name}. Licensed, insured technicians serving ${state.cities.slice(0, 3).join(", ")} and all surrounding areas. Free inspection. Call 1-800-PEST-USA.`;
 
   return {
     title,
     description,
-    alternates: { canonical: `https://pestremovalusa.com/locations/${slug}` },
+    alternates: { canonical: `https://pestremovalusa.com/locations/${slug}/` },
     openGraph: {
       title,
       description,
-      url: `https://pestremovalusa.com/locations/${slug}`,
+      url: `https://pestremovalusa.com/locations/${slug}/`,
     },
   };
 }
@@ -104,6 +105,11 @@ export default async function LocationPage({ params }: Props) {
     .slice(0, fillerNeeded);
   const showcasedServices = [...featured, ...filler];
 
+  // Real, generated city pages for this state. These become genuine internal
+  // links so the city pages are no longer orphaned (previously the grid showed
+  // a hardcoded list of names as non-clickable divs).
+  const stateCities = getCitiesByState(state.slug);
+
   return (
     <>
       <script
@@ -119,7 +125,7 @@ export default async function LocationPage({ params }: Props) {
               name: state.name,
             },
             telephone: siteConfig.phone,
-            url: `https://pestremovalusa.com/locations/${slug}`,
+            url: `https://pestremovalusa.com/locations/${slug}/`,
           }),
         }}
       />
@@ -330,17 +336,30 @@ export default async function LocationPage({ params }: Props) {
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-            {state.cities.map((city) => (
-              <div
-                key={city}
-                className="flex flex-col items-center text-center bg-[var(--color-muted)] rounded-[var(--radius-card)] p-4"
-              >
-                <MapPin className="w-5 h-5 text-[var(--color-red)] mb-2" />
-                <span className="font-semibold text-[var(--color-navy)] text-sm">
-                  {city}
-                </span>
-              </div>
-            ))}
+            {stateCities.length > 0
+              ? stateCities.map((city) => (
+                  <Link
+                    key={city.slug}
+                    href={`/locations/${city.stateSlug}/${city.slug}/`}
+                    className="flex flex-col items-center text-center bg-[var(--color-muted)] rounded-[var(--radius-card)] p-4 transition hover:bg-[var(--color-red)]/10"
+                  >
+                    <MapPin className="w-5 h-5 text-[var(--color-red)] mb-2" />
+                    <span className="font-semibold text-[var(--color-navy)] text-sm">
+                      {city.name}
+                    </span>
+                  </Link>
+                ))
+              : state.cities.map((city) => (
+                  <div
+                    key={city}
+                    className="flex flex-col items-center text-center bg-[var(--color-muted)] rounded-[var(--radius-card)] p-4"
+                  >
+                    <MapPin className="w-5 h-5 text-[var(--color-red)] mb-2" />
+                    <span className="font-semibold text-[var(--color-navy)] text-sm">
+                      {city}
+                    </span>
+                  </div>
+                ))}
           </div>
           <p className="text-center text-gray-500 text-sm mt-6">
             Not in one of these cities? We serve all of {state.name}. Call us to

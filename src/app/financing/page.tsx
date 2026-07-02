@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   title: "Pest Control Financing | PestRemovalUSA — 0% Interest Plans",
   description:
     "Don't let cost prevent you from protecting your home. PestRemovalUSA offers flexible financing plans including 0% interest options. Apply in minutes — no hard credit pull.",
-  alternates: { canonical: "https://pestremovalusa.com/financing" },
+  alternates: { canonical: "https://pestremovalusa.com/financing/" },
   openGraph: {
     title: "Pest Control Financing | 0% Interest Available",
     description: "Flexible payment plans for pest control. Apply in minutes with no hard credit pull.",
-    url: "https://pestremovalusa.com/financing",
+    url: "https://pestremovalusa.com/financing/",
   },
 };
 

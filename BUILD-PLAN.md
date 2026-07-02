@@ -82,6 +82,7 @@ build_state.json holds the machine-readable next unit: `next_chunk`, `next_chunk
 
 | Date | Block | Work Done | Pages | Notes |
 |------|-------|-----------|-------|-------|
+| 2026-07-02 | SEO Block 0 + 1 | BUILD RESTORATION: the project did not compile at all (contrary to the 2026-06-28 note, the florida/virginia errors DID break CI, so nothing deployed since Chunk 86). Fixed the Chunk 86 append corruption: stray `] = [` in florida/virginia, lone-comma sparse-array holes in ohio/washington/new-jersey/tennessee/north-carolina/new-york/pennsylvania, a stray `answer` field in a florida section, and 11 numeric `population` fields. `npm run build` now exits 0. Then Block 1 discoverability: added 2,151 city pages to the native sitemap (2,229 URLs), retired next-sitemap, linked state pages to real city pages, resolved cross-state nearby links, trailing-slashed canonicals, and added public/llms.txt. See SEO-BUILD-PLAN-2026-07-02.md changelog. | 0 new pages (fixes) | Live on main. Open: N1 8 missing state hubs, N2 em/en dash sweep, N3 append guard. |
 | 2026-06-04 | Phase 0 | Ported governance and workforce. Template router + 5 city templates. Seed city data + route. | 5 seed cities | Architecture. |
 | 2026-06-04 | Chunk 1 | First 25 T1 city pages, full 7-stage pipeline. Balanced rotation. | 25 city pages | Live on main. |
 | 2026-06-04 | Chunk 2 | Next 25 T1 city pages. ClimateZone type extended. Hardcoded push-to-main. | 25 city pages | Live on main. |

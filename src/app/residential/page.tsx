@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   title: "Residential Pest Control | PestRemovalUSA — Home Protection Plans",
   description:
     "Protect your home and family with residential pest control from PestRemovalUSA. Eco-safe treatments, 100% satisfaction guarantee, and licensed technicians in all 50 states.",
-  alternates: { canonical: "https://pestremovalusa.com/residential" },
+  alternates: { canonical: "https://pestremovalusa.com/residential/" },
   openGraph: {
     title: "Residential Pest Control | PestRemovalUSA",
     description: "Family-safe home pest control with a 100% satisfaction guarantee. Serving all 50 states.",
-    url: "https://pestremovalusa.com/residential",
+    url: "https://pestremovalusa.com/residential/",
   },
 };
 

@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, city } = await params;
   const record = getCityBySlug(slug, city);
   if (!record) return {};
-  const url = `https://pestremovalusa.com/locations/${slug}/${city}`;
+  const url = `https://pestremovalusa.com/locations/${slug}/${city}/`;
   return {
     title: record.metaTitle,
     description: record.metaDescription,
@@ -34,7 +34,7 @@ export default async function CityPage({ params }: Props) {
   const record = getCityBySlug(slug, city);
   if (!record) notFound();
 
-  const url = `https://pestremovalusa.com/locations/${slug}/${city}`;
+  const url = `https://pestremovalusa.com/locations/${slug}/${city}/`;
 
   // Schema. LocalBusiness + Service + FAQPage. The dominant emphasis varies by
   // template (see DESIGN.md), but all three are emitted for completeness.
