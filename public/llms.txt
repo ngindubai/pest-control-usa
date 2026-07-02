@@ -74,6 +74,14 @@ Each state hub links to the cities served in that state. City pages sit at /loca
 - [Pest control in Wyoming](https://pestremovalusa.com/locations/wyoming/)
 - [Pest control in Hawaii](https://pestremovalusa.com/locations/hawaii/)
 - [Pest control in Alaska](https://pestremovalusa.com/locations/alaska/)
+- [Pest control in Delaware](https://pestremovalusa.com/locations/delaware/)
+- [Pest control in District of Columbia](https://pestremovalusa.com/locations/district-of-columbia/)
+- [Pest control in Kentucky](https://pestremovalusa.com/locations/kentucky/)
+- [Pest control in Maryland](https://pestremovalusa.com/locations/maryland/)
+- [Pest control in Nebraska](https://pestremovalusa.com/locations/nebraska/)
+- [Pest control in North Dakota](https://pestremovalusa.com/locations/north-dakota/)
+- [Pest control in South Dakota](https://pestremovalusa.com/locations/south-dakota/)
+- [Pest control in West Virginia](https://pestremovalusa.com/locations/west-virginia/)
 
 ## Key pages
 - [All services](https://pestremovalusa.com/services/)

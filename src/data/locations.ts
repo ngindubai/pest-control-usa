@@ -444,6 +444,87 @@ export const locationStates: LocationState[] = [
     pestFact:
       "Alaska's harsh climate eliminates many pest species but creates extreme pressure from those that do thrive — rats and mice in Anchorage and coastal communities are a significant year-round problem, and yellow jacket wasps are aggressively territorial during Alaska's brief, intense summers.",
   },
+  // ── State hubs added 2026-07-02 (had city pages but no parent hub) ──
+  {
+    slug: "delaware",
+    name: "Delaware",
+    abbr: "DE",
+    region: "Northeast",
+    cities: ["Wilmington", "Dover", "Newark", "Middletown", "Smyrna"],
+    topPests: ["Termites", "Mosquitoes", "Ants", "Mice", "Ticks"],
+    pestFact:
+      "Delaware's low coastal plain and tidal salt marshes drive heavy summer mosquito pressure, and the state's mild, humid climate keeps eastern subterranean termites active year after year against Wilmington's older housing stock.",
+  },
+  {
+    slug: "district-of-columbia",
+    name: "District of Columbia",
+    abbr: "DC",
+    region: "Southeast",
+    cities: ["Washington"],
+    topPests: ["Rats", "Cockroaches", "Bed Bugs", "Mice", "Ants"],
+    pestFact:
+      "Washington, DC consistently ranks among the worst cities in the country for rats, with the Norway rat thriving in the district's dense restaurant corridors and the alleys behind its older row houses.",
+  },
+  {
+    slug: "kentucky",
+    name: "Kentucky",
+    abbr: "KY",
+    region: "Southeast",
+    cities: ["Louisville", "Lexington", "Owensboro", "Bowling Green", "Elizabethtown"],
+    topPests: ["Termites", "Spiders", "Ants", "Ticks", "Mosquitoes"],
+    pestFact:
+      "Kentucky sits in a high-pressure zone for eastern subterranean termites, and the brown recluse spider is established across much of the state, so both structural and spider inspections matter for Kentucky homeowners.",
+  },
+  {
+    slug: "maryland",
+    name: "Maryland",
+    abbr: "MD",
+    region: "Southeast",
+    cities: ["Baltimore", "Frederick", "Annapolis", "Rockville", "Gaithersburg"],
+    topPests: ["Stink Bugs", "Termites", "Mosquitoes", "Ants", "Mice"],
+    pestFact:
+      "Maryland carries some of the heaviest brown marmorated stink bug pressure in the country, and the Asian tiger mosquito is firmly established across the Baltimore and Washington suburbs, biting through the daytime hours all summer.",
+  },
+  {
+    slug: "nebraska",
+    name: "Nebraska",
+    abbr: "NE",
+    region: "Midwest",
+    cities: ["Omaha", "Lincoln", "Bellevue", "Grand Island", "Kearney"],
+    topPests: ["Boxelder Bugs", "Mice", "Ants", "Crickets", "Wasps"],
+    pestFact:
+      "Nebraska's continental climate drives large fall invasions of boxelder bugs and crickets pushing indoors for warmth, while rural and suburban properties see steady mouse pressure as temperatures drop toward winter.",
+  },
+  {
+    slug: "north-dakota",
+    name: "North Dakota",
+    abbr: "ND",
+    region: "Midwest",
+    cities: ["Fargo", "Bismarck", "Grand Forks", "Minot", "West Fargo"],
+    topPests: ["Mice", "Boxelder Bugs", "Mosquitoes", "Wasps", "Ants"],
+    pestFact:
+      "North Dakota's long, hard winters push mice and boxelder bugs indoors every fall, and the wet prairie pothole country produces some of the most intense summer mosquito activity anywhere in the United States.",
+  },
+  {
+    slug: "south-dakota",
+    name: "South Dakota",
+    abbr: "SD",
+    region: "Midwest",
+    cities: ["Sioux Falls", "Rapid City", "Aberdeen", "Brookings", "Watertown"],
+    topPests: ["Boxelder Bugs", "Mice", "Wasps", "Mosquitoes", "Ants"],
+    pestFact:
+      "South Dakota homeowners face heavy fall invasions of boxelder bugs and other overwintering pests seeking shelter, while warm prairie summers bring biting mosquitoes and ground-nesting wasps to yards across the state.",
+  },
+  {
+    slug: "west-virginia",
+    name: "West Virginia",
+    abbr: "WV",
+    region: "Southeast",
+    cities: ["Charleston", "Huntington", "Parkersburg", "Morgantown", "Wheeling"],
+    topPests: ["Stink Bugs", "Mice", "Termites", "Ants", "Ticks"],
+    pestFact:
+      "West Virginia's Appalachian valleys see intense fall invasions of brown marmorated stink bugs, which overwinter inside mountain homes in large numbers, so late-season exclusion work is a priority across the state.",
+  },
 ];
 
 export function getStateBySlug(slug: string): LocationState | undefined {

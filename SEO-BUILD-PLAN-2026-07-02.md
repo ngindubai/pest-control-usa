@@ -205,11 +205,9 @@ Do not spend effort on these; the brief confirms they do not help on Google's cu
 
 ## Newly discovered findings (raised this session, awaiting decisions)
 
-### N1. Eight states have city pages but no parent state hub page `[DECISION: GARETH]` `[likely OPUS for content]`
-- `delaware, district-of-columbia, kentucky, maryland, nebraska, north-dakota, south-dakota, west-virginia` have city pages in `src/data/cities/*` but no record in `src/data/locations.ts`, so `/locations/{state}/` returns notFound.
-- Impact: every city page in these 8 states has a breadcrumb and (after Step 1.3) a "Cities We Serve" parent link pointing at a 404, and there is no state hub in the sitemap or nav to funnel authority to those cities.
-- Options: (a) build 8 state hub records with real regional pest content (needs The Geographer + Wordsmith, YMYL facts, so Opus-advised); (b) as a stopgap, generate minimal hub pages from the existing city data; (c) leave for a later content block.
-- Recommendation: at least a stopgap now so the breadcrumbs resolve, full content in a later block. Needs your call.
+### N1. Eight states have city pages but no parent state hub page `[RESOLVED 2026-07-02, OPUS]`
+- `delaware, district-of-columbia, kentucky, maryland, nebraska, north-dakota, south-dakota, west-virginia` had city pages but no record in `src/data/locations.ts`, so `/locations/{state}/` returned notFound and every child city's breadcrumb and parent link 404'd.
+- Decision (Gareth): build full-content hubs now. Done on Opus: added 8 `LocationState` records with accurate regional pest facts (YMYL-checked) and real city lists. All 51 hubs now exist, 0 missing. See changelog N1.
 
 ### N2. Em dash and en dash violations across the codebase `[DECISION: GARETH]` `[SONNET]`
 - 33 files under `src/` contain em dashes and 11 contain en dashes, breaking the project's absolute ban. The city data (`src/data/cities/`) is clean (0). The violations are in UI components, homepage sections, static pages, `services.ts`, and `locations.ts`.
@@ -258,5 +256,9 @@ Newest first. Written so entries can be lifted into routine build prompts. Forma
 - Why: self-canonicals that omit the served trailing slash are a minor duplicate-signal wart.
 
 **Step 1.6 Added llms.txt.**
-- `public/llms.txt`: generated from real data (23 services, 43 state hubs, key pages, sitemap, AI notes). No em dashes.
+- `public/llms.txt`: generated from real data (23 services, state hubs, key pages, sitemap, AI notes). No em dashes. Regenerated after N1 to list all 51 state hubs.
 - Why: overrides the audit's "skip it"; other AI systems read llms.txt and it drives traffic.
+
+**N1 Built 8 missing state hub pages (Opus).**
+- `src/data/locations.ts`: added `LocationState` records for `delaware, district-of-columbia, kentucky, maryland, nebraska, north-dakota, south-dakota, west-virginia`, each with real cities and an accurate, YMYL-checked regional pest fact (for example DC rats, Maryland stink bugs and Asian tiger mosquito, North Dakota pothole mosquitoes). All `topPests` map to existing service slugs.
+- Why: those 8 states had ~2,150-corpus city pages whose breadcrumbs and new parent links pointed at a 404 `/locations/{state}/`. Now all 51 hubs exist, are in the sitemap, and link their real city pages. Build 2,233 to 2,241 pages.
