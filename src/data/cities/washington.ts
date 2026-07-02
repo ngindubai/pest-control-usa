@@ -62,6 +62,26 @@ export const washingtonCities: CityLocation[] = [
         heading: "Carpenter ants and why moisture matters most",
         body: "Carpenter ants do not eat wood, they excavate it, and in the Northwest they target wood that is already damp or rotting. By contrast with drier climates, the constant moisture here gives them far more to work with. Finding them indoors usually points to a leak, poor drainage, or damp framing, so control pairs treatment with fixing the moisture that invited them.",
       },
+      {
+        heading: "Why Seattle's rat problem never really ends",
+        body: "Seattle carries a persistent rat problem, and the mild, wet climate is the reason it does not fade with the seasons the way it does in colder cities. Two species share the city. Roof rats are agile climbers that move along fences, tree limbs, and utility lines into attics and upper walls, while Norway rats are heavier burrowers that nest near foundations, under sheds, and around drains and sewer connections. Both stay active year-round because the winters never get cold enough to knock the population back. That is why trapping alone rarely settles a Seattle rat problem for long. Lasting control depends on exclusion, sealing the roofline gaps roof rats use and the ground-level openings Norway rats exploit, so that removing the animals inside is not immediately undone by new ones moving in from outside.",
+      },
+      {
+        heading: "Reading the Seattle pest calendar month by month",
+        body: "The damp-driven pests set the baseline all year. Rats, silverfish, and moisture ants are a steady presence because the climate that feeds them does not switch off in winter. On top of that baseline, the calendar adds seasonal spikes. Carpenter and odorous house ants trail more heavily from spring through fall, following moisture indoors during wet stretches. Yellowjacket and paper wasp nests build quietly through the drier weeks of summer and turn aggressive around food and garbage by late summer, which is when most stings and nest calls happen. Then, as fall arrives, male giant house spiders start wandering indoors looking for mates and suddenly become very visible. Knowing which pest belongs to which part of the year is what lets a plan stay ahead of the pressure instead of reacting to it.",
+      },
+      {
+        heading: "The moisture connection under most Seattle infestations",
+        body: "More often than not, a pest problem in a Seattle home is really a moisture problem wearing a different face. Carpenter ants move into damp or rotting framing rather than sound dry wood. Silverfish gather in the bathrooms, basements, and crawl spaces that the wet climate keeps humid. Even the rats are drawn to sheltered, damp voids out of the rain. Because these pests are all following the same conditions, the most durable fixes address the water first: improving crawl space and basement ventilation, correcting drainage that keeps soil and framing wet, and clearing the gutter and downspout problems that push moisture against the house. Treat the pests without touching the moisture and the same species tend to return; correct the moisture and the pressure eases across several pests at once.",
+      },
+      {
+        heading: "What effective pest control looks like in a Seattle home",
+        body: "Good pest control here starts with an inspection that pays attention to the parts of the house the wet climate affects most: the crawl space, the attic, the perimeter drainage, and any framing near plumbing. From there the work splits along the two problems the climate creates. The moisture pests, carpenter ants, silverfish, and the rats sheltering from the wet, call for a combination of exclusion, moisture correction, and targeted treatment at the harborage points rather than broad spraying. The late-season wasps are a separate job, handled by removing the mature nest at its source when it becomes a hazard. An integrated approach that matches the method to the pest, and that treats the underlying dampness as part of the problem, is what keeps a Seattle home clear through a climate that otherwise invites pests back all year.",
+      },
+      {
+        heading: "Silverfish and the quiet damp-loving pests",
+        body: "Silverfish rarely cause the alarm that rats or wasps do, but in Seattle they are one of the clearest signs of the underlying problem. These slender, nocturnal insects thrive in humidity and gather where the wet climate keeps a home damp: bathrooms, basements, laundry areas, and crawl spaces. Finding them is usually a signal that a space is holding more moisture than it should. They feed on starchy materials such as paper, book bindings, and stored cardboard, so long-undisturbed storage areas are where they build up. As with the carpenter ants and the sheltering rats, the lasting answer is less about repeated spraying and more about drying the space out: better ventilation, less clutter in damp storage, and attention to the leaks and condensation that keep these areas humid in the first place.",
+      },
     ],
     prevention: [
       "Address leaks, gutters, and crawl-space damp, which is what draws carpenter ants and silverfish.",

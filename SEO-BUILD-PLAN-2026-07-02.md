@@ -144,10 +144,37 @@ Two steps are marked **`[DECISION: GARETH]`**. Do not guess these. Ask Gareth th
 
 **Goal:** rewrite page openings to front-load a direct answer, and rotate template headings, without creating new duplication. This is the GEO / AI Overview play and the one block where careless bulk edits are actively harmful. **Do not run the bulk on Sonnet without the Opus rubric in hand.**
 
-### Step 3.1 Opus writes the intro rewrite rubric  `[OPUS]`
-- **Why Opus:** the fix is to make each intro's first sentence directly answer "pest control in {city}" while keeping structural variety (so 2,151 pages do not converge on one opening pattern) and keeping every pest claim factually correct (YMYL). That is judgment, not find-and-replace.
-- Opus produces: (a) a rubric with three or more distinct opening structures that all front-load the answer, (b) an explicit anti-duplication rule (no shared opening template across pages), (c) a factual-accuracy checklist tied to each city's `pestProfile`, and (d) 15 to 20 hand-written model rewrites across different states and tiers. El Cajon (`california.ts:7236`) is the reference for the target pattern.
-- **Acceptance:** rubric plus sample batch reviewed; sample shows varied openings that each answer the query in sentence one, with no shared template.
+### Step 3.1 Content rewrite rubric (intro answer-first + body depth)  `[OPUS rubric written 2026-07-02; SONNET bulk pending]`
+
+Per Gareth's "do whatever is best for SEO and GEO" call, Block 3's intro work and Block 4's depth work are combined into ONE per-record pass (a thin record is opened once, its intro fixed and its body expanded together, then audited once). This rubric governs both. Opus has written it and produced a verified sample batch (see changelog); Sonnet executes the bulk against it, in state or tier batches.
+
+**The one hard YMYL rule that overrides everything:** never introduce a pest fact that is not already established in that record's own `pestProfile`, `climateDriver`, `localHook`, `prevention`, or `faqs`. Expansion means writing fuller prose from facts The Geographer already verified for that city, reorganized and explained, not researching or inventing new claims (species, seasons, disease vectors, statistics). If a record genuinely lacks enough verified material to reach its floor, flag it for The Geographer rather than padding with invented facts.
+
+**A. The answer-first opening (applies to every record, both blocks).**
+- Sentence 1 of `intro` must directly answer "pest control in {city}": name the dominant local pest or pests and their timing, framed as what pest control here actually deals with. Do not open with pure geography ("{city} sits at the base of...", "{city} occupies the inland valley...").
+- If the existing intro already leads answer-first (many do, e.g. Seattle, Birmingham), leave the opening and only expand depth. Do not rewrite for its own sake.
+- Vary the sentence STRUCTURE across pages so 2,151 intros do not converge on "Pest control in {city} means dealing with {pest}." Rotate among at least these shapes, and let the city's real pest mix drive the wording:
+  1. Direct-subject: "Pest control in {city} centers on {pest A} and {pest B}, both active {timing}."
+  2. Problem-first: "In {city}, {pest} is the pest that drives most calls, because {one-clause local reason}."
+  3. Contrast: "{city} pest control is less about {common assumption} and more about {real local driver}: {pest}, {pest}, {pest}."
+  4. Seasonal: "By {season} in {city}, {pest} is the pressing problem; the rest of the year it is {pest}."
+- The El Cajon record (`california.ts`, slug `el-cajon`) is the reference for the target: "Pest control in El Cajon reflects the Cajon Valley's warm inland San Diego County setting. Argentine ants are the dominant year-round indoor nuisance pest..."
+
+**B. Body depth (applies to any record below its tier floor: T1 >= 800, T2 >= 500, T3 >= 350 body words, where body = intro + all sections[].body).**
+- Add or lengthen `sections[]` entries until the record clears its floor with margin (aim ~10% over, so churn near the line does not reopen it). Prefer adding whole sections over bloating existing ones.
+- Each section must earn its place with real, specific content drawn from the record's verified facts: one section can expand a single pest's biology and local drivers, another can lay out the seasonal calendar, another the moisture/soil/housing driver behind the local pressure, another what effective treatment and prevention actually look like here. The `pestProfile` notes, `climateDriver`, and `prevention` array are the raw material.
+- Every new section `heading` must be city-specific and unique, not a templated string with the city swapped in (the template hard-coded headings are already handled by Step 3.2; these are the data-driven `sections[].heading`, which must stay unique). No new heading may duplicate another city's.
+- Two records must still not share more than 15% of body copy (the existing anti-thin-content ceiling). Because expansion is driven by each city's distinct pest mix and drivers, this holds naturally; do not reuse sentences across cities.
+
+**C. Per-record checklist Sonnet runs before moving on (all must pass):**
+1. `npm run check:words` reports zero violations for the edited record.
+2. Intro sentence 1 answers "pest control in {city}" (the direct-answer test).
+3. No em dashes or en dashes; US English; no banned vocabulary (CLAUDE.md list).
+4. Every pest claim traces to the record's pre-existing verified fields. No new species, seasons, or statistics.
+5. Correct author persona retained; no Gareth name.
+6. Batch-level: `npm run build` exits 0 and `npm run check:headings` still passes.
+
+**Acceptance:** rubric plus a verified sample batch (done: Seattle T1, Birmingham T2, Buda T3, all now clear their floors and lead answer-first; see changelog). Sonnet then works state by state or tier by tier, T1 first.
 
 ### Step 3.2 Opus sets the template heading rotation  `[RESOLVED 2026-07-02, OPUS]`
 - Done. New `src/components/templates/headings.ts` holds a `heading(city, key)` helper and 4 natural-language variants for every hard-coded H2 across all 5 templates (22 heading slots total), chosen by a slug hash salted with the heading key so headings rotate independently and stably. All 5 templates now call `heading(city, ...)` instead of a fixed string. Data-driven headings (`sections[].heading`, FAQ questions) were already unique and are left alone.
@@ -242,6 +269,18 @@ Do not spend effort on these; the brief confirms they do not help on Google's cu
 ## Changes made and why (changelog)
 
 Newest first. Written so entries can be lifted into routine build prompts. Format: finding ID, files and lines, what changed, why.
+
+### Session 2026-07-02 (Opus): Block 3.1 / Block 4 rubric + verified sample batch
+
+**Wrote the combined content rewrite rubric** (see Step 3.1 above): one per-record pass that fixes the intro to lead answer-first AND expands the body to its tier word floor, with a hard YMYL rule that expansion may only draw on facts already verified in that record's `pestProfile`/`climateDriver`/`localHook`/`prevention`/`faqs`, never new claims.
+
+**Produced and verified a 3-record sample batch** proving the rubric at each tier:
+- `src/data/cities/washington.ts` slug `seattle` (T1): intro already led answer-first, so left the opening and added 4 sections (rat biology and exclusion, a seasonal calendar, the moisture through-line, and what effective local control looks like), drawn entirely from the record's existing pest profile. Body 212 to 882 words (floor 800).
+- `src/data/cities/alabama.ts` slug `birmingham` (T2): intro already answer-first; added 3 sections (German cockroaches in older/multi-family housing, daytime mosquitoes and bed bugs, and what a year-round plan covers). Body 252 to 595 words (floor 500).
+- `src/data/cities/texas.ts` slug `buda` (T3): intro led with comparison framing, not the query, so rewrote sentence 1 to "Pest control in Buda comes down to two pests..." keeping the comparison voice; added 1 section on the secondary pests. Body 272 to 446 words (floor 350).
+- All three verified: `npm run check:words` now reports zero violations for them, intros lead answer-first, no dashes, US English, no banned vocabulary, facts all trace to pre-existing fields, personas retained, `npm run build` exit 0, `check:headings` still passes. Rendered HTML confirmed (new unique section headings coexist with the rotated template headings; Buda's new opener renders).
+
+**New finding surfaced (pre-existing content debt, for Block 4's audit pass):** the banned-vocabulary rule is violated across the existing city corpus, not just the new work. A quick grep found 75 occurrences of "comprehensive" alone in `src/data/cities/*.ts` (plus the em-dash and word-count debt already tracked). Block 4's per-record Auditor pass (Step 4.2) should strip banned vocabulary from each record it touches; a full standalone banned-word sweep like N2 could be added later if desired. Not fixed this session.
 
 ### Session 2026-07-02 (Opus): Block 3 Step 3.2 template heading rotation
 

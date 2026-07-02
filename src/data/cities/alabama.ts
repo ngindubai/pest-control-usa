@@ -61,6 +61,18 @@ export const alabamaCities: CityLocation[] = [
         heading: "Fire ants and the year-round Alabama season",
         body: "Birmingham's mild winters mean fire ant colonies rarely go dormant the way they do further north. They stay active and surface quickly after rain throughout the year, making the sting risk in yards and parks a near-constant concern. Alabama Cooperative Extension ranks fire ants among the most significant pest challenges in the state. Treating mounds as they appear and doing a yard assessment after significant rain keeps the population manageable and the outdoor areas safer for families and pets.",
       },
+      {
+        heading: "German cockroaches in Birmingham's older housing",
+        body: "German cockroaches are the pest most Birmingham renters and homeowners actually see indoors, and the humid climate lets them breed year-round. They concentrate in apartments, restaurants, and the older housing stock of neighborhoods like Five Points South, Avondale, and Woodlawn, where shared walls in multi-family buildings let a problem in one unit spread quickly to the next. Because they hide in warm, moist spots near food and water, cleaning alone rarely clears them. Effective control pairs sanitation with targeted gel baits and follow-up visits, and in multi-unit buildings it works best when neighboring units are treated together. Left alone, a small German cockroach population becomes a building-wide one within a few months.",
+      },
+      {
+        heading: "Birmingham's daytime mosquitoes and the bed bug problem",
+        body: "Two more pests round out the Birmingham season. The many creeks, retention areas, and low-lying drainages feeding the Black Warrior River watershed give mosquitoes steady breeding habitat from March through October, and the Asian tiger mosquito, common across Jefferson County, bites through daylight hours rather than only at dusk. Jefferson County Environmental Services monitors for mosquito-borne illness, which makes yard-level breeding control worthwhile. Bed bugs are a separate and growing concern in the city's multi-family housing, hotels, and older apartment stock, spreading through shared walls and building infrastructure much the way cockroaches do. For homeowners the headline threats stay termites and fire ants, but for renters in older buildings, cockroaches and bed bugs are the daily reality.",
+      },
+      {
+        heading: "What a year-round Birmingham pest plan covers",
+        body: "Because Birmingham's climate keeps several pests active most of the year, most homes here are served on a recurring plan rather than a single visit. A typical plan pairs an annual termite inspection with ongoing coverage for the pests that do not take a winter off: fire ant treatment as mounds reappear after rain, interior work for German cockroaches in older and multi-family housing, and mosquito breeding-site reduction through the warm months. Grouping these into scheduled service is usually more effective and more predictable than reacting to each pest separately as it flares up, and it keeps the two costly threats, termites and structural fire ant pressure, under steady watch rather than caught late.",
+      },
     ],
     prevention: [
       "Schedule an annual termite inspection given the heavy Jefferson County pressure and the humid subtropical climate.",

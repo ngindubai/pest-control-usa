@@ -13808,7 +13808,7 @@ export const texasCities: CityLocation[] = [
       { name: "Mice", serviceSlug: "mice-control", activeSeason: "October through March", note: "New construction in Buda frequently disturbs deer mouse habitat, pushing mice toward existing homes as developments expand into undisturbed land." },
     ],
     localHook: "Two pests define the work here: fire ants and subterranean termites, which both exploit the disturbed soils of Buda's fast-growing residential landscape in ways that cost homeowners real money.",
-    intro: "The contrast that matters in Buda is the difference between a pest that hurts you now and one that costs you later. Fire ants are the immediate problem: they colonize new yards fast, sting anyone who steps on a mound, and require active, recurring control. Subterranean termites are the slow, expensive problem: they work silently inside walls and foundations for years before becoming visible, and Hays County soil conditions put every Buda home at risk. Treating one without protecting against the other is an incomplete approach.",
+    intro: "Pest control in Buda comes down to two pests that both exploit the disturbed soil of a fast-growing Hays County suburb: fire ants that hurt you now, and subterranean termites that cost you later. Fire ants are the immediate problem. They colonize new yards fast, sting anyone who steps on a mound, and need active, recurring control from spring through fall. Subterranean termites are the slow, expensive one. They work silently inside walls and foundations for years before they show, and Hays County soil puts every Buda home at risk. Mosquitoes off the Onion Creek tributaries and American cockroaches out of the aging stormwater lines fill in the rest of the year. Treating one pest without protecting against the other leaves half the risk in place.",
     sections: [
       {
         heading: "Compare the seasons: fire ants vs. termites",
@@ -13817,6 +13817,10 @@ export const texasCities: CityLocation[] = [
       {
         heading: "The contrast that matters: new construction vs. established neighborhoods",
         body: "Buda's growth has created two distinct pest environments within the same city. New subdivisions on the outer edges near FM 967 and Turnersville Road deal primarily with fire ants because construction continuously disturbs soil and creates the open, sunny conditions fire ants prefer. Established neighborhoods near downtown Buda, with mature trees and older slab foundations, carry higher termite risk because the wood-to-soil contact points that accumulate over decades give termites more entry pathways. A home's age and location in the city changes which pest is the bigger financial risk.",
+      },
+      {
+        heading: "The pests that fill the rest of Buda's calendar",
+        body: "Fire ants and termites get the attention, but two more pests keep Buda technicians busy. Mosquitoes breed in the standing water of the seasonal creeks and low areas near the Onion Creek tributaries, stay active from April through October, and the daytime biters make yards hard to enjoy well into fall. American cockroaches use Buda's aging stormwater infrastructure and the concrete drainage channels along IH-35 as harborage, then move toward homes through drains and foundation gaps, most heavily from April through October. As new subdivisions push into what was open land, deer mice displaced by construction look for shelter in nearby homes from October through March. None of these is the financial threat that termites are, but together they explain why year-round service is the norm in Buda rather than a single one-time treatment.",
       },
     ],
     prevention: [
