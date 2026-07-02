@@ -62,6 +62,26 @@ export const arizonaCities: CityLocation[] = [
         heading: "Termites in dry ground",
         body: "It surprises people that termites thrive in the desert, but desert subterranean termites are widespread across Maricopa County. They build mud tubes up foundations to reach wood while keeping contact with moisture below ground. An inspection looks for those tubes along the slab and any wood-to-soil contact.",
       },
+      {
+        heading: "Two kinds of cockroach, two different problems",
+        body: "Phoenix has desert cockroaches and German cockroaches, and they behave nothing alike. Desert roaches live outdoors and only push inside during the most extreme summer heat, so their presence in a home is usually temporary and heat-driven. German roaches are the opposite: they breed indoors year-round in kitchens and bathrooms, hiding in cabinet hinges and appliance motors, and a small population becomes a large one within weeks if left alone. Treating desert roaches means sealing entry points ahead of a heat wave. Treating German roaches means gel bait and sanitation focused on where they actually live, not just where they are seen.",
+      },
+      {
+        heading: "Black widows in block walls and irrigation boxes",
+        body: "Black widow spiders are common throughout the Valley, and they favor exactly the features most Phoenix homes have: block walls, garages, and irrigation boxes. These give the dry, undisturbed shelter widows prefer, close to the doors and walkways people actually use. Their bite is medically significant, so the same exclusion logic that works for scorpions applies here: clear harborage away from entry points, treat the perimeter, and check irrigation boxes and garage corners before reaching in.",
+      },
+      {
+        heading: "Roof rats in the older citrus neighborhoods",
+        body: "Phoenix's older neighborhoods, with mature citrus trees and dense oleander hedges, give roof rats exactly the cover and food they need. They nest in palms and attics and travel along fences and branches without touching the ground, which is why trimming vegetation back from the roofline matters as much as sealing the house itself. A roof rat problem in these areas tends to recur unless both the landscaping and the entry points are addressed together.",
+      },
+      {
+        heading: "What a Phoenix inspection actually checks",
+        body: "A useful Phoenix inspection does not stop at the pest someone called about. A technician walks the exterior looking for weep holes, door sweep gaps, and plumbing penetrations that scorpions and black widows use, checks the slab perimeter for termite mud tubes, looks at palms and citrus for roof rat activity, and notes any block wall damage or irrigation box gaps that widows favor. Because several of these pests share the same entry points and harborage, sealing and perimeter work done for one often reduces pressure from the others at the same time. That is why a single, thorough exclusion and treatment plan tends to outperform separate one-off calls for each pest as it shows up.",
+      },
+      {
+        heading: "How Phoenix's seasons change what shows up",
+        body: "Phoenix pest pressure does not stay level through the year, and knowing the pattern helps explain why a technician recommends different timing for different work. Late spring through the monsoon is peak bark scorpion season, when warm nights and monsoon moisture drive the most activity and the most sting risk, which is why sealing work is best finished before the rains arrive rather than during them. That same monsoon burst triggers termite swarms as winged reproductives emerge from mature colonies, making the weeks after a summer storm the best window for a slab inspection. Desert cockroaches follow the heat rather than the rain, pushing indoors during the hottest stretches of pre-monsoon summer when outdoor conditions become unlivable even for a roach. German cockroaches and black widows, by contrast, are much less seasonal, since they live in stable indoor or sheltered spots year-round and need consistent management rather than a single seasonal push. Understanding which pest is driven by heat, which by moisture, and which by neither is what separates a plan that anticipates problems from one that only reacts to them. Winter brings the only real lull, though roof rats and pack rat-adjacent rodents keep moving in the mild cold-season nights, so even the quiet months are not fully off-season here. A free inspection, timed against this calendar rather than scheduled at random, is the most efficient way to get ahead of whichever pest is about to peak next across the whole property, not just the room where it was first spotted.",
+      },
     ],
     prevention: [
       "Seal weep holes, door sweeps, and plumbing penetrations to block bark scorpions.",
@@ -174,6 +194,22 @@ export const arizonaCities: CityLocation[] = [
         heading: "Pack rat middens: a specifically Tucson problem",
         body: "Pack rats are native desert rodents that build large stick-and-debris midden nests in protected spots. Under a porch, in a crawl space, in a vehicle engine compartment: these are their preferred sites. A pack rat midden under a car hood can fill with sticks, cacti spines, and debris that can damage hoses and wiring. The middens also provide excellent harborage for bark scorpions, so a pack rat nest is often a compounded problem. Managing pack rats in Tucson requires the same consistent attention as managing cockroaches in a humid city.",
       },
+      {
+        heading: "Black widows in every Tucson yard",
+        body: "Black widow spiders are very common across Tucson and the surrounding desert, and they do not need much encouragement to move in. Utility boxes, the underside of outdoor furniture, wood piles, block wall gaps, and storage areas all give them the dry, undisturbed shelter they favor. The female's bite is medically significant, which is why black widow control gets folded into the same perimeter treatment that targets scorpions rather than handled as an afterthought. Clearing debris and wood away from the house, and checking gloves and stored items before handling them, cuts down on the accidental encounters that cause most bites.",
+      },
+      {
+        heading: "Why the monsoon triggers both termites and cockroaches at once",
+        body: "Tucson's bimodal rainfall pattern means two very different pest surges happen close together. Desert subterranean and Heterotermes termites swarm during and after the July through September monsoon rains, when the warm, humid air after a storm triggers winged reproductives to emerge and start new colonies, which is why the post-monsoon window is the critical time for a termite inspection. American cockroaches respond to the same weather from the other direction: they push into homes seeking moisture during the intense pre-monsoon heat of May and June, then again during the rains themselves, gathering under sinks, in crawl spaces, and around plumbing. A homeowner who only thinks about pests when they see them will miss both windows; a technician who tracks the monsoon calendar will not.",
+      },
+      {
+        heading: "Building a year-round plan for a high-density scorpion city",
+        body: "Because Tucson carries one of the highest bark scorpion densities in the country, a single seasonal treatment rarely holds through the year. Most effective plans here run on a monthly or bi-monthly perimeter schedule that treats for scorpions, black widows, and cockroaches together rather than as separate calls, since they share the same yard harborage and entry points. Pack rat activity gets checked separately, since midden removal and vehicle protection are a distinct job from perimeter spraying. Termite inspection sits on its own annual or post-monsoon cadence rather than the routine visit, because catching mud tubes early is what actually prevents structural cost. Pima County's warm season runs long, so gaps in the schedule tend to show up quickly as renewed activity rather than staying quiet. A free inspection is the right starting point, since the mix of scorpions, pack rats, black widows, termites, and cockroaches on any given Tucson property varies enough that a generic quote rarely matches what a technician actually finds on the walk-through.",
+      },
+      {
+        heading: "Why elevation and rainfall pattern set Tucson apart from Phoenix",
+        body: "Tucson and Phoenix sit in the same Sonoran Desert, but Tucson's higher elevation, around 2,400 feet, and its more pronounced bimodal rainfall change the pest picture in ways worth knowing. The gentler winter wet season on top of the summer monsoon means Tucson gets two distinct moisture pulses rather than one, which is part of why pack rats and bark scorpion densities run especially high here compared with lower-elevation desert cities. The elevation also moderates summer nighttime lows slightly, which keeps scorpions and black widows active later into the evening during peak months. None of this changes the basic pest list much, bark scorpions, black widows, pack rats, termites, and cockroaches show up across the Arizona desert cities, but it does change timing: Tucson's post-monsoon termite window and its pack rat pressure are more pronounced than in much of the rest of the state, which is why a plan built for Tucson specifically outperforms one adapted from a generic desert template.",
+      },
     ],
     prevention: [
       "Seal gaps around doors, windows, and utility penetrations to reduce scorpion entry.",
@@ -285,6 +321,22 @@ export const arizonaCities: CityLocation[] = [
       {
         heading: "Block walls and black widows",
         body: "The block walls that surround most Mesa properties are functional and attractive, and they are also prime black widow habitat. The hollow gaps, the weep holes, and the bases of the walls give black widows the dry, undisturbed shelter they prefer. Combined with utility boxes, garages, and outdoor storage, this means black widows are a routine find across Mesa. Regular perimeter treatment and clearing harborage near doors, garages, and play areas keeps the population down. Their bite is medically significant, so this is worth steady attention.",
+      },
+      {
+        heading: "Termites under Mesa's irrigated lawns",
+        body: "Desert subterranean termites are widespread across the East Valley, and Mesa's irrigated landscapes give them an advantage most desert cities do not: consistent moisture close to the surface. Combined with the slab-on-grade construction common across Mesa neighborhoods, that moisture lets colonies stay active closer to the house than in drier parts of the Valley. Swarms follow monsoon rain events, when winged reproductives emerge to start new colonies, so a post-monsoon inspection of the slab perimeter for mud tubes is the single most useful check a Mesa homeowner can do.",
+      },
+      {
+        heading: "Roof rats, citrus trees, and the fall cricket surge",
+        body: "Two very different pests define the rest of Mesa's calendar. Roof rats have spread through the Phoenix metro including Mesa over the past two decades, and the mature citrus trees and dense landscaping of established neighborhoods give them both food and cover, so they nest in trees, palms, and attics rather than at ground level. Separately, field crickets surge in large numbers each late summer and fall, gathering around exterior lights before pushing into garages and homes. Beyond the nuisance, that cricket surge matters because it feeds the scorpions and spiders already active in the yard, so cutting outdoor lighting and sealing garage gaps in early fall does double duty against both problems.",
+      },
+      {
+        heading: "Why East Valley pest plans treat the whole property, not one pest",
+        body: "Mesa's pest pressure comes from several species that all respond to the same underlying conditions: extreme heat pushing animals toward moisture and shelter, block wall construction that suits spiders, irrigated landscaping that suits termites, and mature trees that suit rats. Because of that overlap, a plan that treats only the pest a homeowner noticed, say a single scorpion sighting, tends to miss the roof rat activity in the citrus trees or the black widows building up in the block wall gaps nearby. A property-wide inspection and a recurring perimeter schedule catch these before they become separate service calls, which is generally both more effective and less expensive over a full year than reacting pest by pest.",
+      },
+      {
+        heading: "What sets Mesa apart from the rest of the East Valley",
+        body: "Mesa shares its climate and its bark scorpion exposure with Phoenix, Tempe, and Chandler, but two features push its pest profile in a specific direction. Mesa has more of the older, established neighborhoods with mature citrus and shade trees than the newer East Valley suburbs, which is exactly the landscaping roof rats prefer and part of why the roof rat trend has been especially visible here. Mesa also has extensive irrigated turf and agricultural-heritage lots left over from its farming history, and that steady subsurface moisture is what lets subterranean termites stay active close to slab foundations rather than retreating deeper into dry soil the way they might in a newer, less-irrigated development. A pest plan built around Mesa's specific mix of mature landscaping and irrigation history tends to catch problems that a generic East Valley template would miss. Newer Mesa subdivisions on the city's outer edges see less of this pressure, since younger landscaping and less-established irrigation give termites and roof rats less to work with, but scorpion and black widow exposure stays consistent across old and new neighborhoods alike because it follows the desert climate rather than the landscaping. A free inspection is the fastest way to know which side of that split a given Mesa property falls on, and what that means for the treatment schedule going forward.",
       },
     ],
     prevention: [
