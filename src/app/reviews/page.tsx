@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Star, ThumbsUp, CheckCircle, Phone } from "lucide-react";
 import { siteConfig } from "@/config/site";
+import { organizationSchema, breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Customer Reviews | PestRemovalUSA: 4.9 Stars Nationwide",
@@ -151,31 +152,25 @@ function StarRow({ rating, size = "sm" }: { rating: number; size?: "sm" | "lg" }
 export default function ReviewsPage() {
   return (
     <>
+      {/*
+        No aggregateRating or Review schema here: the star ratings and review
+        counts displayed on this page are not backed by real, auditable
+        reviews (decision log, 2026-07-02), so asserting them as structured
+        data would be a review-spam-policy risk. The testimonials below
+        remain as plain page content only.
+      */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            name: "PestRemovalUSA",
-            aggregateRating: {
-              "@type": "AggregateRating",
-              ratingValue: "4.9",
-              reviewCount: "12847",
-              bestRating: "5",
-              worstRating: "1",
-            },
-            review: reviews.slice(0, 5).map((r) => ({
-              "@type": "Review",
-              author: { "@type": "Person", name: r.name },
-              reviewRating: {
-                "@type": "Rating",
-                ratingValue: r.rating,
-                bestRating: 5,
-              },
-              reviewBody: r.text,
-              datePublished: r.date,
-            })),
+            "@graph": [
+              organizationSchema(),
+              breadcrumbSchema([
+                { name: "Home", href: "/" },
+                { name: "Reviews", href: "/reviews/" },
+              ]),
+            ],
           }),
         }}
       />

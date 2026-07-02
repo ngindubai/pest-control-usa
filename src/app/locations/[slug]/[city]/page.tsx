@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { cities, getCityBySlug } from "@/data/cities";
-import { siteConfig } from "@/config/site";
 import CityTemplateRouter from "@/components/templates/CityTemplateRouter";
+import {
+  areaOrganizationSchema,
+  serviceSchema,
+  faqPageSchema,
+  breadcrumbSchema,
+} from "@/lib/schema";
 
 // The first dynamic segment is named `slug` to match the sibling state route
 // (src/app/locations/[slug]/page.tsx). Here `slug` is the state slug.
@@ -36,36 +41,36 @@ export default async function CityPage({ params }: Props) {
 
   const url = `https://pestremovalusa.com/locations/${slug}/${city}/`;
 
-  // Schema. LocalBusiness + Service + FAQPage. The dominant emphasis varies by
-  // template (see DESIGN.md), but all three are emitted for completeness.
+  // City/State kept as separate structured fields (not bundled into one
+  // "City, ST" name string, see SEO audit finding M7). The Organization node
+  // reuses the sitewide @id (src/lib/schema.ts) rather than minting a new,
+  // unlinked business per city.
+  const areaServed = {
+    "@type": "City",
+    name: record.name,
+    containedInPlace: { "@type": "State", name: record.state },
+  };
+
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "LocalBusiness",
-        name: `${siteConfig.name} - ${record.name}`,
-        description: record.metaDescription,
+      areaOrganizationSchema({
         url,
-        telephone: siteConfig.phone,
-        areaServed: {
-          "@type": "City",
-          name: `${record.name}, ${record.stateAbbr}`,
-        },
-      },
-      {
-        "@type": "Service",
-        serviceType: "Pest Control",
-        provider: { "@type": "LocalBusiness", name: siteConfig.name },
-        areaServed: { "@type": "City", name: record.name },
-      },
-      {
-        "@type": "FAQPage",
-        mainEntity: record.faqs.map((f) => ({
-          "@type": "Question",
-          name: f.question,
-          acceptedAnswer: { "@type": "Answer", text: f.answer },
-        })),
-      },
+        description: record.metaDescription,
+        areaServed,
+      }),
+      serviceSchema({
+        name: "Pest Control",
+        description: record.metaDescription,
+        areaServed,
+      }),
+      faqPageSchema(record.faqs),
+      breadcrumbSchema([
+        { name: "Home", href: "/" },
+        { name: "Service Areas", href: "/locations/" },
+        { name: record.state, href: `/locations/${record.stateSlug}/` },
+        { name: record.name, href: url.replace("https://pestremovalusa.com", "") },
+      ]),
     ],
   };
 

@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import type { Metadata } from "next";
 import Link from "next/link";
 import { ChevronDown, Phone, Search } from "lucide-react";
 import { siteConfig } from "@/config/site";
+import { faqPageSchema } from "@/lib/schema";
 
 const categories = [
   {
@@ -164,7 +164,9 @@ export default function FAQPage() {
         )
     : currentCategory.faqs;
 
-  const schemaFaqs = categories.flatMap((c) => c.faqs);
+  const schemaFaqs = categories
+    .flatMap((c) => c.faqs)
+    .map((f) => ({ question: f.q, answer: f.a }));
 
   return (
     <>
@@ -173,12 +175,7 @@ export default function FAQPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: schemaFaqs.map((f) => ({
-              "@type": "Question",
-              name: f.q,
-              acceptedAnswer: { "@type": "Answer", text: f.a },
-            })),
+            ...faqPageSchema(schemaFaqs),
           }),
         }}
       />

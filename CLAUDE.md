@@ -227,13 +227,15 @@ pest-control-usa/
 
 ## CURRENT STATUS (keep accurate, update on every block commit)
 
-- **Phase:** Phase 3 T3 in progress. Chunks 15-87 complete 2026-06-28. 2101 total city pages built (75 T1 + 300 T2 + 1726 T3). T2 COMPLETE.
-- **City pages built:** 2101. T1 complete (75). T2 complete (300). T3 in progress: 1726 built of ~5,000 target.
+- **Phase:** Phase 3 T3 in progress. Chunks 15-89 complete 2026-06-28. 2151 total city pages built (75 T1 + 300 T2 + 1776 T3). T2 COMPLETE.
+- **City pages built:** 2151. T1 complete (75). T2 complete (300). T3 in progress: 1776 built of ~5,000 target.
+- **State hub pages:** 51 (all states plus DC have a hub; 8 were added 2026-07-02, see SEO-BUILD-PLAN-2026-07-02.md).
 - **Town pages built:** 0.
-- **Templates:** 5 (A to E), all built. Router in `src/components/templates/`. Rotation: A=417, B=404, C=427, D=415, E=438 (all within 15-25% target).
-- **Next block:** Chunk 88, T3 continues, rotation at A.
+- **Templates:** 5 (A to E), all built. Router in `src/components/templates/`. Rotation: A=442, B=429, C=427, D=415, E=438 (all within 15-25% target).
+- **Next block:** Chunk 90, T3 continues, rotation at C.
 - **Deploy:** Always push directly to `main`. deploy.yml fires automatically. Site goes live on every push.
+- **SEO remediation:** 2026-07-02, an SEO audit and build plan ran against this repo. Build restoration, sitemap/discoverability, dash sweep, and schema/trust cleanup are complete. See `SEO-AUDIT-2026-07-02.html` and `SEO-BUILD-PLAN-2026-07-02.md` for the full record and remaining Block 3 (answer-first content) work.
 
 ---
 
-*Last updated: 2026-06-28*
+*Last updated: 2026-07-02*

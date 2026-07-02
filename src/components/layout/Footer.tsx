@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site";
 import { trackPhoneCall } from "@/lib/gtag";
 import { Phone, Mail, MapPin, Shield } from "lucide-react";
 import { Divider } from "@/components/ui/Layout";
+import { organizationSchema, websiteSchema } from "@/lib/schema";
 
 // ─── Social SVG icons (brand icons removed from lucide v1) ───────
 function IconFacebook() {
@@ -50,42 +51,41 @@ function IconLinkedin() {
 // ─── Footer data ──────────────────────────────────────────────────
 
 const footerServices = [
-  { label: "Rodent Control", href: "/services/rodent-control" },
-  { label: "Termite Treatment", href: "/services/termite-treatment" },
-  { label: "Bed Bug Removal", href: "/services/bed-bug-removal" },
-  { label: "Cockroach Control", href: "/services/cockroach-control" },
-  { label: "Wasp & Bee Removal", href: "/services/wasp-bee-removal" },
-  { label: "Raccoon Removal", href: "/services/raccoon-removal" },
-  { label: "Bat Removal", href: "/services/bat-removal" },
-  { label: "Mosquito Control", href: "/services/mosquito-control" },
-  { label: "Commercial Pest Control", href: "/services/commercial-pest-control" },
-  { label: "View All Services →", href: "/services" },
+  { label: "Rodent Control", href: "/services/mice-control/" },
+  { label: "Termite Treatment", href: "/services/termite-treatment/" },
+  { label: "Bed Bug Treatment", href: "/services/bed-bug-treatment/" },
+  { label: "Cockroach Control", href: "/services/cockroach-control/" },
+  { label: "Wasp & Bee Removal", href: "/services/wasp-bee-removal/" },
+  { label: "Raccoon Removal", href: "/services/raccoon-removal/" },
+  { label: "Bat Removal", href: "/services/bat-removal/" },
+  { label: "Mosquito Control", href: "/services/mosquito-control/" },
+  { label: "Commercial Pest Control", href: "/commercial/" },
+  { label: "View All Services →", href: "/services/" },
 ];
 
 const footerLocations = [
-  { label: "Texas", href: "/locations/texas" },
-  { label: "Florida", href: "/locations/florida" },
-  { label: "California", href: "/locations/california" },
-  { label: "New York", href: "/locations/new-york" },
-  { label: "Illinois", href: "/locations/illinois" },
-  { label: "Georgia", href: "/locations/georgia" },
-  { label: "North Carolina", href: "/locations/north-carolina" },
-  { label: "Ohio", href: "/locations/ohio" },
-  { label: "Arizona", href: "/locations/arizona" },
-  { label: "View All Locations →", href: "/locations" },
+  { label: "Texas", href: "/locations/texas/" },
+  { label: "Florida", href: "/locations/florida/" },
+  { label: "California", href: "/locations/california/" },
+  { label: "New York", href: "/locations/new-york/" },
+  { label: "Illinois", href: "/locations/illinois/" },
+  { label: "Georgia", href: "/locations/georgia/" },
+  { label: "North Carolina", href: "/locations/north-carolina/" },
+  { label: "Ohio", href: "/locations/ohio/" },
+  { label: "Arizona", href: "/locations/arizona/" },
+  { label: "View All Locations →", href: "/locations/" },
 ];
 
 const footerCompany = [
-  { label: "About Us", href: "/about" },
-  { label: "Our Reviews", href: "/reviews" },
-  { label: "Blog & Tips", href: "/blog" },
-  { label: "Careers", href: "/careers" },
-  { label: "Financing Options", href: "/financing" },
-  { label: "Commercial Services", href: "/commercial" },
-  { label: "Residential Services", href: "/residential" },
-  { label: "Emergency Service", href: "/emergency" },
-  { label: "FAQ", href: "/faq" },
-  { label: "Contact Us", href: "/contact" },
+  { label: "About Us", href: "/about/" },
+  { label: "Our Reviews", href: "/reviews/" },
+  { label: "Careers", href: "/careers/" },
+  { label: "Financing Options", href: "/financing/" },
+  { label: "Commercial Services", href: "/commercial/" },
+  { label: "Residential Services", href: "/residential/" },
+  { label: "Emergency Service", href: "/emergency/" },
+  { label: "FAQ", href: "/faq/" },
+  { label: "Contact Us", href: "/contact/" },
 ];
 
 const socialLinks = [
@@ -97,54 +97,15 @@ const socialLinks = [
 ];
 
 // ─── Organization Schema ──────────────────────────────────────────
+// Centralized in src/lib/schema.ts. No logo/image (the referenced files did
+// not exist, a 404 risk), no address (the business has no public storefront,
+// see decision log 2026-07-02), no aggregateRating (not backed by real,
+// auditable reviews, see the same decision log).
 
 function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "PestControlService",
-    name: siteConfig.fullName,
-    url: siteConfig.url,
-    logo: `${siteConfig.url}/logo.png`,
-    image: `${siteConfig.url}/og-image.jpg`,
-    telephone: siteConfig.phone,
-    email: siteConfig.email,
-    description: siteConfig.description,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: siteConfig.address.street,
-      addressLocality: siteConfig.address.city,
-      addressRegion: siteConfig.address.state,
-      postalCode: siteConfig.address.zip,
-      addressCountry: siteConfig.address.country,
-    },
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "06:00",
-        closes: "22:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Saturday", "Sunday"],
-        opens: "07:00",
-        closes: "21:00",
-      },
-    ],
-    sameAs: Object.values(siteConfig.social),
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: siteConfig.stats.rating,
-      reviewCount: "12400",
-      bestRating: "5",
-      worstRating: "1",
-    },
-    areaServed: {
-      "@type": "Country",
-      name: "United States",
-    },
-    priceRange: "$$",
-    hasMap: "https://maps.google.com/?q=PestRemovalUSA",
+    "@graph": [organizationSchema(), websiteSchema()],
   };
 
   return (
@@ -283,13 +244,10 @@ export function Footer() {
                 <Mail size={14} className="text-[var(--color-red)] shrink-0" aria-hidden="true" />
                 {siteConfig.email}
               </a>
-              <address className="not-italic flex items-start gap-2 text-sm text-white/65">
+              <div className="flex items-start gap-2 text-sm text-white/65">
                 <MapPin size={14} className="text-[var(--color-red)] shrink-0 mt-0.5" aria-hidden="true" />
-                <span>
-                  {siteConfig.address.street},<br />
-                  {siteConfig.address.city}, {siteConfig.address.state} {siteConfig.address.zip}
-                </span>
-              </address>
+                <span>Nationwide service, no walk-in office</span>
+              </div>
             </div>
           </div>
         </div>
@@ -321,12 +279,6 @@ export function Footer() {
             © {year} {siteConfig.fullName}. All rights reserved. Licensed Pest Control &amp; Wildlife Removal.
           </p>
           <nav aria-label="Legal links" className="flex items-center gap-4">
-            <Link href="/privacy-policy" className="hover:text-white/70 transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="/terms-of-service" className="hover:text-white/70 transition-colors">
-              Terms of Service
-            </Link>
             <Link href="/sitemap.xml" className="hover:text-white/70 transition-colors">
               Sitemap
             </Link>

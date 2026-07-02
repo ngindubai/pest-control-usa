@@ -141,7 +141,7 @@ export default function ServicesPage() {
                   return (
                     <Link
                       key={service.slug}
-                      href={`/services/${service.slug}`}
+                      href={`/services/${service.slug}/`}
                       className={`group bg-white rounded-[var(--radius-card)] p-6 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-cta)] transition-all border-t-4 ${cfg.color} flex flex-col`}
                     >
                       {/* Emoji + Urgency */}

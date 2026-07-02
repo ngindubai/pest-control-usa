@@ -181,28 +181,12 @@ export interface Review {
 }
 
 // ─── Schema / SEO Types ───────────────────────────────────────────
+// Used by src/lib/schema.ts. The business is modeled as a nationwide
+// service-area Organization (no single street address), so there is no
+// SchemaAddress type here by design.
 export interface BreadcrumbItem {
   name: string;
   href: string;
-}
-
-export interface SchemaOrganization {
-  name: string;
-  url: string;
-  logo: string;
-  telephone: string;
-  email: string;
-  address: SchemaAddress;
-  sameAs: string[];
-  areaServed: string;
-}
-
-export interface SchemaAddress {
-  streetAddress: string;
-  addressLocality: string;
-  addressRegion: string;
-  postalCode: string;
-  addressCountry: string;
 }
 
 // ─── Form Types ───────────────────────────────────────────────────

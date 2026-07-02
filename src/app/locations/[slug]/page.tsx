@@ -15,6 +15,12 @@ import { locationStates, getStateBySlug } from "@/data/locations";
 import { getCitiesByState } from "@/data/cities";
 import { services } from "@/data/services";
 import { siteConfig } from "@/config/site";
+import {
+  areaOrganizationSchema,
+  serviceSchema,
+  faqPageSchema,
+  breadcrumbSchema,
+} from "@/lib/schema";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -110,6 +116,27 @@ export default async function LocationPage({ params }: Props) {
   // a hardcoded list of names as non-clickable divs).
   const stateCities = getCitiesByState(state.slug);
 
+  const url = `https://pestremovalusa.com/locations/${slug}/`;
+  const areaServed = { "@type": "State", name: state.name };
+  const stateFaqs = [
+    {
+      question: `Do you service all areas of ${state.name}?`,
+      answer: `Yes. We serve all major cities and surrounding areas across ${state.name}, including ${state.cities.join(", ")}. If you're outside a major metro, call us, we can typically dispatch a technician within 24 to 48 hours.`,
+    },
+    {
+      question: `How quickly can you respond in ${state.name}?`,
+      answer: `Same-day service is available in most ${state.name} metro areas. For non-emergency situations, we typically schedule within 24 hours. For pest emergencies (stinging insects, wildlife, severe infestations), call our 24/7 line for immediate dispatch.`,
+    },
+    {
+      question: `Are your ${state.name} technicians licensed?`,
+      answer: `Yes. Every technician operating in ${state.name} holds a current ${state.abbr} state pesticide applicator license and carries full liability insurance. We verify licensing and conduct background checks on all field staff.`,
+    },
+    {
+      question: `What are the most common pest problems in ${state.name}?`,
+      answer: `In ${state.name}, the most frequently treated pests are ${state.topPests.join(", ")}. ${state.pestFact}`,
+    },
+  ];
+
   return (
     <>
       <script
@@ -117,15 +144,24 @@ export default async function LocationPage({ params }: Props) {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            name: "PestRemovalUSA",
-            description: `Professional pest control services in ${state.name}`,
-            areaServed: {
-              "@type": "State",
-              name: state.name,
-            },
-            telephone: siteConfig.phone,
-            url: `https://pestremovalusa.com/locations/${slug}/`,
+            "@graph": [
+              areaOrganizationSchema({
+                url,
+                description: `Professional pest control services in ${state.name}`,
+                areaServed,
+              }),
+              serviceSchema({
+                name: "Pest Control",
+                description: `Professional pest control services in ${state.name}`,
+                areaServed,
+              }),
+              faqPageSchema(stateFaqs),
+              breadcrumbSchema([
+                { name: "Home", href: "/" },
+                { name: "Service Areas", href: "/locations/" },
+                { name: state.name, href: url.replace("https://pestremovalusa.com", "") },
+              ]),
+            ],
           }),
         }}
       />
@@ -292,7 +328,7 @@ export default async function LocationPage({ params }: Props) {
             {showcasedServices.map((service) => (
               <Link
                 key={service.slug}
-                href={`/services/${service.slug}`}
+                href={`/services/${service.slug}/`}
                 className="group bg-white rounded-[var(--radius-card)] p-5 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-cta)] transition-all"
               >
                 <div className="text-3xl mb-3">{service.emoji}</div>
@@ -489,34 +525,17 @@ export default async function LocationPage({ params }: Props) {
             Pest Control in {state.name}, FAQs
           </h2>
           <div className="space-y-4">
-            {[
-              {
-                q: `Do you service all areas of ${state.name}?`,
-                a: `Yes. We serve all major cities and surrounding areas across ${state.name}, including ${state.cities.join(", ")}. If you're outside a major metro, call us, we can typically dispatch a technician within 24 to 48 hours.`,
-              },
-              {
-                q: `How quickly can you respond in ${state.name}?`,
-                a: `Same-day service is available in most ${state.name} metro areas. For non-emergency situations, we typically schedule within 24 hours. For pest emergencies (stinging insects, wildlife, severe infestations), call our 24/7 line for immediate dispatch.`,
-              },
-              {
-                q: `Are your ${state.name} technicians licensed?`,
-                a: `Yes. Every technician operating in ${state.name} holds a current ${state.abbr} state pesticide applicator license and carries full liability insurance. We verify licensing and conduct background checks on all field staff.`,
-              },
-              {
-                q: `What are the most common pest problems in ${state.name}?`,
-                a: `In ${state.name}, the most frequently treated pests are ${state.topPests.join(", ")}. ${state.pestFact}`,
-              },
-            ].map((faq, i) => (
+            {stateFaqs.map((faq, i) => (
               <details
                 key={i}
                 className="border border-gray-200 rounded-[var(--radius-card)] group"
               >
                 <summary className="flex items-center justify-between px-6 py-4 cursor-pointer font-semibold text-[var(--color-navy)] hover:bg-[var(--color-muted)] transition-colors list-none">
-                  {faq.q}
+                  {faq.question}
                   <ChevronRight className="w-5 h-5 text-[var(--color-red)] group-open:rotate-90 transition-transform flex-shrink-0 ml-4" />
                 </summary>
                 <div className="px-6 pb-5 pt-2 border-t border-gray-100">
-                  <p className="text-gray-600 leading-relaxed">{faq.a}</p>
+                  <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
                 </div>
               </details>
             ))}

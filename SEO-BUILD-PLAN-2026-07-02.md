@@ -91,55 +91,48 @@ Two steps are marked **`[DECISION: GARETH]`**. Do not guess these. Ask Gareth th
 
 ---
 
-## Block 2: Trust and schema
+## Block 2: Trust and schema `[COMPLETE 2026-07-02, SONNET]`
 
-**Goal:** remove the fabricated-rating risk and make structured data clean and entity-linked. Mostly Sonnet, with one Gareth decision and a small refactor.
+**Goal:** remove the fabricated-rating risk and make structured data clean and entity-linked. Mostly Sonnet, with two Gareth decisions.
 
-### Step 2.1 Resolve the fabricated review ratings  `[DECISION: GARETH]`
-- **Question for Gareth:** "Are the 4.9 star rating and the ~12,400 review count backed by real, auditable reviews we can produce on request, yes or no?"
-- **If NO (safe default):** remove all `aggregateRating` and hardcoded `Review` schema. Keep testimonials as plain page content with no rating markup.
-  - Files: `src/components/layout/Footer.tsx:135`, `src/app/reviews/page.tsx:161`, and stop feeding `siteConfig.stats.rating` / `reviewCount` into any schema (`src/config/site.ts:35`).
-- **If YES:** wire all three locations to one source of truth so the numbers match exactly, and only mark up reviews that genuinely exist.
-- **Acceptance:** no schema node asserts a rating that is not backed by real reviews; the three previously-conflicting counts (12,400+, 12400, 12847) no longer disagree.
+**Decisions taken this session (Gareth):** fabricated ratings = remove all rating markup, no real auditable reviews; NAP/offers = model as a service-area Organization, drop the placeholder address and any empty price fields; word-count guard severity = block the build once wired in (not report-only); word-count guard timing = build and validate the script now, wire it into `prebuild` when Block 4 (new, see below) starts fixing the backlog.
 
-### Step 2.2 Centralize schema in one helper  `[SONNET]`
-- **New file:** `src/lib/schema.ts`
-- Move the hand-rolled JSON-LD from the city page, state page, service page, reviews page, and footer into small builder functions here. This is the enabling refactor for 2.3, 2.4, 2.5 and prevents future drift.
-- **Acceptance:** each page imports its schema from `schema.ts`; no inline `@graph` literals remain in the page files.
+### Step 2.1 Resolve the fabricated review ratings  `[RESOLVED]`
+- Removed `aggregateRating` and the `review` array from `Footer.tsx` and `reviews/page.tsx`. Both now emit `organizationSchema()` (a plain reference to the business, no rating claim) instead. Testimonials remain as plain visible page content only, not schema. `siteConfig.stats.rating`/`reviewCount` no longer feed any schema anywhere (confirmed by grep; they still drive a few purely visual trust badges, e.g. `TrustBadges.tsx`, `HomepageHero.tsx`, `Header.tsx`, which is a separate marketing-copy question out of this step's scope, not touched).
 
-### Step 2.3 Add Organization and WebSite entities with stable @id  `[SONNET]`
-- In `schema.ts`, define one canonical `Organization` node and one `WebSite` node, each with a stable `@id` (for example `${url}/#organization`, `${url}/#website`).
-- Every `LocalBusiness`, `Service.provider`, and city business node references the organization by `@id` instead of repeating a bare `name`.
-- **Acceptance:** validate a city page in a schema validator; all business nodes reconcile to one entity by `@id`; one `Organization` and one `WebSite` present.
+### Step 2.2 Centralize schema in one helper  `[RESOLVED]`
+- New file `src/lib/schema.ts`: `organizationSchema()`, `websiteSchema()`, `areaOrganizationSchema()` (page-scoped, reuses the org `@id`), `serviceSchema()`, `breadcrumbSchema()`, `faqPageSchema()`.
+- Migrated onto the helper: `Footer.tsx`, `reviews/page.tsx`, `locations/[slug]/[city]/page.tsx`, `locations/[slug]/page.tsx`, `services/[slug]/page.tsx`, and (extending the same cleanup for consistency, not separately asked for but the same class of fix) `faq/page.tsx` and `HomepageFAQ.tsx`. No inline hand-rolled `@graph`/`@type` literals remain in any page file; confirmed by grep for `"@context"`, only `schema.ts`'s 7 call sites remain.
 
-### Step 2.4 Add BreadcrumbList schema  `[SONNET]`
-- **Files:** city and state schema builders in `schema.ts`, mirroring the UI trail in `parts.tsx:10` (Home > Service Areas > State > City).
-- **Acceptance:** city and state pages emit a valid `BreadcrumbList` matching the visible breadcrumb.
+### Step 2.3 Add Organization and WebSite entities with stable @id  `[RESOLVED]`
+- `ORGANIZATION_ID = ${siteConfig.url}/#organization`, `WEBSITE_ID = ${siteConfig.url}/#website`, both stable. Every city, state, and service page's business mention reuses `ORGANIZATION_ID` (via `areaOrganizationSchema()`'s `@id` or `serviceSchema()`'s `provider: {"@id": ...}`) instead of repeating a bare name. Verified in built output: `#organization` resolves identically on the footer (every page), a city page, and the reviews page.
 
-### Step 2.5 Fix or remove broken schema assets and add OG image  `[SONNET / needs art]`
-- Remove the `logo.png` and `og-image.jpg` references from schema **until** real assets exist (`Footer.tsx:107`). If Gareth can supply a logo and a default share image, add them to `public/` and set a default `openGraph.images` in `src/app/layout.tsx`.
-- **Acceptance:** no schema field points at a 404; if assets supplied, share preview renders an image.
+### Step 2.4 Add BreadcrumbList schema  `[RESOLVED]`
+- Added to city, state, service, and reviews pages via `breadcrumbSchema()`, matching each page's visible breadcrumb trail. Verified in built HTML (El Cajon, CA: Home > Service Areas > California > El Cajon, 4 `ListItem`s).
 
-### Step 2.6 Fix NAP and offers  `[DECISION: GARETH for the facts, then SONNET]`
-- **Question for Gareth:** "Is there a real single business address, and are there real starting prices per service? If not, we model the business as a service-area organization with no single storefront and drop the price fields."
-- Split `areaServed` city and region so a City node is not `"Fairbanks, AK"` (`[city]/page.tsx:50`).
-- Give the service `Offer` a real `priceRange` or remove the price fields (`services/[slug]/page.tsx:76`).
-- **Acceptance:** no placeholder address asserted as a real storefront; offers are either validly priced or carry no price claim.
+### Step 2.5 Fix or remove broken schema assets  `[RESOLVED, art still needed]`
+- Removed the `logo.png`/`og-image.jpg` references from `Footer.tsx`'s schema (both 404s; `public/` has no such files). No default `openGraph.images` added, since adding one without a real image would just create a new 404. **Still needed from Gareth:** a real logo and a default share image, then wire them into `organizationSchema()` and root `layout.tsx` metadata. Tracked as a standing gap, not re-added as a fake placeholder.
 
-### Step 2.7 Remove dead footer links  `[SONNET]`
-- Remove `/blog` and any other footer links with no route (`Footer.tsx:81`). If Gareth wants the blog, that is a separate future block.
-- **Acceptance:** no footer link 404s; verify by walking footer hrefs against generated routes.
+### Step 2.6 Fix NAP and offers  `[RESOLVED]`
+- Decision: service-area Organization, no address. Removed `siteConfig.address` entirely (the placeholder "1 Pest Control Plaza, Dallas" street address), including from the **visible** footer (not just schema, since the same fake address was printed to every site visitor, not only asserted in structured data). Replaced with "Nationwide service, no walk-in office."
+- Split city `areaServed` into `{"@type":"City", name, containedInPlace:{"@type":"State", name}}` instead of the bundled `"Fairbanks, AK"` string (audit finding M7).
+- Service `Offer` now carries a real `priceRange` (e.g. `"$149 to $299"`, the site's own published pricing data) via schema.org's `priceRange` Text field, instead of a vague, unpriced `description: "Starting from..."`.
 
-### Step 2.8 Low-priority hygiene batch  `[SONNET]`
-- L1: remove dead `images.formats` from `next.config.ts` (no effect under `unoptimized`).
-- L3: replace the en dash in `siteConfig.hours` with "to" (dash ban).
-- L4: wire `SchemaOrganization` / `SchemaAddress` types into `schema.ts` or delete them.
-- L5: remove the unused `Metadata` imports in `faq/page.tsx`, `contact/page.tsx`, `careers/page.tsx`.
-- L6: reconcile the city count (grep shows ~2,151; docs say 2,101) and correct `build_state.json`, `CLAUDE.md`, `MEMORY.md`.
+### Step 2.7 Remove dead links  `[RESOLVED, wider than scoped]`
+- Removed `/blog` (as planned). Also found and fixed while verifying every footer href against real routes (the step's own acceptance criterion): 3 dead `/services/` links (`rodent-control`, `bed-bug-removal`, `commercial-pest-control` did not match any real service slug; repointed to `mice-control`, `bed-bug-treatment`, and the static `/commercial/` page respectively), and 2 legal links with no page at all (`/privacy-policy`, `/terms-of-service`), removed using the same precedent already set for `/blog`. **New standing item:** whether to build real privacy policy and terms of service pages is a legal-content decision, not folded into this SEO fix; flagged, not answered.
 
-### Step 2.9 Add a build-time word-count guard  `[SONNET]`
-- Add a check (a small script run in `prebuild`, or a test) that computes body word count per city record and fails the build if a T1 is under 800, T2 under 500, or T3 under 350 words.
-- **Acceptance:** the guard runs on build and reports any under-floor records. If any fail, list them for a later content pass; do not silently pass.
+### Step 2.8 Low-priority hygiene batch  `[RESOLVED]`
+- L1: removed dead `images.formats` from `next.config.ts`.
+- L3: done via N2 (repo-wide dash sweep already covered `siteConfig.hours`).
+- L4: deleted `SchemaOrganization`/`SchemaAddress` types (they modeled a single-address business, which the Step 2.6 decision rejected); `BreadcrumbItem` kept and wired into `schema.ts`.
+- L5: only `faq/page.tsx` actually had the dead `Metadata` import (`contact/page.tsx` and `careers/page.tsx` did not); fixed.
+- L6: `build_state.json` was already accurate; `CLAUDE.md`'s CURRENT STATUS section was stale (still said 2,101 cities from before chunk 88-89) and has been corrected to 2,151 cities, 51 state hubs, current template rotation, and today's date.
+
+### Step 2.9 Add a build-time word-count guard  `[SCRIPT BUILT, NOT YET WIRED IN, by design]`
+- New `scripts/check-word-counts.mjs`: reads each `src/data/cities/*.ts` file as text, extracts every city record as a plain object literal (bracket-matching plus a targeted strip of TypeScript `"..." as const` assertions), and checks intro + sections body word count against the record's tier floor. Also re-checks for the three Block 0 corruption patterns (mid-array `] = [`, lone-comma holes, stray `answer` field, numeric `population`) as a standing regression guard. Runnable on demand via `npm run check:words`.
+- **Finding:** running it for the first time found **1,068 of 2,151 city records already below their tier floor** (pre-existing debt, not introduced this session), including several T1 pages (Seattle: 212 of 800 words; Virginia Beach: 252 of 800; Milwaukee: 266 of 800).
+- Decision (Gareth): once fixed, the guard should be blocking (fail `npm run build`), not report-only. But wiring a blocking guard into `prebuild` today, with 1,068 unresolved violations, would fail every build immediately, including this Block 2 commit's own legitimate fixes. Decision (Gareth): keep the script built and validated now; add the actual `prebuild` wiring when Block 4 (below) starts closing the backlog toward zero.
+- This finding is large enough that it is not just a guard-script footnote. See the new Block 4.
 
 ### Block 2 close-out
 - `npm run build`, confirm compile and that the word-count guard passes or reports.
@@ -175,13 +168,36 @@ Two steps are marked **`[DECISION: GARETH]`**. Do not guess these. Ask Gareth th
 
 ---
 
+## Block 4: Content depth remediation `[NEW, added 2026-07-02]` `[OPUS]` design, `[SONNET]` bulk
+
+**Goal:** clear the 1,068-record word-count backlog found by Step 2.9's guard (`npm run check:words`), so the guard can go from advisory to blocking without breaking every future build. This is real prose generation touching pest facts (YMYL), so it follows the same Opus-designs / Sonnet-executes-against-a-rubric-and-gate split as Block 3, not a blind bulk pass.
+
+### Step 4.1 Opus scopes and prioritizes the backlog  `[OPUS]`
+- Run `npm run check:words` for the current, authoritative list (it will drift as other work touches city data; do not reuse a stale count).
+- Prioritize T1 first (highest traffic value, and the worst offenders: Seattle 212/800, Virginia Beach 252/800, Richmond 264/800, Milwaukee 266/800, Madison 245/800, Norfolk 246/800), then T2, then T3.
+- For each thin record, decide the fix per record: expand `sections[]` with genuine additional local detail (preferred, matches The Geographer's uniqueness model), or, only if a record is close to floor, expand `intro`. Do not pad with generic filler; every added sentence must carry a real, place-specific fact, consistent with the anti-thin-content rules in `CLAUDE.md`.
+- Produce a rubric and 10 to 15 hand-written model expansions across different states and tiers for Sonnet to match the standard of.
+
+### Step 4.2 Sonnet executes the bulk against the rubric  `[SONNET, gated]`
+- Expand records in state or tier batches, not all 1,068 at once, so each batch can be checked before the next.
+- Every batch passes: `npm run check:words` (zero violations in that batch), the Auditor gate (uniqueness, banned vocabulary, dash ban, US English, factual accuracy against `pestProfile`), and a full `npm run build`.
+- **Acceptance per batch:** `check:words` shows zero remaining violations for the records touched in that batch.
+
+### Step 4.3 Wire the guard into `prebuild` once the backlog is at zero  `[SONNET]`
+- Add `"prebuild": "node scripts/check-word-counts.mjs"` to `package.json` only once `npm run check:words` exits 0 against the full corpus. From that point, any future thin record fails the build instead of shipping silently.
+
+### Block 4 close-out
+- Build, update docs, commit and push to `main` per batch. Post changed live URLs. Once complete, update this plan's Step 2.9 entry to note the guard is now blocking.
+
+---
+
 ## Explicitly NOT in scope (per the 29 June brief)
 
 Do not spend effort on these; the brief confirms they do not help on Google's current system:
-- No `llms.txt` file (Google does not read it for AI ranking).
 - No AI-specific schema beyond standard structured data.
 - No AI-specific content chunking.
 - No paid brand mentions on low-quality domains (flagged black-hat, low effectiveness).
+- (`llms.txt` was originally listed here too, since Google does not read it for ranking. Overridden per standing instruction: other AI systems do read it and it drives real traffic. See Step 1.6, already done.)
 
 ## Watch items (monitor, do not build yet)
 - GSC page indexing report has been stale since 11 June; do not use it to judge indexation of the newly discoverable city pages for the next few weeks. Use URL Inspection for spot checks.
@@ -192,14 +208,19 @@ Do not spend effort on these; the brief confirms they do not help on Google's cu
 
 ## Model summary (quick reference)
 
-| Block | Steps | Model |
-|---|---|---|
-| 1 Discoverability | 1.1 to 1.5 | Sonnet |
-| 2 Trust and schema | 2.1 decision, then 2.2 to 2.9 | Sonnet (2.1 and 2.6 need a Gareth fact first) |
-| 3 Answer-first content | 3.1, 3.2 rubric and rotation | **Opus** |
-| 3 Answer-first content | 3.3, 3.4 bulk and gate | Sonnet, only against the Opus rubric |
+| Block | Steps | Model | Status |
+|---|---|---|---|
+| 0 Build restoration | 0.1 to 0.3 | Sonnet (done on Opus) | Done 2026-07-02 |
+| 1 Discoverability | 1.1 to 1.6 | Sonnet | Done 2026-07-02 |
+| N1 Missing state hubs | 8 hub records | **Opus** (YMYL content) | Done 2026-07-02 |
+| N2 Dash sweep | repo-wide | Sonnet | Done 2026-07-02 |
+| 2 Trust and schema | 2.1 to 2.9 | Sonnet | Done 2026-07-02 (2.9 guard built, wiring deferred to Block 4) |
+| 3 Answer-first content | 3.1, 3.2 rubric and rotation | **Opus** | Not started |
+| 3 Answer-first content | 3.3, 3.4 bulk and gate | Sonnet, only against the Opus rubric | Not started |
+| 4 Content depth remediation | 4.1 rubric and priority | **Opus** | Not started |
+| 4 Content depth remediation | 4.2, 4.3 bulk and guard wiring | Sonnet, only against the Opus rubric | Not started |
 
-**Order of impact:** Block 1 first (makes the money pages findable), then Block 2 (removes the spam-policy risk), then Block 3 (wins AI Overview citations). Blocks 1 and 2 are safe for a Sonnet-only session. Block 3 needs Opus before Sonnet touches the 2,151 pages.
+**Order of impact:** Block 1 first (makes the money pages findable), done. Block 2 (removes the spam-policy risk), done. Blocks 3 and 4 remain: both win AI Overview citations and content quality, and both need Opus to design the rubric before Sonnet touches thousands of pages. They can run in either order or interleaved by state, since they touch different fields (Block 3: intros and headings; Block 4: body sections and word count) on overlapping records.
 
 ---
 
@@ -221,16 +242,55 @@ Do not spend effort on these; the brief confirms they do not help on Google's cu
 
 Newest first. Written so entries can be lifted into routine build prompts. Format: finding ID, files and lines, what changed, why.
 
+### Session 2026-07-02 (Sonnet): Block 2 trust and schema, plus a link/hygiene sweep
+
+**Trailing-slash gap closed (addendum to Step 1.5).** Step 1.5 only normalized absolute canonical/OG URLs; it missed relative internal `<Link href>` navigation built from template literals. Found and fixed 6: `parts.tsx` (breadcrumb state link, pest service link), `services/[slug]/page.tsx` (related service link), `services/page.tsx` (service card link), `locations/[slug]/page.tsx` (service link), `locations/page.tsx` (state card link). All now end with `/` to match `trailingSlash: true`.
+
+**2.1 Removed fabricated review-rating schema.**
+- `src/components/layout/Footer.tsx`: removed `aggregateRating` from the sitewide `PestControlService` schema (rendered on every page).
+- `src/app/reviews/page.tsx`: removed `aggregateRating` and the `review` array (5 `Review` nodes with `reviewRating`) from the page schema.
+- Why: neither was backed by real, auditable reviews (decision: Gareth). A self-served rating asserted in structured data with no real reviews behind it is the exact pattern Google's review-spam guidance restricts, and the three prior copies disagreed (12,400+ / 12400 / 12847).
+
+**2.2, 2.3, 2.4 New `src/lib/schema.ts`, one Organization identity, BreadcrumbList everywhere.**
+- Added `organizationSchema()`, `websiteSchema()`, `areaOrganizationSchema()`, `serviceSchema()`, `breadcrumbSchema()`, `faqPageSchema()`.
+- Migrated `Footer.tsx`, `reviews/page.tsx`, `locations/[slug]/[city]/page.tsx`, `locations/[slug]/page.tsx`, `services/[slug]/page.tsx`, `faq/page.tsx`, `HomepageFAQ.tsx` onto it. City/state/service business mentions now reuse one stable `@id` (`https://pestremovalusa.com/#organization`) instead of each page repeating an unlinked bare name.
+- Added `BreadcrumbList` schema to city, state, service, and reviews pages, matching each page's visible breadcrumb trail (previously breadcrumbs existed only in the UI, with no structured data).
+- Added `FAQPage` schema to the state page for the first time: it had a real, visible 4-question FAQ section with no structured data at all. The FAQ array (previously duplicated inline in the JSX) was extracted to a `stateFaqs` constant used by both the schema and the render, so they cannot drift apart.
+
+**2.5 Removed broken schema asset references.**
+- `Footer.tsx`: removed `logo` and `image` fields pointing at `/logo.png` and `/og-image.jpg`, neither of which exists in `public/` (both 404). No default OG image was added in their place, since a fake reference is the exact problem being fixed. Still needs real brand art from Gareth.
+
+**2.6 Modeled the business as a service-area Organization; fixed areaServed and offers.**
+- `src/config/site.ts`: deleted the `address` field entirely (the placeholder "1 Pest Control Plaza, Dallas, TX 75201").
+- `Footer.tsx`: removed `address` from the schema, and replaced the **visible** `<address>` block (shown to every site visitor, not just search engines) with "Nationwide service, no walk-in office." This went beyond the plan's literal schema-only scope because the same fake address was displayed as real page content, not only asserted in structured data; leaving it visible while calling it fake in schema would have been inconsistent.
+- `locations/[slug]/[city]/page.tsx`: `areaServed` now splits `{"@type":"City", name, containedInPlace:{"@type":"State", name}}` instead of bundling `"Fairbanks, AK"` as one City name string (audit finding M7).
+- `services/[slug]/page.tsx` / `src/lib/schema.ts`: the `Offer` now carries a real `priceRange` (the site's own published per-service pricing, e.g. `"$149 to $299"`) via schema.org's `priceRange` field, instead of an unpriced, vague `"Starting from..."` description.
+
+**2.7 Removed dead links, wider than the original `/blog` scope.**
+- `Footer.tsx`: removed `/blog` (as planned), plus 3 more dead `/services/` links found while verifying every footer href against real routes (the step's own acceptance criterion): `rodent-control` and `bed-bug-removal` didn't match any real service slug (repointed to the real `mice-control` and `bed-bug-treatment` pages), and `commercial-pest-control` isn't a service slug at all (repointed to the real static `/commercial/` page). Also removed `/privacy-policy` and `/terms-of-service`, which had no route at all, using the same remove-rather-than-leave-broken precedent the plan already set for `/blog`. Building real legal pages is a separate, unanswered decision, not folded into this fix.
+
+**2.8 Hygiene batch.**
+- `next.config.ts`: removed dead `images.formats` (no effect under `images.unoptimized: true`).
+- `src/types/index.ts`: deleted `SchemaOrganization`/`SchemaAddress` (modeled a single-address business, which 2.6 rejected); kept and wired in `BreadcrumbItem`.
+- `src/app/faq/page.tsx`: removed the unused `import type { Metadata }` (the other two named files, `contact/page.tsx` and `careers/page.tsx`, did not actually have this dead import).
+- `CLAUDE.md`: CURRENT STATUS section was stale (2,101 cities, pre chunk-88-89 figures); corrected to 2,151 cities, 51 state hubs, current template rotation (A=442, B=429, C=427, D=415, E=438), today's date.
+
+**2.9 Built and validated the word-count guard; did not wire it into the build yet.**
+- New `scripts/check-word-counts.mjs` and `npm run check:words`. Extracts every city record from the raw `.ts` source (bracket-matching plus a targeted strip of `"..." as const` TypeScript assertions) without needing to resolve TypeScript module imports, computes intro-plus-sections body word count, and checks it against the record's T1/T2/T3 floor. Also re-checks for the three Block 0 corruption patterns as a standing regression guard.
+- Found 1,068 of 2,151 records already below floor, pre-existing debt. Decision (Gareth): the guard should eventually block the build, but wiring that in today would fail this commit's own unrelated fixes too, so the script ships now and the `prebuild` wiring is deferred to the new Block 4. See Block 4 above and Step 2.9's entry for the full reasoning.
+
+**Verification for this session:** `tsc --noEmit` clean, `npm run build` exit 0 (2,241 pages), `npm run lint` shows only pre-existing warnings/errors in files not touched beyond dash content (confirmed via `git diff` against the pre-N2 commit), spot-checked the built HTML for: zero `aggregateRating` anywhere, zero broken asset references, one consistent `#organization` `@id` across footer/city/reviews pages, correct split `areaServed` on a city page, a valid 4-item `BreadcrumbList`, the fake address gone from the visible footer, and the corrected `priceRange` on a service page.
+
 ### Session 2026-07-02 (Sonnet): N2 dash sweep + branch topology fix
 
 **Branch topology note (no code change, recorded for the record).** At the start of this Sonnet session, `claude/pest-control-seo-audit-ribgjd` was one commit behind `main`: the prior N1 commit had landed only on `main` because a `git checkout main` earlier in that turn was never reverted to the feature branch before the N1 commit was made. This session's working tree therefore started without N1's 8 state hubs. Found via a locations.ts content check that returned 0 matches for the new state slugs after a git-history discrepancy showed up mid-task. Fixed by stashing the in-progress N2 edits, fast-forwarding the feature branch onto `main` (a strict ancestor relationship, safe fast-forward, confirmed via `git merge-base --is-ancestor`), then restoring the stash. No conflicts; verified with a full rebuild before proceeding.
 
 **N2 Repo-wide em dash and en dash sweep.**
 - Ran a scripted sweep across all `src/**/*.{ts,tsx,css}` (33 files): 251 em dash occurrences and 88 en dash occurrences replaced.
-- 12 page `<title>`/`openGraph.title` strings using a `"PestRemovalUSA — Subtitle"` pattern (`services/[slug]/page.tsx`, `services/page.tsx`, `locations/page.tsx`, `emergency/page.tsx`, `reviews/page.tsx` x2, `commercial/page.tsx`, `careers/layout.tsx`, `contact/layout.tsx`, `financing/page.tsx`, `faq/layout.tsx`, `residential/page.tsx`) changed to a colon separator, e.g. `"PestRemovalUSA: Licensed Technicians Nationwide"`.
+- 12 page `<title>`/`openGraph.title` strings that joined the brand and a subtitle with an em dash (`services/[slug]/page.tsx`, `services/page.tsx`, `locations/page.tsx`, `emergency/page.tsx`, `reviews/page.tsx` x2, `commercial/page.tsx`, `careers/layout.tsx`, `contact/layout.tsx`, `financing/page.tsx`, `faq/layout.tsx`, `residential/page.tsx`) changed to a colon separator, e.g. `"PestRemovalUSA: Licensed Technicians Nationwide"`.
 - All other em dashes (prose asides, aria-labels, list items, CSS comments in `globals.css`) changed to a comma.
-- All en dashes (numeric and time ranges, e.g. `"$150–$450"`, `"30–60 minutes"`, `"6:00 AM – 10:00 PM"`) changed to a spelled-out `"to"`, e.g. `"$150 to $450"`.
-- `src/data/services.ts`: every `priceRange` field changed format from `"$149 – $299"` to `"$149 to $299"`. This is parsed by code, not just displayed, so `src/app/services/[slug]/page.tsx` (the `Offer.description` schema field) was updated from `service.priceRange.split("–")[0].trim()` to `.split(" to ")[0].trim()` to match.
+- All en dashes in numeric and time ranges (dollar amounts, minute ranges, clock times) changed to a spelled-out `"to"`, e.g. `"$150 to $450"`.
+- `src/data/services.ts`: every `priceRange` field changed from an en-dash-separated range to a `"to"`-separated one, e.g. `"$149 to $299"`. This is parsed by code, not just displayed, so `src/app/services/[slug]/page.tsx` (the `Offer.description` schema field) was updated to split on `" to "` instead of the old en dash character, to match.
 - Two JSX lines had the dash as the first non-whitespace character of its own line (a sentence continuing from the previous line via a plain multi-line text run or a `{" "}` spacer): `src/app/about/page.tsx` (moved the comma to the end of the prior line instead) and `src/app/services/[slug]/page.tsx` (restructured "same-day re-service" with "with" instead of a leading dash, since a `{" "}` spacer preceded it and a leading comma would have rendered with a stray space before it). Both verified in the built HTML output.
 - Why: `CLAUDE.md`'s dash ban is absolute ("never use em dashes or en dashes anywhere, ever... not anywhere"). Decision (Gareth): dedicated sweep now rather than folding into Block 2 or deferring.
 - Verified: `tsc --noEmit` clean, `npm run build` exits 0 (2,241 pages), zero em or en dashes remain under `src/`, spot-checked rendered HTML for the title-colon conversion, the priceRange "to" conversion, and both hand-fixed leading-dash lines.

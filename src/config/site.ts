@@ -10,13 +10,6 @@ export const siteConfig = {
   tagline: "America's Most Trusted Pest & Wildlife Removal Service",
   description:
     "Nationwide pest control and wildlife removal. Licensed, insured, and available 24/7. Same-day service for rodents, termites, bed bugs, raccoons, bats, and more.",
-  address: {
-    street: "1 Pest Control Plaza",
-    city: "Dallas",
-    state: "TX",
-    zip: "75201",
-    country: "US",
-  },
   hours: {
     weekdays: "6:00 AM to 10:00 PM",
     weekends: "7:00 AM to 9:00 PM",

@@ -13,6 +13,7 @@ import {
 import { services, getServiceBySlug, getRelatedServices } from "@/data/services";
 import ServiceFAQ from "@/components/sections/ServiceFAQ";
 import { siteConfig } from "@/config/site";
+import { serviceSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -56,9 +57,8 @@ export default async function ServicePage({ params }: Props) {
   const urgency = urgencyConfig[service.urgency];
 
   const schemaFaqs = service.faqs.map((f) => ({
-    "@type": "Question",
-    name: f.q,
-    acceptedAnswer: { "@type": "Answer", text: f.a },
+    question: f.q,
+    answer: f.a,
   }));
 
   return (
@@ -68,15 +68,19 @@ export default async function ServicePage({ params }: Props) {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Service",
-            name: service.name,
-            description: service.heroDesc,
-            provider: { "@type": "LocalBusiness", name: "PestRemovalUSA" },
-            areaServed: { "@type": "Country", name: "United States" },
-            offers: {
-              "@type": "Offer",
-              description: `Starting from ${service.priceRange.split(" to ")[0].trim()}`,
-            },
+            "@graph": [
+              serviceSchema({
+                name: service.name,
+                description: service.heroDesc,
+                areaServed: { "@type": "Country", name: "United States" },
+                priceRange: service.priceRange,
+              }),
+              breadcrumbSchema([
+                { name: "Home", href: "/" },
+                { name: "Services", href: "/services/" },
+                { name: service.name, href: `/services/${slug}/` },
+              ]),
+            ],
           }),
         }}
       />
@@ -86,8 +90,7 @@ export default async function ServicePage({ params }: Props) {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "FAQPage",
-              mainEntity: schemaFaqs,
+              ...faqPageSchema(schemaFaqs),
             }),
           }}
         />
@@ -367,7 +370,7 @@ export default async function ServicePage({ params }: Props) {
               {related.map((rel) => (
                 <Link
                   key={rel.slug}
-                  href={`/services/${rel.slug}`}
+                  href={`/services/${rel.slug}/`}
                   className="group bg-white rounded-[var(--radius-card)] p-5 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-cta)] transition-all"
                 >
                   <div className="text-3xl mb-3">{rel.emoji}</div>

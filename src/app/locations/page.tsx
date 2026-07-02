@@ -157,7 +157,7 @@ export default function LocationsPage() {
                 {region.states.map((state) => (
                   <Link
                     key={state.slug}
-                    href={`/locations/${state.slug}`}
+                    href={`/locations/${state.slug}/`}
                     className="group bg-[var(--color-muted)] hover:bg-[var(--color-navy)] rounded-[var(--radius-card)] p-5 transition-all hover:shadow-[var(--shadow-card)]"
                   >
                     <div className="flex items-center justify-between mb-3">

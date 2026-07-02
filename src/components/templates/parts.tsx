@@ -45,7 +45,7 @@ export function Breadcrumb({ city }: { city: CityLocation }) {
         Service Areas
       </Link>
       <ChevronRight className="w-3 h-3" />
-      <Link href={`/locations/${city.stateSlug}`} className="hover:underline">
+      <Link href={`/locations/${city.stateSlug}/`} className="hover:underline">
         {city.state}
       </Link>
       <ChevronRight className="w-3 h-3" />
@@ -76,7 +76,7 @@ export function ServiceLinks({ city }: { city: CityLocation }) {
       {links.map((p) => (
         <li key={p.serviceSlug}>
           <Link
-            href={`/services/${p.serviceSlug}`}
+            href={`/services/${p.serviceSlug}/`}
             className="inline-block rounded-full border border-[var(--color-navy-100)] bg-white px-3 py-1 text-sm text-[var(--color-navy)] hover:border-[var(--color-navy-light)]"
           >
             {p.name} control

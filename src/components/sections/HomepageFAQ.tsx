@@ -6,6 +6,7 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { siteConfig } from "@/config/site";
+import { faqPageSchema } from "@/lib/schema";
 
 interface FAQItem {
   question: string;
@@ -225,15 +226,7 @@ export function HomepageFAQ() {
               dangerouslySetInnerHTML={{
                 __html: JSON.stringify({
                   "@context": "https://schema.org",
-                  "@type": "FAQPage",
-                  mainEntity: faqs.map((faq) => ({
-                    "@type": "Question",
-                    name: faq.question,
-                    acceptedAnswer: {
-                      "@type": "Answer",
-                      text: faq.answer,
-                    },
-                  })),
+                  ...faqPageSchema(faqs),
                 }),
               }}
             />
