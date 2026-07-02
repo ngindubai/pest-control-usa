@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/check-heading-distribution.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "check:words": "node scripts/check-word-counts.mjs"
+    "check:words": "node scripts/check-word-counts.mjs",
+    "check:headings": "node scripts/check-heading-distribution.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

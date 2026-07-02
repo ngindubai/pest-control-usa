@@ -149,10 +149,11 @@ Two steps are marked **`[DECISION: GARETH]`**. Do not guess these. Ask Gareth th
 - Opus produces: (a) a rubric with three or more distinct opening structures that all front-load the answer, (b) an explicit anti-duplication rule (no shared opening template across pages), (c) a factual-accuracy checklist tied to each city's `pestProfile`, and (d) 15 to 20 hand-written model rewrites across different states and tiers. El Cajon (`california.ts:7236`) is the reference for the target pattern.
 - **Acceptance:** rubric plus sample batch reviewed; sample shows varied openings that each answer the query in sentence one, with no shared template.
 
-### Step 3.2 Opus sets the template heading rotation  `[OPUS]`
-- **Why Opus:** heading rotation must stay inside the anti-penalty engine (five templates, 15 to 25 percent bucket bands, fingerprint audit) and read naturally.
-- For each template's hardcoded H2s (`CityTemplateA.tsx:35` and the equivalents in B, C, D, E), Opus defines two or three natural-language variants and a slug-hash rotation so no single H2 string appears on more than 30 percent of a variant's pages (the project's own rule).
-- **Acceptance:** variant sets defined; a dry-run over all slugs shows no H2 string exceeding the 30 percent bucket threshold.
+### Step 3.2 Opus sets the template heading rotation  `[RESOLVED 2026-07-02, OPUS]`
+- Done. New `src/components/templates/headings.ts` holds a `heading(city, key)` helper and 4 natural-language variants for every hard-coded H2 across all 5 templates (22 heading slots total), chosen by a slug hash salted with the heading key so headings rotate independently and stably. All 5 templates now call `heading(city, ...)` instead of a fixed string. Data-driven headings (`sections[].heading`, FAQ questions) were already unique and are left alone.
+- Also fixed Template B's generic H1 (`"{city} Pest Control You Can Trust"`, which the audit flagged as burying the query) to the keyword-forward `"Trusted Pest Control in {city}, {ST}"`, applied on all 428 B pages.
+- New guard `scripts/check-heading-distribution.mjs` (`npm run check:headings`, and wired into `prebuild` so it blocks the build if it ever regresses) replays the render-time rotation over all 2,151 records and confirms no variant exceeds the 30% per-bucket ceiling. Current worst is 28.7% (`D.whichPests`). This guard passes today, so unlike the word-count guard it is already build-blocking.
+- **Note:** the guard hard-codes 4 variants per key to match `headings.ts`. If a key's variant count ever changes, update `VARIANT_COUNT` handling in the guard too.
 
 ### Step 3.3 Sonnet executes the bulk against the rubric  `[SONNET, gated]`
 - Apply the intro rewrites (3.1) and heading rotation (3.2) across all city records and templates, strictly following the Opus rubric.
@@ -241,6 +242,20 @@ Do not spend effort on these; the brief confirms they do not help on Google's cu
 ## Changes made and why (changelog)
 
 Newest first. Written so entries can be lifted into routine build prompts. Format: finding ID, files and lines, what changed, why.
+
+### Session 2026-07-02 (Opus): Block 3 Step 3.2 template heading rotation
+
+**3.2 Rotated every hard-coded template H2 across 4 variants.**
+- New `src/components/templates/headings.ts`: a `heading(city, key)` helper plus `HEADING_VARIANTS`, 4 natural-language variants for each of the 22 hard-coded heading slots across the 5 templates. The variant is chosen by `hash(city.slug + "::" + key) % 4`, so the same city always renders the same heading (no rebuild churn), each heading rotates independently of the others (the key is part of the hash), and each variant lands on roughly 25% of a template's pages.
+- `CityTemplateA.tsx` (6 slots), `CityTemplateB.tsx` (3), `CityTemplateC.tsx` (3), `CityTemplateD.tsx` (5), `CityTemplateE.tsx` (4): every previously hard-coded H2 (e.g. A's "The pests that matter in {city}", "What treatment costs here") now calls `heading(city, ...)`. Data-driven headings (`sections[].heading`, FAQ questions) were already unique per city and are untouched.
+- Why: each of those H2s previously appeared on ~100% of its template's ~430 pages with only the city token varying, breaching the project's own 30%-per-variant rule (workforce/seo/the-optimizer.md) and feeding the scaled-content fingerprint the June 2026 spam update targets.
+
+**Template B H1 keyword fix (audit finding H3).**
+- `CityTemplateB.tsx`: changed the H1 from `"{city} Pest Control You Can Trust"` (generic, did not lead with the query) to `"Trusted Pest Control in {city}, {stateAbbr}"`, applied on all 428 B pages. This front-loads the primary local keyword in the H1, which A/C/E already did and B did not.
+
+**New guard.**
+- `scripts/check-heading-distribution.mjs` (`npm run check:headings`) replays the rotation over all 2,151 records and fails if any variant exceeds 30% of its template bucket. Wired into `package.json`'s `prebuild`, so it now blocks the build on regression. It passes today (worst variant 28.7%, `D.whichPests`), so making it build-blocking is safe now (unlike the word-count guard, which waits for Block 4).
+- Verified: `tsc` clean, `npm run build` exit 0, `npm run check:headings` passes, spot-checked rendered HTML across several Template A cities (Austin vs El Cajon show different variants for the same slots) and confirmed the new B H1 on 428 pages with the old string gone.
 
 ### Session 2026-07-02 (Sonnet): Block 2 trust and schema, plus a link/hygiene sweep
 

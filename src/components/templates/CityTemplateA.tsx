@@ -1,5 +1,6 @@
 import type { CityLocation } from "@/types";
 import { Breadcrumb, CallButton, ServiceLinks, NearbyCities, authorByline } from "./parts";
+import { heading } from "./headings";
 
 // Template A - Field Manual. Dense, tabular, full width, no sidebar.
 // Pest-by-pest table, numbered process, accordion FAQ. Reads like an ops manual.
@@ -32,7 +33,7 @@ export default function CityTemplateA({ city }: { city: CityLocation }) {
 
         {/* Pest table */}
         <h2 className="mt-10 font-[family-name:var(--font-heading)] text-2xl font-bold">
-          The pests that matter in {city.name}
+          {heading(city, "A.pests")}
         </h2>
         <div className="mt-4 overflow-x-auto">
           <table className="w-full border-collapse text-sm">
@@ -70,7 +71,7 @@ export default function CityTemplateA({ city }: { city: CityLocation }) {
         {/* Prevention as a checklist */}
         <section className="mt-10">
           <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">
-            Keeping pests out of {city.name} homes
+            {heading(city, "A.prevention")}
           </h2>
           <ul className="mt-3 space-y-1">
             {city.prevention.map((tip) => (
@@ -85,7 +86,7 @@ export default function CityTemplateA({ city }: { city: CityLocation }) {
         {/* Cost */}
         <section className="mt-10 rounded-[var(--radius-card)] bg-[var(--color-muted)] p-6">
           <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">
-            What treatment costs here
+            {heading(city, "A.cost")}
           </h2>
           <p className="mt-3 leading-relaxed">{city.costNote}</p>
         </section>
@@ -93,7 +94,7 @@ export default function CityTemplateA({ city }: { city: CityLocation }) {
         {/* FAQ accordion */}
         <section className="mt-10">
           <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">
-            {city.name} pest control questions
+            {heading(city, "A.faq")}
           </h2>
           <div className="mt-4 divide-y divide-[var(--color-muted)] border-y border-[var(--color-muted)]">
             {city.faqs.map((f) => (
@@ -110,13 +111,13 @@ export default function CityTemplateA({ city }: { city: CityLocation }) {
         {/* Links */}
         <section className="mt-10">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold">
-            Services in {city.name}
+            {heading(city, "A.services")}
           </h2>
           <div className="mt-3">
             <ServiceLinks city={city} />
           </div>
           <h2 className="mt-8 font-[family-name:var(--font-heading)] text-xl font-bold">
-            Nearby areas we serve
+            {heading(city, "A.nearby")}
           </h2>
           <div className="mt-3">
             <NearbyCities city={city} />

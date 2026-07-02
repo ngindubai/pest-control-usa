@@ -1,5 +1,6 @@
 import type { CityLocation } from "@/types";
 import { Breadcrumb, CallButton, ServiceLinks, NearbyCities, authorByline } from "./parts";
+import { heading } from "./headings";
 
 // Template C - Comparison Brief. Split hero, side-by-side comparisons, Q-then-A
 // FAQ blocks (no accordion). Heavy two-column layouts.
@@ -59,7 +60,7 @@ export default function CityTemplateC({ city }: { city: CityLocation }) {
 
           {/* Side-by-side pest comparison */}
           <h2 className="mt-10 font-[family-name:var(--font-heading)] text-2xl font-bold">
-            The pests in {city.name}, side by side
+            {heading(city, "C.pests")}
           </h2>
           <div className="mt-4 grid gap-6 sm:grid-cols-2">
             {[leftPests, rightPests].map((col, i) => (
@@ -89,7 +90,7 @@ export default function CityTemplateC({ city }: { city: CityLocation }) {
 
           <section className="mt-10">
             <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">
-              Prevention, by where you live
+              {heading(city, "C.prevention")}
             </h2>
             <ul className="mt-3 space-y-1">
               {city.prevention.map((tip) => (
@@ -104,7 +105,7 @@ export default function CityTemplateC({ city }: { city: CityLocation }) {
           {/* Q-then-A blocks, no accordion */}
           <section className="mt-10">
             <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">
-              {city.name} pest questions, answered
+              {heading(city, "C.faq")}
             </h2>
             <div className="mt-4 space-y-6">
               {city.faqs.map((f) => (

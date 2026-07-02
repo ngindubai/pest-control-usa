@@ -1,5 +1,6 @@
 import type { CityLocation } from "@/types";
 import { Breadcrumb, CallButton, ServiceLinks, NearbyCities, authorByline } from "./parts";
+import { heading } from "./headings";
 
 // Template E - Data-Forward. Stats strip hero, TL;DR, master data tables,
 // right TL;DR sidebar, FAQ plain list at the very bottom. Reads like a brief.
@@ -52,7 +53,7 @@ export default function CityTemplateE({ city }: { city: CityLocation }) {
 
           {/* Master pest table */}
           <h2 className="mt-10 font-[family-name:var(--font-heading)] text-2xl font-bold">
-            Pest activity table
+            {heading(city, "E.pestTable")}
           </h2>
           <div className="mt-4 overflow-x-auto">
             <table className="w-full border-collapse text-sm">
@@ -87,7 +88,7 @@ export default function CityTemplateE({ city }: { city: CityLocation }) {
           {/* Itemised prevention + cost */}
           <section className="mt-8">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold">
-              Prevention checklist
+              {heading(city, "E.prevention")}
             </h2>
             <ul className="mt-2 list-inside list-decimal space-y-1">
               {city.prevention.map((tip) => (
@@ -98,7 +99,7 @@ export default function CityTemplateE({ city }: { city: CityLocation }) {
 
           <section className="mt-8">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold">
-              Cost factors
+              {heading(city, "E.cost")}
             </h2>
             <p className="mt-2 leading-relaxed">{city.costNote}</p>
           </section>
@@ -106,7 +107,7 @@ export default function CityTemplateE({ city }: { city: CityLocation }) {
           {/* FAQ plain list at the very bottom */}
           <section className="mt-10 border-t border-[var(--color-muted)] pt-6">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold">
-              Reference: {city.name} FAQs
+              {heading(city, "E.faq")}
             </h2>
             <dl className="mt-4 space-y-4">
               {city.faqs.map((f) => (

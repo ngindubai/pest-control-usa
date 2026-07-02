@@ -1,5 +1,6 @@
 import type { CityLocation } from "@/types";
 import { Breadcrumb, CallButton, ServiceLinks, NearbyCities, authorByline } from "./parts";
+import { heading } from "./headings";
 
 // Template B - Visual Journey. Full-bleed hero, quick-answer box, horizontal pest
 // cards, right sticky sidebar, expander-grid FAQ. Marketing-led, image-forward.
@@ -11,7 +12,7 @@ export default function CityTemplateB({ city }: { city: CityLocation }) {
         <div className="mx-auto max-w-5xl text-center">
           <Breadcrumb city={city} />
           <h1 className="mt-6 font-[family-name:var(--font-heading)] text-4xl font-extrabold sm:text-5xl">
-            {city.name} Pest Control You Can Trust
+            Trusted Pest Control in {city.name}, {city.stateAbbr}
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-blue-100">{city.localHook}</p>
           <div className="mt-8 flex justify-center gap-3">
@@ -42,7 +43,7 @@ export default function CityTemplateB({ city }: { city: CityLocation }) {
 
           {/* Horizontal pest cards */}
           <h2 className="mt-10 font-[family-name:var(--font-heading)] text-2xl font-bold">
-            Common pests around {city.name}
+            {heading(city, "B.pests")}
           </h2>
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
             {city.pestProfile.map((p) => (
@@ -68,7 +69,7 @@ export default function CityTemplateB({ city }: { city: CityLocation }) {
 
           <section className="mt-10">
             <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">
-              Prevention that works in {city.name}
+              {heading(city, "B.prevention")}
             </h2>
             <ul className="mt-3 grid gap-2 sm:grid-cols-2">
               {city.prevention.map((tip) => (
@@ -85,7 +86,7 @@ export default function CityTemplateB({ city }: { city: CityLocation }) {
           {/* FAQ expander grid */}
           <section className="mt-10">
             <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">
-              Questions from {city.name} homeowners
+              {heading(city, "B.faq")}
             </h2>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
               {city.faqs.map((f) => (

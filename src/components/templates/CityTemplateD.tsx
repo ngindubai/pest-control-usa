@@ -1,5 +1,6 @@
 import type { CityLocation } from "@/types";
 import { Breadcrumb, CallButton, ServiceLinks, NearbyCities, authorByline } from "./parts";
+import { heading } from "./headings";
 
 // Template D - Conversational Q&A. Minimal hero, every section is a question.
 // No noun-phrase H2s. Eliminates the templated heading fingerprint.
@@ -24,7 +25,7 @@ export default function CityTemplateD({ city }: { city: CityLocation }) {
         {/* Question: which pests */}
         <section className="border-t border-[var(--color-muted)] pt-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold">
-            Which pests are most common in {city.name}?
+            {heading(city, "D.whichPests")}
           </h2>
           <p className="mt-2 leading-relaxed">{city.localHook}</p>
           <ul className="mt-3 space-y-2">
@@ -43,7 +44,7 @@ export default function CityTemplateD({ city }: { city: CityLocation }) {
         {city.sections.length > 0 && (
           <section className="border-t border-[var(--color-muted)] pt-8 mt-8">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold">
-              What else should you know before you book?
+              {heading(city, "D.moreInfo")}
             </h2>
             {city.sections.map((s) => (
               <p key={s.heading} className="mt-3 leading-relaxed">
@@ -56,7 +57,7 @@ export default function CityTemplateD({ city }: { city: CityLocation }) {
         {/* Question: prevention */}
         <section className="border-t border-[var(--color-muted)] pt-8 mt-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold">
-            How do you keep them out?
+            {heading(city, "D.prevention")}
           </h2>
           <ul className="mt-3 space-y-1">
             {city.prevention.map((tip) => (
@@ -71,7 +72,7 @@ export default function CityTemplateD({ city }: { city: CityLocation }) {
         {/* Question: cost */}
         <section className="border-t border-[var(--color-muted)] pt-8 mt-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold">
-            What will it cost in {city.name}?
+            {heading(city, "D.cost")}
           </h2>
           <p className="mt-2 leading-relaxed">{city.costNote}</p>
         </section>
@@ -89,7 +90,7 @@ export default function CityTemplateD({ city }: { city: CityLocation }) {
         {/* Question: next step */}
         <section className="border-t border-[var(--color-muted)] pt-8 mt-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold">
-            What should you do next?
+            {heading(city, "D.next")}
           </h2>
           <p className="mt-2 leading-relaxed">
             Book a free inspection and a local technician will confirm what you are dealing with.
