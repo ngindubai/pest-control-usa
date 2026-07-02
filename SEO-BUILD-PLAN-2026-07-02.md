@@ -243,10 +243,12 @@ Do not spend effort on these; the brief confirms they do not help on Google's cu
 | N1 Missing state hubs | 8 hub records | **Opus** (YMYL content) | Done 2026-07-02 |
 | N2 Dash sweep | repo-wide | Sonnet | Done 2026-07-02 |
 | 2 Trust and schema | 2.1 to 2.9 | Sonnet | Done 2026-07-02 (2.9 guard built, wiring deferred to Block 4) |
-| 3 Answer-first content | 3.1, 3.2 rubric and rotation | **Opus** | Not started |
-| 3 Answer-first content | 3.3, 3.4 bulk and gate | Sonnet, only against the Opus rubric | Not started |
-| 4 Content depth remediation | 4.1 rubric and priority | **Opus** | Not started |
-| 4 Content depth remediation | 4.2, 4.3 bulk and guard wiring | Sonnet, only against the Opus rubric | Not started |
+| 3 Answer-first content | 3.2 rotation | **Opus** | Done 2026-07-02 |
+| 3.1 / 4 (combined) | Rubric + verified 3-record sample | **Opus** | Done 2026-07-02 |
+| 3.1 / 4 (combined) | Bulk execution against the rubric | Sonnet, only against the Opus rubric | In progress: 6 of ~1,065 thin records done (batch 1, all Arizona/California T1). See the pacing note below. |
+| 4.3 | Wire word-count guard into prebuild once backlog hits zero | Sonnet | Not started |
+
+**Pacing note (2026-07-02):** the bulk content work is far larger than it first looked. Each record needs 2 to 4 new sections, each fact-checked against that city's own data and word-counted to actually clear the floor, which in practice took multiple drafting passes per record even with the rubric in hand. Batch 1 (6 T1 records) took a full working pass. At that rate, clearing the full backlog (69 more T1, then ~294 T2, then ~697 T3) is realistically a multi-session effort, not a single continuous run. Recommend continuing in state-sized or tier-sized batches, verifying and committing after each, exactly as done for batch 1, rather than attempting the remainder in one pass.
 
 **Order of impact:** Block 1 first (makes the money pages findable), done. Block 2 (removes the spam-policy risk), done. Blocks 3 and 4 remain: both win AI Overview citations and content quality, and both need Opus to design the rubric before Sonnet touches thousands of pages. They can run in either order or interleaved by state, since they touch different fields (Block 3: intros and headings; Block 4: body sections and word count) on overlapping records.
 
