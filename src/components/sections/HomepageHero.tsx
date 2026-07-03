@@ -190,7 +190,7 @@ export function HomepageHero() {
             <p className="text-lg text-white/70 leading-relaxed mb-8 max-w-lg">
               Licensed exterminators available{" "}
               <strong className="text-white font-semibold">same-day</strong> across
-              48 states. Rodents, termites, wildlife, bed bugs, eliminated with a
+              all 50 states and Washington, DC. Rodents, termites, wildlife, bed bugs, eliminated with a
               <strong className="text-white font-semibold"> 100% satisfaction guarantee</strong>.
             </p>
 

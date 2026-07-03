@@ -32,7 +32,7 @@ const faqs: FAQItem[] = [
   {
     question: "What areas of the US do you service?",
     answer:
-      "PestRemovalUSA operates in 48 states with over 500 cities covered by local technician teams. Enter your ZIP code on our contact page to confirm same-day availability in your specific area.",
+      "PestRemovalUSA operates in all 50 states and Washington, DC, with over 500 cities covered by local technician teams. Enter your ZIP code on our contact page to confirm same-day availability in your specific area.",
   },
   {
     question: "How much does pest control cost?",

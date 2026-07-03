@@ -6,12 +6,12 @@ import { Shield, Users, Award, CheckCircle, Star, Clock, MapPin, Leaf } from "lu
 export const metadata: Metadata = {
   title: "About PestRemovalUSA | Nationwide Pest Control Since 2005",
   description:
-    "Learn about PestRemovalUSA, America's trusted nationwide pest control company. Licensed technicians, eco-friendly treatments, and a 100% satisfaction guarantee in all 50 states.",
+    "Learn about PestRemovalUSA, America's trusted nationwide pest control company. Licensed technicians, eco-friendly treatments, and a 100% satisfaction guarantee in all 50 states and Washington, DC.",
   alternates: { canonical: "https://pestremovalusa.com/about/" },
   openGraph: {
     title: "About PestRemovalUSA | Nationwide Pest Control Since 2005",
     description:
-      "America's trusted pest control network, 12,000+ licensed technicians, 50 states, 100% guarantee.",
+      "America's trusted pest control network, 12,000+ licensed technicians, 50 states + DC, 100% guarantee.",
     url: "https://pestremovalusa.com/about/",
   },
 };
@@ -62,7 +62,7 @@ const certifications = [
   "QualityPro Certified (Industry Gold Standard)",
   "GreenPro Eco-Certification",
   "Better Business Bureau A+ Rating",
-  "State-Licensed in All 50 States",
+  "State-Licensed in All 50 States + DC",
   "OSHA Safety Trained Workforce",
   "ISO 9001 Quality Management Certified",
 ];
@@ -77,7 +77,7 @@ const leadership = [
   {
     name: "Sandra Kline",
     title: "Chief Operations Officer",
-    bio: "Built our national technician network from the ground up. Expert in logistics, quality control, and field operations across all 50 states.",
+    bio: "Built our national technician network from the ground up. Expert in logistics, quality control, and field operations across all 50 states and DC.",
     initials: "SK",
   },
   {

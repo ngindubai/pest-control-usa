@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!service) return {};
 
   const title = `${service.name} | PestRemovalUSA: Licensed Technicians Nationwide`;
-  const description = `Professional ${service.name.toLowerCase()} services in all 50 states. ${service.tagline}. Free inspection, guaranteed results. Call 1-800-PEST-USA.`;
+  const description = `Professional ${service.name.toLowerCase()} services in all 50 states and Washington, DC. ${service.tagline}. Free inspection, guaranteed results. Call 1-800-PEST-USA.`;
 
   return {
     title,
@@ -172,7 +172,7 @@ export default async function ServicePage({ params }: Props) {
                   "Licensed &amp; insured technicians",
                   "100% satisfaction guarantee",
                   "Free re-service if pests return",
-                  "Available all 50 states",
+                  "Available in all 50 states + DC",
                   "Same-day or next-day service",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3">
@@ -278,7 +278,7 @@ export default async function ServicePage({ params }: Props) {
             <ul className="space-y-4">
               {[
                 `Specialists in ${service.name.toLowerCase()}, not generalists`,
-                "Licensed and certified in all 50 states",
+                "Licensed and certified in all 50 states + DC",
                 "Written quote before any work begins, no surprises",
                 "Family-safe, EPA-registered products only",
                 "100% satisfaction guarantee, free re-service if needed",

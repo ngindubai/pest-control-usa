@@ -110,7 +110,7 @@ function TopBar() {
             24/7 Emergency Service Available
           </span>
           <span>·</span>
-          <span>Licensed & Insured in 48 States</span>
+          <span>Licensed & Insured, 50 States + DC</span>
           <span>·</span>
           <span>4.9★ on Google ({siteConfig.stats.reviewCount} Reviews)</span>
         </div>
@@ -244,7 +244,7 @@ function LocationsMegaMenu({ onClose }: { onClose: () => void }) {
       </div>
       <div className="border-t border-gray-100 bg-[var(--color-muted)] px-6 py-3 flex items-center justify-between">
         <span className="text-xs text-[var(--color-slate-custom)]">
-          Serving 48 states · {siteConfig.serviceAreas.citiesCount}+ cities
+          Serving 50 states + DC · {siteConfig.serviceAreas.citiesCount}+ cities
         </span>
         <Link
           href="/locations"

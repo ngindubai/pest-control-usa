@@ -380,7 +380,20 @@ page, as clickable markdown links.
 
 ## New findings (add here if you discover more during execution, do not fix silently)
 
-- (none yet)
+- **About page has a fabricated leadership team, company timeline, and a specific
+  false award claim.** `src/app/about/page.tsx` lines 70 to 105. Four named executives
+  (Robert Harmon CEO, Sandra Kline COO, Dr. Marcus Webb Chief Entomologist, Alicia
+  Torres VP Customer Experience) with invented bios and initials, a year-by-year
+  company timeline from 2005 to 2024, and the 2024 timeline entry states the company
+  was "named #1 pest control company by Consumer Reports." This is a specific,
+  checkable, third-party claim. If untrue, this is a significant factual-accuracy and
+  trust risk well beyond the state-count issue the audit flagged, this reads as
+  fabricated corporate history on a YMYL-adjacent site. Not fixed. This needs a
+  decision from Gareth: is there a real leadership team and real award to use, should
+  the page drop the named-individual and award claims entirely and speak about the
+  company in aggregate instead, or is this intentional placeholder content pending
+  real bios. Left untouched pending that answer, this is not a state-count or
+  design-audit item so it was not silently rewritten.
 
 ---
 
@@ -416,3 +429,21 @@ page, as clickable markdown links.
   since the real count changed with the new pages. Verified via grep that every slug in
   `Header.tsx` and `HomepageServices.tsx` resolves to a real service record (D0.5).
   `npm run build` passes, 27 service pages generated (up from 23), 2,245 total routes.
+- 2026-07-03 (Sonnet), Block D1: State-count consistency, resolved to Gareth's DG1
+  answer (all 50 states and Washington, DC). `src/config/site.ts`: `stats.statesCovered`
+  changed from "48" to "50", added `stats.statesCoveredFull` ("all 50 states and
+  Washington, DC") for future reuse, `serviceAreas.statesCount` changed from 48 to 50.
+  Replaced every "48 states" instance with the confirmed wording across
+  `TrustBadges.tsx`, `HomepageHero.tsx`, `HomepageFAQ.tsx`, `Footer.tsx`, `Header.tsx`
+  (both the top bar and the mobile nav footer), and `src/app/page.tsx` (both meta
+  descriptions). Added "and Washington, DC" / "+ DC" to the "all 50 states" claims on
+  the five surfaces the plan named as minimum coverage: homepage hero, locations page
+  (`src/app/locations/page.tsx`, meta and hero copy), services pages
+  (`src/app/services/page.tsx` and `src/app/services/[slug]/page.tsx`, meta and trust
+  lists), about page (`src/app/about/page.tsx`, meta and certifications list), and the
+  footer. Did not touch the two "lower 48 states" mentions in `michigan.ts` and
+  `wisconsin.ts` city copy, those are the correct geographic term (continental US) and
+  unrelated to the coverage claim. Did not touch the fabricated-leadership finding on
+  the About page, logged separately above since it needs a decision, not a mechanical
+  fix. `npm run build` passes. A repo-wide grep for "48 state" (excluding "lower 48")
+  returns nothing in `src/`.

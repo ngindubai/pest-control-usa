@@ -24,7 +24,8 @@ export const siteConfig = {
   },
   stats: {
     homesTreated: "50,000+",
-    statesCovered: "48",
+    statesCovered: "50",
+    statesCoveredFull: "all 50 states and Washington, DC",
     rating: "4.9",
     reviewCount: "12,400+",
     yearsInBusiness: "15+",
@@ -41,7 +42,7 @@ export const siteConfig = {
   ],
   serviceAreas: {
     nationwide: true,
-    statesCount: 48,
+    statesCount: 50,
     citiesCount: 500,
   },
 } as const;

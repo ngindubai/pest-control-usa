@@ -32,7 +32,7 @@ const badgeData: Record<
   licensed: {
     icon: <ShieldCheck size={22} />,
     label: "Licensed & Certified",
-    sub: "All 48 states",
+    sub: "50 states + DC",
   },
   insured: {
     icon: <BadgeCheck size={22} />,

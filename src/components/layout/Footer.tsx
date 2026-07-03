@@ -150,7 +150,7 @@ export function Footer() {
             </div>
 
             <p className="text-sm text-white/65 leading-relaxed mb-5">
-              {siteConfig.tagline}. Serving homeowners and businesses across 48 states since 2010.
+              {siteConfig.tagline}. Serving homeowners and businesses across all 50 states and Washington, DC since 2010.
             </p>
 
             {/* Social links */}

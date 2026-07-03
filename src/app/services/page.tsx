@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site";
 export const metadata: Metadata = {
   title: "Pest Control Services | PestRemovalUSA: All 27 Services Nationwide",
   description:
-    "Browse all 27 professional pest control services from PestRemovalUSA. Ants, bed bugs, termites, rodents, wildlife, and more, licensed technicians in all 50 states.",
+    "Browse all 27 professional pest control services from PestRemovalUSA. Ants, bed bugs, termites, rodents, wildlife, and more, licensed technicians in all 50 states and Washington, DC.",
   alternates: { canonical: "https://pestremovalusa.com/services/" },
   openGraph: {
     title: "Pest Control Services | PestRemovalUSA",
@@ -74,8 +74,8 @@ export default function ServicesPage() {
             All Pest Control Services
           </h1>
           <p className="text-xl text-blue-200 mb-10 max-w-2xl mx-auto">
-            27 specialized pest control services for homes and businesses across all 50 states.
-            Licensed technicians, guaranteed results.
+            27 specialized pest control services for homes and businesses across all 50 states and
+            Washington, DC. Licensed technicians, guaranteed results.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -100,7 +100,7 @@ export default function ServicesPage() {
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm text-[var(--color-navy)] font-medium">
           {[
             "✅ Licensed & Insured",
-            "✅ All 50 States",
+            "✅ 50 States + DC",
             "✅ 100% Satisfaction Guarantee",
             "✅ Free Inspection",
             "✅ Same-Day Service",
@@ -199,7 +199,7 @@ export default function ServicesPage() {
             <ul className="space-y-4">
               {[
                 "Specialized technicians, matched to your exact pest type",
-                "Licensed in all 50 states, one company, consistent standards",
+                "Licensed in all 50 states and DC, one company, consistent standards",
                 "Written quote before work, no surprise charges",
                 "Family, pet & environment-safe EPA-registered products",
                 "100% satisfaction guarantee with free re-service",
