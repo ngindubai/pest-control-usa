@@ -350,7 +350,7 @@ export default async function LocationPage({ params }: Props) {
               href="/services"
               className="inline-flex items-center gap-2 text-[var(--color-navy)] font-bold hover:text-[var(--color-red)] transition-colors"
             >
-              View all 23 services <ChevronRight className="w-4 h-4" />
+              View all 27 services <ChevronRight className="w-4 h-4" />
             </Link>
           </div>
         </div>

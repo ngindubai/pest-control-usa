@@ -29,7 +29,7 @@ import {
 const services = [
   { label: "Rodent Control", slug: "rodent-control", icon: Rat, emergency: false },
   { label: "Termite Treatment", slug: "termite-treatment", icon: Bug, emergency: false },
-  { label: "Bed Bug Removal", slug: "bed-bug-removal", icon: Bug, emergency: false },
+  { label: "Bed Bug Removal", slug: "bed-bug-treatment", icon: Bug, emergency: false },
   { label: "Cockroach Control", slug: "cockroach-control", icon: Bug, emergency: false },
   { label: "Ant Control", slug: "ant-control", icon: Bug, emergency: false },
   { label: "Wasp & Bee Removal", slug: "wasp-bee-removal", icon: Zap, emergency: true },
@@ -40,7 +40,7 @@ const services = [
   { label: "Squirrel Removal", slug: "squirrel-removal", icon: Shield, emergency: false },
   { label: "Skunk Removal", slug: "skunk-removal", icon: Shield, emergency: false },
   { label: "Bird Control", slug: "bird-control", icon: Bird, emergency: false },
-  { label: "Flea & Tick Control", slug: "flea-tick-control", icon: Bug, emergency: false },
+  { label: "Flea & Tick Control", slug: "flea-tick-treatment", icon: Bug, emergency: false },
   { label: "Mole & Vole Control", slug: "mole-vole-control", icon: Rat, emergency: false },
   { label: "Commercial Pest Control", slug: "commercial-pest-control", icon: Building2, emergency: false },
 ];

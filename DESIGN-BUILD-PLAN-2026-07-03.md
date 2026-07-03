@@ -400,3 +400,19 @@ page, as clickable markdown links.
   skunk-removal, mole-vole-control, commercial-pest-control), rubric written into Block
   D0.6. DG3: add both the inline city lead form and the sticky mobile call bar. DG4:
   keep the four-field hero form, tighten spacing only. Plan updated to bake in all four.
+- 2026-07-03 (Sonnet), Block D0: Fixed sitewide dead service links. `Header.tsx` and
+  `HomepageServices.tsx`: `bed-bug-removal` to `bed-bug-treatment`, `flea-tick-control`
+  to `flea-tick-treatment` (D0.1, D0.2). Built four new real service pages in
+  `src/data/services.ts` per the D0.6 rubric: `rodent-control` (umbrella of mice/rats,
+  category rodents), `skunk-removal` (wildlife, includes the rabies-vector safety note),
+  `mole-vole-control` (wildlife, species-identification framing), `commercial-pest-control`
+  (insects, recurring-service and inspection-documentation framing). Each has a real
+  priceRange, 5 signs, 4 treatments, 5 prevention tips, 4 FAQs, and relatedSlugs, checked
+  against the banned-vocabulary list and the dash ban before commit (D0.3, D0.6). Fixed
+  `Footer.tsx` line 54, "Rodent Control" now links to the new `/services/rodent-control/`
+  page instead of `/services/mice-control/` (D0.4). Updated the hardcoded "23 services"
+  count to "27" in `src/app/services/page.tsx` (4 occurrences: title, description,
+  OpenGraph description, stat tile) and `src/app/locations/[slug]/page.tsx` line 353,
+  since the real count changed with the new pages. Verified via grep that every slug in
+  `Header.tsx` and `HomepageServices.tsx` resolves to a real service record (D0.5).
+  `npm run build` passes, 27 service pages generated (up from 23), 2,245 total routes.

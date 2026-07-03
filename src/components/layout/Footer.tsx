@@ -51,7 +51,7 @@ function IconLinkedin() {
 // ─── Footer data ──────────────────────────────────────────────────
 
 const footerServices = [
-  { label: "Rodent Control", href: "/services/mice-control/" },
+  { label: "Rodent Control", href: "/services/rodent-control/" },
   { label: "Termite Treatment", href: "/services/termite-treatment/" },
   { label: "Bed Bug Treatment", href: "/services/bed-bug-treatment/" },
   { label: "Cockroach Control", href: "/services/cockroach-control/" },

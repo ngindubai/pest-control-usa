@@ -1451,6 +1451,254 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["wildlife-removal", "squirrel-removal", "bat-removal"],
   },
+  {
+    slug: "rodent-control",
+    name: "Rodent Control",
+    emoji: "🐁",
+    category: "rodents",
+    urgency: "high",
+    tagline: "One program covering mice and rats, from first sign to full exclusion",
+    heroDesc:
+      "Rodent control covers the full range of commensal rodents that move into homes and businesses, mainly house mice and the two rat species common in the US, Norway rats and roof rats. All three contaminate food and surfaces, gnaw through wiring and structural wood, and can carry salmonella, hantavirus, and leptospirosis. Our rodent program combines species identification, trapping, and full exclusion so the fix outlasts the first visit.",
+    priceRange: "$249 to $799",
+    signs: [
+      "Droppings along walls, in cabinets, or in the attic, size and shape identify the species",
+      "Gnaw marks on food packaging, wiring, wood trim, or door corners",
+      "Scratching or running sounds in walls, ceilings, or attics at night",
+      "Grease rub marks along baseboards and wall junctions from repeated travel",
+      "A sharp, musky odor in enclosed spaces such as closets or under sinks",
+    ],
+    treatments: [
+      {
+        name: "Species Identification & Inspection",
+        desc: "We confirm whether mice, Norway rats, roof rats, or a mix are present, since trap type, bait placement, and exclusion points differ by species.",
+      },
+      {
+        name: "Interior Trapping Program",
+        desc: "Snap traps sized to the species involved, placed along confirmed travel paths and harborage areas, checked and reset on a set schedule.",
+      },
+      {
+        name: "Exterior Bait Station Circuit",
+        desc: "Tamper-resistant, weather-rated stations placed around the foundation intercept rodents before they reach the structure. Child and pet safe by design.",
+      },
+      {
+        name: "Full Exclusion Sealing",
+        desc: "Every gap, vent, and utility penetration a rodent can use is identified and sealed with steel wool, hardware cloth, or concrete patch, the step that actually stops reentry.",
+      },
+    ],
+    prevention: [
+      "Store all food, including pet food, in hard, sealed containers",
+      "Seal gaps larger than 1/4 inch on the exterior with steel wool and caulk, rodents fit through surprisingly small openings",
+      "Keep garbage in containers with locking lids and clear brush or woodpiles away from the foundation",
+      "Trim tree limbs and vines back from the roofline, both mice and roof rats use them as bridges",
+      "Inspect grocery bags, boxes, and deliveries before they come inside",
+    ],
+    faqs: [
+      {
+        q: "Do I need mice control, rat control, or general rodent control?",
+        a: "If you already know which species you have, our mice control or rat control pages cover that directly. This program is for a first inspection when the species is unclear, or when a property has had both mice and rat activity and needs one coordinated plan.",
+      },
+      {
+        q: "How fast can rodents multiply?",
+        a: "A single pair of mice can produce dozens of offspring in a year under the right conditions, and rats breed on a similar timeline. That is why an early inspection matters more with rodents than with most other pests.",
+      },
+      {
+        q: "Is rodenticide used inside my home?",
+        a: "We prioritize trapping indoors, since a rodent that dies inside a wall can cause an odor problem. Bait stations are placed outside, in tamper-resistant housings, as a perimeter measure.",
+      },
+      {
+        q: "What makes exclusion different from just trapping?",
+        a: "Trapping removes the rodents that are already inside. Exclusion seals the openings they used to get in. Skipping exclusion means new rodents can move into the same gaps within weeks, which is why our program includes both.",
+      },
+    ],
+    relatedSlugs: ["mice-control", "rat-control", "wildlife-removal"],
+  },
+  {
+    slug: "skunk-removal",
+    name: "Skunk Removal",
+    emoji: "🦨",
+    category: "wildlife",
+    urgency: "medium",
+    tagline: "Humane skunk trapping and odor-safe exclusion under decks, sheds, and porches",
+    heroDesc:
+      "Skunks den under decks, sheds, porches, and foundations, drawn in by grubs, pet food left outdoors, and easy shelter. Beyond the spray risk to people and pets, skunks are one of the rabies-vector species tracked by public health agencies in the US, so a den close to the house is worth addressing rather than waiting out. Our removal process is built around humane trapping and low-disturbance handling to avoid provoking a spray.",
+    priceRange: "$199 to $449",
+    signs: [
+      "A strong, lingering musky odor near a deck, shed, or porch, even without a recent spray event",
+      "Small, cone-shaped holes in the lawn where skunks dig for grubs",
+      "A visible den entrance under a structure, often with disturbed soil or matted grass at the opening",
+      "Nighttime sightings near the property, skunks are most active from dusk through early morning",
+      "Overturned trash cans or disturbed compost, skunks forage opportunistically",
+    ],
+    treatments: [
+      {
+        name: "Den Inspection & Entry Assessment",
+        desc: "We locate the active den, confirm occupancy, and check for young before any trapping begins, since a female with kits requires a different timeline.",
+      },
+      {
+        name: "Humane Live Trapping",
+        desc: "Covered, low-visibility traps reduce the chance of a defensive spray during capture. Traps are checked on a set schedule per local wildlife handling requirements.",
+      },
+      {
+        name: "One-Way Exclusion Door",
+        desc: "Where young are not present, a one-way door lets skunks exit the den on their own schedule and prevents reentry once they have left.",
+      },
+      {
+        name: "Under-Structure Exclusion",
+        desc: "Steel mesh is installed around deck, shed, and porch perimeters after removal to close off the den site permanently.",
+      },
+    ],
+    prevention: [
+      "Keep pet food and water bowls indoors overnight",
+      "Secure garbage cans with locking or clamped lids",
+      "Treat the lawn for grubs if digging damage is a recurring pattern",
+      "Install mesh skirting around decks, sheds, and porches before a den becomes established",
+      "Keep outdoor lighting on near likely den sites, skunks generally avoid well-lit areas",
+    ],
+    faqs: [
+      {
+        q: "Will a skunk spray during removal?",
+        a: "Skunks spray as a last-resort defense, not a first response. Covered traps and slow, low-noise handling significantly reduce the chance of a spray during our process, though it can never be ruled out entirely.",
+      },
+      {
+        q: "What do I do if my pet gets sprayed?",
+        a: "A mix of hydrogen peroxide, baking soda, and a small amount of dish soap works far better than tomato juice. If your pet was bitten or scratched during an encounter, contact a veterinarian, since skunks are a rabies-vector species.",
+      },
+      {
+        q: "Is it legal to relocate a skunk myself?",
+        a: "Many states restrict or prohibit relocating wildlife due to disease spread risk, and it can be dangerous without the right equipment. Licensed removal follows the legal handling requirements for your state.",
+      },
+      {
+        q: "How do I know if there are babies in the den?",
+        a: "Kits are typically born in spring and stay in the den for several weeks. Our inspection checks for signs of young before trapping starts, since removing a mother without the kits leaves an unresolved problem under the structure.",
+      },
+    ],
+    relatedSlugs: ["wildlife-removal", "raccoon-removal", "mole-vole-control"],
+  },
+  {
+    slug: "mole-vole-control",
+    name: "Mole & Vole Control",
+    emoji: "🐹",
+    category: "wildlife",
+    urgency: "low",
+    tagline: "Stop the tunnels and root damage without guessing which one you have",
+    heroDesc:
+      "Moles and voles cause different damage for different reasons, and mixing up the two leads to the wrong treatment. Moles are insect-eating burrowers that raise ridged tunnels and volcano-shaped mounds while hunting grubs and earthworms. Voles are small rodents that use surface runways through turf and gnaw bark and roots, often around the base of shrubs and young trees. Our program starts by confirming which one is active before choosing trapping, habitat changes, or both.",
+    priceRange: "$179 to $399",
+    signs: [
+      "Raised, ridged tunnels across the lawn (moles) versus narrow, worn surface runways through the grass (voles)",
+      "Volcano-shaped soil mounds with no visible entry hole (moles)",
+      "Gnaw marks or missing bark at the base of shrubs and young trees, especially near winter (voles)",
+      "Sudden soft or spongy patches in the lawn where a tunnel runs just under the surface",
+      "Small, round burrow entrances at the end of a vole runway, often hidden in thick grass or mulch",
+    ],
+    treatments: [
+      {
+        name: "Species Confirmation",
+        desc: "We identify the tunnel or runway pattern before treatment, since mole traps and vole traps are placed differently and target different behavior.",
+      },
+      {
+        name: "Mole Trapping",
+        desc: "Scissor or harpoon traps are set directly in active tunnels, identified by pressing down a short test section and checking whether it is re-raised within a day.",
+      },
+      {
+        name: "Vole Trapping & Runway Treatment",
+        desc: "Snap traps are placed directly in active surface runways, where voles reliably travel the same paths repeatedly.",
+      },
+      {
+        name: "Habitat Modification",
+        desc: "Reducing grub populations removes the mole's food source, and clearing mulch and thick ground cover away from trunks reduces vole cover and bark damage.",
+      },
+    ],
+    prevention: [
+      "Treat the lawn for grubs if mole tunneling is a recurring seasonal pattern",
+      "Keep mulch pulled back a few inches from tree trunks and shrub bases to reduce vole cover",
+      "Mow regularly and keep grass and ground cover from growing thick and undisturbed",
+      "Install wire mesh guards around the base of young or valuable trees for winter protection",
+      "Address tunnels and runways early, both species reproduce quickly once established",
+    ],
+    faqs: [
+      {
+        q: "How can I tell if I have moles or voles?",
+        a: "Moles leave raised, ridged tunnels and cone-shaped mounds and are rarely seen above ground. Voles leave narrow surface runways through the grass, are visible occasionally in daylight, and cause gnawing damage to bark and roots that moles do not.",
+      },
+      {
+        q: "Do moles eat my plants?",
+        a: "No. Moles eat grubs, earthworms, and other soil insects, not plant material. Root and bulb damage near a tunnel is usually incidental to digging, or is actually caused by voles using the same tunnel system.",
+      },
+      {
+        q: "Will repellents or vibrating stakes get rid of moles?",
+        a: "Consumer repellents and vibrating stakes have limited and inconsistent results in independent testing. Direct trapping in a confirmed active tunnel is the more reliable method.",
+      },
+      {
+        q: "Can voles damage my trees permanently?",
+        a: "Yes. Voles can gnaw bark in a full ring around the base of a young tree, which cuts off nutrient flow and can kill the tree. Trunk guards installed before winter are the most effective prevention.",
+      },
+    ],
+    relatedSlugs: ["wildlife-removal", "squirrel-removal", "skunk-removal"],
+  },
+  {
+    slug: "commercial-pest-control",
+    name: "Commercial Pest Control",
+    emoji: "🏢",
+    category: "insects",
+    urgency: "medium",
+    tagline: "Recurring pest programs built around inspections, documentation, and discretion",
+    heroDesc:
+      "Commercial properties carry different stakes than a home. A restaurant, retail store, warehouse, or multifamily building can face a health inspection failure, closed dining room, or tenant complaint over a single pest sighting. Our commercial program is built around scheduled recurring visits, the documentation health inspectors expect to see, and service timing that keeps pest control from disrupting business hours.",
+    priceRange: "$99 to $499 per month",
+    signs: [
+      "Any pest sighting in food prep, storage, or dining areas, which most health codes treat as an immediate action item",
+      "Droppings or gnaw marks in stockrooms, loading docks, or dry storage",
+      "Tenant or customer complaints about pests in shared or common areas",
+      "Recurring activity near dumpsters, grease traps, or loading areas",
+      "A failed or borderline result on a recent health or property inspection",
+    ],
+    treatments: [
+      {
+        name: "Scheduled Recurring Service",
+        desc: "Monthly or quarterly visits matched to the property type, food service typically needs a tighter interval than office or retail space.",
+      },
+      {
+        name: "Inspection Documentation",
+        desc: "Every visit generates a service log and pest activity report in the format health inspectors and property managers expect to see on request.",
+      },
+      {
+        name: "After-Hours & Discreet Scheduling",
+        desc: "Service visits are scheduled around business hours where needed, so treatment does not interrupt customers, staff, or tenants.",
+      },
+      {
+        name: "Targeted Treatment By Pest",
+        desc: "Cockroach, rodent, or ant programs are applied based on what is actually active at the property, drawing on our full service line rather than a single generic spray.",
+      },
+    ],
+    prevention: [
+      "Keep loading docks and dumpster areas clean and pest-proofed with tight-fitting lids",
+      "Store dry goods off the floor and away from walls to allow inspection access",
+      "Seal gaps around utility lines and doors, especially where deliveries enter",
+      "Train staff to report sightings immediately rather than waiting for the next scheduled visit",
+      "Keep a copy of the most recent service report on hand for health inspections",
+    ],
+    faqs: [
+      {
+        q: "How often does a restaurant need commercial pest control?",
+        a: "Most food service accounts are serviced monthly, with some kitchens on a tighter schedule during peak season. Your technician will recommend an interval based on what is actually found during the first inspection.",
+      },
+      {
+        q: "Can service be scheduled outside business hours?",
+        a: "Yes. Many commercial accounts prefer early morning, late evening, or overnight visits so treatment does not overlap with customers or staff. This is arranged directly with your assigned technician.",
+      },
+      {
+        q: "What documentation do you provide for health inspections?",
+        a: "Every visit generates a written service report covering what was found, what was treated, and any recommendations. These reports are kept on file and can be provided directly to a health inspector on request.",
+      },
+      {
+        q: "Do you work with property managers on multi-tenant buildings?",
+        a: "Yes. We coordinate with property managers to service common areas, respond to individual tenant complaints, and keep one consistent pest program across the whole building rather than a patchwork of one-off visits.",
+      },
+    ],
+    relatedSlugs: ["cockroach-control", "rodent-control", "ant-control"],
+  },
 ];
 
 export function getServiceBySlug(slug: string): Service | undefined {

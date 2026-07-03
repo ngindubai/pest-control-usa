@@ -27,7 +27,7 @@ const services: ServiceItem[] = [
     icon: Bug,
   },
   {
-    slug: "bed-bug-removal",
+    slug: "bed-bug-treatment",
     title: "Bed Bug Removal",
     description:
       "Complete elimination using heat treatment and residual applications. Guaranteed results.",
@@ -109,7 +109,7 @@ const services: ServiceItem[] = [
     icon: Bird,
   },
   {
-    slug: "flea-tick-control",
+    slug: "flea-tick-treatment",
     title: "Flea & Tick Control",
     description:
       "Indoor and outdoor treatments protecting your family and pets from flea and tick infestations.",

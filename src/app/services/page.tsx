@@ -5,14 +5,14 @@ import { services, Service } from "@/data/services";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Pest Control Services | PestRemovalUSA: All 23 Services Nationwide",
+  title: "Pest Control Services | PestRemovalUSA: All 27 Services Nationwide",
   description:
-    "Browse all 23 professional pest control services from PestRemovalUSA. Ants, bed bugs, termites, rodents, wildlife, and more, licensed technicians in all 50 states.",
+    "Browse all 27 professional pest control services from PestRemovalUSA. Ants, bed bugs, termites, rodents, wildlife, and more, licensed technicians in all 50 states.",
   alternates: { canonical: "https://pestremovalusa.com/services/" },
   openGraph: {
     title: "Pest Control Services | PestRemovalUSA",
     description:
-      "23 professional pest control services. Licensed & insured nationwide. Free inspection, 100% satisfaction guarantee.",
+      "27 professional pest control services. Licensed & insured nationwide. Free inspection, 100% satisfaction guarantee.",
     url: "https://pestremovalusa.com/services/",
   },
 };
@@ -74,7 +74,7 @@ export default function ServicesPage() {
             All Pest Control Services
           </h1>
           <p className="text-xl text-blue-200 mb-10 max-w-2xl mx-auto">
-            23 specialized pest control services for homes and businesses across all 50 states.
+            27 specialized pest control services for homes and businesses across all 50 states.
             Licensed technicians, guaranteed results.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -214,7 +214,7 @@ export default function ServicesPage() {
           </div>
           <div className="grid grid-cols-2 gap-4 text-center">
             {[
-              { value: "23+", label: "Pest Species Covered" },
+              { value: "27+", label: "Pest Species Covered" },
               { value: "50", label: "States Served" },
               { value: "250K+", label: "Homes Protected" },
               { value: "4.9★", label: "12,847 Reviews" },
