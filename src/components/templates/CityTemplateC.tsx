@@ -1,5 +1,6 @@
 import type { CityLocation } from "@/types";
 import { Breadcrumb, CallButton, ServiceLinks, NearbyCities, authorByline } from "./parts";
+import { CityLeadForm } from "./CityLeadForm";
 import { heading } from "./headings";
 
 // Template C - Comparison Brief. Split hero, side-by-side comparisons, Q-then-A
@@ -43,16 +44,21 @@ export default function CityTemplateC({ city }: { city: CityLocation }) {
         </div>
       </header>
 
-      <div className="mx-auto grid max-w-5xl gap-8 px-4 py-12 md:grid-cols-[180px_1fr]">
+      <div className="mx-auto grid max-w-5xl gap-8 px-4 py-12 md:grid-cols-[260px_1fr]">
         {/* Left step rail */}
         <aside className="hidden md:block">
-          <ol className="sticky top-24 space-y-3 text-sm text-[var(--color-slate-custom)]">
-            <li>1. The pests, compared</li>
-            <li>2. Season by season</li>
-            <li>3. Treatment by pest</li>
-            <li>4. Costs compared</li>
-            <li>5. Questions</li>
-          </ol>
+          <div className="sticky top-24">
+            <ol className="space-y-3 text-sm text-[var(--color-slate-custom)]">
+              <li>1. The pests, compared</li>
+              <li>2. Season by season</li>
+              <li>3. Treatment by pest</li>
+              <li>4. Costs compared</li>
+              <li>5. Questions</li>
+            </ol>
+            <div className="mt-8">
+              <CityLeadForm city={city} />
+            </div>
+          </div>
         </aside>
 
         <div>

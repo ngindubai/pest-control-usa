@@ -456,3 +456,33 @@ page, as clickable markdown links.
   Verified against the built output for Tucson (Template A) and Phoenix (Template E):
   the width classes render as expected and `whitespace-nowrap` no longer appears in
   either page's HTML. `npm run build` passes.
+- 2026-07-03 (Sonnet), Block D3: CTA and conversion, per Gareth's DG3 (form + sticky
+  bar) and DG4 (keep 4 fields) answers.
+  - D3.1: Added `src/components/layout/MobileCallBar.tsx`, a sitewide fixed-bottom bar
+    (`md:hidden`, safe-area padding) with a two-thirds-width tap-to-call button and a
+    one-third-width "Free quote" link to `/contact/`. Wired into `src/app/layout.tsx`
+    with a `pb-[68px] md:pb-0` spacer on the body so it never covers the footer on
+    mobile. Removed Template D's own pre-existing floating mobile CTA
+    (`CityTemplateD.tsx`), since it would have stacked with the new sitewide bar and
+    doubled up on every Template D page (415 pages).
+  - D3.2: Tightened the homepage hero form (`HomepageHero.tsx`) per Gareth's answer to
+    keep all four fields: card padding down to `p-5 sm:p-6`, header block `mb-4` with a
+    single-line heading instead of a forced two-line break, field stack `space-y-2.5`,
+    label-to-input gap `gap-0.5`, input and select padding `py-2`, submit button `py-3`.
+    No fields removed, submission logic untouched.
+  - D3.3: Built `src/components/templates/CityLeadForm.tsx`, a 3-field (name, phone,
+    ZIP) client component that reuses the same CRM and email submission targets as the
+    contact page and hero form, tagged with the city and state so leads are
+    attributable. Inserted it once per template: Template B's existing sidebar CTA slot
+    (above the phone box), Template C's left rail (widened from `180px` to `260px` so
+    the form has room next to the step list), Template E's existing sidebar (it also
+    has one, corrected from the plan's assumption that only B and C do), and inline
+    after the first content block on Template A (after the pest table) and Template D
+    (after the "which pests" question section).
+  - D3.4: Reordered the homepage sections in `src/app/page.tsx`, moving
+    `<HomepageEmergency />` from eighth of nine sections to right after
+    `<HomepageProcess />` (roughly one third down), verified in the built HTML that the
+    emergency band now renders before the stats section instead of after reviews.
+  - Verified in the built output: the lead form renders exactly once on each of the five
+    templates (Tucson, Mesa, San Jose, Anaheim, Phoenix), and Template D's page shows
+    exactly one fixed-bottom bar (the new sitewide one), not two. `npm run build` passes.

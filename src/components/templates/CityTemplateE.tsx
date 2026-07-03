@@ -1,4 +1,5 @@
 import type { CityLocation } from "@/types";
+import { CityLeadForm } from "./CityLeadForm";
 import { Breadcrumb, CallButton, ServiceLinks, NearbyCities, authorByline } from "./parts";
 import { heading } from "./headings";
 
@@ -124,7 +125,8 @@ export default function CityTemplateE({ city }: { city: CityLocation }) {
 
         {/* Right TL;DR sidebar */}
         <aside className="lg:sticky lg:top-24 lg:self-start">
-          <div className="rounded-[var(--radius-card)] bg-[var(--color-muted)] p-5">
+          <CityLeadForm city={city} />
+          <div className="mt-6 rounded-[var(--radius-card)] bg-[var(--color-muted)] p-5">
             <div className="text-sm font-semibold">Get a {city.name} quote</div>
             <p className="mt-2 text-sm text-[var(--color-slate-custom)]">{city.costNote}</p>
             <div className="mt-3">

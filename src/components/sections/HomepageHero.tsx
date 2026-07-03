@@ -233,7 +233,7 @@ export function HomepageHero() {
 
           {/* ── Right: Quote form ────────────────────────────── */}
           <div>
-            <div className="bg-white rounded-[var(--radius-card)] shadow-2xl p-6 sm:p-8">
+            <div className="bg-white rounded-[var(--radius-card)] shadow-2xl p-5 sm:p-6">
               {submitted ? (
                 <div className="text-center py-8">
                   <div
@@ -263,17 +263,15 @@ export function HomepageHero() {
                 </div>
               ) : (
                 <>
-                  <div className="mb-5">
+                  <div className="mb-4">
                     <p className="text-xs font-bold uppercase tracking-widest text-[var(--color-red)] mb-1">
                       Free Inspection &amp; Quote
                     </p>
                     <h2
-                      className="text-2xl font-black text-[var(--color-navy)] leading-snug"
+                      className="text-xl font-black text-[var(--color-navy)] leading-snug"
                       style={{ fontFamily: "var(--font-barlow)" }}
                     >
-                      Get Your Free Quote
-                      <br />
-                      in 60 Seconds
+                      Get Your Free Quote in 60 Seconds
                     </h2>
                   </div>
 
@@ -300,10 +298,10 @@ export function HomepageHero() {
                     noValidate
                     aria-label="Free pest control quote request form"
                   >
-                    <div className="space-y-3.5">
+                    <div className="space-y-2.5">
                       <div className="grid grid-cols-2 gap-3">
                         {/* ZIP */}
-                        <div className="flex flex-col gap-1">
+                        <div className="flex flex-col gap-0.5">
                           <label
                             htmlFor="hero-zip"
                             className="text-xs font-bold text-[var(--color-navy)] uppercase tracking-wide"
@@ -318,11 +316,11 @@ export function HomepageHero() {
                             pattern="[0-9]{5}"
                             placeholder="e.g. 77001"
                             required
-                            className="px-3 py-2.5 rounded-lg border border-gray-200 text-sm focus:border-[var(--color-red)] focus:outline-none focus:ring-2 focus:ring-[var(--color-red)]/20 text-[var(--color-navy)] placeholder:text-gray-400"
+                            className="px-3 py-2 rounded-lg border border-gray-200 text-sm focus:border-[var(--color-red)] focus:outline-none focus:ring-2 focus:ring-[var(--color-red)]/20 text-[var(--color-navy)] placeholder:text-gray-400"
                           />
                         </div>
                         {/* Pest type */}
-                        <div className="flex flex-col gap-1">
+                        <div className="flex flex-col gap-0.5">
                           <label
                             htmlFor="hero-pest"
                             className="text-xs font-bold text-[var(--color-navy)] uppercase tracking-wide"
@@ -334,7 +332,7 @@ export function HomepageHero() {
                               id="hero-pest" name="pestType"
                               required
                               defaultValue=""
-                              className="w-full appearance-none px-3 py-2.5 pr-8 rounded-lg border border-gray-200 text-sm focus:border-[var(--color-red)] focus:outline-none focus:ring-2 focus:ring-[var(--color-red)]/20 text-[var(--color-navy)] bg-white cursor-pointer"
+                              className="w-full appearance-none px-3 py-2 pr-8 rounded-lg border border-gray-200 text-sm focus:border-[var(--color-red)] focus:outline-none focus:ring-2 focus:ring-[var(--color-red)]/20 text-[var(--color-navy)] bg-white cursor-pointer"
                             >
                               {pestTypes.map((o) => (
                                 <option
@@ -365,7 +363,7 @@ export function HomepageHero() {
                       </div>
 
                       {/* Name */}
-                      <div className="flex flex-col gap-1">
+                      <div className="flex flex-col gap-0.5">
                         <label
                           htmlFor="hero-name"
                           className="text-xs font-bold text-[var(--color-navy)] uppercase tracking-wide"
@@ -378,12 +376,12 @@ export function HomepageHero() {
                           autoComplete="name"
                           placeholder="First and last name"
                           required
-                          className="px-3 py-2.5 rounded-lg border border-gray-200 text-sm focus:border-[var(--color-red)] focus:outline-none focus:ring-2 focus:ring-[var(--color-red)]/20 text-[var(--color-navy)] placeholder:text-gray-400"
+                          className="px-3 py-2 rounded-lg border border-gray-200 text-sm focus:border-[var(--color-red)] focus:outline-none focus:ring-2 focus:ring-[var(--color-red)]/20 text-[var(--color-navy)] placeholder:text-gray-400"
                         />
                       </div>
 
                       {/* Phone */}
-                      <div className="flex flex-col gap-1">
+                      <div className="flex flex-col gap-0.5">
                         <label
                           htmlFor="hero-phone"
                           className="text-xs font-bold text-[var(--color-navy)] uppercase tracking-wide"
@@ -397,7 +395,7 @@ export function HomepageHero() {
                           inputMode="tel"
                           placeholder="(555) 000-0000"
                           required
-                          className="px-3 py-2.5 rounded-lg border border-gray-200 text-sm focus:border-[var(--color-red)] focus:outline-none focus:ring-2 focus:ring-[var(--color-red)]/20 text-[var(--color-navy)] placeholder:text-gray-400"
+                          className="px-3 py-2 rounded-lg border border-gray-200 text-sm focus:border-[var(--color-red)] focus:outline-none focus:ring-2 focus:ring-[var(--color-red)]/20 text-[var(--color-navy)] placeholder:text-gray-400"
                         />
                       </div>
 
@@ -405,7 +403,7 @@ export function HomepageHero() {
                         type="submit"
                         disabled={loading}
                         className={cn(
-                          "w-full flex items-center justify-center gap-2 bg-[var(--color-red)] text-white font-black text-base py-3.5 rounded-[var(--radius-btn)] transition-all duration-200 shadow-[var(--shadow-cta)] cursor-pointer",
+                          "w-full flex items-center justify-center gap-2 bg-[var(--color-red)] text-white font-black text-base py-3 rounded-[var(--radius-btn)] transition-all duration-200 shadow-[var(--shadow-cta)] cursor-pointer",
                           loading
                             ? "opacity-75 cursor-wait"
                             : "hover:bg-[var(--color-red-light)] hover:shadow-xl"

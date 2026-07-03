@@ -44,10 +44,10 @@ export default function HomePage() {
       <TrustBar background="muted" />
       <HomepageServices />
       <HomepageProcess />
+      <HomepageEmergency />
       <HomepageStats />
       <HomepageLocations />
       <HomepageReviews />
-      <HomepageEmergency />
       <HomepageFAQ />
     </>
   );

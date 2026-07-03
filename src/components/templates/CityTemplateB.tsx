@@ -1,5 +1,6 @@
 import type { CityLocation } from "@/types";
 import { Breadcrumb, CallButton, ServiceLinks, NearbyCities, authorByline } from "./parts";
+import { CityLeadForm } from "./CityLeadForm";
 import { heading } from "./headings";
 
 // Template B - Visual Journey. Full-bleed hero, quick-answer box, horizontal pest
@@ -108,7 +109,8 @@ export default function CityTemplateB({ city }: { city: CityLocation }) {
 
         {/* Right sticky sidebar */}
         <aside className="lg:sticky lg:top-24 lg:self-start">
-          <div className="rounded-[var(--radius-card)] bg-[var(--color-navy)] p-6 text-white shadow-[var(--shadow-card)]">
+          <CityLeadForm city={city} />
+          <div className="mt-6 rounded-[var(--radius-card)] bg-[var(--color-navy)] p-6 text-white shadow-[var(--shadow-card)]">
             <div className="font-[family-name:var(--font-heading)] text-lg font-bold">
               Free inspection in {city.name}
             </div>

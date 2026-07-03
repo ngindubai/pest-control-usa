@@ -1,5 +1,6 @@
 import type { CityLocation } from "@/types";
 import { Breadcrumb, CallButton, ServiceLinks, NearbyCities, authorByline } from "./parts";
+import { CityLeadForm } from "./CityLeadForm";
 import { heading } from "./headings";
 
 // Template D - Conversational Q&A. Minimal hero, every section is a question.
@@ -39,6 +40,10 @@ export default function CityTemplateD({ city }: { city: CityLocation }) {
             ))}
           </ul>
         </section>
+
+        <div className="mt-8">
+          <CityLeadForm city={city} />
+        </div>
 
         {/* Folded body sections under a question, no noun H2s */}
         {city.sections.length > 0 && (
@@ -104,11 +109,6 @@ export default function CityTemplateD({ city }: { city: CityLocation }) {
         </section>
 
         <p className="mt-10 text-xs text-[var(--color-slate-custom)]">{authorByline(city)}</p>
-      </div>
-
-      {/* Floating mobile CTA */}
-      <div className="fixed inset-x-0 bottom-0 z-20 border-t border-[var(--color-muted)] bg-white p-3 text-center shadow-[var(--shadow-nav)] sm:hidden">
-        <CallButton className="w-full justify-center" />
       </div>
     </article>
   );

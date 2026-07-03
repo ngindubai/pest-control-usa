@@ -1,5 +1,6 @@
 import type { CityLocation } from "@/types";
 import { Breadcrumb, CallButton, ServiceLinks, NearbyCities, authorByline } from "./parts";
+import { CityLeadForm } from "./CityLeadForm";
 import { heading } from "./headings";
 
 // Template A - Field Manual. Dense, tabular, full width, no sidebar.
@@ -56,6 +57,10 @@ export default function CityTemplateA({ city }: { city: CityLocation }) {
               ))}
             </tbody>
           </table>
+        </div>
+
+        <div className="mt-8 max-w-md">
+          <CityLeadForm city={city} />
         </div>
 
         {/* Body sections rendered as a tight stack */}
