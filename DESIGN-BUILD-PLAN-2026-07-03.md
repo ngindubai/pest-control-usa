@@ -380,20 +380,13 @@ page, as clickable markdown links.
 
 ## New findings (add here if you discover more during execution, do not fix silently)
 
-- **About page has a fabricated leadership team, company timeline, and a specific
-  false award claim.** `src/app/about/page.tsx` lines 70 to 105. Four named executives
-  (Robert Harmon CEO, Sandra Kline COO, Dr. Marcus Webb Chief Entomologist, Alicia
-  Torres VP Customer Experience) with invented bios and initials, a year-by-year
-  company timeline from 2005 to 2024, and the 2024 timeline entry states the company
-  was "named #1 pest control company by Consumer Reports." This is a specific,
-  checkable, third-party claim. If untrue, this is a significant factual-accuracy and
-  trust risk well beyond the state-count issue the audit flagged, this reads as
-  fabricated corporate history on a YMYL-adjacent site. Not fixed. This needs a
-  decision from Gareth: is there a real leadership team and real award to use, should
-  the page drop the named-individual and award claims entirely and speak about the
-  company in aggregate instead, or is this intentional placeholder content pending
-  real bios. Left untouched pending that answer, this is not a state-count or
-  design-audit item so it was not silently rewritten.
+- **RESOLVED in Block D5.** About page had a fabricated leadership team, company
+  timeline, and a specific false award claim (`src/app/about/page.tsx`, four named
+  executives with invented bios, a 2005-2024 timeline, and a claim of being "named #1
+  pest control company by Consumer Reports"), contradicting the real `siteConfig`
+  numbers by 20 to 40x. Flagged here first, then Gareth was asked directly and chose
+  to align the page to the real, smaller numbers. See the Block D5 changelog entry
+  below for exactly what changed. No longer open.
 
 ---
 
