@@ -18,7 +18,10 @@ export default function CityTemplateA({ city }: { city: CityLocation }) {
           <p className="mt-3 max-w-2xl text-blue-100">{city.localHook}</p>
           <div className="mt-4 flex flex-wrap gap-2 text-xs">
             {city.topPests.slice(0, 5).map((p) => (
-              <span key={p} className="rounded bg-[var(--color-navy-light)] px-2 py-1">
+              <span
+                key={p}
+                className="rounded-full border border-white/25 bg-white/10 px-2.5 py-1"
+              >
                 {p}
               </span>
             ))}

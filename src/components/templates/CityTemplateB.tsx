@@ -15,7 +15,7 @@ export default function CityTemplateB({ city }: { city: CityLocation }) {
           <h1 className="mt-6 font-[family-name:var(--font-heading)] text-4xl font-extrabold sm:text-5xl">
             Trusted Pest Control in {city.name}, {city.stateAbbr}
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-blue-100">{city.localHook}</p>
+          <p className="mx-auto mt-4 max-w-2xl text-left text-lg text-blue-100">{city.localHook}</p>
           <div className="mt-8 flex justify-center gap-3">
             <CallButton />
           </div>

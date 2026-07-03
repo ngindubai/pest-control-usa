@@ -8,17 +8,30 @@ import { heading } from "./headings";
 export default function CityTemplateD({ city }: { city: CityLocation }) {
   return (
     <article className="tpl-city-d bg-white">
-      {/* Minimal hero */}
-      <header className="mx-auto max-w-3xl px-4 pt-10">
-        <Breadcrumb city={city} />
-        <h1 className="mt-6 font-[family-name:var(--font-heading)] text-3xl font-bold sm:text-4xl">
-          Dealing with pests in {city.name}, {city.stateAbbr}?
-        </h1>
-        <p className="mt-4 text-lg leading-relaxed text-[var(--color-slate-custom)]">
-          {city.intro}
-        </p>
-        <div className="mt-6">
-          <CallButton />
+      {/* Navy hero, matches the other templates so the page reads as a service
+          landing page above the fold instead of a bare article start */}
+      <header className="bg-[var(--color-navy)] px-4 py-10 text-white">
+        <div className="mx-auto max-w-3xl">
+          <Breadcrumb city={city} />
+          <h1 className="mt-6 font-[family-name:var(--font-heading)] text-3xl font-bold sm:text-4xl">
+            Dealing with pests in {city.name}, {city.stateAbbr}?
+          </h1>
+          <p className="mt-4 text-lg leading-relaxed text-blue-100">
+            {city.intro}
+          </p>
+          <div className="mt-4 flex flex-wrap gap-2 text-xs">
+            {city.topPests.slice(0, 5).map((p) => (
+              <span
+                key={p}
+                className="rounded-full border border-white/25 bg-white/10 px-2.5 py-1"
+              >
+                {p}
+              </span>
+            ))}
+          </div>
+          <div className="mt-6">
+            <CallButton />
+          </div>
         </div>
       </header>
 

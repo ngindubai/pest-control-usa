@@ -6,14 +6,18 @@ import { heading } from "./headings";
 // Template E - Data-Forward. Stats strip hero, TL;DR, master data tables,
 // right TL;DR sidebar, FAQ plain list at the very bottom. Reads like a brief.
 export default function CityTemplateE({ city }: { city: CityLocation }) {
-  const peak =
+  // The full activeSeason string can run to a full sentence (the table below
+  // shows it in full). The stat bar only has room for a short headline, so
+  // take the first clause, which is always the short version.
+  const peakFull =
     city.pestProfile.find((p) => /peak/i.test(p.activeSeason))?.activeSeason ??
     city.pestProfile[0]?.activeSeason ??
     "Varies";
+  const peak = peakFull.split(",")[0].trim().replace(/^Peaks?\s*/i, "");
 
   const stats = [
     { label: "Significant pests", value: String(city.pestProfile.length) },
-    { label: "Peak activity", value: peak.replace(/^Peaks?\s*/i, "") },
+    { label: "Peak activity", value: peak },
     { label: "Climate", value: city.climate.replace("-", " ") },
     { label: "County", value: city.county },
   ];
@@ -29,11 +33,11 @@ export default function CityTemplateE({ city }: { city: CityLocation }) {
           </h1>
           <div className="mt-6 grid grid-cols-2 gap-px overflow-hidden rounded-[var(--radius-card)] bg-[var(--color-navy-light)] sm:grid-cols-4">
             {stats.map((s) => (
-              <div key={s.label} className="bg-[var(--color-navy)] p-4">
-                <div className="font-[family-name:var(--font-heading)] text-xl font-bold capitalize">
+              <div key={s.label} className="flex min-h-[76px] flex-col justify-center bg-[var(--color-navy)] p-4">
+                <div className="font-[family-name:var(--font-heading)] text-xl font-bold capitalize leading-snug">
                   {s.value}
                 </div>
-                <div className="text-xs text-blue-200">{s.label}</div>
+                <div className="mt-1 text-xs text-blue-200">{s.label}</div>
               </div>
             ))}
           </div>

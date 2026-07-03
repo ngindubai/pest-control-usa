@@ -37,7 +37,7 @@ export default function CityTemplateC({ city }: { city: CityLocation }) {
           <h1 className="font-[family-name:var(--font-heading)] text-3xl font-bold sm:text-4xl">
             Pest Control in {city.name}, {city.stateAbbr}
           </h1>
-          <p className="mx-auto mt-3 max-w-2xl text-blue-100">{city.localHook}</p>
+          <p className="mx-auto mt-3 max-w-2xl text-left text-blue-100">{city.localHook}</p>
           <div className="mt-5 flex justify-center">
             <CallButton />
           </div>

@@ -486,3 +486,29 @@ page, as clickable markdown links.
   - Verified in the built output: the lead form renders exactly once on each of the five
     templates (Tucson, Mesa, San Jose, Anaheim, Phoenix), and Template D's page shows
     exactly one fixed-bottom bar (the new sitewide one), not two. `npm run build` passes.
+- 2026-07-03 (Sonnet), Block D4: Template and hero polish.
+  - D4.1: `CityTemplateD.tsx` now wraps its breadcrumb, H1, intro, and CTA in the same
+    navy hero band the other four templates use, with a row of trust pills (pest
+    names) added so the page reads as a service landing page above the fold instead of
+    a bare article start. Body copy inside the hero switched from
+    `text-[var(--color-slate-custom)]` to `text-blue-100` to match the other templates'
+    contrast convention on a dark background.
+  - D4.2: `CityTemplateA.tsx` hero pills changed from a flat
+    `bg-[var(--color-navy-light)]` fill (too close in tone to the navy background) to
+    the same glass-chip treatment introduced for Template D
+    (`rounded-full border border-white/25 bg-white/10`), so both templates now read as
+    active chips rather than disabled buttons.
+  - D4.3: `CityTemplateE.tsx` stat bar. The "peak activity" value previously used the
+    full `activeSeason` sentence (which can run to a full clause, e.g. "Year-round,
+    mounds peak spring through fall"), causing that cell to wrap to 2 or 3 lines while
+    sibling cells stayed at 1. Now takes only the first comma-separated clause (the
+    short headline version, e.g. "Year-round"), the full sentence is unchanged in the
+    pest table below. Also gave all 4 stat cells a `min-h-[76px]` floor as a second
+    layer of protection against uneven cell height.
+  - D4.4: `CityTemplateB.tsx` and `CityTemplateC.tsx` hero intro paragraphs changed
+    from centered to left-aligned (kept the H1 and CTA centered, each template's
+    signature), fixing the ragged line lengths a multi-line centered paragraph produces.
+  - Verified in the built output for Anaheim (D), Tucson (A), Prattville (E), Mesa (B),
+    and San Jose (C): the D hero renders navy, both A and D pills use the new
+    glass-chip classes, Prattville's stat bar shows "Year-round" instead of the long
+    sentence, and B/C hero paragraphs carry `text-left`. `npm run build` passes.
