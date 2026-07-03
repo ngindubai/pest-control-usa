@@ -447,3 +447,12 @@ page, as clickable markdown links.
   the About page, logged separately above since it needs a decision, not a mechanical
   fix. `npm run build` passes. A repo-wide grep for "48 state" (excluding "lower 48")
   returns nothing in `src/`.
+- 2026-07-03 (Sonnet), Block D2: Fixed the crushed data table on Templates A and E
+  (roughly 860 pages). `src/components/templates/CityTemplateA.tsx` line 51 and
+  `CityTemplateE.tsx` line 71: removed `whitespace-nowrap` from the "when active" /
+  "activity window" `<td>`. Both tables' header cells now carry explicit width classes
+  (`w-1/4` pest, `w-1/4` active season, `w-1/2` notes) so the notes column, which holds
+  the longest text, gets the most room instead of being squeezed to under 100px.
+  Verified against the built output for Tucson (Template A) and Phoenix (Template E):
+  the width classes render as expected and `whitespace-nowrap` no longer appears in
+  either page's HTML. `npm run build` passes.

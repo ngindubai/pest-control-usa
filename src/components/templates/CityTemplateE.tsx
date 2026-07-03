@@ -59,16 +59,16 @@ export default function CityTemplateE({ city }: { city: CityLocation }) {
             <table className="w-full border-collapse text-sm">
               <thead>
                 <tr className="bg-[var(--color-navy)] text-left text-white">
-                  <th className="p-2">Pest</th>
-                  <th className="p-2">Activity window</th>
-                  <th className="p-2">Local risk note</th>
+                  <th className="w-1/4 p-2">Pest</th>
+                  <th className="w-1/4 p-2">Activity window</th>
+                  <th className="w-1/2 p-2">Local risk note</th>
                 </tr>
               </thead>
               <tbody>
                 {city.pestProfile.map((p, i) => (
                   <tr key={p.name} className={i % 2 ? "bg-[var(--color-cream)]" : "bg-white"}>
                     <td className="p-2 font-medium">{p.name}</td>
-                    <td className="p-2 whitespace-nowrap">{p.activeSeason}</td>
+                    <td className="p-2">{p.activeSeason}</td>
                     <td className="p-2">{p.note}</td>
                   </tr>
                 ))}

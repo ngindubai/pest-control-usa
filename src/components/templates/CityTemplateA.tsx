@@ -39,16 +39,16 @@ export default function CityTemplateA({ city }: { city: CityLocation }) {
           <table className="w-full border-collapse text-sm">
             <thead>
               <tr className="border-b-2 border-[var(--color-navy)] text-left">
-                <th className="py-2 pr-4 font-semibold">Pest</th>
-                <th className="py-2 pr-4 font-semibold">When active</th>
-                <th className="py-2 font-semibold">Local notes</th>
+                <th className="w-1/4 py-2 pr-4 font-semibold">Pest</th>
+                <th className="w-1/4 py-2 pr-4 font-semibold">When active</th>
+                <th className="w-1/2 py-2 font-semibold">Local notes</th>
               </tr>
             </thead>
             <tbody>
               {city.pestProfile.map((p) => (
                 <tr key={p.name} className="border-b border-[var(--color-muted)]">
                   <td className="py-3 pr-4 font-medium">{p.name}</td>
-                  <td className="py-3 pr-4 whitespace-nowrap text-[var(--color-slate-custom)]">
+                  <td className="py-3 pr-4 text-[var(--color-slate-custom)]">
                     {p.activeSeason}
                   </td>
                   <td className="py-3">{p.note}</td>
