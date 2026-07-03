@@ -13,7 +13,7 @@ const categories = [
     faqs: [
       {
         q: "What areas does PestRemovalUSA serve?",
-        a: "PestRemovalUSA serves all 50 states and Washington D.C. With over 12,000 licensed technicians in our network, we have coverage in every major city and most rural areas across the country. Enter your ZIP code on our homepage to confirm coverage in your area.",
+        a: `PestRemovalUSA serves all 50 states and Washington, DC. With ${siteConfig.stats.technicianCount} licensed technicians in our network, we have coverage in every major city and most rural areas across the country. Enter your ZIP code on our homepage to confirm coverage in your area.`,
       },
       {
         q: "Are your technicians licensed and insured?",

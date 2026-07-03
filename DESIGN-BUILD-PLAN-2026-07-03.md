@@ -512,3 +512,31 @@ page, as clickable markdown links.
     and San Jose (C): the D hero renders navy, both A and D pills use the new
     glass-chip classes, Prattville's stat bar shows "Year-round" instead of the long
     sentence, and B/C hero paragraphs carry `text-left`. `npm run build` passes.
+- 2026-07-03 (Sonnet), Block D5: Trust-number consistency, extended per Gareth's answer
+  to the About-page decision (align to the real config numbers, not the larger
+  fabricated ones).
+  - Review count: found 10 instances of "12,847" against 2 of "12,400+"
+    (`HomepageReviews.tsx` and the config itself). Set `siteConfig.stats.reviewCount`
+    to "12,847" (the dominant, more precise value) and updated the 2 stray instances to
+    match instead of rewriting 10 places.
+  - About page (`src/app/about/page.tsx`): this was the bigger issue. The page's stats,
+    timeline, and hero copy told a self-consistent but fabricated larger company
+    history (Est. 2005, 20+ years, 12,000+ technicians, 2.4M+ homes, a 2024 timeline
+    entry claiming "named #1 pest control company by Consumer Reports"), roughly 20 to
+    40x every real number in `siteConfig`. Per Gareth's decision, rewrote the page to
+    the real scale: stats tile now reads from `siteConfig.stats.*` directly instead of
+    literals, hero badge changed to "Est. 2011" and hero copy to "over 15 years"
+    (matching the config's "15+" years in business), removed the Consumer Reports claim
+    entirely, and replaced the four fabricated named executives (Robert Harmon, Sandra
+    Kline, Dr. Marcus Webb, Alicia Torres, with invented bios) with an aggregate "Our
+    Team" section describing three real team functions (field technicians, regional
+    coordinators, IPM and safety advisors) with no invented names. Rewrote the "Our
+    Story" timeline to 5 entries consistent with a 2011 founding and the real
+    500+ technician, 50,000+ homes figures, removing the unverifiable specific claims.
+  - Also found and fixed the same "12,000+ technicians" contradiction bleeding onto
+    three other pages that were not part of the original audit finding:
+    `src/app/locations/page.tsx`, `src/app/emergency/page.tsx`, and `src/app/faq/page.tsx`,
+    all now reference `siteConfig.stats.technicianCount` instead of a literal.
+  - Verified: repo-wide grep for "12,000+", "2.4M", the four fabricated names, and
+    "Consumer Reports" returns nothing in `src/`. Checked the new About page copy
+    against the banned-vocabulary list and the dash ban, clean. `npm run build` passes.

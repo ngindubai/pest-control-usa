@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BadgeCheck, ArrowRight } from "lucide-react";
+import { siteConfig } from "@/config/site";
 
 interface Review {
   name: string;
@@ -126,7 +127,7 @@ export function HomepageReviews() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-xs text-[var(--color-slate-custom)]">12,400+ verified reviews</p>
+                <p className="text-xs text-[var(--color-slate-custom)]">{siteConfig.stats.reviewCount} verified reviews</p>
               </div>
             </div>
             <div className="flex items-center gap-2 text-sm text-[var(--color-slate-custom)]">

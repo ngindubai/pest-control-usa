@@ -4,23 +4,23 @@ import { siteConfig } from "@/config/site";
 import { Shield, Users, Award, CheckCircle, Star, Clock, MapPin, Leaf } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About PestRemovalUSA | Nationwide Pest Control Since 2005",
+  title: "About PestRemovalUSA | Nationwide Pest Control Since 2011",
   description:
     "Learn about PestRemovalUSA, America's trusted nationwide pest control company. Licensed technicians, eco-friendly treatments, and a 100% satisfaction guarantee in all 50 states and Washington, DC.",
   alternates: { canonical: "https://pestremovalusa.com/about/" },
   openGraph: {
-    title: "About PestRemovalUSA | Nationwide Pest Control Since 2005",
+    title: "About PestRemovalUSA | Nationwide Pest Control Since 2011",
     description:
-      "America's trusted pest control network, 12,000+ licensed technicians, 50 states + DC, 100% guarantee.",
+      "America's trusted pest control network, 500+ licensed technicians, 50 states + DC, 100% guarantee.",
     url: "https://pestremovalusa.com/about/",
   },
 };
 
 const stats = [
-  { value: "20+", label: "Years in Business" },
-  { value: "50", label: "States Served" },
-  { value: "12,000+", label: "Licensed Technicians" },
-  { value: "2.4M+", label: "Homes Protected" },
+  { value: siteConfig.stats.yearsInBusiness, label: "Years in Business" },
+  { value: siteConfig.stats.statesCovered, label: "States Served" },
+  { value: siteConfig.stats.technicianCount, label: "Licensed Technicians" },
+  { value: siteConfig.stats.homesTreated, label: "Homes Protected" },
 ];
 
 const values = [
@@ -67,41 +67,30 @@ const certifications = [
   "ISO 9001 Quality Management Certified",
 ];
 
-const leadership = [
+const teamGroups = [
   {
-    name: "Robert Harmon",
-    title: "Chief Executive Officer",
-    bio: "20+ years in pest management. Former NPMA board member and advocate for eco-responsible pest control practices nationwide.",
-    initials: "RH",
+    icon: Users,
+    title: "Field Technicians",
+    desc: "State-licensed applicators who handle every inspection and treatment visit, trained on the full range of pests we service and recertified on an ongoing basis.",
   },
   {
-    name: "Sandra Kline",
-    title: "Chief Operations Officer",
-    bio: "Built our national technician network from the ground up. Expert in logistics, quality control, and field operations across all 50 states and DC.",
-    initials: "SK",
+    icon: Shield,
+    title: "Regional Coordinators",
+    desc: "Local coordinators in each service area match technicians to appointments, keep response times fast, and know the pest pressure specific to their region.",
   },
   {
-    name: "Dr. Marcus Webb",
-    title: "Chief Entomologist",
-    bio: "PhD in Entomology from UC Davis. Leads our R&D team on treatment protocols, resistance management, and new pest threats.",
-    initials: "MW",
-  },
-  {
-    name: "Alicia Torres",
-    title: "VP of Customer Experience",
-    bio: "Champion of our 100% satisfaction guarantee program. Ensures every customer interaction exceeds expectations.",
-    initials: "AT",
+    icon: Award,
+    title: "IPM & Safety Advisors",
+    desc: "Our Integrated Pest Management specialists set treatment standards, review product safety, and keep every crew current on EPA-registered methods.",
   },
 ];
 
 const timeline = [
-  { year: "2005", event: "Founded in Dallas, TX with a 12-technician team serving the DFW metro area." },
-  { year: "2008", event: "Expanded to 10 states; launched 24/7 emergency response program." },
-  { year: "2012", event: "Crossed 1 million homes treated; earned QualityPro certification." },
-  { year: "2015", event: "National coverage achieved, all 50 states and DC." },
-  { year: "2018", event: "Launched GreenPro eco-friendly treatment line; grew to 6,000 technicians." },
-  { year: "2021", event: "Surpassed 2 million homes protected; launched online instant quote system." },
-  { year: "2024", event: "12,000+ technicians, 4.9-star average rating, named #1 pest control company by Consumer Reports." },
+  { year: "2011", event: "Founded in Dallas, TX, serving the DFW metro area." },
+  { year: "2014", event: "Added wildlife removal alongside our core pest control services." },
+  { year: "2017", event: "Reached licensed coverage across more than half the country." },
+  { year: "2020", event: "Completed nationwide expansion to all 50 states and Washington, DC." },
+  { year: "2023", event: "Surpassed 50,000 homes treated and grew our technician network past 500 licensed pros." },
 ];
 
 export default function AboutPage() {
@@ -115,7 +104,7 @@ export default function AboutPage() {
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-[var(--color-red)] text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
             <Shield className="w-4 h-4" />
-            Est. 2005, Trusted Nationwide
+            Est. 2011, Trusted Nationwide
           </div>
           <h1
             className="text-4xl md:text-6xl font-bold mb-6 leading-tight"
@@ -126,7 +115,7 @@ export default function AboutPage() {
             <span className="text-[var(--color-red-light)]">Pest Control Company</span>
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-10">
-            For over 20 years, PestRemovalUSA has protected American families and businesses from
+            For over 15 years, PestRemovalUSA has protected American families and businesses from
             pests, with licensed experts in every state, eco-responsible treatments, and a
             satisfaction guarantee you can count on.
           </p>
@@ -269,7 +258,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Leadership */}
+      {/* Our Team */}
       <section className="py-20 px-4 bg-[var(--color-muted)]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
@@ -277,31 +266,29 @@ export default function AboutPage() {
               className="text-4xl font-bold text-[var(--color-navy)] mb-4"
               style={{ fontFamily: "var(--font-barlow)" }}
             >
-              Leadership Team
+              Our Team
             </h2>
             <p className="text-lg text-[var(--color-slate-custom)]">
-              Experienced professionals committed to excellence in pest management.
+              A nationwide network of licensed professionals, organized to get a technician
+              to your door fast without sacrificing local knowledge.
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {leadership.map((person) => (
+          <div className="grid md:grid-cols-3 gap-6">
+            {teamGroups.map((group) => (
               <div
-                key={person.name}
+                key={group.title}
                 className="bg-white rounded-[var(--radius-card)] p-6 shadow-[var(--shadow-card)] text-center"
               >
-                <div className="w-16 h-16 bg-[var(--color-navy)] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
-                  {person.initials}
+                <div className="w-14 h-14 bg-[var(--color-navy)] rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <group.icon className="w-6 h-6 text-white" />
                 </div>
                 <h3
-                  className="font-bold text-[var(--color-navy)] mb-1"
+                  className="font-bold text-[var(--color-navy)] mb-2"
                   style={{ fontFamily: "var(--font-barlow)" }}
                 >
-                  {person.name}
+                  {group.title}
                 </h3>
-                <div className="text-[var(--color-red)] text-sm font-semibold mb-3">
-                  {person.title}
-                </div>
-                <p className="text-gray-600 text-sm leading-relaxed">{person.bio}</p>
+                <p className="text-gray-600 text-sm leading-relaxed">{group.desc}</p>
               </div>
             ))}
           </div>
@@ -323,7 +310,7 @@ export default function AboutPage() {
             4.9 / 5.0
           </div>
           <p className="text-blue-200 text-lg mb-8">
-            Based on 12,847 verified customer reviews across all 50 states
+            Based on {siteConfig.stats.reviewCount} verified customer reviews across all 50 states and DC
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

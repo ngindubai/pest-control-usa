@@ -126,7 +126,7 @@ export default function LocationsPage() {
           {[
             { label: "States Served", value: "50" },
             { label: "Cities Covered", value: "2,500+" },
-            { label: "Licensed Technicians", value: "12,000+" },
+            { label: "Licensed Technicians", value: siteConfig.stats.technicianCount },
             { label: "Same-Day Available", value: "Most Areas" },
           ].map((s) => (
             <div key={s.label}>

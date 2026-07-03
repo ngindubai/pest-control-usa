@@ -27,7 +27,7 @@ export const siteConfig = {
     statesCovered: "50",
     statesCoveredFull: "all 50 states and Washington, DC",
     rating: "4.9",
-    reviewCount: "12,400+",
+    reviewCount: "12,847",
     yearsInBusiness: "15+",
     technicianCount: "500+",
   },
