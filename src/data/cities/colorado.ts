@@ -52,15 +52,35 @@ export const coloradoCities: CityLocation[] = [
     localHook:
       "Every spring the Front Range gets its own pest event: miller moths pouring through in the thousands, slipping around every door and window on their way to the mountains.",
     intro:
-      "Pest control in Denver looks different from a humid city. The high, dry, semi-arid climate keeps mosquitoes and tropical pests low, so the local cast leans toward rodents, ants, wasps, and spiders. Two things stand out: the fall rush of mice indoors when the cold arrives, and the spring miller moth migration that funnels through the Front Range. Most homes here need a plan tuned to the season, exclusion in fall, wasp and spider work in summer, rather than the year-round heat-pest pressure of the South.",
+      "Pest control in Denver centers on two seasonal events more than anything else: mice pushing indoors once the cold sets in, and the spring miller moth migration that funnels straight through the Front Range. The high, dry, semi-arid climate keeps mosquitoes and other moisture-loving pests low, so the rest of the local cast, pavement and carpenter ants, yellowjackets and paper wasps, and the occasional black widow, fills out a calendar that runs on temperature and season rather than year-round humidity. Most Denver homes do best with a plan tuned to that calendar: exclusion work before fall, wasp and spider attention through summer, and a quick response during the few weeks the moths pass through, rather than the constant heat-pest pressure a humid Southern city deals with.",
     sections: [
+      {
+        heading: "Why do mice come in once it gets cold?",
+        body: "Denver winters are cold, and mice respond by moving indoors through gaps as small as a pencil. Once inside, they nest in walls and basements for the season. Sealing entry points before fall is far more effective than trapping after the fact. The dry climate also means fewer moisture pests overall, so rodent exclusion is the main autumn job.",
+      },
       {
         heading: "What are the moths swarming my house in spring?",
         body: "Those are miller moths, the adult stage of the army cutworm, and each spring they migrate from the plains up to the mountains, passing right through the Denver area in large numbers. They are a nuisance rather than a danger and do not breed indoors. Reducing outdoor lighting at night and sealing gaps around doors and windows cuts how many get in during the few weeks they pass through.",
       },
       {
-        heading: "Why do mice come in once it gets cold?",
-        body: "Denver winters are cold, and mice respond by moving indoors through gaps as small as a pencil. Once inside, they nest in walls and basements for the season. Sealing entry points before fall is far more effective than trapping after the fact. The dry climate also means fewer moisture pests overall, so rodent exclusion is the main autumn job.",
+        heading: "Pavement and carpenter ants in Denver",
+        body: "Pavement ants nest under sidewalks, patios, and foundation slabs across Denver, and their shallow, sandy mounds are a common sight along walkways and driveways once the weather warms. Carpenter ants take a different route into a Front Range home: they seek out damp wood, most often around a slow roof leak, a dripping hose bib, or an irrigation line that keeps a sill or beam wet longer than it should be. Neither species is drawn in by the cold the way mice are, so ant activity in Denver tracks the warmer months, picking up in spring and holding through summer before tapering off. Because carpenter ants specifically target moisture-damaged wood, fixing the leak or drainage issue that created the damp spot is as important as any treatment, otherwise a new colony tends to find the same welcoming timber.",
+      },
+      {
+        heading: "Wasps and yellowjackets through a dry summer",
+        body: "Yellowjackets and paper wasps build through the dry Front Range summer, and by late season their nests are at their largest and most defensive, typically tucked under eaves, inside wall voids, or along deck framing where they are easy to miss until someone gets stung. Denver's dry conditions suit wasps well, and a nest that goes unnoticed in June is a very different problem by August. The safest window to deal with a nest is early, while it is still small and the colony has not yet built up the numbers that make late-summer removals more hazardous. Outdoor eating areas and trash cans are the other flashpoint, since a stray wasp investigating a soda can in August is often the first sign of a nest nearby that has already grown large.",
+      },
+      {
+        heading: "Spiders and black widows at lower elevations",
+        body: "Common house spiders are widespread across Denver and mostly harmless, but black widows do turn up at the city's lower elevations, favoring window wells, garages, woodpiles, and other undisturbed outbuilding clutter. A black widow bite is medically significant, which is the main reason pest control here treats spider work as more than cosmetic. Clearing woodpiles away from the foundation, keeping window wells free of debris, and reducing garage clutter near doors and play areas removes the harborage black widows rely on without requiring a homeowner to identify a spider on sight. Because spiders are more visible in the warmer months, most Denver households pair spider work with the same summer service window used for wasps rather than treating it as a separate visit.",
+      },
+      {
+        heading: "Voles in the yard, a different rodent problem",
+        body: "Voles are the outdoor half of Denver's rodent picture, and they are easy to mistake for a lawn problem rather than a pest one. While house mice push indoors for winter, voles stay outside year-round, tunneling through yards, gardens, and mulched beds and gnawing at roots and bulbs along the way. Their runways show up as thin, worn tracks through grass or snow, most visible in late winter when the melt reveals a season of tunneling underneath. Because voles do not seek shelter indoors the way mice do, exclusion sealing does nothing for them, the more useful steps are keeping mulch pulled back from plant stems, mowing regularly, and clearing brush piles where voles like to travel undetected between the garden and the foundation.",
+      },
+      {
+        heading: "Why Denver's dry climate changes the pest calendar",
+        body: "Denver's dry, high-altitude climate is really the thread running through all of this. Low humidity keeps the mosquito and cockroach pressure that dominates humid cities largely out of the picture here, but it does not remove pest pressure, it just redirects it toward species that track temperature and season instead of moisture: mice moving indoors as the cold arrives, ants and wasps building through the dry summer, and the migratory miller moths passing through each spring on a schedule set by the mountains rather than the city itself. That seasonal rhythm is why a Denver pest plan is built around timing, fall exclusion before the first hard cold, summer treatment for ants and wasps, and readiness for the few weeks each spring when the moths move through, rather than a single year-round treatment approach.",
       },
     ],
     prevention: [
@@ -168,6 +188,26 @@ export const coloradoCities: CityLocation[] = [
         heading: "Voles: the lawn pest most homeowners don't expect",
         body: "Voles are small rodents that tunnel just below the soil surface, creating winding runways through lawns and killing grass by eating root systems. They are far more common in Colorado Springs than in most US cities because the foothills grassland habitat extends right to the city's edges. Vole damage becomes visible in spring when the snow melts: winding tunnels and patches of dead grass mark their winter activity. Managing vole populations requires a combination of habitat modification and population control.",
       },
+      {
+        heading: "Ants in Colorado Springs, three species and one season",
+        body: "Pavement ants are the ant species most Colorado Springs homeowners actually deal with, foraging through kitchens and bathrooms in search of crumbs and moisture and building the small, sandy mounds that show up between sidewalk seams and along foundation edges. In the drier grassland areas closer to the city's edges, red harvester ants are a different concern entirely: they bite when disturbed and their mounds are best avoided rather than treated casually. Odorous house ants round out the local mix, trailing along kitchen counters and baseboards in search of sweets. Activity across all three species tracks the warmer months, picking up in April and running through October, which lines up with the same window most Colorado Springs pest plans schedule general ant treatment.",
+      },
+      {
+        heading: "Yellow jackets and bald-faced hornets late in summer",
+        body: "Yellow jacket colonies in Colorado Springs build through summer and reach their most aggressive point in August and September, nesting both in the ground and inside wall voids, which makes them easy to disturb accidentally while mowing or doing yard work near a foundation. The foothills setting adds bald-faced hornets to the picture, a species that builds large, visible paper nests high in trees or tucked under eaves rather than underground. Because both species reach peak aggression late in the season, the safest time to deal with a nest is in spring, while the colony is still small and far less likely to swarm defensively. A ground nest that goes unnoticed through summer is a considerably more hazardous removal by September.",
+      },
+      {
+        heading: "German cockroaches, the year-round indoor exception",
+        body: "German cockroaches are the constant in Colorado Springs' pest picture, since they are entirely indoor insects and never have to contend with the cold winters or dry summers outside. They establish in apartment buildings, restaurants, and other multi-unit or commercial settings, and once established they maintain steady populations in kitchens, bathrooms, and wall voids regardless of the season outside. Because the exterior climate has no effect on them, cockroach control here is a year-round service rather than a seasonal one, and it depends more on sanitation, moisture control, and targeted baiting than on any seasonal timing that works for the outdoor pests on this list. Shared walls in multi-unit buildings are the main reason a single unit's cockroach problem rarely stays contained, since the same wall voids and utility penetrations that let German cockroaches move room to room in a kitchen let them move unit to unit in a building.",
+      },
+      {
+        heading: "Where Colorado Springs' yard pests overlap",
+        body: "Yard work is where several of Colorado Springs' pests actually overlap for homeowners. Reducing wood mulch and thick ground cover in gardens near open land cuts down the vole harborage that damages lawns and landscaping, and the same clearing work makes it far easier to spot a harvester ant mound before someone steps on it or a ground-nesting yellow jacket colony before a mower disturbs it. None of these three, voles, harvester ants, or ground-nesting wasps, are pests a homeowner treats the same way, but all three benefit from the same basic yard discipline: keep ground cover thin, keep an eye on bare or disturbed soil, and treat anything that looks like a new mound or nest entrance as worth a second look rather than routine yard debris.",
+      },
+      {
+        heading: "Why elevation changes the Colorado Springs pest calendar",
+        body: "Colorado Springs' elevation and foothills setting is really what separates its pest pressure from a typical flatland city. The same open grassland that supports deer mice and voles also means fall genuinely arrives earlier here, which is why the September mouse surge starts sooner than it does in Denver, and why prevention work like foundation sealing needs to happen in late August rather than waiting for the calendar month most cities use. Pairing that early exclusion timing with spring wasp-nest treatment and steady, no-slack cockroach service indoors covers the three timing windows that actually matter for a home at this altitude.",
+      },
     ],
     prevention: [
       "Seal foundation gaps and utility penetrations in September before the early mountain fall drives mice inside.",
@@ -265,7 +305,7 @@ export const coloradoCities: CityLocation[] = [
     localHook:
       "Aurora gets the same Front Range pest calendar as Denver next door: the spring miller moth migration pouring through, and the fall rush of mice indoors when the cold arrives. On the city's growing eastern edge, the open plains also bring voles into newer subdivisions.",
     intro:
-      "Pest control in Aurora follows the Front Range seasons. The high, dry, semi-arid climate keeps humidity-loving pests low, so the local cast leans toward rodents, ants, wasps, and spiders. Two events stand out: the spring miller moth migration that funnels through the area, and the fall rush of mice indoors when the cold sets in. On Aurora's fast-growing eastern edge, the bordering open plains add vole pressure to the newer subdivisions. Most homes here do well with a plan tuned to the season.",
+      "Pest control in Aurora runs on the same Front Range calendar as the rest of the metro area: mice pushing indoors once the cold sets in each fall, and the miller moth migration passing through every spring on its way to the mountains. The high, dry, semi-arid climate keeps humidity-loving pests low, so ants, wasps, and spiders round out the rest of the local cast, active mainly through the warmer months rather than year-round. What sets Aurora apart is its fast-growing eastern edge, where new subdivisions now sit directly against open plains, adding vole pressure to yards that a purely urban neighborhood elsewhere in the metro would not see. Most Aurora homes do well with a plan built around that calendar, exclusion before fall, wasp and spider attention through summer, and extra yard vigilance on the developing eastern side.",
     sections: [
       {
         heading: "Front Range seasons, Aurora edges",
@@ -274,6 +314,22 @@ export const coloradoCities: CityLocation[] = [
       {
         heading: "What are the moths in spring, and why do mice come in fall?",
         body: "The spring moths are miller moths, the adult stage of the army cutworm, migrating from the plains up to the mountains through the Front Range each year in large numbers. They are a nuisance, not a danger, and do not breed indoors. Reducing outdoor lighting and sealing gaps limits how many get in. The fall mice are responding to the cold: Aurora winters drive them indoors through gaps as small as a pencil. Sealing entry points before fall is far more effective than trapping after the fact.",
+      },
+      {
+        heading: "Ants in Aurora, two species and different habits",
+        body: "Pavement ants nest under sidewalks and foundations across Aurora, building the small, shallow mounds that show up along walkways once the weather warms. Carpenter ants take a different path into a home, seeking out damp wood around a slow leak, a dripping irrigation line, or any moisture-damaged sill or beam rather than nesting outdoors the way pavement ants do. Neither ant responds to the cold the way mice do, so activity for both tracks the warmer months, building through spring and holding into summer. Because carpenter ants specifically need damp wood to establish, fixing the leak or drainage problem that created the moisture is as important as any direct treatment, otherwise a new colony tends to find the same wet timber again.",
+      },
+      {
+        heading: "Yellow jacket and paper wasp nests through summer",
+        body: "Yellow jacket and paper wasp nests build steadily through Aurora's dry summer and reach their largest, most defensive size late in the season, tucked into the ground, wall voids, and the underside of eaves where they are easy to miss until someone gets stung. Food and trash left outdoors draw them in through late summer, and a nest that goes unnoticed in June is a considerably more dangerous removal by August or September. The safest approach is knocking down a small nest early, while the colony is still manageable, rather than waiting until the population has grown large enough to defend it aggressively. A nest built inside a wall void is often the hardest to catch early, since the first visible sign is frequently just a handful of wasps entering and exiting a small gap near a soffit or vent, long before the nest itself is large enough to be obvious from the ground.",
+      },
+      {
+        heading: "Black widows in Aurora's garages and window wells",
+        body: "Common house spiders are widespread across Aurora and mostly harmless, but black widows do turn up in window wells, garages, woodpiles, and other dry, undisturbed outbuilding clutter. Their bite is medically significant, which is why pest control here treats spider work as more than a cosmetic service. Clearing woodpiles away from the foundation, keeping window wells free of debris, and reducing yard clutter near doors and play areas removes the harborage black widows rely on. Spiders are more visible during the warmer months, so most Aurora households pair spider work with the same summer service window used for wasps. Garages and detached sheds tend to be where black widows are found most often, since those spaces stay dry, dark, and undisturbed for long stretches, exactly the conditions the species prefers over the more frequently used parts of a home.",
+      },
+      {
+        heading: "Voles on the eastern edge, a different kind of pressure",
+        body: "Voles behave very differently from the house mice they are often lumped in with, and the distinction matters for treatment. Rather than moving indoors for winter the way mice do, voles stay outside year-round, tunneling just under the surface of lawns and gardens and eating roots and bulbs as they go. Damage typically becomes visible in spring, once the snow melts and reveals a winter's worth of winding surface runways cut through the grass. Because voles never seek indoor shelter, sealing gaps in the foundation does nothing to reduce them, the more effective steps are keeping mulch and ground cover thin near garden beds and managing the population directly where tunneling is active. This is most relevant for the newer subdivisions built closest to the open plains on Aurora's eastern edge, since that boundary is exactly where the grassland vole population meets a lawn for the first time, while homes in the established, fully built-out parts of the city rarely see this kind of pressure at all.",
       },
     ],
     prevention: [

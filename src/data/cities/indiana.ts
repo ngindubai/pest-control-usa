@@ -62,6 +62,26 @@ export const indianaCities: CityLocation[] = [
         heading: "Carpenter ants and the damp-wood connection",
         body: "Worth knowing: carpenter ants do not eat wood, they tunnel through it, and they go for wood that is already damp or damaged. Finding them indoors in spring often points to a leak or a ventilation problem behind the scenes. A good inspection treats the ants and tracks down the moisture, so you are not back in the same spot next year.",
       },
+      {
+        heading: "Why German roaches keep coming back in Indianapolis rentals",
+        body: "Here is why German roaches are such a headache in Indianapolis rentals specifically: they breed fast in warm kitchens, and once a population is established it moves between apartments through the same shared plumbing and wall gaps that connect every unit in the building. Treat just your own kitchen and you might see roaches gone for a few weeks, only to have them come right back once the neighboring unit's untreated population finds its way back through the same pipe chase. The fix that actually holds is coordinated treatment across the building, not a single tenant handling their own kitchen in isolation, and sealing the gaps that connect units matters just as much as the baiting itself. Property managers who coordinate treatment building-wide tend to see the problem actually resolve, while tenants going it alone unit by unit mostly just chase the same roaches back and forth between apartments.",
+      },
+      {
+        heading: "The wasp timing that actually matters",
+        body: "Wasps follow a pretty predictable arc here: small and manageable in early summer, then genuinely aggressive by the time August and September roll around. Yellowjackets nest in the ground and inside wall voids, which is exactly why you can mow the lawn or reach into a soffit vent without any warning that a colony is right there. Paper wasps are a bit easier to spot since their nests hang visibly under eaves, but they will still defend a nest if you get too close. The trick with both is timing: knock a nest down while it is still small in June, and it is a five-minute job. Wait until the colony peaks in late summer, and it becomes a genuinely riskier removal. A nest built inside a wall void is the sneaky one, the first sign is usually just a few wasps going in and out of a small gap, well before the colony behind it is big enough to notice from the ground.",
+      },
+      {
+        heading: "Why spiders get more visible in fall",
+        body: "Spiders get more visible around Indianapolis homes in late summer and fall, and that is not a coincidence, they are following the insects they hunt indoors as the weather cools and prey gets scarcer outside. Common house spiders are harmless and mostly just a nuisance in basements and garage corners, but clearing out clutter in those spaces does double duty: less spider harborage, and fewer of the insects spiders are chasing in the first place. If a spider problem seems to be getting worse every fall, it is usually a sign that something else, ants, roaches, or overwintering insects, is drawing them indoors as a food source.",
+      },
+      {
+        heading: "Rain-triggered ants versus moisture-damage ants",
+        body: "Odorous house ants have one very specific trigger in Indianapolis: rain. A kitchen that has been ant-free all summer can suddenly have a trail the very next day after a heavy storm, because the ants already established outdoors respond to sudden soil moisture by moving activity indoors looking for both water and food. That is different from carpenter ants, which track a moisture problem in the wood itself rather than reacting to weather directly. Knowing which ant you are dealing with actually matters, since an odorous house ant trail usually clears up with basic exclusion and bait, while carpenter ants mean there is a leak or damp-wood issue somewhere that needs to be found first.",
+      },
+      {
+        heading: "Indianapolis really runs on two seasons, not four",
+        body: "Put it all together and Indianapolis really runs on two seasons, not four, when it comes to pest pressure: a short, busy summer stretch that has to handle ants, wasps, and spiders all at once, and a long fall-through-winter stretch that is almost entirely about keeping mice and German roaches from settling in on the building's own heat. Getting ahead of the fall mouse rush with exclusion in late summer is still the single highest-value move on this list, since a sealed home going into winter has a much shorter to-do list for the rest of the cold season than one that is still finding new gaps in January.",
+      },
     ],
     prevention: [
       "Seal foundation, pipe, and door gaps in late summer to keep mice out.",
