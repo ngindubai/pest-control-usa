@@ -235,7 +235,8 @@ pest-control-usa/
 - **Next block:** Chunk 90, T3 continues, rotation at C.
 - **Deploy:** Always push directly to `main`. deploy.yml fires automatically. Site goes live on every push.
 - **SEO remediation:** 2026-07-02, an SEO audit and build plan ran against this repo. Build restoration, sitemap/discoverability, dash sweep, and schema/trust cleanup are complete. See `SEO-AUDIT-2026-07-02.html` and `SEO-BUILD-PLAN-2026-07-02.md` for the full record and remaining Block 3 (answer-first content) work.
+- **Design and conversion audit:** 2026-07-03, a browser-based design and conversion audit ran against the live site across all 5 templates plus core static pages. Fixed sitewide dead nav links (4 new real service pages built, `services_count` now 27), a 48-vs-50-states contradiction, a crushed data-table column on Templates A/E, added a sitewide sticky mobile call bar and a lead form on every city template, gave Template D a real hero, and fixed a fabricated company history on the About page that contradicted the real site numbers by 20 to 40x. See `DESIGN-BUILD-PLAN-2026-07-03.md` for the full record.
 
 ---
 
-*Last updated: 2026-07-02*
+*Last updated: 2026-07-03*
