@@ -4,7 +4,6 @@ import { cn } from "@/lib/utils";
 import { siteConfig } from "@/config/site";
 import {
   ShieldCheck,
-  Star,
   Clock,
   Leaf,
   Users,
@@ -17,13 +16,11 @@ import {
 export type TrustBadgeType =
   | "licensed"
   | "insured"
-  | "rating"
+  | "coverage"
   | "same-day"
   | "guarantee"
   | "eco"
-  | "family-safe"
-  | "bbb"
-  | "experience";
+  | "family-safe";
 
 const badgeData: Record<
   TrustBadgeType,
@@ -31,18 +28,18 @@ const badgeData: Record<
 > = {
   licensed: {
     icon: <ShieldCheck size={22} />,
-    label: "Licensed & Certified",
+    label: "Licensed & Insured",
     sub: "50 states + DC",
   },
   insured: {
     icon: <BadgeCheck size={22} />,
     label: "Fully Insured",
-    sub: "$2M liability",
+    sub: "General liability",
   },
-  rating: {
-    icon: <Star size={22} fill="currentColor" />,
-    label: "4.9★ Google",
-    sub: siteConfig.stats.reviewCount + " reviews",
+  coverage: {
+    icon: <Users size={22} />,
+    label: siteConfig.stats.statesCovered + " States + DC",
+    sub: "Nationwide network",
   },
   "same-day": {
     icon: <Clock size={22} />,
@@ -51,8 +48,8 @@ const badgeData: Record<
   },
   guarantee: {
     icon: <Award size={22} />,
-    label: "100% Guaranteed",
-    sub: "Satisfaction promise",
+    label: "Satisfaction Guarantee",
+    sub: "We make it right",
   },
   eco: {
     icon: <Leaf size={22} />,
@@ -63,16 +60,6 @@ const badgeData: Record<
     icon: <Users size={22} />,
     label: "Family & Pet Safe",
     sub: "Non-toxic options",
-  },
-  bbb: {
-    icon: <BadgeCheck size={22} />,
-    label: "BBB Accredited",
-    sub: "A+ rating",
-  },
-  experience: {
-    icon: <Award size={22} />,
-    label: siteConfig.stats.yearsInBusiness + " Experience",
-    sub: "Industry leaders",
   },
 };
 
@@ -122,7 +109,7 @@ export interface TrustBarProps {
 const defaultBadges: TrustBadgeType[] = [
   "licensed",
   "insured",
-  "rating",
+  "coverage",
   "same-day",
   "guarantee",
   "eco",

@@ -124,9 +124,9 @@ export default function LocationsPage() {
       <section className="py-8 px-4 bg-[var(--color-muted)] border-b border-gray-200">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-8 text-center">
           {[
-            { label: "States Served", value: "50" },
-            { label: "Cities Covered", value: "2,500+" },
-            { label: "Licensed Technicians", value: siteConfig.stats.technicianCount },
+            { label: "States + DC Served", value: "50" },
+            { label: "Cities Covered", value: "2,000+" },
+            { label: "Licensed & Insured", value: "Local Pros" },
             { label: "Same-Day Available", value: "Most Areas" },
           ].map((s) => (
             <div key={s.label}>

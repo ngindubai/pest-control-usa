@@ -6,8 +6,8 @@ import {
   CheckCircle,
   AlertTriangle,
   Shield,
+  ShieldCheck,
   ChevronRight,
-  Star,
   Zap,
 } from "lucide-react";
 import { services, getServiceBySlug, getRelatedServices } from "@/data/services";
@@ -185,12 +185,8 @@ export default async function ServicePage({ params }: Props) {
                 ))}
               </ul>
               <div className="mt-6 pt-6 border-t border-white/20 flex items-center gap-2">
-                <div className="flex gap-0.5">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                  ))}
-                </div>
-                <span className="text-blue-200 text-sm">4.9★ · 12,847 verified reviews</span>
+                <ShieldCheck className="w-5 h-5 text-blue-200" aria-hidden="true" />
+                <span className="text-blue-200 text-sm">Licensed and insured local pros, 50 states + DC</span>
               </div>
             </div>
           </div>
@@ -296,9 +292,9 @@ export default async function ServicePage({ params }: Props) {
               className="text-7xl font-black mb-2"
               style={{ fontFamily: "var(--font-barlow)" }}
             >
-              4.9★
+              24/7
             </div>
-            <p className="text-blue-200 text-lg mb-6">12,847 verified 5-star reviews</p>
+            <p className="text-blue-200 text-lg mb-6">Same-day and emergency service available</p>
             <Link
               href={siteConfig.phoneTel}
               className="inline-flex items-center gap-2 bg-[var(--color-red)] text-white font-bold px-8 py-4 rounded-[var(--radius-btn)] hover:bg-[var(--color-red-light)] transition-colors"

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
-import { Shield, Users, Award, CheckCircle, Star, Clock, MapPin, Leaf } from "lucide-react";
+import { Shield, ShieldCheck, Users, Award, CheckCircle, Clock, MapPin, Leaf } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About PestRemovalUSA | Nationwide Pest Control Since 2011",
@@ -11,16 +11,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About PestRemovalUSA | Nationwide Pest Control Since 2011",
     description:
-      "America's trusted pest control network, 500+ licensed technicians, 50 states + DC, 100% guarantee.",
+      "America's pest control network of licensed, insured local technicians. 50 states + DC, same-day service, satisfaction guarantee.",
     url: "https://pestremovalusa.com/about/",
   },
 };
 
 const stats = [
-  { value: siteConfig.stats.yearsInBusiness, label: "Years in Business" },
-  { value: siteConfig.stats.statesCovered, label: "States Served" },
-  { value: siteConfig.stats.technicianCount, label: "Licensed Technicians" },
-  { value: siteConfig.stats.homesTreated, label: "Homes Protected" },
+  { value: siteConfig.stats.statesCovered, label: "States + DC Served" },
+  { value: "24/7", label: "Emergency Service" },
+  { value: "Same-Day", label: "Appointments Available" },
+  { value: "Free", label: "Inspections & Quotes" },
 ];
 
 const values = [
@@ -37,7 +37,7 @@ const values = [
   {
     icon: Award,
     title: "Certified Experts",
-    desc: "Every technician is state-licensed, NPMA-trained, and undergoes continuous education to stay current with best practices.",
+    desc: "The local technicians in our network are licensed and insured, and stay current with ongoing training and industry best practices.",
   },
   {
     icon: CheckCircle,
@@ -56,15 +56,14 @@ const values = [
   },
 ];
 
-const certifications = [
-  "National Pest Management Association (NPMA) Member",
-  "EPA Registered Pesticide Programs Compliant",
-  "QualityPro Certified (Industry Gold Standard)",
-  "GreenPro Eco-Certification",
-  "Better Business Bureau A+ Rating",
-  "State-Licensed in All 50 States + DC",
-  "OSHA Safety Trained Workforce",
-  "ISO 9001 Quality Management Certified",
+const standards = [
+  "Licensed, insured local technicians",
+  "EPA-registered products, applied to the label",
+  "Integrated Pest Management (IPM) approach",
+  "Family and pet safe treatment options",
+  "Written quotes and upfront pricing",
+  "Satisfaction guarantee with free re-treatments",
+  "Coverage in all 50 states and Washington, DC",
 ];
 
 const teamGroups = [
@@ -90,7 +89,7 @@ const timeline = [
   { year: "2014", event: "Added wildlife removal alongside our core pest control services." },
   { year: "2017", event: "Reached licensed coverage across more than half the country." },
   { year: "2020", event: "Completed nationwide expansion to all 50 states and Washington, DC." },
-  { year: "2023", event: "Surpassed 50,000 homes treated and grew our technician network past 500 licensed pros." },
+  { year: "2023", event: "Grew our network of licensed local technicians to cover communities in every state." },
 ];
 
 export default function AboutPage() {
@@ -168,13 +167,13 @@ export default function AboutPage() {
                 className="text-2xl font-bold text-[var(--color-navy)] mb-6"
                 style={{ fontFamily: "var(--font-barlow)" }}
               >
-                Our Certifications
+                Our Standards
               </h3>
               <ul className="space-y-3">
-                {certifications.map((cert) => (
-                  <li key={cert} className="flex items-start gap-3">
+                {standards.map((item) => (
+                  <li key={item} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                    <span className="text-gray-700 text-sm">{cert}</span>
+                    <span className="text-gray-700 text-sm">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -295,29 +294,26 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Reviews Snapshot */}
+      {/* Our commitment */}
       <section className="py-16 px-4 bg-[var(--color-navy)] text-white text-center">
         <div className="max-w-4xl mx-auto">
-          <div className="flex justify-center gap-1 mb-4">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <Star key={i} className="w-8 h-8 fill-yellow-400 text-yellow-400" />
-            ))}
-          </div>
-          <div
-            className="text-5xl font-black mb-2"
+          <ShieldCheck className="w-12 h-12 text-[var(--color-red)] mx-auto mb-4" aria-hidden="true" />
+          <h2
+            className="text-3xl md:text-4xl font-black mb-3"
             style={{ fontFamily: "var(--font-barlow)" }}
           >
-            4.9 / 5.0
-          </div>
-          <p className="text-blue-200 text-lg mb-8">
-            Based on {siteConfig.stats.reviewCount} verified customer reviews across all 50 states and DC
+            Our Commitment to You
+          </h2>
+          <p className="text-blue-200 text-lg mb-8 max-w-2xl mx-auto">
+            Licensed, insured local technicians, clear upfront pricing, and a satisfaction
+            guarantee on every visit. If covered pests come back between treatments, so do we.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/reviews"
+              href="/contact"
               className="bg-white text-[var(--color-navy)] font-bold px-8 py-4 rounded-[var(--radius-btn)] hover:bg-blue-50 transition-colors"
             >
-              Read Customer Reviews
+              Get a Free Quote
             </Link>
             <Link
               href={siteConfig.phoneTel}

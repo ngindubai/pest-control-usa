@@ -101,10 +101,10 @@ export default function ServicesPage() {
           {[
             "✅ Licensed & Insured",
             "✅ 50 States + DC",
-            "✅ 100% Satisfaction Guarantee",
+            "✅ Satisfaction Guarantee",
             "✅ Free Inspection",
             "✅ Same-Day Service",
-            "✅ 4.9★ · 12,847 Reviews",
+            "✅ Upfront Pricing",
           ].map((item) => (
             <span key={item}>{item}</span>
           ))}
@@ -214,10 +214,10 @@ export default function ServicesPage() {
           </div>
           <div className="grid grid-cols-2 gap-4 text-center">
             {[
-              { value: "27+", label: "Pest Species Covered" },
-              { value: "50", label: "States Served" },
-              { value: "250K+", label: "Homes Protected" },
-              { value: "4.9★", label: "12,847 Reviews" },
+              { value: "27+", label: "Pest Services Offered" },
+              { value: "50", label: "States + DC Served" },
+              { value: "24/7", label: "Emergency Service" },
+              { value: "Free", label: "Inspections & Quotes" },
             ].map((stat) => (
               <div
                 key={stat.label}

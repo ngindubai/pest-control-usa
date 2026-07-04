@@ -19,11 +19,14 @@ export function organizationSchema() {
     "@id": ORGANIZATION_ID,
     name: siteConfig.fullName,
     url: siteConfig.url,
+    logo: `${siteConfig.url}/logo.png`,
+    image: `${siteConfig.url}/og-default.png`,
     telephone: siteConfig.phone,
     email: siteConfig.email,
     description: siteConfig.description,
     areaServed: { "@type": "Country", name: "United States" },
-    sameAs: Object.values(siteConfig.social),
+    // sameAs intentionally omitted: the social profiles were placeholders that
+    // were not live. Add them back here only once the real profiles exist.
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",

@@ -13,11 +13,11 @@ const categories = [
     faqs: [
       {
         q: "What areas does PestRemovalUSA serve?",
-        a: `PestRemovalUSA serves all 50 states and Washington, DC. With ${siteConfig.stats.technicianCount} licensed technicians in our network, we have coverage in every major city and most rural areas across the country. Enter your ZIP code on our homepage to confirm coverage in your area.`,
+        a: `PestRemovalUSA serves all 50 states and Washington, DC through a network of local pest control technicians, with coverage in every major city and most rural areas across the country. Enter your ZIP code on our homepage to confirm coverage in your area.`,
       },
       {
         q: "Are your technicians licensed and insured?",
-        a: "Yes. Every PestRemovalUSA technician is fully licensed in their state of operation, carries general liability insurance, and has passed a comprehensive background check. Many also hold additional certifications from the National Pest Management Association (NPMA).",
+        a: "Yes. We work with licensed, insured local pest control technicians who operate to their state's requirements and carry general liability insurance. You can ask your assigned technician for their license and insurance details before any work begins.",
       },
       {
         q: "How quickly can you respond?",

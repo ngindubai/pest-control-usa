@@ -112,7 +112,7 @@ function TopBar() {
           <span>·</span>
           <span>Licensed & Insured, 50 States + DC</span>
           <span>·</span>
-          <span>4.9★ on Google ({siteConfig.stats.reviewCount} Reviews)</span>
+          <span>Free Inspections & Upfront Pricing</span>
         </div>
         <div className="flex items-center gap-3">
           <Link

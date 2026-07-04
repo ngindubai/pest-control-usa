@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Phone, CheckCircle, Home, Shield, Leaf, Star } from "lucide-react";
+import { Phone, CheckCircle, Home, Shield, Leaf, ShieldCheck } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
@@ -73,10 +73,12 @@ const plans = [
   },
 ];
 
-const reviews = [
-  { name: "Laura B.", loc: "Austin, TX", text: "On the quarterly plan for 3 years. Best home investment ever. Zero pests.", rating: 5 },
-  { name: "Mark H.", loc: "Charlotte, NC", text: "Had a severe German cockroach problem. One treatment and they were gone in 5 days.", rating: 5 },
-  { name: "Tina P.", loc: "Portland, OR", text: "Used the eco-friendly option for my young kids. Works just as well, feels great.", rating: 5 },
+// What every residential plan includes. This block replaced fabricated customer
+// testimonials on 2026-07-04; bring real, consented reviews back once collected.
+const planIncludes = [
+  { title: "Licensed, insured local pros", text: "Every visit is handled by a licensed, insured technician who works to your state's requirements." },
+  { title: "Family and pet safe options", text: "Ask for eco-friendly, low-toxicity treatments that are a fit for homes with kids and pets." },
+  { title: "Guarantee between visits", text: "If covered pests return between scheduled treatments, we come back and re-treat at no extra charge." },
 ];
 
 export default function ResidentialPage() {
@@ -120,9 +122,9 @@ export default function ResidentialPage() {
           {/* Quick trust */}
           <div className="flex flex-wrap justify-center gap-6 mt-12">
             {[
-              { icon: Shield, label: "100% Guaranteed" },
+              { icon: Shield, label: "Satisfaction Guarantee" },
               { icon: Leaf, label: "Eco-Friendly Options" },
-              { icon: Star, label: "4.9★ Rating" },
+              { icon: ShieldCheck, label: "Licensed & Insured" },
             ].map((t) => (
               <div key={t.label} className="flex items-center gap-2 text-blue-200">
                 <t.icon className="w-5 h-5" />
@@ -278,32 +280,27 @@ export default function ResidentialPage() {
         </div>
       </section>
 
-      {/* Mini Reviews */}
+      {/* What your plan includes */}
       <section className="py-16 px-4 bg-[var(--color-muted)]">
         <div className="max-w-5xl mx-auto">
           <h2
             className="text-3xl font-bold text-[var(--color-navy)] mb-8 text-center"
             style={{ fontFamily: "var(--font-barlow)" }}
           >
-            What Homeowners Say
+            What Every Home Plan Includes
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
-            {reviews.map((r) => (
-              <div key={r.name} className="bg-white rounded-[var(--radius-card)] p-6 shadow-[var(--shadow-card)]">
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: r.rating }).map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                  ))}
-                </div>
-                <p className="text-gray-600 text-sm mb-3 italic">&ldquo;{r.text}&rdquo;</p>
-                <div className="font-semibold text-[var(--color-navy)] text-sm">{r.name}</div>
-                <div className="text-xs text-gray-400">{r.loc}</div>
+            {planIncludes.map((item) => (
+              <div key={item.title} className="bg-white rounded-[var(--radius-card)] p-6 shadow-[var(--shadow-card)]">
+                <CheckCircle className="w-6 h-6 text-[var(--color-red)] mb-3" aria-hidden="true" />
+                <div className="font-semibold text-[var(--color-navy)] text-base mb-1">{item.title}</div>
+                <p className="text-gray-600 text-sm">{item.text}</p>
               </div>
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link href="/reviews" className="text-[var(--color-navy)] font-semibold hover:text-[var(--color-red)] transition-colors">
-              Read all 12,847 reviews →
+            <Link href="/contact" className="text-[var(--color-navy)] font-semibold hover:text-[var(--color-red)] transition-colors">
+              Get your free home inspection →
             </Link>
           </div>
         </div>

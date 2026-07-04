@@ -72,7 +72,7 @@ const benefits = [
   { icon: Heart, label: "Full Benefits", desc: "Medical, dental, vision, and life insurance for you and your family" },
   { icon: TrendingUp, label: "Career Growth", desc: "Clear advancement paths from tech to senior specialist to manager" },
   { icon: Users, label: "Team Culture", desc: "A supportive, safety-first team environment at every branch" },
-  { icon: Briefcase, label: "Training Provided", desc: "Paid licensing, NPMA training, and ongoing education" },
+  { icon: Briefcase, label: "Training Provided", desc: "Paid licensing support and ongoing professional education" },
   { icon: Clock, label: "Flexible Schedules", desc: "Various shift options available including weekday and weekend routes" },
 ];
 

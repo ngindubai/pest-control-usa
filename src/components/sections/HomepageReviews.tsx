@@ -1,87 +1,40 @@
 import Link from "next/link";
-import { BadgeCheck, ArrowRight } from "lucide-react";
-import { siteConfig } from "@/config/site";
+import {
+  ArrowRight,
+  ShieldCheck,
+  DollarSign,
+  Clock,
+  Award,
+} from "lucide-react";
 
-interface Review {
-  name: string;
-  location: string;
-  rating: number;
-  service: string;
-  text: string;
-  date: string;
-}
+// This section used to display fabricated customer testimonials and an
+// invented aggregate rating. Both were removed on 2026-07-04 (no real,
+// auditable reviews exist yet, which is an FTC and trust risk). It now shows
+// honest service commitments. Bring real, consented reviews back here once
+// they are collected.
 
-const reviews: Review[] = [
+const promises = [
   {
-    name: "Sarah M.",
-    location: "Austin, TX",
-    rating: 5,
-    service: "Raccoon Removal",
-    text: "They removed a family of raccoons from our attic in a single visit. The technician was thorough, professional, and sealed every entry point. Our attic was left cleaner than when they found it. Couldn't be more impressed.",
-    date: "March 2026",
+    icon: ShieldCheck,
+    title: "Licensed & Insured Pros",
+    text: "You are matched with licensed, insured local pest control technicians who work to your state's requirements.",
   },
   {
-    name: "James R.",
-    location: "Chicago, IL",
-    rating: 5,
-    service: "Bed Bug Removal",
-    text: "Called on a Thursday evening in a panic and they had someone at my apartment by Friday morning. The heat treatment worked perfectly, not a single bed bug after treatment. Worth every penny for the peace of mind.",
-    date: "February 2026",
+    icon: DollarSign,
+    title: "Clear, Upfront Pricing",
+    text: "You get a written quote before any work begins. No hidden fees, no pressure, no surprises on the invoice.",
   },
   {
-    name: "Linda K.",
-    location: "Miami, FL",
-    rating: 5,
-    service: "Termite Treatment",
-    text: "Found termites during a home renovation. PestRemovalUSA caught the extent of the damage during the inspection and treated aggressively. They saved my home's structural integrity. Excellent communication throughout.",
-    date: "January 2026",
+    icon: Clock,
+    title: "Fast, Same-Day Service",
+    text: "Same-day and 24/7 emergency appointments are available when a pest problem cannot wait.",
   },
   {
-    name: "Robert T.",
-    location: "Seattle, WA",
-    rating: 5,
-    service: "Wasp Removal",
-    text: "A massive yellow jacket nest had taken over our garage wall. The technician handled it safely in full protective gear, nest was gone same day. No drama, no mess. Will definitely use them again.",
-    date: "April 2026",
-  },
-  {
-    name: "Amy Chen",
-    location: "New York, NY",
-    rating: 5,
-    service: "Cockroach Control",
-    text: "NYC apartment had a German cockroach problem that three other companies couldn't fix. PestRemovalUSA used gel baits and growth regulators, completely gone within two weeks. Finally pest-free!",
-    date: "March 2026",
-  },
-  {
-    name: "Mike D.",
-    location: "Phoenix, AZ",
-    rating: 5,
-    service: "Ant Control",
-    text: "Had massive fire ant mounds all over the backyard. Two treatments and they were completely eliminated. My kids can finally play outside again. Great local team, very responsive.",
-    date: "April 2026",
+    icon: Award,
+    title: "Satisfaction Guarantee",
+    text: "If pests come back between scheduled visits, so do we. Re-treatments are included on covered plans.",
   },
 ];
-
-function StarRow({ rating }: { rating: number }) {
-  return (
-    <div
-      className="flex items-center gap-0.5"
-      aria-label={`${rating} out of 5 stars`}
-    >
-      {[...Array(5)].map((_, i) => (
-        <svg
-          key={i}
-          className={`w-4 h-4 ${i < rating ? "text-amber-400" : "text-gray-200"}`}
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          aria-hidden="true"
-        >
-          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-        </svg>
-      ))}
-    </div>
-  );
-}
 
 export function HomepageReviews() {
   return (
@@ -94,107 +47,57 @@ export function HomepageReviews() {
         {/* Header */}
         <div className="text-center mb-14">
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--color-red)] mb-3">
-            Customer Reviews
+            Our Promise
           </p>
           <h2
             id="reviews-heading"
             className="text-3xl md:text-4xl lg:text-5xl font-black text-[var(--color-navy)] mb-4"
             style={{ fontFamily: "var(--font-barlow)" }}
           >
-            What Our Customers Say
+            What You Can Count On
           </h2>
-
-          {/* Overall rating */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6 mb-2">
-            <div className="flex items-center gap-3 bg-[var(--color-muted)] rounded-full px-6 py-3">
-              <span
-                className="text-4xl font-black text-[var(--color-navy)]"
-                style={{ fontFamily: "var(--font-barlow)" }}
-              >
-                4.9
-              </span>
-              <div>
-                <div className="flex items-center gap-0.5 mb-0.5">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      className="w-5 h-5 text-amber-400"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                      aria-hidden="true"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                </div>
-                <p className="text-xs text-[var(--color-slate-custom)]">{siteConfig.stats.reviewCount} verified reviews</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-2 text-sm text-[var(--color-slate-custom)]">
-              <BadgeCheck size={16} className="text-[var(--color-red)]" aria-hidden="true" />
-              All reviews verified via Google &amp; BBB
-            </div>
-          </div>
+          <p className="text-[var(--color-slate-custom)] text-lg max-w-2xl mx-auto">
+            We are building our reputation one home at a time. Here is what every
+            homeowner and business gets when they call PestRemovalUSA.
+          </p>
         </div>
 
-        {/* Review cards */}
+        {/* Promise cards */}
         <div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
           role="list"
-          aria-label="Customer reviews"
+          aria-label="Our service commitments"
         >
-          {reviews.map((review) => (
-            <article
-              key={`${review.name}-${review.date}`}
+          {promises.map(({ icon: Icon, title, text }) => (
+            <div
+              key={title}
               role="listitem"
-              className="bg-[var(--color-muted)] rounded-[var(--radius-card)] p-6 flex flex-col shadow-[var(--shadow-card)] hover:shadow-md transition-shadow"
-              aria-label={`Review by ${review.name} from ${review.location}`}
+              className="bg-[var(--color-muted)] rounded-[var(--radius-card)] p-6 flex flex-col shadow-[var(--shadow-card)]"
             >
-              <div className="flex items-start justify-between gap-3 mb-3">
-                <div>
-                  <StarRow rating={review.rating} />
-                  <p className="text-xs text-[var(--color-red)] font-bold mt-1.5 uppercase tracking-wide">
-                    {review.service}
-                  </p>
-                </div>
-                <BadgeCheck
-                  size={18}
-                  className="text-green-500 shrink-0 mt-0.5"
-                  aria-label="Verified review"
-                />
+              <div className="text-[var(--color-red)] mb-4" aria-hidden="true">
+                <Icon size={28} />
               </div>
-
-              <blockquote className="text-sm text-[var(--color-slate-custom)] leading-relaxed flex-1 mb-4">
-                &ldquo;{review.text}&rdquo;
-              </blockquote>
-
-              <footer className="flex items-center justify-between">
-                <div>
-                  <p className="text-sm font-bold text-[var(--color-navy)]">{review.name}</p>
-                  <p className="text-xs text-[var(--color-slate-custom)]">{review.location}</p>
-                </div>
-                <time
-                  dateTime={review.date}
-                  className="text-xs text-[var(--color-slate-custom)]"
-                >
-                  {review.date}
-                </time>
-              </footer>
-            </article>
+              <h3 className="text-lg font-bold text-[var(--color-navy)] mb-2">
+                {title}
+              </h3>
+              <p className="text-sm text-[var(--color-slate-custom)] leading-relaxed">
+                {text}
+              </p>
+            </div>
           ))}
         </div>
 
         {/* CTA */}
         <div className="text-center mt-12">
           <p className="text-sm text-[var(--color-slate-custom)] mb-4">
-            Join thousands of satisfied customers across America.
+            Ready to deal with your pest problem? Get a free, no-obligation quote.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <Link
-              href="/reviews"
+              href="/about"
               className="inline-flex items-center gap-2 bg-[var(--color-navy)] text-white font-bold px-6 py-3 rounded-[var(--radius-btn)] hover:bg-[var(--color-navy-light)] transition-colors"
             >
-              Read All Reviews
+              About Our Company
               <ArrowRight size={16} aria-hidden="true" />
             </Link>
             <Link

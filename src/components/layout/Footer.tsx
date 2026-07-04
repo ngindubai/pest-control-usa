@@ -7,46 +7,9 @@ import { Phone, Mail, MapPin, Shield } from "lucide-react";
 import { Divider } from "@/components/ui/Layout";
 import { organizationSchema, websiteSchema } from "@/lib/schema";
 
-// ─── Social SVG icons (brand icons removed from lucide v1) ───────
-function IconFacebook() {
-  return (
-    <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true">
-      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-    </svg>
-  );
-}
-function IconTwitter() {
-  return (
-    <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true">
-      <path d="M4 4l16 16M4 20L20 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" fill="none" />
-    </svg>
-  );
-}
-function IconInstagram() {
-  return (
-    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-    </svg>
-  );
-}
-function IconYoutube() {
-  return (
-    <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true">
-      <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" />
-      <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white" />
-    </svg>
-  );
-}
-function IconLinkedin() {
-  return (
-    <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true">
-      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z" />
-      <circle cx="4" cy="4" r="2" />
-    </svg>
-  );
-}
+// Social profile links were removed on 2026-07-04: the pages were not live, so
+// linking to them (and telling Google about them via schema sameAs) was a false
+// signal. Restore a social row here once the real profiles exist.
 
 // ─── Footer data ──────────────────────────────────────────────────
 
@@ -86,14 +49,6 @@ const footerCompany = [
   { label: "Emergency Service", href: "/emergency/" },
   { label: "FAQ", href: "/faq/" },
   { label: "Contact Us", href: "/contact/" },
-];
-
-const socialLinks = [
-  { label: "Facebook", href: siteConfig.social.facebook, Icon: IconFacebook },
-  { label: "Twitter / X", href: siteConfig.social.twitter, Icon: IconTwitter },
-  { label: "Instagram", href: siteConfig.social.instagram, Icon: IconInstagram },
-  { label: "YouTube", href: siteConfig.social.youtube, Icon: IconYoutube },
-  { label: "LinkedIn", href: siteConfig.social.linkedin, Icon: IconLinkedin },
 ];
 
 // ─── Organization Schema ──────────────────────────────────────────
@@ -150,24 +105,8 @@ export function Footer() {
             </div>
 
             <p className="text-sm text-white/65 leading-relaxed mb-5">
-              {siteConfig.tagline}. Serving homeowners and businesses across all 50 states and Washington, DC since 2010.
+              {siteConfig.tagline}. Serving homeowners and businesses across all 50 states and Washington, DC.
             </p>
-
-            {/* Social links */}
-            <div className="flex items-center gap-2">
-              {socialLinks.map(({ label, href, Icon }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`Follow us on ${label}`}
-                  className="flex items-center justify-center w-8 h-8 rounded-lg bg-white/10 text-white/70 hover:bg-[var(--color-red)] hover:text-white transition-colors"
-                >
-                  <Icon />
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Column 2: Services */}
@@ -279,6 +218,12 @@ export function Footer() {
             © {year} {siteConfig.fullName}. All rights reserved. Licensed Pest Control &amp; Wildlife Removal.
           </p>
           <nav aria-label="Legal links" className="flex items-center gap-4">
+            <Link href="/privacy-policy/" className="hover:text-white/70 transition-colors">
+              Privacy Policy
+            </Link>
+            <Link href="/terms-of-service/" className="hover:text-white/70 transition-colors">
+              Terms of Service
+            </Link>
             <Link href="/sitemap.xml" className="hover:text-white/70 transition-colors">
               Sitemap
             </Link>

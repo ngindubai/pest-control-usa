@@ -7,7 +7,7 @@ import {
   CheckCircle,
   ChevronRight,
   Shield,
-  Star,
+  ShieldCheck,
   Clock,
   Zap,
 } from "lucide-react";
@@ -129,7 +129,7 @@ export default async function LocationPage({ params }: Props) {
     },
     {
       question: `Are your ${state.name} technicians licensed?`,
-      answer: `Yes. Every technician operating in ${state.name} holds a current ${state.abbr} state pesticide applicator license and carries full liability insurance. We verify licensing and conduct background checks on all field staff.`,
+      answer: `We work with licensed, insured local pest control technicians, and we match you with pros who meet ${state.name}'s pesticide applicator licensing requirements. Ask your assigned technician for their license and insurance details before work begins.`,
     },
     {
       question: `What are the most common pest problems in ${state.name}?`,
@@ -243,13 +243,9 @@ export default async function LocationPage({ params }: Props) {
               ))}
             </ul>
             <div className="mt-6 pt-6 border-t border-white/20 flex items-center gap-2">
-              <div className="flex gap-0.5">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
+              <ShieldCheck className="w-5 h-5 text-blue-200" aria-hidden="true" />
               <span className="text-blue-200 text-sm">
-                4.9★ · 12,847 reviews nationwide
+                Licensed and insured local pros, 50 states + DC
               </span>
             </div>
           </div>
@@ -491,9 +487,9 @@ export default async function LocationPage({ params }: Props) {
           </div>
           <div className="grid grid-cols-2 gap-4">
             {[
-              { value: "4.9★", label: "Average Rating" },
-              { value: "12,847", label: "5-Star Reviews" },
-              { value: "250K+", label: "Homes Protected" },
+              { value: "50", label: "States + DC Covered" },
+              { value: "Same-Day", label: "Appointments" },
+              { value: "Free", label: "Inspections & Quotes" },
               { value: "24/7", label: "Emergency Line" },
             ].map((stat) => (
               <div

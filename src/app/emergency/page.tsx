@@ -27,7 +27,7 @@ const emergencyPests = [
 const guarantees = [
   { label: "Response Time", value: "Under 1 Hour", sub: "In most metro areas" },
   { label: "Available", value: "24/7/365", sub: "Nights, weekends, holidays" },
-  { label: "Technicians", value: siteConfig.stats.technicianCount, sub: "Nationwide coverage" },
+  { label: "Coverage", value: "50 States + DC", sub: "Local pros nationwide" },
   { label: "Guarantee", value: "100%", sub: "Satisfaction or free re-service" },
 ];
 

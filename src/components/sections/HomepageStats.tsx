@@ -3,20 +3,20 @@ import { CheckCircle2, ArrowRight } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
 const stats = [
-  { value: siteConfig.stats.homesTreated, label: "Homes & Businesses Treated", color: "text-[var(--color-red)]" },
-  { value: `${siteConfig.stats.statesCovered}`, label: "States Covered Nationwide", color: "text-[var(--color-red)]" },
-  { value: siteConfig.stats.rating + "\u2605", label: "Average Google Review Rating", color: "text-amber-400" },
-  { value: siteConfig.stats.technicianCount, label: "Certified Technicians", color: "text-[var(--color-red)]" },
+  { value: `${siteConfig.stats.statesCovered}`, label: "States + DC Covered", color: "text-[var(--color-red)]" },
+  { value: "24/7", label: "Emergency Service Available", color: "text-amber-400" },
+  { value: "Same-Day", label: "Appointments Available", color: "text-[var(--color-red)]" },
+  { value: "Free", label: "Inspections & Quotes", color: "text-[var(--color-red)]" },
 ];
 
 const reasons = [
-  "State-licensed and fully insured in every service area",
-  "NPMA-certified technicians with ongoing training",
+  "Licensed and insured local pest control technicians",
+  "Trained professionals who explain the plan before they treat",
   "Same-day and emergency service available 24/7/365",
   "Eco-friendly and pet-safe treatment options",
   "Transparent, upfront pricing, no hidden fees",
-  "100% satisfaction guarantee with free re-treatments",
-  "Background-checked, uniformed professionals",
+  "Satisfaction guarantee with free re-treatments",
+  "Local pros who know the pests in your region",
   "Follow-up inspections included at no extra charge",
 ];
 
@@ -33,20 +33,21 @@ export function HomepageStats() {
           {/* Left: Stats */}
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--color-red)] mb-3">
-              By the Numbers
+              What You Get
             </p>
             <h2
               id="stats-heading"
               className="text-3xl md:text-4xl lg:text-5xl font-black text-white mb-6"
               style={{ fontFamily: "var(--font-barlow)" }}
             >
-              Trusted by Hundreds of
+              Local Pest Control,
               <br />
-              <span className="text-[var(--color-red)]">Thousands of Americans</span>
+              <span className="text-[var(--color-red)]">Nationwide Coverage</span>
             </h2>
             <p className="text-white/65 text-lg leading-relaxed mb-10 max-w-lg">
-              Since 2010, PestRemovalUSA has been the nation&apos;s go-to pest and wildlife
-              removal company. These numbers speak for themselves.
+              PestRemovalUSA connects homeowners and businesses with licensed, insured pest
+              and wildlife pros across the country. Fast scheduling, clear pricing, and local
+              expertise where you live.
             </p>
 
             <div className="grid grid-cols-2 gap-6" aria-label="Company statistics">

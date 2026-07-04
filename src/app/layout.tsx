@@ -26,23 +26,23 @@ export const metadata: Metadata = {
   },
   description:
     "America's trusted pest control and wildlife removal service. Licensed exterminators for rodents, termites, bed bugs, raccoons, bats & more. Same-day service available nationwide.",
-  keywords: [
-    "pest control",
-    "exterminator near me",
-    "wildlife removal",
-    "rodent removal",
-    "termite treatment",
-    "bed bug treatment",
-    "pest removal USA",
-  ],
   metadataBase: new URL("https://pestremovalusa.com"),
   openGraph: {
     type: "website",
     siteName: "PestRemovalUSA",
     locale: "en_US",
+    images: [
+      {
+        url: "/og-default.png",
+        width: 1200,
+        height: 630,
+        alt: "PestRemovalUSA, licensed and insured pest and wildlife removal",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    images: ["/og-default.png"],
   },
   robots: {
     index: true,
