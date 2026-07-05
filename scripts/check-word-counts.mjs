@@ -12,15 +12,84 @@
 // "answer" field inside a sections entry, and a numeric "population" field.
 //
 // Runs as a prebuild step. Exits non-zero (fails the build) on any violation.
+//
+// Two modes (added 2026-07-05 for the autonomous build routine, see
+// docs/seo-upgrade-log.md item 4.1):
+//
+//   node scripts/check-word-counts.mjs
+//     Whole-corpus report/gate, unchanged from the original behavior. Currently
+//     exits non-zero because of the pre-existing remediation backlog (T1/T2/T3
+//     records built before this guard existed). This is a separate, ongoing
+//     project (SEO-BUILD-PLAN-2026-07-02.md Block 4) and this mode is NOT what
+//     the daily build routine should gate a fresh batch on.
+//
+//   node scripts/check-word-counts.mjs --changed
+//     Scoped to only the records this batch actually added or modified
+//     (uncommitted changes vs HEAD in src/data/cities/*.ts). This is the mode
+//     the build routine runs before every commit: every new page must clear
+//     its own tier floor, regardless of what the rest of the corpus is doing.
 
 import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import { execSync } from "node:child_process";
 import path from "node:path";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const citiesDir = path.join(__dirname, "..", "src", "data", "cities");
+const repoRoot = path.join(__dirname, "..");
+const citiesDir = path.join(repoRoot, "src", "data", "cities");
 
 const TIER_FLOOR = { T1: 800, T2: 500, T3: 350 };
+
+// Returns BASENAMES (e.g. "wyoming.ts"), matching readdirSync's output, so
+// every downstream path.join(citiesDir, file) call works identically whether
+// the file list came from readdirSync (whole-corpus mode) or here (--changed
+// mode). Do not return repo-relative paths from this function.
+function getChangedCityFiles() {
+  const run = (cmd) => {
+    try {
+      return execSync(cmd, { cwd: repoRoot, encoding: "utf8" }).trim();
+    } catch {
+      return "";
+    }
+  };
+  const modified = run("git diff --name-only HEAD -- src/data/cities")
+    .split("\n")
+    .filter((f) => f.endsWith(".ts") && !f.endsWith("index.ts"));
+  const untracked = run("git ls-files --others --exclude-standard -- src/data/cities")
+    .split("\n")
+    .filter((f) => f.endsWith(".ts") && !f.endsWith("index.ts"));
+  return [...new Set([...modified, ...untracked])].filter(Boolean).map((f) => path.basename(f));
+}
+
+function getAddedSlugs(basename) {
+  const relFile = `src/data/cities/${basename}`;
+  let diff = "";
+  try {
+    diff = execSync(`git diff HEAD -- "${relFile}"`, { cwd: repoRoot, encoding: "utf8" });
+  } catch {
+    diff = "";
+  }
+  let addedLines;
+  if (diff.trim() === "") {
+    try {
+      addedLines = readFileSync(path.join(citiesDir, basename), "utf8").split("\n");
+    } catch {
+      addedLines = [];
+    }
+  } else {
+    addedLines = diff
+      .split("\n")
+      .filter((l) => l.startsWith("+") && !l.startsWith("+++"))
+      .map((l) => l.slice(1));
+  }
+  const slugs = new Set();
+  const re = /slug:\s*"([^"]+)"/;
+  for (const line of addedLines) {
+    const m = re.exec(line);
+    if (m) slugs.add(m[1]);
+  }
+  return slugs;
+}
 
 function wordCount(str) {
   return str.trim().split(/\s+/).filter(Boolean).length;
@@ -102,21 +171,33 @@ function checkCorruption(source, file) {
 }
 
 function main() {
-  const files = readdirSync(citiesDir).filter(
-    (f) => f.endsWith(".ts") && f !== "index.ts"
-  );
+  const changedMode = process.argv.includes("--changed");
+  const files = changedMode
+    ? getChangedCityFiles()
+    : readdirSync(citiesDir).filter((f) => f.endsWith(".ts") && f !== "index.ts");
+
+  if (changedMode && files.length === 0) {
+    console.log("No uncommitted changes under src/data/cities/. Nothing to gate.");
+    process.exit(0);
+  }
 
   const corruption = [];
   const thin = [];
   let total = 0;
+  let checkedThisBatch = 0;
 
   for (const file of files) {
-    const source = readFileSync(path.join(citiesDir, file), "utf8");
+    const filePath = path.join(citiesDir, file);
+    const source = readFileSync(filePath, "utf8");
     corruption.push(...checkCorruption(source, file));
 
+    const onlySlugs = changedMode ? getAddedSlugs(file) : null;
     const records = extractRecords(source, file);
     for (const r of records) {
       total++;
+      if (changedMode && !onlySlugs.has(r.slug)) continue;
+      if (changedMode) checkedThisBatch++;
+
       if (!(r.tier in TIER_FLOOR)) {
         thin.push(`${file}: ${r.slug ?? "(unknown slug)"} has an unrecognized tier "${r.tier}"`);
         continue;
@@ -138,7 +219,11 @@ function main() {
     }
   }
 
-  console.log(`Checked ${total} city records across ${files.length} files.`);
+  if (changedMode) {
+    console.log(`Checked ${checkedThisBatch} new/changed record(s) across ${files.length} changed file(s).`);
+  } else {
+    console.log(`Checked ${total} city records across ${files.length} files.`);
+  }
 
   if (corruption.length > 0) {
     console.error("\nData corruption found:");
@@ -150,11 +235,11 @@ function main() {
   }
 
   if (corruption.length > 0 || thin.length > 0) {
-    console.error("\nWord-count / corruption guard failed.");
+    console.error(changedMode ? "\nWord-count / corruption gate failed for this batch." : "\nWord-count / corruption guard failed.");
     process.exit(1);
   }
 
-  console.log("Word-count and corruption guard passed.");
+  console.log(changedMode ? "Word-count / corruption gate passed for this batch." : "Word-count and corruption guard passed.");
 }
 
 main();

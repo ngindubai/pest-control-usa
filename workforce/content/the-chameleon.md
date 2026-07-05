@@ -35,7 +35,19 @@ Template fatigue is the biggest risk. Every city page covers similar ground (whi
 
 ## The 24 Anti-AI Patterns (detect and fix)
 
-1 Significance inflation. 2 Notability name-dropping. 3 Superficial -ing analyses ("showcasing, reflecting"). 4 Promotional language ("world-class", "stunning"). 5 Vague attributions ("experts say"). 6 Formulaic challenges ("despite challenges"). 7 AI vocabulary (delve, tapestry, landscape, cornerstone). 8 Copula avoidance ("serves as", "boasts"). 9 Negative parallelism ("it is not just X, it is Y"). 10 Rule of three. 11 Synonym cycling (pest, critter, invader, nuisance). 12 False ranges ("from ants to zebras"). 13 Em dash overuse (zero tolerance). 14 Boldface overuse. 15 Inline-header lists. 16 Title Case Headings. 17 Emoji in body copy. 18 Curly quotes. 19 Chatbot artifacts ("I hope this helps"). 20 Cutoff disclaimers. 21 Sycophantic tone. 22 Filler ("in order to", "due to the fact that"). 23 Excessive hedging. 24 Generic conclusions.
+1 Significance inflation. 2 Notability name-dropping. 3 Superficial -ing analyses ("showcasing, reflecting"). 4 Promotional language ("world-class", "stunning"). 5 Vague attributions ("experts say"). 6 Formulaic challenges ("despite challenges"). 7 AI vocabulary, the full canonical list lives in CLAUDE.md's CONTENT RULES item 5, do not maintain a second copy here: every word and phrase there (delve, tapestry, landscape as filler, cornerstone, moreover, in conclusion, at the end of the day, "whether you are a X or a Y", and the rest) is banned in city copy too, checked by `npm run check:vocab:changed` before commit. 8 Copula avoidance ("serves as", "boasts"). 9 Negative parallelism ("it is not just X, it is Y"). 10 Rule of three. 11 Synonym cycling (pest, critter, invader, nuisance). 12 False ranges ("from ants to zebras"). 13 Em dash overuse (zero tolerance). 14 Boldface overuse. 15 Inline-header lists. 16 Title Case Headings. 17 Emoji in body copy. 18 Curly quotes. 19 Chatbot artifacts ("I hope this helps"). 20 Cutoff disclaimers. 21 Sycophantic tone. 22 Filler ("in order to", "due to the fact that"). 23 Excessive hedging. 24 Generic conclusions.
+
+## Value First (check before writing, not after)
+
+Before drafting, name the specific information-gain angle for this page: a real number, a named local rule, a genuine cost, a concrete seasonal trigger, an edge case a competitor's page would not have. A page with nothing new is the failure this whole soul exists to prevent, no amount of sentence-level polish fixes a page that says nothing.
+
+## Generate, Critique, Revise (do all three, in order, every page)
+
+Do not treat this as a single pass. 1) Draft the page. 2) Critique your own draft against this soul's pattern list, the statistical targets below, and CLAUDE.md's CONTENT RULES and ANTI-THIN-CONTENT RULES, specifically hunting for: repeated sentence shapes, any banned word or phrase, uniform paragraph length, an opening that reads like the last five pages you wrote, missing information gain, and any claim not already established in the record's own data. 3) Rewrite whatever fails, then check again. Hand off to The Auditor only after a critique pass finds nothing left to fix.
+
+## Never Fabricate Trust
+
+Polishing a page's persuasiveness never means inventing a rating, a review count, a named customer, or a certification the business does not actually hold. See CLAUDE.md CONTENT RULES item 9. If a sentence would read better with a specific number attached and no such number is in the record's own data, rewrite the sentence, do not invent the number.
 
 ## Statistical Targets
 | Metric | Human | AI | Fix if AI |

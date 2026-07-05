@@ -70,6 +70,20 @@ Seven more supporting workers (The Architect, The Scout, The Spider, The Librari
 - **Bulk-generation without the quality gate is banned.** We never mass-produce thin pages.
 - After commit, deploy is automatic on push to `main`. After deploy, post the live review links (see LIVE LINK REVIEW GATE).
 
+This is the rule for an interactive session, when Gareth is at the keyboard and types "go." It is deliberately conservative (one block, wait for review) because a human is watching each result. See the next section for the different rule that applies only when the unattended scheduled routine runs.
+
+---
+
+## THE AUTONOMOUS BUILD ROUTINE (scheduled, unattended, no human watching)
+
+This is a separate cadence from THE BLOCK RHYTHM above, and only applies when the scheduled cloud routine runs, not to an interactive "go". The full, current routine prompt lives at `docs/build-routine.md`, paste it as-is into the scheduler; this section is the durable policy it must obey, not a restatement of its steps.
+
+- **Target: 100 new pages a day.** The routine runs twice daily; each run's target is **50 new pages (2 blocks of 25)**, floor 1 block if quality cannot stretch to 2. Never more than 2 blocks in one run.
+- Every block still runs the full 7-stage pipeline. Unattended does not mean unaudited, if anything the gates matter more with nobody watching.
+- Before every commit, run `npm run check:batch` (word floors, banned vocabulary, body similarity, and heading distribution, all scoped to this batch's new content, see the scripts referenced throughout this file). A non-zero exit on the gating checks means do not commit that block; a flagged similarity report does not block but must not be ignored either.
+- Never let a pre-existing, whole-corpus backlog (the word-count remediation project, the banned-vocabulary sweep) block a fresh, correctly-built batch. The `--changed`-mode scripts exist specifically so new work is judged on its own merits, not held hostage by old debt. See `docs/seo-upgrade-log.md` for what that debt is and who owns fixing it (a separate, tracked effort, not this routine's job).
+- Same guardrails as everywhere else in this file: no em dashes, the full banned-vocabulary and AI-tell list, US English, verified facts only, one H1 and a unique title per page, balanced A-E template rotation, never touch `deploy.yml` or any `.github/workflows` file, never delete anything, never fabricate a trust metric or testimonial.
+
 ---
 
 ## TEMPLATE DIVERSIFICATION - THE ANTI-PENALTY ENGINE
@@ -88,13 +102,13 @@ Hard rules (full detail in `TEMPLATE-DIVERSIFICATION-GUIDE.md`):
 
 ## ANTI-THIN-CONTENT RULES
 
-Each page must be genuinely different, driven by real local data, not a find-and-replace of another page.
+Each page must be genuinely different, driven by real local data, not a find-and-replace of another page. Before writing, state the specific information-gain angle for this batch, the one real fact, comparison, or local detail a competitor page would not have. A page with nothing new is the failure mode these rules exist to prevent.
 
 1. **Unique data per location.** Every page is built from The Geographer's location record: dominant local pests, seasonality, climate zone, housing-stock factors, a region-specific hook. Generic pest copy is a failure.
-2. **Word-count floors.** T1 city >= 800 words unique body. T2 city >= 500. T3 city/town >= 350.
-3. **Duplication ceiling.** Two pages may not share more than 15% of body copy (excluding nav, footer, CTAs).
+2. **Word-count floors.** T1 city >= 800 words unique body. T2 city >= 500. T3 city/town >= 350. Enforcement: `npm run check:words` reports the whole-corpus backlog (informational, does not block, this is the separate, ongoing Block 4 remediation project tracked in `SEO-BUILD-PLAN-2026-07-02.md`). `npm run check:words:changed` gates only this batch's new or modified records and must pass before any commit, every new page clears its own tier floor regardless of what the rest of the corpus is doing. See `scripts/check-word-counts.mjs`.
+3. **Duplication ceiling.** Two pages may not share more than 15% of body copy (excluding nav, footer, CTAs). This had zero automated enforcement until 2026-07-05. `npm run check:similarity:changed` compares this batch's new or modified records against their same-state peers using a shingle-overlap heuristic and reports any pair at or above the ceiling. Report-only for now (does not block), but treat any flagged pair as a real problem: rewrite the structure and phrasing, not just the facts, of one of the two pages before calling the batch done. See `scripts/check-body-similarity.mjs`.
 4. **Location-specific FAQs.** At least 2 of every FAQ set must name the location and a location-specific fact.
-5. **Humanizer pass.** Every page clears the 24 AI-tell patterns and the statistical targets (burstiness, type-token ratio, trigram repetition under 0.05). See The Chameleon.
+5. **Humanizer pass.** Every page clears the 24 AI-tell patterns, the banned-vocabulary and AI-tell-phrase list in CONTENT RULES item 5, and the statistical targets (burstiness, type-token ratio, trigram repetition under 0.05). See The Chameleon (`workforce/content/the-chameleon.md`), which also runs a generate-then-critique-then-revise pass: draft, then check the draft against this whole rule set and the QA checklist below, rewrite whatever fails, then check again before handing off to The Auditor.
 
 ---
 
@@ -153,13 +167,20 @@ The CURRENT STATUS section in this file must also be kept accurate when numbers 
 ## CONTENT RULES (NON-NEGOTIABLE)
 
 1. No false guarantees. Say "reduce risk", "licensed and insured", "treatment plan", not "100% eradication forever".
-2. Factual accuracy on pest claims. Only state a pest is present in a region, active in a season, or carries a disease if it is true. This is YMYL-adjacent. Wrong information erodes trust and can affect health decisions. The Geographer supplies the facts, The Auditor verifies them.
+2. Factual accuracy on pest claims. Only state a pest is present in a region, active in a season, or carries a disease if it is true. This is YMYL-adjacent. Wrong information erodes trust and can affect health decisions. The Geographer supplies the facts, The Auditor verifies them. Body-copy expansion of an existing record may only use facts already present in that record's own `pestProfile`, `climateDriver`, `localHook`, `prevention`, and `faqs` fields. Never introduce a new species claim, statistic, or disease-vector assertion that was not already there.
 3. Warm, expert, reassuring tone. The reader is stressed about a pest in their home or business.
 4. **No em dashes. Ever. Anywhere.** See EM DASH BAN.
-5. No banned vocabulary: delve, meticulous, comprehensive, tailored, navigate, leverage, seamless, robust, vital, crucial, utilize, intricate, paramount, pivotal, embark, foster, elevate, unleash, unlock, harness, streamline, holistic, realm, landscape (figurative), testament, tapestry, vibrant, bustling, nestled, cornerstone, myriad, multifaceted.
-6. Vary sentence rhythm. Use contractions. Have opinions.
-7. Use the correct author persona. Never use Gareth's name.
+5. **No banned vocabulary or AI-tell phrases, ever, anywhere.** This is the single canonical list; if you need to change it, change it here first, then update `scripts/check-banned-vocab.mjs` (both single-word and phrase lists) to match, they must never drift apart.
+   - **Single words:** delve, meticulous, comprehensive, tailored, navigate, leverage, seamless, robust, vital, crucial, utilize, intricate, paramount, pivotal, embark, foster, elevate, unleash, unlock, harness, streamline, holistic, realm, testament, tapestry, vibrant, bustling, nestled, cornerstone, myriad, multifaceted, underscore, plethora, moreover, furthermore, additionally.
+   - **Hyphenated compounds:** ever-evolving, cutting-edge, game-changer.
+   - **Phrases:** "in conclusion", "it is worth noting", "it is important to note", "when it comes to", "in today's fast-paced world", "navigate the complexities", "a testament to", "plays a crucial role", "plays a vital role", "in the realm of", "dive into", "at the end of the day", "rest assured", "look no further", and the templated "whether you are a [X] or a [Y]" construction by name.
+   - **Flagged, not auto-banned:** "landscape" is fine when literally describing terrain, land, or geography (e.g. "the flat, poorly draining landscape of the former Great Black Swamp"). It is banned only in its figurative filler sense ("the healthcare landscape"). When in doubt, rewrite around it rather than defend the usage.
+   - Enforcement: `npm run check:vocab` reports the whole-corpus count (informational, does not block, tracks the remediation backlog down to zero over time). `npm run check:vocab:changed` gates only this batch's newly added content and must pass before any commit. See `scripts/check-banned-vocab.mjs`.
+6. Vary sentence rhythm. Use contractions. Have opinions. See The Chameleon's humanization pass below, this rule is enforced with a real pattern list and statistical targets, not just this one line.
+7. Use the correct author persona. Never use Gareth's name. Never fabricate a first-person anecdote, a claimed credential, or a claimed personal experience for a persona beyond what their table entry states. Write from genuine domain knowledge, not invented "I've seen this a hundred times" color.
 8. **US (American) English throughout. ABSOLUTE, NO EXCEPTIONS.** This is an American site for an American audience. Every word of site content, every internal document, every soul file, every data file, every code identifier, and every chat response uses American spelling and vocabulary. Never use British or Commonwealth spellings. Banned British spellings (use the American form): colour (use color), behaviour (behavior), neighbour (neighbor), neighbourhood (neighborhood), favour (favor), centre (center), licence (license), defence (defense), offence (offense), catalogue (catalog), grey (gray), mould (mold), enquiry (inquiry), humanise/humaniser (humanize/humanizer), organise (organize), recognise (recognize), summarise (summarize), optimise (optimize), prioritise (prioritize), analyse (analyze), travelled/travelling (traveled/traveling), labelled (labeled), cancelled (canceled), whilst (while), amongst (among), learnt (learned), spelt (spelled). Also use American vocabulary and date formats. When in doubt, choose the American form. The Auditor checks this on every page.
+9. **No fabricated trust metrics, ratings, testimonials, or certifications, ever, on any page.** Learned the hard way on 2026-07-04 (`docs/seo-upgrade-log.md` section 5): a star rating, a review count, a named customer testimonial, a "BBB Accredited" badge, or a claimed third-party certification (NPMA, QualityPro, ISO, etc.) may only appear if it is real and Gareth has confirmed it is real. This applies to every page this project ever generates, not just the ones already caught, including city-page FAQs and local hooks. If a draft wants to say something feels more persuasive with a number attached, use a real, defensible, non-numeric signal instead (licensed and insured, same-day service, free inspection, satisfaction guarantee), never an invented statistic.
+10. **Every `nearbyCities` entry must set an explicit `stateSlug`.** Confirmed on 2026-07-05 that zero of the corpus's 6,418 existing entries do this (`docs/seo-upgrade-log.md` item 2.6), which means the link resolver in `src/components/templates/parts.tsx` is inferring the target state for every single one, and silently drops the link on any name that is ambiguous across states. New records must not add to that debt: always write `{ name: "...", slug: "...", stateSlug: "..." }`, the full three-field form, never the two-field shorthand.
 
 ---
 
@@ -171,6 +192,8 @@ The CURRENT STATUS section in this file must also be kept accurate when numbers 
 - Internal links: city to its state, city to relevant service pages, city to nearby cities.
 - Schema: LocalBusiness plus Service plus FAQPage (FAQPage from the page's FAQ data). Schema type emphasis varies by template (see the guide).
 - No duplicate titles, descriptions, or body content.
+- Never add a `keywords` metadata field to any page. Google has not used it for ranking in over a decade; it is pure noise. If you find one on an existing page, remove it, do not add another one anywhere else.
+- **If you ever create a new `page.tsx` with its own `openGraph` metadata block** (for example, a new Phase 6 pest-x-city dynamic route): Next.js does not deep-merge a page's `openGraph` object with the root layout's. If the page's own `openGraph` does not include an `images` array, the shared default share image silently disappears from that page's rendered `<head>`, this exact bug shipped sitewide on 2026-07-04 and went unnoticed until the 2026-07-05 audit (`docs/seo-upgrade-log.md` item 2.7). Either give the new page its own `openGraph.images`, or do not define `openGraph` at all on it and let the root layout's default carry through unbroken.
 
 ---
 

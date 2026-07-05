@@ -9,7 +9,13 @@
     "start": "next start",
     "lint": "eslint",
     "check:words": "node scripts/check-word-counts.mjs",
-    "check:headings": "node scripts/check-heading-distribution.mjs"
+    "check:words:changed": "node scripts/check-word-counts.mjs --changed",
+    "check:headings": "node scripts/check-heading-distribution.mjs",
+    "check:vocab": "node scripts/check-banned-vocab.mjs",
+    "check:vocab:changed": "node scripts/check-banned-vocab.mjs --changed",
+    "check:similarity": "node scripts/check-body-similarity.mjs",
+    "check:similarity:changed": "node scripts/check-body-similarity.mjs --changed",
+    "check:batch": "npm run check:words:changed && npm run check:vocab:changed && npm run check:similarity:changed && npm run check:headings"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
