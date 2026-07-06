@@ -2625,4 +2625,184 @@ export const iowaCities: CityLocation[] = [
     metaDescription:
       "Boone IA pest control for carpenter ants, house mice, camel crickets and boxelder bugs. Boone County Ledges State Park Des Moines River valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "indianola-ia",
+    name: "Indianola",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~16,200",
+    county: "Warren County",
+    climate: "cold-humid",
+    climateDriver:
+      "Indianola is the Warren County seat, a humid continental climate typical of central Iowa with cold, snowy winters and hot, humid summers. The city is home to Simpson College and hosts the annual National Balloon Classic, a nine-day hot-air ballooning event running more than 50 years. Surrounding corn and soybean farmland is what drives Indianola's fall rodent pressure, the same pattern common across central Iowa.",
+    topPests: ["Mice", "Asian Lady Beetles", "Cluster Flies", "Ants"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peaks October through December",
+        note: "Fall harvest across the corn and soybean farmland surrounding Indianola displaces field mice toward town, with the city's college-town rental housing near Simpson College offering additional entry points beyond owner-occupied homes.",
+      },
+      {
+        name: "Asian Lady Beetles",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, reappearing on mild winter days",
+        note: "Asian lady beetles converge on sun-warmed walls in Indianola each fall seeking overwintering sites, a well-documented central Iowa pattern that intensifies on the first cold snaps of the season.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October",
+        note: "Cluster flies breed in the earthworm-rich soil of the farmland surrounding Indianola before converging on buildings each fall, the standard central Iowa pattern.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Older housing near Simpson College's campus, along with typical central Iowa homes, sees standard warm-season odorous house ant and pavement ant activity.",
+      },
+    ],
+    localHook:
+      "Indianola is home to Simpson College and hosts the National Balloon Classic each summer, a nine-day hot-air ballooning event running more than 50 years at Memorial Balloon Field. That college-town identity, layered onto the corn and soybean farmland typical of Warren County, gives Indianola a mix of standard central Iowa agricultural pest pressure and the higher-turnover rental housing dynamics of a college town, two factors that a purely agricultural Warren County town without a college wouldn't combine in quite the same way.",
+    intro:
+      "Pest control in Indianola follows the standard central Iowa fall calendar, mice displaced by harvest, Asian lady beetles and cluster flies converging on buildings, layered onto the city's identity as home to Simpson College. That college-town element matters because Indianola has a larger stock of older rental housing near campus than a purely agricultural Warren County town would have, and that housing tends to accumulate more pest activity over successive tenant cycles than a well-maintained owner-occupied home. A pest program here typically needs to weigh both the farmland-driven fall calendar and the college-area rental housing factor together, rather than treating Indianola as a straightforward, single-factor farm town.",
+    sections: [
+      {
+        heading: "Why Indianola's Fall Invasion Follows the Central Iowa Pattern Closely",
+        body: "Asian lady beetles and cluster flies are as predictable a fall event in Indianola as almost anywhere in central Iowa: both insects converge on sun-warmed walls each September and October, seeking a way into wall voids and attics to spend the winter. The corn and soybean farmland surrounding Warren County gives both species the soil and crop-adjacent conditions they need to build large populations before the fall push begins. Sealing exterior gaps in early September, before the first hard freeze triggers the strongest indoor-seeking behavior, remains the most effective single step, a strategy that holds true across the whole region, not just Indianola specifically, though homes on the edge of town closest to open farmland tend to see the earliest and heaviest activity each year.",
+      },
+      {
+        heading: "Comparing Indianola's College-Area Rental Housing to Owner-Occupied Homes",
+        body: "Housing near Simpson College sees more tenant turnover than owner-occupied homes elsewhere in Indianola, and that turnover means small maintenance issues, a gap around a window frame, a torn screen, a slow drain, are less likely to get noticed and fixed quickly. That makes college-area rental housing a somewhat easier target for the mice displaced from surrounding farmland each fall than a well-maintained, long-term-owned home nearby. Property managers of rental housing near campus generally benefit from a more frequent inspection schedule than the standard annual check that suits an owner-occupied Indianola home. A landlord who inspects between each academic year's tenant turnover, rather than on a fixed calendar date, tends to catch these gaps closer to when they actually appear.",
+      },
+    ],
+    prevention: [
+      "Seal exterior gaps and caulk siding cracks in early September to reduce Asian lady beetle and cluster fly entry ahead of the fall push.",
+      "Seal foundation gaps and utility penetrations by early September, ahead of the fall harvest rodent displacement from surrounding farmland.",
+      "Landlords and property managers near Simpson College should schedule more frequent inspections than an owner-occupied home might need.",
+      "Address kitchen and bathroom moisture issues promptly in shared or multi-tenant housing to reduce ant activity.",
+      "Vacuum up Asian lady beetles and cluster flies rather than crushing them indoors, which can stain surfaces and leave odor.",
+    ],
+    costNote:
+      "Fall exterior exclusion and perimeter treatment in Indianola typically runs $150 to $300. Rodent exclusion and baiting typically runs $160 to $320 for an initial program, with rental properties often quoted for a recurring schedule. Ant treatment ranges from $120 to $220. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do I get so many Asian lady beetles in my Indianola home every fall?",
+        answer:
+          "Asian lady beetles converge on sun-warmed exterior walls across central Iowa every September and October, looking for a way into wall voids and attics to spend the winter, and Indianola, surrounded by corn and soybean farmland like the rest of Warren County, sees this pattern as predictably as anywhere in the region. Sealing exterior gaps and caulking siding cracks in early September, before the insects begin actively searching for shelter, is the most effective single step you can take.",
+      },
+      {
+        question: "Do rental properties near Simpson College have more pest problems?",
+        answer:
+          "Generally yes, more than owner-occupied homes elsewhere in Indianola. Higher tenant turnover near the college means small maintenance issues are less likely to get caught and fixed quickly than they would be under a long-term owner's attention. That makes college-area rental housing a somewhat easier target for the mice displaced from surrounding farmland each fall. A more frequent inspection schedule tends to serve these properties better than a once-a-year check.",
+      },
+      {
+        question: "When is mouse season in Indianola?",
+        answer:
+          "October through December is the heaviest window, tied to the fall harvest across the corn and soybean farmland surrounding Warren County. As fields are cleared, the mice that spent the growing season in the crop cover move toward the nearest available shelter. Sealing entry points in early September, before harvest begins, is considerably more effective than reacting after mice are already inside, and this matters especially for older rental housing near Simpson College where entry points are more numerous.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Carlisle", slug: "carlisle-ia", stateSlug: "iowa" },
+      { name: "Norwalk", slug: "norwalk-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Indianola, IA | Warren County Simpson College",
+    metaDescription:
+      "Indianola, IA pest control for harvest-driven mice, Asian lady beetles, cluster flies, and college-area rental ants. Warren County service. Free inspection.",
+  },
+  {
+    slug: "storm-lake-ia",
+    name: "Storm Lake",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~11,500",
+    county: "Buena Vista County",
+    climate: "cold-humid",
+    climateDriver:
+      "Storm Lake is the Buena Vista County seat, built on the shore of the actual Storm Lake, a roughly 3,060-acre natural glacial lake and Iowa's fourth-largest natural lake. The climate is humid continental, cold snowy winters and warm-to-hot humid summers, slightly more wind-exposed than central Iowa given the open plains setting. The city is also home to a major Tyson Foods meatpacking complex, the area's dominant employer, adding a layer of pest pressure beyond the standard farm-town pattern.",
+    topPests: ["Mosquitoes", "Flies", "Asian Lady Beetles", "Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Storm Lake itself, a roughly 3,060-acre natural glacial lake, gives mosquitoes far more breeding habitat close to the city than a landlocked northwest Iowa town would have.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Year-round, elevated near processing operations",
+        note: "The large Tyson Foods meatpacking and processing complex in Storm Lake can increase fly pressure near the facility and surrounding areas beyond what a northwest Iowa town without this industry would experience.",
+      },
+      {
+        name: "Asian Lady Beetles",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Asian lady beetles converge on Storm Lake's sun-facing walls each fall, a standard statewide Iowa pattern.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peaks October through December",
+        note: "Fall harvest across the row-crop farmland surrounding Storm Lake displaces field mice toward town, the standard central and northwest Iowa pattern.",
+      },
+    ],
+    localHook:
+      "Storm Lake is built directly on the shore of the actual Storm Lake, a roughly 3,060-acre natural glacial lake and Iowa's fourth-largest, used for fishing and boating. The city is also home to a major Tyson Foods meatpacking complex employing roughly 2,500 to 3,500 workers, running since 1935 under various owners before Tyson's 2001 acquisition. That combination, a real natural lake plus a major food processing operation, is what distinguishes Storm Lake's pest profile from a typical northwest Iowa farm town built around row crops alone.",
+    intro:
+      "Pest control in Storm Lake reflects two distinct local features: the actual natural lake the city is named for and built around, and the large-scale meatpacking operation that anchors its economy. Mosquitoes benefit directly from the lake's roughly 3,060 acres of surface water and shoreline habitat, more than a landlocked northwest Iowa town would see. Flies can run heavier near the Tyson Foods processing complex than in a town without this industry. Asian lady beetles and mice follow the standard statewide Iowa fall pattern. A Storm Lake pest program typically needs to address both lake-driven mosquito pressure and processing-area fly pressure alongside the standard seasonal calendar most other northwest Iowa towns follow.",
+    sections: [
+      {
+        heading: "A Real Natural Lake Versus a Landlocked Iowa Farm Town",
+        body: "Storm Lake's roughly 3,060 acres of natural glacial lake surface gives it considerably more mosquito breeding habitat than a landlocked northwest Iowa town relying only on temporary rainwater pools. Iowa's fourth-largest natural lake sustains a steadier baseline level of breeding habitat through the warm season regardless of recent rainfall, unlike a town whose mosquito population rises and falls more sharply with individual rain events. That's why a full May-through-September barrier treatment program tends to perform better for Storm Lake properties, particularly those near the shoreline, than a shorter, rain-event-focused approach would in a farm town further out on the open plains.",
+      },
+      {
+        heading: "Comparing Storm Lake's Processing-Area Fly Pressure to a Non-Processing Town",
+        body: "Most Iowa farm towns see a fairly standard seasonal fly pattern tied to general agriculture. Storm Lake's large-scale Tyson Foods meatpacking and processing complex, employing roughly 2,500 to 3,500 workers and operating continuously since 1935 under various owners, adds an additional, more consistent fly pressure near the facility and surrounding areas that a town without this specific industry wouldn't experience at the same scale. Properties and businesses closest to the processing complex generally see this most directly, and often benefit from a more frequent fly-control schedule than the standard seasonal program that suits the rest of town. A home or restaurant on the far side of the lake from the plant will typically see this pressure far less than one on the same side and within a few blocks of it, which is worth factoring in when deciding how often to schedule service.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier treatment from May through September given Storm Lake's extended lake-driven breeding season.",
+      "Businesses and homes near the Tyson Foods processing complex should consider a more frequent fly-control service schedule.",
+      "Seal exterior gaps in early September to reduce the Asian lady beetle fall push before it begins.",
+      "Seal foundation gaps and utility penetrations by early September, ahead of the fall harvest rodent displacement.",
+      "Address standing water in gutters and low-lying yard areas promptly to avoid compounding the lake's already elevated mosquito habitat.",
+    ],
+    costNote:
+      "Mosquito barrier treatment in Storm Lake typically runs $100 to $200 per application across a May-through-September program. Fly control service for homes or businesses near the processing complex is generally quoted as a more frequent recurring program. Rodent exclusion and baiting typically runs $160 to $320 for an initial program. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Storm Lake have more mosquitoes than a typical Iowa farm town?",
+        answer:
+          "Storm Lake is built directly on the shore of the actual Storm Lake, a roughly 3,060-acre natural glacial lake and Iowa's fourth-largest, which gives mosquitoes far more persistent breeding habitat than a landlocked town relying only on temporary rainwater pools. That steady water source keeps mosquito populations active through more of the warm season regardless of recent rainfall. A full May-through-September barrier program generally performs better here than a shorter, rain-event-driven approach.",
+      },
+      {
+        question: "Does the Tyson Foods plant in Storm Lake affect pest pressure?",
+        answer:
+          "Yes, particularly for flies. Storm Lake is home to a major Tyson Foods meatpacking and processing complex, one of the area's largest employers, and the concentration of processing activity can increase fly pressure near the facility and surrounding areas beyond what a northwest Iowa town without this industry would experience. Properties and businesses closest to the plant typically see this most directly and often benefit from a more frequent fly-control schedule than a standard seasonal program.",
+      },
+      {
+        question: "When is mouse season in Storm Lake?",
+        answer:
+          "October through December is the peak window, tied to the fall harvest across the row-crop farmland surrounding Storm Lake in Buena Vista County. As fields are cleared, displaced field mice move toward the nearest available shelter, a standard pattern across central and northwest Iowa. Sealing entry points in early September, before the harvest begins, is considerably more effective than reacting after mice are already inside.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Sioux City", slug: "sioux-city", stateSlug: "iowa" },
+      { name: "Spencer", slug: "spencer-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Storm Lake, IA | Buena Vista County Natural Lake",
+    metaDescription:
+      "Storm Lake, IA pest control for lake-driven mosquitoes, processing-area flies, Asian lady beetles, and harvest mice. Buena Vista County service.",
+  },
 ];

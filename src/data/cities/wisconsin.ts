@@ -3993,4 +3993,184 @@ export const wisconsinCities: CityLocation[] = [
     metaTitle: "Pest Control in Beaver Dam, WI | Cluster Flies, Mice & Boxelder Bugs",
     metaDescription: "Cluster flies, mice, and boxelder bugs in Beaver Dam, WI. Dodge County pest control for homes near Beaver Dam Lake. Free inspection. Call 1-800-PEST-USA."
   },
+  {
+    slug: "menomonie-wi",
+    name: "Menomonie",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~16,700",
+    county: "Dunn County",
+    climate: "cold-humid",
+    climateDriver:
+      "Menomonie is the Dunn County seat in western Wisconsin, a humid continental climate with cold snowy winters and warm humid summers. The city center sits at the south end of Lake Menomin, a reservoir on the Red Cedar River, and is home to the University of Wisconsin-Stout, the state's polytechnic university with roughly 7,000 students. The lake, river, and college-town housing mix together shape a distinct local pest calendar.",
+    topPests: ["Mosquitoes", "Cluster Flies", "Mice", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Lake Menomin and the Red Cedar River running through the heart of Menomonie give mosquitoes considerably more breeding habitat close to residential neighborhoods than a Dunn County town without this much waterfront would have.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October",
+        note: "Cluster flies converge on Menomonie homes each fall, a statewide Wisconsin pattern tied to the earthworm-rich soil common in the farmland surrounding Dunn County.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peaks October through December",
+        note: "Fall harvest across Dunn County farmland displaces mice toward Menomonie, with the university's older rental housing stock offering additional entry opportunities beyond what owner-occupied homes typically present.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Homes along Lake Menomin and the Red Cedar River stay damper longer after rain than those set back from the water, giving carpenter ants more opportunities to establish colonies in lakefront and river-facing fascia and decking.",
+      },
+    ],
+    localHook:
+      "Menomonie's downtown sits at the south end of Lake Menomin, a reservoir formed on the Red Cedar River. The city is home to the University of Wisconsin-Stout, the state's polytechnic university with roughly 7,000 students, grown from the Stout Manual Training School founded in 1891. That combination of a lake-and-river setting with a substantial college-age rental population is what distinguishes Menomonie's pest profile from a purely agricultural Dunn County town.",
+    intro:
+      "Pest control in Menomonie has to account for both its lake-and-river geography and its identity as a university town. Mosquitoes benefit from the combined presence of Lake Menomin and the Red Cedar River running right through the city center, giving them more breeding habitat than a landlocked Dunn County town would offer. Mice arrive each fall from the surrounding farmland at harvest, with the university's older rental housing stock near UW-Stout providing additional entry points. Carpenter ants take advantage of the moisture that comes with living along the lake and river. Cluster flies follow the standard statewide fall pattern. A Menomonie pest program typically has to address both waterfront moisture pests and university-area rental housing at the same time.",
+    sections: [
+      {
+        heading: "Lake and River Together: A Bigger Mosquito Source Than Either Alone",
+        body: "Most western Wisconsin towns have either a lake or a river shaping their mosquito pressure, not both in the same downtown footprint. Menomonie has Lake Menomin and the Red Cedar River meeting right at the city center, which means mosquitoes have two connected sources of standing and slow-moving water to breed in rather than one. A Dunn County town with just farmland and seasonal rain puddles sees its mosquito population rise and fall more with recent rainfall; Menomonie's combined lake-and-river system keeps a baseline level of breeding habitat active through most of the warm season regardless of recent rain, which is why a full May-through-September barrier program tends to perform better here than a rain-event-driven approach.",
+      },
+      {
+        heading: "Comparing UW-Stout's Rental Housing to Menomonie's Owner-Occupied Homes",
+        body: "Housing near UW-Stout sees more tenant turnover than owner-occupied homes elsewhere in Menomonie, and that turnover tends to let small maintenance issues, gaps around window frames, torn screens, unsealed utility penetrations, go unaddressed longer than they would under a long-term owner's watch. That makes university-area rental housing a more likely entry point for the fall mice displaced from surrounding Dunn County farmland than a well-maintained owner-occupied home nearby. Property managers of student and rental housing in Menomonie generally benefit from a more frequent inspection schedule than the standard annual check that suits an owner-occupied home. A landlord who inspects once between leases, rather than once a year, tends to catch these small gaps before a new tenant's first winter rather than after.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier treatment from May through September given the combined breeding habitat from Lake Menomin and the Red Cedar River.",
+      "Property managers of rental housing near UW-Stout should schedule more frequent inspections than an owner-occupied home might need.",
+      "Seal foundation gaps and utility penetrations by early September, ahead of the fall harvest rodent displacement from Dunn County farmland.",
+      "Inspect lakefront and river-facing decking and fascia boards regularly for moisture damage that invites carpenter ants.",
+      "Seal exterior gaps in early fall to reduce the statewide cluster fly push before it begins.",
+    ],
+    costNote:
+      "Mosquito barrier treatment in Menomonie typically runs $100 to $200 per application across a May-through-September program. Rodent exclusion and baiting runs $160 to $320 for an initial program, with rental properties often quoted for a recurring schedule. Carpenter ant treatment for an established colony ranges from $200 to $450. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Menomonie have more mosquitoes than a typical western Wisconsin farm town?",
+        answer:
+          "Menomonie's city center sits where Lake Menomin and the Red Cedar River meet, giving mosquitoes two connected sources of standing and slow-moving water rather than the single rain-dependent source a purely agricultural Dunn County town would have. That combination keeps a baseline level of mosquito breeding habitat active through most of the warm season regardless of recent rainfall. A full-season barrier program from May through September generally holds up better against this pattern than a shorter, rain-event-focused approach.",
+      },
+      {
+        question: "Are rental properties near UW-Stout more prone to pest problems?",
+        answer:
+          "Generally yes, more than owner-occupied homes elsewhere in Menomonie. Higher tenant turnover near the university means small maintenance issues, a gap around a window frame, a torn screen, are less likely to get caught and fixed quickly. That makes university-area rental housing a somewhat easier target for the mice displaced from surrounding Dunn County farmland each fall. A more frequent inspection schedule, rather than a once-a-year check, tends to serve these properties better.",
+      },
+      {
+        question: "Do homes along Lake Menomin need more carpenter ant attention?",
+        answer:
+          "Yes, typically. Homes directly on the lake or the Red Cedar River stay damper for longer after rain than homes set back from the water, and that persistent dampness is exactly the condition carpenter ants need to establish a colony in decking, fascia boards, or window frames. A lakefront or river-facing Menomonie home generally benefits from a closer annual inspection of these areas than a home in a drier part of town.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Eau Claire", slug: "eau-claire", stateSlug: "wisconsin" },
+      { name: "Chippewa Falls", slug: "chippewa-falls-wi", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Menomonie, WI | Dunn County Lake Menomin",
+    metaDescription:
+      "Menomonie, WI pest control for lake and river mosquitoes, harvest mice, carpenter ants, and cluster flies. Dunn County university-town service.",
+  },
+  {
+    slug: "baraboo-wi",
+    name: "Baraboo",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~12,700",
+    county: "Sauk County",
+    climate: "cold-humid",
+    climateDriver:
+      "Baraboo is the Sauk County seat, set among the hilly, wooded terrain of the Baraboo Range in south-central Wisconsin, a humid continental climate with cold snowy winters and warm summers. The city sits adjacent to Devil's Lake State Park, Wisconsin's most-visited state park with nearly 3 million visitors a year, in the ancient quartzite Baraboo Hills. That wooded, hilly terrain drives more tick and spider pressure than a flat prairie Wisconsin town would see.",
+    topPests: ["Ticks", "Spiders", "Cluster Flies", "Mice"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "April through October",
+        note: "The wooded, hilly Baraboo Hills terrain surrounding Devil's Lake State Park supports deer tick populations at levels notably higher than a flatter, less forested Wisconsin farm town, given the density of brush and leaf litter cover.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "April through October",
+        note: "Baraboo's forested, park-adjacent housing sees more spider activity than open-prairie Wisconsin towns, as wooded lots give spiders more natural harborage close to homes.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October",
+        note: "Cluster flies converge on Baraboo buildings each fall, the standard statewide Wisconsin pattern tied to the region's farm soil.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peaks October through December",
+        note: "Fall harvest across Sauk County farmland pushes field mice toward Baraboo, and the wooded terrain around the city gives them additional cover to approach structures unnoticed compared to open farmland.",
+      },
+    ],
+    localHook:
+      "Baraboo was the historic winter headquarters of the Ringling Brothers Circus and is home to the Circus World Museum, with more than 200 circus wagons and live seasonal shows. The city sits adjacent to Devil's Lake State Park, Wisconsin's most-visited state park, set in the ancient quartzite bluffs of the Baraboo Hills. That hilly, wooded park-adjacent terrain is what sets Baraboo's pest profile apart from a flatter, more open Sauk County farm town.",
+    intro:
+      "Pest control in Baraboo has to account for its hilly, heavily wooded setting in the Baraboo Range, right next to Devil's Lake State Park. Ticks and spiders both benefit from that wooded terrain, appearing at higher levels here than in a flatter, more open Wisconsin farm town where there's simply less brush and leaf litter for them to use as cover. Mice arrive each fall from the surrounding Sauk County farmland at harvest, and the wooded terrain around Baraboo gives them extra cover to approach homes unnoticed. Cluster flies follow the standard statewide fall pattern. A Baraboo pest program typically needs a stronger tick and spider focus than one built for an open-prairie Wisconsin town.",
+    sections: [
+      {
+        heading: "Wooded Hill Terrain Versus an Open Prairie Wisconsin Town",
+        body: "Baraboo's position in the Baraboo Range, right against Devil's Lake State Park's nearly 3 million annual visitors' worth of wooded, quartzite-bluff terrain, gives ticks and spiders far more natural habitat close to residential lots than a flat, open-farmland Wisconsin town would have. Deer ticks in particular need the brush and leaf litter that wooded lots provide, habitat a prairie town with mostly cleared farmland simply doesn't offer at the same density. A resident in a more open part of Sauk County, away from the hills and the park, typically faces lower ambient tick exposure just from their own yard than a Baraboo homeowner backing onto wooded terrain does.",
+      },
+      {
+        heading: "Comparing Baraboo's Fall Mouse Pattern to an Open-Field Town",
+        body: "The trigger for Baraboo's fall mouse season is the same as any Sauk County farm town: harvest displaces field mice, and they move toward the nearest shelter. What's different is the terrain they move through. In an open-field town, that movement happens across visible, cleared ground, giving homeowners and pest professionals a clearer sense of where pressure is heaviest. In Baraboo's wooded, hilly terrain, mice have more cover, brush, downed timber, dense understory, to travel through largely undetected before reaching a structure. That means exclusion work matters just as much here, but predicting which side of a Baraboo home will see the heaviest pressure is less straightforward than it would be for a home surrounded by open fields, which is exactly why a full-perimeter seal, rather than a guess at the likely entry side, tends to serve wooded-lot homeowners better here.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after any time spent in wooded areas near Devil's Lake State Park or the Baraboo Hills, and shower soon after outdoor activity.",
+      "Keep grass cut short and clear brush and leaf litter near the home's perimeter to reduce tick and spider habitat close to the house.",
+      "Seal foundation gaps and utility penetrations by early September, ahead of the fall harvest rodent displacement from Sauk County farmland.",
+      "Reduce cardboard clutter in garages and storage areas to limit spider harborage indoors.",
+      "Seal exterior gaps in early fall to reduce the statewide cluster fly push before it begins.",
+    ],
+    costNote:
+      "Tick treatment for wooded residential lots in Baraboo ranges from $150 to $300. Spider treatment, including exterior perimeter service, runs $120 to $220. Rodent exclusion and baiting typically runs $160 to $320 for an initial program. Free inspection included.",
+    faqs: [
+      {
+        question: "Is tick exposure worse in Baraboo than in other Wisconsin towns?",
+        answer:
+          "It tends to run higher than in a flatter, more open Sauk County town, given Baraboo's position right against Devil's Lake State Park's wooded, hilly Baraboo Range terrain. Deer ticks rely on brush and leaf litter cover that wooded lots provide in abundance here, habitat a prairie farm town with mostly cleared land doesn't offer at the same density. Checking for ticks after time spent outdoors near the park or wooded parts of town, and showering soon after, are genuinely worthwhile precautions in Baraboo specifically.",
+      },
+      {
+        question: "Why does Baraboo seem to have more spiders than a typical Wisconsin farm town?",
+        answer:
+          "Baraboo's wooded, park-adjacent setting gives spiders considerably more natural harborage close to homes than an open-prairie Wisconsin town would have. Wooded lots near the Baraboo Hills and Devil's Lake State Park provide the kind of undisturbed cover spiders favor, which means homes backing onto wooded terrain here typically see more spider activity than a home in a more open, cleared part of Sauk County. Reducing clutter in garages and storage areas, combined with an exterior perimeter treatment, keeps populations manageable.",
+      },
+      {
+        question: "Does the wooded terrain around Baraboo make the fall mouse problem worse?",
+        answer:
+          "The trigger, fall harvest displacing field mice from surrounding farmland, is the same as anywhere in Sauk County. What differs is the cover mice have to work with. Baraboo's hilly, wooded terrain gives displaced mice more brush and downed timber to travel through largely unnoticed on their way toward a structure, compared to a town surrounded by open, cleared fields where that movement is more visible and predictable. Sealing entry points before the harvest begins in early September matters just as much here, though which side of the house sees the heaviest pressure can be harder to predict.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Portage", slug: "portage-wi", stateSlug: "wisconsin" },
+      { name: "Reedsburg", slug: "reedsburg-wi", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Baraboo, WI | Sauk County Devil's Lake",
+    metaDescription:
+      "Baraboo, WI pest control for ticks and spiders near Devil's Lake State Park, harvest-driven mice, and cluster flies. Sauk County Baraboo Hills service.",
+  },
 ];

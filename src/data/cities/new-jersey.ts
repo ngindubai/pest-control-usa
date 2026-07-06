@@ -6228,4 +6228,184 @@ export const newJerseyCities: CityLocation[] = [
     metaDescription:
       "Asbury Park NJ pest control for German cockroaches near the restaurant corridor, Norway rats, bed bugs in rental properties, and mice. Licensed Monmouth County shore service.",
   },
+  {
+    slug: "belleville-nj",
+    name: "Belleville",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~38,100",
+    county: "Essex County",
+    climate: "cold-humid",
+    climateDriver:
+      "Belleville sits at the confluence of the Passaic River and the Second River in Essex County, part of the humid continental New York metro climate with cold winters and hot humid summers. The township's dense, older housing stock and its position at the junction of two rivers, the original source of its colonial-era name, Second River, together drive above-average moisture and rodent pest pressure for a town of its size.",
+    topPests: ["American Cockroaches", "Norway Rats", "Mosquitoes", "Termites"],
+    pestProfile: [
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, heaviest after rain",
+        note: "Belleville's older, dense housing stock and its riverfront storm drain system give American cockroaches ample outdoor harborage that pushes them indoors during and after heavy rain events.",
+      },
+      {
+        name: "Norway Rats",
+        serviceSlug: "rodents",
+        activeSeason: "Year-round, peak fall and winter",
+        note: "Dense urban housing and riverbank vegetation along the Passaic and Second Rivers sustain Norway rat populations that move into structures as temperatures drop each fall.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The confluence of the Passaic River and Second River creates floodplain and standing-water conditions that sustain mosquito breeding through Belleville's warm season.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active most of the year",
+        note: "Eastern subterranean termites remain active in the humid continental Northern New Jersey climate; Belleville's older housing stock, much of it built well before modern termite barriers were standard, carries above-average structural risk.",
+      },
+    ],
+    localHook:
+      "Belleville sits precisely where the Passaic River meets the Second River, a river-junction location that gave the township its original colonial name, Second River, before it was renamed. That confluence, combined with a dense, historic housing stock typical of the greater Newark area, is what sets Belleville's pest pressure apart from a New Jersey suburb further from the river system.",
+    intro:
+      "Pest control in Belleville is shaped heavily by its position at the confluence of the Passaic and Second Rivers. Mosquitoes and American cockroaches both benefit from the floodplain and storm-drain conditions this river junction creates, with cockroaches pushing indoors during the region's frequent heavy rain events. Norway rats are a persistent concern given the township's dense, older housing and riverbank vegetation. Termites remain active in the humid Northern New Jersey climate, and Belleville's older building stock, predating modern termite barrier requirements, carries more structural exposure than newer suburban construction. A Belleville pest program generally needs a stronger rat and moisture-pest focus than a program built for a newer, less river-adjacent New Jersey town further from this particular confluence.",
+    sections: [
+      {
+        heading: "River-Junction Geography Versus a Non-Riverfront NJ Suburb",
+        body: "Belleville's position exactly at the confluence of the Passaic River and the Second River gives it more floodplain and storm-drain-adjacent terrain than a New Jersey suburb set away from major rivers. That geography sustains mosquito breeding and American cockroach outdoor harborage at a level a drier, more inland town doesn't experience to the same degree. Heavy regional rain events flood the storm drains and low-lying vegetation cockroaches use as outdoor shelter, driving them toward the nearest dry structure, which is often a Belleville home's foundation. A well-maintained exterior perimeter treatment matters more here than in a town without this much river-adjacent infrastructure to manage year-round.",
+      },
+      {
+        heading: "Comparing Belleville's Older Housing Stock to Newer NJ Construction",
+        body: "Much of Belleville's housing predates the termite barrier and rodent-exclusion standards common in newer New Jersey construction, giving Norway rats and eastern subterranean termites more accessible entry points than a home built in the last two decades would present. Older foundations tend to have more settling cracks, and older utility penetrations were often sealed less thoroughly than current building code requires. That's why an annual termite inspection and a periodic foundation review matter more consistently for Belleville's older housing stock than they might for a newer development elsewhere in Essex County. A buyer weighing an older Belleville two-family against new construction a few towns over should factor this real difference into the comparison the same way they would weigh a roof's remaining life before making a final offer.",
+      },
+    ],
+    prevention: [
+      "Maintain a perimeter exterior treatment to reduce American cockroach entry after the region's heavy rain events.",
+      "Seal foundation gaps, utility penetrations, and garage door bottoms to reduce Norway rat entry, particularly on older housing stock.",
+      "Schedule an annual termite inspection given Belleville's older building stock and the humid Northern New Jersey climate.",
+      "Address standing water near the Passaic and Second River floodplain areas promptly to reduce local mosquito breeding.",
+      "Keep riverbank-adjacent vegetation trimmed back from the home's foundation to reduce rat harborage.",
+    ],
+    costNote:
+      "American cockroach perimeter treatment in Belleville averages $120 to $220. Norway rat exclusion and baiting typically runs $200 to $400 for an initial program given the township's older housing stock. Termite inspection is usually free to $75, with treatment ranging from $900 to $2,500. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do I get American cockroaches in my Belleville home after it rains?",
+        answer:
+          "Belleville's position at the confluence of the Passaic River and the Second River means the township has considerably more storm-drain and floodplain infrastructure than a New Jersey town set away from major rivers. American cockroaches live outdoors in this kind of terrain, and heavy regional rain floods their normal harborage, pushing them to seek drier ground, often a home's foundation gaps or door thresholds. A well-maintained exterior perimeter treatment reduces how many actually make it inside after a storm.",
+      },
+      {
+        question: "Are Norway rats a bigger problem in Belleville than in other Essex County towns?",
+        answer:
+          "Belleville's dense, older housing stock combined with vegetation along the Passaic and Second Rivers gives Norway rats more sustained outdoor habitat and more accessible building entry points than a newer, less river-adjacent New Jersey suburb typically has. Older foundations tend to have more settling cracks, and utility penetrations in older construction were often sealed less thoroughly than current standards require. Exclusion work that seals these gaps is particularly important for Belleville's older housing.",
+      },
+      {
+        question: "Should older Belleville homes get more frequent termite inspections?",
+        answer:
+          "Yes, generally. Much of Belleville's housing predates the termite barrier standards common in newer New Jersey construction, and eastern subterranean termites remain active through most of the year in the region's humid continental climate. An annual inspection is the standard recommendation for any structure in Northern New Jersey, but it matters even more for Belleville's older building stock, where the original construction may not include a modern termite barrier at all.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Newark", slug: "newark", stateSlug: "new-jersey" },
+      { name: "Nutley", slug: "nutley-nj", stateSlug: "new-jersey" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Belleville, NJ | Essex County River Confluence",
+    metaDescription:
+      "Belleville, NJ pest control for American cockroaches, Norway rats, mosquitoes, and termites near the Passaic and Second River confluence. Essex County service.",
+  },
+  {
+    slug: "rutherford-nj",
+    name: "Rutherford",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~18,900",
+    county: "Bergen County",
+    climate: "cold-humid",
+    climateDriver:
+      "Rutherford sits in Bergen County roughly 7 miles southeast of Paterson, near the Passaic River and the Hackensack Meadowlands, in a humid continental New York metro climate with cold winters and hot humid summers. The borough's proximity to the Meadowlands wetlands, alongside its dense, historic residential streets, drives higher mosquito and moisture-pest pressure than a Bergen County town set further from the wetlands.",
+    topPests: ["Mosquitoes", "American Cockroaches", "Norway Rats", "Termites"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Rutherford's proximity to the Hackensack Meadowlands wetlands and the nearby Passaic River gives mosquitoes substantially more breeding habitat than a Bergen County town set further inland from the Meadowlands.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, heaviest after rain",
+        note: "Meadowlands-adjacent moisture and the region's frequent heavy rain events push American cockroaches from outdoor harborage into Rutherford homes seeking drier ground.",
+      },
+      {
+        name: "Norway Rats",
+        serviceSlug: "rodents",
+        activeSeason: "Year-round, peak fall and winter",
+        note: "Dense residential streets and Meadowlands-adjacent vegetation sustain Norway rat populations that move indoors as temperatures drop each fall.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active most of the year",
+        note: "Eastern subterranean termites are active throughout the humid Northern New Jersey climate; Rutherford's stock of early-20th-century homes, including several near the borough's historic districts, carries above-average structural exposure.",
+      },
+    ],
+    localHook:
+      "Rutherford is the birthplace and lifelong home of poet-physician William Carlos Williams, whose house on West Passaic Avenue is on the National Register of Historic Places. The borough lies about 7 miles southeast of Paterson, near the Passaic River and the Hackensack Meadowlands wetlands. That Meadowlands proximity, more than the historic literary connection, is what shapes Rutherford's pest pressure relative to a Bergen County town set further from the wetlands.",
+    intro:
+      "Pest control in Rutherford is shaped significantly by its proximity to the Hackensack Meadowlands wetlands and the nearby Passaic River. Mosquitoes benefit from that wetland proximity more than they would in a Bergen County town set further inland. American cockroaches move indoors during the region's frequent heavy rain events, when their outdoor harborage floods. Norway rats find easy access in the borough's dense residential streets and Meadowlands-adjacent vegetation. Termites remain active given the humid Northern New Jersey climate, with Rutherford's early-20th-century housing stock carrying more structural exposure than newer construction. A Rutherford pest program typically needs a stronger Meadowlands-driven mosquito focus than a program built for an inland Bergen County suburb further from the wetlands.",
+    sections: [
+      {
+        heading: "Meadowlands Proximity Versus an Inland Bergen County Suburb",
+        body: "Rutherford's position near the Hackensack Meadowlands wetlands gives it access to considerably more standing water and marsh habitat than a Bergen County suburb set further from this system. That proximity sustains mosquito populations through more of the warm season than an inland town relying only on temporary rain puddles would experience, and it keeps ambient moisture higher for American cockroaches seeking outdoor harborage as well. A full May-through-September mosquito barrier program tends to hold up better in Rutherford than a shorter, rain-event-driven approach would, precisely because the Meadowlands provide a steady baseline source of breeding habitat regardless of recent rainfall in a given week.",
+      },
+      {
+        heading: "Comparing Rutherford's Early-20th-Century Homes to Newer Bergen County Construction",
+        body: "Rutherford's residential streets, including those near the William Carlos Williams House historic district, include a meaningful share of homes built in the early 20th century, well before modern termite barrier and rodent-exclusion standards became routine in New Jersey construction. Those older foundations tend to have more settling cracks and less thoroughly sealed utility penetrations than a home built in the last few decades, giving both eastern subterranean termites and Norway rats easier access. An annual termite inspection and a periodic foundation review matter more consistently for Rutherford's older housing stock than they would for a newer development elsewhere in Bergen County. This is worth raising directly with an inspector when a Rutherford listing dates to the borough's early growth years rather than assuming a standard walk-through will catch everything relevant to an older foundation.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier treatment from May through September given the extended breeding season created by Meadowlands proximity.",
+      "Maintain a perimeter exterior treatment to reduce American cockroach entry after heavy regional rain events.",
+      "Seal foundation gaps and utility penetrations to reduce Norway rat entry, particularly on early-20th-century homes.",
+      "Schedule an annual termite inspection given Rutherford's older housing stock and the humid Northern New Jersey climate.",
+      "Keep Meadowlands-adjacent vegetation and yard debris trimmed back from the home's foundation to reduce rat harborage.",
+    ],
+    costNote:
+      "Mosquito barrier treatment in Rutherford typically runs $100 to $200 per application across a May-through-September program. American cockroach perimeter treatment averages $120 to $220. Termite inspection is usually free to $75, with treatment ranging from $900 to $2,500. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Rutherford have more mosquitoes than an inland Bergen County suburb?",
+        answer:
+          "Rutherford's proximity to the Hackensack Meadowlands wetlands and the nearby Passaic River gives mosquitoes considerably more standing water and marsh habitat than a Bergen County suburb set further from this system. That proximity sustains breeding through more of the warm season than an inland town relying mostly on temporary rain puddles would experience. A full May-through-September barrier program generally performs better here than a shorter, rain-event-focused approach.",
+      },
+      {
+        question: "Are Rutherford's older homes near the historic district more prone to termites?",
+        answer:
+          "Generally yes, more than newer construction elsewhere in Bergen County. Rutherford's residential streets, including those near the William Carlos Williams House historic district, include a meaningful share of early-20th-century homes built before modern termite barrier standards became routine. Those older foundations typically have more settling cracks and less thoroughly sealed entry points, giving eastern subterranean termites easier access. An annual inspection is the standard recommendation, with extra attention warranted for the borough's older housing stock.",
+      },
+      {
+        question: "Does living near the Meadowlands increase my Norway rat risk in Rutherford?",
+        answer:
+          "It can, particularly for homes with adjacent vegetation or yard debris near Meadowlands-adjacent areas. Norway rats use dense vegetation and debris as harborage before moving into structures as temperatures drop each fall, and Rutherford's proximity to the wetlands gives them more of this habitat close to residential streets than an inland Bergen County town would have. Sealing foundation gaps and utility penetrations, combined with keeping vegetation trimmed back from the home, meaningfully reduces this risk.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Lyndhurst", slug: "lyndhurst-nj", stateSlug: "new-jersey" },
+      { name: "East Rutherford", slug: "east-rutherford-nj", stateSlug: "new-jersey" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Rutherford, NJ | Bergen County Meadowlands",
+    metaDescription:
+      "Rutherford, NJ pest control for Meadowlands-driven mosquitoes, American cockroaches, Norway rats, and termites. Bergen County service. Free inspection.",
+  },
 ];

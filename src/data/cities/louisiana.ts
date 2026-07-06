@@ -2544,4 +2544,184 @@ export const louisianaCities: CityLocation[] = [
     metaTitle: "Pest Control in Covington, LA | Formosan Termites, Mosquitoes & Ticks",
     metaDescription: "Covington LA pest control for Formosan termites, mosquitoes, ticks, fire ants and cockroaches. St. Tammany Parish north shore Bogue Falaya River pine forest specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "denham-springs-la",
+    name: "Denham Springs",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~9,400",
+    county: "Livingston Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Denham Springs sits on the Amite River in Livingston Parish, a humid subtropical climate with hot humid summers, mild winters, and high annual rainfall typical of the Gulf South. The city is still shaped by the catastrophic August 2016 Louisiana floods, when the Amite crested at a record 46.2 feet, nearly 5 feet above the prior 1983 record, flooding roughly 90 percent of area homes. That flood history and the river's continuing presence drive above-average moisture and termite pest pressure.",
+    topPests: ["Formosan Termites", "Mosquitoes", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Formosan Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round",
+        note: "Louisiana is a nationally recognized Formosan termite hot zone, and Denham Springs' Amite River floodplain soil moisture sustains colonies that are larger and more aggressive than native subterranean termites, a serious concern for both pre- and post-flood structures.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Amite River floodplain and the area's high annual rainfall give mosquitoes extensive breeding habitat through nearly the entire warm season in Denham Springs.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "fire-ants",
+        activeSeason: "Year-round, most active March through October",
+        note: "Red imported fire ants are heavily established across the Gulf South, and Denham Springs' warm, moist climate keeps colonies active nearly year-round.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "American cockroaches thrive in Denham Springs' humid climate and are a particular concern in any structure that experienced past flood damage, since residual moisture in wall cavities and subfloors gives them ideal harborage.",
+      },
+    ],
+    localHook:
+      "Denham Springs sits on the Amite River in Livingston Parish and is still defined, nearly a decade later, by the catastrophic August 2016 Louisiana floods, when the Amite crested at a record 46.2 feet, breaking the prior 1983 record by nearly 5 feet, and flooded roughly 90 percent of homes in the area. That flood history is directly relevant to pest control here: flood-damaged structures and the river's ongoing presence both raise termite and moisture-pest risk well beyond what a similarly sized Louisiana town away from the Amite would face.",
+    intro:
+      "Pest control in Denham Springs cannot be separated from its Amite River geography and its 2016 flood history. Formosan termites, already a serious statewide concern in Louisiana, find sustained conditions in the river floodplain's soil moisture, with flood-damaged structures carrying additional risk from residual wall-cavity dampness. Mosquitoes breed nearly year-round given the river and the region's heavy rainfall. Fire ants and American cockroaches both stay active given the warm, humid Gulf South climate. A Denham Springs pest program has to weigh flood history specifically, not just general Louisiana climate factors, when assessing a structure's risk, since the two considerations point to somewhat different priorities on the ground.",
+    sections: [
+      {
+        heading: "Post-Flood Structures Versus Never-Flooded Homes",
+        body: "A home that flooded during the 2016 event, even if fully repaired, carries a different termite and moisture-pest risk profile than a comparable structure that was never affected. Floodwater can leave residual moisture in wall cavities, subfloors, and crawl spaces that isn't always fully addressed during repair, and that trapped moisture is exactly what Formosan termites and American cockroaches need to establish themselves undetected. An inspection for a post-flood Denham Springs property should specifically ask about the extent of remediation done after 2016, not just look for current visible damage, since concealed moisture from nearly a decade ago can still be driving activity today, well after the visible signs of the flood itself have long since been repaired and repainted over.",
+      },
+      {
+        heading: "Comparing Denham Springs' Formosan Termite Pressure to Native Species Zones",
+        body: "Formosan termites are considerably more destructive than the native eastern subterranean termite species found in less severely affected parts of the South, forming much larger colonies that forage more aggressively and cause structural damage faster once established. Louisiana overall is one of the most significant Formosan termite zones in the country, and Denham Springs' river floodplain soil moisture gives colonies here sustained, favorable conditions. A property in a native-species-only zone might tolerate a longer gap between inspections; a Denham Springs structure, particularly one with any flood history, generally warrants a more frequent and more thorough inspection schedule given the species involved. The practical difference shows up in cost as much as in risk: a Formosan colony caught late is a materially larger repair than a native subterranean colony caught at the same stage.",
+      },
+    ],
+    prevention: [
+      "Have any structure with 2016 flood history inspected specifically for residual wall-cavity or subfloor moisture, not just visible current damage.",
+      "Schedule an annual Formosan termite inspection given Louisiana's status as a nationally recognized Formosan hot zone.",
+      "Run mosquito barrier treatment from March through November given the Amite River floodplain's extended breeding season.",
+      "Apply fire ant broadcast bait in spring and fall for season-long yard coverage.",
+      "Address any ongoing moisture issues in crawl spaces or basements promptly to reduce American cockroach harborage.",
+    ],
+    costNote:
+      "Formosan termite inspection in Denham Springs is typically free to $75, with treatment ranging from $1,200 to $3,000 given the species' more aggressive colony behavior. Mosquito barrier treatment runs $100 to $200 per application across a March-through-November program. Fire ant broadcast bait programs run $75 to $150 per application. Free inspection included.",
+    faqs: [
+      {
+        question: "Does my Denham Springs home's 2016 flood history matter for pest control today?",
+        answer:
+          "Yes, even years later. Floodwater can leave residual moisture trapped in wall cavities, subfloors, and crawl spaces that isn't always fully resolved during repair work, and that hidden dampness is exactly the condition Formosan termites and American cockroaches need to establish themselves undetected. If your home flooded in 2016, mention that history specifically when scheduling an inspection, since it changes what an inspector should look for beyond just current visible damage.",
+      },
+      {
+        question: "Are Formosan termites really worse than regular termites in Denham Springs?",
+        answer:
+          "Yes. Formosan subterranean termites form considerably larger colonies than native eastern subterranean termites and forage more aggressively, causing structural damage faster once established. Louisiana is one of the most significant Formosan termite zones in the country, and the Amite River floodplain's soil moisture around Denham Springs gives colonies sustained, favorable conditions. That's why an annual inspection, rather than a less frequent check, is the standard recommendation here.",
+      },
+      {
+        question: "Why does Denham Springs have such a long mosquito season?",
+        answer:
+          "The Amite River floodplain, combined with Livingston Parish's generally high annual rainfall, gives mosquitoes extensive breeding habitat through nearly the entire warm season, roughly March through November. That's a longer active window than a drier inland Louisiana location without river floodplain exposure would typically see. A barrier treatment program that covers this full window generally performs better than a shorter, summer-only approach.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Central", slug: "central-la", stateSlug: "louisiana" },
+      { name: "Walker", slug: "walker-la", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Denham Springs, LA | Livingston Parish Amite River",
+    metaDescription:
+      "Denham Springs, LA pest control for Formosan termites, river-driven mosquitoes, fire ants, and post-flood moisture pests. Livingston Parish service.",
+  },
+  {
+    slug: "pineville-la",
+    name: "Pineville",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~14,000",
+    county: "Rapides Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Pineville sits on the north bank of the Red River in Rapides Parish, directly across from Alexandria, forming the Alexandria-Pineville metro area. The humid subtropical climate brings hot humid summers, mild winters, and consistent rainfall typical of central Louisiana, and the Red River's floodplain gives Pineville substantial mosquito and moisture-pest pressure year after year.",
+    topPests: ["Fire Ants", "Eastern Subterranean Termites", "Mosquitoes", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Fire Ants",
+        serviceSlug: "fire-ants",
+        activeSeason: "Year-round, most active March through October",
+        note: "Red imported fire ants are endemic and dominant across Louisiana, and Pineville's warm, moist climate keeps colonies active nearly year-round with little seasonal die-back.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "Subterranean termite pressure is very high across the humid Gulf South, and Red River floodplain soil moisture around Pineville sustains colonies through most of the year.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "March through November",
+        note: "The Red River floodplain running along Pineville's waterfront gives mosquitoes considerably more breeding habitat than a Rapides Parish location set back from the river.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, heaviest after rain",
+        note: "American cockroaches are common in humid Gulf South climates and move indoors from riverside and drainage-area harborage during and after heavy rain events.",
+      },
+    ],
+    localHook:
+      "Pineville sits on the north bank of the Red River, directly across from Alexandria, together forming the Alexandria-Pineville metro area in central Louisiana. That river-front position is the defining fact for pest pressure here: Pineville's mosquito season and general moisture-driven pest activity both run heavier than a Rapides Parish location set away from the Red River's floodplain.",
+    intro:
+      "Pest control in Pineville reflects its position directly on the Red River, across from Alexandria. Mosquitoes benefit from the river's floodplain running along the waterfront, extending the active season well beyond what a Rapides Parish location set back from the water would experience. Fire ants and eastern subterranean termites both stay active nearly year-round given Louisiana's warm, humid climate and the river-adjacent soil moisture. American cockroaches move indoors after the region's frequent heavy rain events. A Pineville pest program typically needs a stronger river-driven mosquito and moisture-pest focus than a program built for an inland central Louisiana town set back from the Red River's immediate floodplain.",
+    sections: [
+      {
+        heading: "Red River Floodplain Versus an Inland Rapides Parish Location",
+        body: "Pineville's position directly on the Red River's north bank gives it considerably more floodplain and standing-water exposure than a Rapides Parish location set even a short distance from the water. That extra moisture sustains mosquito breeding through more of the year, roughly March through November, than an inland town relying mainly on rain-driven standing water would experience. It also keeps soil conditions favorable for subterranean termites for a larger share of the calendar. A Pineville property near the waterfront generally needs a fuller-season mosquito program than a home set back from the river in the same parish, and the difference tends to show up clearly in how early the first mosquitoes appear each spring.",
+      },
+      {
+        heading: "Comparing Pineville's Termite Pressure to a Drier Central Louisiana Location",
+        body: "Subterranean termite pressure is significant across the humid Gulf South generally, but Pineville's riverfront soil moisture gives colonies here more sustained, favorable conditions than a drier inland central Louisiana location might offer. That means termite activity in Pineville tends to run more consistently through the year rather than concentrating heavily around the February-through-April swarm window and then tapering off. An annual inspection remains the standard recommendation, but the added river moisture is a genuine reason it matters more consistently for Pineville properties than for a comparable home further from the water. A homeowner a few blocks off the Red River in Pineville should not assume the same inspection cadence that works fine for a relative living on higher, drier ground elsewhere in Rapides Parish, since the two properties are simply not carrying the same level of risk.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier treatment from March through November given the Red River floodplain's extended breeding season.",
+      "Apply fire ant broadcast bait in spring and fall for season-long yard coverage given Louisiana's mild winters.",
+      "Schedule an annual termite inspection, with added attention for properties near the Red River waterfront.",
+      "Maintain a perimeter exterior treatment to reduce American cockroach entry after heavy rain events.",
+      "Address standing water in gutters and low-lying yard areas promptly to avoid compounding the river's already elevated mosquito habitat.",
+    ],
+    costNote:
+      "Mosquito barrier treatment in Pineville typically runs $100 to $200 per application across a March-through-November program. Termite inspection is usually free to $75, with treatment ranging from $900 to $2,500. Fire ant broadcast bait programs run $75 to $150 per application. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Pineville need mosquito treatment for so much of the year?",
+        answer:
+          "Pineville's position directly on the Red River's north bank gives it considerably more floodplain and standing-water exposure than a Rapides Parish location set back from the water. That extra moisture sustains mosquito breeding from roughly March through November, a longer window than an inland central Louisiana town relying mainly on rain-driven puddles would need to cover. Properties closest to the riverfront typically see the heaviest and longest-running pressure.",
+      },
+      {
+        question: "Are fire ants a bigger problem in Pineville than elsewhere in Louisiana?",
+        answer:
+          "Fire ants are endemic and dominant across essentially all of Louisiana, so Pineville's pressure is in line with the rest of the state rather than notably worse. What does matter is that Louisiana's mild winters allow colonies to persist with little seasonal die-back almost anywhere in the state, including Pineville, which is why a spring-and-fall broadcast bait program, rather than a single seasonal treatment, provides the most effective long-term control.",
+      },
+      {
+        question: "Is termite risk higher for homes near the Red River in Pineville?",
+        answer:
+          "Generally yes, compared to a Rapides Parish property set further from the water. Eastern subterranean termites need consistent soil moisture, and the ground near Pineville's Red River waterfront tends to stay damper for more of the year than land further inland. That sustains more consistent termite activity across the seasons rather than the sharper spring-swarm-then-quiet pattern a drier location might show. An annual inspection is the standard recommendation, with extra attention warranted near the river.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Tioga", slug: "tioga-la", stateSlug: "louisiana" },
+      { name: "Ball", slug: "ball-la", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Pineville, LA | Rapides Parish Red River",
+    metaDescription:
+      "Pineville, LA pest control for river-driven mosquitoes, fire ants, year-round termites, and American cockroaches. Rapides Parish Red River service.",
+  },
 ];

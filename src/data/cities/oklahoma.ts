@@ -2393,4 +2393,184 @@ export const oklahomaCities: CityLocation[] = [
     metaTitle: "Pest Control in El Reno, OK | Mice, Termites, Brown Recluse",
     metaDescription: "El Reno OK pest control for mice, termites, brown recluse spiders, and mosquitoes. Canadian County local expertise. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "sand-springs-ok",
+    name: "Sand Springs",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~20,300",
+    county: "Tulsa County",
+    climate: "hot-humid",
+    climateDriver:
+      "Sand Springs sits along the Arkansas River just west of Tulsa, founded in 1911 by philanthropist Charles Page. The humid subtropical climate brings hot summers and cold winters, with the city squarely within Tornado Alley's spring severe-weather season. The Arkansas River corridor running through Sand Springs gives it more mosquito and tick habitat than a Tulsa County suburb set away from the river.",
+    topPests: ["Mosquitoes", "Ticks", "Termites", "Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Arkansas River corridor running through Sand Springs, following roughly the same path as the historic Sand Springs Railway interurban line, gives mosquitoes substantial breeding habitat close to the city's residential areas.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through October",
+        note: "Wooded riverbank and greenbelt terrain along the Arkansas River supports tick populations at levels above what a more built-out, less wooded Tulsa suburb would experience.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active most of the year",
+        note: "Eastern subterranean termites are active throughout the Tulsa metro's humid summers; Sand Springs' river-adjacent soil moisture sustains colonies particularly well.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through February",
+        note: "Sand Springs' true four-season climate brings cold winters that push mice toward structures, a standard pattern across the Tulsa metro intensified somewhat by the riverbank vegetation providing staging cover nearby.",
+      },
+    ],
+    localHook:
+      "Sand Springs was founded in 1911 by philanthropist Charles Page as a model town along the Arkansas River, originally connected to Tulsa by the historic Sand Springs Railway interurban line that roughly followed the river's course. That riverfront origin and setting is what distinguishes Sand Springs' pest pressure from a Tulsa suburb built away from the Arkansas River.",
+    intro:
+      "Pest control in Sand Springs is shaped significantly by its position along the Arkansas River, just west of Tulsa. Mosquitoes and ticks both benefit from the river corridor's wooded, greenbelt terrain, giving Sand Springs more of both than a Tulsa suburb set away from the water. Termites stay active through most of the year given the Tulsa metro's humid summers and the added river-adjacent soil moisture here. Mice follow the standard cold-season pattern common across northeastern Oklahoma. A Sand Springs pest program typically needs a stronger river-corridor mosquito and tick focus than a program built for a Tulsa suburb set further away from the Arkansas River.",
+    sections: [
+      {
+        heading: "Arkansas River Corridor Versus an Inland Tulsa Suburb",
+        body: "Sand Springs' position directly along the Arkansas River gives it considerably more wooded, greenbelt terrain close to residential areas than a Tulsa suburb built away from the river. That terrain supports both mosquito breeding, in the river's floodplain and slow-moving backwater areas, and tick habitat, in the brush and leaf litter along the riverbank greenbelt. A resident in a more built-out, less wooded part of the Tulsa metro typically faces lower ambient exposure to both pests just from their own yard than a Sand Springs homeowner near the river corridor does, particularly on streets that back directly onto the greenbelt itself along the water.",
+      },
+      {
+        heading: "Comparing Sand Springs' Four-Season Mouse Pattern to a Warmer Oklahoma Region",
+        body: "Sand Springs sits in a true four-season climate zone, with cold winters that push mice toward structures more predictably than in the milder southern parts of Oklahoma. The river corridor's vegetation gives displaced mice a staging area close to residential streets before they make the final move indoors, which can make entry somewhat harder to predict than in a town with more open, less vegetated terrain around it. Sealing foundation gaps and utility penetrations before the cold sets in, typically by early October, matters as much here as anywhere in the Tulsa metro, though homes closest to the river greenbelt often see the earliest pressure. A homeowner further from the water, on the western or southern edge of town away from the Arkansas River, generally has a slightly wider window to get exclusion work done before the first hard freeze.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier treatment from April through October given the Arkansas River corridor's extended breeding season.",
+      "Check for ticks after time spent in the wooded riverbank greenbelt areas along the Arkansas River, and shower soon after outdoor activity.",
+      "Schedule an annual termite inspection given the Tulsa metro's humid summers and Sand Springs' added river-adjacent soil moisture.",
+      "Seal foundation gaps and utility penetrations by early October, ahead of the seasonal cold-weather mouse push.",
+      "Keep grass cut short and clear brush near the home's perimeter, particularly on properties backing onto the river greenbelt.",
+    ],
+    costNote:
+      "Mosquito barrier treatment in Sand Springs typically runs $100 to $200 per application across an April-through-October program. Tick treatment for wooded residential lots ranges from $150 to $300. Termite inspection is usually free to $75, with treatment ranging from $900 to $2,500. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Sand Springs have more mosquitoes and ticks than other Tulsa suburbs?",
+        answer:
+          "Sand Springs' position directly along the Arkansas River gives it considerably more wooded, greenbelt terrain close to residential areas than a Tulsa suburb built away from the river. That terrain supports mosquito breeding in the river's floodplain and backwater areas, plus tick habitat in the riverbank brush and leaf litter. A Tulsa metro resident in a more built-out area away from the river typically has lower exposure to both pests just from their own yard.",
+      },
+      {
+        question: "Is termite risk higher in Sand Springs than elsewhere in the Tulsa metro?",
+        answer:
+          "Somewhat, given the added soil moisture from the Arkansas River corridor running through the city. Eastern subterranean termites are active throughout the Tulsa metro's humid summers regardless of river proximity, but Sand Springs' river-adjacent ground tends to stay damper for more of the year, which sustains colony activity a bit more consistently than in a drier part of the metro. An annual inspection remains the standard recommendation for any Tulsa-area structure.",
+      },
+      {
+        question: "When should I seal my Sand Springs home against mice?",
+        answer:
+          "Aim for early October, ahead of the seasonal cold that pushes mice toward structures across the Tulsa metro's true four-season climate. Sand Springs' river corridor vegetation gives displaced mice a staging area close to residential streets before they make the final move indoors, so homes near the greenbelt often see pressure a bit earlier than homes further from the river. Sealing foundation gaps and utility penetrations before the cold arrives is considerably more effective than reacting after mice are already inside.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Tulsa", slug: "tulsa", stateSlug: "oklahoma" },
+      { name: "Mannford", slug: "mannford-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Sand Springs, OK | Tulsa County Arkansas River",
+    metaDescription:
+      "Sand Springs, OK pest control for river-corridor mosquitoes and ticks, termites, and seasonal mice. Tulsa County Arkansas River service. Free inspection.",
+  },
+  {
+    slug: "guthrie-ok",
+    name: "Guthrie",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~11,700",
+    county: "Logan County",
+    climate: "temperate",
+    climateDriver:
+      "Guthrie is the Logan County seat, founded almost overnight in the Land Run of 1889 and serving as Oklahoma Territory's capital and the state's first capital from 1907 to 1910. The climate is a humid continental and subtropical transition typical of central Oklahoma, hot summers and cold winters, within Tornado Alley. Guthrie's Historic District, a National Historic Landmark with more than 2,000 buildings, gives the city an unusually large stock of century-old brick and wood-frame structures.",
+    topPests: ["Termites", "Carpenter Ants", "Mice", "Ticks"],
+    pestProfile: [
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms March through May, active most of the year",
+        note: "Guthrie's dense stock of century-old brick and wood-frame buildings in its National Historic Landmark district gives eastern subterranean termites more accessible original wood framing than newer central Oklahoma construction offers.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "The aging wood framing common in Guthrie's historic downtown buildings, some over a century old, accumulates the kind of moisture damage carpenter ants use to establish colonies.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peaks October through December",
+        note: "Surrounding Logan County farmland brings seasonal field-mouse pressure toward Guthrie at harvest, while the aging structures of the historic downtown, with more gaps and settling than newer buildings, give displaced mice easier entry.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "April through October",
+        note: "Grassland and pasture surrounding Guthrie in Logan County support tick populations typical of rural central Oklahoma.",
+      },
+    ],
+    localHook:
+      "Guthrie was founded almost overnight during the Land Run of 1889, growing to roughly 10,000 residents within hours, and served first as Oklahoma Territory's capital and then as the state's first capital from 1907 to 1910, before the capital moved to Oklahoma City. The Guthrie Historic District, a National Historic Landmark with more than 2,000 buildings, remains one of the largest contiguous historic districts in the country, and that dense stock of century-old buildings is the defining fact for Guthrie's pest pressure.",
+    intro:
+      "Pest control in Guthrie is shaped heavily by the city's unusually large stock of century-old buildings in its National Historic Landmark downtown district. Termites and carpenter ants both find more accessible original wood framing in this historic building stock than a town with predominantly newer construction would offer. Mice arrive each fall from the surrounding Logan County farmland at harvest, and the settling and gaps common in Guthrie's aging downtown structures give them easier entry than newer buildings would. Ticks are a standard concern given the grassland and pasture surrounding the city. A Guthrie pest program typically needs a stronger historic-building focus than a program built for a town without this concentration of century-old structures to manage.",
+    sections: [
+      {
+        heading: "A Century-Old Building Stock Versus Newer Central Oklahoma Construction",
+        body: "Few Oklahoma towns have anything like Guthrie's concentration of century-old buildings: more than 2,000 structures in a single National Historic Landmark district, largely built during the city's brief run as territorial and state capital between 1889 and 1910. That density of aging brick and wood-frame construction gives eastern subterranean termites and carpenter ants considerably more accessible original wood framing, foundation cracks, and settled joints than a town built predominantly in the last few decades would present. A termite or carpenter ant inspection in Guthrie's historic downtown generally needs to weigh original structural wood conditions more heavily than the same inspection would in a newer central Oklahoma subdivision built well after the district was already established.",
+      },
+      {
+        heading: "Comparing Guthrie's Harvest-Driven Mice to a Non-Agricultural Town",
+        body: "The fall mouse pattern in Guthrie starts the same way it does across agricultural Logan County: harvest displaces field mice from surrounding farmland, and they move toward the nearest shelter. What differs in Guthrie is what those mice find when they reach downtown. The settling and gaps common in century-old buildings give displaced mice more accessible entry points than a newer structure elsewhere in central Oklahoma would offer. That means fall exclusion work in Guthrie often needs particular attention on the historic district's aging buildings, where a quick visual check may miss gaps that have developed gradually over decades of settling, unlike a newer building where the entry points tend to be more obvious and fewer in number.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection with particular attention to original wood framing in Guthrie's historic downtown buildings.",
+      "Inspect fascia boards, sills, and other exterior wood on century-old structures for moisture damage that invites carpenter ants.",
+      "Seal foundation gaps and settled joints in older buildings by early September, ahead of the fall harvest rodent displacement.",
+      "Check for ticks after time spent in grassland or pasture areas surrounding Guthrie.",
+      "Address any standing water in gutters or low areas promptly around older buildings where drainage may have shifted over time.",
+    ],
+    costNote:
+      "Termite inspection in Guthrie is typically free to $75, with treatment ranging from $900 to $2,800, sometimes higher for historic structures requiring specialized access. Carpenter ant treatment for an established colony ranges from $200 to $450. Rodent exclusion and baiting typically runs $160 to $320 for an initial program. Free inspection included.",
+    faqs: [
+      {
+        question: "Do Guthrie's historic buildings need different pest treatment than newer construction?",
+        answer:
+          "Generally yes. Guthrie's National Historic Landmark district holds more than 2,000 buildings, most dating to the city's brief run as Oklahoma Territory's and then the state's first capital between 1889 and 1910. That century-old brick and wood-frame construction has had far more time to develop the settling, foundation cracks, and moisture damage that give termites and carpenter ants easy access than newer central Oklahoma construction has. An inspection for one of these historic structures typically needs to weigh original wood framing conditions more carefully than a standard newer-home inspection would.",
+      },
+      {
+        question: "When should I expect mice in my Guthrie home or business?",
+        answer:
+          "October through December is the peak window, tied to the fall harvest across the agricultural land surrounding Guthrie in Logan County. As fields are cleared, displaced field mice move toward the nearest available shelter, and Guthrie's historic downtown buildings, with more settling and gaps than newer construction, tend to be easier targets than a tightly built modern structure. Sealing entry points in early September, before harvest begins, is the most effective preventive step, and it's worth a closer look on older buildings where gaps may not be obvious at a glance.",
+      },
+      {
+        question: "Are ticks a concern around Guthrie?",
+        answer:
+          "Yes, at a level typical of rural central Oklahoma. The grassland and pasture surrounding Guthrie in Logan County support tick populations, and anyone spending time in these areas, whether for recreation or work, should check for ticks afterward. This isn't a distinctive local risk tied to Guthrie's historic character specifically, just the standard rural Oklahoma tick exposure that comes with the surrounding agricultural land.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Crescent", slug: "crescent-ok", stateSlug: "oklahoma" },
+      { name: "Oklahoma City", slug: "oklahoma-city", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Guthrie, OK | Logan County Historic District",
+    metaDescription:
+      "Guthrie, OK pest control for termites and carpenter ants in historic buildings, harvest-driven mice, and ticks. Logan County service. Free inspection.",
+  },
 ];

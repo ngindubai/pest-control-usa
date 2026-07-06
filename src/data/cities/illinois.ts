@@ -9820,4 +9820,184 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Lombard IL pest control for stink bugs near ornamental trees, carpenter ants in mature canopy, fall mice, and stormwater pond mosquitoes. Licensed DuPage County service.",
   },
+  {
+    slug: "woodstock-il",
+    name: "Woodstock",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~26,100",
+    county: "McHenry County",
+    climate: "cold-humid",
+    climateDriver:
+      "Woodstock sits on the McHenry County prairie in far northern Illinois, a humid continental climate with cold, snowy winters and warm, humid summers. The city grew up around dairy farming and, later, typewriter manufacturing, and working farmland still surrounds Woodstock on most sides. That agricultural ring is the main driver of the fall pest calendar here, compared to the retail-heavy suburbs closer to Chicago.",
+    topPests: ["Boxelder Bugs", "Cluster Flies", "Mice", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October, again in early spring",
+        note: "Boxelder bugs gather on the sun-facing brick and siding of Woodstock homes every fall, then push through any gap they can find looking for a place to spend the winter. The historic Woodstock Square district's older masonry buildings see heavier pressure than newer construction.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October, emerging again on warm winter days",
+        note: "Cluster flies breed in the earthworm-rich soil of the farmland ringing Woodstock, then move toward buildings in fall to overwinter in attics and wall voids, a pattern McHenry County homeowners see almost every year.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peaks October through December",
+        note: "As the corn and soybean fields around Woodstock are harvested each fall, field mice lose their cover and move toward the nearest structure, which is often a home on the edge of town.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Woodstock's mature tree canopy, including the shaded lots around the historic square, gives carpenter ants ready access to moisture-damaged wood in older homes and detached garages.",
+      },
+    ],
+    localHook:
+      "Woodstock is the McHenry County seat and still centers on the Woodstock Square, a National Register historic district with the restored Woodstock Opera House. The city's roots as a dairy town, and later a major typewriter manufacturing center, left it ringed by working farmland rather than subdivisions. That ring of corn and soybean fields is exactly what pushes mice and cluster flies toward Woodstock's homes every fall.",
+    intro:
+      "Woodstock pest control follows the rhythm of the McHenry County farm calendar more closely than most Chicago-area suburbs. The corn and soybean fields surrounding the city push field mice toward homes as harvest clears their cover each fall, the same season cluster flies and boxelder bugs converge on sunny walls looking for a way inside. Carpenter ants work through the moisture-damaged wood of the city's older homes and shaded garages all summer. None of this is unusual for a McHenry County town, but it does mean a Woodstock pest program has to plan around fall exclusion, not just summer bug spray.",
+    sections: [
+      {
+        heading: "Why Woodstock Sees a Heavier Fall Invasion Than Most Suburbs",
+        body: "Boxelder bugs and cluster flies are a fall event almost everywhere in northern Illinois, but Woodstock gets it worse than more built-up suburbs closer to Chicago because so much of the land around it is still farmland rather than pavement. Cluster flies specifically need moist, earthworm-rich soil to complete their life cycle, and Woodstock has that soil in abundance just outside city limits. Boxelder bugs favor the boxelder and maple trees common along the older streets near the square. Both insects are harmless but overwhelming in numbers once they find an entry point. Sealing exterior gaps in September, before the first cold snap, is far more effective than trying to control an established indoor population in November.",
+      },
+      {
+        heading: "Comparing Woodstock's Rodent Pressure to a Built-Up Suburb",
+        body: "A Woodstock property backing onto an active field faces a different mouse problem than a similar home in, say, Vernon Hills. In Woodstock, the harvest itself is the trigger: as combines clear the cover mice have used all summer, the displaced population moves in a wave toward the nearest tree line, fence row, or foundation. That means the timing is predictable but the volume can be heavy in a given year depending on the harvest schedule. Exclusion work, sealing foundation gaps, garage door bottoms, and utility penetrations, done in September ahead of harvest is more effective here than in a suburb with no adjacent farmland, where rodent pressure is steadier but lower overall. A homeowner who waits until mice are already inside is working against a much larger, already-displaced population than one who seals the house before the fields come down.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and garage door bottoms in September, before the fall harvest displaces field mice toward structures.",
+      "Caulk exterior cracks and gaps around windows and siding in late summer to reduce boxelder bug and cluster fly entry points.",
+      "Trim tree limbs away from the roofline to reduce carpenter ant access to older homes near the historic square.",
+      "Keep firewood stacked away from the house and off the ground to limit carpenter ant and rodent harborage.",
+      "Vacuum up cluster flies and boxelder bugs rather than crushing them indoors, which can stain surfaces and attract secondary pests.",
+    ],
+    costNote:
+      "Fall exterior exclusion and perimeter treatment in Woodstock typically runs $150 to $300 depending on the size and age of the home. Carpenter ant treatment for an established colony ranges from $200 to $450. Rodent exclusion with trap placement is usually quoted as a package, often $250 to $500 for a full foundation seal. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do I get so many boxelder bugs and cluster flies every fall in Woodstock?",
+        answer:
+          "Woodstock's location on the McHenry County prairie, still surrounded by working farmland, gives both insects exactly the conditions they need. Cluster flies breed in earthworm-rich farm soil before moving to buildings to overwinter, and boxelder bugs concentrate on the boxelder and maple trees common along Woodstock's older streets. Homes near the edge of town, closest to open fields, typically see the heaviest numbers. Sealing exterior gaps in early September, before the insects start actively searching for winter shelter, is the most effective single step.",
+      },
+      {
+        question: "When is mouse season in Woodstock?",
+        answer:
+          "The heaviest period is October through December, tied directly to the fall harvest on the corn and soybean fields around the city. As combines clear the fields, mice that spent the growing season in the crop cover lose their shelter and move toward the nearest structure. Properties on the edge of Woodstock closest to active farmland see pressure first and hardest. Exclusion work completed in September, before harvest begins, is significantly more effective than reacting after mice are already inside.",
+      },
+      {
+        question: "Are carpenter ants a serious problem for Woodstock's older homes?",
+        answer:
+          "Yes, particularly in the mature, tree-shaded neighborhoods near the Woodstock Square historic district. Carpenter ants don't eat wood the way termites do, but they excavate it to build nests, and they target wood that already has some moisture damage, from a leaky gutter, an old window sill, or a shaded roofline that stays damp longer than the rest of the house. Left untreated, a colony can expand into structural framing over a few seasons. An inspection that traces the colony back to its nest, rather than just treating visible ants, is the standard effective approach.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Crystal Lake", slug: "crystal-lake", stateSlug: "illinois" },
+      { name: "Harvard", slug: "harvard-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Woodstock, IL | McHenry County Fall Pests",
+    metaDescription:
+      "Woodstock, IL pest control for fall boxelder bugs, cluster flies, harvest-driven mice, and carpenter ants near the historic square. Licensed McHenry County service.",
+  },
+  {
+    slug: "vernon-hills-il",
+    name: "Vernon Hills",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~26,900",
+    county: "Lake County",
+    climate: "cold-humid",
+    climateDriver:
+      "Vernon Hills sits in Lake County on Chicago's north side, a humid continental climate with cold winters and warm summers. Unlike many Lake County towns that grew from farmland, Vernon Hills built its identity around retail and corporate offices, including Hawthorn Mall and the Mellody Farm shopping center built on a former soybean field. The mix of large commercial buildings and mature residential subdivisions shapes a pest profile that leans commercial as much as residential.",
+    topPests: ["Boxelder Bugs", "Mice", "Carpenter Ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "September through October",
+        note: "Vernon Hills' large retail buildings, including the Hawthorn Mall complex, give boxelder bugs enormous sun-warmed wall surfaces to gather on every fall, then the insects work through loading dock doors and utility gaps looking for winter shelter.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through February",
+        note: "Cold Lake County winters push mice toward any warm structure, and Vernon Hills' mix of big-box retail, office parks, and residential subdivisions gives them plenty of entry points to choose from.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Mature landscaping around Vernon Hills' older residential subdivisions supports carpenter ant colonies that move into moisture-damaged fascia boards and window sills over time.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Retention ponds built to manage stormwater for Vernon Hills' shopping centers and office parks double as mosquito breeding habitat if they are not maintained on a regular cycle.",
+      },
+    ],
+    localHook:
+      "Vernon Hills is best known for Hawthorn Mall, one of Lake County's largest retail destinations since 1973, and for corporate headquarters like Rust-Oleum. The newer Mellody Farm retail center was built on what had been a 52-acre soybean field. That shift from farmland to a commercial and office corridor changes the pest calculus compared to a still-agricultural McHenry County town: the pressure here comes as much from large commercial buildings and stormwater infrastructure as from any nearby field.",
+    intro:
+      "Pest control in Vernon Hills has to account for a village built around retail and office space as much as residential subdivisions. Boxelder bugs gather on the mall-scale walls of the Hawthorn Mall corridor every fall. Mice move from cold outdoor conditions into whichever building offers the easiest entry, commercial or residential. Carpenter ants work through moisture-damaged wood in the village's older, tree-shaded neighborhoods. And the retention ponds built to manage stormwater runoff for Vernon Hills' shopping centers create mosquito breeding habitat if they sit unmaintained. A program here typically blends commercial-scale exclusion work with standard residential service.",
+    sections: [
+      {
+        heading: "Commercial-Scale Pests: A Different Problem Than a Farm Town",
+        body: "Vernon Hills' identity as a retail and office hub, rather than a former farm town, changes what a pest program actually needs to cover. A big-box retail building or an office park has far more square footage of exterior wall, loading dock, and roof access than a typical single-family home, which means boxelder bugs and cluster flies have more surface area to gather on and more potential entry points, expansion joints, dock doors, roof penetrations, than a residential exclusion plan is built to handle. Property managers in the Hawthorn Mall and Mellody Farm corridors typically need a scheduled commercial perimeter program rather than a one-time residential treatment, with particular attention to loading dock seals and rooftop HVAC penetrations.",
+      },
+      {
+        heading: "Comparing Vernon Hills' Mosquito Sources to a Rural Lake County Town",
+        body: "Vernon Hills doesn't have the natural lakes and wetlands that drive mosquito pressure in some other Lake County communities. Instead, its mosquito problem is largely a byproduct of its own development: the stormwater retention ponds required by the village to manage runoff from parking lots and rooftops across its commercial corridors. Those ponds function exactly as intended for flood control, but standing water that isn't actively circulated or treated becomes mosquito breeding habitat within a couple of weeks in summer. That makes source reduction, working with property or HOA management on pond maintenance schedules, a more effective long-term strategy in Vernon Hills than in a town whose mosquito sources are natural wetlands the village doesn't control. A resident of a natural-wetland town has little say over the source; a Vernon Hills resident whose neighborhood borders a retention pond can, in practice, ask a management company to change its maintenance cadence.",
+      },
+    ],
+    prevention: [
+      "Ask property or HOA management about stormwater retention pond maintenance schedules if mosquitoes are a recurring issue near your unit.",
+      "Seal loading dock doors, roof penetrations, and expansion joints on commercial buildings before September to reduce fall boxelder bug and cluster fly entry.",
+      "Seal residential foundation gaps and garage door bottoms before the cold sets in to reduce winter mouse entry.",
+      "Trim mature trees and shrubs away from rooflines in older subdivisions to limit carpenter ant access to moisture-damaged wood.",
+      "Address any standing water in gutters or low-lying yard areas within a few days of rainfall to reduce local mosquito breeding.",
+    ],
+    costNote:
+      "Residential exclusion and perimeter treatment in Vernon Hills typically runs $150 to $325. Commercial pest programs for retail or office buildings are quoted based on square footage and typically run as a recurring monthly or quarterly service. Mosquito source-reduction consultations for HOAs and property managers are quoted separately. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Vernon Hills have a mosquito problem without any natural lakes nearby?",
+        answer:
+          "Most of Vernon Hills' mosquito pressure traces back to stormwater retention ponds, the infrastructure built to manage runoff from the village's parking lots and rooftops in its retail and office corridors. Those ponds do their intended job of flood control, but standing water that isn't actively circulated becomes mosquito breeding habitat within roughly two weeks in warm weather. If your unit or neighborhood sits near a retention pond and you're seeing heavier mosquito activity, that pond is the most likely source, and property or HOA management can typically confirm the maintenance schedule.",
+      },
+      {
+        question: "Is pest control different for a commercial building in Vernon Hills than a house?",
+        answer:
+          "Yes, meaningfully. A retail building in the Hawthorn Mall or Mellody Farm corridor has far more exterior wall and roof surface than a house, more loading dock doors, more HVAC roof penetrations, and often a food service tenant that adds cockroach and fly pressure on top of the general fall boxelder bug and cluster fly problem every commercial building in Lake County faces. A commercial program is typically a scheduled recurring service focused on exclusion at docks and rooflines, rather than the seasonal residential treatments a single-family home needs.",
+      },
+      {
+        question: "When should I seal my Vernon Hills home against mice?",
+        answer:
+          "Late September through October is the window that matters most. Cold Lake County winters push mice to look for indoor shelter as outdoor temperatures drop, and a home with unsealed foundation gaps, an unsealed garage door bottom, or open utility penetrations is an easy target. Doing exclusion work before the first hard freeze, rather than after mice are already inside for the winter, is significantly more effective and less expensive than dealing with an established indoor population in January.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Lincolnshire", slug: "lincolnshire-il", stateSlug: "illinois" },
+      { name: "Highland Park", slug: "highland-park", stateSlug: "illinois" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Vernon Hills, IL | Commercial & Residential Service",
+    metaDescription:
+      "Vernon Hills, IL pest control for boxelder bugs, mice, carpenter ants, and retention-pond mosquitoes. Commercial and residential Lake County service. Free inspection.",
+  },
 ];

@@ -4770,4 +4770,184 @@ export const missouriCities: CityLocation[] = [
     metaDescription:
       "Pest control in Branson, MO. Taney County Ozark service for brown recluse spiders, termites, mosquitoes, and cockroaches near Table Rock Lake. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "farmington-mo",
+    name: "Farmington",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~19,200",
+    county: "St. Francois County",
+    climate: "hot-humid",
+    climateDriver:
+      "Farmington sits in the Ozark foothills of southeastern Missouri, part of the historic Lead Belt region built on more than a century of lead mining. The humid subtropical climate here has hot, humid summers and mild winters compared to northern Missouri, with year-round rainfall that keeps the ground damp and supports strong termite and moisture-pest pressure.",
+    topPests: ["Termites", "Ticks", "American Cockroaches", "Ants"],
+    pestProfile: [
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "The Lead Belt region's Ozark foothill soil holds moisture consistently through the year, giving eastern subterranean termites sustained conditions to build colonies in and around Farmington's older and newer housing alike.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through October",
+        note: "Farmington's Ozark foothill terrain, with wooded lots and brush common on the edges of town, supports lone star tick and dog tick populations at levels typical of this part of southeastern Missouri.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, heaviest after rain",
+        note: "American cockroaches move indoors from outdoor harborage, storm drains, mulch beds, woodpiles, during and after heavy rain events, a pattern the region's frequent summer storms bring on regularly.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "March through October",
+        note: "Warm, humid conditions through most of the year support several ant species around Farmington homes, particularly odorous house ants and carpenter ants in older, moisture-affected wood.",
+      },
+    ],
+    localHook:
+      "Farmington sits in Missouri's historic Lead Belt, a region whose growth for more than a century was built on lead mining, roughly 75 miles southwest of St. Louis in the Ozark foothills. The city is also home to Farmington Correctional Center, a large state prison built on the former Farmington State Hospital grounds. The Ozark foothill setting keeps summers a touch cooler than the flatter parts of southern Missouri, but the region's year-round rainfall still sustains strong termite and moisture-pest pressure.",
+    intro:
+      "Pest control in Farmington reflects its Ozark foothill setting in the historic Lead Belt region of southeastern Missouri. Year-round rainfall and humid subtropical summers keep the ground consistently moist, which is exactly what eastern subterranean termites need to sustain active colonies through most of the calendar. Ticks are a real concern in the wooded, brushy terrain common on the edges of town. American cockroaches move indoors after the region's frequent summer storms. And several ant species stay active through most of the year given the sustained warmth and humidity. A Farmington pest program typically leans on termite protection and post-rain cockroach response more than a northern Missouri town further from the Ozark foothills would need.",
+    sections: [
+      {
+        heading: "Termite Pressure: Farmington Versus a Northern Missouri Town",
+        body: "Eastern subterranean termites are present throughout Missouri, but the pressure isn't uniform statewide. Farmington's position in the Ozark foothills, with a humid subtropical climate that delivers rain across most months and rarely produces the extended deep freezes that slow termite activity in northern Missouri, gives colonies here more consistent conditions to expand through the year. A termite inspection program built for Farmington generally assumes near-year-round activity rather than the more seasonal pattern a town in the northern part of the state might see, which is why annual inspections matter more consistently here than a once-every-few-years check might suffice for elsewhere in the state.",
+      },
+      {
+        heading: "Comparing Farmington's Tick Exposure to a More Urbanized Missouri Town",
+        body: "Farmington's Ozark foothill terrain includes considerably more wooded and brushy edge habitat, right up against residential lots, than a more fully built-out Missouri town of similar size would have. That habitat is exactly what lone star ticks and dog ticks need to establish themselves close to homes. A resident in a more urbanized Missouri community, with less adjacent brush and forest edge, typically faces lower ambient tick exposure just walking around their own yard. In Farmington, keeping grass cut short and clearing brush near the home's perimeter makes a more meaningful difference in tick exposure than it would in a town with less surrounding woodland. Two neighbors on the same Farmington street can see noticeably different tick pressure depending on how close their particular lot sits to an unmanaged wooded edge nearby.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given the Ozark foothills' consistent year-round soil moisture and mild winters.",
+      "Check for ticks after any time spent in Farmington's wooded or brushy edge areas, and keep grass cut short near the home's perimeter.",
+      "Maintain a perimeter exterior treatment to reduce American cockroach entry after heavy rain events.",
+      "Seal gaps around plumbing and foundation entry points to limit ant access, particularly for moisture-seeking odorous house ants.",
+      "Address any exterior wood with moisture damage promptly to reduce carpenter ant harborage.",
+    ],
+    costNote:
+      "Termite inspection in Farmington is typically free to $75, with treatment ranging from $900 to $2,500 depending on infestation extent and foundation type. American cockroach perimeter treatment averages $120 to $220. Tick treatment for wooded residential lots ranges from $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Is termite pressure worse in Farmington than in other parts of Missouri?",
+        answer:
+          "It tends to be more consistent through the year rather than necessarily worse in any single season. Farmington's Ozark foothill location and humid subtropical climate deliver rainfall across most months and mild winters compared to northern Missouri, which gives eastern subterranean termite colonies more sustained conditions to remain active. That's why an annual inspection matters more consistently for a Farmington property than it might for a home in a part of the state with a longer, harder winter that slows termite activity for a larger share of the year.",
+      },
+      {
+        question: "How much of a tick risk is there around Farmington?",
+        answer:
+          "It's a genuine concern given the amount of wooded and brushy edge terrain common in the Ozark foothills right up against residential lots in and around Farmington. Lone star ticks and dog ticks both use that brush and leaf litter habitat, and homes bordering wooded lots typically see more tick activity than one in a more fully built-out, less wooded part of a Missouri town. Checking for ticks after yard work or time outdoors, and keeping grass cut short near the house, meaningfully reduces exposure.",
+      },
+      {
+        question: "Why do American cockroaches show up in my Farmington home after it rains?",
+        answer:
+          "American cockroaches live primarily outdoors in this climate, in storm drains, mulch beds, woodpiles, and other damp harborage. Heavy rain, common through Farmington's humid subtropical summer, floods those outdoor hiding spots and pushes the cockroaches to seek drier ground, which often means your home's foundation gaps and door thresholds. This is a predictable seasonal pattern rather than a sign of an indoor infestation on its own, though a well-maintained exterior perimeter treatment reduces how many actually make it inside.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Park Hills", slug: "park-hills-mo", stateSlug: "missouri" },
+      { name: "Fredericktown", slug: "fredericktown-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Farmington, MO | St. Francois County Lead Belt",
+    metaDescription:
+      "Farmington, MO pest control for eastern subterranean termites, ticks, American cockroaches, and ants. St. Francois County Ozark foothills service. Free inspection.",
+  },
+  {
+    slug: "washington-mo",
+    name: "Washington",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~15,500",
+    county: "Franklin County",
+    climate: "temperate",
+    climateDriver:
+      "Washington sits on the south bank of the Missouri River about 50 miles west of St. Louis, in a transitional climate with hot humid summers and cold winters with moderate snow. The river valley setting, along with the city's history as a river-shipping and manufacturing town, sustains moisture-driven pest pressure that a Franklin County town set away from the river would see less of.",
+    topPests: ["Mosquitoes", "Termites", "Carpenter Ants", "Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through September",
+        note: "The Missouri River floodplain along Washington's waterfront gives mosquitoes substantial breeding habitat through the warm season, more than a Franklin County location set back from the river would experience.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active most of the year",
+        note: "River-valley soil moisture around Washington sustains subterranean termite colonies in both the city's historic river-town buildings and its newer residential construction.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Washington's older river-town housing stock, some dating to its 19th-century wine-country and manufacturing heritage, gives carpenter ants access to moisture-damaged wood in fascia boards and window frames.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March, with occasional flood-related displacement",
+        note: "Cold-season mice pressure is standard for the region, but Washington also sees occasional rodent displacement tied to Missouri River flood events that push field and floodplain rodents toward higher, drier ground near homes.",
+      },
+    ],
+    localHook:
+      "Washington sits on the south bank of the Missouri River in the Missouri Rhineland wine country, about 50 miles west of St. Louis. The city is historically known for its corncob pipe manufacturing, still home to the Missouri Meerschaum Company, the last major corncob pipe maker in the United States. That river-town heritage, and the river itself, are what set Washington's pest pressure apart from a Franklin County town set back from the water.",
+    intro:
+      "Pest control in Washington centers on its Missouri River-valley position more than almost any other factor. The floodplain along the waterfront gives mosquitoes considerably more breeding habitat than a Franklin County location away from the river would face, and river-valley soil moisture sustains termite activity through most of the year. Carpenter ants work through the moisture-damaged wood common in the city's older river-town buildings. Mice follow the standard cold-season pattern but occasionally see an additional push after Missouri River flood events displace rodents from the floodplain toward drier, higher ground. A Washington pest program generally puts more weight on river-driven moisture pests than a program built for an inland Franklin County town.",
+    sections: [
+      {
+        heading: "River-Valley Moisture Versus an Inland Franklin County Town",
+        body: "Washington's position directly on the Missouri River gives it a floodplain and an elevated water table that a Franklin County town set even a few miles back from the river doesn't share. That extra moisture sustains mosquito breeding through a longer stretch of the warm season and keeps soil conditions favorable for subterranean termites for more of the year than drier, inland ground would allow. It also means gutter maintenance and yard drainage matter more in Washington than in a comparable inland town, since the baseline moisture level in the area is already higher before any additional standing water from clogged gutters or poor drainage gets added on top.",
+      },
+      {
+        heading: "Comparing Washington's Flood-Related Rodent Pressure to a Non-River Town",
+        body: "Most Missouri towns see a fairly standard cold-season mouse pattern: mice move indoors as temperatures drop, full stop. Washington's river-valley position adds an additional variable. When the Missouri River floods, the rodents that normally live in the floodplain vegetation and along the riverbank lose their habitat all at once and move toward the nearest dry, elevated ground, which is often the residential streets set back from the waterfront. This isn't an annual event, but it's a real one, tied specifically to river conditions rather than the calendar, and it's the kind of displacement event that a Franklin County town without river frontage simply doesn't experience. A Washington homeowner a few blocks up from the waterfront is wise to treat a significant flood upstream as its own seasonal marker, worth a foundation check, separate from the usual fall exclusion routine that the rest of the county follows on a fixed calendar.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier treatment from April through September given the extended breeding season created by the Missouri River floodplain.",
+      "Schedule an annual termite inspection, with added attention for older, historic river-town structures near the waterfront.",
+      "Inspect fascia boards and window frames on older homes for moisture damage that invites carpenter ants.",
+      "Seal foundation gaps and utility penetrations before cold weather sets in to reduce standard seasonal mouse entry.",
+      "After any significant Missouri River flood event, check foundation and garage entry points for signs of new rodent activity from displaced floodplain populations.",
+    ],
+    costNote:
+      "Mosquito barrier treatment in Washington typically runs $100 to $200 per application across an April-through-September program. Termite inspection is usually free to $75, with treatment ranging from $900 to $2,500. Carpenter ant treatment for an established colony ranges from $200 to $450. Free inspection included.",
+    faqs: [
+      {
+        question: "Does the Missouri River affect pest pressure in Washington, MO?",
+        answer:
+          "Significantly, yes. Washington's location directly on the river's south bank gives it a floodplain and elevated water table that a Franklin County town set back from the water doesn't have. That extra moisture extends the mosquito breeding season and keeps soil conditions favorable for subterranean termites for more of the year than drier, inland ground would allow. Properties closer to the waterfront generally see the most pronounced version of this pressure.",
+      },
+      {
+        question: "Do Missouri River floods cause rodent problems in Washington?",
+        answer:
+          "They can, on an occasional basis tied to actual flood events rather than every year. When the river floods, the mice and other rodents that live in the floodplain vegetation and along the riverbank lose their habitat all at once and move toward the nearest dry, elevated ground, which is often the residential streets set back from the water. This is a real, documented pattern of river-town pest pressure, distinct from the standard cold-season mouse movement every Missouri town experiences, and it's worth checking foundation entry points after any significant flood event.",
+      },
+      {
+        question: "Are Washington's historic river-town buildings more prone to termites?",
+        answer:
+          "Generally yes, more so than newer residential construction elsewhere in Franklin County. Washington's older buildings near the riverfront, some tied to its 19th-century corncob pipe manufacturing and wine-country heritage, have had more time to develop settling and moisture-related wear, and they sit on ground that stays consistently damper given the nearby river. An annual termite inspection matters for any Washington structure, but historic river-adjacent buildings warrant particularly close attention.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Union", slug: "union-mo", stateSlug: "missouri" },
+      { name: "Pacific", slug: "pacific-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Washington, MO | Franklin County Missouri River",
+    metaDescription:
+      "Washington, MO pest control for river-valley mosquitoes, termites, carpenter ants, and flood-related rodent pressure. Franklin County Missouri River service.",
+  },
 ];

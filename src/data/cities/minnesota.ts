@@ -4501,4 +4501,184 @@ export const minnesotaCities: CityLocation[] = [
     metaTitle: "Pest Control in Brainerd, MN | Deer Ticks, Mosquitoes & Mice",
     metaDescription: "Crow Wing County has some of Minnesota's highest tick density. Brainerd lake country drives intense mosquito and mouse pressure. Free inspection. Call 1-800-PEST-USA."
   },
+  {
+    slug: "willmar-mn",
+    name: "Willmar",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~21,000",
+    county: "Kandiyohi County",
+    climate: "cold-humid",
+    climateDriver:
+      "Willmar sits in Kandiyohi County's prairie lakes region of west-central Minnesota, a humid continental climate with cold, snowy winters and warm summers. The county holds over 100 lakes, and the local economy centers on Jennie-O Turkey Store, headquartered in Willmar since 1940, one of the largest turkey processors in the world. That combination of lake density and large-scale poultry operations shapes a pest profile distinct from a purely farm-crop Minnesota town.",
+    topPests: ["Mice", "Cluster Flies", "Flies", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peaks October through December",
+        note: "Fall grain harvest and the turkey farming operations surrounding Willmar both displace rodents toward town as the growing season ends, giving Kandiyohi County a heavier fall mouse push than a purely residential Minnesota community would see.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October, reappearing on mild winter days",
+        note: "Cluster flies breed in the earthworm-rich soil around Willmar before converging on buildings each fall, the standard Upper Midwest pattern intensified by the amount of farmland surrounding the city.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Year-round, elevated near poultry operations",
+        note: "Willmar's turkey processing and farming operations, centered on Jennie-O Turkey Store, can increase fly pressure in neighborhoods and businesses near active poultry facilities beyond what a town without this industry would experience.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "Kandiyohi County's status as lake country, with over 100 lakes in the area, gives mosquitoes considerably more breeding habitat around Willmar than a landlocked prairie town would have.",
+      },
+    ],
+    localHook:
+      "Willmar is the seat of Kandiyohi County, part of Minnesota's prairie lakes region with more than 100 lakes in the county. The city's defining economic feature is Jennie-O Turkey Store, headquartered here since 1940 and one of the largest turkey processors in the world. That combination, extensive lake country plus a major poultry industry, gives Willmar a pest profile that blends lake-driven mosquito pressure with fly and rodent pressure tied to large-scale farming and food processing.",
+    intro:
+      "Pest control in Willmar reflects two distinct local features working together: Kandiyohi County's lake-heavy prairie geography and the concentrated poultry farming and processing industry centered on Jennie-O Turkey Store. Mosquitoes benefit from the more than 100 lakes scattered across the county. Mice move toward town each fall as both grain harvest and turkey farming operations displace them from the surrounding land. Flies can run somewhat heavier near active poultry facilities than in a Minnesota town without this industry. Cluster flies follow the standard regional fall pattern. A Willmar pest program typically needs to account for both the lake-country mosquito load and the agricultural fly and rodent pressure at the same time.",
+    sections: [
+      {
+        heading: "Lake Country Mosquitoes Versus a Landlocked Prairie Town",
+        body: "Kandiyohi County's status as part of Minnesota's prairie lakes region, with more than 100 lakes scattered through the county, gives Willmar considerably more mosquito breeding habitat than a prairie town without this much water nearby. A landlocked agricultural community relies mostly on temporary standing water from rain events for its mosquito population, which tends to peak and recede more predictably. Willmar's lakes provide a steadier, more persistent source of breeding habitat through the entire warm season, which is why a full-season barrier treatment program from May through September tends to hold up better here than a shorter, rain-event-focused approach would in a landlocked county further out on the prairie.",
+      },
+      {
+        heading: "Comparing Willmar's Fly Pressure to a Non-Poultry Farming Town",
+        body: "Most Minnesota farm towns deal with a fairly standard seasonal fly pattern tied to general agriculture and livestock. Willmar's concentration of turkey farming and processing, anchored by Jennie-O Turkey Store's presence since 1940, adds an additional, more consistent fly pressure near active poultry operations that a town without this specific industry wouldn't experience at the same scale. Properties and businesses near active turkey farming or processing facilities generally see this elevated pressure most directly, and it can run at a fairly steady level rather than following the sharper fall spike that cluster flies and rodents show. A restaurant or home a mile from an active processing facility will generally notice less of this pressure than one immediately adjacent, which makes proximity, not just the calendar, the more useful planning factor here.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier treatment from May through September given the extended breeding season created by Kandiyohi County's many lakes.",
+      "Seal foundation gaps and utility penetrations by early September, ahead of the combined grain-harvest and poultry-farming rodent displacement.",
+      "Businesses and homes near active poultry operations should consider a more frequent fly-control service schedule than the standard seasonal program.",
+      "Seal exterior gaps in early fall to reduce the cluster fly push before the insects begin actively seeking winter shelter.",
+      "Address standing water in gutters and low-lying yard areas promptly to avoid compounding the area's already elevated mosquito habitat.",
+    ],
+    costNote:
+      "Mosquito barrier treatment in Willmar typically runs $100 to $200 per application across a May-through-September program. Fly control service for homes or businesses near poultry operations is generally quoted as a more frequent recurring program. Rodent exclusion and baiting typically runs $160 to $320 for an initial program. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Willmar have more mosquitoes than a typical Minnesota farm town?",
+        answer:
+          "Willmar sits in Kandiyohi County's prairie lakes region, which holds more than 100 lakes, giving mosquitoes far more persistent breeding habitat than a landlocked agricultural town relying only on temporary rainwater pools. That steady water source keeps mosquito populations active through more of the warm season. A full May-through-September barrier treatment program generally performs better here than a shorter approach built around individual rain events.",
+      },
+      {
+        question: "Does Willmar's turkey farming industry affect pest pressure?",
+        answer:
+          "Yes, particularly for flies. Willmar has been home to Jennie-O Turkey Store, one of the largest turkey processors in the world, since 1940, and the concentration of turkey farming and processing in and around the city can increase fly pressure near active operations beyond what a Minnesota town without this industry would experience. Properties and businesses closest to active poultry facilities typically see this most directly, and often benefit from a more frequent fly-control schedule than a standard seasonal program.",
+      },
+      {
+        question: "When is mouse season in Willmar?",
+        answer:
+          "October through December is the peak window, driven by two overlapping factors: the fall grain harvest across Kandiyohi County's farmland and the area's turkey farming operations, both of which displace rodents toward town as the growing season ends. That gives Willmar a somewhat heavier fall mouse push than a purely residential Minnesota community without this much surrounding agricultural activity. Sealing entry points in early September, ahead of both the harvest and the seasonal cold, is the most effective preventive step.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "New London", slug: "new-london-mn", stateSlug: "minnesota" },
+      { name: "Litchfield", slug: "litchfield-mn", stateSlug: "minnesota" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Willmar, MN | Kandiyohi County Lake Country",
+    metaDescription:
+      "Willmar, MN pest control for lake-driven mosquitoes, harvest mice, cluster flies, and poultry-area fly pressure. Kandiyohi County service. Free inspection.",
+  },
+  {
+    slug: "northfield-mn",
+    name: "Northfield",
+    state: "Minnesota",
+    stateSlug: "minnesota",
+    stateAbbr: "MN",
+    tier: "T3",
+    population: "~21,000",
+    county: "Rice County",
+    climate: "cold-humid",
+    climateDriver:
+      "Northfield sits along the Cannon River in Rice County, a humid continental climate with cold snowy winters and warm humid summers. The city is home to Carleton College and St. Olaf College, with roughly 30 percent of the population college-age, giving Northfield a large stock of older rental and multi-tenant housing alongside the surrounding agricultural land typical of Rice County.",
+    topPests: ["Mice", "Cluster Flies", "Ants", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peaks October through December",
+        note: "Rice County's surrounding farmland displaces field mice toward Northfield each fall at harvest, while the city's substantial rental and older housing stock near Carleton and St. Olaf gives them more entry opportunities than newer construction would.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October",
+        note: "Cluster flies converge on Northfield buildings each fall, a standard Upper Midwest pattern tied to the earthworm-rich soil of the surrounding agricultural land.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Northfield's older rental housing stock near the two college campuses tends to accumulate more ant activity over time than newer, tighter construction, particularly odorous house ants drawn to kitchen moisture in shared student housing.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "May through September",
+        note: "The Cannon River corridor running through Northfield sustains mosquito breeding habitat through the warm season along its floodplain and adjacent low-lying areas.",
+      },
+    ],
+    localHook:
+      "Northfield is home to two nationally known liberal arts colleges, Carleton College and St. Olaf College, with roughly 30 percent of the city's population in the 18 to 24 age range. The city sits on the Cannon River in a historically agricultural Rice County setting. That college-town character, layered onto typical Minnesota farmland surroundings, is what distinguishes Northfield's pest profile from a purely agricultural or purely residential Rice County town.",
+    intro:
+      "Pest control in Northfield has to account for its identity as a college town layered onto a historically agricultural Rice County setting. Mice from the surrounding farmland arrive each fall at harvest, and the city's substantial stock of older rental housing near Carleton College and St. Olaf College gives them more entry opportunities than a neighborhood of newer, tighter construction would. Ants build up in that same older rental housing stock over multiple seasons of turnover between tenants. Cluster flies follow the standard regional fall pattern, and the Cannon River running through town sustains mosquito breeding through the warm season. A Northfield pest program generally needs a stronger focus on older rental housing than a program built for a purely residential Rice County town, and the two colleges' own facilities staff typically coordinate on a schedule separate from what a private landlord nearby would arrange.",
+    sections: [
+      {
+        heading: "College-Town Rental Housing Versus Owner-Occupied Homes",
+        body: "Rental housing near Carleton College and St. Olaf College tends to accumulate more pest activity over time than owner-occupied homes on the same street, for a straightforward reason: high tenant turnover means maintenance issues, a small gap around a window frame, a slow kitchen drain, a torn screen, are less likely to get addressed quickly than they would be in a home with a long-term owner watching for them. Odorous house ants and cockroaches in particular tend to establish more persistent populations in this kind of housing. A pest program covering Northfield rental properties generally benefits from a more frequent inspection schedule than an owner-occupied home nearby would need.",
+      },
+      {
+        heading: "Comparing Northfield's Farmland-Driven Mice to a Non-College Rice County Town",
+        body: "The fall mouse pattern in Northfield starts the same way it does in any Rice County town: harvest displaces field mice from the surrounding farmland, and they move toward the nearest available shelter. What's different in Northfield is what happens next. A purely residential town has a more uniform housing stock for those displaced mice to target, whereas Northfield's older, sometimes poorly sealed rental housing near the two campuses offers more accessible entry points than a subdivision of newer homes would. That means fall exclusion work in Northfield often needs to prioritize the city's older rental districts first, since those properties tend to see pressure before, and more heavily than, newer residential areas.",
+      },
+    ],
+    prevention: [
+      "Landlords and property managers of Northfield rental housing should schedule more frequent inspections than an owner-occupied home might need, given higher tenant turnover.",
+      "Seal foundation gaps, utility penetrations, and window frame gaps by early September, ahead of the fall harvest rodent displacement from surrounding farmland.",
+      "Address kitchen and bathroom moisture issues promptly in shared or multi-tenant housing to reduce odorous house ant activity.",
+      "Schedule mosquito barrier treatment through the Cannon River corridor season, May through September, for properties near the river.",
+      "Seal exterior gaps in early fall to reduce cluster fly entry before the seasonal push begins.",
+    ],
+    costNote:
+      "Rodent exclusion and baiting in Northfield typically runs $160 to $320 for an initial program, with rental and multi-tenant properties often quoted for a recurring inspection schedule. Ant treatment for odorous house ants ranges from $120 to $220. Mosquito barrier treatment along the Cannon River corridor runs $100 to $200 per application. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do Northfield's rental properties near the colleges seem to have more pest issues?",
+        answer:
+          "High tenant turnover near Carleton College and St. Olaf College means small maintenance issues, a gap around a window frame, a slow drain, a torn screen, are less likely to get caught and fixed quickly than in an owner-occupied home with a long-term resident paying attention. Odorous house ants and cockroaches in particular tend to build more persistent populations in this kind of housing over successive tenant cycles. A more frequent inspection schedule, rather than a once-a-year check, generally serves rental properties in Northfield better.",
+      },
+      {
+        question: "Does Northfield get the same fall mouse pattern as other Rice County towns?",
+        answer:
+          "The trigger is the same, fall harvest across the farmland surrounding Northfield displaces field mice toward town, but where those mice end up can differ. Northfield's older rental housing stock near the two college campuses tends to offer more accessible entry points than a subdivision of newer, tightly sealed homes would, so those areas often see pressure earlier and more heavily than newer residential parts of the city. Exclusion work completed before September in these older districts specifically tends to make the biggest difference.",
+      },
+      {
+        question: "Is the Cannon River a significant mosquito source for Northfield?",
+        answer:
+          "Yes, for properties near the river corridor. The floodplain and adjacent low-lying areas along the Cannon River as it runs through Northfield sustain mosquito breeding habitat through the warm season, more so than a part of the city set away from the river. A barrier treatment program running from May through September is the standard approach for properties in this zone, and it generally needs to run the full season given how persistent river-corridor habitat tends to be compared to temporary rainwater pools elsewhere in town.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Faribault", slug: "faribault", stateSlug: "minnesota" },
+      { name: "Dundas", slug: "dundas-mn", stateSlug: "minnesota" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Northfield, MN | Rice County College Town",
+    metaDescription:
+      "Northfield, MN pest control for rental-housing ants and mice, harvest-driven rodents, and Cannon River mosquitoes. Rice County college-town service.",
+  },
 ];

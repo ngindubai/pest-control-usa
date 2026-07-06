@@ -5679,4 +5679,184 @@ export const indianaCities: CityLocation[] = [
     metaTitle: "Pest Control in Griffith, IN | Mice, Ants & Cockroaches",
     metaDescription: "Griffith IN pest control for fall mice, pavement ants, German cockroaches, and stink bugs. Lake County NW Indiana specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "warsaw-in",
+    name: "Warsaw",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~16,100",
+    county: "Kosciusko County",
+    climate: "cold-humid",
+    climateDriver:
+      "Warsaw sits in Kosciusko County, a humid continental region with warm summers and cold winters, but its defining feature is water: the county holds more than 100 lakes, including Indiana's largest natural lake, Wawasee, and its deepest, Tippecanoe, and Warsaw itself is ringed by Pike Lake, Hidden Lake, Center Lake, and nearby Winona Lake. That lake density drives significantly more mosquito and moisture-related pest pressure than a comparable inland Indiana town.",
+    topPests: ["Mosquitoes", "Carpenter Ants", "Mice", "Termites"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Kosciusko County's more than 100 lakes, including the four ringing Warsaw itself, give mosquitoes an unusually large amount of breeding habitat for an Indiana county, extending the active season well past what a lake-free inland town would see.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "The humidity that comes with living among Kosciusko County's lakes keeps exterior wood damp longer than in drier parts of Indiana, giving carpenter ants more opportunities to establish colonies in fascia boards and lakefront decking.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "October through March",
+        note: "Cold winters push mice toward Warsaw homes and the city's substantial orthopedic-manufacturing commercial buildings alike, seeking any available shelter as temperatures drop.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June, active year-round in soil",
+        note: "Eastern subterranean termites are established throughout Kosciusko County; the moist, lake-adjacent soil common around Warsaw sustains colonies more consistently than in drier inland regions of Indiana.",
+      },
+    ],
+    localHook:
+      "Warsaw calls itself the Orthopedic Capital of the World, home to Zimmer Biomet and DePuy Synthes, together accounting for roughly a third of global orthopedic device manufacturing. But the more relevant fact for pest pressure is water: Kosciusko County has more than 100 lakes, including Indiana's largest (Wawasee) and deepest (Tippecanoe), and Warsaw itself sits among Pike Lake, Hidden Lake, Center Lake, and neighboring Winona Lake. That density of water is unusual even by Indiana lake-country standards.",
+    intro:
+      "Pest control in Warsaw has to account for one of the highest concentrations of lakes anywhere in Indiana. Mosquitoes benefit the most, with breeding habitat scattered across the many lakes ringing and near the city, extending the active season well beyond what an inland Indiana town without this much water would face. Carpenter ants and termites both benefit from the ambient moisture that comes with living among so many lakes. Mice push into Warsaw's homes and its substantial commercial and manufacturing buildings alike once cold weather sets in. A Warsaw pest program generally needs a stronger mosquito and moisture-pest focus than a typical inland Indiana city its size.",
+    sections: [
+      {
+        heading: "Why Warsaw's Mosquito Season Runs Longer Than a Typical Indiana Town's",
+        body: "Kosciusko County's more than 100 lakes, an unusual concentration even by Indiana standards, give mosquitoes vastly more breeding habitat close to Warsaw than a county without this much water would offer. Pike Lake, Hidden Lake, and Center Lake sit within the city itself, and Winona Lake and the larger Wawasee and Tippecanoe lakes are a short drive away. That means new mosquito generations have more nearby water sources to draw from throughout the warm season, which extends the practical treatment window from April through October rather than the shorter window a landlocked Indiana town might need. Properties directly on or near any of Warsaw's lakes typically see the heaviest pressure and benefit most from a full-season barrier program.",
+      },
+      {
+        heading: "Comparing Warsaw's Moisture-Driven Pests to a Drier Inland County",
+        body: "Carpenter ants and subterranean termites both need consistent moisture to thrive, and Kosciusko County's lake density keeps ambient humidity and soil moisture higher around Warsaw than in a drier inland Indiana county. Exterior wood on lakefront and near-lake homes, decking, fascia boards, window sills, stays damp longer after rain than it would in a landlocked part of the state, giving carpenter ants more opportunities to move in. The same moist soil conditions support more consistent year-round subterranean termite activity. A Warsaw termite inspection generally puts more weight on lakefront and near-lake properties than an inspection program built for a drier inland town would. Two otherwise identical Kosciusko County homes, one three blocks from Winona Lake and one on the county's drier eastern edge, can carry meaningfully different termite risk profiles for this reason alone.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier treatment from April through October given the extended breeding season created by Kosciusko County's many lakes.",
+      "Have lakefront and near-lake decking, fascia boards, and window sills inspected regularly for moisture damage that invites carpenter ants.",
+      "Schedule an annual termite inspection, particularly for homes near any of Warsaw's surrounding lakes where soil moisture stays higher.",
+      "Seal foundation gaps and utility penetrations before the cold sets in to reduce mouse entry into both homes and commercial buildings.",
+      "Clear gutters regularly through the lake season to prevent additional standing water from compounding the area's already elevated mosquito habitat.",
+    ],
+    costNote:
+      "Mosquito barrier treatment in Warsaw typically runs $100 to $200 per application across an April-through-October program given the extended lake-driven season. Termite inspection is usually free to $75, with treatment ranging from $900 to $2,500 depending on infestation extent. Carpenter ant treatment for an established colony ranges from $200 to $450. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Warsaw need mosquito treatment longer into the year than other Indiana towns?",
+        answer:
+          "Kosciusko County has more than 100 lakes, an unusually high concentration even by Indiana standards, and several of them, Pike Lake, Hidden Lake, and Center Lake, sit within Warsaw itself, with Winona Lake and the larger Wawasee and Tippecanoe close by. That much nearby water gives mosquitoes far more breeding habitat than a landlocked Indiana town has, which extends the practical treatment window from April through October rather than a shorter summer-only season. Properties directly on or near any of Warsaw's lakes typically need the fullest season coverage.",
+      },
+      {
+        question: "Is termite risk higher in Warsaw because of all the lakes?",
+        answer:
+          "The soil moisture that comes with Kosciusko County's lake density does support more consistent year-round subterranean termite activity than a drier inland Indiana county would see. Eastern subterranean termites need moist soil to sustain their colonies, and the ground around Warsaw's many lakes tends to stay damper longer after rainfall than land in a landlocked part of the state. An annual inspection is the standard recommendation for any Warsaw structure, with extra attention warranted for homes near the water.",
+      },
+      {
+        question: "Do Warsaw's orthopedic manufacturing facilities have different pest needs than homes?",
+        answer:
+          "Warsaw's identity as the Orthopedic Capital of the World, home to Zimmer Biomet and DePuy Synthes, means the city has substantial commercial and manufacturing square footage in addition to its residential neighborhoods. Those facilities need the same cold-weather rodent exclusion attention as homes, sealing loading dock doors and utility penetrations before winter, but at commercial scale, and often as part of a scheduled recurring service rather than a one-time residential treatment.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Goshen", slug: "goshen", stateSlug: "indiana" },
+      { name: "Syracuse", slug: "syracuse-in", stateSlug: "indiana" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Warsaw, IN | Kosciusko County Lake Country",
+    metaDescription:
+      "Warsaw, IN pest control for lake-driven mosquitoes, carpenter ants, termites, and winter mice. Kosciusko County lake-country service. Free inspection.",
+  },
+  {
+    slug: "auburn-in",
+    name: "Auburn",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~14,000",
+    county: "DeKalb County",
+    climate: "cold-humid",
+    climateDriver:
+      "Auburn is the DeKalb County seat in northeast Indiana, a humid continental climate with hot summers and cold winters that see roughly 36 inches of snowfall a year. The city sits within the St. Joseph River watershed, an area that is roughly 79 percent agricultural land outside the immediate Fort Wayne metro, which makes surrounding row-crop farmland the dominant driver of fall rodent pressure.",
+    topPests: ["Mice", "Cluster Flies", "Termites", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peaks October through December",
+        note: "The St. Joseph River watershed surrounding Auburn is roughly 79 percent agricultural, and fall harvest across that corn and soybean farmland displaces field mice toward the city's homes and businesses in a predictable seasonal wave.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "September through October",
+        note: "Cluster flies breed in the earthworm-rich farm soil surrounding Auburn before moving toward buildings each fall, a pattern common across DeKalb County's agricultural landscape.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June",
+        note: "Eastern subterranean termites are active throughout DeKalb County; humid continental summers and moist soil near the St. Joseph River watershed sustain colonies in both Auburn's historic downtown buildings and newer residential construction.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Auburn's tree-lined older neighborhoods, including those near the Auburn Cord Duesenberg Automobile Museum district, give carpenter ants access to moisture-damaged wood in aging fascia and window frames.",
+      },
+    ],
+    localHook:
+      "Auburn is home to the Auburn Cord Duesenberg Automobile Museum, celebrating the classic car brands built here between 1894 and 1999, and hosts the annual Auburn Cord Duesenberg Festival. But the more consequential fact for pest pressure is geography: Auburn sits within the St. Joseph River watershed, land that is roughly 79 percent agricultural once you get outside the Fort Wayne metro, and that surrounding corn and soybean farmland is what drives the city's fall rodent calendar.",
+    intro:
+      "Pest control in Auburn is shaped primarily by the agricultural land of the St. Joseph River watershed surrounding the city. Mice displaced by the fall harvest move toward Auburn's homes and businesses in a predictable seasonal wave, arriving alongside cluster flies converging on buildings from the same farmland. Termites and carpenter ants both work through Auburn's mix of historic downtown structures near the automobile museum district and newer residential construction. A pest program built for Auburn typically leans harder on pre-harvest rodent exclusion than one built for a town without this much surrounding row-crop farmland.",
+    sections: [
+      {
+        heading: "Why Auburn's Fall Mouse Season Is More Predictable Than a Non-Agricultural Town's",
+        body: "With roughly 79 percent of the St. Joseph River watershed around Auburn in agricultural use, the fall harvest timeline effectively sets the mouse calendar for the whole city. As combines move through the corn and soybean fields surrounding Auburn in September and October, the field mice that lived in the crop cover all summer lose their shelter and move outward, typically toward the nearest fence line, tree row, or building. A town without this much surrounding farmland sees rodent pressure that's steadier through the year but generally lower overall; Auburn instead gets a sharper, more concentrated fall spike that pre-harvest exclusion work can meaningfully blunt if it's done in early September, before the fields come down. Checking the local harvest schedule with a neighbor who farms nearby is, in practice, a reasonably good early warning system for when to finish that exclusion work.",
+      },
+      {
+        heading: "Comparing Auburn's Historic Downtown to Its Newer Residential Areas",
+        body: "Auburn's downtown, centered around the Auburn Cord Duesenberg Automobile Museum district, includes brick and frame buildings considerably older than the construction in the city's newer residential subdivisions. Older buildings tend to have more settling, more gaps around original window and door frames, and more accumulated moisture damage in fascia and sills, all of which give termites and carpenter ants easier access than a newer home with tighter, more modern construction typically offers. A termite or carpenter ant inspection in Auburn's historic district generally needs to look more closely at original structural wood than the same inspection would in a subdivision built in the last two decades. Owners of the downtown's century-old storefronts, in particular, benefit from a closer annual look than a homeowner in a subdivision built after 2005 typically needs.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps, utility penetrations, and garage door bottoms by early September, ahead of the fall harvest displacement from surrounding farmland.",
+      "Schedule an annual termite inspection, with particular attention to older structures in Auburn's historic downtown district.",
+      "Inspect fascia boards and window frames on older homes for moisture damage that invites carpenter ants.",
+      "Seal exterior gaps in early fall to reduce cluster fly entry before the insects begin actively seeking winter shelter.",
+      "Keep mulch and dense plantings pulled back from the foundation to reduce moisture buildup that supports termites and carpenter ants.",
+    ],
+    costNote:
+      "Rodent exclusion and baiting in Auburn typically runs $160 to $320 for an initial program, most effective when completed before the fall harvest. Termite inspection is usually free to $75, with treatment ranging from $900 to $2,500. Carpenter ant treatment for an established colony ranges from $200 to $450. Free inspection included.",
+    faqs: [
+      {
+        question: "When should I expect the most mice in my Auburn home?",
+        answer:
+          "October through December is the heaviest window, tied directly to the fall harvest across the St. Joseph River watershed's agricultural land, which makes up roughly 79 percent of the area surrounding Auburn outside the immediate Fort Wayne metro. As combines clear the corn and soybean fields, the mice that spent the growing season in the crop cover move toward the nearest available shelter, often a home or business on the edge of town. Sealing entry points in early September, before the harvest begins, is considerably more effective than reacting after mice are already inside.",
+      },
+      {
+        question: "Are older homes in Auburn's historic district more prone to termites?",
+        answer:
+          "Generally yes, more than newer construction in Auburn's residential subdivisions. Buildings in the historic downtown, near the Auburn Cord Duesenberg Automobile Museum district, have had more time to develop the settling and moisture-related wear that give eastern subterranean termites easier access. That doesn't mean newer homes are immune, DeKalb County has established termite pressure throughout, but an older structure typically warrants a closer inspection of its original wood framing.",
+      },
+      {
+        question: "Why does Auburn get cluster flies every fall?",
+        answer:
+          "Cluster flies breed in the earthworm-rich soil of the farmland surrounding Auburn throughout the growing season, then move toward buildings each September and October looking for a place to spend the winter. This is a standard pattern across DeKalb County's agricultural landscape, not unique to Auburn, but the amount of farmland ringing the city means the fall push can be noticeable. Sealing exterior gaps and caulking siding cracks before the insects start searching for shelter is the most effective single step.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Garrett", slug: "garrett-in", stateSlug: "indiana" },
+      { name: "Kendallville", slug: "kendallville-in", stateSlug: "indiana" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Auburn, IN | DeKalb County St. Joseph Watershed",
+    metaDescription:
+      "Auburn, IN pest control for harvest-driven mice, termites, cluster flies, and carpenter ants. DeKalb County St. Joseph River watershed service. Free inspection.",
+  },
 ];

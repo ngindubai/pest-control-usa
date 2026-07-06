@@ -2762,4 +2762,184 @@ export const kansasCities: CityLocation[] = [
     metaDescription:
       "Pest control in McPherson, KS. McPherson County service for house mice from grain storage, brown recluse spiders, stored product insects, wasps, and mosquitoes. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "ottawa-ks",
+    name: "Ottawa",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~12,700",
+    county: "Franklin County",
+    climate: "temperate",
+    climateDriver:
+      "Ottawa is the Franklin County seat, sitting on the Marais des Cygnes River in eastern Kansas. The humid continental climate brings hot summers and cold winters within the eastern edge of Tornado Alley. After a major 1951 flood, the Army Corps of Engineers built levees and freestanding gated floodwalls through Ottawa in the 1960s, a direct response to the river's flood history that still shapes the city's relationship to standing water and mosquito pressure today.",
+    topPests: ["Mosquitoes", "Mice", "Termites", "Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Marais des Cygnes River floodplain, the same terrain that prompted the Army Corps of Engineers to build levees and floodwalls through Ottawa after the 1951 flood, gives mosquitoes substantial breeding habitat close to the city.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peaks October through December",
+        note: "Fall harvest across Franklin County's surrounding cropland displaces field mice toward Ottawa, a predictable seasonal pattern typical of eastern Kansas farm country.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June",
+        note: "Eastern subterranean termites are active throughout eastern Kansas' humid continental summers, with river-adjacent soil moisture around Ottawa sustaining colonies particularly well.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "April through September",
+        note: "Typical eastern Kansas ant pressure, including odorous house ants and pavement ants, is common through the warm season in Ottawa's residential neighborhoods.",
+      },
+    ],
+    localHook:
+      "Ottawa sits on the Marais des Cygnes River in Franklin County, a river with enough flood history that the Army Corps of Engineers built levees and freestanding gated floodwalls directly through the city in the 1960s, following a major 1951 flood. That flood-control infrastructure is a genuine, verifiable local feature, and the wet floodplain terrain it protects against is exactly what elevates Ottawa's mosquito and moisture-pest pressure relative to a Franklin County location set away from the river.",
+    intro:
+      "Pest control in Ottawa is shaped substantially by its position on the Marais des Cygnes River, a river with a documented flood history significant enough to prompt Army Corps of Engineers levee and floodwall construction through the city in the 1960s. Mosquitoes benefit from that floodplain terrain more than they would in a Franklin County location set away from the river. Mice arrive each fall from the surrounding cropland at harvest, a standard eastern Kansas pattern. Termites benefit from the added river-adjacent soil moisture. Ants are a typical warm-season presence. A Ottawa pest program typically needs a stronger river-driven mosquito focus than a program built for an inland Franklin County town.",
+    sections: [
+      {
+        heading: "Flood-Control Infrastructure as Evidence of Genuine Wetland Exposure",
+        body: "The levees and gated floodwalls the Army Corps of Engineers built through Ottawa in the 1960s weren't a precaution against a hypothetical risk, they were a direct response to a major 1951 flood on the Marais des Cygnes River. That infrastructure is a useful marker for understanding pest pressure here: a river significant enough to warrant permanent flood-control construction is also a river significant enough to sustain considerably more mosquito breeding habitat than a Franklin County location without this kind of exposure. Properties near the river and floodplain, inside or adjacent to the leveed area, generally see the heaviest mosquito pressure and benefit most from a full-season barrier program that runs the length of the warm season rather than a shorter one built around isolated rain events.",
+      },
+      {
+        heading: "Comparing Ottawa's River-Adjacent Termite Pressure to a Drier Franklin County Location",
+        body: "Eastern subterranean termites need consistent soil moisture to sustain colonies, and Ottawa's position on the Marais des Cygnes River keeps the ground near the floodplain damper for more of the year than a drier part of Franklin County would offer. That doesn't mean termites are absent elsewhere in the county, they're active throughout eastern Kansas, but river-adjacent Ottawa properties tend to see somewhat more consistent activity across the seasons. An annual inspection is the standard recommendation regardless, with added attention warranted for structures nearer the river and floodplain. A property just outside the levee-protected area, on higher ground toward the edge of town, typically carries a somewhat lower baseline risk than one closer to the water.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier treatment from April through October given the Marais des Cygnes River floodplain's extended breeding season.",
+      "Seal foundation gaps and utility penetrations by early September, ahead of the fall harvest rodent displacement from surrounding cropland.",
+      "Schedule an annual termite inspection, with added attention for properties near the river and floodplain.",
+      "Seal gaps around plumbing and foundation entry points to limit ant access, particularly for moisture-seeking species.",
+      "Address standing water in gutters and low-lying yard areas promptly to avoid compounding the river's already elevated mosquito habitat.",
+    ],
+    costNote:
+      "Mosquito barrier treatment in Ottawa typically runs $100 to $200 per application across an April-through-October program. Rodent exclusion and baiting typically runs $160 to $320 for an initial program. Termite inspection is usually free to $75, with treatment ranging from $900 to $2,500. Free inspection included.",
+    faqs: [
+      {
+        question: "Why did Ottawa build levees along the Marais des Cygnes River?",
+        answer:
+          "The Army Corps of Engineers built levees and freestanding gated floodwalls through Ottawa in the 1960s in direct response to a major 1951 flood on the river. That flood-control infrastructure reflects a genuine, documented flood risk, and the same floodplain terrain it protects against is what gives Ottawa considerably more mosquito breeding habitat than a Franklin County location set away from the river. Properties near the river and floodplain typically see the heaviest mosquito pressure.",
+      },
+      {
+        question: "When should I expect the most mice in my Ottawa home?",
+        answer:
+          "October through December is the peak window, tied to the fall harvest across the cropland surrounding Ottawa in Franklin County. As fields are cleared, displaced field mice move toward the nearest available shelter. This is a standard pattern across eastern Kansas farm country, not unique to Ottawa specifically. Sealing entry points in early September, before the harvest begins, is considerably more effective than reacting after mice are already inside.",
+      },
+      {
+        question: "Is termite risk higher for homes near Ottawa's river and floodplain?",
+        answer:
+          "Somewhat, yes. Eastern subterranean termites need consistent soil moisture, and the ground near the Marais des Cygnes River's floodplain tends to stay damper for more of the year than drier parts of Franklin County. That sustains somewhat more consistent termite activity across the seasons for river-adjacent Ottawa properties. An annual inspection remains the standard recommendation for any structure in the area, with extra attention warranted closer to the water.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Lawrence", slug: "lawrence", stateSlug: "kansas" },
+      { name: "Osawatomie", slug: "osawatomie-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Ottawa, KS | Franklin County Marais des Cygnes River",
+    metaDescription:
+      "Ottawa, KS pest control for river-floodplain mosquitoes, harvest-driven mice, termites, and ants. Franklin County service. Free inspection.",
+  },
+  {
+    slug: "winfield-ks",
+    name: "Winfield",
+    state: "Kansas",
+    stateSlug: "kansas",
+    stateAbbr: "KS",
+    tier: "T3",
+    population: "~11,700",
+    county: "Cowley County",
+    climate: "semi-arid",
+    climateDriver:
+      "Winfield is the Cowley County seat, founded in 1870 in the Walnut River valley on the strength of fertile valley soils. The climate is a humid continental and semi-arid transition typical of south-central Kansas, hot summers and cold winters, within Tornado Alley. Agriculture remains a major economic driver in Cowley County, with wheat, milo, corn, cotton, and cattle production generating more than $116 million in county crop and livestock sales as of 2022.",
+    topPests: ["Mice", "Ticks", "Mosquitoes", "Termites"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Peaks September through December",
+        note: "Winfield's location amid Cowley County's substantial wheat, milo, corn, and cotton production means multiple harvest windows across the growing season, each capable of displacing field mice toward town.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "April through October",
+        note: "Pasture and river-valley grassland along the Walnut River, sustaining Cowley County's cattle operations, supports tick populations typical of south-central Kansas farm country.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through September",
+        note: "The Walnut River running through Winfield gives mosquitoes breeding habitat along its banks and floodplain through the warm season.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms April through June",
+        note: "Eastern subterranean termites are active in south-central Kansas summers, with Walnut River valley soil moisture supporting colonies around Winfield.",
+      },
+    ],
+    localHook:
+      "Winfield was founded in 1870 in the Walnut River valley specifically because of the valley's fertile soils, and that agricultural character remains central to the local economy: Cowley County generated more than $116 million in crop and livestock sales in 2022 alone, spanning wheat, milo, corn, cotton, and cattle. That scale of surrounding agriculture, more than any single crop, is what drives Winfield's pest calendar across multiple seasons rather than a single fall harvest event.",
+    intro:
+      "Pest control in Winfield is shaped by the scale and diversity of Cowley County's agriculture. With wheat, milo, corn, cotton, and cattle operations all active around the Walnut River valley, Winfield sees rodent pressure across more of the calendar than a town with a single dominant crop and one harvest window would experience. Ticks are a genuine concern given the pasture and river-valley grassland that supports the county's cattle operations. Mosquitoes breed along the Walnut River's banks and floodplain through the warm season. Termites remain active given south-central Kansas' humid summers and the valley's soil moisture. A Winfield pest program typically needs to account for multiple, staggered harvest-driven rodent pushes rather than a single fall event, spread across the fall rather than concentrated into one short window.",
+    sections: [
+      {
+        heading: "Multiple Crop Cycles Versus a Single-Harvest Farm Town",
+        body: "A Kansas farm town built around one dominant crop, corn or wheat alone, typically sees one concentrated rodent displacement event tied to that crop's single harvest window. Winfield's position amid Cowley County's diversified agriculture, wheat, milo, corn, and cotton all in active production, along with cattle operations, means the fields around town come down at different points across the growing season rather than all at once. That staggers the rodent pressure Winfield sees, giving it a longer overall window of elevated mouse activity, roughly September through December, than a single-crop town's sharper, shorter fall spike would produce, which is worth planning around rather than treating as a single fall event.",
+      },
+      {
+        heading: "Comparing Winfield's Cattle-Country Tick Exposure to a Row-Crop-Only Town",
+        body: "Cowley County's cattle operations require pasture and river-valley grassland that a purely row-crop farming county wouldn't maintain at the same scale, and that grassland is exactly the habitat ticks need to establish themselves close to populated areas. A Kansas town surrounded mostly by corn and soybean fields, with less permanent grassland, typically sees lower ambient tick exposure than Winfield does given its position in the grazing-heavy Walnut River valley. Anyone spending time in or near pasture areas around Winfield should factor in this somewhat elevated tick exposure compared to a purely row-crop farming community, particularly during spring and early summer when tick activity in Kansas grassland tends to peak before the hottest part of the season sets in.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations by early September, given Winfield's multiple staggered harvest windows through December.",
+      "Check for ticks after time spent in pasture or river-valley grassland areas around Winfield, particularly given the county's cattle operations.",
+      "Schedule mosquito barrier treatment from April through September for properties near the Walnut River.",
+      "Schedule an annual termite inspection given south-central Kansas' active termite season and the valley's soil moisture.",
+      "Keep grass cut short near the home's perimeter to reduce tick habitat close to the house.",
+    ],
+    costNote:
+      "Rodent exclusion and baiting in Winfield typically runs $160 to $320 for an initial program, often more effective as a scheduled service given the extended, staggered harvest window. Tick treatment for pasture-adjacent residential lots ranges from $150 to $300. Mosquito barrier treatment runs $100 to $200 per application. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Winfield see mice for longer than a single-crop Kansas town?",
+        answer:
+          "Cowley County's agriculture around Winfield is diversified, wheat, milo, corn, and cotton are all in active production, along with cattle operations, and those different crops come down at different points across the growing season rather than in one single harvest event. That staggers the rodent displacement Winfield sees, giving it a longer overall window of elevated mouse activity, roughly September through December, than a town built around one dominant crop with a single fall harvest would experience.",
+      },
+      {
+        question: "Is tick exposure higher in Winfield because of the cattle operations?",
+        answer:
+          "Generally yes, compared to a Kansas town surrounded mostly by row crops with less permanent grassland. Cowley County's cattle operations require pasture and river-valley grassland, and that habitat is exactly what ticks need to establish themselves close to populated areas. Winfield's position in the grazing-heavy Walnut River valley means somewhat more ambient tick exposure than a purely row-crop farming community nearby would have. Checking for ticks after time in pasture areas is a genuinely worthwhile precaution here.",
+      },
+      {
+        question: "Are termites a concern in Winfield given the semi-arid classification?",
+        answer:
+          "Yes, termites remain active through the warm season despite the semi-arid influence on Winfield's climate. The Walnut River valley's soil moisture, the same fertile ground that drew the town's original 1870 settlement, sustains eastern subterranean termite colonies in the immediate area even though the broader regional climate trends drier than areas further east in Kansas. An annual inspection remains the standard recommendation for any Winfield structure.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Udall", slug: "udall-ks", stateSlug: "kansas" },
+      { name: "Wellington", slug: "wellington-ks", stateSlug: "kansas" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Winfield, KS | Cowley County Walnut River Valley",
+    metaDescription:
+      "Winfield, KS pest control for staggered harvest mice, pasture ticks, river mosquitoes, and termites. Cowley County Walnut River service. Free inspection.",
+  },
 ];

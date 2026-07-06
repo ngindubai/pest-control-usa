@@ -3720,4 +3720,184 @@ export const alabamaCities: CityLocation[] = [
   metaDescription:
     "Helena, AL pest control for eastern subterranean termites, fire ants, mosquitoes, German cockroaches, and carpenter ants. New construction and established homes in Shelby County. Free inspection.",
 },
+  {
+    slug: "scottsboro-al",
+    name: "Scottsboro",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~15,800",
+    county: "Jackson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Scottsboro is the Jackson County seat in northeastern Alabama, on the banks of Lake Guntersville, a reservoir on the Tennessee River. The humid subtropical climate brings hot humid summers and mild winters, and the lake and river system together give Scottsboro considerably more mosquito breeding habitat and moisture-driven pest pressure than a northeast Alabama town set away from this reservoir system.",
+    topPests: ["Mosquitoes", "Eastern Subterranean Termites", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Lake Guntersville's shoreline and the Tennessee River give Scottsboro considerably more mosquito breeding habitat close to residential areas than a Jackson County town set away from the reservoir system.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active year-round",
+        note: "The humid subtropical climate and lake-adjacent soil moisture around Scottsboro sustain termite colonies year-round, a consistent pattern across northeastern Alabama.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "fire-ants",
+        activeSeason: "Year-round, most active March through October",
+        note: "Red imported fire ants are established throughout Jackson County; mild winters mean colonies rarely die back completely, keeping mound-building activity a near-continuous concern in Scottsboro yards.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, heaviest after rain",
+        note: "American cockroaches use lakeside storm drains and shoreline vegetation as outdoor harborage, moving indoors during and after the region's heavy rain events.",
+      },
+    ],
+    localHook:
+      "Scottsboro sits on the banks of Lake Guntersville, a major Tennessee River reservoir, and is home to the Unclaimed Baggage Center, a 50,000-square-foot retailer of unclaimed airline luggage that draws visitors from across the country. The lake, more than the retail draw, is what shapes Scottsboro's pest pressure: reservoir shoreline living brings a level of mosquito and moisture-pest exposure that a Jackson County town away from Lake Guntersville doesn't share.",
+    intro:
+      "Pest control in Scottsboro is shaped substantially by its position on Lake Guntersville's shoreline. Mosquitoes benefit from the reservoir and the Tennessee River system feeding it, giving Scottsboro a longer and more intense mosquito season than a northeastern Alabama town set away from the lake. Eastern subterranean termites stay active essentially year-round given the humid subtropical climate and lake-adjacent soil moisture. Fire ants rarely die back given Alabama's mild winters. American cockroaches move indoors after the region's frequent heavy rain floods their lakeside outdoor harborage. A Scottsboro pest program typically needs a stronger lake-driven mosquito focus than a program built for an inland Jackson County community. None of this is a reason for alarm. It just means the treatment calendar here should run longer and start earlier than a program built for a town without this much shoreline exposure.",
+    sections: [
+      {
+        heading: "Lake Guntersville Shoreline Versus an Inland Jackson County Town",
+        body: "Living on Lake Guntersville's shoreline gives Scottsboro considerably more mosquito breeding habitat than a Jackson County town set even a short distance inland from the reservoir. The lake's extensive shallow-water edges and the Tennessee River's floodplain sustain new mosquito generations through a longer stretch of the year than a town relying only on rain-driven standing water would experience. That's why a mosquito barrier program covering April through October, rather than a shorter summer-only window, tends to hold up better for Scottsboro properties near the water than it would for a home set well back from the lake.",
+      },
+      {
+        heading: "Comparing Scottsboro's Year-Round Termite Activity to a Drier Alabama Region",
+        body: "Eastern subterranean termites need consistent soil moisture to sustain colonies through the year, and Scottsboro's lake-adjacent position keeps ground moisture higher for more of the calendar than a drier inland part of northeastern Alabama would offer. That means termite activity here tends to stay more consistently active across the seasons rather than showing the sharper spring-swarm-then-quiet pattern a drier region might see. An annual inspection is the standard recommendation across Alabama, but the near-year-round activity level around Scottsboro's lake shoreline is a genuine reason it matters even more consistently here. A homeowner who skips a year on an inland Alabama property loses relatively little ground; a homeowner who skips a year on a Lake Guntersville shoreline lot is giving an already-favorable colony an extra twelve months to expand toward the structure, largely unchecked.",
+      },
+    ],
+    prevention: [
+      "Schedule mosquito barrier treatment from April through October given Lake Guntersville's extended shoreline breeding season.",
+      "Schedule an annual termite inspection given the near-year-round activity sustained by lake-adjacent soil moisture.",
+      "Apply fire ant broadcast bait in spring and fall for season-long yard coverage given Alabama's mild winters.",
+      "Maintain a perimeter exterior treatment to reduce American cockroach entry after heavy rain events.",
+      "Clear gutters and address standing water near the shoreline promptly to avoid compounding the lake's already elevated mosquito habitat.",
+    ],
+    costNote:
+      "Mosquito barrier treatment in Scottsboro typically runs $100 to $200 per application across an April-through-October program. Termite inspection is usually free to $75, with treatment ranging from $900 to $2,500. Fire ant broadcast bait programs run $75 to $150 per application. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do I need mosquito treatment longer into the year in Scottsboro than in other Jackson County towns?",
+        answer:
+          "Scottsboro's position directly on Lake Guntersville's shoreline gives it far more mosquito breeding habitat than a Jackson County town set even a short distance from the reservoir. The lake's extensive shallow edges and the Tennessee River floodplain sustain new mosquito generations through more of the year than rain-driven standing water alone would. A barrier program covering April through October generally performs better for properties near the water than a shorter, summer-only approach.",
+      },
+      {
+        question: "Is termite activity really year-round around Lake Guntersville?",
+        answer:
+          "It runs closer to year-round than in a drier part of northeastern Alabama. Eastern subterranean termites need consistent soil moisture, and Scottsboro's lake-adjacent position keeps the ground damper for more of the calendar than an inland location would offer. That doesn't mean swarms happen in every month, swarming still concentrates in February through April, but underground colony activity stays more consistently active across the seasons than in a drier region. An annual inspection is still the standard, sound approach.",
+      },
+      {
+        question: "Are fire ants worse in Scottsboro because of the mild winters?",
+        answer:
+          "Alabama's mild winters generally, not anything specific to Scottsboro's lake position, are what keep fire ant colonies from dying back completely most years. That means mound-building activity is close to a year-round concern rather than a purely warm-season issue, with the heaviest surface activity from March through October. Broadcast bait applied in spring and again in fall provides better season-long control than treating individual mounds as they appear.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Fort Payne", slug: "fort-payne-al", stateSlug: "alabama" },
+      { name: "Guntersville", slug: "guntersville-al", stateSlug: "alabama" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Scottsboro, AL | Jackson County Lake Guntersville",
+    metaDescription:
+      "Scottsboro, AL pest control for lake-driven mosquitoes, year-round termites, fire ants, and American cockroaches. Jackson County Tennessee River service.",
+  },
+  {
+    slug: "fort-payne-al",
+    name: "Fort Payne",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~15,000",
+    county: "DeKalb County",
+    climate: "hot-humid",
+    climateDriver:
+      "Fort Payne is the DeKalb County seat, sitting at the base of Lookout Mountain in northeastern Alabama. The humid subtropical climate brings hot humid summers, though the elevation moderates temperatures somewhat compared to lower-lying parts of the state, alongside cooler winters. The city's position next to Little River Canyon National Preserve and DeSoto State Park, with forested mountain terrain on the doorstep, drives more tick and termite pressure than a flatter, more open Alabama town.",
+    topPests: ["Ticks", "Eastern Subterranean Termites", "Fire Ants", "American Cockroaches"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "tick-control",
+        activeSeason: "March through October",
+        note: "Fort Payne's position at the base of Lookout Mountain, next to Little River Canyon and DeSoto State Park's forested terrain, supports higher tick populations than a flatter, more open part of northeastern Alabama.",
+      },
+      {
+        name: "Eastern Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Swarms February through April, active most of the year",
+        note: "The humid subtropical climate and forested mountain terrain around Fort Payne sustain termite colonies through most of the year, a pattern consistent across northeastern Alabama, with the city's older mill-town housing stock carrying particular exposure.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "fire-ants",
+        activeSeason: "Year-round, most active March through October",
+        note: "Red imported fire ants are established throughout DeKalb County; Fort Payne's slightly cooler elevation moderates but does not eliminate year-round colony activity given Alabama's generally mild winters.",
+      },
+      {
+        name: "American Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, heaviest after rain",
+        note: "Fort Payne's older mill-town housing, a legacy of its history as the Sock Capital of the World, gives American cockroaches accessible outdoor harborage that pushes them indoors after heavy rain.",
+      },
+    ],
+    localHook:
+      "Fort Payne was historically known as the Sock Capital of the World, producing more than half of all socks made in the United States at its peak. The city sits at the base of Lookout Mountain, next to Little River Canyon National Preserve and DeSoto State Park, home to DeSoto Falls, Alabama's tallest waterfall. That forested mountain and canyon terrain, more than the manufacturing history, is what shapes Fort Payne's pest profile relative to a flatter Alabama town.",
+    intro:
+      "Pest control in Fort Payne reflects its position at the base of Lookout Mountain, right next to Little River Canyon and DeSoto State Park's forested terrain. Ticks benefit from that wooded mountain landscape more than they would in a flatter, more open part of northeastern Alabama. Eastern subterranean termites remain active through most of the year given the humid subtropical climate, with Fort Payne's older mill-town housing, a legacy of its sock-manufacturing history, carrying particular structural exposure. Fire ants stay active nearly year-round given Alabama's generally mild winters, though the city's slightly higher elevation moderates conditions somewhat. American cockroaches move indoors after heavy rain events. A Fort Payne pest program typically needs a stronger tick focus than a program built for a flatter Alabama town away from the mountain terrain, and it should weigh the age of the structure being treated just as heavily as the season.",
+    sections: [
+      {
+        heading: "Mountain and Canyon Terrain Versus a Flat Alabama Town",
+        body: "Fort Payne's position at the base of Lookout Mountain, with Little River Canyon National Preserve and DeSoto State Park's forested terrain right at the city's edge, gives ticks far more brush, leaf litter, and wooded cover close to residential areas than a flatter, more open Alabama town would have. That terrain supports higher ambient tick populations than DeKalb County's more open, cleared farmland areas experience. Homes backing onto wooded terrain near the canyon or state park typically see the heaviest exposure and benefit most from routine yard maintenance and a tick-focused treatment program.",
+      },
+      {
+        heading: "Comparing Fort Payne's Mill-Town Housing to Newer Alabama Construction",
+        body: "Fort Payne's identity as the historic Sock Capital of the World left the city with a meaningful stock of older mill-town housing, built during the height of the hosiery industry, well before modern termite barrier and pest-exclusion standards became routine. That older housing tends to have more settling cracks and less thoroughly sealed entry points than newer Alabama construction, giving eastern subterranean termites and American cockroaches easier access. An annual termite inspection, with particular attention to original foundation and sill conditions, matters more for Fort Payne's older mill-town neighborhoods than for a newer subdivision elsewhere in DeKalb County. A buyer comparing two otherwise similar Fort Payne listings, one from the mill era and one built in the last fifteen years, should factor a termite history check into that decision the same way they would check a roof's age.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after any time spent in wooded areas near Little River Canyon or DeSoto State Park, and shower soon after outdoor activity.",
+      "Keep grass cut short and clear brush near the home's perimeter to reduce tick habitat, especially on properties backing onto wooded terrain.",
+      "Schedule an annual termite inspection, with particular attention to Fort Payne's older mill-town housing stock.",
+      "Apply fire ant broadcast bait in spring and fall for season-long coverage given Alabama's generally mild winters.",
+      "Maintain a perimeter exterior treatment to reduce American cockroach entry after heavy rain events.",
+    ],
+    costNote:
+      "Tick treatment for wooded residential lots in Fort Payne ranges from $150 to $300. Termite inspection is usually free to $75, with treatment ranging from $900 to $2,500, with older mill-town structures sometimes requiring more extensive work. Fire ant broadcast bait programs run $75 to $150 per application. Free inspection included.",
+    faqs: [
+      {
+        question: "Is tick exposure worse in Fort Payne than in other DeKalb County areas?",
+        answer:
+          "Generally yes, for homes near Little River Canyon National Preserve or DeSoto State Park's forested terrain. That wooded mountain landscape gives ticks far more brush and leaf litter cover than the more open, cleared farmland found in other parts of DeKalb County. Homes backing directly onto wooded terrain near the canyon or state park typically see the heaviest exposure. Keeping grass cut short and clearing brush near the home's perimeter meaningfully reduces this risk.",
+      },
+      {
+        question: "Do Fort Payne's older mill-town homes need extra termite attention?",
+        answer:
+          "Generally yes, more than newer construction elsewhere in DeKalb County. Fort Payne's history as the Sock Capital of the World left the city with a substantial stock of housing built during the height of the hosiery manufacturing era, well before modern termite barrier standards became routine. Those older foundations tend to have more settling cracks and less thoroughly sealed entry points, giving eastern subterranean termites easier access. An annual inspection with close attention to original foundation conditions is the sound approach for these older homes.",
+      },
+      {
+        question: "Does Fort Payne's higher elevation reduce fire ant activity?",
+        answer:
+          "Somewhat, but not enough to eliminate the concern. Fort Payne's position at the base of Lookout Mountain gives it a slightly cooler climate than lower-lying parts of Alabama, which can moderate fire ant surface activity a bit during the hottest summer stretches. But Alabama's winters remain mild enough overall that fire ant colonies rarely die back completely, even at Fort Payne's elevation. A spring and fall broadcast bait program still provides the most effective season-long control.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Scottsboro", slug: "scottsboro-al", stateSlug: "alabama" },
+      { name: "Rainsville", slug: "rainsville-al", stateSlug: "alabama" },
+    ],
+    contentTemplate: "C",
+    contentSoul: "comparison",
+    metaTitle: "Pest Control in Fort Payne, AL | DeKalb County Lookout Mountain",
+    metaDescription:
+      "Fort Payne, AL pest control for ticks near Little River Canyon, year-round termites, fire ants, and American cockroaches. DeKalb County mountain service.",
+  },
 ];
