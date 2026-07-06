@@ -15257,4 +15257,466 @@ export const texasCities: CityLocation[] = [
     metaTitle: "Pest Control in Plainview, TX | Hale County South Plains",
     metaDescription: "Plainview, TX pest control for mice from harvest displacement, fire ants, German cockroaches, and black widows on the South Plains. Licensed Hale County service.",
   },
+  {
+    slug: "sweetwater-tx",
+    name: "Sweetwater",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~10,200",
+    county: "Nolan County",
+    climate: "semi-arid",
+    climateDriver:
+      "Sweetwater sits in West Texas's Big Country/Rolling Plains region, a semi-arid zone with hot summers, cold winters, low humidity, and sparse, wind-driven rainfall. The Texas Department of Agriculture's own detection survey confirms fire ants have spread to widespread, beyond-containment infestation in Nolan County, an unusual amount of fire ant pressure this far west, where the dry climate would normally keep populations lower.",
+    topPests: ["Fire Ants", "Scorpions", "Crickets", "Rodents"],
+    pestProfile: [
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "State survey data confirms Nolan County has widespread fire ant infestation beyond containment, which is genuinely more pressure than most other Rolling Plains counties see this far into West Texas's dry climate.",
+      },
+      {
+        name: "Scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Warm months",
+        note: "The striped bark scorpion is common in Sweetwater's rural surroundings and shows up indoors more often once nighttime temperatures climb through spring and summer.",
+      },
+      {
+        name: "Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Fall",
+        note: "Cricket invasions are a routine fall event on the Rolling Plains, with large numbers moving toward lit doorways and foundations as outdoor conditions cool.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Fall through winter",
+        note: "Cold Rolling Plains winters push mice toward any available shelter, and Sweetwater's mix of older county-seat homes and wind-energy-worker housing gives them plenty of entry points.",
+      },
+    ],
+    localHook:
+      "Sweetwater calls itself the Wind Turbine Capital of Texas, with roughly $3 billion invested in wind energy across Nolan County since 1999, and it's also home to the world's largest rattlesnake round-up, held annually since 1958 by the Sweetwater Jaycees. Between the wind farms and the round-up, the town has built two distinct identities on top of what was originally a ranching and farming economy.",
+    intro:
+      "Why does a dry West Texas town like Sweetwater have a real fire ant problem? The state's own detection survey lists Nolan County as having widespread, beyond-containment fire ant infestation, which surprises people who assume fire ants need more moisture than the Rolling Plains typically gets. Scorpions and crickets round out the picture here, both classic dry-climate pests that thrive in the ranchland and farm country surrounding town. Add the seasonal push of rodents looking for shelter once Rolling Plains winters turn cold, and Sweetwater's pest calendar looks different from what you'd expect this far into semi-arid Texas. A property here benefits more from a plan built around the county's actual survey data than one borrowed from a generic dry-climate template.",
+    sections: [
+      {
+        heading: "Why does Sweetwater have fire ants despite the dry climate?",
+        body: "It's a fair question, since fire ants are usually associated with the humid eastern half of Texas. But the Texas Department of Agriculture's own quarantine and detection survey lists Nolan County as having widespread fire ant infestation beyond containment, meaning the ants have established well past the point where a local eradication effort would work. Irrigation for farming and ranching operations around Sweetwater likely gives fire ants enough consistent moisture to survive in an otherwise dry environment.",
+      },
+      {
+        heading: "What should residents expect from scorpions here?",
+        body: "The striped bark scorpion is the species most commonly found in and around Sweetwater homes, and it becomes noticeably more active as nighttime temperatures rise through spring and into summer. Scorpions typically enter homes through small gaps around foundations, utility lines, or door thresholds while hunting for the crickets and other insects that make up their diet, so cricket control and scorpion control tend to go hand in hand here.",
+      },
+      {
+        heading: "How does the wind energy boom factor into pest control here?",
+        body: "Sweetwater's roughly $3 billion in wind energy investment since 1999 has brought new worker housing and support buildings into the county alongside the older ranching-era stock downtown, and that mix means a pest plan has to account for two different construction eras at once. Newer wind-industry housing is less likely to have developed the foundation gaps older homes have, but it still sits on the same dry, fire-ant-infested Rolling Plains soil, so the underlying pest pressure doesn't change much between old and new construction here.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility line entry points to reduce both scorpion and cricket entry.",
+      "Treat fire ant mounds promptly given Nolan County's confirmed widespread infestation status.",
+      "Check under stored items and firewood for scorpions before handling, especially in warm months.",
+      "Seal door thresholds and weep holes before fall to reduce cricket and rodent entry.",
+      "Keep irrigated lawn areas away from foundation walls where possible to reduce moisture that supports fire ants close to the house.",
+    ],
+    costNote:
+      "Fire ant treatment for Sweetwater properties typically runs $100 to $250 for a residential lot. Scorpion and cricket exclusion work is often bundled with a general pest plan. Free inspection included.",
+    faqs: [
+      {
+        question: "Is Sweetwater's fire ant problem really as bad as more humid parts of Texas?",
+        answer:
+          "According to the Texas Department of Agriculture's own survey data, yes, Nolan County is listed as having widespread fire ant infestation beyond containment, on par with counties much further east. Irrigated farmland and ranch operations around Sweetwater likely provide enough consistent moisture for fire ants to thrive despite the surrounding dry climate.",
+      },
+      {
+        question: "What scorpions are common in Sweetwater homes?",
+        answer:
+          "The striped bark scorpion is the species most often found here. It's more active on warm nights and typically enters through small gaps around foundations or utility lines while hunting crickets and other insects, so sealing those entry points helps with both pests at once.",
+      },
+      {
+        question: "Why do crickets show up in such large numbers around Sweetwater every fall?",
+        answer:
+          "Fall cricket invasions are a routine event across the Rolling Plains as outdoor temperatures drop and crickets move toward the warmth and light of homes. Sealing door thresholds and weep holes before the seasonal shift is the most effective way to reduce how many make it indoors.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Snyder", slug: "snyder-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Sweetwater, TX | Nolan County Fire Ants & Scorpions",
+    metaDescription:
+      "Sweetwater, TX pest control for state-confirmed widespread fire ants, striped bark scorpions, fall crickets, and winter rodents. Licensed Nolan County service.",
+  },
+  {
+    slug: "snyder-tx",
+    name: "Snyder",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~11,300",
+    county: "Scurry County",
+    climate: "semi-arid",
+    climateDriver:
+      "Snyder sits on the Rolling Plains of West Texas in the same semi-arid pattern as the rest of the region: hot, dry summers, cold winters, and low year-round humidity. Scurry County's own oil-boom history since the 1948 discovery of the Canyon Reef field, along with its older ranching and farming economy, shapes a housing stock and pest profile built for a working dry-country town rather than a humid one.",
+    topPests: ["Fire Ants", "Scorpions", "Crickets", "Rodents"],
+    pestProfile: [
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Scurry County is confirmed as a widespread fire ant infestation area by the state's own survey, meaning colonies here are well past the point where a simple mound treatment eliminates the problem for good.",
+      },
+      {
+        name: "Scorpions",
+        serviceSlug: "scorpion-control",
+        activeSeason: "Warm months",
+        note: "Snyder's oil-boom-era homes, many built in the decades after the 1948 Canyon Reef discovery, often have the same kind of small foundation gaps that let scorpions move indoors during warm weather.",
+      },
+      {
+        name: "Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Fall",
+        note: "Crickets are a food source for scorpions, so controlling one usually helps with the other, and both show up heavily around Snyder each fall as temperatures cool.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Fall through winter",
+        note: "Cold Rolling Plains winters send mice looking for indoor shelter, and Scurry County's mix of ranch land and older in-town housing gives them several routes inside.",
+      },
+    ],
+    localHook:
+      "Snyder was originally a buffalo-hide trading post founded by William Henry 'Pete' Snyder in 1878, commemorated today by an albino buffalo statue on the county courthouse grounds. The town later became an oil boomtown after the 1948 discovery of the Canyon Reef oil field, which had produced its one-billionth barrel by 1973, a transformation from hide-trading outpost to major oil-producing county seat within a single century.",
+    intro:
+      "How does a former buffalo-trading post turned oil town handle pest control today? Snyder's answer starts with fire ants, which state survey data confirms have reached widespread, beyond-containment status in Scurry County despite the dry Rolling Plains climate. Scorpions and the crickets they feed on are the other constant here, both drawn to the small foundation gaps common in the town's oil-boom-era housing stock. Add the usual fall push of rodents looking for warmth as Rolling Plains winters turn cold, and you have a pest calendar shaped as much by Snyder's ranching and oil history as by its climate. Treating Snyder like a generic dry-climate town misses that layered history and the pest pressure it left behind, from the buffalo-trading-post era right through to the oil boom that followed it.",
+    sections: [
+      {
+        heading: "How serious is the fire ant problem in Scurry County?",
+        body: "Serious enough that the Texas Department of Agriculture's detection survey lists Scurry County as having widespread fire ant infestation beyond containment, the same designation given to counties in much wetter parts of the state. For Snyder homeowners, that means an isolated mound treatment usually isn't a long-term fix, since new colonies can move in from surrounding infested land relatively quickly. A broader perimeter treatment tends to hold up better here than spot-treating individual mounds.",
+      },
+      {
+        heading: "Why do scorpions and crickets tend to show up together?",
+        body: "Scorpions in the Snyder area, mainly the striped bark scorpion, prey heavily on crickets, so a home with a cricket problem is more likely to also see scorpion activity. Both pests favor the same small entry points around foundations and door thresholds, and Snyder's oil-boom-era homes, many built decades ago, are more likely to have developed the kind of gaps that let both species inside.",
+      },
+      {
+        heading: "Does Snyder's oil-town history change anything about how a property should be inspected?",
+        body: "It's worth asking whether a given property dates to the years immediately following the 1948 Canyon Reef discovery, when Snyder's population and housing stock grew quickly to support the new oil economy. Homes from that boom period have had more than seven decades to develop the small foundation and threshold gaps that let scorpions, crickets, and rodents inside, so a closer inspection of those specific entry points is worth the extra time during an initial visit, particularly around older additions built onto the original structure.",
+      },
+    ],
+    prevention: [
+      "Use a broader perimeter fire ant treatment rather than spot-treating individual mounds, given Scurry County's widespread infestation status.",
+      "Seal foundation gaps and door thresholds to reduce both scorpion and cricket entry at the same time.",
+      "Check firewood and stored outdoor items for scorpions before bringing them inside during warm months.",
+      "Address cricket populations early in fall, since reducing their numbers also reduces the food source scorpions are hunting for.",
+      "Seal attic and crawlspace entry points before winter to reduce rodent shelter-seeking.",
+    ],
+    costNote:
+      "Perimeter fire ant treatment in Snyder typically runs $150 to $300 for a standard residential lot. Combined scorpion and cricket exclusion work is often priced as part of a general pest plan. Free inspection included.",
+    faqs: [
+      {
+        question: "Why doesn't spot-treating fire ant mounds work well in Snyder?",
+        answer:
+          "Scurry County is listed by the state's own survey as having widespread fire ant infestation beyond containment, which means new colonies can re-establish from surrounding infested land faster than an isolated mound treatment can keep up with. A broader perimeter treatment tends to hold up better for Snyder properties.",
+      },
+      {
+        question: "Are scorpions and crickets really connected in Snyder homes?",
+        answer:
+          "Yes. Striped bark scorpions, the species most common here, prey heavily on crickets, so a property with a cricket problem is more likely to see scorpion activity too. Sealing the same foundation gaps and thresholds helps reduce both pests at once.",
+      },
+      {
+        question: "Do Snyder's older oil-boom-era homes need different pest treatment than newer construction?",
+        answer:
+          "Often, yes. Homes built in the decades following the 1948 Canyon Reef oil discovery have had more time to develop the small foundation gaps that let scorpions, crickets, and rodents move indoors. A closer inspection of these entry points is usually worthwhile for older Snyder properties.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Colorado City", slug: "colorado-city-tx", stateSlug: "texas" },
+      { name: "Sweetwater", slug: "sweetwater-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Snyder, TX | Scurry County Fire Ants & Scorpions",
+    metaDescription:
+      "Snyder, TX pest control for state-confirmed widespread fire ants, striped bark scorpions, fall crickets, and winter rodents. Licensed Scurry County service.",
+  },
+  {
+    slug: "vernon-tx",
+    name: "Vernon",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~9,850",
+    county: "Wilbarger County",
+    climate: "semi-arid",
+    climateDriver:
+      "Vernon sits in the Rolling Plains near the Red River Valley, a semi-arid transition zone with hot summers, cold winters, and moderate but variable rainfall, drier than central and east Texas but wetter than the deep West Texas plains. The area's cotton and wheat farming economy, joined by oil production after 1923, shapes a pest profile built around agricultural land rather than dense urban development.",
+    topPests: ["Fire Ants", "Rodents", "Termites", "Crickets"],
+    pestProfile: [
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "State survey data confirms Wilbarger County has widespread fire ant infestation, and the irrigated cotton and wheat farmland surrounding Vernon likely provides the moisture that lets colonies persist this far into the Rolling Plains.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Fall through winter",
+        note: "The cotton and wheat farmland surrounding Vernon gives mice constant outdoor shelter during the growing season, and cold winters push them toward homes and outbuildings once the fields are harvested.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active through fall",
+        note: "Subterranean termites are present in Vernon at lower pressure than humid parts of Texas, but older county-seat homes still warrant a regular inspection given the town's founding in the 1880s railroad era.",
+      },
+      {
+        name: "Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Fall",
+        note: "Fall cricket invasions are common across the Rolling Plains as harvested farmland pushes insects toward the nearest lit structures.",
+      },
+    ],
+    localHook:
+      "Vernon's site was originally called Eagle Springs by the Tonkawa for its nesting eagles, before the townsite was platted in 1880 and connected by the Fort Worth and Denver City Railway in 1886. Its economy has centered on cotton and wheat farming ever since, with oil production adding a second industry after the South Vernon field was discovered in 1923.",
+    intro:
+      "What drives pest pressure in a Red River Valley farming town like Vernon? Mostly the cotton and wheat fields that surround it. Fire ants find enough moisture in irrigated farmland to maintain a widespread presence here despite the generally dry Rolling Plains climate. Rodents use that same farmland for shelter during the growing season, then move toward town once harvest strips their cover and winter turns cold. Termites are present too, though at lower pressure than humid Texas, mostly a concern in the older homes near Vernon's original 1880s railroad-era townsite. Fall brings the usual Rolling Plains cricket invasion on top of it all. Vernon's split identity as both a farming and an oilfield town means a one-size plan rarely fits every property equally well, and asking which side of that split a given address falls on is the fastest way to scope it correctly.",
+    sections: [
+      {
+        heading: "Why does farmland change Vernon's rodent pressure through the year?",
+        body: "Vernon's surrounding cotton and wheat fields give mice cover and food for most of the growing season, keeping them largely out in the farmland rather than in town. Once crops are harvested in fall and that cover disappears, combined with the Rolling Plains' cold winter temperatures, mice move toward the nearest available shelter, which is often the edge of town itself. This is why fall exclusion work matters more here than in a town without that agricultural ring around it.",
+      },
+      {
+        heading: "Should Vernon homeowners worry about termites given the dry climate?",
+        body: "Less than a homeowner in Houston or Dallas would, but it's still worth a regular check. Subterranean termites need soil moisture to survive, and the Rolling Plains' lower rainfall than central or east Texas does reduce their overall pressure. That said, Vernon's older homes near the original 1880s townsite have had well over a century for wood-to-soil contact points to develop, so an occasional inspection is still the safer bet over skipping it entirely.",
+      },
+      {
+        heading: "How does the oil-and-farming mix around Vernon affect pest planning?",
+        body: "Vernon's economy split between cotton and wheat farming and oil production after the 1923 South Vernon field discovery, and that combination means a pest plan has to account for both agricultural and oilfield-adjacent property. Farmland-bordering homes see the heaviest seasonal rodent and cricket pressure tied to harvest timing, while properties nearer oilfield infrastructure tend to see a steadier, less seasonal pattern of general pest activity year-round.",
+      },
+    ],
+    prevention: [
+      "Schedule fall rodent exclusion work before harvest strips farmland cover and pushes mice toward town.",
+      "Treat fire ant mounds in irrigated lawn areas where moisture supports colony growth.",
+      "Have older homes near Vernon's historic townsite checked for termites every year or two, even given the drier climate.",
+      "Seal door thresholds and foundation gaps before fall to reduce cricket entry.",
+      "Store bulk grain or feed away from home foundations to avoid attracting rodents closer to the house.",
+    ],
+    costNote:
+      "Fall rodent exclusion for Vernon properties typically runs $150 to $300. Termite inspections for older in-town homes usually run less than in humid parts of Texas given the reduced pressure, but still catch problems early. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do I see more mice around my Vernon home after harvest?",
+        answer:
+          "Cotton and wheat fields around Vernon provide mice with shelter and food through most of the growing season. Once those fields are harvested and cover disappears, combined with cold Rolling Plains winter temperatures, mice move toward the nearest available shelter, which is often homes at the edge of town.",
+      },
+      {
+        question: "Is fire ant pressure really a concern in a dry town like Vernon?",
+        answer:
+          "It is. State survey data confirms Wilbarger County has widespread fire ant infestation, and the irrigated cotton and wheat farmland surrounding Vernon appears to provide enough consistent moisture for colonies to persist despite the generally dry Rolling Plains climate.",
+      },
+      {
+        question: "How often should older Vernon homes be checked for termites?",
+        answer:
+          "Every year or two is reasonable. Termite pressure here is lower than in humid parts of Texas because of reduced soil moisture, but homes near Vernon's original 1880s railroad-era townsite have had over a century for wood-to-soil contact points to develop, so periodic inspection is still worthwhile.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Electra", slug: "electra-tx", stateSlug: "texas" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Vernon, TX | Wilbarger County Farmland Pests",
+    metaDescription:
+      "Vernon, TX pest control for farmland-driven fire ants, post-harvest rodents, termites in historic townsite homes, and fall crickets. Licensed local service.",
+  },
+  {
+    slug: "canyon-tx",
+    name: "Canyon",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~16,100",
+    county: "Randall County",
+    climate: "semi-arid",
+    climateDriver:
+      "Canyon sits at roughly 3,600 feet elevation on the Texas Panhandle's high plains, a semi-arid zone with hot summers, cold winters, larger day-to-night temperature swings than the Rolling Plains further south, and low humidity. Unlike Sweetwater, Snyder, and Vernon, Randall County is not on the state's confirmed widespread fire ant infestation list, a real regional distinction that changes Canyon's pest priorities.",
+    topPests: ["Rodents", "Crickets", "Termites", "Centipedes"],
+    pestProfile: [
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Fall through winter",
+        note: "Canyon's cold Panhandle winters push mice toward shelter earlier and more aggressively than in milder parts of Texas, and the town's mix of older college-area housing and newer subdivisions both offer easy entry points.",
+      },
+      {
+        name: "Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Fall",
+        note: "Fall cricket invasions are a routine event across the Panhandle high plains, with large numbers moving toward lit doorways as temperatures drop.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, lower pressure than humid Texas",
+        note: "Subterranean termite activity is present but reduced given the dry climate and cold winters, though it remains worth checking in Canyon's older homes near West Texas A&M University.",
+      },
+      {
+        name: "Centipedes",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Warm months",
+        note: "House centipedes turn up as a secondary pest in Canyon homes, typically drawn indoors by the same cricket and insect populations that draw scorpions elsewhere in West Texas.",
+      },
+    ],
+    localHook:
+      "Canyon is home to West Texas A&M University, established in 1910 as West Texas State Normal College and now the northernmost campus in the Texas A&M System with about 10,000 students. The town sits immediately adjacent to Palo Duro Canyon, the second-largest canyon system in the United States, which painter Georgia O'Keeffe repeatedly captured on canvas while teaching at the college in the late 1910s.",
+    intro:
+      "How is pest pressure different in Canyon than in the Rolling Plains towns further south? The biggest difference is fire ants: Randall County is not on the state's confirmed widespread infestation list the way Nolan, Scurry, and Wilbarger counties are, so fire ants take a back seat here to rodents, crickets, and a lighter dose of termites and centipedes. Canyon's higher elevation and colder Panhandle winters push mice toward shelter earlier in the season than towns further south see, and the mix of older housing near West Texas A&M and newer subdivisions both give them plenty of ways in. Knowing that Randall County sits off the fire ant list changes the priority order for a Canyon pest plan compared to towns further south, freeing up attention for the rodent and cricket pressure that actually drives most calls here.",
+    sections: [
+      {
+        heading: "Why doesn't Canyon have the same fire ant pressure as other West Texas towns?",
+        body: "Randall County simply isn't listed on the state's confirmed widespread fire ant infestation survey the way Nolan, Scurry, and Wilbarger counties further south are. Canyon's higher elevation, roughly 3,600 feet, and colder Panhandle winters likely make it harder for fire ant colonies to establish and persist here compared to the Rolling Plains region. That's a genuine regional difference worth knowing if you're comparing pest priorities between Canyon and towns like Sweetwater or Snyder.",
+      },
+      {
+        heading: "How does the college-town population affect pest control here?",
+        body: "West Texas A&M's roughly 10,000 students create a steady demand for both older, subdivided rental housing near campus and newer student-oriented apartment complexes, alongside Canyon's family subdivisions built for permanent residents. Rental housing turnover, especially around the start and end of each semester, means gaps around doors and windows sometimes go unaddressed for longer stretches than in an owner-occupied home, giving rodents and crickets more opportunity to establish before anyone notices.",
+      },
+      {
+        heading: "Does being next to Palo Duro Canyon change Canyon's pest exposure?",
+        body: "Not dramatically. The canyon itself is mostly exposed rock and rugged terrain rather than the kind of dense vegetation that drives heavy insect or rodent pressure, so its proximity doesn't add much beyond what the surrounding flat High Plains farmland already contributes. Properties directly bordering canyon rim land may see slightly more incidental wildlife activity, but the core pest calendar here is set by Canyon's elevation and college-town housing mix rather than the canyon itself.",
+      },
+    ],
+    prevention: [
+      "Seal foundation and door gaps before fall, especially in rental housing near West Texas A&M where turnover can delay maintenance.",
+      "Address cricket activity promptly, since large numbers can draw secondary pests like house centipedes indoors.",
+      "Schedule a termite check every year or two for older homes, even given the Panhandle's drier, colder climate.",
+      "Store firewood and yard debris away from foundations to reduce rodent shelter close to the house.",
+      "Weatherstrip doors and windows before Panhandle winter sets in to reduce mouse entry points.",
+    ],
+    costNote:
+      "Fall rodent exclusion in Canyon typically runs $150 to $300. Termite inspections run somewhat less than in humid Texas given the reduced pressure here. Free inspection included.",
+    faqs: [
+      {
+        question: "Does Canyon have the same fire ant problem as Sweetwater or Snyder?",
+        answer:
+          "No, and this is a real, documented difference. Randall County is not on the Texas Department of Agriculture's list of counties with widespread fire ant infestation, unlike Nolan and Scurry counties further south. Canyon's higher elevation and colder winters likely make it harder for colonies to establish here.",
+      },
+      {
+        question: "Do rental homes near West Texas A&M need different pest control than family homes in Canyon?",
+        answer:
+          "Often, yes, mainly because of turnover. Student rental housing near campus changes occupants more frequently than owner-occupied homes, and small maintenance issues like unsealed door gaps can go unaddressed longer between tenants, giving rodents and crickets more opportunity to get established.",
+      },
+      {
+        question: "When should Canyon homeowners worry about termites given the dry Panhandle climate?",
+        answer:
+          "Termite pressure is lower here than in humid parts of Texas because of reduced soil moisture and colder winters, but it isn't zero. An inspection every year or two is a reasonable middle ground for older homes, particularly those built before more recent construction standards.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Canyon, TX | Randall County Panhandle Pests",
+    metaDescription:
+      "Canyon, TX pest control near West Texas A&M for fall rodents, crickets, house centipedes, and termites. Randall County Panhandle service. Free inspection.",
+  },
+  {
+    slug: "levelland-tx",
+    name: "Levelland",
+    state: "Texas",
+    stateSlug: "texas",
+    stateAbbr: "TX",
+    tier: "T3",
+    population: "~12,500",
+    county: "Hockley County",
+    climate: "semi-arid",
+    climateDriver:
+      "Levelland sits on the flat South Plains of West Texas at roughly 3,500 feet elevation, a semi-arid climate with hot summers, cold windy winters, and low humidity. Like Canyon, Hockley County is not on the state's confirmed widespread fire ant infestation list, so Levelland's pest priorities lean toward rodents, crickets, and the spiders and centipedes common on the flat, dry High Plains rather than fire ants.",
+    topPests: ["Rodents", "Crickets", "Spiders", "Termites"],
+    pestProfile: [
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Fall through winter",
+        note: "Levelland's surrounding cotton farmland gives mice cover through the growing season, and the flat, cold South Plains winters push them toward town once fields are harvested.",
+      },
+      {
+        name: "Crickets",
+        serviceSlug: "cricket-control",
+        activeSeason: "Fall",
+        note: "Fall cricket invasions are especially noticeable on the flat High Plains terrain around Levelland, with large numbers gathering at lit entryways.",
+      },
+      {
+        name: "Spiders",
+        serviceSlug: "spider-control",
+        activeSeason: "Warm months, more visible in fall",
+        note: "Spiders follow the cricket population indoors as a food source, making the two pests closely linked in Levelland homes each fall.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, lower pressure than humid Texas",
+        note: "Subterranean termite pressure is reduced by the dry High Plains climate but still worth checking in Levelland's older agricultural-era homes near South Plains College.",
+      },
+    ],
+    localHook:
+      "Levelland was surveyed in 1912 by Charles W. Post as 'Hockley City' and renamed for its flat topography once county organization began in 1921. Cotton farming took off quickly, with acreage growing from just 87 acres in 1920 to more than 95,000 acres by 1929, and oil production added a second industry after 1937 discoveries in the area.",
+    intro:
+      "What makes pest control on the flat South Plains different from other parts of West Texas? In Levelland, it starts with what's not a major problem: Hockley County isn't on the state's confirmed widespread fire ant infestation list, so rodents, crickets, and the spiders that hunt them take priority instead. The cotton farmland that surrounds town, a crop that grew from under 100 acres in 1920 to nearly 100,000 within a decade, gives mice plenty of outdoor cover through the growing season before cold, windy High Plains winters push them toward the nearest shelter. Termites are present too, though at reduced pressure given the dry climate. A century of cotton farming history has shaped this pest calendar as much as the region's dry High Plains weather has, and that farmland connection is worth asking about when scoping any Levelland property.",
+    sections: [
+      {
+        heading: "Why are crickets and spiders such a linked problem in Levelland?",
+        body: "Levelland's flat, open High Plains terrain produces especially large fall cricket populations, and spiders follow that food source directly into homes. A property with heavy cricket activity at its doors and windows is very likely to also see more spider activity indoors, since the spiders are simply going where the food is. Addressing cricket entry points tends to reduce both problems at once rather than requiring two separate approaches.",
+      },
+      {
+        heading: "How does Levelland's cotton farming history affect rodent pressure?",
+        body: "Cotton acreage around Levelland exploded from just 87 acres in 1920 to more than 95,000 by 1929, and that agricultural land still surrounds much of the town today. Mice use the crop cover for shelter and food through spring and summer, then move toward town once the fields are harvested and the cold, windy South Plains winter sets in, a seasonal pattern that's been part of Levelland's pest calendar for about a century.",
+      },
+      {
+        heading: "Does South Plains College affect pest planning in Levelland?",
+        body: "The campus and its surrounding student housing add a modest layer of multifamily and rental property to Levelland's otherwise agricultural-town housing mix, similar to what a larger college town would see on a bigger scale. Rental turnover near the campus can delay small maintenance fixes like sealing door gaps, giving rodents and crickets a bit more opportunity there than in an owner-occupied home elsewhere in town, though the difference is modest given Levelland's overall small size.",
+      },
+    ],
+    prevention: [
+      "Seal door thresholds and window gaps before fall to reduce combined cricket and spider entry.",
+      "Schedule rodent exclusion work ahead of the cotton harvest, when mice begin moving toward town.",
+      "Check older agricultural-era homes near South Plains College for termite activity every year or two.",
+      "Reduce exterior lighting near entry points where practical, since bright lights draw crickets and, in turn, spiders.",
+      "Store harvested crop residue and yard debris away from home foundations.",
+    ],
+    costNote:
+      "Combined cricket and spider exclusion work in Levelland typically runs $100 to $250. Rodent exclusion timed to harvest season is often priced as a seasonal service. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do spiders show up in my Levelland home right after crickets do?",
+        answer:
+          "Spiders are following their food source. Levelland's flat South Plains terrain produces large fall cricket populations, and spiders move indoors to hunt them. Sealing the same door and window gaps that let crickets in usually reduces spider activity as well.",
+      },
+      {
+        question: "Does Levelland have the fire ant problems that other West Texas towns do?",
+        answer:
+          "No. Hockley County is not on the Texas Department of Agriculture's list of counties with widespread fire ant infestation, unlike Nolan, Scurry, and Wilbarger counties further south and east. That's a genuine regional difference, not just a matter of degree.",
+      },
+      {
+        question: "When is the best time to schedule rodent control around the cotton harvest?",
+        answer:
+          "Just before harvest is ideal. Mice use the standing cotton crop for cover through the growing season, and once fields are cleared and cold South Plains winter weather sets in, they move toward the nearest available shelter, which is often the edge of town. Sealing entry points ahead of that shift works better than waiting until mice are already inside.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Levelland, TX | Hockley County South Plains",
+    metaDescription:
+      "Levelland, TX pest control for fall crickets and spiders, harvest-season rodents, and termites on the South Plains. Licensed Hockley County service.",
+  },
 ];

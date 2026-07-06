@@ -12510,4 +12510,472 @@ export const ohioCities: CityLocation[] = [
     metaTitle: "Pest Control in Defiance, OH | Maumee River Confluence",
     metaDescription: "Defiance, OH pest control for mosquitoes from the Maumee-Auglaize confluence, mice, termites in older homes, and carpenter ants. Licensed northwest Ohio service.",
   },
+  {
+    slug: "wapakoneta-oh",
+    name: "Wapakoneta",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~9,900",
+    county: "Auglaize County",
+    climate: "cold-humid",
+    climateDriver:
+      "Wapakoneta sits in Auglaize County in northwest Ohio's humid continental climate: warm, humid summers and cold winters with year-round precipitation. The city's historic downtown and older single-family homes date largely to the late 1800s and early 1900s farming-and-small-manufacturing era, surrounded by flat, historically poorly-draining farmland left over from the former Great Black Swamp.",
+    topPests: ["Cluster Flies", "Boxelder Bugs", "Mice", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall",
+        note: "Cluster flies seek out Wapakoneta's older wood-frame homes each fall to overwinter, exploiting the gaps around siding and trim common in housing from the city's early manufacturing era.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Boxelder bugs gather on sun-facing walls before entering structures each fall, a routine event across this part of the old Great Black Swamp farm country.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Mice move indoors from surrounding farmland as fall temperatures drop, and Wapakoneta's older foundations and wood-frame construction give them several routes inside.",
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall",
+        note: "Brown marmorated stink bugs are a widespread fall invader across Ohio's farm country, and Wapakoneta sees the same seasonal pattern as the rest of the region.",
+      },
+    ],
+    localHook:
+      "Wapakoneta is the hometown of astronaut Neil Armstrong, the first person to walk on the Moon. The Armstrong Air and Space Museum, which opened in 1972, is built here and holds the Gemini 8 spacecraft, Armstrong's Apollo-era artifacts, and a Moon rock.",
+    intro:
+      "Why does a small county-seat town famous for a Moon landing still deal with such ordinary farm-country pests? Because Wapakoneta's fame doesn't change its geography. The city sits on flat, historically poorly-draining farmland left over from the old Great Black Swamp, and that terrain, combined with a housing stock dating largely to the late 1800s and early 1900s, drives the same fall invader pattern seen across northwest Ohio: cluster flies and boxelder bugs gathering on sun-warmed walls before working indoors, mice moving in from the surrounding fields as harvest ends, and stink bugs rounding out the seasonal rush. The Armstrong Air and Space Museum draws visitors from around the world, but the pest calendar here is pure rural Ohio. A property's age and its distance from the surrounding farmland tell you far more about its pest risk than the city's fame ever would.",
+    sections: [
+      {
+        heading: "Why do fall invaders hit Wapakoneta so hard every year?",
+        body: "Wapakoneta's older homes, many dating to the late 1800s and early 1900s farming and small-manufacturing era, sit on flat, historically poorly-draining farmland that was once part of the Great Black Swamp before it was drained for agriculture in the mid-1800s. That combination of aging construction and surrounding open farmland gives cluster flies, boxelder bugs, and stink bugs a clear path from the fields to gaps around siding and trim every fall as temperatures drop and outdoor insects look for shelter.",
+      },
+      {
+        heading: "Does the Armstrong Air and Space Museum affect pest pressure downtown?",
+        body: "Not directly, but the surrounding historic downtown shares the same building-age profile as the rest of Wapakoneta, older brick and frame construction that has had over a century to develop the small gaps fall invaders and mice exploit. Property owners near the museum and downtown core benefit from the same fall exclusion work that protects any older building in this part of Ohio.",
+      },
+      {
+        heading: "How should a Wapakoneta homeowner time their pest service through the year?",
+        body: "Late summer, before September, is the key window for sealing against cluster flies, boxelder bugs, and stink bugs, since all three begin gathering on sun-warmed walls as soon as outdoor temperatures start to drop. That same visit is a good time to check foundation gaps and door thresholds ahead of the October push of mice moving in from harvested farmland. A single well-timed fall service covers most of what a typical Wapakoneta property needs each year.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around siding, trim, and utility penetrations before fall to reduce cluster fly and boxelder bug entry.",
+      "Seal foundation gaps and door thresholds before October, when mice begin moving in from harvested fields.",
+      "Check crawlspaces for moisture given the flat, poorly-draining farmland surrounding much of the city.",
+      "Weatherstrip doors and windows before winter to reduce stink bug entry.",
+      "Address any gaps in older downtown or historic-era buildings promptly, given their age.",
+    ],
+    costNote:
+      "Fall exclusion service for cluster flies, boxelder bugs, and stink bugs in Wapakoneta typically runs $150 to $300. Rodent exclusion is often bundled with the same fall visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Wapakoneta get so many cluster flies and boxelder bugs every fall?",
+        answer:
+          "Wapakoneta's older homes sit on flat, historically poorly-draining farmland that was part of the Great Black Swamp before it was drained in the mid-1800s. That surrounding farmland, combined with aging siding and trim on much of the city's late-1800s and early-1900s housing stock, gives both pests an easy path indoors each fall.",
+      },
+      {
+        question: "When should I seal my Wapakoneta home against mice?",
+        answer:
+          "Before October is the key window, since that's when mice move from surrounding harvested farmland toward the nearest available indoor shelter as temperatures drop. Sealing foundation gaps and door thresholds ahead of that shift is more effective than treating an established indoor population later in winter.",
+      },
+      {
+        question: "Does Wapakoneta's fame as Neil Armstrong's hometown affect its pest pressure?",
+        answer:
+          "No, the city's pest calendar is driven entirely by its flat, former-swamp farmland and older housing stock, the same factors affecting any comparable northwest Ohio town. The Armstrong Air and Space Museum is a major regional attraction, but it doesn't change the underlying geography.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "St. Marys", slug: "st-marys-oh", stateSlug: "ohio" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Wapakoneta, OH | Auglaize County Fall Invaders",
+    metaDescription:
+      "Wapakoneta, OH pest control for fall cluster flies, boxelder bugs, stink bugs, and harvest-season mice. Licensed Auglaize County service. Free inspection.",
+  },
+  {
+    slug: "tiffin-oh",
+    name: "Tiffin",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~17,800",
+    county: "Seneca County",
+    climate: "cold-humid",
+    climateDriver:
+      "Tiffin sits in Seneca County in northwest Ohio's humid continental climate, warm humid summers and cold winters with precipitation spread through the year. The city's historic in-town housing near the university and downtown core, much of it brick and frame construction from the glass-industry boom era, sits alongside surrounding flat farmland typical of the former Great Black Swamp terrain.",
+    topPests: ["Cluster Flies", "Boxelder Bugs", "Carpenter Ants", "Mice"],
+    pestProfile: [
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall",
+        note: "Tiffin's historic brick and frame homes from the glass-industry boom era offer plenty of small gaps for cluster flies seeking overwintering shelter each fall.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Boxelder bugs gather on sun-warmed walls near Heidelberg University's historic campus buildings and surrounding neighborhoods each fall before working indoors.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Older wood-frame homes near Tiffin's university and downtown core are prone to the kind of moisture damage carpenter ants target, given their age from the glass-boom era.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Tiffin's proximity to surrounding Great Black Swamp-era farmland pushes mice toward town once fields are harvested and cold weather sets in.",
+      },
+    ],
+    localHook:
+      "Tiffin was a nationally significant glass-manufacturing center; the Tiffin Glass Factory operated from 1889 to 1984 and was known for hand-blown glass and its signature color-changing 'Tiffin Twilight' glass, preserved today at the Tiffin Glass Museum. The city is also home to Heidelberg University, founded in 1850, whose campus includes 10 buildings on the National Register of Historic Places.",
+    intro:
+      "How does a century of glassmaking history shape pest pressure in Tiffin today? Mostly through the age of the housing it left behind. The brick and frame homes built during the Tiffin Glass Factory's 1889-to-1984 run, along with the historic buildings on Heidelberg University's campus, give cluster flies, boxelder bugs, and carpenter ants plenty of small gaps to exploit each year. Add Tiffin's position on flat, former Great Black Swamp farmland, and mice moving toward town after harvest complete the seasonal picture common to this part of northwest Ohio. A property's exact age within that century-plus window still makes a meaningful difference in how much attention it needs, whether it's a home from the earliest glass-boom years or one built decades later as the industry matured.",
+    sections: [
+      {
+        heading: "Why does Tiffin's glass-boom-era housing matter for pest control?",
+        body: "The Tiffin Glass Factory's 95-year run from 1889 to 1984 built up a substantial stock of brick and frame housing near downtown and the university, homes now well over a century old in many cases. That age means more accumulated wear around siding, trim, and foundation gaps, exactly the kind of entry points cluster flies, boxelder bugs, and carpenter ants look for, giving Tiffin's older neighborhoods more fall-invader and moisture-pest pressure than a newer subdivision would see.",
+      },
+      {
+        heading: "Does Heidelberg University's historic campus affect local pest pressure?",
+        body: "The university's 10 buildings on the National Register of Historic Places share the same age-related vulnerabilities as the rest of Tiffin's historic core, older wood and masonry construction that has had well over a century to develop small gaps. Property managers responsible for these historic structures typically need the same fall exclusion approach recommended for any older building in this part of Ohio.",
+      },
+      {
+        heading: "What time of year should Tiffin residents book a pest inspection?",
+        body: "Spring works best for carpenter ants, since that's when colonies become active again after winter and any moisture damage from the cold season becomes easier to spot. Fall, ideally by mid-September, is the priority window for cluster flies and boxelder bugs, before they begin working through gaps to overwinter indoors. Scheduling around both windows covers the bulk of what a typical Tiffin property, whether historic or more recent construction, needs across the year, and mice are worth checking for at the same fall visit since they follow a similar seasonal trigger.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around siding and trim on historic-era homes before fall to reduce cluster fly and boxelder bug entry.",
+      "Trim trees near rooflines on older housing to limit carpenter ant access to moisture-damaged wood.",
+      "Seal foundation gaps and door thresholds before October, when mice move in from surrounding farmland.",
+      "Have historic downtown or campus buildings checked for exclusion gaps annually given their age.",
+      "Address any moisture issues in older basements and crawlspaces promptly.",
+    ],
+    costNote:
+      "Fall exclusion service for Tiffin's historic-era homes typically runs $150 to $300. Carpenter ant treatment for older wood-frame construction is often priced as part of the same visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do Tiffin's historic homes need more pest attention than newer construction?",
+        answer:
+          "Much of Tiffin's in-town housing dates to the 1889-to-1984 run of the Tiffin Glass Factory, meaning many homes are well over a century old. That age brings accumulated gaps around siding, trim, and foundations that fall invaders like cluster flies and boxelder bugs, along with carpenter ants, use to get inside.",
+      },
+      {
+        question: "When should I seal my Tiffin home against fall invaders?",
+        answer:
+          "Before the weather turns cold in fall, typically by late September, is the ideal window. Cluster flies and boxelder bugs gather on sun-warmed exterior walls before working through small gaps to overwinter indoors, so sealing those gaps ahead of time is far more effective than dealing with an established indoor population.",
+      },
+      {
+        question: "Does Heidelberg University's historic campus need special pest consideration?",
+        answer:
+          "Its 10 National Register-listed buildings share the same age-related vulnerabilities as the rest of Tiffin's historic core. A scheduled fall exclusion inspection works well for these structures, similar to what's recommended for any older building of comparable age in the city.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Fostoria", slug: "fostoria-oh", stateSlug: "ohio" },
+      { name: "Bellevue", slug: "bellevue-oh", stateSlug: "ohio" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Tiffin, OH | Seneca County Historic Glass City",
+    metaDescription:
+      "Tiffin, OH pest control for fall cluster flies and boxelder bugs, carpenter ants in historic housing, and harvest-season mice. Seneca County service. Free inspection.",
+  },
+  {
+    slug: "fostoria-oh",
+    name: "Fostoria",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~12,500",
+    county: "Seneca, Hancock & Wood Counties",
+    climate: "cold-humid",
+    climateDriver:
+      "Fostoria spans parts of Seneca, Hancock, and Wood counties in northwest Ohio's humid continental climate. The Rust Belt small city has an older, dense in-town housing stock from its glass and rail boom era, which peaked in population around 1970 and has since declined, surrounded by flat, poorly-draining farmland typical of the old Great Black Swamp.",
+    topPests: ["Cluster Flies", "Boxelder Bugs", "Mice", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall",
+        note: "Fostoria's aging in-town housing from the 1887-to-1920 glass-manufacturing boom offers plenty of gaps for cluster flies looking to overwinter each fall.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Boxelder bugs are a routine fall presence in Fostoria's older neighborhoods, gathering on sun-warmed walls before moving indoors.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Fostoria's declining, aging housing stock combined with the surrounding flat farmland gives mice easy access as they move toward shelter each fall.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Summer",
+        note: "The flat, slow-draining terrain typical of the former Great Black Swamp, plus drainage ditches built to manage it, hold standing water that supports summer mosquito breeding around Fostoria.",
+      },
+    ],
+    localHook:
+      "Fostoria had a major glass-manufacturing boom after natural gas was discovered nearby in the mid-1880s, drawing more than a dozen glass companies, including the Fostoria Glass Co., founded 1887, between 1887 and 1920. Fostoria is also a nationally known railroad hotspot: multiple Class I lines cross through town, and the Fostoria RailPark exists specifically because of the volume of rail traffic converging there.",
+    intro:
+      "What does being a Rust Belt glass-and-rail town mean for pest pressure in Fostoria today? It means an aging, dense housing stock built up during the 1887-to-1920 glass boom, now well past its 1970 population peak, sitting on the same flat, poorly-draining former swamp farmland found across the region. That combination gives cluster flies, boxelder bugs, and mice plenty of opportunity each fall, while the flat terrain and its drainage ditches add summer mosquito pressure most towns their size wouldn't see to the same degree. Fostoria's status as a major rail junction, with Class I lines from multiple railroads converging here, adds to the industrial character of the town without directly changing its pest exposure. A shrinking population combined with an aging housing stock is the detail that matters most for planning pest work here, more than the rail traffic or the town's glass-manufacturing legacy on their own.",
+    sections: [
+      {
+        heading: "Why does Fostoria's declining population affect pest pressure?",
+        body: "Fostoria peaked in population around 1970 and has declined since, and older housing stock in a shrinking city often sees deferred maintenance more often than a growing town would, small gaps around siding, trim, and foundations going unaddressed longer between owners. That combination of age and deferred upkeep gives cluster flies, boxelder bugs, and mice more opportunity to establish in Fostoria's neighborhoods than in a comparably old but better-maintained housing stock elsewhere.",
+      },
+      {
+        heading: "Why does Fostoria have more mosquito pressure than some nearby towns?",
+        body: "The flat, poorly-draining terrain across this part of the former Great Black Swamp, combined with the drainage ditches built over the decades to manage it, holds standing water longer than better-drained terrain would. That standing water is the main driver behind Fostoria's summer mosquito activity, more pronounced here than in a nearby town with better natural drainage.",
+      },
+      {
+        heading: "Does Fostoria's rail-junction status add any pest concerns?",
+        body: "Being a major crossing point for multiple Class I railroad lines doesn't add much beyond what any comparable industrial-era town would see, mostly older warehouse and rail-support buildings that carry the same fall-invader and rodent risk as the rest of the city's aging housing stock. The rail corridor itself isn't a significant pest driver on its own compared to the combined effect of the town's age and the surrounding former swamp terrain. Warehouse and rail-support buildings do benefit from the same commercial-scale exclusion approach recommended for any older industrial structure in this part of Ohio.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around siding, trim, and foundations on older homes before fall, regardless of whether recent maintenance has addressed them.",
+      "Clear standing water from drainage ditches and low-lying yard areas through the summer to reduce mosquito breeding.",
+      "Seal foundation gaps and door thresholds before October to reduce fall mouse entry.",
+      "Address any deferred maintenance issues on older housing promptly, since gaps tend to worsen over time if left unaddressed.",
+      "Weatherstrip doors and windows before winter for combined cluster fly and boxelder bug protection.",
+    ],
+    costNote:
+      "Fall exclusion service for Fostoria's older housing typically runs $150 to $300. Summer mosquito treatment addressing drainage-ditch breeding sites is often priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Fostoria have more pest pressure than some comparably sized Ohio towns?",
+        answer:
+          "Fostoria's population has declined since peaking around 1970, and older housing in a shrinking city often experiences more deferred maintenance over time, small unaddressed gaps around siding and foundations that fall invaders and mice can exploit. Combined with the age of the housing itself, this adds up to more pest pressure than a similarly old but better-maintained housing stock would see.",
+      },
+      {
+        question: "Why is mosquito pressure a summer concern in Fostoria specifically?",
+        answer:
+          "Fostoria sits on flat, historically poorly-draining land that was once part of the Great Black Swamp, and the drainage ditches built to manage that terrain hold standing water longer than better-drained land would. That standing water supports mosquito breeding through the summer months more than in a town with more favorable natural drainage.",
+      },
+      {
+        question: "Does Fostoria's status as a rail junction affect its pest pressure?",
+        answer:
+          "Not directly. Fostoria's position where multiple Class I railroad lines converge is a notable feature of the local economy and geography, but it doesn't meaningfully change the town's pest exposure, which is driven mainly by housing age and the surrounding former swamp terrain.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Tiffin", slug: "tiffin-oh", stateSlug: "ohio" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Fostoria, OH | Glass & Rail Boom Town",
+    metaDescription:
+      "Fostoria, OH pest control for fall cluster flies and boxelder bugs, harvest-season mice, and drainage-ditch mosquitoes. Licensed northwest Ohio service. Free inspection.",
+  },
+  {
+    slug: "bryan-oh",
+    name: "Bryan",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~8,630",
+    county: "Williams County",
+    climate: "cold-humid",
+    climateDriver:
+      "Bryan sits in Williams County at the western edge of Ohio's historic Great Black Swamp region, in the same humid continental climate as the rest of northwest Ohio. Its older manufacturing-era housing stock, dating largely to the early-to-mid 1900s, sits alongside surrounding flat farmland typical of the drained former swamp terrain.",
+    topPests: ["Cluster Flies", "Boxelder Bugs", "Mice", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall",
+        note: "Bryan's early-to-mid-1900s manufacturing-era housing, tied to companies like the Ohio Art Company, offers cluster flies plenty of gaps to exploit each fall.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Boxelder bugs gather on sun-warmed walls in Bryan's older neighborhoods each fall before working indoors, a routine event this far into Ohio's farm country.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "The flat farmland surrounding Bryan, part of the Great Black Swamp's western edge, pushes mice toward town once fields are harvested and cold weather sets in.",
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall",
+        note: "Brown marmorated stink bugs are a common regional farm-country invader, and Bryan sees the same fall pattern as the rest of northwest Ohio.",
+      },
+    ],
+    localHook:
+      "Bryan is home to the Ohio Art Company, which relocated there in 1912 and manufactured the Etch A Sketch, first produced at the Bryan factory on July 12, 1960. Ohio Art still operates a metal lithography manufacturing business in Bryan today, though it sold the Etch A Sketch brand to Spin Master in 2016.",
+    intro:
+      "How does a toy factory town at the edge of the old Great Black Swamp handle its pest calendar? Much like the rest of northwest Ohio, just with its own local landmark. Bryan's early-to-mid-1900s housing stock, built up around the Ohio Art Company and other light manufacturing, sits on the same flat, historically swampy farmland that drives cluster fly, boxelder bug, and stink bug pressure across the wider region every fall. Mice follow the same pattern too, moving toward town once surrounding fields are harvested and Williams County's cold winter sets in. Bryan's specific manufacturing history gives the town its identity, but its pest calendar is set by the same farmland and building age found throughout the wider region, a pattern shared with plenty of similarly sized Williams County communities and worth keeping in mind when scoping any property here, regardless of which era it was built in.",
+    sections: [
+      {
+        heading: "Why does Bryan's manufacturing history affect its pest profile?",
+        body: "Bryan's identity is closely tied to the Ohio Art Company, which relocated there in 1912 and made the Etch A Sketch a household name after 1960. The housing built up around this manufacturing history, mostly early-to-mid 1900s construction, has had decades to develop the small gaps around siding and foundations that fall invaders and mice take advantage of, a pattern shared with plenty of other manufacturing-era towns across northwest Ohio.",
+      },
+      {
+        heading: "Does sitting at the western edge of the Great Black Swamp region matter for Bryan?",
+        body: "Yes. Williams County sits at the western edge of the historic Great Black Swamp, meaning the same flat, slow-draining agricultural land found further east around towns like Napoleon and Wapakoneta also surrounds Bryan. That terrain, combined with the town's older manufacturing-era housing, produces the same seasonal fall-invader and rodent pattern common across this part of the state.",
+      },
+      {
+        heading: "Should Bryan homeowners expect different pest pressure than Ohio Art's factory buildings?",
+        body: "Residential and light-industrial buildings in Bryan generally face the same core pest pressures, but a manufacturing facility like Ohio Art's metal lithography plant typically needs a commercial-scale program focused on loading dock seals and roof penetrations, distinct from the residential exclusion work a house in one of the surrounding early-1900s neighborhoods would need. Both share the same fall cluster fly and boxelder bug calendar, just at different scales, and both benefit from a fall-timed visit ahead of the seasonal push indoors.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around siding and trim on manufacturing-era homes before fall to reduce cluster fly and boxelder bug entry.",
+      "Seal foundation gaps and door thresholds before October, when mice move in from harvested surrounding farmland.",
+      "Weatherstrip doors and windows before winter to reduce stink bug entry.",
+      "Check crawlspaces for moisture given the flat, historically poorly-draining farmland surrounding town.",
+      "Address any gaps in older manufacturing-district housing promptly.",
+    ],
+    costNote:
+      "Fall exclusion service for Bryan's manufacturing-era homes typically runs $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Bryan see the same fall pest pressure as other northwest Ohio towns?",
+        answer:
+          "Williams County sits at the western edge of the historic Great Black Swamp, the same flat, drained farmland found around towns further east. Combined with Bryan's early-to-mid-1900s manufacturing-era housing, this produces the same fall cluster fly, boxelder bug, and stink bug pattern common across the wider region.",
+      },
+      {
+        question: "Does the Ohio Art Company's history affect pest pressure in Bryan?",
+        answer:
+          "Not directly, but the housing built up around the company's 1912 relocation and its decades of local manufacturing has aged into the same kind of construction that develops small entry gaps over time, the same factor driving fall-invader and rodent pressure in comparable manufacturing-era Ohio towns.",
+      },
+      {
+        question: "When should Bryan homeowners prepare for fall invaders?",
+        answer:
+          "By mid-to-late September, ahead of the main fall push. Cluster flies, boxelder bugs, and stink bugs all begin gathering on sun-warmed exterior walls before the weather turns cold, and sealing gaps ahead of that shift is far more effective than dealing with an established indoor population later.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Montpelier", slug: "montpelier-oh", stateSlug: "ohio" },
+      { name: "Defiance", slug: "defiance", stateSlug: "ohio" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Bryan, OH | Williams County Fall Invaders",
+    metaDescription:
+      "Bryan, OH pest control for fall cluster flies, boxelder bugs, stink bugs, and harvest-season mice. Licensed Williams County service. Free inspection.",
+  },
+  {
+    slug: "napoleon-oh",
+    name: "Napoleon",
+    state: "Ohio",
+    stateSlug: "ohio",
+    stateAbbr: "OH",
+    tier: "T3",
+    population: "~9,000",
+    county: "Henry County",
+    climate: "cold-humid",
+    climateDriver:
+      "Napoleon sits directly on the Maumee River in Henry County, in the same humid continental climate as the rest of northwest Ohio. The area was originally part of the Great Black Swamp, roughly 25 miles wide and 100 miles long, drained into farmland starting in the 1850s, and Napoleon's older canal-and-river-town housing sits on that same drained, historically swampy terrain.",
+    topPests: ["Mosquitoes", "Cluster Flies", "Mice", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Summer",
+        note: "Napoleon's location directly on the Maumee River, combined with the flat, historically swampy terrain surrounding it, raises summer mosquito relevance beyond what most nearby inland towns see.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall",
+        note: "Napoleon's older canal-and-river-town housing offers plenty of gaps for cluster flies looking to overwinter each fall.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "The drained former swamp farmland surrounding Napoleon pushes mice toward town once fields are harvested and winter sets in.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Boxelder bugs are a routine fall presence across Henry County's farm country, gathering on sun-warmed walls before moving indoors.",
+      },
+    ],
+    localHook:
+      "Napoleon was named after Napoleon Bonaparte in 1832 and settled largely by German immigrants who worked on the Miami and Erie Canal. The area was originally part of the Great Black Swamp, drained into farmland starting in the 1850s. Napoleon is also home to the world's largest Campbell Soup Company plant, operating there since 1938, a major local employer.",
+    intro:
+      "How does sitting directly on the Maumee River change Napoleon's pest calendar compared to an inland northwest Ohio town? The biggest difference is mosquitoes. Napoleon's river-adjacent, historically swampy terrain, drained from the Great Black Swamp starting in the 1850s, holds more standing water through summer than an inland town would see, giving mosquitoes a stronger foothold here. Cluster flies, boxelder bugs, and mice follow the same fall pattern common across the region, with Napoleon's older canal-and-river-town housing near the Miami and Erie Canal offering the usual gaps fall invaders look for. The river is the single detail that most separates Napoleon's pest calendar from a comparable inland Henry County town, and it's the first thing worth asking about when scoping a property here, ahead of even the property's age or construction type.",
+    sections: [
+      {
+        heading: "Why does the Maumee River raise mosquito relevance in Napoleon?",
+        body: "Napoleon sits directly on the Maumee River, and that river-adjacent, low-lying land, part of the historic Great Black Swamp before it was drained starting in the 1850s, holds standing water more readily than inland farmland further from a major river. That combination of river proximity and historically swampy terrain gives Napoleon a stronger summer mosquito presence than a comparable inland northwest Ohio town would experience.",
+      },
+      {
+        heading: "How does Napoleon's canal-era history affect its housing and pest exposure?",
+        body: "Napoleon was settled largely by German immigrants who worked on the Miami and Erie Canal, and the town's older housing near that historic canal corridor reflects that 19th-century settlement pattern. Homes from this era have had well over a century to develop the small gaps around foundations and siding that cluster flies, boxelder bugs, and mice exploit each fall, a pattern found in similarly old river and canal towns throughout the region.",
+      },
+      {
+        heading: "Does the Campbell Soup plant affect pest pressure in Napoleon?",
+        body: "The world's largest Campbell Soup Company plant, operating in Napoleon since 1938, is a major food-processing facility and, like any large food plant, requires its own rigorous commercial pest program focused on the kind of exclusion and monitoring food-safety regulations demand. That program is largely separate from residential pest concerns in the surrounding canal-era neighborhoods, though both share the same underlying river and former-swamp terrain, and both see the same seasonal mosquito pressure that comes with sitting this close to the Maumee.",
+      },
+    ],
+    prevention: [
+      "Clear standing water near river-adjacent and low-lying properties through the summer to reduce mosquito breeding.",
+      "Seal gaps around siding and trim on canal-era homes before fall to reduce cluster fly entry.",
+      "Seal foundation gaps and door thresholds before October, when mice move in from harvested surrounding farmland.",
+      "Address any moisture issues in river-adjacent crawlspaces promptly.",
+      "Trim vegetation near rooflines to reduce boxelder bug staging areas each fall.",
+    ],
+    costNote:
+      "Summer mosquito treatment for Napoleon's river-adjacent properties typically runs somewhat higher than for inland Henry County homes given the added water source. Fall exclusion service runs $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Napoleon have more mosquito pressure than other Henry County towns?",
+        answer:
+          "Napoleon sits directly on the Maumee River, and that river-adjacent, historically swampy terrain, part of the old Great Black Swamp before it was drained starting in the 1850s, holds standing water more readily than inland farmland further from the river. This gives Napoleon a stronger summer mosquito presence than a comparable inland town in the same county.",
+      },
+      {
+        question: "What is the history behind Napoleon's location on the Maumee River?",
+        answer:
+          "Napoleon was named after Napoleon Bonaparte in 1832 and settled largely by German immigrants who worked on the Miami and Erie Canal. The surrounding area was originally part of the Great Black Swamp, roughly 25 miles wide and 100 miles long, drained into farmland starting in the 1850s.",
+      },
+      {
+        question: "Is Napoleon's fall pest pattern different from other northwest Ohio towns?",
+        answer:
+          "Not meaningfully, aside from the added mosquito pressure from the river. Cluster flies, boxelder bugs, and mice follow the same seasonal pattern seen across the wider Great Black Swamp region, driven by Napoleon's older canal-era housing and the surrounding drained farmland.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Defiance", slug: "defiance", stateSlug: "ohio" },
+      { name: "Wauseon", slug: "wauseon-oh", stateSlug: "ohio" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Napoleon, OH | Maumee River Great Black Swamp Town",
+    metaDescription:
+      "Napoleon, OH pest control for river-driven summer mosquitoes, fall cluster flies and boxelder bugs, and harvest-season mice. Henry County service. Free inspection.",
+  },
 ];

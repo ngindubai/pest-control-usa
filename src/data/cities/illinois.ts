@@ -10000,4 +10000,468 @@ export const illinoisCities: CityLocation[] = [
     metaDescription:
       "Vernon Hills, IL pest control for boxelder bugs, mice, carpenter ants, and retention-pond mosquitoes. Commercial and residential Lake County service. Free inspection.",
   },
+  {
+    slug: "sterling-il",
+    name: "Sterling",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~14,500",
+    county: "Whiteside County",
+    climate: "cold-humid",
+    climateDriver:
+      "Sterling sits on the Rock River in Whiteside County, in northern Illinois' humid continental climate: cold, snowy winters and warm, humid summers with steady precipitation through the year. The city developed alongside its historic twin city, Rock Falls, around the river's water power for milling and manufacturing starting in the 1830s, and that river-town core still shapes the local pest picture today.",
+    topPests: ["Carpenter Ants", "Cluster Flies", "Boxelder Bugs", "Mice"],
+    pestProfile: [
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Sterling's older riverfront homes, some dating to the 1830s milling era, sit close enough to the Rock River that moisture-damaged wood is a recurring carpenter ant entry point.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall",
+        note: "Cluster flies seek overwintering shelter in Sterling's older wood-frame homes each fall, exploiting the same small gaps around siding and trim common to river-town construction of this age.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall and spring",
+        note: "Boxelder bugs gather on sun-warmed walls near the mature maple and boxelder trees common along Sterling's riverfront streets before working indoors each fall.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Cold northern Illinois winters push mice toward any available indoor shelter, and Sterling's mix of older river-town housing and mid-century neighborhoods gives them plenty of entry points.",
+      },
+    ],
+    localHook:
+      "Sterling sits on the Rock River directly across from its historic twin city, Rock Falls, founded in 1867, and the two developed together around the river's water power for milling and manufacturing starting in the 1830s through the 1860s. That shared industrial river-town history, rather than a single town's founding story, is what shaped the older housing stock on both banks.",
+    intro:
+      "What does a Rock River twin-city history mean for pest control in Sterling today? Mostly, it means an older riverfront housing stock that has had well over a century to develop the small gaps carpenter ants, cluster flies, and boxelder bugs all exploit. Sterling and Rock Falls grew up together around the river's water power starting in the 1830s, and that shared industrial-era construction, combined with the mature tree cover lining the riverfront, gives this part of Whiteside County a heavier dose of fall invaders than a newer inland subdivision would see. Mice follow the same seasonal pattern common across northern Illinois, moving indoors as the region's cold winters set in.",
+    sections: [
+      {
+        heading: "Why does river proximity matter for carpenter ants in Sterling?",
+        body: "Sterling's oldest housing sits close to the Rock River, in a corridor that has supported industrial and residential development since the 1830s milling era. That proximity to the water table keeps ground and foundation moisture higher than it would be further inland, and carpenter ants are drawn directly to the kind of persistently damp wood this creates around sill plates, fascia boards, and window trim. A home a few blocks from the river tends to see meaningfully less carpenter ant pressure than one directly along the riverfront corridor, all else being equal.",
+      },
+      {
+        heading: "What drives the fall invader rush in Sterling specifically?",
+        body: "Sterling's mature tree canopy, especially the maples and boxelders that line many riverfront streets, gives boxelder bugs an unusually large amount of sun-warmed bark and foliage to gather on before the fall push indoors begins. Cluster flies follow a similar pattern, using the same small gaps around older siding and trim that boxelder bugs exploit. Because Sterling's housing spans a wide range of construction eras, from 1830s river-town cottages to mid-20th-century subdivisions, the intensity of fall invader activity varies noticeably by neighborhood, with the oldest, most tree-shaded blocks seeing the heaviest pressure.",
+      },
+      {
+        heading: "What should a Sterling homeowner expect from a typical fall service visit?",
+        body: "A technician typically starts at the foundation, checking for the small gaps around siding, utility penetrations, and window trim that cluster flies, boxelder bugs, and mice all use to get indoors as northern Illinois temperatures drop. For riverfront properties, that inspection extends to crawlspace moisture and carpenter ant activity given the added dampness this part of Sterling carries. Most standard residential visits take less than an hour, with older riverfront homes sometimes running longer given the additional moisture-related checks involved.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around siding, trim, and utility penetrations before fall on riverfront and older homes to reduce cluster fly and boxelder bug entry.",
+      "Trim mature trees near rooflines along riverfront streets to limit carpenter ant access to moisture-damaged wood.",
+      "Seal foundation gaps and door thresholds before winter to reduce mouse entry.",
+      "Address any crawlspace moisture issues promptly in homes closest to the Rock River.",
+      "Schedule a spring carpenter ant check for any home within a few blocks of the river.",
+    ],
+    costNote:
+      "Fall exclusion service for cluster flies, boxelder bugs, and mice in Sterling typically runs $150 to $300. Carpenter ant treatment for riverfront homes is often priced separately given the added moisture-related inspection work. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do Sterling's riverfront homes see more carpenter ant activity than homes further inland?",
+        answer:
+          "Homes closest to the Rock River sit on ground with a higher water table and generally more foundation and crawlspace moisture, exactly the conditions carpenter ants look for in sill plates and trim. A home set a few blocks back from the water typically sees less pressure than one directly along the historic milling corridor.",
+      },
+      {
+        question: "When should Sterling residents prepare for boxelder bugs and cluster flies?",
+        answer:
+          "By early September, ahead of the main fall push. Both pests begin gathering on sun-warmed exterior walls as temperatures start to drop, and Sterling's mature riverfront tree canopy gives them an unusually large staging area before they move toward gaps in older siding and trim.",
+      },
+      {
+        question: "Does Sterling's shared history with Rock Falls affect pest pressure on both sides of the river?",
+        answer:
+          "Largely, yes. Both cities grew up together around the same 1830s-era river-powered milling and manufacturing industry, so the housing stock and resulting pest pressure on both banks follows a similar age-driven pattern, though exact conditions vary block by block depending on proximity to the water and tree cover.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Rock Falls", slug: "rock-falls-il", stateSlug: "illinois" },
+      { name: "Dixon", slug: "dixon-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Sterling, IL | Rock River Twin-City Corridor",
+    metaDescription:
+      "Sterling, IL pest control for riverfront carpenter ants, fall cluster flies and boxelder bugs, and winter mice. Licensed Whiteside County service. Free inspection.",
+  },
+  {
+    slug: "dixon-il",
+    name: "Dixon",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~15,000",
+    county: "Lee County",
+    climate: "cold-humid",
+    climateDriver:
+      "Dixon sits on the Rock River in Lee County, sharing northern Illinois' humid continental climate of cold winters and warm, humid summers. The city's historic residential core, including the Reagan family home at 816 S. Hennepin Ave. where Ronald Reagan lived from 1920 to 1923, dates largely to the early 1900s, giving Dixon's older neighborhoods the same accumulated pest exposure common to river towns of this age.",
+    topPests: ["Carpenter Ants", "Cluster Flies", "Boxelder Bugs", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Dixon's early-1900s frame homes, including those in the historic district near the Reagan boyhood home, carry the kind of accumulated moisture damage carpenter ants target after a century of exposure.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall",
+        note: "Cluster flies are a routine fall presence in Dixon's older river-town neighborhoods, seeking overwintering shelter through gaps in aging siding and trim.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall and spring",
+        note: "Boxelder bugs gather along Dixon's tree-lined riverfront streets each fall before working into structures for the winter.",
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall",
+        note: "Brown marmorated stink bugs have expanded their range across northern Illinois in recent years and are an increasingly common fall invader in Dixon homes.",
+      },
+    ],
+    localHook:
+      "Dixon is Ronald Reagan's boyhood home; the Reagan family lived at 816 S. Hennepin Ave. from 1920 to 1923, a home restored and listed on the National Register of Historic Places since 1982. A teenage Reagan worked as a lifeguard at Lowell Park on the Rock River, saving 77 people over seven summers, a well-documented piece of the city's history alongside its river-town commercial core.",
+    intro:
+      "How does a National Register historic home fit into Dixon's broader pest picture? It's a useful example of the city's early-1900s residential core more generally. The Reagan family home at 816 S. Hennepin Ave. dates to the same era as much of Dixon's surrounding neighborhood, wood-frame construction that has had a full century to develop the kind of gaps and moisture issues carpenter ants, cluster flies, and boxelder bugs all exploit. Stink bugs are a newer addition to the mix, expanding into northern Illinois in recent years and adding another fall invader to the seasonal rotation Dixon homeowners already manage. Knowing which decade a given property was built in remains the most useful starting point for scoping a pest visit anywhere in this historic district.",
+    sections: [
+      {
+        heading: "What does Dixon's early-1900s housing stock mean for carpenter ants?",
+        body: "Much of Dixon's residential core, including the historic district around the Reagan boyhood home, dates to the early 1900s. A century of exposure to northern Illinois' humid summers and freeze-thaw winters gives carpenter ants ample opportunity to find softened wood around window sills, fascia boards, and porch structures common to this construction era. Newer homes elsewhere in Lee County simply haven't had the same amount of time for this kind of damage to accumulate, which is why an older Dixon property benefits from a closer annual inspection.",
+      },
+      {
+        heading: "Are stink bugs a growing concern in Dixon specifically?",
+        body: "Yes, more so than a decade ago. Brown marmorated stink bugs have steadily expanded their range across northern Illinois, and Dixon's mix of older tree-lined residential streets and nearby farmland gives them ample staging area before the fall push indoors. Homeowners who haven't dealt with stink bugs in the past may find them a newer addition to the same fall exclusion routine already used for cluster flies and boxelder bugs, rather than a completely separate problem requiring its own approach.",
+      },
+      {
+        heading: "Does Lowell Park and the riverfront affect pest pressure beyond the historic district?",
+        body: "Homes closest to Lowell Park and the Rock River share the same moisture-related carpenter ant exposure found in Sterling just downstream, though Dixon's historic district itself sits a bit further back from the water than Sterling's oldest riverfront blocks do. Properties directly along the park and river corridor still warrant the same closer look at fascia boards and crawlspace moisture recommended for any Rock River-adjacent home in this part of Lee County.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual carpenter ant and moisture check for early-1900s homes in Dixon's historic district.",
+      "Seal gaps around siding and trim before fall to reduce combined cluster fly, boxelder bug, and stink bug entry.",
+      "Trim mature trees near rooflines along riverfront and tree-lined streets.",
+      "Address any window sill or fascia board damage promptly on older wood-frame homes.",
+      "Weatherstrip doors and windows before winter for added fall invader protection.",
+    ],
+    costNote:
+      "Carpenter ant and moisture inspections for Dixon's historic-district homes typically run $150 to $300. Fall exclusion service covering cluster flies, boxelder bugs, and stink bugs is often bundled into the same visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Do homes near Dixon's historic district need more frequent pest inspections?",
+        answer:
+          "Generally yes. Much of the neighborhood surrounding the Reagan boyhood home dates to the early 1900s, and a century of exposure to northern Illinois' humid summers and freeze-thaw winters has given carpenter ants more opportunity to find softened wood than a newer home would offer.",
+      },
+      {
+        question: "Are brown marmorated stink bugs new to the Dixon area?",
+        answer:
+          "Relatively, yes. The species has expanded its range across northern Illinois in recent years, and Dixon homeowners who haven't dealt with them before are increasingly finding them alongside the more familiar fall cluster fly and boxelder bug invasion.",
+      },
+      {
+        question: "How does the Rock River affect pest pressure in Dixon?",
+        answer:
+          "Similar to neighboring Sterling, homes closest to the river tend to carry more moisture-related risk for carpenter ants, while the mature tree cover along riverfront streets like those near Lowell Park gives boxelder bugs a larger staging area before their fall move indoors.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Sterling", slug: "sterling-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Dixon, IL | Lee County Rock River Historic District",
+    metaDescription:
+      "Dixon, IL pest control for carpenter ants in early-1900s homes, fall cluster flies, boxelder bugs, and expanding stink bug pressure. Free inspection.",
+  },
+  {
+    slug: "freeport-il",
+    name: "Freeport",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~23,000",
+    county: "Stephenson County",
+    climate: "cold-humid",
+    climateDriver:
+      "Freeport sits in Stephenson County near the Wisconsin border, in northern Illinois' humid continental climate with cold, snowy winters and warm, humid summers. The city's history as a Lincoln-Douglas debate site and rail and manufacturing hub left behind a mix of early-20th-century worker cottages, larger Victorian-era homes, and postwar ranch development on the periphery.",
+    topPests: ["Mice", "Cluster Flies", "Carpenter Ants", "Asian Lady Beetles"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Freeport's older housing stock, with foundations dating to the early 20th century, gives mice numerous entry points as northern Illinois winters set in.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall",
+        note: "Cluster flies are common in Freeport's older worker-cottage and Victorian-era neighborhoods, seeking overwintering shelter through small exterior gaps.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Freeport's larger Victorian-era homes near downtown carry real carpenter ant risk given their age and original wood construction.",
+      },
+      {
+        name: "Asian Lady Beetles",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall",
+        note: "Asian lady beetles are a common overwintering nuisance pest in this part of Illinois, gathering on light-colored exterior walls each fall before working indoors.",
+      },
+    ],
+    localHook:
+      "Freeport is closely tied to the Lincoln-Douglas debates history, hosting the second of the seven famous 1858 debates, and has a manufacturing heritage tied to companies like Newell Rubbermaid's regional operations and its rail-era freight history as an Illinois Central hub. That layered history, political, industrial, and rail, shaped several distinct waves of housing construction still visible in the city today.",
+    intro:
+      "How do three different eras of Freeport's history show up in its pest pressure today? Each building wave left its own mark. The early 20th-century worker cottages built during the city's manufacturing boom carry the accumulated wear that draws mice and cluster flies each fall. The larger Victorian-era homes near downtown, some connected to Freeport's 19th-century commercial prominence, carry real carpenter ant exposure given their age and original wood construction. And Asian lady beetles, a fall overwintering pest common across this part of Illinois, show up regardless of which era a given home was built in, making them the one pest that touches every Freeport neighborhood roughly equally. Sorting a property into the right building era is usually the fastest way to scope the rest of the plan correctly, before anything else about the address matters.",
+    sections: [
+      {
+        heading: "Why does Freeport's manufacturing-era housing draw mice so consistently?",
+        body: "The worker cottages built up during Freeport's early 20th-century manufacturing boom were constructed quickly and modestly, and a century later, their foundations and utility penetrations have developed the kind of small gaps mice reliably find each fall as outdoor temperatures drop. This pattern holds across similar Rust Belt-adjacent Illinois towns with a comparable industrial building boom, and Freeport's older residential blocks fit that profile closely.",
+      },
+      {
+        heading: "Do Freeport's Victorian-era homes need different pest attention than the cottages?",
+        body: "Yes, mainly around carpenter ants. The larger Victorian-era homes near downtown, many connected to Freeport's 19th-century prominence as a Lincoln-Douglas debate site and commercial hub, were built with more elaborate wood trim and larger structural timbers than the later worker cottages, and that additional wood surface area gives carpenter ants more potential entry points to exploit as the structures age. An annual inspection focused on fascia boards, porch structures, and window trim is a reasonable standard for these older, larger homes.",
+      },
+      {
+        heading: "How does Freeport's manufacturing legacy affect commercial pest management today?",
+        body: "Older manufacturing and warehouse buildings tied to Freeport's industrial history, including facilities connected to Newell Rubbermaid's regional operations, typically need the same kind of scheduled commercial perimeter program any aging industrial building would require, distinct from the residential exclusion work recommended for the worker cottages and Victorian-era homes nearby. Property managers overseeing these older commercial buildings benefit from a recurring inspection focused on loading dock seals and roof penetrations rather than a single treatment.",
+      },
+    ],
+    prevention: [
+      "Seal foundation gaps and utility penetrations before fall on manufacturing-era worker cottages to reduce mouse entry.",
+      "Schedule an annual carpenter ant inspection for Victorian-era homes near downtown, focused on fascia boards and window trim.",
+      "Seal exterior wall gaps before September to reduce cluster fly and Asian lady beetle entry.",
+      "Address any porch or trim wood damage promptly on older Victorian-era construction.",
+      "Weatherstrip doors and windows before winter across all housing types in Freeport.",
+    ],
+    costNote:
+      "Fall exclusion service for mice, cluster flies, and Asian lady beetles in Freeport typically runs $150 to $300. Carpenter ant inspections for Victorian-era homes near downtown usually run somewhat higher given the additional wood trim to check. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do Freeport's older worker cottages see more mice than newer homes?",
+        answer:
+          "The cottages built during Freeport's early 20th-century manufacturing boom were constructed quickly and modestly, and a century of wear has developed the kind of small foundation and utility gaps mice reliably exploit each fall as outdoor temperatures drop. Newer construction elsewhere in Stephenson County hasn't had the same amount of time for this wear to accumulate.",
+      },
+      {
+        question: "Are Freeport's Victorian-era homes at higher risk for carpenter ants?",
+        answer:
+          "Generally, yes. These larger homes near downtown were built with more elaborate wood trim and structural timber than later worker cottages, giving carpenter ants more surface area to find moisture-damaged wood as the structures age. An annual inspection focused on fascia boards and porch structures is a reasonable standard.",
+      },
+      {
+        question: "Is Asian lady beetle pressure the same across all of Freeport?",
+        answer:
+          "Largely, yes. Unlike mice or carpenter ants, which vary more by housing era, Asian lady beetles are a fall overwintering pest common across this part of northern Illinois regardless of a home's age or construction style, making them one of the more uniform pest concerns citywide.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Freeport, IL | Stephenson County Historic Housing",
+    metaDescription:
+      "Freeport, IL pest control for mice in worker-cottage housing, carpenter ants in Victorian-era homes, and fall cluster flies and Asian lady beetles. Free inspection.",
+  },
+  {
+    slug: "ottawa-il",
+    name: "Ottawa",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~18,800",
+    county: "LaSalle County",
+    climate: "cold-humid",
+    climateDriver:
+      "Ottawa sits at the confluence of the Fox and Illinois Rivers in LaSalle County, sharing northern Illinois' humid continental climate with added river-valley humidity from its position at the two rivers' meeting point. The city's historic Victorian and Italianate-era homes near Washington Square, site of the first Lincoln-Douglas debate in 1858, sit close to floodplain land that shapes local pest pressure.",
+    topPests: ["Mosquitoes", "Carpenter Ants", "Cluster Flies", "Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Ottawa's position at the confluence of the Fox and Illinois Rivers gives it more floodplain-adjacent standing water than a comparable inland LaSalle County town, extending mosquito pressure through the summer.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Ottawa's historic Victorian and Italianate-era homes near Washington Square carry real carpenter ant risk given their age and proximity to the rivers' added ground moisture.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall",
+        note: "Cluster flies are common in Ottawa's older river-city neighborhoods, seeking overwintering shelter through gaps in historic-era construction.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Cold northern Illinois winters push mice toward indoor shelter, and Ottawa's older housing near the historic district gives them ready entry points.",
+      },
+    ],
+    localHook:
+      "Ottawa sits at the confluence of the Fox River and the Illinois River, and its Washington Square, now Washington Park, hosted the first Lincoln-Douglas debate on August 21, 1858, drawing roughly 10,000 people. The 1855 Reddick Mansion still stands on the square, a well-preserved marker of the city's mid-1800s prominence at this river junction.",
+    intro:
+      "Why does sitting at the confluence of two rivers change Ottawa's pest calendar compared to a single-river LaSalle County town like Streator? Mostly through mosquitoes. The Fox and Illinois Rivers meeting at Ottawa creates more floodplain-adjacent standing water than a town on just one river would have, extending mosquito pressure further into summer. The city's historic Victorian and Italianate-era homes near Washington Square, where the first Lincoln-Douglas debate drew roughly 10,000 people in 1858, carry the accumulated carpenter ant and cluster fly exposure typical of well-preserved 19th-century river-town construction. Mice round out the picture on the same fall-through-winter schedule common across northern Illinois. Distance from the confluence is often the single clearest predictor of how intense that mosquito season will actually feel for a given property, more useful even than knowing the exact street address.",
+    sections: [
+      {
+        heading: "Why does Ottawa's river confluence matter for mosquito control specifically?",
+        body: "Two rivers meeting at one point create a wider floodplain and more variable water levels than a single river alone would, and that means more low-lying areas prone to holding standing water after rain or seasonal river-level changes. Ottawa homeowners near the confluence, particularly those closest to Washington Park and the historic district, should expect a longer and more intense mosquito season than a resident of a LaSalle County town further from significant river confluence, such as inland farmland areas.",
+      },
+      {
+        heading: "What makes the homes near Washington Square a particular carpenter ant concern?",
+        body: "The Victorian and Italianate-era homes surrounding Washington Square, some dating close to the 1855 Reddick Mansion's era, combine original wood-heavy construction with the elevated ground moisture that comes from sitting near a major river confluence. That combination, old wood plus consistently damp soil, is close to ideal for carpenter ant colonization, making an annual inspection more valuable here than for a comparably aged home further from the rivers.",
+      },
+      {
+        heading: "How does Ottawa's pest pressure compare to Streator's, further from the rivers?",
+        body: "Streator, sitting further from any major river confluence, generally sees noticeably less mosquito pressure than Ottawa, though both share the same LaSalle County cold-humid climate and comparable fall invader and mouse patterns tied to their respective historic housing stocks. The river confluence is the single biggest factor separating Ottawa's pest profile from a similarly aged LaSalle County town set further inland, more so than any difference in housing age or construction era between the two.",
+      },
+    ],
+    prevention: [
+      "Clear standing water near confluence-adjacent and floodplain properties through the summer to reduce mosquito breeding.",
+      "Schedule an annual carpenter ant inspection for historic-district homes near Washington Square.",
+      "Seal gaps around siding and trim on older homes before fall to reduce cluster fly entry.",
+      "Seal foundation gaps and door thresholds before winter to reduce mouse entry.",
+      "Address any crawlspace moisture issues promptly in homes closest to the river confluence.",
+    ],
+    costNote:
+      "Mosquito treatment for confluence-adjacent Ottawa properties typically runs somewhat higher through the summer than for inland LaSalle County homes given the extended breeding season. Carpenter ant inspections for historic-district homes usually run $150 to $325. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is mosquito season longer in Ottawa than in other LaSalle County towns?",
+        answer:
+          "Ottawa sits at the confluence of the Fox and Illinois Rivers, and that meeting point creates a wider floodplain with more variable water levels than a single-river town would have. The resulting standing water, especially near Washington Park and the historic district, extends mosquito breeding conditions further into summer than an inland LaSalle County town would typically see.",
+      },
+      {
+        question: "Are the historic homes near Washington Square at higher risk for carpenter ants?",
+        answer:
+          "Yes, generally. These Victorian and Italianate-era homes combine original wood-heavy construction with the elevated ground moisture common near a major river confluence, a combination that favors carpenter ant colonization more than a comparably old home set further from the rivers.",
+      },
+      {
+        question: "How does Ottawa's river position affect fall pest preparation?",
+        answer:
+          "The core fall routine, sealing gaps against cluster flies and mice, is similar to any northern Illinois town, though homes closest to the confluence and floodplain may see slightly extended activity given the added ground moisture that persists later into fall than in drier, inland parts of the county.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Streator", slug: "streator-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Ottawa, IL | Fox and Illinois River Confluence",
+    metaDescription:
+      "Ottawa, IL pest control for confluence-driven mosquitoes, carpenter ants near the historic Washington Square district, and fall cluster flies and mice. Free inspection.",
+  },
+  {
+    slug: "streator-il",
+    name: "Streator",
+    state: "Illinois",
+    stateSlug: "illinois",
+    stateAbbr: "IL",
+    tier: "T3",
+    population: "~12,300",
+    county: "LaSalle County",
+    climate: "cold-humid",
+    climateDriver:
+      "Streator sits in LaSalle and Livingston counties in northern Illinois' humid continental climate, cold winters and warm, humid summers. Once known as the Glass Manufacturing Capital of the World, built on local silica and coal deposits, the city's older worker-cottage housing dates largely to the late 1800s and early 1900s industrial boom, with the last local glass plant closing in October 2024 after more than a century of production.",
+    topPests: ["Carpenter Ants", "Cluster Flies", "Mice", "Boxelder Bugs"],
+    pestProfile: [
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Streator's worker-cottage housing, built for coal and glass industry employees in the late 1800s and early 1900s, carries real carpenter ant exposure given the age of the original construction.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall",
+        note: "Cluster flies are a routine fall presence in Streator's older industrial-era neighborhoods, seeking overwintering shelter through small gaps in aging siding.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Streator's older basements and crawlspaces, common in housing from the coal and glass boom era, give mice ready entry points as cold weather sets in.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall and spring",
+        note: "Boxelder bugs gather on exterior walls in Streator's older residential blocks each fall before working into structures for winter.",
+      },
+    ],
+    localHook:
+      "Streator was known as the Glass Manufacturing Capital of the World in the early 20th century, built on local silica and coal deposits that drew more than a dozen glass companies to the city. The last local glass plant, Owens-Brockway, closed in October 2024, ending over a century of glassmaking there, a significant close to a chapter that shaped the city's entire built environment.",
+    intro:
+      "What does the end of a century-long glassmaking era mean for pest control in a town like Streator? The industry may be gone as of October 2024, but the housing it built remains, and that's what shapes pest pressure here today. The worker cottages built for coal and glass industry employees in the late 1800s and early 1900s, many with older basements and crawlspaces, give carpenter ants, cluster flies, and mice reliable entry points each year. Boxelder bugs round out the seasonal picture common across this part of northern Illinois, gathering on exterior walls each fall regardless of which decade a given home was built in. A property's age within that century-plus window still matters more than any other single factor for scoping the right level of attention.",
+    sections: [
+      {
+        heading: "How does Streator's glass-and-coal boom history shape its current housing stock?",
+        body: "Streator's identity was built on local silica and coal deposits that drew more than a dozen glass companies to the city between the late 1800s and the plant closures of the 20th and 21st centuries, ending with Owens-Brockway's October 2024 shutdown. The worker cottages built to house that industrial workforce were modest, quickly constructed homes, and more than a century later, their basements, crawlspaces, and exterior siding have developed the kind of gaps carpenter ants, cluster flies, and mice reliably exploit.",
+      },
+      {
+        heading: "Does the recent glass plant closure change anything for pest control in Streator?",
+        body: "Not directly, since the closure affects the local economy and employment more than pest pressure itself. What matters more for a homeowner is the age of a given property, since the worker-cottage housing built during the industry's century-long run carries the same accumulated wear regardless of whether the plant that built it is still operating. An older Streator home still benefits from the same annual inspection routine recommended for comparably aged housing elsewhere in LaSalle County.",
+      },
+      {
+        heading: "How does Streator's pest profile compare to Ottawa's, just up the road?",
+        body: "Streator generally sees less mosquito pressure than Ottawa, since it doesn't sit at a major river confluence the way Ottawa does at the meeting of the Fox and Illinois Rivers. Where Streator stands out is its concentration of aging worker-cottage housing from the coal and glass boom era, which gives it somewhat more consistent carpenter ant and cluster fly pressure tied to that specific construction wave than a town with a more varied housing stock would show.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual carpenter ant inspection for worker-cottage-era homes given their age and original construction.",
+      "Seal foundation and crawlspace gaps before fall to reduce mouse entry in older basements.",
+      "Seal exterior siding gaps before September to reduce cluster fly and boxelder bug entry.",
+      "Address any moisture damage around window sills and trim promptly on older construction.",
+      "Weatherstrip doors and windows before winter across Streator's older residential neighborhoods.",
+    ],
+    costNote:
+      "Carpenter ant and moisture inspections for Streator's worker-cottage-era homes typically run $150 to $300. Fall exclusion service covering cluster flies, boxelder bugs, and mice is often bundled into the same visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Streator's worker-cottage housing need extra pest attention?",
+        answer:
+          "These modest homes were built quickly to house the coal and glass industry workforce in the late 1800s and early 1900s, and more than a century of exposure to northern Illinois winters and summers has developed the kind of gaps around basements, crawlspaces, and siding that carpenter ants, cluster flies, and mice reliably exploit.",
+      },
+      {
+        question: "Does the 2024 closure of Streator's last glass plant affect pest pressure?",
+        answer:
+          "Not directly. The closure affects the local economy more than pest exposure, since the worker-cottage housing built during the industry's run carries the same age-related wear regardless of whether the plant that built it is still operating today.",
+      },
+      {
+        question: "How does Streator's pest pressure compare to nearby Ottawa's?",
+        answer:
+          "Both share the same northern Illinois humid continental climate and cold-weather mouse and fall-invader pattern, but Streator, without Ottawa's river confluence, generally sees less mosquito pressure. Streator's distinguishing factor is its concentration of aging worker-cottage housing from the coal and glass boom era.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Ottawa", slug: "ottawa-il", stateSlug: "illinois" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Streator, IL | Historic Glass and Coal Boom Town",
+    metaDescription:
+      "Streator, IL pest control for carpenter ants in worker-cottage housing, fall cluster flies and boxelder bugs, and winter mice. Free inspection.",
+  },
 ];

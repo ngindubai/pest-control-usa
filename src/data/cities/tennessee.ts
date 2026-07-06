@@ -6146,5 +6146,478 @@ export const tennesseeCities: CityLocation[] = [
     contentSoul: "qa",
     metaTitle: "Pest Control in Nolensville, TN | Williamson County",
     metaDescription: "Nolensville, TN pest control for mice, fire ants, termites, and mosquitoes. Fast-growing Williamson County community south of Nashville.",
-  }
+  },
+  {
+    slug: "pulaski-tn",
+    name: "Pulaski",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~8,260",
+    county: "Giles County",
+    climate: "hot-humid",
+    climateDriver:
+      "Pulaski is the Giles County seat in Middle Tennessee's humid subtropical climate, hot summers reaching the upper-80s to 90s, mild winters mostly above freezing, and roughly 50 to 55 inches of annual rainfall spread fairly evenly across the seasons. The town plan dates to an 1809 legal enactment, and its courthouse-square core built up through the late 19th and early 20th centuries, surrounded by rural farmland typical of the region.",
+    topPests: ["Termites", "Mosquitoes", "Fire Ants", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Pulaski's courthouse-square core, built up through the late 1800s and early 1900s, carries standard Middle Tennessee termite exposure tied to the region's warm, humid soil.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Pulaski's roughly 50 to 55 inches of annual rainfall, spread evenly through the year, keeps mosquito breeding conditions active across a long warm season.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The rural farmland surrounding Pulaski's town core gives fire ants plenty of open lawn and pasture edge habitat to establish mounds each year.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Pulaski's courthouse-square commercial core sees the year-round cockroach pressure typical of any Middle Tennessee small-town commercial district.",
+      },
+    ],
+    localHook:
+      "The Pulaski Courthouse Square Historic District, listed on the National Register in 1983, centers on the Giles County Courthouse, a 1909 Beaux Arts building considered one of the finest in the state. The town's plan traces to an 1809 legal enactment establishing a courthouse square at its center, one of the first towns in the country planned this way.",
+    intro:
+      "How does an 1809 courthouse-square town plan affect pest control in Pulaski today? Mostly through the age of the resulting building stock. The Giles County Courthouse, a 1909 Beaux Arts structure considered one of the finest in Tennessee, anchors a historic district of comparably aged commercial and residential buildings that carry the accumulated termite and general pest exposure typical of any well-preserved Middle Tennessee small town. Pulaski's roughly 50 to 55 inches of annual rainfall keeps mosquito season running long, from April through October, while the surrounding rural farmland gives fire ants ample room to establish across the county. A property's exact location within or outside the historic district is often the clearest predictor of how much attention it needs.",
+    sections: [
+      {
+        heading: "Why does Pulaski's courthouse-square core need closer termite attention?",
+        body: "Buildings around the historic district, including structures contemporaneous with the 1909 Giles County Courthouse, have had well over a century to develop the wood-to-soil contact points subterranean termites exploit, compounded by Middle Tennessee's consistently warm, humid soil. An annual inspection is a reasonable standard for any property in this part of Pulaski, regardless of whether it's residential or commercial.",
+      },
+      {
+        heading: "Does Pulaski's rural setting change fire ant pressure compared to a more urban Tennessee town?",
+        body: "Generally, yes. The farmland and pastureland surrounding Pulaski's town core give fire ants more open ground to colonize than a denser urban environment would offer, and properties bordering agricultural land tend to see more frequent mound activity than those in the tighter, more built-up historic district itself. A property's proximity to open farmland is a useful predictor of fire ant pressure here.",
+      },
+      {
+        heading: "What should a Pulaski property owner prioritize in a pest plan?",
+        body: "Termite inspection for historic district buildings should sit at the top of the list given the age of the courthouse-square core, followed by fire ant treatment for any property bordering open farmland. Mosquito control matters most through the long April-to-October season given the region's consistent rainfall, and cockroach service is the standing recommendation for any commercial building downtown. A free inspection sorts a given address into the right priority order faster than guessing from the outside, and it costs nothing to find out where a given property actually falls on that list before committing to any particular treatment plan, regardless of whether the address sits inside the historic district or out along the county's farm roads.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for courthouse-square historic district buildings.",
+      "Treat fire ant mounds promptly in lawns bordering rural farmland.",
+      "Clear standing water from gutters and low-lying areas through the long April-to-October mosquito season.",
+      "Keep a recurring cockroach service in place for commercial buildings in the courthouse-square district.",
+      "Seal foundation gaps on older buildings to reduce general seasonal pest entry.",
+    ],
+    costNote:
+      "Termite inspections for Pulaski's historic district buildings typically run $150 to $325. Mosquito treatment through the long warm season is often priced as a recurring seasonal service. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Pulaski's courthouse square need more termite attention than newer construction?",
+        answer:
+          "Many buildings around the historic district date to the same era as the 1909 Giles County Courthouse, giving them well over a century to develop the wood-to-soil contact points termites exploit in Middle Tennessee's consistently warm, humid soil. An annual inspection catches problems before they become structural.",
+      },
+      {
+        question: "Is fire ant pressure worse near Pulaski's farmland edges?",
+        answer:
+          "Yes, generally. Properties bordering the rural farmland and pastureland surrounding Pulaski's town core tend to see more frequent fire ant mound activity than those in the tighter historic district itself, since open agricultural ground gives colonies more room to establish.",
+      },
+      {
+        question: "How long does mosquito season last in Pulaski?",
+        answer:
+          "Roughly April through October, on the longer end for Tennessee, driven by the region's 50 to 55 inches of annual rainfall spread fairly evenly across the seasons rather than concentrated in a shorter wet period.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Lawrenceburg", slug: "lawrenceburg-tn", stateSlug: "tennessee" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Pulaski, TN | Giles County Courthouse Square",
+    metaDescription:
+      "Pulaski, TN pest control for termites in the historic courthouse-square district, farmland-edge fire ants, and a long mosquito season. Free inspection.",
+  },
+  {
+    slug: "fayetteville-tn",
+    name: "Fayetteville",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~7,050",
+    county: "Lincoln County",
+    climate: "hot-humid",
+    climateDriver:
+      "Fayetteville is the Lincoln County seat in Middle Tennessee's humid subtropical climate, sharing Pulaski's pattern of hot summers, mild winters, and roughly 50 to 55 inches of annual rainfall. The town was laid out with a courthouse square at its center under an early legal mandate, one of the first towns in the country planned this way, and its current 1874 Italianate courthouse replaced an 1815 brick structure that itself replaced a temporary log building.",
+    topPests: ["Termites", "Fire Ants", "Ticks", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Fayetteville's courthouse-square core, with buildings dating back through the 1874 Italianate courthouse era and earlier, carries standard Middle Tennessee termite exposure.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The rural Lincoln County farmland surrounding Fayetteville gives fire ants ample open lawn and pasture space to establish mounds each year.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Fayetteville's surrounding farmland and pastureland create elevated tick exposure for anyone spending time outdoors in the county's rural areas.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Fayetteville's small commercial courthouse-square district sees the year-round cockroach pressure typical of any Middle Tennessee small-town commercial core.",
+      },
+    ],
+    localHook:
+      "Fayetteville was laid out with a courthouse square at its center under an early legal mandate, one of the first towns in the country planned this way. The current Italianate courthouse dates to 1874, replacing an 1815 brick courthouse that itself replaced a temporary log structure, three successive courthouses on the same square across the town's history.",
+    intro:
+      "What does three successive courthouses on the same square tell us about pest planning in Fayetteville? Mostly that the town's core has been continuously built up since its earliest founding, giving the courthouse-square district a full range of construction ages, some tracing back before the 1874 Italianate courthouse, that carry standard Middle Tennessee termite and cockroach exposure. The rural Lincoln County farmland surrounding town adds fire ant and tick pressure typical of the region's agricultural setting, with tick exposure a particular concern for anyone spending time in the surrounding pastureland. Three successive courthouses on the same square make Fayetteville a useful example of how much building-age variation a single small Tennessee town can hold.",
+    sections: [
+      {
+        heading: "Why does Fayetteville's layered courthouse history matter for termite risk?",
+        body: "Three successive courthouses, a temporary log structure, an 1815 brick building, and the current 1874 Italianate structure, mark the continuous development of Fayetteville's town square across nearly two centuries. Buildings surrounding the square span this same range of construction eras, meaning termite risk varies by specific building age more than in a town built up in a single, more recent wave.",
+      },
+      {
+        heading: "Why is tick exposure a bigger concern in Fayetteville than in a more urban Tennessee town?",
+        body: "Lincoln County's rural farmland and pastureland, which surrounds Fayetteville closely given the town's modest size, provides the tall grass and brush edge habitat, along with livestock traffic, that ticks rely on. Anyone spending regular time on the surrounding farmland should expect more consistent tick exposure than a resident of a denser, more paved-over Tennessee city would face.",
+      },
+      {
+        heading: "How does Fayetteville's pest profile compare to nearby Pulaski's?",
+        body: "Both share the same Middle Tennessee climate, comparable rural farmland settings, and courthouse-square historic cores, giving them broadly similar termite, fire ant, and cockroach pressure. Fayetteville's closer farmland adjacency gives it somewhat more consistent tick exposure than Pulaski typically experiences, a distinction worth noting for anyone comparing the two Giles and Lincoln county seats side by side.",
+      },
+      {
+        heading: "What does a typical fall visit look like for a Fayetteville property?",
+        body: "A technician generally starts with the exterior, checking foundation gaps and the crawlspace access points common to older courthouse-square buildings, since those are the entry routes cockroaches and occasional rodents use as temperatures cool. For properties bordering farmland, the visit also covers a fire ant mound check and a review of any tick-prone brush edges near the yard. Most standard visits take under an hour, with older commercial buildings sometimes running longer given their larger footprint.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for courthouse-square buildings given their range of construction ages.",
+      "Check for ticks after time spent on surrounding farmland or pastureland, especially spring through fall.",
+      "Treat fire ant mounds promptly in lawns bordering rural farmland.",
+      "Keep a recurring cockroach service in place for commercial buildings in the courthouse-square district.",
+      "Treat pet bedding and yards for ticks during peak spring and summer activity.",
+    ],
+    costNote:
+      "Termite inspections for Fayetteville's courthouse-square buildings typically run $150 to $325 given the range of construction ages involved. Tick treatment for rural-adjacent properties is often priced as part of a standard seasonal plan. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Fayetteville's courthouse square have such varied termite risk by building?",
+        answer:
+          "The square has seen three successive courthouses, a temporary log structure, an 1815 brick building, and the current 1874 Italianate structure, and surrounding buildings span this same wide range of construction eras. That variation means termite risk depends more on a specific building's age than on its general location within the district.",
+      },
+      {
+        question: "Why is tick exposure elevated in Fayetteville compared to a larger Tennessee city?",
+        answer:
+          "Lincoln County's rural farmland and pastureland surrounds Fayetteville closely, providing the tall grass, brush, and livestock traffic ticks depend on. A resident of a denser, more paved-over Tennessee city simply doesn't have this level of agricultural land adjacency.",
+      },
+      {
+        question: "Is Fayetteville's fire ant pressure similar to nearby Pulaski's?",
+        answer:
+          "Yes, broadly. Both towns share the same Middle Tennessee climate and comparable rural farmland settings, giving fire ants similar open-ground opportunities to establish mounds in both Lincoln and Giles counties.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Lynchburg", slug: "lynchburg-tn", stateSlug: "tennessee" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Fayetteville, TN | Lincoln County Courthouse Square",
+    metaDescription:
+      "Fayetteville, TN pest control for varied-era termites, farmland-edge fire ants and ticks, and courthouse-square cockroaches. Free inspection.",
+  },
+  {
+    slug: "winchester-tn",
+    name: "Winchester",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~10,300",
+    county: "Franklin County",
+    climate: "hot-humid",
+    climateDriver:
+      "Winchester is the Franklin County seat in Middle Tennessee's humid subtropical climate, hot summers, mild winters, and roughly 50 to 55 inches of annual rainfall. The town sits at Tims Ford Lake, a TVA reservoir roughly 30 miles long with 250 miles of shoreline, filled by 1972, giving Winchester considerably more lakefront property and standing water exposure than the other Middle Tennessee courthouse towns in this area.",
+    topPests: ["Mosquitoes", "Termites", "Carpenter Ants", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "Tims Ford Lake's 250 miles of shoreline gives Winchester dramatically more standing water and breeding habitat than a comparable Middle Tennessee town without a major reservoir.",
+      },
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Winchester's historic courthouse-square core, with buildings 100 years or older surrounding the 1937 Franklin County Courthouse, carries standard Middle Tennessee termite exposure.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Lakefront properties around Tims Ford Lake see elevated carpenter ant risk given the persistent moisture from lake proximity affecting exterior wood.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The open lawn space common to both Winchester's historic in-town core and its newer lakefront development gives fire ants plenty of room to establish mounds.",
+      },
+    ],
+    localHook:
+      "Winchester sits at Tims Ford Lake, a TVA reservoir with dam construction starting in 1966 and the lake filled by 1972, roughly 30 miles long with 250 miles of shoreline and regarded as a top bass-fishing lake in the Southeast. The historic downtown square centers on the 1937 Franklin County Courthouse, with many surrounding buildings 100 years or older, and Hundred Oaks Castle, a plantation house begun in 1830, is a further area landmark.",
+    intro:
+      "How does a 250-mile-shoreline reservoir change pest planning in a Middle Tennessee courthouse town like Winchester? Mostly by adding a lakefront residential layer on top of the standard historic in-town core. Tims Ford Lake, filled by 1972, gives Winchester dramatically more mosquito breeding habitat and lakefront carpenter ant exposure than Pulaski or Fayetteville, the other courthouse towns covered in this area, experience. The historic downtown around the 1937 Franklin County Courthouse still carries standard Middle Tennessee termite risk, while fire ants show up in both the historic core's open lawns and the newer lakefront development alike. Whether a property sits on the lake or in the historic downtown core is the single most useful fact for scoping a Winchester pest visit.",
+    sections: [
+      {
+        heading: "How much does Tims Ford Lake change mosquito pressure compared to inland Middle Tennessee towns?",
+        body: "Significantly. With roughly 250 miles of shoreline, Tims Ford Lake gives Winchester far more standing water and breeding-habitat edge than a comparable town without a major reservoir, like Pulaski or Fayetteville further along this same courthouse-town corridor. Lakefront and near-lake properties should expect meaningfully more mosquito pressure through the long April-to-October season than an in-town historic district property set back from the water.",
+      },
+      {
+        heading: "Do lakefront properties around Winchester need different carpenter ant management than in-town homes?",
+        body: "Yes, generally. Properties directly on Tims Ford Lake experience more consistent exterior wood moisture from lake proximity than the historic in-town core does, and that persistent dampness gives carpenter ants more opportunity to find softened trim and structural wood. A lakefront property benefits from a closer annual carpenter ant check than a comparably aged home in Winchester's historic downtown district.",
+      },
+      {
+        heading: "Is Hundred Oaks Castle relevant to pest planning in Winchester?",
+        body: "The 1830 plantation house is more a historical landmark than an active pest concern today, though a structure of that age would follow the same termite and carpenter ant inspection recommendations given to any comparably old building in Franklin County. Its relevance to pest planning is really just another example of how much historic-era construction Winchester's surrounding area carries.",
+      },
+      {
+        heading: "How should a Winchester property owner prioritize their pest plan?",
+        body: "Lakefront properties should lead with mosquito and carpenter ant prevention given Tims Ford Lake's added moisture and standing water, while historic downtown properties should prioritize a termite inspection given the age of the courthouse-square district. Fire ant treatment applies fairly evenly across both settings, since open lawn space is common to each part of Winchester regardless of proximity to the water.",
+      },
+    ],
+    prevention: [
+      "Clear standing water near lakefront properties through the long April-to-October mosquito season.",
+      "Schedule an annual carpenter ant inspection for homes directly on Tims Ford Lake.",
+      "Schedule a termite inspection for buildings in the historic downtown square, many 100 years or older.",
+      "Treat fire ant mounds in open lawn areas across both the historic core and newer lakefront development.",
+      "Address any moisture damage around lakefront exterior wood promptly.",
+    ],
+    costNote:
+      "Mosquito treatment for Winchester's lakefront properties typically runs higher through the season than for in-town homes given the extended breeding habitat. Termite inspections for historic downtown buildings usually run $150 to $325. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Winchester have more mosquito pressure than nearby Pulaski or Fayetteville?",
+        answer:
+          "Winchester sits on Tims Ford Lake, a TVA reservoir with roughly 250 miles of shoreline, giving it far more standing water and mosquito breeding habitat than a comparable Middle Tennessee courthouse town without a major reservoir. Pulaski and Fayetteville, without this lake feature, see meaningfully less mosquito pressure.",
+      },
+      {
+        question: "Do Winchester's lakefront homes need more carpenter ant attention than in-town properties?",
+        answer:
+          "Yes, generally. Homes directly on Tims Ford Lake experience more persistent exterior wood moisture from lake proximity than the historic downtown core, giving carpenter ants more opportunity to find softened trim. An annual inspection is a reasonable standard for these lakefront properties.",
+      },
+      {
+        question: "Is Winchester's historic downtown at the same termite risk as other Middle Tennessee courthouse towns?",
+        answer:
+          "Yes, broadly. The area around the 1937 Franklin County Courthouse, with many buildings 100 years or older, follows the same termite exposure pattern common to comparably aged historic districts throughout the region, driven by the area's consistently warm, humid soil rather than by the lake.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Decherd", slug: "decherd-tn", stateSlug: "tennessee" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Winchester, TN | Tims Ford Lake",
+    metaDescription:
+      "Winchester, TN pest control for lake-driven mosquitoes and carpenter ants, historic courthouse-square termites, and fire ants. Free inspection.",
+  },
+  {
+    slug: "manchester-tn",
+    name: "Manchester",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~12,900",
+    county: "Coffee County",
+    climate: "hot-humid",
+    climateDriver:
+      "Manchester is the Coffee County seat in Middle Tennessee's humid subtropical climate, hot summers, mild winters, and roughly 50 to 55 inches of annual rainfall. The city sits along the Duck River near Old Stone Fort State Archaeological Park, and its population swells toward nearly 100,000 for four days each June during the Bonnaroo Music and Arts Festival at nearby Great Stage Park, a dramatic but temporary shift in local pest management demands.",
+    topPests: ["Termites", "Mosquitoes", "Ticks", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Manchester's county-seat historic core carries standard Middle Tennessee termite exposure tied to the region's warm, humid soil.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "April through October",
+        note: "The Duck River and the parkland surrounding Old Stone Fort give Manchester meaningful mosquito breeding habitat through the long warm season.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Old Stone Fort State Archaeological Park's river-adjacent forest and surrounding farmland create elevated tick exposure for anyone spending time in the park or nearby rural areas.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The rural Coffee County farmland surrounding Manchester gives fire ants ample open lawn and pasture space to establish mounds each year.",
+      },
+    ],
+    localHook:
+      "Manchester is home to Old Stone Fort State Archaeological Park, a Native American ceremonial hilltop enclosure built roughly 80 to 550 AD along the Duck River, one of the most complex prehistoric hilltop enclosures in the South. The city has also hosted the annual Bonnaroo Music and Arts Festival since 2002 at nearby Great Stage Park, which swells the area's population toward nearly 100,000 for four days each June.",
+    intro:
+      "How does hosting a festival that swells the population tenfold for four days affect pest planning in Manchester? The Bonnaroo Music and Arts Festival each June is an operational consideration for Great Stage Park and nearby commercial services rather than a change to the underlying residential pest calendar most Manchester homeowners deal with. That calendar looks like standard Middle Tennessee: termites tied to the county seat's historic core, mosquitoes breeding along the Duck River and near Old Stone Fort's parkland, ticks in the park's forested and farmland edges, and fire ants across the surrounding rural Coffee County lawns and pastures. Outside of festival week each June, Manchester's pest calendar looks much like any other Middle Tennessee county seat.",
+    sections: [
+      {
+        heading: "Does the Bonnaroo festival create any pest management considerations?",
+        body: "Great Stage Park and the temporary infrastructure supporting nearly 100,000 attendees for four days each June represent a large-scale, short-term event management challenge more akin to a major fairground than a residential concern. Food vendors and temporary structures on the festival grounds would follow standard large-event pest management protocols, but this doesn't extend to Manchester's residential neighborhoods, which follow the standard Middle Tennessee pest calendar the rest of the year.",
+      },
+      {
+        heading: "Why is Old Stone Fort State Archaeological Park relevant to tick exposure?",
+        body: "The park's forested land along the Duck River, combined with the surrounding Coffee County farmland, gives ticks the kind of brush-edge and tall-grass habitat they favor, and visitors hiking the park's trails around the ancient hilltop enclosure should expect regular tick contact during the warmer months. This pattern is consistent with any forested state park in Middle Tennessee, not unique to Old Stone Fort specifically, but worth noting given the park's popularity as a hiking destination.",
+      },
+      {
+        heading: "How does the Duck River affect Manchester's mosquito season compared to an inland Coffee County town?",
+        body: "The river and its adjacent parkland at Old Stone Fort give Manchester more consistent standing water opportunities through the warm season than a Coffee County property set well back from any significant waterway would experience. Properties closest to the river corridor should plan on a full April-through-October mosquito treatment schedule rather than a shorter seasonal approach, while properties further into town can generally scale that back somewhat given their reduced exposure to the river's direct influence on standing water, a distinction worth raising when scheduling any initial inspection here.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for Manchester's historic county-seat core.",
+      "Clear standing water near the Duck River and low-lying areas through the long mosquito season.",
+      "Check for ticks after hiking Old Stone Fort State Archaeological Park's trails.",
+      "Treat fire ant mounds promptly in lawns bordering rural Coffee County farmland.",
+      "Coordinate any large-event pest management needs with Great Stage Park operators ahead of the annual festival.",
+    ],
+    costNote:
+      "Termite inspections in Manchester typically run $150 to $325. Tick treatment for properties near Old Stone Fort or rural farmland is often priced as part of a standard seasonal plan. Free inspection included.",
+    faqs: [
+      {
+        question: "Does the Bonnaroo festival affect pest control needs for Manchester homeowners?",
+        answer:
+          "Not meaningfully for residential properties. The festival's large-scale, short-term impact is concentrated at Great Stage Park and nearby commercial services during the four-day event each June, following standard large-event pest management protocols. Manchester's residential neighborhoods follow the same year-round Middle Tennessee pest calendar regardless of the festival's timing.",
+      },
+      {
+        question: "Why should hikers at Old Stone Fort State Archaeological Park expect ticks?",
+        answer:
+          "The park's forested land along the Duck River and the surrounding farmland provide the brush-edge and tall-grass habitat ticks rely on, a pattern common to forested state parks throughout Middle Tennessee. Regular tick checks are recommended for anyone hiking the trails during the warmer months.",
+      },
+      {
+        question: "Is Manchester's fire ant pressure similar to other Middle Tennessee courthouse towns?",
+        answer:
+          "Yes, broadly. The rural Coffee County farmland surrounding Manchester gives fire ants similar open-ground opportunities to those found in Pulaski, Fayetteville, and other comparable Middle Tennessee county-seat towns, tied to the region's shared climate and agricultural land use.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Tullahoma", slug: "tullahoma-tn", stateSlug: "tennessee" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in Manchester, TN | Duck River Coffee County",
+    metaDescription:
+      "Manchester, TN pest control for termites, Duck River mosquitoes, Old Stone Fort-area ticks, and rural fire ants. Free inspection.",
+  },
+  {
+    slug: "mckenzie-tn",
+    name: "McKenzie",
+    state: "Tennessee",
+    stateSlug: "tennessee",
+    stateAbbr: "TN",
+    tier: "T3",
+    population: "~5,620",
+    county: "Carroll County",
+    climate: "hot-humid",
+    climateDriver:
+      "McKenzie sits at the tripoint of Carroll, Weakley, and Henry counties in West Tennessee, sharing the state's humid subtropical climate with hot summers, mild winters, and roughly 50 inches of annual rainfall. Founded as an 1865 railroad junction town, McKenzie's rural farmland surroundings and modest small-town core shape a pest profile centered on agriculture rather than any major water feature.",
+    topPests: ["Termites", "Fire Ants", "Ticks", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "McKenzie's older railroad-junction-era homes carry standard West Tennessee termite exposure tied to the region's warm, humid soil.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The rural West Tennessee farmland surrounding McKenzie gives fire ants ample open lawn space to establish mounds each year, common to open farmland lots throughout the area.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "McKenzie's heavy farmland adjacency creates elevated tick exposure for anyone spending time on the surrounding rural land.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "McKenzie's small commercial core sees the year-round cockroach pressure typical of any West Tennessee small-town commercial district.",
+      },
+    ],
+    localHook:
+      "McKenzie was founded as an 1865 railroad junction town at the intersection of the Nashville and Northwestern Railroad and the Memphis and Ohio Railroad, named for landowner James Monroe McKenzie, who donated the depot land. Bethel University, founded in 1842 in nearby McLemoresville as Bethel Seminary, relocated to McKenzie in 1872 to sit at the rail junction, renaming itself Bethel University in 2009.",
+    intro:
+      "How does sitting at the tripoint of three counties affect pest planning in a small railroad town like McKenzie? Less than you'd expect, since county lines don't change the underlying West Tennessee climate or farmland setting driving local pest pressure. McKenzie's 1865 founding as a railroad junction town, and Bethel University's 1872 relocation here to sit at that same junction, left behind a modest small-town core surrounded by heavy agricultural land. That farmland setting drives standard termite, fire ant, and tick exposure typical of rural West Tennessee, with cockroaches rounding out the year-round commercial-district picture. The surrounding farmland, more than the town's rail-junction history, is what actually shapes most of McKenzie's pest calendar today.",
+    sections: [
+      {
+        heading: "Does Bethel University change McKenzie's pest profile in any way?",
+        body: "The university adds a modest layer of institutional and student rental housing to McKenzie's small-town core, similar to what any small college town experiences, though at a much smaller scale than a larger university city would see. The core farmland-driven pest pattern, termites, fire ants, and ticks tied to the surrounding rural land, applies to campus-adjacent housing much the same as it does elsewhere in McKenzie.",
+      },
+      {
+        heading: "Why is tick exposure such a significant concern around McKenzie specifically?",
+        body: "McKenzie's location amid heavy West Tennessee farmland, more so than a larger regional city with more paved, developed land, gives ticks abundant tall-grass and brush-edge habitat right up to the edge of town. Anyone working or spending regular time on the surrounding agricultural land should plan on consistent tick checks throughout the warm season, more so than a resident of a denser West Tennessee city would need.",
+      },
+      {
+        heading: "How does McKenzie's 1865 railroad founding show up in its current housing stock?",
+        body: "The original railroad-junction-era core, built up around the 1865 intersection of the Nashville and Northwestern and Memphis and Ohio lines, gives McKenzie's oldest neighborhoods more than a century and a half of accumulated wear, exactly the conditions subterranean termites exploit in West Tennessee's warm, humid soil. Newer construction elsewhere in Carroll County simply hasn't had the same amount of time for this kind of risk to develop, making a property's age near the original depot a useful first question when scoping an inspection, ahead of any other detail about the address itself or its exact location within the small town, since age matters more here than street position.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for railroad-junction-era homes in McKenzie's historic core.",
+      "Check for ticks after time spent on surrounding farmland, especially spring through fall.",
+      "Treat fire ant mounds promptly in lawns bordering rural farmland.",
+      "Keep a recurring cockroach service in place for small commercial buildings downtown.",
+      "Treat pet bedding and yards for ticks during peak spring and summer activity.",
+    ],
+    costNote:
+      "Termite inspections for McKenzie's railroad-era homes typically run $150 to $300. Tick treatment for farmland-adjacent properties is often priced as part of a standard seasonal plan. Free inspection included.",
+    faqs: [
+      {
+        question: "Does McKenzie's location at a three-county tripoint affect its pest pressure?",
+        answer:
+          "Not meaningfully. County lines don't change the underlying West Tennessee climate or the heavy farmland setting that actually drives McKenzie's termite, fire ant, and tick exposure. The tripoint location is more a historical and administrative detail than a pest-relevant one.",
+      },
+      {
+        question: "Does Bethel University change pest pressure for nearby rental housing?",
+        answer:
+          "Modestly. Student rental housing near campus can see the same kind of delayed maintenance common to any small college town, giving small entry gaps more time to go unaddressed than in an owner-occupied home. The core seasonal pest pattern otherwise matches the rest of McKenzie.",
+      },
+      {
+        question: "Why is McKenzie's tick exposure higher than in a larger West Tennessee city?",
+        answer:
+          "McKenzie sits amid heavy agricultural farmland right up to the edge of town, giving ticks more tall-grass and brush-edge habitat than a larger, more developed West Tennessee city would have. Anyone spending regular time on the surrounding farmland should expect more consistent tick contact.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Huntingdon", slug: "huntingdon-tn", stateSlug: "tennessee" },
+    ],
+    contentTemplate: "E",
+    contentSoul: "brief",
+    metaTitle: "Pest Control in McKenzie, TN | Three-County Tripoint Railroad Town",
+    metaDescription:
+      "McKenzie, TN pest control for termites, farmland-driven fire ants and ticks, and small-town cockroaches. Free inspection.",
+  },
 ];

@@ -9218,4 +9218,461 @@ export const georgiaCities: CityLocation[] = [
     metaDescription:
       "Winder GA pest control for subterranean termites, agricultural-edge mice, fire ants, fall stink bugs, and mosquitoes near Barrow County farm corridors. Licensed local service.",
   },
+  {
+    slug: "morrow-ga",
+    name: "Morrow",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~6,570",
+    county: "Clayton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Morrow sits in Clayton County in Metro Atlanta's humid subtropical belt, hot, humid summers and mild winters with regular thunderstorms. The city grew up around an 1846 railroad stop, and its mix of Clayton State University buildings, state office space, and older residential streets shapes a pest profile that spans institutional, commercial, and residential property types within a small footprint.",
+    topPests: ["Subterranean Termites", "Fire Ants", "Mosquitoes", "German Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Morrow's older residential streets near the original railroad-stop core sit on the same warm Clayton County clay soil that drives termite pressure across the wider Atlanta area.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The open lawn space around Clayton State University's campus and Morrow's residential streets gives fire ants plenty of room to establish mounds each year.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "Georgia's frequent summer thunderstorms leave standing water in low-lying parts of Morrow, including campus and office-park drainage areas, giving mosquitoes fresh breeding sites after nearly every rain.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Morrow's mix of state office buildings, restaurants, and older apartment complexes near the Georgia Archives corridor keeps cockroach pressure fairly steady across the year.",
+      },
+    ],
+    localHook:
+      "Morrow was founded in 1846 with the arrival of the railroad, named for Radford E. Morrow, the original owner of the town site, and incorporated as a city in 1943. It is home to Clayton State University and the Georgia Archives, giving this small Clayton County city an institutional character unusual for a town its size.",
+    intro:
+      "How does having a university and the state archives change pest control in a small city like Morrow? It adds an institutional layer most towns this size don't have to plan around. Clayton State University's campus buildings and grounds carry their own fire ant and mosquito pressure tied to open lawn space and campus drainage, while the surrounding state office and commercial space near the Georgia Archives corridor keeps German cockroach pressure fairly constant year-round. Morrow's older residential streets, dating back toward the city's 1846 railroad-stop origins, still carry the same subterranean termite exposure common across Clayton County. A pest plan here needs to serve three different kinds of property within a very compact area, something few Clayton County cities this size have to account for.",
+    sections: [
+      {
+        heading: "Does Clayton State University change pest pressure in Morrow?",
+        body: "Yes, in a way a purely residential Clayton County town wouldn't experience. The campus's open quad and lawn space gives fire ants plenty of room to establish mounds, and the various drainage areas built to manage stormwater across a campus this size hold standing water long enough after Georgia's frequent summer storms to become mosquito breeding sites. Facilities staff managing campus grounds typically need a broader perimeter treatment plan than a single homeowner would, simply because of the scale of the property involved.",
+      },
+      {
+        heading: "What about the state office space near the Georgia Archives?",
+        body: "The Georgia Archives and the surrounding state office and commercial buildings add a food-service and office-building layer to Morrow's pest profile, similar to what any government or institutional office corridor sees. German cockroaches persist in these buildings year-round given consistent indoor heating and cooling, and property managers typically need a recurring scheduled service rather than a single treatment to keep pace with new activity moving in from surrounding commercial space.",
+      },
+      {
+        heading: "Is Morrow's residential pest pressure any different from nearby Clayton County towns?",
+        body: "Not meaningfully. Morrow's older residential streets near its original 1846 railroad-stop core sit on the same warm clay soil responsible for termite pressure throughout Clayton County, and homeowners here should expect the same annual spring inspection routine recommended for any comparable older home in the area. What sets Morrow apart is simply the extra institutional and commercial layer the university and state offices add on top of that standard residential baseline.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for residential streets near Morrow's original railroad-era core.",
+      "Treat fire ant mounds promptly on open lawn areas, including near campus and office-park grounds.",
+      "Clear standing water from campus and office-park drainage areas after summer storms to reduce mosquito breeding.",
+      "Keep a recurring cockroach service in place for state office and commercial buildings near the Georgia Archives corridor.",
+      "Seal foundation gaps and door thresholds on older homes before fall to reduce seasonal pest entry.",
+    ],
+    costNote:
+      "Residential termite inspections in Morrow typically run $150 to $300. Commercial cockroach service for office and institutional buildings near the Georgia Archives corridor is usually quoted as a recurring program based on square footage. Free inspection included.",
+    faqs: [
+      {
+        question: "Does Morrow's population of Clayton State University students affect pest control needs?",
+        answer:
+          "Indirectly, mainly through the campus's own fire ant and mosquito pressure tied to its open lawn space and stormwater drainage. Residential neighborhoods elsewhere in Morrow follow the standard Clayton County termite and fire ant pattern rather than anything specific to the student population itself.",
+      },
+      {
+        question: "Why does Morrow have steady cockroach pressure near the Georgia Archives?",
+        answer:
+          "The state office buildings and commercial space in that corridor create the kind of consistent indoor climate and food-service activity that lets German cockroaches persist year-round rather than dying back seasonally, similar to any government office corridor of comparable density.",
+      },
+      {
+        question: "How old is Morrow's original town core, and does that affect termite risk?",
+        answer:
+          "Morrow was founded in 1846 with the arrival of the railroad, and its older residential streets near that original core have had well over a century for wood-to-soil contact points to develop. An annual termite inspection is worthwhile for any home from this era, consistent with the standard advice for older Clayton County housing generally.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Riverdale", slug: "riverdale-ga", stateSlug: "georgia" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Morrow, GA | Clayton State University Area",
+    metaDescription:
+      "Morrow, GA pest control for termites in the historic railroad-era core, campus fire ants and mosquitoes, and Georgia Archives corridor cockroaches. Free inspection.",
+  },
+  {
+    slug: "riverdale-ga",
+    name: "Riverdale",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~14,700",
+    county: "Clayton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Riverdale sits about 12 miles south of downtown Atlanta in the same humid subtropical belt as the rest of Clayton County: hot, sticky summers, mild winters, and thunderstorms that keep the ground damp for most of the growing season. The city grew up around a rail extension in 1886 and was incorporated in 1908, so much of its housing stock reflects several distinct building waves rather than one uniform era.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active through fall",
+        note: "Riverdale's 1960s to 1980s ranch homes sit on the same warm clay soil that makes termite pressure a near-constant concern across Clayton County.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "Regular summer thunderstorms leave standing water in yards and drainage ditches along Highway 85, giving mosquitoes fresh breeding sites every few days.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Open lawns around the ranch-home subdivisions built through the 1960s and 1970s are classic fire ant territory throughout this part of Georgia.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Warmer months",
+        note: "Older wood-frame homes near the original 1886 rail corridor are more prone to moisture damage that draws carpenter ants looking for softened wood.",
+      },
+    ],
+    localHook:
+      "Riverdale was founded in 1886 when the railroad was extended to the site, named for W.S. Rivers, the landowner who donated the ground to the railroad company, and incorporated in 1908. That railroad-town origin, followed by a big wave of ranch-home construction along the Highway 85 corridor in the 1960s and 1970s, means the city's housing spans nearly a century of building styles within a few square miles.",
+    intro:
+      "What should a Riverdale homeowner actually expect from a pest program here? Mostly it comes down to which decade your house was built in. The oldest homes near the original 1886 rail corridor carry more moisture-related risk for carpenter ants. The ranch-style subdivisions built through the 1960s and 1970s along Highway 85 sit on open lawns that fire ants find easily. And every part of town shares the same subterranean termite exposure that comes with Clayton County's warm clay soil. Mosquitoes round it out, breeding in any low spot that holds water after Riverdale's frequent summer storms. Knowing which decade a home was built in is often the single most useful piece of information for scoping a Riverdale pest visit correctly, more useful even than knowing the exact street the property sits on.",
+    sections: [
+      {
+        heading: "Why does a house's age matter so much here?",
+        body: "Riverdale's housing stock spans roughly a century, from homes near the original 1886 railroad corridor to ranch subdivisions built decades later along Highway 85. Older wood-frame homes near downtown are more likely to have accumulated moisture damage over the years, exactly the kind of softened wood carpenter ants look for. Newer ranch homes have larger, more open lawns, which tends to mean more fire ant mound activity than a tightly built older block would see.",
+      },
+      {
+        heading: "How much does the Highway 85 corridor affect pest pressure?",
+        body: "Highway 85 runs through the commercial spine of Riverdale, and the drainage ditches and retention areas built to manage runoff along that corridor hold standing water after Georgia's frequent summer thunderstorms. That standing water is the main driver of mosquito complaints in the neighborhoods closest to the highway, more so than in the quieter side streets further from it.",
+      },
+      {
+        heading: "How should a Riverdale homeowner plan a pest program around all this?",
+        body: "Start with a free inspection that checks both the age of the home and its distance from Highway 85's drainage corridor, since those two factors point to different priorities. An older home near downtown gets a closer look at fascia boards and window sills for carpenter ant damage. A newer ranch home gets a fire ant mound check across the open lawn. Anything within a few blocks of Highway 85 gets a mosquito assessment on top of the standard termite check every Clayton County property needs each spring.",
+      },
+    ],
+    prevention: [
+      "Check older wood-frame homes near downtown for moisture damage around window sills and fascia boards, common carpenter ant entry points.",
+      "Treat visible fire ant mounds in open lawn areas promptly, before colonies spread toward foundations.",
+      "Clear standing water from ditches and low spots near the Highway 85 corridor within a few days of rain.",
+      "Schedule a termite inspection each spring regardless of your home's age, given the shared clay soil risk countywide.",
+      "Seal gaps around utility penetrations on older homes to reduce fall pest entry.",
+    ],
+    costNote:
+      "Termite inspections and treatment in Riverdale typically run $150 to $350 depending on home size and construction era. Mosquito treatment along the Highway 85 corridor is often priced as a seasonal service. Free inspection included.",
+    faqs: [
+      {
+        question: "Are older homes near downtown Riverdale more prone to carpenter ants?",
+        answer:
+          "Generally yes. The oldest housing sits near the original 1886 rail corridor and has had more decades to accumulate the kind of moisture damage around window sills, trim, and fascia boards that carpenter ants target. Newer ranch homes built in the 1960s and 1970s tend to see less of this specific issue.",
+      },
+      {
+        question: "Why do I see so many mosquitoes near Highway 85 in Riverdale?",
+        answer:
+          "The drainage systems built to handle runoff along that commercial corridor collect standing water after Georgia's frequent summer thunderstorms, and that water becomes a mosquito breeding site within days if it isn't cleared or treated.",
+      },
+      {
+        question: "How often should I have my Riverdale home checked for termites?",
+        answer:
+          "Once a year, ideally in spring when subterranean termite swarms are most active across Clayton County's warm clay soil. This holds regardless of whether your home is from the 1886 rail-era section of town or a later ranch subdivision, since the soil conditions driving termite pressure are countywide.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Morrow", slug: "morrow-ga", stateSlug: "georgia" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Riverdale, GA | Termites, Fire Ants & Mosquitoes",
+    metaDescription:
+      "Riverdale, GA pest control for subterranean termites, fire ants in ranch-home lawns, carpenter ants in older homes, and Highway 85 corridor mosquitoes. Free inspection.",
+  },
+  {
+    slug: "clarkston-ga",
+    name: "Clarkston",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~14,800",
+    county: "DeKalb County",
+    climate: "hot-humid",
+    climateDriver:
+      "Clarkston sits in DeKalb County in Metro Atlanta's humid subtropical belt, hot, humid summers and mild, wetter winters. The city's population nearly doubled between 2010 and 2020, driven by decades of refugee resettlement, more than 60,000 refugees have relocated to the city and surrounding area since 1980, and that rapid growth has filled older apartment complexes originally built for a much smaller population.",
+    topPests: ["German Cockroaches", "Subterranean Termites", "Mosquitoes", "Rodents"],
+    pestProfile: [
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Clarkston's older apartment complexes, now housing far more residents per unit than when they were built, see steady cockroach pressure typical of dense, heavily occupied multifamily housing.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Clarkston's older single-family homes sit on the same warm DeKalb County clay soil responsible for termite pressure across the wider Atlanta area.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "Metro Atlanta's frequent summer thunderstorms leave standing water in Clarkston's low-lying apartment courtyards and drainage areas, giving mosquitoes fresh breeding sites after nearly every rain.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Fall through winter",
+        note: "Dense multifamily housing with shared walls gives mice and rats several routes between units once cooler weather sets in each fall.",
+      },
+    ],
+    localHook:
+      "Clarkston is often called the most diverse square mile in America and the Ellis Island of the South, home to more than 150 ethnic groups speaking over 60 languages. More than 60,000 refugees have relocated to the city and surrounding area since 1980, and the population grew from 7,554 in 2010 to 14,756 by 2020, nearly doubling in a decade.",
+    intro:
+      "Why does a square mile of DeKalb County need such careful pest planning? Because Clarkston's population nearly doubled between 2010 and 2020, and much of that growth landed in apartment complexes that were built for a fraction of the people now living in them. That density drives steady German cockroach and rodent pressure in the city's multifamily housing, on top of the standard DeKalb County termite and mosquito calendar that applies to any Atlanta-area property. A pest plan here has to account for occupancy levels most Georgia suburbs never approach, and for a resident population speaking dozens of different languages, a combination that changes both the technical scope and the communication side of the job.",
+    sections: [
+      {
+        heading: "Why does Clarkston's rapid population growth matter for pest control?",
+        body: "Clarkston's population grew from 7,554 in 2010 to 14,756 by 2020, nearly doubling, and much of that growth filled existing apartment buildings rather than new construction. That means significantly more people, and more food waste, cooking activity, and general household traffic, moving through the same number of units built decades earlier for a smaller population. German cockroaches and rodents both thrive on that kind of increased density, which is why a building-wide coordinated treatment tends to work better here than addressing individual units one at a time.",
+      },
+      {
+        heading: "Does Clarkston's diversity affect how pest control should be communicated?",
+        body: "In a practical sense, yes. With more than 150 ethnic groups and over 60 languages spoken across the city, property managers and pest control providers serving Clarkston's apartment communities often need multilingual materials or interpreters to make sure every household understands preparation instructions before a treatment, since cockroach and rodent treatments typically require residents to clear cabinets or vacate units temporarily. A missed instruction in even a handful of units can undermine an otherwise well-run building-wide treatment, which is why clear, translated communication matters as much here as the treatment itself.",
+      },
+      {
+        heading: "What about Clarkston's older single-family homes?",
+        body: "Clarkston's single-family housing stock follows the same termite and mosquito pattern found throughout DeKalb County, tied to warm clay soil and Georgia's frequent summer thunderstorms rather than to the city's refugee resettlement history. An annual termite inspection and a standard mosquito and yard treatment plan cover most of what a Clarkston single-family homeowner needs, separate from the apartment-focused concerns driving much of the city's commercial pest service.",
+      },
+    ],
+    prevention: [
+      "Coordinate cockroach and rodent treatment building-wide in Clarkston's densely occupied apartment complexes rather than unit by unit.",
+      "Use multilingual preparation instructions when scheduling treatments in Clarkston's diverse apartment communities.",
+      "Schedule an annual termite inspection for older single-family homes on DeKalb County's standard spring swarm schedule.",
+      "Clear standing water from apartment courtyards and drainage areas through the summer storm season.",
+      "Seal shared-wall gaps and utility penetrations in multifamily buildings before fall to reduce rodent movement between units.",
+    ],
+    costNote:
+      "Commercial cockroach and rodent service for Clarkston's apartment complexes is typically quoted as a recurring building-wide program based on unit count. Residential termite inspections for single-family homes usually run $150 to $325. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Clarkston need more intensive cockroach control than a typical DeKalb County suburb?",
+        answer:
+          "Clarkston's population nearly doubled between 2010 and 2020, and much of that growth moved into existing apartment buildings rather than new construction. The resulting increase in household density, cooking activity, and food waste per unit gives German cockroaches more consistent food sources than the buildings saw when they were originally built for fewer residents.",
+      },
+      {
+        question: "Does Clarkston's refugee resettlement history affect pest control service delivery?",
+        answer:
+          "Practically, yes. With more than 150 ethnic groups and over 60 languages spoken citywide, apartment communities in Clarkston often benefit from multilingual preparation instructions or interpreters when scheduling cockroach or rodent treatments, since residents need to understand what to clear or vacate ahead of a visit.",
+      },
+      {
+        question: "Are Clarkston's single-family homes at the same termite risk as the rest of DeKalb County?",
+        answer:
+          "Yes. Termite pressure in Clarkston's older single-family neighborhoods follows the same warm clay soil pattern found throughout DeKalb County, unrelated to the city's population density or refugee resettlement history. An annual spring inspection is the standard recommendation.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Decatur", slug: "decatur-ga", stateSlug: "georgia" },
+    ],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Clarkston, GA | Dense Apartment Communities",
+    metaDescription:
+      "Clarkston, GA pest control for cockroaches and rodents in dense apartment communities, termites in older single-family homes, and summer mosquitoes. Free inspection.",
+  },
+  {
+    slug: "hapeville-ga",
+    name: "Hapeville",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~6,800",
+    county: "Fulton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Hapeville sits directly against Hartsfield-Jackson Atlanta International Airport's edge in Fulton County, sharing Metro Atlanta's humid subtropical pattern of hot, sticky summers and mild, damp winters. The city's small early-1900s bungalow core is now surrounded by new mixed-use redevelopment on the former Ford Atlanta Assembly Plant site, a shift that is changing the town's pest exposure in real time.",
+    topPests: ["Subterranean Termites", "German Cockroaches", "Mosquitoes", "Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarms, active through fall",
+        note: "Hapeville's early-1900s bungalow neighborhoods sit on the same warm Fulton County soil that drives termite pressure across the wider Atlanta area.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "The dense small-lot housing mixed with commercial space near the airport keeps cockroach pressure fairly constant across the year rather than tapering off in cooler months.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "Construction activity on the former Ford plant site, now being redeveloped as Aerotropolis Atlanta, has created temporary standing water at various points that adds to the usual summer mosquito pressure.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Both the older bungalow homes and the active redevelopment construction site give mice more places to shelter as temperatures drop each fall.",
+      },
+    ],
+    localHook:
+      "Hapeville was chartered in 1891 and later became home to Ford Motor Company's Atlanta Assembly Plant from 1947 to 2006, which built the Ford Taurus among other models before it closed. That former plant site, sitting right against the airport, is now being redeveloped as Aerotropolis Atlanta, a mixed-use project that is reshaping a huge share of the small city's land in real time.",
+    intro:
+      "How do you plan pest control for a town in the middle of redeveloping its biggest piece of land? That's the real question in Hapeville right now. The former Ford Atlanta Assembly Plant, which built cars here for nearly 60 years, is being turned into Aerotropolis Atlanta, and that construction activity sits right alongside the small city's original early-1900s bungalow core. Termites are a given in the older homes, tied to the same warm soil that affects the rest of Fulton County. Cockroaches hold on year-round in the mix of small commercial buildings and dense housing near the airport. And the active construction site brings its own temporary mosquito and rodent pressure that a fully built-out neighborhood wouldn't have. A pest plan here needs to flex with the redevelopment timeline rather than assuming Hapeville's land use will stay fixed year to year.",
+    sections: [
+      {
+        heading: "Does the Aerotropolis construction affect pest pressure nearby?",
+        body: "It can, at least temporarily. Large redevelopment sites like the former Ford plant often create standing water in graded areas or open trenches before drainage infrastructure is finished, and that gives mosquitoes a breeding site they wouldn't otherwise have. Construction also disturbs existing rodent burrows and shelter, which can push mice toward the nearest established housing, meaning bungalow neighborhoods closest to the active construction boundary sometimes see a temporary uptick in activity.",
+      },
+      {
+        heading: "Why does Hapeville's small size still mean real termite risk?",
+        body: "Being a small city doesn't reduce termite exposure. Hapeville's original bungalow core dates to the early 1900s, and those homes sit on the same warm, moisture-retaining Fulton County soil responsible for termite pressure across the entire Atlanta area. Age and construction type matter more than town size here, and an early-1900s bungalow needs the same annual inspection routine as an older home anywhere else in the region.",
+      },
+      {
+        heading: "What should a Hapeville property owner ask for in a pest plan?",
+        body: "Start by flagging how close the property sits to the Aerotropolis construction boundary, since that distance changes the priority list. Closer properties benefit from a mosquito and rodent check tied to the active construction phase. Properties further into the original bungalow core still need the standard annual termite inspection given their early-1900s age, and any small commercial space near the airport corridor benefits from a recurring cockroach service regardless of its distance from the redevelopment site.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for bungalow-era homes, regardless of the town's small size.",
+      "If your property borders the Aerotropolis construction site, ask about a temporary mosquito treatment during active grading and trenching phases.",
+      "Seal foundation gaps and door thresholds before fall to reduce mouse entry, especially near the construction boundary.",
+      "For small commercial buildings near the airport, keep a recurring cockroach service in place year-round.",
+      "Clear any temporary standing water on or near construction-adjacent property promptly.",
+    ],
+    costNote:
+      "Termite inspection and treatment for Hapeville's bungalow-era homes typically runs $150 to $300. Properties bordering active construction may need a short-term mosquito or rodent service priced separately from a standard annual plan. Free inspection included.",
+    faqs: [
+      {
+        question: "Will the Aerotropolis Atlanta construction bring more pests to my Hapeville home?",
+        answer:
+          "It's possible, especially if your property borders the former Ford plant site directly. Large construction projects can create temporary standing water before drainage is finished, and ground disturbance can push existing rodent populations toward the nearest established housing. This tends to ease once a given phase of construction wraps up and permanent drainage and landscaping are in place.",
+      },
+      {
+        question: "Are Hapeville's older bungalows more prone to termites than newer Atlanta-area homes?",
+        answer:
+          "Age matters here. Hapeville's original housing dates to the early 1900s, giving termites far longer to find crawlspace entry points than a home built in the last few decades. The soil conditions driving termite pressure are shared across Fulton County, but the older construction adds real additional risk.",
+      },
+      {
+        question: "Why is cockroach control different for Hapeville's small commercial buildings than a house?",
+        answer:
+          "The airport-adjacent commercial buildings in Hapeville tend to be smaller and older than a typical suburban strip mall, with shared walls and less modern sealing, which lets German cockroach activity persist year-round instead of dropping off in cooler months. A scheduled recurring service usually works better than a single treatment for that reason.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Hapeville, GA | Former Ford Plant & Aerotropolis Area",
+    metaDescription:
+      "Hapeville, GA pest control for termites in early-1900s bungalows, construction-adjacent mosquitoes near Aerotropolis Atlanta, cockroaches, and fall mice. Free inspection.",
+  },
+  {
+    slug: "stone-mountain-ga",
+    name: "Stone Mountain",
+    state: "Georgia",
+    stateSlug: "georgia",
+    stateAbbr: "GA",
+    tier: "T3",
+    population: "~6,550",
+    county: "DeKalb County",
+    climate: "hot-humid",
+    climateDriver:
+      "Stone Mountain sits in eastern DeKalb County in Metro Atlanta's humid subtropical belt, hot, humid summers and mild winters. The small, compact city of under two square miles sits immediately adjacent to Stone Mountain Park and its granite monolith, and the surrounding forested park land gives the city's older village-era homes more direct contact with woodland pests than a typical inside-the-perimeter DeKalb suburb sees.",
+    topPests: ["Carpenter Ants", "Subterranean Termites", "Mosquitoes", "Ticks"],
+    pestProfile: [
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Stone Mountain Village's older homes sit close against the forested park boundary, giving carpenter ants a short path from woodland habitat to any moisture-damaged wood in town.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Stone Mountain's historic village-era homes, some dating well over a century, sit on the same warm DeKalb County clay soil responsible for termite pressure across the wider Atlanta area.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "Georgia's frequent summer thunderstorms leave standing water in low-lying spots near the park boundary and village streets, giving mosquitoes fresh breeding sites after nearly every rain.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Stone Mountain Park's forested trails and grounds sit directly against the city, and residents and visitors moving between the two should expect real tick exposure during warmer months.",
+      },
+    ],
+    localHook:
+      "Stone Mountain's history traces back to before European settlement, with burial mounds built by ancestors of the historical Muskogee Creek nation. The area became part of DeKalb County in 1822, and by the 1820s the village, then called Rock Mountain, was a major stagecoach travel center on the line linking it to Georgia's capital at Milledgeville. During the Civil War, the village was destroyed in 1864 by forces under General James B. McPherson during the Battle of Atlanta.",
+    intro:
+      "How does sitting right against a forested state park change pest pressure in a small city like Stone Mountain? Quite a bit, mainly for carpenter ants and ticks. Stone Mountain's compact village core, under two square miles, presses directly against Stone Mountain Park's wooded boundary, giving both pests a shorter path from forest habitat into town than a DeKalb County suburb set further from protected land would see. The city's historic homes, some dating to the 1800s stagecoach era, carry the same termite exposure found throughout DeKalb County, while summer thunderstorms keep mosquito pressure standard for the region. A property's distance from the park boundary is often the single most useful detail for scoping a pest visit here correctly, more useful even than the property's exact age within the village's long history, though both matter for a full assessment. Anyone comparing Stone Mountain to a larger inside-the-perimeter DeKalb suburb should expect this park-edge effect to be the defining difference between the two, more so than population size or housing age alone.",
+    sections: [
+      {
+        heading: "Why does bordering Stone Mountain Park matter for pest pressure?",
+        body: "Stone Mountain's small footprint, under two square miles, means most of the city sits within a short distance of the park's forested boundary, closer than a typical DeKalb County suburb would be to protected woodland. That proximity gives carpenter ants a shorter path from forest habitat to any moisture-damaged wood in town, and it means ticks moving off park trails and brush edges have less distance to cover before reaching residential yards. A property right at the park boundary should expect meaningfully more of both than one on the city's opposite edge, a distinction worth raising with a technician scoping the property for the first time.",
+      },
+      {
+        heading: "How old is Stone Mountain's historic core, and does that affect termite risk?",
+        body: "Stone Mountain Village's roots as an 1820s stagecoach stop, rebuilt after being destroyed in the 1864 Battle of Atlanta, mean some of its homes carry over a century of accumulated wood-to-soil contact points, the exact conditions subterranean termites exploit. That age adds to the standard DeKalb County termite risk from warm clay soil, making an annual inspection a reasonable baseline for any village-era Stone Mountain home, particularly for a property that has never had a documented treatment history.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after any time spent on Stone Mountain Park's trails or near the wooded boundary, especially in warmer months.",
+      "Trim trees and shrubs near rooflines on homes closest to the park boundary to limit carpenter ant access to moisture-damaged wood.",
+      "Schedule an annual termite inspection for village-era homes given their age and DeKalb County's warm clay soil.",
+      "Clear standing water from low-lying yard areas through the summer storm season to reduce mosquito breeding.",
+      "Seal foundation gaps on older homes near the park boundary to reduce combined pest entry.",
+    ],
+    costNote:
+      "Termite inspections for Stone Mountain's village-era homes typically run $150 to $325. Tick and yard treatment for properties near the park boundary is often priced as part of a standard seasonal plan. Free inspection included.",
+    faqs: [
+      {
+        question: "Does living near Stone Mountain Park increase pest risk?",
+        answer:
+          "Mainly for carpenter ants and ticks. Stone Mountain's compact, under-two-square-mile footprint means most of the city sits close to the park's forested boundary, giving both pests a shorter path from woodland habitat into residential yards than a DeKalb County suburb set further from protected forest land would see.",
+      },
+      {
+        question: "How old are the homes in Stone Mountain Village?",
+        answer:
+          "Many trace back to the city's 1820s origins as a stagecoach stop called Rock Mountain, though the village was largely rebuilt after being destroyed during the 1864 Battle of Atlanta. That combined age gives termites well over a century of opportunity to find wood-to-soil contact points in the oldest homes.",
+      },
+      {
+        question: "Is Stone Mountain's mosquito season different from the rest of DeKalb County?",
+        answer:
+          "Not meaningfully. Stone Mountain follows the same spring-through-fall mosquito pattern common across Metro Atlanta, driven by the region's frequent summer thunderstorms and any standing water that collects near low-lying park and village drainage areas.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [],
+    contentTemplate: "D",
+    contentSoul: "qa",
+    metaTitle: "Pest Control in Stone Mountain, GA | Park-Adjacent Village",
+    metaDescription:
+      "Stone Mountain, GA pest control for park-boundary carpenter ants and ticks, termites in the historic village core, and summer mosquitoes. Free inspection.",
+  },
 ];
