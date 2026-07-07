@@ -5859,4 +5859,458 @@ export const indianaCities: CityLocation[] = [
     metaDescription:
       "Auburn, IN pest control for harvest-driven mice, termites, cluster flies, and carpenter ants. DeKalb County St. Joseph River watershed service. Free inspection.",
   },
+  {
+    slug: "peru-in",
+    name: "Peru",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~11,073",
+    county: "Miami County",
+    climate: "cold-humid",
+    climateDriver:
+      "Peru is the Miami County seat on the Wabash River in north central Indiana, cold winters and warm, humid summers typical of the state. From 1892 to 1938 the city served as winter headquarters for Ben Wallace's circus and later the American Circus Corporation, and that decades-long circus economy built up a lasting stock of homes and outbuildings, much of it now well over a century old, near Circus Lane and the surrounding neighborhoods.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Carpenter Ants", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Homes built during Peru's circus-era boom between 1892 and 1938 are now well over a century old, and aging wood framing near Circus Lane and downtown gives termites more entry points than newer construction.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "The Wabash River runs directly through Peru just south of downtown, and low ground near the water holds rainwater long enough to give mosquitoes a dependable breeding season.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, worse near moisture",
+        note: "The old wood-frame buildings that supported Peru's circus economy carry the same moisture and aging-wood conditions carpenter ants look for when scouting a new nest site.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Peru's historic downtown commercial strip sees steady cockroach pressure tied to food service and shared walls between older storefronts, worse during Indiana's humid summer stretch.",
+      },
+    ],
+    localHook:
+      "Peru earned the nickname Circus City after serving as winter headquarters for Ben Wallace's circus and later the American Circus Corporation from 1892 to 1938. The grounds off Circus Lane hold National Historic Landmark status today as home to the International Circus Hall of Fame, and the Wabash River flows through town just south of downtown, part of the Kokomo-Peru area of Miami County.",
+    intro:
+      "Peru earned the nickname Circus City for good reason. From 1892 to 1938, the city served as the winter headquarters for what grew into the second largest circus in the country, and today the grounds off Circus Lane hold National Historic Landmark status as home to the International Circus Hall of Fame. That decades-long circus economy built up a lasting stock of homes and outbuildings in Miami County's seat, many now more than a century old and carrying the termite and carpenter ant exposure that comes with that age. The Wabash River runs directly through town, flowing east to west just south of downtown, and low areas near the water collect standing rainwater that gives mosquitoes a dependable breeding ground through the warm months. Add a historic downtown commercial strip that still serves food and retail traffic, and Peru's pest pressure spans an old residential core, a working river, and a compact business district, three different problems in one Miami County town.",
+    sections: [
+      {
+        heading: "How did Peru's circus era shape its housing stock?",
+        body: "Peru's run as winter quarters for Ben Wallace's circus, and later the American Circus Corporation, from 1892 through 1938 built up housing and support buildings around Circus Lane and the surrounding neighborhoods to house performers, trainers, and staff through the off season. Many of those homes and the wood-frame structures near downtown date to that stretch, now well past a century old. That age brings the wood damage, foundation gaps, and roofline access points that subterranean termites and carpenter ants both use to get inside, especially in homes that have not had a termite inspection in several years.",
+      },
+      {
+        heading: "Why does the Wabash River add to Peru's mosquito season?",
+        body: "The Wabash River cuts through Peru just south of downtown, and the low-lying ground close to the water holds rain and floodwater longer than higher ground elsewhere in Miami County. That standing water gives mosquitoes a reliable place to breed from late spring through the humid stretch of an Indiana summer. Properties near the riverbank or in any low spot in town typically see a longer, more active mosquito season than a home on higher ground a few blocks away.",
+      },
+      {
+        heading: "Does downtown Peru need different pest control than the surrounding neighborhoods?",
+        body: "Yes, mainly for cockroaches. Downtown Peru's commercial buildings, many built during the same circus-era boom as the surrounding residential streets, see steady cockroach pressure tied to food service, deliveries, and shared walls between storefronts. That pressure holds up year round and gets worse in the humid summer months typical of this part of Indiana. A recurring scheduled service tends to work better for these buildings than the seasonal treatment plan that fits a single-family home nearby, since a restaurant or commercial kitchen needs the gaps between visits kept short enough that a new infestation cannot establish itself.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given the age of Peru's circus-era housing stock.",
+      "Clear standing water near the Wabash River and any low-lying yard areas to cut down on mosquito breeding.",
+      "Keep a recurring cockroach service in place for downtown restaurants and retail buildings.",
+      "Seal foundation gaps and roofline access points that carpenter ants use to reach old wood framing.",
+      "Address any moisture damage around older wood-frame homes near Circus Lane promptly.",
+    ],
+    costNote:
+      "Termite inspections in Peru typically run $150 to $300 given the age of the circus-era housing stock near downtown. Mosquito treatment for river-adjacent properties is often priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Peru have so many older homes near downtown?",
+        answer: "Peru served as winter headquarters for a major circus operation from 1892 to 1938, and the housing and support buildings built up around Circus Lane and downtown during that era are now well over a century old, carrying termite and carpenter ant exposure typical of that age.",
+      },
+      {
+        question: "Is mosquito pressure worse near the Wabash River in Peru?",
+        answer: "Yes. The river runs directly through Peru just south of downtown, and low ground near the water holds rain and floodwater longer than higher parts of Miami County, giving mosquitoes a longer, more reliable breeding season near the riverbank.",
+      },
+      {
+        question: "Should Peru's downtown businesses use a different pest plan than nearby homes?",
+        answer: "Yes, mainly for cockroaches. Downtown Peru's older commercial buildings see steady, year-round cockroach pressure tied to food service and shared walls, and a recurring scheduled service typically controls that better than the seasonal approach that fits a single-family home.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Wabash", slug: "wabash-in", stateSlug: "indiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Peru, IN | Miami County Circus City Indiana",
+    metaDescription:
+      "Peru, IN pest control for termites in circus-era homes, Wabash River mosquitoes, carpenter ants, and downtown cockroaches. Free inspection.",
+  },
+  {
+    slug: "wabash-in",
+    name: "Wabash",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~10,440",
+    county: "Wabash County",
+    climate: "cold-humid",
+    climateDriver:
+      "Wabash is the Wabash County seat on the Wabash River in northeast Indiana, cold winters and warm, humid summers typical of the state. On March 31, 1880, four arc lamps mounted atop the county courthouse lit the town square, an event marked by a state historical marker and the city's claim as the first electrically lighted city in the world, and much of the brick and wood-frame construction that ringed that square at the time is still standing today.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Mice", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "The brick and wood-frame buildings around Wabash's courthouse square date to the era surrounding the 1880 lighting demonstration, and settled foundations and aging mortar joints give termites more entry points than newer construction.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Wabash sits directly on the river that shares its name, and low ground near the water collects standing rainwater through the humid months of an Indiana summer.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Mice seek out the small foundation cracks and worn thresholds common in Wabash's older downtown buildings as fall temperatures drop.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Aging mortar joints and moisture-damaged wood in Wabash's older brick buildings give carpenter ants an easier path in than a newer building would offer.",
+      },
+    ],
+    localHook:
+      "Wabash claims a place in electrical history: on March 31, 1880, four 3,000-candle-power arc lamps were suspended from the courthouse and lit the town square, an event witnessed by more than 10,000 people and marked today by a state historical marker crediting Wabash as the first electrically lighted city in the world. The city sits directly on the Wabash River and is the county seat of Wabash County.",
+    intro:
+      "Wabash became a permanent line in electrical history on March 31, 1880, when four arc lamps mounted atop the county courthouse lit up the town square, an event still marked by a state historical marker and the city's claim as the first electrically lighted city in the world. The brick storefronts and homes that ringed that courthouse square in 1880 are still standing today, giving downtown Wabash a concentration of masonry buildings well past 140 years old. That age matters for pest pressure: old mortar joints, settled foundations, and aging rooflines all give subterranean termites, carpenter ants, and mice more points of entry than a newer building offers. The Wabash River runs through town as well, and low ground near the water holds rainwater long enough each summer to keep mosquitoes active through the humid stretch of an Indiana July and August.",
+    sections: [
+      {
+        heading: "What does Wabash's 1880s courthouse-square building stock mean for termite risk?",
+        body: "The brick and wood-frame buildings that went up around Wabash's courthouse square in the years surrounding the 1880 lighting demonstration are now well over a century old, and many have settled foundations and aging mortar joints that give subterranean termites an easier path inside than newer construction would. Property owners downtown and in the older residential streets nearby benefit from a termite inspection on a regular schedule rather than waiting for visible damage, since termite activity often goes unnoticed behind plaster and brick veneer until the damage is well underway.",
+      },
+      {
+        heading: "How does the Wabash River affect mosquito activity in town?",
+        body: "Wabash sits directly on the river that shares its name, and low-lying ground near the water collects standing rainwater more readily than higher parts of Wabash County. That standing water gives mosquitoes a steady place to lay eggs from late spring through the humid months of an Indiana summer. Homes and businesses closest to the river typically deal with a longer mosquito season than properties on higher ground a short distance away.",
+      },
+      {
+        heading: "Do Wabash's older homes see more rodent activity in the fall?",
+        body: "Yes. As temperatures drop each fall, mice look for a way into a warm, dry space, and the aging foundations and utility penetrations common in Wabash's older homes near downtown offer more of those gaps than newer construction. A home built in the decades around the 1880 lighting era has had well over a century to develop small cracks and worn thresholds, and sealing those gaps before the first cold snap is one of the most effective ways to keep mice from getting a foothold indoors.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any home or building near the historic courthouse square.",
+      "Clear standing water near the Wabash River through the summer to reduce mosquito breeding.",
+      "Seal foundation gaps and utility penetrations before fall to reduce mouse entry.",
+      "Repair aging mortar joints on older brick buildings to reduce carpenter ant access points.",
+      "Keep gutters and downspouts clear so moisture does not collect against older foundations.",
+    ],
+    costNote:
+      "Termite inspections in Wabash typically run $150 to $300 given the age of the buildings around the historic courthouse square. Recurring service for older homes with mouse pressure is often billed on a quarterly schedule. Free inspection included.",
+    faqs: [
+      {
+        question: "Why are Wabash's downtown buildings more prone to termites?",
+        answer: "Many of the brick and wood-frame buildings around Wabash's courthouse square date to the era surrounding the 1880 lighting demonstration, and settled foundations and aging mortar joints from that age give subterranean termites more entry points than newer construction offers.",
+      },
+      {
+        question: "Does the Wabash River make mosquito season longer in Wabash?",
+        answer: "Yes. Wabash sits directly on the river, and low-lying ground near the water holds standing rainwater longer than higher parts of Wabash County, giving mosquitoes a more consistent breeding season near the riverbank.",
+      },
+      {
+        question: "When should Wabash homeowners seal up against mice?",
+        answer: "Before the first cold snap of fall. Older homes near downtown Wabash, some dating to the decades around the 1880 lighting era, have foundation cracks and worn thresholds that mice exploit once the weather turns, so sealing gaps ahead of time helps keep them out.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Peru", slug: "peru-in", stateSlug: "indiana" },
+      { name: "Marion", slug: "marion", stateSlug: "indiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Wabash, IN | Wabash County Northeast Indiana",
+    metaDescription:
+      "Wabash, IN pest control for termites in historic courthouse-square buildings, Wabash River mosquitoes, and fall mice. Free inspection.",
+  },
+  {
+    slug: "frankfort-in",
+    name: "Frankfort",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~16,715",
+    county: "Clinton County",
+    climate: "cold-humid",
+    climateDriver:
+      "Frankfort is the Clinton County seat in central Indiana, cold winters and warm, humid summers typical of the state. Brothers John, William, and Nicholas Pence settled the site in 1829 and donated 60 acres to the county a year later, securing Frankfort as county seat, and the corn and soybean fields that surround the city today are among the highest-yielding in the state.",
+    topPests: ["Mice", "Stink Bugs", "Subterranean Termites", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Field mice living in the corn and soybean fields around Frankfort move toward the nearest warm building once the harvest clears each fall.",
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall, seeking shelter after harvest",
+        note: "Once Clinton County's corn and soybean fields are harvested, stink bugs lose their outdoor food source and move toward homes on the edge of Frankfort looking for a place to spend the winter.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Some of Frankfort's oldest wood-frame homes date back toward the 1829 to 1830 founding period, and that age brings the moisture damage and foundation gaps termites use to get inside.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Older wood-frame construction near Frankfort's historic core gives carpenter ants the same moisture and aging-wood conditions they favor when scouting a nest site.",
+      },
+    ],
+    localHook:
+      "Three brothers, John, William, and Nicholas Pence, settled the land that would become Frankfort in 1829, then donated 60 acres of it to Clinton County's newly formed government in 1830, a gift that secured Frankfort as county seat over a rival community named Jefferson. Clinton County remains one of Indiana's top corn and soybean producing counties, and Frankfort once hosted a major Nickel Plate Road rail yard and shops where the line crossed the Pennsylvania Railroad.",
+    intro:
+      "Three brothers, John, William, and Nicholas Pence, settled the land that would become Frankfort in 1829, and a year later donated 60 acres of it to Clinton County's newly formed government, a gift that secured Frankfort as county seat over a rival community named Jefferson. That 1830 founding sits inside a county built on row-crop agriculture, with corn and soybean fields surrounding the city on every side. Those fields shape pest pressure directly: stink bugs move from harvested crops toward the nearest warm building each fall, and field mice follow that same seasonal push indoors as temperatures drop. Frankfort's oldest housing stock, some of it dating back toward the founding era itself, adds a second layer of risk from subterranean termites and carpenter ants working through aging wood-frame construction.",
+    sections: [
+      {
+        heading: "Why do stink bugs show up in Frankfort every fall?",
+        body: "Clinton County's row-crop fields, mostly corn and soybeans, surround Frankfort on every side, and once the harvest clears those fields in fall, stink bugs lose their outdoor food source and look for a warm building to spend the winter in instead. Homes on the edge of town closest to open farmland tend to see the heaviest fall pressure, though stink bugs can travel well into the interior residential streets once the weather turns cold. Sealing gaps around windows and siding before the first frost cuts down on how many get inside.",
+      },
+      {
+        heading: "Does Frankfort's founding-era housing carry more termite risk?",
+        body: "Frankfort was settled in 1829 and formally became Clinton County's seat in 1830, and some of the wood-frame homes near the older parts of town date back toward that founding period or the decades soon after. Wood this old has had well over a century to develop the small cracks, moisture damage, and foundation gaps that subterranean termites use to get inside, and an annual inspection catches damage long before it becomes visible from a walk through the house.",
+      },
+      {
+        heading: "How does Frankfort's farmland affect mouse activity in and around homes?",
+        body: "Field mice living in the corn and soybean fields around Frankfort lose cover once the crops are harvested each fall, and a nearby house or outbuilding becomes an easy next stop, especially one with an unsealed foundation gap or a gap around a utility line. Homes closest to the edge of farmland see this pressure first, but mice can travel a surprising distance once the weather turns, so sealing entry points is worth doing on any property in town, not just the ones bordering open fields.",
+      },
+    ],
+    prevention: [
+      "Seal gaps around windows, siding, and utility lines before harvest to reduce fall stink bug entry.",
+      "Schedule a termite inspection given the age of Frankfort's founding-era housing stock.",
+      "Seal foundation gaps before cold weather to reduce mouse entry from surrounding farmland.",
+      "Trim vegetation and woodpiles away from the foundation to reduce carpenter ant access.",
+      "Address moisture issues around older wood-frame construction promptly.",
+    ],
+    costNote:
+      "Termite inspections in Frankfort typically run $150 to $300, and seasonal stink bug and mouse prevention around farmland-adjacent homes is often priced as an add-on to a standard treatment plan. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Frankfort see so many stink bugs every fall?",
+        answer: "Frankfort sits inside Clinton County's corn and soybean fields, and once those fields are harvested each fall, stink bugs lose their outdoor food source and move toward the nearest warm building, with homes on the edge of town seeing the heaviest pressure first.",
+      },
+      {
+        question: "Is Frankfort's older housing at higher termite risk?",
+        answer: "Yes. Frankfort was settled in 1829 and became Clinton County's seat in 1830, and some of the wood-frame homes near the older parts of town date back toward that period, carrying the foundation and moisture issues that give subterranean termites an easier way inside.",
+      },
+      {
+        question: "Do only farm-edge homes in Frankfort get field mice?",
+        answer: "No. Homes closest to the edge of Clinton County farmland see fall mouse pressure first, but mice can travel well into Frankfort's interior residential streets once the weather turns cold, so sealing entry points is worthwhile on any property in town.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Crawfordsville", slug: "crawfordsville-in", stateSlug: "indiana" },
+      { name: "Indianapolis", slug: "indianapolis", stateSlug: "indiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Frankfort, IN | Clinton County Central Indiana",
+    metaDescription:
+      "Frankfort, IN pest control for fall stink bugs and mice from surrounding farmland, plus termites in founding-era homes. Free inspection.",
+  },
+  {
+    slug: "crawfordsville-in",
+    name: "Crawfordsville",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~16,306",
+    county: "Montgomery County",
+    climate: "cold-humid",
+    climateDriver:
+      "Crawfordsville is the Montgomery County seat in west central Indiana, cold winters and warm, humid summers typical of the state. Wabash College has anchored the city since 1832, and a few blocks from campus stands the General Lew Wallace Study, the private library General Lew Wallace built between 1895 and 1898 while living in Crawfordsville, now a National Historic Landmark, giving the city a concentration of nineteenth and early twentieth century construction unusual for a Montgomery County town this size.",
+    topPests: ["Subterranean Termites", "Carpenter Ants", "Mice", "Stink Bugs"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "The streets around Wabash College, founded in 1832, hold some of Crawfordsville's oldest wood-frame and brick housing, built before treated lumber or modern moisture barriers were standard.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Moisture-damaged wood in the older homes near campus and downtown gives carpenter ants the conditions they favor when scouting a new nest site.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Mice living in the corn and soybean fields around Crawfordsville move toward the nearest warm building once the harvest clears and cold weather sets in.",
+      },
+      {
+        name: "Stink Bugs",
+        serviceSlug: "stink-bug-control",
+        activeSeason: "Fall, seeking shelter after harvest",
+        note: "Montgomery County's row-crop fields push stink bugs toward homes on the edge of Crawfordsville once the outdoor food source disappears after harvest.",
+      },
+    ],
+    localHook:
+      "Wabash College, founded in 1832, has anchored Crawfordsville for nearly two centuries. General Lew Wallace lived in the city and wrote his novel Ben-Hur there, and the private study he built between 1895 and 1898 as a personal library and retreat, a few blocks from his home, is a National Historic Landmark declared in 1976. Montgomery County's corn and soybean farmland surrounds the city on every side.",
+    intro:
+      "Wabash College has anchored Crawfordsville since 1832, and the campus and the surrounding streets carry a concentration of nineteenth and early twentieth century homes that is unusual for a Montgomery County town this size. A few blocks from campus stands the General Lew Wallace Study, the private library General Lew Wallace built between 1895 and 1898 while living in Crawfordsville, now a National Historic Landmark. That density of aging wood-frame and brick construction, much of it built well before modern moisture barriers or treated lumber existed, gives subterranean termites and carpenter ants more entry points than a newer subdivision would offer. Outside the historic core, Montgomery County's corn and soybean fields ring the city, pushing stink bugs and field mice toward the nearest warm building once harvest clears each fall. Crawfordsville's pest picture is really two towns in one: an old academic core and a working farm county around it.",
+    sections: [
+      {
+        heading: "Why do Crawfordsville's old college-area homes see more termite and carpenter ant activity?",
+        body: "The streets around Wabash College, founded in 1832, hold some of Crawfordsville's oldest wood-frame and brick housing, much of it built before treated lumber or modern foundation moisture barriers were standard practice. That construction gives subterranean termites and carpenter ants an easier path inside than a newer home would offer, and buildings with historic value, like the General Lew Wallace Study built between 1895 and 1898, need pest control handled carefully to avoid damaging original wood and masonry during treatment.",
+      },
+      {
+        heading: "Does Crawfordsville's farmland push more stink bugs and mice into town each fall?",
+        body: "Montgomery County's corn and soybean fields surround Crawfordsville, and once those fields are harvested each fall, stink bugs lose their food source and field mice lose their cover, both moving toward the nearest warm building as an alternative. Homes on the edge of town closest to open farmland typically see this shift first, but both pests travel well into the residential streets near campus once the weather turns, so sealing entry points before the first cold snap benefits homes across Crawfordsville, not just the ones bordering fields.",
+      },
+      {
+        heading: "Does a historic building need a different pest control approach than a typical home?",
+        body: "Yes. A building like the General Lew Wallace Study, a National Historic Landmark built between 1895 and 1898, calls for a pest control approach that protects original wood, plaster, and masonry rather than a standard drill-and-treat termite job. Licensed applicators working on historic structures in Crawfordsville typically use targeted, less invasive treatment methods and more frequent inspection instead of the broader approach that works fine on a modern home, reducing risk to both the pest problem and the building itself.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for older homes near Wabash College and the historic downtown.",
+      "Use a licensed applicator experienced with historic buildings for any structure like the General Lew Wallace Study.",
+      "Seal gaps before harvest season to reduce stink bugs and field mice moving in from surrounding farmland.",
+      "Address moisture damage around older wood-frame homes promptly to reduce carpenter ant risk.",
+      "Keep a termite inspection schedule even without visible damage, since older wood can hide activity.",
+    ],
+    costNote:
+      "Termite inspections in Crawfordsville typically run $150 to $300, with historic buildings near Wabash College sometimes requiring a more careful, and slightly higher priced, treatment approach. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does the area around Wabash College have more termite risk?",
+        answer: "Wabash College has anchored Crawfordsville since 1832, and the streets around campus hold some of the city's oldest wood-frame and brick housing, built before treated lumber or modern moisture barriers, which gives subterranean termites more entry points than newer construction.",
+      },
+      {
+        question: "Does Crawfordsville's farmland bring stink bugs into town?",
+        answer: "Yes. Montgomery County's corn and soybean fields surround Crawfordsville, and once harvest clears each fall, stink bugs move toward the nearest warm building, with homes on the edge of town seeing the pressure first.",
+      },
+      {
+        question: "Can a historic building like the Lew Wallace Study be treated for pests safely?",
+        answer: "Yes, with the right approach. The General Lew Wallace Study, a National Historic Landmark built between 1895 and 1898, needs targeted, less invasive treatment methods that protect the original wood and masonry rather than a standard termite job.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis", stateSlug: "indiana" },
+      { name: "Frankfort", slug: "frankfort-in", stateSlug: "indiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Crawfordsville, IN | Montgomery County Indiana",
+    metaDescription:
+      "Crawfordsville, IN pest control for termites near Wabash College, fall stink bugs and mice, and careful historic building treatment. Free inspection.",
+  },
+  {
+    slug: "plymouth-in",
+    name: "Plymouth",
+    state: "Indiana",
+    stateSlug: "indiana",
+    stateAbbr: "IN",
+    tier: "T3",
+    population: "~10,214",
+    county: "Marshall County",
+    climate: "cold-humid",
+    climateDriver:
+      "Plymouth is the Marshall County seat in northern Indiana, cold winters and warm, humid summers typical of the state. The city sits on the Yellow River, a 62-mile tributary of the Kankakee River that historically fed a much larger wetland system before large-scale drainage in the late 1800s and early 1900s, and low ground near the river still holds moisture longer than drier parts of the county.",
+    topPests: ["Mosquitoes", "Ticks", "Subterranean Termites", "Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Low ground near the Yellow River, part of a historically much larger wetland system tied to the Kankakee River, holds standing water through the warm months and gives mosquitoes reliable breeding habitat.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Brushy, wooded edges near the Yellow River and any remaining marsh ground in Marshall County give ticks the moist cover they need through the warmer months.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Plymouth's core neighborhoods near downtown include wood-frame homes over a century old, carrying the same foundation and moisture exposure common to county seats of this age in northern Indiana.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Mice living in the farmland surrounding Plymouth move toward the nearest warm building once crops are harvested and cold weather arrives.",
+      },
+    ],
+    localHook:
+      "Plymouth sits on the Yellow River, a 62-mile tributary of the Kankakee River that historically fed one of the Midwest's larger wetland systems before drainage for farmland in the late 1800s and early 1900s. Five miles southwest of town at Twin Lakes, Chief Menominee's Potawatomi band was forced from its reservation in 1838 and marched more than 660 miles west on what is remembered as the Potawatomi Trail of Death. Marshall County was named for U.S. Chief Justice John Marshall.",
+    intro:
+      "Plymouth sits on the Yellow River, a 62-mile tributary of the Kankakee that historically fed one of the largest wetland systems in the Midwest before much of it was drained for farmland in the late 1800s and early 1900s. Marshall County's history runs deeper than the drainage ditches, though: five miles southwest of town at Twin Lakes, Chief Menominee's band was forced from its reservation in 1838 and marched more than 660 miles west on what is remembered as the Potawatomi Trail of Death. That wetland legacy still shapes pest pressure today. Low, poorly draining ground near the Yellow River and any remaining marsh edges around Marshall County give mosquitoes and ticks better habitat than a drier part of northern Indiana would offer, while Plymouth's older county-seat homes carry the same termite exposure common to any nineteenth century Indiana housing stock.",
+    sections: [
+      {
+        heading: "Why does Plymouth see more mosquitoes and ticks than a typical northern Indiana town?",
+        body: "Plymouth's position on the Yellow River, historically part of a much larger wetland system tied to the Kankakee River before large-scale drainage in the late 1800s and early 1900s, means low ground near the water and any remaining marsh edges in Marshall County hold moisture longer than higher, drier ground elsewhere in the region. That moisture supports both mosquito breeding through the warm months and tick habitat in brushy, wooded edges near the water. Properties bordering the river or any low-lying wooded area typically need a more consistent seasonal treatment plan than a home on higher, drier ground in town.",
+      },
+      {
+        heading: "Does Plymouth's older housing carry the same termite risk as other Marshall County towns?",
+        body: "Plymouth's core neighborhoods near downtown include wood-frame homes dating back well over a century, similar in age to the housing common across county seats of this size in northern Indiana. That age brings the usual subterranean termite exposure that comes with older foundations and aging wood, and an annual inspection is worth scheduling regardless of whether a homeowner has seen any visible sign of activity, since termite damage often goes unnoticed until it is well underway.",
+      },
+      {
+        heading: "How does Marshall County's farmland affect mouse activity around Plymouth?",
+        body: "Marshall County's fields surround Plymouth much as they do other county seats in this part of Indiana, and mice living in those fields move toward the nearest warm building once the crops are harvested and cold weather sets in. Homes near the edge of town closest to open farmland typically see this pressure first each fall, and sealing foundation gaps and utility penetrations before the first cold snap is one of the more effective ways to keep mice from settling in for the winter.",
+      },
+    ],
+    prevention: [
+      "Clear standing water near the Yellow River and any low-lying yard areas through the summer.",
+      "Use tick checks and yard maintenance for properties near wooded or marsh-edge areas.",
+      "Schedule an annual termite inspection given the age of Plymouth's older county-seat homes.",
+      "Seal foundation gaps before fall to reduce mouse entry from surrounding farmland.",
+      "Keep gutters clear so moisture does not collect against older foundations near the river.",
+    ],
+    costNote:
+      "Termite inspections in Plymouth typically run $150 to $300. Mosquito and tick treatment for river-adjacent or wooded properties is often priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Plymouth have more mosquito and tick pressure than some northern Indiana towns?",
+        answer: "Plymouth sits on the Yellow River, historically part of a much larger wetland system tied to the Kankakee River before drainage in the late 1800s and early 1900s, and low, poorly draining ground near the water still holds moisture that supports both mosquitoes and ticks longer than drier parts of the county.",
+      },
+      {
+        question: "Is Plymouth's older housing at risk for termites?",
+        answer: "Yes. Plymouth's core neighborhoods near downtown include wood-frame homes well over a century old, similar in age to other Marshall County seats, and that age brings the usual subterranean termite exposure tied to older foundations and aging wood.",
+      },
+      {
+        question: "Does farmland around Plymouth bring mice into town in the fall?",
+        answer: "Yes. Mice living in the fields surrounding Plymouth move toward the nearest warm building once crops are harvested and cold weather sets in, with homes near the edge of town seeing the pressure first each fall.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Indianapolis", slug: "indianapolis", stateSlug: "indiana" },
+      { name: "Warsaw", slug: "warsaw-in", stateSlug: "indiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Plymouth, IN | Marshall County Northern Indiana",
+    metaDescription:
+      "Plymouth, IN pest control for Yellow River mosquitoes and ticks, older-home termites, and fall mice. Free inspection.",
+  },
 ];

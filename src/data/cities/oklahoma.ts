@@ -2573,4 +2573,455 @@ export const oklahomaCities: CityLocation[] = [
     metaDescription:
       "Guthrie, OK pest control for termites and carpenter ants in historic buildings, harvest-driven mice, and ticks. Logan County service. Free inspection.",
   },
+  {
+    slug: "durant-ok",
+    name: "Durant",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~18,590",
+    county: "Bryan County",
+    climate: "hot-humid",
+    climateDriver:
+      "Durant sits in the same humid subtropical zone that covers most of southern Oklahoma, made warmer and more humid than the rest of the state by its position just north of the Red River and Lake Texoma. The historic core near downtown dates to the 1870s Choctaw settlement founded by the Durant family, and still holds a cluster of galleried residences with high ceilings and large windows built in the old southern plantation style, giving that part of town an older housing stock than the newer subdivisions further out.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Fire Ants", "Ticks"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through fall",
+        note: "Lake Texoma covers roughly 89,000 acres with 585 miles of shoreline just outside Durant, and the lake's coves and inlets hold standing water that gives mosquitoes a longer breeding season than an inland Bryan County property would see.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall, a longer window than northern Oklahoma",
+        note: "The galleried homes built near downtown during Durant's early Choctaw-era settlement carry decades of accumulated termite exposure, and southern Oklahoma's warm, humid soil keeps colonies active later into the year than farther north in the state.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Red imported fire ants are established across southern Oklahoma this close to the Texas line, and Durant's warm season gives them a long stretch to build mounds in lawns and along foundations.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through summer",
+        note: "The brushy fields and wooded shoreline around Lake Texoma put anyone spending time outdoors near the water in regular contact with ticks through the warm months.",
+      },
+    ],
+    localHook:
+      "Durant was first settled in 1870 by the Choctaw family of that name, and the historic core near downtown still holds galleried residences with high ceilings and big windows reflecting the old southern plantation influence those early settlers brought with them. The federal government built Denison Dam just south of town between 1939 and 1944 after major Red River floods in 1848 and 1908, creating Lake Texoma, a reservoir that now covers about 89,000 acres with 585 miles of shoreline and draws more than five million visitors a year.",
+    intro:
+      "Durant's identity was set well before pest control was a business anyone thought about: a Choctaw family settled the town in 1870, and a few decades later the federal government dammed the Red River just south of town to stop the kind of flooding that had hit the region in 1848 and 1908. That dam created Lake Texoma, and the lake is the single biggest reason pest pressure in Durant looks different from a Bryan County town further from the water. Mosquitoes breed in the lake's many coves through a long warm season, while the galleried homes near downtown, built in the decades after that original Choctaw settlement, carry the kind of long-term termite exposure that comes with age and southern Oklahoma's humid soil. Fire ants, common this close to the Texas line, round out a pest picture shaped as much by 1870s settlement history as by a modern reservoir.",
+    sections: [
+      {
+        heading: "Why does Lake Texoma give Durant a longer mosquito season?",
+        body: "Lake Texoma covers about 89,000 acres and 585 miles of shoreline just outside Durant, created when Denison Dam was finished in 1944 to control the kind of Red River flooding the region saw in 1848 and 1908. The lake's many coves and inlets hold still water that warms quickly in southern Oklahoma's humid subtropical climate, giving mosquitoes more breeding habitat through more of the year than an inland Bryan County property would face. Properties near the shoreline or on lake-adjacent lots typically need a longer treatment season than homes further into town.",
+      },
+      {
+        heading: "What makes Durant's oldest homes near downtown a bigger termite concern?",
+        body: "The galleried residences built near downtown in the decades after the Durant family's 1870 settlement, with their high ceilings and large windows in the old southern plantation style, are now well over a century old in many cases. That age, combined with southern Oklahoma's warm, humid soil, means subterranean termite colonies stay active later into the year here than they would in a comparable northern Oklahoma town. An annual inspection matters more for this pocket of Durant than for the newer subdivisions built further from the historic core.",
+      },
+      {
+        heading: "Are fire ants a real problem for Durant, or just further south in Texas?",
+        body: "Fire ants are established across southern Oklahoma, close enough to the Texas line that Durant sees the same mound-building pressure through spring, summer, and fall that a north Texas property would. Combined with a tick population supported by the brushy fields and wooded shoreline around Lake Texoma, outdoor pest exposure in Durant leans more toward warm-season, ground-level pests than the indoor cockroach and rodent pressure that dominates further north in the state. Homeowners with lake-adjacent lots or wooded acreage typically see both pests together rather than one or the other.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for homes in Durant's historic core, especially the older galleried houses near downtown.",
+      "Clear standing water in coves, low spots, and gutters near lake-adjacent properties through the mosquito season.",
+      "Treat fire ant mounds promptly in lawns and near foundations rather than letting colonies spread.",
+      "Keep brush and tall grass trimmed back from the house on wooded or shoreline lots to reduce tick contact.",
+      "Seal foundation gaps and check crawl spaces on older homes where termite activity has gone unnoticed.",
+    ],
+    costNote:
+      "Termite inspections in Durant typically run $150 to $300, more for the oldest homes near downtown with harder-to-access crawl spaces. Mosquito treatment for lake-adjacent properties is often priced as a seasonal add-on given the longer breeding window Lake Texoma supports. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Durant have a longer mosquito season than other Bryan County towns?",
+        answer: "Durant sits next to Lake Texoma, an 89,000-acre reservoir with 585 miles of shoreline, and the lake's coves hold standing water that supports mosquito breeding through more of the year than an inland property in Bryan County would experience.",
+      },
+      {
+        question: "Is termite risk higher in Durant's older galleried homes near downtown?",
+        answer: "Yes. Those homes date to the decades after the Durant family's 1870 Choctaw settlement, and their age combined with southern Oklahoma's warm, humid soil keeps subterranean termite colonies active later into the year than a newer Durant subdivision would see.",
+      },
+      {
+        question: "Do fire ants matter for Durant properties, not just towns closer to Texas?",
+        answer: "Yes. Red imported fire ants are established across southern Oklahoma, and Durant's position this close to the Texas line means lawns and foundations see the same warm-season mound-building pressure a north Texas property would.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Sherman", slug: "sherman", stateSlug: "texas" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Durant, OK | Bryan County Lake Texoma",
+    metaDescription:
+      "Durant, OK pest control for Lake Texoma mosquitoes, termites in historic galleried homes, fire ants, and ticks. Licensed, free inspection.",
+  },
+  {
+    slug: "miami-ok",
+    name: "Miami",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~12,970",
+    county: "Ottawa County",
+    climate: "hot-humid",
+    climateDriver:
+      "Miami sits in the same humid subtropical pocket of far northeastern Oklahoma as the rest of Ottawa County, with warm, humid summers and a shorter, milder winter than central Oklahoma sees. The city was founded in 1891 and grew up alongside the Tri-State Lead and Zinc District boom, leaving a downtown core of buildings from the early twentieth century mining era, and the Neosho River and Tar Creek run through the low-lying parts of town.",
+    topPests: ["Mosquitoes", "Ticks", "Cockroaches", "Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "The Neosho River runs through Miami, and the low-lying ground near Tar Creek holds standing water after rain, giving mosquitoes more consistent breeding habitat than a property on higher ground elsewhere in Ottawa County.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through summer",
+        note: "Overgrown lots and brushy ground near old mining areas outside town give ticks steady habitat through the warm months, a concern for anyone spending time in rural Ottawa County.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Miami's downtown commercial buildings, many dating to the early 1900s mining boom, see the kind of year-round indoor cockroach pressure common to older, closely built commercial cores.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Older buildings tied to Miami's mining-era growth, some now vacant or lightly used, give mice easy entry points as cooler fall weather sends them looking for shelter.",
+      },
+    ],
+    localHook:
+      "Miami was founded in 1891 and became the seat of Ottawa County as the Tri-State Lead and Zinc District mining boom took hold nearby, with mining camps like Picher and Commerce springing up around it and the district's population reaching over 41,000 by 1920. That mining era left Miami with a downtown core of buildings from the early twentieth century, and the city sits along the Neosho River, with Tar Creek running through the low-lying ground on its way to join the river.",
+    intro:
+      "Miami's downtown looks the way it does because of a mining boom that peaked more than a century ago. The city was founded in 1891 and grew alongside the Tri-State Lead and Zinc District, a mining district whose population topped 41,000 by 1920 as camps like Picher and Commerce sprang up around it. That growth left Miami with a concentration of early twentieth century commercial buildings downtown, some of which see less regular use today than they did during the boom, and buildings that sit vacant or lightly used are exactly the kind mice find easiest to get into once fall turns cold. The Neosho River and Tar Creek run through the low-lying parts of town, holding standing water after rain that gives mosquitoes a longer breeding window than higher ground in Ottawa County would see, while brushy, overgrown lots near the old mining areas outside town keep tick populations steady through the warm months.",
+    sections: [
+      {
+        heading: "Why do Miami's downtown buildings see more cockroach and mice pressure than newer construction?",
+        body: "Miami's commercial core dates largely to the early 1900s, when the Tri-State Lead and Zinc District mining boom pushed the district's population past 41,000 by 1920. Many of those buildings are now over a century old, and some see lighter day-to-day use than they did during the boom years. Older, less consistently occupied commercial buildings give German cockroaches steady indoor conditions year-round and give mice easy entry points once cooler fall weather sets in, more so than a newer building built to current code would face.",
+      },
+      {
+        heading: "How does the Neosho River affect mosquito pressure in Miami?",
+        body: "Miami sits along the Neosho River, with Tar Creek running through low-lying ground on its way into the river. That combination holds standing water after rain longer than higher ground elsewhere in Ottawa County would, and northeastern Oklahoma's warm, humid summers keep that water in mosquito breeding condition through most of the season. Properties near the river or in low-lying parts of town typically need a longer mosquito treatment window than homes on higher ground.",
+      },
+      {
+        heading: "Are ticks a bigger concern in rural Ottawa County than in town?",
+        body: "Yes, generally. The overgrown, brushy lots common around Miami's old mining areas and in rural stretches of Ottawa County give ticks steady habitat through spring and summer, more so than a well-maintained in-town lawn would provide. Anyone working or spending recreational time in those brushy areas around Miami should expect more consistent tick contact than a downtown resident would, especially through the warmest stretch of the season, and a check for ticks after any time spent outdoors is worth the extra minute.",
+      },
+    ],
+    prevention: [
+      "Have vacant or lightly used downtown buildings checked for cockroach harborage and entry points on a recurring schedule.",
+      "Seal foundation gaps and door thresholds on older mining-era buildings before fall to reduce mouse entry.",
+      "Clear standing water near the Neosho River and Tar Creek where it collects on your property after rain.",
+      "Keep grass and brush cut back on rural or lot-adjacent property to reduce tick habitat.",
+      "Have a licensed technician inspect older commercial buildings downtown for structural gaps tied to their age.",
+    ],
+    costNote:
+      "Cockroach service for Miami's older downtown commercial buildings is often set up as a recurring plan given the age of that building stock. Mosquito and tick treatment for river-adjacent and rural properties is commonly priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Miami's downtown have more pest pressure than newer parts of town?",
+        answer: "Much of downtown Miami dates to the early 1900s Tri-State Lead and Zinc District mining boom, when the district's population passed 41,000 by 1920, and those century-old buildings, some now lightly used, give cockroaches and mice easier conditions than newer construction would.",
+      },
+      {
+        question: "Does the Neosho River increase mosquito pressure in Miami?",
+        answer: "Yes. Miami sits along the Neosho River with Tar Creek running through low-lying ground nearby, and that combination holds standing water longer after rain than higher ground elsewhere in Ottawa County, giving mosquitoes a longer breeding window through the warm season.",
+      },
+      {
+        question: "Is tick exposure worse in rural Ottawa County than inside Miami?",
+        answer: "Generally yes. The brushy, overgrown lots common around Miami's old mining areas and in the surrounding countryside give ticks more consistent habitat than a maintained in-town lawn, so anyone spending time in those areas should expect more contact than a downtown resident would.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Pryor Creek", slug: "pryor-creek-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Miami, OK | Ottawa County Northeast Oklahoma",
+    metaDescription:
+      "Miami, OK pest control for Neosho River mosquitoes, rural ticks, downtown cockroaches in mining-era buildings, and fall mice. Free inspection.",
+  },
+  {
+    slug: "okmulgee-ok",
+    name: "Okmulgee",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~11,320",
+    county: "Okmulgee County",
+    climate: "hot-humid",
+    climateDriver:
+      "Okmulgee sits in the humid subtropical band of eastern Oklahoma, with warm, humid summers typical of the region. Oil discovered at nearby Morris in 1907 set off a boom that took the city from 4,176 residents in the 1910 census to roughly 35,000 by the 1920s, and the housing additions platted during that decade left a large stock of homes built within a short window, many still standing in the older residential streets around downtown.",
+    topPests: ["Subterranean Termites", "Cockroaches", "Mosquitoes", "Rats"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "The housing additions platted during the 1920s oil boom, when Okmulgee's population approached 35,000, built up a large stock of homes within a short window, and much of that housing now shares a similar age and similar termite exposure, comparable to the wave of gas-boom construction seen in other early twentieth century Oklahoma oil towns.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Okmulgee's downtown commercial buildings date largely to the same 1920s boom years, and the population decline that followed, down to 17,097 by 1930, left some of that commercial space underused, conditions that favor persistent indoor cockroach populations.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "The Deep Fork River winds through the area near Okmulgee, and the wetlands along it hold standing water that supports mosquito breeding through the warm months.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Fall through winter, worse near underused buildings",
+        note: "Underused or vacant commercial buildings downtown, a legacy of the population decline after the 1920s boom, give rats more consistent harborage than a fully occupied building would.",
+      },
+    ],
+    localHook:
+      "Oil discovered at nearby Morris in 1907 triggered a boom that took Okmulgee from 4,176 residents at the 1910 census to an estimated 35,000 by the 1920s, with investors and homeseekers prompting the platting of new housing additions and a build-out of water, gas, telephone, and electrical systems across town. The boom did not last. The population fell to 17,097 by 1930 as the Great Depression and declining oil production hit, and Okmulgee has continued to shrink since, down to 11,322 at the 2020 census. The Deep Fork River runs near town, feeding what is now the Deep Fork National Wildlife Refuge.",
+    intro:
+      "Few Oklahoma towns grew as fast, or shrank as much, as Okmulgee did across a single generation. Oil found at nearby Morris in 1907 pulled the population from 4,176 in 1910 to roughly 35,000 by the 1920s, a boom that platted entire new housing additions in a matter of years and built out the city's water, gas, and electrical systems to match. Then the Depression and falling oil production sent that number back down to 17,097 by 1930, and Okmulgee's population has continued to decline since, standing at 11,322 at the 2020 census. That history shapes pest pressure two ways. First, homes built during the boom years now share a similar age and similar termite exposure. Second, the decades of decline that followed left some downtown commercial buildings underused, exactly the conditions that let cockroaches and rats persist indoors. The Deep Fork River nearby adds a mosquito season on top of both.",
+    sections: [
+      {
+        heading: "Why does the 1920s oil boom still affect termite risk in Okmulgee today?",
+        body: "Okmulgee's population went from 4,176 in 1910 to an estimated 35,000 by the 1920s after oil was discovered at nearby Morris in 1907, and homeseekers and investors platted new housing additions to keep pace. That concentrated period of construction means a large share of Okmulgee's older residential streets share a similar age, and homes from that era carry the accumulated subterranean termite exposure typical of wood-frame construction now roughly a century old, similar to the wave of gas-boom and oil-boom construction seen in other early twentieth century Oklahoma towns.",
+      },
+      {
+        heading: "How has Okmulgee's long population decline affected cockroach and rat pressure downtown?",
+        body: "Okmulgee's population fell from its 1920s boom-era peak to 17,097 by 1930 and has continued declining since, reaching 11,322 at the 2020 census. That decades-long decline left some downtown commercial buildings underused or only partly occupied, and buildings in that condition tend to hold German cockroach populations year-round and give rats more reliable harborage than a fully occupied, actively maintained building would. A building owner who keeps space fully leased and well maintained generally sees far less pressure from either pest than a neighboring property standing partly empty.",
+      },
+      {
+        heading: "What does the Deep Fork River mean for mosquito pressure near Okmulgee?",
+        body: "The Deep Fork River runs near Okmulgee, feeding wetlands now protected as the Deep Fork National Wildlife Refuge, and that kind of low-lying, water-holding ground gives mosquitoes more breeding habitat through the warm months than higher, drier ground elsewhere in Okmulgee County. Properties near the river or in low spots around town should expect a longer mosquito season than one further from the water, particularly during a wet spring, and standing water left after a heavy rain is worth checking within a day or two rather than leaving it to evaporate on its own.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for homes built during Okmulgee's 1920s oil boom, especially in the older residential streets near downtown.",
+      "Ask about a recurring cockroach service for downtown commercial space that sees lighter day-to-day use.",
+      "Have underused or vacant buildings checked for rat entry points, especially before winter.",
+      "Clear standing water near the Deep Fork River and any low-lying parts of your property through summer.",
+      "Seal foundation and utility entry gaps on older homes where pest entry has gone unnoticed for years.",
+    ],
+    costNote:
+      "Termite inspections on Okmulgee's boom-era homes typically run $150 to $300. Commercial cockroach and rat service for underused downtown buildings is often set up as a recurring plan rather than a one-time visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why are so many Okmulgee homes a similar age?",
+        answer: "Oil discovered at nearby Morris in 1907 set off a boom that took Okmulgee's population from 4,176 in 1910 to roughly 35,000 by the 1920s, and the housing additions platted to keep up with that growth built a large share of the city's older homes within a short window.",
+      },
+      {
+        question: "Does Okmulgee's population decline affect pest pressure downtown?",
+        answer: "Yes. The population fell from its 1920s peak to 17,097 by 1930 and has kept declining since, down to 11,322 at the 2020 census, leaving some downtown commercial buildings underused, conditions that let cockroaches and rats persist indoors more easily than in a fully occupied building.",
+      },
+      {
+        question: "Is Okmulgee's mosquito season tied to a specific water source?",
+        answer: "Yes, largely the Deep Fork River, which runs near town and feeds the wetlands of the Deep Fork National Wildlife Refuge. Low-lying ground near the river holds standing water through the warm months, giving mosquitoes a longer season than higher, drier parts of Okmulgee County see.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Muskogee", slug: "muskogee", stateSlug: "oklahoma" },
+      { name: "Tulsa", slug: "tulsa", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Okmulgee, OK | Okmulgee County Eastern Oklahoma",
+    metaDescription:
+      "Okmulgee, OK pest control for boom-era home termites, downtown cockroaches and rats, and Deep Fork River mosquitoes. Licensed, free inspection.",
+  },
+  {
+    slug: "cushing-ok",
+    name: "Cushing",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~8,330",
+    county: "Payne County",
+    climate: "hot-humid",
+    climateDriver:
+      "Cushing sits in the humid subtropical band of central Oklahoma, with warm, humid summers that support pest activity most of the year. The city is known nationally as the Pipeline Crossroads of the World and has served as the official delivery point for NYMEX light sweet crude futures since 1983, but its historic downtown, built largely around 1900, took heavy damage in a magnitude 5.0 earthquake on November 7, 2016, and recovery there has been slow.",
+    topPests: ["Cockroaches", "Mice", "Subterranean Termites", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Cushing's historic downtown, built largely around 1900, still has buildings damaged in the November 2016 magnitude 5.0 earthquake that have not been fully repaired, and that kind of long-term vacancy and structural damage gives German cockroaches steady indoor conditions.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "The same earthquake-cracked masonry and unrepaired storefronts downtown give mice easy entry points once cooler fall weather sends them looking for shelter.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Cushing's downtown buildings, many dating to around 1900, carry more than a century of accumulated termite exposure typical of unreinforced masonry and wood-frame construction from that era.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Earthquake-cracked masonry and wood framing downtown let moisture into wall cavities more easily than intact construction would, and that moisture is exactly what draws carpenter ants looking for a place to nest.",
+      },
+    ],
+    localHook:
+      "Cushing is known nationally as the Pipeline Crossroads of the World and has been the official delivery point for NYMEX light sweet crude futures since 1983, giving the town an outsized role in national oil pricing relative to its population of roughly 8,300. On November 7, 2016, a magnitude 5.0 earthquake struck near Cushing and significantly damaged the historic downtown, where unreinforced masonry buildings dating to around 1900 sustained cracked walls, partial collapses, and facade damage. Recovery has been slow, and a number of buildings in the historic business district remain demolished or unrepaired years later.",
+    intro:
+      "Cushing carries more weight in the national oil market than a town of roughly 8,300 people usually would, having served as the official NYMEX delivery point for light sweet crude since 1983 and earned the nickname Pipeline Crossroads of the World. Its historic downtown, though, tells a different story. On November 7, 2016, a magnitude 5.0 earthquake struck near the city and did serious damage to the unreinforced masonry buildings that make up the business district, most of them built around 1900. Recovery from that quake has been slow, and some of those downtown storefronts remain demolished or unrepaired years on. That combination, century-old construction and unresolved earthquake damage, is what shapes pest pressure in Cushing today. Cracked masonry and damaged wood framing let in moisture that draws carpenter ants, unrepaired vacant storefronts give cockroaches and mice easier conditions than an occupied building would, and the age of the construction itself carries the termite exposure common to any Oklahoma town this old.",
+    sections: [
+      {
+        heading: "How did the 2016 earthquake change pest pressure in downtown Cushing?",
+        body: "The magnitude 5.0 earthquake that struck near Cushing on November 7, 2016 damaged the unreinforced masonry buildings common in the historic downtown, most of them built around 1900. Years later, some of those storefronts remain demolished or unrepaired, and buildings left in that condition give cockroaches and mice far easier entry and harborage than an intact, actively used building would. Property owners downtown often need more frequent pest service than a comparable newer building elsewhere in Payne County.",
+      },
+      {
+        heading: "Why do carpenter ants show up in Cushing's older downtown buildings?",
+        body: "Cracked masonry and damaged wood framing left over from the 2016 earthquake let moisture into wall cavities more easily than intact construction would, and carpenter ants are drawn to exactly that kind of persistent moisture when they are looking for a place to nest. Combined with the general age of downtown Cushing's roughly 1900-era construction, this gives carpenter ants and subterranean termites more opportunity than a newer building would offer.",
+      },
+      {
+        heading: "Does Cushing's role as an oil pipeline hub affect its pest control needs?",
+        body: "Not directly, but the town's outsized industrial role means its historic downtown and surrounding residential streets are older than the population alone would suggest, since Cushing grew up around the pipeline and storage infrastructure that made it the Pipeline Crossroads of the World rather than around steady population growth. That leaves a housing and commercial stock weighted toward older construction, which is what drives the termite and carpenter ant pressure typical of a Payne County town this age.",
+      },
+    ],
+    prevention: [
+      "Have downtown storefronts, especially any still showing 2016 earthquake damage, checked for cockroach and mice entry points.",
+      "Repair cracked masonry and damaged wood framing promptly to cut off the moisture that draws carpenter ants.",
+      "Schedule a termite inspection for any building in Cushing's historic core built around 1900.",
+      "Seal gaps in foundations and storefronts before fall to reduce mouse entry.",
+      "Ask about a recurring commercial pest plan for vacant or lightly used downtown buildings.",
+    ],
+    costNote:
+      "Termite and carpenter ant inspections for Cushing's roughly 1900-era downtown buildings typically run $150 to $300, more where earthquake-related structural damage complicates access. Commercial cockroach and mice service for vacant or damaged storefronts is often set up as a recurring plan. Free inspection included.",
+    faqs: [
+      {
+        question: "Did the 2016 Cushing earthquake affect pest problems downtown?",
+        answer: "Yes, indirectly. The magnitude 5.0 earthquake on November 7, 2016 damaged unreinforced masonry buildings in Cushing's historic downtown, and some of those storefronts remain unrepaired years later, giving cockroaches and mice easier entry and harborage than an intact building would.",
+      },
+      {
+        question: "Why are carpenter ants a concern in Cushing's older buildings?",
+        answer: "Cracked masonry and damaged wood framing, much of it tied to the 2016 earthquake, let moisture into wall cavities more easily than intact construction, and that moisture is what draws carpenter ants looking for a nesting site in Cushing's roughly 1900-era downtown.",
+      },
+      {
+        question: "Is Cushing's pest pressure related to its oil pipeline industry?",
+        answer: "Not directly. Cushing is known as the Pipeline Crossroads of the World and has been the NYMEX delivery point for light sweet crude since 1983, but the pest pressure in town comes from the age of its historic downtown and the damage that 2016 earthquake left behind, not from the pipeline infrastructure itself.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Stillwater", slug: "stillwater", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Cushing, OK | Payne County Central Oklahoma",
+    metaDescription:
+      "Cushing, OK pest control for earthquake-damaged downtown cockroaches and mice, carpenter ants, and termites in historic buildings. Free inspection.",
+  },
+  {
+    slug: "pryor-creek-ok",
+    name: "Pryor Creek",
+    state: "Oklahoma",
+    stateSlug: "oklahoma",
+    stateAbbr: "OK",
+    tier: "T3",
+    population: "~9,440",
+    county: "Mayes County",
+    climate: "hot-humid",
+    climateDriver:
+      "Pryor Creek sits in the humid subtropical zone of northeastern Oklahoma, with warm, humid summers typical of the Grand River valley. The town was originally known by the Cherokee name Coo-Y-Yah, place of the huckleberries, before being renamed in 1887 for a nearby railroad station, and today it mixes an older core of ranch-style homes with new subdivisions built to house workers at the nearby MidAmerica Industrial Park.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Ticks", "Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Pryor Creek sits along the Grand River, and the low-lying ground near the water holds standing water after rain that keeps mosquitoes breeding through the warm months.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "The older ranch-style homes in Pryor Creek's original residential core carry decades more termite exposure than the new construction going up around MidAmerica Industrial Park, and warrant more regular inspection.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through summer",
+        note: "Wooded and brushy ground around the Grand River and the rural land surrounding MidAmerica Industrial Park give ticks steady habitat through the warm season.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "New subdivisions built to house workers at MidAmerica Industrial Park sit on recently disturbed ground, conditions that often bring ant colonies looking to establish themselves near fresh foundations and landscaping.",
+      },
+    ],
+    localHook:
+      "Pryor Creek was originally known by the Cherokee name Coo-Y-Yah, meaning place of the huckleberries, before being renamed in 1887 after a local railroad station named for Captain Nathaniel Hale Pryor. Today the town, the seat of Mayes County, sits along the Grand River and is home to MidAmerica Industrial Park, a roughly 9,000-acre site that ranks among the largest industrial parks in the country and includes operations for companies such as Google, DuPont, and Nordam, employing more than 4,500 people and prompting new housing construction to keep pace with the jobs.",
+    intro:
+      "Pryor Creek carries two very different housing stories at once. The older residential core, part of a town that traces back to the Cherokee settlement known as Coo-Y-Yah before its 1887 renaming, is full of ranch-style homes that have been standing long enough to accumulate real termite exposure. A few miles away, new subdivisions are going up to house workers at MidAmerica Industrial Park, a roughly 9,000-acre site employing more than 4,500 people across firms that include Google, DuPont, and Nordam. That contrast plays out directly in pest pressure. The old core needs the kind of attention any Oklahoma town's aging housing stock needs, while the new construction, built on freshly disturbed ground, tends to draw ants looking to establish themselves before landscaping settles in. The Grand River, which runs through town, adds a mosquito and tick season common to any Mayes County property near the water.",
+    sections: [
+      {
+        heading: "Why does Pryor Creek's older housing need more termite attention than the new subdivisions?",
+        body: "The ranch-style homes in Pryor Creek's original residential core have been standing for decades longer than the subdivisions now going up to house MidAmerica Industrial Park workers, and that extra age means more accumulated exposure to subterranean termites in the surrounding soil. A new home built to current code on freshly graded ground simply has not had the same years of exposure that an older Pryor Creek property has, which is why annual inspection matters more for the established core than for the newest streets in town.",
+      },
+      {
+        heading: "Does MidAmerica Industrial Park's growth change pest pressure for new Pryor Creek homes?",
+        body: "Yes, in a specific way. MidAmerica Industrial Park spans roughly 9,000 acres and now employs more than 4,500 people across firms including Google, DuPont, and Nordam, and the new housing built to keep up with those jobs sits on recently disturbed ground. Ants commonly move into that kind of freshly graded, newly landscaped soil looking to establish a colony before turf and plantings fully take hold, something an established, long-settled yard rarely faces to the same degree.",
+      },
+      {
+        heading: "How does the Grand River affect mosquito and tick pressure in Pryor Creek?",
+        body: "Pryor Creek sits along the Grand River, and low-lying ground near the water holds standing water after rain longer than higher ground elsewhere in Mayes County. That keeps mosquitoes breeding through more of the warm season, while the wooded and brushy stretches along the river give ticks the same kind of steady habitat. Properties near the river should plan for a longer season for both than a property further into town would need, and outdoor pets in those areas often pick up ticks well before a person walking the same yard notices anything.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for Pryor Creek's older ranch-style homes given their decades of accumulated exposure.",
+      "Ask about ant treatment for new construction near MidAmerica Industrial Park while landscaping is still getting established.",
+      "Clear standing water near the Grand River and any low-lying parts of your property through summer.",
+      "Keep brush and grass cut back on wooded or river-adjacent lots to reduce tick habitat.",
+      "Seal foundation gaps on older homes in the original residential core before fall.",
+    ],
+    costNote:
+      "Termite inspections for Pryor Creek's older ranch-style homes typically run $150 to $300. Ant treatment for new construction near MidAmerica Industrial Park is often handled as a one-time service tied to landscaping completion. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do older Pryor Creek homes need more termite attention than new construction?",
+        answer: "The ranch-style homes in Pryor Creek's original residential core have stood for decades longer than the subdivisions built near MidAmerica Industrial Park, giving them more accumulated exposure to subterranean termites in the surrounding soil than a newly built home on freshly graded ground.",
+      },
+      {
+        question: "Does new housing near MidAmerica Industrial Park see different pests than older Pryor Creek neighborhoods?",
+        answer: "Yes, mainly ants. The freshly disturbed, newly landscaped ground common to new subdivisions built for MidAmerica Industrial Park's more than 4,500 workers tends to draw ant colonies before turf and plantings settle in, a pattern less common in Pryor Creek's older, established yards.",
+      },
+      {
+        question: "Is the Grand River a factor in Pryor Creek's mosquito season?",
+        answer: "Yes. Pryor Creek sits along the Grand River, and the low-lying ground near the water holds standing water after rain longer than higher ground elsewhere in Mayes County, extending the mosquito and tick season for river-adjacent properties.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Miami", slug: "miami-ok", stateSlug: "oklahoma" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Pryor Creek, OK | Mayes County Grand River",
+    metaDescription:
+      "Pryor Creek, OK pest control for Grand River mosquitoes and ticks, older-home termites, and new-construction ants near MidAmerica Industrial Park. Free inspection.",
+  },
 ];

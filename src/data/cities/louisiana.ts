@@ -2724,4 +2724,455 @@ export const louisianaCities: CityLocation[] = [
     metaDescription:
       "Pineville, LA pest control for river-driven mosquitoes, fire ants, year-round termites, and American cockroaches. Rapides Parish Red River service.",
   },
+  {
+    slug: "bogalusa-la",
+    name: "Bogalusa",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~10,660",
+    county: "Washington Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Bogalusa was built from scratch in 1906 as a planned company town for the Great Southern Lumber Company, whose sawmill at the confluence of Bogue Lusa Creek and the Pearl River was the largest in the world at the time. A New Orleans architect laid out the city, and construction moved fast enough that most of the historic core, homes, hotels, schools, and a hospital, went up within a single year. That concentrated construction date, combined with the humid subtropical Florida Parishes climate on the Louisiana-Mississippi line, shapes a pest picture built around aging wood-frame housing and the pine woodland that once fed the mill.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Carpenter Ants", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall, longer than northern Louisiana",
+        note: "Bogalusa's company-town-era wood-frame homes, built in a rush during 1906 and 1907, now carry more than a century of exposure to subterranean termites on humid Washington Parish soil.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through fall",
+        note: "The confluence of Bogue Lusa Creek and the Pearl River, right where the original sawmill stood, holds standing water in low-lying areas through the humid summer months.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "The pine woodland that once fed the Great Southern Lumber Company's sawmill still borders parts of Bogalusa, giving carpenter ants an easy path into aging company-town lumber once moisture gets in.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in humid months",
+        note: "Older commercial buildings near Bogalusa's historic mill district see steady cockroach pressure tied to the region's humid subtropical climate.",
+      },
+    ],
+    localHook:
+      "Bogalusa's name comes from Bogue Lusa Creek, meaning dark water, at the point where it flows into the Pearl River. The Great Southern Lumber Company chartered in 1902 and built its sawmill there in 1906, the largest in the world at the time, hiring architect Rathborne DeBuys to lay out the entire planned city in under a year. The sawmill closed in 1938 once the surrounding virgin pine was exhausted, and paper mill and chemical operations, later run by Crown Zellerbach, carried the town's economy forward from there.",
+    intro:
+      "Bogalusa didn't grow up slowly. In 1906, the Great Southern Lumber Company built what was then the largest sawmill in the world where Bogue Lusa Creek meets the Pearl River, and the planned city that grew up around it, designed by a New Orleans architect and built in under a year, filled with wood-frame homes constructed in that same narrow window. That sawmill closed in 1938 as the surrounding pine forest ran out, but the housing it left behind is now well past a century old, sitting on humid Florida Parishes soil that keeps subterranean termites active longer than points further north. The creek and river confluence add a steady mosquito season, and the pine woodland that once fed the mill still borders enough of the city to keep carpenter ants a regular concern in older homes.",
+    sections: [
+      {
+        heading: "How did the 1906 sawmill boom shape Bogalusa's housing stock?",
+        body: "Bogalusa exists because the Great Southern Lumber Company needed a place to put its workers. The company hired a New Orleans architect to lay out the new city from scratch in 1906, and construction moved fast enough that hotels, schools, a hospital, and rows of mill-worker housing were standing within the year. That means a large share of Bogalusa's oldest wood-frame homes share almost the same construction date, built to the same standards, on the same humid Washington Parish soil. A century of exposure to subterranean termites in that kind of soil adds up evenly across the historic core rather than being scattered across a few older blocks the way it would be in a town that grew gradually over decades.",
+      },
+      {
+        heading: "Why does the Bogue Lusa Creek and Pearl River confluence raise mosquito pressure?",
+        body: "The sawmill that built Bogalusa was placed exactly where Bogue Lusa Creek, whose name comes from a word for dark water, empties into the Pearl River. That confluence and the low-lying ground around it hold standing water longer after a storm than higher ground elsewhere in Washington Parish, and the region's humid subtropical summers give mosquitoes a long breeding window on top of that. Homes near the creek or the river bottomland typically need more consistent mosquito control through the warm months than properties on higher ground closer to downtown.",
+      },
+      {
+        heading: "Does Bogalusa's pine forest history still affect carpenter ant risk?",
+        body: "The Great Southern Lumber Company cleared enormous stands of virgin pine to feed its mill, and while that forest never grew back to its original scale, enough pine woodland still borders parts of Bogalusa to keep carpenter ants a regular problem in older homes near the tree line. Carpenter ants nest in damp or hollowed wood, and the same aging company-town lumber that makes Bogalusa's termite risk consistent gives carpenter ants an easy foothold once moisture gets into a wall void or windowsill. Homes backing onto remaining timberland see this more than those in the denser blocks near downtown.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection given the concentrated construction age of Bogalusa's company-town-era housing stock.",
+      "Clear standing water near Bogue Lusa Creek and Pearl River bottomland to reduce mosquito breeding through summer.",
+      "Trim tree limbs and remove woodpiles away from the foundation on properties backing onto pine woodland.",
+      "Seal foundation cracks and gaps around utility lines on older wood-frame homes.",
+      "Keep gutters clear so moisture does not build up in wood siding and eaves.",
+    ],
+    costNote:
+      "Termite inspections in Bogalusa typically run $150 to $300 given the age of the company-town-era housing stock. Mosquito treatment for creek-adjacent and bottomland properties is often priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is so much of Bogalusa's housing the same age?",
+        answer: "Bogalusa was built from scratch in 1906 and 1907 as a planned company town for the Great Southern Lumber Company's sawmill, and that fast, concentrated construction gave much of the historic core a shared construction date and similar termite exposure today.",
+      },
+      {
+        question: "Does living near Bogue Lusa Creek increase mosquito risk in Bogalusa?",
+        answer: "Yes. The creek's confluence with the Pearl River, where Bogalusa's original sawmill once stood, holds standing water in low-lying areas, and combined with the humid summer climate that gives Bogalusa a more consistent mosquito season near the water than on higher ground.",
+      },
+      {
+        question: "Are carpenter ants a concern in Bogalusa homes near the old timberland?",
+        answer: "Yes. The pine woodland that once fed the Great Southern Lumber Company's sawmill still borders parts of Bogalusa, and carpenter ants readily move into the aging company-town lumber once moisture gets into a wall void or windowsill.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "New Orleans", slug: "new-orleans", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Bogalusa, LA | Washington Parish Termite & Mosquito Control",
+    metaDescription:
+      "Bogalusa, LA pest control for termites in century-old company-town homes, creek and river-driven mosquitoes, carpenter ants, and cockroaches. Free inspection.",
+  },
+  {
+    slug: "bastrop-la",
+    name: "Bastrop",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~9,690",
+    county: "Morehouse Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Bastrop is the Morehouse Parish seat on the Ouachita River corridor in northeast Louisiana, a humid subtropical pocket with warm, wet summers. The city grew up beside Bayou Bartholomew, recognized as the longest bayou in the world at roughly 364 miles, which winds along the edge of town before joining the Ouachita River near Sterlington. For much of the twentieth century Bastrop's economy centered on an International Paper mill that closed in 2010, and a large share of the city's housing dates to that mill-era boom, aging alongside the industry that built it.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Rats"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Bastrop's mill-era housing stock is aging into real subterranean termite exposure on the humid clay soils typical of the Ouachita River corridor.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through fall",
+        note: "Bayou Bartholomew's slow-moving water and the nearby Bussey Brake reservoir, a former mill water supply, give Bastrop a longer mosquito breeding window than land further from the water.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Open lots left behind as Bastrop's population declined from its mill-era peak give fire ant colonies more undisturbed ground to build mounds in.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Fall through winter",
+        note: "Vacant and lightly used buildings left behind after the International Paper mill closed give rats convenient shelter near residential blocks.",
+      },
+    ],
+    localHook:
+      "Bastrop takes its name from Felipe Enrique Neri, Baron de Bastrop, a Dutch nobleman granted a million acres in the area by the Spanish governor in 1796 on the condition he bring in 500 settler families. Morehouse Parish was carved out in 1844 with Bastrop as its seat, and Bayou Bartholomew, the world's longest bayou, runs along the edge of town on its way to the Ouachita River. International Paper's local mill, once the city's largest employer, closed in 2010, and the company later donated the 2,600-acre Bussey Brake tract, including its 2,200-acre reservoir once used as the mill's emergency water supply, to Louisiana Wildlife and Fisheries in 2013.",
+    intro:
+      "Few Louisiana towns can point to a specific body of water and call it the longest of its kind anywhere in the world, but Bastrop can. Bayou Bartholomew winds roughly 364 miles along the edge of the city before joining the Ouachita River, and its slow-moving water gives Bastrop a mosquito season that runs longer than a comparable inland Morehouse Parish property would see. The city's other defining feature is more recent: an International Paper mill that anchored the local economy for decades before closing in 2010, leaving behind mill-era housing now aging into steady termite exposure and a scatter of former industrial buildings that give rats an easy place to shelter as the weather turns.",
+    sections: [
+      {
+        heading: "How does Bayou Bartholomew affect mosquito pressure in Bastrop?",
+        body: "Bayou Bartholomew is recognized as the longest bayou in the world, and its slow, meandering path along the edge of Bastrop creates far more standing and slow-moving water than a typical northeast Louisiana creek would. Combined with the humid subtropical summers common to the Ouachita River corridor, that gives Bastrop properties near the bayou or the nearby Bussey Brake reservoir, a former mill water supply now managed by the state as a wildlife area, a longer and more consistent mosquito season than land further from the water.",
+      },
+      {
+        heading: "What did the International Paper mill closure leave behind for Bastrop's pest picture?",
+        body: "International Paper's Bastrop mill closed in 2010 after decades as the city's largest employer, and much of the housing built during that mill-era boom is now old enough to carry real subterranean termite exposure, especially on the humid clay soils typical of this part of the Ouachita River corridor. The mill's departure also left scattered vacant and lightly used industrial buildings around town, and those structures give rats convenient shelter, particularly as cooler weather in fall and winter pushes them to look for a way indoors near residential blocks.",
+      },
+      {
+        heading: "Why does Bastrop see steady fire ant pressure in its yards and lots?",
+        body: "Fire ants are common across northeast Louisiana lawns generally, and Bastrop is no exception. Open lots left behind as the town's population declined from its mill-era peak, over 11,000 residents in 2010 down to under 9,700 by 2020, give fire ant colonies more undisturbed ground to establish mounds in than a denser, fully built-out neighborhood would. Spring and summer bring the most active mound-building, and yards near vacant or under-maintained lots typically see the heaviest pressure.",
+      },
+    ],
+    prevention: [
+      "Clear brush and standing water near Bayou Bartholomew and Bussey Brake to reduce mosquito breeding through the warm months.",
+      "Schedule a termite inspection given the age of Bastrop's mill-era housing stock.",
+      "Treat fire ant mounds early in spring before colonies expand across yards and vacant lots.",
+      "Seal gaps around foundations and utility entry points on older homes to limit rat access.",
+      "Keep firewood and debris away from the house to reduce shelter for rats near former industrial sites.",
+    ],
+    costNote:
+      "Termite inspections in Bastrop typically run $150 to $300 given the age of the mill-era housing stock. Mosquito treatment for bayou-adjacent properties is often priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Bastrop have a longer mosquito season than nearby towns?",
+        answer: "Bastrop sits beside Bayou Bartholomew, the longest bayou in the world, and its slow-moving water combined with the humid Ouachita River corridor summer climate gives Bastrop a longer, more consistent mosquito season than a comparable inland property.",
+      },
+      {
+        question: "Did the paper mill closing change pest risk in Bastrop?",
+        answer: "Yes. The International Paper mill closed in 2010, and the mill-era housing it left behind is now old enough to carry real termite exposure, while scattered vacant industrial buildings around Bastrop give rats more places to shelter.",
+      },
+      {
+        question: "Are fire ants a big problem in Bastrop yards?",
+        answer: "Fire ants are common across northeast Louisiana, and Bastrop's open lots, left behind as the population declined from its mill-era peak, give colonies extra undisturbed ground to build mounds in through spring and summer.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Monroe", slug: "monroe-la", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Bastrop, LA | Morehouse Parish Termite & Mosquito Control",
+    metaDescription:
+      "Bastrop, LA pest control for mill-era home termites, Bayou Bartholomew mosquitoes, fire ants, and rats near former industrial sites. Free inspection.",
+  },
+  {
+    slug: "gretna-la",
+    name: "Gretna",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~17,810",
+    county: "Jefferson Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Gretna sits on the west bank of the Mississippi River directly across from uptown New Orleans, in the same humid subtropical river-delta climate as the rest of the metro area. The historic Old Gretna district, a 130-acre National Register area with buildings dating from about 1845 to 1935, sits close enough to the river that a grassy levee, not distance, is what keeps the water out. That combination of century-old Creole cottages and shotgun houses, dense urban blocks, and river humidity shapes a pest picture built around old wood, tight lot lines, and consistent moisture.",
+    topPests: ["Subterranean Termites", "Rats", "Cockroaches", "Mosquitoes"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Old Gretna's Creole cottages and shotgun houses, dated between about 1845 and 1935, carry a full century or more of accumulated termite exposure in the humid river soil beneath them.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, worse in cooler months",
+        note: "Gretna's tightly spaced historic blocks, laid out with narrow lots and alleys dating back to its 1836 founding, give rats connected shelter along the levee and building foundations.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Older commercial buildings near downtown Gretna see steady cockroach pressure tied to food service and the humidity typical of the whole river corridor.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through fall",
+        note: "Low ground just behind the Mississippi River levee can hold standing water after heavy rain, giving mosquitoes a breeding source near Gretna's oldest residential blocks.",
+      },
+    ],
+    localHook:
+      "Gretna grew out of a plantation subdivided into lots in 1836 by surveyor Benjamin Buisson for landowner Nicholas Noel Destrehan, first known as Mechanikham and settled heavily by German immigrants before formal incorporation in 1913. The Old Gretna Historic District that survives from that era covers 130 acres and 737 buildings, 553 of them contributing structures built between about 1845 and 1935, and a levee along the Mississippi River still separates the town's oldest blocks from the water that shaped its growth as a rail and ferry crossing to New Orleans.",
+    intro:
+      "Gretna's oldest neighborhood is old enough that some of its buildings predate the Civil War by about fifteen years, and that history is the reason pest control here looks different than it does in a newer Jefferson Parish subdivision. Old Gretna, a 130-acre historic district across the river from New Orleans, holds hundreds of Creole cottages, shotgun houses, and commercial buildings dated between roughly 1845 and 1935, tightly packed on lots surveyed back when the town was still called Mechanikham. A century or more of exposure to Gulf South humidity and river-driven moisture gives Gretna's older wood-frame buildings a level of termite exposure that a newer suburb simply hasn't had time to accumulate, and the dense urban blocks around them add steady rat and cockroach pressure of the kind any river city sees.",
+    sections: [
+      {
+        heading: "Why does Old Gretna's building age drive termite risk?",
+        body: "Old Gretna's 737 buildings, more than 550 of them counted as historic contributing structures, went up in waves between about 1845 and 1935, and a Creole cottage or shotgun house from that era has had a full century or more to accumulate subterranean termite exposure in the humid Mississippi River soil beneath it. That's a longer exposure window than most Jefferson Parish housing carries, and it's the main reason a termite inspection matters more for a Gretna property inside the historic district than for a comparable home in a newer part of the parish.",
+      },
+      {
+        heading: "Does Gretna's density along the river add to rat and cockroach pressure?",
+        body: "Gretna's historic blocks were laid out tightly, with narrow lots, shared walls, and alleys that go back to its 1836 founding as a rail and ferry crossing to New Orleans, and that density gives rats and cockroaches more connected shelter and food access than a spread-out suburban block would. Older commercial buildings near downtown see the most consistent cockroach pressure, tied to food service and the same humid climate that runs through the rest of the river corridor, while rats move along the levee, drainage lines, and building foundations that connect Gretna's oldest blocks.",
+      },
+      {
+        heading: "How does the Mississippi River levee affect mosquito exposure in Gretna?",
+        body: "The grassy levee that runs along the river through Gretna keeps floodwater out, but the low ground just behind it can still hold standing water after a heavy Gulf South rain, and that gives mosquitoes a breeding source close to some of the town's oldest residential blocks. Combined with the humidity typical of the whole New Orleans metro area through late spring and summer, properties near the levee or in low-lying parts of the historic district generally need more consistent mosquito control than blocks on higher ground further from the river.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any property inside or near the Old Gretna historic district given its 1845 to 1935 building ages.",
+      "Keep a recurring cockroach service in place for older commercial buildings near downtown Gretna.",
+      "Seal foundation gaps and shared-wall entry points common to Gretna's tightly spaced historic lots to limit rat access.",
+      "Clear standing water in low-lying areas behind the levee through the summer mosquito season.",
+      "Address moisture damage in older wood-frame construction promptly to avoid attracting termites and carpenter ants alike.",
+    ],
+    costNote:
+      "Termite inspections for Old Gretna's historic district homes typically run $150 to $300 given the building ages involved. Recurring cockroach service for older commercial buildings is often billed monthly. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Old Gretna need more termite attention than newer Jefferson Parish neighborhoods?",
+        answer: "Old Gretna's buildings date from about 1845 to 1935, giving them a century or more of accumulated subterranean termite exposure in the humid river soil, a longer window than most newer Jefferson Parish housing carries.",
+      },
+      {
+        question: "Are rats a bigger issue in Gretna's historic district than elsewhere in town?",
+        answer: "Gretna's oldest blocks, laid out with narrow lots and alleys dating to its 1836 founding, give rats more connected shelter along the levee and building foundations than a spread-out suburban block would.",
+      },
+      {
+        question: "Does the Mississippi River levee change mosquito risk in Gretna?",
+        answer: "Yes. The low ground just behind Gretna's levee can hold standing water after heavy rain, and combined with the metro area's humidity that gives properties near the levee more consistent mosquito pressure than blocks on higher ground.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "New Orleans", slug: "new-orleans", stateSlug: "louisiana" },
+      { name: "Kenner", slug: "kenner", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Gretna, LA | Jefferson Parish Historic District Pest Control",
+    metaDescription:
+      "Gretna, LA pest control for termites in 1845 to 1935 Old Gretna homes, dense-block rats and roaches, and levee-area mosquitoes. Free inspection.",
+  },
+  {
+    slug: "eunice-la",
+    name: "Eunice",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~9,420",
+    county: "St. Landry Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Eunice sits on the Cajun Prairie of southwest Louisiana rather than in bayou or coastal marsh country, a historically tallgrass agricultural region built on rice and crawfish farming instead of swamp. The city was founded by C.C. Duson in 1894 and chartered as a town the following year, and its prairie setting, flat, flood-irrigated rice fields ringing a compact downtown, gives Eunice a pest pressure profile shaped more by agriculture than by the wetland exposure a bayou-country Louisiana town would carry.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Ticks", "Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall, tied to flood cycles",
+        note: "The rice and crawfish fields ringing Eunice are flooded and drained on a farming schedule, and each cycle creates a fresh round of standing water for mosquitoes to breed in.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Older buildings near Eunice's original downtown footprint, close to the town's 1894 founding, carry real subterranean termite exposure on humid prairie soil.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through summer",
+        note: "Eunice's Cajun Prairie setting, historically used for cattle grazing alongside rice farming, gives ticks more pasture and grassland habitat than a wetter bayou-country town would see.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Stored grain and harvested rice fields around Eunice draw mice toward homes and buildings as the outdoor food supply narrows each fall.",
+      },
+    ],
+    localHook:
+      "C.C. Duson founded Eunice in 1894, naming it for his second wife, Eunice Pharr Duson, and the town grew into a hub of Cajun culture, home to the Cajun Music Hall of Fame and Museum, the Prairie Acadian Cultural Center, and the 1924 Liberty Theatre, where a live Cajun music radio show still airs on Saturday nights. Eunice's location on the Cajun Prairie, a tallgrass agricultural region built around rice and crawfish farming rather than swamp, sets it apart from the bayou country that defines much of the rest of French Louisiana.",
+    intro:
+      "Eunice sits on ground that most of French Louisiana doesn't share: prairie instead of swamp. Founded in 1894 by C.C. Duson and chartered as a town within a year, Eunice grew on the Cajun Prairie, flat tallgrass country given over to rice and crawfish farming rather than the bayous and marsh that shape pest pressure in most of Acadiana. That agricultural setting changes the pest picture in specific ways: flood-irrigated rice fields around town create a mosquito breeding cycle tied to farming schedules rather than a river, cattle pasture and prairie grassland bring in ticks that a swampier town wouldn't see as much, and grain storage draws mice as the harvest winds down each fall.",
+    sections: [
+      {
+        heading: "Why does rice field irrigation drive Eunice's mosquito season?",
+        body: "The rice and crawfish fields that ring Eunice are deliberately flooded and drained on a farming schedule, and each flood cycle creates a fresh round of standing water for mosquitoes to breed in, on top of southwest Louisiana's already humid summer climate. That gives Eunice a mosquito pattern tied to the agricultural calendar as much as to weather, with pressure building around planting and flood stages rather than easing off between rain events the way it might in a town without working rice fields nearby.",
+      },
+      {
+        heading: "Does Eunice's prairie setting bring more ticks than a bayou town would see?",
+        body: "Eunice sits on the Cajun Prairie, a tallgrass region historically used for cattle grazing alongside rice farming, and that pasture and grassland edge gives ticks more habitat close to town than the wetter, more forested bayou country found elsewhere in Acadiana. Properties backing onto pasture or unmown prairie grass typically see more tick activity from spring through summer, and pets that spend time in that grass carry the highest risk of bringing ticks indoors.",
+      },
+      {
+        heading: "Why do mice become more of a problem in Eunice as harvest ends?",
+        body: "As rice and other grain crops around Eunice come in each fall, stored grain and harvested fields both draw mice looking for an easy food source, and older downtown buildings dating close to the town's 1894 founding give them plenty of small gaps to exploit once the weather cools and outdoor food becomes scarce. Homes near grain storage or farm equipment yards tend to see the earliest fall activity. The same downtown core that houses the Cajun Music Hall of Fame and the 1924 Liberty Theatre carries that founding-era construction throughout its commercial blocks, so building owners near those landmarks benefit from the same fall sealing routine as any nearby home.",
+      },
+    ],
+    prevention: [
+      "Coordinate mosquito control timing with the rice field flood cycle on properties near working farmland.",
+      "Check pets for ticks after time in pasture or unmown prairie grass, especially spring through summer.",
+      "Seal foundation gaps in older downtown buildings before fall to reduce mouse entry as harvest ends.",
+      "Store any grain or animal feed in sealed containers away from the home.",
+      "Schedule a termite inspection for buildings near Eunice's original 1890s downtown footprint.",
+    ],
+    costNote:
+      "Mosquito control tied to the rice field flood cycle in Eunice is often priced as a seasonal service. Termite inspections for older downtown buildings typically run $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Eunice have a different mosquito pattern than other Acadiana towns?",
+        answer: "Eunice sits on the Cajun Prairie, and the rice and crawfish fields around town are flooded and drained on a farming schedule, giving Eunice a mosquito pattern tied to that agricultural calendar as much as to weather.",
+      },
+      {
+        question: "Are ticks a bigger concern in Eunice than in bayou-country Louisiana towns?",
+        answer: "Eunice's Cajun Prairie setting, historically used for cattle grazing alongside rice farming, gives ticks more pasture and grassland habitat than the wetter bayou country found elsewhere in Acadiana.",
+      },
+      {
+        question: "When do mice become a problem in Eunice homes?",
+        answer: "As rice and other grain crops around Eunice come in each fall, stored grain draws mice toward town, and older buildings near Eunice's 1894 downtown footprint give them easy entry points once the weather cools.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Crowley", slug: "crowley", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Eunice, LA | St. Landry Parish Cajun Prairie Pest Control",
+    metaDescription:
+      "Eunice, LA pest control for rice field mosquitoes, prairie ticks, harvest-season mice, and downtown termites. Free inspection.",
+  },
+  {
+    slug: "rayne-la",
+    name: "Rayne",
+    state: "Louisiana",
+    stateSlug: "louisiana",
+    stateAbbr: "LA",
+    tier: "T3",
+    population: "~7,300",
+    county: "Acadia Parish",
+    climate: "hot-humid",
+    climateDriver:
+      "Rayne sits on the same Cajun Prairie rice and crawfish farming ground as much of Acadia Parish, flat agricultural land laced with flood-irrigated fields rather than dense bayou wetland. The town grew up in the 1880s along the Southern Pacific Railroad and built its identity, and its economy for a stretch of the early 1900s, around exporting live frogs and frog legs, a business only possible because the surrounding wetland and rice-field habitat supported that large a frog population in the first place.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Cockroaches", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "The rice and crawfish fields and wetland habitat around Rayne, the same conditions that once supported its frog export industry, still breed mosquitoes at higher rates than a drier inland Acadia Parish town.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Rayne's downtown core, dating largely to its 1880s railroad-era construction, sits on humid southwest Louisiana soil that has allowed a long accumulation of termite exposure.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Older commercial storefronts downtown, the same buildings now covered in murals, see steady cockroach pressure tied to the humid prairie climate.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Open farmland and residential lawns around Rayne, typical of Acadia Parish, give fire ant colonies plenty of undisturbed ground for mound building.",
+      },
+    ],
+    localHook:
+      "Rayne began as a rail stop in the 1880s, originally called Pouppeville before being renamed for Southern Pacific Railroad engineer Rayne Grey. Parisian immigrant Jacques Weil and his brothers built a frog export business here starting in the early 1900s, at one point holding a pen large enough for fifteen thousand frogs and shipping frog legs and frog leather as far as Chicago and Los Angeles, earning Rayne its Frog Capital of the World nickname. More than 100 murals by artist Robert Dafford now cover downtown buildings, giving Rayne its other nickname, the Louisiana City of Murals.",
+    intro:
+      "Rayne earned its Frog Capital of the World nickname honestly. The wetland and rice-field habitat around town once supported enough frogs that Jacques Weil built an export business here in the early 1900s big enough to ship frog legs to Chicago, Los Angeles, and reportedly Paris. That same standing water and flood-irrigated farmland still drives Rayne's mosquito season today, long after the frog export trade faded. The town's 1880s start as a Southern Pacific Railroad stop, when it was still called Pouppeville, left behind a downtown core old enough to carry real subterranean termite exposure, and the open agricultural land ringing Rayne keeps fire ants a steady lawn problem through the warmer months.",
+    sections: [
+      {
+        heading: "Why does Rayne's frog-farming history point to a real mosquito problem today?",
+        body: "Rayne's frog export trade a century ago wasn't an accident of marketing, it existed because the wetland and rice-field habitat around town genuinely supported a large frog population, and frogs need standing water and abundant insect life to thrive. That same water and farmland still surrounds Rayne, and it still breeds mosquitoes at rates a drier inland Acadia Parish town wouldn't see, regardless of whether the frogs that once made the town famous are still as plentiful as they were in Jacques Weil's day.",
+      },
+      {
+        heading: "How old is Rayne's downtown, and does that affect termite risk?",
+        body: "Rayne grew up as a Southern Pacific Railroad stop in the 1880s, first known as Pouppeville before being renamed for a railroad engineer, and its downtown core, the same storefronts now covered in more than 100 Robert Dafford murals, dates largely to that railroad-era building period. Buildings well over a century old sitting on humid southwest Louisiana soil carry a longer accumulated termite exposure than newer construction elsewhere in Acadia Parish, which is why a downtown commercial building here often needs closer inspection than a home built in the last few decades.",
+      },
+      {
+        heading: "Are fire ants a bigger concern in Rayne than in nearby towns?",
+        body: "Rayne sits in open Acadia Parish farm country, and the agricultural land and residential lawns around town give fire ants plenty of undisturbed ground to build mounds in through spring and summer, a pattern common across this part of the Cajun Prairie rather than unique to Rayne specifically. Yards backing onto farmland or vacant lots typically see the heaviest mound activity, and treating early in spring before colonies expand works better than waiting until mounds are already established.",
+      },
+    ],
+    prevention: [
+      "Coordinate mosquito treatment with the flood-irrigation cycle on properties near rice or crawfish fields.",
+      "Schedule a termite inspection for downtown Rayne buildings dating to the 1880s railroad era.",
+      "Treat fire ant mounds early in spring on lawns backing onto farmland or vacant lots.",
+      "Keep a recurring cockroach service in place for older commercial buildings downtown.",
+      "Clear standing water around the property after flood-irrigation cycles to limit mosquito breeding.",
+    ],
+    costNote:
+      "Mosquito control tied to Rayne's rice and crawfish field flood cycles is often priced as a seasonal service. Termite inspections for 1880s-era downtown buildings typically run $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Rayne have such a strong mosquito season?",
+        answer: "The same wetland and rice-field habitat that once supported Rayne's frog export industry still breeds mosquitoes today, giving the town a stronger mosquito season than a drier inland Acadia Parish property would see.",
+      },
+      {
+        question: "Is Rayne's downtown old enough to need termite inspections?",
+        answer: "Yes. Rayne's downtown core dates largely to its 1880s Southern Pacific Railroad-era construction, and buildings that old sitting on humid southwest Louisiana soil carry a long accumulated termite exposure.",
+      },
+      {
+        question: "Are fire ants common in Rayne yards?",
+        answer: "Fire ants are a regular concern in Rayne, where open Acadia Parish farmland and residential lawns give colonies plenty of undisturbed ground to build mounds in through spring and summer.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Crowley", slug: "crowley", stateSlug: "louisiana" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Rayne, LA | Acadia Parish Frog Capital Pest Control",
+    metaDescription:
+      "Rayne, LA pest control for rice field mosquitoes, 1880s downtown termites, cockroaches, and fire ants. Free inspection.",
+  },
 ];

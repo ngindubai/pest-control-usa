@@ -4950,4 +4950,458 @@ export const missouriCities: CityLocation[] = [
     metaDescription:
       "Washington, MO pest control for river-valley mosquitoes, termites, carpenter ants, and flood-related rodent pressure. Franklin County Missouri River service.",
   },
+  {
+    slug: "kirksville-mo",
+    name: "Kirksville",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~17,530",
+    county: "Adair County",
+    climate: "cold-humid",
+    climateDriver:
+      "Kirksville sits in northern Missouri's cold-humid belt, close enough to the Iowa line to share its colder winters and humid summers with towns well north of most of the state. The city is home to Truman State University and A.T. Still University, founded in 1892 as the world's first osteopathic medical college, and that steady student population keeps a large share of the older homes near downtown turning over tenants every year.",
+    topPests: ["Mice", "Cluster Flies", "Ticks", "Subterranean Termites"],
+    pestProfile: [
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Kirksville's yearly wave of new student tenants near downtown means fewer people notice small foundation and screen gaps before cold weather sends mice looking for a way inside.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, seeking indoor shelter",
+        note: "Kirksville's cold-humid northern Missouri climate triggers cluster flies to seek gaps in siding and attic vents each fall, especially in the older homes near downtown built before modern sealing standards.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Adair County's farmland and timber surrounding Kirksville give ticks brushy edge habitat, with the highest exposure at the transition between mowed yards and taller grass.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "The older wood-frame housing stock near downtown Kirksville and the Truman State campus carries more termite exposure than newer construction on the edges of town.",
+      },
+    ],
+    localHook:
+      "Kirksville is home to Truman State University and A.T. Still University, founded in 1892 as the world's first osteopathic medical college, and that steady flow of students keeps rental housing near downtown turning over every year. Adair County's surrounding farmland and timber add tick pressure through the warmer months, and the city sits in the same cold-humid northern Missouri climate belt as the towns closer to the Iowa border.",
+    intro:
+      "Kirksville packs two colleges into one small northern Missouri city, Truman State University and A.T. Still University, the school that opened in 1892 as the world's first osteopathic medical college. That steady flow of new students each August means a large share of Kirksville's older homes near downtown turn over tenants every twelve months, and each turnover is a chance for gaps around doors, screens, and foundations to go unnoticed until cold weather sends mice and cluster flies looking for a way in. Adair County's surrounding farmland and timber add tick pressure through spring and summer, while the area's cold-humid winters shape a pest calendar that looks different from the one a southern Missouri town would see. Termites in the older downtown housing stock round out the picture, active from spring through fall in a way that mirrors the wider region.",
+    sections: [
+      {
+        heading: "Why does Kirksville's student housing turnover affect pest pressure?",
+        body: "Kirksville's two colleges, Truman State University and A.T. Still University, keep a steady share of the city's older rental homes near downtown turning over tenants each year. New tenants rarely know where a previous owner sealed a gap or patched a screen, and that gap in institutional memory lets mice work their way into wall voids as Adair County's cold winters set in. Landlords who keep a consistent pest contract in place across tenant changes catch these entry points before a new resident ever notices a problem, which matters more in a college town than in a city with stable, long-term residents.",
+      },
+      {
+        heading: "Why do cluster flies show up in Kirksville homes every fall?",
+        body: "Cluster flies are a distinctly cold-climate problem, and Kirksville's position in northern Missouri's cold-humid belt gives them a reliable trigger every fall. As night temperatures drop, cluster flies seek out gaps in siding, attic vents, and window frames to overwinter inside wall cavities, then emerge sluggishly on warm days through the winter months. Older homes near downtown Kirksville, many built before modern sealing standards, offer more of these entry points than newer construction on the edges of town.",
+      },
+      {
+        heading: "Does living near Adair County farmland increase tick exposure in Kirksville?",
+        body: "Yes. Adair County's mix of farmland, pasture, and timber surrounding Kirksville gives ticks the brushy edge habitat they need, and properties bordering these areas see more tick activity from spring through fall than lots deep inside the city grid. Pets and kids moving between mowed yards and taller grass at a property's edge carry the greatest exposure risk. A perimeter treatment focused on that transition zone, rather than the whole yard, is usually the more effective and less costly approach for Kirksville homeowners.",
+      },
+    ],
+    prevention: [
+      "Ask landlords near the Truman State and A.T. Still campuses about sealing history before signing a new lease.",
+      "Seal foundation gaps, door thresholds, and window screens before fall to reduce mouse and cluster fly entry.",
+      "Check attic vents and siding gaps each September ahead of the cluster fly season.",
+      "Treat the brush line where mowed yards meet farmland or timber to cut tick exposure for pets and kids.",
+      "Schedule an annual termite inspection given the age of the housing stock near downtown.",
+    ],
+    costNote:
+      "Mouse exclusion work in Kirksville's older rental homes typically runs $150 to $350 depending on the number of entry points. Termite inspections in the downtown area often run $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Kirksville see so many cluster flies in the fall?",
+        answer: "Kirksville sits in northern Missouri's cold-humid climate belt, and as fall temperatures drop, cluster flies seek out gaps in siding and attic vents to overwinter inside wall cavities, a pattern especially common in the city's older homes near downtown.",
+      },
+      {
+        question: "Does student housing turnover in Kirksville make mouse problems worse?",
+        answer: "It can. Kirksville's steady yearly turnover of student tenants near Truman State University and A.T. Still University means fewer people notice small foundation or screen gaps before cold weather sets in, giving mice more chances to get inside unnoticed.",
+      },
+      {
+        question: "Are ticks a real concern in Kirksville or just in rural Adair County?",
+        answer: "Both. Adair County's farmland and timber surrounding Kirksville give ticks brushy edge habitat, and properties on the city's outer edges bordering that land see meaningfully more tick activity from spring through fall than lots near the downtown core.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Chillicothe", slug: "chillicothe-mo", stateSlug: "missouri" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Kirksville, MO | Adair County Missouri",
+    metaDescription:
+      "Kirksville, MO pest control for cluster flies, student-rental mice, Adair County ticks, and termites in older homes. Free inspection.",
+  },
+  {
+    slug: "chillicothe-mo",
+    name: "Chillicothe",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~9,107",
+    county: "Livingston County",
+    climate: "cold-humid",
+    climateDriver:
+      "Chillicothe sits in Livingston County in Missouri's cold-humid northern belt, with cold winters and humid summers along the Grand River valley. The city's downtown core, home to the building where the Chillicothe Baking Company sold the world's first commercially sliced bread on July 7, 1928, sits low along the river bottomland, an area prone to seasonal moisture that shapes pest pressure differently than the drier ground on the edge of town.",
+    topPests: ["Cockroaches", "Mosquitoes", "Mice", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Chillicothe's downtown grew up around grain handling and food service, and the older commercial buildings near the Grand River still see steady cockroach pressure tied to that history.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "The Grand River's low bottomland near Chillicothe holds standing water after spring rain longer than higher ground elsewhere in Livingston County, giving mosquitoes a reliable breeding ground.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Livingston County's cold winters send mice looking for gaps in both Chillicothe's historic downtown buildings and the surrounding residential streets.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Many wood-frame homes near Chillicothe's historic downtown date to the early 1900s grain-boom years, and moisture damage in aging siding gives carpenter ants a foothold.",
+      },
+    ],
+    localHook:
+      "Chillicothe holds the title 'Home of Sliced Bread' because the Chillicothe Baking Company was the first bakery anywhere to sell bread pre-sliced to the public, on July 7, 1928, using the Rohwedder bread slicer built by Iowa inventor Otto Frederick Rohwedder. The city sits as the Livingston County seat along the Grand River, and its downtown food-service and grain-handling history left a concentration of older commercial buildings near the river bottomland.",
+    intro:
+      "Chillicothe earned its 'Home of Sliced Bread' title on July 7, 1928, when the Chillicothe Baking Company became the first bakery anywhere to sell bread already sliced, using a machine built by Iowa inventor Otto Frederick Rohwedder. That food-service legacy still shapes the pest picture downtown, where older commercial buildings near the Grand River see steady cockroach pressure tied to grain handling, restaurants, and the moisture that collects along the river bottomland. The Grand River itself adds mosquito breeding habitat through the warm months, while Livingston County's cold winters send mice looking for gaps in both the historic downtown and the surrounding residential streets. Carpenter ants take advantage of any moisture damage in the older wood-frame homes near downtown, a pattern tied to the age of the construction more than any single cause. A property owner's location relative to the river, more than any other single factor, tends to predict which of these four pests shows up first each year in Chillicothe.",
+    sections: [
+      {
+        heading: "Why does Chillicothe's food-industry history still affect cockroach pressure downtown?",
+        body: "Chillicothe's downtown grew up around grain handling and food service, and that history, capped by the Chillicothe Baking Company's 1928 debut of the world's first commercially sliced bread, left a cluster of older commercial buildings that still house restaurants, bakeries, and grocers today. German cockroaches thrive in these buildings' warm kitchens and food storage areas, and the closer a building sits to the Grand River bottomland, the more consistent the moisture that keeps roach populations active through the winter months as well as summer.",
+      },
+      {
+        heading: "How does the Grand River shape mosquito season in Chillicothe?",
+        body: "The Grand River runs along Chillicothe's edge, and the low bottomland near the water holds standing pools after spring rain longer than the higher ground elsewhere in Livingston County. That standing water gives mosquitoes a reliable breeding ground from late spring through summer, and river-adjacent properties typically need a more aggressive larvicide and yard treatment approach than homes set back from the water.",
+      },
+      {
+        heading: "Do Chillicothe's older downtown homes see more carpenter ant activity?",
+        body: "Yes. Many of the wood-frame homes near Chillicothe's historic downtown date to the early 1900s grain-boom years, and any moisture damage in aging siding, window frames, or foundation sills gives carpenter ants a foothold they would not find in newer construction. Combined with Livingston County's humid summer pattern along the Grand River, these older homes need closer moisture monitoring than newer subdivisions on the edges of town. A technician checking window sills and porch framing during a routine visit will often catch early carpenter ant activity well before a homeowner notices sawdust-like debris on their own.",
+      },
+    ],
+    prevention: [
+      "Keep a recurring cockroach service in place for downtown restaurants, bakeries, and grocers.",
+      "Clear gutters and downspouts near the Grand River bottomland to cut standing water before mosquito season.",
+      "Seal foundation gaps and door thresholds before fall to reduce mouse entry.",
+      "Fix moisture damage in older wood-frame siding promptly to keep carpenter ants from moving in.",
+      "Schedule a spring inspection for homes within the historic downtown grain-boom construction era.",
+    ],
+    costNote:
+      "Cockroach service for Chillicothe's downtown food-service buildings is typically priced as a recurring monthly contract. Mosquito treatment for river-adjacent properties often runs $75 to $150 per visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Chillicothe have a reputation for cockroach problems downtown?",
+        answer: "Chillicothe's downtown grew up around grain handling and food service, a history capped by the Chillicothe Baking Company selling the world's first commercially sliced bread there in 1928, and the older commercial buildings from that era still draw German cockroaches into warm kitchens and food storage areas.",
+      },
+      {
+        question: "Does the Grand River make mosquito season worse in Chillicothe?",
+        answer: "Yes. The river's low bottomland near Chillicothe holds standing water after spring rain longer than higher ground elsewhere in Livingston County, giving mosquitoes a more reliable breeding ground through the warm months than an inland property would see.",
+      },
+      {
+        question: "Are Chillicothe's older homes more prone to carpenter ants?",
+        answer: "Many are. Homes near Chillicothe's historic downtown date to the early 1900s grain-boom years, and moisture damage in that aging construction gives carpenter ants an entry point that newer homes on the edge of town generally do not have.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Kirksville", slug: "kirksville-mo", stateSlug: "missouri" },
+      { name: "St. Joseph", slug: "st-joseph", stateSlug: "missouri" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Chillicothe, MO | Livingston County Missouri",
+    metaDescription:
+      "Chillicothe, MO pest control for downtown cockroaches, Grand River mosquitoes, fall mice, and carpenter ants in older homes. Free inspection.",
+  },
+  {
+    slug: "excelsior-springs-mo",
+    name: "Excelsior Springs",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~10,553",
+    county: "Clay County (also in Ray County)",
+    climate: "temperate",
+    climateDriver:
+      "Excelsior Springs sits in the Kansas City metro's temperate climate belt, straddling Clay and Ray Counties about 30 miles northeast of downtown Kansas City. The city grew explosively after 1880, when settlers discovered mineral springs on the site, eventually cataloging more than 20 separate springs and drawing hotels, bathhouses, and boarding houses built in the following decades, leaving a downtown core of century-old brick and wood-frame construction around the historic springs district.",
+    topPests: ["Subterranean Termites", "Carpenter Ants", "Silverfish", "Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Excelsior Springs' historic hotels and boarding houses sit on ground that has carried mineral-rich moisture for more than a century, exactly the condition subterranean termites look for in foundation soil.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The moisture that made Excelsior Springs a mineral-water destination also draws carpenter ants into the older wood-frame construction near the historic springs district.",
+      },
+      {
+        name: "Silverfish",
+        serviceSlug: "silverfish-control",
+        activeSeason: "Year-round, worse in damp basements",
+        note: "Basements and crawl spaces in buildings converted from the original hotel and bathhouse era hold the kind of persistent dampness silverfish need.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Older buildings in the historic springs district and newer homes on the edge of Excelsior Springs both see mice moving in as Kansas City metro winters set in.",
+      },
+    ],
+    localHook:
+      "Excelsior Springs was founded in 1880 after settlers discovered mineral springs believed to have medicinal value, and by the early 1900s the town had identified more than 20 separate mineral springs, including the Siloam and Regent springs, whose iron and manganese bicarbonate mix was so rare it had previously only been documented in four springs across all of Europe. That mineral-water tourism boom built a wave of hotels, bathhouses, and boarding houses in the decades after 1880, much of which still stands in the historic downtown.",
+    intro:
+      "Excelsior Springs owes its existence to water. Settlers found mineral springs on the site in 1880, and within two decades the town had cataloged more than 20 separate springs, including two whose rare iron and manganese mineral mix had previously only been found in four springs anywhere in Europe. That discovery built a wave of hotels, bathhouses, and boarding houses through the early 1900s, and much of that construction still stands in the historic downtown near the springs. Buildings and homes of that age, sitting on ground that has carried mineral-rich moisture for more than a century, see more termite and carpenter ant pressure than newer construction on higher, drier lots elsewhere in the Kansas City metro. Silverfish follow the same moisture pattern indoors, and mice round out the picture as the metro's colder months arrive. Few Kansas City suburbs built up around a single natural feature the way Excelsior Springs did, and that shared origin is exactly why so much of the historic downtown carries a similar pest risk profile today.",
+    sections: [
+      {
+        heading: "Why do Excelsior Springs' historic hotels and homes see more termite activity?",
+        body: "The hotels, bathhouses, and boarding houses built around Excelsior Springs' mineral springs in the decades after 1880 sit on ground that has held consistent moisture for more than a century, and that moisture is exactly what subterranean termites look for in foundation soil. Combined with the age of the wood-frame and brick construction in the historic downtown, these buildings need more frequent inspection than comparable structures on drier, higher ground elsewhere in Clay and Ray Counties.",
+      },
+      {
+        heading: "Does the springs district's moisture bring other pests besides termites?",
+        body: "Yes. Carpenter ants and silverfish both follow moisture into older buildings, and the ground around Excelsior Springs' more than 20 documented mineral springs has stayed damp for well over a century in some spots. Basements and crawl spaces in the historic downtown, particularly in buildings converted from the original hotel and bathhouse era, are worth checking for the kind of persistent dampness that draws both pests indoors.",
+      },
+      {
+        heading: "How does being part of the Kansas City metro affect pest service scheduling in Excelsior Springs?",
+        body: "Excelsior Springs sits about 30 miles northeast of downtown Kansas City, close enough for the same recurring-service scheduling that metro homeowners expect, but far enough that a technician familiar with the town's specific mix of historic springs-district construction and newer subdivisions on its outer edges makes a real difference. Older downtown buildings and newer homes on the edge of town typically need different treatment plans given the gap in their construction age, and a one-size-fits-all metro service plan will usually undertreat one group or overtreat the other.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for any building near the historic springs district.",
+      "Check basements and crawl spaces in converted hotel and bathhouse-era buildings for persistent dampness.",
+      "Address moisture damage in older wood-frame siding promptly to keep carpenter ants out.",
+      "Seal foundation gaps before fall to reduce mouse entry as metro-area temperatures drop.",
+      "Ask about a treatment plan suited to your building's construction age, not just its neighborhood.",
+    ],
+    costNote:
+      "Termite inspections for Excelsior Springs' historic downtown buildings typically run $150 to $325 given the age and moisture history of the ground. Silverfish treatment for damp basements is often bundled with a general moisture assessment. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do Excelsior Springs' old hotels have more pest problems than newer homes?",
+        answer: "The hotels and boarding houses built around Excelsior Springs' mineral springs after 1880 sit on ground that has carried consistent moisture for more than a century, which is exactly the condition that draws subterranean termites and carpenter ants into older wood-frame and brick construction.",
+      },
+      {
+        question: "Does Excelsior Springs' mineral spring water affect pest pressure?",
+        answer: "Indirectly, yes. The more than 20 mineral springs that made Excelsior Springs a destination after 1880 kept the surrounding ground damp for decades, and that persistent moisture in older basements and crawl spaces is what draws silverfish and carpenter ants indoors today.",
+      },
+      {
+        question: "Is Excelsior Springs treated differently from other Kansas City metro suburbs?",
+        answer: "In part. Excelsior Springs sits about 30 miles northeast of downtown Kansas City and shares the metro's temperate climate, but its historic springs-district construction is considerably older than most metro subdivisions, so a technician typically recommends a different inspection schedule for downtown buildings than for newer homes on the edge of town.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Liberty", slug: "liberty", stateSlug: "missouri" },
+      { name: "Kansas City", slug: "kansas-city", stateSlug: "missouri" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Excelsior Springs, MO | Clay County Missouri",
+    metaDescription:
+      "Excelsior Springs, MO pest control for termites and carpenter ants in historic spring-district buildings, silverfish, and fall mice. Free inspection.",
+  },
+  {
+    slug: "neosho-mo",
+    name: "Neosho",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~12,590",
+    county: "Newton County",
+    climate: "hot-humid",
+    climateDriver:
+      "Neosho sits in south central Newton County in the warmer, more humid pocket of southwest Missouri's Ozark foothills, about 15 miles south-southeast of Joplin. Shoal Creek, a tributary of the Neosho River, runs through the city across karst limestone terrain, and the town has operated the Neosho National Fish Hatchery since 1888, the oldest hatchery in the National Fish Hatchery System.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Ticks", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall, longer than northern Missouri",
+        note: "Neosho's karst limestone terrain keeps foundation-level moisture more consistent through the year, and the warmer southwest Missouri climate extends termite season beyond what northern Missouri towns see.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Shoal Creek and the ponds at the Neosho National Fish Hatchery, operating since 1888, both add still-water surface area that gives mosquitoes reliable breeding habitat.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "The heavily wooded Ozark foothills surrounding Neosho concentrate ticks at the brush and tree line where lawns give way to timber.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Neosho's warmer, more humid southwest Missouri climate keeps German cockroach pressure active indoors for more of the year than a northern Missouri town would see.",
+      },
+    ],
+    localHook:
+      "Neosho has been known as 'the Flower Box City' since 1957, and it has hosted the Neosho National Fish Hatchery since 1888, the oldest continuously operating hatchery in the national system, which still raises rainbow trout for release into Lake Taneycomo. Shoal Creek runs through town across the karst limestone terrain typical of the Ozark foothills, and Neosho sits in Newton County about 15 miles south-southeast of Joplin.",
+    intro:
+      "Neosho has carried two identities for well over a century: 'the Flower Box City' since 1957, and home to the Neosho National Fish Hatchery since 1888, the oldest hatchery still operating in the national system. Shoal Creek runs through town across the karst limestone terrain common to the Ozark foothills here in southwest Missouri, and that terrain, combined with a climate noticeably warmer and more humid than northern Missouri towns see, gives Neosho a longer termite season than a comparable town further north would experience. The creek and hatchery ponds add consistent mosquito breeding habitat through the warm months, and the wooded Ozark foothills surrounding Neosho put ticks in play from spring through fall for anyone spending time outdoors near the tree line. Cockroaches round out the picture indoors, active nearly year-round in this warmer pocket of the state. Few towns this size in Missouri combine a limestone base, a year-round creek, and a genuinely warmer climate all at once, which is why Neosho's pest calendar runs noticeably longer than a similarly sized town just a county or two to the north.",
+    sections: [
+      {
+        heading: "Why does Neosho's karst limestone terrain affect termite pressure?",
+        body: "Karst limestone terrain, common across the Ozark foothills surrounding Neosho, moves groundwater differently than the flatter soil found in northern Missouri, often keeping foundation-level moisture more consistent through the year. Combined with southwest Missouri's warmer, more humid climate compared to the rest of the state, that moisture gives subterranean termites a longer active season in Neosho than a town in the state's northern half would see.",
+      },
+      {
+        heading: "Does Shoal Creek and the fish hatchery add to Neosho's mosquito pressure?",
+        body: "Yes. Shoal Creek runs directly through Neosho, and the Neosho National Fish Hatchery, operating continuously since 1888, maintains ponds that add still-water surface area on top of the creek itself. Both give mosquitoes reliable breeding habitat through the warm season, and properties near the creek or hatchery grounds typically see more consistent mosquito pressure than homes set back from the water.",
+      },
+      {
+        heading: "Why do ticks show up more around Neosho's wooded edges than in town?",
+        body: "The Ozark foothills surrounding Neosho are heavily wooded, and ticks concentrate at the brush and tree line where lawns give way to timber, waiting for a person or pet to brush past. Homes backing onto wooded lots near the edge of town see more tick activity through spring, summer, and fall than properties in the denser blocks closer to downtown, and a perimeter treatment along that tree line is usually the most effective response. Checking pets after any walk near the tree line matters just as much as the yard treatment itself.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection earlier in spring than a northern Missouri property would need, given the longer active season here.",
+      "Clear standing water near Shoal Creek and hatchery-adjacent properties through the summer.",
+      "Treat the wooded tree line at the edge of your property to reduce tick exposure for pets and kids.",
+      "Keep a recurring cockroach service in place given the nearly year-round indoor pressure in this climate.",
+      "Check crawl spaces on karst-terrain lots for consistent moisture that could draw termites.",
+    ],
+    costNote:
+      "Termite inspections in Neosho typically run $150 to $300, often scheduled earlier in the year given the extended active season. Mosquito treatment for creek-adjacent properties is commonly priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Neosho have a longer termite season than northern Missouri towns?",
+        answer: "Neosho sits in the warmer, more humid pocket of southwest Missouri's Ozark foothills, and its karst limestone terrain keeps foundation-level soil moisture more consistent through the year, both of which extend subterranean termite activity well beyond what a northern Missouri town typically sees.",
+      },
+      {
+        question: "Does the Neosho National Fish Hatchery attract mosquitoes?",
+        answer: "Its ponds add still-water surface area on top of Shoal Creek, which already runs through town, and together they give mosquitoes more reliable breeding habitat through the warm months than a Neosho property away from either water source would see.",
+      },
+      {
+        question: "Are ticks worse in Neosho than in a typical Missouri town?",
+        answer: "The heavily wooded Ozark foothills surrounding Neosho concentrate ticks at the brush and tree line, so properties backing onto wooded lots near the edge of town see meaningfully more tick pressure through spring, summer, and fall than lots closer to the denser downtown blocks.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Joplin", slug: "joplin", stateSlug: "missouri" },
+      { name: "Webb City", slug: "webb-city", stateSlug: "missouri" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Neosho, MO | Newton County Southwest Missouri",
+    metaDescription:
+      "Neosho, MO pest control for extended-season termites, Shoal Creek mosquitoes, Ozark foothill ticks, and year-round cockroaches. Free inspection.",
+  },
+  {
+    slug: "fulton-mo",
+    name: "Fulton",
+    state: "Missouri",
+    stateSlug: "missouri",
+    stateAbbr: "MO",
+    tier: "T3",
+    population: "~12,602",
+    county: "Callaway County",
+    climate: "temperate",
+    climateDriver:
+      "Fulton sits in Callaway County in central Missouri's temperate climate belt, halfway between Columbia and Jefferson City. The city has served as county seat since its 1825 founding and 1859 incorporation, and Westminster College, on Fulton's campus since the 1850s, hosted Winston Churchill's 'Sinews of Peace' address on March 5, 1946, the speech that gave the world the phrase 'iron curtain.'",
+    topPests: ["Subterranean Termites", "Carpenter Ants", "Mice", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Fulton's historic Westminster College buildings, some dating to the 1850s founding era, and the older downtown near the courthouse carry more termite risk than newer construction on the edges of town.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Moisture damage in Fulton's older academic and courthouse-square buildings gives carpenter ants an entry point that newer construction generally does not offer.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "As central Missouri's temperate summer gives way to cooler fall nights, mice look for the small foundation and utility gaps common in Fulton's older homes near downtown and the college campus.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Restaurants and offices in the older buildings around Fulton's courthouse square see steadier cockroach pressure than newer commercial space, largely a function of building age.",
+      },
+    ],
+    localHook:
+      "Fulton is best known as the site of Winston Churchill's March 5, 1946 'Sinews of Peace' address at Westminster College, delivered to an audience of 1,500 and remembered today as the speech that introduced the phrase 'iron curtain' to describe the divide between Western Europe and the Soviet bloc. The college later added a 12th-century London church, moved stone by stone to the Fulton campus in the mid-1960s, as part of the Winston Churchill Memorial and Library. Fulton has served as the Callaway County seat since its founding in 1825.",
+    intro:
+      "Fulton is known worldwide for a single afternoon: March 5, 1946, when Winston Churchill stood at Westminster College and delivered the address that gave the world the phrase 'iron curtain.' Less known is that the college later moved a 12th-century London church stone by stone to its Fulton campus in the 1960s, alongside a run of older academic buildings dating back to Westminster's founding in the 1850s. Central Missouri's temperate climate keeps termite and carpenter ant activity moderate compared to the more extreme south or north of the state, but the age of Fulton's historic campus and downtown core still matters more than the climate does. Mice and cockroaches follow the same pattern in Fulton's older commercial buildings near the county courthouse, where construction age predicts pest risk better than any single seasonal factor. Between the college campus and the courthouse square, Fulton has an unusually large share of its building stock old enough to warrant that closer look.",
+    sections: [
+      {
+        heading: "Why do Fulton's historic Westminster College buildings need careful termite monitoring?",
+        body: "Westminster College has occupied its Fulton campus since the 1850s, and several academic buildings from that founding era, along with the 12th-century stone church moved to campus in the mid-1960s as part of the Winston Churchill Memorial, represent some of the oldest structures in Callaway County. Age matters more than climate here. Central Missouri's temperate conditions do not push termite pressure as hard as southwest Missouri's warmer climate does, but a building's construction decade still predicts its risk closely, and Fulton's historic campus carries more of that risk than newer construction on the edges of town.",
+      },
+      {
+        heading: "Does Fulton's role as Callaway County seat affect commercial pest pressure downtown?",
+        body: "Fulton has served as the Callaway County seat since its 1825 founding, and the courthouse square area built up around that role includes some of the town's oldest commercial buildings. Restaurants and offices in these older structures see steadier cockroach pressure than newer commercial space, largely a function of building age and shared wall construction rather than anything specific to the courthouse square itself.",
+      },
+      {
+        heading: "Why do mice become more of a problem in Fulton homes in the fall?",
+        body: "As central Missouri's temperate summer gives way to cooler fall nights, mice in and around Fulton start looking for indoor shelter, and older homes near downtown and the Westminster College campus offer more of the small gaps around foundations and utility lines that mice use to get inside than newer construction does. Sealing these gaps before the weather turns is more effective than waiting until mice are already active indoors.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any building on or near the Westminster College campus given its founding-era age.",
+      "Address moisture damage in older academic and courthouse-square buildings promptly to keep carpenter ants out.",
+      "Seal foundation and utility-line gaps before fall to reduce mouse entry.",
+      "Keep a recurring cockroach service in place for restaurants and offices near the courthouse square.",
+      "Ask for a treatment plan based on your building's construction era rather than its neighborhood alone.",
+    ],
+    costNote:
+      "Termite inspections for Fulton's historic campus and courthouse-square buildings typically run $150 to $300. Mouse exclusion work in older downtown homes often runs $150 to $350 depending on entry points. Free inspection included.",
+    faqs: [
+      {
+        question: "Does Fulton's historic Westminster College campus have a higher termite risk?",
+        answer: "Some of it does. Westminster College has occupied its Fulton campus since the 1850s, and buildings from that founding era, along with the 12th-century stone church added in the 1960s, are among the oldest structures in Callaway County, which generally means more termite exposure than newer construction nearby.",
+      },
+      {
+        question: "Why do restaurants near Fulton's courthouse square deal with more cockroaches?",
+        answer: "Fulton has been the Callaway County seat since 1825, and the courthouse square area built up around that role includes some of the town's oldest commercial buildings, where building age and shared walls make German cockroach pressure steadier than in newer commercial space elsewhere in town.",
+      },
+      {
+        question: "Is Fulton's climate a major factor in its pest pressure?",
+        answer: "Less than you might expect. Fulton sits in central Missouri's temperate belt, which keeps termite and ant activity more moderate than southwest Missouri's warmer climate, so building age around downtown and the Westminster College campus predicts risk more reliably than the season alone.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Columbia", slug: "columbia-mo", stateSlug: "missouri" },
+      { name: "St. Charles", slug: "st-charles", stateSlug: "missouri" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Fulton, MO | Callaway County Missouri",
+    metaDescription:
+      "Fulton, MO pest control for termites in historic campus buildings, carpenter ants, fall mice, and courthouse-square cockroaches. Free inspection.",
+  },
 ];

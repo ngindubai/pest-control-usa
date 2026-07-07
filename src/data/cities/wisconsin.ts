@@ -4173,4 +4173,455 @@ export const wisconsinCities: CityLocation[] = [
     metaDescription:
       "Baraboo, WI pest control for ticks and spiders near Devil's Lake State Park, harvest-driven mice, and cluster flies. Sauk County Baraboo Hills service.",
   },
+  {
+    slug: "stoughton-wi",
+    name: "Stoughton",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~13,170",
+    county: "Dane County",
+    climate: "cold-humid",
+    climateDriver:
+      "Stoughton sits in Dane County's cold-humid climate zone, with cold, snowy winters and warm, humid summers typical of southern Wisconsin. The city's historic downtown along the Yahara River dates largely to the late 1800s, when Norwegian immigrants arriving through the latter half of that century built up much of the wood-frame housing stock that still stands near the river today.",
+    topPests: ["Carpenter Ants", "Mosquitoes", "Subterranean Termites", "Mice"],
+    pestProfile: [
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, indoor nesting in winter",
+        note: "Stoughton's older wood-frame homes near the Yahara River, many dating to the Norwegian settlement era of the late 1800s, give carpenter ants soft, moisture-damaged wood to hollow out for nests close to downtown.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "The Yahara River corridor running through downtown and Yahara River Park gives mosquitoes reliable breeding habitat through Wisconsin's humid summer stretch.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through early fall",
+        note: "Southern Dane County's warmer soil temperatures relative to northern Wisconsin let termite colonies stay active longer into the year, a real risk for Stoughton's older riverside homes.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Stoughton's cold winters push mice toward the gaps and foundation cracks common in the city's older Norwegian-era homes as soon as fall temperatures drop.",
+      },
+    ],
+    localHook:
+      "Stoughton was founded in 1847 by Luke Stoughton, an English immigrant from Vermont, but the city's character was shaped by the Norwegian immigrants who arrived from 1865 through the early 1900s and still celebrate Syttende Mai, Norway's constitution day, as a citywide event each May. The Yahara River runs directly through downtown, and the 1858 former First Universalist Church and the restored 1900 Opera House still stand as reminders of how much of Stoughton's core was built up during that same immigration wave.",
+    intro:
+      "Norwegian immigrants transformed Stoughton between 1865 and the early 1900s, and the wood-frame and brick buildings they put up along the Yahara River are still doing double duty today: housing residents and, less happily, giving carpenter ants and termites a long-established foothold near downtown. Stoughton's Syttende Mai celebration each May marks that heritage, but the practical legacy is a historic core with a lot of moisture-exposed, century-plus-old wood framing close to a river that floods enough to keep the soil damp for weeks at a stretch. Add southern Wisconsin's humid summer pattern and the picture is fairly clear: mosquitoes breeding along the river, carpenter ants working through softened wood near downtown, subterranean termites staying active later into the fall than a colder northern Wisconsin town would see, and mice looking for a way indoors once the cold sets in. None of this is unique to any one Stoughton street, since so much of the historic district went up within a few overlapping decades of Norwegian settlement, which means a lot of nearby homes share the same age-related exposure regardless of exactly when a given house last had its foundation checked.",
+    sections: [
+      {
+        heading: "Why does the Yahara River add pest pressure to downtown Stoughton?",
+        body: "The Yahara River cuts directly through Stoughton's downtown, and the low, flat ground near the water holds moisture longer after rain or spring melt than higher ground elsewhere in the city. That sustained dampness gives mosquitoes a longer breeding window each summer and keeps the soil around riverside foundations wet enough to draw subterranean termites and carpenter ants toward wood that other Dane County properties might not offer.",
+      },
+      {
+        heading: "How did Norwegian immigration shape Stoughton's pest risk today?",
+        body: "Norwegian immigrants arrived in large numbers between 1865 and the early 1900s, building up much of the wood-frame and brick housing still standing near downtown, including structures like the 1858 former First Universalist Church. That concentrated building period means a large share of Stoughton's historic core shares a similar age and similar exposure to carpenter ants and termite activity, since wood framing from that era has had well over a century to develop the small gaps and moisture points these pests exploit.",
+      },
+      {
+        heading: "Does Stoughton's termite season run longer than towns further north in Wisconsin?",
+        body: "Yes, modestly. Southern Dane County's soil warms earlier in spring and holds heat longer into fall than soil in Wisconsin's northern counties, which extends the window subterranean termites stay active. A Stoughton property owner with an older, riverside home should expect swarming activity to start a bit earlier and taper off a bit later than a comparable home in the state's north woods.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection each spring given the age and river proximity of Stoughton's historic downtown homes.",
+      "Keep mulch and woodpiles away from foundations near the Yahara River to reduce carpenter ant access to moisture-softened wood.",
+      "Clear gutters and downspouts before the spring melt to keep water away from older foundations.",
+      "Seal foundation gaps and utility entry points before fall to reduce mouse entry.",
+      "Address any standing water near riverside properties through the summer mosquito season.",
+    ],
+    costNote:
+      "Termite inspections in Stoughton typically run $150 to $300 given the age of the riverside historic district. Carpenter ant treatment for moisture-damaged wood is often priced separately from a standard termite plan. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Stoughton have so much older wood-frame housing near downtown?",
+        answer: "Norwegian immigrants arrived in large numbers between 1865 and the early 1900s and built up much of Stoughton's downtown housing stock during that period, leaving a concentration of wood-frame and brick homes now well over a century old near the Yahara River.",
+      },
+      {
+        question: "Does the Yahara River increase pest pressure in Stoughton?",
+        answer: "Yes. The low ground near the river holds moisture longer than higher parts of the city, which extends the mosquito breeding season and keeps soil around riverside foundations damp enough to draw termites and carpenter ants.",
+      },
+      {
+        question: "Is Stoughton's pest pressure similar to Madison's?",
+        answer: "Broadly yes for termites and mosquitoes, since both sit in the same southern Dane County climate zone, though Stoughton's concentrated Norwegian-era building boom gives its historic downtown a more uniform housing age than a larger, more varied city like Madison.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Fort Atkinson", slug: "fort-atkinson-wi", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Stoughton, WI | Dane County Wisconsin",
+    metaDescription:
+      "Stoughton, WI pest control for river-driven mosquitoes, carpenter ants and termites in historic Norwegian-era homes, and fall mice. Free inspection.",
+  },
+  {
+    slug: "fort-atkinson-wi",
+    name: "Fort Atkinson",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~12,580",
+    county: "Jefferson County",
+    climate: "cold-humid",
+    climateDriver:
+      "Fort Atkinson sits in Jefferson County's cold-humid climate zone, with cold winters and warm, humid summers typical of south-central Wisconsin. The city grew up along the Rock River around a military outpost from the 1832 Black Hawk War, and its downtown core includes buildings dating back to the 1836 founding era, a housing stock old enough to carry real age-related pest exposure near the water.",
+    topPests: ["Mosquitoes", "Flies", "Rats", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Fort Atkinson sits directly on the Rock River a few miles upstream from Lake Koshkonong, and the river corridor through downtown gives mosquitoes steady breeding habitat through Wisconsin's humid summer months.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Spring through fall",
+        note: "Jones Dairy Farm and the area's long dairy farming history mean Fort Atkinson properties near agricultural operations see heavier fly pressure than a purely residential Jefferson County town would.",
+      },
+      {
+        name: "Rats",
+        serviceSlug: "rat-control",
+        activeSeason: "Year-round, worse in fall",
+        note: "The mix of riverside development and nearby dairy and food processing operations gives rats more food and shelter options in Fort Atkinson than a town without that agricultural base, with pressure rising as rodents seek shelter each fall.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The oldest surviving structures from Fort Atkinson's 1836 founding era represent the oldest end of a housing stock where moisture-softened wood near the Rock River draws carpenter ants.",
+      },
+    ],
+    localHook:
+      "Fort Atkinson was named for General Henry Atkinson, who commanded U.S. forces at Fort Koshkonong during the 1832 Black Hawk War, and the town's permanent settlement began in 1836 at that same strategic site along the Rock River. The city grew into a dairy center after Milo Jones founded Jones Dairy Farm in 1889, a company still operating in Fort Atkinson today, and Hoard's Dairyman, the national dairy industry publication, has been based here since the 1800s as well. The Rock River runs through town on its way to Lake Koshkonong a few miles downstream.",
+    intro:
+      "Fort Atkinson grew up around a military outpost from the 1832 Black Hawk War and turned into one of Wisconsin's dairy centers within a few decades of its 1836 settlement, and that combination, a river town with a long agricultural history, still shapes pest pressure here. The Rock River runs straight through Fort Atkinson on its way to Lake Koshkonong, giving mosquitoes a reliable breeding corridor each summer. Jones Dairy Farm, founded in 1889 and still in operation, sits alongside a broader dairy farming tradition that brings more fly and rat pressure to Fort Atkinson than a comparable Jefferson County town without that agricultural base would see. Add a downtown core with buildings dating back toward the 1836 founding era, and carpenter ants find plenty of aging, moisture-exposed wood near the river to work through. It is not a coincidence that the pests causing the most trouble here track so closely with the two things that built the town: the river and the dairy industry.",
+    sections: [
+      {
+        heading: "How does the Rock River affect mosquito pressure in Fort Atkinson?",
+        body: "Fort Atkinson sits directly on the Rock River a few miles upstream from Lake Koshkonong, and low ground near the water holds standing water longer after rain than higher parts of town. That gives mosquitoes a longer, more reliable breeding season through the summer than a Jefferson County property away from the river would typically face.",
+      },
+      {
+        heading: "Why does Fort Atkinson's dairy history mean more fly and rat pressure?",
+        body: "Jones Dairy Farm has operated in Fort Atkinson since 1889, and the surrounding area still carries a strong dairy and agricultural tradition dating back to Milo Jones' original 1832 farm. Properties near this kind of food processing and agricultural activity see more consistent fly breeding and more rat activity than a purely residential town, since both pests key in on the food and shelter that farming and processing operations provide. Hoard's Dairyman, the national dairy trade publication still headquartered in Fort Atkinson, and the barns and processing sheds scattered around town extend that fly and rodent pressure well beyond the farms themselves.",
+      },
+      {
+        heading: "Does Fort Atkinson's 1836 founding-era core need special attention for carpenter ants?",
+        body: "The oldest structures near downtown, some built during the 1836 settlement period, represent wood framing that has had close to two centuries to develop the moisture points and soft spots carpenter ants target. Riverside proximity adds to that risk, since damp ground keeps wood near the water softer than drier lots elsewhere in Fort Atkinson.",
+      },
+    ],
+    prevention: [
+      "Schedule fly control measures each spring for properties near dairy or agricultural operations.",
+      "Keep exterior food storage sealed and garbage contained to reduce rat activity around dairy-adjacent properties.",
+      "Clear standing water near the Rock River through the summer mosquito season.",
+      "Have an annual inspection for carpenter ants given the age of Fort Atkinson's founding-era downtown structures.",
+      "Seal foundation gaps before cold weather to reduce rat and mouse entry as temperatures drop.",
+    ],
+    costNote:
+      "Fly and rat control near Fort Atkinson's dairy-adjacent properties is often priced as a recurring commercial service rather than a one-time visit. Termite and carpenter ant inspections for older downtown homes typically run $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Fort Atkinson have more fly pressure than some nearby towns?",
+        answer: "Fort Atkinson has a long dairy farming history dating to Milo Jones' 1832 farm and the Jones Dairy Farm founded in 1889, and properties near this kind of agricultural activity see more consistent fly breeding than a purely residential Jefferson County town.",
+      },
+      {
+        question: "Does the Rock River increase mosquito risk in Fort Atkinson?",
+        answer: "Yes. Fort Atkinson sits directly on the river a few miles upstream from Lake Koshkonong, and the low ground near the water holds standing water longer after rain, giving mosquitoes a longer breeding season than properties away from the river.",
+      },
+      {
+        question: "Is Fort Atkinson's carpenter ant risk tied to its history?",
+        answer: "Yes, particularly downtown. Structures from the 1836 founding era represent some of the oldest wood framing in town, and that age combined with riverside moisture gives carpenter ants more opportunity than newer construction elsewhere in Fort Atkinson.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Watertown", slug: "watertown-wi", stateSlug: "wisconsin" },
+      { name: "Stoughton", slug: "stoughton-wi", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Fort Atkinson, WI | Jefferson County Wisconsin",
+    metaDescription:
+      "Fort Atkinson, WI pest control for Rock River mosquitoes, dairy-area flies and rats, and carpenter ants in founding-era homes. Free inspection.",
+  },
+  {
+    slug: "rhinelander-wi",
+    name: "Rhinelander",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~8,285",
+    county: "Oneida County",
+    climate: "cold",
+    climateDriver:
+      "Rhinelander sits in Wisconsin's north woods as the seat of Oneida County, a region with a colder climate and longer winters than southern Wisconsin, plus one of the state's densest concentrations of lakes and forest. The city grew up during the unregulated logging boom of the late 1800s, leaving a wooded, tree-lined footprint across much of town that still shapes pest exposure today.",
+    topPests: ["Ticks", "Mosquitoes", "Carpenter Ants", "Mice"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Rhinelander sits in Wisconsin's north woods lake country, and the wooded, brushy terrain surrounding the city gives deer ticks far more habitat than a property in the state's more open southern farmland would face.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Oneida County's dense concentration of lakes and wetlands around Rhinelander gives mosquitoes abundant breeding water through the warm season.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, worse near tree lines",
+        note: "Rhinelander grew up as a lumber town, and properties near the wooded lots common throughout the city give carpenter ants ready access to moisture-softened wood, especially near tree lines.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Oneida County's colder, longer winters compared to southern Wisconsin push mice toward indoor shelter earlier in the fall and keep them active longer into spring.",
+      },
+    ],
+    localHook:
+      "Rhinelander sits in Wisconsin's north woods lake country as the seat of Oneida County, a region built up during the unregulated logging boom of the late 1800s. The city is best known for the Hodag, a fearsome mythical creature first reported in 1893 by local prankster and lumberjack Eugene Shepard, who later admitted his captured Hodag was a hoax built from wood and oxen hide. The Hodag remains Rhinelander's official symbol today, and the surrounding lakes and forest that once fed the lumber industry now define the region's wooded, water-heavy geography.",
+    intro:
+      "Rhinelander's most famous export is a fake monster. Eugene Shepard's 1893 Hodag hoax, a wood-and-leather creature he claimed to have captured in the woods outside town, is still the city's official symbol, and it says something about the terrain that a lumberjack's prank about a beast in the forest stuck for over a century. That same forest and lake country, part of Wisconsin's north woods, is what actually drives pest pressure in Rhinelander today, mainly through deer ticks in the wooded, brushy terrain around town and mosquitoes breeding in Oneida County's dense concentration of lakes. Carpenter ants find plenty of moisture-softened wood in a city with as many tree-lined lots as Rhinelander has, a legacy of its lumber-town roots, and the region's colder, longer winters compared to southern Wisconsin push mice indoors earlier each fall. None of this is exotic for a north woods town, but it does mean a Rhinelander property owner is managing a different mix of risk than a homeowner in Madison or Milwaukee would be, tick-borne disease risk chief among the differences.",
+    sections: [
+      {
+        heading: "Why does Rhinelander see more tick pressure than southern Wisconsin towns?",
+        body: "Rhinelander sits within Wisconsin's north woods, a region of dense forest, brush, and lake country very different from the state's more open southern farmland. That wooded terrain gives deer ticks far more habitat close to homes and yards than a comparable property in southern Wisconsin would face, which raises the stakes around tick checks and yard maintenance for anyone spending time outdoors here.",
+      },
+      {
+        heading: "How do Oneida County's lakes affect mosquito breeding around Rhinelander?",
+        body: "Oneida County has one of the densest concentrations of lakes in Wisconsin, and that abundance of standing water gives mosquitoes far more breeding habitat through the warm months than a county with fewer lakes would offer. Properties near any of the lakes surrounding Rhinelander should expect a longer, more consistent mosquito season as a result.",
+      },
+      {
+        heading: "Does Rhinelander's lumber-town history still affect carpenter ant risk?",
+        body: "Rhinelander grew up during the unregulated logging boom of the late 1800s, and the wooded lots throughout the city, many close to tree lines, still give carpenter ants ready access to moisture-damaged wood. Combined with a colder climate that keeps ground moisture around longer into spring, that makes carpenter ants a more persistent concern here than in a more open, less forested Wisconsin town. Downtown buildings from that same lumber-boom period, many now well over a century old, share the same wood-frame vulnerability as residential lots nearby, giving the problem a genuinely citywide footprint rather than one confined to a single neighborhood.",
+      },
+    ],
+    prevention: [
+      "Check for ticks after any time spent in wooded or brushy areas around Rhinelander through spring, summer, and fall.",
+      "Keep grass cut short and clear brush near the house to reduce tick habitat close to the yard.",
+      "Clear standing water near lakeside properties through the mosquito season.",
+      "Trim tree branches away from the house to reduce carpenter ant access to the structure.",
+      "Seal foundation gaps before the region's early, long winter sets in to reduce mouse entry.",
+    ],
+    costNote:
+      "Tick treatment for wooded Rhinelander properties is often priced as a seasonal yard treatment. Carpenter ant treatment for tree-line properties typically runs alongside a standard inspection. Free inspection included.",
+    faqs: [
+      {
+        question: "Does Rhinelander have a higher tick risk than other parts of Wisconsin?",
+        answer: "Yes, generally. Rhinelander sits within Wisconsin's north woods, a region of dense forest and brush that gives deer ticks more habitat than the state's more open southern farmland, which raises the importance of tick checks for anyone spending time outdoors here.",
+      },
+      {
+        question: "Why are there so many lakes around Rhinelander, and does that affect mosquitoes?",
+        answer: "Rhinelander sits in Oneida County, one of the most lake-dense counties in Wisconsin, and that abundance of standing water gives mosquitoes a longer, more reliable breeding season than a county with fewer lakes would see.",
+      },
+      {
+        question: "Is Rhinelander's pest pressure related to its lumber industry history?",
+        answer: "Partly. Rhinelander grew up during the unregulated logging boom of the late 1800s, and the wooded, tree-lined lots common throughout the city still give carpenter ants more access to moisture-damaged wood than a less forested Wisconsin town would face.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Wausau", slug: "wausau", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Rhinelander, WI | Oneida County North Woods",
+    metaDescription:
+      "Rhinelander, WI pest control for north woods ticks, lake-driven mosquitoes, carpenter ants, and fall mice. Free inspection.",
+  },
+  {
+    slug: "sturgeon-bay-wi",
+    name: "Sturgeon Bay",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~9,650",
+    county: "Door County",
+    climate: "cold-humid",
+    climateDriver:
+      "Sturgeon Bay sits on the Door Peninsula in a cold-humid climate zone shaped by Lake Michigan on one side and Green Bay on the other, giving the city lake-effect snow and moisture that a comparable inland Wisconsin town would not see. The city's older waterfront and shipyard-era buildings, some dating to the 1880s canal-building and limestone quarrying era, carry real age-related pest exposure close to the water.",
+    topPests: ["Mosquitoes", "Carpenter Ants", "Cluster Flies", "Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Sturgeon Bay's position on the Door Peninsula between Lake Michigan and Green Bay puts it near water on both sides, and the marshy, low-lying stretches around the shipping canal give mosquitoes steady breeding habitat through summer.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Homes near Sturgeon Bay's historic shipbuilding district, some dating to the limestone quarrying and canal-building era of the 1880s, give carpenter ants aging, moisture-exposed wood to target close to the waterfront.",
+      },
+      {
+        name: "Cluster Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Fall, overwintering in structures",
+        note: "The Door Peninsula's surrounding farmland and rural stretches near Sturgeon Bay give cluster flies more outdoor breeding ground than a purely urban area, and they seek out homes to overwinter as fall temperatures drop.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Door County's cold, lake-effect winters push mice toward the gaps and cracks common in Sturgeon Bay's older waterfront and shipyard-era buildings each fall.",
+      },
+    ],
+    localHook:
+      "Sturgeon Bay was settled in 1835 and grew first as a lumbering community, then as a center of limestone quarrying that shipped stone to ports across the region for harbor construction. The completion of a shipping canal in the 1880s linked the bay directly to Lake Michigan, giving vessels a safe route around the dangerous Porte des Morts strait known locally as Death's Door, and turned Sturgeon Bay into a shipbuilding center that still operates a major shipyard and Coast Guard station today. As the seat of Door County and the peninsula's largest city, Sturgeon Bay sits with water on both sides, Lake Michigan to the east and Green Bay to the west.",
+    intro:
+      "Ships built in Sturgeon Bay still sail Lake Michigan today, a direct line back to the 1880s canal that connected the bay to open water and turned a limestone quarrying town into a shipbuilding center. That same geography, a city with Lake Michigan on one side and Green Bay on the other, shapes pest pressure here as much as it shaped the local economy. Mosquitoes breed reliably in the marshy, low-lying ground near the shipping canal through the warm months, while carpenter ants work through moisture-softened wood in the older homes near the historic shipyard district, some dating back to the quarrying and canal era of the 1880s. Door County's surrounding farmland adds cluster flies to the mix each fall, a genuine nuisance pest that seeks out cracks in Sturgeon Bay homes to spend the winter, and the peninsula's cold, lake-effect winters send mice looking for the same shelter. A Door Peninsula property owner is really managing water exposure on two fronts and a housing stock old enough, in places, to remember the shipbuilding boom itself.",
+    sections: [
+      {
+        heading: "Why does being on a peninsula affect mosquito pressure in Sturgeon Bay?",
+        body: "Sturgeon Bay sits on the Door Peninsula with Lake Michigan on one side and Green Bay on the other, and the low, marshy ground near the historic shipping canal holds water long after spring rain. That combination gives mosquitoes more consistent breeding habitat through the summer than a comparable inland Wisconsin town without two large bodies of water so close together.",
+      },
+      {
+        heading: "How does Sturgeon Bay's shipbuilding history connect to its carpenter ant risk?",
+        body: "The homes and buildings near Sturgeon Bay's historic shipyard district date in places back to the 1880s canal-building and limestone quarrying era, and that age of wood framing, combined with steady moisture off the water, gives carpenter ants more opportunity to hollow out softened wood than newer construction elsewhere in Door County would offer. The Coast Guard station and shipyard still operating at the port today sit within that same waterfront footprint, so commercial buildings face a similar exposure to older residential blocks nearby.",
+      },
+      {
+        heading: "Why do cluster flies become a problem in Sturgeon Bay every fall?",
+        body: "Door County's rural stretches and farmland around Sturgeon Bay give cluster flies plenty of outdoor breeding ground during the summer, and as fall temperatures drop, they look for cracks and gaps in nearby homes to spend the winter. It is a genuine seasonal nuisance for this part of Wisconsin rather than a health risk, but large numbers can build up inside walls and attics if entry points are not sealed ahead of the season.",
+      },
+    ],
+    prevention: [
+      "Seal cracks and gaps around windows and siding before fall to reduce cluster fly entry.",
+      "Clear standing water near the shipping canal and other low-lying ground through the mosquito season.",
+      "Schedule a carpenter ant inspection for homes near the historic shipyard district given their age and waterfront moisture exposure.",
+      "Address any moisture damage around older wood-frame construction promptly.",
+      "Seal foundation gaps before Door County's cold winter sets in to reduce mouse entry.",
+    ],
+    costNote:
+      "Cluster fly treatment ahead of fall is often priced as a seasonal exterior service in Sturgeon Bay. Carpenter ant inspections for older shipyard-district homes typically run $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Sturgeon Bay get more cluster flies than other Wisconsin cities?",
+        answer: "Sturgeon Bay is surrounded by Door County farmland and rural stretches that give cluster flies plenty of outdoor breeding ground each summer, and as fall arrives, they seek out cracks in nearby homes to overwinter, a heavier pattern than a more urban Wisconsin city would typically see.",
+      },
+      {
+        question: "Does Sturgeon Bay's location on the Door Peninsula increase mosquito risk?",
+        answer: "Yes. With Lake Michigan on one side and Green Bay on the other, plus low ground near the historic shipping canal, Sturgeon Bay has more consistent standing water through the summer than an inland town would, which extends the mosquito breeding season.",
+      },
+      {
+        question: "Is carpenter ant risk higher near Sturgeon Bay's historic shipyard district?",
+        answer: "Yes, generally. Homes in that area date in places to the 1880s canal-building and quarrying era, and that combination of older wood framing and waterfront moisture gives carpenter ants more opportunity than newer construction elsewhere in Door County.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Wausau", slug: "wausau", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Sturgeon Bay, WI | Door County Wisconsin",
+    metaDescription:
+      "Sturgeon Bay, WI pest control for peninsula mosquitoes, shipyard-district carpenter ants, fall cluster flies, and mice. Free inspection.",
+  },
+  {
+    slug: "river-falls-wi",
+    name: "River Falls",
+    state: "Wisconsin",
+    stateSlug: "wisconsin",
+    stateAbbr: "WI",
+    tier: "T3",
+    population: "~16,180",
+    county: "Pierce County",
+    climate: "cold-humid",
+    climateDriver:
+      "River Falls sits in a cold-humid climate zone in western Wisconsin, with cold winters and warm, humid summers. The city spans Pierce and St. Croix counties and grew up along the Kinnickinnic River, a class one trout stream, and is home to the University of Wisconsin-River Falls, a combination that shapes pest pressure through both the river corridor and heavy rental turnover.",
+    topPests: ["Mosquitoes", "Bed Bugs", "Mice", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "River Falls sits on the Kinnickinnic River, a class one trout stream running through downtown, and the river corridor gives mosquitoes reliable breeding habitat through the warm months.",
+      },
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round, worse with fall and spring turnover",
+        note: "As a university town home to UW-River Falls, River Falls sees more rental turnover than a similarly sized Wisconsin city without a college, and that turnover raises bed bug introduction risk each move-in and move-out season.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "River Falls' cold winters push mice toward the gaps common in the city's older rental housing near downtown as temperatures drop each fall.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Homes near the Kinnickinnic River, some dating to the city's 1850s founding as the village of Kinnickinnic, give carpenter ants moisture-softened wood to target close to the water.",
+      },
+    ],
+    localHook:
+      "River Falls was first settled in 1848, and the village, originally named Kinnickinnic, was platted in 1854 by brothers Nathaniel and Oliver Powell. The Kinnickinnic River, a nationally known class one trout stream, still runs directly through the city's downtown business district today, drawing fly fishers and kayakers. The city spans two counties, with most of its population in Pierce County and a smaller portion in St. Croix County, and is home to the University of Wisconsin-River Falls.",
+    intro:
+      "A trout stream runs through downtown River Falls, and the Kinnickinnic River that draws fly fishers from across the Midwest is the same river shaping mosquito pressure in town every summer. River Falls started life in 1848 as a settlement and was platted as the village of Kinnickinnic in 1854, and that riverside core still holds some of the city's older housing, aging wood-frame construction that gives carpenter ants moisture-softened wood to work through near the water. The University of Wisconsin-River Falls adds a different kind of pest risk on top of the river's, since a college town sees more rental turnover than a similarly sized Wisconsin city without a university, and that turnover raises the odds of a bed bug introduction with every move-in and move-out cycle. Cold Wisconsin winters round out the picture by pushing mice toward the same aging rental housing each fall. River Falls property owners, in other words, are dealing with a river town's pest pressure and a college town's pest pressure at the same time, layered on top of each other.",
+    sections: [
+      {
+        heading: "Why does the Kinnickinnic River increase mosquito pressure in River Falls?",
+        body: "The Kinnickinnic River runs directly through River Falls' downtown business district, and the river corridor along with any low-lying ground nearby holds standing water more readily than higher, drier parts of the city. That gives mosquitoes a steadier breeding season through the summer months than a River Falls property away from the water would typically experience. The city also spans two counties, with most of River Falls in Pierce County and a smaller portion across the line in St. Croix County, though the same river corridor cuts through both sides equally.",
+      },
+      {
+        heading: "Does UW-River Falls' student population change the city's bed bug risk?",
+        body: "Yes, meaningfully. College towns generally see more rental turnover than similarly sized cities without a university, since student housing changes hands every fall and spring semester. Each move-in and move-out cycle near the University of Wisconsin-River Falls campus carries a real chance of a bed bug introduction, which is why rental properties in this part of River Falls benefit from more frequent inspection than a stable, long-term residential street would need.",
+      },
+      {
+        heading: "Is carpenter ant risk higher near River Falls' historic riverside core?",
+        body: "Some of River Falls' oldest housing sits near the Kinnickinnic River, dating back toward the city's founding as the village of Kinnickinnic in 1854. That older wood framing, combined with consistent moisture off the river, gives carpenter ants more opportunity to hollow out softened wood near downtown than newer construction on higher, drier ground elsewhere in the city would offer.",
+      },
+    ],
+    prevention: [
+      "Inspect rental and student housing for bed bugs at the start of each fall and spring semester near the UW-River Falls campus.",
+      "Clear standing water near the Kinnickinnic River through the mosquito season.",
+      "Schedule a carpenter ant inspection for older homes near the historic riverside core.",
+      "Seal foundation gaps and door thresholds before fall to reduce mouse entry.",
+      "Wash and dry secondhand furniture and mattresses on high heat before bringing them into a River Falls rental.",
+    ],
+    costNote:
+      "Bed bug inspections and treatment near River Falls' rental and student housing are often priced per unit given typical turnover schedules. Termite and carpenter ant inspections for older riverside homes typically run $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does River Falls have a higher bed bug risk than some other Wisconsin towns?",
+        answer: "River Falls is home to the University of Wisconsin-River Falls, and college towns generally see more rental turnover than similarly sized cities without a university, with each fall and spring move-in and move-out cycle carrying a real chance of a bed bug introduction.",
+      },
+      {
+        question: "Does the Kinnickinnic River add to River Falls' mosquito pressure?",
+        answer: "Yes. The river runs directly through downtown River Falls, and low ground near the water holds standing water more readily than higher, drier parts of the city, giving mosquitoes a steadier breeding season through the summer.",
+      },
+      {
+        question: "Is River Falls' oldest housing more exposed to carpenter ants?",
+        answer: "Yes, generally. Homes near the historic riverside core, some dating back toward the city's 1854 founding as the village of Kinnickinnic, combine older wood framing with river moisture, giving carpenter ants more opportunity than newer construction on higher ground elsewhere in the city.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Eau Claire", slug: "eau-claire", stateSlug: "wisconsin" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in River Falls, WI | Pierce County Wisconsin",
+    metaDescription:
+      "River Falls, WI pest control for Kinnickinnic River mosquitoes, college-town bed bugs, carpenter ants, and fall mice. Free inspection.",
+  },
 ];

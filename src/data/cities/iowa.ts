@@ -2805,4 +2805,456 @@ export const iowaCities: CityLocation[] = [
     metaDescription:
       "Storm Lake, IA pest control for lake-driven mosquitoes, processing-area flies, Asian lady beetles, and harvest mice. Buena Vista County service.",
   },
+  {
+    slug: "coralville-ia",
+    name: "Coralville",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~22,318",
+    county: "Johnson County",
+    climate: "cold-humid",
+    climateDriver:
+      "Coralville sits in Johnson County's cold humid continental climate, with the Iowa River forming its eastern edge along the border with Iowa City. The US Army Corps of Engineers built the Coralville Dam between 1949 and 1958, and the reservoir behind it plus the river's own floodplain give the city a mix of decades-old riverside neighborhoods and newer subdivisions built up around the Coral Ridge retail corridor since the 1990s.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Carpenter Ants", "Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer, worse after flood years",
+        note: "The Iowa River and Coralville Lake behind the dam hold standing water close to residential areas, and the record 2008 flood crest above 31.5 feet left low spots on Biscuit Creek and Clear Creek that still collect water after heavy rain, extending the mosquito season along the water's edge.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Coralville's older river-adjacent neighborhoods carry decades of moisture exposure from repeated high water years, including 1993 and 2008, which raises termite risk for homes near the river compared to the newer subdivisions further from the floodplain.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Moisture-damaged wood near the Iowa River and around Biscuit Creek and Clear Creek, both singled out for flood mitigation work after 2008, gives carpenter ants the soft, damp wood they prefer to nest in.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "As temperatures drop, mice move from the fields and creek banks around Coralville's newer subdivisions into heated homes and the retail buildings along the Coral Ridge corridor.",
+      },
+    ],
+    localHook:
+      "Coralville sits directly along the Iowa River, sharing its eastern border with Iowa City, and the Coralville Dam upstream, built between 1949 and 1958 by the US Army Corps of Engineers, holds back Coralville Lake. The dam has prevented most serious flooding since, except for 1993 and again in 2008, when the Iowa River set a new record crest above 31.5 feet. After that flood, the city invested in mitigation work on Biscuit Creek, Clear Creek and the Iowa River itself to protect its lower-lying areas.",
+    intro:
+      "Coralville's pest pressure follows its water. The Iowa River runs along the city's eastern edge, the Coralville Dam holds back a reservoir just upstream, and the 2008 flood pushed the river past 31.5 feet, a new record crest that soaked low-lying ground near Biscuit Creek and Clear Creek for weeks. That history left behind pockets of moisture damage that carpenter ants and termites both exploit, while the river and lake themselves keep mosquitoes breeding through the warm months. Newer subdivisions built up around the Coral Ridge retail corridor since the 1990s face a different pest calendar than the older river-adjacent streets, one driven more by fall mouse pressure from surrounding fields than by decades of water exposure. Knowing which side of that divide a Coralville property sits on changes the treatment plan more than almost anything else about the address.",
+    sections: [
+      {
+        heading: "How did the 2008 flood change pest pressure along the Iowa River in Coralville?",
+        body: "The Iowa River crested above 31.5 feet in 2008, surpassing the previous 1993 record and putting homes and businesses near Biscuit Creek, Clear Creek and the riverbank itself under water for an extended stretch. Coralville invested in flood mitigation improvements afterward, but wood that took on moisture during those weeks is more prone to the soft, damp conditions carpenter ants prefer, and the same ground stays wetter longer than land further from the water, a combination that keeps both carpenter ants and subterranean termites active later into the fall near the river than in Coralville's inland subdivisions.",
+      },
+      {
+        heading: "Does the Coralville Dam and reservoir affect mosquito breeding?",
+        body: "Yes. Coralville Lake, held back by the dam the Army Corps of Engineers completed in 1958, sits just upstream of the city, and the river itself runs the length of Coralville's eastern border. Both give mosquitoes steady breeding habitat through the warm months, and low spots near the water that hold rainwater after a storm add to that pressure. Properties within a few blocks of the river or the lake shoreline typically need a more aggressive mosquito treatment plan through summer than a home in one of the newer subdivisions further inland.",
+      },
+      {
+        heading: "Why do Coralville's newer subdivisions near Coral Ridge see a different pest pattern?",
+        body: "The retail and residential growth around the Coral Ridge corridor happened mostly after the 1990s, well after the older river-adjacent neighborhoods were built, so these newer properties carry less of the flood-related moisture history that drives termite and carpenter ant pressure closer to the water. Their bigger seasonal issue is mice, which move out of the surrounding fields and creek banks as temperatures drop in the fall and head straight for the nearest heated structure, whether that is a home or one of the retail buildings along the corridor.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection each spring for homes near the Iowa River or Biscuit Creek, where past flood moisture raises risk.",
+      "Clear standing water near the riverbank, Clear Creek and Coralville Lake shoreline through the summer to cut mosquito breeding.",
+      "Address any moisture-damaged wood promptly, especially in older river-adjacent homes, before carpenter ants move in.",
+      "Seal foundation gaps and utility entry points before fall to keep mice out of homes and retail buildings near Coral Ridge.",
+      "Keep gutters and downspouts clear so rainwater drains away from the foundation rather than pooling near it.",
+    ],
+    costNote:
+      "Termite inspections in Coralville typically run $150 to $300, with river-adjacent properties often needing a closer look given the area's flood history. Mosquito treatment near the Iowa River or Coralville Lake is often priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Does living near the Iowa River in Coralville increase termite risk?",
+        answer: "Yes. Properties near the river carry more moisture exposure from past flood years, including the 2008 flood that pushed the river past a record 31.5 feet, and that history raises subterranean termite and carpenter ant risk compared to Coralville's newer inland subdivisions.",
+      },
+      {
+        question: "Why does Coralville need more mosquito control than a landlocked Iowa town?",
+        answer: "The Iowa River runs along Coralville's eastern border and Coralville Lake sits just upstream behind the dam, giving mosquitoes more standing water and breeding habitat through the summer than a town without a major river or reservoir nearby.",
+      },
+      {
+        question: "Are mice a bigger issue in Coralville's older neighborhoods or its newer subdivisions?",
+        answer: "Newer subdivisions near the Coral Ridge corridor tend to see more fall mouse pressure, since they sit closer to open fields and creek banks that mice move out of as temperatures drop, while older river-adjacent streets deal more with termites and carpenter ants tied to past flood moisture.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Iowa City", slug: "iowa-city", stateSlug: "iowa" },
+      { name: "Ankeny", slug: "ankeny", stateSlug: "iowa" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Coralville, IA | Johnson County Iowa River",
+    metaDescription:
+      "Coralville, IA pest control for river and lake driven mosquitoes, flood-era termites and carpenter ants, plus fall mice. Free inspection.",
+  },
+  {
+    slug: "pella-ia",
+    name: "Pella",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~10,464",
+    county: "Marion County",
+    climate: "cold-humid",
+    climateDriver:
+      "Pella sits in Marion County's cold humid continental climate, forty miles southeast of Des Moines. The town's historic core dates to 1847, when 800 Dutch immigrants led by Hendrik P. Scholte settled the area, and that concentration of nineteenth and early twentieth century construction near downtown sits a few miles east of Lake Red Rock, Iowa's largest reservoir.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Boxelder Bugs", "Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Lake Red Rock, Iowa's largest reservoir, sits just west of Pella and adds steady breeding habitat for mosquitoes through the warm months, especially in low ground between the lake and town.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Pella's downtown core, built up in the decades after the 1847 Dutch settlement, carries a concentration of nineteenth and early twentieth century homes old enough to have accumulated real termite exposure over that time.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall, seeking winter shelter",
+        note: "Boxelder bugs gather on Pella's older homes each fall looking for a way inside to overwinter, a pattern that shows up every year regardless of how mild or harsh the coming winter turns out to be.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Cooler fall temperatures push mice out of the fields surrounding Pella and toward the small gaps common in the town's older Dutch-era construction.",
+      },
+    ],
+    localHook:
+      "Pella was settled in 1847 by roughly 800 Dutch immigrants led by Dominee Hendrik P. Scholte, who chose the name Pella after the town in the Decapolis where early Christians found refuge. That heritage still shows in the Scholte House and the annual Tulip Time festival, and Lake Red Rock, Iowa's largest reservoir, sits just a few miles west of downtown.",
+    intro:
+      "Pella's Dutch roots go back to 1847, when Hendrik P. Scholte led roughly 800 settlers to the site and gave it a name borrowed from a town of refuge in the ancient Decapolis. That history is still visible in the Scholte House and the windmill-lined downtown that draws crowds every Tulip Time, and it is also the reason so much of Pella's core housing has had well over a century to accumulate the kind of termite exposure that comes with real age. A few miles west, Lake Red Rock, Iowa's largest reservoir, adds another layer to the picture, giving mosquitoes reliable breeding ground through the summer in a way that a Marion County town further from the lake would not deal with. Add the boxelder bugs that gather on older homes every fall and the mice that follow once the weather turns, and Pella's pest calendar is really a story about how a nineteenth century Dutch settlement and one of the state's biggest reservoirs sit right next to each other.",
+    sections: [
+      {
+        heading: "How does Pella's 1847 Dutch settlement affect termite risk today?",
+        body: "The historic core Hendrik P. Scholte and his roughly 800 followers built up after 1847 gave Pella a concentration of homes constructed well over a century ago, many still standing near the Scholte House and the tulip-lined downtown. That age is exactly what subterranean termites need: enough time for a colony to establish itself in the soil beneath and around a foundation. A Pella home in this older core carries meaningfully more termite exposure than a newer property on the edge of town simply because of how long it has been standing.",
+      },
+      {
+        heading: "Does Lake Red Rock add to Pella's mosquito problem?",
+        body: "Lake Red Rock sits a few miles west of downtown Pella and is Iowa's largest reservoir, which means a lot of surface water and shoreline within easy mosquito flying distance of town. Low ground between the lake and Pella's residential streets holds rainwater longer than higher ground further away, and that combination gives Pella a steadier mosquito season through the summer than a Marion County property with no major lake nearby would experience.",
+      },
+      {
+        heading: "Why do boxelder bugs show up on Pella's homes every fall?",
+        body: "Boxelder bugs look for a warm, sheltered place to spend the winter as soon as fall temperatures drop, and Pella's older homes, with the gaps and cracks that come with nineteenth and early twentieth century construction, give them exactly that. They gather on sun-warmed exterior walls before working their way inside, a pattern that repeats every year in Pella regardless of how severe the winter ends up being, and one that a newer, tightly sealed home rarely deals with to the same degree.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection given the age of Pella's downtown-area homes, many dating back well over a century.",
+      "Clear standing water in low ground between Lake Red Rock and residential streets to cut summer mosquito breeding.",
+      "Seal exterior cracks and gaps before fall to keep boxelder bugs from gathering on and entering older homes.",
+      "Close up foundation gaps and utility entry points before the weather turns to reduce fall mouse entry.",
+      "Keep an eye on window and door seals in Pella's oldest homes, a common entry point for both boxelder bugs and mice.",
+    ],
+    costNote:
+      "Termite inspections in Pella typically run $150 to $300 given the age of the town's historic core. Boxelder bug treatment ahead of fall is often priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Pella have more termite risk than a newer Iowa town?",
+        answer: "Pella's downtown core dates back to the 1847 Dutch settlement led by Hendrik P. Scholte, and that concentration of century-plus-old homes has had far more time to develop subterranean termite exposure than a town built up more recently.",
+      },
+      {
+        question: "Does Lake Red Rock affect pest control in Pella?",
+        answer: "Yes. Lake Red Rock, Iowa's largest reservoir, sits a few miles west of Pella and gives mosquitoes reliable breeding habitat through the summer, especially in low ground between the lake and town.",
+      },
+      {
+        question: "Are boxelder bugs a problem specific to Pella?",
+        answer: "Boxelder bugs are common across Iowa, but Pella's concentration of older nineteenth and early twentieth century homes near downtown gives them more of the cracks and gaps they use to get inside each fall than a newer property would offer.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Newton", slug: "newton-ia", stateSlug: "iowa" },
+      { name: "Oskaloosa", slug: "oskaloosa", stateSlug: "iowa" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Pella, IA | Marion County Dutch Heritage Town",
+    metaDescription:
+      "Pella, IA pest control for termites in historic Dutch-era homes, Lake Red Rock mosquitoes, fall boxelder bugs and mice. Free inspection.",
+  },
+  {
+    slug: "le-mars-ia",
+    name: "Le Mars",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~10,571",
+    county: "Plymouth County",
+    climate: "cold-humid",
+    climateDriver:
+      "Le Mars is the Plymouth County seat in northwest Iowa's cold humid continental climate, with colder winters and a shorter growing season than the state's southern tier. The city has been home to Wells Enterprises, maker of Blue Bunny ice cream, since 1913, and the food-processing operation anchors an industrial district alongside the older residential streets built up around it over the twentieth century.",
+    topPests: ["Flies", "Cockroaches", "Subterranean Termites", "Mice"],
+    pestProfile: [
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Spring through fall, worse in warm months",
+        note: "Le Mars' long-running food-processing operations, anchored by Wells Enterprises since 1913, draw flies to loading docks and waste areas around the industrial district, a pressure that spikes in warm weather.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "German cockroaches find steady food and warmth around Le Mars' food-processing and restaurant buildings, a year-round indoor issue that gets worse through the humid summer months typical of northwest Iowa.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Late spring through fall",
+        note: "Le Mars' older residential streets, built up around its food-processing industry over the twentieth century, carry enough age to have developed real subterranean termite exposure, especially near foundations with any wood-to-soil contact.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Northwest Iowa's colder winters push mice out of the fields surrounding Le Mars earlier in the fall than a southern Iowa town would see, and the grain and food-processing facilities in town give them an added reason to move in.",
+      },
+    ],
+    localHook:
+      "Le Mars is the Plymouth County seat and has carried the title 'Ice Cream Capital of the World,' officially designated in 1994, since Wells Enterprises, maker of Blue Bunny ice cream and dairy products, was founded there by Fred H. Wells Jr. in 1913. The company remains the world's largest ice cream producer at a single location, and its plant still anchors an industrial district on the edge of town.",
+    intro:
+      "Le Mars earns its 'Ice Cream Capital of the World' title honestly. Wells Enterprises has made Blue Bunny ice cream there since Fred H. Wells Jr. founded the company in 1913, and the plant is still the largest single-location ice cream producer anywhere, anchoring an industrial district that shapes pest pressure across the rest of town. Food-processing operations of that scale mean loading docks, waste handling and a steady supply of warmth and moisture, conditions that flies and cockroaches both exploit close to the plant and in nearby restaurants. Northwest Iowa's colder winters bring mice indoors earlier than they would arrive in a southern Iowa town, and the older residential streets that grew up alongside the ice cream plant over the twentieth century have had plenty of time to build up their own termite exposure. Few Plymouth County towns have a single employer this large shaping their pest calendar so directly.",
+    sections: [
+      {
+        heading: "Why does Le Mars see more fly and cockroach pressure than a typical northwest Iowa town?",
+        body: "Wells Enterprises has operated its Blue Bunny ice cream plant in Le Mars since 1913, and food-processing facilities at that scale generate loading docks, waste handling areas and consistent indoor warmth, exactly the conditions flies and German cockroaches look for. That pressure extends beyond the plant itself into nearby restaurants and commercial buildings that share the same food-service environment, giving Le Mars a heavier year-round cockroach and warm-season fly presence than a Plymouth County town without a major food-processing employer would see.",
+      },
+      {
+        heading: "Does Le Mars' colder northwest Iowa climate change when mice become a problem?",
+        body: "Yes. Northwest Iowa's winters set in earlier and run colder than southern Iowa's, and Le Mars' surrounding farmland loses its cover and food supply on a similar earlier schedule each fall. That pushes mice toward heated buildings, including the grain and food-processing facilities in town, sooner than a comparable town in the state's southern tier would experience, which means fall pest-proofing needs to happen earlier in Le Mars than it would further south.",
+      },
+      {
+        heading: "How does the age of Le Mars' residential streets affect termite risk?",
+        body: "Much of Le Mars' housing grew up over the twentieth century alongside the ice cream plant and the industrial district it anchors, and homes from that era are old enough to have developed real subterranean termite exposure, particularly wherever wood makes direct contact with soil near a foundation. That risk sits apart from the food-processing pest pressure downtown, meaning a Le Mars homeowner on an older residential street should think about termites specifically, not just the flies and cockroaches tied to the industrial side of town.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for older Le Mars homes, especially where foundation wood contacts soil directly.",
+      "Keep exterior waste and loading areas near food-service and industrial buildings sealed and cleaned regularly to cut fly and cockroach pressure.",
+      "Start fall mouse-proofing early given how much sooner northwest Iowa's cold sets in compared to southern Iowa.",
+      "Maintain a recurring cockroach service for restaurants and commercial buildings near the food-processing district.",
+      "Seal foundation gaps and utility entry points before the first cold snap each year.",
+    ],
+    costNote:
+      "Termite inspections in Le Mars typically run $150 to $300 for older residential properties. Commercial cockroach service near the food-processing district is often priced on a recurring schedule. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Le Mars have more cockroach and fly pressure than nearby towns?",
+        answer: "Le Mars is home to the Wells Enterprises Blue Bunny ice cream plant, the world's largest single-location ice cream producer since 1913, and food-processing operations at that scale create the loading docks, waste areas and steady warmth that flies and German cockroaches both need.",
+      },
+      {
+        question: "Does Le Mars' location in northwest Iowa change fall pest control timing?",
+        answer: "Yes. Northwest Iowa's winters arrive earlier and colder than in southern Iowa, so mice move out of the fields around Le Mars and into buildings, including its grain and food-processing facilities, sooner in the fall than a town further south would see.",
+      },
+      {
+        question: "Is termite risk in Le Mars tied to the ice cream plant?",
+        answer: "Not directly. Termite exposure in Le Mars comes from the age of the residential streets built up over the twentieth century alongside the plant, a separate issue from the fly and cockroach pressure the food-processing district itself creates.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Sioux City", slug: "sioux-city", stateSlug: "iowa" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Le Mars, IA | Plymouth County Ice Cream Capital",
+    metaDescription:
+      "Le Mars, IA pest control for food-plant-driven flies and cockroaches, older-home termites, and early fall mice. Free inspection.",
+  },
+  {
+    slug: "fort-madison-ia",
+    name: "Fort Madison",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~10,270",
+    county: "Lee County",
+    climate: "cold-humid",
+    climateDriver:
+      "Fort Madison sits along the Mississippi River in Iowa's southeast corner, in Lee County's cold humid continental climate, though its river-corridor location keeps summers more humid than inland Iowa towns see. The city grew up around the site of the first US military fort in the upper Mississippi region, and its older riverside neighborhoods and downtown carry more than a century of construction close to the water.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Cockroaches", "Mice"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Fort Madison's location directly on the Mississippi River, at one of the widest points along its course, gives mosquitoes consistent breeding habitat in low-lying riverside areas through the humid southeast Iowa summer.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Fort Madison's older riverside neighborhoods and downtown buildings, some tied back to the city's founding as the site of the first US military fort in the upper Mississippi region, carry enough age and river moisture to see steady subterranean termite pressure.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "The humid air that settles along the Mississippi River corridor in Fort Madison keeps German cockroaches active indoors year-round, with the heaviest pressure during the warm, humid summer months.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "As river-corridor temperatures drop each fall, mice move from the bluffs and low ground near the Mississippi into Fort Madison's older homes and downtown buildings.",
+      },
+    ],
+    localHook:
+      "Fort Madison was built as the site of the first US military fort in the upper Mississippi region, established to control trade and secure the newly acquired Louisiana Purchase territory. The fort came under a determined siege by British-allied Sauk and other tribes during the War of 1812 and was ultimately abandoned and burned by its own garrison in 1813 as troops retreated to the river. The city that later grew up on the site sits between small bluffs along one of the widest stretches of the Mississippi River in the state's southeast corner.",
+    intro:
+      "Fort Madison's name is not decoration. The city grew up on the site of the first US military fort in the upper Mississippi region, a post that came under such a determined siege during the War of 1812 that its own garrison burned it and retreated to the river rather than hold it. That same stretch of river, one of the widest along the Mississippi's course through Iowa, still shapes the town today, sitting between small bluffs and keeping the air more humid through summer than an inland southeast Iowa property experiences. Mosquitoes breed steadily in the low ground near the water, cockroaches hold on indoors through the added humidity, and the older downtown and riverside neighborhoods built up over more than a century carry the kind of age that gives subterranean termites time to establish. Fort Madison's pest calendar, in other words, is really the Mississippi's calendar, read through a town that has sat next to it since the earliest years of American settlement upriver.",
+    sections: [
+      {
+        heading: "Why does Fort Madison's Mississippi River location raise humidity and pest pressure?",
+        body: "Fort Madison sits between small bluffs along one of the widest points on the Mississippi River in Iowa, and that much open water keeps summer air more humid than an inland Lee County property would experience. Humidity of that kind supports German cockroaches indoors year-round and gives mosquitoes more standing water in low-lying riverside ground to breed in through the warm months, a combination that a town further from the river simply does not deal with to the same degree.",
+      },
+      {
+        heading: "How does Fort Madison's founding as a military fort connect to termite risk today?",
+        body: "The city grew up on the site of the first US military fort in the upper Mississippi region, established in the early 1800s and burned by its own retreating garrison during the War of 1812 siege. The downtown and riverside neighborhoods that developed on and around that site over the following century are old enough, and close enough to the river's moisture, to have accumulated real subterranean termite exposure, more than a Lee County property built recently on higher, drier ground away from the water would see.",
+      },
+      {
+        heading: "Does Fort Madison need mosquito control differently than towns away from the river?",
+        body: "Yes. The low-lying ground near the Mississippi holds water more readily after rain than higher ground further from the riverbank, and that standing water, combined with the added humidity the river brings to Fort Madison's summers, gives mosquitoes a longer and more reliable breeding season than a comparable inland southeast Iowa property would face. Riverside properties typically need a more consistent mosquito treatment plan through the warm months than homes on the bluffs above town.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for older downtown and riverside properties given Fort Madison's century-plus building history near the water.",
+      "Clear standing water in low-lying areas near the Mississippi through the summer to reduce mosquito breeding.",
+      "Keep a recurring cockroach service in place for buildings along the river corridor, where humidity stays elevated.",
+      "Seal foundation gaps and door thresholds before fall to limit mouse entry from the bluffs and riverside ground.",
+      "Address moisture damage in older riverside construction promptly to avoid inviting termites and other moisture pests.",
+    ],
+    costNote:
+      "Termite inspections in Fort Madison typically run $150 to $300, with river-adjacent and downtown properties often needing closer attention given the added moisture. Mosquito treatment for riverside properties is often priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is Fort Madison more humid than other southeast Iowa towns?",
+        answer: "Fort Madison sits along one of the widest points on the Mississippi River, and that much open water keeps summer humidity higher than an inland Lee County property experiences, which supports year-round indoor cockroach activity and a longer mosquito season.",
+      },
+      {
+        question: "Does Fort Madison's history as a military fort site affect pest control today?",
+        answer: "Indirectly, yes. The downtown and riverside neighborhoods that grew up around the site of the first US military fort in the upper Mississippi region are old enough, and close enough to the river, to carry real subterranean termite exposure compared to newer construction on higher ground away from the water.",
+      },
+      {
+        question: "Do riverside properties in Fort Madison need more mosquito control than the rest of town?",
+        answer: "Yes. Low-lying ground near the Mississippi holds standing water longer after rain than the bluffs above town, giving riverside properties a steadier mosquito season and typically a more aggressive summer treatment plan.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Burlington", slug: "burlington-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Fort Madison, IA | Lee County Mississippi River",
+    metaDescription:
+      "Fort Madison, IA pest control for river-driven mosquitoes and cockroaches, historic-district termites, and fall mice. Free inspection.",
+  },
+  {
+    slug: "grinnell-ia",
+    name: "Grinnell",
+    state: "Iowa",
+    stateSlug: "iowa",
+    stateAbbr: "IA",
+    tier: "T3",
+    population: "~9,564",
+    county: "Poweshiek County",
+    climate: "cold-humid",
+    climateDriver:
+      "Grinnell sits in Poweshiek County's cold humid continental climate in central Iowa. The town was founded in 1854, and much of its North Grinnell Historic District dates to the Victorian-era rebuilding that followed a violent 1882 tornado, leaving a concentration of homes from the late 1800s and early 1900s near downtown and the Grinnell College campus.",
+    topPests: ["Subterranean Termites", "Boxelder Bugs", "Mosquitoes", "Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "The Victorian-era homes rebuilt across Grinnell's North Grinnell Historic District after the 1882 tornado destroyed much of the town are now old enough to have developed steady subterranean termite pressure near their foundations.",
+      },
+      {
+        name: "Boxelder Bugs",
+        serviceSlug: "boxelder-bug-control",
+        activeSeason: "Fall, seeking winter shelter",
+        note: "Boxelder bugs gather each fall on the sun-warmed walls of Grinnell's older homes, working their way into the same gaps that give the historic district's late-1800s and early-1900s construction its character.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "The Rock Creek State Park area near Grinnell and low ground along the town's creeks give mosquitoes breeding habitat through the warm months of the central Iowa summer.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Mice move out of the farmland surrounding Grinnell and into the gaps common to the town's older Victorian-era homes as fall temperatures drop.",
+      },
+    ],
+    localHook:
+      "Grinnell was founded in 1854 by Josiah B. Grinnell and three fellow settlers, and the town was a stop on the Underground Railroad from its earliest years, once hosting abolitionist John Brown and a group of freedom seekers in 1859. A violent tornado struck in June 1882, destroying much of the college campus and the surrounding community, and the Victorian-era rebuilding that followed is what still defines the North Grinnell Historic District today.",
+    intro:
+      "Grinnell has been rebuilt once already. The town Josiah B. Grinnell and three others founded in 1854, a stop on the Underground Railroad within its first few years, was largely destroyed by a violent tornado in June 1882, and the Victorian homes that went up in the years afterward are what still make up the North Grinnell Historic District. That concentrated rebuilding window is the reason so much of Grinnell's older housing shares a similar age and, with it, a similar level of subterranean termite exposure. Add the boxelder bugs that gather on those same older homes every fall and the mosquitoes that breed in low ground near Rock Creek through the summer, and Grinnell's pest calendar traces back to a specific decade of construction almost as directly as it does to the town's central Iowa climate. Few Poweshiek County towns had their historic core rebuilt this fast, and it shows in how uniformly that housing stock behaves today.",
+    sections: [
+      {
+        heading: "How did the 1882 tornado shape Grinnell's current termite risk?",
+        body: "The tornado that struck Grinnell in June 1882 destroyed much of the college campus and the surrounding town, and the Victorian homes built in the rebuilding that followed now make up the North Grinnell Historic District. Because so much of that construction happened within a relatively short window, a large share of Grinnell's oldest housing shares a similar age and a similar degree of accumulated subterranean termite exposure, more uniform than a town whose historic core was built up gradually over several decades.",
+      },
+      {
+        heading: "Why do boxelder bugs concentrate on Grinnell's historic homes each fall?",
+        body: "Grinnell's late-1800s and early-1900s Victorian homes, most dating to the rebuilding after the 1882 tornado, carry the small gaps and cracks typical of construction from that era, and boxelder bugs use exactly those openings to get inside as they look for winter shelter each fall. They gather first on sun-warmed exterior walls before working their way in, a pattern that repeats every year across the North Grinnell Historic District regardless of how cold the coming winter turns out to be.",
+      },
+      {
+        heading: "Does Rock Creek add to Grinnell's mosquito pressure?",
+        body: "The Rock Creek area near Grinnell and other low ground along the town's smaller waterways hold standing water after rain more readily than higher, better-drained ground elsewhere in town, and that gives mosquitoes a steadier breeding season through the central Iowa summer. Properties near these low-lying areas typically see more mosquito pressure through the warm months than a home on higher ground closer to downtown.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for homes in the North Grinnell Historic District given their shared rebuilding-era age.",
+      "Seal exterior cracks and gaps before fall to keep boxelder bugs from gathering on and entering older homes.",
+      "Clear standing water near Rock Creek and other low-lying ground through the summer to reduce mosquito breeding.",
+      "Seal foundation gaps and utility entry points before the weather turns to limit fall mouse entry.",
+      "Address any moisture damage in Victorian-era construction promptly to avoid inviting termites.",
+    ],
+    costNote:
+      "Termite inspections in Grinnell typically run $150 to $300 given the concentrated age of the historic district's housing. Boxelder bug treatment ahead of fall is often priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does so much of Grinnell's older housing share the same pest risk?",
+        answer: "Much of the North Grinnell Historic District was rebuilt in the years after a violent tornado destroyed the town in June 1882, so that housing shares a similar age and a similar level of subterranean termite exposure today.",
+      },
+      {
+        question: "Are boxelder bugs worse in Grinnell's historic district than elsewhere in town?",
+        answer: "Yes. The Victorian-era homes in the North Grinnell Historic District carry more of the small gaps and cracks typical of late-1800s and early-1900s construction, giving boxelder bugs more entry points each fall than a newer Grinnell home would offer.",
+      },
+      {
+        question: "Does Rock Creek affect mosquito control needs in Grinnell?",
+        answer: "Properties near Rock Creek and other low-lying ground in Grinnell see more standing water after rain, which gives mosquitoes a steadier breeding season through the summer than higher, better-drained parts of town experience.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Newton", slug: "newton-ia", stateSlug: "iowa" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Grinnell, IA | Poweshiek County Historic District",
+    metaDescription:
+      "Grinnell, IA pest control for historic-district termites and boxelder bugs, Rock Creek mosquitoes, and fall mice. Free inspection.",
+  },
 ];

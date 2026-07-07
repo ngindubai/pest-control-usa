@@ -6408,4 +6408,455 @@ export const newJerseyCities: CityLocation[] = [
     metaDescription:
       "Rutherford, NJ pest control for Meadowlands-driven mosquitoes, American cockroaches, Norway rats, and termites. Bergen County service. Free inspection.",
   },
+  {
+    slug: "ocean-city-nj",
+    name: "Ocean City",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~11,229",
+    county: "Cape May County",
+    climate: "cold-humid",
+    climateDriver:
+      "Ocean City sits on a barrier island in Cape May County, with the Atlantic Ocean on one side and the marshes of Great Egg Harbor Bay on the other, giving it the humid, salt-air summers and cold, damp winters typical of the Jersey Shore. The city's housing stock ranges from Victorian-era cottages built soon after its 1879 founding as a Methodist camp meeting resort to mid-1900s beach bungalows, many raised on pilings above the flood-prone barrier island soil.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Carpenter Ants", "Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall swarming",
+        note: "Ocean City's older wood-frame cottages, some dating back to the resort town's founding in 1879, sit on sandy barrier island soil that stays workable for termites for more of the year than inland New Jersey sees.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through early fall",
+        note: "The back bay marshes along Great Egg Harbor Bay, just west of the island, breed mosquitoes steadily through the humid coastal summer, and the barrier island's flat terrain does little to drain standing water after storms.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Moisture that collects around pilings and under raised beach homes gives carpenter ants damp support timber to nest in, a problem common to shore construction up and down this stretch of coast.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter, worse in vacant seasonal homes",
+        note: "Ocean City's large share of seasonal vacation homes means many properties sit empty for months at a time once summer ends, and mice that find a small gap in the fall get to settle in undisturbed.",
+      },
+    ],
+    localHook:
+      "Ocean City was founded in 1879 as a Methodist camp meeting association and still does not sell alcohol within city limits today, a dry-town status it has kept for well over a century. Its barrier island location, wedged between the Atlantic Ocean and the back marshes of Great Egg Harbor Bay, and a housing stock that spans 1880s Victorian cottages to mid-20th-century beach bungalows raised on pilings, shape both the flood risk and the pest pressure a property here faces.",
+    intro:
+      "Ocean City calls itself a family resort town, and it has held to that identity since Methodist founders laid it out as a camp meeting community in 1879, alcohol-free then and alcohol-free now. That history left behind a genuinely mixed housing stock: Victorian-era cottages near the older sections of the island sit blocks away from mid-century beach bungalows, and both types are commonly raised on pilings to cope with a barrier island's flood risk. The same geography that makes Ocean City a summer destination, sandwiched between the Atlantic Ocean and the back marshes of Great Egg Harbor Bay, gives mosquitoes a reliable breeding ground all summer long. Add a large stock of seasonal homes that sit vacant for months once the boardwalk crowds thin out, and Ocean City ends up with a pest calendar that looks different from an inland Cape May County town: steady coastal mosquito pressure through the warm months, termite exposure tied to its older wood-frame cottages, and a fall mouse problem driven less by weather than by how many houses simply sit empty.",
+    sections: [
+      {
+        heading: "Why does Ocean City's barrier island location matter for mosquito control?",
+        body: "Ocean City sits on a narrow strip of land with the Atlantic Ocean on its east side and the tidal marshes of Great Egg Harbor Bay on its west side. Those back bay marshes hold standing water through the warm months, and the island's flat, low-lying terrain does not drain quickly after a summer storm. That combination gives Ocean City a longer, steadier mosquito season than an inland Cape May County property would face, particularly on blocks closer to the bay side of the island.",
+      },
+      {
+        heading: "Does Ocean City's mix of historic cottages and beach bungalows change termite risk?",
+        body: "Yes. The city's oldest cottages date back close to its 1879 founding, and a good number of mid-20th-century beach bungalows followed as the resort grew. Both styles are commonly wood-frame construction raised on pilings, and the sandy barrier island soil beneath them stays workable for subterranean termites for more of the year than colder, inland New Jersey ground does. An annual inspection matters more here than it would in a newer, non-coastal development.",
+      },
+      {
+        heading: "Why do vacant seasonal homes create a fall mouse problem in Ocean City?",
+        body: "A large share of Ocean City's housing turns over to seasonal rental or sits as a second home for much of the year, and once the summer crowds leave, many properties go months without anyone checking on them. Mice looking for a warm, quiet place to nest in the fall find that kind of undisturbed vacancy appealing, and a small gap around a foundation or utility line is often all it takes for them to move in before the owner returns.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for older cottages and pier-raised bungalows given their age and the sandy barrier island soil.",
+      "Have a caretaker or property manager check seasonal homes through the fall and winter for signs of mouse entry.",
+      "Seal gaps around foundation piers, utility lines, and crawl spaces before the property sits vacant for the off-season.",
+      "Address moisture around pilings and support timbers promptly to reduce carpenter ant risk.",
+      "Keep a mosquito treatment plan in place for bay-side properties through the summer season.",
+    ],
+    costNote:
+      "Termite inspections in Ocean City typically run $150 to $300 given the age of much of the housing stock. Seasonal mosquito treatment for bay-facing properties is often priced as a summer add-on, and off-season mouse checks can be bundled into a caretaker visit. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is termite risk in Ocean City tied to the town's age?",
+        answer: "Ocean City's oldest cottages date back close to its 1879 founding as a Methodist resort community, and much of its housing, old and newer alike, is wood-frame construction sitting on sandy barrier island soil. That soil stays workable for subterranean termites for more of the year than inland New Jersey ground does, which is why an annual inspection matters here.",
+      },
+      {
+        question: "Does Ocean City's back bay location affect mosquito pressure?",
+        answer: "Yes. The marshes along Great Egg Harbor Bay on the island's west side hold standing water through the warm months, and the flat terrain does not drain quickly after storms. That gives Ocean City steadier mosquito pressure through the summer than an inland Cape May County property typically sees.",
+      },
+      {
+        question: "Why do vacant vacation homes in Ocean City see more fall mice?",
+        answer: "A large share of Ocean City's housing is seasonal rental or second-home property, and once summer ends many of those homes go unchecked for months. Mice looking for a warm, undisturbed place to nest in the fall find that kind of vacancy appealing, so a small entry gap can turn into a settled problem before anyone notices.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Atlantic City", slug: "atlantic-city", stateSlug: "new-jersey" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Ocean City, NJ | Cape May County Jersey Shore",
+    metaDescription:
+      "Ocean City, NJ pest control for barrier island termites, back bay mosquitoes, carpenter ants, and fall mice in seasonal homes. Free inspection.",
+  },
+  {
+    slug: "manville-nj",
+    name: "Manville",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~10,953",
+    county: "Somerset County",
+    climate: "cold-humid",
+    climateDriver:
+      "Manville sits where the Raritan and Millstone Rivers meet in central Somerset County, a low-lying confluence that has flooded repeatedly during major storms, including Hurricane Floyd in 1999, Hurricane Irene in 2011, and Hurricane Ida in 2021. The borough's housing stock is concentrated in the early 1900s, built up quickly after the Johns-Manville asbestos products factory opened in 1912 and the borough split off from Hillsborough Township in 1929, leaving a dense core of century-old homes close to the river confluence.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Cockroaches", "Rodents"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through fall, worse after flooding",
+        note: "Manville's location at the confluence of the Raritan and Millstone Rivers means standing water lingers after storms like the flooding seen during Hurricane Ida in 2021, giving mosquitoes repeated breeding opportunities through a single season.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "The borough's core of early 1900s homes, built up quickly after the Johns-Manville plant opened in 1912, gives Manville a concentration of century-old wood-frame construction with the accumulated termite exposure that age brings.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Older multi-family and rowhouse-style buildings near Manville's historic core see steady indoor cockroach pressure typical of dense, aging housing stock.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Rises after flood events and into fall",
+        note: "Repeated river flooding displaces rodents from riverbank burrows toward higher, drier ground, which for Manville often means the same low-lying residential streets that already flood.",
+      },
+    ],
+    localHook:
+      "Manville was founded around the Johns-Manville asbestos products factory that opened in 1912, and the borough split off from Hillsborough Township in 1929, taking its name from the company that built it. That industrial history, and the borough's position at the point where the Raritan River meets the Millstone River, have made flooding a recurring event, with Hurricane Floyd in 1999, Hurricane Irene in 2011, and Hurricane Ida in 2021 all sending river water into the borough's low-lying Raritan and Lost Valley sections.",
+    intro:
+      "Few Somerset County towns have a founding story as specific as Manville's. The borough grew up around the Johns-Manville factory that opened its doors in 1912, split off from Hillsborough Township in 1929, and took the company's name as its own. That same riverside location, sitting right where the Raritan and Millstone Rivers converge, has made Manville one of the more flood-prone spots in central New Jersey, with Hurricane Floyd, Hurricane Irene, and Hurricane Ida each sending water into the borough within the last 25 years. For pest pressure, that combination matters more than it might elsewhere. Standing water left behind by repeated flooding gives mosquitoes more chances to breed each season than a comparable inland Somerset County property would see, and the same flooding pushes rodents out of riverbank burrows and toward the same residential streets that keep going under water. Layer on a housing stock concentrated in the early 1900s industrial boom that built the borough in the first place, and Manville's pest calendar reads differently from its neighbors: flood-driven mosquitoes and rodents on top of century-old termite exposure.",
+    sections: [
+      {
+        heading: "Why does Manville's river confluence location increase mosquito pressure?",
+        body: "Manville sits at the point where the Raritan River meets its tributary, the Millstone River, in the borough's northeastern corner. That confluence has flooded the Raritan and Lost Valley sections of the borough repeatedly, most recently during Hurricane Ida in 2021, and the standing water left behind after each event gives mosquitoes fresh breeding habitat well beyond the normal spring rains. A property near either river sees more of this pressure than one on higher ground closer to the borough's center.",
+      },
+      {
+        heading: "How does Manville's early 1900s housing stock affect termite risk?",
+        body: "Manville grew quickly after the Johns-Manville factory opened in 1912, and the borough incorporated on its own in 1929 once that growth was established. That short, concentrated building period left Manville with a core of wood-frame homes now well past a century old, and that age brings the same accumulated termite exposure any similarly aged New Jersey housing stock carries. An annual inspection is a reasonable baseline for a property in this part of the borough.",
+      },
+      {
+        heading: "Do Manville's repeated floods push rodents toward higher ground?",
+        body: "Yes, and it is a pattern worth watching for. When the Raritan or Millstone Rivers overflow their banks, rodents living in riverbank burrows lose their habitat and move toward the nearest dry, elevated ground, which in Manville frequently means residential blocks that sit only slightly higher than the flood-prone sections nearby. Homeowners in those transition areas often see a rodent bump in the weeks following a major storm, not just during it.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection given the concentration of early 1900s homes in Manville's historic core.",
+      "Clear gutters and check for standing water near the Raritan and Millstone confluence through storm season.",
+      "Seal foundation gaps promptly after a flood event to keep displaced rodents from finding a way indoors.",
+      "Keep a recurring cockroach service in place for older multi-family buildings near downtown.",
+      "Have a mosquito treatment plan ready to deploy after heavy rain rather than waiting for a visible problem.",
+    ],
+    costNote:
+      "Termite inspections in Manville typically run $150 to $300 given the age of the borough's early 1900s housing stock. Post-flood rodent exclusion work is often priced separately from a standard treatment plan. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Manville flood more than other Somerset County towns?",
+        answer: "Manville sits at the confluence of the Raritan River and its tributary, the Millstone River, and that low-lying position has led to repeated flooding, including during Hurricane Floyd in 1999, Hurricane Irene in 2011, and Hurricane Ida in 2021. Each event leaves standing water behind in the Raritan and Lost Valley sections of the borough, which extends the mosquito season well past normal spring rainfall.",
+      },
+      {
+        question: "Is Manville's housing stock older than nearby towns?",
+        answer: "Much of it is. Manville grew rapidly after the Johns-Manville asbestos products factory opened in 1912, and the borough split off from Hillsborough Township in 1929 once that growth was underway. That concentrated building period left Manville with a core of homes now over a century old, carrying the termite exposure that age typically brings.",
+      },
+      {
+        question: "Do floods in Manville lead to more rodent activity afterward?",
+        answer: "Often, yes. When the Raritan or Millstone Rivers overflow, rodents displaced from riverbank burrows move toward nearby dry ground, which in Manville is frequently the residential blocks just above the flood-prone sections. A rodent increase in the weeks after a major storm is a pattern local pest control technicians watch for.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Hillsborough Township", slug: "hillsborough-nj", stateSlug: "new-jersey" },
+      { name: "Bound Brook", slug: "bound-brook", stateSlug: "new-jersey" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Manville, NJ | Somerset County Raritan River",
+    metaDescription:
+      "Manville, NJ pest control for flood-driven mosquitoes and rodents, century-old home termite risk, and cockroaches near downtown. Free inspection.",
+  },
+  {
+    slug: "hillsborough-nj",
+    name: "Hillsborough Township",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~43,276",
+    county: "Somerset County",
+    climate: "cold-humid",
+    climateDriver:
+      "Hillsborough Township covers a large, mostly suburban and agricultural stretch of central Somerset County, with the forested ridge of Sourland Mountain running along its western edge. That ridge is one of the largest contiguous forest tracts in central New Jersey, and its deer population and dense understory make it one of the state's more consistently documented tick habitats. Hillsborough's population grew 13 percent between 2010 and 2020, and newer subdivisions built along the wooded edges of that growth sit closer to tick habitat than the township's older, more open farmland areas.",
+    topPests: ["Ticks", "Mosquitoes", "Subterranean Termites", "Ants"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall, year-round in mild winters",
+        note: "Sourland Mountain's dense forest and healthy deer population, along Hillsborough's western edge, make it one of the more consistently documented tick habitats in Somerset County, and properties backing onto that woodland see the most exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Hillsborough's mix of farmland, streams, and low-lying wooded areas away from Sourland Mountain gives mosquitoes scattered breeding sites across a township this large.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Hillsborough's older farmhouses, some predating its 20th-century suburban growth, carry more accumulated termite exposure than the newer subdivisions built during the township's 13 percent population increase from 2010 to 2020.",
+      },
+      {
+        name: "Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "New construction built along Sourland Mountain's wooded edges sits close enough to the forest that carpenter ants and other woodland ant species regularly find their way to foundations.",
+      },
+    ],
+    localHook:
+      "Hillsborough Township is home to the Sourland Mountain Preserve, part of one of the largest contiguous forest tracts remaining in central New Jersey, a ridge with a documented history reaching back to the Revolutionary War when George Washington's troops drilled near a spring at its summit. Today that same forest, with its dense understory and healthy deer population, makes the township's western edge one of Somerset County's more consistently reported tick habitats, a factor that has grown more relevant as Hillsborough's population climbed 13 percent between 2010 and 2020, extending new subdivisions closer to the woodland.",
+    intro:
+      "Hillsborough Township is big enough, and varied enough, that its pest pressure changes depending on which part of town a property sits in. Head toward the western edge and Sourland Mountain takes over: a dense, largely unbroken forest tract with a documented tick population that Somerset County health officials track more closely than most. Head toward the township's older farmland core and the concern shifts to termites, tied to farmhouses that predate Hillsborough's suburban growth spurt. That growth has been real and recent: the township's population rose 13 percent between 2010 and 2020, and the newer subdivisions built to house that growth often sit right at the edge of Sourland Mountain's woodland, closer to tick and carpenter ant exposure than the township's more open farmland ever was. A single set of pest control recommendations does not cover all of Hillsborough well; where a property sits relative to the mountain and the older farm belt changes what actually needs attention.",
+    sections: [
+      {
+        heading: "Why is Sourland Mountain such a significant tick concern for Hillsborough properties?",
+        body: "Sourland Mountain is one of the largest contiguous forest tracts left in central New Jersey, running along Hillsborough Township's western edge. Its dense understory supports a healthy deer population, and deer are a primary host for the ticks that carry Lyme disease. Properties that back directly onto the preserve, or sit in newer subdivisions built close to its tree line, see meaningfully more tick exposure than homes in Hillsborough's older, more open farmland areas.",
+      },
+      {
+        heading: "Does Hillsborough's recent growth change where pest risk shows up?",
+        body: "It does. The township's population grew 13 percent between 2010 and 2020, and much of that new construction went up along the wooded fringes closer to Sourland Mountain rather than in the established farmland core. That shift puts more homes within reach of woodland pests, ticks and carpenter ants especially, than Hillsborough saw a generation ago, even as its older farmhouses continue to carry their own separate termite exposure.",
+      },
+      {
+        heading: "What pest risk comes with Hillsborough's older farmhouses?",
+        body: "Hillsborough's farming history predates its suburban growth by well over a century, and a number of farmhouses from that earlier era are still standing, mostly in the township's more rural stretches away from Sourland Mountain. Wood-frame construction of that age carries more accumulated termite exposure than the newer subdivisions nearby, which is why an annual inspection matters more for these older properties than for recently built homes.",
+      },
+    ],
+    prevention: [
+      "Have properties backing onto Sourland Mountain checked for ticks each spring before the season peaks.",
+      "Keep grass cut short and clear leaf litter near the woodland edge to reduce tick habitat close to the home.",
+      "Schedule a termite inspection for older Hillsborough farmhouses given their age.",
+      "Treat foundations on new construction near Sourland Mountain's tree line for carpenter ants before they establish inside.",
+      "Clear standing water on farmland and low-lying parcels through the summer to limit mosquito breeding.",
+    ],
+    costNote:
+      "Tick treatment for Hillsborough properties near Sourland Mountain is often priced as a seasonal perimeter service. Termite inspections for older farmhouses typically run $150 to $300. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Sourland Mountain increase tick risk in Hillsborough?",
+        answer: "Sourland Mountain is one of the largest remaining contiguous forest tracts in central New Jersey, and its dense understory supports a healthy deer population, a primary host for ticks that carry Lyme disease. Hillsborough properties near that western edge see more tick exposure than homes in the township's older, more open farmland areas.",
+      },
+      {
+        question: "Has Hillsborough's growth since 2010 changed its pest pressure?",
+        answer: "Yes. The township's population grew 13 percent between 2010 and 2020, and a lot of the new construction went up closer to Sourland Mountain's wooded edge rather than in the established farm belt. That puts more homes within range of woodland pests like ticks and carpenter ants than Hillsborough saw before that growth.",
+      },
+      {
+        question: "Do Hillsborough's older farmhouses need different termite care?",
+        answer: "Generally yes. Farmhouses predating Hillsborough's suburban growth are wood-frame construction old enough to carry more accumulated termite exposure than a newer subdivision home, so an annual inspection is a reasonable baseline for these older, more rural properties.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Manville", slug: "manville-nj", stateSlug: "new-jersey" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Hillsborough Township, NJ | Somerset County Sourland Mountain",
+    metaDescription:
+      "Hillsborough Township, NJ pest control for Sourland Mountain ticks, farmhouse termites, carpenter ants near new construction, and mosquitoes. Free inspection.",
+  },
+  {
+    slug: "phillipsburg-nj",
+    name: "Phillipsburg",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~15,249",
+    county: "Warren County",
+    climate: "cold-humid",
+    climateDriver:
+      "Phillipsburg is the most populous municipality in Warren County, sitting where the Delaware River runs alongside its tributary, the Lehigh, across from Easton, Pennsylvania. The town incorporated in 1861 and grew rapidly once the Lehigh Valley Railroad, the Central Railroad of New Jersey, the Belvidere Delaware Railroad, and the Morris Canal all converged there, and Ingersoll-Rand's first factory, opened in 1903, drew the workforce that built much of Phillipsburg's dense, century-old rowhouse core.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Cockroaches", "Rodents"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Phillipsburg's rowhouses and worker housing built up quickly after the Lehigh Valley Railroad and Ingersoll-Rand's 1903 factory drew thousands of jobs to town, leaving a dense core of century-old wood-frame construction with real termite exposure.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Phillipsburg sits at the point where the Delaware and Lehigh Rivers nearly meet, and low-lying riverside areas hold standing water after summer storms, giving mosquitoes a reliable breeding ground close to town.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Older multi-family rowhouses near Phillipsburg's historic rail and industrial core see steady indoor cockroach pressure typical of dense housing from that era.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Fall through winter",
+        note: "Phillipsburg's riverside location and its legacy of rail yards and industrial buildings give rodents ready cover close to residential streets as cooler weather sets in.",
+      },
+    ],
+    localHook:
+      "Phillipsburg was incorporated in 1861 and grew rapidly once the Lehigh Valley Railroad connected across the Delaware River with the Central Railroad of New Jersey, the Belvidere Delaware Railroad, and the Morris Canal, all converging in the same small town. That transportation hub status drew Ingersoll-Rand to open its first factory here in 1903, employing 1,000 workers within a year and eventually reaching 5,000, and the rowhouses and worker housing built during that boom still make up a meaningful share of Phillipsburg's housing stock today.",
+    intro:
+      "Not many towns of 15,000 people can say four separate rail lines and a canal once converged within their borders, but Phillipsburg can. The Lehigh Valley Railroad, the Central Railroad of New Jersey, the Belvidere Delaware Railroad, and the Morris Canal all met here, at the point where the Delaware River runs alongside the Lehigh, and that transportation confluence is exactly what drew Ingersoll-Rand to open its first factory in Phillipsburg in 1903. The company grew from 1,000 workers to 5,000 within a few years, and the rowhouses and worker housing built to shelter that workforce still stand today, older than the surrounding subdivisions and closer to the river than most. That combination, a dense core of century-old wood-frame housing sitting right along a river confluence, shapes Phillipsburg's pest pressure more than almost anything else about the town: termite exposure tied to age, mosquitoes tied to the water, and cockroaches tied to how tightly packed the older housing sits.",
+    sections: [
+      {
+        heading: "Why does Phillipsburg's railroad-era housing carry more termite risk?",
+        body: "Phillipsburg's population boomed after Ingersoll-Rand opened its first factory in 1903, growing the workforce from 1,000 to 5,000 within a few years, and the rowhouses built to house those workers still make up a real share of the town's housing today. That wood-frame construction is now well over a century old, and age is the single biggest driver of termite exposure in any New Jersey housing stock, which makes an annual inspection a reasonable baseline for Phillipsburg's older neighborhoods.",
+      },
+      {
+        heading: "How does the Delaware and Lehigh River confluence affect mosquito pressure?",
+        body: "Phillipsburg sits at the point where the Delaware River runs alongside its tributary, the Lehigh, and low-lying land near that confluence holds standing water more readily after a summer storm than higher ground further from the rivers does. That gives riverside properties in Phillipsburg a steadier mosquito season than a comparable inland Warren County property would experience.",
+      },
+      {
+        heading: "Why do Phillipsburg's older rowhouses see more cockroach pressure?",
+        body: "The dense, tightly packed rowhouses built during Phillipsburg's railroad and industrial boom share walls and utility lines in a way that newer, more spread-out housing does not, and that shared construction makes it easier for German cockroaches to move between units once they establish in one. A recurring service tends to work better than a one-time treatment for this style of building.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for Phillipsburg's railroad-era rowhouses and worker housing.",
+      "Clear standing water near riverside properties through the summer to reduce mosquito breeding.",
+      "Keep a recurring cockroach service in place for shared-wall rowhouse buildings.",
+      "Seal foundation and utility gaps before fall to reduce rodent entry near former rail and industrial sites.",
+      "Address moisture damage in older wood-frame construction promptly to limit further termite exposure.",
+    ],
+    costNote:
+      "Termite inspections in Phillipsburg typically run $150 to $300 given the age of the town's railroad-era housing stock. Riverside mosquito treatment is often priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Phillipsburg have so much century-old housing?",
+        answer: "Phillipsburg's population and housing stock grew quickly after Ingersoll-Rand opened its first factory in 1903, expanding from 1,000 workers to 5,000 within a few years. The rowhouses built to shelter that workforce are still standing today, now well over a century old, which is why termite exposure is a bigger factor here than in a newer Warren County town.",
+      },
+      {
+        question: "Does the Delaware and Lehigh River confluence increase mosquito risk in Phillipsburg?",
+        answer: "Yes, for riverside properties especially. Low-lying land near where the Delaware and Lehigh Rivers come together holds standing water more readily after summer storms than higher ground further from the water, giving those properties a steadier mosquito season.",
+      },
+      {
+        question: "Do Phillipsburg's rowhouses need different cockroach treatment than a single-family home?",
+        answer: "Often yes. The shared walls and utility lines common to Phillipsburg's railroad-era rowhouses make it easier for German cockroaches to spread between units, so a recurring treatment plan generally works better for this housing style than a single visit.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Easton", slug: "easton", stateSlug: "pennsylvania" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Phillipsburg, NJ | Warren County Delaware River",
+    metaDescription:
+      "Phillipsburg, NJ pest control for railroad-era rowhouse termites, river confluence mosquitoes, and rowhouse cockroaches. Free inspection.",
+  },
+  {
+    slug: "manchester-nj",
+    name: "Manchester Township",
+    state: "New Jersey",
+    stateSlug: "new-jersey",
+    stateAbbr: "NJ",
+    tier: "T3",
+    population: "~45,115",
+    county: "Ocean County",
+    climate: "cold-humid",
+    climateDriver:
+      "Manchester Township sits within the New Jersey Pine Barrens in Ocean County, a fire-adapted pitch pine and oak forest on sandy, fast-draining soil. A large share of the township's housing is concentrated in age-restricted retirement communities such as Crestwood Village, Pine Lake Park, and Leisure Village West, most built decades ago with wooded lot lines running directly against the surrounding pinelands.",
+    topPests: ["Ticks", "Carpenter Ants", "Subterranean Termites", "Rodents"],
+    pestProfile: [
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Manchester Township sits within the New Jersey Pine Barrens, and its retirement communities built along wooded lot lines put many homes closer to tick-carrying wildlife habitat than a typical Ocean County suburb.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "The pitch pine and oak forest surrounding Manchester's neighborhoods gives carpenter ants abundant natural nesting material close to homes, especially in the older sections of the township's age-restricted communities.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring through fall",
+        note: "Manchester's largest retirement communities, including Crestwood Village and Pine Lake Park, were built decades ago and now carry the same accumulated termite exposure any mid-20th-century housing stock does, worsened by the sandy Pine Barrens soil that surrounds them.",
+      },
+      {
+        name: "Rodents",
+        serviceSlug: "rodent-control",
+        activeSeason: "Fall through winter",
+        note: "Wildfire activity in Manchester's Pine Barrens, including a 2023 blaze that burned close to 3,800 acres and forced evacuations near Lakehurst, pushes displaced wildlife including rodents toward the nearest developed neighborhoods.",
+      },
+    ],
+    localHook:
+      "Manchester Township's population reached 45,115 at the 2020 census, its highest count ever recorded, and a large share of that growth sits in age-restricted retirement communities such as Crestwood Village, Pine Lake Park, and Leisure Village West, built directly into the surrounding New Jersey Pine Barrens. That same Pine Barrens setting is fire-prone: a 2023 wildfire, known locally as the Jimmy's Waterhole Fire, burned close to 3,800 acres across Manchester and neighboring Lakehurst and forced roughly 170 homes to evacuate, a reminder of how closely these communities sit against the pinelands.",
+    intro:
+      "Manchester Township grew to its largest population ever at the 2020 census, 45,115 people, and a striking share of that population lives in age-restricted retirement communities with names like Crestwood Village, Pine Lake Park, and Leisure Village West. Those communities were built directly against the New Jersey Pine Barrens, and that setting cuts both ways. It gives residents quiet, wooded surroundings, and it also means many homes sit closer to tick habitat, carpenter ant nesting material, and the kind of wildland brush that burned through nearly 3,800 acres of Manchester and neighboring Lakehurst during the 2023 Jimmy's Waterhole Fire. Add the fact that several of Manchester's largest retirement communities are now decades old, built on sandy Pine Barrens soil that behaves differently under a foundation than clay or loam does elsewhere in the state, and Manchester ends up with a pest profile that looks less like a typical Ocean County suburb and more like a woodland community that happens to house tens of thousands of people.",
+    sections: [
+      {
+        heading: "Why do Manchester's retirement communities see more tick exposure?",
+        body: "Communities like Crestwood Village, Pine Lake Park, and Leisure Village West were built with wooded lot lines running right up against the New Jersey Pine Barrens, rather than the more cleared, subdivided lots common to newer Ocean County developments. That proximity to undeveloped pineland means residents and their pets encounter tick habitat closer to home than a typical suburban property does, and it is worth checking pets and yards through the spring and fall in particular.",
+      },
+      {
+        heading: "Does wildfire activity in the Pine Barrens change pest pressure in Manchester?",
+        body: "It can, in the aftermath especially. The 2023 Jimmy's Waterhole Fire burned close to 3,800 acres across Manchester and neighboring Lakehurst and forced roughly 170 homes to evacuate, and fires like that displace the wildlife living in the burned area, rodents included, toward the nearest untouched, developed ground. Homeowners near the edge of Manchester's wooded sections sometimes see a rodent increase in the weeks following a nearby fire, not just during it.",
+      },
+      {
+        heading: "Why does the age of Manchester's retirement housing stock matter for termites?",
+        body: "Several of Manchester's largest age-restricted communities, including Crestwood Village and Pine Lake Park, were built decades ago and now carry the accumulated termite exposure any mid-20th-century housing stock does. The sandy soil typical of the surrounding Pine Barrens does not slow subterranean termites down the way denser soil might, which makes a regular inspection schedule a sensible baseline for these older, single-story homes.",
+      },
+    ],
+    prevention: [
+      "Check pets and yards for ticks through spring and fall, especially on properties bordering the Pine Barrens.",
+      "Schedule a termite inspection for older retirement community homes given their age and the surrounding sandy soil.",
+      "Clear brush and pine litter near the foundation to reduce carpenter ant nesting material close to the home.",
+      "Watch for a rodent uptick near wooded property lines in the weeks following any nearby wildfire.",
+      "Seal foundation gaps on single-story homes common to Manchester's retirement communities before fall.",
+    ],
+    costNote:
+      "Termite inspections for Manchester's older retirement community homes typically run $150 to $300. Tick treatment for properties bordering the Pine Barrens is often priced as a seasonal perimeter service. Free inspection included.",
+    faqs: [
+      {
+        question: "Why do Manchester Township's retirement communities have more tick exposure?",
+        answer: "Communities such as Crestwood Village, Pine Lake Park, and Leisure Village West were built with lot lines running directly against the New Jersey Pine Barrens rather than more cleared suburban lots, which puts residents and pets closer to tick habitat than a typical Ocean County property sees.",
+      },
+      {
+        question: "Did the 2023 Manchester wildfire affect pest activity nearby?",
+        answer: "The Jimmy's Waterhole Fire burned close to 3,800 acres across Manchester and neighboring Lakehurst in 2023 and forced roughly 170 homes to evacuate. Fires of that size displace wildlife, including rodents, toward the nearest developed ground, and homeowners near the burn area sometimes see increased rodent activity in the weeks after.",
+      },
+      {
+        question: "Are Manchester's retirement community homes more prone to termites?",
+        answer: "Many of them, yes. Communities like Crestwood Village and Pine Lake Park were built decades ago, and that age, combined with the sandy Pine Barrens soil surrounding Manchester, gives these single-story homes accumulated termite exposure similar to other mid-20th-century New Jersey housing stock.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Atlantic City", slug: "atlantic-city", stateSlug: "new-jersey" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Manchester Township, NJ | Ocean County Pine Barrens",
+    metaDescription:
+      "Manchester Township, NJ pest control for Pine Barrens ticks, retirement community termites, carpenter ants, and post-wildfire rodents. Free inspection.",
+  },
 ];

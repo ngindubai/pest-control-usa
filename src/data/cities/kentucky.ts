@@ -2567,4 +2567,458 @@ export const kentuckyCities: CityLocation[] = [
     metaTitle: "Pest Control in Pikeville, KY | Termites & Mountain Pests",
     metaDescription: "Pikeville KY pest control for termites, brown recluse spiders, mice, and yellowjackets. Pike County mountain valley specialists. Free inspection. Call 1-800-PEST-USA.",
   },
+  {
+    slug: "berea-ky",
+    name: "Berea",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~15,539",
+    county: "Madison County",
+    climate: "hot-humid",
+    climateDriver:
+      "Berea sits where the Bluegrass region meets the Appalachian foothills at the edge of the Cumberland Plateau, with an average elevation just under 1,000 feet that gives it a humid subtropical climate of hot, humid summers and cold winters, only slightly cooled compared to lower-lying Bluegrass towns. Berea College, founded in 1855, anchors a historic core of wood-frame homes, and the town's population grew more than 27 percent between 2000 and 2020, from about 9,900 residents to over 15,500, much of that growth built into wooded hillside subdivisions at the town's edges.",
+    topPests: ["Subterranean Termites", "Ticks", "Carpenter Ants", "Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through November",
+        note: "Berea's humid subtropical climate keeps subterranean termites active most of the year, and the wood-frame homes surrounding the Berea College campus, many built well before the town's recent growth, carry more wood-to-soil contact points than newer construction.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Newer Berea subdivisions built into the wooded hillsides at the edge of the Cumberland Plateau sit closer to brushy field edges and forest cover, giving ticks more habitat near the yard than a flatter, more open Bluegrass property would have.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, worse near tree lines",
+        note: "Dead and standing timber in the forested land surrounding Berea's hillside subdivisions gives carpenter ants plenty of natural colony sites close to homes built at the edge of the tree line.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Cooler fall nights at Berea's near-1,000-foot elevation push field mice toward shelter earlier than in lower-lying Bluegrass towns, sending them into homes at the edges of town first.",
+      },
+    ],
+    localHook:
+      "Berea sits directly on the boundary between the Bluegrass region and the Appalachian foothills at the edge of the Cumberland Plateau, home to Berea College, founded in 1855 as one of the first interracial and coeducational colleges in the South. The town's population grew more than 27 percent between 2000 and 2020, climbing from about 9,900 to over 15,500 residents, much of that growth built into the wooded hillsides that ring the historic core.",
+    intro:
+      "Berea sits at the exact line where the Bluegrass region gives way to the Appalachian foothills, and that boundary shapes almost everything about pest pressure here. The town's average elevation of nearly 1,000 feet cools its humid subtropical summers just slightly compared to lower Bluegrass towns, but not enough to shorten the termite season in any meaningful way. Berea College, founded in 1855, anchors a historic core of wood-frame homes that predate most of the town's growth, and growth has been real: Berea's population climbed more than 27 percent between 2000 and 2020, from about 9,900 residents to over 15,500. New subdivisions cut into wooded hillsides at the edge of the Cumberland Plateau put homes closer to tick and carpenter ant habitat than a typical in-town Bluegrass address would be. Add cooler fall nights that push field mice indoors earlier than in Lexington or Georgetown, and Berea's pest calendar runs on its own local logic.",
+    sections: [
+      {
+        heading: "Why does Berea's location at the edge of the Cumberland Plateau matter for pests?",
+        body: "Berea sits directly on the boundary between the Bluegrass region's rolling farmland and the forested foothills of the Cumberland Plateau, with an average elevation just under 1,000 feet. That mix puts many Berea properties, especially newer homes built into wooded hillsides on the town's edges, closer to tick habitat and carpenter ant colonies in dead or standing timber than a home in a flatter, more open Bluegrass town would be. The elevation cools summer nights slightly, but not enough to meaningfully shorten the subterranean termite season that runs from March into November across most of central Kentucky.",
+      },
+      {
+        heading: "Does Berea's growth since 2000 change how pest problems show up?",
+        body: "Berea's population grew more than 27 percent from 2000 to 2020, rising from about 9,900 residents to over 15,500, and a meaningful share of that growth built new subdivisions into the wooded hillsides ringing the town rather than filling in the older core. That pattern means Berea now carries two distinct pest profiles side by side: century-old wood-frame homes near the Berea College campus with the termite and carpenter ant exposure that comes with age, and newer homes at the forest edge with heavier tick and mouse pressure from the surrounding woods. A one-size treatment plan rarely fits both halves of town equally well.",
+      },
+      {
+        heading: "Why do ticks need more attention in Berea than in many nearby Bluegrass towns?",
+        body: "Homes built along Berea's wooded hillside subdivisions sit closer to tick habitat, brushy field edges, leaf litter, and deer trails, than properties in flatter, more open parts of central Kentucky. Ticks stay active from spring through fall in Kentucky's humid subtropical climate, and the Cumberland Plateau's forest cover gives them more year-round harborage close to residential yards than a typical Bluegrass farm town offers. Regular yard maintenance and a perimeter treatment matter more for a Berea property backing onto woods than for one in the middle of the historic downtown grid.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection for homes near the historic Berea College campus, given their age.",
+      "Keep grass cut short and clear leaf litter along wooded property lines to reduce tick habitat.",
+      "Trim tree limbs and remove dead wood near the house to cut down on carpenter ant entry points.",
+      "Seal foundation gaps before fall as cooler nights push field mice toward shelter.",
+      "Ask about a combined termite and tick perimeter plan if your property backs onto Cumberland Plateau woodland.",
+    ],
+    costNote:
+      "Termite inspections in Berea typically run $150 to $300, similar to other central Kentucky towns of this size. Tick and yard perimeter treatments for wooded hillside properties are often priced as a separate seasonal service. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Berea have more tick pressure than flatter Bluegrass towns?",
+        answer: "Many Berea homes, particularly newer subdivisions built into the wooded hillsides at the edge of the Cumberland Plateau, sit closer to brushy field edges and forest cover than homes in flatter central Kentucky towns. That proximity to woodland gives ticks more habitat close to the yard, and they stay active from spring through fall in Kentucky's humid subtropical climate.",
+      },
+      {
+        question: "Is termite risk different for Berea's older homes near Berea College than for newer homes?",
+        answer: "Yes. The wood-frame homes surrounding the Berea College campus, founded in 1855, are generally older construction with more wood-to-soil contact points, giving subterranean termites more opportunities than the newer homes built during Berea's 27 percent population growth between 2000 and 2020.",
+      },
+      {
+        question: "Does Berea's elevation change the local pest season much?",
+        answer: "Only slightly. Berea's average elevation of nearly 1,000 feet cools summer nights a bit compared to lower Bluegrass towns, but it does not meaningfully shorten the subterranean termite season, which still runs from March into November across most of central Kentucky.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Richmond", slug: "richmond-ky", stateSlug: "kentucky" },
+      { name: "Winchester", slug: "winchester-ky", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Berea, KY | Madison County Cumberland Plateau Edge",
+    metaDescription:
+      "Berea, KY pest control for termites near Berea College, wooded hillside ticks, carpenter ants, and fall mice. Free inspection.",
+  },
+  {
+    slug: "shelbyville-ky",
+    name: "Shelbyville",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~17,282",
+    county: "Shelby County",
+    climate: "hot-humid",
+    climateDriver:
+      "Shelbyville sits in the heart of the Bluegrass region on the western bank of Clear Creek, near its confluence with Mulberry Creek, giving the area humid subtropical summers and a creek-bottom setting that holds moisture longer than higher ground nearby. The town's late-Victorian downtown, much of it listed on the National Register of Historic Places, dates to the decades after Shelby County's 1792 founding, and the horse farms that earned Shelbyville the title Saddlebred Capital of the World add barn and pasture habitat that a purely residential Bluegrass town would not have.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Flies", "Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October",
+        note: "Shelbyville's late-Victorian downtown buildings, many listed on the National Register of Historic Places, carry the wood-to-soil contact typical of construction from that era, giving termites easy entry through Kentucky's long warm season.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Properties near Clear Creek and its confluence with Mulberry Creek hold standing water longer after rain than higher ground elsewhere in Shelby County, extending the local mosquito season.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Spring through fall, worse at barns",
+        note: "Horse farms tied to Shelbyville's Saddlebred Capital of the World reputation generate fly pressure from manure and barn moisture that a residential-only property does not face at the same scale.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "Mice move into Shelbyville homes and the industrial buildings built near Interstate 64 since 1960 as cooler fall temperatures set in, seeking warmth and food.",
+      },
+    ],
+    localHook:
+      "Shelbyville was established in October 1792 at the first meeting of the Shelby County Court, after local landowner William Shannon gave up 50 acres of his property for the new town. Known today as the Saddlebred Capital of the World, Shelbyville's horse-farm economy anchors an annual horse show, and Interstate 64, built two miles south of downtown in 1960, brought three industrial parks to the west side of the city.",
+    intro:
+      "A creek confluence and a horse show title do not usually belong in the same sentence, but in Shelbyville they explain a lot about local pest pressure. The town was laid out on the western bank of Clear Creek near its meeting point with Mulberry Creek in 1792, and low ground near that confluence still holds standing water longer after rain than higher parts of Shelby County. Shelbyville's late-Victorian downtown, much of it listed on the National Register of Historic Places, gives the historic core a concentration of aging wood-frame and brick buildings that share the termite exposure of construction from that era. Out on the horse farms that earned Shelbyville its name as the Saddlebred Capital of the World, barns and pasture add fly pressure that a purely residential town would not deal with at the same scale. Add three industrial parks built along Interstate 64 since 1960, and Shelbyville's pest picture covers a wider range than its population alone would suggest.",
+    sections: [
+      {
+        heading: "Why does Clear Creek add to Shelbyville's mosquito pressure?",
+        body: "Shelbyville was founded on the western bank of Clear Creek, close to where it meets Mulberry Creek, and the low ground near that confluence holds standing water longer after rain than the higher farmland surrounding the town. That creek-bottom moisture, combined with Kentucky's humid subtropical summer pattern, gives properties near Clear Creek Park a longer mosquito breeding window than a home on higher ground elsewhere in Shelby County would experience.",
+      },
+      {
+        heading: "Do Shelbyville's horse farms change what pest control looks like here?",
+        body: "Shelbyville's identity as the Saddlebred Capital of the World means a real share of the local economy runs through horse farms and barns, and barns bring fly pressure that a residential subdivision does not generate on its own. Manure management and standing water in water troughs both add breeding sites, so farm properties around Shelbyville typically need a fly and pest plan built around barn structures rather than the standard residential approach used downtown.",
+      },
+      {
+        heading: "Why does Shelbyville's late-Victorian downtown need extra termite attention?",
+        body: "Much of Shelbyville's historic downtown corridor, with its tree-lined streets and late-Victorian brick and wood-frame buildings, is listed on the National Register of Historic Places, and construction from that era typically has more wood-to-soil contact points than a modern building. Subterranean termites active through Kentucky's warm season find easy entry into that older stock, making a scheduled inspection more important for a downtown Shelbyville property than for a newer build in one of the subdivisions that grew up around the Interstate 64 industrial parks after 1960. A property owner renovating one of those older downtown buildings should expect an inspector to look closely at sill plates and any wood in direct contact with the soil.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any property in Shelbyville's late-Victorian downtown corridor given the age of that construction.",
+      "Clear standing water near Clear Creek and Mulberry Creek adjacent properties through the summer.",
+      "Manage manure and standing water at horse farm barns to cut down on fly breeding.",
+      "Seal gaps around barn structures and outbuildings, not just the main house.",
+      "Address moisture issues near creek-bottom properties before they attract moisture pests.",
+    ],
+    costNote:
+      "Termite inspections in Shelbyville's historic downtown typically run $150 to $300 given the age of the construction. Farm properties with barns often need a separate fly control plan priced apart from standard residential service. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is mosquito pressure worse near Clear Creek in Shelbyville?",
+        answer: "Shelbyville was founded on the western bank of Clear Creek near its confluence with Mulberry Creek, and the low ground near that meeting point holds standing water longer after rain than higher parts of Shelby County, giving mosquitoes a longer breeding window through the summer.",
+      },
+      {
+        question: "Do Shelbyville's horse farms need different pest control than a regular home?",
+        answer: "Yes. Shelbyville's status as the Saddlebred Capital of the World means many local properties include barns and pasture, and manure management along with standing water in troughs both add fly breeding sites that a residential-only pest plan does not address.",
+      },
+      {
+        question: "Is Shelbyville's downtown at higher termite risk than the newer parts of town?",
+        answer: "Generally yes. The late-Victorian buildings in Shelbyville's historic downtown corridor, many listed on the National Register of Historic Places, are older construction with more wood-to-soil contact than the newer homes and industrial buildings built near Interstate 64 since 1960.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Frankfort", slug: "frankfort", stateSlug: "kentucky" },
+      { name: "Versailles", slug: "versailles-ky", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Shelbyville, KY | Shelby County Horse Country",
+    metaDescription:
+      "Shelbyville, KY pest control for termites in the historic downtown, Clear Creek mosquitoes, horse farm flies, and fall mice. Free inspection.",
+  },
+  {
+    slug: "mount-sterling-ky",
+    name: "Mount Sterling",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~7,558",
+    county: "Montgomery County",
+    climate: "hot-humid",
+    climateDriver:
+      "Mount Sterling sits at the edge of the Appalachian foothills in Montgomery County, a position that made it the trading hub for a wide stretch of eastern Kentucky in the 1800s and still gives it a humid subtropical climate similar to the rest of the Bluegrass, with slightly cooler nights where the foothills begin. The town's historic downtown, built up around hotels, taverns, and stagecoach stops that served travelers and traders from the surrounding hill country, carries a concentration of construction well over a century old.",
+    topPests: ["Subterranean Termites", "Cockroaches", "Ticks", "Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October",
+        note: "Mount Sterling's historic downtown, built up around 1800s-era hotels, taverns, and stagecoach stops serving eastern Kentucky traders, carries a concentration of wood-frame construction over a century old with the wood-to-soil contact termites need.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, spikes each October",
+        note: "The Court Days festival brings roughly 200,000 visitors and 1,500 vendors, many selling food, into Mount Sterling's compact downtown every October, a short-term surge in food debris and crowding that favors cockroaches in nearby commercial buildings.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Mount Sterling's position at the edge of the Appalachian foothills puts more wooded and brushy land close to town than a Bluegrass property further west would face, giving ticks more habitat near residential yards.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "As cooler fall weather sets in along the foothills edge, field mice have a shorter distance to travel from surrounding farmland into Mount Sterling homes than in a more open Bluegrass location.",
+      },
+    ],
+    localHook:
+      "Mount Sterling has hosted Court Days, believed to be Kentucky's oldest continuously running festival, every October since 1794, when the Kentucky General Assembly required each county to hold a monthly court day and traders from across eastern Kentucky came to buy, sell, and swap goods. The modern festival still draws roughly 200,000 visitors and 1,500 vendors to the historic downtown over four days each October. The town takes its name from a nearby ancient burial mound called Little Mountain.",
+    intro:
+      "Few Kentucky towns can point to a single event that has run every year since 1794, but Mount Sterling can. Court Days started as a monthly trading gathering required by the Kentucky General Assembly and grew into what many consider the state's oldest continuously running festival, still drawing about 200,000 visitors and 1,500 vendors to the historic downtown each October. That downtown grew up around the hotels, taverns, and stagecoach stops that served traders coming from the surrounding Appalachian foothills, and much of that construction is well over a century old today. Mount Sterling's position at the edge of the foothills, the same geography that made it eastern Kentucky's trading hub in the 1800s, also puts it closer to tick and rodent habitat than towns further out in the open Bluegrass. Add a single weekend that packs tens of thousands of extra people and food vendors into a compact downtown, and Mount Sterling has pest pressure points that a town of under 8,000 residents would not otherwise carry.",
+    sections: [
+      {
+        heading: "Why is so much of Mount Sterling's downtown construction over a century old?",
+        body: "Mount Sterling grew into a trading hub for a wide stretch of eastern Kentucky during the 1800s, and its downtown filled in with the hotels, taverns, and stagecoach stops needed to serve that traffic. Much of that building stock is still standing and well over a century old, giving Mount Sterling's historic core a concentration of wood-to-soil contact points and other termite-friendly construction details that a town built up more recently would not have.",
+      },
+      {
+        heading: "Does the Court Days festival add to pest pressure downtown?",
+        body: "Court Days has run every October since 1794 and now draws around 200,000 visitors and 1,500 vendors, many selling food, into Mount Sterling's compact historic downtown over four days. That short, intense concentration of food vendors and crowds is exactly the kind of event that gives cockroaches and rodents extra opportunity around downtown buildings, which is why commercial properties near the festival grounds benefit from a service scheduled ahead of the October dates rather than a purely reactive one.",
+      },
+      {
+        heading: "Why does Mount Sterling's edge-of-the-foothills location matter for ticks and mice?",
+        body: "Mount Sterling sits right where the Bluegrass region gives way to the Appalachian foothills, the same position that made it a trading crossroads in the 1800s. That geography also means more wooded and brushy land close to town than a Bluegrass property further west would have, giving ticks more habitat near residential yards and giving field mice a shorter distance to travel into homes once cooler fall weather sets in. Homeowners along the edges of town, closest to the tree line, generally see both pests earlier in the season than properties nearer the center of the historic downtown.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any Mount Sterling property built in or near the historic downtown core.",
+      "Ask commercial downtown properties about a scheduled cockroach and rodent service ahead of the October Court Days festival.",
+      "Keep grass cut and clear brush along property lines to reduce tick habitat near the foothills edge.",
+      "Seal foundation gaps before fall as cooler weather pushes field mice toward shelter.",
+      "Address moisture issues in older downtown buildings promptly to avoid attracting secondary pests.",
+    ],
+    costNote:
+      "Termite inspections in Mount Sterling typically run $150 to $300 given the age of much of the downtown building stock. Commercial properties near the Court Days festival grounds often add a scheduled service ahead of the October event. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is Mount Sterling's downtown building stock so old?",
+        answer: "Mount Sterling grew into a trading hub for eastern Kentucky during the 1800s, and its downtown filled in with hotels, taverns, and stagecoach stops to serve that traffic. Much of that construction is still standing today, well over a century old, giving the historic core more termite-friendly wood-to-soil contact than newer buildings elsewhere in town.",
+      },
+      {
+        question: "Does the Court Days festival cause pest problems in Mount Sterling?",
+        answer: "The festival itself runs only four days each October, but the roughly 200,000 visitors and 1,500 vendors it draws into the compact historic downtown, many selling food, create short-term conditions that favor cockroaches and rodents. Commercial downtown properties typically benefit from a scheduled service ahead of the event rather than waiting to react afterward.",
+      },
+      {
+        question: "Is tick pressure higher in Mount Sterling than in flatter Bluegrass towns?",
+        answer: "Yes, generally. Mount Sterling sits right at the edge of the Appalachian foothills, and that means more wooded and brushy land close to town than a property further out in the open Bluegrass would face, giving ticks more habitat near residential yards.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Winchester", slug: "winchester-ky", stateSlug: "kentucky" },
+      { name: "Lexington", slug: "lexington", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Mount Sterling, KY | Montgomery County Foothills",
+    metaDescription:
+      "Mount Sterling, KY pest control for historic downtown termites, Court Days cockroach pressure, foothills ticks, and fall mice. Free inspection.",
+  },
+  {
+    slug: "versailles-ky",
+    name: "Versailles",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~10,347",
+    county: "Woodford County",
+    climate: "hot-humid",
+    climateDriver:
+      "Versailles sits in the Inner Bluegrass region on karst limestone terrain, where underground drainage channels rainwater through sinkholes and cave systems rather than across the surface, and the city has spent roughly 500,000 dollars purchasing flood-damaged, karst-affected property to manage the hazard. That same limestone bedrock, combined with Kentucky's humid subtropical summers and the horse farms that surround the city, shapes a pest picture built around foundation moisture and standing water as much as heat.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Flies", "Odorous House Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October",
+        note: "Versailles' Inner Bluegrass karst bedrock drains rainwater unevenly underground, and the city's roughly 500,000 dollar investment in buying flood-damaged, karst-affected property points to how much moisture can sit around a foundation, an easier path in for subterranean termites.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Elkhorn Creek and the karst sinkholes across the surrounding horse country can hold standing water longer after rain than solid, well-drained ground, extending the mosquito breeding window through Kentucky's humid summer.",
+      },
+      {
+        name: "Flies",
+        serviceSlug: "fly-control",
+        activeSeason: "Spring through fall, worse at barns",
+        note: "The horse farms that make Versailles a stop on the Kentucky Bourbon Trail generate manure and trough moisture that draw flies at a scale a residential-only property would not see.",
+      },
+      {
+        name: "Odorous House Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall",
+        note: "Ground movement tied to Versailles' karst limestone bedrock can open small foundation cracks, and odorous house ants are quick to exploit that kind of new gap looking for a way inside.",
+      },
+    ],
+    localHook:
+      "Versailles is the county seat of Woodford County and home to Woodford Reserve Distillery, a stop on the Kentucky Bourbon Trail housed at the Labrot and Graham site established in 1812. The city sits on Inner Bluegrass karst terrain, where surface streams disappear into sinkholes and reemerge as springs, and Versailles has spent about 500,000 dollars buying flood-damaged, karst-affected properties as part of managing that hazard. Elkhorn Creek, a tributary of the Kentucky River, runs through the surrounding karst landscape of rolling horse farms.",
+    intro:
+      "Limestone bedrock does not sound like a pest control topic, but in Versailles it explains more than the region's famous horse farms and bourbon distilleries do. The city sits on Inner Bluegrass karst terrain, where rainwater drains underground through sinkholes and reemerges elsewhere as springs rather than running off the surface the way it would on solid ground. Versailles has spent roughly 500,000 dollars buying up flood-damaged, karst-affected property, a sign of how much moisture this bedrock can trap right around a foundation. Add Elkhorn Creek, a tributary of the Kentucky River threading through the surrounding horse country, and Versailles carries a wetter foundation and drainage picture than a Bluegrass town built on more solid ground. The horse farms that make Versailles home to Woodford Reserve Distillery and its Bourbon Trail stop bring their own barn and pasture pest pressure on top of that.",
+    sections: [
+      {
+        heading: "Why does karst terrain matter for termites and moisture pests in Versailles?",
+        body: "Versailles sits on Inner Bluegrass karst limestone, where underground drainage carries rainwater through sinkholes and cave systems instead of across the surface. That pattern can leave foundations sitting on ground that holds moisture unevenly, and the city has spent roughly 500,000 dollars purchasing flood-damaged, karst-affected properties to manage the hazard. Damp foundation soil gives subterranean termites and other moisture pests an easier path into a home than the drier, more even ground found in non-karst parts of Kentucky.",
+      },
+      {
+        heading: "Does Elkhorn Creek add to mosquito pressure around Versailles?",
+        body: "Elkhorn Creek, a tributary of the Kentucky River, runs through the rolling horse country surrounding Versailles, and the karst sinkholes scattered across that landscape can hold standing water after rain longer than open, well-drained ground would. Combined with Kentucky's humid subtropical summer, that gives properties near the creek and its surrounding sinkholes a longer mosquito breeding window than a home on higher, more solid ground elsewhere in Woodford County.",
+      },
+      {
+        heading: "Do Versailles' horse farms change the local pest plan?",
+        body: "The same horse farms that make Versailles a stop on the Kentucky Bourbon Trail, home to Woodford Reserve Distillery at the Labrot and Graham site established in 1812, bring barns and pasture into the pest picture alongside residential properties. Flies breeding in manure and standing water at troughs add pressure that a purely residential Bluegrass subdivision would not face, and odorous house ants readily exploit the small cracks that karst-related ground movement can open up around a foundation. A farm property near Versailles typically needs both a barn-focused fly plan and a foundation-focused ant and termite plan working together, rather than either one on its own.",
+      },
+    ],
+    prevention: [
+      "Have foundations on karst-affected ground inspected for moisture issues that can invite termites.",
+      "Clear standing water in and around sinkholes near Elkhorn Creek through the summer to cut mosquito breeding.",
+      "Manage manure and trough water at horse farms to reduce fly pressure.",
+      "Seal foundation cracks that karst ground movement can open up, before ants find them.",
+      "Schedule an annual termite inspection given the moisture risk of Versailles' limestone bedrock.",
+    ],
+    costNote:
+      "Termite inspections in Versailles typically run $150 to $300, sometimes more for karst-affected properties needing a closer foundation moisture check. Horse farm fly control is usually priced as a separate barn service. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Versailles have more foundation moisture issues than other Bluegrass towns?",
+        answer: "Versailles sits on Inner Bluegrass karst limestone, where rainwater drains underground through sinkholes rather than running off the surface. The city has spent roughly 500,000 dollars purchasing flood-damaged, karst-affected property, and that same uneven underground drainage can leave foundations sitting on damp ground that gives termites and other moisture pests an easier way in.",
+      },
+      {
+        question: "Does Elkhorn Creek make mosquitoes worse in Versailles?",
+        answer: "Yes. Elkhorn Creek and the karst sinkholes scattered through the surrounding horse country can hold standing water longer after rain than open, well-drained ground, and combined with Kentucky's humid summer, that extends the local mosquito breeding season near the creek.",
+      },
+      {
+        question: "Do the horse farms around Versailles need different pest control than a regular home?",
+        answer: "Yes, generally. The horse farms tied to Versailles' spot on the Kentucky Bourbon Trail bring barns and pasture into the picture, and manure and trough water add fly breeding sites that a residential-only pest plan in town does not need to address.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Lexington", slug: "lexington", stateSlug: "kentucky" },
+      { name: "Frankfort", slug: "frankfort", stateSlug: "kentucky" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Versailles, KY | Woodford County Bluegrass",
+    metaDescription:
+      "Versailles, KY pest control for karst-related termite moisture, Elkhorn Creek mosquitoes, horse farm flies, and foundation ants. Free inspection.",
+  },
+  {
+    slug: "franklin-ky",
+    name: "Franklin",
+    state: "Kentucky",
+    stateSlug: "kentucky",
+    stateAbbr: "KY",
+    tier: "T3",
+    population: "~10,176",
+    county: "Simpson County",
+    climate: "hot-humid",
+    climateDriver:
+      "Franklin sits in south-central Kentucky just north of the Tennessee border, close enough that Interstate 65 crosses into the state only five miles south of downtown. The 1882 Italianate courthouse anchors a downtown with three historic districts on the National Register of Historic Places, and Drakes Creek, crossed by I-65 just north of town, adds low-lying, moisture-holding ground to Franklin's otherwise typical humid subtropical summer pattern.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Cockroaches", "Mice"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "March through October",
+        note: "Franklin's downtown, anchored by an 1882 Italianate courthouse and three historic districts on the National Register of Historic Places, holds a real share of construction with more wood-to-soil contact than a modern building, giving termites an easier way in.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Late spring through summer",
+        note: "Interstate 65 crosses Drakes Creek just north of downtown Franklin, and the low ground near that crossing holds standing water longer after rain, extending the local mosquito season.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse near the I-65 corridor",
+        note: "Steady truck traffic through the warehouses and commercial buildings along the I-65 corridor near Franklin, a route completed through Kentucky in 1970, gives cockroaches more entry opportunities than a typical downtown building sees.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "As cooler weather sets in, mice move from the farmland surrounding Simpson County into Franklin's older homes and commercial buildings seeking shelter.",
+      },
+    ],
+    localHook:
+      "Franklin was established in 1819 on a 62-acre tract bought from William Hudspeth and named for Benjamin Franklin. It is the county seat of Simpson County, sits along Interstate 65 just five miles north of the Tennessee state line, and its downtown is built around an 1882 Italianate courthouse with three separate historic districts listed on the National Register of Historic Places. Kentucky Downs, a racetrack on the Kentucky-Tennessee border, sits within Franklin, and Drakes Creek, crossed by I-65 north of downtown, runs through the surrounding countryside.",
+    intro:
+      "Franklin's spot five miles north of the Tennessee line has made Interstate 65 the town's defining feature since the final stretch of Kentucky's first completed interstate opened near here in 1970. That highway brought warehouses and commercial traffic to a town whose downtown still centers on an 1882 Italianate courthouse and three historic districts on the National Register of Historic Places. Drakes Creek, which I-65 crosses just north of Franklin, keeps low ground near the highway corridor wetter than the surrounding farmland through Kentucky's humid subtropical summer. Franklin was established in 1819 on land bought from William Hudspeth and named for Benjamin Franklin, and the town also hosts Kentucky Downs, a racetrack on the Kentucky-Tennessee border with its own barns and grounds to manage. Put an aging historic downtown next to a modern interstate commercial corridor, a creek crossing, and a working racetrack, and Franklin ends up managing several fairly different pest situations inside one small Simpson County town.",
+    sections: [
+      {
+        heading: "Why does Franklin's 1882 courthouse district need extra termite attention?",
+        body: "Franklin's downtown centers on an 1882 Italianate courthouse, and three separate historic districts around it are listed on the National Register of Historic Places, meaning a real share of the town's commercial and residential buildings date back well over a century. That older construction typically has more wood-to-soil contact than a modern building, giving subterranean termites an easier path in across Kentucky's long warm season, and it is a different exposure than the newer construction found along the interstate corridor on the edge of town.",
+      },
+      {
+        heading: "Does Drakes Creek add to mosquito pressure near Franklin?",
+        body: "Interstate 65 crosses Drakes Creek just north of downtown Franklin, and the low ground near that crossing holds standing water longer after rain than the higher farmland surrounding the rest of Simpson County. Combined with Franklin's humid subtropical summer, so close to the Tennessee border, that gives properties near the creek a longer mosquito season than a home on higher ground elsewhere in town would see. Kentucky Downs, the racetrack sitting right on the Kentucky-Tennessee border in Franklin, adds barn moisture and standing water of its own to that same low-lying stretch.",
+      },
+      {
+        heading: "Why does the Interstate 65 corridor change pest control needs in Franklin?",
+        body: "Franklin sits just five miles north of where I-65 crosses into Kentucky from Tennessee, and the warehouses and commercial buildings that grew up along that corridor since the interstate's completion in 1970 see steady truck traffic that a historic downtown building does not. That traffic creates more opportunities for cockroaches and rodents to enter storage and food service buildings near the highway, calling for a scheduled commercial service rather than the seasonal residential approach that fits Franklin's older neighborhoods and the quieter streets around the 1882 courthouse.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection for any property in Franklin's historic districts given the age of that construction.",
+      "Clear standing water near the Drakes Creek crossing through the summer to reduce mosquito breeding.",
+      "Set up a scheduled cockroach and rodent service for warehouses and commercial buildings along the I-65 corridor.",
+      "Seal foundation gaps before fall as cooler weather pushes mice toward shelter.",
+      "Address moisture issues in the 1882 courthouse district's older buildings promptly.",
+    ],
+    costNote:
+      "Termite inspections in Franklin's historic districts typically run $150 to $300 given the age of the construction. Commercial properties along the I-65 corridor often add a scheduled service given steady truck traffic. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is termite risk higher in Franklin's historic districts?",
+        answer: "Franklin's downtown is built around an 1882 Italianate courthouse, and three surrounding historic districts on the National Register of Historic Places include a lot of construction well over a century old. That older building stock typically has more wood-to-soil contact than a modern building, giving subterranean termites an easier way in.",
+      },
+      {
+        question: "Does Drakes Creek make mosquitoes worse near Franklin?",
+        answer: "Yes. Interstate 65 crosses Drakes Creek just north of downtown Franklin, and the low ground near that crossing holds standing water longer after rain than higher farmland elsewhere in Simpson County, extending the mosquito season for nearby properties.",
+      },
+      {
+        question: "Do warehouses along I-65 in Franklin need different pest control than a downtown building?",
+        answer: "Generally yes. The commercial buildings that grew up along the I-65 corridor since the interstate's completion near Franklin in 1970 see steady truck traffic, which creates more opportunities for cockroaches and rodents to enter than a historic downtown building typically faces, so a scheduled service usually works better than a seasonal approach.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Portland", slug: "portland-tn", stateSlug: "tennessee" },
+    ],
+    contentTemplate: "B",
+    contentSoul: "neighbor",
+    metaTitle: "Pest Control in Franklin, KY | Simpson County I-65 Corridor",
+    metaDescription:
+      "Franklin, KY pest control for historic downtown termites, Drakes Creek mosquitoes, I-65 corridor cockroaches, and fall mice. Free inspection.",
+  },
 ];

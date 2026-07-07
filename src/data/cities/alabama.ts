@@ -3900,4 +3900,456 @@ export const alabamaCities: CityLocation[] = [
     metaDescription:
       "Fort Payne, AL pest control for ticks near Little River Canyon, year-round termites, fire ants, and American cockroaches. DeKalb County mountain service.",
   },
+  {
+    slug: "alexander-city-al",
+    name: "Alexander City",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~14,840",
+    county: "Tallapoosa County",
+    climate: "hot-humid",
+    climateDriver:
+      "Alexander City sits in Tallapoosa County within Alabama's Piedmont plateau, hot, humid summers and mild winters typical of east-central Alabama. Alabama Power's 1926 completion of Martin Dam on the Tallapoosa River created Lake Martin, a 44,000-acre reservoir with over 700 miles of shoreline, one of the largest man-made lakes in the country. The city's older core, including neighborhoods built up around the Russell Corporation textile mill that anchored the local economy for much of the twentieth century, carries a concentration of aging wood-frame housing.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Fire Ants", "Carpenter Ants"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Alexander City's mill-era homes near downtown, many built up around the historic Russell Corporation textile operation, sit on Piedmont clay soil that keeps subterranean termite colonies active for much of the year in Tallapoosa County's warm climate.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "Lake Martin's 700 miles of shoreline and the coves and inlets around Alexander City give mosquitoes far more standing-water breeding habitat than a landlocked Piedmont town would have, extending the biting season into early fall.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worse spring and fall",
+        note: "Fire ant mounds rebuild quickly in Tallapoosa County's mild winters, and the open lawns and lakeside lots around Alexander City give colonies plenty of undisturbed soil to spread into.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Moisture-damaged wood in Alexander City's older mill-town homes and the wooded lots common around Lake Martin give carpenter ants the damp timber they need to establish satellite colonies.",
+      },
+    ],
+    localHook:
+      "Alexander City grew up around the Russell Corporation textile mill, which anchored the local economy for generations after the town was renamed in 1873 for railroad president Edward Porter Alexander. Alabama Power's completion of Martin Dam in 1926 backed up the Tallapoosa River into Lake Martin, a 44,000-acre reservoir with more than 700 miles of shoreline that remains one of the largest man-made lakes in the United States and now drives much of the area's tourism and second-home economy.",
+    intro:
+      "Lake Martin covers more shoreline than almost any other reservoir in the country, and that much water sitting next to a Piedmont mill town changes what a pest control visit in Alexander City actually needs to cover. The lake's coves and inlets hold standing water long after summer rain moves through, giving mosquitoes a breeding window that stretches past what an inland Tallapoosa County property would see. Meanwhile the older housing stock near downtown, built up during the decades the Russell Corporation textile mill drove the local economy, is old enough now that subterranean termite exposure is a real and ongoing concern rather than a rare one. Fire ants round out the picture, spreading readily through the mild winters typical of this part of the state. A property right on the water and a property a few miles inland in the same city can carry noticeably different pest pressure, which is exactly why Alexander City's pest control needs vary more within the city limits than a smaller, more uniform Alabama town's would.",
+    sections: [
+      {
+        heading: "Why does Lake Martin change mosquito control needs in Alexander City?",
+        body: "Lake Martin's more than 700 miles of shoreline, the product of Alabama Power's 1926 Martin Dam project on the Tallapoosa River, means Alexander City has far more lake-adjacent property than a typical Piedmont town its size. Coves and inlets along that shoreline hold still water that warms quickly in summer, giving mosquitoes reliable breeding sites through most of the warm season. Properties directly on the lake benefit from a barrier spray program timed to that extended window, while homes further from the water see a shorter, more typical Alabama mosquito season.",
+      },
+      {
+        heading: "How old is the housing stock near Alexander City's historic mill district?",
+        body: "Much of Alexander City's core neighborhoods grew up around the Russell Corporation textile mill that anchored the local economy through most of the twentieth century, and that means a meaningful share of the city's homes are old enough to carry real subterranean termite exposure. Piedmont clay soil in Tallapoosa County holds moisture well and keeps termite colonies active later into the fall than sandier soil would allow, which is part of why Alabama Cooperative Extension consistently ranks the state among the higher termite pressure regions nationally.",
+      },
+      {
+        heading: "Are fire ants a bigger problem on lakeside lots around Alexander City?",
+        body: "Fire ants spread readily through Tallapoosa County's mild winters, and the open, mowed lawns common on lakeside and second-home lots around Lake Martin give colonies plenty of undisturbed ground to rebuild in after treatment. A twice-yearly broadcast bait application across the full property, rather than spot-treating individual mounds, tends to hold colonies down better on these larger lakeside lots than the mound-by-mound approach that might work on a smaller in-town yard.",
+      },
+    ],
+    prevention: [
+      "Schedule a termite inspection annually given the age of homes near Alexander City's historic mill district.",
+      "Run a seasonal mosquito barrier program on lake-adjacent properties through the warmer months.",
+      "Apply broadcast fire ant bait twice a year rather than treating individual mounds.",
+      "Check wooded, lake-facing lots for moisture-damaged wood that could attract carpenter ants.",
+      "Seal foundation gaps on older mill-district homes before cooler weather brings pests indoors.",
+    ],
+    costNote:
+      "Termite inspections in Alexander City typically run $150 to $300 given the age of the mill-district housing stock. Lake-adjacent mosquito barrier programs are often priced as a seasonal add-on given the extended breeding season Lake Martin creates. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Alexander City need more mosquito control than a typical inland Alabama town?",
+        answer: "Lake Martin's more than 700 miles of shoreline gives Alexander City far more standing water in coves and inlets than a landlocked Piedmont town would have, and that extends the mosquito breeding season on lake-adjacent properties well past what an inland home in the same county would experience.",
+      },
+      {
+        question: "Is termite risk higher in Alexander City's older mill neighborhoods?",
+        answer: "Yes. The neighborhoods that grew up around the historic Russell Corporation textile mill are old enough now that subterranean termite exposure is a genuine ongoing concern, and Tallapoosa County's Piedmont clay soil holds moisture in a way that keeps colonies active later into the year.",
+      },
+      {
+        question: "Do lakeside properties near Alexander City need different fire ant treatment than in-town lots?",
+        answer: "Often, yes. The larger open lawns common on Lake Martin lots give fire ant colonies more undisturbed ground to spread through, so a broadcast bait application across the whole property usually holds up better than treating individual mounds one at a time.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Sylacauga", slug: "sylacauga", stateSlug: "alabama" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Alexander City, AL | Lake Martin Termites & Mosquitoes",
+    metaDescription:
+      "Alexander City, AL pest control for Lake Martin mosquitoes, mill-district termites, fire ants, and carpenter ants. Free inspection.",
+  },
+  {
+    slug: "troy-al",
+    name: "Troy",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~17,730",
+    county: "Pike County",
+    climate: "hot-humid",
+    climateDriver:
+      "Troy is the Pike County seat in Alabama's Wiregrass region, hot, humid summers and mild winters typical of the state's southeastern corner. Troy University, the fourth largest school by enrollment in Alabama, drives a large seasonal rental market around campus, with student housing turning over twice a year at the start and end of each semester.",
+    topPests: ["Bed Bugs", "German Cockroaches", "Subterranean Termites", "Fire Ants"],
+    pestProfile: [
+      {
+        name: "Bed Bugs",
+        serviceSlug: "bed-bug-treatment",
+        activeSeason: "Year-round, spikes at semester turnover",
+        note: "Troy University's large enrollment means student rentals near campus turn over twice a year, and bed bugs travel easily in the moving boxes, furniture, and luggage that come with that turnover if units aren't inspected between tenants.",
+      },
+      {
+        name: "German Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round",
+        note: "Dense student housing and the restaurants that serve Troy University's campus give German cockroaches steady food and shelter access year round, worse during Wiregrass Alabama's humid summer months.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Pike County's warm Wiregrass climate keeps subterranean termite colonies active later into the year than northern Alabama sees, a real concern for Troy's older homes away from the newer student housing corridor.",
+      },
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Year-round, worse spring and fall",
+        note: "Troy's mild Wiregrass winters do little to suppress fire ant colonies, and mounds rebuild quickly in the lawns around both residential neighborhoods and the Troy University campus.",
+      },
+    ],
+    localHook:
+      "Troy was incorporated in 1843 in an area long settled by Muskogee Creek communities along the nearby Conecuh and Pea Rivers before it became the Pike County seat. The city's population and housing stock changed considerably once Troy University, now the fourth largest school in Alabama by enrollment, grew into a major regional employer and landlord, with dense student rental housing concentrated near campus alongside the city's older residential neighborhoods.",
+    intro:
+      "A college town needs a different pest plan than a typical Wiregrass county seat, and Troy is a clear example of why. Troy University's enrollment, the fourth largest of any school in the state, drives a rental market around campus that turns over twice a year, at the start of each fall and spring semester, and that turnover is exactly the kind of disruption that lets bed bugs travel from one unit to the next. The restaurants and dense housing that serve that student population also keep German cockroaches active year round. Away from the campus corridor, Troy's older residential streets carry the more familiar Wiregrass Alabama pest picture: subterranean termites active for a longer season than northern Alabama experiences, and fire ants that barely slow down in the area's mild winters. Few Pike County towns see this split between a campus-driven pest calendar and a residential one within the same city limits.",
+    sections: [
+      {
+        heading: "Why does Troy University's enrollment affect bed bug risk near campus?",
+        body: "Troy University enrolls a large student population, the fourth highest of any Alabama school, and the rental housing around campus turns over at the start and end of every fall and spring semester. That turnover means new tenants, often arriving with luggage or furniture from a previous location, move into units without necessarily knowing what the last occupant left behind. Landlords who do not inspect between tenants can unknowingly pass an infestation from one group of renters to the next, which is why inspection at move-in and move-out matters more in Troy's campus-adjacent rentals than in its older single-family neighborhoods.",
+      },
+      {
+        heading: "How long does termite season run in Troy compared to northern Alabama?",
+        body: "Troy sits in Alabama's Wiregrass region, and the area's warm, humid climate keeps subterranean termite colonies active later into the fall than a town in the northern part of the state would see. Pike County's older residential streets, away from the newer student housing corridor near campus, carry the state's typical termite pressure for homes of their age, and an annual inspection is the standard recommendation given how long the active season runs here.",
+      },
+      {
+        heading: "Do fire ants stay active through the winter in Troy?",
+        body: "Largely yes. Troy's Wiregrass winters rarely get cold enough for long enough to knock back an established fire ant colony, and mounds tend to rebuild within weeks of a rain event throughout most of the year. Both the residential lawns around Troy and the open lawn areas near the Troy University campus see this same year-round pressure, and broadcast bait treatment in spring and fall works better against it than spot-treating mounds as they reappear.",
+      },
+    ],
+    prevention: [
+      "Inspect student rentals near Troy University for bed bugs at every tenant turnover.",
+      "Keep a recurring cockroach service in place for restaurants and dense housing near campus.",
+      "Schedule an annual termite inspection given how long Troy's Wiregrass termite season runs.",
+      "Apply broadcast fire ant bait in spring and fall rather than treating individual mounds.",
+      "Seal gaps around door thresholds in older Troy homes to reduce general pest entry.",
+    ],
+    costNote:
+      "Bed bug treatment for a single Troy rental unit typically runs higher than a whole-property fire ant or cockroach service, given the room-by-room work involved, and landlords with multiple units near campus often set up a standing inspection schedule instead. Termite inspections run $150 to $300 depending on the age of the home. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is bed bug risk higher near the Troy University campus?",
+        answer: "Troy University's enrollment, the fourth largest of any Alabama school, drives twice-yearly turnover in the rental housing around campus, and bed bugs travel easily in the boxes, furniture, and luggage that come with move-in and move-out if a unit isn't inspected between tenants.",
+      },
+      {
+        question: "Is Troy's termite season longer than towns further north in Alabama?",
+        answer: "Yes. Troy sits in the Wiregrass region, and the warmer, more humid climate there keeps subterranean termite colonies active later into the fall than a comparable town in northern Alabama would experience.",
+      },
+      {
+        question: "Do fire ants slow down during Troy's winter?",
+        answer: "Not much. Pike County's mild Wiregrass winters rarely stay cold long enough to suppress an established colony, so fire ant mounds around Troy tend to rebuild within weeks of a rain event nearly year round.",
+      },
+    ],
+    author: "James Cole, Service Operations Manager, PestRemovalUSA",
+    nearbyCities: [
+      { name: "Birmingham", slug: "birmingham", stateSlug: "alabama" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Troy, AL | Campus Bed Bugs, Termites & Fire Ants",
+    metaDescription:
+      "Troy, AL pest control for student-housing bed bugs, Wiregrass termites, fire ants, and cockroaches. Free inspection.",
+  },
+  {
+    slug: "eufaula-al",
+    name: "Eufaula",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~12,880",
+    county: "Barbour County",
+    climate: "hot-humid",
+    climateDriver:
+      "Eufaula sits in Barbour County along the Chattahoochee River in Alabama's Wiregrass and Black Belt border region, hot, humid summers typical of southeast Alabama. The U.S. Army Corps of Engineers' 1963 completion of the Walter F. George Lock and Dam impounded the river into Lake Eufaula, a reservoir covering about 71 square miles. The city's Seth Lore Historic District holds one of Alabama's largest concentrations of antebellum and Victorian-era homes, many predating the Civil War, giving Eufaula an unusually old average housing age for a town its size.",
+    topPests: ["Subterranean Termites", "Mosquitoes", "Carpenter Ants", "Cockroaches"],
+    pestProfile: [
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Eufaula's Seth Lore Historic District holds one of Alabama's largest concentrations of antebellum and Victorian-era homes, and that century-plus-old wood construction carries decades of accumulated subterranean termite exposure in the warm, humid Chattahoochee River valley climate.",
+      },
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "Lake Eufaula's roughly 71 square miles of surface water, impounded behind the Walter F. George Dam since 1963, gives mosquitoes far more standing-water breeding habitat around Eufaula than a Black Belt town without a major reservoir would have.",
+      },
+      {
+        name: "Carpenter Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through summer",
+        note: "Moisture that collects in the aging wood trim and porches of Eufaula's historic homes gives carpenter ants an entry point that newer construction in the area typically does not have.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "American and German cockroaches find steady shelter in Eufaula's older downtown commercial buildings and historic homes, worse during the region's humid summer months.",
+      },
+    ],
+    localHook:
+      "The U.S. Army Corps of Engineers completed the Walter F. George Lock and Dam in 1963, impounding the Chattahoochee River into Lake Eufaula, a reservoir covering about 71 square miles that reshaped the local economy around tourism and recreational fishing. Eufaula is also known for the Seth Lore Historic District, one of Alabama's largest concentrations of antebellum and Victorian-era homes, and the city has hosted the Eufaula Pilgrimage tour of its historic houses each spring since 1965.",
+    intro:
+      "Eufaula carries two very different sources of pest pressure, and neither one is subtle. Lake Eufaula, created when the Army Corps of Engineers closed the Walter F. George Dam on the Chattahoochee River in 1963, backs up about 71 square miles of water right against the edge of town, and that much still water keeps mosquitoes breeding through most of the warm season. A few blocks away, the Seth Lore Historic District holds one of the largest concentrations of antebellum and Victorian-era homes anywhere in Alabama, houses old enough that subterranean termites and carpenter ants have had well over a century to work into the wood. Downtown commercial buildings serving the tourism and fishing trade the lake now supports add a third pressure point, steady cockroach activity in older structures. A pest control plan built for a typical Barbour County property misses most of what actually drives Eufaula's pest calendar.",
+    sections: [
+      {
+        heading: "How does Lake Eufaula affect mosquito pressure around town?",
+        body: "Lake Eufaula formed in 1963 when the Army Corps of Engineers completed the Walter F. George Lock and Dam on the Chattahoochee River, and the reservoir now covers roughly 71 square miles along the edge of the city. That much still water gives mosquitoes a breeding habitat that a Barbour County town without a major reservoir simply would not have, and properties closest to the lake typically need a longer seasonal treatment window than homes further inland.",
+      },
+      {
+        heading: "Why does Eufaula's historic district need closer termite attention?",
+        body: "The Seth Lore Historic District holds one of the largest concentrations of antebellum and Victorian-era homes in Alabama, some predating the Civil War, and wood construction of that age has had generations to accumulate subterranean termite exposure in the warm, humid Chattahoochee River valley climate. Owners of these historic properties are usually better served by an annual inspection tied to the home's specific age and construction rather than a generic regional termite schedule.",
+      },
+      {
+        heading: "Do Eufaula's downtown commercial buildings see different pest pressure than nearby homes?",
+        body: "Yes, mainly cockroaches. The older commercial buildings downtown, many serving the tourism and recreational fishing trade that grew up around Lake Eufaula, hold consistent food and moisture sources that keep American and German cockroaches active year round, worse during the humid summer months typical of this stretch of the Chattahoochee River valley. A recurring scheduled service tends to work better here than the seasonal approach that suits a nearby single-family home.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection tied to the specific age of homes in Eufaula's historic district.",
+      "Run a seasonal mosquito barrier program on properties near Lake Eufaula's shoreline.",
+      "Check porches and wood trim on older homes for moisture damage that attracts carpenter ants.",
+      "Keep a recurring cockroach service in place for downtown commercial buildings.",
+      "Clear gutters and low areas on historic properties to reduce standing water near the foundation.",
+    ],
+    costNote:
+      "Termite inspections for Eufaula's historic district homes often run toward the higher end of the typical $150 to $300 range given the age and construction detail involved. Lake-adjacent mosquito barrier programs are usually priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why is termite risk higher in Eufaula's historic district?",
+        answer: "The Seth Lore Historic District holds one of Alabama's largest concentrations of antebellum and Victorian-era homes, some predating the Civil War, and wood construction that old has had well over a century to accumulate subterranean termite exposure in the area's warm, humid climate.",
+      },
+      {
+        question: "Does Lake Eufaula increase mosquito pressure in town?",
+        answer: "Yes. The lake, formed in 1963 when the Walter F. George Dam impounded the Chattahoochee River, covers about 71 square miles right along the edge of Eufaula, and that much standing water sustains mosquito breeding through most of the warm season.",
+      },
+      {
+        question: "Do Eufaula's downtown buildings need a different pest plan than the historic homes nearby?",
+        answer: "Often yes, mainly for cockroaches. The commercial buildings downtown that serve the tourism and fishing trade around Lake Eufaula hold steady food and moisture sources that keep cockroach activity high year round, which usually calls for a recurring scheduled service rather than the seasonal plan suited to a historic home.",
+      },
+    ],
+    author: "Sandra Whitfield, Integrated Pest Management & Pesticide Safety Specialist",
+    nearbyCities: [
+      { name: "Phenix City", slug: "phenix-city", stateSlug: "alabama" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Eufaula, AL | Historic Home Termites & Lake Mosquitoes",
+    metaDescription:
+      "Eufaula, AL pest control for historic-district termites, Lake Eufaula mosquitoes, carpenter ants, and cockroaches. Free inspection.",
+  },
+  {
+    slug: "muscle-shoals-al",
+    name: "Muscle Shoals",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~16,280",
+    county: "Colbert County",
+    climate: "hot-humid",
+    climateDriver:
+      "Muscle Shoals sits on the Tennessee River in Colbert County, part of Alabama's Tennessee Valley, hot, humid summers and cooler winters than the rest of the state typically sees. The city grew up around the hydroelectric and nitrate-production complex the federal government built on the river beginning in World War One, with Wilson Dam finally completed in 1924, and much of the surrounding Tennessee Valley Authority-era development shaped the area's housing and industrial base for decades afterward.",
+    topPests: ["Mosquitoes", "Subterranean Termites", "Cockroaches", "Ticks"],
+    pestProfile: [
+      {
+        name: "Mosquitoes",
+        serviceSlug: "mosquito-control",
+        activeSeason: "Spring through fall",
+        note: "The Tennessee River and the shallow shoal areas the city takes its name from give Muscle Shoals sustained mosquito breeding habitat through the warm season, longer than a Colbert County town away from the river typically experiences.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Housing built up during the decades of TVA-era industrial growth following Wilson Dam's 1924 completion is now old enough to carry real subterranean termite exposure in the Tennessee Valley's warm, humid climate.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Industrial and commercial buildings tied to Muscle Shoals' manufacturing base give cockroaches steady shelter and food access, worse during the humid Tennessee Valley summer.",
+      },
+      {
+        name: "Ticks",
+        serviceSlug: "flea-tick-treatment",
+        activeSeason: "Spring through fall",
+        note: "Wooded riverside areas within the Muscle Shoals National Heritage Area give ticks cover close to residential neighborhoods along the Tennessee River.",
+      },
+    ],
+    localHook:
+      "President Wilson authorized a dam on the Tennessee River at Muscle Shoals during World War One to power nitrate production for munitions, though the dam itself, Wilson Dam, was not completed until 1924. The city's name comes from a former shallow, mussel-rich stretch of the Tennessee River that early settlers called the Muscle Shoals. That federal hydroelectric and industrial investment shaped Colbert County's growth for decades, and the area today sits within the Muscle Shoals National Heritage Area, an 80-mile stretch of river recognized for its history.",
+    intro:
+      "Muscle Shoals owes its name and much of its growth to the same body of water, the Tennessee River, and that connection still shapes what pest control looks like here. President Wilson's World War One era push for a dam to power nitrate production eventually delivered Wilson Dam in 1924, and the industrial and residential growth that followed built up a housing stock old enough now to carry genuine subterranean termite exposure in the Tennessee Valley's warm, humid climate. The river itself, including the shallow shoal areas the city was named for, keeps mosquitoes breeding through a longer season than a landlocked Colbert County property would see. Wooded riverside land within the Muscle Shoals National Heritage Area adds tick exposure for homes near the water, and the manufacturing base that grew up around the dam era keeps cockroaches active in older industrial buildings. Few Alabama towns have a name, an economy, and a pest calendar all tracing back to the same river.",
+    sections: [
+      {
+        heading: "Why does the Tennessee River drive mosquito pressure in Muscle Shoals?",
+        body: "Muscle Shoals takes its name from a shallow, mussel-rich stretch of the Tennessee River, and that same river geography gives the city a longer, more consistent mosquito breeding season than a Colbert County town set back from the water. Riverside neighborhoods see the heaviest pressure, and a barrier spray program timed to the warm season addresses it more effectively than treating standing water alone.",
+      },
+      {
+        heading: "How did Wilson Dam's construction shape Muscle Shoals' termite risk today?",
+        body: "Wilson Dam was authorized during World War One to power nitrate production and finally completed in 1924, and the industrial and residential growth that followed built up much of Muscle Shoals' older housing stock during that era. Homes from that period are now old enough to carry real subterranean termite exposure, and the Tennessee Valley's warm, humid climate keeps colonies active later into the year than a cooler region would allow.",
+      },
+      {
+        heading: "Are ticks more of a concern near the river in Muscle Shoals?",
+        body: "Yes, for homes closer to the wooded riverside land within the Muscle Shoals National Heritage Area, an 80-mile stretch of the Tennessee River recognized for its history. That wooded, undisturbed ground gives ticks more cover close to residential yards than a property set further back from the river would encounter, and checking pets and family members after time outdoors near the water is a practical precaution.",
+      },
+    ],
+    prevention: [
+      "Run a mosquito barrier program through the warm season for properties near the Tennessee River shoreline.",
+      "Schedule an annual termite inspection for homes dating to Muscle Shoals' TVA-era growth.",
+      "Keep a recurring cockroach service in place for older industrial and commercial buildings.",
+      "Check for ticks after time spent in wooded riverside areas near the Heritage Area.",
+      "Seal foundation gaps in older homes to reduce general pest entry ahead of cooler months.",
+    ],
+    costNote:
+      "Termite inspections in Muscle Shoals typically run $150 to $300 depending on the age of the home. River-adjacent mosquito barrier programs are often priced as a seasonal add-on. Free inspection included.",
+    faqs: [
+      {
+        question: "Why does Muscle Shoals have a longer mosquito season than inland Colbert County towns?",
+        answer: "Muscle Shoals sits directly on the Tennessee River, including the shallow shoal areas the city is named for, and that river geography sustains mosquito breeding through a longer stretch of the warm season than a town set back from the water would experience.",
+      },
+      {
+        question: "Is termite risk tied to Muscle Shoals' dam-era history?",
+        answer: "Yes. Much of the city's older housing stock was built up during the growth that followed Wilson Dam's 1924 completion, and homes from that era are now old enough to carry real subterranean termite exposure in the Tennessee Valley's warm, humid climate.",
+      },
+      {
+        question: "Do riverside homes in Muscle Shoals see more ticks?",
+        answer: "Often, yes. Wooded land within the Muscle Shoals National Heritage Area along the Tennessee River gives ticks more cover close to residential yards than a property further from the water typically has.",
+      },
+    ],
+    author: "Marcus Reed, Lead Pest Control Technician, State-Licensed Applicator",
+    nearbyCities: [
+      { name: "Florence", slug: "florence", stateSlug: "alabama" },
+      { name: "Decatur", slug: "decatur-al", stateSlug: "alabama" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Muscle Shoals, AL | River Mosquitoes & Termites",
+    metaDescription:
+      "Muscle Shoals, AL pest control for Tennessee River mosquitoes, dam-era termites, ticks, and cockroaches. Free inspection.",
+  },
+  {
+    slug: "arab-al",
+    name: "Arab",
+    state: "Alabama",
+    stateSlug: "alabama",
+    stateAbbr: "AL",
+    tier: "T3",
+    population: "~8,460",
+    county: "Marshall County",
+    climate: "hot-humid",
+    climateDriver:
+      "Arab sits atop Brindlee Mountain at roughly 1,100 feet, part of the southwestern tip of the Appalachian Plateau, giving the city cooler and less humid conditions than Tennessee Valley towns like nearby Huntsville that sit closer to 600 feet. The surrounding Sand Mountain and Brindlee Mountain plateau region is one of Alabama's most concentrated poultry-farming areas, and Arab's growth has been shaped both by that agricultural base and by commuting workers drawn to Redstone Arsenal and the Marshall Space Flight Center in Huntsville.",
+    topPests: ["Fire Ants", "Subterranean Termites", "Cockroaches", "Mice"],
+    pestProfile: [
+      {
+        name: "Fire Ants",
+        serviceSlug: "ant-control",
+        activeSeason: "Spring through fall, milder in winter",
+        note: "Arab's elevation atop Brindlee Mountain brings slightly cooler winters than the Tennessee Valley towns below, which can slow fire ant colonies somewhat compared to lower-elevation Marshall County properties, though mounds still rebuild through the warmer months.",
+      },
+      {
+        name: "Subterranean Termites",
+        serviceSlug: "termite-treatment",
+        activeSeason: "Spring swarming, active through fall",
+        note: "Termite pressure around Arab runs a bit lighter than in the warmer valley towns nearby, but the plateau's older homes still carry real exposure and an annual inspection remains the standard recommendation.",
+      },
+      {
+        name: "Cockroaches",
+        serviceSlug: "cockroach-control",
+        activeSeason: "Year-round, worse in warm months",
+        note: "Restaurants and grocery distribution tied to the surrounding Sand Mountain poultry industry give German cockroaches steady food access in Arab's commercial buildings year round.",
+      },
+      {
+        name: "Mice",
+        serviceSlug: "mice-control",
+        activeSeason: "Fall through winter",
+        note: "The farmland and poultry operations surrounding Arab give mice plenty of outdoor shelter that sends them looking for a way into nearby homes once fall temperatures drop.",
+      },
+    ],
+    localHook:
+      "Arab's name traces back to an 1882 post office application: founder Stephen Tuttle Thompson's community was known as Thompson's Village, and when he submitted three possible names, Ink, Blue Bird, and Arad, after his son Ranson Arad Thompson, the federal government misspelled the choice as Arab. The city sits atop Brindlee Mountain near the southwest end of the Appalachian Plateau, at the edge of the Sand Mountain region long known for concentrated poultry farming, and its more recent growth has been driven by commuters working at Redstone Arsenal and the Marshall Space Flight Center in nearby Huntsville.",
+    intro:
+      "Arab got its name from a clerical error, a federal post office committee misspelling the name Arad in 1882, and that quirk of history is far from the only unusual thing about this Marshall County plateau town. Sitting atop Brindlee Mountain at roughly 1,100 feet, Arab runs a few degrees cooler and noticeably less humid than Tennessee Valley towns like Huntsville sitting 500 feet lower, and that elevation takes some of the edge off the fire ant and termite pressure that valley properties deal with, though neither pest disappears. The Sand Mountain region surrounding Arab is one of Alabama's most concentrated poultry-farming areas, and that agricultural base keeps cockroaches busy in commercial buildings and sends mice looking for shelter in nearby homes once the weather turns cold. Growth tied to Redstone Arsenal and Marshall Space Flight Center commuters has changed the town considerably in recent decades, but the plateau elevation and the surrounding farmland remain the two forces that shape Arab's pest calendar the most.",
+    sections: [
+      {
+        heading: "Does Arab's elevation on Brindlee Mountain reduce fire ant and termite pressure?",
+        body: "Somewhat. Arab sits at roughly 1,100 feet atop Brindlee Mountain, cooler and less humid than Tennessee Valley towns like Huntsville at closer to 600 feet, and that modest elevation gain takes some pressure off fire ant colonies and subterranean termites compared to lower-lying Marshall County properties. Neither pest goes away, homes on the plateau still see mounds rebuild through the warm months and still warrant an annual termite inspection, but the season tends to run a touch shorter than it does down in the valley.",
+      },
+      {
+        heading: "How does the Sand Mountain poultry industry affect pest pressure in Arab?",
+        body: "The plateau region around Arab is one of Alabama's most concentrated poultry-farming areas, and that agricultural base shapes local pest pressure in a couple of ways. Restaurants and food distribution businesses tied to the industry keep German cockroaches active in commercial buildings year round, and the farmland surrounding town gives mice plenty of outdoor cover that sends them looking for a way indoors once fall temperatures drop.",
+      },
+      {
+        heading: "Has growth from Huntsville commuters changed pest control needs in Arab?",
+        body: "Arab has grown steadily as workers commuting to Redstone Arsenal and the Marshall Space Flight Center in Huntsville have moved in, and newer residential construction on the plateau brings its own termite entry points, foundation gaps and expansion joints, that are different from the concerns in the town's older housing. A newer Arab home still benefits from establishing termite protection early rather than waiting for visible damage.",
+      },
+    ],
+    prevention: [
+      "Schedule an annual termite inspection even though Arab's plateau elevation runs slightly lighter termite pressure than the valley towns nearby.",
+      "Apply fire ant bait through the warm season, since colonies still rebuild despite the cooler elevation.",
+      "Keep a recurring cockroach service in place for restaurants and commercial buildings tied to the local poultry industry.",
+      "Seal foundation gaps before fall to reduce mice moving in from surrounding farmland.",
+      "Set up termite protection early in newer construction rather than waiting for visible damage.",
+    ],
+    costNote:
+      "Termite inspections in Arab typically run toward the lower end of the standard $150 to $300 range given the plateau's slightly lighter pressure compared to Tennessee Valley towns. Fire ant broadcast treatment runs $80 to $180 depending on property size. Free inspection included.",
+    faqs: [
+      {
+        question: "Is fire ant pressure lower in Arab than in nearby Huntsville?",
+        answer: "A bit, yes. Arab sits atop Brindlee Mountain at roughly 1,100 feet, cooler and less humid than Huntsville at closer to 600 feet, and that elevation takes some edge off fire ant activity, though colonies still rebuild through the warm months on the plateau.",
+      },
+      {
+        question: "Why are mice a concern in Arab specifically in the fall?",
+        answer: "Arab sits at the edge of the Sand Mountain region, one of Alabama's most concentrated poultry-farming areas, and the surrounding farmland gives mice plenty of outdoor cover in the warmer months before they look for a way into nearby homes once fall temperatures drop.",
+      },
+      {
+        question: "Where does the name Arab actually come from?",
+        answer: "Founder Stephen Tuttle Thompson submitted three possible post office names in 1882, including Arad after his son Ranson Arad Thompson, and the federal government misspelled the chosen name as Arab, which stuck as the town's name.",
+      },
+    ],
+    author: "Dr. Lena Ortiz, Board-Certified Entomologist (BCE), PestRemovalUSA",
+    nearbyCities: [
+      { name: "Boaz", slug: "boaz", stateSlug: "alabama" },
+      { name: "Guntersville", slug: "guntersville", stateSlug: "alabama" },
+    ],
+    contentTemplate: "A",
+    contentSoul: "operator",
+    metaTitle: "Pest Control in Arab, AL | Plateau Termites, Fire Ants & Mice",
+    metaDescription:
+      "Arab, AL pest control for Brindlee Mountain termites and fire ants, poultry-region cockroaches, and fall mice. Free inspection.",
+  },
 ];
